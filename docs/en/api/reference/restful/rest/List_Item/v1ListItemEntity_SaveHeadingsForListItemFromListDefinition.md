@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Dickinson Group",
-    "ToolTip": "Ut corrupti dolor ratione voluptatem ea sit magnam.",
-    "Deleted": false,
-    "Rank": 579,
-    "Type": "molestias",
-    "ColorBlock": 721,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2008-11-20T13:14:11.3048179+01:00",
+    "Id": 259,
+    "Name": "Okuneva, Hermiston and Conn",
+    "ToolTip": "Placeat sapiente iste fuga qui consequatur et.",
+    "Deleted": true,
+    "Rank": 913,
+    "Type": "consequatur",
+    "ColorBlock": 842,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2006-03-15T14:45:13.552405+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Rath, Klocko and Abbott",
-        "ToolTip": "Exercitationem eum amet.",
+        "Id": 203,
+        "Name": "Kohler-Pfeffer",
+        "ToolTip": "Pariatur expedita a.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "repudiandae",
-        "ColorBlock": 460,
-        "IconHint": "vitae",
+        "Rank": 974,
+        "Type": "ut",
+        "ColorBlock": 886,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "2002-06-28T13:14:11.3048179+02:00",
+        "LastChanged": "2016-04-14T14:45:13.552405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "natus",
-        "Hidden": false,
-        "FullName": "Germaine Ankunding"
+        "ExtraInfo": "aliquid",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Mr. Aiyana Kessler"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Ms. Joanne Schinner"
+    "ExtraInfo": "ut",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Asia Langworth"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Crist, Jacobson and Ullrich",
-    "ToolTip": "Ab et cum ut dolor.",
+    "Id": 729,
+    "Name": "Wintheiser Inc and Sons",
+    "ToolTip": "Ut adipisci occaecati accusantium est eos asperiores.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "ut",
-    "ColorBlock": 969,
-    "IconHint": "explicabo",
+    "Rank": 325,
+    "Type": "optio",
+    "ColorBlock": 612,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2007-11-03T13:14:11.3048179+01:00",
+    "LastChanged": "2003-07-28T14:45:13.5680288+02:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Purdy LLC",
-        "ToolTip": "Laudantium corrupti omnis ex ea laborum expedita sit.",
-        "Deleted": true,
-        "Rank": 931,
-        "Type": "reiciendis",
-        "ColorBlock": 969,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2018-08-23T13:14:11.3048179+02:00",
+        "Id": 206,
+        "Name": "Robel Inc and Sons",
+        "ToolTip": "Aut laudantium dolor et qui.",
+        "Deleted": false,
+        "Rank": 36,
+        "Type": "ea",
+        "ColorBlock": 556,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2012-01-26T14:45:13.5680288+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Miss Marcel Carter DVM",
+        "ExtraInfo": "at",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Bill Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 75
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Barrett Witting",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Fannie Sydney Balistreri V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 135
       }
     }
   }

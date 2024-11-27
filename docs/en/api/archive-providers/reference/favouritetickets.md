@@ -760,7 +760,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=tags,contact/email/emailAddress,contact/email/emailId,sale/stageRank,sale/associate/userName
+GET /api/v1/archive/FavouriteTickets?$select=content,messageLanguage,person/personExtra/x_person_appointment_relation,person/correspondingAssociate/personId,person/correspondingAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

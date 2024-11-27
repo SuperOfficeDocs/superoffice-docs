@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 636,
-  "Name": "Hegmann, Gerhold and Kuvalis",
-  "Tooltip": "vel",
-  "Rank": 896,
+  "SaleTypeId": 943,
+  "Name": "Kuphal, Wolf and Rempel",
+  "Tooltip": "magnam",
+  "Rank": 691,
   "DurationUnit": "Century",
-  "SaleDuration": 900,
-  "SaleTypeCatId": 564,
+  "SaleDuration": 488,
+  "SaleTypeCatId": 385,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 91,
-  "QuoteLinesTemplate": 845,
-  "ConfirmationLinesTemplate": 439,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 429,
+  "QuoteLinesTemplate": 882,
+  "ConfirmationLinesTemplate": 218,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 198,
-  "MinEarningPercent": 40,
-  "GroupQuoteLinesBy": 550,
-  "SortGroupLinesBy": 504,
+  "MaxDiscountPercent": 909,
+  "MinEarningPercent": 566,
+  "GroupQuoteLinesBy": 929,
+  "SortGroupLinesBy": 691,
   "Stages": [
     {
-      "Id": 360,
-      "Name": "Buckridge LLC",
-      "ToolTip": "Aliquid error voluptatem.",
+      "Id": 695,
+      "Name": "Bahringer-Marks",
+      "ToolTip": "Dolor pariatur velit nobis tempore.",
       "Deleted": false,
-      "Rank": 847,
-      "Type": "et",
-      "ColorBlock": 133,
-      "IconHint": "eum",
+      "Rank": 279,
+      "Type": "ea",
+      "ColorBlock": 74,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2000-12-11T13:14:11.5392071+01:00",
+      "LastChanged": "2019-05-15T14:45:13.9116989+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "rem",
-      "StyleHint": "fuga",
-      "Hidden": true,
-      "FullName": "Dr. Ralph Justus Wunsch Sr."
+      "ExtraInfo": "nihil",
+      "StyleHint": "excepturi",
+      "Hidden": false,
+      "FullName": "Mr. Llewellyn Rohan V"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 213,
-  "Name": "Johns-Gerhold",
-  "Tooltip": "et",
-  "Rank": 288,
+  "SaleTypeId": 190,
+  "Name": "Kilback-Mante",
+  "Tooltip": "dicta",
+  "Rank": 146,
   "DurationUnit": "Century",
-  "SaleDuration": 610,
-  "SaleTypeCatId": 935,
-  "Deleted": true,
+  "SaleDuration": 314,
+  "SaleTypeCatId": 612,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 431,
-  "QuoteLinesTemplate": 997,
-  "ConfirmationLinesTemplate": 788,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 247,
-  "MinEarningPercent": 12,
-  "GroupQuoteLinesBy": 21,
-  "SortGroupLinesBy": 979,
+  "DefaultQuoteValidity": 54,
+  "QuoteLinesTemplate": 883,
+  "ConfirmationLinesTemplate": 707,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 565,
+  "MinEarningPercent": 118,
+  "GroupQuoteLinesBy": 937,
+  "SortGroupLinesBy": 573,
   "Stages": [
     {
-      "Id": 611,
-      "Name": "Fadel LLC",
-      "ToolTip": "Ut quidem.",
+      "Id": 31,
+      "Name": "Quigley, Reichert and Anderson",
+      "ToolTip": "Vel optio ullam.",
       "Deleted": false,
-      "Rank": 189,
-      "Type": "officiis",
-      "ColorBlock": 935,
-      "IconHint": "velit",
-      "Selected": true,
-      "LastChanged": "2003-03-18T13:14:11.5392071+01:00",
+      "Rank": 994,
+      "Type": "nam",
+      "ColorBlock": 613,
+      "IconHint": "sunt",
+      "Selected": false,
+      "LastChanged": "1999-03-24T14:45:13.9116989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "incidunt",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "qui",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Alfonzo Dena Blick Jr.",
+      "FullName": "Mr. Jakayla Lyda Gutmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 30
     }
   }
 }

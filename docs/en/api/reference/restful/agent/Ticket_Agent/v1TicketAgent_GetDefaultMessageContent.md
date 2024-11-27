@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 813,
+  "TicketId": 8,
   "MessageActionType": "Forward",
-  "TicketMessageId": 942
+  "TicketMessageId": 417
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"tempore"
+"dolorum"
 ```

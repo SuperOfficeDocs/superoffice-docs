@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=False
+GET /api/v1/List/Competitor/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Koch Group",
-    "Tooltip": "nesciunt",
+    "Id": 931,
+    "Name": "Mante-Ankunding",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 535,
-    "Rank": 832,
+    "UdListDefinitionId": 860,
+    "Rank": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 979
       }
     }
   }

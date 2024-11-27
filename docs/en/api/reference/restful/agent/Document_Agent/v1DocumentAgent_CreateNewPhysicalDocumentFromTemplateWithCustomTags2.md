@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 578,
-  "PersonId": 328,
-  "AppointmentId": 211,
-  "DocumentId": 455,
-  "SaleId": 160,
-  "SelectionId": 129,
-  "ProjectId": 763,
+  "ContactId": 787,
+  "PersonId": 705,
+  "AppointmentId": 416,
+  "DocumentId": 295,
+  "SaleId": 540,
+  "SelectionId": 943,
+  "ProjectId": 544,
   "CustomTags": {
-    "CustomTags1": "quis",
-    "CustomTags2": "optio"
+    "CustomTags1": "voluptates",
+    "CustomTags2": "odio"
   },
-  "UiCulture": "officiis"
+  "UiCulture": "et"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 921,
+  "DocumentId": 236,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ad",
-  "Header": "et",
-  "Name": "Hessel-Dickinson",
-  "OurRef": "neque",
-  "YourRef": "et",
-  "CreatedDate": "2024-03-01T13:14:05.9132824+01:00",
-  "UpdatedDate": "2024-09-28T13:14:05.9132824+02:00",
-  "Description": "Mandatory systemic flexibility",
+  "Attention": "aut",
+  "Header": "ut",
+  "Name": "DuBuque Group",
+  "OurRef": "at",
+  "YourRef": "maxime",
+  "CreatedDate": "2014-11-15T14:45:05.4126533+01:00",
+  "UpdatedDate": "2006-09-16T14:45:05.4126533+02:00",
+  "Description": "Team-oriented zero defect middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-02-05T13:14:05.9132824+01:00",
-  "ExternalRef": "voluptatem",
+  "Date": "2011-05-05T14:45:05.4282744+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 421,
+  "ActiveLinks": 3,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bahringer, Christiansen and Will",
-      "Id": 529,
-      "Description": "Sharable global flexibility",
-      "ExtraInfo": "voluptas",
-      "LinkId": 796,
+      "EntityName": "Kerluke-Dach",
+      "Id": 103,
+      "Description": "Mandatory optimizing data-warehouse",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 465,
-  "Snum": 17,
+  "SuggestedDocumentId": 860,
+  "Snum": 420,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Carolanne Bayer"
+    "SuperOffice:1": "1247187797",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "alias"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "1999-02-02T13:14:05.9132824+01:00",
-  "PublishTo": "2024-01-01T13:14:05.9132824+01:00",
-  "PublishFrom": "2006-03-23T13:14:05.9132824+01:00",
+  "PublishEventDate": "2024-08-05T14:45:05.4282744+02:00",
+  "PublishTo": "2002-12-31T14:45:05.4282744+01:00",
+  "PublishFrom": "2000-02-07T14:45:05.4282744+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 432,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     },
     {
-      "VisibleId": 432,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 510
     }
   }
 }

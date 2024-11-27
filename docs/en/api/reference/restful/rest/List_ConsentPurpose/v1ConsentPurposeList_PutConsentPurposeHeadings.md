@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 412,
-    "Name": "Muller Inc and Sons",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "Rank": 264,
-    "UdListDefinitionId": 518
+    "HeadingId": 156,
+    "Name": "Kuphal, Kirlin and Watsica",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 112,
+    "UdListDefinitionId": 297
   },
   {
-    "HeadingId": 412,
-    "Name": "Muller Inc and Sons",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "Rank": 264,
-    "UdListDefinitionId": 518
+    "HeadingId": 156,
+    "Name": "Kuphal, Kirlin and Watsica",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 112,
+    "UdListDefinitionId": 297
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 190,
-    "Name": "Medhurst, Treutel and Huels",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 582,
-    "UdListDefinitionId": 156,
+    "HeadingId": 473,
+    "Name": "Cole, Predovic and Grady",
+    "Tooltip": "quidem",
+    "Deleted": true,
+    "Rank": 704,
+    "UdListDefinitionId": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

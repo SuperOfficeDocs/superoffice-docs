@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.GetPublishedAppointment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.GetPublishedAppointment'>GetPublishedAppointment</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.GetPublishedAppointment'>GetPublishedAppointment</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeGetPublishedAppointment
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetSupportedChangePasswordTypes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetSupportedChangePasswordTypes'>GetSupportedChangePasswordTypes</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetSupportedChangePasswordTypes'>GetSupportedChangePasswordTypes</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetSupportedChangePasswordTypes
 ```cs

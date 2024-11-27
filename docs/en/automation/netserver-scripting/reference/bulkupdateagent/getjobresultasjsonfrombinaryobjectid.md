@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId'>GetJobResultAsJsonFromBinaryObjectId</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId'>GetJobResultAsJsonFromBinaryObjectId</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeGetJobResultAsJsonFromBinaryObjectId
 ```cs

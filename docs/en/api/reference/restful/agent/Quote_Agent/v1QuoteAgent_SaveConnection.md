@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 509,
-  "ERPName": "Becker LLC",
-  "DisplayName": "Crooks-Sauer",
-  "DisplayDescription": "Digitized local strategy",
-  "Rank": 257,
-  "ConnectorName": "VonRueden, Schaefer and Purdy",
-  "ErpConnectionId": 171,
-  "ExtraData": "et",
+  "QuoteConnectionId": 559,
+  "ERPName": "Hoppe LLC",
+  "DisplayName": "Kautzer LLC",
+  "DisplayDescription": "Realigned demand-driven conglomeration",
+  "Rank": 632,
+  "ConnectorName": "Rodriguez-Cremin",
+  "ErpConnectionId": 394,
+  "ExtraData": "sunt",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 554,
-      "ERPPriceListKey": "facere",
-      "QuoteConnectionId": 668,
-      "Name": "Durgan-Schaefer",
-      "Description": "Seamless client-driven monitoring",
-      "Currency": "quasi",
-      "CurrencyName": "Aufderhar-Anderson",
-      "ValidFrom": "2021-04-18T13:14:06.3195563+02:00",
-      "ValidTo": "2014-03-23T13:14:06.3195563+01:00",
-      "IsActive": false,
+      "PriceListId": 662,
+      "ERPPriceListKey": "deserunt",
+      "QuoteConnectionId": 856,
+      "Name": "Kiehn Inc and Sons",
+      "Description": "Visionary eco-centric matrix",
+      "Currency": "omnis",
+      "CurrencyName": "Carter-Grant",
+      "ValidFrom": "1998-09-29T14:45:06.0687573+02:00",
+      "ValidTo": "2024-10-03T14:45:06.0687573+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 643
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    205,
-    400
+    929,
+    879
   ],
   "AssociateAccessIds": [
-    647,
-    447
+    249,
+    979
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldLength": 979
     }
   }
 }

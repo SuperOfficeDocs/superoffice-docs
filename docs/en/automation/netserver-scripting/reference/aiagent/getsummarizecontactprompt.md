@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AIAgent.GetSummarizeContactPrompt
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeContactPrompt'>GetSummarizeContactPrompt</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAIAgent.GetSummarizeContactPrompt'>GetSummarizeContactPrompt</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
 
 ## BeforeGetSummarizeContactPrompt
 ```cs

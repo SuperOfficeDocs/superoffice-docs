@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveAmountClassEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveAmountClassEntity'>SaveAmountClassEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveAmountClassEntity'>SaveAmountClassEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveAmountClassEntity
 ```cs

@@ -85,10 +85,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kulas, Ortiz and Adams",
-  "ProviderName": "Baumbach, Vandervort and Bogisich",
-  "Context": "vel",
-  "OwnerKeys": "dolorum"
+  "GuiName": "Larkin-Vandervort",
+  "ProviderName": "Ryan-Lind",
+  "Context": "et",
+  "OwnerKeys": "sed"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Klocko-Bashirian",
-      "DisplayTooltip": "non",
-      "DisplayType": "quod",
-      "CanOrderBy": false,
-      "Name": "Hagenes-Lemke",
+      "DisplayName": "Bartell, Kunze and Gusikowski",
+      "DisplayTooltip": "laboriosam",
+      "DisplayType": "tenetur",
+      "CanOrderBy": true,
+      "Name": "McLaughlin, Aufderhar and Witting",
       "CanRestrictBy": false,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Rippin-Mayert",
+      "RestrictionType": "sit",
+      "RestrictionListName": "Ryan-Hahn",
       "IsVisible": true,
-      "ExtraInfo": "doloremque",
-      "Width": "veritatis",
-      "IconHint": "minima",
-      "HeadingIconHint": "in"
+      "ExtraInfo": "tenetur",
+      "Width": "non",
+      "IconHint": "quam",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 945,
-      "Name": "Kunde-Fisher",
-      "ToolTip": "Temporibus unde optio assumenda.",
+      "Id": 378,
+      "Name": "Kutch Group",
+      "ToolTip": "Unde reprehenderit non expedita.",
       "Deleted": false,
-      "Rank": 688,
-      "Type": "quaerat",
-      "ColorBlock": 483,
-      "IconHint": "at",
+      "Rank": 568,
+      "Type": "dolores",
+      "ColorBlock": 28,
+      "IconHint": "accusamus",
       "Selected": false,
-      "LastChanged": "2021-09-02T13:14:05.507008+02:00",
+      "LastChanged": "2003-02-02T14:45:04.8502792+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "quia",
+      "ExtraInfo": "sequi",
+      "StyleHint": "illo",
       "Hidden": false,
-      "FullName": "Mr. Easton Zita Herman Sr.",
+      "FullName": "Delpha Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldType": "System.String",
+          "FieldLength": 130
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Weimann, Larkin and Feeney",
+      "Name": "Wintheiser-Ritchie",
       "Direction": "ASC"
     },
     {
-      "Name": "Weimann, Larkin and Feeney",
+      "Name": "Wintheiser-Ritchie",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "consequatur",
+  "OwnerKeys": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 497
     }
   }
 }

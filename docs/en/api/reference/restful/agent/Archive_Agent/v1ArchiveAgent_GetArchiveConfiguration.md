@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Langosh-Zieme",
-  "ProviderName": "Beier, Harris and Mertz"
+  "GuiName": "Anderson-Metz",
+  "ProviderName": "Brakus Group"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Crooks, Wiegand and Gusikowski",
-      "DisplayTooltip": "velit",
-      "DisplayType": "veritatis",
-      "CanOrderBy": true,
-      "Name": "Jewess, Mills and Flatley",
-      "CanRestrictBy": false,
-      "RestrictionType": "fugit",
-      "RestrictionListName": "Sipes, Beier and Crooks",
+      "DisplayName": "Farrell LLC",
+      "DisplayTooltip": "soluta",
+      "DisplayType": "excepturi",
+      "CanOrderBy": false,
+      "Name": "Hand, Donnelly and Keeling",
+      "CanRestrictBy": true,
+      "RestrictionType": "non",
+      "RestrictionListName": "Conn, Fadel and Langworth",
       "IsVisible": false,
-      "ExtraInfo": "suscipit",
-      "Width": "quia",
-      "IconHint": "quo",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "quisquam",
+      "Width": "excepturi",
+      "IconHint": "aspernatur",
+      "HeadingIconHint": "dolore"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 952,
-      "Name": "Sporer Inc and Sons",
-      "ToolTip": "Omnis molestiae ipsum exercitationem voluptatem et.",
-      "Deleted": false,
-      "Rank": 635,
-      "Type": "molestias",
-      "ColorBlock": 989,
-      "IconHint": "delectus",
-      "Selected": true,
-      "LastChanged": "2000-10-24T13:14:05.507008+02:00",
+      "Id": 110,
+      "Name": "Brown Inc and Sons",
+      "ToolTip": "Facilis consequuntur voluptatem amet accusantium quos et.",
+      "Deleted": true,
+      "Rank": 359,
+      "Type": "minima",
+      "ColorBlock": 653,
+      "IconHint": "molestiae",
+      "Selected": false,
+      "LastChanged": "2001-02-12T14:45:04.8346562+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "praesentium",
-      "StyleHint": "asperiores",
+      "ExtraInfo": "odit",
+      "StyleHint": "similique",
       "Hidden": false,
-      "FullName": "Mrs. Aubree Wintheiser II",
+      "FullName": "Dr. Jarrod Goodwin I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 882
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Kunde, Nitzsche and Reilly",
+      "Name": "Willms-Quitzon",
       "Direction": "ASC"
     },
     {
-      "Name": "Kunde, Nitzsche and Reilly",
+      "Name": "Willms-Quitzon",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "deserunt",
+  "OwnerKeys": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 506
     }
   }
 }

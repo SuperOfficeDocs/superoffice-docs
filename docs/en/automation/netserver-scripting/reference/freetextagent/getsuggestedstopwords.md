@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.GetSuggestedStopWords
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords'>GetSuggestedStopWords</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.GetSuggestedStopWords'>GetSuggestedStopWords</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeGetSuggestedStopWords
 ```cs

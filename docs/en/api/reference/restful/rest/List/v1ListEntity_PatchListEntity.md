@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quo",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quo",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Cassin-Wolf",
-  "Tooltip": "dicta",
+  "Id": 764,
+  "Name": "Hintz-Feil",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 770,
+  "Rank": 945,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldLength": 408
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

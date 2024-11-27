@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Runolfsson Group",
-  "StorageKey": "cumque"
+  "StorageType": "et",
+  "ProviderName": "Lesch-Kunde",
+  "StorageKey": "consequuntur"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heaney, Murray and Osinski",
+    "Name": "Abbott Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Heaney, Murray and Osinski",
+    "Name": "Abbott Group",
     "Direction": "ASC"
   }
 ]

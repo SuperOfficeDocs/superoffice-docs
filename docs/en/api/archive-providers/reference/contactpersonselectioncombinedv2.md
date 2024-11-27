@@ -470,6 +470,9 @@ Implementation of the provider for the combined selection
 |appointment/appointment/agenda| *None* |Agenda|  |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html|  |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId| *None* |Text ID|  |
+|appointment/appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|appointment/appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 |document/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |document/icon| *None* |Category: Displays the icon for an activity type|  |
 |document/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
@@ -535,13 +538,13 @@ Implementation of the provider for the combined selection
 |document/associate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |document/associate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |document/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|document/associate/otherGroups| *None* |Other groups: Other groups|  |
-|document/associate/userName| *None* |User name: User name|  |
-|document/associate/personEmail| *None* |E-mail|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/otherGroups| *None* |Other groups: Other groups|  |
+|document/associate/userName| *None* |User name: User name|  |
+|document/associate/personEmail| *None* |E-mail|  |
 |document/associate/locationAddress| *None* |Location: Location|  |
 |document/associate/isLocation| *None* |Is a location: Is a location|  |
 |document/documentUdef/SuperOffice:1| *None* |documentshorttext|  |
@@ -639,13 +642,13 @@ Implementation of the provider for the combined selection
 |personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |subscription|listAny|Subscription: Subscription for marketing| x |
 |legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -743,13 +746,13 @@ Implementation of the provider for the combined selection
 |personTargetRelation/firstName| *None* |Target - First name: Displays the contact's first name|  |
 |personTargetRelation/lastName| *None* |Target - Last name: Displays the contact's last name|  |
 |personTargetRelation/middleName| *None* |Target - Middle name: Displays the contact's middle name.|  |
-|personTargetRelation/fullName| *None* |Target - Contact: Displays the contact to which an item is linked|  |
-|personTargetRelation/contactId| *None* |Target - Company ID: Database ID of company|  |
-|personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/fullName| *None* |Target - Contact: Displays the contact to which an item is linked|  |
+|personTargetRelation/contactId| *None* |Target - Company ID: Database ID of company|  |
+|personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
@@ -847,13 +850,13 @@ Implementation of the provider for the combined selection
 |correspondingAssociate/contactCategory| *None* |Category: Category|  |
 |correspondingAssociate/role| *None* |Role : Role|  |
 |correspondingAssociate/assocName| *None* |User ID : User ID|  |
-|correspondingAssociate/assocTooltip| *None* |Description : Description|  |
-|correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
-|correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/assocTooltip| *None* |Description : Description|  |
+|correspondingAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+|correspondingAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |correspondingAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |correspondingAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
 |correspondingAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -951,13 +954,13 @@ Implementation of the provider for the combined selection
 |request/ownedBy/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
 |request/ownedBy/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
 |request/ownedBy/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|request/ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
-|request/ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
-|request/ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
+|request/ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
+|request/ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |request/ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |request/ownedBy/associateDbId| *None* |Owner - ID|  |
 |request/ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
@@ -1055,13 +1058,13 @@ Implementation of the provider for the combined selection
 |projectMembers/projectAssociate/ejDisplayName| *None* |Nick name: User's nick name in Service|  |
 |projectMembers/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-|projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|projectMembers/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|projectMembers/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
+|projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMembers/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName| *None* |User name: User name|  |
@@ -1159,13 +1162,13 @@ Implementation of the provider for the combined selection
 |personAppointment/appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
 |personAppointment/associate/firstName| *None* |First name: Displays the contact's first name|  |
 |personAppointment/associate/lastName| *None* |Last name: Displays the contact's last name|  |
-|personAppointment/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
-|personAppointment/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|personAppointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
+|personAppointment/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
+|personAppointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |personAppointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |personAppointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -1199,11 +1202,14 @@ Implementation of the provider for the combined selection
 |personAppointment/appointment/agenda| *None* |Agenda|  |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html|  |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId| *None* |Text ID|  |
+|personAppointment/appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|personAppointment/appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=getNoRows,email/emailLastSent,postAddress/line3,contactUdef/SuperOffice:12,LastCompletedActivity
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=activeErpLinks,NumberOfActivities,targetRelation/deletedDate,appointment/updatedByFullName,personExtra/x_person_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

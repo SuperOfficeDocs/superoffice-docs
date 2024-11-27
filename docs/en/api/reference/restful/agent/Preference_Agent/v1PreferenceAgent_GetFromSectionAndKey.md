@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quos",
-  "Key": "eveniet"
+  "Section": "dolores",
+  "Key": "maxime"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 455,
-  "Section": "non",
-  "Key": "et",
-  "Name": "Schowalter, Cormier and Brown",
+  "PrefDescId": 533,
+  "Section": "nam",
+  "Key": "aut",
+  "Name": "Kertzmann, Aufderhar and Emmerich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered regional toolset",
-  "IsBuiltin": true,
-  "TableName": "Windler, Casper and D'Amore",
-  "UserDefinedListId": 676,
-  "Rank": 230,
-  "SubGroup": "quae",
-  "MinLevel": 713,
-  "MaxValue": 997,
-  "MinValue": 49,
-  "RequiredLicense": "quia",
+  "Description": "Configurable scalable installation",
+  "IsBuiltin": false,
+  "TableName": "Mraz-Kovacek",
+  "UserDefinedListId": 880,
+  "Rank": 945,
+  "SubGroup": "sed",
+  "MinLevel": 833,
+  "MaxValue": 462,
+  "MinValue": 155,
+  "RequiredLicense": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 889
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 361
+  "AssociateId": 913
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 944,
-    "ERPName": "Vandervort-Daugherty",
-    "DisplayName": "Jones-Sipes",
-    "DisplayDescription": "Multi-channelled analyzing leverage",
-    "Rank": 390,
-    "ConnectorName": "McKenzie-Pacocha",
-    "ErpConnectionId": 518,
-    "ExtraData": "esse",
-    "IsAvailable": false,
+    "QuoteConnectionId": 380,
+    "ERPName": "Shields Inc and Sons",
+    "DisplayName": "Reinger, Bogisich and Langworth",
+    "DisplayDescription": "Multi-channelled 24/7 capability",
+    "Rank": 259,
+    "ConnectorName": "Stark-Wolff",
+    "ErpConnectionId": 853,
+    "ExtraData": "quis",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 716,
-        "ERPPriceListKey": "assumenda",
-        "QuoteConnectionId": 536,
-        "Name": "Rau, Bruen and Mills",
-        "Description": "Self-enabling optimizing framework",
-        "Currency": "aut",
-        "CurrencyName": "Goodwin-Johnson",
-        "ValidFrom": "2007-09-13T13:14:06.3351823+02:00",
-        "ValidTo": "2018-11-24T13:14:06.3351823+01:00",
-        "IsActive": false,
+        "PriceListId": 895,
+        "ERPPriceListKey": "odit",
+        "QuoteConnectionId": 95,
+        "Name": "Adams-Braun",
+        "Description": "Cross-platform homogeneous customer loyalty",
+        "Currency": "placeat",
+        "CurrencyName": "Spencer, Pouros and Lesch",
+        "ValidFrom": "2004-03-07T14:45:06.0687573+01:00",
+        "ValidTo": "2008-11-13T14:45:06.0687573+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 358
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      662,
-      468
+      515,
+      142
     ],
     "AssociateAccessIds": [
-      734,
-      700
+      130,
+      213
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

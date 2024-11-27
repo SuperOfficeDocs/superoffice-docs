@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 536,
-  "Name": "Mraz Inc and Sons",
-  "Tooltip": "sunt",
-  "VisibleColumns": 291,
-  "Rank": 955,
-  "AssocId": 619,
+  "DiaryViewId": 925,
+  "Name": "Corkery Inc and Sons",
+  "Tooltip": "accusantium",
+  "VisibleColumns": 501,
+  "Rank": 439,
+  "AssocId": 390,
   "AssociateList": [
     {
-      "Id": 542,
-      "Name": "Balistreri LLC",
-      "ToolTip": "Voluptas non numquam fugit officia.",
-      "Deleted": false,
-      "Rank": 52,
-      "Type": "voluptas",
-      "ColorBlock": 485,
-      "IconHint": "earum",
-      "Selected": true,
-      "LastChanged": "2008-08-17T13:14:05.6163893+02:00",
+      "Id": 707,
+      "Name": "Marks-Berge",
+      "ToolTip": "Dolores alias necessitatibus ut adipisci.",
+      "Deleted": true,
+      "Rank": 901,
+      "Type": "natus",
+      "ColorBlock": 141,
+      "IconHint": "pariatur",
+      "Selected": false,
+      "LastChanged": "2010-04-11T14:45:05.0221142+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "ut",
+      "ExtraInfo": "ea",
+      "StyleHint": "quaerat",
       "Hidden": false,
-      "FullName": "Lilyan Keeling",
+      "FullName": "Hulda Toy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 317
         }
       }
     }
   ],
-  "TzLocationId": 279,
+  "TzLocationId": 79,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldLength": 20
     }
   }
 }

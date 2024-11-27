@@ -10,7 +10,7 @@ so.envir: onsite
 
 # WebhookAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWebhookAgent'>WebhookAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IWebhookAgent'>WebhookAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultWebhook](createdefaultwebhook.md)
 * [DeleteWebhook](deletewebhook.md)

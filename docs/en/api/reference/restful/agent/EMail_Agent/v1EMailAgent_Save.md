@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 291,
-      "ContactName": "Gorczany LLC",
-      "PersonId": 98,
-      "PersonName": "Deckow, Predovic and Schmidt",
-      "AssociateId": 202,
-      "Address": "ipsum",
-      "EmailId": 602,
+      "ContactId": 193,
+      "ContactName": "Bauch LLC",
+      "PersonId": 436,
+      "PersonName": "Hettinger-Willms",
+      "AssociateId": 555,
+      "Address": "voluptatum",
+      "EmailId": 257,
       "DuplicatePersonIds": [
-        647,
-        264
+        350,
+        33
       ],
-      "Name": "Leuschke, Hackett and McGlynn",
+      "Name": "McGlynn Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldType": "System.Int32",
+          "FieldLength": 975
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 797,
-      "ContactName": "Nitzsche, Kunze and Conroy",
-      "PersonId": 78,
-      "PersonName": "Bernier, Cremin and Wiza",
-      "AssociateId": 453,
-      "Address": "corrupti",
-      "EmailId": 472,
+      "ContactId": 932,
+      "ContactName": "D'Amore, Bailey and Huel",
+      "PersonId": 802,
+      "PersonName": "Bechtelar Inc and Sons",
+      "AssociateId": 427,
+      "Address": "porro",
+      "EmailId": 316,
       "DuplicatePersonIds": [
-        171,
-        685
+        862,
+        178
       ],
-      "Name": "Breitenberg-Lebsack",
+      "Name": "Hilpert Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 819
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 603,
-      "ContactName": "Wilderman-King",
-      "PersonId": 977,
-      "PersonName": "Lebsack-Koepp",
-      "AssociateId": 826,
-      "Address": "animi",
-      "EmailId": 578,
+      "ContactId": 546,
+      "ContactName": "Altenwerth-Jacobi",
+      "PersonId": 874,
+      "PersonName": "Conn, Lebsack and Crist",
+      "AssociateId": 486,
+      "Address": "harum",
+      "EmailId": 289,
       "DuplicatePersonIds": [
-        432,
-        570
+        326,
+        533
       ],
-      "Name": "Johnston-Farrell",
+      "Name": "Bosco Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 404
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "voluptatem",
+  "Subject": "sit",
+  "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2012-07-05T13:14:05.9289081+02:00",
-  "Size": 398,
+  "Sent": "2022-04-26T14:45:05.4595178+02:00",
+  "Size": 697,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quaerat",
-  "PlainBody": "inventore",
-  "IsSent": true,
+  "MessageID": "saepe",
+  "PlainBody": "nihil",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 399,
+  "ServerId": 797,
   "Attachments": [
     {
-      "Description": "Cross-platform next generation throughput",
-      "Filename": "autem",
-      "Size": 713,
-      "Type": "aut",
-      "Encoding": "beatae",
-      "Id": "soluta",
-      "Disposition": "eveniet",
+      "Description": "User-friendly solution-oriented policy",
+      "Filename": "ut",
+      "Size": 802,
+      "Type": "sed",
+      "Encoding": "sit",
+      "Id": "doloribus",
+      "Disposition": "quis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 931
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bailey, Crooks and Rowe",
+      "Name": "Towne, Marvin and Boyer",
       "Values": [
-        "sint",
-        "at"
+        "repudiandae",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldType": "System.String",
+          "FieldLength": 725
         }
       }
     },
     {
-      "Name": "Bailey, Crooks and Rowe",
+      "Name": "Towne, Marvin and Boyer",
       "Values": [
-        "sint",
-        "at"
+        "repudiandae",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldType": "System.String",
+          "FieldLength": 725
         }
       }
     }
   ],
-  "FolderName": "Hackett Inc and Sons",
-  "EmailItemId": 513,
-  "AccountId": 962,
-  "ReceivedAt": "2013-12-14T13:14:05.9289081+01:00",
+  "FolderName": "Pouros Group",
+  "EmailItemId": 102,
+  "AccountId": 757,
+  "ReceivedAt": "2015-04-30T14:45:05.4595178+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-07-10T13:14:05.9289081+02:00",
+  "RepliedAt": "2022-06-08T14:45:05.4595178+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 812
     }
   }
 }

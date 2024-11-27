@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 690,
-    "Name": "D'Amore LLC",
-    "Tooltip": "iste",
-    "Rank": 101,
-    "Rate": 20806.626,
-    "Units": 30694.396,
-    "Deleted": true,
+    "CurrencyId": 560,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "provident",
+    "Rank": 781,
+    "Rate": 11294.936,
+    "Units": 9749.874,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 295
       }
     }
   }

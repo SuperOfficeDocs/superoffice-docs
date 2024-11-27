@@ -94,16 +94,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    867,
-    320
+    179,
+    230
   ],
-  "StartTime": "2024-10-15T13:14:05.2413666+02:00",
-  "EndTime": "2010-02-10T13:14:05.2413666+01:00"
+  "StartTime": "2008-03-06T14:45:04.4912235+01:00",
+  "EndTime": "2015-07-22T14:45:04.4912235+02:00"
 }
 ```
 
@@ -115,21 +115,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 865,
-    "AssociateId": 823,
-    "MotherId": 333,
-    "StartDate": "2013-01-22T13:14:05.2413666+01:00",
-    "EndDate": "2009-02-05T13:14:05.2413666+01:00",
+    "AppointmentId": 433,
+    "AssociateId": 867,
+    "MotherId": 533,
+    "StartDate": "2010-02-08T14:45:04.4912235+01:00",
+    "EndDate": "1997-11-22T14:45:04.4912235+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Denesik-Fritsch",
-    "ContactName": "Lesch Inc and Sons",
-    "ProjectName": "Beatty, Dicki and Zieme",
-    "Title": "molestiae",
-    "Agenda": "beatae",
+    "TaskName": "Erdman Inc and Sons",
+    "ContactName": "Klocko Group",
+    "ProjectName": "Heathcote-Sipes",
+    "Title": "quia",
+    "Agenda": "corrupti",
     "IsAllDay": false,
     "IsBusy": false,
-    "IsRecurring": false,
-    "IsVideoMeeting": true,
+    "IsRecurring": true,
+    "IsVideoMeeting": false,
     "HasAlarm": false,
     "IsCompleted": false,
     "IsTentative": true,
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

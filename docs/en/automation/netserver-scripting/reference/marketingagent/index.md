@@ -10,7 +10,7 @@ so.envir: onsite
 
 # MarketingAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IMarketingAgent'>MarketingAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IMarketingAgent'>MarketingAgent</see> that can trigger server-side event scripts.
 
 * [CalculateMailingStatistics](calculatemailingstatistics.md)
 * [CreateDefaultFormEntity](createdefaultformentity.md)

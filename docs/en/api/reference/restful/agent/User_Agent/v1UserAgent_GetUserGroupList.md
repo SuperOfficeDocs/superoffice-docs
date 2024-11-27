@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroupList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "excepturi",
-    "Tooltip": "facere",
-    "Id": 899,
-    "Rank": 335,
+    "Value": "veniam",
+    "Tooltip": "recusandae",
+    "Id": 602,
+    "Rank": 648,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 279
       }
     }
   }

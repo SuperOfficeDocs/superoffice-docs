@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Grimes Group",
-  "Tooltip": "nostrum",
+  "Id": 987,
+  "Name": "Kerluke-Hane",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 249,
-  "Rank": 865,
+  "UdListDefinitionId": 786,
+  "Rank": 327,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

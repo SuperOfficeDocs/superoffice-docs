@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 579
+  "DocumentId": 262
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 678,
-  "Name": "Bauch-Emard",
-  "ContentType": "et",
-  "AttSize": 37,
-  "InlineImage": false,
-  "ContentId": "maxime",
-  "AuthKey": "molestiae",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 195,
+  "Name": "Pagac-Franecki",
+  "ContentType": "sit",
+  "AttSize": 385,
+  "InlineImage": true,
+  "ContentId": "vel",
+  "AuthKey": "voluptas",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 735
     }
   }
 }

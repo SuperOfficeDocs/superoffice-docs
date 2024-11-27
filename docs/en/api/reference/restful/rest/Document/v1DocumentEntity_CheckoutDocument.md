@@ -82,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "velit",
+  "ExternalReference": "sed",
+  "VersionId": "pariatur",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "consequuntur",
-  "AdditionalInfo": "mollitia"
+  "Value": "placeat",
+  "AdditionalInfo": "eligendi"
 }
 ```

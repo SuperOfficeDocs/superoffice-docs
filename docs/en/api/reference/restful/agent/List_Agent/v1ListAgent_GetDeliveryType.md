@@ -26,7 +26,7 @@ Gets a DeliveryType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=322
+POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=289
 POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Value": "et",
-  "Tooltip": "laboriosam",
+  "Id": 878,
+  "Value": "ab",
+  "Tooltip": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 301
     }
   }
 }

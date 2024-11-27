@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=quia
+GET /api/v1/List/ConsentPurpose/MDOItems?query=ratione
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Brown-Gibson",
-    "ToolTip": "Odit id earum alias.",
+    "Id": 539,
+    "Name": "Kub Group",
+    "ToolTip": "Et et animi voluptatem deleniti velit quia.",
     "Deleted": true,
-    "Rank": 887,
-    "Type": "voluptas",
+    "Rank": 847,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Hartmann LLC",
-        "ToolTip": "Nulla voluptates.",
+        "Id": 398,
+        "Name": "Cummings, Reichel and Rosenbaum",
+        "ToolTip": "Nulla pariatur.",
         "Deleted": false,
-        "Rank": 645,
-        "Type": "reiciendis",
+        "Rank": 175,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 895,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "unde",
-        "FullName": "Meaghan Mills",
+        "IconHint": "autem",
+        "ColorBlock": 395,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "officia",
+        "FullName": "Bernhard Ebert III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 98
+            "FieldType": "System.String",
+            "FieldLength": 895
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 484,
-    "ExtraInfo": "ullam",
-    "StyleHint": "iusto",
-    "FullName": "Imani Kovacek",
+    "IconHint": "cupiditate",
+    "ColorBlock": 208,
+    "ExtraInfo": "sit",
+    "StyleHint": "perspiciatis",
+    "FullName": "Mr. Gisselle Pagac III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 411
+        "FieldLength": 339
       }
     }
   }

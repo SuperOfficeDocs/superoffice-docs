@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.SaveWorkflowWaitForAction
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction'>SaveWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.SaveWorkflowWaitForAction'>SaveWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeSaveWorkflowWaitForAction
 ```cs

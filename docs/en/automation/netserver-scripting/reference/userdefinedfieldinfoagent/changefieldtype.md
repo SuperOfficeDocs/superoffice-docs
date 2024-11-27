@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.ChangeFieldType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType'>ChangeFieldType</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.ChangeFieldType'>ChangeFieldType</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeChangeFieldType
 ```cs

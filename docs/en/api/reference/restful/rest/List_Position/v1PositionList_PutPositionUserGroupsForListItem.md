@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Hahn, Mills and Bahringer",
-    "ToolTip": "A sunt suscipit voluptas ex.",
+    "Id": 901,
+    "Name": "Lemke Inc and Sons",
+    "ToolTip": "Voluptatem id facilis dolores incidunt suscipit aperiam alias.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "est",
-    "ColorBlock": 398,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2023-11-14T13:14:11.4454508+01:00",
+    "Rank": 848,
+    "Type": "dolor",
+    "ColorBlock": 280,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "1999-11-16T14:45:13.7554843+01:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Stiedemann, Romaguera and Hills",
-        "ToolTip": "Impedit occaecati modi.",
+        "Id": 477,
+        "Name": "Douglas-Sawayn",
+        "ToolTip": "Aperiam perspiciatis dolorum exercitationem sequi ullam harum doloremque.",
         "Deleted": true,
-        "Rank": 944,
-        "Type": "sunt",
-        "ColorBlock": 369,
-        "IconHint": "commodi",
+        "Rank": 86,
+        "Type": "ipsa",
+        "ColorBlock": 270,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2013-06-12T13:14:11.4454508+02:00",
+        "LastChanged": "1999-10-11T14:45:13.7554843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "modi",
+        "ExtraInfo": "quo",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Olin Shanahan"
+        "FullName": "Dr. Rae Aufderhar"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Enola Hintz"
+    "ExtraInfo": "voluptate",
+    "StyleHint": "provident",
+    "Hidden": true,
+    "FullName": "Destiny Gaylord"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Terry-Rutherford",
-    "ToolTip": "Doloribus et eligendi doloribus ut quo.",
+    "Id": 330,
+    "Name": "Herzog, Pacocha and Dicki",
+    "ToolTip": "Rerum et nihil eos voluptatem consequuntur nostrum.",
     "Deleted": false,
-    "Rank": 788,
-    "Type": "molestiae",
-    "ColorBlock": 137,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "2005-02-20T13:14:11.4454508+01:00",
+    "Rank": 597,
+    "Type": "praesentium",
+    "ColorBlock": 907,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2006-01-27T14:45:13.7711051+01:00",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Dolorum rerum in.",
+        "Id": 133,
+        "Name": "Emmerich-Kulas",
+        "ToolTip": "Doloremque enim consectetur saepe enim est iusto in.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "accusamus",
-        "ColorBlock": 797,
-        "IconHint": "sit",
+        "Rank": 217,
+        "Type": "voluptates",
+        "ColorBlock": 691,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2005-06-07T13:14:11.4454508+02:00",
+        "LastChanged": "2017-05-20T14:45:13.7711051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "nisi",
+        "ExtraInfo": "nobis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Mr. Lilly Bashirian",
+        "FullName": "Olen Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 400
+            "FieldType": "System.String",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Zetta Parker",
+    "ExtraInfo": "velit",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Ms. Vallie Greenfelder Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldLength": 852
       }
     }
   }

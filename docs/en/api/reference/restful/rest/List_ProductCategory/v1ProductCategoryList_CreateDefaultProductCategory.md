@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Wolff, Bradtke and Rice",
-  "Tooltip": "perspiciatis",
+  "Id": 675,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": true,
-  "UdListDefinitionId": 436,
-  "Rank": 516,
+  "UdListDefinitionId": 329,
+  "Rank": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 783
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 374,
-  "NumDocumentsAlreadyMigrated": 920,
+  "NumDocumentsOmitted": 951,
+  "NumDocumentsAlreadyMigrated": 323,
   "Documents": [
     {
-      "DocumentId": 270,
-      "ContactId": 425,
-      "PersonId": 308,
-      "SaleId": 354,
-      "ProjectId": 737,
-      "DocTmplId": 402,
-      "AssociateId": 738,
-      "UserGroupId": 358,
-      "VisibleForId": 687
+      "DocumentId": 509,
+      "ContactId": 344,
+      "PersonId": 757,
+      "SaleId": 328,
+      "ProjectId": 83,
+      "DocTmplId": 628,
+      "AssociateId": 41,
+      "UserGroupId": 825,
+      "VisibleForId": 558
     }
   ],
   "Associates": [
     {
-      "AssociateId": 622,
-      "EmailAddress": "liam@cummerataebert.ca"
+      "AssociateId": 990,
+      "EmailAddress": "eric@schuppe.us"
     },
     {
-      "AssociateId": 622,
-      "EmailAddress": "liam@cummerataebert.ca"
+      "AssociateId": 990,
+      "EmailAddress": "eric@schuppe.us"
     }
   ]
 }

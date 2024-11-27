@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stamm-Goldner",
+  "UdListDefinitionName": "Schuster Group",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Gibson Group",
-  "Tooltip": "modi",
+  "Id": 29,
+  "Name": "Maggio, O'Keefe and Wisoky",
+  "Tooltip": "doloribus",
   "Deleted": true,
-  "UdListDefinitionId": 266,
-  "Rank": 249,
+  "UdListDefinitionId": 624,
+  "Rank": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 137
     }
   }
 }

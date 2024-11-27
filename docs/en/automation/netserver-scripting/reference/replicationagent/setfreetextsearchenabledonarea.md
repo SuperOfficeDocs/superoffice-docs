@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReplicationAgent.SetFreetextSearchEnabledOnArea
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea'>SetFreetextSearchEnabledOnArea</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReplicationAgent.SetFreetextSearchEnabledOnArea'>SetFreetextSearchEnabledOnArea</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
 
 ## BeforeSetFreetextSearchEnabledOnArea
 ```cs

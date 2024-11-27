@@ -1028,11 +1028,14 @@ as well as before any ORDER BY, are applied.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personAddress/formattedMultiLineAddress,personUdef/SuperOffice:5,personTargetRelation/personPersonRelation,personContact/name,personContact/selectionIdRequest
+GET /api/v1/archive/FreetextPerson?$select=personTargetRelation/associateType,personAssociate/fullName,request/ownedBy/ejUserId,projectMembers/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

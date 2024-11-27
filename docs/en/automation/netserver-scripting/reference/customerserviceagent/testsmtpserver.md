@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.TestSmtpServer
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer'>TestSmtpServer</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.TestSmtpServer'>TestSmtpServer</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeTestSmtpServer
 ```cs

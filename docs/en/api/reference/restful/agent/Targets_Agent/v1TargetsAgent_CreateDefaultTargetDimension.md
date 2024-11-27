@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 131,
+  "TargetDimensionId": 793,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "facilis",
-  "DimensionListName": "Gibson LLC",
-  "DimensionListId": 857,
-  "DimensionListLabel": "ipsam",
+  "DimensionListField": "et",
+  "DimensionListName": "Ferry, Ward and Roberts",
+  "DimensionListId": 494,
+  "DimensionListLabel": "nisi",
   "SelectedDimensions": [
-    905,
-    457
+    679,
+    255
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldLength": 964
     }
   }
 }

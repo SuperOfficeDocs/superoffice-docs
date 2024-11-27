@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveFromListName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveFromListName'>SaveFromListName</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveFromListName'>SaveFromListName</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveFromListName
 ```cs

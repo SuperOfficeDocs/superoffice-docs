@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.CreateDefaultAudienceLayoutEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity'>CreateDefaultAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.CreateDefaultAudienceLayoutEntity'>CreateDefaultAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeCreateDefaultAudienceLayoutEntity
 ```cs

@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 797,
-  "UniqueId": "accusantium",
-  "Name": "Moen, Sipes and Aufderhar",
-  "Description": "Phased scalable hierarchy",
-  "AssociateId": 849,
-  "Columns": 526,
+  "DashboardId": 141,
+  "UniqueId": "eum",
+  "Name": "Koch-Schinner",
+  "Description": "Robust 4th generation customer loyalty",
+  "AssociateId": 40,
+  "Columns": 413,
   "Theme": null,
-  "VisibleForAll": 550,
+  "VisibleForAll": 575,
   "VisibleForAssociates": [
-    131,
-    692
+    711,
+    601
   ],
   "VisibleForGroups": [
-    176,
-    912
+    448,
+    74
   ],
-  "PinForAll": 554,
+  "PinForAll": 3,
   "PinForAssociates": [
-    345,
-    414
+    5,
+    672
   ],
   "PinForGroups": [
-    464,
-    241
+    938,
+    859
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

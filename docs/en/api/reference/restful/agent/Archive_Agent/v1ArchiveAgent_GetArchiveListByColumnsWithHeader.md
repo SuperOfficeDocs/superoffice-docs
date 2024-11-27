@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schultz, Ward and Emmerich",
+  "ProviderName": "Hermiston Group",
   "Columns": [
-    "ullam",
-    "cum"
+    "labore",
+    "dolorem"
   ],
   "SortOrder": [
     {
-      "Name": "Bahringer, Stokes and Kuphal",
+      "Name": "Weimann LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bahringer, Stokes and Kuphal",
+      "Name": "Weimann LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ward Group",
-      "Operator": "dicta",
+      "Name": "Mertz Group",
+      "Operator": "rerum",
       "Values": [
-        "omnis",
-        "exercitationem"
+        "aut",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "quod",
-        "ipsum"
+        "nihil",
+        "magnam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 353,
+      "InterParenthesis": 839,
       "InterOperator": "And",
-      "UniqueHash": 252
+      "UniqueHash": 842
     }
   ],
   "Entities": [
-    "accusamus",
-    "inventore"
+    "rerum",
+    "laudantium"
   ],
-  "Page": 830,
-  "PageSize": 410,
-  "Options": "dolorem"
+  "Page": 315,
+  "PageSize": 771,
+  "Options": "quis"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 645,
+  "RowCount": 725,
   "Rows": [
     {
-      "EntityName": "Lind LLC",
-      "PrimaryKey": 844,
+      "EntityName": "Waelchi, Quitzon and Jacobs",
+      "PrimaryKey": 813,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "possimus",
-          "TooltipHint": "magni",
-          "LinkHint": "nam"
+          "DisplayValue": "laboriosam",
+          "TooltipHint": "minima",
+          "LinkHint": "ipsa"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "tempora",
+      "LinkHint": "et",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 798
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 462
     }
   }
 }

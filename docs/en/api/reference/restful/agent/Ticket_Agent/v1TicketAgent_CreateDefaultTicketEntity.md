@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 180,
-  "Title": "totam",
-  "CreatedAt": "2004-11-19T13:14:06.4758155+01:00",
-  "LastChanged": "2010-06-11T13:14:06.4758155+02:00",
-  "ReadByOwner": "2017-11-28T13:14:06.4758155+01:00",
-  "ReadByCustomer": "2022-05-10T13:14:06.4758155+02:00",
-  "FirstReadByOwner": "2007-07-18T13:14:06.4758155+02:00",
-  "FirstReadByUser": "2021-12-04T13:14:06.4758155+01:00",
-  "Activate": "2013-07-12T13:14:06.4758155+02:00",
-  "ClosedAt": "2009-04-27T13:14:06.4758155+02:00",
-  "RepliedAt": "2001-09-18T13:14:06.4758155+02:00",
-  "AlertTimeout": "1999-06-07T13:14:06.4758155+02:00",
-  "Deadline": "2008-11-05T13:14:06.4758155+01:00",
+  "TicketId": 613,
+  "Title": "et",
+  "CreatedAt": "2009-01-23T14:45:06.4280519+01:00",
+  "LastChanged": "2005-11-18T14:45:06.4280519+01:00",
+  "ReadByOwner": "2005-05-16T14:45:06.4280519+02:00",
+  "ReadByCustomer": "2014-09-27T14:45:06.4280519+02:00",
+  "FirstReadByOwner": "1997-12-01T14:45:06.4280519+01:00",
+  "FirstReadByUser": "2007-06-22T14:45:06.4280519+02:00",
+  "Activate": "2019-12-30T14:45:06.4280519+01:00",
+  "ClosedAt": "2006-09-18T14:45:06.4280519+02:00",
+  "RepliedAt": "2023-08-19T14:45:06.4280519+02:00",
+  "AlertTimeout": "2006-08-14T14:45:06.4280519+02:00",
+  "Deadline": "2012-01-15T14:45:06.4280519+01:00",
   "CreatedBy": null,
-  "Author": "odit",
+  "Author": "nemo",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quia",
-      "PersonId": 170,
-      "Mrmrs": "aut",
-      "Firstname": "Abdullah",
-      "Lastname": "Rempel",
-      "MiddleName": "Ondricka-Wilkinson",
-      "Title": "occaecati",
-      "Description": "Intuitive clear-thinking functionalities",
-      "Email": "karlie@cummerata.uk",
-      "FullName": "Donnell Leannon",
-      "DirectPhone": "(178)834-9862 x87860",
-      "FormalName": "DuBuque-Conn",
-      "CountryId": 595,
-      "ContactId": 681,
-      "ContactName": "Yost, Bernier and Krajcik",
-      "Retired": 430,
-      "Rank": 866,
-      "ActiveInterests": 913,
-      "ContactDepartment": "",
-      "ContactCountryId": 569,
-      "ContactOrgNr": "1499053",
-      "FaxPhone": "1-643-476-5238 x53461",
-      "MobilePhone": "123-347-3272 x9335",
-      "ContactPhone": "820.206.0200",
-      "AssociateName": "Ferry-Bogisich",
-      "AssociateId": 844,
+      "Position": "facilis",
+      "PersonId": 52,
+      "Mrmrs": "praesentium",
+      "Firstname": "Alicia",
+      "Lastname": "Gleichner",
+      "MiddleName": "Heathcote Inc and Sons",
+      "Title": "sit",
+      "Description": "De-engineered heuristic data-warehouse",
+      "Email": "sallie.roberts@lebsack.biz",
+      "FullName": "Dr. Myra Marvin Hauck",
+      "DirectPhone": "(834)097-5821 x715",
+      "FormalName": "Howe, Wolf and Marquardt",
+      "CountryId": 964,
+      "ContactId": 34,
+      "ContactName": "Gerlach Inc and Sons",
+      "Retired": 287,
+      "Rank": 984,
+      "ActiveInterests": 924,
+      "ContactDepartment": "redefine viral experiences",
+      "ContactCountryId": 475,
+      "ContactOrgNr": "419460",
+      "FaxPhone": "1-295-388-0835 x57253",
+      "MobilePhone": "498.154.7192 x522",
+      "ContactPhone": "(561)055-5356",
+      "AssociateName": "Boehm, Lind and Ankunding",
+      "AssociateId": 94,
       "UsePersonAddress": false,
-      "ContactFax": "molestias",
-      "Kanafname": "quam",
-      "Kanalname": "recusandae",
-      "Post1": "autem",
-      "Post2": "eveniet",
-      "Post3": "occaecati",
-      "EmailName": "dora@mcglynn.name",
-      "ContactFullName": "Maudie Nicolas",
-      "ActiveErpLinks": 747,
-      "TicketPriorityId": 832,
-      "SupportLanguageId": 258,
-      "SupportAssociateId": 843,
+      "ContactFax": "sit",
+      "Kanafname": "totam",
+      "Kanalname": "voluptas",
+      "Post1": "quia",
+      "Post2": "quibusdam",
+      "Post3": "consequatur",
+      "EmailName": "jalen@rau.name",
+      "ContactFullName": "Miss Sylvia Adriana Pouros",
+      "ActiveErpLinks": 564,
+      "TicketPriorityId": 270,
+      "SupportLanguageId": 465,
+      "SupportAssociateId": 749,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 651
         }
       }
     }
   ],
-  "AlertLevel": 534,
-  "ConnectId": 196,
+  "AlertLevel": 535,
+  "ConnectId": 83,
   "ReadStatus": "Green",
-  "TimeToReply": 276,
-  "RealTimeToReply": 228,
-  "TimeToClose": 189,
-  "RealTimeToClose": 482,
-  "TimeSpentInternally": 392,
-  "TimeSpentExternally": 871,
-  "TimeSpentQueue": 895,
-  "RealTimeSpentInternally": 570,
-  "RealTimeSpentExternally": 606,
-  "RealTimeSpentQueue": 922,
-  "TimeSpent": 45,
+  "TimeToReply": 297,
+  "RealTimeToReply": 182,
+  "TimeToClose": 766,
+  "RealTimeToClose": 835,
+  "TimeSpentInternally": 510,
+  "TimeSpentExternally": 137,
+  "TimeSpentQueue": 442,
+  "RealTimeSpentInternally": 760,
+  "RealTimeSpentExternally": 173,
+  "RealTimeSpentQueue": 730,
+  "TimeSpent": 957,
   "HasAttachment": false,
-  "NumReplies": 476,
-  "NumMessages": 32,
-  "FromAddress": "earum",
+  "NumReplies": 810,
+  "NumMessages": 584,
+  "FromAddress": "numquam",
   "Messages": [
     {
-      "TicketMessageId": 171,
-      "CreatedAt": "2019-06-05T13:14:06.4758155+02:00",
+      "TicketMessageId": 942,
+      "CreatedAt": "2023-10-07T14:45:06.4280519+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "inventore",
-      "PersonId": 90,
-      "PersonFullName": "Fay Wiza",
-      "ContactId": 602,
-      "ContactName": "Jacobi, Nitzsche and Luettgen",
+      "Important": true,
+      "Author": "autem",
+      "PersonId": 385,
+      "PersonFullName": "Cierra Becker",
+      "ContactId": 272,
+      "ContactName": "Schuster LLC",
       "ContactDepartment": "",
-      "NumAttachments": 227,
-      "EmailHeader": "kari@haneerdman.name",
+      "NumAttachments": 81,
+      "EmailHeader": "hellen@ward.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "aut",
-      "Sentiment": 698,
-      "SentimentConfidence": 605,
-      "CreatedBy": 906,
-      "ChangedAt": "2010-02-12T13:14:06.4758155+01:00",
+      "Language": "consectetur",
+      "Sentiment": 408,
+      "SentimentConfidence": 771,
+      "CreatedBy": 626,
+      "ChangedAt": "2022-02-14T14:45:06.4280519+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldLength": 741
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 352,
-      "Name": "Jacobs LLC",
-      "ToolTip": "Autem et ea perspiciatis illum maiores.",
+      "Id": 870,
+      "Name": "Hackett, Bauch and Hayes",
+      "ToolTip": "Dolorem exercitationem numquam quasi inventore quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     },
     {
-      "Id": 352,
-      "Name": "Jacobs LLC",
-      "ToolTip": "Autem et ea perspiciatis illum maiores.",
+      "Id": 870,
+      "Name": "Hackett, Bauch and Hayes",
+      "ToolTip": "Dolorem exercitationem numquam quasi inventore quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
-  "Language": "reprehenderit",
-  "Sentiment": 424,
-  "SentimentConfidence": 292,
-  "SuggestedCategoryId": 727,
+  "Language": "qui",
+  "Sentiment": 11,
+  "SentimentConfidence": 656,
+  "SuggestedCategoryId": 463,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 838,
-  "IconHint": "aut",
+  "OrigHumanCategoryId": 515,
+  "IconHint": "at",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 563,
+  "ActiveStatusMonitorId": 692,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "libero",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 855
     }
   }
 }

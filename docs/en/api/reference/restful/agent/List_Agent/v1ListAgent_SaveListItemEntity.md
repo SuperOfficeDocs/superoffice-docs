@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
-  "Name": "Kub-Bauch",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "UdListDefinitionId": 261,
-  "Rank": 450,
+  "Id": 837,
+  "Name": "Kshlerin, Weber and Zboncak",
+  "Tooltip": "incidunt",
+  "Deleted": false,
+  "UdListDefinitionId": 848,
+  "Rank": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

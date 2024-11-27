@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "totam",
-  "ProviderName": "Funk, Glover and DuBuque",
-  "StorageKey": "et",
+  "StorageType": "et",
+  "ProviderName": "Bogan-Runolfsson",
+  "StorageKey": "neque",
   "Restrictions": [
     {
-      "Name": "Wisozk, Satterfield and Simonis",
-      "Operator": "sunt",
+      "Name": "Harvey-McCullough",
+      "Operator": "at",
       "Values": [
-        "ad",
-        "rerum"
+        "beatae",
+        "suscipit"
       ],
       "DisplayValues": [
-        "optio",
-        "in"
+        "doloribus",
+        "voluptatibus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 835,
+      "InterParenthesis": 735,
       "InterOperator": "And",
-      "UniqueHash": 642
+      "UniqueHash": 907
     }
   ],
-  "Context": "labore"
+  "Context": "cupiditate"
 }
 ```
 

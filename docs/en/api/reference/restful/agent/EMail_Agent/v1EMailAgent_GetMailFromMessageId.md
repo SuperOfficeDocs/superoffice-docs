@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "voluptas"
+  "MessageId": "ea"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 628,
-      "ContactName": "Brakus-Stiedemann",
-      "PersonId": 778,
-      "PersonName": "Hermiston-Terry",
-      "AssociateId": 859,
-      "Address": "saepe",
-      "EmailId": 88,
+      "ContactId": 860,
+      "ContactName": "Bergnaum LLC",
+      "PersonId": 541,
+      "PersonName": "Spinka-Mills",
+      "AssociateId": 501,
+      "Address": "inventore",
+      "EmailId": 66,
       "DuplicatePersonIds": [
-        384,
-        963
+        238,
+        332
       ],
-      "Name": "Koss-Thiel",
+      "Name": "Davis Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldLength": 144
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 532,
-      "ContactName": "Turcotte, Bednar and Okuneva",
-      "PersonId": 682,
-      "PersonName": "Considine, Pfeffer and Sawayn",
-      "AssociateId": 862,
-      "Address": "non",
-      "EmailId": 768,
+      "ContactId": 363,
+      "ContactName": "Stoltenberg LLC",
+      "PersonId": 213,
+      "PersonName": "Legros Group",
+      "AssociateId": 523,
+      "Address": "sequi",
+      "EmailId": 964,
       "DuplicatePersonIds": [
-        597,
-        233
+        556,
+        185
       ],
-      "Name": "Buckridge Inc and Sons",
+      "Name": "Bergstrom, Dare and Hermiston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 772
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 940,
-      "ContactName": "Quitzon, Schumm and Jaskolski",
-      "PersonId": 956,
-      "PersonName": "Harris Inc and Sons",
-      "AssociateId": 941,
-      "Address": "nulla",
-      "EmailId": 563,
+      "ContactId": 178,
+      "ContactName": "Glover-Kris",
+      "PersonId": 44,
+      "PersonName": "Jenkins, Jones and Jaskolski",
+      "AssociateId": 421,
+      "Address": "autem",
+      "EmailId": 360,
       "DuplicatePersonIds": [
-        990,
-        668
+        44,
+        721
       ],
-      "Name": "Beier, Dietrich and Yundt",
+      "Name": "Dicki Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 194
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "enim",
+  "Subject": "expedita",
+  "HTMLBody": "nostrum",
   "From": null,
-  "Sent": "2002-09-12T13:14:05.9445336+02:00",
-  "Size": 842,
+  "Sent": "2001-12-31T14:45:05.4751404+01:00",
+  "Size": 266,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "ut",
-  "IsSent": true,
+  "MessageID": "omnis",
+  "PlainBody": "corporis",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 214,
+  "ServerId": 831,
   "Attachments": [
     {
-      "Description": "Innovative interactive contingency",
-      "Filename": "iste",
-      "Size": 955,
-      "Type": "excepturi",
-      "Encoding": "quas",
-      "Id": "aut",
-      "Disposition": "qui",
-      "IsSafeFileExtension": false,
+      "Description": "Reverse-engineered tertiary software",
+      "Filename": "dolor",
+      "Size": 494,
+      "Type": "maxime",
+      "Encoding": "sunt",
+      "Id": "animi",
+      "Disposition": "dolore",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldLength": 538
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Conner-Buckridge",
+      "Name": "Farrell-Marks",
       "Values": [
-        "non",
-        "qui"
+        "reprehenderit",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 787
         }
       }
     },
     {
-      "Name": "O'Conner-Buckridge",
+      "Name": "Farrell-Marks",
       "Values": [
-        "non",
-        "qui"
+        "reprehenderit",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 787
         }
       }
     }
   ],
-  "FolderName": "Baumbach, Feest and Jenkins",
-  "EmailItemId": 394,
-  "AccountId": 715,
-  "ReceivedAt": "2019-04-28T13:14:05.9445336+02:00",
+  "FolderName": "O'Connell Group",
+  "EmailItemId": 327,
+  "AccountId": 814,
+  "ReceivedAt": "2002-10-27T14:45:05.4751404+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-12-01T13:14:05.9445336+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-11-03T14:45:05.4751404+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 941
     }
   }
 }

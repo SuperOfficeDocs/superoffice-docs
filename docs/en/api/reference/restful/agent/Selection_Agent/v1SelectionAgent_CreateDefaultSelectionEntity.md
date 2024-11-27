@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory directional hub",
-  "Postit": "a",
+  "Description": "Synergistic cohesive function",
+  "Postit": "sunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 982,
-  "IncludePerson": 655,
+  "GroupIdx": 868,
+  "IncludePerson": 933,
   "MemberCount": 99.99,
-  "Name": "Grady, Corkery and Kovacek",
-  "PostitTextId": 77,
-  "CreatedDate": "2022-05-05T13:14:06.4133118+02:00",
-  "SelectionId": 769,
-  "SoundEx": "et",
-  "Source": 305,
-  "TextId": 516,
-  "UpdatedDate": "2002-08-05T13:14:06.4133118+02:00",
-  "UpdatedCount": 499,
-  "Visibility": 902,
+  "Name": "Thiel Inc and Sons",
+  "PostitTextId": 961,
+  "CreatedDate": "2007-08-05T14:45:06.2093526+02:00",
+  "SelectionId": 871,
+  "SoundEx": "aperiam",
+  "Source": 493,
+  "TextId": 847,
+  "UpdatedDate": "2003-02-23T14:45:06.2093526+01:00",
+  "UpdatedCount": 964,
+  "Visibility": 15,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 647,
-  "TargetTableName": "Marquardt, Hilpert and Waelchi",
+  "CompanyUnique": false,
+  "TargetTableNumber": 796,
+  "TargetTableName": "Hamill Group",
   "Completed": false,
-  "LeftSelectionId": 21,
-  "RightSelectionId": 356,
+  "LeftSelectionId": 620,
+  "RightSelectionId": 936,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cummings LLC",
-  "ShadowProviderName": "Williamson Inc and Sons",
-  "ChartKey": "architecto",
-  "LastLoaded": "2014-08-27T13:14:06.4133118+02:00",
-  "LastLoadedBy": 919,
+  "MainProviderName": "Effertz LLC",
+  "ShadowProviderName": "Maggio, Farrell and Weber",
+  "ChartKey": "assumenda",
+  "LastLoaded": "2013-05-21T14:45:06.2093526+02:00",
+  "LastLoadedBy": 794,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-01-19T13:14:06.4133118+01:00",
-  "LastMembershipChangeBy": 901,
+  "LastMembershipChange": "2024-07-23T14:45:06.2093526+02:00",
+  "LastMembershipChangeBy": 107,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "labore",
-  "MailingsProviderName": "Walter, Abernathy and Pacocha",
-  "DashboardTileDefinitionId": 474,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Graham-Moore",
+  "DashboardTileDefinitionId": 242,
   "VisibleFor": [
     {
-      "VisibleId": 689,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     },
     {
-      "VisibleId": 689,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 460
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 649
     }
   }
 }

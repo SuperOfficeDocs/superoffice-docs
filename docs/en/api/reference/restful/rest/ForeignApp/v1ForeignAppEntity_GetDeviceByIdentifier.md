@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 09 Mar 1999 13:14:10 G3T
+Last-Modified: Tue, 15 Oct 2013 14:45:12 G10T
 
 {
-  "ForeignDeviceId": 711,
-  "Name": "Wyman-Swaniawski",
-  "CreatedDate": "2009-05-07T13:14:10.8360396+02:00",
-  "UpdatedDate": "1999-03-09T13:14:10.8360396+01:00",
-  "AssociateFullName": "Mr. Michelle Satterfield",
-  "CreatedBy": "velit",
-  "UpdatedBy": "vel",
-  "DeviceIdentifier": "dolor",
-  "ForeignAppId": 925,
+  "ForeignDeviceId": 911,
+  "Name": "Trantow, Oberbrunner and Considine",
+  "CreatedDate": "2005-05-31T14:45:12.8338163+02:00",
+  "UpdatedDate": "2013-10-15T14:45:12.8338163+02:00",
+  "AssociateFullName": "Wyman Mosciski V",
+  "CreatedBy": "quia",
+  "UpdatedBy": "commodi",
+  "DeviceIdentifier": "molestiae",
+  "ForeignAppId": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 457
     }
   }
 }

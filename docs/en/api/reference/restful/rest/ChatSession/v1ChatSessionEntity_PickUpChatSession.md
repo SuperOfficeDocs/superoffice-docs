@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 583,
-  "TopicId": 506,
+  "ChatSessionId": 483,
+  "TopicId": 786,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vitae",
-  "CustomerHost": "quasi",
-  "CustomerName": "Weimann Group",
-  "CustomerEmail": "norbert@boyer.name",
-  "CustomerPhone": "(228)080-3025 x9224",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Medhurst-O'Keefe",
+  "CustomerAlias": "qui",
+  "CustomerHost": "quaerat",
+  "CustomerName": "Ebert-Wehner",
+  "CustomerEmail": "eldora@mertz.com",
+  "CustomerPhone": "1-524-065-5995 x81383",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Corkery-Koch",
   "Status": "Closed",
-  "FirstMessage": "nisi",
-  "LastMessage": "dolorem",
-  "WhenRequested": "2005-03-16T13:14:10.6641543+01:00",
-  "WhenStarted": "2016-08-27T13:14:10.6641543+02:00",
-  "WhenEnded": "2003-06-12T13:14:10.6641543+02:00",
-  "WhenIdle": "1998-10-12T13:14:10.6641543+02:00",
-  "WhenFetched": "2002-03-11T13:14:10.6641543+01:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 276,
-  "AlertLevel": 351,
-  "Rank": 101,
+  "FirstMessage": "earum",
+  "LastMessage": "corporis",
+  "WhenRequested": "2021-03-06T14:45:12.5682519+01:00",
+  "WhenStarted": "2022-09-26T14:45:12.5682519+02:00",
+  "WhenEnded": "2004-05-12T14:45:12.5682519+02:00",
+  "WhenIdle": "1999-01-24T14:45:12.5682519+01:00",
+  "WhenFetched": "2021-06-10T14:45:12.5682519+02:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 339,
+  "AlertLevel": 462,
+  "Rank": 545,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 981,
+  "Rating": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

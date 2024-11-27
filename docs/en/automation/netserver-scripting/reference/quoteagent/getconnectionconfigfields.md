@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetConnectionConfigFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetConnectionConfigFields'>GetConnectionConfigFields</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetConnectionConfigFields'>GetConnectionConfigFields</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetConnectionConfigFields
 ```cs

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Altenwerth-Mueller",
-  "AssociateId": 229,
-  "DetailsTable": 262,
-  "DetailsRecord": 59,
+  "Id": 237,
+  "Name": "Sanford-Kemmer",
+  "AssociateId": 453,
+  "DetailsTable": 927,
+  "DetailsRecord": 252,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "laboriosam",
-    "ParameterObject2": "expedita"
+    "ParameterObject1": "vitae",
+    "ParameterObject2": "magnam"
   },
-  "LastStarted": "2011-10-17T13:14:05.5382596+02:00",
-  "Created": "2017-12-13T13:14:05.5382596+01:00",
-  "StartCount": 713,
-  "DatabaseSerialNumber": "1678452",
-  "Context": "deserunt",
-  "Result": "doloremque",
+  "LastStarted": "2012-10-08T14:45:04.8815214+02:00",
+  "Created": "2021-03-18T14:45:04.8815214+01:00",
+  "StartCount": 353,
+  "DatabaseSerialNumber": "1278859",
+  "Context": "quasi",
+  "Result": "odio",
   "State": "All",
-  "Description": "Optimized object-oriented moratorium",
-  "Response": "quisquam",
-  "Request": "rerum",
-  "ProgressDescription": "Upgradable multimedia challenge",
-  "ProgressPercent": 591,
-  "FileName": "Hilll Group",
+  "Description": "Multi-lateral non-volatile toolset",
+  "Response": "autem",
+  "Request": "nesciunt",
+  "ProgressDescription": "Virtual web-enabled migration",
+  "ProgressPercent": 290,
+  "FileName": "Crona, Sanford and White",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

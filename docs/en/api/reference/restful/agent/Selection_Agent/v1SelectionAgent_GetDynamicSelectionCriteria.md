@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 959
+  "SelectionId": 144
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johns-Marquardt",
-    "Operator": "ipsa",
+    "Name": "Rohan Group",
+    "Operator": "ipsam",
     "Values": [
-      "optio",
-      "laboriosam"
+      "ratione",
+      "sint"
     ],
     "DisplayValues": [
-      "sint",
-      "minima"
+      "aut",
+      "a"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Volkman-Kovacek",
-        "Operator": "voluptatem",
+        "Name": "Stamm-Robel",
+        "Operator": "inventore",
         "Values": [
-          "voluptas",
-          "dignissimos"
+          "porro",
+          "aperiam"
         ],
         "DisplayValues": [
-          "quia",
-          "impedit"
+          "in",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 779,
+        "InterParenthesis": 210,
         "InterOperator": "And",
-        "UniqueHash": 552
+        "UniqueHash": 728
       }
     ],
-    "InterParenthesis": 720,
+    "InterParenthesis": 261,
     "InterOperator": "And",
-    "UniqueHash": 660
+    "UniqueHash": 980
   }
 ]
 ```

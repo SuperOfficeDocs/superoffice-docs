@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.SaveCurrents
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents'>SaveCurrents</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.SaveCurrents'>SaveCurrents</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeSaveCurrents
 ```cs

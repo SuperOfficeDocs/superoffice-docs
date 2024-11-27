@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Brakus-Shields"
+  "ApplicationName": "Mayert, Cruickshank and Ziemann"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 964,
-  "Name": "Flatley LLC",
-  "CreatedDate": "2011-04-26T13:14:06.0382898+02:00",
-  "UpdatedDate": "2002-03-09T13:14:06.0382898+01:00",
-  "AssociateFullName": "Mr. Cynthia Connelly II",
-  "CreatedBy": "enim",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "nemo",
-  "ForeignAppId": 683,
+  "ForeignDeviceId": 241,
+  "Name": "Daugherty-Simonis",
+  "CreatedDate": "2019-03-10T14:45:05.6469762+01:00",
+  "UpdatedDate": "2009-02-05T14:45:05.6469762+01:00",
+  "AssociateFullName": "Demarco Bins",
+  "CreatedBy": "sed",
+  "UpdatedBy": "accusamus",
+  "DeviceIdentifier": "voluptas",
+  "ForeignAppId": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

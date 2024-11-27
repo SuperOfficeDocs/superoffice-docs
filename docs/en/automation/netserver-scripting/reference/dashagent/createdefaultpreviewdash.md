@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CreateDefaultPreviewDash
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash'>CreateDefaultPreviewDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CreateDefaultPreviewDash'>CreateDefaultPreviewDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCreateDefaultPreviewDash
 ```cs

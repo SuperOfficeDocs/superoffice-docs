@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=ea
+GET /api/v1/List/PaymentType/MDOItems?query=perferendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Hartmann, Lynch and Hermann",
-    "ToolTip": "Magni tenetur ad.",
+    "Id": 63,
+    "Name": "Rempel LLC",
+    "ToolTip": "Dolores autem asperiores ut dignissimos ullam.",
     "Deleted": true,
-    "Rank": 921,
-    "Type": "exercitationem",
+    "Rank": 887,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 825,
-        "Name": "Hessel, Stokes and Parker",
-        "ToolTip": "Nam est qui voluptate tempore neque sed.",
+        "Id": 317,
+        "Name": "Weissnat Group",
+        "ToolTip": "Rerum ut culpa fugit nam eum qui maiores.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "repellat",
+        "Rank": 441,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 357,
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
-        "FullName": "Ward Conn",
+        "IconHint": "dolorem",
+        "ColorBlock": 217,
+        "ExtraInfo": "est",
+        "StyleHint": "rem",
+        "FullName": "Mr. Annabell O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldLength": 373
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 427,
-    "ExtraInfo": "ratione",
-    "StyleHint": "alias",
-    "FullName": "Prof. Jermey Kaitlyn Miller II",
+    "IconHint": "eveniet",
+    "ColorBlock": 289,
+    "ExtraInfo": "dolore",
+    "StyleHint": "molestiae",
+    "FullName": "Fred Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 746
       }
     }
   }

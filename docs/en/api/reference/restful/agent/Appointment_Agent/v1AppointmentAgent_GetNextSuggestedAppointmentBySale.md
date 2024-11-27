@@ -92,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 107,
-  "CurrentAppointmentId": 583,
-  "SkipCompleteCheck": true
+  "SaleId": 614,
+  "CurrentAppointmentId": 319,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 622,
-  "Deleted": 2,
-  "DaysFuture": 775,
-  "Tooltip": "perferendis",
-  "Text": "delectus",
-  "TaskId": 44,
-  "SuggestedAppointmentId": 181,
-  "SaleTypeStageLinkId": 968,
-  "RegisteredAssociateId": 648,
-  "Rank": 461,
-  "ProjectTypeStatusLinkId": 204,
-  "Name": "Tromp Inc and Sons",
-  "Duration": 60,
+  "AutoSuggest": 896,
+  "Deleted": 551,
+  "DaysFuture": 526,
+  "Tooltip": "perspiciatis",
+  "Text": "voluptatibus",
+  "TaskId": 722,
+  "SuggestedAppointmentId": 204,
+  "SaleTypeStageLinkId": 574,
+  "RegisteredAssociateId": 161,
+  "Rank": 383,
+  "ProjectTypeStatusLinkId": 121,
+  "Name": "Braun-Runolfsdottir",
+  "Duration": 369,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 460
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.DeletePrefDescLinesByPrefDescId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePrefDescLinesByPrefDescId'>DeletePrefDescLinesByPrefDescId</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.DeletePrefDescLinesByPrefDescId'>DeletePrefDescLinesByPrefDescId</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeDeletePrefDescLinesByPrefDescId
 ```cs

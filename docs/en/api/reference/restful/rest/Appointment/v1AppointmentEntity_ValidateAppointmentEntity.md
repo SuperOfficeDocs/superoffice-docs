@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-02-14T13:14:10.6016446+01:00",
-  "AppointmentId": 820,
-  "Description": "Inverse holistic implementation",
-  "Title": "voluptatem",
-  "Agenda": "et",
-  "InternalNotes": "aut",
-  "StartDate": "2007-12-07T13:14:10.6016446+01:00",
-  "EndDate": "2018-10-01T13:14:10.6016446+02:00",
+  "CreatedDate": "2005-07-23T14:45:12.4589006+02:00",
+  "AppointmentId": 551,
+  "Description": "Assimilated grid-enabled parallelism",
+  "Title": "laudantium",
+  "Agenda": "similique",
+  "InternalNotes": "tempore",
+  "StartDate": "2022-07-03T14:45:12.4589006+02:00",
+  "EndDate": "2015-01-26T14:45:12.4589006+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 265,
+  "MotherId": 872,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-08-06T13:14:10.6016446+02:00",
+  "UpdatedDate": "2009-06-28T14:45:12.4589006+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 730,
+  "ActiveLinks": 124,
   "Links": [
     {
-      "EntityName": "Labadie-Bahringer",
-      "Id": 806,
-      "Description": "Future-proofed client-server knowledge user",
-      "ExtraInfo": "et",
-      "LinkId": 160
+      "EntityName": "Grant, Hodkiewicz and Mraz",
+      "Id": 396,
+      "Description": "Secured needs-based monitoring",
+      "ExtraInfo": "in",
+      "LinkId": 422
     },
     {
-      "EntityName": "Labadie-Bahringer",
-      "Id": 806,
-      "Description": "Future-proofed client-server knowledge user",
-      "ExtraInfo": "et",
-      "LinkId": 160
+      "EntityName": "Grant, Hodkiewicz and Mraz",
+      "Id": 396,
+      "Description": "Secured needs-based monitoring",
+      "ExtraInfo": "in",
+      "LinkId": 422
     }
   ],
-  "AlarmLeadTime": "itaque",
-  "HasAlarm": true,
-  "ColorIndex": 227,
+  "AlarmLeadTime": "ullam",
+  "HasAlarm": false,
+  "ColorIndex": 13,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aut",
-  "LeadTime": "molestiae",
-  "Location": "aut",
-  "RejectCounter": 803,
+  "LagTime": "deserunt",
+  "LeadTime": "accusantium",
+  "Location": "praesentium",
+  "RejectCounter": 978,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 664,
-      "PersonId": 199,
-      "ContactId": 337,
-      "EmailId": 475,
-      "SendEmail": false,
+      "AssociateId": 754,
+      "PersonId": 998,
+      "ContactId": 940,
+      "EmailId": 10,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jena@cassin.biz",
-      "Description": "Monitored directional approach"
+      "EmailAddress": "rollin@satterfieldhegmann.biz",
+      "Description": "Polarised multimedia benchmark"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-03-16T13:14:10.6016446+01:00",
+  "ActiveDate": "2022-10-28T14:45:12.4589006+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 309,
+  "PreferredTZLocation": 386,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 903,
+  "SuggestedAppointmentId": 704,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "CentralserviceVideomeetId": "velit",
   "UserDefinedFields": {
-    "SuperOffice:1": "1325170746",
-    "SuperOffice:2": "Prof. Rosie Kovacek PhD"
+    "SuperOffice:1": "Ms. Garnet Heloise Huels",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "id",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2007-11-24T13:14:10.6016446+01:00",
-  "PublishTo": "2013-12-16T13:14:10.6016446+01:00",
-  "PublishFrom": "2006-06-05T13:14:10.6016446+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-07-01T14:45:12.4589006+02:00",
+  "PublishTo": "2013-01-13T14:45:12.4589006+01:00",
+  "PublishFrom": "2010-09-16T14:45:12.4589006+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 533,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "porro"
     },
     {
-      "VisibleId": 533,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "porro"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "rem",
-  "2": "optio"
+  "1": "aspernatur",
+  "2": "consequatur"
 }
 ```

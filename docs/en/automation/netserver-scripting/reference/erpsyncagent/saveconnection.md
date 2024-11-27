@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.SaveConnection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection'>SaveConnection</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.SaveConnection'>SaveConnection</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeSaveConnection
 ```cs

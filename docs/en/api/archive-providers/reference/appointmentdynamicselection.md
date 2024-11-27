@@ -721,11 +721,14 @@ Appointment selection archive using the selectionId as criterionmapping.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=appointmentId,contact/number,contact/url/URLDescription,contact/NumberOfNotCompletedActivities,contact/NumberOfSales
+GET /api/v1/archive/AppointmentDynamicSelection?$select=icon,contact/postAddress/line2,person/correspondingAssociate/contactName,project/projectEvent/hasSignOff,project/projectAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

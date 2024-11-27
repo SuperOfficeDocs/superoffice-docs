@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 365,
+  "UdListDefinitionId": 891,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Becker-Johnson",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "UdListDefinitionId": 404,
-    "Rank": 804,
+    "Id": 524,
+    "Name": "Wiegand Inc and Sons",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 769,
+    "Rank": 7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 948
       }
     }
   }

@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "reiciendis"
+  "UID": "inventore"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-03-08T13:14:05.4913817+01:00",
-  "AppointmentId": 172,
-  "Description": "Customer-focused 3rd generation infrastructure",
-  "Title": "eos",
-  "Agenda": "voluptas",
-  "InternalNotes": "doloremque",
-  "StartDate": "2002-05-30T13:14:05.4913817+02:00",
-  "EndDate": "2010-10-16T13:14:05.4913817+02:00",
+  "CreatedDate": "2021-08-30T14:45:04.8034129+02:00",
+  "AppointmentId": 982,
+  "Description": "Vision-oriented neutral benchmark",
+  "Title": "natus",
+  "Agenda": "doloremque",
+  "InternalNotes": "animi",
+  "StartDate": "2020-08-14T14:45:04.8034129+02:00",
+  "EndDate": "2020-08-01T14:45:04.8034129+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 178,
+  "MotherId": 163,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-12-23T13:14:05.4913817+01:00",
+  "UpdatedDate": "2004-04-04T14:45:04.8034129+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 668,
+  "ActiveLinks": 129,
   "Links": [
     {
-      "EntityName": "Schoen-Pouros",
-      "Id": 267,
-      "Description": "Profound clear-thinking framework",
-      "ExtraInfo": "harum",
-      "LinkId": 809,
+      "EntityName": "Schamberger LLC",
+      "Id": 705,
+      "Description": "Profit-focused optimizing productivity",
+      "ExtraInfo": "dolorum",
+      "LinkId": 548,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 740
         }
       }
     }
   ],
-  "AlarmLeadTime": "ad",
+  "AlarmLeadTime": "assumenda",
   "HasAlarm": false,
-  "ColorIndex": 885,
-  "IsFree": true,
+  "ColorIndex": 101,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quo",
-  "LeadTime": "qui",
-  "Location": "non",
-  "RejectCounter": 230,
+  "LagTime": "et",
+  "LeadTime": "suscipit",
+  "Location": "illo",
+  "RejectCounter": 594,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 969,
-      "PersonId": 564,
-      "ContactId": 154,
-      "EmailId": 689,
+      "AssociateId": 645,
+      "PersonId": 926,
+      "ContactId": 86,
+      "EmailId": 992,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "caroline@morar.name",
-      "Description": "Universal transitional synergy"
+      "EmailAddress": "isaias.mcdermott@kuhn.info",
+      "Description": "Triple-buffered non-volatile knowledge base"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-04-07T13:14:05.4913817+02:00",
+  "ActiveDate": "2015-09-12T14:45:04.8034129+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 231,
+  "PreferredTZLocation": 207,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 707,
+  "SuggestedAppointmentId": 735,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "autem",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1765771240"
+    "SuperOffice:1": "Justice Pierre Predovic IV",
+    "SuperOffice:2": "Georgette Reynolds"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "sint",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2018-11-22T13:14:05.4913817+01:00",
-  "PublishTo": "2007-04-07T13:14:05.4913817+02:00",
-  "PublishFrom": "2010-05-09T13:14:05.4913817+02:00",
+  "PublishEventDate": "2000-01-30T14:45:04.8034129+01:00",
+  "PublishTo": "2003-02-07T14:45:04.8034129+01:00",
+  "PublishFrom": "2011-02-19T14:45:04.8034129+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 720,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     },
     {
-      "VisibleId": 720,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 736
     }
   }
 }

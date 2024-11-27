@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 190
+  "DocumentId": 909
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 239,
-      "ContactName": "Cremin, Jakubowski and Lindgren",
-      "PersonId": 305,
-      "PersonName": "Hansen, Koss and Glover",
-      "AssociateId": 478,
-      "Address": "blanditiis",
-      "EmailId": 313,
+      "ContactId": 282,
+      "ContactName": "Lakin, Parisian and Cummings",
+      "PersonId": 191,
+      "PersonName": "Hayes, Morissette and Macejkovic",
+      "AssociateId": 996,
+      "Address": "soluta",
+      "EmailId": 197,
       "DuplicatePersonIds": [
-        179,
-        786
+        738,
+        143
       ],
-      "Name": "Kertzmann, Cole and Bogan",
+      "Name": "Sanford, Upton and Ferry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 280
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 283,
-      "ContactName": "Bechtelar-Hoeger",
-      "PersonId": 571,
-      "PersonName": "Luettgen, Abernathy and Stanton",
-      "AssociateId": 346,
-      "Address": "aut",
-      "EmailId": 698,
+      "ContactId": 806,
+      "ContactName": "Will-Raynor",
+      "PersonId": 427,
+      "PersonName": "Walker-Toy",
+      "AssociateId": 765,
+      "Address": "fugiat",
+      "EmailId": 237,
       "DuplicatePersonIds": [
-        162,
-        994
+        970,
+        4
       ],
-      "Name": "Lebsack-Zemlak",
+      "Name": "Rodriguez, Predovic and Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 560
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 775,
-      "ContactName": "Gislason Inc and Sons",
-      "PersonId": 223,
-      "PersonName": "Mayer, Beier and Leffler",
-      "AssociateId": 355,
-      "Address": "quibusdam",
-      "EmailId": 204,
+      "ContactId": 272,
+      "ContactName": "Yundt-Beahan",
+      "PersonId": 100,
+      "PersonName": "Spencer, Gerhold and Howell",
+      "AssociateId": 492,
+      "Address": "iste",
+      "EmailId": 946,
       "DuplicatePersonIds": [
-        550,
-        515
+        859,
+        72
       ],
-      "Name": "Braun, Mohr and Kassulke",
+      "Name": "Johnston-Braun",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 894
+          "FieldLength": 79
         }
       }
     }
   ],
-  "Subject": "dolores",
-  "HTMLBody": "laborum",
+  "Subject": "in",
+  "HTMLBody": "modi",
   "From": null,
-  "Sent": "2013-12-27T13:14:05.9757861+01:00",
-  "Size": 708,
+  "Sent": "2018-12-06T14:45:05.5532468+01:00",
+  "Size": 734,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloribus",
-  "PlainBody": "libero",
-  "IsSent": false,
+  "MessageID": "veritatis",
+  "PlainBody": "dolores",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 817,
+  "ServerId": 514,
   "Attachments": [
     {
-      "Description": "Inverse background intranet",
-      "Filename": "ut",
-      "Size": 672,
-      "Type": "aut",
-      "Encoding": "ullam",
-      "Id": "culpa",
-      "Disposition": "necessitatibus",
+      "Description": "Enhanced 4th generation info-mediaries",
+      "Filename": "sapiente",
+      "Size": 519,
+      "Type": "sint",
+      "Encoding": "non",
+      "Id": "sapiente",
+      "Disposition": "veniam",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 983
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Walter-Rowe",
+      "Name": "Torp LLC",
       "Values": [
-        "possimus",
-        "et"
+        "commodi",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 468
         }
       }
     },
     {
-      "Name": "Walter-Rowe",
+      "Name": "Torp LLC",
       "Values": [
-        "possimus",
-        "et"
+        "commodi",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 468
         }
       }
     }
   ],
-  "FolderName": "Fahey, Bernhard and Parisian",
-  "EmailItemId": 800,
-  "AccountId": 77,
-  "ReceivedAt": "2011-01-21T13:14:05.9757861+01:00",
+  "FolderName": "Jones-Swift",
+  "EmailItemId": 891,
+  "AccountId": 525,
+  "ReceivedAt": "2000-09-30T14:45:05.5532468+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-02-14T13:14:05.9757861+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2005-10-06T14:45:05.5532468+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   }
 }

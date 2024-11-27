@@ -34,6 +34,8 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [CreateFolder](CreateFolder.md)
 * [CreateForwardEmail](CreateForwardEmail.md)
 * [CreateInlineHtmlHeader](CreateInlineHtmlHeader.md)
+* [CreateNewPhysicalDocumentFromEmail](CreateNewPhysicalDocumentFromEmail.md)
+* [CreateNewPhysicalDocumentFromEmailAttachment](CreateNewPhysicalDocumentFromEmailAttachment.md)
 * [Delete](Delete.md)
 * [DeleteEMailAccount](DeleteEMailAccount.md)
 * [DeleteEmails](DeleteEmails.md)

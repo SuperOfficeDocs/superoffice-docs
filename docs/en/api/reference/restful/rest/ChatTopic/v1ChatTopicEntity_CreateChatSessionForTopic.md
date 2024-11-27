@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 488,
-  "TopicId": 638,
+  "ChatSessionId": 45,
+  "TopicId": 109,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorum",
-  "CustomerHost": "velit",
-  "CustomerName": "Botsford, Witting and Gerhold",
-  "CustomerEmail": "bernadine.dare@moore.uk",
-  "CustomerPhone": "869-294-2207 x036",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Jones Group",
+  "CustomerAlias": "natus",
+  "CustomerHost": "ab",
+  "CustomerName": "Feil Inc and Sons",
+  "CustomerEmail": "lelia@langworth.co.uk",
+  "CustomerPhone": "625-717-5870 x377",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Powlowski Group",
   "Status": "Closed",
-  "FirstMessage": "nisi",
-  "LastMessage": "laborum",
-  "WhenRequested": "2018-11-04T13:14:10.6954061+01:00",
-  "WhenStarted": "2013-12-24T13:14:10.6954061+01:00",
-  "WhenEnded": "2009-12-26T13:14:10.6954061+01:00",
-  "WhenIdle": "2004-04-07T13:14:10.6954061+02:00",
-  "WhenFetched": "2020-08-18T13:14:10.6954061+02:00",
-  "SessionKey": "blanditiis",
-  "InitialQueuePos": 955,
-  "AlertLevel": 575,
-  "Rank": 758,
+  "FirstMessage": "et",
+  "LastMessage": "et",
+  "WhenRequested": "2011-05-17T14:45:12.6151129+02:00",
+  "WhenStarted": "1999-06-30T14:45:12.6151129+02:00",
+  "WhenEnded": "2014-10-25T14:45:12.6151129+02:00",
+  "WhenIdle": "2021-01-11T14:45:12.6151129+01:00",
+  "WhenFetched": "2022-10-12T14:45:12.6151129+02:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 431,
+  "AlertLevel": 585,
+  "Rank": 161,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 877,
+  "ChatbotIsActive": false,
+  "Rating": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 673
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

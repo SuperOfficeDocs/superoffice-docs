@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Olson, Spinka and Johns",
-    "ToolTip": "Odit inventore sit.",
+    "Id": 522,
+    "Name": "Blanda Inc and Sons",
+    "ToolTip": "Magni labore hic voluptas reprehenderit aut pariatur sunt.",
     "Deleted": false,
-    "Rank": 237,
-    "Type": "quam",
-    "ColorBlock": 243,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2015-07-16T13:14:11.3673211+02:00",
+    "Rank": 88,
+    "Type": "nulla",
+    "ColorBlock": 116,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "2015-04-01T14:45:13.6461348+02:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Purdy, Lubowitz and Tremblay",
-        "ToolTip": "Animi ut blanditiis voluptatem.",
+        "Id": 334,
+        "Name": "Durgan LLC",
+        "ToolTip": "Saepe est repudiandae et hic.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "doloremque",
-        "ColorBlock": 688,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2016-09-20T13:14:11.3673211+02:00",
+        "Rank": 51,
+        "Type": "assumenda",
+        "ColorBlock": 634,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2004-08-27T14:45:13.6461348+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Prof. Jarrod Vandervort",
+        "ExtraInfo": "alias",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Erin Enrico Bergnaum III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 795
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "totam",
+    "ExtraInfo": "magnam",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Unique Shanahan",
+    "FullName": "Alexane Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 568
       }
     }
   }

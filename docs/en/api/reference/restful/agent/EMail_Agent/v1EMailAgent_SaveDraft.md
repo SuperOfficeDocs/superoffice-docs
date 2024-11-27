@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 768,
-      "ContactName": "Bechtelar-Wiegand",
-      "PersonId": 906,
-      "PersonName": "Hickle LLC",
-      "AssociateId": 924,
-      "Address": "soluta",
-      "EmailId": 361,
+      "ContactId": 941,
+      "ContactName": "Hilll Inc and Sons",
+      "PersonId": 455,
+      "PersonName": "Rogahn, Roob and Hermann",
+      "AssociateId": 725,
+      "Address": "quia",
+      "EmailId": 822,
       "DuplicatePersonIds": [
-        426,
-        375
+        226,
+        771
       ],
-      "Name": "Russel LLC",
+      "Name": "Kozey-Jones",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 141
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 327,
-      "ContactName": "Witting, Bartell and Feest",
-      "PersonId": 723,
-      "PersonName": "Franecki LLC",
-      "AssociateId": 599,
-      "Address": "numquam",
-      "EmailId": 52,
+      "ContactId": 6,
+      "ContactName": "Blick-Schumm",
+      "PersonId": 493,
+      "PersonName": "Bruen, Volkman and Mraz",
+      "AssociateId": 660,
+      "Address": "qui",
+      "EmailId": 286,
       "DuplicatePersonIds": [
-        470,
-        275
+        308,
+        426
       ],
-      "Name": "Rippin LLC",
+      "Name": "Christiansen, Schulist and Adams",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 277
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 283,
-      "ContactName": "Hoppe-Muller",
-      "PersonId": 786,
-      "PersonName": "Dicki Group",
-      "AssociateId": 344,
-      "Address": "impedit",
-      "EmailId": 284,
+      "ContactId": 18,
+      "ContactName": "McLaughlin Inc and Sons",
+      "PersonId": 879,
+      "PersonName": "Hayes-Rodriguez",
+      "AssociateId": 36,
+      "Address": "dolorem",
+      "EmailId": 963,
       "DuplicatePersonIds": [
-        822,
-        866
+        418,
+        32
       ],
-      "Name": "Wilderman, Mohr and Upton",
+      "Name": "Sanford, Schiller and Nolan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 833
         }
       }
     }
   ],
-  "Subject": "similique",
-  "HTMLBody": "ipsa",
+  "Subject": "sunt",
+  "HTMLBody": "consectetur",
   "From": null,
-  "Sent": "2020-08-04T13:14:05.9445336+02:00",
-  "Size": 232,
+  "Sent": "2012-08-16T14:45:05.5063824+02:00",
+  "Size": 548,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorum",
-  "PlainBody": "ad",
+  "MessageID": "provident",
+  "PlainBody": "deserunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 260,
+  "ServerId": 898,
   "Attachments": [
     {
-      "Description": "Exclusive coherent access",
-      "Filename": "minima",
-      "Size": 843,
-      "Type": "ea",
-      "Encoding": "pariatur",
-      "Id": "et",
-      "Disposition": "aut",
-      "IsSafeFileExtension": true,
+      "Description": "Versatile neutral extranet",
+      "Filename": "voluptates",
+      "Size": 401,
+      "Type": "nulla",
+      "Encoding": "est",
+      "Id": "id",
+      "Disposition": "dolor",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 877
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Adams Group",
+      "Name": "Rogahn, Runolfsdottir and Bergstrom",
       "Values": [
-        "ex",
-        "ut"
+        "inventore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 744
         }
       }
     },
     {
-      "Name": "Adams Group",
+      "Name": "Rogahn, Runolfsdottir and Bergstrom",
       "Values": [
-        "ex",
-        "ut"
+        "inventore",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 744
         }
       }
     }
   ],
-  "FolderName": "Beier, Swaniawski and Nicolas",
-  "EmailItemId": 900,
-  "AccountId": 488,
-  "ReceivedAt": "2015-03-17T13:14:05.9445336+01:00",
+  "FolderName": "Spencer LLC",
+  "EmailItemId": 364,
+  "AccountId": 993,
+  "ReceivedAt": "2007-08-29T14:45:05.5063824+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-09-26T13:14:05.9445336+02:00",
+  "RepliedAt": "2023-12-14T14:45:05.5063824+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

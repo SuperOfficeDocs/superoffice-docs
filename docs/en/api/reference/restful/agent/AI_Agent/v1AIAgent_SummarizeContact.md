@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 106,
-  "NumSentences": 128,
-  "IsoLangCode": "aperiam"
+  "ContactId": 338,
+  "NumSentences": 831,
+  "IsoLangCode": "eaque"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fugiat"
+"possimus"
 ```

@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 784,
-  "PrefDescId": 826,
-  "PrefValue": "nobis",
-  "PrefShowValue": "accusantium",
-  "Description": "Decentralized intangible standardization",
-  "IsBuiltin": false
+  "PrefDescLineId": 906,
+  "PrefDescId": 659,
+  "PrefValue": "tempora",
+  "PrefShowValue": "minima",
+  "Description": "Future-proofed zero tolerance open architecture",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 526,
-  "PrefDescId": 309,
-  "PrefValue": "ut",
-  "PrefShowValue": "mollitia",
-  "Description": "Universal human-resource analyzer",
-  "IsBuiltin": false,
+  "PrefDescLineId": 923,
+  "PrefDescId": 450,
+  "PrefValue": "sapiente",
+  "PrefShowValue": "et",
+  "Description": "Secured uniform utilisation",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   },
   "_Links": {

@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 606,
-  "Name": "Sipes-Kihn",
-  "CreatedDate": "1997-12-06T13:14:06.0382898+01:00",
-  "UpdatedDate": "2014-06-17T13:14:06.0382898+02:00",
+  "ForeignAppId": 432,
+  "Name": "Krajcik, Kunde and Kub",
+  "CreatedDate": "2017-04-16T14:45:05.6313552+02:00",
+  "UpdatedDate": "2003-01-09T14:45:05.6313552+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 621,
-      "Name": "Kub-Hahn",
-      "CreatedDate": "2009-12-18T13:14:06.0382898+01:00",
-      "UpdatedDate": "2013-07-22T13:14:06.0382898+02:00",
-      "AssociateFullName": "Ezra Schinner",
-      "CreatedBy": "sunt",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 716
+      "ForeignDeviceId": 211,
+      "Name": "Buckridge-Cruickshank",
+      "CreatedDate": "2006-03-06T14:45:05.6313552+01:00",
+      "UpdatedDate": "2018-10-31T14:45:05.6313552+01:00",
+      "AssociateFullName": "Sebastian Schumm",
+      "CreatedBy": "ipsa",
+      "UpdatedBy": "totam",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 764
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 431,
-  "Name": "Dibbert, Kling and Wilkinson",
-  "CreatedDate": "1999-07-22T13:14:06.0382898+02:00",
-  "UpdatedDate": "2023-01-03T13:14:06.0382898+01:00",
+  "ForeignAppId": 401,
+  "Name": "Kling LLC",
+  "CreatedDate": "2002-10-14T14:45:05.6313552+02:00",
+  "UpdatedDate": "2001-11-21T14:45:05.6313552+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 853,
-      "Name": "Farrell-Hansen",
-      "CreatedDate": "2021-03-03T13:14:06.0382898+01:00",
-      "UpdatedDate": "2003-01-13T13:14:06.0382898+01:00",
-      "AssociateFullName": "Miss Casper Erica Bahringer II",
-      "CreatedBy": "aut",
-      "UpdatedBy": "voluptatem",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 751,
+      "ForeignDeviceId": 8,
+      "Name": "Kunze Inc and Sons",
+      "CreatedDate": "2005-11-04T14:45:05.6313552+01:00",
+      "UpdatedDate": "2018-09-19T14:45:05.6313552+02:00",
+      "AssociateFullName": "Wyatt Mitchell",
+      "CreatedBy": "veniam",
+      "UpdatedBy": "aliquam",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 619,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 376
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

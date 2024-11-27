@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 950,
-  "UniqueId": "aut",
-  "Name": "Grady, Murray and Morar",
-  "Description": "Visionary national moderator",
-  "AssociateId": 763,
-  "Columns": 947,
+  "DashboardId": 632,
+  "UniqueId": "voluptas",
+  "Name": "Beahan Group",
+  "Description": "Horizontal value-added strategy",
+  "AssociateId": 64,
+  "Columns": 620,
   "Theme": null,
-  "VisibleForAll": 891,
+  "VisibleForAll": 298,
   "VisibleForAssociates": [
-    316,
-    762
+    227,
+    584
   ],
   "VisibleForGroups": [
-    633,
-    167
+    561,
+    785
   ],
-  "PinForAll": 142,
+  "PinForAll": 44,
   "PinForAssociates": [
-    368,
-    325
+    41,
+    287
   ],
   "PinForGroups": [
-    244,
-    374
+    69,
+    462
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 85
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

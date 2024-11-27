@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension'>CreateDefaultTargetAssignmentForCompanyWithYearAndDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.CreateDefaultTargetAssignmentForCompanyWithYearAndDimension'>CreateDefaultTargetAssignmentForCompanyWithYearAndDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeCreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 ```cs

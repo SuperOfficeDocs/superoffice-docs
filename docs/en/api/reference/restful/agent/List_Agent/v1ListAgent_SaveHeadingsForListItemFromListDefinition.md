@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 285,
-  "ListItemId": 448,
+  "UdListDefinitionId": 853,
+  "ListItemId": 471,
   "Headings": [
     {
-      "Id": 710,
-      "Name": "Barrows LLC",
-      "ToolTip": "Optio similique amet voluptas dolorum officiis dolore ea.",
+      "Id": 969,
+      "Name": "Pagac, Jerde and Romaguera",
+      "ToolTip": "Non cumque.",
       "Deleted": false,
-      "Rank": 930,
-      "Type": "ut",
-      "ColorBlock": 815,
-      "IconHint": "omnis",
+      "Rank": 420,
+      "Type": "non",
+      "ColorBlock": 171,
+      "IconHint": "assumenda",
       "Selected": false,
-      "LastChanged": "2022-12-05T13:14:06.0851676+01:00",
+      "LastChanged": "2017-09-13T14:45:05.7094637+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "assumenda",
-      "Hidden": false,
-      "FullName": "Kaylin Hermiston"
+      "ExtraInfo": "sed",
+      "StyleHint": "est",
+      "Hidden": true,
+      "FullName": "Dr. Donato Keshawn Hayes DDS"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Koelpin, Stiedemann and Von",
-    "ToolTip": "Ipsam quia sint perspiciatis id.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "quia",
-    "ColorBlock": 335,
-    "IconHint": "nobis",
+    "Id": 512,
+    "Name": "Rolfson-Rau",
+    "ToolTip": "Eveniet tenetur aliquid deserunt quaerat impedit vitae ea.",
+    "Deleted": false,
+    "Rank": 670,
+    "Type": "et",
+    "ColorBlock": 681,
+    "IconHint": "veritatis",
     "Selected": true,
-    "LastChanged": "2003-02-20T13:14:06.0851676+01:00",
+    "LastChanged": "1999-01-11T14:45:05.7250829+01:00",
     "ChildItems": [
       {
-        "Id": 987,
-        "Name": "Bailey, Beier and Lehner",
-        "ToolTip": "Tenetur sint laborum reiciendis.",
-        "Deleted": false,
-        "Rank": 756,
-        "Type": "vel",
-        "ColorBlock": 585,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2003-08-27T13:14:06.0851676+02:00",
+        "Id": 675,
+        "Name": "Daniel Group",
+        "ToolTip": "Ad consectetur voluptas distinctio nesciunt est dolore.",
+        "Deleted": true,
+        "Rank": 203,
+        "Type": "esse",
+        "ColorBlock": 262,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2000-07-05T14:45:05.7250829+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "provident",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Erling Marks",
+        "FullName": "Minnie Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 172
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "laborum",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Velva Lockman",
+    "FullName": "Mrs. Jenifer Krajcik Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

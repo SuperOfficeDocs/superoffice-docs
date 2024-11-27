@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.GetForAllDocuments
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocuments'>GetForAllDocuments</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.GetForAllDocuments'>GetForAllDocuments</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeGetForAllDocuments
 ```cs

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "O'Connell LLC",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 302,
-  "IsCustomList": false,
+  "Id": 833,
+  "Name": "Sipes-Nikolaus",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 988,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
-  "InUseByUserDefinedFields": true
+  "ListType": "reiciendis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235,
-  "Name": "Weimann, Zieme and Carroll",
-  "Tooltip": "officia",
+  "Id": 66,
+  "Name": "Kuphal, Will and O'Keefe",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 338,
+  "Rank": 461,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

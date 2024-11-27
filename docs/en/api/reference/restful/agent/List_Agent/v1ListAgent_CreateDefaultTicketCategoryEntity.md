@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 951,
-  "ParentId": 23,
-  "Name": "Streich LLC",
-  "Fullname": "in",
-  "CategoryMaster": 103,
+  "TicketCategoryId": 41,
+  "ParentId": 678,
+  "Name": "Mayer Inc and Sons",
+  "Fullname": "possimus",
+  "CategoryMaster": 403,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "DuBuque-Muller",
+  "ExternalName": "Kreiger Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 422,
-  "ReplyTemplate": 894,
-  "NotificationEmail": "giuseppe_kshlerin@hillsmueller.co.uk",
+  "AssignmentLag": 340,
+  "ReplyTemplate": 44,
+  "NotificationEmail": "aurelio_schroeder@schneider.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 327,
+  "EffectiveReplyTemplateId": 755,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "architecto"
+    "CustomFields1": "aut",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 601
     }
   }
 }

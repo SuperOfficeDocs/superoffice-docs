@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Barton Inc and Sons",
+      "ErpListName": "Pacocha Inc and Sons",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "King Group",
-      "ErpFieldId": 965,
+      "ErpActorTypeName": "Mills Group",
+      "ErpFieldId": 776,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "ErpConnectionId": 107,
-  "ErpConnectionName": "Gutkowski Inc and Sons",
+  "ErpConnectionId": 257,
+  "ErpConnectionName": "Bernhard-O'Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 984
     }
   }
 }

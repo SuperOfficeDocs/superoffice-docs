@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 847,
-  "TopicId": 1001,
+  "ChatSessionId": 639,
+  "TopicId": 85,
   "User": null,
   "Person": null,
-  "CustomerAlias": "illum",
-  "CustomerHost": "perferendis",
-  "CustomerName": "Bashirian-Grimes",
-  "CustomerEmail": "shanna.grady@maggio.info",
-  "CustomerPhone": "087.226.4242",
+  "CustomerAlias": "ad",
+  "CustomerHost": "commodi",
+  "CustomerName": "Barton Group",
+  "CustomerEmail": "arch.renner@kessler.us",
+  "CustomerPhone": "177.476.3579 x923",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Toy LLC",
+  "CustomerCompanyName": "Bednar, Hackett and Bechtelar",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "amet",
-  "WhenRequested": "2017-03-20T13:14:05.5538856+01:00",
-  "WhenStarted": "2000-09-27T13:14:05.5538856+02:00",
-  "WhenEnded": "2005-11-02T13:14:05.5538856+01:00",
-  "WhenIdle": "2003-04-19T13:14:05.5538856+02:00",
-  "WhenFetched": "2010-07-03T13:14:05.5538856+02:00",
-  "SessionKey": "vel",
-  "InitialQueuePos": 73,
-  "AlertLevel": 474,
-  "Rank": 21,
+  "FirstMessage": "autem",
+  "LastMessage": "vitae",
+  "WhenRequested": "2012-10-04T14:45:04.9127653+02:00",
+  "WhenStarted": "2022-06-04T14:45:04.9127653+02:00",
+  "WhenEnded": "2024-07-16T14:45:04.9127653+02:00",
+  "WhenIdle": "2012-09-28T14:45:04.9127653+02:00",
+  "WhenFetched": "2022-03-18T14:45:04.9127653+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 126,
+  "AlertLevel": 604,
+  "Rank": 7,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 551
+  "Rating": 976
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 478,
-  "TopicId": 415,
+  "ChatSessionId": 130,
+  "TopicId": 765,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "eos",
-  "CustomerName": "Gibson-Zieme",
-  "CustomerEmail": "edwin.greenholt@runolfssonmann.com",
-  "CustomerPhone": "921-740-6177",
+  "CustomerAlias": "magni",
+  "CustomerHost": "soluta",
+  "CustomerName": "Satterfield-Ferry",
+  "CustomerEmail": "raven@carter.com",
+  "CustomerPhone": "(631)219-4335 x3354",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Dickens, Schneider and Satterfield",
+  "CustomerCompanyName": "Deckow-Kling",
   "Status": "Closed",
-  "FirstMessage": "illo",
-  "LastMessage": "qui",
-  "WhenRequested": "2003-07-01T13:14:05.5538856+02:00",
-  "WhenStarted": "2023-11-04T13:14:05.5538856+01:00",
-  "WhenEnded": "2019-01-24T13:14:05.5538856+01:00",
-  "WhenIdle": "2013-11-03T13:14:05.5538856+01:00",
-  "WhenFetched": "2011-07-06T13:14:05.5538856+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 557,
-  "AlertLevel": 113,
-  "Rank": 688,
+  "FirstMessage": "atque",
+  "LastMessage": "possimus",
+  "WhenRequested": "2011-08-08T14:45:04.9283852+02:00",
+  "WhenStarted": "2014-01-17T14:45:04.9283852+01:00",
+  "WhenEnded": "1998-06-07T14:45:04.9283852+02:00",
+  "WhenIdle": "2004-02-02T14:45:04.9283852+01:00",
+  "WhenFetched": "2007-07-31T14:45:04.9283852+02:00",
+  "SessionKey": "doloremque",
+  "InitialQueuePos": 213,
+  "AlertLevel": 888,
+  "Rank": 180,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 902,
+  "Rating": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 136
     }
   }
 }

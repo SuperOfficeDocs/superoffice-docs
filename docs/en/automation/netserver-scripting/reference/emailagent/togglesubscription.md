@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.ToggleSubscription
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.ToggleSubscription'>ToggleSubscription</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.ToggleSubscription'>ToggleSubscription</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeToggleSubscription
 ```cs

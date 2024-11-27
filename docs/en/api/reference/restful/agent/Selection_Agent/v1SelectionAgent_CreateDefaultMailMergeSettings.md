@@ -87,25 +87,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 721,
-  "DocumentId": 712,
+  "SelectionId": 305,
+  "DocumentId": 97,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "voluptatem",
+  "CustomAttention": "id",
   "AlwaysUseCustomAttention": true,
   "SaveDocument": false,
-  "CustomMailBody": "velit",
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 262,
-  "AddPersonInterest": 284,
-  "RemoveCompanyInterest": 866,
-  "RemovePersonInterest": 964,
+  "AddCompanyInterest": 114,
+  "AddPersonInterest": 776,
+  "RemoveCompanyInterest": 162,
+  "RemovePersonInterest": 625,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 855,
+  "ProjectId": 829,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "dolorem",
-  "ExtraInfo": "impedit",
+  "CustomMailSubject": "ut",
+  "ExtraInfo": "qui",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 249
     }
   }
 }

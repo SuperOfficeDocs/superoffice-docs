@@ -88,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Feeney LLC",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 315,
+  "Id": 923,
+  "Name": "Stark-Considine",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 621,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": true
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 500,
-  "Name": "Kuhic-Romaguera",
-  "Tooltip": "sit",
+  "Id": 21,
+  "Name": "Brakus, Lehner and Kerluke",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 18,
+  "Rank": 318,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 747
     }
   }
 }

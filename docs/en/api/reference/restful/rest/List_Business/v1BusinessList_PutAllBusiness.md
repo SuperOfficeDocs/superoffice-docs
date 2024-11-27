@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Weber Inc and Sons",
-    "Tooltip": "sed",
+    "Id": 542,
+    "Name": "McDermott Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 964
+    "UdListDefinitionId": 518,
+    "Rank": 902
   },
   {
-    "Id": 20,
-    "Name": "Weber Inc and Sons",
-    "Tooltip": "sed",
+    "Id": 542,
+    "Name": "McDermott Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 964
+    "UdListDefinitionId": 518,
+    "Rank": 902
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 627,
-    "Name": "Bednar, Hills and Beahan",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "UdListDefinitionId": 620,
-    "Rank": 399,
+    "Id": 735,
+    "Name": "Rogahn-Cormier",
+    "Tooltip": "blanditiis",
+    "Deleted": true,
+    "UdListDefinitionId": 102,
+    "Rank": 516,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 999
       }
     }
   }

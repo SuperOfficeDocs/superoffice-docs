@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=03/03/2022 13:14:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/28/2013 13:14:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=996
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=04/03/2002 14:45:16
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/09/2001 14:45:16
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=54
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 299,
-  "ERPPriceListKey": "ipsa",
-  "QuoteConnectionId": 309,
-  "Name": "Ziemann-Zboncak",
-  "Description": "Stand-alone object-oriented hub",
-  "Currency": "veniam",
-  "CurrencyName": "Schamberger, Kiehn and Berge",
-  "ValidFrom": "2023-04-20T13:14:11.4454508+02:00",
-  "ValidTo": "2001-12-16T13:14:11.4454508+01:00",
-  "IsActive": false,
+  "PriceListId": 883,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 871,
+  "Name": "Bosco LLC",
+  "Description": "Integrated homogeneous system engine",
+  "Currency": "molestias",
+  "CurrencyName": "Sawayn LLC",
+  "ValidFrom": "2022-03-15T14:45:13.7711051+01:00",
+  "ValidTo": "2017-06-24T14:45:13.7711051+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 515
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fuga",
-  "ProviderName": "Casper LLC",
-  "StorageKey": "voluptate",
-  "Rank": 750,
-  "Context": "cupiditate"
+  "StorageType": "vitae",
+  "ProviderName": "Romaguera, Hoeger and Braun",
+  "StorageKey": "repudiandae",
+  "Rank": 843,
+  "Context": "iusto"
 }
 ```
 

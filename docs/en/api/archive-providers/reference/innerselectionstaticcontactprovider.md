@@ -466,6 +466,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -532,13 +535,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |document/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |document/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|document/associate/userName|string|User name: User name| x |
-|document/associate/personEmail|string|E-mail| x |
-|document/associate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/userName|string|User name: User name| x |
+|document/associate/personEmail|string|E-mail| x |
+|document/associate/locationAddress|string|Location: Location| x |
 |document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
@@ -636,13 +639,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|subscription|listAny|Subscription: Subscription for marketing| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|subscription|listAny|Subscription: Subscription for marketing| x |
 |legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
@@ -651,7 +654,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=restrictionAddress/line3,sale/amountInBaseCurrency,sale/visibleFor,sale/saleUdef/SuperOffice:3,appointment/recordType
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=hasInterests,sale/earning,sale/associate/credentialDisplayValue,sale/associate/isActiveText,appointment/associate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

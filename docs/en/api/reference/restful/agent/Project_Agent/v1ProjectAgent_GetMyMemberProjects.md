@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 633,
-    "Name": "Sauer-Macejkovic",
-    "Description": "Profound disintermediate hierarchy",
+    "ProjectId": 839,
+    "Name": "Haag Inc and Sons",
+    "Description": "Multi-layered methodical toolset",
     "URL": "http://www.example.com/",
-    "Type": "rerum",
-    "AssociateId": 425,
-    "AssociateFullName": "Roma Emard",
-    "TypeId": 556,
-    "Updated": "2015-05-26T13:14:06.2883049+02:00",
-    "StatusId": 312,
-    "Status": "commodi",
-    "TextId": 146,
-    "PublishTo": "2023-07-22T13:14:06.2883049+02:00",
-    "PublishFrom": "2021-01-13T13:14:06.2883049+01:00",
+    "Type": "ut",
+    "AssociateId": 946,
+    "AssociateFullName": "Prof. Daryl Beatty",
+    "TypeId": 408,
+    "Updated": "2006-05-18T14:45:06.0218921+02:00",
+    "StatusId": 482,
+    "Status": "quis",
+    "TextId": 968,
+    "PublishTo": "2007-05-15T14:45:06.0218921+02:00",
+    "PublishFrom": "2009-12-17T14:45:06.0218921+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1267046",
-    "ActiveErpLinks": 53,
+    "ProjectNumber": "209148",
+    "ActiveErpLinks": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 600
       }
     }
   }

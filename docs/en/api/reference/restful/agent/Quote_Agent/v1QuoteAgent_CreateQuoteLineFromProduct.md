@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 613,
+  "QuoteAlternativeId": 218,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 129,
-  "ERPQuoteLineKey": "quo",
-  "QuoteAlternativeId": 863,
-  "ERPProductKey": "laborum",
+  "QuoteLineId": 476,
+  "ERPQuoteLineKey": "ipsa",
+  "QuoteAlternativeId": 506,
+  "ERPProductKey": "velit",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10191.768,
-  "DeliveredQuantity": 15601.052,
-  "Rank": 5,
-  "Name": "Murray, Fahey and Schuppe",
-  "Description": "Upgradable national interface",
-  "Code": "eos",
-  "QuantityUnit": "numquam",
-  "PriceUnit": "est",
-  "ItemNumber": "1166640",
+  "Quantity": 1382.094,
+  "DeliveredQuantity": 13372.778,
+  "Rank": 349,
+  "Name": "Deckow, Glover and Hamill",
+  "Description": "Operative reciprocal hierarchy",
+  "Code": "vel",
+  "QuantityUnit": "eos",
+  "PriceUnit": "qui",
+  "ItemNumber": "1949165",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "exercitationem",
-  "Supplier": "fuga",
-  "SupplierCode": "enim",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "laudantium",
-  "VAT": 6929.2739999999994,
-  "UnitCost": 8903.694,
-  "UnitMinimumPrice": 28406.575999999997,
-  "UnitListPrice": 14012.114,
+  "ProductFamilyKey": "blanditiis",
+  "ProductTypeKey": "voluptas",
+  "Supplier": "voluptatibus",
+  "SupplierCode": "repudiandae",
+  "Thumbnail": "et",
+  "VATInfo": "dolorem",
+  "VAT": 5938.9299999999994,
+  "UnitCost": 21815.773999999998,
+  "UnitMinimumPrice": 12394.97,
+  "UnitListPrice": 30471.881999999998,
   "ExtraInfo": [
     {
-      "Name": "Hermiston Group",
-      "Value": "et",
+      "Name": "Gleason Inc and Sons",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 444
         }
       }
     },
     {
-      "Name": "Hermiston Group",
-      "Value": "et",
+      "Name": "Gleason Inc and Sons",
+      "Value": "quod",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 444
         }
       }
     }
   ],
-  "RawExtraInfo": "soluta",
-  "IsSubscription": false,
-  "SubscriptionUnit": "in",
-  "SubscriptionQuantity": 18584.62,
-  "SubscriptionStart": "2007-11-21T13:14:06.3351823+01:00",
-  "ERPDiscountPercent": 23617.824,
-  "ERPDiscountAmount": 22878.2,
-  "DiscountPercent": 14748.604,
-  "DiscountAmount": 20192.362,
+  "RawExtraInfo": "est",
+  "IsSubscription": true,
+  "SubscriptionUnit": "mollitia",
+  "SubscriptionQuantity": 22561.666,
+  "SubscriptionStart": "2017-12-21T14:45:06.0843796+01:00",
+  "ERPDiscountPercent": 18637.898,
+  "ERPDiscountAmount": 1595.206,
+  "DiscountPercent": 28914.284,
+  "DiscountAmount": 25792.82,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3090.124,
-  "EarningAmount": 9486.618,
-  "SubTotal": 11633.408,
-  "TotalPrice": 18120.788,
-  "Rights": "veritatis",
-  "Rule": "ea",
-  "ExtraField1": "soluta",
-  "ExtraField2": "ex",
-  "ExtraField3": "et",
-  "ExtraField4": "dolores",
-  "ExtraField5": "eos",
+  "EarningPercent": 8004.236,
+  "EarningAmount": 7552.94,
+  "SubTotal": 25156.618,
+  "TotalPrice": 19578.097999999998,
+  "Rights": "nesciunt",
+  "Rule": "in",
+  "ExtraField1": "eaque",
+  "ExtraField2": "eius",
+  "ExtraField3": "beatae",
+  "ExtraField4": "repellendus",
+  "ExtraField5": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 147
     }
   }
 }

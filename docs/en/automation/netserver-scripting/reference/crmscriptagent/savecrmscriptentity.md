@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.SaveCRMScriptEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity'>SaveCRMScriptEntity</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.SaveCRMScriptEntity'>SaveCRMScriptEntity</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeSaveCRMScriptEntity
 ```cs

@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 8,
-  "ColumnId": 114,
-  "FieldDefault": "adipisci",
-  "FieldHeight": 81,
-  "FieldLabel": "et",
-  "FieldLeft": 479,
-  "FieldTop": 257,
+  "UDefFieldId": 128,
+  "ColumnId": 710,
+  "FieldDefault": "nam",
+  "FieldHeight": 38,
+  "FieldLabel": "autem",
+  "FieldLeft": 153,
+  "FieldTop": 506,
   "FieldType": "Checkbox",
-  "FieldWidth": 878,
-  "FormatMask": "officiis",
-  "HideLabel": false,
+  "FieldWidth": 697,
+  "FormatMask": "sed",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 828,
-  "LabelLeft": 748,
-  "LabelTop": 318,
-  "LabelWidth": 852,
-  "LastVersionId": 851,
-  "ListTableId": 818,
-  "IsMandatory": true,
+  "LabelHeight": 879,
+  "LabelLeft": 871,
+  "LabelTop": 840,
+  "LabelWidth": 176,
+  "LastVersionId": 97,
+  "ListTableId": 854,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 321,
-  "ProgId": "amet",
-  "IsReadOnly": false,
-  "ShortLabel": "tempore",
-  "TabOrder": 891,
-  "TextLength": 114,
-  "Tooltip": "est",
-  "UdefIdentity": 836,
-  "UDListDefinitionId": 33,
+  "Page1LineNo": 295,
+  "ProgId": "inventore",
+  "IsReadOnly": true,
+  "ShortLabel": "repellendus",
+  "TabOrder": 535,
+  "TextLength": 363,
+  "Tooltip": "maxime",
+  "UdefIdentity": 251,
+  "UDListDefinitionId": 93,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Dibbert, Willms and Ullrich",
-  "HasBeenPublished": true,
-  "MdoListName": "White LLC",
+  "Version": 913,
+  "TemplateVariableName": "Champlin, Beahan and Bashirian",
+  "HasBeenPublished": false,
+  "MdoListName": "Jacobson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

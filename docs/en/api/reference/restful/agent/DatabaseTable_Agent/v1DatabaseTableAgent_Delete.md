@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Medhurst, Sanford and Roberts",
+  "TableName": "Bednar LLC",
   "IDs": [
-    150,
-    413
+    759,
+    978
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "est",
-  "Inserts": 918,
-  "Updates": 862,
-  "Deletes": 965,
+  "Message": "et",
+  "Inserts": 788,
+  "Updates": 675,
+  "Deletes": 173,
   "RowStatus": [
     {
-      "PrimaryKey": 502,
+      "PrimaryKey": 233,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sint",
-        "odio"
+        "est",
+        "laborum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 192
         }
       }
     },
     {
-      "PrimaryKey": 502,
+      "PrimaryKey": 233,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sint",
-        "odio"
+        "est",
+        "laborum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 192
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 849
     }
   }
 }

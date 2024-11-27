@@ -10,7 +10,7 @@ so.envir: onsite
 
 # TicketAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>TicketAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can trigger server-side event scripts.
 
 * [AddAttachments](addattachments.md)
 * [BatchForward](batchforward.md)

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.DeleteConfigParameter
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter'>DeleteConfigParameter</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.DeleteConfigParameter'>DeleteConfigParameter</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeDeleteConfigParameter
 ```cs

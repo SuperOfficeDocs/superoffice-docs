@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 142,
-  "Currency": "et"
+  "QuoteConnectionId": 778,
+  "Currency": "est"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 759,
-    "ERPPriceListKey": "laborum",
-    "QuoteConnectionId": 77,
-    "Name": "Dare-O'Keefe",
-    "Description": "Networked bi-directional solution",
-    "Currency": "repudiandae",
-    "CurrencyName": "Moore, Gutkowski and Doyle",
-    "ValidFrom": "2020-05-23T13:14:06.3351823+02:00",
-    "ValidTo": "2006-03-14T13:14:06.3351823+01:00",
+    "PriceListId": 845,
+    "ERPPriceListKey": "ad",
+    "QuoteConnectionId": 742,
+    "Name": "Erdman, Will and Carter",
+    "Description": "Pre-emptive transitional secured line",
+    "Currency": "vitae",
+    "CurrencyName": "Watsica Inc and Sons",
+    "ValidFrom": "2018-06-17T14:45:06.0687573+02:00",
+    "ValidTo": "2000-08-27T14:45:06.0687573+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

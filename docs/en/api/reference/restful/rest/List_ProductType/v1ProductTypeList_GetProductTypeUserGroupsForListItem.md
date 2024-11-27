@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Frami, Nikolaus and Johnston",
-    "ToolTip": "Eveniet ea sequi.",
+    "Id": 369,
+    "Name": "Price Group",
+    "ToolTip": "Ad pariatur recusandae quia aut.",
     "Deleted": true,
-    "Rank": 252,
-    "Type": "pariatur",
-    "ColorBlock": 77,
+    "Rank": 144,
+    "Type": "enim",
+    "ColorBlock": 296,
     "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2016-07-11T13:14:11.4767026+02:00",
+    "Selected": true,
+    "LastChanged": "2021-09-03T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Ledner-Nienow",
-        "ToolTip": "Aut esse aut minus ad voluptas.",
-        "Deleted": false,
-        "Rank": 803,
-        "Type": "minus",
-        "ColorBlock": 274,
-        "IconHint": "magni",
+        "Id": 562,
+        "Name": "Weissnat-Rohan",
+        "ToolTip": "Adipisci aliquid amet.",
+        "Deleted": true,
+        "Rank": 407,
+        "Type": "voluptatem",
+        "ColorBlock": 801,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2017-02-03T13:14:11.4767026+01:00",
+        "LastChanged": "2003-09-20T14:45:13.8179422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Cody Goyette V",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Ms. Houston Marco Homenick III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 554
+            "FieldType": "System.String",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "architecto",
+    "ExtraInfo": "ea",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Joyce Haag",
+    "FullName": "Diego Noemy Reinger DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

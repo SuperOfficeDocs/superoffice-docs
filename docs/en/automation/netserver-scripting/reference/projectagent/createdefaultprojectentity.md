@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.CreateDefaultProjectEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity'>CreateDefaultProjectEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.CreateDefaultProjectEntity'>CreateDefaultProjectEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeCreateDefaultProjectEntity
 ```cs

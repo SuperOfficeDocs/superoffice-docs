@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 788,
-  "Name": "Willms-Lindgren",
-  "Tooltip": "aut",
-  "Rank": 400,
-  "Rate": 15967.73,
-  "Units": 9555.5659999999989,
+  "CurrencyId": 181,
+  "Name": "Schaden, Bergnaum and Greenfelder",
+  "Tooltip": "rerum",
+  "Rank": 782,
+  "Rate": 30506.356,
+  "Units": 10762.155999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   }
 }

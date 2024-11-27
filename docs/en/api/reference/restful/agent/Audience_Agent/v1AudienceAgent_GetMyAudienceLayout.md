@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 231,
-  "InstanceLayout": "inventore",
-  "InstanceName": "Shields-Marvin",
-  "CreatedDate": "2022-02-28T13:14:05.5226336+01:00",
-  "UpdatedDate": "2008-09-25T13:14:05.5226336+02:00",
+  "AudienceLayoutId": 926,
+  "InstanceLayout": "sed",
+  "InstanceName": "Runte, Champlin and Hagenes",
+  "CreatedDate": "2008-02-12T14:45:04.8815214+01:00",
+  "UpdatedDate": "2008-05-27T14:45:04.8815214+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 23
     }
   }
 }

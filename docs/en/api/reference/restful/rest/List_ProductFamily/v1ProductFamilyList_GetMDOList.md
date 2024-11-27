@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=sit
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=suscipit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Mitchell-Mueller",
-    "ToolTip": "Pariatur a non fuga voluptas.",
+    "Id": 179,
+    "Name": "Padberg-Jaskolski",
+    "ToolTip": "Eius voluptas eos recusandae inventore tenetur.",
     "Deleted": false,
-    "Rank": 463,
-    "Type": "possimus",
+    "Rank": 752,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Carroll Inc and Sons",
-        "ToolTip": "Ut a id.",
+        "Id": 950,
+        "Name": "Hettinger-Borer",
+        "ToolTip": "Voluptatem error cupiditate ut ratione sunt assumenda ut.",
         "Deleted": false,
-        "Rank": 971,
-        "Type": "cum",
+        "Rank": 478,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 835,
-        "ExtraInfo": "natus",
-        "StyleHint": "perspiciatis",
-        "FullName": "Parker O'Kon",
+        "IconHint": "porro",
+        "ColorBlock": 655,
+        "ExtraInfo": "nemo",
+        "StyleHint": "est",
+        "FullName": "Miss Koby Bulah Botsford DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 965
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 644,
-    "ExtraInfo": "et",
-    "StyleHint": "velit",
-    "FullName": "Ms. Brooke Layne Johnston",
+    "IconHint": "alias",
+    "ColorBlock": 118,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "qui",
+    "FullName": "Devan Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "maiores",
+      "RawValue": "est",
       "Specification": null,
-      "DisplayValue": "placeat",
-      "DisplayTooltip": "et",
+      "DisplayValue": "exercitationem",
+      "DisplayTooltip": "officia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 167,
-      "PrefDescId": 653,
-      "TableName": "Bins-Ondricka",
-      "UserPreferenceId": 912
+      "TargetId": 394,
+      "PrefDescId": 274,
+      "TableName": "Hoeger, Hammes and Wilderman",
+      "UserPreferenceId": 972
     }
   ]
 }

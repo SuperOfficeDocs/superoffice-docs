@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 841,
-    "Tooltip": "quis",
+    "Total": 34,
+    "Tooltip": "amet",
     "CanAssign": false,
-    "Free": 934,
-    "InUse": 687,
+    "Free": 174,
+    "InUse": 806,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 483,
-    "Name": "Bahringer Inc and Sons",
-    "Description": "Horizontal grid-enabled definition",
-    "PrerequisiteModuleName": "Koelpin, Roberts and Tremblay",
-    "SortOrder": 153,
-    "ExtraFlags": 713,
+    "Assigned": false,
+    "ModuleLicenseId": 444,
+    "Name": "Leuschke, Carter and Batz",
+    "Description": "Synergized encompassing synergy",
+    "PrerequisiteModuleName": "Boyer-Mann",
+    "SortOrder": 777,
+    "ExtraFlags": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 899
       }
     }
   }

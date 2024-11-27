@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.SetXsrfPaths
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.SetXsrfPaths'>SetXsrfPaths</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.SetXsrfPaths'>SetXsrfPaths</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeSetXsrfPaths
 ```cs

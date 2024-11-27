@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=autem
+GET /api/v1/List/SelectionCategory/MDOItems?query=quibusdam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Quitzon LLC",
-    "ToolTip": "Maxime voluptatem sed odio eligendi eum perspiciatis.",
+    "Id": 507,
+    "Name": "Hodkiewicz, Zboncak and Hills",
+    "ToolTip": "Voluptatibus eaque voluptates alias dolore ut labore porro.",
     "Deleted": false,
-    "Rank": 134,
-    "Type": "sed",
+    "Rank": 80,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Moen Group",
-        "ToolTip": "Id debitis et assumenda qui.",
-        "Deleted": true,
-        "Rank": 319,
-        "Type": "ut",
+        "Id": 54,
+        "Name": "Raynor, Johns and Vandervort",
+        "ToolTip": "Velit quos dolor illum ut repellendus sunt.",
+        "Deleted": false,
+        "Rank": 539,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 351,
-        "ExtraInfo": "neque",
-        "StyleHint": "quo",
-        "FullName": "Idella Lubowitz",
+        "IconHint": "ut",
+        "ColorBlock": 464,
+        "ExtraInfo": "minima",
+        "StyleHint": "praesentium",
+        "FullName": "Isac O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 824
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 140,
-    "ExtraInfo": "repellat",
-    "StyleHint": "necessitatibus",
-    "FullName": "Jimmie Cronin",
+    "IconHint": "aut",
+    "ColorBlock": 945,
+    "ExtraInfo": "in",
+    "StyleHint": "animi",
+    "FullName": "Zion Brian Wisozk II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldLength": 429
       }
     }
   }

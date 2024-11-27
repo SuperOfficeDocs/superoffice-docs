@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 18 Aug 2016 13:14:10 G8T
+Last-Modified: Thu, 11 Jul 2024 14:45:13 G7T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Thu, 18 Aug 2016 13:14:10 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "amet",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Thu, 18 Aug 2016 13:14:10 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-01-12T13:14:10.9610472+01:00",
-  "Amount": 25344.658,
-  "SaleId": 365,
-  "Earning": 29475.27,
-  "EarningPercent": 21659.074,
-  "Heading": "laudantium",
-  "Number": "1379624",
-  "Probability": 673,
-  "CreatedDate": "2008-02-08T13:14:10.9610472+01:00",
-  "UpdatedDate": "2016-08-18T13:14:10.9610472+02:00",
+  "Saledate": "2006-05-18T14:45:13.1462444+02:00",
+  "Amount": 22173.05,
+  "SaleId": 269,
+  "Earning": 16929.868,
+  "EarningPercent": 23793.327999999998,
+  "Heading": "saepe",
+  "Number": "1047241",
+  "Probability": 766,
+  "CreatedDate": "1999-08-07T14:45:13.1462444+02:00",
+  "UpdatedDate": "2024-07-11T14:45:13.1462444+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 12,
+  "ActiveLinks": 853,
   "Links": [
     {
-      "EntityName": "Tillman, Rempel and Cronin",
-      "Id": 593,
-      "Description": "Organic demand-driven extranet",
-      "ExtraInfo": "in",
-      "LinkId": 155,
+      "EntityName": "Tromp, Fritsch and Murphy",
+      "Id": 81,
+      "Description": "Face to face reciprocal ability",
+      "ExtraInfo": "nobis",
+      "LinkId": 168,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 715
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2001-09-20T14:45:13.1462444+02:00",
+  "Postit": "facere",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2003-06-21T14:45:13.1462444+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Donnelly Inc and Sons",
+      "Comment": "autem",
+      "StakeholderRoleId": 851,
+      "CountryId": 413,
+      "PersonId": 148,
+      "EmailDescription": "armand@bartolettitrantow.name",
+      "EmailId": 395,
+      "EmailAddress": "buddy@upton.info",
+      "PhoneId": 664,
+      "ContactName": "Collins, Lueilwitz and Graham",
+      "ContactId": 583,
+      "SaleId": 916,
+      "Mrmrs": "facere",
+      "Firstname": "Diana",
+      "MiddleName": "Anderson-Ortiz",
+      "Lastname": "Schinner",
+      "SaleStakeholderId": 588,
+      "Rank": 733,
+      "Phone": "745.704.6573 x26723",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 777
         }
       }
     }
   ],
-  "NextDueDate": "2021-09-06T13:14:10.9610472+02:00",
-  "Postit": "dolor",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2013-05-06T13:14:10.9610472+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Volkman Inc and Sons",
-      "Comment": "vero",
-      "StakeholderRoleId": 502,
-      "CountryId": 483,
-      "PersonId": 395,
-      "EmailDescription": "florence@stoltenberg.com",
-      "EmailId": 274,
-      "EmailAddress": "carissa_dietrich@coleerdman.co.uk",
-      "PhoneId": 606,
-      "ContactName": "Kihn-Ondricka",
-      "ContactId": 720,
-      "SaleId": 199,
-      "Mrmrs": "vitae",
-      "Firstname": "Joany",
-      "MiddleName": "Bruen-Goodwin",
-      "Lastname": "Dach",
-      "SaleStakeholderId": 612,
-      "Rank": 972,
-      "Phone": "1-245-176-3258 x7883",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 133
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 63,
+  "ActiveErpLinks": 900,
   "UserDefinedFields": {
-    "SuperOffice:1": "1251440982",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Dale Beier",
+    "SuperOffice:2": "Hanna Andy Pouros Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "omnis",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2006-08-22T13:14:10.9610472+02:00",
-  "PublishTo": "2019-02-22T13:14:10.9610472+01:00",
-  "PublishFrom": "2002-01-14T13:14:10.9610472+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-05-30T14:45:13.1462444+02:00",
+  "PublishTo": "2016-12-11T14:45:13.1462444+01:00",
+  "PublishFrom": "2016-10-12T14:45:13.1462444+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 418,
+      "VisibleId": 927,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     },
     {
-      "VisibleId": 418,
+      "VisibleId": 927,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Thu, 18 Aug 2016 13:14:10 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 359
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

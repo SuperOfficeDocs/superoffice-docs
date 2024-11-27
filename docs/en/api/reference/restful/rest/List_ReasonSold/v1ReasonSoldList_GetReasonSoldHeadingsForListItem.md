@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Abshire-Monahan",
-    "ToolTip": "Sit porro.",
-    "Deleted": true,
-    "Rank": 834,
-    "Type": "id",
-    "ColorBlock": 439,
-    "IconHint": "asperiores",
+    "Id": 917,
+    "Name": "Effertz Group",
+    "ToolTip": "Architecto suscipit quia et alias.",
+    "Deleted": false,
+    "Rank": 135,
+    "Type": "doloremque",
+    "ColorBlock": 91,
+    "IconHint": "culpa",
     "Selected": true,
-    "LastChanged": "2023-03-02T13:14:11.5235812+01:00",
+    "LastChanged": "2023-03-22T14:45:13.8960777+01:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Weber LLC",
-        "ToolTip": "Quia fugit ut similique.",
+        "Id": 346,
+        "Name": "Schoen Inc and Sons",
+        "ToolTip": "Aut alias est qui rerum tenetur corporis deleniti.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "sit",
-        "ColorBlock": 417,
-        "IconHint": "rem",
+        "Rank": 307,
+        "Type": "beatae",
+        "ColorBlock": 459,
+        "IconHint": "tenetur",
         "Selected": true,
-        "LastChanged": "2002-12-12T13:14:11.5235812+01:00",
+        "LastChanged": "2008-11-30T14:45:13.8960777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Ms. Dangelo Rolfson PhD",
+        "ExtraInfo": "velit",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Miss Carolyn Sporer I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 5
+            "FieldLength": 355
           }
         }
       }
     ],
     "ExtraInfo": "voluptatem",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Gina Bernier",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Mr. Minerva Lacey Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 619
       }
     }
   }

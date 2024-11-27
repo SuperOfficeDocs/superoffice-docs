@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.GetLogoImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage'>GetLogoImage</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.GetLogoImage'>GetLogoImage</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeGetLogoImage
 ```cs

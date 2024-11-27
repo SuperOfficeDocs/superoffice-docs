@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "non",
+      "RawValue": "dolores",
       "Specification": null,
-      "DisplayValue": "consequuntur",
-      "DisplayTooltip": "aut",
+      "DisplayValue": "omnis",
+      "DisplayTooltip": "quia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 446,
-      "PrefDescId": 444,
-      "TableName": "Hand LLC",
-      "UserPreferenceId": 31
+      "TargetId": 386,
+      "PrefDescId": 576,
+      "TableName": "Kihn, Torphy and Dietrich",
+      "UserPreferenceId": 854
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

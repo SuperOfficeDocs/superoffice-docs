@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 253,
-  "Name": "Nitzsche-Adams",
-  "TZLocationCode": "repellendus",
-  "TZLocationCities": "est",
-  "IsoNumber": 704,
+  "TZLocationID": 692,
+  "Name": "Borer-Heaney",
+  "TZLocationCode": "pariatur",
+  "TZLocationCities": "architecto",
+  "IsoNumber": 530,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 52,
-      "StartMonth": 976,
-      "EndDay": 204,
-      "EndMonth": 367,
-      "TZOffset": 101,
-      "StartRulePattern": "aut",
-      "EndRulePattern": "nostrum"
+      "StartDay": 893,
+      "StartMonth": 406,
+      "EndDay": 275,
+      "EndMonth": 600,
+      "TZOffset": 905,
+      "StartRulePattern": "nihil",
+      "EndRulePattern": "omnis"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 281,
-      "StartMonth": 487,
-      "EndDay": 335,
-      "EndMonth": 748,
-      "TZOffset": 399,
-      "StartRulePattern": "quia",
-      "EndRulePattern": "maiores"
+      "StartDay": 369,
+      "StartMonth": 611,
+      "EndDay": 899,
+      "EndMonth": 959,
+      "TZOffset": 953,
+      "StartRulePattern": "molestiae",
+      "EndRulePattern": "quia"
     }
   }
 }

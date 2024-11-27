@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 801,
-  "UniqueId": "quas",
-  "Name": "Daugherty LLC",
-  "Description": "Balanced 6th generation matrix",
-  "AssociateId": 931,
-  "Columns": 350,
+  "DashboardId": 298,
+  "UniqueId": "aut",
+  "Name": "Little, Littel and Smitham",
+  "Description": "Enhanced demand-driven Graphical User Interface",
+  "AssociateId": 475,
+  "Columns": 573,
   "Theme": null,
-  "VisibleForAll": 21,
+  "VisibleForAll": 884,
   "VisibleForAssociates": [
-    662,
-    919
+    826,
+    483
   ],
   "VisibleForGroups": [
-    904,
-    240
+    311,
+    388
   ],
-  "PinForAll": 139,
+  "PinForAll": 738,
   "PinForAssociates": [
-    892,
-    261
+    193,
+    962
   ],
   "PinForGroups": [
-    583,
-    245
+    411,
+    511
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

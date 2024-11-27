@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MDOAgent.GetList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMDOAgent.GetList'>GetList</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMDOAgent.GetList'>GetList</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
 
 ## BeforeGetList
 ```cs

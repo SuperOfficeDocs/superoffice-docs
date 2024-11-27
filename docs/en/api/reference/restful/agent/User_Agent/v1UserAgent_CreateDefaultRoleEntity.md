@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 530,
-  "Name": "Sipes Group",
-  "Tooltip": "aut",
+  "RoleId": 357,
+  "Name": "Parker-Medhurst",
+  "Tooltip": "dignissimos",
   "RoleType": "Anonymous",
-  "Deleted": 459,
-  "Rank": 576,
-  "Created": "2001-12-04T13:14:06.6945788+01:00",
-  "UseCategories": 162,
+  "Deleted": 108,
+  "Rank": 96,
+  "Created": "1998-10-21T14:45:06.6155103+02:00",
+  "UseCategories": 619,
   "CreatedBy": null,
-  "Updated": "2023-09-02T13:14:06.6945788+02:00",
+  "Updated": "2023-09-04T14:45:06.6155103+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   }
 }

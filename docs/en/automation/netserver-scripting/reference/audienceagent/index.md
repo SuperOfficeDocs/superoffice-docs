@@ -10,7 +10,7 @@ so.envir: onsite
 
 # AudienceAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAudienceAgent'>AudienceAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IAudienceAgent'>AudienceAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultAudienceLayoutEntity](createdefaultaudiencelayoutentity.md)
 * [DeleteAudienceLayoutEntity](deleteaudiencelayoutentity.md)

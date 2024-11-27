@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetGroupAssociateIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds'>GetGroupAssociateIds</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetGroupAssociateIds'>GetGroupAssociateIds</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetGroupAssociateIds
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.CreateDefaultHeadingFromListDefinition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.CreateDefaultHeadingFromListDefinition'>CreateDefaultHeadingFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.CreateDefaultHeadingFromListDefinition'>CreateDefaultHeadingFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeCreateDefaultHeadingFromListDefinition
 ```cs

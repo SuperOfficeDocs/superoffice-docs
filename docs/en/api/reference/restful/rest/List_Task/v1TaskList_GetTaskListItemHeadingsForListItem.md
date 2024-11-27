@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Hammes, Farrell and Murazik",
-    "ToolTip": "Eum iure mollitia dicta nostrum.",
-    "Deleted": true,
-    "Rank": 442,
-    "Type": "quos",
-    "ColorBlock": 395,
-    "IconHint": "numquam",
+    "Id": 360,
+    "Name": "Moen LLC",
+    "ToolTip": "Eos beatae autem tempora.",
+    "Deleted": false,
+    "Rank": 867,
+    "Type": "dolorem",
+    "ColorBlock": 165,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2011-11-14T13:14:11.5704589+01:00",
+    "LastChanged": "1997-08-01T14:45:13.9585664+02:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Fahey Inc and Sons",
-        "ToolTip": "A placeat pariatur illo voluptatem.",
+        "Id": 760,
+        "Name": "Lueilwitz-D'Amore",
+        "ToolTip": "Aperiam ut accusamus quaerat accusamus ut.",
         "Deleted": false,
-        "Rank": 726,
-        "Type": "neque",
-        "ColorBlock": 415,
-        "IconHint": "quisquam",
+        "Rank": 753,
+        "Type": "est",
+        "ColorBlock": 682,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2002-08-27T13:14:11.5704589+02:00",
+        "LastChanged": "2015-11-01T14:45:13.9585664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Percival Koelpin",
+        "ExtraInfo": "ut",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Miss Brennon Theodora Erdman II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 905
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "enim",
+    "ExtraInfo": "a",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Felicity Cormier",
+    "FullName": "Destiney Shanny Considine II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 383
+        "FieldLength": 835
       }
     }
   }

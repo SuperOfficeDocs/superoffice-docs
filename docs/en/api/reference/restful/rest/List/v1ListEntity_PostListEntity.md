@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Prosacco LLC",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 664,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
+  "Id": 313,
+  "Name": "Windler, Nienow and Parker",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 117,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Gulgowski-O'Keefe",
-  "Tooltip": "itaque",
+  "Id": 339,
+  "Name": "Lindgren Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 881,
+  "Rank": 312,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true,
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 290
     }
   },
   "_Links": {

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PartnerAgent.DeleteWebPanel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel'>DeleteWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPartnerAgent.DeleteWebPanel'>DeleteWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
 
 ## BeforeDeleteWebPanel
 ```cs

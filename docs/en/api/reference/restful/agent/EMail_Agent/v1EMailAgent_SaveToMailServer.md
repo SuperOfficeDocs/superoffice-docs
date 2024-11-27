@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 268,
-      "ContactName": "Fisher LLC",
-      "PersonId": 341,
-      "PersonName": "Brown, Mertz and Keebler",
-      "AssociateId": 133,
-      "Address": "assumenda",
-      "EmailId": 784,
+      "ContactId": 340,
+      "ContactName": "Dooley-Terry",
+      "PersonId": 762,
+      "PersonName": "Wehner-Haley",
+      "AssociateId": 933,
+      "Address": "deleniti",
+      "EmailId": 904,
       "DuplicatePersonIds": [
-        116,
-        776
+        402,
+        730
       ],
-      "Name": "Wiegand-Stracke",
+      "Name": "Johns Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 460
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 303,
-      "ContactName": "Hayes-Huel",
-      "PersonId": 25,
-      "PersonName": "Pagac-Herzog",
-      "AssociateId": 165,
-      "Address": "sit",
-      "EmailId": 57,
+      "ContactId": 719,
+      "ContactName": "Heller-Gaylord",
+      "PersonId": 609,
+      "PersonName": "Schamberger-Berge",
+      "AssociateId": 127,
+      "Address": "minima",
+      "EmailId": 220,
       "DuplicatePersonIds": [
-        859,
-        856
+        234,
+        946
       ],
-      "Name": "Becker LLC",
+      "Name": "Rutherford-Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 379
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 903,
-      "ContactName": "Gutmann, Gutkowski and Zboncak",
-      "PersonId": 233,
-      "PersonName": "Brown Inc and Sons",
-      "AssociateId": 404,
-      "Address": "et",
-      "EmailId": 84,
+      "ContactId": 599,
+      "ContactName": "Littel-Reichel",
+      "PersonId": 64,
+      "PersonName": "Kling LLC",
+      "AssociateId": 430,
+      "Address": "possimus",
+      "EmailId": 795,
       "DuplicatePersonIds": [
-        909,
-        608
+        672,
+        247
       ],
-      "Name": "Yundt Inc and Sons",
+      "Name": "Kihn Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 439
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "magni",
+  "Subject": "architecto",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2010-11-04T13:14:05.9289081+01:00",
-  "Size": 917,
+  "Sent": "1998-02-20T14:45:05.4595178+01:00",
+  "Size": 586,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "amet",
-  "PlainBody": "non",
+  "MessageID": "neque",
+  "PlainBody": "quaerat",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 885,
+  "ServerId": 391,
   "Attachments": [
     {
-      "Description": "Integrated zero tolerance array",
-      "Filename": "iusto",
-      "Size": 441,
-      "Type": "neque",
-      "Encoding": "distinctio",
-      "Id": "modi",
-      "Disposition": "ut",
+      "Description": "Open-architected logistical function",
+      "Filename": "aut",
+      "Size": 108,
+      "Type": "autem",
+      "Encoding": "ea",
+      "Id": "quia",
+      "Disposition": "quas",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldLength": 942
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hamill, Steuber and Wunsch",
+      "Name": "Rempel LLC",
       "Values": [
-        "est",
-        "quia"
+        "culpa",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 544
         }
       }
     },
     {
-      "Name": "Hamill, Steuber and Wunsch",
+      "Name": "Rempel LLC",
       "Values": [
-        "est",
-        "quia"
+        "culpa",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 544
         }
       }
     }
   ],
-  "FolderName": "Ledner LLC",
-  "EmailItemId": 570,
-  "AccountId": 72,
-  "ReceivedAt": "2019-06-16T13:14:05.9289081+02:00",
+  "FolderName": "Raynor-Murray",
+  "EmailItemId": 641,
+  "AccountId": 384,
+  "ReceivedAt": "2012-02-02T14:45:05.4751404+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-07-06T13:14:05.9289081+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2006-01-24T14:45:05.4751404+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 854
     }
   }
 }

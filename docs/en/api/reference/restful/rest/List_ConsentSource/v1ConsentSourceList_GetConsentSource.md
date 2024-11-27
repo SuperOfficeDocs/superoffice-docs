@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 986,
-  "Name": "Lang Group",
-  "Tooltip": "similique",
-  "Rank": 348,
-  "Key": "impedit",
-  "MailTemplateId": 690,
+  "ConsentSourceId": 760,
+  "Name": "Skiles-Blanda",
+  "Tooltip": "nihil",
+  "Rank": 680,
+  "Key": "numquam",
+  "MailTemplateId": 662,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

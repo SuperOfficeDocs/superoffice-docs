@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.GetRecipientStatistics
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics'>GetRecipientStatistics</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.GetRecipientStatistics'>GetRecipientStatistics</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeGetRecipientStatistics
 ```cs

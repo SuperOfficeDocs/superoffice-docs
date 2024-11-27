@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AIAgent.DetectLanguage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.DetectLanguage'>DetectLanguage</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAIAgent.DetectLanguage'>DetectLanguage</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
 
 ## BeforeDetectLanguage
 ```cs

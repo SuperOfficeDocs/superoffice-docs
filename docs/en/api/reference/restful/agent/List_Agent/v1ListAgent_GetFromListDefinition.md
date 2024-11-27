@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "UdListDefinitionId": 704
+  "Id": 229,
+  "UdListDefinitionId": 511
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Kessler Group",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "UdListDefinitionId": 223,
-  "Rank": 455,
+  "Id": 226,
+  "Name": "Reinger LLC",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 1001,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   }
 }

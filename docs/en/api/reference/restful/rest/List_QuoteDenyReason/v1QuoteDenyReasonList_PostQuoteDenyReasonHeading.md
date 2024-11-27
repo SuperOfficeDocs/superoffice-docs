@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 938,
-  "Name": "Lemke, Greenfelder and Corkery",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 135,
-  "UdListDefinitionId": 589
+  "HeadingId": 684,
+  "Name": "Labadie-Kutch",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 601,
+  "UdListDefinitionId": 813
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 107,
-  "Name": "Bayer LLC",
-  "Tooltip": "eligendi",
+  "HeadingId": 890,
+  "Name": "Howell-Franecki",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "Rank": 322,
-  "UdListDefinitionId": 434,
+  "Rank": 222,
+  "UdListDefinitionId": 991,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 557
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.UndeleteByIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.UndeleteByIds'>UndeleteByIds</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.UndeleteByIds'>UndeleteByIds</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeUndeleteByIds
 ```cs

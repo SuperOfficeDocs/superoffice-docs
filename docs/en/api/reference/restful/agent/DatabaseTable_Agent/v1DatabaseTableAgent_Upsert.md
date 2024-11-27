@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "O'Hara, Olson and Shields",
+  "TableName": "Bahringer, Cormier and Miller",
   "Columns": [
-    "fuga",
-    "autem"
+    "amet",
+    "culpa"
   ],
   "Keys": [
-    "ab",
-    "sunt"
+    "eligendi",
+    "harum"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "incidunt",
-  "Inserts": 27,
-  "Updates": 445,
-  "Deletes": 792,
+  "Success": false,
+  "Message": "impedit",
+  "Inserts": 983,
+  "Updates": 376,
+  "Deletes": 939,
   "RowStatus": [
     {
-      "PrimaryKey": 221,
+      "PrimaryKey": 263,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "et"
+        "ratione",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     },
     {
-      "PrimaryKey": 221,
+      "PrimaryKey": 263,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "et"
+        "ratione",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 182
     }
   }
 }

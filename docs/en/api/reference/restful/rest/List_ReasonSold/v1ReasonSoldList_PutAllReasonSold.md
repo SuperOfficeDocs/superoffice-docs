@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Hickle LLC",
-    "Tooltip": "recusandae",
+    "Id": 844,
+    "Name": "Erdman Inc and Sons",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 568,
-    "Rank": 188
+    "UdListDefinitionId": 528,
+    "Rank": 166
   },
   {
-    "Id": 577,
-    "Name": "Hickle LLC",
-    "Tooltip": "recusandae",
+    "Id": 844,
+    "Name": "Erdman Inc and Sons",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 568,
-    "Rank": 188
+    "UdListDefinitionId": 528,
+    "Rank": 166
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Blick-Kuhlman",
-    "Tooltip": "aspernatur",
-    "Deleted": true,
-    "UdListDefinitionId": 416,
-    "Rank": 505,
+    "Id": 392,
+    "Name": "Kub-Bashirian",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "UdListDefinitionId": 808,
+    "Rank": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

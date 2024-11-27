@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.GetSystemTemplateSettings
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings'>GetSystemTemplateSettings</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.GetSystemTemplateSettings'>GetSystemTemplateSettings</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeGetSystemTemplateSettings
 ```cs

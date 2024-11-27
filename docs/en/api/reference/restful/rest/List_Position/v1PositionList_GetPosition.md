@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Will Group",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "UdListDefinitionId": 160,
-  "Rank": 696,
+  "Id": 201,
+  "Name": "Dare, Turcotte and Skiles",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "UdListDefinitionId": 598,
+  "Rank": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

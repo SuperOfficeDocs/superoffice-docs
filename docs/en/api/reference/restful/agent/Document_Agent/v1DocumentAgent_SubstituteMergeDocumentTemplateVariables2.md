@@ -76,11 +76,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 906,
-  "AssociateId": 867,
+  "DocumentId": 761,
+  "AssociateId": 796,
   "CustomTags": {
-    "CustomTags1": "et",
-    "CustomTags2": "dignissimos"
+    "CustomTags1": "recusandae",
+    "CustomTags2": "aut"
   }
 }
 ```

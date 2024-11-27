@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=ut
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=ipsa
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Muller, Block and Lockman",
-    "ToolTip": "Aut earum eius occaecati ut.",
-    "Deleted": false,
-    "Rank": 629,
-    "Type": "repellendus",
+    "Id": 52,
+    "Name": "Turner-Feil",
+    "ToolTip": "Et repudiandae cupiditate incidunt.",
+    "Deleted": true,
+    "Rank": 245,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Muller, Johns and Homenick",
-        "ToolTip": "Molestiae et.",
+        "Id": 676,
+        "Name": "Hudson-Koelpin",
+        "ToolTip": "Pariatur autem sint velit aut.",
         "Deleted": false,
-        "Rank": 838,
-        "Type": "dignissimos",
+        "Rank": 443,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 223,
-        "ExtraInfo": "officiis",
-        "StyleHint": "quos",
-        "FullName": "Dr. Hoyt Gudrun Mueller IV",
+        "IconHint": "neque",
+        "ColorBlock": 453,
+        "ExtraInfo": "quis",
+        "StyleHint": "sed",
+        "FullName": "Mrs. Kay Larissa Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 456,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dolorem",
-    "FullName": "Carmel Senger I",
+    "IconHint": "soluta",
+    "ColorBlock": 132,
+    "ExtraInfo": "adipisci",
+    "StyleHint": "dolor",
+    "FullName": "Kareem Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

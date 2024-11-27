@@ -467,6 +467,9 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -535,13 +538,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
-|document/associate/locationAddress|string|Location: Location| x |
-|document/associate/isLocation|bool|Is a location: Is a location| x |
-|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/locationAddress|string|Location: Location| x |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
+|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
@@ -639,13 +642,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 |personUdef/SuperOffice:3|int|contactnumber| x |
 |personUdef/SuperOffice:4|date|contactdate| x |
-|personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
-|personUdef/SuperOffice:6|bool|contactcheckbox| x |
-|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
+|personUdef/SuperOffice:6|bool|contactcheckbox| x |
+|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
@@ -743,13 +746,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personTargetRelation/personCountry|listAny|Target - Country: Country| x |
 |personTargetRelation/personCountryId|int|Target - Country ID: Country ID| x |
 |personTargetRelation/personNoMail|bool|Target - No Mailings: Displays the contact's No Mailings checkbox| x |
-|personTargetRelation/rank|int|Target - Rank: Displays a contact's current rank| x |
-|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
-|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/rank|int|Target - Rank: Displays a contact's current rank| x |
+|personTargetRelation/birthdate| *None* |Target - Birthdate: Displays the contact's date of birth|  |
+|personTargetRelation/associateType| *None* |Target - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 |personTargetRelation/useAsMailingAddress|bool|Target - Use as postal address: Use as postal address| x |
 |personTargetRelation/personSource|listAny|Target - Source: Source (Contact)| x |
 |personTargetRelation/retired|bool|Target - Former employee: Indicates whether the contact has retired/left the company| x |
@@ -847,13 +850,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|correspondingAssociate/userName|string|User name: User name| x |
-|correspondingAssociate/personEmail|string|E-mail| x |
-|correspondingAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/userName|string|User name: User name| x |
+|correspondingAssociate/personEmail|string|E-mail| x |
+|correspondingAssociate/locationAddress|string|Location: Location| x |
 |correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -951,13 +954,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/ownedBy/fullName|string|Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
 |request/ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
-|request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|request/ownedBy/associateDbId|associate|Owner - ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|request/ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|request/ownedBy/associateDbId|associate|Owner - ID| x |
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
@@ -1055,13 +1058,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMembers/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+|projectMembers/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName|string|User name: User name| x |
 |projectMembers/projectAssociate/personEmail|string|E-mail| x |
 |projectMembers/projectAssociate/locationAddress|string|Location: Location| x |
@@ -1159,13 +1162,13 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 |personAppointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |personAppointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|personAppointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|personAppointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |personAppointment/associate/associateDbId|associate|ID| x |
 |personAppointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -1197,6 +1200,9 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
 |linkClicked/linkId|int|Link ID: Link ID|  |
 |linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
@@ -1260,16 +1266,16 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |chatSession/lastMessage|string|Last message: The last message submitted in the chat| x |
 |chatSession/whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
 |chatSession/whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |chatSession/whenEnded|datetime|Chat ended: When did this chat end?| x |
 |chatSession/duration|timeSpan|Duration: The duration of the chat session|  |
 |chatSession/timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
 |chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
 |chatSession/rating|int|Rating: Rating of chat session| x |
 |chatSession/agent|ejUser|Agent: The agent of the chat| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |chatSession/status|listAny|Status: Status for the chat session| x |
 |chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
 |chatSession/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -1364,16 +1370,16 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
 |sale/quote/version/alternative/quoteline/earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |sale/quote/version/alternative/quoteline/earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/updatedBy|associate|Updated by: The user who last updated the data| x |
 |sale/quote/version/alternative/quoteline/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |sale/quote/version/alternative/quoteline/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |sale/quote/version/alternative/quoteline/registeredBy|associate|Registered by: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |sale/quote/version/alternative/quoteline/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/productCategoryKey|listExternal|Product category: The category the product is defined in|  |
 |sale/quote/version/alternative/quoteline/productFamilyKey|listExternal|Product family: The family the product is defined in|  |
 |sale/quote/version/alternative/quoteline/productTypeKey|listExternal|Product type: The type of product|  |
@@ -1386,7 +1392,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=sourceRelation/contactId,appointment/alarm,updatedByWorkflow,personSourceRelation/hasInfoText,personSourceRelation/kanaFirstName
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=getNoRows,contactAssociate/portraitThumbnail,sale/originalStage,sale/associate/contactCategory,document/updatedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

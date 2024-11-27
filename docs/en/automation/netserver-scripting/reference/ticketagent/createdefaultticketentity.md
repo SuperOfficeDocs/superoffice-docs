@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.CreateDefaultTicketEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity'>CreateDefaultTicketEntity</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.CreateDefaultTicketEntity'>CreateDefaultTicketEntity</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeCreateDefaultTicketEntity
 ```cs

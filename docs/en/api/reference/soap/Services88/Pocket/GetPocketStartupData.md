@@ -42,7 +42,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Pocket:Tables xsi:type="NetServerServices882:ArrayOfstring">
      <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
     </Pocket:Tables>
-    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2024-10-28T12:13:08Z</Pocket:CurrentClientTime>
+    <Pocket:CurrentClientTime xsi:type="xsd:dateTime">2024-11-18T13:44:06Z</Pocket:CurrentClientTime>
    </Pocket:GetPocketStartupData>
 
  </SOAP-ENV:Body>

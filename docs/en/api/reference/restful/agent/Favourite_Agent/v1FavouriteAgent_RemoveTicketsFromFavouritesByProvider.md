@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bogan LLC",
+  "ProviderName": "Huels-Mante",
   "Restrictions": [
     {
-      "Name": "Heaney-Welch",
-      "Operator": "voluptas",
+      "Name": "Cronin, Boyle and Roberts",
+      "Operator": "reiciendis",
       "Values": [
-        "fugit",
-        "enim"
+        "iusto",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "modi",
-        "incidunt"
+        "ea",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 603,
+      "InterParenthesis": 729,
       "InterOperator": "And",
-      "UniqueHash": 764
+      "UniqueHash": 473
     }
   ],
-  "AssociateId": 961
+  "AssociateId": 895
 }
 ```
 

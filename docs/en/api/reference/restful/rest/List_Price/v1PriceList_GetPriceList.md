@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 244,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 785,
-  "Name": "Rau LLC",
-  "Description": "Integrated user-facing encryption",
-  "Currency": "tenetur",
-  "CurrencyName": "Gulgowski, Runolfsdottir and Collins",
-  "ValidFrom": "2015-01-14T13:14:11.4454508+01:00",
-  "ValidTo": "2009-07-30T13:14:11.4454508+02:00",
-  "IsActive": false,
+  "PriceListId": 763,
+  "ERPPriceListKey": "sapiente",
+  "QuoteConnectionId": 511,
+  "Name": "Hansen LLC",
+  "Description": "Total neutral flexibility",
+  "Currency": "quis",
+  "CurrencyName": "Von LLC",
+  "ValidFrom": "2016-12-06T14:45:13.7711051+01:00",
+  "ValidTo": "2013-01-16T14:45:13.7711051+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 28
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

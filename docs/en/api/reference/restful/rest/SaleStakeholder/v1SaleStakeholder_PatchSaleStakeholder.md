@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Klein-Crist",
-  "Comment": "molestias",
-  "StakeholderRoleId": 936,
-  "CountryId": 900,
-  "PersonId": 361,
-  "EmailDescription": "berneice@connelly.ca",
-  "EmailId": 567,
-  "EmailAddress": "henry@heathcote.com",
-  "PhoneId": 930,
-  "ContactName": "Kuhn-Gleason",
-  "ContactId": 348,
-  "SaleId": 847,
-  "Mrmrs": "esse",
-  "Firstname": "Mollie",
-  "MiddleName": "Kuvalis, Wunsch and Johnson",
-  "Lastname": "Mayert",
-  "SaleStakeholderId": 493,
-  "Rank": 914,
-  "Phone": "722.608.8076",
+  "StakeholderRoleName": "Kautzer Inc and Sons",
+  "Comment": "et",
+  "StakeholderRoleId": 422,
+  "CountryId": 212,
+  "PersonId": 999,
+  "EmailDescription": "schuyler@stiedemann.ca",
+  "EmailId": 101,
+  "EmailAddress": "calista@reichelkuhn.com",
+  "PhoneId": 75,
+  "ContactName": "Howell, Bogisich and Dietrich",
+  "ContactId": 595,
+  "SaleId": 734,
+  "Mrmrs": "omnis",
+  "Firstname": "Mckayla",
+  "MiddleName": "Kertzmann, Balistreri and Sipes",
+  "Lastname": "Mills",
+  "SaleStakeholderId": 257,
+  "Rank": 332,
+  "Phone": "236.968.2420 x6113",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 856
     }
   },
   "_Links": {

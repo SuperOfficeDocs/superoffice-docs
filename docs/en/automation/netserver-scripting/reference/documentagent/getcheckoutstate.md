@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetCheckoutState
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetCheckoutState'>GetCheckoutState</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetCheckoutState'>GetCheckoutState</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetCheckoutState
 ```cs

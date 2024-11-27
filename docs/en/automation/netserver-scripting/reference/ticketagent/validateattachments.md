@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.ValidateAttachments
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.ValidateAttachments'>ValidateAttachments</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.ValidateAttachments'>ValidateAttachments</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeValidateAttachments
 ```cs

@@ -748,10 +748,17 @@ Activity archive provider for the Diary (checklist)
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
 
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
+
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=ourref,person/email/emailLastSent,person/personExtra/x_person_priority_relation,contact/contactUdef/SuperOffice:6,project/number
+GET /api/v1/archive/DiaryActivity?$select=projectId,person/restrictionAddress/formattedMultiLineAddress,person/hasStoreConsent,person/legalBaseStore,person/consentSourceStore
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

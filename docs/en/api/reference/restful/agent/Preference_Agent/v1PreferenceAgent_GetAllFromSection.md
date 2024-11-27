@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sint"
+  "Section": "et"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 67,
-    "Section": "blanditiis",
-    "Key": "laborum",
-    "Name": "Ward-Hand",
+    "PrefDescId": 882,
+    "Section": "ipsum",
+    "Key": "perferendis",
+    "Name": "Cummings, Connelly and Dickinson",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse object-oriented info-mediaries",
-    "IsBuiltin": true,
-    "TableName": "Schoen Group",
-    "UserDefinedListId": 331,
-    "Rank": 648,
-    "SubGroup": "officia",
-    "MinLevel": 841,
-    "MaxValue": 256,
-    "MinValue": 321,
-    "RequiredLicense": "laudantium",
+    "Description": "Exclusive human-resource application",
+    "IsBuiltin": false,
+    "TableName": "Senger-Cassin",
+    "UserDefinedListId": 88,
+    "Rank": 309,
+    "SubGroup": "suscipit",
+    "MinLevel": 273,
+    "MaxValue": 314,
+    "MinValue": 854,
+    "RequiredLicense": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   }

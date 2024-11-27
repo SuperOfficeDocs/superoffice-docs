@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 752,
-  "Name": "Pagac LLC",
-  "Tooltip": "fuga",
+  "HeadingId": 782,
+  "Name": "Bartoletti-Ferry",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 887,
-  "UdListDefinitionId": 334
+  "Rank": 526,
+  "UdListDefinitionId": 339
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 339,
-  "Name": "Ullrich-Gulgowski",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 124,
-  "UdListDefinitionId": 370,
+  "HeadingId": 590,
+  "Name": "Schuster, Crona and Sanford",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 586,
+  "UdListDefinitionId": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

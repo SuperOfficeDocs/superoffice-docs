@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.AcceptWithEmailConfirmation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.AcceptWithEmailConfirmation'>AcceptWithEmailConfirmation</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.AcceptWithEmailConfirmation'>AcceptWithEmailConfirmation</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeAcceptWithEmailConfirmation
 ```cs

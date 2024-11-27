@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=723
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=508
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 637,
-  "Name": "Reilly Inc and Sons",
-  "CreatedDate": "1999-07-19T13:14:06.0382898+02:00",
-  "UpdatedDate": "2013-08-06T13:14:06.0382898+02:00",
-  "AssociateFullName": "Ms. Marvin Gleason",
-  "CreatedBy": "consequatur",
-  "UpdatedBy": "in",
-  "DeviceIdentifier": "ipsum",
-  "ForeignAppId": 913,
+  "ForeignDeviceId": 323,
+  "Name": "Padberg Group",
+  "CreatedDate": "2017-03-14T14:45:05.6469762+01:00",
+  "UpdatedDate": "2013-11-06T14:45:05.6469762+01:00",
+  "AssociateFullName": "Lilliana Monahan",
+  "CreatedBy": "eum",
+  "UpdatedBy": "nam",
+  "DeviceIdentifier": "ad",
+  "ForeignAppId": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

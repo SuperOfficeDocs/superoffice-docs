@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bartell-Dach",
-    "Records": 999,
+    "EntityName": "Hermiston, Bernier and Volkman",
+    "Records": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 749
       }
     }
   },
   {
-    "EntityName": "Bartell-Dach",
-    "Records": 999,
+    "EntityName": "Hermiston, Bernier and Volkman",
+    "Records": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 749
       }
     }
   }

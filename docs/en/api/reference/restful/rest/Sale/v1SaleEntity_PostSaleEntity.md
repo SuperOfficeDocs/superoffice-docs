@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sed",
+  "SaleText": "culpa",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-05-13T13:14:10.9766731+02:00",
-  "Amount": 15337.796,
-  "SaleId": 314,
-  "Earning": 4939.184,
-  "EarningPercent": 24103.594,
-  "Heading": "exercitationem",
-  "Number": "424916",
-  "Probability": 113,
-  "CreatedDate": "2007-08-03T13:14:10.9766731+02:00",
-  "UpdatedDate": "2011-05-09T13:14:10.9766731+02:00",
+  "Saledate": "2008-04-26T14:45:13.1618666+02:00",
+  "Amount": 720.81999999999994,
+  "SaleId": 123,
+  "Earning": 476.368,
+  "EarningPercent": 16130.698,
+  "Heading": "dolore",
+  "Number": "746165",
+  "Probability": 578,
+  "CreatedDate": "2008-11-19T14:45:13.1618666+01:00",
+  "UpdatedDate": "2004-09-28T14:45:13.1618666+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 464,
+  "ActiveLinks": 687,
   "Links": [
     {
-      "EntityName": "Oberbrunner, Legros and Nitzsche",
-      "Id": 363,
-      "Description": "Secured didactic encoding",
-      "ExtraInfo": "quia",
-      "LinkId": 694
+      "EntityName": "Towne LLC",
+      "Id": 891,
+      "Description": "Progressive real-time protocol",
+      "ExtraInfo": "dignissimos",
+      "LinkId": 821
     },
     {
-      "EntityName": "Oberbrunner, Legros and Nitzsche",
-      "Id": 363,
-      "Description": "Secured didactic encoding",
-      "ExtraInfo": "quia",
-      "LinkId": 694
+      "EntityName": "Towne LLC",
+      "Id": 891,
+      "Description": "Progressive real-time protocol",
+      "ExtraInfo": "dignissimos",
+      "LinkId": 821
     }
   ],
-  "NextDueDate": "2010-12-12T13:14:10.9766731+01:00",
-  "Postit": "culpa",
+  "NextDueDate": "2007-07-11T14:45:13.1618666+02:00",
+  "Postit": "molestiae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-04-27T13:14:10.9766731+02:00",
+  "ReopenDate": "2012-11-19T14:45:13.1618666+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Collins, Bartell and O'Keefe",
-      "Comment": "maxime",
-      "StakeholderRoleId": 21,
-      "CountryId": 870,
-      "PersonId": 943,
-      "EmailDescription": "ellie@grimes.name",
-      "EmailId": 982,
-      "EmailAddress": "karlie.volkman@cronin.name",
-      "PhoneId": 503,
-      "ContactName": "Fahey Inc and Sons",
-      "ContactId": 136,
-      "SaleId": 2,
-      "Mrmrs": "dolorum",
-      "Firstname": "Dwight",
-      "MiddleName": "Tremblay, Steuber and Gottlieb",
-      "Lastname": "O'Hara",
-      "SaleStakeholderId": 489,
-      "Rank": 604,
-      "Phone": "1-602-922-0888"
+      "StakeholderRoleName": "Koss Inc and Sons",
+      "Comment": "sit",
+      "StakeholderRoleId": 333,
+      "CountryId": 103,
+      "PersonId": 88,
+      "EmailDescription": "vicente.hoeger@ullrich.uk",
+      "EmailId": 37,
+      "EmailAddress": "adele_larson@croninflatley.com",
+      "PhoneId": 818,
+      "ContactName": "Muller Inc and Sons",
+      "ContactId": 205,
+      "SaleId": 160,
+      "Mrmrs": "et",
+      "Firstname": "Quinn",
+      "MiddleName": "Becker Group",
+      "Lastname": "McCullough",
+      "SaleStakeholderId": 267,
+      "Rank": 249,
+      "Phone": "936-707-6459"
     }
   ],
-  "ActiveErpLinks": 385,
+  "ActiveErpLinks": 900,
   "UserDefinedFields": {
-    "SuperOffice:1": "1450431131",
-    "SuperOffice:2": "Mrs. Melisa Hills DVM"
+    "SuperOffice:1": "Tessie Orrin Kohler II",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "et"
+    "CustomFields1": "saepe",
+    "CustomFields2": "repudiandae"
   },
-  "PublishEventDate": "2003-04-02T13:14:10.9766731+02:00",
-  "PublishTo": "2011-01-02T13:14:10.9766731+01:00",
-  "PublishFrom": "2008-05-23T13:14:10.9766731+02:00",
+  "PublishEventDate": "2015-06-04T14:45:13.1618666+02:00",
+  "PublishTo": "2023-05-06T14:45:13.1618666+02:00",
+  "PublishFrom": "2003-12-21T14:45:13.1618666+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 517,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "excepturi"
+      "DisplayValue": "id"
     },
     {
-      "VisibleId": 517,
+      "VisibleId": 208,
       "Visibility": "All",
-      "DisplayValue": "excepturi"
+      "DisplayValue": "id"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "architecto",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-11-30T13:14:11.0548012+01:00",
-  "Amount": 26852.111999999997,
-  "SaleId": 995,
-  "Earning": 27400.561999999998,
-  "EarningPercent": 13266.222,
-  "Heading": "veritatis",
-  "Number": "622031",
-  "Probability": 844,
-  "CreatedDate": "2001-02-22T13:14:11.0548012+01:00",
-  "UpdatedDate": "2001-05-06T13:14:11.0548012+02:00",
+  "Saledate": "2022-06-10T14:45:13.1618666+02:00",
+  "Amount": 7449.518,
+  "SaleId": 194,
+  "Earning": 30061.327999999998,
+  "EarningPercent": 16707.354,
+  "Heading": "esse",
+  "Number": "1693199",
+  "Probability": 450,
+  "CreatedDate": "2015-06-28T14:45:13.1618666+02:00",
+  "UpdatedDate": "2020-11-10T14:45:13.1618666+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 110,
+  "ActiveLinks": 774,
   "Links": [
     {
-      "EntityName": "Berge, Ritchie and Jones",
-      "Id": 705,
-      "Description": "Future-proofed directional artificial intelligence",
-      "ExtraInfo": "iure",
-      "LinkId": 438,
+      "EntityName": "Gulgowski-Haag",
+      "Id": 855,
+      "Description": "Team-oriented optimizing success",
+      "ExtraInfo": "quas",
+      "LinkId": 711,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 867
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2017-10-30T14:45:13.1618666+01:00",
+  "Postit": "veritatis",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2007-07-29T14:45:13.1618666+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Strosin, Sipes and Kozey",
+      "Comment": "voluptates",
+      "StakeholderRoleId": 562,
+      "CountryId": 365,
+      "PersonId": 942,
+      "EmailDescription": "tavares.graham@lehner.uk",
+      "EmailId": 817,
+      "EmailAddress": "naomie.schulist@mccullough.co.uk",
+      "PhoneId": 598,
+      "ContactName": "Fahey LLC",
+      "ContactId": 621,
+      "SaleId": 272,
+      "Mrmrs": "impedit",
+      "Firstname": "Gillian",
+      "MiddleName": "Stehr, Schamberger and Carroll",
+      "Lastname": "Conroy",
+      "SaleStakeholderId": 976,
+      "Rank": 720,
+      "Phone": "461-159-6050 x40648",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 595
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 597,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1537269566"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "quasi"
+  },
+  "CustomFields": {
+    "CustomFields1": "ipsa",
+    "CustomFields2": "dolorem"
+  },
+  "PublishEventDate": "2023-03-22T14:45:13.1618666+01:00",
+  "PublishTo": "1999-09-11T14:45:13.1618666+02:00",
+  "PublishFrom": "2007-05-02T14:45:13.1618666+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 683,
+      "Visibility": "All",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 468
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2006-12-06T13:14:11.0548012+01:00",
-  "Postit": "amet",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-10-10T13:14:11.0548012+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Hyatt-Wunsch",
-      "Comment": "culpa",
-      "StakeholderRoleId": 816,
-      "CountryId": 496,
-      "PersonId": 409,
-      "EmailDescription": "modesta.blanda@adamscruickshank.biz",
-      "EmailId": 436,
-      "EmailAddress": "domenico@lemke.ca",
-      "PhoneId": 62,
-      "ContactName": "Koch, Pacocha and Kozey",
-      "ContactId": 90,
-      "SaleId": 160,
-      "Mrmrs": "illo",
-      "Firstname": "Daren",
-      "MiddleName": "Lesch Group",
-      "Lastname": "Cruickshank",
-      "SaleStakeholderId": 154,
-      "Rank": 241,
-      "Phone": "986.044.1180 x50252",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 843,
-  "UserDefinedFields": {
-    "SuperOffice:1": "2045924992",
-    "SuperOffice:2": "Ms. Chelsey Quigley III"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "sit"
-  },
-  "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "nam"
-  },
-  "PublishEventDate": "2004-06-16T13:14:11.0548012+02:00",
-  "PublishTo": "2017-01-07T13:14:11.0548012+01:00",
-  "PublishFrom": "2022-08-20T13:14:11.0548012+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 297,
-      "Visibility": "All",
-      "DisplayValue": "nam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 917
         }
       }
     },
     {
-      "VisibleId": 297,
+      "VisibleId": 683,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldType": "System.String",
+          "FieldLength": 917
         }
       }
     }
@@ -408,12 +408,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 948
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

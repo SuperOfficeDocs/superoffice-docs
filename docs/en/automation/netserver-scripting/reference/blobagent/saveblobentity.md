@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.SaveBlobEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity'>SaveBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.SaveBlobEntity'>SaveBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeSaveBlobEntity
 ```cs

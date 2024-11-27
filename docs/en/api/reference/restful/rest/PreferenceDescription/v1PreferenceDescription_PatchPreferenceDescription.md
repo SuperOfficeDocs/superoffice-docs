@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "et",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 981,
-  "Section": "suscipit",
-  "Key": "quibusdam",
-  "Name": "Jenkins-Pollich",
+  "PrefDescId": 27,
+  "Section": "qui",
+  "Key": "qui",
+  "Name": "Deckow Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Integrated encompassing flexibility",
-  "IsBuiltin": false,
-  "TableName": "O'Kon, Labadie and Stoltenberg",
-  "UserDefinedListId": 618,
-  "Rank": 468,
-  "SubGroup": "odio",
-  "MinLevel": 84,
-  "MaxValue": 47,
-  "MinValue": 821,
-  "RequiredLicense": "temporibus",
+  "Description": "Implemented non-volatile local area network",
+  "IsBuiltin": true,
+  "TableName": "Tillman-Bruen",
+  "UserDefinedListId": 891,
+  "Rank": 384,
+  "SubGroup": "illum",
+  "MinLevel": 812,
+  "MaxValue": 631,
+  "MinValue": 676,
+  "RequiredLicense": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

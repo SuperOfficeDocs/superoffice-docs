@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 914
+  "Count": 88
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "similique",
-    "PersonId": 203,
-    "Mrmrs": "provident",
-    "Firstname": "Caden",
-    "Lastname": "Carroll",
-    "MiddleName": "Armstrong-Zieme",
-    "Title": "temporibus",
-    "Description": "Ameliorated human-resource knowledge user",
-    "Email": "dan_kovacek@barrows.biz",
-    "FullName": "Ms. Cristal Ezequiel Morar",
-    "DirectPhone": "1-903-013-2710",
-    "FormalName": "Gusikowski Inc and Sons",
-    "CountryId": 859,
-    "ContactId": 159,
-    "ContactName": "Pollich-Beer",
-    "Retired": 295,
-    "Rank": 383,
-    "ActiveInterests": 817,
+    "Position": "aperiam",
+    "PersonId": 874,
+    "Mrmrs": "aut",
+    "Firstname": "Tianna",
+    "Lastname": "Veum",
+    "MiddleName": "Waters-Hansen",
+    "Title": "dolor",
+    "Description": "De-engineered next generation infrastructure",
+    "Email": "norberto@kingpfeffer.ca",
+    "FullName": "Alaina Fay",
+    "DirectPhone": "794.282.6558 x90081",
+    "FormalName": "Gaylord-Durgan",
+    "CountryId": 48,
+    "ContactId": 684,
+    "ContactName": "Tromp, Rowe and Lowe",
+    "Retired": 196,
+    "Rank": 489,
+    "ActiveInterests": 941,
     "ContactDepartment": "",
-    "ContactCountryId": 211,
-    "ContactOrgNr": "1328557",
-    "FaxPhone": "733.382.8978 x896",
-    "MobilePhone": "(761)984-8713 x02812",
-    "ContactPhone": "221-588-2749 x71822",
-    "AssociateName": "Kerluke-Jacobi",
-    "AssociateId": 28,
+    "ContactCountryId": 550,
+    "ContactOrgNr": "845560",
+    "FaxPhone": "286.953.0739",
+    "MobilePhone": "333.367.2541 x9436",
+    "ContactPhone": "(425)577-8422 x483",
+    "AssociateName": "Kreiger, White and Watsica",
+    "AssociateId": 530,
     "UsePersonAddress": false,
-    "ContactFax": "ut",
-    "Kanafname": "inventore",
-    "Kanalname": "nam",
-    "Post1": "ad",
-    "Post2": "et",
-    "Post3": "eum",
-    "EmailName": "jerel@runolfsdottir.info",
-    "ContactFullName": "Mathias Gibson",
-    "ActiveErpLinks": 721,
-    "TicketPriorityId": 346,
-    "SupportLanguageId": 782,
-    "SupportAssociateId": 164,
+    "ContactFax": "dolores",
+    "Kanafname": "distinctio",
+    "Kanalname": "inventore",
+    "Post1": "facere",
+    "Post2": "excepturi",
+    "Post3": "maxime",
+    "EmailName": "mina_dooley@huels.us",
+    "ContactFullName": "Modesto Heathcote",
+    "ActiveErpLinks": 799,
+    "TicketPriorityId": 697,
+    "SupportLanguageId": 254,
+    "SupportAssociateId": 349,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 386
       }
     }
   }

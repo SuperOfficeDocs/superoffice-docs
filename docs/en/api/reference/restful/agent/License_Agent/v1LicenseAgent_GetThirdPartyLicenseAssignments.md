@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 907,
-  "ModuleOwner": "laudantium"
+  "AssociateId": 594,
+  "ModuleOwner": "sequi"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 637,
-    "Tooltip": "rerum",
+    "Total": 376,
+    "Tooltip": "beatae",
     "CanAssign": false,
-    "Free": 578,
-    "InUse": 535,
+    "Free": 442,
+    "InUse": 339,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 383,
-    "Name": "Williamson, Fahey and Vandervort",
-    "Description": "Proactive fault-tolerant migration",
-    "PrerequisiteModuleName": "Farrell, Bogisich and DuBuque",
-    "SortOrder": 658,
-    "ExtraFlags": 119,
+    "ModuleLicenseId": 862,
+    "Name": "Zieme-Spencer",
+    "Description": "Right-sized leading edge moderator",
+    "PrerequisiteModuleName": "Abbott Group",
+    "SortOrder": 355,
+    "ExtraFlags": 579,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 753
       }
     }
   }

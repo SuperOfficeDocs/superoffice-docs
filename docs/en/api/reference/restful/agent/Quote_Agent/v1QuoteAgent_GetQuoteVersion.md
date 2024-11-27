@@ -115,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 869
+  "QuoteVersionId": 569
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 527,
-  "ERPQuoteVersionKey": "nulla",
-  "QuoteId": 247,
-  "Description": "Organic next generation extranet",
-  "Number": "875195",
+  "QuoteVersionId": 633,
+  "ERPQuoteVersionKey": "earum",
+  "QuoteId": 861,
+  "Description": "Horizontal object-oriented database",
+  "Number": "1709002",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 853,
-  "SentDate": "1999-08-01T13:14:06.3039303+02:00",
-  "FollowupId": 953,
-  "ExpirationDate": "2020-02-11T13:14:06.3039303+01:00",
-  "DeliveryCountryId": 431,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 345,
+  "LikelyQuoteAlternativeId": 129,
+  "SentDate": "2013-08-20T14:45:06.0375135+02:00",
+  "FollowupId": 844,
+  "ExpirationDate": "2019-06-19T14:45:06.0375135+02:00",
+  "DeliveryCountryId": 530,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 551,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "veniam",
-  "ERPPaymentTypeKey": "quia",
-  "ERPDeliveryTermsKey": "occaecati",
-  "ERPDeliveryTypeKey": "quam",
-  "Rank": 685,
-  "ApprovedBy": 775,
-  "ApprovedText": "rerum",
-  "ApprovedRegisteredBy": 253,
-  "ApprovedRegisteredDate": "2000-03-15T13:14:06.3039303+01:00",
-  "ExtraField1": "hic",
-  "ExtraField2": "atque",
-  "ExtraField3": "incidunt",
-  "ExtraField4": "officiis",
-  "ExtraField5": "veniam",
-  "LastRecalculated": "1998-05-18T13:14:06.3039303+02:00",
-  "Updated": "2014-03-06T13:14:06.3039303+01:00",
-  "UpdatedAssociateId": 612,
-  "Registered": "2024-01-30T13:14:06.3039303+01:00",
-  "RegisteredAssociateId": 302,
-  "RequestAssociateId": 885,
-  "RequestComment": "maxime",
+  "ERPPaymentTermsKey": "quisquam",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "facilis",
+  "ERPDeliveryTypeKey": "quia",
+  "Rank": 575,
+  "ApprovedBy": 906,
+  "ApprovedText": "ut",
+  "ApprovedRegisteredBy": 503,
+  "ApprovedRegisteredDate": "2015-12-30T14:45:06.0375135+01:00",
+  "ExtraField1": "autem",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "quos",
+  "ExtraField4": "explicabo",
+  "ExtraField5": "dignissimos",
+  "LastRecalculated": "2003-06-18T14:45:06.0375135+02:00",
+  "Updated": "2013-09-07T14:45:06.0375135+02:00",
+  "UpdatedAssociateId": 873,
+  "Registered": "2012-06-24T14:45:06.0375135+02:00",
+  "RegisteredAssociateId": 845,
+  "RequestAssociateId": 540,
+  "RequestComment": "delectus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 902,
-      "ERPQuoteAlternativeKey": "voluptatem",
-      "QuoteVersionId": 610,
-      "Name": "Casper, Hodkiewicz and Howe",
-      "Description": "Reduced upward-trending implementation",
+      "QuoteAlternativeId": 838,
+      "ERPQuoteAlternativeKey": "excepturi",
+      "QuoteVersionId": 756,
+      "Name": "Champlin, Rath and Bosco",
+      "Description": "Front-line didactic interface",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 13272.49,
-      "ERPDiscountAmount": 17127.309999999998,
-      "DiscountPercent": 25441.811999999998,
-      "DiscountAmount": 2457.056,
+      "ERPDiscountPercent": 3691.852,
+      "ERPDiscountAmount": 25795.953999999998,
+      "DiscountPercent": 8878.622,
+      "DiscountAmount": 6756.9039999999995,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ducimus",
-      "VAT": 1576.402,
-      "EarningPercent": 23633.494,
-      "EarningAmount": 24811.878,
-      "SubTotal": 23702.442,
-      "TotalPrice": 24783.672,
-      "ExtraField1": "id",
-      "ExtraField2": "velit",
-      "ExtraField3": "sit",
-      "ExtraField4": "qui",
-      "ExtraField5": "necessitatibus",
+      "VATInfo": "accusantium",
+      "VAT": 817.97399999999993,
+      "EarningPercent": 30810.354,
+      "EarningAmount": 20762.75,
+      "SubTotal": 30738.271999999997,
+      "TotalPrice": 26024.736,
+      "ExtraField1": "quas",
+      "ExtraField2": "vero",
+      "ExtraField3": "dolore",
+      "ExtraField4": "consequatur",
+      "ExtraField5": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 109
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 580
     }
   }
 }

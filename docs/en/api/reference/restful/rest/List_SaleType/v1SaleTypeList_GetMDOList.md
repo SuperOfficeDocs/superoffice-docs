@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=iusto
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Towne Inc and Sons",
-    "ToolTip": "Libero sequi enim molestiae necessitatibus consequatur at.",
+    "Id": 996,
+    "Name": "Rodriguez, Moen and Macejkovic",
+    "ToolTip": "Culpa provident aliquam enim.",
     "Deleted": false,
-    "Rank": 825,
-    "Type": "eum",
+    "Rank": 8,
+    "Type": "molestias",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Bernhard-Mosciski",
-        "ToolTip": "Quibusdam aliquam nihil.",
+        "Id": 32,
+        "Name": "Collier-Bogisich",
+        "ToolTip": "Et aperiam.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "molestiae",
+        "Rank": 377,
+        "Type": "repudiandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 693,
-        "ExtraInfo": "dolores",
-        "StyleHint": "voluptate",
-        "FullName": "Ms. Leta Koepp Jr.",
+        "IconHint": "autem",
+        "ColorBlock": 488,
+        "ExtraInfo": "qui",
+        "StyleHint": "quod",
+        "FullName": "Mrs. Delphine Becker Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 187
+            "FieldType": "System.String",
+            "FieldLength": 620
           }
         }
       }
     ],
     "IconHint": "inventore",
-    "ColorBlock": 433,
-    "ExtraInfo": "quae",
-    "StyleHint": "autem",
-    "FullName": "Makenna Schamberger",
+    "ColorBlock": 84,
+    "ExtraInfo": "suscipit",
+    "StyleHint": "est",
+    "FullName": "Edmond Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 879
       }
     }
   }

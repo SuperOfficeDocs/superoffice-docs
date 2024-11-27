@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Champlin, Dicki and Stanton",
-    "ToolTip": "Voluptas maiores sint sunt voluptatem.",
-    "Deleted": true,
-    "Rank": 366,
-    "Type": "et",
-    "ColorBlock": 395,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "2024-10-23T13:14:11.4454508+02:00",
+    "Id": 532,
+    "Name": "Schamberger LLC",
+    "ToolTip": "Est aliquid voluptatibus.",
+    "Deleted": false,
+    "Rank": 755,
+    "Type": "eum",
+    "ColorBlock": 31,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2020-12-03T14:45:13.7554843+01:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Lesch LLC",
-        "ToolTip": "Nihil in vel ipsam.",
+        "Id": 941,
+        "Name": "Welch, Hamill and Anderson",
+        "ToolTip": "Aut dignissimos dolore est vitae sit ipsum voluptate.",
         "Deleted": false,
-        "Rank": 427,
-        "Type": "distinctio",
-        "ColorBlock": 296,
-        "IconHint": "quia",
+        "Rank": 12,
+        "Type": "ipsa",
+        "ColorBlock": 687,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-11-17T13:14:11.4454508+01:00",
+        "LastChanged": "1998-06-28T14:45:13.7554843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Lisa Larson",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Dr. Cordia Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 514
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Kailee Paucek",
+    "ExtraInfo": "autem",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Kailey Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 414
       }
     }
   }

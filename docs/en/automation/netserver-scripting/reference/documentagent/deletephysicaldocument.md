@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.DeletePhysicalDocument
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.DeletePhysicalDocument'>DeletePhysicalDocument</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.DeletePhysicalDocument'>DeletePhysicalDocument</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeDeletePhysicalDocument
 ```cs

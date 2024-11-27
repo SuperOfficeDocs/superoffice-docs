@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 689,
-  "Name": "Braun, Lubowitz and Corwin",
-  "ConsentText": "incidunt",
-  "FormText": "a",
-  "Key": "velit",
-  "Tooltip": "laudantium",
-  "Active": 444,
-  "UpdatedDate": "2003-11-05T13:14:11.3360694+01:00",
+  "ConsentPurposeId": 542,
+  "Name": "Durgan-Zieme",
+  "ConsentText": "non",
+  "FormText": "corrupti",
+  "Key": "aut",
+  "Tooltip": "fugiat",
+  "Active": 499,
+  "UpdatedDate": "2015-06-30T14:45:13.6148917+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 488,
-  "PrivacyStatementDesc": "fugit",
+  "Deleted": false,
+  "Rank": 848,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 550,
-  "Name": "Kautzer, Hane and Grady",
-  "ConsentText": "eaque",
-  "FormText": "dolorem",
-  "Key": "asperiores",
-  "Tooltip": "culpa",
-  "Active": 197,
-  "UpdatedDate": "2010-02-26T13:14:11.3360694+01:00",
+  "ConsentPurposeId": 734,
+  "Name": "Grady-Kuphal",
+  "ConsentText": "error",
+  "FormText": "et",
+  "Key": "temporibus",
+  "Tooltip": "rerum",
+  "Active": 352,
+  "UpdatedDate": "2013-09-03T14:45:13.6148917+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 762,
-  "PrivacyStatementDesc": "est",
+  "Deleted": true,
+  "Rank": 710,
+  "PrivacyStatementDesc": "quo",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

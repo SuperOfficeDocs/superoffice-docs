@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.RemoveLicenseFromDB
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB'>RemoveLicenseFromDB</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.RemoveLicenseFromDB'>RemoveLicenseFromDB</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeRemoveLicenseFromDB
 ```cs

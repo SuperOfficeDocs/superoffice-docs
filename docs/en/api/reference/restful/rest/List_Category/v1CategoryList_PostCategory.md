@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "Cassin Inc and Sons",
-  "Tooltip": "recusandae",
+  "Id": 827,
+  "Name": "Stroman, Gutkowski and Thiel",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 985,
-  "Rank": 254
+  "UdListDefinitionId": 604,
+  "Rank": 101
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Walter, McClure and West",
-  "Tooltip": "quasi",
+  "Id": 622,
+  "Name": "Schamberger Group",
+  "Tooltip": "ea",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 851,
+  "UdListDefinitionId": 272,
+  "Rank": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldLength": 628
     }
   }
 }

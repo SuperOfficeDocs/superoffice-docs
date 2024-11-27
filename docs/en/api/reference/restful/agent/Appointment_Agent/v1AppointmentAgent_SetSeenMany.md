@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Appointment/SetSeenMany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    620,
-    73
+    69,
+    286
   ],
   "UpdateMode": "OnlyThis"
 }

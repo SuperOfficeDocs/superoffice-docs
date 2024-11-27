@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetUserCommands
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetUserCommands'>GetUserCommands</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetUserCommands'>GetUserCommands</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetUserCommands
 ```cs

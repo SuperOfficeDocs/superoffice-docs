@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 837,
-  "ConnectorName": "Fahey Group"
+  "ConnectionId": 498,
+  "ConnectorName": "Bayer-Reinger"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "consequatur",
-    "Rank": 64,
-    "DisplayName": "Kirlin Group",
-    "DisplayDescription": "Devolved object-oriented success",
+    "FieldKey": "hic",
+    "Rank": 377,
+    "DisplayName": "Lehner Group",
+    "DisplayDescription": "Persistent bandwidth-monitored pricing structure",
     "FieldType": "Checkbox",
-    "ListName": "Wintheiser-Bartell",
-    "DefaultValue": "minus",
-    "MaxLength": 847,
+    "ListName": "Wyman, Weimann and Lesch",
+    "DefaultValue": "ea",
+    "MaxLength": 766,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

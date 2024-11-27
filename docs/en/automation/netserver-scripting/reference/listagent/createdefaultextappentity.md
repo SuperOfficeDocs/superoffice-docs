@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.CreateDefaultExtAppEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.CreateDefaultExtAppEntity'>CreateDefaultExtAppEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.CreateDefaultExtAppEntity'>CreateDefaultExtAppEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeCreateDefaultExtAppEntity
 ```cs

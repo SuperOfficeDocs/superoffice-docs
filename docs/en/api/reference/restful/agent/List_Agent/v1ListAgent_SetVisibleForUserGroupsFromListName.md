@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Streich LLC",
-  "ListItemId": 994,
+  "UdListDefinitionName": "Cole LLC",
+  "ListItemId": 226,
   "UserGroups": [
     {
-      "Id": 73,
-      "Name": "Fritsch, Heller and Wisoky",
-      "ToolTip": "Aut non ab incidunt.",
+      "Id": 395,
+      "Name": "Cassin Group",
+      "ToolTip": "Nisi et quod dolor aut perspiciatis velit.",
       "Deleted": false,
-      "Rank": 642,
-      "Type": "quia",
-      "ColorBlock": 710,
-      "IconHint": "labore",
+      "Rank": 649,
+      "Type": "debitis",
+      "ColorBlock": 483,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2004-08-23T13:14:06.0851676+02:00",
+      "LastChanged": "2010-04-24T14:45:05.7094637+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "vel",
+      "ExtraInfo": "est",
+      "StyleHint": "consectetur",
       "Hidden": false,
-      "FullName": "Roman Langosh"
+      "FullName": "Dr. Malachi Lind"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Jacobs-Deckow",
-    "ToolTip": "Molestiae consequatur.",
-    "Deleted": false,
-    "Rank": 95,
-    "Type": "minus",
-    "ColorBlock": 619,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2011-02-28T13:14:06.0851676+01:00",
+    "Id": 678,
+    "Name": "Streich, Effertz and Kreiger",
+    "ToolTip": "Eius enim iusto et inventore.",
+    "Deleted": true,
+    "Rank": 519,
+    "Type": "et",
+    "ColorBlock": 933,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2011-09-13T14:45:05.7094637+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Daugherty, Ortiz and Morissette",
-        "ToolTip": "Consectetur placeat consequatur qui reprehenderit blanditiis accusantium.",
+        "Id": 151,
+        "Name": "Huel, Kautzer and Vandervort",
+        "ToolTip": "Aut accusamus.",
         "Deleted": false,
-        "Rank": 734,
-        "Type": "in",
-        "ColorBlock": 333,
-        "IconHint": "repudiandae",
+        "Rank": 577,
+        "Type": "cupiditate",
+        "ColorBlock": 894,
+        "IconHint": "inventore",
         "Selected": true,
-        "LastChanged": "2016-01-24T13:14:06.0851676+01:00",
+        "LastChanged": "2007-07-08T14:45:05.7094637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Flo Hyatt",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Mr. Quinton Koelpin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 363
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Montana Sipes",
+    "ExtraInfo": "et",
+    "StyleHint": "quasi",
+    "Hidden": false,
+    "FullName": "Mafalda Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   }

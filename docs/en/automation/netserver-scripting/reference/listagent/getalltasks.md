@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetAllTasks
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetAllTasks'>GetAllTasks</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetAllTasks'>GetAllTasks</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetAllTasks
 ```cs

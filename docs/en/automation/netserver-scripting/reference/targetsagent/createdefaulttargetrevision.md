@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetRevision
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetRevision'>CreateDefaultTargetRevision</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.CreateDefaultTargetRevision'>CreateDefaultTargetRevision</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeCreateDefaultTargetRevision
 ```cs

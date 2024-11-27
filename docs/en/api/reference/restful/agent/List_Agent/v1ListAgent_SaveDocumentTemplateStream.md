@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 371,
+  "DocumentTemplateId": 138,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "molestias",
-  "PluginId": 250
+  "LanguageCode": "eum",
+  "PluginId": 462
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Graham, Cummings and Metz",
-  "Description": "Reactive bottom-line alliance",
-  "ExternalReference": "non",
-  "MimeType": "ut",
-  "PluginId": 721
+  "Name": "Yundt-Wiegand",
+  "Description": "Fully-configurable non-volatile orchestration",
+  "ExternalReference": "dolores",
+  "MimeType": "nihil",
+  "PluginId": 489
 }
 ```

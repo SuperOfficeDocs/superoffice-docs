@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 72,
-  "StartTime": "2024-08-28T13:14:05.2257407+02:00",
-  "EndTime": "2003-10-05T13:14:05.2257407+02:00",
-  "Count": 106,
-  "TaskHeadingId": 210
+  "ProjectId": 34,
+  "StartTime": "2006-02-02T14:45:04.4599779+01:00",
+  "EndTime": "2014-10-05T14:45:04.4599779+02:00",
+  "Count": 676,
+  "TaskHeadingId": 878
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 378,
-    "StartDate": "2004-06-04T13:14:05.2257407+02:00",
-    "EndDate": "2001-07-08T13:14:05.2257407+02:00",
+    "AppointmentId": 214,
+    "StartDate": "2007-10-22T14:45:04.4599779+02:00",
+    "EndDate": "2020-09-19T14:45:04.4599779+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eligendi",
-    "AssociateFullName": "Clemens Crooks",
-    "ContactName": "Bins-Kutch",
-    "Description": "Customer-focused encompassing Graphical User Interface",
-    "PersonFullName": "Abby Ward",
-    "PersonId": 969,
-    "ContactId": 614,
-    "ProjectId": 78,
-    "ProjectName": "Kassulke-Klein",
+    "Task": "autem",
+    "AssociateFullName": "Pink Hermiston",
+    "ContactName": "Fritsch Group",
+    "Description": "User-centric actuating flexibility",
+    "PersonFullName": "Mrs. Samanta Braun DVM",
+    "PersonId": 281,
+    "ContactId": 542,
+    "ProjectId": 866,
+    "ProjectName": "Kessler-Gaylord",
     "IsPublished": false,
-    "AssociateId": 800,
-    "ColorIndex": 637,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 700,
+    "ColorIndex": 954,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 778,
-    "PriorityName": "McClure, Hodkiewicz and Hamill",
+    "PriorityId": 106,
+    "PriorityName": "Leuschke LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2021-01-09T13:14:05.2257407+01:00",
+    "ActiveDate": "2001-07-29T14:45:04.4599779+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-07-05T13:14:05.2257407+02:00",
-    "RecurringEndDate": "2013-04-19T13:14:05.2257407+02:00",
-    "MotherId": 359,
-    "AssignedBy": 382,
-    "AssignedByFullName": "Sonya Jakubowski",
+    "RecurringStartDate": "2022-12-23T14:45:04.4599779+01:00",
+    "RecurringEndDate": "2001-12-14T14:45:04.4599779+01:00",
+    "MotherId": 566,
+    "AssignedBy": 19,
+    "AssignedByFullName": "Penelope Waelchi",
     "RejectReason": "",
-    "Location": "numquam",
-    "AlarmLeadTime": "et",
-    "SaleId": 752,
-    "SaleName": "Mills-Heaney",
-    "AssociateName": "McDermott, Stamm and Feil",
-    "CreatedDate": "1997-11-01T13:14:05.2257407+01:00",
-    "CreatedBy": "laudantium",
-    "CreatedByFullName": "Courtney Gibson",
-    "CreatedByAssociateId": 626,
+    "Location": "eos",
+    "AlarmLeadTime": "commodi",
+    "SaleId": 943,
+    "SaleName": "Bogan Group",
+    "AssociateName": "Gottlieb-Turner",
+    "CreatedDate": "2012-10-26T14:45:04.4599779+02:00",
+    "CreatedBy": "labore",
+    "CreatedByFullName": "Christy Rempel",
+    "CreatedByAssociateId": 586,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 806,
-    "Title": "possimus",
-    "Agenda": "explicabo",
-    "InternalNotes": "ullam",
+    "PreferredTZLocation": 510,
+    "Title": "deserunt",
+    "Agenda": "accusantium",
+    "InternalNotes": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 701
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 425,
-    "Name": "Harvey Inc and Sons",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "UdListDefinitionId": 961,
-    "Rank": 211
+    "Id": 392,
+    "Name": "Auer, Price and Nader",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 752
   },
   {
-    "Id": 425,
-    "Name": "Harvey Inc and Sons",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "UdListDefinitionId": 961,
-    "Rank": 211
+    "Id": 392,
+    "Name": "Auer, Price and Nader",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 752
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Terry, Glover and Zulauf",
-    "Tooltip": "odit",
+    "Id": 411,
+    "Name": "Vandervort-Gibson",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 343,
-    "Rank": 565,
+    "UdListDefinitionId": 647,
+    "Rank": 580,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldType": "System.String",
+        "FieldLength": 840
       }
     }
   }

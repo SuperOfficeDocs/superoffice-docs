@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 507
+  "PersonId": 548
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 320,
-    "Comment": "cum",
-    "Registered": "2013-10-23T13:14:06.2101751+02:00",
-    "RegisteredAssociateId": 318,
-    "Updated": "2012-06-08T13:14:06.2101751+02:00",
-    "UpdatedAssociateId": 364,
-    "LegalBaseId": 673,
-    "LegalBaseKey": "voluptas",
-    "LegalBaseName": "Nader-Gutkowski",
-    "ConsentPurposeId": 467,
-    "ConsentPurposeKey": "hic",
-    "ConsentPurposeName": "Huels-Koss",
-    "ConsentSourceId": 268,
-    "ConsentSourceKey": "quos",
-    "ConsentSourceName": "Bradtke-Bernier",
+    "ConsentPersonId": 863,
+    "Comment": "sed",
+    "Registered": "2002-12-18T14:45:05.9125422+01:00",
+    "RegisteredAssociateId": 24,
+    "Updated": "2019-05-25T14:45:05.9125422+02:00",
+    "UpdatedAssociateId": 550,
+    "LegalBaseId": 426,
+    "LegalBaseKey": "tempore",
+    "LegalBaseName": "Hauck Group",
+    "ConsentPurposeId": 798,
+    "ConsentPurposeKey": "repudiandae",
+    "ConsentPurposeName": "Marquardt, Reynolds and Walsh",
+    "ConsentSourceId": 552,
+    "ConsentSourceKey": "quia",
+    "ConsentSourceName": "Huel, Flatley and Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 712
       }
     }
   }

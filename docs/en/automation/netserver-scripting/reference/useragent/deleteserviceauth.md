@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.DeleteServiceAuth
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuth'>DeleteServiceAuth</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.DeleteServiceAuth'>DeleteServiceAuth</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeDeleteServiceAuth
 ```cs

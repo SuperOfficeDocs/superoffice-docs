@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Hane, Kris and Gorczany"
+  "WindowName": "Langworth, Ernser and Bernier"
 }
 ```
 

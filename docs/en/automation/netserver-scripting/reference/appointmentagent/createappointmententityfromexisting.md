@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.CreateAppointmentEntityFromExisting
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting'>CreateAppointmentEntityFromExisting</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.CreateAppointmentEntityFromExisting'>CreateAppointmentEntityFromExisting</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeCreateAppointmentEntityFromExisting
 ```cs

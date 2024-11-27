@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.GetStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.GetStatus'>GetStatus</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.GetStatus'>GetStatus</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeGetStatus
 ```cs

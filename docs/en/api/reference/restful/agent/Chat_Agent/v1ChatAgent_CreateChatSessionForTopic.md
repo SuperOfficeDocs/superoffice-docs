@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 518
+  "ChatTopicId": 999
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 633,
-  "TopicId": 479,
+  "ChatSessionId": 228,
+  "TopicId": 678,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vero",
-  "CustomerHost": "ut",
-  "CustomerName": "Flatley, Torp and Wisoky",
-  "CustomerEmail": "damian@ebertcarter.com",
-  "CustomerPhone": "756-578-5716",
+  "CustomerAlias": "ullam",
+  "CustomerHost": "et",
+  "CustomerName": "Jacobi, Huel and Kessler",
+  "CustomerEmail": "beatrice_pollich@bins.co.uk",
+  "CustomerPhone": "1-464-474-8675",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Aufderhar-Kerluke",
+  "CustomerCompanyName": "Rath, Gibson and Nienow",
   "Status": "Closed",
-  "FirstMessage": "at",
-  "LastMessage": "occaecati",
-  "WhenRequested": "2023-05-20T13:14:05.6163893+02:00",
-  "WhenStarted": "2012-04-25T13:14:05.6163893+02:00",
-  "WhenEnded": "2003-09-10T13:14:05.6163893+02:00",
-  "WhenIdle": "2022-09-15T13:14:05.6163893+02:00",
-  "WhenFetched": "2006-03-12T13:14:05.6163893+01:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 789,
-  "AlertLevel": 562,
-  "Rank": 134,
+  "FirstMessage": "officiis",
+  "LastMessage": "consequatur",
+  "WhenRequested": "2014-10-04T14:45:05.0064931+02:00",
+  "WhenStarted": "2020-05-19T14:45:05.0064931+02:00",
+  "WhenEnded": "2021-09-09T14:45:05.0064931+02:00",
+  "WhenIdle": "2019-02-17T14:45:05.0064931+01:00",
+  "WhenFetched": "2015-09-01T14:45:05.0064931+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 121,
+  "AlertLevel": 718,
+  "Rank": 149,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 311,
+  "ChatbotIsActive": false,
+  "Rating": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldLength": 999
     }
   }
 }

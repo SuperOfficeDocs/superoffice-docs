@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 764,
-  "ERPProductKey": "quas",
-  "ERPPriceListKey": "non",
-  "Name": "Jenkins, Cartwright and Ward",
-  "Description": "Programmable bottom-line protocol",
-  "Code": "voluptas",
-  "PriceUnit": "ab",
-  "QuantityUnit": "dolores",
-  "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 11542.521999999999,
-  "ItemNumber": "917556",
+  "ProductId": 154,
+  "ERPProductKey": "in",
+  "ERPPriceListKey": "eius",
+  "Name": "Hilll, Murphy and Stokes",
+  "Description": "Customer-focused user-facing customer loyalty",
+  "Code": "minima",
+  "PriceUnit": "est",
+  "QuantityUnit": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "eius",
+  "DefaultSubscriptionQuantity": 5634.932,
+  "ItemNumber": "871324",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "laboriosam",
-  "VAT": 19891.498,
-  "VATInfo": "eum",
-  "UnitCost": 4929.782,
-  "UnitMinimumPrice": 20565.308,
-  "UnitListPrice": 22464.512,
+  "ProductFamilyKey": "vitae",
+  "ProductTypeKey": "ratione",
+  "VAT": 16716.756,
+  "VATInfo": "nihil",
+  "UnitCost": 20414.876,
+  "UnitMinimumPrice": 26093.683999999997,
+  "UnitListPrice": 27782.91,
   "InAssortment": false,
-  "Supplier": "mollitia",
-  "SupplierCode": "molestiae",
-  "Rights": "non",
-  "Rule": "ut",
+  "Supplier": "dignissimos",
+  "SupplierCode": "quos",
+  "Rights": "deserunt",
+  "Rule": "expedita",
   "ExtraInfo": [
     {
-      "Name": "McKenzie, Hansen and Barton",
-      "Value": "maiores",
+      "Name": "Baumbach Group",
+      "Value": "dolor",
       "Type": "Image"
     },
     {
-      "Name": "McKenzie, Hansen and Barton",
-      "Value": "maiores",
+      "Name": "Baumbach Group",
+      "Value": "dolor",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "natus",
-  "ExtraField2": "labore",
-  "ExtraField3": "quae",
-  "ExtraField4": "a",
-  "ExtraField5": "quam",
-  "InStock": 21471.034
+  "RawExtraInfo": "quos",
+  "ExtraField1": "rerum",
+  "ExtraField2": "numquam",
+  "ExtraField3": "ut",
+  "ExtraField4": "aut",
+  "ExtraField5": "et",
+  "InStock": 17193.124
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 152,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "provident",
-  "Name": "O'Kon, Runolfsson and Leffler",
-  "Description": "Organic demand-driven orchestration",
-  "Code": "vitae",
-  "PriceUnit": "est",
-  "QuantityUnit": "incidunt",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "DefaultSubscriptionQuantity": 13056.243999999999,
-  "ItemNumber": "684345",
+  "ProductId": 648,
+  "ERPProductKey": "veniam",
+  "ERPPriceListKey": "autem",
+  "Name": "Funk Group",
+  "Description": "Front-line bi-directional functionalities",
+  "Code": "cum",
+  "PriceUnit": "quibusdam",
+  "QuantityUnit": "ut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "harum",
+  "DefaultSubscriptionQuantity": 5055.142,
+  "ItemNumber": "1283768",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fugit",
-  "ProductTypeKey": "quo",
-  "VAT": 3735.728,
-  "VATInfo": "omnis",
-  "UnitCost": 26764.36,
-  "UnitMinimumPrice": 19819.416,
-  "UnitListPrice": 24219.552,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "officiis",
+  "VAT": 25263.174,
+  "VATInfo": "molestiae",
+  "UnitCost": 10251.314,
+  "UnitMinimumPrice": 1306.878,
+  "UnitListPrice": 10223.108,
   "InAssortment": false,
-  "Supplier": "cupiditate",
-  "SupplierCode": "aliquid",
-  "Rights": "est",
-  "Rule": "tenetur",
+  "Supplier": "repudiandae",
+  "SupplierCode": "pariatur",
+  "Rights": "aut",
+  "Rule": "nihil",
   "ExtraInfo": [
     {
-      "Name": "Williamson LLC",
-      "Value": "autem",
+      "Name": "Hagenes-Goldner",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 709
         }
       }
     },
     {
-      "Name": "Williamson LLC",
-      "Value": "autem",
+      "Name": "Hagenes-Goldner",
+      "Value": "sit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 709
         }
       }
     }
   ],
-  "RawExtraInfo": "soluta",
-  "ExtraField1": "vel",
-  "ExtraField2": "ea",
-  "ExtraField3": "vero",
-  "ExtraField4": "corrupti",
-  "ExtraField5": "quo",
-  "InStock": 3930.036,
+  "RawExtraInfo": "sunt",
+  "ExtraField1": "suscipit",
+  "ExtraField2": "sunt",
+  "ExtraField3": "et",
+  "ExtraField4": "velit",
+  "ExtraField5": "et",
+  "InStock": 29622.568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldLength": 604
     }
   }
 }

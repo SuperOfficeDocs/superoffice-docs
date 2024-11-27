@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.SetGeneratedPassword
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.SetGeneratedPassword'>SetGeneratedPassword</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.SetGeneratedPassword'>SetGeneratedPassword</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeSetGeneratedPassword
 ```cs

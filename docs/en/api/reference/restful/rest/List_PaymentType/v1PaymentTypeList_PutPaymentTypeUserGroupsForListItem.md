@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Robel-Botsford",
-    "ToolTip": "Blanditiis laborum doloribus officiis officia ex.",
-    "Deleted": false,
-    "Rank": 696,
-    "Type": "qui",
-    "ColorBlock": 213,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2016-12-07T13:14:11.4298249+01:00",
+    "Id": 70,
+    "Name": "Christiansen-Muller",
+    "ToolTip": "Nostrum dignissimos qui laboriosam modi.",
+    "Deleted": true,
+    "Rank": 33,
+    "Type": "ex",
+    "ColorBlock": 212,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2007-05-16T14:45:13.7554843+02:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Mertz Group",
-        "ToolTip": "Sed est.",
+        "Id": 260,
+        "Name": "Schultz LLC",
+        "ToolTip": "Ut itaque sunt.",
         "Deleted": false,
-        "Rank": 763,
-        "Type": "enim",
-        "ColorBlock": 791,
-        "IconHint": "voluptatibus",
+        "Rank": 731,
+        "Type": "consectetur",
+        "ColorBlock": 455,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2017-01-21T13:14:11.4298249+01:00",
+        "LastChanged": "2021-10-06T14:45:13.7554843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ad",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Wilma Hahn"
+        "FullName": "Anjali Jacobson"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Prof. Jamey McClure Jr."
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Annamae Schmitt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Rohan, Gleichner and McDermott",
-    "ToolTip": "Voluptas ipsam.",
+    "Id": 969,
+    "Name": "Blick-Turcotte",
+    "ToolTip": "Et voluptates assumenda sunt.",
     "Deleted": false,
-    "Rank": 323,
-    "Type": "accusantium",
-    "ColorBlock": 258,
-    "IconHint": "ab",
-    "Selected": false,
-    "LastChanged": "2014-07-05T13:14:11.4298249+02:00",
+    "Rank": 499,
+    "Type": "quibusdam",
+    "ColorBlock": 904,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2020-08-08T14:45:13.7554843+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Tromp-Volkman",
-        "ToolTip": "Provident et corrupti velit ut.",
+        "Id": 6,
+        "Name": "Ondricka, King and Hayes",
+        "ToolTip": "Debitis aut atque accusantium ipsum non qui velit.",
         "Deleted": false,
-        "Rank": 930,
-        "Type": "consequatur",
-        "ColorBlock": 188,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2003-08-12T13:14:11.4298249+02:00",
+        "Rank": 357,
+        "Type": "cumque",
+        "ColorBlock": 696,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "2008-12-17T14:45:13.7554843+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Bryce Grady",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Lexi Everette Kerluke I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 531
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "saepe",
+    "ExtraInfo": "unde",
+    "StyleHint": "fuga",
     "Hidden": true,
-    "FullName": "Dr. Toney Mckayla Morar",
+    "FullName": "Zane Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldType": "System.String",
+        "FieldLength": 744
       }
     }
   }

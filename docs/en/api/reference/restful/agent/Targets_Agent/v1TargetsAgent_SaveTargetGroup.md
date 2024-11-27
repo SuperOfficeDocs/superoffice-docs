@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 25,
-  "Year": 223,
+  "TargetGroupId": 77,
+  "Year": 640,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 493,
+      "TargetAssignmentInfoId": 906,
       "Values": [
-        516,
-        241
+        832,
+        912
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 352,
-      "DimensionListItemDisplayName": "Jewess, Roberts and Mann"
+      "DimensionListItem": 589,
+      "DimensionListItemDisplayName": "Rice, Denesik and Howell"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 650,
-  "Year": 855,
+  "TargetGroupId": 442,
+  "Year": 374,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 969,
+      "TargetAssignmentInfoId": 640,
       "Values": [
-        417,
-        831
+        198,
+        182
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 855,
-      "DimensionListItemDisplayName": "Crona LLC",
+      "DimensionListItem": 474,
+      "DimensionListItemDisplayName": "Hoeger-Yundt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 142
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 870
     }
   }
 }

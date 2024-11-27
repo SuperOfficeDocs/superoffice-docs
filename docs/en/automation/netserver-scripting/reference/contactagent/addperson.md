@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.AddPerson
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.AddPerson'>AddPerson</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.AddPerson'>AddPerson</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeAddPerson
 ```cs

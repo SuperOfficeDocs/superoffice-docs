@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.DeleteConnection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection'>DeleteConnection</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.DeleteConnection'>DeleteConnection</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeDeleteConnection
 ```cs

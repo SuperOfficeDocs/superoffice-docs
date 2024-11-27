@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 807,
-  "Name": "Kessler LLC",
+  "ScreenChooserId": 831,
+  "Name": "Schuster, Stiedemann and Parker",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ipsam",
-  "Source": "ab",
-  "Registered": "2000-03-29T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2014-01-05T13:14:11.1954363+01:00",
-  "UpdatedAssociateId": 802
+  "UniqueIdentifier": "maxime",
+  "Source": "facilis",
+  "Registered": "2001-05-10T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 356,
+  "Updated": "2013-02-23T14:45:13.3805746+01:00",
+  "UpdatedAssociateId": 864
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 21,
-  "Name": "Fisher, Witting and Mayer",
+  "ScreenChooserId": 488,
+  "Name": "Gaylord LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "soluta",
-  "Registered": "2012-03-22T13:14:11.1954363+01:00",
-  "RegisteredAssociateId": 249,
-  "Updated": "2002-09-27T13:14:11.1954363+02:00",
-  "UpdatedAssociateId": 154,
+  "UniqueIdentifier": "fuga",
+  "Source": "id",
+  "Registered": "2007-07-01T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "2003-04-15T14:45:13.3805746+02:00",
+  "UpdatedAssociateId": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 104
     }
   },
   "_Links": {

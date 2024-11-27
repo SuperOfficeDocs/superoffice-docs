@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 502,
-    "Name": "Russel-Dickinson",
-    "OrgNr": "1424799",
-    "Department": "",
+    "ContactId": 930,
+    "Name": "Lubowitz Group",
+    "OrgNr": "1104290",
+    "Department": "integrate magnetic deliverables",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "1-449-794-9182",
-    "AssociateId": 253,
-    "CountryId": 440,
-    "EmailAddress": "dimitri@balistreri.uk",
-    "Kananame": "officia",
-    "EmailAddressName": "melany_tremblay@goldner.com",
+    "City": "laudantium",
+    "DirectPhone": "209-779-9235 x687",
+    "AssociateId": 453,
+    "CountryId": 121,
+    "EmailAddress": "carrie.windler@littel.com",
+    "Kananame": "esse",
+    "EmailAddressName": "juliet@osinski.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mr. Reina D'Amore IV",
+    "AssociateFullName": "Prof. Pansy Velma Denesik",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "perspiciatis",
-    "FullName": "Dr. Winifred Winifred Wiza II",
+    "FormattedAddress": "magni",
+    "FullName": "Dr. Zachary Lesley Bosco",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 959,
-    "Number1": "408851",
-    "Number2": "1750390",
+    "ActiveErpLinks": 738,
+    "Number1": "430916",
+    "Number2": "1937800",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 199
       }
     }
   }

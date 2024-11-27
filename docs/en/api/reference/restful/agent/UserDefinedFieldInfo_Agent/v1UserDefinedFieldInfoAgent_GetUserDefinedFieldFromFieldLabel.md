@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "dolorem",
+  "FieldLabel": "voluptas",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 92,
-  "ColumnId": 423,
-  "FieldDefault": "aut",
-  "FieldHeight": 86,
-  "FieldLabel": "odio",
-  "FieldLeft": 833,
-  "FieldTop": 348,
+  "UDefFieldId": 524,
+  "ColumnId": 253,
+  "FieldDefault": "est",
+  "FieldHeight": 782,
+  "FieldLabel": "aut",
+  "FieldLeft": 123,
+  "FieldTop": 553,
   "FieldType": "Checkbox",
-  "FieldWidth": 427,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 987,
+  "FormatMask": "ratione",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 92,
-  "LabelLeft": 874,
-  "LabelTop": 351,
-  "LabelWidth": 912,
-  "LastVersionId": 492,
-  "ListTableId": 290,
+  "LabelHeight": 351,
+  "LabelLeft": 443,
+  "LabelTop": 927,
+  "LabelWidth": 882,
+  "LastVersionId": 641,
+  "ListTableId": 377,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 680,
-  "ProgId": "eos",
+  "Page1LineNo": 813,
+  "ProgId": "dolorum",
   "IsReadOnly": false,
-  "ShortLabel": "vitae",
-  "TabOrder": 87,
-  "TextLength": 322,
-  "Tooltip": "aut",
-  "UdefIdentity": 71,
-  "UDListDefinitionId": 722,
+  "ShortLabel": "officia",
+  "TabOrder": 118,
+  "TextLength": 907,
+  "Tooltip": "cumque",
+  "UdefIdentity": 899,
+  "UDListDefinitionId": 387,
   "Justification": "Center",
-  "Version": 307,
-  "TemplateVariableName": "Herman-Abbott",
-  "HasBeenPublished": true,
-  "MdoListName": "Hudson Inc and Sons",
+  "Version": 891,
+  "TemplateVariableName": "Mayert, Simonis and Kozey",
+  "HasBeenPublished": false,
+  "MdoListName": "Terry, Bernhard and Spencer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 904
     }
   }
 }

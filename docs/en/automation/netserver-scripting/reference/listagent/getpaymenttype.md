@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetPaymentType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetPaymentType'>GetPaymentType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetPaymentType'>GetPaymentType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetPaymentType
 ```cs

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Mitchell-Lemke",
-  "Tooltip": "magni",
+  "Id": 912,
+  "Name": "Emmerich-Kling",
+  "Tooltip": "quas",
   "Deleted": true,
-  "Rank": 48,
+  "Rank": 562,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Beier Group",
-  "Tooltip": "voluptatem",
+  "Id": 657,
+  "Name": "White Inc and Sons",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "Rank": 369,
+  "Rank": 698,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 433
     }
   }
 }

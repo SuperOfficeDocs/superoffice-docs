@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 456,
-      "PrefDescId": 923,
-      "PrefValue": "possimus",
-      "PrefShowValue": "et",
-      "Description": "Robust tangible data-warehouse",
-      "IsBuiltin": false
+      "PrefDescLineId": 274,
+      "PrefDescId": 462,
+      "PrefValue": "magnam",
+      "PrefShowValue": "aut",
+      "Description": "User-centric client-server pricing structure",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 456,
-      "PrefDescId": 923,
-      "PrefValue": "possimus",
-      "PrefShowValue": "et",
-      "Description": "Robust tangible data-warehouse",
-      "IsBuiltin": false
+      "PrefDescLineId": 274,
+      "PrefDescId": 462,
+      "PrefValue": "magnam",
+      "PrefShowValue": "aut",
+      "Description": "User-centric client-server pricing structure",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 202,
-    "PrefDescId": 642,
-    "PrefValue": "molestiae",
-    "PrefShowValue": "non",
-    "Description": "Synergistic foreground strategy",
-    "IsBuiltin": true,
+    "PrefDescLineId": 382,
+    "PrefDescId": 415,
+    "PrefValue": "quidem",
+    "PrefShowValue": "unde",
+    "Description": "Multi-channelled responsive customer loyalty",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

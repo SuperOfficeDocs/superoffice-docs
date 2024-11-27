@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 449,
-  "Name": "Willms, Smitham and Roberts",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 701,
-  "UdListDefinitionId": 223
+  "HeadingId": 790,
+  "Name": "Wehner LLC",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "Rank": 719,
+  "UdListDefinitionId": 694
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 544,
-  "Name": "Gislason, Thompson and O'Conner",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 689,
-  "UdListDefinitionId": 506,
+  "HeadingId": 110,
+  "Name": "White, Collins and Hane",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 688,
+  "UdListDefinitionId": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 323
     }
   }
 }

@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 855,
-  "ColumnId": 38,
-  "FieldDefault": "non",
-  "FieldHeight": 585,
-  "FieldLabel": "quo",
-  "FieldLeft": 483,
-  "FieldTop": 408,
+  "UDefFieldId": 653,
+  "ColumnId": 981,
+  "FieldDefault": "architecto",
+  "FieldHeight": 762,
+  "FieldLabel": "est",
+  "FieldLeft": 662,
+  "FieldTop": 234,
   "FieldType": "Checkbox",
-  "FieldWidth": 134,
-  "FormatMask": "consequatur",
+  "FieldWidth": 897,
+  "FormatMask": "illum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 36,
-  "LabelLeft": 54,
-  "LabelTop": 710,
-  "LabelWidth": 792,
-  "LastVersionId": 725,
-  "ListTableId": 420,
+  "LabelHeight": 643,
+  "LabelLeft": 607,
+  "LabelTop": 323,
+  "LabelWidth": 884,
+  "LastVersionId": 592,
+  "ListTableId": 576,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 667,
-  "ProgId": "eveniet",
+  "Page1LineNo": 645,
+  "ProgId": "rerum",
   "IsReadOnly": false,
-  "ShortLabel": "possimus",
-  "TabOrder": 12,
-  "TextLength": 944,
-  "Tooltip": "soluta",
-  "UdefIdentity": 890,
-  "UDListDefinitionId": 293,
+  "ShortLabel": "ut",
+  "TabOrder": 85,
+  "TextLength": 923,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 91,
+  "UDListDefinitionId": 424,
   "Justification": "Center",
-  "Version": 392,
-  "TemplateVariableName": "Murray Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Gibson-Robel",
+  "Version": 353,
+  "TemplateVariableName": "Schneider, Dicki and Pagac",
+  "HasBeenPublished": true,
+  "MdoListName": "Ortiz-Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

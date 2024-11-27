@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 198,
-  "Name": "Kuhlman Group",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "Rank": 908,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 786,
+  "Name": "Tillman Group",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 389,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "ListType": "eum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 347
     }
   },
   "_Links": {

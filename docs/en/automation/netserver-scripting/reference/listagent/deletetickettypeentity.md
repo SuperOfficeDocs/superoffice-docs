@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.DeleteTicketTypeEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.DeleteTicketTypeEntity'>DeleteTicketTypeEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.DeleteTicketTypeEntity'>DeleteTicketTypeEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeDeleteTicketTypeEntity
 ```cs

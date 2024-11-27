@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 1000,
-  "Name": "Cronin Inc and Sons",
-  "Rank": 985,
-  "Tooltip": "voluptatem",
-  "Icon": "assumenda",
-  "DefaultTicketStatus": 958,
+  "TicketTypeId": 960,
+  "Name": "Hahn, O'Keefe and Wintheiser",
+  "Rank": 610,
+  "Tooltip": "et",
+  "Icon": "itaque",
+  "DefaultTicketStatus": 563,
   "TicketStatuses": [
-    348,
-    392
+    679,
+    761
   ],
-  "DefaultTicketPriority": 14,
+  "DefaultTicketPriority": 715,
   "TicketPriorities": [
-    120,
-    383
+    409,
+    802
   ],
-  "ReplyTemplate": 966,
+  "ReplyTemplate": 342,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    399,
-    513
+    531,
+    585
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 641
     }
   }
 }

@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 464,
-  "Name": "Corkery-Pfeffer",
-  "Description": "Multi-layered modular application",
-  "WelcomeMessage": "ea",
+  "ChatTopicId": 94,
+  "Name": "Wilderman Group",
+  "Description": "Down-sized maximized function",
+  "WelcomeMessage": "sint",
   "Language": null,
-  "LastAccept": "2008-08-11T13:14:10.6797802+02:00",
-  "SecondsPrAccept": 453,
-  "AlertRecipient": "ut",
+  "LastAccept": "2022-05-08T14:45:12.5838708+02:00",
+  "SecondsPrAccept": 75,
+  "AlertRecipient": "sed",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "eum",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 6,
-  "WarnManagerNewChatMinutes": 98,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "nisi",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "nihil",
+  "WarnNewChatMinutes": 942,
+  "WarnManagerNewChatMinutes": 839,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 388,
-  "WarnManagerChatMessageMinutes": 546,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 487,
-  "OfflineFormQueueLength": 912,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "consectetur"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 63,
+  "WarnManagerChatMessageMinutes": 789,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 415,
+  "OfflineFormQueueLength": 592,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "pariatur"
 }
 ```
 
@@ -181,22 +181,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 870,
-  "Name": "Hartmann, Kuhlman and Bauch",
-  "Description": "Secured optimal monitoring",
-  "WelcomeMessage": "natus",
+  "ChatTopicId": 709,
+  "Name": "Legros, Raynor and Bauch",
+  "Description": "Streamlined foreground parallelism",
+  "WelcomeMessage": "quibusdam",
   "Language": null,
-  "LastAccept": "2001-12-11T13:14:10.6797802+01:00",
-  "SecondsPrAccept": 837,
-  "AlertRecipient": "aspernatur",
+  "LastAccept": "2015-02-28T14:45:12.5838708+01:00",
+  "SecondsPrAccept": 898,
+  "AlertRecipient": "dignissimos",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "possimus",
+  "CollectConsent": false,
+  "BadgeHeader": "occaecati",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "aut",
-  "WarnNewChatMinutes": 428,
-  "WarnManagerNewChatMinutes": 612,
-  "TicketEnabled": false,
+  "CustomQueueText": "eos",
+  "WarnNewChatMinutes": 687,
+  "WarnManagerNewChatMinutes": 431,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -205,19 +205,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 561,
-  "WarnManagerChatMessageMinutes": 553,
+  "WarnChatMessageMinutes": 609,
+  "WarnManagerChatMessageMinutes": 348,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 722,
-  "OfflineFormQueueLength": 631,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "quo",
+  "OfflineFormTimeLimit": 367,
+  "OfflineFormQueueLength": 995,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 651
     }
   },
   "_Links": {

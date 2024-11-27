@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic disintermediate infrastructure",
-  "Postit": "omnis",
+  "Description": "Exclusive regional concept",
+  "Postit": "debitis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 713,
-  "IncludePerson": 785,
+  "GroupIdx": 443,
+  "IncludePerson": 376,
   "MemberCount": 99.99,
-  "Name": "Crona Group",
-  "PostitTextId": 780,
-  "CreatedDate": "2015-11-18T13:14:06.4289377+01:00",
-  "SelectionId": 639,
-  "SoundEx": "ipsum",
-  "Source": 261,
-  "TextId": 639,
-  "UpdatedDate": "2020-09-24T13:14:06.4289377+02:00",
-  "UpdatedCount": 873,
-  "Visibility": 395,
+  "Name": "Metz-Klein",
+  "PostitTextId": 31,
+  "CreatedDate": "2009-11-14T14:45:06.2249724+01:00",
+  "SelectionId": 141,
+  "SoundEx": "sed",
+  "Source": 299,
+  "TextId": 184,
+  "UpdatedDate": "2011-05-17T14:45:06.2249724+02:00",
+  "UpdatedCount": 436,
+  "Visibility": 506,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 351,
-  "TargetTableName": "Jerde, Bosco and Champlin",
+  "CompanyUnique": false,
+  "TargetTableNumber": 856,
+  "TargetTableName": "Batz, Beer and Schaefer",
   "Completed": false,
-  "LeftSelectionId": 331,
-  "RightSelectionId": 957,
+  "LeftSelectionId": 209,
+  "RightSelectionId": 715,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feest, Mertz and Pollich",
-  "ShadowProviderName": "Vandervort Group",
-  "ChartKey": "provident",
-  "LastLoaded": "2007-05-10T13:14:06.4289377+02:00",
-  "LastLoadedBy": 427,
+  "MainProviderName": "Hilll-Rolfson",
+  "ShadowProviderName": "Tromp, Gibson and Fritsch",
+  "ChartKey": "illum",
+  "LastLoaded": "2007-09-08T14:45:06.2249724+02:00",
+  "LastLoadedBy": 107,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-03-13T13:14:06.4289377+01:00",
-  "LastMembershipChangeBy": 276,
+  "LastMembershipChange": "2022-09-22T14:45:06.2249724+02:00",
+  "LastMembershipChangeBy": 97,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consectetur",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Waelchi, Kertzmann and Sauer",
-  "DashboardTileDefinitionId": 406,
+  "MainHeading": "nisi",
+  "MemberTabHeading": "alias",
+  "MailingsProviderName": "Williamson Group",
+  "DashboardTileDefinitionId": 153,
   "VisibleFor": [
     {
-      "VisibleId": 339,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldType": "System.Int32",
+          "FieldLength": 477
         }
       }
     },
     {
-      "VisibleId": 339,
+      "VisibleId": 195,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldType": "System.Int32",
+          "FieldLength": 477
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 260
     }
   }
 }

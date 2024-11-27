@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Name": "Kovacek, Botsford and Wintheiser",
-  "Tooltip": "dolor",
+  "Id": 551,
+  "Name": "Hodkiewicz, Hane and Gleason",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 69,
-  "Rank": 979,
+  "UdListDefinitionId": 862,
+  "Rank": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

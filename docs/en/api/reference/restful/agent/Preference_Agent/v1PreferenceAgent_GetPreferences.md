@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "dicta",
-      "Key": "dignissimos"
+      "Section": "fugit",
+      "Key": "voluptatum"
     },
     {
-      "Section": "dicta",
-      "Key": "dignissimos"
+      "Section": "fugit",
+      "Key": "voluptatum"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "qui",
+    "RawValue": "iure",
     "Specification": null,
-    "DisplayValue": "exercitationem",
-    "DisplayTooltip": "qui",
+    "DisplayValue": "vel",
+    "DisplayTooltip": "unde",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 288,
-    "PrefDescId": 402,
-    "TableName": "Baumbach-Cole",
-    "UserPreferenceId": 37,
+    "TargetId": 337,
+    "PrefDescId": 960,
+    "TableName": "Tromp, Wilkinson and Rath",
+    "UserPreferenceId": 547,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 294
       }
     }
   }

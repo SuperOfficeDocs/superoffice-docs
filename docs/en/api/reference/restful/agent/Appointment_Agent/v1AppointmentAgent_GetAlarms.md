@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 1002
+  "DefaultAlarmLeadTimeInMinutes": 642
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 669,
-      "StartTime": "2007-03-22T13:14:05.2413666+01:00",
-      "EndDate": "2017-02-19T13:14:05.2413666+01:00",
-      "AlarmTime": "2001-12-17T13:14:05.2413666+01:00",
-      "PersonId": 201,
-      "PersonFullName": "Esperanza Simonis",
-      "ContactName": "Littel Group",
-      "ProjectId": 108,
-      "ProjectName": "Bruen Group",
-      "AppointmentText": "tempore",
-      "SaleId": 199,
-      "SaleName": "Grant-Reilly",
-      "Location": "asperiores",
+      "AppointmentId": 684,
+      "StartTime": "2004-11-23T14:45:04.4912235+01:00",
+      "EndDate": "2003-07-16T14:45:04.4912235+02:00",
+      "AlarmTime": "2015-01-25T14:45:04.4912235+01:00",
+      "PersonId": 35,
+      "PersonFullName": "Mrs. Amy Shaniya VonRueden",
+      "ContactName": "Hodkiewicz, Schulist and Ward",
+      "ProjectId": 718,
+      "ProjectName": "Langosh Group",
+      "AppointmentText": "alias",
+      "SaleId": 871,
+      "SaleName": "O'Connell, Bradtke and Block",
+      "Location": "dignissimos",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 231,
+      "ContactId": 22,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Champlin LLC",
-      "TaskName": "Goyette-Sauer",
+      "FormalName": "Hamill Inc and Sons",
+      "TaskName": "Cruickshank, Cassin and Cummings",
       "ContactDepartment": "",
-      "ContactFullName": "Marianna Heller",
+      "ContactFullName": "Wendell Rowe",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldType": "System.Int32",
+          "FieldLength": 922
         }
       }
     }
   ],
-  "PollingInterval": 433,
-  "SilentAfter": 696,
+  "PollingInterval": 990,
+  "SilentAfter": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 706
     }
   }
 }

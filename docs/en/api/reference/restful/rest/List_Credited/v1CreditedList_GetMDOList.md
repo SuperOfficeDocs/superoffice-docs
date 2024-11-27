@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=officiis
+GET /api/v1/List/Credited/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Pfeffer-Metz",
-    "ToolTip": "Reiciendis quisquam alias dolorem id placeat.",
-    "Deleted": false,
-    "Rank": 145,
-    "Type": "dolores",
+    "Id": 900,
+    "Name": "Lubowitz-Marks",
+    "ToolTip": "Aut ipsa est animi qui ipsam qui beatae.",
+    "Deleted": true,
+    "Rank": 986,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Funk LLC",
-        "ToolTip": "Ut temporibus itaque ullam et sed et ea.",
-        "Deleted": true,
-        "Rank": 285,
-        "Type": "quia",
+        "Id": 308,
+        "Name": "Zieme-Keeling",
+        "ToolTip": "Quo deleniti consectetur omnis autem.",
+        "Deleted": false,
+        "Rank": 732,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 244,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "voluptas",
-        "FullName": "Johnson Boyer V",
+        "IconHint": "omnis",
+        "ColorBlock": 733,
+        "ExtraInfo": "neque",
+        "StyleHint": "facilis",
+        "FullName": "Kimberly Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldLength": 499
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 757,
-    "ExtraInfo": "sed",
-    "StyleHint": "pariatur",
-    "FullName": "Lucas Anderson",
+    "IconHint": "doloribus",
+    "ColorBlock": 73,
+    "ExtraInfo": "sit",
+    "StyleHint": "molestiae",
+    "FullName": "Hosea Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 653
       }
     }
   }

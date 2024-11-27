@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 725,
-  "ModuleOwner": "possimus",
+  "AssociateId": 26,
+  "ModuleOwner": "tempora",
   "ModuleLicenseNames": [
-    "Bahringer-Fahey",
-    "Ortiz-Leannon"
+    "Shields, Lockman and Lynch",
+    "Franecki, Anderson and Hagenes"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 820,
-    "Tooltip": "necessitatibus",
+    "Unrestricted": true,
+    "Total": 511,
+    "Tooltip": "eius",
     "CanAssign": false,
-    "Free": 337,
-    "InUse": 2,
+    "Free": 940,
+    "InUse": 110,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 125,
-    "Name": "McGlynn, Bartoletti and Reichel",
-    "Description": "Total 24 hour policy",
-    "PrerequisiteModuleName": "Reilly, Bechtelar and Vandervort",
-    "SortOrder": 527,
-    "ExtraFlags": 242,
+    "Assigned": true,
+    "ModuleLicenseId": 487,
+    "Name": "Powlowski Inc and Sons",
+    "Description": "Persistent neutral forecast",
+    "PrerequisiteModuleName": "Mayert, Schumm and Bechtelar",
+    "SortOrder": 23,
+    "ExtraFlags": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 756
       }
     }
   }

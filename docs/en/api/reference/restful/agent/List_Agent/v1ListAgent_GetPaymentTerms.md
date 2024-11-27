@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Value": "neque",
-    "Tooltip": "iusto",
+    "Id": 834,
+    "Value": "facilis",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 952
       }
     }
   },
   {
-    "Id": 367,
-    "Value": "neque",
-    "Tooltip": "iusto",
+    "Id": 834,
+    "Value": "facilis",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 952
       }
     }
   }

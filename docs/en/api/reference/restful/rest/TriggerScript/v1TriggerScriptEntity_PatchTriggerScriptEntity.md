@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "tenetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "tenetur",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 3,
-  "Name": "Senger, Greenholt and Terry",
+  "ScreenChooserId": 243,
+  "Name": "Kunze Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "at",
-  "Source": "voluptates",
-  "Registered": "2003-09-18T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 220,
-  "Updated": "2001-11-07T13:14:11.1954363+01:00",
-  "UpdatedAssociateId": 468,
+  "UniqueIdentifier": "enim",
+  "Source": "culpa",
+  "Registered": "2017-09-23T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 859,
+  "Updated": "2023-07-29T14:45:13.3805746+02:00",
+  "UpdatedAssociateId": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   },
   "_Links": {

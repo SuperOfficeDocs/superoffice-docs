@@ -52,8 +52,8 @@ Id, StartTime, EndTime, Status, Type, AssociateId, UpdateMode
 | Id | Integer |  |
 | StartTime | String |  |
 | EndTime | String |  |
-| Status | Integer |  |
-| Type | Integer |  |
+| Status | String |  |
+| Type | String |  |
 | AssociateId | Integer |  |
 | UpdateMode | String |  |
 
@@ -131,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentWithMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 300,
-  "StartTime": "2023-02-09T13:14:05.2413666+01:00",
-  "EndTime": "2007-09-02T13:14:05.2413666+02:00",
-  "Status": 93,
-  "Type": 150,
-  "AssociateId": 162,
+  "Id": 936,
+  "StartTime": "2023-02-06T14:45:04.4912235+01:00",
+  "EndTime": "2001-03-20T14:45:04.4912235+01:00",
+  "Status": "Assignment",
+  "Type": "BookingForChecklist",
+  "AssociateId": 224,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,65 +152,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 993,
-  "StartDate": "2017-12-10T13:14:05.2413666+01:00",
-  "EndDate": "2020-04-23T13:14:05.2413666+02:00",
+  "AppointmentId": 921,
+  "StartDate": "2005-07-24T14:45:04.4912235+02:00",
+  "EndDate": "2015-11-13T14:45:04.4912235+01:00",
   "Type": "BookingForChecklist",
-  "Task": "rem",
-  "AssociateFullName": "Holden Judah Kub V",
-  "ContactName": "Hodkiewicz Inc and Sons",
-  "Description": "Open-source empowering challenge",
-  "PersonFullName": "Ewald Boehm",
-  "PersonId": 105,
-  "ContactId": 241,
-  "ProjectId": 683,
-  "ProjectName": "Nolan, Reichel and Marks",
-  "IsPublished": false,
-  "AssociateId": 153,
-  "ColorIndex": 61,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "Task": "quae",
+  "AssociateFullName": "Lydia Fisher",
+  "ContactName": "Frami-Buckridge",
+  "Description": "De-engineered multi-tasking synergy",
+  "PersonFullName": "Dr. Adalberto Lamar Zieme III",
+  "PersonId": 454,
+  "ContactId": 933,
+  "ProjectId": 444,
+  "ProjectName": "Fay, Jast and Okuneva",
+  "IsPublished": true,
+  "AssociateId": 247,
+  "ColorIndex": 518,
+  "IsFree": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 729,
-  "PriorityName": "Nitzsche-Wintheiser",
+  "PriorityId": 842,
+  "PriorityName": "Greenfelder, Kuhn and Rosenbaum",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2001-09-02T13:14:05.2413666+02:00",
+  "ActiveDate": "2001-07-28T14:45:04.4912235+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-10-14T13:14:05.2413666+02:00",
-  "RecurringEndDate": "2018-07-10T13:14:05.2413666+02:00",
-  "MotherId": 23,
-  "AssignedBy": 930,
-  "AssignedByFullName": "Mrs. Aurore Emmet Klocko",
+  "RecurringStartDate": "2015-09-14T14:45:04.4912235+02:00",
+  "RecurringEndDate": "2007-01-30T14:45:04.4912235+01:00",
+  "MotherId": 578,
+  "AssignedBy": 872,
+  "AssignedByFullName": "Avery Thompson III",
   "RejectReason": "",
-  "Location": "sit",
-  "AlarmLeadTime": "qui",
-  "SaleId": 369,
-  "SaleName": "Carroll-Fadel",
-  "AssociateName": "Lockman, Eichmann and Kiehn",
-  "CreatedDate": "2015-08-02T13:14:05.2413666+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Julian Oberbrunner",
-  "CreatedByAssociateId": 799,
+  "Location": "quidem",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 301,
+  "SaleName": "Moore LLC",
+  "AssociateName": "Ebert-Mayer",
+  "CreatedDate": "2004-12-01T14:45:04.4912235+01:00",
+  "CreatedBy": "minima",
+  "CreatedByFullName": "Rosario Durgan",
+  "CreatedByAssociateId": 493,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 133,
-  "Title": "enim",
-  "Agenda": "natus",
-  "InternalNotes": "consequatur",
+  "PreferredTZLocation": 113,
+  "Title": "ab",
+  "Agenda": "qui",
+  "InternalNotes": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 101
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.SaveConnection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.SaveConnection'>SaveConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.SaveConnection'>SaveConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeSaveConnection
 ```cs

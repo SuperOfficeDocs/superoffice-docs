@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Fritsch, Harris and Wyman",
-    "ToolTip": "Praesentium suscipit fugit voluptatem blanditiis voluptatem.",
-    "Deleted": true,
-    "Rank": 25,
-    "Type": "corporis",
-    "ColorBlock": 230,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2006-12-08T13:14:11.3673211+01:00",
+    "Id": 103,
+    "Name": "Rippin-Weissnat",
+    "ToolTip": "Praesentium sed id molestias consequatur consequatur aperiam.",
+    "Deleted": false,
+    "Rank": 954,
+    "Type": "possimus",
+    "ColorBlock": 324,
+    "IconHint": "error",
+    "Selected": false,
+    "LastChanged": "2006-12-06T14:45:13.6461348+01:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Beer Inc and Sons",
-        "ToolTip": "Eaque quidem velit.",
+        "Id": 345,
+        "Name": "Koss, McGlynn and Willms",
+        "ToolTip": "Omnis voluptates nulla.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "non",
-        "ColorBlock": 176,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2001-02-25T13:14:11.3673211+01:00",
+        "Rank": 334,
+        "Type": "nulla",
+        "ColorBlock": 936,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2024-09-18T14:45:13.6461348+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Adolfo Pacocha",
+        "ExtraInfo": "eos",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Miss Jewell Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldLength": 181
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Crystal Kunze",
+    "FullName": "Prof. Rigoberto Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldLength": 47
       }
     }
   }

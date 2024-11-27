@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.HasSPFRecord
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.HasSPFRecord'>HasSPFRecord</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.HasSPFRecord'>HasSPFRecord</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeHasSPFRecord
 ```cs

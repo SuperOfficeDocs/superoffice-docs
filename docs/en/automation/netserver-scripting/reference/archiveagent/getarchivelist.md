@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetArchiveList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList'>GetArchiveList</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetArchiveList'>GetArchiveList</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetArchiveList
 ```cs

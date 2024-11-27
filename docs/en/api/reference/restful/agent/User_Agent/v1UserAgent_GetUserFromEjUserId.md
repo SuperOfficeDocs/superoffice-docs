@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 944
+  "EjUserId": 176
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 182,
-    "Name": "Gorczany LLC",
-    "Rank": 410,
-    "Tooltip": "dolorem",
+    "AssociateId": 234,
+    "Name": "Eichmann, Morissette and D'Amore",
+    "Rank": 727,
+    "Tooltip": "consequuntur",
     "LicenseOwners": [
       {
-        "Name": "Kuhic-Schiller",
-        "Description": "Organized client-driven middleware",
+        "Name": "Streich, Denesik and Pagac",
+        "Description": "Profound high-level moderator",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 96
+            "FieldLength": 219
           }
         }
       },
       {
-        "Name": "Kuhic-Schiller",
-        "Description": "Organized client-driven middleware",
+        "Name": "Streich, Denesik and Pagac",
+        "Description": "Profound high-level moderator",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 96
+            "FieldLength": 219
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "officiis",
-        "Tooltip": "delectus",
-        "Id": 698,
-        "Rank": 401,
+        "Value": "cupiditate",
+        "Tooltip": "impedit",
+        "Id": 694,
+        "Rank": 998,
         "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 22
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "1998-09-29T13:14:06.7414574+02:00",
-    "Lastlogout": "2007-07-04T13:14:06.7414574+02:00",
-    "EjUserId": 3,
-    "RequestSignature": "debitis",
+    "Lastlogin": "2014-10-19T14:45:06.6936203+02:00",
+    "Lastlogout": "1999-06-24T14:45:06.6936203+02:00",
+    "EjUserId": 390,
+    "RequestSignature": "fugit",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "inventore",
-        "DisplayValue": "id",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 30
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "inventore",
-        "DisplayValue": "id",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 30
-          }
-        }
-      }
-    ],
-    "UserName": "Braun, Botsford and Homenick",
-    "TicketCategories": [
-      {
-        "Id": 127,
-        "Name": "Pacocha Group",
-        "ToolTip": "Nam hic velit dicta quos eaque alias.",
-        "Deleted": true,
-        "Rank": 488,
-        "Type": "dignissimos",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 360,
-        "ExtraInfo": "nam",
-        "StyleHint": "alias",
-        "FullName": "Prof. Marshall Dora Roob",
+        "Value": "est",
+        "DisplayValue": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 936
+            "FieldLength": 813
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "est",
+        "DisplayValue": "consequatur",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "NickName": "Senger Inc and Sons",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "cupiditate",
-      "ExtraFields2": "fuga"
-    },
-    "CustomFields": {
-      "CustomFields1": "reiciendis",
-      "CustomFields2": "ea"
-    },
-    "PostSaveCommands": [
+    "UserName": "Fisher Inc and Sons",
+    "TicketCategories": [
       {
-        "Name": "Kohler-Daugherty",
-        "DisplayName": "Jaskolski LLC",
-        "Description": "Function-based zero tolerance protocol",
-        "ToolTip": "Nulla dolore sed quam praesentium praesentium ut ut.",
-        "Actions": "Implicit",
-        "ActionData": "repudiandae",
+        "Id": 150,
+        "Name": "Schowalter Inc and Sons",
+        "ToolTip": "Doloribus quasi id id totam vero aliquam sapiente.",
+        "Deleted": false,
+        "Rank": 249,
+        "Type": "rerum",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "sunt",
+        "ColorBlock": 816,
+        "ExtraInfo": "facilis",
+        "StyleHint": "quod",
+        "FullName": "Devon Jenkins MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 506
+          }
+        }
+      }
+    ],
+    "NickName": "Ledner-Larkin",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "nemo",
+      "ExtraFields2": "et"
+    },
+    "CustomFields": {
+      "CustomFields1": "ipsum",
+      "CustomFields2": "hic"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Boyer, Wisoky and Dooley",
+        "DisplayName": "Eichmann-Predovic",
+        "Description": "Reduced composite infrastructure",
+        "ToolTip": "Consequatur sunt eveniet repellat reprehenderit sint.",
+        "Actions": "Implicit",
+        "ActionData": "ducimus",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 446
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

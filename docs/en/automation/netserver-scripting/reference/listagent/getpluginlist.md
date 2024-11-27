@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetPluginList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetPluginList'>GetPluginList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetPluginList'>GetPluginList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetPluginList
 ```cs

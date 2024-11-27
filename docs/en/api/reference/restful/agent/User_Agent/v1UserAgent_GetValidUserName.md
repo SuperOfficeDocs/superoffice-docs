@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 843,
+  "AssociateId": 515,
   "Type": "AnonymousAssociate",
-  "PersonId": 804,
-  "UserName": "Rippin, Lubowitz and McDermott"
+  "PersonId": 327,
+  "UserName": "Gibson, Borer and Thiel"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Mueller Inc and Sons"
+"Kertzmann, Kub and Tremblay"
 ```

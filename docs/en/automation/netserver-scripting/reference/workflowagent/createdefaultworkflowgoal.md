@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.CreateDefaultWorkflowGoal
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal'>CreateDefaultWorkflowGoal</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.CreateDefaultWorkflowGoal'>CreateDefaultWorkflowGoal</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeCreateDefaultWorkflowGoal
 ```cs

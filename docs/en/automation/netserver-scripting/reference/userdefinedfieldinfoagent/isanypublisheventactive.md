@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.IsAnyPublishEventActive
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive'>IsAnyPublishEventActive</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.IsAnyPublishEventActive'>IsAnyPublishEventActive</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeIsAnyPublishEventActive
 ```cs

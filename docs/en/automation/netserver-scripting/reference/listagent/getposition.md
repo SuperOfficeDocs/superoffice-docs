@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetPosition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetPosition'>GetPosition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetPosition'>GetPosition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetPosition
 ```cs

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 383,
+  "TargetDimensionId": 117,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "odit",
-  "DimensionListName": "Nolan-Mraz",
-  "DimensionListId": 93,
-  "DimensionListLabel": "aut",
+  "DimensionListField": "deserunt",
+  "DimensionListName": "Bayer-Greenfelder",
+  "DimensionListId": 779,
+  "DimensionListLabel": "est",
   "SelectedDimensions": [
-    670,
-    734
+    90,
+    985
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 274,
+  "TargetDimensionId": 666,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "error",
-  "DimensionListName": "Mertz, Nicolas and Witting",
-  "DimensionListId": 930,
+  "DimensionListField": "tempora",
+  "DimensionListName": "Prohaska, Weimann and Koch",
+  "DimensionListId": 585,
   "DimensionListLabel": "et",
   "SelectedDimensions": [
-    218,
-    122
+    197,
+    226
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

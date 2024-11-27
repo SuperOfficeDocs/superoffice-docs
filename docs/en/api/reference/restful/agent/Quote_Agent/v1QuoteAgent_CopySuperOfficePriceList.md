@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 885,
-  "NewName": "Hand-Ankunding",
-  "ValidFrom": "2017-04-21T13:14:06.3195563+02:00",
-  "ValidTo": "2016-07-05T13:14:06.3195563+02:00",
-  "NewCurrencyId": 299,
+  "OriginalPriceListId": 994,
+  "NewName": "Denesik-Little",
+  "ValidFrom": "2002-07-23T14:45:06.0531349+02:00",
+  "ValidTo": "2001-06-22T14:45:06.0531349+02:00",
+  "NewCurrencyId": 776,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 545,
-  "ERPPriceListKey": "vitae",
-  "QuoteConnectionId": 238,
-  "Name": "Morar-Pollich",
-  "Description": "Robust high-level infrastructure",
-  "Currency": "minima",
-  "CurrencyName": "Senger, Cassin and Langworth",
-  "ValidFrom": "2003-05-04T13:14:06.3195563+02:00",
-  "ValidTo": "1997-07-14T13:14:06.3195563+02:00",
+  "PriceListId": 700,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 768,
+  "Name": "Conroy, Bergstrom and Goldner",
+  "Description": "Profit-focused coherent forecast",
+  "Currency": "esse",
+  "CurrencyName": "Marks LLC",
+  "ValidFrom": "1998-11-06T14:45:06.0531349+01:00",
+  "ValidTo": "2015-06-16T14:45:06.0531349+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   }
 }

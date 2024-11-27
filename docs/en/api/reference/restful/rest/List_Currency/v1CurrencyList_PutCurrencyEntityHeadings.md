@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 488,
-    "Name": "Ratke Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 141,
-    "UdListDefinitionId": 490
+    "HeadingId": 645,
+    "Name": "Kirlin, Dare and Huel",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 984,
+    "UdListDefinitionId": 68
   },
   {
-    "HeadingId": 488,
-    "Name": "Ratke Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 141,
-    "UdListDefinitionId": 490
+    "HeadingId": 645,
+    "Name": "Kirlin, Dare and Huel",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 984,
+    "UdListDefinitionId": 68
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 330,
-    "Name": "Goodwin-Schroeder",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 89,
-    "UdListDefinitionId": 315,
+    "HeadingId": 985,
+    "Name": "Kassulke Inc and Sons",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "Rank": 895,
+    "UdListDefinitionId": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 702,
-    "Name": "Keeling-Cormier",
+    "TicketPriorityId": 966,
+    "Name": "Batz, Bahringer and Frami",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 148,
+    "SortOrder": 836,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 716,
-    "MonStart": "2004-02-12T13:14:11.5704589+01:00",
-    "MonStop": "2008-02-29T13:14:11.5704589+01:00",
-    "TueStart": "2009-06-26T13:14:11.5704589+02:00",
-    "TueStop": "2005-04-30T13:14:11.5704589+02:00",
-    "WedStart": "2023-10-02T13:14:11.5704589+02:00",
-    "WedStop": "1999-01-11T13:14:11.5704589+01:00",
-    "ThuStart": "2016-08-19T13:14:11.5704589+02:00",
-    "ThuStop": "2009-10-16T13:14:11.5704589+02:00",
-    "FriStart": "2017-03-25T13:14:11.5704589+01:00",
-    "FriStop": "2023-01-24T13:14:11.5704589+01:00",
-    "SatStart": "2010-07-12T13:14:11.5704589+02:00",
-    "SatStop": "1999-09-04T13:14:11.5704589+02:00",
-    "SunStart": "2010-03-31T13:14:11.5704589+02:00",
-    "SunStop": "2010-01-25T13:14:11.5704589+01:00",
+    "Deadline": 69,
+    "MonStart": "2009-06-19T14:45:14.0836771+02:00",
+    "MonStop": "2007-09-21T14:45:14.0836771+02:00",
+    "TueStart": "2000-10-09T14:45:14.0836771+02:00",
+    "TueStop": "2019-11-21T14:45:14.0836771+01:00",
+    "WedStart": "1998-04-27T14:45:14.0836771+02:00",
+    "WedStop": "2017-11-03T14:45:14.0836771+01:00",
+    "ThuStart": "2009-10-12T14:45:14.0836771+02:00",
+    "ThuStop": "2013-04-26T14:45:14.0836771+02:00",
+    "FriStart": "2002-11-23T14:45:14.0836771+01:00",
+    "FriStop": "2012-03-19T14:45:14.0836771+01:00",
+    "SatStart": "1999-08-13T14:45:14.0836771+02:00",
+    "SatStop": "2018-09-11T14:45:14.0836771+02:00",
+    "SunStart": "2012-10-15T14:45:14.0836771+02:00",
+    "SunStop": "2001-11-24T14:45:14.0836771+01:00",
     "NonDates": [
-      "et",
-      "sed"
+      "aspernatur",
+      "iure"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 332,
-        "AlertLevel": 237,
-        "AlertTimeout": 789,
-        "Action": 656,
-        "DelegateTo": 988,
-        "ScriptId": 378,
-        "EmailTo": "mathilde_heathcote@kilback.ca",
-        "SmsTo": "eos",
-        "ReplyTemplateIdCustomer": 988,
-        "ReplyTemplateIdUser": 692,
-        "ReplyTemplateIdCatmast": 721,
-        "ReplyTemplateIdEmail": 959,
-        "RtiCustomerSms": 675,
-        "ReplyTemplateIdUserSms": 169,
-        "ReplyTemplateIdCatmastSms": 346,
-        "ReplyTemplateIdSms": 805,
+        "TicketAlertId": 186,
+        "AlertLevel": 398,
+        "AlertTimeout": 138,
+        "Action": 438,
+        "DelegateTo": 63,
+        "ScriptId": 466,
+        "EmailTo": "alysson@effertz.uk",
+        "SmsTo": "voluptates",
+        "ReplyTemplateIdCustomer": 709,
+        "ReplyTemplateIdUser": 244,
+        "ReplyTemplateIdCatmast": 96,
+        "ReplyTemplateIdEmail": 142,
+        "RtiCustomerSms": 109,
+        "ReplyTemplateIdUserSms": 442,
+        "ReplyTemplateIdCatmastSms": 966,
+        "ReplyTemplateIdSms": 545,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldType": "System.String",
+            "FieldLength": 606
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 463
       }
     }
   }

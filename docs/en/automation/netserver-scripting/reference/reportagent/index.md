@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ReportAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IReportAgent'>ReportAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IReportAgent'>ReportAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultReportEntity](createdefaultreportentity.md)
 * [CreateDefaultReportLabelLayoutEntity](createdefaultreportlabellayoutentity.md)

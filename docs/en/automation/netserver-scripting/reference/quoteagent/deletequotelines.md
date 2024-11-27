@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.DeleteQuoteLines
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.DeleteQuoteLines'>DeleteQuoteLines</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.DeleteQuoteLines'>DeleteQuoteLines</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeDeleteQuoteLines
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetRelatedData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetRelatedData'>GetRelatedData</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetRelatedData'>GetRelatedData</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetRelatedData
 ```cs

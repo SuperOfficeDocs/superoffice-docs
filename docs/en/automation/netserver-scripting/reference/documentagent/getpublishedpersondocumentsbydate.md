@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetPublishedPersonDocumentsByDate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetPublishedPersonDocumentsByDate'>GetPublishedPersonDocumentsByDate</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetPublishedPersonDocumentsByDate'>GetPublishedPersonDocumentsByDate</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetPublishedPersonDocumentsByDate
 ```cs

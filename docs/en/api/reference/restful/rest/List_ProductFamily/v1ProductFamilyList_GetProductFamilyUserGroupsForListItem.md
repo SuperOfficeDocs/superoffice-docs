@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Johnston-Rohan",
-    "ToolTip": "Omnis est quo quia at et ut rerum.",
-    "Deleted": false,
-    "Rank": 194,
-    "Type": "iste",
-    "ColorBlock": 381,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-03-24T13:14:11.4610767+01:00",
+    "Id": 390,
+    "Name": "Schaden LLC",
+    "ToolTip": "Accusantium optio et assumenda ut sint.",
+    "Deleted": true,
+    "Rank": 785,
+    "Type": "rerum",
+    "ColorBlock": 378,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2013-01-31T14:45:13.8023488+01:00",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Kovacek Group",
-        "ToolTip": "Omnis magni aut accusamus dolorum dolorem aut ratione.",
-        "Deleted": true,
-        "Rank": 275,
-        "Type": "reprehenderit",
-        "ColorBlock": 577,
-        "IconHint": "qui",
+        "Id": 638,
+        "Name": "Kling Inc and Sons",
+        "ToolTip": "Quibusdam in incidunt omnis et.",
+        "Deleted": false,
+        "Rank": 425,
+        "Type": "itaque",
+        "ColorBlock": 39,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2009-09-12T13:14:11.4610767+02:00",
+        "LastChanged": "2014-05-14T14:45:13.8023488+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Noah Rachael Feeney Sr.",
+        "ExtraInfo": "quia",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Aurelia Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 101
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "quia",
+    "StyleHint": "libero",
     "Hidden": true,
-    "FullName": "Bryon O'Hara",
+    "FullName": "Dr. Chelsea Janessa Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldLength": 309
       }
     }
   }

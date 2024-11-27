@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Lemke-Hoppe",
-    "ToolTip": "Id esse cumque iure.",
-    "Deleted": false,
-    "Rank": 477,
-    "Type": "autem",
-    "ColorBlock": 752,
-    "IconHint": "est",
+    "Id": 780,
+    "Name": "Daniel, Heathcote and Dickens",
+    "ToolTip": "Dolores nihil.",
+    "Deleted": true,
+    "Rank": 901,
+    "Type": "non",
+    "ColorBlock": 962,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2015-10-04T13:14:11.4923293+02:00",
+    "LastChanged": "2007-10-17T14:45:13.8492128+02:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Schultz, Renner and Klocko",
-        "ToolTip": "Laudantium eaque ut quo consequatur laboriosam.",
+        "Id": 227,
+        "Name": "Feil-Connelly",
+        "ToolTip": "Quaerat ea molestias.",
         "Deleted": true,
-        "Rank": 283,
-        "Type": "omnis",
-        "ColorBlock": 219,
-        "IconHint": "temporibus",
+        "Rank": 259,
+        "Type": "et",
+        "ColorBlock": 356,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "1998-03-11T13:14:11.4923293+01:00",
+        "LastChanged": "1998-10-29T14:45:13.8492128+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Mr. Gwen Kertzmann II",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Leslie Robel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 113
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "aut",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Johann Christiansen",
+    "FullName": "Trycia Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 217
       }
     }
   }

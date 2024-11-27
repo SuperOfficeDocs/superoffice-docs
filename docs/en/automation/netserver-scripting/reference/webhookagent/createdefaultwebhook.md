@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.CreateDefaultWebhook
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook'>CreateDefaultWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.CreateDefaultWebhook'>CreateDefaultWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeCreateDefaultWebhook
 ```cs

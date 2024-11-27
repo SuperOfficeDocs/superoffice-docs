@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.DeleteMessageHeaders
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.DeleteMessageHeaders'>DeleteMessageHeaders</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.DeleteMessageHeaders'>DeleteMessageHeaders</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeDeleteMessageHeaders
 ```cs

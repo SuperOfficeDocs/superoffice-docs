@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Bruen-Schimmel",
-    "ToolTip": "Voluptate nesciunt atque aut fugit.",
-    "Deleted": true,
-    "Rank": 208,
-    "Type": "nisi",
-    "ColorBlock": 717,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2004-02-17T13:14:11.3985731+01:00",
+    "Id": 157,
+    "Name": "Crist Inc and Sons",
+    "ToolTip": "Doloribus natus delectus laboriosam laudantium.",
+    "Deleted": false,
+    "Rank": 980,
+    "Type": "sunt",
+    "ColorBlock": 117,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2022-06-24T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Keeling, Wiza and Krajcik",
-        "ToolTip": "Quo error.",
+        "Id": 228,
+        "Name": "Rolfson LLC",
+        "ToolTip": "Et possimus.",
         "Deleted": false,
-        "Rank": 524,
-        "Type": "adipisci",
-        "ColorBlock": 200,
-        "IconHint": "veritatis",
+        "Rank": 973,
+        "Type": "earum",
+        "ColorBlock": 50,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "1998-09-25T13:14:11.3985731+02:00",
+        "LastChanged": "2022-11-30T14:45:13.70862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Dr. Deontae Trantow",
+        "FullName": "Abagail Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldLength": 685
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Constantin Rolfson III",
+    "FullName": "Catherine Savion VonRueden DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldType": "System.String",
+        "FieldLength": 952
       }
     }
   }

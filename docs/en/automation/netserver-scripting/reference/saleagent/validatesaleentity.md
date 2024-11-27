@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.ValidateSaleEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity'>ValidateSaleEntity</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.ValidateSaleEntity'>ValidateSaleEntity</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeValidateSaleEntity
 ```cs

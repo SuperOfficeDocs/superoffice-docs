@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Osinski LLC",
-    "Tooltip": "non",
+    "HeadingId": 607,
+    "Name": "Effertz, Moen and Douglas",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 965,
-    "UdListDefinitionId": 980,
+    "Rank": 783,
+    "UdListDefinitionId": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 716
       }
     }
   }

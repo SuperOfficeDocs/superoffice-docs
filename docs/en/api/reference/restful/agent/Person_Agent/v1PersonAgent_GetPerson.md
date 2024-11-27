@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=559
+POST /api/v1/Agents/Person/GetPerson?personId=969
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "porro",
-  "PersonId": 961,
-  "Mrmrs": "consectetur",
-  "Firstname": "Heather",
-  "Lastname": "Cartwright",
-  "MiddleName": "Trantow-Grimes",
-  "Title": "sint",
-  "Description": "Triple-buffered multimedia extranet",
-  "Email": "tianna_will@brakus.com",
-  "FullName": "Mrs. Graciela Runte V",
-  "DirectPhone": "602-520-5326 x67573",
-  "FormalName": "Cronin LLC",
-  "CountryId": 946,
-  "ContactId": 698,
-  "ContactName": "Morissette Inc and Sons",
-  "Retired": 920,
-  "Rank": 33,
-  "ActiveInterests": 943,
+  "Position": "recusandae",
+  "PersonId": 390,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Clemens",
+  "Lastname": "Lesch",
+  "MiddleName": "Leffler-Spinka",
+  "Title": "sit",
+  "Description": "Configurable methodical policy",
+  "Email": "howell.schinner@hartmann.biz",
+  "FullName": "Ms. Orin Agustina Kuhn Sr.",
+  "DirectPhone": "490-664-7240 x89609",
+  "FormalName": "Huels, Corkery and Walker",
+  "CountryId": 279,
+  "ContactId": 883,
+  "ContactName": "Greenholt Group",
+  "Retired": 570,
+  "Rank": 437,
+  "ActiveInterests": 274,
   "ContactDepartment": "",
-  "ContactCountryId": 932,
-  "ContactOrgNr": "1173304",
-  "FaxPhone": "(684)693-0741",
-  "MobilePhone": "652.050.2881",
-  "ContactPhone": "981.534.1765",
-  "AssociateName": "Kreiger-Rath",
-  "AssociateId": 541,
-  "UsePersonAddress": false,
-  "ContactFax": "placeat",
-  "Kanafname": "voluptatem",
-  "Kanalname": "impedit",
-  "Post1": "architecto",
-  "Post2": "quo",
-  "Post3": "ut",
-  "EmailName": "korey.bartell@wiza.ca",
-  "ContactFullName": "Duane Hoppe",
-  "ActiveErpLinks": 158,
-  "TicketPriorityId": 896,
-  "SupportLanguageId": 438,
-  "SupportAssociateId": 551,
+  "ContactCountryId": 803,
+  "ContactOrgNr": "962195",
+  "FaxPhone": "188.818.4124 x03733",
+  "MobilePhone": "061-681-7889 x625",
+  "ContactPhone": "(800)822-7475 x24072",
+  "AssociateName": "Roberts, Emard and Kreiger",
+  "AssociateId": 297,
+  "UsePersonAddress": true,
+  "ContactFax": "voluptas",
+  "Kanafname": "modi",
+  "Kanalname": "quidem",
+  "Post1": "eum",
+  "Post2": "aspernatur",
+  "Post3": "occaecati",
+  "EmailName": "josiah_damore@wildermankreiger.ca",
+  "ContactFullName": "Melany Price",
+  "ActiveErpLinks": 320,
+  "TicketPriorityId": 136,
+  "SupportLanguageId": 525,
+  "SupportAssociateId": 223,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

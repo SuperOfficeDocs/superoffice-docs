@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Waters, Lebsack and Murazik"
+  "EntityName": "Berge-Zboncak"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 549,
-  "Name": "Kilback, Klein and McClure",
-  "Description": "Sharable even-keeled database",
-  "DefaultHeight": 724,
-  "DefaultWidth": 840,
+  "DashboardTileDefinitionId": 415,
+  "Name": "Adams LLC",
+  "Description": "Down-sized mission-critical customer loyalty",
+  "DefaultHeight": 169,
+  "DefaultWidth": 150,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Moore, Schowalter and Zieme",
-  "SelectionId": 146,
+  "EntityName": "Hyatt, Kuhn and Cronin",
+  "SelectionId": 705,
   "CurrencyMode": "Base",
-  "CurrencyCode": "porro",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "hic",
-  "SortBy": "dolorem",
-  "LayoutConfig": "doloribus",
-  "SecondarySelectionId": 553,
-  "MeasureByField": "nihil",
+  "MeasureField": "dolor",
+  "SortBy": "praesentium",
+  "LayoutConfig": "aspernatur",
+  "SecondarySelectionId": 830,
+  "MeasureByField": "magni",
   "Usage": "Dashboard",
-  "ProviderName": "Hoppe-Osinski",
+  "ProviderName": "Weissnat-Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 396
     }
   }
 }

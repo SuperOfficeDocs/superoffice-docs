@@ -10,7 +10,7 @@ so.envir: onsite
 
 # PersonAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>PersonAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IPersonAgent'>PersonAgent</see> that can trigger server-side event scripts.
 
 * [AddBounce](addbounce.md)
 * [AddBounceWithCount](addbouncewithcount.md)

@@ -91,7 +91,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 179
+  "QuoteConnectionId": 422
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 496,
-  "ERPName": "Keebler LLC",
-  "DisplayName": "Gorczany, Johnston and Goyette",
-  "DisplayDescription": "Expanded multi-tasking task-force",
-  "Rank": 544,
-  "ConnectorName": "Corkery Inc and Sons",
-  "ErpConnectionId": 433,
-  "ExtraData": "molestias",
-  "IsAvailable": false,
+  "QuoteConnectionId": 820,
+  "ERPName": "Rath-Nikolaus",
+  "DisplayName": "Pollich-Erdman",
+  "DisplayDescription": "Reactive 5th generation approach",
+  "Rank": 974,
+  "ConnectorName": "Prosacco-Wintheiser",
+  "ErpConnectionId": 429,
+  "ExtraData": "est",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 519,
-      "ERPPriceListKey": "explicabo",
-      "QuoteConnectionId": 182,
-      "Name": "Champlin-Cassin",
-      "Description": "Synchronised solution-oriented framework",
-      "Currency": "nihil",
-      "CurrencyName": "Kozey, Brakus and West",
-      "ValidFrom": "2004-02-26T13:14:06.3195563+01:00",
-      "ValidTo": "2005-11-23T13:14:06.3195563+01:00",
-      "IsActive": true,
+      "PriceListId": 876,
+      "ERPPriceListKey": "dolorem",
+      "QuoteConnectionId": 854,
+      "Name": "Sporer Group",
+      "Description": "Diverse 4th generation task-force",
+      "Currency": "temporibus",
+      "CurrencyName": "Schmeler Group",
+      "ValidFrom": "2004-05-04T14:45:06.0687573+02:00",
+      "ValidTo": "2007-01-17T14:45:06.0687573+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldLength": 898
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": true,
+  "AllAccess": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    786,
-    346
+    678,
+    596
   ],
   "AssociateAccessIds": [
-    145,
-    124
+    236,
+    284
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 749
     }
   }
 }

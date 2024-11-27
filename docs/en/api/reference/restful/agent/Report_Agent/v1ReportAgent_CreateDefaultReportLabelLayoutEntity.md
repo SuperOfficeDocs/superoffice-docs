@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 242,
-  "Name": "Stoltenberg-Mayer",
-  "Description": "Secured holistic protocol",
+  "ReportLabelLayoutId": 993,
+  "Name": "Cole, Cruickshank and Reynolds",
+  "Description": "User-centric background access",
   "Orientation": "Landscape",
-  "PaperWidth": 1000,
-  "PaperHeight": 914,
-  "LeftMargin": 234,
-  "RightMargin": 613,
-  "TopMargin": 373,
-  "BottomMargin": 679,
-  "CountColumns": 61,
-  "CountRows": 18,
+  "PaperWidth": 60,
+  "PaperHeight": 432,
+  "LeftMargin": 935,
+  "RightMargin": 996,
+  "TopMargin": 887,
+  "BottomMargin": 153,
+  "CountColumns": 396,
+  "CountRows": 479,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 347
     }
   }
 }

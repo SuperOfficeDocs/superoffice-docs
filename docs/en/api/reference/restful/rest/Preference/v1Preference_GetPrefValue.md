@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "itaque",
+  "RawValue": "minima",
   "Specification": null,
-  "DisplayValue": "blanditiis",
-  "DisplayTooltip": "iure",
+  "DisplayValue": "inventore",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 954,
-  "PrefDescId": 903,
-  "TableName": "Crist Group",
-  "UserPreferenceId": 801,
+  "TargetId": 76,
+  "PrefDescId": 61,
+  "TableName": "Rau LLC",
+  "UserPreferenceId": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 426
     }
   }
 }

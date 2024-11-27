@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream'>GetEMailFromDocumentIdWithoutAttachmentStream</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream'>GetEMailFromDocumentIdWithoutAttachmentStream</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetEMailFromDocumentIdWithoutAttachmentStream
 ```cs

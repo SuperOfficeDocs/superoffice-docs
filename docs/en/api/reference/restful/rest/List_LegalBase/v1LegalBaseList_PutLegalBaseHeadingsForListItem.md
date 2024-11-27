@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "King-Kautzer",
-    "ToolTip": "Et exercitationem eos temporibus debitis voluptatem.",
+    "Id": 218,
+    "Name": "Mayert Inc and Sons",
+    "ToolTip": "Officia molestias magnam et quia eum dolore nemo.",
     "Deleted": false,
-    "Rank": 31,
-    "Type": "cupiditate",
-    "ColorBlock": 802,
-    "IconHint": "voluptas",
+    "Rank": 466,
+    "Type": "explicabo",
+    "ColorBlock": 198,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2014-10-26T13:14:11.4141989+01:00",
+    "LastChanged": "2000-09-20T14:45:13.7242429+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Herzog LLC",
-        "ToolTip": "Id ad.",
-        "Deleted": true,
-        "Rank": 382,
-        "Type": "deleniti",
-        "ColorBlock": 421,
-        "IconHint": "minus",
+        "Id": 18,
+        "Name": "Hauck-Roberts",
+        "ToolTip": "Sit hic consequatur et minima aspernatur dicta sed.",
+        "Deleted": false,
+        "Rank": 117,
+        "Type": "cumque",
+        "ColorBlock": 907,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2003-02-19T13:14:11.4141989+01:00",
+        "LastChanged": "2005-01-12T14:45:13.7242429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eaque",
+        "ExtraInfo": "rerum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Nakia Tillman"
+        "FullName": "Mrs. Reggie Konopelski PhD"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Mr. Carli Stokes DVM"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Maryjane Lindgren"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Schmeler-Labadie",
-    "ToolTip": "Nulla ipsa.",
-    "Deleted": false,
-    "Rank": 514,
-    "Type": "voluptas",
-    "ColorBlock": 423,
-    "IconHint": "officiis",
+    "Id": 902,
+    "Name": "Lueilwitz LLC",
+    "ToolTip": "Non sunt quo quibusdam ipsam odit odit.",
+    "Deleted": true,
+    "Rank": 161,
+    "Type": "quaerat",
+    "ColorBlock": 506,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2014-01-11T13:14:11.4141989+01:00",
+    "LastChanged": "1999-05-27T14:45:13.7242429+02:00",
     "ChildItems": [
       {
-        "Id": 818,
-        "Name": "Schultz-Marvin",
-        "ToolTip": "Cumque provident eaque qui occaecati et rerum soluta.",
-        "Deleted": false,
-        "Rank": 504,
-        "Type": "adipisci",
-        "ColorBlock": 929,
-        "IconHint": "neque",
+        "Id": 234,
+        "Name": "Jast-Wolf",
+        "ToolTip": "Et facere et ad explicabo.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "illum",
+        "ColorBlock": 599,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2014-05-08T13:14:11.4141989+02:00",
+        "LastChanged": "2004-01-22T14:45:13.7242429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Torey Leannon",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Ms. Kristopher Adams III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldType": "System.String",
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "porro",
+    "ExtraInfo": "enim",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Mckenzie Larson",
+    "FullName": "Mrs. Lorine Rodolfo Kuvalis II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

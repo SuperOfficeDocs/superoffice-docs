@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "McLaughlin, Sauer and Keeling",
-  "Tooltip": "ad",
+  "Id": 204,
+  "Name": "Cassin-Hammes",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 113,
-  "Rank": 691
+  "UdListDefinitionId": 495,
+  "Rank": 236
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Ankunding-Feest",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 858,
-  "Rank": 624,
+  "Id": 813,
+  "Name": "Gislason-Dickinson",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "UdListDefinitionId": 870,
+  "Rank": 936,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 922
     }
   }
 }

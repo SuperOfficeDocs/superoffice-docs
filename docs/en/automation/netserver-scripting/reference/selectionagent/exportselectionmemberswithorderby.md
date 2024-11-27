@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.ExportSelectionMembersWithOrderBy
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy'>ExportSelectionMembersWithOrderBy</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.ExportSelectionMembersWithOrderBy'>ExportSelectionMembersWithOrderBy</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeExportSelectionMembersWithOrderBy
 ```cs

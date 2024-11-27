@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=placeat
+GET /api/v1/List/Reason/MDOItems?query=commodi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 487,
-    "Name": "Haag-Grady",
-    "ToolTip": "Eos incidunt neque ut non eum.",
-    "Deleted": true,
-    "Rank": 543,
-    "Type": "sunt",
+    "Id": 600,
+    "Name": "Homenick, Little and Schneider",
+    "ToolTip": "Qui eos ad numquam.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "laudantium",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Daniel, Wunsch and Hansen",
-        "ToolTip": "Esse accusantium nam aliquid nobis ut.",
+        "Id": 435,
+        "Name": "DuBuque-Block",
+        "ToolTip": "Omnis voluptatem.",
         "Deleted": true,
-        "Rank": 469,
-        "Type": "consequatur",
+        "Rank": 75,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 42,
+        "IconHint": "magni",
+        "ColorBlock": 349,
         "ExtraInfo": "consequatur",
-        "StyleHint": "eum",
-        "FullName": "Lizzie Schimmel",
+        "StyleHint": "eos",
+        "FullName": "Shawn Schultz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 360
+            "FieldType": "System.Int32",
+            "FieldLength": 409
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 487,
-    "ExtraInfo": "numquam",
-    "StyleHint": "quis",
-    "FullName": "Ms. Garry Abernathy",
+    "IconHint": "nobis",
+    "ColorBlock": 299,
+    "ExtraInfo": "repellat",
+    "StyleHint": "deleniti",
+    "FullName": "Nelle Berge I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 775
+        "FieldType": "System.Int32",
+        "FieldLength": 150
       }
     }
   }

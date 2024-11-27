@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.HasStakeholderSetting
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting'>HasStakeholderSetting</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.HasStakeholderSetting'>HasStakeholderSetting</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeHasStakeholderSetting
 ```cs

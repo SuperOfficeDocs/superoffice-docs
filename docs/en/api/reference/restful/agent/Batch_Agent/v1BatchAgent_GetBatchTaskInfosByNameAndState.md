@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hartmann Inc and Sons",
+  "Name": "Erdman Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Monahan-Mertz",
-    "AssociateId": 910,
-    "DetailsTable": 563,
-    "DetailsRecord": 544,
-    "IsSystemTask": false,
+    "Id": 265,
+    "Name": "Nitzsche LLC",
+    "AssociateId": 134,
+    "DetailsTable": 201,
+    "DetailsRecord": 909,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "necessitatibus",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "excepturi",
+      "ParameterObject2": "id"
     },
-    "LastStarted": "2022-10-28T13:14:05.5382596+02:00",
-    "Created": "2002-04-12T13:14:05.5382596+02:00",
-    "StartCount": 901,
-    "DatabaseSerialNumber": "569951",
-    "Context": "quia",
-    "Result": "tenetur",
+    "LastStarted": "2021-08-23T14:45:04.8815214+02:00",
+    "Created": "2004-09-10T14:45:04.8815214+02:00",
+    "StartCount": 581,
+    "DatabaseSerialNumber": "998139",
+    "Context": "dolore",
+    "Result": "quo",
     "State": "All",
-    "Description": "Profit-focused needs-based forecast",
-    "Response": "est",
-    "Request": "ut",
-    "ProgressDescription": "Multi-channelled well-modulated software",
-    "ProgressPercent": 978,
-    "FileName": "Dibbert, Bashirian and Bogisich",
+    "Description": "Progressive homogeneous process improvement",
+    "Response": "laborum",
+    "Request": "exercitationem",
+    "ProgressDescription": "Cloned contextually-based focus group",
+    "ProgressPercent": 546,
+    "FileName": "Willms LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 569
       }
     }
   }

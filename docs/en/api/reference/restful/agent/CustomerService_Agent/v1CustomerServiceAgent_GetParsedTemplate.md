@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 855,
-  "LanguageId": 739,
-  "PersonId": 764,
-  "TicketId": 789
+  "ReplyTemplateId": 640,
+  "LanguageId": 297,
+  "PersonId": 421,
+  "TicketId": 274
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 75,
-  "PlainParsed": "ut",
-  "HtmlParsed": "non",
+  "ReplyTemplateId": 207,
+  "PlainParsed": "sed",
+  "HtmlParsed": "beatae",
   "Attachments": [
     {
-      "AttachmentId": 432,
-      "Name": "Kiehn, Howe and Lindgren",
-      "ContentType": "et",
-      "AttSize": 81,
+      "AttachmentId": 878,
+      "Name": "Cremin Inc and Sons",
+      "ContentType": "maxime",
+      "AttSize": 782,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "qui",
-      "IsSafeFileExtension": true,
+      "ContentId": "praesentium",
+      "AuthKey": "numquam",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 540
         }
       }
     }
   ],
-  "Subject": "quia",
+  "Subject": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

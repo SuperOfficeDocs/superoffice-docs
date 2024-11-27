@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.SetRankOnStatusMonitors
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors'>SetRankOnStatusMonitors</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.SetRankOnStatusMonitors'>SetRankOnStatusMonitors</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeSetRankOnStatusMonitors
 ```cs

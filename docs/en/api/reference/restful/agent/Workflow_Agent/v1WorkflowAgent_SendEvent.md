@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "at",
+  "Attributes": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 52
     }
   }
 }

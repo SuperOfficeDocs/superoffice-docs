@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveQuickReplies
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveQuickReplies'>SaveQuickReplies</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveQuickReplies'>SaveQuickReplies</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveQuickReplies
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SaveEmailToTmpDocument
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SaveEmailToTmpDocument'>SaveEmailToTmpDocument</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SaveEmailToTmpDocument'>SaveEmailToTmpDocument</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSaveEmailToTmpDocument
 ```cs

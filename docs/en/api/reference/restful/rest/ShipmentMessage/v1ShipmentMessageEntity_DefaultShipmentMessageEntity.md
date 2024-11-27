@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 855,
-  "PlainMessage": "nam",
-  "HtmlMessage": "aspernatur",
-  "SmsMessage": "ex",
-  "Description": "Front-line non-volatile framework",
-  "Subject": "sit",
-  "FolderId": 304,
-  "HeaderField": "ut",
-  "Design": "cupiditate",
+  "ShipmentMessageId": 718,
+  "PlainMessage": "vero",
+  "HtmlMessage": "quisquam",
+  "SmsMessage": "odio",
+  "Description": "Realigned motivating help-desk",
+  "Subject": "ad",
+  "FolderId": 222,
+  "HeaderField": "corporis",
+  "Design": "excepturi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Inverse hybrid frame",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 593,
-  "Registered": "2002-02-10T13:14:11.1173007+01:00",
-  "RegisteredAssociateId": 658,
-  "Updated": "2012-07-29T13:14:11.1173007+02:00",
-  "UpdatedAssociateId": 29,
-  "UpdatedCount": 851,
+  "LongDescription": "Function-based national process improvement",
+  "AccessKey": "quo",
+  "DocumentMessage": 176,
+  "Registered": "2015-09-05T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 960,
+  "Updated": "2014-01-14T14:45:13.2555955+01:00",
+  "UpdatedAssociateId": 462,
+  "UpdatedCount": 891,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 109
     }
   }
 }

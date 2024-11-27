@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.Delete
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete'>Delete</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.Delete'>Delete</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeDelete
 ```cs

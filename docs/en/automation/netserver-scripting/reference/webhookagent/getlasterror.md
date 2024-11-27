@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.GetLastError
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.GetLastError'>GetLastError</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.GetLastError'>GetLastError</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeGetLastError
 ```cs

@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schmeler-Hartmann"
+  "OwnerName": "Lang-Wehner"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "aut",
+  "Message": "rerum",
   "Url": "http://www.example.com/"
 }
 ```

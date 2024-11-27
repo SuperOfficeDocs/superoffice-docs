@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lehner-Daugherty",
-  "ProviderName": "O'Keefe-Wintheiser",
-  "Context": "aliquam",
-  "OwnerKeys": "dolores",
+  "GuiName": "Reilly-Goodwin",
+  "ProviderName": "Jerde, Welch and Hilll",
+  "Context": "molestiae",
+  "OwnerKeys": "totam",
   "ColumnWidths": [
-    "minima",
-    "impedit"
+    "impedit",
+    "facilis"
   ]
 }
 ```

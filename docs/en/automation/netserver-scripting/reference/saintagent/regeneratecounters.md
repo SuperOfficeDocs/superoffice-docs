@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.RegenerateCounters
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters'>RegenerateCounters</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.RegenerateCounters'>RegenerateCounters</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeRegenerateCounters
 ```cs

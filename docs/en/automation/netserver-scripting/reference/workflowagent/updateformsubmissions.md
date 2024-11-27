@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.UpdateFormSubmissions
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions'>UpdateFormSubmissions</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.UpdateFormSubmissions'>UpdateFormSubmissions</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeUpdateFormSubmissions
 ```cs

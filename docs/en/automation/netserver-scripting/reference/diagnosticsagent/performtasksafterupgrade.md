@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.PerformTasksAfterUpgrade
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade'>PerformTasksAfterUpgrade</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.PerformTasksAfterUpgrade'>PerformTasksAfterUpgrade</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforePerformTasksAfterUpgrade
 ```cs

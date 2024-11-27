@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 117,
+  "ReportId": 791,
   "ReportCategory": "All",
-  "Description": "Grass-roots dynamic benchmark",
+  "Description": "Expanded regional monitoring",
   "ReportLayout": "CalendarMonth",
-  "Name": "Russel Inc and Sons",
-  "AssociateId": 810,
-  "TemplateId": 23,
-  "Published": true
+  "Name": "Kris, Ferry and Wolf",
+  "AssociateId": 842,
+  "TemplateId": 774,
+  "Published": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 269,
+  "ReportId": 524,
   "ReportCategory": "All",
-  "Description": "Decentralized demand-driven productivity",
+  "Description": "Integrated dedicated installation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Watsica Inc and Sons",
-  "AssociateId": 721,
-  "TemplateId": 617,
-  "Published": true,
+  "Name": "Feest Group",
+  "AssociateId": 209,
+  "TemplateId": 388,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 841
     }
   }
 }

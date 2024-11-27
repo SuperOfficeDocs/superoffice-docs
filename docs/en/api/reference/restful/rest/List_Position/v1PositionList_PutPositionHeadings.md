@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 2,
-    "Name": "Smitham LLC",
-    "Tooltip": "quod",
+    "HeadingId": 940,
+    "Name": "D'Amore Group",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 725,
-    "UdListDefinitionId": 48
+    "Rank": 78,
+    "UdListDefinitionId": 495
   },
   {
-    "HeadingId": 2,
-    "Name": "Smitham LLC",
-    "Tooltip": "quod",
+    "HeadingId": 940,
+    "Name": "D'Amore Group",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 725,
-    "UdListDefinitionId": 48
+    "Rank": 78,
+    "UdListDefinitionId": 495
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 967,
-    "Name": "Beatty-Pagac",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 812,
-    "UdListDefinitionId": 256,
+    "HeadingId": 303,
+    "Name": "Lynch-Bahringer",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 597,
+    "UdListDefinitionId": 167,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

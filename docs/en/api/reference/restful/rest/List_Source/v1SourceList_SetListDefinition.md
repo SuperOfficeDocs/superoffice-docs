@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Volkman-Murray",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 930,
+  "Id": 109,
+  "Name": "Wilderman Inc and Sons",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 378,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true
+  "ListType": "cupiditate",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 425,
-  "Name": "McLaughlin, Batz and Volkman",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 448,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 880,
+  "Name": "Kiehn Group",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "Rank": 504,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "magni",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 457
     }
   }
 }

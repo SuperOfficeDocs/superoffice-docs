@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 587
+  "ProjectId": 441
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse bottom-line implementation",
-  "Postit": "aut",
+  "Description": "Universal coherent conglomeration",
+  "Postit": "ducimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 530,
-  "IncludePerson": 829,
+  "GroupIdx": 508,
+  "IncludePerson": 372,
   "MemberCount": 99.99,
-  "Name": "Monahan-Abernathy",
-  "PostitTextId": 499,
-  "CreatedDate": "2006-09-20T13:14:06.4289377+02:00",
-  "SelectionId": 544,
-  "SoundEx": "ad",
-  "Source": 784,
-  "TextId": 23,
-  "UpdatedDate": "2020-01-02T13:14:06.4289377+01:00",
-  "UpdatedCount": 706,
-  "Visibility": 847,
+  "Name": "Hermiston-Hauck",
+  "PostitTextId": 117,
+  "CreatedDate": "1999-07-15T14:45:06.2249724+02:00",
+  "SelectionId": 89,
+  "SoundEx": "autem",
+  "Source": 776,
+  "TextId": 479,
+  "UpdatedDate": "2008-09-04T14:45:06.2249724+02:00",
+  "UpdatedCount": 714,
+  "Visibility": 141,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 347,
-  "TargetTableName": "Purdy, Murphy and Harber",
+  "TargetTableNumber": 824,
+  "TargetTableName": "Aufderhar, Russel and Gulgowski",
   "Completed": false,
-  "LeftSelectionId": 724,
-  "RightSelectionId": 335,
+  "LeftSelectionId": 302,
+  "RightSelectionId": 523,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wilderman-Murazik",
-  "ShadowProviderName": "Dietrich, Hessel and Douglas",
-  "ChartKey": "et",
-  "LastLoaded": "2003-02-10T13:14:06.4289377+01:00",
-  "LastLoadedBy": 592,
+  "MainProviderName": "Schmidt-Gottlieb",
+  "ShadowProviderName": "Blick, Fahey and Tremblay",
+  "ChartKey": "impedit",
+  "LastLoaded": "2015-10-27T14:45:06.2249724+01:00",
+  "LastLoadedBy": 294,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-12-05T13:14:06.4289377+01:00",
-  "LastMembershipChangeBy": 287,
+  "LastMembershipChange": "2002-03-12T14:45:06.2249724+01:00",
+  "LastMembershipChangeBy": 714,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsum",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Jast-Grimes",
-  "DashboardTileDefinitionId": 862,
+  "MainHeading": "ducimus",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Lehner-Sipes",
+  "DashboardTileDefinitionId": 854,
   "VisibleFor": [
     {
-      "VisibleId": 762,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     },
     {
-      "VisibleId": 762,
+      "VisibleId": 151,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

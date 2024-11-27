@@ -93,10 +93,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 523,
-  "AttachmentId": "dolorum",
-  "AttachmentType": "nihil",
-  "AttachmentFilename": "sunt"
+  "MailItemId": 516,
+  "AttachmentId": "eveniet",
+  "AttachmentType": "omnis",
+  "AttachmentFilename": "voluptatem"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated systemic hierarchy",
-  "Filename": "numquam",
-  "Size": 498,
-  "Type": "reprehenderit",
-  "Encoding": "soluta",
-  "Id": "corrupti",
-  "Disposition": "est",
+  "Description": "Triple-buffered attitude-oriented ability",
+  "Filename": "a",
+  "Size": 594,
+  "Type": "corporis",
+  "Encoding": "aut",
+  "Id": "a",
+  "Disposition": "eos",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 825
     }
   }
 }

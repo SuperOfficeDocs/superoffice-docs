@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.SaveTargetGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetGroup'>SaveTargetGroup</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.SaveTargetGroup'>SaveTargetGroup</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeSaveTargetGroup
 ```cs

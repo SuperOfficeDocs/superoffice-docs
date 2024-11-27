@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 483,
-  "Name": "Hessel, Hahn and Vandervort",
+  "TicketStatusId": 43,
+  "Name": "Schmidt, Balistreri and Bergnaum",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 89,
-  "Name": "Keeling-Goyette",
+  "TicketStatusId": 744,
+  "Name": "Mante Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 274
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Ankunding, Herzog and Grady",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 123,
+  "Id": 975,
+  "Name": "Hand Group",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 12,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "repellat",
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Beer-Waters",
-  "Tooltip": "eum",
+  "Id": 67,
+  "Name": "Stamm-Nitzsche",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 12,
-  "IsCustomList": true,
+  "Rank": 950,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 250
     }
   }
 }

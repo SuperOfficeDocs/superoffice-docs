@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 152
+  "ChatSessionId": 343
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 725,
-  "TopicId": 275,
+  "ChatSessionId": 674,
+  "TopicId": 634,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "sequi",
-  "CustomerName": "Schinner, Daugherty and Collins",
-  "CustomerEmail": "jess_stokes@fisherraynor.us",
-  "CustomerPhone": "987.222.0017",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Mayert-Heathcote",
+  "CustomerAlias": "iusto",
+  "CustomerHost": "soluta",
+  "CustomerName": "Harber LLC",
+  "CustomerEmail": "tristin@watsicarohan.biz",
+  "CustomerPhone": "778.239.0059 x098",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Davis-Torp",
   "Status": "Closed",
-  "FirstMessage": "deserunt",
-  "LastMessage": "odit",
-  "WhenRequested": "2006-10-07T13:14:05.6007634+02:00",
-  "WhenStarted": "2024-07-26T13:14:05.6007634+02:00",
-  "WhenEnded": "2002-03-31T13:14:05.6007634+02:00",
-  "WhenIdle": "2016-11-01T13:14:05.6007634+01:00",
-  "WhenFetched": "2022-09-05T13:14:05.6007634+02:00",
-  "SessionKey": "mollitia",
-  "InitialQueuePos": 729,
-  "AlertLevel": 218,
-  "Rank": 921,
+  "FirstMessage": "consequuntur",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2001-04-23T14:45:04.9908725+02:00",
+  "WhenStarted": "2022-06-24T14:45:04.9908725+02:00",
+  "WhenEnded": "2010-01-15T14:45:04.9908725+01:00",
+  "WhenIdle": "2008-05-22T14:45:04.9908725+02:00",
+  "WhenFetched": "2004-09-01T14:45:04.9908725+02:00",
+  "SessionKey": "veniam",
+  "InitialQueuePos": 813,
+  "AlertLevel": 35,
+  "Rank": 691,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 815,
+  "Rating": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 889
     }
   }
 }

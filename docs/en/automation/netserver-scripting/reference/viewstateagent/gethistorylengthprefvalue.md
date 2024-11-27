@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.GetHistoryLengthPrefValue
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue'>GetHistoryLengthPrefValue</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.GetHistoryLengthPrefValue'>GetHistoryLengthPrefValue</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeGetHistoryLengthPrefValue
 ```cs

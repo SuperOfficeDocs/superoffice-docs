@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetConfigurationFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields'>GetConfigurationFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetConfigurationFields'>GetConfigurationFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetConfigurationFields
 ```cs

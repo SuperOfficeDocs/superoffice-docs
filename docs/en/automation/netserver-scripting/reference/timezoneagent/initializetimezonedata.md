@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.InitializeTimeZoneData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData'>InitializeTimeZoneData</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.InitializeTimeZoneData'>InitializeTimeZoneData</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeInitializeTimeZoneData
 ```cs

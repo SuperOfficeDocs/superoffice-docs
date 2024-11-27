@@ -77,7 +77,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|(No Selection)||[SR_NO_SELECTION]|
+| 2 | Example | | |
 
 
 ## Related MDO Lists

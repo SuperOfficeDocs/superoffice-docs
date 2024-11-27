@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.Truncate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate'>Truncate</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.Truncate'>Truncate</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeTruncate
 ```cs

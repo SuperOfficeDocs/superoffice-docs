@@ -61,6 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |38|=Tv==lg-GGTjeAll||static|
 |41|>Tv>>lg-GGTjeAll||static|
 |27|Ætvæælg-GGTjeAll||static|
+|73|A﻿rchived reports made with reporter||dynamic|
 |1|Atvaalg-AAAdmAllKam||static|
 |29|Åtvåålg-GGTjeAll||static|
 |52|Ätväälg-GGTjeAll||static|
@@ -71,7 +72,6 @@ foreach (var item in listProvider.RootItems) {
 |28|Øtvøølg-GGTjeAll||static|
 |23|Otvoolg-HHMarGruPri||static|
 |54|Selection for creation of external users||static|
-|33|'Tv''lg-GGTjeAll||static|
 
 
 ## Related MDO Lists

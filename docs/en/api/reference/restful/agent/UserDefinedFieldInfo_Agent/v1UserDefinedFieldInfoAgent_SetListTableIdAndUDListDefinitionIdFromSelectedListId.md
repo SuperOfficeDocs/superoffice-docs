@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 569
+  "SelectedListId": 628
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 888,
-  "ColumnId": 376,
-  "FieldDefault": "sit",
-  "FieldHeight": 650,
-  "FieldLabel": "inventore",
-  "FieldLeft": 803,
-  "FieldTop": 858,
+  "UDefFieldId": 166,
+  "ColumnId": 82,
+  "FieldDefault": "et",
+  "FieldHeight": 824,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 618,
+  "FieldTop": 857,
   "FieldType": "Checkbox",
-  "FieldWidth": 260,
-  "FormatMask": "aut",
+  "FieldWidth": 693,
+  "FormatMask": "harum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 648,
-  "LabelLeft": 45,
-  "LabelTop": 474,
-  "LabelWidth": 626,
-  "LastVersionId": 44,
-  "ListTableId": 194,
+  "LabelHeight": 437,
+  "LabelLeft": 247,
+  "LabelTop": 230,
+  "LabelWidth": 852,
+  "LastVersionId": 770,
+  "ListTableId": 296,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 633,
-  "ProgId": "temporibus",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 18,
-  "TextLength": 364,
-  "Tooltip": "rem",
-  "UdefIdentity": 333,
-  "UDListDefinitionId": 462,
+  "Page1LineNo": 103,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "provident",
+  "TabOrder": 328,
+  "TextLength": 870,
+  "Tooltip": "ex",
+  "UdefIdentity": 204,
+  "UDListDefinitionId": 240,
   "Justification": "Center",
-  "Version": 773,
-  "TemplateVariableName": "Jacobi, Price and Witting",
-  "HasBeenPublished": false,
-  "MdoListName": "Ankunding, Lehner and Leannon",
+  "Version": 71,
+  "TemplateVariableName": "Mayer, Purdy and Ritchie",
+  "HasBeenPublished": true,
+  "MdoListName": "Friesen, Bergnaum and Ward",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 919
     }
   }
 }

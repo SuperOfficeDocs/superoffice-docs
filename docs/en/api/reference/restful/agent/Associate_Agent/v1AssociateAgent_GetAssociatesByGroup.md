@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 395,
-  "Type": 631
+  "GroupId": 558,
+  "Type": 487
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 595,
-    "Name": "Flatley, Treutel and Barton",
-    "PersonId": 805,
-    "Rank": 458,
-    "Tooltip": "nihil",
+    "AssociateId": 166,
+    "Name": "Larson, Hamill and Thompson",
+    "PersonId": 46,
+    "Rank": 379,
+    "Tooltip": "occaecati",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 561,
-    "FullName": "Emmanuel Tommie Gibson Jr.",
-    "FormalName": "Schultz Inc and Sons",
+    "GroupIdx": 3,
+    "FullName": "Ms. Jessica Murphy II",
+    "FormalName": "Ledner LLC",
     "Deleted": true,
-    "EjUserId": 246,
-    "UserName": "Oberbrunner Inc and Sons",
+    "EjUserId": 281,
+    "UserName": "Batz-Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 927
       }
     }
   }

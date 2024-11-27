@@ -463,6 +463,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -532,13 +535,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
-|document/associate/isLocation|bool|Is a location: Is a location| x |
-|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
-|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
+|document/documentUdef/SuperOffice:1|string|documentshorttext| x |
+|document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
 |document/documentUdef/SuperOffice:4|date|documentdate| x |
 |document/documentUdef/SuperOffice:5|unlimitedDate|documentunlimiteddate| x |
@@ -551,7 +554,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=NumberOfNotCompletedTickets,sourceRelation/stop,targetRelation/restrictionContactId,sale/heading,document/updatedDate
+GET /api/v1/archive/DummySelectionContact?$select=contactAssociate/otherGroups,sale/associate/middleName,appointment/associate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

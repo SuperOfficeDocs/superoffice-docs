@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.ValidateDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.ValidateDocumentEntity'>ValidateDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.ValidateDocumentEntity'>ValidateDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeValidateDocumentEntity
 ```cs

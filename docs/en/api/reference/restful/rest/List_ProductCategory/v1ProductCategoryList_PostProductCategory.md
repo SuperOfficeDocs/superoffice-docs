@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Schneider Inc and Sons",
+  "Id": 346,
+  "Name": "Stamm, Stracke and Bayer",
   "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 397,
-  "Rank": 385
+  "Deleted": false,
+  "UdListDefinitionId": 817,
+  "Rank": 851
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Daugherty LLC",
-  "Tooltip": "consectetur",
+  "Id": 116,
+  "Name": "Watsica-Lakin",
+  "Tooltip": "aliquam",
   "Deleted": true,
-  "UdListDefinitionId": 176,
-  "Rank": 600,
+  "UdListDefinitionId": 339,
+  "Rank": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

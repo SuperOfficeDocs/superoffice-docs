@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 640,
-  "CopyToSaleId": 357
+  "CopyFromSaleId": 873,
+  "CopyToSaleId": 961
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 126,
-  "SaleId": 276,
-  "QuoteConnectionId": 217,
-  "ERPQuoteKey": "porro",
-  "ERPOrderKey": "ea",
-  "ActiveQuoteVersionId": 137,
-  "AcceptedQuoteAlternativeId": 198,
-  "UseValuesFromQuote": 984,
-  "DocumentId": 364,
-  "PoNumber": "982491",
-  "OrderComment": "alias",
-  "PreferredEmailCulture": "timmothy@turnerschuppe.ca",
+  "QuoteId": 85,
+  "SaleId": 693,
+  "QuoteConnectionId": 331,
+  "ERPQuoteKey": "id",
+  "ERPOrderKey": "iure",
+  "ActiveQuoteVersionId": 179,
+  "AcceptedQuoteAlternativeId": 430,
+  "UseValuesFromQuote": 316,
+  "DocumentId": 829,
+  "PoNumber": "852294",
+  "OrderComment": "sed",
+  "PreferredEmailCulture": "valentine_reynolds@monahan.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 523,
-      "ERPQuoteVersionKey": "mollitia",
-      "QuoteId": 508,
-      "Description": "Self-enabling actuating function",
-      "Number": "928302",
+      "QuoteVersionId": 446,
+      "ERPQuoteVersionKey": "necessitatibus",
+      "QuoteId": 23,
+      "Description": "Stand-alone homogeneous benchmark",
+      "Number": "401400",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 305,
-      "SentDate": "2019-03-21T13:14:06.3351823+01:00",
-      "FollowupId": 734,
-      "ExpirationDate": "2002-08-14T13:14:06.3351823+02:00",
-      "DeliveryCountryId": 563,
+      "LikelyQuoteAlternativeId": 442,
+      "SentDate": "2017-11-21T14:45:06.0843796+01:00",
+      "FollowupId": 463,
+      "ExpirationDate": "2002-07-28T14:45:06.0843796+02:00",
+      "DeliveryCountryId": 602,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 982,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "porro",
-      "ERPPaymentTypeKey": "fugiat",
-      "ERPDeliveryTermsKey": "pariatur",
-      "ERPDeliveryTypeKey": "iure",
-      "Rank": 698,
-      "ApprovedBy": 293,
-      "ApprovedText": "consequuntur",
-      "ApprovedRegisteredBy": 90,
-      "ApprovedRegisteredDate": "2007-09-22T13:14:06.3351823+02:00",
-      "ExtraField1": "temporibus",
-      "ExtraField2": "excepturi",
+      "InvoiceCountryId": 140,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "nulla",
+      "ERPPaymentTypeKey": "aut",
+      "ERPDeliveryTermsKey": "minus",
+      "ERPDeliveryTypeKey": "labore",
+      "Rank": 15,
+      "ApprovedBy": 394,
+      "ApprovedText": "accusamus",
+      "ApprovedRegisteredBy": 637,
+      "ApprovedRegisteredDate": "2009-04-23T14:45:06.0843796+02:00",
+      "ExtraField1": "inventore",
+      "ExtraField2": "odio",
       "ExtraField3": "et",
-      "ExtraField4": "aut",
-      "ExtraField5": "commodi",
-      "LastRecalculated": "2008-02-21T13:14:06.3351823+01:00",
-      "Updated": "2021-02-04T13:14:06.3351823+01:00",
-      "UpdatedAssociateId": 12,
-      "Registered": "2007-03-26T13:14:06.3351823+02:00",
-      "RegisteredAssociateId": 136,
-      "RequestAssociateId": 851,
-      "RequestComment": "unde",
+      "ExtraField4": "debitis",
+      "ExtraField5": "occaecati",
+      "LastRecalculated": "2016-10-10T14:45:06.0843796+02:00",
+      "Updated": "2010-05-15T14:45:06.0843796+02:00",
+      "UpdatedAssociateId": 688,
+      "Registered": "2009-03-02T14:45:06.0843796+01:00",
+      "RegisteredAssociateId": 899,
+      "RequestAssociateId": 971,
+      "RequestComment": "molestiae",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 824
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

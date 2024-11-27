@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 647,
-  "Name": "Fay, Konopelski and Nitzsche",
-  "Description": "Compatible needs-based forecast",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 998,
+  "Name": "Bayer LLC",
+  "Description": "Optional mission-critical moratorium",
+  "WelcomeMessage": "voluptatem",
   "Language": null,
-  "LastAccept": "2012-01-12T13:14:10.6797802+01:00",
-  "SecondsPrAccept": 90,
-  "AlertRecipient": "saepe",
+  "LastAccept": "2001-05-10T14:45:12.5838708+02:00",
+  "SecondsPrAccept": 994,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "repellendus",
+  "CollectConsent": true,
+  "BadgeHeader": "sint",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eveniet",
-  "WarnNewChatMinutes": 513,
-  "WarnManagerNewChatMinutes": 505,
+  "CustomQueueText": "eos",
+  "WarnNewChatMinutes": 425,
+  "WarnManagerNewChatMinutes": 265,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 418,
-  "WarnManagerChatMessageMinutes": 237,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 504,
-  "OfflineFormQueueLength": 562,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 814,
+  "WarnManagerChatMessageMinutes": 22,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 123,
+  "OfflineFormQueueLength": 325,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ullam",
+  "WidgetRatingText": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 553
     }
   }
 }

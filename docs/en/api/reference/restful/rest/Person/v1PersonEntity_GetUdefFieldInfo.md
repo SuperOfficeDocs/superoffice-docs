@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 728,
-  "ColumnId": 974,
-  "FieldDefault": "natus",
-  "FieldHeight": 421,
-  "FieldLabel": "delectus",
-  "FieldLeft": 47,
-  "FieldTop": 306,
+  "UDefFieldId": 445,
+  "ColumnId": 988,
+  "FieldDefault": "nam",
+  "FieldHeight": 349,
+  "FieldLabel": "autem",
+  "FieldLeft": 356,
+  "FieldTop": 568,
   "FieldType": "Checkbox",
-  "FieldWidth": 983,
-  "FormatMask": "ea",
+  "FieldWidth": 90,
+  "FormatMask": "nemo",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 158,
-  "LabelLeft": 372,
-  "LabelTop": 814,
-  "LabelWidth": 818,
-  "LastVersionId": 819,
-  "ListTableId": 845,
+  "IsIndexed": true,
+  "LabelHeight": 344,
+  "LabelLeft": 518,
+  "LabelTop": 592,
+  "LabelWidth": 837,
+  "LastVersionId": 331,
+  "ListTableId": 309,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 372,
-  "ProgId": "labore",
+  "Page1LineNo": 48,
+  "ProgId": "corrupti",
   "IsReadOnly": false,
-  "ShortLabel": "consectetur",
-  "TabOrder": 94,
-  "TextLength": 715,
-  "Tooltip": "at",
-  "UdefIdentity": 496,
-  "UDListDefinitionId": 504,
+  "ShortLabel": "velit",
+  "TabOrder": 635,
+  "TextLength": 841,
+  "Tooltip": "ea",
+  "UdefIdentity": 551,
+  "UDListDefinitionId": 475,
   "Justification": "Center",
-  "Version": 393,
-  "TemplateVariableName": "Dickens Inc and Sons",
+  "Version": 235,
+  "TemplateVariableName": "Orn Group",
   "HasBeenPublished": true,
-  "MdoListName": "Shanahan Inc and Sons",
+  "MdoListName": "Heller-Rogahn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 835
     }
   }
 }

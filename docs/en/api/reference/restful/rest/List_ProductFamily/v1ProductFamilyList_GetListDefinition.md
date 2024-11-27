@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Borer-Dooley",
-  "Tooltip": "deleniti",
+  "Id": 414,
+  "Name": "Howell-O'Hara",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 695,
-  "IsCustomList": true,
+  "Rank": 954,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 395
     }
   },
   "_Links": {

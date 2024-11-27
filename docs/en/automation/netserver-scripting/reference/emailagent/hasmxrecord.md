@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.HasMXRecord
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.HasMXRecord'>HasMXRecord</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.HasMXRecord'>HasMXRecord</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeHasMXRecord
 ```cs

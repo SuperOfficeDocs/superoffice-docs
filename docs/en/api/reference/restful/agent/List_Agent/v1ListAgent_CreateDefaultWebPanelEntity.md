@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 65,
-  "Name": "Fay, Lynch and Funk",
-  "Tooltip": "eaque",
+  "WebPanelId": 800,
+  "Name": "Carter, Hoeger and Sporer",
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "Rank": 245,
+  "Rank": 11,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "White, O'Conner and Wolf",
+  "WindowName": "Ratke Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "numquam",
-  "Icon": 666,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "dolor",
+  "Icon": 465,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldLength": 77
     }
   }
 }

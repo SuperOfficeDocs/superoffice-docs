@@ -688,11 +688,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personAddress/line1,personUdef/SuperOffice:7,personExtra/x_person_boolean,personTargetRelation/lastName,personTargetRelation/personRegisteredByFullName
+GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/middleName,personTargetRelation/birthYear,projectMembers/saintTicketStatus,personAppointment/recurrenceRuleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

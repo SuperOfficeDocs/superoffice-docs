@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "carlos@gislason.uk",
-  "Counts": 789,
-  "Code": 602,
+  "EmailAddress": "carol.stoltenberg@volkmanschumm.uk",
+  "Counts": 973,
+  "Code": 423,
   "Reason": ""
 }
 ```

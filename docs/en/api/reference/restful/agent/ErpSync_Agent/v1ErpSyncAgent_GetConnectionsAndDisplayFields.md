@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 447
+  "EntityId": 28
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 955,
-    "ConnectionName": "Fadel, Bogan and Kunze",
-    "Connected": true,
+    "ErpConnectionId": 922,
+    "ConnectionName": "Goyette-Crist",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "consequatur",
-        "Rank": 682,
-        "DisplayName": "Gislason-Spinka",
-        "DisplayDescription": "Synchronised web-enabled contingency",
+        "FieldKey": "qui",
+        "Rank": 167,
+        "DisplayName": "Dooley-Kohler",
+        "DisplayDescription": "Persevering bottom-line concept",
         "FieldType": "Checkbox",
-        "ListName": "Kihn Group",
-        "DefaultValue": "voluptate",
-        "MaxLength": 202,
+        "ListName": "Ernser Inc and Sons",
+        "DefaultValue": "qui",
+        "MaxLength": 651,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 484
+            "FieldType": "System.Int32",
+            "FieldLength": 910
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "deleniti",
-      "voluptatem"
+      "laborum",
+      "eius"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldLength": 148
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.GetTargetAssignmentForYear
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetAssignmentForYear'>GetTargetAssignmentForYear</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.GetTargetAssignmentForYear'>GetTargetAssignmentForYear</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeGetTargetAssignmentForYear
 ```cs

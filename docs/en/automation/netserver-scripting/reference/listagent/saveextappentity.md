@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveExtAppEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveExtAppEntity'>SaveExtAppEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveExtAppEntity'>SaveExtAppEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveExtAppEntity
 ```cs

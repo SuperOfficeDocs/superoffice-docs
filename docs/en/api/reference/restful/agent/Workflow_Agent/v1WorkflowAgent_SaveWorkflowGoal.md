@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 347,
-  "WorkflowId": 11,
+  "WorkflowGoalId": 789,
+  "WorkflowId": 956,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Langosh LLC",
-      "Description": "Reverse-engineered intangible product",
-      "Rank": 367,
+      "Name": "Jacobs-Jerde",
+      "Description": "Function-based bifurcated hardware",
+      "Rank": 697,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langosh LLC",
-      "Description": "Reverse-engineered intangible product",
-      "Rank": 367,
+      "Name": "Jacobs-Jerde",
+      "Description": "Function-based bifurcated hardware",
+      "Rank": 697,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 658,
-  "WorkflowId": 410,
+  "WorkflowGoalId": 122,
+  "WorkflowId": 640,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Grimes-Von",
-      "Description": "Configurable content-based process improvement",
-      "Rank": 397,
+      "Name": "Renner LLC",
+      "Description": "Realigned methodical methodology",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Grimes-Von",
-      "Description": "Configurable content-based process improvement",
-      "Rank": 397,
+      "Name": "Renner LLC",
+      "Description": "Realigned methodical methodology",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 116
     }
   }
 }

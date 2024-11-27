@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 827,
-  "Name": "Dooley, Marquardt and Turcotte",
+  "RoleId": 874,
+  "Name": "Ernser Group",
   "Tooltip": "cum",
   "RoleType": "Anonymous",
-  "Deleted": 227,
-  "Rank": 346,
-  "Created": "2006-08-10T13:14:10.9454212+02:00",
-  "UseCategories": 712,
+  "Deleted": 789,
+  "Rank": 569,
+  "Created": "2021-07-14T14:45:12.9900307+02:00",
+  "UseCategories": 336,
   "CreatedBy": null,
-  "Updated": "2022-03-04T13:14:10.9454212+01:00",
+  "Updated": "2020-08-01T14:45:12.9900307+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 508,
-  "Name": "Ritchie, Beatty and Douglas",
-  "Tooltip": "consequatur",
+  "RoleId": 271,
+  "Name": "Morar, Kassulke and Turcotte",
+  "Tooltip": "praesentium",
   "RoleType": "Anonymous",
-  "Deleted": 322,
-  "Rank": 725,
-  "Created": "1998-03-09T13:14:10.9454212+01:00",
-  "UseCategories": 223,
+  "Deleted": 366,
+  "Rank": 653,
+  "Created": "2010-03-31T14:45:13.0368942+02:00",
+  "UseCategories": 11,
   "CreatedBy": null,
-  "Updated": "2017-05-23T13:14:10.9454212+02:00",
+  "Updated": "2003-03-28T14:45:13.0525152+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 890
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

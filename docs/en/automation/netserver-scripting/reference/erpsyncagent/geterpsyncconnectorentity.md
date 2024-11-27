@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetErpSyncConnectorEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity'>GetErpSyncConnectorEntity</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetErpSyncConnectorEntity'>GetErpSyncConnectorEntity</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetErpSyncConnectorEntity
 ```cs

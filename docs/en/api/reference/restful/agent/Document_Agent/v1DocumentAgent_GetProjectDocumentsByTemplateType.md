@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 745,
-  "StartTime": "2009-02-07T13:14:05.7726487+01:00",
-  "EndTime": "2003-11-05T13:14:05.7726487+01:00",
-  "Count": 582,
-  "DocumentTemplateId": 860
+  "ProjectId": 154,
+  "StartTime": "2008-04-22T14:45:05.2408154+02:00",
+  "EndTime": "2013-04-06T14:45:05.2408154+02:00",
+  "Count": 146,
+  "DocumentTemplateId": 283
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 189,
-    "Attention": "hic",
-    "Header": "quia",
-    "Name": "Mitchell LLC",
-    "OurRef": "ipsa",
-    "YourRef": "asperiores",
-    "Description": "Automated logistical project",
-    "DocumentTemplate": "rerum",
+    "DocumentId": 651,
+    "Attention": "saepe",
+    "Header": "impedit",
+    "Name": "Kohler, Quigley and Cremin",
+    "OurRef": "ullam",
+    "YourRef": "et",
+    "Description": "Innovative impactful matrices",
+    "DocumentTemplate": "porro",
     "IsPublished": false,
-    "PersonId": 890,
-    "PersonFullName": "Ms. Holden Monique Hilll DVM",
-    "AssociateFullName": "Jayme Rippin",
-    "ContactId": 443,
-    "ContactName": "Sauer LLC",
-    "ProjectId": 179,
-    "ProjectName": "Kirlin, Miller and Jacobi",
-    "AssociateId": 411,
-    "Snum": 784,
-    "SaleId": 501,
-    "SaleName": "Ledner, Stoltenberg and Beahan",
+    "PersonId": 298,
+    "PersonFullName": "Dorris Roob",
+    "AssociateFullName": "Herminio Hermiston",
+    "ContactId": 272,
+    "ContactName": "Donnelly-Zboncak",
+    "ProjectId": 687,
+    "ProjectName": "Connelly-Koss",
+    "AssociateId": 887,
+    "Snum": 386,
+    "SaleId": 964,
+    "SaleName": "Leuschke Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 180
       }
     }
   }

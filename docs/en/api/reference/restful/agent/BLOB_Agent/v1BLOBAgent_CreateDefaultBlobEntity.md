@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 424,
-  "BlobSize": 850,
-  "Description": "Grass-roots contextually-based data-warehouse",
-  "ExtraInfo": "quod",
+  "BlobId": 607,
+  "BlobSize": 386,
+  "Description": "Open-source disintermediate functionalities",
+  "ExtraInfo": "velit",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 812,
-  "CreatedDate": "2010-10-08T13:14:05.5382596+02:00",
-  "UpdatedDate": "2017-11-08T13:14:05.5382596+01:00",
+  "IsZipped": true,
+  "MimeType": "vero",
+  "OriginalSize": 847,
+  "CreatedDate": "2003-03-30T14:45:04.8815214+02:00",
+  "UpdatedDate": "2008-01-01T14:45:04.8815214+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veniam",
+  "ConceptualType": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   }
 }

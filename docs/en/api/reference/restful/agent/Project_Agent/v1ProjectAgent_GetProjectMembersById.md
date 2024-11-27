@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    304,
-    982
+    916,
+    198
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 718,
-    "ContactId": 605,
-    "ProjectId": 304,
-    "ContactName": "Spinka-Wuckert",
-    "ContactDepartment": "",
-    "ProjectName": "Dare Inc and Sons",
-    "EmailId": 686,
-    "EmailAddress": "daphney@cummerataokuneva.com",
-    "CountryId": 539,
-    "Firstname": "Mckenna",
-    "MiddleName": "Pollich-Pacocha",
-    "Lastname": "Rosenbaum",
-    "PersonId": 607,
-    "Mrmrs": "qui",
-    "ProjectMemberTypeName": "Greenfelder, Bergnaum and Feeney",
-    "Phone": "478.321.6485 x6859",
-    "PhoneId": 432,
-    "ProjectMemberTypeId": 79,
-    "EmailAddressName": "jennings_cronin@smithhirthe.us",
-    "Comment": "natus",
-    "FullName": "Mrs. Delbert Angelica West II",
+    "ProjectmemberId": 819,
+    "ContactId": 869,
+    "ProjectId": 264,
+    "ContactName": "Feil Group",
+    "ContactDepartment": "implement distributed systems",
+    "ProjectName": "Langworth, Price and Mayert",
+    "EmailId": 416,
+    "EmailAddress": "buford@tremblay.name",
+    "CountryId": 496,
+    "Firstname": "Albertha",
+    "MiddleName": "Denesik, Welch and Collins",
+    "Lastname": "Lebsack",
+    "PersonId": 9,
+    "Mrmrs": "quia",
+    "ProjectMemberTypeName": "Rosenbaum, Bernier and Kerluke",
+    "Phone": "(753)743-1942 x46378",
+    "PhoneId": 147,
+    "ProjectMemberTypeId": 860,
+    "EmailAddressName": "lois@williamsonbreitenberg.ca",
+    "Comment": "excepturi",
+    "FullName": "Miss Rae Jana Schaefer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   }

@@ -17,8 +17,8 @@ Activity archive provider for the Person card
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"chat"|Chat session|
 |"formSubmission"|Form submissions|
+|"chat"|Chat session|
 |"mailing"|Mailings|
 |"document"|Documents|
 |"appointment"|Follow-ups|
@@ -28,32 +28,24 @@ Activity archive provider for the Person card
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
-|firstMessage|string|First message: The first message submitted in the chat| x |
-|lastMessage|string|Last message: The last message submitted in the chat| x |
-|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
-|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
-|whenEnded|datetime|Chat ended: When did this chat end?| x |
-|duration|timeSpan|Duration: The duration of the chat session|  |
-|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
-|queueLength|int|Queue length: Queue length when the session was requested| x |
-|rating|int|Rating: Rating of chat session| x |
-|agent|ejUser|Agent: The agent of the chat| x |
-|status|listAny|Status: Status for the chat session| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
 |text|positiveString|Text: Displays a descriptive text for the item| x |
 |associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |contactId|listAny|Company ID: Database ID of company| x |
 |personId|listAny|Contact ID: Database ID of the contact row| x |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
-|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
-|chatTopic/name|string|Name: Name| x |
-|chatTopic/description|string|Description: The description of the chat channel| x |
-|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |associate/firstName|string|First name: Displays the contact's first name| x |
 |associate/lastName|string|Last name: Displays the contact's last name| x |
 |associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -62,6 +54,7 @@ Activity archive provider for the Person card
 |associate/personId|int|Contact ID: Database ID of the contact row|  |
 |associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|associate/associateDbId|associate|ID| x |
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -125,10 +118,6 @@ Activity archive provider for the Person card
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
 |person/personBusiness|listAny|Business| x |
@@ -136,6 +125,10 @@ Activity archive provider for the Person card
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
 |person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
 |person/createdByForm|listAny|Created by form: Created by form| x |
@@ -229,10 +222,6 @@ Activity archive provider for the Person card
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/associateDbId|associate|ID| x |
@@ -240,6 +229,10 @@ Activity archive provider for the Person card
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
 |person/personAssociate/assocName|associate|User ID : User ID| x |
@@ -333,10 +326,6 @@ Activity archive provider for the Person card
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
@@ -344,6 +333,10 @@ Activity archive provider for the Person card
 |contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -437,10 +430,6 @@ Activity archive provider for the Person card
 |contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
@@ -448,6 +437,10 @@ Activity archive provider for the Person card
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
@@ -481,15 +474,6 @@ Activity archive provider for the Person card
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
-|time| *None* |Time: Time|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|associate/associateDbId|associate|ID| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -541,10 +525,6 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactPhone/formattedNumber|string|Company - Telephone - Phone: Displays phone number|  |
 |mailingAddr/contact/contactPhone/description|string|Company - Telephone - Description: Phone number description| x |
 |mailingAddr/contact/contactFax/formattedNumber|string|Company - Fax - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactFax/description|string|Company - Fax - Description: Phone number description| x |
 |mailingAddr/contact/searchPhone/formattedNumber|string|Company - Searchphone - Phone: Displays phone number|  |
 |mailingAddr/contact/searchPhone/description|string|Company - Searchphone - Description: Phone number description| x |
@@ -561,6 +541,10 @@ Activity archive provider for the Person card
 |mailingAddr/contact/postAddress/line2|string|Company - Postal address - Address 2: Second line of the address| x |
 |mailingAddr/contact/postAddress/line3|string|Company - Postal address - Address 3: Third line of the address| x |
 |mailingAddr/contact/postAddress/county|string|Company - Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/postAddress/city|string|Company - Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/postAddress/zip|string|Company - Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/contact/postAddress/state|string|Company - Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -645,10 +629,6 @@ Activity archive provider for the Person card
 |mailingAddr/contact/contactExtra/x\_contact\_float|decimal|Company - Extra Float: Custom float field with 3 decimals| x |
 |mailingAddr/contact/contactExtra/x\_contact\_longtext|string|Company - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |mailingAddr/contact/contactExtra/x\_contact\_dropdown|listAny|Company - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/contactExtra/x\_contact\_date|date|Company - Extra date: Custom date field. User current as default.| x |
 |mailingAddr/contact/contactExtra/x\_contact\_datetime|datetime|Company - Extra DateTime: Custom Date Time field. No default value. External| x |
 |mailingAddr/contact/contactExtra/x\_contact\_time| *None* |Company - Extra time: Custom time field.| x |
@@ -665,6 +645,10 @@ Activity archive provider for the Person card
 |mailingAddr/contact/NumberOfNotCompletedActivities|int|Company - Number of non-completed activities|  |
 |mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod|int|Company - Number of non-completed activities in last 90 days|  |
 |mailingAddr/contact/LastActivity|date|Company - Date of last activity|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/contact/LastCompletedActivity|date|Company - Date of last completed activity|  |
 |mailingAddr/contact/LastDoByActivity|date|Company - Date of last non-completed activity|  |
 |mailingAddr/contact/NumberOfSales|int|Company - Number of sales|  |
@@ -749,10 +733,6 @@ Activity archive provider for the Person card
 |mailingAddr/person/personPrivate/description|string|Contact - Private - Description: Phone number description| x |
 |mailingAddr/person/personPager/formattedNumber|string|Contact - Other - Phone: Displays phone number|  |
 |mailingAddr/person/personPager/description|string|Contact - Other - Description: Phone number description| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personDirectFax/formattedNumber|string|Contact - Fax - Phone: Displays phone number|  |
 |mailingAddr/person/personDirectFax/description|string|Contact - Fax - Description: Phone number description| x |
 |mailingAddr/person/searchPhone/formattedNumber|string|Contact - Phone: Displays phone number|  |
@@ -769,6 +749,10 @@ Activity archive provider for the Person card
 |mailingAddr/person/email/emailHasBounced|bool|Contact - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |mailingAddr/person/personUrl/URLAddress|string|Contact - URL| x |
 |mailingAddr/person/personUrl/URLDescription|string|Contact - Description| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAddress/addressId|int|Contact - Contact address - Address ID: Database ID for the address record| x |
 |mailingAddr/person/personAddress/line1|string|Contact - Contact address - Address 1: First line of the address| x |
 |mailingAddr/person/personAddress/line2|string|Contact - Contact address - Address 2: Second line of the address| x |
@@ -853,10 +837,6 @@ Activity archive provider for the Person card
 |mailingAddr/person/personAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/personAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |mailingAddr/person/personAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |mailingAddr/person/personAssociate/isActiveText|bool|Contact - Active status: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/personAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |mailingAddr/person/personAssociate/otherGroups|userGroup|Contact - Other groups: Other groups|  |
@@ -873,6 +853,10 @@ Activity archive provider for the Person card
 |mailingAddr/person/correspondingAssociate/mrMrs|string|Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |mailingAddr/person/correspondingAssociate/title|string|Contact - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |mailingAddr/person/correspondingAssociate/associateDbId|associate|Contact - ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |mailingAddr/person/correspondingAssociate/contactName|string|Contact - Owning company: Name of the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/contactDepartment|string|Contact - Owning department: Name of the department at the company the user belongs to| x |
 |mailingAddr/person/correspondingAssociate/usergroup|userGroup|Contact - Primary group: The user's primary user group| x |
@@ -957,10 +941,6 @@ Activity archive provider for the Person card
 |emailFlow/workflowAssociate/portraitThumbnail| *None* |Owner - Person image: Person image|  |
 |emailFlow/workflowAssociate/otherGroups|userGroup|Owner - Other groups: Other groups|  |
 |emailFlow/workflowAssociate/userName|string|Owner - User name: User name| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |emailFlow/workflowAssociate/personEmail|string|Owner - E-mail| x |
 |emailFlow/workflowAssociate/locationAddress|string|Owner - Location: Location| x |
 |emailFlow/workflowAssociate/isLocation|bool|Owner - Is a location: Is a location| x |
@@ -977,6 +957,10 @@ Activity archive provider for the Person card
 |project/status|listAny|Status: Displays the project's status| x |
 |project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
@@ -1061,10 +1045,6 @@ Activity archive provider for the Person card
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
@@ -1072,6 +1052,26 @@ Activity archive provider for the Person card
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
+|firstMessage|string|First message: The first message submitted in the chat| x |
+|lastMessage|string|Last message: The last message submitted in the chat| x |
+|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
+|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+|whenEnded|datetime|Chat ended: When did this chat end?| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
+|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
+|queueLength|int|Queue length: Queue length when the session was requested| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|rating|int|Rating: Rating of chat session| x |
+|agent|ejUser|Agent: The agent of the chat| x |
+|status|listAny|Status: Status for the chat session| x |
+|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
+|chatTopic/name|string|Name: Name| x |
+|chatTopic/description|string|Description: The description of the chat channel| x |
+|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |recordType|string|Record type : Shows the record type| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -1247,11 +1247,14 @@ Activity archive provider for the Person card
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=person/isStakeholder,contact/stop,contact/contactPhone/formattedNumber,mailingAddr/contact/contactAssociate/contactDepartment,mailingAddr/contact/contactAssociate/simultaneousEjUser
+GET /api/v1/archive/PersonActivity?$select=updatedDate,person/personExtra/x_person_float,mailingAddr/contact/registeredByFullName,mailingAddr/contact/email/emailHasBounced,mailingAddr/contact/postAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

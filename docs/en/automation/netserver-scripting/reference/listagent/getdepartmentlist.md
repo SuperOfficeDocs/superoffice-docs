@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetDepartmentList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetDepartmentList'>GetDepartmentList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetDepartmentList'>GetDepartmentList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetDepartmentList
 ```cs

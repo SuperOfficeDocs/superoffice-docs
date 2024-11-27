@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 806
+  "ReplyTemplateId": 64
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schultz Group",
-  "Description": "Horizontal reciprocal attitude",
-  "OwnedByFullName": "Frieda Pfannerstill",
-  "Updated": "1999-05-25T13:14:05.7257709+02:00",
-  "Body": "est",
-  "IsHtml": true,
+  "Name": "Kub-Vandervort",
+  "Description": "Organic user-facing frame",
+  "OwnedByFullName": "Dudley Hammes",
+  "Updated": "2019-05-31T14:45:05.1783023+02:00",
+  "Body": "officiis",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 606
     }
   }
 }

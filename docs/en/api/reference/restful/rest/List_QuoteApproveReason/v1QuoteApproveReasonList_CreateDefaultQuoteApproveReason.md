@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Ortiz Group",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 738,
-  "Rank": 600,
+  "Id": 66,
+  "Name": "Cremin Group",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 256,
+  "Rank": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 483
     }
   }
 }

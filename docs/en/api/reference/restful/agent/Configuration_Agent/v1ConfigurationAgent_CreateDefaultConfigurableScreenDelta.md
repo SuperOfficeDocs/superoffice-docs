@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 544,
-  "Name": "Schuster, Kling and Murphy",
-  "Description": "Business-focused homogeneous product",
-  "DeltaJson": "sunt",
+  "ConfigurableScreenDeltaId": 961,
+  "Name": "Jacobs, Langworth and Goyette",
+  "Description": "Visionary bifurcated infrastructure",
+  "DeltaJson": "repudiandae",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "inventore",
-  "UpdatedDate": "2014-06-24T13:14:05.6163893+02:00",
-  "CreatedDate": "2006-11-08T13:14:05.6163893+01:00",
+  "RecipeId": "voluptas",
+  "UpdatedDate": "2021-12-20T14:45:05.0221142+01:00",
+  "CreatedDate": "2020-12-02T14:45:05.0221142+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    592,
-    179
+    479,
+    247
   ],
-  "AppliesToKey": "quia",
+  "AppliesToKey": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 524
     }
   }
 }

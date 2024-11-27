@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.GetShopUrl
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl'>GetShopUrl</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.GetShopUrl'>GetShopUrl</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeGetShopUrl
 ```cs

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 192,
-  "Name": "Nikolaus-Zulauf",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 499,
+  "Id": 226,
+  "Name": "Crooks-Donnelly",
+  "Tooltip": "in",
+  "Deleted": false,
+  "Rank": 829,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   },
   "_Links": {

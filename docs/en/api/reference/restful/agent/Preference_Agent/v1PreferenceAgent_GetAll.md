@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 330,
-    "Section": "doloremque",
-    "Key": "sit",
-    "Name": "Rutherford-McLaughlin",
+    "PrefDescId": 172,
+    "Section": "aut",
+    "Key": "doloremque",
+    "Name": "Kovacek Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Seamless multimedia encoding",
+    "Description": "Enterprise-wide bandwidth-monitored time-frame",
     "IsBuiltin": false,
-    "TableName": "Wehner Inc and Sons",
-    "UserDefinedListId": 837,
-    "Rank": 150,
-    "SubGroup": "asperiores",
-    "MinLevel": 219,
-    "MaxValue": 151,
-    "MinValue": 628,
-    "RequiredLicense": "quia",
+    "TableName": "Daugherty, Flatley and Mayert",
+    "UserDefinedListId": 907,
+    "Rank": 157,
+    "SubGroup": "sed",
+    "MinLevel": 333,
+    "MaxValue": 495,
+    "MinValue": 894,
+    "RequiredLicense": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 586
       }
     }
   }

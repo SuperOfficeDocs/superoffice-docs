@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 161,
-    "Name": "Grady-Stoltenberg",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 618
+    "HeadingId": 97,
+    "Name": "Spencer-Walter",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 333,
+    "UdListDefinitionId": 58
   },
   {
-    "HeadingId": 161,
-    "Name": "Grady-Stoltenberg",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 196,
-    "UdListDefinitionId": 618
+    "HeadingId": 97,
+    "Name": "Spencer-Walter",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 333,
+    "UdListDefinitionId": 58
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 248,
-    "Name": "Kuhn-Beahan",
-    "Tooltip": "dolores",
+    "HeadingId": 503,
+    "Name": "Hoeger LLC",
+    "Tooltip": "sequi",
     "Deleted": true,
-    "Rank": 796,
-    "UdListDefinitionId": 175,
+    "Rank": 81,
+    "UdListDefinitionId": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldLength": 559
       }
     }
   }

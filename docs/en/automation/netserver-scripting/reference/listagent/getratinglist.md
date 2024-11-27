@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetRatingList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetRatingList'>GetRatingList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetRatingList'>GetRatingList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetRatingList
 ```cs

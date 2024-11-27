@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.GetAvailableFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields'>GetAvailableFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.GetAvailableFields'>GetAvailableFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeGetAvailableFields
 ```cs

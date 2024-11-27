@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.GetWorkflowGoal
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal'>GetWorkflowGoal</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.GetWorkflowGoal'>GetWorkflowGoal</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeGetWorkflowGoal
 ```cs

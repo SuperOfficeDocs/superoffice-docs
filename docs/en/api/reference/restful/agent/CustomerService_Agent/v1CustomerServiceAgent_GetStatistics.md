@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "distinctio",
-    "voluptas"
+    "pariatur",
+    "at"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "nesciunt",
+    "Label": "numquam",
     "Values": [
       {
-        "Label": "ea",
-        "Value": 6857.192,
-        "Description": "Streamlined transitional internet solution",
+        "Label": "ut",
+        "Value": 12326.021999999999,
+        "Description": "Grass-roots bandwidth-monitored forecast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 970
           }
         }
       },
       {
-        "Label": "ea",
-        "Value": 6857.192,
-        "Description": "Streamlined transitional internet solution",
+        "Label": "ut",
+        "Value": 12326.021999999999,
+        "Description": "Grass-roots bandwidth-monitored forecast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 970
           }
         }
       }
     ],
-    "Description": "Synchronised global middleware",
+    "Description": "Total static analyzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 752
       }
     }
   },
   {
-    "Label": "nesciunt",
+    "Label": "numquam",
     "Values": [
       {
-        "Label": "ea",
-        "Value": 6857.192,
-        "Description": "Streamlined transitional internet solution",
+        "Label": "ut",
+        "Value": 12326.021999999999,
+        "Description": "Grass-roots bandwidth-monitored forecast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 970
           }
         }
       },
       {
-        "Label": "ea",
-        "Value": 6857.192,
-        "Description": "Streamlined transitional internet solution",
+        "Label": "ut",
+        "Value": 12326.021999999999,
+        "Description": "Grass-roots bandwidth-monitored forecast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 970
           }
         }
       }
     ],
-    "Description": "Synchronised global middleware",
+    "Description": "Total static analyzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 752
       }
     }
   }

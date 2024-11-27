@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 559,
-  "Name": "Friesen, Luettgen and Hermann",
+  "WebhookId": 462,
+  "Name": "Lindgren, Russel and Ritchie",
   "Events": [
-    "cupiditate",
-    "aut"
+    "sed",
+    "est"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "repellat",
+  "Secret": "saepe",
   "State": "Active",
-  "Type": "ipsa",
+  "Type": "illo",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "et"
+    "Headers1": "culpa",
+    "Headers2": "omnis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-02-03T13:14:11.289192+01:00",
+  "Registered": "2014-01-10T14:45:13.5367829+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-10-07T13:14:11.289192+02:00",
+  "Updated": "2024-07-28T14:45:13.5367829+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "anahi@stoltenberg.name"
+  "ErrorsEmail": "haylee_dietrich@lebsack.com"
 }
 ```

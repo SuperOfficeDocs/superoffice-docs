@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.CreateDefaultRecurrenceByDate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultRecurrenceByDate'>CreateDefaultRecurrenceByDate</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.CreateDefaultRecurrenceByDate'>CreateDefaultRecurrenceByDate</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeCreateDefaultRecurrenceByDate
 ```cs

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 459,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "vitae",
-  "Name": "Lang, Grady and Schmitt",
-  "Description": "Business-focused directional artificial intelligence",
-  "Code": "neque",
-  "PriceUnit": "non",
-  "QuantityUnit": "sed",
+  "ProductId": 727,
+  "ERPProductKey": "facere",
+  "ERPPriceListKey": "odit",
+  "Name": "Cremin, Carroll and Grady",
+  "Description": "Configurable needs-based alliance",
+  "Code": "impedit",
+  "PriceUnit": "rem",
+  "QuantityUnit": "eius",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 25824.16,
-  "ItemNumber": "929670",
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 2494.6639999999998,
+  "ItemNumber": "755871",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "porro",
-  "ProductTypeKey": "provident",
-  "VAT": 8251.822,
-  "VATInfo": "qui",
-  "UnitCost": 17465.782,
-  "UnitMinimumPrice": 18026.768,
-  "UnitListPrice": 8358.378,
-  "InAssortment": false,
-  "Supplier": "fuga",
-  "SupplierCode": "illo",
-  "Rights": "non",
-  "Rule": "a",
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "voluptas",
+  "VAT": 20405.474,
+  "VATInfo": "numquam",
+  "UnitCost": 4707.268,
+  "UnitMinimumPrice": 25457.482,
+  "UnitListPrice": 13015.502,
+  "InAssortment": true,
+  "Supplier": "quae",
+  "SupplierCode": "est",
+  "Rights": "officiis",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Jaskolski Group",
-      "Value": "et",
+      "Name": "Skiles-Simonis",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 480
+          "FieldType": "System.Int32",
+          "FieldLength": 152
         }
       }
     },
     {
-      "Name": "Jaskolski Group",
-      "Value": "et",
+      "Name": "Skiles-Simonis",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 480
+          "FieldType": "System.Int32",
+          "FieldLength": 152
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "explicabo",
-  "ExtraField2": "officiis",
-  "ExtraField3": "quisquam",
-  "ExtraField4": "neque",
-  "ExtraField5": "quas",
-  "InStock": 9411.402,
+  "RawExtraInfo": "et",
+  "ExtraField1": "eveniet",
+  "ExtraField2": "esse",
+  "ExtraField3": "iusto",
+  "ExtraField4": "quo",
+  "ExtraField5": "amet",
+  "InStock": 24934.104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldLength": 298
     }
   }
 }

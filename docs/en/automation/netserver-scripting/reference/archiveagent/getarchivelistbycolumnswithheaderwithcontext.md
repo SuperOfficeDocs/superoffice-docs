@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext'>GetArchiveListByColumnsWithHeaderWithContext</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext'>GetArchiveListByColumnsWithHeaderWithContext</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetArchiveListByColumnsWithHeaderWithContext
 ```cs

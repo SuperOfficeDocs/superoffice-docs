@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetQuoteVersionWorkflowStatusInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteVersionWorkflowStatusInfo'>GetQuoteVersionWorkflowStatusInfo</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetQuoteVersionWorkflowStatusInfo'>GetQuoteVersionWorkflowStatusInfo</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetQuoteVersionWorkflowStatusInfo
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CreateOrUpdateQuoteVersionAttachments
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CreateOrUpdateQuoteVersionAttachments'>CreateOrUpdateQuoteVersionAttachments</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CreateOrUpdateQuoteVersionAttachments'>CreateOrUpdateQuoteVersionAttachments</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCreateOrUpdateQuoteVersionAttachments
 ```cs

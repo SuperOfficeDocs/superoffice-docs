@@ -1247,6 +1247,8 @@ items:
     href: enums/shipmentaddrstatus.md
   - name: ShipmentLinkAction
     href: enums/shipmentlinkaction.md
+  - name: ShipmentLinkRedirectKind
+    href: enums/shipmentlinkredirectkind.md
   - name: ShipmentLinkTaskFlags
     href: enums/shipmentlinktaskflags.md
   - name: ShipmentLinkType

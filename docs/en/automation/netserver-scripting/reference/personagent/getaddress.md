@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetAddress
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetAddress'>GetAddress</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetAddress'>GetAddress</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetAddress
 ```cs

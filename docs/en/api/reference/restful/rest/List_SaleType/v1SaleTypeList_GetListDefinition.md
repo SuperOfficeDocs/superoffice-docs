@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 420,
-  "Name": "Torphy, Herzog and Sauer",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 380,
+  "Id": 593,
+  "Name": "Christiansen-Schmitt",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 22,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dignissimos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 578
     }
   },
   "_Links": {

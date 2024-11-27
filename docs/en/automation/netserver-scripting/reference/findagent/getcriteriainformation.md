@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.GetCriteriaInformation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.GetCriteriaInformation'>GetCriteriaInformation</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.GetCriteriaInformation'>GetCriteriaInformation</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeGetCriteriaInformation
 ```cs

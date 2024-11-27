@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.SignalEvent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.SignalEvent'>SignalEvent</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.SignalEvent'>SignalEvent</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeSignalEvent
 ```cs

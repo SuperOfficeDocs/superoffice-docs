@@ -25,7 +25,7 @@ Gets all the DeliveryTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items?includeDeleted=False
+GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Cormier-Gerhold",
-    "Tooltip": "cumque",
+    "Id": 769,
+    "Name": "Cummings-Nienow",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 709,
-    "Rank": 618,
+    "UdListDefinitionId": 832,
+    "Rank": 879,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 636
       }
     }
   }

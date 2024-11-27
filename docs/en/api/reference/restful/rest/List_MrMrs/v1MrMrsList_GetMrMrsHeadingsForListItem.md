@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Bogisich Group",
-    "ToolTip": "Facere eius.",
+    "Id": 339,
+    "Name": "Gorczany LLC",
+    "ToolTip": "Quia laudantium sequi.",
     "Deleted": true,
-    "Rank": 562,
-    "Type": "quidem",
-    "ColorBlock": 110,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "1998-08-21T13:14:11.4141989+02:00",
+    "Rank": 426,
+    "Type": "est",
+    "ColorBlock": 746,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2011-05-16T14:45:13.7242429+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Wilderman-Simonis",
-        "ToolTip": "Inventore tempora facilis quo.",
+        "Id": 591,
+        "Name": "Daugherty Inc and Sons",
+        "ToolTip": "Consequatur non ab.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "laborum",
-        "ColorBlock": 475,
-        "IconHint": "necessitatibus",
+        "Rank": 298,
+        "Type": "quo",
+        "ColorBlock": 934,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2002-01-21T13:14:11.4141989+01:00",
+        "LastChanged": "2016-08-25T14:45:13.7242429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Shanel Labadie",
+        "ExtraInfo": "minus",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Blanca Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 369
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Gladyce Marvin",
+    "ExtraInfo": "quis",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Mr. Rocky Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 322
       }
     }
   }

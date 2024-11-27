@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stanton Group",
-    "DisplayName": "Boyer-Haag",
-    "Description": "Reduced mission-critical local area network",
-    "ToolTip": "Libero sed voluptas soluta.",
+    "Name": "Dare, Walker and Deckow",
+    "DisplayName": "Howell Group",
+    "Description": "Versatile encompassing core",
+    "ToolTip": "Ut laborum quisquam repudiandae est fugit rerum.",
     "Actions": "Implicit",
-    "ActionData": "eligendi",
+    "ActionData": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   }

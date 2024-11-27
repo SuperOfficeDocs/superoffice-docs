@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 585,
-  "PlainMessage": "in",
-  "HtmlMessage": "blanditiis",
-  "SmsMessage": "iure",
-  "Description": "Assimilated systematic open system",
-  "Subject": "quidem",
-  "FolderId": 822,
-  "HeaderField": "voluptas",
-  "Design": "officiis",
+  "ShipmentMessageId": 808,
+  "PlainMessage": "at",
+  "HtmlMessage": "quia",
+  "SmsMessage": "qui",
+  "Description": "Open-source fresh-thinking function",
+  "Subject": "nihil",
+  "FolderId": 414,
+  "HeaderField": "molestias",
+  "Design": "ipsa",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Optimized 24/7 open system",
-  "AccessKey": "asperiores",
-  "DocumentMessage": 227,
-  "Registered": "2023-01-30T13:14:11.1173007+01:00",
-  "RegisteredAssociateId": 370,
-  "Updated": "2007-11-30T13:14:11.1173007+01:00",
-  "UpdatedAssociateId": 532,
-  "UpdatedCount": 593
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Fully-configurable didactic process improvement",
+  "AccessKey": "enim",
+  "DocumentMessage": 12,
+  "Registered": "2000-06-21T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 547,
+  "Updated": "2013-04-04T14:45:13.2555955+02:00",
+  "UpdatedAssociateId": 985,
+  "UpdatedCount": 421
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 167,
-  "PlainMessage": "exercitationem",
-  "HtmlMessage": "voluptates",
-  "SmsMessage": "odit",
-  "Description": "Innovative asynchronous hub",
-  "Subject": "ad",
-  "FolderId": 340,
-  "HeaderField": "ratione",
-  "Design": "incidunt",
+  "ShipmentMessageId": 891,
+  "PlainMessage": "ut",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "est",
+  "Description": "Automated 3rd generation core",
+  "Subject": "sequi",
+  "FolderId": 647,
+  "HeaderField": "veniam",
+  "Design": "in",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Sharable needs-based open architecture",
-  "AccessKey": "repellat",
-  "DocumentMessage": 455,
-  "Registered": "2016-04-05T13:14:11.1173007+02:00",
-  "RegisteredAssociateId": 945,
-  "Updated": "2013-01-31T13:14:11.1173007+01:00",
-  "UpdatedAssociateId": 320,
-  "UpdatedCount": 737,
+  "LongDescription": "Multi-tiered didactic architecture",
+  "AccessKey": "asperiores",
+  "DocumentMessage": 230,
+  "Registered": "2002-04-12T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 146,
+  "Updated": "2009-07-15T14:45:13.2555955+02:00",
+  "UpdatedAssociateId": 98,
+  "UpdatedCount": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

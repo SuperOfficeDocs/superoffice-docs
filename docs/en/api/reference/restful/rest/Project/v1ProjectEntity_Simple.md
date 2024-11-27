@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 816,
-  "Name": "Bartoletti, Moore and Renner",
-  "Description": "Programmable web-enabled process improvement",
+  "ProjectId": 74,
+  "Name": "Pfeffer-Sawayn",
+  "Description": "Organic web-enabled function",
   "URL": "http://www.example.com/",
-  "Type": "atque",
-  "AssociateId": 285,
-  "AssociateFullName": "Teresa Considine",
-  "TypeId": 209,
-  "Updated": "2021-09-06T13:14:10.9454212+02:00",
-  "StatusId": 674,
-  "Status": "cum",
-  "TextId": 115,
-  "PublishTo": "2022-05-29T13:14:10.9454212+02:00",
-  "PublishFrom": "2019-05-09T13:14:10.9454212+02:00",
+  "Type": "aliquam",
+  "AssociateId": 580,
+  "AssociateFullName": "Prof. Edwardo Filiberto Anderson IV",
+  "TypeId": 780,
+  "Updated": "2024-08-26T14:45:12.9744085+02:00",
+  "StatusId": 658,
+  "Status": "dolorum",
+  "TextId": 272,
+  "PublishTo": "1999-12-06T14:45:12.9744085+01:00",
+  "PublishFrom": "1999-01-10T14:45:12.9744085+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1662420",
-  "ActiveErpLinks": 871,
+  "ProjectNumber": "1379559",
+  "ActiveErpLinks": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

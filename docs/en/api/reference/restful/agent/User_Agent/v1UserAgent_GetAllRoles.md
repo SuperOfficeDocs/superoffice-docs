@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Sanford LLC",
-    "ToolTip": "Et numquam eveniet neque sit.",
+    "Id": 989,
+    "Name": "Bogisich, Bartoletti and Cole",
+    "ToolTip": "Ab repellendus qui ipsam in.",
     "Deleted": false,
-    "Rank": 450,
-    "Type": "vel",
-    "ColorBlock": 737,
-    "IconHint": "repellendus",
+    "Rank": 327,
+    "Type": "nisi",
+    "ColorBlock": 709,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2023-07-25T13:14:06.7102053+02:00",
+    "LastChanged": "2001-07-17T14:45:06.6467545+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Okuneva, Marks and Spinka",
-        "ToolTip": "Odit temporibus placeat beatae aut laudantium.",
+        "Id": 914,
+        "Name": "Strosin-Tromp",
+        "ToolTip": "Mollitia qui nesciunt aut quasi excepturi.",
         "Deleted": false,
-        "Rank": 941,
-        "Type": "eaque",
-        "ColorBlock": 189,
-        "IconHint": "cupiditate",
-        "Selected": false,
-        "LastChanged": "2018-04-15T13:14:06.7102053+02:00",
+        "Rank": 493,
+        "Type": "vitae",
+        "ColorBlock": 887,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2017-02-27T14:45:06.6467545+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "quas",
-        "Hidden": true,
-        "FullName": "Kassandra Hilll",
+        "ExtraInfo": "alias",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Esperanza Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 957
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Prof. Kennedi Brooke Schoen V",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mozelle Dicki DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 204
       }
     }
   }

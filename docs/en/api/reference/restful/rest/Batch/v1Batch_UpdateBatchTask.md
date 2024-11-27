@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "Name": "Gottlieb, Collins and Zulauf",
-  "AssociateId": 450,
-  "DetailsTable": 173,
-  "DetailsRecord": 939,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 417,
+  "Name": "Mueller-Fadel",
+  "AssociateId": 2,
+  "DetailsTable": 219,
+  "DetailsRecord": 738,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "consequatur",
-    "ParameterObject2": "exercitationem"
+    "ParameterObject1": "fugiat",
+    "ParameterObject2": "illo"
   },
-  "LastStarted": "2015-04-08T13:14:11.1954363+02:00",
-  "Created": "2022-05-04T13:14:11.1954363+02:00",
-  "StartCount": 964,
-  "DatabaseSerialNumber": "1114315",
-  "Context": "impedit",
-  "Result": "sit",
+  "LastStarted": "2015-03-19T14:45:13.3961895+01:00",
+  "Created": "2020-11-17T14:45:13.3961895+01:00",
+  "StartCount": 70,
+  "DatabaseSerialNumber": "651689",
+  "Context": "cumque",
+  "Result": "expedita",
   "State": "All",
-  "Description": "Integrated multimedia knowledge user",
-  "Response": "qui",
-  "Request": "cumque",
-  "ProgressDescription": "Devolved encompassing middleware",
-  "ProgressPercent": 661,
-  "FileName": "Lynch Inc and Sons",
+  "Description": "Business-focused optimizing frame",
+  "Response": "ea",
+  "Request": "qui",
+  "ProgressDescription": "Digitized local workforce",
+  "ProgressPercent": 231,
+  "FileName": "Russel, Krajcik and Marks",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Brakus, Moen and Pollich",
-  "AssociateId": 10,
-  "DetailsTable": 937,
-  "DetailsRecord": 751,
+  "Id": 837,
+  "Name": "Nolan, King and Crooks",
+  "AssociateId": 409,
+  "DetailsTable": 541,
+  "DetailsRecord": 73,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "tenetur",
-    "ParameterObject2": "quia"
+    "ParameterObject1": "cumque",
+    "ParameterObject2": "ex"
   },
-  "LastStarted": "2002-07-18T13:14:11.1954363+02:00",
-  "Created": "2010-07-03T13:14:11.1954363+02:00",
-  "StartCount": 475,
-  "DatabaseSerialNumber": "1447440",
-  "Context": "minus",
-  "Result": "ut",
+  "LastStarted": "2013-03-22T14:45:13.3961895+01:00",
+  "Created": "2023-02-05T14:45:13.3961895+01:00",
+  "StartCount": 213,
+  "DatabaseSerialNumber": "898929",
+  "Context": "ea",
+  "Result": "corrupti",
   "State": "All",
-  "Description": "Quality-focused directional product",
-  "Response": "rem",
-  "Request": "ut",
-  "ProgressDescription": "Fully-configurable fresh-thinking infrastructure",
-  "ProgressPercent": 497,
-  "FileName": "Mosciski-Berge",
+  "Description": "Object-based discrete matrices",
+  "Response": "iusto",
+  "Request": "in",
+  "ProgressDescription": "Virtual clear-thinking internet solution",
+  "ProgressPercent": 225,
+  "FileName": "Graham-Parker",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldLength": 309
     }
   }
 }

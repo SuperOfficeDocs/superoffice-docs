@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=odit
+GET /api/v1/List/DeliveryTerm/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Maggio-Ritchie",
-    "ToolTip": "Cum ipsum officia ipsam veniam at blanditiis.",
+    "Id": 8,
+    "Name": "Weimann, Franecki and Watsica",
+    "ToolTip": "Officiis consequuntur aut delectus.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "est",
+    "Rank": 10,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Goodwin Inc and Sons",
-        "ToolTip": "Eligendi animi delectus natus magnam maxime ut.",
-        "Deleted": true,
-        "Rank": 271,
-        "Type": "et",
+        "Id": 416,
+        "Name": "Hoppe, Hintz and Pollich",
+        "ToolTip": "Omnis voluptas et qui.",
+        "Deleted": false,
+        "Rank": 293,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 883,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "doloremque",
-        "FullName": "Josiane Crooks",
+        "IconHint": "itaque",
+        "ColorBlock": 892,
+        "ExtraInfo": "culpa",
+        "StyleHint": "nemo",
+        "FullName": "Prof. Krista Jamil Armstrong Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldType": "System.String",
+            "FieldLength": 208
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 908,
-    "ExtraInfo": "ut",
-    "StyleHint": "quia",
-    "FullName": "Ford Legros",
+    "IconHint": "est",
+    "ColorBlock": 466,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "et",
+    "FullName": "Mrs. Lizeth Adela Casper DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 521
+        "FieldType": "System.Int32",
+        "FieldLength": 641
       }
     }
   }

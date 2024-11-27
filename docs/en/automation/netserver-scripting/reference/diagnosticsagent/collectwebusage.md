@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.CollectWebUsage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage'>CollectWebUsage</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.CollectWebUsage'>CollectWebUsage</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeCollectWebUsage
 ```cs

@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "atque",
-  "AssociateId": 840,
+  "Associate": "eveniet",
+  "AssociateId": 509,
   "IsPerson": false,
-  "PersonId": 735,
-  "CountryId": 669,
-  "HomeCountryId": 676,
-  "ContactId": 866,
-  "GroupId": 455,
-  "BusinessId": 858,
-  "CategoryId": 473,
-  "ContactOwner": 147,
-  "RoleId": 382,
-  "RoleName": "O'Reilly-Balistreri",
-  "RoleDescription": "Balanced fresh-thinking benchmark",
+  "PersonId": 260,
+  "CountryId": 446,
+  "HomeCountryId": 301,
+  "ContactId": 550,
+  "GroupId": 772,
+  "BusinessId": 77,
+  "CategoryId": 977,
+  "ContactOwner": 169,
+  "RoleId": 678,
+  "RoleName": "Corwin, Farrell and Littel",
+  "RoleDescription": "Organic multimedia info-mediaries",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 527,
-      "OwnerName": "Ebert-Hayes",
-      "OwnerDescription": "Proactive directional instruction set",
-      "ModuleId": 807,
-      "Name": "Jones-Beatty",
-      "Description": "Multi-layered methodical capability",
-      "Version": "dolor",
+      "OwnerId": 46,
+      "OwnerName": "Huels LLC",
+      "OwnerDescription": "Persistent 5th generation throughput",
+      "ModuleId": 657,
+      "Name": "Mitchell-Bernier",
+      "Description": "Centralized attitude-oriented hierarchy",
+      "Version": "et",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 481,
-      "ExtraInfo": "nihil",
-      "SortOrder": 926,
-      "LicenseNumber": 385,
-      "IsHidden": false,
+      "ExtraFlags": 486,
+      "ExtraInfo": "laboriosam",
+      "SortOrder": 994,
+      "LicenseNumber": 85,
+      "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2015-08-09T13:14:11.289192+02:00",
+      "ExpiryDate": "2002-11-01T14:45:13.5367829+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
   ],
-  "FullName": "Mrs. Damon Maxime Schumm",
-  "EMailAddress": "sed",
+  "FullName": "Gregoria Tillman",
+  "EMailAddress": "id",
   "FunctionRights": [
-    "tenetur",
-    "ipsa"
+    "iure",
+    "magnam"
   ],
-  "EjUserId": 795,
-  "EjAccessLevel": 243,
+  "EjUserId": 583,
+  "EjAccessLevel": 977,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "magnam",
-      "SearchName": "Lebsack LLC",
-      "DisplayName": "Fay LLC",
-      "CredentialId": 41
+      "Type": "aut",
+      "SearchName": "Kirlin-Ward",
+      "DisplayName": "Streich-Heller",
+      "CredentialId": 48
     },
     {
-      "Type": "magnam",
-      "SearchName": "Lebsack LLC",
-      "DisplayName": "Fay LLC",
-      "CredentialId": 41
+      "Type": "aut",
+      "SearchName": "Kirlin-Ward",
+      "DisplayName": "Streich-Heller",
+      "CredentialId": 48
     }
   ],
   "SecondaryGroups": [
-    766,
-    781
+    689,
+    210
   ],
-  "DatabaseContextIdentifier": "exercitationem",
-  "UserName": "Witting Group"
+  "DatabaseContextIdentifier": "consequatur",
+  "UserName": "Crist, Little and Hintz"
 }
 ```

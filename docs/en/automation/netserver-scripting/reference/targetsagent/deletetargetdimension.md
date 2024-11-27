@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.DeleteTargetDimension
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetDimension'>DeleteTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.DeleteTargetDimension'>DeleteTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeDeleteTargetDimension
 ```cs

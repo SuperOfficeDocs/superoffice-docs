@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 932,
-  "Name": "Schiller, Yost and Ondricka",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "Rank": 630,
-  "IsCustomList": false,
+  "Id": 479,
+  "Name": "Schaefer-Hermann",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 449,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 641
     }
   },
   "_Links": {

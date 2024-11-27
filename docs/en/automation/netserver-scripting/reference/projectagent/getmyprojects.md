@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.GetMyProjects
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.GetMyProjects'>GetMyProjects</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.GetMyProjects'>GetMyProjects</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeGetMyProjects
 ```cs

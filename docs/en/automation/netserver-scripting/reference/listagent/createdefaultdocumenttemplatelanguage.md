@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.CreateDefaultDocumentTemplateLanguage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.CreateDefaultDocumentTemplateLanguage'>CreateDefaultDocumentTemplateLanguage</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.CreateDefaultDocumentTemplateLanguage'>CreateDefaultDocumentTemplateLanguage</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeCreateDefaultDocumentTemplateLanguage
 ```cs

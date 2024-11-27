@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Halvorson-Witting",
-  "DeviceName": "Armstrong, Rogahn and Russel",
-  "DeviceIdentifier": "ut",
+  "ApplicationName": "Kling, Farrell and Torphy",
+  "DeviceName": "Monahan Group",
+  "DeviceIdentifier": "voluptatem",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 859,
-  "Name": "Lehner Inc and Sons",
-  "CreatedDate": "2003-07-20T13:14:06.0382898+02:00",
-  "UpdatedDate": "2021-10-17T13:14:06.0382898+02:00",
-  "AssociateFullName": "Lizzie Shawn McLaughlin DVM",
-  "CreatedBy": "doloribus",
-  "UpdatedBy": "placeat",
-  "DeviceIdentifier": "enim",
-  "ForeignAppId": 896,
+  "ForeignDeviceId": 187,
+  "Name": "Rath, Robel and Bartell",
+  "CreatedDate": "2006-05-23T14:45:05.6469762+02:00",
+  "UpdatedDate": "2002-11-30T14:45:05.6469762+01:00",
+  "AssociateFullName": "Ernestina Dedric Gislason DDS",
+  "CreatedBy": "accusamus",
+  "UpdatedBy": "blanditiis",
+  "DeviceIdentifier": "laborum",
+  "ForeignAppId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 856
     }
   }
 }

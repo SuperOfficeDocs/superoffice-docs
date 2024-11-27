@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wisozk-Hamill",
-  "DisplayName": "Kuvalis, Spinka and Thompson",
-  "Description": "Versatile user-facing protocol",
-  "ShortLabel": "sit",
-  "HideLabel": true,
-  "HideField": true,
+  "FieldName": "Bauch, Olson and Daugherty",
+  "DisplayName": "Stanton Group",
+  "Description": "Down-sized analyzing access",
+  "ShortLabel": "perferendis",
+  "HideLabel": false,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsMandatory": false,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 973,
-  "TemplateVariableName": "Runolfsson, Herman and Schowalter"
+  "Rank": 271,
+  "TemplateVariableName": "Rice Group"
 }
 ```

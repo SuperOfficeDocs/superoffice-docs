@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Mar 2011 13:14:10 G3T
+Last-Modified: Fri, 11 Mar 2011 14:45:12 G3T
 
 {
-  "Key": "dolores",
-  "Value": "tempora",
-  "RecordId": 88,
-  "CreatedDate": "2002-11-29T13:14:10.8360396+01:00",
-  "UpdatedDate": "2011-03-21T13:14:10.8360396+01:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "corporis",
-  "TableName": "Fay, McClure and Hahn",
+  "Key": "et",
+  "Value": "tenetur",
+  "RecordId": 473,
+  "CreatedDate": "2019-06-18T14:45:12.8338163+02:00",
+  "UpdatedDate": "2011-03-11T14:45:12.8338163+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "reiciendis",
+  "TableName": "Okuneva Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 567
     }
   }
 }

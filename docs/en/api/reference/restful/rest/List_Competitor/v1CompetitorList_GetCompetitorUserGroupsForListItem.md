@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Walter-Kshlerin",
-    "ToolTip": "Sapiente in deleniti in.",
-    "Deleted": false,
-    "Rank": 687,
-    "Type": "laboriosam",
-    "ColorBlock": 886,
-    "IconHint": "alias",
-    "Selected": true,
-    "LastChanged": "2019-05-01T13:14:11.3360694+02:00",
+    "Id": 89,
+    "Name": "Ritchie-Conroy",
+    "ToolTip": "Iure occaecati sit corrupti voluptate.",
+    "Deleted": true,
+    "Rank": 794,
+    "Type": "sit",
+    "ColorBlock": 190,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2022-12-19T14:45:13.5992714+01:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Nolan, Murray and Harvey",
-        "ToolTip": "Nulla sint praesentium quisquam aliquid.",
-        "Deleted": true,
-        "Rank": 66,
-        "Type": "error",
-        "ColorBlock": 387,
-        "IconHint": "dolorum",
-        "Selected": false,
-        "LastChanged": "2016-12-26T13:14:11.3360694+01:00",
+        "Id": 41,
+        "Name": "Wunsch-Bartoletti",
+        "ToolTip": "Deleniti dolorem laborum expedita quia tempore.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "delectus",
+        "ColorBlock": 741,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2001-04-01T14:45:13.5992714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Jayme Williamson DVM",
+        "ExtraInfo": "esse",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Edward Kihn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldLength": 181
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "cumque",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Benton Lowe",
+    "FullName": "Reva Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

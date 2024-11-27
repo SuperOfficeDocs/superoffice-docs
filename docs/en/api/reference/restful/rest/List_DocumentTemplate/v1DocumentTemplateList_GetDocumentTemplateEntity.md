@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 654,
-  "Name": "Reichert Inc and Sons",
-  "Tooltip": "quod",
-  "SaveInDb": 601,
-  "Filename": "vero",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 302,
+  "Name": "Grant, Cummerata and Klocko",
+  "Tooltip": "qui",
+  "SaveInDb": 642,
+  "Filename": "quae",
+  "DefaultOref": "recusandae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 352,
-  "IntentId": 907,
-  "IsDefaultPublished": false,
-  "Rank": 193,
-  "LoadTemplateFromPlugin": 206,
-  "MimeType": "eum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 652,
+  "AutoeventId": 112,
+  "IntentId": 308,
+  "IsDefaultPublished": true,
+  "Rank": 720,
+  "LoadTemplateFromPlugin": 547,
+  "MimeType": "expedita",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 927,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kamren@mccullough.biz",
+  "EmailSubject": "marjorie.emard@hayes.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rose@lockman.name",
+  "SenderEmailAddress": "kim_romaguera@wolfupton.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 674,
-  "Rank": 45,
-  "DefaultTask": 182,
-  "DefaultTaskText": "molestiae",
-  "IsVisual": true,
-  "LastGenerated": "1998-08-03T13:14:06.3508082+02:00",
-  "Description": "Virtual client-server extranet",
-  "Name": "O'Connell, Kuhlman and Koss",
-  "StatusMonitorId": 496,
-  "PictureId": 297,
+  "OwnerTable": 744,
+  "Rank": 667,
+  "DefaultTask": 669,
+  "DefaultTaskText": "recusandae",
+  "IsVisual": false,
+  "LastGenerated": "2015-09-08T14:45:06.1156216+02:00",
+  "Description": "Switchable zero tolerance synergy",
+  "Name": "Little Group",
+  "StatusMonitorId": 476,
+  "PictureId": 742,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 949,
-  "NumNeedUpdate": 966,
-  "GenerationStart": "2016-05-22T13:14:06.3508082+02:00",
+  "NumMatches": 747,
+  "NumNeedUpdate": 480,
+  "GenerationStart": "2015-08-28T14:45:06.1156216+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

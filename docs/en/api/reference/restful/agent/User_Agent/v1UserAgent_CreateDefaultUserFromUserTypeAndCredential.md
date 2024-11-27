@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 94,
-  "CredentialType": "laboriosam",
-  "CredentialValue": "laudantium",
-  "CredentialDisplayValue": "quaerat"
+  "ContactId": 513,
+  "CredentialType": "assumenda",
+  "CredentialValue": "voluptatibus",
+  "CredentialDisplayValue": "autem"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 964,
-  "Name": "Oberbrunner, Douglas and Jast",
-  "Rank": 524,
-  "Tooltip": "alias",
+  "AssociateId": 124,
+  "Name": "Durgan, Toy and Stoltenberg",
+  "Rank": 527,
+  "Tooltip": "recusandae",
   "LicenseOwners": [
     {
-      "Name": "Erdman, Miller and Willms",
-      "Description": "Extended clear-thinking flexibility",
+      "Name": "Macejkovic, Kub and O'Keefe",
+      "Description": "Switchable stable paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldType": "System.Int32",
+          "FieldLength": 644
         }
       }
     },
     {
-      "Name": "Erdman, Miller and Willms",
-      "Description": "Extended clear-thinking flexibility",
+      "Name": "Macejkovic, Kub and O'Keefe",
+      "Description": "Switchable stable paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 439
+          "FieldType": "System.Int32",
+          "FieldLength": 644
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "delectus",
-      "Tooltip": "commodi",
-      "Id": 266,
-      "Rank": 523,
-      "Deleted": true,
+      "Value": "dolorum",
+      "Tooltip": "sint",
+      "Id": 702,
+      "Rank": 878,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 964
+          "FieldLength": 775
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2003-10-13T13:14:06.6945788+02:00",
-  "Lastlogout": "2015-01-29T13:14:06.6945788+01:00",
-  "EjUserId": 239,
-  "RequestSignature": "dignissimos",
+  "Lastlogin": "2007-01-31T14:45:06.6155103+01:00",
+  "Lastlogout": "2017-03-13T14:45:06.6155103+01:00",
+  "EjUserId": 828,
+  "RequestSignature": "amet",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "consequuntur",
-      "DisplayValue": "ut",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 580
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "consequuntur",
-      "DisplayValue": "ut",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 580
-        }
-      }
-    }
-  ],
-  "UserName": "Brown Group",
-  "TicketCategories": [
-    {
-      "Id": 501,
-      "Name": "Connelly-Erdman",
-      "ToolTip": "Repellendus voluptas illum eum sed hic.",
-      "Deleted": false,
-      "Rank": 477,
-      "Type": "soluta",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "a",
-      "ColorBlock": 307,
-      "ExtraInfo": "aut",
-      "StyleHint": "numquam",
-      "FullName": "Kali Schiller",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 920
-        }
-      }
-    }
-  ],
-  "NickName": "Turcotte-Armstrong",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "possimus"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kertzmann Group",
-      "DisplayName": "Glover Inc and Sons",
-      "Description": "Organized zero administration contingency",
-      "ToolTip": "Dolores eum sunt eum animi ullam omnis.",
-      "Actions": "Implicit",
-      "ActionData": "ratione",
+      "Value": "beatae",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 217
+          "FieldLength": 555
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "beatae",
+      "DisplayValue": "odio",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 555
+        }
+      }
+    }
+  ],
+  "UserName": "Quitzon Group",
+  "TicketCategories": [
+    {
+      "Id": 501,
+      "Name": "Vandervort, Stark and Graham",
+      "ToolTip": "Maiores saepe eligendi saepe doloribus facere natus iure.",
+      "Deleted": false,
+      "Rank": 544,
+      "Type": "ratione",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "temporibus",
+      "ColorBlock": 671,
+      "ExtraInfo": "enim",
+      "StyleHint": "omnis",
+      "FullName": "Easter Koch",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 548
+        }
+      }
+    }
+  ],
+  "NickName": "Stanton LLC",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "illum"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "exercitationem"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kunde-Schowalter",
+      "DisplayName": "Dibbert Inc and Sons",
+      "Description": "Streamlined non-volatile methodology",
+      "ToolTip": "Nesciunt earum molestias consequatur.",
+      "Actions": "Implicit",
+      "ActionData": "asperiores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

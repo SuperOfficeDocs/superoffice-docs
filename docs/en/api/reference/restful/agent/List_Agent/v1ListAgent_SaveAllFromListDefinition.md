@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 730,
+  "UdListDefinitionId": 591,
   "Items": [
     {
-      "Id": 407,
-      "Name": "Macejkovic Inc and Sons",
-      "Tooltip": "amet",
-      "Deleted": true,
-      "UdListDefinitionId": 446,
-      "Rank": 790
+      "Id": 168,
+      "Name": "Feest, Corwin and Hessel",
+      "Tooltip": "consequuntur",
+      "Deleted": false,
+      "UdListDefinitionId": 28,
+      "Rank": 547
     },
     {
-      "Id": 407,
-      "Name": "Macejkovic Inc and Sons",
-      "Tooltip": "amet",
-      "Deleted": true,
-      "UdListDefinitionId": 446,
-      "Rank": 790
+      "Id": 168,
+      "Name": "Feest, Corwin and Hessel",
+      "Tooltip": "consequuntur",
+      "Deleted": false,
+      "UdListDefinitionId": 28,
+      "Rank": 547
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Gleichner, Hahn and Emmerich",
-    "Tooltip": "doloremque",
+    "Id": 869,
+    "Name": "Anderson Inc and Sons",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 695,
-    "Rank": 345,
+    "UdListDefinitionId": 331,
+    "Rank": 261,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 12
       }
     }
   }

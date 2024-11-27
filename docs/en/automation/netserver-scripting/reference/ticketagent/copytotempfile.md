@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.CopyToTempFile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.CopyToTempFile'>CopyToTempFile</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.CopyToTempFile'>CopyToTempFile</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeCopyToTempFile
 ```cs

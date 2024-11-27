@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ChangeEngineInterval
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval'>ChangeEngineInterval</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ChangeEngineInterval'>ChangeEngineInterval</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeChangeEngineInterval
 ```cs

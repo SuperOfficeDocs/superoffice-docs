@@ -50,23 +50,23 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|106|Adm6|||
-|17|Sal0|||
-|29|Ser0|||
-|30|Ser1|||
-|31|Ser2|||
-|32|Ser3|||
-|33|Ser4|||
-|34|Ser5|||
-|64|SerNS03 NetServer|||
-|23|Tje0|||
-|24|Tje1|||
-|25|Tje2|||
-|26|Tje3|||
-|27|Tje4|||
-|28|Tje5|||
-|99|Tjeneste Sjef|||
-|65|TjeNS04 NetServer|||
+|106|Adm6||person_id=223&contact_id=2|
+|17|Sal0||person_id=153&contact_id=2|
+|29|Ser0||person_id=165&contact_id=2|
+|30|Ser1||person_id=166&contact_id=2|
+|31|Ser2||person_id=167&contact_id=2|
+|32|Ser3||person_id=168&contact_id=2|
+|33|Ser4||person_id=169&contact_id=2|
+|34|Ser5||person_id=170&contact_id=2|
+|64|SerNS03 NetServer||person_id=184&contact_id=2|
+|23|Tje0||person_id=159&contact_id=2|
+|24|Tje1||person_id=160&contact_id=2|
+|25|Tje2||person_id=161&contact_id=2|
+|26|Tje3||person_id=162&contact_id=2|
+|27|Tje4||person_id=163&contact_id=2|
+|28|Tje5||person_id=164&contact_id=2|
+|99|Tjeneste Sjef||person_id=205&contact_id=2|
+|65|TjeNS04 NetServer||person_id=185&contact_id=2|
 
 
 ## Related MDO Lists

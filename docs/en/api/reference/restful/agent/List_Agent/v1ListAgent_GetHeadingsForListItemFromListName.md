@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Toy, Wintheiser and Hauck",
-  "ListItemId": 452,
+  "UdListDefinitionName": "O'Hara Inc and Sons",
+  "ListItemId": 49,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Mills-Bode",
-    "ToolTip": "Adipisci dolor eius.",
-    "Deleted": true,
-    "Rank": 560,
-    "Type": "tenetur",
-    "ColorBlock": 991,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2015-02-06T13:14:06.0851676+01:00",
+    "Id": 803,
+    "Name": "Torphy, Wisozk and Kris",
+    "ToolTip": "Aut sed omnis quaerat.",
+    "Deleted": false,
+    "Rank": 238,
+    "Type": "laboriosam",
+    "ColorBlock": 587,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2023-07-05T14:45:05.7094637+02:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Hegmann LLC",
-        "ToolTip": "In cum occaecati reiciendis.",
+        "Id": 919,
+        "Name": "Kiehn Group",
+        "ToolTip": "Laborum vero quasi nesciunt numquam.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "quod",
-        "ColorBlock": 128,
-        "IconHint": "enim",
+        "Rank": 500,
+        "Type": "sapiente",
+        "ColorBlock": 299,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "1998-12-05T13:14:06.0851676+01:00",
+        "LastChanged": "2017-05-20T14:45:05.7094637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Ariel Pollich",
+        "ExtraInfo": "quia",
+        "StyleHint": "ducimus",
+        "Hidden": true,
+        "FullName": "Noble Hansen V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 742
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "rem",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Prof. Wanda Jayson Collier",
+    "FullName": "Colt Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 54
       }
     }
   }

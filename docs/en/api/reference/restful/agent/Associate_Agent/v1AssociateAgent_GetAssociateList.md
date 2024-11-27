@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 32,
-    "Name": "Prosacco, Oberbrunner and Koch",
-    "PersonId": 25,
-    "Rank": 10,
-    "Tooltip": "et",
+    "AssociateId": 69,
+    "Name": "Wuckert-Walsh",
+    "PersonId": 980,
+    "Rank": 964,
+    "Tooltip": "enim",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 946,
-    "FullName": "Ms. Seth Berge",
-    "FormalName": "Beahan Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 226,
-    "UserName": "Pagac, Von and Hansen",
+    "GroupIdx": 541,
+    "FullName": "Mrs. Dan Ally Bartell",
+    "FormalName": "Lemke, Will and Gusikowski",
+    "Deleted": false,
+    "EjUserId": 168,
+    "UserName": "DuBuque, Schuppe and Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 323
       }
     }
   }

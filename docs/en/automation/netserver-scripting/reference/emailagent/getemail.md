@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetEMail
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetEMail'>GetEMail</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetEMail'>GetEMail</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetEMail
 ```cs

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Windler, Ritchie and Tromp",
-    "ToolTip": "Nulla optio dolorem autem occaecati unde.",
+    "Id": 127,
+    "Name": "Ledner, Erdman and Streich",
+    "ToolTip": "Velit eligendi eos magni est illum consequatur.",
     "Deleted": false,
-    "Rank": 852,
-    "Type": "quia",
-    "ColorBlock": 171,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "2000-05-23T13:14:11.3829471+02:00",
+    "Rank": 583,
+    "Type": "voluptatem",
+    "ColorBlock": 195,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "1999-03-05T14:45:13.6773768+01:00",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Turner-Kshlerin",
-        "ToolTip": "Quod voluptates eos consequatur.",
-        "Deleted": true,
-        "Rank": 457,
-        "Type": "voluptatem",
-        "ColorBlock": 780,
-        "IconHint": "dolor",
+        "Id": 51,
+        "Name": "Weimann Group",
+        "ToolTip": "Quas id esse.",
+        "Deleted": false,
+        "Rank": 302,
+        "Type": "iure",
+        "ColorBlock": 728,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2011-02-03T13:14:11.3829471+01:00",
+        "LastChanged": "2022-01-27T14:45:13.6773768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Miss Florine Constance Dooley IV"
+        "ExtraInfo": "atque",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Ms. Evan Candida Parker II"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "cum",
-    "Hidden": true,
-    "FullName": "Davion Smith"
+    "ExtraInfo": "quia",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Prof. Anibal Monahan I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Hettinger, Runolfsdottir and Kilback",
-    "ToolTip": "Dolor omnis et nobis velit numquam.",
+    "Id": 34,
+    "Name": "Cole Group",
+    "ToolTip": "Eos voluptas enim.",
     "Deleted": false,
-    "Rank": 11,
-    "Type": "fuga",
-    "ColorBlock": 733,
-    "IconHint": "qui",
+    "Rank": 737,
+    "Type": "nemo",
+    "ColorBlock": 77,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2001-02-21T13:14:11.3829471+01:00",
+    "LastChanged": "2012-10-13T14:45:13.6773768+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Walter Group",
-        "ToolTip": "Dolorum sit.",
-        "Deleted": true,
-        "Rank": 896,
-        "Type": "minima",
-        "ColorBlock": 921,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2013-01-05T13:14:11.3829471+01:00",
+        "Id": 798,
+        "Name": "McCullough, Glover and Harris",
+        "ToolTip": "Et consequatur dignissimos velit veniam.",
+        "Deleted": false,
+        "Rank": 21,
+        "Type": "non",
+        "ColorBlock": 768,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2006-12-17T14:45:13.6773768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Raven Brakus",
+        "FullName": "Mr. Giovanni Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldType": "System.String",
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Benton Rutherford II",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Barton Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

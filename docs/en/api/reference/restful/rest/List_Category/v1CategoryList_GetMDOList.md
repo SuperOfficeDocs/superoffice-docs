@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=consequatur
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Barrows, Abshire and Rippin",
-    "ToolTip": "Qui ut.",
-    "Deleted": false,
-    "Rank": 228,
-    "Type": "facilis",
+    "Id": 645,
+    "Name": "Harber Group",
+    "ToolTip": "Veniam et sit quod illo maiores est.",
+    "Deleted": true,
+    "Rank": 632,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Wolff Inc and Sons",
-        "ToolTip": "Aliquam sit.",
-        "Deleted": true,
-        "Rank": 284,
-        "Type": "eius",
+        "Id": 349,
+        "Name": "Olson-Hessel",
+        "ToolTip": "Voluptas autem sint.",
+        "Deleted": false,
+        "Rank": 615,
+        "Type": "odio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 84,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "vel",
-        "FullName": "Lafayette Metz",
+        "IconHint": "porro",
+        "ColorBlock": 396,
+        "ExtraInfo": "nihil",
+        "StyleHint": "recusandae",
+        "FullName": "Prof. Zane Kirsten Simonis V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 770
+            "FieldLength": 573
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 297,
-    "ExtraInfo": "quidem",
-    "StyleHint": "eaque",
-    "FullName": "Maeve Hane I",
+    "IconHint": "explicabo",
+    "ColorBlock": 862,
+    "ExtraInfo": "possimus",
+    "StyleHint": "atque",
+    "FullName": "Angelo Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 366
       }
     }
   }

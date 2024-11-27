@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.RefreshFolderForAssociate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.RefreshFolderForAssociate'>RefreshFolderForAssociate</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.RefreshFolderForAssociate'>RefreshFolderForAssociate</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeRefreshFolderForAssociate
 ```cs

@@ -10,7 +10,7 @@ so.envir: onsite
 
 # PhoneListAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPhoneListAgent'>PhoneListAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IPhoneListAgent'>PhoneListAgent</see> that can trigger server-side event scripts.
 
 * [AddToFavorites](addtofavorites.md)
 * [GetContactPhones](getcontactphones.md)

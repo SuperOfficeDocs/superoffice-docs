@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.Find
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.Find'>Find</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.Find'>Find</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeFind
 ```cs

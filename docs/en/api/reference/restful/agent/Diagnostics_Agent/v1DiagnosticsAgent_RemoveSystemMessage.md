@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 526,
-  "SystemMessageId": "accusamus"
+  "OnlineappId": 933,
+  "SystemMessageId": "et"
 }
 ```
 

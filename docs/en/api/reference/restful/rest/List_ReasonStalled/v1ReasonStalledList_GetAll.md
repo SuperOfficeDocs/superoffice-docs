@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 845,
-    "Name": "Donnelly, Kessler and Schmeler",
-    "Tooltip": "quod",
+    "Id": 846,
+    "Name": "Hauck LLC",
+    "Tooltip": "cum",
     "Deleted": false,
-    "UdListDefinitionId": 899,
-    "Rank": 336,
+    "UdListDefinitionId": 602,
+    "Rank": 178,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 939
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Zemlak, Blick and Ward",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 624,
-  "IsCustomList": true,
+  "Id": 449,
+  "Name": "Tremblay LLC",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "Rank": 821,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "hic",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 451,
-  "Name": "Doyle LLC",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 274,
-  "IsCustomList": true,
+  "Id": 640,
+  "Name": "Lebsack Inc and Sons",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 597,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "provident",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

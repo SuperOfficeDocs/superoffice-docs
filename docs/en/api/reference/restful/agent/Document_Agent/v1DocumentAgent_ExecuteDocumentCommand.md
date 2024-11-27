@@ -84,16 +84,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 100,
-  "VersionId": "ipsam",
+  "DocumentId": 166,
+  "VersionId": "possimus",
   "AllowedReturnTypes": [
-    "consectetur",
-    "aut"
+    "atque",
+    "vero"
   ],
-  "Command": "quia",
+  "Command": "dolorem",
   "AdditionalData": [
-    "voluptatibus",
-    "eum"
+    "et",
+    "molestiae"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "libero",
-  "VersionId": "delectus",
-  "Success": true,
+  "ExternalReference": "voluptatum",
+  "VersionId": "nemo",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "omnis",
-  "AdditionalInfo": "pariatur"
+  "Value": "iste",
+  "AdditionalInfo": "aut"
 }
 ```

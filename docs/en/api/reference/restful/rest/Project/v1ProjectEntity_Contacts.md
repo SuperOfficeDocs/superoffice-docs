@@ -75,11 +75,11 @@ GET /api/v1/Project/{id}/Contacts?$select=name,department,category/id
 GET /api/v1/Project/{id}/Contacts?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Contacts?$orderBy=name asc
 GET /api/v1/Project/{id}/Contacts?$entities=voluptas
-GET /api/v1/Project/{id}/Contacts?$top=957
-GET /api/v1/Project/{id}/Contacts?$skip=559
+GET /api/v1/Project/{id}/Contacts?$top=242
+GET /api/v1/Project/{id}/Contacts?$skip=518
 GET /api/v1/Project/{id}/Contacts?$mode=Full
 GET /api/v1/Project/{id}/Contacts?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Contacts?$context=ut
+GET /api/v1/Project/{id}/Contacts?$context=omnis
 GET /api/v1/Project/{id}/Contacts?$format=JSON
 GET /api/v1/Project/{id}/Contacts?$jsonSafe=True
 GET /api/v1/Project/{id}/Contacts?$output=Display
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Project/{id}/Contacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quis",
+  "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 641,
+      "PrimaryKey": 9342,
       "EntityName": "person",
-      "personId": 641,
-      "fullName": "Rafaela Hegmann"
+      "personId": 9342,
+      "fullName": "Allan Blick"
     },
     {
-      "PrimaryKey": 4278,
+      "PrimaryKey": 305,
       "EntityName": "person",
-      "personId": 4278,
-      "fullName": "Baron Goyette"
+      "personId": 305,
+      "fullName": "Demetris Hermiston"
     }
   ]
 }

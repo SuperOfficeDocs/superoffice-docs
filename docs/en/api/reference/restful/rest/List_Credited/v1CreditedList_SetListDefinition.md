@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 553,
-  "Name": "Boehm Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 250,
+  "Name": "Jones-Ledner",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 428,
+  "Rank": 790,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Corkery-Waters",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 28,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 120,
+  "Name": "Pagac-Hyatt",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 610,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "ListType": "commodi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 745
     }
   }
 }

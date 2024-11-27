@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.RemoveSystemMessageForAssociate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate'>RemoveSystemMessageForAssociate</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.RemoveSystemMessageForAssociate'>RemoveSystemMessageForAssociate</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeRemoveSystemMessageForAssociate
 ```cs

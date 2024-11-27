@@ -720,11 +720,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExplicitInvitation?$select=recordType,contact/registeredBy,contact/NumberOfNotCompletedActivitiesInPeriod,person/personExtra/x_person_request_relation,person/correspondingAssociate/usergroup
+GET /api/v1/archive/ExplicitInvitation?$select=recurring,contact/postAddress/state,contact/contactAssociate/contactCategory,contact/saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

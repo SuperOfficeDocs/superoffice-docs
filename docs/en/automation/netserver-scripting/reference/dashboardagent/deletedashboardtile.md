@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.DeleteDashboardTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile'>DeleteDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.DeleteDashboardTile'>DeleteDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeDeleteDashboardTile
 ```cs

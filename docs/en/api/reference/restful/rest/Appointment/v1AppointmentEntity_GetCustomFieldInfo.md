@@ -72,7 +72,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Renner-Barton",
-  "DisplayName": "VonRueden, Leannon and Ebert",
-  "Description": "Synergistic assymetric task-force",
-  "ShortLabel": "optio",
+  "FieldName": "Morissette-Feest",
+  "DisplayName": "Shanahan, Reinger and Pfannerstill",
+  "Description": "Face to face assymetric support",
+  "ShortLabel": "distinctio",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 4,
-  "TemplateVariableName": "Leffler Group"
+  "IsDisplayField": false,
+  "Rank": 476,
+  "TemplateVariableName": "Murray LLC"
 }
 ```

@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 430,
-  "Name": "Spencer, Grimes and Johnston",
+  "WebhookId": 865,
+  "Name": "Dooley Group",
   "Events": [
-    "qui",
-    "dolores"
+    "sunt",
+    "impedit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sit",
+  "Secret": "quis",
   "State": "Active",
-  "Type": "doloribus",
+  "Type": "consectetur",
   "Headers": {
-    "Headers1": "illo",
-    "Headers2": "reiciendis"
+    "Headers1": "culpa",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2005-09-13T13:14:11.289192+02:00",
+  "Registered": "2021-05-10T14:45:13.5367829+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-06-21T13:14:11.289192+02:00",
+  "Updated": "2002-02-23T14:45:13.5367829+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "bobby_runte@braun.com",
+  "ErrorsEmail": "sherman@kesslerparisian.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

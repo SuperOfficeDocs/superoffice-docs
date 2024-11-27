@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=659
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=847
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 263,
-  "WorkflowStepId": 717,
-  "WorkflowId": 379,
-  "Rank": 71,
+  "WorkflowWaitForActionId": 720,
+  "WorkflowStepId": 406,
+  "WorkflowId": 660,
+  "Rank": 777,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Fay-Quigley",
-      "Description": "Open-source scalable strategy",
-      "Rank": 21,
+      "Name": "Kub LLC",
+      "Description": "Face to face local time-frame",
+      "Rank": 763,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Fay-Quigley",
-      "Description": "Open-source scalable strategy",
-      "Rank": 21,
+      "Name": "Kub LLC",
+      "Description": "Face to face local time-frame",
+      "Rank": 763,
       "Restrictions": [
         {},
         {}
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

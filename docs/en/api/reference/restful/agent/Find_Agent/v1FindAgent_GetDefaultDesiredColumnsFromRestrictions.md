@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Christiansen, Farrell and Mraz",
+  "ProviderName": "Rowe LLC",
   "Restrictions": [
     {
-      "Name": "Bauch-Hintz",
-      "Operator": "aliquid",
+      "Name": "Keebler, Pagac and Connelly",
+      "Operator": "laudantium",
       "Values": [
-        "labore",
-        "officia"
+        "officiis",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "consequatur"
+        "dolores",
+        "culpa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 74,
+      "InterParenthesis": 108,
       "InterOperator": "And",
-      "UniqueHash": 416
+      "UniqueHash": 555
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Ortiz, Mraz and Terry",
-    "DisplayTooltip": "est",
-    "DisplayType": "id",
-    "CanOrderBy": true,
-    "Name": "Gusikowski-Kassulke",
+    "DisplayName": "Carter-Feil",
+    "DisplayTooltip": "a",
+    "DisplayType": "error",
+    "CanOrderBy": false,
+    "Name": "Hoeger-Schuster",
     "CanRestrictBy": true,
-    "RestrictionType": "expedita",
-    "RestrictionListName": "Koss-Farrell",
+    "RestrictionType": "pariatur",
+    "RestrictionListName": "Considine, Berge and Oberbrunner",
     "IsVisible": true,
-    "ExtraInfo": "est",
-    "Width": "id",
-    "IconHint": "eveniet",
-    "HeadingIconHint": "in"
+    "ExtraInfo": "occaecati",
+    "Width": "pariatur",
+    "IconHint": "sint",
+    "HeadingIconHint": "architecto"
   }
 ]
 ```

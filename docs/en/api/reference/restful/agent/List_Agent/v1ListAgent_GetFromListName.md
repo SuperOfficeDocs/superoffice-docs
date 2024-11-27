@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "UdListDefinitionName": "Batz LLC"
+  "Id": 43,
+  "UdListDefinitionName": "Runolfsson, Lebsack and Abernathy"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Kessler, Langosh and Durgan",
-  "Tooltip": "provident",
+  "Id": 667,
+  "Name": "Dooley-Gibson",
+  "Tooltip": "neque",
   "Deleted": false,
-  "UdListDefinitionId": 519,
-  "Rank": 756,
+  "UdListDefinitionId": 915,
+  "Rank": 567,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   }
 }

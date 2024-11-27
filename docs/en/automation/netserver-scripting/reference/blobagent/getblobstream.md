@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetBlobStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream'>GetBlobStream</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetBlobStream'>GetBlobStream</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetBlobStream
 ```cs

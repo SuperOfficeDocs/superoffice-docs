@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tenetur",
-  "ProviderName": "Becker, Schiller and Hettinger",
-  "StorageKey": "vel",
+  "StorageType": "aut",
+  "ProviderName": "Macejkovic LLC",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "Kub-Raynor",
-    "Rogahn-Gulgowski"
+    "Marks-Rowe",
+    "Ferry-Reynolds"
   ],
   "StaticColumns": [
-    "hic",
-    "sequi"
+    "quidem",
+    "sint"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "O'Connell Inc and Sons",
-      "Operator": "enim",
+      "Name": "Considine-Cole",
+      "Operator": "commodi",
       "Values": [
-        "animi",
-        "tenetur"
+        "aut",
+        "distinctio"
       ],
       "DisplayValues": [
-        "voluptate",
-        "deserunt"
+        "tempore",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 897,
+      "InterParenthesis": 684,
       "InterOperator": "And",
-      "UniqueHash": 539
+      "UniqueHash": 144
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Boyle, West and Connelly",
-      "DisplayTooltip": "quo",
-      "DisplayType": "iste",
+      "DisplayName": "Schuppe-Gottlieb",
+      "DisplayTooltip": "vero",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Hodkiewicz, Trantow and Mayer",
-      "CanRestrictBy": true,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Shanahan, Hamill and Fritsch",
+      "Name": "Schuster, Ondricka and Hauck",
+      "CanRestrictBy": false,
+      "RestrictionType": "praesentium",
+      "RestrictionListName": "Treutel-Kunze",
       "IsVisible": true,
-      "ExtraInfo": "corporis",
-      "Width": "et",
-      "IconHint": "quisquam",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "et",
+      "Width": "asperiores",
+      "IconHint": "eligendi",
+      "HeadingIconHint": "pariatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Lemke, Schowalter and Vandervort",
-      "PrimaryKey": 442,
+      "EntityName": "Swift LLC",
+      "PrimaryKey": 188,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "deleniti",
-          "LinkHint": "iusto"
+          "DisplayValue": "impedit",
+          "TooltipHint": "veritatis",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "sequi",
-      "StyleHint": "est",
+      "LinkHint": "iste",
+      "StyleHint": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 486
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schmitt, Satterfield and Klein",
-      "Description": "Inverse needs-based benchmark",
-      "Rank": 468,
+      "Name": "Koch Group",
+      "Description": "Centralized exuding interface",
+      "Rank": 715,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt, Satterfield and Klein",
-      "Description": "Inverse needs-based benchmark",
-      "Rank": 468,
+      "Name": "Koch Group",
+      "Description": "Centralized exuding interface",
+      "Rank": 715,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 266
     }
   }
 }

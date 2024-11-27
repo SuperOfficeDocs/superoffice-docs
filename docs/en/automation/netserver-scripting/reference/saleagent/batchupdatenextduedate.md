@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.BatchUpdateNextDueDate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate'>BatchUpdateNextDueDate</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.BatchUpdateNextDueDate'>BatchUpdateNextDueDate</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeBatchUpdateNextDueDate
 ```cs

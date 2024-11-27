@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 955,
-  "Name": "Brakus-Marks",
-  "Tooltip": "quis",
-  "Rank": 808,
-  "Rate": 10959.598,
-  "Units": 11388.956,
+  "CurrencyId": 595,
+  "Name": "Auer-Johnston",
+  "Tooltip": "aperiam",
+  "Rank": 620,
+  "Rate": 5446.892,
+  "Units": 18459.26,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 763,
-  "Name": "Breitenberg, Hayes and Stiedemann",
-  "Tooltip": "provident",
-  "Rank": 354,
-  "Rate": 28901.748,
-  "Units": 3049.382,
-  "Deleted": true,
+  "CurrencyId": 269,
+  "Name": "Jacobi LLC",
+  "Tooltip": "itaque",
+  "Rank": 577,
+  "Rate": 796.036,
+  "Units": 15811.029999999999,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 377
     }
   }
 }

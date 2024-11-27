@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 216,
-    "TabName": "Smith-Brown",
-    "Order": "voluptatem",
-    "AssociateId": 163,
+    "TabOrderId": 819,
+    "TabName": "Beier, Wyman and Maggio",
+    "Order": "consequatur",
+    "AssociateId": 793,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 697
       }
     }
   },
   {
-    "TabOrderId": 216,
-    "TabName": "Smith-Brown",
-    "Order": "voluptatem",
-    "AssociateId": 163,
+    "TabOrderId": 819,
+    "TabName": "Beier, Wyman and Maggio",
+    "Order": "consequatur",
+    "AssociateId": 793,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 697
       }
     }
   }

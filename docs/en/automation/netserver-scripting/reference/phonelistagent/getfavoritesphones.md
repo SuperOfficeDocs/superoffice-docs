@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PhoneListAgent.GetFavoritesPhones
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPhoneListAgent.GetFavoritesPhones'>GetFavoritesPhones</see> method on the <see cref='IPhoneListAgent'>IPhoneListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPhoneListAgent.GetFavoritesPhones'>GetFavoritesPhones</see> method on the <see cref='IPhoneListAgent'>IPhoneListAgent</see>  service agent.
 
 ## BeforeGetFavoritesPhones
 ```cs

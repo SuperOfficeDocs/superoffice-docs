@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.LogViewState
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState'>LogViewState</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.LogViewState'>LogViewState</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeLogViewState
 ```cs

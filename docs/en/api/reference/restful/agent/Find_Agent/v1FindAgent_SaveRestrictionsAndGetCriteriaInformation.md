@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eius",
-  "ProviderName": "Klocko, Marquardt and Mills",
-  "StorageKey": "voluptatem",
+  "StorageType": "a",
+  "ProviderName": "O'Hara, Jacobson and Beatty",
+  "StorageKey": "qui",
   "Restrictions": [
     {
-      "Name": "Gibson, Aufderhar and Moore",
-      "Operator": "consequatur",
+      "Name": "O'Kon-Bahringer",
+      "Operator": "voluptatem",
       "Values": [
-        "et",
-        "molestias"
+        "quidem",
+        "occaecati"
       ],
       "DisplayValues": [
-        "fugit",
-        "corrupti"
+        "molestias",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 710,
+      "InterParenthesis": 132,
       "InterOperator": "And",
-      "UniqueHash": 1001
+      "UniqueHash": 518
     }
   ],
   "StaticColumns": [
-    "consequatur",
-    "earum"
+    "eaque",
+    "non"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Upton, Gislason and Gorczany",
-      "Operator": "mollitia",
+      "Name": "Volkman-Parker",
+      "Operator": "qui",
       "Values": [
-        "fugit",
-        "iste"
+        "dolorem",
+        "corporis"
       ],
       "DisplayValues": [
-        "optio",
-        "iste"
+        "enim",
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 387,
+      "InterParenthesis": 666,
       "InterOperator": "And",
-      "UniqueHash": 756
+      "UniqueHash": 912
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kihn, Carroll and Abshire",
-      "DisplayTooltip": "cupiditate",
-      "DisplayType": "eos",
-      "CanOrderBy": true,
-      "Name": "Leannon, Kreiger and Nikolaus",
-      "CanRestrictBy": true,
-      "RestrictionType": "tenetur",
-      "RestrictionListName": "Kessler-Friesen",
-      "IsVisible": false,
-      "ExtraInfo": "accusamus",
-      "Width": "qui",
-      "IconHint": "nostrum",
-      "HeadingIconHint": "debitis"
+      "DisplayName": "Lakin Group",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "similique",
+      "CanOrderBy": false,
+      "Name": "Armstrong Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "iure",
+      "RestrictionListName": "Marvin Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "sequi",
+      "Width": "accusamus",
+      "IconHint": "repellendus",
+      "HeadingIconHint": "rerum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Johns-Champlin",
-      "PrimaryKey": 507,
+      "EntityName": "Fritsch LLC",
+      "PrimaryKey": 697,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "dolorem",
-          "LinkHint": "omnis"
+          "DisplayValue": "perspiciatis",
+          "TooltipHint": "maxime",
+          "LinkHint": "reiciendis"
         }
       },
-      "LinkHint": "ducimus",
-      "StyleHint": "qui",
+      "LinkHint": "molestias",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 861
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kreiger, Klocko and Watsica",
-      "Description": "Digitized maximized core",
-      "Rank": 168,
+      "Name": "Langosh-Hand",
+      "Description": "Ameliorated non-volatile solution",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kreiger, Klocko and Watsica",
-      "Description": "Digitized maximized core",
-      "Rank": 168,
+      "Name": "Langosh-Hand",
+      "Description": "Ameliorated non-volatile solution",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 988
     }
   }
 }

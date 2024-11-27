@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=332
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=34
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 481,
-  "CreatedAt": "2000-11-20T13:14:06.6633276+01:00",
+  "TicketMessageId": 239,
+  "CreatedAt": "2005-07-06T14:45:06.5686452+02:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "occaecati",
-  "PersonId": 703,
-  "PersonFullName": "Mrs. Tia Annamae Leuschke PhD",
-  "ContactId": 590,
-  "ContactName": "Schmitt-Satterfield",
+  "Important": true,
+  "Author": "saepe",
+  "PersonId": 69,
+  "PersonFullName": "Lea Kemmer",
+  "ContactId": 487,
+  "ContactName": "Keeling, Frami and Muller",
   "ContactDepartment": "",
-  "NumAttachments": 872,
-  "EmailHeader": "makayla_blick@lockman.com",
+  "NumAttachments": 88,
+  "EmailHeader": "alexane.crona@huelkozey.name",
   "MessageHeaders": [
     {
-      "Id": 729,
-      "Name": "Harber LLC",
-      "Value": "molestiae",
+      "Id": 849,
+      "Name": "Crist, Heller and Jerde",
+      "Value": "numquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 448
         }
       }
     }
   ],
-  "Language": "reiciendis",
-  "Sentiment": 796,
-  "SentimentConfidence": 742,
-  "CreatedBy": 692,
-  "ChangedAt": "2005-08-11T13:14:06.6633276+02:00",
+  "Language": "quod",
+  "Sentiment": 149,
+  "SentimentConfidence": 39,
+  "CreatedBy": 843,
+  "ChangedAt": "2020-07-17T14:45:06.5686452+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 806
     }
   }
 }

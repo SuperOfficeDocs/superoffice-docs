@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "dolorum",
-  "OptionalSecretKey": "amet"
+  "Token": "et",
+  "OptionalSecretKey": "voluptates"
 }
 ```
 

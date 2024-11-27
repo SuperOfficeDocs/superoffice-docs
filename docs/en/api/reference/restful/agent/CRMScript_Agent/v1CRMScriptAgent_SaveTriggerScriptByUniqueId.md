@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "praesentium",
+  "TriggerScriptUniqueId": "quia",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 713,
-  "Name": "Bernier Group",
+  "ScreenChooserId": 876,
+  "Name": "Thompson, Hammes and Zieme",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "vel",
-  "Source": "eum",
-  "Registered": "2022-06-27T13:14:05.7257709+02:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2017-07-14T13:14:05.7257709+02:00",
-  "UpdatedAssociateId": 368,
+  "UniqueIdentifier": "tenetur",
+  "Source": "velit",
+  "Registered": "1999-04-23T14:45:05.1783023+02:00",
+  "RegisteredAssociateId": 376,
+  "Updated": "2009-03-06T14:45:05.1783023+01:00",
+  "UpdatedAssociateId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldLength": 908
     }
   }
 }

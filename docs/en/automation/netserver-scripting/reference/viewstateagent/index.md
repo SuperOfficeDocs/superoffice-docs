@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ViewStateAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IViewStateAgent'>ViewStateAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IViewStateAgent'>ViewStateAgent</see> that can trigger server-side event scripts.
 
 * [DeleteHistory](deletehistory.md)
 * [GetCurrent](getcurrent.md)

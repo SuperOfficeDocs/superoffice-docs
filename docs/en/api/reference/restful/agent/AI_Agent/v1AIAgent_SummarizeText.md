@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "quis",
-  "PercentSmaller": 169,
-  "IsoLangCode": "pariatur"
+  "Text": "est",
+  "PercentSmaller": 577,
+  "IsoLangCode": "facilis"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"rerum"
 ```

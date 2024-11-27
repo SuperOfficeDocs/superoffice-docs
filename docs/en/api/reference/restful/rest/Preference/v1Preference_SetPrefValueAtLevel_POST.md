@@ -33,7 +33,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=velit
+POST /api/v1/Preference/{section}/{key}/{prefLevel}?value=id
 ```
 
 
@@ -64,7 +64,7 @@ No Content
 POST /api/v1/Preference/{section}/{key}/{prefLevel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

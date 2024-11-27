@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 624,
-  "ColumnId": 595,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 678,
-  "FieldLabel": "facere",
-  "FieldLeft": 796,
-  "FieldTop": 428,
+  "UDefFieldId": 64,
+  "ColumnId": 398,
+  "FieldDefault": "consectetur",
+  "FieldHeight": 664,
+  "FieldLabel": "fugiat",
+  "FieldLeft": 202,
+  "FieldTop": 549,
   "FieldType": "Checkbox",
-  "FieldWidth": 550,
-  "FormatMask": "ea",
+  "FieldWidth": 442,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 636,
-  "LabelLeft": 292,
-  "LabelTop": 653,
-  "LabelWidth": 61,
-  "LastVersionId": 721,
-  "ListTableId": 874,
+  "LabelHeight": 375,
+  "LabelLeft": 19,
+  "LabelTop": 863,
+  "LabelWidth": 867,
+  "LastVersionId": 553,
+  "ListTableId": 348,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 531,
-  "ProgId": "eaque",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsa",
-  "TabOrder": 323,
-  "TextLength": 607,
-  "Tooltip": "non",
-  "UdefIdentity": 948,
-  "UDListDefinitionId": 857,
+  "Page1LineNo": 875,
+  "ProgId": "illo",
+  "IsReadOnly": false,
+  "ShortLabel": "et",
+  "TabOrder": 845,
+  "TextLength": 150,
+  "Tooltip": "illo",
+  "UdefIdentity": 829,
+  "UDListDefinitionId": 432,
   "Justification": "Center",
-  "Version": 312,
-  "TemplateVariableName": "Reichert Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Nienow LLC",
+  "Version": 491,
+  "TemplateVariableName": "Strosin, Rutherford and Conroy",
+  "HasBeenPublished": false,
+  "MdoListName": "Hoppe, Adams and DuBuque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldLength": 550
     }
   }
 }

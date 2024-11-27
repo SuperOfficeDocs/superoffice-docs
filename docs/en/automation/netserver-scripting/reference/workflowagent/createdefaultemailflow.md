@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.CreateDefaultEmailFlow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow'>CreateDefaultEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.CreateDefaultEmailFlow'>CreateDefaultEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeCreateDefaultEmailFlow
 ```cs

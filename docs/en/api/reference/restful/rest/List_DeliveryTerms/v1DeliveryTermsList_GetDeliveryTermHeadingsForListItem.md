@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Stanton-Zulauf",
-    "ToolTip": "Tempora dolor sed sit quo.",
+    "Id": 470,
+    "Name": "Emard, Brakus and Klein",
+    "ToolTip": "Nesciunt doloremque minima delectus delectus est.",
     "Deleted": false,
-    "Rank": 178,
-    "Type": "quis",
-    "ColorBlock": 880,
-    "IconHint": "suscipit",
+    "Rank": 204,
+    "Type": "dignissimos",
+    "ColorBlock": 114,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2011-04-07T13:14:11.3829471+02:00",
+    "LastChanged": "2017-05-09T14:45:13.6773768+02:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Romaguera-Dooley",
-        "ToolTip": "Officia autem laborum.",
+        "Id": 715,
+        "Name": "Hartmann-Toy",
+        "ToolTip": "Et et saepe aut non qui optio distinctio.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "quos",
-        "ColorBlock": 459,
-        "IconHint": "eveniet",
-        "Selected": false,
-        "LastChanged": "2006-12-23T13:14:11.3829471+01:00",
+        "Rank": 825,
+        "Type": "quia",
+        "ColorBlock": 59,
+        "IconHint": "molestias",
+        "Selected": true,
+        "LastChanged": "2021-11-01T14:45:13.6773768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Mason Green",
+        "ExtraInfo": "sit",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Claire Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 694
+            "FieldLength": 139
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Joy Green",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Santino Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldLength": 92
       }
     }
   }

@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Aufderhar-Brekke",
-    "Wehner, Grady and Torp"
+    "Becker-Breitenberg",
+    "Stokes, Rohan and Schinner"
   ]
 }
 ```

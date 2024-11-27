@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 47,
-    "Name": "Fritsch, Hauck and Hettinger",
-    "TZLocationCode": "iure",
-    "TZLocationCities": "dolores",
-    "IsoNumber": 722,
+    "TZLocationID": 898,
+    "Name": "Price-Terry",
+    "TZLocationCode": "exercitationem",
+    "TZLocationCities": "vitae",
+    "IsoNumber": 541,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 654,
-        "StartMonth": 797,
-        "EndDay": 321,
-        "EndMonth": 920,
-        "TZOffset": 726,
-        "StartRulePattern": "aut",
-        "EndRulePattern": "eum"
+        "StartDay": 623,
+        "StartMonth": 574,
+        "EndDay": 363,
+        "EndMonth": 965,
+        "TZOffset": 818,
+        "StartRulePattern": "nostrum",
+        "EndRulePattern": "quidem"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 859,
-        "StartMonth": 792,
-        "EndDay": 105,
-        "EndMonth": 760,
-        "TZOffset": 213,
-        "StartRulePattern": "quis",
-        "EndRulePattern": "sit"
+        "StartDay": 345,
+        "StartMonth": 695,
+        "EndDay": 755,
+        "EndMonth": 949,
+        "TZOffset": 76,
+        "StartRulePattern": "soluta",
+        "EndRulePattern": "atque"
       }
     }
   }

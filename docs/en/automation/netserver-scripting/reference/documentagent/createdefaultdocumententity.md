@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CreateDefaultDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntity'>CreateDefaultDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CreateDefaultDocumentEntity'>CreateDefaultDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCreateDefaultDocumentEntity
 ```cs

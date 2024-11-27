@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 359,
-      "Name": "Farrell, Erdman and Koch",
-      "HtmlBody": "sint"
+      "QuickReplyId": 301,
+      "Name": "Boyle-Abshire",
+      "HtmlBody": "itaque"
     },
     {
-      "QuickReplyId": 359,
-      "Name": "Farrell, Erdman and Koch",
-      "HtmlBody": "sint"
+      "QuickReplyId": 301,
+      "Name": "Boyle-Abshire",
+      "HtmlBody": "itaque"
     }
   ]
 }

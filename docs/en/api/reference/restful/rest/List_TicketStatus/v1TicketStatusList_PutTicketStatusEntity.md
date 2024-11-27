@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 125,
-  "Name": "Hermiston LLC",
+  "TicketStatusId": 535,
+  "Name": "Hermiston Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 860,
-  "Name": "Cronin, Lehner and Heidenreich",
+  "TicketStatusId": 162,
+  "Name": "Hodkiewicz Group",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": true,
   "UsedInQueue": true,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 650
     }
   }
 }

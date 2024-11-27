@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.DeleteForeignDevice
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice'>DeleteForeignDevice</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.DeleteForeignDevice'>DeleteForeignDevice</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeDeleteForeignDevice
 ```cs

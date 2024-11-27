@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 83,
-  "Name": "Murray-Jenkins",
+  "WebhookId": 72,
+  "Name": "Heidenreich LLC",
   "Events": [
-    "consequatur",
-    "alias"
+    "magni",
+    "maiores"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolore",
+  "Secret": "culpa",
   "State": "Active",
-  "Type": "ut",
+  "Type": "soluta",
   "Headers": {
-    "Headers1": "quo",
-    "Headers2": "ipsum"
+    "Headers1": "repudiandae",
+    "Headers2": "facere"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-03-09T13:14:06.7570832+01:00",
+  "Registered": "2014-09-27T14:45:06.7248613+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-10-08T13:14:06.7570832+02:00",
+  "Updated": "2003-02-02T14:45:06.7248613+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "mose@pollich.uk"
+  "ErrorsEmail": "evelyn@greenholtjacobi.co.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 637,
-  "Name": "Klein, Lehner and Kunde",
+  "WebhookId": 635,
+  "Name": "Lockman Group",
   "Events": [
-    "dignissimos",
-    "quae"
+    "ad",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iure",
+  "Secret": "blanditiis",
   "State": "Active",
-  "Type": "ducimus",
+  "Type": "maxime",
   "Headers": {
-    "Headers1": "consequatur",
-    "Headers2": "distinctio"
+    "Headers1": "architecto",
+    "Headers2": "suscipit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-05-09T13:14:06.7570832+02:00",
+  "Registered": "2018-03-07T14:45:06.7248613+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-03-19T13:14:06.7570832+01:00",
+  "Updated": "2003-05-15T14:45:06.7248613+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "millie@moen.us"
+  "ErrorsEmail": "laurence_haag@champlin.co.uk"
 }
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetProjectImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage'>GetProjectImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetProjectImage'>GetProjectImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetProjectImage
 ```cs

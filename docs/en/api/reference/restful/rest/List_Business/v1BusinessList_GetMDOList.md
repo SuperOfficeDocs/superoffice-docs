@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=aut
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=ad
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Feil, Watsica and Kuhlman",
-    "ToolTip": "Laborum impedit minus.",
-    "Deleted": true,
-    "Rank": 805,
-    "Type": "inventore",
+    "Id": 878,
+    "Name": "Prosacco, Kertzmann and Morar",
+    "ToolTip": "Aliquam ipsam.",
+    "Deleted": false,
+    "Rank": 319,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Schmitt Group",
-        "ToolTip": "Dignissimos iste repudiandae iste.",
+        "Id": 586,
+        "Name": "Krajcik-Hills",
+        "ToolTip": "Ab molestias.",
         "Deleted": false,
-        "Rank": 67,
-        "Type": "autem",
+        "Rank": 974,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 403,
-        "ExtraInfo": "vitae",
-        "StyleHint": "est",
-        "FullName": "Dr. Lorenzo Wunsch",
+        "IconHint": "voluptatem",
+        "ColorBlock": 302,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ea",
+        "FullName": "Jamar Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 393
+            "FieldType": "System.Int32",
+            "FieldLength": 803
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 877,
-    "ExtraInfo": "dolore",
-    "StyleHint": "voluptas",
-    "FullName": "Trey Deckow",
+    "IconHint": "doloremque",
+    "ColorBlock": 797,
+    "ExtraInfo": "et",
+    "StyleHint": "suscipit",
+    "FullName": "Ladarius Johnson IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldLength": 943
       }
     }
   }

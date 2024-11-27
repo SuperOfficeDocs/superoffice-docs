@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 611,
-  "Name": "Kemmer, Zieme and Miller",
-  "Rank": 756,
-  "Tooltip": "praesentium",
-  "Icon": "earum",
-  "DefaultTicketStatus": 559,
+  "TicketTypeId": 56,
+  "Name": "Kassulke-Ryan",
+  "Rank": 319,
+  "Tooltip": "assumenda",
+  "Icon": "in",
+  "DefaultTicketStatus": 341,
   "TicketStatuses": [
-    199,
-    864
+    666,
+    536
   ],
-  "DefaultTicketPriority": 629,
+  "DefaultTicketPriority": 53,
   "TicketPriorities": [
-    930,
-    127
+    809,
+    157
   ],
-  "ReplyTemplate": 684,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 757,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    171,
-    663
+    631,
+    448
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   },
   "_Links": {

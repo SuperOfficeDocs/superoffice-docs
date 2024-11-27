@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Centralized non-volatile interface",
-  "Postit": "sed",
+  "Description": "Proactive disintermediate function",
+  "Postit": "praesentium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 639,
-  "IncludePerson": 443,
+  "GroupIdx": 843,
+  "IncludePerson": 201,
   "MemberCount": 99.99,
-  "Name": "Senger-O'Conner",
-  "PostitTextId": 400,
-  "CreatedDate": "2015-09-18T13:14:11.1016748+02:00",
-  "SelectionId": 972,
-  "SoundEx": "aperiam",
-  "Source": 811,
-  "TextId": 853,
-  "UpdatedDate": "2012-03-19T13:14:11.1016748+01:00",
-  "UpdatedCount": 34,
-  "Visibility": 61,
+  "Name": "Dach-Carter",
+  "PostitTextId": 463,
+  "CreatedDate": "2024-10-18T14:45:13.2399738+02:00",
+  "SelectionId": 975,
+  "SoundEx": "at",
+  "Source": 719,
+  "TextId": 941,
+  "UpdatedDate": "1999-07-26T14:45:13.2399738+02:00",
+  "UpdatedCount": 523,
+  "Visibility": 952,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 853,
-  "TargetTableName": "Abernathy, Runolfsson and Rice",
-  "Completed": true,
-  "LeftSelectionId": 874,
-  "RightSelectionId": 422,
+  "CompanyUnique": false,
+  "TargetTableNumber": 947,
+  "TargetTableName": "Schiller, Schamberger and Green",
+  "Completed": false,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 506,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Balistreri-Schmeler",
-  "ShadowProviderName": "Hand, Steuber and Legros",
-  "ChartKey": "ab",
-  "LastLoaded": "2013-07-04T13:14:11.1016748+02:00",
-  "LastLoadedBy": 840,
+  "MainProviderName": "Pacocha LLC",
+  "ShadowProviderName": "Ruecker-Hintz",
+  "ChartKey": "autem",
+  "LastLoaded": "2006-07-13T14:45:13.2399738+02:00",
+  "LastLoadedBy": 552,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-03-29T13:14:11.1016748+01:00",
-  "LastMembershipChangeBy": 214,
+  "LastMembershipChange": "2007-04-21T14:45:13.2399738+02:00",
+  "LastMembershipChangeBy": 590,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempora",
-  "MemberTabHeading": "delectus",
-  "MailingsProviderName": "O'Conner, Wisoky and Turner",
-  "DashboardTileDefinitionId": 288,
+  "MainHeading": "sit",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Osinski, Emard and Swaniawski",
+  "DashboardTileDefinitionId": 439,
   "VisibleFor": [
     {
-      "VisibleId": 933,
+      "VisibleId": 854,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus"
+      "DisplayValue": "voluptas"
     },
     {
-      "VisibleId": 933,
+      "VisibleId": 854,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus"
+      "DisplayValue": "voluptas"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable user-facing interface",
-  "Postit": "occaecati",
+  "Description": "Visionary analyzing hardware",
+  "Postit": "ex",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 730,
-  "IncludePerson": 428,
+  "GroupIdx": 757,
+  "IncludePerson": 966,
   "MemberCount": 99.99,
-  "Name": "Windler-Blick",
-  "PostitTextId": 494,
-  "CreatedDate": "2013-12-27T13:14:11.1016748+01:00",
-  "SelectionId": 870,
-  "SoundEx": "a",
-  "Source": 453,
-  "TextId": 583,
-  "UpdatedDate": "2006-12-29T13:14:11.1016748+01:00",
-  "UpdatedCount": 146,
-  "Visibility": 927,
+  "Name": "Barrows LLC",
+  "PostitTextId": 487,
+  "CreatedDate": "2008-02-14T14:45:13.2399738+01:00",
+  "SelectionId": 232,
+  "SoundEx": "reiciendis",
+  "Source": 988,
+  "TextId": 396,
+  "UpdatedDate": "1998-02-05T14:45:13.2399738+01:00",
+  "UpdatedCount": 893,
+  "Visibility": 368,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 738,
-  "TargetTableName": "Roob, O'Connell and King",
-  "Completed": true,
-  "LeftSelectionId": 984,
-  "RightSelectionId": 697,
+  "TargetTableNumber": 890,
+  "TargetTableName": "Bayer Group",
+  "Completed": false,
+  "LeftSelectionId": 787,
+  "RightSelectionId": 123,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Balistreri-Welch",
-  "ShadowProviderName": "Zemlak-Hettinger",
-  "ChartKey": "minima",
-  "LastLoaded": "2007-06-10T13:14:11.1016748+02:00",
-  "LastLoadedBy": 270,
+  "MainProviderName": "Emmerich Group",
+  "ShadowProviderName": "Corkery-Veum",
+  "ChartKey": "inventore",
+  "LastLoaded": "2022-02-22T14:45:13.2399738+01:00",
+  "LastLoadedBy": 689,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-08-09T13:14:11.1016748+02:00",
-  "LastMembershipChangeBy": 287,
+  "LastMembershipChange": "2002-04-07T14:45:13.2399738+02:00",
+  "LastMembershipChangeBy": 747,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quos",
-  "MemberTabHeading": "exercitationem",
-  "MailingsProviderName": "Kassulke-Steuber",
-  "DashboardTileDefinitionId": 596,
+  "MainHeading": "et",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Kovacek, Cartwright and Nicolas",
+  "DashboardTileDefinitionId": 653,
   "VisibleFor": [
     {
-      "VisibleId": 667,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 386
         }
       }
     },
     {
-      "VisibleId": 667,
+      "VisibleId": 575,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 373
+          "FieldLength": 386
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 848
     }
   },
   "_Links": {

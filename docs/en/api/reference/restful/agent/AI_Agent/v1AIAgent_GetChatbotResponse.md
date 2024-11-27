@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "mollitia",
-  "IsoLangCode": "autem",
-  "UserPrompt": "et",
-  "DisplayValue": "adipisci",
+  "ChatId": "et",
+  "IsoLangCode": "blanditiis",
+  "UserPrompt": "pariatur",
+  "DisplayValue": "in",
   "PreviousTurns": [
     {
-      "Timestamp": "2004-06-20T13:14:05.1944888+02:00",
-      "UserPrompt": "consequuntur",
-      "UserDisplayText": "enim",
-      "BotResponse": "voluptatibus",
+      "Timestamp": "2002-08-17T14:45:04.4287347+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "eligendi",
+      "BotResponse": "sed",
       "BotActions": {
-        "BotActions1": "ullam",
-        "BotActions2": "amet"
+        "BotActions1": "corporis",
+        "BotActions2": "deleniti"
       },
       "Attachments": [
-        "explicabo",
-        "fugit"
+        "voluptatem",
+        "ut"
       ]
     },
     {
-      "Timestamp": "2004-06-20T13:14:05.1944888+02:00",
-      "UserPrompt": "consequuntur",
-      "UserDisplayText": "enim",
-      "BotResponse": "voluptatibus",
+      "Timestamp": "2002-08-17T14:45:04.4287347+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "eligendi",
+      "BotResponse": "sed",
       "BotActions": {
-        "BotActions1": "ullam",
-        "BotActions2": "amet"
+        "BotActions1": "corporis",
+        "BotActions2": "deleniti"
       },
       "Attachments": [
-        "explicabo",
-        "fugit"
+        "voluptatem",
+        "ut"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2006-03-30T13:14:05.1944888+02:00",
-  "UserPrompt": "deserunt",
-  "UserDisplayText": "et",
-  "BotResponse": "et",
+  "Timestamp": "2006-09-17T14:45:04.4287347+02:00",
+  "UserPrompt": "et",
+  "UserDisplayText": "dolores",
+  "BotResponse": "aliquam",
   "BotActions": {
-    "BotActions1": "dolores",
-    "BotActions2": "blanditiis"
+    "BotActions1": "nobis",
+    "BotActions2": "repudiandae"
   },
   "Attachments": [
-    "sit",
-    "sunt"
+    "laboriosam",
+    "voluptas"
   ]
 }
 ```

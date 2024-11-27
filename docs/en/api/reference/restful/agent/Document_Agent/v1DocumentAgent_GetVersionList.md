@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 364
+  "DocumentId": 741
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ut",
-    "DocumentId": 79,
-    "VersionId": "deserunt",
-    "CheckedInDate": "2023-04-13T13:14:05.9132824+02:00",
-    "CheckedInByName": "Senger-Armstrong",
-    "CheckedInByAssociateId": 766,
-    "Description": "Innovative non-volatile workforce",
-    "DisplayText": "possimus",
+    "ExternalReference": "error",
+    "DocumentId": 375,
+    "VersionId": "sint",
+    "CheckedInDate": "1997-10-28T14:45:05.4282744+01:00",
+    "CheckedInByName": "Jerde-Hodkiewicz",
+    "CheckedInByAssociateId": 261,
+    "Description": "Triple-buffered high-level workforce",
+    "DisplayText": "laborum",
     "ExtraFields": [
-      "voluptatibus",
-      "id"
+      "consequatur",
+      "aut"
     ]
   }
 ]

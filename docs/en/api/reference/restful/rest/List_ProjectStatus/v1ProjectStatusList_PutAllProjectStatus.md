@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Cartwright-Waelchi",
-    "Tooltip": "enim",
+    "Id": 766,
+    "Name": "Collins Inc and Sons",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 865
+    "UdListDefinitionId": 511,
+    "Rank": 761
   },
   {
-    "Id": 371,
-    "Name": "Cartwright-Waelchi",
-    "Tooltip": "enim",
+    "Id": 766,
+    "Name": "Collins Inc and Sons",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 865
+    "UdListDefinitionId": 511,
+    "Rank": 761
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Wisozk-Goldner",
-    "Tooltip": "veritatis",
+    "Id": 371,
+    "Name": "Collier LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 843,
-    "Rank": 898,
+    "UdListDefinitionId": 169,
+    "Rank": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 390
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

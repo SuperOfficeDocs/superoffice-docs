@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 147
+  "QuickReplyId": 176
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crona Inc and Sons",
-  "UpdatedByFullName": "Graham Haley",
-  "Updated": "2008-12-29T13:14:05.7257709+01:00",
-  "HtmlBody": "architecto",
+  "Name": "Jakubowski, Stanton and Nienow",
+  "UpdatedByFullName": "Miss Miller Arnold Beatty Jr.",
+  "Updated": "2002-06-05T14:45:05.1783023+02:00",
+  "HtmlBody": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

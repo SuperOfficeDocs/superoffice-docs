@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 52,
-  "MinDate": "2011-12-24T13:14:05.9289081+01:00",
-  "MaxDate": "2022-11-04T13:14:05.9289081+01:00",
+  "DocumentPluginId": 665,
+  "MinDate": "2010-11-27T14:45:05.4595178+01:00",
+  "MaxDate": "2020-06-01T14:45:05.4595178+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 457,
-  "NumDocumentsAlreadyMigrated": 640,
+  "NumDocumentsOmitted": 683,
+  "NumDocumentsAlreadyMigrated": 714,
   "Documents": [
     {
-      "DocumentId": 784,
-      "ContactId": 956,
-      "PersonId": 723,
-      "SaleId": 710,
-      "ProjectId": 20,
-      "DocTmplId": 49,
-      "AssociateId": 183,
-      "UserGroupId": 275,
-      "VisibleForId": 548
+      "DocumentId": 588,
+      "ContactId": 227,
+      "PersonId": 788,
+      "SaleId": 388,
+      "ProjectId": 517,
+      "DocTmplId": 995,
+      "AssociateId": 172,
+      "UserGroupId": 897,
+      "VisibleForId": 227
     }
   ],
   "Associates": [
     {
-      "AssociateId": 360,
-      "EmailAddress": "donna.wilderman@gottlieb.uk"
+      "AssociateId": 606,
+      "EmailAddress": "nola@veum.ca"
     },
     {
-      "AssociateId": 360,
-      "EmailAddress": "donna.wilderman@gottlieb.uk"
+      "AssociateId": 606,
+      "EmailAddress": "nola@veum.ca"
     }
   ]
 }

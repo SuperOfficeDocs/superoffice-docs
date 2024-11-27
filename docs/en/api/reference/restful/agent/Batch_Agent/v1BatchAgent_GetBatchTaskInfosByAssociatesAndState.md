@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    668,
-    541
+    76,
+    246
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 834,
-    "Name": "Hane, Hauck and Langworth",
-    "AssociateId": 511,
-    "DetailsTable": 641,
-    "DetailsRecord": 934,
+    "Id": 746,
+    "Name": "Casper, O'Connell and Jacobs",
+    "AssociateId": 190,
+    "DetailsTable": 474,
+    "DetailsRecord": 16,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "provident",
-      "ParameterObject2": "unde"
+      "ParameterObject1": "modi",
+      "ParameterObject2": "quibusdam"
     },
-    "LastStarted": "2005-10-23T13:14:05.5382596+02:00",
-    "Created": "2004-12-12T13:14:05.5382596+01:00",
-    "StartCount": 635,
-    "DatabaseSerialNumber": "1374420",
-    "Context": "rerum",
-    "Result": "natus",
+    "LastStarted": "2017-08-26T14:45:04.8815214+02:00",
+    "Created": "2021-01-17T14:45:04.8815214+01:00",
+    "StartCount": 173,
+    "DatabaseSerialNumber": "355177",
+    "Context": "aut",
+    "Result": "illo",
     "State": "All",
-    "Description": "Multi-tiered zero administration leverage",
-    "Response": "quos",
-    "Request": "animi",
-    "ProgressDescription": "Open-architected intermediate open architecture",
-    "ProgressPercent": 942,
-    "FileName": "Carter Group",
+    "Description": "Fully-configurable client-server application",
+    "Response": "occaecati",
+    "Request": "est",
+    "ProgressDescription": "Streamlined holistic encryption",
+    "ProgressPercent": 79,
+    "FileName": "Gislason, Schuppe and Mante",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 183
       }
     }
   }

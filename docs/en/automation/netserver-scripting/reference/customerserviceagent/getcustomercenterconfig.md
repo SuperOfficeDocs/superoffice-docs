@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.GetCustomerCenterConfig
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig'>GetCustomerCenterConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.GetCustomerCenterConfig'>GetCustomerCenterConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeGetCustomerCenterConfig
 ```cs

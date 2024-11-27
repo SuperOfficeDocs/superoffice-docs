@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.GenerateFollowUps
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps'>GenerateFollowUps</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.GenerateFollowUps'>GenerateFollowUps</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeGenerateFollowUps
 ```cs

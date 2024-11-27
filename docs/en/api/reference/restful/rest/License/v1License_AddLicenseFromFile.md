@@ -73,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "deliver granular ROI",
   "CanBeActivated": true,
   "New": null,
   "Current": null,
@@ -81,14 +81,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 216,
-      "NumberOfLicensesFree": 92,
-      "NumberOfLicensesAdded": 523,
-      "NumberOfLicensesNewTotal": 253,
-      "NumberOfLicensesNewFree": 247,
-      "NumberOfLicensesTotal": 237
+      "NumberOfLicensesInUse": 390,
+      "NumberOfLicensesFree": 998,
+      "NumberOfLicensesAdded": 739,
+      "NumberOfLicensesNewTotal": 248,
+      "NumberOfLicensesNewFree": 987,
+      "NumberOfLicensesTotal": 597
     }
   ],
-  "AccumulatedNextCheckDate": "2007-02-06T13:14:11.2110624+01:00"
+  "AccumulatedNextCheckDate": "2004-08-03T14:45:13.4118119+02:00"
 }
 ```

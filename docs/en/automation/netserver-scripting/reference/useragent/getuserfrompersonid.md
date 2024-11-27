@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetUserFromPersonId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetUserFromPersonId'>GetUserFromPersonId</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetUserFromPersonId'>GetUserFromPersonId</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetUserFromPersonId
 ```cs

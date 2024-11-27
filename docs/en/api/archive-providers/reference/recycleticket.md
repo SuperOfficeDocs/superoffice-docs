@@ -758,7 +758,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleTicket?$select=numberOfMessages,repliedAt,ownedBy/associateDbId,ownedBy/ejDisplayName,person/personAddress/wgs84longitude
+GET /api/v1/archive/RecycleTicket?$select=person/phone/formattedNumber,person/personAddress/formattedMultiLineAddress,person/personExtra/x_person_time,person/correspondingAssociate/locationAddress,person/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -69,6 +69,8 @@ items:
     href: appointmentagent/cleanupbookingdeletedwithupdatemode.md
   - name: CleanUpRecurringBookingDeleted
     href: appointmentagent/cleanuprecurringbookingdeleted.md
+  - name: ConvertAppointmentToTask
+    href: appointmentagent/convertappointmenttotask.md
   - name: CreateAndAccept
     href: appointmentagent/createandaccept.md
   - name: CreateAndAcceptWithEmailConfirmation
@@ -1227,6 +1229,10 @@ items:
     href: emailagent/createforwardemail.md
   - name: CreateInlineHtmlHeader
     href: emailagent/createinlinehtmlheader.md
+  - name: CreateNewPhysicalDocumentFromEmail
+    href: emailagent/createnewphysicaldocumentfromemail.md
+  - name: CreateNewPhysicalDocumentFromEmailAttachment
+    href: emailagent/createnewphysicaldocumentfromemailattachment.md
   - name: Delete
     href: emailagent/delete.md
   - name: DeleteEMailAccount
@@ -3299,6 +3305,8 @@ items:
     href: sentryagent/cancreateappointmentinalldiaries.md
   - name: CanCreateAppointmentInAssociateDiaries
     href: sentryagent/cancreateappointmentinassociatediaries.md
+  - name: CanCreateAppointmentInEachAssociatesDiary
+    href: sentryagent/cancreateappointmentineachassociatesdiary.md
   - name: GetFunctionRights
     href: sentryagent/getfunctionrights.md
   - name: GetNewTableRight

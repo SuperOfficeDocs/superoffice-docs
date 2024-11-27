@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CreateDefaultDashCollection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection'>CreateDefaultDashCollection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CreateDefaultDashCollection'>CreateDefaultDashCollection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCreateDefaultDashCollection
 ```cs

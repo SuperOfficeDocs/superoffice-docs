@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveTaskMenu
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveTaskMenu'>SaveTaskMenu</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveTaskMenu'>SaveTaskMenu</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveTaskMenu
 ```cs

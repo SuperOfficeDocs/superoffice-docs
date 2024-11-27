@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Bins-Sporer",
-    "Tooltip": "nisi",
+    "Id": 499,
+    "Name": "O'Hara-Crona",
+    "Tooltip": "hic",
     "Deleted": false,
-    "UdListDefinitionId": 82,
-    "Rank": 279,
+    "UdListDefinitionId": 73,
+    "Rank": 779,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldLength": 57
       }
     }
   }

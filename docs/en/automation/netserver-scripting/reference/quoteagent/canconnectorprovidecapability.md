@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CanConnectorProvideCapability
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CanConnectorProvideCapability'>CanConnectorProvideCapability</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CanConnectorProvideCapability'>CanConnectorProvideCapability</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCanConnectorProvideCapability
 ```cs

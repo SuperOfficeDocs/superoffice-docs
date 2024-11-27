@@ -25,7 +25,7 @@ Deletes the Dashboard
 | DashboardId | int32 | **Required** The id of the Dashboard to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=510
+POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=593
 ```
 
 

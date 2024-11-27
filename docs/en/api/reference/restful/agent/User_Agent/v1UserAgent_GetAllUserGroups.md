@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "ullam",
-    "Tooltip": "pariatur",
-    "Id": 878,
-    "Rank": 73,
-    "Deleted": false,
+    "Value": "qui",
+    "Tooltip": "qui",
+    "Id": 652,
+    "Rank": 233,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldLength": 309
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.UpdateNetServicesStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus'>UpdateNetServicesStatus</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.UpdateNetServicesStatus'>UpdateNetServicesStatus</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeUpdateNetServicesStatus
 ```cs

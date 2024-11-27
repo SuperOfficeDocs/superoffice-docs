@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.SetAutoEnableTravelAreas
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas'>SetAutoEnableTravelAreas</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.SetAutoEnableTravelAreas'>SetAutoEnableTravelAreas</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeSetAutoEnableTravelAreas
 ```cs

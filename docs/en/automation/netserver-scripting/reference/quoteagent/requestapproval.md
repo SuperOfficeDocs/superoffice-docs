@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.RequestApproval
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.RequestApproval'>RequestApproval</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.RequestApproval'>RequestApproval</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeRequestApproval
 ```cs

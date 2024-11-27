@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 338,
-    "Name": "Harvey-Funk",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 495,
-    "UdListDefinitionId": 606
+    "HeadingId": 164,
+    "Name": "Boyle, Bins and Kris",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 462,
+    "UdListDefinitionId": 179
   },
   {
-    "HeadingId": 338,
-    "Name": "Harvey-Funk",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 495,
-    "UdListDefinitionId": 606
+    "HeadingId": 164,
+    "Name": "Boyle, Bins and Kris",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 462,
+    "UdListDefinitionId": 179
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 641,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "cupiditate",
+    "HeadingId": 934,
+    "Name": "Daniel Inc and Sons",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 106,
-    "UdListDefinitionId": 934,
+    "Rank": 996,
+    "UdListDefinitionId": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 405
       }
     }
   }

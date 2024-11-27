@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 826,
-  "TopicId": 910,
+  "ChatSessionId": 885,
+  "TopicId": 746,
   "User": null,
   "Person": null,
-  "CustomerAlias": "natus",
-  "CustomerHost": "tenetur",
-  "CustomerName": "Eichmann Group",
-  "CustomerEmail": "selena@hauckpollich.info",
-  "CustomerPhone": "213.666.7197 x7758",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "fugiat",
+  "CustomerName": "Christiansen Inc and Sons",
+  "CustomerEmail": "christ_strosin@vandervortdach.com",
+  "CustomerPhone": "582-313-9760 x6587",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rau Inc and Sons",
+  "CustomerCompanyName": "Mraz-Kuvalis",
   "Status": "Closed",
-  "FirstMessage": "quidem",
-  "LastMessage": "placeat",
-  "WhenRequested": "2018-11-26T13:14:05.5538856+01:00",
-  "WhenStarted": "2022-05-10T13:14:05.5538856+02:00",
-  "WhenEnded": "1999-11-10T13:14:05.5538856+01:00",
-  "WhenIdle": "2022-12-28T13:14:05.5538856+01:00",
-  "WhenFetched": "2020-02-09T13:14:05.5538856+01:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 942,
-  "AlertLevel": 397,
-  "Rank": 138,
+  "FirstMessage": "error",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2023-07-07T14:45:04.9127653+02:00",
+  "WhenStarted": "2017-06-30T14:45:04.9127653+02:00",
+  "WhenEnded": "2020-04-13T14:45:04.9127653+02:00",
+  "WhenIdle": "2021-03-16T14:45:04.9127653+01:00",
+  "WhenFetched": "2007-05-20T14:45:04.9127653+02:00",
+  "SessionKey": "assumenda",
+  "InitialQueuePos": 137,
+  "AlertLevel": 882,
+  "Rank": 61,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 24,
+  "ChatbotIsActive": true,
+  "Rating": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 975
     }
   }
 }

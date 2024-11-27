@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.DeleteFromSectionAndKey
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey'>DeleteFromSectionAndKey</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.DeleteFromSectionAndKey'>DeleteFromSectionAndKey</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeDeleteFromSectionAndKey
 ```cs

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Schimmel-Stamm",
-  "StorageKey": "quaerat",
+  "StorageType": "maxime",
+  "ProviderName": "Gleason, Kertzmann and Streich",
+  "StorageKey": "recusandae",
   "RestrictionGroup": null,
-  "Context": "reiciendis"
+  "Context": "a"
 }
 ```
 

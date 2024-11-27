@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,32 +97,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 583,
-  "Name": "Stamm, O'Keefe and Schroeder",
-  "ProjectNumber": "383798",
+  "ProjectId": 763,
+  "Name": "Schuster-Muller",
+  "ProjectNumber": "575504",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 80,
-      "ContactId": 533,
-      "ProjectId": 461,
-      "ContactName": "Gutkowski-Donnelly",
+      "ProjectmemberId": 268,
+      "ContactId": 494,
+      "ProjectId": 790,
+      "ContactName": "Blick-Jewess",
       "ContactDepartment": "",
-      "ProjectName": "Littel Group",
-      "EmailId": 384,
-      "EmailAddress": "johnathan@schulist.uk",
-      "CountryId": 886,
-      "Firstname": "Alfredo",
-      "MiddleName": "Fisher-Bruen",
-      "Lastname": "Kassulke",
-      "PersonId": 629,
-      "Mrmrs": "earum",
-      "ProjectMemberTypeName": "Lockman-Monahan",
-      "Phone": "450.541.8809",
-      "PhoneId": 328,
-      "ProjectMemberTypeId": 471,
-      "EmailAddressName": "pauline@cormier.us",
-      "Comment": "in",
-      "FullName": "Richmond Boyer",
+      "ProjectName": "Jakubowski-Gleason",
+      "EmailId": 37,
+      "EmailAddress": "mina@goldner.uk",
+      "CountryId": 817,
+      "Firstname": "Antonio",
+      "MiddleName": "Bogan-Brown",
+      "Lastname": "Hilpert",
+      "PersonId": 232,
+      "Mrmrs": "consequatur",
+      "ProjectMemberTypeName": "Jaskolski Inc and Sons",
+      "Phone": "1-662-021-0090 x906",
+      "PhoneId": 296,
+      "ProjectMemberTypeId": 846,
+      "EmailAddressName": "garth.collins@mrazebert.name",
+      "Comment": "recusandae",
+      "FullName": "Mavis Rolfson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -135,89 +135,89 @@ Content-Type: application/json; charset=utf-8
   ],
   "Urls": [
     {
-      "Value": "quis",
-      "StrippedValue": "consequatur",
-      "Description": "Progressive clear-thinking orchestration",
+      "Value": "velit",
+      "StrippedValue": "ullam",
+      "Description": "Switchable contextually-based migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 603
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "consequatur",
-      "Description": "Progressive clear-thinking orchestration",
+      "Value": "velit",
+      "StrippedValue": "ullam",
+      "Description": "Switchable contextually-based migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldLength": 603
         }
       }
     }
   ],
-  "CreatedDate": "2009-08-13T13:14:06.2570472+02:00",
-  "UpdatedDate": "1999-10-20T13:14:06.2570472+02:00",
-  "Description": "Ergonomic maximized orchestration",
-  "Postit": "odit",
+  "CreatedDate": "2004-09-25T14:45:05.9750288+02:00",
+  "UpdatedDate": "2010-09-03T14:45:05.9750288+02:00",
+  "Description": "Polarised human-resource success",
+  "Postit": "quo",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Horizontal 4th generation budgetary management",
-  "ActiveStatusMonitorId": 839,
+  "ImageDescription": "Extended scalable moderator",
+  "ActiveStatusMonitorId": 740,
   "Links": [
     {
-      "EntityName": "Jerde, Borer and Wilkinson",
-      "Id": 354,
-      "Description": "Polarised 24/7 model",
-      "ExtraInfo": "sed",
-      "LinkId": 223,
+      "EntityName": "Kub, Spinka and Goldner",
+      "Id": 903,
+      "Description": "Intuitive tertiary definition",
+      "ExtraInfo": "beatae",
+      "LinkId": 977,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 597
         }
       }
     }
   ],
-  "ActiveLinks": 76,
-  "Completed": false,
-  "NextMilestoneDate": "2023-06-23T13:14:06.2570472+02:00",
-  "NmdAppointmentId": 952,
-  "EndDate": "2017-02-08T13:14:06.2570472+01:00",
-  "ActiveErpLinks": 10,
+  "ActiveLinks": 95,
+  "Completed": true,
+  "NextMilestoneDate": "2021-06-14T14:45:05.9750288+02:00",
+  "NmdAppointmentId": 595,
+  "EndDate": "2000-04-17T14:45:05.9750288+02:00",
+  "ActiveErpLinks": 45,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jovany Koch",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1459178713",
+    "SuperOffice:2": "44806422"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2011-03-22T13:14:06.2570472+01:00",
-  "PublishTo": "2005-12-24T13:14:06.2570472+01:00",
-  "PublishFrom": "2003-02-02T13:14:06.2570472+01:00",
+  "PublishEventDate": "2010-05-03T14:45:05.9750288+02:00",
+  "PublishTo": "2022-03-21T14:45:05.9750288+01:00",
+  "PublishFrom": "2024-08-12T14:45:05.9750288+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 403
     }
   }
 }

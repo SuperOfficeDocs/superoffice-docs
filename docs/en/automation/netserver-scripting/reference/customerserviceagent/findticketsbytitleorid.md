@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.FindTicketsByTitleOrId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId'>FindTicketsByTitleOrId</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.FindTicketsByTitleOrId'>FindTicketsByTitleOrId</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeFindTicketsByTitleOrId
 ```cs

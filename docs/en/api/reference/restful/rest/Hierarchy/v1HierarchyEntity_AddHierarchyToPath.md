@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 71,
+  "HierarchyId": 898,
   "Domain": "Dashboards",
-  "Name": "Smith, Gutkowski and Paucek",
-  "Fullname": "inventore",
-  "ParentId": 141,
+  "Name": "Keebler, Cremin and Thiel",
+  "Fullname": "id",
+  "ParentId": 734,
   "Children": [
     {
-      "HierarchyId": 19,
+      "HierarchyId": 136,
       "Domain": "Dashboards",
-      "Name": "Schuppe LLC",
-      "Fullname": "tempore",
-      "ParentId": 213,
+      "Name": "Bradtke LLC",
+      "Fullname": "id",
+      "ParentId": 172,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-10-04T13:14:10.8516656+02:00",
-      "RegisteredAssociateId": 440,
-      "Updated": "2006-10-07T13:14:10.8516656+02:00",
-      "UpdatedAssociateId": 943,
+      "Registered": "2022-02-22T14:45:12.8338163+01:00",
+      "RegisteredAssociateId": 355,
+      "Updated": "2017-05-15T14:45:12.8338163+02:00",
+      "UpdatedAssociateId": 608,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 273
         }
       }
     }
   ],
-  "Registered": "2002-09-03T13:14:10.8516656+02:00",
-  "RegisteredAssociateId": 458,
-  "Updated": "1999-05-13T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 801,
+  "Registered": "2008-10-10T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 810,
+  "Updated": "2004-02-05T14:45:12.8338163+01:00",
+  "UpdatedAssociateId": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 90
     }
   }
 }

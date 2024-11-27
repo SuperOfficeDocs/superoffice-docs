@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Yundt Group",
+  "Name": "Boehm LLC",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Cormier-Beer",
-  "Tooltip": "sunt",
+  "Id": 672,
+  "Name": "D'Amore LLC",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 860,
+  "Rank": 896,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloremque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

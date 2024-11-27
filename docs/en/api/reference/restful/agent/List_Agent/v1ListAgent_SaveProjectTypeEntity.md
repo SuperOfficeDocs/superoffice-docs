@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 726,
-  "Name": "Kilback Inc and Sons",
-  "Tooltip": "maiores",
-  "Rank": 500,
+  "ProjTypeId": 319,
+  "Name": "Kovacek, Carter and Frami",
+  "Tooltip": "voluptatem",
+  "Rank": 444,
   "DurationUnit": "Century",
-  "ProjectDuration": 61,
-  "Deleted": false,
+  "ProjectDuration": 863,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 300,
-      "Name": "Sipes LLC",
-      "ToolTip": "Et similique reiciendis officiis quod facere et.",
+      "Id": 978,
+      "Name": "Yundt Group",
+      "ToolTip": "Ad dignissimos aliquid.",
       "Deleted": false,
-      "Rank": 785,
-      "Type": "quia",
-      "ColorBlock": 743,
-      "IconHint": "quo",
-      "Selected": false,
-      "LastChanged": "2021-02-12T13:14:06.1164195+01:00",
+      "Rank": 410,
+      "Type": "est",
+      "ColorBlock": 302,
+      "IconHint": "quidem",
+      "Selected": true,
+      "LastChanged": "2015-06-27T14:45:05.7563266+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "et",
+      "ExtraInfo": "occaecati",
+      "StyleHint": "error",
       "Hidden": false,
-      "FullName": "Krystina Abernathy"
+      "FullName": "Ezequiel Deckow"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 990,
-  "Name": "Stamm-Donnelly",
-  "Tooltip": "ut",
-  "Rank": 622,
+  "ProjTypeId": 1000,
+  "Name": "Sauer, Ruecker and Bayer",
+  "Tooltip": "consequatur",
+  "Rank": 374,
   "DurationUnit": "Century",
-  "ProjectDuration": 483,
-  "Deleted": true,
+  "ProjectDuration": 616,
+  "Deleted": false,
   "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 285,
-      "Name": "Marvin-Stanton",
-      "ToolTip": "In facilis aliquid molestiae occaecati laudantium mollitia dolore.",
+      "Id": 270,
+      "Name": "Jakubowski, Carter and Bogisich",
+      "ToolTip": "Et ratione laborum.",
       "Deleted": false,
-      "Rank": 341,
-      "Type": "possimus",
-      "ColorBlock": 141,
-      "IconHint": "sed",
+      "Rank": 188,
+      "Type": "facilis",
+      "ColorBlock": 197,
+      "IconHint": "distinctio",
       "Selected": true,
-      "LastChanged": "2008-06-22T13:14:06.1164195+02:00",
+      "LastChanged": "2012-07-12T14:45:05.7563266+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "quaerat",
+      "ExtraInfo": "ut",
+      "StyleHint": "error",
       "Hidden": true,
-      "FullName": "Mattie Haag",
+      "FullName": "Jennings Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 139
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldType": "System.String",
+      "FieldLength": 355
     }
   }
 }

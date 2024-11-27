@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos'>SaveUserDefinedFieldInfos</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos'>SaveUserDefinedFieldInfos</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeSaveUserDefinedFieldInfos
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.CreateDefaultShipmentMessageBlockEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity'>CreateDefaultShipmentMessageBlockEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.CreateDefaultShipmentMessageBlockEntity'>CreateDefaultShipmentMessageBlockEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeCreateDefaultShipmentMessageBlockEntity
 ```cs

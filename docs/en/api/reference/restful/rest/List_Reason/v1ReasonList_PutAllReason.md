@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Murray, Raynor and Wintheiser",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "UdListDefinitionId": 249,
-    "Rank": 318
+    "Id": 720,
+    "Name": "Tremblay Group",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "UdListDefinitionId": 937,
+    "Rank": 669
   },
   {
-    "Id": 134,
-    "Name": "Murray, Raynor and Wintheiser",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "UdListDefinitionId": 249,
-    "Rank": 318
+    "Id": 720,
+    "Name": "Tremblay Group",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "UdListDefinitionId": 937,
+    "Rank": 669
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Schowalter LLC",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "UdListDefinitionId": 563,
-    "Rank": 521,
+    "Id": 881,
+    "Name": "Wilkinson-Breitenberg",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "UdListDefinitionId": 360,
+    "Rank": 728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 92
       }
     }
   }

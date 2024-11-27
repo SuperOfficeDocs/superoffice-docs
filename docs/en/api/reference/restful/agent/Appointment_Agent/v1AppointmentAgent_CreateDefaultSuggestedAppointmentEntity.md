@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 823,
-  "Name": "Reichel Group",
-  "Tooltip": "nostrum",
-  "Rank": 456,
+  "SuggestedAppointmentId": 752,
+  "Name": "Mraz Inc and Sons",
+  "Tooltip": "error",
+  "Rank": 569,
   "Deleted": false,
-  "DaysFuture": 878,
-  "Duration": "dignissimos",
-  "AutoSuggest": true,
+  "DaysFuture": 375,
+  "Duration": "magni",
+  "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "dolorem",
+  "AssignToMember": false,
+  "Text": "earum",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 191
     }
   }
 }

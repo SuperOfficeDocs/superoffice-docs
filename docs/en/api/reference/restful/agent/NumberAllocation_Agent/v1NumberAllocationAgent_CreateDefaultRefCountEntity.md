@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 892,
-  "Field": "delectus",
-  "RecordId": 662,
+  "RefCountsId": 475,
+  "Field": "et",
+  "RecordId": 284,
   "SuggestedRecords": [
     {
-      "Id": 110,
-      "Name": "Skiles-Franecki",
-      "ToolTip": "Est sed quidem.",
+      "Id": 300,
+      "Name": "Mertz, Hilll and Koepp",
+      "ToolTip": "Minima rerum et.",
       "Deleted": false,
-      "Rank": 156,
-      "Type": "saepe",
+      "Rank": 631,
+      "Type": "dolorem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 811,
-      "ExtraInfo": "sapiente",
-      "StyleHint": "fugiat",
-      "FullName": "Miss Abel Ada Vandervort DDS",
+      "IconHint": "voluptatem",
+      "ColorBlock": 461,
+      "ExtraInfo": "et",
+      "StyleHint": "sed",
+      "FullName": "Devante Hellen Luettgen I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 375
         }
       }
     }
   ],
-  "CurrentValue": 167,
-  "TravelPrefix": 562,
-  "SatPrefix": 405,
-  "Allocate": true,
+  "CurrentValue": 987,
+  "TravelPrefix": 611,
+  "SatPrefix": 737,
+  "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

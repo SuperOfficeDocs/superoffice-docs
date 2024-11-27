@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 144,
-    "Name": "Larson LLC",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 444,
-    "UdListDefinitionId": 848,
+    "HeadingId": 885,
+    "Name": "Watsica, Senger and Bruen",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 261,
+    "UdListDefinitionId": 971,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

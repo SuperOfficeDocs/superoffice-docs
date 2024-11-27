@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 404,
+  "AssociateId": 650,
   "Type": "AnonymousAssociate",
-  "PersonId": 174,
-  "Password": "molestiae"
+  "PersonId": 342,
+  "Password": "aliquid"
 }
 ```
 
@@ -97,14 +97,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "target e-business platforms",
-  "Result": false,
+  "Reason": "",
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 559
     }
   }
 }

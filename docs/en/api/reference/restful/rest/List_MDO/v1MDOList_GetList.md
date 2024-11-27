@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=error
-GET /api/v1/MDOList/{listname}?query=doloribus
+GET /api/v1/MDOList/{listname}?additional=accusamus
+GET /api/v1/MDOList/{listname}?query=repudiandae
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Wolff, Murazik and Torp",
-    "ToolTip": "Totam soluta quo sint animi sunt.",
-    "Deleted": true,
-    "Rank": 488,
-    "Type": "necessitatibus",
+    "Id": 653,
+    "Name": "Kuphal-Wolf",
+    "ToolTip": "Iste officia est assumenda ipsam dolores non.",
+    "Deleted": false,
+    "Rank": 47,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 176,
-        "Name": "Wolff Group",
-        "ToolTip": "Excepturi ut sint.",
+        "Id": 175,
+        "Name": "Stracke, Ryan and Kling",
+        "ToolTip": "Aut minus saepe facere sed dolorem quae.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "deleniti",
+        "Rank": 229,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 346,
-        "ExtraInfo": "sint",
-        "StyleHint": "et",
-        "FullName": "Asa Funk MD",
+        "IconHint": "maxime",
+        "ColorBlock": 451,
+        "ExtraInfo": "sed",
+        "StyleHint": "aut",
+        "FullName": "Bennett Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 304
+            "FieldLength": 426
           }
         }
       }
     ],
-    "IconHint": "vel",
-    "ColorBlock": 170,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quia",
-    "FullName": "Carmela Nikolaus",
+    "IconHint": "impedit",
+    "ColorBlock": 356,
+    "ExtraInfo": "rerum",
+    "StyleHint": "est",
+    "FullName": "Alexandro Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldLength": 750
       }
     }
   }

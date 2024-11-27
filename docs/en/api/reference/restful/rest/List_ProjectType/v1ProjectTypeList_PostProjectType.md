@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Ankunding LLC",
-  "Tooltip": "qui",
-  "Deleted": false,
+  "Id": 38,
+  "Name": "Rowe Group",
+  "Tooltip": "ad",
+  "Deleted": true,
   "UdListDefinitionId": 720,
-  "Rank": 661
+  "Rank": 156
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Labadie Group",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 695,
-  "Rank": 24,
+  "Id": 972,
+  "Name": "Olson, Breitenberg and King",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "UdListDefinitionId": 198,
+  "Rank": 923,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 139
     }
   }
 }

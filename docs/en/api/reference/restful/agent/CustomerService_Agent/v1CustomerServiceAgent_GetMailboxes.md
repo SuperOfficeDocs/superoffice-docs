@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 669,
-    "Address": "sit",
+    "MailInFilterId": 226,
+    "Address": "occaecati",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Jerde Inc and Sons",
+    "PriorityName": "Lesch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   },
   {
-    "MailInFilterId": 669,
-    "Address": "sit",
+    "MailInFilterId": 226,
+    "Address": "occaecati",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Jerde Inc and Sons",
+    "PriorityName": "Lesch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   }

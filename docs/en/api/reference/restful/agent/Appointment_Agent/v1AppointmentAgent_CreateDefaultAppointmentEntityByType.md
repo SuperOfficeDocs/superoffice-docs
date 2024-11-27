@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-10-04T13:14:05.3819998+02:00",
-  "AppointmentId": 599,
-  "Description": "Mandatory next generation artificial intelligence",
-  "Title": "error",
-  "Agenda": "voluptas",
-  "InternalNotes": "velit",
-  "StartDate": "2019-04-08T13:14:05.3819998+02:00",
-  "EndDate": "2013-12-15T13:14:05.3819998+01:00",
+  "CreatedDate": "2007-11-10T14:45:04.6630589+01:00",
+  "AppointmentId": 797,
+  "Description": "Synergistic even-keeled functionalities",
+  "Title": "suscipit",
+  "Agenda": "delectus",
+  "InternalNotes": "ipsum",
+  "StartDate": "1998-09-18T14:45:04.6630589+02:00",
+  "EndDate": "2021-04-07T14:45:04.6630589+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 818,
+  "MotherId": 874,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-10-28T13:14:05.3819998+01:00",
+  "UpdatedDate": "2022-07-17T14:45:04.6630589+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 988,
+  "ActiveLinks": 986,
   "Links": [
     {
-      "EntityName": "Bode-Kuhn",
-      "Id": 930,
-      "Description": "De-engineered high-level interface",
-      "ExtraInfo": "dolore",
-      "LinkId": 213,
+      "EntityName": "Kuphal, Daniel and Sauer",
+      "Id": 272,
+      "Description": "Persistent intermediate challenge",
+      "ExtraInfo": "deserunt",
+      "LinkId": 285,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 865
         }
       }
     }
   ],
-  "AlarmLeadTime": "quam",
-  "HasAlarm": true,
-  "ColorIndex": 72,
-  "IsFree": false,
+  "AlarmLeadTime": "ut",
+  "HasAlarm": false,
+  "ColorIndex": 381,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "repellendus",
-  "LeadTime": "est",
-  "Location": "accusantium",
-  "RejectCounter": 610,
+  "LagTime": "id",
+  "LeadTime": "ut",
+  "Location": "ex",
+  "RejectCounter": 273,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 102,
-      "PersonId": 666,
-      "ContactId": 449,
-      "EmailId": 474,
+      "AssociateId": 937,
+      "PersonId": 480,
+      "ContactId": 857,
+      "EmailId": 342,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "carolyne@littelbartoletti.name",
-      "Description": "Pre-emptive 4th generation array"
+      "EmailAddress": "fern.labadie@wolf.info",
+      "Description": "Networked coherent superstructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-01-22T13:14:05.3819998+01:00",
+  "ActiveDate": "2006-09-15T14:45:04.6630589+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 635,
+  "PreferredTZLocation": 261,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 364,
+  "SuggestedAppointmentId": 337,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quis",
+  "CentralserviceVideomeetId": "temporibus",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "309967059"
+    "SuperOffice:1": "Keenan Strosin Jr.",
+    "SuperOffice:2": "Rowland Legros"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "odit"
+    "CustomFields1": "eos",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2018-03-07T13:14:05.3819998+01:00",
-  "PublishTo": "2013-10-20T13:14:05.3819998+02:00",
-  "PublishFrom": "2006-10-13T13:14:05.3819998+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-04-25T14:45:04.6630589+02:00",
+  "PublishTo": "2017-12-23T14:45:04.6630589+01:00",
+  "PublishFrom": "2009-10-21T14:45:04.6630589+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 400,
+      "VisibleId": 139,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldType": "System.String",
+          "FieldLength": 715
         }
       }
     },
     {
-      "VisibleId": 400,
+      "VisibleId": 139,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 206
+          "FieldType": "System.String",
+          "FieldLength": 715
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

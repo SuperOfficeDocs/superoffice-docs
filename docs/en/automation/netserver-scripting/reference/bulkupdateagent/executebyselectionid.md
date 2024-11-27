@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.ExecuteBySelectionId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId'>ExecuteBySelectionId</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.ExecuteBySelectionId'>ExecuteBySelectionId</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeExecuteBySelectionId
 ```cs

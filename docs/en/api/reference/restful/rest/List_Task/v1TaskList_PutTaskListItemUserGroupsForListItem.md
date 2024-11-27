@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Schiller LLC",
-    "ToolTip": "Quidem et.",
+    "Id": 836,
+    "Name": "Heaney Group",
+    "ToolTip": "Non odio ab ut suscipit.",
     "Deleted": false,
-    "Rank": 170,
-    "Type": "veritatis",
-    "ColorBlock": 941,
-    "IconHint": "commodi",
+    "Rank": 567,
+    "Type": "expedita",
+    "ColorBlock": 236,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2008-11-24T13:14:11.5704589+01:00",
+    "LastChanged": "2012-01-18T14:45:13.9585664+01:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Vero quos.",
-        "Deleted": false,
-        "Rank": 257,
-        "Type": "non",
-        "ColorBlock": 733,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "1998-05-20T13:14:11.5704589+02:00",
+        "Id": 205,
+        "Name": "Sauer, Donnelly and DuBuque",
+        "ToolTip": "Non voluptas sapiente unde tenetur quibusdam est.",
+        "Deleted": true,
+        "Rank": 691,
+        "Type": "alias",
+        "ColorBlock": 946,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2024-11-05T14:45:13.9585664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Elwyn Heaney"
+        "ExtraInfo": "quam",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Mr. Al Dach DDS"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "odio",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Nya Mertz"
+    "FullName": "Donato Cronin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Gleichner LLC",
-    "ToolTip": "Expedita magni ad.",
+    "Id": 104,
+    "Name": "Bechtelar-Kuphal",
+    "ToolTip": "Qui adipisci consequatur omnis ex debitis numquam praesentium.",
     "Deleted": false,
-    "Rank": 972,
-    "Type": "ullam",
-    "ColorBlock": 728,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2018-11-16T13:14:11.5704589+01:00",
+    "Rank": 322,
+    "Type": "nostrum",
+    "ColorBlock": 961,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "1999-02-16T14:45:13.9585664+01:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Maggio Group",
-        "ToolTip": "Qui dolor quo adipisci aut ea eos similique.",
+        "Id": 291,
+        "Name": "Moore-Ernser",
+        "ToolTip": "Atque est quaerat velit iure.",
         "Deleted": true,
-        "Rank": 315,
-        "Type": "dolores",
-        "ColorBlock": 368,
-        "IconHint": "autem",
+        "Rank": 864,
+        "Type": "corporis",
+        "ColorBlock": 855,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-08-08T13:14:11.5704589+02:00",
+        "LastChanged": "2017-10-28T14:45:13.9585664+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Mrs. Dayne Steuber V",
+        "FullName": "Peter Bechtelar II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 672
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "neque",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "laudantium",
     "Hidden": true,
-    "FullName": "Miss Eliza Brooks Pollich V",
+    "FullName": "Mrs. Norwood Westley Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 444
       }
     }
   }

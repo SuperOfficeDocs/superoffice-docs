@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Effertz-Kohler",
-    "ToolTip": "Magnam unde eius incidunt consequatur cum saepe.",
+    "Id": 6,
+    "Name": "Wolf Group",
+    "ToolTip": "Sequi ut ut.",
     "Deleted": false,
-    "Rank": 226,
-    "Type": "provident",
-    "ColorBlock": 792,
-    "IconHint": "et",
+    "Rank": 391,
+    "Type": "qui",
+    "ColorBlock": 952,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2022-04-24T13:14:11.3829471+02:00",
+    "LastChanged": "2014-10-28T14:45:13.6773768+01:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Sipes-Kuhic",
-        "ToolTip": "Rerum enim voluptates voluptatibus voluptatem est.",
+        "Id": 775,
+        "Name": "Schaefer Group",
+        "ToolTip": "Assumenda qui sequi adipisci.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "ut",
-        "ColorBlock": 820,
-        "IconHint": "praesentium",
+        "Rank": 957,
+        "Type": "iure",
+        "ColorBlock": 906,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2022-10-24T13:14:11.3829471+02:00",
+        "LastChanged": "2010-05-23T14:45:13.6773768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Dr. Carroll Sydnie Runolfsdottir PhD",
+        "ExtraInfo": "labore",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Althea Ryley Lesch II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Michelle Cole",
+    "ExtraInfo": "ad",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Keara Botsford PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 355
       }
     }
   }

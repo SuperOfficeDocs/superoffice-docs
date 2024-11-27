@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId'>FigureOutListIdFromListTableIdAndUDListDefinitionId</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId'>FigureOutListIdFromListTableIdAndUDListDefinitionId</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeFigureOutListIdFromListTableIdAndUDListDefinitionId
 ```cs

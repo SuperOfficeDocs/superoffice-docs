@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetOrderConfirmation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetOrderConfirmation'>GetOrderConfirmation</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetOrderConfirmation'>GetOrderConfirmation</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetOrderConfirmation
 ```cs

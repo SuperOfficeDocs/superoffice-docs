@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 800,
-  "AttachmentId": "eius"
+  "DocId": 363,
+  "AttachmentId": "dolorem"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive contextually-based ability",
-  "Filename": "iste",
-  "Size": 495,
-  "Type": "vero",
-  "Encoding": "consequatur",
-  "Id": "possimus",
-  "Disposition": "est",
+  "Description": "Right-sized high-level projection",
+  "Filename": "sit",
+  "Size": 673,
+  "Type": "est",
+  "Encoding": "et",
+  "Id": "ut",
+  "Disposition": "facere",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 158
     }
   }
 }

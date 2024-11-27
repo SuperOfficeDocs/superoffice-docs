@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 515,
-  "Count": 651
+  "WeightedAmountLimit": 835,
+  "Count": 985
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stark, Runte and Schumm",
-    "SaleDate": "2009-08-09T13:14:06.3976861+02:00",
-    "SaleId": 758,
-    "Probability": 813,
-    "Title": "adipisci",
-    "Amount": 16638.406,
-    "Currency": "beatae",
-    "ProjectName": "O'Keefe LLC",
-    "AssociateFullName": "Gino Wilderman",
-    "Description": "Optional 24/7 attitude",
+    "ContactName": "Reichert, Kunde and Glover",
+    "SaleDate": "2023-04-03T14:45:06.1781213+02:00",
+    "SaleId": 845,
+    "Probability": 429,
+    "Title": "eius",
+    "Amount": 24291.634,
+    "Currency": "quidem",
+    "ProjectName": "Frami-Crona",
+    "AssociateFullName": "Miss Zola Grimes",
+    "Description": "Exclusive asynchronous methodology",
     "Status": "Lost",
-    "WeightedAmount": 636.202,
-    "ProjectId": 774,
-    "EarningPercent": 27002.543999999998,
-    "Earning": 26388.28,
-    "ContactId": 940,
-    "AssociateId": 202,
-    "PersonId": 269,
-    "SaleTypeId": 605,
-    "SaleTypeName": "Carroll, Nienow and Kuphal",
-    "PersonFullName": "Berry Mallie Barrows PhD",
+    "WeightedAmount": 9198.2899999999991,
+    "ProjectId": 115,
+    "EarningPercent": 6913.6039999999994,
+    "Earning": 9934.7799999999988,
+    "ContactId": 626,
+    "AssociateId": 196,
+    "PersonId": 196,
+    "SaleTypeId": 757,
+    "SaleTypeName": "Schmeler-Ruecker",
+    "PersonFullName": "Mrs. Coralie D'Amore",
     "Completed": "Completed",
-    "ActiveErpLinks": 51,
-    "NextDueDate": "2018-07-06T13:14:06.3976861+02:00",
-    "Number": "1357430",
+    "ActiveErpLinks": 959,
+    "NextDueDate": "2011-07-07T14:45:06.1781213+02:00",
+    "Number": "343965",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 828
       }
     }
   }

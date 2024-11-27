@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.GetQuoteVersionAddresses
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses'>GetQuoteVersionAddresses</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.GetQuoteVersionAddresses'>GetQuoteVersionAddresses</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeGetQuoteVersionAddresses
 ```cs

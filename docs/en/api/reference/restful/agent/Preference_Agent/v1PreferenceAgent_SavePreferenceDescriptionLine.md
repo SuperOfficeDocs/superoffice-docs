@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 252,
-  "PrefDescId": 132,
-  "PrefValue": "est",
-  "PrefShowValue": "id",
-  "Description": "Networked cohesive model",
+  "PrefDescLineId": 255,
+  "PrefDescId": 114,
+  "PrefValue": "quia",
+  "PrefShowValue": "autem",
+  "Description": "Adaptive next generation data-warehouse",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 664,
-  "PrefDescId": 713,
-  "PrefValue": "blanditiis",
-  "PrefShowValue": "sapiente",
-  "Description": "Face to face web-enabled installation",
-  "IsBuiltin": false,
+  "PrefDescLineId": 462,
+  "PrefDescId": 118,
+  "PrefValue": "et",
+  "PrefShowValue": "aliquid",
+  "Description": "Front-line global budgetary management",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 197
     }
   }
 }

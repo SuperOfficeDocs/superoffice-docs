@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 249,
-  "ColumnId": 978,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 864,
-  "FieldLabel": "id",
-  "FieldLeft": 408,
-  "FieldTop": 18,
+  "UDefFieldId": 789,
+  "ColumnId": 127,
+  "FieldDefault": "fuga",
+  "FieldHeight": 799,
+  "FieldLabel": "delectus",
+  "FieldLeft": 255,
+  "FieldTop": 654,
   "FieldType": "Checkbox",
-  "FieldWidth": 710,
-  "FormatMask": "eaque",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 394,
-  "LabelLeft": 312,
-  "LabelTop": 157,
-  "LabelWidth": 852,
-  "LastVersionId": 306,
-  "ListTableId": 155,
+  "FieldWidth": 989,
+  "FormatMask": "adipisci",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 765,
+  "LabelLeft": 517,
+  "LabelTop": 176,
+  "LabelWidth": 348,
+  "LastVersionId": 835,
+  "ListTableId": 504,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 544,
-  "ProgId": "alias",
-  "IsReadOnly": false,
-  "ShortLabel": "praesentium",
-  "TabOrder": 454,
-  "TextLength": 529,
-  "Tooltip": "et",
-  "UdefIdentity": 673,
-  "UDListDefinitionId": 114,
+  "Page1LineNo": 253,
+  "ProgId": "quae",
+  "IsReadOnly": true,
+  "ShortLabel": "doloremque",
+  "TabOrder": 367,
+  "TextLength": 734,
+  "Tooltip": "a",
+  "UdefIdentity": 216,
+  "UDListDefinitionId": 868,
   "Justification": "Center",
-  "Version": 512,
-  "TemplateVariableName": "Schultz, Williamson and Cassin",
-  "HasBeenPublished": false,
-  "MdoListName": "Ankunding-Russel",
+  "Version": 133,
+  "TemplateVariableName": "Altenwerth Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Bartell-Goodwin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 556
     }
   }
 }

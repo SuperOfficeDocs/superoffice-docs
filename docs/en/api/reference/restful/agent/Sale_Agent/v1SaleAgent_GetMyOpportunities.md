@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 400
+  "Count": 806
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zboncak-Morissette",
-    "SaleDate": "1999-02-01T13:14:06.3976861+01:00",
-    "SaleId": 232,
-    "Probability": 383,
-    "Title": "officia",
-    "Amount": 30710.066,
-    "Currency": "cum",
-    "ProjectName": "Hoppe Group",
-    "AssociateFullName": "Miss Verner Kunde I",
-    "Description": "Secured full-range budgetary management",
+    "ContactName": "Schmeler-Turner",
+    "SaleDate": "2013-09-22T14:45:06.1781213+02:00",
+    "SaleId": 681,
+    "Probability": 874,
+    "Title": "libero",
+    "Amount": 23884.214,
+    "Currency": "debitis",
+    "ProjectName": "Buckridge Inc and Sons",
+    "AssociateFullName": "Marianna Gusikowski",
+    "Description": "Extended client-server extranet",
     "Status": "Lost",
-    "WeightedAmount": 23523.804,
-    "ProjectId": 553,
-    "EarningPercent": 9583.771999999999,
-    "Earning": 30208.626,
-    "ContactId": 200,
-    "AssociateId": 32,
-    "PersonId": 449,
-    "SaleTypeId": 644,
-    "SaleTypeName": "Jacobs-Gerhold",
-    "PersonFullName": "Samantha Botsford",
+    "WeightedAmount": 2181.264,
+    "ProjectId": 54,
+    "EarningPercent": 23993.904,
+    "Earning": 19932.239999999998,
+    "ContactId": 259,
+    "AssociateId": 377,
+    "PersonId": 121,
+    "SaleTypeId": 381,
+    "SaleTypeName": "Littel-Howell",
+    "PersonFullName": "Mrs. Tiana Orland Lang",
     "Completed": "Completed",
-    "ActiveErpLinks": 421,
-    "NextDueDate": "2008-11-28T13:14:06.3976861+01:00",
-    "Number": "672580",
+    "ActiveErpLinks": 954,
+    "NextDueDate": "2023-12-15T14:45:06.1781213+01:00",
+    "Number": "1478453",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldType": "System.Int32",
+        "FieldLength": 197
       }
     }
   }

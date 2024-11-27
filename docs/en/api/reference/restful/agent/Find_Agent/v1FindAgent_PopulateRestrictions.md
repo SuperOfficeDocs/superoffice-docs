@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howell, Emmerich and Watsica",
+  "ProviderName": "Aufderhar-Jast",
   "Restrictions": [
     {
-      "Name": "Lemke Inc and Sons",
-      "Operator": "repellat",
+      "Name": "Ondricka-Lockman",
+      "Operator": "quibusdam",
       "Values": [
-        "ad",
-        "sequi"
+        "consequatur",
+        "placeat"
       ],
       "DisplayValues": [
-        "soluta",
-        "dolores"
+        "delectus",
+        "occaecati"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 550,
+      "InterParenthesis": 322,
       "InterOperator": "And",
-      "UniqueHash": 469
+      "UniqueHash": 398
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reichert-O'Keefe",
-    "Operator": "iste",
+    "Name": "McCullough LLC",
+    "Operator": "facilis",
     "Values": [
-      "occaecati",
-      "et"
+      "quia",
+      "cumque"
     ],
     "DisplayValues": [
-      "nam",
-      "eaque"
+      "praesentium",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kuphal, Wehner and Tillman",
-        "Operator": "beatae",
+        "Name": "Zieme LLC",
+        "Operator": "alias",
         "Values": [
-          "deserunt",
-          "quam"
+          "similique",
+          "nemo"
         ],
         "DisplayValues": [
-          "consequatur",
-          "aliquid"
+          "ad",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 59,
+        "InterParenthesis": 370,
         "InterOperator": "And",
-        "UniqueHash": 996
+        "UniqueHash": 380
       }
     ],
-    "InterParenthesis": 587,
+    "InterParenthesis": 521,
     "InterOperator": "And",
-    "UniqueHash": 108
+    "UniqueHash": 317
   }
 ]
 ```

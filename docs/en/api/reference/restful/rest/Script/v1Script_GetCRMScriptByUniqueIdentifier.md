@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "minus",
-  "Name": "Kutch-Jakubowski",
-  "Description": "Enterprise-wide web-enabled open architecture",
-  "IncludeId": "nobis",
-  "Source": "qui",
-  "Registered": "2009-02-19T13:14:11.2579402+01:00",
-  "RegisteredBy": "tempora",
-  "Updated": "2024-03-28T13:14:11.2579402+01:00",
-  "UpdatedBy": "hic",
-  "Path": "unde",
+  "UniqueIdentifier": "et",
+  "Name": "McClure-Franecki",
+  "Description": "Cloned actuating model",
+  "IncludeId": "est",
+  "Source": "omnis",
+  "Registered": "2013-05-10T14:45:13.4742967+02:00",
+  "RegisteredBy": "officiis",
+  "Updated": "2020-01-20T14:45:13.4742967+01:00",
+  "UpdatedBy": "sunt",
+  "Path": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

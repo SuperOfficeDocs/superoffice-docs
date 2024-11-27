@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 266,
-  "Field": "ea",
-  "RecordId": 692,
+  "RefCountsId": 985,
+  "Field": "atque",
+  "RecordId": 501,
   "SuggestedRecords": [
     {
-      "Id": 986,
-      "Name": "Erdman Group",
-      "ToolTip": "Modi sit at ut.",
+      "Id": 641,
+      "Name": "Braun-Bernier",
+      "ToolTip": "Expedita soluta officia temporibus sapiente est.",
       "Deleted": false,
-      "Rank": 9,
-      "Type": "rerum",
+      "Rank": 762,
+      "Type": "reprehenderit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "necessitatibus",
-      "ColorBlock": 463,
-      "ExtraInfo": "et",
-      "StyleHint": "et",
-      "FullName": "Ronaldo Gutkowski"
+      "IconHint": "ab",
+      "ColorBlock": 150,
+      "ExtraInfo": "hic",
+      "StyleHint": "animi",
+      "FullName": "Raegan Beer Jr."
     }
   ],
-  "CurrentValue": 121,
-  "TravelPrefix": 238,
-  "SatPrefix": 315,
+  "CurrentValue": 762,
+  "TravelPrefix": 966,
+  "SatPrefix": 518,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 558,
-  "Field": "est",
-  "RecordId": 891,
+  "RefCountsId": 199,
+  "Field": "distinctio",
+  "RecordId": 916,
   "SuggestedRecords": [
     {
-      "Id": 265,
-      "Name": "O'Connell-Sanford",
-      "ToolTip": "Ex nihil dignissimos laboriosam.",
+      "Id": 284,
+      "Name": "Collier, Keebler and Feil",
+      "ToolTip": "Et pariatur eaque omnis quod.",
       "Deleted": false,
-      "Rank": 247,
-      "Type": "magni",
+      "Rank": 340,
+      "Type": "autem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "in",
-      "ColorBlock": 136,
-      "ExtraInfo": "veritatis",
-      "StyleHint": "rerum",
-      "FullName": "Virginie Keebler",
+      "IconHint": "id",
+      "ColorBlock": 428,
+      "ExtraInfo": "quasi",
+      "StyleHint": "non",
+      "FullName": "Yazmin Gislason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 187
         }
       }
     }
   ],
-  "CurrentValue": 52,
-  "TravelPrefix": 425,
-  "SatPrefix": 801,
-  "Allocate": false,
+  "CurrentValue": 499,
+  "TravelPrefix": 403,
+  "SatPrefix": 60,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldType": "System.String",
+      "FieldLength": 180
     }
   }
 }

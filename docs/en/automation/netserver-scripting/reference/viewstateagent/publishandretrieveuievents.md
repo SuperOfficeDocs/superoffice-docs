@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.PublishAndRetrieveUiEvents
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents'>PublishAndRetrieveUiEvents</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.PublishAndRetrieveUiEvents'>PublishAndRetrieveUiEvents</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforePublishAndRetrieveUiEvents
 ```cs

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 869,
-    "LCID": 651,
-    "EnglishName": "Hane-Krajcik",
-    "NativeName": "Connelly-Rohan",
-    "ThreeLetterISOLanguageName": "Mayer-Howe",
-    "TwoLetterISOLanguageName": "Goyette, King and Mayert",
+    "LanguageInfoId": 68,
+    "LCID": 629,
+    "EnglishName": "Schowalter-Buckridge",
+    "NativeName": "Eichmann, Thompson and Schamberger",
+    "ThreeLetterISOLanguageName": "Bergstrom Inc and Sons",
+    "TwoLetterISOLanguageName": "Veum-Yost",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 318
       }
     }
   }

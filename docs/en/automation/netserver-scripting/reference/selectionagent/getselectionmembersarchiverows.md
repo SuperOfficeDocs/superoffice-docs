@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.GetSelectionMembersArchiveRows
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows'>GetSelectionMembersArchiveRows</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.GetSelectionMembersArchiveRows'>GetSelectionMembersArchiveRows</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeGetSelectionMembersArchiveRows
 ```cs

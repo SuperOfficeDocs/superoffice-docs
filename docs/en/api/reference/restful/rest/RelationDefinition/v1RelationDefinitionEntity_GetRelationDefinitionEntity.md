@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 210,
-  "Name": "Kiehn LLC",
-  "Tooltip": "iste",
-  "PassiveText": "repudiandae",
+  "ReldefId": 37,
+  "Name": "Rogahn, Swift and Roob",
+  "Tooltip": "rerum",
+  "PassiveText": "alias",
   "Deleted": false,
-  "Rank": 472,
+  "Rank": 232,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 471
     }
   },
   "_Links": {

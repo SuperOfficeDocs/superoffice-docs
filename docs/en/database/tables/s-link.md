@@ -33,7 +33,6 @@ Links in messages to measure success rate of a campaign.
 |remove\_from\_selection|The id of the selection that the customer shall be removed from|FK [ejselection](ejselection.md)| |
 |add\_to\_selection|The id of the selection that the customer shall be added to|FK [ejselection](ejselection.md)| |
 |template\_text|Text to print when link is clicked.|Clob|&#x25CF;|
-|redirect\_is\_url|1 if url is used, 0 if custom text is used.|Bool| |
 |action\_flags|Bitmask defining what action should be taken|Enum [ShipmentLinkAction](enums/shipmentlinkaction.md)|&#x25CF;|
 |add\_contact\_interest|Contact interest to add to recipient person|FK [ContInt](contint.md)|&#x25CF;|
 |remove\_contact\_interest|Person interest to remove from recipient person|FK [ContInt](contint.md)|&#x25CF;|
@@ -57,6 +56,10 @@ Links in messages to measure success rate of a campaign.
 |updated\_associate\_id|Last updated by whom|FK [associate](associate.md)|&#x25CF;|
 |updatedCount|Number of updates made to this record|UShort|&#x25CF;|
 |local\_link|If this references a shipment message, then this is a local link belonging to that message|FK [s_message](s-message.md)|&#x25CF;|
+|redirect\_kind|Enum defining the redirect kind (show text, url, etc) of the link|Enum [ShipmentLinkRedirectKind](enums/shipmentlinkredirectkind.md)|&#x25CF;|
+|link\_parameters|Contains parameters that will be added to the link when it is used|Clob|&#x25CF;|
+|form\_id|Relation to the form this link redirects to|FK [form](form.md)|&#x25CF;|
+|form\_parameters|Contains url parameters that will be added when link is inserted in message|String(4000)|&#x25CF;|
 
 
 ![s_link table relationship diagram](./media/s_link.png)
@@ -98,6 +101,7 @@ Links in messages to measure success rate of a campaign.
 |[ejselection](ejselection.md)  |This table stores selections, dynamic groups. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
 |[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
+|[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 |[project](project.md)  |Projects |
 |[s\_link\_customer](s-link-customer.md)  |A connection between a customer and a link. Registered customers are identified when clicking on a link |

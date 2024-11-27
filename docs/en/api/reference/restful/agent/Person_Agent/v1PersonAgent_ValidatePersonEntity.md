@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repellat",
-  "2": "ratione"
+  "1": "earum",
+  "2": "earum"
 }
 ```

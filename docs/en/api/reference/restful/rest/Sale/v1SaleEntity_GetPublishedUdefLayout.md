@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 770,
-    "ColumnId": 652,
-    "FieldDefault": "explicabo",
-    "FieldHeight": 513,
-    "FieldLabel": "assumenda",
-    "FieldLeft": 371,
-    "FieldTop": 820,
+    "UDefFieldId": 723,
+    "ColumnId": 520,
+    "FieldDefault": "repudiandae",
+    "FieldHeight": 369,
+    "FieldLabel": "et",
+    "FieldLeft": 742,
+    "FieldTop": 340,
     "FieldType": "Checkbox",
-    "FieldWidth": 822,
-    "FormatMask": "sint",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 740,
-    "LabelLeft": 222,
-    "LabelTop": 551,
-    "LabelWidth": 351,
-    "LastVersionId": 876,
-    "ListTableId": 897,
-    "IsMandatory": true,
+    "FieldWidth": 815,
+    "FormatMask": "harum",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 115,
+    "LabelLeft": 499,
+    "LabelTop": 763,
+    "LabelWidth": 572,
+    "LastVersionId": 395,
+    "ListTableId": 313,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 418,
-    "ProgId": "quia",
-    "IsReadOnly": true,
-    "ShortLabel": "est",
-    "TabOrder": 675,
-    "TextLength": 710,
-    "Tooltip": "facere",
-    "UdefIdentity": 643,
-    "UDListDefinitionId": 639,
+    "Page1LineNo": 134,
+    "ProgId": "architecto",
+    "IsReadOnly": false,
+    "ShortLabel": "quo",
+    "TabOrder": 854,
+    "TextLength": 981,
+    "Tooltip": "sit",
+    "UdefIdentity": 147,
+    "UDListDefinitionId": 646,
     "Justification": "Center",
-    "Version": 87,
-    "TemplateVariableName": "Rogahn-Sanford",
+    "Version": 202,
+    "TemplateVariableName": "Herman-Powlowski",
     "HasBeenPublished": true,
-    "MdoListName": "Fadel, Brekke and VonRueden",
+    "MdoListName": "Rowe Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 877
       }
     }
   }

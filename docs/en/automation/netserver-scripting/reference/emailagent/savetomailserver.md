@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SaveToMailServer
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SaveToMailServer'>SaveToMailServer</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SaveToMailServer'>SaveToMailServer</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSaveToMailServer
 ```cs

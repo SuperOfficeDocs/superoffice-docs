@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Harber Inc and Sons",
-  "ProviderName": "Smith, Schmeler and Deckow",
+  "GuiName": "Heathcote LLC",
+  "ProviderName": "Mitchell Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Gislason, Barrows and Hirthe",
+      "Name": "Gleichner-Donnelly",
       "Direction": "ASC"
     },
     {
-      "Name": "Gislason, Barrows and Hirthe",
+      "Name": "Gleichner-Donnelly",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Morissette Inc and Sons",
-      "Operator": "animi",
+      "Name": "Fahey, Kuvalis and Leuschke",
+      "Operator": "enim",
       "Values": [
-        "ut",
-        "dolor"
+        "dolorem",
+        "libero"
       ],
       "DisplayValues": [
-        "id",
-        "consectetur"
+        "sed",
+        "ex"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 514,
+      "InterParenthesis": 3,
       "InterOperator": "And",
-      "UniqueHash": 222
+      "UniqueHash": 388
     }
   ],
   "Entities": [
-    "totam",
-    "culpa"
+    "voluptatem",
+    "et"
   ],
-  "Page": 713,
-  "PageSize": 66,
-  "Context": "molestiae"
+  "Page": 533,
+  "PageSize": 805,
+  "Context": "sunt"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cormier Group",
-    "PrimaryKey": 899,
+    "EntityName": "Sporer Group",
+    "PrimaryKey": 159,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "adipisci",
-        "TooltipHint": "provident",
-        "LinkHint": "omnis"
+        "DisplayValue": "ab",
+        "TooltipHint": "eum",
+        "LinkHint": "atque"
       }
     },
-    "LinkHint": "placeat",
-    "StyleHint": "blanditiis",
+    "LinkHint": "consequatur",
+    "StyleHint": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

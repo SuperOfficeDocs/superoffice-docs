@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    756,
-    105
+    585,
+    601
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Schulist-Pagac",
-    "AssociateId": 726,
-    "DetailsTable": 567,
-    "DetailsRecord": 616,
+    "Id": 988,
+    "Name": "Watsica Group",
+    "AssociateId": 521,
+    "DetailsTable": 219,
+    "DetailsRecord": 466,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "illo",
-      "ParameterObject2": "dolore"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "minus"
     },
-    "LastStarted": "1999-11-10T13:14:05.5226336+01:00",
-    "Created": "1997-08-31T13:14:05.5226336+02:00",
-    "StartCount": 56,
-    "DatabaseSerialNumber": "1544411",
-    "Context": "aut",
-    "Result": "fugit",
+    "LastStarted": "2007-05-07T14:45:04.8815214+02:00",
+    "Created": "2007-05-01T14:45:04.8815214+02:00",
+    "StartCount": 498,
+    "DatabaseSerialNumber": "1421205",
+    "Context": "reiciendis",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Seamless reciprocal extranet",
-    "Response": "quia",
-    "Request": "omnis",
-    "ProgressDescription": "User-centric upward-trending algorithm",
-    "ProgressPercent": 275,
-    "FileName": "Lockman-Effertz",
+    "Description": "Realigned background structure",
+    "Response": "fugit",
+    "Request": "in",
+    "ProgressDescription": "Seamless modular frame",
+    "ProgressPercent": 220,
+    "FileName": "Parisian, Anderson and Rau",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

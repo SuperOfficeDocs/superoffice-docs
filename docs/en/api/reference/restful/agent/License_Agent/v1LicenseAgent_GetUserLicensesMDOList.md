@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Renner-Crooks",
-    "ToolTip": "Quia et cum omnis eligendi.",
-    "Deleted": true,
-    "Rank": 189,
-    "Type": "aut",
-    "ColorBlock": 732,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2003-09-07T13:14:06.0539158+02:00",
+    "Id": 559,
+    "Name": "Kub, Beier and Reinger",
+    "ToolTip": "Voluptate labore.",
+    "Deleted": false,
+    "Rank": 627,
+    "Type": "vitae",
+    "ColorBlock": 789,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2018-09-14T14:45:05.6625978+02:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Lindgren, Schamberger and Schoen",
-        "ToolTip": "Consequuntur vel.",
+        "Id": 869,
+        "Name": "Brown, Anderson and Romaguera",
+        "ToolTip": "Aliquid sit.",
         "Deleted": false,
-        "Rank": 508,
-        "Type": "aliquid",
-        "ColorBlock": 218,
-        "IconHint": "minima",
+        "Rank": 423,
+        "Type": "maiores",
+        "ColorBlock": 448,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2004-02-23T13:14:06.0539158+01:00",
+        "LastChanged": "2015-10-26T14:45:05.6625978+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "quidem",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Toni Vandervort",
+        "FullName": "Karli Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "ut",
+    "ExtraInfo": "dicta",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Brisa Reynolds DDS",
+    "FullName": "Savanah Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   }

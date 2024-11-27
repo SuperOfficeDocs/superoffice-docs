@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 871,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "quas",
-  "Rank": 36,
-  "Rate": 7079.706,
-  "Units": 17528.462,
+  "CurrencyId": 58,
+  "Name": "Beer Group",
+  "Tooltip": "vero",
+  "Rank": 928,
+  "Rate": 27065.224,
+  "Units": 30327.718,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldLength": 197
     }
   }
 }

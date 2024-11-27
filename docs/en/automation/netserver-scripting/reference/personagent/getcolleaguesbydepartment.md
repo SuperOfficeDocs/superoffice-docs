@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetColleaguesByDepartment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment'>GetColleaguesByDepartment</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetColleaguesByDepartment'>GetColleaguesByDepartment</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetColleaguesByDepartment
 ```cs

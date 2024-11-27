@@ -82,7 +82,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "Cole Group",
-  "Tooltip": "aliquid",
+  "Id": 424,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 944,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nam",
+  "Rank": 554,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 771
     }
   },
   "_Links": {

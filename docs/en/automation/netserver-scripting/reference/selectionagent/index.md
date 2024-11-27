@@ -10,7 +10,7 @@ so.envir: onsite
 
 # SelectionAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISelectionAgent'>SelectionAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> that can trigger server-side event scripts.
 
 * [AddContactSelectionMembers](addcontactselectionmembers.md)
 * [AddContactSelectionMembersFromSearch](addcontactselectionmembersfromsearch.md)

@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walsh-Murphy",
-    "DisplayName": "Waters, Padberg and Casper",
-    "DisplayTooltip": "sit",
+    "Name": "Schumm, Abbott and Hansen",
+    "DisplayName": "Steuber Inc and Sons",
+    "DisplayTooltip": "ab",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 298
       }
     }
   },
   {
-    "Name": "Walsh-Murphy",
-    "DisplayName": "Waters, Padberg and Casper",
-    "DisplayTooltip": "sit",
+    "Name": "Schumm, Abbott and Hansen",
+    "DisplayName": "Steuber Inc and Sons",
+    "DisplayTooltip": "ab",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 298
       }
     }
   }

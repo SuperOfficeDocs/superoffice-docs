@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.GetNextDueDate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate'>GetNextDueDate</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.GetNextDueDate'>GetNextDueDate</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeGetNextDueDate
 ```cs

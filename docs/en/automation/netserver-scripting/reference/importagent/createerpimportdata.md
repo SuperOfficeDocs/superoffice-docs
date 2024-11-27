@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ImportAgent.CreateErpImportData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IImportAgent.CreateErpImportData'>CreateErpImportData</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IImportAgent.CreateErpImportData'>CreateErpImportData</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
 
 ## BeforeCreateErpImportData
 ```cs

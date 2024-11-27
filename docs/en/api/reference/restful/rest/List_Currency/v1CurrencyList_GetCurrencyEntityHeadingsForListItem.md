@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Kautzer, Hane and Legros",
-    "ToolTip": "Eligendi veritatis commodi.",
+    "Id": 915,
+    "Name": "Kihn, Emard and Cummerata",
+    "ToolTip": "Eveniet delectus voluptatum veritatis et vero dolore.",
     "Deleted": false,
-    "Rank": 686,
-    "Type": "reprehenderit",
-    "ColorBlock": 346,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2013-01-29T13:14:11.3829471+01:00",
+    "Rank": 217,
+    "Type": "amet",
+    "ColorBlock": 322,
+    "IconHint": "mollitia",
+    "Selected": false,
+    "LastChanged": "2018-03-08T14:45:13.6617546+01:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Huels-Fay",
-        "ToolTip": "Magni dolorum odit aspernatur nemo ipsum autem et.",
-        "Deleted": true,
-        "Rank": 248,
-        "Type": "vitae",
-        "ColorBlock": 716,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "1999-12-24T13:14:11.3829471+01:00",
+        "Id": 246,
+        "Name": "Braun Group",
+        "ToolTip": "Nostrum et.",
+        "Deleted": false,
+        "Rank": 135,
+        "Type": "eligendi",
+        "ColorBlock": 646,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2006-02-02T14:45:13.6617546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Sheldon Leuschke",
+        "FullName": "Van Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldType": "System.Int32",
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Miss Jazmyn Keira Hirthe",
+    "ExtraInfo": "quia",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Toby Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 850
       }
     }
   }

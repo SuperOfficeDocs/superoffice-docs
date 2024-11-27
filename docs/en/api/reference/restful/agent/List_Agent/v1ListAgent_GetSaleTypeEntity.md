@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=806
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=888
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 1001,
-  "Name": "Rice-Jacobson",
-  "Tooltip": "omnis",
-  "Rank": 477,
+  "SaleTypeId": 835,
+  "Name": "Nikolaus LLC",
+  "Tooltip": "repudiandae",
+  "Rank": 709,
   "DurationUnit": "Century",
-  "SaleDuration": 508,
-  "SaleTypeCatId": 227,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 677,
+  "SaleTypeCatId": 224,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 41,
-  "QuoteLinesTemplate": 614,
-  "ConfirmationLinesTemplate": 390,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 59,
+  "QuoteLinesTemplate": 716,
+  "ConfirmationLinesTemplate": 24,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 435,
-  "MinEarningPercent": 906,
-  "GroupQuoteLinesBy": 873,
-  "SortGroupLinesBy": 879,
+  "MaxDiscountPercent": 241,
+  "MinEarningPercent": 224,
+  "GroupQuoteLinesBy": 121,
+  "SortGroupLinesBy": 426,
   "Stages": [
     {
-      "Id": 350,
-      "Name": "Hettinger-Lindgren",
-      "ToolTip": "Quo voluptas possimus eaque consequatur non et.",
-      "Deleted": false,
-      "Rank": 721,
-      "Type": "corrupti",
-      "ColorBlock": 448,
-      "IconHint": "et",
+      "Id": 548,
+      "Name": "Gleason LLC",
+      "ToolTip": "Aut quisquam.",
+      "Deleted": true,
+      "Rank": 550,
+      "Type": "repellendus",
+      "ColorBlock": 450,
+      "IconHint": "esse",
       "Selected": true,
-      "LastChanged": "2019-09-11T13:14:06.0695417+02:00",
+      "LastChanged": "2003-02-19T14:45:05.6938402+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iusto",
-      "StyleHint": "nisi",
+      "ExtraInfo": "illo",
+      "StyleHint": "in",
       "Hidden": false,
-      "FullName": "Dr. Eudora Kacey Rodriguez",
+      "FullName": "Macy Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 261
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

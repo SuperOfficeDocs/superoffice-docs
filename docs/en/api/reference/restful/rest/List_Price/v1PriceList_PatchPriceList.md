@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sequi",
+    "path": "reiciendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sequi",
+    "path": "reiciendis",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 59,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 750,
-  "Name": "Runolfsdottir, Wolff and Gaylord",
-  "Description": "Centralized zero tolerance interface",
-  "Currency": "recusandae",
-  "CurrencyName": "Feeney Group",
-  "ValidFrom": "2001-05-06T13:14:11.4454508+02:00",
-  "ValidTo": "2019-05-29T13:14:11.4454508+02:00",
-  "IsActive": false,
+  "PriceListId": 817,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 210,
+  "Name": "Toy-Reilly",
+  "Description": "Visionary real-time system engine",
+  "Currency": "possimus",
+  "CurrencyName": "Lind-West",
+  "ValidFrom": "1997-10-09T14:45:13.7711051+02:00",
+  "ValidTo": "2012-03-22T14:45:13.7711051+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 950
     }
   },
   "_Links": {

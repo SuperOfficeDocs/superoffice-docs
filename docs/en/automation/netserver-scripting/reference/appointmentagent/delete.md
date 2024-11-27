@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.Delete
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.Delete'>Delete</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.Delete'>Delete</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeDelete
 ```cs

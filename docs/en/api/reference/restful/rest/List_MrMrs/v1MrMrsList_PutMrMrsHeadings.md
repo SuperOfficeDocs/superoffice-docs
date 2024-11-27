@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "Kuhlman Inc and Sons",
-    "Tooltip": "tempore",
+    "HeadingId": 562,
+    "Name": "Wiza, Bergnaum and Gusikowski",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 519
+    "Rank": 505,
+    "UdListDefinitionId": 326
   },
   {
-    "HeadingId": 31,
-    "Name": "Kuhlman Inc and Sons",
-    "Tooltip": "tempore",
+    "HeadingId": 562,
+    "Name": "Wiza, Bergnaum and Gusikowski",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 519
+    "Rank": 505,
+    "UdListDefinitionId": 326
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 542,
-    "Name": "Friesen Group",
-    "Tooltip": "aliquam",
+    "HeadingId": 181,
+    "Name": "McCullough-Schoen",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 392,
-    "UdListDefinitionId": 622,
+    "Rank": 780,
+    "UdListDefinitionId": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 422
       }
     }
   }

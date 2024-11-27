@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 610,
-    "Name": "Daugherty-Klocko",
-    "Tooltip": "alias",
+    "HeadingId": 870,
+    "Name": "Yundt-Lemke",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 564,
-    "UdListDefinitionId": 84,
+    "Rank": 419,
+    "UdListDefinitionId": 885,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 735
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 52,
-    "Name": "Goodwin LLC",
-    "Tooltip": "assumenda",
+    "HeadingId": 156,
+    "Name": "Cremin, Nicolas and Boyer",
+    "Tooltip": "sequi",
     "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 607
+    "Rank": 934,
+    "UdListDefinitionId": 642
   },
   {
-    "HeadingId": 52,
-    "Name": "Goodwin LLC",
-    "Tooltip": "assumenda",
+    "HeadingId": 156,
+    "Name": "Cremin, Nicolas and Boyer",
+    "Tooltip": "sequi",
     "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 607
+    "Rank": 934,
+    "UdListDefinitionId": 642
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 722,
-    "Name": "Moore-Kuhlman",
-    "Tooltip": "dicta",
-    "Deleted": true,
-    "Rank": 649,
-    "UdListDefinitionId": 76,
+    "HeadingId": 125,
+    "Name": "Pfeffer LLC",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 768,
+    "UdListDefinitionId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

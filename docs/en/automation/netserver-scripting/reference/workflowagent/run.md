@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.Run
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.Run'>Run</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.Run'>Run</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeRun
 ```cs

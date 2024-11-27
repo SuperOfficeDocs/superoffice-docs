@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 804,
-  "SourcePersonId": 140,
-  "DestinationContactId": 24,
-  "DestinationPersonId": 604,
-  "RelationId": 1001,
-  "Comment": "dolores",
-  "RelationDefinitionId": 221,
-  "Reversed": 943,
-  "UpdatedDate": "2019-11-17T13:14:06.3351823+01:00",
-  "CreatedDate": "1999-01-08T13:14:06.3351823+01:00",
+  "SourceContactId": 708,
+  "SourcePersonId": 225,
+  "DestinationContactId": 845,
+  "DestinationPersonId": 376,
+  "RelationId": 582,
+  "Comment": "cum",
+  "RelationDefinitionId": 889,
+  "Reversed": 773,
+  "UpdatedDate": "2023-09-18T14:45:06.0999998+02:00",
+  "CreatedDate": "2013-10-02T14:45:06.0999998+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Renner, Boyer and O'Reilly",
-  "SourcePersonName": "Rogahn, Zemlak and Casper",
-  "DestinationContactName": "Olson Inc and Sons",
-  "DestinationPersonName": "O'Connell, Bergstrom and Johnson",
-  "ActiveText": "architecto",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Koepp, Schowalter and Bruen",
+  "SourcePersonName": "Frami-Haley",
+  "DestinationContactName": "Bogisich, Kozey and Hoeger",
+  "DestinationPersonName": "Crist Group",
+  "ActiveText": "non",
+  "PassiveText": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldLength": 368
     }
   }
 }

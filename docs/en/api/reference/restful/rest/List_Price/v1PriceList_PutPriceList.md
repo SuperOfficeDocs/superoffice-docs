@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 780,
-  "ERPPriceListKey": "illo",
-  "QuoteConnectionId": 314,
-  "Name": "Tillman, Kulas and Hegmann",
-  "Description": "Managed client-server initiative",
-  "Currency": "consequatur",
-  "CurrencyName": "Wehner-Ankunding",
-  "ValidFrom": "2007-02-22T13:14:11.4454508+01:00",
-  "ValidTo": "2005-11-04T13:14:11.4454508+01:00",
-  "IsActive": true
+  "PriceListId": 593,
+  "ERPPriceListKey": "adipisci",
+  "QuoteConnectionId": 156,
+  "Name": "Stroman, Gleichner and Hansen",
+  "Description": "Reduced neutral success",
+  "Currency": "sunt",
+  "CurrencyName": "Mraz-Bartoletti",
+  "ValidFrom": "2017-11-24T14:45:13.7711051+01:00",
+  "ValidTo": "2012-12-07T14:45:13.7711051+01:00",
+  "IsActive": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 775,
-  "ERPPriceListKey": "eligendi",
-  "QuoteConnectionId": 477,
-  "Name": "Lindgren, Hackett and O'Conner",
-  "Description": "Sharable needs-based instruction set",
-  "Currency": "voluptatibus",
-  "CurrencyName": "Kautzer LLC",
-  "ValidFrom": "2024-05-07T13:14:11.4454508+02:00",
-  "ValidTo": "2014-01-17T13:14:11.4454508+01:00",
+  "PriceListId": 215,
+  "ERPPriceListKey": "sed",
+  "QuoteConnectionId": 399,
+  "Name": "Keebler LLC",
+  "Description": "Self-enabling disintermediate capacity",
+  "Currency": "praesentium",
+  "CurrencyName": "Halvorson, Ward and Jewess",
+  "ValidFrom": "2019-03-28T14:45:13.7711051+01:00",
+  "ValidTo": "2023-04-28T14:45:13.7711051+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 999
     }
   },
   "_Links": {

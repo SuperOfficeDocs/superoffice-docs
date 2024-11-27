@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 451,
-    "Name": "Thiel LLC",
-    "Tooltip": "alias",
-    "Deleted": false,
-    "Rank": 2,
-    "UdListDefinitionId": 681,
+    "HeadingId": 283,
+    "Name": "Kuphal Group",
+    "Tooltip": "provident",
+    "Deleted": true,
+    "Rank": 869,
+    "UdListDefinitionId": 888,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 628
       }
     }
   }

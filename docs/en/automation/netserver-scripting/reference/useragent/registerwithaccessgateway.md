@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.RegisterWithAccessGateway
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGateway'>RegisterWithAccessGateway</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.RegisterWithAccessGateway'>RegisterWithAccessGateway</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeRegisterWithAccessGateway
 ```cs

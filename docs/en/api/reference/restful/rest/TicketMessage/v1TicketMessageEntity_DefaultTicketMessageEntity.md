@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 833,
+  "EjMessageId": 58,
   "Ticket": null,
-  "CreatedAt": "2018-08-06T13:14:11.1641844+02:00",
+  "CreatedAt": "2001-04-30T14:45:13.3493238+02:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "sint",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ipsam",
-  "TimeSpent": 504,
-  "Body": "placeat",
-  "HtmlBody": "neque",
-  "EmailHeader": "mattie@ryan.co.uk",
-  "DebugInfo": "eaque",
-  "MailSorter": "aliquid",
+  "MessageId": "magnam",
+  "TimeSpent": 325,
+  "Body": "et",
+  "HtmlBody": "eveniet",
+  "EmailHeader": "elsa@nitzschejones.biz",
+  "DebugInfo": "iusto",
+  "MailSorter": "recusandae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rerum",
+  "SearchTitle": "id",
   "MessageHeaders": [
     {
-      "Id": 61,
-      "Name": "Dickens-Mitchell",
-      "Value": "itaque",
+      "Id": 416,
+      "Name": "Hermann LLC",
+      "Value": "veniam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldType": "System.String",
+          "FieldLength": 177
         }
       }
     }
   ],
   "Important": false,
-  "Language": "perferendis",
-  "Sentiment": 136,
-  "SentimentConfidence": 645,
+  "Language": "omnis",
+  "Sentiment": 134,
+  "SentimentConfidence": 905,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 138,
-      "Name": "Reichert LLC",
-      "ContentType": "ea",
-      "AttSize": 88,
+      "AttachmentId": 90,
+      "Name": "Bosco, Morar and Barrows",
+      "ContentType": "cum",
+      "AttSize": 610,
       "InlineImage": false,
-      "ContentId": "aperiam",
-      "AuthKey": "quia",
+      "ContentId": "ipsam",
+      "AuthKey": "non",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 515
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "aut"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "cum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 564
     }
   }
 }

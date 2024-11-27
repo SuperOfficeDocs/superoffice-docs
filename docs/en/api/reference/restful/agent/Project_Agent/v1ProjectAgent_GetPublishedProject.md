@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 283
+  "ProjectId": 258
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 624,
-  "Name": "Grimes-Windler",
-  "Description": "Fundamental stable support",
+  "ProjectId": 816,
+  "Name": "Parker LLC",
+  "Description": "Proactive contextually-based process improvement",
   "URL": "http://www.example.com/",
-  "Type": "ut",
-  "AssociateId": 555,
-  "AssociateFullName": "Reilly Bayer",
+  "Type": "est",
+  "AssociateId": 846,
+  "AssociateFullName": "Mr. Alex Zackery Gerhold DVM",
   "TypeId": 10,
-  "Updated": "2013-04-19T13:14:06.2883049+02:00",
-  "StatusId": 857,
-  "Status": "quod",
-  "TextId": 568,
-  "PublishTo": "2008-04-21T13:14:06.2883049+02:00",
-  "PublishFrom": "2023-07-01T13:14:06.2883049+02:00",
+  "Updated": "1999-08-04T14:45:06.0218921+02:00",
+  "StatusId": 642,
+  "Status": "aliquam",
+  "TextId": 596,
+  "PublishTo": "2020-08-23T14:45:06.0218921+02:00",
+  "PublishFrom": "2001-11-29T14:45:06.0218921+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "475167",
-  "ActiveErpLinks": 845,
+  "ProjectNumber": "1211412",
+  "ActiveErpLinks": 549,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 898
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.AddBounce
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.AddBounce'>AddBounce</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.AddBounce'>AddBounce</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeAddBounce
 ```cs

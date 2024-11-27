@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 571,
-  "CurrencyId": 910
+  "QuoteConnectionId": 508,
+  "CurrencyId": 67
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 740,
-    "ERPPriceListKey": "est",
-    "QuoteConnectionId": 614,
-    "Name": "Ullrich, Hauck and Jerde",
-    "Description": "Extended analyzing success",
-    "Currency": "fuga",
-    "CurrencyName": "Pfannerstill Group",
-    "ValidFrom": "2019-05-24T13:14:06.3351823+02:00",
-    "ValidTo": "2019-12-04T13:14:06.3351823+01:00",
+    "PriceListId": 550,
+    "ERPPriceListKey": "facere",
+    "QuoteConnectionId": 558,
+    "Name": "Littel, Kuhic and Paucek",
+    "Description": "Organized optimizing functionalities",
+    "Currency": "deserunt",
+    "CurrencyName": "Zulauf, Ruecker and McLaughlin",
+    "ValidFrom": "2008-04-23T14:45:06.0687573+02:00",
+    "ValidTo": "2011-07-28T14:45:06.0687573+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 928
       }
     }
   }

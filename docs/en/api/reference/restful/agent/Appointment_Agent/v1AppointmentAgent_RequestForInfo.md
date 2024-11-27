@@ -88,14 +88,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 997,
-  "Channel": "reprehenderit",
-  "Regarding": "deserunt",
-  "ContactName": "Gleason Inc and Sons",
-  "PersonFirstname": "Ephraim",
-  "PersonLastname": "Carroll",
-  "EmailAddress": "keeley_johnston@browngreenfelder.us",
-  "PhoneNumber": "1350495"
+  "AssociateIdForNewContact": 803,
+  "Channel": "dolor",
+  "Regarding": "rem",
+  "ContactName": "Conn LLC",
+  "PersonFirstname": "Crystal",
+  "PersonLastname": "Oberbrunner",
+  "EmailAddress": "weston@oreilly.info",
+  "PhoneNumber": "1437914"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 794,
-      "Name": "Ratke Group",
-      "OrgNr": "791122",
+      "ContactId": 361,
+      "Name": "Kshlerin Group",
+      "OrgNr": "615829",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "error",
-      "DirectPhone": "1-494-985-5914 x3313",
-      "AssociateId": 298,
-      "CountryId": 851,
-      "EmailAddress": "donny_batz@haley.uk",
-      "Kananame": "voluptatem",
-      "EmailAddressName": "jalen@kemmer.name",
+      "City": "occaecati",
+      "DirectPhone": "(184)930-6941",
+      "AssociateId": 163,
+      "CountryId": 321,
+      "EmailAddress": "haley_lang@trantow.us",
+      "Kananame": "assumenda",
+      "EmailAddressName": "florencio@hodkiewiczwhite.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Ava Lowe",
+      "AssociateFullName": "Zoie Schaefer",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "repellat",
-      "FullName": "Alysson Gulgowski",
+      "FormattedAddress": "iusto",
+      "FullName": "Doris Kovacek",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 80,
-      "Number1": "1348742",
-      "Number2": "532907",
+      "ActiveErpLinks": 143,
+      "Number1": "933928",
+      "Number2": "382871",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldLength": 61
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 1000
     }
   }
 }

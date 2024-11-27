@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 651,
-  "Name": "Nikolaus-Mueller",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 259,
-  "UdListDefinitionId": 149
+  "HeadingId": 44,
+  "Name": "Kunde LLC",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "Rank": 666,
+  "UdListDefinitionId": 140
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 253,
-  "Name": "Emard, Sporer and Bode",
-  "Tooltip": "et",
+  "HeadingId": 881,
+  "Name": "Thiel Inc and Sons",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 291,
-  "UdListDefinitionId": 245,
+  "Rank": 646,
+  "UdListDefinitionId": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldLength": 127
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "et",
-    "ValueType": "veritatis",
+    "Key": "quas",
+    "ValueType": "provident",
     "Mandatory": false,
-    "EncodedDisplayName": "Weber Inc and Sons",
-    "EncodedDisplayDescription": "Monitored content-based open architecture",
-    "IconHint": "corrupti",
+    "EncodedDisplayName": "Krajcik Group",
+    "EncodedDisplayDescription": "Compatible impactful methodology",
+    "IconHint": "doloremque",
     "ControlInfos": [
       {
-        "Type": "officia",
-        "Label": "autem",
-        "Dimension": 662,
-        "ListProviderName": "Zieme-Sauer",
-        "ListProviderExtraInfo": "recusandae",
-        "ListProviderPrimaryKeyName": "McLaughlin-Graham",
-        "ListLeadText": "vitae",
+        "Type": "praesentium",
+        "Label": "vero",
+        "Dimension": 639,
+        "ListProviderName": "Schmitt, Douglas and Champlin",
+        "ListProviderExtraInfo": "voluptatem",
+        "ListProviderPrimaryKeyName": "Runolfsdottir Inc and Sons",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldLength": 636
           }
         }
       }
     ],
-    "EncodedDataCaption": "soluta",
-    "EncodedDataCaptionDescription": "Enhanced exuding flexibility",
-    "CurrentOperationType": "debitis",
+    "EncodedDataCaption": "placeat",
+    "EncodedDataCaptionDescription": "Function-based explicit product",
+    "CurrentOperationType": "voluptates",
     "Values": [
-      "perspiciatis",
-      "quia"
+      "dolor",
+      "eaque"
     ],
     "DisplayValues": [
-      "quasi",
-      "sit"
+      "dolor",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "assumenda",
-        "EncodedDisplayName": "Jones Inc and Sons",
+        "Key": "explicabo",
+        "EncodedDisplayName": "Schaefer Group",
         "EncodedLeadTexts": [
-          "earum",
-          "quas"
+          "aut",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldLength": 509
           }
         }
       },
       {
-        "Key": "assumenda",
-        "EncodedDisplayName": "Jones Inc and Sons",
+        "Key": "explicabo",
+        "EncodedDisplayName": "Schaefer Group",
         "EncodedLeadTexts": [
-          "earum",
-          "quas"
+          "aut",
+          "suscipit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldLength": 509
           }
         }
       }

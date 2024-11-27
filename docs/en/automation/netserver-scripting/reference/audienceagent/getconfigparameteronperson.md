@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.GetConfigParameterOnPerson
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson'>GetConfigParameterOnPerson</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.GetConfigParameterOnPerson'>GetConfigParameterOnPerson</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeGetConfigParameterOnPerson
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.ResyncUsers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers'>ResyncUsers</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.ResyncUsers'>ResyncUsers</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeResyncUsers
 ```cs

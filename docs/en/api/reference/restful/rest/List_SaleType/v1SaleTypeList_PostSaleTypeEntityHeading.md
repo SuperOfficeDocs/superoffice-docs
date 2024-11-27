@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 887,
-  "Name": "Daniel LLC",
-  "Tooltip": "tempore",
+  "HeadingId": 727,
+  "Name": "Torp Inc and Sons",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 626,
-  "UdListDefinitionId": 300
+  "Rank": 22,
+  "UdListDefinitionId": 870
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 686,
-  "Name": "Schuppe LLC",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 437,
-  "UdListDefinitionId": 829,
+  "HeadingId": 848,
+  "Name": "Howell, Cole and Reichel",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "Rank": 24,
+  "UdListDefinitionId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldLength": 934
     }
   }
 }

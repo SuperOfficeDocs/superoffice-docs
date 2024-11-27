@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 980,
-    "ColumnId": 865,
-    "FieldDefault": "voluptates",
-    "FieldHeight": 915,
-    "FieldLabel": "quam",
-    "FieldLeft": 170,
-    "FieldTop": 661,
+    "UDefFieldId": 273,
+    "ColumnId": 225,
+    "FieldDefault": "autem",
+    "FieldHeight": 847,
+    "FieldLabel": "quia",
+    "FieldLeft": 951,
+    "FieldTop": 937,
     "FieldType": "Checkbox",
-    "FieldWidth": 575,
-    "FormatMask": "repudiandae",
+    "FieldWidth": 81,
+    "FormatMask": "nesciunt",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 943,
-    "LabelLeft": 916,
-    "LabelTop": 64,
-    "LabelWidth": 49,
-    "LastVersionId": 698,
-    "ListTableId": 447,
-    "IsMandatory": true,
+    "LabelHeight": 870,
+    "LabelLeft": 207,
+    "LabelTop": 630,
+    "LabelWidth": 887,
+    "LastVersionId": 603,
+    "ListTableId": 882,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 699,
-    "ProgId": "sequi",
-    "IsReadOnly": true,
-    "ShortLabel": "nihil",
-    "TabOrder": 920,
-    "TextLength": 264,
-    "Tooltip": "qui",
-    "UdefIdentity": 899,
-    "UDListDefinitionId": 382,
+    "Page1LineNo": 211,
+    "ProgId": "animi",
+    "IsReadOnly": false,
+    "ShortLabel": "et",
+    "TabOrder": 596,
+    "TextLength": 68,
+    "Tooltip": "nam",
+    "UdefIdentity": 696,
+    "UDListDefinitionId": 514,
     "Justification": "Center",
-    "Version": 438,
-    "TemplateVariableName": "Osinski-Spinka",
-    "HasBeenPublished": false,
-    "MdoListName": "Volkman LLC",
+    "Version": 38,
+    "TemplateVariableName": "Bahringer Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Hand LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

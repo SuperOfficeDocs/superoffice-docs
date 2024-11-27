@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 834,
-  "FieldName": "Brown, O'Keefe and Leuschke",
-  "Label": "atque",
-  "Tooltip": "eum",
-  "Editable": false,
-  "InUse": false,
+  "QuoteLineConfigurationId": 50,
+  "FieldName": "Wisozk LLC",
+  "Label": "dolores",
+  "Tooltip": "quas",
+  "Editable": true,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 608,
-  "RestrictEdit": true,
+  "Rank": 812,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 563
     }
   }
 }

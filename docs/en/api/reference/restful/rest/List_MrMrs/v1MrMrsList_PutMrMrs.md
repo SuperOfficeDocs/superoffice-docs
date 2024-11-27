@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 443,
-  "Name": "Weimann Group",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "UdListDefinitionId": 653,
-  "Rank": 895
+  "Id": 800,
+  "Name": "Koch, Nicolas and Halvorson",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "UdListDefinitionId": 251,
+  "Rank": 776
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Rogahn, Carroll and Doyle",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "UdListDefinitionId": 329,
-  "Rank": 854,
+  "Id": 56,
+  "Name": "Krajcik Inc and Sons",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 493,
+  "Rank": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 63
     }
   }
 }

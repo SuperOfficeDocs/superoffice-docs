@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.TryAddPersonsToEmailFlow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow'>TryAddPersonsToEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.TryAddPersonsToEmailFlow'>TryAddPersonsToEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeTryAddPersonsToEmailFlow
 ```cs

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=601
+POST /api/v1/Agents/List/GetCountry?countryId=477
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 133,
-  "Name": "Lesch-Corwin",
-  "CurrencyId": 219,
-  "EnglishName": "Dach Group",
+  "CountryId": 930,
+  "Name": "Dickinson, Jakubowski and Koepp",
+  "CurrencyId": 379,
+  "EnglishName": "Daugherty-Weimann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Cross-platform discrete success",
-  "OrgNrText": "419445",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "enim",
-  "ZipPrefix": "est",
-  "DomainName": "Mills Inc and Sons",
-  "AddressLayoutId": 830,
-  "DomesticAddressLayoutId": 235,
-  "ForeignAddressLayoutId": 872,
-  "Rank": 297,
-  "Tooltip": "nulla",
-  "Deleted": true,
+  "ImageDescription": "Open-architected logistical moderator",
+  "OrgNrText": "893830",
+  "InterAreaPrefix": "ea",
+  "DialInPrefix": "et",
+  "ZipPrefix": "nihil",
+  "DomainName": "Cruickshank-Cremin",
+  "AddressLayoutId": 415,
+  "DomesticAddressLayoutId": 116,
+  "ForeignAddressLayoutId": 263,
+  "Rank": 26,
+  "Tooltip": "qui",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldLength": 422
     }
   }
 }

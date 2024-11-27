@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CreateDefaultDashTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile'>CreateDefaultDashTile</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CreateDefaultDashTile'>CreateDefaultDashTile</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCreateDefaultDashTile
 ```cs

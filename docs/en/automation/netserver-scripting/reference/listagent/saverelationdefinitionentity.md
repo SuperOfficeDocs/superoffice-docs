@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveRelationDefinitionEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveRelationDefinitionEntity'>SaveRelationDefinitionEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveRelationDefinitionEntity'>SaveRelationDefinitionEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveRelationDefinitionEntity
 ```cs

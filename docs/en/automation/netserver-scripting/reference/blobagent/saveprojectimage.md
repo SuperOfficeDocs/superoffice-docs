@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.SaveProjectImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage'>SaveProjectImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.SaveProjectImage'>SaveProjectImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeSaveProjectImage
 ```cs

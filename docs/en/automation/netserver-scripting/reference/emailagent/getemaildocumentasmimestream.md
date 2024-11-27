@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetEmailDocumentAsMimeStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetEmailDocumentAsMimeStream'>GetEmailDocumentAsMimeStream</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetEmailDocumentAsMimeStream'>GetEmailDocumentAsMimeStream</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetEmailDocumentAsMimeStream
 ```cs

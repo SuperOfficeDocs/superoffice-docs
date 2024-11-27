@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Wilderman Inc and Sons",
-    "Tooltip": "exercitationem",
+    "Id": 62,
+    "Name": "Schimmel Group",
+    "Tooltip": "optio",
     "Deleted": false,
-    "UdListDefinitionId": 501,
-    "Rank": 958
+    "UdListDefinitionId": 108,
+    "Rank": 991
   },
   {
-    "Id": 121,
-    "Name": "Wilderman Inc and Sons",
-    "Tooltip": "exercitationem",
+    "Id": 62,
+    "Name": "Schimmel Group",
+    "Tooltip": "optio",
     "Deleted": false,
-    "UdListDefinitionId": 501,
-    "Rank": 958
+    "UdListDefinitionId": 108,
+    "Rank": 991
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Wisoky-Bartoletti",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "UdListDefinitionId": 68,
-    "Rank": 221,
+    "Id": 540,
+    "Name": "Beier-Ebert",
+    "Tooltip": "blanditiis",
+    "Deleted": true,
+    "UdListDefinitionId": 617,
+    "Rank": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 115,
+  "AssociateId": 74,
   "Type": "AnonymousAssociate",
-  "PersonId": 846,
-  "UserName": "Gerlach, Watsica and Ernser"
+  "PersonId": 111,
+  "UserName": "Reilly Group"
 }
 ```
 

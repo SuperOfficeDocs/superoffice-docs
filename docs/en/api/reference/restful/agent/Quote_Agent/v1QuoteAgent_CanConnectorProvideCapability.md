@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 652,
-  "CapabilityName": "Thompson-Lockman"
+  "QuoteConnectionId": 947,
+  "CapabilityName": "Stehr, Marquardt and Doyle"
 }
 ```
 

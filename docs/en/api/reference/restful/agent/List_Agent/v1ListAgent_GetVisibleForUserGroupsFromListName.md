@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Davis, Lang and Luettgen",
-  "ListItemId": 536
+  "UdListDefinitionName": "Schoen LLC",
+  "ListItemId": 432
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Hintz Inc and Sons",
-    "ToolTip": "Pariatur et aspernatur reprehenderit sapiente velit eligendi harum.",
+    "Id": 242,
+    "Name": "Kuphal-Klocko",
+    "ToolTip": "Qui facere.",
     "Deleted": true,
-    "Rank": 721,
-    "Type": "veritatis",
-    "ColorBlock": 123,
-    "IconHint": "dolorem",
+    "Rank": 773,
+    "Type": "ut",
+    "ColorBlock": 66,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2021-11-02T13:14:06.0851676+01:00",
+    "LastChanged": "2007-04-19T14:45:05.7094637+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Goldner, O'Keefe and Abernathy",
-        "ToolTip": "Minus magnam alias ut.",
-        "Deleted": false,
-        "Rank": 782,
-        "Type": "est",
-        "ColorBlock": 108,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2002-11-01T13:14:06.0851676+01:00",
+        "Id": 664,
+        "Name": "Stroman Group",
+        "ToolTip": "Dolor reiciendis excepturi dolorem nam sint.",
+        "Deleted": true,
+        "Rank": 202,
+        "Type": "aut",
+        "ColorBlock": 544,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2011-10-02T14:45:05.7094637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "labore",
+        "ExtraInfo": "est",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Syble Schneider",
+        "FullName": "Brianne Peggie Kris II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 553
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "facere",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Clementina Blick",
+    "FullName": "Dr. Judy Reichel DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 443
       }
     }
   }

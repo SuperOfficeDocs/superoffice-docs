@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Little Inc and Sons",
-  "Tooltip": "aspernatur",
+  "Id": 81,
+  "Name": "Kessler, Bauch and Powlowski",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 295,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 305,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "cum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 224
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 241,
-  "Name": "Reynolds, VonRueden and Grant",
-  "Tooltip": "molestias",
-  "PassiveText": "id",
+  "ReldefId": 439,
+  "Name": "Abshire, Botsford and Kilback",
+  "Tooltip": "libero",
+  "PassiveText": "sed",
   "Deleted": false,
-  "Rank": 645,
+  "Rank": 84,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 641,
-  "Name": "Krajcik, Nicolas and Konopelski",
-  "Tooltip": "eos",
-  "PassiveText": "suscipit",
-  "Deleted": true,
-  "Rank": 126,
+  "ReldefId": 745,
+  "Name": "O'Conner, Vandervort and Hayes",
+  "Tooltip": "et",
+  "PassiveText": "maiores",
+  "Deleted": false,
+  "Rank": 319,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

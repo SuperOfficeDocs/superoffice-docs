@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SaveDocumentTemplateStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SaveDocumentTemplateStream'>SaveDocumentTemplateStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SaveDocumentTemplateStream'>SaveDocumentTemplateStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSaveDocumentTemplateStream
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CreateDashTileSelectionFromEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity'>CreateDashTileSelectionFromEntity</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CreateDashTileSelectionFromEntity'>CreateDashTileSelectionFromEntity</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCreateDashTileSelectionFromEntity
 ```cs

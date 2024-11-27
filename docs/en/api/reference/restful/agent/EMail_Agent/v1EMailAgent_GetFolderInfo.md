@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "dolores",
-    "reprehenderit"
+    "est",
+    "debitis"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Baumbach-Altenwerth",
-    "Delimiter": "aut",
-    "Flags": "at",
-    "TotalItems": 651,
-    "UnreadItems": 680,
+    "Name": "Fisher, Kunze and Ernser",
+    "Delimiter": "nihil",
+    "Flags": "corporis",
+    "TotalItems": 537,
+    "UnreadItems": 348,
     "Subscribed": false,
-    "EmailFolderId": 176,
+    "EmailFolderId": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 755
       }
     }
   }

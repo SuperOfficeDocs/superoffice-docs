@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Predovic, Kub and Kovacek",
+  "ProviderName": "Medhurst-Morar",
   "Restrictions": [
     {
-      "Name": "Koch, Ullrich and Reilly",
-      "Operator": "voluptatem",
+      "Name": "Gorczany LLC",
+      "Operator": "praesentium",
       "Values": [
-        "autem",
-        "iure"
+        "deleniti",
+        "molestiae"
       ],
       "DisplayValues": [
-        "nihil",
-        "culpa"
+        "ea",
+        "ipsa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 37,
+      "InterParenthesis": 350,
       "InterOperator": "And",
-      "UniqueHash": 890
+      "UniqueHash": 82
     }
   ],
-  "AssociateId": 646,
-  "ExtraInfo": "quaerat"
+  "AssociateId": 532,
+  "ExtraInfo": "a"
 }
 ```
 

@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 33,
-  "Name": "Considine-McKenzie",
-  "TZLocationCode": "vitae",
-  "TZLocationCities": "autem",
-  "IsoNumber": 486,
+  "TZLocationID": 295,
+  "Name": "Jacobi Group",
+  "TZLocationCode": "sit",
+  "TZLocationCities": "consequatur",
+  "IsoNumber": 591,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 239,
-      "StartMonth": 46,
-      "EndDay": 965,
-      "EndMonth": 689,
-      "TZOffset": 778,
-      "StartRulePattern": "dicta",
-      "EndRulePattern": "laudantium"
+      "StartDay": 81,
+      "StartMonth": 2,
+      "EndDay": 311,
+      "EndMonth": 385,
+      "TZOffset": 996,
+      "StartRulePattern": "quis",
+      "EndRulePattern": "ut"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 974,
-      "StartMonth": 662,
-      "EndDay": 690,
-      "EndMonth": 471,
-      "TZOffset": 46,
-      "StartRulePattern": "molestiae",
-      "EndRulePattern": "et"
+      "StartDay": 205,
+      "StartMonth": 708,
+      "EndDay": 591,
+      "EndMonth": 464,
+      "TZOffset": 118,
+      "StartRulePattern": "voluptatem",
+      "EndRulePattern": "ea"
     }
   }
 }

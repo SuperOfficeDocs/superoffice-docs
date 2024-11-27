@@ -110,33 +110,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 990,
-  "Name": "Anderson, Macejkovic and Douglas",
-  "Rank": 571,
-  "Tooltip": "deleniti",
-  "Icon": "dicta",
-  "DefaultTicketStatus": 107,
+  "TicketTypeId": 487,
+  "Name": "Larkin LLC",
+  "Rank": 809,
+  "Tooltip": "maiores",
+  "Icon": "repellat",
+  "DefaultTicketStatus": 482,
   "TicketStatuses": [
-    345,
-    156
+    450,
+    90
   ],
-  "DefaultTicketPriority": 806,
+  "DefaultTicketPriority": 272,
   "TicketPriorities": [
-    378,
-    813
+    32,
+    928
   ],
-  "ReplyTemplate": 478,
+  "ReplyTemplate": 923,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
+  "IsDefault": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    736,
-    238
+    187,
+    739
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -148,31 +148,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 813,
-  "Name": "Conn, Hansen and Frami",
-  "Rank": 161,
-  "Tooltip": "ipsa",
-  "Icon": "nihil",
-  "DefaultTicketStatus": 434,
+  "TicketTypeId": 240,
+  "Name": "O'Connell, Grant and Boehm",
+  "Rank": 34,
+  "Tooltip": "quia",
+  "Icon": "aut",
+  "DefaultTicketStatus": 51,
   "TicketStatuses": [
-    511,
-    483
+    882,
+    263
   ],
-  "DefaultTicketPriority": 917,
+  "DefaultTicketPriority": 727,
   "TicketPriorities": [
-    3,
-    812
+    158,
+    717
   ],
-  "ReplyTemplate": 177,
+  "ReplyTemplate": 837,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    44,
-    381
+    847,
+    941
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -180,8 +180,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

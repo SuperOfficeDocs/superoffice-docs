@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.GetThirdPartyLicenseAssignments
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments'>GetThirdPartyLicenseAssignments</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.GetThirdPartyLicenseAssignments'>GetThirdPartyLicenseAssignments</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeGetThirdPartyLicenseAssignments
 ```cs

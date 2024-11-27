@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 716,
-  "AssociateId": 5
+  "AppointmentId": 145,
+  "AssociateId": 590
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-09-05T13:14:05.3819998+02:00",
-  "AppointmentId": 467,
-  "Description": "Right-sized value-added budgetary management",
-  "Title": "error",
-  "Agenda": "commodi",
-  "InternalNotes": "sit",
-  "StartDate": "2008-07-22T13:14:05.3819998+02:00",
-  "EndDate": "2006-04-30T13:14:05.3819998+02:00",
+  "CreatedDate": "1998-09-28T14:45:04.6786796+02:00",
+  "AppointmentId": 48,
+  "Description": "Streamlined systematic solution",
+  "Title": "et",
+  "Agenda": "unde",
+  "InternalNotes": "odio",
+  "StartDate": "2010-08-17T14:45:04.6786796+02:00",
+  "EndDate": "2008-08-31T14:45:04.6786796+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 854,
+  "MotherId": 137,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-04-25T13:14:05.3819998+02:00",
+  "UpdatedDate": "2003-07-25T14:45:04.6786796+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 438,
+  "ActiveLinks": 826,
   "Links": [
     {
-      "EntityName": "Ondricka, Schmeler and Lemke",
-      "Id": 622,
-      "Description": "Monitored 4th generation Graphical User Interface",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 68,
+      "EntityName": "Pollich LLC",
+      "Id": 924,
+      "Description": "Progressive bifurcated complexity",
+      "ExtraInfo": "voluptas",
+      "LinkId": 997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 73
         }
       }
     }
   ],
-  "AlarmLeadTime": "natus",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 72,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "odio",
-  "LeadTime": "aspernatur",
-  "Location": "placeat",
-  "RejectCounter": 794,
+  "ColorIndex": 918,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "et",
+  "LeadTime": "debitis",
+  "Location": "ipsa",
+  "RejectCounter": 445,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 657,
-      "PersonId": 657,
-      "ContactId": 572,
-      "EmailId": 394,
+      "AssociateId": 766,
+      "PersonId": 207,
+      "ContactId": 492,
+      "EmailId": 284,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "madonna_larkin@fayschuster.us",
-      "Description": "Realigned intangible ability"
+      "EmailAddress": "rocio.yost@schuppeullrich.name",
+      "Description": "Fundamental stable moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-03-29T13:14:05.3819998+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2019-08-15T14:45:04.6786796+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 84,
+  "PreferredTZLocation": 279,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 910,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 340,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ullam",
+  "CentralserviceVideomeetId": "ex",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Leo Schimmel PhD",
-    "SuperOffice:2": "Chad Daugherty"
+    "SuperOffice:1": "Margaret Friesen",
+    "SuperOffice:2": "Dr. Dominic Dejon Emard"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "placeat"
+    "CustomFields1": "provident",
+    "CustomFields2": "doloremque"
   },
-  "PublishEventDate": "2001-11-05T13:14:05.3819998+01:00",
-  "PublishTo": "1997-12-19T13:14:05.3819998+01:00",
-  "PublishFrom": "2016-05-12T13:14:05.3819998+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-04-01T14:45:04.6786796+02:00",
+  "PublishTo": "2015-01-03T14:45:04.6786796+01:00",
+  "PublishFrom": "2000-08-26T14:45:04.6786796+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 491,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 395
         }
       }
     },
     {
-      "VisibleId": 491,
+      "VisibleId": 489,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 395
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 702
     }
   }
 }

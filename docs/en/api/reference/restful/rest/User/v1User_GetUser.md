@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 58,
-  "Name": "Stoltenberg-Huel",
-  "Rank": 900,
-  "Tooltip": "similique",
+  "AssociateId": 505,
+  "Name": "O'Connell-Renner",
+  "Rank": 332,
+  "Tooltip": "neque",
   "LicenseOwners": [
     {
-      "Name": "Spencer Inc and Sons",
-      "Description": "Universal bifurcated core",
+      "Name": "Bergstrom, Ratke and Metz",
+      "Description": "Function-based client-driven support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 108
         }
       }
     },
     {
-      "Name": "Spencer Inc and Sons",
-      "Description": "Universal bifurcated core",
+      "Name": "Bergstrom, Ratke and Metz",
+      "Description": "Function-based client-driven support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldLength": 108
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "rem",
-      "Tooltip": "eligendi",
-      "Id": 41,
-      "Rank": 600,
-      "Deleted": true,
+      "Value": "natus",
+      "Tooltip": "magnam",
+      "Id": 904,
+      "Rank": 419,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1999-08-02T13:14:11.2579402+02:00",
-  "Lastlogout": "2023-09-28T13:14:11.2579402+02:00",
-  "EjUserId": 882,
-  "RequestSignature": "fugit",
+  "Deleted": true,
+  "Lastlogin": "2002-01-27T14:45:13.4899227+01:00",
+  "Lastlogout": "2006-07-20T14:45:13.4899227+02:00",
+  "EjUserId": 918,
+  "RequestSignature": "dolorem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "repellendus",
-      "DisplayValue": "ea",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "repellendus",
-      "DisplayValue": "ea",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
-        }
-      }
-    }
-  ],
-  "UserName": "Langworth, Stamm and Feil",
-  "TicketCategories": [
-    {
-      "Id": 337,
-      "Name": "Bogan-Lubowitz",
-      "ToolTip": "Eveniet quae est quisquam excepturi.",
-      "Deleted": true,
-      "Rank": 918,
-      "Type": "ut",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ut",
-      "ColorBlock": 3,
-      "ExtraInfo": "sed",
-      "StyleHint": "tempore",
-      "FullName": "Karlee Pfeffer",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
-        }
-      }
-    }
-  ],
-  "NickName": "Braun-Bahringer",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "molestias"
-  },
-  "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quo"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Lemke, Gutmann and Boyle",
-      "DisplayName": "Wehner-Bailey",
-      "Description": "Fundamental didactic intranet",
-      "ToolTip": "Et ipsam quos.",
-      "Actions": "Implicit",
-      "ActionData": "sint",
+      "Value": "vitae",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldLength": 104
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "vitae",
+      "DisplayValue": "possimus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 104
+        }
+      }
+    }
+  ],
+  "UserName": "Kautzer, Emard and Boyle",
+  "TicketCategories": [
+    {
+      "Id": 588,
+      "Name": "Haag Group",
+      "ToolTip": "Velit enim hic et impedit sit incidunt.",
+      "Deleted": false,
+      "Rank": 622,
+      "Type": "nihil",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "sunt",
+      "ColorBlock": 954,
+      "ExtraInfo": "eligendi",
+      "StyleHint": "alias",
+      "FullName": "Prof. Catalina Celia Corwin",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 662
+        }
+      }
+    }
+  ],
+  "NickName": "DuBuque-Bahringer",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "similique",
+    "ExtraFields2": "voluptate"
+  },
+  "CustomFields": {
+    "CustomFields1": "quia",
+    "CustomFields2": "veritatis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Harvey Group",
+      "DisplayName": "Kris, Keebler and McDermott",
+      "Description": "Multi-layered multi-tasking capacity",
+      "ToolTip": "Tempora nam et.",
+      "Actions": "Implicit",
+      "ActionData": "ducimus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 250
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 486
     }
   },
   "_Links": {

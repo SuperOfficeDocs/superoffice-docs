@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 351
+  "TargetGroupId": 965
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 557,
-  "FileName": "Tillman LLC",
-  "Message": "atque",
+  "BatchTaskId": 245,
+  "FileName": "O'Reilly, Hickle and Kerluke",
+  "Message": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 501,
+  "ReportId": 404,
   "ReportCategory": "All",
-  "Description": "Open-architected fault-tolerant attitude",
+  "Description": "Streamlined directional frame",
   "ReportLayout": "CalendarMonth",
-  "Name": "Sporer, Blick and Okuneva",
-  "AssociateId": 959,
-  "TemplateId": 991,
-  "Published": false,
+  "Name": "Bernier-Mann",
+  "AssociateId": 21,
+  "TemplateId": 116,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 16
     }
   }
 }

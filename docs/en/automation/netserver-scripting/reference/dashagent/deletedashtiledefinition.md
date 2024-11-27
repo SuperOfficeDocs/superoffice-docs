@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.DeleteDashTileDefinition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition'>DeleteDashTileDefinition</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.DeleteDashTileDefinition'>DeleteDashTileDefinition</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeDeleteDashTileDefinition
 ```cs

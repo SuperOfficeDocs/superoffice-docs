@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Rolfson, Reilly and Herman",
-    "ToolTip": "Odio similique.",
+    "Id": 756,
+    "Name": "Torphy, Kemmer and Gorczany",
+    "ToolTip": "Sint id quam.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "dolorum",
-    "ColorBlock": 139,
-    "IconHint": "eligendi",
+    "Rank": 397,
+    "Type": "accusantium",
+    "ColorBlock": 200,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2003-10-20T13:14:11.4767026+02:00",
+    "LastChanged": "2021-09-30T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Jacobs Group",
-        "ToolTip": "Sit sunt beatae dolores officiis.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "beatae",
-        "ColorBlock": 50,
-        "IconHint": "cum",
+        "Id": 351,
+        "Name": "Steuber, Rau and DuBuque",
+        "ToolTip": "Cumque occaecati illum occaecati illo architecto et sed.",
+        "Deleted": true,
+        "Rank": 264,
+        "Type": "veniam",
+        "ColorBlock": 258,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2022-03-28T13:14:11.4767026+02:00",
+        "LastChanged": "2019-04-14T14:45:13.8179422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Ms. Coy Eichmann IV"
+        "ExtraInfo": "ad",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Emmanuel Koch"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "rerum",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Prof. Tiara Kub"
+    "FullName": "Dr. Justine Conroy V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Adams Group",
-    "ToolTip": "Tenetur eos molestiae deleniti fuga.",
+    "Id": 584,
+    "Name": "Kerluke-Windler",
+    "ToolTip": "Voluptas quae est omnis animi voluptate at inventore.",
     "Deleted": false,
-    "Rank": 394,
-    "Type": "exercitationem",
-    "ColorBlock": 816,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2003-05-30T13:14:11.4767026+02:00",
+    "Rank": 275,
+    "Type": "illum",
+    "ColorBlock": 958,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2016-07-01T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Gaylord, O'Reilly and O'Kon",
-        "ToolTip": "Autem culpa sunt non fugit sit.",
+        "Id": 188,
+        "Name": "Anderson-Bode",
+        "ToolTip": "Ea nemo ipsum sit consequatur et.",
         "Deleted": false,
-        "Rank": 602,
-        "Type": "adipisci",
-        "ColorBlock": 998,
-        "IconHint": "consectetur",
+        "Rank": 920,
+        "Type": "maxime",
+        "ColorBlock": 457,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-04-26T13:14:11.4767026+02:00",
+        "LastChanged": "2020-01-14T14:45:13.8179422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Carmella Feeney",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Jazmyn Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldType": "System.String",
+            "FieldLength": 640
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ea",
+    "ExtraInfo": "odit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Wilber Hodkiewicz",
+    "FullName": "Prof. Breanne Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 813
       }
     }
   }

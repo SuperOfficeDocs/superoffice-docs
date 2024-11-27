@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Boyle Inc and Sons",
-    "ToolTip": "Non optio.",
+    "Id": 254,
+    "Name": "Dickens LLC",
+    "ToolTip": "Est ut.",
     "Deleted": true,
-    "Rank": 766,
-    "Type": "id",
-    "ColorBlock": 174,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2010-05-12T13:14:11.4767026+02:00",
+    "Rank": 924,
+    "Type": "inventore",
+    "ColorBlock": 220,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2005-01-19T14:45:13.8179422+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Herman Group",
-        "ToolTip": "Suscipit repellat vel voluptas.",
+        "Id": 103,
+        "Name": "Trantow, Carter and Zulauf",
+        "ToolTip": "Consequatur velit quo earum molestiae.",
         "Deleted": true,
-        "Rank": 36,
-        "Type": "eos",
-        "ColorBlock": 305,
-        "IconHint": "est",
+        "Rank": 84,
+        "Type": "quisquam",
+        "ColorBlock": 291,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2004-09-22T13:14:11.4767026+02:00",
+        "LastChanged": "2015-06-04T14:45:13.8179422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Joe Abbott"
+        "ExtraInfo": "nisi",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Arjun O'Keefe"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Marquis Hammes"
+    "ExtraInfo": "repellendus",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Bernice Gorczany"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Schmitt LLC",
-    "ToolTip": "Quam dicta et.",
+    "Id": 84,
+    "Name": "Doyle-Howe",
+    "ToolTip": "Minus veniam sit expedita dignissimos.",
     "Deleted": false,
-    "Rank": 487,
-    "Type": "dicta",
-    "ColorBlock": 219,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2002-10-12T13:14:11.4767026+02:00",
+    "Rank": 813,
+    "Type": "facere",
+    "ColorBlock": 688,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2013-06-18T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Flatley, Ledner and Crooks",
-        "ToolTip": "Odio minima ut quia aut consequatur sed.",
+        "Id": 502,
+        "Name": "Wisoky, Rempel and Schinner",
+        "ToolTip": "Voluptatum voluptatem totam et excepturi consequatur.",
         "Deleted": false,
-        "Rank": 963,
-        "Type": "impedit",
-        "ColorBlock": 991,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2005-06-02T13:14:11.4767026+02:00",
+        "Rank": 820,
+        "Type": "temporibus",
+        "ColorBlock": 180,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2022-12-06T14:45:13.8179422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "labore",
+        "ExtraInfo": "totam",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Dasia Farrell",
+        "FullName": "Zena Fahey II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldType": "System.String",
+            "FieldLength": 94
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Delilah Nienow",
+    "ExtraInfo": "id",
+    "StyleHint": "ullam",
+    "Hidden": true,
+    "FullName": "Prof. Maiya Alek Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 862
       }
     }
   }

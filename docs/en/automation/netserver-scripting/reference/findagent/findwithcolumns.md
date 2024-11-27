@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.FindWithColumns
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.FindWithColumns'>FindWithColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.FindWithColumns'>FindWithColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeFindWithColumns
 ```cs

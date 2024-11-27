@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.RestoreConnection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.RestoreConnection'>RestoreConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.RestoreConnection'>RestoreConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeRestoreConnection
 ```cs

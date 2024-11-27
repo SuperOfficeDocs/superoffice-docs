@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quaerat"
+  "ProgId": "nesciunt"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 415,
-  "Name": "Bogisich, Becker and Rice",
-  "Tooltip": "voluptate",
+  "WebPanelId": 657,
+  "Name": "Leffler, Homenick and McClure",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 112,
+  "Rank": 156,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Schiller, Macejkovic and Gorczany",
+  "ShowInStatusBar": true,
+  "WindowName": "Kuvalis Group",
   "Url": "http://www.example.com/",
-  "ProgId": "fugiat",
-  "Icon": 705,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "modi",
+  "Icon": 728,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 863
     }
   }
 }

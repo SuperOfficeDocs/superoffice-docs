@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Corwin, Steuber and Fay",
+  "ProviderName": "Hartmann Group",
   "Columns": [
-    "sequi",
-    "aspernatur"
+    "maxime",
+    "laboriosam"
   ],
   "SortOrder": [
     {
-      "Name": "O'Kon-Kovacek",
+      "Name": "Bins-Purdy",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Kon-Kovacek",
+      "Name": "Bins-Purdy",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rau-Buckridge",
-      "Operator": "ut",
+      "Name": "DuBuque, Kohler and Pfeffer",
+      "Operator": "facilis",
       "Values": [
-        "consequuntur",
-        "sit"
+        "labore",
+        "sint"
       ],
       "DisplayValues": [
-        "magnam",
-        "quisquam"
+        "atque",
+        "ab"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 61,
+      "InterParenthesis": 386,
       "InterOperator": "And",
-      "UniqueHash": 104
+      "UniqueHash": 151
     }
   ],
   "Entities": [
-    "nihil",
-    "officia"
+    "sed",
+    "eveniet"
   ],
-  "Page": 10,
-  "PageSize": 695
+  "Page": 102,
+  "PageSize": 637
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kulas, McLaughlin and Yost",
-    "PrimaryKey": 519,
+    "EntityName": "Simonis, Bernhard and Baumbach",
+    "PrimaryKey": 607,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "magni",
-        "TooltipHint": "delectus",
-        "LinkHint": "corporis"
+        "DisplayValue": "est",
+        "TooltipHint": "porro",
+        "LinkHint": "ipsum"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "possimus",
+    "LinkHint": "autem",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldType": "System.Int32",
+        "FieldLength": 379
       }
     }
   }

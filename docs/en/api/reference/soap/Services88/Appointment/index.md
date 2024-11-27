@@ -24,6 +24,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [CleanUpBookingDeleted](CleanUpBookingDeleted.md)
 * [CleanUpBookingDeletedWithUpdateMode](CleanUpBookingDeletedWithUpdateMode.md)
 * [CleanUpRecurringBookingDeleted](CleanUpRecurringBookingDeleted.md)
+* [ConvertAppointmentToTask](ConvertAppointmentToTask.md)
 * [CreateAndAccept](CreateAndAccept.md)
 * [CreateAndAcceptWithEmailConfirmation](CreateAndAcceptWithEmailConfirmation.md)
 * [CreateAppointmentEntityFromExisting](CreateAppointmentEntityFromExisting.md)

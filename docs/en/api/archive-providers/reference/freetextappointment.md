@@ -735,11 +735,14 @@ Private appointments that are not fully readable will not be shown (they are ski
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=endDate,contact/email/emailProtocol,contact/contactUdef/SuperOffice:13,person/personActiveErpLinks,person/supportLanguage
+GET /api/v1/archive/FreetextAppointment?$select=contactId,contact/registeredBy,contact/restrictionAddress/line2,person/personExtra/y_rental/x_start,project/endDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

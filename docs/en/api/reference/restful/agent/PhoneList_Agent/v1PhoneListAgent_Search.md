@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "rerum"
+  "SearchString": "praesentium"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "697-264-9703 x3076",
-    "PersonCellPhone": "556-479-6078 x62714",
-    "PersonPrivatePhone": "1-350-081-4674",
-    "PersonFaxNumber": "1603045",
-    "PersonPagerNumber": "669615",
-    "PersonEmail": "reba@hauck.com",
-    "Id": 103,
-    "Name": "Torphy, Corwin and Schneider",
-    "Tooltip": "quia",
-    "UniqueId": "sapiente",
+    "PersonDirectPhone": "012-619-7635 x6256",
+    "PersonCellPhone": "1-337-257-6158",
+    "PersonPrivatePhone": "194-531-2720 x13554",
+    "PersonFaxNumber": "708482",
+    "PersonPagerNumber": "1398071",
+    "PersonEmail": "adriana_jerde@torphy.co.uk",
+    "Id": 747,
+    "Name": "Hettinger, Renner and Bashirian",
+    "Tooltip": "eum",
+    "UniqueId": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 919
       }
     }
   }

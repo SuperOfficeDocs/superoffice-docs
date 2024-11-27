@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 180,
+  "PersonId": 232,
   "IncludeProjectDocuments": false,
-  "StartTime": "2015-10-16T13:14:05.7726487+02:00",
-  "EndTime": "2021-07-14T13:14:05.7726487+02:00",
-  "Count": 460
+  "StartTime": "2004-08-22T14:45:05.3501682+02:00",
+  "EndTime": "2018-02-14T14:45:05.3501682+01:00",
+  "Count": 810
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 716,
-    "Attention": "nobis",
-    "Header": "magnam",
-    "Name": "Conn Inc and Sons",
-    "OurRef": "esse",
-    "YourRef": "rem",
-    "Description": "Enterprise-wide zero tolerance interface",
-    "DocumentTemplate": "occaecati",
+    "DocumentId": 565,
+    "Attention": "quia",
+    "Header": "eum",
+    "Name": "Lueilwitz, Kovacek and Schaden",
+    "OurRef": "deleniti",
+    "YourRef": "perferendis",
+    "Description": "Organized 4th generation collaboration",
+    "DocumentTemplate": "sed",
     "IsPublished": false,
-    "PersonId": 734,
-    "PersonFullName": "Tressa Kessler",
-    "AssociateFullName": "Miss Clare Rey Konopelski",
-    "ContactId": 452,
-    "ContactName": "Simonis, Hyatt and Lakin",
-    "ProjectId": 459,
-    "ProjectName": "Macejkovic-Jenkins",
-    "AssociateId": 821,
-    "Snum": 902,
-    "SaleId": 392,
-    "SaleName": "Cummerata Inc and Sons",
+    "PersonId": 912,
+    "PersonFullName": "Mr. Brown Alessandra Schuster V",
+    "AssociateFullName": "Joey Kautzer",
+    "ContactId": 271,
+    "ContactName": "Hudson, Streich and Price",
+    "ProjectId": 424,
+    "ProjectName": "Weber, Cartwright and Reichel",
+    "AssociateId": 720,
+    "Snum": 45,
+    "SaleId": 266,
+    "SaleName": "Tillman, Rohan and Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 609,
+  "QuoteVersionId": 107,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 930
+  "CountryId": 257
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 16503.644,
-  "Wgs84Longitude": 8493.14,
+  "Wgs84Latitude": 12366.764,
+  "Wgs84Longitude": 786.634,
   "LocalizedAddress": [
     [
       {
-        "Name": "Cremin Group",
-        "Value": "ea",
-        "Tooltip": "quia",
-        "Label": "fuga",
-        "ValueLength": 381,
-        "AddressType": "omnis",
+        "Name": "Rolfson, Terry and Hyatt",
+        "Value": "pariatur",
+        "Tooltip": "mollitia",
+        "Label": "non",
+        "ValueLength": 489,
+        "AddressType": "laboriosam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 587
+            "FieldLength": 902
           }
         }
       }
     ],
     [
       {
-        "Name": "Batz Group",
-        "Value": "odit",
-        "Tooltip": "in",
-        "Label": "autem",
-        "ValueLength": 930,
-        "AddressType": "quibusdam",
+        "Name": "Walker Group",
+        "Value": "quae",
+        "Tooltip": "deserunt",
+        "Label": "pariatur",
+        "ValueLength": 79,
+        "AddressType": "porro",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 885
+            "FieldLength": 496
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dolor",
+  "Formatted": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

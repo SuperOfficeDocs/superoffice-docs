@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetFromListDefinition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetFromListDefinition'>GetFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetFromListDefinition'>GetFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetFromListDefinition
 ```cs

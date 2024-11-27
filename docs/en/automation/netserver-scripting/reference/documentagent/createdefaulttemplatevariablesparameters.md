@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CreateDefaultTemplateVariablesParameters
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParameters'>CreateDefaultTemplateVariablesParameters</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CreateDefaultTemplateVariablesParameters'>CreateDefaultTemplateVariablesParameters</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCreateDefaultTemplateVariablesParameters
 ```cs

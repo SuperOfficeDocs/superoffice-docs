@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 760,
-  "EmailAddress": "myrtice_nitzsche@connconn.uk",
+  "PersonId": 998,
+  "EmailAddress": "litzy_hessel@turcotte.us",
   "SetAsPrimaryEmail": false
 }
 ```

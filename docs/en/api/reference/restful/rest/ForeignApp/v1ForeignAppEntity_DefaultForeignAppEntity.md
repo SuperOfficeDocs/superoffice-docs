@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 21 Apr 2018 13:14:10 G4T
+Last-Modified: Sun, 31 Dec 2017 14:45:12 G12T
 
 {
-  "ForeignAppId": 528,
-  "Name": "Block-Howell",
-  "CreatedDate": "2001-03-27T13:14:10.8360396+02:00",
-  "UpdatedDate": "2018-04-21T13:14:10.8360396+02:00",
+  "ForeignAppId": 327,
+  "Name": "Herman, Eichmann and Cruickshank",
+  "CreatedDate": "2014-10-08T14:45:12.8181931+02:00",
+  "UpdatedDate": "2017-12-31T14:45:12.8181931+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 18,
-      "Name": "Jewess LLC",
-      "CreatedDate": "2015-01-10T13:14:10.8360396+01:00",
-      "UpdatedDate": "2023-11-04T13:14:10.8360396+01:00",
-      "AssociateFullName": "Vesta Lueilwitz",
-      "CreatedBy": "aut",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 540,
+      "ForeignDeviceId": 320,
+      "Name": "Goyette LLC",
+      "CreatedDate": "2018-02-28T14:45:12.8181931+01:00",
+      "UpdatedDate": "2013-01-13T14:45:12.8181931+01:00",
+      "AssociateFullName": "Aliya Hickle",
+      "CreatedBy": "nemo",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "voluptatibus",
+      "ForeignAppId": 589,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldLength": 330
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Sat, 21 Apr 2018 13:14:10 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 472
     }
   }
 }

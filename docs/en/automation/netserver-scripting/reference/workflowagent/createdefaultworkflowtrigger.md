@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.CreateDefaultWorkflowTrigger
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger'>CreateDefaultWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.CreateDefaultWorkflowTrigger'>CreateDefaultWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeCreateDefaultWorkflowTrigger
 ```cs

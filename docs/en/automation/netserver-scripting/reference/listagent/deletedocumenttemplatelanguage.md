@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.DeleteDocumentTemplateLanguage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.DeleteDocumentTemplateLanguage'>DeleteDocumentTemplateLanguage</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.DeleteDocumentTemplateLanguage'>DeleteDocumentTemplateLanguage</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeDeleteDocumentTemplateLanguage
 ```cs

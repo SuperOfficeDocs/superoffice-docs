@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.CreateNewFromTemplate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate'>CreateNewFromTemplate</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.CreateNewFromTemplate'>CreateNewFromTemplate</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeCreateNewFromTemplate
 ```cs

@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 521,
+  "HierarchyId": 505,
   "Domain": "Dashboards",
-  "Name": "Nienow LLC",
-  "Fullname": "consequuntur",
-  "ParentId": 332,
+  "Name": "Lubowitz Group",
+  "Fullname": "et",
+  "ParentId": 5,
   "Children": [
     {
-      "HierarchyId": 21,
+      "HierarchyId": 613,
       "Domain": "Dashboards",
-      "Name": "Veum-Cassin",
-      "Fullname": "sed",
-      "ParentId": 551,
+      "Name": "Nikolaus, Padberg and White",
+      "Fullname": "dolores",
+      "ParentId": 8,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-06-11T13:14:10.8516656+02:00",
-      "RegisteredAssociateId": 246,
-      "Updated": "2017-12-08T13:14:10.8516656+01:00",
-      "UpdatedAssociateId": 975,
+      "Registered": "2024-10-19T14:45:12.8338163+02:00",
+      "RegisteredAssociateId": 454,
+      "Updated": "2014-12-23T14:45:12.8338163+01:00",
+      "UpdatedAssociateId": 809,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldType": "System.String",
+          "FieldLength": 376
         }
       }
     }
   ],
-  "Registered": "2007-09-06T13:14:10.8516656+02:00",
-  "RegisteredAssociateId": 28,
-  "Updated": "2024-09-09T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 676,
+  "Registered": "2011-07-04T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 439,
+  "Updated": "2023-10-07T14:45:12.8338163+02:00",
+  "UpdatedAssociateId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

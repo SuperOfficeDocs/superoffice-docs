@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Pollich Inc and Sons",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "UdListDefinitionId": 648,
-    "Rank": 593
+    "Id": 267,
+    "Name": "Schiller LLC",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "UdListDefinitionId": 926,
+    "Rank": 285
   },
   {
-    "Id": 221,
-    "Name": "Pollich Inc and Sons",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "UdListDefinitionId": 648,
-    "Rank": 593
+    "Id": 267,
+    "Name": "Schiller LLC",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "UdListDefinitionId": 926,
+    "Rank": 285
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Weber-Gusikowski",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "UdListDefinitionId": 514,
-    "Rank": 268,
+    "Id": 564,
+    "Name": "Von-Wunsch",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "UdListDefinitionId": 805,
+    "Rank": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 747
       }
     }
   }

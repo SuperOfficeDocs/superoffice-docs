@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.ChangeSerialNumber
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber'>ChangeSerialNumber</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.ChangeSerialNumber'>ChangeSerialNumber</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeChangeSerialNumber
 ```cs

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 228
+  "SaleId": 206
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 677,
-  "SaleId": 887,
-  "QuoteConnectionId": 45,
-  "ERPQuoteKey": "tempora",
-  "ERPOrderKey": "sunt",
-  "ActiveQuoteVersionId": 303,
-  "AcceptedQuoteAlternativeId": 957,
-  "UseValuesFromQuote": 421,
-  "DocumentId": 129,
-  "PoNumber": "1243357",
-  "OrderComment": "sint",
-  "PreferredEmailCulture": "hayley.kuhn@zulaufolson.uk",
+  "QuoteId": 164,
+  "SaleId": 143,
+  "QuoteConnectionId": 226,
+  "ERPQuoteKey": "ut",
+  "ERPOrderKey": "quos",
+  "ActiveQuoteVersionId": 319,
+  "AcceptedQuoteAlternativeId": 217,
+  "UseValuesFromQuote": 883,
+  "DocumentId": 834,
+  "PoNumber": "1447270",
+  "OrderComment": "perferendis",
+  "PreferredEmailCulture": "christiana.runolfsson@handhowe.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 698
     }
   }
 }

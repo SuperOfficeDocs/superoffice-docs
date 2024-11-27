@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetQuoteFromSaleId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetQuoteFromSaleId'>GetQuoteFromSaleId</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetQuoteFromSaleId'>GetQuoteFromSaleId</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetQuoteFromSaleId
 ```cs

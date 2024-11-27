@@ -724,11 +724,14 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=contact/code,contact/contactAssociate/assocName,contact/LastDoByTicket,project/LastCompletedActivity,sale/associate/contactDepartment
+GET /api/v1/archive/SimpleInvitation?$select=icon,updatedByFullName,contact/phone/formattedNumber,contact/contactFax/description,contact/contactAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

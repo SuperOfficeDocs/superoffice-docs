@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 700,
-  "TopicId": 882,
+  "ChatSessionId": 889,
+  "TopicId": 527,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aspernatur",
-  "CustomerHost": "rem",
-  "CustomerName": "Cremin-Schaden",
-  "CustomerEmail": "odell@blanda.ca",
-  "CustomerPhone": "210.171.0431",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "aliquid",
+  "CustomerName": "Barrows Group",
+  "CustomerEmail": "katarina.ferry@johnston.name",
+  "CustomerPhone": "302-495-5590",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Padberg-Becker",
+  "CustomerCompanyName": "Gottlieb, Stroman and Kshlerin",
   "Status": "Closed",
-  "FirstMessage": "quae",
-  "LastMessage": "quos",
-  "WhenRequested": "2007-08-17T13:14:10.6328965+02:00",
-  "WhenStarted": "2016-12-30T13:14:10.6328965+01:00",
-  "WhenEnded": "1999-10-11T13:14:10.6328965+02:00",
-  "WhenIdle": "2015-03-10T13:14:10.6328965+01:00",
-  "WhenFetched": "2006-12-13T13:14:10.6328965+01:00",
-  "SessionKey": "error",
-  "InitialQueuePos": 591,
-  "AlertLevel": 732,
-  "Rank": 660,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "porro",
+  "WhenRequested": "2012-09-11T14:45:12.5213852+02:00",
+  "WhenStarted": "2007-11-17T14:45:12.5213852+01:00",
+  "WhenEnded": "2003-10-02T14:45:12.5213852+02:00",
+  "WhenIdle": "2007-04-28T14:45:12.5213852+02:00",
+  "WhenFetched": "2010-05-16T14:45:12.5213852+02:00",
+  "SessionKey": "esse",
+  "InitialQueuePos": 986,
+  "AlertLevel": 540,
+  "Rank": 538,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 603,
+  "Rating": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   },
   "_Links": {

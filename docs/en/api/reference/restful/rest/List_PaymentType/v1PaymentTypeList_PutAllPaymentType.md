@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Sipes LLC",
-    "Tooltip": "quia",
+    "Id": 128,
+    "Name": "Sauer, Crist and Bashirian",
+    "Tooltip": "officia",
     "Deleted": false,
-    "UdListDefinitionId": 370,
-    "Rank": 707
+    "UdListDefinitionId": 923,
+    "Rank": 9
   },
   {
-    "Id": 584,
-    "Name": "Sipes LLC",
-    "Tooltip": "quia",
+    "Id": 128,
+    "Name": "Sauer, Crist and Bashirian",
+    "Tooltip": "officia",
     "Deleted": false,
-    "UdListDefinitionId": 370,
-    "Rank": 707
+    "UdListDefinitionId": 923,
+    "Rank": 9
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Jones Inc and Sons",
+    "Id": 268,
+    "Name": "Medhurst, Baumbach and Wuckert",
     "Tooltip": "quis",
     "Deleted": true,
-    "UdListDefinitionId": 409,
-    "Rank": 512,
+    "UdListDefinitionId": 917,
+    "Rank": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 591
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

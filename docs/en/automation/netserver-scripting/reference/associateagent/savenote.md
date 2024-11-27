@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AssociateAgent.SaveNote
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAssociateAgent.SaveNote'>SaveNote</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAssociateAgent.SaveNote'>SaveNote</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
 
 ## BeforeSaveNote
 ```cs

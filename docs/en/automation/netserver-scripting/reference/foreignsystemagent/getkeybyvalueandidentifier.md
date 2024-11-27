@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.GetKeyByValueAndIdentifier
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier'>GetKeyByValueAndIdentifier</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.GetKeyByValueAndIdentifier'>GetKeyByValueAndIdentifier</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeGetKeyByValueAndIdentifier
 ```cs

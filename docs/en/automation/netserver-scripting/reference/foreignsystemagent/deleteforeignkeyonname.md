@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.DeleteForeignKeyOnName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName'>DeleteForeignKeyOnName</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.DeleteForeignKeyOnName'>DeleteForeignKeyOnName</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeDeleteForeignKeyOnName
 ```cs

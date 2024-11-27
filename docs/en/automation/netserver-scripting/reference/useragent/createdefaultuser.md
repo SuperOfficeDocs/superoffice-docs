@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.CreateDefaultUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUser'>CreateDefaultUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.CreateDefaultUser'>CreateDefaultUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeCreateDefaultUser
 ```cs

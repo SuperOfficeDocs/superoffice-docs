@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=482
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=228
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 462,
-  "WorkflowId": 884,
+  "WorkflowGoalId": 963,
+  "WorkflowId": 794,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Lakin Inc and Sons",
-      "Description": "Managed zero defect frame",
-      "Rank": 182,
+      "Name": "O'Keefe LLC",
+      "Description": "Enhanced 3rd generation database",
+      "Rank": 967,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lakin Inc and Sons",
-      "Description": "Managed zero defect frame",
-      "Rank": 182,
+      "Name": "O'Keefe LLC",
+      "Description": "Enhanced 3rd generation database",
+      "Rank": 967,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 496
     }
   }
 }

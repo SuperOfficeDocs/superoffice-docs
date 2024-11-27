@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Mraz, Sawayn and Ullrich",
-    "ToolTip": "Nostrum non assumenda.",
+    "Id": 838,
+    "Name": "Padberg, Durgan and Mann",
+    "ToolTip": "Cum facere architecto quia ut recusandae aliquid.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "optio",
-    "ColorBlock": 589,
+    "Rank": 742,
+    "Type": "aut",
+    "ColorBlock": 717,
     "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2010-09-08T13:14:11.3673211+02:00",
+    "Selected": true,
+    "LastChanged": "2019-03-04T14:45:13.6617546+01:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Gibson Inc and Sons",
-        "ToolTip": "Deserunt minima animi.",
-        "Deleted": true,
-        "Rank": 41,
-        "Type": "nihil",
-        "ColorBlock": 774,
-        "IconHint": "laboriosam",
+        "Id": 40,
+        "Name": "Bruen LLC",
+        "ToolTip": "Eum dolores laudantium error rerum.",
+        "Deleted": false,
+        "Rank": 578,
+        "Type": "molestiae",
+        "ColorBlock": 108,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2008-10-01T13:14:11.3673211+02:00",
+        "LastChanged": "2007-02-01T14:45:13.6617546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Catalina Berge",
+        "ExtraInfo": "eaque",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Miss Mallie Wuckert Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldLength": 661
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Lucio Kilback",
+    "ExtraInfo": "eum",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Alfonso Collins DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 489
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SubstituteMergeDocumentTemplateVariablesEx
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx'>SubstituteMergeDocumentTemplateVariablesEx</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx'>SubstituteMergeDocumentTemplateVariablesEx</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSubstituteMergeDocumentTemplateVariablesEx
 ```cs

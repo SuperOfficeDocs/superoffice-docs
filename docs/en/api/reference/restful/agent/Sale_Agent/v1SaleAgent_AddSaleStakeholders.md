@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 132,
+  "SaleId": 557,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gulgowski Group",
+      "StakeholderRoleName": "Mante, Yundt and Bruen",
       "Comment": "tempore",
-      "StakeholderRoleId": 738,
-      "CountryId": 91,
-      "PersonId": 748,
-      "EmailDescription": "joanie.emard@greenfelder.name",
-      "EmailId": 487,
-      "EmailAddress": "nigel@nicolas.us",
-      "PhoneId": 406,
-      "ContactName": "Brakus, Weber and Erdman",
-      "ContactId": 744,
-      "SaleId": 476,
-      "Mrmrs": "aut",
-      "Firstname": "Rylee",
-      "MiddleName": "Schulist, Daniel and Huels",
-      "Lastname": "Hilpert",
-      "SaleStakeholderId": 151,
-      "Rank": 374,
-      "Phone": "1-219-475-8502 x737"
+      "StakeholderRoleId": 336,
+      "CountryId": 315,
+      "PersonId": 52,
+      "EmailDescription": "mckenna_nicolas@davis.ca",
+      "EmailId": 436,
+      "EmailAddress": "keven_rohan@aufderharwhite.com",
+      "PhoneId": 759,
+      "ContactName": "Leannon Group",
+      "ContactId": 94,
+      "SaleId": 568,
+      "Mrmrs": "ducimus",
+      "Firstname": "Euna",
+      "MiddleName": "Gleason Group",
+      "Lastname": "Reichert",
+      "SaleStakeholderId": 134,
+      "Rank": 728,
+      "Phone": "186.692.9661 x867"
     }
   ]
 }

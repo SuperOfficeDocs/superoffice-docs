@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 204,
-    "Name": "Treutel LLC",
-    "ContentType": "nihil",
-    "AttSize": 726,
-    "InlineImage": false,
-    "ContentId": "aut",
-    "AuthKey": "nisi",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 847,
+    "Name": "Ruecker Inc and Sons",
+    "ContentType": "nam",
+    "AttSize": 426,
+    "InlineImage": true,
+    "ContentId": "necessitatibus",
+    "AuthKey": "non",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

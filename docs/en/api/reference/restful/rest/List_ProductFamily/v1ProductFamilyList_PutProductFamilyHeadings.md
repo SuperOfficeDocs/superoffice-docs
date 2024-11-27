@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 486,
-    "Name": "Reinger-Orn",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "Rank": 335,
-    "UdListDefinitionId": 449
+    "HeadingId": 807,
+    "Name": "Rau, Schuppe and Upton",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 396
   },
   {
-    "HeadingId": 486,
-    "Name": "Reinger-Orn",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "Rank": 335,
-    "UdListDefinitionId": 449
+    "HeadingId": 807,
+    "Name": "Rau, Schuppe and Upton",
+    "Tooltip": "consequuntur",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 396
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 194,
-    "Name": "Roob, Jacobs and Quitzon",
-    "Tooltip": "dignissimos",
-    "Deleted": false,
-    "Rank": 620,
-    "UdListDefinitionId": 232,
+    "HeadingId": 187,
+    "Name": "Zulauf-Hayes",
+    "Tooltip": "ab",
+    "Deleted": true,
+    "Rank": 824,
+    "UdListDefinitionId": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldLength": 819
       }
     }
   }

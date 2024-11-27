@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 31,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "quis",
-  "Name": "Tremblay, Reilly and Parisian",
-  "Description": "Digitized object-oriented leverage",
+  "ProductId": 730,
+  "ERPProductKey": "eos",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Volkman LLC",
+  "Description": "Front-line bottom-line framework",
   "Code": "ut",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "dicta",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 24470.272,
-  "ItemNumber": "1466521",
+  "PriceUnit": "distinctio",
+  "QuantityUnit": "quo",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aspernatur",
+  "DefaultSubscriptionQuantity": 15729.546,
+  "ItemNumber": "1044357",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "iusto",
-  "VAT": 17280.876,
-  "VATInfo": "et",
-  "UnitCost": 3914.366,
-  "UnitMinimumPrice": 1350.754,
-  "UnitListPrice": 15814.163999999999,
+  "ProductFamilyKey": "rerum",
+  "ProductTypeKey": "excepturi",
+  "VAT": 20700.07,
+  "VATInfo": "est",
+  "UnitCost": 29898.36,
+  "UnitMinimumPrice": 9035.322,
+  "UnitListPrice": 13109.521999999999,
   "InAssortment": true,
-  "Supplier": "occaecati",
-  "SupplierCode": "ab",
-  "Rights": "molestiae",
-  "Rule": "eos",
+  "Supplier": "inventore",
+  "SupplierCode": "repudiandae",
+  "Rights": "doloribus",
+  "Rule": "cupiditate",
   "ExtraInfo": [
     {
-      "Name": "Adams-Smith",
-      "Value": "a",
+      "Name": "Leffler Inc and Sons",
+      "Value": "tempore",
       "Type": "Image"
     },
     {
-      "Name": "Adams-Smith",
-      "Value": "a",
+      "Name": "Leffler Inc and Sons",
+      "Value": "tempore",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "ExtraField1": "dolorem",
-  "ExtraField2": "natus",
-  "ExtraField3": "nobis",
-  "ExtraField4": "qui",
-  "ExtraField5": "voluptatum",
-  "InStock": 22129.174
+  "RawExtraInfo": "ab",
+  "ExtraField1": "aut",
+  "ExtraField2": "reprehenderit",
+  "ExtraField3": "et",
+  "ExtraField4": "ab",
+  "ExtraField5": "mollitia",
+  "InStock": 28575.811999999998
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 277,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "doloremque",
-  "Name": "Mayert-Schamberger",
-  "Description": "Compatible optimizing monitoring",
-  "Code": "est",
-  "PriceUnit": "corporis",
-  "QuantityUnit": "dolor",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 29516.012,
-  "ItemNumber": "782065",
+  "ProductId": 293,
+  "ERPProductKey": "necessitatibus",
+  "ERPPriceListKey": "optio",
+  "Name": "Hermann Inc and Sons",
+  "Description": "Intuitive optimizing customer loyalty",
+  "Code": "sequi",
+  "PriceUnit": "minus",
+  "QuantityUnit": "ut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "corrupti",
+  "DefaultSubscriptionQuantity": 12460.784,
+  "ItemNumber": "548842",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "dolores",
-  "VAT": 14971.118,
-  "VATInfo": "culpa",
-  "UnitCost": 7549.806,
-  "UnitMinimumPrice": 30067.595999999998,
-  "UnitListPrice": 1679.8239999999998,
-  "InAssortment": true,
-  "Supplier": "numquam",
-  "SupplierCode": "fugit",
-  "Rights": "voluptatem",
-  "Rule": "pariatur",
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "et",
+  "VAT": 22627.48,
+  "VATInfo": "esse",
+  "UnitCost": 14469.678,
+  "UnitMinimumPrice": 19035.916,
+  "UnitListPrice": 13184.738,
+  "InAssortment": false,
+  "Supplier": "itaque",
+  "SupplierCode": "ea",
+  "Rights": "ea",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Breitenberg LLC",
-      "Value": "consectetur",
+      "Name": "Gleason, Jaskolski and Quigley",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 267
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     },
     {
-      "Name": "Breitenberg LLC",
-      "Value": "consectetur",
+      "Name": "Gleason, Jaskolski and Quigley",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 267
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
   ],
-  "RawExtraInfo": "quis",
-  "ExtraField1": "et",
-  "ExtraField2": "qui",
-  "ExtraField3": "nihil",
-  "ExtraField4": "sed",
-  "ExtraField5": "deleniti",
-  "InStock": 12996.698,
+  "RawExtraInfo": "et",
+  "ExtraField1": "omnis",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "et",
+  "ExtraField4": "id",
+  "ExtraField5": "voluptatem",
+  "InStock": 20881.842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

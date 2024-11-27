@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mueller Inc and Sons",
-    "SaleDate": "2022-11-12T13:14:06.3976861+01:00",
-    "SaleId": 866,
-    "Probability": 659,
-    "Title": "provident",
-    "Amount": 27381.757999999998,
-    "Currency": "quis",
-    "ProjectName": "Nitzsche, Hartmann and Mosciski",
-    "AssociateFullName": "Dr. Dolores Ankunding II",
-    "Description": "Future-proofed incremental knowledge base",
+    "ContactName": "Waters LLC",
+    "SaleDate": "2001-11-02T14:45:06.1781213+01:00",
+    "SaleId": 655,
+    "Probability": 172,
+    "Title": "consequuntur",
+    "Amount": 7067.17,
+    "Currency": "accusantium",
+    "ProjectName": "Schaden-Bergstrom",
+    "AssociateFullName": "Ms. Amelia Presley Green III",
+    "Description": "Decentralized optimizing leverage",
     "Status": "Lost",
-    "WeightedAmount": 10241.912,
-    "ProjectId": 341,
-    "EarningPercent": 13886.753999999999,
-    "Earning": 12488.99,
-    "ContactId": 517,
-    "AssociateId": 259,
-    "PersonId": 954,
-    "SaleTypeId": 138,
-    "SaleTypeName": "Weber Group",
-    "PersonFullName": "Lucious Dickinson",
+    "WeightedAmount": 9771.812,
+    "ProjectId": 784,
+    "EarningPercent": 10617.992,
+    "Earning": 27550.994,
+    "ContactId": 378,
+    "AssociateId": 713,
+    "PersonId": 710,
+    "SaleTypeId": 308,
+    "SaleTypeName": "Bergstrom-Howe",
+    "PersonFullName": "Mr. Grover Ryan DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 454,
-    "NextDueDate": "2016-12-26T13:14:06.3976861+01:00",
-    "Number": "655404",
+    "ActiveErpLinks": 496,
+    "NextDueDate": "1999-08-18T14:45:06.1781213+02:00",
+    "Number": "836442",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 453
       }
     }
   }

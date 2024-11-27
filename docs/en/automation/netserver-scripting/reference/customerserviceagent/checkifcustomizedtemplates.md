@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.CheckIfCustomizedTemplates
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates'>CheckIfCustomizedTemplates</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.CheckIfCustomizedTemplates'>CheckIfCustomizedTemplates</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeCheckIfCustomizedTemplates
 ```cs

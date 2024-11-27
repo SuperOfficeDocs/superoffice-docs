@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PartnerAgent.CreateOrUpdateWebPanel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel'>CreateOrUpdateWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPartnerAgent.CreateOrUpdateWebPanel'>CreateOrUpdateWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
 
 ## BeforeCreateOrUpdateWebPanel
 ```cs

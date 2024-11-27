@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=voluptatibus
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=hic
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Bahringer-Cummings",
-    "ToolTip": "Ab illum.",
-    "Deleted": false,
-    "Rank": 961,
-    "Type": "fugiat",
-    "ColorBlock": 878,
-    "IconHint": "et",
+    "Id": 615,
+    "Name": "Hartmann-Turner",
+    "ToolTip": "Sed magnam.",
+    "Deleted": true,
+    "Rank": 601,
+    "Type": "voluptatem",
+    "ColorBlock": 359,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2018-10-08T13:14:11.4141989+02:00",
+    "LastChanged": "2013-11-15T14:45:13.7242429+01:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Strosin-Herman",
-        "ToolTip": "Hic asperiores aut.",
-        "Deleted": true,
-        "Rank": 354,
-        "Type": "ut",
-        "ColorBlock": 619,
-        "IconHint": "veniam",
+        "Id": 365,
+        "Name": "Farrell-Haley",
+        "ToolTip": "Minus voluptatem in autem neque minima.",
+        "Deleted": false,
+        "Rank": 539,
+        "Type": "qui",
+        "ColorBlock": 728,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2018-07-15T13:14:11.4141989+02:00",
+        "LastChanged": "2002-09-02T14:45:13.7242429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Broderick Hessel",
+        "ExtraInfo": "officia",
+        "StyleHint": "cumque",
+        "Hidden": true,
+        "FullName": "Miss Patsy Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldType": "System.String",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "iusto",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Margarita Rutherford",
+    "FullName": "Cortney Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 397
       }
     }
   }

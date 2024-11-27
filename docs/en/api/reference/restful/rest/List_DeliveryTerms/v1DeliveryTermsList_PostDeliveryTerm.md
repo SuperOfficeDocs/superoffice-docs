@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Zboncak, Littel and Miller",
-  "Tooltip": "assumenda",
+  "Id": 306,
+  "Name": "Macejkovic, Gleason and Thiel",
+  "Tooltip": "illo",
   "Deleted": true,
-  "UdListDefinitionId": 380,
-  "Rank": 329
+  "UdListDefinitionId": 795,
+  "Rank": 377
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Rutherford LLC",
-  "Tooltip": "atque",
+  "Id": 230,
+  "Name": "Boehm LLC",
+  "Tooltip": "esse",
   "Deleted": false,
-  "UdListDefinitionId": 279,
-  "Rank": 340,
+  "UdListDefinitionId": 72,
+  "Rank": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldType": "System.String",
+      "FieldLength": 15
     }
   }
 }

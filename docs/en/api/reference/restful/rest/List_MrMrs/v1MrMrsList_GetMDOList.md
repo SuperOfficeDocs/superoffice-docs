@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=consequatur
+GET /api/v1/List/MrMrs/MDOItems?query=vitae
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Murphy-Schultz",
-    "ToolTip": "Ex voluptatem est pariatur nihil in.",
+    "Id": 974,
+    "Name": "Bayer, Miller and Lubowitz",
+    "ToolTip": "Quis veritatis voluptate eius.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "natus",
+    "Rank": 68,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Stracke-Sanford",
-        "ToolTip": "Non ea magnam sed.",
+        "Id": 903,
+        "Name": "Heller Group",
+        "ToolTip": "Temporibus quia maxime ea.",
         "Deleted": false,
-        "Rank": 364,
-        "Type": "velit",
+        "Rank": 37,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 957,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "quod",
-        "FullName": "Wendell Idella Johnson DDS",
+        "IconHint": "ut",
+        "ColorBlock": 94,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "itaque",
+        "FullName": "Jonatan Helmer Von DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 982
           }
         }
       }
     ],
-    "IconHint": "perspiciatis",
-    "ColorBlock": 501,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eos",
-    "FullName": "Mr. Mireya Schroeder III",
+    "IconHint": "expedita",
+    "ColorBlock": 350,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "nostrum",
+    "FullName": "Miss Rahsaan Huel DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 174
       }
     }
   }

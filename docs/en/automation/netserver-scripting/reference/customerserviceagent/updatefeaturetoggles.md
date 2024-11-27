@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.UpdateFeatureToggles
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles'>UpdateFeatureToggles</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.UpdateFeatureToggles'>UpdateFeatureToggles</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeUpdateFeatureToggles
 ```cs

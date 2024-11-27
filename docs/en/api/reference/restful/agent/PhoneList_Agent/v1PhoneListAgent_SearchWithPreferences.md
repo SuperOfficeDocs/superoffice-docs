@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "et",
+  "SearchString": "sunt",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(108)224-9680 x1151",
-    "PersonCellPhone": "017.737.0278",
-    "PersonPrivatePhone": "337-582-2496 x422",
-    "PersonFaxNumber": "777686",
-    "PersonPagerNumber": "767854",
-    "PersonEmail": "rozella@murphy.com",
-    "Id": 285,
-    "Name": "Veum, Bartoletti and Hessel",
-    "Tooltip": "consequatur",
-    "UniqueId": "aperiam",
+    "PersonDirectPhone": "093.140.8653 x8039",
+    "PersonCellPhone": "293.061.4504",
+    "PersonPrivatePhone": "043.083.9379 x46537",
+    "PersonFaxNumber": "1029333",
+    "PersonPagerNumber": "1826503",
+    "PersonEmail": "kelly_mitchell@daniel.name",
+    "Id": 954,
+    "Name": "Corkery, Glover and Ortiz",
+    "Tooltip": "odit",
+    "UniqueId": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 469
       }
     }
   }

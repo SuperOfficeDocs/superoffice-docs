@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetProduct
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetProduct'>GetProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetProduct'>GetProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetProduct
 ```cs

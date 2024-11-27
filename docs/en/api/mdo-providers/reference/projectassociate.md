@@ -42,17 +42,17 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|15|Adm4|||
-|2|Arne Arnesen|||
-|3|Brede Bredesen|||
-|4|Cato Carlsson|||
-|5|Donald Duck|||
-|7|Frode Freestad|||
-|8|Geir Grønbeck|||
-|9|Hans Hansen|||
-|10|Ingrid Istad|||
-|81|Listadm Listadm|||
-|96|Niels Jensen|||
+|15|Adm4||person_id=151&contact_id=2|
+|2|Arne Arnesen||person_id=10&contact_id=2|
+|3|Brede Bredesen||person_id=11&contact_id=2|
+|4|Cato Carlsson||person_id=12&contact_id=2|
+|5|Donald Duck||person_id=13&contact_id=2|
+|7|Frode Freestad||person_id=15&contact_id=2|
+|8|Geir Grønbeck||person_id=16&contact_id=2|
+|9|Hans Hansen||person_id=17&contact_id=2|
+|10|Ingrid Istad||person_id=18&contact_id=2|
+|81|Listadm Listadm||person_id=190&contact_id=2|
+|96|Niels Jensen||person_id=55&contact_id=21|
 
 
 ## Related MDO Lists

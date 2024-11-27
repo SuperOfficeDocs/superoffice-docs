@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McCullough-King",
-  "EmailAddress": "sammie.beahan@johnston.info"
+  "Name": "Purdy Group",
+  "EmailAddress": "kristin@uptonzboncak.ca"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 953,
-    "FullName": "Ramiro Gaylord",
-    "EmailAddress": "abigail@schaden.ca",
-    "ContactId": 62,
-    "ContactName": "Schuppe Group",
+    "PersonId": 238,
+    "FullName": "Elmore Wintheiser",
+    "EmailAddress": "fabiola@schoen.co.uk",
+    "ContactId": 479,
+    "ContactName": "Grady, Greenfelder and Dicki",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Torphy, Russel and Kessler",
+    "SortName": "Ritchie-Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 993
       }
     }
   }

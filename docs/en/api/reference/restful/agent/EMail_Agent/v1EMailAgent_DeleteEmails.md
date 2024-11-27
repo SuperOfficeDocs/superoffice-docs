@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    38,
-    175
+    606,
+    153
   ],
-  "MoveToFolder": "perspiciatis"
+  "MoveToFolder": "et"
 }
 ```
 

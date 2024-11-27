@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 982,
-  "BlobSize": 414,
-  "Description": "Total exuding service-desk",
-  "ExtraInfo": "cupiditate",
+  "BlobId": 324,
+  "BlobSize": 382,
+  "Description": "Persevering multi-tasking encryption",
+  "ExtraInfo": "vero",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "iusto",
-  "OriginalSize": 206,
-  "CreatedDate": "2010-10-23T13:14:11.2266882+02:00",
-  "UpdatedDate": "2001-11-28T13:14:11.2266882+01:00",
+  "IsZipped": true,
+  "MimeType": "voluptates",
+  "OriginalSize": 219,
+  "CreatedDate": "2020-02-10T14:45:13.4430534+01:00",
+  "UpdatedDate": "2000-10-19T14:45:13.4430534+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut"
+  "ConceptualType": "tempore"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 758,
-  "BlobSize": 53,
-  "Description": "Pre-emptive context-sensitive matrix",
-  "ExtraInfo": "aliquid",
-  "IsEncrypted": false,
+  "BlobId": 293,
+  "BlobSize": 164,
+  "Description": "Expanded discrete definition",
+  "ExtraInfo": "consectetur",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quod",
-  "OriginalSize": 546,
-  "CreatedDate": "2007-02-12T13:14:11.2266882+01:00",
-  "UpdatedDate": "2005-11-26T13:14:11.2266882+01:00",
+  "MimeType": "ut",
+  "OriginalSize": 68,
+  "CreatedDate": "2020-05-18T14:45:13.4430534+02:00",
+  "UpdatedDate": "2009-03-28T14:45:13.4430534+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque",
+  "ConceptualType": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 303
     }
   }
 }

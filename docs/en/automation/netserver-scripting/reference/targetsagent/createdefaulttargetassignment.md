@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetAssignment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetAssignment'>CreateDefaultTargetAssignment</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.CreateDefaultTargetAssignment'>CreateDefaultTargetAssignment</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeCreateDefaultTargetAssignment
 ```cs

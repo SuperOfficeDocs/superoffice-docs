@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 238,
-  "Name": "Dach, Bashirian and Kemmer",
-  "CreatedDate": "2014-10-21T13:14:10.8360396+02:00",
-  "UpdatedDate": "2018-09-17T13:14:10.8360396+02:00",
+  "ForeignAppId": 462,
+  "Name": "Funk LLC",
+  "CreatedDate": "2007-04-19T14:45:12.8181931+02:00",
+  "UpdatedDate": "2013-12-09T14:45:12.8181931+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 648,
-      "Name": "Gutkowski-Schuster",
-      "CreatedDate": "2000-04-03T13:14:10.8360396+02:00",
-      "UpdatedDate": "2020-01-10T13:14:10.8360396+01:00",
-      "AssociateFullName": "Weldon Kurt Brakus MD",
-      "CreatedBy": "numquam",
-      "UpdatedBy": "ipsum",
-      "DeviceIdentifier": "esse",
-      "ForeignAppId": 899
+      "ForeignDeviceId": 847,
+      "Name": "Weimann, Schaden and Ankunding",
+      "CreatedDate": "2012-03-13T14:45:12.8181931+01:00",
+      "UpdatedDate": "1998-11-15T14:45:12.8181931+01:00",
+      "AssociateFullName": "Mr. Liza Green",
+      "CreatedBy": "ipsa",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 155
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 67,
-  "Name": "Prohaska, Hayes and Barrows",
-  "CreatedDate": "2014-12-22T13:14:10.8360396+01:00",
-  "UpdatedDate": "1998-02-04T13:14:10.8360396+01:00",
+  "ForeignAppId": 382,
+  "Name": "Hayes-Schaden",
+  "CreatedDate": "1999-11-20T14:45:12.8181931+01:00",
+  "UpdatedDate": "2014-08-17T14:45:12.8181931+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 147,
-      "Name": "Moore-O'Reilly",
-      "CreatedDate": "2007-11-12T13:14:10.8360396+01:00",
-      "UpdatedDate": "2018-05-30T13:14:10.8360396+02:00",
-      "AssociateFullName": "Max Sanford DDS",
-      "CreatedBy": "pariatur",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "debitis",
-      "ForeignAppId": 760,
+      "ForeignDeviceId": 652,
+      "Name": "Hilll LLC",
+      "CreatedDate": "1999-10-10T14:45:12.8181931+02:00",
+      "UpdatedDate": "2013-03-11T14:45:12.8181931+01:00",
+      "AssociateFullName": "Loren Rippin",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "veritatis",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 95,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 982
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 181
     }
   },
   "_Links": {

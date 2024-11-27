@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Mariane Gottlieb",
-    "Description": "Organized didactic synergy",
-    "ProjectId": 509,
-    "EventName": "Schimmel Group",
-    "AssociateId": 999,
+    "AssociateFullName": "Laury Runolfsson",
+    "Description": "Persevering systematic collaboration",
+    "ProjectId": 947,
+    "EventName": "Leffler-Daugherty",
+    "AssociateId": 880,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "veniam",
-    "SignOffText": "voluptatem",
-    "SignOnConfirmationText": "vel",
-    "SignOnText": "assumenda",
-    "EventDate": "2014-01-28T13:14:06.2883049+01:00",
+    "SignOffConfirmationText": "et",
+    "SignOffText": "eos",
+    "SignOnConfirmationText": "quia",
+    "SignOnText": "ut",
+    "EventDate": "2007-06-20T14:45:06.0218921+02:00",
     "Enabled": false,
     "SignOff": true,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 102,
-    "SignOnTaskId": 232,
-    "SignOffTriggersAssign": true,
+    "SignOnTaskEnable": true,
+    "SignOn": false,
+    "SignOffTaskId": 514,
+    "SignOnTaskId": 356,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 369,
-    "SignOffPersonId": 365,
+    "SignOnPersonId": 851,
+    "SignOffPersonId": 899,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 210
       }
     }
   }

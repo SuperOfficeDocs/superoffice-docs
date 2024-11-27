@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 126,
+  "SelectionId": 715,
   "SelectionMemberIds": [
-    100,
-    190
+    379,
+    941
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended system-worthy interface",
-  "Postit": "laudantium",
+  "Description": "Reverse-engineered intangible framework",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 369,
-  "IncludePerson": 437,
+  "GroupIdx": 947,
+  "IncludePerson": 379,
   "MemberCount": 99.99,
-  "Name": "Bogisich-Grimes",
-  "PostitTextId": 826,
-  "CreatedDate": "2017-04-20T13:14:06.4289377+02:00",
-  "SelectionId": 535,
-  "SoundEx": "quae",
-  "Source": 819,
-  "TextId": 859,
-  "UpdatedDate": "2015-03-16T13:14:06.4289377+01:00",
-  "UpdatedCount": 346,
-  "Visibility": 716,
+  "Name": "Olson-Weissnat",
+  "PostitTextId": 830,
+  "CreatedDate": "2004-12-25T14:45:06.240594+01:00",
+  "SelectionId": 404,
+  "SoundEx": "eos",
+  "Source": 520,
+  "TextId": 927,
+  "UpdatedDate": "2002-03-04T14:45:06.240594+01:00",
+  "UpdatedCount": 799,
+  "Visibility": 459,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 822,
-  "TargetTableName": "Pollich LLC",
+  "TargetTableNumber": 582,
+  "TargetTableName": "Mohr-Bauch",
   "Completed": false,
-  "LeftSelectionId": 193,
-  "RightSelectionId": 90,
+  "LeftSelectionId": 705,
+  "RightSelectionId": 517,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Raynor, Baumbach and Bradtke",
-  "ShadowProviderName": "Raynor, Wolff and Schiller",
-  "ChartKey": "quas",
-  "LastLoaded": "2006-03-13T13:14:06.4289377+01:00",
-  "LastLoadedBy": 969,
+  "MainProviderName": "Bogan-Bednar",
+  "ShadowProviderName": "Armstrong-Senger",
+  "ChartKey": "est",
+  "LastLoaded": "2011-06-14T14:45:06.240594+02:00",
+  "LastLoadedBy": 416,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-07-20T13:14:06.4289377+02:00",
-  "LastMembershipChangeBy": 81,
+  "LastMembershipChange": "2005-10-08T14:45:06.240594+02:00",
+  "LastMembershipChangeBy": 997,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "laudantium",
-  "MailingsProviderName": "Hintz-Kohler",
-  "DashboardTileDefinitionId": 342,
+  "MainHeading": "eum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "McGlynn, Torphy and Jenkins",
+  "DashboardTileDefinitionId": 968,
   "VisibleFor": [
     {
-      "VisibleId": 482,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldType": "System.Int32",
+          "FieldLength": 887
         }
       }
     },
     {
-      "VisibleId": 482,
+      "VisibleId": 378,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldType": "System.Int32",
+          "FieldLength": 887
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 528
     }
   }
 }

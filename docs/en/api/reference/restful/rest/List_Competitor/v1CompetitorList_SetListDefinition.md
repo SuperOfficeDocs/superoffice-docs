@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "Hills LLC",
-  "Tooltip": "qui",
+  "Id": 588,
+  "Name": "Dach Group",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "Rank": 526,
+  "Rank": 308,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Towne-McCullough",
-  "Tooltip": "alias",
+  "Id": 538,
+  "Name": "Torphy LLC",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 208,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "alias",
-  "InUseByUserDefinedFields": true,
+  "Rank": 711,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Rempel-Runolfsson",
-    "Tooltip": "tempore",
+    "Id": 947,
+    "Name": "Hermiston, Connelly and Graham",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 509,
-    "Rank": 304
+    "UdListDefinitionId": 173,
+    "Rank": 384
   },
   {
-    "Id": 395,
-    "Name": "Rempel-Runolfsson",
-    "Tooltip": "tempore",
+    "Id": 947,
+    "Name": "Hermiston, Connelly and Graham",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "UdListDefinitionId": 509,
-    "Rank": 304
+    "UdListDefinitionId": 173,
+    "Rank": 384
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Shields-Conn",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 867,
-    "Rank": 913,
+    "Id": 882,
+    "Name": "Rippin Group",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 142,
+    "Rank": 778,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

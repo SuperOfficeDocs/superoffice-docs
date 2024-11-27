@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/AI/CreateTextForAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "IsoLangCode": "provident"
+  "IsoLangCode": "est"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"facilis"
 ```

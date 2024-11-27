@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 63,
-  "Name": "Fay Inc and Sons",
-  "Tooltip": "fugiat",
-  "SaveInDb": 902,
-  "Filename": "repudiandae",
-  "DefaultOref": "enim",
+  "DocumentTemplateId": 800,
+  "Name": "Legros-McGlynn",
+  "Tooltip": "nulla",
+  "SaveInDb": 298,
+  "Filename": "pariatur",
+  "DefaultOref": "aliquid",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 473,
-  "IntentId": 764,
-  "IsDefaultPublished": true,
-  "Rank": 202,
-  "LoadTemplateFromPlugin": 474,
-  "MimeType": "rem",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 907,
+  "AutoeventId": 170,
+  "IntentId": 382,
+  "IsDefaultPublished": false,
+  "Rank": 366,
+  "LoadTemplateFromPlugin": 636,
+  "MimeType": "voluptas",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 147,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ezra@gleichnerhettinger.info",
+  "EmailSubject": "jaida.padberg@stantongrant.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "shania@runolfsdottir.ca",
+  "SenderEmailAddress": "lennie@considine.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 593
     }
   }
 }

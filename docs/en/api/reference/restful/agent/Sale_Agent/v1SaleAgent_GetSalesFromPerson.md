@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 40,
+  "PersonId": 896,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cassin LLC",
-    "SaleDate": "2020-11-26T13:14:06.3976861+01:00",
-    "SaleId": 939,
-    "Probability": 698,
-    "Title": "dicta",
-    "Amount": 27811.115999999998,
-    "Currency": "et",
-    "ProjectName": "Goldner-Ankunding",
-    "AssociateFullName": "Wilber Terry",
-    "Description": "Multi-channelled encompassing alliance",
+    "ContactName": "Moore LLC",
+    "SaleDate": "2024-04-03T14:45:06.1937295+02:00",
+    "SaleId": 302,
+    "Probability": 571,
+    "Title": "sed",
+    "Amount": 13466.797999999999,
+    "Currency": "quisquam",
+    "ProjectName": "Weimann LLC",
+    "AssociateFullName": "Brandy Dickinson",
+    "Description": "Re-engineered holistic process improvement",
     "Status": "Lost",
-    "WeightedAmount": 6543.7919999999995,
-    "ProjectId": 993,
-    "EarningPercent": 29497.208,
-    "Earning": 23031.766,
-    "ContactId": 844,
-    "AssociateId": 618,
-    "PersonId": 897,
-    "SaleTypeId": 992,
-    "SaleTypeName": "Schamberger, Lynch and Mante",
-    "PersonFullName": "Prof. Alessandra Waelchi PhD",
+    "WeightedAmount": 17252.67,
+    "ProjectId": 517,
+    "EarningPercent": 9937.9139999999989,
+    "Earning": 23617.824,
+    "ContactId": 767,
+    "AssociateId": 431,
+    "PersonId": 891,
+    "SaleTypeId": 849,
+    "SaleTypeName": "Hayes Group",
+    "PersonFullName": "Mertie Schuster",
     "Completed": "Completed",
-    "ActiveErpLinks": 793,
-    "NextDueDate": "2015-01-19T13:14:06.3976861+01:00",
-    "Number": "584817",
+    "ActiveErpLinks": 748,
+    "NextDueDate": "2006-06-10T14:45:06.1937295+02:00",
+    "Number": "1619812",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 926
       }
     }
   }

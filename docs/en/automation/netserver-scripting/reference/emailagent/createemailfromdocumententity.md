@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateEMailFromDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateEMailFromDocumentEntity'>CreateEMailFromDocumentEntity</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateEMailFromDocumentEntity'>CreateEMailFromDocumentEntity</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateEMailFromDocumentEntity
 ```cs

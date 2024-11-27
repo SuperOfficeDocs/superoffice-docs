@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields'>GetPublishedUserDefinedPageOneFields</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields'>GetPublishedUserDefinedPageOneFields</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeGetPublishedUserDefinedPageOneFields
 ```cs

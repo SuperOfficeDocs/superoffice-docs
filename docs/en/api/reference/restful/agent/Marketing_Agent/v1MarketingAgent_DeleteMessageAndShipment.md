@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteMessageAndShipment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 226
+  "MessageId": 818
 }
 ```
 

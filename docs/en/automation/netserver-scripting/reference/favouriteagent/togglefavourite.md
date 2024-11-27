@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FavouriteAgent.ToggleFavourite
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite'>ToggleFavourite</see> method on the <see cref='IFavouriteAgent'>IFavouriteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFavouriteAgent.ToggleFavourite'>ToggleFavourite</see> method on the <see cref='IFavouriteAgent'>IFavouriteAgent</see>  service agent.
 
 ## BeforeToggleFavourite
 ```cs

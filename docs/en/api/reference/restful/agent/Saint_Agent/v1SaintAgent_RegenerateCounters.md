@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Kautzer LLC",
-  "AssociateId": 409,
-  "DetailsTable": 836,
-  "DetailsRecord": 770,
+  "Id": 325,
+  "Name": "Hermann Group",
+  "AssociateId": 804,
+  "DetailsTable": 44,
+  "DetailsRecord": 439,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "adipisci"
+    "ParameterObject1": "repudiandae",
+    "ParameterObject2": "dolor"
   },
-  "LastStarted": "2002-02-13T13:14:06.366434+01:00",
-  "Created": "2001-10-13T13:14:06.366434+02:00",
-  "StartCount": 235,
-  "DatabaseSerialNumber": "1237407",
-  "Context": "repellat",
-  "Result": "earum",
+  "LastStarted": "2020-04-10T14:45:06.1156216+02:00",
+  "Created": "2011-12-19T14:45:06.1156216+01:00",
+  "StartCount": 104,
+  "DatabaseSerialNumber": "837451",
+  "Context": "labore",
+  "Result": "voluptate",
   "State": "All",
-  "Description": "Synergized zero tolerance service-desk",
-  "Response": "asperiores",
-  "Request": "iste",
-  "ProgressDescription": "Grass-roots tangible model",
-  "ProgressPercent": 438,
-  "FileName": "Hilll LLC",
+  "Description": "Right-sized object-oriented hierarchy",
+  "Response": "numquam",
+  "Request": "doloremque",
+  "ProgressDescription": "Assimilated intermediate pricing structure",
+  "ProgressPercent": 581,
+  "FileName": "Bernhard-Howell",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

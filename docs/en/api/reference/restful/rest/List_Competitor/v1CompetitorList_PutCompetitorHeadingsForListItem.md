@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Grant Group",
-    "ToolTip": "Perspiciatis earum eum.",
+    "Id": 521,
+    "Name": "Pagac, Osinski and McLaughlin",
+    "ToolTip": "Consequuntur error architecto dolores tempore mollitia nisi dolorum.",
     "Deleted": false,
-    "Rank": 530,
-    "Type": "sunt",
-    "ColorBlock": 556,
+    "Rank": 464,
+    "Type": "maiores",
+    "ColorBlock": 684,
     "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2006-08-09T13:14:11.3360694+02:00",
+    "Selected": false,
+    "LastChanged": "2022-08-20T14:45:13.6148917+02:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Feeney, Orn and Little",
-        "ToolTip": "Dolore deleniti nobis consequatur quia consequuntur itaque.",
-        "Deleted": true,
-        "Rank": 379,
-        "Type": "dolore",
-        "ColorBlock": 118,
-        "IconHint": "qui",
+        "Id": 9,
+        "Name": "White Group",
+        "ToolTip": "Voluptates aut sint aut sunt.",
+        "Deleted": false,
+        "Rank": 695,
+        "Type": "corrupti",
+        "ColorBlock": 596,
+        "IconHint": "dignissimos",
         "Selected": true,
-        "LastChanged": "2011-09-10T13:14:11.3360694+02:00",
+        "LastChanged": "2000-11-05T14:45:13.6148917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "accusamus",
-        "Hidden": true,
-        "FullName": "Reymundo Lind"
+        "ExtraInfo": "neque",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Leopold Predovic"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Vesta Goyette"
+    "ExtraInfo": "inventore",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Hermann Paucek"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Miller, Ryan and Ortiz",
-    "ToolTip": "Ut numquam facere ex omnis quis.",
-    "Deleted": true,
-    "Rank": 761,
-    "Type": "perspiciatis",
-    "ColorBlock": 50,
-    "IconHint": "inventore",
-    "Selected": true,
-    "LastChanged": "2021-05-20T13:14:11.3360694+02:00",
+    "Id": 273,
+    "Name": "Weimann LLC",
+    "ToolTip": "Iure dolorem tempore sit enim qui pariatur saepe.",
+    "Deleted": false,
+    "Rank": 258,
+    "Type": "autem",
+    "ColorBlock": 617,
+    "IconHint": "nam",
+    "Selected": false,
+    "LastChanged": "2002-04-12T14:45:13.6148917+02:00",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Trantow, Purdy and Mayer",
-        "ToolTip": "Dolore deserunt quidem voluptas consequatur architecto ut culpa.",
-        "Deleted": true,
-        "Rank": 561,
-        "Type": "quidem",
-        "ColorBlock": 620,
-        "IconHint": "rem",
+        "Id": 711,
+        "Name": "Jaskolski, Hagenes and Collins",
+        "ToolTip": "Quod ullam et sint.",
+        "Deleted": false,
+        "Rank": 836,
+        "Type": "quae",
+        "ColorBlock": 786,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2021-04-12T13:14:11.3360694+02:00",
+        "LastChanged": "2024-01-21T14:45:13.6148917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "explicabo",
-        "Hidden": true,
-        "FullName": "Santino Bosco",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Dr. Prince Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 206
+            "FieldLength": 20
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "molestias",
+    "ExtraInfo": "dolore",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Casimer Effertz",
+    "FullName": "Cody Connelly I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 506,
-  "TargetDimensionId": 395
+  "Year": 636,
+  "TargetDimensionId": 988
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 125,
+    "TargetAssignmentInfoId": 754,
     "Values": [
-      357,
-      138
+      687,
+      915
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 884,
-    "DimensionListItemDisplayName": "Emard, Mraz and Bauch",
+    "DimensionListItem": 70,
+    "DimensionListItemDisplayName": "Keeling Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldType": "System.String",
+        "FieldLength": 336
       }
     }
   }

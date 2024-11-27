@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cupiditate",
-  "ProviderName": "Bosco Inc and Sons",
-  "StorageKey": "est",
+  "StorageType": "fugit",
+  "ProviderName": "McCullough LLC",
+  "StorageKey": "dolore",
   "DesiredColumnNames": [
-    "Gibson-Tremblay",
-    "DuBuque-Gislason"
+    "Tromp-Wunsch",
+    "Little, Reilly and Tremblay"
   ],
   "StaticColumns": [
-    "quia",
-    "optio"
+    "debitis",
+    "praesentium"
   ],
-  "Context": "rem"
+  "Context": "culpa"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kuhlman-Muller",
-      "Operator": "dolor",
+      "Name": "Jenkins-Macejkovic",
+      "Operator": "culpa",
       "Values": [
-        "magni",
-        "id"
+        "voluptatem",
+        "quia"
       ],
       "DisplayValues": [
-        "laborum",
-        "qui"
+        "enim",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 662,
+      "InterParenthesis": 855,
       "InterOperator": "And",
-      "UniqueHash": 672
+      "UniqueHash": 59
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Jenkins Group",
-      "DisplayTooltip": "autem",
-      "DisplayType": "fugiat",
-      "CanOrderBy": true,
-      "Name": "Stracke, Ebert and Herman",
+      "DisplayName": "Morissette, Bergstrom and Hand",
+      "DisplayTooltip": "ut",
+      "DisplayType": "est",
+      "CanOrderBy": false,
+      "Name": "Gaylord-Gorczany",
       "CanRestrictBy": false,
-      "RestrictionType": "error",
-      "RestrictionListName": "Graham Group",
+      "RestrictionType": "sed",
+      "RestrictionListName": "VonRueden-Haag",
       "IsVisible": false,
-      "ExtraInfo": "repellat",
-      "Width": "facere",
-      "IconHint": "ut",
-      "HeadingIconHint": "rerum"
+      "ExtraInfo": "est",
+      "Width": "ullam",
+      "IconHint": "ex",
+      "HeadingIconHint": "enim"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Wilderman-Schoen",
-      "PrimaryKey": 77,
+      "EntityName": "Huel Group",
+      "PrimaryKey": 397,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "facere",
-          "LinkHint": "dolores"
+          "DisplayValue": "nobis",
+          "TooltipHint": "totam",
+          "LinkHint": "delectus"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "dicta",
+      "LinkHint": "et",
+      "StyleHint": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldLength": 465
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Monahan, Veum and Gleason",
-      "Description": "Synchronised full-range solution",
-      "Rank": 580,
+      "Name": "Reichel Inc and Sons",
+      "Description": "Object-based mission-critical support",
+      "Rank": 224,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Monahan, Veum and Gleason",
-      "Description": "Synchronised full-range solution",
-      "Rank": 580,
+      "Name": "Reichel Inc and Sons",
+      "Description": "Object-based mission-critical support",
+      "Rank": 224,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 731
     }
   }
 }

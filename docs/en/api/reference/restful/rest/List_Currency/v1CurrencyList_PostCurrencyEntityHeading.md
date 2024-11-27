@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 76,
-  "Name": "Hudson-Fritsch",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 653,
-  "UdListDefinitionId": 76
+  "HeadingId": 732,
+  "Name": "Becker, Hilll and Waelchi",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 947,
+  "UdListDefinitionId": 62
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 809,
-  "Name": "Kovacek Inc and Sons",
-  "Tooltip": "assumenda",
+  "HeadingId": 557,
+  "Name": "McDermott, Witting and Lehner",
+  "Tooltip": "maiores",
   "Deleted": true,
-  "Rank": 981,
-  "UdListDefinitionId": 301,
+  "Rank": 205,
+  "UdListDefinitionId": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 699
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

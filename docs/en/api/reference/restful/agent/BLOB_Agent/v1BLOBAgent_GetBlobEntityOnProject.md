@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 226
+  "ProjectId": 526
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 725,
-  "BlobSize": 97,
-  "Description": "Progressive dedicated open system",
-  "ExtraInfo": "distinctio",
+  "BlobId": 702,
+  "BlobSize": 293,
+  "Description": "Customizable responsive product",
+  "ExtraInfo": "dolores",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "perspiciatis",
-  "OriginalSize": 161,
-  "CreatedDate": "2013-08-06T13:14:05.5382596+02:00",
-  "UpdatedDate": "2018-05-11T13:14:05.5382596+02:00",
+  "MimeType": "fugiat",
+  "OriginalSize": 753,
+  "CreatedDate": "2016-12-09T14:45:04.8971429+01:00",
+  "UpdatedDate": "2006-11-06T14:45:04.8971429+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "necessitatibus",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 276
     }
   }
 }

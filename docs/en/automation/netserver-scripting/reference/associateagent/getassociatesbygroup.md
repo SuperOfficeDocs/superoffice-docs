@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AssociateAgent.GetAssociatesByGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup'>GetAssociatesByGroup</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAssociateAgent.GetAssociatesByGroup'>GetAssociatesByGroup</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
 
 ## BeforeGetAssociatesByGroup
 ```cs

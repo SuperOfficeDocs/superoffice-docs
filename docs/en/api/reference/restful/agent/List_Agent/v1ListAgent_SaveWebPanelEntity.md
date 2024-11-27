@@ -105,30 +105,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 673,
-  "Name": "Hirthe, Harris and Farrell",
-  "Tooltip": "delectus",
-  "Deleted": false,
-  "Rank": 473,
+  "WebPanelId": 118,
+  "Name": "Dibbert, Hoppe and Bechtelar",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 689,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Schuster, Balistreri and Murphy",
+  "WindowName": "Fay, Hodkiewicz and Welch",
   "Url": "http://www.example.com/",
-  "ProgId": "optio",
-  "Icon": 931,
+  "ProgId": "illum",
+  "Icon": 586,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 189,
-  "Name": "Bosco Inc and Sons",
-  "Tooltip": "deserunt",
+  "WebPanelId": 677,
+  "Name": "Lang Group",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 454,
+  "Rank": 417,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "O'Conner, Bartell and Connelly",
+  "WindowName": "Wuckert, Lind and Wolf",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 338,
+  "ProgId": "quod",
+  "Icon": 32,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   }
 }

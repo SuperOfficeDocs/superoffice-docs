@@ -747,10 +747,17 @@ Activity archive provider that performs no filtering. This archive is not presen
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
 
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
+
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/restrictionAddress/wgs84latitude,person/correspondingAssociate/credentialType,contact/department,contact/postAddress/addressId,rawStatus
+GET /api/v1/archive/Activity?$select=attention,person/restrictionAddress/line1,person/personAssociate/simultaneousEjUser,person/correspondingAssociate/usergroup,project/projectEvent/eventDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

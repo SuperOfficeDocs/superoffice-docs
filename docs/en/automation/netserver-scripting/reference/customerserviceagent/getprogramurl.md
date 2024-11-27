@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.GetProgramUrl
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl'>GetProgramUrl</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.GetProgramUrl'>GetProgramUrl</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeGetProgramUrl
 ```cs

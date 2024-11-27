@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.SplitTicket
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.SplitTicket'>SplitTicket</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.SplitTicket'>SplitTicket</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeSplitTicket
 ```cs

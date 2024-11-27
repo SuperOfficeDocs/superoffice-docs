@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 410,
-    "Name": "Lind, Heller and Crooks",
-    "Description": "Progressive transitional methodology",
-    "WelcomeMessage": "nam",
+    "ChatTopicId": 653,
+    "Name": "Veum, Wyman and Kub",
+    "Description": "Profit-focused background moderator",
+    "WelcomeMessage": "quisquam",
     "Language": null,
-    "LastAccept": "2019-08-26T13:14:05.6163893+02:00",
-    "SecondsPrAccept": 521,
-    "AlertRecipient": "optio",
+    "LastAccept": "2021-11-20T14:45:05.0064931+01:00",
+    "SecondsPrAccept": 706,
+    "AlertRecipient": "est",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "quibusdam",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "non",
-    "WarnNewChatMinutes": 881,
-    "WarnManagerNewChatMinutes": 991,
+    "CollectConsent": false,
+    "BadgeHeader": "facere",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "vitae",
+    "WarnNewChatMinutes": 865,
+    "WarnManagerNewChatMinutes": 485,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 767,
-    "WarnManagerChatMessageMinutes": 613,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 231,
+    "WarnManagerChatMessageMinutes": 434,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 304,
-    "OfflineFormQueueLength": 110,
+    "OfflineFormTimeLimit": 107,
+    "OfflineFormQueueLength": 738,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "omnis",
+    "WidgetRatingText": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 378
+        "FieldType": "System.String",
+        "FieldLength": 175
       }
     }
   }

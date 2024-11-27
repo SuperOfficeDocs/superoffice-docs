@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 728,
-  "Name": "Kovacek Group",
-  "Tooltip": "repudiandae",
-  "Rank": 205,
-  "DoctmplId": 273,
-  "Header": "dolores",
-  "OurRef": "reprehenderit",
-  "Deleted": true,
+  "SuggestedDocumentId": 964,
+  "Name": "Reichert-Walter",
+  "Tooltip": "facere",
+  "Rank": 197,
+  "DoctmplId": 552,
+  "Header": "eveniet",
+  "OurRef": "iusto",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 199,
-  "Name": "Nikolaus Inc and Sons",
-  "Tooltip": "dicta",
-  "Rank": 11,
-  "DoctmplId": 324,
-  "Header": "dolores",
-  "OurRef": "id",
+  "SuggestedDocumentId": 861,
+  "Name": "Armstrong Inc and Sons",
+  "Tooltip": "non",
+  "Rank": 450,
+  "DoctmplId": 398,
+  "Header": "quos",
+  "OurRef": "aut",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 544
     }
   }
 }

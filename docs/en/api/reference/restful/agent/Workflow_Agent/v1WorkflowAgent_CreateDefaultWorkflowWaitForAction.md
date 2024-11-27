@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 573,
-  "WorkflowStepId": 483,
-  "WorkflowId": 381,
-  "Rank": 317,
+  "WorkflowWaitForActionId": 843,
+  "WorkflowStepId": 219,
+  "WorkflowId": 830,
+  "Rank": 974,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Ruecker Inc and Sons",
-      "Description": "Mandatory contextually-based portal",
-      "Rank": 412,
+      "Name": "Kris-Herman",
+      "Description": "Advanced 5th generation success",
+      "Rank": 801,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ruecker Inc and Sons",
-      "Description": "Mandatory contextually-based portal",
-      "Rank": 412,
+      "Name": "Kris-Herman",
+      "Description": "Advanced 5th generation success",
+      "Rank": 801,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 158
     }
   }
 }

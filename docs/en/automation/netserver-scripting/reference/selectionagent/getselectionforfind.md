@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.GetSelectionForFind
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind'>GetSelectionForFind</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.GetSelectionForFind'>GetSelectionForFind</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeGetSelectionForFind
 ```cs

@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 165,
+  "PersonId": 728,
   "IncludeProjectDocuments": false,
-  "StartTime": "2003-07-10T13:14:05.7726487+02:00",
-  "EndTime": "2003-10-16T13:14:05.7726487+02:00",
-  "Count": 192,
-  "DocumentTemplateId": 870
+  "StartTime": "2003-12-26T14:45:05.2408154+01:00",
+  "EndTime": "2005-08-16T14:45:05.2408154+02:00",
+  "Count": 284,
+  "DocumentTemplateId": 672
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 668,
-    "Attention": "deleniti",
-    "Header": "repudiandae",
-    "Name": "Grady-Lowe",
-    "OurRef": "id",
-    "YourRef": "natus",
-    "Description": "Expanded fresh-thinking groupware",
-    "DocumentTemplate": "saepe",
-    "IsPublished": true,
-    "PersonId": 318,
-    "PersonFullName": "Prof. Janet Ludwig Dickens II",
-    "AssociateFullName": "Miss Darrel Ward",
-    "ContactId": 508,
-    "ContactName": "Smith-Kulas",
-    "ProjectId": 589,
-    "ProjectName": "Mertz-Hane",
-    "AssociateId": 671,
-    "Snum": 181,
-    "SaleId": 599,
-    "SaleName": "Lockman-Feil",
+    "DocumentId": 495,
+    "Attention": "voluptates",
+    "Header": "ratione",
+    "Name": "Kerluke, Gerlach and Abbott",
+    "OurRef": "voluptatem",
+    "YourRef": "nihil",
+    "Description": "Secured analyzing process improvement",
+    "DocumentTemplate": "necessitatibus",
+    "IsPublished": false,
+    "PersonId": 595,
+    "PersonFullName": "Davon Ward",
+    "AssociateFullName": "Diana Pouros",
+    "ContactId": 145,
+    "ContactName": "Beier-Cruickshank",
+    "ProjectId": 893,
+    "ProjectName": "Gorczany-Howell",
+    "AssociateId": 771,
+    "Snum": 826,
+    "SaleId": 326,
+    "SaleName": "Rutherford-Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 319
       }
     }
   }

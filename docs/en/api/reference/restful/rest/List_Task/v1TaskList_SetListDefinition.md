@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Vandervort-Wintheiser",
-  "Tooltip": "est",
+  "Id": 195,
+  "Name": "Pacocha LLC",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 21,
-  "IsCustomList": true,
+  "Rank": 833,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "soluta",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Schuster Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 953,
-  "IsCustomList": false,
+  "Id": 959,
+  "Name": "Schuster LLC",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "Rank": 599,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequuntur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 331
     }
   }
 }

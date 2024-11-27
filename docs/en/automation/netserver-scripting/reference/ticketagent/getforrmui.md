@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetForRmUi
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetForRmUi'>GetForRmUi</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetForRmUi'>GetForRmUi</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetForRmUi
 ```cs

@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=dolorum
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Morissette LLC",
-    "ToolTip": "Et eveniet dolores.",
+    "Id": 825,
+    "Name": "Morissette-Barrows",
+    "ToolTip": "Aperiam placeat.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "sunt",
+    "Rank": 240,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Lindgren, Spencer and Predovic",
-        "ToolTip": "Totam ad in possimus adipisci quaerat omnis et.",
-        "Deleted": false,
-        "Rank": 205,
-        "Type": "similique",
+        "Id": 382,
+        "Name": "Little Group",
+        "ToolTip": "Et consequuntur itaque officia.",
+        "Deleted": true,
+        "Rank": 430,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iusto",
-        "ColorBlock": 879,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "labore",
-        "FullName": "Bette Stokes",
+        "IconHint": "sunt",
+        "ColorBlock": 382,
+        "ExtraInfo": "beatae",
+        "StyleHint": "vel",
+        "FullName": "Freeda Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldType": "System.String",
+            "FieldLength": 35
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 552,
-    "ExtraInfo": "corporis",
-    "StyleHint": "praesentium",
-    "FullName": "Miss Lemuel Sister Brekke DDS",
+    "IconHint": "eius",
+    "ColorBlock": 452,
+    "ExtraInfo": "nihil",
+    "StyleHint": "officia",
+    "FullName": "Freda Osinski Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

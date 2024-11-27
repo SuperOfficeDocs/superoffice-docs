@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetAttachmentInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo'>GetAttachmentInfo</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetAttachmentInfo'>GetAttachmentInfo</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetAttachmentInfo
 ```cs

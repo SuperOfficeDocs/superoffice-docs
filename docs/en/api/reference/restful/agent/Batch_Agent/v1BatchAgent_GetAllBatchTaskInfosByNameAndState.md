@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Mills LLC",
+  "TaskName": "Mante-Schultz",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Mitchell-Kozey",
-    "AssociateId": 621,
-    "DetailsTable": 529,
-    "DetailsRecord": 14,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 413,
+    "Name": "Bernier-Gutkowski",
+    "AssociateId": 377,
+    "DetailsTable": 662,
+    "DetailsRecord": 149,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "odit"
+      "ParameterObject1": "quis",
+      "ParameterObject2": "eius"
     },
-    "LastStarted": "2000-03-08T13:14:05.5382596+01:00",
-    "Created": "2003-12-31T13:14:05.5382596+01:00",
-    "StartCount": 427,
-    "DatabaseSerialNumber": "1181109",
-    "Context": "qui",
-    "Result": "quis",
+    "LastStarted": "2020-06-04T14:45:04.8815214+02:00",
+    "Created": "2006-01-23T14:45:04.8815214+01:00",
+    "StartCount": 186,
+    "DatabaseSerialNumber": "981590",
+    "Context": "consequuntur",
+    "Result": "soluta",
     "State": "All",
-    "Description": "Realigned 6th generation capability",
-    "Response": "laborum",
-    "Request": "aut",
-    "ProgressDescription": "Grass-roots bottom-line productivity",
-    "ProgressPercent": 829,
-    "FileName": "Waelchi, Moen and Brakus",
+    "Description": "Assimilated background initiative",
+    "Response": "et",
+    "Request": "omnis",
+    "ProgressDescription": "Visionary content-based implementation",
+    "ProgressPercent": 925,
+    "FileName": "Fadel-Schinner",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.UpdateAppointmentFromIcsResponse
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentFromIcsResponse'>UpdateAppointmentFromIcsResponse</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.UpdateAppointmentFromIcsResponse'>UpdateAppointmentFromIcsResponse</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeUpdateAppointmentFromIcsResponse
 ```cs

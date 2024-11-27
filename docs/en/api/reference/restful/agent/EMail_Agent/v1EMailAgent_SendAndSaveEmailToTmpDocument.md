@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/EMail/SendAndSaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "StripAttachments": false
+  "StripAttachments": true
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"king.zboncak@ondrickakilback.co.uk"
+"hanna@schmitt.name"
 ```

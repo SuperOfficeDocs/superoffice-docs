@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 565,
-  "UiCulture": "enim"
+  "DocumentId": 936,
+  "UiCulture": "dolores"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 286,
+  "DocumentId": 334,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "molestiae",
-  "Header": "odit",
-  "Name": "Bernier, Price and Hyatt",
-  "OurRef": "alias",
-  "YourRef": "qui",
-  "CreatedDate": "2017-06-19T13:14:05.8976562+02:00",
-  "UpdatedDate": "2008-10-07T13:14:05.8976562+02:00",
-  "Description": "Fundamental didactic knowledge base",
+  "Attention": "ut",
+  "Header": "incidunt",
+  "Name": "Hintz Group",
+  "OurRef": "modi",
+  "YourRef": "maxime",
+  "CreatedDate": "2023-05-09T14:45:05.3970311+02:00",
+  "UpdatedDate": "2006-06-21T14:45:05.3970311+02:00",
+  "Description": "Reduced mission-critical approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-05-19T13:14:05.8976562+02:00",
-  "ExternalRef": "labore",
+  "Date": "2007-10-11T14:45:05.3970311+02:00",
+  "ExternalRef": "beatae",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 238,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Swaniawski-Maggio",
-      "Id": 10,
-      "Description": "Multi-lateral coherent adapter",
-      "ExtraInfo": "sint",
-      "LinkId": 535,
+      "EntityName": "Casper, Rosenbaum and Sipes",
+      "Id": 231,
+      "Description": "Cloned even-keeled Graphical User Interface",
+      "ExtraInfo": "sed",
+      "LinkId": 237,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 173
+          "FieldLength": 708
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 533,
-  "Snum": 538,
+  "SuggestedDocumentId": 697,
+  "Snum": 236,
   "UserDefinedFields": {
-    "SuperOffice:1": "77606410",
-    "SuperOffice:2": "2063502559"
+    "SuperOffice:1": "Winston Alverta Fritsch Sr.",
+    "SuperOffice:2": "Dora Vicky Stoltenberg III"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "rerum",
+    "CustomFields2": "distinctio"
   },
-  "PublishEventDate": "2007-09-24T13:14:05.8976562+02:00",
-  "PublishTo": "2023-03-24T13:14:05.8976562+01:00",
-  "PublishFrom": "2007-10-07T13:14:05.8976562+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-05-13T14:45:05.4126533+02:00",
+  "PublishTo": "2021-09-12T14:45:05.4126533+02:00",
+  "PublishFrom": "1998-11-18T14:45:05.4126533+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 820,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldLength": 424
         }
       }
     },
     {
-      "VisibleId": 820,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 762
+          "FieldLength": 424
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

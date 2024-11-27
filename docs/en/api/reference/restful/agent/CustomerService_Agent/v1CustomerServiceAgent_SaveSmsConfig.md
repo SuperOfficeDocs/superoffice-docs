@@ -74,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "ea",
-  "NsPluginSender": "maiores",
+  "NetServerSmsProvider": "velit",
+  "NsPluginSender": "delectus",
   "NsPluginConfig": {
-    "NsPluginConfig1": "aut",
-    "NsPluginConfig2": "nesciunt"
+    "NsPluginConfig1": "vel",
+    "NsPluginConfig2": "quisquam"
   }
 }
 ```
@@ -91,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "et",
-  "NsPluginSender": "unde",
+  "NetServerSmsProvider": "sit",
+  "NsPluginSender": "neque",
   "NsPluginConfig": {
-    "NsPluginConfig1": "corrupti",
-    "NsPluginConfig2": "quas"
+    "NsPluginConfig1": "omnis",
+    "NsPluginConfig2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldType": "System.String",
+      "FieldLength": 425
     }
   }
 }

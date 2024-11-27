@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 295,
-  "QuoteAlternativeId": 659,
-  "QuoteAlternativeName": "Nader-Gusikowski"
+  "QuoteVersionId": 497,
+  "QuoteAlternativeId": 101,
+  "QuoteAlternativeName": "Hilll, Smith and Volkman"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 77,
-  "ERPQuoteAlternativeKey": "voluptatibus",
-  "QuoteVersionId": 361,
-  "Name": "Rutherford, Prohaska and Lakin",
-  "Description": "Enterprise-wide exuding productivity",
+  "QuoteAlternativeId": 309,
+  "ERPQuoteAlternativeKey": "doloribus",
+  "QuoteVersionId": 849,
+  "Name": "Lynch-Becker",
+  "Description": "Pre-emptive high-level local area network",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21392.684,
-  "ERPDiscountAmount": 28651.028,
-  "DiscountPercent": 197.442,
-  "DiscountAmount": 17174.32,
+  "ERPDiscountPercent": 21978.742,
+  "ERPDiscountAmount": 5666.272,
+  "DiscountPercent": 2779.8579999999997,
+  "DiscountAmount": 17349.824,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "harum",
-  "VAT": 12090.972,
-  "EarningPercent": 25965.19,
-  "EarningAmount": 18963.834,
-  "SubTotal": 22618.077999999998,
-  "TotalPrice": 1366.424,
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "consequuntur",
-  "ExtraField3": "sit",
-  "ExtraField4": "aut",
-  "ExtraField5": "quam",
+  "VATInfo": "earum",
+  "VAT": 19411.996,
+  "EarningPercent": 19888.363999999998,
+  "EarningAmount": 1021.684,
+  "SubTotal": 2616.89,
+  "TotalPrice": 15657.464,
+  "ExtraField1": "eaque",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "veniam",
+  "ExtraField4": "inventore",
+  "ExtraField5": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 45
     }
   }
 }

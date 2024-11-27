@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760
+  "Id": 523
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Rowe, Walter and Konopelski",
-    "Tooltip": "quia",
+    "HeadingId": 718,
+    "Name": "Corwin Group",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 118,
-    "UdListDefinitionId": 161,
+    "Rank": 568,
+    "UdListDefinitionId": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldLength": 820
       }
     }
   }

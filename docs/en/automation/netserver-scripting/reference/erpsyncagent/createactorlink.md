@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.CreateActorLink
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink'>CreateActorLink</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.CreateActorLink'>CreateActorLink</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeCreateActorLink
 ```cs

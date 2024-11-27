@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Olson Group",
-  "Tooltip": "nihil",
+  "Id": 925,
+  "Name": "Stracke Group",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 466,
+  "Rank": 926,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Prohaska-Turner",
-  "Tooltip": "qui",
+  "Id": 851,
+  "Name": "O'Connell LLC",
+  "Tooltip": "earum",
   "Deleted": true,
-  "Rank": 67,
+  "Rank": 549,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "animi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

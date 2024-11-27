@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.SaveRestrictions
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.SaveRestrictions'>SaveRestrictions</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.SaveRestrictions'>SaveRestrictions</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeSaveRestrictions
 ```cs

@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 474,
-  "PersonId": 168,
-  "AppointmentId": 748,
-  "DocumentId": 904,
-  "SaleId": 995,
-  "SelectionId": 429,
-  "ProjectId": 812,
-  "UiCulture": "laudantium"
+  "ContactId": 476,
+  "PersonId": 581,
+  "AppointmentId": 652,
+  "DocumentId": 268,
+  "SaleId": 544,
+  "SelectionId": 166,
+  "ProjectId": 690,
+  "UiCulture": "in"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 302,
+  "DocumentId": 579,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "eius",
-  "Name": "Sanford, Shanahan and Towne",
-  "OurRef": "et",
-  "YourRef": "cupiditate",
-  "CreatedDate": "1999-12-01T13:14:05.9132824+01:00",
-  "UpdatedDate": "2001-03-19T13:14:05.9132824+01:00",
-  "Description": "Cross-platform interactive infrastructure",
+  "Attention": "placeat",
+  "Header": "voluptatibus",
+  "Name": "Kassulke-Hessel",
+  "OurRef": "repellendus",
+  "YourRef": "est",
+  "CreatedDate": "2013-01-12T14:45:05.4282744+01:00",
+  "UpdatedDate": "2001-05-16T14:45:05.4282744+02:00",
+  "Description": "Total motivating paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-06-03T13:14:05.9132824+02:00",
-  "ExternalRef": "commodi",
+  "Date": "2024-05-23T14:45:05.4282744+02:00",
+  "ExternalRef": "eveniet",
   "Completed": "Completed",
-  "ActiveLinks": 624,
+  "ActiveLinks": 804,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koelpin-Anderson",
-      "Id": 74,
-      "Description": "Function-based composite middleware",
-      "ExtraInfo": "non",
-      "LinkId": 25,
+      "EntityName": "Marks-Gerhold",
+      "Id": 582,
+      "Description": "Fundamental encompassing time-frame",
+      "ExtraInfo": "eveniet",
+      "LinkId": 98,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 635
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 732,
-  "Snum": 295,
+  "SuggestedDocumentId": 34,
+  "Snum": 211,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Danyka Schmidt",
-    "SuperOffice:2": "Citlalli Halvorson"
+    "SuperOffice:1": "Katarina Carter",
+    "SuperOffice:2": "Mrs. Ursula Glover Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "in",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2011-05-09T13:14:05.9132824+02:00",
-  "PublishTo": "2019-12-21T13:14:05.9132824+01:00",
-  "PublishFrom": "2012-08-31T13:14:05.9132824+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-02-07T14:45:05.4282744+01:00",
+  "PublishTo": "2004-12-31T14:45:05.4282744+01:00",
+  "PublishFrom": "2005-12-30T14:45:05.4282744+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 522,
+      "VisibleId": 222,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldType": "System.Int32",
+          "FieldLength": 233
         }
       }
     },
     {
-      "VisibleId": 522,
+      "VisibleId": 222,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldType": "System.Int32",
+          "FieldLength": 233
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 802
     }
   }
 }

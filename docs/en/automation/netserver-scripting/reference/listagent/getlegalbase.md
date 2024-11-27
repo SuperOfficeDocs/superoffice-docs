@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetLegalBase
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetLegalBase'>GetLegalBase</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetLegalBase'>GetLegalBase</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetLegalBase
 ```cs

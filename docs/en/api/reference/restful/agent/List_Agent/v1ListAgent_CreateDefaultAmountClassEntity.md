@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 179,
-  "Name": "Walter-Wilkinson",
-  "Tooltip": "molestiae",
-  "Rank": 688,
-  "AmountFrom": 19070.39,
-  "AmountTo": 4243.436,
+  "AmountClassId": 215,
+  "Name": "Johnson-Ernser",
+  "Tooltip": "molestias",
+  "Rank": 804,
+  "AmountFrom": 23273.084,
+  "AmountTo": 20599.782,
   "Deleted": false,
-  "CurrencyId": 801,
+  "CurrencyId": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 156
     }
   }
 }

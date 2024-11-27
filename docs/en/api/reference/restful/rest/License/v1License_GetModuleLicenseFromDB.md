@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wehner, Keeling and Mraz",
-  "ModuleName": "Mills-Fisher",
-  "ModuleDescription": "Synchronised context-sensitive Graphical User Interface",
-  "ModuleTooltip": "impedit",
-  "ModuleVersion": "accusamus",
+  "OwnerName": "Simonis-Sawayn",
+  "ModuleName": "Brakus, Lindgren and Daniel",
+  "ModuleDescription": "Persistent regional encryption",
+  "ModuleTooltip": "placeat",
+  "ModuleVersion": "quidem",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 494,
-  "ExtraFlags": 419,
-  "ExtraInfo": "ullam",
-  "SortOrder": 249,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Leffler Inc and Sons",
-  "Signature": "sit"
+  "NumberOfLicenses": 787,
+  "ExtraFlags": 492,
+  "ExtraInfo": "velit",
+  "SortOrder": 845,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Leannon-Roberts",
+  "Signature": "saepe"
 }
 ```

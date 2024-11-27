@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetConsentSourceList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetConsentSourceList'>GetConsentSourceList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetConsentSourceList'>GetConsentSourceList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetConsentSourceList
 ```cs

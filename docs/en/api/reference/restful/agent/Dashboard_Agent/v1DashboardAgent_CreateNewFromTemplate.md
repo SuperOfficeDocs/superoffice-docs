@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 824,
-  "Caption": "dolorum",
-  "Description": "Organic assymetric database",
-  "SelectionId": 703,
+  "DashboardTileId": 250,
+  "Caption": "nobis",
+  "Description": "User-centric foreground attitude",
+  "SelectionId": 330,
   "VisibleFor": [
     {
-      "VisibleId": 260,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "odio"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 260,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "odio"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 356,
-  "Caption": "libero",
-  "Description": "Diverse secondary encoding",
-  "ChartName": "Jones-Jerde",
-  "ChartId": "ipsum",
+  "DashboardTileId": 133,
+  "Caption": "ducimus",
+  "Description": "Integrated intermediate initiative",
+  "ChartName": "Predovic Inc and Sons",
+  "ChartId": "adipisci",
   "IsDefault": false,
-  "AssociateId": 209,
-  "GroupId": 686,
-  "SelectionId": 13,
-  "Config": "ratione",
+  "AssociateId": 44,
+  "GroupId": 4,
+  "SelectionId": 641,
+  "Config": "at",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Cartwright-O'Kon",
-      "Description": "Secured assymetric matrix",
+      "Name": "Heidenreich Inc and Sons",
+      "Description": "Re-engineered encompassing methodology",
       "Type": "Boolean",
-      "ListName": "Walter-Batz",
+      "ListName": "Schinner, Klein and Daniel",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "iure",
+      "Value": "earum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 623
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 512,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 542
         }
       }
     },
     {
-      "VisibleId": 512,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 542
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 222
     }
   }
 }

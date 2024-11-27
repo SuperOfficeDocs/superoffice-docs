@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "soluta",
-  "Name": "Jones, Hills and Grimes",
-  "Description": "Cross-group interactive installation",
-  "IncludeId": "ducimus",
-  "Source": "nisi",
-  "Registered": "2023-04-14T13:14:11.2579402+02:00",
-  "RegisteredBy": "eum",
-  "Updated": "2021-04-30T13:14:11.2579402+02:00",
-  "UpdatedBy": "provident",
-  "Path": "nesciunt"
+  "UniqueIdentifier": "possimus",
+  "Name": "Bechtelar, Wyman and Runolfsdottir",
+  "Description": "Fundamental 24/7 system engine",
+  "IncludeId": "id",
+  "Source": "voluptas",
+  "Registered": "2022-01-15T14:45:13.4742967+01:00",
+  "RegisteredBy": "cumque",
+  "Updated": "2022-11-05T14:45:13.4742967+01:00",
+  "UpdatedBy": "nobis",
+  "Path": "aut"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptas",
-  "Name": "Rippin-Schiller",
-  "Description": "Upgradable zero tolerance structure",
-  "IncludeId": "at",
-  "Source": "officiis",
-  "Registered": "2010-11-17T13:14:11.2579402+01:00",
-  "RegisteredBy": "illum",
-  "Updated": "2024-02-13T13:14:11.2579402+01:00",
-  "UpdatedBy": "qui",
-  "Path": "quasi",
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Heathcote-Bode",
+  "Description": "Multi-layered directional matrix",
+  "IncludeId": "dolor",
+  "Source": "eos",
+  "Registered": "2012-11-15T14:45:13.4742967+01:00",
+  "RegisteredBy": "quod",
+  "Updated": "1999-02-25T14:45:13.4742967+01:00",
+  "UpdatedBy": "omnis",
+  "Path": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 59
     }
   }
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "culpa",
-  "GroupName": "Romaguera-Gerlach"
+  "Type": "numquam",
+  "GroupName": "Doyle Group"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "est",
-    "illo"
+    "corporis",
+    "nihil"
   ],
   "Users": [
     {
-      "Value": "molestias",
-      "DisplayValue": "ut",
+      "Value": "quas",
+      "DisplayValue": "deserunt",
       "Columns": [
-        "mollitia",
-        "qui"
+        "ratione",
+        "et"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     },
     {
-      "Value": "molestias",
-      "DisplayValue": "ut",
+      "Value": "quas",
+      "DisplayValue": "deserunt",
       "Columns": [
-        "mollitia",
-        "qui"
+        "ratione",
+        "et"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 799
     }
   }
 }

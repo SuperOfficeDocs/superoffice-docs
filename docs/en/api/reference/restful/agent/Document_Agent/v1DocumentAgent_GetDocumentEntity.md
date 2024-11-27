@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=236
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=103
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 30,
+  "DocumentId": 232,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "aliquam",
-  "Name": "Hammes-Upton",
-  "OurRef": "at",
-  "YourRef": "quo",
-  "CreatedDate": "2003-01-27T13:14:05.7882747+01:00",
-  "UpdatedDate": "2000-04-01T13:14:05.7882747+02:00",
-  "Description": "Front-line high-level solution",
+  "Attention": "consequuntur",
+  "Header": "et",
+  "Name": "Cartwright, Emard and Kohler",
+  "OurRef": "eos",
+  "YourRef": "sed",
+  "CreatedDate": "2003-09-06T14:45:05.3814106+02:00",
+  "UpdatedDate": "1999-09-25T14:45:05.3814106+02:00",
+  "Description": "Multi-lateral 6th generation moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-01-28T13:14:05.7882747+01:00",
-  "ExternalRef": "architecto",
+  "Date": "2010-04-04T14:45:05.3814106+02:00",
+  "ExternalRef": "quaerat",
   "Completed": "Completed",
-  "ActiveLinks": 941,
+  "ActiveLinks": 274,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "D'Amore-Weimann",
-      "Id": 462,
-      "Description": "Innovative full-range access",
-      "ExtraInfo": "nulla",
-      "LinkId": 707,
+      "EntityName": "Kohler, McCullough and Braun",
+      "Id": 21,
+      "Description": "Versatile background application",
+      "ExtraInfo": "ut",
+      "LinkId": 487,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 595
+          "FieldLength": 488
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 811,
-  "Snum": 632,
+  "SuggestedDocumentId": 947,
+  "Snum": 890,
   "UserDefinedFields": {
-    "SuperOffice:1": "1297310320",
-    "SuperOffice:2": "Ervin Schmitt"
+    "SuperOffice:1": "158179609",
+    "SuperOffice:2": "2029911248"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "omnis"
+    "CustomFields1": "modi",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "2016-08-24T13:14:05.7882747+02:00",
-  "PublishTo": "2010-04-19T13:14:05.7882747+02:00",
-  "PublishFrom": "2002-09-05T13:14:05.7882747+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-11-19T14:45:05.3814106+01:00",
+  "PublishTo": "2022-06-21T14:45:05.3814106+02:00",
+  "PublishFrom": "2019-06-11T14:45:05.3814106+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 649,
+      "VisibleId": 792,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     },
     {
-      "VisibleId": 649,
+      "VisibleId": 792,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

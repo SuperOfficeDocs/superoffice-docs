@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReportAgent.DeleteFavorite
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReportAgent.DeleteFavorite'>DeleteFavorite</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReportAgent.DeleteFavorite'>DeleteFavorite</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
 
 ## BeforeDeleteFavorite
 ```cs

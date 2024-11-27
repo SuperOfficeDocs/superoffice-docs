@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 334,
-  "Name": "Stokes, Bernhard and Kuhlman",
-  "Tooltip": "omnis",
+  "WebPanelId": 678,
+  "Name": "Conroy LLC",
+  "Tooltip": "ipsam",
   "Deleted": true,
-  "Rank": 888,
+  "Rank": 521,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Sipes-Aufderhar",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Kilback-Crooks",
   "Url": "http://www.example.com/",
-  "ProgId": "odio",
-  "Icon": 567,
+  "ProgId": "velit",
+  "Icon": 509,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 834,
-  "Name": "Pfannerstill, Langworth and Waters",
-  "Tooltip": "dolores",
+  "WebPanelId": 636,
+  "Name": "Abbott LLC",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 903,
+  "Rank": 719,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "VonRueden, Cormier and Romaguera",
+  "WindowName": "Stanton-Sauer",
   "Url": "http://www.example.com/",
-  "ProgId": "reprehenderit",
-  "Icon": 612,
+  "ProgId": "eveniet",
+  "Icon": 111,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

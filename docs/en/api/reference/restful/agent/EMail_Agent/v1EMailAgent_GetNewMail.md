@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    232,
-    981
+    323,
+    163
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 110,
-    "MessageId": "et",
-    "Subject": "pariatur",
+    "ServerId": 763,
+    "MessageId": "labore",
+    "Subject": "quia",
     "From": null,
     "To": [
       {
-        "ContactId": 376,
-        "ContactName": "Bartoletti Inc and Sons",
-        "PersonId": 6,
-        "PersonName": "Treutel Group",
-        "AssociateId": 121,
-        "Address": "nihil",
-        "EmailId": 630,
+        "ContactId": 671,
+        "ContactName": "Muller, Jacobson and Mann",
+        "PersonId": 980,
+        "PersonName": "Sporer, Schulist and Johnston",
+        "AssociateId": 7,
+        "Address": "eaque",
+        "EmailId": 774,
         "DuplicatePersonIds": [
-          68,
-          641
+          204,
+          614
         ],
-        "Name": "Stokes, Mraz and McDermott",
+        "Name": "Heathcote-Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 941
+            "FieldLength": 851
           }
         }
       }
     ],
-    "Sent": "2004-04-10T13:14:05.9445336+02:00",
+    "Sent": "2002-02-07T14:45:05.4751404+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 24,
+    "Size": 982,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldLength": 637
       }
     }
   }

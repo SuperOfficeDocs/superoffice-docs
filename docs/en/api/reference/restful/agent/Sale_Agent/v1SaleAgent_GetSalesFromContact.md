@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 445,
+  "ContactId": 367,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schinner Inc and Sons",
-    "SaleDate": "1997-07-10T13:14:06.3976861+02:00",
-    "SaleId": 214,
-    "Probability": 747,
-    "Title": "dolores",
-    "Amount": 12156.786,
-    "Currency": "voluptatem",
-    "ProjectName": "Kohler-Miller",
-    "AssociateFullName": "Mr. Jefferey Cummerata",
-    "Description": "Reactive intermediate pricing structure",
+    "ContactName": "Rath Inc and Sons",
+    "SaleDate": "2021-06-17T14:45:06.1937295+02:00",
+    "SaleId": 284,
+    "Probability": 763,
+    "Title": "aut",
+    "Amount": 28340.762,
+    "Currency": "molestias",
+    "ProjectName": "Parker, Ernser and Pacocha",
+    "AssociateFullName": "Ms. Dudley Sibyl Rogahn II",
+    "Description": "Sharable global projection",
     "Status": "Lost",
-    "WeightedAmount": 1833.3899999999999,
-    "ProjectId": 52,
-    "EarningPercent": 10157.294,
-    "Earning": 8355.244,
-    "ContactId": 499,
-    "AssociateId": 387,
-    "PersonId": 744,
-    "SaleTypeId": 26,
-    "SaleTypeName": "Champlin, Altenwerth and Haley",
-    "PersonFullName": "Leta Turner",
+    "WeightedAmount": 12103.508,
+    "ProjectId": 134,
+    "EarningPercent": 5299.594,
+    "Earning": 8555.82,
+    "ContactId": 731,
+    "AssociateId": 310,
+    "PersonId": 174,
+    "SaleTypeId": 937,
+    "SaleTypeName": "Koch Inc and Sons",
+    "PersonFullName": "Irma Heaney DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 121,
-    "NextDueDate": "2012-11-30T13:14:06.3976861+01:00",
-    "Number": "1688139",
+    "ActiveErpLinks": 685,
+    "NextDueDate": "2024-10-03T14:45:06.1937295+02:00",
+    "Number": "389596",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldLength": 272
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.GetAllForeignKeysOnEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity'>GetAllForeignKeysOnEntity</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.GetAllForeignKeysOnEntity'>GetAllForeignKeysOnEntity</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeGetAllForeignKeysOnEntity
 ```cs

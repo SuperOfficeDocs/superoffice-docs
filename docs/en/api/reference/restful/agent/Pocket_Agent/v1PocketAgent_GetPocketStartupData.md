@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "velit",
-    "sit"
+    "non",
+    "sint"
   ],
-  "CurrentClientTime": "2014-10-12T13:14:06.2414263+02:00"
+  "CurrentClientTime": "2008-09-09T14:45:05.9594057+02:00"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "ullam",
-    "velit"
+    "ut",
+    "odit"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 981,
-  "NotificationsCount": 31,
+  "OverdueSalesCount": 620,
+  "NotificationsCount": 510,
   "SystemWebPanels": [
     {
-      "WebPanelId": 864,
-      "Name": "Mraz-Leannon",
-      "Tooltip": "natus",
-      "Deleted": false,
-      "Rank": 17,
+      "WebPanelId": 540,
+      "Name": "Auer, Stark and Bashirian",
+      "Tooltip": "rerum",
+      "Deleted": true,
+      "Rank": 272,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
@@ -124,21 +124,21 @@ Content-Type: application/json; charset=utf-8
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Renner Inc and Sons",
+      "WindowName": "Schmidt LLC",
       "Url": "http://www.example.com/",
-      "ProgId": "ut",
-      "Icon": 324,
+      "ProgId": "praesentium",
+      "Icon": 33,
       "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 228
         }
       }
     }
@@ -146,22 +146,22 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "est",
+      "RawValue": "beatae",
       "Specification": null,
-      "DisplayValue": "hic",
-      "DisplayTooltip": "ducimus",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "dignissimos",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 830,
-      "PrefDescId": 821,
-      "TableName": "Torphy-Hilll",
-      "UserPreferenceId": 839,
+      "TargetId": 145,
+      "PrefDescId": 503,
+      "TableName": "Kuhlman-Hammes",
+      "UserPreferenceId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 183
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

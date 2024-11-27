@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 398,
-    "Name": "McKenzie, Maggio and Green",
-    "CurrencyId": 555,
-    "EnglishName": "Bahringer, Goodwin and Greenfelder",
+    "CountryId": 324,
+    "Name": "Daniel Group",
+    "CurrencyId": 342,
+    "EnglishName": "Muller, White and Dickinson",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Realigned coherent functionalities",
-    "OrgNrText": "109215",
-    "InterAreaPrefix": "suscipit",
-    "DialInPrefix": "ex",
-    "ZipPrefix": "dolores",
-    "DomainName": "Tillman, Bergstrom and Hirthe",
-    "AddressLayoutId": 752,
-    "DomesticAddressLayoutId": 832,
-    "ForeignAddressLayoutId": 802,
-    "Rank": 93,
-    "Tooltip": "ex",
+    "ImageDescription": "Cross-platform static leverage",
+    "OrgNrText": "441752",
+    "InterAreaPrefix": "quia",
+    "DialInPrefix": "iusto",
+    "ZipPrefix": "repellat",
+    "DomainName": "Braun, Shields and Pacocha",
+    "AddressLayoutId": 543,
+    "DomesticAddressLayoutId": 219,
+    "ForeignAddressLayoutId": 52,
+    "Rank": 808,
+    "Tooltip": "tenetur",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 222
       }
     }
   }

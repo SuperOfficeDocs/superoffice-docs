@@ -10,7 +10,7 @@ so.envir: onsite
 
 # UserDefinedFieldInfoAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent'>UserDefinedFieldInfoAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IUserDefinedFieldInfoAgent'>UserDefinedFieldInfoAgent</see> that can trigger server-side event scripts.
 
 * [ChangeFieldType](changefieldtype.md)
 * [ClearCaches](clearcaches.md)

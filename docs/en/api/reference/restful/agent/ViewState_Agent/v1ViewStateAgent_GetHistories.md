@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 568,
-    "Id": 521,
-    "HistoryName": "Harber-Osinski",
-    "HistoryId": 608,
-    "AssociateId": 223,
-    "Name": "Sawayn LLC",
-    "ItemInfo": "quos",
+    "Rank": 738,
+    "Id": 429,
+    "HistoryName": "Bashirian-Walker",
+    "HistoryId": 805,
+    "AssociateId": 702,
+    "Name": "Weber-Ondricka",
+    "ItemInfo": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 187,
-  "NickName": "Kreiger, Haley and Bartoletti"
+  "AssociateId": 625,
+  "NickName": "Roberts LLC"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

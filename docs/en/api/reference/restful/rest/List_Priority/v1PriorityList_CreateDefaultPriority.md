@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 769,
-  "Name": "Terry, Maggio and Sawayn",
-  "Tooltip": "quisquam",
+  "Id": 391,
+  "Name": "Bode-Thompson",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 20,
-  "Rank": 914,
+  "UdListDefinitionId": 933,
+  "Rank": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 967
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.PickUpFirstChatSession
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession'>PickUpFirstChatSession</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.PickUpFirstChatSession'>PickUpFirstChatSession</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforePickUpFirstChatSession
 ```cs

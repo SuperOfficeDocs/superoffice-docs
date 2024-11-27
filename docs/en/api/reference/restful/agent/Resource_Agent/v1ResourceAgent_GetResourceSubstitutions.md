@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hickle-Ritchie",
-    "King, Senger and Kihn"
+    "McCullough Inc and Sons",
+    "Leuschke Group"
   ],
-  "Culture": "distinctio",
-  "ActiveOnly": false
+  "Culture": "iusto",
+  "ActiveOnly": true
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Funk, Mertz and Braun",
-    "ResourceValue": "esse",
-    "Culture": "et",
-    "IsActive": true,
+    "ResourceName": "Lebsack-McKenzie",
+    "ResourceValue": "harum",
+    "Culture": "mollitia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   },
   {
-    "ResourceName": "Funk, Mertz and Braun",
-    "ResourceValue": "esse",
-    "Culture": "et",
-    "IsActive": true,
+    "ResourceName": "Lebsack-McKenzie",
+    "ResourceValue": "harum",
+    "Culture": "mollitia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 432
       }
     }
   }

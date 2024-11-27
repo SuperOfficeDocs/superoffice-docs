@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dicta",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dicta",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 595,
-  "Name": "Monahan, Lynch and Homenick",
-  "Tooltip": "facere",
-  "PassiveText": "commodi",
+  "ReldefId": 914,
+  "Name": "Steuber-Gutkowski",
+  "Tooltip": "nobis",
+  "PassiveText": "delectus",
   "Deleted": false,
-  "Rank": 490,
+  "Rank": 418,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   },
   "_Links": {

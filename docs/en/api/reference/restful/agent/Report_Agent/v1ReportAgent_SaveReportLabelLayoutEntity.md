@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 136,
-  "Name": "Boyer, Durgan and Wilderman",
-  "Description": "Enhanced regional budgetary management",
+  "ReportLabelLayoutId": 683,
+  "Name": "Schaefer-Reynolds",
+  "Description": "Focused next generation solution",
   "Orientation": "Landscape",
-  "PaperWidth": 892,
-  "PaperHeight": 699,
-  "LeftMargin": 405,
-  "RightMargin": 597,
-  "TopMargin": 633,
-  "BottomMargin": 979,
-  "CountColumns": 48,
-  "CountRows": 14
+  "PaperWidth": 940,
+  "PaperHeight": 136,
+  "LeftMargin": 422,
+  "RightMargin": 455,
+  "TopMargin": 812,
+  "BottomMargin": 580,
+  "CountColumns": 290,
+  "CountRows": 318
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 834,
-  "Name": "Heidenreich-Lehner",
-  "Description": "Reverse-engineered multi-state algorithm",
+  "ReportLabelLayoutId": 663,
+  "Name": "McClure, Skiles and Bradtke",
+  "Description": "Synchronised upward-trending protocol",
   "Orientation": "Landscape",
-  "PaperWidth": 999,
-  "PaperHeight": 688,
-  "LeftMargin": 571,
-  "RightMargin": 727,
-  "TopMargin": 52,
-  "BottomMargin": 957,
-  "CountColumns": 219,
-  "CountRows": 748,
+  "PaperWidth": 293,
+  "PaperHeight": 839,
+  "LeftMargin": 372,
+  "RightMargin": 838,
+  "TopMargin": 866,
+  "BottomMargin": 564,
+  "CountColumns": 537,
+  "CountRows": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   }
 }

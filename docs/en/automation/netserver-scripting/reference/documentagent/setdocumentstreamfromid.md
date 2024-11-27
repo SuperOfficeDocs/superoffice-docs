@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SetDocumentStreamFromId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SetDocumentStreamFromId'>SetDocumentStreamFromId</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SetDocumentStreamFromId'>SetDocumentStreamFromId</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSetDocumentStreamFromId
 ```cs

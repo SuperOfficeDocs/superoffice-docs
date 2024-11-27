@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.ChangePasswordFromName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.ChangePasswordFromName'>ChangePasswordFromName</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.ChangePasswordFromName'>ChangePasswordFromName</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeChangePasswordFromName
 ```cs

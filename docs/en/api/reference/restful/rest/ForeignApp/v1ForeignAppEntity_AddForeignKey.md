@@ -87,14 +87,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "soluta",
-  "Value": "omnis",
-  "RecordId": 967,
-  "CreatedDate": "2007-12-15T13:14:10.8516656+01:00",
-  "UpdatedDate": "2017-06-29T13:14:10.8516656+02:00",
-  "UpdatedBy": "nisi",
-  "CreatedBy": "dolor",
-  "TableName": "Boyle Group"
+  "Key": "sint",
+  "Value": "voluptatem",
+  "RecordId": 295,
+  "CreatedDate": "1998-04-17T14:45:12.8338163+02:00",
+  "UpdatedDate": "2012-10-27T14:45:12.8338163+02:00",
+  "UpdatedBy": "quam",
+  "CreatedBy": "voluptatem",
+  "TableName": "Bogisich-Marvin"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "accusamus",
-  "RecordId": 632,
-  "CreatedDate": "2024-07-29T13:14:10.8516656+02:00",
-  "UpdatedDate": "2017-11-21T13:14:10.8516656+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "id",
-  "TableName": "Johnson, Mosciski and Raynor",
+  "Key": "amet",
+  "Value": "ut",
+  "RecordId": 304,
+  "CreatedDate": "1998-10-06T14:45:12.8338163+02:00",
+  "UpdatedDate": "2000-08-14T14:45:12.8338163+02:00",
+  "UpdatedBy": "voluptatum",
+  "CreatedBy": "sed",
+  "TableName": "Lynch, Watsica and Leuschke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 72
     }
   }
 }

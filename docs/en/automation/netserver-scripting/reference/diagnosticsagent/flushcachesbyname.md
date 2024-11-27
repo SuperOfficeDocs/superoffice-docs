@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.FlushCachesByName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName'>FlushCachesByName</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.FlushCachesByName'>FlushCachesByName</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeFlushCachesByName
 ```cs

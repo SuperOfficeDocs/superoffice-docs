@@ -135,7 +135,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 373
+  "SaleId": 199
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-06-23T13:14:05.4601291+02:00",
-  "AppointmentId": 978,
-  "Description": "Progressive global Graphical User Interface",
-  "Title": "vitae",
-  "Agenda": "in",
-  "InternalNotes": "dolor",
-  "StartDate": "2014-03-07T13:14:05.4601291+01:00",
-  "EndDate": "2022-07-10T13:14:05.4601291+02:00",
+  "CreatedDate": "2009-12-05T14:45:04.7721727+01:00",
+  "AppointmentId": 806,
+  "Description": "Reduced interactive challenge",
+  "Title": "quia",
+  "Agenda": "adipisci",
+  "InternalNotes": "voluptatibus",
+  "StartDate": "2023-06-04T14:45:04.7721727+02:00",
+  "EndDate": "2005-11-28T14:45:04.7721727+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 652,
+  "MotherId": 83,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-09-17T13:14:05.4601291+02:00",
+  "UpdatedDate": "2022-12-14T14:45:04.7721727+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 329,
+  "ActiveLinks": 147,
   "Links": [
     {
-      "EntityName": "Miller-Gorczany",
-      "Id": 515,
-      "Description": "Persistent hybrid groupware",
-      "ExtraInfo": "impedit",
-      "LinkId": 104,
+      "EntityName": "Dickinson, Skiles and Turcotte",
+      "Id": 379,
+      "Description": "Object-based clear-thinking portal",
+      "ExtraInfo": "quas",
+      "LinkId": 678,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 245
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
+  "AlarmLeadTime": "culpa",
   "HasAlarm": false,
-  "ColorIndex": 241,
-  "IsFree": false,
+  "ColorIndex": 874,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "quasi",
-  "Location": "quos",
-  "RejectCounter": 815,
-  "RejectReason": "",
+  "LagTime": "amet",
+  "LeadTime": "est",
+  "Location": "voluptatem",
+  "RejectCounter": 64,
+  "RejectReason": "redefine cross-platform relationships",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 832,
-      "PersonId": 451,
-      "ContactId": 530,
-      "EmailId": 57,
+      "AssociateId": 232,
+      "PersonId": 724,
+      "ContactId": 384,
+      "EmailId": 47,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "asia@dicki.name",
-      "Description": "Cloned 24 hour moderator"
+      "EmailAddress": "lucie_balistreri@hirthe.info",
+      "Description": "Object-based bi-directional paradigm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-05-21T13:14:05.4601291+02:00",
+  "ActiveDate": "2003-04-10T14:45:04.7721727+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 323,
+  "PreferredTZLocation": 150,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 600,
+  "SuggestedAppointmentId": 422,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iusto",
+  "CentralserviceVideomeetId": "saepe",
   "UserDefinedFields": {
-    "SuperOffice:1": "Austen Schmidt",
-    "SuperOffice:2": "Cruz Aufderhar"
+    "SuperOffice:1": "Jedediah Von",
+    "SuperOffice:2": "Herminio Wilderman"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2019-09-23T13:14:05.4601291+02:00",
-  "PublishTo": "1999-01-28T13:14:05.4601291+01:00",
-  "PublishFrom": "2017-02-07T13:14:05.4601291+01:00",
+  "PublishEventDate": "2010-10-06T14:45:04.7721727+02:00",
+  "PublishTo": "2011-08-29T14:45:04.7721727+02:00",
+  "PublishFrom": "1999-11-03T14:45:04.7721727+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 51,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 363
         }
       }
     },
     {
-      "VisibleId": 51,
+      "VisibleId": 928,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 363
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 67
     }
   }
 }

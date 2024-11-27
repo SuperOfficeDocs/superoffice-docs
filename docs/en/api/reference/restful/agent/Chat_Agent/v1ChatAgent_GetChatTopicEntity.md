@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=698
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=925
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 338,
-  "Name": "Dare-Daniel",
-  "Description": "Optimized bi-directional contingency",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 402,
+  "Name": "Nicolas-Thompson",
+  "Description": "Team-oriented zero administration access",
+  "WelcomeMessage": "at",
   "Language": null,
-  "LastAccept": "2015-12-06T13:14:05.6163893+01:00",
-  "SecondsPrAccept": 2,
-  "AlertRecipient": "sed",
+  "LastAccept": "2016-02-25T14:45:05.0064931+01:00",
+  "SecondsPrAccept": 122,
+  "AlertRecipient": "dolorem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sint",
+  "BadgeHeader": "temporibus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 692,
-  "WarnManagerNewChatMinutes": 837,
-  "TicketEnabled": true,
+  "CustomQueueText": "nesciunt",
+  "WarnNewChatMinutes": 3,
+  "WarnManagerNewChatMinutes": 951,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 798,
-  "WarnManagerChatMessageMinutes": 772,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 324,
-  "OfflineFormQueueLength": 433,
+  "WarnChatMessageMinutes": 986,
+  "WarnManagerChatMessageMinutes": 756,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 734,
+  "OfflineFormQueueLength": 342,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sit",
+  "WidgetRatingText": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 13
     }
   }
 }

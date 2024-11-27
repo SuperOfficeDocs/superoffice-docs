@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 314,
-  "SourcePersonId": 699,
-  "DestinationContactId": 948,
-  "DestinationPersonId": 39,
-  "RelationId": 331,
-  "Comment": "est",
-  "RelationDefinitionId": 18,
-  "Reversed": 803,
-  "UpdatedDate": "2017-07-14T13:14:06.3508082+02:00",
-  "CreatedDate": "2015-08-30T13:14:06.3508082+02:00",
+  "SourceContactId": 396,
+  "SourcePersonId": 165,
+  "DestinationContactId": 604,
+  "DestinationPersonId": 590,
+  "RelationId": 645,
+  "Comment": "expedita",
+  "RelationDefinitionId": 619,
+  "Reversed": 857,
+  "UpdatedDate": "2017-10-19T14:45:06.0999998+02:00",
+  "CreatedDate": "2021-03-13T14:45:06.0999998+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Braun Group",
-  "SourcePersonName": "Homenick, Swift and Bernhard",
-  "DestinationContactName": "Rau-Kirlin",
-  "DestinationPersonName": "VonRueden LLC",
-  "ActiveText": "inventore",
-  "PassiveText": "quo",
+  "SourceContactName": "Ondricka-Jacobson",
+  "SourcePersonName": "Harber, Welch and Zemlak",
+  "DestinationContactName": "Kirlin Group",
+  "DestinationPersonName": "Funk, Rau and Kuphal",
+  "ActiveText": "autem",
+  "PassiveText": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 392
     }
   }
 }

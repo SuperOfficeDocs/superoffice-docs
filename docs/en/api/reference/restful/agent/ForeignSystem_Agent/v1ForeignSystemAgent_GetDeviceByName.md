@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kunde Group",
-  "DeviceName": "Lemke Group"
+  "ApplicationName": "Donnelly-Hauck",
+  "DeviceName": "Bednar LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 261,
-  "Name": "Boyer Group",
-  "CreatedDate": "2009-12-13T13:14:06.0382898+01:00",
-  "UpdatedDate": "2004-04-12T13:14:06.0382898+02:00",
-  "AssociateFullName": "Miss Kamryn Ericka Nienow Sr.",
-  "CreatedBy": "accusamus",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 665,
+  "ForeignDeviceId": 983,
+  "Name": "Goldner LLC",
+  "CreatedDate": "2021-04-18T14:45:05.6469762+02:00",
+  "UpdatedDate": "1998-05-30T14:45:05.6469762+02:00",
+  "AssociateFullName": "Elliot Schuster",
+  "CreatedBy": "accusantium",
+  "UpdatedBy": "consectetur",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 396
     }
   }
 }

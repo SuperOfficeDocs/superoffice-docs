@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.CreateDefaultSaleSummary
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary'>CreateDefaultSaleSummary</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.CreateDefaultSaleSummary'>CreateDefaultSaleSummary</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeCreateDefaultSaleSummary
 ```cs

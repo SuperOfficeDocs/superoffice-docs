@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 993,
-  "Name": "Legros LLC",
-  "Tooltip": "qui",
-  "Rank": 334,
+  "SaleTypeId": 397,
+  "Name": "Donnelly, Nolan and Padberg",
+  "Tooltip": "est",
+  "Rank": 369,
   "DurationUnit": "Century",
-  "SaleDuration": 260,
-  "SaleTypeCatId": 880,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 939,
+  "SaleTypeCatId": 949,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 189,
-  "QuoteLinesTemplate": 107,
-  "ConfirmationLinesTemplate": 712,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 572,
+  "QuoteLinesTemplate": 873,
+  "ConfirmationLinesTemplate": 363,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 615,
-  "MinEarningPercent": 925,
-  "GroupQuoteLinesBy": 117,
-  "SortGroupLinesBy": 49,
+  "MaxDiscountPercent": 275,
+  "MinEarningPercent": 798,
+  "GroupQuoteLinesBy": 793,
+  "SortGroupLinesBy": 261,
   "Stages": [
     {
-      "Id": 371,
-      "Name": "Gaylord-Zemlak",
-      "ToolTip": "Doloremque iure pariatur accusantium numquam quo officiis et.",
-      "Deleted": false,
-      "Rank": 73,
-      "Type": "ad",
-      "ColorBlock": 510,
-      "IconHint": "qui",
+      "Id": 589,
+      "Name": "Stoltenberg-Ankunding",
+      "ToolTip": "Deserunt sed magni.",
+      "Deleted": true,
+      "Rank": 381,
+      "Type": "quia",
+      "ColorBlock": 241,
+      "IconHint": "libero",
       "Selected": false,
-      "LastChanged": "2001-01-03T13:14:06.1164195+01:00",
+      "LastChanged": "2000-01-06T14:45:05.7719479+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "occaecati",
-      "Hidden": true,
-      "FullName": "Eryn Wolf",
+      "ExtraInfo": "in",
+      "StyleHint": "perspiciatis",
+      "Hidden": false,
+      "FullName": "Sophie Rodriguez Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 432
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 490
     }
   }
 }

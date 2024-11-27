@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.SaveSaleStakeholder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder'>SaveSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.SaveSaleStakeholder'>SaveSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeSaveSaleStakeholder
 ```cs

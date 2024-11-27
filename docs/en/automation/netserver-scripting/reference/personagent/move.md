@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.Move
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.Move'>Move</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.Move'>Move</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeMove
 ```cs

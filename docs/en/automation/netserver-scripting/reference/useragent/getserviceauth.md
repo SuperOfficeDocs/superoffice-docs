@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetServiceAuth
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetServiceAuth'>GetServiceAuth</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetServiceAuth'>GetServiceAuth</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetServiceAuth
 ```cs

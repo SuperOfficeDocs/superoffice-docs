@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Brown, Moen and Grady",
-    "ToolTip": "In rerum.",
+    "Id": 107,
+    "Name": "Cartwright LLC",
+    "ToolTip": "Reiciendis numquam modi est neque facilis.",
     "Deleted": true,
-    "Rank": 729,
-    "Type": "eum",
-    "ColorBlock": 982,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "2017-12-25T13:14:10.9610472+01:00",
+    "Rank": 207,
+    "Type": "rerum",
+    "ColorBlock": 550,
+    "IconHint": "nemo",
+    "Selected": false,
+    "LastChanged": "2016-11-08T14:45:13.1306367+01:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Rolfson Inc and Sons",
-        "ToolTip": "Vitae et.",
+        "Id": 584,
+        "Name": "Hoppe, Wolff and Wehner",
+        "ToolTip": "Doloremque magnam rerum voluptatibus exercitationem corporis.",
         "Deleted": false,
-        "Rank": 940,
-        "Type": "sed",
-        "ColorBlock": 701,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2015-04-01T13:14:10.9610472+02:00",
+        "Rank": 362,
+        "Type": "dignissimos",
+        "ColorBlock": 803,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2017-06-11T14:45:13.1306367+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Dejuan Ortiz",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Prof. Porter Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 177
+            "FieldType": "System.Int32",
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Vincenzo Beatty",
+    "ExtraInfo": "rerum",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Prudence Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 464
       }
     }
   }

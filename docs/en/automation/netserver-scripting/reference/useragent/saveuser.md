@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.SaveUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.SaveUser'>SaveUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.SaveUser'>SaveUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeSaveUser
 ```cs

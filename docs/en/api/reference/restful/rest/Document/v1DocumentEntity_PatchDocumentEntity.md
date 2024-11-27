@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "numquam",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "numquam",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 908,
+  "DocumentId": 254,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "hic",
-  "Header": "nulla",
-  "Name": "Jenkins-Nitzsche",
-  "OurRef": "iusto",
-  "YourRef": "animi",
-  "CreatedDate": "2016-09-12T13:14:10.8047881+02:00",
-  "UpdatedDate": "2016-10-22T13:14:10.8047881+02:00",
-  "Description": "Adaptive directional database",
+  "Attention": "accusantium",
+  "Header": "facere",
+  "Name": "Greenfelder Inc and Sons",
+  "OurRef": "aut",
+  "YourRef": "aut",
+  "CreatedDate": "2018-06-25T14:45:12.7713279+02:00",
+  "UpdatedDate": "1998-06-24T14:45:12.7713279+02:00",
+  "Description": "Diverse cohesive attitude",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-01-01T13:14:10.8047881+01:00",
-  "ExternalRef": "omnis",
+  "Date": "2011-08-06T14:45:12.7713279+02:00",
+  "ExternalRef": "libero",
   "Completed": "Completed",
-  "ActiveLinks": 148,
+  "ActiveLinks": 437,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lockman-Walter",
-      "Id": 725,
-      "Description": "Distributed needs-based artificial intelligence",
-      "ExtraInfo": "aut",
-      "LinkId": 406,
+      "EntityName": "Daugherty-Schinner",
+      "Id": 657,
+      "Description": "Robust eco-centric intranet",
+      "ExtraInfo": "et",
+      "LinkId": 638,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 423,
-  "Snum": 650,
+  "SuggestedDocumentId": 586,
+  "Snum": 237,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1680237288"
+    "SuperOffice:1": "150897811",
+    "SuperOffice:2": "Dessie Macejkovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempora",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "rerum"
+    "CustomFields1": "ea",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2021-02-17T13:14:10.8047881+01:00",
-  "PublishTo": "2015-04-05T13:14:10.8047881+02:00",
-  "PublishFrom": "2010-06-19T13:14:10.8047881+02:00",
+  "PublishEventDate": "2023-11-28T14:45:12.7869499+01:00",
+  "PublishTo": "1997-10-08T14:45:12.7869499+02:00",
+  "PublishFrom": "2015-07-21T14:45:12.7869499+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 627,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     },
     {
-      "VisibleId": 627,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 401
     }
   },
   "_Links": {

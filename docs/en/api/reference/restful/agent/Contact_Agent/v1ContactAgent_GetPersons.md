@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 363
+  "ContactId": 303
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "fugit",
-    "PersonId": 382,
-    "Mrmrs": "magnam",
-    "Firstname": "Everardo",
-    "Lastname": "Schimmel",
-    "MiddleName": "Kunde Group",
-    "Title": "veritatis",
-    "Description": "Proactive regional interface",
-    "Email": "mittie.greenholt@harveylang.ca",
-    "FullName": "Wayne Gibson",
-    "DirectPhone": "320-479-9984 x00618",
-    "FormalName": "Beatty-Trantow",
-    "CountryId": 671,
-    "ContactId": 516,
-    "ContactName": "Turcotte-Upton",
-    "Retired": 537,
-    "Rank": 142,
-    "ActiveInterests": 66,
+    "Position": "illum",
+    "PersonId": 363,
+    "Mrmrs": "neque",
+    "Firstname": "Aubrey",
+    "Lastname": "Emmerich",
+    "MiddleName": "Krajcik-Dibbert",
+    "Title": "doloremque",
+    "Description": "Triple-buffered actuating benchmark",
+    "Email": "nat@webermclaughlin.us",
+    "FullName": "Brayan Heidenreich",
+    "DirectPhone": "800.238.9282 x2997",
+    "FormalName": "Baumbach-Hartmann",
+    "CountryId": 461,
+    "ContactId": 896,
+    "ContactName": "Streich Group",
+    "Retired": 756,
+    "Rank": 18,
+    "ActiveInterests": 384,
     "ContactDepartment": "",
-    "ContactCountryId": 152,
-    "ContactOrgNr": "325905",
-    "FaxPhone": "1-681-020-1778 x030",
-    "MobilePhone": "1-990-835-8869 x522",
-    "ContactPhone": "410.351.8546 x27680",
-    "AssociateName": "Wunsch-Runolfsson",
-    "AssociateId": 816,
-    "UsePersonAddress": true,
-    "ContactFax": "ea",
-    "Kanafname": "id",
-    "Kanalname": "odio",
-    "Post1": "rerum",
-    "Post2": "itaque",
-    "Post3": "et",
-    "EmailName": "garland.hermann@green.ca",
-    "ContactFullName": "Joelle Rutherford",
-    "ActiveErpLinks": 70,
-    "TicketPriorityId": 469,
-    "SupportLanguageId": 266,
-    "SupportAssociateId": 376,
+    "ContactCountryId": 375,
+    "ContactOrgNr": "1009885",
+    "FaxPhone": "742-873-1545 x117",
+    "MobilePhone": "936.598.7038 x5845",
+    "ContactPhone": "425.906.3851 x130",
+    "AssociateName": "Gleichner, Stracke and Schowalter",
+    "AssociateId": 131,
+    "UsePersonAddress": false,
+    "ContactFax": "voluptas",
+    "Kanafname": "et",
+    "Kanalname": "blanditiis",
+    "Post1": "officiis",
+    "Post2": "voluptatem",
+    "Post3": "aut",
+    "EmailName": "chandler.schumm@hyattreinger.com",
+    "ContactFullName": "Dora Herman",
+    "ActiveErpLinks": 494,
+    "TicketPriorityId": 570,
+    "SupportLanguageId": 517,
+    "SupportAssociateId": 196,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 510
       }
     }
   }

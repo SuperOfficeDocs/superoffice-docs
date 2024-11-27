@@ -725,11 +725,14 @@ must be &gt;= start of today. This is an optional entity and is fetched if the u
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/BookingResponseInvitation?$select=joinVideomeetUrl,contact/saintTicketStatus,person/hasInterests,person/personExtra/x_person_category_relation,person/personAssociate/contactFullName
+GET /api/v1/archive/BookingResponseInvitation?$select=icon,contact/postAddress/county,contact/restrictionAddress/wgs84longitude,person/supportLanguage,person/personDirectPhone/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

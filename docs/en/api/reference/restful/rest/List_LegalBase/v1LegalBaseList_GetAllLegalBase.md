@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 188,
-    "Name": "Rutherford, Frami and Wisozk",
-    "Tooltip": "veritatis",
-    "Rank": 490,
-    "Key": "rerum",
-    "Deleted": false,
+    "LegalBaseId": 677,
+    "Name": "Carter-Aufderhar",
+    "Tooltip": "optio",
+    "Rank": 553,
+    "Key": "dolorem",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 246
       }
     }
   }

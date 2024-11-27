@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.SetDeletedStatusByIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.SetDeletedStatusByIds'>SetDeletedStatusByIds</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.SetDeletedStatusByIds'>SetDeletedStatusByIds</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeSetDeletedStatusByIds
 ```cs

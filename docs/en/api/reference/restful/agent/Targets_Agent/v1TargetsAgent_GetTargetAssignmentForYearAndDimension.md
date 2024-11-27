@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 323,
+  "TargetYear": 239,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 858,
-  "DimensionId": 269
+  "Id": 439,
+  "DimensionId": 626
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 479,
+  "TargetAssignmentInfoId": 1002,
   "Values": [
-    70,
-    744
+    181,
+    286
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 905,
-  "DimensionListItemDisplayName": "Bosco-Raynor",
+  "DimensionListItem": 164,
+  "DimensionListItemDisplayName": "Bauch Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

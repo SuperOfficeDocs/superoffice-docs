@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 989
+  "PersonId": 22
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 71,
-  "PlainParsed": "similique",
-  "HtmlParsed": "quaerat",
+  "ReplyTemplateId": 932,
+  "PlainParsed": "consequatur",
+  "HtmlParsed": "sunt",
   "Attachments": [
     {
-      "AttachmentId": 398,
-      "Name": "Lowe Group",
-      "ContentType": "velit",
-      "AttSize": 148,
+      "AttachmentId": 552,
+      "Name": "Gleichner, Veum and Ebert",
+      "ContentType": "quod",
+      "AttSize": 123,
       "InlineImage": false,
-      "ContentId": "dolor",
-      "AuthKey": "necessitatibus",
-      "IsSafeFileExtension": true,
+      "ContentId": "adipisci",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     }
   ],
-  "Subject": "ut",
+  "Subject": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 303,
-  "Name": "Waelchi-Cremin",
+  "ScreenChooserId": 707,
+  "Name": "King LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "veritatis",
-  "Source": "quam",
-  "Registered": "2016-10-28T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 673,
-  "Updated": "2015-08-06T13:14:11.1954363+02:00",
-  "UpdatedAssociateId": 214
+  "Enabled": true,
+  "UniqueIdentifier": "consectetur",
+  "Source": "repellendus",
+  "Registered": "1998-06-06T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 633,
+  "Updated": "2010-01-22T14:45:13.3805746+01:00",
+  "UpdatedAssociateId": 681
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 472,
-  "Name": "West, White and Kilback",
+  "ScreenChooserId": 648,
+  "Name": "Simonis-Waelchi",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "sunt",
-  "Registered": "2020-11-05T13:14:11.1954363+01:00",
-  "RegisteredAssociateId": 227,
-  "Updated": "2007-02-24T13:14:11.1954363+01:00",
-  "UpdatedAssociateId": 782,
+  "UniqueIdentifier": "pariatur",
+  "Source": "nihil",
+  "Registered": "2013-06-13T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 935,
+  "Updated": "2019-10-27T14:45:13.3805746+01:00",
+  "UpdatedAssociateId": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

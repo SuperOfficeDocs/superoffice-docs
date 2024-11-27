@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Waters Group",
-  "PersonId": 838
+  "ParameterName": "Parisian-Fisher",
+  "PersonId": 993
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quis"
+"molestiae"
 ```

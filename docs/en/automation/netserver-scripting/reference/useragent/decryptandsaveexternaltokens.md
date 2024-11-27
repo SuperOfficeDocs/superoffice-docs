@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.DecryptAndSaveExternalTokens
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.DecryptAndSaveExternalTokens'>DecryptAndSaveExternalTokens</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.DecryptAndSaveExternalTokens'>DecryptAndSaveExternalTokens</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeDecryptAndSaveExternalTokens
 ```cs

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 393
+  "TicketMessageEntityId": 778
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 698,
-    "Name": "Walsh-Frami",
-    "ContentType": "sit",
-    "AttSize": 423,
-    "InlineImage": true,
-    "ContentId": "doloribus",
-    "AuthKey": "placeat",
+    "AttachmentId": 490,
+    "Name": "Langosh, Graham and Schneider",
+    "ContentType": "facilis",
+    "AttSize": 591,
+    "InlineImage": false,
+    "ContentId": "non",
+    "AuthKey": "sit",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 173
       }
     }
   }

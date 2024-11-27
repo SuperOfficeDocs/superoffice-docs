@@ -62,15 +62,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zboncak Inc and Sons",
-    "DisplayName": "Heaney Inc and Sons",
-    "DisplayTooltip": "harum",
+    "Name": "Dietrich-Price",
+    "DisplayName": "Schulist Group",
+    "DisplayTooltip": "qui",
     "IsActive": false
   },
   {
-    "Name": "Zboncak Inc and Sons",
-    "DisplayName": "Heaney Inc and Sons",
-    "DisplayTooltip": "harum",
+    "Name": "Dietrich-Price",
+    "DisplayName": "Schulist Group",
+    "DisplayTooltip": "qui",
     "IsActive": false
   }
 ]

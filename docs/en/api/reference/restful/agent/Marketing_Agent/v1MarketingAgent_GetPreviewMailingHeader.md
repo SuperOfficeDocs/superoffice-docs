@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 728
+  "ShipmentId": 329
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-03-15T13:14:06.1320455+01:00",
+  "StartDate": "2014-05-28T14:45:05.7875689+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 595,
-  "ShipmentDescription": "Multi-channelled composite paradigm",
-  "FromAddress": "iste",
-  "Configuration": 901,
-  "PersonId": 856,
-  "PersonFullName": "Frederik Shanahan",
-  "ShipmentType": "sit",
-  "MessageId": 631,
-  "MessageSubject": "ipsum",
-  "DocumentMessageId": 705,
-  "NumSent": 903,
-  "NumOpened": 471,
-  "NumBounced": 557,
-  "NumClicks": 232,
+  "ShipmentId": 457,
+  "ShipmentDescription": "Down-sized multimedia info-mediaries",
+  "FromAddress": "consectetur",
+  "Configuration": 245,
+  "PersonId": 930,
+  "PersonFullName": "Kobe Schowalter",
+  "ShipmentType": "veritatis",
+  "MessageId": 505,
+  "MessageSubject": "exercitationem",
+  "DocumentMessageId": 595,
+  "NumSent": 812,
+  "NumOpened": 836,
+  "NumBounced": 165,
+  "NumClicks": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldLength": 168
     }
   }
 }

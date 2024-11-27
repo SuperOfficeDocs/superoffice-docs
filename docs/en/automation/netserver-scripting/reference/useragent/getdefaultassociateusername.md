@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetDefaultAssociateUserName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetDefaultAssociateUserName'>GetDefaultAssociateUserName</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetDefaultAssociateUserName'>GetDefaultAssociateUserName</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetDefaultAssociateUserName
 ```cs

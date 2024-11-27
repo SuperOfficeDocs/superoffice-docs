@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetCurrency
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetCurrency'>GetCurrency</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetCurrency'>GetCurrency</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetCurrency
 ```cs

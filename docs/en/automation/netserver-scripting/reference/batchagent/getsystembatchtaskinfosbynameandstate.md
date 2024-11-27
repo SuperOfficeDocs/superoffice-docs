@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BatchAgent.GetSystemBatchTaskInfosByNameAndState
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBatchAgent.GetSystemBatchTaskInfosByNameAndState'>GetSystemBatchTaskInfosByNameAndState</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBatchAgent.GetSystemBatchTaskInfosByNameAndState'>GetSystemBatchTaskInfosByNameAndState</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
 
 ## BeforeGetSystemBatchTaskInfosByNameAndState
 ```cs

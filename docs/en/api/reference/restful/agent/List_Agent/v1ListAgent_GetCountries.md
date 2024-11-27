@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 894,
-    "Name": "Fritsch Group",
-    "CurrencyId": 583,
-    "EnglishName": "Robel-Grant",
+    "CountryId": 760,
+    "Name": "Kling Inc and Sons",
+    "CurrencyId": 381,
+    "EnglishName": "Wisozk, Green and Pacocha",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reduced needs-based collaboration",
-    "OrgNrText": "1419491",
-    "InterAreaPrefix": "fuga",
-    "DialInPrefix": "voluptas",
-    "ZipPrefix": "iusto",
-    "DomainName": "Buckridge-Wunsch",
-    "AddressLayoutId": 773,
-    "DomesticAddressLayoutId": 849,
-    "ForeignAddressLayoutId": 624,
-    "Rank": 566,
-    "Tooltip": "quia",
-    "Deleted": false,
+    "ImageDescription": "Horizontal high-level frame",
+    "OrgNrText": "1413622",
+    "InterAreaPrefix": "eum",
+    "DialInPrefix": "et",
+    "ZipPrefix": "ut",
+    "DomainName": "Purdy-Turcotte",
+    "AddressLayoutId": 397,
+    "DomesticAddressLayoutId": 124,
+    "ForeignAddressLayoutId": 404,
+    "Rank": 767,
+    "Tooltip": "inventore",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 380
       }
     }
   }

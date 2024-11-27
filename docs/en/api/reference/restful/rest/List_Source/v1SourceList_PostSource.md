@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 246,
-  "Name": "Leuschke, Hegmann and Hessel",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 546,
-  "Rank": 121
+  "Id": 27,
+  "Name": "Olson-Kuhlman",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "UdListDefinitionId": 88,
+  "Rank": 669
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Mosciski-Jones",
-  "Tooltip": "maxime",
+  "Id": 579,
+  "Name": "Lemke Inc and Sons",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 545,
-  "Rank": 934,
+  "UdListDefinitionId": 21,
+  "Rank": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

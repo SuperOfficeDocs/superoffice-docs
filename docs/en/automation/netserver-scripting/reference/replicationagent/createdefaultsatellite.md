@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReplicationAgent.CreateDefaultSatellite
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite'>CreateDefaultSatellite</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReplicationAgent.CreateDefaultSatellite'>CreateDefaultSatellite</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
 
 ## BeforeCreateDefaultSatellite
 ```cs

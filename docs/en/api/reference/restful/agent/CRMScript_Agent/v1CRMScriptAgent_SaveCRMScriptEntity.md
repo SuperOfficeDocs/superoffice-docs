@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 375,
-  "UniqueIdentifier": "similique",
-  "Name": "Corwin, Goyette and Ryan",
-  "Description": "Progressive methodical open system",
-  "IncludeId": "nisi",
-  "AccessKey": "quis",
-  "HierarchyId": 194,
-  "Source": "voluptas",
-  "SourceCode": "tempore",
+  "EjscriptId": 967,
+  "UniqueIdentifier": "porro",
+  "Name": "Stanton-Block",
+  "Description": "Synergized clear-thinking benchmark",
+  "IncludeId": "et",
+  "AccessKey": "et",
+  "HierarchyId": 430,
+  "Source": "dolores",
+  "SourceCode": "eveniet",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 132,
+  "HtmlOutput": 865,
   "Includes": [
-    316,
-    558
+    212,
+    441
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 467,
-      "LineNumberTo": 796,
-      "Delta": 12,
-      "IncludeId": "eos",
+      "LineNumberFrom": 720,
+      "LineNumberTo": 510,
+      "Delta": 981,
+      "IncludeId": "vitae",
       "IncludedFrom": [
-        "molestiae",
-        "earum"
+        "quia",
+        "ad"
       ]
     },
     {
-      "LineNumberFrom": 467,
-      "LineNumberTo": 796,
-      "Delta": 12,
-      "IncludeId": "eos",
+      "LineNumberFrom": 720,
+      "LineNumberTo": 510,
+      "Delta": 981,
+      "IncludeId": "vitae",
       "IncludedFrom": [
-        "molestiae",
-        "earum"
+        "quia",
+        "ad"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-09-03T13:14:05.710145+02:00",
-  "RegisteredAssociateId": 488,
-  "Updated": "2003-07-23T13:14:05.710145+02:00",
-  "UpdatedAssociateId": 711
+  "Registered": "1999-06-26T14:45:05.1627086+02:00",
+  "RegisteredAssociateId": 468,
+  "Updated": "2005-12-15T14:45:05.1627086+01:00",
+  "UpdatedAssociateId": 557
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 225,
-  "UniqueIdentifier": "est",
-  "Name": "Schmidt Inc and Sons",
-  "Description": "Object-based next generation flexibility",
-  "IncludeId": "quo",
-  "AccessKey": "aut",
-  "HierarchyId": 453,
-  "Source": "ut",
-  "SourceCode": "a",
+  "EjscriptId": 720,
+  "UniqueIdentifier": "aspernatur",
+  "Name": "Hills, Schaden and Koss",
+  "Description": "Intuitive asynchronous productivity",
+  "IncludeId": "rerum",
+  "AccessKey": "nam",
+  "HierarchyId": 782,
+  "Source": "iusto",
+  "SourceCode": "quasi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 433,
+  "HtmlOutput": 53,
   "Includes": [
-    435,
-    464
+    703,
+    442
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 461,
-      "LineNumberTo": 663,
-      "Delta": 676,
-      "IncludeId": "maxime",
+      "LineNumberFrom": 171,
+      "LineNumberTo": 711,
+      "Delta": 36,
+      "IncludeId": "officiis",
       "IncludedFrom": [
-        "numquam",
-        "vel"
+        "quod",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 303
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2009-02-24T13:14:05.710145+01:00",
-  "RegisteredAssociateId": 522,
-  "Updated": "2024-08-03T13:14:05.710145+02:00",
-  "UpdatedAssociateId": 154,
+  "Registered": "2017-12-08T14:45:05.1627086+01:00",
+  "RegisteredAssociateId": 174,
+  "Updated": "2005-06-11T14:45:05.1627086+02:00",
+  "UpdatedAssociateId": 321,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

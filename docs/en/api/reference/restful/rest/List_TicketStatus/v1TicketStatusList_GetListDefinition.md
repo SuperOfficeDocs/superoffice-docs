@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Olson-Padberg",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 961,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 713,
+  "Name": "Kerluke, Herzog and Cummerata",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 633,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 357
     }
   },
   "_Links": {

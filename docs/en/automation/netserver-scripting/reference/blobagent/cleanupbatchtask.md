@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.CleanupBatchTask
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask'>CleanupBatchTask</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.CleanupBatchTask'>CleanupBatchTask</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeCleanupBatchTask
 ```cs

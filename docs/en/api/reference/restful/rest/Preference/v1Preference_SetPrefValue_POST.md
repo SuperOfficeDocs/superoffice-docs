@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "enim",
+  "RawValue": "nam",
   "Specification": null,
-  "DisplayValue": "ratione",
-  "DisplayTooltip": "eum",
+  "DisplayValue": "quibusdam",
+  "DisplayTooltip": "quaerat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 886,
-  "PrefDescId": 138,
-  "TableName": "West, Hartmann and Hoppe",
-  "UserPreferenceId": 263
+  "TargetId": 773,
+  "PrefDescId": 539,
+  "TableName": "Schmeler LLC",
+  "UserPreferenceId": 628
 }
 ```
 

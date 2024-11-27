@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 264
+  "ShipmentAddrId": 410
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2002-06-26T13:14:06.1320455+02:00",
+  "SendingTime": "2005-05-30T14:45:05.7875689+02:00",
   "Status": "Blocked",
-  "ShipmentId": 299,
-  "ShipmentDescription": "Adaptive impactful protocol",
-  "FromAddress": "ex",
-  "Configuration": 702,
-  "ContactId": 495,
-  "ContactName": "Ledner Group",
-  "PersonId": 176,
-  "PersonFullName": "Rahsaan Emmerich DDS",
-  "ShipmentType": "nulla",
-  "MessageId": 670,
-  "MessageSubject": "velit",
-  "DocumentMessageId": 350,
-  "Opened": "2000-11-19T13:14:06.1320455+01:00",
-  "LinkClicks": 964,
+  "ShipmentId": 908,
+  "ShipmentDescription": "Reverse-engineered web-enabled interface",
+  "FromAddress": "et",
+  "Configuration": 206,
+  "ContactId": 829,
+  "ContactName": "Armstrong-Gleichner",
+  "PersonId": 136,
+  "PersonFullName": "Lonie Raynor",
+  "ShipmentType": "perferendis",
+  "MessageId": 711,
+  "MessageSubject": "eos",
+  "DocumentMessageId": 874,
+  "Opened": "2018-11-24T14:45:05.7875689+01:00",
+  "LinkClicks": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldLength": 436
     }
   }
 }

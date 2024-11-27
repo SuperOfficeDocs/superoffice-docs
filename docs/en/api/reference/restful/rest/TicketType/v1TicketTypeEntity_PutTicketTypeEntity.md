@@ -115,35 +115,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 485,
-  "Name": "Gusikowski, Schiller and Romaguera",
-  "Rank": 280,
-  "Tooltip": "consequatur",
-  "Icon": "inventore",
-  "DefaultTicketStatus": 760,
+  "TicketTypeId": 991,
+  "Name": "Weimann-Rath",
+  "Rank": 271,
+  "Tooltip": "eum",
+  "Icon": "corrupti",
+  "DefaultTicketStatus": 175,
   "TicketStatuses": [
-    452,
-    318
+    937,
+    142
   ],
-  "DefaultTicketPriority": 593,
+  "DefaultTicketPriority": 957,
   "TicketPriorities": [
-    379,
-    451
+    728,
+    237
   ],
-  "ReplyTemplate": 984,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 369,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    167,
-    242
+    78,
+    920
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -157,31 +157,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 423,
-  "Name": "Kuhn, Goyette and Abernathy",
-  "Rank": 269,
-  "Tooltip": "non",
-  "Icon": "qui",
-  "DefaultTicketStatus": 700,
+  "TicketTypeId": 549,
+  "Name": "Grady-Kling",
+  "Rank": 709,
+  "Tooltip": "velit",
+  "Icon": "et",
+  "DefaultTicketStatus": 159,
   "TicketStatuses": [
-    28,
-    14
+    690,
+    165
   ],
-  "DefaultTicketPriority": 746,
+  "DefaultTicketPriority": 709,
   "TicketPriorities": [
-    42,
-    61
+    789,
+    575
   ],
-  "ReplyTemplate": 347,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 154,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    714,
-    91
+    374,
+    964
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 573
     }
   },
   "_Links": {

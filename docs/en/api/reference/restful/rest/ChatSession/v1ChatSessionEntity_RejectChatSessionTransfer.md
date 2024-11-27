@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 316,
-  "TopicId": 128,
+  "ChatSessionId": 920,
+  "TopicId": 939,
   "User": null,
   "Person": null,
-  "CustomerAlias": "adipisci",
-  "CustomerHost": "accusamus",
-  "CustomerName": "Macejkovic-Klocko",
-  "CustomerEmail": "alysa_leannon@ullrichsmitham.info",
-  "CustomerPhone": "(859)920-6123",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Okuneva Group",
+  "CustomerAlias": "quos",
+  "CustomerHost": "pariatur",
+  "CustomerName": "Hettinger-Harber",
+  "CustomerEmail": "nyah@beahan.info",
+  "CustomerPhone": "453.144.5950",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Becker Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "itaque",
-  "WhenRequested": "2005-09-17T13:14:10.6641543+02:00",
-  "WhenStarted": "2008-08-16T13:14:10.6641543+02:00",
-  "WhenEnded": "1999-02-10T13:14:10.6641543+01:00",
-  "WhenIdle": "2000-06-19T13:14:10.6641543+02:00",
-  "WhenFetched": "2023-04-17T13:14:10.6641543+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 255,
-  "AlertLevel": 711,
-  "Rank": 802,
+  "FirstMessage": "nobis",
+  "LastMessage": "ratione",
+  "WhenRequested": "2002-12-08T14:45:12.5526277+01:00",
+  "WhenStarted": "2004-12-23T14:45:12.5526277+01:00",
+  "WhenEnded": "2023-06-04T14:45:12.5526277+02:00",
+  "WhenIdle": "2023-09-11T14:45:12.5526277+02:00",
+  "WhenFetched": "2003-01-09T14:45:12.5526277+01:00",
+  "SessionKey": "dolorum",
+  "InitialQueuePos": 461,
+  "AlertLevel": 509,
+  "Rank": 86,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 857,
+  "Rating": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldLength": 378
     }
   }
 }

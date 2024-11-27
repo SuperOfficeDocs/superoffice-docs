@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 642,
-    "Name": "Williamson-Wilkinson",
-    "CurrencyId": 569,
-    "EnglishName": "Bogisich-Leffler",
+    "CountryId": 264,
+    "Name": "Padberg, Wisozk and Mills",
+    "CurrencyId": 331,
+    "EnglishName": "Rau Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Pre-emptive non-volatile matrix",
-    "OrgNrText": "797746",
-    "InterAreaPrefix": "ratione",
-    "DialInPrefix": "quisquam",
-    "ZipPrefix": "laboriosam",
-    "DomainName": "Goyette Group",
-    "AddressLayoutId": 223,
-    "DomesticAddressLayoutId": 866,
-    "ForeignAddressLayoutId": 382,
-    "Rank": 173,
-    "Tooltip": "aut",
+    "ImageDescription": "Synchronised asynchronous time-frame",
+    "OrgNrText": "1797401",
+    "InterAreaPrefix": "provident",
+    "DialInPrefix": "enim",
+    "ZipPrefix": "vitae",
+    "DomainName": "Aufderhar, Hayes and Cruickshank",
+    "AddressLayoutId": 468,
+    "DomesticAddressLayoutId": 569,
+    "ForeignAddressLayoutId": 346,
+    "Rank": 172,
+    "Tooltip": "hic",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 281
       }
     }
   }

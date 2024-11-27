@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Kuvalis LLC",
-    "ToolTip": "Quis eum consequatur.",
-    "Deleted": false,
-    "Rank": 952,
-    "Type": "velit",
-    "ColorBlock": 199,
-    "IconHint": "illum",
+    "Id": 824,
+    "Name": "Hartmann-Mann",
+    "ToolTip": "Sed magni tenetur debitis aut ad.",
+    "Deleted": true,
+    "Rank": 687,
+    "Type": "vitae",
+    "ColorBlock": 146,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-02-08T13:14:11.5079552+01:00",
+    "LastChanged": "2014-06-20T14:45:13.8648346+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Zulauf-Dare",
-        "ToolTip": "Ut et nobis.",
+        "Id": 738,
+        "Name": "Hansen LLC",
+        "ToolTip": "Et ea.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "illum",
-        "ColorBlock": 717,
-        "IconHint": "minima",
+        "Rank": 289,
+        "Type": "earum",
+        "ColorBlock": 697,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2000-11-20T13:14:11.5079552+01:00",
+        "LastChanged": "1999-12-08T14:45:13.8648346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Perry Nienow",
+        "ExtraInfo": "cumque",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Birdie Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldType": "System.String",
+            "FieldLength": 684
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "velit",
+    "ExtraInfo": "molestias",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Gaetano Cordia Renner DVM",
+    "FullName": "Jaunita Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 304
       }
     }
   }

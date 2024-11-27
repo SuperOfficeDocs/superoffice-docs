@@ -77,15 +77,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 406,
-  "AssociateId": 976,
+  "DocumentId": 746,
+  "AssociateId": 939,
   "CustomTags": [
-    "corporis",
-    "tempora"
+    "omnis",
+    "assumenda"
   ],
   "CustomValues": [
-    "reiciendis",
-    "velit"
+    "modi",
+    "perspiciatis"
   ]
 }
 ```

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bailey Group",
+  "UdListDefinitionName": "McGlynn-Von",
   "Items": [
     {
-      "Id": 946,
-      "Name": "Hayes, Collins and Anderson",
-      "Tooltip": "consectetur",
-      "Deleted": true,
-      "UdListDefinitionId": 446,
-      "Rank": 89
+      "Id": 1002,
+      "Name": "Rath Inc and Sons",
+      "Tooltip": "qui",
+      "Deleted": false,
+      "UdListDefinitionId": 235,
+      "Rank": 769
     },
     {
-      "Id": 946,
-      "Name": "Hayes, Collins and Anderson",
-      "Tooltip": "consectetur",
-      "Deleted": true,
-      "UdListDefinitionId": 446,
-      "Rank": 89
+      "Id": 1002,
+      "Name": "Rath Inc and Sons",
+      "Tooltip": "qui",
+      "Deleted": false,
+      "UdListDefinitionId": 235,
+      "Rank": 769
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Gaylord Group",
-    "Tooltip": "aspernatur",
-    "Deleted": true,
-    "UdListDefinitionId": 83,
-    "Rank": 633,
+    "Id": 150,
+    "Name": "Schaden-Graham",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 571,
+    "Rank": 799,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 616
       }
     }
   }

@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 271,
-  "TypeId": 837,
-  "StartDate": "2017-07-02T13:14:06.4133118+02:00",
-  "Duration": 988,
-  "Description": "Organized clear-thinking software",
-  "PriorityId": 213,
+  "ProjectId": 535,
+  "TypeId": 209,
+  "StartDate": "2005-06-15T14:45:06.1937295+02:00",
+  "Duration": 900,
+  "Description": "Synergistic 24 hour neural-net",
+  "PriorityId": 3,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 149,
-  "SingleEntryOnEachCompany": false,
-  "SaleId": 255,
+  "OwnerAssociateId": 826,
+  "SingleEntryOnEachCompany": true,
+  "SaleId": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

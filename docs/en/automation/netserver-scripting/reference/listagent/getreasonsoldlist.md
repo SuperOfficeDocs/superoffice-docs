@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetReasonSoldList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetReasonSoldList'>GetReasonSoldList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetReasonSoldList'>GetReasonSoldList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetReasonSoldList
 ```cs

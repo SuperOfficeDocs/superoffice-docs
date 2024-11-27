@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Boyle-Johnston"
+  "TargetTableName": "Nitzsche LLC"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide even-keeled collaboration",
-  "Postit": "dolorum",
+  "Description": "Proactive 5th generation process improvement",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 413,
-  "IncludePerson": 9,
+  "GroupIdx": 854,
+  "IncludePerson": 158,
   "MemberCount": 99.99,
-  "Name": "Breitenberg Group",
-  "PostitTextId": 964,
-  "CreatedDate": "2014-12-07T13:14:06.4133118+01:00",
-  "SelectionId": 865,
-  "SoundEx": "dolorem",
-  "Source": 641,
-  "TextId": 435,
-  "UpdatedDate": "2008-12-03T13:14:06.4133118+01:00",
-  "UpdatedCount": 825,
-  "Visibility": 19,
+  "Name": "Mante LLC",
+  "PostitTextId": 861,
+  "CreatedDate": "2005-03-23T14:45:06.2093526+01:00",
+  "SelectionId": 457,
+  "SoundEx": "distinctio",
+  "Source": 424,
+  "TextId": 14,
+  "UpdatedDate": "2012-11-03T14:45:06.2093526+01:00",
+  "UpdatedCount": 833,
+  "Visibility": 994,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 795,
-  "TargetTableName": "Macejkovic-Kling",
+  "TargetTableNumber": 815,
+  "TargetTableName": "Farrell, Bartell and Greenfelder",
   "Completed": false,
-  "LeftSelectionId": 993,
-  "RightSelectionId": 756,
+  "LeftSelectionId": 10,
+  "RightSelectionId": 443,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson-Rippin",
-  "ShadowProviderName": "Schinner, Kassulke and Hills",
-  "ChartKey": "qui",
-  "LastLoaded": "2019-10-17T13:14:06.4133118+02:00",
-  "LastLoadedBy": 319,
+  "MainProviderName": "Stoltenberg, Nader and McLaughlin",
+  "ShadowProviderName": "Hand, Schroeder and Jacobs",
+  "ChartKey": "in",
+  "LastLoaded": "2009-06-10T14:45:06.2093526+02:00",
+  "LastLoadedBy": 51,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-01-02T13:14:06.4133118+01:00",
-  "LastMembershipChangeBy": 477,
+  "LastMembershipChange": "2007-06-15T14:45:06.2093526+02:00",
+  "LastMembershipChangeBy": 981,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quibusdam",
-  "MemberTabHeading": "modi",
-  "MailingsProviderName": "Boehm LLC",
-  "DashboardTileDefinitionId": 776,
+  "MainHeading": "molestiae",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Dach-Haley",
+  "DashboardTileDefinitionId": 622,
   "VisibleFor": [
     {
-      "VisibleId": 307,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     },
     {
-      "VisibleId": 307,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 773
     }
   }
 }

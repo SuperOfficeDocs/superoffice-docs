@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.CreateDefaultChatTopicEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity'>CreateDefaultChatTopicEntity</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.CreateDefaultChatTopicEntity'>CreateDefaultChatTopicEntity</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeCreateDefaultChatTopicEntity
 ```cs

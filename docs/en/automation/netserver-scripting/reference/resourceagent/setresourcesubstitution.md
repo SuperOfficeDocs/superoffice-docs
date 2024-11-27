@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ResourceAgent.SetResourceSubstitution
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution'>SetResourceSubstitution</see> method on the <see cref='IResourceAgent'>IResourceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IResourceAgent.SetResourceSubstitution'>SetResourceSubstitution</see> method on the <see cref='IResourceAgent'>IResourceAgent</see>  service agent.
 
 ## BeforeSetResourceSubstitution
 ```cs

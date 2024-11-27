@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SentryAgent.GetTableRightByOwnership
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership'>GetTableRightByOwnership</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISentryAgent.GetTableRightByOwnership'>GetTableRightByOwnership</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
 
 ## BeforeGetTableRightByOwnership
 ```cs

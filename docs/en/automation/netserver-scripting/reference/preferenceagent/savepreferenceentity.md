@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.SavePreferenceEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity'>SavePreferenceEntity</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.SavePreferenceEntity'>SavePreferenceEntity</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeSavePreferenceEntity
 ```cs

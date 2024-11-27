@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2015-11-19T13:14:06.3976861+01:00",
-  "ToDate": "2011-08-02T13:14:06.3976861+02:00",
-  "AmountLimit": 878,
+  "FromDate": "2011-04-24T14:45:06.1781213+02:00",
+  "ToDate": "2013-06-16T14:45:06.1781213+02:00",
+  "AmountLimit": 679,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Harvey LLC",
-    "SaleDate": "2006-05-29T13:14:06.3976861+02:00",
-    "SaleId": 206,
-    "Probability": 5,
-    "Title": "facilis",
-    "Amount": 19176.946,
-    "Currency": "maxime",
-    "ProjectName": "Gulgowski Inc and Sons",
-    "AssociateFullName": "Alfred Stamm",
-    "Description": "Focused even-keeled synergy",
+    "ContactName": "Bradtke-Stanton",
+    "SaleDate": "2022-01-20T14:45:06.1781213+01:00",
+    "SaleId": 476,
+    "Probability": 224,
+    "Title": "dolorem",
+    "Amount": 10470.694,
+    "Currency": "magnam",
+    "ProjectName": "Powlowski, Parker and Ullrich",
+    "AssociateFullName": "Prof. Anna Funk Sr.",
+    "Description": "Synergistic 24 hour middleware",
     "Status": "Lost",
-    "WeightedAmount": 30017.451999999997,
-    "ProjectId": 621,
-    "EarningPercent": 23385.908,
-    "Earning": 17603.678,
-    "ContactId": 72,
-    "AssociateId": 530,
-    "PersonId": 430,
-    "SaleTypeId": 977,
-    "SaleTypeName": "Swaniawski-Schoen",
-    "PersonFullName": "Miss Catherine Koch",
+    "WeightedAmount": 12319.753999999999,
+    "ProjectId": 688,
+    "EarningPercent": 16907.93,
+    "Earning": 10533.374,
+    "ContactId": 82,
+    "AssociateId": 540,
+    "PersonId": 442,
+    "SaleTypeId": 94,
+    "SaleTypeName": "Schmeler-Predovic",
+    "PersonFullName": "Hortense Price",
     "Completed": "Completed",
-    "ActiveErpLinks": 23,
-    "NextDueDate": "2003-06-22T13:14:06.3976861+02:00",
-    "Number": "1329240",
+    "ActiveErpLinks": 527,
+    "NextDueDate": "2023-12-12T14:45:06.1781213+01:00",
+    "Number": "368388",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

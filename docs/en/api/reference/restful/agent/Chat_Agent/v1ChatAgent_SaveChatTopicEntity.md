@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 534,
-  "Name": "Glover, Tremblay and Osinski",
-  "Description": "Self-enabling directional intranet",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 13,
+  "Name": "Bailey-Weissnat",
+  "Description": "Realigned intangible infrastructure",
+  "WelcomeMessage": "neque",
   "Language": null,
-  "LastAccept": "2017-09-24T13:14:05.5695115+02:00",
-  "SecondsPrAccept": 976,
-  "AlertRecipient": "est",
+  "LastAccept": "2014-01-15T14:45:04.9283852+01:00",
+  "SecondsPrAccept": 515,
+  "AlertRecipient": "deserunt",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "et",
+  "CollectConsent": false,
+  "BadgeHeader": "dolorem",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ea",
-  "WarnNewChatMinutes": 881,
-  "WarnManagerNewChatMinutes": 100,
+  "CustomQueueText": "soluta",
+  "WarnNewChatMinutes": 399,
+  "WarnManagerNewChatMinutes": 977,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 910,
-  "WarnManagerChatMessageMinutes": 142,
+  "WarnChatMessageMinutes": 423,
+  "WarnManagerChatMessageMinutes": 781,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 488,
-  "OfflineFormQueueLength": 661,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "blanditiis"
+  "OfflineFormTimeLimit": 404,
+  "OfflineFormQueueLength": 112,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "consequuntur"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 418,
-  "Name": "McLaughlin LLC",
-  "Description": "Centralized fault-tolerant database",
-  "WelcomeMessage": "cupiditate",
+  "ChatTopicId": 551,
+  "Name": "Koch, Durgan and Hoppe",
+  "Description": "Persistent optimal matrix",
+  "WelcomeMessage": "voluptatum",
   "Language": null,
-  "LastAccept": "2021-11-23T13:14:05.5695115+01:00",
-  "SecondsPrAccept": 967,
-  "AlertRecipient": "beatae",
+  "LastAccept": "2022-02-21T14:45:04.9283852+01:00",
+  "SecondsPrAccept": 577,
+  "AlertRecipient": "voluptas",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "quis",
+  "BadgeHeader": "omnis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "hic",
-  "WarnNewChatMinutes": 883,
-  "WarnManagerNewChatMinutes": 403,
-  "TicketEnabled": true,
+  "CustomQueueText": "velit",
+  "WarnNewChatMinutes": 18,
+  "WarnManagerNewChatMinutes": 914,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 943,
-  "WarnManagerChatMessageMinutes": 536,
+  "WarnChatMessageMinutes": 773,
+  "WarnManagerChatMessageMinutes": 578,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 291,
-  "OfflineFormQueueLength": 834,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "OfflineFormTimeLimit": 98,
+  "OfflineFormQueueLength": 810,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

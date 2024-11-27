@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.MakeRetired
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.MakeRetired'>MakeRetired</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.MakeRetired'>MakeRetired</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeMakeRetired
 ```cs

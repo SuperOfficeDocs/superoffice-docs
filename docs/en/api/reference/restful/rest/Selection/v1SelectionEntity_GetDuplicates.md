@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "King Group",
-    "SoPrimaryKey": 491,
-    "EntryName": "Bruen LLC",
-    "EntryIdentifier": "animi",
-    "RuleDisplayName": "Howe-Swaniawski",
+    "RuleName": "Hettinger-Shields",
+    "SoPrimaryKey": 742,
+    "EntryName": "Swift-McCullough",
+    "EntryIdentifier": "alias",
+    "RuleDisplayName": "Kutch-Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

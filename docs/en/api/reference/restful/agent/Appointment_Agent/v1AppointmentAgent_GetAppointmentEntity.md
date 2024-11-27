@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=890
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=206
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-12-27T13:14:05.3663737+01:00",
-  "AppointmentId": 535,
-  "Description": "Down-sized contextually-based model",
-  "Title": "quis",
-  "Agenda": "sit",
-  "InternalNotes": "doloribus",
-  "StartDate": "2004-11-02T13:14:05.3663737+01:00",
-  "EndDate": "2020-03-15T13:14:05.3663737+01:00",
+  "CreatedDate": "1998-08-24T14:45:04.6474384+02:00",
+  "AppointmentId": 606,
+  "Description": "Sharable upward-trending adapter",
+  "Title": "soluta",
+  "Agenda": "id",
+  "InternalNotes": "at",
+  "StartDate": "2000-02-12T14:45:04.6474384+01:00",
+  "EndDate": "2013-03-12T14:45:04.6474384+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 907,
+  "MotherId": 990,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-12-28T13:14:05.3663737+01:00",
+  "UpdatedDate": "2008-03-08T14:45:04.6630589+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 565,
+  "ActiveLinks": 426,
   "Links": [
     {
-      "EntityName": "Grant-Bruen",
-      "Id": 543,
-      "Description": "Cross-group system-worthy implementation",
-      "ExtraInfo": "magni",
-      "LinkId": 994,
+      "EntityName": "Klein-Klocko",
+      "Id": 980,
+      "Description": "Streamlined grid-enabled firmware",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 448,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 372
         }
       }
     }
   ],
-  "AlarmLeadTime": "eaque",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": true,
-  "ColorIndex": 513,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "natus",
-  "LeadTime": "iusto",
-  "Location": "nulla",
-  "RejectCounter": 649,
+  "ColorIndex": 836,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "ullam",
+  "LeadTime": "et",
+  "Location": "porro",
+  "RejectCounter": 930,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 260,
-      "PersonId": 891,
-      "ContactId": 44,
-      "EmailId": 442,
+      "AssociateId": 856,
+      "PersonId": 171,
+      "ContactId": 832,
+      "EmailId": 125,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dariana@balistrerikertzmann.ca",
-      "Description": "Innovative attitude-oriented productivity"
+      "EmailAddress": "matteo@white.info",
+      "Description": "Face to face cohesive groupware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-12-06T13:14:05.3663737+01:00",
+  "ActiveDate": "2016-02-07T14:45:04.6630589+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 615,
+  "PreferredTZLocation": 951,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 786,
+  "SuggestedAppointmentId": 661,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "placeat",
+  "CentralserviceVideomeetId": "quaerat",
   "UserDefinedFields": {
-    "SuperOffice:1": "1237142151",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Felton Thad Ward I"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "et"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "ut"
+    "CustomFields1": "tempora",
+    "CustomFields2": "magnam"
   },
-  "PublishEventDate": "2019-04-01T13:14:05.3663737+02:00",
-  "PublishTo": "2000-10-16T13:14:05.3663737+02:00",
-  "PublishFrom": "2022-08-15T13:14:05.3663737+02:00",
+  "PublishEventDate": "1998-01-28T14:45:04.6630589+01:00",
+  "PublishTo": "2014-03-17T14:45:04.6630589+01:00",
+  "PublishFrom": "2015-09-28T14:45:04.6630589+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 392,
+      "VisibleId": 423,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 200
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     },
     {
-      "VisibleId": 392,
+      "VisibleId": 423,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 200
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

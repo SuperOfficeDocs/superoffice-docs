@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseAgent.GetStepsFromNetServerCode
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode'>GetStepsFromNetServerCode</see> method on the <see cref='IDatabaseAgent'>IDatabaseAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseAgent.GetStepsFromNetServerCode'>GetStepsFromNetServerCode</see> method on the <see cref='IDatabaseAgent'>IDatabaseAgent</see>  service agent.
 
 ## BeforeGetStepsFromNetServerCode
 ```cs

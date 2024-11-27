@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "Name": "Windler LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 35,
+  "Id": 875,
+  "Name": "Lind-Zieme",
+  "Tooltip": "ducimus",
+  "Deleted": false,
+  "Rank": 389,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true
+  "ListType": "adipisci",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Bruen LLC",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "Rank": 208,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "Id": 955,
+  "Name": "Mayert Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 52,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "at",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 755
     }
   }
 }

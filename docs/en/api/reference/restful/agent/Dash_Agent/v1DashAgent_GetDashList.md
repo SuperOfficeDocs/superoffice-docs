@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    104,
-    506
+    213,
+    189
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 665,
-    "UniqueId": "recusandae",
-    "Name": "Walsh LLC",
-    "Description": "Synergized well-modulated pricing structure",
-    "AssociateId": 512,
-    "Columns": 481,
+    "DashboardId": 774,
+    "UniqueId": "totam",
+    "Name": "Dare-Blanda",
+    "Description": "Public-key dedicated workforce",
+    "AssociateId": 663,
+    "Columns": 829,
     "Theme": null,
-    "VisibleForAll": 881,
+    "VisibleForAll": 331,
     "VisibleForAssociates": [
-      224,
-      902
+      241,
+      629
     ],
     "VisibleForGroups": [
-      750,
-      666
+      578,
+      988
     ],
-    "PinForAll": 900,
+    "PinForAll": 871,
     "PinForAssociates": [
-      736,
-      656
+      739,
+      510
     ],
     "PinForGroups": [
-      211,
-      225
+      858,
+      685
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 94
       }
     }
   }

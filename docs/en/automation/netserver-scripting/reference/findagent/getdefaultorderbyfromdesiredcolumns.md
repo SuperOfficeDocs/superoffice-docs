@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.GetDefaultOrderByFromDesiredColumns
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.GetDefaultOrderByFromDesiredColumns'>GetDefaultOrderByFromDesiredColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.GetDefaultOrderByFromDesiredColumns'>GetDefaultOrderByFromDesiredColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeGetDefaultOrderByFromDesiredColumns
 ```cs

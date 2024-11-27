@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 566,
-  "Name": "Hermann-Dicki",
+  "SelectionId": 761,
+  "Name": "Russel Group",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned needs-based policy",
-  "Postit": "modi",
+  "Description": "Assimilated demand-driven instruction set",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 658,
-  "IncludePerson": 719,
+  "GroupIdx": 416,
+  "IncludePerson": 273,
   "MemberCount": 99.99,
-  "Name": "Schmidt Group",
-  "PostitTextId": 51,
-  "CreatedDate": "2021-05-12T13:14:06.4445637+02:00",
-  "SelectionId": 457,
-  "SoundEx": "aut",
-  "Source": 747,
-  "TextId": 720,
-  "UpdatedDate": "2009-11-16T13:14:06.4445637+01:00",
-  "UpdatedCount": 396,
-  "Visibility": 514,
+  "Name": "Tromp Inc and Sons",
+  "PostitTextId": 918,
+  "CreatedDate": "2007-11-23T14:45:06.240594+01:00",
+  "SelectionId": 854,
+  "SoundEx": "et",
+  "Source": 283,
+  "TextId": 6,
+  "UpdatedDate": "2001-06-30T14:45:06.240594+02:00",
+  "UpdatedCount": 969,
+  "Visibility": 6,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 82,
-  "TargetTableName": "Cremin-Wisozk",
-  "Completed": false,
-  "LeftSelectionId": 747,
-  "RightSelectionId": 994,
+  "TargetTableNumber": 974,
+  "TargetTableName": "Bailey, Schinner and Rempel",
+  "Completed": true,
+  "LeftSelectionId": 11,
+  "RightSelectionId": 523,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Haag Inc and Sons",
-  "ShadowProviderName": "Donnelly, McCullough and Herman",
-  "ChartKey": "doloremque",
-  "LastLoaded": "2007-11-14T13:14:06.4445637+01:00",
-  "LastLoadedBy": 220,
+  "MainProviderName": "Halvorson, Reilly and Ratke",
+  "ShadowProviderName": "Hagenes-Abshire",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2024-08-24T14:45:06.240594+02:00",
+  "LastLoadedBy": 440,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-11-28T13:14:06.4445637+01:00",
-  "LastMembershipChangeBy": 65,
+  "LastMembershipChange": "2005-06-13T14:45:06.240594+02:00",
+  "LastMembershipChangeBy": 637,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Morar Group",
-  "DashboardTileDefinitionId": 673,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "libero",
+  "MailingsProviderName": "Von-Harber",
+  "DashboardTileDefinitionId": 394,
   "VisibleFor": [
     {
-      "VisibleId": 402,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 402,
+      "VisibleId": 363,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 871
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

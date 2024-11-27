@@ -10,7 +10,7 @@ so.envir: onsite
 
 # DiagnosticsAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDiagnosticsAgent'>DiagnosticsAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see> that can trigger server-side event scripts.
 
 * [AddWebAppUsage](addwebappusage.md)
 * [ChangeLogSettings](changelogsettings.md)

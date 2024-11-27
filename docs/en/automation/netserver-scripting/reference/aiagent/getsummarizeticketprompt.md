@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AIAgent.GetSummarizeTicketPrompt
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.GetSummarizeTicketPrompt'>GetSummarizeTicketPrompt</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAIAgent.GetSummarizeTicketPrompt'>GetSummarizeTicketPrompt</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
 
 ## BeforeGetSummarizeTicketPrompt
 ```cs

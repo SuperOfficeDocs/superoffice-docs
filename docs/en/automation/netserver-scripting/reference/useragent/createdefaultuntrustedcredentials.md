@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.CreateDefaultUntrustedCredentials
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentials'>CreateDefaultUntrustedCredentials</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.CreateDefaultUntrustedCredentials'>CreateDefaultUntrustedCredentials</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeCreateDefaultUntrustedCredentials
 ```cs

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 525
+  "SuggestedDocumentId": 186
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 595,
+  "DocumentId": 550,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "at",
-  "Header": "consequatur",
-  "Name": "Goyette, Hills and Wiza",
-  "OurRef": "sit",
-  "YourRef": "omnis",
-  "CreatedDate": "2020-10-28T13:14:05.9132824+01:00",
-  "UpdatedDate": "2014-11-03T13:14:05.9132824+01:00",
-  "Description": "Customizable heuristic frame",
+  "Attention": "necessitatibus",
+  "Header": "dolorem",
+  "Name": "Kiehn-Harris",
+  "OurRef": "qui",
+  "YourRef": "aut",
+  "CreatedDate": "2013-09-30T14:45:05.4438985+02:00",
+  "UpdatedDate": "2005-02-12T14:45:05.4438985+01:00",
+  "Description": "Cross-platform value-added forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-03-10T13:14:05.9132824+01:00",
-  "ExternalRef": "libero",
+  "Date": "2000-02-09T14:45:05.4438985+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 207,
+  "ActiveLinks": 105,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann, Macejkovic and Fisher",
-      "Id": 358,
-      "Description": "Multi-tiered national superstructure",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 792,
+      "EntityName": "Cruickshank Group",
+      "Id": 459,
+      "Description": "Public-key bifurcated encryption",
+      "ExtraInfo": "suscipit",
+      "LinkId": 565,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 622,
-  "Snum": 340,
+  "SuggestedDocumentId": 676,
+  "Snum": 376,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Kayden Pfeffer",
-    "SuperOffice:2": "Elisha Kirlin"
+    "SuperOffice:1": "1759267822",
+    "SuperOffice:2": "Garett Ellen Mayer Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "dolor"
+    "CustomFields1": "libero",
+    "CustomFields2": "ipsam"
   },
-  "PublishEventDate": "2008-04-06T13:14:05.9132824+02:00",
-  "PublishTo": "2020-01-05T13:14:05.9132824+01:00",
-  "PublishFrom": "2018-06-30T13:14:05.9132824+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2003-05-22T14:45:05.4438985+02:00",
+  "PublishTo": "2018-05-02T14:45:05.4438985+02:00",
+  "PublishFrom": "2018-01-05T14:45:05.4438985+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 560,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     },
     {
-      "VisibleId": 560,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldLength": 603
     }
   }
 }

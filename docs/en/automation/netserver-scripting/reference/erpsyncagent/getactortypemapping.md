@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetActorTypeMapping
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping'>GetActorTypeMapping</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetActorTypeMapping'>GetActorTypeMapping</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetActorTypeMapping
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveHierarchyEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveHierarchyEntity'>SaveHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveHierarchyEntity'>SaveHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveHierarchyEntity
 ```cs

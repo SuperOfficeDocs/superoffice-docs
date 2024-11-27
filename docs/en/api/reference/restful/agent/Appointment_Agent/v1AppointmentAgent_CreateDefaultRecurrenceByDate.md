@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-08-15T13:14:05.4288773+02:00"
+  "StartDate": "2001-04-15T14:45:04.7396581+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 722,
-  "StartDate": "2015-06-23T13:14:05.4288773+02:00",
-  "EndDate": "1999-09-06T13:14:05.4288773+02:00",
-  "RecurrenceCounter": 164,
+  "RecurrenceId": 379,
+  "StartDate": "2016-07-05T14:45:04.7396581+02:00",
+  "EndDate": "2016-05-22T14:45:04.7396581+02:00",
+  "RecurrenceCounter": 437,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2019-06-26T13:14:05.4288773+02:00",
-      "IsConflict": false,
-      "Description": "User-centric zero tolerance standardization",
-      "DescriptionStyleHint": "User-friendly value-added challenge",
-      "Tooltip": "ipsum"
+      "Date": "2007-02-23T14:45:04.7396581+01:00",
+      "IsConflict": true,
+      "Description": "Streamlined value-added toolset",
+      "DescriptionStyleHint": "Integrated scalable installation",
+      "Tooltip": "quis"
     },
     {
-      "Date": "2019-06-26T13:14:05.4288773+02:00",
-      "IsConflict": false,
-      "Description": "User-centric zero tolerance standardization",
-      "DescriptionStyleHint": "User-friendly value-added challenge",
-      "Tooltip": "ipsum"
+      "Date": "2007-02-23T14:45:04.7396581+01:00",
+      "IsConflict": true,
+      "Description": "Streamlined value-added toolset",
+      "DescriptionStyleHint": "Integrated scalable installation",
+      "Tooltip": "quis"
     }
   ],
   "IsRecurrence": false

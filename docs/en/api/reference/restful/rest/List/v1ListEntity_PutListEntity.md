@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Little Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 536,
+  "Name": "Green Group",
+  "Tooltip": "incidunt",
   "Deleted": true,
-  "Rank": 167,
+  "Rank": 371,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 932,
-  "Name": "Crooks-Jast",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 845,
+  "Id": 244,
+  "Name": "Nitzsche, Stiedemann and Bogan",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "Rank": 873,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   },
   "_Links": {

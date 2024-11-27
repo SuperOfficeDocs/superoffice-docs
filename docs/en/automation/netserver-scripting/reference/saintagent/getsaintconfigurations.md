@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.GetSaintConfigurations
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations'>GetSaintConfigurations</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.GetSaintConfigurations'>GetSaintConfigurations</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeGetSaintConfigurations
 ```cs

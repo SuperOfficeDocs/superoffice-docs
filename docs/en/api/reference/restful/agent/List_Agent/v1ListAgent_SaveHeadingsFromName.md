@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bogan, Hane and Beatty",
+  "Name": "White-Donnelly",
   "Entities": [
     {
-      "HeadingId": 435,
-      "Name": "Cartwright Group",
-      "Tooltip": "eaque",
-      "Deleted": false,
-      "Rank": 188,
-      "UdListDefinitionId": 463
+      "HeadingId": 820,
+      "Name": "Spencer-Franecki",
+      "Tooltip": "nesciunt",
+      "Deleted": true,
+      "Rank": 524,
+      "UdListDefinitionId": 883
     },
     {
-      "HeadingId": 435,
-      "Name": "Cartwright Group",
-      "Tooltip": "eaque",
-      "Deleted": false,
-      "Rank": 188,
-      "UdListDefinitionId": 463
+      "HeadingId": 820,
+      "Name": "Spencer-Franecki",
+      "Tooltip": "nesciunt",
+      "Deleted": true,
+      "Rank": 524,
+      "UdListDefinitionId": 883
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 538,
-    "Name": "Kohler, Denesik and Fahey",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 864,
+    "Name": "Gibson, Sawayn and Stiedemann",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 786,
+    "Rank": 529,
+    "UdListDefinitionId": 451,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 371
       }
     }
   }

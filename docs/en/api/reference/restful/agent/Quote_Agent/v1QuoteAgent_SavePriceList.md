@@ -85,15 +85,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 356,
-  "ERPPriceListKey": "debitis",
-  "QuoteConnectionId": 62,
-  "Name": "Parisian-Runolfsson",
-  "Description": "Persevering neutral adapter",
-  "Currency": "veniam",
-  "CurrencyName": "Auer LLC",
-  "ValidFrom": "1999-04-18T13:14:06.3195563+02:00",
-  "ValidTo": "1998-07-28T13:14:06.3195563+02:00",
+  "PriceListId": 549,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 561,
+  "Name": "Howell-Torp",
+  "Description": "Sharable optimizing budgetary management",
+  "Currency": "quibusdam",
+  "CurrencyName": "Murazik-Bernier",
+  "ValidFrom": "2002-09-14T14:45:06.0531349+02:00",
+  "ValidTo": "2009-03-13T14:45:06.0531349+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 539,
-  "ERPPriceListKey": "at",
-  "QuoteConnectionId": 694,
-  "Name": "Rowe, Leannon and Turner",
-  "Description": "Ameliorated logistical function",
-  "Currency": "incidunt",
-  "CurrencyName": "Kessler Group",
-  "ValidFrom": "1998-03-20T13:14:06.3195563+01:00",
-  "ValidTo": "2018-04-16T13:14:06.3195563+02:00",
+  "PriceListId": 238,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 364,
+  "Name": "Cronin Inc and Sons",
+  "Description": "Innovative attitude-oriented functionalities",
+  "Currency": "at",
+  "CurrencyName": "Jerde-Bins",
+  "ValidFrom": "2019-05-19T14:45:06.0531349+02:00",
+  "ValidTo": "2009-11-21T14:45:06.0531349+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 582,
-  "AssociateId": 813,
-  "Block": "deleniti",
-  "Registered": "2005-06-29T13:14:11.1173007+02:00",
-  "RegisteredAssociateId": 294,
-  "Updated": "2007-06-24T13:14:11.1173007+02:00",
-  "UpdatedAssociateId": 813,
-  "UpdatedCount": 886
+  "ShipmentMessageBlockId": 404,
+  "AssociateId": 111,
+  "Block": "in",
+  "Registered": "2003-11-20T14:45:13.2555955+01:00",
+  "RegisteredAssociateId": 853,
+  "Updated": "2006-10-25T14:45:13.2555955+02:00",
+  "UpdatedAssociateId": 828,
+  "UpdatedCount": 500
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 425,
-  "AssociateId": 474,
-  "Block": "vel",
-  "Registered": "1999-09-08T13:14:11.1173007+02:00",
-  "RegisteredAssociateId": 346,
-  "Updated": "2004-09-01T13:14:11.1173007+02:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 967,
+  "ShipmentMessageBlockId": 770,
+  "AssociateId": 526,
+  "Block": "molestiae",
+  "Registered": "2018-07-16T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 119,
+  "Updated": "1999-03-23T14:45:13.2555955+01:00",
+  "UpdatedAssociateId": 810,
+  "UpdatedCount": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 897
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

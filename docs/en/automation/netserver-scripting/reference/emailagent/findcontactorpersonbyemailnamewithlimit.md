@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.FindContactOrPersonByEmailNameWithLimit
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.FindContactOrPersonByEmailNameWithLimit'>FindContactOrPersonByEmailNameWithLimit</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.FindContactOrPersonByEmailNameWithLimit'>FindContactOrPersonByEmailNameWithLimit</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeFindContactOrPersonByEmailNameWithLimit
 ```cs

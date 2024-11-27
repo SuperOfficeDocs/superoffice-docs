@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetAmountClassEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetAmountClassEntity'>GetAmountClassEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetAmountClassEntity'>GetAmountClassEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetAmountClassEntity
 ```cs

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 278,
-    "Name": "Weber, Gorczany and Bergnaum",
-    "Tooltip": "sit",
-    "Rank": 790,
-    "Key": "asperiores",
+    "LegalBaseId": 163,
+    "Name": "Little, Terry and Roberts",
+    "Tooltip": "voluptatum",
+    "Rank": 373,
+    "Key": "consequuntur",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 76
       }
     }
   }

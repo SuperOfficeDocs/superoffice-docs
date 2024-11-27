@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetUntrustedCredentialsForAssociate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetUntrustedCredentialsForAssociate'>GetUntrustedCredentialsForAssociate</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetUntrustedCredentialsForAssociate'>GetUntrustedCredentialsForAssociate</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetUntrustedCredentialsForAssociate
 ```cs

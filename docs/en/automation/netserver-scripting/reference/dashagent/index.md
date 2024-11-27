@@ -10,7 +10,7 @@ so.envir: onsite
 
 # DashAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDashAgent'>DashAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IDashAgent'>DashAgent</see> that can trigger server-side event scripts.
 
 * [AddNewTileToDashboard](addnewtiletodashboard.md)
 * [AddTileToDashboard](addtiletodashboard.md)

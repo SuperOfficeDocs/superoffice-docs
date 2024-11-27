@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.DeleteWebPanel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.DeleteWebPanel'>DeleteWebPanel</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.DeleteWebPanel'>DeleteWebPanel</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeDeleteWebPanel
 ```cs

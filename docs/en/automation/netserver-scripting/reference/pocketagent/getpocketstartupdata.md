@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.GetPocketStartupData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData'>GetPocketStartupData</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.GetPocketStartupData'>GetPocketStartupData</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeGetPocketStartupData
 ```cs

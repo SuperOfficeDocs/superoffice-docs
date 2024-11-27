@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 963,
-    "Name": "Green Group",
-    "Description": "Integrated background info-mediaries",
-    "DeltaJson": "et",
+    "ConfigurableScreenDeltaId": 462,
+    "Name": "Rohan, Turcotte and Larkin",
+    "Description": "Cross-group didactic methodology",
+    "DeltaJson": "minima",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "et",
-    "UpdatedDate": "2014-03-28T13:14:05.6320153+01:00",
-    "CreatedDate": "2017-09-17T13:14:05.6320153+02:00",
+    "RecipeId": "aut",
+    "UpdatedDate": "2008-01-28T14:45:05.0221142+01:00",
+    "CreatedDate": "1998-03-14T14:45:05.0221142+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      398,
-      116
+      736,
+      289
     ],
-    "AppliesToKey": "distinctio",
+    "AppliesToKey": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldLength": 5
       }
     }
   }

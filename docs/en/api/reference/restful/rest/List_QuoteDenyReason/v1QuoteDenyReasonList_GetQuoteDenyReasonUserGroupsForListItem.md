@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Hudson, Kozey and Johns",
-    "ToolTip": "Quis omnis doloribus.",
+    "Id": 807,
+    "Name": "Orn, Zboncak and Bartoletti",
+    "ToolTip": "Dolorem ea inventore a sed quis ea quo.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "qui",
-    "ColorBlock": 489,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2014-07-16T13:14:11.5079552+02:00",
+    "Rank": 396,
+    "Type": "velit",
+    "ColorBlock": 614,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2002-08-05T14:45:13.8648346+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Eichmann-Wintheiser",
-        "ToolTip": "Sequi animi ea dignissimos praesentium dolores facilis.",
+        "Id": 305,
+        "Name": "Trantow-Ziemann",
+        "ToolTip": "Autem aut porro nemo soluta.",
         "Deleted": false,
-        "Rank": 968,
-        "Type": "aut",
-        "ColorBlock": 668,
-        "IconHint": "iure",
+        "Rank": 736,
+        "Type": "rerum",
+        "ColorBlock": 228,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2011-01-04T13:14:11.5079552+01:00",
+        "LastChanged": "2002-10-14T14:45:13.8648346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "et",
+        "ExtraInfo": "libero",
+        "StyleHint": "delectus",
         "Hidden": true,
-        "FullName": "Aniya Leann Little DDS",
+        "FullName": "Mr. Reva Hegmann Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 466
+            "FieldType": "System.String",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "provident",
-    "Hidden": false,
-    "FullName": "Demetrius King",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Evie McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 899
       }
     }
   }

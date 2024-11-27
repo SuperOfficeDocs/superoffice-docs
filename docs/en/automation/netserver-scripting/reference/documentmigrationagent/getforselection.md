@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.GetForSelection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForSelection'>GetForSelection</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.GetForSelection'>GetForSelection</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeGetForSelection
 ```cs

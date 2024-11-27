@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 703
+  "ContactId": 541
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Anderson, Weber and Douglas",
-    "SaleDate": "2012-05-14T13:14:06.3976861+02:00",
-    "SaleId": 532,
+    "ContactName": "Upton Group",
+    "SaleDate": "2024-10-20T14:45:06.1781213+02:00",
+    "SaleId": 138,
     "Probability": 434,
-    "Title": "sit",
-    "Amount": 24730.394,
-    "Currency": "illum",
-    "ProjectName": "Brakus-Cummings",
-    "AssociateFullName": "Rashad Haag",
-    "Description": "Versatile dedicated function",
+    "Title": "in",
+    "Amount": 30371.593999999997,
+    "Currency": "dignissimos",
+    "ProjectName": "Lueilwitz, Collins and McKenzie",
+    "AssociateFullName": "Prof. Evan Dejon Tremblay",
+    "Description": "Customizable client-driven instruction set",
     "Status": "Lost",
-    "WeightedAmount": 25397.935999999998,
-    "ProjectId": 984,
-    "EarningPercent": 17926.48,
-    "Earning": 20938.254,
-    "ContactId": 596,
-    "AssociateId": 620,
-    "PersonId": 713,
-    "SaleTypeId": 953,
-    "SaleTypeName": "Schuppe LLC",
-    "PersonFullName": "Mr. Alta Hauck DDS",
+    "WeightedAmount": 26905.39,
+    "ProjectId": 226,
+    "EarningPercent": 23671.102,
+    "Earning": 2159.326,
+    "ContactId": 18,
+    "AssociateId": 815,
+    "PersonId": 774,
+    "SaleTypeId": 742,
+    "SaleTypeName": "Will, Pagac and Welch",
+    "PersonFullName": "Prof. Garrett Moore",
     "Completed": "Completed",
-    "ActiveErpLinks": 447,
-    "NextDueDate": "2018-02-01T13:14:06.3976861+01:00",
-    "Number": "915897",
+    "ActiveErpLinks": 499,
+    "NextDueDate": "2013-11-14T14:45:06.1781213+01:00",
+    "Number": "752978",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 182
       }
     }
   }

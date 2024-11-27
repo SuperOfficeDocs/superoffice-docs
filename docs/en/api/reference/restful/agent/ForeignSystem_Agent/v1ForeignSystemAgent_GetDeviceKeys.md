@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fahey, Gleason and Dibbert",
-  "DeviceName": "Anderson, O'Hara and Jakubowski"
+  "ApplicationName": "Larkin Inc and Sons",
+  "DeviceName": "Walsh-Flatley"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "reiciendis",
-    "Value": "vel",
-    "RecordId": 887,
-    "CreatedDate": "2004-08-16T13:14:06.0382898+02:00",
-    "UpdatedDate": "2007-01-08T13:14:06.0382898+01:00",
-    "UpdatedBy": "voluptas",
-    "CreatedBy": "earum",
-    "TableName": "Wehner LLC",
+    "Key": "beatae",
+    "Value": "deleniti",
+    "RecordId": 412,
+    "CreatedDate": "2005-11-24T14:45:05.6469762+01:00",
+    "UpdatedDate": "2007-04-30T14:45:05.6469762+02:00",
+    "UpdatedBy": "est",
+    "CreatedBy": "ducimus",
+    "TableName": "Bauch Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldType": "System.String",
+        "FieldLength": 70
       }
     }
   }

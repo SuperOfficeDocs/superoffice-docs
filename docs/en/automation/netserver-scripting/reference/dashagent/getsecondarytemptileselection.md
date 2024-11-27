@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.GetSecondaryTempTileSelection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection'>GetSecondaryTempTileSelection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.GetSecondaryTempTileSelection'>GetSecondaryTempTileSelection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeGetSecondaryTempTileSelection
 ```cs

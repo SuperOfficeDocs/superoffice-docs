@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.CreateTicketFromMailData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData'>CreateTicketFromMailData</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.CreateTicketFromMailData'>CreateTicketFromMailData</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeCreateTicketFromMailData
 ```cs

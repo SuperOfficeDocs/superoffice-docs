@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetAllPriceListsByCurrencyId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetAllPriceListsByCurrencyId'>GetAllPriceListsByCurrencyId</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetAllPriceListsByCurrencyId'>GetAllPriceListsByCurrencyId</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetAllPriceListsByCurrencyId
 ```cs

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 598,
-    "DisplayName": "Dach, DuBuque and Goldner",
-    "OngoingChats": 514,
-    "Present": false,
+    "UserId": 617,
+    "DisplayName": "Abernathy-Kuhlman",
+    "OngoingChats": 918,
+    "Present": true,
     "ChatTopics": [
-      258,
-      197
+      400,
+      216
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

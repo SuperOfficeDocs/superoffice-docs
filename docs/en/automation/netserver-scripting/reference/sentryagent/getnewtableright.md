@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SentryAgent.GetNewTableRight
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight'>GetNewTableRight</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISentryAgent.GetNewTableRight'>GetNewTableRight</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
 
 ## BeforeGetNewTableRight
 ```cs

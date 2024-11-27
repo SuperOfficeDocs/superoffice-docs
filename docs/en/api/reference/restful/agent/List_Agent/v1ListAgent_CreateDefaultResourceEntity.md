@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 364,
-  "Name": "Reichel Inc and Sons",
-  "Rank": 888,
-  "Tooltip": "est",
+  "ResourceId": 554,
+  "Name": "DuBuque, Towne and Heaney",
+  "Rank": 462,
+  "Tooltip": "vel",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "repellendus",
+  "LocationAddress": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 128
     }
   }
 }

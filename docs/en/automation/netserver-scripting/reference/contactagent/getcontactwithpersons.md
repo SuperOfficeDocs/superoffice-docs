@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.GetContactWithPersons
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons'>GetContactWithPersons</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.GetContactWithPersons'>GetContactWithPersons</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeGetContactWithPersons
 ```cs

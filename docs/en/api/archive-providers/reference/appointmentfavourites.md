@@ -718,11 +718,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/appointmentfavourites?$select=recurring,contact/postAddress/wgs84latitude,person/middleName,person/portraitThumbnail,person/hasStoreConsent
+GET /api/v1/archive/appointmentfavourites?$select=contact/restrictionAddress/addressId,person/personExtra/x_person_date,person/personExtra/y_rental/x_amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

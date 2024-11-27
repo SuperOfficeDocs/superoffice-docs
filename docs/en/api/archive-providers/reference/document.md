@@ -710,7 +710,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=updatedBy,person/kanaLastName,person/correspondingAssociate/contactCategory,person/correspondingAssociate/assocName,contact/contactUdef/SuperOffice:3
+GET /api/v1/archive/Document?$select=subject,person/personExtra/y_rental/x_end,contact/contactId,contact/registeredBy,contact/streetAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

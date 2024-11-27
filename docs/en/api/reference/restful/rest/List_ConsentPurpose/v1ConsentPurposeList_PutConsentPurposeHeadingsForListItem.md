@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Bahringer LLC",
-    "ToolTip": "Voluptatem in aliquid nihil cupiditate aut qui accusantium.",
-    "Deleted": true,
-    "Rank": 205,
-    "Type": "alias",
-    "ColorBlock": 776,
-    "IconHint": "laboriosam",
+    "Id": 231,
+    "Name": "Walker LLC",
+    "ToolTip": "Sapiente ducimus blanditiis.",
+    "Deleted": false,
+    "Rank": 538,
+    "Type": "eos",
+    "ColorBlock": 264,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2013-08-05T13:14:11.3516953+02:00",
+    "LastChanged": "2021-10-15T14:45:13.6305116+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Mante-Leuschke",
-        "ToolTip": "Temporibus illo adipisci vel cum.",
+        "Id": 654,
+        "Name": "Wintheiser LLC",
+        "ToolTip": "Quis officiis vero inventore consequatur vel pariatur ut.",
         "Deleted": false,
-        "Rank": 491,
-        "Type": "in",
-        "ColorBlock": 718,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2004-11-06T13:14:11.3516953+01:00",
+        "Rank": 142,
+        "Type": "et",
+        "ColorBlock": 858,
+        "IconHint": "ad",
+        "Selected": true,
+        "LastChanged": "2003-11-05T14:45:13.6305116+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "sit",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Monserrat Fay"
+        "FullName": "Dr. Karson Monica Keebler"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "perferendis",
-    "Hidden": true,
-    "FullName": "Therese Bahringer"
+    "ExtraInfo": "vitae",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Leo Crooks"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Harber-Trantow",
-    "ToolTip": "Dolorem nam totam voluptatibus magni tempora accusamus porro.",
+    "Id": 92,
+    "Name": "Pfannerstill, Klein and Fadel",
+    "ToolTip": "Non perspiciatis consectetur.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "eum",
-    "ColorBlock": 459,
-    "IconHint": "nobis",
+    "Rank": 726,
+    "Type": "repellat",
+    "ColorBlock": 167,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2013-01-24T13:14:11.3516953+01:00",
+    "LastChanged": "2002-05-03T14:45:13.6305116+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Glover, Ward and Bradtke",
-        "ToolTip": "Rerum ea dolor reprehenderit ratione deleniti voluptatem.",
+        "Id": 337,
+        "Name": "Renner-Mraz",
+        "ToolTip": "Libero possimus eius.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "ipsam",
-        "ColorBlock": 930,
-        "IconHint": "ut",
+        "Rank": 453,
+        "Type": "accusantium",
+        "ColorBlock": 713,
+        "IconHint": "eius",
         "Selected": true,
-        "LastChanged": "2016-10-31T13:14:11.3516953+01:00",
+        "LastChanged": "2005-04-06T14:45:13.6305116+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "labore",
+        "ExtraInfo": "sed",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Carson Kreiger",
+        "FullName": "Demetrius Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 382
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Mr. Garrett Vaughn Schoen Jr.",
+    "ExtraInfo": "id",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Frederick Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

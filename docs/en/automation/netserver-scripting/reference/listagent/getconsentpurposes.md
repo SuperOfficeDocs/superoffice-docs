@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetConsentPurposes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetConsentPurposes'>GetConsentPurposes</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetConsentPurposes'>GetConsentPurposes</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetConsentPurposes
 ```cs

@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 367,
-  "AssociateId": 140,
-  "Caption": "voluptas",
+  "DashboardId": 499,
+  "AssociateId": 661,
+  "Caption": "reprehenderit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 953,
-      "Caption": "sed",
-      "Description": "Focused mission-critical website",
-      "ChartName": "Daugherty Inc and Sons",
-      "ChartId": "modi",
-      "IsDefault": false,
-      "AssociateId": 855,
-      "GroupId": 335,
-      "SelectionId": 491,
-      "Config": "minus",
+      "DashboardTileId": 493,
+      "Caption": "dolor",
+      "Description": "Virtual radical local area network",
+      "ChartName": "Marks LLC",
+      "ChartId": "esse",
+      "IsDefault": true,
+      "AssociateId": 696,
+      "GroupId": 52,
+      "SelectionId": 113,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 73
+          "FieldLength": 193
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 156
     }
   },
   "_Links": {

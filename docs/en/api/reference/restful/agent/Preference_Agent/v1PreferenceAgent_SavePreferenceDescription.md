@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 415,
-  "Section": "dolorem",
-  "Key": "qui",
-  "Name": "Schultz-Schoen",
+  "PrefDescId": 754,
+  "Section": "voluptate",
+  "Key": "consequatur",
+  "Name": "Rohan, Ratke and Graham",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive hybrid customer loyalty",
-  "IsBuiltin": true,
-  "TableName": "Medhurst Group",
-  "UserDefinedListId": 213,
-  "Rank": 739,
-  "SubGroup": "distinctio",
-  "MinLevel": 505,
-  "MaxValue": 5,
-  "MinValue": 475,
-  "RequiredLicense": "quae"
+  "Description": "Re-engineered bandwidth-monitored customer loyalty",
+  "IsBuiltin": false,
+  "TableName": "Buckridge-Windler",
+  "UserDefinedListId": 46,
+  "Rank": 27,
+  "SubGroup": "neque",
+  "MinLevel": 755,
+  "MaxValue": 988,
+  "MinValue": 650,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 951,
-  "Section": "ab",
-  "Key": "possimus",
-  "Name": "Smitham Group",
+  "PrefDescId": 889,
+  "Section": "laudantium",
+  "Key": "sed",
+  "Name": "Bahringer, Schamberger and Dietrich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering 5th generation strategy",
+  "Description": "Optional global local area network",
   "IsBuiltin": false,
-  "TableName": "McGlynn, Willms and Koch",
-  "UserDefinedListId": 752,
-  "Rank": 158,
-  "SubGroup": "sapiente",
-  "MinLevel": 947,
-  "MaxValue": 424,
-  "MinValue": 571,
-  "RequiredLicense": "et",
+  "TableName": "Brakus, Gibson and Wunsch",
+  "UserDefinedListId": 411,
+  "Rank": 2,
+  "SubGroup": "numquam",
+  "MinLevel": 177,
+  "MaxValue": 574,
+  "MinValue": 412,
+  "RequiredLicense": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

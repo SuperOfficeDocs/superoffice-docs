@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId'>GetUnsanitizedPreviewAttachmentFromDocId</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId'>GetUnsanitizedPreviewAttachmentFromDocId</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetUnsanitizedPreviewAttachmentFromDocId
 ```cs

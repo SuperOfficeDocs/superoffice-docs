@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.ReadRow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow'>ReadRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.ReadRow'>ReadRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeReadRow
 ```cs

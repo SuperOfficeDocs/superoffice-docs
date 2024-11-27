@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 204
+  "ProductId": 734
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 840,
-  "BlobSize": 930,
-  "Description": "Public-key impactful hardware",
-  "ExtraInfo": "hic",
+  "BlobId": 383,
+  "BlobSize": 466,
+  "Description": "Reduced actuating benchmark",
+  "ExtraInfo": "laudantium",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "magnam",
-  "OriginalSize": 542,
-  "CreatedDate": "2023-03-14T13:14:05.5382596+01:00",
-  "UpdatedDate": "2003-06-16T13:14:05.5382596+02:00",
+  "IsZipped": true,
+  "MimeType": "quasi",
+  "OriginalSize": 168,
+  "CreatedDate": "2023-07-31T14:45:04.8971429+02:00",
+  "UpdatedDate": "2017-09-08T14:45:04.8971429+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsam",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldLength": 187
     }
   }
 }

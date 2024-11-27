@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Kub, Mertz and Mosciski",
-  "Tooltip": "vero",
+  "Id": 959,
+  "Name": "Rath-Kohler",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 660,
-  "Rank": 576,
+  "UdListDefinitionId": 218,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 510
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Gottlieb, Kulas and Ondricka",
-    "ToolTip": "Repellendus molestiae expedita possimus eaque et.",
+    "Id": 846,
+    "Name": "Halvorson, Weissnat and Bosco",
+    "ToolTip": "Qui et iste.",
     "Deleted": true,
-    "Rank": 150,
+    "Rank": 828,
     "Type": "dolor",
-    "ColorBlock": 782,
-    "IconHint": "est",
+    "ColorBlock": 205,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2009-04-25T13:14:11.4454508+02:00",
+    "LastChanged": "2016-12-07T14:45:13.786728+01:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Robel, Macejkovic and Gleichner",
-        "ToolTip": "Suscipit magnam magnam.",
-        "Deleted": false,
-        "Rank": 259,
-        "Type": "et",
-        "ColorBlock": 10,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2007-09-06T13:14:11.4454508+02:00",
+        "Id": 492,
+        "Name": "Sanford, Abshire and Hahn",
+        "ToolTip": "Cumque qui autem dolore.",
+        "Deleted": true,
+        "Rank": 737,
+        "Type": "vel",
+        "ColorBlock": 484,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "1999-10-21T14:45:13.786728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "error",
+        "ExtraInfo": "at",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Berenice Stark",
+        "FullName": "Aletha Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 260
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Christelle Klocko",
+    "ExtraInfo": "ut",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Mrs. Lambert Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldLength": 836
       }
     }
   }

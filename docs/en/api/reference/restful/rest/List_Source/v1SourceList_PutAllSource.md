@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Collins, Padberg and Larson",
-    "Tooltip": "dolores",
+    "Id": 977,
+    "Name": "Emard Group",
+    "Tooltip": "iure",
     "Deleted": true,
-    "UdListDefinitionId": 85,
-    "Rank": 723
+    "UdListDefinitionId": 335,
+    "Rank": 952
   },
   {
-    "Id": 618,
-    "Name": "Collins, Padberg and Larson",
-    "Tooltip": "dolores",
+    "Id": 977,
+    "Name": "Emard Group",
+    "Tooltip": "iure",
     "Deleted": true,
-    "UdListDefinitionId": 85,
-    "Rank": 723
+    "UdListDefinitionId": 335,
+    "Rank": 952
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Bartell, Spencer and McLaughlin",
-    "Tooltip": "qui",
+    "Id": 879,
+    "Name": "Watsica-Stanton",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 57,
-    "Rank": 179,
+    "UdListDefinitionId": 493,
+    "Rank": 985,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 162
       }
     }
   }

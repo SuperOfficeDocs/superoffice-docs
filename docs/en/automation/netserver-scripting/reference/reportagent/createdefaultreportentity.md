@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReportAgent.CreateDefaultReportEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity'>CreateDefaultReportEntity</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReportAgent.CreateDefaultReportEntity'>CreateDefaultReportEntity</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
 
 ## BeforeCreateDefaultReportEntity
 ```cs

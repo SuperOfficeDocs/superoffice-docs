@@ -10,7 +10,7 @@ so.envir: onsite
 
 # BulkUpdateAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBulkUpdateAgent'>BulkUpdateAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IBulkUpdateAgent'>BulkUpdateAgent</see> that can trigger server-side event scripts.
 
 * [ExecuteByEntityIds](executebyentityids.md)
 * [ExecuteBySelectionId](executebyselectionid.md)

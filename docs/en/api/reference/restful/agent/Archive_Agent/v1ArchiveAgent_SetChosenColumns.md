@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "VonRueden-Blanda",
-  "ProviderName": "Towne-Lynch",
+  "GuiName": "Leannon, Bosco and Reinger",
+  "ProviderName": "Boehm-Ernser",
   "ChosenColumns": [
-    "facere",
-    "optio"
+    "alias",
+    "non"
   ]
 }
 ```

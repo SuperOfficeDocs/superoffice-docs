@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 658
+  "Count": 789
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 876,
-    "StartDate": "2017-10-24T13:14:05.507008+02:00",
-    "EndDate": "2010-05-09T13:14:05.507008+02:00",
+    "AppointmentId": 13,
+    "StartDate": "1997-11-14T14:45:04.8346562+01:00",
+    "EndDate": "2005-11-05T14:45:04.8346562+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Lawrence Hahn",
-    "ContactName": "Wiza-Huel",
-    "Description": "Assimilated attitude-oriented architecture",
-    "PersonFullName": "Lesly Rippin",
-    "PersonId": 242,
-    "ContactId": 426,
-    "ProjectId": 194,
-    "ProjectName": "Kihn-Ferry",
+    "Task": "tempora",
+    "AssociateFullName": "Shanelle Abbott",
+    "ContactName": "Waelchi-Stracke",
+    "Description": "Public-key clear-thinking flexibility",
+    "PersonFullName": "Mr. Shawn Herzog",
+    "PersonId": 357,
+    "ContactId": 408,
+    "ProjectId": 737,
+    "ProjectName": "Hintz LLC",
     "IsPublished": false,
-    "AssociateId": 839,
-    "ColorIndex": 337,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 685,
+    "ColorIndex": 277,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 668,
-    "PriorityName": "Lynch Group",
+    "PriorityId": 438,
+    "PriorityName": "VonRueden Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-04-09T13:14:05.507008+02:00",
+    "ActiveDate": "1998-11-01T14:45:04.8346562+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-05-23T13:14:05.507008+02:00",
-    "RecurringEndDate": "1998-11-27T13:14:05.507008+01:00",
-    "MotherId": 163,
-    "AssignedBy": 586,
-    "AssignedByFullName": "Korbin Gerlach",
+    "RecurringStartDate": "2012-05-31T14:45:04.8346562+02:00",
+    "RecurringEndDate": "2013-08-25T14:45:04.8346562+02:00",
+    "MotherId": 532,
+    "AssignedBy": 572,
+    "AssignedByFullName": "Dortha Ledner",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "architecto",
-    "SaleId": 553,
-    "SaleName": "Fisher Inc and Sons",
-    "AssociateName": "Walker-Dooley",
-    "CreatedDate": "2020-11-22T13:14:05.507008+01:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Miss Lonie Hackett",
-    "CreatedByAssociateId": 573,
+    "Location": "nulla",
+    "AlarmLeadTime": "molestias",
+    "SaleId": 789,
+    "SaleName": "Simonis-Cummerata",
+    "AssociateName": "Corkery, Botsford and Hudson",
+    "CreatedDate": "2005-04-21T14:45:04.8346562+02:00",
+    "CreatedBy": "neque",
+    "CreatedByFullName": "Prof. Junius Hand",
+    "CreatedByAssociateId": 943,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 591,
-    "Title": "sit",
-    "Agenda": "fuga",
-    "InternalNotes": "ea",
+    "PreferredTZLocation": 491,
+    "Title": "nulla",
+    "Agenda": "omnis",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 2
       }
     }
   }

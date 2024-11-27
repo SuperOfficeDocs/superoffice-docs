@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Cummerata Group",
-    "Tooltip": "et",
+    "Id": 530,
+    "Name": "Hand, O'Conner and Donnelly",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 827,
-    "Rank": 671,
+    "UdListDefinitionId": 686,
+    "Rank": 575,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

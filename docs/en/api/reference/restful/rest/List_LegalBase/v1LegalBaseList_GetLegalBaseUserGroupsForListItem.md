@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Langworth-Dicki",
-    "ToolTip": "Deserunt illum est.",
+    "Id": 860,
+    "Name": "Jast-Russel",
+    "ToolTip": "Reprehenderit eum quibusdam voluptatem ipsum blanditiis voluptatem.",
     "Deleted": true,
-    "Rank": 715,
-    "Type": "repudiandae",
-    "ColorBlock": 608,
-    "IconHint": "neque",
-    "Selected": false,
-    "LastChanged": "2013-01-02T13:14:11.4141989+01:00",
+    "Rank": 411,
+    "Type": "non",
+    "ColorBlock": 473,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2024-02-14T14:45:13.70862+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Wisozk, Cremin and Wintheiser",
-        "ToolTip": "Est tenetur odit.",
+        "Id": 208,
+        "Name": "Buckridge, Pollich and Morissette",
+        "ToolTip": "Quaerat recusandae non magnam iusto fugit in.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "voluptatem",
-        "ColorBlock": 141,
-        "IconHint": "voluptatibus",
+        "Rank": 567,
+        "Type": "est",
+        "ColorBlock": 335,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2001-04-24T13:14:11.4141989+02:00",
+        "LastChanged": "2003-07-23T14:45:13.70862+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Tamara Maggio",
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Gustave Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "nemo",
-    "Hidden": false,
-    "FullName": "Mrs. Nakia Letitia Conroy",
+    "ExtraInfo": "fuga",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Mr. Kadin Mills DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 631
       }
     }
   }

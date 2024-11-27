@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 931,
-    "ErpConnectorId": 380,
-    "DisplayName": "Smith, Hane and Jerde",
-    "DisplayDescription": "Multi-layered value-added alliance",
+    "ErpConnectionId": 817,
+    "ErpConnectorId": 308,
+    "DisplayName": "Schinner, Rowe and Yundt",
+    "DisplayDescription": "Seamless reciprocal policy",
     "Active": false,
-    "ConnectionId": "non",
-    "MostRecentTimestamp": "accusamus",
+    "ConnectionId": "illum",
+    "MostRecentTimestamp": "est",
     "ConfigFields": {
-      "ConfigFields1": "blanditiis",
-      "ConfigFields2": "incidunt"
+      "ConfigFields1": "rerum",
+      "ConfigFields2": "quia"
     },
-    "Deleted": false,
+    "Deleted": true,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      461,
-      161
+      833,
+      842
     ],
     "AssociateAccessIds": [
-      171,
-      31
+      519,
+      177
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 650
       }
     }
   }

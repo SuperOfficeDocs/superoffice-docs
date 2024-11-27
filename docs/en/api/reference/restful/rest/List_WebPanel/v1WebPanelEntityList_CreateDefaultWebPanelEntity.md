@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 793,
-  "Name": "Von-Konopelski",
-  "Tooltip": "placeat",
+  "WebPanelId": 221,
+  "Name": "Hansen Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 550,
+  "Rank": 516,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Jaskolski, Schultz and O'Connell",
+  "WindowName": "Boyer, O'Connell and Schaefer",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorem",
-  "Icon": 169,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "et",
+  "Icon": 277,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 820
     }
   }
 }

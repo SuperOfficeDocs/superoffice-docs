@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 202,
+    "TargetDimensionId": 908,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "est",
-    "DimensionListName": "Koelpin LLC",
-    "DimensionListId": 278,
-    "DimensionListLabel": "nihil",
+    "DimensionListField": "quibusdam",
+    "DimensionListName": "Kuhlman Group",
+    "DimensionListId": 262,
+    "DimensionListLabel": "vel",
     "SelectedDimensions": [
-      489,
-      4
+      325,
+      420
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 398
+        "FieldLength": 68
       }
     }
   }

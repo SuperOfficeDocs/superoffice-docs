@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 323,
-  "Name": "Weimann, Cronin and Schoen",
+  "WebhookId": 781,
+  "Name": "Dibbert Group",
   "Events": [
-    "blanditiis",
-    "qui"
+    "sed",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "non",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "veniam",
   "Headers": {
-    "Headers1": "adipisci",
-    "Headers2": "in"
+    "Headers1": "officia",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-06-26T13:14:11.289192+02:00",
+  "Registered": "2011-03-07T14:45:13.5367829+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-07-25T13:14:11.289192+02:00",
+  "Updated": "2017-01-09T14:45:13.5367829+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "roberto@von.com"
+  "ErrorsEmail": "celine.schmidt@kassulke.biz"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 852,
-  "Name": "Berge Group",
+  "WebhookId": 230,
+  "Name": "Lang Group",
   "Events": [
-    "saepe",
-    "consequatur"
+    "et",
+    "dolores"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "iusto",
+  "Secret": "recusandae",
   "State": "Active",
-  "Type": "ullam",
+  "Type": "libero",
   "Headers": {
-    "Headers1": "nihil",
-    "Headers2": "ut"
+    "Headers1": "qui",
+    "Headers2": "eum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-05-06T13:14:11.289192+02:00",
+  "Registered": "2024-05-16T14:45:13.5367829+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-12-11T13:14:11.289192+01:00",
+  "Updated": "2012-03-17T14:45:13.5367829+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "cecelia@hauck.co.uk",
+  "ErrorsEmail": "lilly@connellywillms.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

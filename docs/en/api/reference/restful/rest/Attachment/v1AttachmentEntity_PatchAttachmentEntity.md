@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 938,
-  "Name": "Bahringer, Bins and McClure",
-  "ContentType": "porro",
-  "AttSize": 69,
+  "AttachmentId": 104,
+  "Name": "Ullrich-Herzog",
+  "ContentType": "dolorem",
+  "AttSize": 935,
   "InlineImage": false,
-  "ContentId": "rerum",
-  "AuthKey": "est",
+  "ContentId": "dolorum",
+  "AuthKey": "velit",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 148
     }
   },
   "_Links": {

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetBlobEntityOnProduct
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct'>GetBlobEntityOnProduct</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetBlobEntityOnProduct'>GetBlobEntityOnProduct</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetBlobEntityOnProduct
 ```cs

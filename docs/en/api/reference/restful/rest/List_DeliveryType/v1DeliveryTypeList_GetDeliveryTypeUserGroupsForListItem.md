@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Corwin-Bartoletti",
-    "ToolTip": "Nihil sunt itaque voluptas repudiandae laudantium neque excepturi.",
-    "Deleted": false,
-    "Rank": 97,
-    "Type": "possimus",
-    "ColorBlock": 964,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2007-03-23T13:14:11.3985731+01:00",
+    "Id": 70,
+    "Name": "Towne LLC",
+    "ToolTip": "Inventore aut quo et nisi sed excepturi.",
+    "Deleted": true,
+    "Rank": 712,
+    "Type": "enim",
+    "ColorBlock": 765,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2002-04-25T14:45:13.6930001+02:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Zemlak LLC",
-        "ToolTip": "Quod magnam aut impedit quia quo illum.",
-        "Deleted": false,
-        "Rank": 477,
-        "Type": "et",
-        "ColorBlock": 478,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2005-07-18T13:14:11.3985731+02:00",
+        "Id": 638,
+        "Name": "Ratke-Corwin",
+        "ToolTip": "Ut consequatur voluptatem.",
+        "Deleted": true,
+        "Rank": 772,
+        "Type": "quia",
+        "ColorBlock": 828,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2022-05-23T14:45:13.6930001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "impedit",
+        "ExtraInfo": "rerum",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Madisen Brekke",
+        "FullName": "Abner Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldLength": 38
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "non",
+    "ExtraInfo": "id",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Whitney Smitham",
+    "FullName": "Mr. Dawson Sammy Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 803
       }
     }
   }

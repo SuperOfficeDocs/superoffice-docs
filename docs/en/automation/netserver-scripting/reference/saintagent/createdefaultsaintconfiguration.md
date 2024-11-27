@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.CreateDefaultSaintConfiguration
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration'>CreateDefaultSaintConfiguration</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.CreateDefaultSaintConfiguration'>CreateDefaultSaintConfiguration</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeCreateDefaultSaintConfiguration
 ```cs

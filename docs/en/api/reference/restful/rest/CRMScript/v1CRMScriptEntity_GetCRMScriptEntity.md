@@ -93,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,52 +103,52 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 377,
-  "UniqueIdentifier": "et",
-  "Name": "Kunze, Nienow and Rohan",
-  "Description": "Networked grid-enabled help-desk",
-  "IncludeId": "quia",
-  "AccessKey": "nihil",
-  "HierarchyId": 396,
-  "Source": "est",
-  "SourceCode": "animi",
+  "EjscriptId": 786,
+  "UniqueIdentifier": "pariatur",
+  "Name": "Corkery LLC",
+  "Description": "Right-sized attitude-oriented knowledge base",
+  "IncludeId": "necessitatibus",
+  "AccessKey": "reprehenderit",
+  "HierarchyId": 159,
+  "Source": "sit",
+  "SourceCode": "quaerat",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 517,
+  "HtmlOutput": 220,
   "Includes": [
-    401,
-    811
+    892,
+    854
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 627,
-      "LineNumberTo": 250,
-      "Delta": 531,
-      "IncludeId": "voluptatibus",
+      "LineNumberFrom": 243,
+      "LineNumberTo": 2,
+      "Delta": 811,
+      "IncludeId": "libero",
       "IncludedFrom": [
-        "et",
-        "provident"
+        "fuga",
+        "aperiam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldLength": 264
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2000-09-27T13:14:10.7735359+02:00",
-  "RegisteredAssociateId": 585,
-  "Updated": "2024-07-06T13:14:10.7735359+02:00",
-  "UpdatedAssociateId": 936,
+  "Registered": "1998-08-20T14:45:12.7244655+02:00",
+  "RegisteredAssociateId": 283,
+  "Updated": "2002-11-05T14:45:12.7244655+01:00",
+  "UpdatedAssociateId": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldLength": 796
     }
   },
   "_Links": {

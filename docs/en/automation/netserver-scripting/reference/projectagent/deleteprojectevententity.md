@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.DeleteProjectEventEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity'>DeleteProjectEventEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.DeleteProjectEventEntity'>DeleteProjectEventEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeDeleteProjectEventEntity
 ```cs

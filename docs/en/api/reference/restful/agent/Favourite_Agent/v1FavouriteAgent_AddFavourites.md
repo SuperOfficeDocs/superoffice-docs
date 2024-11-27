@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Becker LLC",
+  "TableName": "Schneider-Kautzer",
   "RecordIds": [
-    306,
-    665
+    512,
+    212
   ],
-  "AssociateId": 257,
-  "ExtraInfo": "voluptatum"
+  "AssociateId": 808,
+  "ExtraInfo": "est"
 }
 ```
 

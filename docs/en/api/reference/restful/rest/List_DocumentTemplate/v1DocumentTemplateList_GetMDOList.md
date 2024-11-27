@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=earum
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=mollitia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Cruickshank LLC",
-    "ToolTip": "Sint similique.",
-    "Deleted": false,
-    "Rank": 519,
-    "Type": "a",
+    "Id": 599,
+    "Name": "Ziemann, Stokes and Cartwright",
+    "ToolTip": "Deserunt nostrum blanditiis est fuga quis qui facere.",
+    "Deleted": true,
+    "Rank": 26,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Mante-Ankunding",
-        "ToolTip": "Ut sint explicabo dignissimos laudantium nostrum.",
-        "Deleted": false,
-        "Rank": 152,
-        "Type": "est",
+        "Id": 912,
+        "Name": "Breitenberg Inc and Sons",
+        "ToolTip": "Debitis ipsam odit ea.",
+        "Deleted": true,
+        "Rank": 791,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 878,
-        "ExtraInfo": "et",
-        "StyleHint": "delectus",
-        "FullName": "Shad Parker",
+        "IconHint": "nostrum",
+        "ColorBlock": 658,
+        "ExtraInfo": "dolor",
+        "StyleHint": "perspiciatis",
+        "FullName": "Zora Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 509
+            "FieldLength": 185
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 76,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "enim",
-    "FullName": "Mrs. Janie Schamberger",
+    "IconHint": "voluptas",
+    "ColorBlock": 318,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "eum",
+    "FullName": "Hailey Ricardo Watsica IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 776
       }
     }
   }

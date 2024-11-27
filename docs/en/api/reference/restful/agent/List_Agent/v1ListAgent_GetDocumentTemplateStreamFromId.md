@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 32,
-  "LanguageCode": "mollitia"
+  "DocumentTemplateId": 16,
+  "LanguageCode": "corrupti"
 }
 ```
 

@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 92,
-  "ERPQuoteLineKey": "veniam",
-  "QuoteAlternativeId": 292,
-  "ERPProductKey": "facilis",
+  "QuoteLineId": 787,
+  "ERPQuoteLineKey": "iusto",
+  "QuoteAlternativeId": 598,
+  "ERPProductKey": "debitis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11204.05,
-  "DeliveredQuantity": 2983.5679999999998,
-  "Rank": 825,
-  "Name": "Mante, Lehner and Cassin",
-  "Description": "Triple-buffered modular definition",
-  "Code": "excepturi",
-  "QuantityUnit": "aut",
-  "PriceUnit": "id",
-  "ItemNumber": "1515665",
+  "Quantity": 31114.352,
+  "DeliveredQuantity": 24018.976,
+  "Rank": 346,
+  "Name": "Greenfelder-Ruecker",
+  "Description": "Exclusive analyzing methodology",
+  "Code": "dolorem",
+  "QuantityUnit": "soluta",
+  "PriceUnit": "magni",
+  "ItemNumber": "587027",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "maxime",
-  "Supplier": "et",
-  "SupplierCode": "corrupti",
-  "Thumbnail": "suscipit",
-  "VATInfo": "eligendi",
-  "VAT": 21323.736,
-  "UnitCost": 19553.025999999998,
-  "UnitMinimumPrice": 22527.192,
-  "UnitListPrice": 17080.3,
+  "ProductFamilyKey": "incidunt",
+  "ProductTypeKey": "animi",
+  "Supplier": "perferendis",
+  "SupplierCode": "error",
+  "Thumbnail": "esse",
+  "VATInfo": "omnis",
+  "VAT": 24658.311999999998,
+  "UnitCost": 8433.594,
+  "UnitMinimumPrice": 4387.5999999999995,
+  "UnitListPrice": 22088.432,
   "ExtraInfo": [
     {
-      "Name": "Armstrong-Spinka",
+      "Name": "Hoeger-Hilll",
       "Value": "ut",
       "Type": "Image",
       "TableRight": null,
@@ -173,12 +173,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 109
         }
       }
     },
     {
-      "Name": "Armstrong-Spinka",
+      "Name": "Hoeger-Hilll",
       "Value": "ut",
       "Type": "Image",
       "TableRight": null,
@@ -186,38 +186,38 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 109
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "placeat",
-  "SubscriptionQuantity": 27754.703999999998,
-  "SubscriptionStart": "2004-09-09T13:14:06.3351823+02:00",
-  "ERPDiscountPercent": 16641.54,
-  "ERPDiscountAmount": 13485.601999999999,
-  "DiscountPercent": 21621.466,
-  "DiscountAmount": 4863.968,
+  "RawExtraInfo": "laudantium",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sed",
+  "SubscriptionQuantity": 10793.496,
+  "SubscriptionStart": "2021-06-21T14:45:06.0999998+02:00",
+  "ERPDiscountPercent": 21120.025999999998,
+  "ERPDiscountAmount": 4368.796,
+  "DiscountPercent": 4823.226,
+  "DiscountAmount": 20637.39,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23373.372,
-  "EarningAmount": 6446.638,
-  "SubTotal": 31267.917999999998,
-  "TotalPrice": 4917.246,
-  "Rights": "animi",
-  "Rule": "sapiente",
-  "ExtraField1": "praesentium",
-  "ExtraField2": "deleniti",
-  "ExtraField3": "ducimus",
-  "ExtraField4": "sunt",
-  "ExtraField5": "praesentium",
+  "EarningPercent": 1472.98,
+  "EarningAmount": 20349.061999999998,
+  "SubTotal": 11627.14,
+  "TotalPrice": 30703.798,
+  "Rights": "et",
+  "Rule": "est",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "velit",
+  "ExtraField3": "autem",
+  "ExtraField4": "repellendus",
+  "ExtraField5": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 119
     }
   }
 }

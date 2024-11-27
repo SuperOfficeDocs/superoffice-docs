@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 232
+  "UserGroupId": 640
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 53,
-    "ColumnId": 690,
-    "FieldDefault": "in",
-    "FieldHeight": 524,
-    "FieldLabel": "error",
-    "FieldLeft": 472,
-    "FieldTop": 48,
+    "UDefFieldId": 271,
+    "ColumnId": 771,
+    "FieldDefault": "est",
+    "FieldHeight": 581,
+    "FieldLabel": "aspernatur",
+    "FieldLeft": 605,
+    "FieldTop": 177,
     "FieldType": "Checkbox",
-    "FieldWidth": 731,
-    "FormatMask": "voluptatibus",
-    "HideLabel": true,
+    "FieldWidth": 548,
+    "FormatMask": "laudantium",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 248,
-    "LabelLeft": 840,
-    "LabelTop": 653,
-    "LabelWidth": 394,
-    "LastVersionId": 331,
-    "ListTableId": 211,
+    "LabelHeight": 222,
+    "LabelLeft": 295,
+    "LabelTop": 727,
+    "LabelWidth": 876,
+    "LastVersionId": 680,
+    "ListTableId": 370,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 194,
-    "ProgId": "minima",
-    "IsReadOnly": false,
-    "ShortLabel": "consectetur",
-    "TabOrder": 308,
-    "TextLength": 704,
-    "Tooltip": "ipsa",
-    "UdefIdentity": 34,
-    "UDListDefinitionId": 173,
+    "Page1LineNo": 599,
+    "ProgId": "ut",
+    "IsReadOnly": true,
+    "ShortLabel": "quidem",
+    "TabOrder": 432,
+    "TextLength": 104,
+    "Tooltip": "odit",
+    "UdefIdentity": 811,
+    "UDListDefinitionId": 605,
     "Justification": "Center",
-    "Version": 350,
-    "TemplateVariableName": "Sanford, Kemmer and Wyman",
+    "Version": 295,
+    "TemplateVariableName": "Volkman-Heller",
     "HasBeenPublished": false,
-    "MdoListName": "King Group",
+    "MdoListName": "Johnson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 712
       }
     }
   }

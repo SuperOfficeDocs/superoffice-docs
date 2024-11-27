@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.DeleteDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.DeleteDocumentEntity'>DeleteDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.DeleteDocumentEntity'>DeleteDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeDeleteDocumentEntity
 ```cs

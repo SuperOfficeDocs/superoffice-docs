@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.DeletePreferenceDescriptionLines
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescriptionLines'>DeletePreferenceDescriptionLines</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.DeletePreferenceDescriptionLines'>DeletePreferenceDescriptionLines</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeDeletePreferenceDescriptionLines
 ```cs

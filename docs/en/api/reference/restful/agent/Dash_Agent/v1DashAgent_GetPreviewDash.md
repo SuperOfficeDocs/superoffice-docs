@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 778
+  "DashboardId": 68
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 128,
-  "Name": "Watsica-Mayert",
-  "Description": "Inverse fresh-thinking application",
-  "OwnedByFullName": "Mrs. Valentin D'angelo Terry",
-  "Registered": "2009-06-20T13:14:05.7413971+02:00",
+  "DashboardId": 673,
+  "Name": "Terry, Funk and Shields",
+  "Description": "Automated 4th generation benchmark",
+  "OwnedByFullName": "Carson Nader",
+  "Registered": "2012-12-14T14:45:05.2095749+01:00",
   "Tiles": [
     {
-      "Name": "Gorczany, Wisozk and Connelly",
+      "Name": "Lindgren Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldType": "System.String",
+          "FieldLength": 802
         }
       }
     },
     {
-      "Name": "Gorczany, Wisozk and Connelly",
+      "Name": "Lindgren Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldType": "System.String",
+          "FieldLength": 802
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 676
     }
   }
 }

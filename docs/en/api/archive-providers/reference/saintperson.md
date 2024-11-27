@@ -467,6 +467,9 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -534,13 +537,13 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |document/associate/userName|string|User name: User name| x |
-|document/associate/personEmail|string|E-mail| x |
-|document/associate/locationAddress|string|Location: Location| x |
-|document/associate/isLocation|bool|Is a location: Is a location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/personEmail|string|E-mail| x |
+|document/associate/locationAddress|string|Location: Location| x |
+|document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
 |document/documentUdef/SuperOffice:3|int|documentnumber| x |
@@ -638,13 +641,13 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personUdef/SuperOffice:3|int|contactnumber| x |
 |personUdef/SuperOffice:4|date|contactdate| x |
 |personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
-|personUdef/SuperOffice:6|bool|contactcheckbox| x |
-|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
-|personUdef/SuperOffice:8|decimal|contactdecimal| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:6|bool|contactcheckbox| x |
+|personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
+|personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
 |personUdef/SuperOffice:11|string|page1adminonly| x |
@@ -742,6 +745,10 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |subscription|listAny|Subscription: Subscription for marketing| x |
 |legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -749,7 +756,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintPerson?$select=contactId,department,contactAssociate/contactCategory,contactUdef/SuperOffice:11,sale/associateId
+GET /api/v1/archive/SaintPerson?$select=contactAssociate/ejUserId,contactAssociate/isActive,LastTicket,saintDirection,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

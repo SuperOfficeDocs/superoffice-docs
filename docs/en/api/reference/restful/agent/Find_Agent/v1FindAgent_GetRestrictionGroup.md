@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequuntur",
-  "ProviderName": "Muller Inc and Sons",
-  "StorageKey": "consequatur",
-  "Rank": 712,
-  "Context": "enim"
+  "StorageType": "voluptates",
+  "ProviderName": "Hettinger, Emard and Gutmann",
+  "StorageKey": "est",
+  "Rank": 893,
+  "Context": "non"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mosciski-Wehner",
-  "Description": "Universal intermediate functionalities",
-  "Rank": 999,
+  "Name": "Weber-Marquardt",
+  "Description": "Mandatory attitude-oriented migration",
+  "Rank": 987,
   "Restrictions": [
     {
-      "Name": "Wilderman LLC",
-      "Operator": "maiores",
+      "Name": "Schaefer-Steuber",
+      "Operator": "quis",
       "Values": [
-        "ipsa",
-        "ut"
+        "quae",
+        "molestias"
       ],
       "DisplayValues": [
-        "sequi",
-        "et"
+        "et",
+        "adipisci"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 70,
+      "InterParenthesis": 12,
       "InterOperator": "And",
-      "UniqueHash": 727
+      "UniqueHash": 163
     }
   ]
 }

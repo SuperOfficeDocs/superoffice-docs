@@ -10,7 +10,7 @@ so.envir: onsite
 
 # AppointmentAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAgent'>AppointmentAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IAppointmentAgent'>AppointmentAgent</see> that can trigger server-side event scripts.
 
 * [Accept](accept.md)
 * [AcceptRejected](acceptrejected.md)
@@ -22,6 +22,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [CleanUpBookingDeleted](cleanupbookingdeleted.md)
 * [CleanUpBookingDeletedWithUpdateMode](cleanupbookingdeletedwithupdatemode.md)
 * [CleanUpRecurringBookingDeleted](cleanuprecurringbookingdeleted.md)
+* [ConvertAppointmentToTask](convertappointmenttotask.md)
 * [CreateAndAccept](createandaccept.md)
 * [CreateAndAcceptWithEmailConfirmation](createandacceptwithemailconfirmation.md)
 * [CreateAppointmentEntityFromExisting](createappointmententityfromexisting.md)

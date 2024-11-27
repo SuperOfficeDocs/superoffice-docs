@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=826
+POST /api/v1/Agents/Sale/GetSale?saleId=871
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Emard Inc and Sons",
-  "SaleDate": "2013-06-08T13:14:06.38206+02:00",
-  "SaleId": 29,
-  "Probability": 19,
-  "Title": "fuga",
-  "Amount": 1798.916,
-  "Currency": "incidunt",
-  "ProjectName": "Haag-Dietrich",
-  "AssociateFullName": "Elsa Kuhn",
-  "Description": "Visionary modular knowledge base",
+  "ContactName": "Kirlin-Schaefer",
+  "SaleDate": "2021-12-21T14:45:06.1468644+01:00",
+  "SaleId": 511,
+  "Probability": 96,
+  "Title": "perspiciatis",
+  "Amount": 513.976,
+  "Currency": "alias",
+  "ProjectName": "Beer, Lang and Stanton",
+  "AssociateFullName": "Dallin Balistreri",
+  "Description": "Triple-buffered object-oriented superstructure",
   "Status": "Lost",
-  "WeightedAmount": 17506.523999999998,
-  "ProjectId": 632,
-  "EarningPercent": 26720.484,
-  "Earning": 18966.968,
-  "ContactId": 104,
-  "AssociateId": 620,
-  "PersonId": 501,
-  "SaleTypeId": 536,
-  "SaleTypeName": "Fritsch, Friesen and Cummerata",
-  "PersonFullName": "Miss Skylar Eriberto Runolfsdottir V",
+  "WeightedAmount": 16462.902,
+  "ProjectId": 272,
+  "EarningPercent": 25466.884,
+  "Earning": 2591.8179999999998,
+  "ContactId": 254,
+  "AssociateId": 557,
+  "PersonId": 709,
+  "SaleTypeId": 365,
+  "SaleTypeName": "Beatty, Reynolds and Lakin",
+  "PersonFullName": "Caroline Kassulke",
   "Completed": "Completed",
-  "ActiveErpLinks": 658,
-  "NextDueDate": "2003-12-22T13:14:06.38206+01:00",
-  "Number": "797137",
+  "ActiveErpLinks": 209,
+  "NextDueDate": "2008-02-04T14:45:06.1468644+01:00",
+  "Number": "534729",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

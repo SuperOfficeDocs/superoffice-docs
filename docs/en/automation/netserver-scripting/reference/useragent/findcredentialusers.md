@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.FindCredentialUsers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.FindCredentialUsers'>FindCredentialUsers</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.FindCredentialUsers'>FindCredentialUsers</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeFindCredentialUsers
 ```cs

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Hodkiewicz Inc and Sons",
-    "ToolTip": "Dolorum vel molestiae autem.",
+    "Id": 509,
+    "Name": "O'Connell-Hahn",
+    "ToolTip": "Maxime esse qui tempore qui quidem ab.",
     "Deleted": true,
-    "Rank": 93,
-    "Type": "quis",
-    "ColorBlock": 839,
-    "IconHint": "vitae",
+    "Rank": 417,
+    "Type": "laborum",
+    "ColorBlock": 928,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "1997-06-27T13:14:11.3516953+02:00",
+    "LastChanged": "1997-12-13T14:45:13.6305116+01:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Smitham-Stoltenberg",
-        "ToolTip": "Omnis atque culpa saepe voluptas molestiae laboriosam consequatur.",
+        "Id": 145,
+        "Name": "Lindgren Group",
+        "ToolTip": "Voluptatem in quos eum recusandae ut.",
         "Deleted": false,
-        "Rank": 377,
-        "Type": "similique",
-        "ColorBlock": 739,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2020-06-17T13:14:11.3516953+02:00",
+        "Rank": 272,
+        "Type": "accusantium",
+        "ColorBlock": 667,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2009-01-03T14:45:13.6305116+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "placeat",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Prof. Mariana Harvey",
+        "FullName": "Uriah Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 464
+            "FieldType": "System.Int32",
+            "FieldLength": 839
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "deleniti",
-    "Hidden": true,
-    "FullName": "Mrs. Sherwood Colten Considine Jr.",
+    "ExtraInfo": "totam",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Reva Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.TransferChatSession
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.TransferChatSession'>TransferChatSession</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.TransferChatSession'>TransferChatSession</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeTransferChatSession
 ```cs

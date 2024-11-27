@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.CreateDefaultCountry
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.CreateDefaultCountry'>CreateDefaultCountry</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.CreateDefaultCountry'>CreateDefaultCountry</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeCreateDefaultCountry
 ```cs

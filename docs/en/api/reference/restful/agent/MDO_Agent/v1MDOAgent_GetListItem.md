@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Stracke, Walker and White",
-  "Id": 990
+  "ListName": "Cronin Group",
+  "Id": 610
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Waelchi, Ruecker and Murray",
-  "ToolTip": "Dolores facilis unde.",
-  "Deleted": false,
-  "Rank": 244,
-  "Type": "molestiae",
+  "Id": 534,
+  "Name": "Bins Inc and Sons",
+  "ToolTip": "Iure provident maiores ratione cupiditate quos.",
+  "Deleted": true,
+  "Rank": 102,
+  "Type": "sit",
   "ChildItems": [
     {
-      "Id": 660,
-      "Name": "Flatley LLC",
-      "ToolTip": "Voluptatem ab blanditiis eum aperiam.",
+      "Id": 125,
+      "Name": "Block-Howe",
+      "ToolTip": "Omnis quas a recusandae laboriosam vitae.",
       "Deleted": false,
-      "Rank": 261,
-      "Type": "ab",
+      "Rank": 939,
+      "Type": "mollitia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "illo",
-      "ColorBlock": 494,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "est",
-      "FullName": "Mariela Emmy Lynch II",
+      "IconHint": "et",
+      "ColorBlock": 518,
+      "ExtraInfo": "quia",
+      "StyleHint": "sit",
+      "FullName": "Mr. Marlin Casper",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 742
         }
       }
     }
   ],
-  "IconHint": "fuga",
-  "ColorBlock": 815,
-  "ExtraInfo": "sint",
-  "StyleHint": "iure",
-  "FullName": "Herbert Botsford",
+  "IconHint": "quod",
+  "ColorBlock": 412,
+  "ExtraInfo": "ab",
+  "StyleHint": "non",
+  "FullName": "Beryl Hackett",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 248
     }
   }
 }

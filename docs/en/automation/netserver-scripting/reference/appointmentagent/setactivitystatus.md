@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.SetActivityStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.SetActivityStatus'>SetActivityStatus</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.SetActivityStatus'>SetActivityStatus</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeSetActivityStatus
 ```cs

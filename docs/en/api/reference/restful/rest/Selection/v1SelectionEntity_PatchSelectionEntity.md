@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vitae",
+    "path": "iure",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vitae",
+    "path": "iure",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable dynamic budgetary management",
-  "Postit": "explicabo",
+  "Description": "Intuitive 5th generation analyzer",
+  "Postit": "soluta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 184,
-  "IncludePerson": 776,
+  "GroupIdx": 95,
+  "IncludePerson": 462,
   "MemberCount": 99.99,
-  "Name": "Kassulke-Hyatt",
-  "PostitTextId": 620,
-  "CreatedDate": "2014-01-31T13:14:11.1016748+01:00",
-  "SelectionId": 203,
-  "SoundEx": "quidem",
-  "Source": 832,
-  "TextId": 418,
-  "UpdatedDate": "2003-03-28T13:14:11.1016748+01:00",
-  "UpdatedCount": 137,
-  "Visibility": 627,
+  "Name": "Harris-Buckridge",
+  "PostitTextId": 280,
+  "CreatedDate": "2021-11-04T14:45:13.2399738+01:00",
+  "SelectionId": 546,
+  "SoundEx": "sit",
+  "Source": 978,
+  "TextId": 275,
+  "UpdatedDate": "2011-05-14T14:45:13.2399738+02:00",
+  "UpdatedCount": 382,
+  "Visibility": 92,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 483,
-  "TargetTableName": "Feil LLC",
+  "TargetTableNumber": 290,
+  "TargetTableName": "Gleichner, Ankunding and Kovacek",
   "Completed": false,
-  "LeftSelectionId": 110,
-  "RightSelectionId": 221,
+  "LeftSelectionId": 278,
+  "RightSelectionId": 809,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Runolfsdottir-Howe",
-  "ShadowProviderName": "Jacobs Group",
-  "ChartKey": "odio",
-  "LastLoaded": "2012-05-16T13:14:11.1016748+02:00",
-  "LastLoadedBy": 76,
+  "MainProviderName": "Wiegand-Kuhn",
+  "ShadowProviderName": "Harvey Inc and Sons",
+  "ChartKey": "ut",
+  "LastLoaded": "1998-03-24T14:45:13.2399738+01:00",
+  "LastLoadedBy": 510,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-10-10T13:14:11.1016748+02:00",
-  "LastMembershipChangeBy": 157,
+  "LastMembershipChange": "2008-03-30T14:45:13.2399738+02:00",
+  "LastMembershipChangeBy": 819,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "dolore",
-  "MailingsProviderName": "Schiller, Schumm and Jast",
-  "DashboardTileDefinitionId": 888,
+  "MainHeading": "vitae",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Ullrich, Okuneva and Rutherford",
+  "DashboardTileDefinitionId": 861,
   "VisibleFor": [
     {
-      "VisibleId": 501,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     },
     {
-      "VisibleId": 501,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 951
     }
   },
   "_Links": {

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.GetRedLetterInformationListByDatesAndAssociate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate'>GetRedLetterInformationListByDatesAndAssociate</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate'>GetRedLetterInformationListByDatesAndAssociate</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeGetRedLetterInformationListByDatesAndAssociate
 ```cs

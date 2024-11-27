@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Weissnat, Yundt and Thompson",
-  "Tooltip": "dicta",
+  "Id": 365,
+  "Name": "Runolfsdottir LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 715,
-  "IsCustomList": true,
+  "Rank": 602,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "temporibus",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Rice Inc and Sons",
-  "Tooltip": "odit",
+  "Id": 247,
+  "Name": "Hills LLC",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 763,
+  "Rank": 780,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   }
 }

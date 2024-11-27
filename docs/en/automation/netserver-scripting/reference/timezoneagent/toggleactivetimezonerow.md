@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.ToggleActiveTimeZoneRow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow'>ToggleActiveTimeZoneRow</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.ToggleActiveTimeZoneRow'>ToggleActiveTimeZoneRow</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeToggleActiveTimeZoneRow
 ```cs

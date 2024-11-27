@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 554,
-  "ColumnId": 361,
-  "FieldDefault": "explicabo",
-  "FieldHeight": 941,
-  "FieldLabel": "sed",
-  "FieldLeft": 319,
-  "FieldTop": 156,
+  "UDefFieldId": 263,
+  "ColumnId": 736,
+  "FieldDefault": "esse",
+  "FieldHeight": 905,
+  "FieldLabel": "ea",
+  "FieldLeft": 737,
+  "FieldTop": 776,
   "FieldType": "Checkbox",
-  "FieldWidth": 533,
-  "FormatMask": "enim",
-  "HideLabel": true,
+  "FieldWidth": 747,
+  "FormatMask": "eum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 601,
-  "LabelLeft": 876,
-  "LabelTop": 367,
-  "LabelWidth": 610,
-  "LastVersionId": 220,
-  "ListTableId": 320,
+  "LabelHeight": 970,
+  "LabelLeft": 256,
+  "LabelTop": 83,
+  "LabelWidth": 21,
+  "LastVersionId": 105,
+  "ListTableId": 95,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "magnam",
+  "Page1LineNo": 9,
+  "ProgId": "nisi",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 393,
-  "TextLength": 513,
-  "Tooltip": "est",
-  "UdefIdentity": 388,
-  "UDListDefinitionId": 45,
+  "ShortLabel": "omnis",
+  "TabOrder": 971,
+  "TextLength": 816,
+  "Tooltip": "consectetur",
+  "UdefIdentity": 539,
+  "UDListDefinitionId": 180,
   "Justification": "Center",
-  "Version": 475,
-  "TemplateVariableName": "Kihn-Torp",
+  "Version": 931,
+  "TemplateVariableName": "Torp-Dickens",
   "HasBeenPublished": false,
-  "MdoListName": "Wyman, Feest and Cassin",
+  "MdoListName": "Romaguera Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 282
     }
   }
 }

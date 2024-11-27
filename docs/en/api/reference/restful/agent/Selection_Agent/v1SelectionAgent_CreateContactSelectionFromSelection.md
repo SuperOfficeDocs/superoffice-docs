@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 997,
-  "Name": "Swaniawski, Gaylord and Rogahn",
+  "SelectionId": 431,
+  "Name": "Langosh, Luettgen and Mertz",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based bottom-line capability",
-  "Postit": "qui",
+  "Description": "Ameliorated non-volatile success",
+  "Postit": "occaecati",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 174,
-  "IncludePerson": 768,
+  "GroupIdx": 327,
+  "IncludePerson": 775,
   "MemberCount": 99.99,
-  "Name": "Ruecker LLC",
-  "PostitTextId": 175,
-  "CreatedDate": "2019-07-07T13:14:06.4133118+02:00",
-  "SelectionId": 981,
-  "SoundEx": "dolores",
-  "Source": 122,
-  "TextId": 465,
-  "UpdatedDate": "2008-10-28T13:14:06.4133118+01:00",
-  "UpdatedCount": 420,
-  "Visibility": 594,
+  "Name": "Casper, McGlynn and Thompson",
+  "PostitTextId": 492,
+  "CreatedDate": "2023-02-13T14:45:06.2249724+01:00",
+  "SelectionId": 158,
+  "SoundEx": "ipsam",
+  "Source": 956,
+  "TextId": 492,
+  "UpdatedDate": "2012-11-30T14:45:06.2249724+01:00",
+  "UpdatedCount": 291,
+  "Visibility": 188,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 481,
-  "TargetTableName": "Nitzsche Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 125,
+  "TargetTableName": "Nader LLC",
   "Completed": true,
-  "LeftSelectionId": 153,
-  "RightSelectionId": 861,
+  "LeftSelectionId": 694,
+  "RightSelectionId": 163,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Torp, Cole and Williamson",
-  "ShadowProviderName": "Cruickshank Inc and Sons",
-  "ChartKey": "inventore",
-  "LastLoaded": "2024-05-05T13:14:06.4133118+02:00",
-  "LastLoadedBy": 801,
+  "MainProviderName": "Nader-Mosciski",
+  "ShadowProviderName": "Powlowski-Mann",
+  "ChartKey": "quia",
+  "LastLoaded": "2004-11-29T14:45:06.2249724+01:00",
+  "LastLoadedBy": 94,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-01-19T13:14:06.4133118+01:00",
-  "LastMembershipChangeBy": 896,
+  "LastMembershipChange": "2020-12-29T14:45:06.2249724+01:00",
+  "LastMembershipChangeBy": 56,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quod",
-  "MemberTabHeading": "modi",
-  "MailingsProviderName": "Cummerata-Price",
-  "DashboardTileDefinitionId": 505,
+  "MainHeading": "temporibus",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Crooks Group",
+  "DashboardTileDefinitionId": 580,
   "VisibleFor": [
     {
-      "VisibleId": 737,
+      "VisibleId": 643,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 585
         }
       }
     },
     {
-      "VisibleId": 737,
+      "VisibleId": 643,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 585
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 783
     }
   }
 }

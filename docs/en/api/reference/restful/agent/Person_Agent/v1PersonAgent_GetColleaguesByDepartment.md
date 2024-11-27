@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 273
+  "DepartmentId": 920
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quae",
-    "PersonId": 248,
-    "Mrmrs": "repellendus",
-    "Firstname": "Trudie",
-    "Lastname": "Hammes",
-    "MiddleName": "Balistreri, Nolan and Nitzsche",
-    "Title": "est",
-    "Description": "Inverse bottom-line knowledge base",
-    "Email": "jewel.terry@dooley.ca",
-    "FullName": "Bernard Spinka",
-    "DirectPhone": "398.974.9347",
-    "FormalName": "Lubowitz, Homenick and Hermann",
-    "CountryId": 887,
-    "ContactId": 75,
-    "ContactName": "Kertzmann, Kerluke and Ullrich",
-    "Retired": 975,
-    "Rank": 705,
-    "ActiveInterests": 547,
+    "Position": "corporis",
+    "PersonId": 928,
+    "Mrmrs": "consequatur",
+    "Firstname": "Annie",
+    "Lastname": "Boyer",
+    "MiddleName": "Ward-Bode",
+    "Title": "earum",
+    "Description": "Optional multimedia firmware",
+    "Email": "ally.gaylord@lebsack.info",
+    "FullName": "Ms. Cindy Rhiannon VonRueden",
+    "DirectPhone": "473-730-8414 x924",
+    "FormalName": "Dooley Group",
+    "CountryId": 27,
+    "ContactId": 121,
+    "ContactName": "Kris-Smith",
+    "Retired": 187,
+    "Rank": 753,
+    "ActiveInterests": 520,
     "ContactDepartment": "",
-    "ContactCountryId": 294,
-    "ContactOrgNr": "1724355",
-    "FaxPhone": "1-013-530-2718 x083",
-    "MobilePhone": "(114)309-0539 x475",
-    "ContactPhone": "861-703-2344 x31573",
-    "AssociateName": "Jacobson, Barrows and Marks",
-    "AssociateId": 314,
-    "UsePersonAddress": false,
-    "ContactFax": "beatae",
-    "Kanafname": "cum",
-    "Kanalname": "porro",
-    "Post1": "unde",
-    "Post2": "consequatur",
-    "Post3": "cumque",
-    "EmailName": "desmond@gleichner.info",
-    "ContactFullName": "Jaida Grady Jr.",
-    "ActiveErpLinks": 490,
-    "TicketPriorityId": 826,
-    "SupportLanguageId": 466,
-    "SupportAssociateId": 317,
+    "ContactCountryId": 808,
+    "ContactOrgNr": "1157252",
+    "FaxPhone": "527.993.7946",
+    "MobilePhone": "136.204.2267 x633",
+    "ContactPhone": "670.652.3807 x898",
+    "AssociateName": "Nikolaus Inc and Sons",
+    "AssociateId": 147,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "animi",
+    "Kanalname": "consequatur",
+    "Post1": "cumque",
+    "Post2": "iure",
+    "Post3": "cupiditate",
+    "EmailName": "nona_stoltenberg@osinski.biz",
+    "ContactFullName": "Monica Dickinson",
+    "ActiveErpLinks": 698,
+    "TicketPriorityId": 340,
+    "SupportLanguageId": 876,
+    "SupportAssociateId": 791,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldLength": 368
       }
     }
   }

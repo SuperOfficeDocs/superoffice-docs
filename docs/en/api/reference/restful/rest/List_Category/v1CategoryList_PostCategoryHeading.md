@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 485,
-  "Name": "Kessler-Windler",
-  "Tooltip": "quaerat",
+  "HeadingId": 304,
+  "Name": "Abbott LLC",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 32,
-  "UdListDefinitionId": 673
+  "Rank": 653,
+  "UdListDefinitionId": 581
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 735,
-  "Name": "Bechtelar, Thiel and Schmeler",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 618,
-  "UdListDefinitionId": 949,
+  "HeadingId": 946,
+  "Name": "Hudson Inc and Sons",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 937,
+  "UdListDefinitionId": 240,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 685
     }
   }
 }

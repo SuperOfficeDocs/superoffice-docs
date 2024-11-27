@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.TestConnection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.TestConnection'>TestConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.TestConnection'>TestConnection</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeTestConnection
 ```cs

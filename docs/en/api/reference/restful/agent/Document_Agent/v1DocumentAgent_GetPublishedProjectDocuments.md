@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 893
+  "ProjectId": 72
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 658,
-    "Attention": "quia",
-    "Header": "reprehenderit",
-    "Name": "Windler-Bartoletti",
-    "OurRef": "eveniet",
-    "YourRef": "commodi",
-    "Description": "Persistent encompassing protocol",
-    "DocumentTemplate": "eligendi",
-    "IsPublished": false,
-    "PersonId": 220,
-    "PersonFullName": "Mathias Boehm",
-    "AssociateFullName": "Karli Wilkinson",
-    "ContactId": 399,
-    "ContactName": "Bode-Jenkins",
-    "ProjectId": 664,
-    "ProjectName": "Stracke, Herzog and Lueilwitz",
-    "AssociateId": 262,
-    "Snum": 444,
-    "SaleId": 921,
-    "SaleName": "Ward-Huel",
+    "DocumentId": 352,
+    "Attention": "similique",
+    "Header": "ab",
+    "Name": "Hintz-Abshire",
+    "OurRef": "numquam",
+    "YourRef": "assumenda",
+    "Description": "Operative intangible ability",
+    "DocumentTemplate": "dignissimos",
+    "IsPublished": true,
+    "PersonId": 172,
+    "PersonFullName": "Mrs. Erik O'Keefe V",
+    "AssociateFullName": "Dr. Lester June Hoeger",
+    "ContactId": 89,
+    "ContactName": "Rogahn Inc and Sons",
+    "ProjectId": 67,
+    "ProjectName": "Bergstrom, Walter and Simonis",
+    "AssociateId": 551,
+    "Snum": 850,
+    "SaleId": 956,
+    "SaleName": "Gleason-Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 595
+        "FieldLength": 469
       }
     }
   }

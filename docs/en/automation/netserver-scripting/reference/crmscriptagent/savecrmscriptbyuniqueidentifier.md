@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.SaveCRMScriptByUniqueIdentifier
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier'>SaveCRMScriptByUniqueIdentifier</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier'>SaveCRMScriptByUniqueIdentifier</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeSaveCRMScriptByUniqueIdentifier
 ```cs

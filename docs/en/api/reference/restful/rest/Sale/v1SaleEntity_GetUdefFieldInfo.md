@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 618,
-  "ColumnId": 682,
-  "FieldDefault": "iure",
-  "FieldHeight": 495,
-  "FieldLabel": "corporis",
-  "FieldLeft": 938,
-  "FieldTop": 126,
+  "UDefFieldId": 131,
+  "ColumnId": 551,
+  "FieldDefault": "et",
+  "FieldHeight": 697,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 86,
+  "FieldTop": 519,
   "FieldType": "Checkbox",
-  "FieldWidth": 452,
-  "FormatMask": "amet",
+  "FieldWidth": 724,
+  "FormatMask": "sint",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 208,
-  "LabelLeft": 746,
-  "LabelTop": 703,
-  "LabelWidth": 172,
-  "LastVersionId": 961,
-  "ListTableId": 430,
+  "LabelHeight": 166,
+  "LabelLeft": 632,
+  "LabelTop": 190,
+  "LabelWidth": 859,
+  "LastVersionId": 104,
+  "ListTableId": 676,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 220,
-  "ProgId": "vel",
+  "Page1LineNo": 64,
+  "ProgId": "eaque",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 721,
-  "TextLength": 674,
-  "Tooltip": "atque",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 384,
+  "ShortLabel": "harum",
+  "TabOrder": 920,
+  "TextLength": 541,
+  "Tooltip": "possimus",
+  "UdefIdentity": 186,
+  "UDListDefinitionId": 536,
   "Justification": "Center",
-  "Version": 289,
-  "TemplateVariableName": "Volkman-Bosco",
+  "Version": 446,
+  "TemplateVariableName": "Wolf, Bernhard and Smith",
   "HasBeenPublished": false,
-  "MdoListName": "Schneider, Huel and Balistreri",
+  "MdoListName": "Corkery, Parker and Dare",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 663
     }
   }
 }

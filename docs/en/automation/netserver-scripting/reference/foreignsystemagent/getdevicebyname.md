@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.GetDeviceByName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName'>GetDeviceByName</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.GetDeviceByName'>GetDeviceByName</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeGetDeviceByName
 ```cs

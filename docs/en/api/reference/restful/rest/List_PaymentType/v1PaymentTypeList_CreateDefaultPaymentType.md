@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Name": "Graham, Schneider and Hettinger",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 252,
-  "Rank": 306,
+  "Id": 467,
+  "Name": "Beier-Collins",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 567,
+  "Rank": 999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

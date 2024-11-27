@@ -94,40 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 57,
-    "Name": "Doyle Group",
-    "Rank": 790,
-    "Tooltip": "qui",
-    "Icon": "autem",
-    "DefaultTicketStatus": 337,
+    "TicketTypeId": 6,
+    "Name": "Boyle-Leuschke",
+    "Rank": 243,
+    "Tooltip": "voluptas",
+    "Icon": "est",
+    "DefaultTicketStatus": 126,
     "TicketStatuses": [
-      585,
-      959
+      381,
+      906
     ],
-    "DefaultTicketPriority": 320,
+    "DefaultTicketPriority": 685,
     "TicketPriorities": [
-      447,
-      263
+      674,
+      972
     ],
-    "ReplyTemplate": 788,
-    "IsExternalVisible": true,
-    "IsDefault": false,
+    "ReplyTemplate": 126,
+    "IsExternalVisible": false,
+    "IsDefault": true,
     "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      772,
-      583
+      739,
+      358
     ],
     "ReplyForwardNoSignature": true,
-    "ReplyExternalAsDefault": false,
+    "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldType": "System.Int32",
+        "FieldLength": 797
       }
     }
   }

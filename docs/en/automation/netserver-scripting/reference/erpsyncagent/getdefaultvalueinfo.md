@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetDefaultValueInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo'>GetDefaultValueInfo</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetDefaultValueInfo'>GetDefaultValueInfo</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetDefaultValueInfo
 ```cs

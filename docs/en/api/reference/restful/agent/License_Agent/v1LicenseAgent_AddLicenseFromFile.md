@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "deleniti"
+  "FileContent": "quo"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "harness impactful markets",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 482,
-      "NumberOfLicensesFree": 774,
-      "NumberOfLicensesAdded": 286,
-      "NumberOfLicensesNewTotal": 521,
-      "NumberOfLicensesNewFree": 665,
-      "NumberOfLicensesTotal": 633
+      "NumberOfLicensesInUse": 954,
+      "NumberOfLicensesFree": 260,
+      "NumberOfLicensesAdded": 70,
+      "NumberOfLicensesNewTotal": 526,
+      "NumberOfLicensesNewFree": 444,
+      "NumberOfLicensesTotal": 727
     }
   ],
-  "AccumulatedNextCheckDate": "2002-12-12T13:14:06.0539158+01:00"
+  "AccumulatedNextCheckDate": "2010-08-25T14:45:05.6625978+02:00"
 }
 ```

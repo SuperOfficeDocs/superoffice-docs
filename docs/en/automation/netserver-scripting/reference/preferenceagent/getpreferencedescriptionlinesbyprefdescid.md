@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId'>GetPreferenceDescriptionLinesByPrefDescId</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId'>GetPreferenceDescriptionLinesByPrefDescId</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeGetPreferenceDescriptionLinesByPrefDescId
 ```cs

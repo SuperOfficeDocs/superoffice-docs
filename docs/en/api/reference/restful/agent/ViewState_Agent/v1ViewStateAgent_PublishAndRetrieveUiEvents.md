@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 943,
+  "LatestKnownEventId": 950,
   "PublishEvents": [
     {
-      "EventId": 44,
-      "EventName": "Ankunding-Carroll",
-      "EntityType": "modi",
-      "EntityKey": 396,
-      "AssociateId": 615,
-      "AssociateName": "Schowalter LLC",
-      "EventDateTime": "2012-09-05T13:14:06.7570832+02:00"
+      "EventId": 321,
+      "EventName": "Crooks Group",
+      "EntityType": "vel",
+      "EntityKey": 294,
+      "AssociateId": 944,
+      "AssociateName": "Reinger Group",
+      "EventDateTime": "2007-08-14T14:45:06.7248613+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Beatty LLC",
-      "Value": 826
+      "Name": "Botsford LLC",
+      "Value": 817
     },
     {
-      "Name": "Beatty LLC",
-      "Value": 826
+      "Name": "Botsford LLC",
+      "Value": 817
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 153,
-    "EventName": "Hyatt-Hermann",
-    "EntityType": "vitae",
-    "EntityKey": 245,
-    "AssociateId": 70,
-    "AssociateName": "Yundt Inc and Sons",
-    "EventDateTime": "2022-02-21T13:14:06.7570832+01:00",
+    "EventId": 899,
+    "EventName": "Olson, Mann and Padberg",
+    "EntityType": "sequi",
+    "EntityKey": 434,
+    "AssociateId": 284,
+    "AssociateName": "Dickens-Lindgren",
+    "EventDateTime": "2002-07-31T14:45:06.7248613+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

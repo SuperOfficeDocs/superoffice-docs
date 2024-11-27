@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 781,
-  "BlobSize": 571,
-  "Description": "Down-sized heuristic database",
-  "ExtraInfo": "iste",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "ullam",
-  "OriginalSize": 351,
-  "CreatedDate": "1999-07-21T13:14:10.6954061+02:00",
-  "UpdatedDate": "2024-02-14T13:14:10.6954061+01:00",
+  "BlobId": 410,
+  "BlobSize": 235,
+  "Description": "Assimilated dedicated approach",
+  "ExtraInfo": "qui",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "autem",
+  "OriginalSize": 727,
+  "CreatedDate": "2018-11-26T14:45:12.6151129+01:00",
+  "UpdatedDate": "2010-11-08T14:45:12.6151129+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui"
+  "ConceptualType": "adipisci"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 925,
-  "BlobSize": 467,
-  "Description": "Mandatory zero defect strategy",
-  "ExtraInfo": "quis",
+  "BlobId": 608,
+  "BlobSize": 621,
+  "Description": "Centralized context-sensitive access",
+  "ExtraInfo": "natus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ducimus",
-  "OriginalSize": 746,
-  "CreatedDate": "2009-10-10T13:14:10.6954061+02:00",
-  "UpdatedDate": "2018-01-08T13:14:10.6954061+01:00",
+  "MimeType": "iure",
+  "OriginalSize": 224,
+  "CreatedDate": "2002-11-18T14:45:12.6151129+01:00",
+  "UpdatedDate": "2003-06-02T14:45:12.6151129+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vitae",
+  "ConceptualType": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

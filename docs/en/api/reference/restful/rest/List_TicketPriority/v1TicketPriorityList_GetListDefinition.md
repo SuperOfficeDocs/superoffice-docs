@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Kuhlman-Littel",
-  "Tooltip": "molestias",
+  "Id": 607,
+  "Name": "Leffler Group",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 784,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 900,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 966
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.RegenerateIndex
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex'>RegenerateIndex</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.RegenerateIndex'>RegenerateIndex</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeRegenerateIndex
 ```cs

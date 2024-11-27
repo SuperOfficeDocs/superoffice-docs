@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 56,
-    "Name": "Kozey, Medhurst and Bahringer",
-    "Tooltip": "deleniti",
-    "Rank": 317,
-    "Key": "temporibus",
-    "MailTemplateId": 979,
-    "Deleted": true,
+    "ConsentSourceId": 168,
+    "Name": "Stokes-Hoppe",
+    "Tooltip": "qui",
+    "Rank": 953,
+    "Key": "maiores",
+    "MailTemplateId": 671,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldType": "System.Int32",
+        "FieldLength": 275
       }
     }
   }

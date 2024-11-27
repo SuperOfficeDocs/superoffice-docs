@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wiegand-Miller",
-  "UsergroupId": 304,
+  "UdListDefinitionName": "Cremin, Hickle and Hickle",
+  "UsergroupId": 850,
   "ListItemsID": [
-    311,
-    900
+    874,
+    686
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.CreateSelectionFromSelection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection'>CreateSelectionFromSelection</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.CreateSelectionFromSelection'>CreateSelectionFromSelection</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeCreateSelectionFromSelection
 ```cs

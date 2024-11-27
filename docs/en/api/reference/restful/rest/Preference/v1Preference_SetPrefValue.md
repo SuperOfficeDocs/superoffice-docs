@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "laborum",
+  "RawValue": "non",
   "Specification": null,
-  "DisplayValue": "ea",
-  "DisplayTooltip": "ut",
+  "DisplayValue": "eius",
+  "DisplayTooltip": "eos",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 231,
-  "PrefDescId": 834,
-  "TableName": "Kuphal, Larson and VonRueden",
-  "UserPreferenceId": 96
+  "TargetId": 982,
+  "PrefDescId": 818,
+  "TableName": "Murray-Crooks",
+  "UserPreferenceId": 286
 }
 ```
 

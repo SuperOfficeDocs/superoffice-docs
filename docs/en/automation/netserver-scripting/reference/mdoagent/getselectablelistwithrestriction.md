@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MDOAgent.GetSelectableListWithRestriction
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction'>GetSelectableListWithRestriction</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMDOAgent.GetSelectableListWithRestriction'>GetSelectableListWithRestriction</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
 
 ## BeforeGetSelectableListWithRestriction
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PhoneListAgent.SearchWithPreferences
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPhoneListAgent.SearchWithPreferences'>SearchWithPreferences</see> method on the <see cref='IPhoneListAgent'>IPhoneListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPhoneListAgent.SearchWithPreferences'>SearchWithPreferences</see> method on the <see cref='IPhoneListAgent'>IPhoneListAgent</see>  service agent.
 
 ## BeforeSearchWithPreferences
 ```cs

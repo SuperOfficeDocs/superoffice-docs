@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 304,
-  "Name": "Price LLC",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "UdListDefinitionId": 219,
-  "Rank": 521,
+  "Id": 740,
+  "Name": "Larson Inc and Sons",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "UdListDefinitionId": 401,
+  "Rank": 449,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldType": "System.String",
+      "FieldLength": 432
     }
   }
 }

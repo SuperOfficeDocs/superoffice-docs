@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 838,
-    "Name": "Mann, Block and Heaney",
-    "Tooltip": "reprehenderit",
-    "Rank": 821,
-    "Key": "ut",
-    "Deleted": true,
+    "LegalBaseId": 383,
+    "Name": "Leannon Group",
+    "Tooltip": "porro",
+    "Rank": 73,
+    "Key": "accusamus",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

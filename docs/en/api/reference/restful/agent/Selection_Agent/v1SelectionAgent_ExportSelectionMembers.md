@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 536,
-  "TemplateName": "Champlin Inc and Sons",
-  "UseContacts": true
+  "SelectionId": 952,
+  "TemplateName": "Murphy, Bayer and Wuckert",
+  "UseContacts": false
 }
 ```
 

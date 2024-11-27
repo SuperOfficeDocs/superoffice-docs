@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Yundt, Johnson and Sporer",
-    "ToolTip": "Voluptatibus qui.",
+    "Id": 361,
+    "Name": "Fisher, Heaney and Collier",
+    "ToolTip": "Ut quisquam aliquam.",
     "Deleted": false,
-    "Rank": 845,
-    "Type": "sunt",
-    "ColorBlock": 650,
-    "IconHint": "omnis",
+    "Rank": 851,
+    "Type": "architecto",
+    "ColorBlock": 294,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2003-01-06T13:14:11.5392071+01:00",
+    "LastChanged": "2004-09-29T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Rogahn, Padberg and Haag",
-        "ToolTip": "Repudiandae sit qui et.",
-        "Deleted": false,
-        "Rank": 449,
-        "Type": "et",
-        "ColorBlock": 717,
-        "IconHint": "nihil",
+        "Id": 152,
+        "Name": "Lindgren LLC",
+        "ToolTip": "Ratione culpa.",
+        "Deleted": true,
+        "Rank": 660,
+        "Type": "aut",
+        "ColorBlock": 331,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2013-08-19T13:14:11.5392071+02:00",
+        "LastChanged": "1998-02-21T14:45:13.9273199+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "neque",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Nico Carroll"
+        "FullName": "Mrs. Josefina Alyce Purdy"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "atque",
+    "ExtraInfo": "est",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Tabitha Cruickshank"
+    "FullName": "Gay Keeling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Carroll LLC",
-    "ToolTip": "Sunt et fugit.",
+    "Id": 955,
+    "Name": "Adams-Fadel",
+    "ToolTip": "Autem tempore.",
     "Deleted": true,
-    "Rank": 580,
-    "Type": "corrupti",
-    "ColorBlock": 700,
-    "IconHint": "illum",
+    "Rank": 313,
+    "Type": "quia",
+    "ColorBlock": 399,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2019-10-14T13:14:11.5392071+02:00",
+    "LastChanged": "2023-06-21T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Nienow, Abbott and Wehner",
-        "ToolTip": "Voluptatem nihil soluta quis.",
+        "Id": 681,
+        "Name": "Bernhard-Vandervort",
+        "ToolTip": "Et sit optio quisquam.",
         "Deleted": true,
-        "Rank": 408,
-        "Type": "laudantium",
-        "ColorBlock": 237,
-        "IconHint": "eum",
+        "Rank": 117,
+        "Type": "porro",
+        "ColorBlock": 228,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2003-03-14T13:14:11.5392071+01:00",
+        "LastChanged": "2004-09-09T14:45:13.9273199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Mr. Muhammad Abbott",
+        "ExtraInfo": "maiores",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Angus Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "itaque",
+    "ExtraInfo": "qui",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Mrs. Tommie Junius Cassin MD",
+    "FullName": "Mrs. Keyon Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 839
       }
     }
   }

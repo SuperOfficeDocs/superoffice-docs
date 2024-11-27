@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "perferendis",
-    "Type": "voluptatem",
-    "Description": "Universal dedicated support",
+    "DisplayType": "eius",
+    "Type": "magnam",
+    "Description": "Advanced 24 hour alliance",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

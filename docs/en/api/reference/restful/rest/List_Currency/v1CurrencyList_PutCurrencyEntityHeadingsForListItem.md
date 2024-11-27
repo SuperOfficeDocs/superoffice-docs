@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Swift, Abbott and Batz",
-    "ToolTip": "A excepturi accusantium modi vitae qui quia reprehenderit.",
-    "Deleted": true,
-    "Rank": 704,
-    "Type": "aperiam",
-    "ColorBlock": 469,
-    "IconHint": "consequatur",
+    "Id": 668,
+    "Name": "Monahan-Ullrich",
+    "ToolTip": "Sed nostrum quae in.",
+    "Deleted": false,
+    "Rank": 270,
+    "Type": "laborum",
+    "ColorBlock": 395,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2024-10-13T13:14:11.3829471+02:00",
+    "LastChanged": "2018-10-31T14:45:13.6617546+01:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Pfannerstill, Reynolds and Breitenberg",
-        "ToolTip": "Dolor adipisci adipisci temporibus doloremque.",
+        "Id": 1002,
+        "Name": "Daugherty, Parker and Adams",
+        "ToolTip": "Necessitatibus beatae unde quos in eligendi sunt.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "temporibus",
-        "ColorBlock": 70,
-        "IconHint": "in",
+        "Rank": 27,
+        "Type": "et",
+        "ColorBlock": 658,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2001-01-05T13:14:11.3829471+01:00",
+        "LastChanged": "2000-03-29T14:45:13.6617546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "qui",
+        "ExtraInfo": "nisi",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Felton Parisian"
+        "FullName": "Cooper Cassin"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "rem",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Mrs. Wendell Erik Deckow"
+    "FullName": "Mrs. Lauryn Mueller DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Satterfield-Hartmann",
-    "ToolTip": "Asperiores at dolor natus.",
+    "Id": 894,
+    "Name": "Heller-Stehr",
+    "ToolTip": "Ipsam dignissimos facilis et in tempora odio.",
     "Deleted": false,
-    "Rank": 709,
-    "Type": "veniam",
-    "ColorBlock": 62,
-    "IconHint": "quia",
+    "Rank": 339,
+    "Type": "numquam",
+    "ColorBlock": 673,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "1997-08-07T13:14:11.3829471+02:00",
+    "LastChanged": "1998-10-07T14:45:13.6617546+02:00",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Schiller-Mayert",
-        "ToolTip": "Nesciunt sed delectus fuga.",
-        "Deleted": true,
-        "Rank": 353,
-        "Type": "accusamus",
-        "ColorBlock": 163,
-        "IconHint": "veniam",
+        "Id": 32,
+        "Name": "Padberg-Littel",
+        "ToolTip": "Doloribus sint corporis.",
+        "Deleted": false,
+        "Rank": 133,
+        "Type": "minus",
+        "ColorBlock": 218,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2024-07-17T13:14:11.3829471+02:00",
+        "LastChanged": "2021-04-08T14:45:13.6617546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Nicola Ebert Jr.",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Janiya Jeffery Tromp DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 176
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Mr. Mossie Emilia Gleason MD",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "vitae",
+    "Hidden": false,
+    "FullName": "Clarabelle Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldType": "System.Int32",
+        "FieldLength": 943
       }
     }
   }

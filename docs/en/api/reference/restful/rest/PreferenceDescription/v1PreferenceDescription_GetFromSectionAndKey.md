@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 230,
-  "Section": "aut",
-  "Key": "rerum",
-  "Name": "Mayer LLC",
+  "PrefDescId": 248,
+  "Section": "eos",
+  "Key": "illo",
+  "Name": "Will, Armstrong and Ankunding",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-lateral bi-directional application",
+  "Description": "Object-based bottom-line open system",
   "IsBuiltin": false,
-  "TableName": "Kuvalis Group",
-  "UserDefinedListId": 748,
-  "Rank": 622,
-  "SubGroup": "quisquam",
-  "MinLevel": 871,
-  "MaxValue": 105,
-  "MinValue": 684,
-  "RequiredLicense": "quod",
+  "TableName": "Bosco LLC",
+  "UserDefinedListId": 491,
+  "Rank": 753,
+  "SubGroup": "autem",
+  "MinLevel": 464,
+  "MaxValue": 872,
+  "MinValue": 855,
+  "RequiredLicense": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

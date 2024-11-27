@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=160
+GET /api/v1/Person/{personId}/Summary?limit=91
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 193,
-      "TicketStatus": 447,
-      "Title": "velit",
-      "Registered": "2023-01-05T13:14:10.8985434+01:00",
-      "IconHint": "perferendis"
+      "TicketId": 752,
+      "TicketStatus": 823,
+      "Title": "dolorum",
+      "Registered": "1998-01-09T14:45:12.9275431+01:00",
+      "IconHint": "error"
     },
     {
-      "TicketId": 193,
-      "TicketStatus": 447,
-      "Title": "velit",
-      "Registered": "2023-01-05T13:14:10.8985434+01:00",
-      "IconHint": "perferendis"
+      "TicketId": 752,
+      "TicketStatus": 823,
+      "Title": "dolorum",
+      "Registered": "1998-01-09T14:45:12.9275431+01:00",
+      "IconHint": "error"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 58,
-      "DocumentId": 225,
-      "Date": "2020-05-18T13:14:10.8985434+02:00",
-      "Description": "Polarised 24/7 database",
+      "AppointmentId": 53,
+      "DocumentId": 141,
+      "Date": "2021-07-13T14:45:12.9275431+02:00",
+      "Description": "Exclusive secondary concept",
       "Completed": "Completed",
-      "Registered": "2022-11-15T13:14:10.8985434+01:00"
+      "Registered": "2004-12-31T14:45:12.9275431+01:00"
     },
     {
-      "AppointmentId": 58,
-      "DocumentId": 225,
-      "Date": "2020-05-18T13:14:10.8985434+02:00",
-      "Description": "Polarised 24/7 database",
+      "AppointmentId": 53,
+      "DocumentId": 141,
+      "Date": "2021-07-13T14:45:12.9275431+02:00",
+      "Description": "Exclusive secondary concept",
       "Completed": "Completed",
-      "Registered": "2022-11-15T13:14:10.8985434+01:00"
+      "Registered": "2004-12-31T14:45:12.9275431+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 182,
-      "DocumentId": 541,
-      "Date": "2002-12-23T13:14:10.8985434+01:00",
-      "Description": "Proactive upward-trending policy",
+      "AppointmentId": 294,
+      "DocumentId": 118,
+      "Date": "2003-12-09T14:45:12.9275431+01:00",
+      "Description": "Customizable uniform encryption",
       "Completed": "Completed",
-      "Registered": "2017-09-25T13:14:10.8985434+02:00"
+      "Registered": "2012-12-05T14:45:12.9275431+01:00"
     },
     {
-      "AppointmentId": 182,
-      "DocumentId": 541,
-      "Date": "2002-12-23T13:14:10.8985434+01:00",
-      "Description": "Proactive upward-trending policy",
+      "AppointmentId": 294,
+      "DocumentId": 118,
+      "Date": "2003-12-09T14:45:12.9275431+01:00",
+      "Description": "Customizable uniform encryption",
       "Completed": "Completed",
-      "Registered": "2017-09-25T13:14:10.8985434+02:00"
+      "Registered": "2012-12-05T14:45:12.9275431+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 447,
-      "SaleDate": "2018-10-06T13:14:10.8985434+02:00",
-      "Probability": 806,
-      "Heading": "earum",
-      "Amount": 18199.138,
-      "Currency": "aliquid",
-      "AmountInBaseCurrency": 21527.446,
+      "SaleId": 402,
+      "SaleDate": "2007-07-02T14:45:12.9275431+02:00",
+      "Probability": 797,
+      "Heading": "nulla",
+      "Amount": 22129.174,
+      "Currency": "officia",
+      "AmountInBaseCurrency": 2347.366,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2020-02-27T13:14:10.8985434+01:00"
+      "Registered": "2021-06-11T14:45:12.9275431+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 796,
-      "Name": "Brown-Keebler",
-      "CompanyName": "Champlin, Kris and Lesch",
-      "FirstMessage": "dolore",
-      "LastMessage": "blanditiis",
-      "WhenRequested": "2007-10-25T13:14:10.8985434+02:00",
-      "WhenEnded": "2009-12-18T13:14:10.8985434+01:00"
+      "ChatSessionId": 57,
+      "Name": "Schamberger Inc and Sons",
+      "CompanyName": "Rippin LLC",
+      "FirstMessage": "ut",
+      "LastMessage": "nostrum",
+      "WhenRequested": "2020-03-25T14:45:12.9275431+01:00",
+      "WhenEnded": "2017-03-18T14:45:12.9275431+01:00"
     }
   ]
 }

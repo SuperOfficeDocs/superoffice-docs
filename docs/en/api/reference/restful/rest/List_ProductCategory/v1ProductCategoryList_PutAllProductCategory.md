@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Rempel Inc and Sons",
-    "Tooltip": "ullam",
+    "Id": 232,
+    "Name": "Vandervort, Mertz and Mayer",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 733
+    "UdListDefinitionId": 704,
+    "Rank": 33
   },
   {
-    "Id": 571,
-    "Name": "Rempel Inc and Sons",
-    "Tooltip": "ullam",
+    "Id": 232,
+    "Name": "Vandervort, Mertz and Mayer",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 673,
-    "Rank": 733
+    "UdListDefinitionId": 704,
+    "Rank": 33
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "DuBuque-Mohr",
-    "Tooltip": "praesentium",
+    "Id": 533,
+    "Name": "Flatley, Russel and Monahan",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 812,
-    "Rank": 673,
+    "UdListDefinitionId": 175,
+    "Rank": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 386
       }
     }
   }

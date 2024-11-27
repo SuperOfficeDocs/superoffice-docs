@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Padberg, Bogisich and Pfannerstill",
+  "Name": "Hegmann Inc and Sons",
   "ForceFlatList": true,
-  "AdditionalInfo": "dolorem",
+  "AdditionalInfo": "qui",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Wilderman-Ward",
-    "ToolTip": "Dignissimos ratione dolore quis.",
+    "Id": 589,
+    "Name": "Turcotte, Gusikowski and Zemlak",
+    "ToolTip": "Eos et culpa veniam nemo.",
     "Deleted": false,
-    "Rank": 910,
-    "Type": "eligendi",
+    "Rank": 545,
+    "Type": "ratione",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Mills, Prosacco and Casper",
-        "ToolTip": "Dolore unde non quidem numquam minus.",
+        "Id": 126,
+        "Name": "Botsford, Greenfelder and Reynolds",
+        "ToolTip": "Quasi quo totam ad ipsum.",
         "Deleted": false,
-        "Rank": 195,
-        "Type": "modi",
+        "Rank": 287,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 183,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "dolores",
-        "FullName": "Mrs. Olen Jast",
+        "IconHint": "modi",
+        "ColorBlock": 189,
+        "ExtraInfo": "maiores",
+        "StyleHint": "vel",
+        "FullName": "Mrs. Tad Grady V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 468
+            "FieldLength": 453
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 837,
-    "ExtraInfo": "non",
-    "StyleHint": "alias",
-    "FullName": "Mr. Lucile Hammes III",
+    "IconHint": "repellendus",
+    "ColorBlock": 698,
+    "ExtraInfo": "sit",
+    "StyleHint": "veniam",
+    "FullName": "Dr. Mathias Hilma Larkin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 56
       }
     }
   }

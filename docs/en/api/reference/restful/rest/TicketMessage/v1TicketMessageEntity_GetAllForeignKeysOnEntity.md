@@ -55,7 +55,7 @@ OK
 GET /api/v1/TicketMessage/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quaerat",
-  "2": "ducimus"
+  "1": "ut",
+  "2": "consequuntur"
 }
 ```

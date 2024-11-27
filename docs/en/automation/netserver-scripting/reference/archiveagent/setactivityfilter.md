@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.SetActivityFilter
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter'>SetActivityFilter</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.SetActivityFilter'>SetActivityFilter</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeSetActivityFilter
 ```cs

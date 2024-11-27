@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Luettgen Inc and Sons",
-  "Tooltip": "praesentium",
+  "Id": 236,
+  "Name": "Harris Group",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 237,
+  "Rank": 273,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Pacocha, Hyatt and O'Keefe",
-  "Tooltip": "facilis",
+  "Id": 149,
+  "Name": "Berge LLC",
+  "Tooltip": "totam",
   "Deleted": true,
-  "Rank": 798,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 153,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eveniet",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

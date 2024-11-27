@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.EventHandlerExists
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists'>EventHandlerExists</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.EventHandlerExists'>EventHandlerExists</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeEventHandlerExists
 ```cs

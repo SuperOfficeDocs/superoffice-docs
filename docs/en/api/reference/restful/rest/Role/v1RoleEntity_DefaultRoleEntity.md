@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 277,
-  "Name": "Corkery LLC",
-  "Tooltip": "eos",
+  "RoleId": 819,
+  "Name": "Ledner-Renner",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 414,
-  "Rank": 738,
-  "Created": "2004-02-16T13:14:10.9454212+01:00",
-  "UseCategories": 912,
+  "Deleted": 493,
+  "Rank": 136,
+  "Created": "2009-04-30T14:45:12.9900307+02:00",
+  "UseCategories": 861,
   "CreatedBy": null,
-  "Updated": "2016-02-18T13:14:10.9454212+01:00",
+  "Updated": "2006-09-29T14:45:12.9900307+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 869
     }
   }
 }

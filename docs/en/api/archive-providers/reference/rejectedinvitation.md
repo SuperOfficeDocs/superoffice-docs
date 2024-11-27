@@ -724,11 +724,14 @@ This is an optional entity and is fetched only if the user checks the correspond
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=contact/business,person/firstName,person/retired,person/personUrl/URLDescription,person/personAssociate/ejUserId
+GET /api/v1/archive/RejectedInvitation?$select=date,appointmentPublish/publishedFrom,contact/email/emailHasBounced,contact/contactUdef/SuperOffice:13,contact/contactExtra/y_organization/x_name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

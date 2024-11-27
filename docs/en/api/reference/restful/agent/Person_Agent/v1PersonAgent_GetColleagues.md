@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "commodi",
-    "PersonId": 532,
-    "Mrmrs": "accusantium",
-    "Firstname": "Willie",
-    "Lastname": "Kuvalis",
-    "MiddleName": "Ziemann, Jerde and Schmeler",
-    "Title": "sunt",
-    "Description": "Organic clear-thinking matrix",
-    "Email": "jeanette_rolfson@corkerymorar.com",
-    "FullName": "Ms. Buck Mayra Kshlerin",
-    "DirectPhone": "363-081-3473",
-    "FormalName": "Mosciski-Hamill",
-    "CountryId": 707,
-    "ContactId": 87,
-    "ContactName": "Sporer-Ankunding",
-    "Retired": 601,
-    "Rank": 82,
-    "ActiveInterests": 855,
+    "Position": "alias",
+    "PersonId": 812,
+    "Mrmrs": "deserunt",
+    "Firstname": "Berta",
+    "Lastname": "Barton",
+    "MiddleName": "Gleason, Wisozk and Stiedemann",
+    "Title": "qui",
+    "Description": "De-engineered interactive utilisation",
+    "Email": "erika.greenholt@tremblayorn.ca",
+    "FullName": "Emely Schmidt",
+    "DirectPhone": "944.123.8523",
+    "FormalName": "Murazik, Erdman and Champlin",
+    "CountryId": 122,
+    "ContactId": 815,
+    "ContactName": "Wiegand, VonRueden and Goldner",
+    "Retired": 363,
+    "Rank": 668,
+    "ActiveInterests": 716,
     "ContactDepartment": "",
-    "ContactCountryId": 191,
-    "ContactOrgNr": "152273",
-    "FaxPhone": "1-870-195-4202 x1920",
-    "MobilePhone": "935-629-3271",
-    "ContactPhone": "181-297-7735",
-    "AssociateName": "Kub-Padberg",
-    "AssociateId": 204,
-    "UsePersonAddress": true,
-    "ContactFax": "quisquam",
-    "Kanafname": "odit",
-    "Kanalname": "omnis",
-    "Post1": "veritatis",
-    "Post2": "aut",
-    "Post3": "adipisci",
-    "EmailName": "hayley@durgan.com",
-    "ContactFullName": "Jayme Langosh",
-    "ActiveErpLinks": 165,
-    "TicketPriorityId": 98,
-    "SupportLanguageId": 991,
-    "SupportAssociateId": 562,
+    "ContactCountryId": 780,
+    "ContactOrgNr": "591975",
+    "FaxPhone": "651-682-8119",
+    "MobilePhone": "(804)847-1959",
+    "ContactPhone": "1-163-910-7798",
+    "AssociateName": "Ziemann, Crooks and Rogahn",
+    "AssociateId": 123,
+    "UsePersonAddress": false,
+    "ContactFax": "optio",
+    "Kanafname": "perspiciatis",
+    "Kanalname": "aut",
+    "Post1": "accusantium",
+    "Post2": "asperiores",
+    "Post3": "laborum",
+    "EmailName": "margie.wiegand@klein.name",
+    "ContactFullName": "Mr. Stanley Lucienne Runte",
+    "ActiveErpLinks": 358,
+    "TicketPriorityId": 811,
+    "SupportLanguageId": 423,
+    "SupportAssociateId": 878,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 699
       }
     }
   }

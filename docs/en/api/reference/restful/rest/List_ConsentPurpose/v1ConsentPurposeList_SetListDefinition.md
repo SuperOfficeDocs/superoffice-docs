@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 728,
-  "Name": "Conn Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 315,
+  "Name": "O'Reilly, Littel and White",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 818,
+  "Rank": 169,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false
+  "ListType": "adipisci",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Greenfelder Group",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 411,
+  "Id": 727,
+  "Name": "Schiller-Nitzsche",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 917,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ab",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 641
     }
   }
 }

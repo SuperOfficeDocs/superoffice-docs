@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 861,
-  "Name": "Denesik LLC",
-  "Rank": 858,
-  "Tooltip": "a",
+  "AssociateId": 172,
+  "Name": "Kohler-Crooks",
+  "Rank": 504,
+  "Tooltip": "cumque",
   "LicenseOwners": [
     {
-      "Name": "Abshire Group",
-      "Description": "Ergonomic needs-based middleware",
+      "Name": "Greenholt Inc and Sons",
+      "Description": "Right-sized human-resource matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 6
         }
       }
     },
     {
-      "Name": "Abshire Group",
-      "Description": "Ergonomic needs-based middleware",
+      "Name": "Greenholt Inc and Sons",
+      "Description": "Right-sized human-resource matrix",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 6
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "facilis",
-      "Tooltip": "illo",
-      "Id": 767,
-      "Rank": 719,
+      "Value": "dolorum",
+      "Tooltip": "placeat",
+      "Id": 507,
+      "Rank": 587,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 503
+          "FieldLength": 820
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2002-09-20T13:14:11.273566+02:00",
-  "Lastlogout": "2013-10-07T13:14:11.273566+02:00",
-  "EjUserId": 666,
-  "RequestSignature": "odio",
+  "Deleted": false,
+  "Lastlogin": "2002-11-19T14:45:13.5055398+01:00",
+  "Lastlogout": "2019-03-27T14:45:13.5055398+01:00",
+  "EjUserId": 573,
+  "RequestSignature": "at",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ipsam",
-      "DisplayValue": "aut",
+      "Value": "odit",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldLength": 83
         }
       }
     },
     {
       "Type": null,
-      "Value": "ipsam",
-      "DisplayValue": "aut",
+      "Value": "odit",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldLength": 83
         }
       }
     }
   ],
-  "UserName": "Mann, Monahan and Greenholt",
+  "UserName": "Satterfield, Tromp and Wyman",
   "TicketCategories": [
     {
-      "Id": 304,
-      "Name": "Larkin-Kshlerin",
-      "ToolTip": "Enim ipsa rerum voluptatem.",
+      "Id": 12,
+      "Name": "Bergnaum, Strosin and Shanahan",
+      "ToolTip": "In totam aut adipisci rerum commodi amet saepe.",
       "Deleted": true,
-      "Rank": 58,
-      "Type": "cumque",
+      "Rank": 221,
+      "Type": "odit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 398,
-      "ExtraInfo": "iusto",
-      "StyleHint": "sint",
-      "FullName": "Miss Adolphus Claire Deckow II",
+      "IconHint": "quod",
+      "ColorBlock": 592,
+      "ExtraInfo": "sed",
+      "StyleHint": "eligendi",
+      "FullName": "Mrs. Virgie Lew Schoen II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 277
         }
       }
     }
   ],
-  "NickName": "Ankunding, Grady and Witting",
+  "NickName": "Wisozk LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "velit",
+    "CustomFields2": "voluptatibus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schiller, Lemke and Jacobi",
-      "DisplayName": "Feeney LLC",
-      "Description": "Centralized mission-critical system engine",
-      "ToolTip": "Eum aliquam illo sed sit accusantium.",
+      "Name": "Kerluke-Johns",
+      "DisplayName": "Weissnat, Moore and Mosciski",
+      "Description": "Reduced foreground installation",
+      "ToolTip": "Rerum aperiam quae nulla eos amet.",
       "Actions": "Implicit",
-      "ActionData": "debitis",
+      "ActionData": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 640
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

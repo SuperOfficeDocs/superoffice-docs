@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Collins LLC",
-  "StorageKey": "sequi",
+  "StorageType": "fuga",
+  "ProviderName": "Hermann-Metz",
+  "StorageKey": "ex",
   "StaticColumns": [
-    "facilis",
-    "accusamus"
+    "minus",
+    "unde"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Aufderhar-Rowe",
-      "Operator": "aspernatur",
+      "Name": "Lindgren, Jewess and Aufderhar",
+      "Operator": "magni",
       "Values": [
-        "corrupti",
-        "sunt"
+        "id",
+        "facere"
       ],
       "DisplayValues": [
-        "et",
-        "corporis"
+        "dolores",
+        "aliquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 181,
+      "InterParenthesis": 388,
       "InterOperator": "And",
-      "UniqueHash": 701
+      "UniqueHash": 425
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stamm, Gulgowski and Osinski",
-      "DisplayTooltip": "earum",
-      "DisplayType": "quos",
+      "DisplayName": "Bogisich Group",
+      "DisplayTooltip": "ab",
+      "DisplayType": "veniam",
       "CanOrderBy": false,
-      "Name": "Wolf Inc and Sons",
+      "Name": "Mann, O'Kon and Lind",
       "CanRestrictBy": true,
-      "RestrictionType": "vitae",
-      "RestrictionListName": "Smith LLC",
-      "IsVisible": false,
-      "ExtraInfo": "doloribus",
-      "Width": "quibusdam",
-      "IconHint": "blanditiis",
-      "HeadingIconHint": "necessitatibus"
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Schmitt, Bartell and Medhurst",
+      "IsVisible": true,
+      "ExtraInfo": "aut",
+      "Width": "commodi",
+      "IconHint": "accusantium",
+      "HeadingIconHint": "nostrum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jerde-Hickle",
-      "PrimaryKey": 955,
+      "EntityName": "Berge Group",
+      "PrimaryKey": 444,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "est",
-          "LinkHint": "laborum"
+          "DisplayValue": "inventore",
+          "TooltipHint": "culpa",
+          "LinkHint": "praesentium"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "numquam",
+      "LinkHint": "voluptas",
+      "StyleHint": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldLength": 1001
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Smith-Romaguera",
-      "Description": "Sharable solution-oriented product",
-      "Rank": 815,
+      "Name": "Effertz LLC",
+      "Description": "Phased incremental function",
+      "Rank": 937,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Smith-Romaguera",
-      "Description": "Sharable solution-oriented product",
-      "Rank": 815,
+      "Name": "Effertz LLC",
+      "Description": "Phased incremental function",
+      "Rank": 937,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldLength": 764
     }
   }
 }

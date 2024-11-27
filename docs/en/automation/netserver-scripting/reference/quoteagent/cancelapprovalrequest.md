@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CancelApprovalRequest
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CancelApprovalRequest'>CancelApprovalRequest</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CancelApprovalRequest'>CancelApprovalRequest</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCancelApprovalRequest
 ```cs

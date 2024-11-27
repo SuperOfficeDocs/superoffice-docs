@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.CreateDefaultTicketPriorityEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.CreateDefaultTicketPriorityEntity'>CreateDefaultTicketPriorityEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.CreateDefaultTicketPriorityEntity'>CreateDefaultTicketPriorityEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeCreateDefaultTicketPriorityEntity
 ```cs

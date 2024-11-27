@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 989,
-    "ColumnId": 731,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 113,
+    "UDefFieldId": 620,
+    "ColumnId": 347,
+    "FieldDefault": "quod",
+    "FieldHeight": 858,
     "FieldLabel": "voluptatem",
-    "FieldLeft": 240,
-    "FieldTop": 885,
+    "FieldLeft": 599,
+    "FieldTop": 876,
     "FieldType": "Checkbox",
-    "FieldWidth": 382,
-    "FormatMask": "veritatis",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 491,
-    "LabelLeft": 46,
-    "LabelTop": 192,
-    "LabelWidth": 889,
-    "LastVersionId": 526,
-    "ListTableId": 770,
+    "FieldWidth": 476,
+    "FormatMask": "corrupti",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 628,
+    "LabelLeft": 776,
+    "LabelTop": 357,
+    "LabelWidth": 856,
+    "LastVersionId": 421,
+    "ListTableId": 165,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 445,
-    "ProgId": "fugit",
-    "IsReadOnly": false,
-    "ShortLabel": "ut",
-    "TabOrder": 438,
-    "TextLength": 180,
-    "Tooltip": "vel",
-    "UdefIdentity": 460,
-    "UDListDefinitionId": 181,
+    "Page1LineNo": 809,
+    "ProgId": "debitis",
+    "IsReadOnly": true,
+    "ShortLabel": "sunt",
+    "TabOrder": 229,
+    "TextLength": 177,
+    "Tooltip": "et",
+    "UdefIdentity": 336,
+    "UDListDefinitionId": 935,
     "Justification": "Center",
-    "Version": 58,
-    "TemplateVariableName": "Lockman LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Kovacek-Rutherford",
+    "Version": 156,
+    "TemplateVariableName": "Thompson Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Jakubowski, O'Kon and Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 71
       }
     }
   }

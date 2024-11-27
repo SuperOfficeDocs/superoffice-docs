@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 261,
-  "Name": "Becker, Prosacco and Mante",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 658,
-  "UdListDefinitionId": 111
+  "HeadingId": 150,
+  "Name": "Leannon LLC",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 651,
+  "UdListDefinitionId": 999
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 461,
-  "Name": "Dickinson, Tremblay and Monahan",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 984,
-  "UdListDefinitionId": 295,
+  "HeadingId": 569,
+  "Name": "Rodriguez Inc and Sons",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 231,
+  "UdListDefinitionId": 848,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 1000
     }
   }
 }

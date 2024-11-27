@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.GetMyCallerIDs
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.GetMyCallerIDs'>GetMyCallerIDs</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.GetMyCallerIDs'>GetMyCallerIDs</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeGetMyCallerIDs
 ```cs

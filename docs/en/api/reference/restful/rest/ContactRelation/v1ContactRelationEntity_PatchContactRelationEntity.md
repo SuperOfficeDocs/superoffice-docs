@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "facere",
+    "path": "libero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "facere",
+    "path": "libero",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 863,
-  "SourcePersonId": 518,
-  "DestinationContactId": 123,
-  "DestinationPersonId": 541,
-  "RelationId": 138,
-  "Comment": "suscipit",
-  "RelationDefinitionId": 783,
-  "Reversed": 92,
-  "UpdatedDate": "1997-08-16T13:14:10.7735359+02:00",
-  "CreatedDate": "2007-09-13T13:14:10.7735359+02:00",
+  "SourceContactId": 468,
+  "SourcePersonId": 258,
+  "DestinationContactId": 538,
+  "DestinationPersonId": 557,
+  "RelationId": 41,
+  "Comment": "qui",
+  "RelationDefinitionId": 89,
+  "Reversed": 681,
+  "UpdatedDate": "2008-06-20T14:45:12.7244655+02:00",
+  "CreatedDate": "2001-11-14T14:45:12.7244655+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Predovic LLC",
-  "SourcePersonName": "Koepp-Leannon",
-  "DestinationContactName": "Botsford-Greenholt",
-  "DestinationPersonName": "Russel Group",
-  "ActiveText": "libero",
-  "PassiveText": "nisi",
+  "SourceContactName": "Padberg, Lubowitz and Upton",
+  "SourcePersonName": "Lang LLC",
+  "DestinationContactName": "Ullrich Group",
+  "DestinationPersonName": "McKenzie Group",
+  "ActiveText": "cum",
+  "PassiveText": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 338
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

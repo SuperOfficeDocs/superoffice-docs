@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Williamson, Feeney and Bauch",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "UdListDefinitionId": 747,
-  "Rank": 218,
+  "Id": 630,
+  "Name": "Labadie, Abbott and Rogahn",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "UdListDefinitionId": 37,
+  "Rank": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

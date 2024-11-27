@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 594
+  "SelectionId": 579
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murphy LLC",
-    "Description": "Monitored zero administration benchmark",
-    "Rank": 579,
+    "Name": "Mosciski, Luettgen and Nolan",
+    "Description": "Expanded exuding pricing structure",
+    "Rank": 128,
     "Restrictions": [
       {
-        "Name": "Turner, Kub and Rutherford",
-        "Operator": "et",
+        "Name": "Kreiger Inc and Sons",
+        "Operator": "voluptate",
         "Values": [
-          "laborum",
-          "et"
+          "velit",
+          "commodi"
         ],
         "DisplayValues": [
-          "beatae",
-          "qui"
+          "corporis",
+          "deleniti"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 755,
         "InterOperator": "And",
-        "UniqueHash": 924
+        "UniqueHash": 100
       }
     ]
   },
   {
-    "Name": "Murphy LLC",
-    "Description": "Monitored zero administration benchmark",
-    "Rank": 579,
+    "Name": "Mosciski, Luettgen and Nolan",
+    "Description": "Expanded exuding pricing structure",
+    "Rank": 128,
     "Restrictions": [
       {
-        "Name": "Turner, Kub and Rutherford",
-        "Operator": "et",
+        "Name": "Kreiger Inc and Sons",
+        "Operator": "voluptate",
         "Values": [
-          "laborum",
-          "et"
+          "velit",
+          "commodi"
         ],
         "DisplayValues": [
-          "beatae",
-          "qui"
+          "corporis",
+          "deleniti"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 49,
+        "InterParenthesis": 755,
         "InterOperator": "And",
-        "UniqueHash": 924
+        "UniqueHash": 100
       }
     ]
   }

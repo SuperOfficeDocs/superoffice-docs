@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.OfferAutoNextStageOnApppointmentCompleted
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted'>OfferAutoNextStageOnApppointmentCompleted</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.OfferAutoNextStageOnApppointmentCompleted'>OfferAutoNextStageOnApppointmentCompleted</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeOfferAutoNextStageOnApppointmentCompleted
 ```cs

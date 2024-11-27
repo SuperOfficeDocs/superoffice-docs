@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 478,
+  "EjMessageId": 93,
   "Ticket": null,
-  "CreatedAt": "2009-11-24T13:14:11.1798105+01:00",
+  "CreatedAt": "2024-06-17T14:45:13.3649466+02:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "saepe",
-  "TimeSpent": 865,
-  "Body": "est",
-  "HtmlBody": "quibusdam",
-  "EmailHeader": "skye@hegmann.us",
-  "DebugInfo": "laboriosam",
-  "MailSorter": "expedita",
+  "MessageId": "iure",
+  "TimeSpent": 603,
+  "Body": "quidem",
+  "HtmlBody": "sint",
+  "EmailHeader": "mohammed.runolfsson@kundevon.com",
+  "DebugInfo": "aspernatur",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "laboriosam",
+  "SearchTitle": "id",
   "MessageHeaders": [
     {
-      "Id": 227,
-      "Name": "Ratke-Welch",
-      "Value": "dolorem",
+      "Id": 648,
+      "Name": "Wuckert-Mosciski",
+      "Value": "aperiam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 713
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "animi",
-  "Sentiment": 438,
-  "SentimentConfidence": 354,
+  "Important": true,
+  "Language": "eum",
+  "Sentiment": 921,
+  "SentimentConfidence": 889,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 89,
-      "Name": "Schamberger LLC",
-      "ContentType": "et",
-      "AttSize": 969,
-      "InlineImage": true,
-      "ContentId": "omnis",
-      "AuthKey": "voluptatem",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 694,
+      "Name": "Durgan LLC",
+      "ContentType": "occaecati",
+      "AttSize": 26,
+      "InlineImage": false,
+      "ContentId": "repellat",
+      "AuthKey": "voluptatum",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldType": "System.String",
+          "FieldLength": 25
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "accusamus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ProjectAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IProjectAgent'>ProjectAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IProjectAgent'>ProjectAgent</see> that can trigger server-side event scripts.
 
 * [AddProjectMembers](addprojectmembers.md)
 * [CreateDefaultProjectEntity](createdefaultprojectentity.md)

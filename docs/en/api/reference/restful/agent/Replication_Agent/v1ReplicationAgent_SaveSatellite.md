@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 510,
-  "Created": "2018-06-25T13:14:06.3508082+02:00",
+  "SatelliteId": 529,
+  "Created": "2022-11-15T14:45:06.0999998+01:00",
   "CreatedBy": null,
-  "Updated": "2002-06-13T13:14:06.3508082+02:00",
+  "Updated": "2022-10-23T14:45:06.0999998+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Denesik Inc and Sons",
-      "Description": "Focused local implementation",
+      "Name": "Bartoletti-Wiza",
+      "Description": "Proactive 24/7 time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Denesik Inc and Sons",
-      "Description": "Focused local implementation",
+      "Name": "Bartoletti-Wiza",
+      "Description": "Proactive 24/7 time-frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 980,
-  "Created": "2009-07-13T13:14:06.3508082+02:00",
+  "SatelliteId": 665,
+  "Created": "2024-06-14T14:45:06.0999998+02:00",
   "CreatedBy": null,
-  "Updated": "2016-07-08T13:14:06.3508082+02:00",
+  "Updated": "2005-09-14T14:45:06.0999998+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Treutel, Davis and Kuphal",
-      "Description": "Realigned value-added help-desk",
+      "Name": "Skiles, Braun and Haley",
+      "Description": "Decentralized leading edge firmware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldLength": 512
         }
       }
     },
     {
-      "Name": "Treutel, Davis and Kuphal",
-      "Description": "Realigned value-added help-desk",
+      "Name": "Skiles, Braun and Haley",
+      "Description": "Decentralized leading edge firmware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldLength": 512
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 657
     }
   }
 }

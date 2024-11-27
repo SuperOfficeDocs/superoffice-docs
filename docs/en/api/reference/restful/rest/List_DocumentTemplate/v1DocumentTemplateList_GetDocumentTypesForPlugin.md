@@ -56,7 +56,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}/DocumentTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -66,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "enim",
-  "2": "minima"
+  "1": "ea",
+  "2": "autem"
 }
 ```

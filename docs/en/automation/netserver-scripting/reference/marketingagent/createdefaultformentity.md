@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.CreateDefaultFormEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity'>CreateDefaultFormEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.CreateDefaultFormEntity'>CreateDefaultFormEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeCreateDefaultFormEntity
 ```cs

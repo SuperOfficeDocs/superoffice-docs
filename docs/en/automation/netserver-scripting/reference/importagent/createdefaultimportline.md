@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ImportAgent.CreateDefaultImportLine
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine'>CreateDefaultImportLine</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IImportAgent.CreateDefaultImportLine'>CreateDefaultImportLine</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
 
 ## BeforeCreateDefaultImportLine
 ```cs

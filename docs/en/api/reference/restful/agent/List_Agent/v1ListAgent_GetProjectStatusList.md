@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetProjectStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Value": "qui",
-    "Tooltip": "ab",
+    "Id": 250,
+    "Value": "in",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 961
       }
     }
   },
   {
-    "Id": 75,
-    "Value": "qui",
-    "Tooltip": "ab",
+    "Id": 250,
+    "Value": "in",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 961
       }
     }
   }

@@ -172,8 +172,8 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:CategoryName xsi:type="xsd:string"></User:CategoryName>
     </User:Person>
     <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
-    <User:Lastlogin xsi:type="xsd:dateTime">2024-10-28T12:13:44Z</User:Lastlogin>
-    <User:Lastlogout xsi:type="xsd:dateTime">2024-10-28T12:13:44Z</User:Lastlogout>
+    <User:Lastlogin xsi:type="xsd:dateTime">2024-11-18T13:44:43Z</User:Lastlogin>
+    <User:Lastlogout xsi:type="xsd:dateTime">2024-11-18T13:44:43Z</User:Lastlogout>
     <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
     <User:RequestSignature xsi:type="xsd:string"></User:RequestSignature>
     <User:Type xsi:type="User:UserType">Unknown</User:Type>

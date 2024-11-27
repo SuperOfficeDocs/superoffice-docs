@@ -10,7 +10,7 @@ so.envir: onsite
 
 # LicenseAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ILicenseAgent'>LicenseAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ILicenseAgent'>LicenseAgent</see> that can trigger server-side event scripts.
 
 * [ActivateLicenseInfo](activatelicenseinfo.md)
 * [AddLicenseFromFile](addlicensefromfile.md)

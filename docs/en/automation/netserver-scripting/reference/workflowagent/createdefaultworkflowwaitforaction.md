@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.CreateDefaultWorkflowWaitForAction
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction'>CreateDefaultWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.CreateDefaultWorkflowWaitForAction'>CreateDefaultWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeCreateDefaultWorkflowWaitForAction
 ```cs

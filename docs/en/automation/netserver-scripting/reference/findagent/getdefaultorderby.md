@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.GetDefaultOrderBy
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.GetDefaultOrderBy'>GetDefaultOrderBy</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.GetDefaultOrderBy'>GetDefaultOrderBy</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeGetDefaultOrderBy
 ```cs

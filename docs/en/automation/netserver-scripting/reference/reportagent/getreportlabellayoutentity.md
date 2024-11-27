@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReportAgent.GetReportLabelLayoutEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity'>GetReportLabelLayoutEntity</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReportAgent.GetReportLabelLayoutEntity'>GetReportLabelLayoutEntity</see> method on the <see cref='IReportAgent'>IReportAgent</see>  service agent.
 
 ## BeforeGetReportLabelLayoutEntity
 ```cs

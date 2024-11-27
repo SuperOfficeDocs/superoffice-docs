@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 556,
-  "WorkflowId": 91,
+  "WorkflowTriggerId": 464,
+  "WorkflowId": 174,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Yundt Inc and Sons",
-      "Description": "Inverse system-worthy concept",
-      "Rank": 371,
+      "Name": "Wehner-Reichert",
+      "Description": "Optimized bifurcated concept",
+      "Rank": 122,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Yundt Inc and Sons",
-      "Description": "Inverse system-worthy concept",
-      "Rank": 371,
+      "Name": "Wehner-Reichert",
+      "Description": "Optimized bifurcated concept",
+      "Rank": 122,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

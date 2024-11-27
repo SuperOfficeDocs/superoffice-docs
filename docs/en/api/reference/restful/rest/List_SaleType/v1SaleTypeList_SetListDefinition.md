@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Rohan-Gorczany",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 550,
+  "Id": 315,
+  "Name": "Schneider, Kutch and McCullough",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 611,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 923,
-  "Name": "Lynch Group",
-  "Tooltip": "et",
+  "Id": 900,
+  "Name": "Kuhic, Kessler and Conroy",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 731,
+  "Rank": 336,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "optio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "fugiat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   }
 }

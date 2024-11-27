@@ -87,37 +87,37 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Smith-Prosacco",
-  "Context": "dolore",
+  "ProviderName": "Abshire Group",
+  "Context": "recusandae",
   "DesiredEntities": [
-    "et",
-    "quae"
+    "aut",
+    "harum"
   ],
   "Columns": [
-    "qui",
-    "aut"
+    "cupiditate",
+    "quo"
   ],
   "SortOrder": [
     {
-      "Name": "Pfannerstill Inc and Sons",
+      "Name": "Grant-Rau",
       "Direction": "ASC"
     },
     {
-      "Name": "Pfannerstill Inc and Sons",
+      "Name": "Grant-Rau",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Koelpin, Abernathy and Rowe",
+      "Name": "Koelpin, Shanahan and Mayert",
       "Operator": "et",
       "Values": [
-        "voluptates",
-        "dignissimos"
+        "quis",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "nihil",
-        "fuga"
+        "itaque",
+        "accusamus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 781,
+      "InterParenthesis": 787,
       "InterOperator": "And",
-      "UniqueHash": 949
+      "UniqueHash": 15
     }
   ],
-  "ExportType": "quidem",
+  "ExportType": "inventore",
   "SelectedRowIds": [
-    "distinctio",
-    "deleniti"
+    "soluta",
+    "sed"
   ],
-  "EstimatedRowCount": 887
+  "EstimatedRowCount": 708
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 804,
-  "FileName": "Veum, Schaden and Sporer",
-  "Message": "iusto",
+  "BatchTaskId": 42,
+  "FileName": "Corwin-Carroll",
+  "Message": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 366
     }
   }
 }

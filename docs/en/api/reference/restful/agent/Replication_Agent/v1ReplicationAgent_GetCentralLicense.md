@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Paucek Group",
-    "Description": "Public-key secondary conglomeration",
+    "Name": "DuBuque-Bernier",
+    "Description": "Networked tertiary project",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 171,
-        "Tooltip": "quos",
-        "CanAssign": true,
-        "Free": 434,
-        "InUse": 161,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 587,
+        "Tooltip": "corrupti",
+        "CanAssign": false,
+        "Free": 960,
+        "InUse": 245,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 276,
-        "Name": "Skiles-Waters",
-        "Description": "Digitized foreground core",
-        "PrerequisiteModuleName": "Kilback-Conroy",
-        "SortOrder": 428,
-        "ExtraFlags": 551,
+        "ModuleLicenseId": 96,
+        "Name": "Kshlerin, Ferry and Volkman",
+        "Description": "Distributed interactive alliance",
+        "PrerequisiteModuleName": "Doyle-Feil",
+        "SortOrder": 371,
+        "ExtraFlags": 324,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 906
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 398,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 510,
-        "InUse": 876,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 572,
-        "Name": "Kuphal LLC",
-        "Description": "Operative 6th generation standardization",
-        "PrerequisiteModuleName": "Lebsack, Ryan and Lebsack",
-        "SortOrder": 94,
-        "ExtraFlags": 944,
+        "Unrestricted": false,
+        "Total": 481,
+        "Tooltip": "laudantium",
+        "CanAssign": true,
+        "Free": 713,
+        "InUse": 377,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 985,
+        "Name": "Larkin-Howe",
+        "Description": "Down-sized needs-based capability",
+        "PrerequisiteModuleName": "Gutmann-Zemlak",
+        "SortOrder": 616,
+        "ExtraFlags": 512,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 212
+            "FieldLength": 101
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 238
       }
     }
   },
   {
-    "Name": "Paucek Group",
-    "Description": "Public-key secondary conglomeration",
+    "Name": "DuBuque-Bernier",
+    "Description": "Networked tertiary project",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 171,
-        "Tooltip": "quos",
-        "CanAssign": true,
-        "Free": 434,
-        "InUse": 161,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 587,
+        "Tooltip": "corrupti",
+        "CanAssign": false,
+        "Free": 960,
+        "InUse": 245,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 276,
-        "Name": "Skiles-Waters",
-        "Description": "Digitized foreground core",
-        "PrerequisiteModuleName": "Kilback-Conroy",
-        "SortOrder": 428,
-        "ExtraFlags": 551,
+        "ModuleLicenseId": 96,
+        "Name": "Kshlerin, Ferry and Volkman",
+        "Description": "Distributed interactive alliance",
+        "PrerequisiteModuleName": "Doyle-Feil",
+        "SortOrder": 371,
+        "ExtraFlags": 324,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 501
+            "FieldType": "System.Int32",
+            "FieldLength": 906
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 398,
-        "Tooltip": "et",
-        "CanAssign": false,
-        "Free": 510,
-        "InUse": 876,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 572,
-        "Name": "Kuphal LLC",
-        "Description": "Operative 6th generation standardization",
-        "PrerequisiteModuleName": "Lebsack, Ryan and Lebsack",
-        "SortOrder": 94,
-        "ExtraFlags": 944,
+        "Unrestricted": false,
+        "Total": 481,
+        "Tooltip": "laudantium",
+        "CanAssign": true,
+        "Free": 713,
+        "InUse": 377,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 985,
+        "Name": "Larkin-Howe",
+        "Description": "Down-sized needs-based capability",
+        "PrerequisiteModuleName": "Gutmann-Zemlak",
+        "SortOrder": 616,
+        "ExtraFlags": 512,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 212
+            "FieldLength": 101
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 238
       }
     }
   }

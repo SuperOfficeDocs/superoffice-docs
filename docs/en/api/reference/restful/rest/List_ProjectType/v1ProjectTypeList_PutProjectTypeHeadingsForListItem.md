@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Mertz, Osinski and Parker",
-    "ToolTip": "Sint laudantium quia explicabo magni porro.",
+    "Id": 566,
+    "Name": "Block-Rosenbaum",
+    "ToolTip": "Delectus pariatur ut mollitia.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "et",
-    "ColorBlock": 243,
-    "IconHint": "voluptas",
+    "Rank": 409,
+    "Type": "in",
+    "ColorBlock": 456,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2021-08-26T13:14:11.4923293+02:00",
+    "LastChanged": "2005-03-05T14:45:13.833594+01:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Pfannerstill LLC",
-        "ToolTip": "Voluptate nostrum.",
+        "Id": 129,
+        "Name": "Hoppe, Lueilwitz and Robel",
+        "ToolTip": "Officia facere sed.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "nemo",
-        "ColorBlock": 458,
-        "IconHint": "alias",
+        "Rank": 162,
+        "Type": "fuga",
+        "ColorBlock": 901,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2015-12-16T13:14:11.4923293+01:00",
+        "LastChanged": "2014-10-10T14:45:13.833594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "placeat",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Prof. Angelica Gerson Williamson MD"
+        "FullName": "Sterling Zieme"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "hic",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Susana Monroe Altenwerth I"
+    "FullName": "Shanie Parisian"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Kassulke-Abbott",
-    "ToolTip": "Consequuntur accusantium.",
-    "Deleted": true,
-    "Rank": 778,
-    "Type": "maiores",
-    "ColorBlock": 606,
-    "IconHint": "cupiditate",
+    "Id": 661,
+    "Name": "Lakin LLC",
+    "ToolTip": "Est autem laborum earum eum fuga voluptatem sed.",
+    "Deleted": false,
+    "Rank": 211,
+    "Type": "eum",
+    "ColorBlock": 421,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2002-07-08T13:14:11.4923293+02:00",
+    "LastChanged": "2009-12-15T14:45:13.833594+01:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Tillman, O'Connell and Cartwright",
-        "ToolTip": "Ut accusantium sed voluptates eos magnam.",
-        "Deleted": true,
-        "Rank": 102,
-        "Type": "illo",
-        "ColorBlock": 128,
-        "IconHint": "dignissimos",
+        "Id": 595,
+        "Name": "Reynolds LLC",
+        "ToolTip": "Quis vel reiciendis sit unde non assumenda et.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "molestiae",
+        "ColorBlock": 617,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2014-10-24T13:14:11.4923293+02:00",
+        "LastChanged": "2022-01-13T14:45:13.833594+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "facilis",
+        "ExtraInfo": "dolores",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Stefan Hettinger Sr.",
+        "FullName": "Krystal Goyette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldType": "System.String",
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "minima",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Elmore Conn",
+    "FullName": "Prof. Hadley Walton Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldType": "System.String",
+        "FieldLength": 244
       }
     }
   }

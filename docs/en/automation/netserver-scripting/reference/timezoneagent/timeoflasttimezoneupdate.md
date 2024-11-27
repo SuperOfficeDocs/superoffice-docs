@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.TimeOfLastTimeZoneUpdate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate'>TimeOfLastTimeZoneUpdate</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.TimeOfLastTimeZoneUpdate'>TimeOfLastTimeZoneUpdate</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeTimeOfLastTimeZoneUpdate
 ```cs

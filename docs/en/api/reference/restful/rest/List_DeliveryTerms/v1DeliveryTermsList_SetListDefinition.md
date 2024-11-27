@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Herman Group",
-  "Tooltip": "et",
+  "Id": 229,
+  "Name": "Bechtelar-Larkin",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 939,
+  "Rank": 572,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false
+  "ListType": "modi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Daugherty, Jacobs and Reinger",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "Rank": 219,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 781,
+  "Name": "Hansen Inc and Sons",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "Rank": 39,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nisi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 169
     }
   }
 }

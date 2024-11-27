@@ -91,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 170,
-  "Name": "Senger Inc and Sons",
-  "Tooltip": "facilis",
+  "RoleId": 422,
+  "Name": "Boehm-Lubowitz",
+  "Tooltip": "repellat",
   "RoleType": "Anonymous",
-  "Deleted": 722,
-  "Rank": 497,
-  "Created": "2018-06-15T13:14:06.6945788+02:00",
-  "UseCategories": 487,
+  "Deleted": 802,
+  "Rank": 747,
+  "Created": "2023-11-13T14:45:06.6311318+01:00",
+  "UseCategories": 501,
   "CreatedBy": null,
-  "Updated": "2023-02-22T13:14:06.6945788+01:00",
+  "Updated": "2014-07-13T14:45:06.6311318+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 493,
-  "Name": "Dooley Inc and Sons",
-  "Tooltip": "minus",
+  "RoleId": 79,
+  "Name": "Boyle Inc and Sons",
+  "Tooltip": "eaque",
   "RoleType": "Anonymous",
-  "Deleted": 2,
-  "Rank": 252,
-  "Created": "2022-09-10T13:14:06.6945788+02:00",
-  "UseCategories": 59,
+  "Deleted": 523,
+  "Rank": 289,
+  "Created": "2018-12-12T14:45:06.6311318+01:00",
+  "UseCategories": 187,
   "CreatedBy": null,
-  "Updated": "2023-04-12T13:14:06.6945788+02:00",
+  "Updated": "2021-07-19T14:45:06.6311318+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

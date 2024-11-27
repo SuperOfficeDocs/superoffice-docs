@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetCompetitors
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetCompetitors'>GetCompetitors</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetCompetitors'>GetCompetitors</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetCompetitors
 ```cs

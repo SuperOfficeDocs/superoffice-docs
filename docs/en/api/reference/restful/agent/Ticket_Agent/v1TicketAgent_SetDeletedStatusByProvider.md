@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heathcote Group",
+  "ProviderName": "Gislason, Grimes and Orn",
   "Restrictions": [
     {
-      "Name": "Morar Group",
-      "Operator": "corporis",
+      "Name": "DuBuque, Stroman and Pagac",
+      "Operator": "possimus",
       "Values": [
-        "excepturi",
-        "distinctio"
+        "itaque",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "natus",
-        "hic"
+        "in",
+        "ipsum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 889,
+      "InterParenthesis": 315,
       "InterOperator": "And",
-      "UniqueHash": 243
+      "UniqueHash": 671
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  133,
-  595
+  89,
+  632
 ]
 ```

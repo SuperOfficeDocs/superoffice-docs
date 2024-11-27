@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sunt",
-  "2": "labore"
+  "1": "non",
+  "2": "voluptas"
 }
 ```

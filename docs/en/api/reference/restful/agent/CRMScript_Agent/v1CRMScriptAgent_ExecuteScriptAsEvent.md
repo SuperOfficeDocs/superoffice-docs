@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 848,
+  "CRMScriptId": 34,
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "autem",
-    "InputValues2": "qui"
+    "InputValues1": "repudiandae",
+    "InputValues2": "non"
   },
   "BlockExecution": false,
-  "NavigateTo": "omnis",
-  "Message": "consequatur",
-  "ShowDialog": "animi",
+  "NavigateTo": "ea",
+  "Message": "laborum",
+  "ShowDialog": "iure",
   "OutputValues": {
-    "OutputValues1": "eius",
-    "OutputValues2": "eos"
+    "OutputValues1": "delectus",
+    "OutputValues2": "impedit"
   },
   "StateValues": {
-    "StateValues1": "minima",
-    "StateValues2": "sapiente"
+    "StateValues1": "sed",
+    "StateValues2": "facere"
   },
-  "Exception": "aut",
+  "Exception": "maiores",
   "ParserValues": {
-    "ParserValues1": "dicta",
-    "ParserValues2": "alias"
+    "ParserValues1": "aut",
+    "ParserValues2": "sit"
   },
   "CgiVariables": {
-    "CgiVariables1": "fuga",
-    "CgiVariables2": "exercitationem"
+    "CgiVariables1": "officia",
+    "CgiVariables2": "quibusdam"
   },
-  "CgiContent": "animi",
+  "CgiContent": "amet",
   "Headers": {
-    "Headers1": "ducimus",
-    "Headers2": "autem"
+    "Headers1": "voluptas",
+    "Headers2": "consequuntur"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldLength": 580
     }
   }
 }

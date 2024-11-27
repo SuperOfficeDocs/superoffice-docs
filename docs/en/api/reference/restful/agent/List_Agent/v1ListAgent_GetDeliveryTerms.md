@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Value": "autem",
-    "Tooltip": "magnam",
+    "Id": 40,
+    "Value": "sed",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   },
   {
-    "Id": 406,
-    "Value": "autem",
-    "Tooltip": "magnam",
+    "Id": 40,
+    "Value": "sed",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

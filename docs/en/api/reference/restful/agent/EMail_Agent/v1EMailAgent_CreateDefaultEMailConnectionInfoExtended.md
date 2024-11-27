@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 536,
-  "ServerName": "Botsford, Nitzsche and Hagenes",
-  "Protocol": "consequatur",
-  "UserName": "Gerhold Group",
-  "Password": "velit",
-  "UseSSL": false,
-  "Folder": "dignissimos",
+  "Port": 648,
+  "ServerName": "Heathcote LLC",
+  "Protocol": "qui",
+  "UserName": "Harris LLC",
+  "Password": "voluptatem",
+  "UseSSL": true,
+  "Folder": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldLength": 363
     }
   }
 }

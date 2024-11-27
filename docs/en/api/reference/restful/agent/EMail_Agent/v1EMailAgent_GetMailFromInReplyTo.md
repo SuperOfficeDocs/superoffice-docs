@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ipsum"
+  "MessageId": "suscipit"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 908,
-      "ContactName": "Becker, Lubowitz and Marks",
-      "PersonId": 983,
-      "PersonName": "Huels Group",
-      "AssociateId": 670,
-      "Address": "architecto",
-      "EmailId": 214,
+      "ContactId": 489,
+      "ContactName": "Koelpin Group",
+      "PersonId": 87,
+      "PersonName": "Ruecker-Mitchell",
+      "AssociateId": 30,
+      "Address": "veniam",
+      "EmailId": 574,
       "DuplicatePersonIds": [
-        965,
-        464
+        366,
+        348
       ],
-      "Name": "Keeling-Kozey",
+      "Name": "Herzog-Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 933,
-      "ContactName": "Jakubowski, Raynor and Schneider",
-      "PersonId": 277,
-      "PersonName": "Hahn-Weimann",
-      "AssociateId": 548,
-      "Address": "ratione",
-      "EmailId": 907,
+      "ContactId": 669,
+      "ContactName": "Rutherford-Watsica",
+      "PersonId": 597,
+      "PersonName": "Denesik Inc and Sons",
+      "AssociateId": 847,
+      "Address": "sed",
+      "EmailId": 532,
       "DuplicatePersonIds": [
-        74,
-        930
+        932,
+        710
       ],
-      "Name": "Kuphal Group",
+      "Name": "Wisoky-Gibson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldLength": 552
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 155,
-      "ContactName": "Kub-Mayer",
-      "PersonId": 279,
-      "PersonName": "Stark LLC",
-      "AssociateId": 601,
-      "Address": "est",
-      "EmailId": 747,
+      "ContactId": 30,
+      "ContactName": "Quigley, Tremblay and Torp",
+      "PersonId": 757,
+      "PersonName": "Oberbrunner, Bernhard and Pollich",
+      "AssociateId": 432,
+      "Address": "placeat",
+      "EmailId": 181,
       "DuplicatePersonIds": [
-        657,
-        840
+        906,
+        34
       ],
-      "Name": "Schoen-Ankunding",
+      "Name": "Stehr, Beer and Kuphal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 74
         }
       }
     }
   ],
-  "Subject": "velit",
-  "HTMLBody": "dignissimos",
+  "Subject": "ut",
+  "HTMLBody": "dolore",
   "From": null,
-  "Sent": "2004-01-23T13:14:05.9445336+01:00",
-  "Size": 372,
+  "Sent": "2013-04-14T14:45:05.4751404+02:00",
+  "Size": 960,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "labore",
-  "PlainBody": "soluta",
+  "MessageID": "laboriosam",
+  "PlainBody": "iste",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 22,
+  "ServerId": 490,
   "Attachments": [
     {
-      "Description": "Re-contextualized intangible firmware",
-      "Filename": "consequatur",
-      "Size": 414,
-      "Type": "officia",
-      "Encoding": "error",
-      "Id": "blanditiis",
-      "Disposition": "sapiente",
+      "Description": "Networked grid-enabled project",
+      "Filename": "amet",
+      "Size": 180,
+      "Type": "dolores",
+      "Encoding": "labore",
+      "Id": "culpa",
+      "Disposition": "voluptatem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 655
+          "FieldLength": 272
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Champlin Inc and Sons",
+      "Name": "Denesik, Schiller and Schimmel",
       "Values": [
-        "distinctio",
-        "et"
+        "tempora",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldLength": 659
         }
       }
     },
     {
-      "Name": "Champlin Inc and Sons",
+      "Name": "Denesik, Schiller and Schimmel",
       "Values": [
-        "distinctio",
-        "et"
+        "tempora",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldLength": 659
         }
       }
     }
   ],
-  "FolderName": "Wisozk Inc and Sons",
-  "EmailItemId": 367,
-  "AccountId": 703,
-  "ReceivedAt": "2013-11-25T13:14:05.9445336+01:00",
+  "FolderName": "Jast, Wyman and O'Connell",
+  "EmailItemId": 931,
+  "AccountId": 669,
+  "ReceivedAt": "1999-02-14T14:45:05.4751404+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-05-31T13:14:05.9445336+02:00",
+  "RepliedAt": "1999-02-14T14:45:05.4751404+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 656
     }
   }
 }

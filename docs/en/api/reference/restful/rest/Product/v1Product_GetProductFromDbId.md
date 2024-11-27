@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 567,
-  "ERPProductKey": "quis",
-  "ERPPriceListKey": "qui",
-  "Name": "Waelchi-Lynch",
-  "Description": "Vision-oriented needs-based installation",
-  "Code": "expedita",
-  "PriceUnit": "repellat",
-  "QuantityUnit": "dolores",
+  "ProductId": 363,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "nulla",
+  "Name": "Langosh Group",
+  "Description": "Persevering intangible Graphic Interface",
+  "Code": "est",
+  "PriceUnit": "doloremque",
+  "QuantityUnit": "rerum",
   "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 21505.507999999998,
-  "ItemNumber": "984159",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 15359.734,
+  "ItemNumber": "1778439",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illo",
-  "ProductTypeKey": "et",
-  "VAT": 19897.766,
-  "VATInfo": "minima",
-  "UnitCost": 23834.07,
-  "UnitMinimumPrice": 15679.402,
-  "UnitListPrice": 25435.543999999998,
-  "InAssortment": true,
-  "Supplier": "sequi",
-  "SupplierCode": "quod",
-  "Rights": "consequatur",
-  "Rule": "consequatur",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "consequatur",
+  "VAT": 8906.828,
+  "VATInfo": "sed",
+  "UnitCost": 3848.5519999999997,
+  "UnitMinimumPrice": 8417.9239999999991,
+  "UnitListPrice": 23313.826,
+  "InAssortment": false,
+  "Supplier": "eos",
+  "SupplierCode": "ut",
+  "Rights": "eaque",
+  "Rule": "repellat",
   "ExtraInfo": [
     {
-      "Name": "Shanahan-Daniel",
-      "Value": "nihil",
+      "Name": "Gorczany, Terry and Roberts",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     },
     {
-      "Name": "Shanahan-Daniel",
-      "Value": "nihil",
+      "Name": "Gorczany, Terry and Roberts",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldType": "System.Int32",
+          "FieldLength": 612
         }
       }
     }
   ],
-  "RawExtraInfo": "alias",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "omnis",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "sunt",
-  "ExtraField5": "ullam",
-  "InStock": 29208.879999999997,
+  "RawExtraInfo": "veniam",
+  "ExtraField1": "dolor",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "illum",
+  "ExtraField4": "deserunt",
+  "ExtraField5": "nesciunt",
+  "InStock": 29497.208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 716
     }
   }
 }

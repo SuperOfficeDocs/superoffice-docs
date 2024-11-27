@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ArchiveAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IArchiveAgent'>ArchiveAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IArchiveAgent'>ArchiveAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultArchiveListResult](createdefaultarchivelistresult.md)
 * [ExportArchive](exportarchive.md)

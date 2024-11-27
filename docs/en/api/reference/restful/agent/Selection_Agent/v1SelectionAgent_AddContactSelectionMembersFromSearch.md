@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 550,
-  "StorageKey": "possimus"
+  "SelectionId": 764,
+  "StorageKey": "sed"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-32
+152
 ```

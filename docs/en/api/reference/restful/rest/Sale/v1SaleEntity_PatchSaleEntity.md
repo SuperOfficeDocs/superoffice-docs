@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "iure",
+    "path": "earum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iure",
+    "path": "earum",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "autem",
+  "SaleText": "reprehenderit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-09-13T13:14:11.0860489+02:00",
-  "Amount": 9003.982,
-  "SaleId": 712,
-  "Earning": 4600.7119999999995,
-  "EarningPercent": 16017.874,
-  "Heading": "quia",
-  "Number": "349342",
-  "Probability": 524,
-  "CreatedDate": "2018-08-15T13:14:11.0860489+02:00",
-  "UpdatedDate": "2023-12-11T13:14:11.0860489+01:00",
+  "Saledate": "2020-10-07T14:45:13.2087314+02:00",
+  "Amount": 8530.748,
+  "SaleId": 208,
+  "Earning": 21671.61,
+  "EarningPercent": 13093.851999999999,
+  "Heading": "necessitatibus",
+  "Number": "464133",
+  "Probability": 759,
+  "CreatedDate": "2005-03-02T14:45:13.2087314+01:00",
+  "UpdatedDate": "2019-06-05T14:45:13.2087314+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 41,
+  "ActiveLinks": 510,
   "Links": [
     {
-      "EntityName": "Kuhic-Blanda",
-      "Id": 211,
-      "Description": "Persistent cohesive pricing structure",
-      "ExtraInfo": "fuga",
-      "LinkId": 242,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 317
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2009-11-19T13:14:11.0860489+01:00",
-  "Postit": "necessitatibus",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2002-11-27T13:14:11.0860489+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Heaney LLC",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 294,
-      "CountryId": 611,
-      "PersonId": 955,
-      "EmailDescription": "richard@bergstromkonopelski.com",
-      "EmailId": 133,
-      "EmailAddress": "lisandro@konopelski.name",
-      "PhoneId": 757,
-      "ContactName": "Powlowski LLC",
-      "ContactId": 815,
-      "SaleId": 503,
-      "Mrmrs": "sunt",
-      "Firstname": "Abelardo",
-      "MiddleName": "Turner Inc and Sons",
-      "Lastname": "Upton",
-      "SaleStakeholderId": 303,
-      "Rank": 64,
-      "Phone": "597-693-7353 x235",
+      "EntityName": "Halvorson Inc and Sons",
+      "Id": 187,
+      "Description": "Stand-alone scalable matrices",
+      "ExtraInfo": "eum",
+      "LinkId": 127,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 693
         }
       }
     }
   ],
-  "ActiveErpLinks": 63,
-  "UserDefinedFields": {
-    "SuperOffice:1": "927180411",
-    "SuperOffice:2": "Miss Elizabeth Grady III"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "neque"
-  },
-  "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "voluptatem"
-  },
-  "PublishEventDate": "2015-12-30T13:14:11.0860489+01:00",
-  "PublishTo": "2018-04-05T13:14:11.0860489+02:00",
-  "PublishFrom": "2011-10-22T13:14:11.0860489+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2011-04-10T14:45:13.2087314+02:00",
+  "Postit": "error",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2023-06-08T14:45:13.2087314+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 636,
-      "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "StakeholderRoleName": "Kuhn-Weber",
+      "Comment": "odio",
+      "StakeholderRoleId": 999,
+      "CountryId": 558,
+      "PersonId": 932,
+      "EmailDescription": "reggie_hermiston@beahan.ca",
+      "EmailId": 395,
+      "EmailAddress": "cora_gleason@dooley.biz",
+      "PhoneId": 135,
+      "ContactName": "Purdy, Kreiger and Wiza",
+      "ContactId": 963,
+      "SaleId": 89,
+      "Mrmrs": "praesentium",
+      "Firstname": "Alessandra",
+      "MiddleName": "Farrell-Rohan",
+      "Lastname": "Morissette",
+      "SaleStakeholderId": 562,
+      "Rank": 469,
+      "Phone": "1-708-092-3205 x887",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldLength": 354
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 476,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Dr. Emmie Rosenbaum I",
+    "SuperOffice:2": "2110154166"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "alias"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolorem",
+    "CustomFields2": "tempora"
+  },
+  "PublishEventDate": "2012-01-15T14:45:13.2087314+01:00",
+  "PublishTo": "2004-11-04T14:45:13.2087314+01:00",
+  "PublishFrom": "2002-01-10T14:45:13.2087314+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 888,
+      "Visibility": "All",
+      "DisplayValue": "praesentium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     },
     {
-      "VisibleId": 636,
+      "VisibleId": 888,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 214
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

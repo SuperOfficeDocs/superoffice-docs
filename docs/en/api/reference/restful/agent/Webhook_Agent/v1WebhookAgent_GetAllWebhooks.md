@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Kautzer, Hintz and Funk",
-  "EventFilter": "veniam",
+  "NameFilter": "Roberts-Goldner",
+  "EventFilter": "nam",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 273,
-    "Name": "Graham-Funk",
+    "WebhookId": 71,
+    "Name": "Collier Inc and Sons",
     "Events": [
-      "ut",
-      "aut"
+      "reprehenderit",
+      "quia"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "ea",
+    "Secret": "fugit",
     "State": "Active",
-    "Type": "corrupti",
+    "Type": "debitis",
     "Headers": {
-      "Headers1": "adipisci",
-      "Headers2": "nihil"
+      "Headers1": "qui",
+      "Headers2": "pariatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2009-01-10T13:14:06.7570832+01:00",
+    "Registered": "2001-03-04T14:45:06.7248613+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2002-10-11T13:14:06.7570832+02:00",
+    "Updated": "2014-03-02T14:45:06.7248613+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "weston_weber@dietrich.com"
+    "ErrorsEmail": "georgianna_howell@jacobi.ca"
   }
 ]
 ```

@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 40,
-  "Name": "Effertz Inc and Sons",
-  "Tooltip": "ipsam",
-  "Rank": 485,
+  "SaleTypeId": 417,
+  "Name": "Jacobs Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 306,
   "DurationUnit": "Century",
-  "SaleDuration": 74,
-  "SaleTypeCatId": 424,
+  "SaleDuration": 477,
+  "SaleTypeCatId": 811,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 3,
-  "QuoteLinesTemplate": 42,
-  "ConfirmationLinesTemplate": 644,
+  "DefaultQuoteValidity": 520,
+  "QuoteLinesTemplate": 738,
+  "ConfirmationLinesTemplate": 841,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 906,
-  "MinEarningPercent": 930,
-  "GroupQuoteLinesBy": 812,
-  "SortGroupLinesBy": 141,
+  "MaxDiscountPercent": 504,
+  "MinEarningPercent": 719,
+  "GroupQuoteLinesBy": 577,
+  "SortGroupLinesBy": 873,
   "Stages": [
     {
-      "Id": 294,
-      "Name": "Shields-Rohan",
-      "ToolTip": "Sit dicta ducimus consequuntur beatae.",
-      "Deleted": true,
-      "Rank": 5,
-      "Type": "et",
-      "ColorBlock": 672,
-      "IconHint": "inventore",
-      "Selected": true,
-      "LastChanged": "2007-02-23T13:14:11.5392071+01:00",
+      "Id": 606,
+      "Name": "Hackett, Johnston and Berge",
+      "ToolTip": "In maiores.",
+      "Deleted": false,
+      "Rank": 717,
+      "Type": "quo",
+      "ColorBlock": 740,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "1998-01-24T14:45:13.9116989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "temporibus",
-      "StyleHint": "aliquam",
-      "Hidden": true,
-      "FullName": "Maryjane Ledner",
+      "ExtraInfo": "porro",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Misty Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 946
+          "FieldLength": 139
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

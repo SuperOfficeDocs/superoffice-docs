@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 468,
-  "Name": "Hudson, Baumbach and Moore",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 796,
-  "UdListDefinitionId": 337
+  "HeadingId": 523,
+  "Name": "Treutel LLC",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 116,
+  "UdListDefinitionId": 103
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 998,
-  "Name": "Pacocha Group",
-  "Tooltip": "ipsam",
+  "HeadingId": 843,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 714,
-  "UdListDefinitionId": 533,
+  "Rank": 356,
+  "UdListDefinitionId": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 966
     }
   }
 }

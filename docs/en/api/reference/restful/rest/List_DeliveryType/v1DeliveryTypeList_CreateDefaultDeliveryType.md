@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "O'Keefe-Johnston",
-  "Tooltip": "quia",
+  "Id": 937,
+  "Name": "Stanton LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 476,
-  "Rank": 714,
+  "UdListDefinitionId": 26,
+  "Rank": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 202
     }
   }
 }

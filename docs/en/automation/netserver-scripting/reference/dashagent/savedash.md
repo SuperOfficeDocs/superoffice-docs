@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.SaveDash
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.SaveDash'>SaveDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.SaveDash'>SaveDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeSaveDash
 ```cs

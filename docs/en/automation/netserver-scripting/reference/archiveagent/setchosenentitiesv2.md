@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.SetChosenEntitiesV2
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2'>SetChosenEntitiesV2</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.SetChosenEntitiesV2'>SetChosenEntitiesV2</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeSetChosenEntitiesV2
 ```cs

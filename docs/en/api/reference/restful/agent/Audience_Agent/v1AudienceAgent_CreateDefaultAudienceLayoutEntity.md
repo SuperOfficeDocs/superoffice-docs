@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 883,
-  "InstanceLayout": "provident",
-  "InstanceName": "Harris, Johnson and Kilback",
-  "CreatedDate": "2004-09-13T13:14:05.5226336+02:00",
-  "UpdatedDate": "2001-06-26T13:14:05.5226336+02:00",
+  "AudienceLayoutId": 638,
+  "InstanceLayout": "dignissimos",
+  "InstanceName": "Weissnat-Tromp",
+  "CreatedDate": "2019-07-24T14:45:04.8659001+02:00",
+  "UpdatedDate": "2024-09-29T14:45:04.8659001+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 512
     }
   }
 }

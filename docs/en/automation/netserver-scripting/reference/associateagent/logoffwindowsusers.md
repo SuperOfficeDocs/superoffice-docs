@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AssociateAgent.LogOffWindowsUsers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers'>LogOffWindowsUsers</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAssociateAgent.LogOffWindowsUsers'>LogOffWindowsUsers</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
 
 ## BeforeLogOffWindowsUsers
 ```cs

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 596,
-    "Name": "Kris, Stark and Lind",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 245,
-    "UdListDefinitionId": 893
+    "HeadingId": 771,
+    "Name": "Kassulke-Rolfson",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 827,
+    "UdListDefinitionId": 431
   },
   {
-    "HeadingId": 596,
-    "Name": "Kris, Stark and Lind",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 245,
-    "UdListDefinitionId": 893
+    "HeadingId": 771,
+    "Name": "Kassulke-Rolfson",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 827,
+    "UdListDefinitionId": 431
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 933,
-    "Name": "Borer-Crona",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "Rank": 898,
-    "UdListDefinitionId": 520,
+    "HeadingId": 915,
+    "Name": "Green LLC",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 116,
+    "UdListDefinitionId": 937,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 452
       }
     }
   }

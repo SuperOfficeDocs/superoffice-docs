@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 500
+  "RoleId": 610
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Koch-Kuhlman",
-    "ToolTip": "Tenetur omnis dolorem accusantium consectetur magni eligendi culpa.",
+    "Id": 311,
+    "Name": "Braun Group",
+    "ToolTip": "Officiis architecto id deserunt perspiciatis totam quia.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "facilis",
-    "ColorBlock": 504,
-    "IconHint": "enim",
+    "Rank": 86,
+    "Type": "voluptatum",
+    "ColorBlock": 644,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2021-08-05T13:14:06.7102053+02:00",
+    "LastChanged": "2021-11-24T14:45:06.6467545+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Gulgowski-Doyle",
-        "ToolTip": "Impedit dolorem dolorem tenetur ea corrupti.",
+        "Id": 490,
+        "Name": "Waelchi Group",
+        "ToolTip": "Iure ut in quis pariatur dolores suscipit accusantium.",
         "Deleted": true,
-        "Rank": 346,
-        "Type": "dolores",
-        "ColorBlock": 594,
-        "IconHint": "doloremque",
+        "Rank": 379,
+        "Type": "omnis",
+        "ColorBlock": 6,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2000-08-19T13:14:06.7102053+02:00",
+        "LastChanged": "2001-03-22T14:45:06.6467545+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sed",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Alexandra Medhurst",
+        "FullName": "Garret Ernser V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldLength": 66
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "ea",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Dr. Aimee Willms IV",
+    "FullName": "Mustafa Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 670
       }
     }
   }

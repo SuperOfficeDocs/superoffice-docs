@@ -22,6 +22,7 @@ The name of the MDO list is 'specifiedmailings'.
 |-----|-----|------|
 |Only mailings with tracked links| tracked|true|
 |Specified shipment configurations, default is the most relevant configurations| configurations||
+|If specified, content related to the specified email flow will appear in a special folder near the top, just below history items| emailFlowId||
 
 Separator: &
 

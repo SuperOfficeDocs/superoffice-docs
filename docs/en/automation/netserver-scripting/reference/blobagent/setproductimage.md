@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.SetProductImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.SetProductImage'>SetProductImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.SetProductImage'>SetProductImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeSetProductImage
 ```cs

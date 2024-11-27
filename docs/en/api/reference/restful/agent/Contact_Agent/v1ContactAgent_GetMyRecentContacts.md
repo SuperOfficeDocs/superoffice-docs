@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 882,
-    "Name": "Blanda, Ledner and Kiehn",
-    "OrgNr": "490861",
-    "Department": "",
+    "ContactId": 466,
+    "Name": "Wintheiser Inc and Sons",
+    "OrgNr": "210025",
+    "Department": "revolutionize cross-platform initiatives",
     "URL": "http://www.example.com/",
-    "City": "ratione",
-    "DirectPhone": "358-979-5804 x6444",
-    "AssociateId": 987,
-    "CountryId": 502,
-    "EmailAddress": "eveline@dare.info",
-    "Kananame": "sit",
-    "EmailAddressName": "kennedi@padberg.com",
+    "City": "adipisci",
+    "DirectPhone": "(483)946-8920 x26896",
+    "AssociateId": 833,
+    "CountryId": 959,
+    "EmailAddress": "lolita@predovic.uk",
+    "Kananame": "consectetur",
+    "EmailAddressName": "kiley_dietrich@kundewolf.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Bonnie Lorine Bergnaum DDS",
+    "AssociateFullName": "Dorothy Wuckert",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "sint",
-    "FullName": "Ari Schroeder",
+    "FormattedAddress": "ut",
+    "FullName": "Lucio Reynolds",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 139,
-    "Number1": "719325",
-    "Number2": "901304",
+    "ActiveErpLinks": 202,
+    "Number1": "563919",
+    "Number2": "1670269",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 647
+        "FieldLength": 915
       }
     }
   }

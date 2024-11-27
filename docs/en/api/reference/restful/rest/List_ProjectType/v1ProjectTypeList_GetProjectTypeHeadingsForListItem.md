@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "McLaughlin Inc and Sons",
-    "ToolTip": "Repudiandae necessitatibus.",
-    "Deleted": true,
-    "Rank": 902,
-    "Type": "facilis",
-    "ColorBlock": 527,
-    "IconHint": "provident",
+    "Id": 196,
+    "Name": "Hartmann-Rowe",
+    "ToolTip": "Cum aliquid officia eos molestiae similique eum id.",
+    "Deleted": false,
+    "Rank": 451,
+    "Type": "explicabo",
+    "ColorBlock": 217,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2023-12-21T13:14:11.4923293+01:00",
+    "LastChanged": "2014-11-03T14:45:13.833594+01:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Brown-Kautzer",
-        "ToolTip": "Commodi quasi.",
-        "Deleted": false,
-        "Rank": 230,
-        "Type": "veniam",
-        "ColorBlock": 558,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2024-01-28T13:14:11.4923293+01:00",
+        "Id": 712,
+        "Name": "Emmerich, Ward and Shields",
+        "ToolTip": "Blanditiis est repellat voluptate optio perferendis cum.",
+        "Deleted": true,
+        "Rank": 319,
+        "Type": "et",
+        "ColorBlock": 759,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2022-05-22T14:45:13.833594+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Ms. Newton Winona Deckow",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Laverne Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 920
+            "FieldLength": 625
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "excepturi",
-    "Hidden": false,
-    "FullName": "Ricardo Pacocha",
+    "ExtraInfo": "quasi",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Mrs. Bobbie Dawn Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldType": "System.Int32",
+        "FieldLength": 673
       }
     }
   }

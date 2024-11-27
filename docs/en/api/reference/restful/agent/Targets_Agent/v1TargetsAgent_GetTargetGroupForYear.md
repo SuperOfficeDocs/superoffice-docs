@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 713,
+  "TargetYear": 608,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 748,
-  "Year": 262,
+  "TargetGroupId": 697,
+  "Year": 266,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 290,
+      "TargetAssignmentInfoId": 268,
       "Values": [
-        265,
-        614
+        441,
+        422
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 631,
-      "DimensionListItemDisplayName": "Ernser, Williamson and Pouros",
+      "DimensionListItem": 769,
+      "DimensionListItemDisplayName": "Willms-Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldType": "System.Int32",
+          "FieldLength": 669
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 605
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 940,
-    "Name": "Stoltenberg-Miller",
-    "Tooltip": "rem",
+    "HeadingId": 478,
+    "Name": "Durgan, Feeney and Barton",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 172,
+    "Rank": 193,
+    "UdListDefinitionId": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 158
       }
     }
   }

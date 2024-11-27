@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Emard LLC",
-      "Operator": "et",
+      "Name": "Gibson Group",
+      "Operator": "atque",
       "Values": [
-        "inventore",
-        "non"
+        "repellendus",
+        "adipisci"
       ],
       "DisplayValues": [
-        "asperiores",
-        "autem"
+        "aut",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 608,
+      "InterParenthesis": 392,
       "InterOperator": "And",
-      "UniqueHash": 552
+      "UniqueHash": 378
     }
   ],
-  "ProviderName": "Hills, Corkery and Abshire",
+  "ProviderName": "Kovacek Inc and Sons",
   "DesiredColumns": [
-    "autem",
-    "voluptate"
+    "est",
+    "quos"
   ],
-  "PageSize": 504,
-  "PageNumber": 769
+  "PageSize": 915,
+  "PageNumber": 478
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Klocko, Jenkins and Hettinger",
-      "DisplayTooltip": "aliquam",
-      "DisplayType": "eos",
+      "DisplayName": "Lynch, Lehner and Runolfsson",
+      "DisplayTooltip": "autem",
+      "DisplayType": "inventore",
       "CanOrderBy": false,
-      "Name": "Paucek Group",
+      "Name": "Kuphal, Rogahn and Hilll",
       "CanRestrictBy": true,
-      "RestrictionType": "minus",
-      "RestrictionListName": "Kunde-Wehner",
+      "RestrictionType": "officia",
+      "RestrictionListName": "Donnelly Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "earum",
-      "Width": "quia",
-      "IconHint": "soluta",
-      "HeadingIconHint": "asperiores"
+      "ExtraInfo": "vel",
+      "Width": "eum",
+      "IconHint": "facere",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Conn-Funk",
-      "PrimaryKey": 684,
+      "EntityName": "O'Conner, Friesen and Stokes",
+      "PrimaryKey": 1001,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "ullam",
-          "LinkHint": "praesentium"
+          "DisplayValue": "rerum",
+          "TooltipHint": "et",
+          "LinkHint": "necessitatibus"
         }
       },
-      "LinkHint": "repellat",
-      "StyleHint": "perspiciatis",
+      "LinkHint": "voluptatem",
+      "StyleHint": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldLength": 777
         }
       }
     }
   ],
-  "RowCount": 767,
+  "RowCount": 302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldLength": 658
     }
   }
 }

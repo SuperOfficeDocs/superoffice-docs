@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 484,
-  "DashboardId": 455,
-  "Height": 678,
-  "Width": 151,
-  "Rank": 726,
+  "DashboardTileId": 677,
+  "DashboardId": 993,
+  "Height": 21,
+  "Width": 407,
+  "Rank": 196,
   "DashTileDefinition": null
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 553,
-  "DashboardId": 720,
-  "Height": 62,
-  "Width": 956,
-  "Rank": 693,
+  "DashboardTileId": 93,
+  "DashboardId": 608,
+  "Height": 80,
+  "Width": 19,
+  "Rank": 80,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   }
 }

@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 697,
-  "Name": "Bauch-Sauer",
-  "Tooltip": "quo",
-  "Rank": 915,
+  "SaleTypeId": 134,
+  "Name": "Kihn-Langosh",
+  "Tooltip": "voluptates",
+  "Rank": 680,
   "DurationUnit": "Century",
-  "SaleDuration": 994,
-  "SaleTypeCatId": 577,
-  "Deleted": false,
+  "SaleDuration": 839,
+  "SaleTypeCatId": 275,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 863,
-  "QuoteLinesTemplate": 907,
-  "ConfirmationLinesTemplate": 107,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 99,
+  "QuoteLinesTemplate": 744,
+  "ConfirmationLinesTemplate": 447,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 364,
-  "MinEarningPercent": 866,
-  "GroupQuoteLinesBy": 44,
-  "SortGroupLinesBy": 640,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 714,
+  "MinEarningPercent": 324,
+  "GroupQuoteLinesBy": 5,
+  "SortGroupLinesBy": 504,
   "Stages": [
     {
-      "Id": 842,
-      "Name": "Wisoky-Fay",
-      "ToolTip": "Ut adipisci harum consequuntur.",
+      "Id": 695,
+      "Name": "Mohr, Rutherford and Prohaska",
+      "ToolTip": "Temporibus nostrum ea consequuntur.",
       "Deleted": false,
-      "Rank": 717,
-      "Type": "in",
-      "ColorBlock": 937,
-      "IconHint": "qui",
+      "Rank": 132,
+      "Type": "consequatur",
+      "ColorBlock": 464,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "1999-02-21T13:14:06.1164195+01:00",
+      "LastChanged": "2014-08-22T14:45:05.7719479+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vitae",
-      "StyleHint": "velit",
-      "Hidden": false,
-      "FullName": "Dewayne Nienow"
+      "ExtraInfo": "natus",
+      "StyleHint": "corporis",
+      "Hidden": true,
+      "FullName": "Mr. Treva Schmitt"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 514,
-  "Name": "Batz LLC",
-  "Tooltip": "illo",
-  "Rank": 43,
+  "SaleTypeId": 492,
+  "Name": "Brakus Group",
+  "Tooltip": "nihil",
+  "Rank": 18,
   "DurationUnit": "Century",
-  "SaleDuration": 587,
-  "SaleTypeCatId": 685,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 690,
+  "SaleTypeCatId": 201,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 349,
-  "QuoteLinesTemplate": 259,
-  "ConfirmationLinesTemplate": 713,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 185,
+  "QuoteLinesTemplate": 499,
+  "ConfirmationLinesTemplate": 734,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 70,
-  "MinEarningPercent": 303,
-  "GroupQuoteLinesBy": 866,
-  "SortGroupLinesBy": 688,
+  "MaxDiscountPercent": 558,
+  "MinEarningPercent": 883,
+  "GroupQuoteLinesBy": 460,
+  "SortGroupLinesBy": 421,
   "Stages": [
     {
-      "Id": 963,
-      "Name": "Weimann Group",
-      "ToolTip": "Assumenda nihil ad ducimus et rerum velit earum.",
+      "Id": 386,
+      "Name": "Stamm-Spencer",
+      "ToolTip": "Eaque provident molestias quae.",
       "Deleted": false,
-      "Rank": 624,
-      "Type": "quaerat",
-      "ColorBlock": 630,
-      "IconHint": "provident",
+      "Rank": 697,
+      "Type": "dolor",
+      "ColorBlock": 292,
+      "IconHint": "alias",
       "Selected": false,
-      "LastChanged": "2010-10-09T13:14:06.1164195+02:00",
+      "LastChanged": "2010-12-31T14:45:05.7719479+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "sint",
+      "ExtraInfo": "et",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Wyatt Koelpin",
+      "FullName": "Mr. Cedrick Jerald McDermott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 644
+          "FieldLength": 49
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

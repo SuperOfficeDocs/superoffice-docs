@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Bayer, Auer and Torp",
-    "ToolTip": "Est voluptas sint inventore fugiat iure illo eligendi.",
-    "Deleted": true,
-    "Rank": 423,
-    "Type": "velit",
-    "ColorBlock": 782,
-    "IconHint": "cum",
+    "Id": 785,
+    "Name": "Jacobi-Bayer",
+    "ToolTip": "Iusto odio exercitationem quod distinctio esse iure magni.",
+    "Deleted": false,
+    "Rank": 81,
+    "Type": "omnis",
+    "ColorBlock": 61,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2015-10-03T13:14:11.4298249+02:00",
+    "LastChanged": "2016-08-19T14:45:13.7554843+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Ritchie, Schimmel and Anderson",
-        "ToolTip": "Exercitationem porro et.",
+        "Id": 441,
+        "Name": "Gutkowski-Stamm",
+        "ToolTip": "Error vel blanditiis aut dignissimos voluptas porro praesentium.",
         "Deleted": true,
-        "Rank": 277,
-        "Type": "nostrum",
-        "ColorBlock": 646,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "2011-11-12T13:14:11.4298249+01:00",
+        "Rank": 173,
+        "Type": "vero",
+        "ColorBlock": 614,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2014-01-23T14:45:13.7554843+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "officiis",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Isabel Schimmel"
+        "FullName": "Franco Powlowski"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "repellat",
-    "Hidden": false,
-    "FullName": "Walter Reinger"
+    "ExtraInfo": "iusto",
+    "StyleHint": "officiis",
+    "Hidden": true,
+    "FullName": "Dr. Veronica Beer PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Morar Group",
-    "ToolTip": "Qui veniam suscipit quod.",
+    "Id": 242,
+    "Name": "Greenfelder, Douglas and Bode",
+    "ToolTip": "Exercitationem quis accusantium odio modi explicabo mollitia.",
     "Deleted": true,
-    "Rank": 749,
-    "Type": "sunt",
-    "ColorBlock": 710,
-    "IconHint": "suscipit",
+    "Rank": 624,
+    "Type": "omnis",
+    "ColorBlock": 11,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2013-08-31T13:14:11.4298249+02:00",
+    "LastChanged": "2000-01-11T14:45:13.7554843+01:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Reynolds Inc and Sons",
-        "ToolTip": "Culpa maiores.",
-        "Deleted": false,
-        "Rank": 12,
-        "Type": "sapiente",
-        "ColorBlock": 961,
-        "IconHint": "porro",
+        "Id": 484,
+        "Name": "Collins Group",
+        "ToolTip": "Adipisci possimus natus accusamus dolores.",
+        "Deleted": true,
+        "Rank": 911,
+        "Type": "qui",
+        "ColorBlock": 355,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "1998-12-04T13:14:11.4298249+01:00",
+        "LastChanged": "2023-03-29T14:45:13.7554843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Winona Becker",
+        "ExtraInfo": "ut",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Cordelia Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 588
+            "FieldType": "System.Int32",
+            "FieldLength": 306
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "officia",
+    "ExtraInfo": "id",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Bertram Yost",
+    "FullName": "Domenick Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 870
       }
     }
   }

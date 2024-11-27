@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 165,
-  "Name": "Marquardt Group",
-  "Tooltip": "quasi",
+  "Id": 623,
+  "Name": "Carroll LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 654,
+  "Rank": 252,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 7,
-  "Name": "Schmidt Inc and Sons",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 654,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 913,
+  "Name": "Gorczany-Larkin",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 900,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": true,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 68
     }
   }
 }

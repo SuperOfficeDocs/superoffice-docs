@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hessel LLC",
-  "ProviderName": "Crooks-Runolfsson",
-  "Context": "consectetur",
-  "OwnerKeys": "aut",
+  "GuiName": "Konopelski-Yundt",
+  "ProviderName": "Eichmann, Dickinson and Dare",
+  "Context": "eum",
+  "OwnerKeys": "asperiores",
   "Entities": [
-    "necessitatibus",
-    "possimus"
+    "suscipit",
+    "sed"
   ]
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Stanton Inc and Sons",
-    "ToolTip": "Nihil consequuntur eaque dolor illum.",
+    "Id": 530,
+    "Name": "Pollich, Simonis and Stroman",
+    "ToolTip": "Ea beatae facilis voluptas.",
     "Deleted": false,
-    "Rank": 441,
-    "Type": "consequatur",
-    "ColorBlock": 100,
-    "IconHint": "beatae",
+    "Rank": 861,
+    "Type": "sed",
+    "ColorBlock": 654,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1999-04-25T13:14:11.3829471+02:00",
+    "LastChanged": "2003-01-19T14:45:13.6773768+01:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Hammes-Fisher",
-        "ToolTip": "Quo reiciendis ut perspiciatis non sed.",
-        "Deleted": false,
-        "Rank": 629,
-        "Type": "corporis",
-        "ColorBlock": 375,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2022-02-06T13:14:11.3829471+01:00",
+        "Id": 51,
+        "Name": "West, Grady and Boyle",
+        "ToolTip": "Vel odit explicabo qui ut expedita labore a.",
+        "Deleted": true,
+        "Rank": 179,
+        "Type": "suscipit",
+        "ColorBlock": 509,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2015-10-07T14:45:13.6773768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "sed",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Prof. Rosalinda Karelle Orn"
+        "FullName": "Sydnie Sauer"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
+    "ExtraInfo": "cumque",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Antonetta Fritsch"
+    "FullName": "Dr. Gilbert Anderson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Kuvalis, Grimes and Rodriguez",
-    "ToolTip": "Fuga voluptas illum et autem dolorem voluptas aut.",
+    "Id": 767,
+    "Name": "Parisian-Marks",
+    "ToolTip": "Quidem deleniti et accusantium suscipit asperiores.",
     "Deleted": false,
-    "Rank": 383,
-    "Type": "tenetur",
-    "ColorBlock": 507,
-    "IconHint": "soluta",
+    "Rank": 900,
+    "Type": "enim",
+    "ColorBlock": 795,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2010-12-07T13:14:11.3829471+01:00",
+    "LastChanged": "2024-09-26T14:45:13.6773768+02:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Collins-Walter",
-        "ToolTip": "Cum dolore libero sed et iste fuga sint.",
-        "Deleted": false,
-        "Rank": 261,
-        "Type": "quod",
-        "ColorBlock": 718,
-        "IconHint": "id",
+        "Id": 659,
+        "Name": "Maggio Group",
+        "ToolTip": "Consequuntur autem rerum fugiat error adipisci nemo id.",
+        "Deleted": true,
+        "Rank": 844,
+        "Type": "est",
+        "ColorBlock": 936,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2024-06-25T13:14:11.3829471+02:00",
+        "LastChanged": "2007-08-26T14:45:13.6773768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "nemo",
+        "ExtraInfo": "rem",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Korbin Miller",
+        "FullName": "Mr. Sterling Russel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "similique",
+    "ExtraInfo": "amet",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Zoila Grant",
+    "FullName": "Prof. Santina Everett Terry II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   }

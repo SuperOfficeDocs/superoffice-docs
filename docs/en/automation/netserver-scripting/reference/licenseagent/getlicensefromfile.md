@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.GetLicenseFromFile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile'>GetLicenseFromFile</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.GetLicenseFromFile'>GetLicenseFromFile</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeGetLicenseFromFile
 ```cs

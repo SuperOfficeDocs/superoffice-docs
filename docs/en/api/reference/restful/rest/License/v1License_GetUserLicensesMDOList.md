@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "Kassulke-Crist",
-    "ToolTip": "Aut et delectus.",
-    "Deleted": false,
-    "Rank": 315,
-    "Type": "eos",
-    "ColorBlock": 315,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2005-10-18T13:14:11.2110624+02:00",
+    "Id": 192,
+    "Name": "O'Kon, Maggio and Hodkiewicz",
+    "ToolTip": "Est minima et error.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "sed",
+    "ColorBlock": 263,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "1997-12-22T14:45:13.4274325+01:00",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Schiller Group",
-        "ToolTip": "Nostrum voluptas dignissimos debitis atque omnis voluptas.",
+        "Id": 377,
+        "Name": "Kutch, Gorczany and Swaniawski",
+        "ToolTip": "Harum odio veritatis et sed.",
         "Deleted": false,
-        "Rank": 722,
-        "Type": "quod",
-        "ColorBlock": 696,
-        "IconHint": "distinctio",
+        "Rank": 251,
+        "Type": "et",
+        "ColorBlock": 729,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "1997-06-29T13:14:11.2110624+02:00",
+        "LastChanged": "2015-03-02T14:45:13.4274325+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Irwin Cassin",
+        "FullName": "Robyn Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 45
+            "FieldType": "System.Int32",
+            "FieldLength": 325
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Dr. Garnett Little MD",
+    "FullName": "Freeda Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

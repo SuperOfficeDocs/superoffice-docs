@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 828
+  "ProductId": 982
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 144,
-  "ERPProductKey": "adipisci",
-  "ERPPriceListKey": "earum",
-  "Name": "Toy, Shanahan and Ratke",
-  "Description": "Customer-focused zero defect synergy",
-  "Code": "velit",
-  "PriceUnit": "sequi",
-  "QuantityUnit": "omnis",
+  "ProductId": 685,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "aliquid",
+  "Name": "Wolf Inc and Sons",
+  "Description": "Integrated 6th generation service-desk",
+  "Code": "unde",
+  "PriceUnit": "officia",
+  "QuantityUnit": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "velit",
-  "DefaultSubscriptionQuantity": 6180.248,
-  "ItemNumber": "376820",
+  "SubscriptionUnit": "modi",
+  "DefaultSubscriptionQuantity": 29572.424,
+  "ItemNumber": "818864",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "dolorem",
-  "VAT": 1971.2859999999998,
-  "VATInfo": "est",
-  "UnitCost": 5826.106,
-  "UnitMinimumPrice": 10439.354,
-  "UnitListPrice": 11802.644,
+  "ProductFamilyKey": "voluptatem",
+  "ProductTypeKey": "doloribus",
+  "VAT": 14052.856,
+  "VATInfo": "incidunt",
+  "UnitCost": 26109.354,
+  "UnitMinimumPrice": 29349.91,
+  "UnitListPrice": 24952.908,
   "InAssortment": true,
-  "Supplier": "ab",
-  "SupplierCode": "sit",
-  "Rights": "non",
-  "Rule": "suscipit",
+  "Supplier": "neque",
+  "SupplierCode": "officia",
+  "Rights": "quasi",
+  "Rule": "occaecati",
   "ExtraInfo": [
     {
-      "Name": "King, Nolan and Fahey",
-      "Value": "natus",
+      "Name": "Mosciski, Mitchell and Skiles",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     },
     {
-      "Name": "King, Nolan and Fahey",
-      "Value": "natus",
+      "Name": "Mosciski, Mitchell and Skiles",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldType": "System.String",
+          "FieldLength": 652
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "quia",
-  "ExtraField2": "ut",
-  "ExtraField3": "pariatur",
-  "ExtraField4": "incidunt",
-  "ExtraField5": "soluta",
-  "InStock": 15181.096,
+  "RawExtraInfo": "et",
+  "ExtraField1": "adipisci",
+  "ExtraField2": "velit",
+  "ExtraField3": "et",
+  "ExtraField4": "porro",
+  "ExtraField5": "autem",
+  "InStock": 16262.326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 164
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateDefaultEMailConnectionInfoExtended
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailConnectionInfoExtended'>CreateDefaultEMailConnectionInfoExtended</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateDefaultEMailConnectionInfoExtended'>CreateDefaultEMailConnectionInfoExtended</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateDefaultEMailConnectionInfoExtended
 ```cs

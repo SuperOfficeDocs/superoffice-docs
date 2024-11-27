@@ -10,7 +10,7 @@ so.envir: onsite
 
 # DocumentMigrationAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDocumentMigrationAgent'>DocumentMigrationAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IDocumentMigrationAgent'>DocumentMigrationAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultDocumentMigrationItemList](createdefaultdocumentmigrationitemlist.md)
 * [CreateDefaultDocumentTemplateMigrationList](createdefaultdocumenttemplatemigrationlist.md)

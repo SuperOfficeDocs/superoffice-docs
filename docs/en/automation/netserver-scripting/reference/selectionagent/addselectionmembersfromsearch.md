@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.AddSelectionMembersFromSearch
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch'>AddSelectionMembersFromSearch</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.AddSelectionMembersFromSearch'>AddSelectionMembersFromSearch</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeAddSelectionMembersFromSearch
 ```cs

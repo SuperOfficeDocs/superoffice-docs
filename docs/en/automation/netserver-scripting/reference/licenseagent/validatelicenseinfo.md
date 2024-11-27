@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.ValidateLicenseInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo'>ValidateLicenseInfo</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.ValidateLicenseInfo'>ValidateLicenseInfo</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeValidateLicenseInfo
 ```cs

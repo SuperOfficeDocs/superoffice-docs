@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Gleichner-Gerlach",
+  "CommandName": "Bruen, Keeling and Roob",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "sed",
+  "Message": "repellendus",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

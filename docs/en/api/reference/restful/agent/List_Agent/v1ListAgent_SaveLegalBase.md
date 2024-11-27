@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 531,
-  "Name": "Waelchi, Wolff and Kunze",
-  "Tooltip": "quam",
-  "Rank": 221,
-  "Key": "dicta",
-  "Deleted": false,
+  "LegalBaseId": 900,
+  "Name": "Heidenreich-Hackett",
+  "Tooltip": "dolores",
+  "Rank": 756,
+  "Key": "fuga",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

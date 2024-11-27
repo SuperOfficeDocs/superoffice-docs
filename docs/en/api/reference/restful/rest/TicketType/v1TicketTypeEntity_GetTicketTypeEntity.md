@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 953,
-  "Name": "Weber LLC",
-  "Rank": 274,
-  "Tooltip": "deserunt",
-  "Icon": "ut",
-  "DefaultTicketStatus": 75,
+  "TicketTypeId": 656,
+  "Name": "Jenkins, Heathcote and Padberg",
+  "Rank": 760,
+  "Tooltip": "fugit",
+  "Icon": "et",
+  "DefaultTicketStatus": 312,
   "TicketStatuses": [
-    890,
-    863
+    423,
+    372
   ],
-  "DefaultTicketPriority": 152,
+  "DefaultTicketPriority": 133,
   "TicketPriorities": [
-    930,
-    319
+    631,
+    693
   ],
-  "ReplyTemplate": 435,
+  "ReplyTemplate": 520,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    123,
-    581
+    171,
+    64
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 477
+      "FieldLength": 457
     }
   },
   "_Links": {

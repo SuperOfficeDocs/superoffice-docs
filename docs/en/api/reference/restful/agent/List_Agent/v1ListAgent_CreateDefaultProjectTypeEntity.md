@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 770,
-  "Name": "Grimes-Murray",
-  "Tooltip": "sed",
-  "Rank": 594,
+  "ProjTypeId": 576,
+  "Name": "Leannon, Kreiger and Hoppe",
+  "Tooltip": "vel",
+  "Rank": 85,
   "DurationUnit": "Century",
-  "ProjectDuration": 59,
+  "ProjectDuration": 94,
   "Deleted": true,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 519,
-      "Name": "Ziemann Inc and Sons",
-      "ToolTip": "Natus perferendis tenetur eum perferendis explicabo deserunt ex.",
+      "Id": 913,
+      "Name": "Tromp-Durgan",
+      "ToolTip": "Beatae vero quaerat aut non voluptas ex quaerat.",
       "Deleted": false,
-      "Rank": 223,
-      "Type": "ea",
-      "ColorBlock": 163,
-      "IconHint": "ab",
+      "Rank": 912,
+      "Type": "in",
+      "ColorBlock": 377,
+      "IconHint": "enim",
       "Selected": true,
-      "LastChanged": "2014-07-16T13:14:06.1164195+02:00",
+      "LastChanged": "2000-10-10T14:45:05.7563266+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "eum",
-      "Hidden": false,
-      "FullName": "Prof. King Abel Davis III",
+      "ExtraInfo": "quam",
+      "StyleHint": "natus",
+      "Hidden": true,
+      "FullName": "Consuelo Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 270
     }
   }
 }

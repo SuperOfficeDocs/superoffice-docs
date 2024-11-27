@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptate",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 36,
-  "Name": "Abshire LLC",
-  "Config": "et",
-  "Rank": 574,
-  "Client": "veniam",
-  "Style": "qui",
+  "DashboardThemeId": 511,
+  "Name": "Satterfield-Fisher",
+  "Config": "ut",
+  "Rank": 635,
+  "Client": "sit",
+  "Style": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Langosh, Klein and Hagenes",
-  "DisplayName": "Lakin Group",
-  "Description": "Fundamental system-worthy product",
-  "ShortLabel": "architecto",
+  "FieldName": "Hilll Group",
+  "DisplayName": "Gaylord, Schuster and Wilkinson",
+  "Description": "Multi-tiered regional migration",
+  "ShortLabel": "tenetur",
   "HideLabel": true,
   "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 637,
-  "TemplateVariableName": "Trantow Inc and Sons"
+  "Rank": 769,
+  "TemplateVariableName": "Dare Inc and Sons"
 }
 ```

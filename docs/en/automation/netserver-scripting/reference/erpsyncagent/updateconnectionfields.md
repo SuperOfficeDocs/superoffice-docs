@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.UpdateConnectionFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields'>UpdateConnectionFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.UpdateConnectionFields'>UpdateConnectionFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeUpdateConnectionFields
 ```cs

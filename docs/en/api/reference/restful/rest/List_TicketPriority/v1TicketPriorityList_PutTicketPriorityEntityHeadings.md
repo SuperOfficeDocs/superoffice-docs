@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Hauck, Schmidt and Kertzmann",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "Rank": 775,
-    "UdListDefinitionId": 801
+    "HeadingId": 463,
+    "Name": "Erdman Group",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 85,
+    "UdListDefinitionId": 66
   },
   {
-    "HeadingId": 327,
-    "Name": "Hauck, Schmidt and Kertzmann",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "Rank": 775,
-    "UdListDefinitionId": 801
+    "HeadingId": 463,
+    "Name": "Erdman Group",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 85,
+    "UdListDefinitionId": 66
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 232,
-    "Name": "Keebler-Hilll",
-    "Tooltip": "cumque",
-    "Deleted": true,
-    "Rank": 317,
-    "UdListDefinitionId": 987,
+    "HeadingId": 501,
+    "Name": "Rutherford Inc and Sons",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 450,
+    "UdListDefinitionId": 413,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldType": "System.Int32",
+        "FieldLength": 590
       }
     }
   }

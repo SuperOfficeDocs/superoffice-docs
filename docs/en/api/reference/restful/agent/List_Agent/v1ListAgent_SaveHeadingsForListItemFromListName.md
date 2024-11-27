@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hane Inc and Sons",
-  "ListItemId": 5,
+  "UdListDefinitionName": "Auer-Kertzmann",
+  "ListItemId": 911,
   "Headings": [
     {
-      "Id": 381,
-      "Name": "Hoppe LLC",
-      "ToolTip": "Assumenda incidunt adipisci.",
+      "Id": 857,
+      "Name": "Boyle, Pacocha and Sporer",
+      "ToolTip": "Voluptatem autem aliquam et distinctio.",
       "Deleted": false,
-      "Rank": 760,
-      "Type": "est",
-      "ColorBlock": 370,
-      "IconHint": "eaque",
-      "Selected": false,
-      "LastChanged": "1999-03-28T13:14:06.0851676+02:00",
+      "Rank": 282,
+      "Type": "aut",
+      "ColorBlock": 302,
+      "IconHint": "exercitationem",
+      "Selected": true,
+      "LastChanged": "2020-08-23T14:45:05.7250829+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "accusantium",
-      "Hidden": true,
-      "FullName": "Aisha Bogan"
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "distinctio",
+      "Hidden": false,
+      "FullName": "Cale Ali Smitham Sr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Halvorson, Volkman and Lubowitz",
-    "ToolTip": "Voluptatem dolore voluptas repellendus enim voluptates.",
+    "Id": 417,
+    "Name": "Wolff-Hirthe",
+    "ToolTip": "Aperiam sapiente veniam dolores dignissimos eligendi magni voluptas.",
     "Deleted": false,
-    "Rank": 582,
-    "Type": "esse",
-    "ColorBlock": 288,
-    "IconHint": "omnis",
+    "Rank": 832,
+    "Type": "minima",
+    "ColorBlock": 348,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2012-01-21T13:14:06.0851676+01:00",
+    "LastChanged": "2000-07-30T14:45:05.7250829+02:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Volkman, Bayer and Powlowski",
-        "ToolTip": "Voluptatem consectetur.",
+        "Id": 773,
+        "Name": "Green-Lemke",
+        "ToolTip": "Quis ipsam quas voluptatum ea.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "velit",
-        "ColorBlock": 924,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2016-12-24T13:14:06.0851676+01:00",
+        "Rank": 133,
+        "Type": "ut",
+        "ColorBlock": 256,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2017-04-16T14:45:05.7250829+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Miss Henri Damaris Beahan PhD",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Brisa Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Mr. Kareem Powlowski",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Prof. Allison Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 96
       }
     }
   }

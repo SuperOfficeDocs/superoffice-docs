@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.CreateDefaultTargetDimension
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.CreateDefaultTargetDimension'>CreateDefaultTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.CreateDefaultTargetDimension'>CreateDefaultTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeCreateDefaultTargetDimension
 ```cs

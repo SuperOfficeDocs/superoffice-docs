@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 906,
-    "Name": "Berge-Ryan",
+    "TicketStatusId": 298,
+    "Name": "Jones Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.SaveTicketMessageEntityWithNotify
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityWithNotify'>SaveTicketMessageEntityWithNotify</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.SaveTicketMessageEntityWithNotify'>SaveTicketMessageEntityWithNotify</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeSaveTicketMessageEntityWithNotify
 ```cs

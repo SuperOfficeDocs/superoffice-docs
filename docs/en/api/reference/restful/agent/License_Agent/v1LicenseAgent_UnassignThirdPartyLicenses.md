@@ -92,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 345,
-  "ModuleOwner": "atque",
+  "AssociateId": 551,
+  "ModuleOwner": "possimus",
   "ModuleLicenseNames": [
-    "Lynch, Nikolaus and Barrows",
-    "Turner Group"
+    "Luettgen-O'Kon",
+    "Hoppe Group"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 861,
-    "Tooltip": "et",
+    "Unrestricted": true,
+    "Total": 32,
+    "Tooltip": "mollitia",
     "CanAssign": false,
-    "Free": 852,
-    "InUse": 990,
-    "IsHidden": true,
+    "Free": 987,
+    "InUse": 309,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 670,
-    "Name": "Parker, Wyman and Yundt",
-    "Description": "Automated reciprocal challenge",
-    "PrerequisiteModuleName": "Blanda-Breitenberg",
-    "SortOrder": 59,
-    "ExtraFlags": 995,
+    "ModuleLicenseId": 242,
+    "Name": "Schulist Inc and Sons",
+    "Description": "Proactive background groupware",
+    "PrerequisiteModuleName": "Klein Inc and Sons",
+    "SortOrder": 197,
+    "ExtraFlags": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 174
       }
     }
   }

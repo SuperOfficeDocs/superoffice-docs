@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Kub LLC",
+  "ConnectorName": "Halvorson-Towne",
   "ConnectionData": {
-    "ConnectionData1": "dolorem",
-    "ConnectionData2": "nisi"
+    "ConnectionData1": "molestias",
+    "ConnectionData2": "eos"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sed",
-  "TechExplanation": "omnis",
-  "ErrorCode": "non",
+  "UserExplanation": "nam",
+  "TechExplanation": "ullam",
+  "ErrorCode": "vel",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   }
 }

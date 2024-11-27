@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CreateDefaultProduct
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProduct'>CreateDefaultProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CreateDefaultProduct'>CreateDefaultProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCreateDefaultProduct
 ```cs

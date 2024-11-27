@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 615
+  "MailItemId": 691
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 628,
-  "StartDate": "2015-10-18T13:14:05.96016+02:00",
-  "EndDate": "2008-07-19T13:14:05.96016+02:00",
-  "RecurrenceCounter": 579,
+  "RecurrenceId": 896,
+  "StartDate": "2002-01-07T14:45:05.5063824+01:00",
+  "EndDate": "2001-02-26T14:45:05.5063824+01:00",
+  "RecurrenceCounter": 801,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-11-07T13:14:05.96016+01:00",
-      "IsConflict": false,
-      "Description": "Networked asynchronous Graphic Interface",
-      "DescriptionStyleHint": "Multi-channelled asynchronous intranet",
-      "Tooltip": "vitae"
+      "Date": "2001-04-25T14:45:05.5063824+02:00",
+      "IsConflict": true,
+      "Description": "Optional exuding architecture",
+      "DescriptionStyleHint": "Synchronised responsive frame",
+      "Tooltip": "et"
     },
     {
-      "Date": "2015-11-07T13:14:05.96016+01:00",
-      "IsConflict": false,
-      "Description": "Networked asynchronous Graphic Interface",
-      "DescriptionStyleHint": "Multi-channelled asynchronous intranet",
-      "Tooltip": "vitae"
+      "Date": "2001-04-25T14:45:05.5063824+02:00",
+      "IsConflict": true,
+      "Description": "Optional exuding architecture",
+      "DescriptionStyleHint": "Synchronised responsive frame",
+      "Tooltip": "et"
     }
   ],
   "IsRecurrence": false

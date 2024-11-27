@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 501,
-  "CountryId": 180
+  "ContactId": 882,
+  "CountryId": 973
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6979.418,
-  "Wgs84Longitude": 24940.372,
+  "Wgs84Latitude": 17841.862,
+  "Wgs84Longitude": 2670.168,
   "LocalizedAddress": [
     [
       {
-        "Name": "Gleichner-Waters",
-        "Value": "atque",
-        "Tooltip": "ut",
-        "Label": "eveniet",
-        "ValueLength": 138,
-        "AddressType": "molestiae",
+        "Name": "Balistreri-Terry",
+        "Value": "aperiam",
+        "Tooltip": "itaque",
+        "Label": "enim",
+        "ValueLength": 432,
+        "AddressType": "quo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 999
           }
         }
       }
     ],
     [
       {
-        "Name": "Erdman-Lebsack",
-        "Value": "velit",
-        "Tooltip": "molestias",
-        "Label": "a",
-        "ValueLength": 446,
-        "AddressType": "quidem",
+        "Name": "Pagac Inc and Sons",
+        "Value": "qui",
+        "Tooltip": "explicabo",
+        "Label": "provident",
+        "ValueLength": 835,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldLength": 228
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "deserunt",
+  "Formatted": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   }
 }

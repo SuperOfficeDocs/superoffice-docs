@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=376
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=953
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 565,
-  "StartDate": "2005-04-20T13:14:05.3663737+02:00",
-  "EndDate": "2015-10-01T13:14:05.3663737+02:00",
+  "AppointmentId": 764,
+  "StartDate": "2010-12-17T14:45:04.6474384+01:00",
+  "EndDate": "2020-02-03T14:45:04.6474384+01:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptas",
-  "AssociateFullName": "Maymie Wilford Blick IV",
-  "ContactName": "Metz Group",
-  "Description": "Customer-focused intangible matrix",
-  "PersonFullName": "Mr. Lillie Nils Kuhlman",
-  "PersonId": 209,
-  "ContactId": 405,
-  "ProjectId": 291,
-  "ProjectName": "Walter, Ruecker and Considine",
+  "Task": "eius",
+  "AssociateFullName": "Kamryn Bechtelar",
+  "ContactName": "Hane Group",
+  "Description": "Polarised 4th generation service-desk",
+  "PersonFullName": "Jules Jewess V",
+  "PersonId": 460,
+  "ContactId": 138,
+  "ProjectId": 889,
+  "ProjectName": "Ziemann, Williamson and Grimes",
   "IsPublished": false,
-  "AssociateId": 985,
-  "ColorIndex": 380,
-  "IsFree": false,
+  "AssociateId": 339,
+  "ColorIndex": 998,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 675,
-  "PriorityName": "Effertz LLC",
+  "PriorityId": 150,
+  "PriorityName": "Schuppe-Ernser",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2022-03-31T13:14:05.3663737+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2015-12-01T14:45:04.6474384+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-12-31T13:14:05.3663737+01:00",
-  "RecurringEndDate": "2011-12-28T13:14:05.3663737+01:00",
-  "MotherId": 831,
-  "AssignedBy": 101,
-  "AssignedByFullName": "Eleanora Morar",
+  "RecurringStartDate": "2016-05-31T14:45:04.6474384+02:00",
+  "RecurringEndDate": "2023-04-15T14:45:04.6474384+02:00",
+  "MotherId": 839,
+  "AssignedBy": 13,
+  "AssignedByFullName": "Mrs. Dell Josefina McLaughlin DDS",
   "RejectReason": "",
-  "Location": "asperiores",
-  "AlarmLeadTime": "sint",
-  "SaleId": 322,
-  "SaleName": "Bailey, Wolf and Nader",
-  "AssociateName": "Ryan Inc and Sons",
-  "CreatedDate": "2001-07-14T13:14:05.3663737+02:00",
-  "CreatedBy": "id",
-  "CreatedByFullName": "Zelma Koss V",
-  "CreatedByAssociateId": 117,
+  "Location": "labore",
+  "AlarmLeadTime": "beatae",
+  "SaleId": 963,
+  "SaleName": "Kreiger-White",
+  "AssociateName": "Hills LLC",
+  "CreatedDate": "2019-05-13T14:45:04.6474384+02:00",
+  "CreatedBy": "sit",
+  "CreatedByFullName": "Josh Jacobson",
+  "CreatedByAssociateId": 89,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 172,
-  "Title": "odio",
-  "Agenda": "eos",
-  "InternalNotes": "amet",
+  "PreferredTZLocation": 573,
+  "Title": "nihil",
+  "Agenda": "et",
+  "InternalNotes": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

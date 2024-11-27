@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Parker, Grimes and Johns",
-    "ToolTip": "Ipsa asperiores.",
-    "Deleted": false,
-    "Rank": 319,
-    "Type": "libero",
-    "ColorBlock": 527,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2022-04-01T13:14:11.3516953+02:00",
+    "Id": 51,
+    "Name": "Prohaska LLC",
+    "ToolTip": "Sed qui soluta molestiae provident aut accusamus.",
+    "Deleted": true,
+    "Rank": 685,
+    "Type": "dolor",
+    "ColorBlock": 733,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2003-12-16T14:45:13.6148917+01:00",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "O'Kon-Rice",
-        "ToolTip": "Labore tempore dolorem nihil blanditiis.",
+        "Id": 811,
+        "Name": "Gutkowski-Glover",
+        "ToolTip": "Maxime magnam veritatis.",
         "Deleted": false,
-        "Rank": 26,
-        "Type": "ratione",
-        "ColorBlock": 511,
-        "IconHint": "vel",
+        "Rank": 269,
+        "Type": "sed",
+        "ColorBlock": 560,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2005-04-07T13:14:11.3516953+02:00",
+        "LastChanged": "2013-03-11T14:45:13.6148917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Ryder Brown"
+        "ExtraInfo": "et",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Prof. Melissa Turcotte"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Leonie Bosco"
+    "ExtraInfo": "vero",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Hank Nolan PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Swaniawski, Runte and Herman",
-    "ToolTip": "Ut sunt.",
-    "Deleted": true,
-    "Rank": 685,
-    "Type": "optio",
-    "ColorBlock": 727,
-    "IconHint": "voluptatem",
+    "Id": 186,
+    "Name": "Boyle Group",
+    "ToolTip": "Natus voluptatem harum sit maiores repellat.",
+    "Deleted": false,
+    "Rank": 939,
+    "Type": "atque",
+    "ColorBlock": 87,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2021-05-24T13:14:11.3516953+02:00",
+    "LastChanged": "2000-06-27T14:45:13.6148917+02:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Anderson Group",
-        "ToolTip": "Molestiae nostrum dolorum.",
-        "Deleted": true,
-        "Rank": 592,
-        "Type": "nisi",
-        "ColorBlock": 1001,
-        "IconHint": "iste",
+        "Id": 872,
+        "Name": "Turner LLC",
+        "ToolTip": "Accusantium sequi sunt aut et exercitationem eum.",
+        "Deleted": false,
+        "Rank": 263,
+        "Type": "aut",
+        "ColorBlock": 976,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2024-08-19T13:14:11.3516953+02:00",
+        "LastChanged": "2017-09-28T14:45:13.6148917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "veniam",
+        "ExtraInfo": "sequi",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Vicente Howe Jr.",
+        "FullName": "Mr. Arjun Patricia Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 729
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "modi",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Miss Yvonne Hal Kuhic I",
+    "FullName": "Miss Jess Carmela Klein I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 76
       }
     }
   }

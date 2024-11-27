@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 149,
-  "TopicId": 534,
+  "ChatSessionId": 28,
+  "TopicId": 866,
   "User": null,
   "Person": null,
-  "CustomerAlias": "natus",
-  "CustomerHost": "eius",
-  "CustomerName": "Wyman-Dooley",
-  "CustomerEmail": "sigmund@metztremblay.biz",
-  "CustomerPhone": "(797)866-2376 x80728",
+  "CustomerAlias": "placeat",
+  "CustomerHost": "sunt",
+  "CustomerName": "Hirthe LLC",
+  "CustomerEmail": "dee_jast@hartmannschinner.com",
+  "CustomerPhone": "(583)454-9777 x98243",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Paucek-Bergnaum",
+  "CustomerCompanyName": "Kemmer, Luettgen and Johnson",
   "Status": "Closed",
-  "FirstMessage": "voluptatibus",
-  "LastMessage": "numquam",
-  "WhenRequested": "2022-12-30T13:14:10.6172706+01:00",
-  "WhenStarted": "1999-07-27T13:14:10.6172706+02:00",
-  "WhenEnded": "2004-05-10T13:14:10.6172706+02:00",
-  "WhenIdle": "2007-12-09T13:14:10.6172706+01:00",
-  "WhenFetched": "2005-02-09T13:14:10.6172706+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 550,
-  "AlertLevel": 276,
-  "Rank": 250,
+  "FirstMessage": "quis",
+  "LastMessage": "vel",
+  "WhenRequested": "2020-06-23T14:45:12.5057625+02:00",
+  "WhenStarted": "2016-08-14T14:45:12.5057625+02:00",
+  "WhenEnded": "2008-04-30T14:45:12.5057625+02:00",
+  "WhenIdle": "2004-04-30T14:45:12.5057625+02:00",
+  "WhenFetched": "2004-02-05T14:45:12.5057625+01:00",
+  "SessionKey": "nulla",
+  "InitialQueuePos": 2,
+  "AlertLevel": 996,
+  "Rank": 679,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,18 +143,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 975,
+  "Rating": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 88
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

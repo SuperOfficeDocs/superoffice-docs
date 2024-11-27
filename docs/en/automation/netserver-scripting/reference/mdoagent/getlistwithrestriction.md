@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MDOAgent.GetListWithRestriction
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction'>GetListWithRestriction</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMDOAgent.GetListWithRestriction'>GetListWithRestriction</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
 
 ## BeforeGetListWithRestriction
 ```cs

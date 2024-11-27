@@ -10,7 +10,7 @@ so.envir: onsite
 
 # DashboardAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDashboardAgent'>DashboardAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IDashboardAgent'>DashboardAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultDashboard](createdefaultdashboard.md)
 * [CreateDefaultDashboardTile](createdefaultdashboardtile.md)

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Dooley-Stark",
-    "Tooltip": "facere",
+    "HeadingId": 468,
+    "Name": "Hegmann Group",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 464,
+    "Rank": 833,
+    "UdListDefinitionId": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 405
       }
     }
   }

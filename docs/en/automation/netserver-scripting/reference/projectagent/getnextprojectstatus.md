@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.GetNextProjectStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus'>GetNextProjectStatus</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.GetNextProjectStatus'>GetNextProjectStatus</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeGetNextProjectStatus
 ```cs

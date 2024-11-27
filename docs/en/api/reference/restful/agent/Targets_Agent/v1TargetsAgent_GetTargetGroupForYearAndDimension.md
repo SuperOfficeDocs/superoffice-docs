@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 154,
-  "DimensionId": 368
+  "TargetYear": 682,
+  "DimensionId": 449
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 213,
-  "Year": 86,
+  "TargetGroupId": 836,
+  "Year": 302,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 220,
+      "TargetAssignmentInfoId": 1000,
       "Values": [
-        696,
-        906
+        186,
+        323
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 629,
-      "DimensionListItemDisplayName": "Schimmel-Corwin",
+      "DimensionListItem": 801,
+      "DimensionListItemDisplayName": "Blick-Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldLength": 643
     }
   }
 }

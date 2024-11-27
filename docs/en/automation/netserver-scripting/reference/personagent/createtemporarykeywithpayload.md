@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.CreateTemporaryKeyWithPayload
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKeyWithPayload'>CreateTemporaryKeyWithPayload</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.CreateTemporaryKeyWithPayload'>CreateTemporaryKeyWithPayload</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeCreateTemporaryKeyWithPayload
 ```cs

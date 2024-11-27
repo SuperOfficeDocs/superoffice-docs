@@ -81,10 +81,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 14,
+  "DocumentId": 196,
   "AllowedReturnTypes": [
-    "voluptas",
-    "repellat"
+    "quae",
+    "voluptas"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "et",
-  "VersionId": "laudantium",
-  "Success": true,
+  "ExternalReference": "aut",
+  "VersionId": "cumque",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "unde",
-  "AdditionalInfo": "ipsum"
+  "Value": "expedita",
+  "AdditionalInfo": "sapiente"
 }
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateInlineHtmlHeader
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateInlineHtmlHeader'>CreateInlineHtmlHeader</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateInlineHtmlHeader'>CreateInlineHtmlHeader</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateInlineHtmlHeader
 ```cs

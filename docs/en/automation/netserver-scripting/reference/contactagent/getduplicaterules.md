@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.GetDuplicateRules
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules'>GetDuplicateRules</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.GetDuplicateRules'>GetDuplicateRules</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeGetDuplicateRules
 ```cs

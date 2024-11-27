@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.DeleteWorkflowTrigger
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger'>DeleteWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.DeleteWorkflowTrigger'>DeleteWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeDeleteWorkflowTrigger
 ```cs

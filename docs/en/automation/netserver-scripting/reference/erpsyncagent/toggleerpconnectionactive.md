@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ToggleErpConnectionActive
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive'>ToggleErpConnectionActive</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ToggleErpConnectionActive'>ToggleErpConnectionActive</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeToggleErpConnectionActive
 ```cs

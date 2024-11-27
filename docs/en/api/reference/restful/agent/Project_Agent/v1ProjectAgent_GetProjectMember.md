@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=35
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=817
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 917,
-  "ContactId": 612,
-  "ProjectId": 37,
-  "ContactName": "Langosh-Walter",
+  "ProjectmemberId": 787,
+  "ContactId": 464,
+  "ProjectId": 850,
+  "ContactName": "Conroy LLC",
   "ContactDepartment": "",
-  "ProjectName": "Lind, Howe and Moore",
-  "EmailId": 243,
-  "EmailAddress": "marley_block@swaniawski.biz",
-  "CountryId": 410,
-  "Firstname": "Hollis",
-  "MiddleName": "Keeling, Hane and Hagenes",
-  "Lastname": "Rogahn",
-  "PersonId": 671,
-  "Mrmrs": "dolor",
-  "ProjectMemberTypeName": "Erdman Group",
-  "Phone": "583-748-2877 x173",
-  "PhoneId": 147,
-  "ProjectMemberTypeId": 597,
-  "EmailAddressName": "russel.cummerata@hand.biz",
-  "Comment": "veritatis",
-  "FullName": "Mr. Margot Cordelia Emard",
+  "ProjectName": "Shields-Jewess",
+  "EmailId": 766,
+  "EmailAddress": "anthony@kemmer.biz",
+  "CountryId": 536,
+  "Firstname": "Skylar",
+  "MiddleName": "Borer, Nienow and Welch",
+  "Lastname": "Denesik",
+  "PersonId": 755,
+  "Mrmrs": "omnis",
+  "ProjectMemberTypeName": "Marvin Inc and Sons",
+  "Phone": "(460)995-0408 x23123",
+  "PhoneId": 257,
+  "ProjectMemberTypeId": 934,
+  "EmailAddressName": "krystel@hoeger.name",
+  "Comment": "quia",
+  "FullName": "Coby Hoeger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

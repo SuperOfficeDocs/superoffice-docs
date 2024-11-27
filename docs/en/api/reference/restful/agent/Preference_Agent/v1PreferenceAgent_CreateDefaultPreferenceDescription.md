@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 600,
-  "Section": "blanditiis",
-  "Key": "voluptatibus",
-  "Name": "Oberbrunner Group",
+  "PrefDescId": 922,
+  "Section": "facere",
+  "Key": "architecto",
+  "Name": "Vandervort, Smith and Deckow",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering homogeneous concept",
+  "Description": "Open-source leading edge product",
   "IsBuiltin": false,
-  "TableName": "Heathcote Group",
-  "UserDefinedListId": 238,
-  "Rank": 97,
-  "SubGroup": "et",
-  "MinLevel": 92,
-  "MaxValue": 487,
-  "MinValue": 709,
-  "RequiredLicense": "consequatur",
+  "TableName": "Kshlerin-Nolan",
+  "UserDefinedListId": 85,
+  "Rank": 511,
+  "SubGroup": "qui",
+  "MinLevel": 493,
+  "MaxValue": 745,
+  "MinValue": 967,
+  "RequiredLicense": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 264
     }
   }
 }

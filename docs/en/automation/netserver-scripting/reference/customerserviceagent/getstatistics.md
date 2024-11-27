@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.GetStatistics
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics'>GetStatistics</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.GetStatistics'>GetStatistics</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeGetStatistics
 ```cs

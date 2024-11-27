@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 110,
+  "SourceDocumentTemplateId": 266,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 168,
-  "Name": "Doyle-Gutkowski",
-  "Tooltip": "sit",
-  "SaveInDb": 658,
-  "Filename": "qui",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 975,
+  "Name": "Jenkins, Turcotte and Lowe",
+  "Tooltip": "dolores",
+  "SaveInDb": 699,
+  "Filename": "et",
+  "DefaultOref": "nostrum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 414,
-  "IntentId": 394,
-  "IsDefaultPublished": false,
-  "Rank": 469,
-  "LoadTemplateFromPlugin": 936,
-  "MimeType": "itaque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 151,
+  "AutoeventId": 433,
+  "IntentId": 280,
+  "IsDefaultPublished": true,
+  "Rank": 214,
+  "LoadTemplateFromPlugin": 89,
+  "MimeType": "sint",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 905,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "esmeralda@mohr.name",
+  "EmailSubject": "dawson@herzog.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "magnus@runolfsdottir.biz",
+  "SenderEmailAddress": "janiya@mohr.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 331
     }
   }
 }

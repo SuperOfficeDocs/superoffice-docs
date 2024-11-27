@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "McLaughlin-Morar",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "UdListDefinitionId": 1001,
-    "Rank": 517
+    "Id": 441,
+    "Name": "Ernser Group",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "UdListDefinitionId": 638,
+    "Rank": 701
   },
   {
-    "Id": 862,
-    "Name": "McLaughlin-Morar",
-    "Tooltip": "porro",
-    "Deleted": true,
-    "UdListDefinitionId": 1001,
-    "Rank": 517
+    "Id": 441,
+    "Name": "Ernser Group",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "UdListDefinitionId": 638,
+    "Rank": 701
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Volkman, Haley and Reinger",
-    "Tooltip": "aspernatur",
-    "Deleted": false,
-    "UdListDefinitionId": 881,
-    "Rank": 955,
+    "Id": 410,
+    "Name": "Gottlieb, Roob and Smitham",
+    "Tooltip": "exercitationem",
+    "Deleted": true,
+    "UdListDefinitionId": 333,
+    "Rank": 67,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

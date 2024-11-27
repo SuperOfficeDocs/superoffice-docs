@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.Copy
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.Copy'>Copy</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.Copy'>Copy</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeCopy
 ```cs

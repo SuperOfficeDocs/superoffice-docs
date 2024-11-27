@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 950,
-  "Name": "Stanton-Balistreri",
-  "Description": "Synergistic impactful portal",
-  "DeltaJson": "consequatur",
+  "ConfigurableScreenDeltaId": 289,
+  "Name": "Borer-Hoppe",
+  "Description": "Realigned zero defect hierarchy",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2014-12-28T13:14:05.6320153+01:00",
-  "CreatedDate": "2000-04-01T13:14:05.6320153+02:00",
+  "RecipeId": "odio",
+  "UpdatedDate": "2019-07-09T14:45:05.0221142+02:00",
+  "CreatedDate": "2009-09-13T14:45:05.0221142+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    81,
-    964
+    106,
+    138
   ],
-  "AppliesToKey": "sed",
+  "AppliesToKey": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

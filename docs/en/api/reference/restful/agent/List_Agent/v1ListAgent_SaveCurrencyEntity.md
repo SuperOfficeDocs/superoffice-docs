@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 529,
-  "Name": "Schinner LLC",
-  "Tooltip": "voluptatum",
-  "Rank": 523,
-  "Rate": 25752.077999999998,
-  "Units": 30268.172,
+  "CurrencyId": 186,
+  "Name": "Orn-Gorczany",
+  "Tooltip": "numquam",
+  "Rank": 896,
+  "Rate": 17215.061999999998,
+  "Units": 2554.21,
   "Deleted": true
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 602,
-  "Name": "Greenholt, Yost and Kohler",
-  "Tooltip": "quo",
-  "Rank": 396,
-  "Rate": 29525.414,
-  "Units": 4171.354,
-  "Deleted": true,
+  "CurrencyId": 679,
+  "Name": "Herzog, D'Amore and Bartell",
+  "Tooltip": "cupiditate",
+  "Rank": 568,
+  "Rate": 22304.678,
+  "Units": 16303.068,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

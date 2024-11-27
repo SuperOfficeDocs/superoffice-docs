@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "et",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 204,
-  "Name": "Mitchell, Moen and Moore",
-  "CreatedDate": "2014-03-19T13:14:10.8360396+01:00",
-  "UpdatedDate": "2004-02-09T13:14:10.8360396+01:00",
+  "ForeignAppId": 540,
+  "Name": "Grimes-Nikolaus",
+  "CreatedDate": "2017-04-19T14:45:12.8181931+02:00",
+  "UpdatedDate": "2011-09-25T14:45:12.8181931+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 6,
-      "Name": "Skiles Inc and Sons",
-      "CreatedDate": "2003-06-08T13:14:10.8360396+02:00",
-      "UpdatedDate": "1997-11-25T13:14:10.8360396+01:00",
-      "AssociateFullName": "Miss Eusebio West Jr.",
-      "CreatedBy": "numquam",
-      "UpdatedBy": "ex",
-      "DeviceIdentifier": "veniam",
-      "ForeignAppId": 222,
+      "ForeignDeviceId": 819,
+      "Name": "Nader-Monahan",
+      "CreatedDate": "2004-10-08T14:45:12.8338163+02:00",
+      "UpdatedDate": "2001-05-14T14:45:12.8338163+02:00",
+      "AssociateFullName": "Jarrett Marks",
+      "CreatedBy": "veniam",
+      "UpdatedBy": "ullam",
+      "DeviceIdentifier": "ea",
+      "ForeignAppId": 51,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldLength": 875
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 594
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

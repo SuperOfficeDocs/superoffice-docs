@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "Name": "Rosenbaum, Mayert and Ward",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "UdListDefinitionId": 896,
-  "Rank": 649,
+  "Id": 141,
+  "Name": "Romaguera-Abernathy",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "UdListDefinitionId": 694,
+  "Rank": 131,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

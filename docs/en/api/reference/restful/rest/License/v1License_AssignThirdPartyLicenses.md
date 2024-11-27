@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 208,
-    "Tooltip": "non",
+    "Total": 417,
+    "Tooltip": "sint",
     "CanAssign": false,
-    "Free": 935,
-    "InUse": 59,
-    "IsHidden": true,
+    "Free": 30,
+    "InUse": 849,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 251,
-    "Name": "Kuhic, Feeney and Haley",
-    "Description": "Versatile methodical matrix",
-    "PrerequisiteModuleName": "Rau-Johnston",
-    "SortOrder": 31,
-    "ExtraFlags": 803,
+    "ModuleLicenseId": 748,
+    "Name": "Hessel-Marks",
+    "Description": "Inverse upward-trending product",
+    "PrerequisiteModuleName": "Towne Inc and Sons",
+    "SortOrder": 117,
+    "ExtraFlags": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldType": "System.String",
+        "FieldLength": 325
       }
     }
   }

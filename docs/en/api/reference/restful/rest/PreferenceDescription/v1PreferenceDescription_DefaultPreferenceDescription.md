@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 463,
-  "Section": "id",
-  "Key": "incidunt",
-  "Name": "Bahringer Inc and Sons",
+  "PrefDescId": 622,
+  "Section": "voluptatibus",
+  "Key": "ad",
+  "Name": "Crist-Marks",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile holistic architecture",
+  "Description": "Profound actuating monitoring",
   "IsBuiltin": true,
-  "TableName": "Glover LLC",
-  "UserDefinedListId": 809,
-  "Rank": 71,
-  "SubGroup": "modi",
-  "MinLevel": 764,
-  "MaxValue": 324,
-  "MinValue": 164,
-  "RequiredLicense": "adipisci",
+  "TableName": "Pfeffer LLC",
+  "UserDefinedListId": 242,
+  "Rank": 735,
+  "SubGroup": "consequatur",
+  "MinLevel": 504,
+  "MaxValue": 489,
+  "MinValue": 576,
+  "RequiredLicense": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 629
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.GetDefaultTimeZoneInformation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation'>GetDefaultTimeZoneInformation</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.GetDefaultTimeZoneInformation'>GetDefaultTimeZoneInformation</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeGetDefaultTimeZoneInformation
 ```cs

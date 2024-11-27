@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.ConnectEmailFlowContent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent'>ConnectEmailFlowContent</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.ConnectEmailFlowContent'>ConnectEmailFlowContent</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeConnectEmailFlowContent
 ```cs

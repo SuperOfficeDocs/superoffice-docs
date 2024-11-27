@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,9 +83,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "assumenda",
-    "Type": "repellat",
-    "Description": "Seamless foreground infrastructure",
+    "DisplayType": "repellendus",
+    "Type": "quasi",
+    "Description": "Total grid-enabled throughput",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -94,7 +94,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 274
       }
     }
   }

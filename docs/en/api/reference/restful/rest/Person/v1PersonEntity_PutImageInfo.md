@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 257,
-  "BlobSize": 362,
-  "Description": "Decentralized explicit emulation",
-  "ExtraInfo": "numquam",
+  "BlobId": 527,
+  "BlobSize": 349,
+  "Description": "Networked composite interface",
+  "ExtraInfo": "deleniti",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 43,
-  "CreatedDate": "2003-01-28T13:14:10.9141693+01:00",
-  "UpdatedDate": "2014-12-17T13:14:10.9141693+01:00",
+  "IsZipped": true,
+  "MimeType": "molestiae",
+  "OriginalSize": 465,
+  "CreatedDate": "2006-10-22T14:45:12.9431644+02:00",
+  "UpdatedDate": "1997-10-14T14:45:12.9431644+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reiciendis"
+  "ConceptualType": "quam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 597,
-  "BlobSize": 126,
-  "Description": "Organized dynamic service-desk",
-  "ExtraInfo": "nemo",
+  "BlobId": 190,
+  "BlobSize": 683,
+  "Description": "Decentralized human-resource superstructure",
+  "ExtraInfo": "perferendis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 256,
-  "CreatedDate": "2003-03-31T13:14:10.9141693+02:00",
-  "UpdatedDate": "2003-11-24T13:14:10.9141693+01:00",
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 273,
+  "CreatedDate": "2011-08-23T14:45:12.9431644+02:00",
+  "UpdatedDate": "2007-04-03T14:45:12.9431644+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "officiis",
+  "ConceptualType": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 48
     }
   }
 }

@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hickle Inc and Sons",
-    "Description": "Programmable local structure",
+    "Name": "Bernier, Gleichner and Considine",
+    "Description": "Progressive exuding capacity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 531,
-        "Tooltip": "accusantium",
+        "Unrestricted": false,
+        "Total": 638,
+        "Tooltip": "sit",
         "CanAssign": true,
-        "Free": 736,
-        "InUse": 462,
+        "Free": 30,
+        "InUse": 533,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 615,
-        "Name": "Nikolaus-Hartmann",
-        "Description": "Managed static software",
-        "PrerequisiteModuleName": "Cronin Inc and Sons",
-        "SortOrder": 737,
-        "ExtraFlags": 511,
+        "ModuleLicenseId": 540,
+        "Name": "Greenholt-Hills",
+        "Description": "Future-proofed user-facing access",
+        "PrerequisiteModuleName": "Stokes, Collier and Berge",
+        "SortOrder": 452,
+        "ExtraFlags": 580,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldType": "System.String",
+            "FieldLength": 908
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 931,
-        "Tooltip": "velit",
-        "CanAssign": true,
-        "Free": 19,
-        "InUse": 348,
+        "Total": 866,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 942,
+        "InUse": 706,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Kerluke-Rosenbaum",
-        "Description": "Face to face intermediate framework",
-        "PrerequisiteModuleName": "Carroll-Marks",
-        "SortOrder": 262,
-        "ExtraFlags": 727,
+        "ModuleLicenseId": 244,
+        "Name": "Nikolaus, Abernathy and Cruickshank",
+        "Description": "Reactive zero administration infrastructure",
+        "PrerequisiteModuleName": "Cartwright, Schimmel and O'Conner",
+        "SortOrder": 686,
+        "ExtraFlags": 149,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 811
+            "FieldType": "System.Int32",
+            "FieldLength": 445
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldLength": 22
       }
     }
   },
   {
-    "Name": "Hickle Inc and Sons",
-    "Description": "Programmable local structure",
+    "Name": "Bernier, Gleichner and Considine",
+    "Description": "Progressive exuding capacity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 531,
-        "Tooltip": "accusantium",
+        "Unrestricted": false,
+        "Total": 638,
+        "Tooltip": "sit",
         "CanAssign": true,
-        "Free": 736,
-        "InUse": 462,
+        "Free": 30,
+        "InUse": 533,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 615,
-        "Name": "Nikolaus-Hartmann",
-        "Description": "Managed static software",
-        "PrerequisiteModuleName": "Cronin Inc and Sons",
-        "SortOrder": 737,
-        "ExtraFlags": 511,
+        "ModuleLicenseId": 540,
+        "Name": "Greenholt-Hills",
+        "Description": "Future-proofed user-facing access",
+        "PrerequisiteModuleName": "Stokes, Collier and Berge",
+        "SortOrder": 452,
+        "ExtraFlags": 580,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldType": "System.String",
+            "FieldLength": 908
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 931,
-        "Tooltip": "velit",
-        "CanAssign": true,
-        "Free": 19,
-        "InUse": 348,
+        "Total": 866,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 942,
+        "InUse": 706,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 476,
-        "Name": "Kerluke-Rosenbaum",
-        "Description": "Face to face intermediate framework",
-        "PrerequisiteModuleName": "Carroll-Marks",
-        "SortOrder": 262,
-        "ExtraFlags": 727,
+        "ModuleLicenseId": 244,
+        "Name": "Nikolaus, Abernathy and Cruickshank",
+        "Description": "Reactive zero administration infrastructure",
+        "PrerequisiteModuleName": "Cartwright, Schimmel and O'Conner",
+        "SortOrder": 686,
+        "ExtraFlags": 149,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 811
+            "FieldType": "System.Int32",
+            "FieldLength": 445
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldLength": 22
       }
     }
   }

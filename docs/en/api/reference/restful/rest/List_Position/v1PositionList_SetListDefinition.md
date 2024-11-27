@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "O'Conner LLC",
-  "Tooltip": "et",
+  "Id": 31,
+  "Name": "Ortiz LLC",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 794,
-  "IsCustomList": false,
+  "Rank": 178,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true
+  "ListType": "est",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Beier, Batz and Keeling",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 639,
+  "Id": 807,
+  "Name": "Runolfsdottir-Oberbrunner",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 119,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "natus",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

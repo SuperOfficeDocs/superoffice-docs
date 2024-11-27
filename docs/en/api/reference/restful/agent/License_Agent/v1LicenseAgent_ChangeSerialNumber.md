@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Barrows, Oberbrunner and Skiles",
-  "NewSerialNumber": "1016369"
+  "NewCompanyName": "Brakus, Daugherty and Blick",
+  "NewSerialNumber": "217369"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 349
     }
   }
 }

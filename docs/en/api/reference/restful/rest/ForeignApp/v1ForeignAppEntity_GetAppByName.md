@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 28 Jan 2002 13:14:10 G1T
+Last-Modified: Mon, 05 Nov 2018 14:45:12 G11T
 
 {
-  "ForeignAppId": 79,
-  "Name": "Halvorson, Strosin and Tromp",
-  "CreatedDate": "2003-04-20T13:14:10.8360396+02:00",
-  "UpdatedDate": "2002-01-28T13:14:10.8360396+01:00",
+  "ForeignAppId": 729,
+  "Name": "Rolfson Inc and Sons",
+  "CreatedDate": "2010-02-23T14:45:12.8338163+01:00",
+  "UpdatedDate": "2018-11-05T14:45:12.8338163+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 101,
-      "Name": "O'Kon, Crist and Hahn",
-      "CreatedDate": "2005-08-28T13:14:10.8360396+02:00",
-      "UpdatedDate": "2014-05-27T13:14:10.8360396+02:00",
-      "AssociateFullName": "Elsie Rau",
-      "CreatedBy": "et",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 169,
+      "ForeignDeviceId": 940,
+      "Name": "Little Inc and Sons",
+      "CreatedDate": "2023-09-21T14:45:12.8338163+02:00",
+      "UpdatedDate": "2022-05-14T14:45:12.8338163+02:00",
+      "AssociateFullName": "Bradford Bosco",
+      "CreatedBy": "reprehenderit",
+      "UpdatedBy": "quasi",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 702,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 706
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Mon, 28 Jan 2002 13:14:10 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

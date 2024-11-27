@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 671,
-    "Name": "Hilll, Hyatt and Bayer",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 857,
+    "WebPanelId": 980,
+    "Name": "Schaefer-Purdy",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "Rank": 449,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Rempel, O'Reilly and Lockman",
+    "WindowName": "Conroy-Miller",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 244,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "earum",
+    "Icon": 733,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 614
       }
     }
   }

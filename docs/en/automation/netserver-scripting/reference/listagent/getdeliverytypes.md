@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetDeliveryTypes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetDeliveryTypes'>GetDeliveryTypes</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetDeliveryTypes'>GetDeliveryTypes</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetDeliveryTypes
 ```cs

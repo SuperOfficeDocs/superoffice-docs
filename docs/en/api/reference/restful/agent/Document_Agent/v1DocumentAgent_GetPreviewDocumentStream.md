@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 800
+  "DocumentId": 475
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blick, Konopelski and Wolff",
-  "Type": "eos",
-  "Size": 48,
+  "Name": "Abshire-Sawayn",
+  "Type": "iste",
+  "Size": 179,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 733
     }
   }
 }

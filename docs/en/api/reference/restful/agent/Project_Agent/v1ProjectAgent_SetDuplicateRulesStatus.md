@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Corwin, Eichmann and Cormier",
-      "DisplayName": "Kreiger, Pacocha and Gottlieb",
-      "DisplayTooltip": "veritatis",
+      "Name": "Monahan Group",
+      "DisplayName": "Olson-Bogan",
+      "DisplayTooltip": "voluptate",
       "IsActive": false
     },
     {
-      "Name": "Corwin, Eichmann and Cormier",
-      "DisplayName": "Kreiger, Pacocha and Gottlieb",
-      "DisplayTooltip": "veritatis",
+      "Name": "Monahan Group",
+      "DisplayName": "Olson-Bogan",
+      "DisplayTooltip": "voluptate",
       "IsActive": false
     }
   ]

@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 657,
-  "UniqueId": "atque",
-  "Name": "Eichmann, Wolf and Murazik",
-  "Description": "Open-source systematic portal",
-  "AssociateId": 193,
-  "Columns": 415,
+  "DashboardId": 157,
+  "UniqueId": "eum",
+  "Name": "Padberg Inc and Sons",
+  "Description": "Innovative optimizing info-mediaries",
+  "AssociateId": 698,
+  "Columns": 538,
   "Theme": null,
-  "VisibleForAll": 458,
+  "VisibleForAll": 436,
   "VisibleForAssociates": [
-    322,
-    36
+    132,
+    424
   ],
   "VisibleForGroups": [
-    408,
-    838
+    442,
+    473
   ],
-  "PinForAll": 18,
+  "PinForAll": 270,
   "PinForAssociates": [
-    611,
+    199,
     13
   ],
   "PinForGroups": [
-    532,
-    604
+    478,
+    200
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 341,
-  "UniqueId": "qui",
-  "Name": "Swift Group",
-  "Description": "Reactive zero administration Graphical User Interface",
-  "AssociateId": 790,
-  "Columns": 882,
+  "DashboardId": 431,
+  "UniqueId": "eligendi",
+  "Name": "Simonis Group",
+  "Description": "Reverse-engineered national standardization",
+  "AssociateId": 798,
+  "Columns": 357,
   "Theme": null,
-  "VisibleForAll": 641,
+  "VisibleForAll": 279,
   "VisibleForAssociates": [
-    380,
-    419
+    469,
+    944
   ],
   "VisibleForGroups": [
-    769,
-    241
+    695,
+    70
   ],
-  "PinForAll": 818,
+  "PinForAll": 185,
   "PinForAssociates": [
-    699,
-    441
+    641,
+    974
   ],
   "PinForGroups": [
-    113,
-    820
+    810,
+    610
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   },
   "_Links": {

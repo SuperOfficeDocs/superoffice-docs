@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetListItemsForUserGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetListItemsForUserGroup'>GetListItemsForUserGroup</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetListItemsForUserGroup'>GetListItemsForUserGroup</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetListItemsForUserGroup
 ```cs

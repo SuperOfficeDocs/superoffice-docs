@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.CreateDefaultSaleEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity'>CreateDefaultSaleEntity</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.CreateDefaultSaleEntity'>CreateDefaultSaleEntity</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeCreateDefaultSaleEntity
 ```cs

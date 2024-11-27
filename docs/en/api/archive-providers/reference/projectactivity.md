@@ -1225,11 +1225,14 @@ Activity archive provider for the Project card
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/contactSource,mailingAddr/contact/contactAssociate/contactDepartment,mailingAddr/contact/contactExtra/x_contact_longtext,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/person/personAssociate/isLocation
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/streetAddress/wgs84longitude,mailingAddr/person/personDirectPhone/formattedNumber,emailFlow/workflowAssociate/assocTooltip,emailFlow/workflowAssociate/portraitThumbnail,project/projectUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

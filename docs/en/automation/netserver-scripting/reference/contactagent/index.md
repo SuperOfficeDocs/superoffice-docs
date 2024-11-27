@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ContactAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IContactAgent'>ContactAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IContactAgent'>ContactAgent</see> that can trigger server-side event scripts.
 
 * [AddPerson](addperson.md)
 * [ChangeCountry](changecountry.md)

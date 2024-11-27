@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "ipsa",
-    "ut"
+    "pariatur",
+    "veritatis"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 447,
-  "ERPQuoteLineKey": "sunt",
-  "QuoteAlternativeId": 733,
-  "ERPProductKey": "quibusdam",
+  "QuoteLineId": 44,
+  "ERPQuoteLineKey": "enim",
+  "QuoteAlternativeId": 275,
+  "ERPProductKey": "quia",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 19722.262,
-  "DeliveredQuantity": 8612.232,
-  "Rank": 999,
-  "Name": "Douglas Inc and Sons",
-  "Description": "Innovative even-keeled firmware",
-  "Code": "eos",
-  "QuantityUnit": "voluptatem",
-  "PriceUnit": "placeat",
-  "ItemNumber": "920567",
+  "Quantity": 4995.596,
+  "DeliveredQuantity": 4114.942,
+  "Rank": 696,
+  "Name": "Ondricka, Conn and Towne",
+  "Description": "Diverse methodical collaboration",
+  "Code": "explicabo",
+  "QuantityUnit": "consequuntur",
+  "PriceUnit": "et",
+  "ItemNumber": "1525516",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "architecto",
-  "ProductTypeKey": "et",
-  "Supplier": "quae",
-  "SupplierCode": "sapiente",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "in",
-  "VAT": 14999.323999999999,
-  "UnitCost": 19098.595999999998,
-  "UnitMinimumPrice": 9085.466,
-  "UnitListPrice": 3444.266,
+  "ProductFamilyKey": "excepturi",
+  "ProductTypeKey": "vel",
+  "Supplier": "temporibus",
+  "SupplierCode": "eum",
+  "Thumbnail": "natus",
+  "VATInfo": "fugit",
+  "VAT": 20095.208,
+  "UnitCost": 15795.359999999999,
+  "UnitMinimumPrice": 9536.7619999999988,
+  "UnitListPrice": 24601.899999999998,
   "ExtraInfo": [
     {
-      "Name": "Willms Group",
-      "Value": "est",
+      "Name": "McKenzie-Labadie",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldLength": 809
         }
       }
     },
     {
-      "Name": "Willms Group",
-      "Value": "est",
+      "Name": "McKenzie-Labadie",
+      "Value": "veniam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldLength": 809
         }
       }
     }
   ],
-  "RawExtraInfo": "laborum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "occaecati",
-  "SubscriptionQuantity": 1194.0539999999999,
-  "SubscriptionStart": "2014-07-07T13:14:06.3039303+02:00",
-  "ERPDiscountPercent": 20609.184,
-  "ERPDiscountAmount": 15027.529999999999,
-  "DiscountPercent": 25256.906,
-  "DiscountAmount": 12971.626,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "officiis",
+  "SubscriptionQuantity": 15870.576,
+  "SubscriptionStart": "2017-05-20T14:45:06.0375135+02:00",
+  "ERPDiscountPercent": 21887.856,
+  "ERPDiscountAmount": 8468.068,
+  "DiscountPercent": 14378.792,
+  "DiscountAmount": 15626.124,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18703.712,
-  "EarningAmount": 9571.235999999999,
-  "SubTotal": 26613.928,
-  "TotalPrice": 8956.972,
-  "Rights": "natus",
-  "Rule": "omnis",
-  "ExtraField1": "nemo",
-  "ExtraField2": "accusantium",
-  "ExtraField3": "qui",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "non",
+  "EarningPercent": 17450.112,
+  "EarningAmount": 5572.2519999999995,
+  "SubTotal": 20841.1,
+  "TotalPrice": 29045.912,
+  "Rights": "asperiores",
+  "Rule": "sed",
+  "ExtraField1": "earum",
+  "ExtraField2": "est",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "nam",
+  "ExtraField5": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kirlin, Daniel and Baumbach",
-  "Columns": "quia",
-  "SortOrder": "non",
-  "Restriction": "necessitatibus",
-  "Entities": "et",
-  "Page": 634,
-  "PageSize": 200,
-  "Options": "provident"
+  "ProviderName": "Schmitt-Von",
+  "Columns": "explicabo",
+  "SortOrder": "rem",
+  "Restriction": "quo",
+  "Entities": "quia",
+  "Page": 376,
+  "PageSize": 320,
+  "Options": "quibusdam"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 720,
+  "RowCount": 272,
   "Rows": [
     {
-      "EntityName": "Johnston LLC",
-      "PrimaryKey": 603,
+      "EntityName": "Tromp, Schmeler and Orn",
+      "PrimaryKey": 273,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "sunt",
-          "LinkHint": "molestias"
+          "DisplayValue": "aperiam",
+          "TooltipHint": "ut",
+          "LinkHint": "dolor"
         }
       },
-      "LinkHint": "facere",
-      "StyleHint": "consequatur",
+      "LinkHint": "dolor",
+      "StyleHint": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 342
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 85
     }
   }
 }

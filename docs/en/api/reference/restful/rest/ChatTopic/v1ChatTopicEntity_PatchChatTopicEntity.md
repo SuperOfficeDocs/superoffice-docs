@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsum",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 60,
-  "Name": "Rowe, Kris and Gaylord",
-  "Description": "Total optimal open system",
-  "WelcomeMessage": "enim",
+  "ChatTopicId": 314,
+  "Name": "Bartell-Glover",
+  "Description": "Optional zero defect challenge",
+  "WelcomeMessage": "eum",
   "Language": null,
-  "LastAccept": "2003-10-23T13:14:10.6954061+02:00",
-  "SecondsPrAccept": 386,
-  "AlertRecipient": "molestias",
+  "LastAccept": "2000-12-12T14:45:12.5994936+01:00",
+  "SecondsPrAccept": 855,
+  "AlertRecipient": "illo",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 478,
-  "WarnManagerNewChatMinutes": 315,
+  "BadgeHeader": "illum",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "pariatur",
+  "WarnNewChatMinutes": 236,
+  "WarnManagerNewChatMinutes": 332,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 471,
-  "WarnManagerChatMessageMinutes": 614,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 521,
-  "OfflineFormQueueLength": 78,
+  "WarnChatMessageMinutes": 507,
+  "WarnManagerChatMessageMinutes": 225,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 94,
+  "OfflineFormQueueLength": 98,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "voluptatibus",
+  "WidgetRatingText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 686
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

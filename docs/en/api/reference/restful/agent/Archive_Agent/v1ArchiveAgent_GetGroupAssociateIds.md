@@ -73,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    992,
-    554
+    215,
+    613
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  86,
-  144
+  705,
+  304
 ]
 ```

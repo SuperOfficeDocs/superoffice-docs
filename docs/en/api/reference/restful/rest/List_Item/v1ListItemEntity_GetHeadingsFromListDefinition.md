@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 276,
-    "Name": "Kassulke LLC",
-    "Tooltip": "laboriosam",
+    "HeadingId": 23,
+    "Name": "O'Hara Inc and Sons",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 470,
-    "UdListDefinitionId": 383,
+    "Rank": 621,
+    "UdListDefinitionId": 333,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 1000
       }
     }
   }

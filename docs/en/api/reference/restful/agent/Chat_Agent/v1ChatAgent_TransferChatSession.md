@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 955,
-  "ToAssociate": "vero"
+  "ChatSessionId": 630,
+  "ToAssociate": "nostrum"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 563,
-  "TopicId": 468,
+  "ChatSessionId": 17,
+  "TopicId": 892,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "architecto",
-  "CustomerName": "Gleason-Hansen",
-  "CustomerEmail": "joana@eichmann.name",
-  "CustomerPhone": "038-336-1681 x904",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Auer, O'Hara and Nitzsche",
+  "CustomerAlias": "ut",
+  "CustomerHost": "neque",
+  "CustomerName": "Ernser-Walsh",
+  "CustomerEmail": "charlotte@johnston.biz",
+  "CustomerPhone": "251-424-5395 x94097",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Watsica, Bernhard and Bechtelar",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "eum",
-  "WhenRequested": "2010-01-13T13:14:05.5851375+01:00",
-  "WhenStarted": "2005-01-25T13:14:05.5851375+01:00",
-  "WhenEnded": "1998-02-09T13:14:05.5851375+01:00",
-  "WhenIdle": "2005-01-28T13:14:05.5851375+01:00",
-  "WhenFetched": "2019-07-16T13:14:05.5851375+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 950,
-  "AlertLevel": 422,
-  "Rank": 189,
+  "FirstMessage": "quia",
+  "LastMessage": "placeat",
+  "WhenRequested": "2006-06-29T14:45:04.9596283+02:00",
+  "WhenStarted": "2004-03-17T14:45:04.9596283+01:00",
+  "WhenEnded": "2005-09-06T14:45:04.9596283+02:00",
+  "WhenIdle": "2022-12-17T14:45:04.9596283+01:00",
+  "WhenFetched": "1998-07-01T14:45:04.9596283+02:00",
+  "SessionKey": "quae",
+  "InitialQueuePos": 531,
+  "AlertLevel": 840,
+  "Rank": 802,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 356,
+  "Rating": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldLength": 973
     }
   }
 }

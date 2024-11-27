@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 678,
-  "Name": "Howe LLC",
-  "Tooltip": "assumenda",
+  "Id": 471,
+  "Name": "Dare-Harber",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 442,
+  "Rank": 317,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 494,
-  "Name": "Wilkinson, Ankunding and DuBuque",
-  "Tooltip": "consequatur",
+  "Id": 949,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 173,
+  "Rank": 307,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

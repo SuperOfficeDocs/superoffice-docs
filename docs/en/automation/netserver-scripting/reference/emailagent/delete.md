@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.Delete
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.Delete'>Delete</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.Delete'>Delete</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeDelete
 ```cs

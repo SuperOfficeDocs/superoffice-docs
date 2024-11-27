@@ -145,7 +145,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectPublish/publishedFrom,projectAssociate/middleName,projectAssociate/contactCategory
+GET /api/v1/archive/FreetextProject?$select=projectUdef/SuperOffice:5,projectUrl/URLAddress,projectAssociate/assocName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

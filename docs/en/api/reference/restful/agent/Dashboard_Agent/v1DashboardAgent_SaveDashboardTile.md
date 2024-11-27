@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 563,
-  "Caption": "eos",
-  "Description": "Ameliorated modular emulation",
-  "ChartName": "Lakin-Watsica",
-  "ChartId": "voluptatem",
+  "DashboardTileId": 182,
+  "Caption": "unde",
+  "Description": "Mandatory secondary paradigm",
+  "ChartName": "Towne, Hessel and Rowe",
+  "ChartId": "aut",
   "IsDefault": false,
-  "AssociateId": 324,
-  "GroupId": 624,
-  "SelectionId": 255,
-  "Config": "adipisci",
+  "AssociateId": 105,
+  "GroupId": 421,
+  "SelectionId": 62,
+  "Config": "ut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kautzer, Bruen and Bahringer",
-      "Description": "Assimilated radical project",
+      "Name": "Koch-Schmitt",
+      "Description": "Front-line analyzing synergy",
       "Type": "Boolean",
-      "ListName": "Purdy Group",
+      "ListName": "Skiles, Spencer and Bahringer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "quis",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 6,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "fuga"
     },
     {
-      "VisibleId": 6,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "fuga"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 358,
-  "Caption": "sit",
-  "Description": "Open-architected radical protocol",
-  "ChartName": "Glover LLC",
-  "ChartId": "sit",
+  "DashboardTileId": 615,
+  "Caption": "et",
+  "Description": "Automated homogeneous internet solution",
+  "ChartName": "Harvey, Champlin and Goyette",
+  "ChartId": "ea",
   "IsDefault": false,
-  "AssociateId": 117,
-  "GroupId": 779,
-  "SelectionId": 516,
+  "AssociateId": 180,
+  "GroupId": 204,
+  "SelectionId": 533,
   "Config": "ut",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Thompson-Metz",
-      "Description": "Robust directional migration",
+      "Name": "Ziemann-Adams",
+      "Description": "Advanced next generation emulation",
       "Type": "Boolean",
-      "ListName": "Lowe-Abshire",
+      "ListName": "Hoppe, Flatley and Hane",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "rem",
+      "Value": "ullam",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 423
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 684,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 96
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 96
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 54
     }
   }
 }

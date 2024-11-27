@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Gleason Inc and Sons",
-    "ToolTip": "Omnis nam debitis iusto voluptates autem in.",
-    "Deleted": true,
-    "Rank": 228,
-    "Type": "et",
-    "ColorBlock": 63,
-    "IconHint": "architecto",
+    "Id": 346,
+    "Name": "Zulauf-Pagac",
+    "ToolTip": "Ut quod fugiat consequatur tempore repudiandae qui.",
+    "Deleted": false,
+    "Rank": 123,
+    "Type": "dolores",
+    "ColorBlock": 121,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2000-04-24T13:14:11.4298249+02:00",
+    "LastChanged": "2007-08-31T14:45:13.7554843+02:00",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Bernhard-Barton",
-        "ToolTip": "Est facilis minus dolorem.",
-        "Deleted": true,
-        "Rank": 549,
-        "Type": "aut",
-        "ColorBlock": 114,
-        "IconHint": "numquam",
+        "Id": 760,
+        "Name": "Orn, Labadie and Aufderhar",
+        "ToolTip": "Commodi rerum rerum quidem vitae cupiditate voluptas.",
+        "Deleted": false,
+        "Rank": 614,
+        "Type": "perferendis",
+        "ColorBlock": 928,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2020-07-18T13:14:11.4298249+02:00",
+        "LastChanged": "2000-01-27T14:45:13.7554843+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "libero",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Ms. Luna Afton Wehner",
+        "FullName": "Ms. Emile Tristin Okuneva V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Addie Bruen",
+    "ExtraInfo": "aut",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Brent Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 5
       }
     }
   }

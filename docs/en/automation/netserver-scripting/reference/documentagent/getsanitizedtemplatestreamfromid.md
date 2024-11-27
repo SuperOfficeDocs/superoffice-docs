@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetSanitizedTemplateStreamFromId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetSanitizedTemplateStreamFromId'>GetSanitizedTemplateStreamFromId</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetSanitizedTemplateStreamFromId'>GetSanitizedTemplateStreamFromId</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetSanitizedTemplateStreamFromId
 ```cs

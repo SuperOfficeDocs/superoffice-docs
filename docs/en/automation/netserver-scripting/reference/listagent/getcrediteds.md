@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetCrediteds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetCrediteds'>GetCrediteds</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetCrediteds'>GetCrediteds</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetCrediteds
 ```cs

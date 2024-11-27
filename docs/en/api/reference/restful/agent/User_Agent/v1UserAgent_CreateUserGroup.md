@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "nostrum",
-  "Tooltip": "aut",
-  "Id": 198,
-  "Rank": 550,
-  "Deleted": true,
+  "Value": "sed",
+  "Tooltip": "hic",
+  "Id": 840,
+  "Rank": 649,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldType": "System.String",
+      "FieldLength": 221
     }
   }
 }

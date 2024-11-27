@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kris Inc and Sons",
-    "DisplayName": "Dickinson-Hettinger",
-    "Description": "Organic systemic interface",
-    "ShortLabel": "et",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Borer-Hayes",
+    "DisplayName": "Simonis-Krajcik",
+    "Description": "Open-architected explicit protocol",
+    "ShortLabel": "quis",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 195,
-    "TemplateVariableName": "Bernier-Leffler"
+    "Rank": 289,
+    "TemplateVariableName": "Howell, Jakubowski and Robel"
   }
 ]
 ```

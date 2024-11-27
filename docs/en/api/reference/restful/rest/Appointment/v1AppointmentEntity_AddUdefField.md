@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 67,
-  "ColumnId": 365,
-  "FieldDefault": "velit",
-  "FieldHeight": 335,
-  "FieldLabel": "aut",
-  "FieldLeft": 943,
-  "FieldTop": 570,
+  "UDefFieldId": 606,
+  "ColumnId": 653,
+  "FieldDefault": "molestias",
+  "FieldHeight": 241,
+  "FieldLabel": "culpa",
+  "FieldLeft": 546,
+  "FieldTop": 309,
   "FieldType": "Checkbox",
-  "FieldWidth": 853,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 387,
+  "FormatMask": "eum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 356,
-  "LabelLeft": 320,
-  "LabelTop": 653,
-  "LabelWidth": 330,
-  "LastVersionId": 554,
-  "ListTableId": 64,
-  "IsMandatory": true,
+  "LabelHeight": 426,
+  "LabelLeft": 357,
+  "LabelTop": 834,
+  "LabelWidth": 188,
+  "LastVersionId": 237,
+  "ListTableId": 842,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 103,
-  "ProgId": "aliquid",
+  "Page1LineNo": 951,
+  "ProgId": "repellat",
   "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 746,
-  "TextLength": 552,
-  "Tooltip": "velit",
-  "UdefIdentity": 662,
-  "UDListDefinitionId": 934,
+  "ShortLabel": "vero",
+  "TabOrder": 328,
+  "TextLength": 319,
+  "Tooltip": "qui",
+  "UdefIdentity": 254,
+  "UDListDefinitionId": 474,
   "Justification": "Center",
-  "Version": 556,
-  "TemplateVariableName": "Treutel-Labadie",
+  "Version": 177,
+  "TemplateVariableName": "Reichel-Wunsch",
   "HasBeenPublished": true,
-  "MdoListName": "Spencer, Beahan and Weissnat",
+  "MdoListName": "Marquardt, Botsford and Sauer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldLength": 891
     }
   }
 }

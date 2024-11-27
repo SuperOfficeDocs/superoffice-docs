@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.GetSelectionSummaries
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionSummaries'>GetSelectionSummaries</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.GetSelectionSummaries'>GetSelectionSummaries</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeGetSelectionSummaries
 ```cs

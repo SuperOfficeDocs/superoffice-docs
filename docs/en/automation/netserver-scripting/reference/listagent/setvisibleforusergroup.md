@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SetVisibleForUserGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SetVisibleForUserGroup'>SetVisibleForUserGroup</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SetVisibleForUserGroup'>SetVisibleForUserGroup</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSetVisibleForUserGroup
 ```cs

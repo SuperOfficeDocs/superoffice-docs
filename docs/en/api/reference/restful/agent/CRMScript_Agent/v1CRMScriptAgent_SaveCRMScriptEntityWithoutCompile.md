@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 360,
-  "UniqueIdentifier": "aut",
-  "Name": "Rempel, Wiza and Miller",
-  "Description": "Realigned fresh-thinking paradigm",
-  "IncludeId": "quae",
-  "AccessKey": "eos",
-  "HierarchyId": 134,
-  "Source": "voluptatum",
-  "SourceCode": "consequuntur",
+  "EjscriptId": 509,
+  "UniqueIdentifier": "iste",
+  "Name": "Rempel-Sipes",
+  "Description": "Persistent 4th generation service-desk",
+  "IncludeId": "atque",
+  "AccessKey": "velit",
+  "HierarchyId": 830,
+  "Source": "ea",
+  "SourceCode": "voluptatum",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 813,
+  "HtmlOutput": 354,
   "Includes": [
-    697,
-    144
+    867,
+    62
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 12,
-      "LineNumberTo": 289,
-      "Delta": 812,
-      "IncludeId": "dolore",
+      "LineNumberFrom": 771,
+      "LineNumberTo": 694,
+      "Delta": 87,
+      "IncludeId": "odit",
       "IncludedFrom": [
-        "qui",
-        "qui"
+        "magnam",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldType": "System.Int32",
+          "FieldLength": 820
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-06-21T13:14:05.7257709+02:00",
-  "RegisteredAssociateId": 516,
-  "Updated": "2005-02-14T13:14:05.7257709+01:00",
-  "UpdatedAssociateId": 603,
+  "Registered": "1998-12-17T14:45:05.1627086+01:00",
+  "RegisteredAssociateId": 484,
+  "Updated": "2000-10-30T14:45:05.1627086+01:00",
+  "UpdatedAssociateId": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldLength": 149
     }
   }
 }

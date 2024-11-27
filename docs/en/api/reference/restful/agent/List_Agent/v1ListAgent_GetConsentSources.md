@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 986,
-    "Name": "Wintheiser-Veum",
-    "Tooltip": "animi",
-    "Rank": 364,
-    "Key": "voluptas",
-    "MailTemplateId": 685,
+    "ConsentSourceId": 752,
+    "Name": "Bradtke-Weber",
+    "Tooltip": "nulla",
+    "Rank": 514,
+    "Key": "et",
+    "MailTemplateId": 118,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 48
       }
     }
   }

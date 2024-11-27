@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.CreateDefaultBlobEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity'>CreateDefaultBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.CreateDefaultBlobEntity'>CreateDefaultBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeCreateDefaultBlobEntity
 ```cs

@@ -71,20 +71,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "modi",
-  "ProviderName": "Mosciski, Kulas and Abshire",
-  "StorageKey": "quam",
+  "StorageType": "assumenda",
+  "ProviderName": "Stracke-Monahan",
+  "StorageKey": "voluptatem",
   "Restrictions": [
     {
-      "Name": "Hoeger Inc and Sons",
-      "Operator": "atque",
+      "Name": "Mante, Waters and Boehm",
+      "Operator": "suscipit",
       "Values": [
-        "qui",
-        "velit"
+        "aliquam",
+        "sapiente"
       ],
       "DisplayValues": [
-        "ratione",
-        "sit"
+        "laborum",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 975,
+      "InterParenthesis": 107,
       "InterOperator": "And",
-      "UniqueHash": 588
+      "UniqueHash": 854
     }
   ]
 }

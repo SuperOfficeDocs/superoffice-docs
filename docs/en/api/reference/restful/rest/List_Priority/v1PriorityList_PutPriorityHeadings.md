@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "O'Connell-Christiansen",
-    "Tooltip": "qui",
+    "HeadingId": 393,
+    "Name": "Moen, Kuhn and Hand",
+    "Tooltip": "ipsam",
     "Deleted": false,
-    "Rank": 657,
-    "UdListDefinitionId": 462
+    "Rank": 487,
+    "UdListDefinitionId": 479
   },
   {
-    "HeadingId": 620,
-    "Name": "O'Connell-Christiansen",
-    "Tooltip": "qui",
+    "HeadingId": 393,
+    "Name": "Moen, Kuhn and Hand",
+    "Tooltip": "ipsam",
     "Deleted": false,
-    "Rank": 657,
-    "UdListDefinitionId": 462
+    "Rank": 487,
+    "UdListDefinitionId": 479
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 64,
-    "Name": "McCullough-Bergnaum",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "Rank": 17,
-    "UdListDefinitionId": 507,
+    "HeadingId": 997,
+    "Name": "Balistreri Group",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 975,
+    "UdListDefinitionId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldLength": 613
       }
     }
   }

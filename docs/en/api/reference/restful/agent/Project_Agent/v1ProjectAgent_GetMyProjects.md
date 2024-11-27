@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 851,
-    "Name": "Ortiz-Schneider",
-    "Description": "Programmable neutral support",
+    "ProjectId": 906,
+    "Name": "Price, Wyman and D'Amore",
+    "Description": "Multi-layered responsive portal",
     "URL": "http://www.example.com/",
-    "Type": "itaque",
-    "AssociateId": 630,
-    "AssociateFullName": "Jaquelin Jast",
-    "TypeId": 381,
-    "Updated": "2014-01-22T13:14:06.2883049+01:00",
-    "StatusId": 960,
-    "Status": "perferendis",
-    "TextId": 328,
-    "PublishTo": "2014-07-10T13:14:06.2883049+02:00",
-    "PublishFrom": "2000-05-31T13:14:06.2883049+02:00",
+    "Type": "iste",
+    "AssociateId": 619,
+    "AssociateFullName": "Dr. Aniya Pouros",
+    "TypeId": 349,
+    "Updated": "1998-01-20T14:45:06.0218921+01:00",
+    "StatusId": 280,
+    "Status": "sed",
+    "TextId": 169,
+    "PublishTo": "2001-12-06T14:45:06.0218921+01:00",
+    "PublishFrom": "2019-08-13T14:45:06.0218921+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1047647",
-    "ActiveErpLinks": 853,
+    "ProjectNumber": "682759",
+    "ActiveErpLinks": 528,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 438
       }
     }
   }

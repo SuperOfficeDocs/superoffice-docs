@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PartnerAgent.ResumeWebPanel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel'>ResumeWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPartnerAgent.ResumeWebPanel'>ResumeWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
 
 ## BeforeResumeWebPanel
 ```cs

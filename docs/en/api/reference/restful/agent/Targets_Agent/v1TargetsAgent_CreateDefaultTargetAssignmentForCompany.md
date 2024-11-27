@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 7,
+  "TargetAssignmentInfoId": 655,
   "Values": [
-    36,
-    582
+    42,
+    804
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 740,
-  "DimensionListItemDisplayName": "Bins, Pfeffer and Schneider",
+  "DimensionListItem": 903,
+  "DimensionListItemDisplayName": "Casper-Bradtke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 828
     }
   }
 }

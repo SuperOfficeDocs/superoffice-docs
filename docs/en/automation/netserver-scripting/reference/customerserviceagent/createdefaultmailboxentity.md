@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.CreateDefaultMailboxEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity'>CreateDefaultMailboxEntity</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.CreateDefaultMailboxEntity'>CreateDefaultMailboxEntity</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeCreateDefaultMailboxEntity
 ```cs

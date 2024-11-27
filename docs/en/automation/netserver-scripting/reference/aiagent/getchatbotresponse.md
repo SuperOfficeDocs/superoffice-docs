@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AIAgent.GetChatbotResponse
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.GetChatbotResponse'>GetChatbotResponse</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAIAgent.GetChatbotResponse'>GetChatbotResponse</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
 
 ## BeforeGetChatbotResponse
 ```cs

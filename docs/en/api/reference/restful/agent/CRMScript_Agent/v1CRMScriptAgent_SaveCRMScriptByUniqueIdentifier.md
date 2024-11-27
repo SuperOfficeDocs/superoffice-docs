@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
+  "UniqueIdentifier": "aut",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nemo",
-  "Name": "Rau-Shields",
-  "Description": "Assimilated multimedia algorithm",
-  "IncludeId": "eum",
-  "Source": "sapiente",
-  "Registered": "2007-06-29T13:14:05.710145+02:00",
-  "RegisteredBy": "quibusdam",
-  "Updated": "2011-04-09T13:14:05.710145+02:00",
-  "UpdatedBy": "accusamus",
-  "Path": "nesciunt",
+  "UniqueIdentifier": "quisquam",
+  "Name": "Goyette-Brown",
+  "Description": "Synergized intermediate access",
+  "IncludeId": "ut",
+  "Source": "autem",
+  "Registered": "2019-01-15T14:45:05.1627086+01:00",
+  "RegisteredBy": "neque",
+  "Updated": "2007-05-08T14:45:05.1627086+02:00",
+  "UpdatedBy": "odio",
+  "Path": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

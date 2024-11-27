@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 961,
+    "HierarchyId": 811,
     "Domain": "Dashboards",
-    "Name": "Effertz-Predovic",
-    "Fullname": "et",
-    "ParentId": 46,
+    "Name": "Mohr-Sanford",
+    "Fullname": "veniam",
+    "ParentId": 161,
     "Children": [
       {
-        "HierarchyId": 31,
+        "HierarchyId": 24,
         "Domain": "Dashboards",
-        "Name": "Casper-Farrell",
-        "Fullname": "adipisci",
-        "ParentId": 901,
+        "Name": "Wyman Group",
+        "Fullname": "ad",
+        "ParentId": 965,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1998-02-15T13:14:10.8516656+01:00",
-        "RegisteredAssociateId": 224,
-        "Updated": "2010-05-04T13:14:10.8516656+02:00",
-        "UpdatedAssociateId": 630,
+        "Registered": "2022-02-08T14:45:12.8338163+01:00",
+        "RegisteredAssociateId": 880,
+        "Updated": "2007-06-01T14:45:12.8338163+02:00",
+        "UpdatedAssociateId": 452,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldLength": 389
           }
         }
       }
     ],
-    "Registered": "2022-06-28T13:14:10.8516656+02:00",
-    "RegisteredAssociateId": 423,
-    "Updated": "2011-12-26T13:14:10.8516656+01:00",
-    "UpdatedAssociateId": 363,
+    "Registered": "2008-08-26T14:45:12.8338163+02:00",
+    "RegisteredAssociateId": 379,
+    "Updated": "2010-03-19T14:45:12.8338163+01:00",
+    "UpdatedAssociateId": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 770
       }
     }
   }

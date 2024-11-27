@@ -33,7 +33,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=sint
+PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=possimus
 ```
 
 
@@ -64,7 +64,7 @@ No Content
 PUT /api/v1/Preference/{section}/{key}/{prefLevel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

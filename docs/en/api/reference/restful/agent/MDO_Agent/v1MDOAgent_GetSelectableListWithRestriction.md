@@ -93,9 +93,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hackett Group",
-  "AdditionalInfo": "delectus",
-  "SearchValue": "eius"
+  "Name": "Hansen-Hirthe",
+  "AdditionalInfo": "tempore",
+  "SearchValue": "cumque"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Volkman-Homenick",
-    "ToolTip": "Voluptatem aut.",
+    "Id": 6,
+    "Name": "Leffler-Powlowski",
+    "ToolTip": "Similique dolores officiis facere.",
     "Deleted": false,
-    "Rank": 90,
-    "Type": "nam",
-    "ColorBlock": 486,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-02-22T13:14:06.1476714+01:00",
+    "Rank": 641,
+    "Type": "aut",
+    "ColorBlock": 369,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2022-09-14T14:45:05.8031904+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Torp-Kling",
-        "ToolTip": "Ducimus recusandae saepe inventore dolorem est.",
-        "Deleted": false,
-        "Rank": 994,
-        "Type": "corporis",
-        "ColorBlock": 15,
-        "IconHint": "natus",
+        "Id": 91,
+        "Name": "Kessler-Abernathy",
+        "ToolTip": "Quibusdam aut distinctio quia modi voluptatem distinctio.",
+        "Deleted": true,
+        "Rank": 558,
+        "Type": "repellendus",
+        "ColorBlock": 508,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2012-08-17T13:14:06.1476714+02:00",
+        "LastChanged": "2003-02-25T14:45:05.8031904+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Idella Mann",
+        "ExtraInfo": "aut",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Nikki Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 806
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Nora Boehm",
+    "FullName": "Amya Harber I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 609
       }
     }
   }

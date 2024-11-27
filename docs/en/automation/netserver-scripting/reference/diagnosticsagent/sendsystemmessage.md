@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.SendSystemMessage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage'>SendSystemMessage</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.SendSystemMessage'>SendSystemMessage</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeSendSystemMessage
 ```cs

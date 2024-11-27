@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 279,
-    "Name": "Abshire Group",
-    "Tooltip": "eum",
-    "Rank": 437,
-    "Key": "temporibus",
-    "MailTemplateId": 643,
+    "ConsentSourceId": 946,
+    "Name": "Stracke, Labadie and Yundt",
+    "Tooltip": "harum",
+    "Rank": 204,
+    "Key": "iste",
+    "MailTemplateId": 388,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldLength": 281
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.SaveConfigParameter
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter'>SaveConfigParameter</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.SaveConfigParameter'>SaveConfigParameter</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeSaveConfigParameter
 ```cs

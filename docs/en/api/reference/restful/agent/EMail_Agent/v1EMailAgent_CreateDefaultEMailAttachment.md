@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Total intangible archive",
-  "Filename": "ducimus",
-  "Size": 420,
-  "Type": "debitis",
-  "Encoding": "deleniti",
-  "Id": "ut",
-  "Disposition": "qui",
+  "Description": "Grass-roots hybrid capability",
+  "Filename": "in",
+  "Size": 693,
+  "Type": "et",
+  "Encoding": "quidem",
+  "Id": "sit",
+  "Disposition": "aperiam",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldType": "System.String",
+      "FieldLength": 344
     }
   }
 }

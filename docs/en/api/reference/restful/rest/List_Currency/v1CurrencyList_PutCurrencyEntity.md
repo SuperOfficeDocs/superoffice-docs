@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 247,
-  "Name": "Renner-Koch",
-  "Tooltip": "molestiae",
-  "Rank": 824,
-  "Rate": 13068.779999999999,
-  "Units": 27237.593999999997,
-  "Deleted": false
+  "CurrencyId": 815,
+  "Name": "Zieme-Luettgen",
+  "Tooltip": "iste",
+  "Rank": 96,
+  "Rate": 13908.692,
+  "Units": 7693.9699999999993,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 698,
-  "Name": "Gusikowski Group",
-  "Tooltip": "sit",
-  "Rank": 143,
-  "Rate": 6932.4079999999994,
-  "Units": 8822.21,
+  "CurrencyId": 907,
+  "Name": "Sanford-Mitchell",
+  "Tooltip": "rerum",
+  "Rank": 830,
+  "Rate": 1927.4099999999999,
+  "Units": 3325.174,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

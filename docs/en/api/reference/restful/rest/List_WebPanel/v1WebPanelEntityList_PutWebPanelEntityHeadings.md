@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 184,
-    "Name": "Robel, Thiel and Steuber",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "Rank": 851,
-    "UdListDefinitionId": 813
+    "HeadingId": 896,
+    "Name": "Franecki, Collier and Rau",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 400,
+    "UdListDefinitionId": 487
   },
   {
-    "HeadingId": 184,
-    "Name": "Robel, Thiel and Steuber",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "Rank": 851,
-    "UdListDefinitionId": 813
+    "HeadingId": 896,
+    "Name": "Franecki, Collier and Rau",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 400,
+    "UdListDefinitionId": 487
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 951,
-    "Name": "O'Keefe-Dach",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 542,
-    "UdListDefinitionId": 955,
+    "HeadingId": 846,
+    "Name": "Tremblay, Gerlach and Hamill",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 179,
+    "UdListDefinitionId": 755,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 607
       }
     }
   }

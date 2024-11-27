@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Schulist, Wilkinson and Wiza",
-    "ToolTip": "Reprehenderit totam vitae id maiores quas quos vel.",
+    "Id": 344,
+    "Name": "Barrows, Upton and Paucek",
+    "ToolTip": "Consequuntur possimus sed.",
     "Deleted": true,
-    "Rank": 802,
-    "Type": "praesentium",
-    "ColorBlock": 164,
-    "IconHint": "saepe",
+    "Rank": 487,
+    "Type": "quia",
+    "ColorBlock": 524,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2004-03-08T13:14:11.3048179+01:00",
+    "LastChanged": "2006-11-08T14:45:13.552405+01:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Gerhold-Kling",
-        "ToolTip": "Commodi laborum consequatur odit soluta rem.",
-        "Deleted": true,
-        "Rank": 764,
-        "Type": "et",
-        "ColorBlock": 915,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2009-03-08T13:14:11.3048179+01:00",
+        "Id": 426,
+        "Name": "Johnson-Wisozk",
+        "ToolTip": "Odit ut hic aliquid animi tenetur.",
+        "Deleted": false,
+        "Rank": 612,
+        "Type": "tempora",
+        "ColorBlock": 339,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2020-02-08T14:45:13.552405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "aut",
+        "ExtraInfo": "officia",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Kevin Harvey",
+        "FullName": "Vern Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldType": "System.String",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Lonzo Von",
+    "ExtraInfo": "itaque",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Miss Aletha Alexandra Ondricka I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

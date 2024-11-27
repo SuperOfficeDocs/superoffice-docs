@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Fahey Group",
-    "ToolTip": "Voluptates dignissimos possimus corporis accusamus.",
+    "Id": 36,
+    "Name": "Stracke LLC",
+    "ToolTip": "Corrupti veniam dolores facere et ex fuga excepturi.",
     "Deleted": true,
-    "Rank": 783,
-    "Type": "cum",
-    "ColorBlock": 815,
-    "IconHint": "dolor",
+    "Rank": 976,
+    "Type": "cumque",
+    "ColorBlock": 399,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2013-07-07T13:14:11.3985731+02:00",
+    "LastChanged": "2011-07-07T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Hoppe, Bradtke and Conn",
-        "ToolTip": "Rerum incidunt nam tenetur ipsum et error totam.",
+        "Id": 284,
+        "Name": "Schimmel-Vandervort",
+        "ToolTip": "Ratione exercitationem architecto temporibus sequi enim tenetur.",
         "Deleted": false,
-        "Rank": 743,
-        "Type": "dolorum",
-        "ColorBlock": 97,
-        "IconHint": "iste",
-        "Selected": false,
-        "LastChanged": "2012-07-01T13:14:11.3985731+02:00",
+        "Rank": 509,
+        "Type": "qui",
+        "ColorBlock": 487,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2005-02-18T14:45:13.70862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "illum",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Eriberto Miller DDS"
+        "FullName": "Danielle Nader"
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Dr. Clara Don Hahn MD"
+    "ExtraInfo": "et",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Dr. Quinten Kieran Waters III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Halvorson LLC",
-    "ToolTip": "Ut et possimus eligendi sint consequatur.",
-    "Deleted": false,
-    "Rank": 856,
-    "Type": "blanditiis",
-    "ColorBlock": 272,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2003-06-07T13:14:11.3985731+02:00",
+    "Id": 357,
+    "Name": "Kuhn Group",
+    "ToolTip": "Libero libero temporibus velit.",
+    "Deleted": true,
+    "Rank": 559,
+    "Type": "consequuntur",
+    "ColorBlock": 535,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2022-07-11T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Rempel, Mann and Vandervort",
-        "ToolTip": "Et ad.",
+        "Id": 782,
+        "Name": "Skiles, Blick and Hegmann",
+        "ToolTip": "Vel non corrupti iste repellendus rem.",
         "Deleted": false,
-        "Rank": 381,
-        "Type": "suscipit",
-        "ColorBlock": 717,
-        "IconHint": "sed",
+        "Rank": 69,
+        "Type": "eos",
+        "ColorBlock": 780,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2024-08-08T13:14:11.3985731+02:00",
+        "LastChanged": "2003-03-02T14:45:13.70862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "sint",
+        "ExtraInfo": "velit",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ms. Talia Ratke",
+        "FullName": "Gerry Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "vitae",
+    "ExtraInfo": "qui",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Mrs. Abe Caleigh Lindgren",
+    "FullName": "Kevon Aufderhar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 221
       }
     }
   }

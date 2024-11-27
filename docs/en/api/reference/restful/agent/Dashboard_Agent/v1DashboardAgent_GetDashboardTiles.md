@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    373,
-    906
+    622,
+    376
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 177,
-    "Caption": "ratione",
-    "Description": "Proactive non-volatile hardware",
-    "ChartName": "Klocko, Dicki and Ebert",
-    "ChartId": "magni",
-    "IsDefault": true,
-    "AssociateId": 589,
-    "GroupId": 914,
-    "SelectionId": 655,
-    "Config": "dolore",
+    "DashboardTileId": 905,
+    "Caption": "reiciendis",
+    "Description": "Versatile homogeneous Graphical User Interface",
+    "ChartName": "Bruen, Langworth and Schneider",
+    "ChartId": "id",
+    "IsDefault": false,
+    "AssociateId": 617,
+    "GroupId": 440,
+    "SelectionId": 711,
+    "Config": "odit",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Kuphal LLC",
-        "Description": "Front-line attitude-oriented solution",
+        "Name": "Gleichner-Breitenberg",
+        "Description": "Optimized human-resource middleware",
         "Type": "Boolean",
-        "ListName": "Cruickshank, Effertz and Feeney",
+        "ListName": "Brown-Nienow",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "consectetur",
-        "DefaultDataOption": false,
+        "Value": "et",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldLength": 49
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 317,
+        "VisibleId": 223,
         "Visibility": "All",
-        "DisplayValue": "consequatur",
+        "DisplayValue": "cumque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 516
           }
         }
       },
       {
-        "VisibleId": 317,
+        "VisibleId": 223,
         "Visibility": "All",
-        "DisplayValue": "consequatur",
+        "DisplayValue": "cumque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 877
+            "FieldType": "System.Int32",
+            "FieldLength": 516
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

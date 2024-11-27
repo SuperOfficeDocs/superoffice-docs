@@ -10,7 +10,7 @@ so.envir: onsite
 
 # UserAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IUserAgent'>UserAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IUserAgent'>UserAgent</see> that can trigger server-side event scripts.
 
 * [AddOwnerContact](addownercontact.md)
 * [CanChangePassword](canchangepassword.md)

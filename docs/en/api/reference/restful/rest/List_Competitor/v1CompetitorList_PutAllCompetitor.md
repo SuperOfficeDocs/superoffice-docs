@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Bauch LLC",
-    "Tooltip": "ut",
+    "Id": 681,
+    "Name": "Mueller, Mills and Carroll",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 912,
-    "Rank": 726
+    "UdListDefinitionId": 454,
+    "Rank": 221
   },
   {
-    "Id": 911,
-    "Name": "Bauch LLC",
-    "Tooltip": "ut",
+    "Id": 681,
+    "Name": "Mueller, Mills and Carroll",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 912,
-    "Rank": 726
+    "UdListDefinitionId": 454,
+    "Rank": 221
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Beer-Bailey",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 189,
-    "Rank": 267,
+    "Id": 144,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "UdListDefinitionId": 222,
+    "Rank": 684,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 144
       }
     }
   }

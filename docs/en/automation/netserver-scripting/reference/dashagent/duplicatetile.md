@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.DuplicateTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.DuplicateTile'>DuplicateTile</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.DuplicateTile'>DuplicateTile</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeDuplicateTile
 ```cs

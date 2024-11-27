@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.BatchReply
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.BatchReply'>BatchReply</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.BatchReply'>BatchReply</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeBatchReply
 ```cs

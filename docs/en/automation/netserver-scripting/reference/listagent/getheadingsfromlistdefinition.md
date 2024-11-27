@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetHeadingsFromListDefinition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetHeadingsFromListDefinition'>GetHeadingsFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetHeadingsFromListDefinition'>GetHeadingsFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetHeadingsFromListDefinition
 ```cs

@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 43,
-  "Name": "Sawayn Group",
-  "Tooltip": "ducimus",
-  "SaveInDb": 805,
-  "Filename": "optio",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 850,
+  "Name": "Wilderman Inc and Sons",
+  "Tooltip": "numquam",
+  "SaveInDb": 943,
+  "Filename": "ipsam",
+  "DefaultOref": "blanditiis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 207,
-  "IntentId": 974,
+  "AutoeventId": 522,
+  "IntentId": 329,
   "IsDefaultPublished": false,
-  "Rank": 418,
-  "LoadTemplateFromPlugin": 885,
-  "MimeType": "tenetur",
+  "Rank": 608,
+  "LoadTemplateFromPlugin": 957,
+  "MimeType": "consequatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 739,
+  "DocumentTypeKey": 429,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "berry.reynolds@hane.uk",
+  "EmailSubject": "hugh@koelpin.ca",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "raul.hayes@ritchieschoen.co.uk",
+  "SenderEmailAddress": "darren_bradtke@schamberger.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 708,
-  "Name": "Halvorson, Huel and Mosciski",
-  "Tooltip": "nam",
-  "SaveInDb": 481,
-  "Filename": "illum",
-  "DefaultOref": "ipsa",
+  "DocumentTemplateId": 766,
+  "Name": "Hammes, Stamm and Wisozk",
+  "Tooltip": "dolores",
+  "SaveInDb": 765,
+  "Filename": "perspiciatis",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 473,
-  "IntentId": 155,
-  "IsDefaultPublished": true,
-  "Rank": 522,
-  "LoadTemplateFromPlugin": 579,
-  "MimeType": "quas",
+  "AutoeventId": 555,
+  "IntentId": 891,
+  "IsDefaultPublished": false,
+  "Rank": 403,
+  "LoadTemplateFromPlugin": 648,
+  "MimeType": "optio",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 302,
+  "DocumentTypeKey": 35,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mathilde_bartell@botsford.com",
+  "EmailSubject": "carol_little@koelpin.com",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "tyrel@franeckivolkman.biz",
+  "SenderEmailAddress": "eleonore_cummerata@purdy.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 581
     }
   }
 }

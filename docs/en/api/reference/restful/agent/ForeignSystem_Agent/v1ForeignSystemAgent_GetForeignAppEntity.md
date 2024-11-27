@@ -26,7 +26,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=721
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=73
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -83,29 +83,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 924,
-  "Name": "Luettgen LLC",
-  "CreatedDate": "2003-11-08T13:14:06.0382898+01:00",
-  "UpdatedDate": "2007-05-09T13:14:06.0382898+02:00",
+  "ForeignAppId": 392,
+  "Name": "Hermann-Witting",
+  "CreatedDate": "2007-04-02T14:45:05.6313552+02:00",
+  "UpdatedDate": "2021-06-21T14:45:05.6313552+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 304,
-      "Name": "Powlowski-Harris",
-      "CreatedDate": "2003-06-25T13:14:06.0382898+02:00",
-      "UpdatedDate": "2017-09-06T13:14:06.0382898+02:00",
-      "AssociateFullName": "Kayden Pfannerstill PhD",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "culpa",
-      "DeviceIdentifier": "nostrum",
-      "ForeignAppId": 680,
+      "ForeignDeviceId": 214,
+      "Name": "Macejkovic Inc and Sons",
+      "CreatedDate": "2011-12-05T14:45:05.6313552+01:00",
+      "UpdatedDate": "2016-03-12T14:45:05.6313552+01:00",
+      "AssociateFullName": "Candelario Abbott",
+      "CreatedBy": "autem",
+      "UpdatedBy": "ad",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 446,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldType": "System.Int32",
+          "FieldLength": 594
         }
       }
     }
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

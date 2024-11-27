@@ -10,7 +10,7 @@ so.envir: onsite
 
 # QuoteAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IQuoteAgent'>QuoteAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IQuoteAgent'>QuoteAgent</see> that can trigger server-side event scripts.
 
 * [AddSaleTypeQuoteAttachment](addsaletypequoteattachment.md)
 * [ApproveQuoteVersion](approvequoteversion.md)

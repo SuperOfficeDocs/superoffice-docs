@@ -117,63 +117,63 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 314,
+  "EjMessageId": 70,
   "Ticket": null,
-  "CreatedAt": "2001-10-06T13:14:06.4914414+02:00",
+  "CreatedAt": "2024-03-01T14:45:06.459295+01:00",
   "CreatedBy": null,
-  "Author": "ratione",
+  "Author": "fuga",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 470,
-  "Body": "repellendus",
-  "HtmlBody": "facere",
-  "EmailHeader": "travon.kuhlman@orn.info",
-  "DebugInfo": "doloremque",
-  "MailSorter": "assumenda",
+  "MessageId": "iure",
+  "TimeSpent": 111,
+  "Body": "aspernatur",
+  "HtmlBody": "occaecati",
+  "EmailHeader": "presley@botsford.name",
+  "DebugInfo": "et",
+  "MailSorter": "eaque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 340,
-      "Name": "Schultz-Crist",
-      "Value": "ipsa",
+      "Id": 143,
+      "Name": "Kuhn-Leuschke",
+      "Value": "similique",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 340,
-      "Name": "Schultz-Crist",
-      "Value": "ipsa",
+      "Id": 143,
+      "Name": "Kuhn-Leuschke",
+      "Value": "similique",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "labore",
-  "Sentiment": 723,
-  "SentimentConfidence": 824,
+  "Important": false,
+  "Language": "facilis",
+  "Sentiment": 149,
+  "SentimentConfidence": 225,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 55,
-      "Name": "Jewess, Grady and Bartoletti",
-      "ContentType": "non",
-      "AttSize": 314,
+      "AttachmentId": 684,
+      "Name": "Rogahn Inc and Sons",
+      "ContentType": "inventore",
+      "AttSize": 131,
       "InlineImage": false,
-      "ContentId": "expedita",
-      "AuthKey": "commodi",
+      "ContentId": "et",
+      "AuthKey": "placeat",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "qui"
+    "CustomFields1": "sit",
+    "CustomFields2": "nihil"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 88,
+  "EjMessageId": 307,
   "Ticket": null,
-  "CreatedAt": "2015-08-17T13:14:06.4914414+02:00",
+  "CreatedAt": "2017-02-24T14:45:06.459295+01:00",
   "CreatedBy": null,
-  "Author": "occaecati",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quis",
-  "TimeSpent": 580,
-  "Body": "ut",
-  "HtmlBody": "sed",
-  "EmailHeader": "kayleigh@wisokycassin.uk",
-  "DebugInfo": "qui",
-  "MailSorter": "facere",
+  "MessageId": "eos",
+  "TimeSpent": 41,
+  "Body": "sint",
+  "HtmlBody": "repellat",
+  "EmailHeader": "amparo@romaguerabeer.info",
+  "DebugInfo": "et",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sint",
+  "SearchTitle": "exercitationem",
   "MessageHeaders": [
     {
-      "Id": 961,
-      "Name": "Hamill, Kirlin and Abbott",
-      "Value": "aperiam",
+      "Id": 182,
+      "Name": "Waelchi, Parker and Bosco",
+      "Value": "distinctio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 531
+          "FieldType": "System.Int32",
+          "FieldLength": 880
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "animi",
-  "Sentiment": 582,
-  "SentimentConfidence": 472,
+  "Important": true,
+  "Language": "commodi",
+  "Sentiment": 754,
+  "SentimentConfidence": 573,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 732,
-      "Name": "Kutch-Cremin",
-      "ContentType": "veritatis",
-      "AttSize": 532,
+      "AttachmentId": 972,
+      "Name": "Oberbrunner, Sanford and Lubowitz",
+      "ContentType": "dolor",
+      "AttSize": 883,
       "InlineImage": true,
-      "ContentId": "autem",
-      "AuthKey": "cum",
+      "ContentId": "voluptatum",
+      "AuthKey": "qui",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldLength": 791
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "architecto"
+    "CustomFields1": "eum",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldLength": 546
     }
   }
 }

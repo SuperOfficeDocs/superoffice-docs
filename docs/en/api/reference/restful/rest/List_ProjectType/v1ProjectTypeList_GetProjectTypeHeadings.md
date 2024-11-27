@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 894,
-    "Name": "Kshlerin Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 454,
-    "UdListDefinitionId": 556,
+    "HeadingId": 564,
+    "Name": "Rowe Group",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 614,
+    "UdListDefinitionId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 625
       }
     }
   }

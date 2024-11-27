@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.SaveDefaultValueInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo'>SaveDefaultValueInfo</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.SaveDefaultValueInfo'>SaveDefaultValueInfo</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeSaveDefaultValueInfo
 ```cs

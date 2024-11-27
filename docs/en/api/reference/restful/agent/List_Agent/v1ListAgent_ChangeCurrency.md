@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 19675.252,
-  "FromCurrency": "ea",
-  "ToCurrency": "optio"
+  "Amount": 29989.246,
+  "FromCurrency": "adipisci",
+  "ToCurrency": "temporibus"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-27635.611999999997
+9937.9139999999989
 ```

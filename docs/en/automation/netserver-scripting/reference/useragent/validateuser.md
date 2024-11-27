@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.ValidateUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.ValidateUser'>ValidateUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.ValidateUser'>ValidateUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeValidateUser
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.RecalculateQuoteAlternative
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.RecalculateQuoteAlternative'>RecalculateQuoteAlternative</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.RecalculateQuoteAlternative'>RecalculateQuoteAlternative</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeRecalculateQuoteAlternative
 ```cs

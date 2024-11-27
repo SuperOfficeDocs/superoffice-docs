@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 871,
+  "HierarchyId": 285,
   "Domain": "Dashboards",
-  "Name": "Koss, Jacobi and Krajcik",
-  "Fullname": "et",
-  "ParentId": 555,
+  "Name": "Runte Inc and Sons",
+  "Fullname": "vel",
+  "ParentId": 637,
   "Children": [
     {
-      "HierarchyId": 786,
+      "HierarchyId": 463,
       "Domain": "Dashboards",
-      "Name": "Morar-Prosacco",
-      "Fullname": "et",
-      "ParentId": 558,
+      "Name": "Waters Group",
+      "Fullname": "consequatur",
+      "ParentId": 669,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-05-30T13:14:06.1164195+02:00",
-      "RegisteredAssociateId": 388,
-      "Updated": "2009-05-31T13:14:06.1164195+02:00",
-      "UpdatedAssociateId": 616
+      "Registered": "2012-02-12T14:45:05.7563266+01:00",
+      "RegisteredAssociateId": 304,
+      "Updated": "2012-12-12T14:45:05.7563266+01:00",
+      "UpdatedAssociateId": 84
     }
   ],
-  "Registered": "2002-10-18T13:14:06.1164195+02:00",
-  "RegisteredAssociateId": 383,
-  "Updated": "2000-12-13T13:14:06.1164195+01:00",
-  "UpdatedAssociateId": 667
+  "Registered": "2007-12-04T14:45:05.7563266+01:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "2010-04-23T14:45:05.7563266+02:00",
+  "UpdatedAssociateId": 7
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 489,
+  "HierarchyId": 887,
   "Domain": "Dashboards",
-  "Name": "Hudson, Streich and Daugherty",
-  "Fullname": "voluptatem",
-  "ParentId": 63,
+  "Name": "Jerde, Hilpert and Ankunding",
+  "Fullname": "sequi",
+  "ParentId": 675,
   "Children": [
     {
-      "HierarchyId": 584,
+      "HierarchyId": 703,
       "Domain": "Dashboards",
-      "Name": "Effertz-Kovacek",
-      "Fullname": "ad",
-      "ParentId": 351,
+      "Name": "Emmerich LLC",
+      "Fullname": "ducimus",
+      "ParentId": 403,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-07-22T13:14:06.1164195+02:00",
-      "RegisteredAssociateId": 773,
-      "Updated": "2014-07-16T13:14:06.1164195+02:00",
-      "UpdatedAssociateId": 320,
+      "Registered": "2010-01-24T14:45:05.7563266+01:00",
+      "RegisteredAssociateId": 934,
+      "Updated": "1999-09-24T14:45:05.7563266+02:00",
+      "UpdatedAssociateId": 311,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 236
         }
       }
     }
   ],
-  "Registered": "2009-11-07T13:14:06.1164195+01:00",
-  "RegisteredAssociateId": 844,
-  "Updated": "2013-02-24T13:14:06.1164195+01:00",
-  "UpdatedAssociateId": 659,
+  "Registered": "2011-04-06T14:45:05.7563266+02:00",
+  "RegisteredAssociateId": 596,
+  "Updated": "2023-06-25T14:45:05.7563266+02:00",
+  "UpdatedAssociateId": 986,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

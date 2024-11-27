@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 581,
-  "LabelLayoutId": 563,
-  "Filename": "animi",
-  "Language": "doloribus",
-  "FileType": "numquam",
+  "ReportId": 90,
+  "LabelLayoutId": 104,
+  "Filename": "occaecati",
+  "Language": "praesentium",
+  "FileType": "eveniet",
   "Restrictions": [
     {
-      "Name": "Zemlak LLC",
-      "Operator": "rerum",
+      "Name": "Russel-Harber",
+      "Operator": "animi",
       "Values": [
-        "minima",
-        "possimus"
+        "ullam",
+        "ducimus"
       ],
       "DisplayValues": [
-        "aut",
-        "voluptatem"
+        "nam",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 870,
+      "InterParenthesis": 217,
       "InterOperator": "And",
-      "UniqueHash": 324
+      "UniqueHash": 924
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"at"
+"quibusdam"
 ```

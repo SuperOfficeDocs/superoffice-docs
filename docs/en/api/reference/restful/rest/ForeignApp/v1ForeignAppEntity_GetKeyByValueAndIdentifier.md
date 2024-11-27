@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=occaecati
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ut
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 22 Apr 2009 13:14:10 G4T
+Last-Modified: Sat, 15 Dec 2007 14:45:12 G12T
 
 {
-  "Key": "ipsa",
-  "Value": "est",
-  "RecordId": 273,
-  "CreatedDate": "2015-06-28T13:14:10.8516656+02:00",
-  "UpdatedDate": "2009-04-22T13:14:10.8516656+02:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "quod",
-  "TableName": "Reichel-Hartmann",
+  "Key": "qui",
+  "Value": "aperiam",
+  "RecordId": 676,
+  "CreatedDate": "2001-12-17T14:45:12.8338163+01:00",
+  "UpdatedDate": "2007-12-15T14:45:12.8338163+01:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "commodi",
+  "TableName": "Bergstrom, Deckow and Little",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

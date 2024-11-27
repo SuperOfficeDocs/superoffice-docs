@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.SaveTargetDimension
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.SaveTargetDimension'>SaveTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.SaveTargetDimension'>SaveTargetDimension</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeSaveTargetDimension
 ```cs

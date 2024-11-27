@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CreateConnectionFromConnectorName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CreateConnectionFromConnectorName'>CreateConnectionFromConnectorName</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CreateConnectionFromConnectorName'>CreateConnectionFromConnectorName</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCreateConnectionFromConnectorName
 ```cs

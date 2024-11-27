@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SentryAgent.GetFunctionRights
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights'>GetFunctionRights</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISentryAgent.GetFunctionRights'>GetFunctionRights</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
 
 ## BeforeGetFunctionRights
 ```cs

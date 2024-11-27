@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetQuickReplies
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetQuickReplies'>GetQuickReplies</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetQuickReplies'>GetQuickReplies</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetQuickReplies
 ```cs

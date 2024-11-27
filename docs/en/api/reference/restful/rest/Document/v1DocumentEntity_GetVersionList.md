@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "quisquam",
-    "DocumentId": 727,
-    "VersionId": "quaerat",
-    "CheckedInDate": "2013-10-08T13:14:10.8204078+02:00",
-    "CheckedInByName": "Pfannerstill LLC",
-    "CheckedInByAssociateId": 451,
-    "Description": "Synchronised mobile hub",
-    "DisplayText": "consectetur",
+    "ExternalReference": "voluptatem",
+    "DocumentId": 404,
+    "VersionId": "enim",
+    "CheckedInDate": "2008-05-20T14:45:12.8025705+02:00",
+    "CheckedInByName": "Feest, Pfannerstill and Rogahn",
+    "CheckedInByAssociateId": 892,
+    "Description": "Total dedicated artificial intelligence",
+    "DisplayText": "voluptates",
     "ExtraFields": [
-      "architecto",
-      "incidunt"
+      "animi",
+      "nulla"
     ]
   }
 ]

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetDefaultMessageContent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContent'>GetDefaultMessageContent</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetDefaultMessageContent'>GetDefaultMessageContent</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetDefaultMessageContent
 ```cs

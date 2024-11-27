@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.CollectDataAdditions
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions'>CollectDataAdditions</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.CollectDataAdditions'>CollectDataAdditions</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeCollectDataAdditions
 ```cs

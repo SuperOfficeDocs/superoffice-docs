@@ -69,7 +69,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Toy LLC",
+  "LayoutName": "Stiedemann-Prosacco",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

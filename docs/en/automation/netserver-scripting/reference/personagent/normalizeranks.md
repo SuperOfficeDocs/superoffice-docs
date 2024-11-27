@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.NormalizeRanks
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks'>NormalizeRanks</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.NormalizeRanks'>NormalizeRanks</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeNormalizeRanks
 ```cs

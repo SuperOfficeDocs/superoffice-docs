@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetAttachmentInfoNonInline
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfoNonInline'>GetAttachmentInfoNonInline</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetAttachmentInfoNonInline'>GetAttachmentInfoNonInline</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetAttachmentInfoNonInline
 ```cs

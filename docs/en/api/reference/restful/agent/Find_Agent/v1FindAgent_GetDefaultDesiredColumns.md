@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Hauck, Marvin and Conn",
-  "StorageKey": "sed"
+  "StorageType": "totam",
+  "ProviderName": "Mohr Group",
+  "StorageKey": "pariatur"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Hessel-Gleason",
-    "DisplayTooltip": "quasi",
-    "DisplayType": "ut",
+    "DisplayName": "Batz-Moore",
+    "DisplayTooltip": "eius",
+    "DisplayType": "et",
     "CanOrderBy": false,
-    "Name": "Jerde, Willms and Labadie",
-    "CanRestrictBy": true,
-    "RestrictionType": "iure",
-    "RestrictionListName": "Mosciski, O'Conner and Reilly",
+    "Name": "Lang, Gusikowski and Grimes",
+    "CanRestrictBy": false,
+    "RestrictionType": "rerum",
+    "RestrictionListName": "O'Kon-Lindgren",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "maxime",
-    "IconHint": "quis",
-    "HeadingIconHint": "nihil"
+    "ExtraInfo": "fuga",
+    "Width": "atque",
+    "IconHint": "blanditiis",
+    "HeadingIconHint": "laboriosam"
   }
 ]
 ```

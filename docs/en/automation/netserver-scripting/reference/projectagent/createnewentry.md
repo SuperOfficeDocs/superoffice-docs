@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.CreateNewEntry
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry'>CreateNewEntry</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.CreateNewEntry'>CreateNewEntry</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeCreateNewEntry
 ```cs

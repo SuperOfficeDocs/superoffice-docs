@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 273,
+  "QuoteConnectionId": 267,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "laboriosam",
-    "ConnectionConfigFields2": "alias"
+    "ConnectionConfigFields1": "fugit",
+    "ConnectionConfigFields2": "recusandae"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quas",
-  "2": "culpa"
+  "1": "eveniet",
+  "2": "in"
 }
 ```

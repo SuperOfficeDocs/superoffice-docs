@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 60,
-  "Name": "Witting LLC",
-  "Tooltip": "sunt",
-  "PassiveText": "autem",
+  "ReldefId": 769,
+  "Name": "Skiles, Braun and Walter",
+  "Tooltip": "veniam",
+  "PassiveText": "voluptas",
   "Deleted": false,
-  "Rank": 187,
+  "Rank": 392,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 500
     }
   }
 }

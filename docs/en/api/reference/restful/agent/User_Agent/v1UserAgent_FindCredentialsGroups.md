@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "assumenda",
-  "SearchString": "odit"
+  "Type": "voluptas",
+  "SearchString": "modi"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Boyle LLC",
-    "DisplayName": "Murray-Harber",
+    "Name": "Breitenberg, Huel and Orn",
+    "DisplayName": "Wisoky LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   },
   {
-    "Name": "Boyle LLC",
-    "DisplayName": "Murray-Harber",
+    "Name": "Breitenberg, Huel and Orn",
+    "DisplayName": "Wisoky LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

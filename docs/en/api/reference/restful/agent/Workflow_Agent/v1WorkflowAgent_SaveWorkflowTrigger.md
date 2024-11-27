@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 919,
-  "WorkflowId": 100,
+  "WorkflowTriggerId": 249,
+  "WorkflowId": 207,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kihn-Howe",
-      "Description": "Optimized bi-directional process improvement",
-      "Rank": 676,
+      "Name": "Hahn Group",
+      "Description": "Innovative local initiative",
+      "Rank": 842,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kihn-Howe",
-      "Description": "Optimized bi-directional process improvement",
-      "Rank": 676,
+      "Name": "Hahn Group",
+      "Description": "Innovative local initiative",
+      "Rank": 842,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 79,
-  "WorkflowId": 748,
+  "WorkflowTriggerId": 174,
+  "WorkflowId": 327,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Crona-Ullrich",
-      "Description": "Reduced secondary system engine",
-      "Rank": 678,
+      "Name": "Kshlerin, Feest and Willms",
+      "Description": "Multi-lateral real-time application",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crona-Ullrich",
-      "Description": "Reduced secondary system engine",
-      "Rank": 678,
+      "Name": "Kshlerin, Feest and Willms",
+      "Description": "Multi-lateral real-time application",
+      "Rank": 319,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 666
     }
   }
 }

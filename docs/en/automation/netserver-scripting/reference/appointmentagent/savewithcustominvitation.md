@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.SaveWithCustomInvitation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation'>SaveWithCustomInvitation</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.SaveWithCustomInvitation'>SaveWithCustomInvitation</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeSaveWithCustomInvitation
 ```cs

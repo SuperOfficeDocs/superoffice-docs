@@ -66,7 +66,7 @@ OK
 POST /api/v1/Attachment/CopyFromCRMDocument/{documentId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 809,
-  "Name": "Kreiger Group",
-  "ContentType": "qui",
-  "AttSize": 824,
+  "AttachmentId": 425,
+  "Name": "Hayes Inc and Sons",
+  "ContentType": "quibusdam",
+  "AttSize": 90,
   "InlineImage": false,
-  "ContentId": "voluptates",
-  "AuthKey": "tempore",
+  "ContentId": "dolorem",
+  "AuthKey": "id",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

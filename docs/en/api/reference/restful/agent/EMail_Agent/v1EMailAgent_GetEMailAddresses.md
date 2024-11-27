@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    960,
-    490
+    723,
+    367
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 299,
-    "ContactName": "Hintz, Tremblay and Wolff",
-    "PersonId": 69,
-    "PersonName": "Towne, Runolfsdottir and Walker",
-    "AssociateId": 969,
-    "Address": "et",
-    "EmailId": 301,
+    "ContactId": 794,
+    "ContactName": "Cormier LLC",
+    "PersonId": 558,
+    "PersonName": "Bartoletti Inc and Sons",
+    "AssociateId": 72,
+    "Address": "veniam",
+    "EmailId": 830,
     "DuplicatePersonIds": [
-      389,
-      999
+      590,
+      452
     ],
-    "Name": "Rice, King and Waelchi",
+    "Name": "Reilly Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

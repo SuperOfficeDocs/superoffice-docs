@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.EmptyFolder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.EmptyFolder'>EmptyFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.EmptyFolder'>EmptyFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeEmptyFolder
 ```cs

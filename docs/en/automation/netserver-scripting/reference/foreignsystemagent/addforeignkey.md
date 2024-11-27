@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.AddForeignKey
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey'>AddForeignKey</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.AddForeignKey'>AddForeignKey</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeAddForeignKey
 ```cs

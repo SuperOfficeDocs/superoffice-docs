@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Leuschke-Beahan",
-      "Description": "Digitized empowering neural-net",
+      "Name": "Morar LLC",
+      "Description": "Synergistic system-worthy concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Leuschke-Beahan",
-      "Description": "Digitized empowering neural-net",
+      "Name": "Morar LLC",
+      "Description": "Synergistic system-worthy concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes Inc and Sons",
-    "Description": "Operative responsive website",
+    "Name": "Greenfelder-Rau",
+    "Description": "Implemented didactic toolset",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 7,
-        "Tooltip": "nam",
-        "CanAssign": true,
-        "Free": 230,
-        "InUse": 800,
+        "Unrestricted": false,
+        "Total": 691,
+        "Tooltip": "culpa",
+        "CanAssign": false,
+        "Free": 587,
+        "InUse": 391,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 890,
-        "Name": "Cruickshank Inc and Sons",
-        "Description": "Team-oriented mobile info-mediaries",
-        "PrerequisiteModuleName": "Zieme Group",
-        "SortOrder": 240,
-        "ExtraFlags": 898,
+        "ModuleLicenseId": 79,
+        "Name": "Ortiz, Aufderhar and Smitham",
+        "Description": "User-friendly solution-oriented hardware",
+        "PrerequisiteModuleName": "Fadel Group",
+        "SortOrder": 401,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 270
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 276,
-        "Tooltip": "praesentium",
-        "CanAssign": true,
-        "Free": 371,
-        "InUse": 600,
+        "Unrestricted": false,
+        "Total": 401,
+        "Tooltip": "neque",
+        "CanAssign": false,
+        "Free": 978,
+        "InUse": 888,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 637,
-        "Name": "Welch-Rogahn",
-        "Description": "Focused coherent extranet",
-        "PrerequisiteModuleName": "Russel-Koss",
-        "SortOrder": 357,
-        "ExtraFlags": 51,
+        "Assigned": false,
+        "ModuleLicenseId": 270,
+        "Name": "Feil-Johns",
+        "Description": "Seamless coherent architecture",
+        "PrerequisiteModuleName": "Franecki, Tillman and Halvorson",
+        "SortOrder": 576,
+        "ExtraFlags": 716,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 207
           }
         }
       }
@@ -178,61 +178,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 957
       }
     }
   },
   {
-    "Name": "Grimes Inc and Sons",
-    "Description": "Operative responsive website",
+    "Name": "Greenfelder-Rau",
+    "Description": "Implemented didactic toolset",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 7,
-        "Tooltip": "nam",
-        "CanAssign": true,
-        "Free": 230,
-        "InUse": 800,
+        "Unrestricted": false,
+        "Total": 691,
+        "Tooltip": "culpa",
+        "CanAssign": false,
+        "Free": 587,
+        "InUse": 391,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 890,
-        "Name": "Cruickshank Inc and Sons",
-        "Description": "Team-oriented mobile info-mediaries",
-        "PrerequisiteModuleName": "Zieme Group",
-        "SortOrder": 240,
-        "ExtraFlags": 898,
+        "ModuleLicenseId": 79,
+        "Name": "Ortiz, Aufderhar and Smitham",
+        "Description": "User-friendly solution-oriented hardware",
+        "PrerequisiteModuleName": "Fadel Group",
+        "SortOrder": 401,
+        "ExtraFlags": 345,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 270
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 276,
-        "Tooltip": "praesentium",
-        "CanAssign": true,
-        "Free": 371,
-        "InUse": 600,
+        "Unrestricted": false,
+        "Total": 401,
+        "Tooltip": "neque",
+        "CanAssign": false,
+        "Free": 978,
+        "InUse": 888,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 637,
-        "Name": "Welch-Rogahn",
-        "Description": "Focused coherent extranet",
-        "PrerequisiteModuleName": "Russel-Koss",
-        "SortOrder": 357,
-        "ExtraFlags": 51,
+        "Assigned": false,
+        "ModuleLicenseId": 270,
+        "Name": "Feil-Johns",
+        "Description": "Seamless coherent architecture",
+        "PrerequisiteModuleName": "Franecki, Tillman and Halvorson",
+        "SortOrder": 576,
+        "ExtraFlags": 716,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 286
+            "FieldLength": 207
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 957
       }
     }
   }

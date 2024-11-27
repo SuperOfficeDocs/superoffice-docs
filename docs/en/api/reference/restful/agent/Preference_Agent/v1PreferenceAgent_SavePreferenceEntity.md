@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ad",
+  "RawValue": "excepturi",
   "Specification": null,
-  "DisplayValue": "doloribus",
-  "DisplayTooltip": "et",
+  "DisplayValue": "accusamus",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 550,
-  "PrefDescId": 490,
-  "TableName": "Fritsch-Dickinson",
-  "UserPreferenceId": 527,
+  "TargetId": 228,
+  "PrefDescId": 603,
+  "TableName": "Spencer, Torphy and Wolff",
+  "UserPreferenceId": 980,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 680
     }
   }
 }

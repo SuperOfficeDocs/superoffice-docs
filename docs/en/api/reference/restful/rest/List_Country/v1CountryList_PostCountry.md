@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 844,
-  "Name": "Ritchie-Walsh",
-  "CurrencyId": 930,
-  "EnglishName": "Legros-Gulgowski",
+  "CountryId": 199,
+  "Name": "Wilderman LLC",
+  "CurrencyId": 346,
+  "EnglishName": "Kovacek-Ryan",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Implemented uniform time-frame",
-  "OrgNrText": "1152733",
-  "InterAreaPrefix": "quidem",
-  "DialInPrefix": "et",
-  "ZipPrefix": "deleniti",
-  "DomainName": "Trantow-Boyer",
-  "AddressLayoutId": 415,
-  "DomesticAddressLayoutId": 649,
-  "ForeignAddressLayoutId": 521,
-  "Rank": 871,
-  "Tooltip": "consequatur",
+  "ImageDescription": "Cloned clear-thinking installation",
+  "OrgNrText": "1192305",
+  "InterAreaPrefix": "quas",
+  "DialInPrefix": "repellat",
+  "ZipPrefix": "est",
+  "DomainName": "Cronin Group",
+  "AddressLayoutId": 635,
+  "DomesticAddressLayoutId": 184,
+  "ForeignAddressLayoutId": 572,
+  "Rank": 652,
+  "Tooltip": "sit",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 71,
-  "Name": "Stehr, Halvorson and Reynolds",
-  "CurrencyId": 195,
-  "EnglishName": "Balistreri, Windler and Bernier",
+  "CountryId": 263,
+  "Name": "Wunsch, Yost and Kunde",
+  "CurrencyId": 267,
+  "EnglishName": "Monahan-Kling",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Configurable national array",
-  "OrgNrText": "1428331",
-  "InterAreaPrefix": "iusto",
-  "DialInPrefix": "rerum",
-  "ZipPrefix": "repellat",
-  "DomainName": "Keebler, Larkin and Nienow",
-  "AddressLayoutId": 438,
-  "DomesticAddressLayoutId": 651,
-  "ForeignAddressLayoutId": 874,
-  "Rank": 617,
-  "Tooltip": "nam",
+  "ImageDescription": "Universal impactful matrices",
+  "OrgNrText": "1305422",
+  "InterAreaPrefix": "accusamus",
+  "DialInPrefix": "quis",
+  "ZipPrefix": "accusamus",
+  "DomainName": "Herman-Homenick",
+  "AddressLayoutId": 222,
+  "DomesticAddressLayoutId": 400,
+  "ForeignAddressLayoutId": 191,
+  "Rank": 428,
+  "Tooltip": "sit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 556
     }
   }
 }

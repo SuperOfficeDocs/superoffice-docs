@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields'>RemoveStoredFieldsAndGetDefaultFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields'>RemoveStoredFieldsAndGetDefaultFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeRemoveStoredFieldsAndGetDefaultFields
 ```cs

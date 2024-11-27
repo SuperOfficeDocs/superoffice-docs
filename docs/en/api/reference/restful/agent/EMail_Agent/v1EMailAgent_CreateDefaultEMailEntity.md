@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,97 +97,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 986,
-      "ContactName": "Lesch-Hessel",
-      "PersonId": 538,
-      "PersonName": "Turcotte-Schuster",
-      "AssociateId": 376,
-      "Address": "est",
-      "EmailId": 173,
+      "ContactId": 394,
+      "ContactName": "Macejkovic LLC",
+      "PersonId": 125,
+      "PersonName": "Mosciski LLC",
+      "AssociateId": 312,
+      "Address": "nam",
+      "EmailId": 604,
       "DuplicatePersonIds": [
-        925,
-        838
+        489,
+        174
       ],
-      "Name": "Rosenbaum, Altenwerth and Koelpin",
+      "Name": "Nader, Gulgowski and Ratke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 567,
-      "ContactName": "Barton Inc and Sons",
-      "PersonId": 803,
-      "PersonName": "Jakubowski, Pollich and Wisoky",
-      "AssociateId": 453,
-      "Address": "voluptatem",
-      "EmailId": 723,
+      "ContactId": 827,
+      "ContactName": "Hickle-Lesch",
+      "PersonId": 79,
+      "PersonName": "Monahan-Wisozk",
+      "AssociateId": 552,
+      "Address": "ut",
+      "EmailId": 830,
       "DuplicatePersonIds": [
-        375,
-        57
+        742,
+        231
       ],
-      "Name": "Swaniawski Inc and Sons",
+      "Name": "Ledner Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 658
+          "FieldType": "System.Int32",
+          "FieldLength": 214
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 580,
-      "ContactName": "Stamm Group",
-      "PersonId": 236,
-      "PersonName": "Dach, Gislason and Stiedemann",
-      "AssociateId": 353,
-      "Address": "nulla",
-      "EmailId": 900,
+      "ContactId": 132,
+      "ContactName": "Rosenbaum-Robel",
+      "PersonId": 311,
+      "PersonName": "Champlin Group",
+      "AssociateId": 674,
+      "Address": "omnis",
+      "EmailId": 676,
       "DuplicatePersonIds": [
-        399,
-        288
+        884,
+        467
       ],
-      "Name": "Wilderman Inc and Sons",
+      "Name": "Jast LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
   ],
-  "Subject": "necessitatibus",
-  "HTMLBody": "ut",
+  "Subject": "voluptatum",
+  "HTMLBody": "deleniti",
   "From": null,
-  "Sent": "2023-01-23T13:14:05.96016+01:00",
-  "Size": 28,
+  "Sent": "2003-03-06T14:45:05.5220031+01:00",
+  "Size": 191,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "cum",
-  "PlainBody": "in",
+  "MessageID": "omnis",
+  "PlainBody": "quod",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 639,
+  "ServerId": 663,
   "Attachments": [
     {
-      "Description": "Synchronised tangible superstructure",
-      "Filename": "cumque",
-      "Size": 655,
-      "Type": "numquam",
-      "Encoding": "omnis",
-      "Id": "laudantium",
-      "Disposition": "qui",
+      "Description": "Self-enabling eco-centric solution",
+      "Filename": "aspernatur",
+      "Size": 300,
+      "Type": "laborum",
+      "Encoding": "modi",
+      "Id": "minus",
+      "Disposition": "odit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -195,50 +195,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 991
+          "FieldLength": 133
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sipes LLC",
+      "Name": "Weimann, Deckow and Dooley",
       "Values": [
-        "dolor",
-        "dolor"
+        "facere",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     },
     {
-      "Name": "Sipes LLC",
+      "Name": "Weimann, Deckow and Dooley",
       "Values": [
-        "dolor",
-        "dolor"
+        "facere",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     }
   ],
-  "FolderName": "Wunsch LLC",
-  "EmailItemId": 295,
-  "AccountId": 524,
-  "ReceivedAt": "2014-08-19T13:14:05.96016+02:00",
+  "FolderName": "Wuckert-Wuckert",
+  "EmailItemId": 360,
+  "AccountId": 153,
+  "ReceivedAt": "2021-06-28T14:45:05.5220031+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-09-06T13:14:05.96016+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1999-04-17T14:45:05.5220031+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 219
     }
   }
 }

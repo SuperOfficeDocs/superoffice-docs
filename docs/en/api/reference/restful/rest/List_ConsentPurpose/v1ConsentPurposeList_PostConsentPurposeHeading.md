@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 617,
-  "Name": "Gibson, Johnston and Fadel",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 355,
-  "UdListDefinitionId": 961
+  "HeadingId": 534,
+  "Name": "Shields-Collins",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 860,
+  "UdListDefinitionId": 224
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 340,
-  "Name": "Wolff Group",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "Rank": 739,
-  "UdListDefinitionId": 834,
+  "HeadingId": 1002,
+  "Name": "Brown, Gaylord and Franecki",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 672,
+  "UdListDefinitionId": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 111
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

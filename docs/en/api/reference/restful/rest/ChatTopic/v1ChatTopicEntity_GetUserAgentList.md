@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Brakus-Lebsack",
-    "ToolTip": "Doloribus id nesciunt vel sequi.",
+    "Id": 424,
+    "Name": "Waelchi-Metz",
+    "ToolTip": "Repudiandae veritatis veniam hic quis.",
     "Deleted": false,
-    "Rank": 974,
-    "Type": "unde",
+    "Rank": 647,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Hoeger LLC",
-        "ToolTip": "Quis omnis quaerat repudiandae.",
+        "Id": 371,
+        "Name": "Gleichner-Graham",
+        "ToolTip": "Sit omnis a veritatis consequatur recusandae.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "dolores",
+        "Rank": 929,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 530,
-        "ExtraInfo": "rerum",
-        "StyleHint": "est",
-        "FullName": "Garnet Cornelius Romaguera PhD",
+        "IconHint": "tenetur",
+        "ColorBlock": 319,
+        "ExtraInfo": "eius",
+        "StyleHint": "nisi",
+        "FullName": "Mrs. Kaitlin Nyah Lebsack V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldType": "System.String",
+            "FieldLength": 130
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 434,
-    "ExtraInfo": "non",
-    "StyleHint": "quae",
-    "FullName": "Dr. Lisa Block Sr.",
+    "IconHint": "aut",
+    "ColorBlock": 249,
+    "ExtraInfo": "ut",
+    "StyleHint": "consequuntur",
+    "FullName": "Trent Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 236
       }
     }
   }

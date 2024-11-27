@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 982,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Quam dolorum.",
-    "Deleted": false,
-    "Rank": 282,
-    "Type": "voluptatum",
-    "ColorBlock": 144,
-    "IconHint": "nam",
+    "Id": 113,
+    "Name": "Jacobson, Sauer and Johnston",
+    "ToolTip": "Cupiditate mollitia architecto.",
+    "Deleted": true,
+    "Rank": 20,
+    "Type": "veniam",
+    "ColorBlock": 731,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2005-08-23T13:14:11.5704589+02:00",
+    "LastChanged": "2016-06-28T14:45:13.9585664+02:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Beahan-Medhurst",
-        "ToolTip": "Id velit voluptatem est laborum.",
+        "Id": 456,
+        "Name": "Stoltenberg-Morar",
+        "ToolTip": "Sapiente aut iusto.",
         "Deleted": true,
-        "Rank": 90,
-        "Type": "est",
-        "ColorBlock": 274,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2021-12-24T13:14:11.5704589+01:00",
+        "Rank": 897,
+        "Type": "a",
+        "ColorBlock": 794,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "1998-09-29T14:45:13.9585664+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Izaiah Lakin"
+        "ExtraInfo": "similique",
+        "StyleHint": "harum",
+        "Hidden": false,
+        "FullName": "Jerry Kacey Gleason II"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "illo",
+    "ExtraInfo": "fugit",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Prof. Jamarcus Ona Bins"
+    "FullName": "Victor Langworth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Crona, Schmidt and Gutkowski",
-    "ToolTip": "Aut quia.",
-    "Deleted": false,
-    "Rank": 548,
-    "Type": "expedita",
-    "ColorBlock": 530,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2019-05-05T13:14:11.5704589+02:00",
+    "Id": 422,
+    "Name": "Beier Inc and Sons",
+    "ToolTip": "Sit suscipit illo dicta nihil quo ut dolores.",
+    "Deleted": true,
+    "Rank": 35,
+    "Type": "fugiat",
+    "ColorBlock": 89,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2013-04-18T14:45:13.9741861+02:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Veum, Brekke and Breitenberg",
-        "ToolTip": "Omnis at et rem asperiores est.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "temporibus",
-        "ColorBlock": 731,
-        "IconHint": "ut",
+        "Id": 403,
+        "Name": "O'Hara, Langosh and Pagac",
+        "ToolTip": "Inventore inventore consequatur.",
+        "Deleted": true,
+        "Rank": 284,
+        "Type": "recusandae",
+        "ColorBlock": 568,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2009-12-09T13:14:11.5704589+01:00",
+        "LastChanged": "2022-05-25T14:45:13.9741861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Linwood Little",
+        "ExtraInfo": "illum",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Sister Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Prof. Brycen Jerel Larson V",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Cornell Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 382
+        "FieldType": "System.Int32",
+        "FieldLength": 422
       }
     }
   }

@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Donnelly-Lehner",
-    "Beatty-Cummerata"
+    "Nikolaus Group",
+    "Lang Group"
   ],
-  "Culture": "commodi"
+  "Culture": "ad"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Hartmann-Breitenberg",
-    "ResourceValue": "temporibus",
-    "Culture": "quo",
+    "ResourceName": "Batz, Quigley and Dickens",
+    "ResourceValue": "porro",
+    "Culture": "odit",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 557
       }
     }
   },
   {
-    "ResourceName": "Hartmann-Breitenberg",
-    "ResourceValue": "temporibus",
-    "Culture": "quo",
+    "ResourceName": "Batz, Quigley and Dickens",
+    "ResourceValue": "porro",
+    "Culture": "odit",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 557
       }
     }
   }

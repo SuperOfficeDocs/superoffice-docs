@@ -124,58 +124,58 @@ OK
 PUT /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 988,
-  "Name": "Kuhlman-Johns",
+  "TicketPriorityId": 175,
+  "Name": "Mertz-Hansen",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 472,
+  "SortOrder": 226,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 475,
-  "MonStart": "2020-06-12T13:14:11.5704589+02:00",
-  "MonStop": "2008-05-09T13:14:11.5704589+02:00",
-  "TueStart": "2002-12-14T13:14:11.5704589+01:00",
-  "TueStop": "2023-12-31T13:14:11.5704589+01:00",
-  "WedStart": "2015-02-19T13:14:11.5704589+01:00",
-  "WedStop": "2010-03-26T13:14:11.5704589+01:00",
-  "ThuStart": "2002-12-17T13:14:11.5704589+01:00",
-  "ThuStop": "2022-01-18T13:14:11.5704589+01:00",
-  "FriStart": "2007-01-14T13:14:11.5704589+01:00",
-  "FriStop": "2013-08-21T13:14:11.5704589+02:00",
-  "SatStart": "2014-06-14T13:14:11.5704589+02:00",
-  "SatStop": "2016-02-01T13:14:11.5704589+01:00",
-  "SunStart": "2023-08-27T13:14:11.5704589+02:00",
-  "SunStop": "2018-05-18T13:14:11.5704589+02:00",
+  "Deadline": 770,
+  "MonStart": "2020-06-21T14:45:14.0836771+02:00",
+  "MonStop": "2022-01-28T14:45:14.0836771+01:00",
+  "TueStart": "2020-04-10T14:45:14.0836771+02:00",
+  "TueStop": "2016-10-28T14:45:14.0836771+02:00",
+  "WedStart": "2020-08-21T14:45:14.0836771+02:00",
+  "WedStop": "2011-10-02T14:45:14.0836771+02:00",
+  "ThuStart": "2004-05-01T14:45:14.0836771+02:00",
+  "ThuStop": "2010-03-06T14:45:14.0836771+01:00",
+  "FriStart": "2006-12-21T14:45:14.0836771+01:00",
+  "FriStop": "2015-03-13T14:45:14.0836771+01:00",
+  "SatStart": "2010-06-08T14:45:14.0836771+02:00",
+  "SatStop": "2008-09-19T14:45:14.0836771+02:00",
+  "SunStart": "2022-04-16T14:45:14.0836771+02:00",
+  "SunStop": "2017-04-23T14:45:14.0836771+02:00",
   "NonDates": [
-    "minus",
-    "nam"
+    "sint",
+    "quod"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 616,
-      "AlertLevel": 537,
-      "AlertTimeout": 30,
-      "Action": 388,
-      "DelegateTo": 594,
-      "ScriptId": 613,
-      "EmailTo": "tyrese_murazik@heller.uk",
-      "SmsTo": "in",
-      "ReplyTemplateIdCustomer": 243,
-      "ReplyTemplateIdUser": 194,
-      "ReplyTemplateIdCatmast": 788,
-      "ReplyTemplateIdEmail": 737,
-      "RtiCustomerSms": 59,
-      "ReplyTemplateIdUserSms": 700,
-      "ReplyTemplateIdCatmastSms": 38,
-      "ReplyTemplateIdSms": 964
+      "TicketAlertId": 208,
+      "AlertLevel": 11,
+      "AlertTimeout": 879,
+      "Action": 780,
+      "DelegateTo": 742,
+      "ScriptId": 228,
+      "EmailTo": "caleigh.fisher@pollich.uk",
+      "SmsTo": "accusamus",
+      "ReplyTemplateIdCustomer": 621,
+      "ReplyTemplateIdUser": 107,
+      "ReplyTemplateIdCatmast": 388,
+      "ReplyTemplateIdEmail": 540,
+      "RtiCustomerSms": 321,
+      "ReplyTemplateIdUserSms": 85,
+      "ReplyTemplateIdCatmastSms": 924,
+      "ReplyTemplateIdSms": 922
     }
   ]
 }
@@ -188,60 +188,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 68,
-  "Name": "Leffler, Russel and Kohler",
+  "TicketPriorityId": 600,
+  "Name": "Gulgowski, Ward and Pagac",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 37,
+  "SortOrder": 397,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 295,
-  "MonStart": "2019-10-30T13:14:11.5704589+01:00",
-  "MonStop": "2019-02-15T13:14:11.5704589+01:00",
-  "TueStart": "2011-04-13T13:14:11.5704589+02:00",
-  "TueStop": "2014-02-26T13:14:11.5704589+01:00",
-  "WedStart": "2003-02-26T13:14:11.5704589+01:00",
-  "WedStop": "2004-10-11T13:14:11.5704589+02:00",
-  "ThuStart": "1998-02-25T13:14:11.5704589+01:00",
-  "ThuStop": "2013-01-29T13:14:11.5704589+01:00",
-  "FriStart": "2019-10-16T13:14:11.5704589+02:00",
-  "FriStop": "2015-08-06T13:14:11.5704589+02:00",
-  "SatStart": "2014-03-05T13:14:11.5704589+01:00",
-  "SatStop": "2020-03-01T13:14:11.5704589+01:00",
-  "SunStart": "2004-03-24T13:14:11.5704589+01:00",
-  "SunStop": "2018-11-29T13:14:11.5704589+01:00",
+  "Deadline": 670,
+  "MonStart": "2000-02-29T14:45:14.0836771+01:00",
+  "MonStop": "2003-05-28T14:45:14.0836771+02:00",
+  "TueStart": "2018-08-10T14:45:14.0836771+02:00",
+  "TueStop": "2023-07-13T14:45:14.0836771+02:00",
+  "WedStart": "2019-10-19T14:45:14.0836771+02:00",
+  "WedStop": "2012-12-01T14:45:14.0836771+01:00",
+  "ThuStart": "2021-10-24T14:45:14.0836771+02:00",
+  "ThuStop": "1998-07-09T14:45:14.0836771+02:00",
+  "FriStart": "2020-07-21T14:45:14.0836771+02:00",
+  "FriStop": "2017-04-16T14:45:14.0836771+02:00",
+  "SatStart": "2011-04-16T14:45:14.0836771+02:00",
+  "SatStop": "2017-01-15T14:45:14.0836771+01:00",
+  "SunStart": "2023-10-10T14:45:14.0836771+02:00",
+  "SunStop": "2006-02-22T14:45:14.0836771+01:00",
   "NonDates": [
-    "suscipit",
-    "velit"
+    "laboriosam",
+    "quidem"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 37,
-      "AlertLevel": 579,
-      "AlertTimeout": 413,
-      "Action": 942,
-      "DelegateTo": 744,
-      "ScriptId": 749,
-      "EmailTo": "monte_kohler@mayert.name",
-      "SmsTo": "sit",
-      "ReplyTemplateIdCustomer": 574,
+      "TicketAlertId": 62,
+      "AlertLevel": 270,
+      "AlertTimeout": 712,
+      "Action": 83,
+      "DelegateTo": 738,
+      "ScriptId": 300,
+      "EmailTo": "hope@rodriguez.co.uk",
+      "SmsTo": "tenetur",
+      "ReplyTemplateIdCustomer": 681,
       "ReplyTemplateIdUser": 597,
-      "ReplyTemplateIdCatmast": 759,
-      "ReplyTemplateIdEmail": 913,
-      "RtiCustomerSms": 700,
-      "ReplyTemplateIdUserSms": 695,
-      "ReplyTemplateIdCatmastSms": 278,
-      "ReplyTemplateIdSms": 765,
+      "ReplyTemplateIdCatmast": 222,
+      "ReplyTemplateIdEmail": 466,
+      "RtiCustomerSms": 999,
+      "ReplyTemplateIdUserSms": 261,
+      "ReplyTemplateIdCatmastSms": 445,
+      "ReplyTemplateIdSms": 391,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 401
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

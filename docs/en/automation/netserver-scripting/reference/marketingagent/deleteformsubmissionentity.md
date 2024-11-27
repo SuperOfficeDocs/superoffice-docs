@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.DeleteFormSubmissionEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity'>DeleteFormSubmissionEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.DeleteFormSubmissionEntity'>DeleteFormSubmissionEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeDeleteFormSubmissionEntity
 ```cs

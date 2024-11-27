@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.CreateDefaultRoleEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntity'>CreateDefaultRoleEntity</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.CreateDefaultRoleEntity'>CreateDefaultRoleEntity</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeCreateDefaultRoleEntity
 ```cs

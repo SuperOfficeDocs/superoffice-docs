@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.MarkAsRead
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.MarkAsRead'>MarkAsRead</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.MarkAsRead'>MarkAsRead</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeMarkAsRead
 ```cs

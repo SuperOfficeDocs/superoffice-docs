@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -132,63 +132,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 194,
+  "EjMessageId": 793,
   "Ticket": null,
-  "CreatedAt": "2020-02-13T13:14:11.1798105+01:00",
+  "CreatedAt": "2021-02-28T14:45:13.3649466+01:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "vel",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 146,
-  "Body": "neque",
-  "HtmlBody": "odio",
-  "EmailHeader": "violette@robertswalsh.biz",
-  "DebugInfo": "esse",
-  "MailSorter": "aliquid",
+  "MessageId": "et",
+  "TimeSpent": 105,
+  "Body": "unde",
+  "HtmlBody": "consequatur",
+  "EmailHeader": "stanley@jewesshudson.us",
+  "DebugInfo": "tempora",
+  "MailSorter": "ex",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 54,
-      "Name": "Rutherford-Herzog",
-      "Value": "excepturi",
+      "Id": 319,
+      "Name": "Kuhic, Bruen and Glover",
+      "Value": "ab",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 54,
-      "Name": "Rutherford-Herzog",
-      "Value": "excepturi",
+      "Id": 319,
+      "Name": "Kuhic, Bruen and Glover",
+      "Value": "ab",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "omnis",
-  "Sentiment": 509,
-  "SentimentConfidence": 545,
+  "Important": false,
+  "Language": "aut",
+  "Sentiment": 571,
+  "SentimentConfidence": 726,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 666,
-      "Name": "Walter Group",
-      "ContentType": "libero",
-      "AttSize": 183,
+      "AttachmentId": 131,
+      "Name": "D'Amore, Davis and Corkery",
+      "ContentType": "est",
+      "AttSize": 632,
       "InlineImage": false,
-      "ContentId": "quas",
-      "AuthKey": "ducimus",
+      "ContentId": "illo",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "sint"
+    "CustomFields1": "atque",
+    "CustomFields2": "odio"
   }
 }
 ```
@@ -200,79 +200,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 914,
+  "EjMessageId": 772,
   "Ticket": null,
-  "CreatedAt": "2023-05-22T13:14:11.1798105+02:00",
+  "CreatedAt": "2010-12-12T14:45:13.3649466+01:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ea",
-  "TimeSpent": 855,
-  "Body": "eum",
-  "HtmlBody": "aliquam",
-  "EmailHeader": "paolo@grantjakubowski.ca",
-  "DebugInfo": "in",
-  "MailSorter": "eaque",
+  "MessageId": "nisi",
+  "TimeSpent": 679,
+  "Body": "eveniet",
+  "HtmlBody": "natus",
+  "EmailHeader": "deondre@kozey.co.uk",
+  "DebugInfo": "velit",
+  "MailSorter": "asperiores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quae",
+  "SearchTitle": "molestias",
   "MessageHeaders": [
     {
-      "Id": 199,
-      "Name": "Klocko, Zulauf and Anderson",
-      "Value": "itaque",
+      "Id": 769,
+      "Name": "Langosh, Hudson and Walsh",
+      "Value": "iure",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 455
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "qui",
-  "Sentiment": 640,
-  "SentimentConfidence": 484,
+  "Important": true,
+  "Language": "reprehenderit",
+  "Sentiment": 141,
+  "SentimentConfidence": 813,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 159,
-      "Name": "Hane Inc and Sons",
-      "ContentType": "deserunt",
-      "AttSize": 17,
-      "InlineImage": false,
-      "ContentId": "quia",
-      "AuthKey": "nam",
+      "AttachmentId": 57,
+      "Name": "McLaughlin, Sawayn and Jacobson",
+      "ContentType": "ad",
+      "AttSize": 450,
+      "InlineImage": true,
+      "ContentId": "aut",
+      "AuthKey": "quia",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 158
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "eaque"
+    "CustomFields1": "et",
+    "CustomFields2": "facere"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

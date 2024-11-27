@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ImportAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IImportAgent'>ImportAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IImportAgent'>ImportAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultImportLine](createdefaultimportline.md)
 * [CreateErpImportData](createerpimportdata.md)

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "excepturi",
+  "ProgId": "inventore",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 1002,
-  "ColumnId": 53,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 571,
-  "FieldLabel": "qui",
-  "FieldLeft": 714,
-  "FieldTop": 924,
+  "UDefFieldId": 159,
+  "ColumnId": 931,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 52,
+  "FieldLabel": "rerum",
+  "FieldLeft": 915,
+  "FieldTop": 449,
   "FieldType": "Checkbox",
-  "FieldWidth": 634,
-  "FormatMask": "fugit",
+  "FieldWidth": 465,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 536,
-  "LabelLeft": 711,
-  "LabelTop": 777,
-  "LabelWidth": 250,
-  "LastVersionId": 904,
-  "ListTableId": 270,
+  "LabelHeight": 224,
+  "LabelLeft": 958,
+  "LabelTop": 579,
+  "LabelWidth": 62,
+  "LastVersionId": 406,
+  "ListTableId": 73,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 106,
-  "ProgId": "ipsa",
+  "Page1LineNo": 715,
+  "ProgId": "nemo",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 754,
-  "TextLength": 161,
-  "Tooltip": "ipsa",
-  "UdefIdentity": 782,
-  "UDListDefinitionId": 434,
+  "ShortLabel": "molestiae",
+  "TabOrder": 32,
+  "TextLength": 106,
+  "Tooltip": "quis",
+  "UdefIdentity": 671,
+  "UDListDefinitionId": 253,
   "Justification": "Center",
-  "Version": 988,
-  "TemplateVariableName": "Wiegand LLC",
+  "Version": 915,
+  "TemplateVariableName": "Dicki Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Cummings, Sipes and Ratke",
+  "MdoListName": "Wolff, Vandervort and Mills",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldLength": 180
     }
   }
 }

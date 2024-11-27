@@ -82,31 +82,31 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "McGlynn, Boyer and Parker",
-      "Operator": "vitae",
+      "Name": "Kris-Dietrich",
+      "Operator": "necessitatibus",
       "Values": [
-        "consequatur",
-        "quae"
+        "maxime",
+        "eum"
       ],
       "DisplayValues": [
-        "ipsa",
-        "explicabo"
+        "deleniti",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 803,
+      "InterParenthesis": 222,
       "InterOperator": "And",
-      "UniqueHash": 709
+      "UniqueHash": 388
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan Group",
-    "Operator": "dicta",
+    "Name": "Harvey Inc and Sons",
+    "Operator": "mollitia",
     "Values": [
-      "tempora",
-      "rerum"
+      "deserunt",
+      "consequatur"
     ],
     "DisplayValues": [
-      "reiciendis",
-      "unde"
+      "in",
+      "omnis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Dach-Reichert",
-        "Operator": "dolore",
+        "Name": "Boyle LLC",
+        "Operator": "et",
         "Values": [
-          "accusamus",
-          "deserunt"
+          "et",
+          "ut"
         ],
         "DisplayValues": [
-          "dolorum",
-          "expedita"
+          "soluta",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 798,
+        "InterParenthesis": 170,
         "InterOperator": "And",
-        "UniqueHash": 66
+        "UniqueHash": 727
       }
     ],
-    "InterParenthesis": 740,
+    "InterParenthesis": 938,
     "InterOperator": "And",
-    "UniqueHash": 136
+    "UniqueHash": 798
   }
 ]
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.DeletePreference
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference'>DeletePreference</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.DeletePreference'>DeletePreference</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeDeletePreference
 ```cs

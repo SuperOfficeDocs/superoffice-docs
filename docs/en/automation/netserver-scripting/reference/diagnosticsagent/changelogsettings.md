@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.ChangeLogSettings
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings'>ChangeLogSettings</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.ChangeLogSettings'>ChangeLogSettings</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeChangeLogSettings
 ```cs

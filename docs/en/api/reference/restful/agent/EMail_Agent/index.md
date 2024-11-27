@@ -40,6 +40,10 @@ generated: true
 
 * [POST Agents/EMail/SaveEmailToTmpDocument](v1EMailAgent_SaveEmailToTmpDocument.md)
 
+* [POST Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment](v1EMailAgent_CreateNewPhysicalDocumentFromEmailAttachment.md)
+
+* [POST Agents/EMail/CreateNewPhysicalDocumentFromEmail](v1EMailAgent_CreateNewPhysicalDocumentFromEmail.md)
+
 * [POST Agents/EMail/SaveDraft](v1EMailAgent_SaveDraft.md)
 
 * [POST Agents/EMail/SetRepliedAt](v1EMailAgent_SetRepliedAt.md)

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Kautzer LLC",
-  "Tooltip": "repellendus",
-  "Deleted": false,
-  "Rank": 500,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 977,
+  "Name": "Stiedemann, Hoeger and Emard",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 21,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   },
   "_Links": {

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cummings-Feest",
-  "TypicalSearchId": 815
+  "EntityName": "Kling-Nader",
+  "TypicalSearchId": 794
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reilly, Kub and Medhurst",
-  "SelectionId": 217,
-  "CanSaveAsSelection": true,
-  "MainHeading": "nesciunt",
-  "FilterScreenHeading": "et",
-  "SelectionEntityHeading": "ut",
+  "ProviderName": "Schultz-Jenkins",
+  "SelectionId": 461,
+  "CanSaveAsSelection": false,
+  "MainHeading": "odit",
+  "FilterScreenHeading": "dolor",
+  "SelectionEntityHeading": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 777
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.AuthenticateIncoming
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.AuthenticateIncoming'>AuthenticateIncoming</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.AuthenticateIncoming'>AuthenticateIncoming</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeAuthenticateIncoming
 ```cs

@@ -719,11 +719,14 @@ Appointment selection archive using the selectionId as criterionmapping.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=booking,person/updatedByWorkflow,person/searchPhone/formattedNumber,person/personExtra/x_person_user_relation,project/saintIntention
+GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=contact/deletedDate,contact/contactUdef/SuperOffice:2,person/personUpdatedDate,project/type,sale/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

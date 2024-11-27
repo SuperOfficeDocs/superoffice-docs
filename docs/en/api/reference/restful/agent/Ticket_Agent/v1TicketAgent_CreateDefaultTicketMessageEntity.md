@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 574,
+  "EjMessageId": 510,
   "Ticket": null,
-  "CreatedAt": "2020-10-04T13:14:06.4914414+02:00",
+  "CreatedAt": "2003-11-28T14:45:06.4436775+01:00",
   "CreatedBy": null,
-  "Author": "harum",
+  "Author": "libero",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dicta",
-  "TimeSpent": 13,
-  "Body": "consequatur",
-  "HtmlBody": "eaque",
-  "EmailHeader": "ignacio@gislasonfeeney.name",
-  "DebugInfo": "sapiente",
-  "MailSorter": "soluta",
+  "MessageId": "et",
+  "TimeSpent": 730,
+  "Body": "quasi",
+  "HtmlBody": "porro",
+  "EmailHeader": "eriberto_beahan@mosciski.uk",
+  "DebugInfo": "deserunt",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequatur",
+  "SearchTitle": "a",
   "MessageHeaders": [
     {
-      "Id": 537,
-      "Name": "Feeney Inc and Sons",
-      "Value": "aut",
+      "Id": 473,
+      "Name": "Hudson-Jerde",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 456
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolorem",
-  "Sentiment": 376,
-  "SentimentConfidence": 418,
+  "Important": true,
+  "Language": "dolore",
+  "Sentiment": 825,
+  "SentimentConfidence": 940,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 669,
-      "Name": "Carter, Lesch and Gerlach",
-      "ContentType": "et",
-      "AttSize": 179,
+      "AttachmentId": 68,
+      "Name": "Schneider, Bergnaum and Mann",
+      "ContentType": "ab",
+      "AttSize": 643,
       "InlineImage": false,
-      "ContentId": "dolorum",
-      "AuthKey": "atque",
+      "ContentId": "nulla",
+      "AuthKey": "dolorem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 897
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "commodi"
+    "CustomFields1": "qui",
+    "CustomFields2": "molestias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

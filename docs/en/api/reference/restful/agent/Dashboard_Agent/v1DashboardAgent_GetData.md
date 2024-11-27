@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 727,
-  "Restrictions": "nesciunt"
+  "DashboardTileId": 958,
+  "Restrictions": "tempora"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Balistreri Group",
-        "DisplayTooltip": "magni",
-        "DisplayType": "voluptatum",
+        "DisplayName": "Daniel, Mann and Wiegand",
+        "DisplayTooltip": "fugit",
+        "DisplayType": "consequuntur",
         "CanOrderBy": false,
-        "Name": "Harris, Beer and Satterfield",
+        "Name": "Pfannerstill-Bartell",
         "CanRestrictBy": true,
-        "RestrictionType": "rem",
-        "RestrictionListName": "Fay Group",
-        "IsVisible": true,
-        "ExtraInfo": "non",
-        "Width": "aliquid",
-        "IconHint": "quis",
-        "HeadingIconHint": "totam"
+        "RestrictionType": "totam",
+        "RestrictionListName": "Towne, Little and Dickinson",
+        "IsVisible": false,
+        "ExtraInfo": "quod",
+        "Width": "impedit",
+        "IconHint": "necessitatibus",
+        "HeadingIconHint": "deserunt"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Balistreri Group",
-        "DisplayTooltip": "magni",
-        "DisplayType": "voluptatum",
+        "DisplayName": "Daniel, Mann and Wiegand",
+        "DisplayTooltip": "fugit",
+        "DisplayType": "consequuntur",
         "CanOrderBy": false,
-        "Name": "Harris, Beer and Satterfield",
+        "Name": "Pfannerstill-Bartell",
         "CanRestrictBy": true,
-        "RestrictionType": "rem",
-        "RestrictionListName": "Fay Group",
-        "IsVisible": true,
-        "ExtraInfo": "non",
-        "Width": "aliquid",
-        "IconHint": "quis",
-        "HeadingIconHint": "totam"
+        "RestrictionType": "totam",
+        "RestrictionListName": "Towne, Little and Dickinson",
+        "IsVisible": false,
+        "ExtraInfo": "quod",
+        "Width": "impedit",
+        "IconHint": "necessitatibus",
+        "HeadingIconHint": "deserunt"
       }
     ],
     "Result": null

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mayer, Greenholt and Beer"
+  "OwnerName": "Bednar-Friesen"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "target dot-com eyeballs",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 3,
-      "NumberOfLicensesFree": 853,
-      "NumberOfLicensesAdded": 680,
-      "NumberOfLicensesNewTotal": 953,
-      "NumberOfLicensesNewFree": 434,
-      "NumberOfLicensesTotal": 755
+      "NumberOfLicensesInUse": 336,
+      "NumberOfLicensesFree": 759,
+      "NumberOfLicensesAdded": 456,
+      "NumberOfLicensesNewTotal": 269,
+      "NumberOfLicensesNewFree": 456,
+      "NumberOfLicensesTotal": 179
     }
   ],
-  "AccumulatedNextCheckDate": "2004-11-22T13:14:06.0539158+01:00"
+  "AccumulatedNextCheckDate": "2010-06-22T14:45:05.6625978+02:00"
 }
 ```

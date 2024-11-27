@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 458,
-  "Name": "Wilkinson-Hills",
-  "Tooltip": "corrupti",
+  "RoleId": 819,
+  "Name": "VonRueden, Johnson and Jakubowski",
+  "Tooltip": "itaque",
   "RoleType": "Anonymous",
-  "Deleted": 863,
-  "Rank": 998,
-  "Created": "2003-02-15T13:14:10.9454212+01:00",
-  "UseCategories": 131,
+  "Deleted": 157,
+  "Rank": 704,
+  "Created": "2000-04-23T14:45:13.0993819+02:00",
+  "UseCategories": 959,
   "CreatedBy": null,
-  "Updated": "2010-10-09T13:14:10.9610472+02:00",
+  "Updated": "2000-05-27T14:45:13.1150014+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 757,
-  "Name": "Robel Inc and Sons",
-  "Tooltip": "labore",
+  "RoleId": 323,
+  "Name": "O'Conner-Krajcik",
+  "Tooltip": "autem",
   "RoleType": "Anonymous",
-  "Deleted": 191,
-  "Rank": 690,
-  "Created": "2005-12-06T13:14:10.9610472+01:00",
-  "UseCategories": 617,
+  "Deleted": 58,
+  "Rank": 917,
+  "Created": "2010-05-02T14:45:13.1306367+02:00",
+  "UseCategories": 841,
   "CreatedBy": null,
-  "Updated": "2009-02-14T13:14:10.9610472+01:00",
+  "Updated": "2023-01-05T14:45:13.1306367+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 379
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

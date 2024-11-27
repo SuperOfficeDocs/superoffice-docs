@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sit",
-  "Key": "aut",
+  "Section": "quia",
+  "Key": "quisquam",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 988,
-  "Section": "omnis",
-  "Key": "rerum",
-  "Name": "Cassin-Hickle",
+  "PrefDescId": 484,
+  "Section": "a",
+  "Key": "est",
+  "Name": "Romaguera-Welch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured fresh-thinking knowledge user",
+  "Description": "Proactive encompassing middleware",
   "IsBuiltin": false,
-  "TableName": "Fahey, Flatley and Hoeger",
-  "UserDefinedListId": 442,
-  "Rank": 915,
-  "SubGroup": "quam",
-  "MinLevel": 513,
-  "MaxValue": 924,
-  "MinValue": 927,
-  "RequiredLicense": "illo",
+  "TableName": "Hettinger, Botsford and Wuckert",
+  "UserDefinedListId": 41,
+  "Rank": 499,
+  "SubGroup": "expedita",
+  "MinLevel": 301,
+  "MaxValue": 893,
+  "MinValue": 93,
+  "RequiredLicense": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 778
     }
   }
 }

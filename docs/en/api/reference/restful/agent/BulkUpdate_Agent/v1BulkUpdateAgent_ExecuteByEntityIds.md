@@ -77,30 +77,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "dolores",
-      "ValueType": "modi",
-      "Mandatory": true,
-      "EncodedDisplayName": "Lebsack, Collins and Ryan",
-      "EncodedDisplayDescription": "Organized bottom-line success",
-      "IconHint": "et",
+      "IsActive": false,
+      "Key": "assumenda",
+      "ValueType": "esse",
+      "Mandatory": false,
+      "EncodedDisplayName": "Abbott, Lind and Murazik",
+      "EncodedDisplayDescription": "Versatile human-resource process improvement",
+      "IconHint": "consequatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "Versatile 24/7 moderator",
-      "CurrentOperationType": "distinctio",
+      "EncodedDataCaption": "magnam",
+      "EncodedDataCaptionDescription": "Team-oriented discrete structure",
+      "CurrentOperationType": "omnis",
       "Values": [
-        "impedit",
-        "odit"
+        "voluptatibus",
+        "perferendis"
       ],
       "DisplayValues": [
-        "ut",
-        "asperiores"
+        "repellendus",
+        "aliquid"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Lubowitz-Mante",
-  "Context": "ex",
-  "Ids": "occaecati"
+  "TableName": "Johnston-Hackett",
+  "Context": "atque",
+  "Ids": "optio"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-256
+144
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.DeleteBlobEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity'>DeleteBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.DeleteBlobEntity'>DeleteBlobEntity</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeDeleteBlobEntity
 ```cs

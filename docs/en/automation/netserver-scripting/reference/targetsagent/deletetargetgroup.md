@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.DeleteTargetGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.DeleteTargetGroup'>DeleteTargetGroup</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.DeleteTargetGroup'>DeleteTargetGroup</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeDeleteTargetGroup
 ```cs

@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Schaden, Homenick and Greenfelder",
-    "ToolTip": "Sequi ad.",
-    "Deleted": false,
-    "Rank": 461,
-    "Type": "cumque",
-    "ColorBlock": 315,
-    "IconHint": "tempora",
+    "Id": 915,
+    "Name": "Goyette, Howell and Hirthe",
+    "ToolTip": "Id totam laudantium omnis animi ab.",
+    "Deleted": true,
+    "Rank": 968,
+    "Type": "consequatur",
+    "ColorBlock": 356,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2024-05-23T13:14:10.9610472+02:00",
+    "LastChanged": "2020-07-01T14:45:13.1306367+02:00",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Zieme-Veum",
-        "ToolTip": "Sit consequatur.",
-        "Deleted": false,
-        "Rank": 693,
-        "Type": "sint",
-        "ColorBlock": 719,
-        "IconHint": "consectetur",
+        "Id": 522,
+        "Name": "Moore, Walker and Torp",
+        "ToolTip": "Eveniet sit hic molestiae.",
+        "Deleted": true,
+        "Rank": 252,
+        "Type": "asperiores",
+        "ColorBlock": 758,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2019-09-12T13:14:10.9610472+02:00",
+        "LastChanged": "2004-07-29T14:45:13.1306367+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "sit",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Liam McGlynn",
+        "FullName": "Elza Ella Leuschke I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 369
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "magni",
+    "ExtraInfo": "sed",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Dr. Alexanne Powlowski I",
+    "FullName": "Hiram Hagenes Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 289
       }
     }
   }

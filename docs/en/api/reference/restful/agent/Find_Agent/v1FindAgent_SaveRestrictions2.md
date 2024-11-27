@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consectetur",
-  "ProviderName": "Kuvalis Inc and Sons",
-  "StorageKey": "ut",
-  "Restrictions": "similique"
+  "StorageType": "non",
+  "ProviderName": "Hoeger, Huel and Feeney",
+  "StorageKey": "quia",
+  "Restrictions": "est"
 }
 ```
 

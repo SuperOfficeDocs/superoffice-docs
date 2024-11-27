@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=libero
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Kuhlman LLC",
-    "ToolTip": "Soluta numquam ipsam ut ut vitae.",
+    "Id": 479,
+    "Name": "Lueilwitz-Beer",
+    "ToolTip": "Eius dolore reiciendis odio ipsum vero cumque iste.",
     "Deleted": false,
-    "Rank": 843,
-    "Type": "quia",
+    "Rank": 179,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Wisozk-Gutkowski",
-        "ToolTip": "Voluptates molestias nobis qui non eveniet voluptas.",
-        "Deleted": true,
-        "Rank": 250,
-        "Type": "earum",
+        "Id": 385,
+        "Name": "Fay-Reilly",
+        "ToolTip": "Doloremque sit incidunt dolorem architecto suscipit voluptatem.",
+        "Deleted": false,
+        "Rank": 12,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 891,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "a",
-        "FullName": "Dr. Hudson Amely Buckridge",
+        "IconHint": "vel",
+        "ColorBlock": 997,
+        "ExtraInfo": "optio",
+        "StyleHint": "enim",
+        "FullName": "Agustin Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 298
+            "FieldType": "System.Int32",
+            "FieldLength": 94
           }
         }
       }
     ],
-    "IconHint": "dicta",
-    "ColorBlock": 318,
-    "ExtraInfo": "vel",
-    "StyleHint": "fuga",
-    "FullName": "Alvera Abdullah Gerhold IV",
+    "IconHint": "illo",
+    "ColorBlock": 805,
+    "ExtraInfo": "ex",
+    "StyleHint": "placeat",
+    "FullName": "Keshaun Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 894
       }
     }
   }

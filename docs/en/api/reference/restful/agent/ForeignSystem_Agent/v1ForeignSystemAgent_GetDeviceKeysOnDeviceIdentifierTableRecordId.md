@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schiller LLC",
-  "DeviceName": "Effertz, Runolfsdottir and Kassulke",
-  "DeviceIdentifier": "non",
-  "TableName": "Conn, Lowe and Nienow",
-  "RecordId": 695
+  "ApplicationName": "Will, O'Keefe and Howell",
+  "DeviceName": "Kertzmann-Mills",
+  "DeviceIdentifier": "fugiat",
+  "TableName": "Glover-Hagenes",
+  "RecordId": 240
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "impedit",
-    "Value": "ullam",
-    "RecordId": 763,
-    "CreatedDate": "2000-06-06T13:14:06.0382898+02:00",
-    "UpdatedDate": "2005-08-15T13:14:06.0382898+02:00",
-    "UpdatedBy": "cum",
-    "CreatedBy": "amet",
-    "TableName": "Hamill-Rosenbaum",
+    "Key": "sunt",
+    "Value": "cupiditate",
+    "RecordId": 314,
+    "CreatedDate": "2021-08-26T14:45:05.6469762+02:00",
+    "UpdatedDate": "2018-11-09T14:45:05.6469762+01:00",
+    "UpdatedBy": "deserunt",
+    "CreatedBy": "sint",
+    "TableName": "Hansen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 790
       }
     }
   }

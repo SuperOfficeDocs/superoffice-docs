@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 90,
-  "SourcePersonId": 17,
-  "DestinationContactId": 437,
-  "DestinationPersonId": 228,
-  "RelationId": 166,
-  "Comment": "quod",
-  "RelationDefinitionId": 275,
-  "Reversed": 300,
-  "UpdatedDate": "2010-11-08T13:14:10.7579101+01:00",
-  "CreatedDate": "2016-11-19T13:14:10.7579101+01:00",
+  "SourceContactId": 898,
+  "SourcePersonId": 154,
+  "DestinationContactId": 436,
+  "DestinationPersonId": 428,
+  "RelationId": 524,
+  "Comment": "distinctio",
+  "RelationDefinitionId": 489,
+  "Reversed": 906,
+  "UpdatedDate": "2023-02-06T14:45:12.7088435+01:00",
+  "CreatedDate": "2005-07-21T14:45:12.7088435+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Runolfsson Group",
-  "SourcePersonName": "Schmitt Group",
-  "DestinationContactName": "Macejkovic Inc and Sons",
-  "DestinationPersonName": "Heidenreich-Bernier",
-  "ActiveText": "ut",
-  "PassiveText": "sunt"
+  "SourceContactName": "Kessler-Green",
+  "SourcePersonName": "Raynor Inc and Sons",
+  "DestinationContactName": "Bergstrom, Bins and Beer",
+  "DestinationPersonName": "Wehner Inc and Sons",
+  "ActiveText": "reprehenderit",
+  "PassiveText": "libero"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 895,
-  "SourcePersonId": 28,
-  "DestinationContactId": 135,
-  "DestinationPersonId": 413,
-  "RelationId": 680,
-  "Comment": "non",
-  "RelationDefinitionId": 565,
-  "Reversed": 854,
-  "UpdatedDate": "1997-09-21T13:14:10.7735359+02:00",
-  "CreatedDate": "2011-09-26T13:14:10.7735359+02:00",
+  "SourceContactId": 890,
+  "SourcePersonId": 354,
+  "DestinationContactId": 659,
+  "DestinationPersonId": 966,
+  "RelationId": 975,
+  "Comment": "aperiam",
+  "RelationDefinitionId": 91,
+  "Reversed": 597,
+  "UpdatedDate": "2011-02-25T14:45:12.7244655+01:00",
+  "CreatedDate": "2008-12-17T14:45:12.7244655+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Corkery-Kunze",
-  "SourcePersonName": "Larson, Klein and Marvin",
-  "DestinationContactName": "Durgan LLC",
-  "DestinationPersonName": "Erdman, Emard and Bechtelar",
-  "ActiveText": "qui",
-  "PassiveText": "nam",
+  "SourceContactName": "Denesik-Stamm",
+  "SourcePersonName": "VonRueden Group",
+  "DestinationContactName": "Schuppe, Greenholt and Ritchie",
+  "DestinationPersonName": "Ledner-Turner",
+  "ActiveText": "quia",
+  "PassiveText": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   },
   "_Links": {

@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Preference/SetXsrfPaths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "possimus",
+  "Hostname": "sint",
   "Paths": [
-    "fugit",
-    "quia"
+    "exercitationem",
+    "qui"
   ]
 }
 ```

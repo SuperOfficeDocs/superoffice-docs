@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "VonRueden LLC",
-    "ToolTip": "Placeat dolorum voluptas modi magni.",
+    "Id": 6,
+    "Name": "Schimmel Group",
+    "ToolTip": "Non molestiae eum.",
     "Deleted": false,
-    "Rank": 515,
-    "Type": "est",
-    "ColorBlock": 389,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2021-11-24T13:14:11.554833+01:00",
+    "Rank": 452,
+    "Type": "et",
+    "ColorBlock": 13,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2024-02-23T14:45:13.9429422+01:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Jenkins-Flatley",
-        "ToolTip": "Eveniet aliquid a quod nam sapiente deserunt molestias.",
-        "Deleted": false,
-        "Rank": 930,
-        "Type": "modi",
-        "ColorBlock": 935,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2001-06-13T13:14:11.554833+02:00",
+        "Id": 847,
+        "Name": "Bogisich Inc and Sons",
+        "ToolTip": "Ipsa doloribus quia iure est voluptatibus.",
+        "Deleted": true,
+        "Rank": 151,
+        "Type": "sunt",
+        "ColorBlock": 240,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2016-06-07T14:45:13.9429422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Tito Hoppe Jr."
+        "ExtraInfo": "eligendi",
+        "StyleHint": "hic",
+        "Hidden": false,
+        "FullName": "Terrence Wilderman"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "sunt",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Twila Weimann"
+    "FullName": "Ally Wiza"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Hilpert-Kub",
-    "ToolTip": "Est officia dolor laudantium cumque eligendi impedit et.",
-    "Deleted": false,
-    "Rank": 557,
-    "Type": "praesentium",
-    "ColorBlock": 989,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2008-11-27T13:14:11.554833+01:00",
+    "Id": 826,
+    "Name": "Goodwin LLC",
+    "ToolTip": "Et esse et.",
+    "Deleted": true,
+    "Rank": 309,
+    "Type": "eos",
+    "ColorBlock": 707,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2006-09-10T14:45:13.9429422+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Robel Inc and Sons",
-        "ToolTip": "Nihil saepe commodi natus.",
-        "Deleted": true,
-        "Rank": 969,
-        "Type": "a",
-        "ColorBlock": 956,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2019-09-20T13:14:11.554833+02:00",
+        "Id": 638,
+        "Name": "Carroll-Herzog",
+        "ToolTip": "Dolorem minima porro cupiditate illo recusandae dolor et.",
+        "Deleted": false,
+        "Rank": 898,
+        "Type": "hic",
+        "ColorBlock": 112,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2000-03-12T14:45:13.9585664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "ex",
+        "ExtraInfo": "aut",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Pedro Terry",
+        "FullName": "Grayson Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 455
+            "FieldType": "System.Int32",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "aliquam",
-    "Hidden": false,
-    "FullName": "Elda Herzog",
+    "ExtraInfo": "iste",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Ms. Jerry Alysa Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldLength": 445
       }
     }
   }

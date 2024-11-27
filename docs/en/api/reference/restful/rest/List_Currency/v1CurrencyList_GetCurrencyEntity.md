@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 433,
-  "Name": "Greenfelder, Price and Nader",
-  "Tooltip": "sit",
-  "Rank": 52,
-  "Rate": 26773.762,
-  "Units": 22310.946,
+  "CurrencyId": 505,
+  "Name": "Shanahan-Lueilwitz",
+  "Tooltip": "fuga",
+  "Rank": 435,
+  "Rate": 8746.994,
+  "Units": 19330.512,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldLength": 288
     }
   }
 }

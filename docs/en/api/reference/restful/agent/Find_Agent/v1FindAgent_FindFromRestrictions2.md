@@ -167,10 +167,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "qui",
-  "ProviderName": "Mohr, Doyle and Shields",
-  "PageSize": 89,
-  "PageNumber": 968
+  "Restrictions": "vero",
+  "ProviderName": "Zieme-Hartmann",
+  "PageSize": 271,
+  "PageNumber": 20
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Marvin, Bode and Ondricka",
-      "DisplayTooltip": "sint",
-      "DisplayType": "aut",
-      "CanOrderBy": true,
-      "Name": "Altenwerth, Konopelski and Yundt",
+      "DisplayName": "McKenzie Inc and Sons",
+      "DisplayTooltip": "id",
+      "DisplayType": "sint",
+      "CanOrderBy": false,
+      "Name": "Bogan-McGlynn",
       "CanRestrictBy": false,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Bahringer-Fritsch",
-      "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "ut",
-      "IconHint": "est",
-      "HeadingIconHint": "mollitia"
+      "RestrictionType": "omnis",
+      "RestrictionListName": "Shields Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "velit",
+      "Width": "distinctio",
+      "IconHint": "non",
+      "HeadingIconHint": "animi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hoeger Group",
-      "PrimaryKey": 690,
+      "EntityName": "Ernser-Crooks",
+      "PrimaryKey": 973,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "in",
-          "LinkHint": "similique"
+          "DisplayValue": "quod",
+          "TooltipHint": "voluptates",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "officiis",
-      "StyleHint": "at",
+      "LinkHint": "dolore",
+      "StyleHint": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 513
+          "FieldType": "System.Int32",
+          "FieldLength": 626
         }
       }
     }
   ],
-  "RowCount": 51,
+  "RowCount": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

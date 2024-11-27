@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.FindProduct
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.FindProduct'>FindProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.FindProduct'>FindProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeFindProduct
 ```cs

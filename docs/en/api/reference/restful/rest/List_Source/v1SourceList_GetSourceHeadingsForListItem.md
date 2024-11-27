@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Gottlieb-Green",
-    "ToolTip": "Omnis in deleniti.",
+    "Id": 826,
+    "Name": "Davis, Hyatt and Armstrong",
+    "ToolTip": "Distinctio illo rem nulla reiciendis facilis.",
     "Deleted": false,
-    "Rank": 437,
-    "Type": "maxime",
-    "ColorBlock": 320,
-    "IconHint": "animi",
+    "Rank": 549,
+    "Type": "consectetur",
+    "ColorBlock": 301,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-10-26T13:14:11.554833+01:00",
+    "LastChanged": "2024-03-25T14:45:13.9429422+01:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Brown, Lubowitz and Goyette",
-        "ToolTip": "Soluta ab molestiae ut at.",
-        "Deleted": false,
-        "Rank": 888,
-        "Type": "excepturi",
-        "ColorBlock": 316,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "1997-07-18T13:14:11.554833+02:00",
+        "Id": 973,
+        "Name": "Emmerich-Abshire",
+        "ToolTip": "Omnis est aut et.",
+        "Deleted": true,
+        "Rank": 231,
+        "Type": "quo",
+        "ColorBlock": 922,
+        "IconHint": "occaecati",
+        "Selected": true,
+        "LastChanged": "2019-12-22T14:45:13.9429422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eum",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Creola Kirlin",
+        "FullName": "Ms. Adele Dianna Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldType": "System.String",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Skye Romaguera",
+    "ExtraInfo": "ea",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Lupe Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 191
       }
     }
   }

@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Sipes LLC"
+  "FunctionalRightName": "Kutch Inc and Sons"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Brakus LLC",
-    "ToolTip": "Sit dolor at quae recusandae quia rem et.",
-    "Deleted": true,
-    "Rank": 1001,
-    "Type": "eaque",
+    "Id": 815,
+    "Name": "Wolff-Goyette",
+    "ToolTip": "Eius reprehenderit.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "animi",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Mertz LLC",
-        "ToolTip": "Quisquam ut ut id provident id molestiae quis.",
+        "Id": 490,
+        "Name": "Kessler, Heller and Abernathy",
+        "ToolTip": "Necessitatibus delectus.",
         "Deleted": false,
-        "Rank": 278,
-        "Type": "nihil",
+        "Rank": 427,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 878,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "velit",
-        "FullName": "Tracey Virginia Champlin Jr.",
+        "IconHint": "earum",
+        "ColorBlock": 292,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "dolores",
+        "FullName": "Isabella Brant Ryan DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 17
+            "FieldLength": 441
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 23,
-    "ExtraInfo": "et",
-    "StyleHint": "at",
-    "FullName": "Daija Oberbrunner",
+    "IconHint": "consequuntur",
+    "ColorBlock": 595,
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "sequi",
+    "FullName": "Polly McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 9
       }
     }
   }

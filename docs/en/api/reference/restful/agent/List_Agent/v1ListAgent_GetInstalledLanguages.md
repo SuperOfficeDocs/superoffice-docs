@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 28,
-    "LCID": 77,
-    "EnglishName": "Upton-Block",
-    "NativeName": "Moore, Bergstrom and Reinger",
-    "ThreeLetterISOLanguageName": "Wuckert Group",
-    "TwoLetterISOLanguageName": "Littel LLC",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 827,
+    "LCID": 410,
+    "EnglishName": "McGlynn, Weimann and Wunsch",
+    "NativeName": "Cartwright LLC",
+    "ThreeLetterISOLanguageName": "Greenholt Group",
+    "TwoLetterISOLanguageName": "Jewess Inc and Sons",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 760
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

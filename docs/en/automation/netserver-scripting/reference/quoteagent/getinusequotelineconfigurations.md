@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetInUseQuoteLineConfigurations
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetInUseQuoteLineConfigurations'>GetInUseQuoteLineConfigurations</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetInUseQuoteLineConfigurations'>GetInUseQuoteLineConfigurations</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetInUseQuoteLineConfigurations
 ```cs

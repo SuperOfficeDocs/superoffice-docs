@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.RemoveExpiredSystemMessages
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages'>RemoveExpiredSystemMessages</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.RemoveExpiredSystemMessages'>RemoveExpiredSystemMessages</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeRemoveExpiredSystemMessages
 ```cs

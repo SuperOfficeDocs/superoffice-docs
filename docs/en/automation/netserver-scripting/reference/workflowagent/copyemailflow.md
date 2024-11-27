@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.CopyEmailFlow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow'>CopyEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.CopyEmailFlow'>CopyEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeCopyEmailFlow
 ```cs

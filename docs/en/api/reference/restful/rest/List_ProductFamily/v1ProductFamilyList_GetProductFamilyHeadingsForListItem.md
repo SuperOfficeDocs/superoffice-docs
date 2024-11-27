@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Daniel, Yost and Corkery",
-    "ToolTip": "Qui minima quisquam illum laboriosam aut incidunt.",
+    "Id": 826,
+    "Name": "Schulist LLC",
+    "ToolTip": "Sint earum autem amet odit blanditiis minus.",
     "Deleted": false,
-    "Rank": 788,
-    "Type": "inventore",
-    "ColorBlock": 42,
-    "IconHint": "animi",
+    "Rank": 705,
+    "Type": "eius",
+    "ColorBlock": 672,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2004-01-09T13:14:11.4610767+01:00",
+    "LastChanged": "2006-06-29T14:45:13.8023488+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Raynor, Pagac and Block",
-        "ToolTip": "Quo ex enim.",
+        "Id": 432,
+        "Name": "Huel, Kassulke and Jenkins",
+        "ToolTip": "Sed aliquid quibusdam perferendis libero ut omnis.",
         "Deleted": false,
-        "Rank": 16,
-        "Type": "ipsam",
-        "ColorBlock": 335,
-        "IconHint": "ratione",
+        "Rank": 82,
+        "Type": "omnis",
+        "ColorBlock": 547,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2021-05-21T13:14:11.4610767+02:00",
+        "LastChanged": "2011-01-07T14:45:13.8023488+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "iste",
+        "ExtraInfo": "quidem",
+        "StyleHint": "quam",
         "Hidden": true,
-        "FullName": "Janet Sporer",
+        "FullName": "Linwood Senger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eius",
+    "ExtraInfo": "labore",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Kendrick Roberts",
+    "FullName": "Alexa Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 936
       }
     }
   }

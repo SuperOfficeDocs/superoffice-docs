@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetPreviewAttachmentStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetPreviewAttachmentStream'>GetPreviewAttachmentStream</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetPreviewAttachmentStream'>GetPreviewAttachmentStream</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetPreviewAttachmentStream
 ```cs

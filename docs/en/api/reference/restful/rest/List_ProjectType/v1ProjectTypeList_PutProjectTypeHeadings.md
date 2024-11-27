@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Runte-Romaguera",
-    "Tooltip": "omnis",
+    "HeadingId": 234,
+    "Name": "Koepp LLC",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 625,
-    "UdListDefinitionId": 437
+    "Rank": 170,
+    "UdListDefinitionId": 664
   },
   {
-    "HeadingId": 145,
-    "Name": "Runte-Romaguera",
-    "Tooltip": "omnis",
+    "HeadingId": 234,
+    "Name": "Koepp LLC",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 625,
-    "UdListDefinitionId": 437
+    "Rank": 170,
+    "UdListDefinitionId": 664
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 363,
-    "Name": "Parker-Corwin",
-    "Tooltip": "exercitationem",
+    "HeadingId": 223,
+    "Name": "D'Amore Group",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 732,
-    "UdListDefinitionId": 408,
+    "Rank": 562,
+    "UdListDefinitionId": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

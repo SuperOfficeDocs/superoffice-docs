@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.CreateDefaultMailMergeSettings
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings'>CreateDefaultMailMergeSettings</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.CreateDefaultMailMergeSettings'>CreateDefaultMailMergeSettings</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeCreateDefaultMailMergeSettings
 ```cs

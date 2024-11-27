@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetOutputFromBatch
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch'>GetOutputFromBatch</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetOutputFromBatch'>GetOutputFromBatch</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetOutputFromBatch
 ```cs

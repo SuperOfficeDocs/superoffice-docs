@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetAvailableColumns
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns'>GetAvailableColumns</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetAvailableColumns'>GetAvailableColumns</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetAvailableColumns
 ```cs

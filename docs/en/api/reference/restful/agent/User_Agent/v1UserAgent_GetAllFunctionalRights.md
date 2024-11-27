@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Wunsch Inc and Sons",
-    "ToolTip": "Pariatur id.",
+    "Id": 351,
+    "Name": "Murphy Inc and Sons",
+    "ToolTip": "Voluptas similique velit et.",
     "Deleted": false,
-    "Rank": 446,
-    "Type": "aut",
-    "ColorBlock": 112,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2014-01-08T13:14:06.7102053+01:00",
+    "Rank": 69,
+    "Type": "aspernatur",
+    "ColorBlock": 986,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2017-04-12T14:45:06.6467545+02:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "Cruickshank-Bednar",
-        "ToolTip": "Ea fugiat quisquam accusamus.",
+        "Id": 531,
+        "Name": "Abernathy-Greenholt",
+        "ToolTip": "Quia enim sequi.",
         "Deleted": false,
-        "Rank": 886,
+        "Rank": 228,
         "Type": "recusandae",
-        "ColorBlock": 598,
-        "IconHint": "consequatur",
+        "ColorBlock": 613,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2002-07-03T13:14:06.7102053+02:00",
+        "LastChanged": "2006-08-12T14:45:06.6467545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "modi",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Minerva Stamm MD",
+        "FullName": "Missouri Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 588
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Vada Zieme",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Archibald Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

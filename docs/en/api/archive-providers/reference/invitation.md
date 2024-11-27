@@ -731,12 +731,15 @@ because someone may explicitly request an instance an a recurring booking, so th
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |invitationRestrictionIds|int|Invitation ID: ID of follow-ups to be shown as invitations, regardless of actual status|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=location,visibleInDiary,contact/saintIntention,person/searchPhone/formattedNumber,person/correspondingAssociate/locationAddress
+GET /api/v1/archive/Invitation?$select=contact/restrictionAddress/zip,contact/contactExtra/x_contact_float,person/associateType,person/restrictionAddress/line3,person/personUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

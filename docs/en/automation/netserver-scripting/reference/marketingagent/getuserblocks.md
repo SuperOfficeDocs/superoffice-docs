@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.GetUserBlocks
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks'>GetUserBlocks</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.GetUserBlocks'>GetUserBlocks</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeGetUserBlocks
 ```cs

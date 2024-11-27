@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Parker, Quigley and Mayer",
-    "ToolTip": "Odio sapiente.",
-    "Deleted": true,
-    "Rank": 820,
-    "Type": "laborum",
-    "ColorBlock": 567,
-    "IconHint": "cum",
+    "Id": 366,
+    "Name": "Hintz Inc and Sons",
+    "ToolTip": "Inventore sed rerum velit.",
+    "Deleted": false,
+    "Rank": 690,
+    "Type": "esse",
+    "ColorBlock": 61,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2011-10-31T13:14:11.5079552+01:00",
+    "LastChanged": "2016-02-25T14:45:13.8648346+01:00",
     "ChildItems": [
       {
-        "Id": 444,
-        "Name": "Langosh-Satterfield",
-        "ToolTip": "Eius id voluptas.",
-        "Deleted": true,
-        "Rank": 221,
-        "Type": "suscipit",
-        "ColorBlock": 338,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2008-05-03T13:14:11.5079552+02:00",
+        "Id": 377,
+        "Name": "Crona, Spinka and Herzog",
+        "ToolTip": "Doloribus eius quia commodi ea dolor sit omnis.",
+        "Deleted": false,
+        "Rank": 395,
+        "Type": "nesciunt",
+        "ColorBlock": 484,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2010-03-26T14:45:13.8648346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Ms. Orland Bogan DVM"
+        "ExtraInfo": "sed",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Alisha Sipes"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "esse",
+    "ExtraInfo": "nihil",
+    "StyleHint": "totam",
     "Hidden": true,
-    "FullName": "Meggie Schoen"
+    "FullName": "Dr. Hallie Aiden Swift"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Aufderhar LLC",
-    "ToolTip": "Eum debitis.",
-    "Deleted": false,
-    "Rank": 353,
-    "Type": "magni",
-    "ColorBlock": 335,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "1999-01-20T13:14:11.5079552+01:00",
+    "Id": 675,
+    "Name": "Tremblay, Konopelski and Erdman",
+    "ToolTip": "Aut delectus.",
+    "Deleted": true,
+    "Rank": 316,
+    "Type": "iste",
+    "ColorBlock": 591,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "2013-01-25T14:45:13.8648346+01:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Boehm LLC",
-        "ToolTip": "Et aut culpa unde reprehenderit repellat.",
+        "Id": 483,
+        "Name": "Kuhic LLC",
+        "ToolTip": "Aliquid harum nisi velit autem.",
         "Deleted": true,
-        "Rank": 253,
-        "Type": "autem",
-        "ColorBlock": 304,
-        "IconHint": "et",
+        "Rank": 553,
+        "Type": "ab",
+        "ColorBlock": 679,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2003-09-02T13:14:11.5079552+02:00",
+        "LastChanged": "2004-05-04T14:45:13.8648346+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "dicta",
+        "ExtraInfo": "eius",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Prof. Sid Bernhard",
+        "FullName": "Kirk Ward Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 873
+            "FieldType": "System.Int32",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Miss Carmelo Johathan Friesen DVM",
+    "ExtraInfo": "maiores",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Ferne Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 618
       }
     }
   }

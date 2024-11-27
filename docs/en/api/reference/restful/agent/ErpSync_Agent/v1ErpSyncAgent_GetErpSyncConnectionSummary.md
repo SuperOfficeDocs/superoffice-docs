@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 40
+  "ErpSyncConnectionId": 854
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Little, O'Conner and Steuber",
-  "DisplayDescription": "Automated upward-trending adapter",
-  "Active": true,
+  "DisplayName": "Gulgowski LLC",
+  "DisplayDescription": "Total executive process improvement",
+  "Active": false,
   "Deleted": false,
-  "LastSync": "2017-11-02T13:14:06.0070379+01:00",
+  "LastSync": "2009-03-12T14:45:05.6001106+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "aperiam",
-      "Mappings": "et",
+      "Defaults": "est",
+      "Mappings": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 743
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "aperiam",
-      "Mappings": "et",
+      "Defaults": "est",
+      "Mappings": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 743
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 834,
-  "Name": "Botsford, Adams and Carroll",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 107,
-  "UdListDefinitionId": 956
+  "HeadingId": 239,
+  "Name": "Fadel, Kemmer and Larson",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "Rank": 957,
+  "UdListDefinitionId": 289
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 204,
-  "Name": "Hilpert-Berge",
-  "Tooltip": "ratione",
-  "Deleted": false,
-  "Rank": 166,
-  "UdListDefinitionId": 984,
+  "HeadingId": 328,
+  "Name": "Breitenberg, Schroeder and Beier",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 824,
+  "UdListDefinitionId": 382,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 246
     }
   }
 }

@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ChatAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IChatAgent'>ChatAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IChatAgent'>ChatAgent</see> that can trigger server-side event scripts.
 
 * [AcceptChatSessionTransfer](acceptchatsessiontransfer.md)
 * [AddChatMessage](addchatmessage.md)

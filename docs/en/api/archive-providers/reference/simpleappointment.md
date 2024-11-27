@@ -716,11 +716,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=alarm,contact/contactAssociate/portraitThumbnail,person/personSource,person/searchPhone/formattedNumber,person/consentSourceStore
+GET /api/v1/archive/SimpleAppointment?$select=visibleInDiary,person/personUdef/SuperOffice:5,person/personAssociate/assocName,person/correspondingAssociate/personId,project/projectPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

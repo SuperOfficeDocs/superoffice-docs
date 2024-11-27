@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.SetProductThumbnail
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail'>SetProductThumbnail</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.SetProductThumbnail'>SetProductThumbnail</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeSetProductThumbnail
 ```cs

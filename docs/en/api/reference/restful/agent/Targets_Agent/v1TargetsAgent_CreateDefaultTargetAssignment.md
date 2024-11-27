@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 757,
+  "TargetAssignmentInfoId": 139,
   "Values": [
-    708,
-    7
+    788,
+    602
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 628,
-  "DimensionListItemDisplayName": "Erdman, Blick and Powlowski",
+  "DimensionListItem": 259,
+  "DimensionListItemDisplayName": "Murphy-Reinger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   }
 }

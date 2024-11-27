@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "nostrum",
-      "Key": "possimus"
+      "Section": "illo",
+      "Key": "sint"
     },
     {
-      "Section": "nostrum",
-      "Key": "possimus"
+      "Section": "illo",
+      "Key": "sint"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ea",
+    "RawValue": "dolores",
     "Specification": null,
-    "DisplayValue": "aut",
-    "DisplayTooltip": "non",
+    "DisplayValue": "architecto",
+    "DisplayTooltip": "eos",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 508,
-    "PrefDescId": 631,
-    "TableName": "Bruen Group",
-    "UserPreferenceId": 436,
+    "TargetId": 916,
+    "PrefDescId": 649,
+    "TableName": "Schulist-Champlin",
+    "UserPreferenceId": 857,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 416
       }
     }
   }

@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 410,
+  "HierarchyId": 608,
   "Domain": "Dashboards",
-  "Name": "Kunze LLC",
-  "Fullname": "accusamus",
-  "ParentId": 621,
+  "Name": "Schumm LLC",
+  "Fullname": "quia",
+  "ParentId": 440,
   "Children": [
     {
-      "HierarchyId": 300,
+      "HierarchyId": 708,
       "Domain": "Dashboards",
-      "Name": "Oberbrunner Group",
-      "Fullname": "maxime",
-      "ParentId": 799,
+      "Name": "Miller Inc and Sons",
+      "Fullname": "exercitationem",
+      "ParentId": 723,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-05-07T13:14:10.8516656+02:00",
-      "RegisteredAssociateId": 150,
-      "Updated": "2009-04-11T13:14:10.8516656+02:00",
-      "UpdatedAssociateId": 992,
+      "Registered": "2013-10-04T14:45:12.8338163+02:00",
+      "RegisteredAssociateId": 543,
+      "Updated": "2004-07-16T14:45:12.8338163+02:00",
+      "UpdatedAssociateId": 704,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldType": "System.String",
+          "FieldLength": 417
         }
       }
     }
   ],
-  "Registered": "2023-08-06T13:14:10.8516656+02:00",
-  "RegisteredAssociateId": 890,
-  "Updated": "2023-09-29T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 291,
+  "Registered": "2012-07-08T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 620,
+  "Updated": "2005-02-04T14:45:12.8338163+01:00",
+  "UpdatedAssociateId": 451,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   },
   "_Links": {

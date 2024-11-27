@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turner-Murazik"
+  "Name": "Towne, Ferry and Balistreri"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Value": "saepe",
-    "Tooltip": "rerum",
+    "Id": 64,
+    "Value": "rerum",
+    "Tooltip": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 230
       }
     }
   },
   {
-    "Id": 226,
-    "Value": "saepe",
-    "Tooltip": "rerum",
+    "Id": 64,
+    "Value": "rerum",
+    "Tooltip": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 230
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 404,
-  "PrefDescId": 663,
-  "PrefValue": "ab",
-  "PrefShowValue": "deleniti",
-  "Description": "Advanced motivating frame",
+  "PrefDescLineId": 482,
+  "PrefDescId": 90,
+  "PrefValue": "vel",
+  "PrefShowValue": "quia",
+  "Description": "Digitized empowering attitude",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 110
     }
   }
 }

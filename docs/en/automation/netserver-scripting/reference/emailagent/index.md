@@ -10,7 +10,7 @@ so.envir: onsite
 
 # EMailAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EMailAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IEMailAgent'>EMailAgent</see> that can trigger server-side event scripts.
 
 * [Authenticate](authenticate.md)
 * [AuthenticateIncoming](authenticateincoming.md)
@@ -32,6 +32,8 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EM
 * [CreateFolder](createfolder.md)
 * [CreateForwardEmail](createforwardemail.md)
 * [CreateInlineHtmlHeader](createinlinehtmlheader.md)
+* [CreateNewPhysicalDocumentFromEmail](createnewphysicaldocumentfromemail.md)
+* [CreateNewPhysicalDocumentFromEmailAttachment](createnewphysicaldocumentfromemailattachment.md)
 * [Delete](delete.md)
 * [DeleteEMailAccount](deleteemailaccount.md)
 * [DeleteEmails](deleteemails.md)

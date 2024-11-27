@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.ApproveQuoteVersion
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.ApproveQuoteVersion'>ApproveQuoteVersion</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.ApproveQuoteVersion'>ApproveQuoteVersion</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeApproveQuoteVersion
 ```cs

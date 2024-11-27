@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ListAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IListAgent'>ListAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can trigger server-side event scripts.
 
 * [AddFromListDefinition](addfromlistdefinition.md)
 * [AddFromListName](addfromlistname.md)

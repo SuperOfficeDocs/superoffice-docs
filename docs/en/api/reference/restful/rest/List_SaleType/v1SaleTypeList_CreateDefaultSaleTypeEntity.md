@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 44,
-  "Name": "Pfeffer LLC",
-  "Tooltip": "iusto",
-  "Rank": 567,
+  "SaleTypeId": 842,
+  "Name": "Dietrich LLC",
+  "Tooltip": "et",
+  "Rank": 517,
   "DurationUnit": "Century",
-  "SaleDuration": 630,
-  "SaleTypeCatId": 538,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 611,
+  "SaleTypeCatId": 466,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 175,
-  "QuoteLinesTemplate": 786,
-  "ConfirmationLinesTemplate": 574,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 326,
+  "QuoteLinesTemplate": 613,
+  "ConfirmationLinesTemplate": 813,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 695,
-  "MinEarningPercent": 729,
-  "GroupQuoteLinesBy": 944,
-  "SortGroupLinesBy": 177,
+  "MaxDiscountPercent": 943,
+  "MinEarningPercent": 368,
+  "GroupQuoteLinesBy": 595,
+  "SortGroupLinesBy": 26,
   "Stages": [
     {
-      "Id": 406,
-      "Name": "Champlin, Bailey and Schuster",
-      "ToolTip": "Et soluta.",
+      "Id": 698,
+      "Name": "Towne LLC",
+      "ToolTip": "Laboriosam veniam quis deserunt.",
       "Deleted": false,
-      "Rank": 176,
-      "Type": "qui",
-      "ColorBlock": 682,
-      "IconHint": "aut",
-      "Selected": true,
-      "LastChanged": "2016-12-01T13:14:11.5392071+01:00",
+      "Rank": 547,
+      "Type": "porro",
+      "ColorBlock": 490,
+      "IconHint": "veniam",
+      "Selected": false,
+      "LastChanged": "2024-01-08T14:45:13.9116989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "aut",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Dr. Antwon Senger",
+      "FullName": "Simeon Ryan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 141
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 695
     }
   }
 }

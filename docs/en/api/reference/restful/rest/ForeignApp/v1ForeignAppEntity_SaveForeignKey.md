@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatibus",
-  "Value": "itaque",
-  "RecordId": 485,
-  "CreatedDate": "2015-04-23T13:14:10.8516656+02:00",
-  "UpdatedDate": "2024-10-27T13:14:10.8516656+01:00",
-  "UpdatedBy": "eos",
-  "CreatedBy": "praesentium",
-  "TableName": "Anderson, Legros and Nader"
+  "Key": "est",
+  "Value": "possimus",
+  "RecordId": 452,
+  "CreatedDate": "2000-09-22T14:45:12.8338163+02:00",
+  "UpdatedDate": "2000-09-12T14:45:12.8338163+02:00",
+  "UpdatedBy": "corporis",
+  "CreatedBy": "voluptatibus",
+  "TableName": "Monahan-Hagenes"
 }
 ```
 
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Key": "ab",
-  "Value": "accusantium",
-  "RecordId": 405,
-  "CreatedDate": "2015-09-02T13:14:10.8516656+02:00",
-  "UpdatedDate": "1997-10-13T13:14:10.8516656+02:00",
-  "UpdatedBy": "ipsam",
-  "CreatedBy": "possimus",
-  "TableName": "Dare LLC",
+  "Value": "eos",
+  "RecordId": 32,
+  "CreatedDate": "2022-11-08T14:45:12.8338163+01:00",
+  "UpdatedDate": "2019-03-09T14:45:12.8338163+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "unde",
+  "TableName": "Heaney, Reinger and Mayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

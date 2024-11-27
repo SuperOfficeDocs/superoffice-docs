@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Renner, Ziemann and Emard",
-    "ToolTip": "Aut quisquam sed facilis qui.",
-    "Deleted": true,
-    "Rank": 956,
-    "Type": "ex",
-    "ColorBlock": 915,
-    "IconHint": "molestias",
+    "Id": 35,
+    "Name": "Russel, Eichmann and Wilderman",
+    "ToolTip": "Perspiciatis quis voluptas ut deleniti.",
+    "Deleted": false,
+    "Rank": 47,
+    "Type": "corporis",
+    "ColorBlock": 788,
+    "IconHint": "fugit",
     "Selected": true,
-    "LastChanged": "2004-10-04T13:14:11.3204434+02:00",
+    "LastChanged": "2014-12-15T14:45:13.5836468+01:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Gerlach Inc and Sons",
-        "ToolTip": "Et qui.",
+        "Id": 675,
+        "Name": "Carroll-Franecki",
+        "ToolTip": "Enim doloribus nostrum magnam.",
         "Deleted": false,
-        "Rank": 734,
-        "Type": "facere",
-        "ColorBlock": 759,
-        "IconHint": "minima",
-        "Selected": true,
-        "LastChanged": "2012-01-21T13:14:11.3204434+01:00",
+        "Rank": 484,
+        "Type": "ut",
+        "ColorBlock": 744,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-09-01T14:45:13.5836468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "officia",
+        "ExtraInfo": "velit",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Garry Kemmer"
+        "FullName": "Edna Ledner"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Maxine Crona"
+    "ExtraInfo": "eius",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Stanton Goyette"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Kihn-Schulist",
-    "ToolTip": "Doloribus labore voluptatem voluptatem.",
+    "Id": 627,
+    "Name": "Rau, Huels and Towne",
+    "ToolTip": "Nihil explicabo distinctio.",
     "Deleted": false,
-    "Rank": 369,
-    "Type": "error",
-    "ColorBlock": 92,
-    "IconHint": "minima",
+    "Rank": 623,
+    "Type": "ut",
+    "ColorBlock": 371,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2009-04-06T13:14:11.3204434+02:00",
+    "LastChanged": "1999-09-17T14:45:13.5836468+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Blick LLC",
-        "ToolTip": "Aut quia.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "cum",
-        "ColorBlock": 718,
-        "IconHint": "quo",
+        "Id": 716,
+        "Name": "McGlynn, Gusikowski and Kiehn",
+        "ToolTip": "Voluptate aut quibusdam autem.",
+        "Deleted": true,
+        "Rank": 844,
+        "Type": "eos",
+        "ColorBlock": 179,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2002-06-09T13:14:11.3204434+02:00",
+        "LastChanged": "2011-12-03T14:45:13.5836468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quod",
-        "Hidden": false,
-        "FullName": "Guy Mann",
+        "ExtraInfo": "quia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Jerome Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "et",
+    "ExtraInfo": "ullam",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Kenneth Rippin I",
+    "FullName": "Ms. Tyra Yasmeen Murray DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 164
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetBestSoLanguageForTemplate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetBestSoLanguageForTemplate'>GetBestSoLanguageForTemplate</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetBestSoLanguageForTemplate'>GetBestSoLanguageForTemplate</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetBestSoLanguageForTemplate
 ```cs

@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quos",
-  "PluginId": 170
+  "LanguageCode": "sunt",
+  "PluginId": 434
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 4,
-  "Name": "Moen-Champlin",
-  "Tooltip": "veniam",
-  "SaveInDb": 390,
-  "Filename": "dolor",
-  "DefaultOref": "in",
+  "DocumentTemplateId": 84,
+  "Name": "Kulas-Adams",
+  "Tooltip": "omnis",
+  "SaveInDb": 318,
+  "Filename": "error",
+  "DefaultOref": "facere",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 769,
-  "IntentId": 994,
+  "AutoeventId": 711,
+  "IntentId": 763,
   "IsDefaultPublished": false,
-  "Rank": 787,
-  "LoadTemplateFromPlugin": 72,
-  "MimeType": "enim",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 143,
+  "Rank": 613,
+  "LoadTemplateFromPlugin": 887,
+  "MimeType": "sequi",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 339,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "reta.anderson@vonrueden.uk",
+  "EmailSubject": "trevion@roob.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ardella@gusikowskijerde.name",
+  "SenderEmailAddress": "jesse@morissette.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

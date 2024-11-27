@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.CheckTemporaryKey
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey'>CheckTemporaryKey</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.CheckTemporaryKey'>CheckTemporaryKey</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeCheckTemporaryKey
 ```cs

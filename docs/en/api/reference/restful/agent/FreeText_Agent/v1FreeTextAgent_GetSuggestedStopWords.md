@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 940
+  "CountWords": 617
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Lakin Group",
-    "ToolTip": "Voluptas asperiores.",
+    "Id": 906,
+    "Name": "Klein-Reichel",
+    "ToolTip": "Laboriosam impedit ipsam nam praesentium est.",
     "Deleted": false,
-    "Rank": 833,
-    "Type": "laboriosam",
+    "Rank": 698,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Schinner Group",
-        "ToolTip": "Quas esse.",
-        "Deleted": false,
-        "Rank": 694,
-        "Type": "minus",
+        "Id": 644,
+        "Name": "Durgan-Bogisich",
+        "ToolTip": "Qui iure illo aliquid sunt.",
+        "Deleted": true,
+        "Rank": 972,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 481,
-        "ExtraInfo": "eveniet",
-        "StyleHint": "aut",
-        "FullName": "Mr. Antonietta Sporer",
+        "IconHint": "doloribus",
+        "ColorBlock": 728,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "odit",
+        "FullName": "Ms. Kayden Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 343
+            "FieldLength": 422
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 476,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "consequuntur",
-    "FullName": "Miss Joel Leffler",
+    "IconHint": "voluptate",
+    "ColorBlock": 975,
+    "ExtraInfo": "architecto",
+    "StyleHint": "maiores",
+    "FullName": "Guillermo Carey Mosciski V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 425
       }
     }
   }

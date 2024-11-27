@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 743,
-  "Section": "expedita",
-  "Key": "sed",
-  "Name": "Walter-Toy",
+  "PrefDescId": 976,
+  "Section": "odio",
+  "Key": "tenetur",
+  "Name": "Tromp, Heller and Hamill",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Up-sized composite process improvement",
-  "IsBuiltin": false,
-  "TableName": "Little-Herzog",
-  "UserDefinedListId": 795,
-  "Rank": 474,
-  "SubGroup": "animi",
-  "MinLevel": 802,
-  "MaxValue": 584,
-  "MinValue": 895,
-  "RequiredLicense": "voluptatem"
+  "Description": "Balanced executive product",
+  "IsBuiltin": true,
+  "TableName": "Swaniawski-Lemke",
+  "UserDefinedListId": 664,
+  "Rank": 982,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 422,
+  "MaxValue": 654,
+  "MinValue": 298,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 581,
-  "Section": "suscipit",
-  "Key": "sed",
-  "Name": "Klein-Lynch",
+  "PrefDescId": 524,
+  "Section": "quas",
+  "Key": "quia",
+  "Name": "Veum-Becker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering upward-trending middleware",
-  "IsBuiltin": false,
-  "TableName": "Runolfsdottir, Kassulke and Pollich",
-  "UserDefinedListId": 507,
-  "Rank": 673,
-  "SubGroup": "at",
-  "MinLevel": 132,
-  "MaxValue": 117,
-  "MinValue": 333,
-  "RequiredLicense": "reiciendis",
+  "Description": "Team-oriented mission-critical database",
+  "IsBuiltin": true,
+  "TableName": "Maggio, Pouros and Pollich",
+  "UserDefinedListId": 581,
+  "Rank": 197,
+  "SubGroup": "voluptatem",
+  "MinLevel": 650,
+  "MaxValue": 377,
+  "MinValue": 616,
+  "RequiredLicense": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 224
     }
   }
 }

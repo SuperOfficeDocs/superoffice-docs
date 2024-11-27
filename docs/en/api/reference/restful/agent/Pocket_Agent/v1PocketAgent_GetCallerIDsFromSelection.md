@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 322,
-  "LastHash": "aspernatur"
+  "SelectionId": 562,
+  "LastHash": "sint"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "doloribus",
+  "CallerIDHash": "minima",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 223,
-      "PersonId": 178,
-      "PersonName": "Nitzsche Inc and Sons",
-      "Mrmrs": "eos",
-      "ContactId": 747,
-      "ContactName": "Carroll LLC"
+      "DialInPrefix": 768,
+      "PersonId": 664,
+      "PersonName": "Morar, McGlynn and Mertz",
+      "Mrmrs": "laborum",
+      "ContactId": 645,
+      "ContactName": "Renner-Robel"
     }
   ]
 }

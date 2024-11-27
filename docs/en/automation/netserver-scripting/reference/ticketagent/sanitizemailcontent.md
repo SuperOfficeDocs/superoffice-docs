@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.SanitizeMailContent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent'>SanitizeMailContent</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.SanitizeMailContent'>SanitizeMailContent</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeSanitizeMailContent
 ```cs

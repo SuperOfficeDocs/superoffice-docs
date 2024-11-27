@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 911
+  "ErpConnectionId": 560
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Osinski, O'Connell and Stehr",
+      "ErpListName": "Cronin Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Lehner LLC",
-      "ErpFieldId": 574,
+      "ErpActorTypeName": "Eichmann Inc and Sons",
+      "ErpFieldId": 781,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 284
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
   ],
-  "ErpConnectionId": 502,
-  "ErpConnectionName": "Ondricka, Feeney and Romaguera",
+  "ErpConnectionId": 271,
+  "ErpConnectionName": "Carroll, Monahan and Zulauf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 877
     }
   }
 }

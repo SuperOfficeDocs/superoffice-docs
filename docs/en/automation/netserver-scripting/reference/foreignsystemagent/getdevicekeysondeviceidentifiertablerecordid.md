@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId'>GetDeviceKeysOnDeviceIdentifierTableRecordId</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId'>GetDeviceKeysOnDeviceIdentifierTableRecordId</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeGetDeviceKeysOnDeviceIdentifierTableRecordId
 ```cs

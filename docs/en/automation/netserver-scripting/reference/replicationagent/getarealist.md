@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReplicationAgent.GetAreaList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReplicationAgent.GetAreaList'>GetAreaList</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReplicationAgent.GetAreaList'>GetAreaList</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
 
 ## BeforeGetAreaList
 ```cs

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hilpert-Kozey",
+  "Name": "Hayes LLC",
   "AssociateIds": [
-    272,
-    554
+    347,
+    612
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Herman-Muller",
-    "AssociateId": 34,
-    "DetailsTable": 217,
-    "DetailsRecord": 429,
+    "Id": 297,
+    "Name": "Torphy, Sanford and Reynolds",
+    "AssociateId": 662,
+    "DetailsTable": 516,
+    "DetailsRecord": 361,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "iure",
-      "ParameterObject2": "itaque"
+      "ParameterObject1": "non",
+      "ParameterObject2": "nobis"
     },
-    "LastStarted": "2010-11-12T13:14:05.5382596+01:00",
-    "Created": "2016-01-02T13:14:05.5382596+01:00",
-    "StartCount": 436,
-    "DatabaseSerialNumber": "1167102",
-    "Context": "qui",
-    "Result": "laboriosam",
+    "LastStarted": "2007-02-03T14:45:04.8815214+01:00",
+    "Created": "2013-07-12T14:45:04.8815214+02:00",
+    "StartCount": 788,
+    "DatabaseSerialNumber": "594938",
+    "Context": "sapiente",
+    "Result": "modi",
     "State": "All",
-    "Description": "Synergistic bifurcated database",
-    "Response": "ut",
-    "Request": "similique",
-    "ProgressDescription": "Cloned methodical instruction set",
-    "ProgressPercent": 152,
-    "FileName": "Dare-Mayert",
+    "Description": "Persistent intangible challenge",
+    "Response": "cumque",
+    "Request": "tenetur",
+    "ProgressDescription": "Phased well-modulated hierarchy",
+    "ProgressPercent": 935,
+    "FileName": "Hackett, Crona and Bayer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldLength": 806
       }
     }
   }

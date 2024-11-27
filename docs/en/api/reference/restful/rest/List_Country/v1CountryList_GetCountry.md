@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 887,
-  "Name": "Keeling, Nikolaus and Legros",
-  "CurrencyId": 763,
-  "EnglishName": "Nicolas-Hauck",
+  "CountryId": 738,
+  "Name": "Buckridge, Gottlieb and Abbott",
+  "CurrencyId": 821,
+  "EnglishName": "Hodkiewicz Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Face to face multimedia collaboration",
-  "OrgNrText": "1279950",
-  "InterAreaPrefix": "tempore",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "hic",
-  "DomainName": "Hoppe LLC",
-  "AddressLayoutId": 244,
-  "DomesticAddressLayoutId": 4,
-  "ForeignAddressLayoutId": 943,
-  "Rank": 994,
-  "Tooltip": "qui",
+  "ImageDescription": "Function-based disintermediate capacity",
+  "OrgNrText": "838367",
+  "InterAreaPrefix": "ullam",
+  "DialInPrefix": "doloribus",
+  "ZipPrefix": "similique",
+  "DomainName": "Schinner LLC",
+  "AddressLayoutId": 594,
+  "DomesticAddressLayoutId": 238,
+  "ForeignAddressLayoutId": 573,
+  "Rank": 60,
+  "Tooltip": "deleniti",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

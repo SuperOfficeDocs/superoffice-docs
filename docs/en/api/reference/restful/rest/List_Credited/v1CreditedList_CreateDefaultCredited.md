@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Conn-Purdy",
-  "Tooltip": "inventore",
+  "Id": 129,
+  "Name": "Osinski Inc and Sons",
+  "Tooltip": "quae",
   "Deleted": true,
-  "UdListDefinitionId": 66,
-  "Rank": 382,
+  "UdListDefinitionId": 482,
+  "Rank": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 226
+      "FieldLength": 253
     }
   }
 }

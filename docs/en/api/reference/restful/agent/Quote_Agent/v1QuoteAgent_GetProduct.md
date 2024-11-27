@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 560,
-  "ERPProductKey": "et"
+  "QuoteConnectionId": 470,
+  "ERPProductKey": "dicta"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 616,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "et",
-  "Name": "Ondricka, Lubowitz and Koepp",
-  "Description": "Persistent demand-driven help-desk",
-  "Code": "consequatur",
-  "PriceUnit": "mollitia",
-  "QuantityUnit": "modi",
-  "IsSubscription": false,
-  "SubscriptionUnit": "expedita",
-  "DefaultSubscriptionQuantity": 19349.316,
-  "ItemNumber": "868028",
+  "ProductId": 565,
+  "ERPProductKey": "minus",
+  "ERPPriceListKey": "qui",
+  "Name": "Blick LLC",
+  "Description": "Reduced analyzing conglomeration",
+  "Code": "a",
+  "PriceUnit": "itaque",
+  "QuantityUnit": "quo",
+  "IsSubscription": true,
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 18340.167999999998,
+  "ItemNumber": "1395317",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "aut",
-  "VAT": 18963.834,
-  "VATInfo": "at",
-  "UnitCost": 30672.458,
-  "UnitMinimumPrice": 23652.298,
-  "UnitListPrice": 28431.647999999997,
-  "InAssortment": false,
-  "Supplier": "possimus",
-  "SupplierCode": "minus",
-  "Rights": "sit",
-  "Rule": "in",
+  "ProductFamilyKey": "deleniti",
+  "ProductTypeKey": "ea",
+  "VAT": 10602.322,
+  "VATInfo": "vel",
+  "UnitCost": 10304.592,
+  "UnitMinimumPrice": 532.78,
+  "UnitListPrice": 27660.683999999997,
+  "InAssortment": true,
+  "Supplier": "id",
+  "SupplierCode": "aliquid",
+  "Rights": "dolorem",
+  "Rule": "architecto",
   "ExtraInfo": [
     {
-      "Name": "Bartoletti-Wiza",
-      "Value": "deserunt",
+      "Name": "Christiansen, Labadie and Batz",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldLength": 606
         }
       }
     },
     {
-      "Name": "Bartoletti-Wiza",
-      "Value": "deserunt",
+      "Name": "Christiansen, Labadie and Batz",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldLength": 606
         }
       }
     }
   ],
-  "RawExtraInfo": "quibusdam",
-  "ExtraField1": "ut",
-  "ExtraField2": "illum",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "voluptates",
-  "ExtraField5": "ut",
-  "InStock": 18230.478,
+  "RawExtraInfo": "placeat",
+  "ExtraField1": "est",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "reprehenderit",
+  "ExtraField5": "facilis",
+  "InStock": 4011.52,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 924
     }
   }
 }

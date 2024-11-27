@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateFolder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateFolder'>CreateFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateFolder'>CreateFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateFolder
 ```cs

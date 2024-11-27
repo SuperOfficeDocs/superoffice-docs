@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 271,
-  "Name": "Breitenberg, Hills and O'Connell",
-  "Tooltip": "pariatur",
+  "HeadingId": 85,
+  "Name": "Reinger Inc and Sons",
+  "Tooltip": "reprehenderit",
   "Deleted": true,
-  "Rank": 129,
-  "UdListDefinitionId": 447
+  "Rank": 679,
+  "UdListDefinitionId": 515
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 274,
-  "Name": "Fahey LLC",
-  "Tooltip": "recusandae",
+  "HeadingId": 182,
+  "Name": "Reichert-Purdy",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 912,
-  "UdListDefinitionId": 989,
+  "Rank": 801,
+  "UdListDefinitionId": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 234
     }
   }
 }

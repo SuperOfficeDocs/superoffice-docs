@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 260,
-    "Name": "Barton, Gleason and Bins",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "Rank": 912,
-    "UdListDefinitionId": 67,
+    "HeadingId": 507,
+    "Name": "Conn, Murphy and Bashirian",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 152,
+    "UdListDefinitionId": 498,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 229
       }
     }
   }

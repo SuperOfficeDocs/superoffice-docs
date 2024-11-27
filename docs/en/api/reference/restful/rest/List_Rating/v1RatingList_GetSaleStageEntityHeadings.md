@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 829,
-    "Name": "Kunde-Baumbach",
-    "Tooltip": "neque",
+    "HeadingId": 52,
+    "Name": "Konopelski-Monahan",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 332,
-    "UdListDefinitionId": 488,
+    "Rank": 84,
+    "UdListDefinitionId": 506,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldLength": 61
       }
     }
   }

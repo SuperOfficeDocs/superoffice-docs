@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.SaveFromSectionAndKey
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey'>SaveFromSectionAndKey</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.SaveFromSectionAndKey'>SaveFromSectionAndKey</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeSaveFromSectionAndKey
 ```cs

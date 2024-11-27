@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # RelationAgent.CreateDefaultContactRelationEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity'>CreateDefaultContactRelationEntity</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IRelationAgent.CreateDefaultContactRelationEntity'>CreateDefaultContactRelationEntity</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
 
 ## BeforeCreateDefaultContactRelationEntity
 ```cs

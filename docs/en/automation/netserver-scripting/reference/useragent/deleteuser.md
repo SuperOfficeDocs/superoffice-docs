@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.DeleteUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.DeleteUser'>DeleteUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.DeleteUser'>DeleteUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeDeleteUser
 ```cs

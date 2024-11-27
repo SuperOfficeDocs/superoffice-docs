@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.RemoveSession
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession'>RemoveSession</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.RemoveSession'>RemoveSession</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeRemoveSession
 ```cs

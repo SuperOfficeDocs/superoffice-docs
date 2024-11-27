@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SetRepliedAt
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SetRepliedAt'>SetRepliedAt</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SetRepliedAt'>SetRepliedAt</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSetRepliedAt
 ```cs

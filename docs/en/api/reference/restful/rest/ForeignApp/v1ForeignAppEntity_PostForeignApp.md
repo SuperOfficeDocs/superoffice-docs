@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 992,
-  "Name": "O'Hara-Schamberger",
-  "CreatedDate": "2008-07-22T13:14:10.8360396+02:00",
-  "UpdatedDate": "2013-08-18T13:14:10.8360396+02:00",
+  "ForeignAppId": 223,
+  "Name": "Stroman, Conn and Marvin",
+  "CreatedDate": "2017-09-25T14:45:12.8181931+02:00",
+  "UpdatedDate": "2020-06-05T14:45:12.8181931+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 105,
-      "Name": "McDermott, Cummerata and Schowalter",
-      "CreatedDate": "2000-02-17T13:14:10.8360396+01:00",
-      "UpdatedDate": "2023-12-25T13:14:10.8360396+01:00",
-      "AssociateFullName": "Pearline Bayer",
-      "CreatedBy": "quaerat",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 484,
+      "ForeignDeviceId": 221,
+      "Name": "Reinger-Ruecker",
+      "CreatedDate": "2007-07-22T14:45:12.8181931+02:00",
+      "UpdatedDate": "2013-01-04T14:45:12.8181931+01:00",
+      "AssociateFullName": "Keara Swaniawski",
+      "CreatedBy": "reiciendis",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "dolor",
+      "ForeignAppId": 208,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldType": "System.String",
+          "FieldLength": 357
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   }
 }

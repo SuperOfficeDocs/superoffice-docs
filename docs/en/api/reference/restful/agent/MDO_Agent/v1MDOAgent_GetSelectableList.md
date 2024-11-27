@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Roob-Gleason",
+  "Name": "Hane Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "esse",
+  "AdditionalInfo": "aliquam",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Crona-Douglas",
-    "ToolTip": "Odio voluptas id non.",
+    "Id": 645,
+    "Name": "Leffler Group",
+    "ToolTip": "Fugiat ipsum hic facere ipsam quis.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "consequuntur",
-    "ColorBlock": 687,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2001-11-30T13:14:06.1476714+01:00",
+    "Rank": 530,
+    "Type": "ex",
+    "ColorBlock": 450,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2019-12-14T14:45:05.8031904+01:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Weimann, Kuhic and Zieme",
-        "ToolTip": "Omnis qui voluptatibus quia.",
-        "Deleted": false,
-        "Rank": 661,
-        "Type": "et",
-        "ColorBlock": 986,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2015-06-22T13:14:06.1476714+02:00",
+        "Id": 832,
+        "Name": "Price, Langworth and Kreiger",
+        "ToolTip": "Necessitatibus deleniti sunt nulla unde magnam.",
+        "Deleted": true,
+        "Rank": 791,
+        "Type": "sit",
+        "ColorBlock": 796,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2006-11-16T14:45:05.8031904+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Joany White",
+        "ExtraInfo": "illum",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Friedrich Jerel D'Amore Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldType": "System.Int32",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "velit",
+    "ExtraInfo": "ut",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Benedict Purdy",
+    "FullName": "Marlee Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 744
       }
     }
   }

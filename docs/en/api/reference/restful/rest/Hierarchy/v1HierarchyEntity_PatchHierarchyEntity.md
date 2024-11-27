@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "possimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "possimus",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 527,
+  "HierarchyId": 389,
   "Domain": "Dashboards",
-  "Name": "Rice, Willms and Rath",
-  "Fullname": "sunt",
-  "ParentId": 662,
+  "Name": "Kutch-Zieme",
+  "Fullname": "maiores",
+  "ParentId": 616,
   "Children": [
     {
-      "HierarchyId": 527,
+      "HierarchyId": 60,
       "Domain": "Dashboards",
-      "Name": "Kautzer LLC",
-      "Fullname": "voluptatem",
-      "ParentId": 338,
+      "Name": "Lebsack-Boyer",
+      "Fullname": "repudiandae",
+      "ParentId": 148,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-08-05T13:14:10.8516656+02:00",
-      "RegisteredAssociateId": 588,
-      "Updated": "2011-03-24T13:14:10.8516656+01:00",
-      "UpdatedAssociateId": 292,
+      "Registered": "2001-03-16T14:45:12.8338163+01:00",
+      "RegisteredAssociateId": 338,
+      "Updated": "2013-04-16T14:45:12.8338163+02:00",
+      "UpdatedAssociateId": 133,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 669
         }
       }
     }
   ],
-  "Registered": "2001-11-22T13:14:10.8516656+01:00",
-  "RegisteredAssociateId": 468,
-  "Updated": "2024-07-19T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 650,
+  "Registered": "1999-06-18T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 192,
+  "Updated": "2002-04-01T14:45:12.8338163+02:00",
+  "UpdatedAssociateId": 703,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldLength": 943
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

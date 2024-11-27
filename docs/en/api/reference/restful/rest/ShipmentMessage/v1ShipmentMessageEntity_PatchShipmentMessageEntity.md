@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "eligendi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "eligendi",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 274,
-  "PlainMessage": "iste",
-  "HtmlMessage": "praesentium",
-  "SmsMessage": "consectetur",
-  "Description": "Triple-buffered multi-tasking solution",
-  "Subject": "consectetur",
-  "FolderId": 439,
-  "HeaderField": "veniam",
-  "Design": "id",
+  "ShipmentMessageId": 672,
+  "PlainMessage": "necessitatibus",
+  "HtmlMessage": "numquam",
+  "SmsMessage": "nihil",
+  "Description": "Secured global help-desk",
+  "Subject": "praesentium",
+  "FolderId": 911,
+  "HeaderField": "commodi",
+  "Design": "mollitia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Managed bottom-line complexity",
-  "AccessKey": "ducimus",
-  "DocumentMessage": 893,
-  "Registered": "1999-09-10T13:14:11.1173007+02:00",
-  "RegisteredAssociateId": 115,
-  "Updated": "2020-02-14T13:14:11.1173007+01:00",
-  "UpdatedAssociateId": 198,
-  "UpdatedCount": 403,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Universal impactful complexity",
+  "AccessKey": "similique",
+  "DocumentMessage": 668,
+  "Registered": "2002-07-24T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2017-12-26T14:45:13.2555955+01:00",
+  "UpdatedAssociateId": 530,
+  "UpdatedCount": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldLength": 469
     }
   },
   "_Links": {

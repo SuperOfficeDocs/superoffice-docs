@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.CreateDefaultSaleStakeholder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder'>CreateDefaultSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.CreateDefaultSaleStakeholder'>CreateDefaultSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeCreateDefaultSaleStakeholder
 ```cs

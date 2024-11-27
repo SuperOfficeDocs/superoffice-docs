@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Toy-Rutherford",
+  "TableName": "Kulas-Weimann",
   "Columns": [
-    "modi",
-    "laudantium"
+    "aut",
+    "architecto"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "quia",
-  "Inserts": 49,
-  "Updates": 991,
-  "Deletes": 380,
+  "Success": false,
+  "Message": "voluptas",
+  "Inserts": 36,
+  "Updates": 550,
+  "Deletes": 395,
   "RowStatus": [
     {
-      "PrimaryKey": 888,
+      "PrimaryKey": 627,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "laborum",
-        "et"
+        "quia",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     },
     {
-      "PrimaryKey": 888,
+      "PrimaryKey": 627,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "laborum",
-        "et"
+        "quia",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 901
     }
   }
 }

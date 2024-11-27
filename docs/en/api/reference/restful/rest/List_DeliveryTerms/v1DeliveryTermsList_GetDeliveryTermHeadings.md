@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 778,
-    "Name": "Maggio-Jast",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 185,
-    "UdListDefinitionId": 779,
+    "HeadingId": 389,
+    "Name": "Okuneva, Corkery and Schuppe",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 29,
+    "UdListDefinitionId": 107,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 721
       }
     }
   }

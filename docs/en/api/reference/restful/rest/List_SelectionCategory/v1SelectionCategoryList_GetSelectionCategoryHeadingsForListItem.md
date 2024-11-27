@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Champlin Group",
-    "ToolTip": "Porro itaque dolorem repellat illo optio doloribus.",
+    "Id": 797,
+    "Name": "Larson, Langworth and Mitchell",
+    "ToolTip": "Quasi natus.",
     "Deleted": true,
-    "Rank": 921,
-    "Type": "numquam",
-    "ColorBlock": 641,
-    "IconHint": "velit",
+    "Rank": 341,
+    "Type": "magnam",
+    "ColorBlock": 499,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2003-12-23T13:14:11.554833+01:00",
+    "LastChanged": "2006-12-09T14:45:13.9429422+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Schmidt Inc and Sons",
-        "ToolTip": "Mollitia harum porro saepe fugiat et repellat qui.",
-        "Deleted": false,
-        "Rank": 523,
-        "Type": "ipsum",
-        "ColorBlock": 710,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2006-05-10T13:14:11.554833+02:00",
+        "Id": 708,
+        "Name": "Labadie LLC",
+        "ToolTip": "Ipsa aut quia.",
+        "Deleted": true,
+        "Rank": 73,
+        "Type": "beatae",
+        "ColorBlock": 969,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2014-01-24T14:45:13.9429422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "eum",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Floyd VonRueden DDS",
+        "FullName": "Ona Faye Leffler I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 883
+            "FieldLength": 964
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Dr. Justen Clifford Hamill MD",
+    "ExtraInfo": "sit",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Mrs. Ned Alejandra Bernier III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 389
       }
     }
   }

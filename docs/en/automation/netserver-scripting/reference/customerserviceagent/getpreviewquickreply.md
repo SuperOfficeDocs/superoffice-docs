@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.GetPreviewQuickReply
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply'>GetPreviewQuickReply</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.GetPreviewQuickReply'>GetPreviewQuickReply</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeGetPreviewQuickReply
 ```cs

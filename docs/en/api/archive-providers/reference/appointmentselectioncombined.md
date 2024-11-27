@@ -718,6 +718,9 @@ Implementation of the provider for the combined selection
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -727,7 +730,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=contact/contactExtra/x_contact_time,person/personExtra/x_person_shorttext,person/personAssociate/personEmail,project/LastActivity,associate/assocName
+GET /api/v1/archive/AppointmentSelectionCombined?$select=getAllRows,getNoRows,updatedDate,contact/contactAssociate/usergroup,contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

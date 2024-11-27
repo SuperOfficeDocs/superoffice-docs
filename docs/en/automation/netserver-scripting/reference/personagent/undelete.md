@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.Undelete
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.Undelete'>Undelete</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.Undelete'>Undelete</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeUndelete
 ```cs

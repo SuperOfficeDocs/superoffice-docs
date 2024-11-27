@@ -801,11 +801,14 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=birthYear,personSourceRelation/personContactRelation,personContact/email/emailBounceCount,request/status
+GET /api/v1/archive/Person?$select=ticketPriority,email/emailAddress,personContact/postAddress/formattedMultiLineAddress,request/closedAt,projectMembers/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

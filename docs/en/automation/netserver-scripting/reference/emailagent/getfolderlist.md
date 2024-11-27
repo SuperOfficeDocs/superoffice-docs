@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetFolderList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetFolderList'>GetFolderList</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetFolderList'>GetFolderList</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetFolderList
 ```cs

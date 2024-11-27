@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.DeleteHistory
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory'>DeleteHistory</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.DeleteHistory'>DeleteHistory</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeDeleteHistory
 ```cs

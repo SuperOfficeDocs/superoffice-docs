@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Bayer-Kub",
-    "Tooltip": "numquam",
+    "Id": 268,
+    "Name": "Hackett, Pfeffer and McClure",
+    "Tooltip": "ab",
     "Deleted": true,
-    "UdListDefinitionId": 255,
-    "Rank": 536,
+    "UdListDefinitionId": 374,
+    "Rank": 546,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

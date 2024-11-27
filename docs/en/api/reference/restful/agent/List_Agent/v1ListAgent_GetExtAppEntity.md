@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=217
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=579
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 886,
-  "Name": "Hintz LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 277,
-  "Filename": "qui",
-  "Parameters": "id",
-  "Workdir": "dignissimos",
+  "ExtAppId": 399,
+  "Name": "Fisher, Torp and Considine",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 963,
+  "Filename": "eos",
+  "Parameters": "accusantium",
+  "Workdir": "est",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 802,
+  "Icon": 65,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "in",
+  "Path": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 648
     }
   }
 }

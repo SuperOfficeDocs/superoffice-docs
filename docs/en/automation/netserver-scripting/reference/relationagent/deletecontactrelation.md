@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # RelationAgent.DeleteContactRelation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation'>DeleteContactRelation</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IRelationAgent.DeleteContactRelation'>DeleteContactRelation</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
 
 ## BeforeDeleteContactRelation
 ```cs

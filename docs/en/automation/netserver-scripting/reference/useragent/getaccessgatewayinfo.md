@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetAccessGatewayInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfo'>GetAccessGatewayInfo</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetAccessGatewayInfo'>GetAccessGatewayInfo</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetAccessGatewayInfo
 ```cs

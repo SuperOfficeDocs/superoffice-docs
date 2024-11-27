@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 855,
-  "Currency": "autem"
+  "QuoteConnectionId": 429,
+  "Currency": "voluptas"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 950,
-    "ERPPriceListKey": "officiis",
-    "QuoteConnectionId": 421,
-    "Name": "Schulist-Morar",
-    "Description": "Face to face background system engine",
-    "Currency": "ducimus",
-    "CurrencyName": "Hamill-Hirthe",
-    "ValidFrom": "2013-08-25T13:14:06.3351823+02:00",
-    "ValidTo": "2006-03-08T13:14:06.3351823+01:00",
-    "IsActive": true,
+    "PriceListId": 674,
+    "ERPPriceListKey": "repellendus",
+    "QuoteConnectionId": 912,
+    "Name": "Dach LLC",
+    "Description": "Ergonomic exuding policy",
+    "Currency": "et",
+    "CurrencyName": "Hagenes Inc and Sons",
+    "ValidFrom": "2018-09-20T14:45:06.0687573+02:00",
+    "ValidTo": "2015-09-11T14:45:06.0687573+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

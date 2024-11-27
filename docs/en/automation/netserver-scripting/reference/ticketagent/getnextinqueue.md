@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetNextInQueue
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetNextInQueue'>GetNextInQueue</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetNextInQueue'>GetNextInQueue</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetNextInQueue
 ```cs

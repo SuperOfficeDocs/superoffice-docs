@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Block, Schimmel and Kris",
-  "DeviceName": "Klocko-Reichert",
-  "DeviceIdentifier": "eius",
-  "TableName": "Bashirian-Dietrich"
+  "ApplicationName": "Spinka-Lowe",
+  "DeviceName": "Hirthe LLC",
+  "DeviceIdentifier": "qui",
+  "TableName": "Reichert, Parisian and Lemke"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sapiente",
-    "Value": "voluptates",
-    "RecordId": 86,
-    "CreatedDate": "2011-08-20T13:14:06.0382898+02:00",
-    "UpdatedDate": "1998-02-21T13:14:06.0382898+01:00",
-    "UpdatedBy": "quae",
-    "CreatedBy": "et",
-    "TableName": "Rodriguez-Feil",
+    "Key": "temporibus",
+    "Value": "molestiae",
+    "RecordId": 658,
+    "CreatedDate": "2014-10-26T14:45:05.6469762+01:00",
+    "UpdatedDate": "2005-06-06T14:45:05.6469762+02:00",
+    "UpdatedBy": "occaecati",
+    "CreatedBy": "odio",
+    "TableName": "Skiles-Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldType": "System.String",
+        "FieldLength": 380
       }
     }
   }

@@ -12156,6 +12156,8 @@
       href: Services88/Appointment/CleanUpBookingDeletedWithUpdateMode.md
     - name: CleanUpRecurringBookingDeleted
       href: Services88/Appointment/CleanUpRecurringBookingDeleted.md
+    - name: ConvertAppointmentToTask
+      href: Services88/Appointment/ConvertAppointmentToTask.md
     - name: CreateAndAccept
       href: Services88/Appointment/CreateAndAccept.md
     - name: CreateAndAcceptWithEmailConfirmation
@@ -13432,6 +13434,10 @@
       href: Services88/EMail/CreateForwardEmail.md
     - name: CreateInlineHtmlHeader
       href: Services88/EMail/CreateInlineHtmlHeader.md
+    - name: CreateNewPhysicalDocumentFromEmail
+      href: Services88/EMail/CreateNewPhysicalDocumentFromEmail.md
+    - name: CreateNewPhysicalDocumentFromEmailAttachment
+      href: Services88/EMail/CreateNewPhysicalDocumentFromEmailAttachment.md
     - name: Delete
       href: Services88/EMail/Delete.md
     - name: DeleteEMailAccount
@@ -15541,6 +15547,8 @@
       href: Services88/Sentry/CanCreateAppointmentInAllDiaries.md
     - name: CanCreateAppointmentInAssociateDiaries
       href: Services88/Sentry/CanCreateAppointmentInAssociateDiaries.md
+    - name: CanCreateAppointmentInEachAssociatesDiary
+      href: Services88/Sentry/CanCreateAppointmentInEachAssociatesDiary.md
     - name: GetFunctionRights
       href: Services88/Sentry/GetFunctionRights.md
     - name: GetNewTableRight

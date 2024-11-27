@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "iste",
-  "Tags": "quo"
+  "DeviceIdentifier": "quo",
+  "Tags": "aspernatur"
 }
 ```
 

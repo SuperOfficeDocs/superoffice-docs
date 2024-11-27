@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "velit",
+  "CRMScriptUniqueId": "et",
   "Parameters": {
-    "Parameters1": "nihil",
-    "Parameters2": "accusamus"
+    "Parameters1": "quia",
+    "Parameters2": "praesentium"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"iure"
+"consectetur"
 ```

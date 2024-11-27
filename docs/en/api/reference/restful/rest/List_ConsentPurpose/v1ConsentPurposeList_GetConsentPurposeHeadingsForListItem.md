@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Kling, Schaden and Hettinger",
-    "ToolTip": "Accusamus ut et quo fugiat voluptatem mollitia.",
+    "Id": 645,
+    "Name": "Littel-Rau",
+    "ToolTip": "Fuga aut consequatur reprehenderit perspiciatis neque.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "quam",
-    "ColorBlock": 193,
-    "IconHint": "a",
-    "Selected": false,
-    "LastChanged": "1998-04-11T13:14:11.3516953+02:00",
+    "Rank": 768,
+    "Type": "quasi",
+    "ColorBlock": 335,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2003-11-30T14:45:13.6305116+01:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Balistreri, Robel and Murazik",
-        "ToolTip": "Rerum ipsa et quis nihil iusto qui.",
+        "Id": 933,
+        "Name": "Heaney-Schultz",
+        "ToolTip": "Debitis atque debitis enim veniam.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "in",
-        "ColorBlock": 99,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2001-08-22T13:14:11.3516953+02:00",
+        "Rank": 186,
+        "Type": "quia",
+        "ColorBlock": 12,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2024-10-01T14:45:13.6305116+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Eryn Gerlach II",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Elroy Auer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 849
+            "FieldLength": 194
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Camden Skiles",
+    "ExtraInfo": "et",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Leonora Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 212
       }
     }
   }

@@ -10,10 +10,11 @@ so.envir: onsite
 
 # SentryAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISentryAgent'>SentryAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ISentryAgent'>SentryAgent</see> that can trigger server-side event scripts.
 
 * [CanCreateAppointmentInAllDiaries](cancreateappointmentinalldiaries.md)
 * [CanCreateAppointmentInAssociateDiaries](cancreateappointmentinassociatediaries.md)
+* [CanCreateAppointmentInEachAssociatesDiary](cancreateappointmentineachassociatesdiary.md)
 * [GetFunctionRights](getfunctionrights.md)
 * [GetNewTableRight](getnewtableright.md)
 * [GetTableRightByContactOwnership](gettablerightbycontactownership.md)

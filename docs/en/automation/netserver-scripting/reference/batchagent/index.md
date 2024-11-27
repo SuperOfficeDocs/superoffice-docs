@@ -10,7 +10,7 @@ so.envir: onsite
 
 # BatchAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBatchAgent'>BatchAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IBatchAgent'>BatchAgent</see> that can trigger server-side event scripts.
 
 * [DeleteBatchTask](deletebatchtask.md)
 * [DeleteBatchTasks](deletebatchtasks.md)

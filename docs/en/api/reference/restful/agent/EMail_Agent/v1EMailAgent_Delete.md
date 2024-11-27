@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    189,
-    284
+    845,
+    310
   ],
-  "MoveToFolder": "rerum"
+  "MoveToFolder": "atque"
 }
 ```
 

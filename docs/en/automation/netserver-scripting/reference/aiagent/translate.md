@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AIAgent.Translate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAIAgent.Translate'>Translate</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAIAgent.Translate'>Translate</see> method on the <see cref='IAIAgent'>IAIAgent</see>  service agent.
 
 ## BeforeTranslate
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.GetConfigParametersByLayoutName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName'>GetConfigParametersByLayoutName</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.GetConfigParametersByLayoutName'>GetConfigParametersByLayoutName</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeGetConfigParametersByLayoutName
 ```cs

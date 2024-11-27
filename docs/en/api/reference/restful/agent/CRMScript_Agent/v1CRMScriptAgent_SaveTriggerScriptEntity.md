@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 850,
-  "Name": "Metz-Gibson",
+  "ScreenChooserId": 541,
+  "Name": "Kunze LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "esse",
-  "Source": "aliquid",
-  "Registered": "2017-12-19T13:14:05.710145+01:00",
-  "RegisteredAssociateId": 642,
-  "Updated": "2003-08-18T13:14:05.710145+02:00",
-  "UpdatedAssociateId": 47
+  "Enabled": true,
+  "UniqueIdentifier": "dolorem",
+  "Source": "ad",
+  "Registered": "2006-02-13T14:45:05.1627086+01:00",
+  "RegisteredAssociateId": 471,
+  "Updated": "2002-11-29T14:45:05.1627086+01:00",
+  "UpdatedAssociateId": 901
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 346,
-  "Name": "Emmerich-Oberbrunner",
+  "ScreenChooserId": 182,
+  "Name": "Becker, Buckridge and Nicolas",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "at",
-  "Source": "aliquid",
-  "Registered": "2007-07-29T13:14:05.710145+02:00",
-  "RegisteredAssociateId": 518,
-  "Updated": "2020-11-23T13:14:05.710145+01:00",
-  "UpdatedAssociateId": 967,
+  "UniqueIdentifier": "odit",
+  "Source": "natus",
+  "Registered": "1997-08-01T14:45:05.1627086+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2019-01-24T14:45:05.1627086+01:00",
+  "UpdatedAssociateId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 399
     }
   }
 }

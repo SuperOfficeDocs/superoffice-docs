@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 393,
+  "SystemEventId": 401,
   "Scope": "Database",
-  "Eta": "2016-04-30T13:14:05.6163893+02:00",
-  "Eventkey": "saepe",
-  "Eventmess": "doloribus",
-  "ExtraInfo": 985,
-  "Owner": 301,
-  "UpdatedCount": 461,
-  "Registered": "2011-02-03T13:14:05.6163893+01:00",
+  "Eta": "2007-03-16T14:45:05.0221142+01:00",
+  "Eventkey": "sunt",
+  "Eventmess": "et",
+  "ExtraInfo": 137,
+  "Owner": 414,
+  "UpdatedCount": 556,
+  "Registered": "2022-03-22T14:45:05.0221142+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 408,
+  "SystemEventId": 520,
   "Scope": "Database",
-  "Eta": "2004-10-16T13:14:05.6320153+02:00",
-  "Eventkey": "at",
-  "Eventmess": "provident",
-  "ExtraInfo": 336,
-  "Owner": 686,
-  "UpdatedCount": 137,
-  "Registered": "1998-08-22T13:14:05.6320153+02:00",
+  "Eta": "2001-11-12T14:45:05.0221142+01:00",
+  "Eventkey": "recusandae",
+  "Eventmess": "facere",
+  "ExtraInfo": 670,
+  "Owner": 141,
+  "UpdatedCount": 20,
+  "Registered": "2019-03-24T14:45:05.0221142+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 925
     }
   }
 }

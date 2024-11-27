@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.GetRestrictionGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.GetRestrictionGroup'>GetRestrictionGroup</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.GetRestrictionGroup'>GetRestrictionGroup</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeGetRestrictionGroup
 ```cs

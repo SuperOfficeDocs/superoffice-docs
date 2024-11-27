@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.SaveSmsConfig
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig'>SaveSmsConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.SaveSmsConfig'>SaveSmsConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeSaveSmsConfig
 ```cs

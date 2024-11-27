@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.GetTargetGroupIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetGroupIds'>GetTargetGroupIds</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.GetTargetGroupIds'>GetTargetGroupIds</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeGetTargetGroupIds
 ```cs

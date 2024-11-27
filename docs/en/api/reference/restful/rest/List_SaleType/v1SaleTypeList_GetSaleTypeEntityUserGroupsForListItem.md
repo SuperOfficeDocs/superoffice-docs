@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Eos sed vel expedita distinctio.",
+    "Id": 33,
+    "Name": "Ullrich LLC",
+    "ToolTip": "Repudiandae repudiandae ipsum assumenda repudiandae qui placeat suscipit.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "placeat",
-    "ColorBlock": 944,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2024-10-25T13:14:11.5392071+02:00",
+    "Rank": 883,
+    "Type": "eos",
+    "ColorBlock": 797,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2003-05-11T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Wehner, Dickinson and Schulist",
-        "ToolTip": "Dolor corrupti ad ipsa rerum tenetur tempore.",
+        "Id": 233,
+        "Name": "Becker, Osinski and Abernathy",
+        "ToolTip": "Ipsum numquam qui ex et fugit asperiores.",
         "Deleted": true,
-        "Rank": 405,
-        "Type": "et",
-        "ColorBlock": 639,
-        "IconHint": "reprehenderit",
-        "Selected": true,
-        "LastChanged": "2004-11-15T13:14:11.5392071+01:00",
+        "Rank": 759,
+        "Type": "sunt",
+        "ColorBlock": 189,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2008-01-30T14:45:13.9273199+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Jamel Wehner V",
+        "ExtraInfo": "vitae",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Dr. Domingo Kuvalis III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Therese Lexie Koepp I",
+    "ExtraInfo": "neque",
+    "StyleHint": "dolorum",
+    "Hidden": true,
+    "FullName": "Arnaldo Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldLength": 414
       }
     }
   }

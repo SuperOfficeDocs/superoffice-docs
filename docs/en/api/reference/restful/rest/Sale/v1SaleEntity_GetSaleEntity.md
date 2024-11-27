@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 14 Jan 2012 13:14:11 G1T
+Last-Modified: Mon, 30 Dec 2019 14:45:13 G12T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Sat, 14 Jan 2012 13:14:11 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eum",
+  "SaleText": "repellat",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Sat, 14 Jan 2012 13:14:11 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-04-22T13:14:11.0704236+02:00",
-  "Amount": 23219.806,
-  "SaleId": 798,
-  "Earning": 24667.714,
-  "EarningPercent": 351.008,
-  "Heading": "corrupti",
-  "Number": "1353986",
-  "Probability": 880,
-  "CreatedDate": "2000-02-13T13:14:11.0704236+01:00",
-  "UpdatedDate": "2012-01-14T13:14:11.0704236+01:00",
+  "Saledate": "2002-08-30T14:45:13.1774886+02:00",
+  "Amount": 9718.534,
+  "SaleId": 843,
+  "Earning": 23548.876,
+  "EarningPercent": 19427.666,
+  "Heading": "accusamus",
+  "Number": "785350",
+  "Probability": 14,
+  "CreatedDate": "2021-09-18T14:45:13.1774886+02:00",
+  "UpdatedDate": "2019-12-30T14:45:13.1774886+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 364,
+  "ActiveLinks": 746,
   "Links": [
     {
-      "EntityName": "Dach, Goldner and Morissette",
-      "Id": 797,
-      "Description": "Down-sized 5th generation model",
-      "ExtraInfo": "vitae",
-      "LinkId": 405,
+      "EntityName": "Prohaska, Ortiz and Howell",
+      "Id": 352,
+      "Description": "Persevering uniform artificial intelligence",
+      "ExtraInfo": "quibusdam",
+      "LinkId": 269,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 973
+          "FieldLength": 374
         }
       }
     }
   ],
-  "NextDueDate": "2004-05-27T13:14:11.0704236+02:00",
-  "Postit": "magni",
+  "NextDueDate": "1997-12-16T14:45:13.1774886+01:00",
+  "Postit": "dolorem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-12-26T13:14:11.0704236+01:00",
+  "ReopenDate": "2020-02-23T14:45:13.1774886+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stark-Cormier",
-      "Comment": "vitae",
-      "StakeholderRoleId": 311,
-      "CountryId": 608,
-      "PersonId": 292,
-      "EmailDescription": "declan@kertzmann.info",
-      "EmailId": 30,
-      "EmailAddress": "julius@kuphal.biz",
-      "PhoneId": 917,
-      "ContactName": "Von LLC",
-      "ContactId": 611,
-      "SaleId": 350,
-      "Mrmrs": "doloremque",
-      "Firstname": "Rosalia",
-      "MiddleName": "Hand, Hegmann and Murazik",
-      "Lastname": "Kling",
-      "SaleStakeholderId": 821,
-      "Rank": 954,
-      "Phone": "765-930-4444",
+      "StakeholderRoleName": "Strosin, Gulgowski and Hodkiewicz",
+      "Comment": "omnis",
+      "StakeholderRoleId": 150,
+      "CountryId": 833,
+      "PersonId": 936,
+      "EmailDescription": "pietro_dach@bergnaum.co.uk",
+      "EmailId": 519,
+      "EmailAddress": "horace_ohara@dare.us",
+      "PhoneId": 82,
+      "ContactName": "Schmitt, Huels and Dach",
+      "ContactId": 518,
+      "SaleId": 618,
+      "Mrmrs": "consequatur",
+      "Firstname": "Beau",
+      "MiddleName": "Trantow-Kirlin",
+      "Lastname": "Gutkowski",
+      "SaleStakeholderId": 833,
+      "Rank": 455,
+      "Phone": "365-416-9035 x921",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 258
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
   ],
-  "ActiveErpLinks": 579,
+  "ActiveErpLinks": 971,
   "UserDefinedFields": {
-    "SuperOffice:1": "Brayan Gusikowski",
-    "SuperOffice:2": "Donnell Stracke"
+    "SuperOffice:1": "Shanny Kessler",
+    "SuperOffice:2": "1425916883"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "itaque"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2017-06-06T13:14:11.0704236+02:00",
-  "PublishTo": "2010-10-04T13:14:11.0704236+02:00",
-  "PublishFrom": "2016-03-01T13:14:11.0704236+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-10-11T14:45:13.1774886+02:00",
+  "PublishTo": "2016-02-17T14:45:13.1774886+01:00",
+  "PublishFrom": "2017-01-01T14:45:13.1774886+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Sat, 14 Jan 2012 13:14:11 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   },
   "_Links": {

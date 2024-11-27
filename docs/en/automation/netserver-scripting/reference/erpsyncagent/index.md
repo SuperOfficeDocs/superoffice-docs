@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ErpSyncAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IErpSyncAgent'>ErpSyncAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IErpSyncAgent'>ErpSyncAgent</see> that can trigger server-side event scripts.
 
 * [BreakActorLink](breakactorlink.md)
 * [CanDeleteErpSyncConnectorEntity](candeleteerpsyncconnectorentity.md)

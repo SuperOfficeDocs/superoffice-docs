@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 502,
-  "Select": "perspiciatis"
+  "SelectionId": 599,
+  "Select": "porro"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Koepp, Bahringer and Grady",
-    "PrimaryKey": 378,
+    "EntityName": "Waters LLC",
+    "PrimaryKey": 438,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "temporibus",
-        "TooltipHint": "et",
-        "LinkHint": "impedit"
+        "DisplayValue": "repudiandae",
+        "TooltipHint": "aut",
+        "LinkHint": "quas"
       }
     },
-    "LinkHint": "neque",
-    "StyleHint": "itaque",
+    "LinkHint": "sed",
+    "StyleHint": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1001
+        "FieldLength": 148
       }
     }
   }

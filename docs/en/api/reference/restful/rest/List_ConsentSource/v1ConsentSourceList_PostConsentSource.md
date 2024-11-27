@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 566,
-  "Name": "Dooley-Ziemann",
-  "Tooltip": "qui",
-  "Rank": 345,
-  "Key": "dicta",
-  "MailTemplateId": 650,
+  "ConsentSourceId": 499,
+  "Name": "Windler Inc and Sons",
+  "Tooltip": "velit",
+  "Rank": 228,
+  "Key": "error",
+  "MailTemplateId": 948,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 833,
-  "Name": "Lubowitz, Marks and Weber",
-  "Tooltip": "sunt",
-  "Rank": 33,
-  "Key": "autem",
-  "MailTemplateId": 745,
-  "Deleted": true,
+  "ConsentSourceId": 417,
+  "Name": "Reichel LLC",
+  "Tooltip": "nulla",
+  "Rank": 596,
+  "Key": "doloremque",
+  "MailTemplateId": 971,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 461
     }
   }
 }

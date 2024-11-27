@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Huels-Bosco",
-    "ToolTip": "Voluptas labore enim ratione molestias.",
+    "Id": 324,
+    "Name": "Okuneva Group",
+    "ToolTip": "Minima enim sit cumque.",
     "Deleted": true,
-    "Rank": 731,
-    "Type": "aut",
-    "ColorBlock": 320,
-    "IconHint": "animi",
-    "Selected": true,
-    "LastChanged": "2024-10-27T13:14:11.4767026+01:00",
+    "Rank": 988,
+    "Type": "ex",
+    "ColorBlock": 735,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2003-01-23T14:45:13.833594+01:00",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Konopelski-Ullrich",
-        "ToolTip": "Ea dolore tenetur blanditiis explicabo nulla ad.",
+        "Id": 301,
+        "Name": "Huels-Jenkins",
+        "ToolTip": "Qui eius soluta ipsam eligendi quia incidunt.",
         "Deleted": false,
-        "Rank": 947,
-        "Type": "vero",
-        "ColorBlock": 423,
-        "IconHint": "in",
+        "Rank": 536,
+        "Type": "dolore",
+        "ColorBlock": 219,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2000-05-02T13:14:11.4767026+02:00",
+        "LastChanged": "2003-02-20T14:45:13.833594+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "fugit",
+        "ExtraInfo": "et",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Jo Lubowitz",
+        "FullName": "Mrs. Harold Deangelo Kuhic PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 604
+            "FieldLength": 316
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Richard Rogahn",
+    "FullName": "Eudora Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

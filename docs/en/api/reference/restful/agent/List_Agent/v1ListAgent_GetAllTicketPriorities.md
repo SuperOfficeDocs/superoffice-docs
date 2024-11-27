@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 816,
-    "Name": "Corwin, Hoeger and Carter",
+    "TicketPriorityId": 124,
+    "Name": "Dibbert-Turner",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 48,
+    "SortOrder": 794,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 476,
-    "MonStart": "2018-12-15T13:14:06.0539158+01:00",
-    "MonStop": "2019-09-24T13:14:06.0539158+02:00",
-    "TueStart": "1998-05-18T13:14:06.0539158+02:00",
-    "TueStop": "2013-09-05T13:14:06.0539158+02:00",
-    "WedStart": "2022-07-04T13:14:06.0539158+02:00",
-    "WedStop": "2006-07-23T13:14:06.0539158+02:00",
-    "ThuStart": "2016-03-23T13:14:06.0539158+01:00",
-    "ThuStop": "2018-06-02T13:14:06.0539158+02:00",
-    "FriStart": "2009-06-21T13:14:06.0539158+02:00",
-    "FriStop": "2000-11-25T13:14:06.0539158+01:00",
-    "SatStart": "1999-07-06T13:14:06.0539158+02:00",
-    "SatStop": "2002-10-12T13:14:06.0539158+02:00",
-    "SunStart": "2009-09-12T13:14:06.0539158+02:00",
-    "SunStop": "1998-11-04T13:14:06.0539158+01:00",
+    "Deadline": 800,
+    "MonStart": "2009-08-28T14:45:05.6782183+02:00",
+    "MonStop": "2005-05-10T14:45:05.6782183+02:00",
+    "TueStart": "2006-03-02T14:45:05.6782183+01:00",
+    "TueStop": "2004-05-06T14:45:05.6782183+02:00",
+    "WedStart": "2018-09-10T14:45:05.6782183+02:00",
+    "WedStop": "2002-11-04T14:45:05.6782183+01:00",
+    "ThuStart": "2011-12-09T14:45:05.6782183+01:00",
+    "ThuStop": "2008-03-24T14:45:05.6782183+01:00",
+    "FriStart": "2017-11-25T14:45:05.6782183+01:00",
+    "FriStop": "2022-05-11T14:45:05.6782183+02:00",
+    "SatStart": "2020-08-27T14:45:05.6782183+02:00",
+    "SatStop": "2003-05-14T14:45:05.6782183+02:00",
+    "SunStart": "2005-02-20T14:45:05.6782183+01:00",
+    "SunStop": "2006-12-24T14:45:05.6782183+01:00",
     "NonDates": [
-      "qui",
-      "possimus"
+      "dignissimos",
+      "magni"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 759,
-        "AlertLevel": 684,
-        "AlertTimeout": 539,
-        "Action": 519,
-        "DelegateTo": 729,
-        "ScriptId": 870,
-        "EmailTo": "milton@hodkiewicz.info",
-        "SmsTo": "laudantium",
-        "ReplyTemplateIdCustomer": 738,
-        "ReplyTemplateIdUser": 634,
-        "ReplyTemplateIdCatmast": 786,
-        "ReplyTemplateIdEmail": 286,
-        "RtiCustomerSms": 613,
-        "ReplyTemplateIdUserSms": 340,
-        "ReplyTemplateIdCatmastSms": 118,
-        "ReplyTemplateIdSms": 448,
+        "TicketAlertId": 257,
+        "AlertLevel": 639,
+        "AlertTimeout": 408,
+        "Action": 354,
+        "DelegateTo": 571,
+        "ScriptId": 225,
+        "EmailTo": "adeline@marquardt.com",
+        "SmsTo": "aut",
+        "ReplyTemplateIdCustomer": 632,
+        "ReplyTemplateIdUser": 228,
+        "ReplyTemplateIdCatmast": 153,
+        "ReplyTemplateIdEmail": 191,
+        "RtiCustomerSms": 22,
+        "ReplyTemplateIdUserSms": 214,
+        "ReplyTemplateIdCatmastSms": 383,
+        "ReplyTemplateIdSms": 992,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 177
+            "FieldLength": 899
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 696
       }
     }
   }

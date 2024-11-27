@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Goodwin Group",
+  "LayoutName": "Adams, Cole and Gusikowski",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 448,
-  "Name": "Hudson Group",
-  "Value": "soluta",
-  "CreatedDate": "2023-12-30T13:14:05.5226336+01:00",
-  "UpdatedDate": "1999-11-18T13:14:05.5226336+01:00",
-  "CreatedBy": "eos",
-  "UpdatedBy": "dolor",
+  "AudienceLayoutId": 708,
+  "Name": "Robel-Schneider",
+  "Value": "blanditiis",
+  "CreatedDate": "2000-08-08T14:45:04.8659001+02:00",
+  "UpdatedDate": "2015-08-23T14:45:04.8659001+02:00",
+  "CreatedBy": "ducimus",
+  "UpdatedBy": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 399
     }
   }
 }

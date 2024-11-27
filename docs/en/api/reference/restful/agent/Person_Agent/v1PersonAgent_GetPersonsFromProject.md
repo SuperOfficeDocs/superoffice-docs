@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 574
+  "ProjectId": 608
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "error",
-    "PersonId": 445,
-    "Mrmrs": "autem",
-    "Firstname": "Mckenna",
-    "Lastname": "Boyer",
-    "MiddleName": "Parisian, Bergstrom and West",
-    "Title": "nulla",
-    "Description": "Operative methodical encryption",
-    "Email": "lafayette_abernathy@kilback.info",
-    "FullName": "Henry Hegmann",
-    "DirectPhone": "1-296-796-2463",
-    "FormalName": "Lindgren, Wuckert and Williamson",
-    "CountryId": 351,
-    "ContactId": 91,
-    "ContactName": "Kuhn-Bartoletti",
-    "Retired": 563,
-    "Rank": 893,
-    "ActiveInterests": 301,
+    "Position": "aperiam",
+    "PersonId": 805,
+    "Mrmrs": "qui",
+    "Firstname": "Dusty",
+    "Lastname": "Hoppe",
+    "MiddleName": "Abbott-Herzog",
+    "Title": "delectus",
+    "Description": "Proactive zero tolerance application",
+    "Email": "shyanne.braun@funkhalvorson.us",
+    "FullName": "Jermey Cole",
+    "DirectPhone": "411-261-1759",
+    "FormalName": "Jerde-Zemlak",
+    "CountryId": 497,
+    "ContactId": 560,
+    "ContactName": "Bernhard-Hamill",
+    "Retired": 5,
+    "Rank": 44,
+    "ActiveInterests": 509,
     "ContactDepartment": "",
-    "ContactCountryId": 420,
-    "ContactOrgNr": "1584537",
-    "FaxPhone": "1-982-213-8199",
-    "MobilePhone": "(439)707-3144",
-    "ContactPhone": "1-004-683-5768 x17425",
-    "AssociateName": "Schinner LLC",
-    "AssociateId": 209,
+    "ContactCountryId": 162,
+    "ContactOrgNr": "338087",
+    "FaxPhone": "338.275.0411 x95129",
+    "MobilePhone": "651.012.5517",
+    "ContactPhone": "881-141-5511 x21190",
+    "AssociateName": "Dooley LLC",
+    "AssociateId": 870,
     "UsePersonAddress": false,
-    "ContactFax": "soluta",
-    "Kanafname": "recusandae",
-    "Kanalname": "animi",
-    "Post1": "similique",
-    "Post2": "ipsum",
-    "Post3": "totam",
-    "EmailName": "roxane@aufderharrath.uk",
-    "ContactFullName": "Ila Feil",
-    "ActiveErpLinks": 779,
-    "TicketPriorityId": 901,
-    "SupportLanguageId": 523,
-    "SupportAssociateId": 289,
+    "ContactFax": "ullam",
+    "Kanafname": "quam",
+    "Kanalname": "qui",
+    "Post1": "neque",
+    "Post2": "ut",
+    "Post3": "est",
+    "EmailName": "pattie@lindtillman.info",
+    "ContactFullName": "Rosalinda Wallace Spencer V",
+    "ActiveErpLinks": 693,
+    "TicketPriorityId": 64,
+    "SupportLanguageId": 301,
+    "SupportAssociateId": 362,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 198
       }
     }
   }

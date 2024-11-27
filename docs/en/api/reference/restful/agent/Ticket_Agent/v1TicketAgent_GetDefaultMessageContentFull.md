@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 852,
+  "TicketId": 811,
   "MessageActionType": "Forward",
-  "TicketMessageId": 547,
-  "TicketTypeId": 317
+  "TicketMessageId": 744,
+  "TicketTypeId": 629
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "assumenda",
+  "Body": "aut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 919,
-      "Name": "King, Torphy and Mitchell",
-      "ContentType": "aut",
-      "AttSize": 544,
-      "InlineImage": false,
-      "ContentId": "temporibus",
-      "AuthKey": "fugiat",
+      "AttachmentId": 111,
+      "Name": "Hettinger-Sanford",
+      "ContentType": "veniam",
+      "AttSize": 334,
+      "InlineImage": true,
+      "ContentId": "illum",
+      "AuthKey": "ratione",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 668
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     }

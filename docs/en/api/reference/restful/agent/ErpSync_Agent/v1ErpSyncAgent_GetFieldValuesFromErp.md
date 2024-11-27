@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 975,
+  "ErpConnectionId": 953,
   "ActorTypeErp": "Customer",
-  "ErpKey": "facilis"
+  "ErpKey": "inventore"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Flatley LLC",
-    "CrmFieldKey": "debitis",
-    "Value": "vel",
-    "DisplayValue": "reprehenderit",
+    "DisplayName": "McKenzie-Brown",
+    "CrmFieldKey": "pariatur",
+    "Value": "delectus",
+    "DisplayValue": "dolor",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 154
       }
     }
   }

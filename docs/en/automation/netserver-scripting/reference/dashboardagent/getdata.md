@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.GetData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.GetData'>GetData</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.GetData'>GetData</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeGetData
 ```cs

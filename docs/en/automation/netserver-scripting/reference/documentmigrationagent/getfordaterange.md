@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.GetForDateRange
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForDateRange'>GetForDateRange</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.GetForDateRange'>GetForDateRange</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeGetForDateRange
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.DeleteDash
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.DeleteDash'>DeleteDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.DeleteDash'>DeleteDash</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeDeleteDash
 ```cs

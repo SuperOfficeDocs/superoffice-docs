@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.MoveErpFieldItem
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem'>MoveErpFieldItem</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.MoveErpFieldItem'>MoveErpFieldItem</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeMoveErpFieldItem
 ```cs

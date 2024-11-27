@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 886,
+  "DocumentTemplateId": 378,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aperiam",
-  "PluginId": 704
+  "LanguageCode": "recusandae",
+  "PluginId": 961
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm, Jaskolski and Ferry",
-  "Description": "Intuitive bandwidth-monitored extranet",
-  "ExternalReference": "non",
-  "MimeType": "odio",
-  "PluginId": 206
+  "Name": "Brakus, Hamill and Brakus",
+  "Description": "Multi-channelled fault-tolerant methodology",
+  "ExternalReference": "nihil",
+  "MimeType": "voluptatem",
+  "PluginId": 471
 }
 ```

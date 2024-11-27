@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 704,
-      "ContactId": 63
+      "PersonId": 710,
+      "ContactId": 484
     },
     {
-      "PersonId": 704,
-      "ContactId": 63
+      "PersonId": 710,
+      "ContactId": 484
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive client-server knowledge user",
-  "Postit": "doloremque",
+  "Description": "Front-line systematic complexity",
+  "Postit": "nesciunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 806,
-  "IncludePerson": 774,
+  "GroupIdx": 553,
+  "IncludePerson": 670,
   "MemberCount": 99.99,
-  "Name": "Hickle-Hauck",
-  "PostitTextId": 663,
-  "CreatedDate": "2009-05-30T13:14:06.4289377+02:00",
-  "SelectionId": 353,
-  "SoundEx": "et",
-  "Source": 825,
-  "TextId": 136,
-  "UpdatedDate": "2013-04-27T13:14:06.4289377+02:00",
-  "UpdatedCount": 572,
-  "Visibility": 854,
+  "Name": "Langosh Group",
+  "PostitTextId": 762,
+  "CreatedDate": "2019-06-25T14:45:06.2249724+02:00",
+  "SelectionId": 900,
+  "SoundEx": "numquam",
+  "Source": 412,
+  "TextId": 515,
+  "UpdatedDate": "2024-05-21T14:45:06.2249724+02:00",
+  "UpdatedCount": 12,
+  "Visibility": 734,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 950,
-  "TargetTableName": "Cummings Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 819,
+  "TargetTableName": "Tillman Group",
   "Completed": true,
-  "LeftSelectionId": 826,
-  "RightSelectionId": 181,
+  "LeftSelectionId": 704,
+  "RightSelectionId": 975,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conn Inc and Sons",
-  "ShadowProviderName": "Kozey Group",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "2023-07-13T13:14:06.4289377+02:00",
-  "LastLoadedBy": 505,
+  "MainProviderName": "Zboncak-Wisozk",
+  "ShadowProviderName": "Buckridge, Littel and Waelchi",
+  "ChartKey": "beatae",
+  "LastLoaded": "2006-07-01T14:45:06.2249724+02:00",
+  "LastLoadedBy": 204,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-06-29T13:14:06.4289377+02:00",
-  "LastMembershipChangeBy": 895,
+  "LastMembershipChange": "2019-05-29T14:45:06.2249724+02:00",
+  "LastMembershipChangeBy": 916,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Ledner-Klein",
-  "DashboardTileDefinitionId": 199,
+  "MainHeading": "magnam",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Haag Inc and Sons",
+  "DashboardTileDefinitionId": 641,
   "VisibleFor": [
     {
-      "VisibleId": 383,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 15
         }
       }
     },
     {
-      "VisibleId": 383,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 15
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

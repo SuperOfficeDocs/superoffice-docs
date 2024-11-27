@@ -10,7 +10,7 @@ so.envir: onsite
 
 # PartnerAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPartnerAgent'>PartnerAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IPartnerAgent'>PartnerAgent</see> that can trigger server-side event scripts.
 
 * [CreateOrUpdateWebPanel](createorupdatewebpanel.md)
 * [DeleteMyWebPanels](deletemywebpanels.md)

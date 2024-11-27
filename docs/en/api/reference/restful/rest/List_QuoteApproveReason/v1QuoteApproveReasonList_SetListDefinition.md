@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Doyle LLC",
-  "Tooltip": "aut",
+  "Id": 152,
+  "Name": "Jacobi-Herzog",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 554,
+  "Rank": 722,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Gusikowski-Reynolds",
-  "Tooltip": "a",
-  "Deleted": true,
-  "Rank": 109,
+  "Id": 382,
+  "Name": "Rowe-Price",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 56,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

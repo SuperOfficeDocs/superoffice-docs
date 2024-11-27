@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "mollitia",
-  "ProviderName": "Jerde-Jaskolski"
+  "StorageType": "architecto",
+  "ProviderName": "Hansen, Welch and Waelchi"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quia",
-  "iste"
+  "occaecati",
+  "repellat"
 ]
 ```

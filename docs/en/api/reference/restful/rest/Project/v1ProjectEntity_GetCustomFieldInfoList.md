@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Ritchie Inc and Sons",
-    "DisplayName": "Schuster-Deckow",
-    "Description": "Progressive systemic Graphic Interface",
-    "ShortLabel": "placeat",
+    "FieldName": "Prosacco LLC",
+    "DisplayName": "Stark, Grimes and Kuphal",
+    "Description": "Visionary real-time adapter",
+    "ShortLabel": "eaque",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 377,
-    "TemplateVariableName": "Weissnat-Auer"
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 850,
+    "TemplateVariableName": "Bins-Dickens"
   }
 ]
 ```

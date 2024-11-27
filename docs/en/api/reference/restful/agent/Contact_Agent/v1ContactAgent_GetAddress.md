@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 719
+  "ContactId": 672
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 14861.428,
-  "Wgs84Longitude": 15262.58,
+  "Wgs84Latitude": 16723.024,
+  "Wgs84Longitude": 24579.962,
   "LocalizedAddress": [
     [
       {
-        "Name": "Jast-Stoltenberg",
-        "Value": "modi",
-        "Tooltip": "natus",
-        "Label": "natus",
-        "ValueLength": 744,
-        "AddressType": "tempora",
+        "Name": "Altenwerth Inc and Sons",
+        "Value": "aut",
+        "Tooltip": "libero",
+        "Label": "aperiam",
+        "ValueLength": 768,
+        "AddressType": "placeat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 151
           }
         }
       }
     ],
     [
       {
-        "Name": "Dickens-Mohr",
-        "Value": "ut",
-        "Tooltip": "quia",
-        "Label": "occaecati",
-        "ValueLength": 797,
-        "AddressType": "qui",
+        "Name": "Bosco-Tillman",
+        "Value": "ullam",
+        "Tooltip": "asperiores",
+        "Label": "cupiditate",
+        "ValueLength": 699,
+        "AddressType": "ad",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 269
+            "FieldType": "System.String",
+            "FieldLength": 499
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ut",
+  "Formatted": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 13
     }
   }
 }

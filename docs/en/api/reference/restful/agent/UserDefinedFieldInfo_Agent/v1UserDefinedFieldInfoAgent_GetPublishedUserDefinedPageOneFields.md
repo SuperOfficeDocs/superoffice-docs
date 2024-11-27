@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 157
+  "UserGroupId": 799
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 333,
-    "ColumnId": 564,
-    "FieldDefault": "et",
-    "FieldHeight": 144,
-    "FieldLabel": "dolore",
-    "FieldLeft": 354,
-    "FieldTop": 267,
+    "UDefFieldId": 685,
+    "ColumnId": 898,
+    "FieldDefault": "nihil",
+    "FieldHeight": 876,
+    "FieldLabel": "iure",
+    "FieldLeft": 57,
+    "FieldTop": 311,
     "FieldType": "Checkbox",
-    "FieldWidth": 963,
-    "FormatMask": "veritatis",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 118,
-    "LabelLeft": 729,
-    "LabelTop": 472,
-    "LabelWidth": 50,
-    "LastVersionId": 598,
-    "ListTableId": 154,
-    "IsMandatory": false,
+    "FieldWidth": 251,
+    "FormatMask": "inventore",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 675,
+    "LabelLeft": 665,
+    "LabelTop": 347,
+    "LabelWidth": 766,
+    "LastVersionId": 524,
+    "ListTableId": 123,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 28,
-    "ProgId": "rerum",
-    "IsReadOnly": true,
-    "ShortLabel": "dolores",
-    "TabOrder": 541,
-    "TextLength": 447,
-    "Tooltip": "aliquid",
-    "UdefIdentity": 511,
-    "UDListDefinitionId": 599,
+    "Page1LineNo": 751,
+    "ProgId": "illo",
+    "IsReadOnly": false,
+    "ShortLabel": "odit",
+    "TabOrder": 186,
+    "TextLength": 474,
+    "Tooltip": "recusandae",
+    "UdefIdentity": 137,
+    "UDListDefinitionId": 560,
     "Justification": "Center",
-    "Version": 931,
-    "TemplateVariableName": "Rohan-Crooks",
-    "HasBeenPublished": true,
-    "MdoListName": "Davis-Tremblay",
+    "Version": 94,
+    "TemplateVariableName": "Howell, Adams and Legros",
+    "HasBeenPublished": false,
+    "MdoListName": "Skiles Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldLength": 279
       }
     }
   }

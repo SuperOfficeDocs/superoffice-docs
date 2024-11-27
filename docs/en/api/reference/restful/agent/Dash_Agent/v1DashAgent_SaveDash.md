@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 953,
-  "UniqueId": "voluptas",
-  "Name": "Prohaska, Bergnaum and Goyette",
-  "Description": "Decentralized leading edge frame",
-  "AssociateId": 39,
-  "Columns": 647,
+  "DashboardId": 763,
+  "UniqueId": "ut",
+  "Name": "Windler LLC",
+  "Description": "Managed leading edge process improvement",
+  "AssociateId": 526,
+  "Columns": 899,
   "Theme": null,
-  "VisibleForAll": 596,
+  "VisibleForAll": 868,
   "VisibleForAssociates": [
-    848,
-    584
+    337,
+    722
   ],
   "VisibleForGroups": [
-    951,
-    941
+    558,
+    61
   ],
-  "PinForAll": 125,
+  "PinForAll": 477,
   "PinForAssociates": [
-    985,
-    11
+    670,
+    10
   ],
   "PinForGroups": [
-    226,
-    224
+    236,
+    943
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 731,
-  "UniqueId": "accusantium",
-  "Name": "Hagenes LLC",
-  "Description": "Persistent demand-driven productivity",
-  "AssociateId": 277,
-  "Columns": 781,
+  "DashboardId": 115,
+  "UniqueId": "consectetur",
+  "Name": "Wisoky-Jaskolski",
+  "Description": "Proactive responsive secured line",
+  "AssociateId": 248,
+  "Columns": 680,
   "Theme": null,
-  "VisibleForAll": 724,
+  "VisibleForAll": 934,
   "VisibleForAssociates": [
-    1000,
-    568
+    309,
+    36
   ],
   "VisibleForGroups": [
-    282,
-    100
+    705,
+    389
   ],
-  "PinForAll": 192,
+  "PinForAll": 644,
   "PinForAssociates": [
-    777,
-    889
+    809,
+    424
   ],
   "PinForGroups": [
-    178,
-    301
+    830,
+    134
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

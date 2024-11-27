@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.CheckSymmetricEncryption
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption'>CheckSymmetricEncryption</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.CheckSymmetricEncryption'>CheckSymmetricEncryption</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeCheckSymmetricEncryption
 ```cs

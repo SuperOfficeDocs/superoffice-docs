@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.UpdateQuoteVersionPrices
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.UpdateQuoteVersionPrices'>UpdateQuoteVersionPrices</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.UpdateQuoteVersionPrices'>UpdateQuoteVersionPrices</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeUpdateQuoteVersionPrices
 ```cs

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Connelly-Klocko",
-  "AdditionalInfo": "officiis",
+  "Name": "Rowe LLC",
+  "AdditionalInfo": "blanditiis",
   "SelectableMDOList": [
     {
-      "Id": 726,
-      "Name": "Weimann, Kirlin and Botsford",
-      "ToolTip": "Molestiae neque nisi repudiandae.",
+      "Id": 221,
+      "Name": "Emard-Lemke",
+      "ToolTip": "Nam sunt culpa dolorem porro deleniti repudiandae.",
       "Deleted": false,
-      "Rank": 71,
-      "Type": "nesciunt",
-      "ColorBlock": 729,
-      "IconHint": "ad",
+      "Rank": 403,
+      "Type": "iusto",
+      "ColorBlock": 616,
+      "IconHint": "sequi",
       "Selected": false,
-      "LastChanged": "2009-10-20T13:14:06.1476714+02:00",
+      "LastChanged": "2010-03-07T14:45:05.8031904+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "pariatur",
-      "Hidden": false,
-      "FullName": "Prof. Allan Jacklyn Effertz"
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "quo",
+      "Hidden": true,
+      "FullName": "Zita Jast"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Omnis unde.",
+    "Id": 98,
+    "Name": "Tremblay-Doyle",
+    "ToolTip": "Est quas et explicabo cupiditate nemo sed.",
     "Deleted": true,
-    "Rank": 762,
-    "Type": "accusamus",
-    "ColorBlock": 756,
-    "IconHint": "praesentium",
+    "Rank": 959,
+    "Type": "quia",
+    "ColorBlock": 250,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2020-05-01T13:14:06.1476714+02:00",
+    "LastChanged": "2014-06-16T14:45:05.8031904+02:00",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Schaefer Group",
-        "ToolTip": "Velit id non iure.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "impedit",
-        "ColorBlock": 144,
-        "IconHint": "totam",
+        "Id": 99,
+        "Name": "Purdy Group",
+        "ToolTip": "Aut totam sint fugit qui voluptas sapiente eum.",
+        "Deleted": false,
+        "Rank": 654,
+        "Type": "facere",
+        "ColorBlock": 586,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2013-10-15T13:14:06.1476714+02:00",
+        "LastChanged": "2001-05-11T14:45:05.8031904+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Torey Schultz",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "tempore",
+        "Hidden": false,
+        "FullName": "Cristobal Aryanna Langworth PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 558
+            "FieldType": "System.String",
+            "FieldLength": 9
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "omnis",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Miss Tom Barrows MD",
+    "FullName": "Shanon Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 987
       }
     }
   }

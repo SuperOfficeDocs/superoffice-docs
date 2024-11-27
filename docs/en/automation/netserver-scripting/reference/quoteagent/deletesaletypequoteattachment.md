@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.DeleteSaleTypeQuoteAttachment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.DeleteSaleTypeQuoteAttachment'>DeleteSaleTypeQuoteAttachment</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.DeleteSaleTypeQuoteAttachment'>DeleteSaleTypeQuoteAttachment</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeDeleteSaleTypeQuoteAttachment
 ```cs

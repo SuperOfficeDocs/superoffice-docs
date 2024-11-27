@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 853,
-  "Select": "ut"
+  "SelectionId": 510,
+  "Select": "quos"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hodkiewicz Group",
-    "PrimaryKey": 196,
+    "EntityName": "Grant, Swaniawski and Schinner",
+    "PrimaryKey": 296,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "a",
-        "TooltipHint": "sed",
+        "DisplayValue": "quis",
+        "TooltipHint": "est",
         "LinkHint": "minus"
       }
     },
-    "LinkHint": "hic",
-    "StyleHint": "aut",
+    "LinkHint": "animi",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldType": "System.String",
+        "FieldLength": 476
       }
     }
   }

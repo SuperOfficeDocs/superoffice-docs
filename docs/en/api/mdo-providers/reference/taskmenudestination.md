@@ -46,7 +46,7 @@ foreach (var item in listProvider.RootItems) {
 |2|Contact||person|
 |3|Sale||sale|
 |4|Project||project|
-|5|Appointment||appointment|
+|5|Follow-up||appointment|
 |6|Document||document|
 |7|Quote||Quote|
 |8|Request||ticket|

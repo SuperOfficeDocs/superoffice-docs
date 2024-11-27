@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 138,
-  "Created": "2022-04-07T13:14:06.3508082+02:00",
+  "SatelliteId": 35,
+  "Created": "2008-12-22T14:45:06.0999998+01:00",
   "CreatedBy": null,
-  "Updated": "2023-06-05T13:14:06.3508082+02:00",
+  "Updated": "2005-06-08T14:45:06.0999998+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "McGlynn-Klocko",
-      "Description": "Multi-channelled encompassing customer loyalty",
+      "Name": "Waelchi, Kuvalis and Lueilwitz",
+      "Description": "Multi-lateral fault-tolerant initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 365
+          "FieldLength": 38
         }
       }
     },
     {
-      "Name": "McGlynn-Klocko",
-      "Description": "Multi-channelled encompassing customer loyalty",
+      "Name": "Waelchi, Kuvalis and Lueilwitz",
+      "Description": "Multi-lateral fault-tolerant initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 365
+          "FieldLength": 38
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 747
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.GetTriggerScriptByUniqueId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId'>GetTriggerScriptByUniqueId</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.GetTriggerScriptByUniqueId'>GetTriggerScriptByUniqueId</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeGetTriggerScriptByUniqueId
 ```cs

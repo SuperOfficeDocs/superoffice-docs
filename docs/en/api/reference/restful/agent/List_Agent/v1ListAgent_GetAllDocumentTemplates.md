@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 222,
-    "Name": "Metz, Medhurst and Altenwerth",
-    "Tooltip": "magnam",
-    "SaveInDb": 969,
-    "Filename": "tempora",
-    "DefaultOref": "similique",
+    "DocumentTemplateId": 116,
+    "Name": "Lind, West and Dach",
+    "Tooltip": "corporis",
+    "SaveInDb": 312,
+    "Filename": "ab",
+    "DefaultOref": "laudantium",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 163,
-    "IntentId": 826,
+    "AutoeventId": 928,
+    "IntentId": 213,
     "IsDefaultPublished": false,
-    "Rank": 12,
-    "LoadTemplateFromPlugin": 56,
-    "MimeType": "voluptatem",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 396,
+    "Rank": 376,
+    "LoadTemplateFromPlugin": 621,
+    "MimeType": "qui",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 470,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "reggie@windler.biz",
+    "EmailSubject": "peggie.collier@gaylord.name",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "hazel@streich.info",
+    "SenderEmailAddress": "colin.labadie@huelhyatt.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 821
       }
     }
   }

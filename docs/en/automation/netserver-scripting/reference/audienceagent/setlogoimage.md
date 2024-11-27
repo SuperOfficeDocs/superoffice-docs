@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.SetLogoImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage'>SetLogoImage</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.SetLogoImage'>SetLogoImage</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeSetLogoImage
 ```cs

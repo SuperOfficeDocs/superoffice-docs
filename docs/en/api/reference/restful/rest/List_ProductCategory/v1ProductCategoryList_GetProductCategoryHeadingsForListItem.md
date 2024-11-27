@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Corkery-Johnson",
-    "ToolTip": "Totam quo cumque fugiat voluptatibus magni.",
+    "Id": 895,
+    "Name": "Kuhic Group",
+    "ToolTip": "Veritatis vero sapiente eos qui nemo tempora.",
     "Deleted": false,
-    "Rank": 182,
-    "Type": "sapiente",
-    "ColorBlock": 432,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2012-11-25T13:14:11.4610767+01:00",
+    "Rank": 54,
+    "Type": "non",
+    "ColorBlock": 468,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "1999-10-01T14:45:13.786728+02:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "O'Hara, Jones and Greenfelder",
-        "ToolTip": "Quo eaque voluptas et et velit.",
+        "Id": 335,
+        "Name": "Dare, Weissnat and Auer",
+        "ToolTip": "Voluptatum non omnis dolor ut quod voluptatem rerum.",
         "Deleted": false,
-        "Rank": 112,
-        "Type": "sit",
-        "ColorBlock": 923,
-        "IconHint": "dolorem",
+        "Rank": 441,
+        "Type": "deleniti",
+        "ColorBlock": 772,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2002-04-21T13:14:11.4610767+02:00",
+        "LastChanged": "2020-03-10T14:45:13.786728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "laborum",
+        "StyleHint": "voluptates",
         "Hidden": false,
-        "FullName": "Prof. Adah Balistreri DDS",
+        "FullName": "Diana Murphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Leonard Laney Torp Jr.",
+    "FullName": "Emmitt Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

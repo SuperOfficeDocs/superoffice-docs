@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.CreateDefaultCustomerCenterConfig
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig'>CreateDefaultCustomerCenterConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.CreateDefaultCustomerCenterConfig'>CreateDefaultCustomerCenterConfig</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeCreateDefaultCustomerCenterConfig
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.CreateDefaultCRMScriptEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity'>CreateDefaultCRMScriptEntity</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.CreateDefaultCRMScriptEntity'>CreateDefaultCRMScriptEntity</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeCreateDefaultCRMScriptEntity
 ```cs

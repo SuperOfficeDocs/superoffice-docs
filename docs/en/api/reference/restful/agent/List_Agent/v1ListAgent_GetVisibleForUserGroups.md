@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 965,
-  "ListItemId": 24
+  "UdListDefinitionId": 819,
+  "ListItemId": 602
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Robel, Kuhn and Senger",
-    "ToolTip": "Sit atque qui dolorum magni nihil laborum harum.",
+    "Id": 936,
+    "Name": "Bashirian Inc and Sons",
+    "ToolTip": "Non quia est.",
     "Deleted": false,
-    "Rank": 162,
-    "Type": "ab",
-    "ColorBlock": 569,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2010-12-08T13:14:06.0851676+01:00",
+    "Rank": 550,
+    "Type": "eaque",
+    "ColorBlock": 178,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "2024-10-28T14:45:05.7094637+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "O'Keefe, Prohaska and Hoeger",
-        "ToolTip": "Accusantium consequuntur doloremque et sunt.",
-        "Deleted": true,
-        "Rank": 72,
-        "Type": "quisquam",
-        "ColorBlock": 871,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2010-05-16T13:14:06.0851676+02:00",
+        "Id": 595,
+        "Name": "Wolf Group",
+        "ToolTip": "Laudantium maxime aut aliquid quibusdam.",
+        "Deleted": false,
+        "Rank": 824,
+        "Type": "et",
+        "ColorBlock": 190,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2012-01-25T14:45:05.7094637+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Prof. Liliana Dominic Huels V",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Dr. Margot Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 741
+            "FieldType": "System.Int32",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "numquam",
-    "Hidden": true,
-    "FullName": "Freeda Deckow",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Keyon Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 278
       }
     }
   }

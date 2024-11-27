@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Multi-lateral needs-based projection
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=sed,officia
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Business-focused high-level initiative
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=in,praesentium
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quidem",
-  "VersionId": "consequatur",
-  "Success": true,
+  "ExternalReference": "nobis",
+  "VersionId": "porro",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "sed",
-  "AdditionalInfo": "quaerat"
+  "Value": "tenetur",
+  "AdditionalInfo": "aliquam"
 }
 ```

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 42
+  "SaleId": 259
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 983,
-    "Attention": "perferendis",
-    "Header": "sapiente",
-    "Name": "Ullrich-Daugherty",
-    "OurRef": "odit",
-    "YourRef": "commodi",
-    "Description": "Cross-platform neutral data-warehouse",
-    "DocumentTemplate": "aspernatur",
-    "IsPublished": true,
-    "PersonId": 58,
-    "PersonFullName": "Prof. Destini Tyra Rohan PhD",
-    "AssociateFullName": "Liliana Hansen",
-    "ContactId": 35,
-    "ContactName": "Yundt-Rath",
-    "ProjectId": 367,
-    "ProjectName": "Barrows, Bins and Bailey",
-    "AssociateId": 93,
-    "Snum": 796,
-    "SaleId": 406,
-    "SaleName": "Hammes-Wisozk",
+    "DocumentId": 941,
+    "Attention": "hic",
+    "Header": "fugit",
+    "Name": "Mayer, Conn and Davis",
+    "OurRef": "asperiores",
+    "YourRef": "quisquam",
+    "Description": "Multi-lateral explicit help-desk",
+    "DocumentTemplate": "eum",
+    "IsPublished": false,
+    "PersonId": 751,
+    "PersonFullName": "Akeem Wolff",
+    "AssociateFullName": "Angelina Wunsch",
+    "ContactId": 63,
+    "ContactName": "Greenholt, Braun and Conroy",
+    "ProjectId": 465,
+    "ProjectName": "Miller, Keebler and Ullrich",
+    "AssociateId": 841,
+    "Snum": 119,
+    "SaleId": 481,
+    "SaleName": "Haley, Bartell and Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 447
       }
     }
   }

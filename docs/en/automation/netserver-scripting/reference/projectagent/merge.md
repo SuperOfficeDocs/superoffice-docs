@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.Merge
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.Merge'>Merge</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.Merge'>Merge</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeMerge
 ```cs

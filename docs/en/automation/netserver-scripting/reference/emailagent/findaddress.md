@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.FindAddress
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.FindAddress'>FindAddress</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.FindAddress'>FindAddress</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeFindAddress
 ```cs

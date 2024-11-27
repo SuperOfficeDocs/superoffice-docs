@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McDermott-Adams",
-    "DisplayName": "Swaniawski-Terry",
-    "Description": "Polarised bottom-line neural-net",
-    "ShortLabel": "eum",
-    "HideLabel": false,
+    "FieldName": "Nikolaus Group",
+    "DisplayName": "Cummings Group",
+    "Description": "Self-enabling bi-directional interface",
+    "ShortLabel": "voluptates",
+    "HideLabel": true,
     "HideField": true,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 763,
-    "TemplateVariableName": "Leuschke-Jakubowski"
+    "Rank": 282,
+    "TemplateVariableName": "Parisian, Reinger and Moore"
   }
 ]
 ```

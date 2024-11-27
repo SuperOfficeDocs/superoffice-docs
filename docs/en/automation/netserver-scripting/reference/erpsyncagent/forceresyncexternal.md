@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ForceResyncExternal
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal'>ForceResyncExternal</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ForceResyncExternal'>ForceResyncExternal</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeForceResyncExternal
 ```cs

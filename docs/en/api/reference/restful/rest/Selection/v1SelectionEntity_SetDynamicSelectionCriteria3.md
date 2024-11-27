@@ -95,49 +95,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Feil-Nienow",
-    "Operator": "neque",
+    "Name": "Effertz Inc and Sons",
+    "Operator": "sint",
     "Values": [
-      "quaerat",
-      "et"
+      "omnis",
+      "ipsam"
     ],
     "DisplayValues": [
-      "omnis",
-      "nostrum"
+      "qui",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Flatley, Altenwerth and Balistreri",
-        "Operator": "aut",
+        "Name": "Schowalter-Grady",
+        "Operator": "doloribus",
         "Values": [
-          "explicabo",
-          "quidem"
+          "maxime",
+          "autem"
         ],
         "DisplayValues": [
-          "est",
-          "eius"
+          "magnam",
+          "saepe"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 609,
+        "InterParenthesis": 43,
         "InterOperator": "And",
-        "UniqueHash": 465
+        "UniqueHash": 93
       }
     ],
-    "InterParenthesis": 304,
+    "InterParenthesis": 631,
     "InterOperator": "And",
-    "UniqueHash": 87
+    "UniqueHash": 363
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reichert, Zulauf and Watsica",
-    "Operator": "accusantium",
+    "Name": "Rowe, Hamill and Kuhlman",
+    "Operator": "sint",
     "Values": [
-      "et",
-      "minima"
+      "deleniti",
+      "tenetur"
     ],
     "DisplayValues": [
-      "ad",
-      "quo"
+      "reprehenderit",
+      "sequi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hilll, Ward and Stamm",
-        "Operator": "molestias",
+        "Name": "Koss-Roob",
+        "Operator": "omnis",
         "Values": [
-          "alias",
-          "et"
+          "aut",
+          "eum"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "voluptatem"
+          "facere",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 72,
+        "InterParenthesis": 788,
         "InterOperator": "And",
-        "UniqueHash": 375
+        "UniqueHash": 669
       }
     ],
-    "InterParenthesis": 680,
+    "InterParenthesis": 876,
     "InterOperator": "And",
-    "UniqueHash": 969
+    "UniqueHash": 349
   }
 ]
 ```

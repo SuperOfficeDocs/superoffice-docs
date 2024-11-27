@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 71,
-    "Name": "Davis, O'Reilly and Mohr",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 800,
-    "UdListDefinitionId": 103,
+    "HeadingId": 216,
+    "Name": "McDermott-Jewess",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "Rank": 931,
+    "UdListDefinitionId": 630,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldType": "System.Int32",
+        "FieldLength": 568
       }
     }
   }

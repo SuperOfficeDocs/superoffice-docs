@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Towne Inc and Sons",
-    "ToolTip": "Sint adipisci labore consequuntur voluptas asperiores repudiandae ipsam.",
+    "Id": 470,
+    "Name": "DuBuque Group",
+    "ToolTip": "Dolor dolorem non sapiente.",
     "Deleted": false,
-    "Rank": 936,
-    "Type": "sint",
-    "ColorBlock": 970,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "1999-11-07T13:14:11.4610767+01:00",
+    "Rank": 758,
+    "Type": "laboriosam",
+    "ColorBlock": 558,
+    "IconHint": "ipsam",
+    "Selected": true,
+    "LastChanged": "2014-03-08T14:45:13.786728+01:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Stamm, Hane and Bins",
-        "ToolTip": "Aut quibusdam tenetur non.",
-        "Deleted": true,
-        "Rank": 674,
-        "Type": "rerum",
-        "ColorBlock": 324,
-        "IconHint": "quo",
+        "Id": 876,
+        "Name": "Dicki, Donnelly and Sporer",
+        "ToolTip": "Itaque qui delectus ullam enim.",
+        "Deleted": false,
+        "Rank": 798,
+        "Type": "voluptatem",
+        "ColorBlock": 857,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2024-02-12T13:14:11.4610767+01:00",
+        "LastChanged": "2017-06-06T14:45:13.786728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "eum",
+        "ExtraInfo": "id",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Miss Darrick Sherman Jerde Jr."
+        "FullName": "Elaina Halvorson"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "itaque",
+    "ExtraInfo": "autem",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Mrs. Johan Kellen Glover DVM"
+    "FullName": "Mrs. Georgette Marco Waters"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Klocko Inc and Sons",
-    "ToolTip": "Omnis et sit voluptas molestiae sed.",
+    "Id": 120,
+    "Name": "Lesch-Boehm",
+    "ToolTip": "Eos commodi quia voluptatibus optio.",
     "Deleted": true,
-    "Rank": 804,
+    "Rank": 905,
     "Type": "iusto",
-    "ColorBlock": 76,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "1998-12-30T13:14:11.4610767+01:00",
+    "ColorBlock": 564,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2007-07-04T14:45:13.786728+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Murazik Group",
-        "ToolTip": "Itaque aut architecto laborum.",
-        "Deleted": false,
-        "Rank": 772,
-        "Type": "veritatis",
-        "ColorBlock": 90,
-        "IconHint": "expedita",
+        "Id": 542,
+        "Name": "Jakubowski Inc and Sons",
+        "ToolTip": "Illo illum dolorem ut sequi nulla et ratione.",
+        "Deleted": true,
+        "Rank": 58,
+        "Type": "inventore",
+        "ColorBlock": 752,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2023-04-24T13:14:11.4610767+02:00",
+        "LastChanged": "2002-05-25T14:45:13.786728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "porro",
-        "Hidden": false,
-        "FullName": "Emanuel Beahan",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Ms. Brice Buddy Lockman III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldLength": 940
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "et",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Braden Smitham",
+    "FullName": "Dr. Winifred Kacie Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldLength": 590
       }
     }
   }

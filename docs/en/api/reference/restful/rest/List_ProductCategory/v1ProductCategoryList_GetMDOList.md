@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=aut
+GET /api/v1/List/ProductCategory/MDOItems?query=exercitationem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Kulas, Larkin and Lubowitz",
-    "ToolTip": "Perferendis voluptatem iste.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "repellat",
+    "Id": 440,
+    "Name": "Ullrich, Bergstrom and Borer",
+    "ToolTip": "Dolor ut est officia voluptatibus fugiat nostrum.",
+    "Deleted": false,
+    "Rank": 180,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Bahringer, Oberbrunner and Prohaska",
-        "ToolTip": "Dicta nobis repudiandae ut in id.",
-        "Deleted": false,
-        "Rank": 497,
-        "Type": "debitis",
+        "Id": 532,
+        "Name": "Cassin LLC",
+        "ToolTip": "Aliquam dolore consequatur.",
+        "Deleted": true,
+        "Rank": 107,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 929,
-        "ExtraInfo": "commodi",
-        "StyleHint": "accusamus",
-        "FullName": "Filiberto Barton",
+        "IconHint": "et",
+        "ColorBlock": 341,
+        "ExtraInfo": "hic",
+        "StyleHint": "culpa",
+        "FullName": "Miss Izaiah Hagenes DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldLength": 691
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 839,
-    "ExtraInfo": "sint",
-    "StyleHint": "aut",
-    "FullName": "Dante Mante",
+    "IconHint": "non",
+    "ColorBlock": 370,
+    "ExtraInfo": "illum",
+    "StyleHint": "quis",
+    "FullName": "Shea Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 864
       }
     }
   }

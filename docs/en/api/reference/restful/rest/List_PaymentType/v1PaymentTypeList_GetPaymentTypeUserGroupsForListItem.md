@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Wisoky, Pollich and Mueller",
-    "ToolTip": "Error impedit amet quis dolor maxime nobis enim.",
-    "Deleted": true,
-    "Rank": 384,
-    "Type": "itaque",
-    "ColorBlock": 869,
-    "IconHint": "aut",
+    "Id": 622,
+    "Name": "Keebler Inc and Sons",
+    "ToolTip": "Sint vel dolorem.",
+    "Deleted": false,
+    "Rank": 995,
+    "Type": "quia",
+    "ColorBlock": 49,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2022-01-05T13:14:11.4298249+01:00",
+    "LastChanged": "2002-01-22T14:45:13.7554843+01:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Carter-Labadie",
-        "ToolTip": "Officia illum nisi.",
+        "Id": 268,
+        "Name": "Nader, Streich and Kihn",
+        "ToolTip": "Dicta sequi dolores.",
         "Deleted": false,
-        "Rank": 302,
-        "Type": "dignissimos",
-        "ColorBlock": 518,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2016-03-06T13:14:11.4298249+01:00",
+        "Rank": 56,
+        "Type": "sint",
+        "ColorBlock": 697,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "1998-05-09T14:45:13.7554843+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Reuben Trantow",
+        "ExtraInfo": "quia",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Miss Charity Bartholome Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "ad",
+    "ExtraInfo": "tempore",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Gaetano Feil",
+    "FullName": "Sunny Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   }

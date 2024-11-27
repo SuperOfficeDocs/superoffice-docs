@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 874,
-  "ERPPriceListKey": "voluptatem",
-  "QuoteConnectionId": 400,
-  "Name": "Bednar LLC",
-  "Description": "Persevering bandwidth-monitored extranet",
-  "Currency": "ducimus",
-  "CurrencyName": "Bergnaum, Veum and Bins",
-  "ValidFrom": "2017-07-03T13:14:11.4454508+02:00",
-  "ValidTo": "2005-01-10T13:14:11.4454508+01:00",
-  "IsActive": true,
+  "PriceListId": 1002,
+  "ERPPriceListKey": "cumque",
+  "QuoteConnectionId": 195,
+  "Name": "Torp-Skiles",
+  "Description": "Profit-focused fresh-thinking encoding",
+  "Currency": "provident",
+  "CurrencyName": "Jewess-Denesik",
+  "ValidFrom": "2015-03-19T14:45:13.7711051+01:00",
+  "ValidTo": "1998-12-31T14:45:13.7711051+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 419
     }
   }
 }

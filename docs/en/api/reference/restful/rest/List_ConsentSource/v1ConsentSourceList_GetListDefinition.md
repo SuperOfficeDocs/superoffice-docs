@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 439,
-  "Name": "Ortiz Group",
-  "Tooltip": "animi",
+  "Id": 797,
+  "Name": "Gutkowski Inc and Sons",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 870,
+  "Rank": 946,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ab",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 397
     }
   },
   "_Links": {

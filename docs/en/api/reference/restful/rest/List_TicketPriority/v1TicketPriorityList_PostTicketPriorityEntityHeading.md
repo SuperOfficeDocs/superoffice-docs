@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Rath LLC",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 812,
-  "UdListDefinitionId": 804
+  "HeadingId": 239,
+  "Name": "Moen-Beier",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "Rank": 295,
+  "UdListDefinitionId": 952
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 585,
-  "Name": "Hintz-Purdy",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 498,
-  "UdListDefinitionId": 656,
+  "HeadingId": 917,
+  "Name": "Romaguera Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 248,
+  "UdListDefinitionId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 455
     }
   }
 }

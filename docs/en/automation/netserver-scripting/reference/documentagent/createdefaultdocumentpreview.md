@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CreateDefaultDocumentPreview
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreview'>CreateDefaultDocumentPreview</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CreateDefaultDocumentPreview'>CreateDefaultDocumentPreview</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCreateDefaultDocumentPreview
 ```cs

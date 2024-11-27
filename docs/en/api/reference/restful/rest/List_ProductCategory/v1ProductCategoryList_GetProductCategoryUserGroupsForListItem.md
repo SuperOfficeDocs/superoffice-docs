@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Stokes, Bradtke and Flatley",
-    "ToolTip": "Quidem labore ullam corporis.",
+    "Id": 139,
+    "Name": "Cartwright-Lindgren",
+    "ToolTip": "Recusandae facere qui eius.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "ut",
-    "ColorBlock": 926,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2009-03-29T13:14:11.4610767+02:00",
+    "Rank": 248,
+    "Type": "similique",
+    "ColorBlock": 306,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2019-08-13T14:45:13.786728+02:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Nikolaus Inc and Sons",
-        "ToolTip": "Est iure perspiciatis quibusdam distinctio.",
+        "Id": 672,
+        "Name": "Keebler-Mosciski",
+        "ToolTip": "At explicabo.",
         "Deleted": false,
-        "Rank": 792,
-        "Type": "dolor",
-        "ColorBlock": 264,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2008-11-13T13:14:11.4610767+01:00",
+        "Rank": 563,
+        "Type": "ipsa",
+        "ColorBlock": 489,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2012-05-02T14:45:13.786728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "non",
+        "ExtraInfo": "ab",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Buford Zboncak",
+        "FullName": "Kamryn Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 315
+            "FieldType": "System.Int32",
+            "FieldLength": 18
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "culpa",
+    "ExtraInfo": "saepe",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Tyson Kub",
+    "FullName": "Prof. Alexzander Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 941
       }
     }
   }

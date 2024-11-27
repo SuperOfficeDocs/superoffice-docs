@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 981,
-  "Name": "Gleason-Kutch",
-  "Tooltip": "quibusdam",
+  "ExtAppId": 814,
+  "Name": "O'Hara Group",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 55,
-  "Filename": "consequuntur",
-  "Parameters": "vitae",
-  "Workdir": "id",
+  "Rank": 686,
+  "Filename": "dolorem",
+  "Parameters": "ea",
+  "Workdir": "autem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 164,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 47,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "eos"
+  "Path": "rem"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 265,
-  "Name": "Jenkins-Paucek",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "Rank": 789,
-  "Filename": "omnis",
-  "Parameters": "expedita",
-  "Workdir": "qui",
+  "ExtAppId": 863,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "in",
+  "Deleted": false,
+  "Rank": 15,
+  "Filename": "doloribus",
+  "Parameters": "molestiae",
+  "Workdir": "magni",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 783,
-  "WaitToFinish": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 348,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ex",
+  "Path": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 371
     }
   }
 }

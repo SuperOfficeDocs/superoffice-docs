@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.SaveWebhook
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook'>SaveWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.SaveWebhook'>SaveWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeSaveWebhook
 ```cs

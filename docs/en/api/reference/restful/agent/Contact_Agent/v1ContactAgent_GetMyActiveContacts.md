@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2000-06-15T13:14:05.6476412+02:00",
+  "ActivityStartTime": "2020-01-12T14:45:05.0689788+01:00",
   "ContactCategories": [
-    393,
-    343
+    990,
+    905
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 174,
+    "ContactId": 37,
     "Department": "",
-    "OrgNr": "1272391",
-    "Name": "Roob, Gorczany and Lowe",
+    "OrgNr": "789562",
+    "Name": "Simonis-Nader",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Rubie Ondricka",
+    "AssociateFullName": "Orpha Reichel",
     "Action": "ActivityCompleted",
-    "ActionTime": "2008-07-12T13:14:05.6476412+02:00",
+    "ActionTime": "2017-11-06T14:45:05.0689788+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Bins, Schowalter and Spinka",
-    "ActionId": 800,
-    "PersonId": 634,
-    "ActivityPersonId": 984,
-    "AssociateId": 582,
+    "ActivityPersonName": "Lindgren LLC",
+    "ActionId": 645,
+    "PersonId": 24,
+    "ActivityPersonId": 195,
+    "AssociateId": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 321
       }
     }
   }

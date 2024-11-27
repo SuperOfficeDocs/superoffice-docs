@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Friesen, Haag and Gleichner",
-  "Tooltip": "ducimus",
+  "Id": 928,
+  "Name": "Runolfsson Inc and Sons",
+  "Tooltip": "totam",
   "Deleted": false,
-  "Rank": 330,
+  "Rank": 49,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "optio",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 300
     }
   },
   "_Links": {

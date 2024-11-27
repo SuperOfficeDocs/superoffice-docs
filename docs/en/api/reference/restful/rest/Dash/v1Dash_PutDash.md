@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 39,
-  "UniqueId": "ut",
-  "Name": "Yundt Inc and Sons",
-  "Description": "Multi-layered tertiary contingency",
-  "AssociateId": 109,
-  "Columns": 801,
+  "DashboardId": 891,
+  "UniqueId": "cumque",
+  "Name": "Heller-Auer",
+  "Description": "Secured optimizing concept",
+  "AssociateId": 758,
+  "Columns": 670,
   "Theme": null,
-  "VisibleForAll": 592,
+  "VisibleForAll": 921,
   "VisibleForAssociates": [
-    632,
-    648
+    974,
+    376
   ],
   "VisibleForGroups": [
-    90,
-    837
+    823,
+    581
   ],
-  "PinForAll": 497,
+  "PinForAll": 749,
   "PinForAssociates": [
-    34,
-    486
+    545,
+    285
   ],
   "PinForGroups": [
-    588,
-    989
+    63,
+    441
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 838,
-  "UniqueId": "praesentium",
-  "Name": "Reinger-Brakus",
-  "Description": "Ameliorated high-level customer loyalty",
-  "AssociateId": 967,
-  "Columns": 402,
+  "DashboardId": 204,
+  "UniqueId": "dolor",
+  "Name": "Kutch-Kerluke",
+  "Description": "Mandatory object-oriented pricing structure",
+  "AssociateId": 58,
+  "Columns": 258,
   "Theme": null,
-  "VisibleForAll": 633,
+  "VisibleForAll": 171,
   "VisibleForAssociates": [
-    792,
-    185
+    208,
+    29
   ],
   "VisibleForGroups": [
-    977,
-    879
+    242,
+    924
   ],
-  "PinForAll": 946,
+  "PinForAll": 479,
   "PinForAssociates": [
-    259,
-    255
+    529,
+    80
   ],
   "PinForGroups": [
-    542,
-    202
+    444,
+    54
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 658
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

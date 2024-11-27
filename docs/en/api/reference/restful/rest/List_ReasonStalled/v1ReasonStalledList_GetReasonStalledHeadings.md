@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 127,
-    "Name": "Becker, Marvin and Cormier",
-    "Tooltip": "cupiditate",
+    "HeadingId": 506,
+    "Name": "Bogisich LLC",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 910,
-    "UdListDefinitionId": 480,
+    "Rank": 511,
+    "UdListDefinitionId": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldLength": 180
       }
     }
   }

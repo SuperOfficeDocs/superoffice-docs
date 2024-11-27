@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 865,
-  "Name": "Donnelly-Gottlieb",
-  "CreatedDate": "2008-07-29T13:14:10.8360396+02:00",
-  "UpdatedDate": "2011-08-14T13:14:10.8360396+02:00",
+  "ForeignAppId": 585,
+  "Name": "Gutkowski, D'Amore and Marvin",
+  "CreatedDate": "2007-10-18T14:45:12.8181931+02:00",
+  "UpdatedDate": "2021-02-16T14:45:12.8181931+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 200,
-      "Name": "Miller LLC",
-      "CreatedDate": "2012-11-14T13:14:10.8360396+01:00",
-      "UpdatedDate": "2020-08-26T13:14:10.8360396+02:00",
-      "AssociateFullName": "Miss Bryana Hammes",
-      "CreatedBy": "sapiente",
-      "UpdatedBy": "dicta",
-      "DeviceIdentifier": "laudantium",
-      "ForeignAppId": 30,
+      "ForeignDeviceId": 693,
+      "Name": "Terry, Barrows and Mills",
+      "CreatedDate": "2005-01-21T14:45:12.8181931+01:00",
+      "UpdatedDate": "2021-10-28T14:45:12.8181931+02:00",
+      "AssociateFullName": "Dr. Austyn Haley",
+      "CreatedBy": "aut",
+      "UpdatedBy": "sed",
+      "DeviceIdentifier": "doloribus",
+      "ForeignAppId": 632,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldType": "System.Int32",
+          "FieldLength": 30
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 477
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 333
+  "ContactId": 981
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 402,
-  "BlobSize": 352,
-  "Description": "Realigned dedicated conglomeration",
-  "ExtraInfo": "praesentium",
+  "BlobId": 816,
+  "BlobSize": 729,
+  "Description": "Business-focused grid-enabled hardware",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "debitis",
-  "OriginalSize": 492,
-  "CreatedDate": "2017-12-13T13:14:05.5538856+01:00",
-  "UpdatedDate": "2004-02-12T13:14:05.5538856+01:00",
+  "IsZipped": false,
+  "MimeType": "sed",
+  "OriginalSize": 903,
+  "CreatedDate": "2004-12-07T14:45:04.9127653+01:00",
+  "UpdatedDate": "2014-05-20T14:45:04.9127653+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor",
+  "ConceptualType": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 962
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.GetDefaultDesiredColumns
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.GetDefaultDesiredColumns'>GetDefaultDesiredColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.GetDefaultDesiredColumns'>GetDefaultDesiredColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeGetDefaultDesiredColumns
 ```cs

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "dolores"
+  "TriggerScriptUniqueId": "occaecati"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 213,
-  "Name": "Toy, Kautzer and Ziemann",
+  "ScreenChooserId": 571,
+  "Name": "Spencer-Leffler",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "laboriosam",
-  "Source": "consequatur",
-  "Registered": "2021-05-06T13:14:05.7257709+02:00",
-  "RegisteredAssociateId": 933,
-  "Updated": "1999-12-11T13:14:05.7257709+01:00",
-  "UpdatedAssociateId": 326,
+  "Enabled": true,
+  "UniqueIdentifier": "facilis",
+  "Source": "aut",
+  "Registered": "2004-07-25T14:45:05.1783023+02:00",
+  "RegisteredAssociateId": 826,
+  "Updated": "2021-12-17T14:45:05.1783023+01:00",
+  "UpdatedAssociateId": 974,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 540
+      "FieldLength": 539
     }
   }
 }

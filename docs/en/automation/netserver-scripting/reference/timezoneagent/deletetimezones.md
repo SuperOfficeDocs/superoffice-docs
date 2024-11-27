@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.DeleteTimeZones
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones'>DeleteTimeZones</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.DeleteTimeZones'>DeleteTimeZones</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeDeleteTimeZones
 ```cs

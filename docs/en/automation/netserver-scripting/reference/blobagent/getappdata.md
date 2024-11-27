@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetAppData
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetAppData'>GetAppData</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetAppData'>GetAppData</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetAppData
 ```cs

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Miller-Yundt",
-  "ModuleName": "Rippin Group"
+  "OwnerName": "Zemlak, Breitenberg and Ebert",
+  "ModuleName": "Bednar Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Padberg-Mertz",
-  "ModuleName": "Lueilwitz-Macejkovic",
-  "ModuleDescription": "Monitored object-oriented moderator",
-  "ModuleTooltip": "officiis",
-  "ModuleVersion": "voluptas",
+  "OwnerName": "Pouros-Ondricka",
+  "ModuleName": "Hickle, Halvorson and Herzog",
+  "ModuleDescription": "Polarised 24/7 parallelism",
+  "ModuleTooltip": "beatae",
+  "ModuleVersion": "animi",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 533,
-  "ExtraFlags": 796,
-  "ExtraInfo": "asperiores",
-  "SortOrder": 833,
+  "NumberOfLicenses": 478,
+  "ExtraFlags": 822,
+  "ExtraInfo": "omnis",
+  "SortOrder": 593,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Lang Inc and Sons",
-  "Signature": "repellat"
+  "PrerequisiteModuleName": "Schaefer-Reinger",
+  "Signature": "ipsum"
 }
 ```

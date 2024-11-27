@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "at",
+    "HeadingId": 324,
+    "Name": "Sporer-Gibson",
+    "Tooltip": "iste",
     "Deleted": true,
-    "Rank": 412,
-    "UdListDefinitionId": 413
+    "Rank": 541,
+    "UdListDefinitionId": 106
   },
   {
-    "HeadingId": 466,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "at",
+    "HeadingId": 324,
+    "Name": "Sporer-Gibson",
+    "Tooltip": "iste",
     "Deleted": true,
-    "Rank": 412,
-    "UdListDefinitionId": 413
+    "Rank": 541,
+    "UdListDefinitionId": 106
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 237,
-    "Name": "Langosh LLC",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "Rank": 81,
-    "UdListDefinitionId": 61,
+    "HeadingId": 80,
+    "Name": "Schultz, Cummings and Nicolas",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 618,
+    "UdListDefinitionId": 389,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 857
       }
     }
   }

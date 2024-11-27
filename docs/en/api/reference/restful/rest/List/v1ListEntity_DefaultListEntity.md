@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1002,
-  "Name": "Bartell-Leuschke",
-  "Tooltip": "quod",
+  "Id": 802,
+  "Name": "Kling, Schultz and Feil",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 101,
+  "Rank": 775,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

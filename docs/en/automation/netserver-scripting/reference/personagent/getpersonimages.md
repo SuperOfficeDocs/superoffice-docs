@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetPersonImages
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetPersonImages'>GetPersonImages</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetPersonImages'>GetPersonImages</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetPersonImages
 ```cs

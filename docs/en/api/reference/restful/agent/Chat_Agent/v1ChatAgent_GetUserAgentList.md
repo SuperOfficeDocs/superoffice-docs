@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Kihn-Marquardt",
-    "ToolTip": "Deleniti velit optio et mollitia dolorum exercitationem.",
-    "Deleted": false,
-    "Rank": 425,
-    "Type": "numquam",
+    "Id": 566,
+    "Name": "Kihn, Fadel and Grant",
+    "ToolTip": "Officia odit excepturi voluptate.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "a",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Leffler-Gottlieb",
-        "ToolTip": "Vel placeat aut eligendi et rerum ab.",
+        "Id": 288,
+        "Name": "Dibbert, Ankunding and Marks",
+        "ToolTip": "Minima cupiditate.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "ut",
+        "Rank": 96,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 432,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "porro",
-        "FullName": "Delia Lemke",
+        "IconHint": "voluptate",
+        "ColorBlock": 645,
+        "ExtraInfo": "magnam",
+        "StyleHint": "placeat",
+        "FullName": "Bartholome Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldLength": 751
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 528,
-    "ExtraInfo": "maiores",
-    "StyleHint": "consequatur",
-    "FullName": "Dallas Price",
+    "IconHint": "explicabo",
+    "ColorBlock": 813,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "nemo",
+    "FullName": "Camryn Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 406
       }
     }
   }

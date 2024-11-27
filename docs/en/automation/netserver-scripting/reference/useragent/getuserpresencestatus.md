@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetUserPresenceStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetUserPresenceStatus'>GetUserPresenceStatus</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetUserPresenceStatus'>GetUserPresenceStatus</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetUserPresenceStatus
 ```cs

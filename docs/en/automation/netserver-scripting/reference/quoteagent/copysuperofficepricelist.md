@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CopySuperOfficePriceList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CopySuperOfficePriceList'>CopySuperOfficePriceList</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CopySuperOfficePriceList'>CopySuperOfficePriceList</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCopySuperOfficePriceList
 ```cs

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 828,
-      "ContactName": "Klein-Smitham",
-      "PersonId": 78,
-      "PersonName": "Jakubowski, Wolf and Dooley",
-      "AssociateId": 543,
-      "Address": "sunt",
-      "EmailId": 963,
+      "ContactId": 610,
+      "ContactName": "Mohr-Pfeffer",
+      "PersonId": 599,
+      "PersonName": "Goyette, Luettgen and O'Conner",
+      "AssociateId": 79,
+      "Address": "omnis",
+      "EmailId": 142,
       "DuplicatePersonIds": [
-        540,
-        806
+        438,
+        972
       ],
-      "Name": "Ullrich Inc and Sons",
+      "Name": "Lind-Upton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 897,
-      "ContactName": "Gutkowski, Botsford and Hettinger",
-      "PersonId": 325,
-      "PersonName": "Ryan, Hickle and Durgan",
-      "AssociateId": 600,
-      "Address": "eos",
-      "EmailId": 658,
+      "ContactId": 358,
+      "ContactName": "Wiegand-Denesik",
+      "PersonId": 858,
+      "PersonName": "Herman-Bruen",
+      "AssociateId": 942,
+      "Address": "optio",
+      "EmailId": 317,
       "DuplicatePersonIds": [
-        516,
-        251
+        572,
+        971
       ],
-      "Name": "Waelchi-Harvey",
+      "Name": "Wolf Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 249
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 215,
-      "ContactName": "Hoeger, Anderson and Kihn",
-      "PersonId": 103,
-      "PersonName": "Zulauf-Rau",
-      "AssociateId": 112,
-      "Address": "illo",
-      "EmailId": 542,
+      "ContactId": 416,
+      "ContactName": "Stark-Wolff",
+      "PersonId": 674,
+      "PersonName": "Moore LLC",
+      "AssociateId": 422,
+      "Address": "voluptatem",
+      "EmailId": 548,
       "DuplicatePersonIds": [
-        801,
-        147
+        108,
+        44
       ],
-      "Name": "Hills-Daniel",
+      "Name": "Larson-Larkin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 476
         }
       }
     }
   ],
-  "Subject": "illum",
-  "HTMLBody": "maxime",
+  "Subject": "qui",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "1997-10-29T13:14:05.991412+01:00",
-  "Size": 409,
+  "Sent": "2002-03-16T14:45:05.568868+01:00",
+  "Size": 837,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quas",
-  "PlainBody": "voluptas",
+  "MessageID": "earum",
+  "PlainBody": "est",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 501,
+  "ServerId": 467,
   "Attachments": [
     {
-      "Description": "Public-key 6th generation moderator",
-      "Filename": "sit",
-      "Size": 406,
-      "Type": "eos",
-      "Encoding": "quod",
-      "Id": "non",
-      "Disposition": "et",
+      "Description": "Object-based bifurcated archive",
+      "Filename": "impedit",
+      "Size": 245,
+      "Type": "qui",
+      "Encoding": "nostrum",
+      "Id": "ab",
+      "Disposition": "adipisci",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cummings-Koss",
+      "Name": "Ferry-Schroeder",
       "Values": [
-        "labore",
-        "dolores"
+        "accusamus",
+        "asperiores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     },
     {
-      "Name": "Cummings-Koss",
+      "Name": "Ferry-Schroeder",
       "Values": [
-        "labore",
-        "dolores"
+        "accusamus",
+        "asperiores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
   ],
-  "FolderName": "Ruecker, Feil and Lockman",
-  "EmailItemId": 301,
-  "AccountId": 809,
-  "ReceivedAt": "2017-04-18T13:14:05.991412+02:00",
+  "FolderName": "Grant Inc and Sons",
+  "EmailItemId": 56,
+  "AccountId": 190,
+  "ReceivedAt": "2004-01-26T14:45:05.568868+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-10-05T13:14:05.991412+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2013-01-07T14:45:05.568868+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 80
     }
   }
 }

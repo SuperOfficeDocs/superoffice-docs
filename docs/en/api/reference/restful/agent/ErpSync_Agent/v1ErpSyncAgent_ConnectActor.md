@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 811,
-  "CrmRecordId": 884,
+  "ErpConnectionId": 181,
+  "CrmRecordId": 298,
   "CrmActorType": "Contact",
-  "ErpKey": "quis",
+  "ErpKey": "et",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Bayer, Lesch and Breitenberg",
+      "DisplayName": "Nicolas LLC",
       "CrmFieldKey": "ut",
-      "Value": "earum",
-      "DisplayValue": "aut",
+      "Value": "et",
+      "DisplayValue": "nulla",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Bayer, Lesch and Breitenberg",
+      "DisplayName": "Nicolas LLC",
       "CrmFieldKey": "ut",
-      "Value": "earum",
-      "DisplayValue": "aut",
+      "Value": "et",
+      "DisplayValue": "nulla",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }

@@ -10,7 +10,7 @@ so.envir: onsite
 
 # TargetsAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITargetsAgent'>TargetsAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ITargetsAgent'>TargetsAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultTargetAssignment](createdefaulttargetassignment.md)
 * [CreateDefaultTargetAssignmentForCompany](createdefaulttargetassignmentforcompany.md)

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Fay Group"
+  "TaskName": "Conroy Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Fritsch-Lebsack",
-    "AssociateId": 143,
-    "DetailsTable": 602,
-    "DetailsRecord": 882,
-    "IsSystemTask": false,
+    "Id": 394,
+    "Name": "Goyette Group",
+    "AssociateId": 783,
+    "DetailsTable": 222,
+    "DetailsRecord": 759,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "officia"
+      "ParameterObject1": "dolore",
+      "ParameterObject2": "repellendus"
     },
-    "LastStarted": "2020-10-19T13:14:05.5382596+02:00",
-    "Created": "2009-06-16T13:14:05.5382596+02:00",
-    "StartCount": 134,
-    "DatabaseSerialNumber": "900065",
-    "Context": "architecto",
-    "Result": "cupiditate",
+    "LastStarted": "2002-11-11T14:45:04.8815214+01:00",
+    "Created": "2008-03-22T14:45:04.8815214+01:00",
+    "StartCount": 866,
+    "DatabaseSerialNumber": "944970",
+    "Context": "laudantium",
+    "Result": "velit",
     "State": "All",
-    "Description": "Focused discrete system engine",
-    "Response": "rerum",
-    "Request": "aut",
-    "ProgressDescription": "Ameliorated solution-oriented algorithm",
-    "ProgressPercent": 417,
-    "FileName": "Sipes, Wiza and Bosco",
+    "Description": "Seamless 5th generation focus group",
+    "Response": "dolor",
+    "Request": "enim",
+    "ProgressDescription": "Robust asynchronous collaboration",
+    "ProgressPercent": 1002,
+    "FileName": "Thiel-Wolff",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 201
       }
     }
   }

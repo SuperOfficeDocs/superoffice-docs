@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 228,
+  "ErpConnectionId": 339,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 937,
-      "CrmFieldKey": "iusto",
-      "CrmDisplayName": "Cormier Inc and Sons",
-      "CrmDisplayTooltip": "quas",
-      "ErpFieldKey": "enim",
+      "ErpFieldId": 332,
+      "CrmFieldKey": "numquam",
+      "CrmDisplayName": "Greenfelder, O'Hara and Casper",
+      "CrmDisplayTooltip": "recusandae",
+      "ErpFieldKey": "assumenda",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Welch-Bauch",
-      "ErpDisplayTooltip": "tempore",
+      "ErpDisplayName": "Schoen LLC",
+      "ErpDisplayTooltip": "nobis",
       "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": true,
+      "SyncToErp": false,
+      "ShowInGui": false,
       "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "libero",
+      "ListReference": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldLength": 197
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 781
     }
   }
 }

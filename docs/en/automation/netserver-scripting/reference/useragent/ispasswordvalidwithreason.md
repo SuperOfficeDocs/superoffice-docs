@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.IsPasswordValidWithReason
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.IsPasswordValidWithReason'>IsPasswordValidWithReason</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.IsPasswordValidWithReason'>IsPasswordValidWithReason</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeIsPasswordValidWithReason
 ```cs

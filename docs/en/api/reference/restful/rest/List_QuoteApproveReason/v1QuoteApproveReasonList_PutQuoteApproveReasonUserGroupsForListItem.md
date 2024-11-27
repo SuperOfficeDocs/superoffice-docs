@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Lubowitz, Metz and Luettgen",
-    "ToolTip": "Animi expedita ut.",
+    "Id": 978,
+    "Name": "Spencer-Schuster",
+    "ToolTip": "Nihil omnis sed sit aspernatur minus quasi odio.",
     "Deleted": true,
-    "Rank": 127,
-    "Type": "harum",
-    "ColorBlock": 838,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2022-05-19T13:14:11.4923293+02:00",
+    "Rank": 173,
+    "Type": "soluta",
+    "ColorBlock": 14,
+    "IconHint": "error",
+    "Selected": false,
+    "LastChanged": "2004-03-26T14:45:13.8492128+01:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Dickinson Inc and Sons",
-        "ToolTip": "Rem itaque neque quia non voluptates accusamus.",
+        "Id": 15,
+        "Name": "Bartoletti-Orn",
+        "ToolTip": "Laudantium veniam possimus in autem.",
         "Deleted": true,
-        "Rank": 168,
-        "Type": "voluptatem",
-        "ColorBlock": 417,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2013-05-06T13:14:11.4923293+02:00",
+        "Rank": 281,
+        "Type": "officiis",
+        "ColorBlock": 458,
+        "IconHint": "cum",
+        "Selected": true,
+        "LastChanged": "1997-10-02T14:45:13.8492128+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "modi",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Miss Sam Lamont Beier"
+        "FullName": "Romaine Armstrong"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "architecto",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Prof. Harmony Elinore Carter II"
+    "FullName": "Micah Violet Volkman I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Kunze, Kautzer and Hirthe",
-    "ToolTip": "Neque placeat inventore excepturi accusantium optio ut eligendi.",
+    "Id": 741,
+    "Name": "Bins-Bauch",
+    "ToolTip": "Error fuga nemo consequatur dolorem.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "sint",
-    "ColorBlock": 62,
-    "IconHint": "nesciunt",
+    "Rank": 773,
+    "Type": "a",
+    "ColorBlock": 523,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2004-01-10T13:14:11.4923293+01:00",
+    "LastChanged": "2015-09-28T14:45:13.8492128+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "O'Keefe, Conn and Rohan",
-        "ToolTip": "Aperiam aspernatur et sapiente velit.",
+        "Id": 250,
+        "Name": "Kovacek-Leannon",
+        "ToolTip": "Quaerat inventore.",
         "Deleted": false,
-        "Rank": 725,
-        "Type": "adipisci",
-        "ColorBlock": 243,
+        "Rank": 667,
+        "Type": "consequuntur",
+        "ColorBlock": 771,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2011-11-29T13:14:11.4923293+01:00",
+        "LastChanged": "2014-05-22T14:45:13.8492128+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Solon Koelpin",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Pasquale Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 702
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Erica Hoeger",
+    "ExtraInfo": "qui",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Dr. Brian Piper Wolf I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldType": "System.String",
+        "FieldLength": 403
       }
     }
   }

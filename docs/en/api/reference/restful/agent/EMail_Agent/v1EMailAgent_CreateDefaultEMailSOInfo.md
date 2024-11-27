@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 892,
-  "AppointmentId": 512,
-  "ProjectId": 937,
-  "SaleId": 424,
-  "Archived": true,
-  "ArchivedAt": "2016-01-04T13:14:05.96016+01:00",
-  "ArchivedBy": 539,
-  "ArchivedDisplayName": "Balistreri, Wiegand and Rodriguez",
+  "DocumentId": 905,
+  "AppointmentId": 226,
+  "ProjectId": 566,
+  "SaleId": 887,
+  "Archived": false,
+  "ArchivedAt": "2019-01-20T14:45:05.5220031+01:00",
+  "ArchivedBy": 797,
+  "ArchivedDisplayName": "Marquardt-Stiedemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

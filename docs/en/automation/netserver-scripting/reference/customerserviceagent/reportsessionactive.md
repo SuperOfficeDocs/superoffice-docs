@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.ReportSessionActive
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive'>ReportSessionActive</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.ReportSessionActive'>ReportSessionActive</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeReportSessionActive
 ```cs

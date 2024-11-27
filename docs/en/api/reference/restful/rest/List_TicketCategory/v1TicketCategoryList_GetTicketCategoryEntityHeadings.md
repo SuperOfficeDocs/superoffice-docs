@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 678,
-    "Name": "Bernier-Connelly",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "Rank": 659,
-    "UdListDefinitionId": 954,
+    "HeadingId": 174,
+    "Name": "Runte-Sawayn",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 855,
+    "UdListDefinitionId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 440
       }
     }
   }

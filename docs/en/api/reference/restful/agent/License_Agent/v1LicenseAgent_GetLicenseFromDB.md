@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jacobson, Franecki and Tromp"
+  "OwnerName": "Larkin, Weber and Brakus"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 66,
-      "NumberOfLicensesFree": 128,
-      "NumberOfLicensesAdded": 259,
-      "NumberOfLicensesNewTotal": 293,
-      "NumberOfLicensesNewFree": 811,
-      "NumberOfLicensesTotal": 732
+      "NumberOfLicensesInUse": 47,
+      "NumberOfLicensesFree": 436,
+      "NumberOfLicensesAdded": 190,
+      "NumberOfLicensesNewTotal": 169,
+      "NumberOfLicensesNewFree": 579,
+      "NumberOfLicensesTotal": 298
     }
   ],
-  "AccumulatedNextCheckDate": "2015-03-29T13:14:06.0539158+02:00"
+  "AccumulatedNextCheckDate": "2001-04-12T14:45:05.6625978+02:00"
 }
 ```

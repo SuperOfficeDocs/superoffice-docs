@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Hudson-Pollich",
-    "ToolTip": "Ipsum fuga quasi vel et assumenda suscipit aliquam.",
-    "Deleted": false,
-    "Rank": 54,
-    "Type": "architecto",
-    "ColorBlock": 68,
-    "IconHint": "autem",
+    "Id": 12,
+    "Name": "Cormier-Sanford",
+    "ToolTip": "Repudiandae ex beatae hic earum quod.",
+    "Deleted": true,
+    "Rank": 239,
+    "Type": "qui",
+    "ColorBlock": 312,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2013-08-18T13:14:11.5392071+02:00",
+    "LastChanged": "2008-05-24T14:45:13.9116989+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Bergstrom-Nitzsche",
-        "ToolTip": "Laboriosam provident vitae minima natus.",
-        "Deleted": false,
-        "Rank": 301,
-        "Type": "vitae",
-        "ColorBlock": 946,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2004-10-15T13:14:11.5392071+02:00",
+        "Id": 425,
+        "Name": "Lebsack, Auer and Wisozk",
+        "ToolTip": "Reprehenderit molestias ipsa.",
+        "Deleted": true,
+        "Rank": 394,
+        "Type": "quos",
+        "ColorBlock": 792,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2017-06-27T14:45:13.9116989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "quas",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Fred Bartoletti",
+        "FullName": "Stephon Reichert III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "laborum",
+    "ExtraInfo": "qui",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Dr. Sylvan Cara Tromp Sr.",
+    "FullName": "Walton Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 619
       }
     }
   }

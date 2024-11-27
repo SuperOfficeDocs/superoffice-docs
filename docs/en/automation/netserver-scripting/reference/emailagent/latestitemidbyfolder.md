@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.LatestItemIdByFolder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.LatestItemIdByFolder'>LatestItemIdByFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.LatestItemIdByFolder'>LatestItemIdByFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeLatestItemIdByFolder
 ```cs

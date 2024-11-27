@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.ToggleProductInAssortment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.ToggleProductInAssortment'>ToggleProductInAssortment</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.ToggleProductInAssortment'>ToggleProductInAssortment</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeToggleProductInAssortment
 ```cs

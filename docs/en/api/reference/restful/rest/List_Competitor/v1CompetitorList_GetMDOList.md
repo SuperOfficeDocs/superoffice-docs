@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=esse
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=adipisci
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Auer-Glover",
-    "ToolTip": "Earum eum voluptatem animi quo hic.",
-    "Deleted": false,
-    "Rank": 871,
-    "Type": "sed",
+    "Id": 866,
+    "Name": "Fahey Inc and Sons",
+    "ToolTip": "Dolores veritatis velit tempore veritatis.",
+    "Deleted": true,
+    "Rank": 607,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Kessler Inc and Sons",
-        "ToolTip": "Et non a non mollitia.",
+        "Id": 853,
+        "Name": "Boyer-Leannon",
+        "ToolTip": "Ullam similique aut.",
         "Deleted": false,
-        "Rank": 160,
-        "Type": "eum",
+        "Rank": 388,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "explicabo",
-        "ColorBlock": 114,
-        "ExtraInfo": "rem",
-        "StyleHint": "et",
-        "FullName": "Dr. Vivien Justine Hickle DVM",
+        "IconHint": "in",
+        "ColorBlock": 28,
+        "ExtraInfo": "alias",
+        "StyleHint": "consequatur",
+        "FullName": "Gennaro DuBuque V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldType": "System.String",
+            "FieldLength": 654
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 351,
-    "ExtraInfo": "architecto",
-    "StyleHint": "aliquid",
-    "FullName": "Izaiah Daugherty",
+    "IconHint": "eveniet",
+    "ColorBlock": 572,
+    "ExtraInfo": "sint",
+    "StyleHint": "earum",
+    "FullName": "Ms. Malvina Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

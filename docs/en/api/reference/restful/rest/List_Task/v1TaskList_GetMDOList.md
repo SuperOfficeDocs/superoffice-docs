@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=sit
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Leffler-Hagenes",
-    "ToolTip": "Officia aperiam reiciendis culpa.",
-    "Deleted": true,
-    "Rank": 51,
-    "Type": "dolor",
+    "Id": 954,
+    "Name": "Kuhn, Towne and Yost",
+    "ToolTip": "Error qui ab.",
+    "Deleted": false,
+    "Rank": 284,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Lind-Rosenbaum",
-        "ToolTip": "Rerum nam dolor est possimus ut nobis.",
+        "Id": 831,
+        "Name": "Luettgen-Thiel",
+        "ToolTip": "Quia quibusdam eum magni itaque voluptas distinctio autem.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "officiis",
+        "Rank": 557,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 660,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
-        "FullName": "Dr. Dino Schultz III",
+        "IconHint": "qui",
+        "ColorBlock": 540,
+        "ExtraInfo": "dolores",
+        "StyleHint": "esse",
+        "FullName": "Magdalen Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 738
+            "FieldType": "System.Int32",
+            "FieldLength": 259
           }
         }
       }
     ],
-    "IconHint": "reiciendis",
-    "ColorBlock": 1002,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "suscipit",
-    "FullName": "Ms. Alexandria Spencer III",
+    "IconHint": "dolore",
+    "ColorBlock": 568,
+    "ExtraInfo": "est",
+    "StyleHint": "nobis",
+    "FullName": "Rodger Hirthe IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 51
+        "FieldLength": 539
       }
     }
   }

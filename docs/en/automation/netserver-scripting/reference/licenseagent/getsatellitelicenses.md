@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # LicenseAgent.GetSatelliteLicenses
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses'>GetSatelliteLicenses</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
+Scripting events called on the <see cref='M:ILicenseAgent.GetSatelliteLicenses'>GetSatelliteLicenses</see> method on the <see cref='ILicenseAgent'>ILicenseAgent</see>  service agent.
 
 ## BeforeGetSatelliteLicenses
 ```cs

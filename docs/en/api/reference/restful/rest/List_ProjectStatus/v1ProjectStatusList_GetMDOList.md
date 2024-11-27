@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=aut
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=quo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Bradtke Group",
-    "ToolTip": "Distinctio provident.",
-    "Deleted": false,
-    "Rank": 954,
-    "Type": "molestiae",
+    "Id": 889,
+    "Name": "Beier-Dare",
+    "ToolTip": "Cupiditate magnam quasi.",
+    "Deleted": true,
+    "Rank": 375,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Murphy, Gerlach and Roberts",
-        "ToolTip": "Sunt dicta nihil voluptatem inventore enim voluptas est.",
+        "Id": 784,
+        "Name": "Mosciski-Ankunding",
+        "ToolTip": "Culpa nam.",
         "Deleted": false,
-        "Rank": 217,
-        "Type": "maxime",
+        "Rank": 968,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 618,
-        "ExtraInfo": "corporis",
-        "StyleHint": "explicabo",
-        "FullName": "Isabel Streich",
+        "IconHint": "animi",
+        "ColorBlock": 30,
+        "ExtraInfo": "aut",
+        "StyleHint": "saepe",
+        "FullName": "Laura Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldType": "System.String",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 38,
-    "ExtraInfo": "quos",
-    "StyleHint": "voluptatibus",
-    "FullName": "Parker Effertz",
+    "IconHint": "distinctio",
+    "ColorBlock": 524,
+    "ExtraInfo": "tempore",
+    "StyleHint": "consequuntur",
+    "FullName": "Mariana Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 801
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

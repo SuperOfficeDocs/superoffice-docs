@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 185,
-  "Name": "D'Amore, Hills and Hand",
+  "ScreenChooserId": 581,
+  "Name": "Romaguera, Koss and Skiles",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "minus",
-  "Registered": "2017-08-18T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 557,
-  "Updated": "2008-07-07T13:14:11.1954363+02:00",
-  "UpdatedAssociateId": 383
+  "Enabled": true,
+  "UniqueIdentifier": "fugiat",
+  "Source": "saepe",
+  "Registered": "2023-11-19T14:45:13.3961895+01:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2014-07-30T14:45:13.3961895+02:00",
+  "UpdatedAssociateId": 609
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 801,
-  "Name": "Klocko, Barrows and Buckridge",
+  "ScreenChooserId": 504,
+  "Name": "Pagac Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "hic",
-  "Registered": "2023-10-13T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 419,
-  "Updated": "2005-01-29T13:14:11.1954363+01:00",
-  "UpdatedAssociateId": 828,
+  "Enabled": false,
+  "UniqueIdentifier": "laudantium",
+  "Source": "eveniet",
+  "Registered": "2016-03-18T14:45:13.3961895+01:00",
+  "RegisteredAssociateId": 681,
+  "Updated": "2000-03-20T14:45:13.3961895+01:00",
+  "UpdatedAssociateId": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 79
     }
   }
 }

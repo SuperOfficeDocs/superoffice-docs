@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 198,
-  "ConnectionId": 525,
-  "FirstAlternativeName": "Bernier-Homenick"
+  "SaleId": 116,
+  "ConnectionId": 127,
+  "FirstAlternativeName": "Wiegand Inc and Sons"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 60,
-  "SaleId": 627,
-  "QuoteConnectionId": 741,
-  "ERPQuoteKey": "ullam",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 68,
-  "AcceptedQuoteAlternativeId": 199,
-  "UseValuesFromQuote": 137,
-  "DocumentId": 493,
-  "PoNumber": "316827",
-  "OrderComment": "laboriosam",
-  "PreferredEmailCulture": "garrison.ernser@gorczanycorwin.us",
+  "QuoteId": 834,
+  "SaleId": 737,
+  "QuoteConnectionId": 383,
+  "ERPQuoteKey": "pariatur",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 916,
+  "AcceptedQuoteAlternativeId": 84,
+  "UseValuesFromQuote": 85,
+  "DocumentId": 13,
+  "PoNumber": "1493150",
+  "OrderComment": "distinctio",
+  "PreferredEmailCulture": "lexi@harber.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 972,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 697,
-      "Description": "Multi-tiered mobile artificial intelligence",
-      "Number": "1668620",
+      "QuoteVersionId": 845,
+      "ERPQuoteVersionKey": "voluptas",
+      "QuoteId": 37,
+      "Description": "Distributed analyzing parallelism",
+      "Number": "296941",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 558,
-      "SentDate": "2010-08-18T13:14:06.3351823+02:00",
-      "FollowupId": 331,
-      "ExpirationDate": "2018-05-27T13:14:06.3351823+02:00",
-      "DeliveryCountryId": 780,
+      "LikelyQuoteAlternativeId": 96,
+      "SentDate": "1999-01-01T14:45:06.0843796+01:00",
+      "FollowupId": 607,
+      "ExpirationDate": "2017-07-18T14:45:06.0843796+02:00",
+      "DeliveryCountryId": 319,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 631,
+      "InvoiceCountryId": 688,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "quasi",
-      "ERPPaymentTypeKey": "ut",
-      "ERPDeliveryTermsKey": "sed",
-      "ERPDeliveryTypeKey": "sint",
-      "Rank": 363,
-      "ApprovedBy": 15,
-      "ApprovedText": "consequatur",
-      "ApprovedRegisteredBy": 554,
-      "ApprovedRegisteredDate": "2015-03-30T13:14:06.3351823+02:00",
-      "ExtraField1": "nulla",
-      "ExtraField2": "expedita",
-      "ExtraField3": "cupiditate",
-      "ExtraField4": "ut",
-      "ExtraField5": "saepe",
-      "LastRecalculated": "2021-09-01T13:14:06.3351823+02:00",
-      "Updated": "2020-11-15T13:14:06.3351823+01:00",
-      "UpdatedAssociateId": 793,
-      "Registered": "2016-03-09T13:14:06.3351823+01:00",
-      "RegisteredAssociateId": 604,
-      "RequestAssociateId": 34,
-      "RequestComment": "non",
+      "ERPPaymentTermsKey": "assumenda",
+      "ERPPaymentTypeKey": "nobis",
+      "ERPDeliveryTermsKey": "et",
+      "ERPDeliveryTypeKey": "distinctio",
+      "Rank": 429,
+      "ApprovedBy": 720,
+      "ApprovedText": "omnis",
+      "ApprovedRegisteredBy": 170,
+      "ApprovedRegisteredDate": "1997-09-08T14:45:06.0843796+02:00",
+      "ExtraField1": "et",
+      "ExtraField2": "aliquid",
+      "ExtraField3": "et",
+      "ExtraField4": "est",
+      "ExtraField5": "qui",
+      "LastRecalculated": "1999-02-24T14:45:06.0843796+01:00",
+      "Updated": "2024-03-07T14:45:06.0843796+01:00",
+      "UpdatedAssociateId": 973,
+      "Registered": "2015-01-01T14:45:06.0843796+01:00",
+      "RegisteredAssociateId": 765,
+      "RequestAssociateId": 949,
+      "RequestComment": "expedita",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 841
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 158
     }
   }
 }

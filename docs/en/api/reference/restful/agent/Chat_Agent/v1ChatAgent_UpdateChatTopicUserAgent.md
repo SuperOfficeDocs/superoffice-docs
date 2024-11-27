@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 626,
-  "Username": "delectus",
+  "ChatTopicId": 962,
+  "Username": "nostrum",
   "Useragent": null
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 245,
+  "TopicId": 304,
   "User": null,
   "CanListen": false,
   "CanRespond": true,
   "CanManage": false,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

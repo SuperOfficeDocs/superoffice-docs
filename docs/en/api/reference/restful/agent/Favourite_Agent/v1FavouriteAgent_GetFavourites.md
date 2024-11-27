@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lakin, Franecki and Waelchi",
-  "AssociateId": 913
+  "TableName": "Larson Inc and Sons",
+  "AssociateId": 97
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Mohr-Cartwright",
-    "RecordId": 310,
-    "AssociateId": 518,
-    "ExtraInfo": "sunt",
-    "Rank": 502,
+    "TableName": "Kreiger-Monahan",
+    "RecordId": 93,
+    "AssociateId": 800,
+    "ExtraInfo": "dolorem",
+    "Rank": 658,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 818
       }
     }
   }

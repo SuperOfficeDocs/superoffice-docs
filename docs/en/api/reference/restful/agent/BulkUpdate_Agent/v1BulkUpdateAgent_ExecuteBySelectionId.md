@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "neque",
-      "ValueType": "ut",
-      "Mandatory": false,
-      "EncodedDisplayName": "Howell-Ruecker",
-      "EncodedDisplayDescription": "Future-proofed regional throughput",
-      "IconHint": "expedita",
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": true,
+      "Key": "id",
+      "ValueType": "molestias",
+      "Mandatory": true,
+      "EncodedDisplayName": "Macejkovic Inc and Sons",
+      "EncodedDisplayDescription": "Self-enabling tertiary groupware",
+      "IconHint": "itaque",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "molestias",
-      "EncodedDataCaptionDescription": "Horizontal zero tolerance open architecture",
-      "CurrentOperationType": "sint",
+      "EncodedDataCaption": "excepturi",
+      "EncodedDataCaptionDescription": "Phased high-level hardware",
+      "CurrentOperationType": "voluptatum",
       "Values": [
-        "earum",
-        "consequatur"
+        "enim",
+        "aut"
       ],
       "DisplayValues": [
-        "odit",
-        "ad"
+        "itaque",
+        "omnis"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Schneider Inc and Sons",
-  "Context": "explicabo",
-  "SelectionId": 59,
+  "TableName": "Turcotte Inc and Sons",
+  "Context": "quisquam",
+  "SelectionId": 70,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-430
+141
 ```

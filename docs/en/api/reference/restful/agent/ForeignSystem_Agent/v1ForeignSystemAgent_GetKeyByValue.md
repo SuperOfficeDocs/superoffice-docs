@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wisozk LLC",
-  "DeviceName": "Hansen-Wilderman",
-  "KeyName": "Berge Inc and Sons",
-  "KeyValue": "quis",
-  "TableName": "Deckow LLC"
+  "ApplicationName": "Pollich, Lindgren and Langworth",
+  "DeviceName": "Nienow Group",
+  "KeyName": "Gleason Group",
+  "KeyValue": "distinctio",
+  "TableName": "Baumbach, Dickens and Schuster"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "sunt",
-  "RecordId": 980,
-  "CreatedDate": "2018-07-03T13:14:06.0382898+02:00",
-  "UpdatedDate": "2018-06-20T13:14:06.0382898+02:00",
-  "UpdatedBy": "quibusdam",
-  "CreatedBy": "occaecati",
-  "TableName": "Kunze, Crona and Watsica",
+  "Key": "ducimus",
+  "Value": "doloremque",
+  "RecordId": 364,
+  "CreatedDate": "2002-02-21T14:45:05.6469762+01:00",
+  "UpdatedDate": "2024-06-23T14:45:05.6469762+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "quia",
+  "TableName": "Herman-Cormier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 334
     }
   }
 }

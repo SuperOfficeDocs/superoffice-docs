@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.HasNewMail
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.HasNewMail'>HasNewMail</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.HasNewMail'>HasNewMail</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeHasNewMail
 ```cs

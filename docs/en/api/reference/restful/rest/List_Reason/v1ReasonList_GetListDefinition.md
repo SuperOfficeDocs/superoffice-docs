@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Lockman, Beer and Stoltenberg",
-  "Tooltip": "nobis",
+  "Id": 681,
+  "Name": "Rempel Inc and Sons",
+  "Tooltip": "tenetur",
   "Deleted": true,
-  "Rank": 108,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 372,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldType": "System.String",
+      "FieldLength": 213
     }
   },
   "_Links": {

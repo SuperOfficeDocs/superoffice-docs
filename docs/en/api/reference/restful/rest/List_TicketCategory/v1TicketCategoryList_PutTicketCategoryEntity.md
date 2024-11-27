@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 163,
-  "ParentId": 912,
-  "Name": "Beer, Fisher and Dare",
-  "Fullname": "quasi",
-  "CategoryMaster": 551,
+  "TicketCategoryId": 707,
+  "ParentId": 492,
+  "Name": "Reynolds, Little and Ziemann",
+  "Fullname": "odio",
+  "CategoryMaster": 220,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Runolfsson LLC",
+  "ExternalName": "Swift, Corwin and Trantow",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 275,
-  "ReplyTemplate": 180,
-  "NotificationEmail": "leif_rogahn@wolf.biz",
+  "AssignmentLag": 545,
+  "ReplyTemplate": 418,
+  "NotificationEmail": "pierre@hand.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 174,
+  "EffectiveReplyTemplateId": 44,
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "sint"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 744,
-  "ParentId": 145,
-  "Name": "Eichmann LLC",
-  "Fullname": "harum",
-  "CategoryMaster": 126,
+  "TicketCategoryId": 393,
+  "ParentId": 768,
+  "Name": "Lemke-Grady",
+  "Fullname": "accusamus",
+  "CategoryMaster": 248,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Adams Group",
+  "ExternalName": "Medhurst-McKenzie",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 1000,
-  "ReplyTemplate": 509,
-  "NotificationEmail": "felicia@swaniawski.co.uk",
+  "AssignmentLag": 499,
+  "ReplyTemplate": 587,
+  "NotificationEmail": "cora.hills@hammes.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 170,
+  "EffectiveReplyTemplateId": 967,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "est",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "quam"
+    "CustomFields1": "ex",
+    "CustomFields2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 198
     }
   }
 }

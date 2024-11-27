@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 773,
-  "ColumnId": 25,
-  "FieldDefault": "quas",
-  "FieldHeight": 716,
-  "FieldLabel": "amet",
-  "FieldLeft": 593,
-  "FieldTop": 133,
+  "UDefFieldId": 532,
+  "ColumnId": 120,
+  "FieldDefault": "at",
+  "FieldHeight": 375,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 415,
+  "FieldTop": 289,
   "FieldType": "Checkbox",
-  "FieldWidth": 931,
-  "FormatMask": "qui",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 615,
-  "LabelLeft": 120,
-  "LabelTop": 703,
-  "LabelWidth": 408,
-  "LastVersionId": 427,
-  "ListTableId": 897,
+  "FieldWidth": 199,
+  "FormatMask": "harum",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 8,
+  "LabelLeft": 839,
+  "LabelTop": 902,
+  "LabelWidth": 955,
+  "LastVersionId": 179,
+  "ListTableId": 378,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 959,
-  "ProgId": "tempore",
+  "Page1LineNo": 69,
+  "ProgId": "praesentium",
   "IsReadOnly": false,
-  "ShortLabel": "ex",
-  "TabOrder": 319,
-  "TextLength": 532,
-  "Tooltip": "minima",
-  "UdefIdentity": 865,
-  "UDListDefinitionId": 24,
+  "ShortLabel": "velit",
+  "TabOrder": 62,
+  "TextLength": 769,
+  "Tooltip": "occaecati",
+  "UdefIdentity": 930,
+  "UDListDefinitionId": 98,
   "Justification": "Center",
-  "Version": 448,
-  "TemplateVariableName": "D'Amore, Maggio and Medhurst",
+  "Version": 23,
+  "TemplateVariableName": "Kshlerin LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Kemmer, Reichel and Nolan",
+  "MdoListName": "Mills Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldLength": 431
     }
   }
 }

@@ -98,16 +98,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 322,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 341,
-  "Name": "Dickinson Inc and Sons",
-  "Description": "Face to face radical budgetary management",
-  "Currency": "itaque",
-  "CurrencyName": "Osinski Inc and Sons",
-  "ValidFrom": "2022-03-28T13:14:11.4454508+02:00",
-  "ValidTo": "1998-02-19T13:14:11.4454508+01:00",
-  "IsActive": true
+  "PriceListId": 763,
+  "ERPPriceListKey": "eum",
+  "QuoteConnectionId": 173,
+  "Name": "Pfannerstill, Gibson and Lueilwitz",
+  "Description": "Re-contextualized multi-state groupware",
+  "Currency": "alias",
+  "CurrencyName": "Murazik Group",
+  "ValidFrom": "2011-05-17T14:45:13.7711051+02:00",
+  "ValidTo": "2005-05-18T14:45:13.7711051+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 815,
-  "ERPPriceListKey": "accusamus",
-  "QuoteConnectionId": 856,
-  "Name": "Schultz-Little",
-  "Description": "Configurable homogeneous architecture",
-  "Currency": "itaque",
-  "CurrencyName": "Gaylord Inc and Sons",
-  "ValidFrom": "2021-03-30T13:14:11.4454508+02:00",
-  "ValidTo": "2019-08-27T13:14:11.4454508+02:00",
+  "PriceListId": 313,
+  "ERPPriceListKey": "quisquam",
+  "QuoteConnectionId": 622,
+  "Name": "Greenfelder Inc and Sons",
+  "Description": "Extended client-driven system engine",
+  "Currency": "dolore",
+  "CurrencyName": "Roberts, Reichert and Romaguera",
+  "ValidFrom": "2007-04-03T14:45:13.7711051+02:00",
+  "ValidTo": "2020-10-12T14:45:13.7711051+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 4
     }
   },
   "_Links": {

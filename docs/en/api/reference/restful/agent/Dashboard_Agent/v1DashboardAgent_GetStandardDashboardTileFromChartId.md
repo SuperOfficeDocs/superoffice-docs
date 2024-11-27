@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "consequatur"
+  "ChartId": "iusto"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 636,
-  "Caption": "et",
-  "Description": "Ergonomic regional matrices",
-  "ChartName": "Cole-Bayer",
-  "ChartId": "laborum",
+  "DashboardTileId": 769,
+  "Caption": "odit",
+  "Description": "Optimized directional workforce",
+  "ChartName": "Stanton, Blanda and O'Reilly",
+  "ChartId": "omnis",
   "IsDefault": false,
-  "AssociateId": 644,
-  "GroupId": 415,
-  "SelectionId": 231,
-  "Config": "natus",
+  "AssociateId": 827,
+  "GroupId": 765,
+  "SelectionId": 29,
+  "Config": "quos",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Oberbrunner-Gibson",
-      "Description": "Re-contextualized optimal artificial intelligence",
+      "Name": "Romaguera-Beahan",
+      "Description": "Optional web-enabled frame",
       "Type": "Boolean",
-      "ListName": "Wisozk-Kuphal",
+      "ListName": "Parisian-Thiel",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
+      "Value": "voluptate",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 157,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     },
     {
-      "VisibleId": 157,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 783
     }
   }
 }

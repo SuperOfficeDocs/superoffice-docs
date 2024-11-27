@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 651
+  "AssociateId": 956
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco, Legros and Hansen",
-    "Description": "Seamless modular protocol",
+    "Name": "DuBuque-Metz",
+    "Description": "Digitized radical analyzer",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 268,
-        "Tooltip": "molestiae",
+        "Unrestricted": false,
+        "Total": 421,
+        "Tooltip": "ipsam",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 933,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 538,
-        "Name": "Harris-Zemlak",
-        "Description": "Digitized reciprocal initiative",
-        "PrerequisiteModuleName": "Smith-Cruickshank",
-        "SortOrder": 838,
-        "ExtraFlags": 841,
+        "Free": 407,
+        "InUse": 398,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 842,
+        "Name": "Fritsch, Crooks and Gutmann",
+        "Description": "Total contextually-based moratorium",
+        "PrerequisiteModuleName": "Leannon, Corwin and Pfannerstill",
+        "SortOrder": 659,
+        "ExtraFlags": 436,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 282
+            "FieldLength": 220
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 71,
-        "Tooltip": "culpa",
-        "CanAssign": false,
-        "Free": 877,
-        "InUse": 789,
+        "Total": 638,
+        "Tooltip": "nihil",
+        "CanAssign": true,
+        "Free": 287,
+        "InUse": 963,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 835,
-        "Name": "Schowalter-Watsica",
-        "Description": "Synergized dynamic model",
-        "PrerequisiteModuleName": "Schumm-Botsford",
-        "SortOrder": 628,
-        "ExtraFlags": 409,
+        "Assigned": true,
+        "ModuleLicenseId": 465,
+        "Name": "Steuber Group",
+        "Description": "Re-contextualized systemic middleware",
+        "PrerequisiteModuleName": "Cartwright, Balistreri and Kirlin",
+        "SortOrder": 877,
+        "ExtraFlags": 489,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldType": "System.Int32",
+            "FieldLength": 124
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 399
       }
     }
   },
   {
-    "Name": "Prosacco, Legros and Hansen",
-    "Description": "Seamless modular protocol",
+    "Name": "DuBuque-Metz",
+    "Description": "Digitized radical analyzer",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 268,
-        "Tooltip": "molestiae",
+        "Unrestricted": false,
+        "Total": 421,
+        "Tooltip": "ipsam",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 933,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 538,
-        "Name": "Harris-Zemlak",
-        "Description": "Digitized reciprocal initiative",
-        "PrerequisiteModuleName": "Smith-Cruickshank",
-        "SortOrder": 838,
-        "ExtraFlags": 841,
+        "Free": 407,
+        "InUse": 398,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 842,
+        "Name": "Fritsch, Crooks and Gutmann",
+        "Description": "Total contextually-based moratorium",
+        "PrerequisiteModuleName": "Leannon, Corwin and Pfannerstill",
+        "SortOrder": 659,
+        "ExtraFlags": 436,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 282
+            "FieldLength": 220
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 71,
-        "Tooltip": "culpa",
-        "CanAssign": false,
-        "Free": 877,
-        "InUse": 789,
+        "Total": 638,
+        "Tooltip": "nihil",
+        "CanAssign": true,
+        "Free": 287,
+        "InUse": 963,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 835,
-        "Name": "Schowalter-Watsica",
-        "Description": "Synergized dynamic model",
-        "PrerequisiteModuleName": "Schumm-Botsford",
-        "SortOrder": 628,
-        "ExtraFlags": 409,
+        "Assigned": true,
+        "ModuleLicenseId": 465,
+        "Name": "Steuber Group",
+        "Description": "Re-contextualized systemic middleware",
+        "PrerequisiteModuleName": "Cartwright, Balistreri and Kirlin",
+        "SortOrder": 877,
+        "ExtraFlags": 489,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldType": "System.Int32",
+            "FieldLength": 124
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 399
       }
     }
   }

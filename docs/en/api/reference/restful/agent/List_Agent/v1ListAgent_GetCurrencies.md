@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Value": "exercitationem",
-    "Tooltip": "quam",
+    "Id": 583,
+    "Value": "et",
+    "Tooltip": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 328
       }
     }
   },
   {
-    "Id": 835,
-    "Value": "exercitationem",
-    "Tooltip": "quam",
+    "Id": 583,
+    "Value": "et",
+    "Tooltip": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 328
       }
     }
   }

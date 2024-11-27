@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 527,
-    "Name": "Kris Inc and Sons",
-    "Tooltip": "inventore",
+    "HeadingId": 136,
+    "Name": "Wehner, Boyer and Von",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 535,
-    "UdListDefinitionId": 842,
+    "Rank": 424,
+    "UdListDefinitionId": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 563
+        "FieldType": "System.Int32",
+        "FieldLength": 317
       }
     }
   }

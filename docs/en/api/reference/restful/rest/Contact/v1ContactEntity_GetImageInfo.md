@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 13 Jul 2009 13:14:10 G7T
+Last-Modified: Fri, 01 Mar 2013 14:45:12 G3T
 
 {
-  "BlobId": 880,
-  "BlobSize": 876,
-  "Description": "Adaptive regional product",
+  "BlobId": 681,
+  "BlobSize": 848,
+  "Description": "Organized multi-state alliance",
   "ExtraInfo": "et",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "facere",
-  "OriginalSize": 862,
-  "CreatedDate": "2021-11-24T13:14:10.6954061+01:00",
-  "UpdatedDate": "2009-07-13T13:14:10.6954061+02:00",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "reiciendis",
+  "OriginalSize": 69,
+  "CreatedDate": "2009-10-26T14:45:12.6151129+01:00",
+  "UpdatedDate": "2013-03-01T14:45:12.6151129+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   }
 }

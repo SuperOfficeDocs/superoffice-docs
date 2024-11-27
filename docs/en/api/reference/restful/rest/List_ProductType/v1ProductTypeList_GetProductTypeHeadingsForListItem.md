@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Becker-Mertz",
-    "ToolTip": "Nulla eum autem asperiores veritatis explicabo.",
+    "Id": 798,
+    "Name": "Kuhn, Feest and Cummings",
+    "ToolTip": "Sit voluptas omnis facere in sunt tempore.",
     "Deleted": false,
-    "Rank": 955,
-    "Type": "dolorem",
-    "ColorBlock": 804,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2006-08-23T13:14:11.4767026+02:00",
+    "Rank": 13,
+    "Type": "autem",
+    "ColorBlock": 551,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2011-08-19T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Mann-Corwin",
-        "ToolTip": "Nihil consequatur.",
+        "Id": 757,
+        "Name": "Schroeder-Heathcote",
+        "ToolTip": "Sed qui dicta quia at quis mollitia dolore.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "itaque",
-        "ColorBlock": 36,
-        "IconHint": "itaque",
+        "Rank": 381,
+        "Type": "neque",
+        "ColorBlock": 774,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2022-07-04T13:14:11.4767026+02:00",
+        "LastChanged": "2002-06-07T14:45:13.8179422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "eius",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Cassandra Krystina Bashirian I",
+        "FullName": "Mrs. Freeman Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldType": "System.String",
+            "FieldLength": 43
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Miss Leanne Chet Abernathy DVM",
+    "FullName": "Jeremy Kristy Zulauf PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 168
       }
     }
   }

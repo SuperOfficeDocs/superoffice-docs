@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.CreateDefaultAttachmentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity'>CreateDefaultAttachmentEntity</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.CreateDefaultAttachmentEntity'>CreateDefaultAttachmentEntity</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeCreateDefaultAttachmentEntity
 ```cs

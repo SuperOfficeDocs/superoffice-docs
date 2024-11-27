@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Kassulke-Gibson",
-    "ToolTip": "Ex sunt ut ipsam.",
-    "Deleted": true,
-    "Rank": 689,
-    "Type": "qui",
-    "ColorBlock": 317,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2008-02-28T13:14:11.3360694+01:00",
+    "Id": 667,
+    "Name": "Kuvalis-Bins",
+    "ToolTip": "Vel fuga architecto vel architecto distinctio.",
+    "Deleted": false,
+    "Rank": 419,
+    "Type": "reiciendis",
+    "ColorBlock": 142,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2006-01-31T14:45:13.6148917+01:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Hand Inc and Sons",
-        "ToolTip": "Corporis voluptas vero amet.",
+        "Id": 491,
+        "Name": "Bergnaum Inc and Sons",
+        "ToolTip": "Dolorem alias debitis ea esse maxime doloremque.",
         "Deleted": true,
-        "Rank": 945,
+        "Rank": 278,
         "Type": "aut",
-        "ColorBlock": 835,
-        "IconHint": "soluta",
+        "ColorBlock": 349,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2002-06-08T13:14:11.3360694+02:00",
+        "LastChanged": "2018-03-05T14:45:13.6148917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "vitae",
-        "Hidden": true,
-        "FullName": "Mr. Deanna Kurtis O'Connell",
+        "ExtraInfo": "odio",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Maybelle Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 303
+            "FieldType": "System.Int32",
+            "FieldLength": 214
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "eos",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Ms. Khalid Elna Walker PhD",
+    "FullName": "Dr. Uriel Goodwin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldType": "System.String",
+        "FieldLength": 130
       }
     }
   }

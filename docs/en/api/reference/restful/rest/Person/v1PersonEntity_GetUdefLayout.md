@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 108,
-    "ColumnId": 835,
-    "FieldDefault": "molestiae",
-    "FieldHeight": 416,
-    "FieldLabel": "reiciendis",
-    "FieldLeft": 385,
-    "FieldTop": 115,
+    "UDefFieldId": 824,
+    "ColumnId": 597,
+    "FieldDefault": "dolore",
+    "FieldHeight": 14,
+    "FieldLabel": "aut",
+    "FieldLeft": 785,
+    "FieldTop": 850,
     "FieldType": "Checkbox",
-    "FieldWidth": 245,
-    "FormatMask": "voluptates",
+    "FieldWidth": 220,
+    "FormatMask": "adipisci",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 666,
-    "LabelLeft": 169,
-    "LabelTop": 506,
-    "LabelWidth": 394,
-    "LastVersionId": 840,
-    "ListTableId": 501,
+    "LabelHeight": 251,
+    "LabelLeft": 443,
+    "LabelTop": 803,
+    "LabelWidth": 155,
+    "LastVersionId": 613,
+    "ListTableId": 843,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 65,
-    "ProgId": "et",
+    "Page1LineNo": 23,
+    "ProgId": "nam",
     "IsReadOnly": false,
-    "ShortLabel": "aperiam",
-    "TabOrder": 652,
-    "TextLength": 1002,
-    "Tooltip": "ut",
-    "UdefIdentity": 686,
-    "UDListDefinitionId": 728,
+    "ShortLabel": "suscipit",
+    "TabOrder": 81,
+    "TextLength": 394,
+    "Tooltip": "vitae",
+    "UdefIdentity": 90,
+    "UDListDefinitionId": 282,
     "Justification": "Center",
-    "Version": 382,
-    "TemplateVariableName": "Mertz-Ebert",
+    "Version": 462,
+    "TemplateVariableName": "Fadel, Bergstrom and VonRueden",
     "HasBeenPublished": false,
-    "MdoListName": "Dickinson-Emmerich",
+    "MdoListName": "Pfannerstill Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldType": "System.String",
+        "FieldLength": 919
       }
     }
   }

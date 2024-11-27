@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Corwin, Mraz and Satterfield",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 728,
-    "Rank": 323,
+    "Id": 717,
+    "Name": "Labadie, Hammes and Bode",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "UdListDefinitionId": 40,
+    "Rank": 929,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 680
       }
     }
   }

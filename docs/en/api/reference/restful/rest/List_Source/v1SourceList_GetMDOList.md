@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=dicta
+GET /api/v1/List/Source/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Turcotte, Prohaska and Hessel",
-    "ToolTip": "Consequatur modi et tempora debitis eum facere labore.",
-    "Deleted": true,
-    "Rank": 551,
-    "Type": "suscipit",
+    "Id": 601,
+    "Name": "Quitzon, Mann and Schumm",
+    "ToolTip": "Sit ratione id amet omnis velit.",
+    "Deleted": false,
+    "Rank": 28,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Cummerata Group",
-        "ToolTip": "Quas fuga quo omnis dignissimos unde omnis reprehenderit.",
+        "Id": 580,
+        "Name": "Champlin-Effertz",
+        "ToolTip": "Ratione molestiae atque mollitia rerum animi.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "mollitia",
+        "Rank": 193,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 105,
-        "ExtraInfo": "quia",
-        "StyleHint": "dolor",
-        "FullName": "Magnus Lockman",
+        "IconHint": "veritatis",
+        "ColorBlock": 709,
+        "ExtraInfo": "eaque",
+        "StyleHint": "earum",
+        "FullName": "Mr. Jannie Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldLength": 942
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 171,
-    "ExtraInfo": "dolor",
-    "StyleHint": "cumque",
-    "FullName": "Iva Rath",
+    "IconHint": "et",
+    "ColorBlock": 419,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "fuga",
+    "FullName": "Arne Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 210
       }
     }
   }

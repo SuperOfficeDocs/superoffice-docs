@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wolff-Lowe",
-  "HeadingId": 401
+  "UdListDefinitionName": "Gleason-Konopelski",
+  "HeadingId": 882
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Lowe-Schaden",
-    "ToolTip": "Ea minus.",
+    "Id": 713,
+    "Name": "Bechtelar, Koepp and Powlowski",
+    "ToolTip": "Ullam et.",
     "Deleted": true,
-    "Rank": 777,
-    "Type": "laudantium",
-    "ColorBlock": 696,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2000-04-01T13:14:06.0851676+02:00",
+    "Rank": 421,
+    "Type": "tenetur",
+    "ColorBlock": 263,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2003-10-08T14:45:05.7250829+02:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Herman-Cole",
-        "ToolTip": "Voluptas omnis.",
+        "Id": 969,
+        "Name": "Dickens Group",
+        "ToolTip": "Molestiae aut rem vero id cupiditate fugit.",
         "Deleted": false,
-        "Rank": 927,
-        "Type": "eos",
-        "ColorBlock": 191,
-        "IconHint": "laboriosam",
+        "Rank": 1001,
+        "Type": "dolorum",
+        "ColorBlock": 25,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2001-04-21T13:14:06.0851676+02:00",
+        "LastChanged": "2013-03-24T14:45:05.7250829+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "quos",
+        "ExtraInfo": "odit",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Dusty Wisoky",
+        "FullName": "Dr. Ansel Hillary Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "dolor",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Lourdes Cole",
+    "FullName": "Lilliana Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 354
       }
     }
   }

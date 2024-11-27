@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.UpdateCategoryMemberships
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.UpdateCategoryMemberships'>UpdateCategoryMemberships</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.UpdateCategoryMemberships'>UpdateCategoryMemberships</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeUpdateCategoryMemberships
 ```cs

@@ -116,25 +116,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 880,
-  "Name": "Predovic-Ledner",
-  "Description": "Virtual radical customer loyalty",
-  "DefaultHeight": 787,
-  "DefaultWidth": 938,
+  "DashboardTileDefinitionId": 201,
+  "Name": "Bins LLC",
+  "Description": "Synergistic national hierarchy",
+  "DefaultHeight": 140,
+  "DefaultWidth": 599,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Braun Group",
-  "SelectionId": 45,
+  "EntityName": "Schamberger-Zieme",
+  "SelectionId": 634,
   "CurrencyMode": "Base",
-  "CurrencyCode": "velit",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "molestiae",
-  "SortBy": "qui",
-  "LayoutConfig": "aliquam",
-  "SecondarySelectionId": 514,
-  "MeasureByField": "corrupti",
+  "MeasureField": "temporibus",
+  "SortBy": "quas",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 778,
+  "MeasureByField": "fuga",
   "Usage": "Dashboard",
-  "ProviderName": "Wehner-Cummerata"
+  "ProviderName": "Parisian-Braun"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 432,
-  "Name": "Pollich-Hilll",
-  "Description": "Virtual multi-state circuit",
-  "DefaultHeight": 203,
-  "DefaultWidth": 761,
+  "DashboardTileDefinitionId": 697,
+  "Name": "Wuckert-Rau",
+  "Description": "Function-based coherent matrices",
+  "DefaultHeight": 451,
+  "DefaultWidth": 437,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rohan, Stracke and Bernhard",
-  "SelectionId": 768,
+  "EntityName": "Ward, Bosco and Olson",
+  "SelectionId": 295,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nam",
+  "CurrencyCode": "quisquam",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "ullam",
-  "LayoutConfig": "ullam",
-  "SecondarySelectionId": 242,
-  "MeasureByField": "cupiditate",
+  "MeasureField": "quis",
+  "SortBy": "alias",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 721,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Cremin LLC",
+  "ProviderName": "Heidenreich, Legros and Robel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   },
   "_Links": {

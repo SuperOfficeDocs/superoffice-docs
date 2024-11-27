@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 799,
+  "EjMessageId": 54,
   "Ticket": null,
-  "CreatedAt": "2001-02-08T13:14:06.6633276+01:00",
+  "CreatedAt": "2002-03-11T14:45:06.584269+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 245,
-  "Body": "corporis",
-  "HtmlBody": "sed",
-  "EmailHeader": "dana@schoen.biz",
-  "DebugInfo": "odit",
+  "MessageId": "quasi",
+  "TimeSpent": 203,
+  "Body": "consequatur",
+  "HtmlBody": "possimus",
+  "EmailHeader": "trace@nolan.info",
+  "DebugInfo": "officia",
   "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ea",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 476,
-      "Name": "Corkery Inc and Sons",
-      "Value": "suscipit",
+      "Id": 273,
+      "Name": "Smitham Group",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldType": "System.String",
+          "FieldLength": 245
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolorum",
-  "Sentiment": 986,
-  "SentimentConfidence": 898,
+  "Language": "quia",
+  "Sentiment": 891,
+  "SentimentConfidence": 685,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 515,
-      "Name": "Hyatt, Wunsch and Hansen",
-      "ContentType": "beatae",
-      "AttSize": 944,
+      "AttachmentId": 145,
+      "Name": "Lind, Gutmann and Harber",
+      "ContentType": "quisquam",
+      "AttSize": 93,
       "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "consequatur",
+      "ContentId": "et",
+      "AuthKey": "aliquid",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 260
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "omnis"
+    "CustomFields1": "rerum",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 844
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.DeleteUserGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.DeleteUserGroup'>DeleteUserGroup</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.DeleteUserGroup'>DeleteUserGroup</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeDeleteUserGroup
 ```cs

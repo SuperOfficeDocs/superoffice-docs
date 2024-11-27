@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CreateAndSaveQuote
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CreateAndSaveQuote'>CreateAndSaveQuote</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CreateAndSaveQuote'>CreateAndSaveQuote</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCreateAndSaveQuote
 ```cs

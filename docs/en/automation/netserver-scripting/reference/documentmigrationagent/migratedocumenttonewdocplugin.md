@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.MigrateDocumentToNewDocPlugin
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin'>MigrateDocumentToNewDocPlugin</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.MigrateDocumentToNewDocPlugin'>MigrateDocumentToNewDocPlugin</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeMigrateDocumentToNewDocPlugin
 ```cs

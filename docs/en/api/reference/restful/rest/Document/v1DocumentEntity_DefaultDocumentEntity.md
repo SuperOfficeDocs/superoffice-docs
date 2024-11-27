@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Dec 2010 13:14:10 G12T
+Last-Modified: Thu, 26 Jun 2003 14:45:12 G6T
 
 {
-  "DocumentId": 940,
+  "DocumentId": 281,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "odio",
-  "Header": "beatae",
-  "Name": "Lind Inc and Sons",
-  "OurRef": "eum",
-  "YourRef": "illo",
-  "CreatedDate": "2014-07-02T13:14:10.7735359+02:00",
-  "UpdatedDate": "2010-12-28T13:14:10.7735359+01:00",
-  "Description": "Front-line client-driven orchestration",
+  "Attention": "quia",
+  "Header": "quia",
+  "Name": "Shields-Larson",
+  "OurRef": "autem",
+  "YourRef": "quaerat",
+  "CreatedDate": "2020-11-07T14:45:12.7400857+01:00",
+  "UpdatedDate": "2003-06-26T14:45:12.7400857+02:00",
+  "Description": "Vision-oriented actuating success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-10-13T13:14:10.7735359+02:00",
-  "ExternalRef": "unde",
+  "Date": "2019-02-21T14:45:12.7400857+01:00",
+  "ExternalRef": "dignissimos",
   "Completed": "Completed",
-  "ActiveLinks": 894,
+  "ActiveLinks": 345,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gutkowski, Kiehn and Ebert",
-      "Id": 119,
-      "Description": "Seamless zero tolerance capability",
-      "ExtraInfo": "possimus",
-      "LinkId": 660,
+      "EntityName": "Wolf-Bernier",
+      "Id": 358,
+      "Description": "Fundamental mission-critical encryption",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 311,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 325
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 567,
-  "Snum": 761,
+  "SuggestedDocumentId": 502,
+  "Snum": 569,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Allison Lueilwitz PhD",
-    "SuperOffice:2": "Prof. Keeley Kassulke Sr."
+    "SuperOffice:1": "1087998925",
+    "SuperOffice:2": "Tatum Conroy"
   },
   "ExtraFields": {
-    "ExtraFields1": "veniam",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "et",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "2024-04-25T13:14:10.7735359+02:00",
-  "PublishTo": "2013-04-11T13:14:10.7735359+02:00",
-  "PublishFrom": "1999-01-06T13:14:10.7735359+01:00",
+  "PublishEventDate": "2008-04-05T14:45:12.7400857+02:00",
+  "PublishTo": "2007-10-29T14:45:12.7400857+01:00",
+  "PublishFrom": "1997-12-07T14:45:12.7400857+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 47,
+      "VisibleId": 238,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     },
     {
-      "VisibleId": 47,
+      "VisibleId": 238,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Tue, 28 Dec 2010 13:14:10 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

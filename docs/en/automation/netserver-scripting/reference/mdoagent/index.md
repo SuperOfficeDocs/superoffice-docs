@@ -10,7 +10,7 @@ so.envir: onsite
 
 # MDOAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IMDOAgent'>MDOAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IMDOAgent'>MDOAgent</see> that can trigger server-side event scripts.
 
 * [GetList](getlist.md)
 * [GetListIdByListName](getlistidbylistname.md)

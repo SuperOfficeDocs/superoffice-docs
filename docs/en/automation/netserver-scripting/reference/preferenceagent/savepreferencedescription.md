@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.SavePreferenceDescription
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription'>SavePreferenceDescription</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.SavePreferenceDescription'>SavePreferenceDescription</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeSavePreferenceDescription
 ```cs

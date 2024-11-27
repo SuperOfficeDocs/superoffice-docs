@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Terry Inc and Sons",
-  "DeviceName": "Carroll LLC",
-  "DeviceIdentifier": "ipsa",
-  "KeyName": "Hartmann LLC",
-  "KeyValue": "qui",
-  "TableName": "Jakubowski-Hills"
+  "ApplicationName": "Bode LLC",
+  "DeviceName": "Davis-Howell",
+  "DeviceIdentifier": "voluptatum",
+  "KeyName": "Watsica-Considine",
+  "KeyValue": "architecto",
+  "TableName": "Zboncak-Rath"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestiae",
-  "Value": "nisi",
-  "RecordId": 409,
-  "CreatedDate": "2018-04-16T13:14:06.0382898+02:00",
-  "UpdatedDate": "2009-01-07T13:14:06.0382898+01:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "et",
-  "TableName": "Grant-McCullough",
+  "Key": "odit",
+  "Value": "beatae",
+  "RecordId": 376,
+  "CreatedDate": "2021-10-04T14:45:05.6469762+02:00",
+  "UpdatedDate": "2019-04-17T14:45:05.6469762+02:00",
+  "UpdatedBy": "numquam",
+  "CreatedBy": "voluptatum",
+  "TableName": "Boyle, Hintz and Kuhlman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 948
     }
   }
 }

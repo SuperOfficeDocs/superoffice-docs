@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 10,
-    "Name": "Kilback Group",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 985,
-    "UdListDefinitionId": 597
+    "HeadingId": 304,
+    "Name": "Haley Inc and Sons",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 237,
+    "UdListDefinitionId": 775
   },
   {
-    "HeadingId": 10,
-    "Name": "Kilback Group",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 985,
-    "UdListDefinitionId": 597
+    "HeadingId": 304,
+    "Name": "Haley Inc and Sons",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 237,
+    "UdListDefinitionId": 775
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 573,
-    "Name": "Ward-Bogan",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 434,
-    "UdListDefinitionId": 713,
+    "HeadingId": 776,
+    "Name": "Prosacco Inc and Sons",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 2,
+    "UdListDefinitionId": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 285
       }
     }
   }

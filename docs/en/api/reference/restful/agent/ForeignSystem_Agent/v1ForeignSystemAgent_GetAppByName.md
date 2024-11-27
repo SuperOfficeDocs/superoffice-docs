@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Shields, Schimmel and Hirthe"
+  "ApplicationName": "Lesch-Lockman"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 597,
-  "Name": "Stiedemann, Harris and Pfannerstill",
-  "CreatedDate": "2006-07-09T13:14:06.0382898+02:00",
-  "UpdatedDate": "2005-05-31T13:14:06.0382898+02:00",
+  "ForeignAppId": 33,
+  "Name": "Fritsch LLC",
+  "CreatedDate": "2018-04-23T14:45:05.6469762+02:00",
+  "UpdatedDate": "2011-10-29T14:45:05.6469762+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 631,
-      "Name": "Yundt-Dietrich",
-      "CreatedDate": "2011-10-25T13:14:06.0382898+02:00",
-      "UpdatedDate": "2022-07-10T13:14:06.0382898+02:00",
-      "AssociateFullName": "Nasir Reichel",
-      "CreatedBy": "quia",
-      "UpdatedBy": "molestias",
-      "DeviceIdentifier": "voluptates",
-      "ForeignAppId": 225,
+      "ForeignDeviceId": 806,
+      "Name": "Hegmann-Ondricka",
+      "CreatedDate": "2002-07-03T14:45:05.6469762+02:00",
+      "UpdatedDate": "2019-09-12T14:45:05.6469762+02:00",
+      "AssociateFullName": "Ms. Ebony Kiara Lesch IV",
+      "CreatedBy": "numquam",
+      "UpdatedBy": "accusantium",
+      "DeviceIdentifier": "deserunt",
+      "ForeignAppId": 75,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 419
     }
   }
 }

@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    320,
-    977
+    697,
+    9
   ],
-  "StartTime": "2008-09-19T13:14:05.2413666+02:00",
-  "EndTime": "2015-12-27T13:14:05.2413666+01:00"
+  "StartTime": "2002-08-21T14:45:04.4912235+02:00",
+  "EndTime": "2001-04-17T14:45:04.4912235+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 985,
-    "StartDate": "2005-05-17T13:14:05.2413666+02:00",
-    "EndDate": "2008-07-31T13:14:05.2413666+02:00",
+    "AppointmentId": 588,
+    "StartDate": "2012-09-08T14:45:04.4912235+02:00",
+    "EndDate": "1999-04-29T14:45:04.4912235+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quibusdam",
-    "AssociateFullName": "Mr. Kyra Tevin Roob",
-    "ContactName": "Vandervort-Feeney",
-    "Description": "Streamlined impactful portal",
-    "PersonFullName": "Ms. Rickie Bernadette Larkin Sr.",
-    "PersonId": 498,
-    "ContactId": 737,
-    "ProjectId": 83,
-    "ProjectName": "Gerlach Group",
-    "IsPublished": false,
-    "AssociateId": 96,
-    "ColorIndex": 736,
+    "Task": "expedita",
+    "AssociateFullName": "Marcelino Kuhlman",
+    "ContactName": "Marks-Runolfsson",
+    "Description": "Ameliorated context-sensitive neural-net",
+    "PersonFullName": "Rollin Al Orn III",
+    "PersonId": 340,
+    "ContactId": 690,
+    "ProjectId": 131,
+    "ProjectName": "Senger, Carroll and Kertzmann",
+    "IsPublished": true,
+    "AssociateId": 937,
+    "ColorIndex": 511,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 177,
-    "PriorityName": "Kautzer Group",
+    "PriorityId": 693,
+    "PriorityName": "O'Keefe-Ledner",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2020-11-27T13:14:05.2413666+01:00",
+    "ActiveDate": "2010-03-31T14:45:04.4912235+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-07-12T13:14:05.2413666+02:00",
-    "RecurringEndDate": "2001-07-28T13:14:05.2413666+02:00",
-    "MotherId": 235,
-    "AssignedBy": 607,
-    "AssignedByFullName": "Ms. Anita Feeney MD",
+    "RecurringStartDate": "1997-08-22T14:45:04.4912235+02:00",
+    "RecurringEndDate": "2013-08-12T14:45:04.4912235+02:00",
+    "MotherId": 109,
+    "AssignedBy": 148,
+    "AssignedByFullName": "Clemens Madelynn McClure II",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "quaerat",
-    "SaleId": 838,
-    "SaleName": "Kiehn Inc and Sons",
-    "AssociateName": "Gerlach-Towne",
-    "CreatedDate": "1998-10-29T13:14:05.2413666+01:00",
-    "CreatedBy": "eum",
-    "CreatedByFullName": "Dr. Jaylen Mara Nitzsche DDS",
-    "CreatedByAssociateId": 317,
+    "Location": "quo",
+    "AlarmLeadTime": "nostrum",
+    "SaleId": 905,
+    "SaleName": "Cole-Jones",
+    "AssociateName": "Koepp, Conn and Howe",
+    "CreatedDate": "2004-12-07T14:45:04.4912235+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Miss Vallie Donnelly",
+    "CreatedByAssociateId": 842,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 561,
-    "Title": "qui",
-    "Agenda": "quis",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 310,
+    "Title": "laboriosam",
+    "Agenda": "cupiditate",
+    "InternalNotes": "accusantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldType": "System.Int32",
+        "FieldLength": 274
       }
     }
   }

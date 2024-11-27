@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.SetDefaultCountryFlag
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag'>SetDefaultCountryFlag</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.SetDefaultCountryFlag'>SetDefaultCountryFlag</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeSetDefaultCountryFlag
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetLanguageInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetLanguageInfo'>GetLanguageInfo</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetLanguageInfo'>GetLanguageInfo</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetLanguageInfo
 ```cs

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 602,
-    "Name": "Batz Group",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 942,
-    "UdListDefinitionId": 704,
+    "HeadingId": 239,
+    "Name": "Labadie-Stamm",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 35,
+    "UdListDefinitionId": 201,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 565
       }
     }
   }

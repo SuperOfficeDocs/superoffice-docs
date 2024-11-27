@@ -90,31 +90,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 518,
-  "Name": "Cruickshank Group",
-  "Rank": 908,
-  "Tooltip": "mollitia",
-  "Icon": "sed",
-  "DefaultTicketStatus": 152,
+  "TicketTypeId": 523,
+  "Name": "Osinski-Kiehn",
+  "Rank": 727,
+  "Tooltip": "hic",
+  "Icon": "ducimus",
+  "DefaultTicketStatus": 208,
   "TicketStatuses": [
-    784,
-    819
+    360,
+    460
   ],
-  "DefaultTicketPriority": 487,
+  "DefaultTicketPriority": 866,
   "TicketPriorities": [
-    487,
-    835
+    823,
+    895
   ],
-  "ReplyTemplate": 922,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 402,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    819,
-    455
+    272,
+    940
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

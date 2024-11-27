@@ -320,19 +320,22 @@ Implementation of the provider for the combined selection
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
 |document/recordType|string|Record type : Shows the record type| x |
-|document/text|positiveString|Text: Displays a descriptive text for the item| x |
-|document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|document/contactId|listAny|Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/text|positiveString|Text: Displays a descriptive text for the item| x |
+|document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|document/contactId|listAny|Company ID: Database ID of company| x |
 |document/personId|listAny|Contact ID: Database ID of the contact row| x |
 |document/projectId|listAny|Project ID: Database ID of project record| x |
 |document/saleId|int|Sale ID: The database ID of the sale record| x |
@@ -430,13 +433,13 @@ Implementation of the provider for the combined selection
 |projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 |projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
 |projectMember/personSource|listAny|Source: Source (Contact)| x |
-|projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
-|projectMember/birthYear|int|Birth year: Displays contact's birth year| x |
-|projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
+|projectMember/birthYear|int|Birth year: Displays contact's birth year| x |
+|projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
 |projectMember/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |projectMember/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |projectMember/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
@@ -534,13 +537,13 @@ Implementation of the provider for the combined selection
 |projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
-|projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
-|projectMember/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
-|projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
+|projectMember/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
+|projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |projectMember/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |projectMember/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
@@ -638,13 +641,13 @@ Implementation of the provider for the combined selection
 |projectMember/orgnr|string|VAT No.| x |
 |projectMember/stop|bool|Stop| x |
 |projectMember/contactNoMail|bool|No mailings (company| x |
-|projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
-|projectMember/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
+|projectMember/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/registeredBy|associate|Registered by: The user who registered the data| x |
 |projectMember/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMember/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -742,13 +745,13 @@ Implementation of the provider for the combined selection
 |projectMember/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |projectMember/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
-|projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
-|projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
+|projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -792,7 +795,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=icon,projectAssociate/isLocation,sale/probPercent,sale/reopenDate,appointment/appointmentPublish/publishedTo
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=updatedByFullName,projectEvent/hasSignOff,projectAssociate/ejStatus,appointment/associate/portraitThumbnail,document/documentPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

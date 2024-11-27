@@ -738,11 +738,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |appointmentInstance/appointment/agenda|positiveString|Agenda| x |
 |appointmentInstance/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointmentInstance/appointment/isConverted| *None* |!!Is Converted|  |
+|appointmentInstance/appointment/textId|int|Text ID| x |
+|appointmentInstance/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointmentInstance/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/contact/restrictionAddress/line3,appointmentInstance/contact/saintTicketStatus,appointmentInstance/person/personAssociateId,appointmentInstance/person/correspondingAssociate/credentialType,appointmentInstance/project/name
+GET /api/v1/archive/SaleGuideAppointment?$select=appointmentInstance/updatedDate,appointmentInstance/contact/restrictionAddress/county,appointmentInstance/contact/contactAssociate/firstName,appointmentInstance/person/personSource,appointmentInstance/person/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

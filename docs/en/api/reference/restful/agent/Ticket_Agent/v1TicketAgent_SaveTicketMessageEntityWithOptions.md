@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    504,
-    91
+    3,
+    998
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 271,
+  "EjMessageId": 705,
   "Ticket": null,
-  "CreatedAt": "2022-03-09T13:14:06.6789534+01:00",
+  "CreatedAt": "2003-11-20T14:45:06.5998882+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "occaecati",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 21,
-  "Body": "ut",
-  "HtmlBody": "illum",
-  "EmailHeader": "ottis.kassulke@labadiesmitham.biz",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "modi",
+  "MessageId": "eos",
+  "TimeSpent": 681,
+  "Body": "alias",
+  "HtmlBody": "dignissimos",
+  "EmailHeader": "monty@quigleywiza.uk",
+  "DebugInfo": "deleniti",
+  "MailSorter": "possimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quae",
+  "SearchTitle": "eveniet",
   "MessageHeaders": [
     {
-      "Id": 634,
-      "Name": "Morissette Group",
-      "Value": "magnam",
+      "Id": 122,
+      "Name": "Bogisich, Hauck and White",
+      "Value": "alias",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 1002
+          "FieldLength": 157
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolorem",
-  "Sentiment": 717,
-  "SentimentConfidence": 38,
+  "Language": "veniam",
+  "Sentiment": 733,
+  "SentimentConfidence": 86,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 668,
-      "Name": "Quitzon, Douglas and Walter",
-      "ContentType": "odit",
-      "AttSize": 629,
-      "InlineImage": true,
-      "ContentId": "quod",
-      "AuthKey": "ut",
+      "AttachmentId": 341,
+      "Name": "Streich LLC",
+      "ContentType": "illo",
+      "AttSize": 789,
+      "InlineImage": false,
+      "ContentId": "voluptas",
+      "AuthKey": "ex",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 374
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "est"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "maiores"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "aperiam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 31
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.NotificationHandled
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.NotificationHandled'>NotificationHandled</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.NotificationHandled'>NotificationHandled</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeNotificationHandled
 ```cs

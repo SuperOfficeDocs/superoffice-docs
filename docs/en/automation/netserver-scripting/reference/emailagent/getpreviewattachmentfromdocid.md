@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetPreviewAttachmentFromDocId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetPreviewAttachmentFromDocId'>GetPreviewAttachmentFromDocId</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetPreviewAttachmentFromDocId'>GetPreviewAttachmentFromDocId</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetPreviewAttachmentFromDocId
 ```cs

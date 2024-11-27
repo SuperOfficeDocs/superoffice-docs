@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.TestConnectionByConfig
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig'>TestConnectionByConfig</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.TestConnectionByConfig'>TestConnectionByConfig</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeTestConnectionByConfig
 ```cs

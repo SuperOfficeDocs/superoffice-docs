@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 4,
+  "SystemEventId": 101,
   "Scope": "Database",
-  "Eta": "2023-12-11T13:14:05.6163893+01:00",
-  "Eventkey": "esse",
-  "Eventmess": "rerum",
-  "ExtraInfo": 799,
-  "Owner": 506,
-  "UpdatedCount": 453,
-  "Registered": "2022-11-24T13:14:05.6163893+01:00",
+  "Eta": "2014-02-13T14:45:05.0221142+01:00",
+  "Eventkey": "consequuntur",
+  "Eventmess": "laudantium",
+  "ExtraInfo": 206,
+  "Owner": 251,
+  "UpdatedCount": 329,
+  "Registered": "2010-11-01T14:45:05.0221142+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

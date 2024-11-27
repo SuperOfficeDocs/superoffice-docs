@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blanda, Bashirian and Koepp",
-  "DeviceName": "Smith, Strosin and Muller",
-  "DeviceIdentifier": "in"
+  "ApplicationName": "Rowe-Macejkovic",
+  "DeviceName": "McDermott Group",
+  "DeviceIdentifier": "doloribus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 964,
-  "Name": "Predovic, Kihn and Lynch",
-  "CreatedDate": "2007-09-13T13:14:06.0382898+02:00",
-  "UpdatedDate": "1999-06-07T13:14:06.0382898+02:00",
-  "AssociateFullName": "Jessika Shanahan",
-  "CreatedBy": "consequuntur",
-  "UpdatedBy": "rem",
-  "DeviceIdentifier": "sequi",
-  "ForeignAppId": 277,
+  "ForeignDeviceId": 123,
+  "Name": "Hackett-Reynolds",
+  "CreatedDate": "2019-11-19T14:45:05.6469762+01:00",
+  "UpdatedDate": "2016-10-02T14:45:05.6469762+02:00",
+  "AssociateFullName": "Aurore Thiel",
+  "CreatedBy": "quo",
+  "UpdatedBy": "aliquam",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 18
     }
   }
 }

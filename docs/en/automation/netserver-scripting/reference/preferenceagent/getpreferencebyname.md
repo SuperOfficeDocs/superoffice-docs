@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.GetPreferenceByName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName'>GetPreferenceByName</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.GetPreferenceByName'>GetPreferenceByName</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeGetPreferenceByName
 ```cs

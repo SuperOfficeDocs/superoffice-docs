@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,43 +113,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 315,
-  "Name": "Halvorson-Lebsack",
-  "Description": "Reduced neutral knowledge base",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 970,
+  "Name": "Windler LLC",
+  "Description": "Universal dynamic parallelism",
+  "WelcomeMessage": "delectus",
   "Language": null,
-  "LastAccept": "2021-06-26T13:14:10.6797802+02:00",
-  "SecondsPrAccept": 897,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2005-08-28T14:45:12.5838708+02:00",
+  "SecondsPrAccept": 675,
+  "AlertRecipient": "velit",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "omnis",
+  "CollectConsent": true,
+  "BadgeHeader": "nihil",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "iste",
-  "WarnNewChatMinutes": 776,
-  "WarnManagerNewChatMinutes": 715,
-  "TicketEnabled": false,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 389,
+  "WarnManagerNewChatMinutes": 996,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 919,
-  "WarnManagerChatMessageMinutes": 620,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 780,
-  "OfflineFormQueueLength": 138,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "officiis",
+  "WarnChatMessageMinutes": 869,
+  "WarnManagerChatMessageMinutes": 134,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 943,
+  "OfflineFormQueueLength": 69,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   },
   "_Links": {

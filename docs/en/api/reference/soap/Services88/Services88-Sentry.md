@@ -188,6 +188,20 @@ title: Services88.SentryAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CanCreateAppointmentInEachAssociatesDiary">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateIds" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CanCreateAppointmentInEachAssociatesDiaryResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q4:ArrayOfboolean" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CanCreateAppointmentInAllDiaries">
         <xs:complexType>
           <xs:sequence />
@@ -270,6 +284,12 @@ title: Services88.SentryAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfboolean">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="boolean" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfboolean" nillable="true" type="tns:ArrayOfboolean" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="GetNewTableRightRequest">
@@ -357,6 +377,23 @@ title: Services88.SentryAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CanCreateAppointmentInEachAssociatesDiaryRequest">
+    <wsdl:part name="parameters" element="tns:CanCreateAppointmentInEachAssociatesDiary" />
+  </wsdl:message>
+  <wsdl:message name="CanCreateAppointmentInEachAssociatesDiaryRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CanCreateAppointmentInEachAssociatesDiaryResponse">
+    <wsdl:part name="parameters" element="tns:CanCreateAppointmentInEachAssociatesDiaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="CanCreateAppointmentInEachAssociatesDiaryResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CanCreateAppointmentInAllDiariesRequest">
     <wsdl:part name="parameters" element="tns:CanCreateAppointmentInAllDiaries" />
   </wsdl:message>
@@ -411,6 +448,10 @@ title: Services88.SentryAgent WSDL
     <wsdl:operation name="CanCreateAppointmentInAssociateDiaries">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInAssociateDiaries" name="CanCreateAppointmentInAssociateDiariesRequest" message="tns:CanCreateAppointmentInAssociateDiariesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInAssociateDiariesResponse" name="CanCreateAppointmentInAssociateDiariesResponse" message="tns:CanCreateAppointmentInAssociateDiariesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CanCreateAppointmentInEachAssociatesDiary">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInEachAssociatesDiary" name="CanCreateAppointmentInEachAssociatesDiaryRequest" message="tns:CanCreateAppointmentInEachAssociatesDiaryRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInEachAssociatesDiaryResponse" name="CanCreateAppointmentInEachAssociatesDiaryResponse" message="tns:CanCreateAppointmentInEachAssociatesDiaryResponse" />
     </wsdl:operation>
     <wsdl:operation name="CanCreateAppointmentInAllDiaries">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInAllDiaries" name="CanCreateAppointmentInAllDiariesRequest" message="tns:CanCreateAppointmentInAllDiariesRequest" />
@@ -500,6 +541,22 @@ title: Services88.SentryAgent WSDL
         <soap:header message="tns:CanCreateAppointmentInAssociateDiariesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CanCreateAppointmentInAssociateDiariesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CanCreateAppointmentInAssociateDiariesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanCreateAppointmentInEachAssociatesDiary">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Sentry/CanCreateAppointmentInEachAssociatesDiary" style="document" />
+      <wsdl:input name="CanCreateAppointmentInEachAssociatesDiaryRequest">
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CanCreateAppointmentInEachAssociatesDiaryResponse">
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CanCreateAppointmentInEachAssociatesDiaryResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

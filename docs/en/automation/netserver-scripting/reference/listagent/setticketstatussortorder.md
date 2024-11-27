@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SetTicketStatusSortOrder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SetTicketStatusSortOrder'>SetTicketStatusSortOrder</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SetTicketStatusSortOrder'>SetTicketStatusSortOrder</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSetTicketStatusSortOrder
 ```cs

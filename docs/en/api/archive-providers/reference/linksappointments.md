@@ -727,12 +727,15 @@ Link data provider for appointments, handles both addressing by source or by des
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=appointmentPublish/publishedBy,contact/mainContact,contact/restrictionAddress/formattedMultiLineAddress,person/restrictionAddress/line1,person/personAssociate/assocType
+GET /api/v1/archive/LinksAppointments?$select=contact/restrictionAddress/state,contact/saintTicketCategory,person/position,project/hasGuide,project/projectAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

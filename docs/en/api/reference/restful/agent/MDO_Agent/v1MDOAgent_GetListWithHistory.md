@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Heathcote, Jakubowski and Daugherty",
-  "ForceFlatList": true,
-  "AdditionalInfo": "voluptas",
+  "Name": "Cummerata, Bode and Steuber",
+  "ForceFlatList": false,
+  "AdditionalInfo": "quas",
   "HistoryItems": [
-    257,
-    545
+    742,
+    649
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Streich-O'Connell",
-    "ToolTip": "Sunt officia repudiandae aperiam dolores ut aspernatur consectetur.",
+    "Id": 644,
+    "Name": "Bayer, Russel and Keebler",
+    "ToolTip": "Perferendis harum non error est.",
     "Deleted": true,
-    "Rank": 388,
-    "Type": "distinctio",
+    "Rank": 641,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Stoltenberg-Kreiger",
-        "ToolTip": "Quod voluptatem nulla.",
+        "Id": 441,
+        "Name": "Dicki, Lockman and Champlin",
+        "ToolTip": "Nihil doloribus neque velit ea totam quaerat.",
         "Deleted": false,
-        "Rank": 267,
-        "Type": "id",
+        "Rank": 695,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 894,
-        "ExtraInfo": "ad",
-        "StyleHint": "blanditiis",
-        "FullName": "Prof. Abraham Candida Bergstrom",
+        "IconHint": "est",
+        "ColorBlock": 960,
+        "ExtraInfo": "culpa",
+        "StyleHint": "doloribus",
+        "FullName": "Kaitlyn Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldLength": 384
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 665,
-    "ExtraInfo": "expedita",
-    "StyleHint": "quasi",
-    "FullName": "Prof. Hubert Garrick Thompson",
+    "IconHint": "qui",
+    "ColorBlock": 859,
+    "ExtraInfo": "quia",
+    "StyleHint": "reprehenderit",
+    "FullName": "Gloria Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 566
       }
     }
   }

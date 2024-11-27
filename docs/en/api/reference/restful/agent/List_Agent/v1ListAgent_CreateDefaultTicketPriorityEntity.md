@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 731,
-  "Name": "Dicki LLC",
+  "TicketPriorityId": 129,
+  "Name": "Johnson Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 290,
+  "SortOrder": 830,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 893,
-  "MonStart": "2009-04-17T13:14:06.1164195+02:00",
-  "MonStop": "2008-06-19T13:14:06.1164195+02:00",
-  "TueStart": "1998-11-19T13:14:06.1164195+01:00",
-  "TueStop": "2016-07-03T13:14:06.1164195+02:00",
-  "WedStart": "1998-04-06T13:14:06.1164195+02:00",
-  "WedStop": "1999-07-18T13:14:06.1164195+02:00",
-  "ThuStart": "2021-06-10T13:14:06.1164195+02:00",
-  "ThuStop": "2017-09-09T13:14:06.1164195+02:00",
-  "FriStart": "2011-07-28T13:14:06.1164195+02:00",
-  "FriStop": "2002-04-16T13:14:06.1164195+02:00",
-  "SatStart": "2015-03-23T13:14:06.1164195+01:00",
-  "SatStop": "2013-10-09T13:14:06.1164195+02:00",
-  "SunStart": "1997-11-04T13:14:06.1164195+01:00",
-  "SunStop": "2003-04-18T13:14:06.1164195+02:00",
+  "Deadline": 962,
+  "MonStart": "2008-04-27T14:45:05.7719479+02:00",
+  "MonStop": "2003-12-08T14:45:05.7719479+01:00",
+  "TueStart": "2018-03-08T14:45:05.7719479+01:00",
+  "TueStop": "1999-12-17T14:45:05.7719479+01:00",
+  "WedStart": "2007-04-17T14:45:05.7719479+02:00",
+  "WedStop": "2012-07-04T14:45:05.7719479+02:00",
+  "ThuStart": "2003-10-09T14:45:05.7719479+02:00",
+  "ThuStop": "2007-02-06T14:45:05.7719479+01:00",
+  "FriStart": "1998-03-13T14:45:05.7719479+01:00",
+  "FriStop": "2023-11-19T14:45:05.7719479+01:00",
+  "SatStart": "2006-03-02T14:45:05.7719479+01:00",
+  "SatStop": "2017-03-19T14:45:05.7719479+01:00",
+  "SunStart": "2014-04-17T14:45:05.7719479+02:00",
+  "SunStop": "1999-12-15T14:45:05.7719479+01:00",
   "NonDates": [
-    "delectus",
-    "id"
+    "corporis",
+    "odit"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 855,
-      "AlertLevel": 443,
-      "AlertTimeout": 830,
-      "Action": 302,
-      "DelegateTo": 896,
-      "ScriptId": 217,
-      "EmailTo": "liam.legros@howellhartmann.biz",
-      "SmsTo": "aperiam",
-      "ReplyTemplateIdCustomer": 89,
-      "ReplyTemplateIdUser": 594,
-      "ReplyTemplateIdCatmast": 163,
-      "ReplyTemplateIdEmail": 661,
-      "RtiCustomerSms": 414,
-      "ReplyTemplateIdUserSms": 578,
-      "ReplyTemplateIdCatmastSms": 825,
-      "ReplyTemplateIdSms": 724,
+      "TicketAlertId": 164,
+      "AlertLevel": 415,
+      "AlertTimeout": 416,
+      "Action": 632,
+      "DelegateTo": 34,
+      "ScriptId": 258,
+      "EmailTo": "felton.quitzon@brownullrich.name",
+      "SmsTo": "ut",
+      "ReplyTemplateIdCustomer": 787,
+      "ReplyTemplateIdUser": 275,
+      "ReplyTemplateIdCatmast": 753,
+      "ReplyTemplateIdEmail": 841,
+      "RtiCustomerSms": 568,
+      "ReplyTemplateIdUserSms": 267,
+      "ReplyTemplateIdCatmastSms": 333,
+      "ReplyTemplateIdSms": 459,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 314
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 577
     }
   }
 }

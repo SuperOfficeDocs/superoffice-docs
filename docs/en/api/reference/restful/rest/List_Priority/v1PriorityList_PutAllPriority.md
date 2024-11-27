@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Baumbach Inc and Sons",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 351
+    "Id": 78,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 368,
+    "Rank": 266
   },
   {
-    "Id": 420,
-    "Name": "Baumbach Inc and Sons",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 351
+    "Id": 78,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 368,
+    "Rank": 266
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Collins, Ritchie and Krajcik",
-    "Tooltip": "quo",
+    "Id": 482,
+    "Name": "Klocko Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 320,
-    "Rank": 376,
+    "UdListDefinitionId": 102,
+    "Rank": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldLength": 734
       }
     }
   }

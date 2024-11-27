@@ -71,9 +71,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Medhurst-Rau",
-  "ResourceValues": "asperiores",
-  "Culture": "omnis",
+  "ResourceName": "Runolfsdottir, Runte and Ernser",
+  "ResourceValues": "et",
+  "Culture": "hic",
   "IsActive": false
 }
 ```

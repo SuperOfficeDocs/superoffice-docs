@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 143,
-    "Name": "Armstrong-Kiehn",
-    "Tooltip": "commodi",
+    "HeadingId": 551,
+    "Name": "Lebsack LLC",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 379,
-    "UdListDefinitionId": 730,
+    "Rank": 778,
+    "UdListDefinitionId": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 521
       }
     }
   }

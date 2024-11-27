@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Barrows-Watsica",
-  "Tooltip": "quos",
+  "Id": 521,
+  "Name": "Schaefer, Block and Franecki",
+  "Tooltip": "beatae",
   "Deleted": true,
-  "Rank": 808,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 934,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "unde",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldLength": 672
     }
   },
   "_Links": {

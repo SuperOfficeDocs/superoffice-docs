@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel'>GetPublishedUserDefinedFieldFromFieldLabel</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel'>GetPublishedUserDefinedFieldFromFieldLabel</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeGetPublishedUserDefinedFieldFromFieldLabel
 ```cs

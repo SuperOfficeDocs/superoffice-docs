@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 496,
-  "Name": "Gulgowski Inc and Sons",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 451,
+  "Id": 472,
+  "Name": "Heathcote, Walter and Johns",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 400,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Mills, Kuhn and Breitenberg",
-  "Tooltip": "id",
+  "Id": 848,
+  "Name": "Zemlak Group",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 217,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "Rank": 680,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 473
     }
   }
 }

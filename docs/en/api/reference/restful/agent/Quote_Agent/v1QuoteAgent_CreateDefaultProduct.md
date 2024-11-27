@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 943,
-  "ERPProductKey": "facilis",
-  "ERPPriceListKey": "magni",
-  "Name": "Barrows-Cummings",
-  "Description": "Enhanced neutral knowledge user",
-  "Code": "velit",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "recusandae",
-  "DefaultSubscriptionQuantity": 22871.932,
-  "ItemNumber": "951710",
+  "ProductId": 194,
+  "ERPProductKey": "animi",
+  "ERPPriceListKey": "eum",
+  "Name": "Dach-Hahn",
+  "Description": "Operative dedicated workforce",
+  "Code": "dolorem",
+  "PriceUnit": "impedit",
+  "QuantityUnit": "officiis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ad",
+  "DefaultSubscriptionQuantity": 27350.417999999998,
+  "ItemNumber": "1484579",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "provident",
-  "VAT": 31089.28,
-  "VATInfo": "nam",
-  "UnitCost": 11783.84,
-  "UnitMinimumPrice": 5421.82,
-  "UnitListPrice": 893.18999999999994,
+  "ProductFamilyKey": "voluptates",
+  "ProductTypeKey": "id",
+  "VAT": 14334.916,
+  "VATInfo": "veritatis",
+  "UnitCost": 27776.642,
+  "UnitMinimumPrice": 17960.953999999998,
+  "UnitListPrice": 6014.146,
   "InAssortment": false,
-  "Supplier": "delectus",
-  "SupplierCode": "dolores",
-  "Rights": "consequatur",
-  "Rule": "aut",
+  "Supplier": "itaque",
+  "SupplierCode": "id",
+  "Rights": "ut",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Schuppe, Ondricka and Lebsack",
-      "Value": "unde",
+      "Name": "Daniel LLC",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 823
         }
       }
     },
     {
-      "Name": "Schuppe, Ondricka and Lebsack",
-      "Value": "unde",
+      "Name": "Daniel LLC",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 823
         }
       }
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "totam",
-  "ExtraField2": "ipsa",
-  "ExtraField3": "qui",
-  "ExtraField4": "vel",
-  "ExtraField5": "non",
-  "InStock": 12796.122,
+  "RawExtraInfo": "ad",
+  "ExtraField1": "id",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "eligendi",
+  "ExtraField4": "numquam",
+  "ExtraField5": "delectus",
+  "InStock": 26056.076,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldLength": 113
     }
   }
 }

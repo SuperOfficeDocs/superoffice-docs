@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 435,
-  "Name": "Hudson-Sipes",
-  "CreatedDate": "2006-11-03T13:14:10.8360396+01:00",
-  "UpdatedDate": "2020-04-10T13:14:10.8360396+02:00",
+  "ForeignAppId": 614,
+  "Name": "Boyer-Keeling",
+  "CreatedDate": "2015-02-05T14:45:12.8181931+01:00",
+  "UpdatedDate": "2023-08-21T14:45:12.8181931+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 671,
-      "Name": "Kshlerin, Oberbrunner and D'Amore",
-      "CreatedDate": "2008-08-30T13:14:10.8360396+02:00",
-      "UpdatedDate": "2023-07-28T13:14:10.8360396+02:00",
-      "AssociateFullName": "Gabriel Metz",
-      "CreatedBy": "qui",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 745
+      "ForeignDeviceId": 695,
+      "Name": "Ward Group",
+      "CreatedDate": "2006-01-27T14:45:12.8181931+01:00",
+      "UpdatedDate": "2001-10-12T14:45:12.8181931+02:00",
+      "AssociateFullName": "Jillian Princess Parker III",
+      "CreatedBy": "et",
+      "UpdatedBy": "ducimus",
+      "DeviceIdentifier": "itaque",
+      "ForeignAppId": 291
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 763,
-  "Name": "Bashirian-Collier",
-  "CreatedDate": "2004-10-15T13:14:10.8360396+02:00",
-  "UpdatedDate": "2018-04-13T13:14:10.8360396+02:00",
+  "ForeignAppId": 240,
+  "Name": "Cormier-Glover",
+  "CreatedDate": "2001-10-23T14:45:12.8181931+02:00",
+  "UpdatedDate": "2013-11-10T14:45:12.8181931+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 357,
-      "Name": "Paucek, Gaylord and Eichmann",
-      "CreatedDate": "2018-05-31T13:14:10.8360396+02:00",
-      "UpdatedDate": "2012-02-20T13:14:10.8360396+01:00",
-      "AssociateFullName": "Miss Marcelina Ledner V",
-      "CreatedBy": "vel",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "quas",
-      "ForeignAppId": 932,
+      "ForeignDeviceId": 852,
+      "Name": "Hackett, Spinka and Kertzmann",
+      "CreatedDate": "2007-07-20T14:45:12.8181931+02:00",
+      "UpdatedDate": "2017-05-03T14:45:12.8181931+02:00",
+      "AssociateFullName": "Bryon Fahey",
+      "CreatedBy": "est",
+      "UpdatedBy": "tempora",
+      "DeviceIdentifier": "quidem",
+      "ForeignAppId": 112,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 860
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 441
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.GetContactAppointmentsByTask
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.GetContactAppointmentsByTask'>GetContactAppointmentsByTask</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.GetContactAppointmentsByTask'>GetContactAppointmentsByTask</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeGetContactAppointmentsByTask
 ```cs

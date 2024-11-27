@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Aufderhar, Stoltenberg and Koch",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 609,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false
+  "Id": 957,
+  "Name": "Monahan-Bogan",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 942,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Smitham Group",
-  "Tooltip": "laboriosam",
+  "Id": 285,
+  "Name": "McDermott Group",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 319,
+  "Rank": 701,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "illo",
-  "InUseByUserDefinedFields": true,
+  "ListType": "suscipit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 19
     }
   }
 }

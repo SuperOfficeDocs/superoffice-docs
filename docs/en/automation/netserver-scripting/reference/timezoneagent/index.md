@@ -10,7 +10,7 @@ so.envir: onsite
 
 # TimeZoneAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITimeZoneAgent'>TimeZoneAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ITimeZoneAgent'>TimeZoneAgent</see> that can trigger server-side event scripts.
 
 * [CheckNewTimeZoneDataAvailable](checknewtimezonedataavailable.md)
 * [DeleteTimeZones](deletetimezones.md)

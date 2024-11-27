@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetDocumentTemplateList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetDocumentTemplateList'>GetDocumentTemplateList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetDocumentTemplateList'>GetDocumentTemplateList</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetDocumentTemplateList
 ```cs

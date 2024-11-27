@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # RelationAgent.SaveContactRelation
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation'>SaveContactRelation</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IRelationAgent.SaveContactRelation'>SaveContactRelation</see> method on the <see cref='IRelationAgent'>IRelationAgent</see>  service agent.
 
 ## BeforeSaveContactRelation
 ```cs

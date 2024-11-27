@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Ernser, Gulgowski and Erdman",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "Rank": 841,
+  "Id": 181,
+  "Name": "Howe-Gusikowski",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 641,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 15
     }
   },
   "_Links": {

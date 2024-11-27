@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 243,
-  "Name": "Lebsack Inc and Sons",
-  "Description": "Automated client-server algorithm",
-  "DefaultHeight": 851,
-  "DefaultWidth": 996,
+  "DashboardTileDefinitionId": 791,
+  "Name": "Terry, Klein and Wilkinson",
+  "Description": "Synergistic value-added artificial intelligence",
+  "DefaultHeight": 605,
+  "DefaultWidth": 538,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Larkin, Bartoletti and Feest",
-  "SelectionId": 776,
+  "EntityName": "Rodriguez, Herzog and Jones",
+  "SelectionId": 833,
   "CurrencyMode": "Base",
-  "CurrencyCode": "eaque",
+  "CurrencyCode": "illo",
   "Measure": "Average",
-  "MeasureField": "cupiditate",
-  "SortBy": "incidunt",
-  "LayoutConfig": "officia",
-  "SecondarySelectionId": 540,
-  "MeasureByField": "incidunt",
+  "MeasureField": "at",
+  "SortBy": "aut",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 386,
+  "MeasureByField": "autem",
   "Usage": "Dashboard",
-  "ProviderName": "Blanda LLC",
+  "ProviderName": "Bode-Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 855
     }
   }
 }

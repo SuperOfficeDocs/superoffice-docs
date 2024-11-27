@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.FindRolesWithoutFunctionalRights
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.FindRolesWithoutFunctionalRights'>FindRolesWithoutFunctionalRights</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.FindRolesWithoutFunctionalRights'>FindRolesWithoutFunctionalRights</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeFindRolesWithoutFunctionalRights
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.CreateDefaultForeignAppEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity'>CreateDefaultForeignAppEntity</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.CreateDefaultForeignAppEntity'>CreateDefaultForeignAppEntity</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeCreateDefaultForeignAppEntity
 ```cs

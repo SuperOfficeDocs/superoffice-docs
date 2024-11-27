@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Konopelski Inc and Sons",
-    "Tooltip": "temporibus",
+    "HeadingId": 939,
+    "Name": "Schumm Group",
+    "Tooltip": "animi",
     "Deleted": true,
-    "Rank": 178,
-    "UdListDefinitionId": 781,
+    "Rank": 983,
+    "UdListDefinitionId": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

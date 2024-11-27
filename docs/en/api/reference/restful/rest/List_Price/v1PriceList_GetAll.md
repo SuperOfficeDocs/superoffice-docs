@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=ipsa
-GET /api/v1/Pricelist?$top=544
-GET /api/v1/Pricelist?$skip=108
+GET /api/v1/Pricelist?$entities=fugit
+GET /api/v1/Pricelist?$top=529
+GET /api/v1/Pricelist?$skip=671
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=sit
+GET /api/v1/Pricelist?$context=magnam
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "consequatur",
+  "odata.nextLink": "ea",
   "value": [
     {
-      "PrimaryKey": 6899,
+      "PrimaryKey": 1369,
       "EntityName": "person",
-      "personId": 6899,
-      "fullName": "Colin Rippin"
+      "personId": 1369,
+      "fullName": "Madie Feeney"
     },
     {
-      "PrimaryKey": 5860,
+      "PrimaryKey": 2082,
       "EntityName": "person",
-      "personId": 5860,
-      "fullName": "Everett Fadel III"
+      "personId": 2082,
+      "fullName": "River Little"
     }
   ]
 }

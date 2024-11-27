@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 447,
-  "AttachmentId": "aliquam"
+  "DocId": 993,
+  "AttachmentId": "ullam"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended needs-based software",
-  "Filename": "sunt",
-  "Size": 449,
-  "Type": "consequatur",
-  "Encoding": "maiores",
-  "Id": "vero",
-  "Disposition": "ullam",
+  "Description": "Switchable content-based system engine",
+  "Filename": "nam",
+  "Size": 429,
+  "Type": "debitis",
+  "Encoding": "voluptatem",
+  "Id": "consequatur",
+  "Disposition": "quia",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 353
     }
   }
 }

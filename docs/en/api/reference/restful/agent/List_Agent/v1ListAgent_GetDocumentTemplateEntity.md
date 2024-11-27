@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=278
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=295
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 121,
-  "Name": "Purdy-Pollich",
-  "Tooltip": "consequatur",
-  "SaveInDb": 502,
-  "Filename": "quis",
-  "DefaultOref": "asperiores",
+  "DocumentTemplateId": 956,
+  "Name": "Renner Group",
+  "Tooltip": "asperiores",
+  "SaveInDb": 968,
+  "Filename": "illo",
+  "DefaultOref": "molestiae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 509,
-  "IntentId": 842,
+  "AutoeventId": 146,
+  "IntentId": 434,
   "IsDefaultPublished": true,
-  "Rank": 405,
-  "LoadTemplateFromPlugin": 242,
-  "MimeType": "cum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 265,
+  "Rank": 613,
+  "LoadTemplateFromPlugin": 625,
+  "MimeType": "doloremque",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 811,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lue_kreiger@schillerborer.co.uk",
+  "EmailSubject": "roy.corwin@nikolaus.com",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "myrtle_lebsack@herzog.biz",
+  "SenderEmailAddress": "armani_morar@welchbraun.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 827
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AssociateAgent.GetEncryptionKey
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAssociateAgent.GetEncryptionKey'>GetEncryptionKey</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAssociateAgent.GetEncryptionKey'>GetEncryptionKey</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
 
 ## BeforeGetEncryptionKey
 ```cs

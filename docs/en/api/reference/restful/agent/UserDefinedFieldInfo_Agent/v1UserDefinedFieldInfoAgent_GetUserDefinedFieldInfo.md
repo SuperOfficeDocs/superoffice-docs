@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=299
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=973
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 896,
-  "ColumnId": 948,
-  "FieldDefault": "amet",
-  "FieldHeight": 541,
-  "FieldLabel": "quia",
-  "FieldLeft": 63,
-  "FieldTop": 349,
+  "UDefFieldId": 265,
+  "ColumnId": 61,
+  "FieldDefault": "cupiditate",
+  "FieldHeight": 372,
+  "FieldLabel": "nisi",
+  "FieldLeft": 343,
+  "FieldTop": 368,
   "FieldType": "Checkbox",
-  "FieldWidth": 288,
-  "FormatMask": "reprehenderit",
+  "FieldWidth": 336,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 476,
-  "LabelLeft": 687,
-  "LabelTop": 610,
-  "LabelWidth": 649,
-  "LastVersionId": 499,
-  "ListTableId": 983,
-  "IsMandatory": true,
+  "LabelHeight": 848,
+  "LabelLeft": 113,
+  "LabelTop": 484,
+  "LabelWidth": 732,
+  "LastVersionId": 905,
+  "ListTableId": 916,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 266,
-  "ProgId": "voluptas",
+  "Page1LineNo": 425,
+  "ProgId": "pariatur",
   "IsReadOnly": false,
-  "ShortLabel": "iure",
-  "TabOrder": 219,
-  "TextLength": 125,
-  "Tooltip": "quam",
-  "UdefIdentity": 192,
-  "UDListDefinitionId": 70,
+  "ShortLabel": "quidem",
+  "TabOrder": 670,
+  "TextLength": 66,
+  "Tooltip": "et",
+  "UdefIdentity": 875,
+  "UDListDefinitionId": 278,
   "Justification": "Center",
-  "Version": 253,
-  "TemplateVariableName": "Volkman Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Kautzer Inc and Sons",
+  "Version": 595,
+  "TemplateVariableName": "Jenkins, Witting and Price",
+  "HasBeenPublished": false,
+  "MdoListName": "Johns-Volkman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 453
     }
   }
 }

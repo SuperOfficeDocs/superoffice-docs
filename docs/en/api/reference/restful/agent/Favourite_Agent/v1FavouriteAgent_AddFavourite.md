@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Klein Group",
-  "RecordId": 9,
-  "AssociateId": 410,
-  "ExtraInfo": "ipsum"
+  "TableName": "Konopelski Group",
+  "RecordId": 372,
+  "AssociateId": 283,
+  "ExtraInfo": "dicta"
 }
 ```
 

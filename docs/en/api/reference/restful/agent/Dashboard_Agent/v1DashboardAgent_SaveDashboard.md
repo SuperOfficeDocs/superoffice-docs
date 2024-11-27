@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 346,
-  "AssociateId": 530,
-  "Caption": "modi",
+  "DashboardId": 219,
+  "AssociateId": 522,
+  "Caption": "dicta",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 852,
-      "Caption": "quasi",
-      "Description": "Team-oriented even-keeled orchestration",
-      "ChartName": "Mayert, Rogahn and Parisian",
-      "ChartId": "et",
+      "DashboardTileId": 688,
+      "Caption": "quis",
+      "Description": "Integrated background function",
+      "ChartName": "Larson-Doyle",
+      "ChartId": "sint",
       "IsDefault": true,
-      "AssociateId": 616,
-      "GroupId": 366,
-      "SelectionId": 622,
-      "Config": "cum",
+      "AssociateId": 372,
+      "GroupId": 899,
+      "SelectionId": 693,
+      "Config": "beatae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 990,
-  "AssociateId": 387,
-  "Caption": "nostrum",
+  "DashboardId": 381,
+  "AssociateId": 851,
+  "Caption": "ea",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 460,
-      "Caption": "fugit",
-      "Description": "User-centric real-time access",
-      "ChartName": "Donnelly, Weimann and Schinner",
-      "ChartId": "praesentium",
+      "DashboardTileId": 494,
+      "Caption": "voluptatem",
+      "Description": "Sharable web-enabled architecture",
+      "ChartName": "Rempel, Greenfelder and Bins",
+      "ChartId": "nostrum",
       "IsDefault": false,
-      "AssociateId": 243,
-      "GroupId": 372,
-      "SelectionId": 465,
-      "Config": "minima",
+      "AssociateId": 800,
+      "GroupId": 967,
+      "SelectionId": 911,
+      "Config": "dolor",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 34
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

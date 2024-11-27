@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 65,
-  "MessageId": "excepturi",
-  "Subject": "eligendi",
+  "ServerId": 272,
+  "MessageId": "iure",
+  "Subject": "nobis",
   "From": null,
   "To": [
     {
-      "ContactId": 682,
-      "ContactName": "Reichert, Corkery and Heaney",
-      "PersonId": 662,
-      "PersonName": "Stoltenberg, Waters and Cronin",
-      "AssociateId": 740,
-      "Address": "sed",
-      "EmailId": 1001,
+      "ContactId": 513,
+      "ContactName": "Stoltenberg LLC",
+      "PersonId": 861,
+      "PersonName": "Krajcik Inc and Sons",
+      "AssociateId": 746,
+      "Address": "aperiam",
+      "EmailId": 516,
       "DuplicatePersonIds": [
-        466,
-        81
+        640,
+        873
       ],
-      "Name": "Hansen, Klein and Mohr",
+      "Name": "Heaney-Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 556
         }
       }
     }
   ],
-  "Sent": "2010-12-26T13:14:05.96016+01:00",
+  "Sent": "1998-11-02T14:45:05.5220031+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 118,
+  "Size": 307,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldLength": 107
     }
   }
 }

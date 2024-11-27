@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Halvorson-Pfeffer",
-    "AssociateId": 16,
-    "DetailsTable": 994,
-    "DetailsRecord": 590,
+    "Id": 669,
+    "Name": "Medhurst-Walker",
+    "AssociateId": 566,
+    "DetailsTable": 529,
+    "DetailsRecord": 431,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "suscipit",
-      "ParameterObject2": "ea"
+      "ParameterObject1": "sint",
+      "ParameterObject2": "id"
     },
-    "LastStarted": "2020-10-30T13:14:11.1954363+01:00",
-    "Created": "2006-08-19T13:14:11.1954363+02:00",
-    "StartCount": 194,
-    "DatabaseSerialNumber": "1139936",
-    "Context": "deserunt",
-    "Result": "neque",
+    "LastStarted": "2017-06-27T14:45:13.3961895+02:00",
+    "Created": "2000-01-13T14:45:13.3961895+01:00",
+    "StartCount": 678,
+    "DatabaseSerialNumber": "664490",
+    "Context": "velit",
+    "Result": "explicabo",
     "State": "All",
-    "Description": "User-friendly solution-oriented groupware",
-    "Response": "laboriosam",
-    "Request": "nihil",
-    "ProgressDescription": "Persevering impactful instruction set",
-    "ProgressPercent": 41,
-    "FileName": "Mann, Ritchie and Runolfsdottir",
+    "Description": "Face to face foreground budgetary management",
+    "Response": "quisquam",
+    "Request": "voluptatibus",
+    "ProgressDescription": "Fully-configurable optimizing architecture",
+    "ProgressPercent": 832,
+    "FileName": "Cremin Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 434
       }
     }
   }

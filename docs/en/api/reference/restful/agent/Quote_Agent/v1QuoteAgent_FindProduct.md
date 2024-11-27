@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 587,
-  "UserInput": "et",
-  "PriceListKey": "eum"
+  "QuoteAlternativeId": 304,
+  "UserInput": "quia",
+  "PriceListKey": "maxime"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 896,
-    "ERPProductKey": "debitis",
-    "ERPPriceListKey": "neque",
-    "Name": "Koss LLC",
-    "Description": "Visionary cohesive process improvement",
-    "Code": "cupiditate",
-    "PriceUnit": "cumque",
-    "QuantityUnit": "occaecati",
+    "ProductId": 536,
+    "ERPProductKey": "facilis",
+    "ERPPriceListKey": "ut",
+    "Name": "Hauck, Hoppe and Parker",
+    "Description": "Multi-layered multimedia methodology",
+    "Code": "temporibus",
+    "PriceUnit": "nulla",
+    "QuantityUnit": "ut",
     "IsSubscription": true,
-    "SubscriptionUnit": "assumenda",
-    "DefaultSubscriptionQuantity": 21624.6,
-    "ItemNumber": "951377",
+    "SubscriptionUnit": "amet",
+    "DefaultSubscriptionQuantity": 10345.333999999999,
+    "ItemNumber": "1214195",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "aliquid",
-    "ProductTypeKey": "consectetur",
-    "VAT": 9195.155999999999,
-    "VATInfo": "omnis",
-    "UnitCost": 12517.196,
-    "UnitMinimumPrice": 25877.438,
-    "UnitListPrice": 15312.724,
-    "InAssortment": true,
-    "Supplier": "omnis",
-    "SupplierCode": "reprehenderit",
-    "Rights": "eligendi",
-    "Rule": "rerum",
+    "ProductFamilyKey": "quos",
+    "ProductTypeKey": "ut",
+    "VAT": 11354.482,
+    "VATInfo": "qui",
+    "UnitCost": 5703.88,
+    "UnitMinimumPrice": 11968.746,
+    "UnitListPrice": 12551.67,
+    "InAssortment": false,
+    "Supplier": "praesentium",
+    "SupplierCode": "alias",
+    "Rights": "et",
+    "Rule": "rem",
     "ExtraInfo": [
       {
-        "Name": "Kirlin Group",
-        "Value": "dolores",
+        "Name": "Kovacek-Blanda",
+        "Value": "eos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 939
           }
         }
       },
       {
-        "Name": "Kirlin Group",
-        "Value": "dolores",
+        "Name": "Kovacek-Blanda",
+        "Value": "eos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 939
           }
         }
       }
     ],
-    "RawExtraInfo": "beatae",
-    "ExtraField1": "et",
-    "ExtraField2": "qui",
-    "ExtraField3": "sapiente",
-    "ExtraField4": "minima",
-    "ExtraField5": "nulla",
-    "InStock": 8969.508,
+    "RawExtraInfo": "itaque",
+    "ExtraField1": "vero",
+    "ExtraField2": "atque",
+    "ExtraField3": "nostrum",
+    "ExtraField4": "voluptatem",
+    "ExtraField5": "sunt",
+    "InStock": 22903.272,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 209
       }
     }
   }

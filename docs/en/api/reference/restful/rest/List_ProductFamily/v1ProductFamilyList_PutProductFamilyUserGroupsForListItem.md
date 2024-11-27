@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Skiles, Satterfield and Rodriguez",
-    "ToolTip": "Odio sed.",
-    "Deleted": true,
-    "Rank": 543,
-    "Type": "praesentium",
-    "ColorBlock": 279,
-    "IconHint": "ut",
+    "Id": 323,
+    "Name": "Farrell Inc and Sons",
+    "ToolTip": "Vitae illo aspernatur sed necessitatibus.",
+    "Deleted": false,
+    "Rank": 71,
+    "Type": "molestiae",
+    "ColorBlock": 966,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2002-10-03T13:14:11.4610767+02:00",
+    "LastChanged": "2002-07-10T14:45:13.8023488+02:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Brakus-Langworth",
-        "ToolTip": "Enim ut consequuntur voluptate officia.",
-        "Deleted": false,
-        "Rank": 324,
-        "Type": "sed",
-        "ColorBlock": 207,
-        "IconHint": "similique",
+        "Id": 37,
+        "Name": "VonRueden, Collier and West",
+        "ToolTip": "Sed nobis.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "quis",
+        "ColorBlock": 171,
+        "IconHint": "dolorem",
         "Selected": true,
-        "LastChanged": "2008-04-03T13:14:11.4610767+02:00",
+        "LastChanged": "2012-05-05T14:45:13.8023488+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "enim",
+        "ExtraInfo": "facere",
+        "StyleHint": "voluptatibus",
         "Hidden": true,
-        "FullName": "Santiago Stracke"
+        "FullName": "Ms. Nickolas Gustave Jenkins"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "qui",
+    "ExtraInfo": "numquam",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Darius McClure"
+    "FullName": "Dr. Darrin Reagan Murray"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Kshlerin Inc and Sons",
-    "ToolTip": "Omnis blanditiis necessitatibus culpa facilis quasi.",
+    "Id": 757,
+    "Name": "Heaney, Rutherford and Zemlak",
+    "ToolTip": "Enim numquam.",
     "Deleted": true,
-    "Rank": 717,
-    "Type": "provident",
-    "ColorBlock": 69,
-    "IconHint": "ut",
+    "Rank": 521,
+    "Type": "laborum",
+    "ColorBlock": 986,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2013-08-07T13:14:11.4610767+02:00",
+    "LastChanged": "2003-02-27T14:45:13.8023488+01:00",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Simonis, Carroll and Lowe",
-        "ToolTip": "Atque aut rerum voluptas eius.",
+        "Id": 463,
+        "Name": "Schulist Group",
+        "ToolTip": "Ut commodi.",
         "Deleted": false,
-        "Rank": 409,
-        "Type": "nulla",
-        "ColorBlock": 29,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2002-02-07T13:14:11.4610767+01:00",
+        "Rank": 474,
+        "Type": "eius",
+        "ColorBlock": 800,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2008-11-18T14:45:13.8023488+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "modi",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Alvina Kelley Stamm PhD",
+        "FullName": "Donald Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldType": "System.String",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Forest Kuhn DDS",
+    "FullName": "Greg Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldType": "System.String",
+        "FieldLength": 468
       }
     }
   }

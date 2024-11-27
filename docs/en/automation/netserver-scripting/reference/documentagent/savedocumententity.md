@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SaveDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SaveDocumentEntity'>SaveDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SaveDocumentEntity'>SaveDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSaveDocumentEntity
 ```cs

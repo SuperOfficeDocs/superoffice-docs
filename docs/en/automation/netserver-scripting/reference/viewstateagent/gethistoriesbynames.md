@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.GetHistoriesByNames
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames'>GetHistoriesByNames</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.GetHistoriesByNames'>GetHistoriesByNames</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeGetHistoriesByNames
 ```cs

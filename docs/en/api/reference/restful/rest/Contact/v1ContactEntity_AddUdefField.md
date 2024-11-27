@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 38,
-  "ColumnId": 559,
-  "FieldDefault": "quasi",
-  "FieldHeight": 322,
-  "FieldLabel": "minus",
-  "FieldLeft": 613,
-  "FieldTop": 886,
+  "UDefFieldId": 767,
+  "ColumnId": 267,
+  "FieldDefault": "ab",
+  "FieldHeight": 851,
+  "FieldLabel": "qui",
+  "FieldLeft": 196,
+  "FieldTop": 734,
   "FieldType": "Checkbox",
-  "FieldWidth": 523,
-  "FormatMask": "sit",
+  "FieldWidth": 608,
+  "FormatMask": "est",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 742,
-  "LabelLeft": 337,
-  "LabelTop": 510,
-  "LabelWidth": 64,
-  "LastVersionId": 635,
-  "ListTableId": 940,
+  "IsIndexed": true,
+  "LabelHeight": 864,
+  "LabelLeft": 52,
+  "LabelTop": 837,
+  "LabelWidth": 687,
+  "LastVersionId": 997,
+  "ListTableId": 171,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 845,
-  "ProgId": "iure",
+  "Page1LineNo": 78,
+  "ProgId": "quis",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 977,
-  "TextLength": 258,
-  "Tooltip": "quae",
-  "UdefIdentity": 214,
-  "UDListDefinitionId": 418,
+  "ShortLabel": "ut",
+  "TabOrder": 630,
+  "TextLength": 42,
+  "Tooltip": "et",
+  "UdefIdentity": 750,
+  "UDListDefinitionId": 621,
   "Justification": "Center",
-  "Version": 522,
-  "TemplateVariableName": "Donnelly-VonRueden",
+  "Version": 459,
+  "TemplateVariableName": "Wehner, Lakin and Schaefer",
   "HasBeenPublished": false,
-  "MdoListName": "Romaguera Group",
+  "MdoListName": "Cummerata, Keebler and Miller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 879
     }
   }
 }

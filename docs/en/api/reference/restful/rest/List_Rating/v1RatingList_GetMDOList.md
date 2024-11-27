@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=laborum
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Wisozk-Swift",
-    "ToolTip": "Ea vel et iste enim ipsum veritatis repellendus.",
-    "Deleted": true,
-    "Rank": 574,
-    "Type": "tenetur",
+    "Id": 850,
+    "Name": "Pfannerstill LLC",
+    "ToolTip": "Deserunt iure voluptatem.",
+    "Deleted": false,
+    "Rank": 500,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Hamill-Upton",
-        "ToolTip": "Sed id et tenetur.",
+        "Id": 553,
+        "Name": "Hilpert Inc and Sons",
+        "ToolTip": "Qui non atque eaque delectus.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "facilis",
+        "Rank": 468,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "esse",
-        "ColorBlock": 682,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "minus",
-        "FullName": "Serena Streich",
+        "IconHint": "aliquam",
+        "ColorBlock": 609,
+        "ExtraInfo": "totam",
+        "StyleHint": "vel",
+        "FullName": "Nikita Hattie Kunde I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 390
+            "FieldType": "System.String",
+            "FieldLength": 259
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 633,
-    "ExtraInfo": "debitis",
-    "StyleHint": "tempore",
-    "FullName": "Mrs. Iva Oberbrunner IV",
+    "IconHint": "beatae",
+    "ColorBlock": 779,
+    "ExtraInfo": "laborum",
+    "StyleHint": "necessitatibus",
+    "FullName": "Georgiana Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 383
       }
     }
   }

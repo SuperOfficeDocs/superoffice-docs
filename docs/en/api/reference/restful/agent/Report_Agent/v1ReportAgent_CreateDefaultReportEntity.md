@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 166,
+  "ReportId": 394,
   "ReportCategory": "All",
-  "Description": "Cross-platform next generation protocol",
+  "Description": "Synergistic asynchronous intranet",
   "ReportLayout": "CalendarMonth",
-  "Name": "Swaniawski, Wyman and Corwin",
-  "AssociateId": 212,
-  "TemplateId": 114,
+  "Name": "West, Smitham and Willms",
+  "AssociateId": 930,
+  "TemplateId": 471,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldLength": 439
     }
   }
 }

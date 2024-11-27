@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 273,
-  "TableName": "Tremblay-Dach",
+  "RoleId": 341,
+  "TableName": "Lynch, Durgan and Sipes",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "labore"
+  "DataRightValue": "quasi"
 }
 ```
 

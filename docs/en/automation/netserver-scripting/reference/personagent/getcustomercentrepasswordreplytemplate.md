@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetCustomerCentrePasswordReplyTemplate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetCustomerCentrePasswordReplyTemplate'>GetCustomerCentrePasswordReplyTemplate</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetCustomerCentrePasswordReplyTemplate'>GetCustomerCentrePasswordReplyTemplate</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetCustomerCentrePasswordReplyTemplate
 ```cs

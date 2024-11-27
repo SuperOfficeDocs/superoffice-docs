@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 889,
-  "AttachmentId": "earum"
+  "MailItemId": 219,
+  "AttachmentId": "totam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled even-keeled matrix",
-  "Filename": "velit",
-  "Size": 402,
-  "Type": "dolores",
-  "Encoding": "ea",
-  "Id": "doloremque",
-  "Disposition": "exercitationem",
+  "Description": "Right-sized full-range model",
+  "Filename": "veniam",
+  "Size": 654,
+  "Type": "ut",
+  "Encoding": "praesentium",
+  "Id": "vel",
+  "Disposition": "dolorem",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

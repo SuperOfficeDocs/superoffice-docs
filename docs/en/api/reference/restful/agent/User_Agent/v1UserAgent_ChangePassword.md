@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 789,
-  "OldPassword": "tempora",
-  "NewPassword": "repellendus"
+  "AssociateId": 294,
+  "OldPassword": "corrupti",
+  "NewPassword": "incidunt"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

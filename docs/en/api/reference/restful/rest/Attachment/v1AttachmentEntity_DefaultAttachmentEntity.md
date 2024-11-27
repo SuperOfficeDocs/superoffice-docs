@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 185,
-  "Name": "Blick Group",
-  "ContentType": "harum",
-  "AttSize": 761,
-  "InlineImage": true,
-  "ContentId": "cum",
-  "AuthKey": "est",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 333,
+  "Name": "Schaden, Zemlak and Gleason",
+  "ContentType": "voluptas",
+  "AttSize": 387,
+  "InlineImage": false,
+  "ContentId": "dicta",
+  "AuthKey": "earum",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

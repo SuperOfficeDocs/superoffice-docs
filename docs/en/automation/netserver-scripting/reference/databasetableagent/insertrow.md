@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.InsertRow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow'>InsertRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.InsertRow'>InsertRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeInsertRow
 ```cs

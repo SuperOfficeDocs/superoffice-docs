@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 339
+  "ProjectId": 824
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 203,
-  "StartDate": "2010-12-30T13:14:06.2883049+01:00",
-  "EndDate": "2011-06-22T13:14:06.2883049+02:00",
+  "AppointmentId": 305,
+  "StartDate": "2018-06-20T14:45:06.0062702+02:00",
+  "EndDate": "2001-09-26T14:45:06.0062702+02:00",
   "Type": "BookingForChecklist",
-  "Task": "in",
-  "AssociateFullName": "Barbara Nat Streich DDS",
-  "ContactName": "Thiel-Prosacco",
-  "Description": "Integrated responsive encryption",
-  "PersonFullName": "Allison Homenick",
-  "PersonId": 350,
-  "ContactId": 145,
-  "ProjectId": 120,
-  "ProjectName": "Wunsch Inc and Sons",
+  "Task": "ipsum",
+  "AssociateFullName": "Mrs. Autumn Jamey Murphy DVM",
+  "ContactName": "Heidenreich-Graham",
+  "Description": "Customer-focused multimedia system engine",
+  "PersonFullName": "Yesenia Wiza",
+  "PersonId": 272,
+  "ContactId": 422,
+  "ProjectId": 55,
+  "ProjectName": "Volkman, Graham and Dicki",
   "IsPublished": false,
-  "AssociateId": 907,
-  "ColorIndex": 885,
+  "AssociateId": 771,
+  "ColorIndex": 46,
   "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 231,
-  "PriorityName": "Schamberger, Moore and Gottlieb",
+  "PriorityId": 379,
+  "PriorityName": "Goodwin, Hettinger and Flatley",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "1998-06-11T13:14:06.2883049+02:00",
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2020-09-26T14:45:06.0062702+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2001-04-14T13:14:06.2883049+02:00",
-  "RecurringEndDate": "2007-03-09T13:14:06.2883049+01:00",
-  "MotherId": 833,
-  "AssignedBy": 267,
-  "AssignedByFullName": "Natalie Hahn",
+  "RecurringStartDate": "2006-02-04T14:45:06.0062702+01:00",
+  "RecurringEndDate": "2008-01-05T14:45:06.0062702+01:00",
+  "MotherId": 95,
+  "AssignedBy": 364,
+  "AssignedByFullName": "Prof. Malcolm Upton II",
   "RejectReason": "",
-  "Location": "qui",
-  "AlarmLeadTime": "omnis",
-  "SaleId": 483,
-  "SaleName": "Kutch, Parker and Hackett",
-  "AssociateName": "Kovacek, Crist and Schultz",
-  "CreatedDate": "2020-06-28T13:14:06.2883049+02:00",
-  "CreatedBy": "commodi",
-  "CreatedByFullName": "Miss Virginie Swaniawski",
-  "CreatedByAssociateId": 649,
+  "Location": "libero",
+  "AlarmLeadTime": "eos",
+  "SaleId": 61,
+  "SaleName": "Walsh-Cole",
+  "AssociateName": "Haag Inc and Sons",
+  "CreatedDate": "2014-09-19T14:45:06.0062702+02:00",
+  "CreatedBy": "voluptatem",
+  "CreatedByFullName": "Cameron Halvorson",
+  "CreatedByAssociateId": 337,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 488,
-  "Title": "nihil",
-  "Agenda": "ut",
-  "InternalNotes": "nemo",
+  "PreferredTZLocation": 266,
+  "Title": "architecto",
+  "Agenda": "quas",
+  "InternalNotes": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

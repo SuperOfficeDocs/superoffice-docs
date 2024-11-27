@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetCredentialTypesForUserType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetCredentialTypesForUserType'>GetCredentialTypesForUserType</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetCredentialTypesForUserType'>GetCredentialTypesForUserType</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetCredentialTypesForUserType
 ```cs

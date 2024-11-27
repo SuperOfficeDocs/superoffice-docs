@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.ExecuteEventHandlers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers'>ExecuteEventHandlers</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.ExecuteEventHandlers'>ExecuteEventHandlers</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeExecuteEventHandlers
 ```cs

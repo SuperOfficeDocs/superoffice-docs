@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "alias",
-  "ProviderName": "Bauch, Runolfsdottir and Will",
-  "StorageKey": "repellat",
+  "StorageType": "et",
+  "ProviderName": "Cruickshank, Kreiger and Rosenbaum",
+  "StorageKey": "dolorum",
   "StaticColumns": [
-    "quia",
-    "harum"
+    "voluptatem",
+    "nihil"
   ],
-  "Context": "rerum"
+  "Context": "adipisci"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kozey, Koelpin and Jerde",
-      "Operator": "consequatur",
+      "Name": "Moen Inc and Sons",
+      "Operator": "ad",
       "Values": [
-        "laboriosam",
-        "illum"
+        "porro",
+        "accusamus"
       ],
       "DisplayValues": [
-        "et",
-        "pariatur"
+        "est",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 876,
+      "InterParenthesis": 97,
       "InterOperator": "And",
       "UniqueHash": 410
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rolfson, Schinner and Ankunding",
-      "DisplayTooltip": "voluptatibus",
-      "DisplayType": "sed",
+      "DisplayName": "Dibbert Inc and Sons",
+      "DisplayTooltip": "tempora",
+      "DisplayType": "ab",
       "CanOrderBy": true,
-      "Name": "Ratke, Murazik and Von",
-      "CanRestrictBy": true,
-      "RestrictionType": "veritatis",
-      "RestrictionListName": "Fadel LLC",
-      "IsVisible": false,
-      "ExtraInfo": "labore",
-      "Width": "voluptatibus",
-      "IconHint": "itaque",
-      "HeadingIconHint": "quo"
+      "Name": "Toy-Pfannerstill",
+      "CanRestrictBy": false,
+      "RestrictionType": "aut",
+      "RestrictionListName": "O'Keefe Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "eaque",
+      "Width": "provident",
+      "IconHint": "voluptates",
+      "HeadingIconHint": "iusto"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schmitt-Rohan",
-      "PrimaryKey": 581,
+      "EntityName": "Schroeder Inc and Sons",
+      "PrimaryKey": 851,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "et",
-          "LinkHint": "soluta"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "consequuntur",
+          "LinkHint": "ullam"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "animi",
+      "LinkHint": "saepe",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 632
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kling-Terry",
-      "Description": "Seamless real-time capacity",
-      "Rank": 910,
+      "Name": "Okuneva, Jacobi and Ondricka",
+      "Description": "Devolved discrete workforce",
+      "Rank": 406,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kling-Terry",
-      "Description": "Seamless real-time capacity",
-      "Rank": 910,
+      "Name": "Okuneva, Jacobi and Ondricka",
+      "Description": "Devolved discrete workforce",
+      "Rank": 406,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 858
     }
   }
 }

@@ -20,6 +20,8 @@ generated: true
 
 * [POST Agents/Sentry/CanCreateAppointmentInAssociateDiaries](v1SentryAgent_CanCreateAppointmentInAssociateDiaries.md)
 
+* [POST Agents/Sentry/CanCreateAppointmentInEachAssociatesDiary](v1SentryAgent_CanCreateAppointmentInEachAssociatesDiary.md)
+
 * [POST Agents/Sentry/CanCreateAppointmentInAllDiaries](v1SentryAgent_CanCreateAppointmentInAllDiaries.md)
 
 * [POST Agents/Sentry/GetTableRightByContactOwnership](v1SentryAgent_GetTableRightByContactOwnership.md)

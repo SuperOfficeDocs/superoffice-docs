@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Haag-McKenzie",
-  "ContactGroupId": 434,
-  "ContactAssociateId": 378
+  "TableName": "Steuber Inc and Sons",
+  "ContactGroupId": 768,
+  "ContactAssociateId": 664
 }
 ```
 

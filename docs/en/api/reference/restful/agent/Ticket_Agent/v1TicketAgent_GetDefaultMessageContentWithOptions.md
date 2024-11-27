@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 652,
+  "TicketId": 576,
   "MessageActionType": "Forward",
-  "TicketMessageId": 401,
-  "TicketTypeId": 422,
+  "TicketMessageId": 814,
+  "TicketTypeId": 344,
   "ExcludeSignature": true
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "reiciendis",
+  "Body": "quod",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 556,
-      "Name": "White-Macejkovic",
-      "ContentType": "asperiores",
-      "AttSize": 735,
+      "AttachmentId": 470,
+      "Name": "Reichel, Tromp and Hills",
+      "ContentType": "pariatur",
+      "AttSize": 108,
       "InlineImage": false,
-      "ContentId": "numquam",
-      "AuthKey": "rem",
+      "ContentId": "necessitatibus",
+      "AuthKey": "facere",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 159
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }

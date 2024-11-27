@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BatchAgent.StartBatchJob
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBatchAgent.StartBatchJob'>StartBatchJob</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBatchAgent.StartBatchJob'>StartBatchJob</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
 
 ## BeforeStartBatchJob
 ```cs

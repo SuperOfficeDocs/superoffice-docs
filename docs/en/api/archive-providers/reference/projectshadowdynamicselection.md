@@ -322,17 +322,20 @@ Shadow contact provider for the dynamic Project provider.
 |appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/appointment/textId|int|Text ID| x |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
 |document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |document/time| *None* |Time: Time|  |
-|document/type|listAny|Type: Displays the type of an activity| x |
-|document/recordType|string|Record type : Shows the record type| x |
-|document/text|positiveString|Text: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/type|listAny|Type: Displays the type of an activity| x |
+|document/recordType|string|Record type : Shows the record type| x |
+|document/text|positiveString|Text: Displays a descriptive text for the item| x |
 |document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |document/contactId|listAny|Company ID: Database ID of company| x |
 |document/personId|listAny|Contact ID: Database ID of the contact row| x |
@@ -430,13 +433,13 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/rank|int|Rank: Displays a contact's current rank| x |
 |projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
 |projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
-|projectMember/personSource|listAny|Source: Source (Contact)| x |
-|projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
+|projectMember/personSource|listAny|Source: Source (Contact)| x |
+|projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 |projectMember/birthYear|int|Birth year: Displays contact's birth year| x |
 |projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
 |projectMember/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
@@ -534,13 +537,13 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
 |projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
 |projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-|projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
-|projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
-|projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
+|projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |projectMember/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |projectMember/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
@@ -638,13 +641,13 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/number|string|Number| x |
 |projectMember/code|string|Code| x |
 |projectMember/orgnr|string|VAT No.| x |
-|projectMember/stop|bool|Stop| x |
-|projectMember/contactNoMail|bool|No mailings (company| x |
-|projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/stop|bool|Stop| x |
+|projectMember/contactNoMail|bool|No mailings (company| x |
+|projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMember/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/registeredBy|associate|Registered by: The user who registered the data| x |
@@ -742,13 +745,13 @@ Shadow contact provider for the dynamic Project provider.
 |projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|projectMember/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|projectMember/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
-|projectMember/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|projectMember/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
+|projectMember/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |projectMember/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |projectMember/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |projectMember/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
@@ -795,7 +798,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelection?$select=getNoRows,document/keywords,projectMember/textId,projectMember/correspondingAssociate/ejDisplayName
+GET /api/v1/archive/ProjectShadowDynamicSelection?$select=rowKind,projectUdef/SuperOffice:8,sale/saleUdef/SuperOffice:5,projectMember/personRegisteredDate,projectMember/personAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

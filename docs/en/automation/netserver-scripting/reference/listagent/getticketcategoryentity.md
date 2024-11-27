@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetTicketCategoryEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetTicketCategoryEntity'>GetTicketCategoryEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetTicketCategoryEntity'>GetTicketCategoryEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetTicketCategoryEntity
 ```cs

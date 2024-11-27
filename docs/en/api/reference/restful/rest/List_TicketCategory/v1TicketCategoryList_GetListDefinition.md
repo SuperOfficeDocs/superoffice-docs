@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 192,
-  "Name": "Thiel, Corkery and Skiles",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 756,
+  "Id": 386,
+  "Name": "Considine Group",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 189,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

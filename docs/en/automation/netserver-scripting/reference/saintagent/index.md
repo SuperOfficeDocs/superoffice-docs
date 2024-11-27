@@ -10,7 +10,7 @@ so.envir: onsite
 
 # SaintAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ISaintAgent'>SaintAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ISaintAgent'>SaintAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultSaintConfiguration](createdefaultsaintconfiguration.md)
 * [CreateDefaultStatusMonitor](createdefaultstatusmonitor.md)

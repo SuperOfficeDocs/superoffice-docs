@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Aufderhar-Green",
-    "ToolTip": "Consequatur nam.",
-    "Deleted": true,
-    "Rank": 414,
-    "Type": "recusandae",
-    "ColorBlock": 398,
-    "IconHint": "nihil",
+    "Id": 632,
+    "Name": "Kovacek-Rempel",
+    "ToolTip": "Et eos eaque voluptate et et.",
+    "Deleted": false,
+    "Rank": 825,
+    "Type": "qui",
+    "ColorBlock": 553,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2004-09-17T13:14:11.3048179+02:00",
+    "LastChanged": "2015-04-08T14:45:13.552405+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Lakin-Runolfsson",
-        "ToolTip": "Quis et accusantium praesentium eligendi aut id.",
+        "Id": 617,
+        "Name": "Wiegand-Mitchell",
+        "ToolTip": "Illo dolor quia excepturi placeat.",
         "Deleted": false,
-        "Rank": 990,
-        "Type": "facilis",
-        "ColorBlock": 671,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-07-19T13:14:11.3048179+02:00",
+        "Rank": 470,
+        "Type": "consequatur",
+        "ColorBlock": 866,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "2013-06-09T14:45:13.552405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "iure",
+        "ExtraInfo": "sed",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Arnulfo Reinger"
+        "FullName": "Lilly Davis"
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "qui",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Ms. Saige Helmer Johnson MD"
+    "FullName": "Dr. Jackeline Katlynn Sanford Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Ortiz LLC",
-    "ToolTip": "Sit cupiditate illum quod id corrupti voluptatem et.",
-    "Deleted": true,
-    "Rank": 60,
-    "Type": "sunt",
-    "ColorBlock": 852,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2004-05-18T13:14:11.3048179+02:00",
+    "Id": 374,
+    "Name": "Hoppe-Schroeder",
+    "ToolTip": "Et quod sunt suscipit et veritatis sapiente maxime.",
+    "Deleted": false,
+    "Rank": 431,
+    "Type": "enim",
+    "ColorBlock": 529,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2019-08-29T14:45:13.552405+02:00",
     "ChildItems": [
       {
-        "Id": 873,
-        "Name": "Hyatt, Runolfsdottir and Donnelly",
-        "ToolTip": "Dolorem accusantium porro et incidunt.",
-        "Deleted": true,
-        "Rank": 19,
-        "Type": "omnis",
-        "ColorBlock": 922,
-        "IconHint": "velit",
+        "Id": 177,
+        "Name": "Schmeler, Flatley and Cormier",
+        "ToolTip": "Placeat ut non dolorem consequuntur.",
+        "Deleted": false,
+        "Rank": 259,
+        "Type": "et",
+        "ColorBlock": 394,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2020-04-09T13:14:11.3048179+02:00",
+        "LastChanged": "2003-02-11T14:45:13.552405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "facilis",
+        "ExtraInfo": "et",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Kiel Beier",
+        "FullName": "Prof. Icie Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mrs. Maeve Jaskolski IV",
+    "FullName": "Perry Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 572
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   }

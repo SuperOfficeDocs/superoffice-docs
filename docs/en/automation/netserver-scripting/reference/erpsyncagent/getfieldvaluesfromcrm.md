@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetFieldValuesFromCrm
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm'>GetFieldValuesFromCrm</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetFieldValuesFromCrm'>GetFieldValuesFromCrm</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetFieldValuesFromCrm
 ```cs

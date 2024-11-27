@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 565
+  "DocumentId": 829
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 709,
-      "ContactName": "Feil-Brown",
-      "PersonId": 951,
-      "PersonName": "Lueilwitz-Howell",
-      "AssociateId": 210,
-      "Address": "et",
-      "EmailId": 81,
+      "ContactId": 29,
+      "ContactName": "Abshire Group",
+      "PersonId": 732,
+      "PersonName": "Ledner Group",
+      "AssociateId": 128,
+      "Address": "aspernatur",
+      "EmailId": 413,
       "DuplicatePersonIds": [
-        556,
-        481
+        530,
+        326
       ],
-      "Name": "Rempel-Schneider",
+      "Name": "Johnston-Friesen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 841
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 318,
-      "ContactName": "Lockman-Dickens",
-      "PersonId": 674,
-      "PersonName": "Dickinson, Ondricka and Morissette",
-      "AssociateId": 310,
-      "Address": "delectus",
-      "EmailId": 579,
+      "ContactId": 313,
+      "ContactName": "Keebler-Conn",
+      "PersonId": 334,
+      "PersonName": "Orn-Heidenreich",
+      "AssociateId": 781,
+      "Address": "omnis",
+      "EmailId": 538,
       "DuplicatePersonIds": [
-        113,
-        755
+        90,
+        6
       ],
-      "Name": "Bahringer Group",
+      "Name": "Rosenbaum-Graham",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 826
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 42,
-      "ContactName": "Smitham-Zulauf",
-      "PersonId": 718,
-      "PersonName": "Goldner-Mayert",
-      "AssociateId": 289,
-      "Address": "praesentium",
-      "EmailId": 116,
+      "ContactId": 254,
+      "ContactName": "Wolf-Gerlach",
+      "PersonId": 628,
+      "PersonName": "Bauch Inc and Sons",
+      "AssociateId": 733,
+      "Address": "omnis",
+      "EmailId": 735,
       "DuplicatePersonIds": [
-        6,
-        22
+        832,
+        395
       ],
-      "Name": "Baumbach, Luettgen and Spencer",
+      "Name": "Wuckert-Anderson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 818
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "labore",
+  "Subject": "aliquam",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2005-05-03T13:14:05.9757861+02:00",
-  "Size": 570,
+  "Sent": "2001-10-29T14:45:05.5532468+01:00",
+  "Size": 10,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "voluptatem",
+  "MessageID": "quo",
+  "PlainBody": "enim",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 885,
+  "ServerId": 968,
   "Attachments": [
     {
-      "Description": "User-friendly multi-tasking parallelism",
-      "Filename": "expedita",
-      "Size": 102,
-      "Type": "aut",
-      "Encoding": "repudiandae",
-      "Id": "eaque",
-      "Disposition": "pariatur",
+      "Description": "Seamless zero defect conglomeration",
+      "Filename": "laudantium",
+      "Size": 561,
+      "Type": "tempora",
+      "Encoding": "assumenda",
+      "Id": "tempora",
+      "Disposition": "autem",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 664
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kris-Rippin",
+      "Name": "Hessel, Bashirian and Skiles",
       "Values": [
-        "pariatur",
-        "dolor"
+        "perferendis",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 828
         }
       }
     },
     {
-      "Name": "Kris-Rippin",
+      "Name": "Hessel, Bashirian and Skiles",
       "Values": [
-        "pariatur",
-        "dolor"
+        "perferendis",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 828
         }
       }
     }
   ],
-  "FolderName": "Bogisich, Lemke and Cummerata",
-  "EmailItemId": 560,
-  "AccountId": 855,
-  "ReceivedAt": "2002-01-19T13:14:05.991412+01:00",
+  "FolderName": "Frami, Conroy and Keebler",
+  "EmailItemId": 170,
+  "AccountId": 857,
+  "ReceivedAt": "1997-12-15T14:45:05.5532468+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-06-06T13:14:05.991412+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-12-03T14:45:05.5532468+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

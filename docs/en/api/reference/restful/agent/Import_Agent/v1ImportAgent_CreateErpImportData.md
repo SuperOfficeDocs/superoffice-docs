@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Jenkins, Weimann and Farrell",
-      "Operator": "qui",
+      "Name": "Wyman LLC",
+      "Operator": "placeat",
       "Values": [
-        "numquam",
-        "est"
+        "debitis",
+        "sunt"
       ],
       "DisplayValues": [
-        "ipsam",
-        "sequi"
+        "reprehenderit",
+        "sapiente"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 498,
+      "InterParenthesis": 291,
       "InterOperator": "And",
-      "UniqueHash": 604
+      "UniqueHash": 685
     }
   ],
   "Columns": [
-    "quo",
-    "veritatis"
+    "optio",
+    "sapiente"
   ],
-  "ConnectionId": 64,
+  "ConnectionId": 332,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "vitae",
-        "molestiae"
+        "officiis",
+        "repellendus"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sed",
+      "ExternalKey": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 699
+          "FieldType": "System.Int32",
+          "FieldLength": 892
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Christiansen, Huels and Kunze",
-      "DisplayName": "Vandervort LLC",
+      "Name": "Heathcote-Nienow",
+      "DisplayName": "Sawayn-Gislason",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 345
         }
       }
     },
     {
-      "Name": "Christiansen, Huels and Kunze",
-      "DisplayName": "Vandervort LLC",
+      "Name": "Heathcote-Nienow",
+      "DisplayName": "Sawayn-Gislason",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 345
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 299
+  "PersonId": 670
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 535,
-    "Name": "Feil, Doyle and Mohr",
-    "Value": "autem",
-    "CreatedDate": "2010-06-15T13:14:05.5226336+02:00",
-    "UpdatedDate": "2014-04-04T13:14:05.5226336+02:00",
-    "CreatedBy": "atque",
-    "UpdatedBy": "vitae",
+    "AudienceLayoutId": 417,
+    "Name": "Mann Inc and Sons",
+    "Value": "tempore",
+    "CreatedDate": "2019-05-13T14:45:04.8659001+02:00",
+    "UpdatedDate": "2009-03-13T14:45:04.8659001+01:00",
+    "CreatedBy": "et",
+    "UpdatedBy": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

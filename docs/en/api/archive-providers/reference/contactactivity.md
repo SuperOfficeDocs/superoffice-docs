@@ -773,6 +773,9 @@ Activity archive provider for the Company card
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -850,13 +853,13 @@ Activity archive provider for the Company card
 |mailingAddr/contact/streetAddress/line1|string|Company - Street address - Address 1: First line of the address| x |
 |mailingAddr/contact/streetAddress/line2|string|Company - Street address - Address 2: Second line of the address| x |
 |mailingAddr/contact/streetAddress/line3|string|Company - Street address - Address 3: Third line of the address| x |
-|mailingAddr/contact/streetAddress/county|string|Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
-|mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/streetAddress/county|string|Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
+|mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
@@ -954,13 +957,13 @@ Activity archive provider for the Company card
 |mailingAddr/contact/LastDoBySale|date|Company - Date of last non-completed sale|  |
 |mailingAddr/contact/NumberOfTickets|int|Company - Number of requests|  |
 |mailingAddr/contact/NumberOfTicketsInPeriod|int|Company - Number of requests in last 90 days|  |
-|mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
-|mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
-|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
+|mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
+|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
 |mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
 |mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
@@ -1058,13 +1061,13 @@ Activity archive provider for the Company card
 |mailingAddr/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
 |mailingAddr/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
 |mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
-|mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
+|mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
 |mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
 |mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 |mailingAddr/person/restrictionAddress/county|string|Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -1162,13 +1165,13 @@ Activity archive provider for the Company card
 |mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
 |mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
 |mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
-|mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
+|mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |mailingAddr/person/correspondingAssociate/isActive|bool|Contact - Active: Is this user active, and should be able to log in?| x |
 |mailingAddr/person/correspondingAssociate/isActiveText|bool|Contact - Active status: Is this user active, and should be able to log in?| x |
@@ -1251,7 +1254,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=chatTopic/description,person/correspondingAssociate/role,person/correspondingAssociate/ejDisplayName,contact/contactExtra/x_contact_dropdown,project/projectUrl/URLAddress
+GET /api/v1/archive/ContactActivity?$select=person/email/emailLastSent,sale/salePublish/isPublished,appointment/agenda,mailingId,mailingAddr/contact/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

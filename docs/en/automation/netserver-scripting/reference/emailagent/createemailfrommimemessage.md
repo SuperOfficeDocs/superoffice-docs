@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateEMailFromMimeMessage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateEMailFromMimeMessage'>CreateEMailFromMimeMessage</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateEMailFromMimeMessage'>CreateEMailFromMimeMessage</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateEMailFromMimeMessage
 ```cs

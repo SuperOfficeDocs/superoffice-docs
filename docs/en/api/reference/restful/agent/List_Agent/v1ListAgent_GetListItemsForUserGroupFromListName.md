@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Swaniawski Group",
-  "GroupId": 54
+  "UdListDefinitionName": "Wolff LLC",
+  "GroupId": 695
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Gislason Group",
-    "ToolTip": "Deleniti unde reprehenderit.",
-    "Deleted": true,
-    "Rank": 137,
-    "Type": "voluptatem",
-    "ColorBlock": 305,
-    "IconHint": "non",
+    "Id": 899,
+    "Name": "Watsica LLC",
+    "ToolTip": "Blanditiis voluptatem occaecati.",
+    "Deleted": false,
+    "Rank": 876,
+    "Type": "nobis",
+    "ColorBlock": 530,
+    "IconHint": "nulla",
     "Selected": true,
-    "LastChanged": "2024-09-21T13:14:06.0851676+02:00",
+    "LastChanged": "2001-12-06T14:45:05.7094637+01:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "McKenzie, McKenzie and Trantow",
-        "ToolTip": "Tempora temporibus.",
+        "Id": 948,
+        "Name": "Jacobi LLC",
+        "ToolTip": "Placeat similique culpa.",
         "Deleted": false,
-        "Rank": 869,
-        "Type": "totam",
-        "ColorBlock": 226,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2015-08-08T13:14:06.0851676+02:00",
+        "Rank": 462,
+        "Type": "et",
+        "ColorBlock": 883,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2011-03-17T14:45:05.7094637+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Miss Kiara Jacobs DVM",
+        "ExtraInfo": "expedita",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Prof. Jany Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldType": "System.Int32",
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Nolan Skiles MD",
+    "ExtraInfo": "magnam",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Rebekah Ashly Hermann III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 850
       }
     }
   }

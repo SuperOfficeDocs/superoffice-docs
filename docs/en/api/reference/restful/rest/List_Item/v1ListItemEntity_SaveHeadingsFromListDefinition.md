@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 805,
-    "Name": "Mraz LLC",
-    "Tooltip": "labore",
-    "Deleted": false,
-    "Rank": 374,
-    "UdListDefinitionId": 192
+    "HeadingId": 962,
+    "Name": "Schmidt-Stracke",
+    "Tooltip": "possimus",
+    "Deleted": true,
+    "Rank": 777,
+    "UdListDefinitionId": 728
   },
   {
-    "HeadingId": 805,
-    "Name": "Mraz LLC",
-    "Tooltip": "labore",
-    "Deleted": false,
-    "Rank": 374,
-    "UdListDefinitionId": 192
+    "HeadingId": 962,
+    "Name": "Schmidt-Stracke",
+    "Tooltip": "possimus",
+    "Deleted": true,
+    "Rank": 777,
+    "UdListDefinitionId": 728
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "Vandervort, Bashirian and Kassulke",
-    "Tooltip": "ullam",
-    "Deleted": true,
-    "Rank": 295,
-    "UdListDefinitionId": 530,
+    "HeadingId": 1002,
+    "Name": "Cremin-Hettinger",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 818,
+    "UdListDefinitionId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 431
       }
     }
   }

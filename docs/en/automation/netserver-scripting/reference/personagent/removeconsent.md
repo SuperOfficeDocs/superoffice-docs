@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.RemoveConsent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.RemoveConsent'>RemoveConsent</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.RemoveConsent'>RemoveConsent</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeRemoveConsent
 ```cs

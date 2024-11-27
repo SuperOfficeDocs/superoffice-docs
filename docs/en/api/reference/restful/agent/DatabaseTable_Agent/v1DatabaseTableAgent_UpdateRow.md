@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Balistreri, Huels and Cole",
-  "Id": 710,
+  "TableName": "Ritchie, Kozey and Fadel",
+  "Id": 499,
   "Values": {
-    "Values1": "vitae",
-    "Values2": "tenetur"
+    "Values1": "voluptatem",
+    "Values2": "commodi"
   }
 }
 ```

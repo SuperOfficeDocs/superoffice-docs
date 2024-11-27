@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Preference/GetXsrfPaths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "veritatis"
+  "Hostname": "quis"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "impedit",
-  "cumque"
+  "doloremque",
+  "est"
 ]
 ```

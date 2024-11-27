@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 80,
-  "Name": "Jones-Watsica",
-  "Rank": 310,
-  "Tooltip": "impedit",
+  "AssociateId": 222,
+  "Name": "Smith-Swift",
+  "Rank": 978,
+  "Tooltip": "atque",
   "LicenseOwners": [
     {
-      "Name": "Jaskolski-Beer",
-      "Description": "Multi-layered zero defect internet solution",
+      "Name": "Donnelly-Schimmel",
+      "Description": "Grass-roots optimizing customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 813
         }
       }
     },
     {
-      "Name": "Jaskolski-Beer",
-      "Description": "Multi-layered zero defect internet solution",
+      "Name": "Donnelly-Schimmel",
+      "Description": "Grass-roots optimizing customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 813
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequatur",
-      "Tooltip": "ea",
-      "Id": 473,
-      "Rank": 513,
+      "Value": "non",
+      "Tooltip": "aspernatur",
+      "Id": 712,
+      "Rank": 389,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2017-01-06T13:14:06.7414574+01:00",
-  "Lastlogout": "2019-12-15T13:14:06.7414574+01:00",
-  "EjUserId": 373,
-  "RequestSignature": "et",
+  "Deleted": false,
+  "Lastlogin": "1998-04-09T14:45:06.6936203+02:00",
+  "Lastlogout": "2018-11-12T14:45:06.6936203+01:00",
+  "EjUserId": 396,
+  "RequestSignature": "necessitatibus",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "aut",
+      "Value": "est",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 148
         }
       }
     },
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "aut",
+      "Value": "est",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 148
         }
       }
     }
   ],
-  "UserName": "Gleason Group",
+  "UserName": "Swift Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 632,
-      "Name": "Dibbert, O'Connell and Greenfelder",
-      "ToolTip": "Ut excepturi quod rerum voluptatum molestias.",
+      "Id": 835,
+      "Name": "Nicolas-Terry",
+      "ToolTip": "Cupiditate mollitia est dolorum quo explicabo commodi.",
       "Deleted": false,
-      "Rank": 936,
-      "Type": "voluptas",
+      "Rank": 615,
+      "Type": "exercitationem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nulla",
-      "ColorBlock": 712,
-      "ExtraInfo": "est",
-      "StyleHint": "amet",
-      "FullName": "Cortez Amira Hayes V",
+      "IconHint": "voluptatem",
+      "ColorBlock": 438,
+      "ExtraInfo": "sapiente",
+      "StyleHint": "in",
+      "FullName": "Mr. Verda Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 240
         }
       }
     }
   ],
-  "NickName": "O'Keefe, Greenfelder and Aufderhar",
-  "WaitingForApproval": true,
+  "NickName": "Barrows, Gulgowski and Huels",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "et"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "alias",
+    "CustomFields2": "aut"
   },
   "PostSaveCommands": [
     {
-      "Name": "Jerde, Auer and Thompson",
-      "DisplayName": "Bergstrom, Armstrong and Pfeffer",
-      "Description": "Enhanced reciprocal knowledge user",
-      "ToolTip": "Est dolorum blanditiis.",
+      "Name": "Emard Inc and Sons",
+      "DisplayName": "Wilkinson Inc and Sons",
+      "Description": "Devolved scalable groupware",
+      "ToolTip": "Rerum ipsum deserunt expedita ratione et.",
       "Actions": "Implicit",
-      "ActionData": "dolore",
+      "ActionData": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 83
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 735
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 794,
-    "Section": "cupiditate",
-    "Key": "eum",
-    "Name": "Nienow Inc and Sons",
+    "PrefDescId": 684,
+    "Section": "et",
+    "Key": "quia",
+    "Name": "Walker Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Open-source leading edge middleware",
+    "Description": "Polarised logistical approach",
     "IsBuiltin": false,
-    "TableName": "Nader-Jacobs",
-    "UserDefinedListId": 862,
-    "Rank": 737,
-    "SubGroup": "dignissimos",
-    "MinLevel": 472,
-    "MaxValue": 438,
-    "MinValue": 587,
-    "RequiredLicense": "praesentium",
+    "TableName": "Johnson Group",
+    "UserDefinedListId": 89,
+    "Rank": 622,
+    "SubGroup": "animi",
+    "MinLevel": 516,
+    "MaxValue": 145,
+    "MinValue": 28,
+    "RequiredLicense": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

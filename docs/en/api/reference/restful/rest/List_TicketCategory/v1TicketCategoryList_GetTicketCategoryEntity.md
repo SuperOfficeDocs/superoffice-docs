@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 65,
-  "ParentId": 980,
-  "Name": "Tillman, Champlin and Halvorson",
-  "Fullname": "cumque",
-  "CategoryMaster": 344,
+  "TicketCategoryId": 998,
+  "ParentId": 445,
+  "Name": "Hudson-Nikolaus",
+  "Fullname": "aperiam",
+  "CategoryMaster": 608,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kris-Schmidt",
+  "ExternalName": "Kertzmann, Sauer and Kulas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 558,
-  "ReplyTemplate": 813,
-  "NotificationEmail": "gudrun.klocko@braun.uk",
+  "AssignmentLag": 420,
+  "ReplyTemplate": 857,
+  "NotificationEmail": "jermey@morissettekoss.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 670,
+  "EffectiveReplyTemplateId": 631,
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "quod"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 217
     }
   }
 }

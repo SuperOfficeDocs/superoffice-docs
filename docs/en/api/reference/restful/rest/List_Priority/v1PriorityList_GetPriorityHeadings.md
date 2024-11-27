@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 443,
-    "Name": "McDermott, Schaden and Hoeger",
-    "Tooltip": "aut",
+    "HeadingId": 643,
+    "Name": "Kerluke LLC",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 556,
-    "UdListDefinitionId": 176,
+    "Rank": 632,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 595
       }
     }
   }

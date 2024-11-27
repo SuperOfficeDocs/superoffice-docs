@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "alias",
-  "PersonId": 657,
-  "Mrmrs": "aliquid",
-  "Firstname": "Gia",
-  "Lastname": "Feil",
-  "MiddleName": "McGlynn Group",
-  "Title": "nisi",
-  "Description": "Monitored cohesive concept",
-  "Email": "zoe_torp@gorczanyking.uk",
-  "FullName": "Nestor McCullough",
-  "DirectPhone": "097-746-9715",
-  "FormalName": "Sauer, Pfannerstill and Baumbach",
-  "CountryId": 118,
-  "ContactId": 985,
-  "ContactName": "Koepp-Crona",
-  "Retired": 78,
-  "Rank": 910,
-  "ActiveInterests": 621,
+  "Position": "veniam",
+  "PersonId": 127,
+  "Mrmrs": "velit",
+  "Firstname": "Freda",
+  "Lastname": "Ebert",
+  "MiddleName": "Schneider, Welch and Homenick",
+  "Title": "sed",
+  "Description": "Horizontal impactful capability",
+  "Email": "franz.stanton@hudsonkuhn.com",
+  "FullName": "Libby Boyer",
+  "DirectPhone": "(869)993-7429 x158",
+  "FormalName": "Smitham Group",
+  "CountryId": 284,
+  "ContactId": 111,
+  "ContactName": "Smitham Inc and Sons",
+  "Retired": 616,
+  "Rank": 931,
+  "ActiveInterests": 904,
   "ContactDepartment": "",
-  "ContactCountryId": 712,
-  "ContactOrgNr": "1732927",
-  "FaxPhone": "382.989.9966",
-  "MobilePhone": "899-642-0724 x0971",
-  "ContactPhone": "817-486-3705 x28805",
-  "AssociateName": "Thiel Inc and Sons",
-  "AssociateId": 231,
+  "ContactCountryId": 723,
+  "ContactOrgNr": "997173",
+  "FaxPhone": "622-152-8174 x4429",
+  "MobilePhone": "1-926-604-9278 x6757",
+  "ContactPhone": "(804)074-0332 x12457",
+  "AssociateName": "Kshlerin LLC",
+  "AssociateId": 574,
   "UsePersonAddress": false,
-  "ContactFax": "vel",
-  "Kanafname": "et",
-  "Kanalname": "unde",
-  "Post1": "placeat",
-  "Post2": "voluptas",
-  "Post3": "natus",
-  "EmailName": "adell.heathcote@hayes.ca",
-  "ContactFullName": "Ms. Regan Turner",
-  "ActiveErpLinks": 644,
-  "TicketPriorityId": 499,
-  "SupportLanguageId": 208,
-  "SupportAssociateId": 110,
+  "ContactFax": "sed",
+  "Kanafname": "aspernatur",
+  "Kanalname": "aut",
+  "Post1": "quia",
+  "Post2": "vel",
+  "Post3": "totam",
+  "EmailName": "elyse.haag@hettingerhomenick.co.uk",
+  "ContactFullName": "Akeem Smitham",
+  "ActiveErpLinks": 247,
+  "TicketPriorityId": 747,
+  "SupportLanguageId": 813,
+  "SupportAssociateId": 641,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 190
     }
   }
 }

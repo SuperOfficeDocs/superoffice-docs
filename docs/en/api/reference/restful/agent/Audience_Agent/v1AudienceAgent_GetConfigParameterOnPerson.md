@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Koch-Halvorson",
-  "PersonId": 242
+  "ParameterName": "Emard-Bailey",
+  "PersonId": 329
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 913,
-  "Name": "Lueilwitz, Anderson and Dare",
-  "Value": "recusandae",
-  "CreatedDate": "2008-03-12T13:14:05.5226336+01:00",
-  "UpdatedDate": "2013-10-26T13:14:05.5226336+02:00",
-  "CreatedBy": "adipisci",
-  "UpdatedBy": "tempora",
+  "AudienceLayoutId": 711,
+  "Name": "Orn-O'Connell",
+  "Value": "quasi",
+  "CreatedDate": "1999-07-21T14:45:04.8659001+02:00",
+  "UpdatedDate": "1998-09-08T14:45:04.8659001+02:00",
+  "CreatedBy": "id",
+  "UpdatedBy": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldType": "System.String",
+      "FieldLength": 725
     }
   }
 }

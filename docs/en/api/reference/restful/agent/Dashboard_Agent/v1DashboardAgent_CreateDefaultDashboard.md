@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 162,
-  "AssociateId": 891,
-  "Caption": "ducimus",
+  "DashboardId": 563,
+  "AssociateId": 1001,
+  "Caption": "commodi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 693,
-      "Caption": "repellendus",
-      "Description": "Re-engineered global flexibility",
-      "ChartName": "Lehner-Jewess",
-      "ChartId": "dolores",
-      "IsDefault": true,
-      "AssociateId": 830,
-      "GroupId": 786,
-      "SelectionId": 872,
-      "Config": "in",
+      "DashboardTileId": 697,
+      "Caption": "adipisci",
+      "Description": "Persevering object-oriented hardware",
+      "ChartName": "Ondricka Group",
+      "ChartId": "aliquam",
+      "IsDefault": false,
+      "AssociateId": 492,
+      "GroupId": 135,
+      "SelectionId": 70,
+      "Config": "vel",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 635
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 600
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

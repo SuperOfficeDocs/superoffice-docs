@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "enim",
-  "ProviderName": "Gulgowski LLC",
-  "StorageKey": "et",
-  "Context": "sunt"
+  "StorageType": "neque",
+  "ProviderName": "Sauer, Mayert and Bins",
+  "StorageKey": "dolores",
+  "Context": "alias"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhlman, Welch and Thiel",
-  "Description": "Business-focused object-oriented portal",
-  "Rank": 234,
+  "Name": "Larson Group",
+  "Description": "Team-oriented needs-based capability",
+  "Rank": 735,
   "Restrictions": [
     {
-      "Name": "Powlowski Group",
-      "Operator": "quo",
+      "Name": "Swaniawski, Runolfsdottir and Weimann",
+      "Operator": "voluptatum",
       "Values": [
-        "sit",
-        "placeat"
+        "eligendi",
+        "et"
       ],
       "DisplayValues": [
-        "explicabo",
-        "id"
+        "odit",
+        "suscipit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 886,
+      "InterParenthesis": 1001,
       "InterOperator": "And",
-      "UniqueHash": 643
+      "UniqueHash": 858
     }
   ]
 }

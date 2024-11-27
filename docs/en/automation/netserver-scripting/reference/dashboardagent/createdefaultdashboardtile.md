@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.CreateDefaultDashboardTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile'>CreateDefaultDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.CreateDefaultDashboardTile'>CreateDefaultDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeCreateDefaultDashboardTile
 ```cs

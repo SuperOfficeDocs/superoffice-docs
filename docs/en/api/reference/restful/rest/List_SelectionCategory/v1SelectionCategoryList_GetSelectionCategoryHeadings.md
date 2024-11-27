@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 182,
-    "Name": "Wisozk LLC",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 116,
-    "UdListDefinitionId": 145,
+    "HeadingId": 359,
+    "Name": "Ziemann-Bayer",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 259,
+    "UdListDefinitionId": 250,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 713
+        "FieldType": "System.Int32",
+        "FieldLength": 516
       }
     }
   }

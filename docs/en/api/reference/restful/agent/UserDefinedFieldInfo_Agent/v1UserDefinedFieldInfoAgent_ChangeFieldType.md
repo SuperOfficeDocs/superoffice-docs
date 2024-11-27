@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 212,
-  "ColumnId": 200,
-  "FieldDefault": "rerum",
-  "FieldHeight": 693,
-  "FieldLabel": "inventore",
-  "FieldLeft": 185,
-  "FieldTop": 194,
+  "UDefFieldId": 147,
+  "ColumnId": 389,
+  "FieldDefault": "officia",
+  "FieldHeight": 427,
+  "FieldLabel": "tempora",
+  "FieldLeft": 457,
+  "FieldTop": 220,
   "FieldType": "Checkbox",
-  "FieldWidth": 4,
-  "FormatMask": "magnam",
+  "FieldWidth": 49,
+  "FormatMask": "quas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 291,
-  "LabelLeft": 263,
-  "LabelTop": 690,
-  "LabelWidth": 243,
-  "LastVersionId": 1001,
-  "ListTableId": 736,
+  "LabelHeight": 17,
+  "LabelLeft": 696,
+  "LabelTop": 407,
+  "LabelWidth": 673,
+  "LastVersionId": 994,
+  "ListTableId": 351,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 613,
-  "ProgId": "fuga",
+  "Page1LineNo": 302,
+  "ProgId": "magnam",
   "IsReadOnly": false,
-  "ShortLabel": "eius",
-  "TabOrder": 164,
-  "TextLength": 489,
+  "ShortLabel": "rerum",
+  "TabOrder": 351,
+  "TextLength": 957,
   "Tooltip": "aut",
-  "UdefIdentity": 44,
-  "UDListDefinitionId": 734,
+  "UdefIdentity": 735,
+  "UDListDefinitionId": 71,
   "Justification": "Center",
-  "Version": 873,
-  "TemplateVariableName": "Balistreri LLC",
+  "Version": 352,
+  "TemplateVariableName": "Yost Group",
   "HasBeenPublished": false,
-  "MdoListName": "Runte Group",
+  "MdoListName": "Aufderhar, Harris and Hayes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldLength": 330
     }
   }
 }

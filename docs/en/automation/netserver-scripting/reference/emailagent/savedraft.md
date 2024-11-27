@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SaveDraft
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SaveDraft'>SaveDraft</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SaveDraft'>SaveDraft</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSaveDraft
 ```cs

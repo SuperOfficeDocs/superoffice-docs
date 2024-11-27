@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.SetStatusOnWorkflow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow'>SetStatusOnWorkflow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.SetStatusOnWorkflow'>SetStatusOnWorkflow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeSetStatusOnWorkflow
 ```cs

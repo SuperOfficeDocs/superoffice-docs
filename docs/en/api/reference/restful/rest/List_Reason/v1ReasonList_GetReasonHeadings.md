@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 488,
-    "Name": "Prosacco, Champlin and Weissnat",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "Rank": 364,
-    "UdListDefinitionId": 609,
+    "HeadingId": 200,
+    "Name": "Boehm LLC",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 480,
+    "UdListDefinitionId": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 187
+        "FieldType": "System.Int32",
+        "FieldLength": 572
       }
     }
   }

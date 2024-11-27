@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Cormier-Feeney",
-    "Tooltip": "fugit",
+    "HeadingId": 987,
+    "Name": "Will, Gerhold and Bailey",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 922,
+    "Rank": 443,
+    "UdListDefinitionId": 999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

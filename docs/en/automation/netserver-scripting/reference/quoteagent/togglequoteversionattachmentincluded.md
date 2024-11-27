@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.ToggleQuoteVersionAttachmentIncluded
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.ToggleQuoteVersionAttachmentIncluded'>ToggleQuoteVersionAttachmentIncluded</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.ToggleQuoteVersionAttachmentIncluded'>ToggleQuoteVersionAttachmentIncluded</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeToggleQuoteVersionAttachmentIncluded
 ```cs

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 224
+  "SaleId": 162
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Rodriguez Group",
-    "Comment": "rerum",
-    "StakeholderRoleId": 826,
-    "CountryId": 490,
-    "PersonId": 824,
-    "EmailDescription": "karson_mayer@wyman.uk",
-    "EmailId": 453,
-    "EmailAddress": "aurore@trantow.info",
-    "PhoneId": 208,
-    "ContactName": "Farrell, Quitzon and Schinner",
-    "ContactId": 765,
-    "SaleId": 761,
-    "Mrmrs": "quod",
-    "Firstname": "Grace",
-    "MiddleName": "Schaefer LLC",
-    "Lastname": "Gutmann",
-    "SaleStakeholderId": 450,
-    "Rank": 15,
-    "Phone": "276.086.6896 x8322",
+    "StakeholderRoleName": "Zemlak-Bernier",
+    "Comment": "ducimus",
+    "StakeholderRoleId": 973,
+    "CountryId": 486,
+    "PersonId": 735,
+    "EmailDescription": "lillie.cassin@gloverryan.name",
+    "EmailId": 65,
+    "EmailAddress": "adrian@jacobi.name",
+    "PhoneId": 324,
+    "ContactName": "Herzog LLC",
+    "ContactId": 488,
+    "SaleId": 927,
+    "Mrmrs": "harum",
+    "Firstname": "Michelle",
+    "MiddleName": "Graham Group",
+    "Lastname": "Mayer",
+    "SaleStakeholderId": 467,
+    "Rank": 961,
+    "Phone": "056.783.9513 x15883",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   }

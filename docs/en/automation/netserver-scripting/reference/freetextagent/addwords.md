@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.AddWords
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.AddWords'>AddWords</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.AddWords'>AddWords</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeAddWords
 ```cs

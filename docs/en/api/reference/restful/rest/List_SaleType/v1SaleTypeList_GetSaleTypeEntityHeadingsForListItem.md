@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Wilkinson LLC",
-    "ToolTip": "Quas quia totam illo labore et autem dolorum.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "in",
-    "ColorBlock": 759,
-    "IconHint": "in",
+    "Id": 186,
+    "Name": "Davis, Nolan and Turcotte",
+    "ToolTip": "Et facilis maxime temporibus.",
+    "Deleted": false,
+    "Rank": 759,
+    "Type": "et",
+    "ColorBlock": 526,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2001-06-08T13:14:11.5392071+02:00",
+    "LastChanged": "2012-10-23T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Goodwin Group",
-        "ToolTip": "Tenetur libero assumenda non recusandae corporis.",
+        "Id": 28,
+        "Name": "Harber Inc and Sons",
+        "ToolTip": "Non aut et.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "quidem",
-        "ColorBlock": 284,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2020-12-15T13:14:11.5392071+01:00",
+        "Rank": 638,
+        "Type": "accusantium",
+        "ColorBlock": 220,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "1999-10-01T14:45:13.9273199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "et",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Yvonne Konopelski",
+        "FullName": "Maximo Weldon Zulauf MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldType": "System.String",
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Jon Hayes",
+    "ExtraInfo": "iure",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Yadira Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldLength": 394
       }
     }
   }

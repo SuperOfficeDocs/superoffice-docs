@@ -760,7 +760,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=closedAt,ownedBy/ejDisplayName,person/restrictionAddress/city,contact/contactAssociate/associateDbId,sale/associate/credentialType
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=origin,createdBy/firstName,person/personAssociateFullName,person/personDirectFax/formattedNumber,person/personAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

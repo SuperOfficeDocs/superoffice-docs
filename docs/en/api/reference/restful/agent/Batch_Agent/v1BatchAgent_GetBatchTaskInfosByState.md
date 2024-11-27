@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Barrows Inc and Sons",
-    "AssociateId": 750,
-    "DetailsTable": 942,
-    "DetailsRecord": 534,
+    "Id": 12,
+    "Name": "Buckridge, Stark and Cruickshank",
+    "AssociateId": 989,
+    "DetailsTable": 731,
+    "DetailsRecord": 588,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "optio",
-      "ParameterObject2": "laborum"
+      "ParameterObject1": "nam",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2020-11-09T13:14:05.5382596+01:00",
-    "Created": "2006-07-21T13:14:05.5382596+02:00",
-    "StartCount": 89,
-    "DatabaseSerialNumber": "788475",
-    "Context": "aperiam",
-    "Result": "nulla",
+    "LastStarted": "1999-02-01T14:45:04.8815214+01:00",
+    "Created": "2009-03-24T14:45:04.8815214+01:00",
+    "StartCount": 610,
+    "DatabaseSerialNumber": "1189227",
+    "Context": "ipsum",
+    "Result": "aspernatur",
     "State": "All",
-    "Description": "Ameliorated exuding strategy",
-    "Response": "non",
-    "Request": "laudantium",
-    "ProgressDescription": "Upgradable intangible contingency",
-    "ProgressPercent": 706,
-    "FileName": "Schimmel, Donnelly and Grady",
+    "Description": "Synergized fault-tolerant extranet",
+    "Response": "autem",
+    "Request": "est",
+    "ProgressDescription": "Decentralized neutral task-force",
+    "ProgressPercent": 622,
+    "FileName": "Murazik, Ratke and Kilback",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 762
+        "FieldLength": 106
       }
     }
   }

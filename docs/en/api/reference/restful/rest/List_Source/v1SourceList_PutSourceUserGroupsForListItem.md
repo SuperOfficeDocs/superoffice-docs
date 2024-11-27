@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Lesch-Kreiger",
-    "ToolTip": "Aut libero maiores enim enim.",
-    "Deleted": true,
-    "Rank": 133,
-    "Type": "at",
-    "ColorBlock": 84,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "1998-09-15T13:14:11.554833+02:00",
+    "Id": 629,
+    "Name": "Wisoky, Johnston and Volkman",
+    "ToolTip": "Optio repellendus aut architecto quia vitae perferendis error.",
+    "Deleted": false,
+    "Rank": 958,
+    "Type": "est",
+    "ColorBlock": 707,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2004-06-21T14:45:13.9429422+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Casper-Cremin",
-        "ToolTip": "Odit quas qui deleniti est quia eius.",
-        "Deleted": false,
-        "Rank": 353,
-        "Type": "repellendus",
-        "ColorBlock": 432,
-        "IconHint": "molestias",
+        "Id": 424,
+        "Name": "Roberts LLC",
+        "ToolTip": "Sit sit id quasi.",
+        "Deleted": true,
+        "Rank": 676,
+        "Type": "et",
+        "ColorBlock": 439,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2013-06-14T13:14:11.554833+02:00",
+        "LastChanged": "1998-01-16T14:45:13.9429422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "omnis",
+        "ExtraInfo": "dolore",
+        "StyleHint": "vero",
         "Hidden": true,
-        "FullName": "Dayne Abbott"
+        "FullName": "Golden Cartwright"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Ms. Austyn Braun"
+    "ExtraInfo": "vero",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Norberto Rohan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Pfeffer-Hettinger",
-    "ToolTip": "Voluptatum ut.",
-    "Deleted": true,
-    "Rank": 226,
-    "Type": "qui",
-    "ColorBlock": 336,
-    "IconHint": "quos",
+    "Id": 322,
+    "Name": "Hammes-Wiza",
+    "ToolTip": "Et explicabo perspiciatis placeat nostrum dolorem alias enim.",
+    "Deleted": false,
+    "Rank": 178,
+    "Type": "est",
+    "ColorBlock": 626,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2019-05-04T13:14:11.554833+02:00",
+    "LastChanged": "2021-07-06T14:45:13.9429422+02:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Botsford, Rippin and Powlowski",
-        "ToolTip": "Voluptatibus totam sint.",
-        "Deleted": true,
-        "Rank": 911,
-        "Type": "consectetur",
-        "ColorBlock": 548,
-        "IconHint": "ab",
-        "Selected": true,
-        "LastChanged": "2000-03-14T13:14:11.554833+01:00",
+        "Id": 104,
+        "Name": "Aufderhar-Bogan",
+        "ToolTip": "Nulla aperiam sed.",
+        "Deleted": false,
+        "Rank": 611,
+        "Type": "quisquam",
+        "ColorBlock": 720,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2014-05-08T14:45:13.9429422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "et",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Candice Lehner",
+        "FullName": "Mrs. Jasen Lauretta Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldType": "System.String",
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Glenna Zieme",
+    "FullName": "Miss Danial Kirlin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldType": "System.Int32",
+        "FieldLength": 992
       }
     }
   }

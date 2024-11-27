@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.ChangeContactImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage'>ChangeContactImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.ChangeContactImage'>ChangeContactImage</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeChangeContactImage
 ```cs

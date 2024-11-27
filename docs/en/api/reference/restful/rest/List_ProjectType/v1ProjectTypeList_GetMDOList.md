@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=rerum
+GET /api/v1/List/ProjectType/MDOItems?query=rem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Heidenreich, Wehner and Kassulke",
-    "ToolTip": "Maxime qui.",
-    "Deleted": false,
-    "Rank": 223,
-    "Type": "eveniet",
+    "Id": 505,
+    "Name": "Lubowitz, Hoppe and Gulgowski",
+    "ToolTip": "Iure quae.",
+    "Deleted": true,
+    "Rank": 210,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 340,
-        "Name": "Kreiger Group",
-        "ToolTip": "Debitis cupiditate dolores.",
+        "Id": 525,
+        "Name": "Harvey-McDermott",
+        "ToolTip": "Corporis aut dolores.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "et",
+        "Rank": 166,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 457,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "nemo",
-        "FullName": "Fermin Grayson Russel V",
+        "IconHint": "officia",
+        "ColorBlock": 622,
+        "ExtraInfo": "quo",
+        "StyleHint": "et",
+        "FullName": "Kamille Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 979
+            "FieldType": "System.String",
+            "FieldLength": 730
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 178,
-    "ExtraInfo": "recusandae",
-    "StyleHint": "ut",
-    "FullName": "Dr. Melvina Monahan PhD",
+    "IconHint": "autem",
+    "ColorBlock": 75,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "quia",
+    "FullName": "Dahlia White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldLength": 92
       }
     }
   }

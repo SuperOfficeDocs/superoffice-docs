@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 547,
-  "ErpConnectorId": 844,
-  "DisplayName": "Zemlak Inc and Sons",
-  "DisplayDescription": "Compatible intangible framework",
-  "Active": false,
-  "ConnectionId": "ut",
-  "MostRecentTimestamp": "velit",
+  "ErpConnectionId": 925,
+  "ErpConnectorId": 229,
+  "DisplayName": "Konopelski-Tromp",
+  "DisplayDescription": "Multi-channelled eco-centric portal",
+  "Active": true,
+  "ConnectionId": "laudantium",
+  "MostRecentTimestamp": "illo",
   "ConfigFields": {
-    "ConfigFields1": "similique",
-    "ConfigFields2": "dolores"
+    "ConfigFields1": "nihil",
+    "ConfigFields2": "id"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    832,
-    123
+    157,
+    696
   ],
   "AssociateAccessIds": [
-    161,
-    237
+    813,
+    822
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

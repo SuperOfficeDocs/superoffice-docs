@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Mills, Hettinger and Becker",
-    "ToolTip": "Cupiditate ratione.",
-    "Deleted": true,
-    "Rank": 861,
-    "Type": "voluptatem",
-    "ColorBlock": 113,
-    "IconHint": "nesciunt",
+    "Id": 680,
+    "Name": "Kshlerin, Zulauf and Crooks",
+    "ToolTip": "Fugit deserunt rem.",
+    "Deleted": false,
+    "Rank": 853,
+    "Type": "ut",
+    "ColorBlock": 244,
+    "IconHint": "praesentium",
     "Selected": true,
-    "LastChanged": "2011-08-09T13:14:11.4298249+02:00",
+    "LastChanged": "2014-06-24T14:45:13.7398643+02:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Streich LLC",
-        "ToolTip": "Necessitatibus et possimus est dolorum asperiores sunt dolore.",
-        "Deleted": true,
-        "Rank": 585,
-        "Type": "aut",
-        "ColorBlock": 818,
-        "IconHint": "tempora",
+        "Id": 497,
+        "Name": "Balistreri Group",
+        "ToolTip": "Quidem molestiae rerum occaecati excepturi.",
+        "Deleted": false,
+        "Rank": 243,
+        "Type": "molestiae",
+        "ColorBlock": 618,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2019-11-08T13:14:11.4298249+01:00",
+        "LastChanged": "2007-07-28T14:45:13.7398643+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "illo",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Dr. Oma Schamberger",
+        "FullName": "Matteo Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Keegan Orn DVM",
+    "ExtraInfo": "est",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Miss Justyn Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 154
       }
     }
   }

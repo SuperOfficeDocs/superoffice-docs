@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Bechtelar, Rogahn and Dibbert",
-  "Tooltip": "impedit",
-  "Deleted": true,
-  "Rank": 960,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "Id": 810,
+  "Name": "Donnelly LLC",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "Rank": 774,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Cruickshank, Conroy and Berge",
-  "Tooltip": "animi",
+  "Id": 412,
+  "Name": "Kshlerin, Mohr and Batz",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 621,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 617,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

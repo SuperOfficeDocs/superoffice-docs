@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.GetTicketMessage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage'>GetTicketMessage</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.GetTicketMessage'>GetTicketMessage</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeGetTicketMessage
 ```cs

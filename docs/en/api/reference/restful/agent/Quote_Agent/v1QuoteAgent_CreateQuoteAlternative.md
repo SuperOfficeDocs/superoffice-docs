@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 556,
-  "QuoteAlternativeName": "Stoltenberg, Hammes and Hermann",
-  "QuoteAlternativeDescription": "Team-oriented uniform adapter"
+  "QuoteVersionId": 324,
+  "QuoteAlternativeName": "Bradtke-Ortiz",
+  "QuoteAlternativeDescription": "Public-key multimedia open architecture"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 496,
-  "ERPQuoteAlternativeKey": "dolores",
-  "QuoteVersionId": 415,
-  "Name": "Becker, Tremblay and Harvey",
-  "Description": "Decentralized eco-centric service-desk",
+  "QuoteAlternativeId": 355,
+  "ERPQuoteAlternativeKey": "quis",
+  "QuoteVersionId": 272,
+  "Name": "Altenwerth, Spinka and Mueller",
+  "Description": "Switchable multi-state methodology",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 16585.128,
-  "ERPDiscountAmount": 8825.344,
-  "DiscountPercent": 7198.798,
-  "DiscountAmount": 4760.546,
+  "ERPDiscountPercent": 15588.516,
+  "ERPDiscountAmount": 5904.456,
+  "DiscountPercent": 2284.686,
+  "DiscountAmount": 3362.7819999999997,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "est",
-  "VAT": 20110.878,
-  "EarningPercent": 13507.539999999999,
-  "EarningAmount": 6274.268,
-  "SubTotal": 13889.887999999999,
-  "TotalPrice": 17801.12,
-  "ExtraField1": "qui",
-  "ExtraField2": "placeat",
-  "ExtraField3": "sed",
-  "ExtraField4": "porro",
-  "ExtraField5": "et",
+  "VATInfo": "tempora",
+  "VAT": 12930.884,
+  "EarningPercent": 17446.978,
+  "EarningAmount": 3463.0699999999997,
+  "SubTotal": 27519.654,
+  "TotalPrice": 15588.516,
+  "ExtraField1": "sed",
+  "ExtraField2": "dolor",
+  "ExtraField3": "veniam",
+  "ExtraField4": "ipsa",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldLength": 255
     }
   }
 }

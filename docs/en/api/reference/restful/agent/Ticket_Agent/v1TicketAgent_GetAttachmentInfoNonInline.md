@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 859
+  "TicketMessageEntityId": 926
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 293,
-    "Name": "Rice Inc and Sons",
-    "ContentType": "maiores",
-    "AttSize": 809,
+    "AttachmentId": 344,
+    "Name": "Kreiger-Marquardt",
+    "ContentType": "qui",
+    "AttSize": 909,
     "InlineImage": false,
-    "ContentId": "quo",
-    "AuthKey": "voluptatum",
-    "IsSafeFileExtension": false,
+    "ContentId": "dolore",
+    "AuthKey": "similique",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 571
       }
     }
   }

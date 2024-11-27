@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetConsentPerson
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson'>GetConsentPerson</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetConsentPerson'>GetConsentPerson</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetConsentPerson
 ```cs

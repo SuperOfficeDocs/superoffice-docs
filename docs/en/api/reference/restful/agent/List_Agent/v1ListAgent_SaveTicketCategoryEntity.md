@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 188,
-  "ParentId": 698,
-  "Name": "Schulist-Dickinson",
-  "Fullname": "nemo",
-  "CategoryMaster": 523,
+  "TicketCategoryId": 30,
+  "ParentId": 49,
+  "Name": "Sporer LLC",
+  "Fullname": "dolor",
+  "CategoryMaster": 596,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Williamson, Vandervort and Leuschke",
+  "ExternalName": "Herman-Ledner",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 688,
-  "ReplyTemplate": 689,
-  "NotificationEmail": "jessica@davismedhurst.com",
+  "AssignmentLag": 8,
+  "ReplyTemplate": 852,
+  "NotificationEmail": "ole_klocko@bailey.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 647,
+  "EffectiveReplyTemplateId": 543,
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "autem"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "temporibus"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 992,
-  "ParentId": 346,
-  "Name": "Schimmel, Kohler and Bailey",
-  "Fullname": "dolorem",
-  "CategoryMaster": 331,
+  "TicketCategoryId": 549,
+  "ParentId": 545,
+  "Name": "Kling-Herzog",
+  "Fullname": "nesciunt",
+  "CategoryMaster": 500,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hintz-Dooley",
+  "ExternalName": "Fay-Beier",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 52,
-  "ReplyTemplate": 496,
-  "NotificationEmail": "celia@hermiston.co.uk",
+  "AssignmentLag": 314,
+  "ReplyTemplate": 596,
+  "NotificationEmail": "jamir.willms@upton.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 277,
+  "EffectiveReplyTemplateId": 750,
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "minus",
+    "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   }
 }

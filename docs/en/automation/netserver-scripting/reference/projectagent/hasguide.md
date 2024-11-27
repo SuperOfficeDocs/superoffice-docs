@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.HasGuide
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.HasGuide'>HasGuide</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.HasGuide'>HasGuide</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeHasGuide
 ```cs

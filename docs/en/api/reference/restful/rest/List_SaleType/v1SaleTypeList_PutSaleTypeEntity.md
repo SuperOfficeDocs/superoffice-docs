@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 788,
-  "Name": "Harber, Corwin and Bruen",
-  "Tooltip": "alias",
-  "Rank": 203,
+  "SaleTypeId": 846,
+  "Name": "Kulas, Stoltenberg and Gerhold",
+  "Tooltip": "neque",
+  "Rank": 278,
   "DurationUnit": "Century",
-  "SaleDuration": 687,
-  "SaleTypeCatId": 362,
+  "SaleDuration": 551,
+  "SaleTypeCatId": 12,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 1001,
-  "QuoteLinesTemplate": 580,
-  "ConfirmationLinesTemplate": 784,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 407,
+  "QuoteLinesTemplate": 610,
+  "ConfirmationLinesTemplate": 672,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 865,
-  "MinEarningPercent": 612,
-  "GroupQuoteLinesBy": 181,
-  "SortGroupLinesBy": 561,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 258,
+  "MinEarningPercent": 902,
+  "GroupQuoteLinesBy": 383,
+  "SortGroupLinesBy": 41,
   "Stages": [
     {
-      "Id": 964,
-      "Name": "Hirthe LLC",
-      "ToolTip": "Perspiciatis quod sed dolores labore voluptates eum beatae.",
+      "Id": 106,
+      "Name": "Schuppe, Abshire and Lemke",
+      "ToolTip": "Aut asperiores enim voluptatem eos quisquam corporis.",
       "Deleted": false,
-      "Rank": 464,
-      "Type": "natus",
-      "ColorBlock": 973,
-      "IconHint": "tempore",
-      "Selected": true,
-      "LastChanged": "2017-05-28T13:14:11.5392071+02:00",
+      "Rank": 755,
+      "Type": "sit",
+      "ColorBlock": 620,
+      "IconHint": "in",
+      "Selected": false,
+      "LastChanged": "1997-09-04T14:45:13.9116989+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "eius",
+      "ExtraInfo": "est",
+      "StyleHint": "vel",
       "Hidden": false,
-      "FullName": "Alexys Trantow I"
+      "FullName": "Lorenz Lind"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 244,
-  "Name": "Hintz, Bergstrom and Maggio",
-  "Tooltip": "sunt",
-  "Rank": 94,
+  "SaleTypeId": 728,
+  "Name": "Walter, Zulauf and Terry",
+  "Tooltip": "omnis",
+  "Rank": 74,
   "DurationUnit": "Century",
-  "SaleDuration": 665,
-  "SaleTypeCatId": 395,
-  "Deleted": false,
+  "SaleDuration": 633,
+  "SaleTypeCatId": 57,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 583,
-  "QuoteLinesTemplate": 277,
-  "ConfirmationLinesTemplate": 144,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 207,
+  "QuoteLinesTemplate": 226,
+  "ConfirmationLinesTemplate": 315,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 540,
-  "MinEarningPercent": 665,
-  "GroupQuoteLinesBy": 296,
-  "SortGroupLinesBy": 926,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 42,
+  "MinEarningPercent": 148,
+  "GroupQuoteLinesBy": 231,
+  "SortGroupLinesBy": 667,
   "Stages": [
     {
-      "Id": 726,
-      "Name": "Murazik, Dicki and Muller",
-      "ToolTip": "Ut nam quaerat vero at aut.",
-      "Deleted": true,
-      "Rank": 420,
-      "Type": "aliquam",
-      "ColorBlock": 140,
-      "IconHint": "provident",
+      "Id": 46,
+      "Name": "Torphy, Nienow and Farrell",
+      "ToolTip": "Voluptate ut.",
+      "Deleted": false,
+      "Rank": 252,
+      "Type": "perferendis",
+      "ColorBlock": 260,
+      "IconHint": "similique",
       "Selected": false,
-      "LastChanged": "2016-02-19T13:14:11.5392071+01:00",
+      "LastChanged": "2010-12-30T14:45:13.9116989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "quis",
-      "Hidden": false,
-      "FullName": "Lyla Buckridge",
+      "ExtraInfo": "provident",
+      "StyleHint": "aliquam",
+      "Hidden": true,
+      "FullName": "Mortimer Benton Hammes Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 975
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 389
     }
   }
 }

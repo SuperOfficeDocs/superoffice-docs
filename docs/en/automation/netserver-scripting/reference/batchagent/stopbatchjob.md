@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BatchAgent.StopBatchJob
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBatchAgent.StopBatchJob'>StopBatchJob</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBatchAgent.StopBatchJob'>StopBatchJob</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
 
 ## BeforeStopBatchJob
 ```cs

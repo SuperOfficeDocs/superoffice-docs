@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 862,
-  "Name": "Wilkinson, Gottlieb and Ferry",
-  "Tooltip": "quidem",
-  "VisibleColumns": 369,
-  "Rank": 672,
-  "AssocId": 858,
+  "DiaryViewId": 97,
+  "Name": "Ferry Inc and Sons",
+  "Tooltip": "eveniet",
+  "VisibleColumns": 616,
+  "Rank": 838,
+  "AssocId": 248,
   "AssociateList": [
     {
-      "Id": 222,
-      "Name": "Quigley, Kessler and Funk",
-      "ToolTip": "Ut inventore nihil saepe.",
-      "Deleted": false,
-      "Rank": 878,
-      "Type": "natus",
-      "ColorBlock": 115,
-      "IconHint": "consequatur",
+      "Id": 629,
+      "Name": "Herman-Wyman",
+      "ToolTip": "Explicabo incidunt autem officia.",
+      "Deleted": true,
+      "Rank": 469,
+      "Type": "quia",
+      "ColorBlock": 810,
+      "IconHint": "at",
       "Selected": true,
-      "LastChanged": "2016-08-30T13:14:05.6163893+02:00",
+      "LastChanged": "2018-07-12T14:45:05.0221142+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "soluta",
-      "Hidden": true,
-      "FullName": "Manuela Auer"
+      "ExtraInfo": "ea",
+      "StyleHint": "ea",
+      "Hidden": false,
+      "FullName": "Cory Ian Altenwerth Sr."
     }
   ],
-  "TzLocationId": 606
+  "TzLocationId": 10
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 468,
-  "Name": "Schaefer Inc and Sons",
-  "Tooltip": "aperiam",
-  "VisibleColumns": 491,
-  "Rank": 891,
-  "AssocId": 219,
+  "DiaryViewId": 39,
+  "Name": "Adams Group",
+  "Tooltip": "quidem",
+  "VisibleColumns": 303,
+  "Rank": 842,
+  "AssocId": 195,
   "AssociateList": [
     {
-      "Id": 269,
-      "Name": "Stoltenberg LLC",
-      "ToolTip": "Illo est.",
+      "Id": 979,
+      "Name": "Schaefer, Gislason and McClure",
+      "ToolTip": "Architecto deleniti vel.",
       "Deleted": false,
-      "Rank": 258,
-      "Type": "et",
-      "ColorBlock": 164,
-      "IconHint": "ipsa",
+      "Rank": 864,
+      "Type": "aut",
+      "ColorBlock": 684,
+      "IconHint": "expedita",
       "Selected": false,
-      "LastChanged": "2013-08-04T13:14:05.6163893+02:00",
+      "LastChanged": "1999-12-19T14:45:05.0221142+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "rerum",
-      "Hidden": true,
-      "FullName": "Dr. Mario Keenan Kunde II",
+      "ExtraInfo": "illo",
+      "StyleHint": "dolor",
+      "Hidden": false,
+      "FullName": "Eric Walter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 928
         }
       }
     }
   ],
-  "TzLocationId": 2,
+  "TzLocationId": 841,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 77
     }
   }
 }

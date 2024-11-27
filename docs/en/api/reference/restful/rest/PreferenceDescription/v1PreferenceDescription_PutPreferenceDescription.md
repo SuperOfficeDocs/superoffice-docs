@@ -117,24 +117,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 810,
-  "Section": "blanditiis",
+  "PrefDescId": 242,
+  "Section": "est",
   "Key": "commodi",
-  "Name": "Mitchell-Waelchi",
+  "Name": "Stokes-Williamson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked tertiary website",
-  "IsBuiltin": true,
-  "TableName": "Conn, Johnston and Beer",
-  "UserDefinedListId": 443,
-  "Rank": 710,
-  "SubGroup": "nobis",
-  "MinLevel": 500,
-  "MaxValue": 308,
-  "MinValue": 7,
-  "RequiredLicense": "provident"
+  "Description": "Phased stable matrix",
+  "IsBuiltin": false,
+  "TableName": "Price-Stracke",
+  "UserDefinedListId": 324,
+  "Rank": 45,
+  "SubGroup": "commodi",
+  "MinLevel": 946,
+  "MaxValue": 168,
+  "MinValue": 371,
+  "RequiredLicense": "reprehenderit"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 215,
-  "Section": "mollitia",
-  "Key": "enim",
-  "Name": "Mills Inc and Sons",
+  "PrefDescId": 395,
+  "Section": "quis",
+  "Key": "non",
+  "Name": "Kub Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized systematic toolset",
+  "Description": "Innovative value-added parallelism",
   "IsBuiltin": true,
-  "TableName": "Heaney LLC",
-  "UserDefinedListId": 598,
-  "Rank": 148,
-  "SubGroup": "dolore",
-  "MinLevel": 443,
-  "MaxValue": 921,
-  "MinValue": 624,
-  "RequiredLicense": "perferendis",
+  "TableName": "Moen-Dooley",
+  "UserDefinedListId": 711,
+  "Rank": 82,
+  "SubGroup": "assumenda",
+  "MinLevel": 223,
+  "MaxValue": 724,
+  "MinValue": 973,
+  "RequiredLicense": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 508
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

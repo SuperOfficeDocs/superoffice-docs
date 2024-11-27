@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.SaveStatusMonitor
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor'>SaveStatusMonitor</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.SaveStatusMonitor'>SaveStatusMonitor</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeSaveStatusMonitor
 ```cs

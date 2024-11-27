@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.ValidateTriggerScript
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript'>ValidateTriggerScript</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.ValidateTriggerScript'>ValidateTriggerScript</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeValidateTriggerScript
 ```cs

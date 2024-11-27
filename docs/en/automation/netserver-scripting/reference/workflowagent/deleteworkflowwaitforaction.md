@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.DeleteWorkflowWaitForAction
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction'>DeleteWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.DeleteWorkflowWaitForAction'>DeleteWorkflowWaitForAction</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeDeleteWorkflowWaitForAction
 ```cs

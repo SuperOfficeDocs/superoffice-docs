@@ -107,32 +107,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Batz LLC",
+  "ProviderName": "Yost, Conroy and Thompson",
   "Columns": [
     "optio",
-    "sed"
+    "dolores"
   ],
   "SortOrder": [
     {
-      "Name": "Kuhlman Group",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Kuhlman Group",
+      "Name": "Konopelski Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Gutmann, Murphy and DuBuque",
-      "Operator": "error",
+      "Name": "Beahan Group",
+      "Operator": "et",
       "Values": [
-        "quas",
-        "rem"
+        "sed",
+        "asperiores"
       ],
       "DisplayValues": [
-        "perspiciatis",
-        "enim"
+        "facere",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 364,
+      "InterParenthesis": 498,
       "InterOperator": "And",
-      "UniqueHash": 816
+      "UniqueHash": 86
     }
   ],
   "Entities": [
-    "mollitia",
-    "fugiat"
+    "quia",
+    "ducimus"
   ],
-  "Page": 818,
-  "PageSize": 593,
-  "Options": "quis",
-  "Context": "voluptas"
+  "Page": 633,
+  "PageSize": 18,
+  "Options": "beatae",
+  "Context": "et"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 412,
+  "RowCount": 822,
   "Rows": [
     {
-      "EntityName": "Kertzmann, Dietrich and Bogan",
-      "PrimaryKey": 713,
+      "EntityName": "Herzog Inc and Sons",
+      "PrimaryKey": 980,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "eligendi",
-          "LinkHint": "cum"
+          "DisplayValue": "error",
+          "TooltipHint": "consequatur",
+          "LinkHint": "harum"
         }
       },
-      "LinkHint": "quas",
-      "StyleHint": "minima",
+      "LinkHint": "dolor",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 61
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

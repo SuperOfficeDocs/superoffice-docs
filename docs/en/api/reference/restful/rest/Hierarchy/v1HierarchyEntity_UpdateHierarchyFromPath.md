@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 995,
+  "HierarchyId": 387,
   "Domain": "Dashboards",
-  "Name": "Pfeffer, Kertzmann and Schmitt",
-  "Fullname": "laudantium",
-  "ParentId": 737,
+  "Name": "Steuber Inc and Sons",
+  "Fullname": "commodi",
+  "ParentId": 621,
   "Children": [
     {
-      "HierarchyId": 954,
+      "HierarchyId": 883,
       "Domain": "Dashboards",
-      "Name": "Romaguera, Kunde and Ruecker",
-      "Fullname": "qui",
-      "ParentId": 808,
+      "Name": "Hilpert, Franecki and Hammes",
+      "Fullname": "non",
+      "ParentId": 605,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-02-28T13:14:10.8516656+01:00",
-      "RegisteredAssociateId": 918,
-      "Updated": "2017-04-04T13:14:10.8516656+02:00",
-      "UpdatedAssociateId": 319
+      "Registered": "2022-04-02T14:45:12.8338163+02:00",
+      "RegisteredAssociateId": 428,
+      "Updated": "2018-01-20T14:45:12.8338163+01:00",
+      "UpdatedAssociateId": 838
     }
   ],
-  "Registered": "2023-10-31T13:14:10.8516656+01:00",
-  "RegisteredAssociateId": 44,
-  "Updated": "2024-07-10T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 218
+  "Registered": "2011-08-11T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 435,
+  "Updated": "1997-11-23T14:45:12.8338163+01:00",
+  "UpdatedAssociateId": 125
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 76,
+  "HierarchyId": 655,
   "Domain": "Dashboards",
-  "Name": "Funk-Nikolaus",
-  "Fullname": "eos",
-  "ParentId": 125,
+  "Name": "Koelpin, Lockman and Grimes",
+  "Fullname": "aut",
+  "ParentId": 409,
   "Children": [
     {
-      "HierarchyId": 334,
+      "HierarchyId": 189,
       "Domain": "Dashboards",
-      "Name": "Roberts, Goodwin and Kshlerin",
-      "Fullname": "quas",
-      "ParentId": 847,
+      "Name": "Gottlieb, Ernser and McKenzie",
+      "Fullname": "occaecati",
+      "ParentId": 269,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-12-28T13:14:10.8516656+01:00",
-      "RegisteredAssociateId": 719,
-      "Updated": "2018-09-23T13:14:10.8516656+02:00",
-      "UpdatedAssociateId": 800,
+      "Registered": "2008-05-10T14:45:12.8338163+02:00",
+      "RegisteredAssociateId": 743,
+      "Updated": "2009-07-11T14:45:12.8338163+02:00",
+      "UpdatedAssociateId": 61,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 180
         }
       }
     }
   ],
-  "Registered": "2003-02-10T13:14:10.8516656+01:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2019-04-11T13:14:10.8516656+02:00",
-  "UpdatedAssociateId": 148,
+  "Registered": "2002-10-16T14:45:12.8338163+02:00",
+  "RegisteredAssociateId": 817,
+  "Updated": "2001-01-02T14:45:12.8338163+01:00",
+  "UpdatedAssociateId": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 782
     }
   }
 }

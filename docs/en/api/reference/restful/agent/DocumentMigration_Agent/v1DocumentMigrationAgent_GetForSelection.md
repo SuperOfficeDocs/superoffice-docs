@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 270,
-  "SelectionId": 351,
-  "IncludeEmails": false
+  "DocumentPluginId": 59,
+  "SelectionId": 520,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 200,
-  "NumDocumentsAlreadyMigrated": 665,
+  "NumDocumentsOmitted": 412,
+  "NumDocumentsAlreadyMigrated": 774,
   "Documents": [
     {
-      "DocumentId": 199,
-      "ContactId": 118,
-      "PersonId": 755,
-      "SaleId": 113,
-      "ProjectId": 409,
-      "DocTmplId": 482,
-      "AssociateId": 452,
-      "UserGroupId": 148,
-      "VisibleForId": 782
+      "DocumentId": 1001,
+      "ContactId": 10,
+      "PersonId": 520,
+      "SaleId": 904,
+      "ProjectId": 332,
+      "DocTmplId": 493,
+      "AssociateId": 263,
+      "UserGroupId": 451,
+      "VisibleForId": 549
     }
   ],
   "Associates": [
     {
-      "AssociateId": 263,
-      "EmailAddress": "clemens_marvin@goldner.co.uk"
+      "AssociateId": 679,
+      "EmailAddress": "bernadine@herzog.co.uk"
     },
     {
-      "AssociateId": 263,
-      "EmailAddress": "clemens_marvin@goldner.co.uk"
+      "AssociateId": 679,
+      "EmailAddress": "bernadine@herzog.co.uk"
     }
   ]
 }

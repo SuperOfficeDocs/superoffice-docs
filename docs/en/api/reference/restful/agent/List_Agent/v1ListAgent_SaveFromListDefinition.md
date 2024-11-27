@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "UdListDefinitionId": 827,
+  "Id": 991,
+  "UdListDefinitionId": 758,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Yost-Stracke",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "UdListDefinitionId": 294,
-  "Rank": 957,
+  "Id": 916,
+  "Name": "Cummerata LLC",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "UdListDefinitionId": 105,
+  "Rank": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 849
     }
   }
 }

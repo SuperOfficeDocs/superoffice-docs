@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "rerum",
+  "ProgId": "quia",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 21,
-  "ColumnId": 963,
-  "FieldDefault": "provident",
-  "FieldHeight": 652,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 977,
-  "FieldTop": 512,
+  "UDefFieldId": 114,
+  "ColumnId": 972,
+  "FieldDefault": "soluta",
+  "FieldHeight": 463,
+  "FieldLabel": "aut",
+  "FieldLeft": 640,
+  "FieldTop": 856,
   "FieldType": "Checkbox",
-  "FieldWidth": 730,
-  "FormatMask": "omnis",
-  "HideLabel": true,
+  "FieldWidth": 494,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 777,
-  "LabelLeft": 568,
-  "LabelTop": 256,
-  "LabelWidth": 954,
-  "LastVersionId": 815,
-  "ListTableId": 301,
+  "LabelHeight": 2,
+  "LabelLeft": 151,
+  "LabelTop": 271,
+  "LabelWidth": 879,
+  "LastVersionId": 573,
+  "ListTableId": 491,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 378,
-  "ProgId": "possimus",
+  "Page1LineNo": 121,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 872,
-  "TextLength": 126,
-  "Tooltip": "rerum",
-  "UdefIdentity": 148,
-  "UDListDefinitionId": 91,
+  "ShortLabel": "veritatis",
+  "TabOrder": 820,
+  "TextLength": 830,
+  "Tooltip": "in",
+  "UdefIdentity": 687,
+  "UDListDefinitionId": 433,
   "Justification": "Center",
-  "Version": 490,
-  "TemplateVariableName": "Huels, Bernhard and Feest",
+  "Version": 99,
+  "TemplateVariableName": "Schmitt-Borer",
   "HasBeenPublished": false,
-  "MdoListName": "Purdy, Ziemann and Ebert",
+  "MdoListName": "Cassin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

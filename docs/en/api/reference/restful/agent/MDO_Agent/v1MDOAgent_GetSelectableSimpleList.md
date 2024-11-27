@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pacocha, DuBuque and Rice"
+  "Name": "Schmitt, Orn and Cartwright"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Torphy, Walter and Schamberger",
-    "ToolTip": "Occaecati veritatis aliquid rerum qui architecto sunt.",
+    "Id": 416,
+    "Name": "Friesen, Haley and Crooks",
+    "ToolTip": "Quibusdam et molestiae odit quis odio.",
     "Deleted": false,
-    "Rank": 353,
-    "Type": "soluta",
-    "ColorBlock": 484,
-    "IconHint": "eum",
+    "Rank": 35,
+    "Type": "ab",
+    "ColorBlock": 626,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "1999-10-03T13:14:06.1320455+02:00",
+    "LastChanged": "2001-07-15T14:45:05.8031904+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Huels Inc and Sons",
-        "ToolTip": "In unde et amet eos vero dolorem.",
-        "Deleted": false,
-        "Rank": 57,
-        "Type": "dolores",
-        "ColorBlock": 730,
-        "IconHint": "unde",
+        "Id": 486,
+        "Name": "Schneider-Nader",
+        "ToolTip": "Sequi et dolor quod dicta maxime et hic.",
+        "Deleted": true,
+        "Rank": 15,
+        "Type": "eos",
+        "ColorBlock": 67,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2002-07-12T13:14:06.1320455+02:00",
+        "LastChanged": "2009-09-25T14:45:05.8031904+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "repudiandae",
-        "Hidden": true,
-        "FullName": "Jeanie Murray",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Macie Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldType": "System.String",
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "nam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Ms. Rolando D'Amore Sr.",
+    "FullName": "Prof. Nils King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 845
       }
     }
   }

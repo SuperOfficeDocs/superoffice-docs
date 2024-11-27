@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Johns Inc and Sons"
+  "ApplicationName": "Klocko, Ratke and Brakus"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 372,
-    "Name": "Volkman Group",
-    "CreatedDate": "1999-03-15T13:14:06.0382898+01:00",
-    "UpdatedDate": "2014-02-05T13:14:06.0382898+01:00",
-    "AssociateFullName": "Katheryn Lesch Sr.",
-    "CreatedBy": "impedit",
-    "UpdatedBy": "dolorum",
-    "DeviceIdentifier": "est",
-    "ForeignAppId": 622,
+    "ForeignDeviceId": 397,
+    "Name": "Shields, Mraz and Lang",
+    "CreatedDate": "2012-02-13T14:45:05.6469762+01:00",
+    "UpdatedDate": "2017-06-16T14:45:05.6469762+02:00",
+    "AssociateFullName": "Daphnee Schneider",
+    "CreatedBy": "eos",
+    "UpdatedBy": "asperiores",
+    "DeviceIdentifier": "tempora",
+    "ForeignAppId": 45,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldLength": 597
       }
     }
   }

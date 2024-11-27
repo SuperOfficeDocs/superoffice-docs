@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ResourceAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IResourceAgent'>ResourceAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IResourceAgent'>ResourceAgent</see> that can trigger server-side event scripts.
 
 * [ActivateResourceSubstitution](activateresourcesubstitution.md)
 * [DeleteResourceSubstitution](deleteresourcesubstitution.md)

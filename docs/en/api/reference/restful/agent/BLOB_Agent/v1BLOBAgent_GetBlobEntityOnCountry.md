@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 649
+  "CountryId": 44
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 503,
-  "BlobSize": 675,
-  "Description": "Assimilated national portal",
-  "ExtraInfo": "similique",
-  "IsEncrypted": true,
+  "BlobId": 929,
+  "BlobSize": 122,
+  "Description": "Integrated regional analyzer",
+  "ExtraInfo": "est",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 551,
-  "CreatedDate": "2002-12-10T13:14:05.5382596+01:00",
-  "UpdatedDate": "2006-11-28T13:14:05.5382596+01:00",
+  "MimeType": "nam",
+  "OriginalSize": 81,
+  "CreatedDate": "2021-06-30T14:45:04.8971429+02:00",
+  "UpdatedDate": "2002-08-21T14:45:04.8971429+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "alias",
+  "ConceptualType": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

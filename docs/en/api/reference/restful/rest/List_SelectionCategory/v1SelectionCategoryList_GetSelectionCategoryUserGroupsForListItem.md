@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Von LLC",
-    "ToolTip": "Et doloribus.",
+    "Id": 749,
+    "Name": "Ryan Inc and Sons",
+    "ToolTip": "Ipsum voluptatem et iste.",
     "Deleted": false,
-    "Rank": 174,
-    "Type": "sint",
-    "ColorBlock": 6,
-    "IconHint": "quos",
+    "Rank": 880,
+    "Type": "non",
+    "ColorBlock": 957,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-09-12T13:14:11.554833+02:00",
+    "LastChanged": "2002-01-01T14:45:13.9273199+01:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Dibbert Inc and Sons",
-        "ToolTip": "Ut dignissimos suscipit officiis.",
+        "Id": 367,
+        "Name": "Boyle-Dooley",
+        "ToolTip": "Consequatur et et.",
         "Deleted": false,
-        "Rank": 985,
-        "Type": "odio",
-        "ColorBlock": 600,
-        "IconHint": "voluptas",
+        "Rank": 206,
+        "Type": "officiis",
+        "ColorBlock": 349,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2003-02-08T13:14:11.554833+01:00",
+        "LastChanged": "2020-05-08T14:45:13.9273199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Dr. Shania Corkery V",
+        "ExtraInfo": "quasi",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Jett Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "sint",
+    "ExtraInfo": "labore",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Prof. Emerald Hartmann",
+    "FullName": "Zander Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 79
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

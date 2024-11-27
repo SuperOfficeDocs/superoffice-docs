@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 706,
-    "Name": "Dickens, Schmeler and Satterfield",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 933,
+    "Name": "Bailey-Beatty",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 891,
-    "UdListDefinitionId": 251
+    "Rank": 21,
+    "UdListDefinitionId": 479
   },
   {
-    "HeadingId": 706,
-    "Name": "Dickens, Schmeler and Satterfield",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 933,
+    "Name": "Bailey-Beatty",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 891,
-    "UdListDefinitionId": 251
+    "Rank": 21,
+    "UdListDefinitionId": 479
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "West-Hyatt",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "Rank": 752,
-    "UdListDefinitionId": 701,
+    "HeadingId": 458,
+    "Name": "O'Conner Group",
+    "Tooltip": "possimus",
+    "Deleted": true,
+    "Rank": 741,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 897
       }
     }
   }

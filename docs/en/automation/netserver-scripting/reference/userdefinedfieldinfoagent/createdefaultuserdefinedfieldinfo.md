@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo'>CreateDefaultUserDefinedFieldInfo</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo'>CreateDefaultUserDefinedFieldInfo</see> method on the <see cref='IUserDefinedFieldInfoAgent'>IUserDefinedFieldInfoAgent</see>  service agent.
 
 ## BeforeCreateDefaultUserDefinedFieldInfo
 ```cs

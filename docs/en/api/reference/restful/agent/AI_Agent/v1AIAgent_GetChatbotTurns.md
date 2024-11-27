@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "sapiente"
+  "ChatId": "ut"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2009-04-24T13:14:05.1944888+02:00",
-    "UserPrompt": "id",
-    "UserDisplayText": "adipisci",
-    "BotResponse": "odit",
+    "Timestamp": "2002-12-09T14:45:04.4287347+01:00",
+    "UserPrompt": "voluptatem",
+    "UserDisplayText": "qui",
+    "BotResponse": "doloribus",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ipsam"
+      "BotActions1": "facilis",
+      "BotActions2": "dolorum"
     },
     "Attachments": [
-      "earum",
-      "quia"
+      "molestiae",
+      "nemo"
     ]
   },
   {
-    "Timestamp": "2009-04-24T13:14:05.1944888+02:00",
-    "UserPrompt": "id",
-    "UserDisplayText": "adipisci",
-    "BotResponse": "odit",
+    "Timestamp": "2002-12-09T14:45:04.4287347+01:00",
+    "UserPrompt": "voluptatem",
+    "UserDisplayText": "qui",
+    "BotResponse": "doloribus",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ipsam"
+      "BotActions1": "facilis",
+      "BotActions2": "dolorum"
     },
     "Attachments": [
-      "earum",
-      "quia"
+      "molestiae",
+      "nemo"
     ]
   }
 ]

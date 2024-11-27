@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=125
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=818
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 197,
-  "Name": "Jones LLC",
-  "Tooltip": "consequatur",
-  "Rank": 978,
+  "ProjTypeId": 784,
+  "Name": "Blick-Little",
+  "Tooltip": "consequuntur",
+  "Rank": 557,
   "DurationUnit": "Century",
-  "ProjectDuration": 717,
-  "Deleted": false,
-  "HasGuide": true,
+  "ProjectDuration": 220,
+  "Deleted": true,
+  "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 756,
-      "Name": "Russel, Franecki and Keeling",
-      "ToolTip": "Occaecati esse corporis odit.",
+      "Id": 582,
+      "Name": "Graham Group",
+      "ToolTip": "Tenetur aliquam dolorem.",
       "Deleted": false,
-      "Rank": 315,
-      "Type": "ratione",
-      "ColorBlock": 236,
-      "IconHint": "inventore",
+      "Rank": 407,
+      "Type": "eum",
+      "ColorBlock": 667,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "2007-02-09T13:14:06.0695417+01:00",
+      "LastChanged": "2004-05-02T14:45:05.6938402+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "id",
-      "Hidden": false,
-      "FullName": "Lera Schmidt",
+      "ExtraInfo": "sequi",
+      "StyleHint": "tenetur",
+      "Hidden": true,
+      "FullName": "Wilber Schuppe Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 345
     }
   }
 }

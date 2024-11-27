@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "quis",
+  "Id": 27,
+  "Name": "Paucek Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 946,
-  "IsCustomList": true,
+  "Rank": 697,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 32
     }
   },
   "_Links": {

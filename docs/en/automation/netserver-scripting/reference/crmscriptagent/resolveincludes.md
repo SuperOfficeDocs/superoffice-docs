@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.ResolveIncludes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes'>ResolveIncludes</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.ResolveIncludes'>ResolveIncludes</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeResolveIncludes
 ```cs

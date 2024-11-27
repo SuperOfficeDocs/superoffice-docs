@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 901,
-  "PrefValue": "velit"
+  "PrefDescId": 217,
+  "PrefValue": "eligendi"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 352,
-  "PrefDescId": 430,
-  "PrefValue": "error",
-  "PrefShowValue": "rem",
-  "Description": "Integrated tertiary throughput",
-  "IsBuiltin": true,
+  "PrefDescLineId": 495,
+  "PrefDescId": 40,
+  "PrefValue": "tempore",
+  "PrefShowValue": "porro",
+  "Description": "Fully-configurable systemic matrices",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 368
     }
   }
 }

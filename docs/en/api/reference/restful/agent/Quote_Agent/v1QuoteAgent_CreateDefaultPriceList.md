@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 595,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 405,
-  "Name": "Ryan, Graham and Osinski",
-  "Description": "Versatile uniform help-desk",
-  "Currency": "natus",
-  "CurrencyName": "Stokes Group",
-  "ValidFrom": "2017-07-13T13:14:06.3039303+02:00",
-  "ValidTo": "2003-05-22T13:14:06.3039303+02:00",
-  "IsActive": true,
+  "PriceListId": 144,
+  "ERPPriceListKey": "tempore",
+  "QuoteConnectionId": 807,
+  "Name": "Jacobi, Boyer and Herzog",
+  "Description": "Total zero defect framework",
+  "Currency": "officia",
+  "CurrencyName": "Crooks, Dooley and Kuhn",
+  "ValidFrom": "2007-11-16T14:45:06.0531349+01:00",
+  "ValidTo": "2001-05-16T14:45:06.0531349+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 985
     }
   }
 }

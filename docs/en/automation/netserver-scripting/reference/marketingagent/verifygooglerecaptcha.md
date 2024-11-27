@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.VerifyGoogleRecaptcha
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha'>VerifyGoogleRecaptcha</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.VerifyGoogleRecaptcha'>VerifyGoogleRecaptcha</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeVerifyGoogleRecaptcha
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.GetFormSubmissionEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity'>GetFormSubmissionEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.GetFormSubmissionEntity'>GetFormSubmissionEntity</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeGetFormSubmissionEntity
 ```cs

@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 213,
-      "ColumnId": 871,
-      "FieldDefault": "quam",
-      "FieldHeight": 838,
-      "FieldLabel": "aut",
-      "FieldLeft": 191,
-      "FieldTop": 239,
+      "UDefFieldId": 426,
+      "ColumnId": 703,
+      "FieldDefault": "accusantium",
+      "FieldHeight": 824,
+      "FieldLabel": "eius",
+      "FieldLeft": 894,
+      "FieldTop": 649,
       "FieldType": "Checkbox",
-      "FieldWidth": 602,
-      "FormatMask": "laboriosam",
+      "FieldWidth": 469,
+      "FormatMask": "molestias",
       "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 227,
-      "LabelLeft": 314,
-      "LabelTop": 498,
-      "LabelWidth": 453,
-      "LastVersionId": 43,
-      "ListTableId": 590,
-      "IsMandatory": false,
+      "LabelHeight": 533,
+      "LabelLeft": 499,
+      "LabelTop": 674,
+      "LabelWidth": 518,
+      "LastVersionId": 747,
+      "ListTableId": 808,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 608,
-      "ProgId": "officia",
+      "Page1LineNo": 581,
+      "ProgId": "qui",
       "IsReadOnly": false,
-      "ShortLabel": "iusto",
-      "TabOrder": 984,
-      "TextLength": 109,
-      "Tooltip": "rem",
-      "UdefIdentity": 508,
-      "UDListDefinitionId": 76,
+      "ShortLabel": "totam",
+      "TabOrder": 783,
+      "TextLength": 485,
+      "Tooltip": "consequatur",
+      "UdefIdentity": 77,
+      "UDListDefinitionId": 314,
       "Justification": "Center",
-      "Version": 482,
-      "TemplateVariableName": "Miller-Schmeler",
-      "HasBeenPublished": false,
-      "MdoListName": "Lang Inc and Sons"
+      "Version": 285,
+      "TemplateVariableName": "Huel LLC",
+      "HasBeenPublished": true,
+      "MdoListName": "Kemmer Inc and Sons"
     }
   ]
 }

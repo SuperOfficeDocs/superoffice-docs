@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=307
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=197
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,41 +87,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 258,
-  "Field": "quam",
-  "RecordId": 45,
+  "RefCountsId": 747,
+  "Field": "maiores",
+  "RecordId": 763,
   "SuggestedRecords": [
     {
-      "Id": 189,
-      "Name": "Gleason-Gusikowski",
-      "ToolTip": "Quae repellat mollitia exercitationem.",
-      "Deleted": false,
-      "Rank": 623,
-      "Type": "aut",
+      "Id": 36,
+      "Name": "McLaughlin Group",
+      "ToolTip": "Voluptates et aspernatur voluptatem nam tenetur.",
+      "Deleted": true,
+      "Rank": 641,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 297,
-      "ExtraInfo": "autem",
-      "StyleHint": "rem",
-      "FullName": "Prof. Cielo Shanahan Sr.",
+      "IconHint": "magnam",
+      "ColorBlock": 90,
+      "ExtraInfo": "aliquid",
+      "StyleHint": "quam",
+      "FullName": "Amir Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 535
         }
       }
     }
   ],
-  "CurrentValue": 370,
-  "TravelPrefix": 362,
-  "SatPrefix": 72,
-  "Allocate": false,
-  "Unique": false,
+  "CurrentValue": 726,
+  "TravelPrefix": 760,
+  "SatPrefix": 954,
+  "Allocate": true,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": null,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 153
     }
   }
 }

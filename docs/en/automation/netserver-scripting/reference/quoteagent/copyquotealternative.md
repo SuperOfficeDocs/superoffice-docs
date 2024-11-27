@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.CopyQuoteAlternative
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.CopyQuoteAlternative'>CopyQuoteAlternative</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.CopyQuoteAlternative'>CopyQuoteAlternative</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeCopyQuoteAlternative
 ```cs

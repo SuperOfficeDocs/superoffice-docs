@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 471,
-  "GroupId": 558
+  "UdListDefinitionId": 876,
+  "GroupId": 832
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Windler Group",
-    "ToolTip": "Sunt ipsa eaque.",
+    "Id": 704,
+    "Name": "Kunze, Koch and Crooks",
+    "ToolTip": "Et atque.",
     "Deleted": false,
-    "Rank": 660,
-    "Type": "labore",
-    "ColorBlock": 921,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2010-07-21T13:14:06.0851676+02:00",
+    "Rank": 470,
+    "Type": "maiores",
+    "ColorBlock": 954,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2014-02-28T14:45:05.7094637+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Rutherford-Wolff",
-        "ToolTip": "Laudantium molestiae ut velit qui minus eaque.",
-        "Deleted": false,
-        "Rank": 234,
-        "Type": "harum",
-        "ColorBlock": 256,
-        "IconHint": "ipsum",
+        "Id": 58,
+        "Name": "Nader Inc and Sons",
+        "ToolTip": "Corporis repellat non aut.",
+        "Deleted": true,
+        "Rank": 148,
+        "Type": "consequatur",
+        "ColorBlock": 289,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2017-09-28T13:14:06.0851676+02:00",
+        "LastChanged": "2017-09-27T14:45:05.7094637+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Madisyn Simonis",
+        "FullName": "Ezequiel Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 554
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "ut",
+    "ExtraInfo": "non",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Michael Cletus Senger PhD",
+    "FullName": "Mr. Constance Fisher MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 740
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

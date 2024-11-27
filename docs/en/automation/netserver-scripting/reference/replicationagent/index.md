@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ReplicationAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IReplicationAgent'>ReplicationAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IReplicationAgent'>ReplicationAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultSatellite](createdefaultsatellite.md)
 * [GetArea](getarea.md)

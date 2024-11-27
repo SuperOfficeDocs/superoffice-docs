@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.IsWithinOpeningHours
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours'>IsWithinOpeningHours</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.IsWithinOpeningHours'>IsWithinOpeningHours</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeIsWithinOpeningHours
 ```cs

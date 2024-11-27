@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Feest-Oberbrunner",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "UdListDefinitionId": 423,
-    "Rank": 481,
+    "Id": 607,
+    "Name": "Eichmann, Gutkowski and Schimmel",
+    "Tooltip": "vero",
+    "Deleted": true,
+    "UdListDefinitionId": 705,
+    "Rank": 306,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 965
       }
     }
   }

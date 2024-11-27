@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 497,
-  "DashboardId": 935,
-  "Height": 153,
-  "Width": 746,
-  "Rank": 302,
+  "DashboardTileId": 957,
+  "DashboardId": 642,
+  "Height": 983,
+  "Width": 147,
+  "Rank": 235,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 339
     }
   }
 }

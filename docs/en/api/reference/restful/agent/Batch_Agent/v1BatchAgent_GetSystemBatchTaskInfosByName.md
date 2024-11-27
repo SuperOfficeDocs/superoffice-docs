@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Gislason, Reilly and Effertz"
+  "TaskName": "Braun-Cronin"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Braun Group",
-    "AssociateId": 359,
-    "DetailsTable": 535,
-    "DetailsRecord": 884,
+    "Id": 218,
+    "Name": "Kulas-Mueller",
+    "AssociateId": 376,
+    "DetailsTable": 490,
+    "DetailsRecord": 9,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "ea"
+      "ParameterObject1": "et",
+      "ParameterObject2": "alias"
     },
-    "LastStarted": "2004-01-13T13:14:05.5382596+01:00",
-    "Created": "2014-08-14T13:14:05.5382596+02:00",
-    "StartCount": 145,
-    "DatabaseSerialNumber": "1458555",
-    "Context": "sit",
-    "Result": "et",
+    "LastStarted": "2006-08-18T14:45:04.8815214+02:00",
+    "Created": "2002-07-05T14:45:04.8815214+02:00",
+    "StartCount": 115,
+    "DatabaseSerialNumber": "1333628",
+    "Context": "sint",
+    "Result": "perspiciatis",
     "State": "All",
-    "Description": "Triple-buffered web-enabled internet solution",
-    "Response": "odit",
-    "Request": "dolorem",
-    "ProgressDescription": "Universal system-worthy support",
-    "ProgressPercent": 704,
-    "FileName": "Paucek LLC",
+    "Description": "Customer-focused empowering productivity",
+    "Response": "sapiente",
+    "Request": "sit",
+    "ProgressDescription": "Implemented transitional throughput",
+    "ProgressPercent": 105,
+    "FileName": "Trantow, Nienow and Hills",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 578
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Leuschke, O'Conner and Okuneva",
-  "Tooltip": "nesciunt",
+  "Id": 211,
+  "Name": "Heller Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 48,
+  "Rank": 305,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   },
   "_Links": {

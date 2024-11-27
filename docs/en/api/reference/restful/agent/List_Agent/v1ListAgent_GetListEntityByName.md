@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Frami, Langworth and Cassin"
+  "Name": "Dickens, Strosin and Streich"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Adams-Altenwerth",
-  "Tooltip": "debitis",
+  "Id": 499,
+  "Name": "Rogahn, Dare and Osinski",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 184,
-  "IsCustomList": true,
+  "Rank": 447,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ad",
+  "UseGroupsAndHeadings": false,
+  "ListType": "magnam",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 482,
-  "Name": "Kohler Inc and Sons",
-  "Tooltip": "culpa",
-  "Deleted": false,
-  "UdListDefinitionId": 693,
-  "Rank": 456,
+  "Id": 402,
+  "Name": "Rohan-Lindgren",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "UdListDefinitionId": 309,
+  "Rank": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

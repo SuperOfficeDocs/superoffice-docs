@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.SetActiveTimeZonesByFilter
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter'>SetActiveTimeZonesByFilter</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.SetActiveTimeZonesByFilter'>SetActiveTimeZonesByFilter</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeSetActiveTimeZonesByFilter
 ```cs

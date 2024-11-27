@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.GetCacheNames
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames'>GetCacheNames</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.GetCacheNames'>GetCacheNames</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeGetCacheNames
 ```cs

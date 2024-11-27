@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Denesik, Maggio and Dooley"
+  "ParameterName": "Schuppe Group"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 170,
-  "Name": "Purdy LLC",
-  "Value": "ipsam",
-  "CreatedDate": "2024-02-04T13:14:05.5226336+01:00",
-  "UpdatedDate": "2019-10-31T13:14:05.5226336+01:00",
-  "CreatedBy": "esse",
-  "UpdatedBy": "ipsa",
+  "AudienceLayoutId": 773,
+  "Name": "Turcotte Inc and Sons",
+  "Value": "eaque",
+  "CreatedDate": "2017-01-22T14:45:04.8659001+01:00",
+  "UpdatedDate": "2017-07-11T14:45:04.8659001+02:00",
+  "CreatedBy": "doloremque",
+  "UpdatedBy": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.GetProbabilityFromStage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage'>GetProbabilityFromStage</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.GetProbabilityFromStage'>GetProbabilityFromStage</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeGetProbabilityFromStage
 ```cs

@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "asperiores"
+  "QuoteLineExtraData": "iusto"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hartmann Group",
-    "Value": "atque",
+    "Name": "Rowe Inc and Sons",
+    "Value": "ut",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldLength": 952
       }
     }
   },
   {
-    "Name": "Hartmann Group",
-    "Value": "atque",
+    "Name": "Rowe Inc and Sons",
+    "Value": "ut",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldLength": 952
       }
     }
   }

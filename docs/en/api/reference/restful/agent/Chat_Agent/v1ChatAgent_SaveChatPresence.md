@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 943,
-      "DisplayName": "Goyette Inc and Sons",
-      "OngoingChats": 904,
+      "UserId": 83,
+      "DisplayName": "Witting Inc and Sons",
+      "OngoingChats": 953,
       "Present": false,
       "ChatTopics": [
-        567,
-        427
+        256,
+        797
       ]
     },
     {
-      "UserId": 943,
-      "DisplayName": "Goyette Inc and Sons",
-      "OngoingChats": 904,
+      "UserId": 83,
+      "DisplayName": "Witting Inc and Sons",
+      "OngoingChats": 953,
       "Present": false,
       "ChatTopics": [
-        567,
-        427
+        256,
+        797
       ]
     }
   ]

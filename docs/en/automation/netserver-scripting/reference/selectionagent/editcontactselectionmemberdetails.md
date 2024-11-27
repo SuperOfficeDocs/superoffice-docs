@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.EditContactSelectionMemberDetails
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails'>EditContactSelectionMemberDetails</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.EditContactSelectionMemberDetails'>EditContactSelectionMemberDetails</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeEditContactSelectionMemberDetails
 ```cs

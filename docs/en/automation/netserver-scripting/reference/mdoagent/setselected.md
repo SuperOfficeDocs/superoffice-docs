@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MDOAgent.SetSelected
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMDOAgent.SetSelected'>SetSelected</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMDOAgent.SetSelected'>SetSelected</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
 
 ## BeforeSetSelected
 ```cs

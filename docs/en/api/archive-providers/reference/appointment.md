@@ -722,11 +722,14 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=person/personUdef/SuperOffice:10,person/personExtra/x_person_integer,person/personAssociate/middleName,person/legalBaseEmarketing,sale/projectId
+GET /api/v1/archive/Appointment?$select=contact/streetAddress/state,person/personAssociate/role,project/projectAssociate/isLocation,associate/assocType,associate/credentialDisplayValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

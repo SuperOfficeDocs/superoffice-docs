@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Shields, Veum and Spinka"
+  "ApplicationName": "Purdy, Sanford and Hilll"
 }
 ```
 

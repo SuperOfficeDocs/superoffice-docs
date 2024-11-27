@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetHierarchyEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetHierarchyEntity'>GetHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetHierarchyEntity'>GetHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetHierarchyEntity
 ```cs

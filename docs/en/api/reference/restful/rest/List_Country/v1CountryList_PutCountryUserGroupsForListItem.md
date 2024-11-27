@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Block, Nicolas and Baumbach",
-    "ToolTip": "Tempora voluptatem nostrum.",
+    "Id": 666,
+    "Name": "O'Conner LLC",
+    "ToolTip": "Tempora perspiciatis quam adipisci vel et repellat.",
     "Deleted": true,
-    "Rank": 336,
-    "Type": "officia",
-    "ColorBlock": 732,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2014-07-17T13:14:11.3673211+02:00",
+    "Rank": 602,
+    "Type": "eaque",
+    "ColorBlock": 271,
+    "IconHint": "quaerat",
+    "Selected": false,
+    "LastChanged": "2017-11-11T14:45:13.6461348+01:00",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Tillman-Dietrich",
-        "ToolTip": "Suscipit magni sed provident incidunt qui alias.",
-        "Deleted": false,
-        "Rank": 152,
-        "Type": "minima",
-        "ColorBlock": 585,
-        "IconHint": "necessitatibus",
+        "Id": 909,
+        "Name": "Kohler, Hauck and Wiza",
+        "ToolTip": "Quia quaerat repellendus voluptate rerum quaerat.",
+        "Deleted": true,
+        "Rank": 700,
+        "Type": "id",
+        "ColorBlock": 541,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-04-15T13:14:11.3673211+02:00",
+        "LastChanged": "2021-08-03T14:45:13.6461348+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Mrs. Imogene Spinka DVM"
+        "ExtraInfo": "ea",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Mr. Willie Konopelski V"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Mrs. Sabryna Hammes PhD"
+    "FullName": "Irma Cronin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Mills-Funk",
-    "ToolTip": "Voluptatibus et ratione vel.",
-    "Deleted": true,
-    "Rank": 869,
-    "Type": "veritatis",
-    "ColorBlock": 646,
-    "IconHint": "est",
+    "Id": 17,
+    "Name": "Gutkowski-Deckow",
+    "ToolTip": "Incidunt molestiae iusto quo et recusandae atque.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "magnam",
+    "ColorBlock": 557,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2006-12-18T13:14:11.3673211+01:00",
+    "LastChanged": "2008-05-01T14:45:13.6461348+02:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Smitham, Pagac and Blanda",
-        "ToolTip": "Qui voluptas quaerat.",
+        "Id": 194,
+        "Name": "Kovacek Inc and Sons",
+        "ToolTip": "In maiores incidunt.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "veniam",
-        "ColorBlock": 492,
-        "IconHint": "consequatur",
+        "Rank": 521,
+        "Type": "ea",
+        "ColorBlock": 811,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "1997-08-27T13:14:11.3673211+02:00",
+        "LastChanged": "2011-06-29T14:45:13.6461348+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "omnis",
+        "ExtraInfo": "ut",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Polly Raynor",
+        "FullName": "Prof. Pinkie Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 77
+            "FieldType": "System.String",
+            "FieldLength": 711
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nulla",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Heaven Goyette DVM",
+    "FullName": "Else Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

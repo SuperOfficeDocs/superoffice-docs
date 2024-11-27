@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 298,
-  "ColumnId": 612,
-  "FieldDefault": "non",
-  "FieldHeight": 981,
-  "FieldLabel": "culpa",
-  "FieldLeft": 132,
-  "FieldTop": 808,
+  "UDefFieldId": 681,
+  "ColumnId": 930,
+  "FieldDefault": "veritatis",
+  "FieldHeight": 704,
+  "FieldLabel": "fuga",
+  "FieldLeft": 686,
+  "FieldTop": 4,
   "FieldType": "Checkbox",
-  "FieldWidth": 129,
-  "FormatMask": "perspiciatis",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 123,
-  "LabelLeft": 940,
-  "LabelTop": 934,
-  "LabelWidth": 591,
-  "LastVersionId": 955,
-  "ListTableId": 292,
+  "FieldWidth": 983,
+  "FormatMask": "nesciunt",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 76,
+  "LabelLeft": 801,
+  "LabelTop": 430,
+  "LabelWidth": 305,
+  "LastVersionId": 636,
+  "ListTableId": 432,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 826,
-  "ProgId": "labore",
+  "Page1LineNo": 923,
+  "ProgId": "tempore",
   "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 746,
-  "TextLength": 542,
-  "Tooltip": "aut",
-  "UdefIdentity": 33,
-  "UDListDefinitionId": 760,
+  "ShortLabel": "consequatur",
+  "TabOrder": 645,
+  "TextLength": 408,
+  "Tooltip": "et",
+  "UdefIdentity": 939,
+  "UDListDefinitionId": 921,
   "Justification": "Center",
-  "Version": 595,
-  "TemplateVariableName": "Ferry-Homenick",
+  "Version": 248,
+  "TemplateVariableName": "Durgan, Ledner and Hoppe",
   "HasBeenPublished": true,
-  "MdoListName": "Walsh Inc and Sons",
+  "MdoListName": "Haag, Huels and Bashirian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

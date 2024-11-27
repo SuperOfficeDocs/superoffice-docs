@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetProductImage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetProductImage'>GetProductImage</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetProductImage'>GetProductImage</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetProductImage
 ```cs

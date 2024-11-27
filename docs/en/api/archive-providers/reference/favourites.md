@@ -2412,15 +2412,18 @@ Archive provider for the list of favourites
 |personAppointment/appointment/agenda| *None* |Agenda|  |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html|  |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId| *None* |Text ID|  |
+|personAppointment/appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|personAppointment/appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 |status| *None* |Status: Displays the project's status|  |
 |statusRank| *None* |Status rank: Rank of the project status in the status list|  |
-|nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
-|endDate| *None* |End date: End date of project|  |
-|imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone|  |
+|endDate| *None* |End date: End date of project|  |
+|imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |projectPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |projectPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -2518,13 +2521,13 @@ Archive provider for the list of favourites
 |selectionAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |selectionAssociate/userName| *None* |User name: User name|  |
 |selectionAssociate/personEmail| *None* |E-mail|  |
-|selectionAssociate/locationAddress| *None* |Location: Location|  |
-|selectionAssociate/isLocation| *None* |Is a location: Is a location|  |
-|mailingId| *None* |ID: Displays the ID of the mailing|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/locationAddress| *None* |Location: Location|  |
+|selectionAssociate/isLocation| *None* |Is a location: Is a location|  |
+|mailingId| *None* |ID: Displays the ID of the mailing|  |
 |mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
 |mailingDescription| *None* |Name: Displays the name of the mailing|  |
 |mailingSent| *None* |Sent: Displays the sent status of the mailing|  |
@@ -2622,13 +2625,13 @@ Archive provider for the list of favourites
 |mailingAddr/contact/restrictionAddress/wgs84longitude| *None* |Company - Search address - Longitude: Longitude|  |
 |mailingAddr/contact/restrictionAddress/formattedAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/restrictionAddress/formattedMultiLineAddress| *None* |Company - Search address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/contact/url/URLAddress| *None* |Company - URL|  |
-|mailingAddr/contact/url/URLDescription| *None* |Company - Description|  |
-|mailingAddr/contact/contactAssociate/firstName| *None* |Company - First name: Displays the contact's first name|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/url/URLAddress| *None* |Company - URL|  |
+|mailingAddr/contact/url/URLDescription| *None* |Company - Description|  |
+|mailingAddr/contact/contactAssociate/firstName| *None* |Company - First name: Displays the contact's first name|  |
 |mailingAddr/contact/contactAssociate/lastName| *None* |Company - Last name: Displays the contact's last name|  |
 |mailingAddr/contact/contactAssociate/middleName| *None* |Company - Middle Name: Displays the contact's middle name.|  |
 |mailingAddr/contact/contactAssociate/fullName| *None* |Company - Full name: Displays full name of user (first, middle, last - according to settings)|  |
@@ -2726,13 +2729,13 @@ Archive provider for the list of favourites
 |mailingAddr/person/middleName| *None* |Contact - Middle name: Displays the contact's middle name.|  |
 |mailingAddr/person/fullName| *None* |Contact - Contact: Displays the contact to which an item is linked|  |
 |mailingAddr/person/contactId| *None* |Contact - Company ID: Database ID of company|  |
-|mailingAddr/person/hasInfoText| *None* |Contact - Has note: Displays an icon indicating if there is additional information available about the contact|  |
-|mailingAddr/person/hasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
-|mailingAddr/person/personHasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/hasInfoText| *None* |Contact - Has note: Displays an icon indicating if there is additional information available about the contact|  |
+|mailingAddr/person/hasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
+|mailingAddr/person/personHasInterests| *None* |Contact - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |mailingAddr/person/mrMrs| *None* |Contact - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |mailingAddr/person/position| *None* |Contact - Position|  |
 |mailingAddr/person/personNumber| *None* |Contact - Number: Displays the contact's number|  |
@@ -2830,13 +2833,13 @@ Archive provider for the list of favourites
 |mailingAddr/person/personUdef/SuperOffice:4| *None* |Contact - contactdate|  |
 |mailingAddr/person/personUdef/SuperOffice:5| *None* |Contact - contactunlimiteddate: tooltipunlimiteddate|  |
 |mailingAddr/person/personUdef/SuperOffice:6| *None* |Contact - contactcheckbox|  |
-|mailingAddr/person/personUdef/SuperOffice:7| *None* |Contact - contactdropdownlistbox|  |
-|mailingAddr/person/personUdef/SuperOffice:8| *None* |Contact - contactdecimal|  |
-|mailingAddr/person/personUdef/SuperOffice:9| *None* |Contact - page1saleonly|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personUdef/SuperOffice:7| *None* |Contact - contactdropdownlistbox|  |
+|mailingAddr/person/personUdef/SuperOffice:8| *None* |Contact - contactdecimal|  |
+|mailingAddr/person/personUdef/SuperOffice:9| *None* |Contact - page1saleonly|  |
 |mailingAddr/person/personUdef/SuperOffice:10| *None* |Contact - page1marketingonly|  |
 |mailingAddr/person/personUdef/SuperOffice:11| *None* |Contact - page1adminonly|  |
 |mailingAddr/person/personExtra/x\_person\_integer| *None* |Contact - Extra Integer: Custom person integer|  |
@@ -2934,13 +2937,13 @@ Archive provider for the list of favourites
 |mailingAddr/person/subscription| *None* |Contact - Subscription: Subscription for marketing|  |
 |mailingAddr/person/legalBaseStore| *None* |Contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/legalBaseEmarketing| *None* |Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|mailingAddr/person/consentSourceStore| *None* |Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|mailingAddr/person/consentSourceEmarketing| *None* |Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/consentSourceStore| *None* |Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|mailingAddr/person/consentSourceEmarketing| *None* |Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
 |emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
 |emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
@@ -3038,13 +3041,13 @@ Archive provider for the list of favourites
 |sale/who| *None* |Who: Contact and/or company|  |
 |sale/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |sale/updatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
-|sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
-|sale/registeredBy| *None* |Registered by: The user who registered the data|  |
-|sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
+|sale/registeredBy| *None* |Registered by: The user who registered the data|  |
+|sale/registeredByFullName| *None* |Registered by - Full name: The user who registered the data|  |
 |sale/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
 |sale/currencyId| *None* |Currency ID: The currency list item ID|  |
 |sale/currency| *None* |Currency: The currency of the sale|  |
@@ -3142,13 +3145,13 @@ Archive provider for the list of favourites
 |completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed|  |
 |isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
 |invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
-|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
-|duration| *None* |Duration: The duration of the chat session|  |
-|appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
+|duration| *None* |Duration: The duration of the chat session|  |
+|appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
@@ -3166,6 +3169,9 @@ Archive provider for the list of favourites
 |appointment/agenda| *None* |Agenda|  |
 |appointment/agendaHtml| *None* |!!Agenda Html|  |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId| *None* |Text ID|  |
+|appointment/internalNotes| *None* |Internal notes: Displays the text entered in the description field|  |
+|appointment/internalNotesHtml| *None* |!!Internal Notes Html|  |
 |ticketTypeName| *None* |Request type: Request type|  |
 |ticketStatusName| *None* |Status: Request status|  |
 |categoryFullName| *None* |Category: Request category|  |
@@ -3243,16 +3249,16 @@ Archive provider for the list of favourites
 |ownedBy/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
 |ownedBy/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
 |ownedBy/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
 |ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
 |ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |ownedBy/associateDbId| *None* |Owner - ID|  |
 |ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
 |ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
@@ -3294,7 +3300,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=getAllRows,hasStakeholders,person/email/emailAddress,person/personExtra/x_person_shorttext_list,contact/associateId
+GET /api/v1/archive/Favourites?$select=person/restrictionAddress/zip,contact/contactAssociate/associateDbId,saleStakeholder/person/restrictionAddress/formattedAddress,saleStakeholder/person/personAssociate/associateDbId,saleStakeholder/contact/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

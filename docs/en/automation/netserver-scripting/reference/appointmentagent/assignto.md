@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.AssignTo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.AssignTo'>AssignTo</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.AssignTo'>AssignTo</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeAssignTo
 ```cs

@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Mraz Group",
-    "Tooltip": "et",
+    "Id": 523,
+    "Name": "Rolfson LLC",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 87,
-    "Rank": 437,
+    "UdListDefinitionId": 700,
+    "Rank": 300,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 667
       }
     }
   }

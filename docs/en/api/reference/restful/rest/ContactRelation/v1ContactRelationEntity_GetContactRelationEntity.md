@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Dec 2003 13:14:10 G12T
+Last-Modified: Sun, 17 Jul 2016 14:45:12 G7T
 
 {
-  "SourceContactId": 490,
-  "SourcePersonId": 946,
-  "DestinationContactId": 363,
-  "DestinationPersonId": 636,
-  "RelationId": 52,
-  "Comment": "ut",
-  "RelationDefinitionId": 814,
-  "Reversed": 911,
-  "UpdatedDate": "2003-12-28T13:14:10.7579101+01:00",
-  "CreatedDate": "2009-07-12T13:14:10.7579101+02:00",
+  "SourceContactId": 459,
+  "SourcePersonId": 437,
+  "DestinationContactId": 757,
+  "DestinationPersonId": 964,
+  "RelationId": 756,
+  "Comment": "qui",
+  "RelationDefinitionId": 54,
+  "Reversed": 952,
+  "UpdatedDate": "2016-07-17T14:45:12.7088435+02:00",
+  "CreatedDate": "2007-05-31T14:45:12.7088435+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ratke, Weimann and Goldner",
-  "SourcePersonName": "Treutel Inc and Sons",
-  "DestinationContactName": "Kertzmann, Daugherty and Heller",
-  "DestinationPersonName": "Mante LLC",
-  "ActiveText": "sunt",
-  "PassiveText": "in",
+  "SourceContactName": "Christiansen-Mills",
+  "SourcePersonName": "Satterfield, Littel and Klocko",
+  "DestinationContactName": "Cummings Inc and Sons",
+  "DestinationPersonName": "Schmitt, Parker and Bayer",
+  "ActiveText": "nisi",
+  "PassiveText": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldType": "System.Int32",
+      "FieldLength": 593
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

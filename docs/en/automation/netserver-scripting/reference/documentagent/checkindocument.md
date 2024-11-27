@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CheckinDocument
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CheckinDocument'>CheckinDocument</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CheckinDocument'>CheckinDocument</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCheckinDocument
 ```cs

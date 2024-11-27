@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 691
+  "AttachmentId": 913
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weimann-Wiza",
-  "MimeType": "eum",
-  "Size": 250,
+  "Name": "Wehner LLC",
+  "MimeType": "ea",
+  "Size": 239,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "norberto.gutkowski@hermistonhills.name",
-  "EmailFrom": "myrl@champlinwelch.ca",
-  "EmailTo": "walter@hirtheweber.com",
-  "EmailCc": "georgette_rodriguez@lesch.ca",
-  "EmailDate": "2014-06-22T13:14:06.6633276+02:00",
+  "EmailSubject": "karley@spencer.ca",
+  "EmailFrom": "yessenia@gaylord.name",
+  "EmailTo": "hayley@borereichmann.biz",
+  "EmailCc": "karli.brekke@homenick.us",
+  "EmailDate": "2011-08-20T14:45:06.584269+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 623,
-      "Name": "Green Inc and Sons",
-      "ContentType": "et",
-      "AttSize": 913,
+      "AttachmentId": 359,
+      "Name": "Quitzon-Pollich",
+      "ContentType": "deserunt",
+      "AttSize": 540,
       "InlineImage": false,
-      "ContentId": "dignissimos",
+      "ContentId": "similique",
       "AuthKey": "aliquam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 544
     }
   }
 }

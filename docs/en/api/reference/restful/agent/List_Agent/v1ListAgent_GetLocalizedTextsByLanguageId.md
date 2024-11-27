@@ -82,7 +82,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 362
+  "LanguageId": 176
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 424,
-    "ResourceId": 67,
-    "Text": "officiis",
+    "LanguageId": 622,
+    "ResourceId": 334,
+    "Text": "tenetur",
     "Type": "Column",
-    "LocalizedTextId": 605,
+    "LocalizedTextId": 903,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

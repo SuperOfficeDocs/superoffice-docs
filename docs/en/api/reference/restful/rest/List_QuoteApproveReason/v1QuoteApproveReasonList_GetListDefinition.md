@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Williamson Group",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 165,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 292,
+  "Name": "Rippin Group",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 166,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   },
   "_Links": {

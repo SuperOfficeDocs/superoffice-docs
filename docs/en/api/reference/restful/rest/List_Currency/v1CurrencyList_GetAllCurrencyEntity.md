@@ -27,7 +27,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 442,
-    "Name": "Halvorson, Wolff and Kozey",
-    "Tooltip": "molestias",
-    "Rank": 988,
-    "Rate": 24755.466,
-    "Units": 5020.668,
-    "Deleted": false,
+    "CurrencyId": 407,
+    "Name": "Murphy Group",
+    "Tooltip": "qui",
+    "Rank": 347,
+    "Rate": 6546.9259999999995,
+    "Units": 19079.791999999998,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

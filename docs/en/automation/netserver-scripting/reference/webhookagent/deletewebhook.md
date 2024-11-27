@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.DeleteWebhook
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook'>DeleteWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.DeleteWebhook'>DeleteWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeDeleteWebhook
 ```cs

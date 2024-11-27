@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 368,
-  "Filter": "qui"
+  "SelectionId": 205,
+  "Filter": "est"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grant-Wolf",
-    "Operator": "qui",
+    "Name": "Zieme Inc and Sons",
+    "Operator": "dolorem",
     "Values": [
-      "accusamus",
-      "eligendi"
+      "eaque",
+      "omnis"
     ],
     "DisplayValues": [
-      "aut",
-      "rerum"
+      "sed",
+      "beatae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Greenfelder-Hyatt",
-        "Operator": "et",
+        "Name": "Bauch-Bradtke",
+        "Operator": "maiores",
         "Values": [
-          "aliquid",
-          "eos"
+          "explicabo",
+          "a"
         ],
         "DisplayValues": [
-          "magnam",
-          "laudantium"
+          "itaque",
+          "officia"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 563,
+        "InterParenthesis": 650,
         "InterOperator": "And",
-        "UniqueHash": 871
+        "UniqueHash": 849
       }
     ],
-    "InterParenthesis": 4,
+    "InterParenthesis": 698,
     "InterOperator": "And",
-    "UniqueHash": 590
+    "UniqueHash": 960
   }
 ]
 ```

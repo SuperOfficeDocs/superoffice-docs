@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Ondricka-Hessel",
-    "ToolTip": "Quam commodi.",
+    "Id": 892,
+    "Name": "Murray-Miller",
+    "ToolTip": "Ut architecto et aliquid quibusdam vero dicta.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "blanditiis",
-    "ColorBlock": 586,
-    "IconHint": "est",
+    "Rank": 683,
+    "Type": "omnis",
+    "ColorBlock": 537,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2021-12-30T13:14:11.3673211+01:00",
+    "LastChanged": "2018-05-12T14:45:13.6617546+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Breitenberg-Howe",
-        "ToolTip": "Delectus ut quia ullam occaecati ratione.",
-        "Deleted": true,
-        "Rank": 554,
-        "Type": "repudiandae",
-        "ColorBlock": 413,
-        "IconHint": "quisquam",
-        "Selected": true,
-        "LastChanged": "1997-06-21T13:14:11.3673211+02:00",
+        "Id": 643,
+        "Name": "Blick Group",
+        "ToolTip": "Provident reprehenderit sed sed dolorem qui quia qui.",
+        "Deleted": false,
+        "Rank": 893,
+        "Type": "voluptas",
+        "ColorBlock": 864,
+        "IconHint": "ipsum",
+        "Selected": false,
+        "LastChanged": "2014-11-10T14:45:13.6617546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Cyril Marvin"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Adam Kautzer"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Prof. Hyman Lucinda Batz Jr."
+    "ExtraInfo": "vero",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Susanna Dietrich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Schmeler-Kris",
-    "ToolTip": "Dolores nihil.",
-    "Deleted": false,
-    "Rank": 962,
-    "Type": "sunt",
-    "ColorBlock": 506,
+    "Id": 551,
+    "Name": "Tillman, Murray and Jast",
+    "ToolTip": "Et excepturi.",
+    "Deleted": true,
+    "Rank": 47,
+    "Type": "enim",
+    "ColorBlock": 559,
     "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-10-25T13:14:11.3673211+02:00",
+    "LastChanged": "2023-07-19T14:45:13.6617546+02:00",
     "ChildItems": [
       {
-        "Id": 642,
-        "Name": "Veum, King and Hodkiewicz",
-        "ToolTip": "Occaecati aspernatur ea totam molestiae aut eius enim.",
-        "Deleted": false,
-        "Rank": 742,
-        "Type": "eveniet",
-        "ColorBlock": 67,
-        "IconHint": "magnam",
+        "Id": 604,
+        "Name": "Quitzon LLC",
+        "ToolTip": "Ut quibusdam sint laboriosam sequi et nesciunt.",
+        "Deleted": true,
+        "Rank": 68,
+        "Type": "adipisci",
+        "ColorBlock": 73,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "2020-02-26T13:14:11.3673211+01:00",
+        "LastChanged": "2024-01-06T14:45:13.6617546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Donald Ledner",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Victor Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "sequi",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Reva Cartwright V",
+    "FullName": "Prof. Glen Dillan Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldType": "System.Int32",
+        "FieldLength": 444
       }
     }
   }

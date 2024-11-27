@@ -79,32 +79,32 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 997,
-  "Name": "Kassulke-Jones",
+  "WebhookId": 254,
+  "Name": "Dach-Bogan",
   "Events": [
-    "ut",
-    "veniam"
+    "eum",
+    "dolore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatem",
+  "Secret": "beatae",
   "State": "Active",
-  "Type": "sunt",
+  "Type": "ratione",
   "Headers": {
-    "Headers1": "quidem",
-    "Headers2": "aliquam"
+    "Headers1": "sunt",
+    "Headers2": "vel"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-08-08T13:14:11.3048179+02:00",
+  "Registered": "2012-07-04T14:45:13.552405+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-11-11T13:14:11.3048179+01:00",
+  "Updated": "2019-12-11T14:45:13.552405+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "mike_tillman@renner.name"
+  "ErrorsEmail": "pinkie_koch@hartmannhammes.us"
 }
 ```
 
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "perferendis",
+  "Message": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 178
     }
   }
 }

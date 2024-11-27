@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaintAgent.CreateDefaultStatusMonitor
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor'>CreateDefaultStatusMonitor</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaintAgent.CreateDefaultStatusMonitor'>CreateDefaultStatusMonitor</see> method on the <see cref='ISaintAgent'>ISaintAgent</see>  service agent.
 
 ## BeforeCreateDefaultStatusMonitor
 ```cs

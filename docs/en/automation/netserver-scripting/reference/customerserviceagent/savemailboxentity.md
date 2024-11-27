@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.SaveMailboxEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity'>SaveMailboxEntity</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.SaveMailboxEntity'>SaveMailboxEntity</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeSaveMailboxEntity
 ```cs

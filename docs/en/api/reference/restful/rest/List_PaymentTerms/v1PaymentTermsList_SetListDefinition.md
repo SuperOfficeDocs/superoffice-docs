@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Stanton Inc and Sons",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 157,
+  "Id": 185,
+  "Name": "Lind, Greenfelder and Hintz",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 100,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Heidenreich-Mueller",
-  "Tooltip": "eum",
+  "Id": 779,
+  "Name": "McLaughlin, Buckridge and Wiza",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 91,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 299,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

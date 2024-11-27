@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 697,
-  "CustomerCustomerReplyTemplateId": 1002,
-  "CustomerPasswordTemplateId": 784,
-  "CustomerConfirmEmailTemplateId": 134,
-  "CustomerChatLogTemplateId": 663,
-  "NewLinkTemplateId": 348,
-  "HotlistNewMessageTemplateId": 245,
-  "HotlistTicketActivatedTemplateId": 69,
-  "UserTicketAlarmTemplateId": 90,
-  "HotlistTicketTakenOverTemplateId": 289,
-  "UserActiveTicketsTemplateId": 453,
-  "UserNewMessageTemplateId": 380,
-  "UserTicketActivatedTemplateId": 911,
-  "UserNewTicketTemplateId": 664,
-  "PublishKbQuestionTemplateId": 81,
-  "PublishKbAnswerTemplateId": 758,
-  "UserTicketTakenOverTemplateId": 275,
-  "PrintTicketTemplateId": 507,
-  "WeekStatTemplateId": 145,
-  "TicketAlarmHotlistTemplateId": 597,
-  "EmailAddresses": "tracey@schroeder.uk",
+  "CustomerNewCustomerTemplateId": 409,
+  "CustomerCustomerReplyTemplateId": 487,
+  "CustomerPasswordTemplateId": 608,
+  "CustomerConfirmEmailTemplateId": 279,
+  "CustomerChatLogTemplateId": 480,
+  "NewLinkTemplateId": 386,
+  "HotlistNewMessageTemplateId": 377,
+  "HotlistTicketActivatedTemplateId": 984,
+  "UserTicketAlarmTemplateId": 417,
+  "HotlistTicketTakenOverTemplateId": 59,
+  "UserActiveTicketsTemplateId": 817,
+  "UserNewMessageTemplateId": 434,
+  "UserTicketActivatedTemplateId": 15,
+  "UserNewTicketTemplateId": 315,
+  "PublishKbQuestionTemplateId": 50,
+  "PublishKbAnswerTemplateId": 111,
+  "UserTicketTakenOverTemplateId": 279,
+  "PrintTicketTemplateId": 373,
+  "WeekStatTemplateId": 814,
+  "TicketAlarmHotlistTemplateId": 740,
+  "EmailAddresses": "libby@mcglynn.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

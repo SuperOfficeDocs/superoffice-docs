@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Will-Strosin",
-    "Tooltip": "dignissimos",
+    "Id": 625,
+    "Name": "Marquardt Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 233,
-    "Rank": 691,
+    "UdListDefinitionId": 226,
+    "Rank": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 232
       }
     }
   }

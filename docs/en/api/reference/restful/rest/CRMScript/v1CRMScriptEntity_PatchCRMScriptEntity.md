@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsa",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,57 +152,57 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 118,
-  "UniqueIdentifier": "neque",
-  "Name": "Hilpert, Purdy and Hermiston",
-  "Description": "Customer-focused impactful orchestration",
-  "IncludeId": "tempore",
-  "AccessKey": "corporis",
-  "HierarchyId": 78,
-  "Source": "nemo",
-  "SourceCode": "ut",
+  "EjscriptId": 94,
+  "UniqueIdentifier": "repellendus",
+  "Name": "Aufderhar, Kling and Orn",
+  "Description": "Front-line explicit system engine",
+  "IncludeId": "sunt",
+  "AccessKey": "id",
+  "HierarchyId": 143,
+  "Source": "saepe",
+  "SourceCode": "voluptatem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 141,
+  "HtmlOutput": 165,
   "Includes": [
-    684,
-    451
+    253,
+    227
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 87,
-      "LineNumberTo": 225,
-      "Delta": 294,
-      "IncludeId": "consequuntur",
+      "LineNumberFrom": 97,
+      "LineNumberTo": 659,
+      "Delta": 383,
+      "IncludeId": "eius",
       "IncludedFrom": [
-        "perferendis",
-        "nostrum"
+        "id",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 909
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-03-27T13:14:10.7735359+02:00",
-  "RegisteredAssociateId": 127,
-  "Updated": "2024-10-09T13:14:10.7735359+02:00",
-  "UpdatedAssociateId": 117,
+  "Registered": "2007-11-09T14:45:12.7244655+01:00",
+  "RegisteredAssociateId": 71,
+  "Updated": "1998-01-18T14:45:12.7244655+01:00",
+  "UpdatedAssociateId": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

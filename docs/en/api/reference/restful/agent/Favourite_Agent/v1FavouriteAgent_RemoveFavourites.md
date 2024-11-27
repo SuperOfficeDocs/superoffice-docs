@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cruickshank-Murray",
+  "TableName": "Hahn, Parker and Hirthe",
   "RecordIds": [
-    433,
-    795
+    570,
+    306
   ],
-  "AssociateId": 951
+  "AssociateId": 4
 }
 ```
 

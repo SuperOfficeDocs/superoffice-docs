@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.FindFromRestrictionsColumns
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.FindFromRestrictionsColumns'>FindFromRestrictionsColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.FindFromRestrictionsColumns'>FindFromRestrictionsColumns</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeFindFromRestrictionsColumns
 ```cs

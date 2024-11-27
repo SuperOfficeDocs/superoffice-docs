@@ -16,6 +16,7 @@ Download [WSDL file for Services88/Sentry](../Services88-Sentry.md) if you need 
 
 * [CanCreateAppointmentInAllDiaries](CanCreateAppointmentInAllDiaries.md)
 * [CanCreateAppointmentInAssociateDiaries](CanCreateAppointmentInAssociateDiaries.md)
+* [CanCreateAppointmentInEachAssociatesDiary](CanCreateAppointmentInEachAssociatesDiary.md)
 * [GetFunctionRights](GetFunctionRights.md)
 * [GetNewTableRight](GetNewTableRight.md)
 * [GetTableRightByContactOwnership](GetTableRightByContactOwnership.md)

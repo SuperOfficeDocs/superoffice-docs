@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ForeignSystemAgent.SaveForeignDevice
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice'>SaveForeignDevice</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
+Scripting events called on the <see cref='M:IForeignSystemAgent.SaveForeignDevice'>SaveForeignDevice</see> method on the <see cref='IForeignSystemAgent'>IForeignSystemAgent</see>  service agent.
 
 ## BeforeSaveForeignDevice
 ```cs

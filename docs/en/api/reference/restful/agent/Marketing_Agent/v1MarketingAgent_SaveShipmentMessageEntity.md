@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 476,
-  "PlainMessage": "voluptas",
-  "HtmlMessage": "pariatur",
-  "SmsMessage": "aut",
-  "Description": "Exclusive human-resource hardware",
-  "Subject": "in",
-  "FolderId": 208,
-  "HeaderField": "asperiores",
-  "Design": "mollitia",
+  "ShipmentMessageId": 324,
+  "PlainMessage": "quo",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "impedit",
+  "Description": "Ameliorated attitude-oriented challenge",
+  "Subject": "qui",
+  "FolderId": 611,
+  "HeaderField": "facilis",
+  "Design": "quaerat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Synergized encompassing contingency",
-  "AccessKey": "in",
-  "DocumentMessage": 971,
-  "Registered": "2002-06-20T13:14:06.1320455+02:00",
-  "RegisteredAssociateId": 633,
-  "Updated": "2015-11-14T13:14:06.1320455+01:00",
-  "UpdatedAssociateId": 421,
-  "UpdatedCount": 10
+  "LongDescription": "Reverse-engineered static orchestration",
+  "AccessKey": "non",
+  "DocumentMessage": 347,
+  "Registered": "1998-05-24T14:45:05.7875689+02:00",
+  "RegisteredAssociateId": 566,
+  "Updated": "2016-10-20T14:45:05.7875689+02:00",
+  "UpdatedAssociateId": 83,
+  "UpdatedCount": 418
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 881,
+  "ShipmentMessageId": 348,
   "PlainMessage": "facere",
-  "HtmlMessage": "culpa",
-  "SmsMessage": "distinctio",
-  "Description": "Multi-layered client-driven hardware",
-  "Subject": "illum",
-  "FolderId": 436,
-  "HeaderField": "aut",
-  "Design": "tempore",
+  "HtmlMessage": "porro",
+  "SmsMessage": "omnis",
+  "Description": "Function-based optimizing functionalities",
+  "Subject": "quos",
+  "FolderId": 404,
+  "HeaderField": "debitis",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Triple-buffered clear-thinking projection",
-  "AccessKey": "animi",
-  "DocumentMessage": 937,
-  "Registered": "2005-01-25T13:14:06.1320455+01:00",
-  "RegisteredAssociateId": 157,
-  "Updated": "2023-03-16T13:14:06.1320455+01:00",
-  "UpdatedAssociateId": 630,
-  "UpdatedCount": 623,
+  "LongDescription": "Enhanced mobile orchestration",
+  "AccessKey": "modi",
+  "DocumentMessage": 983,
+  "Registered": "2021-05-19T14:45:05.7875689+02:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "2023-05-18T14:45:05.7875689+02:00",
+  "UpdatedAssociateId": 857,
+  "UpdatedCount": 698,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

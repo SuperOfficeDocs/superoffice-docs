@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 32,
+  "HierarchyId": 257,
   "Domain": "Dashboards",
-  "Name": "Pfannerstill LLC",
-  "Fullname": "quos",
-  "ParentId": 149,
+  "Name": "Pfeffer-Hilll",
+  "Fullname": "quidem",
+  "ParentId": 771,
   "Children": [
     {
-      "HierarchyId": 793,
+      "HierarchyId": 268,
       "Domain": "Dashboards",
-      "Name": "Brakus, Hand and Hahn",
-      "Fullname": "ea",
-      "ParentId": 309,
+      "Name": "Volkman Inc and Sons",
+      "Fullname": "voluptas",
+      "ParentId": 532,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-08-30T13:14:06.1164195+02:00",
-      "RegisteredAssociateId": 282,
-      "Updated": "2009-06-01T13:14:06.1164195+02:00",
-      "UpdatedAssociateId": 963,
+      "Registered": "2010-06-26T14:45:05.7563266+02:00",
+      "RegisteredAssociateId": 531,
+      "Updated": "2012-07-22T14:45:05.7563266+02:00",
+      "UpdatedAssociateId": 711,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     }
   ],
-  "Registered": "2000-12-20T13:14:06.1164195+01:00",
-  "RegisteredAssociateId": 100,
-  "Updated": "2008-08-01T13:14:06.1164195+02:00",
-  "UpdatedAssociateId": 869,
+  "Registered": "2008-11-26T14:45:05.7563266+01:00",
+  "RegisteredAssociateId": 472,
+  "Updated": "2009-01-15T14:45:05.7563266+01:00",
+  "UpdatedAssociateId": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

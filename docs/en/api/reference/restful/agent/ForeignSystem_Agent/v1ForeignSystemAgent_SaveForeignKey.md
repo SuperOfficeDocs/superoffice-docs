@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Koelpin, Daniel and Kutch",
-  "DeviceName": "Ledner-Schmidt",
-  "DeviceIdentifier": "temporibus"
+  "ApplicationName": "Corkery LLC",
+  "DeviceName": "Connelly Group",
+  "DeviceIdentifier": "consequuntur"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "explicabo",
-  "Value": "officiis",
-  "RecordId": 476,
-  "CreatedDate": "2014-06-25T13:14:06.0382898+02:00",
-  "UpdatedDate": "2022-06-20T13:14:06.0382898+02:00",
-  "UpdatedBy": "iure",
-  "CreatedBy": "tenetur",
-  "TableName": "Nader Inc and Sons",
+  "Key": "quis",
+  "Value": "ad",
+  "RecordId": 932,
+  "CreatedDate": "2006-05-25T14:45:05.6469762+02:00",
+  "UpdatedDate": "2013-12-19T14:45:05.6469762+01:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "aut",
+  "TableName": "Marks, Rohan and Abshire",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 483,
-      "ContactName": "Effertz LLC",
-      "PersonId": 492,
-      "PersonName": "O'Kon-Swift",
-      "AssociateId": 991,
-      "Address": "quia",
-      "EmailId": 62,
+      "ContactId": 377,
+      "ContactName": "Bartell-Hudson",
+      "PersonId": 6,
+      "PersonName": "Rowe, Mills and Runolfsdottir",
+      "AssociateId": 422,
+      "Address": "ab",
+      "EmailId": 13,
       "DuplicatePersonIds": [
-        161,
-        403
+        808,
+        645
       ],
-      "Name": "Rath, Hirthe and Bernhard",
+      "Name": "Bauch-Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 731
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 509,
-      "ContactName": "Kub-Price",
-      "PersonId": 172,
-      "PersonName": "Feest Inc and Sons",
-      "AssociateId": 95,
-      "Address": "fugiat",
-      "EmailId": 294,
+      "ContactId": 723,
+      "ContactName": "Reilly, Moen and Kessler",
+      "PersonId": 125,
+      "PersonName": "Mraz, Runolfsdottir and Zboncak",
+      "AssociateId": 653,
+      "Address": "quas",
+      "EmailId": 354,
       "DuplicatePersonIds": [
-        193,
-        359
+        635,
+        701
       ],
-      "Name": "Ortiz-Kub",
+      "Name": "Casper Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 976,
-      "ContactName": "Huels, Johns and Lindgren",
-      "PersonId": 722,
-      "PersonName": "Hilll-Kuphal",
-      "AssociateId": 211,
-      "Address": "non",
-      "EmailId": 857,
+      "ContactId": 329,
+      "ContactName": "Bogisich, Orn and Torp",
+      "PersonId": 453,
+      "PersonName": "Legros-Schiller",
+      "AssociateId": 760,
+      "Address": "est",
+      "EmailId": 589,
       "DuplicatePersonIds": [
-        245,
-        502
+        857,
+        316
       ],
-      "Name": "Swift Group",
+      "Name": "Gaylord, Keebler and Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 392
         }
       }
     }
   ],
-  "Subject": "iusto",
-  "HTMLBody": "voluptatem",
+  "Subject": "cupiditate",
+  "HTMLBody": "at",
   "From": null,
-  "Sent": "2003-05-22T13:14:05.9757861+02:00",
-  "Size": 829,
+  "Sent": "2018-06-04T14:45:05.5532468+02:00",
+  "Size": 154,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptate",
-  "PlainBody": "placeat",
+  "MessageID": "esse",
+  "PlainBody": "quam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 210,
+  "ServerId": 328,
   "Attachments": [
     {
-      "Description": "Horizontal bi-directional adapter",
-      "Filename": "consequuntur",
-      "Size": 121,
-      "Type": "est",
-      "Encoding": "laborum",
-      "Id": "sed",
-      "Disposition": "sit",
+      "Description": "Vision-oriented fresh-thinking productivity",
+      "Filename": "et",
+      "Size": 523,
+      "Type": "iure",
+      "Encoding": "omnis",
+      "Id": "veritatis",
+      "Disposition": "a",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 150
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Reilly, Gibson and Heller",
+      "Name": "Torphy-Osinski",
       "Values": [
-        "dolore",
-        "quia"
+        "eius",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 899
         }
       }
     },
     {
-      "Name": "Reilly, Gibson and Heller",
+      "Name": "Torphy-Osinski",
       "Values": [
-        "dolore",
-        "quia"
+        "eius",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 899
         }
       }
     }
   ],
-  "FolderName": "Witting Group",
-  "EmailItemId": 525,
-  "AccountId": 881,
-  "ReceivedAt": "2023-10-27T13:14:05.9757861+02:00",
+  "FolderName": "Bruen-Jacobson",
+  "EmailItemId": 530,
+  "AccountId": 144,
+  "ReceivedAt": "2008-07-21T14:45:05.5532468+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-10-10T13:14:05.9757861+02:00",
+  "RepliedAt": "2002-09-21T14:45:05.5532468+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

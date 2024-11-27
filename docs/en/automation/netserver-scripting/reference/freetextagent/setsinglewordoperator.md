@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.SetSingleWordOperator
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator'>SetSingleWordOperator</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.SetSingleWordOperator'>SetSingleWordOperator</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeSetSingleWordOperator
 ```cs

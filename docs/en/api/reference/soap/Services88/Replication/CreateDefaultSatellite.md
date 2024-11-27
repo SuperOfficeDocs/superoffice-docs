@@ -63,7 +63,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Replication:CreateDefaultSatelliteResponse>
    <Replication:Response xsi:type="Replication:Satellite">
     <Replication:SatelliteId xsi:type="xsd:int">0</Replication:SatelliteId>
-    <Replication:Created xsi:type="xsd:dateTime">2024-10-28T12:13:23Z</Replication:Created>
+    <Replication:Created xsi:type="xsd:dateTime">2024-11-18T13:44:22Z</Replication:Created>
     <Replication:CreatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>
@@ -78,7 +78,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Replication:EjUserId xsi:type="xsd:int">0</Replication:EjUserId>
      <Replication:UserName xsi:type="xsd:string"></Replication:UserName>
     </Replication:CreatedBy>
-    <Replication:Updated xsi:type="xsd:dateTime">2024-10-28T12:13:23Z</Replication:Updated>
+    <Replication:Updated xsi:type="xsd:dateTime">2024-11-18T13:44:22Z</Replication:Updated>
     <Replication:UpdatedBy xsi:type="Replication:Associate">
      <Replication:AssociateId xsi:type="xsd:int">0</Replication:AssociateId>
      <Replication:Name xsi:type="xsd:string"></Replication:Name>

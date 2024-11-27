@@ -88,44 +88,44 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hilpert LLC",
-      "Operator": "doloribus",
+      "Name": "Abernathy Group",
+      "Operator": "saepe",
       "Values": [
-        "laborum",
-        "est"
+        "accusamus",
+        "dolores"
       ],
       "DisplayValues": [
-        "aperiam",
-        "laudantium"
+        "eos",
+        "perferendis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 475,
+      "InterParenthesis": 141,
       "InterOperator": "And",
-      "UniqueHash": 493
+      "UniqueHash": 854
     }
   ],
-  "ProviderName": "Bogisich, Ullrich and Jacobi",
+  "ProviderName": "Little Inc and Sons",
   "DesiredColumns": [
-    "voluptatem",
-    "ab"
+    "cum",
+    "qui"
   ],
   "OrderBy": [
     {
-      "Name": "Wehner Group",
+      "Name": "Schmeler-Reichert",
       "Direction": "ASC"
     },
     {
-      "Name": "Wehner Group",
+      "Name": "Schmeler-Reichert",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 958,
-  "PageNumber": 21
+  "PageSize": 375,
+  "PageNumber": 367
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Mraz, Armstrong and Kuvalis",
-      "DisplayTooltip": "occaecati",
-      "DisplayType": "nam",
+      "DisplayName": "Roob, Williamson and Marks",
+      "DisplayTooltip": "atque",
+      "DisplayType": "maiores",
       "CanOrderBy": false,
-      "Name": "Beatty-Jacobi",
-      "CanRestrictBy": false,
-      "RestrictionType": "tenetur",
-      "RestrictionListName": "Homenick, Fahey and Blick",
+      "Name": "Kunze-Kovacek",
+      "CanRestrictBy": true,
+      "RestrictionType": "odio",
+      "RestrictionListName": "Koelpin Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "reprehenderit",
-      "Width": "necessitatibus",
-      "IconHint": "ut",
-      "HeadingIconHint": "id"
+      "ExtraInfo": "sequi",
+      "Width": "unde",
+      "IconHint": "culpa",
+      "HeadingIconHint": "voluptatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Zulauf LLC",
-      "PrimaryKey": 315,
+      "EntityName": "Heller Inc and Sons",
+      "PrimaryKey": 413,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "vel",
-          "LinkHint": "consectetur"
+          "DisplayValue": "tempora",
+          "TooltipHint": "iure",
+          "LinkHint": "dolorum"
         }
       },
-      "LinkHint": "fuga",
-      "StyleHint": "necessitatibus",
+      "LinkHint": "rerum",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 794
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "RowCount": 894,
+  "RowCount": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 829
     }
   }
 }

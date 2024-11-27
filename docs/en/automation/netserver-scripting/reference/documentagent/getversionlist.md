@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetVersionList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetVersionList'>GetVersionList</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetVersionList'>GetVersionList</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetVersionList
 ```cs

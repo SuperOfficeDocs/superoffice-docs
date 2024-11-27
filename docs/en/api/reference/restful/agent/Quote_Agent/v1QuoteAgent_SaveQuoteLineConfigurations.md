@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 960,
-      "FieldName": "Bartell Inc and Sons",
-      "Label": "suscipit",
-      "Tooltip": "dolores",
-      "Editable": false,
+      "QuoteLineConfigurationId": 983,
+      "FieldName": "Fadel-Bergstrom",
+      "Label": "harum",
+      "Tooltip": "nisi",
+      "Editable": true,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 186,
+      "Rank": 847,
       "RestrictEdit": true
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 803,
-    "FieldName": "Oberbrunner Group",
-    "Label": "eius",
-    "Tooltip": "pariatur",
-    "Editable": false,
+    "QuoteLineConfigurationId": 611,
+    "FieldName": "Lind, Gerlach and Ziemann",
+    "Label": "saepe",
+    "Tooltip": "odio",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 887,
-    "RestrictEdit": true,
+    "Rank": 175,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

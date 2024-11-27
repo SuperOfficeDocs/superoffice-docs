@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 492,
-  "Name": "Upton-Raynor",
-  "Tooltip": "quidem",
-  "SaveInDb": 22,
-  "Filename": "adipisci",
-  "DefaultOref": "officia",
+  "DocumentTemplateId": 288,
+  "Name": "Zulauf Group",
+  "Tooltip": "adipisci",
+  "SaveInDb": 874,
+  "Filename": "aliquid",
+  "DefaultOref": "laudantium",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 566,
-  "IntentId": 434,
+  "AutoeventId": 229,
+  "IntentId": 135,
   "IsDefaultPublished": false,
-  "Rank": 996,
-  "LoadTemplateFromPlugin": 690,
-  "MimeType": "aut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 282,
+  "Rank": 811,
+  "LoadTemplateFromPlugin": 871,
+  "MimeType": "atque",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 872,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "calista.robel@glover.biz",
+  "EmailSubject": "rex_rolfson@hudson.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ramon_robel@tillman.uk",
+  "SenderEmailAddress": "lou.maggio@heathcotebayer.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 221,
-  "Name": "O'Kon Inc and Sons",
-  "Tooltip": "eos",
-  "SaveInDb": 220,
-  "Filename": "beatae",
-  "DefaultOref": "mollitia",
+  "DocumentTemplateId": 780,
+  "Name": "Maggio LLC",
+  "Tooltip": "voluptate",
+  "SaveInDb": 216,
+  "Filename": "sunt",
+  "DefaultOref": "eveniet",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 1001,
-  "IntentId": 831,
+  "AutoeventId": 689,
+  "IntentId": 583,
   "IsDefaultPublished": false,
-  "Rank": 684,
-  "LoadTemplateFromPlugin": 69,
-  "MimeType": "vel",
+  "Rank": 667,
+  "LoadTemplateFromPlugin": 6,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 607,
+  "DocumentTypeKey": 129,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "trinity@nolan.us",
+  "EmailSubject": "kari@jewess.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "caden@tremblay.biz",
+  "SenderEmailAddress": "dario_stiedemann@langoshrunte.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 804
     }
   }
 }

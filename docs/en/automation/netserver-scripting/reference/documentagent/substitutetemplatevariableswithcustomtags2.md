@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SubstituteTemplateVariablesWithCustomTags2
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SubstituteTemplateVariablesWithCustomTags2'>SubstituteTemplateVariablesWithCustomTags2</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SubstituteTemplateVariablesWithCustomTags2'>SubstituteTemplateVariablesWithCustomTags2</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSubstituteTemplateVariablesWithCustomTags2
 ```cs

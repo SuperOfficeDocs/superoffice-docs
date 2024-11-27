@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.SetTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.SetTile'>SetTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.SetTile'>SetTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeSetTile
 ```cs

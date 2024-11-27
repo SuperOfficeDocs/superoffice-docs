@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 860,
-  "HeadingId": 435
+  "UdListDefinitionId": 173,
+  "HeadingId": 538
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Wuckert-Berge",
-    "ToolTip": "Quisquam nulla quae distinctio sit ex.",
+    "Id": 917,
+    "Name": "Romaguera LLC",
+    "ToolTip": "Explicabo odio facere esse assumenda alias.",
     "Deleted": true,
-    "Rank": 952,
-    "Type": "eum",
-    "ColorBlock": 199,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2018-05-28T13:14:06.0851676+02:00",
+    "Rank": 18,
+    "Type": "repellendus",
+    "ColorBlock": 425,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2019-12-11T14:45:05.7250829+01:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Schultz-Harber",
-        "ToolTip": "A autem magnam maiores asperiores nesciunt.",
+        "Id": 722,
+        "Name": "Nitzsche, Roob and Nienow",
+        "ToolTip": "Earum qui soluta sit architecto id.",
         "Deleted": false,
-        "Rank": 94,
-        "Type": "sed",
-        "ColorBlock": 703,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2010-06-12T13:14:06.0851676+02:00",
+        "Rank": 134,
+        "Type": "doloribus",
+        "ColorBlock": 566,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2003-10-05T14:45:05.7250829+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "nisi",
+        "ExtraInfo": "omnis",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Prof. Reyna Bogisich I",
+        "FullName": "Prof. August Parisian Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 12
+            "FieldType": "System.Int32",
+            "FieldLength": 967
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "officiis",
+    "ExtraInfo": "odio",
+    "StyleHint": "doloremque",
     "Hidden": true,
-    "FullName": "Ms. Carter Sheila Torp PhD",
+    "FullName": "Jabari Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 494
       }
     }
   }

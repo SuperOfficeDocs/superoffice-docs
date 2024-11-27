@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Torphy Group",
-  "Tooltip": "rem",
+  "Id": 953,
+  "Name": "Champlin LLC",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 169,
-  "Rank": 327
+  "UdListDefinitionId": 759,
+  "Rank": 437
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Williamson-Trantow",
-  "Tooltip": "molestiae",
+  "Id": 527,
+  "Name": "Williamson-Maggio",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 37,
-  "Rank": 314,
+  "UdListDefinitionId": 242,
+  "Rank": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 237
     }
   }
 }

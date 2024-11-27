@@ -82,33 +82,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 02 May 2018 13:14:10 G5T
+Last-Modified: Tue, 27 Sep 2011 14:45:12 G9T
 
 {
-  "SourceContactId": 632,
-  "SourcePersonId": 28,
-  "DestinationContactId": 717,
-  "DestinationPersonId": 821,
-  "RelationId": 569,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 204,
-  "Reversed": 348,
-  "UpdatedDate": "2018-05-02T13:14:10.7579101+02:00",
-  "CreatedDate": "2013-03-15T13:14:10.7579101+01:00",
+  "SourceContactId": 546,
+  "SourcePersonId": 575,
+  "DestinationContactId": 954,
+  "DestinationPersonId": 513,
+  "RelationId": 386,
+  "Comment": "iusto",
+  "RelationDefinitionId": 41,
+  "Reversed": 905,
+  "UpdatedDate": "2011-09-27T14:45:12.7088435+02:00",
+  "CreatedDate": "2013-02-04T14:45:12.7088435+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mayert, Gaylord and Toy",
-  "SourcePersonName": "Brakus Inc and Sons",
-  "DestinationContactName": "Lynch-Lehner",
-  "DestinationPersonName": "Kohler-Cremin",
-  "ActiveText": "molestiae",
-  "PassiveText": "distinctio",
+  "SourceContactName": "Powlowski, Carter and McClure",
+  "SourcePersonName": "Lehner-Ankunding",
+  "DestinationContactName": "Price LLC",
+  "DestinationPersonName": "Kemmer-Hagenes",
+  "ActiveText": "qui",
+  "PassiveText": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 830,
-    "Name": "Upton Group",
-    "Tooltip": "alias",
-    "Rank": 926,
+    "SaleTypeId": 577,
+    "Name": "Altenwerth LLC",
+    "Tooltip": "deserunt",
+    "Rank": 520,
     "DurationUnit": "Century",
-    "SaleDuration": 945,
-    "SaleTypeCatId": 61,
+    "SaleDuration": 291,
+    "SaleTypeCatId": 688,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
+    "HasGuide": true,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 304,
-    "QuoteLinesTemplate": 559,
-    "ConfirmationLinesTemplate": 857,
+    "DefaultQuoteValidity": 452,
+    "QuoteLinesTemplate": 643,
+    "ConfirmationLinesTemplate": 629,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 871,
-    "MinEarningPercent": 647,
-    "GroupQuoteLinesBy": 284,
-    "SortGroupLinesBy": 976,
+    "MaxDiscountPercent": 124,
+    "MinEarningPercent": 613,
+    "GroupQuoteLinesBy": 162,
+    "SortGroupLinesBy": 690,
     "Stages": [
       {
-        "Id": 717,
-        "Name": "Waters, Thompson and Donnelly",
-        "ToolTip": "Eum aut velit.",
+        "Id": 863,
+        "Name": "O'Keefe-Hahn",
+        "ToolTip": "Non quia molestias sunt consectetur.",
         "Deleted": false,
-        "Rank": 924,
-        "Type": "laudantium",
-        "ColorBlock": 646,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2016-04-20T13:14:06.0695417+02:00",
+        "Rank": 94,
+        "Type": "quis",
+        "ColorBlock": 106,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2014-01-06T14:45:05.6938402+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Clair Tillman",
+        "ExtraInfo": "est",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Ramon Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldType": "System.String",
+            "FieldLength": 479
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 215
       }
     }
   }

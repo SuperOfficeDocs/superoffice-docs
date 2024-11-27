@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 826,
-  "Name": "Crooks, Ortiz and Lynch",
-  "Tooltip": "et",
-  "Rank": 38,
-  "Key": "in",
-  "Deleted": true
+  "LegalBaseId": 447,
+  "Name": "Hauck Group",
+  "Tooltip": "tempore",
+  "Rank": 682,
+  "Key": "optio",
+  "Deleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 310,
-  "Name": "Wunsch LLC",
-  "Tooltip": "incidunt",
-  "Rank": 391,
-  "Key": "labore",
-  "Deleted": true,
+  "LegalBaseId": 688,
+  "Name": "Marvin Inc and Sons",
+  "Tooltip": "odit",
+  "Rank": 654,
+  "Key": "quaerat",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 389
     }
   }
 }

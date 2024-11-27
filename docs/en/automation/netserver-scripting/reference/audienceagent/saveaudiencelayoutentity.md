@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.SaveAudienceLayoutEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity'>SaveAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.SaveAudienceLayoutEntity'>SaveAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeSaveAudienceLayoutEntity
 ```cs

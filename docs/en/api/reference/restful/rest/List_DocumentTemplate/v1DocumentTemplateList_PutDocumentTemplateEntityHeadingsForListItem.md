@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Hilpert-Gorczany",
-    "ToolTip": "Debitis maiores.",
-    "Deleted": false,
-    "Rank": 58,
-    "Type": "voluptas",
-    "ColorBlock": 900,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2018-11-02T13:14:11.3985731+01:00",
+    "Id": 193,
+    "Name": "McClure-Zieme",
+    "ToolTip": "Voluptas in.",
+    "Deleted": true,
+    "Rank": 126,
+    "Type": "qui",
+    "ColorBlock": 710,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2023-12-04T14:45:13.70862+01:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Schuppe-Kozey",
-        "ToolTip": "Sunt optio necessitatibus deleniti illum.",
+        "Id": 15,
+        "Name": "Mayer Group",
+        "ToolTip": "Iure doloribus.",
         "Deleted": false,
-        "Rank": 455,
-        "Type": "perspiciatis",
-        "ColorBlock": 859,
+        "Rank": 485,
+        "Type": "optio",
+        "ColorBlock": 376,
         "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2020-01-03T13:14:11.3985731+01:00",
+        "Selected": false,
+        "LastChanged": "2002-07-26T14:45:13.70862+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "sint",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Aurelio Crooks PhD"
+        "FullName": "Davonte Hettinger"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "expedita",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Ms. Enid Sidney D'Amore Jr."
+    "FullName": "Barbara Rolfson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Rempel Group",
-    "ToolTip": "Voluptas libero.",
-    "Deleted": false,
-    "Rank": 992,
-    "Type": "et",
-    "ColorBlock": 804,
-    "IconHint": "vitae",
+    "Id": 213,
+    "Name": "Ondricka-Ratke",
+    "ToolTip": "Quae et.",
+    "Deleted": true,
+    "Rank": 284,
+    "Type": "animi",
+    "ColorBlock": 712,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2004-11-18T13:14:11.3985731+01:00",
+    "LastChanged": "2008-06-24T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Leuschke Inc and Sons",
-        "ToolTip": "Beatae recusandae ut eum necessitatibus temporibus omnis.",
-        "Deleted": true,
-        "Rank": 483,
-        "Type": "repudiandae",
-        "ColorBlock": 223,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2014-08-28T13:14:11.3985731+02:00",
+        "Id": 97,
+        "Name": "Predovic Group",
+        "ToolTip": "Magnam rerum voluptatem.",
+        "Deleted": false,
+        "Rank": 276,
+        "Type": "dolor",
+        "ColorBlock": 435,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2019-01-19T14:45:13.70862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Tiana Greenholt",
+        "ExtraInfo": "non",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Prof. Linwood Citlalli Wilkinson PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "provident",
-    "Hidden": true,
-    "FullName": "Margaretta Gibson",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Rhett Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

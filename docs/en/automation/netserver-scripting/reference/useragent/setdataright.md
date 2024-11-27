@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.SetDataRight
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.SetDataRight'>SetDataRight</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.SetDataRight'>SetDataRight</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeSetDataRight
 ```cs

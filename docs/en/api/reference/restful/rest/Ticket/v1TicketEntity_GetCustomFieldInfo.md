@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Howe Group",
-  "DisplayName": "Becker, Lesch and McDermott",
-  "Description": "Decentralized upward-trending website",
-  "ShortLabel": "beatae",
+  "FieldName": "Dietrich, Larkin and Johnston",
+  "DisplayName": "Mueller Group",
+  "Description": "Self-enabling value-added customer loyalty",
+  "ShortLabel": "ratione",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 846,
-  "TemplateVariableName": "Pfannerstill, DuBuque and Lind"
+  "Rank": 481,
+  "TemplateVariableName": "Cartwright-Rosenbaum"
 }
 ```

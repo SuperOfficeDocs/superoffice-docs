@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zulauf Inc and Sons",
-    "DisplayName": "Rowe-Schuppe",
-    "DisplayTooltip": "veritatis",
+    "Name": "Moen LLC",
+    "DisplayName": "Corwin-Durgan",
+    "DisplayTooltip": "libero",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   },
   {
-    "Name": "Zulauf Inc and Sons",
-    "DisplayName": "Rowe-Schuppe",
-    "DisplayTooltip": "veritatis",
+    "Name": "Moen LLC",
+    "DisplayName": "Corwin-Durgan",
+    "DisplayTooltip": "libero",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 301
       }
     }
   }

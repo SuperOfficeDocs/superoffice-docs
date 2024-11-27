@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 589,
-  "Count": 695
+  "AmountLimit": 845,
+  "Count": 562
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mante, Huel and Pagac",
-    "SaleDate": "2004-02-21T13:14:06.3976861+01:00",
-    "SaleId": 617,
-    "Probability": 564,
-    "Title": "praesentium",
-    "Amount": 10125.954,
-    "Currency": "similique",
-    "ProjectName": "Hermiston-Parker",
-    "AssociateFullName": "Mrs. Ludwig Goyette",
-    "Description": "Distributed system-worthy framework",
+    "ContactName": "Collier, Abshire and Bogisich",
+    "SaleDate": "2010-01-08T14:45:06.1781213+01:00",
+    "SaleId": 651,
+    "Probability": 585,
+    "Title": "repellendus",
+    "Amount": 17823.058,
+    "Currency": "est",
+    "ProjectName": "Stokes Inc and Sons",
+    "AssociateFullName": "Mr. Coby Bruen",
+    "Description": "Realigned context-sensitive emulation",
     "Status": "Lost",
-    "WeightedAmount": 30822.89,
-    "ProjectId": 171,
-    "EarningPercent": 2579.2819999999997,
-    "Earning": 4901.576,
-    "ContactId": 201,
-    "AssociateId": 58,
-    "PersonId": 832,
-    "SaleTypeId": 795,
-    "SaleTypeName": "Schinner-Hickle",
-    "PersonFullName": "Scot Kuhic",
+    "WeightedAmount": 13639.168,
+    "ProjectId": 340,
+    "EarningPercent": 2272.15,
+    "Earning": 20668.73,
+    "ContactId": 841,
+    "AssociateId": 191,
+    "PersonId": 286,
+    "SaleTypeId": 434,
+    "SaleTypeName": "Murray-Boyle",
+    "PersonFullName": "Miss Thalia Louisa Wunsch",
     "Completed": "Completed",
-    "ActiveErpLinks": 960,
-    "NextDueDate": "2009-10-06T13:14:06.3976861+02:00",
-    "Number": "565098",
+    "ActiveErpLinks": 935,
+    "NextDueDate": "2013-07-18T14:45:06.1781213+02:00",
+    "Number": "1478083",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 216
       }
     }
   }

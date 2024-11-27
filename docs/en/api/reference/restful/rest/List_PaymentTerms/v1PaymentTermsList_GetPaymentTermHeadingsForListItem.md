@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Thompson, Strosin and Jerde",
-    "ToolTip": "Et aperiam et eos voluptatem eos rerum quia.",
+    "Id": 655,
+    "Name": "Morar, Howell and Kshlerin",
+    "ToolTip": "Possimus exercitationem culpa dolores ea.",
     "Deleted": false,
-    "Rank": 927,
-    "Type": "dolores",
-    "ColorBlock": 401,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2014-06-21T13:14:11.4298249+02:00",
+    "Rank": 816,
+    "Type": "atque",
+    "ColorBlock": 9,
+    "IconHint": "officiis",
+    "Selected": true,
+    "LastChanged": "2005-01-14T14:45:13.7398643+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Reichel, Marvin and Toy",
-        "ToolTip": "Iste doloremque sint quo dolores debitis omnis.",
-        "Deleted": true,
-        "Rank": 977,
-        "Type": "quia",
-        "ColorBlock": 434,
-        "IconHint": "possimus",
+        "Id": 545,
+        "Name": "Wisozk-Harvey",
+        "ToolTip": "Sit adipisci nulla quam quisquam magni fugiat earum.",
+        "Deleted": false,
+        "Rank": 423,
+        "Type": "dolorum",
+        "ColorBlock": 988,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2015-04-26T13:14:11.4298249+02:00",
+        "LastChanged": "2000-10-29T14:45:13.7398643+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Giles Schiller V",
+        "FullName": "Ms. London Rashawn Kirlin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "ut",
+    "ExtraInfo": "sit",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Domenico Berge",
+    "FullName": "Ova Emmalee Lind DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 951
       }
     }
   }

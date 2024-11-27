@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Sipes Inc and Sons",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "UdListDefinitionId": 144,
-  "Rank": 269,
+  "Id": 442,
+  "Name": "Hammes-Torp",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "UdListDefinitionId": 124,
+  "Rank": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

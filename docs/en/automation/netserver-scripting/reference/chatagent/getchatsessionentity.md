@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.GetChatSessionEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity'>GetChatSessionEntity</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.GetChatSessionEntity'>GetChatSessionEntity</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeGetChatSessionEntity
 ```cs

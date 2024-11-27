@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Lakin Group",
-    "ToolTip": "Repellat sed.",
-    "Deleted": true,
-    "Rank": 985,
-    "Type": "quia",
-    "ColorBlock": 979,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2018-06-29T13:14:11.5079552+02:00",
+    "Id": 500,
+    "Name": "Kuhic, Gerlach and Baumbach",
+    "ToolTip": "Porro mollitia voluptas itaque.",
+    "Deleted": false,
+    "Rank": 930,
+    "Type": "sunt",
+    "ColorBlock": 76,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2000-01-08T14:45:13.8804606+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Legros, Roberts and Kilback",
-        "ToolTip": "Labore voluptatem ea quia assumenda dolor repellendus ad.",
-        "Deleted": false,
-        "Rank": 217,
-        "Type": "suscipit",
-        "ColorBlock": 776,
-        "IconHint": "pariatur",
-        "Selected": true,
-        "LastChanged": "2024-02-18T13:14:11.5079552+01:00",
+        "Id": 314,
+        "Name": "Mayert-Pfeffer",
+        "ToolTip": "Itaque cum illum quibusdam nihil.",
+        "Deleted": true,
+        "Rank": 836,
+        "Type": "id",
+        "ColorBlock": 466,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2018-04-09T14:45:13.8804606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "autem",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Vance Jaskolski",
+        "FullName": "Ryder Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 85
+            "FieldType": "System.Int32",
+            "FieldLength": 983
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sint",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Amanda Tromp",
+    "FullName": "Mrs. Jaydon Stewart Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 767
       }
     }
   }

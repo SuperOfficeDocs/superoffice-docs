@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Satterfield-Dibbert",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 139,
-  "Rank": 338
+  "Id": 31,
+  "Name": "Crist Inc and Sons",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "UdListDefinitionId": 313,
+  "Rank": 685
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Prohaska, Hermiston and Rice",
-  "Tooltip": "et",
+  "Id": 804,
+  "Name": "Franecki, Bednar and Nader",
+  "Tooltip": "quia",
   "Deleted": true,
-  "UdListDefinitionId": 867,
-  "Rank": 166,
+  "UdListDefinitionId": 705,
+  "Rank": 762,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 432
+      "FieldType": "System.Int32",
+      "FieldLength": 118
     }
   }
 }

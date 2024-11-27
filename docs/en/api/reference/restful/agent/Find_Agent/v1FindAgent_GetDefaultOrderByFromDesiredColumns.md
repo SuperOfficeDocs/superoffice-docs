@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mraz, Jacobson and Roberts",
+  "ProviderName": "Ziemann-Bosco",
   "DesiredColumns": [
-    "vel",
-    "architecto"
+    "nisi",
+    "voluptatem"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moen, Brakus and Kozey",
+    "Name": "Reichert Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Moen, Brakus and Kozey",
+    "Name": "Reichert Inc and Sons",
     "Direction": "ASC"
   }
 ]

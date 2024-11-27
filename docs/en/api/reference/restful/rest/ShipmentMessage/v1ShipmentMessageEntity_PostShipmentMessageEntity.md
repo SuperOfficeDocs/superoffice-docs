@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 436,
-  "PlainMessage": "necessitatibus",
-  "HtmlMessage": "ullam",
-  "SmsMessage": "recusandae",
-  "Description": "Object-based dynamic hardware",
-  "Subject": "culpa",
-  "FolderId": 29,
-  "HeaderField": "et",
-  "Design": "amet",
+  "ShipmentMessageId": 32,
+  "PlainMessage": "voluptatibus",
+  "HtmlMessage": "exercitationem",
+  "SmsMessage": "nihil",
+  "Description": "Optimized mobile capability",
+  "Subject": "aut",
+  "FolderId": 579,
+  "HeaderField": "tempora",
+  "Design": "ut",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Configurable directional complexity",
-  "AccessKey": "iste",
-  "DocumentMessage": 586,
-  "Registered": "2022-12-25T13:14:11.1173007+01:00",
-  "RegisteredAssociateId": 707,
-  "Updated": "2012-01-12T13:14:11.1173007+01:00",
-  "UpdatedAssociateId": 652,
-  "UpdatedCount": 422
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Distributed dedicated forecast",
+  "AccessKey": "sequi",
+  "DocumentMessage": 794,
+  "Registered": "2014-09-02T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 714,
+  "Updated": "2021-07-06T14:45:13.2555955+02:00",
+  "UpdatedAssociateId": 169,
+  "UpdatedCount": 586
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 633,
-  "PlainMessage": "ut",
-  "HtmlMessage": "quo",
-  "SmsMessage": "quae",
-  "Description": "Focused well-modulated implementation",
-  "Subject": "asperiores",
-  "FolderId": 937,
-  "HeaderField": "voluptatem",
-  "Design": "quaerat",
+  "ShipmentMessageId": 808,
+  "PlainMessage": "temporibus",
+  "HtmlMessage": "qui",
+  "SmsMessage": "optio",
+  "Description": "Automated client-driven system engine",
+  "Subject": "est",
+  "FolderId": 423,
+  "HeaderField": "deserunt",
+  "Design": "ea",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Up-sized secondary intranet",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 453,
-  "Registered": "2002-10-25T13:14:11.1173007+02:00",
-  "RegisteredAssociateId": 582,
-  "Updated": "2006-05-09T13:14:11.1173007+02:00",
-  "UpdatedAssociateId": 414,
-  "UpdatedCount": 395,
+  "LongDescription": "Realigned multimedia framework",
+  "AccessKey": "est",
+  "DocumentMessage": 484,
+  "Registered": "2007-05-24T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 30,
+  "Updated": "2015-07-25T14:45:13.2555955+02:00",
+  "UpdatedAssociateId": 424,
+  "UpdatedCount": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldLength": 76
     }
   },
   "_Links": {

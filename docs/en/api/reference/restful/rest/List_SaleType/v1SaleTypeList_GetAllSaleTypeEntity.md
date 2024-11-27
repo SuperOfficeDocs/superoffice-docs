@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 832,
-    "Name": "Morissette-Torp",
-    "Tooltip": "inventore",
-    "Rank": 876,
+    "SaleTypeId": 249,
+    "Name": "Witting Inc and Sons",
+    "Tooltip": "aut",
+    "Rank": 259,
     "DurationUnit": "Century",
-    "SaleDuration": 9,
-    "SaleTypeCatId": 644,
+    "SaleDuration": 234,
+    "SaleTypeCatId": 248,
     "Deleted": true,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 284,
-    "QuoteLinesTemplate": 74,
-    "ConfirmationLinesTemplate": 57,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 242,
+    "QuoteLinesTemplate": 60,
+    "ConfirmationLinesTemplate": 714,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 272,
-    "MinEarningPercent": 594,
-    "GroupQuoteLinesBy": 522,
-    "SortGroupLinesBy": 445,
+    "MaxDiscountPercent": 857,
+    "MinEarningPercent": 644,
+    "GroupQuoteLinesBy": 922,
+    "SortGroupLinesBy": 39,
     "Stages": [
       {
-        "Id": 219,
-        "Name": "Goodwin-Barrows",
-        "ToolTip": "Quam rerum error qui voluptatem.",
-        "Deleted": false,
-        "Rank": 200,
-        "Type": "facilis",
-        "ColorBlock": 620,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2001-09-17T13:14:11.5392071+02:00",
+        "Id": 850,
+        "Name": "Barton-Paucek",
+        "ToolTip": "Sequi ea dolorem vitae minima provident reprehenderit.",
+        "Deleted": true,
+        "Rank": 793,
+        "Type": "dolor",
+        "ColorBlock": 456,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2003-09-11T14:45:13.9116989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Mr. Bobby Israel Koss IV",
+        "ExtraInfo": "libero",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Lera Crawford Purdy II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldLength": 829
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 385
       }
     }
   }

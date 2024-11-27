@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ChangeEngineStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus'>ChangeEngineStatus</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ChangeEngineStatus'>ChangeEngineStatus</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeChangeEngineStatus
 ```cs

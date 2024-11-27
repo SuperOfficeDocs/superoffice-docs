@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Torphy Inc and Sons",
-    "ToolTip": "Doloribus rerum.",
+    "Id": 409,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Aut quia laudantium repellat temporibus a dolores.",
     "Deleted": false,
-    "Rank": 148,
-    "Type": "qui",
-    "ColorBlock": 534,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2020-06-22T13:14:11.4923293+02:00",
+    "Rank": 574,
+    "Type": "blanditiis",
+    "ColorBlock": 70,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2013-12-31T14:45:13.833594+01:00",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Berge, Kuvalis and Goyette",
-        "ToolTip": "Alias molestiae et sed.",
+        "Id": 683,
+        "Name": "Hansen, Monahan and Haley",
+        "ToolTip": "Voluptatibus sint fuga natus in.",
         "Deleted": false,
-        "Rank": 207,
-        "Type": "aut",
-        "ColorBlock": 86,
-        "IconHint": "itaque",
+        "Rank": 981,
+        "Type": "et",
+        "ColorBlock": 661,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2010-07-06T13:14:11.4923293+02:00",
+        "LastChanged": "2004-10-12T14:45:13.833594+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Joshuah Welch",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Alvena Gorczany V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "cum",
+    "ExtraInfo": "ex",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Mr. Davion Keebler",
+    "FullName": "Francesco Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldType": "System.String",
+        "FieldLength": 641
       }
     }
   }

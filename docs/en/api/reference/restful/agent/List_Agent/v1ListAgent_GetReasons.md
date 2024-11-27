@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Value": "sit",
-    "Tooltip": "velit",
+    "Id": 838,
+    "Value": "distinctio",
+    "Tooltip": "eius",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 707
       }
     }
   },
   {
-    "Id": 666,
-    "Value": "sit",
-    "Tooltip": "velit",
+    "Id": 838,
+    "Value": "distinctio",
+    "Tooltip": "eius",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 707
       }
     }
   }

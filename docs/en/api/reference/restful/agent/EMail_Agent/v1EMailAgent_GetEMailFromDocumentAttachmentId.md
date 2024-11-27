@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 996,
+  "DocId": 551,
   "AttachmentIds": [
-    "vero",
-    "eius"
+    "et",
+    "aliquam"
   ],
   "IncludeAttachments": true
 }
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 21,
-      "ContactName": "Shanahan, Green and Weissnat",
-      "PersonId": 578,
-      "PersonName": "Quigley, Halvorson and Oberbrunner",
-      "AssociateId": 416,
-      "Address": "ipsam",
-      "EmailId": 212,
+      "ContactId": 144,
+      "ContactName": "Murazik Inc and Sons",
+      "PersonId": 808,
+      "PersonName": "Schmitt Group",
+      "AssociateId": 157,
+      "Address": "rerum",
+      "EmailId": 332,
       "DuplicatePersonIds": [
-        318,
-        413
+        969,
+        657
       ],
-      "Name": "Buckridge LLC",
+      "Name": "Kiehn-Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 794
+          "FieldLength": 650
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 829,
-      "ContactName": "Hermiston Inc and Sons",
-      "PersonId": 693,
-      "PersonName": "Cormier-Lang",
-      "AssociateId": 545,
-      "Address": "vel",
-      "EmailId": 481,
+      "ContactId": 493,
+      "ContactName": "Hyatt-Reinger",
+      "PersonId": 916,
+      "PersonName": "Spinka-Gibson",
+      "AssociateId": 952,
+      "Address": "reprehenderit",
+      "EmailId": 231,
       "DuplicatePersonIds": [
-        82,
-        697
+        333,
+        306
       ],
-      "Name": "Gibson-Quitzon",
+      "Name": "Watsica, Luettgen and Leffler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldType": "System.String",
+          "FieldLength": 12
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 379,
-      "ContactName": "Klein LLC",
-      "PersonId": 560,
-      "PersonName": "Lubowitz, Boehm and Bernhard",
-      "AssociateId": 665,
-      "Address": "rerum",
-      "EmailId": 385,
+      "ContactId": 374,
+      "ContactName": "Kozey Inc and Sons",
+      "PersonId": 855,
+      "PersonName": "Marquardt-Langosh",
+      "AssociateId": 996,
+      "Address": "et",
+      "EmailId": 581,
       "DuplicatePersonIds": [
-        733,
-        800
+        730,
+        759
       ],
-      "Name": "Rolfson, Kuvalis and Ritchie",
+      "Name": "Heathcote Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldType": "System.String",
+          "FieldLength": 612
         }
       }
     }
   ],
-  "Subject": "earum",
-  "HTMLBody": "placeat",
+  "Subject": "labore",
+  "HTMLBody": "cupiditate",
   "From": null,
-  "Sent": "2016-09-16T13:14:05.991412+02:00",
-  "Size": 35,
+  "Sent": "1998-02-09T14:45:05.568868+01:00",
+  "Size": 8,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorum",
-  "PlainBody": "debitis",
-  "IsSent": true,
+  "MessageID": "ut",
+  "PlainBody": "vitae",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 644,
+  "ServerId": 993,
   "Attachments": [
     {
-      "Description": "Optional 5th generation concept",
-      "Filename": "laboriosam",
-      "Size": 59,
-      "Type": "repellendus",
-      "Encoding": "tempora",
-      "Id": "qui",
-      "Disposition": "impedit",
+      "Description": "Grass-roots web-enabled matrices",
+      "Filename": "placeat",
+      "Size": 623,
+      "Type": "sapiente",
+      "Encoding": "tenetur",
+      "Id": "laboriosam",
+      "Disposition": "culpa",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,58 +222,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 582
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Olson, Nolan and Sawayn",
+      "Name": "Orn LLC",
       "Values": [
-        "autem",
-        "aut"
+        "aliquam",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 19
         }
       }
     },
     {
-      "Name": "Olson, Nolan and Sawayn",
+      "Name": "Orn LLC",
       "Values": [
-        "autem",
-        "aut"
+        "aliquam",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 19
         }
       }
     }
   ],
-  "FolderName": "Tromp, Miller and Hamill",
-  "EmailItemId": 849,
-  "AccountId": 338,
-  "ReceivedAt": "1997-11-04T13:14:05.991412+01:00",
+  "FolderName": "Boyle Inc and Sons",
+  "EmailItemId": 966,
+  "AccountId": 954,
+  "ReceivedAt": "1999-04-28T14:45:05.568868+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-08-20T13:14:05.991412+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2006-07-30T14:45:05.568868+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

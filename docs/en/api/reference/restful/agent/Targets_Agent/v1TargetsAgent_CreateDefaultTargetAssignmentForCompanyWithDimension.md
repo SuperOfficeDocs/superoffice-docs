@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 303
+  "TargetDimensionId": 172
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 377,
+    "TargetAssignmentInfoId": 676,
     "Values": [
-      561,
-      996
+      141,
+      764
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 461,
-    "DimensionListItemDisplayName": "Dare, Rogahn and Cummerata",
+    "DimensionListItem": 417,
+    "DimensionListItemDisplayName": "Bogan-Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 02 Sep 2014 13:14:11 G9T
+Last-Modified: Fri, 21 Oct 2005 14:45:13 G10T
 
 {
-  "Description": "Fully-configurable leading edge paradigm",
-  "Postit": "doloribus",
+  "Description": "Team-oriented motivating focus group",
+  "Postit": "commodi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 595,
-  "IncludePerson": 536,
+  "GroupIdx": 939,
+  "IncludePerson": 594,
   "MemberCount": 99.99,
-  "Name": "Gleason-Lemke",
-  "PostitTextId": 588,
-  "CreatedDate": "2020-06-15T13:14:11.1016748+02:00",
-  "SelectionId": 186,
-  "SoundEx": "vitae",
-  "Source": 693,
-  "TextId": 489,
-  "UpdatedDate": "2014-09-02T13:14:11.1016748+02:00",
-  "UpdatedCount": 948,
-  "Visibility": 359,
+  "Name": "Prohaska Inc and Sons",
+  "PostitTextId": 349,
+  "CreatedDate": "1998-03-04T14:45:13.2399738+01:00",
+  "SelectionId": 900,
+  "SoundEx": "rerum",
+  "Source": 671,
+  "TextId": 173,
+  "UpdatedDate": "2005-10-21T14:45:13.2399738+02:00",
+  "UpdatedCount": 680,
+  "Visibility": 100,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 106,
-  "TargetTableName": "Bartoletti, Volkman and Prohaska",
-  "Completed": true,
-  "LeftSelectionId": 717,
-  "RightSelectionId": 756,
+  "CompanyUnique": true,
+  "TargetTableNumber": 928,
+  "TargetTableName": "Zboncak, Mills and Yost",
+  "Completed": false,
+  "LeftSelectionId": 599,
+  "RightSelectionId": 169,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Deckow Group",
-  "ShadowProviderName": "Dibbert-Robel",
-  "ChartKey": "enim",
-  "LastLoaded": "1999-07-13T13:14:11.1016748+02:00",
-  "LastLoadedBy": 354,
+  "MainProviderName": "McLaughlin Group",
+  "ShadowProviderName": "Considine-Prosacco",
+  "ChartKey": "in",
+  "LastLoaded": "2007-03-20T14:45:13.2399738+01:00",
+  "LastLoadedBy": 237,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-12-03T13:14:11.1016748+01:00",
-  "LastMembershipChangeBy": 691,
+  "LastMembershipChange": "2003-01-06T14:45:13.2399738+01:00",
+  "LastMembershipChangeBy": 667,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sequi",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Sporer, Bergnaum and Streich",
-  "DashboardTileDefinitionId": 847,
+  "MainHeading": "saepe",
+  "MemberTabHeading": "nulla",
+  "MailingsProviderName": "Homenick LLC",
+  "DashboardTileDefinitionId": 881,
   "VisibleFor": [
     {
-      "VisibleId": 52,
+      "VisibleId": 56,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     },
     {
-      "VisibleId": 52,
+      "VisibleId": 56,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Tue, 02 Sep 2014 13:14:11 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   },
   "_Links": {

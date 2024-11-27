@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 394,
-    "Name": "Hills, Weber and Ortiz",
-    "Description": "Open-architected empowering matrices",
+    "ProjectId": 752,
+    "Name": "Herman LLC",
+    "Description": "Reactive scalable adapter",
     "URL": "http://www.example.com/",
-    "Type": "architecto",
-    "AssociateId": 727,
-    "AssociateFullName": "Fern Rempel",
-    "TypeId": 154,
-    "Updated": "2007-01-02T13:14:06.2883049+01:00",
-    "StatusId": 300,
-    "Status": "similique",
-    "TextId": 659,
-    "PublishTo": "2020-01-19T13:14:06.2883049+01:00",
-    "PublishFrom": "2024-05-24T13:14:06.2883049+02:00",
+    "Type": "veniam",
+    "AssociateId": 872,
+    "AssociateFullName": "Adriana O'Conner",
+    "TypeId": 853,
+    "Updated": "2016-11-13T14:45:06.0218921+01:00",
+    "StatusId": 980,
+    "Status": "omnis",
+    "TextId": 628,
+    "PublishTo": "2012-04-16T14:45:06.0218921+02:00",
+    "PublishFrom": "2003-12-26T14:45:06.0218921+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "844278",
-    "ActiveErpLinks": 209,
+    "ProjectNumber": "246263",
+    "ActiveErpLinks": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 100
+        "FieldLength": 930
       }
     }
   }

@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 637,
-  "Section": "laboriosam",
-  "Key": "suscipit",
-  "Name": "Moore Group",
+  "PrefDescId": 115,
+  "Section": "consequatur",
+  "Key": "voluptates",
+  "Name": "Jenkins-Hyatt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable 6th generation functionalities",
-  "IsBuiltin": true,
-  "TableName": "Koch, Dooley and Hickle",
-  "UserDefinedListId": 635,
-  "Rank": 49,
-  "SubGroup": "voluptatem",
-  "MinLevel": 933,
-  "MaxValue": 82,
-  "MinValue": 680,
-  "RequiredLicense": "voluptate",
+  "Description": "Synergistic holistic architecture",
+  "IsBuiltin": false,
+  "TableName": "Witting, Waelchi and Lebsack",
+  "UserDefinedListId": 580,
+  "Rank": 273,
+  "SubGroup": "porro",
+  "MinLevel": 104,
+  "MaxValue": 355,
+  "MinValue": 335,
+  "RequiredLicense": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   },
   "_Links": {

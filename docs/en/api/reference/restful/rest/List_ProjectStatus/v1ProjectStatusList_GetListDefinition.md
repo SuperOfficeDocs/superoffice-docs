@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Becker-Bergstrom",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 287,
-  "IsCustomList": false,
+  "Id": 66,
+  "Name": "Daugherty, Marquardt and Auer",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 125,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quod",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consectetur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 990
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

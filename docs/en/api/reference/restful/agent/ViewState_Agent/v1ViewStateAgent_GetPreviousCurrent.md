@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Franecki, Dibbert and Kilback",
-  "Id": 190
+  "HistoryName": "Satterfield, Carroll and Rice",
+  "Id": 535
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 144,
-  "Id": 522,
-  "HistoryName": "Smith-Dach",
-  "HistoryId": 383,
-  "AssociateId": 82,
-  "Name": "Koch-Grant",
-  "ItemInfo": "quae",
+  "Rank": 25,
+  "Id": 330,
+  "HistoryName": "Reynolds, Upton and Gorczany",
+  "HistoryId": 960,
+  "AssociateId": 327,
+  "Name": "Kuphal Group",
+  "ItemInfo": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

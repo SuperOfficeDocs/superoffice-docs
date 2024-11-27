@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 824,
-  "Name": "Schowalter, Gleason and Casper",
-  "Tooltip": "sunt",
+  "Id": 630,
+  "Name": "Rempel Group",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 401,
-  "Rank": 107,
+  "UdListDefinitionId": 188,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

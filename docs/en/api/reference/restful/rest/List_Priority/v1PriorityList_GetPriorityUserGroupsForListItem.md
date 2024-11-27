@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Collier Group",
-    "ToolTip": "Quae nesciunt.",
-    "Deleted": true,
-    "Rank": 532,
-    "Type": "rerum",
-    "ColorBlock": 164,
-    "IconHint": "expedita",
-    "Selected": false,
-    "LastChanged": "1999-09-28T13:14:11.4454508+02:00",
+    "Id": 108,
+    "Name": "Mitchell-Rice",
+    "ToolTip": "Corporis perspiciatis voluptatum voluptates minima enim consequatur.",
+    "Deleted": false,
+    "Rank": 379,
+    "Type": "eum",
+    "ColorBlock": 348,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "2024-09-16T14:45:13.7711051+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Gislason, Blick and Wyman",
-        "ToolTip": "Sed vel aliquid aut non in est est.",
+        "Id": 48,
+        "Name": "Stamm Inc and Sons",
+        "ToolTip": "Eos earum occaecati harum culpa.",
         "Deleted": false,
-        "Rank": 589,
-        "Type": "repudiandae",
-        "ColorBlock": 400,
-        "IconHint": "ut",
+        "Rank": 911,
+        "Type": "nulla",
+        "ColorBlock": 77,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2006-11-13T13:14:11.4454508+01:00",
+        "LastChanged": "2011-08-21T14:45:13.7711051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Cordelia Ashlee Hackett IV",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Miss Mark Dane McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 759
+            "FieldLength": 243
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "qui",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Janessa Heath Gleichner IV",
+    "FullName": "Aaron Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 254
       }
     }
   }

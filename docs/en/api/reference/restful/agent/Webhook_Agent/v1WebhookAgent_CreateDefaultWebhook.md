@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 36,
-  "Name": "Schumm LLC",
+  "WebhookId": 322,
+  "Name": "Spinka, Torphy and Hodkiewicz",
   "Events": [
-    "vel",
-    "earum"
+    "quis",
+    "adipisci"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "qui",
   "State": "Active",
-  "Type": "necessitatibus",
+  "Type": "harum",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "magnam"
+    "Headers1": "sint",
+    "Headers2": "odio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-10-22T13:14:06.7570832+02:00",
+  "Registered": "2017-02-16T14:45:06.7248613+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-04-18T13:14:06.7570832+02:00",
+  "Updated": "1998-12-09T14:45:06.7248613+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "palma@weissnat.us"
+  "ErrorsEmail": "audra@schmitt.uk"
 }
 ```

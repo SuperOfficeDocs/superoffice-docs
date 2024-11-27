@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Hansen Inc and Sons",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 109,
+    "Id": 640,
+    "Name": "Parker-Lang",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 219,
     "IsCustomList": true,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "nulla",
-    "InUseByUserDefinedFields": false,
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": true,
+    "ListType": "et",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 78
       }
     }
   }

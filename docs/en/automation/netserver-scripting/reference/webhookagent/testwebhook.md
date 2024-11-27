@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WebhookAgent.TestWebhook
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWebhookAgent.TestWebhook'>TestWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWebhookAgent.TestWebhook'>TestWebhook</see> method on the <see cref='IWebhookAgent'>IWebhookAgent</see>  service agent.
 
 ## BeforeTestWebhook
 ```cs

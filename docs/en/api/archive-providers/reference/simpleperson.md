@@ -1012,11 +1012,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=title,supportAssociate,personExtra/x_person_integer,personSourceRelation/personActiveErpLinks,personTargetRelation/isStakeholder
+GET /api/v1/archive/SimplePerson?$select=personSource,personUrl/URLDescription,personAddress/formattedMultiLineAddress,personTargetRelation/isProjectMember,personContact/code
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

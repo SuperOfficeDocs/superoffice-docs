@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 152,
-    "Name": "Osinski-Rempel",
-    "Tooltip": "sit",
+    "WebPanelId": 291,
+    "Name": "Blick-Grimes",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 942,
+    "Rank": 978,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Bergstrom-Breitenberg",
+    "WindowName": "Frami-Heaney",
     "Url": "http://www.example.com/",
-    "ProgId": "beatae",
-    "Icon": 531,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "ut",
+    "Icon": 13,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 562
       }
     }
   }

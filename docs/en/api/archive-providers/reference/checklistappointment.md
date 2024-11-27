@@ -720,11 +720,14 @@ Archive provider for Appointment activities, of the Diary type (not followup or 
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChecklistAppointment?$select=contact/updatedDate,contact/contactExtra/x_contact_datetime,contact/LastDoByTicket,person/personRegisteredByFullName,person/personAddress/formattedMultiLineAddress
+GET /api/v1/archive/ChecklistAppointment?$select=contact/country,contact/email/emailBounceCount,contact/url/URLDescription,person/personUpdatedByFullName,person/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

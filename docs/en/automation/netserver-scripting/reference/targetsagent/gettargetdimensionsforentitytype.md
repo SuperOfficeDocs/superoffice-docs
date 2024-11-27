@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.GetTargetDimensionsForEntityType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.GetTargetDimensionsForEntityType'>GetTargetDimensionsForEntityType</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.GetTargetDimensionsForEntityType'>GetTargetDimensionsForEntityType</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeGetTargetDimensionsForEntityType
 ```cs

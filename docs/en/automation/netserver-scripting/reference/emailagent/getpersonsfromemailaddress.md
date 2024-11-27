@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.GetPersonsFromEmailAddress
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.GetPersonsFromEmailAddress'>GetPersonsFromEmailAddress</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.GetPersonsFromEmailAddress'>GetPersonsFromEmailAddress</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeGetPersonsFromEmailAddress
 ```cs

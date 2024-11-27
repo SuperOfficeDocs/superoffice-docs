@@ -10,7 +10,7 @@ so.envir: onsite
 
 # FreeTextAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IFreeTextAgent'>FreeTextAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IFreeTextAgent'>FreeTextAgent</see> that can trigger server-side event scripts.
 
 * [AddWords](addwords.md)
 * [DeleteStopWordsById](deletestopwordsbyid.md)

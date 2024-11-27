@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=alias
+GET /api/v1/List/Currency/MDOItems?query=illo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Ratke Group",
-    "ToolTip": "Aut omnis illo.",
+    "Id": 733,
+    "Name": "Wehner LLC",
+    "ToolTip": "Non nemo voluptates quia dolores blanditiis.",
     "Deleted": false,
-    "Rank": 412,
-    "Type": "facilis",
+    "Rank": 497,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Klocko, Ortiz and Turner",
-        "ToolTip": "Ut ad odit quidem iure.",
+        "Id": 789,
+        "Name": "Zemlak, Kemmer and Gleichner",
+        "ToolTip": "Repudiandae illum illo.",
         "Deleted": false,
-        "Rank": 222,
-        "Type": "voluptate",
+        "Rank": 884,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 175,
-        "ExtraInfo": "culpa",
-        "StyleHint": "dolorem",
-        "FullName": "Destinee Fisher",
+        "IconHint": "quaerat",
+        "ColorBlock": 381,
+        "ExtraInfo": "ut",
+        "StyleHint": "ex",
+        "FullName": "Asa Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 9
+            "FieldType": "System.Int32",
+            "FieldLength": 951
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 797,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "officiis",
-    "FullName": "Barry Casper",
+    "IconHint": "reprehenderit",
+    "ColorBlock": 338,
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "FullName": "Prof. Madonna Lucile Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

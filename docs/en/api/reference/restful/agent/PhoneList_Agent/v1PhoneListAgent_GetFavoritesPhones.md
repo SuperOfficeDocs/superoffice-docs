@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-338-264-6662 x012",
-    "PersonCellPhone": "(610)399-8416",
-    "PersonPrivatePhone": "437.119.4012 x2459",
-    "PersonFaxNumber": "581719",
-    "PersonPagerNumber": "350731",
-    "PersonEmail": "vesta.jacobi@kuhlmanwintheiser.us",
-    "Id": 885,
-    "Name": "Grady Inc and Sons",
-    "Tooltip": "voluptates",
-    "UniqueId": "magni",
+    "PersonDirectPhone": "(597)060-9325 x725",
+    "PersonCellPhone": "069-605-3295 x7131",
+    "PersonPrivatePhone": "1-666-216-9486",
+    "PersonFaxNumber": "777853",
+    "PersonPagerNumber": "888973",
+    "PersonEmail": "joanne@rathschamberger.ca",
+    "Id": 177,
+    "Name": "Rempel, Ritchie and Torp",
+    "Tooltip": "aut",
+    "UniqueId": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

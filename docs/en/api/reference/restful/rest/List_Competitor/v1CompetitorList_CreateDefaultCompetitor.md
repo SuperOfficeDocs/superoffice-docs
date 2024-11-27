@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Howe, Wyman and Hyatt",
-  "Tooltip": "deserunt",
+  "Id": 82,
+  "Name": "Muller-Block",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 918,
-  "Rank": 521,
+  "UdListDefinitionId": 985,
+  "Rank": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldType": "System.Int32",
+      "FieldLength": 942
     }
   }
 }

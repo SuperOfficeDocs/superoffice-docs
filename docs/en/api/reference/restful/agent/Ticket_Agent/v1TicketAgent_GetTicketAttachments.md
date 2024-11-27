@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 174
+  "TicketEntityId": 940
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 823,
-    "Name": "Kohler-Buckridge",
-    "ContentType": "provident",
-    "AttSize": 459,
+    "AttachmentId": 553,
+    "Name": "Rodriguez LLC",
+    "ContentType": "neque",
+    "AttSize": 734,
     "InlineImage": true,
-    "ContentId": "dignissimos",
-    "AuthKey": "alias",
+    "ContentId": "totam",
+    "AuthKey": "voluptas",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 565
       }
     }
   }

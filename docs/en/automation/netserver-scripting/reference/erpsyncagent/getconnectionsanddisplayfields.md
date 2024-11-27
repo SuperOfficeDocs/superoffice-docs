@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetConnectionsAndDisplayFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields'>GetConnectionsAndDisplayFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetConnectionsAndDisplayFields'>GetConnectionsAndDisplayFields</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetConnectionsAndDisplayFields
 ```cs

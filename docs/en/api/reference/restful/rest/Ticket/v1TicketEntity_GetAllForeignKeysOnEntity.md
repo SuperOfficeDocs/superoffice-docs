@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "recusandae",
-  "2": "maxime"
+  "1": "eveniet",
+  "2": "assumenda"
 }
 ```

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=967
+PUT /api/v1/Project/{id}/ImageInfo?projectId=905
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 704,
-  "BlobSize": 225,
-  "Description": "Robust foreground core",
-  "ExtraInfo": "illum",
+  "BlobId": 922,
+  "BlobSize": 545,
+  "Description": "Object-based attitude-oriented flexibility",
+  "ExtraInfo": "in",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "aperiam",
-  "OriginalSize": 259,
-  "CreatedDate": "2022-04-17T13:14:10.9454212+02:00",
-  "UpdatedDate": "2011-05-29T13:14:10.9454212+02:00",
+  "MimeType": "necessitatibus",
+  "OriginalSize": 766,
+  "CreatedDate": "1999-04-30T14:45:12.9900307+02:00",
+  "UpdatedDate": "2008-05-12T14:45:12.9900307+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui"
+  "ConceptualType": "ex"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 804,
-  "BlobSize": 582,
-  "Description": "Public-key modular concept",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 695,
+  "BlobSize": 231,
+  "Description": "User-friendly tangible implementation",
+  "ExtraInfo": "aperiam",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "perferendis",
-  "OriginalSize": 774,
-  "CreatedDate": "2015-11-25T13:14:10.9454212+01:00",
-  "UpdatedDate": "2007-09-13T13:14:10.9454212+02:00",
+  "IsZipped": true,
+  "MimeType": "voluptatem",
+  "OriginalSize": 308,
+  "CreatedDate": "1999-09-11T14:45:12.9900307+02:00",
+  "UpdatedDate": "2022-06-27T14:45:12.9900307+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 29,
-    "Name": "Lehner, Johns and Welch",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 199,
-    "UdListDefinitionId": 666,
+    "HeadingId": 923,
+    "Name": "Weimann-Runolfsson",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 101,
+    "UdListDefinitionId": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 582
       }
     }
   }

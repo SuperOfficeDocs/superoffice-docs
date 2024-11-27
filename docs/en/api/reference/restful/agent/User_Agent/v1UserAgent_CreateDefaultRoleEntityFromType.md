@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 963,
-  "Name": "Simonis-Gleichner",
-  "Tooltip": "veritatis",
+  "RoleId": 408,
+  "Name": "Beer, Weimann and Zboncak",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 317,
-  "Rank": 557,
-  "Created": "2014-10-30T13:14:06.7102053+01:00",
-  "UseCategories": 4,
+  "Deleted": 923,
+  "Rank": 170,
+  "Created": "2016-08-04T14:45:06.6467545+02:00",
+  "UseCategories": 703,
   "CreatedBy": null,
-  "Updated": "2003-11-07T13:14:06.7102053+01:00",
+  "Updated": "2014-12-04T14:45:06.6467545+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 779
     }
   }
 }

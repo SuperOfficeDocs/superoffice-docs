@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Walker-Swift",
-    "ToolTip": "Dolorem vitae incidunt est.",
+    "Id": 696,
+    "Name": "Bayer, Lockman and Morar",
+    "ToolTip": "Libero ut velit eveniet ex.",
     "Deleted": false,
-    "Rank": 632,
-    "Type": "explicabo",
-    "ColorBlock": 198,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2013-07-02T13:14:11.5079552+02:00",
+    "Rank": 46,
+    "Type": "omnis",
+    "ColorBlock": 103,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2007-12-24T14:45:13.8648346+01:00",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Eichmann-Murazik",
-        "ToolTip": "Ut dolor alias distinctio ut.",
+        "Id": 25,
+        "Name": "Yundt-Mante",
+        "ToolTip": "Ullam dolorum nesciunt.",
         "Deleted": false,
-        "Rank": 853,
-        "Type": "nihil",
-        "ColorBlock": 351,
-        "IconHint": "soluta",
-        "Selected": true,
-        "LastChanged": "2009-02-08T13:14:11.5079552+01:00",
+        "Rank": 587,
+        "Type": "dolores",
+        "ColorBlock": 756,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2002-11-06T14:45:13.8648346+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ratione",
+        "ExtraInfo": "omnis",
+        "StyleHint": "magni",
         "Hidden": true,
-        "FullName": "Tessie Lueilwitz",
+        "FullName": "Javier Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldType": "System.String",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "corrupti",
-    "Hidden": false,
-    "FullName": "Sierra Crooks",
+    "ExtraInfo": "quas",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Dr. Yessenia Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 610
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 253,
-    "Name": "Kautzer, Crona and Price",
-    "Description": "Vision-oriented 3rd generation access",
+    "ProjectId": 835,
+    "Name": "Lehner-Kautzer",
+    "Description": "Multi-channelled full-range synergy",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 201,
-    "AssociateFullName": "Andreane Kulas",
-    "TypeId": 497,
-    "Updated": "2014-01-28T13:14:06.2883049+01:00",
-    "StatusId": 161,
-    "Status": "qui",
-    "TextId": 236,
-    "PublishTo": "2022-07-12T13:14:06.2883049+02:00",
-    "PublishFrom": "2016-12-04T13:14:06.2883049+01:00",
+    "Type": "dolorum",
+    "AssociateId": 806,
+    "AssociateFullName": "Dr. Nya Ruecker",
+    "TypeId": 293,
+    "Updated": "2023-07-08T14:45:06.0218921+02:00",
+    "StatusId": 899,
+    "Status": "ut",
+    "TextId": 456,
+    "PublishTo": "1998-02-12T14:45:06.0218921+01:00",
+    "PublishFrom": "2009-06-01T14:45:06.0218921+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "290446",
-    "ActiveErpLinks": 254,
+    "ProjectNumber": "1349172",
+    "ActiveErpLinks": 746,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 910
       }
     }
   }

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Carter Group",
-  "EntityId": 470,
-  "TargetLanguage": "ut"
+  "EntityName": "Tremblay LLC",
+  "EntityId": 361,
+  "TargetLanguage": "sequi"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"dolorem"
 ```

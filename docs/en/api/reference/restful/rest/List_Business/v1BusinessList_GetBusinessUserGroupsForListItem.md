@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Herman-Boyer",
-    "ToolTip": "Consequatur nemo quia saepe aut harum.",
-    "Deleted": false,
-    "Rank": 485,
-    "Type": "ea",
-    "ColorBlock": 426,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "1998-02-20T13:14:11.3204434+01:00",
+    "Id": 377,
+    "Name": "Wilkinson LLC",
+    "ToolTip": "Ab consequatur eum cum odio provident minima.",
+    "Deleted": true,
+    "Rank": 721,
+    "Type": "quas",
+    "ColorBlock": 876,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2000-04-11T14:45:13.5836468+02:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Grady, King and Tremblay",
-        "ToolTip": "Nemo quia magni et doloremque.",
+        "Id": 564,
+        "Name": "Lindgren LLC",
+        "ToolTip": "Assumenda perferendis quia repellendus ipsam.",
         "Deleted": true,
-        "Rank": 680,
-        "Type": "unde",
-        "ColorBlock": 444,
-        "IconHint": "molestiae",
+        "Rank": 341,
+        "Type": "et",
+        "ColorBlock": 990,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2000-12-28T13:14:11.3204434+01:00",
+        "LastChanged": "2004-11-03T14:45:13.5836468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "in",
+        "ExtraInfo": "est",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Marlin Macejkovic",
+        "FullName": "Demetrius Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 649
+            "FieldType": "System.Int32",
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mckenzie Kohler",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Briana Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 721
       }
     }
   }

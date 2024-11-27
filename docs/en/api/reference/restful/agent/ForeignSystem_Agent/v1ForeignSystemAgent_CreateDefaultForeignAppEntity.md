@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 974,
-  "Name": "Barrows Inc and Sons",
-  "CreatedDate": "2011-08-08T13:14:06.0382898+02:00",
-  "UpdatedDate": "2023-09-28T13:14:06.0382898+02:00",
+  "ForeignAppId": 337,
+  "Name": "Zieme-Bergstrom",
+  "CreatedDate": "2010-05-13T14:45:05.6313552+02:00",
+  "UpdatedDate": "2010-03-25T14:45:05.6313552+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 565,
-      "Name": "Stanton-Barrows",
-      "CreatedDate": "2003-04-05T13:14:06.0382898+02:00",
-      "UpdatedDate": "2010-06-06T13:14:06.0382898+02:00",
-      "AssociateFullName": "Vicente Reichert",
-      "CreatedBy": "optio",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "aliquid",
-      "ForeignAppId": 24,
+      "ForeignDeviceId": 773,
+      "Name": "Lueilwitz-Shields",
+      "CreatedDate": "2007-10-03T14:45:05.6313552+02:00",
+      "UpdatedDate": "2006-06-01T14:45:05.6313552+02:00",
+      "AssociateFullName": "Breanna Klein",
+      "CreatedBy": "accusamus",
+      "UpdatedBy": "consequuntur",
+      "DeviceIdentifier": "accusantium",
+      "ForeignAppId": 956,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 88
     }
   }
 }

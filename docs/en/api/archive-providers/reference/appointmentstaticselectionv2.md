@@ -716,6 +716,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -725,7 +728,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelectionV2?$select=contact/contactAssociate/userName,person/email/emailLastBounce,person/personAddress/zip,person/restrictionAddress/city,project/saintAmountClass
+GET /api/v1/archive/AppointmentStaticSelectionV2?$select=updatedDate,person/personAddress/city,person/personExtra/x_person_float,person/subscription,sale/reopenDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

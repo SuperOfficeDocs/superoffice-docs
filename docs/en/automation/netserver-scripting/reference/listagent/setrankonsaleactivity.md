@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SetRankOnSaleActivity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SetRankOnSaleActivity'>SetRankOnSaleActivity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SetRankOnSaleActivity'>SetRankOnSaleActivity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSetRankOnSaleActivity
 ```cs

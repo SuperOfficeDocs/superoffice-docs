@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 239,
-  "UniqueIdentifier": "repellendus",
-  "Name": "Metz-Cremin",
-  "Description": "User-centric modular projection",
-  "IncludeId": "saepe",
-  "AccessKey": "quaerat",
-  "HierarchyId": 780,
-  "Source": "ut",
-  "SourceCode": "alias",
+  "EjscriptId": 826,
+  "UniqueIdentifier": "cupiditate",
+  "Name": "O'Hara-Ondricka",
+  "Description": "Mandatory incremental hub",
+  "IncludeId": "incidunt",
+  "AccessKey": "voluptates",
+  "HierarchyId": 337,
+  "Source": "possimus",
+  "SourceCode": "qui",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 309,
+  "HtmlOutput": 275,
   "Includes": [
-    23,
-    30
+    179,
+    910
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 403,
-      "LineNumberTo": 160,
-      "Delta": 551,
-      "IncludeId": "consectetur",
+      "LineNumberFrom": 4,
+      "LineNumberTo": 967,
+      "Delta": 962,
+      "IncludeId": "corporis",
       "IncludedFrom": [
-        "qui",
-        "et"
+        "rerum",
+        "tempore"
       ]
     },
     {
-      "LineNumberFrom": 403,
-      "LineNumberTo": 160,
-      "Delta": 551,
-      "IncludeId": "consectetur",
+      "LineNumberFrom": 4,
+      "LineNumberTo": 967,
+      "Delta": 962,
+      "IncludeId": "corporis",
       "IncludedFrom": [
-        "qui",
-        "et"
+        "rerum",
+        "tempore"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-03-09T13:14:10.7735359+01:00",
-  "RegisteredAssociateId": 251,
-  "Updated": "2012-09-18T13:14:10.7735359+02:00",
-  "UpdatedAssociateId": 683
+  "Registered": "2016-05-18T14:45:12.7244655+02:00",
+  "RegisteredAssociateId": 683,
+  "Updated": "2017-12-12T14:45:12.7244655+01:00",
+  "UpdatedAssociateId": 306
 }
 ```
 
@@ -171,52 +171,52 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 804,
-  "UniqueIdentifier": "temporibus",
-  "Name": "Mann, Corkery and Reichert",
-  "Description": "User-centric human-resource implementation",
-  "IncludeId": "laudantium",
-  "AccessKey": "molestiae",
-  "HierarchyId": 899,
-  "Source": "omnis",
-  "SourceCode": "sint",
+  "EjscriptId": 37,
+  "UniqueIdentifier": "molestiae",
+  "Name": "Stroman, Sawayn and Wisoky",
+  "Description": "Mandatory zero tolerance time-frame",
+  "IncludeId": "et",
+  "AccessKey": "illo",
+  "HierarchyId": 43,
+  "Source": "distinctio",
+  "SourceCode": "sunt",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 801,
+  "HtmlOutput": 704,
   "Includes": [
-    669,
-    746
+    384,
+    157
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 948,
-      "LineNumberTo": 364,
-      "Delta": 449,
-      "IncludeId": "eum",
+      "LineNumberFrom": 471,
+      "LineNumberTo": 246,
+      "Delta": 535,
+      "IncludeId": "vel",
       "IncludedFrom": [
-        "eum",
+        "ipsum",
         "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 782
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-09-13T13:14:10.7735359+02:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2007-07-15T13:14:10.7735359+02:00",
-  "UpdatedAssociateId": 243,
+  "Registered": "2002-01-11T14:45:12.7244655+01:00",
+  "RegisteredAssociateId": 598,
+  "Updated": "2018-03-16T14:45:12.7244655+01:00",
+  "UpdatedAssociateId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   },
   "_Links": {

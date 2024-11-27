@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetSaleDocuments
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetSaleDocuments'>GetSaleDocuments</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetSaleDocuments'>GetSaleDocuments</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetSaleDocuments
 ```cs

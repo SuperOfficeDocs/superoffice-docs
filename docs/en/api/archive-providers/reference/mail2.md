@@ -484,7 +484,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=status,contact/email/emailId,contact/contactUdef/SuperOffice:6
+GET /api/v1/archive/Mail2?$select=person/personAssociate/assocTooltip,person/personExtra/x_person_boolean,person/correspondingAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Reichert Group",
+  "GuiName": "Kuhic, Dooley and Dietrich",
   "ColumnWidths": [
-    "provident",
-    "ratione"
+    "in",
+    "ut"
   ]
 }
 ```

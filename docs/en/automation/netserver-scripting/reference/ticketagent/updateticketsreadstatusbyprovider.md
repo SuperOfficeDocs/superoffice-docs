@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.UpdateTicketsReadStatusByProvider
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.UpdateTicketsReadStatusByProvider'>UpdateTicketsReadStatusByProvider</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.UpdateTicketsReadStatusByProvider'>UpdateTicketsReadStatusByProvider</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeUpdateTicketsReadStatusByProvider
 ```cs

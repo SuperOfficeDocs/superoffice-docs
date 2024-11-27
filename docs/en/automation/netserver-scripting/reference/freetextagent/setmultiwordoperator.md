@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.SetMultiWordOperator
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator'>SetMultiWordOperator</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.SetMultiWordOperator'>SetMultiWordOperator</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeSetMultiWordOperator
 ```cs

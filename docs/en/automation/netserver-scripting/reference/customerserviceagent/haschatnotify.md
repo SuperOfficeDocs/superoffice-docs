@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.HasChatNotify
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify'>HasChatNotify</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.HasChatNotify'>HasChatNotify</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeHasChatNotify
 ```cs

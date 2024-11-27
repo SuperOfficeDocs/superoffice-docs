@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=426
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=91
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded bandwidth-monitored local area network",
-  "Postit": "expedita",
+  "Description": "Seamless tangible capability",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 581,
-  "IncludePerson": 583,
+  "GroupIdx": 231,
+  "IncludePerson": 390,
   "MemberCount": 99.99,
-  "Name": "Howell-Auer",
-  "PostitTextId": 131,
-  "CreatedDate": "2010-09-08T13:14:06.4133118+02:00",
-  "SelectionId": 968,
-  "SoundEx": "debitis",
-  "Source": 798,
-  "TextId": 885,
-  "UpdatedDate": "1998-04-21T13:14:06.4133118+02:00",
-  "UpdatedCount": 638,
-  "Visibility": 760,
+  "Name": "Nicolas, Maggio and Kunde",
+  "PostitTextId": 507,
+  "CreatedDate": "2022-05-07T14:45:06.2093526+02:00",
+  "SelectionId": 664,
+  "SoundEx": "eos",
+  "Source": 218,
+  "TextId": 168,
+  "UpdatedDate": "2002-12-25T14:45:06.2093526+01:00",
+  "UpdatedCount": 218,
+  "Visibility": 393,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 392,
-  "TargetTableName": "Mayer, Tillman and McGlynn",
-  "Completed": false,
-  "LeftSelectionId": 802,
-  "RightSelectionId": 861,
+  "CompanyUnique": true,
+  "TargetTableNumber": 568,
+  "TargetTableName": "Jones, Nikolaus and Treutel",
+  "Completed": true,
+  "LeftSelectionId": 383,
+  "RightSelectionId": 486,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Yost Inc and Sons",
-  "ShadowProviderName": "Renner-Waters",
-  "ChartKey": "minus",
-  "LastLoaded": "2007-05-20T13:14:06.4133118+02:00",
-  "LastLoadedBy": 536,
+  "MainProviderName": "Bernier Group",
+  "ShadowProviderName": "Weimann-Cruickshank",
+  "ChartKey": "sequi",
+  "LastLoaded": "2007-07-28T14:45:06.2093526+02:00",
+  "LastLoadedBy": 225,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-08-13T13:14:06.4133118+02:00",
-  "LastMembershipChangeBy": 688,
+  "LastMembershipChange": "2014-05-06T14:45:06.2093526+02:00",
+  "LastMembershipChangeBy": 183,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "corporis",
-  "MailingsProviderName": "Runolfsson Inc and Sons",
-  "DashboardTileDefinitionId": 438,
+  "MainHeading": "eveniet",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Kuvalis-Kertzmann",
+  "DashboardTileDefinitionId": 794,
   "VisibleFor": [
     {
-      "VisibleId": 778,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     },
     {
-      "VisibleId": 778,
+      "VisibleId": 887,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 288
     }
   }
 }

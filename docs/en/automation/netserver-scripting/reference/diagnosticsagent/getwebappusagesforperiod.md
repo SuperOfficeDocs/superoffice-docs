@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.GetWebAppUsagesForPeriod
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod'>GetWebAppUsagesForPeriod</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.GetWebAppUsagesForPeriod'>GetWebAppUsagesForPeriod</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeGetWebAppUsagesForPeriod
 ```cs

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Bashirian Group",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "UdListDefinitionId": 461,
-    "Rank": 745
+    "Id": 171,
+    "Name": "Gutkowski, Hansen and Wiegand",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "UdListDefinitionId": 481,
+    "Rank": 397
   },
   {
-    "Id": 380,
-    "Name": "Bashirian Group",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "UdListDefinitionId": 461,
-    "Rank": 745
+    "Id": 171,
+    "Name": "Gutkowski, Hansen and Wiegand",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "UdListDefinitionId": 481,
+    "Rank": 397
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Pouros Inc and Sons",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "UdListDefinitionId": 488,
-    "Rank": 138,
+    "Id": 609,
+    "Name": "Schaefer-Huels",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "UdListDefinitionId": 319,
+    "Rank": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

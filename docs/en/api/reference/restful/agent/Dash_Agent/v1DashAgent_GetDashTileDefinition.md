@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=437
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=308
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 462,
-  "Name": "Glover, Mann and Rogahn",
-  "Description": "Devolved grid-enabled portal",
-  "DefaultHeight": 205,
-  "DefaultWidth": 150,
+  "DashboardTileDefinitionId": 4,
+  "Name": "Dicki, Crooks and Kling",
+  "Description": "Re-contextualized motivating open system",
+  "DefaultHeight": 245,
+  "DefaultWidth": 896,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Cremin LLC",
-  "SelectionId": 407,
+  "EntityName": "Boehm, Von and Botsford",
+  "SelectionId": 28,
   "CurrencyMode": "Base",
-  "CurrencyCode": "enim",
+  "CurrencyCode": "id",
   "Measure": "Average",
-  "MeasureField": "maxime",
-  "SortBy": "debitis",
-  "LayoutConfig": "mollitia",
-  "SecondarySelectionId": 372,
-  "MeasureByField": "est",
+  "MeasureField": "veritatis",
+  "SortBy": "ea",
+  "LayoutConfig": "veniam",
+  "SecondarySelectionId": 987,
+  "MeasureByField": "ullam",
   "Usage": "Dashboard",
-  "ProviderName": "Torp LLC",
+  "ProviderName": "Schultz-Torp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

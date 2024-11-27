@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetEmarketingStrictMode
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetEmarketingStrictMode'>GetEmarketingStrictMode</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetEmarketingStrictMode'>GetEmarketingStrictMode</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetEmarketingStrictMode
 ```cs

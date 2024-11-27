@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.ClearNotify
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.ClearNotify'>ClearNotify</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.ClearNotify'>ClearNotify</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeClearNotify
 ```cs

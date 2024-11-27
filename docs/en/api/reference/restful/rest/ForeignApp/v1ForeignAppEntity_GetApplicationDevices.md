@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Oct 2000 13:14:10 G10T
+Last-Modified: Fri, 29 May 2020 14:45:12 G5T
 
 [
   {
-    "ForeignDeviceId": 967,
-    "Name": "Moore LLC",
-    "CreatedDate": "2000-08-05T13:14:10.8360396+02:00",
-    "UpdatedDate": "2000-10-28T13:14:10.8360396+02:00",
-    "AssociateFullName": "Dr. Arvilla Barrows PhD",
-    "CreatedBy": "itaque",
-    "UpdatedBy": "sunt",
-    "DeviceIdentifier": "enim",
-    "ForeignAppId": 321,
+    "ForeignDeviceId": 31,
+    "Name": "Marvin-Kilback",
+    "CreatedDate": "2014-05-06T14:45:12.8338163+02:00",
+    "UpdatedDate": "2020-05-29T14:45:12.8338163+02:00",
+    "AssociateFullName": "Judd Fisher",
+    "CreatedBy": "earum",
+    "UpdatedBy": "ut",
+    "DeviceIdentifier": "iusto",
+    "ForeignAppId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

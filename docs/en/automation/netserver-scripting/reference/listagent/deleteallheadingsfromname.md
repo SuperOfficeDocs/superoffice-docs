@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.DeleteAllHeadingsFromName
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.DeleteAllHeadingsFromName'>DeleteAllHeadingsFromName</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.DeleteAllHeadingsFromName'>DeleteAllHeadingsFromName</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeDeleteAllHeadingsFromName
 ```cs

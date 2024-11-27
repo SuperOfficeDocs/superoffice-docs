@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 411,
-    "Value": "a",
-    "Tooltip": "cupiditate",
+    "Id": 370,
+    "Value": "ipsum",
+    "Tooltip": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 160
       }
     }
   },
   {
-    "Id": 411,
-    "Value": "a",
-    "Tooltip": "cupiditate",
+    "Id": 370,
+    "Value": "ipsum",
+    "Tooltip": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 160
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=271
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=666
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 455,
-  "FormKey": "sed",
-  "Name": "Turner, Reynolds and Balistreri",
-  "Description": "Optional maximized analyzer",
-  "Config": "blanditiis",
-  "FolderId": 5,
-  "ScriptId": 940,
-  "ResponseShipmentId": 568,
-  "Active": false,
-  "Expires": "2017-06-17T13:14:06.1320455+02:00",
-  "MaxSubmits": 426,
+  "FormId": 490,
+  "FormKey": "dolor",
+  "Name": "Harris Inc and Sons",
+  "Description": "Distributed object-oriented hub",
+  "Config": "temporibus",
+  "FolderId": 269,
+  "ScriptId": 65,
+  "ResponseShipmentId": 31,
+  "Active": true,
+  "Expires": "2022-09-04T14:45:05.7875689+02:00",
+  "MaxSubmits": 502,
   "Type": "Normal",
   "Recipe": "sint",
-  "GroupId": 602,
-  "NewTicket": true,
+  "GroupId": 375,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-08-10T13:14:06.1320455+02:00",
+  "Registered": "2008-03-02T14:45:05.7875689+01:00",
   "RegisteredAssociateId": 765,
-  "Updated": "2021-06-13T13:14:06.1320455+02:00",
-  "UpdatedAssociateId": 371,
-  "UpdatedCount": 746,
+  "Updated": "1998-01-23T14:45:05.7875689+01:00",
+  "UpdatedAssociateId": 906,
+  "UpdatedCount": 814,
   "EmailFlows": [
-    775,
-    673
+    499,
+    303
   ],
-  "FolderName": "Jones, Romaguera and Jacobi",
+  "FolderName": "Parker-Swift",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 705
     }
   }
 }

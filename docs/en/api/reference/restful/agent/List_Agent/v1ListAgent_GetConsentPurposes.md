@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 498,
-    "Name": "Kessler-O'Kon",
-    "ConsentText": "sit",
-    "FormText": "molestiae",
-    "Key": "distinctio",
-    "Tooltip": "provident",
-    "Active": 313,
-    "UpdatedDate": "2008-06-21T13:14:06.1007936+02:00",
+    "ConsentPurposeId": 706,
+    "Name": "Weimann, Pouros and Mohr",
+    "ConsentText": "esse",
+    "FormText": "mollitia",
+    "Key": "aspernatur",
+    "Tooltip": "laboriosam",
+    "Active": 267,
+    "UpdatedDate": "2019-05-21T14:45:05.7250829+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 652,
-    "PrivacyStatementDesc": "commodi",
+    "Deleted": true,
+    "Rank": 956,
+    "PrivacyStatementDesc": "doloremque",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 622
       }
     }
   }

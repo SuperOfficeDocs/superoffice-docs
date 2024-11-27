@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    659,
-    311
+    71,
+    191
   ],
-  "TargetTableNumber": 468
+  "TargetTableNumber": 728
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused even-keeled parallelism",
-  "Postit": "deleniti",
+  "Description": "Up-sized hybrid matrices",
+  "Postit": "libero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 352,
-  "IncludePerson": 401,
+  "GroupIdx": 619,
+  "IncludePerson": 783,
   "MemberCount": 99.99,
-  "Name": "Schmitt-Hilpert",
-  "PostitTextId": 118,
-  "CreatedDate": "1998-05-18T13:14:06.4289377+02:00",
-  "SelectionId": 845,
-  "SoundEx": "consequatur",
-  "Source": 20,
-  "TextId": 406,
-  "UpdatedDate": "1999-11-03T13:14:06.4289377+01:00",
-  "UpdatedCount": 635,
-  "Visibility": 304,
+  "Name": "Marquardt-Kunze",
+  "PostitTextId": 271,
+  "CreatedDate": "2023-11-20T14:45:06.240594+01:00",
+  "SelectionId": 409,
+  "SoundEx": "labore",
+  "Source": 552,
+  "TextId": 123,
+  "UpdatedDate": "2006-09-21T14:45:06.240594+02:00",
+  "UpdatedCount": 132,
+  "Visibility": 308,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 760,
-  "TargetTableName": "Fahey Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 894,
-  "RightSelectionId": 986,
+  "TargetTableNumber": 551,
+  "TargetTableName": "Kris LLC",
+  "Completed": false,
+  "LeftSelectionId": 742,
+  "RightSelectionId": 795,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rohan-Hauck",
-  "ShadowProviderName": "Carter Group",
-  "ChartKey": "delectus",
-  "LastLoaded": "2005-09-16T13:14:06.4289377+02:00",
-  "LastLoadedBy": 828,
+  "MainProviderName": "Jacobson-Orn",
+  "ShadowProviderName": "Lueilwitz-Breitenberg",
+  "ChartKey": "itaque",
+  "LastLoaded": "2021-01-16T14:45:06.240594+01:00",
+  "LastLoadedBy": 150,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-03-16T13:14:06.4289377+01:00",
-  "LastMembershipChangeBy": 965,
+  "LastMembershipChange": "1997-10-03T14:45:06.240594+02:00",
+  "LastMembershipChangeBy": 615,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Schultz, Terry and Stiedemann",
-  "DashboardTileDefinitionId": 207,
+  "MainHeading": "consequuntur",
+  "MemberTabHeading": "temporibus",
+  "MailingsProviderName": "Thompson, Mosciski and Cartwright",
+  "DashboardTileDefinitionId": 155,
   "VisibleFor": [
     {
-      "VisibleId": 464,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldType": "System.String",
+          "FieldLength": 645
         }
       }
     },
     {
-      "VisibleId": 464,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldType": "System.String",
+          "FieldLength": 645
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

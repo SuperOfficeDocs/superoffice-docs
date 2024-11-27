@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.ValidatePersonEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity'>ValidatePersonEntity</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.ValidatePersonEntity'>ValidatePersonEntity</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeValidatePersonEntity
 ```cs

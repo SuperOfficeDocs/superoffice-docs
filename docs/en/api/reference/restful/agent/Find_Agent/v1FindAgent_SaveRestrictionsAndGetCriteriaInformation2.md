@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Lowe, Treutel and Schimmel",
-  "StorageKey": "dolor",
-  "Restrictions": "facere",
-  "StaticColumns": "et"
+  "StorageType": "nesciunt",
+  "ProviderName": "Sporer-Christiansen",
+  "StorageKey": "debitis",
+  "Restrictions": "quos",
+  "StaticColumns": "consequuntur"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Brekke, Price and Hessel",
-      "Operator": "saepe",
+      "Name": "Thiel-Smith",
+      "Operator": "aperiam",
       "Values": [
-        "ullam",
-        "et"
+        "nobis",
+        "natus"
       ],
       "DisplayValues": [
-        "necessitatibus",
-        "odio"
+        "esse",
+        "mollitia"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 879,
+      "InterParenthesis": 557,
       "InterOperator": "And",
-      "UniqueHash": 447
+      "UniqueHash": 614
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stracke, Stoltenberg and Bosco",
-      "DisplayTooltip": "occaecati",
-      "DisplayType": "commodi",
-      "CanOrderBy": false,
-      "Name": "Anderson-Turcotte",
-      "CanRestrictBy": true,
-      "RestrictionType": "iste",
-      "RestrictionListName": "Sauer Inc and Sons",
+      "DisplayName": "Huel Group",
+      "DisplayTooltip": "saepe",
+      "DisplayType": "sunt",
+      "CanOrderBy": true,
+      "Name": "Frami, Schuppe and Osinski",
+      "CanRestrictBy": false,
+      "RestrictionType": "asperiores",
+      "RestrictionListName": "Ratke-Dickinson",
       "IsVisible": false,
-      "ExtraInfo": "repudiandae",
-      "Width": "exercitationem",
-      "IconHint": "distinctio",
-      "HeadingIconHint": "eius"
+      "ExtraInfo": "rerum",
+      "Width": "odit",
+      "IconHint": "repudiandae",
+      "HeadingIconHint": "omnis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Borer, Sipes and Kerluke",
-      "PrimaryKey": 661,
+      "EntityName": "Cummerata-Hills",
+      "PrimaryKey": 38,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
+          "DisplayValue": "aperiam",
           "TooltipHint": "eius",
-          "LinkHint": "qui"
+          "LinkHint": "necessitatibus"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "et",
+      "LinkHint": "dignissimos",
+      "StyleHint": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wisoky Group",
-      "Description": "Future-proofed discrete interface",
-      "Rank": 152,
+      "Name": "Marvin LLC",
+      "Description": "Universal scalable policy",
+      "Rank": 475,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisoky Group",
-      "Description": "Future-proofed discrete interface",
-      "Rank": 152,
+      "Name": "Marvin LLC",
+      "Description": "Universal scalable policy",
+      "Rank": 475,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 431
     }
   }
 }

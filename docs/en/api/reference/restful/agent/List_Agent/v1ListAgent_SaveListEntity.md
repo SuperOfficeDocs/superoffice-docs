@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Kutch LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 734,
+  "Id": 549,
+  "Name": "Lockman LLC",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 532,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Herzog, Spencer and Schiller",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "Rank": 526,
-  "IsCustomList": false,
+  "Id": 519,
+  "Name": "Koepp Group",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 69,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

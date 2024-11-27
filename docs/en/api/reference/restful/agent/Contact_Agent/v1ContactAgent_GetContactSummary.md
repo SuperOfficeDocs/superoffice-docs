@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 882,
-  "Limit": 529
+  "ContactId": 110,
+  "Limit": 87
 }
 ```
 
@@ -96,79 +96,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 633,
-      "TicketStatus": 263,
-      "Title": "laboriosam",
-      "Registered": "2001-08-26T13:14:05.710145+02:00",
-      "IconHint": "numquam"
+      "TicketId": 227,
+      "TicketStatus": 682,
+      "Title": "repudiandae",
+      "Registered": "2019-07-28T14:45:05.1470865+02:00",
+      "IconHint": "omnis"
     },
     {
-      "TicketId": 633,
-      "TicketStatus": 263,
-      "Title": "laboriosam",
-      "Registered": "2001-08-26T13:14:05.710145+02:00",
-      "IconHint": "numquam"
+      "TicketId": 227,
+      "TicketStatus": 682,
+      "Title": "repudiandae",
+      "Registered": "2019-07-28T14:45:05.1470865+02:00",
+      "IconHint": "omnis"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 463,
-      "DocumentId": 84,
-      "Date": "2024-04-20T13:14:05.710145+02:00",
-      "Description": "Profound bi-directional installation",
+      "AppointmentId": 501,
+      "DocumentId": 394,
+      "Date": "2015-01-29T14:45:05.1470865+01:00",
+      "Description": "Mandatory clear-thinking solution",
       "Completed": "Completed",
-      "Registered": "2019-11-10T13:14:05.710145+01:00"
+      "Registered": "2020-09-03T14:45:05.1470865+02:00"
     },
     {
-      "AppointmentId": 463,
-      "DocumentId": 84,
-      "Date": "2024-04-20T13:14:05.710145+02:00",
-      "Description": "Profound bi-directional installation",
+      "AppointmentId": 501,
+      "DocumentId": 394,
+      "Date": "2015-01-29T14:45:05.1470865+01:00",
+      "Description": "Mandatory clear-thinking solution",
       "Completed": "Completed",
-      "Registered": "2019-11-10T13:14:05.710145+01:00"
+      "Registered": "2020-09-03T14:45:05.1470865+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 443,
-      "DocumentId": 499,
-      "Date": "2007-04-17T13:14:05.710145+02:00",
-      "Description": "Total holistic forecast",
+      "AppointmentId": 651,
+      "DocumentId": 917,
+      "Date": "2016-09-09T14:45:05.1470865+02:00",
+      "Description": "Multi-layered incremental instruction set",
       "Completed": "Completed",
-      "Registered": "2012-12-15T13:14:05.710145+01:00"
+      "Registered": "2021-04-26T14:45:05.1470865+02:00"
     },
     {
-      "AppointmentId": 443,
-      "DocumentId": 499,
-      "Date": "2007-04-17T13:14:05.710145+02:00",
-      "Description": "Total holistic forecast",
+      "AppointmentId": 651,
+      "DocumentId": 917,
+      "Date": "2016-09-09T14:45:05.1470865+02:00",
+      "Description": "Multi-layered incremental instruction set",
       "Completed": "Completed",
-      "Registered": "2012-12-15T13:14:05.710145+01:00"
+      "Registered": "2021-04-26T14:45:05.1470865+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 590,
-      "SaleDate": "2007-12-11T13:14:05.710145+01:00",
-      "Probability": 584,
-      "Heading": "nam",
-      "Amount": 3177.8759999999997,
-      "Currency": "dolor",
-      "AmountInBaseCurrency": 25325.854,
+      "SaleId": 597,
+      "SaleDate": "2006-09-06T14:45:05.1470865+02:00",
+      "Probability": 718,
+      "Heading": "quis",
+      "Amount": 2363.036,
+      "Currency": "non",
+      "AmountInBaseCurrency": 4324.92,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2003-06-10T13:14:05.710145+02:00"
+      "Registered": "2021-07-28T14:45:05.1470865+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 484,
-      "Name": "Bashirian-Bailey",
-      "CompanyName": "Sawayn, Funk and Erdman",
-      "FirstMessage": "natus",
-      "LastMessage": "et",
-      "WhenRequested": "2014-03-28T13:14:05.710145+01:00",
-      "WhenEnded": "2024-10-17T13:14:05.710145+02:00"
+      "ChatSessionId": 875,
+      "Name": "Runolfsson Group",
+      "CompanyName": "Haley, West and Satterfield",
+      "FirstMessage": "esse",
+      "LastMessage": "aliquam",
+      "WhenRequested": "1999-01-08T14:45:05.1470865+01:00",
+      "WhenEnded": "2000-09-25T14:45:05.1470865+02:00"
     }
   ]
 }

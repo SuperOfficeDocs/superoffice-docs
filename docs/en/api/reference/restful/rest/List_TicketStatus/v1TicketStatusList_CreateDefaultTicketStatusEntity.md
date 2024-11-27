@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 714,
-  "Name": "Bartoletti LLC",
+  "TicketStatusId": 420,
+  "Name": "Mante, Hackett and Koss",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 792
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Jun 2003 13:14:10 G6T
+Last-Modified: Wed, 25 May 2005 14:45:12 G5T
 
 {
-  "Key": "rerum",
-  "Value": "dolor",
-  "RecordId": 810,
-  "CreatedDate": "2024-01-31T13:14:10.8360396+01:00",
-  "UpdatedDate": "2003-06-23T13:14:10.8360396+02:00",
-  "UpdatedBy": "optio",
-  "CreatedBy": "iste",
-  "TableName": "Shields-Lueilwitz",
+  "Key": "fugit",
+  "Value": "repellendus",
+  "RecordId": 109,
+  "CreatedDate": "2012-03-17T14:45:12.8338163+01:00",
+  "UpdatedDate": "2005-05-25T14:45:12.8338163+02:00",
+  "UpdatedBy": "minima",
+  "CreatedBy": "voluptas",
+  "TableName": "Johns LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 663
     }
   }
 }

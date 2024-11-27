@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 501,
-  "Name": "Ortiz-Rogahn",
-  "Tooltip": "laborum",
-  "Rank": 980,
-  "Deleted": false,
-  "DaysFuture": 303,
-  "Duration": "aperiam",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 437,
+  "Name": "Watsica, Nicolas and Konopelski",
+  "Tooltip": "aut",
+  "Rank": 663,
+  "Deleted": true,
+  "DaysFuture": 773,
+  "Duration": "molestiae",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "dolores",
+  "Text": "ducimus",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 897,
-  "Name": "Barton, Kiehn and Daugherty",
-  "Tooltip": "suscipit",
-  "Rank": 97,
+  "SuggestedAppointmentId": 144,
+  "Name": "Lindgren LLC",
+  "Tooltip": "rem",
+  "Rank": 230,
   "Deleted": true,
-  "DaysFuture": 385,
-  "Duration": "dolores",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "DaysFuture": 724,
+  "Duration": "aut",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "quisquam",
+  "Text": "alias",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 418
     }
   }
 }

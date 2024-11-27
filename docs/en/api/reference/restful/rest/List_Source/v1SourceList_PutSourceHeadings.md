@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 960,
-    "Name": "Steuber-Torphy",
-    "Tooltip": "quasi",
+    "HeadingId": 464,
+    "Name": "Von LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 22
+    "Rank": 243,
+    "UdListDefinitionId": 594
   },
   {
-    "HeadingId": 960,
-    "Name": "Steuber-Torphy",
-    "Tooltip": "quasi",
+    "HeadingId": 464,
+    "Name": "Von LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 22
+    "Rank": 243,
+    "UdListDefinitionId": 594
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 912,
-    "Name": "Mitchell-Monahan",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 775,
-    "UdListDefinitionId": 551,
+    "HeadingId": 159,
+    "Name": "Bradtke Inc and Sons",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 47,
+    "UdListDefinitionId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 38
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

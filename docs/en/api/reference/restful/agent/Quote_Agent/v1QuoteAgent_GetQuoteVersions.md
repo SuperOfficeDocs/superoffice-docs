@@ -115,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 514
+  "QuoteId": 300
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 799,
-    "ERPQuoteVersionKey": "sint",
-    "QuoteId": 653,
-    "Description": "Synergistic asynchronous synergy",
-    "Number": "1132367",
+    "QuoteVersionId": 211,
+    "ERPQuoteVersionKey": "suscipit",
+    "QuoteId": 386,
+    "Description": "Organic high-level focus group",
+    "Number": "1057168",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 608,
-    "SentDate": "1997-10-20T13:14:06.3039303+02:00",
-    "FollowupId": 557,
-    "ExpirationDate": "1997-10-06T13:14:06.3039303+02:00",
-    "DeliveryCountryId": 818,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 218,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "dolor",
-    "ERPPaymentTypeKey": "harum",
-    "ERPDeliveryTermsKey": "corporis",
-    "ERPDeliveryTypeKey": "sed",
-    "Rank": 512,
-    "ApprovedBy": 485,
-    "ApprovedText": "eveniet",
-    "ApprovedRegisteredBy": 542,
-    "ApprovedRegisteredDate": "2005-02-19T13:14:06.3039303+01:00",
-    "ExtraField1": "nam",
-    "ExtraField2": "quis",
-    "ExtraField3": "accusantium",
-    "ExtraField4": "modi",
+    "LikelyQuoteAlternativeId": 554,
+    "SentDate": "2002-05-28T14:45:06.0375135+02:00",
+    "FollowupId": 619,
+    "ExpirationDate": "2023-05-08T14:45:06.0375135+02:00",
+    "DeliveryCountryId": 544,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 902,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "et",
+    "ERPPaymentTypeKey": "est",
+    "ERPDeliveryTermsKey": "quasi",
+    "ERPDeliveryTypeKey": "voluptatibus",
+    "Rank": 308,
+    "ApprovedBy": 648,
+    "ApprovedText": "unde",
+    "ApprovedRegisteredBy": 474,
+    "ApprovedRegisteredDate": "2019-08-06T14:45:06.0375135+02:00",
+    "ExtraField1": "omnis",
+    "ExtraField2": "sit",
+    "ExtraField3": "aut",
+    "ExtraField4": "ut",
     "ExtraField5": "aut",
-    "LastRecalculated": "2015-04-01T13:14:06.3039303+02:00",
-    "Updated": "2021-04-22T13:14:06.3039303+02:00",
-    "UpdatedAssociateId": 657,
-    "Registered": "2008-11-28T13:14:06.3039303+01:00",
-    "RegisteredAssociateId": 427,
-    "RequestAssociateId": 951,
-    "RequestComment": "id",
+    "LastRecalculated": "2016-05-02T14:45:06.0375135+02:00",
+    "Updated": "2017-08-21T14:45:06.0375135+02:00",
+    "UpdatedAssociateId": 267,
+    "Registered": "1999-04-18T14:45:06.0375135+02:00",
+    "RegisteredAssociateId": 78,
+    "RequestAssociateId": 168,
+    "RequestComment": "est",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 829,
-        "ERPQuoteAlternativeKey": "ex",
-        "QuoteVersionId": 257,
-        "Name": "Hirthe LLC",
-        "Description": "Pre-emptive maximized time-frame",
+        "QuoteAlternativeId": 887,
+        "ERPQuoteAlternativeKey": "voluptatem",
+        "QuoteVersionId": 144,
+        "Name": "Herzog, Wisozk and Goodwin",
+        "Description": "Re-contextualized client-server leverage",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 29801.206,
-        "ERPDiscountAmount": 11157.039999999999,
-        "DiscountPercent": 20449.35,
-        "DiscountAmount": 28876.676,
+        "ERPDiscountPercent": 22900.138,
+        "ERPDiscountAmount": 19383.79,
+        "DiscountPercent": 6518.7199999999993,
+        "DiscountAmount": 5236.914,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "exercitationem",
-        "VAT": 11210.318,
-        "EarningPercent": 16221.583999999999,
-        "EarningAmount": 24047.182,
-        "SubTotal": 18230.478,
-        "TotalPrice": 9624.514,
-        "ExtraField1": "beatae",
-        "ExtraField2": "modi",
-        "ExtraField3": "at",
-        "ExtraField4": "facilis",
-        "ExtraField5": "et",
+        "VATInfo": "voluptates",
+        "VAT": 9944.1819999999989,
+        "EarningPercent": 9928.5119999999988,
+        "EarningAmount": 9865.832,
+        "SubTotal": 23432.917999999998,
+        "TotalPrice": 8019.906,
+        "ExtraField1": "similique",
+        "ExtraField2": "id",
+        "ExtraField3": "tenetur",
+        "ExtraField4": "enim",
+        "ExtraField5": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 319
+            "FieldLength": 972
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 832
       }
     }
   }

@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 41,
+  "TicketId": 936,
   "MessageIds": [
-    387,
-    342
+    853,
+    825
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 56,
+    "EjMessageId": 434,
     "Ticket": null,
-    "CreatedAt": "2003-01-28T13:14:06.6477016+01:00",
+    "CreatedAt": "2018-12-04T14:45:06.5530238+01:00",
     "CreatedBy": null,
-    "Author": "omnis",
+    "Author": "a",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "explicabo",
-    "TimeSpent": 157,
-    "Body": "nihil",
-    "HtmlBody": "temporibus",
-    "EmailHeader": "tracy@hackett.ca",
-    "DebugInfo": "quis",
-    "MailSorter": "voluptatum",
+    "MessageId": "rerum",
+    "TimeSpent": 964,
+    "Body": "corrupti",
+    "HtmlBody": "ipsum",
+    "EmailHeader": "stevie_larkin@hermann.biz",
+    "DebugInfo": "quod",
+    "MailSorter": "et",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "amet",
+    "SearchTitle": "voluptas",
     "MessageHeaders": [
       {
-        "Id": 875,
-        "Name": "Ebert, Sauer and Kovacek",
-        "Value": "voluptas",
+        "Id": 111,
+        "Name": "Feeney, Schmeler and Lemke",
+        "Value": "rem",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 872
           }
         }
       }
     ],
     "Important": true,
-    "Language": "ex",
-    "Sentiment": 236,
-    "SentimentConfidence": 875,
+    "Language": "ut",
+    "Sentiment": 765,
+    "SentimentConfidence": 947,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 442,
-        "Name": "Wyman, Kunde and Romaguera",
-        "ContentType": "non",
-        "AttSize": 214,
-        "InlineImage": true,
-        "ContentId": "ipsa",
-        "AuthKey": "modi",
+        "AttachmentId": 279,
+        "Name": "Rice-Kovacek",
+        "ContentType": "sunt",
+        "AttSize": 547,
+        "InlineImage": false,
+        "ContentId": "nisi",
+        "AuthKey": "hic",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 810
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "libero",
-      "ExtraFields2": "nihil"
+      "ExtraFields1": "officia",
+      "ExtraFields2": "ducimus"
     },
     "CustomFields": {
-      "CustomFields1": "mollitia",
-      "CustomFields2": "hic"
+      "CustomFields1": "beatae",
+      "CustomFields2": "nemo"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 664
       }
     }
   }

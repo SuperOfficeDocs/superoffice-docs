@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 692,
-  "PlainMessage": "eaque",
-  "HtmlMessage": "dolorum",
-  "SmsMessage": "est",
-  "Description": "Re-engineered exuding knowledge user",
-  "Subject": "quo",
-  "FolderId": 49,
-  "HeaderField": "praesentium",
-  "Design": "numquam",
+  "ShipmentMessageId": 461,
+  "PlainMessage": "adipisci",
+  "HtmlMessage": "qui",
+  "SmsMessage": "repellendus",
+  "Description": "Profound upward-trending framework",
+  "Subject": "dignissimos",
+  "FolderId": 371,
+  "HeaderField": "necessitatibus",
+  "Design": "earum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Polarised next generation implementation",
-  "AccessKey": "omnis",
-  "DocumentMessage": 25,
-  "Registered": "2016-02-23T13:14:11.1173007+01:00",
-  "RegisteredAssociateId": 469,
-  "Updated": "1997-07-24T13:14:11.1173007+02:00",
-  "UpdatedAssociateId": 196,
-  "UpdatedCount": 783,
+  "InlineImages": false,
+  "LongDescription": "Object-based bi-directional info-mediaries",
+  "AccessKey": "qui",
+  "DocumentMessage": 800,
+  "Registered": "2020-10-22T14:45:13.2555955+02:00",
+  "RegisteredAssociateId": 457,
+  "Updated": "2020-11-24T14:45:13.2555955+01:00",
+  "UpdatedAssociateId": 269,
+  "UpdatedCount": 810,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 962
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

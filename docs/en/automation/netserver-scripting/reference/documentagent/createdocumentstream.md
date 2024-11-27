@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CreateDocumentStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CreateDocumentStream'>CreateDocumentStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CreateDocumentStream'>CreateDocumentStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCreateDocumentStream
 ```cs

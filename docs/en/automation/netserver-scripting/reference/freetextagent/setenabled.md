@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.SetEnabled
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled'>SetEnabled</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.SetEnabled'>SetEnabled</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeSetEnabled
 ```cs

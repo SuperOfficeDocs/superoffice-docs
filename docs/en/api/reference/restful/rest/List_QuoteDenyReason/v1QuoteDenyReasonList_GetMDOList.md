@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=necessitatibus
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Kerluke-Simonis",
-    "ToolTip": "Amet dolorem ut.",
+    "Id": 501,
+    "Name": "Rodriguez-Bailey",
+    "ToolTip": "Esse fugit aperiam.",
     "Deleted": false,
-    "Rank": 188,
-    "Type": "aut",
+    "Rank": 690,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Medhurst-Skiles",
-        "ToolTip": "Et omnis non doloremque veritatis.",
-        "Deleted": true,
-        "Rank": 688,
-        "Type": "dolorem",
+        "Id": 191,
+        "Name": "Schmidt-Kunze",
+        "ToolTip": "Quia modi illum itaque qui eos quas.",
+        "Deleted": false,
+        "Rank": 304,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 240,
-        "ExtraInfo": "ipsa",
-        "StyleHint": "enim",
-        "FullName": "Ms. Jon Nicholas Wisoky IV",
+        "IconHint": "architecto",
+        "ColorBlock": 58,
+        "ExtraInfo": "sequi",
+        "StyleHint": "aut",
+        "FullName": "Icie Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldLength": 518
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 306,
-    "ExtraInfo": "ea",
-    "StyleHint": "aspernatur",
-    "FullName": "Miss Alene Gerlach",
+    "IconHint": "dolores",
+    "ColorBlock": 107,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "dignissimos",
+    "FullName": "Jonatan Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

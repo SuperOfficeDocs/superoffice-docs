@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetUnsanitizedPreviewDocumentStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetUnsanitizedPreviewDocumentStream'>GetUnsanitizedPreviewDocumentStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetUnsanitizedPreviewDocumentStream'>GetUnsanitizedPreviewDocumentStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetUnsanitizedPreviewDocumentStream
 ```cs

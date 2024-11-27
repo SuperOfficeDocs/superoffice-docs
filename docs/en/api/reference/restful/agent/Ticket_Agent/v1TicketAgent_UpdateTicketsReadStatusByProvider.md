@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "in",
+  "Provider": "animi",
   "Restrictions": [
     {
-      "Name": "Champlin-Mayer",
-      "Operator": "eveniet",
+      "Name": "Kuvalis LLC",
+      "Operator": "consectetur",
       "Values": [
-        "eos",
-        "voluptatem"
+        "sequi",
+        "amet"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "debitis"
+        "vitae",
+        "perferendis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 772,
+      "InterParenthesis": 590,
       "InterOperator": "And",
-      "UniqueHash": 928
+      "UniqueHash": 538
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  756,
-  537
+  353,
+  868
 ]
 ```

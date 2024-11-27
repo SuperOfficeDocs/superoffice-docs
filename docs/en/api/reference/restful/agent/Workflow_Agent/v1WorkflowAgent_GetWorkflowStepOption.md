@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 822
+  "WorkflowStepOptionId": 348
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 120,
-  "WorkflowStepId": 200,
-  "WorkflowId": 875,
-  "Name": "Hessel-Goyette",
-  "Rank": 626,
+  "WorkflowStepOptionId": 477,
+  "WorkflowStepId": 815,
+  "WorkflowId": 784,
+  "Name": "Huel-Mitchell",
+  "Rank": 80,
   "Steps": [
     {
-      "WorkflowStepId": 143,
-      "WorkflowId": 849,
+      "WorkflowStepId": 11,
+      "WorkflowId": 996,
       "StepType": "AddToList",
-      "Rank": 230
+      "Rank": 651
     },
     {
-      "WorkflowStepId": 143,
-      "WorkflowId": 849,
+      "WorkflowStepId": 11,
+      "WorkflowId": 996,
       "StepType": "AddToList",
-      "Rank": 230
+      "Rank": 651
     }
   ]
 }

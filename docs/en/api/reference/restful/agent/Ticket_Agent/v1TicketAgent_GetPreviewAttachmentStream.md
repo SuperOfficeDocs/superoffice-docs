@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 151
+  "AttachmentId": 176
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde, Pacocha and Trantow",
-  "Type": "voluptates",
-  "Size": 157,
+  "Name": "Jast-Goyette",
+  "Type": "dolore",
+  "Size": 147,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

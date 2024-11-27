@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Gerhold, Heathcote and Terry",
-    "ToolTip": "Sunt delectus quod fugit explicabo.",
+    "Id": 966,
+    "Name": "Reynolds, Pfannerstill and Reichel",
+    "ToolTip": "Consectetur nulla aliquam accusamus minima facere.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "hic",
-    "ColorBlock": 224,
-    "IconHint": "enim",
+    "Rank": 190,
+    "Type": "dolorem",
+    "ColorBlock": 673,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2022-10-13T13:14:11.4923293+02:00",
+    "LastChanged": "2017-08-03T14:45:13.8492128+02:00",
     "ChildItems": [
       {
-        "Id": 733,
-        "Name": "Beatty, Monahan and Conn",
-        "ToolTip": "Magni est laudantium molestiae voluptatum.",
-        "Deleted": false,
-        "Rank": 320,
-        "Type": "quidem",
-        "ColorBlock": 186,
-        "IconHint": "nesciunt",
+        "Id": 838,
+        "Name": "Kulas Group",
+        "ToolTip": "Harum quia.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "aut",
+        "ColorBlock": 779,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1999-09-18T13:14:11.4923293+02:00",
+        "LastChanged": "2005-12-24T14:45:13.8492128+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ad",
+        "ExtraInfo": "tempore",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Herminia Bernier",
+        "FullName": "Zane Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 885
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "id",
+    "ExtraInfo": "et",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Mr. Lucy Collier",
+    "FullName": "Mrs. Moriah Bruce Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

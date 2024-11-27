@@ -73,15 +73,15 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 964,
-  "Name": "Bahringer, Heidenreich and Leffler",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 205,
+  "Id": 193,
+  "Name": "Bosco Group",
+  "Tooltip": "accusantium",
+  "Deleted": false,
+  "UdListDefinitionId": 413,
   "Rank": 474
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884,
-  "Name": "Reichel-Weimann",
-  "Tooltip": "ipsa",
+  "Id": 354,
+  "Name": "Kiehn Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 872,
-  "Rank": 429,
+  "UdListDefinitionId": 275,
+  "Rank": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

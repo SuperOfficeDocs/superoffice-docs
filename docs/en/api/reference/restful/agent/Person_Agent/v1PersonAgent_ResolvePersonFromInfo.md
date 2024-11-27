@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 943,
-  "PersonName": "Rosenbaum Group",
+  "ContactId": 856,
+  "PersonName": "Stokes Group",
   "PhoneNumbers": [
-    "908253",
-    "1039745"
+    "252567",
+    "1617080"
   ],
   "Emails": [
-    "rosalia.marvin@nienow.uk",
-    "antonette@durgan.ca"
+    "dejah_oberbrunner@swifthoeger.us",
+    "hailie_paucek@crooks.info"
   ]
 }
 ```
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 927
     }
   }
 }

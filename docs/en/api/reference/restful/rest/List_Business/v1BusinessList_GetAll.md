@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Gleichner-Labadie",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 239,
-    "Rank": 768,
+    "Id": 637,
+    "Name": "Cormier Group",
+    "Tooltip": "unde",
+    "Deleted": true,
+    "UdListDefinitionId": 895,
+    "Rank": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 514
       }
     }
   }

@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 845,
-  "Name": "Ledner, Tremblay and Gutkowski",
-  "ContentType": "ut",
-  "AttSize": 433,
+  "AttachmentId": 920,
+  "Name": "Powlowski, Schmidt and Marks",
+  "ContentType": "non",
+  "AttSize": 599,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "necessitatibus",
+  "ContentId": "odio",
+  "AuthKey": "magnam",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 345,
-  "Name": "Gerlach, Stroman and Haag",
-  "ContentType": "libero",
-  "AttSize": 965,
-  "InlineImage": true,
-  "ContentId": "labore",
-  "AuthKey": "fuga",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 214,
+  "Name": "Crist, Littel and Swaniawski",
+  "ContentType": "accusamus",
+  "AttSize": 56,
+  "InlineImage": false,
+  "ContentId": "expedita",
+  "AuthKey": "est",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 488
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TargetsAgent.ExportTargetGroupToExcel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITargetsAgent.ExportTargetGroupToExcel'>ExportTargetGroupToExcel</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITargetsAgent.ExportTargetGroupToExcel'>ExportTargetGroupToExcel</see> method on the <see cref='ITargetsAgent'>ITargetsAgent</see>  service agent.
 
 ## BeforeExportTargetGroupToExcel
 ```cs

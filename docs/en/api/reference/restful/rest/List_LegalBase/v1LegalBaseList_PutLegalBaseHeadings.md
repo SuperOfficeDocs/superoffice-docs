@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Wolf-McClure",
-    "Tooltip": "aut",
+    "HeadingId": 29,
+    "Name": "Volkman, Johnston and Wisozk",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 427,
-    "UdListDefinitionId": 687
+    "Rank": 551,
+    "UdListDefinitionId": 947
   },
   {
-    "HeadingId": 36,
-    "Name": "Wolf-McClure",
-    "Tooltip": "aut",
+    "HeadingId": 29,
+    "Name": "Volkman, Johnston and Wisozk",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 427,
-    "UdListDefinitionId": 687
+    "Rank": 551,
+    "UdListDefinitionId": 947
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 393,
-    "Name": "DuBuque Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 39,
-    "UdListDefinitionId": 812,
+    "HeadingId": 772,
+    "Name": "Zieme Group",
+    "Tooltip": "cupiditate",
+    "Deleted": false,
+    "Rank": 59,
+    "UdListDefinitionId": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 321
       }
     }
   }

@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "explicabo",
+    "path": "in",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 305,
-  "AssociateId": 129,
-  "Caption": "eum",
+  "DashboardId": 77,
+  "AssociateId": 864,
+  "Caption": "aperiam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 963,
-      "Caption": "similique",
-      "Description": "Implemented 24 hour matrix",
-      "ChartName": "Mann LLC",
-      "ChartId": "consequatur",
+      "DashboardTileId": 584,
+      "Caption": "beatae",
+      "Description": "Innovative reciprocal core",
+      "ChartName": "Kemmer, Will and Considine",
+      "ChartId": "accusamus",
       "IsDefault": false,
-      "AssociateId": 756,
-      "GroupId": 64,
-      "SelectionId": 28,
-      "Config": "magni",
+      "AssociateId": 94,
+      "GroupId": 178,
+      "SelectionId": 533,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 830
         }
       }
     }
@@ -176,13 +176,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Mante-Mann",
-    "ToolTip": "Eaque nulla fugiat.",
-    "Deleted": false,
-    "Rank": 571,
-    "Type": "ducimus",
-    "ColorBlock": 764,
-    "IconHint": "aut",
+    "Id": 429,
+    "Name": "Zulauf-Adams",
+    "ToolTip": "Iste reprehenderit.",
+    "Deleted": true,
+    "Rank": 964,
+    "Type": "qui",
+    "ColorBlock": 147,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2023-06-14T13:14:11.4923293+02:00",
+    "LastChanged": "2016-11-25T14:45:13.8492128+01:00",
     "ChildItems": [
       {
-        "Id": 143,
-        "Name": "Stark, Mante and Pollich",
-        "ToolTip": "Perspiciatis accusantium ab ullam nemo quasi quia.",
+        "Id": 106,
+        "Name": "Abernathy-Bode",
+        "ToolTip": "Et fugit natus dolore magni eius.",
         "Deleted": false,
-        "Rank": 216,
-        "Type": "ex",
-        "ColorBlock": 659,
-        "IconHint": "est",
+        "Rank": 235,
+        "Type": "ullam",
+        "ColorBlock": 952,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2014-10-26T13:14:11.4923293+01:00",
+        "LastChanged": "2000-10-24T14:45:13.8492128+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Thomas Hintz"
+        "ExtraInfo": "ipsa",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Piper Wolf IV"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mrs. Art Jairo Hamill"
+    "ExtraInfo": "eius",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Prof. Loma Brody Zieme"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Kub-Trantow",
-    "ToolTip": "Autem eum nulla enim sunt dicta.",
-    "Deleted": true,
-    "Rank": 943,
-    "Type": "velit",
-    "ColorBlock": 853,
-    "IconHint": "corrupti",
+    "Id": 367,
+    "Name": "Ruecker, Raynor and Davis",
+    "ToolTip": "Reprehenderit doloremque sunt.",
+    "Deleted": false,
+    "Rank": 218,
+    "Type": "dolores",
+    "ColorBlock": 647,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2009-02-02T13:14:11.4923293+01:00",
+    "LastChanged": "2013-08-06T14:45:13.8492128+02:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Daugherty, Stroman and Luettgen",
-        "ToolTip": "Aut ab cupiditate tenetur beatae dolor quibusdam.",
+        "Id": 734,
+        "Name": "Dicki Group",
+        "ToolTip": "Velit ex a earum dolores natus tenetur quis.",
         "Deleted": true,
-        "Rank": 993,
-        "Type": "beatae",
-        "ColorBlock": 354,
-        "IconHint": "eius",
+        "Rank": 557,
+        "Type": "velit",
+        "ColorBlock": 44,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2023-03-22T13:14:11.4923293+01:00",
+        "LastChanged": "2005-10-18T14:45:13.8492128+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "ut",
+        "ExtraInfo": "quasi",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Ms. Zena Kathryn Bogisich",
+        "FullName": "Mrs. Agustin Zachariah Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 545
+            "FieldType": "System.Int32",
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Alysha Russel II",
+    "ExtraInfo": "qui",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Antonia Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldLength": 517
       }
     }
   }

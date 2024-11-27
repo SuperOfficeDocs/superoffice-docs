@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Mante-Dietrich",
-    "ToolTip": "Rem cupiditate eaque blanditiis aut nobis fugiat architecto.",
-    "Deleted": true,
-    "Rank": 969,
-    "Type": "et",
-    "ColorBlock": 884,
-    "IconHint": "eveniet",
+    "Id": 213,
+    "Name": "O'Connell Inc and Sons",
+    "ToolTip": "Maxime aperiam minus incidunt ullam.",
+    "Deleted": false,
+    "Rank": 435,
+    "Type": "sit",
+    "ColorBlock": 729,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2020-09-19T13:14:11.4141989+02:00",
+    "LastChanged": "2021-03-31T14:45:13.7242429+02:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Leannon, Hartmann and Schinner",
-        "ToolTip": "Aut harum fugiat quisquam.",
+        "Id": 792,
+        "Name": "Kertzmann, Parker and Hoppe",
+        "ToolTip": "Aut provident quia saepe quibusdam omnis.",
         "Deleted": false,
-        "Rank": 291,
+        "Rank": 134,
         "Type": "voluptas",
-        "ColorBlock": 385,
-        "IconHint": "exercitationem",
+        "ColorBlock": 173,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-09-19T13:14:11.4141989+02:00",
+        "LastChanged": "2024-11-15T14:45:13.7242429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "numquam",
-        "Hidden": false,
-        "FullName": "Lindsey Nicolas",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Hallie Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 838
+            "FieldType": "System.Int32",
+            "FieldLength": 748
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "enim",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Rick Kirlin",
+    "FullName": "Julius Kaelyn Ullrich PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.ValidateDays
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.ValidateDays'>ValidateDays</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.ValidateDays'>ValidateDays</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeValidateDays
 ```cs

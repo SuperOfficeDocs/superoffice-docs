@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.SendEmail
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.SendEmail'>SendEmail</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.SendEmail'>SendEmail</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeSendEmail
 ```cs

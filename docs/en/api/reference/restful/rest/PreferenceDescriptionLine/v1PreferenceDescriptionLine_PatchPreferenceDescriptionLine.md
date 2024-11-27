@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 294,
-  "PrefDescId": 995,
-  "PrefValue": "excepturi",
-  "PrefShowValue": "corporis",
-  "Description": "Enhanced secondary challenge",
+  "PrefDescLineId": 219,
+  "PrefDescId": 104,
+  "PrefValue": "dolorum",
+  "PrefShowValue": "neque",
+  "Description": "Re-engineered contextually-based initiative",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

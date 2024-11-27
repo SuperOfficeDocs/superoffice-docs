@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kutch, Gleason and Schmeler",
-  "RecordId": 506,
-  "AssociateId": 724
+  "TableName": "Sanford LLC",
+  "RecordId": 904,
+  "AssociateId": 973
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

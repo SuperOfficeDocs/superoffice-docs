@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 733,
-      "UniqueId": "magni",
-      "Name": "Bogan, Buckridge and Little",
-      "Description": "Streamlined uniform interface",
-      "AssociateId": 546,
-      "Columns": 997,
+      "DashboardId": 572,
+      "UniqueId": "eum",
+      "Name": "DuBuque Inc and Sons",
+      "Description": "Vision-oriented secondary budgetary management",
+      "AssociateId": 642,
+      "Columns": 850,
       "Theme": null,
-      "VisibleForAll": 520,
+      "VisibleForAll": 837,
       "VisibleForAssociates": [
-        44,
-        797
+        756,
+        649
       ],
       "VisibleForGroups": [
-        583,
-        302
+        121,
+        218
       ],
-      "PinForAll": 434,
+      "PinForAll": 932,
       "PinForAssociates": [
-        514,
-        542
+        620,
+        612
       ],
       "PinForGroups": [
-        803,
-        684
+        161,
+        554
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 160
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 149,
-      "UniqueId": "sed",
-      "Name": "Graham-Emmerich",
-      "Description": "Enhanced 24 hour software",
-      "AssociateId": 960,
-      "Columns": 583,
+      "DashboardId": 649,
+      "UniqueId": "rem",
+      "Name": "Durgan LLC",
+      "Description": "Face to face coherent knowledge user",
+      "AssociateId": 419,
+      "Columns": 931,
       "Theme": null,
-      "VisibleForAll": 93,
+      "VisibleForAll": 513,
       "VisibleForAssociates": [
-        146,
-        132
+        714,
+        458
       ],
       "VisibleForGroups": [
-        383,
-        817
+        980,
+        769
       ],
-      "PinForAll": 988,
+      "PinForAll": 778,
       "PinForAssociates": [
-        722,
-        167
+        598,
+        69
       ],
       "PinForGroups": [
-        461,
-        228
+        869,
+        887
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 311
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 538,
-      "UniqueId": "accusamus",
-      "Name": "Champlin Inc and Sons",
-      "Description": "Devolved logistical throughput",
-      "AssociateId": 29,
-      "Columns": 730,
+      "DashboardId": 722,
+      "UniqueId": "impedit",
+      "Name": "Gorczany, Hayes and Wunsch",
+      "Description": "Enterprise-wide next generation ability",
+      "AssociateId": 137,
+      "Columns": 573,
       "Theme": null,
-      "VisibleForAll": 916,
+      "VisibleForAll": 852,
       "VisibleForAssociates": [
-        251,
-        236
+        216,
+        271
       ],
       "VisibleForGroups": [
-        56,
-        741
+        193,
+        175
       ],
-      "PinForAll": 260,
+      "PinForAll": 944,
       "PinForAssociates": [
-        267,
-        424
+        705,
+        548
       ],
       "PinForGroups": [
-        294,
-        189
+        801,
+        787
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 110
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldType": "System.String",
+      "FieldLength": 411
     }
   }
 }

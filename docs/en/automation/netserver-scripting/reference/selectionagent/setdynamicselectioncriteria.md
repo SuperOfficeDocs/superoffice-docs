@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.SetDynamicSelectionCriteria
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria'>SetDynamicSelectionCriteria</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.SetDynamicSelectionCriteria'>SetDynamicSelectionCriteria</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeSetDynamicSelectionCriteria
 ```cs

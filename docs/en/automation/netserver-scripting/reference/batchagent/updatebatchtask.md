@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BatchAgent.UpdateBatchTask
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBatchAgent.UpdateBatchTask'>UpdateBatchTask</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBatchAgent.UpdateBatchTask'>UpdateBatchTask</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
 
 ## BeforeUpdateBatchTask
 ```cs

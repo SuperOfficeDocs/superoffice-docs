@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Toy LLC",
-  "DeviceName": "Muller-McClure",
-  "KeyName": "Schuppe, Cummerata and Christiansen",
-  "TableName": "Cummerata, Little and Cronin",
-  "RecordId": 739
+  "ApplicationName": "Harvey Group",
+  "DeviceName": "Jewess, Romaguera and Pouros",
+  "KeyName": "Skiles-Lehner",
+  "TableName": "Grady, Thompson and Huels",
+  "RecordId": 71
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "quas",
-  "RecordId": 448,
-  "CreatedDate": "2024-06-29T13:14:06.0382898+02:00",
-  "UpdatedDate": "2015-11-11T13:14:06.0382898+01:00",
-  "UpdatedBy": "ipsam",
-  "CreatedBy": "neque",
-  "TableName": "Heathcote Inc and Sons",
+  "Key": "aut",
+  "Value": "voluptatibus",
+  "RecordId": 851,
+  "CreatedDate": "2019-09-17T14:45:05.6469762+02:00",
+  "UpdatedDate": "2011-09-04T14:45:05.6469762+02:00",
+  "UpdatedBy": "odit",
+  "CreatedBy": "error",
+  "TableName": "Mann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 821
     }
   }
 }

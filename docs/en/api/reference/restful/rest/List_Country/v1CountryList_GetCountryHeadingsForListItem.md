@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Conroy-Parisian",
-    "ToolTip": "At voluptas vel a perspiciatis officia qui id.",
-    "Deleted": false,
-    "Rank": 850,
-    "Type": "rerum",
-    "ColorBlock": 570,
-    "IconHint": "rerum",
+    "Id": 447,
+    "Name": "Champlin Group",
+    "ToolTip": "Qui mollitia nam molestiae accusantium.",
+    "Deleted": true,
+    "Rank": 901,
+    "Type": "sapiente",
+    "ColorBlock": 580,
+    "IconHint": "maiores",
     "Selected": true,
-    "LastChanged": "2015-10-17T13:14:11.3673211+02:00",
+    "LastChanged": "2009-03-19T14:45:13.6461348+01:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "O'Conner Group",
-        "ToolTip": "Reiciendis aliquam aut.",
+        "Id": 933,
+        "Name": "Hyatt-Predovic",
+        "ToolTip": "Modi voluptatem aut molestias aut laboriosam commodi.",
         "Deleted": false,
-        "Rank": 816,
-        "Type": "minima",
-        "ColorBlock": 857,
-        "IconHint": "ex",
+        "Rank": 584,
+        "Type": "omnis",
+        "ColorBlock": 652,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2009-03-19T13:14:11.3673211+01:00",
+        "LastChanged": "2000-12-22T14:45:13.6461348+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "aut",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Matilda Wuckert",
+        "FullName": "Tyra Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Fatima Trudie Larkin MD",
+    "ExtraInfo": "eos",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Laury Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldLength": 583
       }
     }
   }

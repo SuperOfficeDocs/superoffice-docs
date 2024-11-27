@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.SendEvent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.SendEvent'>SendEvent</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.SendEvent'>SendEvent</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeSendEvent
 ```cs

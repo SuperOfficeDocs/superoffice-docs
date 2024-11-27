@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded'>ToggleSaleTypeQuoteAttachmentDefaultIncluded</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded'>ToggleSaleTypeQuoteAttachmentDefaultIncluded</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeToggleSaleTypeQuoteAttachmentDefaultIncluded
 ```cs

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 514,
-    "Name": "Kunze Inc and Sons",
-    "Tooltip": "nostrum",
+    "Id": 496,
+    "Name": "Wolf-Halvorson",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 565
+    "UdListDefinitionId": 386,
+    "Rank": 76
   },
   {
-    "Id": 514,
-    "Name": "Kunze Inc and Sons",
-    "Tooltip": "nostrum",
+    "Id": 496,
+    "Name": "Wolf-Halvorson",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 565
+    "UdListDefinitionId": 386,
+    "Rank": 76
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Ankunding-Nolan",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "UdListDefinitionId": 979,
-    "Rank": 935,
+    "Id": 471,
+    "Name": "O'Connell, Pagac and Pagac",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "UdListDefinitionId": 188,
+    "Rank": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 209
       }
     }
   }

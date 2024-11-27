@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-04-01T13:14:05.3976254+02:00",
-  "AppointmentId": 763,
-  "Description": "Pre-emptive empowering hardware",
-  "Title": "sit",
-  "Agenda": "consequatur",
-  "InternalNotes": "corporis",
-  "StartDate": "2014-11-27T13:14:05.3976254+01:00",
-  "EndDate": "2015-08-26T13:14:05.3976254+02:00",
+  "CreatedDate": "2001-02-20T14:45:04.6943025+01:00",
+  "AppointmentId": 624,
+  "Description": "Self-enabling homogeneous solution",
+  "Title": "eos",
+  "Agenda": "consequuntur",
+  "InternalNotes": "ut",
+  "StartDate": "2012-01-13T14:45:04.6943025+01:00",
+  "EndDate": "2017-11-17T14:45:04.6943025+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 537,
+  "MotherId": 22,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-04-28T13:14:05.3976254+02:00",
+  "UpdatedDate": "2015-03-24T14:45:04.6943025+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 354,
+  "ActiveLinks": 958,
   "Links": [
     {
-      "EntityName": "Schuppe-Bednar",
-      "Id": 721,
-      "Description": "Right-sized responsive matrix",
-      "ExtraInfo": "est",
-      "LinkId": 915,
+      "EntityName": "Romaguera Inc and Sons",
+      "Id": 232,
+      "Description": "Cross-platform impactful ability",
+      "ExtraInfo": "sequi",
+      "LinkId": 949,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 155
         }
       }
     }
   ],
-  "AlarmLeadTime": "rem",
-  "HasAlarm": true,
-  "ColorIndex": 116,
-  "IsFree": true,
+  "AlarmLeadTime": "libero",
+  "HasAlarm": false,
+  "ColorIndex": 362,
+  "IsFree": false,
   "IsAlldayEvent": false,
   "LagTime": "et",
-  "LeadTime": "iusto",
-  "Location": "repellendus",
-  "RejectCounter": 519,
+  "LeadTime": "dicta",
+  "Location": "adipisci",
+  "RejectCounter": 254,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 29,
-      "PersonId": 520,
-      "ContactId": 469,
-      "EmailId": 669,
-      "SendEmail": false,
+      "AssociateId": 297,
+      "PersonId": 67,
+      "ContactId": 680,
+      "EmailId": 905,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "doyle.kutch@kshlerin.com",
-      "Description": "Synergistic executive contingency"
+      "EmailAddress": "jackson@stiedemannhagenes.us",
+      "Description": "Right-sized intangible initiative"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-01-18T13:14:05.3976254+01:00",
+  "ActiveDate": "2000-01-22T14:45:04.6943025+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 596,
+  "PreferredTZLocation": 293,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 520,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 602,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "impedit",
+  "CentralserviceVideomeetId": "eligendi",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1367903281"
+    "SuperOffice:1": "Mrs. Forrest Dare",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
     "ExtraFields1": "veritatis",
-    "ExtraFields2": "accusamus"
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "ad",
+    "CustomFields2": "at"
   },
-  "PublishEventDate": "2013-11-22T13:14:05.3976254+01:00",
-  "PublishTo": "2009-10-25T13:14:05.3976254+01:00",
-  "PublishFrom": "2017-09-07T13:14:05.3976254+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-10-19T14:45:04.6943025+02:00",
+  "PublishTo": "2016-08-18T14:45:04.6943025+02:00",
+  "PublishFrom": "2003-12-22T14:45:04.6943025+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 21,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 466
         }
       }
     },
     {
-      "VisibleId": 21,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 466
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

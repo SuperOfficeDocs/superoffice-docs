@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetUserGroup
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetUserGroup'>GetUserGroup</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetUserGroup'>GetUserGroup</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetUserGroup
 ```cs

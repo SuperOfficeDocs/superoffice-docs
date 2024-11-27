@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.UpdateRow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow'>UpdateRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.UpdateRow'>UpdateRow</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeUpdateRow
 ```cs

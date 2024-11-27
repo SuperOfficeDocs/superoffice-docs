@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Powlowski Group",
-    "ToolTip": "Nisi accusantium.",
+    "Id": 92,
+    "Name": "McKenzie-Wyman",
+    "ToolTip": "Rerum animi perspiciatis cupiditate accusamus quia.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "et",
-    "ColorBlock": 119,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2021-04-23T13:14:11.3048179+02:00",
+    "Rank": 234,
+    "Type": "dolores",
+    "ColorBlock": 128,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2006-12-06T14:45:13.5680288+01:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Bergnaum, Bergnaum and Bashirian",
-        "ToolTip": "Sapiente quae ipsa ducimus ut culpa autem.",
-        "Deleted": true,
-        "Rank": 937,
-        "Type": "nesciunt",
-        "ColorBlock": 27,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2015-03-21T13:14:11.3048179+01:00",
+        "Id": 415,
+        "Name": "Blanda-Weber",
+        "ToolTip": "Perferendis aut ad voluptas eveniet sequi omnis deserunt.",
+        "Deleted": false,
+        "Rank": 290,
+        "Type": "eum",
+        "ColorBlock": 365,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2023-09-08T14:45:13.5680288+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Enid Rippin",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Sylvia Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 33
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "autem",
+    "ExtraInfo": "aut",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Ms. Carroll Misty Treutel",
+    "FullName": "Miss Isabelle Xzavier Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 500
       }
     }
   }

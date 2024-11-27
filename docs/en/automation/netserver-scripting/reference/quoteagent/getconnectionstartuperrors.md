@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetConnectionStartupErrors
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetConnectionStartupErrors'>GetConnectionStartupErrors</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetConnectionStartupErrors'>GetConnectionStartupErrors</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetConnectionStartupErrors
 ```cs

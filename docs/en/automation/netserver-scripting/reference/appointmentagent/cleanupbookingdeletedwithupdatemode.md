@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.CleanUpBookingDeletedWithUpdateMode
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode'>CleanUpBookingDeletedWithUpdateMode</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode'>CleanUpBookingDeletedWithUpdateMode</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeCleanUpBookingDeletedWithUpdateMode
 ```cs

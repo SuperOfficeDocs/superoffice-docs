@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/{cRMScriptUniqueId}/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "ut",
-  "LineNumber": 899,
+  "Valid": false,
+  "ErrorMessage": "ea",
+  "LineNumber": 136,
   "ErrorInformation": null,
-  "Transpiled": "sint",
+  "Transpiled": "ipsa",
   "Includes": [
-    701,
-    17
+    271,
+    55
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 422,
-      "LineNumberTo": 619,
-      "Delta": 974,
-      "IncludeId": "rem",
+      "LineNumberFrom": 394,
+      "LineNumberTo": 853,
+      "Delta": 373,
+      "IncludeId": "quidem",
       "IncludedFrom": [
-        "nihil",
-        "ipsum"
+        "sit",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldLength": 957
         }
       }
     }
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldLength": 353
     }
   }
 }

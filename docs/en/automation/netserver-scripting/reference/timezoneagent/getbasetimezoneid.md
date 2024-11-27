@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TimeZoneAgent.GetBaseTimeZoneId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId'>GetBaseTimeZoneId</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITimeZoneAgent.GetBaseTimeZoneId'>GetBaseTimeZoneId</see> method on the <see cref='ITimeZoneAgent'>ITimeZoneAgent</see>  service agent.
 
 ## BeforeGetBaseTimeZoneId
 ```cs

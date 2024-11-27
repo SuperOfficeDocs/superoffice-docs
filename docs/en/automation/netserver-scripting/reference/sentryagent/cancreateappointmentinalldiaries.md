@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SentryAgent.CanCreateAppointmentInAllDiaries
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries'>CanCreateAppointmentInAllDiaries</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISentryAgent.CanCreateAppointmentInAllDiaries'>CanCreateAppointmentInAllDiaries</see> method on the <see cref='ISentryAgent'>ISentryAgent</see>  service agent.
 
 ## BeforeCanCreateAppointmentInAllDiaries
 ```cs

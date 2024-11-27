@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.GetRegisteredDevices
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices'>GetRegisteredDevices</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.GetRegisteredDevices'>GetRegisteredDevices</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeGetRegisteredDevices
 ```cs

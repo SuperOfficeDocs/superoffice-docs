@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.DeleteChatTopicUserAgent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent'>DeleteChatTopicUserAgent</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.DeleteChatTopicUserAgent'>DeleteChatTopicUserAgent</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeDeleteChatTopicUserAgent
 ```cs

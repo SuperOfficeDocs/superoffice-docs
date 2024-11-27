@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.CreateDefaultDocumentMigrationItemList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList'>CreateDefaultDocumentMigrationItemList</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemList'>CreateDefaultDocumentMigrationItemList</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeCreateDefaultDocumentMigrationItemList
 ```cs

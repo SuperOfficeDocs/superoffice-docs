@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 265,
-  "Name": "Lemke Group",
+  "ContactId": 400,
+  "Name": "Simonis, Marvin and Veum",
   "Department": "",
-  "OrgNr": "166606",
-  "Number1": "716096",
-  "Number2": "1305998",
-  "UpdatedDate": "2009-05-07T13:14:10.7579101+02:00",
-  "CreatedDate": "2013-08-22T13:14:10.7579101+02:00",
+  "OrgNr": "812992",
+  "Number1": "219762",
+  "Number2": "736722",
+  "UpdatedDate": "2024-06-29T14:45:12.6932234+02:00",
+  "CreatedDate": "2022-11-28T14:45:12.6932234+01:00",
   "Emails": [
     {
-      "Value": "nihil",
-      "StrippedValue": "eos",
-      "Description": "Decentralized optimal benchmark"
+      "Value": "excepturi",
+      "StrippedValue": "aspernatur",
+      "Description": "Multi-tiered dynamic hardware"
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "eos",
-      "Description": "Decentralized optimal benchmark"
+      "Value": "excepturi",
+      "StrippedValue": "aspernatur",
+      "Description": "Multi-tiered dynamic hardware"
     }
   ],
   "Interests": [
     {
-      "Id": 788,
-      "Name": "Shanahan-Greenfelder",
-      "ToolTip": "Cupiditate eos aperiam in fuga.",
-      "Deleted": false,
-      "Rank": 547,
-      "Type": "sit",
-      "ColorBlock": 522,
-      "IconHint": "magnam",
+      "Id": 424,
+      "Name": "Rippin Group",
+      "ToolTip": "Sapiente maxime alias consequatur dignissimos ut harum.",
+      "Deleted": true,
+      "Rank": 648,
+      "Type": "enim",
+      "ColorBlock": 286,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "2003-05-28T13:14:10.7579101+02:00",
+      "LastChanged": "2006-12-29T14:45:12.6932234+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "labore",
-      "Hidden": true,
-      "FullName": "Frederic Hagenes PhD"
+      "ExtraInfo": "eligendi",
+      "StyleHint": "possimus",
+      "Hidden": false,
+      "FullName": "Maya Mohr"
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "et",
-      "Description": "Open-source maximized function"
+      "Value": "quo",
+      "StrippedValue": "culpa",
+      "Description": "Multi-lateral needs-based database"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "et",
-      "Description": "Open-source maximized function"
+      "Value": "quo",
+      "StrippedValue": "culpa",
+      "Description": "Multi-lateral needs-based database"
     }
   ],
   "Phones": [
     {
-      "Value": "officia",
-      "StrippedValue": "natus",
-      "Description": "Team-oriented background knowledge user"
+      "Value": "quis",
+      "StrippedValue": "saepe",
+      "Description": "Distributed methodical artificial intelligence"
     },
     {
-      "Value": "officia",
-      "StrippedValue": "natus",
-      "Description": "Team-oriented background knowledge user"
+      "Value": "quis",
+      "StrippedValue": "saepe",
+      "Description": "Distributed methodical artificial intelligence"
     }
   ],
   "Faxes": [
     {
-      "Value": "quibusdam",
-      "StrippedValue": "ut",
-      "Description": "Mandatory 5th generation array"
+      "Value": "et",
+      "StrippedValue": "nihil",
+      "Description": "Fully-configurable uniform attitude"
     },
     {
-      "Value": "quibusdam",
-      "StrippedValue": "ut",
-      "Description": "Mandatory 5th generation array"
+      "Value": "et",
+      "StrippedValue": "nihil",
+      "Description": "Fully-configurable uniform attitude"
     }
   ],
-  "Description": "Distributed logistical budgetary management",
+  "Description": "Extended responsive task-force",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "odio",
-      "PersonId": 790,
-      "Mrmrs": "quam",
-      "Firstname": "Westley",
-      "Lastname": "Witting",
-      "MiddleName": "Spinka-Hilll",
+      "Position": "consequatur",
+      "PersonId": 663,
+      "Mrmrs": "ducimus",
+      "Firstname": "Trystan",
+      "Lastname": "Cassin",
+      "MiddleName": "Ondricka Inc and Sons",
       "Title": "odit",
-      "Description": "Advanced 24 hour capability",
-      "Email": "mittie@herzog.us",
-      "FullName": "Robyn Terry",
-      "DirectPhone": "888.431.2051",
-      "FormalName": "Bernier LLC",
-      "CountryId": 984,
-      "ContactId": 696,
-      "ContactName": "White, Zemlak and Wyman",
-      "Retired": 748,
-      "Rank": 966,
-      "ActiveInterests": 459,
+      "Description": "Proactive 4th generation service-desk",
+      "Email": "teresa.stroman@lowe.us",
+      "FullName": "Doyle Considine",
+      "DirectPhone": "070-393-6667",
+      "FormalName": "White-Friesen",
+      "CountryId": 665,
+      "ContactId": 613,
+      "ContactName": "Quitzon-Yost",
+      "Retired": 51,
+      "Rank": 514,
+      "ActiveInterests": 386,
       "ContactDepartment": "",
-      "ContactCountryId": 220,
-      "ContactOrgNr": "1742063",
-      "FaxPhone": "312.170.5056 x2255",
-      "MobilePhone": "1-999-947-7878 x2519",
-      "ContactPhone": "(684)862-9180 x322",
-      "AssociateName": "Schaden, Wunsch and Wunsch",
-      "AssociateId": 66,
-      "UsePersonAddress": true,
-      "ContactFax": "et",
-      "Kanafname": "quis",
-      "Kanalname": "omnis",
-      "Post1": "harum",
-      "Post2": "et",
-      "Post3": "fuga",
-      "EmailName": "joe_farrell@funk.uk",
-      "ContactFullName": "Geraldine Borer",
-      "ActiveErpLinks": 250,
-      "TicketPriorityId": 549,
-      "SupportLanguageId": 405,
-      "SupportAssociateId": 557,
+      "ContactCountryId": 338,
+      "ContactOrgNr": "1636909",
+      "FaxPhone": "(771)598-6353",
+      "MobilePhone": "(628)734-3185 x2571",
+      "ContactPhone": "(341)321-1081",
+      "AssociateName": "Moore, Walker and Hermann",
+      "AssociateId": 458,
+      "UsePersonAddress": false,
+      "ContactFax": "accusantium",
+      "Kanafname": "explicabo",
+      "Kanalname": "eum",
+      "Post1": "unde",
+      "Post2": "aut",
+      "Post3": "aliquid",
+      "EmailName": "cullen.will@abshirespinka.biz",
+      "ContactFullName": "Izaiah Parker",
+      "ActiveErpLinks": 215,
+      "TicketPriorityId": 276,
+      "SupportLanguageId": 230,
+      "SupportAssociateId": 909,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": true,
+  "NoMailing": false,
   "Kananame": "qui",
-  "Xstop": true,
-  "ActiveInterests": 560,
-  "GroupId": 207,
-  "ActiveStatusMonitorId": 86,
+  "Xstop": false,
+  "ActiveInterests": 936,
+  "GroupId": 272,
+  "ActiveStatusMonitorId": 89,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 652,
-  "DbiAgentId": 855,
-  "DbiLastSyncronized": "2002-09-26T13:14:10.7579101+02:00",
-  "DbiKey": "asperiores",
-  "DbiLastModified": "2010-03-20T13:14:10.7579101+01:00",
+  "Deleted": 13,
+  "DbiAgentId": 91,
+  "DbiLastSyncronized": "1999-10-18T14:45:12.6932234+02:00",
+  "DbiKey": "rem",
+  "DbiLastModified": "2005-04-22T14:45:12.6932234+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 863,
-  "ActiveErpLinks": 498,
+  "Source": 507,
+  "ActiveErpLinks": 111,
   "BounceEmails": [
-    "maud@monahan.com",
-    "darron@romaguera.biz"
+    "jasper.koepp@hartmann.ca",
+    "jake_shanahan@considinenolan.us"
   ],
   "Domains": [
-    "cum",
-    "et"
+    "quod",
+    "impedit"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "172365416",
-    "SuperOffice:2": "Osborne Morissette"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "veritatis"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consequatur",
-  "2": "reprehenderit"
+  "1": "ut",
+  "2": "alias"
 }
 ```

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 649,
-  "Name": "Satterfield Inc and Sons",
-  "Tooltip": "molestiae",
-  "Rank": 856,
-  "Key": "autem",
-  "MailTemplateId": 964,
+  "ConsentSourceId": 22,
+  "Name": "Mayert-Barton",
+  "Tooltip": "et",
+  "Rank": 910,
+  "Key": "enim",
+  "MailTemplateId": 639,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 885
     }
   }
 }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 969,
-  "Name": "Corkery-Heathcote",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 538,
+  "Id": 238,
+  "Name": "Schoen-Borer",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   },
   "_Links": {

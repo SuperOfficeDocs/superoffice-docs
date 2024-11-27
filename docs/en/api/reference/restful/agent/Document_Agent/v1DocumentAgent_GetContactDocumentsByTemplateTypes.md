@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 453,
-  "StartTime": "2024-05-10T13:14:05.7570229+02:00",
-  "EndTime": "2013-11-01T13:14:05.7570229+01:00",
-  "Count": 857,
+  "ContactId": 447,
+  "StartTime": "2001-04-30T14:45:05.225194+02:00",
+  "EndTime": "2024-01-07T14:45:05.225194+01:00",
+  "Count": 456,
   "DocumentTemplateIds": [
-    54,
-    293
+    292,
+    768
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 256,
-    "Attention": "ipsum",
-    "Header": "porro",
-    "Name": "Thompson-Kohler",
-    "OurRef": "cupiditate",
-    "YourRef": "aperiam",
-    "Description": "Extended needs-based system engine",
-    "DocumentTemplate": "beatae",
-    "IsPublished": true,
-    "PersonId": 870,
-    "PersonFullName": "Riley Veum",
-    "AssociateFullName": "Elody Kris",
-    "ContactId": 924,
-    "ContactName": "Homenick-Goldner",
-    "ProjectId": 908,
-    "ProjectName": "Boyle Group",
-    "AssociateId": 469,
-    "Snum": 944,
-    "SaleId": 338,
-    "SaleName": "Botsford-Crona",
+    "DocumentId": 353,
+    "Attention": "vitae",
+    "Header": "consequatur",
+    "Name": "Jacobs-West",
+    "OurRef": "similique",
+    "YourRef": "dolore",
+    "Description": "Seamless responsive utilisation",
+    "DocumentTemplate": "neque",
+    "IsPublished": false,
+    "PersonId": 226,
+    "PersonFullName": "Mrs. Gaston Deron Treutel I",
+    "AssociateFullName": "Prof. Chase Josephine Herman III",
+    "ContactId": 851,
+    "ContactName": "Pouros-Thompson",
+    "ProjectId": 576,
+    "ProjectName": "Wilkinson, Thiel and Conn",
+    "AssociateId": 920,
+    "Snum": 307,
+    "SaleId": 134,
+    "SaleName": "Wilderman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 925
+        "FieldLength": 359
       }
     }
   }

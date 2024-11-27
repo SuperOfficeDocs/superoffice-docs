@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 747
+  "AssociateId": 596
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MessageId": 168,
-    "AssociateId": 582,
-    "OnlineappId": 326,
-    "SystemMessageId": "voluptas",
-    "MarkdownMessage": "voluptatem",
-    "Expire": "2017-03-03T13:14:05.7570229+01:00",
+    "MessageId": 500,
+    "AssociateId": 109,
+    "OnlineappId": 596,
+    "SystemMessageId": "in",
+    "MarkdownMessage": "a",
+    "Expire": "2008-09-24T14:45:05.225194+02:00",
     "Type": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 327
       }
     }
   }

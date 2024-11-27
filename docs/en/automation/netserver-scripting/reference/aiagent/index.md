@@ -10,7 +10,7 @@ so.envir: onsite
 
 # AIAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAIAgent'>AIAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IAIAgent'>AIAgent</see> that can trigger server-side event scripts.
 
 * [ClearChatbotTurns](clearchatbotturns.md)
 * [CreateTextForAppointment](createtextforappointment.md)

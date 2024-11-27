@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 87,
+  "RecordId": 337,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Shields-Herman",
-    "CrmFieldKey": "qui",
-    "Value": "in",
-    "DisplayValue": "accusantium",
-    "SyncToCrm": true,
-    "SyncToErp": false,
+    "DisplayName": "Nikolaus LLC",
+    "CrmFieldKey": "fugiat",
+    "Value": "nihil",
+    "DisplayValue": "aut",
+    "SyncToCrm": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 177
+        "FieldType": "System.Int32",
+        "FieldLength": 333
       }
     }
   }

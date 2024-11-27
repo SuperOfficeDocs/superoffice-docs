@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 132
+  "DashboardTileDefinitionId": 500
 }
 ```
 
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "fuga",
-    "Html": "ut",
+    "LanguageCode": "reiciendis",
+    "Html": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 217
       }
     }
   },
   {
-    "LanguageCode": "fuga",
-    "Html": "ut",
+    "LanguageCode": "reiciendis",
+    "Html": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 217
       }
     }
   }

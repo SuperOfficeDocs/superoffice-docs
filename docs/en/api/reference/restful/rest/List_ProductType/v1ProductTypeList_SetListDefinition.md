@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 208,
-  "Name": "Aufderhar, Lehner and Sporer",
-  "Tooltip": "ex",
+  "Id": 951,
+  "Name": "Hudson-Ondricka",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 920,
+  "Rank": 219,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Kuhlman Group",
-  "Tooltip": "cum",
-  "Deleted": true,
-  "Rank": 972,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "Id": 959,
+  "Name": "Wehner, Koch and Romaguera",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 704,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 922
     }
   }
 }

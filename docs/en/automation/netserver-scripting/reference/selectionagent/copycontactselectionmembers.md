@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.CopyContactSelectionMembers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers'>CopyContactSelectionMembers</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.CopyContactSelectionMembers'>CopyContactSelectionMembers</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeCopyContactSelectionMembers
 ```cs

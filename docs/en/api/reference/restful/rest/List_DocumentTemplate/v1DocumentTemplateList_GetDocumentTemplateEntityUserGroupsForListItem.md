@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Kris-Ernser",
-    "ToolTip": "Quidem expedita consectetur non doloremque tenetur.",
-    "Deleted": false,
-    "Rank": 116,
-    "Type": "aut",
-    "ColorBlock": 139,
-    "IconHint": "illo",
+    "Id": 79,
+    "Name": "Rolfson LLC",
+    "ToolTip": "Ab nostrum aut repellat aliquid corporis atque.",
+    "Deleted": true,
+    "Rank": 487,
+    "Type": "qui",
+    "ColorBlock": 242,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2008-04-23T13:14:11.3985731+02:00",
+    "LastChanged": "2003-03-25T14:45:13.70862+01:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Reynolds-Brakus",
-        "ToolTip": "Minus facere aliquam omnis facilis excepturi veniam et.",
+        "Id": 865,
+        "Name": "Murazik-Schumm",
+        "ToolTip": "Minus sunt optio omnis saepe.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "vel",
-        "ColorBlock": 809,
-        "IconHint": "alias",
+        "Rank": 428,
+        "Type": "velit",
+        "ColorBlock": 422,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2000-07-05T13:14:11.3985731+02:00",
+        "LastChanged": "2021-04-03T14:45:13.70862+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Mrs. Tyler Schaefer",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Houston Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldLength": 771
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Earline Gusikowski",
+    "ExtraInfo": "neque",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Albina Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 261
       }
     }
   }

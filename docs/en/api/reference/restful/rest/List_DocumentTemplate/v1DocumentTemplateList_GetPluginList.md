@@ -50,7 +50,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -60,7 +60,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "vero",
-  "2": "vel"
+  "1": "delectus",
+  "2": "deserunt"
 }
 ```

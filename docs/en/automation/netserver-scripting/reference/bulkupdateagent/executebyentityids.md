@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.ExecuteByEntityIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds'>ExecuteByEntityIds</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.ExecuteByEntityIds'>ExecuteByEntityIds</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeExecuteByEntityIds
 ```cs

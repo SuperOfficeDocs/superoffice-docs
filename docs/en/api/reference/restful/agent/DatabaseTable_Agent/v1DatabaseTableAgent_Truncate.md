@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Yundt, O'Connell and Treutel"
+  "TableName": "Pollich Inc and Sons"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "sunt",
-  "Inserts": 687,
-  "Updates": 88,
-  "Deletes": 727,
+  "Message": "consequatur",
+  "Inserts": 787,
+  "Updates": 97,
+  "Deletes": 486,
   "RowStatus": [
     {
-      "PrimaryKey": 939,
+      "PrimaryKey": 861,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "nemo"
+        "est",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 756
         }
       }
     },
     {
-      "PrimaryKey": 939,
+      "PrimaryKey": 861,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "nemo"
+        "est",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 756
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 823
     }
   }
 }

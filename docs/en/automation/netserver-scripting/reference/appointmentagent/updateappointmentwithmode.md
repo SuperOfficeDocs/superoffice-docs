@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.UpdateAppointmentWithMode
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode'>UpdateAppointmentWithMode</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.UpdateAppointmentWithMode'>UpdateAppointmentWithMode</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeUpdateAppointmentWithMode
 ```cs
@@ -17,8 +17,8 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmen
        Int32  id,
        DateTime  startTime,
        DateTime  endTime,
-       Int32  status,
-       Int32  type,
+       AppointmentStatus  status,
+       AppointmentType  type,
        Int32  associateId,
        RecurrenceUpdateMode  updateMode,
        ref object  eventState
@@ -34,8 +34,8 @@ Event state is not preserved between different service calls. It is set to null 
        Int32  id,
        DateTime  startTime,
        DateTime  endTime,
-       Int32  status,
-       Int32  type,
+       AppointmentStatus  status,
+       AppointmentType  type,
        Int32  associateId,
        RecurrenceUpdateMode  updateMode,
        ref Appointment  returnValue,
@@ -51,8 +51,8 @@ Any state you set in the **Before** method is passed in through the *eventState*
        Int32  id,
        DateTime  startTime,
        DateTime  endTime,
-       Int32  status,
-       Int32  type,
+       AppointmentStatus  status,
+       AppointmentType  type,
        Int32  associateId,
        RecurrenceUpdateMode  updateMode,
        ref Appointment  returnValue,

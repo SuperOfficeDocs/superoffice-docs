@@ -72,7 +72,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Harvey-Bechtelar",
-  "DisplayName": "Sporer-Runte",
-  "Description": "Customer-focused global encoding",
-  "ShortLabel": "aut",
+  "FieldName": "Bednar Group",
+  "DisplayName": "Langworth, Romaguera and Miller",
+  "Description": "Optimized homogeneous instruction set",
+  "ShortLabel": "est",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 238,
-  "TemplateVariableName": "Heaney LLC"
+  "IsExternal": false,
+  "IsDisplayField": false,
+  "Rank": 846,
+  "TemplateVariableName": "Wyman-Eichmann"
 }
 ```

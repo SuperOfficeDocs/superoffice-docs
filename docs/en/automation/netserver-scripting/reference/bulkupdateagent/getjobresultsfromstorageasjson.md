@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.GetJobResultsFromStorageAsJson
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson'>GetJobResultsFromStorageAsJson</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.GetJobResultsFromStorageAsJson'>GetJobResultsFromStorageAsJson</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeGetJobResultsFromStorageAsJson
 ```cs

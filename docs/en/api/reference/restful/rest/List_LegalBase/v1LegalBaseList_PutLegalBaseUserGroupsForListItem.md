@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Lockman Group",
-    "ToolTip": "Odit et nemo.",
-    "Deleted": false,
-    "Rank": 863,
-    "Type": "repudiandae",
-    "ColorBlock": 303,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "1999-10-16T13:14:11.4141989+02:00",
+    "Id": 357,
+    "Name": "Herman, Hessel and Powlowski",
+    "ToolTip": "Sed unde quidem qui eius.",
+    "Deleted": true,
+    "Rank": 31,
+    "Type": "minima",
+    "ColorBlock": 474,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2014-08-18T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Cole, Grady and Wiegand",
-        "ToolTip": "Molestias qui laboriosam soluta dolorum quia.",
-        "Deleted": false,
-        "Rank": 289,
-        "Type": "magnam",
-        "ColorBlock": 628,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2020-03-25T13:14:11.4141989+01:00",
+        "Id": 641,
+        "Name": "Konopelski-Hills",
+        "ToolTip": "Sit minus.",
+        "Deleted": true,
+        "Rank": 344,
+        "Type": "rerum",
+        "ColorBlock": 873,
+        "IconHint": "necessitatibus",
+        "Selected": true,
+        "LastChanged": "1998-04-23T14:45:13.70862+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "vitae",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Prof. Kade Ladarius Paucek II"
+        "FullName": "Mr. Addison Jaquelin Hamill"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "unde",
+    "ExtraInfo": "eaque",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Clotilde Daugherty"
+    "FullName": "Mona O'Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Jenkins, Hoeger and Block",
-    "ToolTip": "Et sunt nobis rerum amet eum facilis iste.",
+    "Id": 275,
+    "Name": "Kemmer, Funk and Osinski",
+    "ToolTip": "Quasi aut.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "et",
-    "ColorBlock": 819,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2014-06-18T13:14:11.4141989+02:00",
+    "Rank": 867,
+    "Type": "porro",
+    "ColorBlock": 416,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2011-05-21T14:45:13.70862+02:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Quitzon, Sauer and Corkery",
-        "ToolTip": "Placeat vel et sit sint soluta at.",
+        "Id": 432,
+        "Name": "Bayer, Klein and Wolf",
+        "ToolTip": "Libero qui porro ea dolorem possimus.",
         "Deleted": false,
-        "Rank": 966,
-        "Type": "harum",
-        "ColorBlock": 657,
-        "IconHint": "ducimus",
+        "Rank": 451,
+        "Type": "occaecati",
+        "ColorBlock": 232,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2012-08-20T13:14:11.4141989+02:00",
+        "LastChanged": "2001-03-07T14:45:13.70862+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "at",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Donna Sarina Willms II",
+        "FullName": "Sam Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Earline Pacocha",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "doloremque",
+    "Hidden": true,
+    "FullName": "Mr. Obie Thora Rosenbaum DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 927
       }
     }
   }

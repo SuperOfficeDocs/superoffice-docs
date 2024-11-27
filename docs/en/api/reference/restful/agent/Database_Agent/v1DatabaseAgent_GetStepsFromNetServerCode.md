@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rippin-Upton",
-    "StepNumber": 266,
+    "Name": "Nader Group",
+    "StepNumber": 13,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 896
       }
     }
   },
   {
-    "Name": "Rippin-Upton",
-    "StepNumber": 266,
+    "Name": "Nader Group",
+    "StepNumber": 13,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 896
       }
     }
   }

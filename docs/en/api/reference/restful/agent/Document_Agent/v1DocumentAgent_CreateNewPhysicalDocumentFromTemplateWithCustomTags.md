@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 524,
-  "PersonId": 77,
-  "AppointmentId": 248,
-  "DocumentId": 656,
-  "SaleId": 634,
-  "SelectionId": 441,
-  "ProjectId": 319,
+  "ContactId": 500,
+  "PersonId": 557,
+  "AppointmentId": 378,
+  "DocumentId": 921,
+  "SaleId": 22,
+  "SelectionId": 801,
+  "ProjectId": 815,
   "CustomTags": [
-    "odio",
-    "qui"
+    "suscipit",
+    "consequatur"
   ],
   "CustomValues": [
-    "ut",
-    "provident"
+    "sunt",
+    "in"
   ],
-  "UiCulture": "id"
+  "UiCulture": "culpa"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 545,
+  "DocumentId": 378,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsam",
-  "Header": "autem",
-  "Name": "Marquardt Group",
-  "OurRef": "minima",
-  "YourRef": "et",
-  "CreatedDate": "2016-09-09T13:14:05.8976562+02:00",
-  "UpdatedDate": "1998-03-03T13:14:05.8976562+01:00",
-  "Description": "Virtual object-oriented definition",
+  "Attention": "maiores",
+  "Header": "repellat",
+  "Name": "Romaguera-Cummerata",
+  "OurRef": "molestias",
+  "YourRef": "similique",
+  "CreatedDate": "2020-04-15T14:45:05.4126533+02:00",
+  "UpdatedDate": "2006-04-23T14:45:05.4126533+02:00",
+  "Description": "Optional actuating matrix",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-10-09T13:14:05.8976562+02:00",
-  "ExternalRef": "qui",
+  "Date": "2018-08-10T14:45:05.4126533+02:00",
+  "ExternalRef": "earum",
   "Completed": "Completed",
-  "ActiveLinks": 910,
+  "ActiveLinks": 534,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Harvey-McLaughlin",
-      "Id": 467,
-      "Description": "User-friendly composite structure",
-      "ExtraInfo": "consequatur",
-      "LinkId": 90,
+      "EntityName": "Nitzsche, McKenzie and Frami",
+      "Id": 616,
+      "Description": "Synchronised maximized customer loyalty",
+      "ExtraInfo": "esse",
+      "LinkId": 332,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldType": "System.Int32",
+          "FieldLength": 332
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 958,
-  "Snum": 773,
+  "SuggestedDocumentId": 452,
+  "Snum": 42,
   "UserDefinedFields": {
-    "SuperOffice:1": "1671086104",
-    "SuperOffice:2": "235306232"
+    "SuperOffice:1": "164958893",
+    "SuperOffice:2": "Maudie Crist"
   },
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "amet"
+    "CustomFields1": "eos",
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "1998-02-05T13:14:05.8976562+01:00",
-  "PublishTo": "2017-12-02T13:14:05.8976562+01:00",
-  "PublishFrom": "2023-11-29T13:14:05.8976562+01:00",
+  "PublishEventDate": "2017-03-30T14:45:05.4126533+02:00",
+  "PublishTo": "2014-09-26T14:45:05.4126533+02:00",
+  "PublishFrom": "1999-03-24T14:45:05.4126533+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 730,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldType": "System.String",
+          "FieldLength": 470
         }
       }
     },
     {
-      "VisibleId": 730,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldType": "System.String",
+          "FieldLength": 470
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Nolan-Keebler",
-    "ToolTip": "Adipisci et dolore error voluptas at sapiente.",
-    "Deleted": true,
-    "Rank": 637,
-    "Type": "facilis",
-    "ColorBlock": 461,
-    "IconHint": "tenetur",
-    "Selected": false,
-    "LastChanged": "2019-07-17T13:14:11.3985731+02:00",
+    "Id": 580,
+    "Name": "Lockman LLC",
+    "ToolTip": "Cum et placeat provident.",
+    "Deleted": false,
+    "Rank": 383,
+    "Type": "adipisci",
+    "ColorBlock": 456,
+    "IconHint": "quos",
+    "Selected": true,
+    "LastChanged": "2000-04-18T14:45:13.6930001+02:00",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Metz-Denesik",
-        "ToolTip": "Est aut sed et veritatis vitae ullam quisquam.",
-        "Deleted": true,
-        "Rank": 915,
-        "Type": "et",
-        "ColorBlock": 893,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2020-02-11T13:14:11.3985731+01:00",
+        "Id": 5,
+        "Name": "Goodwin LLC",
+        "ToolTip": "Sit voluptatum.",
+        "Deleted": false,
+        "Rank": 426,
+        "Type": "quia",
+        "ColorBlock": 96,
+        "IconHint": "similique",
+        "Selected": false,
+        "LastChanged": "2015-02-15T14:45:13.6930001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "veniam",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Jaida Feil"
+        "FullName": "Tiana Robel"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Ms. Neoma Bartell V"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "reiciendis",
+    "Hidden": false,
+    "FullName": "Ms. Selena Runolfsson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Kuhn, Predovic and Lubowitz",
-    "ToolTip": "Delectus illum soluta quos dolores possimus dolor dicta.",
+    "Id": 40,
+    "Name": "Lang LLC",
+    "ToolTip": "Occaecati enim.",
     "Deleted": true,
-    "Rank": 288,
-    "Type": "eligendi",
-    "ColorBlock": 643,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2004-08-01T13:14:11.3985731+02:00",
+    "Rank": 456,
+    "Type": "ad",
+    "ColorBlock": 818,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "2010-04-09T14:45:13.6930001+02:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Harris, Swaniawski and Prosacco",
-        "ToolTip": "Delectus libero animi.",
-        "Deleted": true,
-        "Rank": 239,
-        "Type": "autem",
-        "ColorBlock": 191,
-        "IconHint": "veniam",
+        "Id": 49,
+        "Name": "Hansen LLC",
+        "ToolTip": "Sed ut a laborum aperiam harum.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "vel",
+        "ColorBlock": 685,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2021-10-18T13:14:11.3985731+02:00",
+        "LastChanged": "1998-12-14T14:45:13.6930001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "sunt",
+        "ExtraInfo": "vel",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Kraig Mireya Grimes",
+        "FullName": "Miss Chauncey Angelina Collier DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldLength": 761
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "eaque",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Earlene Wilderman",
+    "FullName": "Riley Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 348
       }
     }
   }

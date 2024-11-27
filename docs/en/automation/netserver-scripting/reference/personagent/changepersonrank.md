@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.ChangePersonRank
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank'>ChangePersonRank</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.ChangePersonRank'>ChangePersonRank</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeChangePersonRank
 ```cs

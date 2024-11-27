@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetTaskMenuByProgId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetTaskMenuByProgId'>GetTaskMenuByProgId</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetTaskMenuByProgId'>GetTaskMenuByProgId</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetTaskMenuByProgId
 ```cs

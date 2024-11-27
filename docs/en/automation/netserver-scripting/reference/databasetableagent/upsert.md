@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DatabaseTableAgent.Upsert
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert'>Upsert</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDatabaseTableAgent.Upsert'>Upsert</see> method on the <see cref='IDatabaseTableAgent'>IDatabaseTableAgent</see>  service agent.
 
 ## BeforeUpsert
 ```cs

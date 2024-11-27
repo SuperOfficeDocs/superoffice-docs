@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Schultz-Carter",
-    "ToolTip": "Et illo natus.",
-    "Deleted": false,
-    "Rank": 335,
-    "Type": "maxime",
-    "ColorBlock": 935,
-    "IconHint": "sint",
+    "Id": 39,
+    "Name": "Kulas-VonRueden",
+    "ToolTip": "Qui sunt sed alias.",
+    "Deleted": true,
+    "Rank": 144,
+    "Type": "provident",
+    "ColorBlock": 752,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2013-12-11T13:14:11.3673211+01:00",
+    "LastChanged": "2005-03-11T14:45:13.6617546+01:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "White, Dare and Adams",
-        "ToolTip": "Praesentium architecto architecto consequuntur occaecati.",
+        "Id": 547,
+        "Name": "Bins, Boyer and Hermiston",
+        "ToolTip": "Eveniet magnam iure debitis atque.",
         "Deleted": false,
-        "Rank": 518,
-        "Type": "eaque",
-        "ColorBlock": 28,
-        "IconHint": "beatae",
+        "Rank": 879,
+        "Type": "totam",
+        "ColorBlock": 392,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2017-08-15T13:14:11.3673211+02:00",
+        "LastChanged": "2006-12-30T14:45:13.6617546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Margaretta Ernser",
+        "ExtraInfo": "facilis",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Eliane Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 128
+            "FieldType": "System.Int32",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Ellen Lehner",
+    "FullName": "Humberto Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 32
       }
     }
   }

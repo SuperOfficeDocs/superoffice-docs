@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 849,
-  "CurrencyId": 771
+  "QuoteConnectionId": 151,
+  "CurrencyId": 579
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 384,
-    "ERPPriceListKey": "consequatur",
-    "QuoteConnectionId": 272,
-    "Name": "Streich-Moen",
-    "Description": "Operative regional hardware",
-    "Currency": "saepe",
-    "CurrencyName": "Dare, Osinski and Erdman",
-    "ValidFrom": "2005-01-21T13:14:06.3351823+01:00",
-    "ValidTo": "2003-11-24T13:14:06.3351823+01:00",
-    "IsActive": false,
+    "PriceListId": 737,
+    "ERPPriceListKey": "quas",
+    "QuoteConnectionId": 178,
+    "Name": "Schinner, Waelchi and Walter",
+    "Description": "Proactive systematic access",
+    "Currency": "quo",
+    "CurrencyName": "Huel, Lebsack and Moen",
+    "ValidFrom": "2010-04-24T14:45:06.0843796+02:00",
+    "ValidTo": "2019-09-10T14:45:06.0843796+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 17
       }
     }
   }

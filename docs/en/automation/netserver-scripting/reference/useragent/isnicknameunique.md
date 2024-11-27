@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.IsNickNameUnique
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.IsNickNameUnique'>IsNickNameUnique</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.IsNickNameUnique'>IsNickNameUnique</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeIsNickNameUnique
 ```cs

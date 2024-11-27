@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 523,
-  "ParentId": 202,
-  "Name": "Littel-Bayer",
-  "Fullname": "incidunt",
-  "CategoryMaster": 390,
+  "TicketCategoryId": 452,
+  "ParentId": 12,
+  "Name": "Baumbach, Barton and Ward",
+  "Fullname": "quasi",
+  "CategoryMaster": 722,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Corkery-Bashirian",
+  "ExternalName": "McCullough, Boyer and McLaughlin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 771,
-  "ReplyTemplate": 694,
-  "NotificationEmail": "alek@batztromp.name",
+  "AssignmentLag": 452,
+  "ReplyTemplate": 716,
+  "NotificationEmail": "polly@jaskolski.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 672,
+  "EffectiveReplyTemplateId": 405,
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "iusto"
+    "CustomFields1": "tempora",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   }
 }

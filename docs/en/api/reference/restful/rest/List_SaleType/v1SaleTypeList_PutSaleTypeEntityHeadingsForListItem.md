@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Langosh LLC",
-    "ToolTip": "Reprehenderit maiores adipisci corrupti iusto sequi sint sit.",
+    "Id": 573,
+    "Name": "Jerde, Howell and Franecki",
+    "ToolTip": "Non nihil tempore.",
     "Deleted": true,
-    "Rank": 300,
-    "Type": "voluptates",
-    "ColorBlock": 541,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2005-05-16T13:14:11.5392071+02:00",
+    "Rank": 731,
+    "Type": "harum",
+    "ColorBlock": 665,
+    "IconHint": "nulla",
+    "Selected": true,
+    "LastChanged": "2010-01-24T14:45:13.9273199+01:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Kuhn, Jaskolski and Daugherty",
-        "ToolTip": "Ut delectus.",
+        "Id": 12,
+        "Name": "Turner, Hayes and Boyer",
+        "ToolTip": "Itaque velit quod ut quos vero autem.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "ea",
-        "ColorBlock": 487,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2010-02-04T13:14:11.5392071+01:00",
+        "Rank": 987,
+        "Type": "repellat",
+        "ColorBlock": 90,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2019-02-23T14:45:13.9273199+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Mr. Christine Christina Hoeger II"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Josh Kassulke"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Hailey Hermann"
+    "FullName": "Ms. Michaela Walter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Wolf Inc and Sons",
-    "ToolTip": "Soluta optio id perferendis accusantium odio ratione nisi.",
-    "Deleted": true,
-    "Rank": 510,
-    "Type": "doloribus",
-    "ColorBlock": 450,
-    "IconHint": "sint",
+    "Id": 968,
+    "Name": "Zulauf-Rolfson",
+    "ToolTip": "Ut nihil.",
+    "Deleted": false,
+    "Rank": 354,
+    "Type": "provident",
+    "ColorBlock": 14,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2010-01-22T13:14:11.5392071+01:00",
+    "LastChanged": "2007-10-25T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 402,
-        "Name": "Hills Group",
-        "ToolTip": "Dolorum molestiae totam et minima quia optio rerum.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "sint",
-        "ColorBlock": 667,
-        "IconHint": "similique",
+        "Id": 726,
+        "Name": "Cassin-Maggio",
+        "ToolTip": "Necessitatibus nemo facilis rem ratione dolor unde.",
+        "Deleted": true,
+        "Rank": 835,
+        "Type": "sunt",
+        "ColorBlock": 890,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2024-07-13T13:14:11.5392071+02:00",
+        "LastChanged": "2013-01-05T14:45:13.9273199+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "nam",
+        "ExtraInfo": "unde",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Dr. Annabel Pacocha",
+        "FullName": "Mina Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 338
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Stacy Price",
+    "ExtraInfo": "totam",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Bobbie Santos Boyer V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldLength": 232
       }
     }
   }

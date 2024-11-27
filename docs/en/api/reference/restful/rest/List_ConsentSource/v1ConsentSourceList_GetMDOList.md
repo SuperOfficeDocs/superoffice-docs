@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=sit
+GET /api/v1/List/ConsentSource/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Rice-Goldner",
-    "ToolTip": "Qui vel.",
+    "Id": 281,
+    "Name": "Aufderhar-Abernathy",
+    "ToolTip": "Iste non quia.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "excepturi",
+    "Rank": 526,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Mraz-Kuhn",
-        "ToolTip": "Et ipsa hic rerum.",
+        "Id": 833,
+        "Name": "Terry Group",
+        "ToolTip": "Quam non officia qui libero ipsam.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "ut",
+        "Rank": 834,
+        "Type": "itaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 957,
-        "ExtraInfo": "vitae",
-        "StyleHint": "voluptas",
-        "FullName": "Morton Cole",
+        "IconHint": "cumque",
+        "ColorBlock": 840,
+        "ExtraInfo": "maiores",
+        "StyleHint": "qui",
+        "FullName": "Monserrate Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 44
           }
         }
       }
     ],
     "IconHint": "ut",
-    "ColorBlock": 175,
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
-    "FullName": "Mrs. Jeremie Welch PhD",
+    "ColorBlock": 51,
+    "ExtraInfo": "aut",
+    "StyleHint": "minus",
+    "FullName": "Muhammad Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 188
       }
     }
   }

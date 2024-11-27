@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Streich Inc and Sons",
-    "Tooltip": "saepe",
-    "Deleted": true,
-    "UdListDefinitionId": 876,
-    "Rank": 865,
+    "Id": 567,
+    "Name": "Windler-Upton",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 677,
+    "Rank": 422,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   }

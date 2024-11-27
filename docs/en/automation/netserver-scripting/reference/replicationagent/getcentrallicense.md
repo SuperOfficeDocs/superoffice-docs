@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReplicationAgent.GetCentralLicense
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense'>GetCentralLicense</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReplicationAgent.GetCentralLicense'>GetCentralLicense</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
 
 ## BeforeGetCentralLicense
 ```cs

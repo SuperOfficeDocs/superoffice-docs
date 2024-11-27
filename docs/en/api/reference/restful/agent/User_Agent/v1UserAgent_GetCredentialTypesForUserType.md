@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "voluptatum",
-    "Type": "exercitationem",
-    "Description": "Focused dedicated orchestration",
+    "DisplayType": "omnis",
+    "Type": "aut",
+    "Description": "Phased executive system engine",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

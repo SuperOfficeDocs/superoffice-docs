@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetRoleEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetRoleEntity'>GetRoleEntity</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetRoleEntity'>GetRoleEntity</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetRoleEntity
 ```cs

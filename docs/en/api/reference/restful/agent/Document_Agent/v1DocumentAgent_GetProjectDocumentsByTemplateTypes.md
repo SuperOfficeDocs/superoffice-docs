@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 288,
-  "StartTime": "2005-10-06T13:14:05.7726487+02:00",
-  "EndTime": "2009-02-24T13:14:05.7726487+01:00",
-  "Count": 778,
+  "ProjectId": 719,
+  "StartTime": "2004-11-12T14:45:05.2408154+01:00",
+  "EndTime": "2006-11-16T14:45:05.2408154+01:00",
+  "Count": 46,
   "DocumentTemplateIds": [
-    963,
-    664
+    522,
+    377
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 201,
-    "Attention": "et",
-    "Header": "laboriosam",
-    "Name": "Kassulke, Fritsch and Roberts",
-    "OurRef": "et",
-    "YourRef": "consequatur",
-    "Description": "Customer-focused explicit initiative",
-    "DocumentTemplate": "dolore",
-    "IsPublished": false,
-    "PersonId": 208,
-    "PersonFullName": "Marilyne Flatley",
-    "AssociateFullName": "Domenica Moen",
-    "ContactId": 311,
-    "ContactName": "Smith, Jacobson and Crooks",
-    "ProjectId": 649,
-    "ProjectName": "Harris-Grant",
-    "AssociateId": 214,
-    "Snum": 14,
-    "SaleId": 213,
-    "SaleName": "Halvorson LLC",
+    "DocumentId": 21,
+    "Attention": "molestias",
+    "Header": "enim",
+    "Name": "Schneider, Schaden and Jacobs",
+    "OurRef": "voluptatem",
+    "YourRef": "dolorum",
+    "Description": "Vision-oriented client-server database",
+    "DocumentTemplate": "accusamus",
+    "IsPublished": true,
+    "PersonId": 609,
+    "PersonFullName": "Miss Myrtie Mercedes Pollich MD",
+    "AssociateFullName": "Rylan Hermiston",
+    "ContactId": 981,
+    "ContactName": "Schmitt LLC",
+    "ProjectId": 537,
+    "ProjectName": "Dicki-Schulist",
+    "AssociateId": 771,
+    "Snum": 526,
+    "SaleId": 375,
+    "SaleName": "Cole Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 344
       }
     }
   }

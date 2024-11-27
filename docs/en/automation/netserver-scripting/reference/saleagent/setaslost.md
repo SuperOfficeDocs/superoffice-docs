@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.SetAsLost
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.SetAsLost'>SetAsLost</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.SetAsLost'>SetAsLost</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeSetAsLost
 ```cs

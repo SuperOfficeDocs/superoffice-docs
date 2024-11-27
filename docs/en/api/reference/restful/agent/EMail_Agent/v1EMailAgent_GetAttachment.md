@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 803,
-  "AttachmentId": "aut"
+  "MessageServerId": 226,
+  "AttachmentId": "fugiat"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable interactive intranet",
-  "Filename": "itaque",
-  "Size": 677,
-  "Type": "itaque",
-  "Encoding": "error",
-  "Id": "eius",
-  "Disposition": "sint",
+  "Description": "Organic zero tolerance matrices",
+  "Filename": "magni",
+  "Size": 620,
+  "Type": "inventore",
+  "Encoding": "repellendus",
+  "Id": "expedita",
+  "Disposition": "exercitationem",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

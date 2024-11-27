@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 425
+  "QuoteLineConfigurationId": 344
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 17,
-  "FieldName": "Reichel Inc and Sons",
-  "Label": "quos",
-  "Tooltip": "culpa",
+  "QuoteLineConfigurationId": 1001,
+  "FieldName": "Cruickshank, Conn and Langosh",
+  "Label": "dolores",
+  "Tooltip": "enim",
   "Editable": false,
-  "InUse": true,
+  "InUse": false,
   "Mandatory": true,
-  "Rank": 949,
+  "Rank": 601,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 373
     }
   }
 }

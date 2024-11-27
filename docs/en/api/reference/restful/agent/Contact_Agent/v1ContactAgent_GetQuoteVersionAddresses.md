@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 274
+  "QuoteVersionId": 702
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 14569.966,
-    "Wgs84Longitude": 25774.016,
+    "Wgs84Latitude": 14673.387999999999,
+    "Wgs84Longitude": 3544.554,
     "LocalizedAddress": [
       [
         {
-          "Name": "Homenick-Hauck",
-          "Value": "molestiae",
-          "Tooltip": "eveniet",
-          "Label": "nemo",
-          "ValueLength": 285,
-          "AddressType": "porro",
+          "Name": "Gaylord-Hackett",
+          "Value": "nihil",
+          "Tooltip": "rerum",
+          "Label": "magnam",
+          "ValueLength": 812,
+          "AddressType": "esse",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 655
+              "FieldLength": 354
             }
           }
         }
       ],
       [
         {
-          "Name": "Dicki-Cronin",
-          "Value": "rem",
-          "Tooltip": "consequuntur",
-          "Label": "consequatur",
-          "ValueLength": 114,
-          "AddressType": "voluptatibus",
+          "Name": "Conroy, Cummings and Davis",
+          "Value": "id",
+          "Tooltip": "perferendis",
+          "Label": "quia",
+          "ValueLength": 97,
+          "AddressType": "sapiente",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 119
+              "FieldType": "System.String",
+              "FieldLength": 812
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "voluptatem",
+    "Formatted": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 646
       }
     }
   }

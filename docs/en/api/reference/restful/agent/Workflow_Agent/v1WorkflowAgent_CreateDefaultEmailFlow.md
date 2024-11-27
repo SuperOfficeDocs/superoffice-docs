@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 788,
-  "Name": "Raynor-Fay",
-  "Description": "Focused contextually-based customer loyalty",
+  "EmailFlowId": 395,
+  "Name": "Kertzmann-Berge",
+  "Description": "Monitored object-oriented workforce",
   "Status": "None",
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Lang, VonRueden and Jacobi",
+  "FromName": "Fadel-Douglas",
   "FromAddr": "et",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "id",
-  "ReplyToName": "Schmidt-Terry",
-  "SmsSender": "quo",
+  "ReplyToAddr": "aut",
+  "ReplyToName": "Hettinger Group",
+  "SmsSender": "sed",
   "UseGoogleAnalytics": false,
-  "GaSource": "tenetur",
-  "GaCampaign": "quidem",
+  "GaSource": "placeat",
+  "GaCampaign": "occaecati",
   "UseTimeframe": true,
   "SelectedDays": "Friday",
-  "TimeframeStart": "vel",
-  "TimeframeEnd": "quam",
+  "TimeframeStart": "quidem",
+  "TimeframeEnd": "corrupti",
   "UseWorkflowStart": false,
-  "WorkflowStart": "et",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "et",
+  "WorkflowStart": "eaque",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "quia",
   "RemoveFromFlows": [
-    232,
-    633
+    733,
+    422
   ],
   "TzLocation": null,
   "Folder": null,
@@ -144,22 +144,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 545,
-      "WorkflowId": 866,
+      "WorkflowStepId": 290,
+      "WorkflowId": 365,
       "StepType": "AddToList",
-      "Rank": 873
+      "Rank": 758
     },
     {
-      "WorkflowStepId": 545,
-      "WorkflowId": 866,
+      "WorkflowStepId": 290,
+      "WorkflowId": 365,
       "StepType": "AddToList",
-      "Rank": 873
+      "Rank": 758
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 783,
-      "WorkflowId": 296,
+      "WorkflowTriggerId": 620,
+      "WorkflowId": 38,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -170,13 +170,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 173
         }
       }
     },
     {
-      "WorkflowTriggerId": 783,
-      "WorkflowId": 296,
+      "WorkflowTriggerId": 620,
+      "WorkflowId": 38,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -187,15 +187,15 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 173
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 108,
-      "WorkflowId": 84,
+      "WorkflowGoalId": 316,
+      "WorkflowId": 153,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -206,13 +206,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 616
         }
       }
     },
     {
-      "WorkflowGoalId": 108,
-      "WorkflowId": 84,
+      "WorkflowGoalId": 316,
+      "WorkflowId": 153,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -223,74 +223,74 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 616
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    866,
-    513
+    558,
+    248
   ],
   "ContentInfo": [
     {
       "WorkflowContentType": "Form",
-      "Id": 357,
-      "Actions": true,
+      "Id": 100,
+      "Actions": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 124
         }
       }
     },
     {
       "WorkflowContentType": "Form",
-      "Id": 357,
-      "Actions": true,
+      "Id": 100,
+      "Actions": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 124
         }
       }
     }
   ],
-  "ExitFlowId": 455,
-  "ExitSuccessFlowId": 668,
+  "ExitFlowId": 248,
+  "ExitSuccessFlowId": 459,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-10-27T13:14:06.7570832+02:00",
-  "UpdatedDate": "1998-05-15T13:14:06.7570832+02:00",
+  "CreatedDate": "2022-12-01T14:45:06.7248613+01:00",
+  "UpdatedDate": "2018-03-17T14:45:06.7248613+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 374,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 422
         }
       }
     },
     {
-      "VisibleId": 374,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 422
         }
       }
     }
@@ -300,7 +300,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 569
     }
   }
 }

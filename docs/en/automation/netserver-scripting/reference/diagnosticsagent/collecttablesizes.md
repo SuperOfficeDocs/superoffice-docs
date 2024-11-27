@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.CollectTableSizes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes'>CollectTableSizes</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.CollectTableSizes'>CollectTableSizes</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeCollectTableSizes
 ```cs

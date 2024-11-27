@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PartnerAgent.SuspendWebPanel
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel'>SuspendWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPartnerAgent.SuspendWebPanel'>SuspendWebPanel</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
 
 ## BeforeSuspendWebPanel
 ```cs

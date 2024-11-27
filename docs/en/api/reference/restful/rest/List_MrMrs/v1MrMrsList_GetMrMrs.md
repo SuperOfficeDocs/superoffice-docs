@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Crooks, Goodwin and Wunsch",
-  "Tooltip": "voluptatum",
+  "Id": 70,
+  "Name": "Roob-Halvorson",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 791,
-  "Rank": 588,
+  "UdListDefinitionId": 247,
+  "Rank": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 323
     }
   }
 }

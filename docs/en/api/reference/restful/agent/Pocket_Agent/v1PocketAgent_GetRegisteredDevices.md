@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 87
+  "AssociateId": 439
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Veum-Crooks",
-    "DeviceIdentifier": "qui",
-    "PocketVersion": "cum",
-    "Language": "tenetur",
-    "PNSHandle": "voluptatem",
+    "DeviceName": "Roberts, Jacobs and Lehner",
+    "DeviceIdentifier": "blanditiis",
+    "PocketVersion": "expedita",
+    "Language": "corrupti",
+    "PNSHandle": "possimus",
     "Platform": "Apple",
-    "OSVersion": "sed",
-    "TimeZoneId": 510
+    "OSVersion": "maxime",
+    "TimeZoneId": 395
   }
 ]
 ```

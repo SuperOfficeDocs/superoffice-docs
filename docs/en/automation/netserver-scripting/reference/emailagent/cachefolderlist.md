@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CacheFolderList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CacheFolderList'>CacheFolderList</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CacheFolderList'>CacheFolderList</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCacheFolderList
 ```cs

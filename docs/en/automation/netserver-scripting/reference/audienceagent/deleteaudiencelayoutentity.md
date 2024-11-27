@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AudienceAgent.DeleteAudienceLayoutEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity'>DeleteAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAudienceAgent.DeleteAudienceLayoutEntity'>DeleteAudienceLayoutEntity</see> method on the <see cref='IAudienceAgent'>IAudienceAgent</see>  service agent.
 
 ## BeforeDeleteAudienceLayoutEntity
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.DuplicateDashboard
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard'>DuplicateDashboard</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.DuplicateDashboard'>DuplicateDashboard</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeDuplicateDashboard
 ```cs

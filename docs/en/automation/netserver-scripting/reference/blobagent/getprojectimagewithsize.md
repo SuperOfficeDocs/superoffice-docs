@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetProjectImageWithSize
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize'>GetProjectImageWithSize</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetProjectImageWithSize'>GetProjectImageWithSize</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetProjectImageWithSize
 ```cs

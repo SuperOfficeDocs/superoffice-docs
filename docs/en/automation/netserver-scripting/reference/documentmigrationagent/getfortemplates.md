@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentMigrationAgent.GetForTemplates
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplates'>GetForTemplates</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentMigrationAgent.GetForTemplates'>GetForTemplates</see> method on the <see cref='IDocumentMigrationAgent'>IDocumentMigrationAgent</see>  service agent.
 
 ## BeforeGetForTemplates
 ```cs

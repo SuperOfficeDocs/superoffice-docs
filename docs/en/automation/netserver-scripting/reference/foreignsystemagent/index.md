@@ -10,7 +10,7 @@ so.envir: onsite
 
 # ForeignSystemAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IForeignSystemAgent'>ForeignSystemAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IForeignSystemAgent'>ForeignSystemAgent</see> that can trigger server-side event scripts.
 
 * [AddDeviceByIdentifier](adddevicebyidentifier.md)
 * [AddForeignKey](addforeignkey.md)

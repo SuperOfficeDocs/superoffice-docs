@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SortListItems
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SortListItems'>SortListItems</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SortListItems'>SortListItems</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSortListItems
 ```cs

@@ -719,11 +719,14 @@ Shadow contact provider for the dynamic appointmnet provider.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/postAddress/zip,contact/contactAssociate/middleName,person/supportLanguage,person/personAssociate/otherGroups,project/projectAssociate/isActiveText
+GET /api/v1/archive/AppointmentShadowDynamicSelectionSingleCriteriaGroup?$select=contact/country,contact/contactExtra/x_contact_dropdown,person/personDirectPhone/description,person/email/emailDescription,person/correspondingAssociate/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

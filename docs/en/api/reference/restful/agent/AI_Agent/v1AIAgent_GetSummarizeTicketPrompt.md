@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeTicketPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 870,
-  "NumSentences": 169,
-  "Summary": "minus",
-  "IsoLangCode": "nam"
+  "TicketId": 711,
+  "NumSentences": 195,
+  "Summary": "aut",
+  "IsoLangCode": "neque"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2021-08-17T13:14:05.1944888+02:00",
-  "UserPrompt": "similique",
-  "UserDisplayText": "eveniet",
-  "BotResponse": "sit",
+  "Timestamp": "2019-11-28T14:45:04.4287347+01:00",
+  "UserPrompt": "recusandae",
+  "UserDisplayText": "numquam",
+  "BotResponse": "consectetur",
   "BotActions": {
-    "BotActions1": "earum",
-    "BotActions2": "tempore"
+    "BotActions1": "dolorem",
+    "BotActions2": "mollitia"
   },
   "Attachments": [
-    "repellat",
-    "beatae"
+    "iure",
+    "nulla"
   ]
 }
 ```

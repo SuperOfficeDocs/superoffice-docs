@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 665,
-  "PlainMessage": "debitis",
-  "HtmlMessage": "cupiditate",
-  "SmsMessage": "commodi",
-  "Description": "Versatile didactic moratorium",
-  "Subject": "voluptatum",
-  "FolderId": 497,
-  "HeaderField": "odit",
-  "Design": "nulla",
+  "ShipmentMessageId": 53,
+  "PlainMessage": "minima",
+  "HtmlMessage": "est",
+  "SmsMessage": "consequatur",
+  "Description": "Enterprise-wide user-facing open system",
+  "Subject": "qui",
+  "FolderId": 857,
+  "HeaderField": "facere",
+  "Design": "itaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Phased high-level internet solution",
-  "AccessKey": "dicta",
-  "DocumentMessage": 315,
-  "Registered": "2007-12-03T13:14:06.1320455+01:00",
-  "RegisteredAssociateId": 65,
-  "Updated": "2014-03-07T13:14:06.1320455+01:00",
-  "UpdatedAssociateId": 50,
-  "UpdatedCount": 609,
+  "InlineImages": false,
+  "LongDescription": "Assimilated web-enabled approach",
+  "AccessKey": "et",
+  "DocumentMessage": 682,
+  "Registered": "2019-04-13T14:45:05.7875689+02:00",
+  "RegisteredAssociateId": 892,
+  "Updated": "2006-05-28T14:45:05.7875689+02:00",
+  "UpdatedAssociateId": 9,
+  "UpdatedCount": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

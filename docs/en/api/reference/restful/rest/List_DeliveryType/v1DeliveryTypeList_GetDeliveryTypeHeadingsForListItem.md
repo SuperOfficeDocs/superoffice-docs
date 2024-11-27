@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Huels Inc and Sons",
-    "ToolTip": "Eligendi asperiores et quidem atque autem.",
+    "Id": 684,
+    "Name": "Langworth LLC",
+    "ToolTip": "Veniam inventore dolorem.",
     "Deleted": false,
-    "Rank": 254,
-    "Type": "quia",
-    "ColorBlock": 883,
-    "IconHint": "maxime",
+    "Rank": 836,
+    "Type": "sit",
+    "ColorBlock": 639,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2005-10-04T13:14:11.3985731+02:00",
+    "LastChanged": "2011-06-03T14:45:13.6930001+02:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Nihil cum laudantium quia totam.",
-        "Deleted": true,
-        "Rank": 349,
-        "Type": "alias",
-        "ColorBlock": 256,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2023-05-05T13:14:11.3985731+02:00",
+        "Id": 889,
+        "Name": "Smitham-Watsica",
+        "ToolTip": "Rerum laudantium maiores quia.",
+        "Deleted": false,
+        "Rank": 563,
+        "Type": "maiores",
+        "ColorBlock": 482,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2009-05-04T14:45:13.6930001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "est",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Mr. Earlene Goodwin",
+        "FullName": "Ms. Keenan Meghan Hoppe PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "officia",
+    "ExtraInfo": "et",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Hans Gibson",
+    "FullName": "Jamal Sarai Renner IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 54
       }
     }
   }

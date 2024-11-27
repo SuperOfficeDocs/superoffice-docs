@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 43,
-  "Name": "Mosciski LLC",
-  "Tooltip": "alias",
-  "Deleted": false,
-  "UdListDefinitionId": 203,
-  "Rank": 982
+  "Id": 190,
+  "Name": "Fay-Ruecker",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "UdListDefinitionId": 326,
+  "Rank": 468
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Hegmann-Murazik",
-  "Tooltip": "dicta",
+  "Id": 693,
+  "Name": "Kilback-Sipes",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "UdListDefinitionId": 892,
-  "Rank": 28,
+  "UdListDefinitionId": 446,
+  "Rank": 380,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 633
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=383
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=287
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 376,
-  "Name": "Hirthe Inc and Sons",
+  "ScreenChooserId": 507,
+  "Name": "Hermiston, Murazik and Hudson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "enim",
-  "Source": "incidunt",
-  "Registered": "2006-06-03T13:14:05.7257709+02:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2021-09-25T13:14:05.7257709+02:00",
-  "UpdatedAssociateId": 763,
+  "UniqueIdentifier": "optio",
+  "Source": "eligendi",
+  "Registered": "2024-05-02T14:45:05.1783023+02:00",
+  "RegisteredAssociateId": 901,
+  "Updated": "2019-06-06T14:45:05.1783023+02:00",
+  "UpdatedAssociateId": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 582
     }
   }
 }

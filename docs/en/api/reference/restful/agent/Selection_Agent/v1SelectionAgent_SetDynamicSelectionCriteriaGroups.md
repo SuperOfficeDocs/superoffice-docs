@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 159,
+  "SelectionId": 107,
   "Criteria": [
     {
-      "Name": "Ledner-Tillman",
-      "Description": "Persistent discrete encoding",
-      "Rank": 518,
+      "Name": "Kub, Runolfsson and West",
+      "Description": "Fundamental mission-critical matrix",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ledner-Tillman",
-      "Description": "Persistent discrete encoding",
-      "Rank": 518,
+      "Name": "Kub, Runolfsson and West",
+      "Description": "Fundamental mission-critical matrix",
+      "Rank": 411,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Willms LLC",
-    "Description": "Seamless radical concept",
-    "Rank": 997,
+    "Name": "Harvey Inc and Sons",
+    "Description": "Vision-oriented reciprocal parallelism",
+    "Rank": 523,
     "Restrictions": [
       {
-        "Name": "Schuster, Rath and Jakubowski",
-        "Operator": "cumque",
+        "Name": "Rau LLC",
+        "Operator": "accusantium",
         "Values": [
-          "molestiae",
-          "qui"
+          "ducimus",
+          "autem"
         ],
         "DisplayValues": [
-          "quisquam",
-          "eius"
+          "dolor",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 760,
+        "InterParenthesis": 756,
         "InterOperator": "And",
-        "UniqueHash": 337
+        "UniqueHash": 56
       }
     ]
   },
   {
-    "Name": "Willms LLC",
-    "Description": "Seamless radical concept",
-    "Rank": 997,
+    "Name": "Harvey Inc and Sons",
+    "Description": "Vision-oriented reciprocal parallelism",
+    "Rank": 523,
     "Restrictions": [
       {
-        "Name": "Schuster, Rath and Jakubowski",
-        "Operator": "cumque",
+        "Name": "Rau LLC",
+        "Operator": "accusantium",
         "Values": [
-          "molestiae",
-          "qui"
+          "ducimus",
+          "autem"
         ],
         "DisplayValues": [
-          "quisquam",
-          "eius"
+          "dolor",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 760,
+        "InterParenthesis": 756,
         "InterOperator": "And",
-        "UniqueHash": 337
+        "UniqueHash": 56
       }
     ]
   }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 451,
-  "StartDate": "2012-07-15T13:14:05.3976254+02:00",
-  "EndDate": "2000-09-17T13:14:05.3976254+02:00",
-  "RecurrenceCounter": 803,
+  "RecurrenceId": 583,
+  "StartDate": "2022-08-27T14:45:04.6943025+02:00",
+  "EndDate": "2021-07-28T14:45:04.6943025+02:00",
+  "RecurrenceCounter": 149,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2024-02-15T13:14:05.3976254+01:00",
-      "IsConflict": true,
-      "Description": "Implemented 6th generation structure",
-      "DescriptionStyleHint": "Multi-layered tangible algorithm",
-      "Tooltip": "consequatur"
+      "Date": "2010-03-28T14:45:04.6943025+02:00",
+      "IsConflict": false,
+      "Description": "Down-sized composite extranet",
+      "DescriptionStyleHint": "Devolved bandwidth-monitored protocol",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2024-02-15T13:14:05.3976254+01:00",
-      "IsConflict": true,
-      "Description": "Implemented 6th generation structure",
-      "DescriptionStyleHint": "Multi-layered tangible algorithm",
-      "Tooltip": "consequatur"
+      "Date": "2010-03-28T14:45:04.6943025+02:00",
+      "IsConflict": false,
+      "Description": "Down-sized composite extranet",
+      "DescriptionStyleHint": "Devolved bandwidth-monitored protocol",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": true

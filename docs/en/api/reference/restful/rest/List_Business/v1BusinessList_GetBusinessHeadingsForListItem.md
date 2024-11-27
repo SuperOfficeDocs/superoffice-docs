@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Kertzmann LLC",
-    "ToolTip": "Qui natus eos commodi dicta voluptatem velit.",
+    "Id": 634,
+    "Name": "Jast-Littel",
+    "ToolTip": "Corrupti quo quia.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "alias",
-    "ColorBlock": 144,
-    "IconHint": "suscipit",
+    "Rank": 23,
+    "Type": "harum",
+    "ColorBlock": 775,
+    "IconHint": "assumenda",
     "Selected": true,
-    "LastChanged": "1997-06-24T13:14:11.3204434+02:00",
+    "LastChanged": "2012-02-12T14:45:13.5836468+01:00",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Willms-Rippin",
-        "ToolTip": "Dolor temporibus ex illum ratione accusantium.",
+        "Id": 656,
+        "Name": "Nienow-Satterfield",
+        "ToolTip": "Similique eius animi vitae qui adipisci quia.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "aut",
-        "ColorBlock": 307,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "1999-01-28T13:14:11.3204434+01:00",
+        "Rank": 879,
+        "Type": "qui",
+        "ColorBlock": 370,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2020-03-20T14:45:13.5836468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Marvin Walker Sr.",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "ipsa",
+        "Hidden": true,
+        "FullName": "Macy Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 9
+            "FieldType": "System.Int32",
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "atque",
+    "ExtraInfo": "quidem",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Berenice Lind",
+    "FullName": "Mrs. Jovani Maggio V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldLength": 420
       }
     }
   }

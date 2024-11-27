@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.SaveProjectEventEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity'>SaveProjectEventEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.SaveProjectEventEntity'>SaveProjectEventEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeSaveProjectEventEntity
 ```cs

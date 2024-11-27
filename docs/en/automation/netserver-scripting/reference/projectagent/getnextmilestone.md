@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.GetNextMilestone
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone'>GetNextMilestone</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.GetNextMilestone'>GetNextMilestone</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeGetNextMilestone
 ```cs

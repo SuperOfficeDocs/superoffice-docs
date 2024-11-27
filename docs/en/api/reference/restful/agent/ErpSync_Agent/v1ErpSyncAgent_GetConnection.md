@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 850
+  "ErpConnectionId": 664
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 816,
-  "ErpConnectorId": 761,
-  "DisplayName": "Hammes, Dach and Sporer",
-  "DisplayDescription": "Switchable asynchronous leverage",
-  "Active": true,
-  "ConnectionId": "est",
-  "MostRecentTimestamp": "ut",
+  "ErpConnectionId": 318,
+  "ErpConnectorId": 578,
+  "DisplayName": "Bednar, Kuphal and Bednar",
+  "DisplayDescription": "Right-sized human-resource open system",
+  "Active": false,
+  "ConnectionId": "dolor",
+  "MostRecentTimestamp": "maxime",
   "ConfigFields": {
-    "ConfigFields1": "accusantium",
-    "ConfigFields2": "ipsum"
+    "ConfigFields1": "recusandae",
+    "ConfigFields2": "provident"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    672,
-    36
+    838,
+    796
   ],
   "AssociateAccessIds": [
-    45,
-    801
+    954,
+    782
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 936
     }
   }
 }

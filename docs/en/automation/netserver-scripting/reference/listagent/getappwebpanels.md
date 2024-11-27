@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetAppWebPanels
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetAppWebPanels'>GetAppWebPanels</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetAppWebPanels'>GetAppWebPanels</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetAppWebPanels
 ```cs

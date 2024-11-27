@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.RemoveParticipantsFromEmailFlow
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow'>RemoveParticipantsFromEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.RemoveParticipantsFromEmailFlow'>RemoveParticipantsFromEmailFlow</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeRemoveParticipantsFromEmailFlow
 ```cs

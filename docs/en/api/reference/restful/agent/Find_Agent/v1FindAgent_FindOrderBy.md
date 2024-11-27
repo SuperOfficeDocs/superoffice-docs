@@ -86,18 +86,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Wuckert Inc and Sons",
-  "StorageKey": "fuga",
-  "PageSize": 355,
-  "PageNumber": 615,
+  "StorageType": "fugit",
+  "ProviderName": "Stroman Inc and Sons",
+  "StorageKey": "dolor",
+  "PageSize": 294,
+  "PageNumber": 123,
   "OrderBy": [
     {
-      "Name": "Cremin Group",
+      "Name": "Kautzer-Ortiz",
       "Direction": "ASC"
     },
     {
-      "Name": "Cremin Group",
+      "Name": "Kautzer-Ortiz",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Spinka, Armstrong and Howe",
-      "DisplayTooltip": "repellat",
-      "DisplayType": "ut",
+      "DisplayName": "Sanford, Koch and Bayer",
+      "DisplayTooltip": "laborum",
+      "DisplayType": "deserunt",
       "CanOrderBy": false,
-      "Name": "Ebert LLC",
+      "Name": "Olson Group",
       "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Bayer LLC",
+      "RestrictionType": "vel",
+      "RestrictionListName": "Koch Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "ullam",
-      "Width": "vel",
-      "IconHint": "voluptates",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "voluptatem",
+      "Width": "quas",
+      "IconHint": "saepe",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Orn, Kunze and Gusikowski",
-      "PrimaryKey": 83,
+      "EntityName": "Wisoky, Okuneva and Jacobson",
+      "PrimaryKey": 958,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "qui",
-          "LinkHint": "maxime"
+          "DisplayValue": "ut",
+          "TooltipHint": "eligendi",
+          "LinkHint": "totam"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "commodi",
+      "LinkHint": "aliquam",
+      "StyleHint": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldLength": 836
         }
       }
     }
   ],
-  "RowCount": 741,
+  "RowCount": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   }
 }

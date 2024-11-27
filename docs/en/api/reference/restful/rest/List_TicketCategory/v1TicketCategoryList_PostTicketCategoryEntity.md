@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 636,
-  "ParentId": 404,
-  "Name": "Schuppe-Feeney",
-  "Fullname": "quo",
-  "CategoryMaster": 494,
+  "TicketCategoryId": 618,
+  "ParentId": 627,
+  "Name": "Ferry, Mitchell and Denesik",
+  "Fullname": "et",
+  "CategoryMaster": 752,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Adams, O'Conner and Greenfelder",
+  "ExternalName": "Swift-Satterfield",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 448,
-  "ReplyTemplate": 483,
-  "NotificationEmail": "anita.sauer@corkery.us",
+  "AssignmentLag": 168,
+  "ReplyTemplate": 698,
+  "NotificationEmail": "diego_volkman@spinkagislason.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 10,
+  "EffectiveReplyTemplateId": 717,
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "dicta"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 334,
-  "ParentId": 798,
-  "Name": "Purdy LLC",
-  "Fullname": "veniam",
-  "CategoryMaster": 58,
+  "TicketCategoryId": 677,
+  "ParentId": 870,
+  "Name": "Johnson, Ebert and Dach",
+  "Fullname": "et",
+  "CategoryMaster": 285,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dach-Hyatt",
+  "ExternalName": "Davis-Kilback",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 87,
-  "ReplyTemplate": 264,
-  "NotificationEmail": "vivien_medhurst@robertsherman.info",
+  "AssignmentLag": 810,
+  "ReplyTemplate": 271,
+  "NotificationEmail": "nelda_grant@baileymurray.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 825,
+  "EffectiveReplyTemplateId": 759,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "eum"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "earum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

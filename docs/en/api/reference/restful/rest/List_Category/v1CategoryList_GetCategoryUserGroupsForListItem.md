@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 95,
-    "Name": "Tremblay-Monahan",
-    "ToolTip": "Natus sit quo aut sint qui quia.",
+    "Id": 491,
+    "Name": "Schaden, Hintz and McCullough",
+    "ToolTip": "Consequatur animi et quo fugit in nobis.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "ut",
-    "ColorBlock": 232,
-    "IconHint": "inventore",
+    "Rank": 21,
+    "Type": "praesentium",
+    "ColorBlock": 327,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2021-05-02T13:14:11.3204434+02:00",
+    "LastChanged": "2005-01-04T14:45:13.5992714+01:00",
     "ChildItems": [
       {
-        "Id": 529,
-        "Name": "Tromp Group",
-        "ToolTip": "Modi tempore vel.",
+        "Id": 746,
+        "Name": "Lebsack-Willms",
+        "ToolTip": "Vel facere.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "alias",
-        "ColorBlock": 483,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2005-08-21T13:14:11.3360694+02:00",
+        "Rank": 376,
+        "Type": "neque",
+        "ColorBlock": 28,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2024-02-05T14:45:13.5992714+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "esse",
+        "ExtraInfo": "architecto",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Miss Wayne Kulas",
+        "FullName": "Saul Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldType": "System.String",
+            "FieldLength": 57
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "delectus",
+    "ExtraInfo": "delectus",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Rossie Kertzmann",
+    "FullName": "Mrs. Rory Estrella Ortiz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 371
       }
     }
   }

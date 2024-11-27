@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 602,
+  "DocumentId": 48,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "ut",
-  "Name": "Rippin, Dare and Marks",
-  "OurRef": "sunt",
-  "YourRef": "ipsa",
-  "CreatedDate": "1998-09-29T13:14:10.8204078+02:00",
-  "UpdatedDate": "2014-09-10T13:14:10.8204078+02:00",
-  "Description": "Quality-focused grid-enabled projection",
+  "Attention": "architecto",
+  "Header": "labore",
+  "Name": "Dicki Inc and Sons",
+  "OurRef": "similique",
+  "YourRef": "aut",
+  "CreatedDate": "2003-06-09T14:45:12.7869499+02:00",
+  "UpdatedDate": "2021-05-10T14:45:12.7869499+02:00",
+  "Description": "Profit-focused local emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-06-02T13:14:10.8204078+02:00",
-  "ExternalRef": "quasi",
+  "Date": "2010-08-15T14:45:12.7869499+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 441,
+  "ActiveLinks": 550,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Block, Bernhard and Sauer",
-      "Id": 358,
-      "Description": "Persevering logistical internet solution",
-      "ExtraInfo": "earum",
-      "LinkId": 679,
+      "EntityName": "Stark LLC",
+      "Id": 654,
+      "Description": "Sharable object-oriented definition",
+      "ExtraInfo": "consequatur",
+      "LinkId": 924,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldLength": 981
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 146,
-  "Snum": 913,
+  "SuggestedDocumentId": 944,
+  "Snum": 840,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Alice Rolfson",
+    "SuperOffice:2": "Sigrid Schultz"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "id",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "quod",
+    "CustomFields2": "explicabo"
   },
-  "PublishEventDate": "2020-02-09T13:14:10.8204078+01:00",
-  "PublishTo": "1997-08-19T13:14:10.8204078+02:00",
-  "PublishFrom": "2016-03-11T13:14:10.8204078+01:00",
+  "PublishEventDate": "2013-11-14T14:45:12.7869499+01:00",
+  "PublishTo": "2021-07-24T14:45:12.7869499+02:00",
+  "PublishFrom": "2011-05-05T14:45:12.7869499+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 12,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 85
         }
       }
     },
     {
-      "VisibleId": 12,
+      "VisibleId": 621,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 85
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

@@ -899,6 +899,9 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |sale/icon|listAny|Category: Displays the icon for an activity type| x |
 |sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -950,13 +953,13 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|sale/visibleFor|listAny|Visible for|  |
-|sale/sale/textId|int|Text ID| x |
-|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/visibleFor|listAny|Visible for|  |
+|sale/sale/textId|int|Text ID| x |
+|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1054,13 +1057,13 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
 |sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
 |sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
-|sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
-|sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
-|sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
+|sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
+|sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
 |sale/quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
 |sale/quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
 |sale/quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
@@ -1102,7 +1105,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personNoMail,updatedDate,personTargetRelation/birthYear,personTargetRelation/kanaFirstName,personAssociate/credentialDisplayValue
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=email/emailAddress,personSourceRelation/personNoMail,personTargetRelation/mrMrs,personAssociate/ejUserId,postAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

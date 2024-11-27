@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 345,
-  "Name": "Doyle, Fritsch and Hane",
+  "ScreenChooserId": 837,
+  "Name": "Rosenbaum Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "iure",
-  "Source": "enim",
-  "Registered": "2013-10-12T13:14:05.710145+02:00",
-  "RegisteredAssociateId": 182,
-  "Updated": "2022-03-10T13:14:05.710145+01:00",
-  "UpdatedAssociateId": 525,
+  "UniqueIdentifier": "dolores",
+  "Source": "expedita",
+  "Registered": "2017-01-07T14:45:05.1627086+01:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2021-08-22T14:45:05.1627086+02:00",
+  "UpdatedAssociateId": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 465
     }
   }
 }

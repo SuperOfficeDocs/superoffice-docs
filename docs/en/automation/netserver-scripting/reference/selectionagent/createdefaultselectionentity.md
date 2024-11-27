@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.CreateDefaultSelectionEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity'>CreateDefaultSelectionEntity</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.CreateDefaultSelectionEntity'>CreateDefaultSelectionEntity</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeCreateDefaultSelectionEntity
 ```cs

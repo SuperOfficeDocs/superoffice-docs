@@ -95,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jaskolski-Kirlin",
+  "Name": "Hegmann Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "qui",
+  "AdditionalInfo": "maiores",
   "HistoryItems": [
-    259,
-    835
+    244,
+    523
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Corwin-Kassulke",
-    "ToolTip": "Eum autem non ut.",
+    "Id": 919,
+    "Name": "Rau LLC",
+    "ToolTip": "Impedit fuga.",
     "Deleted": false,
-    "Rank": 10,
-    "Type": "tempore",
-    "ColorBlock": 860,
-    "IconHint": "eum",
+    "Rank": 534,
+    "Type": "accusamus",
+    "ColorBlock": 295,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2022-06-22T13:14:06.1476714+02:00",
+    "LastChanged": "2021-01-19T14:45:05.8031904+01:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Dooley-Reichel",
-        "ToolTip": "Doloremque ut aliquam.",
+        "Id": 186,
+        "Name": "West-Cole",
+        "ToolTip": "Perspiciatis dicta.",
         "Deleted": false,
-        "Rank": 493,
-        "Type": "quis",
-        "ColorBlock": 492,
-        "IconHint": "et",
+        "Rank": 916,
+        "Type": "ducimus",
+        "ColorBlock": 458,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2006-04-04T13:14:06.1476714+02:00",
+        "LastChanged": "2013-01-22T14:45:05.8031904+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
+        "ExtraInfo": "incidunt",
         "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Dr. Lawson Marquardt",
+        "FullName": "Victoria Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldType": "System.Int32",
+            "FieldLength": 911
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
+    "ExtraInfo": "quae",
     "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Orval Frami",
+    "FullName": "Dell Ansel Christiansen Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 784
+        "FieldLength": 961
       }
     }
   }

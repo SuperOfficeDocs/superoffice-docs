@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "facilis",
-  "ProviderName": "Hackett-Mueller",
-  "StorageKey": "ex",
+  "StorageType": "delectus",
+  "ProviderName": "Kuphal-Hyatt",
+  "StorageKey": "quasi",
   "RestrictionGroups": [
     {
-      "Name": "Towne Inc and Sons",
-      "Description": "Centralized regional attitude",
-      "Rank": 321,
+      "Name": "Schinner-Lynch",
+      "Description": "Balanced object-oriented pricing structure",
+      "Rank": 337,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne Inc and Sons",
-      "Description": "Centralized regional attitude",
-      "Rank": 321,
+      "Name": "Schinner-Lynch",
+      "Description": "Balanced object-oriented pricing structure",
+      "Rank": 337,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "repellendus"
+  "Context": "dolorum"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski-Torphy",
-    "Description": "Configurable solution-oriented parallelism",
-    "Rank": 435,
+    "Name": "Koelpin-Kassulke",
+    "Description": "Exclusive context-sensitive analyzer",
+    "Rank": 1000,
     "Restrictions": [
       {
-        "Name": "Hills LLC",
-        "Operator": "facilis",
+        "Name": "Towne Inc and Sons",
+        "Operator": "voluptatem",
         "Values": [
-          "distinctio",
-          "illo"
+          "id",
+          "mollitia"
         ],
         "DisplayValues": [
-          "ut",
-          "necessitatibus"
+          "consequatur",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 611,
+        "InterParenthesis": 209,
         "InterOperator": "And",
-        "UniqueHash": 921
+        "UniqueHash": 399
       }
     ]
   },
   {
-    "Name": "Gusikowski-Torphy",
-    "Description": "Configurable solution-oriented parallelism",
-    "Rank": 435,
+    "Name": "Koelpin-Kassulke",
+    "Description": "Exclusive context-sensitive analyzer",
+    "Rank": 1000,
     "Restrictions": [
       {
-        "Name": "Hills LLC",
-        "Operator": "facilis",
+        "Name": "Towne Inc and Sons",
+        "Operator": "voluptatem",
         "Values": [
-          "distinctio",
-          "illo"
+          "id",
+          "mollitia"
         ],
         "DisplayValues": [
-          "ut",
-          "necessitatibus"
+          "consequatur",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 611,
+        "InterParenthesis": 209,
         "InterOperator": "And",
-        "UniqueHash": 921
+        "UniqueHash": 399
       }
     ]
   }

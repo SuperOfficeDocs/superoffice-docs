@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.GetNetServicesStatusUrl
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl'>GetNetServicesStatusUrl</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.GetNetServicesStatusUrl'>GetNetServicesStatusUrl</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeGetNetServicesStatusUrl
 ```cs

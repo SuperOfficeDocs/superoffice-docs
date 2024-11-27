@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Koss-Bartoletti",
-    "DisplayName": "Yundt Group",
-    "Description": "Open-source homogeneous matrix",
-    "ShortLabel": "pariatur",
-    "HideLabel": false,
+    "FieldName": "Schuppe-Breitenberg",
+    "DisplayName": "Prohaska Inc and Sons",
+    "Description": "Operative object-oriented firmware",
+    "ShortLabel": "rerum",
+    "HideLabel": true,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 34,
-    "TemplateVariableName": "Ankunding-Bayer"
+    "Rank": 71,
+    "TemplateVariableName": "Pacocha, Crona and Daugherty"
   }
 ]
 ```

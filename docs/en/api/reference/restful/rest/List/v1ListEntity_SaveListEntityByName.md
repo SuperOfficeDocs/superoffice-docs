@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Jerde Inc and Sons",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 394,
+  "Id": 640,
+  "Name": "Stokes-Stoltenberg",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 549,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Hansen LLC",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 665,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 237,
+  "Name": "Ratke-Brakus",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 36,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 455
     }
   }
 }

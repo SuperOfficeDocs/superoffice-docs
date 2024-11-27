@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    959,
-    513
+    103,
+    561
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 541,
-    "Name": "Feeney Group",
-    "Description": "Secured homogeneous function",
+    "ProjectId": 792,
+    "Name": "Ankunding-Kunze",
+    "Description": "Reduced bi-directional open architecture",
     "URL": "http://www.example.com/",
-    "Type": "harum",
-    "AssociateId": 715,
-    "AssociateFullName": "Susan Waelchi",
-    "TypeId": 568,
-    "Updated": "2012-09-29T13:14:06.2883049+02:00",
-    "StatusId": 207,
-    "Status": "voluptas",
-    "TextId": 333,
-    "PublishTo": "2021-10-13T13:14:06.2883049+02:00",
-    "PublishFrom": "2024-05-06T13:14:06.2883049+02:00",
-    "IsPublished": false,
+    "Type": "soluta",
+    "AssociateId": 854,
+    "AssociateFullName": "Maya Lebsack",
+    "TypeId": 57,
+    "Updated": "2020-10-12T14:45:06.0218921+02:00",
+    "StatusId": 483,
+    "Status": "eligendi",
+    "TextId": 614,
+    "PublishTo": "2019-12-05T14:45:06.0218921+01:00",
+    "PublishFrom": "2014-12-22T14:45:06.0218921+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1191042",
-    "ActiveErpLinks": 34,
+    "ProjectNumber": "875435",
+    "ActiveErpLinks": 393,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 218
       }
     }
   }

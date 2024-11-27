@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 10,
+  "AssociateId": 480,
   "Type": "AnonymousAssociate",
-  "PersonId": 139,
-  "UserName": "Schultz, Emmerich and Larkin"
+  "PersonId": 944,
+  "UserName": "Gutkowski, Kuvalis and Kuhn"
 }
 ```
 
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldType": "System.String",
+      "FieldLength": 23
     }
   }
 }

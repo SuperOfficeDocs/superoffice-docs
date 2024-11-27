@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 651,
-  "Name": "Lakin-Collier",
-  "CurrencyId": 878,
-  "EnglishName": "Kihn LLC",
+  "CountryId": 278,
+  "Name": "Kilback, Bashirian and Koch",
+  "CurrencyId": 544,
+  "EnglishName": "Toy LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Assimilated exuding help-desk",
-  "OrgNrText": "1373220",
-  "InterAreaPrefix": "voluptates",
-  "DialInPrefix": "optio",
-  "ZipPrefix": "ut",
-  "DomainName": "Glover-Shields",
-  "AddressLayoutId": 237,
-  "DomesticAddressLayoutId": 838,
-  "ForeignAddressLayoutId": 684,
-  "Rank": 105,
-  "Tooltip": "ut",
-  "Deleted": false,
+  "ImageDescription": "Innovative intangible challenge",
+  "OrgNrText": "1471508",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "debitis",
+  "ZipPrefix": "eum",
+  "DomainName": "Mayer-Ondricka",
+  "AddressLayoutId": 247,
+  "DomesticAddressLayoutId": 664,
+  "ForeignAddressLayoutId": 651,
+  "Rank": 951,
+  "Tooltip": "voluptatem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

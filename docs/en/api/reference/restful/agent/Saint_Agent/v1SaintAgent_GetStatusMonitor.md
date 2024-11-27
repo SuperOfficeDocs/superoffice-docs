@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343
+  "Id": 818
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 7,
-  "Rank": 943,
-  "DefaultTask": 225,
-  "DefaultTaskText": "et",
+  "OwnerTable": 281,
+  "Rank": 81,
+  "DefaultTask": 722,
+  "DefaultTaskText": "animi",
   "IsVisual": true,
-  "LastGenerated": "2002-01-29T13:14:06.3508082+01:00",
-  "Description": "Compatible well-modulated leverage",
-  "Name": "Tillman Group",
-  "StatusMonitorId": 179,
-  "PictureId": 541,
+  "LastGenerated": "2015-08-19T14:45:06.1156216+02:00",
+  "Description": "Multi-channelled next generation system engine",
+  "Name": "Koch-Wilderman",
+  "StatusMonitorId": 173,
+  "PictureId": 452,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 175,
-  "NumNeedUpdate": 237,
-  "GenerationStart": "2004-02-14T13:14:06.3508082+01:00",
+  "Deleted": true,
+  "NumMatches": 418,
+  "NumNeedUpdate": 635,
+  "GenerationStart": "2017-06-17T14:45:06.1156216+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

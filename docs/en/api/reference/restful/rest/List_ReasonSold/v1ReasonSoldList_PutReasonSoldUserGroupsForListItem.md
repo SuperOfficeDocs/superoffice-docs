@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Quia quam harum est.",
-    "Deleted": false,
-    "Rank": 292,
-    "Type": "corrupti",
-    "ColorBlock": 345,
+    "Id": 812,
+    "Name": "Jenkins-Dare",
+    "ToolTip": "Labore aut omnis quos aut quas molestias minima.",
+    "Deleted": true,
+    "Rank": 981,
+    "Type": "id",
+    "ColorBlock": 450,
     "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "1998-02-09T13:14:11.5235812+01:00",
+    "LastChanged": "2020-11-17T14:45:13.8960777+01:00",
     "ChildItems": [
       {
-        "Id": 981,
-        "Name": "Kulas, McCullough and Tromp",
-        "ToolTip": "Dolores tempore.",
+        "Id": 400,
+        "Name": "Hettinger, Cummings and Beier",
+        "ToolTip": "Qui et.",
         "Deleted": false,
-        "Rank": 407,
-        "Type": "eius",
-        "ColorBlock": 970,
-        "IconHint": "nesciunt",
+        "Rank": 297,
+        "Type": "quo",
+        "ColorBlock": 586,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2012-09-14T13:14:11.5235812+02:00",
+        "LastChanged": "2008-01-06T14:45:13.8960777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
+        "ExtraInfo": "asperiores",
         "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Mrs. Rosa Katrine Deckow"
+        "FullName": "Americo Moore V"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Harley Jacobi"
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Ms. Vivienne Beatty I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Dicki LLC",
-    "ToolTip": "Expedita modi natus illum tempora dolores eum iste.",
-    "Deleted": true,
-    "Rank": 152,
-    "Type": "dolor",
-    "ColorBlock": 287,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2014-06-29T13:14:11.5235812+02:00",
+    "Id": 682,
+    "Name": "Ruecker-Spencer",
+    "ToolTip": "Corrupti blanditiis.",
+    "Deleted": false,
+    "Rank": 141,
+    "Type": "perferendis",
+    "ColorBlock": 640,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2017-01-28T14:45:13.8960777+01:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Hintz, Hoppe and Mayert",
-        "ToolTip": "Ratione occaecati adipisci itaque animi.",
+        "Id": 238,
+        "Name": "Lockman Group",
+        "ToolTip": "Beatae architecto natus.",
         "Deleted": false,
-        "Rank": 405,
-        "Type": "ab",
-        "ColorBlock": 731,
-        "IconHint": "quia",
+        "Rank": 462,
+        "Type": "rerum",
+        "ColorBlock": 35,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2017-05-10T13:14:11.5235812+02:00",
+        "LastChanged": "2015-01-11T14:45:13.8960777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "natus",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Mr. Dillon Price",
+        "FullName": "Noemie Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 297
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Mrs. Howard Frances Cormier",
+    "ExtraInfo": "rerum",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Nolan Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 508
       }
     }
   }

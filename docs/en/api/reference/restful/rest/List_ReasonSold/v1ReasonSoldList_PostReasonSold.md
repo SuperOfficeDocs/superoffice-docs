@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Hodkiewicz-Jacobi",
-  "Tooltip": "reiciendis",
+  "Id": 398,
+  "Name": "Hermann LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 127,
-  "Rank": 757
+  "UdListDefinitionId": 816,
+  "Rank": 134
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Ankunding, Hills and Kerluke",
-  "Tooltip": "molestiae",
+  "Id": 794,
+  "Name": "Conroy LLC",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 699,
-  "Rank": 948,
+  "UdListDefinitionId": 709,
+  "Rank": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

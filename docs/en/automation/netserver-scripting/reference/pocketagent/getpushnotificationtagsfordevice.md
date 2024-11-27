@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.GetPushNotificationTagsForDevice
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice'>GetPushNotificationTagsForDevice</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.GetPushNotificationTagsForDevice'>GetPushNotificationTagsForDevice</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeGetPushNotificationTagsForDevice
 ```cs

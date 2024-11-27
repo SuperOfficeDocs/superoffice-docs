@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AssociateAgent.GetAssociateByPersonId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId'>GetAssociateByPersonId</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAssociateAgent.GetAssociateByPersonId'>GetAssociateByPersonId</see> method on the <see cref='IAssociateAgent'>IAssociateAgent</see>  service agent.
 
 ## BeforeGetAssociateByPersonId
 ```cs

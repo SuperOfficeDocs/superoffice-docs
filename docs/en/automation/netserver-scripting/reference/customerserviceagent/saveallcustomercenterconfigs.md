@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CustomerServiceAgent.SaveAllCustomerCenterConfigs
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs'>SaveAllCustomerCenterConfigs</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICustomerServiceAgent.SaveAllCustomerCenterConfigs'>SaveAllCustomerCenterConfigs</see> method on the <see cref='ICustomerServiceAgent'>ICustomerServiceAgent</see>  service agent.
 
 ## BeforeSaveAllCustomerCenterConfigs
 ```cs

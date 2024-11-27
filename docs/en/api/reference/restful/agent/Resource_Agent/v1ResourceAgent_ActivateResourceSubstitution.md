@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Mraz, Walter and Schoen",
-  "Culture": "blanditiis",
+  "ResourceName": "Marks-Kerluke",
+  "Culture": "qui",
   "IsActive": false
 }
 ```

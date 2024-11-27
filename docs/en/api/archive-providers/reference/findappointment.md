@@ -719,11 +719,14 @@ Find appointment provider
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=appointmentId,person/correspondingAssociate/title,person/lastName
+GET /api/v1/archive/FindAppointment?$select=registeredDate,contact/contactFax/description,contact/contactAssociate/assocName,contact/contactUdef/SuperOffice:12,contact/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

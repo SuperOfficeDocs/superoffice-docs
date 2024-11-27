@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 814,
-  "ColumnId": 657,
-  "FieldDefault": "et",
-  "FieldHeight": 58,
-  "FieldLabel": "expedita",
-  "FieldLeft": 795,
-  "FieldTop": 702,
+  "UDefFieldId": 925,
+  "ColumnId": 663,
+  "FieldDefault": "exercitationem",
+  "FieldHeight": 484,
+  "FieldLabel": "quas",
+  "FieldLeft": 379,
+  "FieldTop": 491,
   "FieldType": "Checkbox",
-  "FieldWidth": 581,
-  "FormatMask": "natus",
+  "FieldWidth": 522,
+  "FormatMask": "enim",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 448,
-  "LabelLeft": 106,
-  "LabelTop": 116,
-  "LabelWidth": 973,
-  "LastVersionId": 604,
-  "ListTableId": 413,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 99,
+  "LabelLeft": 425,
+  "LabelTop": 592,
+  "LabelWidth": 731,
+  "LastVersionId": 424,
+  "ListTableId": 47,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 863,
-  "ProgId": "laborum",
-  "IsReadOnly": true,
-  "ShortLabel": "cumque",
-  "TabOrder": 963,
-  "TextLength": 228,
-  "Tooltip": "ut",
-  "UdefIdentity": 534,
-  "UDListDefinitionId": 773,
+  "Page1LineNo": 741,
+  "ProgId": "laudantium",
+  "IsReadOnly": false,
+  "ShortLabel": "nulla",
+  "TabOrder": 997,
+  "TextLength": 752,
+  "Tooltip": "iste",
+  "UdefIdentity": 158,
+  "UDListDefinitionId": 953,
   "Justification": "Center",
-  "Version": 9,
-  "TemplateVariableName": "Medhurst LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Dickinson, Wunsch and Ebert",
+  "Version": 658,
+  "TemplateVariableName": "Altenwerth, Abernathy and Lynch",
+  "HasBeenPublished": false,
+  "MdoListName": "Streich, Kling and Shanahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

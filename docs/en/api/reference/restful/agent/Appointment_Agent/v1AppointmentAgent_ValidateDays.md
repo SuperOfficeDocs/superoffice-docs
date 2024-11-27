@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "sapiente",
-    "quo"
+    "eum",
+    "officiis"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2010-09-21T13:14:05.3976254+02:00",
+    "Date": "2019-03-27T14:45:04.6943025+01:00",
     "IsConflict": false,
-    "Description": "Inverse bi-directional pricing structure",
-    "DescriptionStyleHint": "Self-enabling dynamic collaboration",
-    "Tooltip": "voluptatum"
+    "Description": "Seamless full-range strategy",
+    "DescriptionStyleHint": "Digitized motivating time-frame",
+    "Tooltip": "voluptate"
   },
   {
-    "Date": "2010-09-21T13:14:05.3976254+02:00",
+    "Date": "2019-03-27T14:45:04.6943025+01:00",
     "IsConflict": false,
-    "Description": "Inverse bi-directional pricing structure",
-    "DescriptionStyleHint": "Self-enabling dynamic collaboration",
-    "Tooltip": "voluptatum"
+    "Description": "Seamless full-range strategy",
+    "DescriptionStyleHint": "Digitized motivating time-frame",
+    "Tooltip": "voluptate"
   }
 ]
 ```

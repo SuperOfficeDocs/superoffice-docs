@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Sipes LLC",
-  "AssociateId": 941,
-  "DetailsTable": 463,
-  "DetailsRecord": 334,
+  "Id": 526,
+  "Name": "Gerhold, Anderson and Langworth",
+  "AssociateId": 696,
+  "DetailsTable": 835,
+  "DetailsRecord": 685,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "porro",
-    "ParameterObject2": "aliquam"
+    "ParameterObject1": "rerum",
+    "ParameterObject2": "atque"
   },
-  "LastStarted": "2014-12-05T13:14:06.0539158+01:00",
-  "Created": "2024-07-29T13:14:06.0539158+02:00",
-  "StartCount": 110,
-  "DatabaseSerialNumber": "1254652",
-  "Context": "temporibus",
-  "Result": "qui",
+  "LastStarted": "2009-09-16T14:45:05.6625978+02:00",
+  "Created": "2000-04-18T14:45:05.6625978+02:00",
+  "StartCount": 785,
+  "DatabaseSerialNumber": "1100286",
+  "Context": "eum",
+  "Result": "dolores",
   "State": "All",
-  "Description": "Total stable policy",
-  "Response": "aut",
-  "Request": "delectus",
-  "ProgressDescription": "Programmable fresh-thinking project",
-  "ProgressPercent": 439,
-  "FileName": "Lesch, Wilkinson and Torp",
+  "Description": "Virtual uniform service-desk",
+  "Response": "sapiente",
+  "Request": "aperiam",
+  "ProgressDescription": "Organized user-facing leverage",
+  "ProgressPercent": 512,
+  "FileName": "Eichmann, Bernier and Stamm",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

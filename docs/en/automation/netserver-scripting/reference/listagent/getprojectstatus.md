@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetProjectStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetProjectStatus'>GetProjectStatus</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetProjectStatus'>GetProjectStatus</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetProjectStatus
 ```cs

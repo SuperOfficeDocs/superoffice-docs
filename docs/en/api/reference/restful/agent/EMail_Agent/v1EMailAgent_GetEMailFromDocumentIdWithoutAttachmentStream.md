@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 850
+  "DocumentId": 593
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 658,
-      "ContactName": "Gibson, Littel and Botsford",
-      "PersonId": 808,
-      "PersonName": "Eichmann, Yost and Mills",
-      "AssociateId": 397,
-      "Address": "autem",
-      "EmailId": 834,
+      "ContactId": 479,
+      "ContactName": "Marks Group",
+      "PersonId": 73,
+      "PersonName": "Roob, Friesen and Gottlieb",
+      "AssociateId": 579,
+      "Address": "quisquam",
+      "EmailId": 216,
       "DuplicatePersonIds": [
-        973,
-        265
+        824,
+        681
       ],
-      "Name": "Hauck Inc and Sons",
+      "Name": "Walker LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldLength": 163
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 883,
-      "ContactName": "Lakin-Conroy",
-      "PersonId": 941,
-      "PersonName": "Vandervort-Stoltenberg",
-      "AssociateId": 242,
-      "Address": "doloremque",
-      "EmailId": 47,
+      "ContactId": 845,
+      "ContactName": "Torphy-Graham",
+      "PersonId": 202,
+      "PersonName": "Hayes Inc and Sons",
+      "AssociateId": 622,
+      "Address": "eius",
+      "EmailId": 492,
       "DuplicatePersonIds": [
-        985,
-        993
+        713,
+        157
       ],
-      "Name": "Lynch-Goodwin",
+      "Name": "Gaylord-Thompson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 86
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 455,
-      "ContactName": "Ferry-Beier",
-      "PersonId": 474,
-      "PersonName": "Senger Inc and Sons",
-      "AssociateId": 695,
-      "Address": "aut",
-      "EmailId": 128,
+      "ContactId": 552,
+      "ContactName": "Collins LLC",
+      "PersonId": 119,
+      "PersonName": "Cummerata-Ankunding",
+      "AssociateId": 133,
+      "Address": "natus",
+      "EmailId": 21,
       "DuplicatePersonIds": [
-        973,
-        7
+        325,
+        155
       ],
-      "Name": "Wilkinson-Lockman",
+      "Name": "Miller, Marquardt and Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     }
   ],
-  "Subject": "ab",
-  "HTMLBody": "aperiam",
+  "Subject": "cum",
+  "HTMLBody": "aspernatur",
   "From": null,
-  "Sent": "2018-06-26T13:14:05.9445336+02:00",
-  "Size": 201,
+  "Sent": "2021-07-24T14:45:05.5063824+02:00",
+  "Size": 442,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "consequatur",
-  "PlainBody": "perspiciatis",
+  "MessageID": "est",
+  "PlainBody": "sed",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 651,
+  "ServerId": 291,
   "Attachments": [
     {
-      "Description": "Diverse logistical alliance",
-      "Filename": "vel",
-      "Size": 874,
-      "Type": "aspernatur",
-      "Encoding": "dolor",
-      "Id": "vero",
-      "Disposition": "ut",
+      "Description": "Compatible high-level parallelism",
+      "Filename": "repellat",
+      "Size": 843,
+      "Type": "aut",
+      "Encoding": "et",
+      "Id": "id",
+      "Disposition": "eaque",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 354
+          "FieldLength": 282
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Renner Group",
+      "Name": "Jaskolski-Kirlin",
       "Values": [
-        "ducimus",
-        "est"
+        "non",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Renner Group",
+      "Name": "Jaskolski-Kirlin",
       "Values": [
-        "ducimus",
-        "est"
+        "non",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 855
         }
       }
     }
   ],
-  "FolderName": "Rutherford Group",
-  "EmailItemId": 836,
-  "AccountId": 853,
-  "ReceivedAt": "2022-10-28T13:14:05.9445336+02:00",
+  "FolderName": "Reichert-Schowalter",
+  "EmailItemId": 157,
+  "AccountId": 243,
+  "ReceivedAt": "2022-01-08T14:45:05.5063824+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-08-24T13:14:05.9445336+02:00",
+  "RepliedAt": "2003-01-20T14:45:05.5063824+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 796
     }
   }
 }

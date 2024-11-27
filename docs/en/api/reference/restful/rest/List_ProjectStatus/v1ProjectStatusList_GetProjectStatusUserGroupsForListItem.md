@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Olson LLC",
-    "ToolTip": "Dolor repellendus velit.",
+    "Id": 74,
+    "Name": "Grimes, Orn and Dach",
+    "ToolTip": "Et alias.",
     "Deleted": false,
-    "Rank": 581,
-    "Type": "assumenda",
-    "ColorBlock": 166,
-    "IconHint": "eius",
+    "Rank": 396,
+    "Type": "sit",
+    "ColorBlock": 743,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2011-03-10T13:14:11.4767026+01:00",
+    "LastChanged": "2022-05-04T14:45:13.8179422+02:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Little-Greenfelder",
-        "ToolTip": "Sequi necessitatibus vel quo porro modi corporis.",
-        "Deleted": true,
-        "Rank": 430,
-        "Type": "quo",
-        "ColorBlock": 95,
-        "IconHint": "repudiandae",
+        "Id": 984,
+        "Name": "Murazik Group",
+        "ToolTip": "Quis assumenda.",
+        "Deleted": false,
+        "Rank": 852,
+        "Type": "nisi",
+        "ColorBlock": 750,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2003-11-28T13:14:11.4767026+01:00",
+        "LastChanged": "2010-11-13T14:45:13.8179422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "itaque",
+        "ExtraInfo": "eum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Billy Howell",
+        "FullName": "Mr. Arne Dallas Dach V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Baby Turner",
+    "ExtraInfo": "eos",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Nash Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 132
       }
     }
   }

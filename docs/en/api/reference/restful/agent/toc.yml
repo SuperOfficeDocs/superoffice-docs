@@ -69,6 +69,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md
   - name: CleanUpRecurringBookingDeleted
     href: Appointment_Agent/v1AppointmentAgent_CleanUpRecurringBookingDeleted.md
+  - name: ConvertAppointmentToTask
+    href: Appointment_Agent/v1AppointmentAgent_ConvertAppointmentToTask.md
   - name: CreateAndAccept
     href: Appointment_Agent/v1AppointmentAgent_CreateAndAccept.md
   - name: CreateAndAcceptWithEmailConfirmation
@@ -1328,6 +1330,10 @@ items:
     href: EMail_Agent/v1EMailAgent_CreateForwardEmail.md
   - name: CreateInlineHtmlHeader
     href: EMail_Agent/v1EMailAgent_CreateInlineHtmlHeader.md
+  - name: CreateNewPhysicalDocumentFromEmail
+    href: EMail_Agent/v1EMailAgent_CreateNewPhysicalDocumentFromEmail.md
+  - name: CreateNewPhysicalDocumentFromEmailAttachment
+    href: EMail_Agent/v1EMailAgent_CreateNewPhysicalDocumentFromEmailAttachment.md
   - name: Delete
     href: EMail_Agent/v1EMailAgent_Delete.md
   - name: DeleteEMailAccount
@@ -3389,6 +3395,8 @@ items:
     href: Sentry_Agent/v1SentryAgent_CanCreateAppointmentInAllDiaries.md
   - name: CanCreateAppointmentInAssociateDiaries
     href: Sentry_Agent/v1SentryAgent_CanCreateAppointmentInAssociateDiaries.md
+  - name: CanCreateAppointmentInEachAssociatesDiary
+    href: Sentry_Agent/v1SentryAgent_CanCreateAppointmentInEachAssociatesDiary.md
   - name: GetFunctionRights
     href: Sentry_Agent/v1SentryAgent_GetFunctionRights.md
   - name: GetNewTableRight

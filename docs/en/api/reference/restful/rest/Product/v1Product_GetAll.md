@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=est
-GET /api/v1/Product?$top=472
-GET /api/v1/Product?$skip=962
+GET /api/v1/Product?$entities=sint
+GET /api/v1/Product?$top=166
+GET /api/v1/Product?$skip=729
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=modi
+GET /api/v1/Product?$context=autem
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "culpa",
   "value": [
     {
-      "PrimaryKey": 1815,
+      "PrimaryKey": 766,
       "EntityName": "person",
-      "personId": 1815,
-      "fullName": "Jane Homenick"
+      "personId": 766,
+      "fullName": "Angelo Doyle"
     },
     {
-      "PrimaryKey": 7260,
+      "PrimaryKey": 3619,
       "EntityName": "person",
-      "personId": 7260,
-      "fullName": "Missouri Kshlerin"
+      "personId": 3619,
+      "fullName": "Emmy Lorine Collins PhD"
     }
   ]
 }

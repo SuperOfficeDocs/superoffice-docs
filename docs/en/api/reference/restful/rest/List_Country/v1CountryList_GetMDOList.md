@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=sequi
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=magni
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 13,
-    "Name": "Franecki-Conroy",
-    "ToolTip": "Laudantium et dicta voluptatum molestias eum molestiae quidem.",
+    "Id": 149,
+    "Name": "Hegmann-Nolan",
+    "ToolTip": "Amet omnis iste commodi quo ut id consequatur.",
     "Deleted": false,
-    "Rank": 699,
-    "Type": "dolore",
+    "Rank": 397,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Kuvalis-Hilll",
-        "ToolTip": "Ex eligendi et et est cupiditate quia.",
+        "Id": 821,
+        "Name": "Collins Inc and Sons",
+        "ToolTip": "Natus temporibus.",
         "Deleted": false,
-        "Rank": 393,
-        "Type": "a",
+        "Rank": 913,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 974,
-        "ExtraInfo": "quidem",
-        "StyleHint": "quia",
-        "FullName": "Kaylee Carter Sr.",
+        "IconHint": "voluptas",
+        "ColorBlock": 417,
+        "ExtraInfo": "et",
+        "StyleHint": "est",
+        "FullName": "Dolores Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 10
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 128,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "porro",
-    "FullName": "Ms. Ursula Aileen Murazik Sr.",
+    "IconHint": "ipsa",
+    "ColorBlock": 518,
+    "ExtraInfo": "fuga",
+    "StyleHint": "alias",
+    "FullName": "Joel Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 114
       }
     }
   }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.RenameMailingByMessageId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId'>RenameMailingByMessageId</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.RenameMailingByMessageId'>RenameMailingByMessageId</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeRenameMailingByMessageId
 ```cs

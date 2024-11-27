@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 252,
-  "EMailAddress": "harum",
-  "AssociateId": 331,
+  "EMailAccountId": 935,
+  "EMailAddress": "voluptas",
+  "AssociateId": 748,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 461,
-  "ErrorCount": 2,
+  "AccountStatus": 416,
+  "ErrorCount": 933,
   "ErrorReason": "",
-  "InboxFolder": "aliquam",
-  "SentFolder": "ut"
+  "InboxFolder": "vitae",
+  "SentFolder": "autem"
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 763,
-  "EMailAddress": "eum",
-  "AssociateId": 172,
+  "EMailAccountId": 881,
+  "EMailAddress": "aliquid",
+  "AssociateId": 489,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 536,
-  "ErrorCount": 153,
-  "ErrorReason": "deploy 24/7 interfaces",
-  "InboxFolder": "repellendus",
-  "SentFolder": "quidem",
+  "AccountStatus": 119,
+  "ErrorCount": 811,
+  "ErrorReason": "",
+  "InboxFolder": "sint",
+  "SentFolder": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

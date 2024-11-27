@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "exercitationem",
-    "ratione"
+    "unde",
+    "accusamus"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 57,
-    "ColumnId": 367,
-    "FieldDefault": "dolorum",
-    "FieldHeight": 430,
-    "FieldLabel": "eaque",
-    "FieldLeft": 249,
-    "FieldTop": 586,
+    "UDefFieldId": 398,
+    "ColumnId": 838,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 928,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 92,
+    "FieldTop": 660,
     "FieldType": "Checkbox",
-    "FieldWidth": 20,
-    "FormatMask": "ea",
+    "FieldWidth": 268,
+    "FormatMask": "delectus",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 227,
-    "LabelLeft": 429,
-    "LabelTop": 715,
-    "LabelWidth": 15,
-    "LastVersionId": 347,
-    "ListTableId": 541,
-    "IsMandatory": false,
+    "LabelHeight": 141,
+    "LabelLeft": 846,
+    "LabelTop": 79,
+    "LabelWidth": 104,
+    "LastVersionId": 965,
+    "ListTableId": 691,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 306,
-    "ProgId": "dolor",
+    "Page1LineNo": 37,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 375,
-    "TextLength": 798,
-    "Tooltip": "inventore",
-    "UdefIdentity": 389,
-    "UDListDefinitionId": 242,
+    "ShortLabel": "occaecati",
+    "TabOrder": 890,
+    "TextLength": 116,
+    "Tooltip": "ducimus",
+    "UdefIdentity": 661,
+    "UDListDefinitionId": 219,
     "Justification": "Center",
-    "Version": 735,
-    "TemplateVariableName": "Brown LLC",
+    "Version": 202,
+    "TemplateVariableName": "Herzog Inc and Sons",
     "HasBeenPublished": true,
-    "MdoListName": "Conn-Simonis",
+    "MdoListName": "Stracke Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

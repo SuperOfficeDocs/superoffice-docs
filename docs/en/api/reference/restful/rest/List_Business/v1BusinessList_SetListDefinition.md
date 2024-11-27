@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Conn LLC",
-  "Tooltip": "omnis",
+  "Id": 171,
+  "Name": "Kuvalis Inc and Sons",
+  "Tooltip": "labore",
   "Deleted": true,
-  "Rank": 482,
+  "Rank": 186,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "UseGroupsAndHeadings": true,
   "ListType": "voluptas",
-  "InUseByUserDefinedFields": true
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Kerluke-Feil",
-  "Tooltip": "aliquam",
+  "Id": 63,
+  "Name": "Feil LLC",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 804,
-  "IsCustomList": false,
+  "Rank": 11,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

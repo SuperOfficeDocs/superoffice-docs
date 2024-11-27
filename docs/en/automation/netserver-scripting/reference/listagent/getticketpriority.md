@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetTicketPriority
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetTicketPriority'>GetTicketPriority</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetTicketPriority'>GetTicketPriority</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetTicketPriority
 ```cs

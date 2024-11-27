@@ -104,55 +104,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Baumbach, Braun and Will",
+  "ProviderName": "Murphy, Miller and Lang",
   "Columns": [
-    "explicabo",
-    "est"
+    "praesentium",
+    "id"
   ],
   "SortOrder": [
     {
-      "Name": "Schaden-Feil",
+      "Name": "Corwin-Larson",
       "Direction": "ASC"
     },
     {
-      "Name": "Schaden-Feil",
+      "Name": "Corwin-Larson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Schoen, Sauer and Leannon",
-      "Operator": "quia",
+      "Name": "Brakus-Hintz",
+      "Operator": "minima",
       "Values": [
-        "iste",
-        "ut"
+        "alias",
+        "unde"
       ],
       "DisplayValues": [
-        "repellendus",
-        "itaque"
+        "voluptatem",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 466,
+      "InterParenthesis": 427,
       "InterOperator": "And",
-      "UniqueHash": 158
+      "UniqueHash": 994
     }
   ],
   "Entities": [
-    "laborum",
-    "magnam"
+    "labore",
+    "suscipit"
   ],
-  "Page": 406,
-  "PageSize": 1002,
-  "Context": "sapiente"
+  "Page": 805,
+  "PageSize": 171,
+  "Context": "eos"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Labadie-Ritchie",
-    "PrimaryKey": 412,
+    "EntityName": "Muller, Kutch and Conroy",
+    "PrimaryKey": 752,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aliquid",
-        "TooltipHint": "similique",
-        "LinkHint": "rerum"
+        "DisplayValue": "mollitia",
+        "TooltipHint": "rerum",
+        "LinkHint": "iusto"
       }
     },
-    "LinkHint": "ea",
-    "StyleHint": "qui",
+    "LinkHint": "consequatur",
+    "StyleHint": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 224
       }
     }
   }

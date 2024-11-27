@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 575,
-    "Tooltip": "labore",
-    "CanAssign": true,
-    "Free": 368,
-    "InUse": 55,
+    "Unrestricted": true,
+    "Total": 972,
+    "Tooltip": "dolorem",
+    "CanAssign": false,
+    "Free": 642,
+    "InUse": 496,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 79,
-    "Name": "Raynor, Wiegand and Emmerich",
-    "Description": "Streamlined attitude-oriented analyzer",
-    "PrerequisiteModuleName": "O'Reilly, Frami and Huels",
-    "SortOrder": 291,
-    "ExtraFlags": 330,
+    "ModuleLicenseId": 247,
+    "Name": "Treutel, Toy and Howe",
+    "Description": "Right-sized mobile data-warehouse",
+    "PrerequisiteModuleName": "Davis LLC",
+    "SortOrder": 196,
+    "ExtraFlags": 318,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

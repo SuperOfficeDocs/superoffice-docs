@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.BatchForward
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.BatchForward'>BatchForward</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.BatchForward'>BatchForward</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeBatchForward
 ```cs

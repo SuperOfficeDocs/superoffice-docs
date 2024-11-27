@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quidem
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=hic
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 Jul 2010 13:14:10 G7T
+Last-Modified: Fri, 29 Oct 1999 14:45:12 G10T
 
 {
-  "Key": "corporis",
-  "Value": "est",
-  "RecordId": 282,
-  "CreatedDate": "2009-08-05T13:14:10.8516656+02:00",
-  "UpdatedDate": "2010-07-23T13:14:10.8516656+02:00",
-  "UpdatedBy": "vitae",
-  "CreatedBy": "atque",
-  "TableName": "Kiehn, Reichel and Huel",
+  "Key": "reprehenderit",
+  "Value": "sint",
+  "RecordId": 426,
+  "CreatedDate": "2006-10-29T14:45:12.8338163+01:00",
+  "UpdatedDate": "1999-10-29T14:45:12.8338163+02:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "enim",
+  "TableName": "Lubowitz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 873,
-    "FieldName": "Ryan Inc and Sons",
-    "Label": "nihil",
-    "Tooltip": "mollitia",
-    "Editable": true,
-    "InUse": true,
+    "QuoteLineConfigurationId": 532,
+    "FieldName": "Doyle, Daniel and Barrows",
+    "Label": "et",
+    "Tooltip": "molestias",
+    "Editable": false,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 107,
+    "Rank": 369,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 994
       }
     }
   }

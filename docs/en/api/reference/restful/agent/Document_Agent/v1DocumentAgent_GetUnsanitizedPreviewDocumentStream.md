@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 418
+  "DocumentId": 1000
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Russel-Erdman",
-  "Type": "eius",
-  "Size": 809,
+  "Name": "Nikolaus, Pouros and Champlin",
+  "Type": "consequuntur",
+  "Size": 367,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 584
     }
   }
 }

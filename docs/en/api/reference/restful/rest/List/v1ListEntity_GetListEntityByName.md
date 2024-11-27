@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Schimmel Inc and Sons",
-  "Tooltip": "est",
+  "Id": 420,
+  "Name": "Reichel-Wehner",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 963,
+  "Rank": 293,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ex",
-  "InUseByUserDefinedFields": true,
+  "ListType": "amet",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 780
     }
   }
 }

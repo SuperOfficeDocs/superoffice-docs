@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 468,
-  "Name": "Turner, Schuppe and Tromp",
+  "TicketPriorityId": 296,
+  "Name": "O'Hara, Macejkovic and Pfannerstill",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 258,
+  "SortOrder": 286,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 384,
-  "MonStart": "2017-04-29T13:14:11.5704589+02:00",
-  "MonStop": "2016-06-04T13:14:11.5704589+02:00",
-  "TueStart": "2002-02-05T13:14:11.5704589+01:00",
-  "TueStop": "2004-02-22T13:14:11.5704589+01:00",
-  "WedStart": "2021-10-16T13:14:11.5704589+02:00",
-  "WedStop": "1998-08-19T13:14:11.5704589+02:00",
-  "ThuStart": "2008-04-15T13:14:11.5704589+02:00",
-  "ThuStop": "2014-07-22T13:14:11.5704589+02:00",
-  "FriStart": "2016-07-30T13:14:11.5704589+02:00",
-  "FriStop": "2005-09-21T13:14:11.5704589+02:00",
-  "SatStart": "2020-01-13T13:14:11.5704589+01:00",
-  "SatStop": "2017-04-14T13:14:11.5704589+02:00",
-  "SunStart": "2023-03-03T13:14:11.5704589+01:00",
-  "SunStop": "2002-12-20T13:14:11.5704589+01:00",
+  "Deadline": 313,
+  "MonStart": "2002-03-03T14:45:14.0836771+01:00",
+  "MonStop": "2018-05-07T14:45:14.0836771+02:00",
+  "TueStart": "2016-09-28T14:45:14.0836771+02:00",
+  "TueStop": "2007-07-26T14:45:14.0836771+02:00",
+  "WedStart": "1998-01-05T14:45:14.0836771+01:00",
+  "WedStop": "1998-10-10T14:45:14.0836771+02:00",
+  "ThuStart": "2007-06-11T14:45:14.0836771+02:00",
+  "ThuStop": "2002-06-01T14:45:14.0836771+02:00",
+  "FriStart": "2016-08-04T14:45:14.0836771+02:00",
+  "FriStop": "2012-03-01T14:45:14.0836771+01:00",
+  "SatStart": "2022-01-11T14:45:14.0836771+01:00",
+  "SatStop": "2005-04-07T14:45:14.0836771+02:00",
+  "SunStart": "2019-02-10T14:45:14.0836771+01:00",
+  "SunStop": "2015-01-29T14:45:14.0836771+01:00",
   "NonDates": [
-    "velit",
-    "architecto"
+    "eaque",
+    "dolor"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 311,
-      "AlertLevel": 297,
-      "AlertTimeout": 756,
-      "Action": 1001,
-      "DelegateTo": 788,
-      "ScriptId": 139,
-      "EmailTo": "stacey.halvorson@haagfriesen.ca",
-      "SmsTo": "eum",
-      "ReplyTemplateIdCustomer": 63,
-      "ReplyTemplateIdUser": 891,
-      "ReplyTemplateIdCatmast": 149,
-      "ReplyTemplateIdEmail": 745,
-      "RtiCustomerSms": 577,
-      "ReplyTemplateIdUserSms": 976,
-      "ReplyTemplateIdCatmastSms": 517,
-      "ReplyTemplateIdSms": 179,
+      "TicketAlertId": 790,
+      "AlertLevel": 279,
+      "AlertTimeout": 927,
+      "Action": 730,
+      "DelegateTo": 897,
+      "ScriptId": 187,
+      "EmailTo": "mariana@jacobson.info",
+      "SmsTo": "vel",
+      "ReplyTemplateIdCustomer": 822,
+      "ReplyTemplateIdUser": 431,
+      "ReplyTemplateIdCatmast": 555,
+      "ReplyTemplateIdEmail": 308,
+      "RtiCustomerSms": 576,
+      "ReplyTemplateIdUserSms": 910,
+      "ReplyTemplateIdCatmastSms": 197,
+      "ReplyTemplateIdSms": 688,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldType": "System.Int32",
+          "FieldLength": 737
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 699
     }
   }
 }

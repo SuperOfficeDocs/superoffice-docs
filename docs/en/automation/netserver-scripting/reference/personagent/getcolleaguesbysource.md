@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetColleaguesBySource
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource'>GetColleaguesBySource</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetColleaguesBySource'>GetColleaguesBySource</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetColleaguesBySource
 ```cs

@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "voluptas",
-    "InputValues2": "ducimus"
+    "InputValues1": "accusantium",
+    "InputValues2": "est"
   },
   "BlockExecution": false,
-  "NavigateTo": "nesciunt",
-  "Message": "blanditiis",
-  "ShowDialog": "et",
+  "NavigateTo": "est",
+  "Message": "et",
+  "ShowDialog": "eius",
   "OutputValues": {
-    "OutputValues1": "neque",
-    "OutputValues2": "in"
+    "OutputValues1": "non",
+    "OutputValues2": "reiciendis"
   },
   "StateValues": {
-    "StateValues1": "molestiae",
-    "StateValues2": "hic"
+    "StateValues1": "nemo",
+    "StateValues2": "illum"
   },
-  "Exception": "earum",
+  "Exception": "fugit",
   "ParserValues": {
-    "ParserValues1": "nobis",
-    "ParserValues2": "voluptatibus"
+    "ParserValues1": "est",
+    "ParserValues2": "sunt"
   },
   "CgiVariables": {
-    "CgiVariables1": "ad",
-    "CgiVariables2": "dolorum"
+    "CgiVariables1": "et",
+    "CgiVariables2": "quia"
   },
-  "CgiContent": "necessitatibus",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "molestiae",
-    "Headers2": "eaque"
+    "Headers1": "natus",
+    "Headers2": "est"
   },
   "TraceExecution": true,
   "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 637
     }
   }
 }

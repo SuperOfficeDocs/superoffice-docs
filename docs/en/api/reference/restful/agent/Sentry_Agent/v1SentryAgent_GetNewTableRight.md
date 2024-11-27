@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Labadie-Collins"
+  "TableName": "Boyer, Flatley and Schuster"
 }
 ```
 
@@ -88,6 +88,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": ""
+  "Reason": "benchmark value-added e-business"
 }
 ```

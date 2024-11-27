@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 103,
-  "Name": "Osinski Group",
+  "WebhookId": 67,
+  "Name": "Howell LLC",
   "Events": [
-    "quasi",
-    "facilis"
+    "qui",
+    "voluptate"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatum",
+  "Secret": "similique",
   "State": "Active",
-  "Type": "voluptates",
+  "Type": "non",
   "Headers": {
-    "Headers1": "ab",
-    "Headers2": "aperiam"
+    "Headers1": "sapiente",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-01-31T13:14:11.289192+01:00",
+  "Registered": "2000-04-02T14:45:13.5367829+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2001-07-09T13:14:11.289192+02:00",
+  "Updated": "2018-06-21T14:45:13.5367829+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "aylin_kertzmann@grahammueller.uk"
+  "ErrorsEmail": "newton_jenkins@schmeler.info"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 681,
-  "Name": "Schumm-Larson",
+  "WebhookId": 529,
+  "Name": "Rodriguez Group",
   "Events": [
-    "voluptatem",
-    "excepturi"
+    "numquam",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ipsam",
+  "Secret": "assumenda",
   "State": "Active",
-  "Type": "ut",
+  "Type": "sapiente",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "ullam"
+    "Headers1": "voluptas",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-07-01T13:14:11.289192+02:00",
+  "Registered": "2023-07-02T14:45:13.5367829+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-05-11T13:14:11.289192+02:00",
+  "Updated": "2002-08-02T14:45:13.5367829+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "maximus@gorczany.info",
+  "ErrorsEmail": "emely.hessel@connelly.us",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.SaveChatPresence
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.SaveChatPresence'>SaveChatPresence</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.SaveChatPresence'>SaveChatPresence</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeSaveChatPresence
 ```cs

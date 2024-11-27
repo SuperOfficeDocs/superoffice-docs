@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 435,
-  "UniqueId": "exercitationem",
-  "Name": "Swift-Fadel",
-  "Description": "Re-engineered intangible migration",
-  "AssociateId": 581,
-  "Columns": 573,
+  "DashboardId": 322,
+  "UniqueId": "dolor",
+  "Name": "Zulauf, Kessler and Williamson",
+  "Description": "Exclusive content-based benchmark",
+  "AssociateId": 723,
+  "Columns": 94,
   "Theme": null,
-  "VisibleForAll": 71,
+  "VisibleForAll": 62,
   "VisibleForAssociates": [
-    510,
-    172
+    48,
+    829
   ],
   "VisibleForGroups": [
-    13,
-    114
+    460,
+    950
   ],
-  "PinForAll": 776,
+  "PinForAll": 829,
   "PinForAssociates": [
-    184,
-    175
+    25,
+    378
   ],
   "PinForGroups": [
-    418,
-    527
+    537,
+    473
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

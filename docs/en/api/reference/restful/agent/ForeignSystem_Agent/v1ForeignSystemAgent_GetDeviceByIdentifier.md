@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abshire, Kertzmann and Baumbach",
-  "DeviceName": "Abshire Inc and Sons",
-  "DeviceIdentifier": "laborum"
+  "ApplicationName": "Witting-Tremblay",
+  "DeviceName": "Hodkiewicz, Sporer and Jacobi",
+  "DeviceIdentifier": "laboriosam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 270,
-  "Name": "Stehr LLC",
-  "CreatedDate": "2006-04-27T13:14:06.0382898+02:00",
-  "UpdatedDate": "2011-08-24T13:14:06.0382898+02:00",
-  "AssociateFullName": "Prof. Keyshawn Eugene Kutch I",
-  "CreatedBy": "facere",
-  "UpdatedBy": "nobis",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 643,
+  "ForeignDeviceId": 233,
+  "Name": "Kutch LLC",
+  "CreatedDate": "2001-08-05T14:45:05.6469762+02:00",
+  "UpdatedDate": "2001-03-28T14:45:05.6469762+02:00",
+  "AssociateFullName": "Novella Jenkins",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "assumenda",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 728
     }
   }
 }

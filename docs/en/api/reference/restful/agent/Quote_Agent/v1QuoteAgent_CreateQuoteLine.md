@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 263,
-  "ERPProductKey": "aut"
+  "QuoteAlternativeId": 914,
+  "ERPProductKey": "veniam"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 204,
-  "ERPQuoteLineKey": "eligendi",
-  "QuoteAlternativeId": 135,
-  "ERPProductKey": "nemo",
+  "QuoteLineId": 815,
+  "ERPQuoteLineKey": "est",
+  "QuoteAlternativeId": 422,
+  "ERPProductKey": "rem",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 12112.91,
-  "DeliveredQuantity": 4635.186,
-  "Rank": 773,
-  "Name": "Wilderman-Schaefer",
-  "Description": "Focused zero administration system engine",
-  "Code": "sunt",
-  "QuantityUnit": "aut",
-  "PriceUnit": "odit",
-  "ItemNumber": "439910",
+  "Reason": "extend vertical eyeballs",
+  "Quantity": 16610.2,
+  "DeliveredQuantity": 21192.108,
+  "Rank": 91,
+  "Name": "Sawayn-Wolff",
+  "Description": "Reactive tertiary migration",
+  "Code": "sapiente",
+  "QuantityUnit": "quia",
+  "PriceUnit": "amet",
+  "ItemNumber": "1108608",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "pariatur",
-  "ProductTypeKey": "dolore",
-  "Supplier": "excepturi",
-  "SupplierCode": "ut",
-  "Thumbnail": "et",
-  "VATInfo": "omnis",
-  "VAT": 21377.014,
-  "UnitCost": 17365.494,
-  "UnitMinimumPrice": 28209.134,
-  "UnitListPrice": 1181.518,
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "nihil",
+  "Supplier": "qui",
+  "SupplierCode": "omnis",
+  "Thumbnail": "inventore",
+  "VATInfo": "enim",
+  "VAT": 10940.794,
+  "UnitCost": 24044.048,
+  "UnitMinimumPrice": 17951.552,
+  "UnitListPrice": 23633.494,
   "ExtraInfo": [
     {
-      "Name": "Kiehn-Hegmann",
-      "Value": "deleniti",
+      "Name": "Bogisich Group",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     },
     {
-      "Name": "Kiehn-Hegmann",
-      "Value": "deleniti",
+      "Name": "Bogisich Group",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 294
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
+  "RawExtraInfo": "doloribus",
   "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 20753.347999999998,
-  "SubscriptionStart": "2017-05-16T13:14:06.3351823+02:00",
-  "ERPDiscountPercent": 12777.318,
-  "ERPDiscountAmount": 11191.514,
-  "DiscountPercent": 4224.632,
-  "DiscountAmount": 26137.559999999998,
+  "SubscriptionUnit": "beatae",
+  "SubscriptionQuantity": 30421.737999999998,
+  "SubscriptionStart": "2019-03-04T14:45:06.0843796+01:00",
+  "ERPDiscountPercent": 24087.924,
+  "ERPDiscountAmount": 14197.02,
+  "DiscountPercent": 1106.302,
+  "DiscountAmount": 20530.834,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20665.595999999998,
-  "EarningAmount": 1140.776,
-  "SubTotal": 27629.343999999997,
-  "TotalPrice": 11257.328,
-  "Rights": "veritatis",
-  "Rule": "voluptas",
-  "ExtraField1": "tenetur",
-  "ExtraField2": "velit",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "enim",
-  "ExtraField5": "temporibus",
+  "EarningPercent": 27115.368,
+  "EarningAmount": 23896.75,
+  "SubTotal": 22734.036,
+  "TotalPrice": 15930.122,
+  "Rights": "nihil",
+  "Rule": "omnis",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "vel",
+  "ExtraField3": "rem",
+  "ExtraField4": "aliquid",
+  "ExtraField5": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

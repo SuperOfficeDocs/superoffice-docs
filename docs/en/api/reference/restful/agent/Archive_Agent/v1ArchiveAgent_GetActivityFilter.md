@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-11-18T13:14:05.507008+01:00",
-  "ToDate": "2019-12-31T13:14:05.507008+01:00",
+  "FromDate": "2004-03-30T14:45:04.8346562+02:00",
+  "ToDate": "2012-10-16T14:45:04.8346562+02:00",
   "AssociateList": [
     {
-      "Id": 142,
-      "Name": "Gutkowski Group",
-      "ToolTip": "Mollitia quod placeat consequatur.",
+      "Id": 291,
+      "Name": "Schuster-Little",
+      "ToolTip": "Dolorem sapiente et voluptas rerum.",
       "Deleted": false,
-      "Rank": 201,
-      "Type": "est",
-      "ColorBlock": 827,
-      "IconHint": "dolorem",
-      "Selected": false,
-      "LastChanged": "2024-09-28T13:14:05.507008+02:00",
+      "Rank": 184,
+      "Type": "aut",
+      "ColorBlock": 843,
+      "IconHint": "quia",
+      "Selected": true,
+      "LastChanged": "2013-10-05T14:45:04.8346562+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "porro",
+      "ExtraInfo": "expedita",
+      "StyleHint": "ad",
       "Hidden": false,
-      "FullName": "Muhammad Olson",
+      "FullName": "Antone Feil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 571
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 453,
-      "Name": "Rutherford-Gutmann",
-      "ToolTip": "Consequatur dolorem dolor accusamus vel.",
-      "Deleted": true,
-      "Rank": 767,
-      "Type": "architecto",
-      "ColorBlock": 392,
-      "IconHint": "incidunt",
+      "Id": 302,
+      "Name": "Nikolaus, Langworth and Konopelski",
+      "ToolTip": "Exercitationem et.",
+      "Deleted": false,
+      "Rank": 681,
+      "Type": "optio",
+      "ColorBlock": 664,
+      "IconHint": "facilis",
       "Selected": false,
-      "LastChanged": "2000-11-15T13:14:05.507008+01:00",
+      "LastChanged": "2019-11-03T14:45:04.8346562+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "ipsum",
-      "Hidden": true,
-      "FullName": "Janiya Witting",
+      "ExtraInfo": "mollitia",
+      "StyleHint": "architecto",
+      "Hidden": false,
+      "FullName": "Winona Homenick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldLength": 979
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 678,
-      "Name": "Robel-Huel",
-      "ToolTip": "Atque in occaecati saepe consequatur et reiciendis veritatis.",
-      "Deleted": true,
-      "Rank": 507,
-      "Type": "nihil",
+      "Id": 101,
+      "Name": "Kovacek-Koepp",
+      "ToolTip": "Asperiores quia.",
+      "Deleted": false,
+      "Rank": 987,
+      "Type": "quos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 921,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "aut",
-      "FullName": "Dr. Maxie Arden Maggio",
+      "IconHint": "totam",
+      "ColorBlock": 253,
+      "ExtraInfo": "minima",
+      "StyleHint": "iusto",
+      "FullName": "Walton Cartwright",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldLength": 220
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 682
     }
   }
 }

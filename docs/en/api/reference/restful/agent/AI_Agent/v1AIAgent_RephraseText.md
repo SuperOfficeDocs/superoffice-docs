@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "quae",
+  "Text": "facere",
   "Style": "Casual",
-  "IsoLangCode": "aut"
+  "IsoLangCode": "ducimus"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"tempora"
 ```

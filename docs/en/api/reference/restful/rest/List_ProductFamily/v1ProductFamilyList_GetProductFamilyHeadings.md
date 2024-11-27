@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 457,
-    "Name": "Shanahan Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 461,
-    "UdListDefinitionId": 135,
+    "HeadingId": 4,
+    "Name": "Dooley, Veum and Smitham",
+    "Tooltip": "molestias",
+    "Deleted": true,
+    "Rank": 976,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 51
       }
     }
   }

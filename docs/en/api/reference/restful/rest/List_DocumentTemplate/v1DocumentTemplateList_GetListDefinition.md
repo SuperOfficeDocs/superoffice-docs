@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Kiehn-Buckridge",
-  "Tooltip": "velit",
+  "Id": 81,
+  "Name": "Reichel Inc and Sons",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 50,
+  "Rank": 198,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 596
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   },
   "_Links": {

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 796,
-    "Name": "Runte LLC",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 546
+    "HeadingId": 882,
+    "Name": "Adams-Batz",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 52,
+    "UdListDefinitionId": 170
   },
   {
-    "HeadingId": 796,
-    "Name": "Runte LLC",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "Rank": 701,
-    "UdListDefinitionId": 546
+    "HeadingId": 882,
+    "Name": "Adams-Batz",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 52,
+    "UdListDefinitionId": 170
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 992,
-    "Name": "Legros, Simonis and Wisozk",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 776,
+    "Name": "Schmitt-Stroman",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 443,
-    "UdListDefinitionId": 563,
+    "Rank": 64,
+    "UdListDefinitionId": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldType": "System.String",
+        "FieldLength": 314
       }
     }
   }

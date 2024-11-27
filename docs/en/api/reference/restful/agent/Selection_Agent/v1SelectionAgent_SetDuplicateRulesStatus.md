@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Miller-Fisher",
-      "DisplayName": "Schowalter LLC",
-      "DisplayTooltip": "est",
-      "IsActive": true
+      "Name": "Abernathy, Kub and Macejkovic",
+      "DisplayName": "King Group",
+      "DisplayTooltip": "delectus",
+      "IsActive": false
     },
     {
-      "Name": "Miller-Fisher",
-      "DisplayName": "Schowalter LLC",
-      "DisplayTooltip": "est",
-      "IsActive": true
+      "Name": "Abernathy, Kub and Macejkovic",
+      "DisplayName": "King Group",
+      "DisplayTooltip": "delectus",
+      "IsActive": false
     }
   ]
 }

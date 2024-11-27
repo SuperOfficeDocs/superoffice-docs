@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "veniam",
-  "ProviderName": "Gaylord Group",
-  "StorageKey": "architecto",
-  "PageSize": 395,
-  "PageNumber": 443
+  "StorageType": "non",
+  "ProviderName": "Bosco Inc and Sons",
+  "StorageKey": "ab",
+  "PageSize": 508,
+  "PageNumber": 253
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gulgowski-Green",
-      "DisplayTooltip": "asperiores",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Johnston-Turcotte",
+      "DisplayName": "Murphy-Morar",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "similique",
+      "CanOrderBy": false,
+      "Name": "Baumbach, Hilpert and Weimann",
       "CanRestrictBy": false,
-      "RestrictionType": "quam",
-      "RestrictionListName": "Spencer-Yundt",
+      "RestrictionType": "saepe",
+      "RestrictionListName": "Stanton, Ernser and Mann",
       "IsVisible": true,
-      "ExtraInfo": "quo",
-      "Width": "quas",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "fuga"
+      "ExtraInfo": "corporis",
+      "Width": "minus",
+      "IconHint": "saepe",
+      "HeadingIconHint": "quas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kiehn-Haag",
-      "PrimaryKey": 567,
+      "EntityName": "Nikolaus-Abbott",
+      "PrimaryKey": 869,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dicta",
-          "TooltipHint": "in",
-          "LinkHint": "repellendus"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "dolore",
+          "LinkHint": "debitis"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "maxime",
+      "LinkHint": "enim",
+      "StyleHint": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldType": "System.Int32",
+          "FieldLength": 218
         }
       }
     }
   ],
-  "RowCount": 757,
+  "RowCount": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

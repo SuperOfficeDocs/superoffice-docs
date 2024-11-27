@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.RemoveSelectionMembers
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers'>RemoveSelectionMembers</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.RemoveSelectionMembers'>RemoveSelectionMembers</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeRemoveSelectionMembers
 ```cs

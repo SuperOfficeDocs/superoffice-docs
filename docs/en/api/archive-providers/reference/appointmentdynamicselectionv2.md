@@ -721,11 +721,14 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=contact/email/emailHasBounced,person/personCountryId,person/personAddress/formattedAddress,sale/contactId,sale/salePublish/isPublished
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=contact/updatedByFullName,contact/contactAssociate/credentialType,contact/LastActivity,person/mrMrs,person/personUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

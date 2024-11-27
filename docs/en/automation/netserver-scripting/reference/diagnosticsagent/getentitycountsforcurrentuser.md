@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DiagnosticsAgent.GetEntityCountsForCurrentUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser'>GetEntityCountsForCurrentUser</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDiagnosticsAgent.GetEntityCountsForCurrentUser'>GetEntityCountsForCurrentUser</see> method on the <see cref='IDiagnosticsAgent'>IDiagnosticsAgent</see>  service agent.
 
 ## BeforeGetEntityCountsForCurrentUser
 ```cs

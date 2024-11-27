@@ -103,8 +103,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 244,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 336,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 197,
+  "EjMessageId": 955,
   "Ticket": null,
-  "CreatedAt": "2013-04-21T13:14:06.4758155+02:00",
+  "CreatedAt": "2020-01-18T14:45:06.4280519+01:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "sunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "totam",
-  "TimeSpent": 134,
-  "Body": "tempora",
-  "HtmlBody": "ut",
-  "EmailHeader": "june_spinka@watsica.info",
-  "DebugInfo": "illum",
-  "MailSorter": "expedita",
+  "MessageId": "omnis",
+  "TimeSpent": 802,
+  "Body": "magnam",
+  "HtmlBody": "molestias",
+  "EmailHeader": "braeden@volkman.com",
+  "DebugInfo": "eaque",
+  "MailSorter": "possimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "debitis",
+  "SearchTitle": "incidunt",
   "MessageHeaders": [
     {
-      "Id": 969,
-      "Name": "Jones-Ullrich",
-      "Value": "perspiciatis",
+      "Id": 460,
+      "Name": "Wolff LLC",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 39
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "cum",
-  "Sentiment": 982,
-  "SentimentConfidence": 325,
+  "Important": true,
+  "Language": "rerum",
+  "Sentiment": 995,
+  "SentimentConfidence": 36,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 523,
-      "Name": "Koss, Gibson and Bruen",
-      "ContentType": "alias",
-      "AttSize": 353,
+      "AttachmentId": 264,
+      "Name": "Doyle LLC",
+      "ContentType": "qui",
+      "AttSize": 330,
       "InlineImage": true,
-      "ContentId": "quasi",
-      "AuthKey": "nemo",
+      "ContentId": "nobis",
+      "AuthKey": "enim",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldLength": 403
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "animi"
+    "CustomFields1": "corporis",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 902
     }
   }
 }

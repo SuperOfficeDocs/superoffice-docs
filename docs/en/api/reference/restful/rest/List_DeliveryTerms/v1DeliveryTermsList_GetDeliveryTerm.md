@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Sipes LLC",
-  "Tooltip": "sint",
+  "Id": 784,
+  "Name": "Paucek, Little and Kautzer",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 186,
-  "Rank": 101,
+  "UdListDefinitionId": 165,
+  "Rank": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 455
     }
   }
 }

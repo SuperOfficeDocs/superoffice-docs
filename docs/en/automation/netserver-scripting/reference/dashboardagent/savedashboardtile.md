@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.SaveDashboardTile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile'>SaveDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.SaveDashboardTile'>SaveDashboardTile</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeSaveDashboardTile
 ```cs

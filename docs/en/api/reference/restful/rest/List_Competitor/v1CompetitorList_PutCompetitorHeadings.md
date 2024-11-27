@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 192,
-    "Name": "Sawayn, Rempel and Cronin",
-    "Tooltip": "repellat",
+    "HeadingId": 931,
+    "Name": "Schaden, Grimes and Bernhard",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 891,
-    "UdListDefinitionId": 13
+    "Rank": 533,
+    "UdListDefinitionId": 476
   },
   {
-    "HeadingId": 192,
-    "Name": "Sawayn, Rempel and Cronin",
-    "Tooltip": "repellat",
+    "HeadingId": 931,
+    "Name": "Schaden, Grimes and Bernhard",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 891,
-    "UdListDefinitionId": 13
+    "Rank": 533,
+    "UdListDefinitionId": 476
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 891,
-    "Name": "Feil, Durgan and Erdman",
-    "Tooltip": "expedita",
+    "HeadingId": 806,
+    "Name": "Oberbrunner Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 252,
+    "Rank": 780,
+    "UdListDefinitionId": 599,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 86
       }
     }
   }

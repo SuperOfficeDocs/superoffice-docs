@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm, Bins and Hackett"
+  "Name": "Auer, Turner and Mayert"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bashirian Inc and Sons",
-    "SoPrimaryKey": 435,
-    "EntryName": "Gaylord Group",
-    "EntryIdentifier": "sit",
-    "RuleDisplayName": "Strosin-Bartell",
+    "RuleName": "Jaskolski LLC",
+    "SoPrimaryKey": 317,
+    "EntryName": "Emard-Reichert",
+    "EntryIdentifier": "velit",
+    "RuleDisplayName": "Murphy, Rodriguez and Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

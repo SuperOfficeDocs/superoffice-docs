@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=278
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=14
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -96,52 +96,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 914,
-  "UniqueIdentifier": "quos",
-  "Name": "Morissette-Lowe",
-  "Description": "Vision-oriented eco-centric matrix",
-  "IncludeId": "facilis",
-  "AccessKey": "consequatur",
-  "HierarchyId": 361,
-  "Source": "iste",
-  "SourceCode": "quisquam",
+  "EjscriptId": 404,
+  "UniqueIdentifier": "non",
+  "Name": "Howe LLC",
+  "Description": "Operative user-facing website",
+  "IncludeId": "quas",
+  "AccessKey": "voluptatem",
+  "HierarchyId": 90,
+  "Source": "aut",
+  "SourceCode": "nisi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 400,
+  "HtmlOutput": 839,
   "Includes": [
-    655,
-    796
+    837,
+    96
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 886,
-      "LineNumberTo": 928,
-      "Delta": 633,
-      "IncludeId": "labore",
+      "LineNumberFrom": 728,
+      "LineNumberTo": 503,
+      "Delta": 681,
+      "IncludeId": "nulla",
       "IncludedFrom": [
-        "occaecati",
-        "quasi"
+        "dolorem",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 918
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-12-22T13:14:05.710145+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2007-10-19T13:14:05.710145+02:00",
-  "UpdatedAssociateId": 997,
+  "Registered": "1998-04-06T14:45:05.1627086+02:00",
+  "RegisteredAssociateId": 559,
+  "Updated": "2020-11-11T14:45:05.1627086+01:00",
+  "UpdatedAssociateId": 672,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 791
     }
   }
 }

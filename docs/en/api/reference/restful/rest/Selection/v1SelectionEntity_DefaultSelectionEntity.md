@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 May 2012 13:14:11 G5T
+Last-Modified: Wed, 28 Jul 2021 14:45:13 G7T
 
 {
-  "Description": "Seamless systematic concept",
-  "Postit": "non",
+  "Description": "Self-enabling homogeneous firmware",
+  "Postit": "animi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 366,
-  "IncludePerson": 316,
+  "GroupIdx": 756,
+  "IncludePerson": 378,
   "MemberCount": 99.99,
-  "Name": "Nikolaus Group",
-  "PostitTextId": 290,
-  "CreatedDate": "2008-02-28T13:14:11.0860489+01:00",
-  "SelectionId": 563,
-  "SoundEx": "suscipit",
-  "Source": 627,
-  "TextId": 571,
-  "UpdatedDate": "2012-05-11T13:14:11.0860489+02:00",
-  "UpdatedCount": 451,
-  "Visibility": 101,
+  "Name": "Connelly, Runte and Stoltenberg",
+  "PostitTextId": 519,
+  "CreatedDate": "2024-08-17T14:45:13.2243548+02:00",
+  "SelectionId": 834,
+  "SoundEx": "aut",
+  "Source": 712,
+  "TextId": 592,
+  "UpdatedDate": "2021-07-28T14:45:13.2243548+02:00",
+  "UpdatedCount": 179,
+  "Visibility": 143,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 1001,
-  "TargetTableName": "Johns-Gusikowski",
-  "Completed": true,
-  "LeftSelectionId": 427,
-  "RightSelectionId": 918,
+  "TargetTableNumber": 139,
+  "TargetTableName": "Hayes Group",
+  "Completed": false,
+  "LeftSelectionId": 420,
+  "RightSelectionId": 39,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schimmel, Lang and Blick",
-  "ShadowProviderName": "Roob Group",
-  "ChartKey": "quisquam",
-  "LastLoaded": "2008-04-18T13:14:11.0860489+02:00",
-  "LastLoadedBy": 494,
+  "MainProviderName": "Gleason Inc and Sons",
+  "ShadowProviderName": "Grant-Schmitt",
+  "ChartKey": "facere",
+  "LastLoaded": "1999-06-29T14:45:13.2243548+02:00",
+  "LastLoadedBy": 128,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-11-12T13:14:11.1016748+01:00",
-  "LastMembershipChangeBy": 425,
+  "LastMembershipChange": "1999-06-25T14:45:13.2243548+02:00",
+  "LastMembershipChangeBy": 284,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ducimus",
-  "MemberTabHeading": "possimus",
-  "MailingsProviderName": "Bins-Paucek",
-  "DashboardTileDefinitionId": 625,
+  "MainHeading": "ipsum",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Jacobs Inc and Sons",
+  "DashboardTileDefinitionId": 943,
   "VisibleFor": [
     {
-      "VisibleId": 147,
+      "VisibleId": 277,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 183
         }
       }
     },
     {
-      "VisibleId": 147,
+      "VisibleId": 277,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 183
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Fri, 11 May 2012 13:14:11 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 123
     }
   }
 }

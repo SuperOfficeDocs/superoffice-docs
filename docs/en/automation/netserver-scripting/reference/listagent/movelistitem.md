@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.MoveListItem
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.MoveListItem'>MoveListItem</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.MoveListItem'>MoveListItem</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeMoveListItem
 ```cs

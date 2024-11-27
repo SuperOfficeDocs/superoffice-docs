@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.DeleteStopWordsById
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById'>DeleteStopWordsById</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.DeleteStopWordsById'>DeleteStopWordsById</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeDeleteStopWordsById
 ```cs

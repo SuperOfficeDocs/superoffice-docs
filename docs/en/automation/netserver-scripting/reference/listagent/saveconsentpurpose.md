@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveConsentPurpose
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveConsentPurpose'>SaveConsentPurpose</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveConsentPurpose'>SaveConsentPurpose</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveConsentPurpose
 ```cs

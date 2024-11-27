@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.GetAllInstalledQuoteConnections
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.GetAllInstalledQuoteConnections'>GetAllInstalledQuoteConnections</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.GetAllInstalledQuoteConnections'>GetAllInstalledQuoteConnections</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeGetAllInstalledQuoteConnections
 ```cs

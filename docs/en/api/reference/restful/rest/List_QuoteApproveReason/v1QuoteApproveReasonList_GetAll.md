@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Waters-Bartell",
-    "Tooltip": "eum",
+    "Id": 408,
+    "Name": "Towne-Cartwright",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "UdListDefinitionId": 461,
-    "Rank": 707,
+    "UdListDefinitionId": 289,
+    "Rank": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 841
       }
     }
   }

@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 130,
-  "CustomerCustomerReplyTemplateId": 897,
-  "CustomerPasswordTemplateId": 883,
-  "CustomerConfirmEmailTemplateId": 974,
-  "CustomerChatLogTemplateId": 669,
-  "NewLinkTemplateId": 786,
-  "HotlistNewMessageTemplateId": 143,
-  "HotlistTicketActivatedTemplateId": 716,
-  "UserTicketAlarmTemplateId": 604,
-  "HotlistTicketTakenOverTemplateId": 97,
-  "UserActiveTicketsTemplateId": 5,
-  "UserNewMessageTemplateId": 389,
-  "UserTicketActivatedTemplateId": 97,
-  "UserNewTicketTemplateId": 468,
-  "PublishKbQuestionTemplateId": 900,
-  "PublishKbAnswerTemplateId": 661,
-  "UserTicketTakenOverTemplateId": 146,
-  "PrintTicketTemplateId": 195,
-  "WeekStatTemplateId": 401,
-  "TicketAlarmHotlistTemplateId": 497,
-  "EmailAddresses": "bradford@hagenes.co.uk",
+  "CustomerNewCustomerTemplateId": 178,
+  "CustomerCustomerReplyTemplateId": 378,
+  "CustomerPasswordTemplateId": 68,
+  "CustomerConfirmEmailTemplateId": 371,
+  "CustomerChatLogTemplateId": 857,
+  "NewLinkTemplateId": 308,
+  "HotlistNewMessageTemplateId": 161,
+  "HotlistTicketActivatedTemplateId": 419,
+  "UserTicketAlarmTemplateId": 207,
+  "HotlistTicketTakenOverTemplateId": 20,
+  "UserActiveTicketsTemplateId": 375,
+  "UserNewMessageTemplateId": 959,
+  "UserTicketActivatedTemplateId": 643,
+  "UserNewTicketTemplateId": 465,
+  "PublishKbQuestionTemplateId": 302,
+  "PublishKbAnswerTemplateId": 345,
+  "UserTicketTakenOverTemplateId": 12,
+  "PrintTicketTemplateId": 97,
+  "WeekStatTemplateId": 461,
+  "TicketAlarmHotlistTemplateId": 289,
+  "EmailAddresses": "isaias@dickens.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 200
     }
   }
 }

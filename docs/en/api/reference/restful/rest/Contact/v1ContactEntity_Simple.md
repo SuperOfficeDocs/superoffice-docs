@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 72,
-  "Name": "Lind Group",
-  "OrgNr": "1547902",
+  "ContactId": 878,
+  "Name": "Predovic, Tillman and Cummerata",
+  "OrgNr": "903266",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "deleniti",
-  "DirectPhone": "008-475-6476 x6600",
-  "AssociateId": 376,
-  "CountryId": 324,
-  "EmailAddress": "dagmar@heaney.biz",
-  "Kananame": "veniam",
-  "EmailAddressName": "russel@conn.uk",
+  "City": "mollitia",
+  "DirectPhone": "1-940-159-8583 x2233",
+  "AssociateId": 995,
+  "CountryId": 153,
+  "EmailAddress": "cullen@prosacco.uk",
+  "Kananame": "est",
+  "EmailAddressName": "wyatt@oberbrunner.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ashlynn Heller",
+  "AssociateFullName": "Rhoda Goldner",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "reiciendis",
-  "FullName": "Mrs. Mekhi Gregoria Runte",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 529,
-  "Number1": "625362",
-  "Number2": "784896",
+  "FormattedAddress": "est",
+  "FullName": "Riley Heidenreich",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 48,
+  "Number1": "1456393",
+  "Number2": "1081674",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 685
     }
   }
 }

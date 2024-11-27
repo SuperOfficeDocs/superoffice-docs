@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SyncEmailAccounts
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SyncEmailAccounts'>SyncEmailAccounts</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SyncEmailAccounts'>SyncEmailAccounts</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSyncEmailAccounts
 ```cs

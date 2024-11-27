@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CreateDefaultTileDefinitionForEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity'>CreateDefaultTileDefinitionForEntity</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CreateDefaultTileDefinitionForEntity'>CreateDefaultTileDefinitionForEntity</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCreateDefaultTileDefinitionForEntity
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetSuggestedDocumentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetSuggestedDocumentEntity'>GetSuggestedDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetSuggestedDocumentEntity'>GetSuggestedDocumentEntity</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetSuggestedDocumentEntity
 ```cs

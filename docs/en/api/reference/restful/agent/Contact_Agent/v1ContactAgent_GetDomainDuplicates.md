@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "ullam"
+  "Domain": "odio"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Effertz Inc and Sons",
-    "SoPrimaryKey": 935,
-    "EntryName": "Halvorson-Wintheiser",
-    "EntryIdentifier": "commodi",
-    "RuleDisplayName": "Hermann-Crist",
+    "RuleName": "Legros LLC",
+    "SoPrimaryKey": 271,
+    "EntryName": "Williamson Group",
+    "EntryIdentifier": "rerum",
+    "RuleDisplayName": "Wolff LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldType": "System.String",
+        "FieldLength": 853
       }
     }
   }

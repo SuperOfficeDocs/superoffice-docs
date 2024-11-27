@@ -86,40 +86,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 640,
-    "Name": "Streich, Haag and Hessel",
-    "Rank": 370,
-    "Tooltip": "non",
-    "Icon": "odit",
-    "DefaultTicketStatus": 929,
+    "TicketTypeId": 732,
+    "Name": "Beahan LLC",
+    "Rank": 794,
+    "Tooltip": "cumque",
+    "Icon": "ut",
+    "DefaultTicketStatus": 832,
     "TicketStatuses": [
-      499,
-      563
+      258,
+      284
     ],
-    "DefaultTicketPriority": 753,
+    "DefaultTicketPriority": 729,
     "TicketPriorities": [
-      575,
-      533
+      191,
+      403
     ],
-    "ReplyTemplate": 432,
+    "ReplyTemplate": 196,
     "IsExternalVisible": true,
-    "IsDefault": false,
+    "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": false,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      197,
-      161
+      88,
+      278
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": false,
+    "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

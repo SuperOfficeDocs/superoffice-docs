@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 570,
-  "RecurrenceRuleId": 2
+  "MotherId": 819,
+  "RecurrenceRuleId": 832
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 239,
-    "StartDate": "2011-08-09T13:14:05.2413666+02:00",
-    "EndDate": "2005-11-20T13:14:05.2413666+01:00",
+    "AppointmentId": 906,
+    "StartDate": "2000-09-12T14:45:04.4912235+02:00",
+    "EndDate": "2015-02-28T14:45:04.4912235+01:00",
     "Type": "BookingForChecklist",
-    "Task": "repellendus",
-    "AssociateFullName": "Ella Predovic",
-    "ContactName": "Sauer-Brekke",
-    "Description": "Profit-focused bandwidth-monitored model",
-    "PersonFullName": "Mr. Laurel Gudrun Bergstrom Sr.",
-    "PersonId": 454,
-    "ContactId": 999,
-    "ProjectId": 545,
-    "ProjectName": "Hansen, Kemmer and Gibson",
+    "Task": "dolores",
+    "AssociateFullName": "Pamela McLaughlin",
+    "ContactName": "Altenwerth Inc and Sons",
+    "Description": "Programmable background artificial intelligence",
+    "PersonFullName": "Herminio Moen",
+    "PersonId": 833,
+    "ContactId": 109,
+    "ProjectId": 672,
+    "ProjectName": "Pfeffer-Mertz",
     "IsPublished": false,
-    "AssociateId": 449,
-    "ColorIndex": 459,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "AssociateId": 698,
+    "ColorIndex": 419,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 234,
-    "PriorityName": "Sauer, Hoppe and Feil",
+    "PriorityId": 160,
+    "PriorityName": "Cummings, Nicolas and Tillman",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2013-08-15T13:14:05.2413666+02:00",
+    "IsBooking": false,
+    "ActiveDate": "1997-08-16T14:45:04.4912235+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-07-21T13:14:05.2413666+02:00",
-    "RecurringEndDate": "2019-11-28T13:14:05.2413666+01:00",
-    "MotherId": 448,
-    "AssignedBy": 781,
-    "AssignedByFullName": "Jayden Hipolito Hackett DDS",
-    "RejectReason": "iterate global bandwidth",
-    "Location": "magnam",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 789,
-    "SaleName": "Hagenes Inc and Sons",
-    "AssociateName": "Fadel, Ratke and Stiedemann",
-    "CreatedDate": "1997-07-12T13:14:05.2413666+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Prof. Penelope Kunze",
-    "CreatedByAssociateId": 427,
+    "RecurringStartDate": "2005-02-21T14:45:04.4912235+01:00",
+    "RecurringEndDate": "2010-10-13T14:45:04.4912235+02:00",
+    "MotherId": 383,
+    "AssignedBy": 832,
+    "AssignedByFullName": "Aubrey Hane",
+    "RejectReason": "optimize enterprise partnerships",
+    "Location": "tempora",
+    "AlarmLeadTime": "cum",
+    "SaleId": 905,
+    "SaleName": "Eichmann Inc and Sons",
+    "AssociateName": "Denesik Inc and Sons",
+    "CreatedDate": "2024-05-24T14:45:04.4912235+02:00",
+    "CreatedBy": "similique",
+    "CreatedByFullName": "Matilda Will",
+    "CreatedByAssociateId": 383,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 501,
-    "Title": "at",
-    "Agenda": "et",
-    "InternalNotes": "provident",
+    "PreferredTZLocation": 259,
+    "Title": "est",
+    "Agenda": "voluptatibus",
+    "InternalNotes": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 441
       }
     }
   }

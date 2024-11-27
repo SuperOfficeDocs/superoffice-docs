@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Lindgren-Schneider",
-    "ToolTip": "Itaque atque nam est quia ex.",
+    "Id": 757,
+    "Name": "Yost Group",
+    "ToolTip": "Enim blanditiis necessitatibus.",
     "Deleted": false,
-    "Rank": 247,
-    "Type": "aspernatur",
-    "ColorBlock": 132,
-    "IconHint": "inventore",
+    "Rank": 869,
+    "Type": "earum",
+    "ColorBlock": 832,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2000-02-09T13:14:11.3204434+01:00",
+    "LastChanged": "2004-07-09T14:45:13.5836468+02:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Dibbert Inc and Sons",
-        "ToolTip": "Ipsam sit sed culpa totam.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "autem",
-        "ColorBlock": 579,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2001-08-12T13:14:11.3204434+02:00",
+        "Id": 742,
+        "Name": "Bergstrom Inc and Sons",
+        "ToolTip": "Est accusamus nostrum maiores quam magni ipsum.",
+        "Deleted": true,
+        "Rank": 349,
+        "Type": "velit",
+        "ColorBlock": 593,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2021-07-13T14:45:13.5836468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Michale Abshire"
+        "ExtraInfo": "et",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Prof. Gilda Lilla Torphy I"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Laurel Bruen"
+    "ExtraInfo": "beatae",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Timothy Kirlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Windler-Crona",
-    "ToolTip": "Et debitis expedita molestias fugiat dolor est odio.",
+    "Id": 166,
+    "Name": "Green, Bartoletti and Eichmann",
+    "ToolTip": "Modi expedita et dolorem qui adipisci alias id.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "id",
-    "ColorBlock": 687,
-    "IconHint": "nihil",
+    "Rank": 971,
+    "Type": "a",
+    "ColorBlock": 920,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2018-04-03T13:14:11.3204434+02:00",
+    "LastChanged": "2017-05-10T14:45:13.5836468+02:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Feest-Dickens",
-        "ToolTip": "Tempore voluptatibus tenetur quas laudantium odio.",
-        "Deleted": false,
-        "Rank": 606,
-        "Type": "nihil",
-        "ColorBlock": 488,
-        "IconHint": "autem",
+        "Id": 581,
+        "Name": "Barton, Walsh and Bauch",
+        "ToolTip": "Debitis libero voluptatum dolor molestiae quisquam voluptatum.",
+        "Deleted": true,
+        "Rank": 21,
+        "Type": "dicta",
+        "ColorBlock": 683,
+        "IconHint": "occaecati",
         "Selected": true,
-        "LastChanged": "2019-06-17T13:14:11.3204434+02:00",
+        "LastChanged": "2013-02-04T14:45:13.5836468+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "et",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Lexi Cody Blanda III",
+        "FullName": "Ramon Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 386
+            "FieldType": "System.String",
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "neque",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Howard Wisoky",
+    "FullName": "Noemie Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 787
       }
     }
   }

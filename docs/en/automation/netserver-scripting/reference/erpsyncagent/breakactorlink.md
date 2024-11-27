@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.BreakActorLink
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink'>BreakActorLink</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.BreakActorLink'>BreakActorLink</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeBreakActorLink
 ```cs

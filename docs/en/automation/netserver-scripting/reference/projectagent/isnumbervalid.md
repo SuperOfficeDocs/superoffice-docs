@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.IsNumberValid
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.IsNumberValid'>IsNumberValid</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.IsNumberValid'>IsNumberValid</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeIsNumberValid
 ```cs

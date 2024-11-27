@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Nikolaus, Oberbrunner and Lueilwitz",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 436,
-  "Rank": 804,
+  "Id": 796,
+  "Name": "Stark-Feeney",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 65,
+  "Rank": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 154
     }
   }
 }

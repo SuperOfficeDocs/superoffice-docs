@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 484,
-  "StartTime": "2005-10-08T13:14:05.2257407+02:00",
-  "EndTime": "2020-09-03T13:14:05.2257407+02:00",
-  "Count": 716,
-  "TaskId": 955
+  "ContactId": 581,
+  "StartTime": "2005-08-30T14:45:04.4599779+02:00",
+  "EndTime": "2017-08-29T14:45:04.4599779+02:00",
+  "Count": 82,
+  "TaskId": 417
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 659,
-    "StartDate": "2010-06-11T13:14:05.2257407+02:00",
-    "EndDate": "2009-08-03T13:14:05.2257407+02:00",
+    "AppointmentId": 66,
+    "StartDate": "2020-07-23T14:45:04.4599779+02:00",
+    "EndDate": "2005-09-13T14:45:04.4599779+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ex",
-    "AssociateFullName": "Damon Mills Sr.",
-    "ContactName": "Jacobson LLC",
-    "Description": "Operative 4th generation matrix",
-    "PersonFullName": "Alejandrin Towne",
-    "PersonId": 286,
-    "ContactId": 547,
-    "ProjectId": 487,
-    "ProjectName": "Kulas Inc and Sons",
+    "Task": "accusamus",
+    "AssociateFullName": "Felicity Yundt",
+    "ContactName": "Huel LLC",
+    "Description": "De-engineered national orchestration",
+    "PersonFullName": "Darrel Gleason",
+    "PersonId": 674,
+    "ContactId": 456,
+    "ProjectId": 708,
+    "ProjectName": "Greenholt LLC",
     "IsPublished": true,
-    "AssociateId": 277,
-    "ColorIndex": 101,
-    "IsFree": true,
+    "AssociateId": 895,
+    "ColorIndex": 208,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 275,
-    "PriorityName": "Howe-Schaden",
+    "PriorityId": 898,
+    "PriorityName": "Towne, Gaylord and Dickens",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-05-17T13:14:05.2257407+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2000-07-08T14:45:04.4599779+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-01-29T13:14:05.2257407+01:00",
-    "RecurringEndDate": "2005-12-21T13:14:05.2257407+01:00",
-    "MotherId": 29,
-    "AssignedBy": 344,
-    "AssignedByFullName": "Lindsey Spencer",
+    "RecurringStartDate": "2023-01-29T14:45:04.4599779+01:00",
+    "RecurringEndDate": "2008-03-30T14:45:04.4599779+02:00",
+    "MotherId": 246,
+    "AssignedBy": 516,
+    "AssignedByFullName": "Leland Davis",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "animi",
-    "SaleId": 996,
-    "SaleName": "Hauck Inc and Sons",
-    "AssociateName": "Ortiz, Schiller and Nitzsche",
-    "CreatedDate": "2009-10-02T13:14:05.2257407+02:00",
-    "CreatedBy": "a",
-    "CreatedByFullName": "Miss Cassidy Angie King I",
-    "CreatedByAssociateId": 512,
+    "Location": "vero",
+    "AlarmLeadTime": "eius",
+    "SaleId": 384,
+    "SaleName": "Borer Inc and Sons",
+    "AssociateName": "Green Group",
+    "CreatedDate": "2014-11-04T14:45:04.4599779+01:00",
+    "CreatedBy": "occaecati",
+    "CreatedByFullName": "Giovanni Aufderhar",
+    "CreatedByAssociateId": 411,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 333,
-    "Title": "harum",
-    "Agenda": "quas",
-    "InternalNotes": "rem",
+    "PreferredTZLocation": 340,
+    "Title": "alias",
+    "Agenda": "architecto",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

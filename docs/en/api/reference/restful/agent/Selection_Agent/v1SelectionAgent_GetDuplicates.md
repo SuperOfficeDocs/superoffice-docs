@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mueller-Will"
+  "Name": "Oberbrunner, Daniel and Mosciski"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cummings-Kuvalis",
-    "SoPrimaryKey": 136,
-    "EntryName": "Weber Inc and Sons",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Hills-Olson",
+    "RuleName": "Fahey, Pacocha and Yost",
+    "SoPrimaryKey": 62,
+    "EntryName": "Crooks, Hyatt and Hettinger",
+    "EntryIdentifier": "at",
+    "RuleDisplayName": "Heidenreich-Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

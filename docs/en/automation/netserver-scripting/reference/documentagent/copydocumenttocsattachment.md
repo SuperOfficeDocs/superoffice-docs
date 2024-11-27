@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CopyDocumentToCsAttachment
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CopyDocumentToCsAttachment'>CopyDocumentToCsAttachment</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CopyDocumentToCsAttachment'>CopyDocumentToCsAttachment</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCopyDocumentToCsAttachment
 ```cs

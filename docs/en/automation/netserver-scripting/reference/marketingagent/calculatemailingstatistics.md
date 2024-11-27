@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MarketingAgent.CalculateMailingStatistics
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics'>CalculateMailingStatistics</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMarketingAgent.CalculateMailingStatistics'>CalculateMailingStatistics</see> method on the <see cref='IMarketingAgent'>IMarketingAgent</see>  service agent.
 
 ## BeforeCalculateMailingStatistics
 ```cs

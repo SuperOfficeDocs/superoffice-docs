@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 16 Dec 2016 13:14:10 G12T
+Last-Modified: Wed, 19 Dec 2001 14:45:12 G12T
 
 {
-  "BlobId": 163,
-  "BlobSize": 100,
-  "Description": "Digitized context-sensitive analyzer",
-  "ExtraInfo": "pariatur",
+  "BlobId": 583,
+  "BlobSize": 593,
+  "Description": "Sharable foreground open system",
+  "ExtraInfo": "ab",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "illum",
-  "OriginalSize": 920,
-  "CreatedDate": "2001-03-16T13:14:10.9141693+01:00",
-  "UpdatedDate": "2016-12-16T13:14:10.9141693+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 916,
+  "CreatedDate": "2021-07-10T14:45:12.9431644+02:00",
+  "UpdatedDate": "2001-12-19T14:45:12.9431644+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldLength": 884
     }
   }
 }

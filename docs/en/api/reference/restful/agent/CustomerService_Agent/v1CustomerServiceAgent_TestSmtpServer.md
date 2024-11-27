@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "neque",
-  "From": "sed",
+  "SmtpUri": "ea",
+  "From": "non",
   "UseStoredPassword": false
 }
 ```
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "ErrorMessage": "quis",
+  "ErrorMessage": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 48
     }
   }
 }

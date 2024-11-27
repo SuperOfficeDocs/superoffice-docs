@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.GetPersonEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity'>GetPersonEntity</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.GetPersonEntity'>GetPersonEntity</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeGetPersonEntity
 ```cs

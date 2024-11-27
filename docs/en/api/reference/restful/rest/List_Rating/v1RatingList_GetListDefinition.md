@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Hahn Inc and Sons",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 277,
+  "Id": 251,
+  "Name": "Block Group",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 387,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "maiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

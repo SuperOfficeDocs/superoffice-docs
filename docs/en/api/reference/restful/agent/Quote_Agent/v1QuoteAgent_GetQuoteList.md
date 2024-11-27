@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "ut"
+  "QuoteListType": "voluptates"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "saepe",
-    "DisplayValue": "exercitationem",
-    "DisplayDescription": "Fully-configurable upward-trending encoding",
+    "ERPQuoteListItemKey": "iure",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Cross-platform client-driven function",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 664
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "saepe",
-    "DisplayValue": "exercitationem",
-    "DisplayDescription": "Fully-configurable upward-trending encoding",
+    "ERPQuoteListItemKey": "iure",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Cross-platform client-driven function",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldLength": 664
       }
     }
   }

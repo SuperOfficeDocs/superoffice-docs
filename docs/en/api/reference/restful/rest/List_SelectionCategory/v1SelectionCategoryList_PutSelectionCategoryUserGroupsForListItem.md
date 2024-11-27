@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Bashirian, Wisozk and Prohaska",
-    "ToolTip": "Suscipit est alias dolores dolorem.",
-    "Deleted": false,
-    "Rank": 422,
-    "Type": "numquam",
-    "ColorBlock": 503,
-    "IconHint": "eos",
+    "Id": 79,
+    "Name": "Kreiger Group",
+    "ToolTip": "Ipsum doloremque quo voluptatibus.",
+    "Deleted": true,
+    "Rank": 652,
+    "Type": "fugiat",
+    "ColorBlock": 310,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2005-11-07T13:14:11.554833+01:00",
+    "LastChanged": "2016-05-21T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Kris-Welch",
-        "ToolTip": "A saepe debitis.",
+        "Id": 830,
+        "Name": "Brakus-Orn",
+        "ToolTip": "Eum ut voluptas qui quasi totam laboriosam consequuntur.",
         "Deleted": false,
-        "Rank": 38,
-        "Type": "sunt",
-        "ColorBlock": 880,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2013-01-16T13:14:11.554833+01:00",
+        "Rank": 487,
+        "Type": "dolor",
+        "ColorBlock": 69,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2000-10-17T14:45:13.9273199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "est",
+        "ExtraInfo": "enim",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Ms. Shakira Patience Schimmel I"
+        "FullName": "Dr. Carson Bosco"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Kimberly Farrell"
+    "FullName": "Ms. Emiliano Pollich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Champlin-Stoltenberg",
-    "ToolTip": "Vero pariatur.",
-    "Deleted": false,
-    "Rank": 50,
-    "Type": "dolorem",
-    "ColorBlock": 634,
-    "IconHint": "aut",
+    "Id": 367,
+    "Name": "Kessler, Ratke and Gulgowski",
+    "ToolTip": "Ut velit sunt ipsam.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "nobis",
+    "ColorBlock": 270,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-06-05T13:14:11.554833+02:00",
+    "LastChanged": "2001-05-26T14:45:13.9273199+02:00",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Klein, Zieme and Wuckert",
-        "ToolTip": "Officiis rerum hic.",
+        "Id": 524,
+        "Name": "Crona-Wilkinson",
+        "ToolTip": "Ex repellendus et qui et magnam officiis hic.",
         "Deleted": false,
-        "Rank": 731,
-        "Type": "laboriosam",
-        "ColorBlock": 339,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2007-02-18T13:14:11.554833+01:00",
+        "Rank": 668,
+        "Type": "rerum",
+        "ColorBlock": 536,
+        "IconHint": "quidem",
+        "Selected": false,
+        "LastChanged": "2011-05-29T14:45:13.9429422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "est",
+        "ExtraInfo": "facilis",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Rosie Collins",
+        "FullName": "Dr. Malcolm Senger II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Prof. Osbaldo Carlo Rippin I",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Ms. Chance Scot Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 415
       }
     }
   }

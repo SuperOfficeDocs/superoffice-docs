@@ -26,7 +26,7 @@ Gets a TargetGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=290
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=415
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 733,
-  "Year": 922,
+  "TargetGroupId": 74,
+  "Year": 376,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 832,
+      "TargetAssignmentInfoId": 302,
       "Values": [
-        789,
-        521
+        600,
+        725
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 5,
-      "DimensionListItemDisplayName": "Price Group",
+      "DimensionListItem": 784,
+      "DimensionListItemDisplayName": "Murphy LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 990
         }
       }
     }
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

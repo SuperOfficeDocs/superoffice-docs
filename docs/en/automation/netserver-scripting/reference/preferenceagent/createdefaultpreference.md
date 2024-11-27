@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PreferenceAgent.CreateDefaultPreference
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference'>CreateDefaultPreference</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPreferenceAgent.CreateDefaultPreference'>CreateDefaultPreference</see> method on the <see cref='IPreferenceAgent'>IPreferenceAgent</see>  service agent.
 
 ## BeforeCreateDefaultPreference
 ```cs

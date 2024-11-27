@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 541,
-    "Name": "Heidenreich LLC",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 340,
-    "UdListDefinitionId": 621
+    "HeadingId": 630,
+    "Name": "Miller-Nader",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "Rank": 861,
+    "UdListDefinitionId": 976
   },
   {
-    "HeadingId": 541,
-    "Name": "Heidenreich LLC",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 340,
-    "UdListDefinitionId": 621
+    "HeadingId": 630,
+    "Name": "Miller-Nader",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "Rank": 861,
+    "UdListDefinitionId": 976
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 571,
-    "Name": "Lakin Inc and Sons",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 454,
-    "UdListDefinitionId": 616,
+    "HeadingId": 386,
+    "Name": "Gulgowski LLC",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 510,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 451
       }
     }
   }

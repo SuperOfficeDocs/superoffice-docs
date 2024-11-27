@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # NumberAllocationAgent.GetNumberEachTemplate
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate'>GetNumberEachTemplate</see> method on the <see cref='INumberAllocationAgent'>INumberAllocationAgent</see>  service agent.
+Scripting events called on the <see cref='M:INumberAllocationAgent.GetNumberEachTemplate'>GetNumberEachTemplate</see> method on the <see cref='INumberAllocationAgent'>INumberAllocationAgent</see>  service agent.
 
 ## BeforeGetNumberEachTemplate
 ```cs

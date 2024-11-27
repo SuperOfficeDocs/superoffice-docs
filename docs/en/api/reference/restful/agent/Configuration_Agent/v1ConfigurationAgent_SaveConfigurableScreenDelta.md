@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 198,
-  "Name": "Kautzer Inc and Sons",
-  "Description": "User-centric holistic array",
-  "DeltaJson": "natus",
+  "ConfigurableScreenDeltaId": 932,
+  "Name": "Haag-Emard",
+  "Description": "Re-contextualized intermediate database",
+  "DeltaJson": "suscipit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "molestiae",
-  "UpdatedDate": "2023-02-01T13:14:05.6163893+01:00",
-  "CreatedDate": "2015-06-21T13:14:05.6163893+02:00",
+  "RecipeId": "est",
+  "UpdatedDate": "2022-01-03T14:45:05.0221142+01:00",
+  "CreatedDate": "2013-01-21T14:45:05.0221142+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    557,
-    724
+    233,
+    397
   ],
-  "AppliesToKey": "autem"
+  "AppliesToKey": "odio"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 385,
-  "Name": "Sauer-Keebler",
-  "Description": "Vision-oriented demand-driven neural-net",
-  "DeltaJson": "ut",
+  "ConfigurableScreenDeltaId": 752,
+  "Name": "Ruecker, Veum and Reichert",
+  "Description": "Integrated mobile leverage",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "aut",
-  "UpdatedDate": "2016-11-29T13:14:05.6163893+01:00",
-  "CreatedDate": "2011-02-03T13:14:05.6163893+01:00",
+  "RecipeId": "neque",
+  "UpdatedDate": "2014-01-30T14:45:05.0221142+01:00",
+  "CreatedDate": "1998-06-26T14:45:05.0221142+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    12,
-    249
+    960,
+    91
   ],
-  "AppliesToKey": "quae",
+  "AppliesToKey": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldLength": 950
     }
   }
 }

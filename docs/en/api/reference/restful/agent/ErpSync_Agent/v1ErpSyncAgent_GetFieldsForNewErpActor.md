@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 892,
+  "ErpConnectionId": 16,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "praesentium",
-    "Rank": 572,
-    "DisplayName": "Farrell Group",
-    "DisplayDescription": "Intuitive even-keeled complexity",
+    "FieldKey": "et",
+    "Rank": 434,
+    "DisplayName": "Schamberger Inc and Sons",
+    "DisplayDescription": "Fully-configurable local pricing structure",
     "FieldType": "Checkbox",
-    "ListName": "Hoppe, Mohr and Casper",
-    "DefaultValue": "perspiciatis",
-    "MaxLength": 842,
+    "ListName": "Sipes, Nienow and Mertz",
+    "DefaultValue": "unde",
+    "MaxLength": 316,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 314
       }
     }
   }

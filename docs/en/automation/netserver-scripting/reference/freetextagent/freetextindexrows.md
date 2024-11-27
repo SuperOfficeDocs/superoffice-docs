@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.FreetextIndexRows
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows'>FreetextIndexRows</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.FreetextIndexRows'>FreetextIndexRows</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeFreetextIndexRows
 ```cs

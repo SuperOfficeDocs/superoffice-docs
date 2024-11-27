@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 342,
-  "TileId": 364,
-  "Position": 67
+  "DashboardId": 890,
+  "TileId": 679,
+  "Position": 944
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 173,
-  "AssociateId": 745,
-  "Caption": "nobis",
+  "DashboardId": 767,
+  "AssociateId": 457,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 765,
-      "Caption": "hic",
-      "Description": "Fundamental bottom-line analyzer",
-      "ChartName": "Sanford, Bogisich and Stokes",
-      "ChartId": "unde",
-      "IsDefault": false,
-      "AssociateId": 521,
-      "GroupId": 843,
-      "SelectionId": 438,
-      "Config": "reiciendis",
+      "DashboardTileId": 757,
+      "Caption": "quia",
+      "Description": "Advanced dedicated customer loyalty",
+      "ChartName": "Beahan Inc and Sons",
+      "ChartId": "velit",
+      "IsDefault": true,
+      "AssociateId": 559,
+      "GroupId": 823,
+      "SelectionId": 396,
+      "Config": "quisquam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 61
     }
   }
 }

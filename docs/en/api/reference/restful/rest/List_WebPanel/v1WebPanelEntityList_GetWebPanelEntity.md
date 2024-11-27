@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 31,
-  "Name": "Ward, Carroll and Feest",
-  "Tooltip": "provident",
+  "WebPanelId": 225,
+  "Name": "Kshlerin, Kub and Weimann",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 358,
+  "Rank": 268,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Beatty-Abshire",
+  "WindowName": "Schiller Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptas",
-  "Icon": 576,
+  "ProgId": "rem",
+  "Icon": 261,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldType": "System.String",
+      "FieldLength": 169
     }
   }
 }

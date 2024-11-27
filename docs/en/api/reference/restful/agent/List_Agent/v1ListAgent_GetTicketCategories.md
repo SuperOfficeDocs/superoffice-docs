@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 362,
-    "ParentId": 279,
-    "Name": "Macejkovic-O'Reilly",
-    "Fullname": "est",
-    "CategoryMaster": 776,
+    "TicketCategoryId": 179,
+    "ParentId": 177,
+    "Name": "Conn-Rippin",
+    "Fullname": "mollitia",
+    "CategoryMaster": 348,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Harber, Abernathy and Thiel",
+    "ExternalName": "Haag LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 267,
-    "ReplyTemplate": 501,
-    "NotificationEmail": "maxwell@macejkovicmccullough.co.uk",
+    "AssignmentLag": 236,
+    "ReplyTemplate": 423,
+    "NotificationEmail": "colby_harris@hellerstokes.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 198,
+    "EffectiveReplyTemplateId": 330,
     "ExtraFields": {
-      "ExtraFields1": "eveniet",
-      "ExtraFields2": "sapiente"
+      "ExtraFields1": "et",
+      "ExtraFields2": "quo"
     },
     "CustomFields": {
-      "CustomFields1": "sed",
-      "CustomFields2": "consequatur"
+      "CustomFields1": "ut",
+      "CustomFields2": "quia"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldType": "System.String",
+        "FieldLength": 103
       }
     }
   }

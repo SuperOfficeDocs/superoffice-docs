@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ReplicationAgent.SaveSatellite
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite'>SaveSatellite</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
+Scripting events called on the <see cref='M:IReplicationAgent.SaveSatellite'>SaveSatellite</see> method on the <see cref='IReplicationAgent'>IReplicationAgent</see>  service agent.
 
 ## BeforeSaveSatellite
 ```cs

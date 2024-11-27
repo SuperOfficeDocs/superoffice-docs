@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetFunctionalRights
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetFunctionalRights'>GetFunctionalRights</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetFunctionalRights'>GetFunctionalRights</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetFunctionalRights
 ```cs

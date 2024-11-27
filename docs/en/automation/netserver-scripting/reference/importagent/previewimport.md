@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ImportAgent.PreviewImport
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IImportAgent.PreviewImport'>PreviewImport</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
+Scripting events called on the <see cref='M:IImportAgent.PreviewImport'>PreviewImport</see> method on the <see cref='IImportAgent'>IImportAgent</see>  service agent.
 
 ## BeforePreviewImport
 ```cs

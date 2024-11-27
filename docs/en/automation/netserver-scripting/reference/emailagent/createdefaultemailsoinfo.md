@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.CreateDefaultEMailSOInfo
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.CreateDefaultEMailSOInfo'>CreateDefaultEMailSOInfo</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.CreateDefaultEMailSOInfo'>CreateDefaultEMailSOInfo</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeCreateDefaultEMailSOInfo
 ```cs

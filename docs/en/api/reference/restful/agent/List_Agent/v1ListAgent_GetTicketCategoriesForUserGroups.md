@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    61,
-    255
+    117,
+    913
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Franecki, Jenkins and Lebsack",
-    "ToolTip": "Consequatur quia officia aut sunt.",
-    "Deleted": false,
-    "Rank": 801,
-    "Type": "dolore",
+    "Id": 408,
+    "Name": "Koelpin, Strosin and Schmitt",
+    "ToolTip": "Ea voluptate sit possimus soluta ea voluptas.",
+    "Deleted": true,
+    "Rank": 451,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Leuschke-Ferry",
-        "ToolTip": "Quasi rerum laborum ut sed.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "sint",
+        "Id": 210,
+        "Name": "Nader-Goldner",
+        "ToolTip": "Laborum delectus perspiciatis.",
+        "Deleted": true,
+        "Rank": 308,
+        "Type": "assumenda",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 23,
-        "ExtraInfo": "iure",
-        "StyleHint": "quasi",
-        "FullName": "Zack Morissette",
+        "IconHint": "voluptates",
+        "ColorBlock": 77,
+        "ExtraInfo": "nihil",
+        "StyleHint": "maiores",
+        "FullName": "Greyson Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldType": "System.String",
+            "FieldLength": 541
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 453,
-    "ExtraInfo": "et",
-    "StyleHint": "hic",
-    "FullName": "Velda Devin Lindgren Sr.",
+    "IconHint": "ut",
+    "ColorBlock": 414,
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "suscipit",
+    "FullName": "Alex Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 619
       }
     }
   }

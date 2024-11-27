@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Willms, Haag and Casper",
-  "Language": "in"
+  "TemplateName": "Raynor Inc and Sons",
+  "Language": "quos"
 }
 ```
 
@@ -119,156 +119,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 591,
-      "ContactName": "Herman-Kautzer",
-      "PersonId": 59,
-      "PersonName": "Schumm Inc and Sons",
-      "AssociateId": 412,
-      "Address": "eveniet",
-      "EmailId": 281,
+      "ContactId": 422,
+      "ContactName": "Sporer Inc and Sons",
+      "PersonId": 511,
+      "PersonName": "Grady Group",
+      "AssociateId": 436,
+      "Address": "id",
+      "EmailId": 80,
       "DuplicatePersonIds": [
-        504,
-        725
+        179,
+        923
       ],
-      "Name": "Raynor, Roberts and Moen",
+      "Name": "Strosin, Harvey and Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 321
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 790,
-      "ContactName": "Koepp-Hauck",
-      "PersonId": 55,
-      "PersonName": "Wintheiser Inc and Sons",
-      "AssociateId": 441,
-      "Address": "unde",
-      "EmailId": 127,
+      "ContactId": 841,
+      "ContactName": "Spencer, McDermott and Kris",
+      "PersonId": 178,
+      "PersonName": "Kessler Group",
+      "AssociateId": 738,
+      "Address": "sunt",
+      "EmailId": 171,
       "DuplicatePersonIds": [
-        505,
-        202
+        917,
+        46
       ],
-      "Name": "Johns-Veum",
+      "Name": "Witting Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 245
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 814,
-      "ContactName": "Kutch Inc and Sons",
-      "PersonId": 380,
-      "PersonName": "Jakubowski, Renner and Mann",
-      "AssociateId": 817,
-      "Address": "sint",
-      "EmailId": 789,
+      "ContactId": 920,
+      "ContactName": "Rowe LLC",
+      "PersonId": 261,
+      "PersonName": "Corwin, Ritchie and O'Hara",
+      "AssociateId": 748,
+      "Address": "eum",
+      "EmailId": 974,
       "DuplicatePersonIds": [
-        455,
-        979
+        343,
+        655
       ],
-      "Name": "Crona, Kemmer and Morissette",
+      "Name": "Langosh LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 924
         }
       }
     }
   ],
-  "Subject": "quos",
-  "HTMLBody": "quae",
+  "Subject": "eaque",
+  "HTMLBody": "neque",
   "From": null,
-  "Sent": "2000-06-23T13:14:05.4913817+02:00",
-  "Size": 845,
+  "Sent": "2007-02-04T14:45:04.8190371+01:00",
+  "Size": 988,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "tempore",
-  "PlainBody": "sed",
-  "IsSent": false,
+  "MessageID": "perspiciatis",
+  "PlainBody": "quae",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 495,
+  "ServerId": 736,
   "Attachments": [
     {
-      "Description": "Reverse-engineered content-based hierarchy",
-      "Filename": "ipsam",
-      "Size": 357,
-      "Type": "nesciunt",
-      "Encoding": "quia",
-      "Id": "facilis",
-      "Disposition": "nulla",
-      "IsSafeFileExtension": true,
+      "Description": "Monitored even-keeled budgetary management",
+      "Filename": "ut",
+      "Size": 716,
+      "Type": "sequi",
+      "Encoding": "sit",
+      "Id": "quae",
+      "Disposition": "et",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldLength": 353
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Lowe, Bartell and Hamill",
+      "Name": "Yundt-Stiedemann",
       "Values": [
-        "hic",
-        "modi"
+        "velit",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 124
         }
       }
     },
     {
-      "Name": "Lowe, Bartell and Hamill",
+      "Name": "Yundt-Stiedemann",
       "Values": [
-        "hic",
-        "modi"
+        "velit",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 124
         }
       }
     }
   ],
-  "FolderName": "Wunsch, Graham and Bernier",
-  "EmailItemId": 38,
-  "AccountId": 902,
-  "ReceivedAt": "2011-06-15T13:14:05.4913817+02:00",
+  "FolderName": "Pollich, Becker and Skiles",
+  "EmailItemId": 855,
+  "AccountId": 245,
+  "ReceivedAt": "2022-12-16T14:45:04.8190371+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-04-28T13:14:05.4913817+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1998-01-12T14:45:04.8190371+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   }
 }

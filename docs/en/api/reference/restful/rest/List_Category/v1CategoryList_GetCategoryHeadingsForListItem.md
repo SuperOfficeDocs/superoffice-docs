@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Dare-Langworth",
-    "ToolTip": "Cupiditate accusamus.",
-    "Deleted": true,
-    "Rank": 580,
-    "Type": "modi",
-    "ColorBlock": 251,
-    "IconHint": "et",
+    "Id": 348,
+    "Name": "Frami-Champlin",
+    "ToolTip": "Earum facilis iure sunt autem ea.",
+    "Deleted": false,
+    "Rank": 627,
+    "Type": "aperiam",
+    "ColorBlock": 619,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2019-01-12T13:14:11.3360694+01:00",
+    "LastChanged": "2022-07-01T14:45:13.5992714+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "McKenzie, Hoeger and Douglas",
-        "ToolTip": "Laboriosam aliquid dicta adipisci aliquid.",
-        "Deleted": true,
-        "Rank": 686,
+        "Id": 592,
+        "Name": "Hansen Group",
+        "ToolTip": "Ipsam neque non.",
+        "Deleted": false,
+        "Rank": 122,
         "Type": "eveniet",
-        "ColorBlock": 508,
-        "IconHint": "nemo",
+        "ColorBlock": 733,
+        "IconHint": "minima",
         "Selected": true,
-        "LastChanged": "2024-08-19T13:14:11.3360694+02:00",
+        "LastChanged": "2018-06-11T14:45:13.5992714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Mrs. Coby Pollich",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Julius Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 114
+            "FieldLength": 595
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Brandyn Hilpert PhD",
+    "FullName": "Bradley Dach III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 844
       }
     }
   }

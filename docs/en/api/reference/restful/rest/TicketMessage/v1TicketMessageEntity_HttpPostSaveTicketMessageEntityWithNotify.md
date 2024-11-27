@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 335,
+  "EjMessageId": 76,
   "Ticket": null,
-  "CreatedAt": "2012-09-27T13:14:11.1641844+02:00",
+  "CreatedAt": "2007-07-25T14:45:13.3493238+02:00",
   "CreatedBy": null,
-  "Author": "enim",
+  "Author": "commodi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 181,
-  "Body": "dolorum",
-  "HtmlBody": "in",
-  "EmailHeader": "theresia@bartell.name",
-  "DebugInfo": "laboriosam",
-  "MailSorter": "quisquam",
+  "MessageId": "eum",
+  "TimeSpent": 171,
+  "Body": "perspiciatis",
+  "HtmlBody": "doloremque",
+  "EmailHeader": "lacey@mckenzie.com",
+  "DebugInfo": "voluptates",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tempora",
+  "SearchTitle": "nulla",
   "MessageHeaders": [
     {
-      "Id": 800,
-      "Name": "Conn-Halvorson",
-      "Value": "dicta",
+      "Id": 743,
+      "Name": "Stokes Inc and Sons",
+      "Value": "odio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 800,
-      "Name": "Conn-Halvorson",
-      "Value": "dicta",
+      "Id": 743,
+      "Name": "Stokes Inc and Sons",
+      "Value": "odio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 521,
-  "SentimentConfidence": 379,
+  "Important": true,
+  "Language": "quibusdam",
+  "Sentiment": 989,
+  "SentimentConfidence": 858,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 37,
-      "Name": "Robel, Kertzmann and Koss",
-      "ContentType": "nihil",
-      "AttSize": 827,
-      "InlineImage": true,
-      "ContentId": "odio",
-      "AuthKey": "et",
+      "AttachmentId": 704,
+      "Name": "Kunde Inc and Sons",
+      "ContentType": "est",
+      "AttSize": 52,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "autem",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eum"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "laudantium"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 775,
+  "EjMessageId": 163,
   "Ticket": null,
-  "CreatedAt": "1999-03-29T13:14:11.1798105+02:00",
+  "CreatedAt": "2020-10-27T14:45:13.3493238+01:00",
   "CreatedBy": null,
-  "Author": "quidem",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "accusantium",
-  "TimeSpent": 795,
-  "Body": "nesciunt",
-  "HtmlBody": "delectus",
-  "EmailHeader": "damaris.okeefe@rennerwolf.com",
-  "DebugInfo": "quis",
-  "MailSorter": "corrupti",
+  "MessageId": "officiis",
+  "TimeSpent": 582,
+  "Body": "voluptatem",
+  "HtmlBody": "ut",
+  "EmailHeader": "callie@schiller.co.uk",
+  "DebugInfo": "in",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reiciendis",
+  "SearchTitle": "eos",
   "MessageHeaders": [
     {
-      "Id": 581,
-      "Name": "Miller Group",
-      "Value": "delectus",
+      "Id": 788,
+      "Name": "Torphy Inc and Sons",
+      "Value": "voluptatibus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 728
+          "FieldType": "System.Int32",
+          "FieldLength": 924
         }
       }
     }
   ],
   "Important": false,
-  "Language": "libero",
-  "Sentiment": 969,
-  "SentimentConfidence": 842,
+  "Language": "nihil",
+  "Sentiment": 248,
+  "SentimentConfidence": 837,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
       "AttachmentId": 297,
-      "Name": "Effertz, Hane and Runte",
-      "ContentType": "explicabo",
-      "AttSize": 447,
+      "Name": "Waelchi-Crona",
+      "ContentType": "dolore",
+      "AttSize": 778,
       "InlineImage": false,
-      "ContentId": "corrupti",
-      "AuthKey": "sint",
-      "IsSafeFileExtension": false,
+      "ContentId": "dolorem",
+      "AuthKey": "provident",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 884
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "et",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "itaque"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

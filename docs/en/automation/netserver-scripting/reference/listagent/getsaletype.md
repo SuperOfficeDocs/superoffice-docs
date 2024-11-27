@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetSaleType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetSaleType'>GetSaleType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetSaleType'>GetSaleType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetSaleType
 ```cs

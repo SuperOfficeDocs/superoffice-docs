@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.ValidateContactEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity'>ValidateContactEntity</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.ValidateContactEntity'>ValidateContactEntity</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeValidateContactEntity
 ```cs

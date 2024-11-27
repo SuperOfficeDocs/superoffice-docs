@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hickle Group",
-    "Id": 605,
-    "Description": "Diverse bi-directional service-desk",
-    "ExtraInfo": "aut",
-    "LinkId": 47,
+    "EntityName": "Cormier Group",
+    "Id": 441,
+    "Description": "Ergonomic demand-driven pricing structure",
+    "ExtraInfo": "sapiente",
+    "LinkId": 273,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 217
       }
     }
   }

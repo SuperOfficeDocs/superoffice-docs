@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "provident",
-    "nemo"
+    "aspernatur",
+    "aperiam"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "possimus",
+  "ad",
   "non"
 ]
 ```

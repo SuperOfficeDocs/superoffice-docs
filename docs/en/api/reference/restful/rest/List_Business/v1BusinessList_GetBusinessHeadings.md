@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 837,
-    "Name": "Konopelski, Waters and Jerde",
-    "Tooltip": "soluta",
+    "HeadingId": 115,
+    "Name": "Durgan LLC",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 580,
-    "UdListDefinitionId": 847,
+    "Rank": 728,
+    "UdListDefinitionId": 778,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 455
       }
     }
   }

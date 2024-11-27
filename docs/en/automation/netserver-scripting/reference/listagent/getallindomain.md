@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetAllInDomain
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetAllInDomain'>GetAllInDomain</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetAllInDomain'>GetAllInDomain</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetAllInDomain
 ```cs

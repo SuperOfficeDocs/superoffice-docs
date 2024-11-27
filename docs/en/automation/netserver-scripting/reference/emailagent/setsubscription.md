@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.SetSubscription
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.SetSubscription'>SetSubscription</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.SetSubscription'>SetSubscription</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeSetSubscription
 ```cs

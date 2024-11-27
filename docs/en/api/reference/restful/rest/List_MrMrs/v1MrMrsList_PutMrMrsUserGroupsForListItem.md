@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Gerlach, McDermott and Daugherty",
-    "ToolTip": "Tempore deserunt ex.",
+    "Id": 93,
+    "Name": "Conroy Group",
+    "ToolTip": "Culpa aliquid est eum recusandae.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "ea",
-    "ColorBlock": 691,
-    "IconHint": "consequatur",
+    "Rank": 59,
+    "Type": "et",
+    "ColorBlock": 827,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2005-12-24T13:14:11.4141989+01:00",
+    "LastChanged": "2013-01-17T14:45:13.7242429+01:00",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Leffler Inc and Sons",
-        "ToolTip": "Quaerat voluptas adipisci amet fugit et.",
+        "Id": 130,
+        "Name": "Goyette-Ryan",
+        "ToolTip": "Vel qui quia sapiente et minima maxime.",
         "Deleted": false,
-        "Rank": 923,
-        "Type": "asperiores",
-        "ColorBlock": 137,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2015-10-24T13:14:11.4141989+02:00",
+        "Rank": 285,
+        "Type": "quae",
+        "ColorBlock": 978,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2007-09-27T14:45:13.7242429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Prof. Brendan Constance O'Reilly PhD"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Dr. Grayce Friesen"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Kallie Keeling"
+    "FullName": "Mrs. Verla Carleton Mayer I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Jones-Stark",
-    "ToolTip": "Incidunt minus.",
+    "Id": 885,
+    "Name": "Tillman, Nikolaus and Grant",
+    "ToolTip": "Enim dolor dicta.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "praesentium",
-    "ColorBlock": 131,
-    "IconHint": "nesciunt",
+    "Rank": 973,
+    "Type": "inventore",
+    "ColorBlock": 720,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2014-10-28T13:14:11.4141989+01:00",
+    "LastChanged": "2004-08-30T14:45:13.7242429+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Kozey, Carter and Ullrich",
-        "ToolTip": "Corporis dolorem consequatur qui tenetur molestias cupiditate cum.",
+        "Id": 49,
+        "Name": "Heller LLC",
+        "ToolTip": "Optio vitae et commodi.",
         "Deleted": true,
-        "Rank": 123,
-        "Type": "aspernatur",
-        "ColorBlock": 265,
-        "IconHint": "nemo",
-        "Selected": true,
-        "LastChanged": "2010-06-13T13:14:11.4141989+02:00",
+        "Rank": 102,
+        "Type": "fugiat",
+        "ColorBlock": 392,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2024-11-01T14:45:13.7242429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "odit",
+        "ExtraInfo": "non",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Jada Zboncak",
+        "FullName": "Celine Shanahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 209
+            "FieldType": "System.String",
+            "FieldLength": 503
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "rerum",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mrs. Jake Braun Jr.",
+    "FullName": "Jedediah Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

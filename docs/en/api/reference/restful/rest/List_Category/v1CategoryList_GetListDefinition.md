@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744,
-  "Name": "Daniel Inc and Sons",
-  "Tooltip": "numquam",
+  "Id": 107,
+  "Name": "Leuschke, Russel and Fadel",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 269,
+  "Rank": 67,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolores",
+  "ListType": "quos",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 229
     }
   },
   "_Links": {

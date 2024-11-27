@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 635,
-  "Name": "Vandervort, Nicolas and Wintheiser",
-  "Tooltip": "ut",
-  "Rank": 166,
-  "Key": "eos",
+  "LegalBaseId": 520,
+  "Name": "Lueilwitz Inc and Sons",
+  "Tooltip": "non",
+  "Rank": 86,
+  "Key": "ipsum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 691
     }
   }
 }

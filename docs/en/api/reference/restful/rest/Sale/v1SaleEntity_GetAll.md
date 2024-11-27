@@ -70,9 +70,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=non
-GET /api/v1/Sale?$top=427
-GET /api/v1/Sale?$skip=615
+GET /api/v1/Sale?$entities=iste
+GET /api/v1/Sale?$top=289
+GET /api/v1/Sale?$skip=992
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
 GET /api/v1/Sale?$context=accusantium
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nulla",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 3038,
+      "PrimaryKey": 8904,
       "EntityName": "person",
-      "personId": 3038,
-      "fullName": "Casandra Hackett"
+      "personId": 8904,
+      "fullName": "Jillian Bosco"
     },
     {
-      "PrimaryKey": 7102,
+      "PrimaryKey": 447,
       "EntityName": "person",
-      "personId": 7102,
-      "fullName": "Dr. Susie Jefferey Hauck"
+      "personId": 447,
+      "fullName": "Delilah Kunde"
     }
   ]
 }

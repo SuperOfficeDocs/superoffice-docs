@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # EMailAgent.MoveToFolder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IEMailAgent.MoveToFolder'>MoveToFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
+Scripting events called on the <see cref='M:IEMailAgent.MoveToFolder'>MoveToFolder</see> method on the <see cref='IEMailAgent'>IEMailAgent</see>  service agent.
 
 ## BeforeMoveToFolder
 ```cs

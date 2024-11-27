@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schuster-Abernathy",
-    "Description": "Pre-emptive static migration",
-    "Rank": 685,
+    "Name": "Predovic-Durgan",
+    "Description": "Innovative non-volatile hierarchy",
+    "Rank": 594,
     "Restrictions": [
       {
-        "Name": "Leannon Inc and Sons",
-        "Operator": "veniam",
+        "Name": "Bode, Hyatt and Turcotte",
+        "Operator": "officiis",
         "Values": [
-          "dolor",
-          "fugiat"
+          "asperiores",
+          "laboriosam"
         ],
         "DisplayValues": [
-          "aliquam",
-          "laborum"
+          "ea",
+          "eveniet"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 696,
+        "InterParenthesis": 8,
         "InterOperator": "And",
-        "UniqueHash": 788
+        "UniqueHash": 768
       }
     ]
   },
   {
-    "Name": "Schuster-Abernathy",
-    "Description": "Pre-emptive static migration",
-    "Rank": 685,
+    "Name": "Predovic-Durgan",
+    "Description": "Innovative non-volatile hierarchy",
+    "Rank": 594,
     "Restrictions": [
       {
-        "Name": "Leannon Inc and Sons",
-        "Operator": "veniam",
+        "Name": "Bode, Hyatt and Turcotte",
+        "Operator": "officiis",
         "Values": [
-          "dolor",
-          "fugiat"
+          "asperiores",
+          "laboriosam"
         ],
         "DisplayValues": [
-          "aliquam",
-          "laborum"
+          "ea",
+          "eveniet"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 696,
+        "InterParenthesis": 8,
         "InterOperator": "And",
-        "UniqueHash": 788
+        "UniqueHash": 768
       }
     ]
   }

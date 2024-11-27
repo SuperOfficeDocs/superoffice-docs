@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "O'Keefe-Wolf",
-  "AssociateId": 80,
-  "DetailsTable": 326,
-  "DetailsRecord": 546,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 735,
+  "Name": "Stanton-Wilkinson",
+  "AssociateId": 160,
+  "DetailsTable": 847,
+  "DetailsRecord": 782,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "officia",
-    "ParameterObject2": "laudantium"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "eveniet"
   },
-  "LastStarted": "2002-12-13T13:14:11.1954363+01:00",
-  "Created": "2022-01-28T13:14:11.1954363+01:00",
-  "StartCount": 87,
-  "DatabaseSerialNumber": "170112",
-  "Context": "cupiditate",
-  "Result": "repellendus",
+  "LastStarted": "2016-05-25T14:45:13.3961895+02:00",
+  "Created": "2004-05-14T14:45:13.3961895+02:00",
+  "StartCount": 778,
+  "DatabaseSerialNumber": "1039981",
+  "Context": "corrupti",
+  "Result": "natus",
   "State": "All",
-  "Description": "Self-enabling uniform focus group",
-  "Response": "veniam",
-  "Request": "minus",
-  "ProgressDescription": "Fundamental 5th generation neural-net",
-  "ProgressPercent": 22,
-  "FileName": "Yundt-Gorczany",
+  "Description": "Implemented 4th generation algorithm",
+  "Response": "amet",
+  "Request": "maxime",
+  "ProgressDescription": "Advanced transitional standardization",
+  "ProgressPercent": 474,
+  "FileName": "McLaughlin Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-199
+128
 ```

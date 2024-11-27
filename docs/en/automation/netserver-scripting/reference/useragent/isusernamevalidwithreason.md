@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.IsUserNameValidWithReason
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.IsUserNameValidWithReason'>IsUserNameValidWithReason</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.IsUserNameValidWithReason'>IsUserNameValidWithReason</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeIsUserNameValidWithReason
 ```cs

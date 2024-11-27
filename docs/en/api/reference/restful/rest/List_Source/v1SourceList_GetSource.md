@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 243,
-  "Name": "Franecki, Effertz and Rohan",
-  "Tooltip": "quia",
+  "Id": 983,
+  "Name": "Senger, Bergnaum and Leuschke",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "UdListDefinitionId": 330,
-  "Rank": 379,
+  "UdListDefinitionId": 76,
+  "Rank": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 385
     }
   }
 }

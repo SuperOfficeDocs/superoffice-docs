@@ -101,38 +101,38 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 13,
-  "Name": "Strosin-Doyle",
-  "Rank": 232,
-  "Tooltip": "dolorum",
-  "Icon": "accusantium",
-  "DefaultTicketStatus": 148,
+  "TicketTypeId": 733,
+  "Name": "Torphy-Dickinson",
+  "Rank": 295,
+  "Tooltip": "iste",
+  "Icon": "a",
+  "DefaultTicketStatus": 407,
   "TicketStatuses": [
-    963,
-    881
+    549,
+    147
   ],
-  "DefaultTicketPriority": 57,
+  "DefaultTicketPriority": 332,
   "TicketPriorities": [
-    236,
-    921
+    96,
+    202
   ],
-  "ReplyTemplate": 438,
+  "ReplyTemplate": 760,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    397,
-    790
+    333,
+    166
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 590,
-  "Name": "Lynch, Johns and Lesch",
-  "Rank": 660,
-  "Tooltip": "quaerat",
-  "Icon": "voluptates",
-  "DefaultTicketStatus": 246,
+  "TicketTypeId": 836,
+  "Name": "Mitchell, Predovic and Conn",
+  "Rank": 407,
+  "Tooltip": "blanditiis",
+  "Icon": "maiores",
+  "DefaultTicketStatus": 911,
   "TicketStatuses": [
-    48,
-    396
+    458,
+    346
   ],
-  "DefaultTicketPriority": 78,
+  "DefaultTicketPriority": 92,
   "TicketPriorities": [
-    241,
-    930
+    643,
+    114
   ],
-  "ReplyTemplate": 934,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 594,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    92,
-    836
+    974,
+    156
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 304
     }
   }
 }

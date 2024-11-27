@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ArchiveAgent.GetProviderNames
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames'>GetProviderNames</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
+Scripting events called on the <see cref='M:IArchiveAgent.GetProviderNames'>GetProviderNames</see> method on the <see cref='IArchiveAgent'>IArchiveAgent</see>  service agent.
 
 ## BeforeGetProviderNames
 ```cs

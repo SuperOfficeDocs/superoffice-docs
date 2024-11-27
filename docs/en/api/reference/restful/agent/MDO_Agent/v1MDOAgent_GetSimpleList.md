@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gerlach LLC"
+  "Name": "Runolfsson Inc and Sons"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Mueller LLC",
-    "ToolTip": "Ut rem enim.",
-    "Deleted": false,
-    "Rank": 137,
-    "Type": "facere",
+    "Id": 649,
+    "Name": "Harber, Ward and Grant",
+    "ToolTip": "Necessitatibus temporibus sit corrupti.",
+    "Deleted": true,
+    "Rank": 718,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 489,
-        "Name": "Kuhn, Mertz and Weissnat",
-        "ToolTip": "Corporis recusandae quis quo non.",
+        "Id": 936,
+        "Name": "Barton Group",
+        "ToolTip": "Expedita quae eos aut doloribus doloremque ut.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "libero",
+        "Rank": 71,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 866,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "ullam",
-        "FullName": "Angelo Hauck",
+        "IconHint": "aliquam",
+        "ColorBlock": 373,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "voluptatum",
+        "FullName": "Lafayette Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldLength": 435
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 937,
-    "ExtraInfo": "non",
+    "IconHint": "placeat",
+    "ColorBlock": 824,
+    "ExtraInfo": "qui",
     "StyleHint": "aut",
-    "FullName": "Prof. Bo Prosacco",
+    "FullName": "Colin Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

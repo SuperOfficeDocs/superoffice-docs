@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Towne, Conn and Russel",
-  "DeviceName": "Bailey LLC",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Sporer, Schinner and Sanford",
+  "DeviceName": "Predovic-Toy",
+  "DeviceIdentifier": "dolores"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "magni",
-  "RecordId": 31,
-  "CreatedDate": "2011-09-15T13:14:06.0382898+02:00",
-  "UpdatedDate": "1998-08-30T13:14:06.0382898+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "necessitatibus",
-  "TableName": "Stracke, Cole and Bauch",
+  "Key": "voluptatem",
+  "Value": "temporibus",
+  "RecordId": 426,
+  "CreatedDate": "2016-10-22T14:45:05.6469762+02:00",
+  "UpdatedDate": "2020-09-15T14:45:05.6469762+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "ea",
+  "TableName": "Osinski-Jakubowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 300
     }
   }
 }

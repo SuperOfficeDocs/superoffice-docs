@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ConnectActor
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor'>ConnectActor</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ConnectActor'>ConnectActor</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeConnectActor
 ```cs

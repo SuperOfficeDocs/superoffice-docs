@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 489,
-  "ColumnId": 216,
-  "FieldDefault": "quis",
-  "FieldHeight": 548,
-  "FieldLabel": "quis",
-  "FieldLeft": 99,
-  "FieldTop": 310,
+  "UDefFieldId": 76,
+  "ColumnId": 289,
+  "FieldDefault": "qui",
+  "FieldHeight": 991,
+  "FieldLabel": "harum",
+  "FieldLeft": 955,
+  "FieldTop": 968,
   "FieldType": "Checkbox",
-  "FieldWidth": 465,
-  "FormatMask": "eius",
+  "FieldWidth": 351,
+  "FormatMask": "iusto",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 867,
-  "LabelLeft": 54,
-  "LabelTop": 631,
-  "LabelWidth": 451,
-  "LastVersionId": 86,
-  "ListTableId": 428,
+  "LabelHeight": 285,
+  "LabelLeft": 876,
+  "LabelTop": 332,
+  "LabelWidth": 956,
+  "LastVersionId": 558,
+  "ListTableId": 584,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 20,
-  "ProgId": "eius",
+  "Page1LineNo": 904,
+  "ProgId": "velit",
   "IsReadOnly": true,
-  "ShortLabel": "suscipit",
-  "TabOrder": 550,
-  "TextLength": 878,
-  "Tooltip": "quis",
-  "UdefIdentity": 915,
-  "UDListDefinitionId": 517,
+  "ShortLabel": "dolor",
+  "TabOrder": 633,
+  "TextLength": 690,
+  "Tooltip": "consequuntur",
+  "UdefIdentity": 88,
+  "UDListDefinitionId": 707,
   "Justification": "Center",
-  "Version": 69,
-  "TemplateVariableName": "Metz Inc and Sons",
+  "Version": 555,
+  "TemplateVariableName": "Cormier-Harvey",
   "HasBeenPublished": false,
-  "MdoListName": "Harvey-Gorczany",
+  "MdoListName": "Kovacek-Goldner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

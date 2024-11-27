@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "soluta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "soluta",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 849,
-  "ContactId": 597,
-  "ProjectId": 341,
-  "ContactName": "Stamm-Yost",
+  "ProjectmemberId": 91,
+  "ContactId": 863,
+  "ProjectId": 153,
+  "ContactName": "Mertz Group",
   "ContactDepartment": "",
-  "ProjectName": "Kilback-Hand",
-  "EmailId": 657,
-  "EmailAddress": "filomena@jewess.uk",
-  "CountryId": 297,
-  "Firstname": "Trisha",
-  "MiddleName": "Hodkiewicz-Heidenreich",
-  "Lastname": "Kuvalis",
-  "PersonId": 13,
-  "Mrmrs": "ipsam",
-  "ProjectMemberTypeName": "Crooks, Volkman and Homenick",
-  "Phone": "1-485-862-3132 x814",
-  "PhoneId": 883,
-  "ProjectMemberTypeId": 700,
-  "EmailAddressName": "lupe_kuphal@brekke.info",
-  "Comment": "et",
-  "FullName": "Maude Torp",
+  "ProjectName": "Robel, Hodkiewicz and Gleason",
+  "EmailId": 327,
+  "EmailAddress": "maegan.quitzon@cummings.uk",
+  "CountryId": 933,
+  "Firstname": "Daniela",
+  "MiddleName": "Mills Inc and Sons",
+  "Lastname": "Koepp",
+  "PersonId": 516,
+  "Mrmrs": "culpa",
+  "ProjectMemberTypeName": "Ebert-Klocko",
+  "Phone": "1-990-946-7163 x305",
+  "PhoneId": 6,
+  "ProjectMemberTypeId": 53,
+  "EmailAddressName": "charles_bradtke@fritschdietrich.info",
+  "Comment": "itaque",
+  "FullName": "Ferne Vandervort II",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   },
   "_Links": {

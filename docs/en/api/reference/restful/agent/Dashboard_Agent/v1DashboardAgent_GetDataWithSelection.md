@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 208,
-  "SelectionId": 15,
-  "Restrictions": "dolorem"
+  "DashboardTileId": 240,
+  "SelectionId": 489,
+  "Restrictions": "accusantium"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Crist-Swaniawski",
-        "DisplayTooltip": "voluptates",
-        "DisplayType": "fugit",
+        "DisplayName": "D'Amore, Barrows and Hammes",
+        "DisplayTooltip": "tenetur",
+        "DisplayType": "repellendus",
         "CanOrderBy": false,
-        "Name": "Streich LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "autem",
-        "RestrictionListName": "Conroy Group",
-        "IsVisible": true,
-        "ExtraInfo": "ut",
-        "Width": "et",
-        "IconHint": "quis",
-        "HeadingIconHint": "quam"
+        "Name": "O'Connell-Treutel",
+        "CanRestrictBy": false,
+        "RestrictionType": "ducimus",
+        "RestrictionListName": "Macejkovic, Quigley and Waelchi",
+        "IsVisible": false,
+        "ExtraInfo": "quis",
+        "Width": "ut",
+        "IconHint": "nesciunt",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Crist-Swaniawski",
-        "DisplayTooltip": "voluptates",
-        "DisplayType": "fugit",
+        "DisplayName": "D'Amore, Barrows and Hammes",
+        "DisplayTooltip": "tenetur",
+        "DisplayType": "repellendus",
         "CanOrderBy": false,
-        "Name": "Streich LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "autem",
-        "RestrictionListName": "Conroy Group",
-        "IsVisible": true,
-        "ExtraInfo": "ut",
-        "Width": "et",
-        "IconHint": "quis",
-        "HeadingIconHint": "quam"
+        "Name": "O'Connell-Treutel",
+        "CanRestrictBy": false,
+        "RestrictionType": "ducimus",
+        "RestrictionListName": "Macejkovic, Quigley and Waelchi",
+        "IsVisible": false,
+        "ExtraInfo": "quis",
+        "Width": "ut",
+        "IconHint": "nesciunt",
+        "HeadingIconHint": "est"
       }
     ],
     "Result": null

@@ -98,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "necessitatibus",
-  "PersonId": 40,
-  "AssociateId": 697,
-  "ExtraId": 275,
-  "ExtraInfo": "ut",
-  "Height": 937,
-  "LeftX": 304,
+  "OwnerWindow": "qui",
+  "PersonId": 649,
+  "AssociateId": 649,
+  "ExtraId": 406,
+  "ExtraInfo": "atque",
+  "Height": 921,
+  "LeftX": 978,
   "State": "Maximized",
-  "UpperY": 156,
-  "Width": 921,
-  "WindowPosSizeId": 221,
+  "UpperY": 395,
+  "Width": 971,
+  "WindowPosSizeId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

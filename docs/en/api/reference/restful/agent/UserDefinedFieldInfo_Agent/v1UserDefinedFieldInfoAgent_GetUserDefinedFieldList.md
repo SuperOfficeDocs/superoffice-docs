@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 909,
-    "ColumnId": 60,
-    "FieldDefault": "beatae",
-    "FieldHeight": 5,
-    "FieldLabel": "ratione",
-    "FieldLeft": 513,
-    "FieldTop": 849,
+    "UDefFieldId": 487,
+    "ColumnId": 983,
+    "FieldDefault": "iste",
+    "FieldHeight": 87,
+    "FieldLabel": "consequuntur",
+    "FieldLeft": 461,
+    "FieldTop": 837,
     "FieldType": "Checkbox",
-    "FieldWidth": 97,
-    "FormatMask": "aut",
+    "FieldWidth": 759,
+    "FormatMask": "incidunt",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 200,
-    "LabelLeft": 522,
-    "LabelTop": 434,
-    "LabelWidth": 605,
-    "LastVersionId": 168,
-    "ListTableId": 932,
-    "IsMandatory": true,
+    "LabelHeight": 12,
+    "LabelLeft": 159,
+    "LabelTop": 408,
+    "LabelWidth": 971,
+    "LastVersionId": 512,
+    "ListTableId": 153,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 436,
-    "ProgId": "voluptate",
+    "Page1LineNo": 367,
+    "ProgId": "soluta",
     "IsReadOnly": false,
-    "ShortLabel": "ipsam",
-    "TabOrder": 373,
-    "TextLength": 30,
-    "Tooltip": "sed",
-    "UdefIdentity": 752,
-    "UDListDefinitionId": 797,
+    "ShortLabel": "consequuntur",
+    "TabOrder": 259,
+    "TextLength": 68,
+    "Tooltip": "voluptate",
+    "UdefIdentity": 845,
+    "UDListDefinitionId": 729,
     "Justification": "Center",
-    "Version": 45,
-    "TemplateVariableName": "Wilkinson-Tillman",
+    "Version": 64,
+    "TemplateVariableName": "Ward-Reilly",
     "HasBeenPublished": false,
-    "MdoListName": "Effertz, Harber and Buckridge",
+    "MdoListName": "Miller, Lebsack and Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   }

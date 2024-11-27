@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 622,
-    "Name": "Graham Inc and Sons",
-    "Tooltip": "dolore",
+    "WebPanelId": 621,
+    "Name": "Hoeger, Stokes and Marvin",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 53,
+    "Rank": 978,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Hirthe, Skiles and Donnelly",
+    "WindowName": "Ritchie, Pfannerstill and Jenkins",
     "Url": "http://www.example.com/",
-    "ProgId": "quo",
-    "Icon": 747,
+    "ProgId": "culpa",
+    "Icon": 245,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldLength": 187
       }
     }
   }

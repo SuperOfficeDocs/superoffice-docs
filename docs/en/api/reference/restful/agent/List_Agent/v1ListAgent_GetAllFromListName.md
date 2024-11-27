@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hickle Group",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Ebert-Kohler",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Parisian, Toy and Dare",
-    "Tooltip": "natus",
+    "Id": 762,
+    "Name": "Stracke, Steuber and McClure",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "UdListDefinitionId": 155,
-    "Rank": 838,
+    "UdListDefinitionId": 803,
+    "Rank": 1001,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 329
       }
     }
   }

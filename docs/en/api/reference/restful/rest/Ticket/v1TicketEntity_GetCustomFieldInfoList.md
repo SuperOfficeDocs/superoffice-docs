@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cassin LLC",
-    "DisplayName": "Stark, Welch and Hahn",
-    "Description": "Managed mission-critical budgetary management",
-    "ShortLabel": "ipsam",
+    "FieldName": "O'Kon Group",
+    "DisplayName": "Welch-Jast",
+    "Description": "Integrated dedicated installation",
+    "ShortLabel": "exercitationem",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 239,
-    "TemplateVariableName": "Spencer Group"
+    "Rank": 963,
+    "TemplateVariableName": "Hauck, Mohr and Kovacek"
   }
 ]
 ```

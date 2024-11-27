@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Ferry-Baumbach",
-    "ToolTip": "Ratione id nisi repudiandae perspiciatis quas quae.",
-    "Deleted": true,
-    "Rank": 199,
-    "Type": "repellat",
-    "ColorBlock": 417,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2005-12-08T13:14:11.4454508+01:00",
+    "Id": 179,
+    "Name": "Sawayn, O'Reilly and Robel",
+    "ToolTip": "Iste deserunt ipsam animi.",
+    "Deleted": false,
+    "Rank": 157,
+    "Type": "nam",
+    "ColorBlock": 522,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2013-12-30T14:45:13.7711051+01:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Schowalter-Hilll",
-        "ToolTip": "Reprehenderit ea ipsa omnis eum et.",
-        "Deleted": false,
-        "Rank": 464,
-        "Type": "quia",
-        "ColorBlock": 940,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "2024-03-22T13:14:11.4454508+01:00",
+        "Id": 120,
+        "Name": "Zboncak Inc and Sons",
+        "ToolTip": "Dolore qui minima.",
+        "Deleted": true,
+        "Rank": 566,
+        "Type": "veniam",
+        "ColorBlock": 527,
+        "IconHint": "odio",
+        "Selected": false,
+        "LastChanged": "2004-11-29T14:45:13.7711051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "modi",
+        "StyleHint": "animi",
         "Hidden": true,
-        "FullName": "Deven Lehner DDS",
+        "FullName": "Ms. Jordy Zboncak II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "veniam",
+    "ExtraInfo": "nam",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Cierra Kerluke",
+    "FullName": "Ronaldo Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

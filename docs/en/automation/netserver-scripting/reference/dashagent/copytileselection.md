@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.CopyTileSelection
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.CopyTileSelection'>CopyTileSelection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.CopyTileSelection'>CopyTileSelection</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeCopyTileSelection
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PartnerAgent.GetMyWebPanels
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels'>GetMyWebPanels</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPartnerAgent.GetMyWebPanels'>GetMyWebPanels</see> method on the <see cref='IPartnerAgent'>IPartnerAgent</see>  service agent.
 
 ## BeforeGetMyWebPanels
 ```cs

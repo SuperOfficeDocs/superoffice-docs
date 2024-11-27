@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.SetDuplicateRulesStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus'>SetDuplicateRulesStatus</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.SetDuplicateRulesStatus'>SetDuplicateRulesStatus</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeSetDuplicateRulesStatus
 ```cs

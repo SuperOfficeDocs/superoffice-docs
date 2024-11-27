@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 129
+  "QuoteAlternativeId": 642
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 904,
-    "ERPQuoteLineKey": "cumque",
-    "QuoteAlternativeId": 527,
-    "ERPProductKey": "recusandae",
+    "QuoteLineId": 973,
+    "ERPQuoteLineKey": "qui",
+    "QuoteAlternativeId": 820,
+    "ERPProductKey": "provident",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 9840.76,
-    "DeliveredQuantity": 26726.752,
-    "Rank": 8,
-    "Name": "Glover Group",
-    "Description": "Innovative logistical capability",
-    "Code": "praesentium",
-    "QuantityUnit": "possimus",
-    "PriceUnit": "voluptatem",
-    "ItemNumber": "1751752",
+    "Quantity": 17628.75,
+    "DeliveredQuantity": 3074.4539999999997,
+    "Rank": 345,
+    "Name": "Hirthe, Crist and Hyatt",
+    "Description": "Operative reciprocal pricing structure",
+    "Code": "sint",
+    "QuantityUnit": "fugit",
+    "PriceUnit": "et",
+    "ItemNumber": "720884",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "vel",
-    "ProductTypeKey": "magni",
-    "Supplier": "totam",
-    "SupplierCode": "culpa",
-    "Thumbnail": "architecto",
-    "VATInfo": "dolorem",
-    "VAT": 10320.261999999999,
-    "UnitCost": 15616.722,
-    "UnitMinimumPrice": 22069.628,
-    "UnitListPrice": 13523.21,
+    "ProductFamilyKey": "et",
+    "ProductTypeKey": "nesciunt",
+    "Supplier": "est",
+    "SupplierCode": "sint",
+    "Thumbnail": "et",
+    "VATInfo": "et",
+    "VAT": 26385.146,
+    "UnitCost": 19299.172,
+    "UnitMinimumPrice": 620.53199999999993,
+    "UnitListPrice": 2008.894,
     "ExtraInfo": [
       {
-        "Name": "Kuhic-Padberg",
-        "Value": "inventore",
+        "Name": "Marquardt, Maggio and Farrell",
+        "Value": "nisi",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 986
           }
         }
       },
       {
-        "Name": "Kuhic-Padberg",
-        "Value": "inventore",
+        "Name": "Marquardt, Maggio and Farrell",
+        "Value": "nisi",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 986
           }
         }
       }
     ],
-    "RawExtraInfo": "cumque",
+    "RawExtraInfo": "ut",
     "IsSubscription": false,
-    "SubscriptionUnit": "numquam",
-    "SubscriptionQuantity": 22220.059999999998,
-    "SubscriptionStart": "2002-09-28T13:14:06.3351823+02:00",
-    "ERPDiscountPercent": 18766.392,
-    "ERPDiscountAmount": 21026.005999999998,
-    "DiscountPercent": 2576.148,
-    "DiscountAmount": 21442.827999999998,
+    "SubscriptionUnit": "similique",
+    "SubscriptionQuantity": 15801.627999999999,
+    "SubscriptionStart": "2015-08-11T14:45:06.0999998+02:00",
+    "ERPDiscountPercent": 16093.09,
+    "ERPDiscountAmount": 26798.834,
+    "DiscountPercent": 15494.496,
+    "DiscountAmount": 12727.173999999999,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 18500.002,
-    "EarningAmount": 175.504,
-    "SubTotal": 23392.176,
-    "TotalPrice": 10144.758,
-    "Rights": "molestiae",
-    "Rule": "placeat",
-    "ExtraField1": "magni",
-    "ExtraField2": "autem",
-    "ExtraField3": "et",
-    "ExtraField4": "suscipit",
-    "ExtraField5": "architecto",
+    "EarningPercent": 17976.624,
+    "EarningAmount": 10611.724,
+    "SubTotal": 22777.912,
+    "TotalPrice": 17663.224,
+    "Rights": "sed",
+    "Rule": "reiciendis",
+    "ExtraField1": "molestiae",
+    "ExtraField2": "deleniti",
+    "ExtraField3": "repellat",
+    "ExtraField4": "corrupti",
+    "ExtraField5": "tempora",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 412
       }
     }
   }

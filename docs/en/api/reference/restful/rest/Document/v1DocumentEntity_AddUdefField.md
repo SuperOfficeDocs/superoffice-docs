@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 184,
-  "ColumnId": 478,
-  "FieldDefault": "natus",
-  "FieldHeight": 486,
-  "FieldLabel": "ut",
-  "FieldLeft": 333,
-  "FieldTop": 768,
+  "UDefFieldId": 969,
+  "ColumnId": 972,
+  "FieldDefault": "sunt",
+  "FieldHeight": 9,
+  "FieldLabel": "quis",
+  "FieldLeft": 884,
+  "FieldTop": 811,
   "FieldType": "Checkbox",
-  "FieldWidth": 866,
-  "FormatMask": "et",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 241,
-  "LabelLeft": 985,
-  "LabelTop": 989,
-  "LabelWidth": 455,
-  "LastVersionId": 685,
-  "ListTableId": 399,
+  "FieldWidth": 265,
+  "FormatMask": "quis",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 721,
+  "LabelLeft": 613,
+  "LabelTop": 552,
+  "LabelWidth": 62,
+  "LastVersionId": 271,
+  "ListTableId": 644,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 226,
-  "ProgId": "qui",
+  "Page1LineNo": 621,
+  "ProgId": "quia",
   "IsReadOnly": false,
-  "ShortLabel": "veritatis",
-  "TabOrder": 81,
-  "TextLength": 601,
-  "Tooltip": "odio",
-  "UdefIdentity": 586,
-  "UDListDefinitionId": 972,
+  "ShortLabel": "hic",
+  "TabOrder": 569,
+  "TextLength": 151,
+  "Tooltip": "aut",
+  "UdefIdentity": 877,
+  "UDListDefinitionId": 795,
   "Justification": "Center",
-  "Version": 886,
-  "TemplateVariableName": "Towne Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Will-Fritsch",
+  "Version": 964,
+  "TemplateVariableName": "Rempel-Bode",
+  "HasBeenPublished": false,
+  "MdoListName": "Bernier-Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldLength": 890
     }
   }
 }

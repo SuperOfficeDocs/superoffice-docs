@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "King, Mosciski and Bahringer",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "UdListDefinitionId": 548,
-    "Rank": 790
+    "Id": 63,
+    "Name": "Witting-Grant",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 317,
+    "Rank": 278
   },
   {
-    "Id": 8,
-    "Name": "King, Mosciski and Bahringer",
-    "Tooltip": "deserunt",
-    "Deleted": false,
-    "UdListDefinitionId": 548,
-    "Rank": 790
+    "Id": 63,
+    "Name": "Witting-Grant",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 317,
+    "Rank": 278
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Predovic LLC",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 509,
-    "Rank": 34,
+    "Id": 265,
+    "Name": "Keebler Group",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "UdListDefinitionId": 123,
+    "Rank": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldLength": 215
       }
     }
   }

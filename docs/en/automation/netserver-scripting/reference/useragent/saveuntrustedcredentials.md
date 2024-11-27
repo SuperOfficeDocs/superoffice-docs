@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.SaveUntrustedCredentials
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.SaveUntrustedCredentials'>SaveUntrustedCredentials</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.SaveUntrustedCredentials'>SaveUntrustedCredentials</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeSaveUntrustedCredentials
 ```cs

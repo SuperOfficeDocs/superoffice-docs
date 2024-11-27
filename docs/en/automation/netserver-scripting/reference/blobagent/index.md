@@ -10,7 +10,7 @@ so.envir: onsite
 
 # BLOBAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IBLOBAgent'>BLOBAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IBLOBAgent'>BLOBAgent</see> that can trigger server-side event scripts.
 
 * [ChangeContactImage](changecontactimage.md)
 * [ChangePersonImage](changepersonimage.md)

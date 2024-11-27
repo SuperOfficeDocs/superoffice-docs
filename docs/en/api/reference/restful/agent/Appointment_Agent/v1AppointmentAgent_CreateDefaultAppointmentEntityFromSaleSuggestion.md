@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 965,
-  "SaleId": 271,
+  "SuggestedAppointmentId": 541,
+  "SaleId": 766,
   "CreateNow": false,
-  "OwnerId": 408
+  "OwnerId": 937
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-03-19T13:14:05.4601291+01:00",
-  "AppointmentId": 627,
-  "Description": "Seamless optimizing projection",
-  "Title": "autem",
-  "Agenda": "numquam",
-  "InternalNotes": "id",
-  "StartDate": "2004-08-22T13:14:05.4601291+02:00",
-  "EndDate": "2010-10-11T13:14:05.4601291+02:00",
+  "CreatedDate": "2005-03-04T14:45:04.7565183+01:00",
+  "AppointmentId": 688,
+  "Description": "Secured neutral time-frame",
+  "Title": "est",
+  "Agenda": "deserunt",
+  "InternalNotes": "iste",
+  "StartDate": "2009-03-20T14:45:04.7565183+01:00",
+  "EndDate": "2024-06-18T14:45:04.7565183+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 865,
+  "MotherId": 369,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-02-10T13:14:05.4601291+01:00",
+  "UpdatedDate": "1999-09-09T14:45:04.7565183+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 60,
+  "ActiveLinks": 654,
   "Links": [
     {
-      "EntityName": "Brakus-Feest",
-      "Id": 116,
-      "Description": "Future-proofed executive emulation",
-      "ExtraInfo": "sed",
-      "LinkId": 255,
+      "EntityName": "Bradtke-Kunze",
+      "Id": 767,
+      "Description": "Customizable optimizing flexibility",
+      "ExtraInfo": "totam",
+      "LinkId": 381,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 269
         }
       }
     }
   ],
-  "AlarmLeadTime": "rem",
+  "AlarmLeadTime": "mollitia",
   "HasAlarm": true,
-  "ColorIndex": 841,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ad",
-  "LeadTime": "necessitatibus",
-  "Location": "inventore",
-  "RejectCounter": 466,
+  "ColorIndex": 463,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "voluptatem",
+  "LeadTime": "iste",
+  "Location": "minus",
+  "RejectCounter": 753,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 752,
-      "PersonId": 313,
-      "ContactId": 310,
-      "EmailId": 722,
-      "SendEmail": false,
+      "AssociateId": 452,
+      "PersonId": 880,
+      "ContactId": 253,
+      "EmailId": 771,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "nash@abernathyabshire.us",
-      "Description": "Balanced systematic workforce"
+      "EmailAddress": "antonina_luettgen@strosin.co.uk",
+      "Description": "Configurable high-level leverage"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1997-07-04T13:14:05.4601291+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2020-10-26T14:45:04.7565183+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 527,
+  "PreferredTZLocation": 580,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 125,
+  "SuggestedAppointmentId": 285,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ad",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Arch Ethelyn Carter III",
-    "SuperOffice:2": "Sedrick Flatley"
+    "SuperOffice:1": "Prof. Emily Dejuan Connelly",
+    "SuperOffice:2": "Letha Dickens"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "qui"
+    "CustomFields1": "nisi",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2016-05-01T13:14:05.4601291+02:00",
-  "PublishTo": "2014-04-05T13:14:05.4601291+02:00",
-  "PublishFrom": "2000-05-16T13:14:05.4601291+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-08-30T14:45:04.7565183+02:00",
+  "PublishTo": "2005-10-17T14:45:04.7565183+02:00",
+  "PublishFrom": "2001-11-27T14:45:04.7565183+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 856,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     },
     {
-      "VisibleId": 856,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldLength": 93
     }
   }
 }

@@ -10,7 +10,7 @@ so.envir: onsite
 
 # AssociateAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAssociateAgent'>AssociateAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IAssociateAgent'>AssociateAgent</see> that can trigger server-side event scripts.
 
 * [GetAssociate](getassociate.md)
 * [GetAssociateByPersonId](getassociatebypersonid.md)

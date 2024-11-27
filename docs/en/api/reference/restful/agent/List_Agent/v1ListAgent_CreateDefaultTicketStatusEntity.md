@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 886,
-  "Name": "Quitzon, Weber and Langworth",
+  "TicketStatusId": 844,
+  "Name": "Reinger Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 615
     }
   }
 }

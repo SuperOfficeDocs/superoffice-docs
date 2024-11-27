@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 966,
-  "Name": "Kuhic-Hyatt",
-  "Tooltip": "adipisci",
+  "HeadingId": 357,
+  "Name": "Streich Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 180,
-  "UdListDefinitionId": 523
+  "Rank": 678,
+  "UdListDefinitionId": 409
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 403,
-  "Name": "Bayer-Murazik",
-  "Tooltip": "porro",
+  "HeadingId": 529,
+  "Name": "Klocko-Raynor",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 435,
-  "UdListDefinitionId": 708,
+  "Rank": 357,
+  "UdListDefinitionId": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 639
     }
   }
 }

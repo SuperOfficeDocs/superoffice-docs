@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 974,
-  "Name": "Ebert, Hane and Goldner",
-  "Tooltip": "aliquam",
-  "TableName": "Lowe-Batz",
-  "Area": "ut",
+  "TaskMenuId": 971,
+  "Name": "Pouros, Bosco and Lindgren",
+  "Tooltip": "sit",
+  "TableName": "Bergnaum Inc and Sons",
+  "Area": "qui",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 641,
+  "CrmScriptId": 84,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 777,
+  "Rank": 473,
   "Encoding": "ANSI",
-  "ProgId": "ratione",
+  "ProgId": "cupiditate",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quam"
+  "UniqueIdentifier": "nisi"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Stoltenberg-Kling",
-  "Description": "Grass-roots demand-driven model",
-  "IncludeId": "temporibus",
-  "Source": "ullam",
-  "Registered": "2005-09-30T13:14:05.710145+02:00",
-  "RegisteredBy": "reprehenderit",
-  "Updated": "2012-08-29T13:14:05.710145+02:00",
-  "UpdatedBy": "nulla",
-  "Path": "qui",
+  "UniqueIdentifier": "itaque",
+  "Name": "Hartmann, Bashirian and Will",
+  "Description": "Adaptive global application",
+  "IncludeId": "tempore",
+  "Source": "consequuntur",
+  "Registered": "2007-09-05T14:45:05.1627086+02:00",
+  "RegisteredBy": "doloribus",
+  "Updated": "2009-09-13T14:45:05.1627086+02:00",
+  "UpdatedBy": "odit",
+  "Path": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 177
     }
   }
 }

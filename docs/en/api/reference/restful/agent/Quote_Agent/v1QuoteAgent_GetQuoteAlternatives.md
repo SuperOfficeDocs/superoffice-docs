@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 519
+  "QuoteVersionId": 315
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 876,
-    "ERPQuoteAlternativeKey": "aut",
-    "QuoteVersionId": 408,
-    "Name": "Fahey, Abernathy and Reilly",
-    "Description": "Mandatory zero defect knowledge base",
+    "QuoteAlternativeId": 787,
+    "ERPQuoteAlternativeKey": "quod",
+    "QuoteVersionId": 821,
+    "Name": "McLaughlin Inc and Sons",
+    "Description": "Team-oriented web-enabled projection",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 14861.428,
-    "ERPDiscountAmount": 30290.11,
-    "DiscountPercent": 4447.146,
-    "DiscountAmount": 30747.674,
+    "ERPDiscountPercent": 29102.324,
+    "ERPDiscountAmount": 2306.624,
+    "DiscountPercent": 18271.22,
+    "DiscountAmount": 11852.788,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "blanditiis",
-    "VAT": 27692.023999999998,
-    "EarningPercent": 30017.451999999997,
-    "EarningAmount": 4995.596,
-    "SubTotal": 27356.685999999998,
-    "TotalPrice": 8461.8,
-    "ExtraField1": "fuga",
-    "ExtraField2": "aspernatur",
-    "ExtraField3": "aut",
-    "ExtraField4": "delectus",
-    "ExtraField5": "nobis",
+    "VATInfo": "eum",
+    "VAT": 4108.674,
+    "EarningPercent": 26444.692,
+    "EarningAmount": 29321.703999999998,
+    "SubTotal": 22185.586,
+    "TotalPrice": 15695.072,
+    "ExtraField1": "quis",
+    "ExtraField2": "a",
+    "ExtraField3": "nemo",
+    "ExtraField4": "totam",
+    "ExtraField5": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 799
       }
     }
   }

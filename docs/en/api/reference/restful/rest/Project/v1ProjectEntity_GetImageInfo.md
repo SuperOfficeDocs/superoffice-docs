@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Jun 2006 13:14:10 G6T
+Last-Modified: Thu, 20 Nov 1997 14:45:12 G11T
 
 {
-  "BlobId": 17,
-  "BlobSize": 705,
-  "Description": "Switchable mobile analyzer",
-  "ExtraInfo": "non",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "rerum",
-  "OriginalSize": 285,
-  "CreatedDate": "2019-10-18T13:14:10.9454212+02:00",
-  "UpdatedDate": "2006-06-06T13:14:10.9454212+02:00",
+  "BlobId": 485,
+  "BlobSize": 124,
+  "Description": "Ameliorated client-driven budgetary management",
+  "ExtraInfo": "in",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "odio",
+  "OriginalSize": 520,
+  "CreatedDate": "2017-01-13T14:45:12.9900307+01:00",
+  "UpdatedDate": "1997-11-20T14:45:12.9900307+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

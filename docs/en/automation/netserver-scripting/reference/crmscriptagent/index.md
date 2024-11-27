@@ -10,7 +10,7 @@ so.envir: onsite
 
 # CRMScriptAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICRMScriptAgent'>CRMScriptAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ICRMScriptAgent'>CRMScriptAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultCRMScriptEntity](createdefaultcrmscriptentity.md)
 * [CreateDefaultTriggerScriptEntity](createdefaulttriggerscriptentity.md)

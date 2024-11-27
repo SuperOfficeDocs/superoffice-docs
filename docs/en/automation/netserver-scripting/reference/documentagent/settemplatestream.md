@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SetTemplateStream
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SetTemplateStream'>SetTemplateStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SetTemplateStream'>SetTemplateStream</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSetTemplateStream
 ```cs

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 326,
+  "DocumentId": 659,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tenetur",
-  "Header": "voluptatem",
-  "Name": "Braun-Kulas",
-  "OurRef": "amet",
-  "YourRef": "ducimus",
-  "CreatedDate": "2015-01-11T13:14:05.7726487+01:00",
-  "UpdatedDate": "2021-04-10T13:14:05.7726487+02:00",
-  "Description": "Reverse-engineered foreground infrastructure",
+  "Attention": "dolor",
+  "Header": "est",
+  "Name": "Kassulke-Franecki",
+  "OurRef": "harum",
+  "YourRef": "id",
+  "CreatedDate": "2002-09-14T14:45:05.36579+02:00",
+  "UpdatedDate": "1997-08-31T14:45:05.36579+02:00",
+  "Description": "Up-sized web-enabled success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-02-04T13:14:05.7726487+01:00",
-  "ExternalRef": "sunt",
+  "Date": "2019-06-28T14:45:05.36579+02:00",
+  "ExternalRef": "natus",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 165,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Shanahan, Frami and Deckow",
-      "Id": 961,
-      "Description": "Open-source scalable architecture",
-      "ExtraInfo": "similique",
-      "LinkId": 902,
+      "EntityName": "Cruickshank-Ledner",
+      "Id": 227,
+      "Description": "Distributed fault-tolerant toolset",
+      "ExtraInfo": "autem",
+      "LinkId": 712,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldLength": 54
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 410,
-  "Snum": 688,
+  "SuggestedDocumentId": 917,
+  "Snum": 135,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Eve Khalil Schumm",
-    "SuperOffice:2": "Rowland Yost"
+    "SuperOffice:1": "Charlene Burdette Koepp I",
+    "SuperOffice:2": "Edmond Smith"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "porro"
+    "CustomFields1": "omnis",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2021-03-09T13:14:05.7726487+01:00",
-  "PublishTo": "2012-02-14T13:14:05.7726487+01:00",
-  "PublishFrom": "2002-11-01T13:14:05.7726487+01:00",
+  "PublishEventDate": "2005-11-04T14:45:05.36579+01:00",
+  "PublishTo": "2014-12-25T14:45:05.36579+01:00",
+  "PublishFrom": "2001-09-17T14:45:05.36579+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 332,
+      "VisibleId": 36,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 557
+          "FieldLength": 765
         }
       }
     },
     {
-      "VisibleId": 332,
+      "VisibleId": 36,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 557
+          "FieldLength": 765
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

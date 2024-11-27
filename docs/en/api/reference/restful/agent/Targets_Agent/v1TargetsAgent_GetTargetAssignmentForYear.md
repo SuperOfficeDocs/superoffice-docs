@@ -88,10 +88,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 696,
+  "TargetYear": 313,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 28
+  "Id": 729
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 72,
+  "TargetAssignmentInfoId": 466,
   "Values": [
-    169,
-    341
+    341,
+    650
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 89,
-  "DimensionListItemDisplayName": "Monahan, Green and Quigley",
+  "DimensionListItem": 653,
+  "DimensionListItemDisplayName": "Bechtelar Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   }
 }

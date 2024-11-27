@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.GetCurrent
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent'>GetCurrent</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.GetCurrent'>GetCurrent</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeGetCurrent
 ```cs

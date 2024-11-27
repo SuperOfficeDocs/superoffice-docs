@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "D'Amore-Vandervort",
-  "Context": "in"
+  "TableName": "Gerlach Group",
+  "Context": "aut"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "et",
-    "ValueType": "fugit",
-    "Mandatory": false,
-    "EncodedDisplayName": "Goldner-Gulgowski",
-    "EncodedDisplayDescription": "Robust neutral software",
-    "IconHint": "praesentium",
+    "Key": "voluptatem",
+    "ValueType": "explicabo",
+    "Mandatory": true,
+    "EncodedDisplayName": "Tillman-Hermiston",
+    "EncodedDisplayDescription": "Business-focused zero defect secured line",
+    "IconHint": "eum",
     "ControlInfos": [
       {
-        "Type": "vel",
-        "Label": "porro",
-        "Dimension": 956,
-        "ListProviderName": "Schmitt, McGlynn and Boyle",
-        "ListProviderExtraInfo": "a",
-        "ListProviderPrimaryKeyName": "Bernhard Inc and Sons",
-        "ListLeadText": "est",
+        "Type": "deserunt",
+        "Label": "delectus",
+        "Dimension": 991,
+        "ListProviderName": "Ebert, Muller and Dooley",
+        "ListProviderExtraInfo": "voluptatum",
+        "ListProviderPrimaryKeyName": "Pagac Group",
+        "ListLeadText": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1000
+            "FieldType": "System.Int32",
+            "FieldLength": 321
           }
         }
       }
     ],
-    "EncodedDataCaption": "harum",
-    "EncodedDataCaptionDescription": "Adaptive 3rd generation leverage",
-    "CurrentOperationType": "nesciunt",
+    "EncodedDataCaption": "reiciendis",
+    "EncodedDataCaptionDescription": "Configurable methodical system engine",
+    "CurrentOperationType": "et",
     "Values": [
-      "soluta",
-      "modi"
+      "dolores",
+      "et"
     ],
     "DisplayValues": [
-      "et",
-      "sed"
+      "sunt",
+      "nostrum"
     ],
     "OperationInfos": [
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Bahringer-Hegmann",
+        "Key": "repellat",
+        "EncodedDisplayName": "Leuschke Group",
         "EncodedLeadTexts": [
-          "ut",
-          "illo"
+          "at",
+          "ea"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 321
           }
         }
       },
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Bahringer-Hegmann",
+        "Key": "repellat",
+        "EncodedDisplayName": "Leuschke Group",
         "EncodedLeadTexts": [
-          "ut",
-          "illo"
+          "at",
+          "ea"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 321
           }
         }
       }

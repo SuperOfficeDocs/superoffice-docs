@@ -37,6 +37,7 @@ Documents, this table is an extension of the Appointment table.  There is always
 |userdef2\_id|User-defined fields|FK [uddoclarge](uddoclarge.md)|&#x25CF;|
 |snum|The sequence number allocated from refcount on used template when creating the document|Int|&#x25CF;|
 |ExtUrl|For DocPlugin-internal use only. Used to optionally cache URL of external documents.|String(1023)|&#x25CF;|
+|contentSetCount|Number of times content has been set on this document.|Int| |
 
 
 ![document table relationship diagram](./media/document.png)

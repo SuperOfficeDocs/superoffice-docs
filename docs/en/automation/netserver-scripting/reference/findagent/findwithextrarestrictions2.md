@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.FindWithExtraRestrictions2
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.FindWithExtraRestrictions2'>FindWithExtraRestrictions2</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.FindWithExtraRestrictions2'>FindWithExtraRestrictions2</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforeFindWithExtraRestrictions2
 ```cs

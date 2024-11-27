@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FindAgent.PopulateRestrictionValues
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFindAgent.PopulateRestrictionValues'>PopulateRestrictionValues</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFindAgent.PopulateRestrictionValues'>PopulateRestrictionValues</see> method on the <see cref='IFindAgent'>IFindAgent</see>  service agent.
 
 ## BeforePopulateRestrictionValues
 ```cs

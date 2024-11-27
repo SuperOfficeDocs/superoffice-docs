@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GetAccessToken
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GetAccessToken'>GetAccessToken</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GetAccessToken'>GetAccessToken</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGetAccessToken
 ```cs

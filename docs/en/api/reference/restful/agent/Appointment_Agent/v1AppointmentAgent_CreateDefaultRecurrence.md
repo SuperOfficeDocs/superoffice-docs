@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 250,
-  "StartDate": "2003-02-23T13:14:05.3976254+01:00",
-  "EndDate": "2015-02-16T13:14:05.3976254+01:00",
-  "RecurrenceCounter": 429,
+  "RecurrenceId": 286,
+  "StartDate": "2014-01-04T14:45:04.6943025+01:00",
+  "EndDate": "2021-09-14T14:45:04.6943025+02:00",
+  "RecurrenceCounter": 63,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-02-11T13:14:05.3976254+01:00",
+      "Date": "2002-07-14T14:45:04.6943025+02:00",
       "IsConflict": true,
-      "Description": "Fully-configurable mobile implementation",
-      "DescriptionStyleHint": "Fully-configurable full-range artificial intelligence",
-      "Tooltip": "aut"
+      "Description": "Synergistic demand-driven matrices",
+      "DescriptionStyleHint": "Face to face disintermediate collaboration",
+      "Tooltip": "et"
     },
     {
-      "Date": "2010-02-11T13:14:05.3976254+01:00",
+      "Date": "2002-07-14T14:45:04.6943025+02:00",
       "IsConflict": true,
-      "Description": "Fully-configurable mobile implementation",
-      "DescriptionStyleHint": "Fully-configurable full-range artificial intelligence",
-      "Tooltip": "aut"
+      "Description": "Synergistic demand-driven matrices",
+      "DescriptionStyleHint": "Face to face disintermediate collaboration",
+      "Tooltip": "et"
     }
   ],
   "IsRecurrence": true

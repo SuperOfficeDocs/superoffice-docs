@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Purdy-Ortiz",
-  "DeviceName": "Konopelski-Schmitt",
-  "DeviceIdentifier": "nam"
+  "ApplicationName": "Mayert-Bernhard",
+  "DeviceName": "Gleason-Gibson",
+  "DeviceIdentifier": "possimus"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "deserunt",
-    "Value": "incidunt",
-    "RecordId": 638,
-    "CreatedDate": "2018-09-01T13:14:06.0382898+02:00",
-    "UpdatedDate": "2010-11-06T13:14:06.0382898+01:00",
-    "UpdatedBy": "ut",
-    "CreatedBy": "distinctio",
-    "TableName": "Schowalter, Sipes and Parker",
+    "Key": "occaecati",
+    "Value": "odit",
+    "RecordId": 733,
+    "CreatedDate": "2021-05-05T14:45:05.6469762+02:00",
+    "UpdatedDate": "2002-07-21T14:45:05.6469762+02:00",
+    "UpdatedBy": "rerum",
+    "CreatedBy": "doloribus",
+    "TableName": "Rau, Watsica and Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 784
       }
     }
   }

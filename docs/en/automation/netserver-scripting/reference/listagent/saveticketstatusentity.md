@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveTicketStatusEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveTicketStatusEntity'>SaveTicketStatusEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveTicketStatusEntity'>SaveTicketStatusEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveTicketStatusEntity
 ```cs

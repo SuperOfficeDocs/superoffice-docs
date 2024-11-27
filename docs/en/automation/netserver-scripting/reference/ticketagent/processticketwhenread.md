@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # TicketAgent.ProcessTicketWhenRead
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgent.ProcessTicketWhenRead'>ProcessTicketWhenRead</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
+Scripting events called on the <see cref='M:ITicketAgent.ProcessTicketWhenRead'>ProcessTicketWhenRead</see> method on the <see cref='ITicketAgent'>ITicketAgent</see>  service agent.
 
 ## BeforeProcessTicketWhenRead
 ```cs

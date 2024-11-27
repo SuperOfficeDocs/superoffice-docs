@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "molestiae",
+  "Path": "sed",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 959,
+  "HierarchyId": 836,
   "Domain": "Dashboards",
-  "Name": "Lind, Monahan and Corkery",
-  "Fullname": "dolorem",
-  "ParentId": 552,
+  "Name": "Konopelski Inc and Sons",
+  "Fullname": "ab",
+  "ParentId": 702,
   "Children": [
     {
-      "HierarchyId": 931,
+      "HierarchyId": 649,
       "Domain": "Dashboards",
-      "Name": "Wintheiser, Kohler and Witting",
-      "Fullname": "debitis",
-      "ParentId": 370,
+      "Name": "Ferry, Lang and Nikolaus",
+      "Fullname": "non",
+      "ParentId": 909,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-07-13T13:14:06.1164195+02:00",
-      "RegisteredAssociateId": 763,
-      "Updated": "2022-11-03T13:14:06.1164195+01:00",
-      "UpdatedAssociateId": 508,
+      "Registered": "2007-08-01T14:45:05.7563266+02:00",
+      "RegisteredAssociateId": 50,
+      "Updated": "2022-12-08T14:45:05.7563266+01:00",
+      "UpdatedAssociateId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
   ],
-  "Registered": "2023-10-31T13:14:06.1164195+01:00",
-  "RegisteredAssociateId": 627,
-  "Updated": "1999-06-07T13:14:06.1164195+02:00",
-  "UpdatedAssociateId": 312,
+  "Registered": "2002-07-03T14:45:05.7563266+02:00",
+  "RegisteredAssociateId": 715,
+  "Updated": "2021-01-13T14:45:05.7563266+01:00",
+  "UpdatedAssociateId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 296
     }
   }
 }

@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Konopelski Inc and Sons",
-  "SaleDate": "2013-05-29T13:14:11.0860489+02:00",
-  "SaleId": 992,
-  "Probability": 918,
-  "Title": "consectetur",
-  "Amount": 30371.593999999997,
-  "Currency": "eligendi",
-  "ProjectName": "Jenkins, Strosin and Bergstrom",
-  "AssociateFullName": "Arturo Thompson",
-  "Description": "Streamlined exuding success",
+  "ContactName": "Mante-Quitzon",
+  "SaleDate": "2024-01-26T14:45:13.2087314+01:00",
+  "SaleId": 33,
+  "Probability": 739,
+  "Title": "aliquid",
+  "Amount": 8524.48,
+  "Currency": "consequatur",
+  "ProjectName": "Hackett, Strosin and Hills",
+  "AssociateFullName": "Prof. Johnny Lorine Wuckert",
+  "Description": "Automated grid-enabled portal",
   "Status": "Lost",
-  "WeightedAmount": 16911.064,
-  "ProjectId": 97,
-  "EarningPercent": 20994.666,
-  "Earning": 27359.82,
-  "ContactId": 221,
-  "AssociateId": 991,
-  "PersonId": 865,
-  "SaleTypeId": 477,
-  "SaleTypeName": "Altenwerth Inc and Sons",
-  "PersonFullName": "Mozelle Schuster",
+  "WeightedAmount": 17409.37,
+  "ProjectId": 940,
+  "EarningPercent": 8330.172,
+  "Earning": 5274.522,
+  "ContactId": 38,
+  "AssociateId": 435,
+  "PersonId": 125,
+  "SaleTypeId": 919,
+  "SaleTypeName": "Ratke LLC",
+  "PersonFullName": "Roberto Jones",
   "Completed": "Completed",
-  "ActiveErpLinks": 362,
-  "NextDueDate": "2004-04-23T13:14:11.0860489+02:00",
-  "Number": "1044088",
+  "ActiveErpLinks": 245,
+  "NextDueDate": "2024-01-03T14:45:13.2087314+01:00",
+  "Number": "520058",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 99
     }
   }
 }

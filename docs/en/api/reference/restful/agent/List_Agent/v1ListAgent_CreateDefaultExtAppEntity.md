@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 831,
-  "Name": "Lang-Daugherty",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 407,
-  "Filename": "vero",
-  "Parameters": "aut",
-  "Workdir": "veritatis",
+  "ExtAppId": 976,
+  "Name": "Hodkiewicz-Effertz",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 892,
+  "Filename": "perferendis",
+  "Parameters": "totam",
+  "Workdir": "quo",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 479,
+  "ShowInStatusBar": true,
+  "Icon": 755,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nihil",
+  "Path": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

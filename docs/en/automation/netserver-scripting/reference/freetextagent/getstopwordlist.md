@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FreeTextAgent.GetStopWordList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList'>GetStopWordList</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFreeTextAgent.GetStopWordList'>GetStopWordList</see> method on the <see cref='IFreeTextAgent'>IFreeTextAgent</see>  service agent.
 
 ## BeforeGetStopWordList
 ```cs

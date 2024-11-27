@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2'>CreateNewPhysicalDocumentFromTemplateWithCustomTags2</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags2'>CreateNewPhysicalDocumentFromTemplateWithCustomTags2</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeCreateNewPhysicalDocumentFromTemplateWithCustomTags2
 ```cs

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 62,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 701,
-    "UdListDefinitionId": 747
+    "HeadingId": 782,
+    "Name": "Cruickshank Group",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 203,
+    "UdListDefinitionId": 962
   },
   {
-    "HeadingId": 62,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 701,
-    "UdListDefinitionId": 747
+    "HeadingId": 782,
+    "Name": "Cruickshank Group",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 203,
+    "UdListDefinitionId": 962
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 263,
-    "Name": "Hahn, Grant and VonRueden",
-    "Tooltip": "rerum",
+    "HeadingId": 17,
+    "Name": "Welch-Schiller",
+    "Tooltip": "id",
     "Deleted": true,
-    "Rank": 375,
-    "UdListDefinitionId": 545,
+    "Rank": 823,
+    "UdListDefinitionId": 258,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

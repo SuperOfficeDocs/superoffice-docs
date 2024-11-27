@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Gleason Inc and Sons",
-    "Greenfelder Group"
+    "Dickens-Williamson",
+    "Konopelski-Feest"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  729,
-  326
+  662,
+  724
 ]
 ```

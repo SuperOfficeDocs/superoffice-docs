@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.GetWorkflowStep
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep'>GetWorkflowStep</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.GetWorkflowStep'>GetWorkflowStep</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeGetWorkflowStep
 ```cs

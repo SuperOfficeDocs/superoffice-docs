@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BLOBAgent.GetChatImageWithSize
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize'>GetChatImageWithSize</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBLOBAgent.GetChatImageWithSize'>GetChatImageWithSize</see> method on the <see cref='IBLOBAgent'>IBLOBAgent</see>  service agent.
 
 ## BeforeGetChatImageWithSize
 ```cs

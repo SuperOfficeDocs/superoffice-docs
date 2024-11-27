@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=36
+POST /api/v1/Agents/Associate/GetAssociate?associateId=749
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 827,
-  "Name": "Tillman-Wunsch",
-  "PersonId": 964,
-  "Rank": 729,
-  "Tooltip": "minima",
+  "AssociateId": 815,
+  "Name": "Mraz, Muller and Ankunding",
+  "PersonId": 937,
+  "Rank": 340,
+  "Tooltip": "perferendis",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 224,
-  "FullName": "Dr. August Elinor Langworth",
-  "FormalName": "Conn, Mueller and Rutherford",
+  "GroupIdx": 836,
+  "FullName": "Maude Dooley",
+  "FormalName": "Stokes, Toy and Jenkins",
   "Deleted": false,
-  "EjUserId": 73,
-  "UserName": "Russel-Renner",
+  "EjUserId": 483,
+  "UserName": "Vandervort Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 272
     }
   }
 }

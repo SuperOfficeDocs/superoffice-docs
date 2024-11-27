@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 738,
-    "Section": "iure",
-    "Key": "qui",
-    "Name": "Jenkins-McDermott",
+    "PrefDescId": 261,
+    "Section": "maiores",
+    "Key": "minima",
+    "Name": "Miller-Olson",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Future-proofed optimal solution",
-    "IsBuiltin": false,
-    "TableName": "Donnelly, DuBuque and Ondricka",
-    "UserDefinedListId": 576,
-    "Rank": 803,
-    "SubGroup": "vero",
-    "MinLevel": 826,
-    "MaxValue": 760,
-    "MinValue": 445,
-    "RequiredLicense": "officiis",
+    "Description": "Distributed neutral structure",
+    "IsBuiltin": true,
+    "TableName": "Rath, Kessler and Kovacek",
+    "UserDefinedListId": 337,
+    "Rank": 950,
+    "SubGroup": "nam",
+    "MinLevel": 651,
+    "MaxValue": 458,
+    "MinValue": 613,
+    "RequiredLicense": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 315
       }
     }
   }

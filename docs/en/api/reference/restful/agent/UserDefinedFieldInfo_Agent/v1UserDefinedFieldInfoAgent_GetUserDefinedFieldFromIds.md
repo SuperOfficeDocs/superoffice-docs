@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    208,
-    893
+    589,
+    660
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 346,
-    "ColumnId": 263,
-    "FieldDefault": "ipsum",
-    "FieldHeight": 88,
-    "FieldLabel": "maiores",
-    "FieldLeft": 870,
-    "FieldTop": 898,
+    "UDefFieldId": 71,
+    "ColumnId": 147,
+    "FieldDefault": "ut",
+    "FieldHeight": 280,
+    "FieldLabel": "omnis",
+    "FieldLeft": 298,
+    "FieldTop": 232,
     "FieldType": "Checkbox",
-    "FieldWidth": 772,
-    "FormatMask": "ea",
+    "FieldWidth": 190,
+    "FormatMask": "architecto",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 649,
-    "LabelLeft": 813,
-    "LabelTop": 396,
-    "LabelWidth": 206,
+    "IsIndexed": true,
+    "LabelHeight": 193,
+    "LabelLeft": 849,
+    "LabelTop": 313,
+    "LabelWidth": 702,
     "LastVersionId": 850,
-    "ListTableId": 198,
+    "ListTableId": 835,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 135,
-    "ProgId": "dolor",
+    "Page1LineNo": 858,
+    "ProgId": "beatae",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 897,
-    "TextLength": 403,
-    "Tooltip": "animi",
-    "UdefIdentity": 998,
-    "UDListDefinitionId": 863,
+    "ShortLabel": "magni",
+    "TabOrder": 163,
+    "TextLength": 881,
+    "Tooltip": "sit",
+    "UdefIdentity": 535,
+    "UDListDefinitionId": 709,
     "Justification": "Center",
-    "Version": 157,
-    "TemplateVariableName": "Raynor Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Huel, Purdy and Hahn",
+    "Version": 861,
+    "TemplateVariableName": "Beatty Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Ritchie-Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 849
       }
     }
   }

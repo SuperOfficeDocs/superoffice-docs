@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetPersonDocumentsByTemplateTypes
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetPersonDocumentsByTemplateTypes'>GetPersonDocumentsByTemplateTypes</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetPersonDocumentsByTemplateTypes'>GetPersonDocumentsByTemplateTypes</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetPersonDocumentsByTemplateTypes
 ```cs

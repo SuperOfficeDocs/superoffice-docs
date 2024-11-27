@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stoltenberg-Altenwerth",
-  "Comment": "cumque",
-  "StakeholderRoleId": 848,
-  "CountryId": 280,
-  "PersonId": 152,
-  "EmailDescription": "pink@doyleryan.biz",
-  "EmailId": 851,
-  "EmailAddress": "kayleigh@denesik.ca",
-  "PhoneId": 925,
-  "ContactName": "Feest-Romaguera",
-  "ContactId": 423,
-  "SaleId": 49,
-  "Mrmrs": "tempora",
-  "Firstname": "Meagan",
-  "MiddleName": "Collins-Luettgen",
-  "Lastname": "Toy",
-  "SaleStakeholderId": 631,
-  "Rank": 126,
-  "Phone": "335.978.6374 x0707"
+  "StakeholderRoleName": "Swaniawski, Bode and Bernier",
+  "Comment": "aut",
+  "StakeholderRoleId": 658,
+  "CountryId": 26,
+  "PersonId": 800,
+  "EmailDescription": "adolf.bednar@balistrerirempel.info",
+  "EmailId": 113,
+  "EmailAddress": "magdalena_cummerata@west.us",
+  "PhoneId": 260,
+  "ContactName": "Muller Inc and Sons",
+  "ContactId": 185,
+  "SaleId": 246,
+  "Mrmrs": "quidem",
+  "Firstname": "Rico",
+  "MiddleName": "Bernhard-Jaskolski",
+  "Lastname": "Thiel",
+  "SaleStakeholderId": 461,
+  "Rank": 388,
+  "Phone": "1-452-815-0704 x573"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Turcotte, Parker and Krajcik",
-  "Comment": "ut",
-  "StakeholderRoleId": 103,
-  "CountryId": 799,
-  "PersonId": 591,
-  "EmailDescription": "lew.jacobs@monahan.us",
-  "EmailId": 266,
-  "EmailAddress": "dallin@auerharris.uk",
+  "StakeholderRoleName": "Rutherford, Klein and Romaguera",
+  "Comment": "perspiciatis",
+  "StakeholderRoleId": 782,
+  "CountryId": 826,
+  "PersonId": 524,
+  "EmailDescription": "mireya_littel@kling.uk",
+  "EmailId": 209,
+  "EmailAddress": "gerardo@morissettefeest.com",
   "PhoneId": 551,
-  "ContactName": "Bayer-O'Keefe",
-  "ContactId": 953,
-  "SaleId": 943,
-  "Mrmrs": "laborum",
-  "Firstname": "Katelynn",
-  "MiddleName": "Goyette-Cruickshank",
-  "Lastname": "Bradtke",
-  "SaleStakeholderId": 550,
-  "Rank": 971,
-  "Phone": "(101)835-7610 x16189",
+  "ContactName": "Williamson, Braun and Gottlieb",
+  "ContactId": 925,
+  "SaleId": 512,
+  "Mrmrs": "ipsam",
+  "Firstname": "Santina",
+  "MiddleName": "Gutkowski Group",
+  "Lastname": "Jenkins",
+  "SaleStakeholderId": 984,
+  "Rank": 159,
+  "Phone": "652-329-8419 x8860",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   }
 }

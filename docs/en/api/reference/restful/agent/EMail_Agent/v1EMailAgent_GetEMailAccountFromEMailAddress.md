@@ -88,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "necessitatibus"
+  "FromAddress": "repellendus"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 570,
-  "EMailAddress": "qui",
-  "AssociateId": 48,
+  "EMailAccountId": 465,
+  "EMailAddress": "molestiae",
+  "AssociateId": 732,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 965,
-  "ErrorCount": 113,
-  "ErrorReason": "",
-  "InboxFolder": "repellat",
-  "SentFolder": "quaerat",
+  "AccountStatus": 437,
+  "ErrorCount": 907,
+  "ErrorReason": "empower magnetic e-business",
+  "InboxFolder": "velit",
+  "SentFolder": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

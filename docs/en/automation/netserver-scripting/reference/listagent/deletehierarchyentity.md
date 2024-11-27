@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.DeleteHierarchyEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.DeleteHierarchyEntity'>DeleteHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.DeleteHierarchyEntity'>DeleteHierarchyEntity</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeDeleteHierarchyEntity
 ```cs

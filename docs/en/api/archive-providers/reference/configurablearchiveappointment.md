@@ -719,11 +719,14 @@ This is the archive Provider for the Configurable appointment Archive.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=recordTypeText,contact/streetAddress/state,person/restrictionAddress/addressId,person/restrictionAddress/city,project/NumberOfNotCompletedSales
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/email/emailId,contact/email/emailLastSent,contact/streetAddress/addressId,contact/restrictionAddress/county,person/personNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

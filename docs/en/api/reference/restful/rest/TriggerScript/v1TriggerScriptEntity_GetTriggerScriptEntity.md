@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 832,
-  "Name": "Goyette Inc and Sons",
+  "ScreenChooserId": 57,
+  "Name": "Yost Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "perferendis",
-  "Registered": "2003-06-03T13:14:11.1954363+02:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "2004-06-26T13:14:11.1954363+02:00",
-  "UpdatedAssociateId": 464,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "error",
+  "Registered": "2011-04-09T14:45:13.3805746+02:00",
+  "RegisteredAssociateId": 259,
+  "Updated": "2020-03-23T14:45:13.3805746+01:00",
+  "UpdatedAssociateId": 806,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 452
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

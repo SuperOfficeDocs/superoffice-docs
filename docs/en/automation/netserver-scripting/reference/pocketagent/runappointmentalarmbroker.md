@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PocketAgent.RunAppointmentAlarmBroker
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker'>RunAppointmentAlarmBroker</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPocketAgent.RunAppointmentAlarmBroker'>RunAppointmentAlarmBroker</see> method on the <see cref='IPocketAgent'>IPocketAgent</see>  service agent.
 
 ## BeforeRunAppointmentAlarmBroker
 ```cs

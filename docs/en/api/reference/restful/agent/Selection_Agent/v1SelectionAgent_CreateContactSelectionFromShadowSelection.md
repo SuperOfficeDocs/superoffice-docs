@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 984,
-  "Name": "Abernathy LLC"
+  "SelectionId": 671,
+  "Name": "Runte-Rodriguez"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced responsive methodology",
-  "Postit": "sed",
+  "Description": "Managed assymetric focus group",
+  "Postit": "excepturi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 628,
-  "IncludePerson": 108,
+  "GroupIdx": 979,
+  "IncludePerson": 607,
   "MemberCount": 99.99,
-  "Name": "Tremblay-Pfannerstill",
-  "PostitTextId": 69,
-  "CreatedDate": "2021-03-08T13:14:06.4445637+01:00",
-  "SelectionId": 766,
-  "SoundEx": "est",
-  "Source": 5,
-  "TextId": 810,
-  "UpdatedDate": "2012-12-27T13:14:06.4445637+01:00",
-  "UpdatedCount": 344,
-  "Visibility": 956,
+  "Name": "Kris LLC",
+  "PostitTextId": 5,
+  "CreatedDate": "2014-09-22T14:45:06.240594+02:00",
+  "SelectionId": 60,
+  "SoundEx": "doloribus",
+  "Source": 604,
+  "TextId": 955,
+  "UpdatedDate": "2008-10-30T14:45:06.240594+01:00",
+  "UpdatedCount": 424,
+  "Visibility": 681,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 243,
-  "TargetTableName": "Toy LLC",
+  "TargetTableNumber": 961,
+  "TargetTableName": "Denesik Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 961,
-  "RightSelectionId": 745,
+  "LeftSelectionId": 319,
+  "RightSelectionId": 632,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koelpin, Lowe and Tillman",
-  "ShadowProviderName": "Pfeffer, Kohler and Schmidt",
-  "ChartKey": "tempora",
-  "LastLoaded": "2004-05-25T13:14:06.4445637+02:00",
-  "LastLoadedBy": 944,
+  "MainProviderName": "Rutherford LLC",
+  "ShadowProviderName": "Hammes-Greenholt",
+  "ChartKey": "unde",
+  "LastLoaded": "2008-05-22T14:45:06.240594+02:00",
+  "LastLoadedBy": 86,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-10-19T13:14:06.4445637+02:00",
-  "LastMembershipChangeBy": 698,
+  "LastMembershipChange": "2005-10-28T14:45:06.2562154+02:00",
+  "LastMembershipChangeBy": 431,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "minima",
-  "MemberTabHeading": "tempora",
-  "MailingsProviderName": "Hettinger-Bednar",
-  "DashboardTileDefinitionId": 737,
+  "MainHeading": "et",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Dickens, Bauch and Becker",
+  "DashboardTileDefinitionId": 999,
   "VisibleFor": [
     {
-      "VisibleId": 526,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 825
         }
       }
     },
     {
-      "VisibleId": 526,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 825
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   }
 }

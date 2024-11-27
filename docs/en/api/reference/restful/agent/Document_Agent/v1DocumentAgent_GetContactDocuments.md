@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 672,
-  "StartTime": "2007-06-23T13:14:05.7570229+02:00",
-  "EndTime": "2019-12-24T13:14:05.7570229+01:00",
-  "Count": 749
+  "ContactId": 815,
+  "StartTime": "2009-09-26T14:45:05.225194+02:00",
+  "EndTime": "2017-08-23T14:45:05.225194+02:00",
+  "Count": 178
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 995,
-    "Attention": "qui",
-    "Header": "et",
-    "Name": "Block-Hermiston",
-    "OurRef": "error",
-    "YourRef": "sit",
-    "Description": "Programmable heuristic firmware",
-    "DocumentTemplate": "ut",
+    "DocumentId": 949,
+    "Attention": "eum",
+    "Header": "enim",
+    "Name": "Streich Group",
+    "OurRef": "dolores",
+    "YourRef": "eaque",
+    "Description": "Networked cohesive firmware",
+    "DocumentTemplate": "id",
     "IsPublished": false,
-    "PersonId": 23,
-    "PersonFullName": "Sam D'Amore",
-    "AssociateFullName": "Mr. Mackenzie Hermiston",
-    "ContactId": 655,
-    "ContactName": "Schowalter Inc and Sons",
-    "ProjectId": 686,
-    "ProjectName": "Gislason Inc and Sons",
-    "AssociateId": 166,
-    "Snum": 13,
-    "SaleId": 705,
-    "SaleName": "Kihn-Cruickshank",
+    "PersonId": 953,
+    "PersonFullName": "Bradley Kaylie Luettgen I",
+    "AssociateFullName": "Mckenzie Kling",
+    "ContactId": 149,
+    "ContactName": "Senger, Keeling and Kunze",
+    "ProjectId": 925,
+    "ProjectName": "Ratke Group",
+    "AssociateId": 565,
+    "Snum": 212,
+    "SaleId": 869,
+    "SaleName": "Hermiston LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldLength": 575
       }
     }
   }

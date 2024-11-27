@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 760,
-  "FormKey": "quas",
-  "Name": "Schaefer, Jones and Larson",
-  "Description": "Focused demand-driven projection",
-  "Config": "rem",
-  "FolderId": 406,
-  "ScriptId": 417,
-  "ResponseShipmentId": 693,
-  "Active": true,
-  "Expires": "2015-03-31T13:14:06.1320455+02:00",
-  "MaxSubmits": 316,
+  "FormId": 145,
+  "FormKey": "accusamus",
+  "Name": "Murray, Osinski and O'Connell",
+  "Description": "Operative user-facing open system",
+  "Config": "fugiat",
+  "FolderId": 770,
+  "ScriptId": 408,
+  "ResponseShipmentId": 97,
+  "Active": false,
+  "Expires": "2016-09-07T14:45:05.7875689+02:00",
+  "MaxSubmits": 4,
   "Type": "Normal",
-  "Recipe": "sint",
-  "GroupId": 976,
-  "NewTicket": true,
+  "Recipe": "ut",
+  "GroupId": 442,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-06-03T13:14:06.1320455+02:00",
-  "RegisteredAssociateId": 681,
-  "Updated": "1997-10-30T13:14:06.1320455+01:00",
-  "UpdatedAssociateId": 524,
-  "UpdatedCount": 441,
+  "Registered": "2001-01-09T14:45:05.7875689+01:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "1998-04-03T14:45:05.7875689+02:00",
+  "UpdatedAssociateId": 328,
+  "UpdatedCount": 798,
   "EmailFlows": [
-    431,
-    680
+    963,
+    323
   ],
-  "FolderName": "Gerhold, Koelpin and Kuhn",
+  "FolderName": "Batz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 12
     }
   }
 }

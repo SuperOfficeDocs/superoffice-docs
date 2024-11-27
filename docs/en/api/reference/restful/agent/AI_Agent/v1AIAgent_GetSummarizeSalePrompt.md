@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 299,
-  "NumSentences": 364,
-  "Summary": "nulla",
-  "IsoLangCode": "sed"
+  "SaleId": 979,
+  "NumSentences": 802,
+  "Summary": "voluptas",
+  "IsoLangCode": "eaque"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2022-09-24T13:14:05.1944888+02:00",
-  "UserPrompt": "quia",
-  "UserDisplayText": "omnis",
-  "BotResponse": "recusandae",
+  "Timestamp": "1998-12-24T14:45:04.4287347+01:00",
+  "UserPrompt": "a",
+  "UserDisplayText": "dolore",
+  "BotResponse": "vel",
   "BotActions": {
-    "BotActions1": "corrupti",
-    "BotActions2": "id"
+    "BotActions1": "ullam",
+    "BotActions2": "officiis"
   },
   "Attachments": [
-    "velit",
-    "ipsam"
+    "reiciendis",
+    "reprehenderit"
   ]
 }
 ```

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Koch, Gleichner and McCullough",
-  "Tooltip": "ducimus",
+  "Id": 272,
+  "Name": "Ward-Nolan",
+  "Tooltip": "libero",
   "Deleted": false,
-  "UdListDefinitionId": 655,
-  "Rank": 766,
+  "UdListDefinitionId": 727,
+  "Rank": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 432
     }
   }
 }

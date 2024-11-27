@@ -718,6 +718,9 @@ This is the archive Provider for the Selection appouintment archive.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -728,7 +731,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelection?$select=contact/contactAssociate/locationAddress,person/restrictionAddress/addressId,person/personAssociate/personEmail
+GET /api/v1/archive/AppointmentSelection?$select=contact/orgnr,contact/deletedDate,contact/contactUdef/SuperOffice:9,contact/LastCompletedActivity,contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

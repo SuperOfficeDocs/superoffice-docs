@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashboardAgent.GetStandardDashboardTileFromChartId
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId'>GetStandardDashboardTileFromChartId</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashboardAgent.GetStandardDashboardTileFromChartId'>GetStandardDashboardTileFromChartId</see> method on the <see cref='IDashboardAgent'>IDashboardAgent</see>  service agent.
 
 ## BeforeGetStandardDashboardTileFromChartId
 ```cs

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # WorkflowAgent.SaveWorkflowTrigger
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger'>SaveWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
+Scripting events called on the <see cref='M:IWorkflowAgent.SaveWorkflowTrigger'>SaveWorkflowTrigger</see> method on the <see cref='IWorkflowAgent'>IWorkflowAgent</see>  service agent.
 
 ## BeforeSaveWorkflowTrigger
 ```cs

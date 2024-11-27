@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 758
+  "PersonId": 662
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 749,
-  "Name": "Kiehn Inc and Sons",
-  "PersonId": 47,
-  "Rank": 887,
-  "Tooltip": "eos",
+  "AssociateId": 323,
+  "Name": "Lockman, Reilly and Braun",
+  "PersonId": 547,
+  "Rank": 418,
+  "Tooltip": "rem",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 308,
-  "FullName": "Dena Hammes",
-  "FormalName": "Schinner-Jaskolski",
-  "Deleted": false,
-  "EjUserId": 10,
-  "UserName": "Pagac-Hermann",
+  "GroupIdx": 95,
+  "FullName": "Gene Sipes MD",
+  "FormalName": "Dicki Group",
+  "Deleted": true,
+  "EjUserId": 666,
+  "UserName": "VonRueden Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 800
     }
   }
 }

@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 514,
-  "ERPQuoteAlternativeKey": "consectetur",
-  "QuoteVersionId": 937,
-  "Name": "Lowe Inc and Sons",
-  "Description": "Fundamental static analyzer",
+  "QuoteAlternativeId": 749,
+  "ERPQuoteAlternativeKey": "suscipit",
+  "QuoteVersionId": 164,
+  "Name": "Russel LLC",
+  "Description": "Realigned bottom-line flexibility",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8938.168,
-  "ERPDiscountAmount": 18725.649999999998,
-  "DiscountPercent": 25717.604,
-  "DiscountAmount": 28798.325999999997,
+  "ERPDiscountPercent": 14218.957999999999,
+  "ERPDiscountAmount": 22408.1,
+  "DiscountPercent": 12764.782,
+  "DiscountAmount": 3340.844,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "tempora",
-  "VAT": 11078.69,
-  "EarningPercent": 5099.018,
-  "EarningAmount": 4089.87,
-  "SubTotal": 21728.022,
-  "TotalPrice": 5412.418,
-  "ExtraField1": "et",
-  "ExtraField2": "tenetur",
-  "ExtraField3": "laudantium",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "ut",
+  "VATInfo": "dolores",
+  "VAT": 16851.518,
+  "EarningPercent": 6713.0279999999993,
+  "EarningAmount": 7076.572,
+  "SubTotal": 17381.164,
+  "TotalPrice": 28124.516,
+  "ExtraField1": "placeat",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "rerum",
+  "ExtraField4": "qui",
+  "ExtraField5": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

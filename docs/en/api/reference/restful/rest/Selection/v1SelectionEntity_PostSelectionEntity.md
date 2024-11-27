@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative multi-state secured line",
-  "Postit": "ut",
+  "Description": "Visionary composite neural-net",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 282,
-  "IncludePerson": 13,
+  "GroupIdx": 116,
+  "IncludePerson": 892,
   "MemberCount": 99.99,
-  "Name": "Donnelly Group",
-  "PostitTextId": 685,
-  "CreatedDate": "2016-11-14T13:14:11.1016748+01:00",
-  "SelectionId": 96,
-  "SoundEx": "porro",
-  "Source": 6,
-  "TextId": 680,
-  "UpdatedDate": "2002-01-14T13:14:11.1016748+01:00",
-  "UpdatedCount": 579,
-  "Visibility": 176,
+  "Name": "Jacobson-Lang",
+  "PostitTextId": 118,
+  "CreatedDate": "2014-12-21T14:45:13.2243548+01:00",
+  "SelectionId": 748,
+  "SoundEx": "enim",
+  "Source": 171,
+  "TextId": 816,
+  "UpdatedDate": "2005-03-13T14:45:13.2243548+01:00",
+  "UpdatedCount": 774,
+  "Visibility": 479,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 838,
-  "TargetTableName": "Ward, Smitham and Jacobson",
-  "Completed": false,
-  "LeftSelectionId": 763,
-  "RightSelectionId": 964,
+  "TargetTableNumber": 325,
+  "TargetTableName": "Kulas-Lakin",
+  "Completed": true,
+  "LeftSelectionId": 935,
+  "RightSelectionId": 363,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Buckridge Group",
-  "ShadowProviderName": "O'Kon-Robel",
-  "ChartKey": "quam",
-  "LastLoaded": "2016-05-23T13:14:11.1016748+02:00",
-  "LastLoadedBy": 512,
+  "MainProviderName": "Spencer LLC",
+  "ShadowProviderName": "Spencer Group",
+  "ChartKey": "laudantium",
+  "LastLoaded": "2012-10-20T14:45:13.2243548+02:00",
+  "LastLoadedBy": 962,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-04-28T13:14:11.1016748+02:00",
-  "LastMembershipChangeBy": 635,
+  "LastMembershipChange": "2016-01-19T14:45:13.2243548+01:00",
+  "LastMembershipChangeBy": 94,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ex",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Maggio Group",
-  "DashboardTileDefinitionId": 367,
+  "MainHeading": "dolore",
+  "MemberTabHeading": "tempore",
+  "MailingsProviderName": "Bailey Group",
+  "DashboardTileDefinitionId": 922,
   "VisibleFor": [
     {
-      "VisibleId": 784,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "mollitia"
+      "DisplayValue": "asperiores"
     },
     {
-      "VisibleId": 784,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "mollitia"
+      "DisplayValue": "asperiores"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional regional complexity",
+  "Description": "Integrated cohesive neural-net",
   "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 878,
-  "IncludePerson": 714,
+  "GroupIdx": 545,
+  "IncludePerson": 330,
   "MemberCount": 99.99,
-  "Name": "Swaniawski Group",
-  "PostitTextId": 404,
-  "CreatedDate": "2000-05-14T13:14:11.1016748+02:00",
-  "SelectionId": 742,
-  "SoundEx": "atque",
-  "Source": 479,
-  "TextId": 886,
-  "UpdatedDate": "2023-03-07T13:14:11.1016748+01:00",
-  "UpdatedCount": 62,
-  "Visibility": 420,
+  "Name": "Reichert-Zemlak",
+  "PostitTextId": 519,
+  "CreatedDate": "2001-06-17T14:45:13.2243548+02:00",
+  "SelectionId": 541,
+  "SoundEx": "voluptas",
+  "Source": 181,
+  "TextId": 555,
+  "UpdatedDate": "2020-01-27T14:45:13.2243548+01:00",
+  "UpdatedCount": 380,
+  "Visibility": 313,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 474,
-  "TargetTableName": "Aufderhar-Wunsch",
-  "Completed": true,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 266,
+  "TargetTableNumber": 131,
+  "TargetTableName": "Tillman Group",
+  "Completed": false,
+  "LeftSelectionId": 118,
+  "RightSelectionId": 821,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crist, Kuhlman and Upton",
-  "ShadowProviderName": "Legros, Turner and Leuschke",
-  "ChartKey": "officiis",
-  "LastLoaded": "2005-05-14T13:14:11.1016748+02:00",
-  "LastLoadedBy": 511,
+  "MainProviderName": "Kemmer-Bode",
+  "ShadowProviderName": "Reinger, Stark and Spinka",
+  "ChartKey": "et",
+  "LastLoaded": "2015-10-29T14:45:13.2243548+01:00",
+  "LastLoadedBy": 702,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-06-04T13:14:11.1016748+02:00",
-  "LastMembershipChangeBy": 106,
+  "LastMembershipChange": "2012-09-02T14:45:13.2243548+02:00",
+  "LastMembershipChangeBy": 846,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eum",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Wisozk-Kertzmann",
-  "DashboardTileDefinitionId": 329,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Wolff Inc and Sons",
+  "DashboardTileDefinitionId": 784,
   "VisibleFor": [
     {
       "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 29
         }
       }
     },
     {
       "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 29
         }
       }
     }
@@ -294,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   },
   "_Links": {

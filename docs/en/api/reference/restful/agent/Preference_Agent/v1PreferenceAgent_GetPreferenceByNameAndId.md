@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "aliquam",
-  "PrefKey": "laboriosam",
+  "PrefSection": "dolorem",
+  "PrefKey": "sed",
   "PrefLevel": "Database",
-  "OwnerId": 740
+  "OwnerId": 435
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "rerum",
   "Specification": null,
-  "DisplayValue": "quis",
-  "DisplayTooltip": "fuga",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 788,
-  "PrefDescId": 553,
-  "TableName": "Tromp-Marks",
-  "UserPreferenceId": 385,
+  "TargetId": 16,
+  "PrefDescId": 826,
+  "TableName": "Corwin LLC",
+  "UserPreferenceId": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

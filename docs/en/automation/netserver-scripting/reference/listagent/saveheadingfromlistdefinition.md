@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.SaveHeadingFromListDefinition
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.SaveHeadingFromListDefinition'>SaveHeadingFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.SaveHeadingFromListDefinition'>SaveHeadingFromListDefinition</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeSaveHeadingFromListDefinition
 ```cs

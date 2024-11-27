@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "O'Hara LLC",
-  "Tooltip": "expedita",
+  "Id": 603,
+  "Name": "Hilll-Kreiger",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 798,
+  "Rank": 893,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 475
     }
   },
   "_Links": {

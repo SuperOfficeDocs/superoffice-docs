@@ -10,7 +10,7 @@ so.envir: onsite
 
 # RelationAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IRelationAgent'>RelationAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IRelationAgent'>RelationAgent</see> that can trigger server-side event scripts.
 
 * [CreateDefaultContactRelationEntity](createdefaultcontactrelationentity.md)
 * [DeleteContactRelation](deletecontactrelation.md)

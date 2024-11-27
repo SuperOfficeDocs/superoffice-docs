@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hand, Huels and Zemlak",
-  "Type": "molestias",
-  "Size": 17,
+  "Name": "Monahan-Goldner",
+  "Type": "a",
+  "Size": 861,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 442
     }
   }
 }

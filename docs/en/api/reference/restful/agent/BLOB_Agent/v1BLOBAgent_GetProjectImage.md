@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 403
+  "ProjectId": 463
 }
 ```
 

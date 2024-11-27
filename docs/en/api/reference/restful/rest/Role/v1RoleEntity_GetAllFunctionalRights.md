@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Harvey LLC",
-    "ToolTip": "Ut deleniti et laudantium maiores dolorum est perferendis.",
-    "Deleted": false,
-    "Rank": 280,
-    "Type": "consequatur",
-    "ColorBlock": 256,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2023-10-02T13:14:10.9610472+02:00",
+    "Id": 365,
+    "Name": "Fahey-Satterfield",
+    "ToolTip": "Dicta odit velit libero.",
+    "Deleted": true,
+    "Rank": 117,
+    "Type": "voluptatem",
+    "ColorBlock": 526,
+    "IconHint": "consequuntur",
+    "Selected": false,
+    "LastChanged": "2012-06-21T14:45:13.1306367+02:00",
     "ChildItems": [
       {
-        "Id": 644,
-        "Name": "Considine Inc and Sons",
-        "ToolTip": "Tenetur dolorem sit.",
+        "Id": 699,
+        "Name": "Ortiz-Powlowski",
+        "ToolTip": "Deleniti ab minus aut distinctio aut ab.",
         "Deleted": false,
-        "Rank": 843,
-        "Type": "id",
-        "ColorBlock": 987,
-        "IconHint": "fugiat",
-        "Selected": true,
-        "LastChanged": "2008-05-03T13:14:10.9610472+02:00",
+        "Rank": 254,
+        "Type": "vel",
+        "ColorBlock": 201,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2014-03-12T14:45:13.1306367+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Mrs. Casandra Gutkowski II",
+        "FullName": "Hettie Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 407
+            "FieldType": "System.Int32",
+            "FieldLength": 76
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Katarina Metz",
+    "ExtraInfo": "tempore",
+    "StyleHint": "laudantium",
+    "Hidden": true,
+    "FullName": "Blaise Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldLength": 442
       }
     }
   }

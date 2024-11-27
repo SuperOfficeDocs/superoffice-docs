@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Jaskolski, Denesik and VonRueden",
-    "ToolTip": "Doloribus tempora voluptatum.",
-    "Deleted": true,
-    "Rank": 901,
-    "Type": "facere",
-    "ColorBlock": 997,
-    "IconHint": "ducimus",
+    "Id": 356,
+    "Name": "Jast, Turcotte and Thiel",
+    "ToolTip": "Iusto nesciunt alias quisquam itaque nulla ullam.",
+    "Deleted": false,
+    "Rank": 902,
+    "Type": "id",
+    "ColorBlock": 818,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2022-01-31T13:14:11.3516953+01:00",
+    "LastChanged": "2005-03-25T14:45:13.6305116+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Bogisich-Wilkinson",
-        "ToolTip": "Quis facilis illo enim voluptatem consequatur ut molestias.",
-        "Deleted": true,
-        "Rank": 349,
-        "Type": "ad",
-        "ColorBlock": 861,
-        "IconHint": "debitis",
+        "Id": 63,
+        "Name": "Olson-O'Reilly",
+        "ToolTip": "Quia porro deserunt ut.",
+        "Deleted": false,
+        "Rank": 970,
+        "Type": "quia",
+        "ColorBlock": 195,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2020-08-23T13:14:11.3516953+02:00",
+        "LastChanged": "2014-09-10T14:45:13.6305116+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Estelle Moen",
+        "ExtraInfo": "fugit",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Mr. Kaycee Ramona Walker PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldType": "System.Int32",
+            "FieldLength": 241
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "vitae",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Henderson Koelpin",
+    "FullName": "Kolby Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 595
       }
     }
   }

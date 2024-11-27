@@ -747,10 +747,17 @@ Activity archive provider for the Sale card
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
 
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
+
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personExtra/y_rental/x_amount,person/personAssociate/simultaneousEjUser,contact/contactUdef/SuperOffice:3,contact/saintActivityType,associate/personId
+GET /api/v1/archive/SaleActivity?$select=saleId,person/personUpdatedDate,person/personExtra/x_person_float,person/personAssociate/userName,contact/contactExtra/x_contact_timespan
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

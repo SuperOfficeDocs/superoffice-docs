@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.GetDashTileHtmlList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList'>GetDashTileHtmlList</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.GetDashTileHtmlList'>GetDashTileHtmlList</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeGetDashTileHtmlList
 ```cs

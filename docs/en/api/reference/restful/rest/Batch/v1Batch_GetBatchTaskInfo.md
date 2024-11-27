@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Powlowski LLC",
-  "AssociateId": 884,
-  "DetailsTable": 203,
-  "DetailsRecord": 574,
+  "Id": 357,
+  "Name": "Morissette Group",
+  "AssociateId": 496,
+  "DetailsTable": 454,
+  "DetailsRecord": 726,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ratione",
-    "ParameterObject2": "consectetur"
+    "ParameterObject1": "molestiae",
+    "ParameterObject2": "laboriosam"
   },
-  "LastStarted": "2021-01-17T13:14:11.1954363+01:00",
-  "Created": "1998-03-09T13:14:11.1954363+01:00",
-  "StartCount": 178,
-  "DatabaseSerialNumber": "242437",
-  "Context": "possimus",
-  "Result": "minima",
+  "LastStarted": "2005-10-08T14:45:13.3961895+02:00",
+  "Created": "2001-09-04T14:45:13.3961895+02:00",
+  "StartCount": 261,
+  "DatabaseSerialNumber": "1622687",
+  "Context": "vel",
+  "Result": "dignissimos",
   "State": "All",
-  "Description": "Profit-focused 24 hour instruction set",
-  "Response": "ipsam",
-  "Request": "eos",
-  "ProgressDescription": "Optional executive array",
-  "ProgressPercent": 677,
-  "FileName": "Steuber-Wilkinson",
+  "Description": "Monitored value-added customer loyalty",
+  "Response": "quas",
+  "Request": "porro",
+  "ProgressDescription": "Configurable discrete algorithm",
+  "ProgressPercent": 198,
+  "FileName": "Cassin Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 484
     }
   }
 }

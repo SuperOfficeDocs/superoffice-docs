@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Zieme-Hansen",
-  "Tooltip": "ea",
+  "Id": 822,
+  "Name": "Murray-Hand",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 183,
-  "Rank": 554,
+  "UdListDefinitionId": 675,
+  "Rank": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

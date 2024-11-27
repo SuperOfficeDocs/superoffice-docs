@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Flatley LLC",
-    "ToolTip": "Quia voluptatem aspernatur sed minus nemo vel voluptates.",
-    "Deleted": true,
-    "Rank": 982,
-    "Type": "repellat",
-    "ColorBlock": 660,
-    "IconHint": "quos",
+    "Id": 966,
+    "Name": "Crooks LLC",
+    "ToolTip": "Vel earum et distinctio ratione.",
+    "Deleted": false,
+    "Rank": 321,
+    "Type": "soluta",
+    "ColorBlock": 231,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2006-01-18T13:14:11.5079552+01:00",
+    "LastChanged": "2001-03-01T14:45:13.8804606+01:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Kreiger-Koepp",
-        "ToolTip": "Dolor occaecati quas aut ea ut eaque ea.",
-        "Deleted": true,
-        "Rank": 455,
-        "Type": "aliquid",
-        "ColorBlock": 168,
-        "IconHint": "quo",
+        "Id": 286,
+        "Name": "Kuphal Group",
+        "ToolTip": "Omnis nisi possimus qui aut quidem quidem facilis.",
+        "Deleted": false,
+        "Rank": 478,
+        "Type": "quasi",
+        "ColorBlock": 428,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2015-08-20T13:14:11.5079552+02:00",
+        "LastChanged": "2015-12-24T14:45:13.8804606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "rem",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Jennyfer Hilll"
+        "FullName": "Fermin Barrows"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ad",
+    "ExtraInfo": "amet",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Marc Willms"
+    "FullName": "Ebony Schaden"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Schroeder Inc and Sons",
-    "ToolTip": "Aliquid est consequatur et ad eaque.",
-    "Deleted": false,
-    "Rank": 691,
-    "Type": "occaecati",
-    "ColorBlock": 140,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "2009-02-11T13:14:11.5079552+01:00",
+    "Id": 934,
+    "Name": "Steuber Group",
+    "ToolTip": "Ut quae sed suscipit.",
+    "Deleted": true,
+    "Rank": 328,
+    "Type": "harum",
+    "ColorBlock": 871,
+    "IconHint": "nisi",
+    "Selected": true,
+    "LastChanged": "2005-03-31T14:45:13.8804606+02:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Hammes-Kilback",
-        "ToolTip": "Dolore qui.",
-        "Deleted": false,
-        "Rank": 571,
-        "Type": "omnis",
-        "ColorBlock": 476,
-        "IconHint": "quasi",
+        "Id": 766,
+        "Name": "Hackett, Grant and Keeling",
+        "ToolTip": "Maxime dolore et doloribus amet quibusdam sed.",
+        "Deleted": true,
+        "Rank": 253,
+        "Type": "excepturi",
+        "ColorBlock": 381,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "1997-11-05T13:14:11.5079552+01:00",
+        "LastChanged": "2005-12-24T14:45:13.8804606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "facere",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Elenora Legros",
+        "FullName": "Gus Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 240
+            "FieldType": "System.String",
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Gust Armstrong",
+    "ExtraInfo": "vero",
+    "StyleHint": "possimus",
+    "Hidden": false,
+    "FullName": "Eloy Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldType": "System.String",
+        "FieldLength": 673
       }
     }
   }

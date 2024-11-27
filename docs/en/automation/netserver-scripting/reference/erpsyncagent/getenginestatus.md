@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.GetEngineStatus
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus'>GetEngineStatus</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.GetEngineStatus'>GetEngineStatus</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeGetEngineStatus
 ```cs

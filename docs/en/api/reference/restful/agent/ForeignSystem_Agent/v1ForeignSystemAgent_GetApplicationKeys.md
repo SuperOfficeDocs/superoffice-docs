@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abshire, Zieme and Ullrich"
+  "ApplicationName": "Gerhold LLC"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "minus",
-    "Value": "ipsa",
-    "RecordId": 960,
-    "CreatedDate": "2012-05-17T13:14:06.0382898+02:00",
-    "UpdatedDate": "2003-03-10T13:14:06.0382898+01:00",
-    "UpdatedBy": "reprehenderit",
-    "CreatedBy": "amet",
-    "TableName": "Cummings-Conroy",
+    "Key": "ducimus",
+    "Value": "et",
+    "RecordId": 8,
+    "CreatedDate": "2004-07-02T14:45:05.6469762+02:00",
+    "UpdatedDate": "2023-02-18T14:45:05.6469762+01:00",
+    "UpdatedBy": "temporibus",
+    "CreatedBy": "quos",
+    "TableName": "Hettinger LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 201
       }
     }
   }

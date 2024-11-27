@@ -1,0 +1,33 @@
+items:
+- name: Template Variables Overview
+  href: index.md
+- name: Appointment variables
+  href: appointment-variables.md
+- name: Company variables
+  href: company-variables.md
+- name: Current person variables
+  href: current-person-variables.md
+- name: Document variables
+  href: document-variables.md
+- name: Formatted address variables
+  href: fad-variables.md
+- name: Own person (current user) variables
+  href: current-user-variables.md
+- name: Project variables
+  href: project-variables.md
+- name: Quote alternative variables
+  href: quote-alternative-variables.md
+- name: Quote line variables
+  href: quote-line-variables.md
+- name: Quote variables
+  href: quote-variables.md
+- name: Quote version formatter address variables
+  href: quote-version-fad-variables.md
+- name: Quote version variables
+  href: quote-version-variables.md
+- name: Sale variables
+  href: sale-variables.md
+- name: Seletion variables
+  href: selection-variables.md
+- name: System variables
+  href: system-variables.md

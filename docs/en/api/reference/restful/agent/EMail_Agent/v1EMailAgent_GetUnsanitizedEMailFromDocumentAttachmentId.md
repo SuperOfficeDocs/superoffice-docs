@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 565,
+  "DocId": 247,
   "AttachmentIds": [
-    "ad",
-    "consequuntur"
+    "iusto",
+    "necessitatibus"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 947,
-      "ContactName": "Cummerata LLC",
-      "PersonId": 280,
-      "PersonName": "Erdman LLC",
-      "AssociateId": 577,
-      "Address": "eaque",
-      "EmailId": 694,
+      "ContactId": 140,
+      "ContactName": "Conroy, Dooley and Metz",
+      "PersonId": 785,
+      "PersonName": "Lubowitz Group",
+      "AssociateId": 750,
+      "Address": "exercitationem",
+      "EmailId": 604,
       "DuplicatePersonIds": [
-        350,
-        755
+        438,
+        637
       ],
-      "Name": "Jast LLC",
+      "Name": "O'Keefe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 582
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 53,
-      "ContactName": "Casper Inc and Sons",
-      "PersonId": 64,
-      "PersonName": "Buckridge Group",
-      "AssociateId": 615,
-      "Address": "dolor",
-      "EmailId": 722,
+      "ContactId": 419,
+      "ContactName": "Stroman, Schumm and Hand",
+      "PersonId": 229,
+      "PersonName": "Padberg Group",
+      "AssociateId": 879,
+      "Address": "consequatur",
+      "EmailId": 278,
       "DuplicatePersonIds": [
-        679,
-        236
+        877,
+        829
       ],
-      "Name": "Stamm-Kirlin",
+      "Name": "Koss Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 406
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 370,
-      "ContactName": "Skiles Inc and Sons",
-      "PersonId": 305,
-      "PersonName": "Towne-Graham",
-      "AssociateId": 209,
-      "Address": "labore",
-      "EmailId": 210,
+      "ContactId": 807,
+      "ContactName": "Flatley-Brakus",
+      "PersonId": 19,
+      "PersonName": "Koss, Dooley and Botsford",
+      "AssociateId": 36,
+      "Address": "quam",
+      "EmailId": 507,
       "DuplicatePersonIds": [
-        485,
-        481
+        755,
+        246
       ],
-      "Name": "Hackett, Hodkiewicz and Vandervort",
+      "Name": "Dach-Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldType": "System.Int32",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "Subject": "sunt",
-  "HTMLBody": "qui",
+  "Subject": "voluptas",
+  "HTMLBody": "dolorem",
   "From": null,
-  "Sent": "2012-10-23T13:14:05.991412+02:00",
-  "Size": 784,
+  "Sent": "2000-06-04T14:45:05.568868+02:00",
+  "Size": 214,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "excepturi",
+  "MessageID": "ipsam",
+  "PlainBody": "recusandae",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 941,
+  "ServerId": 75,
   "Attachments": [
     {
-      "Description": "Ergonomic context-sensitive monitoring",
-      "Filename": "blanditiis",
-      "Size": 605,
-      "Type": "in",
-      "Encoding": "laborum",
-      "Id": "nam",
-      "Disposition": "assumenda",
-      "IsSafeFileExtension": true,
+      "Description": "Reverse-engineered systemic architecture",
+      "Filename": "non",
+      "Size": 148,
+      "Type": "ducimus",
+      "Encoding": "corrupti",
+      "Id": "officiis",
+      "Disposition": "voluptas",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 304
+          "FieldType": "System.Int32",
+          "FieldLength": 502
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Spinka LLC",
+      "Name": "Corwin-Adams",
       "Values": [
-        "sed",
-        "quidem"
+        "autem",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 35
         }
       }
     },
     {
-      "Name": "Spinka LLC",
+      "Name": "Corwin-Adams",
       "Values": [
-        "sed",
-        "quidem"
+        "autem",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 35
         }
       }
     }
   ],
-  "FolderName": "Heaney-Pagac",
-  "EmailItemId": 957,
-  "AccountId": 91,
-  "ReceivedAt": "2008-07-06T13:14:05.991412+02:00",
+  "FolderName": "Casper Inc and Sons",
+  "EmailItemId": 56,
+  "AccountId": 737,
+  "ReceivedAt": "2021-06-26T14:45:05.568868+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-05-15T13:14:05.991412+02:00",
+  "RepliedAt": "2003-02-12T14:45:05.568868+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 86
     }
   }
 }

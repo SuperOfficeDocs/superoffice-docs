@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Monahan-Medhurst",
-    "ToolTip": "Totam quisquam quas.",
+    "Id": 164,
+    "Name": "Stark-Rolfson",
+    "ToolTip": "Modi pariatur quasi in.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "voluptate",
+    "Rank": 52,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Murphy, Cronin and Kassulke",
-        "ToolTip": "Aliquam ut libero expedita nostrum nihil aut repudiandae.",
+        "Id": 738,
+        "Name": "Quigley LLC",
+        "ToolTip": "Laboriosam quis placeat voluptas earum et voluptas.",
         "Deleted": false,
-        "Rank": 96,
-        "Type": "omnis",
+        "Rank": 699,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 23,
-        "ExtraInfo": "non",
-        "StyleHint": "a",
-        "FullName": "Janessa Effertz",
+        "IconHint": "et",
+        "ColorBlock": 218,
+        "ExtraInfo": "est",
+        "StyleHint": "optio",
+        "FullName": "Quinn Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 671
+            "FieldLength": 24
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 914,
-    "ExtraInfo": "tempora",
-    "StyleHint": "aut",
-    "FullName": "Mrs. Kraig Elouise Schimmel DDS",
+    "IconHint": "illo",
+    "ColorBlock": 161,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "quis",
+    "FullName": "Timothy Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 888
       }
     }
   }

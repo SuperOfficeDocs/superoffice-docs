@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 740,
+  "ErpConnectionId": 758,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 155,
+  "ErpConnectionId": 644,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 478,
-      "CrmFieldKey": "quis",
-      "CrmDisplayName": "Ernser-Ferry",
-      "CrmDisplayTooltip": "ea",
-      "ErpFieldKey": "qui",
+      "ErpFieldId": 316,
+      "CrmFieldKey": "animi",
+      "CrmDisplayName": "Nitzsche-Bernhard",
+      "CrmDisplayTooltip": "unde",
+      "ErpFieldKey": "aut",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Davis-Wiza",
-      "ErpDisplayTooltip": "vel",
+      "ErpDisplayName": "Bauch, Hackett and Rosenbaum",
+      "ErpDisplayTooltip": "et",
       "SyncToCrm": false,
       "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
+      "AlreadyMapped": true,
+      "MissingInERP": false,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "sint",
+      "ListReference": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldType": "System.String",
+          "FieldLength": 185
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

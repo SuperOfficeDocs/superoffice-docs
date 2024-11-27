@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 990,
-  "Name": "Schimmel-Trantow",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "UdListDefinitionId": 494,
-  "Rank": 250,
+  "Id": 181,
+  "Name": "Weissnat-Ruecker",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "UdListDefinitionId": 851,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 104
     }
   }
 }

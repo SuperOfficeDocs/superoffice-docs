@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.MoveQuoteLine
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.MoveQuoteLine'>MoveQuoteLine</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.MoveQuoteLine'>MoveQuoteLine</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeMoveQuoteLine
 ```cs

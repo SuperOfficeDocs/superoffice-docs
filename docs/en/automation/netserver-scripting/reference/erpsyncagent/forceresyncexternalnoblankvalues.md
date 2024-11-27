@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.ForceResyncExternalNoBlankValues
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues'>ForceResyncExternalNoBlankValues</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.ForceResyncExternalNoBlankValues'>ForceResyncExternalNoBlankValues</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeForceResyncExternalNoBlankValues
 ```cs

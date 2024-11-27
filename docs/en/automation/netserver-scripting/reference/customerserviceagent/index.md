@@ -10,7 +10,7 @@ so.envir: onsite
 
 # CustomerServiceAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.ICustomerServiceAgent'>CustomerServiceAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:ICustomerServiceAgent'>CustomerServiceAgent</see> that can trigger server-side event scripts.
 
 * [AddMessageFromMailData](addmessagefrommaildata.md)
 * [ChatSessionsForUser](chatsessionsforuser.md)

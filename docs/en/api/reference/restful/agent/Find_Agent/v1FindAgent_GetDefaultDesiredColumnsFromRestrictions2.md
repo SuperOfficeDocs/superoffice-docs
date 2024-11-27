@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernhard Group",
-  "Restrictions": "rem"
+  "ProviderName": "Bauch-Howell",
+  "Restrictions": "et"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Keebler LLC",
-    "DisplayTooltip": "architecto",
-    "DisplayType": "molestias",
-    "CanOrderBy": false,
-    "Name": "Christiansen-Ledner",
+    "DisplayName": "Parker, Klein and Feest",
+    "DisplayTooltip": "beatae",
+    "DisplayType": "est",
+    "CanOrderBy": true,
+    "Name": "Carter, Emmerich and Bartoletti",
     "CanRestrictBy": true,
-    "RestrictionType": "quae",
-    "RestrictionListName": "Rosenbaum, Mosciski and Streich",
+    "RestrictionType": "officia",
+    "RestrictionListName": "Smith-Bode",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "blanditiis",
-    "IconHint": "mollitia",
-    "HeadingIconHint": "voluptatem"
+    "ExtraInfo": "hic",
+    "Width": "minus",
+    "IconHint": "cum",
+    "HeadingIconHint": "dicta"
   }
 ]
 ```

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 472
+  "ErpConnectorId": 509
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "nam",
-    "Rank": 428,
-    "DisplayName": "Gleichner, Nienow and Waelchi",
-    "DisplayDescription": "Synergistic maximized open system",
+    "FieldKey": "dolorem",
+    "Rank": 517,
+    "DisplayName": "Turner, Nikolaus and Bogisich",
+    "DisplayDescription": "De-engineered high-level alliance",
     "FieldType": "Checkbox",
-    "ListName": "Willms, Dickens and Romaguera",
-    "DefaultValue": "debitis",
-    "MaxLength": 784,
+    "ListName": "Upton Group",
+    "DefaultValue": "magni",
+    "MaxLength": 306,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldLength": 679
       }
     }
   }

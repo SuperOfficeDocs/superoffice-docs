@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 135,
-  "Name": "Schuster Group",
-  "Tooltip": "qui",
+  "HeadingId": 142,
+  "Name": "Hoppe, Hilpert and Langosh",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 811,
-  "UdListDefinitionId": 979
+  "Rank": 229,
+  "UdListDefinitionId": 107
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 922,
-  "Name": "Collier Group",
-  "Tooltip": "fuga",
-  "Deleted": true,
-  "Rank": 624,
-  "UdListDefinitionId": 196,
+  "HeadingId": 543,
+  "Name": "Collier-Skiles",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 61,
+  "UdListDefinitionId": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 67
     }
   }
 }

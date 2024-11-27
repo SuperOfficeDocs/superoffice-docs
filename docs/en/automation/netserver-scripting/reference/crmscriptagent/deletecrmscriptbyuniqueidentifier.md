@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier'>DeleteCRMScriptByUniqueIdentifier</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
+Scripting events called on the <see cref='M:ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier'>DeleteCRMScriptByUniqueIdentifier</see> method on the <see cref='ICRMScriptAgent'>ICRMScriptAgent</see>  service agent.
 
 ## BeforeDeleteCRMScriptByUniqueIdentifier
 ```cs

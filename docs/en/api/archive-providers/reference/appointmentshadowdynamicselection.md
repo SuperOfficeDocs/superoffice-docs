@@ -721,11 +721,14 @@ Shadow contact provider for the dynamic appointmnet provider.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/associateId,contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/line3,person/personAssociateId,sale/visibleFor
+GET /api/v1/archive/AppointmentShadowDynamicSelection?$select=contact/LastDoBySale,contact/saintTicketStatus,person/personRegisteredDate,person/email/emailProtocol,person/personAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

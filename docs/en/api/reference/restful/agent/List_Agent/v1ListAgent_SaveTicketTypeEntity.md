@@ -103,31 +103,31 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 614,
-  "Name": "Grimes, Dare and Price",
-  "Rank": 374,
-  "Tooltip": "accusamus",
-  "Icon": "maiores",
-  "DefaultTicketStatus": 885,
+  "TicketTypeId": 497,
+  "Name": "Jacobs Group",
+  "Rank": 185,
+  "Tooltip": "qui",
+  "Icon": "vel",
+  "DefaultTicketStatus": 88,
   "TicketStatuses": [
-    657,
-    917
+    582,
+    817
   ],
-  "DefaultTicketPriority": 284,
+  "DefaultTicketPriority": 177,
   "TicketPriorities": [
-    536,
-    648
+    632,
+    446
   ],
-  "ReplyTemplate": 338,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 860,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    183,
-    482
+    859,
+    7
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -141,31 +141,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 515,
-  "Name": "Lindgren Group",
-  "Rank": 43,
-  "Tooltip": "ducimus",
-  "Icon": "accusamus",
-  "DefaultTicketStatus": 58,
+  "TicketTypeId": 192,
+  "Name": "Paucek-Gulgowski",
+  "Rank": 104,
+  "Tooltip": "blanditiis",
+  "Icon": "animi",
+  "DefaultTicketStatus": 292,
   "TicketStatuses": [
-    138,
-    231
+    62,
+    863
   ],
-  "DefaultTicketPriority": 4,
+  "DefaultTicketPriority": 291,
   "TicketPriorities": [
-    929,
-    925
+    792,
+    226
   ],
-  "ReplyTemplate": 171,
+  "ReplyTemplate": 784,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    417,
-    676
+    934,
+    807
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 650
     }
   }
 }

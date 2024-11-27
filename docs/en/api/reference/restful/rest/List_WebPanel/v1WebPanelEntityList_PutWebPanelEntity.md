@@ -112,31 +112,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 659,
-  "Name": "Pouros Inc and Sons",
-  "Tooltip": "a",
+  "WebPanelId": 33,
+  "Name": "Ryan-Abshire",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 72,
+  "Rank": 139,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Reynolds Group",
+  "WindowName": "Morissette, Pollich and Lebsack",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 269,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ipsa",
+  "Icon": 231,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 771,
-  "Name": "Lockman, Wuckert and Grady",
-  "Tooltip": "et",
+  "WebPanelId": 377,
+  "Name": "Ward, Cruickshank and Gleason",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "Rank": 532,
+  "Rank": 109,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Friesen, Gerlach and Jast",
+  "WindowName": "Hansen-Beer",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorem",
-  "Icon": 292,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "perspiciatis",
+  "Icon": 50,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldLength": 668
     }
   }
 }

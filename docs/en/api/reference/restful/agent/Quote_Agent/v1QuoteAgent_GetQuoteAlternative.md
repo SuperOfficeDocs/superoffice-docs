@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=758
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=412
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 912,
-  "ERPQuoteAlternativeKey": "qui",
-  "QuoteVersionId": 319,
-  "Name": "Howell Inc and Sons",
-  "Description": "Configurable modular secured line",
+  "QuoteAlternativeId": 321,
+  "ERPQuoteAlternativeKey": "cupiditate",
+  "QuoteVersionId": 579,
+  "Name": "Koelpin-Konopelski",
+  "Description": "Cross-platform uniform product",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 4506.692,
-  "ERPDiscountAmount": 9872.1,
-  "DiscountPercent": 1579.536,
-  "DiscountAmount": 28187.196,
+  "ERPDiscountPercent": 16052.348,
+  "ERPDiscountAmount": 6728.6979999999994,
+  "DiscountPercent": 24401.324,
+  "DiscountAmount": 25507.626,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "non",
-  "VAT": 29174.406,
-  "EarningPercent": 4594.4439999999995,
-  "EarningAmount": 17045.826,
-  "SubTotal": 6546.9259999999995,
-  "TotalPrice": 4346.858,
-  "ExtraField1": "corrupti",
-  "ExtraField2": "corporis",
-  "ExtraField3": "quia",
-  "ExtraField4": "ut",
-  "ExtraField5": "facere",
+  "VATInfo": "et",
+  "VAT": 10254.448,
+  "EarningPercent": 147.298,
+  "EarningAmount": 17584.874,
+  "SubTotal": 20120.28,
+  "TotalPrice": 7797.392,
+  "ExtraField1": "sint",
+  "ExtraField2": "quis",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldLength": 218
     }
   }
 }

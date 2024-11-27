@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ProjectAgent.ValidateProjectEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity'>ValidateProjectEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
+Scripting events called on the <see cref='M:IProjectAgent.ValidateProjectEntity'>ValidateProjectEntity</see> method on the <see cref='IProjectAgent'>IProjectAgent</see>  service agent.
 
 ## BeforeValidateProjectEntity
 ```cs

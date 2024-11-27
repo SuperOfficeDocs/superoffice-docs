@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 894,
-  "Year": 631,
+  "TargetGroupId": 182,
+  "Year": 891,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 499,
+      "TargetAssignmentInfoId": 973,
       "Values": [
-        88,
-        994
+        203,
+        953
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 981,
-      "DimensionListItemDisplayName": "Rosenbaum-Gulgowski",
+      "DimensionListItem": 529,
+      "DimensionListItemDisplayName": "Kris-Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 47
+          "FieldType": "System.Int32",
+          "FieldLength": 422
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 879
     }
   }
 }

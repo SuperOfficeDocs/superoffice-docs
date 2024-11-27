@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 740,
-  "Name": "Stracke Group",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 877,
-  "UdListDefinitionId": 94
+  "HeadingId": 958,
+  "Name": "Cummerata, Konopelski and Boyle",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 103,
+  "UdListDefinitionId": 435
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 625,
-  "Name": "Flatley, Cruickshank and Schroeder",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "Rank": 167,
-  "UdListDefinitionId": 595,
+  "HeadingId": 82,
+  "Name": "Schuster Inc and Sons",
+  "Tooltip": "accusamus",
+  "Deleted": false,
+  "Rank": 291,
+  "UdListDefinitionId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 765
     }
   }
 }

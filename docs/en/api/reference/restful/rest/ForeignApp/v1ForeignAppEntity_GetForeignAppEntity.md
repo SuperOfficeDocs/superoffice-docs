@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Nov 2001 13:14:10 G11T
+Last-Modified: Sun, 17 Feb 2008 14:45:12 G2T
 
 {
-  "ForeignAppId": 968,
-  "Name": "Green Inc and Sons",
-  "CreatedDate": "2023-04-26T13:14:10.8360396+02:00",
-  "UpdatedDate": "2001-11-13T13:14:10.8360396+01:00",
+  "ForeignAppId": 161,
+  "Name": "Hirthe-Buckridge",
+  "CreatedDate": "2019-06-01T14:45:12.8181931+02:00",
+  "UpdatedDate": "2008-02-17T14:45:12.8181931+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 352,
-      "Name": "Ebert-Mueller",
-      "CreatedDate": "2023-02-26T13:14:10.8360396+01:00",
-      "UpdatedDate": "2022-01-08T13:14:10.8360396+01:00",
-      "AssociateFullName": "Corbin Goodwin",
-      "CreatedBy": "assumenda",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "voluptas",
-      "ForeignAppId": 360,
+      "ForeignDeviceId": 565,
+      "Name": "Klein, Heller and Purdy",
+      "CreatedDate": "2001-02-05T14:45:12.8181931+01:00",
+      "UpdatedDate": "2004-10-02T14:45:12.8181931+02:00",
+      "AssociateFullName": "Fanny Ona Corwin Sr.",
+      "CreatedBy": "est",
+      "UpdatedBy": "rem",
+      "DeviceIdentifier": "dicta",
+      "ForeignAppId": 511,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 862
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Tue, 13 Nov 2001 13:14:10 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 712
     }
   },
   "_Links": {

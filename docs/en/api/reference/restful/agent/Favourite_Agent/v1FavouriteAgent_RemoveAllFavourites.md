@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harvey Group",
-  "AssociateId": 338
+  "TableName": "Hettinger, Johns and Ortiz",
+  "AssociateId": 264
 }
 ```
 

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 535,
-  "Name": "McGlynn Inc and Sons",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "UdListDefinitionId": 555,
-  "Rank": 599
+  "Id": 813,
+  "Name": "Feest-Kunde",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 242,
+  "Rank": 447
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744,
-  "Name": "Hodkiewicz LLC",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 856,
-  "Rank": 525,
+  "Id": 155,
+  "Name": "Smith, Gaylord and Nikolaus",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "UdListDefinitionId": 525,
+  "Rank": 707,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 467
     }
   }
 }

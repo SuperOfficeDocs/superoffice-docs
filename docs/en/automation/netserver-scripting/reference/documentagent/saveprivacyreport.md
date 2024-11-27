@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.SavePrivacyReport
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.SavePrivacyReport'>SavePrivacyReport</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.SavePrivacyReport'>SavePrivacyReport</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeSavePrivacyReport
 ```cs

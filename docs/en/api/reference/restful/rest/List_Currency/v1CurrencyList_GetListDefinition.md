@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 65,
-  "Name": "Lind Group",
-  "Tooltip": "quia",
+  "Id": 257,
+  "Name": "Kling, Powlowski and Hackett",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 413,
-  "IsCustomList": true,
+  "Rank": 294,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldLength": 803
     }
   },
   "_Links": {

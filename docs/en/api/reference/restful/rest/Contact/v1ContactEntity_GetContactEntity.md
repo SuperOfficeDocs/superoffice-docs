@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=False
+GET /api/v1/Contact/{id}?fk=True
 ```
 
 
@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Aug 2003 13:14:10 G8T
+Last-Modified: Mon, 29 Oct 2018 14:45:12 G10T
 
 {
-  "ContactId": 326,
-  "Name": "Hodkiewicz, Homenick and Greenfelder",
+  "ContactId": 380,
+  "Name": "Koch LLC",
   "Department": "",
-  "OrgNr": "430736",
-  "Number1": "1286971",
-  "Number2": "679908",
-  "UpdatedDate": "2003-08-12T13:14:10.726658+02:00",
-  "CreatedDate": "2005-09-15T13:14:10.726658+02:00",
+  "OrgNr": "1094668",
+  "Number1": "1221695",
+  "Number2": "1305500",
+  "UpdatedDate": "2018-10-29T14:45:12.6463559+01:00",
+  "CreatedDate": "1999-04-26T14:45:12.6463559+02:00",
   "Emails": [
     {
-      "Value": "autem",
-      "StrippedValue": "molestiae",
-      "Description": "Multi-layered content-based capacity",
+      "Value": "saepe",
+      "StrippedValue": "quae",
+      "Description": "Distributed composite flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldLength": 611
         }
       }
     },
     {
-      "Value": "autem",
-      "StrippedValue": "molestiae",
-      "Description": "Multi-layered content-based capacity",
+      "Value": "saepe",
+      "StrippedValue": "quae",
+      "Description": "Distributed composite flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldLength": 611
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 514,
-      "Name": "Ryan-Johns",
-      "ToolTip": "Corrupti dolore expedita dolorem et et voluptatem.",
+      "Id": 45,
+      "Name": "Altenwerth Group",
+      "ToolTip": "Maxime ullam et distinctio voluptatum.",
       "Deleted": false,
-      "Rank": 233,
-      "Type": "aperiam",
-      "ColorBlock": 914,
-      "IconHint": "molestiae",
-      "Selected": false,
-      "LastChanged": "2014-05-16T13:14:10.726658+02:00",
+      "Rank": 776,
+      "Type": "voluptate",
+      "ColorBlock": 812,
+      "IconHint": "autem",
+      "Selected": true,
+      "LastChanged": "2014-12-30T14:45:12.6463559+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "temporibus",
-      "Hidden": false,
-      "FullName": "Mrs. Rosemarie Hirthe IV",
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "iure",
+      "Hidden": true,
+      "FullName": "Greg Leuschke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 918
+          "FieldType": "System.Int32",
+          "FieldLength": 792
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "vero",
-      "StrippedValue": "est",
-      "Description": "Optimized incremental ability",
+      "Value": "tempora",
+      "StrippedValue": "dolores",
+      "Description": "Configurable leading edge benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 636
         }
       }
     },
     {
-      "Value": "vero",
-      "StrippedValue": "est",
-      "Description": "Optimized incremental ability",
+      "Value": "tempora",
+      "StrippedValue": "dolores",
+      "Description": "Configurable leading edge benchmark",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 367
+          "FieldType": "System.Int32",
+          "FieldLength": 636
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "eius",
-      "StrippedValue": "sunt",
-      "Description": "De-engineered demand-driven open architecture",
+      "Value": "consequatur",
+      "StrippedValue": "neque",
+      "Description": "Re-contextualized empowering standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     },
     {
-      "Value": "eius",
-      "StrippedValue": "sunt",
-      "Description": "De-engineered demand-driven open architecture",
+      "Value": "consequatur",
+      "StrippedValue": "neque",
+      "Description": "Re-contextualized empowering standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "error",
-      "StrippedValue": "dolorum",
-      "Description": "Secured tangible function",
+      "Value": "dolore",
+      "StrippedValue": "quia",
+      "Description": "Pre-emptive client-server help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     },
     {
-      "Value": "error",
-      "StrippedValue": "dolorum",
-      "Description": "Secured tangible function",
+      "Value": "dolore",
+      "StrippedValue": "quia",
+      "Description": "Pre-emptive client-server help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     }
   ],
-  "Description": "Business-focused composite flexibility",
+  "Description": "Business-focused foreground Graphic Interface",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Last-Modified: Tue, 12 Aug 2003 13:14:10 G8T
   "Country": null,
   "Persons": [
     {
-      "Position": "aut",
-      "PersonId": 301,
-      "Mrmrs": "consectetur",
-      "Firstname": "Vicky",
-      "Lastname": "Smitham",
-      "MiddleName": "Olson LLC",
-      "Title": "nihil",
-      "Description": "Open-source 5th generation intranet",
-      "Email": "freida.gorczany@block.biz",
-      "FullName": "Ahmad White",
-      "DirectPhone": "(815)305-1938 x7900",
-      "FormalName": "Pouros, Tromp and Leuschke",
-      "CountryId": 134,
-      "ContactId": 354,
-      "ContactName": "Kshlerin Inc and Sons",
-      "Retired": 978,
-      "Rank": 880,
-      "ActiveInterests": 913,
+      "Position": "autem",
+      "PersonId": 769,
+      "Mrmrs": "enim",
+      "Firstname": "Laurel",
+      "Lastname": "Prosacco",
+      "MiddleName": "Jakubowski-Runolfsdottir",
+      "Title": "nemo",
+      "Description": "Configurable static instruction set",
+      "Email": "ian_corwin@johnson.us",
+      "FullName": "Prof. Mariana Alison McKenzie MD",
+      "DirectPhone": "341-808-1174",
+      "FormalName": "Langosh LLC",
+      "CountryId": 20,
+      "ContactId": 626,
+      "ContactName": "Barton Inc and Sons",
+      "Retired": 972,
+      "Rank": 233,
+      "ActiveInterests": 586,
       "ContactDepartment": "",
-      "ContactCountryId": 32,
-      "ContactOrgNr": "1486676",
-      "FaxPhone": "(827)138-2770 x390",
-      "MobilePhone": "453.162.7760 x01785",
-      "ContactPhone": "675.382.1972 x5219",
-      "AssociateName": "Marquardt, Kautzer and Beahan",
-      "AssociateId": 755,
-      "UsePersonAddress": false,
-      "ContactFax": "ad",
-      "Kanafname": "nihil",
-      "Kanalname": "accusamus",
-      "Post1": "dolore",
-      "Post2": "et",
-      "Post3": "beatae",
-      "EmailName": "rhett.kshlerin@strosintowne.com",
-      "ContactFullName": "Miss Gage Chance Bahringer",
-      "ActiveErpLinks": 562,
-      "TicketPriorityId": 168,
-      "SupportLanguageId": 921,
-      "SupportAssociateId": 164,
+      "ContactCountryId": 722,
+      "ContactOrgNr": "1894595",
+      "FaxPhone": "885.828.8757 x423",
+      "MobilePhone": "(361)703-6469 x5684",
+      "ContactPhone": "(773)273-5194 x1428",
+      "AssociateName": "Zemlak-Terry",
+      "AssociateId": 485,
+      "UsePersonAddress": true,
+      "ContactFax": "iusto",
+      "Kanafname": "et",
+      "Kanalname": "aut",
+      "Post1": "voluptas",
+      "Post2": "exercitationem",
+      "Post3": "enim",
+      "EmailName": "newton@rutherford.co.uk",
+      "ContactFullName": "Viola Ernser",
+      "ActiveErpLinks": 398,
+      "TicketPriorityId": 859,
+      "SupportLanguageId": 816,
+      "SupportAssociateId": 205,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 367
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "reiciendis",
+  "Kananame": "saepe",
   "Xstop": false,
-  "ActiveInterests": 785,
-  "GroupId": 961,
-  "ActiveStatusMonitorId": 121,
+  "ActiveInterests": 633,
+  "GroupId": 503,
+  "ActiveStatusMonitorId": 305,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 766,
-  "DbiAgentId": 822,
-  "DbiLastSyncronized": "2009-09-02T13:14:10.726658+02:00",
-  "DbiKey": "dolores",
-  "DbiLastModified": "2015-08-16T13:14:10.726658+02:00",
+  "Deleted": 451,
+  "DbiAgentId": 623,
+  "DbiLastSyncronized": "2014-06-01T14:45:12.6619778+02:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2017-06-17T14:45:12.6619778+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 678,
-  "ActiveErpLinks": 22,
+  "Source": 682,
+  "ActiveErpLinks": 58,
   "BounceEmails": [
-    "omari@cummingsbaumbach.uk",
-    "bennett_barton@blandahowe.biz"
+    "hester_mohr@goldner.name",
+    "deshawn@mckenziebosco.biz"
   ],
   "Domains": [
-    "rerum",
-    "nam"
+    "incidunt",
+    "natus"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Felicity Idella Gleason",
-    "SuperOffice:2": "659192419"
+    "SuperOffice:1": "593814100",
+    "SuperOffice:2": "130872810"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "quod"
+    "CustomFields1": "quos",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 75
     }
   },
   "_Links": {

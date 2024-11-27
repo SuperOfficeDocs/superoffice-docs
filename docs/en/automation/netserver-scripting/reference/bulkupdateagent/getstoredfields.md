@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BulkUpdateAgent.GetStoredFields
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields'>GetStoredFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBulkUpdateAgent.GetStoredFields'>GetStoredFields</see> method on the <see cref='IBulkUpdateAgent'>IBulkUpdateAgent</see>  service agent.
 
 ## BeforeGetStoredFields
 ```cs

@@ -718,6 +718,9 @@ Shadow contact provider for the static appointment provider.
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
+|appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |selectionId|int|Selection ID: The database ID of the selection|  |
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |rowKind| *None* |Icon indicating whether the row comes from a static or a dynamic selection|  |
@@ -727,7 +730,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelection?$select=contact/contactPhone/description,contact/searchPhone/formattedNumber,contact/contactAssociate/assocTooltip,contact/contactExtra/x_contact_time,contact/contactExtra/x_contact_boolean
+GET /api/v1/archive/AppointmentShadowStaticSelection?$select=text,contact/department,contact/contactUdef/SuperOffice:1,person/personDirectPhone/formattedNumber,person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

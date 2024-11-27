@@ -10,7 +10,7 @@ so.envir: onsite
 
 # PocketAgent method listing
 
-Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPocketAgent'>PocketAgent</see> that can trigger server-side event scripts.
+Service methods defined on <see cref='T:IPocketAgent'>PocketAgent</see> that can trigger server-side event scripts.
 
 * [GetCallerIDsFromSelection](getcalleridsfromselection.md)
 * [GetMyCallerIDs](getmycallerids.md)

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.GetDashTheme
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.GetDashTheme'>GetDashTheme</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.GetDashTheme'>GetDashTheme</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeGetDashTheme
 ```cs

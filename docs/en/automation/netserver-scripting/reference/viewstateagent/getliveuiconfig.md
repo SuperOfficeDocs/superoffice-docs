@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ViewStateAgent.GetLiveUiConfig
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig'>GetLiveUiConfig</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
+Scripting events called on the <see cref='M:IViewStateAgent.GetLiveUiConfig'>GetLiveUiConfig</see> method on the <see cref='IViewStateAgent'>IViewStateAgent</see>  service agent.
 
 ## BeforeGetLiveUiConfig
 ```cs

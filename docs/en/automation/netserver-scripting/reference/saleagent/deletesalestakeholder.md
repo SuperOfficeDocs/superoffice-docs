@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SaleAgent.DeleteSaleStakeholder
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder'>DeleteSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISaleAgent.DeleteSaleStakeholder'>DeleteSaleStakeholder</see> method on the <see cref='ISaleAgent'>ISaleAgent</see>  service agent.
 
 ## BeforeDeleteSaleStakeholder
 ```cs

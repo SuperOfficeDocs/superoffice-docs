@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ChatAgent.AddChatMessage
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IChatAgent.AddChatMessage'>AddChatMessage</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
+Scripting events called on the <see cref='M:IChatAgent.AddChatMessage'>AddChatMessage</see> method on the <see cref='IChatAgent'>IChatAgent</see>  service agent.
 
 ## BeforeAddChatMessage
 ```cs

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Bergstrom LLC",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 42,
+  "Id": 514,
+  "Name": "Gulgowski-Herman",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 708,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptate",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   },
   "_Links": {

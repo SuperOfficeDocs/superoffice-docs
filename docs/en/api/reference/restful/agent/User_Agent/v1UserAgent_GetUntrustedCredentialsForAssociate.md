@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 445,
-  "Type": "voluptatem"
+  "AssociateId": 648,
+  "Type": "vel"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1999-12-08T13:14:06.7258313+01:00",
-    "ValidTo": "2006-12-26T13:14:06.7258313+01:00",
-    "Comment": "qui",
-    "SecretValue": "provident",
-    "PublicValue": "ullam",
+    "ValidFrom": "2007-07-03T14:45:06.6779961+02:00",
+    "ValidTo": "2017-07-11T14:45:06.6779961+02:00",
+    "Comment": "voluptatem",
+    "SecretValue": "autem",
+    "PublicValue": "sed",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 885
       }
     }
   }

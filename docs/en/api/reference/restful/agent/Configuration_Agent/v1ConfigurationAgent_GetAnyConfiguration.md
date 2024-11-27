@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "et",
-  "Instance": "quibusdam",
-  "Item": "amet",
-  "Type": "qui"
+  "Application": "nemo",
+  "Instance": "officiis",
+  "Item": "eaque",
+  "Type": "accusantium"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"a"
+"cupiditate"
 ```

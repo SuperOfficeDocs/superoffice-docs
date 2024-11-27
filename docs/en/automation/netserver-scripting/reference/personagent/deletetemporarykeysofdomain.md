@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # PersonAgent.DeleteTemporaryKeysOfDomain
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain'>DeleteTemporaryKeysOfDomain</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
+Scripting events called on the <see cref='M:IPersonAgent.DeleteTemporaryKeysOfDomain'>DeleteTemporaryKeysOfDomain</see> method on the <see cref='IPersonAgent'>IPersonAgent</see>  service agent.
 
 ## BeforeDeleteTemporaryKeysOfDomain
 ```cs

@@ -75,10 +75,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "delectus",
-  "ProgramName": "Ward LLC",
-  "Action": "aliquid",
-  "ExtraParameters": "ipsa"
+  "Language": "maiores",
+  "ProgramName": "Treutel, Wisozk and Baumbach",
+  "Action": "voluptatem",
+  "ExtraParameters": "eum"
 }
 ```
 

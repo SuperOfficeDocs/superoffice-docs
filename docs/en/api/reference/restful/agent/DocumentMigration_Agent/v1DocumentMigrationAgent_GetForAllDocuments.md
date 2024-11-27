@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 687,
+  "DocumentPluginId": 501,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 399,
-  "NumDocumentsAlreadyMigrated": 531,
+  "NumDocumentsOmitted": 947,
+  "NumDocumentsAlreadyMigrated": 965,
   "Documents": [
     {
-      "DocumentId": 786,
-      "ContactId": 362,
-      "PersonId": 521,
-      "SaleId": 638,
-      "ProjectId": 585,
-      "DocTmplId": 1002,
-      "AssociateId": 564,
-      "UserGroupId": 759,
-      "VisibleForId": 726
+      "DocumentId": 512,
+      "ContactId": 567,
+      "PersonId": 167,
+      "SaleId": 952,
+      "ProjectId": 607,
+      "DocTmplId": 790,
+      "AssociateId": 466,
+      "UserGroupId": 927,
+      "VisibleForId": 387
     }
   ],
   "Associates": [
     {
-      "AssociateId": 42,
-      "EmailAddress": "dannie@predovickeeling.ca"
+      "AssociateId": 757,
+      "EmailAddress": "clay@andersonschowalter.us"
     },
     {
-      "AssociateId": 42,
-      "EmailAddress": "dannie@predovickeeling.ca"
+      "AssociateId": 757,
+      "EmailAddress": "clay@andersonschowalter.us"
     }
   ]
 }

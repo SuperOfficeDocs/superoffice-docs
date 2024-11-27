@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Marquardt, Abernathy and Schiller",
-    "ToolTip": "Et perspiciatis molestiae eos eum.",
-    "Deleted": true,
-    "Rank": 127,
-    "Type": "aut",
-    "ColorBlock": 123,
-    "IconHint": "molestiae",
+    "Id": 972,
+    "Name": "Kreiger Inc and Sons",
+    "ToolTip": "Delectus blanditiis in.",
+    "Deleted": false,
+    "Rank": 410,
+    "Type": "nesciunt",
+    "ColorBlock": 52,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2011-03-22T13:14:11.4454508+01:00",
+    "LastChanged": "2010-02-14T14:45:13.7711051+01:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Rohan Group",
-        "ToolTip": "Mollitia quae tenetur explicabo et officiis ut.",
-        "Deleted": true,
-        "Rank": 287,
-        "Type": "illo",
-        "ColorBlock": 259,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2013-07-03T13:14:11.4454508+02:00",
+        "Id": 915,
+        "Name": "Marks Inc and Sons",
+        "ToolTip": "Error quo rerum fugit voluptates.",
+        "Deleted": false,
+        "Rank": 715,
+        "Type": "qui",
+        "ColorBlock": 655,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2017-09-26T14:45:13.7711051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "fugit",
+        "ExtraInfo": "et",
+        "StyleHint": "perferendis",
         "Hidden": true,
-        "FullName": "Lisandro Wilderman"
+        "FullName": "Prof. Baron Rozella Rice PhD"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quasi",
+    "ExtraInfo": "repellat",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Miss Hank Deion Windler MD"
+    "FullName": "Lemuel Keeling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Mraz Inc and Sons",
-    "ToolTip": "Amet sapiente.",
+    "Id": 174,
+    "Name": "Simonis, Ernser and Oberbrunner",
+    "ToolTip": "Repudiandae nostrum perspiciatis.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "autem",
-    "ColorBlock": 355,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-11-13T13:14:11.4454508+01:00",
+    "Rank": 738,
+    "Type": "maxime",
+    "ColorBlock": 233,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2003-12-29T14:45:13.786728+01:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Frami Group",
-        "ToolTip": "Rem atque repellat dolore exercitationem aut.",
-        "Deleted": false,
-        "Rank": 414,
-        "Type": "est",
-        "ColorBlock": 286,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2016-11-01T13:14:11.4454508+01:00",
+        "Id": 463,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Officia ut ratione officia et aliquid maxime et.",
+        "Deleted": true,
+        "Rank": 374,
+        "Type": "ea",
+        "ColorBlock": 403,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2005-09-23T14:45:13.786728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Morgan Schamberger",
+        "ExtraInfo": "dicta",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Wanda Alena Brakus II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 651
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Ms. Patsy Cartwright",
+    "ExtraInfo": "soluta",
+    "StyleHint": "asperiores",
+    "Hidden": false,
+    "FullName": "Mrs. Sarah Erick Marvin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 110
+        "FieldLength": 756
       }
     }
   }

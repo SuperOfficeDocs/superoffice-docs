@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Abshire Inc and Sons",
-  "ProviderName": "Terry-Beier",
+  "GuiName": "Wiegand-Kovacek",
+  "ProviderName": "Schinner Group",
   "SortOrder": [
     {
-      "Name": "Muller LLC",
+      "Name": "Powlowski-Beatty",
       "Direction": "ASC"
     },
     {
-      "Name": "Muller LLC",
+      "Name": "Powlowski-Beatty",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hamill, Hirthe and Douglas",
-      "Operator": "officia",
+      "Name": "Smith LLC",
+      "Operator": "autem",
       "Values": [
-        "minima",
-        "aut"
+        "deserunt",
+        "labore"
       ],
       "DisplayValues": [
-        "eligendi",
-        "numquam"
+        "est",
+        "sequi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 743,
+      "InterParenthesis": 202,
       "InterOperator": "And",
-      "UniqueHash": 685
+      "UniqueHash": 617
     }
   ],
   "Entities": [
-    "eius",
-    "aut"
+    "totam",
+    "sed"
   ],
-  "Page": 800,
-  "PageSize": 454
+  "Page": 601,
+  "PageSize": 648
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hermiston LLC",
-    "PrimaryKey": 346,
+    "EntityName": "Bergstrom Inc and Sons",
+    "PrimaryKey": 82,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "doloribus",
-        "TooltipHint": "provident",
-        "LinkHint": "vitae"
+        "DisplayValue": "voluptatum",
+        "TooltipHint": "quia",
+        "LinkHint": "enim"
       }
     },
-    "LinkHint": "tempore",
-    "StyleHint": "veniam",
+    "LinkHint": "facere",
+    "StyleHint": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 120
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 942
+  "AssociateId": 829
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 869,
-    "AssociateId": 760,
-    "Caption": "et",
+    "DashboardId": 894,
+    "AssociateId": 318,
+    "Caption": "voluptatem",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 745,
-        "Caption": "occaecati",
-        "Description": "Synergized static groupware",
-        "ChartName": "Frami Group",
-        "ChartId": "rerum",
+        "DashboardTileId": 630,
+        "Caption": "doloribus",
+        "Description": "Sharable 5th generation infrastructure",
+        "ChartName": "Lindgren, Weber and Veum",
+        "ChartId": "ea",
         "IsDefault": false,
-        "AssociateId": 505,
-        "GroupId": 270,
-        "SelectionId": 893,
-        "Config": "eos",
+        "AssociateId": 266,
+        "GroupId": 616,
+        "SelectionId": 3,
+        "Config": "tempore",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 332
+            "FieldType": "System.String",
+            "FieldLength": 146
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldLength": 791
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=486
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=629
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "corrupti",
+  "SaleText": "consectetur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-01-13T13:14:06.38206+01:00",
-  "Amount": 4444.012,
-  "SaleId": 176,
-  "Earning": 15400.475999999999,
-  "EarningPercent": 21016.604,
-  "Heading": "quasi",
-  "Number": "1137286",
-  "Probability": 525,
-  "CreatedDate": "2023-10-06T13:14:06.38206+02:00",
-  "UpdatedDate": "2008-01-02T13:14:06.38206+01:00",
+  "Saledate": "2017-12-15T14:45:06.1624857+01:00",
+  "Amount": 14294.173999999999,
+  "SaleId": 568,
+  "Earning": 30462.48,
+  "EarningPercent": 18938.762,
+  "Heading": "inventore",
+  "Number": "1528960",
+  "Probability": 616,
+  "CreatedDate": "1998-08-17T14:45:06.1624857+02:00",
+  "UpdatedDate": "2013-03-16T14:45:06.1624857+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 501,
+  "ActiveLinks": 163,
   "Links": [
     {
-      "EntityName": "Stanton, Bergstrom and Dickinson",
-      "Id": 884,
-      "Description": "Re-contextualized even-keeled moderator",
-      "ExtraInfo": "voluptas",
-      "LinkId": 843,
+      "EntityName": "Kshlerin Inc and Sons",
+      "Id": 812,
+      "Description": "Polarised directional approach",
+      "ExtraInfo": "nulla",
+      "LinkId": 60,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldType": "System.String",
+          "FieldLength": 497
         }
       }
     }
   ],
-  "NextDueDate": "2004-10-04T13:14:06.38206+02:00",
-  "Postit": "fuga",
+  "NextDueDate": "2013-11-16T14:45:06.1624857+01:00",
+  "Postit": "id",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-05-16T13:14:06.38206+02:00",
+  "ReopenDate": "2008-04-28T14:45:06.1624857+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Waters, Bartell and Goyette",
-      "Comment": "dolores",
-      "StakeholderRoleId": 554,
-      "CountryId": 949,
-      "PersonId": 1001,
-      "EmailDescription": "bartholome.bartell@robel.biz",
-      "EmailId": 103,
-      "EmailAddress": "luella@cronin.ca",
-      "PhoneId": 866,
-      "ContactName": "Predovic-Greenholt",
-      "ContactId": 109,
-      "SaleId": 11,
-      "Mrmrs": "itaque",
-      "Firstname": "Ricardo",
-      "MiddleName": "Tremblay Group",
-      "Lastname": "Block",
-      "SaleStakeholderId": 17,
-      "Rank": 263,
-      "Phone": "(595)251-4244 x616",
+      "StakeholderRoleName": "Bergstrom, Pollich and Rohan",
+      "Comment": "omnis",
+      "StakeholderRoleId": 94,
+      "CountryId": 843,
+      "PersonId": 451,
+      "EmailDescription": "marlin@kutch.info",
+      "EmailId": 446,
+      "EmailAddress": "hermann@vonprice.com",
+      "PhoneId": 354,
+      "ContactName": "Thompson-Osinski",
+      "ContactId": 500,
+      "SaleId": 372,
+      "Mrmrs": "sunt",
+      "Firstname": "Sid",
+      "MiddleName": "Rau Inc and Sons",
+      "Lastname": "Jaskolski",
+      "SaleStakeholderId": 548,
+      "Rank": 356,
+      "Phone": "1-164-515-4546 x79103",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 71
+          "FieldLength": 844
         }
       }
     }
   ],
-  "ActiveErpLinks": 369,
+  "ActiveErpLinks": 570,
   "UserDefinedFields": {
-    "SuperOffice:1": "Karlie Beatty",
-    "SuperOffice:2": "260494864"
+    "SuperOffice:1": "Ivy Carroll DDS",
+    "SuperOffice:2": "1768281516"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "enim"
+    "CustomFields1": "dolor",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2013-01-23T13:14:06.38206+01:00",
-  "PublishTo": "2019-04-16T13:14:06.38206+02:00",
-  "PublishFrom": "2021-04-24T13:14:06.38206+02:00",
+  "PublishEventDate": "2022-03-04T14:45:06.1624857+01:00",
+  "PublishTo": "2013-03-29T14:45:06.1624857+01:00",
+  "PublishFrom": "2004-12-03T14:45:06.1624857+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 355,
+      "VisibleId": 156,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 968
         }
       }
     },
     {
-      "VisibleId": 355,
+      "VisibleId": 156,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 968
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 63
     }
   }
 }

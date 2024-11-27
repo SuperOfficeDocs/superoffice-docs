@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # AppointmentAgent.SaveAppointmentEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntity'>SaveAppointmentEntity</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IAppointmentAgent.SaveAppointmentEntity'>SaveAppointmentEntity</see> method on the <see cref='IAppointmentAgent'>IAppointmentAgent</see>  service agent.
 
 ## BeforeSaveAppointmentEntity
 ```cs

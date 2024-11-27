@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ErpSyncAgent.CreateErpActorFromCrm
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm'>CreateErpActorFromCrm</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
+Scripting events called on the <see cref='M:IErpSyncAgent.CreateErpActorFromCrm'>CreateErpActorFromCrm</see> method on the <see cref='IErpSyncAgent'>IErpSyncAgent</see>  service agent.
 
 ## BeforeCreateErpActorFromCrm
 ```cs

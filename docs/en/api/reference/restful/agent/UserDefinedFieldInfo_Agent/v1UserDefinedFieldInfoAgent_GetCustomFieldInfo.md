@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Keebler, Hettinger and Heidenreich",
-  "FieldName": "Runte, Hand and Schmidt"
+  "TableName": "Murray, Daniel and Roob",
+  "FieldName": "Weissnat Inc and Sons"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Russel-Will",
-  "DisplayName": "Langosh, Koepp and Predovic",
-  "Description": "Team-oriented intermediate website",
-  "ShortLabel": "est",
+  "FieldName": "Weber, Bashirian and Lubowitz",
+  "DisplayName": "Oberbrunner-Dibbert",
+  "Description": "Fully-configurable holistic installation",
+  "ShortLabel": "ullam",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 688,
-  "TemplateVariableName": "Kuvalis, Schultz and Reilly"
+  "IsDisplayField": false,
+  "Rank": 257,
+  "TemplateVariableName": "Durgan-Boehm"
 }
 ```

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 137,
-  "EmailAddress": "christa_rohan@gutkowski.us",
-  "EmailTemplateId": 940,
-  "CultureLcidId": 485,
-  "Subject": "fugit"
+  "PersonId": 22,
+  "EmailAddress": "ryleigh.sanford@zboncakdaugherty.co.uk",
+  "EmailTemplateId": 244,
+  "CultureLcidId": 658,
+  "Subject": "est"
 }
 ```
 

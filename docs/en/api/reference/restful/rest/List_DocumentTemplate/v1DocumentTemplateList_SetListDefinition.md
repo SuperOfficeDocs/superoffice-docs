@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Walker Inc and Sons",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 110,
+  "Id": 491,
+  "Name": "Effertz, Bartell and Windler",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 456,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "animi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Gleichner-Borer",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 117,
+  "Id": 508,
+  "Name": "Schuppe, Lubowitz and Carter",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 127,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

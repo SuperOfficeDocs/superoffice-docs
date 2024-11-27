@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # BatchAgent.DeleteBatchTask
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IBatchAgent.DeleteBatchTask'>DeleteBatchTask</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
+Scripting events called on the <see cref='M:IBatchAgent.DeleteBatchTask'>DeleteBatchTask</see> method on the <see cref='IBatchAgent'>IBatchAgent</see>  service agent.
 
 ## BeforeDeleteBatchTask
 ```cs

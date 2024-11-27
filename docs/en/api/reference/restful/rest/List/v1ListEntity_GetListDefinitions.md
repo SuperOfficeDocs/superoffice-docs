@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Morissette, O'Connell and Koch",
-    "Tooltip": "odio",
+    "Id": 726,
+    "Name": "Denesik Group",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 626,
+    "Rank": 657,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "animi",
-    "InUseByUserDefinedFields": true,
+    "ListType": "at",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

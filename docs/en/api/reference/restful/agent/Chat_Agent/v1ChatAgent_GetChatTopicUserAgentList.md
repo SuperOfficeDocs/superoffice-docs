@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 844
+  "ChatTopicId": 117
 }
 ```
 
@@ -92,18 +92,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 528,
+    "TopicId": 75,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
+    "CanListen": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 528,
+    "TopicId": 75,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
+    "CanListen": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": false
   }

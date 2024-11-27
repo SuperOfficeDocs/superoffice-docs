@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # MDOAgent.GetSelectableSimpleList
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList'>GetSelectableSimpleList</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
+Scripting events called on the <see cref='M:IMDOAgent.GetSelectableSimpleList'>GetSelectableSimpleList</see> method on the <see cref='IMDOAgent'>IMDOAgent</see>  service agent.
 
 ## BeforeGetSelectableSimpleList
 ```cs

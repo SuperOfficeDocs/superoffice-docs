@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetLocalizedTextByType
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetLocalizedTextByType'>GetLocalizedTextByType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetLocalizedTextByType'>GetLocalizedTextByType</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetLocalizedTextByType
 ```cs

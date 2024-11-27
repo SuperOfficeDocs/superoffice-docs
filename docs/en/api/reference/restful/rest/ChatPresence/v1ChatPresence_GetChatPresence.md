@@ -59,7 +59,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 633,
-    "DisplayName": "Collins-Herzog",
-    "OngoingChats": 754,
+    "UserId": 156,
+    "DisplayName": "Spinka-Schowalter",
+    "OngoingChats": 688,
     "Present": false,
     "ChatTopics": [
-      401,
-      943
+      797,
+      372
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 603
       }
     }
   }

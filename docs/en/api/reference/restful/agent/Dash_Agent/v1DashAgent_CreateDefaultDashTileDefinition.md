@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 86,
-  "Name": "Kautzer, Smitham and Roob",
-  "Description": "Extended directional toolset",
-  "DefaultHeight": 736,
-  "DefaultWidth": 250,
+  "DashboardTileDefinitionId": 67,
+  "Name": "Crooks, Doyle and Gorczany",
+  "Description": "Down-sized assymetric application",
+  "DefaultHeight": 821,
+  "DefaultWidth": 270,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hudson Group",
-  "SelectionId": 138,
+  "EntityName": "Keeling, Veum and Franecki",
+  "SelectionId": 214,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "quod",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "est",
-  "LayoutConfig": "ex",
-  "SecondarySelectionId": 344,
-  "MeasureByField": "rem",
+  "MeasureField": "at",
+  "SortBy": "perferendis",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 902,
+  "MeasureByField": "sint",
   "Usage": "Dashboard",
-  "ProviderName": "Eichmann, Kshlerin and McKenzie",
+  "ProviderName": "Hills-Purdy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

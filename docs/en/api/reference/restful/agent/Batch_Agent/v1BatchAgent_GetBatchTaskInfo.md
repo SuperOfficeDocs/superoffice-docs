@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989
+  "Id": 26
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Gottlieb-Abshire",
-  "AssociateId": 341,
-  "DetailsTable": 716,
-  "DetailsRecord": 841,
+  "Id": 687,
+  "Name": "Gibson-Parker",
+  "AssociateId": 695,
+  "DetailsTable": 423,
+  "DetailsRecord": 787,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "deleniti",
-    "ParameterObject2": "dicta"
+    "ParameterObject1": "autem",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2005-05-02T13:14:05.5226336+02:00",
-  "Created": "2018-05-05T13:14:05.5226336+02:00",
-  "StartCount": 818,
-  "DatabaseSerialNumber": "1578740",
-  "Context": "qui",
-  "Result": "facere",
+  "LastStarted": "2019-04-22T14:45:04.8815214+02:00",
+  "Created": "2006-07-19T14:45:04.8815214+02:00",
+  "StartCount": 371,
+  "DatabaseSerialNumber": "796086",
+  "Context": "quis",
+  "Result": "et",
   "State": "All",
-  "Description": "Pre-emptive eco-centric moratorium",
-  "Response": "commodi",
-  "Request": "quis",
-  "ProgressDescription": "Phased mission-critical function",
-  "ProgressPercent": 699,
-  "FileName": "Ullrich Inc and Sons",
+  "Description": "Realigned zero tolerance matrices",
+  "Response": "esse",
+  "Request": "at",
+  "ProgressDescription": "Grass-roots eco-centric capability",
+  "ProgressPercent": 433,
+  "FileName": "Rowe-Rowe",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldLength": 988
     }
   }
 }

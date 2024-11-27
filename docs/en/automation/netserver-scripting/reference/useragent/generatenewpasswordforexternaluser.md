@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.GenerateNewPasswordForExternalUser
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.GenerateNewPasswordForExternalUser'>GenerateNewPasswordForExternalUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.GenerateNewPasswordForExternalUser'>GenerateNewPasswordForExternalUser</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeGenerateNewPasswordForExternalUser
 ```cs

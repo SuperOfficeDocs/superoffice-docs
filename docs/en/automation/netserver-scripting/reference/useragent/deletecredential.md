@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # UserAgent.DeleteCredential
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IUserAgent.DeleteCredential'>DeleteCredential</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
+Scripting events called on the <see cref='M:IUserAgent.DeleteCredential'>DeleteCredential</see> method on the <see cref='IUserAgent'>IUserAgent</see>  service agent.
 
 ## BeforeDeleteCredential
 ```cs

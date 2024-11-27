@@ -125,7 +125,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 61
+  "QuoteLineId": 946
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 180,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 3,
-  "ERPProductKey": "reiciendis",
+  "QuoteLineId": 953,
+  "ERPQuoteLineKey": "natus",
+  "QuoteAlternativeId": 162,
+  "ERPProductKey": "ut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 14209.555999999999,
-  "DeliveredQuantity": 25172.288,
-  "Rank": 899,
-  "Name": "Lehner, Gottlieb and Schinner",
-  "Description": "Reactive context-sensitive installation",
-  "Code": "et",
-  "QuantityUnit": "magnam",
-  "PriceUnit": "asperiores",
-  "ItemNumber": "196416",
+  "Quantity": 30697.53,
+  "DeliveredQuantity": 17221.329999999998,
+  "Rank": 354,
+  "Name": "Quigley Inc and Sons",
+  "Description": "Multi-lateral disintermediate complexity",
+  "Code": "qui",
+  "QuantityUnit": "maxime",
+  "PriceUnit": "perferendis",
+  "ItemNumber": "1258373",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "aut",
-  "Supplier": "vero",
-  "SupplierCode": "numquam",
-  "Thumbnail": "consequatur",
-  "VATInfo": "labore",
-  "VAT": 1269.27,
-  "UnitCost": 30763.343999999997,
-  "UnitMinimumPrice": 23401.577999999998,
-  "UnitListPrice": 20828.564,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "enim",
+  "Supplier": "minus",
+  "SupplierCode": "voluptas",
+  "Thumbnail": "mollitia",
+  "VATInfo": "est",
+  "VAT": 11116.297999999999,
+  "UnitCost": 12394.97,
+  "UnitMinimumPrice": 12896.41,
+  "UnitListPrice": 14936.644,
   "ExtraInfo": [
     {
-      "Name": "Kilback LLC",
-      "Value": "tenetur",
+      "Name": "Grant-Hettinger",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 763
         }
       }
     },
     {
-      "Name": "Kilback LLC",
-      "Value": "tenetur",
+      "Name": "Grant-Hettinger",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 763
         }
       }
     }
   ],
-  "RawExtraInfo": "delectus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "SubscriptionQuantity": 15939.524,
-  "SubscriptionStart": "1997-06-20T13:14:06.3351823+02:00",
-  "ERPDiscountPercent": 12855.668,
-  "ERPDiscountAmount": 1635.9479999999999,
-  "DiscountPercent": 31114.352,
-  "DiscountAmount": 6067.424,
+  "RawExtraInfo": "amet",
+  "IsSubscription": true,
+  "SubscriptionUnit": "eligendi",
+  "SubscriptionQuantity": 15087.076,
+  "SubscriptionStart": "2023-10-01T14:45:06.0999998+02:00",
+  "ERPDiscountPercent": 125.36,
+  "ERPDiscountAmount": 21684.146,
+  "DiscountPercent": 23179.064,
+  "DiscountAmount": 30760.21,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29898.36,
-  "EarningAmount": 24398.19,
-  "SubTotal": 22583.604,
-  "TotalPrice": 9072.93,
-  "Rights": "nam",
-  "Rule": "ullam",
-  "ExtraField1": "omnis",
-  "ExtraField2": "aut",
-  "ExtraField3": "hic",
-  "ExtraField4": "eaque",
-  "ExtraField5": "ut",
+  "EarningPercent": 10129.088,
+  "EarningAmount": 23815.266,
+  "SubTotal": 24395.056,
+  "TotalPrice": 6631.544,
+  "Rights": "odio",
+  "Rule": "accusamus",
+  "ExtraField1": "qui",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "ea",
+  "ExtraField4": "in",
+  "ExtraField5": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 176
     }
   }
 }

@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ContactAgent.GetAddressByCountry
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry'>GetAddressByCountry</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
+Scripting events called on the <see cref='M:IContactAgent.GetAddressByCountry'>GetAddressByCountry</see> method on the <see cref='IContactAgent'>IContactAgent</see>  service agent.
 
 ## BeforeGetAddressByCountry
 ```cs

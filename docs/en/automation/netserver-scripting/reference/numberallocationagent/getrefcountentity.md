@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # NumberAllocationAgent.GetRefCountEntity
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity'>GetRefCountEntity</see> method on the <see cref='INumberAllocationAgent'>INumberAllocationAgent</see>  service agent.
+Scripting events called on the <see cref='M:INumberAllocationAgent.GetRefCountEntity'>GetRefCountEntity</see> method on the <see cref='INumberAllocationAgent'>INumberAllocationAgent</see>  service agent.
 
 ## BeforeGetRefCountEntity
 ```cs

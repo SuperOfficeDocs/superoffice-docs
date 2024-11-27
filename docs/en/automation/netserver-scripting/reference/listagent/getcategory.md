@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # ListAgent.GetCategory
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IListAgent.GetCategory'>GetCategory</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
+Scripting events called on the <see cref='M:IListAgent.GetCategory'>GetCategory</see> method on the <see cref='IListAgent'>IListAgent</see>  service agent.
 
 ## BeforeGetCategory
 ```cs

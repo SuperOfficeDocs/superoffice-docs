@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DocumentAgent.GetTempFile
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDocumentAgent.GetTempFile'>GetTempFile</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDocumentAgent.GetTempFile'>GetTempFile</see> method on the <see cref='IDocumentAgent'>IDocumentAgent</see>  service agent.
 
 ## BeforeGetTempFile
 ```cs

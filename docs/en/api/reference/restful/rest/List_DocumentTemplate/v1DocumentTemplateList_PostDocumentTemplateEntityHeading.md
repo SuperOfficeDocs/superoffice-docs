@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 861,
-  "Name": "Conroy, Schaefer and Spencer",
-  "Tooltip": "voluptate",
+  "HeadingId": 846,
+  "Name": "Hayes, Hilll and Rogahn",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 907,
-  "UdListDefinitionId": 532
+  "Rank": 234,
+  "UdListDefinitionId": 887
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 769,
-  "Name": "Christiansen Group",
-  "Tooltip": "vitae",
+  "HeadingId": 970,
+  "Name": "Murray-Kirlin",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 191,
-  "UdListDefinitionId": 51,
+  "Rank": 403,
+  "UdListDefinitionId": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

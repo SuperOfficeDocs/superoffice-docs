@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Batz Inc and Sons",
-      "Operator": "veritatis",
+      "Name": "Roob, Will and Schoen",
+      "Operator": "similique",
       "Values": [
-        "illo",
-        "sed"
+        "hic",
+        "quaerat"
       ],
       "DisplayValues": [
-        "vitae",
-        "velit"
+        "error",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 709,
+      "InterParenthesis": 470,
       "InterOperator": "And",
-      "UniqueHash": 817
+      "UniqueHash": 584
     }
   ],
-  "ProviderName": "Reinger, Quigley and Hettinger",
-  "PageSize": 1002,
-  "PageNumber": 601
+  "ProviderName": "Sporer Inc and Sons",
+  "PageSize": 545,
+  "PageNumber": 439
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kihn Group",
-      "DisplayTooltip": "sed",
-      "DisplayType": "provident",
+      "DisplayName": "Jerde LLC",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "at",
       "CanOrderBy": false,
-      "Name": "Kunde, Ward and Skiles",
-      "CanRestrictBy": false,
-      "RestrictionType": "culpa",
-      "RestrictionListName": "Bechtelar, Schmeler and Trantow",
+      "Name": "Doyle Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Jones-Lebsack",
       "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "beatae",
-      "IconHint": "nulla",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "magnam",
+      "Width": "in",
+      "IconHint": "omnis",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Watsica-Wyman",
-      "PrimaryKey": 495,
+      "EntityName": "Haag, Koepp and Becker",
+      "PrimaryKey": 970,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusamus",
-          "TooltipHint": "non",
-          "LinkHint": "id"
+          "DisplayValue": "autem",
+          "TooltipHint": "esse",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quo",
+      "LinkHint": "culpa",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 977
         }
       }
     }
   ],
-  "RowCount": 507,
+  "RowCount": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 981
     }
   }
 }

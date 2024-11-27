@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 552,
-  "Name": "Kertzmann Group",
-  "ContentType": "id",
-  "AttSize": 773,
-  "InlineImage": false,
-  "ContentId": "eaque",
-  "AuthKey": "sit",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 600,
+  "Name": "Roberts-Spencer",
+  "ContentType": "veritatis",
+  "AttSize": 676,
+  "InlineImage": true,
+  "ContentId": "repellat",
+  "AuthKey": "quos",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

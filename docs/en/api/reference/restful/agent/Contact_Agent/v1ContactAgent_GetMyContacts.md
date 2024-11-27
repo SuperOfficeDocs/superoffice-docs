@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 545,
-    "Name": "Prosacco Inc and Sons",
-    "OrgNr": "1220320",
+    "ContactId": 523,
+    "Name": "Beatty, Fritsch and Beatty",
+    "OrgNr": "1838840",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "dolorum",
-    "DirectPhone": "275-287-4611 x33380",
-    "AssociateId": 22,
-    "CountryId": 561,
-    "EmailAddress": "marley@jacobi.biz",
-    "Kananame": "quo",
-    "EmailAddressName": "bo@klocko.ca",
+    "City": "tempora",
+    "DirectPhone": "456.788.1793",
+    "AssociateId": 110,
+    "CountryId": 989,
+    "EmailAddress": "domenick.kautzer@berge.co.uk",
+    "Kananame": "sit",
+    "EmailAddressName": "mabel_watsica@harvey.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Dejuan McKenzie",
+    "AssociateFullName": "Noel Gibson III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "sint",
-    "FullName": "Matilda Kuhlman",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 517,
-    "Number1": "704768",
-    "Number2": "1689748",
+    "FormattedAddress": "dolorem",
+    "FullName": "Mr. Geovanny Cruickshank",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 702,
+    "Number1": "811836",
+    "Number2": "303723",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 695
       }
     }
   }

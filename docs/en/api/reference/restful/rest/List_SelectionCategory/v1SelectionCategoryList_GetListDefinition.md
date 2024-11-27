@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Brakus, Hand and Bauch",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "Rank": 154,
-  "IsCustomList": false,
+  "Id": 723,
+  "Name": "Hermiston-Price",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 260,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   },
   "_Links": {

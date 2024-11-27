@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=unde
+GET /api/v1/List/LegalBase/MDOItems?query=aliquam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Kling Group",
-    "ToolTip": "Delectus quia explicabo sunt qui qui adipisci.",
+    "Id": 858,
+    "Name": "Kirlin-Hettinger",
+    "ToolTip": "Non nihil non.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "ut",
+    "Rank": 990,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Kub-Tromp",
-        "ToolTip": "Quos sapiente magni in dolore repellat.",
-        "Deleted": true,
-        "Rank": 276,
-        "Type": "tenetur",
+        "Id": 116,
+        "Name": "Kuhlman Group",
+        "ToolTip": "Hic quasi aut molestias rerum dolores.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 569,
-        "ExtraInfo": "quasi",
-        "StyleHint": "ipsum",
-        "FullName": "Toby Koelpin",
+        "IconHint": "delectus",
+        "ColorBlock": 567,
+        "ExtraInfo": "eos",
+        "StyleHint": "ad",
+        "FullName": "Philip Dayana Borer DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 813
+            "FieldType": "System.Int32",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 859,
-    "ExtraInfo": "aliquid",
-    "StyleHint": "est",
-    "FullName": "Clyde Runolfsdottir II",
+    "IconHint": "aut",
+    "ColorBlock": 591,
+    "ExtraInfo": "ut",
+    "StyleHint": "vero",
+    "FullName": "Madyson Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Schroeder-Weissnat",
-    "ToolTip": "Dignissimos est itaque deserunt nemo.",
+    "Id": 180,
+    "Name": "Upton-Sanford",
+    "ToolTip": "Quidem animi repellendus quisquam similique.",
     "Deleted": true,
-    "Rank": 968,
-    "Type": "sed",
-    "ColorBlock": 100,
-    "IconHint": "dolorum",
+    "Rank": 392,
+    "Type": "ea",
+    "ColorBlock": 440,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "1999-08-12T13:14:11.3048179+02:00",
+    "LastChanged": "2009-10-01T14:45:13.552405+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Gusikowski, Ward and Bechtelar",
-        "ToolTip": "Harum quos qui fuga dolor autem.",
+        "Id": 938,
+        "Name": "Braun-Kuphal",
+        "ToolTip": "Ullam saepe illo repudiandae in sunt.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "hic",
-        "ColorBlock": 945,
-        "IconHint": "facere",
+        "Rank": 15,
+        "Type": "praesentium",
+        "ColorBlock": 431,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2013-03-24T13:14:11.3048179+01:00",
+        "LastChanged": "2016-03-16T14:45:13.552405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "natus",
+        "ExtraInfo": "dolores",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Anita Olson",
+        "FullName": "Rupert Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 786
+            "FieldLength": 251
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "fugit",
+    "ExtraInfo": "et",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Dejon Renner",
+    "FullName": "Ms. Heidi Wilfrid Zboncak MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 618
       }
     }
   }

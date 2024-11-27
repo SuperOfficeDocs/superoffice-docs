@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # DashAgent.AddTileToDashboard
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard'>AddTileToDashboard</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
+Scripting events called on the <see cref='M:IDashAgent.AddTileToDashboard'>AddTileToDashboard</see> method on the <see cref='IDashAgent'>IDashAgent</see>  service agent.
 
 ## BeforeAddTileToDashboard
 ```cs

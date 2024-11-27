@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Name": "Hirthe, O'Kon and Erdman",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 680,
+  "Id": 29,
+  "Name": "Schoen, Herman and Anderson",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 373,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 588,
-  "Name": "Hickle-Haley",
-  "Tooltip": "sit",
+  "Id": 874,
+  "Name": "Macejkovic Inc and Sons",
+  "Tooltip": "facilis",
   "Deleted": true,
-  "Rank": 918,
-  "IsCustomList": true,
+  "Rank": 722,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "facere",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

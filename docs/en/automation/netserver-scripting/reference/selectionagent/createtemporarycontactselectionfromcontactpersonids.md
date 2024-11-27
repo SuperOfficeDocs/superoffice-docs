@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds'>CreateTemporaryContactSelectionFromContactPersonIds</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
+Scripting events called on the <see cref='M:ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds'>CreateTemporaryContactSelectionFromContactPersonIds</see> method on the <see cref='ISelectionAgent'>ISelectionAgent</see>  service agent.
 
 ## BeforeCreateTemporaryContactSelectionFromContactPersonIds
 ```cs

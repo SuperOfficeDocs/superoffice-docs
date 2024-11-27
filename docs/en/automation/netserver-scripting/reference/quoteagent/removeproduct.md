@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # QuoteAgent.RemoveProduct
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IQuoteAgent.RemoveProduct'>RemoveProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IQuoteAgent.RemoveProduct'>RemoveProduct</see> method on the <see cref='IQuoteAgent'>IQuoteAgent</see>  service agent.
 
 ## BeforeRemoveProduct
 ```cs

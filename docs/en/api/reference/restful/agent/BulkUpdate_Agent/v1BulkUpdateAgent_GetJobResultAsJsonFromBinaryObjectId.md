@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kertzmann, Bruen and Harber",
-  "BinaryObjectId": 781
+  "TableName": "Mann Group",
+  "BinaryObjectId": 399
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aspernatur"
+"voluptatem"
 ```

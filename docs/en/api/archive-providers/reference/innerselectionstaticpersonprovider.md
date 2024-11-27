@@ -812,11 +812,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
+|personAppointment/appointment/textId|int|Text ID| x |
+|personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+|personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=countryId,personTargetRelation/middleName,personTargetRelation/personNumber,request/createdBy/simultaneousEjUser,projectMembers/hasInfoText
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=contactId,rank,personTargetRelation/personRegisteredByFullName,streetAddress/zip,contactAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

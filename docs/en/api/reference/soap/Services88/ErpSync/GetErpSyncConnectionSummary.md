@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ErpSync:DisplayDescription xsi:type="xsd:string"></ErpSync:DisplayDescription>
     <ErpSync:Active xsi:type="xsd:boolean">false</ErpSync:Active>
     <ErpSync:Deleted xsi:type="xsd:boolean">false</ErpSync:Deleted>
-    <ErpSync:LastSync xsi:type="xsd:dateTime">2024-10-28T12:12:36Z</ErpSync:LastSync>
+    <ErpSync:LastSync xsi:type="xsd:dateTime">2024-11-18T13:43:35Z</ErpSync:LastSync>
     <ErpSync:Actors xsi:type="ErpSync:ArrayOfErpSyncActorSummary">
      <ErpSync:ErpSyncActorSummary xsi:type="ErpSync:ErpSyncActorSummary">
       <ErpSync:ActorType xsi:type="ErpSync:ErpActorType">Unknown</ErpSync:ActorType>

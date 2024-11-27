@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 606,
-    "Comment": "aut",
-    "Registered": "2022-08-16T13:14:10.8985434+02:00",
-    "RegisteredAssociateId": 626,
-    "Updated": "2008-09-18T13:14:10.8985434+02:00",
-    "UpdatedAssociateId": 147,
-    "LegalBaseId": 211,
-    "LegalBaseKey": "assumenda",
-    "LegalBaseName": "White, Kozey and Thompson",
-    "ConsentPurposeId": 627,
-    "ConsentPurposeKey": "voluptates",
-    "ConsentPurposeName": "Stamm Inc and Sons",
-    "ConsentSourceId": 754,
-    "ConsentSourceKey": "adipisci",
-    "ConsentSourceName": "West-Lang",
+    "ConsentPersonId": 621,
+    "Comment": "voluptates",
+    "Registered": "2018-03-01T14:45:12.9119222+01:00",
+    "RegisteredAssociateId": 637,
+    "Updated": "2022-09-03T14:45:12.9119222+02:00",
+    "UpdatedAssociateId": 434,
+    "LegalBaseId": 448,
+    "LegalBaseKey": "illum",
+    "LegalBaseName": "Greenholt-Beatty",
+    "ConsentPurposeId": 736,
+    "ConsentPurposeKey": "et",
+    "ConsentPurposeName": "Kutch, Wilderman and Cummings",
+    "ConsentSourceId": 812,
+    "ConsentSourceKey": "voluptas",
+    "ConsentSourceName": "Klein Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 388
       }
     }
   }

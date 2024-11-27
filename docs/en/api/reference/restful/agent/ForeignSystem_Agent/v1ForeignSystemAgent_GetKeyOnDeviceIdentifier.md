@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Boyer-Rau",
-  "DeviceName": "Volkman-Ratke",
-  "DeviceIdentifier": "non",
-  "KeyName": "Kunze-Beer",
-  "TableName": "Abbott-Runte",
-  "RecordId": 871
+  "ApplicationName": "Wunsch, Thiel and Wilderman",
+  "DeviceName": "Pfeffer Inc and Sons",
+  "DeviceIdentifier": "et",
+  "KeyName": "Hauck, Waters and Littel",
+  "TableName": "Pollich Inc and Sons",
+  "RecordId": 234
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "nisi",
-  "RecordId": 973,
-  "CreatedDate": "2012-10-08T13:14:06.0382898+02:00",
-  "UpdatedDate": "2021-03-03T13:14:06.0382898+01:00",
-  "UpdatedBy": "sunt",
-  "CreatedBy": "optio",
-  "TableName": "Witting, Effertz and Willms",
+  "Key": "impedit",
+  "Value": "in",
+  "RecordId": 558,
+  "CreatedDate": "2019-03-23T14:45:05.6469762+01:00",
+  "UpdatedDate": "2020-06-16T14:45:05.6469762+02:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "dolor",
+  "TableName": "Armstrong LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   }
 }

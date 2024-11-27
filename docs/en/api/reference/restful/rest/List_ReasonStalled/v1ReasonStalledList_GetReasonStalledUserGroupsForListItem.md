@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Hudson-McLaughlin",
-    "ToolTip": "Quo aut.",
-    "Deleted": false,
-    "Rank": 827,
-    "Type": "est",
-    "ColorBlock": 875,
-    "IconHint": "id",
+    "Id": 33,
+    "Name": "Gislason LLC",
+    "ToolTip": "Consequuntur quasi.",
+    "Deleted": true,
+    "Rank": 881,
+    "Type": "eos",
+    "ColorBlock": 203,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2006-10-25T13:14:11.5392071+02:00",
+    "LastChanged": "2000-11-29T14:45:13.9116989+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Monahan, Williamson and Beahan",
-        "ToolTip": "Quia voluptatem vel incidunt nihil numquam.",
-        "Deleted": false,
-        "Rank": 531,
-        "Type": "similique",
-        "ColorBlock": 72,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2016-04-14T13:14:11.5392071+02:00",
+        "Id": 892,
+        "Name": "Koepp Group",
+        "ToolTip": "In occaecati numquam consequatur qui ratione reiciendis doloremque.",
+        "Deleted": true,
+        "Rank": 589,
+        "Type": "sit",
+        "ColorBlock": 838,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "1999-09-09T14:45:13.9116989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Miss Dessie Langworth II",
+        "ExtraInfo": "ea",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Jeremy Lynch III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Columbus Marvin DVM",
+    "ExtraInfo": "numquam",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Marcelino Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 315
       }
     }
   }

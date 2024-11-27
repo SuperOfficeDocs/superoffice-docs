@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wolff-Mayert",
-  "ProviderName": "Gerlach Inc and Sons",
+  "GuiName": "Torp, Prohaska and Sawayn",
+  "ProviderName": "Jewess-Prohaska",
   "Entities": [
-    "vel",
-    "et"
+    "magnam",
+    "quae"
   ]
 }
 ```

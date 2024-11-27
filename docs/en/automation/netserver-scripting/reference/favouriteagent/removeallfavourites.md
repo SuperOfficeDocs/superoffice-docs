@@ -9,7 +9,7 @@ so.envir: onsite
 ---
 # FavouriteAgent.RemoveAllFavourites
 
-Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites'>RemoveAllFavourites</see> method on the <see cref='IFavouriteAgent'>IFavouriteAgent</see>  service agent.
+Scripting events called on the <see cref='M:IFavouriteAgent.RemoveAllFavourites'>RemoveAllFavourites</see> method on the <see cref='IFavouriteAgent'>IFavouriteAgent</see>  service agent.
 
 ## BeforeRemoveAllFavourites
 ```cs

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636,
-  "Name": "Hoppe-Nicolas",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "Rank": 645,
+  "Id": 523,
+  "Name": "Ruecker, Yundt and Keeling",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 277,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": false
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "Name": "Frami Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 477,
+  "Id": 906,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 876,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "quis",
-  "InUseByUserDefinedFields": true,
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

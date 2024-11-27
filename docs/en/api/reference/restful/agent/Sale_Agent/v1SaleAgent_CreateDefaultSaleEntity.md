@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "recusandae",
+  "SaleText": "corporis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-10-18T13:14:06.366434+02:00",
-  "Amount": 17892.006,
-  "SaleId": 33,
-  "Earning": 16105.626,
-  "EarningPercent": 5791.632,
-  "Heading": "dolorem",
-  "Number": "909178",
-  "Probability": 205,
-  "CreatedDate": "1997-11-14T13:14:06.366434+01:00",
-  "UpdatedDate": "2014-06-27T13:14:06.366434+02:00",
+  "Saledate": "1998-01-25T14:45:06.1312424+01:00",
+  "Amount": 19935.374,
+  "SaleId": 4,
+  "Earning": 7556.074,
+  "EarningPercent": 5741.4879999999994,
+  "Heading": "rerum",
+  "Number": "682835",
+  "Probability": 725,
+  "CreatedDate": "2012-10-12T14:45:06.1312424+02:00",
+  "UpdatedDate": "2005-12-31T14:45:06.1312424+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 723,
+  "ActiveLinks": 877,
   "Links": [
     {
-      "EntityName": "Wilkinson-Watsica",
-      "Id": 669,
-      "Description": "Persevering executive application",
-      "ExtraInfo": "omnis",
-      "LinkId": 423,
+      "EntityName": "Yost, Greenholt and Adams",
+      "Id": 229,
+      "Description": "Persistent methodical moderator",
+      "ExtraInfo": "natus",
+      "LinkId": 929,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
-  "NextDueDate": "2014-02-16T13:14:06.366434+01:00",
-  "Postit": "omnis",
+  "NextDueDate": "1998-02-10T14:45:06.1312424+01:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-09-10T13:14:06.366434+02:00",
+  "ReopenDate": "2001-01-05T14:45:06.1312424+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lowe, Mills and Cole",
-      "Comment": "beatae",
-      "StakeholderRoleId": 628,
-      "CountryId": 274,
-      "PersonId": 851,
-      "EmailDescription": "maximo_herman@reichel.co.uk",
-      "EmailId": 663,
-      "EmailAddress": "austin@cronin.ca",
-      "PhoneId": 607,
-      "ContactName": "Konopelski, Ritchie and Kautzer",
-      "ContactId": 385,
-      "SaleId": 661,
-      "Mrmrs": "aut",
-      "Firstname": "Duane",
-      "MiddleName": "Botsford LLC",
-      "Lastname": "Senger",
-      "SaleStakeholderId": 82,
-      "Rank": 705,
-      "Phone": "501.962.0848 x596",
+      "StakeholderRoleName": "Christiansen, Beer and Erdman",
+      "Comment": "hic",
+      "StakeholderRoleId": 614,
+      "CountryId": 412,
+      "PersonId": 189,
+      "EmailDescription": "kaia.lang@fisher.info",
+      "EmailId": 891,
+      "EmailAddress": "neha@purdymcdermott.com",
+      "PhoneId": 624,
+      "ContactName": "Hettinger-White",
+      "ContactId": 654,
+      "SaleId": 244,
+      "Mrmrs": "error",
+      "Firstname": "Cullen",
+      "MiddleName": "Hane-Fritsch",
+      "Lastname": "Balistreri",
+      "SaleStakeholderId": 272,
+      "Rank": 230,
+      "Phone": "786.674.3909 x88971",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 749
         }
       }
     }
   ],
-  "ActiveErpLinks": 660,
+  "ActiveErpLinks": 77,
   "UserDefinedFields": {
-    "SuperOffice:1": "Destinee Lindgren",
-    "SuperOffice:2": "526989415"
+    "SuperOffice:1": "1800959792",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "quia"
+    "CustomFields1": "et",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2017-06-10T13:14:06.366434+02:00",
-  "PublishTo": "2002-06-16T13:14:06.366434+02:00",
-  "PublishFrom": "2000-08-04T13:14:06.366434+02:00",
+  "PublishEventDate": "2020-04-27T14:45:06.1312424+02:00",
+  "PublishTo": "2015-08-12T14:45:06.1312424+02:00",
+  "PublishFrom": "2008-02-20T14:45:06.1312424+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 230,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 242
         }
       }
     },
     {
-      "VisibleId": 230,
+      "VisibleId": 739,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 242
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 803
     }
   }
 }

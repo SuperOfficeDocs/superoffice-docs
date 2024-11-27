@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    70,
-    708
+    154,
+    532
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 968,
-    "MessageId": "vel",
-    "Subject": "reprehenderit",
+    "ServerId": 550,
+    "MessageId": "odit",
+    "Subject": "temporibus",
     "From": null,
     "To": [
       {
-        "ContactId": 836,
-        "ContactName": "Simonis, Mayer and Schneider",
-        "PersonId": 936,
-        "PersonName": "Hansen, Mueller and Douglas",
-        "AssociateId": 122,
-        "Address": "est",
-        "EmailId": 146,
+        "ContactId": 354,
+        "ContactName": "Larson, Prosacco and Lockman",
+        "PersonId": 180,
+        "PersonName": "Swaniawski, Baumbach and Murray",
+        "AssociateId": 321,
+        "Address": "consectetur",
+        "EmailId": 714,
         "DuplicatePersonIds": [
-          460,
-          406
+          179,
+          879
         ],
-        "Name": "Jacobi Inc and Sons",
+        "Name": "Predovic-Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 541
           }
         }
       }
     ],
-    "Sent": "2019-07-29T13:14:05.991412+02:00",
+    "Sent": "2002-04-20T14:45:05.568868+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 79,
+    "Size": 945,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 661
       }
     }
   }

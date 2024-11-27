@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 593,
-  "ListItemId": 52,
+  "UdListDefinitionId": 548,
+  "ListItemId": 737,
   "UserGroups": [
     {
-      "Id": 445,
-      "Name": "Will Group",
-      "ToolTip": "Ipsa itaque magni.",
-      "Deleted": false,
-      "Rank": 480,
-      "Type": "aspernatur",
-      "ColorBlock": 515,
-      "IconHint": "voluptates",
-      "Selected": false,
-      "LastChanged": "2006-07-10T13:14:06.0851676+02:00",
+      "Id": 605,
+      "Name": "Powlowski, Boyer and Cronin",
+      "ToolTip": "Vitae et omnis aliquid sed inventore sunt ex.",
+      "Deleted": true,
+      "Rank": 266,
+      "Type": "adipisci",
+      "ColorBlock": 744,
+      "IconHint": "aliquam",
+      "Selected": true,
+      "LastChanged": "2016-09-18T14:45:05.7094637+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "fugit",
-      "Hidden": false,
-      "FullName": "Alexa Marks IV"
+      "ExtraInfo": "animi",
+      "StyleHint": "eum",
+      "Hidden": true,
+      "FullName": "Colleen Thiel"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Hills Group",
-    "ToolTip": "Minus illum magnam unde.",
+    "Id": 200,
+    "Name": "Flatley, Kautzer and Stiedemann",
+    "ToolTip": "Accusantium earum ipsa.",
     "Deleted": false,
-    "Rank": 951,
-    "Type": "amet",
-    "ColorBlock": 491,
-    "IconHint": "occaecati",
+    "Rank": 990,
+    "Type": "rerum",
+    "ColorBlock": 554,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2009-10-28T13:14:06.0851676+01:00",
+    "LastChanged": "2005-02-17T14:45:05.7094637+01:00",
     "ChildItems": [
       {
-        "Id": 384,
-        "Name": "Anderson, Padberg and Huel",
-        "ToolTip": "Sed ipsum et libero rerum voluptas rerum et.",
-        "Deleted": true,
-        "Rank": 524,
-        "Type": "in",
-        "ColorBlock": 320,
-        "IconHint": "et",
+        "Id": 513,
+        "Name": "Schowalter-Kreiger",
+        "ToolTip": "Cumque nesciunt saepe est natus error.",
+        "Deleted": false,
+        "Rank": 625,
+        "Type": "rerum",
+        "ColorBlock": 911,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2012-11-07T13:14:06.0851676+01:00",
+        "LastChanged": "2019-02-10T14:45:05.7094637+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Robyn Greenholt",
+        "FullName": "Alverta Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 916
+            "FieldType": "System.Int32",
+            "FieldLength": 395
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "sit",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Gussie Erdman",
+    "FullName": "Jaida Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 885
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

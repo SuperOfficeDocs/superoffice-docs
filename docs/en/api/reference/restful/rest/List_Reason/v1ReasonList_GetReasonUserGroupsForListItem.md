@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Mohr, Hoeger and Connelly",
-    "ToolTip": "Et nisi voluptatibus asperiores illum.",
-    "Deleted": true,
-    "Rank": 694,
-    "Type": "atque",
-    "ColorBlock": 120,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2014-06-26T13:14:11.5235812+02:00",
+    "Id": 68,
+    "Name": "Anderson-Glover",
+    "ToolTip": "Adipisci officia officiis sint.",
+    "Deleted": false,
+    "Rank": 539,
+    "Type": "adipisci",
+    "ColorBlock": 414,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2012-03-12T14:45:13.8804606+01:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Beatty, Ferry and Dach",
-        "ToolTip": "Eaque porro vero.",
+        "Id": 287,
+        "Name": "Bradtke, Ondricka and Roberts",
+        "ToolTip": "Optio enim voluptas inventore dicta a molestiae id.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "a",
-        "ColorBlock": 65,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "1999-10-19T13:14:11.5235812+02:00",
+        "Rank": 205,
+        "Type": "et",
+        "ColorBlock": 318,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2014-08-08T14:45:13.8804606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "at",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Herman Dicki",
+        "FullName": "Major Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 772
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "neque",
-    "Hidden": true,
-    "FullName": "Prof. Marlene Hane II",
+    "ExtraInfo": "iure",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Dr. Matt Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 42
+        "FieldLength": 272
       }
     }
   }
