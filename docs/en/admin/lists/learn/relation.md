@@ -11,7 +11,7 @@ language: en
 
 # General - Relation
 
-The **Relations** section tab in the Company screen displays any connections (relations) existing between contacts. For example, information about ownership structure or about people who have been employed in different companies.
+
 
 ## What would you like to do now?
 

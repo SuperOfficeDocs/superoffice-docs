@@ -2,14 +2,19 @@
 uid: help-en-adding-items-to-relation-list
 title: Adding items to the Relation list
 description: Adding items to the Relation list
+keywords: General - Relation list, relation, list
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 
 # Add items to the General - Relation list
+
+The **Relations** section tab in the Company and Contact screens displays any connections (relations) existing between contacts. For example, information about ownership structure or about people who have been employed in different companies.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: en
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Examples of relations
+## Related content
 
-| Type | Active | Passive |
-|---|---|---|
-| Company – Company: | Company ABC Ltd cooperates with Consultancy Firm Co. | Consultancy ABC Ltd cooperates with Company Firm Co. |
-| Company - Contact: | Company ABC Ltd hires Greg Campbell (Consultancy Firm Co.) | Greg Campbell (Consultancy ABC Ltd) is hired by Company Firm Co. |
-| Contact - Company: | Peter Johnson owns Company ABC Ltd | Company ABC Ltd is owned by Peter Johnson. |
-| Contact - Contact: | Mark Johnson (Consultancy Firm Co.) is the son of Peter Johnson (Company ABC Ltd). | Peter Johnson (Company ABC Ltd) is the father of Mark Johnson (Consultancy Firm Co.). |
+* [Add and delete company and contact relations][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md
