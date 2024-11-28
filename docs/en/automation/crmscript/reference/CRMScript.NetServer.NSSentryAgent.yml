@@ -10,6 +10,7 @@ items:
   - CRMScript.NetServer.NSSentryAgent.#ctor
   - CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAllDiaries()
   - CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[])
+  - CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
   - CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
   - CRMScript.NetServer.NSSentryAgent.GetNewTableRight(String)
   - CRMScript.NetServer.NSSentryAgent.GetTableRightByContactOwnership(String,Integer)
@@ -83,6 +84,29 @@ items:
       description: "If none of the associates listed in the associateIds parameter is a diary owner, the method will return true."
   example: 
   - "\n<pre><code>NSSentryAgent agent;\nInteger[] associateIds;\nBool res = agent.CanCreateAppointmentInAssociateDiaries(associateIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
+  commentId: M:CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
+  id: 'CanCreateAppointmentInEachAssociatesDiary(Integer[])'
+  so.intellisense: NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary
+  so.version: 7.0
+  langs:
+  - crmscript
+  name: 'CanCreateAppointmentInEachAssociatesDiary(Integer[])'
+  nameWithType: NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
+  fullName: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
+  type: Method
+  summary: "\nChecks if the current associate can create appointments in diaries belonging to the associates listed in associateIds. Checks only against associates who are diary owners.\n"
+  remarks: 
+  syntax: 
+    content: Bool[] CanCreateAppointmentInEachAssociatesDiary(Integer[] associateIds)
+    parameters:
+    - id: associateIds
+      type: CRMScript.Global.Integer[]
+      description: 
+    return:
+      type: CRMScript.Global.Bool[]
+      description: ""
+  example: 
 - uid: CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
   commentId: M:CRMScript.NetServer.NSSentryAgent.GetFunctionRights()
   id: 'GetFunctionRights()'
@@ -217,6 +241,20 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: CRMScript.Global.Integer[]
   isExternal: true
   name: Integer[]
