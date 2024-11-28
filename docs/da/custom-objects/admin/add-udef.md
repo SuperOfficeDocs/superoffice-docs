@@ -3,7 +3,7 @@ uid: help-da-udef-add
 title: Tilføj brugerdefinerede felter
 description: Tilføj brugerdefinerede felter
 author: Bergfrid Dias
-date: 09.06.2024
+date: 11.29.2024
 version: 10
 keywords: udef, brugerdefineret, tilpasset felt
 topic: howto
@@ -60,15 +60,9 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 ## Hvor vises de felter, jeg opretter?
 
-* [Fanen Mere (Firma)][16]
-* [Fanen Mere (Person)][17]
-* [Fanen Mere (projekt)][13]
-* [Fanen Mere (opfølgninger)][14]
-* [Fanen Mere (Dokument)][15]
-* [Fanen Detaljer på skærmbilledet Salg][19]
+Brugerdefinerede felter, du opretter, vises i [Mere-fanen][5] for firmaer, personer, salg og projekter samt i opfølgnings- og dokumentdialogerne.
 
-> [!TIP]
-> Nederst til højre i dialogboksen **Felt** er **navnet på skabelonvariablen** efterfulgt af en kode (ID), som kan bruges til at genbruge de oplysninger, du indtaster i dette felt, f.eks. som [skabelonvariabler][12] i dokumenter og mails.
+Nederst til højre i dialogboksen **Felt** er **navnet på skabelonvariablen** efterfulgt af en kode (ID), som kan bruges til at genbruge de oplysninger, du indtaster i dette felt, f.eks. som [skabelonvariabler][12] i dokumenter og mails.
 
 ## Fejlfinding
 
@@ -89,14 +83,9 @@ Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis d
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

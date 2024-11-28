@@ -60,15 +60,9 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 
 ## Wo werden die von mir erstellten Felder angezeigt?
 
-* [Registerkarte Mehr (Firma)][16]
-* [Registerkarte Mehr (Person)][17]
-* [Registerkarte Mehr (Projekt)][13]
-* [Registerkarte Mehr (Folgeaufgaben)][14]
-* [Registerkarte Mehr (Dokument)][15]
-* [Registerkarte Mehr (Verkauf)][19]
+Die von Ihnen erstellten benutzerdefinierten Felder werden in der [Registerkarte Meer][5] für Firmen, Personen, Verkäufe und Projekte sowie in den Folgeaufgabe- und Dokumentdialogen angezeigt.
 
-> [!TIP]
-> Im unteren Teil rechts befindet sich im Dialogfeld **Felder** der **Vorlagenvariablenname**, gefolgt von einem Code (ID), mit dem die in diesem Feld die Information wiederverwenden können, wie zum Beispiel als [Vorlagenvariablen][12] in Dokumenten und E-Mails.
+Im unteren Teil rechts befindet sich im Dialogfeld **Felder** der **Vorlagenvariablenname**, gefolgt von einem Code (ID), mit dem die in diesem Feld die Information wiederverwenden können, wie zum Beispiel als [Vorlagenvariablen][12] in Dokumenten und E-Mails.
 
 ## Fehlerbehebung
 
@@ -89,14 +83,9 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

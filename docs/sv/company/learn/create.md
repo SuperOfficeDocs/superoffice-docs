@@ -3,7 +3,7 @@ uid: help-sv-company-create
 title: Skapa nya företag
 description: Skapa nya företag
 author: SuperOffice RnD
-date: 06.29.2022
+date: 11.29.2024
 keywords: företag
 topic: howto
 language: sv
@@ -30,22 +30,11 @@ Titta på filmen om hur du [skapar ett företag][1].
     > [!NOTE]
     > Standardfältvärden och listvärden (till exempel bransch och kategori) anges i dialogrutan [Inställningar][3].
 
-1. Klicka på **Spara** om du vill spara de uppgifter som du har registrerat, eller klicka på fliken **Mer** om du vill registrera fler uppgifter om företaget.
+1. Klicka på **Spara** för att spara den information du har angett. Du kan sedan klicka på [Mer-fliken][12] för att lägga till ytterligare anpassad information för företaget.
 
 ### Vad ska du ange i de olika fälten?
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
-
-## <a id="more-tab"></a>Fliken Mer (fönstret Företag)
-
-1. Gå till fliken **Mer**. Här finns användardefinierade fält för företag. Om ditt företag till exempel behöver ha fält för antal medarbetare i företaget eller omsättning kan du ange att dessa fält ska läggas in på den här fliken under Inställningar och underhåll.
-
-2. Lägg in uppgifterna.
-
-3. Klicka på **Spara** om du vill spara de uppgifter du har angett eller klicka på fliken **Intressen** om du vill lägga in information om företagets intressen.
-
-> [!NOTE]
-> Du kan också redigera företagsinformationen på fliken **Mer** genom att klicka på **Redigera**.
 
 ## <a id="interests-tab"></a>Fliken Intressen (fönstret Företag)
 
@@ -92,6 +81,7 @@ Om du försöker lägga in ett företag som liknar ett företag som redan finns 
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

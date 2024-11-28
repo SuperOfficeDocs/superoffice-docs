@@ -79,15 +79,9 @@ This tab contains fields that focus, in particular, on the financial details of 
 > [!NOTE]
 > If you change the value in the **Total cost** field, the **Profit** field or the field for the profit percentage, the other fields are automatically updated.
 
-### <a id="more-tab"></a>The More tab
+### <a id="more-tab"></a>The More tab for sales
 
-![The More tab (Sale) -screenshot][img6]
-
-The **More** tab displays user-defined fields for the sale. If your organization needs more fields than the default fields in the **Sale** tab, you can specify in Settings and maintenance that these fields will be inserted here.
-
-Click **Edit** to edit the information in the **More** tab.
-
-Three of the user-defined fields from the **More** tab can also be displayed in the **Sale** tab.
+The [More tab][12] includes additional custom fields for the sale. Up to three fields from the **More** tab can also be shown in the main **Sale** tab for easier visibility.
 
 ### The Links tab
 
@@ -131,6 +125,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -138,4 +133,3 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

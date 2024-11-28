@@ -63,9 +63,9 @@ Das Erstellen von Vorlagen für häufig verwendete Dokumente und deren Bereitste
 
 In SuperOffice CRM können Sie ganz einfach Dokumentvorlagen für Word, E-Mail, Excel, PowerPoint und andere Dateitypen erstellen.
 
-## <a id="more-tab" />Die Registerkarte Mehr
+## <a id="more-tab"></a>Die Registerkarte Mehr
 
-Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für das Dokument. Wenn Ihre Firma mehr Felder als von den Standardeinstellungen für Dokumenten vorgesehen benötigt, können Sie diese Felder in Einstellungen und Verwaltung eingeben.
+Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für das Dokument.
 
 ## Verwandte Themen
 
@@ -82,6 +82,7 @@ Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für das Dokument.
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

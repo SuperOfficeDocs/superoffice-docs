@@ -1,6 +1,8 @@
 items:
 - name: Översikt
   href: index.md
+- name: Fliken Mer
+  href: more-tab.md
 - name: Användardefinierade fält
   topicHref: udef.md
   items:

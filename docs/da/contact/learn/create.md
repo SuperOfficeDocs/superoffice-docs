@@ -3,7 +3,7 @@ uid: help-da-contact-create
 title: Opret person
 description: Sådan opretter du en ny person i SuperOffice
 author: SuperOffice RnD
-date: 12.15.2022
+date: 11.29.2024
 keywords: person, contact
 topic: howto
 language: da
@@ -51,7 +51,7 @@ Der er mange måder, du kan føje kontakter til SuperOffice CRM på:
 
     </details>
 
-5. Gå til fanen **Mere**. På denne fane finder du brugerdefinerede felter for projektet.
+5. Gå til [Mere-fanen][12] for at indtaste oplysninger. Denne fane viser brugerdefinerede felter specifikke for den valgte person.
 
 6. Gå til fanen **Interesser**. Her kan du angive interesser og alternativer for e-markedsføring/abonnement for personen.
 
@@ -70,12 +70,6 @@ Der er mange måder, du kan føje kontakter til SuperOffice CRM på:
     Oplysningerne om personen gemmes nu i databasen og vises på personkortet. Hvis du har knyttet personen til et firma, vises personen i fanen **Personer** i skærmbilledet Firma.
 
 12. Gå til detaljekortet **Relationer**. Her kan du [tilføje relationer][8] mellem denne person og en anden person eller et andet firma.
-
-## <a id="more-tab"></a>Fanen Mere (Person)
-
-Fanen **Mere** indeholder brugerdefinerede felter for personer. Hvis din organisation f.eks. sælger IT-produkter og skal bruge felter for hver persons hardware og software, kan du angive i Indstillinger og vedligeholdelse, at disse felter skal indsættes her.
-
-Andre eksempler: Ansættelsesår, ERP-id'er, brugertype, CXM-info.
 
 ## <a id="interests-tab"></a>Fanen Interesser (skærmbilledet Person)
 
@@ -114,6 +108,7 @@ På fanen **Interesser** finder du følgende alternativer:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

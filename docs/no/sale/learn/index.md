@@ -81,13 +81,7 @@ Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysning
 
 ### <a id="more-tab"></a>Fanen Mer
 
-![Mer-fanen (Salg) -screenshot][img6]
-
-I fanen **Mer** finner du brukerdefinerte felt for salget. Hvis din organisasjon har behov for å ha flere felt enn de som er standard i fanen **Salg**, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
-
-Klikk på **Rediger** for å redigere informasjonen i fanen **Mer**.
-
-Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Salg**.
+I [fanen **Mer**][12] finner du brukerdefinerte felt for salget. Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Salg**.
 
 ### Fanen Koblinger
 
@@ -131,6 +125,7 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -138,4 +133,3 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

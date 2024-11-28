@@ -63,9 +63,9 @@ Creating templates for frequently used documents and making them available for e
 
 In SuperOffice CRM, you can easily create document templates for Word, Email, Excel, PowerPoint and other file types.
 
-## <a id="more-tab" />The More tab
+## <a id="more-tab"></a>The More tab
 
-The **More** tab displays user-defined fields for the document. If your organization needs more fields than the default fields for documents, you can specify in Settings and maintenance that these fields will be inserted here.
+The [More tab][12] displays custom fields for the document.
 
 ## Related topics
 
@@ -82,6 +82,7 @@ The **More** tab displays user-defined fields for the document. If your organiza
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

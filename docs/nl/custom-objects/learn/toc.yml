@@ -1,6 +1,8 @@
 items:
 - name: Overzicht
   href: index.md
+- name: Tabblad Meer
+  href: more-tab.md
 - name: Door gebruiker gedefinieerde velden
   topicHref: udef.md
   items:

@@ -3,7 +3,7 @@ uid: help-en-contact-create
 title: Create contact
 description: How to create contact in SuperOffice.
 author: SuperOffice RnD
-date: 12.15.2022
+date: 11.29.2024
 keywords: person, contact
 topic: howto
 language: en
@@ -51,7 +51,7 @@ There are many ways you can add contacts to SuperOffice CRM:
 
     </details>
 
-5. Go to the **More** tab. This tab contains user-defined fields for the contact.
+5. Go to the [More tab][12] to enter information. This tab displays custom fields specific to the selected contact.
 
 6. Go to the **Interests** tab. Here you can set interests and e-marketing/subscription options for the contact.
 
@@ -70,12 +70,6 @@ There are many ways you can add contacts to SuperOffice CRM:
     The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the Company screen.
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
-
-## <a id="more-tab"></a>The More tab (Contact screen)
-
-The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in Settings and maintenance that these fields are to be inserted here.
-
-Other examples: Year employed, ERP IDs, user type, CXM info.
 
 ## <a id="interests-tab"></a>The Interests tab (Contact screen)
 
@@ -114,6 +108,7 @@ In the **Interests** tab you have the following options:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

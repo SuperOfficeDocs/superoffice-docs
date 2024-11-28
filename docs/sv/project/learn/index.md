@@ -32,13 +32,7 @@ Om du har valt en projekttyp för vilken en [projektguide][1] har definierats, v
 
 ## <a id="more-tab"></a>Fliken Mer
 
-![Fliken Mer (projekt) -screenshot][img4]
-
-På fliken **Mer** visas användardefinierade fält för projektet. Om din organisation behöver fler fält än standardfälten på fliken **Projekt**, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
-
-Klicka på **Redigera** för att redigera projektinformationen på fliken **Mer**.
-
-Tre av de användardefinierade fälten från fliken **Mer** kan också visas på fliken **Projekt**.
+På [fliken **Mer**][12] visas användardefinierade fält för projektet. Tre av de användardefinierade fälten från fliken **Mer** kan också visas på fliken **Projekt**.
 
 ## Fliken Anteckning
 
@@ -86,10 +80,10 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

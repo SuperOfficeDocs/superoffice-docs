@@ -80,9 +80,11 @@ Denne fane indeholder felter, der især fokuserer på salgets økonomiske detalj
 > [!NOTE]
 > Hvis du ændrer værdien i feltet **Samlet kostpris**, feltet **Fortjeneste** eller feltet for fortjenesteprocenten, opdateres de andre felter automatisk.
 
-### Fanen Links
+## <a id="more-tab"></a>Fanen Mere for salg
 
-![The More tab (Sale) -screenshot][img6]
+[Mere-fanen][12] inkluderer yderligere tilpassede felter for salget. Op til tre felter fra **Mere-fanen** kan også vises i hovedfanen **Salg** for lettere synlighed.
+
+### Fanen Links
 
 Her kan du tilføje links, der er relevante for det salg, du arbejder på, som for eksempel URL-adresser, projekter, andre salg, opfølgninger og dokumenter. Hvis du for eksempel skal til et møde med et firma, som du allerede har kommunikeret med, kan du føje links til dokumenter, som du allerede har gemt for dette firma.
 
@@ -124,6 +126,7 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -131,4 +134,3 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

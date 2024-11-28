@@ -32,13 +32,7 @@ Wanneer u een projecttype hebt geselecteerd waarvoor een [projectgids][1] is ged
 
 ## <a id="more-tab"></a>Het tabblad Meer
 
-![Het tabblad Meer (Project) -screenshot][img4]
-
-Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor het project. Wanneer voor de organisatie meer velden nodig zijn dan de standaardvelden op het tabblad **Project**, kan in Instellingen en onderhoud worden ingesteld dat hier extra velden worden weergegeven.
-
-Klik op **Bewerken** om de projectinformatie in de tab **Meer** te bewerken.
-
-Drie van de door de gebruikers gedefinieerde velden op het tabblad **Meer**kunnen bovendien worden weergegeven op het tabblad **Project**.
+Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor het project. Drie van de door de gebruikers gedefinieerde velden op het tabblad **Meer** kunnen bovendien worden weergegeven op het tabblad **Project**.
 
 ## De tab Opmerking
 
@@ -86,10 +80,10 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

@@ -30,15 +30,9 @@ To move backwards and forwards between projects, click the ![icon][img2] ![icon]
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
-## <a id="more-tab"></a>The More tab
+## <a id="more-tab"></a>The More tab for projects
 
-![The More tab (Project) -screenshot][img4]
-
-The **More** tab displays user-defined fields for the project. If your organization needs more fields than the default fields in the **Project** tab, you can specify in Settings and maintenance that these fields will be inserted here.
-
-Click **Edit** to edit the project information in the **More** tab.
-
-Three of the user-defined fields from the **More** tab can also be displayed in the **Project** tab.
+The [More tab][12] includes additional custom fields for the project. Up to three fields from the **More** tab can also be shown in the main **Project** tab for easier visibility.
 
 ## The Note tab
 
@@ -86,10 +80,10 @@ In the **Event** tab, you can specify settings for publishing events.
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

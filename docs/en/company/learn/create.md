@@ -3,7 +3,7 @@ uid: help-en-company-create
 title: Create new companies
 description: Create new companies
 author: SuperOffice RnD
-date: 06.29.2022
+date: 11.29.2024
 keywords: company
 topic: howto
 language: en
@@ -30,22 +30,11 @@ Check out the video on how to [create a company][1].
     > [!NOTE]
     > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
 
-1. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+1. Click **Save** to save the information you have entered. You can then click the [More tab][12] to enter any additional custom information for the company.
 
 ### What goes in the various fields
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
-
-## <a id="more-tab"></a>The More tab (Company screen)
-
-1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in Settings and maintenance that these fields are to be inserted here.
-
-2. Enter the information.
-
-3. Click **Save** to save the information you entered, or click the **Interests** tab to enter information about the company's interests.
-
-> [!NOTE]
-> You can also edit the company information in the **More** tab by clicking **Edit**.
 
 ## <a id="interests-tab"></a>The Interests tab (Company screen)
 
@@ -92,6 +81,7 @@ If you try to enter a company that is similar to one that is already in SuperOff
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

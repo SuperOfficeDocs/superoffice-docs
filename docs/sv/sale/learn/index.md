@@ -80,9 +80,11 @@ Den här fliken innehåller fält som särskilt fokuserar på de finansiella det
 > [!NOTE]
 > Om du ändrar värdet i fältet **Total kostnad**, fältet **Bruttovinst** eller fältet för vinstprocent, uppdateras de andra fälten automatiskt.
 
-### Fliken Länkar
+## <a id="more-tab"></a>Fliken Mer
 
-![The More tab (Sale) -screenshot][img6]
+På [fliken **Mer**][12] visas användardefinierade fält för försäljningen. Tre av de användardefinierade fälten från fliken **Mer** kan också visas på fliken **Försäljning**.
+
+### Fliken Länkar
 
 Här kan du lägga till länkar som är relevanta för den försäljning du arbetar med, till exempel URL-adresser, projekt, övrig försäljning, händelser och dokument. Om du till exempel ska ha möte med ett företag som du redan har kommunicerat med, kan du lägga till länkar till dokument som du redan har skapat för företaget.
 
@@ -124,6 +126,7 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -131,4 +134,3 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

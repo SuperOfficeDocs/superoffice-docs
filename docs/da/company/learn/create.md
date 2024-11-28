@@ -3,7 +3,7 @@ uid: help-da-company-create
 title: Oprettelse af nye firmaer
 description: Oprettelse af nye firmaer
 author: SuperOffice RnD
-date: 06.29.2022
+date: 11.29.2024
 keywords: firma
 topic: howto
 language: da
@@ -30,22 +30,11 @@ Se videoen, der viser, hvordan du [opretter et firma][1].
     > [!NOTE]
     > Standardfeltværdier og listeværdier (f.eks. branche og kategori) er angivet i dialogboksen [Præferencer][3].
 
-1. Klik på **Gem** for at gemme de oplysninger, du har registreret, eller klik på fanen **Mere**, hvis du vil registrere flere oplysninger om firmaet.
+1. Klik på **Gem** for at gemme den information, du har indtastet. Derefter kan du klikke på [Mere-fanen][12] for at tilføje eventuelle ekstra tilpassede oplysninger for firmaet.
 
 ### Hvad skal der stå i de forskellige felter
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
-
-## <a id="more-tab"></a>Fanen Mere (skærmen Firma)
-
-1. Gå til fanen **Mere**. På denne fane finder du brugerdefinerede felter for firmaer. Hvis din organisation f.eks. skal have felter til antallet af medarbejdere i firmaet eller til dens omsætning, kan du angive i Indstillinger og vedligeholdelse, at disse felter skal indsættes her.
-
-2. Indtast oplysninger.
-
-3. Klik på **Gem** for at gemme de oplysninger, du har indtastet, eller klik på fanen **Interesser**, hvis du vil indtaste oplysninger om firmaets interesser.
-
-> [!NOTE]
-> Du kan også redigere firmaoplysningerne under fanen **Mere** ved at klikke på **Rediger**.
 
 ## <a id="interests-tab"></a>Fanen Interesser (skærmbilledet Firma)
 
@@ -92,6 +81,7 @@ Hvis du forsøger at indtaste en virksomhed, der ligner en, der allerede er i Su
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

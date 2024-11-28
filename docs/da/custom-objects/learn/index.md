@@ -30,7 +30,7 @@ SuperOffice CRM og Service var engang to separate applikationer med forskellige 
 
 | Tilpasning | Licens | Kommentar |
 |---|---|---|
-| Tilføj/fjern brugerdefineret felt | Ingen | Vises automatisk på fanen Mere. Kræver Development Tools for at tilpasse placeringen. |
+| Tilføj/fjern brugerdefineret felt | Ingen | Vises automatisk på [fanen Mere][12]. Kræver Development Tools for at tilpasse placeringen. |
 | Tilpas layoutet for fanen Mere | Development Tools | |
 | Administrer side 1-felter | Development Tools | |
 | Ekstra felt | Development Tools | |
@@ -62,3 +62,4 @@ Hvis du ikke har licens til konfigurerbare skærme, skal du bruge rangen af de f
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
+[12]: more-tab.md

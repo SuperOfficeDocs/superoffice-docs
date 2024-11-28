@@ -95,7 +95,7 @@ Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at �
 
 ## <a id="more-tab"></a>Fanen Mere
 
-Fanen **Mere** viser brugerdefinerede felter for opfølgningen. Hvis din organisation har brug for flere felter end standardfelterne, kan du under Indstillinger og vedligeholdelse angive, at disse felter skal indsættes her.
+[Fanen Mere][12] viser brugerdefinerede felter for opfølgningen.
 
 ## Relateret indhold
 
@@ -106,6 +106,7 @@ Fanen **Mere** viser brugerdefinerede felter for opfølgningen. Hvis din organis
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

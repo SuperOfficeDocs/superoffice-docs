@@ -63,9 +63,9 @@ Hvis du opretter skabeloner til ofte anvendte dokumenter og gør dem tilgængeli
 
 I SuperOffice CRM kan du nemt oprette dokumentskabeloner til Word, E-mail, Excel, PowerPoint og andre filtyper.
 
-## <a id="more-tab" />Fanen Mere
+## <a id="more-tab"></a>Fanen Mere
 
-Fanen **Mere** viser brugerdefinerede felter for dokumentet. Hvis din organisation har brug for flere felter end standardfelterne, kan du under Indstillinger og vedligeholdelse angive, at disse felter skal indsættes her.
+[Fanen **Mere**][12] viser brugerdefinerede felter for dokumentet.
 
 ## Relaterede emner
 
@@ -82,6 +82,7 @@ Fanen **Mere** viser brugerdefinerede felter for dokumentet. Hvis din organisati
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

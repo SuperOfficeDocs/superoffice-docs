@@ -63,9 +63,9 @@ Ved å opprette maler for ofte brukte dokumenter, og gjør dem tilgjengelige for
 
 I SuperOffice CRM kan du enkelt opprette dokumentmaler for Word, e-post, Excel, PowerPoint og andre filtyper.
 
-## <a id="more-tab" />Mer-fanen
+## <a id="more-tab"></a>Mer-fanen
 
-I fanen **Mer** finner du brukerdefinerte felt for dokumentet. Hvis din organisasjon har behov for å ha flere felt enn de som er standard, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
+I [fanen **Mer**][12] finner du brukerdefinerte felt for dokumentet.
 
 ## Aktuelle emner
 
@@ -82,6 +82,7 @@ I fanen **Mer** finner du brukerdefinerte felt for dokumentet. Hvis din organisa
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

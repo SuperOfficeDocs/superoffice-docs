@@ -24,7 +24,7 @@ This is a proactive means to determine the current status of a tenant. Your appl
 
 The [state][3] signals wether the tenant is available for handling API requests.
 
-## Receive tenant status (Push)
+## <a id="notify"></a>Receive tenant status (Push)
 
 [Subscribing to a webhook][2] is a more reactive flow that sends notifications each and every time a tenant state changes. SuperOffice sends out a notifications [payload][4] and gives you a chance to manage tenant customer states better.
 

@@ -95,7 +95,7 @@ Die Standarddauer für einen Besprechung beträgt 1 Stunde und 15 Minuten für e
 
 ## <a id="more-tab"></a>Die Registerkarte Mehr
 
-Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für die Folgeaufgabe. Wenn Ihre Firma mehr Felder als von den Standardeinstellungen für Folgeaufgaben vorgesehen benötigt, können Sie diese Felder in Einstellungen und Verwaltung eingeben.
+Die [Registerkarte Mehr][12] enthält benutzerdefinierte Felder für die Folgeaufgabe.
 
 ## Zugehörige Inhalte
 
@@ -106,6 +106,7 @@ Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für die Folgeaufg
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

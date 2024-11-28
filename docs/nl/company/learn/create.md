@@ -3,7 +3,7 @@ uid: help-nl-company-create
 title: Nieuwe bedrijven maken
 description: Nieuwe bedrijven maken
 author: SuperOffice RnD
-date: 06.29.2022
+date: 11.29.2024
 keywords: bedrijf
 topic: howto
 language: nl
@@ -30,22 +30,11 @@ Bekijk de video over [een bedrijf maken][1].
     > [!NOTE]
     > Standaardveldwaarden en de lijstwaarden (zoals bedrijf en categorie) worden opgegeven in het [dialoogvenster Voorkeuren][3].
 
-1. Klik op **Opslaan** om de ingevoerde informatie op te slaan of selecteer de tab **Meer** als u nog meer gegevens over het bedrijf wilt invoeren.
+1. Klik op **Opslaan** om de ingevoerde informatie op te slaan. Vervolgens kunt u op het [tabblad Meer][12] klikken om extra aangepaste informatie voor het bedrijf in te voeren.
 
 ### Wat in de verschillende velden wordt ingevoerd
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
-
-## <a id="more-tab"></a>Het tabblad Meer (bedrijfsscherm)
-
-1. Selecteer het tabblad **Meer**. Dit tabblad bevat door de gebruikers gedefinieerde velden voor bedrijven. Als uw organisatie bijvoorbeeld behoefte heeft aan velden voor het aantal werknemers of de omzet van het bedrijf, kunt u in Instellingen en onderhoud opgeven dat deze velden hier moeten worden ingevoegd.
-
-2. Voer de gegevens in.
-
-3. Klik op **Opslaan** om de ingevoerde informatie op te slaan of klik in het tabblad **Interesses** als u meer gegevens wilt invoeren over de interesses van het bedrijf.
-
-> [!NOTE]
-> U kunt de bedrijfsinformatie op het tabblad **Meer** ook bewerken. Hiervoor klikt u op **Bewerken**.
 
 ## <a id="interests-tab"></a> Het tabblad Interesses (scherm Bedrijf)
 
@@ -92,6 +81,7 @@ Als u een bedrijf probeert in te voeren dat lijkt op een bedrijf dat al in Super
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

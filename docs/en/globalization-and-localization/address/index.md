@@ -192,8 +192,8 @@ For web services, use the [AddressHelper][2] class
 [3]: ../../database/tables/address.md
 [4]: ../../database/tables/phone.md
 
-[11]: ../../../automation/crmscript/howto/address/get-address.md
-[12]: ../../../automation/crmscript/howto/address/set-address.md
+[11]: ../../automation/crmscript/howto/address/get-address.md
+[12]: ../../automation/crmscript/howto/address/set-address.md
 [13]: ../../api/web-services/howto/address/get-localized-address.md
 [14]: ../../api/web-services/howto/address/set-localized-address.md
 [15]: ../../api/security/sentry/sql/set-override-sql.md
