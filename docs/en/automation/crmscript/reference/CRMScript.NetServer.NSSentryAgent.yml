@@ -95,7 +95,7 @@ items:
   nameWithType: NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
   fullName: CRMScript.NetServer.NSSentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer[])
   type: Method
-  summary: "\nChecks if the current associate can create appointments in diaries belonging to the associates listed in associateIds. Checks only against associates that are diary owners.\n"
+  summary: "\nChecks if the current associate can create appointments in diaries belonging to the associates listed in associateIds. Checks only against associates who are diary owners.\n"
   remarks: 
   syntax: 
     content: Bool[] CanCreateAppointmentInEachAssociatesDiary(Integer[] associateIds)

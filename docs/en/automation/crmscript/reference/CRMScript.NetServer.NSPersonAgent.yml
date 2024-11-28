@@ -1287,15 +1287,15 @@ items:
       description:
   example: 
   - "\n<pre><code>NSPersonAgent agent;\nInteger personId;\nInteger desiredRank;\nBool res = agent.SetPersonRank(personId, desiredRank);</code></pre>\n"
-- uid: CRMScript.NetServer.NSPersonAgent.TryAddPersonsToEmailFlow(Integer, Integer[])
+- uid: CRMScript.NetServer.NSPersonAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
   commentId: M:CRMScript.NetServer.NSPersonAgent.TryAddPersonsToEmailFlow
-  id: 'TryAddPersonsToEmailFlow(Integer, Integer[])'
+  id: 'TryAddPersonsToEmailFlow(Integer,Integer[])'
   so.intellisense: NSPersonAgent.TryAddPersonsToEmailFlow
   so.version: 10.3.8
   langs:
   - crmscript
-  name: 'TryAddPersonsToEmailFlow(Integer, Integer[])'
-  nameWithType: NSPersonAgent.TryAddPersonsToEmailFlow(Integer, Integer[])
+  name: 'TryAddPersonsToEmailFlow(Integer,Integer[])'
+  nameWithType: NSPersonAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
   fullName: CRMScript.NetServer.NSPersonAgent.TryAddPersonsToEmailFlow
   type: Method
   summary: "\nAttempts to add multiple persons to an email flow, returning an array of boolean values indicating success for each person.\n"
@@ -1304,15 +1304,16 @@ items:
     content: Bool[] TryAddPersonsToEmailFlow(Integer flowId, Integer[] personIds)
     parameters: 
     - id: flowId
-      type: Integer
+      type: CRMScript.Global.Integer
       description: "\nThe ID of the email flow to which persons will be added.\n"
     - id: personIds
-      type: Integer[]
+      type: CRMScript.Global.Integer[]
       description: "\nAn array of person IDs to be added to the email flow.\n"
     return:
       type: CRMScript.Global.Bool[]
       description: "\nAn array of boolean values indicating whether each person was successfully added to the email flow.\n"
-  example: "\n<pre><code>NSPersonAgent agent;\nInteger[] personIds;\npersonIds.pushBack(2);\nagent.TryAddPersonsToEmailFlow(1, personIds);</code></pre>\n"
+  example: 
+  - "\n<pre><code>NSPersonAgent agent;\nInteger[] personIds;\npersonIds.pushBack(2);\nagent.TryAddPersonsToEmailFlow(1, personIds);</code></pre>\n"
 - uid: CRMScript.NetServer.NSPersonAgent.Undelete(Integer)
   commentId: M:CRMScript.NetServer.NSPersonAgent.Undelete(Integer)
   id: 'Undelete(Integer)'
