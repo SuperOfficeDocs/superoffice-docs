@@ -1390,6 +1390,20 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: CRMScript.NetServer.NSPersonEntity
   commentId: T:CRMScript.NetServer.NSPersonEntity
   isExternal: true
