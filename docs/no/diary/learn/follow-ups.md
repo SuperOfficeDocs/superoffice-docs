@@ -95,7 +95,7 @@ Standard varighet for et møte er én time og 15 minutter for en samtale. For å
 
 ## <a id="more-tab"></a>Mer-fanen
 
-I fanen **Mer** finner du brukerdefinerte felt for oppfølgingen. Hvis din organisasjon har behov for å ha flere felt enn de som er standard for oppfølginger, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
+I [fanen Mer][12] finner du brukerdefinerte felt for oppfølgingen.
 
 ## Aktuelt innhold
 
@@ -106,6 +106,7 @@ I fanen **Mer** finner du brukerdefinerte felt for oppfølgingen. Hvis din organ
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

@@ -3,7 +3,7 @@ uid: help-de-contact-create
 title: Person erstellen
 description: Wie man eine Person in SuperOffice erstellt.
 author: SuperOffice RnD
-date: 12.15.2022
+date: 11.29.2024
 keywords: person, Person
 topic: howto
 language: de
@@ -51,7 +51,7 @@ Es gibt viele Möglichkeiten, wie Sie Personen zu SuperOffice CRM hinzufügen k�
 
     </details>
 
-5. Wechseln Sie zur Registerkarte **Mehr**. Diese Registerkarte enthält benutzerdefinierte Felder für die Person.
+5. Gehen Sie zur [Registerkarte Mehr][12], um Informationen einzugeben. Diese Registerkarte zeigt benutzerdefinierte Felder, die für den ausgewählten Person spezifisch sind.
 
 6. Wechseln Sie zur Registerkarte **Interessen**. Hier können Sie Interessen und E-Marketing-/Abonnementoptionen für die Person festlegen.
 
@@ -70,12 +70,6 @@ Es gibt viele Möglichkeiten, wie Sie Personen zu SuperOffice CRM hinzufügen k�
     Die Informationen über die Person werden nun in der Datenbank gespeichert und auf der Personenkarte angezeigt. Wenn Sie die Person mit einer Firma verknüpft haben, wird die Person auf der Registerkarte **Personen** in der Ansicht Firma angezeigt.
 
 12. Wechseln Sie zur Bereichsregisterkarte **Beziehungen**. Hier können Sie [Beziehungen hinzufügen][8], die zwischen dieser und einer anderen Person oder Firma bestehen.
-
-## <a id="more-tab"></a>Registerkarte Mehr (Ansicht Person)
-
-Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für Personen. Wenn Ihre Organisation zum Beispiel IT-Produkte verkauft und Felder für die Hard- und Software jeder Person benötigt, können Sie unter Einstellungen und Verwaltung festlegen, ob diese Felder hier eingefügt werden sollen.
-
-Weitere Beispiele: Beschäftigungsjahr, ERP-IDs, Mitarbeitertyp, CXM-Info.
 
 ## <a id="interests-tab"></a>Die Registerkarte Interessen (Ansicht Person)
 
@@ -114,6 +108,7 @@ Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

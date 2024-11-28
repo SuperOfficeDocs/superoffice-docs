@@ -40,4 +40,4 @@ Het sectietabblad **Relaties** in het scherm Bedrijf geeft alle bestaande verbin
 * [Bedrijfs- en persoonsrelaties toevoegen en verwijderen][1]
 
 <!-- Referenced links -->
-[1]: ../../../learn/basics/relations.md|
+[1]: ../../../learn/basics/relations.md

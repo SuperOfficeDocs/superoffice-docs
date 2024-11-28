@@ -97,7 +97,7 @@ Standardlängden för ett möte är 1 timme och 15 minuter for et samtal, men du
 
 ## <a id="more-tab"></a>Fliken Mer
 
-På fliken **Mer** visas användardefinierade fält för händelsen. Om din organisation behöver fler fält än standardfälten för händelser, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
+På [fliken Mer][12] visas användardefinierade fält för händelsen.
 
 ## Relaterat innehåll
 
@@ -108,6 +108,7 @@ På fliken **Mer** visas användardefinierade fält för händelsen. Om din orga
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

@@ -78,11 +78,13 @@ Dit tabblad bevat velden met financiële informatie over de verkoop.
 | Door gebruiker gedefinieerde velden | In de door gebruikers gedefinieerde velden kunt u verdere informatie over de verkoop invoeren. | |
 
 > [!NOTE]
-> als u de waarde wijzigt in het veld **Totale kosten**, in het veld **Winst** of in het veld met het winstpercentage, worden de andere velden automatisch bijgewerkt.
+> Als u de waarde wijzigt in het veld **Totale kosten**, in het veld **Winst** of in het veld met het winstpercentage, worden de andere velden automatisch bijgewerkt.
+
+## <a id="more-tab"></a>Het tabblad Meer
+
+Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor het verkoop. Drie van de door de gebruikers gedefinieerde velden op het tabblad **Meer** kunnen bovendien worden weergegeven op het tabblad **Verkoop**.
 
 ### Het tabblad Koppelingen
-
-![The More tab (Sale) -screenshot][img6]
 
 Hier kunt u koppeling die relevant zijn voor de verkoop, zoals URL-adressen, projecten, andere verkopen, vervolgactiviteiten en documenten toevoegen. Als u bijvoorbeeld naar een vergadering gaat met een bedrijf waarmee u eerder contact hebt gehad, kunt u koppelingen toevoegen naar documenten die u al voor dit bedrijf hebt gemaakt.
 
@@ -124,6 +126,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -131,4 +134,3 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

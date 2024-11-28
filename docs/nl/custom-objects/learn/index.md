@@ -30,7 +30,7 @@ SuperOffice CRM en Service waren ooit twee aparte toepassingen met verschillende
 
 | Aanpassing | Licentie | Opmerking |
 |---|---|---|
-| Voeg toe/verwijder gebruikersgedefinieerd veld | Geen | Wordt automatisch weergegeven op het tabblad Meer. Vereist Development Tools om de plaatsing aan te passen. |
+| Voeg toe/verwijder gebruikersgedefinieerd veld | Geen | Wordt automatisch weergegeven op het [tabblad Meer][12]. Vereist Development Tools om de plaatsing aan te passen. |
 | Pas het layout van het Meer tabblad aan | Development Tools | |
 | Beheer pagina 1 velden | Development Tools | |
 | Extra veld | Development Tools | |
@@ -56,5 +56,6 @@ Als u geen Development Tools-licentie heeft, gebruikt u de rang van de verschill
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
+[12]: more-tab.md
 
 <!-- Referenced images -->

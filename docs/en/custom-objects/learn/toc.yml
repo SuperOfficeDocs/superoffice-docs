@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: The More tab
+  href: more-tab.md
 - name: User-defined fields
   topicHref: udef.md
   items:

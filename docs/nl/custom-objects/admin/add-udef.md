@@ -60,15 +60,9 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 ## Waar worden de velden die ik maak, weergegeven?
 
-* [Het tabblad Meer (Bedrijf)][16]
-* [Het tabblad Meer (Contactpersoon)][17]
-* [Het tabblad Meer (Project)][13]
-* [Het tabblad Meer (Vervolgactiviteit)][14]
-* [Het tabblad Meer (Document)][15]
-* [Het tabblad Meer (Verkoop)][19]
+De door u gemaakte aangepaste velden verschijnen in het [Meer-tabblad][5] voor Bedrijven, Personen, Verkopen en Projecten, evenals in de Vervolgactiviteit- en Documentdialogen.
 
-> [!TIP]
-> In de rechterbenedenhoek van het dialoogvenster **Velden** staat de **Naam sjabloonvariabele** gevolgd door een code (ID), die kan worden gebruikt om de informatie die u in dit veld invoert opnieuw te gebruiken, bijvoorbeeld als [sjabloonvariabelen][12] in documenten en e-mails.
+In de rechterbenedenhoek van het dialoogvenster **Velden** staat de **Naam sjabloonvariabele** gevolgd door een code (ID), die kan worden gebruikt om de informatie die u in dit veld invoert opnieuw te gebruiken, bijvoorbeeld als [sjabloonvariabelen][12] in documenten en e-mails.
 
 ## Troubleshooting
 
@@ -89,14 +83,9 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

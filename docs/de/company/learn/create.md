@@ -3,7 +3,7 @@ uid: help-de-company-create
 title: Neue Firmen erstellen
 description: Neue Firmen erstellen
 author: SuperOffice RnD
-date: 06.29.2022
+date: 11.29.2024
 keywords: Firma
 topic: howto
 language: de
@@ -30,22 +30,11 @@ Sehen Sie sich das Video an, wie Sie eine [Firma erstellen][1].
     > [!NOTE]
     > Standardfeldwerte und Listenwerte (wie beispielsweise Branche und Kategorie) werden im [Dialogfenster Voreinstellungen][3] festgelegt.
 
-1. Klicken Sie auf **Speichern**, um die eingegebenen Informationen zu speichern, oder klicken Sie auf die Registerkarte **Mehr**, um weitere Informationen zur Firma einzugeben.
+1. Klicken Sie auf **Speichern**, um die eingegebenen Informationen zu speichern. Anschließend können Sie auf die [Registerkarte Mehr][12] klicken, um zusätzliche benutzerdefinierte Informationen für die Firma einzugeben.
 
 ### Was in den verschiedenen Feldern passiert
 
 [!include[Steps to populate company fields](includes/company-fields.md)]
-
-## <a id="more-tab"></a>Registerkarte Mehr (Ansicht Firma)
-
-1. Wechseln Sie zur Registerkarte **Mehr**. Diese Registerkarte enthält benutzerdefinierte Felder für Firmen. Wenn Ihre Organisation z.B. Felder für die Anzahl der Mitarbeiter in der Firma oder für dessen Umsatz benötigt, können Sie unter Einstellungen und Verwaltung festlegen, dass diese Felder hier eingefügt werden sollen.
-
-2. Geben Sie die Informationen ein.
-
-3. Klicken Sie auf **Speichern**, um die eingegebenen Informationen zu speichern, oder klicken Sie auf die Registerkarte **Interessen**, um Informationen zu den Interessen der Firma einzugeben.
-
-> [!NOTE]
-> Sie können die zu einer Firma gehörenden Informationen auch auf der Registerkarte **Mehr** ändern, indem Sie auf **Bearbeiten** klicken.
 
 ## <a id="interests-tab"></a>Registerkarte Interessen (Ansicht Firma)
 
@@ -92,6 +81,7 @@ Wenn Sie versuchen, eine Firma einzugeben, die einer Firma ähnelt, die bereits 
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/new-company.png

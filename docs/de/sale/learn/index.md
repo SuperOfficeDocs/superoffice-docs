@@ -80,9 +80,11 @@ Diese Registerkarte enthält speziell Felder mit Angaben zu den finanziellen Det
 > [!NOTE]
 > Wenn Sie den Wert im Feld **Gesamtkosten**, **Ertrag** oder im Feld für die Ertragsprozentzahl ändern, werden die anderen Felder automatisch aktualisiert.
 
-### Die Registerkarte Verknüpfungen
+## <a id="more-tab"></a>Registerkarte Mehr
 
-![The More tab (Sale) -screenshot][img6]
+Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für den Verkauf. Auf der Registerkarte **Verkauf** können Sie außerdem drei benutzerdefinierte Felder der Registerkarte **Mehr** anzeigen.
+
+### Die Registerkarte Verknüpfungen
 
 Hier können Sie Verknüpfungen hinzufügen, die für den Verkauf, an dem Sie arbeiten, relevant sind, wie URL-Adressen, Projekte, andere Verkäufe, Folgeaufgaben und Dokumente. Wenn Sie beispielsweise eine Besprechung mit einer Firma haben, mit der Sie bereits zuvor in Kontakt waren, können Sie Verknüpfungen zu den Dokumenten hinzufügen, die Sie bereits für diese Firma erstellt haben.
 
@@ -124,6 +126,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
@@ -131,4 +134,3 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img4]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/loc/en/sale/sale-card.png
-[img6]: ../../../media/loc/en/sale/sale-more.png

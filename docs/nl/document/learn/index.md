@@ -63,9 +63,9 @@ Door sjablonen te maken voor veelgebruikte documenten en deze voor iedereen besc
 
 In SuperOffice CRM kunt u eenvoudig documentsjablonen maken voor Word, E-mail, Excel, PowerPoint en andere bestandstypen.
 
-## <a id="more-tab" />Het tabblad Meer
+## <a id="more-tab"></a>Het tabblad Meer
 
-Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de document. Wanneer voor de organisatie meer velden nodig zijn dan de standaardvelden voor documenten, kan in Instellingen en onderhoud worden ingesteld dat hier extra velden worden weergegeven.
+Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor de document.
 
 ## Verwante onderwerpen
 
@@ -82,6 +82,7 @@ Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de document
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

@@ -30,15 +30,9 @@ Hvis du vil gå frem og tilbage mellem projekter, skal du klikke på ![ikon][img
 
 Hvis du vælger en projekttype, der er defineret en [projektguide][1] for, vises fanen **Projektguide** på detaljekortet.
 
-## <a id="more-tab"></a>Fanen Mere
+## <a id="more-tab"></a>Fanen Mere for projekt
 
-![Fanen Mere (projekt) -screenshot][img4]
-
-Fanen **Mere** viser brugerdefinerede felter for projektet. Hvis din organisation har brug for flere felter end standardfelterne under fanen **Projekt**, kan du under Indstillinger og vedligeholdelse angive, at disse felter skal indsættes her.
-
-Klik på **Rediger** for at redigere projektoplysningerne under fanen **Mere**.
-
-Tre af de brugerdefinerede felter fra fanen **Mere** kan også vises under fanen **Projekt**.
+[Fanen Mere][12] viser brugerdefinerede felter for projektet. Tre af de brugerdefinerede felter fra fanen **Mere** kan også vises under fanen **Projekt**.
 
 ## Fanen Bemærkning
 
@@ -86,10 +80,10 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

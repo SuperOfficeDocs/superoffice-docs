@@ -30,7 +30,7 @@ SuperOffice CRM und Service waren einmal zwei separate Anwendungen mit unterschi
 
 | Anpassung | Lizenz | Kommentar |
 |---|---|---|
-| Benutzerdefiniertes Feld hinzufügen/entfernen | Keine | Wird automatisch auf der Registerkarte Mehr angezeigt. Benötigt Development Tools, um die Platzierung anzupassen. |
+| Benutzerdefiniertes Feld hinzufügen/entfernen | Keine | Wird automatisch auf der [Registerkarte Mehr][12] angezeigt. Benötigt Development Tools, um die Platzierung anzupassen. |
 | Layout der Registerkarte Mehr anpassen | Development Tools | |
 | Site-1-Felder verwalten | Development Tools | |
 | Zusatzfeld | Development Tools | |
@@ -54,5 +54,6 @@ Wenn Sie keine Development Tools-Lizenz haben, verwenden Sie die Reihenfolge der
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
+[12]: more-tab.md
 
 <!-- Referenced images -->

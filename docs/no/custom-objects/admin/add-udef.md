@@ -4,7 +4,7 @@ title: Legge til brukerdefinert felt
 description: Legge til brukerdefinert felt
 keywords: udef, brukerdefinert, egendefinert felt, feltegenskaper
 author: Bergfrid Dias
-date: 09.06.2024
+date: 11.29.2024
 version: 10
 topic: howto
 audience: settings
@@ -60,15 +60,9 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 ## Hvor vises feltene jeg oppretter?
 
-* [Mer-fanen (Firma)][16]
-* [Mer-fanen (Kontaktperson)][17]
-* [Mer-fanen (Prosjekt)][13]
-* [Mer-fanen (Oppfølginger)][14]
-* [Mer-fanen (Dokument)][15]
-* [Mer-fanen (Salg)][19]
+Egendefinerte felter du oppretter, vil vises i [Mer-fanen][5] for firmaer, personer, salg og prosjekter, samt i oppfølgings- og dokumentdialogene.
 
-> [!TIP]
-> Nederst til høyre i dialogboksen **Felt** er **Malvariabelnavn** etterfulgt av en kode (ID), som kan brukes til å gjenbruke informasjonen du skriver inn i dette feltet, for eksempel som [malvariabler][12] i dokumenter og e-poster.
+Nederst til høyre i dialogboksen **Felt** er **Malvariabelnavn** etterfulgt av en kode (ID), som kan brukes til å gjenbruke informasjonen du skriver inn i dette feltet, for eksempel som [malvariabler][12] i dokumenter og e-poster.
 
 ## Feilsøking
 
@@ -89,14 +83,9 @@ Fire av hver felttype (Kort tekst, Lang tekst, Nummer, Desimaltall) er søkbare.
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

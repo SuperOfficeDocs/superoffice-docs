@@ -1,6 +1,8 @@
 items:
 - name: Überblick
   href: index.md
+- name: Registerkarte Mehr
+  href: more-tab.md
 - name: Benutzerdefinierte Felder
   topicHref: udef.md
   items:

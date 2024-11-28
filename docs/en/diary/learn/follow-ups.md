@@ -95,7 +95,7 @@ The default duration is 1 hour for a meeting and 15 minutes for a call. To chang
 
 ## <a id="more-tab"></a>The More tab
 
-The **More** tab displays user-defined fields for the follow-up. If your organization needs more fields than the default fields for follow-ups, you can specify in Settings and maintenance that these fields will be inserted here.
+The [More tab][12] displays custom fields for the follow-up.
 
 ## Related content
 
@@ -106,6 +106,7 @@ The **More** tab displays user-defined fields for the follow-up. If your organiz
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

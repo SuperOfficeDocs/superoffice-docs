@@ -30,7 +30,7 @@ SuperOffice CRM and Service were once two separate applications, with different 
 
 | Customization | License | Comment |
 |---|---|---|
-| Add/remove user-defined field | None | Automatically displayed on the More tab. Need Development Tools to customize placement. |
+| Add/remove user-defined field | None | Automatically displayed on the [More tab][12]. Need Development Tools to customize placement. |
 | Customize layout of the More tab | Development Tools | |
 | Manage page 1 fields | Development Tools | |
 | Extra field | Development Tools | |
@@ -56,5 +56,6 @@ If you do not have a Development Tools license, use the rank of the different fi
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
+[12]: more-tab.md
 
 <!-- Referenced images -->

@@ -96,7 +96,7 @@ De standaardduur van een vergadering is één uur en 15 minuten van een gesprek.
 
 ## <a id="more-tab"></a>Het tabblad Meer
 
-Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de vervolgactiviteit. Wanneer voor de organisatie meer velden nodig zijn dan de standaardvelden voor vervolgactiviteiten, kan in Instellingen en onderhoud worden ingesteld dat hier extra velden worden weergegeven.
+Het [tabblad Meer][12] bevat door gebruikers gedefinieerde velden voor de vervolgactiviteit.
 
 ## Gerelateerde inhoud
 
@@ -107,6 +107,7 @@ Het tabblad **Meer** bevat door gebruikers gedefinieerde velden voor de vervolga
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/diary-alarm.png

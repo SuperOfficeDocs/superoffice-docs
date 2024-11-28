@@ -1,6 +1,8 @@
 items: 
 - name: Oversikt
   href: index.md
+- name: Fanen Mer
+  href: more-tab.md
 - name: Brukerdefinerte felt
   topicHref: udef.md
   items:

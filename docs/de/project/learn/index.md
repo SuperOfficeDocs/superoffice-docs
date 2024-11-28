@@ -32,13 +32,7 @@ Wenn Sie einen Projekttyp ausgewählt haben, für den ein [Projektleitfaden][1] 
 
 ## <a id="more-tab"></a>Registerkarte Mehr
 
-![Registerkarte Mehr (Projekt) -screenshot][img4]
-
-Die Registerkarte **Mehr** enthält benutzerdefinierte Felder für das Projekt. Wenn Ihre Firma auf der Registerkarte **Projekt** mehr Felder als von den Standardeinstellungen vorgesehen benötigt, können Sie diese Felder in Einstellungen und Verwaltung eingeben.
-
-Klicken Sie auf **Bearbeiten**, um die Projektinformationen in der Registerkarte **Mehr** zu bearbeiten.
-
-Auf der Registerkarte **Projekt** können Sie außerdem drei benutzerdefinierte Felder der Registerkarte **Mehr** anzeigen.
+Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für das Projekt. Auf der Registerkarte **Projekt** können Sie außerdem drei benutzerdefinierte Felder der Registerkarte **Mehr** anzeigen.
 
 ## Die Registerkarte Notiz
 
@@ -86,10 +80,10 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

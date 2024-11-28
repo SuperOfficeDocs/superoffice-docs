@@ -30,7 +30,7 @@ SuperOffice CRM och Service var en gång två separata applikationer med olika m
 
 | Anpassning | Licens | Kommentar |
 |---|---|---|
-| Lägg till/ta bort användardefinierat fält | Ingen | Visas automatiskt på fliken Mer. Behöver Development Tools för att anpassa placeringen. |
+| Lägg till/ta bort användardefinierat fält | Ingen | Visas automatiskt på [fliken Mer][12]. Behöver Development Tools för att anpassa placeringen. |
 | Anpassa layouten för fliken Mer | Development Tools | |
 | Hantera sid 1-fält | Development Tools | |
 | Extra fält | Development Tools | |
@@ -56,5 +56,6 @@ Om du inte har en Development Tools-licens, använd rangordningen av de olika f�
 [3]: extra-table.md
 [5]: ../../ui/screen-designer/learn/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
+[12]: more-tab.md
 
 <!-- Referenced images -->

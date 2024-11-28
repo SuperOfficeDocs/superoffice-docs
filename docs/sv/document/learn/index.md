@@ -63,9 +63,9 @@ Genom att skapa mallar för dokument som används ofta och göra dem tillgängli
 
 I SuperOffice CRM kan du enkelt skapa dokumentmallar för Word, E-post, Excel, PowerPoint och andra filtyper.
 
-## <a id="more-tab" />Fliken Mer
+## <a id="more-tab"></a>Fliken Mer
 
-På fliken **Mer** visas användardefinierade fält för dokument. Om din organisation behöver fler fält än standardfälten, kan du i Inställningar och underhåll ange att dessa fält ska infogas här.
+På [fliken **Mer**][12] visas användardefinierade fält för dokument.
 
 ## Relaterade ämnen
 
@@ -82,6 +82,7 @@ På fliken **Mer** visas användardefinierade fält för dokument. Om din organi
 [7]: lock.md
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

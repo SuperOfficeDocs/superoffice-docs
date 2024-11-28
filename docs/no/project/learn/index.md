@@ -32,13 +32,7 @@ Hvis du velger en prosjekttype som det er definert en [prosjektguide][1] for, vi
 
 ## <a id="more-tab"></a>Fanen Mer
 
-![Mer-fanen (Prosjekt) -screenshot][img4]
-
-I fanen **Mer** finner du brukerdefinerte felt for prosjektet. Hvis din organisasjon har behov for å ha flere felt enn de som er standard i fanen **Prosjekt**, kan du definere i Innstillinger og vedlikehold at disse feltene skal legges inn her.
-
-Klikk på **Rediger** for å redigere prosjektinformasjonen i fanen **Mer**.
-
-Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Prosjekt**.
+I [fanen **Mer**][12] finner du brukerdefinerte felt for prosjektet. Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Prosjekt**.
 
 ## Fanen Notat
 
@@ -86,10 +80,10 @@ I fanen **Arrangement** kan du angi innstillinger for publisering av arrangement
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img4]: ../../../media/loc/en/project/project-more.png
 [img5]: ../../../media/icons/select.png

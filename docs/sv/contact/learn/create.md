@@ -3,7 +3,7 @@ uid: help-sv-contact-create
 title: Skapa kontakt
 description: Så skapar du en kontakt i SuperOffice.
 author: SuperOffice RnD
-date: 12.15.2022
+date: 11.29.2024
 keywords: person, contact
 topic: howto
 language: sv
@@ -51,7 +51,7 @@ Du kan lägga till kontakter i SuperOffice CRM på många olika sätt:
 
     </details>
 
-5. Gå till fliken **Mer**. Här finns användardefinierade fält för kontakten.
+5. Gå till [Mer-fliken][12] för att ange information. Den här fliken visar användardefinierade fält specifika för den valda kontakten.
 
 6. Gå till fliken **Intressen**. Här kan du ange intressen och alternativ för e-marknadsföring/abonnemang för kontakten.
 
@@ -70,12 +70,6 @@ Du kan lägga till kontakter i SuperOffice CRM på många olika sätt:
     Informationen om kontakten sparas nu i databasen och visas på kontaktkortet. Om du har kopplat kontakten till ett företag visas kontakten på fliken **Kontakter** i fönstret Företag.
 
 12. Gå till detaljkortet **Relationer**. Här kan du [lägga till relationer][8] mellan den här kontakten och en annan kontakt eller ett annat företag.
-
-## <a id="more-tab"></a>Fliken Mer (fönstret Kontakt)
-
-Fliken **Mer** innehåller användardefinierade fält för kontakter. Om ditt företag till exempel säljer IT-produkter och behöver fält för varje kontakts maskinvara och programvara kan du ange att dessa fält ska läggas in på den här fliken under Inställningar och underhåll.
-
-Andra exempel: Anställningsår, ERP, användartyp, CXM-information.
 
 ## <a id="interests-tab"></a>Fliken Intressen (fönstret Kontakt)
 
@@ -114,6 +108,7 @@ På fliken **Intressen** finns följande alternativ:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

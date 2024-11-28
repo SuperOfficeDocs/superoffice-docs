@@ -4,7 +4,7 @@ title: Add user-defined field
 description: How to add a user-defined field in Settings and maintenance
 keywords: udef, user-defined field, custom field, field properties
 author: Bergfrid Dias
-date: 09.06.2024
+date: 11.29.2024
 version: 10
 topic: howto
 audience: settings
@@ -60,15 +60,9 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 ## Where will the fields I create be displayed?
 
-* [The More tab (Company)][16]
-* [The More tab (Contact)][17]
-* [The More tab (Project)][13]
-* [The More tab (follow-ups)][14]
-* [The More tab (Document)][15]
-* [The More tab (Sale)][19]
+User-defined fields you create will appear in the [More tab][5] for Companies, Contacts, Sales, and Projects, as well as in the Follow-up and Document dialogs.
 
-> [!TIP]
-> In the lower right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][12] in documents and emails.
+In the lower right of the **Fields** dialog is the **Template variable name** followed by a code (ID), which can be used to reuse the information you enter in this field, for example, as [template variables][12] in documents and emails.
 
 ## Troubleshooting
 
@@ -89,14 +83,9 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png

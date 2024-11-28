@@ -60,15 +60,9 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 ## Var visas fälten jag skapar?
 
-* [Fliken Mer (företag)][16]
-* [Fliken Mer (kontakt)][17]
-* [Fliken Mer (projekt)][13]
-* [Fliken Mer (händelser)][14]
-* [Fliken Mer (dokument)][15]
-* [Fliken Mer (sälj)][19]
+Användardefinierade fält som du skapar visas i [Mer-fliken][5] för företag, kontakter, försäljningar och projekt, samt i händelses- och dokumentdialogerna.
 
-> [!TIP]
-> Längst ned till höger i dialogrutan **Fält** finns **Mallvariabelnamnet** följt av en kod (ID), som kan användas för att återanvända informationen du anger i det här fältet, till exempel som [mallvariabler][12] i dokument och e-postmeddelanden.
+Längst ned till höger i dialogrutan **Fält** finns **Mallvariabelnamnet** följt av en kod (ID), som kan användas för att återanvända informationen du anger i det här fältet, till exempel som [mallvariabler][12] i dokument och e-postmeddelanden.
 
 ## Felsökning
 
@@ -89,14 +83,9 @@ Fyra fält av varje typ (Kort text, Lång text, Nummer och Decimal) är sökbara
 [2]: ../learn/udef.md#field-types
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
+[5]: ../learn/more-tab.md
 [11]: ../../ui/screen-designer/learn/index.md
 [12]: ../../document/templates/learn/template-variables.md
-[13]: ../../project/learn/index.md#more-tab
-[14]: ../../diary/learn/follow-ups.md#more-tab
-[15]: ../../document/learn/screen/index.md
-[16]: ../../company/learn/create.md#more-tab
-[17]: ../../contact/learn/create.md#more-tab
-[19]: ../../sale/learn/index.md
 
 <!-- Referenced links -->
 [img1]: ../../../media/icons/admin/fields-unpublish-new.png
