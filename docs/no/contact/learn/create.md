@@ -113,7 +113,7 @@ I fanen **Interesser** finner du følgende alternativer:
 [2]: ../../admin/import/learn/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
-[8]: add-relation.md
+[8]: ../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png

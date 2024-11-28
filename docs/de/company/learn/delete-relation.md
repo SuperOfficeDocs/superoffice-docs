@@ -1,24 +1,6 @@
 ---
-uid: help-de-company-delete-relation
-title: Beziehungen löschen
-description: Beziehungen löschen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Firma
-topic: howto
-language: de
+uid: help-de-company-delete-relation-redirect
+author: Bergfrid Skaara Dias
+date: 11.29.2024
+redirect_url: https://docs.superoffice.com/de/learn/basics/relations.html
 ---
-
-# Beziehungen löschen
-
-[!include[Go to company](../../learn/includes/goto-company.md)]
-
-1. Klicken Sie mit der rechten Maustaste auf die gewünschte Beziehung auf der Bereichsregisterkarte **Beziehungen** und wählen Sie **Löschen**.
-
-1. Klicken Sie im Dialogfeld **Beziehung löschen** auf **Ja**, um zu bestätigen, dass Sie die Beziehung wirklich löschen möchten.
-
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

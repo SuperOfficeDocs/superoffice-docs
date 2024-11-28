@@ -21,10 +21,6 @@ items:
     href: send-email.md
   - name: Person anrufen
     href: dial.md
-  - name: Beziehung hinzufügen
-    href: add-relation.md
-  - name: Beziehung löschen
-    href: delete-relation.md
 - name: Datenschutzeinstellungen und DSGVO
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

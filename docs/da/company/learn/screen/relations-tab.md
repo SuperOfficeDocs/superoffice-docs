@@ -21,19 +21,16 @@ I kolonnerne på detaljekortet **Relationer** finder du følgende oplysninger:
 
 * Navne på de virksomheder (og eventuelle personer), der er defineret som parter i relationen.
 * Hvilket forhold de har til hinanden.
-* Hvem der skabte relationen.
 * Hvis der vises et papirclipssymbol (![ikon][img1]), betyder det, at der er en mere detaljeret beskrivelse af relationen i dialogboksen **Relation** .
 
 Dobbeltklik på en relationsrække for at åbne dialogboksen **Relation**, der viser alle de oplysninger, der er indtastet for den relation.
 
 ## Hvad vil du foretage dig?
 
-* [Tilføj en relation][1]
-* [Slet en relation][2]
+* [Tilføj eller slet en relation][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

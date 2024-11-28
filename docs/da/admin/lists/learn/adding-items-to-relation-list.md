@@ -2,14 +2,19 @@
 uid: help-da-adding-items-to-relation-list
 title: Tilføjelse af forekomster på listen Relation
 description: Tilføjelse af forekomster på listen Relation
+keywords: liste, relation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
 # Tilføjelse af forekomster på listen Generelt – Relation
+
+Detaljekortet **Relationer** på skærmbilledet Firma viser eventuelle forbindelser (relationer), der findes mellem personer. For eksempel oplysninger om ejerstruktur eller om personer, der har været ansat i forskellige virksomheder.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: da
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Eksempler på relationer
+## Relateret indhold
 
-| Type | Aktiv | Passiv |
-|---|---|---|
-| Firma – Firma: | Firma ABC A/S samarbejder med Konsulentfirma Co. | Konsulentfirma ABC A/S samarbejder med Firma Co. |
-| Firma – Person: | Firma ABC A/S ansætter Greg Campbell (Konsulentfirma Co.) | Greg Campbell (Konsulentfirma ABC A/S) ansættes af Firma Co. |
-| Person – Firma: | Peter Johnson ejer Firma ABC A/S | Firma ABC A/S ejes af Peter Johnson. |
-| Person – Person: | Mark Johnson (Konsulentfirma Co.) er søn af Peter Johnson (Firma ABC A/S). | Peter Johnson (Firma ABC Ltd) er far til Mark Johnson (Konsulentfirma Co.). |
+* [Tilføj og slet firma- og personrelationer][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md

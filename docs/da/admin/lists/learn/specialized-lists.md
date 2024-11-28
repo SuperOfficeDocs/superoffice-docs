@@ -37,7 +37,7 @@ Det er generelt meget nemt at tilføje, redigere og slette lister og forekomster
 [3]: follow-up-type.md
 [4]: country.md
 [5]: currency.md
-[6]: relation.md
+[6]: adding-items-to-relation-list.md
 [7]: resource.md
 [8]: application.md
 [9]: web-panel.md

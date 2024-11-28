@@ -21,19 +21,16 @@ I kolonnene på detaljkortet **Relasjoner** finner du følgende informasjon:
 
 * Navn på firmaene (og eventuelt personene) som er definert som parter i relasjonen.
 * Hvilken relasjon de har til hverandre.
-* Hvem som har opprettet relasjonen.
 * Hvis det vises et binderssymbol (![ikon][img1] ), betyr det at det ligger en nærmere beskrivelse av relasjonen i dialogboksen **Relasjon**.
 
 Hvis du dobbeltklikker på en relasjonsrad, vises dialogboksen **Relasjon** med all informasjonen som er registrert på den aktuelle relasjonen.
 
 ## Hva vil du gjøre?
 
-* [Legge til en relasjon][1]
-* [Slette en relasjon][2]
+* [Legge til eller slette en relasjon][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

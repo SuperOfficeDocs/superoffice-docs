@@ -17,10 +17,6 @@ items:
     href: merge-companies.md
   - name: Een bedrijf verwijderen
     href: delete.md
-  - name: Een relatie toevoegen
-    href: add-relation.md
-  - name: Een relatie verwijderen
-    href: delete-relation.md
 - name: Adresnotaties voor landen
   href: address-formats.md
 - name: ERP-verbinding

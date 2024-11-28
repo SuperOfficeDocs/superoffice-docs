@@ -1,24 +1,6 @@
 ---
-uid: help-no-contact-delete-relation
-title: Slette relasjon (Person-bilde)
-description: Slette relasjoner (Person-bilde)
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: person, person
-topic: howto
-language: no
+uid: help-no-contact-delete-relation-redirect
+author: Bergfrid Skaara Dias
+date: 11.29.2024
+redirect_url: https://docs.superoffice.com/no/learn/basics/relations.html
 ---
-
-# Slette relasjon (Person-bilde)
-
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
-
-1. Høyreklikk på ønsket relasjon på detaljkortet **Relasjoner**, og velg **Slett**.
-
-1. I dialogboksen **Slett relasjon** klikker du på **Ja** for å bekrefte at du vil slette relasjonen.
-
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

@@ -1,15 +1,8 @@
 ---
-uid: help-nl-contact-add-relation
-title: Relaties toevoegen (scherm Persoon)
-description: Relaties toevoegen (scherm Persoon)
-keywords: persoon, contactpersoon
-author: SuperOffice RnD
-date: 10.29.2024
-version: 10.3.11
-topic: howto
-audience: person
-audience_tooltip: SuperOffice CRM
-language: nl
+uid: help-nl-contact-add-relation-redirect
+author: Bergfrid Skaara Dias
+date: 11.29.2024
+redirect_url: https://docs.superoffice.com/nl/learn/basics/relations.html
 ---
 
 # Relaties toevoegen (scherm Persoon)

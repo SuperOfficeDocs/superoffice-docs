@@ -22,10 +22,10 @@ Examples include ownership structures, partnership agreements, or personal relat
 
 | Type | Active | Passive |
 |---|---|---|
-| Company - Company: | Company ABC Ltd cooperates with Consultancy Firm Co. | Consultancy ABC Ltd cooperates with Company Firm Co. |
-| Company - Contact: | Company ABC Ltd hires Greg Campbell (Consultancy Firm Co.) | Greg Campbell (Consultancy ABC Ltd) is hired by Company Firm Co. |
-| Contact - Company: | Peter Johnson owns Company ABC Ltd | Company ABC Ltd is owned by Peter Johnson. |
-| Contact - Contact: | Mark Johnson (Consultancy Firm Co.) is the son of Peter Johnson (Company ABC Ltd). | Peter Johnson (Company ABC Ltd) is the father of Mark Johnson (Consultancy Firm Co.). |
+| Company - company | Company ABC Ltd cooperates with Consultancy Firm Co. | Consultancy ABC Ltd cooperates with Company Firm Co. |
+| Company - contact | Company ABC Ltd hires Greg Campbell (Consultancy Firm Co.) | Greg Campbell (Consultancy ABC Ltd) is hired by Company Firm Co. |
+| Contact - company | Peter Johnson owns Company ABC Ltd | Company ABC Ltd is owned by Peter Johnson. |
+| Contact - contact | Mark Johnson (Consultancy Firm Co.) is the son of Peter Johnson (Company ABC Ltd). | Peter Johnson (Company ABC Ltd) is the father of Mark Johnson (Consultancy Firm Co.). |
 
 ## View relations
 
@@ -54,9 +54,8 @@ To view more details or to edit, double-click a row to open the **Relation** dia
 
 1. **Specify the parties:**
 
-    * **Active part:** Select a company or contact.
-
-    * **Passive part:** Select the other entity involved in the relation.
+    * **Active:** Select a company or contact.
+    * **Passive:** Select the other entity involved in the relation.
 
 1. **Choose relationship type:** Select the type of relation, such as "owns," "employed by," or "partner" from the **Relation** list. The available options depend on whether the relationship is between a contact and a company or between two contacts.
 

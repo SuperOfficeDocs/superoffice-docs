@@ -1,23 +1,6 @@
 ---
-uid: help-en-relation
-title: Relation
-description: Relation
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
-topic: help
-language: en
+uid: help-en-list-relation-redirect
+author: Bergfrid Skaara Dias
+date: 11.29.2024
+redirect_url: https://docs.superoffice.com/en/learn/basics/relations.html
 ---
-
-# General - Relation
-
-
-
-## What would you like to do now?
-
-* [Add items to the General - Relation list][1]
-
-<!-- Referenced links -->
-[1]: adding-items-to-relation-list.md
-
-<!-- Referenced images -->

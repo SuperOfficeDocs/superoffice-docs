@@ -17,10 +17,6 @@ items:
     href: merge-companies.md
   - name: Slet et firma
     href: delete.md
-  - name: Tilføje en relation
-    href: add-relation.md
-  - name: Slet en relation
-    href: delete-relation.md
 - name: Adresseformater for lande
   href: address-formats.md
 - name: ERP-link
