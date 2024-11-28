@@ -2,14 +2,19 @@
 uid: help-no-adding-items-to-relation-list
 title: Legge til forekomster på listen Relasjon
 description: Legge til forekomster på listen Relasjon
+keywords: liste, relasjon
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 
 # Legge til forekomster på listen Generelt - Relasjon
+
+Detaljkortet **Relasjoner** i Firma-bildet viser alle forbindelser (relasjoner) mellom personer. For eksempel informasjon om eierskapsstruktur eller personer som har vært ansatt i andre selskaper.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: no
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Eksempler på relasjoner
+## Relatert innhold
 
-| Type | Aktiv | Passiv |
-|---|---|---|
-| Firma – Firma : | Firma ABC A/S samarbeider med Konsulenter A/S. | Konsulenter A/S samarbeider med Firma ABC A/S. |
-| Firma – Person: | Firma ABC A/S leier inn Greg Campbell (Konsulenter A/S). | Greg Campbell (Konsulenter A/S) leies inn av Firma ABC A/S. |
-| Person – Firma: | Per Arnesen eier Firma ABC A/S. | Firma ABC A/S eies av Per Arnesen. |
-| Person – Person: | Jon Arnesen (Konsulenter A/S) er sønnen til Per Arnesen (Firma ABC A/S). | Per Arnesen (Firma ABC A/S) er faren til Jon Arnesen (Konsulenter A/S). |
+* [Legg til og fjern firma- og personrelasjoner][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md

@@ -21,19 +21,16 @@ The columns of the **Relations** section tab contain the following information:
 
 * Names of the companies (and any contacts) defined as parties to the relation.
 * What relation they have to each other.
-* Who created the relation.
 * If a paperclip symbol (![icon][img1]) is displayed, this indicates that there is a more detailed description of the relation in the **Relation** dialog.
 
 Double-click on a relation row to open the **Relation** dialog, showing all the information entered for that relation.
 
 ## What would you like to do?
 
-* [Add a relation][1]
-* [Delete a relation][2]
+* [Add or delete a relation][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

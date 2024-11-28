@@ -21,19 +21,16 @@ De kolommen van het sectietabblad **Relaties** bevatten de volgende informatie:
 
 * Namen van bedrijven (en eventuele contactpersonen) die zijn gedefinieerd als partij in de relatie.
 * Welke relatie zij hebben.
-* Degene die de relatie heeft gemaakt.
 * Als er een paperclipsymbool (![pictogram][img1]) wordt weergegeven, wil dat zeggen dat er een meer gedetailleerde beschrijving van de relatie beschikbaar is in het dialoogvenster **Relatie**.
 
 Dubbelklik op een relatierij om het dialoogvenster **Relatie** te openen en alle informatie weer te geven die voor die relatie is ingevoerd.
 
 ## Wat wilt u doen?
 
-* [Een relatie toevoegen][1]
-* [Een relatie verwijderen][2]
+* [Een relatie toevoegen of verwijderen][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

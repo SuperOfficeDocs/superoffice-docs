@@ -28,12 +28,10 @@ Dubbelklicka på en relationsrad för att öppna dialogrutan **Relation**, som i
 
 ## Vad vill du göra?
 
-* [Lägg till en relation][1]
-* [Ta bort en relation][2]
+* [Lägg till eller ta bort en relation][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

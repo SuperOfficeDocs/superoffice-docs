@@ -1,12 +1,8 @@
 ---
-uid: help-nl-contact-delete-relation
-title: Relatie verwijderen (scherm Persoon)
-description: Relaties verwijderen (scherm Persoon)
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: persoon, contactpersoon
-topic: howto
-language: nl
+uid: help-nl-contact-delete-relation-redirect
+author: Bergfrid Skaara Dias
+date: 11.29.2024
+redirect_url: https://docs.superoffice.com/nl/learn/basics/relations.html
 ---
 
 # Relatie verwijderen (scherm Persoon)

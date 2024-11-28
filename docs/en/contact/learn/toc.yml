@@ -21,10 +21,6 @@ items:
     href: send-email.md
   - name: Dial contact
     href: dial.md
-  - name: Add relation
-    href: add-relation.md
-  - name: Delete relation
-    href: delete-relation.md
 - name: Privacy settings and GDPR
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

@@ -22,6 +22,8 @@ items:
     topicHref: ../section-tabs/index.md
   - name: Aktiviteter
     href: activity.md
+  - name: Företags- och kontaktrelationer
+    href: relations.md
   - name: Språk och översättning
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

@@ -21,19 +21,16 @@ Die Spalten auf der Bereichsregisterkarte **Beziehungen** enthalten die folgende
 
 * die Namen der Firmen (und Personen), die zueinander in Beziehung stehen
 * Die Art der Beziehung, die zwischen ihnen besteht
-* Auf wen die Beziehung eingetragen ist
 * Wenn ein Büroklammer-Symbol (![Symbol][img1]) angezeigt wird, ist im Dialogfeld **Beziehung** eine detailliertere Beschreibung der Beziehung vorhanden.
 
 Doppelklicken Sie auf eine Beziehungszeile, um das Dialogfeld **Beziehung** zu öffnen, in dem alle für diese Beziehung eingegebenen Informationen angezeigt werden.
 
 ## Was möchten Sie tun?
 
-* [Beziehung hinzufügen][1]
-* [Beziehung löschen][2]
+* [Beziehung hinzufügen oder löschen][1]
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
-[2]: ../delete-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

@@ -22,6 +22,8 @@ items:
     topicHref: ../section-tabs/index.md
   - name: Aktivitäten
     href: activity.md
+  - name: Firmen- und Personenbeziehungen
+    href: relations.md
   - name: Sprache und Übersetzung
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

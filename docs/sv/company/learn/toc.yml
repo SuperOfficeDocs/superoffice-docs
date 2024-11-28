@@ -17,10 +17,6 @@ items:
     href: merge-companies.md
   - name: Ta bort ett företag
     href: delete.md
-  - name: Lägga till en relation
-    href: add-relation.md
-  - name: Ta bort en relation
-    href: delete-relation.md
 - name: Adressformat för länder
   href: address-formats.md
 - name: ERP-koppling

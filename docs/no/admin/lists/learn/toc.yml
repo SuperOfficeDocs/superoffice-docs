@@ -91,8 +91,6 @@ items:
       href: adding-items-to-currency-list.md
     - name: Domene for utsendelse
       href: add-items-to-mailing-domain.md
-    - name: Relasjon
-      href: relation.md
     - name: Legge til relasjon
       href: adding-items-to-relation-list.md
     - name: Ressurs

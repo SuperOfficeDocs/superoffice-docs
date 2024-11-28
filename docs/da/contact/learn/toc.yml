@@ -21,10 +21,6 @@ items:
     href: send-email.md
   - name: Ring til person
     href: dial.md
-  - name: Tilføj relation
-    href: add-relation.md
-  - name: Slet relation
-    href: delete-relation.md
 - name: Indstillinger for beskyttelse af personlige oplysninger og GDPR
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

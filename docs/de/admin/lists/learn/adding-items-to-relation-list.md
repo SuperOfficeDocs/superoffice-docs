@@ -2,14 +2,19 @@
 uid: help-de-adding-items-to-relation-list
 title: Objekte zur Liste Beziehung hinzufügen
 description: Objekte zur Liste Beziehung hinzufügen
+keywords: Liste, Beziehung
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Einstellungen und Verwaltung
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: de
 ---
 
 # Objekte zur Liste Allgemein - Beziehung hinzufügen
+
+Die Bereichsregisterkarte **Beziehungen** in der Ansicht Firma zeigt alle bestehenden Verbindungen (Beziehungen) zwischen Personen. Zum Beispiel: Informationen über die Eigentümerschaftstruktur oder Personen, die in verschiedenen Firmen tätig waren.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: de
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Beispiele für Beziehungen
+## Zugehörige Inhalte
 
-| Typ | Aktiv | Passiv |
-|---|---|---|
-| Firma – Firma: | Die Firma ABC arbeitet mit dem Beratungsunternehmen XYZ zusammen. | Das Beratungsunternehmen XYZ arbeitet mit der Firma ABC zusammen. |
-| Firma – Person: | Die Firma ABC stellt Greg Campbell (Beratungsunternehmen XYZ) ein. | Greg Campbell (Beratungsunternehmen XYZ) wird von der Firma ABC eingestellt. |
-| Person – Firma: | Peter Johnson ist Eigentümer der Firma ABC | Die Firma ABC gehört Peter Johnson. |
-| Person – Person: | Mark Johnson (Beratungsfirma XYZ) ist der Sohn von Peter Johnson (Firma ABC). | Peter Johnson (Firma ABC) ist der Vater von Mark Johnson (Beratungsunternehmen XYZ). |
+* [Beziehung hinzufügen oder löschen][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md

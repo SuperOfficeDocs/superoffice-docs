@@ -22,6 +22,8 @@ items:
     topicHref: ../section-tabs/index.md
   - name: Activiteiten
     href: activity.md
+  - name: Bedrijfs- en persoonsrelaties
+    href: relations.md
   - name: Taal en vertaling
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

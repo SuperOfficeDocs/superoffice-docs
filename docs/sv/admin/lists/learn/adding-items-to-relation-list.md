@@ -2,14 +2,19 @@
 uid: help-sv-adding-items-to-relation-list
 title: Lägga till poster i listan Relation
 description: Lägga till poster i listan Relation
+keywords: lista, relation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: sv
 ---
 
 # Lägga till poster i listan Allmänt – Relation
+
+På Detaljkortet **Relationer** i fönstret Företag visas eventuella kopplingar (relationer) mellan kontakter. Det kan vara information om till exempel ägarstruktur eller personer som har varit anställda i olika företag.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: sv
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Exempel på relationer
+## Relaterat innehåll
 
-| Typ | Aktiv | Passiv |
-|---|---|---|
-| Företag – Företag: | Företaget ABC AB samarbetar med konsultföretaget Firman AB | Konsultföretaget ABC AB samarbetar med företaget Firman AB |
-| Företag – Kontakt: | Företaget ABC AB anställer Greg Campbell (konsultföretaget Firman AB) | Greg Campbell (konsultföretaget ABC AB) anställs av företaget Firman AB |
-| Kontakt – Företag: | Peter Johnson äger företaget ABC AB | Företaget ABC AB ägs av Peter Johnson. |
-| Kontakt – Kontakt: | Mark Johnson (konsultföretaget Firman AB) är son till Peter Johnson (företaget ABC AB). | Peter Johnson (företaget ABC AB) är pappa till Mark Johnson (konsultföretaget Firman AB). |
+* [Lägga till och ta bort företags- och kontaktrelationer][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md

@@ -17,13 +17,12 @@ Fanen **Relationer** viser eventuelle forbindelser, der findes mellem den aktuel
 
 * Navne på personer og firmaer, der er en del af en relation til den aktuelle person.
 * Hvilket forhold de har til hinanden.
-* Hvem der skabte relationen.
 * Hvis der vises et papirclipssymbol (![ikon][img1]), betyder det, at der er en mere detaljeret beskrivelse af relationen i dialogboksen **Relation** . Hold musemarkøren over papirclipsikonet (![ikonet][img1]) for at få vist beskrivelsen.
 
 Dobbeltklik på en relationsrække for at åbne dialogboksen **Relation**, der viser alle de [oplysninger, der er indtastet for relationen][1].
 
 <!-- Referenced links -->
-[1]: ../add-relation.md
+[1]: ../../../learn/basics/relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/binders.png

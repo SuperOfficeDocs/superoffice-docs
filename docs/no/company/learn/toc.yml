@@ -17,10 +17,6 @@ items:
     href: merge-companies.md
   - name: Slette et firma
     href: delete.md
-  - name: Legge til en relasjon
-    href: add-relation.md
-  - name: Slette en relasjon
-    href: delete-relation.md
 - name: Adresseformater for land
   href: address-formats.md
 - name: ERP-kobling

@@ -37,7 +37,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [3]: follow-up-type.md
 [4]: country.md
 [5]: currency.md
-[6]: relation.md
+[6]: adding-items-to-relation-list.md
 [7]: resource.md
 [8]: application.md
 [9]: web-panel.md

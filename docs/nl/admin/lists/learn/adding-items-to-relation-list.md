@@ -2,14 +2,19 @@
 uid: help-nl-adding-items-to-relation-list
 title: Items toevoegen aan de lijst Relatie
 description: Items toevoegen aan de lijst Relatie
+keywords: lijst, relatie
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 11.29.2024
+version: 10.3
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
 # Items toevoegen aan de lijst Algemeen - Relatie
+
+Het sectietabblad **Relaties** in het scherm Bedrijf geeft alle bestaande verbindingen (relaties) weer tussen personen. Bijvoorbeeld: informatie over de eigendomsstructuur of over personen die voor verschillende bedrijven hebben gewerkt.
 
 [!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
@@ -30,11 +35,9 @@ language: nl
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
-## Voorbeelden van relaties
+## Gerelateerde inhoud
 
-| Type | Actief | Passief |
-|---|---|---|
-| Bedrijf – bedrijf: | Bedrijf ABC Ltd werkt samen met Consultancy Firm Co. | Consultancy ABC Ltd werkt samen met Company Firm Co. |
-| Bedrijf – persoon: | Bedrijf ABC Ltd huurt Greg Campbell (Consultancy Firm Co.) in | Greg Campbell (Consultancy Firm Co.) wordt ingehuurd door bedrijf Firm Co. |
-| Persoon - bedrijf: | Peter Johnson is eigenaar van Company ABC Ltd | Bedrijf ABC Ltd is eigendom van Peter Johnson. |
-| Persoon - persoon: | Mark Johnson (Consultancy Firm Co.) is de zoon van Peter Johnson (Company ABC Ltd). | Peter Johnson (Company ABC Ltd) is de vader van Mark Johnson (Consultancy Firm Co.). |
+* [Bedrijfs- en persoonsrelaties toevoegen en verwijderen][1]
+
+<!-- Referenced links -->
+[1]: ../../../learn/basics/relations.md|
