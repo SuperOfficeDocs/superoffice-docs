@@ -1,9 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Section tabs on company
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Work with company
   topicHref: create.md
   items:

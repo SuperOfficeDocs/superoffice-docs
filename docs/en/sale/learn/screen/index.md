@@ -34,7 +34,7 @@ The lower part of the Sale screen consists of section tabs.
 [3]: ../sales-guide/index.md
 [4]: ../create.md
 [5]: ../stakeholders/index.md
-[6]: activities-sale.md
+[6]: ../../../learn/section-tabs/activities-tab.md
 [7]: quote-tab.md
 
 <!-- Referenced images -->

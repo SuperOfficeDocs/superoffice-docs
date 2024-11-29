@@ -12,11 +12,6 @@ items:
     href: group-view.md
   - name: View other diaries
     href: other-diaries.md
-- name: Section tabs
-  topicHref: screen/activities-tab.md
-  items:
-  - name: Activities
-    href: screen/activities-tab.md
 - name: Work with follow-ups
   topicHref: create-follow-up.md
   items:

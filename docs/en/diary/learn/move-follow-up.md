@@ -54,6 +54,6 @@ If you entered a follow-up in the Diary but are not yet sure of the time or date
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: screen/activities-tab.md
+[2]: ../../learn/section-tabs/activities-tab.md
 
 <!-- Referenced images -->
