@@ -1,7 +1,7 @@
 ---
 uid: help-en-section-tab-sale
 title: Sales tab
-description: Sales tab
+description: Learn how to manage and view sales information in the Sales section tab of SuperOffice CRM, including adding sales, filtering, and tracking sales activities across companies, contacts, and projects.
 keywords: sales tab, section tab, sales archive
 author: Bergfrid Skaara Dias
 date: 11.29.2024
@@ -20,7 +20,7 @@ The **Sales** section tab in SuperOffice CRM allows users to view and manage [sa
 
 ## Availability of the Sales section tab
 
-The Sales section tab is available for the following entities:
+The **Sales** section tab is available for:
 
 | Entity | Description of the Sales section tab |
 |---|---|
@@ -47,7 +47,7 @@ The **Sales** section tab contains the following columns to display key informat
 | User ID | The user who recorded the sale. |
 | ERP discount | Displays discount information if SuperOffice CRM is connected to an ERP system. |
 
-You can [configure the columns][3] on the section tab to display just the information that is most relevant to you.
+[!include[Conf. columns](../includes/tip-configure-columns.md)]
 
 ## View sales in the Sales section tab
 

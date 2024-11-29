@@ -3,6 +3,8 @@ items:
     href: index.md
   - name: Sales tab
     href: sales-tab.md
+  - name: Projects tab
+    href: projects-tab.md
   - name: Customize the column view
     href: configure-columns.md
   - name: Use filters

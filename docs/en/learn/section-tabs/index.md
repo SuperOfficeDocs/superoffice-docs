@@ -62,8 +62,8 @@ To reduce the loading time, only a specified number of records are displayed whe
 [4]: filter.md
 [6]: configure-columns.md
 [7]: export-archives.md
-[9]: ../../company/learn/screen/index.md
-[10]: ../../contact/learn/screen/index.md
+[9]: ../../company/learn/index.md
+[10]: ../../contact/learn/index.md
 [11]: ../../diary/learn/screen/index.md
 [12]: ../../sale/learn/screen/index.md
 [13]: ../../project/learn/screen/index.md
