@@ -3,6 +3,8 @@ items:
     href: index.md
   - name: Contacts tab
     href: contacts-tab.md
+  - name: Relations tab
+    href: relations-tab.md
   - name: Sales tab
     href: sales-tab.md
   - name: Projects tab
