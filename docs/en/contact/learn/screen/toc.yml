@@ -1,7 +1,5 @@
 items:
   - name: Activities
     href: activities-tab.md
-  - name: Requests
-    href: requests-tab.md
   - name: Relations
     href: relations-tab.md
