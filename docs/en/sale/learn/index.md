@@ -31,12 +31,7 @@ You can also [create a quote][1] in the **Quote** section tab in the Sale screen
 
 ## Where can I view sales?
 
-In addition to the [Sale screen][2], sales can be displayed in the following places in SuperOffice CRM:
-
-* On the **Sales** section tab in the Company screen
-* On the **Sales** section tab in the Contact screen
-* On the **Sales** section tab in the Diary screen
-* On the **Sales** section tab in the Project screen
+In addition to the [Sale screen][2], sales are displayed on the [Sales section tab][13] in the Company, Contact, Diary, and Project screens
 
 > [!TIP]
 > Double-click a sale in one of these locations to open the sale in the Sale screen.
@@ -101,6 +96,19 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## The Sale screen section tabs
+
+The lower part of the Sale screen consists of section tabs.
+
+* [Activities][14]
+* [Sales guide][16]
+* [Stakeholders][15]
+* [Quote][17] (requires a licence)
+
+[Sales guides][3] are only shown for specific sales types (defined in Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
 ## Related content
 
 * [Add sale as a favorite][10]
@@ -117,15 +125,20 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
 [8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: screen/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

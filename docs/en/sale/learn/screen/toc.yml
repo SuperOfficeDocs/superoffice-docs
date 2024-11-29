@@ -1,6 +1,4 @@
 items:
-  - name: Overview
-    href: index.md
   - name: Stakeholders
     href: ../stakeholders/index.md
   - name: Sales guide
