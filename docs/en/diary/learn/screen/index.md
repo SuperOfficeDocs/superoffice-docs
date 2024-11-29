@@ -110,7 +110,7 @@ The Diary screen contains the following section tabs:
 <!-- Referenced links -->
 [5]: ../invitation/add-attendee.md
 [6]: activities-tab.md
-[7]: sales-tab.md
+[7]: ../../../learn/section-tabs/sales-tab.md
 [8]: ../change-completed-status.md
 [9]: ../invitation/index.md#status
 [10]: ../video-meetings.md

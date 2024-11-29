@@ -41,7 +41,7 @@ Your administrator can [add and customize project guides][3] for you.
 [4]: project-guide-tab.md
 [5]: project-members-tab.md
 [6]: activities-project.md
-[7]: sale.md
+[7]: ../../../learn/section-tabs/sales-tab.md
 [8]: ../../../request/learn/index.md
 
 <!-- Referenced images -->

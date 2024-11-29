@@ -1,6 +1,4 @@
 items:
-  - name: Overview
-    href: index.md
   - name: Contacts tab
     href: contacts-tab.md
   - name: Relations tab
@@ -9,8 +7,6 @@ items:
     href: activities-tab.md
   - name: Projects tab
     href: projects-tab.md
-  - name: Sales tab
-    href: sales-tab.md
   - name: Requests tab
     href: requests-tab.md
   - name: ERP tab
