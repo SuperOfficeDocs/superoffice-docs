@@ -1,6 +1,4 @@
 items:
-  - name: Contacts tab
-    href: contacts-tab.md
   - name: Relations tab
     href: relations-tab.md
   - name: Activities tab

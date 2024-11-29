@@ -1,5 +1,5 @@
 ---
-uid: help-en-company-screen-requests
+uid: help-en-section-tab-requests
 title: Requests tab
 description: Learn how to view, add, and manage Service requests in SuperOffice CRM, helping you efficiently track customer interactions across companies and contacts.
 keywords: requests tab, section tab, request archive, ticket archive

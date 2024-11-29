@@ -1,5 +1,5 @@
 ---
-uid: help-en-company-screen-projects
+uid: help-en-section-tab-projects
 title: Projects tab
 description: Learn how to view, add, and manage projects using the Projects section tab in SuperOffice CRM. Simplify project tracking across companies, contacts, and more.
 keywords: projects tab, section tab, project archive
