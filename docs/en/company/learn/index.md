@@ -26,7 +26,7 @@ To move between companies, click the previous/next buttons (![icon][img2] ![icon
 
 You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
 
-## Section tabs on Company
+## <a id="section-tabs"></a>Section tabs on Company
 
 The bottom of the screen contains the following [default section tabs][18]:
 

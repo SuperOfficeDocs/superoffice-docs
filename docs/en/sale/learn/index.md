@@ -44,7 +44,7 @@ After you have registered all your sales in SuperOffice CRM, they will appear in
 
 You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are: sales amount, sales date and sales stage.
 
-The **Sales** tab also acts like [a sales secretary][8] by highlighting all your upcoming planned activities in the **Next Activity** field, as well as drawing your attention to those that you may have forgotten in red font.
+The **Sales** tab also acts like a sales secretary by highlighting all your upcoming planned activities in the **Next Activity** field, as well as drawing your attention to those that you may have forgotten in red font.
 
 ![Go to the Diary and get an overview of all the sales that are not yet completed -screenshot][img1]
 
@@ -96,7 +96,7 @@ To remove a link, go to the **Links** tab, click **Edit**, click the delete butt
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## The Sale screen section tabs
+## <a id="section-tabs"></a>The Sale screen section tabs
 
 The lower part of the Sale screen consists of section tabs.
 
@@ -112,7 +112,6 @@ The lower part of the Sale screen consists of section tabs.
 ## Related content
 
 * [Add sale as a favorite][10]
-* [Read about the Sale screen][2]
 * [Register a sale][4]
 * [Create stakeholders][5]
 * [Work with sales guides][6]
@@ -126,19 +125,18 @@ The lower part of the Sale screen consists of section tabs.
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
-[14]: ../../../learn/section-tabs/activities-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
 [15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
 [16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
-[17]: screen/quote-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

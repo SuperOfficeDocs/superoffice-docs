@@ -23,7 +23,7 @@ To move between contacts, click the previous/next buttons - ![icon][img2] ![icon
 
 You can [search][1] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
 
-## Section tabs on Contact
+## <a id="section-tabs"></a>Section tabs on Contact
 
 The bottom of the **Contact** screen contains five default [section tabs][16] with information linked to the current contact:
 

@@ -97,7 +97,7 @@ The ![icon][img8] **Task** button is available on the **View** tab.
 * Select **Invite participants** to link contacts to a follow-up.
 * Select **Help** to open this user guide.
 
-## Section tabs in the Diary screen
+## <a id="section-tabs"></a>Section tabs in the Diary screen
 
 The Diary screen contains the following section tabs:
 

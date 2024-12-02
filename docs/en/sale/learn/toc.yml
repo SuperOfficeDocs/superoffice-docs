@@ -3,11 +3,12 @@ items:
   href: index.md
 - name: Status of a sale (stages)
   href: stages.md
+- name: Stakeholders
+  href: stakeholders/index.md
 - name: Sales guide
   href: sales-guide/index.md
-- name: Section tabs on sale
-  href: screen/toc.yml
-  topicHref: screen/index.md
+- name: Sales guide section tab
+  href: sales-guide-tab.md
 - name: Work with sale
   topicHref: create.md
   items:
