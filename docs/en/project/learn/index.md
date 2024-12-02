@@ -64,7 +64,7 @@ In the **Event** tab, you can specify settings for publishing events.
 The lower part of the Project screen consists of section tabs.
 
 * [Project guide][13] (if one is defined for the current project type)
-* [Project members][15]
+* [Project members][6]
 * [Activities][16]
 * [Sales][17]
 * [Requests][18]
@@ -96,13 +96,13 @@ Your administrator can [add and customize project guides][8] for you.
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
-[13]: screen/project-guide-tab.md
-[15]: screen/project-members-tab.md
+[13]: project-guide/project-guide-tab.md
 [16]: ../../learn/section-tabs/activities-tab.md
 [17]: ../../learn/section-tabs/sales-tab.md
 [18]: ../../learn/section-tabs/requests-tab.md

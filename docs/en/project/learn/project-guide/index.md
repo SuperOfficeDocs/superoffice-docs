@@ -34,7 +34,7 @@ The project guide is defined in Settings and maintenance.
 * [Deactivate project guide][6]
 
 <!-- Referenced links -->
-[1]: ../screen/project-guide-tab.md
+[1]: project-guide-tab.md
 [2]: ../index.md
 [3]: working-with.md
 [4]: ../create.md

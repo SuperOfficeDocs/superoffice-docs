@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 04.09.2024
 version: 10.3.4
 topic: concept
-language: en
 audience: user
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # The section tabs (archives)

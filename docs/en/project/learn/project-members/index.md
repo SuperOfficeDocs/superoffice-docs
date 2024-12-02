@@ -2,10 +2,13 @@
 uid: help-en-project-members
 title: Project members
 description: Project members
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: project, member
+author: SuperOffice RnD
+date: 12.04.24
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,7 +16,11 @@ language: en
 
 Project members are the participants in a project. For each member, you can access information about company, contact name, function in the project, any comments, email address, and telephone number is displayed.
 
-## What would you like to do now?
+## Project members section tab
+
+**Project Members** is one of the section tabs at the bottom of the Project screen. It contains information about participants in the active project. For each project member, information about company, contact name, function in the project, any comments, email address and telephone number is displayed.
+
+## Related content
 
 * [Add a project member][1]
 * [Edit or delete a project member][3]
