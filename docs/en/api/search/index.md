@@ -94,7 +94,7 @@ See the [Search Options][3] section for more details on Selections and Find oper
 
 ## OData queries for modern and flexible API
 
-SuperOffice supports OData, a widely-used standard for querying data. By leveraging Archive Providers, OData queries make it easy to fetch CRM data programmatically.
+SuperOffice [supports OData][6], a widely-used standard for querying data. By leveraging Archive Providers, OData queries make it easy to fetch CRM data programmatically.
 
 * **Key features:**
   * `$select` to specify fields.
@@ -120,3 +120,4 @@ See the [Search Options][3] section for more details on Selections and Find oper
 [3]: ../../search-options/learn/index.md
 [4]: ../mdo-providers/index.md
 [5]: ../lists/index.md
+[6]: ../search/odata/index.md
