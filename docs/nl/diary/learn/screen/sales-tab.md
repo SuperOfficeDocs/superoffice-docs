@@ -11,8 +11,6 @@ language: nl
 
 # Het sectietabblad Verkoop
 
-![Het sectietabblad Verkoop (Agenda) -screenshot][img4]
-
 Naast het [sectietabblad Activiteiten][1], bevat de agenda ook het sectietabblad **Verkoop**, dat essentiële informatie over verkopen weergeeft.
 
 De volgende gegevens worden weergegeven:
@@ -61,5 +59,4 @@ Verkopen die niet als voltooid zijn gemarkeerd worden in deze lijst weergegeven.
 [img1]: ../../../../media/icons/sale-sold-details.png
 [img2]: ../../../../media/icons/sale-lost-details.png
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: ../../../../media/loc/en/diary/sales-detail.png
 [img5]: ../../../../media/icons/personal-settings-small.png

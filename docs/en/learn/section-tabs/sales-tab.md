@@ -24,10 +24,10 @@ The **Sales** section tab is available for:
 
 | Entity | Description of the Sales section tab |
 |---|---|
-| Company | Displays all sales linked to the company. |
-| Contact | Shows sales associated with the contact, including details such as status, amount, and next steps. |
-| Diary | Presents an overview of sales, emphasizing scheduled activities and sales progress. |
-| Project | Lists sales tied to the project, highlighting related activities and upcoming follow-ups. |
+| [Company][9] | Displays all sales linked to the company. |
+| [Contact][10] | Shows sales associated with the contact, including details such as status, amount, and next steps. |
+| [Diary][11] | Presents an overview of sales, emphasizing scheduled activities and sales progress. |
+| [Project][13] | Lists sales tied to the project, highlighting related activities and upcoming follow-ups. |
 
 ## Sales tab columns overview
 
@@ -92,7 +92,7 @@ To add a new sale directly from the **Sales section** tab:
 
 ## Additional tips
 
-* **Quick navigation:** Use the [Navigator][9] to quickly switch between different entities and their corresponding **Sales** tabs.
+* **Quick navigation:** Use the [Navigator][7] to quickly switch between different entities and their corresponding **Sales** tabs.
 
 ## Related topics
 
@@ -107,8 +107,12 @@ To add a new sale directly from the **Sales section** tab:
 [3]: ../../sale/learn/stakeholders/index.md
 [4]: ../../sale/learn/stages.md
 [5]: configure-columns.md#calculate
+[7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
-[9]: ../getting-started/main-screen/navigator.md
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
+[11]: ../../diary/learn/screen/index.md
+[13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png

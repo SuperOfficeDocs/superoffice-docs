@@ -24,8 +24,8 @@ The **Requests** section tab is available for:
 
 | Entity | Description of the Requests section tab |
 |---|---|
-| Company | Displays all requests linked to the company, with options to view and manage the details. |
-| Contact | Shows requests associated with the contact, allowing for more personalized support. |
+| [Company][9] | Displays all requests linked to the company, with options to view and manage the details. |
+| [Contact][10] | Shows requests associated with the contact, allowing for more personalized support. |
 
 ## Requests tab columns overview
 
@@ -82,6 +82,8 @@ To edit a request directly from the **Requests** section tab:
 [2]: ../../request/learn/howto/create.md
 [3]: ../../request/learn/howto/reply.md
 [5]: configure-columns.md#calculate
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/requests-detail.png

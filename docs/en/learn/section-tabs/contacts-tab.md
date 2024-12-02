@@ -14,7 +14,7 @@ language: en
 
 # Contacts tab
 
-The **Contacts** section tab in SuperOffice CRM allows users to view and manage all [contacts][1] linked to a specific company. This tab helps users keep track of relationships between the company and its employees or other relevant contacts. By providing an organized list of all associated individuals, it facilitates easy access to personnel information, making it simple to maintain detailed communication records. The **Contacts** section tab is available only on the Company screen.
+The **Contacts** section tab in SuperOffice CRM allows users to view and manage all [contacts][1] linked to a specific company. This tab helps users keep track of relationships between the company and its employees or other relevant contacts. By providing an organized list of all associated individuals, it facilitates easy access to personnel information, making it simple to maintain detailed communication records. The **Contacts** section tab is available only on the [Company screen][9].
 
 ![Contacts section in company -screenshot][img1]
 
@@ -99,6 +99,7 @@ If this preference is enabled, the first part of the last name will be used as t
 [6]: ../../contact/learn/delete.md
 [7]: ../../contact/learn/send-email.md
 [8]: configure-columns.md
+[9]: ../../company/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/company/contacts-detail.png

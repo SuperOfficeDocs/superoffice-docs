@@ -26,11 +26,11 @@ The **Activities** section tab is available for:
 
 | Entity | Description of the Activities section tab |
 |---|---|
-| Company | Displays all activities related to the company. |
-| Contact | Displays all activities involving the contact, including activities involving the contact's associated company. |
-| Diary | A to-do list showing uncompleted activities, including those not yet scheduled. |
-| Project | Lists all activities linked to the project. |
-| Sale | Shows all activities linked to the sale, providing an overview of progress and interactions. |
+| [Company][9] | Displays all activities related to the company. |
+| [Contact][10] | Displays all activities involving the contact, including activities involving the contact's associated company. |
+| [Diary][11] | A to-do list showing uncompleted activities, including those not yet scheduled. |
+| [Sale][12] | Shows all activities linked to the sale, providing an overview of progress and interactions. |
+| [Project][13] | Lists all activities linked to the project. |
 
 ## Activities tab columns overview
 
@@ -77,7 +77,7 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 
 ## Additional tips
 
-* **Quick navigation:** Use the [Navigator][9] to quickly switch between different entities and their corresponding **Activities** tabs.
+* **Quick navigation:** Use the [Navigator][7] to quickly switch between different entities and their corresponding **Activities** tabs.
 
 * **Marking completion:** To change the **Completed** status of an activity, simply click the box.
 
@@ -100,8 +100,13 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 [4]: ../../diary/learn/change-completed-status.md
 [5]: configure-columns.md#calculate
 [6]: ../../diary/learn/create-follow-up.md
+[7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
-[9]: ../getting-started/main-screen/navigator.md
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
+[11]: ../../diary/learn/screen/index.md
+[12]: ../../sale/learn/index.md#section-tabs
+[13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png

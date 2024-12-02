@@ -11,8 +11,6 @@ language: no
 
 # Detaljkortet Salg
 
-![Detaljkortet Salg (Dagbok) -screenshot][img4]
-
 I tillegg til detaljkortet [Aktiviteter][1], inneholder dagboken også detaljkortet **Salg**, som viser viktig informasjon om salg.
 
 Følgende informasjon vises:
@@ -61,5 +59,4 @@ Detaljkortet **Salg** i dagboken fungerer som en slags "salgssekretær" for å h
 [img1]: ../../../../media/icons/sale-sold-details.png
 [img2]: ../../../../media/icons/sale-lost-details.png
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: ../../../../media/loc/en/diary/sales-detail.png
 [img5]: ../../../../media/icons/personal-settings-small.png

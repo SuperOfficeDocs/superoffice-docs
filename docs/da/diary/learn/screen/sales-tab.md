@@ -11,8 +11,6 @@ language: da
 
 # Detaljekortet Salg
 
-![Detaljekortet Salgssektion (dagbog) -screenshot][img4]
-
 Foruden [detaljekortet Aktiviteter][1] finder du også detaljekortet **Salg** i dagbogen, hvor du nemt kan se de grundlæggende oplysninger om salg.
 
 Følgende oplysninger vises:
@@ -61,5 +59,4 @@ Fanen **Salgssektion** i dagbogen fungerer som en slags "salgssekretær", der hj
 [img1]: ../../../../media/icons/sale-sold-details.png
 [img2]: ../../../../media/icons/sale-lost-details.png
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: ../../../../media/loc/en/diary/sales-detail.png
 [img5]: ../../../../media/icons/personal-settings-small.png

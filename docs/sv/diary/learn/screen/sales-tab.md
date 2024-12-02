@@ -11,8 +11,6 @@ language: sv
 
 # Detaljkortet Försäljning
 
-![Detaljkortet Försäljning (Kalendern) -screenshot][img4]
-
 I kalendern finns förutom [detaljkortet Aktiviteter][1] också detaljkortet **Försäljning**, där du enkelt kan se allmänna uppgifter om försäljning.
 
 Följande information visas:
@@ -61,5 +59,4 @@ Detaljkortet **Försäljning** i kalendern fungerar som en slags "försäljnings
 [img1]: ../../../../media/icons/sale-sold-details.png
 [img2]: ../../../../media/icons/sale-lost-details.png
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: ../../../../media/loc/en/diary/sales-detail.png
 [img5]: ../../../../media/icons/personal-settings-small.png

@@ -24,8 +24,8 @@ The **Relations** section tab is available for:
 
 | Entity | Description of the Relations section tab |
 |---|---|
-| Company | Displays relationships involving the current company and other companies or contacts. |
-| Contact | Shows connections between the current contact and other contacts or companies. |
+| [Company][9] | Displays relationships involving the current company and other companies or contacts. |
+| [Contact][10] | Shows connections between the current contact and other contacts or companies. |
 
 ## Relations tab columns overview
 
@@ -53,6 +53,8 @@ For detailed steps on how to add or delete a relationship, see the [relation gui
 
 <!-- Referenced links -->
 [1]: ../basics/relations.md
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/company/relations-detail.png

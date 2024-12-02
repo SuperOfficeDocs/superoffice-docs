@@ -11,8 +11,6 @@ language: de
 
 # Die Bereichsregisterkarte Verkauf
 
-![Bereichsregisterkarte Verkäufe (Kalender) -screenshot][img4]
-
 Zusätzlich zur [Bereichsregisterkarte Aktivitäten][1] verfügt der Kalender über die Bereichsregisterkarte **Verkäufe**, auf der wichtige Informationen zu Verkäufen enthalten sind.
 
 Darin werden die folgenden Daten angezeigt:
@@ -61,5 +59,4 @@ Die Bereichsregisterkarte **Verkäufe** im Kalender ist für Sie eine Art "Verka
 [img1]: ../../../../media/icons/sale-sold-details.png
 [img2]: ../../../../media/icons/sale-lost-details.png
 [img3]: ../../../../../common/icons/salestalled.png
-[img4]: ../../../../media/loc/en/diary/sales-detail.png
 [img5]: ../../../../media/icons/personal-settings-small.png

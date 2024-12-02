@@ -8,7 +8,7 @@ items:
 - name: Sales guide
   href: sales-guide/index.md
 - name: Sales guide section tab
-  href: sales-guide-tab.md
+  href: sales-guide/sales-guide-tab.md
 - name: Work with sale
   topicHref: create.md
   items:

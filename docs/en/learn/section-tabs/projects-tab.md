@@ -24,8 +24,8 @@ The **Projects** section tab is available for:
 
 | Entity | Description of the Projects section tab |
 |---|---|
-| Company | Displays all projects linked to the company. At least one employee must be registered as a project member. |
-| Contact | Shows projects where the contact is a project member. |
+| [Company][9] | Displays all projects linked to the company. At least one employee must be registered as a project member. |
+| [Contact][10] | Shows projects where the contact is a project member. |
 
 ## Projects tab columns overview
 
@@ -66,7 +66,7 @@ To [add project members][4] directly from the **Projects** section tab:
 
 ## Additional tips
 
-* **Quick navigation:** Use the [Navigator][9] to quickly switch between different entities and their corresponding **Projects** tabs.
+* **Quick navigation:** Use the [Navigator][7] to quickly switch between different entities and their corresponding **Projects** tabs.
 
 ## Related topics
 
@@ -79,8 +79,10 @@ To [add project members][4] directly from the **Projects** section tab:
 [2]: ../../project/learn/create.md
 [4]: ../../project/learn/project-members/add.md
 [5]: configure-columns.md#calculate
+[7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
-[9]: ../getting-started/main-screen/navigator.md
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
