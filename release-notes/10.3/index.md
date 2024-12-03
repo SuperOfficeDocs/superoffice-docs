@@ -21,6 +21,9 @@ Check out our **Product release** overview for more details in our [Community][2
 
 ### SuperOffice CRM
 
+* 10.3.13 (10.12.2024):
+  * No new released features or functions for general availability
+
 * 10.3.12 (19.11.2024):
   * [User preferences - Search option (10.3.12)][49] in Core CRM
   * [Project and sale - Add members (10.3.12)][49] in Core CRM
@@ -109,6 +112,10 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 #### New user guides
 
 Check out the new user guide for [SuperOffice for Outlook][51] - it's available in six languages!
+
+#### Developer portal
+
+* **Tenant manager** - separate pages to help manage and view customer (tenant) information, including authorizations and licenses, across different environments like development and production.
 
 #### SuperOffice App Store
 
