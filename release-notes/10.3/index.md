@@ -111,7 +111,8 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 #### New user guides
 
-Check out the new user guide for [SuperOffice for Outlook][51] - it's available in six languages!
+* The user guide for [SuperOffice for Outlook][51] - it's available in six languages.
+* See the user guide for [SuperOffice Mobile CRM][52] in Docs.
 
 #### Developer portal
 
@@ -197,5 +198,6 @@ See all the [new or updated apps][5]
 [49]: core-crm/10.3.12-update.md
 [50]: marketing/10.3.12-update.md
 [51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+[52]: ../../docs/en/mobile/superoffice-mobile/index.md
 
 <!-- Referenced images -->
