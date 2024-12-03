@@ -2,16 +2,23 @@
 uid: help-sv-project-members
 title: Projektdeltagare
 description: Projektdeltagare
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, deltagare
+author: SuperOffice RnD
+date: 12.04.24
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Projektdeltagare
 
 Projektdeltagare är deltagare i ett projekt. För varje deltagare kan du få tillgång till information om företag, kontaktnamn, funktion inom projektet, eventuella kommentarer, e-postadress och telefonnummer.
+
+## Detaljkortet Projektdeltagare
+
+**Projektdeltagare** är ett av detaljkorten längst ned på projektskärmen. Den innehåller information om deltagare i det aktiva projektet. För varje projektdeltagare visas information om företag, kontaktnamn, funktion inom projektet, eventuella kommentarer, e-postadress och telefonnummer.
 
 ## Vad vill du göra nu?
 

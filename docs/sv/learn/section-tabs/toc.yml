@@ -1,6 +1,18 @@
 items:
   - name: Översikt
     href: index.md
+  - name: Aktivitetsfliken
+    href: activities-tab.md
+  - name: Kontakter-fliken
+    href: contacts-tab.md
+  - name: Relationer-fliken
+    href: relations-tab.md
+  - name: Försäljning-fliken
+    href: sales-tab.md
+  - name: Projekt-fliken
+    href: projects-tab.md
+  - name: Ärenden-fliken
+    href: requests-tab.md
   - name: Anpassa kolumnvisningen
     href: configure-columns.md
   - name: Använda filter
@@ -9,5 +21,5 @@ items:
     href: group.md
   - name: Export
     href: export-archives.md
-  - name: Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter
+  - name: Svara på/vidarebefordra e-post från detaljkortet Aktiviteter
     href: send-email.md

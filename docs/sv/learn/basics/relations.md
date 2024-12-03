@@ -33,12 +33,7 @@ Detaljkortet **Relationer**, som finns tillgänglig på både Företags- och Kon
 
 ![Relationer (Företagskortet) -screenshot][img2]
 
-| Kolumn | Beskrivning |
-|---|---|
-| Från - fullständigt namn | Visar namnet på företaget eller kontakten som är den aktiva parten i relationen. |
-| Relation | Beskriver typen av relation, till exempel "äger"/"ägs av". |
-| Till - fullständigt namn | Visar namnet på företaget eller kontakten som är den passiva parten i relationen. |
-| Kommentar | Visar ett gem-symbol om det finns en detaljerad beskrivning. Håll muspekaren över symbolen för att visa mer. |
+[!include[Kolumner i Relationer-fliken](../includes/table-relations-tab-columns.md)]
 
 För att visa fler detaljer eller redigera, dubbelklicka på en rad för att öppna dialogrutan **Relation**.
 

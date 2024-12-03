@@ -31,12 +31,7 @@ Du kan också [skapa offerter][1] på detaljkortet Offert i fönstret **Försäl
 
 ## Var kan jag se försäljning?
 
-Förutom i fönstret [Försäljning][2] kan försäljningar visas på följande platser i SuperOffice CRM:
-
-* På detaljkortet **Försäljning** i fönstret Företag
-* På detaljkortet **Försäljning** i fönstret Kontakt
-* På detaljkortet **Försäljning** i fönstret Kalender
-* På detaljkortet **Försäljning** på projektskärmen
+Förutom i fönstret [Försäljning][2] kan försäljningar visas på [detaljkortet Försäljning][13] i fönstren Företag, Kontakt, Kalender och Projekt.
 
 > [!TIP]
 > Dubbelklicka på en försäljning på någon av dessa platser för att öppna den i fönstret Försäljning.
@@ -49,7 +44,7 @@ När du har registrerat all din försäljning i SuperOffice CRM, visas den i din
 
 Du kan organisera din försäljningslista genom att [filtrera, gruppera och lägga till de kolumner][3] som är viktigast för dig. De mest använda kolumnerna är: försäljningsbelopp, försäljningsdatum och försäljningsfas.
 
-Fliken **Försäljning** fungerar också som en [försäljningssekreterare][8] genom att markera alla dina kommande planerade aktiviteter i fältet **Nästa aktivitet**, samt markera dem som du kanske har glömt med rött teckensnitt.
+Fliken **Försäljning** fungerar också som en försäljningssekreterare genom att markera alla dina kommande planerade aktiviteter i fältet **Nästa aktivitet**, samt markera dem som du kanske har glömt med rött teckensnitt.
 
 ![Gå till kalendern och få en översikt över alla försäljningar som ännu inte är slutförda -screenshot][img1]
 
@@ -102,6 +97,17 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## <a id="section-tabs"></a>Detaljkorten i fönstret Försäljning
+
+Den nedre delen av försäljningsskärmen består av detaljkort.
+
+* [Aktiviteter][14]
+* [Säljguide][16]
+* [Intressenter][15]
+* [Offert][17] (kräver licens)
+
+[Säljguider][3] visas endast för specifika försäljningstyper (definieras i Inställningar och underhåll). Om du väljer en försäljningstyp som har en definierad säljguide, visas detaljkortet **Säljguide**.
+
 ## Vad vill du göra nu?
 
 * [Lägg till en försäljning i favoriter][10]
@@ -118,15 +124,19 @@ För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**,
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

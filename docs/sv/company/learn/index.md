@@ -1,7 +1,7 @@
 ---
 uid: help-sv-company
 title: Företag
-description: "All information som hör samman med ett företag – oavsett om det är din kund, partner eller leverantör – lagras på företagskortet i SuperOffice CRM."
+description: All information som hör samman med ett företag – oavsett om det är din kund, partner eller leverantör – lagras på företagskortet i SuperOffice CRM.
 author: Bergfrid Dias
 date: 12.15.2022
 keywords: företag
@@ -23,19 +23,22 @@ Om du vill flytta mellan olika företag klickar du på knapparna föregående/n�
 
 Du kan söka efter vissa företag med hjälp av kriterier som du anger. Du även skriva dokument, skapa händelser och skapa nya företag eller kontakter.
 
-## Detaljkort för företag
+## Detaljkorten i fönstret Företag
+
+Längst ned i fönstret finns följande [detaljkort som standard][18]:
+
+| Detaljkort | Beskrivning |
+|---|---|
+| [Kontaktpersoner][11] | Här hittar du all information om medarbetarna på det aktiva företaget. |
+| [Relationer][12] | Visar eventuella kopplingar mellan företag och/eller kontakter. |
+| [Aktiviteter][13] | Innehåller alla aktiviteter som är kopplade till det aktiva företaget. |
+| [Projekt][14] | Visar alla projekt för det aktiva företaget. |
+| [Försäljning][15] | Här finns information om eventuella försäljningar kopplade till företaget. |
+| [Ärenden][16] | Visar SuperOffice Service-ärenden för det aktiva företaget. |
+| [ERP][17] | Här kan du koppla ett SuperOffice-företag till en kund/leverantör i ERP-systemet. |
 
 > [!NOTE]
 > [Kontakter][1] som inte tillhör något företag hittar du i fönstret Kontakt.
-
-Längst ned i fönstret finns följande [detaljkort som standard][8]:
-
-* Kontaktpersoner
-* Relationer
-* Projekt
-* Aktiviteter
-* Sales
-* Ärenden
 
 ## Vad vill du göra?
 
@@ -47,7 +50,7 @@ Längst ned i fönstret finns följande [detaljkort som standard][8]:
 * [Skriva ut företagsinformation][7]
 * [Massuppdatera företagsinformation][9]
 * [Ta bort flera kontakter och företag samtidigt från ett urval][10]
-* [Använd Papperskorgen för att återskapa företag och kontakter][11]
+* [Använd Papperskorgen för att återskapa företag och kontakter][8]
 
 <!-- Referenced links -->
 [1]: ../../contact/learn/index.md
@@ -57,10 +60,18 @@ Längst ned i fönstret finns följande [detaljkort som standard][8]:
 [5]: merge-companies.md
 [6]: delete.md
 [7]: ../../learn/basics/print.md
-[8]: screen/index.md
+[8]: ../../learn/basics/deleting-elements.md#restore
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
 [10]: ../../search-options/selection/learn/howto/mass-delete.md
-[11]: ../../learn/basics/deleting-elements.md#restore
+
+[11]: ../../learn/section-tabs/contacts-tab.md
+[12]: ../../learn/section-tabs/relations-tab.md
+[13]: ../../learn/section-tabs/activities-tab.md
+[14]: ../../learn/section-tabs/projects-tab.md
+[15]: ../../learn/section-tabs/sales-tab.md
+[16]: ../../learn/section-tabs/requests-tab.md
+[17]: ../../../admin/erp/learn/index.md
+[18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png
