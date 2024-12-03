@@ -96,7 +96,7 @@ Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskrift
 * Velg **Inviter deltakere** for å knytte deltakere til en oppfølging.
 * Velg **Hjelp** for å åpne denne brukerhåndboken.
 
-## Detaljkortene i Dagbok-bildet
+## <a id="section-tabs">Detaljkortene i Dagbok-bildet
 
 Dagbokskjermen inneholder følgende detaljkort:
 
@@ -108,8 +108,8 @@ Dagbokskjermen inneholder følgende detaljkort:
 
 <!-- Referenced links -->
 [5]: ../invitation/add-attendee.md
-[6]: activities-tab.md
-[7]: sales-tab.md
+[6]: ../../../learn/section-tabs/activities-tab.md
+[7]: ../../../learn/section-tabs/sales-tab.md
 [8]: ../change-completed-status.md
 [9]: ../invitation/index.md#status
 [10]: ../video-meetings.md

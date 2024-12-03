@@ -2,14 +2,14 @@
 uid: help-no-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: aktivitet
+author: SuperOffice RnD
+date: 12.05.2024
+version: 10.2.11
 topic: concept
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 ---
 
 # Aktiviteter
@@ -33,13 +33,7 @@ Det finnes to typer aktiviteter – dokumenter og oppfølginger. I tillegg vises
 
 ## Hvor finner jeg aktiviteter?
 
-| Sted | Beskrivelse | Les mer |
-|---|---|---|
-| Skjermbilde for firma | Viser aktiviteter knyttet til det aktuelle firmaet. | [Aktiviteter (firma)][13] |
-| Skjermbildet Person | Viser aktiviteter knyttet til den aktuelle personen. | [Aktiviteter (Person)][14] |
-| Prosjekt-skjermbildet | Viser aktiviteter knyttet til det aktuelle prosjektet eller salget. | [Aktiviteter (Prosjekt)][15] |
-| Salgsbilde-skjermbildet | Viser aktiviteter knyttet til det aktuelle prosjektet eller salget. | [Aktiviteter (salg)][16] |
-| Dagbok-skjermbildet | Viser alle aktiviteter som ikke er fullført. | [Aktiviteter (dagbok)][6] |
+[Aktivitetsfanen][18] er tilgjengelig i skjermene for Firma, Person, Prosjekt, Salg og Kalender.
 
 > [!NOTE]
 > Aktiviteter vises også i de [forskjellige visningene][7] på dagbokskjermen.
@@ -76,6 +70,30 @@ Du kan slette aktiviteter fra alle skjermbilder der de vises:
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
+## Preferanser ![ikon][img2]
+
+Etter at en aktivitet er utført, fjernes den fra aktivitetslisten dagen etter. Som standard viser **Aktivitetsfanen** oppgaver som du ikke har utført per dagens dato.
+
+### Vise fremtidige oppgaver
+
+1. Gå til **Personlige innstillinger** > **Preferanser**.
+2. Velg **Funksjoner** og finn alternativet **Vis dager fremover**.
+3. Definer hvor mange dager fremover du vil at uutførte oppgaver skal være synlige. For eksempel, ved å angi 7 her vil du vise oppgaver for den neste uken.
+
+### Fjern aktivitet fra listen når den er utført
+
+1. Gå til **Personlige innstillinger** > **Preferanser**.
+2. Velg **Visuelle effekter**.
+3. Oppdater [preferansen][2] **Fjern fullførte aktiviteter**.
+
+### Marker forfalte aktiviteter
+
+Hvis en aktivitet er uthevet med rød skrift, betyr det at den planlagte datoen er passert. For å endre denne innstillingen:
+
+1. Gå til **Personlige innstillinger** > **Preferanser**.
+2. Velg **Funksjoner**.
+3. Oppdater alternativet **Marker utgåtte aktiviteter**.
+
 ## Hva vil du gjøre nå?
 
 * [Filtrere aktiviteter][17]
@@ -84,26 +102,25 @@ Du kan slette aktiviteter fra alle skjermbilder der de vises:
 * [Ringe til personer][11]
 * [Arbeide med dokumenter][4]
 * [Skriv en e-post][5]
+* [Detaljkortet Aktiviteter][18] (Aktivitetsfanen)
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: ../../diary/learn/screen/activities-tab.md
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
-[13]: ../../company/learn/screen/activities-tab.md
-[14]: ../../contact/learn/screen/activities-tab.md
-[15]: ../../project/learn/screen/activities-project.md
-[16]: ../../sale/learn/screen/activities-sale.md
 [17]: ../section-tabs/filter.md
+[18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

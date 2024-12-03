@@ -33,12 +33,7 @@ Detaljkortet **Relasjoner**, tilgjengelig på både Firmakortet og Personkortet,
 
 ![Relasjoner (Firmakort) -screenshot][img2]
 
-| Kolonne| Beskrivelse|
-|---|---|
-| Fra - fullt navn | Viser navnet på firmaet eller personen som er den aktive parten i relasjonen. |
-| Relasjon | Beskriver typen relasjon, som "eier"/"eies av".|
-| Til - fullt navn | Viser navnet på firmaet eller personen som er den passive parten i relasjonen. |
-| Kommentar | Viser en binders-ikon hvis det er en detaljert beskrivelse. Hold musen over ikonet for å se mer. |
+[!include[Kolonner for Relasjonsfanen](../includes/table-relations-tab-columns.md)]
 
 For å se flere detaljer eller for å redigere, dobbeltklikk på en rad for å åpne **Relasjon**-dialogen.
 

@@ -7,3 +7,5 @@ items:
   href: erp-create-new-actor.md
 - name: Koble fra
   href: erp-sync-disconnect.md
+- name: ERP-fanen
+  href: screen/erp-tab.md

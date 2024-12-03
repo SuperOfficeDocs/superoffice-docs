@@ -40,6 +40,9 @@ Dagboken består av [fire faner][24]: **Dag**, **Uke**, **Måned** og **Oversikt
 
 * (Hvis åpen) klikk på en dag eller uke i dag-, uke- eller månedsoversikten i sidepanelet.
 
+> [!NOTE]
+> Aktivitetslisten endres ikke når du skifter mellom de ulike visningene i den øverste delen av Dagbok-bildet.
+
 ## Hva vil du gjøre nå?
 
 * [Velge tidssone][15]

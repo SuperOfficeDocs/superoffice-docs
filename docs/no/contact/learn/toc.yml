@@ -1,9 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Inndelingsfaner for person
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeid med person
   topicHref: create.md
   items:

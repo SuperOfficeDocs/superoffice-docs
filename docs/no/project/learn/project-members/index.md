@@ -2,16 +2,23 @@
 uid: help-no-project-members
 title: Prosjektdeltakere
 description: Prosjektdeltakere
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: prosjekt, deltaker
+author: SuperOffice RnD
+date: 12.04.24
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Prosjektdeltakere
 
 Prosjektdeltakere er deltakerne i et prosjekt. For hver deltaker kan du få tilgang til informasjon om firma, personnavn, funksjon i prosjektet, eventuell kommentar, e-postadresse og telefonnummer.
+
+## Detaljkortet Prosjektdeltakere
+
+**Prosjektdeltakere** er et av detaljkortene nederst i Prosjekt-bildet. Det inneholder opplysninger om personer som deltar i det aktive prosjektet. For hver prosjektdeltaker vises det informasjon om firma, personnavn, funksjon i prosjektet, eventuell kommentar, e-postadresse og telefonnummer.
 
 ## Hva vil du gjøre nå?
 

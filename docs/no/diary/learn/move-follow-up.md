@@ -54,6 +54,6 @@ Hvis du har registrert en oppfølging i dagboken, men likevel ikke er sikker på
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: screen/activities-tab.md
+[2]: ../../learn/section-tabs/activities-tab.md
 
 <!-- Referenced images -->
