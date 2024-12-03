@@ -7,20 +7,26 @@ items:
   href: page-control-and-cache.md
 - name: How to...
   items:
-  - name: Create appointment
-    href: create-appointment.md
-  - name: Get contact
-    href: get-contact.md
+  - name: Open Contact
+    href: ./howto/open-contact.md
   - name: Create contact
-    href: create-contact.md
-  - name: Edit contact
-    href: edit-contact.md
+    href: ./howto/create-contact.md
+  - name: Open appointment
+    href: ./howto/open-appointment.md
+  - name: Create appointment
+    href: ./howto/create-appointment.md
+  - name: Open Document
+    href: ./howto/open-document.md
+  - name: Create Document
+    href: ./howto/create-document.md
+  - name: Open Project
+    href: ./howto/open-project.md
+  - name: Create Project
+    href: ./howto/create-project.md
   - name: Show persons for contact
     href: show-persons-for-contact.md
   - name: Using SoProtocol
     href: using-soprotocol.md
-  - name: Open appointment dialog
-    href: open-appointment-dialog.md
   - name: Requests
     href: requests.md
   - name: Create/show custom object
