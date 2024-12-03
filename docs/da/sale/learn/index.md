@@ -31,12 +31,7 @@ Du kan også [oprette tilbud][1] på detaljekortet **Tilbud** i skærmbilledet S
 
 ## Hvor kan jeg se salg?
 
-Ud over skærmbilledet [Salg][2] kan salg vises følgende steder i SuperOffice CRM:
-
-* På detaljekortet **Salg** i skærmbilledet Firma
-* På detaljekortet **Salg** i skærmbilledet Person
-* På detaljekortet **Salg** i skærmbilledet Dagbog
-* På detaljekortet **Salg** i skærmbilledet Projekt
+Ud over skærmbilledet [Salg][2] kan salg vises på [detaljekorterne][13] i skærmbillederne Firma, Person, Dagbog og Projekt.
 
 > [!TIP]
 > Hvis du dobbeltklikker på et salg på en af disse placeringer, åbnes salget i skærmbilledet Salg.
@@ -49,7 +44,7 @@ Når du har registreret alle dine salg i SuperOffice CRM, vil de fremgå af din 
 
 Du kan organisere din salgsliste ved at [filtrere, gruppere og tilføje de kolonner][3], der er vigtigst for dig. De mest anvendte kolonner er: salgsbeløb, salgsdato og salgsfase.
 
-Fanen **Salg** fungerer også som [en salgssekretær][8] ved at fremhæve alle dine kommende planlagte aktiviteter i feltet **Næste aktivitet** samt henlede din opmærksomhed på dem, du måske har glemt, med rød skrifttype.
+Fanen **Salg** fungerer også som en salgssekretær ved at fremhæve alle dine kommende planlagte aktiviteter i feltet **Næste aktivitet** samt henlede din opmærksomhed på dem, du måske har glemt, med rød skrifttype.
 
 ![Gå til Dagbog, og få et overblik over alle de salg, der endnu ikke er gennemført -screenshot][img1]
 
@@ -102,6 +97,17 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## <a id="section-tabs"></a>Detaljekortene i skærmbilledet Salg
+
+Den nederste del af skærmbilledet Salg består af detaljekort.
+
+* [Aktiviteter][14]
+* [Salgsguide][16]
+* [Interessenter][15]
+* [Tilbud][17] (kræver en licens)
+
+[Salgsguider][3] vises kun for bestemte salgstyper (er defineret i Indstillinger og vedligeholdelse). Hvis du vælger en salgstype, der er defineret en salgsguide for, vises detaljekortet **Salgsguide**.
+
 ## Hvad vil du foretage dig nu?
 
 * [Føj et salg til foretrukne][10]
@@ -118,15 +124,19 @@ For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

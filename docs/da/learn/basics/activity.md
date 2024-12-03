@@ -33,13 +33,7 @@ Der findes to typer aktiviteter – dokumenter og opfølgninger. Desuden vises u
 
 ## Hvor finder jeg aktiviteter?
 
-| Sted | Beskrivelse | Læs mere |
-|---|---|---|
-| Skærmbilledet Firma | Viser aktiviteter, der er knyttet til det pågældende firma. | [Aktiviteter (Firma)][13] |
-| Skærmbilledet Person | Viser aktiviteter, der er knyttet til det pågældende firma. | [Aktiviteter (Person)][14] |
-| Projektskærmbillede | Viser aktiviteter, der er knyttet til det pågældende projekt eller salg. | [Aktiviteter (Projekt)][15] |
-| Salgsskærmbillede | Viser aktiviteter, der er knyttet til det pågældende projekt eller salg. | [Aktiviteter (Salg)][16] |
-| Skærmbilledet Dagbog | Viser alle dine uafsluttede aktiviteter. | [Aktiviteter (Dagbog)][6] |
+[Aktivitetsfanen][18] er tilgængelig i Firma-, Person-, Projekt-, Salgs- og Dagbog-skærme.
 
 > [!NOTE]
 > Aktiviteter vises også i de [forskellige visninger][7] i skærmbilledet Dagbog.
@@ -76,6 +70,30 @@ Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
+## Præferencer ![ikon][img2]
+
+Når en aktivitet er udført, fjernes den fra aktivitetslisten dagen efter. Som standard viser **Aktivitetsfanen** opgaver, som du ikke har udført pr. dags dato.
+
+### Vis fremtidige opgaver
+
+1. Gå til **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Funktioner** og find indstillingen **Vis dage forude**.
+3. Definer, hvor mange dage frem du ønsker, at opgaver skal være synlige. For eksempel vil indtastning af 7 her vise opgaver for den næste uge.
+
+### Fjern aktivitet fra listen, når den er udført
+
+1. Gå til **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Visuelle effekter**.
+3. Opdater **Fjern fuldførte aktiviteter** [præference][2].
+
+### Fremhæv forsinkede aktiviteter
+
+Hvis en aktivitet er markeret med rød skrift, betyder det, at den planlagte dato er passeret. For at ændre denne indstilling:
+
+1. Gå til **Personlige indstillinger** > **Præferencer**.
+2. Vælg **Funktioner**.
+3. Opdater indstillingen **Marker forfaldne aktiviteter**.
+
 ## Hvad vil du foretage dig nu?
 
 * [Filtrering af aktiviteter][17]
@@ -84,26 +102,25 @@ Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 * [Opkald til personer][11]
 * [Arbejde med dokumenter][4]
 * [Sammensæt en e-mail][5]
+* [The Activities tab][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: ../../diary/learn/screen/activities-tab.md
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
-[13]: ../../company/learn/screen/activities-tab.md
-[14]: ../../contact/learn/screen/activities-tab.md
-[15]: ../../project/learn/screen/activities-project.md
-[16]: ../../sale/learn/screen/activities-sale.md
 [17]: ../section-tabs/filter.md
+[18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

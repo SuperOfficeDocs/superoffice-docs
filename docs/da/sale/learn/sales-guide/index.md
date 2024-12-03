@@ -43,7 +43,7 @@ Du kan få vist dokumenter og aktiviteter i visningen **Eksempel** i sidepanelet
 * [Deaktivering af salgsguide][4]
 
 <!-- Referenced links -->
-[1]: ../screen/sales-guide-tab.md
+[1]: sales-guide-tab.md
 [2]: working-with-sales-guide.md
 [3]: edit.md
 [4]: deactivate.md

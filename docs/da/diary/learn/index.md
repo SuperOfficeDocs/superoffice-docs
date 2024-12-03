@@ -40,6 +40,9 @@ Dagbogen består af [fire faner][24]: **Dag**, **Uge**, **Måned** og **Oversigt
 
 * Klik på en dag eller uge i dags-, uge- eller månedsoversigten i sidepanelet.
 
+> [!NOTE]
+> Aktivitetslisten ændres ikke, når du skifter mellem de forskellige faner i den øverste del af skærmbilledet Dagbog.
+
 ## Hvad vil du foretage dig nu?
 
 * [Valg af tidszone][15]
