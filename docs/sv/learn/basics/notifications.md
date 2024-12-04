@@ -1,6 +1,6 @@
 ---
 uid: help-sv-notifications
-title: Meddelanden
+title: Aviseringar
 description: "Aviseringar om inbjudningar, meddelanden och ärenden"
 author: Hanne Gunnarsson, Bergfrid Dias
 date: 08.30.2023
@@ -11,9 +11,9 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Meddelanden
+# Aviseringar
 
-När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av SuperOffice CRM visas meddelandepanelen som ett överlägg till höger på skärmen och visar de senaste förekomsterna högst upp. Här kan du göra följande:
+När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av SuperOffice CRM visas Aviseringar-panelen som ett överlägg till höger på skärmen och visar de senaste förekomsterna högst upp. Här kan du göra följande:
 
 * Klicka på ett listobjekt för att öppna det.
 * Klicka på ![ikon][img2] för att göra aviseringsinställningar.
@@ -22,7 +22,7 @@ När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av 
 
 ![Aviseringsrutan visar både aviseringar om ärenden och inbjudningar -screenshot][img5]
 
-## <a id="activity"></a>Aktivitetsmeddelanden
+## <a id="activity"></a>Aktivitetsavisering
 
 När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på länken i meddelandet för att öppna aktiviteten.
 
@@ -37,7 +37,7 @@ Det här är de olika aktivitetsmeddelandena:
 > [!NOTE]
 > Inbjudningar och ändrade aktiviteter tas inte bort från meddelandepanelen utan finns kvar tills du antingen **accepterar** eller **avvisar** inbjudan.
 
-## Ärendemeddelanden
+## Ärendeavisering
 
 När något ändras i ett ärende som du är associerad till visas ett meddelande i meddelandepanelen. Klicka på länken i meddelandet för att öppna ärendet.
 
