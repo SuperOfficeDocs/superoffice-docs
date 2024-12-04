@@ -51,7 +51,7 @@ En säljguide där alla händelser och dokument för alla faser visas:
 
 ![Säljguide med alla händelser och dokument för alla faser -screenshot][img7]
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Arbeta med säljguider][1]
 

@@ -3,15 +3,15 @@ items:
     href: index.md
   - name: Aktivitetsfliken
     href: activities-tab.md
-  - name: Kontakter-fliken
+  - name: Kontakterfliken
     href: contacts-tab.md
-  - name: Relationer-fliken
+  - name: Relationsfliken
     href: relations-tab.md
-  - name: Försäljning-fliken
+  - name: Försäljningsfliken
     href: sales-tab.md
-  - name: Projekt-fliken
+  - name: Projektfliken
     href: projects-tab.md
-  - name: Ärenden-fliken
+  - name: Ärendenfliken
     href: requests-tab.md
   - name: Anpassa kolumnvisningen
     href: configure-columns.md

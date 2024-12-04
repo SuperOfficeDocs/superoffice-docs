@@ -41,7 +41,7 @@ For at forhindre langsom indlæsning vises kun et angivet antal poster, når der
 > [!NOTE]
 Du kan også justere indstillingerne for detaljekortene i [dine præferencer][1].
 
-## Relaterede emner
+## Relateret indhold
 
 * [Gruppering af lister][3]
 * [Brug af filtre i detaljekortene][4]

@@ -36,6 +36,8 @@ Produktlistan: Om produkter har lagts till i offerten, visas de i listan. Längs
 
 **Exportera**: Används för att exportera listan till ett kalkylark.
 
+## Relaterat innehåll
+
 * [Dialogrutan Redigera offert för][8]
 * [Lägga till/redigera en produkt i offerten][7]
 * [Skapa offertdokument][3]

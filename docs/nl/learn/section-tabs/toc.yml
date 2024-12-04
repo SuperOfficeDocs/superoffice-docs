@@ -3,13 +3,13 @@ items:
     href: index.md
   - name: Tabblad Activiteiten
     href: activities-tab.md
-  - name: Tabblad Contactpersonen
+  - name: Tabblad Personen
     href: contacts-tab.md
   - name: Tabblad Relaties
     href: relations-tab.md
-  - name: Verkoop-tabblad
+  - name: Tabblad Verkoop
     href: sales-tab.md
-  - name: Projecten-tabblad
+  - name: Tabblad Projecten
     href: projects-tab.md
   - name: Tabblad Verzoeken
     href: requests-tab.md

@@ -1,8 +1,8 @@
 ---
 uid: help-sv-section-tab-relations
-title: Relationer-fliken
+title: Relationsfliken
 description: Lär dig hur du kan visa, lägga till och hantera relationer mellan företag och kontakter i SuperOffice CRM, och säkerställ att viktiga affärskontakter är lättillgängliga och väl dokumenterade.
-keywords: Relationer-fliken, fliken Relationer, detaljkortet Relationer, detaljkort, relation
+keywords: Relationer-fliken, Relationerfliken, Relationsfliken, fliken Relationer, detaljkortet Relationer, detaljkort, relation
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,26 +12,26 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Relationer-fliken
+# Relationsfliken
 
 Detaljkortet **Relationer** i SuperOffice CRM gör det möjligt för användare att visa och hantera kopplingar mellan företag och kontakter, såsom ägande, partnerskap eller anställningsrelationer. Den ger en översikt över dessa kopplingar och hjälper dig att upprätthålla korrekta och tillgängliga register över alla viktiga relationer.
 
 ![Detaljkortet Relationer (Företagsskärm) -screenshot][img2]
 
-## Tillgänglighet för Relationer-fliken
+## Tillgänglighet för Relationsfliken
 
 Detaljkortet **Relationer** är tillgänglig för:
 
-| Enhet | Beskrivning av Relationer-fliken |
+| Enhet | Beskrivning av detaljkortet |
 |---|---|
 | [Företag][9] | Visar relationer som involverar det aktuella företaget och andra företag eller kontakter. |
 | [Kontakt][10] | Visar kopplingar mellan den aktuella kontakten och andra kontakter eller företag. |
 
-## <a id="columns"></a>Kolumnöversikt i Relationer-fliken
+## <a id="columns"></a>Kolumnöversikt i Relationsfliken
 
 Detaljkortet **Relationer** innehåller följande kolumner och ger viktig information om varje relation:
 
-[!include[Kolumner i Relationer-fliken](../includes/table-relations-tab-columns.md)]
+[!include[Kolumner i Relationsfliken](../includes/table-relations-tab-columns.md)]
 
 [!include[Konfigurera kolumner](../includes/tip-configure-columns.md)]
 

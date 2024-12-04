@@ -1,8 +1,8 @@
 ---
 uid: help-sv-section-tab-sales
-title: Försäljning-fliken
+title: Försäljningsfliken
 description: Lär dig hur du hanterar och ser försäljningsinformation i detaljkortet Försäljning i SuperOffice CRM, inklusive att lägga till försäljningar, filtrera och spåra försäljningsaktiviteter för företag, kontakter och projekt.
-keywords: Försäljning-fliken, fliken Försäljning, detaljkortet Försäljning, detaljkort
+keywords: Försäljning-fliken, Försäljningsfliken, fliken Försäljning, detaljkortet Försäljning, detaljkort
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.9
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Försäljning-fliken
+# Försäljningsfliken
 
 Detaljkortet **Försäljning** i SuperOffice CRM tillåter användare att visa och hantera [försäljningsinformation][1] kopplad till specifika enheter som företag, kontakter, projekt och kalendrar. Det visar en lista över alla försäljningar som är kopplade till en enhet, vilket gör det enkelt att spåra aktiviteter i sitt sammanhang och få djupare insikter i försäljningsprestanda och kommande åtgärder.
 
@@ -49,7 +49,7 @@ Detaljkortet **Försäljning** innehåller följande kolumner för att visa vikt
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-## Se försäljningar i Försäljning-fliken
+## Se försäljningar i Försäljningsfliken
 
 1. Gå till den relevanta skärmen, såsom Företag, Kontakt, Projekt eller Kalender.
 
@@ -94,7 +94,7 @@ För att lägga till en ny försäljning direkt från Detaljkortet **Försäljni
 
 * **Snabb navigering:** Använd [Navigeraren][7] för att snabbt växla mellan olika enheter och deras motsvarande **Försäljning**-flikar.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Hur man lägger till en försäljning][2]
 * [Hantera intressenter i försäljning][3]
@@ -111,7 +111,7 @@ För att lägga till en ny försäljning direkt från Detaljkortet **Försäljni
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

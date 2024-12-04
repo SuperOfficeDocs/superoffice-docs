@@ -83,7 +83,7 @@ For å inkludere utførte aktiviteter i listen, må du forsikre deg om at boksen
 
 * **Infoboks for full tekst:** Hvis ikke all teksten i et felt er synlig, hold musepekeren over feltet for å vise teksten i en infoboks.
 
-## Relaterte emner
+## Relatert innhold
 
 * [Introduksjon til aktiviteter][1]
 * [Opprett oppfølginger][6]
@@ -104,7 +104,7 @@ For å inkludere utførte aktiviteter i listen, må du forsikre deg om at boksen
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

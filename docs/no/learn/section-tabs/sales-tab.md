@@ -94,7 +94,7 @@ For å legge til et nytt salg direkte fra detaljkortet **Salg**:
 
 * **Rask navigering:** Bruk [Navigatoren][7] for å raskt bytte mellom ulike enheter og deres tilsvarende **Salg**-faner.
 
-## Relaterte emner
+## Relatert innhold
 
 * [Hvordan legge til et salg][2]
 * [Administrere interessenter i salg][3]
@@ -111,7 +111,7 @@ For å legge til et nytt salg direkte fra detaljkortet **Salg**:
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

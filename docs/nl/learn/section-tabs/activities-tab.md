@@ -83,7 +83,7 @@ Om voltooide activiteiten in de lijst op te nemen, zorgt u ervoor dat het vakje 
 
 * **Tooltips voor volledige tekst:** Als niet alle tekst in een veld zichtbaar is, houdt u de muisaanwijzer erop om deze in een tooltip weer te geven.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Inleiding tot activiteiten][1]
 * [Vervolgactiviteiten maken][6]
@@ -104,7 +104,7 @@ Om voltooide activiteiten in de lijst op te nemen, zorgt u ervoor dat het vakje 
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

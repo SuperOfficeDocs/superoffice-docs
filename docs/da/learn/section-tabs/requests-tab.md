@@ -1,8 +1,8 @@
 ---
 uid: help-da-section-tab-requests
-title: Sags-fanen
+title: Sagsfanen
 description: Lær, hvordan du kan se, tilføje og administrere Service-sager i SuperOffice CRM, så du effektivt kan spore kundesamtaler på tværs af firmaer og personer.
-keywords: Sags-fanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
+keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Sags-fanen
+# Sagsfanen
 
 Detaljekortet **Sager** i SuperOffice CRM giver brugerne mulighed for at se og administrere [Service-sager][1] tilknyttet specifikke enheder, såsom firmaer og personer. Denne vejledning giver en samlet oversigt over, hvordan du får adgang til og håndterer sager, hvilket forbedrer evnen til effektivt at håndtere kundeinteraktioner.
 
 ![Detaljekortet Sager i Firma-skærmen -screenshot][img1]
 
-## Tilgængelighed for Sags-fanen
+## Tilgængelighed for Sagsfanen
 
 Detaljekortet **Sager** er tilgængelig for:
 
@@ -27,7 +27,7 @@ Detaljekortet **Sager** er tilgængelig for:
 | [Firma][9] | Viser alle sager, der er knyttet til firmaet, med muligheder for at se og administrere detaljerne. |
 | [Person][10] | Viser sager tilknyttet personen, hvilket giver mulighed for mere personlig support. |
 
-## <a id="columns"></a>Kolonneoversigt for Sags-fanen
+## <a id="columns"></a>Kolonneoversigt for Sagsfanen
 
 Detaljekortet **Sager** indeholder følgende kolonner for at give nøgleinformation om hver sag:
 
@@ -47,7 +47,7 @@ Detaljekortet **Sager** indeholder følgende kolonner for at give nøgleinformat
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-## Vis forespørgsler i Sags-fanen
+## Vis forespørgsler i Sagsfanen
 
 1. Gå til den relevante skærm, såsom Firma eller Person.
 

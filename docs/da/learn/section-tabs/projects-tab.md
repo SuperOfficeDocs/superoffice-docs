@@ -1,8 +1,8 @@
 ---
 uid: help-da-section-tab-projects
-title: Projekter-fanen
+title: Projektfanen
 description: Lær hvordan du kan se, tilføje og administrere projekter ved hjælp af detaljekortet Projekter i SuperOffice CRM. Gør det nemmere at holde styr på projekter på tværs af firmaer, personer og mere.
-keywords: fanen Projekter, Projekter-fanen, detaljekort, projektarkiv
+keywords: fanen Projekter, Projektfanen, Projekter-fanen, detaljekort, projektarkiv
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Projekter-fanen
+# Projektfanen
 
 Detaljekortet **Projekter** i SuperOffice CRM giver brugere mulighed for at se og administrere [projektinformation][1] relateret til specifikke enheder som firmaer og personer. Denne guide giver et samlet overblik over, hvordan man får adgang til og interagerer med projektposter, hvilket forbedrer evnen til at spore og administrere projektaktiviteter effektivt.
 
 ![Detaljekortet Projekter i Firma-skærmen -screenshot][img1]
 
-## Tilgængelighed af Projekter-fanen
+## Tilgængelighed af Projektfanen
 
 Detaljekortet **Projekter** er tilgængelig for:
 
@@ -27,7 +27,7 @@ Detaljekortet **Projekter** er tilgængelig for:
 | [Firma][9] | Viser alle projekter knyttet til firmaet. Mindst én medarbejder skal være registreret som projektmedlem for at vise et projekt her. |
 | [Person][10] | Viser projekter, hvor personen er et projektmedlem. |
 
-## <a id="columns"></a>Kolonneoversigt for Projekter-fanen
+## <a id="columns"></a>Kolonneoversigt for Projektfanen
 
 Detaljekortet **Projekter** indeholder følgende kolonner til at vise nøgleinformation om hvert projekt:
 
@@ -44,11 +44,11 @@ Detaljekortet **Projekter** indeholder følgende kolonner til at vise nøgleinfo
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-## Se projekter i Projekter-fanen
+## Se projekter i Projektfanen
 
 1. Gå til den relevante skærm, såsom Firma eller Person.
 
-1. Klik på Detaljekortet **Projekter** for at se alle projekter knyttet til enheden.
+1. Klik på detaljekortet **Projekter** for at se alle projekter knyttet til enheden.
 
 1. Dobbeltklik på et projekt i listen for at åbne Projekt-skærmen og se detaljerede oplysninger.
 
@@ -68,7 +68,7 @@ For at [tilføje projektmedlemmer][4] direkte fra detaljekortet **Projekter**:
 
 * **Hurtig navigation:** Brug [Navigatøren][7] til hurtigt at skifte mellem forskellige enheder og deres tilhørende faner.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Sådan tilføjer du et projekt][2]
 * [Filtrer projekter][8]

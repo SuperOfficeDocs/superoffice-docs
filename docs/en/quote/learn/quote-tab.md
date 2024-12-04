@@ -36,6 +36,8 @@ The product list: If products were added to the quote, they are shown in the lis
 
 **Export**: Used to export the product list to a spreadsheet.
 
+## Related content
+
 * [The Edit quote dialog][8]
 * [Add/edit a product in the quote][7]
 * [Create a quote document][3]

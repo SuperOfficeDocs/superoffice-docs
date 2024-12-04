@@ -36,6 +36,8 @@ Produktliste: Falls Produkte zum Angebot hinzugefügt wurden, werden sie in der 
 
 **Exportieren**: Wird verwendet, um die Produktliste in ein Arbeitsblatt zu exportieren.
 
+## Verwandte Inhalte
+
 * [Dialogfeld Angebot bearbeiten][8]
 * [Produkt in einem Angebot hinzufügen/bearbeiten][7]
 * [Angebotsdokument erstellen][3]

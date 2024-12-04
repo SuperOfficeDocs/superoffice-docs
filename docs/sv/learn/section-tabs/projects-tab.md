@@ -1,8 +1,8 @@
 ---
 uid: help-sv-section-tab-projects
-title: Projekt-fliken
+title: Projektfliken
 description: Lär dig hur du kan visa, lägga till och hantera projekt med hjälp av detaljkortet Projekt i SuperOffice CRM. Förenkla projektuppföljning för företag, kontakter och mer.
-keywords: Projekt-fliken, fliken Projekt, detaljkortet Projekt, detaljkort, projektarkiv
+keywords: Projekt-fliken, Projektfliken, fliken Projekt, detaljkortet Projekt, detaljkort, projektarkiv
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Projekt-fliken
+# Projektfliken
 
 Detaljkortet **Projekt** i SuperOffice CRM tillåter användare att visa och hantera [projektinformation][1] relaterad till specifika enheter som företag och kontakter. Denna guide ger en enhetlig översikt över hur man får tillgång till och arbetar med projektposter, vilket förbättrar möjligheten att spåra och hantera projektaktiviteter effektivt.
 
 ![Detaljkortet Projekt i Företagsfönstret -screenshot][img1]
 
-## Tillgänglighet för Projekt-fliken
+## Tillgänglighet för Projektfliken
 
 Detaljkortet **Projekt** är tillgänglig för:
 
@@ -27,7 +27,7 @@ Detaljkortet **Projekt** är tillgänglig för:
 | [Företag][9] | Visar alla projekt kopplade till företaget. Minst en anställd måste vara registrerad som projektdeltagare för att ett projekt ska visas här. |
 | [Kontakt][10] | Visar projekt där kontakten är projektdeltagare. |
 
-## <a id="columns"></a>Kolumnöversikt för Projekt-fliken
+## <a id="columns"></a>Kolumnöversikt för Projektfliken
 
 Detaljkortet **Projekt** innehåller följande kolumner för att visa viktig information om varje projekt:
 
@@ -44,7 +44,7 @@ Detaljkortet **Projekt** innehåller följande kolumner för att visa viktig inf
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-## Visa projekt i Projekt-fliken
+## Visa projekt i Projektfliken
 
 1. Gå till relevant skärm, som Företag eller Kontakt.
 
@@ -68,7 +68,7 @@ För att [lägga till projektmedlemmar][4] direkt från detaljkortet **Projekt**
 
 * **Snabb navigering:** Använd [Navigatören][7] för att snabbt växla mellan olika enheter och deras tillhörande **Projekt**-flikar.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Hur man lägger till ett projekt][2]
 * [Filtrera projekt][8]

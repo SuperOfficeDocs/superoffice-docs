@@ -33,7 +33,7 @@ Detaljkortet **Relationer**, som finns tillgänglig på både Företags- och Kon
 
 ![Relationer (Företagskortet) -screenshot][img2]
 
-[!include[Kolumner i Relationer-fliken](../includes/table-relations-tab-columns.md)]
+[!include[Kolumner i Relationsfliken](../includes/table-relations-tab-columns.md)]
 
 För att visa fler detaljer eller redigera, dubbelklicka på en rad för att öppna dialogrutan **Relation**.
 

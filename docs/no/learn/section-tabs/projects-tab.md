@@ -1,8 +1,8 @@
 ---
 uid: help-no-section-tab-projects
-title: Prosjekter-fanen
+title: Prosjektfanen
 description: Lær hvordan du kan se, legge til og administrere prosjekter ved hjelp av Prosjekter-detaljkortet i SuperOffice CRM. Forenkle prosjektoppfølging på tvers av firmaer, personer og mer.
-keywords: Prosjekter-fanen, Prosjektfanen, detaljkortet Prosjekter, detaljkort, prosjektarkiv
+keywords: Prosjektfanen, Prosjekter-fanen, detaljkortet Prosjekter, detaljkort, prosjektarkiv
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Prosjekter-fanen
+# Prosjektfanen
 
 Detaljkortet **Prosjekter** i SuperOffice CRM lar brukere se og administrere [prosjektinformasjon][1] tilknyttet spesifikke enheter som firmaer og personer. Denne guiden gir en samlet oversikt over hvordan man får tilgang til og jobber med prosjekter, noe som forbedrer evnen til å spore og administrere prosjektaktiviteter effektivt.
 
 ![Prosjekter-seksjon i Firmaskjermen -screenshot][img1]
 
-## Tilgjengelighet av Prosjekter-fanen
+## Tilgjengelighet av Prosjektfanen
 
 Detaljkortet **Prosjekter** er tilgjengelig for:
 
@@ -27,7 +27,7 @@ Detaljkortet **Prosjekter** er tilgjengelig for:
 | [Firma][9] | Viser alle prosjekter tilknyttet firmaet. Minst én ansatt må være registrert som prosjektmedlem for at prosjektet skal vises. |
 | [Person][10] | Viser prosjekter der personen er et prosjektmedlem. |
 
-## <a id="columns"></a>Kolonneoversikt for Prosjekter-fanen
+## <a id="columns"></a>Kolonneoversikt for Prosjektfanen
 
 Detaljkortet **Prosjekter** inneholder følgende kolonner som viser nøkkelinformasjon om hvert prosjekt:
 
@@ -44,7 +44,7 @@ Detaljkortet **Prosjekter** inneholder følgende kolonner som viser nøkkelinfor
 
 [!include[Conf. columns](../includes/tip-configure-columns.md)]
 
-## Se prosjekter i Prosjekter-fanen
+## Se prosjekter i Prosjektfanen
 
 1. Gå til relevant skjerm, for eksempel Firma eller Person.
 
@@ -68,7 +68,7 @@ For å [legge til prosjektmedlemmer][4] direkte fra **Prosjekter**-fanen:
 
 * **Rask navigasjon:** Bruk [Navigatøren][7] for raskt å bytte mellom ulike enheter og deres tilhørende Prosjektfaner.
 
-## Relaterte emner
+## Relatert innhold
 
 * [Hvordan opprette et prosjekt][2]
 * [Filtrer prosjekter][8]

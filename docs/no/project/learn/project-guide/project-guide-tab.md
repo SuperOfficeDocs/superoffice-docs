@@ -36,7 +36,7 @@ Når en oppfølging eller et dokument er opprettet, kan du slette eller redigere
 
 ![Høyreklikke systemvalg i prosjektguide -screenshot][img6]
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Arbeide med prosjektguider][1] (inkluderer et eksempel)
 

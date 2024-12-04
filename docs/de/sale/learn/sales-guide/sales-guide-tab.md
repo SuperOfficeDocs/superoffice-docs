@@ -51,7 +51,7 @@ Ein Verkaufsleitfaden, in dem alle Folgeaufgaben und Dokumente für alle Stufen 
 
 ![Verkaufsleitfaden mit allen Folgeaufgaben und Dokumenten für alle Stufen -screenshot][img7]
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Mit Verkaufsleitfäden arbeiten][1]
 

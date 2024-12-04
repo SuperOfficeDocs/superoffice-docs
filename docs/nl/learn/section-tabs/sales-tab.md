@@ -2,7 +2,7 @@
 uid: help-nl-section-tab-sales
 title: Verkoop-tabblad
 description: Leer hoe u verkoopinformatie kunt beheren en bekijken in het sectietabblad Verkoop in SuperOffice CRM, inclusief het toevoegen van verkoop, filteren en het bijhouden van verkoopactiviteiten voor bedrijven, contacten en projecten.
-keywords: Verkoop-tabblad, sectietabblad Verkoop, sectietabblad, sales archive
+keywords: Tabblad Verkoop, Verkoop-tabblad, sectietabblad Verkoop, sectietabblad
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.9
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Verkoop-tabblad
+# Tabblad Verkoop
 
 Het sectietabblad **Verkoop** in SuperOffice CRM stelt gebruikers in staat [verkoopinformatie][1] te bekijken en te beheren die betrekking heeft op specifieke entiteiten, zoals bedrijven, contacten, projecten en agenda's. Het toont een lijst van alle verkopen die aan een entiteit zijn gekoppeld, waardoor het gemakkelijk is om activiteiten in context te volgen en meer inzicht te krijgen in verkoopprestaties en komende acties.
 
@@ -22,14 +22,14 @@ Het sectietabblad **Verkoop** in SuperOffice CRM stelt gebruikers in staat [verk
 
 Het sectietabblad **Verkoop**  is beschikbaar voor:
 
-| Entiteit | Beschrijving van het Verkoop-tabblad |
+| Entiteit | Beschrijving van het sectietabblad |
 |---|---|
 | [Bedrijf][9] | Toont alle verkopen die zijn gekoppeld aan het bedrijf. |
 | [Persoon][10] | Toont verkopen die zijn gekoppeld aan de persoon, inclusief details zoals status, bedrag en volgende stappen. |
 | [Agenda][11] | Geeft een overzicht van de verkopen, met de nadruk op geplande activiteiten en verkoopvoortgang. |
 | [Project][13] | Geeft een lijst van verkopen die aan het project zijn gekoppeld, met een focus op gerelateerde activiteiten en komende vervolgactiviteiten. |
 
-## <a id="columns"></a>Kolommenoverzicht van het Verkoop-tabblad
+## <a id="columns"></a>Kolommenoverzicht van het tabblad Verkoop
 
 Het sectietabblad **Verkoop**  bevat de volgende kolommen om belangrijke informatie over elke verkoop weer te geven:
 
@@ -94,7 +94,7 @@ Om een nieuwe verkoop rechtstreeks vanuit het sectietabblad **Verkoop** toe te v
 
 * **Snelle navigatie:** Gebruik de [Navigator][7] om snel te schakelen tussen verschillende entiteiten en hun bijbehorende **Verkoop**-tabs.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Hoe voeg je een verkoop toe][2]
 * [Belanghebbenden in verkoop beheren][3]
@@ -111,7 +111,7 @@ Om een nieuwe verkoop rechtstreeks vanuit het sectietabblad **Verkoop** toe te v
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

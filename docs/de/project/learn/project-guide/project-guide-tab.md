@@ -36,7 +36,7 @@ Nachdem eine Folgeaufgabe oder ein Dokument erstellt wurde, können Sie es lösc
 
 ![Klicken Sie mit der rechten Maustaste auf Optionen im Projektleitfaden -screenshot][img6]
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Arbeit mit Projektleitfäden][1] (enthält ein Beispiel)
 

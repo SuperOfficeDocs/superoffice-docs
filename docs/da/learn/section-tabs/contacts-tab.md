@@ -1,8 +1,8 @@
 ---
 uid: help-da-section-tab-contacts
 title: Contacts tab
-description: Lær hvordan du administrerer og interagerer med personinformation knyttet til firmaer ved hjælp af Personer-fanen i SuperOffice CRM. Spor persondata og vedligehold kommunikationsoptegnelser for problemfri kundeforhold.
-keywords: detaljekortet Personer, Personer-fanen, fanen Personer, fanen Kontaktpersoner, detaljekort, personarkiv, aktiver mellemnavn
+description: Lær hvordan du administrerer og interagerer med personinformation knyttet til firmaer ved hjælp af Personfanen i SuperOffice CRM. Spor persondata og vedligehold kommunikationsoptegnelser for problemfri kundeforhold.
+keywords: detaljekortet Personer, Personer-fanen, Personfanen, fanen Personer, fanen Kontaktpersoner, detaljekort, personarkiv, aktiver mellemnavn
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Personer-fanen
+# Personfanen
 
 Detaljekortet **Personer** i SuperOffice CRM giver brugerne mulighed for at se og administrere alle [personer][1], der er knyttet til et specifikt firma. Denne fane hjælper brugerne med at holde styr på forholdene mellem firmaet og dets ansatte eller andre relevante personer. Ved at give en organiseret liste over alle tilknyttede personer, letter den adgang til personoplysninger, hvilket gør det nemt at opretholde detaljeret kommunikation. Detaljekortet **Personer** er kun tilgængelig på [Firma-skærmen][9].
 
 ![Detaljekortet Personer i Firma-skærmen -screenshot][img1]
 
-## <a id="columns"></a>Kolonneoversigt for Personer-fanen
+## <a id="columns"></a>Kolonneoversigt for Personfanen
 
 Detaljekortet **Personer** indeholder følgende kolonner for at vise nøgleinformation om hver person:
 
@@ -34,11 +34,11 @@ Detaljekortet **Personer** indeholder følgende kolonner for at vise nøgleinfor
 
 [!include[Konfigurer kolonner](../includes/tip-configure-columns.md)]
 
-## Vis personer i Personer-fanen
+## Vis personer i Personfanen
 
 1. Gå til den relevante **Firma-skærm**.
 
-1. Klik på Detaljekortet **Personer** for at se alle personer knyttet til firmaet.
+1. Klik på detaljekortet **Personer** for at se alle personer knyttet til firmaet.
 
 1. Dobbeltklik på en person i listen for at åbne Personskærmen for mere detaljeret information.
 
@@ -84,7 +84,7 @@ Du kan aktivere brugen af mellemnavne i Indstillinger og vedligehold ved at føl
 
 Hvis denne præference er aktiveret, vil den første del af efternavnet blive brugt som mellemnavn (men sorteres ikke efter). Hvis ikke aktiveret, kan du indtaste et mellemnavn i **Fornavn**-feltet, som så vil blive betragtet som et andet fornavn.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Opret ny person][2]
 * [Slet personer][6]

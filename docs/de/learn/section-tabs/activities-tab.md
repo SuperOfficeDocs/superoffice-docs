@@ -83,7 +83,7 @@ Um abgeschlossene Aktivitäten in der Liste anzuzeigen, stellen Sie sicher, dass
 
 * **QuickInfo für den vollständigen Text:** Wenn nicht der gesamte Text in einem Feld sichtbar ist, halten Sie den Mauszeiger darüber, um ihn in einer QuickInfo anzuzeigen.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Einführung in Aktivitäten][1]
 * [Folgeaufgaben erstellen][6]
@@ -104,7 +104,7 @@ Um abgeschlossene Aktivitäten in der Liste anzuzeigen, stellen Sie sicher, dass
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

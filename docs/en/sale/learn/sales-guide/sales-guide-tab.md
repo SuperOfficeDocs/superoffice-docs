@@ -51,7 +51,7 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 
 ![Sales guide with all follow-ups and documents for all stages -screenshot][img7]
 
-## What would you like to do now?
+## Related content
 
 * [Work with sales guides][1]
 

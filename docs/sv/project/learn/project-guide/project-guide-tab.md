@@ -36,7 +36,7 @@ När en händelse eller ett dokument har skapats, kan du ta bort eller redigera 
 
 ![Alternativ vid högerklick i projektguiden -screenshot][img6]
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Arbeta med projektguider][1] (inkluderar ett exempel)
 

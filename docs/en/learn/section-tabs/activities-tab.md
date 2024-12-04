@@ -83,7 +83,7 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 
 * **Tooltips for full text:** If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
-## Related topics
+## Related content
 
 * [Introduction to activities][1]
 * [Create follow-ups][6]
@@ -104,7 +104,7 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

@@ -96,7 +96,7 @@ U gebruikt het tabblad **Weergave** voornamelijk voor het openen en bekijken van
 * Selecteer **Deelnemers uitnodigen** om deelnemers aan een vervolgactiviteit te koppelen.
 * Selecteer **Help** om deze gebruikershandleiding te openen.
 
-## <a id="section-tabs">Sectietabbladen in het scherm Agenda
+## <a id="section-tabs"></a>Sectietabbladen in het scherm Agenda
 
 Het scherm Agenda bevat de volgende sectietabbladen:
 

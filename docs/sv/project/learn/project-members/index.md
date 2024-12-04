@@ -20,7 +20,7 @@ Projektdeltagare är deltagare i ett projekt. För varje deltagare kan du få ti
 
 **Projektdeltagare** är ett av detaljkorten längst ned på projektskärmen. Den innehåller information om deltagare i det aktiva projektet. För varje projektdeltagare visas information om företag, kontaktnamn, funktion inom projektet, eventuella kommentarer, e-postadress och telefonnummer.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Redigera en projektdeltagare][1]
 * [Redigera eller ta bort en projektdeltagare][3]

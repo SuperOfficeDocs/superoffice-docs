@@ -96,7 +96,7 @@ Die Registerkarte **Übersicht** dient hauptsächlich dazu, die Übersichten and
 * Wählen Sie **Teilnehmer einladen**, um Teilnehmer mit einer Folgeaufgabe zu verknüpfen.
 * Wählen Sie **Hilfe** aus, um diesen Benutzerführer zu öffnen.
 
-## <a id="section-tabs">Bereichsregisterkarten in der Ansicht Kalender
+## <a id="section-tabs"></a>Bereichsregisterkarten in der Ansicht Kalender
 
 Die Ansicht Kalender enthält die folgenden Bereichsregisterkarten:
 

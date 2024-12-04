@@ -1,8 +1,8 @@
 ---
 uid: help-da-section-tab-relations
-title: Relationer-fanen
+title: Relationsfanen
 description: Lær, hvordan du kan se, tilføje og administrere relationer mellem firmaer og personer i SuperOffice CRM, og sikre, at vigtige forretningsforbindelser er let tilgængelige og veldokumenterede.
-keywords: fanen Relationer, detaljekortet Relationer, detaljekort, relation
+keywords: Relationer-fanen, Relationsfanen, fanen Relationer, detaljekortet Relationer, detaljekort, relation
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Relationer-fanen
+# Relationsfanen
 
 Detaljekortet **Relationer** i SuperOffice CRM giver brugerne mulighed for at se og administrere forbindelser mellem firmaer og personer, såsom ejerstruktur, partnerskaber eller ansættelsesforhold. Den giver et overblik over disse forbindelser og hjælper dig med at opretholde nøjagtige og tilgængelige registreringer af alle vigtige relationer.
 
 ![Relationer (Firmaskærm) -screenshot][img2]
 
-## Tilgængelighed for Relationer-fanen
+## Tilgængelighed for Relationsfanen
 
 Detaljekortet **Relationer** er tilgængelig for:
 
@@ -27,11 +27,11 @@ Detaljekortet **Relationer** er tilgængelig for:
 | [Firma][9] | Viser relationer, der involverer det aktuelle firma og andre firmaer eller personer. |
 | [Person][10] | Viser forbindelser mellem den aktuelle person og andre personer eller firmaer. |
 
-## <a id="columns"></a>Kolonneoversigt for Relationer-fanen
+## <a id="columns"></a>Kolonneoversigt for Relationsfanen
 
 Detaljekortet **Relationer** indeholder følgende kolonner, der giver nøgleinformation om hver relation:
 
-[!include[Relationer-fanens kolonner](../includes/table-relations-tab-columns.md)]
+[!include[Relationsfanen kolonner](../includes/table-relations-tab-columns.md)]
 
 [!include[Konfigurer kolonner](../includes/tip-configure-columns.md)]
 

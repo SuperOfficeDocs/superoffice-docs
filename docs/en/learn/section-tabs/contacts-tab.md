@@ -84,7 +84,7 @@ You can enable the use of middle names in Settings and maintenance by following 
 
 If this preference is enabled, the first part of the last name will be used as the middle name (but it is not sorted on). If not enabled, you can enter a middle name in the First name field, which will then be treated as a second first name.
 
-## Related topics
+## Related content
 
 * [Create new contacts][2]
 * [Delete contacts][6]

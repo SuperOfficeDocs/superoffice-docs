@@ -3,15 +3,15 @@ items:
     href: index.md
   - name: Aktivitetsfanen
     href: activities-tab.md
-  - name: Personer-fanen
+  - name: Personfanen
     href: contacts-tab.md
-  - name: Relationer-fanen
+  - name: Relationsfanen
     href: relations-tab.md
-  - name: Salgs-fanen
+  - name: Salgsfanen
     href: sales-tab.md
-  - name: Projekter-fanen
+  - name: Projektfanen
     href: projects-tab.md
-  - name: Sags-fanen
+  - name: Sagsfanen
     href: requests-tab.md
   - name: Tilpas kolonnevisningen
     href: configure-columns.md

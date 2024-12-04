@@ -94,7 +94,7 @@ Um einen neuen Verkauf direkt aus der Bereichsregisterkarte **Verkäufe** hinzuz
 
 * **Schnelle Navigation:** Verwenden Sie den [Navigator][7], um schnell zwischen verschiedenen Entitäten und ihren entsprechenden **Verkäufe**-Registerkarten zu wechseln.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Wie fügt man einen Verkauf hinzu][2]
 * [Interessenten im Verkauf verwalten][3]
@@ -111,7 +111,7 @@ Um einen neuen Verkauf direkt aus der Bereichsregisterkarte **Verkäufe** hinzuz
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

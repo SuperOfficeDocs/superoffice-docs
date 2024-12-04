@@ -68,7 +68,7 @@ Om [projectleden toe te voegen][4] direct vanuit het sectietabblad **Projecten**
 
 * **Snelle navigatie:** Gebruik de [Navigator][7] om snel te schakelen tussen verschillende entiteiten en hun bijbehorende **Projecten-tabbladen**.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Hoe voegt u een project toe][2]
 * [Projecten filteren][8]

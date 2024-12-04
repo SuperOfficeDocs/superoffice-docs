@@ -1,8 +1,8 @@
 ---
 uid: help-sv-section-tab-contacts
-title: Contacts tab
-description: Lär dig hur du hanterar och interagerar med kontaktinformation kopplad till företag med hjälp av Kontakter-fliken i SuperOffice CRM. Spåra personaluppgifter och upprätthåll kommunikation för smidiga kundrelationer.
-keywords: Kontakter-fliken, fliken Kontakter, detaljkortet Kontakter, detaljkort, kontaktarkiv, aktivera mellannamn
+title: Kontakterfliken
+description: Lär dig hur du hanterar och interagerar med kontaktinformation kopplad till företag med hjälp av detaljekortet Kontakter i SuperOffice CRM. Spåra personaluppgifter och upprätthåll kommunikation för smidiga kundrelationer.
+keywords: Kontakter-fliken, Kontakterfliken, Kontaktfliken, fliken Kontakter, detaljkortet Kontakter, detaljkort, kontaktarkiv, aktivera mellannamn
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Kontakter-fliken
+# Kontakterfliken
 
 Detaljkortet **Kontakter** i SuperOffice CRM tillåter användare att visa och hantera alla [kontakter][1] kopplade till ett specifikt företag. Denna flik hjälper användare att hålla reda på relationer mellan företaget och dess anställda eller andra relevanta kontakter. Genom att ge en organiserad lista över alla associerade individer underlättar den tillgången till personalinformation och gör det enkelt att upprätthålla detaljerad kommunikation. Detaljkortet **Kontakter** är endast tillgänglig på [Företagsskärmen][9].
 
 ![Detaljkortet Kontakter i Företagsskärmen -screenshot][img1]
 
-## <a id="columns"></a>Kolumnöversikt för Kontakter-fliken
+## <a id="columns"></a>Kolumnöversikt för Kontakterfliken
 
 Detaljkortet **Kontakter** innehåller följande kolumner för att visa nyckelinformation om varje person:
 
@@ -34,7 +34,7 @@ Detaljkortet **Kontakter** innehåller följande kolumner för att visa nyckelin
 
 [!include[Konfigurera kolumner](../includes/tip-configure-columns.md)]
 
-## Visa kontakter i Kontakter-fliken
+## Visa kontakter i Kontakterfliken
 
 1. Gå till den relevanta **Företag-skärmen**.
 
@@ -84,7 +84,7 @@ Du kan aktivera användningen av mellannamn i Inställningar och underhåll geno
 
 Om detta alternativ är aktiverat kommer den första delen av efternamnet att användas som mellannamn (men sorteras inte efter). Om det inte är aktiverat kan du ange ett mellannamn i **Förnamn**-fältet, som då kommer att betraktas som ett andra förnamn.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Skapa ny kontakt][2]
 * [Ta bort kontakter][6]

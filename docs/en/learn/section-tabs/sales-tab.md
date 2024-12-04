@@ -94,7 +94,7 @@ To add a new sale directly from the **Sales section** tab:
 
 * **Quick navigation:** Use the [Navigator][7] to quickly switch between different entities and their corresponding **Sales** tabs.
 
-## Related topics
+## Related content
 
 * [How to add a sale][2]
 * [Managing stakeholders in sales][3]
@@ -111,7 +111,7 @@ To add a new sale directly from the **Sales section** tab:
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

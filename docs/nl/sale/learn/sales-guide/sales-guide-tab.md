@@ -51,7 +51,7 @@ Een verkoopgids waarin alle vervolgactiviteiten en documenten voor alle fasen wo
 
 ![verkoopgids waarin alle vervolgactiviteiten en documenten voor alle fasen -screenshot][img7]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Werken met verkoophandleidingen][1]
 

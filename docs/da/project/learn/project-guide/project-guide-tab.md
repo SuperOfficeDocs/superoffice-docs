@@ -36,7 +36,7 @@ Når en opfølgning eller et dokument er oprettet, kan du slette eller redigere 
 
 ![Oprette indstillinger i projektguiden -screenshot][img6]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arbejde med projektguider][1] (indeholder et eksempel)
 

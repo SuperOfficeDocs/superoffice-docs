@@ -51,7 +51,7 @@ En salgsguide, hvor alle opfølgninger og dokumenter for alle faser vises:
 
 ![Salgsguide med alle opfølgninger og dokumenter for alle faser -screenshot][img7]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arbejde med salgsguide][1]
 

@@ -71,7 +71,7 @@ Om een verzoek rechtstreeks vanuit het sectietabblad **Verzoeken** te bewerken:
 
 * **Verzoeken volgen:** Houd openstaande kwesties in de gaten en zorg voor tijdige reacties.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Hoe een verzoek te maken][2]
 * [Klantverzoeken beheren in SuperOffice CRM][3]

@@ -83,7 +83,7 @@ För att inkludera slutförda aktiviteter i listan, se till att kryssrutan **Slu
 
 * **Verktygstips för fullständig text:** Om inte all text i ett fält är synlig, håll muspekaren över det för att visa det i en inforuta.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Introduktion till aktiviteter][1]
 * [Skapa händelser][6]
@@ -104,7 +104,7 @@ För att inkludera slutförda aktiviteter i listan, se till att kryssrutan **Slu
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

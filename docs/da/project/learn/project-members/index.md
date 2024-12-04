@@ -20,7 +20,7 @@ Projektdeltagere er deltagerne i et projekt. For hver deltager kan du få adgang
 
 **Projektmedlemmer** er et af detaljekortene nederst i skærmbilledet Projekt. Det indeholder oplysninger om deltagere i det aktive projekt. For hvert projektmedlem kan du få adgang til informationer om firma, personnavn, rolle i projektet, eventuelle kommentarer, e-mail-adresse og telefonnummer.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføj en projektdeltager][1]
 * [Rediger eller slet projektdeltagere][3]

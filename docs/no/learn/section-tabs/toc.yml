@@ -3,13 +3,13 @@ items:
     href: index.md
   - name: Aktivitetsfanen
     href: activities-tab.md
-  - name: Personer-fanen
+  - name: Personfanen
     href: contacts-tab.md
   - name: Relasjonsfanen
     href: relations-tab.md
   - name: Salgsfanen
     href: sales-tab.md
-  - name: Prosjekter-fanen
+  - name: Prosjektfanen
     href: projects-tab.md
   - name: Saksfanen
     href: requests-tab.md

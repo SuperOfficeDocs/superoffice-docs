@@ -84,7 +84,7 @@ Sie können die Verwendung von Zweitnamen in Einstellungen und Verwaltung wie fo
 
 Wenn diese Voreinstellung aktiviert ist, wird der erste Teil des Nachnamens als Zweitname verwendet (er wird jedoch nicht sortiert). Ist die Einstellung nicht aktiviert, können Sie einen Zweitnamen im Feld **Vorname** eingeben, der dann als zweiter Vorname behandelt wird.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Neue Person erstellen][2]
 * [Personen löschen][6]

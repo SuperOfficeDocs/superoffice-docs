@@ -33,7 +33,7 @@ Detaljekortet **Relationer**, som er tilgængeligt både på Firmakortet og Pers
 
 ![Relationer (Firmakort) -screenshot][img2]
 
-[!include[Relationer-fanens kolonner](../includes/table-relations-tab-columns.md)]
+[!include[Relationsfanens kolonner](../includes/table-relations-tab-columns.md)]
 
 For at se flere detaljer eller redigere, dobbeltklik på en række for at åbne **Relation**-dialogen.
 

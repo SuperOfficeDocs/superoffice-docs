@@ -36,6 +36,8 @@ Produktlisten: Hvis det er lagt til produkter i tilbudet, vises de i listen. Ned
 
 **Eksporter**: Brukes til å eksportere produktlisten til et regneark.
 
+## Relatert innhold
+
 * [Dialogboksen Rediger tilbud][8]
 * [Legge til / redigere et produkt i tilbudet][7]
 * [Opprette tilbudsdokument][3]

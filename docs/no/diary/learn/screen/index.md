@@ -96,7 +96,7 @@ Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskrift
 * Velg **Inviter deltakere** for å knytte deltakere til en oppfølging.
 * Velg **Hjelp** for å åpne denne brukerhåndboken.
 
-## <a id="section-tabs">Detaljkortene i Dagbok-bildet
+## <a id="section-tabs"></a>Detaljkortene i Dagbok-bildet
 
 Dagbokskjermen inneholder følgende detaljkort:
 

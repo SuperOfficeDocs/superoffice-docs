@@ -1,6 +1,6 @@
 ---
 uid: help-no-section-tab-contacts
-title: Personer-fanen
+title: Personfanen
 description: Lær hvordan du administrerer og interagerer med personinformasjon knyttet til firmaer ved å bruke detaljkortet Personer i SuperOffice CRM. Spor personopplysninger og oppretthold kommunikasjon for sømløse kundeopplevelser.
 keywords: detaljkortet Personer, Personfanen, Personer-fanen, seksjonsfane, personarkiv, aktiver mellomnavn
 author: Bergfrid Skaara Dias
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Personer-fanen
+# Personfanen
 
 Detaljkortet **Personer** i SuperOffice CRM lar brukere se og administrere alle [personer][1] knyttet til et bestemt firma. Denne fanen hjelper brukerne med å holde oversikt over relasjonene mellom firmaet og dets ansatte eller andre relevante personer. Ved å tilby en organisert liste over alle tilknyttede individer, legger fanen til rette for enkel tilgang til personopplysninger og gjør det enkelt å opprettholde detaljert kommunikasjon. Detaljkortet **Personer** er kun tilgjengelig på [Firmaskjermen][9].
 
 ![Detaljkortet Personer i Firmaskjermen -screenshot][img1]
 
-## <a id="columns"></a>Kolonneoversikt for Personer-fanen
+## <a id="columns"></a>Kolonneoversikt for Personfanen
 
 **Personer**-fanen inneholder følgende kolonner for å vise nøkkelinformasjon om hver person:
 
@@ -34,7 +34,7 @@ Detaljkortet **Personer** i SuperOffice CRM lar brukere se og administrere alle 
 
 [!include[Konfigurer kolonner](../includes/tip-configure-columns.md)]
 
-## Se personer i Personer-fanen
+## Se personer i Personfanen
 
 1. Gå til relevant **Firmaskjerm**.
 
@@ -84,7 +84,7 @@ Du kan aktivere bruk av mellomnavn i **Innstillinger og vedlikehold** ved å fø
 
 Hvis denne preferansen er aktivert, vil den første delen av etternavnet brukes som mellomnavn (men det sorteres ikke på). Hvis ikke aktivert, kan du legge inn et mellomnavn i **Fornavn-feltet**, som da vil bli behandlet som et andre fornavn.
 
-## Relaterte emner
+## Relatert innhold
 
 * [Opprett ny person][2]
 * [Slett person][6]

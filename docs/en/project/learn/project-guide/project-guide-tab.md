@@ -39,7 +39,7 @@ After a follow-up or document is created, you can delete or edit it by right-cli
 
 ![Right-click options on project guide -screenshot][img6]
 
-## What would you like to do now?
+## Related content
 
 * [Work with project guides][1] (includes an example)
 

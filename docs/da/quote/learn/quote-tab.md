@@ -36,6 +36,8 @@ Produktlisten: Hvis der er blevet tilføjet produkter til tilbuddet, vises de p�
 
 **Eksporter**: Bruges til at eksportere produktlisten til et regneark.
 
+## Relateret indhold
+
 * [Dialogboksen Rediger tilbud][8]
 * [Tilføjelse/redigering af et produkt i tilbuddet][7]
 * [Oprettelse af tilbudsdokument][3]

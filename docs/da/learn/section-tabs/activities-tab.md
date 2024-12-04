@@ -1,8 +1,8 @@
 ---
 uid: help-da-section-tab-activities
-title: Aktivitets-fanen
+title: Aktivitetsfanen
 description: Lær hvordan du bruger aktivitetsdetaljekortet i SuperOffice CRM til at se, administrere og følge op på aktiviteter, opgaver og dokumenter for firmaer, personer, projekter og salg – alt samlet ét sted.
-keywords: Aktivitets-fanen, Fanen Aktiviteter, detaljekortet Aktiviteter, detaljekort, aktivitetsarkiv
+keywords: Aktivitets-fanen, Aktivitetsfanen, Fanen Aktiviteter, detaljekortet Aktiviteter, detaljekort, aktivitetsarkiv
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Aktivitets-fanen
+# Aktivitetsfanen
 
 Der findes forskellige typer [aktiviteter][1] i SuperOffice CRM, herunder opfølgninger, forsendelser, formularindsendelser og chatposter.
 
@@ -20,7 +20,7 @@ Detaljekortet **Aktiviteter** i SuperOffice CRM giver en omfattende oversigt ove
 
 ![Detaljekortet Aktiviteter (Dagbog) -screenshot][img2]
 
-## Tilgængelighed for Aktivitets-fanen
+## Tilgængelighed for Aktivitetsfanen
 
 Detaljekortet **Aktiviteter** er tilgængeligt for:
 
@@ -32,7 +32,7 @@ Detaljekortet **Aktiviteter** er tilgængeligt for:
 | [Salg][12] | Viser alle aktiviteter, der er knyttet til salget, giver en oversigt over fremdrift og interaktioner. |
 | [Projekt][13] | Viser alle aktiviteter, der er knyttet til projektet. |
 
-## <a id="columns"></a>Kolonneoversigt i Aktivitets-fanen
+## <a id="columns"></a>Kolonneoversigt i Aktivitetsfanen
 
 Detaljekortet **Aktiviteter** indeholder følgende kolonner til at vise vigtig information om hver aktivitet:
 
@@ -65,7 +65,7 @@ Du kan [filtrere listen][8] over aktiviteter ved at bruge afkrydsningsfelterne e
 
 For at inkludere fuldførte aktiviteter i listen, skal du sørge for, at afkrydsningsfeltet **Udføret** er markeret. Dette giver dig et fuldt overblik over både igangværende og afsluttede aktiviteter.
 
-## Administrere aktiviteter i Aktivitets-fanen
+## Administrere aktiviteter i Aktivitetsfanen
 
 * **Tilføj aktivitet:** Klik på **Tilføj**, udfyld detaljerne, og klik på **Gem**.
 
@@ -83,7 +83,7 @@ For at inkludere fuldførte aktiviteter i listen, skal du sørge for, at afkryds
 
 * **Værktøjstip til fuld tekst:** Hvis ikke al tekst i et felt er synlig, hold musen over feltet for at vise det i en infoboks.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Introduktion til aktiviteter][1]
 * [Opret opfølgninger][6]
@@ -104,7 +104,7 @@ For at inkludere fuldførte aktiviteter i listen, skal du sørge for, at afkryds
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

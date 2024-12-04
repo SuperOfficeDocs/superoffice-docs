@@ -68,7 +68,7 @@ Um [Projektmitglieder hinzuzufügen][4] direkt aus der Bereichsregisterkarte **P
 
 * **Schnelle Navigation:** Verwenden Sie den [Navigator][7], um schnell zwischen verschiedenen Entitäten und deren entsprechenden Projektbereichen zu wechseln.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Wie man ein Projekt hinzufügt][2]
 * [Projekte filtern][8]

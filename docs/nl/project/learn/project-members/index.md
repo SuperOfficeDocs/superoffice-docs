@@ -20,7 +20,7 @@ Projectleden zijn de deelnemers aan een project. Voor elk lid heeft u toegang to
 
 **Projectleden** is een van de sectietabbladen onderaan het scherm Project. Dit tabblad bevat informatie over deelnemers aan het actieve project. Voor elk projectlid worden het bedrijf, de naam van de persoon, de functie in het project, commentaar, het e-mailadres en het telefoonnummer weergegeven.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een projectlid toevoegen][1]
 * [Een projectlid bewerken of verwijderen][3]

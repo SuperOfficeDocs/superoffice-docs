@@ -22,7 +22,7 @@ Die **Bereichsregisterkarte Anfragen** in SuperOffice CRM ermöglicht es Benutze
 
 Die **Bereichsregisterkarte Anfragen** ist verfügbar für:
 
-| Entität | Beschreibung der Bereichsregisterkarte **Anfragen** |
+| Entität | Beschreibung der Bereichsregisterkarte |
 |---|---|
 | [Firma][9] | Zeigt alle Anfragen an, die mit der Firma verknüpft sind, mit Optionen zum Anzeigen und Verwalten der Details. |
 | [Person][10] | Zeigt Anfragen an, die mit der Person verknüpft sind, um eine personalisierte Unterstützung zu ermöglichen. |
@@ -71,7 +71,7 @@ Um eine Anfrage direkt aus der Bereichsregisterkarte **Anfragen** zu bearbeiten:
 
 * **Anfragen verfolgen:** Verfolgen Sie offene Probleme und stellen Sie sicher, dass rechtzeitig reagiert wird.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Wie man eine Anfrage erstellt][2]
 * [Kundenanfragen in SuperOffice CRM verwalten][3]

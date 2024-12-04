@@ -68,7 +68,7 @@ To [add project members][4] directly from the **Projects** section tab:
 
 * **Quick navigation:** Use the [Navigator][7] to quickly switch between different entities and their corresponding **Projects** tabs.
 
-## Related topics
+## Related content
 
 * [How to add a project][2]
 * [Filter projects][8]

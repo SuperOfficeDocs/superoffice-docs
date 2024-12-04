@@ -2,7 +2,7 @@
 uid: help-da-section-tab-sales
 title: Salg-fanen
 description: Lær hvordan du administrerer og ser salgsinformation i Salg-detaljekortet i SuperOffice CRM, herunder tilføjelse af salg, filtrering og opfølgning på salgsaktiviteter på tværs af firmaer, personer og projekter.
-keywords: Salgs-fanen, fanen Salg, detaljekortet Salg, detaljekort, salgsarkiv
+keywords: Salgs-fanen, Salgsfanen, fanen Salg, detaljekortet Salg, detaljekort, salgsarkiv
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10.3.9
@@ -12,13 +12,13 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Salgs-fanen
+# Salgsfanen
 
 Detaljekortet **Salg** i SuperOffice CRM giver brugere mulighed for at se og administrere [salgsinformation][1] relateret til specifikke enheder såsom firmaer, personer, projekter og dagbog. Det viser en liste over alle salg, der er knyttet til en enhed, hvilket gør det nemt at holde styr på aktiviteter i kontekst og få dybere indsigt i salgsydeevne og kommende handlinger.
 
 ![Detaljekortet Salg -screenshot][img1]
 
-## Tilgængelighed af Salgs-fanen
+## Tilgængelighed af Salgsfanen
 
 Detaljekortet **Salg** er tilgængeligt for:
 
@@ -29,7 +29,7 @@ Detaljekortet **Salg** er tilgængeligt for:
 | [Dagbog][11] | Giver et overblik over salg med vægt på planlagte aktiviteter og salgsfremgang. |
 | [Projekt][13] | Viser salg knyttet til projektet og fremhæver relaterede aktiviteter og kommende opfølgninger. |
 
-## <a id="columns"></a>Kolonner i Salg-fanen
+## <a id="columns"></a>Kolonner i Salgsfanen
 
 Detaljekortet **Salg** indeholder følgende kolonner til at vise nøgleinformation om hvert salg:
 
@@ -94,7 +94,7 @@ For at oprette et nyt salg direkte fra detaljekortet **Salg**:
 
 * **Hurtig navigation:** Brug [Navigatoren][7] for hurtigt at skifte mellem forskellige enheder og deres tilsvarende **Salg**-faner.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Hvordan tilføjer man et salg][2]
 * [Administrere interessenter i salg][3]
@@ -111,7 +111,7 @@ For at oprette et nyt salg direkte fra detaljekortet **Salg**:
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/screen/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->

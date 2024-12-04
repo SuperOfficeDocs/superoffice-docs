@@ -36,6 +36,8 @@ De productenlijst: Als er producten waren toegevoegd aan de offerte, worden ze i
 
 **Exporteren**: wordt gebruikt om de productenlijst te exporteren naar een spreadsheet.
 
+## Gerelateerde inhoud
+
 * [Het dialoogvenster Offerte bewerken][8]
 * [Een product aan de offerte toevoegen/bewerken][7]
 * [Een offertedocument maken][3]

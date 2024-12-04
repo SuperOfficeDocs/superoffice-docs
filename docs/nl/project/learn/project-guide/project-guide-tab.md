@@ -36,7 +36,7 @@ Nadat een vervolgactiviteit of document is gemaakt, kunt u deze/dit verwijderen 
 
 ![Klik met de rechtermuisknop voor opties in de projectgids -screenshot][img6]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Werken met projectgidsen][1] (inclusief een voorbeeld)
 

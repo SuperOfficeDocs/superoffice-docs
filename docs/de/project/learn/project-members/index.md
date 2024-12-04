@@ -20,7 +20,7 @@ Projektmitglieder sind die Teilnehmer in einem Projekt. Für jedes Projektmitgli
 
 Die Bereichsregisterkarte **Projektmitglieder** ist eine der Bereichsregisterkarten unten in der Ansicht Projekt. Hier finden Sie Informationen über Personen, die an dem aktuellen Projekt beteiligt sind. Zu jedem Projektmitglied werden Informationen zu Firma, Person, Name, Funktion im Projekt sowie Kommentare, E-Mail-Adresse und Telefonnummer angezeigt.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Projektmitglied hinzufügen][1]
 * [Projektmitglied bearbeiten oder löschen][3]

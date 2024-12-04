@@ -24,7 +24,7 @@ Het sectietabblad **Personen** bevat de volgende kolommen om belangrijke informa
 
 | Kolom | Beschrijving |
 |---|---|
-| Info | Toont een paperclip-pictogram (![icon][img3]) als het **Opmerking**-tabblad in de contactkaart een notitie bevat. Houd de muisaanwijzer op het pictogram om de notitie te bekijken. |
+| Info | Toont een paperclip-pictogram (![icon][img3]) als het tabblad **Opmerking** in de contactkaart een notitie bevat. Houd de muisaanwijzer op het pictogram om de notitie te bekijken. |
 | Interesses | Toont een pin-pictogram (![icon][img2]) als de persoon interesses heeft. Houd de muisaanwijzer op het pictogram om de interesses te bekijken. |
 | Dhr./Mw. | Geeft de juiste manier aan om de persoon aan te spreken. |
 | Voornaam / Tussenvoegsel / Achternaam | De volledige naam van de persoon. Het gebruik van een tussenvoegsel kan worden geconfigureerd in **Instellingen en onderhoud**. |
@@ -64,7 +64,7 @@ Om personen op te nemen die het bedrijf hebben verlaten, selecteer de optie **Vo
 
 1. Dubbelklik op de naam van het persoon om de Projectscherm te openen.
 
-1. Ga naar het **Interesses**-tabblad om de interesses die aan het persoon zijn gekoppeld bij te werken.
+1. Ga naar het tabblad **Interesses** om de interesses die aan het persoon zijn gekoppeld bij te werken.
 
 ## Personen samenvoegen of verplaatsen
 
@@ -84,7 +84,7 @@ U kunt het gebruik van tussenvoegsels inschakelen via **Instellingen en onderhou
 
 Als de voorkeur is ingeschakeld, wordt het eerste deel van de achternaam gebruikt als het tussenvoegsel (maar er wordt niet op gesorteerd). Als de voorkeur niet is ingeschakeld, kunt u een voorvoegsel invoeren in het veld **Voornaam**, zodat het voorvoegsel als een tweede voornaam wordt beschouwd.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een nieuw persoon aanmaken][2]
 * [Personen verwijderen][6]
