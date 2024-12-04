@@ -54,6 +54,6 @@ Als u een vervolgactiviteit hebt geregistreerd in de agenda maar u nog niet zeke
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: screen/activities-tab.md
+[2]: ../../learn/section-tabs/activities-tab.md
 
 <!-- Referenced images -->

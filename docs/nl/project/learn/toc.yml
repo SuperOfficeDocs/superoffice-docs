@@ -1,9 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Sectietabbladen op project
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Werken met project
   topicHref: create.md
   items:
@@ -27,6 +24,8 @@ items:
   items:
   - name: Overzicht
     href: project-guide/index.md
+  - name: Sectietabblad Projectgids
+    href: project-guide/project-guide-tab.md
   - name: Werken met projectgidsen
     href: project-guide/working-with.md
   - name: Vervolgactiviteiten en documenten weergeven

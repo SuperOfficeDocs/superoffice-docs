@@ -7,3 +7,5 @@ items:
   href: erp-create-new-actor.md
 - name: Verbinding verbreken
   href: erp-sync-disconnect.md
+- name: Tabblad ERP
+  href: screen/erp-tab.md

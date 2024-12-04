@@ -54,7 +54,7 @@ Klik op **Bewerken** om de informatie in het **tabblad Meer** te bewerken.
 
 * **Velden aanpassen**: Het toevoegen van door de gebruiker gedefinieerde velden of het aanpassen van de lay-outs vereist administratieve toegang en in sommige gevallen een licentie voor **Development Tools**.
 
-## Gerelateerde onderwerpen
+## Verwante onderwerpen
 
 * [Overzicht van door de gebruiker gedefinieerde velden][1]
 * [Door de gebruiker gedefinieerde velden toevoegen][2]

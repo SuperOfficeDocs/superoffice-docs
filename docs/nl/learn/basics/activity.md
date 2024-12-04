@@ -33,13 +33,7 @@ Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Daarnaast
 
 ## Waar vind ik activiteiten?
 
-| Locatie | Beschrijving | Lees meer |
-|---|---|---|
-| Het scherm Bedrijf | Toont activiteiten die verband houden met het bedrijf in kwestie. | [Activiteiten (Bedrijf)][13] |
-| Scherm Persoon | Toont activiteiten die verband houden met de persoon in kwestie. | [Activiteiten (persoon)][14] |
-| Het scherm Project | Toont activiteiten die verband houden met het project of de verkoop in kwestie. | [Activiteiten (Project)][15] |
-| Verkoopscherm | Toont activiteiten die verband houden met het project of de verkoop in kwestie. | [Activiteiten (Verkoop)][16] |
-| Het scherm Agenda | Hiermee worden al uw onvoltooide activiteiten weergegeven. | [Activiteiten (Agenda)][6] |
+Het [Activiteiten-tabblad][18] is beschikbaar in de schermen voor Bedrijf, Persoon, Project, Verkoop en Agenda.
 
 > [!NOTE]
 > Activiteiten worden ook weergegeven in de [verschillende weergaven][7] in het scherm Agenda.
@@ -76,6 +70,30 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
+## Voorkeuren ![pictogram][img2]
+
+Wanneer een activiteit is voltooid, wordt deze de volgende dag uit de activiteitenlijst verwijderd. Het sectietabblad **Activiteiten** toont de taken die u op de huidige datum nog niet hebt voltooid.
+
+### Toekomstige taken weergeven
+
+1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
+2. Selecteer **Functies** en zoek de optie **Volgende dagen weergeven**.
+3. Bepaal hoeveel dagen vooruit u voltooide taken zichtbaar wilt maken. Als u bijvoorbeeld hier 7 invoert, worden taken voor de komende week weergegeven.
+
+### Activiteit verwijderen uit lijst wanneer voltooid
+
+1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
+2. Selecteer **Visuele effecten**.
+3. Werk de **Voltooide activiteiten verwijderen** [voorkeur][2] bij.
+
+### Verlopen activiteiten markeren
+
+Als een activiteit met rode tekst is gemarkeerd, betekent dit dat de geplande datum is verstreken. Om deze instelling te wijzigen:
+
+1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
+2. Selecteer **Functies**.
+3. Werk de optie **Nog niet uitgevoerde activiteiten markeren** bij.
+
 ## Wat wilt u nu doen?
 
 * [Activiteiten filteren][17]
@@ -84,26 +102,25 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 * [Contactpersonen bellen][11]
 * [Werken met documenten][4]
 * [Een e-mailbericht schrijven][5]
+* [The Activities tab][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: ../../diary/learn/screen/activities-tab.md
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
-[13]: ../../company/learn/screen/activities-tab.md
-[14]: ../../contact/learn/screen/activities-tab.md
-[15]: ../../project/learn/screen/activities-project.md
-[16]: ../../sale/learn/screen/activities-sale.md
 [17]: ../section-tabs/filter.md
+[18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

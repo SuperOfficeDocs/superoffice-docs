@@ -33,12 +33,7 @@ Het sectietabblad **Relaties**, beschikbaar op zowel het Bedrijf- als het Persoo
 
 ![Relaties (Bedrijfkaart) -screenshot][img2]
 
-| Kolom | Beschrijving |
-|---|---|
-| Bron - volledige naam | Toont de naam van het bedrijf of de persoon die de actieve partij in de relatie is. |
-| Relatie | Beschrijft het type relatie, zoals "bezit"/"wordt bezeten door". |
-| Doel - volledige naam | Toont de naam van het bedrijf of de persoon die de passieve partij in de relatie is. |
-| Opmerking | Toont een paperclip-icoon als er een gedetailleerde beschrijving is. Houd de muis boven het icoon om meer te zien. |
+[!include[Kolommen in het sectietabblad Relaties](../includes/table-relations-tab-columns.md)]
 
 Om meer details te bekijken of om te bewerken, dubbelklik op een rij om het **Relatie**-dialoogvenster te openen.
 

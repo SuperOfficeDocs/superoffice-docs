@@ -3,11 +3,12 @@ items:
   href: index.md
 - name: Status van een verkoop (fasen)
   href: stages.md
+- name: Belanghebbenden
+  href: stakeholders/index.md
 - name: Verkoopgids
   href: sales-guide/index.md
-- name: Sectietabbladen op verkoop
-  href: screen/toc.yml
-  topicHref: screen/index.md
+- name: Activiteiten sectietabblad
+  href: sales-guide/sales-guide-tab.md
 - name: Werken met verkoop
   topicHref: create.md
   items:
