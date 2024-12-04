@@ -1,3 +1,5 @@
 ---
-uid: help-da-project-screen-sale
+uid: help-da-project-screen-sale-redirect
+date: 12.04.2024
+redirect_url: https://docs.superoffice.com/da/learn/section-tabs/sales-tab.html
 ---

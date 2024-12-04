@@ -1,3 +1,5 @@
 ---
-uid: help-sv-sale-activities
+uid: help-sv-sale-activities-redirect
+date: 12.04.2024
+redirect_url: https://docs.superoffice.com/sv/learn/section-tabs/activities-tab.html
 ---
