@@ -62,11 +62,11 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 [4]: filter.md
 [6]: configure-columns.md
 [7]: export-archives.md
-[9]: ../../company/learn/screen/index.md
-[10]: ../../contact/learn/screen/index.md
+[9]: ../../company/learn/index.md#section-tabs
+[10]: ../../contact/learn/index.md#section-tabs
 [11]: ../../diary/learn/screen/index.md
-[12]: ../../sale/learn/screen/index.md
-[13]: ../../project/learn/screen/index.md
+[12]: ../../sale/learn/index.md#section-tabs
+[13]: ../../project/learn/index.md#section-tabs
 [14]: ../../search-options/selection/learn/screen/index.md
 [15]: ../../search-options/selection/learn/index.md
 [16]: ../../custom-objects/learn/extra-field.md#relation

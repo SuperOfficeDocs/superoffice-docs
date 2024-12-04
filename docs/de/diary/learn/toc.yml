@@ -12,13 +12,6 @@ items:
     href: group-view.md
   - name: Andere Tagebücher ansehen
     href: other-diaries.md
-- name: Bereichsregisterkarten
-  topicHref: screen/activities-tab.md
-  items:
-  - name: Aktivitäten
-    href: screen/activities-tab.md
-  - name: Verkäufe
-    href: screen/sales-tab.md
 - name: Mit Folgeaufgaben arbeiten
   topicHref: create-follow-up.md
   items:

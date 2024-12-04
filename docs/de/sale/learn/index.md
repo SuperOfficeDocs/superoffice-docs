@@ -31,12 +31,7 @@ Sie können auch in der Ansicht Verkauf in der Bereichsregisterkarte **Angebot**
 
 ## Wo kann man die Verkäufe anzeigen?
 
-Zusätzlich zur [Ansicht Verkauf][2] können Verkäufe an folgenden Stellen in SuperOffice CRM angezeigt werden:
-
-* In der Bereichsregisterkarte **Verkäufe** in der Anzeige Firma
-* In der Bereichsregisterkarte **Verkäufe** in der Anzeige Person
-* In der Bereichsregisterkarte **Verkäufe** in der Ansicht Kalender
-* In der Bereichsregisterkarte **Verkäufe** in der Ansicht Projekt
+Zusätzlich zur [Ansicht Verkauf][2] können Verkäufe in der [Bereichsregisterkarte Verkäufe][13] in der Anzeige Firma, Person, Kalender und Projekt angezeigt werden.
 
 > [!TIP]
 > Doppelklicken Sie auf Verkauf in einer der Orte, um den Verkauf in der Ansicht Verkauf zu öffnen.
@@ -49,7 +44,7 @@ Nachdem Sie alle Ihre Verkäufe in SuperOffice CRM registriert haben, erscheinen
 
 Sie können Ihre Verkaufsliste organisieren, indem Sie [Spalten filtern, gruppieren und hinzufügen][3], die für Sie am wichtigsten sind. Die am häufigsten verwendeten Spalten sind: Verkaufsbetrag, Verkaufsdatum und Verkaufsphase.
 
-Die Registerkarte **Verkäufe** fungiert auch wie ein [Verkaufssekretariat][8], indem alle Ihre bevorstehenden geplanten Aktivitäten im Feld **Nächste Aktivität** hervorgehoben und in roter Schrift auf diejenigen aufmerksam gemacht werden, auf Sie möglicherweise vergessen haben.
+Die Registerkarte **Verkäufe** fungiert auch wie ein Verkaufssekretariat, indem alle Ihre bevorstehenden geplanten Aktivitäten im Feld **Nächste Aktivität** hervorgehoben und in roter Schrift auf diejenigen aufmerksam gemacht werden, auf Sie möglicherweise vergessen haben.
 
 ![Gehen Sie zum Kalender und verschaffen Sie sich einen Überblick über alle noch nicht abgeschlossenen Verkäufe -screenshot][img1]
 
@@ -102,6 +97,17 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## Bereichsregisterkarten in der Ansicht Verkauf
+
+Der untere Teil der Verkaufsansicht besteht aus Bereichsregisterkarten.
+
+* [Aktivitäten][14]
+* [Verkaufsleitfaden][16]
+* [Beteiligte][15]
+* [Angebot][17] (Lizenz erforderlich)
+
+[Verkaufsleitfäden][3] werden nur für bestimmte Vertriebstypen angezeigt (festgelegt in Einstellungen und Verwaltung). Wenn Sie einen Verkaufstyp ausgewählt haben, für den ein Verkaufsleitfaden definiert wurde, wird die Bereichsregisterkarte **Verkaufsleitfaden** angezeigt.
+
 ## Was möchten Sie jetzt tun?
 
 * [Verkauf zu den Favoriten hinzufügen][10]
@@ -118,15 +124,19 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

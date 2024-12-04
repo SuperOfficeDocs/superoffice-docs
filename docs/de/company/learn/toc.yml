@@ -1,9 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Bereichsregisterkarten auf Firma
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Mit Firma arbeiten
   topicHref: create.md
   items:

@@ -7,3 +7,5 @@ items:
   href: erp-create-new-actor.md
 - name: Trennen
   href: erp-sync-disconnect.md
+- name: Registerkarte ERP
+  href: screen/erp-tab.md

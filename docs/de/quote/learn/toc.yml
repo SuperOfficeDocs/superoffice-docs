@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dialogfeld Angebot bearbeiten
   href: screen/edit-quote-dialog.md
+- name: Bereichsregisterkarte Angebot
+  href: quote-tab.md
 - name: Angebot erstellen
   href: create.md
 - name: Angebot kopieren

@@ -21,19 +21,19 @@ In der Ansicht **Person** wird jeder Datensatz in der Datenbank wie eine Karteik
 
 Um zwischen den Personen zu wechseln, klicken Sie unten rechts auf den Karten auf die Schaltflächen Zurück/Weiter - ![Symbol][img2] ![Symbol][img1].
 
-Anhand von selbst festgelegten Kriterien können Sie nach bestimmten Personen [suchen][11]. Außerdem können Sie Dokumente verfassen, Folgeaufgaben erstellen und neue Personen hinzufügen.
+Anhand von selbst festgelegten Kriterien können Sie nach bestimmten Personen [suchen][1]. Außerdem können Sie Dokumente verfassen, Folgeaufgaben erstellen und neue Personen hinzufügen.
 
-## Bereichsregisterkarten auf Person
+## <a id="section-tabs"></a>Die Bereichsregisterkarten der Ansicht Person
 
-Der untere Rand der Ansicht **Person** enthält fünf Standard-[Bereichsregisterkarten][1]:
+Der untere Rand der Ansicht **Person** enthält fünf Standard-[Bereichsregisterkarten][16] mit Informationen, die mit der aktuellen Person verknüpft sind:
 
-* Aktivitäten
-* Verkäufe
-* Anfragen
-* Projekte
-* Beziehungen
-
-Alles, was Sie über eine Person suchen möchten, ist auf einer einzigen Anzeige verfügbar.
+| Bereichsregisterkarte | Beschreibung |
+|---|---|
+| [Aktivitäten][11] | Enthält alle mit der aktiven Person verknüpften Aktivitäten. |
+| [Verkäufe][12] | Enthält Informationen über alle mit der Person verbundenen Verkäufe an. |
+| [Anfragen][13] | Zeigt SuperOffice Service-Anfragen für die Person an. |
+| [Projekte][14] | Zeigt alle Projekte an, bei denen die aktive Person ein Projektmitglied ist. |
+| [Beziehungen][15] | Zeigt alle vorhandenen Verbindungen zwischen der aktuellen Person und anderen Personen oder Firmen an. |
 
 ## Was möchten Sie tun?
 
@@ -58,7 +58,13 @@ Alles, was Sie über eine Person suchen möchten, ist auf einer einzigen Anzeige
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 [9]: ../../search-options/selection/learn/howto/mass-delete.md
 [10]: ../../learn/basics/deleting-elements.md#restore
-[11]: ../../search-options/learn/index.md
+
+[11]: ../../learn/section-tabs/activities-tab.md
+[12]: ../../learn/section-tabs/sales-tab.md
+[13]: ../../learn/section-tabs/requests-tab.md
+[14]: ../../learn/section-tabs/projects-tab.md
+[15]: ../../learn/section-tabs/relations-tab.md
+[16]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

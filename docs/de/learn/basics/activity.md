@@ -33,13 +33,7 @@ Es gibt zwei Typen von Aktivitäten – Dokumente und Folgeaufgaben. Außerdem w
 
 ## Wo finde ich Aktivitäten?
 
-| Ort | Beschreibung | Weiterlesen |
-|---|---|---|
-| Ansicht Firma | Zeigt Aktivitäten an, die mit der betreffenden Firma verknüpft sind. | [Aktivitäten (Firma)][13] |
-| Personenansicht | Zeigt Aktivitäten an, die mit der betreffenden Person verknüpft sind. | [Aktivitäten (Person)][14] |
-| Projektansicht | Zeigt Aktivitäten an, die mit dem betreffenden Projekt oder der betreffenden Person verknüpft sind. | [Aktivitäten (Projekt)][15] |
-| Verkaufsansicht | Zeigt Aktivitäten an, die mit dem betreffenden Projekt oder der betreffenden Person verknüpft sind. | [Aktivitäten (Verkauf)][16] |
-| Ansicht Kalender | Zeigt alle nicht abgeschlossenen Aktivitäten an. | [Aktivitäten (Kalender)][6] |
+Die [Bereichsregisterkarte Aktivitäten][18] ist in den Bildschirmen für Firma, Person, Projekt, Verkauf und Kalender verfügbar.
 
 > [!NOTE]
 > Die Aktivitäten werden auch in der Ansicht Kalender in [verschiedene Ansichten][7] angezeigt.
@@ -76,6 +70,30 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
+## Voreinstellungen ![Symbol][img2]
+
+Nachdem eine Aktivität erledigt ist, wird sie am nächsten Tag von der Aktivitätenliste gelöscht. Die Bereichsregisterkarte **Aktivitäten** zeigt standardmäßig Aufgaben an, die am heutigen Tag noch nicht abgeschlossen sind.
+
+### Zukünftige Aufgaben anzeigen
+
+1. Gehen Sie zu **Persönliche Einstellungen** > **Einstellungen**.
+2. Wählen Sie **Funktionen** und finden Sie die Option **Tage im Voraus anzeigen**.
+3. Definieren Sie, wie viele Tage im Voraus abgeschlossene Aufgaben sichtbar sein sollen. Zum Beispiel werden durch die Eingabe von 7 hier Aufgaben für die nächste Woche angezeigt.
+
+### Aktivität aus Liste entfernen, wenn abgeschlossen
+
+1. Gehen Sie zu **Persönliche Einstellungen** > **Einstellungen**.
+2. Wählen Sie **Optische Effekte**.
+3. Aktualisieren Sie die Einstellung **Abgeschlossene Aktivitäten entfernen** [Einstellung][2].
+
+### Überfällige Aktivitäten hervorheben
+
+Wenn eine Aktivität in roter Schrift hervorgehoben ist, bedeutet dies, dass das vorgesehene Datum verstrichen wurde. Um diese Einstellung zu ändern:
+
+1. Gehen Sie zu **Persönliche Einstellungen** > **Einstellungen**.
+2. Wählen Sie **Funktionen**.
+3. Aktualisieren Sie die Option **Überfällige Aktivitäten markieren**.
+
 ## Was möchten Sie jetzt tun?
 
 * [Aktivitäten filtern][17]
@@ -84,26 +102,25 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 * [Personen anrufen][11]
 * [Mit Dokumenten arbeiten][4]
 * [E-Mail verfassen][5]
+* [The Activities tab][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: ../../diary/learn/screen/activities-tab.md
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
-[13]: ../../company/learn/screen/activities-tab.md
-[14]: ../../contact/learn/screen/activities-tab.md
-[15]: ../../project/learn/screen/activities-project.md
-[16]: ../../sale/learn/screen/activities-sale.md
 [17]: ../section-tabs/filter.md
+[18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

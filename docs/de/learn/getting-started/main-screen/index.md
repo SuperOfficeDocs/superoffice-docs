@@ -89,7 +89,7 @@ Wenn Sie die Anzeige im Browser vergrößern bzw. verkleinern, wird die Schrift 
 [6]: ../../basics/fav.md
 [10]: ../../../company/learn/screen/index.md
 [11]: ../../../contact/learn/screen/index.md
-[13]: ../../../diary/learn/screen/activities-tab.md
+[13]: ../../section-tabs/activities-tab.md
 [15]: ../../../project/learn/screen/index.md
 [17]: ../../../sale/learn/screen/index.md
 [19]: ../../../search-options/selection/learn/screen/index.md
