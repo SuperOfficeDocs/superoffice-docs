@@ -91,17 +91,17 @@ Als de voorkeur is ingeschakeld, wordt het eerste deel van de achternaam gebruik
 * [Kolommen in sectietabbladen configureren][8]
 
 <!-- Referenced links -->
-[1]: ../../persoon/learn/index.md
-[2]: ../../persoon/learn/create.md
-[3]: ../../persoon/learn/edit.md
-[4]: ../../persoon/learn/move.md
-[5]: ../../persoon/learn/merge-contacts.md
-[6]: ../../persoon/learn/delete.md
-[7]: ../../persoon/learn/send-email.md
+[1]: ../../contact/learn/index.md
+[2]: ../../contact/learn/create.md
+[3]: ../../contact/learn/edit.md
+[4]: ../../contact/learn/move.md
+[5]: ../../contact/learn/merge-contacts.md
+[6]: ../../contact/learn/delete.md
+[7]: ../../contact/learn/send-email.md
 [8]: configure-columns.md
 [9]: ../../company/learn/index.md#section-tabs
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../../media/icons/pin.png
-[img3]: ../../../../media/icons/binders.png
+[img1]: ../../../media/loc/en/company/contacts-detail.png
+[img2]: ../../../media/icons/pin.png
+[img3]: ../../../media/icons/binders.png

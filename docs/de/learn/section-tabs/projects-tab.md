@@ -27,7 +27,7 @@ Die Bereichsregisterkarte **Projekte** ist verfügbar für:
 | [Firma][9] | Zeigt alle Projekte an, die mit der Firma verknüpft sind. Mindestens ein Mitarbeiter muss als Projektmitglied registriert sein, um hier ein Projekt anzeigen. |
 | [Person][10] | Zeigt Projekte an, bei denen die Person ein Projektmitglied ist. |
 
-## Übersicht der Spalten in der Bereichsregisterkarte Projekte
+## <a id="columns"></a>Übersicht der Spalten in der Bereichsregisterkarte Projekte
 
 Die Bereichsregisterkarte **Projekte** enthält die folgenden Spalten, um wichtige Informationen zu jedem Projekt anzuzeigen:
 

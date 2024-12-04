@@ -70,7 +70,7 @@ Nederst i -bildet finner du følgende [standard detaljkort][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../../admin/erp/learn/index.md
+[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->

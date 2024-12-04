@@ -97,7 +97,7 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Sectietabbladen in het scherm Verkoop
+## <a id="section-tabs"></a>Sectietabbladen in het scherm Verkoop
 
 Het onderste deel van het scherm Verkoop bestaat uit sectietabbladen.
 

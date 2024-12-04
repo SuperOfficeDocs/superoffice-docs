@@ -29,7 +29,7 @@ Die Bereichsregisterkarte **Verkäufe** ist verfügbar für:
 | [Tagebuch][11] | Gibt eine Übersicht über Verkäufe, mit Schwerpunkt auf geplanten Aktivitäten und Verkaufsfortschritt. |
 | [Projekt][13] | Listet Verkäufe, die mit dem Projekt verknüpft sind, und hebt verwandte Aktivitäten sowie bevorstehende Folgeaufgaben hervor. |
 
-## Spaltenübersicht der Bereichsregisterkarte Verkäufe
+## <a id="columns"></a>Spaltenübersicht der Bereichsregisterkarte Verkäufe
 
 Die Bereichsregisterkarte **Verkäufe** enthält folgende Spalten zur Anzeige wichtiger Informationen zu jedem Verkauf:
 

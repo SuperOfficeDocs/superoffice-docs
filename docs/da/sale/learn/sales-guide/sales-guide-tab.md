@@ -59,10 +59,10 @@ En salgsguide, hvor alle opfølgninger og dokumenter for alle faser vises:
 [1]: working-with-sales-guide.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/completed-sale-stage.png
-[img2]: ../../../media/loc/en/sale/current-sale-stage.png
-[img3]: ../../../media/loc/en/sale/future-sale-stage.png
-[img4]: ../../../media/loc/en/sale/create-button.png
-[img5]: ../../../media/loc/en/sale/right-click.png
-[img6]: ../../../media/loc/en/sale/activities-current-stage.png
-[img7]: ../../../media/loc/en/sale/activities-all-stages.png
+[img1]: ../../../../media/loc/en/sale/completed-sale-stage.png
+[img2]: ../../../../media/loc/en/sale/current-sale-stage.png
+[img3]: ../../../../media/loc/en/sale/future-sale-stage.png
+[img4]: ../../../../media/loc/en/sale/create-button.png
+[img5]: ../../../../media/loc/en/sale/right-click.png
+[img6]: ../../../../media/loc/en/sale/activities-current-stage.png
+[img7]: ../../../../media/loc/en/sale/activities-all-stages.png

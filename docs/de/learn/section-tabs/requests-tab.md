@@ -27,7 +27,7 @@ Die **Bereichsregisterkarte Anfragen** ist verfügbar für:
 | [Firma][9] | Zeigt alle Anfragen an, die mit der Firma verknüpft sind, mit Optionen zum Anzeigen und Verwalten der Details. |
 | [Person][10] | Zeigt Anfragen an, die mit der Person verknüpft sind, um eine personalisierte Unterstützung zu ermöglichen. |
 
-## Übersicht der Spalten in der Bereichsregisterkarte Anfragen
+## <a id="columns"></a>Übersicht der Spalten in der Bereichsregisterkarte Anfragen
 
 Die **Bereichsregisterkarte Anfragen** enthält die folgenden Spalten, um wichtige Informationen zu jeder Anfrage bereitzustellen:
 

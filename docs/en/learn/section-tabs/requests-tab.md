@@ -27,7 +27,7 @@ The **Requests** section tab is available for:
 | [Company][9] | Displays all requests linked to the company, with options to view and manage the details. |
 | [Contact][10] | Shows requests associated with the contact, allowing for more personalized support. |
 
-## Requests tab columns overview
+## <a id="columns"></a>Requests tab columns overview
 
 The **Requests** section tab contains the following columns to provide key information about each request:
 

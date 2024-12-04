@@ -102,6 +102,6 @@ Hvis denne præference er aktiveret, vil den første del af efternavnet blive br
 [9]: ../../company/learn/index.md#section-tabs
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../../media/icons/pin.png
-[img3]: ../../../../media/icons/binders.png
+[img1]: ../../../media/loc/en/company/contacts-detail.png
+[img2]: ../../../media/icons/pin.png
+[img3]: ../../../media/icons/binders.png

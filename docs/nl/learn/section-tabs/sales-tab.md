@@ -29,7 +29,7 @@ Het sectietabblad **Verkoop**  is beschikbaar voor:
 | [Agenda][11] | Geeft een overzicht van de verkopen, met de nadruk op geplande activiteiten en verkoopvoortgang. |
 | [Project][13] | Geeft een lijst van verkopen die aan het project zijn gekoppeld, met een focus op gerelateerde activiteiten en komende vervolgactiviteiten. |
 
-## Kolommenoverzicht van het Verkoop-tabblad
+## <a id="columns"></a>Kolommenoverzicht van het Verkoop-tabblad
 
 Het sectietabblad **Verkoop**  bevat de volgende kolommen om belangrijke informatie over elke verkoop weer te geven:
 

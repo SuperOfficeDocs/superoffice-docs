@@ -27,7 +27,7 @@ Het sectietabblad **Verzoeken** is beschikbaar voor:
 | [Bedrijf][9] | Geeft alle verzoeken weer die aan het bedrijf zijn gekoppeld, met opties om de details te bekijken en te beheren. |
 | [Persoon][10] | Geeft verzoeken weer die zijn gekoppeld aan de persoon, waardoor meer gepersonaliseerde ondersteuning mogelijk is. |
 
-## Overzicht van de kolommen in het tabblad Verzoeken
+## <a id="columns"></a>Overzicht van de kolommen in het tabblad Verzoeken
 
 Het sectietabblad **Verzoeken** bevat de volgende kolommen om belangrijke informatie over elk verzoek weer te geven:
 

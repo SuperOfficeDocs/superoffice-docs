@@ -23,7 +23,7 @@ Als u tussen personen wilt schakelen, klikt u op de knoppen vorige/volgende - ![
 
 U kunt op personen [zoeken][1] aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe personen maken.
 
-## Sectietabbladen op het scherm Persoon
+## <a id="section-tabs"></a>Sectietabbladen op het scherm Persoon
 
 Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectietabbladen][16] met informatie die zijn gekoppeld aan de huidige persoon:
 

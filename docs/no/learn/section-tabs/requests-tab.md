@@ -27,7 +27,7 @@ Detaljkortet **Saker** er tilgjengelig for:
 | [Firma][9] | Viser alle saker tilknyttet firmaet, med muligheter for å se og administrere detaljene. |
 | [Person][10] | Viser saker tilknyttet personen, noe som gir mulighet for mer personlig støtte. |
 
-## Kolonneoversikt for Saksfanen
+## <a id="columns"></a>Kolonneoversikt for Saksfanen
 
 Detaljkortet **Saker** inneholder følgende kolonner for å gi nøkkelinformasjon om hver sak:
 

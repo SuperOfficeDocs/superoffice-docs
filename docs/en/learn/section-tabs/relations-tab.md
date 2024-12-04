@@ -27,7 +27,7 @@ The **Relations** section tab is available for:
 | [Company][9] | Displays relationships involving the current company and other companies or contacts. |
 | [Contact][10] | Shows connections between the current contact and other contacts or companies. |
 
-## Relations tab columns overview
+## <a id="columns"></a>Relations tab columns overview
 
 The **Relations** section tab contains the following columns, providing key information about each relationship:
 

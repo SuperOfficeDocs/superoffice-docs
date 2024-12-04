@@ -2,7 +2,7 @@
 uid: help-en-section-tab-activities
 title: Activities tab
 description: Learn how to use the Activities tab in SuperOffice CRM to view, manage, and track activities, follow-ups, and documents for companies, contacts, projects, and sales — all in one organized section.
-keywords: activities tab, section tab, activity archive
+keywords: Activities tab, section tab, activity archive
 author: Bergfrid Skaara Dias
 date: 11.29.2024
 version: 10
@@ -32,7 +32,7 @@ The **Activities** section tab is available for:
 | [Sale][12] | Shows all activities linked to the sale, providing an overview of progress and interactions. |
 | [Project][13] | Lists all activities linked to the project. |
 
-## Activities tab columns overview
+## <a id="columns"></a>Activities tab columns overview
 
 The **Activities** section tab contains the following columns to display key information about each activity:
 

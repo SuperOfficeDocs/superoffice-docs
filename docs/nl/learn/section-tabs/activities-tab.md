@@ -32,7 +32,7 @@ Het sectietabblad **Activiteiten** is beschikbaar voor:
 | [Verkoop][12] | Toont alle activiteiten die aan de verkoop zijn gekoppeld en biedt een overzicht van de voortgang en interacties. |
 | [Project][13] | Toont alle activiteiten die aan het project zijn gekoppeld. |
 
-## Overzicht van de kolommen in het sectietabblad Activiteiten
+## <a id="columns"></a>Overzicht van de kolommen in het sectietabblad Activiteiten
 
 Het sectietabblad **Activiteiten** bevat de volgende kolommen om belangrijke informatie over elke activiteit weer te geven:
 

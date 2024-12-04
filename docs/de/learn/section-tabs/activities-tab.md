@@ -32,7 +32,7 @@ Die Bereichsregisterkarte **Aktivitäten** ist verfügbar für:
 | [Verkauf][12] | Zeigt alle Aktivitäten an, die mit dem Verkauf verknüpft sind, und bietet eine Übersicht über den Fortschritt und die Interaktionen. |
 | [Projekt][13] | Zeigt alle Aktivitäten an, die mit dem Projekt verknüpft sind. |
 
-## Spaltenübersicht der Bereichsregisterkarte Aktivitäten
+## <a id="columns"></a>Spaltenübersicht der Bereichsregisterkarte Aktivitäten
 
 Die Bereichsregisterkarte **Aktivitäten** enthält die folgenden Spalten, um wichtige Informationen zu jeder Aktivität anzuzeigen:
 

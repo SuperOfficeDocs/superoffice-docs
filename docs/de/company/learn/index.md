@@ -23,7 +23,7 @@ Um zwischen Firmen zu wechseln, klicken Sie auf die Schaltflächen Zurück/Weite
 
 Anhand von selbst festgelegten Kriterien können Sie nach bestimmten Firmen suchen. Außerdem können Sie Dokumente verfassen, Folgeaufgaben erstellen und neue Firmen und Personen einrichten.
 
-## # Die Bereichsregisterkarten der Ansicht Firma
+## <a id="section-tabs"></a>Die Bereichsregisterkarten der Ansicht Firma
 
 Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregisterkarten][18]:
 
@@ -70,7 +70,7 @@ Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregist
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../../admin/erp/learn/index.md
+[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->

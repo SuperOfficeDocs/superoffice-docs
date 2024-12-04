@@ -30,7 +30,7 @@ Alternativt: Hvis tilbuddet indeholder et eller flere [alternativer][4], kan du 
 
 På højre side af detaljekortet **Tilbud** vises version, tilbudsnummer og [status][6] (for eksempel **Udkast** eller **Solgt**). Klik på **Åbn** for at redigere tilbuddet.
 
-[!include[Table showing quote states](../../../quote/learn/includes/table-quote-states.md)]
+[!include[Table showing quote states](includes/table-quote-states.md)]
 
 Produktlisten: Hvis der er blevet tilføjet produkter til tilbuddet, vises de på listen. Nederst på listen vises den samlede pris for de produkter, der vises på den.
 

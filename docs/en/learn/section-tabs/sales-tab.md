@@ -29,7 +29,7 @@ The **Sales** section tab is available for:
 | [Diary][11] | Presents an overview of sales, emphasizing scheduled activities and sales progress. |
 | [Project][13] | Lists sales tied to the project, highlighting related activities and upcoming follow-ups. |
 
-## Sales tab columns overview
+## <a id="columns"></a>Sales tab columns overview
 
 The **Sales** section tab contains the following columns to display key information about each sale:
 

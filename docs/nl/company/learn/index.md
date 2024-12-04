@@ -23,7 +23,7 @@ Als u tussen bedrijven wilt schakelen, klikt u op de knoppen vorige/volgende (![
 
 U kunt op bedrijven zoeken aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe bedrijven en contactpersonen maken.
 
-## De sectietabbladen in het scherm Bedrijf
+## <a id="section-tabs"></a>De sectietabbladen in het scherm Bedrijf
 
 Het onderste deel van het scherm bestaat uit de volgende [standaardsectietabbladen][18]:
 
@@ -70,7 +70,7 @@ Het onderste deel van het scherm bestaat uit de volgende [standaardsectietabblad
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../../admin/erp/learn/index.md
+[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->

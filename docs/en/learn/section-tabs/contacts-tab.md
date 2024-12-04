@@ -18,7 +18,7 @@ The **Contacts** section tab in SuperOffice CRM allows users to view and manage 
 
 ![Contacts section in company -screenshot][img1]
 
-## Contacts tab columns overview
+## <a id="columns"></a>Contacts tab columns overview
 
 The **Contacts** section tab contains the following columns to display key information about each person:
 
@@ -102,6 +102,6 @@ If this preference is enabled, the first part of the last name will be used as t
 [9]: ../../company/learn/index.md#section-tabs
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../../media/icons/pin.png
-[img3]: ../../../../media/icons/binders.png
+[img1]: ../../../media/loc/en/company/contacts-detail.png
+[img2]: ../../../media/icons/pin.png
+[img3]: ../../../media/icons/binders.png

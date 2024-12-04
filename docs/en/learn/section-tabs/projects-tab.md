@@ -27,7 +27,7 @@ The **Projects** section tab is available for:
 | [Company][9] | Displays all projects linked to the company. At least one employee must be registered as a project member. |
 | [Contact][10] | Shows projects where the contact is a project member. |
 
-## Projects tab columns overview
+## <a id="columns"></a>Projects tab columns overview
 
 The **Projects** section tab contains the following columns to display key information about each project:
 

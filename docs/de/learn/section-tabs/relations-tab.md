@@ -27,7 +27,7 @@ Die Bereichsregisterkarte **Beziehungen** ist verfügbar für:
 | [Firma][9] | Zeigt Beziehungen an, die die aktuelle Firma und andere Firmen oder Personen betreffen. |
 | [Person][10] | Zeigt Verbindungen zwischen der aktuellen Person und anderen Personen oder Firmen an. |
 
-## Übersicht der Spalten in der Bereichsregisterkarte Beziehungen
+## <a id="columns"></a>Übersicht der Spalten in der Bereichsregisterkarte Beziehungen
 
 Die **Bereichsregisterkarte Beziehungen** enthält die folgenden Spalten, die wichtige Informationen zu jeder Beziehung bereitstellen:
 

@@ -23,7 +23,7 @@ Om du vill flytta mellan olika företag klickar du på knapparna föregående/n�
 
 Du kan söka efter vissa företag med hjälp av kriterier som du anger. Du även skriva dokument, skapa händelser och skapa nya företag eller kontakter.
 
-## Detaljkorten i fönstret Företag
+## <a id="section-tabs"></a>Detaljkorten i fönstret Företag
 
 Längst ned i fönstret finns följande [detaljkort som standard][18]:
 
@@ -70,7 +70,7 @@ Längst ned i fönstret finns följande [detaljkort som standard][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../../admin/erp/learn/index.md
+[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->

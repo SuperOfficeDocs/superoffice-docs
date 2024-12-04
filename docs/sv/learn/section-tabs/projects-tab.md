@@ -27,7 +27,7 @@ Detaljkortet **Projekt** är tillgänglig för:
 | [Företag][9] | Visar alla projekt kopplade till företaget. Minst en anställd måste vara registrerad som projektdeltagare för att ett projekt ska visas här. |
 | [Kontakt][10] | Visar projekt där kontakten är projektdeltagare. |
 
-## Kolumnöversikt för Projekt-fliken
+## <a id="columns"></a>Kolumnöversikt för Projekt-fliken
 
 Detaljkortet **Projekt** innehåller följande kolumner för att visa viktig information om varje projekt:
 

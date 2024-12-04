@@ -29,7 +29,7 @@ Detaljkortet **Försäljning** är tillgängligt för:
 | [Kalender][11] | Ger en översikt över försäljningar med betoning på planerade aktiviteter och försäljningsframgång. |
 | [Projekt][13] | Visar försäljningar som är kopplade till projektet, med fokus på relaterade aktiviteter och kommande händelser. |
 
-## Kolumner i Försäljning-detaljkortet
+## <a id="columns"></a>Kolumner i Försäljning-detaljkortet
 
 Detaljkortet **Försäljning** innehåller följande kolumner för att visa viktig information om varje försäljning:
 

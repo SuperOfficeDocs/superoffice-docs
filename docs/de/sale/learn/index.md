@@ -97,7 +97,7 @@ Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## Bereichsregisterkarten in der Ansicht Verkauf
+## <a id="section-tabs"></a>Bereichsregisterkarten in der Ansicht Verkauf
 
 Der untere Teil der Verkaufsansicht besteht aus Bereichsregisterkarten.
 

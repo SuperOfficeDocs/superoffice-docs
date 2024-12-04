@@ -30,7 +30,7 @@ Alternativ: Om offerten innehåller ett eller flera [alternativ][4], kan du väl
 
 Till höger om detaljkortet **Offert** finns version, offertnummer och [status][6] (till exempel **Utkast** eller **Sålt**). Klicka på **Öppna** för att redigera offerten.
 
-[!include[Table showing quote states](table-quote-states.md)]
+[!include[Table showing quote states](includes/table-quote-states.md)]
 
 Produktlistan: Om produkter har lagts till i offerten, visas de i listan. Längst ner i listan visas det totala priset för produkterna i den.
 

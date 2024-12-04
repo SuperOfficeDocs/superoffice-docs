@@ -27,7 +27,7 @@ Het sectietabblad **Projecten** is beschikbaar voor:
 | [Bedrijf][9] | Geeft alle projecten weer die aan het bedrijf zijn gekoppeld. Ten minste één medewerker moet als projectlid geregistreerd zijn. |
 | [Persoon][10] | Geeft projecten weer waarbij de persoon een projectlid is. |
 
-## Overzicht van de kolommen in het Projecten-tabblad
+## <a id="columns"></a>Overzicht van de kolommen in het Projecten-tabblad
 
 Het sectietabblad **Projecten** bevat de volgende kolommen om belangrijke informatie over elk project weer te geven:
 

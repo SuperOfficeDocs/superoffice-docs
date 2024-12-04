@@ -27,7 +27,7 @@ Detaljkortet **Ärenden** är tillgänglig för:
 | [Företag][9] | Visar alla ärenden kopplade till företaget, med alternativ för att visa och hantera detaljerna. |
 | [Kontakt][10] | Visar ärenden kopplade till kontakten, vilket ger mer personlig support. |
 
-## Översikt över kolumner i Ärenden-fliken
+## <a id="columns"></a>Översikt över kolumner i Ärenden-fliken
 
 Detaljkortet **Ärenden** innehåller följande kolumner för att ge viktig information om varje ärende:
 
