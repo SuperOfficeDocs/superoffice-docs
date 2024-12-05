@@ -2,10 +2,13 @@
 uid: help-da-project-members
 title: Projektdeltager
 description: Projektdeltager
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: projekt, deltager
+author: SuperOffice RnD
+date: 12.04.24
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -13,7 +16,11 @@ language: da
 
 Projektdeltagere er deltagerne i et projekt. For hver deltager kan du få adgang til informationer om firma, personnavn, rolle i projektet, eventuelle kommentarer, e-mail-adresse og telefonnummer.
 
-## Hvad vil du foretage dig nu?
+## Detaljkortet Projektdeltagere
+
+**Projektmedlemmer** er et af detaljekortene nederst i skærmbilledet Projekt. Det indeholder oplysninger om deltagere i det aktive projekt. For hvert projektmedlem kan du få adgang til informationer om firma, personnavn, rolle i projektet, eventuelle kommentarer, e-mail-adresse og telefonnummer.
+
+## Relateret indhold
 
 * [Tilføj en projektdeltager][1]
 * [Rediger eller slet projektdeltagere][3]

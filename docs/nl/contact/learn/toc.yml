@@ -1,9 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Sectietabbladen op persoon
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Werken met persoon
   topicHref: create.md
   items:

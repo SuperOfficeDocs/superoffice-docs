@@ -1,9 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Seksjon-fane på prosjekt
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeide med prosjekt
   topicHref: create.md
   items:
@@ -27,6 +24,8 @@ items:
   items:
   - name: Oversikt
     href: project-guide/index.md
+  - name: Project guide tab
+    href: project-guide/project-guide-tab.md
   - name: Arbeide med prosjektguide
     href: project-guide/working-with.md
   - name: Vise oppfølginger og dokumenter

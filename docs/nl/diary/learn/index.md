@@ -40,6 +40,9 @@ De agenda bestaat uit [vier tabbladen][24]: Tabblad **Dag**, tabblad **Week**, t
 
 * (Indien geopend) Klik op een dag of week in de dag-, week- of maandweergave in het zijpaneel.
 
+> [!NOTE]
+> De activiteitenlijst verandert niet wanneer u schakelt tussen de verschillende weergaven in het bovenste deel van het scherm Agenda.
+
 ## Wat wilt u nu doen?
 
 * [Een tijdzone selecteren][15]

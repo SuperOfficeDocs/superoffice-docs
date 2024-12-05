@@ -3,11 +3,12 @@ items:
   href: index.md
 - name: Status eines Verkaufs (Stufen)
   href: stages.md
+- name: Beteiligte
+  href: stakeholders/index.md
 - name: Verkaufsleitfaden
   href: sales-guide/index.md
-- name: Bereichsregisterkarten auf Verkauf
-  href: screen/toc.yml
-  topicHref: screen/index.md
+- name: Bereichsregisterkarte Verkaufsleitfaden
+  href: sales-guide/sales-guide-tab.md
 - name: Mit Verkauf arbeiten
   topicHref: create.md
   items:

@@ -40,6 +40,9 @@ Der Kalender besteht aus [vier Registerkarten][24]: Registerkarte **Tag**, Regis
 
 * Klicken Sie (wenn offen) auf einen Tag oder eine Woche in der Ansicht Tag, Woche oder Monat auf der Seitenleiste.
 
+> [!NOTE]
+> Die Aktivitätenliste ändert sich nicht, wenn Sie im oberen Bereich in der Ansicht Kalender zwischen den verschiedenen Registerkarten wechseln.
+
 ## Was möchten Sie jetzt tun?
 
 * [Eine Zeitzone auswählen][15]

@@ -1,9 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Bereichsregisterkarten auf Person
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeiten mit Personen
   topicHref: create.md
   items:

@@ -1,7 +1,7 @@
 ---
 uid: help-nl-contact
 title: Persoon
-description: "Een persoonskaart slaat waardevolle informatie op over al je communicatie en interactie met een persoon, evenals hun AVG-toestemmingsdocumentatie."
+description: Een persoonskaart slaat waardevolle informatie op over al je communicatie en interactie met een persoon, evenals hun AVG-toestemmingsdocumentatie.
 author: Bergfrid Dias
 date: 12.14.2022
 keywords: persoon, contactpersoon
@@ -21,19 +21,19 @@ In het scherm **Persoon** wordt elke record in de database weergegeven als een i
 
 Als u tussen personen wilt schakelen, klikt u op de knoppen vorige/volgende - ![pictogram][img2] ![pictogram][img1] - rechtsonder op de kaarten.
 
-U kunt op personen [zoeken][11] aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe personen maken.
+U kunt op personen [zoeken][1] aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe personen maken.
 
-## Sectietabbladen op Persoon
+## <a id="section-tabs"></a>Sectietabbladen op het scherm Persoon
 
-Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectietabbladen][1]:
+Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectietabbladen][16] met informatie die zijn gekoppeld aan de huidige persoon:
 
-* Activiteiten
-* Verkoop
-* Verzoeken
-* Projecten
-* Relaties
-
-Alles wat u wilt weten over een contactpersoon is beschikbaar vanaf één scherm.
+| Sectietabblad | Beschrijving |
+|---|---|
+| [Activiteiten][11] | Bevat alle activiteiten die aan de persoon zijn gekoppeld. |
+| [Verkoop][12] | Bevat informatie over verkopen met betrekking tot de persoon. |
+| [Verzoeken][13] | Toont SuperOffice Service-aanvragen voor de persoon. |
+| [Projecten][14] | Toont alle projecten waarbij de actieve persoon een projectlid is. |
+| [Relaties][15] | Hier worden eventuele verbindingen weergegeven tussen de huidige persoon en andere personen of bedrijven. |
 
 ## Wat wilt u doen?
 
@@ -58,7 +58,13 @@ Alles wat u wilt weten over een contactpersoon is beschikbaar vanaf één scherm
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 [9]: ../../search-options/selection/learn/howto/mass-delete.md
 [10]: ../../learn/basics/deleting-elements.md#restore
-[11]: ../../search-options/learn/index.md
+
+[11]: ../../learn/section-tabs/activities-tab.md
+[12]: ../../learn/section-tabs/sales-tab.md
+[13]: ../../learn/section-tabs/requests-tab.md
+[14]: ../../learn/section-tabs/projects-tab.md
+[15]: ../../learn/section-tabs/relations-tab.md
+[16]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

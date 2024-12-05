@@ -54,6 +54,6 @@ Hvis du har registreret en opfølgning i dagbogen, men ikke ved, hvilket klokkes
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: screen/activities-tab.md
+[2]: ../../learn/section-tabs/activities-tab.md
 
 <!-- Referenced images -->

@@ -12,13 +12,6 @@ items:
     href: group-view.md
   - name: Se andre dagbøker
     href: other-diaries.md
-- name: Detaljkort
-  topicHref: screen/activities-tab.md
-  items:
-  - name: Aktiviteter
-    href: screen/activities-tab.md
-  - name: Salg
-    href: screen/sales-tab.md
 - name: Jobbe med oppfølginger
   topicHref: create-follow-up.md
   items:

@@ -54,6 +54,6 @@ Om du har lagt in en händelse i kalendern men inte vet på vilket klockslag och
 
 <!-- Referenced links -->
 [1]: change-completed-status.md
-[2]: screen/activities-tab.md
+[2]: ../../learn/section-tabs/activities-tab.md
 
 <!-- Referenced images -->

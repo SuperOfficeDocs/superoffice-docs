@@ -1,9 +1,6 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Sektionsfaner på firma
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbejd med firma
   topicHref: create.md
   items:

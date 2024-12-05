@@ -12,13 +12,6 @@ items:
     href: group-view.md
   - name: "Andere agenda's bekijken"
     href: other-diaries.md
-- name: Sectietabbladen
-  topicHref: screen/activities-tab.md
-  items:
-  - name: Activiteiten
-    href: screen/activities-tab.md
-  - name: Verkoop
-    href: screen/sales-tab.md
 - name: Werken met vervolgactiviteiten
   topicHref: create-follow-up.md
   items:

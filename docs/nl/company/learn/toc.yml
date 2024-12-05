@@ -1,9 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Sectietabbladen op bedrijf
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Werken met bedrijf
   topicHref: create.md
   items:

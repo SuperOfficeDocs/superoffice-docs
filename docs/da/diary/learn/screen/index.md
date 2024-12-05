@@ -96,7 +96,7 @@ Fanen **Vis** bruges primært til at åbne og se oversigter over andre brugere e
 * Vælg **Inviter deltagere for at knytte deltagere** til en opfølgning.
 * Vælg **Hjælp** for at åbne denne brugervejledning.
 
-## Detaljekortene i skærmbilledet Dagbog
+## <a id="section-tabs"></a>Detaljekortene i skærmbilledet Dagbog
 
 Skærmbilledet Dagbog indeholder følgende detaljekort:
 
@@ -108,8 +108,8 @@ Skærmbilledet Dagbog indeholder følgende detaljekort:
 
 <!-- Referenced links -->
 [5]: ../invitation/add-attendee.md
-[6]: activities-tab.md
-[7]: sales-tab.md
+[6]: ../../../learn/section-tabs/activities-tab.md
+[7]: ../../../learn/section-tabs/sales-tab.md
 [8]: ../change-completed-status.md
 [9]: ../invitation/index.md#status
 [10]: ../video-meetings.md

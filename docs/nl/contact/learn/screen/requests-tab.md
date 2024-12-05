@@ -1,16 +1,5 @@
 ---
-uid: help-nl-contact-screen-requests
-title: Tabblad Verzoeken
-description: Tabblad Verzoeken
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: persoon, contactpersoon
-topic: reference
-language: nl
+uid: help-nl-contact-screen-requests-redirect
+date: 12.04.2024
+redirect_url: https://docs.superoffice.com/nl/learn/section-tabs/requests-tab.html
 ---
-
-# Tabblad Verzoeken
-
-Het sectietabblad **Verzoeken** geeft verzoeken van SuperOffice Service weer voor de actieve persoon.
-
-U kunt dubbelklikken op een verzoek om het in een apart venster te openen. Klik op de knop **Bewerken** om in SuperOffice Service aan het verzoek te werken.

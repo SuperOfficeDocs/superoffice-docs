@@ -31,12 +31,7 @@ Du kan også [opprette tilbud][1] i detaljkortet **Tilbud** i Salg-bildet.
 
 ## Hvor kan jeg se salg?
 
-I tillegg til i [Salg-bildet][2] kan salg vises følgende steder i SuperOffice CRM:
-
-* På detaljkortet **Salg** i Firma-bildet
-* På detaljkortet **Salg** i Person-bildet
-* På detaljkortet **Salg** i Dagbok-bildet
-* På detaljkortet **Salg** i Prosjekt-bildet
+I tillegg til i [Salg-bildet][2] kan salg vises på [detaljkortet Salg][13] i Firma-, Person-, Dagbok- og Prosjekt-bildet.
 
 > [!TIP]
 > Dobbeltklikk på et salg på et av disse stedene for å åpne salget i bildet Salg.
@@ -49,7 +44,7 @@ Når du har registrert alle salgene dine i SuperOffice CRM, vises de i den perso
 
 Du kan organisere salgslisten din ved [å filtrere, gruppere og legge til kolonnene][3] som er viktigst for deg. De mest brukte kolonnene er salgsbeløp, salgsdato og salgsfase.
 
-Fanen **Salg** fungerer også som [en salgssekretær][8] ved å fremheve alle kommende planlagte aktiviteter i feltet **Neste aktivitet**. I tillegg rettes oppmerksomheten din mot aktiviteter du kanskje har glemt, ved at disse står med rød skrift.
+Fanen **Salg** fungerer også som en salgssekretær ved å fremheve alle kommende planlagte aktiviteter i feltet **Neste aktivitet**. I tillegg rettes oppmerksomheten din mot aktiviteter du kanskje har glemt, ved at disse står med rød skrift.
 
 ![Gå til Dagboken, og få en oversikt over alle salg som ennå ikke er utført -screenshot][img1]
 
@@ -101,6 +96,17 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## <a id="section-tabs"></a>Detaljkortene i Salg-bildet
+
+Den nedre delen av Salg-bildet består av detaljkort.
+
+* [Aktiviteter][14]
+* [Salgsguide][16]
+* [Interessenter][15]
+* [Tilbud][17] (krever lisens)
+
+[Salgsguider][3] vises bare for bestemte salgstyper (definert i Innstillinger og vedlikehold). Hvis du velger en salgstype som det er definert en salgsguide for, vises detaljkortet **Salgsguide**.
+
 ## Hva vil du gjøre nå?
 
 * [Legge til et salg i favoritter][10]
@@ -117,15 +123,19 @@ Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Re
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

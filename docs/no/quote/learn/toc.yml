@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dialogboksen Rediger tilbud
   href: screen/edit-quote-dialog.md
+- name: Detaljkortet Tilbud
+  href: quote-tab.md
 - name: Opprette tilbud
   href: create.md
 - name: Kopiere tilbud

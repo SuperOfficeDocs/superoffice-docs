@@ -59,6 +59,26 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 > [!TIP]
 > Wenn Sie auf die Schaltfläche (![Symbol][img5]) rechts neben **Bestätigung** klicken, können Sie einen Bestätigungstext eingeben, der in einem Dialogfeld angezeigt wird, wenn sich ein Audience-Benutzer beim Ereignis an- oder abmeldet. Der Benutzer muss in diesem Dialogfeld auf **Ja** oder **Nein** klicken, um fortzufahren.
 
+## <a id="section-tabs"></a>Bereichsregisterkarten in der Ansicht Projekt
+
+Der untere Teil der Projektansicht besteht aus Bereichsregisterkarten.
+
+* [Projektleitfaden][13] (falls für den aktuellen Projekttyp definiert)
+* [Projektmitglieder][6]
+* [Aktivitäten][16]
+* [Verkäufe][17]
+* [Anfragen][18]
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
+## Projektleitfaden
+
+Projektleitfaden, der an Ihre eigenen eindeutigen Projektprozesse angepasst werden kann. Sie können alle Aktivitäten, Dokumente und Meilensteine eines Projekts zuordnen, was es Ihrem gesamten Team leicht macht, sie zu verfolgen. Der Projektleitfaden hilft Ihnen auch dabei, den aktuellen Projektstatus zu überwachen und jederzeit zu erkennen, was zu tun ist.
+
+![Ein Projektleitfaden hilft dem Team, einen konstanten Überblick über den Projektstatus zu behalten -screenshot][img4]
+
+Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][8].
+
 ## Was möchten Sie jetzt tun?
 
 * [Projekt zu Favoriten hinzufügen][9]
@@ -76,14 +96,20 @@ Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffent
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: project-guide/project-guide-tab.md
+[16]: ../../learn/section-tabs/activities-tab.md
+[17]: ../../learn/section-tabs/sales-tab.md
+[18]: ../../learn/section-tabs/requests-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/icons/select.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

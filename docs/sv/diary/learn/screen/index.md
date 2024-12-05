@@ -96,7 +96,7 @@ Fliken **Översikt** används främst för att öppna och titta på översikter 
 * Välj **Bjud in deltagare** om du vill koppla deltagare till en händelse.
 * Välj **Hjälp** för att öppna den här användarhandboken.
 
-## Detaljkorten i fönstret Kalender
+## <a id="section-tabs"></a>Detaljkorten i fönstret Kalender
 
 Fönstret Kalender innehåller följande detaljkort:
 
@@ -108,8 +108,8 @@ Fönstret Kalender innehåller följande detaljkort:
 
 <!-- Referenced links -->
 [5]: ../invitation/add-attendee.md
-[6]: activities-tab.md
-[7]: sales-tab.md
+[6]: ../../../learn/section-tabs/activities-tab.md
+[7]: ../../../learn/section-tabs/sales-tab.md
 [8]: ../change-completed-status.md
 [9]: ../invitation/index.md#status
 [10]: ../video-meetings.md

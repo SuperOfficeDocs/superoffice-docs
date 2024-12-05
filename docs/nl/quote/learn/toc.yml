@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dialoogvenster Offerte bewerken
   href: screen/edit-quote-dialog.md
+- name: Quote section tab
+  href: quote-tab.md
 - name: Offerte maken
   href: create.md
 - name: Offerte kopiëren

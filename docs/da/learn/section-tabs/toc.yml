@@ -1,6 +1,18 @@
 items:
   - name: Oversigt
     href: index.md
+  - name: Aktivitetsfanen
+    href: activities-tab.md
+  - name: Personfanen
+    href: contacts-tab.md
+  - name: Relationsfanen
+    href: relations-tab.md
+  - name: Salgsfanen
+    href: sales-tab.md
+  - name: Projektfanen
+    href: projects-tab.md
+  - name: Sagsfanen
+    href: requests-tab.md
   - name: Tilpas kolonnevisningen
     href: configure-columns.md
   - name: Brug filtre

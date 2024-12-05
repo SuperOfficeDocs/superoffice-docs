@@ -33,13 +33,7 @@ Det finns två typer av aktiviteter – dokument och händelser. Dessutom visas 
 
 ## Var hittar jag aktiviteter?
 
-| Plats | Beskrivning | Läs mer |
-|---|---|---|
-| Fönstret Företag | Visar aktiviteter som är kopplade till företaget. | [Aktiviteter (Företag)][13] |
-| Fönstret Kontakt | Visar aktiviteter som är kopplade till kontakten. | [Aktiviteter (Kontakt)][14] |
-| Projektskärm | Visar aktiviteter som är kopplade till projektet eller försäljningen. | [Aktiviteter (Projekt)][15] |
-| Försäljningsskärm | Visar aktiviteter som är kopplade till projektet eller försäljningen. | [Aktiviteter (Försäljning)][16] |
-| Fönstret Kalender | Visar alla oavslutade aktiviteter. | [Aktiviteter (Kalender)][6] |
+[Aktivitetsfliken][18] är tillgänglig i Företag-, Kontakt-, Projekt-, Försäljnings- och Kalender-skärmarna.
 
 > [!NOTE]
 > Aktiviteter visas även i de [olika vyerna][7] i fönstret Kalender.
@@ -76,6 +70,30 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
+## Preferenser ![ikon][img2]
+
+När en aktivitet har slutförts tas den bort från aktivitetslistan nästa dag. Som standard visar **Aktivitetsfliken** uppgifter som du inte har slutfört per dagens datum.
+
+### Visa framtida uppgifter
+
+1. Gå till **Personliga inställningar** > **Inställningar**.
+2. Välj **Funktioner** och hitta alternativet **Visa dagar framåt**.
+3. Definiera hur många dagar framåt du vill att uppgifter ska vara synliga. Till exempel, genom att ange 7 här kommer du att visa uppgifter för nästa vecka.
+
+### Ta bort aktivitet från listan när den är slutförd
+
+1. Gå till **Personliga inställningar** > **Inställningar**.
+2. Välj **Visuella effekter**.
+3. Uppdatera [inställningen][2] **Ta bort slutförda aktiviteter**.
+
+### Markera förfallna aktiviteter
+
+Om en aktivitet skrivs med röd text betyder det att dess planerade datum har passerat. För att ändra den här inställningen:
+
+1. Gå till **Personliga inställningar** > **Inställningar**.
+2. Välj **Funktioner**.
+3. Uppdatera alternativet **Markera aktiviteter som har utgått**.
+
 ## Vad vill du göra nu?
 
 * [Filtrera aktiviteter][17]
@@ -84,26 +102,25 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 * [Ringa till kontakter][11]
 * [Arbeta med dokument][4]
 * [Skriv ett e-postmeddelande][5]
+* [The Activities tab][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[6]: ../../diary/learn/screen/activities-tab.md
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
-[13]: ../../company/learn/screen/activities-tab.md
-[14]: ../../contact/learn/screen/activities-tab.md
-[15]: ../../project/learn/screen/activities-project.md
-[16]: ../../sale/learn/screen/activities-sale.md
 [17]: ../section-tabs/filter.md
+[18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

@@ -59,6 +59,26 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 > [!TIP]
 > Als u op de knop ( ![pictogram][img5] ) rechts van **Bevestiging** klikt, kunt u een bevestigingstekst invoeren die in een dialoogvenster wordt weergegeven wanneer een Audience-gebruiker zich voor de gebeurtenis aan- of afmeldt. De gebruiker moet in dit dialoogvenster op **Ja** of **Nee** klikken om verder te gaan.
 
+## <a id="section-tabs"></a>Sectietabbladen in het scherm Project
+
+Het onderste deel van het scherm Project bestaat uit sectietabbladen.
+
+* [Projectgids][13] (als er een is gedefinieerd voor het huidige projecttype)
+* [Projectleden][6]
+* [Activiteiten][16]
+* [Verkoop][17]
+* [Verzoeken][18]
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
+## Projectgids
+
+De projectgids die kan worden aangepast aan uw eigen unieke projectprocessen. U kunt alle activiteiten, documenten en mijlpalen van een project in kaart brengen, waardoor het voor uw hele team gemakkelijk is om te volgen. De projectgids helpt u ook om de huidige projectstatus te controleren en geeft de hele tijd aan wat er moet worden gedaan.
+
+![Een projectgids helpt het team een constant overzicht te hebben van de projectstatus -screenshot][img4]
+
+Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpassen][8].
+
 ## Wat wilt u nu doen?
 
 * [Project toevoegen aan favorieten][9]
@@ -76,14 +96,20 @@ Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeu
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: project-guide/project-guide-tab.md
+[16]: ../../learn/section-tabs/activities-tab.md
+[17]: ../../learn/section-tabs/sales-tab.md
+[18]: ../../learn/section-tabs/requests-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/icons/select.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

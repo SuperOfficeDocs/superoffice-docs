@@ -21,17 +21,19 @@ In the **Contact** screen, every record in the database is displayed like an ind
 
 To move between contacts, click the previous/next buttons - ![icon][img2] ![icon][img1] - at the bottom right of the cards.
 
-You can [search][11] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
+You can [search][1] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
 
-## Section tabs on Contact
+## <a id="section-tabs"></a>Section tabs on Contact
 
-The bottom of the **Contact** screen contains five default [section tabs][1]:
+The bottom of the **Contact** screen contains five default [section tabs][16] with information linked to the current contact:
 
-* Activities
-* Sales
-* Requests
-* Projects
-* Relations
+| Section tab | Description |
+|---|---|
+| [Activities][11] | Contains all the activities linked to the contact. |
+| [Sales][12] | Contains information about any sales connected to the contact. |
+| [Requests][13] | Shows SuperOffice Service requests for the contact. |
+| [Projects][14] | Shows all the projects where the active contact is a project member. |
+| [Relations][15] | Displays any connections existing between the current contact and other contacts or companies. |
 
 Everything you want to find out about a contact is available from a single screen.
 
@@ -48,7 +50,7 @@ Everything you want to find out about a contact is available from a single scree
 * [Use the Recycle bin to restore companies and contacts][10]
 
 <!-- Referenced links -->
-[1]: screen/index.md
+[1]: ../../search-options/learn/index.md
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
@@ -58,7 +60,13 @@ Everything you want to find out about a contact is available from a single scree
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 [9]: ../../search-options/selection/learn/howto/mass-delete.md
 [10]: ../../learn/basics/deleting-elements.md#restore
-[11]: ../../search-options/learn/index.md
+
+[11]: ../../learn/section-tabs/activities-tab.md
+[12]: ../../learn/section-tabs/sales-tab.md
+[13]: ../../learn/section-tabs/requests-tab.md
+[14]: ../../learn/section-tabs/projects-tab.md
+[15]: ../../learn/section-tabs/relations-tab.md
+[16]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

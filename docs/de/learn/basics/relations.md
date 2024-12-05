@@ -33,12 +33,7 @@ Die Bereichsregisterkarte **Beziehungen**, die sowohl im Firmen- als auch im Per
 
 ![Beziehungen (Firmenkarte) -screenshot][img2]
 
-| Spalte | Beschreibung |
-|---|---|
-| Quelle - vollständiger Name | Zeigt den Namen der Firma oder Person, die die aktive Partei der Beziehung ist. |
-| Beziehung* | Beschreibt die Art der Beziehung, z.B. "besitzt"/"besessen von". |
-| Ziel - vollständiger Name | Zeigt den Namen der Firma oder Person, die die passive Partei der Beziehung ist. |
-| Kommentar | Zeigt ein Büroklammer-Symbol an, wenn eine detaillierte Notiz vorhanden ist. Halten Sie die Maus über das Symbol, um mehr zu sehen. |
+[!include[Spalten in der Bereichsregisterkarte Beziehungen](../includes/table-relations-tab-columns.md)]
 
 Um mehr Details zu sehen oder Änderungen vorzunehmen, doppelklicken Sie auf eine Zeile, um die **Beziehung**-Dialog zu öffnen.
 

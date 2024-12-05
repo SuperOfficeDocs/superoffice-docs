@@ -59,6 +59,26 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 > [!TIP]
 > Hvis du klikker på knappen (![ikon][img5]) til højre for **Bekræftelse**, kan du indtaste en bekræftelsestekst, der skal vises i en dialogboks, når en Audience-bruger tilmelder eller afmelder sig arrangementet. Brugeren skal klikke på **Ja** eller **Nej** i denne dialogboks for at fortsætte.
 
+## <a id="section-tabs"></a>Detaljekorterne i skærmbilledet Projekt
+
+Den nederste del af skærmbilledet Projekt består af detaljekort.
+
+* [Projektvejledning][13] (hvis der er defineret en for den aktuelle projekttype)
+* [Projektdeltager][6]
+* [Aktiviteter][16]
+* [Salg][17]
+* [Sager][18]
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
+## Projektvejledning
+
+Projektguiden, der kan tilpasses, så den passer til dine egne unikke projektprocesser. Du kan kortlægge alle aktiviteter, dokumenter og milepæle i et projekt, hvilket gør det nemt for hele dit team at spore. Projektguiden hjælper dig også med at overvåge den aktuelle projektstatus og spørge, hvad der altid skal gøres.
+
+![En projektguide hjælper teamet med at have et konstant overblik over projektstatus -screenshot][img4]
+
+Din administrator kan [tilføje og tilpasse projektguider][8] for dig.
+
 ## Hvad vil du foretage dig nu?
 
 * [Føj projekt til favoritter][9]
@@ -76,14 +96,20 @@ Under fanen **Arrangement** kan du angive indstillinger for publicering af Arran
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: project-guide/project-guide-tab.md
+[16]: ../../learn/section-tabs/activities-tab.md
+[17]: ../../learn/section-tabs/sales-tab.md
+[18]: ../../learn/section-tabs/requests-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/icons/select.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

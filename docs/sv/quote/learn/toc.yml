@@ -3,6 +3,8 @@ items:
   href: index.md
 - name: Dialogruta Redigera offert
   href: screen/edit-quote-dialog.md
+- name: Offert
+  href: quote-tab.md
 - name: Skapa offert
   href: create.md
 - name: Kopiera offert

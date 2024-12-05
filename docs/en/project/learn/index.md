@@ -4,7 +4,7 @@ title: Project
 description: This how-to guide will show you how to create and use projects to stay on top of your work.
 keywords: project
 author: SuperOffice RnD
-date: 10.29.2024
+date: 11.29.2024
 version: 10.3.11
 topic: concept
 audience: person
@@ -59,6 +59,26 @@ In the **Event** tab, you can specify settings for publishing events.
 > [!TIP]
 > If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text to display in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
 
+## <a id="section-tabs"></a>Project screen section tabs
+
+The lower part of the Project screen consists of section tabs.
+
+* [Project guide][13] (if one is defined for the current project type)
+* [Project members][6]
+* [Activities][16]
+* [Sales][17]
+* [Requests][18]
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
+### Project guide
+
+The project guide that can be customized to match your own unique project processes. You can map all the activities, documents and milestones of a project, which will make it easy for your whole team to track. The project guide will also help you monitor the current project status and prompt what needs to be done at all times.
+
+![A project guide will help the team have a constant overview of the project status -screenshot][img4]
+
+Your administrator can [add and customize project guides][8] for you.
+
 ## Related content
 
 * [Add project as a favorite][9]
@@ -76,14 +96,20 @@ In the **Event** tab, you can specify settings for publishing events.
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: project-guide/project-guide-tab.md
+[16]: ../../learn/section-tabs/activities-tab.md
+[17]: ../../learn/section-tabs/sales-tab.md
+[18]: ../../learn/section-tabs/requests-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/icons/select.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

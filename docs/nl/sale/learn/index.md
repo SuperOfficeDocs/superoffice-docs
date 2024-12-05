@@ -31,12 +31,7 @@ U kunt ook [een offerte maken][1] op het sectietabblad **Offerte** op het scherm
 
 ## Waar kan ik de verkoop bekijken?
 
-Verkopen kunnen in het [scherm Verkoop][2] en op de volgende plaatsen in SuperOffice CRM worden weergegeven:
-
-* Op het sectietabblad **Verkoop** in het scherm Bedrijf
-* Op het sectietabblad **Verkoop** in het scherm Persoon
-* Op het sectietabblad **Verkoop** in het scherm Agenda
-* Op het sectietabblad **Verkoop** in het scherm Project
+Verkopen kunnen in het [scherm Verkoop][2] op het [sectietabblad Verkoop][13] in het scherm Bedrijf, Persoon, Agenda, en Project weergegeven.
 
 > [!TIP]
 > Dubbelklikken op een van deze locaties om op een verkoop te openen in het scherm Verkoop.
@@ -49,7 +44,7 @@ Nadat u al uw verkopen in SuperOffice CRM hebt geregistreerd, verschijnen ze in 
 
 U kunt uw verkooplijst organiseren door [de kolommen die voor u het belangrijkst zijn te filteren][3], te groeperen en toe te voegen. De meest gebruikte kolommen zijn: verkoopbedrag, verkoopdatum en verkoopfase.
 
-Het tabblad **Verkoop** fungeert ook als [een verkoopsecretaris][8] door al uw geplande activiteiten in het **veld Volgende activiteit** te markeren en uw aandacht te vestigen op activiteiten die u mogelijk vergeet in rood lettertype aan te geven.
+Het tabblad **Verkoop** fungeert ook als een verkoopsecretaris door al uw geplande activiteiten in het **veld Volgende activiteit** te markeren en uw aandacht te vestigen op activiteiten die u mogelijk vergeet in rood lettertype aan te geven.
 
 ![Ga naar het Agenda voor een overzicht van alle verkopen die nog niet zijn afgerond -screenshot][img1]
 
@@ -102,6 +97,17 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
+## <a id="section-tabs"></a>Sectietabbladen in het scherm Verkoop
+
+Het onderste deel van het scherm Verkoop bestaat uit sectietabbladen.
+
+* [Activiteiten][14]
+* [Verkoopgids][16]
+* [Belanghebbenden][15]
+* [Offerte][17] (licentie vereist)
+
+[Verkoopgidsen][3] worden alleen weergegeven voor specifieke verkooptypen (gedefinieerd in Instellingen en onderhoud). Als u een verkooptype selecteert waarvoor een verkoopgids met een gedefinieerde verkoopgids, wordt het tabblad **Verkoopgids** weergegeven.
+
 ## Wat wilt u nu doen?
 
 * [Een verkoop toevoegen aan favorieten][10]
@@ -118,15 +124,19 @@ Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op 
 [1]: ../../quote/learn/create.md
 [2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
+[13]: ../../learn/section-tabs/sales-tab.md
+[14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
 [5]: stakeholders/create.md
+[15]: stakeholders/index.md
 [6]: sales-guide/working-with-sales-guide.md
+[16]: sales-guide/index.md
 [7]: sales-targets/index.md
-[8]: ../../diary/learn/screen/sales-tab.md
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png

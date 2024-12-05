@@ -41,6 +41,9 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 
 * (If open) click a day or week in the day, week, or month view in the side panel.
 
+> [!NOTE]
+> The activities list does not change when you switch between the different tabs in the top section of the Diary screen.
+
 ## What would you like to do now?
 
 * [Select a time zone][15]

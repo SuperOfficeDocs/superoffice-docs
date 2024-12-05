@@ -1,9 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Bereichsregisterkarten auf Projekt
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Mit Projekten arbeiten
   topicHref: create.md
   items:
@@ -27,6 +24,8 @@ items:
   items:
   - name: Überblick
     href: project-guide/index.md
+  - name: Bereichsregisterkarte Projektleitfaden
+    href: project-guide/project-guide-tab.md
   - name: Mit Projektleitfäden arbeiten
     href: project-guide/working-with.md
   - name: Folgeaufgaben und Dokumente anzeigen

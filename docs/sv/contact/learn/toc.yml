@@ -1,9 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Detaljkort under Kontakt
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeta med kontakt
   topicHref: create.md
   items:

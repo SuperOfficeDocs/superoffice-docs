@@ -1,9 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Detaljkort för företag
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeta med företag
   topicHref: create.md
   items:

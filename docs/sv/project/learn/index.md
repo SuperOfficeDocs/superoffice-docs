@@ -59,6 +59,26 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 > [!TIP]
 > Om du klickar på knappen ( ![ikon][img5] ) till höger om **Bekräftelse**, kan du ange en bekräftelsetext som ska visas i en dialogruta när en Audience-användare anmäler eller avanmäler sig till arrangemanget. Användaren måste klicka på **Ja** eller **Nej** i denna dialogruta för att fortsätta.
 
+## <a id="section-tabs"></a>Detaljkort på projektskärmen
+
+Den nedre delen av projektskärmen består av detaljkort.
+
+* [Projektguide][13] (om en sådan har definierats för den aktuella projekttypen)
+* [Projektdeltagare][6]
+* [Aktiviteter][16]
+* [Försäljning][17]
+* [Ärenden][18]
+
+[!include[Add more section tabs](../../learn/includes/more-tab.md)]
+
+## Projektguide
+
+Projektguiden som kan anpassas för att matcha dina egna unika projektprocesser. Du kan kartlägga alla aktiviteter, dokument och milstolpar i ett projekt, vilket underlättar spårningen för hela teamet. Projektguiden hjälper dig också att övervaka aktuell projektstatus och fråga vad som behöver göras.
+
+![En projektguide hjälper teamet att ha kontinuerlig översikt över projektstatusen -screenshot][img4]
+
+Administratören kan [lägga till och anpassa projektguider][8] åt dig.
+
 ## Vad vill du göra nu?
 
 * [Lägg till projekt i favoriter][9]
@@ -76,14 +96,20 @@ På fliken **Arrangemang** kan du ange inställningar för publicering av arrang
 [3]: edit.md
 [4]: merge-projects.md
 [5]: delete.md
+[6]: project-members/index.md
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: project-guide/project-guide-tab.md
+[16]: ../../learn/section-tabs/activities-tab.md
+[17]: ../../learn/section-tabs/sales-tab.md
+[18]: ../../learn/section-tabs/requests-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
 [img5]: ../../../media/icons/select.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

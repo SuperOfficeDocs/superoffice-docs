@@ -1,9 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Detaljkort under Projekt
-  href: screen/toc.yml
-  topicHref: screen/index.md
 - name: Arbeta med projekt
   topicHref: create.md
   items:
@@ -27,6 +24,8 @@ items:
   items:
   - name: Översikt
     href: project-guide/index.md
+  - name: Detaljkortet Projektguide
+    href: project-guide/project-guide-tab.md
   - name: Arbeta med projektguide
     href: project-guide/working-with.md
   - name: Visa händelser och dokument

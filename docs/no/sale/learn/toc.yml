@@ -3,11 +3,13 @@ items:
   href: index.md
 - name: Status for et salg (faser)
   href: stages.md
+- name: Interessenter
+  href: stakeholders/index.md
 - name: Salgsguide
   href: sales-guide/index.md
-- name: Seksjonsfaner ved salg
-  href: screen/toc.yml
-  topicHref: screen/index.md
+- name: Detaljkortet Salgsguide
+- name: Sales guide section tab
+  href: sales-guide/sales-guide-tab.md
 - name: Arbeide med salg
   topicHref: create.md
   items:

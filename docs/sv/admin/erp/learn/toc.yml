@@ -7,3 +7,5 @@ items:
   href: erp-create-new-actor.md
 - name: Koppla bort
   href: erp-sync-disconnect.md
+- name: Fliken ERP
+  href: screen/erp-tab.md

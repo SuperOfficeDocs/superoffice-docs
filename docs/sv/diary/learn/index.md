@@ -40,6 +40,9 @@ Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** 
 
 * Klicka på dag eller vecka (om den är öppen) i dag-, vecko- eller månadsöversikten i sidopanelen.
 
+> [!NOTE]
+> Aktivitetslistan ändras inte när du växlar mellan de olika flikarna i den övre delen av Kalender-fönstret.
+
 ## Vad vill du göra nu?
 
 * [Välj tidszon][15]

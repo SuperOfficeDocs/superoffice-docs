@@ -7,3 +7,5 @@ items:
   href: erp-create-new-actor.md
 - name: Afbryd
   href: erp-sync-disconnect.md
+- name: Fanen ERP
+  href: screen/erp-tab.md

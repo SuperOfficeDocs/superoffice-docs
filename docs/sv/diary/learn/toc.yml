@@ -12,13 +12,6 @@ items:
     href: group-view.md
   - name: Visa andras kalendrar
     href: other-diaries.md
-- name: Detaljkort
-  topicHref: screen/activities-tab.md
-  items:
-  - name: Aktiviteter
-    href: screen/activities-tab.md
-  - name: Försäljning
-    href: screen/sales-tab.md
 - name: Arbeta med händelser
   topicHref: create-follow-up.md
   items:
