@@ -1,38 +1,38 @@
 ---
-title: Open Project
-uid: open-project-more
-description: Open Project
+uid: sop-open-project
+title: Open project
+description: Open project
+keywords: soprotocol, project
 author: Eivind Fasting
 date: 11.26.2024
-keywords: soprotocol, project
 topic: howto
 ---
 
-# Open Project
+# Open project
 
 The soprotocol should be on the format: `soprotocol:project.main?project_id={{id}}`
 
-## Open Project with project_id equals 1000
+## Open project with ID = 1000
 
 `soprotocol:project.main?project_id=1000`
 
-## Open Project and display more
+## Open project and display more
 
 `soprotocol:project.udef?project_id=1`
 
 Here, *project* is the target panel, and *udef* is the target upper tab view.
 
-![01][img1]
+![01 -screenshot][img1]
 
-## Open Project and display links and project members
+## Open project and display links and project members
 
 `soprotocol:project.links.projectmembersarchive?project_id=1`
 
-This link opens the project page displaying the links tab above and the project members grid tab below:
+This link opens the Project page displaying the Links tab above and the project members grid tab below:
 
 `http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmembersarchive`
 
-![02][img2]
+![02 -screenshot][img2]
 
 <!-- Referenced images -->
 [img1]: ../media/project-udef.png

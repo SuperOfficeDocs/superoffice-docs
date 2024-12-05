@@ -1,11 +1,11 @@
 ---
-title: SoProtocol
 uid: soprotocol
+title: SoProtocol
 description: SoProtocol
-author: Tony Yates, Eivind Fasting
-date: 09.24.2024
-version: 10.3
 keywords: soprotocol, deeplinking
+author: Tony Yates, Eivind Fasting
+date: 12.06.2024
+version: 10.3
 topic: concept
 ---
 
@@ -15,7 +15,7 @@ topic: concept
 
 ## Why use SoProtocol
 
-* No Scripting is needed, although scripts can [invoke an soprotocol URL][4].
+* No scripting is needed, although scripts can [invoke an soprotocol URL][4].
 * Works with the integrated web browser (webpages can control the CRM client user interface).
 * Works with both web and Windows (legacy) clients.
 * Security, it's primarily for navigation and cannot write data into the database.
@@ -30,11 +30,11 @@ SOProtocol URLs have multiple parts, and can be either opened:
 * [invoker through a script][4]:
 `soprotocol:{{WHERE}}?{{WHAT}}`
 
-* Through a javascript with `postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })`
+* Through a JavaScript with `postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })`
 
 The `{{WHERE}}` tells SuperOffice which page to display, and what tabs to select. See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
-The `{{WHAT}}` tells SuperOffice what data to display on the page, such as a specific contact or project by id.
+The `{{WHAT}}` tells SuperOffice what data to display on the page, such as a specific contact or project by ID.
 
 Examples:
 
@@ -46,63 +46,64 @@ Examples:
 
 ## SoProtocol and SuperState
 
-SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the id. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
+SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the ID. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
 
 ## Find current state
 
-To get the SOProtocol link that reflects the current state of the application, use the browser address bar to view the current page information and copy the address.
-Alternatively, use the **Copy Shortcut** option in the task button when available to get the current SoProtocol.
+To get the SOProtocol link that reflects the current state of the application, use the browser's address bar to view the current page information and copy the address.
+Alternatively, use the **Copy Shortcut** option in the **Task** button when available to get the current SoProtocol.
 
-![03][img3]
+![03 -screenshot][img3]
 
 ## SCIL
 
-Working with `soprotocol` in SCIL-pages are similar to the old `pagebuilder`, so existing soprotocol-requests should still work. The only exception is `[dialog=...]` which is deprecated and will no longer have any effect.
+Working with `soprotocol` in SCIL-pages are similar to the old `pagebuilder`, so existing soprotocol-requests should still work. The only exception is `[dialog=...]`, which is deprecated and will no longer have any effect.
 
 ## CrossMessaging
 
-To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffice, there is a [helper-library on github][13] that can be used by developers. Under the hood this uses `postMessage({ command: "", arguments: "" })`.
+To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffice, there is a [helper-library on GitHub][13] that can be used by developers. Under the hood this uses `postMessage({ command: "", arguments: "" })`.
 
 ## Examples
 
 ### Contact
 
-* [Open existing Contact][5]
-* [Create new Contact][6]
+* [Open existing contact][5]
+* [Create new contact][6]
 
 ### Appointment
 
-* [Open existing Appointment][7]
-* [Create new Appointment][8]
+* [Open existing appointment][7]
+* [Create new appointment][8]
 
 ### Document
 
-* [Open existing Document][9]
-* [Create new Document][10]
+* [Open existing document][9]
+* [Create new document][10]
 
 ### Project
 
-* [Open existing Project][11]
-* [Create new Projoect][12]
+* [Open existing project][11]
+* [Create new project][12]
 
 <!-- Referenced links -->
 [1]: ../web-app/pagebuilder/superstate/index.md
 [2]: navigation-points.md
-[4]: ./in-crmscript.md
+[4]: in-crmscript.md
 
-[5]: ./howto/open-contact.md
-[6]: ./howto/create-contact.md
+[5]: howto/open-contact.md
+[6]: howto/create-contact.md
 
-[7]: ./howto/open-appointment.md
-[8]: ./howto/create-appointment.md
+[7]: howto/open-appointment.md
+[8]: howto/create-appointment.md
 
-[9]: ./howto/open-document.md
-[10]: ./howto/create-document.md
+[9]: howto/open-document.md
+[10]: howto/create-document.md
 
-[11]: ./howto/open-project.md
-[12]: ./howto/create-project.md
+[11]: howto/open-project.md
+[12]: howto/create-project.md
 
 [13]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
+
 <!-- Referenced images -->
 [img3]: media/copy-shortcut.png
 [img4]: media/contact-contact_id.png
