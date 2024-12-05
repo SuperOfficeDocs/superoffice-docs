@@ -2,9 +2,9 @@
 uid: release-notes-10.3
 title: What's new in SuperOffice 10.3
 description: Release notes - What's new in SuperOffice 10.3
-keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps
+keywords: web panel, system design, dashboard, request, SAINT, invitation, mailing, audit, preheader, column calculation, base currency, request type, CRMScript, follow-up, flows, automation, steps, developer portal, learn, user guide,
 author: SuperOffice AS – Research and Development
-date: 11.19.2024
+date: 12.10.2024
 version: 10.3
 topic: reference
 ---
@@ -20,6 +20,9 @@ topic: reference
 Check out our **Product release** overview for more details in our [Community][28].
 
 ### SuperOffice CRM
+
+* 10.3.13 (10.12.2024):
+  * No new released features or functions for general availability
 
 * 10.3.12 (19.11.2024):
   * [User preferences - Search option (10.3.12)][49] in Core CRM
@@ -108,7 +111,12 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 #### New user guides
 
-Check out the new user guide for [SuperOffice for Outlook][51] - it's available in six languages!
+* The user guide for [SuperOffice for Outlook][51] - it's available in six languages.
+* See the user guide for [SuperOffice Mobile CRM][52] in Docs.
+
+#### Developer portal
+
+* **Tenant manager** - separate pages to help manage and view customer (tenant) information, including authorizations and licenses, across different environments like development and production.
 
 #### SuperOffice App Store
 
@@ -190,5 +198,6 @@ See all the [new or updated apps][5]
 [49]: core-crm/10.3.12-update.md
 [50]: marketing/10.3.12-update.md
 [51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+[52]: ../../docs/en/mobile/superoffice-mobile/index.md
 
 <!-- Referenced images -->
