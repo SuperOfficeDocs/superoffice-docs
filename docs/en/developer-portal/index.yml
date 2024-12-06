@@ -247,13 +247,20 @@ landingContent:
           url: standard-app/certification/index.md
 
   # Card
-  - title: Analytics
+  - title: Tenant manager
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Customers
-          url: analytics/customers.md
+          url: tenants/customers.md
+
+  # Card
+  - title: Analytics
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
         - text: View API call statistics
           url: analytics/metered-services.md
         - text: View exceptions

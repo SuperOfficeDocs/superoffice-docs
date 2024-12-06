@@ -78,29 +78,32 @@ items:
       href: provisioning/revoke.md
     - name: Update text for consent dialog
       href: provisioning/update-consent-text.md
-  - name: Analytics
-    href: analytics/customers.md
-    items:
-    - name: View customers
-      href: analytics/customers.md
-    - name: View API call statistics
-      href: analytics/metered-services.md
-    - name: View exceptions
-      href: analytics/failures.md
-    - name: Check application API performance
-      href: analytics/metrics-performance.md
-  - name: FAQ
-    href: faq/index.md
-    items:
-    - name: Format text
-      href: faq/format-text.md
-    - name: Update contact person
-      href: faq/update-contact-person.md
-    - name: Update your application
-      href: faq/update-app.md
-    - name: Turn off mirroring for app
-      href: faq/turn-off-mirroring.md
-    - name: Run website on IIS localhost
-      href: faq/run-website-on-iis-localhost.md
-    - name: Unable to approve app
-      href: faq/unable-to-approve-app.md
+    - name: Tenant management
+      href: tenants/index.md
+      items:
+      - name: View customers
+        href: tenants/customers.md
+    - name: Analytics
+      href: analytics/metered-services.md.md
+      items:
+      - name: View API call statistics
+        href: analytics/metered-services.md
+      - name: View exceptions
+        href: analytics/failures.md
+      - name: Check application API performance
+        href: analytics/metrics-performance.md
+    - name: FAQ
+      href: faq/index.md
+      items:
+      - name: Format text
+        href: faq/format-text.md
+      - name: Update contact person
+        href: faq/update-contact-person.md
+      - name: Update your application
+        href: faq/update-app.md
+      - name: Turn off mirroring for app
+        href: faq/turn-off-mirroring.md
+      - name: Run website on IIS localhost
+        href: faq/run-website-on-iis-localhost.md
+      - name: Unable to approve app
+        href: faq/unable-to-approve-app.md
