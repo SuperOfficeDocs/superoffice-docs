@@ -101,24 +101,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 754,
-  "Section": "voluptate",
-  "Key": "consequatur",
-  "Name": "Rohan, Ratke and Graham",
+  "PrefDescId": 417,
+  "Section": "vitae",
+  "Key": "sed",
+  "Name": "Ullrich, Kassulke and Mohr",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-engineered bandwidth-monitored customer loyalty",
+  "Description": "Expanded intermediate hierarchy",
   "IsBuiltin": false,
-  "TableName": "Buckridge-Windler",
-  "UserDefinedListId": 46,
-  "Rank": 27,
-  "SubGroup": "neque",
-  "MinLevel": 755,
-  "MaxValue": 988,
-  "MinValue": 650,
-  "RequiredLicense": "ut"
+  "TableName": "Doyle Inc and Sons",
+  "UserDefinedListId": 999,
+  "Rank": 486,
+  "SubGroup": "eos",
+  "MinLevel": 21,
+  "MaxValue": 13,
+  "MinValue": 31,
+  "RequiredLicense": "magnam"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 889,
-  "Section": "laudantium",
-  "Key": "sed",
-  "Name": "Bahringer, Schamberger and Dietrich",
+  "PrefDescId": 878,
+  "Section": "possimus",
+  "Key": "quam",
+  "Name": "Lind-Senger",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optional global local area network",
+  "Description": "Intuitive encompassing initiative",
   "IsBuiltin": false,
-  "TableName": "Brakus, Gibson and Wunsch",
-  "UserDefinedListId": 411,
-  "Rank": 2,
-  "SubGroup": "numquam",
-  "MinLevel": 177,
-  "MaxValue": 574,
-  "MinValue": 412,
-  "RequiredLicense": "minima",
+  "TableName": "Wilkinson Group",
+  "UserDefinedListId": 969,
+  "Rank": 720,
+  "SubGroup": "quo",
+  "MinLevel": 570,
+  "MaxValue": 931,
+  "MinValue": 299,
+  "RequiredLicense": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 288
     }
   }
 }

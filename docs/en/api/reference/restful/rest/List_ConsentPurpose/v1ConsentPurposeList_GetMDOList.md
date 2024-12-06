@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=ratione
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=dolor
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Kub Group",
-    "ToolTip": "Et et animi voluptatem deleniti velit quia.",
-    "Deleted": true,
-    "Rank": 847,
-    "Type": "iure",
+    "Id": 373,
+    "Name": "Auer, Fisher and Kovacek",
+    "ToolTip": "Deleniti dolor molestias enim.",
+    "Deleted": false,
+    "Rank": 927,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Cummings, Reichel and Rosenbaum",
-        "ToolTip": "Nulla pariatur.",
-        "Deleted": false,
-        "Rank": 175,
-        "Type": "ut",
+        "Id": 368,
+        "Name": "Haag, Satterfield and Stracke",
+        "ToolTip": "Aut quo provident accusamus nostrum earum.",
+        "Deleted": true,
+        "Rank": 745,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 395,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "officia",
-        "FullName": "Bernhard Ebert III",
+        "IconHint": "amet",
+        "ColorBlock": 93,
+        "ExtraInfo": "iusto",
+        "StyleHint": "maiores",
+        "FullName": "Miss Scot Botsford V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 952
           }
         }
       }
     ],
-    "IconHint": "cupiditate",
-    "ColorBlock": 208,
-    "ExtraInfo": "sit",
-    "StyleHint": "perspiciatis",
-    "FullName": "Mr. Gisselle Pagac III",
+    "IconHint": "tenetur",
+    "ColorBlock": 126,
+    "ExtraInfo": "magni",
+    "StyleHint": "numquam",
+    "FullName": "Christop Madonna Purdy V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

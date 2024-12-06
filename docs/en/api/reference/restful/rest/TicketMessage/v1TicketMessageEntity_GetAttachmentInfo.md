@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 55,
-    "Name": "Larson-Hayes",
-    "ContentType": "sit",
-    "AttSize": 187,
+    "AttachmentId": 422,
+    "Name": "Gleason, Hilpert and Moore",
+    "ContentType": "dolorem",
+    "AttSize": 242,
     "InlineImage": false,
-    "ContentId": "molestiae",
-    "AuthKey": "et",
+    "ContentId": "veniam",
+    "AuthKey": "mollitia",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 750
       }
     }
   }

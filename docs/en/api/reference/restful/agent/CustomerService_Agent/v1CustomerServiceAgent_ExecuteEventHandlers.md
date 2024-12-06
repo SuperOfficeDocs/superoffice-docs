@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "accusantium",
-    "InputValues2": "est"
+    "InputValues1": "sapiente",
+    "InputValues2": "id"
   },
-  "BlockExecution": false,
-  "NavigateTo": "est",
-  "Message": "et",
-  "ShowDialog": "eius",
+  "BlockExecution": true,
+  "NavigateTo": "voluptas",
+  "Message": "voluptates",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "non",
-    "OutputValues2": "reiciendis"
+    "OutputValues1": "ut",
+    "OutputValues2": "autem"
   },
   "StateValues": {
-    "StateValues1": "nemo",
-    "StateValues2": "illum"
+    "StateValues1": "porro",
+    "StateValues2": "autem"
   },
-  "Exception": "fugit",
+  "Exception": "sit",
   "ParserValues": {
-    "ParserValues1": "est",
-    "ParserValues2": "sunt"
+    "ParserValues1": "voluptas",
+    "ParserValues2": "voluptatem"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "quia"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "fuga"
   },
-  "CgiContent": "et",
+  "CgiContent": "hic",
   "Headers": {
-    "Headers1": "natus",
-    "Headers2": "est"
+    "Headers1": "dolore",
+    "Headers2": "incidunt"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 73
     }
   }
 }

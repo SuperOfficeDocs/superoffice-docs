@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Mann, Grimes and Price",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "UdListDefinitionId": 243,
-    "Rank": 151,
+    "Id": 165,
+    "Name": "Turcotte Inc and Sons",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "UdListDefinitionId": 736,
+    "Rank": 435,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldType": "System.String",
+        "FieldLength": 608
       }
     }
   }

@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gislason, Grimes and Orn",
+  "ProviderName": "Kutch, Fay and Schmidt",
   "Restrictions": [
     {
-      "Name": "DuBuque, Stroman and Pagac",
-      "Operator": "possimus",
+      "Name": "Bednar LLC",
+      "Operator": "deserunt",
       "Values": [
-        "itaque",
-        "voluptatum"
+        "veniam",
+        "et"
       ],
       "DisplayValues": [
-        "in",
-        "ipsum"
+        "placeat",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 315,
+      "InterParenthesis": 427,
       "InterOperator": "And",
-      "UniqueHash": 671
+      "UniqueHash": 378
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  89,
-  632
+  690,
+  590
 ]
 ```

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 138,
+  "DocumentTemplateId": 25,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "eum",
-  "PluginId": 462
+  "LanguageCode": "et",
+  "PluginId": 382
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Yundt-Wiegand",
-  "Description": "Fully-configurable non-volatile orchestration",
-  "ExternalReference": "dolores",
-  "MimeType": "nihil",
-  "PluginId": 489
+  "Name": "Lubowitz, Haag and Parker",
+  "Description": "Reduced reciprocal encoding",
+  "ExternalReference": "at",
+  "MimeType": "laudantium",
+  "PluginId": 827
 }
 ```

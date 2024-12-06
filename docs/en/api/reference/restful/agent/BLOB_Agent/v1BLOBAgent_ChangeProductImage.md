@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 422,
-  "BlobId": 139
+  "ProductId": 933,
+  "BlobId": 295
 }
 ```
 

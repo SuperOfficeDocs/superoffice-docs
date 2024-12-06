@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Monahan-Goldner",
-  "Type": "a",
-  "Size": 861,
+  "Name": "Runolfsson, Harvey and Rolfson",
+  "Type": "incidunt",
+  "Size": 341,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 993
     }
   }
 }

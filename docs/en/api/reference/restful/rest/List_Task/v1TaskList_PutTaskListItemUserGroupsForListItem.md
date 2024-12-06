@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Heaney Group",
-    "ToolTip": "Non odio ab ut suscipit.",
+    "Id": 770,
+    "Name": "Thiel, Weissnat and Mills",
+    "ToolTip": "Assumenda qui iste aliquid.",
     "Deleted": false,
-    "Rank": 567,
-    "Type": "expedita",
-    "ColorBlock": 236,
-    "IconHint": "est",
+    "Rank": 736,
+    "Type": "doloribus",
+    "ColorBlock": 317,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2012-01-18T14:45:13.9585664+01:00",
+    "LastChanged": "2003-06-22T10:18:01.1762521+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Sauer, Donnelly and DuBuque",
-        "ToolTip": "Non voluptas sapiente unde tenetur quibusdam est.",
-        "Deleted": true,
-        "Rank": 691,
-        "Type": "alias",
-        "ColorBlock": 946,
-        "IconHint": "est",
+        "Id": 269,
+        "Name": "Robel, Kunde and Kihn",
+        "ToolTip": "Sequi et.",
+        "Deleted": false,
+        "Rank": 954,
+        "Type": "aspernatur",
+        "ColorBlock": 827,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2024-11-05T14:45:13.9585664+01:00",
+        "LastChanged": "2012-12-11T10:18:01.1762521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "inventore",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Mr. Al Dach DDS"
+        "FullName": "Prof. Lauretta Adam Schinner"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Donato Cronin"
+    "ExtraInfo": "iusto",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mathias Marvin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Bechtelar-Kuphal",
-    "ToolTip": "Qui adipisci consequatur omnis ex debitis numquam praesentium.",
+    "Id": 735,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Sunt non deserunt enim illum.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "nostrum",
-    "ColorBlock": 961,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "1999-02-16T14:45:13.9585664+01:00",
+    "Rank": 561,
+    "Type": "voluptates",
+    "ColorBlock": 845,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2017-05-26T10:18:01.1918781+02:00",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Moore-Ernser",
-        "ToolTip": "Atque est quaerat velit iure.",
-        "Deleted": true,
-        "Rank": 864,
-        "Type": "corporis",
-        "ColorBlock": 855,
-        "IconHint": "et",
+        "Id": 525,
+        "Name": "Witting LLC",
+        "ToolTip": "Nam aspernatur quos.",
+        "Deleted": false,
+        "Rank": 822,
+        "Type": "et",
+        "ColorBlock": 344,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2017-10-28T14:45:13.9585664+02:00",
+        "LastChanged": "2010-01-28T10:18:01.1918781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "id",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Peter Bechtelar II",
+        "FullName": "Gabriella Dorothy Casper II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "laudantium",
-    "Hidden": true,
-    "FullName": "Mrs. Norwood Westley Ankunding",
+    "ExtraInfo": "debitis",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Prof. Brandi O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

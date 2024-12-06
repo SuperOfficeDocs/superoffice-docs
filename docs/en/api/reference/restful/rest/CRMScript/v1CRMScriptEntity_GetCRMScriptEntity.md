@@ -93,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,52 +103,52 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 786,
-  "UniqueIdentifier": "pariatur",
-  "Name": "Corkery LLC",
-  "Description": "Right-sized attitude-oriented knowledge base",
-  "IncludeId": "necessitatibus",
-  "AccessKey": "reprehenderit",
-  "HierarchyId": 159,
-  "Source": "sit",
-  "SourceCode": "quaerat",
+  "EjscriptId": 519,
+  "UniqueIdentifier": "consequuntur",
+  "Name": "Huels Group",
+  "Description": "Balanced even-keeled Graphical User Interface",
+  "IncludeId": "reprehenderit",
+  "AccessKey": "suscipit",
+  "HierarchyId": 981,
+  "Source": "exercitationem",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 220,
+  "HtmlOutput": 128,
   "Includes": [
-    892,
-    854
+    607,
+    375
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 243,
-      "LineNumberTo": 2,
-      "Delta": 811,
-      "IncludeId": "libero",
+      "LineNumberFrom": 91,
+      "LineNumberTo": 118,
+      "Delta": 234,
+      "IncludeId": "commodi",
       "IncludedFrom": [
-        "fuga",
-        "aperiam"
+        "et",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 264
+          "FieldType": "System.Int32",
+          "FieldLength": 134
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-08-20T14:45:12.7244655+02:00",
-  "RegisteredAssociateId": 283,
-  "Updated": "2002-11-05T14:45:12.7244655+01:00",
-  "UpdatedAssociateId": 386,
+  "Registered": "2002-03-19T10:18:00.3480699+01:00",
+  "RegisteredAssociateId": 866,
+  "Updated": "2006-04-23T10:18:00.3480699+02:00",
+  "UpdatedAssociateId": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   },
   "_Links": {

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Jacobi-Bayer",
-    "ToolTip": "Iusto odio exercitationem quod distinctio esse iure magni.",
+    "Id": 352,
+    "Name": "Grady Inc and Sons",
+    "ToolTip": "Nesciunt cum aut dicta consequatur.",
     "Deleted": false,
-    "Rank": 81,
-    "Type": "omnis",
-    "ColorBlock": 61,
-    "IconHint": "corrupti",
+    "Rank": 161,
+    "Type": "voluptate",
+    "ColorBlock": 178,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2016-08-19T14:45:13.7554843+02:00",
+    "LastChanged": "2014-03-15T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Gutkowski-Stamm",
-        "ToolTip": "Error vel blanditiis aut dignissimos voluptas porro praesentium.",
-        "Deleted": true,
-        "Rank": 173,
-        "Type": "vero",
-        "ColorBlock": 614,
-        "IconHint": "officiis",
+        "Id": 759,
+        "Name": "Rau-Kunze",
+        "ToolTip": "Et explicabo et dolorum.",
+        "Deleted": false,
+        "Rank": 557,
+        "Type": "et",
+        "ColorBlock": 866,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2014-01-23T14:45:13.7554843+01:00",
+        "LastChanged": "2004-11-18T10:18:01.051244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Franco Powlowski"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Jules Moore V"
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "officiis",
-    "Hidden": true,
-    "FullName": "Dr. Veronica Beer PhD"
+    "ExtraInfo": "eum",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Ms. Leola Williamson V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Greenfelder, Douglas and Bode",
-    "ToolTip": "Exercitationem quis accusantium odio modi explicabo mollitia.",
-    "Deleted": true,
-    "Rank": 624,
-    "Type": "omnis",
-    "ColorBlock": 11,
-    "IconHint": "tempora",
+    "Id": 906,
+    "Name": "Schmidt Inc and Sons",
+    "ToolTip": "Et et velit occaecati perferendis.",
+    "Deleted": false,
+    "Rank": 463,
+    "Type": "labore",
+    "ColorBlock": 125,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2000-01-11T14:45:13.7554843+01:00",
+    "LastChanged": "2019-01-30T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Collins Group",
-        "ToolTip": "Adipisci possimus natus accusamus dolores.",
+        "Id": 753,
+        "Name": "Schumm-Miller",
+        "ToolTip": "Consectetur impedit in omnis.",
         "Deleted": true,
-        "Rank": 911,
-        "Type": "qui",
-        "ColorBlock": 355,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2023-03-29T14:45:13.7554843+02:00",
+        "Rank": 906,
+        "Type": "ipsum",
+        "ColorBlock": 881,
+        "IconHint": "ratione",
+        "Selected": true,
+        "LastChanged": "2004-03-17T10:18:01.051244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Cordelia Stehr",
+        "ExtraInfo": "nam",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Jamil Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldType": "System.String",
+            "FieldLength": 475
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Domenick Gulgowski",
+    "ExtraInfo": "iste",
+    "StyleHint": "beatae",
+    "Hidden": true,
+    "FullName": "Leland Dorothy Bode DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 844
       }
     }
   }

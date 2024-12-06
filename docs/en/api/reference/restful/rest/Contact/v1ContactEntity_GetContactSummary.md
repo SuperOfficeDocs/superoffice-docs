@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=847
+GET /api/v1/Contact/{contactId}/Summary?limit=172
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 877,
-      "TicketStatus": 726,
-      "Title": "voluptatem",
-      "Registered": "2023-04-26T14:45:12.6932234+02:00",
-      "IconHint": "atque"
+      "TicketId": 871,
+      "TicketStatus": 519,
+      "Title": "est",
+      "Registered": "1999-07-08T10:18:00.3324502+02:00",
+      "IconHint": "odio"
     },
     {
-      "TicketId": 877,
-      "TicketStatus": 726,
-      "Title": "voluptatem",
-      "Registered": "2023-04-26T14:45:12.6932234+02:00",
-      "IconHint": "atque"
+      "TicketId": 871,
+      "TicketStatus": 519,
+      "Title": "est",
+      "Registered": "1999-07-08T10:18:00.3324502+02:00",
+      "IconHint": "odio"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 630,
-      "DocumentId": 587,
-      "Date": "2002-06-05T14:45:12.6932234+02:00",
-      "Description": "Synergized static methodology",
+      "AppointmentId": 316,
+      "DocumentId": 933,
+      "Date": "2024-02-13T10:18:00.3324502+01:00",
+      "Description": "Right-sized explicit monitoring",
       "Completed": "Completed",
-      "Registered": "2017-10-27T14:45:12.6932234+02:00"
+      "Registered": "2000-05-20T10:18:00.3324502+02:00"
     },
     {
-      "AppointmentId": 630,
-      "DocumentId": 587,
-      "Date": "2002-06-05T14:45:12.6932234+02:00",
-      "Description": "Synergized static methodology",
+      "AppointmentId": 316,
+      "DocumentId": 933,
+      "Date": "2024-02-13T10:18:00.3324502+01:00",
+      "Description": "Right-sized explicit monitoring",
       "Completed": "Completed",
-      "Registered": "2017-10-27T14:45:12.6932234+02:00"
+      "Registered": "2000-05-20T10:18:00.3324502+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 923,
-      "DocumentId": 609,
-      "Date": "2009-07-09T14:45:12.6932234+02:00",
-      "Description": "Universal dynamic forecast",
+      "AppointmentId": 252,
+      "DocumentId": 660,
+      "Date": "2005-06-12T10:18:00.3324502+02:00",
+      "Description": "Face to face 4th generation knowledge base",
       "Completed": "Completed",
-      "Registered": "2006-03-19T14:45:12.6932234+01:00"
+      "Registered": "2015-07-12T10:18:00.3324502+02:00"
     },
     {
-      "AppointmentId": 923,
-      "DocumentId": 609,
-      "Date": "2009-07-09T14:45:12.6932234+02:00",
-      "Description": "Universal dynamic forecast",
+      "AppointmentId": 252,
+      "DocumentId": 660,
+      "Date": "2005-06-12T10:18:00.3324502+02:00",
+      "Description": "Face to face 4th generation knowledge base",
       "Completed": "Completed",
-      "Registered": "2006-03-19T14:45:12.6932234+01:00"
+      "Registered": "2015-07-12T10:18:00.3324502+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 506,
-      "SaleDate": "1998-02-26T14:45:12.6932234+01:00",
-      "Probability": 191,
-      "Heading": "tenetur",
-      "Amount": 7211.334,
-      "Currency": "nulla",
-      "AmountInBaseCurrency": 24081.656,
+      "SaleId": 709,
+      "SaleDate": "1998-06-07T10:18:00.3324502+02:00",
+      "Probability": 454,
+      "Heading": "ipsum",
+      "Amount": 4951.72,
+      "Currency": "est",
+      "AmountInBaseCurrency": 6531.2559999999994,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2012-05-04T14:45:12.6932234+02:00"
+      "Registered": "2001-04-11T10:18:00.3324502+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 893,
-      "Name": "Kiehn-Towne",
-      "CompanyName": "Prohaska, Langworth and Mraz",
-      "FirstMessage": "cumque",
-      "LastMessage": "praesentium",
-      "WhenRequested": "1999-11-01T14:45:12.6932234+01:00",
-      "WhenEnded": "2014-05-26T14:45:12.6932234+02:00"
+      "ChatSessionId": 778,
+      "Name": "Dooley LLC",
+      "CompanyName": "Aufderhar Inc and Sons",
+      "FirstMessage": "dolores",
+      "LastMessage": "minus",
+      "WhenRequested": "2019-04-16T10:18:00.3324502+02:00",
+      "WhenEnded": "2003-02-01T10:18:00.3324502+01:00"
     }
   ]
 }

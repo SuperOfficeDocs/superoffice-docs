@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 515,
+  "AssociateId": 706,
   "Type": "AnonymousAssociate",
-  "PersonId": 327,
-  "UserName": "Gibson, Borer and Thiel"
+  "PersonId": 473,
+  "UserName": "Lesch-Hoeger"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Kertzmann, Kub and Tremblay"
+"Hirthe-Upton"
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 784,
-    "Name": "Koch, Effertz and Zulauf",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 949,
-    "UdListDefinitionId": 985,
+    "HeadingId": 103,
+    "Name": "Streich-Schuppe",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 913,
+    "UdListDefinitionId": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 225
       }
     }
   }

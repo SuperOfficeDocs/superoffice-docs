@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 527,
-  "BlobSize": 349,
-  "Description": "Networked composite interface",
-  "ExtraInfo": "deleniti",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 465,
-  "CreatedDate": "2006-10-22T14:45:12.9431644+02:00",
-  "UpdatedDate": "1997-10-14T14:45:12.9431644+02:00",
+  "BlobId": 187,
+  "BlobSize": 283,
+  "Description": "Innovative multimedia moratorium",
+  "ExtraInfo": "optio",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "neque",
+  "OriginalSize": 774,
+  "CreatedDate": "2024-06-15T10:18:00.4887104+02:00",
+  "UpdatedDate": "2013-01-20T10:18:00.4887104+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quam"
+  "ConceptualType": "nesciunt"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 190,
-  "BlobSize": 683,
-  "Description": "Decentralized human-resource superstructure",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 273,
-  "CreatedDate": "2011-08-23T14:45:12.9431644+02:00",
-  "UpdatedDate": "2007-04-03T14:45:12.9431644+02:00",
+  "BlobId": 281,
+  "BlobSize": 931,
+  "Description": "Ameliorated assymetric internet solution",
+  "ExtraInfo": "velit",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "nam",
+  "OriginalSize": 238,
+  "CreatedDate": "2003-06-23T10:18:00.4887104+02:00",
+  "UpdatedDate": "2022-06-10T10:18:00.4887104+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "explicabo",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 73
     }
   }
 }

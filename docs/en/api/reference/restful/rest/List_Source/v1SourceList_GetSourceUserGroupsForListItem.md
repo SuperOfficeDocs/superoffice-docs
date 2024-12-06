@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Bode, Gutmann and Ritchie",
-    "ToolTip": "Commodi blanditiis accusantium.",
-    "Deleted": true,
-    "Rank": 201,
-    "Type": "occaecati",
-    "ColorBlock": 503,
-    "IconHint": "cum",
+    "Id": 109,
+    "Name": "Denesik LLC",
+    "ToolTip": "Labore facere ad.",
+    "Deleted": false,
+    "Rank": 592,
+    "Type": "adipisci",
+    "ColorBlock": 521,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2006-07-25T14:45:13.9429422+02:00",
+    "LastChanged": "2022-12-22T10:18:01.1762521+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Fritsch, Reilly and Crooks",
-        "ToolTip": "Consequatur ut et ut porro ratione.",
+        "Id": 719,
+        "Name": "Powlowski, Denesik and Hauck",
+        "ToolTip": "Molestias consequuntur exercitationem corporis quis omnis enim minima.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "aut",
-        "ColorBlock": 175,
-        "IconHint": "voluptatem",
+        "Rank": 277,
+        "Type": "pariatur",
+        "ColorBlock": 615,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2024-04-15T14:45:13.9429422+02:00",
+        "LastChanged": "2007-04-04T10:18:01.1762521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Dixie Goodwin",
+        "ExtraInfo": "et",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Marjolaine Ruthie Hirthe III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 617
+            "FieldType": "System.String",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "sit",
+    "ExtraInfo": "fugit",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Erika Mosciski",
+    "FullName": "Dee Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 163
       }
     }
   }

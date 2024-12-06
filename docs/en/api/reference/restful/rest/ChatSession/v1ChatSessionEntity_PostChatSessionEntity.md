@@ -140,29 +140,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 623,
-  "TopicId": 124,
+  "ChatSessionId": 699,
+  "TopicId": 733,
   "User": null,
   "Person": null,
-  "CustomerAlias": "perspiciatis",
-  "CustomerHost": "omnis",
-  "CustomerName": "Cole-O'Connell",
-  "CustomerEmail": "birdie@fritsch.biz",
-  "CustomerPhone": "335-710-9632",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Jones, Jakubowski and Larkin",
+  "CustomerAlias": "consequuntur",
+  "CustomerHost": "aut",
+  "CustomerName": "Stiedemann-Fay",
+  "CustomerEmail": "constance_robel@pfeffer.co.uk",
+  "CustomerPhone": "1-883-270-0226",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Blanda Group",
   "Status": "Closed",
-  "FirstMessage": "fugit",
-  "LastMessage": "et",
-  "WhenRequested": "2007-10-26T14:45:12.4745199+02:00",
-  "WhenStarted": "2012-08-28T14:45:12.4745199+02:00",
-  "WhenEnded": "2004-02-29T14:45:12.4745199+01:00",
-  "WhenIdle": "2018-06-09T14:45:12.4745199+02:00",
-  "WhenFetched": "2010-07-03T14:45:12.4745199+02:00",
-  "SessionKey": "possimus",
-  "InitialQueuePos": 213,
-  "AlertLevel": 776,
-  "Rank": 14,
+  "FirstMessage": "id",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2023-01-21T10:18:00.1761898+01:00",
+  "WhenStarted": "2024-02-08T10:18:00.1761898+01:00",
+  "WhenEnded": "2020-05-12T10:18:00.1761898+02:00",
+  "WhenIdle": "2017-06-11T10:18:00.1761898+02:00",
+  "WhenFetched": "2008-06-04T10:18:00.1761898+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 260,
+  "AlertLevel": 464,
+  "Rank": 85,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 963
+  "Rating": 897
 }
 ```
 
@@ -181,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 939,
-  "TopicId": 262,
+  "ChatSessionId": 263,
+  "TopicId": 538,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptates",
-  "CustomerHost": "minima",
-  "CustomerName": "Ratke-Ryan",
-  "CustomerEmail": "kristian.davis@ryan.ca",
-  "CustomerPhone": "1-885-887-2767 x7483",
+  "CustomerAlias": "provident",
+  "CustomerHost": "est",
+  "CustomerName": "Willms Group",
+  "CustomerEmail": "kristin_hudson@wolffdach.com",
+  "CustomerPhone": "(819)042-4838",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Considine-Skiles",
+  "CustomerCompanyName": "Mann-Hettinger",
   "Status": "Closed",
-  "FirstMessage": "architecto",
-  "LastMessage": "repellat",
-  "WhenRequested": "2014-03-02T14:45:12.4901408+01:00",
-  "WhenStarted": "2021-03-30T14:45:12.4901408+02:00",
-  "WhenEnded": "2012-01-24T14:45:12.4901408+01:00",
-  "WhenIdle": "2017-09-30T14:45:12.4901408+02:00",
-  "WhenFetched": "2001-08-08T14:45:12.4901408+02:00",
-  "SessionKey": "ad",
-  "InitialQueuePos": 985,
-  "AlertLevel": 781,
-  "Rank": 849,
+  "FirstMessage": "ut",
+  "LastMessage": "alias",
+  "WhenRequested": "1999-12-16T10:18:00.1918158+01:00",
+  "WhenStarted": "1999-06-19T10:18:00.1918158+02:00",
+  "WhenEnded": "2008-12-10T10:18:00.1918158+01:00",
+  "WhenIdle": "1999-12-04T10:18:00.1918158+01:00",
+  "WhenFetched": "2004-01-05T10:18:00.1918158+01:00",
+  "SessionKey": "in",
+  "InitialQueuePos": 421,
+  "AlertLevel": 849,
+  "Rank": 614,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -211,18 +211,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 292,
+  "Rating": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldLength": 222
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

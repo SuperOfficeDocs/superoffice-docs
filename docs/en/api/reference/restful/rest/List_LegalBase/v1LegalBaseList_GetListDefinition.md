@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 238,
-  "Name": "Schoen-Borer",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 990,
+  "Id": 305,
+  "Name": "Krajcik-O'Hara",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "Rank": 80,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 681
     }
   },
   "_Links": {

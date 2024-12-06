@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Runolfsson Inc and Sons",
-  "Comment": "et",
-  "StakeholderRoleId": 640,
-  "CountryId": 305,
-  "PersonId": 492,
-  "EmailDescription": "turner.hirthe@hayesosinski.ca",
-  "EmailId": 302,
-  "EmailAddress": "ari@nicolas.uk",
-  "PhoneId": 868,
-  "ContactName": "Kris Inc and Sons",
-  "ContactId": 737,
-  "SaleId": 701,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Ottis",
-  "MiddleName": "Yost-Kovacek",
-  "Lastname": "Rogahn",
-  "SaleStakeholderId": 86,
-  "Rank": 276,
-  "Phone": "1-188-008-1466 x41603"
+  "StakeholderRoleName": "Schroeder LLC",
+  "Comment": "iste",
+  "StakeholderRoleId": 716,
+  "CountryId": 527,
+  "PersonId": 328,
+  "EmailDescription": "percy@parisian.biz",
+  "EmailId": 156,
+  "EmailAddress": "kane@gulgowski.biz",
+  "PhoneId": 444,
+  "ContactName": "Pouros, Fadel and Gulgowski",
+  "ContactId": 185,
+  "SaleId": 830,
+  "Mrmrs": "laborum",
+  "Firstname": "Dustin",
+  "MiddleName": "Runte-Schuster",
+  "Lastname": "Pollich",
+  "SaleStakeholderId": 590,
+  "Rank": 363,
+  "Phone": "557.191.0241 x894"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ritchie Inc and Sons",
-  "Comment": "ut",
-  "StakeholderRoleId": 973,
-  "CountryId": 869,
-  "PersonId": 539,
-  "EmailDescription": "kody_toy@bergnaumjerde.info",
-  "EmailId": 962,
-  "EmailAddress": "walker.daugherty@medhurstharris.biz",
-  "PhoneId": 428,
-  "ContactName": "Metz, Little and Larkin",
-  "ContactId": 536,
-  "SaleId": 352,
-  "Mrmrs": "alias",
-  "Firstname": "Yasmin",
-  "MiddleName": "Vandervort-Gaylord",
-  "Lastname": "Kautzer",
-  "SaleStakeholderId": 254,
-  "Rank": 371,
-  "Phone": "1-720-641-3820 x34193",
+  "StakeholderRoleName": "Braun LLC",
+  "Comment": "praesentium",
+  "StakeholderRoleId": 69,
+  "CountryId": 973,
+  "PersonId": 288,
+  "EmailDescription": "fernando.ziemann@botsford.info",
+  "EmailId": 364,
+  "EmailAddress": "viviane.koch@gottlieb.uk",
+  "PhoneId": 994,
+  "ContactName": "Howe, Pollich and Wisozk",
+  "ContactId": 907,
+  "SaleId": 23,
+  "Mrmrs": "sunt",
+  "Firstname": "Aubrey",
+  "MiddleName": "Zemlak-Renner",
+  "Lastname": "Beer",
+  "SaleStakeholderId": 534,
+  "Rank": 73,
+  "Phone": "478.412.4184 x743",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   },
   "_Links": {

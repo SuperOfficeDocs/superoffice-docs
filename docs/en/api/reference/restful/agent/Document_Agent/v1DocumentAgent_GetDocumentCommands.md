@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 585,
+  "DocumentId": 486,
   "AllowedReturnTypes": [
-    "deserunt",
-    "sequi"
+    "qui",
+    "sit"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian Group",
-    "DisplayName": "Schiller, Ferry and Zieme",
-    "DisplayTooltip": "qui",
-    "IconHint": "consequatur",
+    "Name": "Ernser LLC",
+    "DisplayName": "Orn Inc and Sons",
+    "DisplayTooltip": "modi",
+    "IconHint": "ut",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Parisian Group",
-    "DisplayName": "Schiller, Ferry and Zieme",
-    "DisplayTooltip": "qui",
-    "IconHint": "consequatur",
+    "Name": "Ernser LLC",
+    "DisplayName": "Orn Inc and Sons",
+    "DisplayTooltip": "modi",
+    "IconHint": "ut",
     "ReturnType": "CustomGui"
   }
 ]

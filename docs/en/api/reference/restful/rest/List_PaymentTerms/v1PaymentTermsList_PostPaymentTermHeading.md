@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 91,
-  "Name": "Ratke, Rowe and Rowe",
-  "Tooltip": "et",
+  "HeadingId": 314,
+  "Name": "Schmeler LLC",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 974,
-  "UdListDefinitionId": 359
+  "Rank": 130,
+  "UdListDefinitionId": 588
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 763,
-  "Name": "Zemlak LLC",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 908,
-  "UdListDefinitionId": 264,
+  "HeadingId": 4,
+  "Name": "Grant Group",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "Rank": 918,
+  "UdListDefinitionId": 15,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 191
     }
   }
 }

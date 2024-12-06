@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 676,
-    "Name": "Huels-Brekke",
-    "Tooltip": "dolorem",
+    "HeadingId": 797,
+    "Name": "Goyette Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 492,
-    "UdListDefinitionId": 589,
+    "Rank": 100,
+    "UdListDefinitionId": 958,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

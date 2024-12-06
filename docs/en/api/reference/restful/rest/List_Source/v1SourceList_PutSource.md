@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 220,
-  "Name": "Conroy, Carroll and Okuneva",
-  "Tooltip": "minima",
+  "Id": 30,
+  "Name": "Sanford Group",
+  "Tooltip": "quam",
   "Deleted": false,
-  "UdListDefinitionId": 552,
-  "Rank": 691
+  "UdListDefinitionId": 688,
+  "Rank": 435
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Name": "Keeling Group",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "UdListDefinitionId": 744,
-  "Rank": 834,
+  "Id": 885,
+  "Name": "Feil Group",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "UdListDefinitionId": 469,
+  "Rank": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 182
     }
   }
 }

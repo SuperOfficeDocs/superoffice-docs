@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugit",
-  "ProviderName": "McCullough LLC",
-  "StorageKey": "dolore",
+  "StorageType": "cumque",
+  "ProviderName": "Pfeffer LLC",
+  "StorageKey": "distinctio",
   "DesiredColumnNames": [
-    "Tromp-Wunsch",
-    "Little, Reilly and Tremblay"
+    "Harvey Inc and Sons",
+    "Emard Inc and Sons"
   ],
   "StaticColumns": [
-    "debitis",
-    "praesentium"
+    "illo",
+    "inventore"
   ],
-  "Context": "culpa"
+  "Context": "fugiat"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jenkins-Macejkovic",
-      "Operator": "culpa",
+      "Name": "Koelpin, Langosh and Mann",
+      "Operator": "nisi",
       "Values": [
-        "voluptatem",
-        "quia"
+        "ea",
+        "iusto"
       ],
       "DisplayValues": [
-        "enim",
-        "sed"
+        "nulla",
+        "modi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 855,
+      "InterParenthesis": 886,
       "InterOperator": "And",
-      "UniqueHash": 59
+      "UniqueHash": 996
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Morissette, Bergstrom and Hand",
-      "DisplayTooltip": "ut",
-      "DisplayType": "est",
+      "DisplayName": "Mitchell-Rice",
+      "DisplayTooltip": "et",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Gaylord-Gorczany",
+      "Name": "Langosh, Moen and Rempel",
       "CanRestrictBy": false,
-      "RestrictionType": "sed",
-      "RestrictionListName": "VonRueden-Haag",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "ullam",
-      "IconHint": "ex",
-      "HeadingIconHint": "enim"
+      "RestrictionType": "ut",
+      "RestrictionListName": "Wisoky-Kunze",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "repellendus",
+      "IconHint": "cum",
+      "HeadingIconHint": "ipsam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Huel Group",
-      "PrimaryKey": 397,
+      "EntityName": "Wilderman-Ankunding",
+      "PrimaryKey": 718,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nobis",
-          "TooltipHint": "totam",
-          "LinkHint": "delectus"
+          "DisplayValue": "sint",
+          "TooltipHint": "itaque",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "rem",
+      "LinkHint": "debitis",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Reichel Inc and Sons",
-      "Description": "Object-based mission-critical support",
-      "Rank": 224,
+      "Name": "Kulas-Connelly",
+      "Description": "User-centric dedicated policy",
+      "Rank": 985,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Reichel Inc and Sons",
-      "Description": "Object-based mission-critical support",
-      "Rank": 224,
+      "Name": "Kulas-Connelly",
+      "Description": "User-centric dedicated policy",
+      "Rank": 985,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 60
     }
   }
 }

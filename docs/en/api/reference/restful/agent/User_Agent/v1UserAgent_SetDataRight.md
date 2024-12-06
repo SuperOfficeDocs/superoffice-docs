@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 341,
-  "TableName": "Lynch, Durgan and Sipes",
+  "RoleId": 344,
+  "TableName": "Roob-Bartell",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "quasi"
+  "DataRightValue": "earum"
 }
 ```
 

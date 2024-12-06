@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 338,
-  "Name": "Hand Inc and Sons"
+  "MessageId": 643,
+  "Name": "Lindgren Inc and Sons"
 }
 ```
 

@@ -30,7 +30,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 128,
-  "ColumnId": 710,
-  "FieldDefault": "nam",
-  "FieldHeight": 38,
-  "FieldLabel": "autem",
-  "FieldLeft": 153,
-  "FieldTop": 506,
+  "UDefFieldId": 45,
+  "ColumnId": 521,
+  "FieldDefault": "et",
+  "FieldHeight": 675,
+  "FieldLabel": "enim",
+  "FieldLeft": 173,
+  "FieldTop": 342,
   "FieldType": "Checkbox",
-  "FieldWidth": 697,
-  "FormatMask": "sed",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 879,
-  "LabelLeft": 871,
-  "LabelTop": 840,
-  "LabelWidth": 176,
-  "LastVersionId": 97,
-  "ListTableId": 854,
+  "FieldWidth": 548,
+  "FormatMask": "maiores",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 910,
+  "LabelLeft": 172,
+  "LabelTop": 214,
+  "LabelWidth": 759,
+  "LastVersionId": 899,
+  "ListTableId": 841,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 295,
-  "ProgId": "inventore",
-  "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 535,
-  "TextLength": 363,
-  "Tooltip": "maxime",
-  "UdefIdentity": 251,
-  "UDListDefinitionId": 93,
+  "Page1LineNo": 66,
+  "ProgId": "rerum",
+  "IsReadOnly": false,
+  "ShortLabel": "vero",
+  "TabOrder": 114,
+  "TextLength": 747,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 727,
+  "UDListDefinitionId": 223,
   "Justification": "Center",
-  "Version": 913,
-  "TemplateVariableName": "Champlin, Beahan and Bashirian",
+  "Version": 211,
+  "TemplateVariableName": "Walter, Terry and Moen",
   "HasBeenPublished": false,
-  "MdoListName": "Jacobson LLC",
+  "MdoListName": "Kilback, Roberts and Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Braun-Cronin"
+  "TaskName": "Bartell, Torp and Shanahan"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Kulas-Mueller",
-    "AssociateId": 376,
-    "DetailsTable": 490,
-    "DetailsRecord": 9,
+    "Id": 475,
+    "Name": "Windler Inc and Sons",
+    "AssociateId": 81,
+    "DetailsTable": 402,
+    "DetailsRecord": 630,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
       "ParameterObject1": "et",
-      "ParameterObject2": "alias"
+      "ParameterObject2": "est"
     },
-    "LastStarted": "2006-08-18T14:45:04.8815214+02:00",
-    "Created": "2002-07-05T14:45:04.8815214+02:00",
-    "StartCount": 115,
-    "DatabaseSerialNumber": "1333628",
-    "Context": "sint",
-    "Result": "perspiciatis",
+    "LastStarted": "2010-05-20T10:17:55.1290102+02:00",
+    "Created": "2024-04-22T10:17:55.1290102+02:00",
+    "StartCount": 484,
+    "DatabaseSerialNumber": "1607260",
+    "Context": "incidunt",
+    "Result": "perferendis",
     "State": "All",
-    "Description": "Customer-focused empowering productivity",
-    "Response": "sapiente",
-    "Request": "sit",
-    "ProgressDescription": "Implemented transitional throughput",
-    "ProgressPercent": 105,
-    "FileName": "Trantow, Nienow and Hills",
+    "Description": "Ameliorated leading edge focus group",
+    "Response": "quis",
+    "Request": "tempora",
+    "ProgressDescription": "Focused solution-oriented task-force",
+    "ProgressPercent": 204,
+    "FileName": "Thiel-Bins",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 752
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Wisozk, Rowe and Blick",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 30,
-    "Rank": 64
+    "Id": 294,
+    "Name": "Koch-Carter",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 83,
+    "Rank": 438
   },
   {
-    "Id": 123,
-    "Name": "Wisozk, Rowe and Blick",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 30,
-    "Rank": 64
+    "Id": 294,
+    "Name": "Koch-Carter",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "UdListDefinitionId": 83,
+    "Rank": 438
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "hic",
+    "Id": 527,
+    "Name": "Franecki, Corwin and Watsica",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "UdListDefinitionId": 674,
-    "Rank": 615,
+    "UdListDefinitionId": 997,
+    "Rank": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 798
       }
     }
   }

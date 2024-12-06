@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 976,
-  "Name": "Hodkiewicz-Effertz",
-  "Tooltip": "tempore",
+  "ExtAppId": 271,
+  "Name": "Padberg, Hahn and O'Reilly",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 892,
-  "Filename": "perferendis",
-  "Parameters": "totam",
-  "Workdir": "quo",
+  "Rank": 443,
+  "Filename": "enim",
+  "Parameters": "dolores",
+  "Workdir": "inventore",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 755,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 894,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "recusandae",
+  "Path": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldLength": 599
     }
   }
 }

@@ -51,6 +51,8 @@ The EMailAccount to be saved.
 | ErrorReason | String | Reason/Error message. Readonly field |
 | InboxFolder | String | Inbox folder name if available in the db |
 | SentFolder | String | Sent email folder name if available in the db |
+| SimpleMode | Integer | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
+| LastFetch | String | When we last fetched email  in UTC. |
 
 ## Response:
 
@@ -74,6 +76,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
+| SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
+| LastFetch | date-time | When we last fetched email  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -87,16 +91,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 935,
-  "EMailAddress": "voluptas",
-  "AssociateId": 748,
+  "EMailAccountId": 948,
+  "EMailAddress": "quia",
+  "AssociateId": 90,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 416,
-  "ErrorCount": 933,
+  "AccountStatus": 429,
+  "ErrorCount": 145,
   "ErrorReason": "",
-  "InboxFolder": "vitae",
-  "SentFolder": "autem"
+  "InboxFolder": "omnis",
+  "SentFolder": "non",
+  "SimpleMode": 941,
+  "LastFetch": "2004-05-31T10:17:55.5665368+02:00"
 }
 ```
 
@@ -107,22 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 881,
-  "EMailAddress": "aliquid",
-  "AssociateId": 489,
+  "EMailAccountId": 681,
+  "EMailAddress": "porro",
+  "AssociateId": 764,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 119,
-  "ErrorCount": 811,
+  "AccountStatus": 717,
+  "ErrorCount": 918,
   "ErrorReason": "",
   "InboxFolder": "sint",
-  "SentFolder": "qui",
+  "SentFolder": "magnam",
+  "SimpleMode": 558,
+  "LastFetch": "2012-04-26T10:17:55.5665368+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   }
 }

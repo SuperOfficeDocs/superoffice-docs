@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Tillman Group",
-  "Tooltip": "cumque",
+  "Id": 544,
+  "Name": "Muller Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 389,
+  "Rank": 299,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 633
     }
   },
   "_Links": {

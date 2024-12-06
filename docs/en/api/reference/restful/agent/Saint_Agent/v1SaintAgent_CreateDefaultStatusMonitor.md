@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 744,
-  "Rank": 667,
-  "DefaultTask": 669,
-  "DefaultTaskText": "recusandae",
+  "OwnerTable": 373,
+  "Rank": 571,
+  "DefaultTask": 433,
+  "DefaultTaskText": "accusantium",
   "IsVisual": false,
-  "LastGenerated": "2015-09-08T14:45:06.1156216+02:00",
-  "Description": "Switchable zero tolerance synergy",
-  "Name": "Little Group",
-  "StatusMonitorId": 476,
-  "PictureId": 742,
+  "LastGenerated": "2024-10-14T10:17:55.9728114+02:00",
+  "Description": "Expanded grid-enabled implementation",
+  "Name": "Cronin Group",
+  "StatusMonitorId": 79,
+  "PictureId": 605,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 747,
-  "NumNeedUpdate": 480,
-  "GenerationStart": "2015-08-28T14:45:06.1156216+02:00",
+  "NumMatches": 406,
+  "NumNeedUpdate": 181,
+  "GenerationStart": "2019-06-20T10:17:55.9728114+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 178
     }
   }
 }

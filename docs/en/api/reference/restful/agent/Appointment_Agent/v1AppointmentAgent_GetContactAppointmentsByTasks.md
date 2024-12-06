@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 46,
-  "StartTime": "2022-05-29T14:45:04.4599779+02:00",
-  "EndTime": "2015-09-16T14:45:04.4599779+02:00",
-  "Count": 697,
+  "ContactId": 988,
+  "StartTime": "2002-07-07T10:17:54.8321167+02:00",
+  "EndTime": "2020-01-28T10:17:54.8321167+01:00",
+  "Count": 799,
   "TaskIds": [
-    135,
-    830
+    877,
+    89
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 419,
-    "StartDate": "2015-05-17T14:45:04.4599779+02:00",
-    "EndDate": "2018-09-01T14:45:04.4599779+02:00",
+    "AppointmentId": 519,
+    "StartDate": "2023-05-21T10:17:54.8321167+02:00",
+    "EndDate": "2009-11-13T10:17:54.8321167+01:00",
     "Type": "BookingForChecklist",
-    "Task": "culpa",
-    "AssociateFullName": "Julius Romaguera",
-    "ContactName": "Pagac-Crooks",
-    "Description": "Seamless intangible projection",
-    "PersonFullName": "Ambrose Leffler Jr.",
-    "PersonId": 274,
-    "ContactId": 649,
-    "ProjectId": 751,
-    "ProjectName": "Muller-Reinger",
+    "Task": "quisquam",
+    "AssociateFullName": "Miss Jessica Bechtelar",
+    "ContactName": "Hettinger LLC",
+    "Description": "Future-proofed real-time algorithm",
+    "PersonFullName": "Mrs. Brandy Fisher",
+    "PersonId": 904,
+    "ContactId": 368,
+    "ProjectId": 552,
+    "ProjectName": "West-Goyette",
     "IsPublished": true,
-    "AssociateId": 627,
-    "ColorIndex": 649,
+    "AssociateId": 459,
+    "ColorIndex": 486,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 256,
-    "PriorityName": "Terry, Leffler and Casper",
+    "PriorityId": 640,
+    "PriorityName": "Halvorson-Hyatt",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-09-25T14:45:04.4599779+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2011-05-11T10:17:54.8321167+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-04-10T14:45:04.4599779+02:00",
-    "RecurringEndDate": "2000-09-30T14:45:04.4599779+02:00",
-    "MotherId": 530,
-    "AssignedBy": 379,
-    "AssignedByFullName": "Jamaal Ondricka",
+    "RecurringStartDate": "2009-06-10T10:17:54.8321167+02:00",
+    "RecurringEndDate": "2006-09-06T10:17:54.8321167+02:00",
+    "MotherId": 347,
+    "AssignedBy": 591,
+    "AssignedByFullName": "Prof. Creola Otis McClure",
     "RejectReason": "",
-    "Location": "exercitationem",
+    "Location": "itaque",
     "AlarmLeadTime": "ut",
-    "SaleId": 428,
-    "SaleName": "Bartell-Jaskolski",
-    "AssociateName": "Volkman LLC",
-    "CreatedDate": "2003-06-29T14:45:04.4599779+02:00",
-    "CreatedBy": "quia",
-    "CreatedByFullName": "Muhammad Jamie Haag DDS",
-    "CreatedByAssociateId": 669,
+    "SaleId": 345,
+    "SaleName": "Fadel-Goldner",
+    "AssociateName": "Wolf-Kilback",
+    "CreatedDate": "2013-06-23T10:17:54.8321167+02:00",
+    "CreatedBy": "explicabo",
+    "CreatedByFullName": "Vernon Pietro Yost Sr.",
+    "CreatedByAssociateId": 815,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 740,
-    "Title": "officia",
-    "Agenda": "suscipit",
-    "InternalNotes": "illo",
+    "PreferredTZLocation": 523,
+    "Title": "amet",
+    "Agenda": "nesciunt",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 551
       }
     }
   }

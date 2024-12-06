@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hettinger, Johns and Ortiz",
-  "AssociateId": 264
+  "TableName": "Morar, O'Kon and Lubowitz",
+  "AssociateId": 482
 }
 ```
 

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 31,
-  "Name": "Crist Inc and Sons",
-  "Tooltip": "quam",
+  "Id": 187,
+  "Name": "Roberts-Gottlieb",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "UdListDefinitionId": 313,
-  "Rank": 685
+  "UdListDefinitionId": 462,
+  "Rank": 174
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Franecki, Bednar and Nader",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 705,
-  "Rank": 762,
+  "Id": 950,
+  "Name": "Rippin LLC",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "UdListDefinitionId": 82,
+  "Rank": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 527,
-    "Name": "Stracke, Yost and Yost",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 901,
-    "UdListDefinitionId": 119,
+    "HeadingId": 15,
+    "Name": "McDermott LLC",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 857,
+    "UdListDefinitionId": 968,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldType": "System.Int32",
+        "FieldLength": 536
       }
     }
   }

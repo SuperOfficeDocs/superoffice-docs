@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "in",
+  "SaleText": "veritatis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-04-17T14:45:13.2087314+02:00",
-  "Amount": 10511.436,
-  "SaleId": 907,
-  "Earning": 16268.594,
-  "EarningPercent": 15851.771999999999,
-  "Heading": "voluptatum",
-  "Number": "573430",
-  "Probability": 371,
-  "CreatedDate": "2006-12-07T14:45:13.2087314+01:00",
-  "UpdatedDate": "2002-11-16T14:45:13.2087314+01:00",
+  "Saledate": "2006-04-25T10:18:00.6918462+02:00",
+  "Amount": 26356.94,
+  "SaleId": 590,
+  "Earning": 30525.16,
+  "EarningPercent": 4782.4839999999995,
+  "Heading": "hic",
+  "Number": "1225234",
+  "Probability": 335,
+  "CreatedDate": "2001-01-06T10:18:00.6918462+01:00",
+  "UpdatedDate": "2004-06-24T10:18:00.6918462+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 198,
+  "ActiveLinks": 562,
   "Links": [
     {
-      "EntityName": "Fahey, Wilderman and Hamill",
-      "Id": 938,
-      "Description": "Versatile disintermediate Graphical User Interface",
-      "ExtraInfo": "repellat",
-      "LinkId": 608
+      "EntityName": "Cole-Orn",
+      "Id": 703,
+      "Description": "Multi-layered methodical toolset",
+      "ExtraInfo": "sed",
+      "LinkId": 980
     },
     {
-      "EntityName": "Fahey, Wilderman and Hamill",
-      "Id": 938,
-      "Description": "Versatile disintermediate Graphical User Interface",
-      "ExtraInfo": "repellat",
-      "LinkId": 608
+      "EntityName": "Cole-Orn",
+      "Id": 703,
+      "Description": "Multi-layered methodical toolset",
+      "ExtraInfo": "sed",
+      "LinkId": 980
     }
   ],
-  "NextDueDate": "2021-10-24T14:45:13.2087314+02:00",
-  "Postit": "impedit",
+  "NextDueDate": "2006-06-27T10:18:00.6918462+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-09-29T14:45:13.2087314+02:00",
+  "ReopenDate": "2017-05-04T10:18:00.6918462+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Smitham, Moen and Grimes",
-      "Comment": "sapiente",
-      "StakeholderRoleId": 377,
-      "CountryId": 126,
-      "PersonId": 400,
-      "EmailDescription": "abdullah_parker@zulauf.com",
-      "EmailId": 88,
-      "EmailAddress": "ambrose.lubowitz@ernser.info",
-      "PhoneId": 354,
-      "ContactName": "Schumm-Gaylord",
-      "ContactId": 677,
-      "SaleId": 446,
-      "Mrmrs": "delectus",
-      "Firstname": "Hans",
-      "MiddleName": "O'Keefe-Wiza",
-      "Lastname": "Cronin",
-      "SaleStakeholderId": 567,
-      "Rank": 96,
-      "Phone": "1-191-939-1838"
+      "StakeholderRoleName": "Homenick, Metz and Gulgowski",
+      "Comment": "voluptatem",
+      "StakeholderRoleId": 983,
+      "CountryId": 506,
+      "PersonId": 134,
+      "EmailDescription": "herta@conroyvonrueden.us",
+      "EmailId": 863,
+      "EmailAddress": "darrell@borer.co.uk",
+      "PhoneId": 69,
+      "ContactName": "Lesch-Gutkowski",
+      "ContactId": 509,
+      "SaleId": 440,
+      "Mrmrs": "laudantium",
+      "Firstname": "Murphy",
+      "MiddleName": "Jenkins-Morissette",
+      "Lastname": "O'Kon",
+      "SaleStakeholderId": 770,
+      "Rank": 429,
+      "Phone": "1-874-909-8690 x2542"
     }
   ],
-  "ActiveErpLinks": 692,
+  "ActiveErpLinks": 129,
   "UserDefinedFields": {
-    "SuperOffice:1": "1510099787",
-    "SuperOffice:2": "Miss Rahul Christophe Schultz DVM"
+    "SuperOffice:1": "1909499011",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "sint"
+    "CustomFields1": "est",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2009-09-15T14:45:13.2087314+02:00",
-  "PublishTo": "1997-09-04T14:45:13.2087314+02:00",
-  "PublishFrom": "2006-05-21T14:45:13.2087314+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-06-18T10:18:00.6918462+02:00",
+  "PublishTo": "1999-04-13T10:18:00.6918462+02:00",
+  "PublishFrom": "2022-12-27T10:18:00.6918462+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 973,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "aliquid"
     },
     {
-      "VisibleId": 973,
+      "VisibleId": 145,
       "Visibility": "All",
-      "DisplayValue": "non"
+      "DisplayValue": "aliquid"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nulla",
-  "2": "voluptate"
+  "1": "ut",
+  "2": "atque"
 }
 ```

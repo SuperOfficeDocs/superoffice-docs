@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 79,
-  "TemplateName": "Gleason, Koepp and Volkman",
+  "SelectionId": 350,
+  "TemplateName": "Smith, Lakin and Thiel",
   "UseContacts": false,
-  "OrderBy": "enim"
+  "OrderBy": "aut"
 }
 ```
 

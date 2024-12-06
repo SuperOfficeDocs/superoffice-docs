@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 217,
-  "PrefValue": "eligendi"
+  "PrefDescId": 631,
+  "PrefValue": "quia"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 495,
-  "PrefDescId": 40,
-  "PrefValue": "tempore",
-  "PrefShowValue": "porro",
-  "Description": "Fully-configurable systemic matrices",
+  "PrefDescLineId": 264,
+  "PrefDescId": 420,
+  "PrefValue": "odit",
+  "PrefShowValue": "rerum",
+  "Description": "Phased responsive projection",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 362
     }
   }
 }

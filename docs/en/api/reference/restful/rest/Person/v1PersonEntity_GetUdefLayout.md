@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 824,
-    "ColumnId": 597,
-    "FieldDefault": "dolore",
-    "FieldHeight": 14,
-    "FieldLabel": "aut",
-    "FieldLeft": 785,
-    "FieldTop": 850,
+    "UDefFieldId": 216,
+    "ColumnId": 56,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 926,
+    "FieldLabel": "tempora",
+    "FieldLeft": 131,
+    "FieldTop": 144,
     "FieldType": "Checkbox",
-    "FieldWidth": 220,
-    "FormatMask": "adipisci",
+    "FieldWidth": 649,
+    "FormatMask": "delectus",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 251,
-    "LabelLeft": 443,
-    "LabelTop": 803,
-    "LabelWidth": 155,
-    "LastVersionId": 613,
-    "ListTableId": 843,
+    "IsIndexed": true,
+    "LabelHeight": 446,
+    "LabelLeft": 95,
+    "LabelTop": 307,
+    "LabelWidth": 867,
+    "LastVersionId": 197,
+    "ListTableId": 690,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 23,
-    "ProgId": "nam",
+    "Page1LineNo": 771,
+    "ProgId": "non",
     "IsReadOnly": false,
-    "ShortLabel": "suscipit",
-    "TabOrder": 81,
-    "TextLength": 394,
-    "Tooltip": "vitae",
-    "UdefIdentity": 90,
-    "UDListDefinitionId": 282,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 973,
+    "TextLength": 930,
+    "Tooltip": "consequuntur",
+    "UdefIdentity": 105,
+    "UDListDefinitionId": 1002,
     "Justification": "Center",
-    "Version": 462,
-    "TemplateVariableName": "Fadel, Bergstrom and VonRueden",
+    "Version": 152,
+    "TemplateVariableName": "Turcotte-Jerde",
     "HasBeenPublished": false,
-    "MdoListName": "Pfannerstill Inc and Sons",
+    "MdoListName": "Abshire-Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 919
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

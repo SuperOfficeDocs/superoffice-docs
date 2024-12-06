@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 404,
+  "ReportId": 667,
   "ReportCategory": "All",
-  "Description": "Streamlined directional frame",
+  "Description": "Configurable optimizing time-frame",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bernier-Mann",
-  "AssociateId": 21,
-  "TemplateId": 116,
-  "Published": true,
+  "Name": "Bartell-Beier",
+  "AssociateId": 144,
+  "TemplateId": 614,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 353
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Sep 2011 14:45:12 G9T
+Last-Modified: Sat, 25 Jul 2015 10:18:00 G7T
 
 {
-  "SourceContactId": 546,
-  "SourcePersonId": 575,
-  "DestinationContactId": 954,
-  "DestinationPersonId": 513,
-  "RelationId": 386,
-  "Comment": "iusto",
-  "RelationDefinitionId": 41,
-  "Reversed": 905,
-  "UpdatedDate": "2011-09-27T14:45:12.7088435+02:00",
-  "CreatedDate": "2013-02-04T14:45:12.7088435+01:00",
+  "SourceContactId": 465,
+  "SourcePersonId": 453,
+  "DestinationContactId": 834,
+  "DestinationPersonId": 592,
+  "RelationId": 624,
+  "Comment": "aut",
+  "RelationDefinitionId": 119,
+  "Reversed": 455,
+  "UpdatedDate": "2015-07-25T10:18:00.3324502+02:00",
+  "CreatedDate": "2005-10-25T10:18:00.3324502+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Powlowski, Carter and McClure",
-  "SourcePersonName": "Lehner-Ankunding",
-  "DestinationContactName": "Price LLC",
-  "DestinationPersonName": "Kemmer-Hagenes",
-  "ActiveText": "qui",
-  "PassiveText": "ratione",
+  "SourceContactName": "Ebert-Baumbach",
+  "SourcePersonName": "Mosciski, Mann and Monahan",
+  "DestinationContactName": "Davis-Stracke",
+  "DestinationPersonName": "Muller, Fadel and Ferry",
+  "ActiveText": "doloribus",
+  "PassiveText": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 98
     }
   }
 }

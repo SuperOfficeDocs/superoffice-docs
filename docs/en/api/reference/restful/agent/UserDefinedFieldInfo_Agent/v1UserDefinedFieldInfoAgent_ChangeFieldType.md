@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 147,
-  "ColumnId": 389,
-  "FieldDefault": "officia",
-  "FieldHeight": 427,
-  "FieldLabel": "tempora",
-  "FieldLeft": 457,
-  "FieldTop": 220,
+  "UDefFieldId": 637,
+  "ColumnId": 576,
+  "FieldDefault": "sed",
+  "FieldHeight": 176,
+  "FieldLabel": "et",
+  "FieldLeft": 828,
+  "FieldTop": 999,
   "FieldType": "Checkbox",
-  "FieldWidth": 49,
-  "FormatMask": "quas",
+  "FieldWidth": 864,
+  "FormatMask": "numquam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 17,
-  "LabelLeft": 696,
-  "LabelTop": 407,
-  "LabelWidth": 673,
-  "LastVersionId": 994,
-  "ListTableId": 351,
+  "LabelHeight": 91,
+  "LabelLeft": 370,
+  "LabelTop": 532,
+  "LabelWidth": 395,
+  "LastVersionId": 308,
+  "ListTableId": 358,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 302,
-  "ProgId": "magnam",
+  "Page1LineNo": 953,
+  "ProgId": "occaecati",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 351,
-  "TextLength": 957,
-  "Tooltip": "aut",
-  "UdefIdentity": 735,
-  "UDListDefinitionId": 71,
+  "ShortLabel": "reprehenderit",
+  "TabOrder": 145,
+  "TextLength": 269,
+  "Tooltip": "occaecati",
+  "UdefIdentity": 898,
+  "UDListDefinitionId": 979,
   "Justification": "Center",
-  "Version": 352,
-  "TemplateVariableName": "Yost Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Aufderhar, Harris and Hayes",
+  "Version": 171,
+  "TemplateVariableName": "Hickle, Heidenreich and Farrell",
+  "HasBeenPublished": true,
+  "MdoListName": "Schowalter, Lubowitz and Rohan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldLength": 285
     }
   }
 }

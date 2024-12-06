@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "McClure-Franecki",
-  "Description": "Cloned actuating model",
-  "IncludeId": "est",
-  "Source": "omnis",
-  "Registered": "2013-05-10T14:45:13.4742967+02:00",
-  "RegisteredBy": "officiis",
-  "Updated": "2020-01-20T14:45:13.4742967+01:00",
-  "UpdatedBy": "sunt",
-  "Path": "est",
+  "UniqueIdentifier": "autem",
+  "Name": "Schneider Group",
+  "Description": "Profit-focused impactful initiative",
+  "IncludeId": "deserunt",
+  "Source": "et",
+  "Registered": "2019-10-24T10:18:00.8793591+02:00",
+  "RegisteredBy": "ipsa",
+  "Updated": "2004-01-28T10:18:00.8793591+01:00",
+  "UpdatedBy": "iure",
+  "Path": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 43
     }
   }
 }

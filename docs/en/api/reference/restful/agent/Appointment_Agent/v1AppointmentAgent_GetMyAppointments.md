@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2016-09-02T14:45:04.8346562+02:00",
-  "EndTime": "2012-09-06T14:45:04.8346562+02:00",
-  "Count": 678
+  "StartTime": "2019-01-16T10:17:55.0977583+01:00",
+  "EndTime": "2021-11-09T10:17:55.0977583+01:00",
+  "Count": 250
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 834,
-    "StartDate": "2008-10-15T14:45:04.8346562+02:00",
-    "EndDate": "2015-11-22T14:45:04.8346562+01:00",
+    "AppointmentId": 597,
+    "StartDate": "1998-06-29T10:17:55.0977583+02:00",
+    "EndDate": "2005-03-15T10:17:55.0977583+01:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Fanny Barrows",
-    "ContactName": "Christiansen Inc and Sons",
-    "Description": "Decentralized incremental benchmark",
-    "PersonFullName": "Willy Skiles",
-    "PersonId": 173,
-    "ContactId": 99,
-    "ProjectId": 661,
-    "ProjectName": "Bailey-Ruecker",
+    "Task": "saepe",
+    "AssociateFullName": "Dr. Juana Welch Jr.",
+    "ContactName": "Fritsch Group",
+    "Description": "Realigned bottom-line circuit",
+    "PersonFullName": "Alexzander Lynch",
+    "PersonId": 682,
+    "ContactId": 38,
+    "ProjectId": 206,
+    "ProjectName": "Stark Group",
     "IsPublished": false,
-    "AssociateId": 793,
-    "ColorIndex": 542,
+    "AssociateId": 551,
+    "ColorIndex": 526,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 785,
-    "PriorityName": "Glover-Goldner",
+    "PriorityId": 693,
+    "PriorityName": "Schmitt-Kihn",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-10-25T14:45:04.8346562+02:00",
+    "ActiveDate": "2022-07-15T10:17:55.0977583+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-24T14:45:04.8346562+02:00",
-    "RecurringEndDate": "2011-09-20T14:45:04.8346562+02:00",
-    "MotherId": 539,
-    "AssignedBy": 657,
-    "AssignedByFullName": "Mireya Donnelly",
+    "RecurringStartDate": "2016-05-24T10:17:55.0977583+02:00",
+    "RecurringEndDate": "2012-10-22T10:17:55.0977583+02:00",
+    "MotherId": 642,
+    "AssignedBy": 887,
+    "AssignedByFullName": "Eldridge Madisyn Mohr DDS",
     "RejectReason": "",
-    "Location": "mollitia",
-    "AlarmLeadTime": "quis",
-    "SaleId": 444,
-    "SaleName": "Barrows-Marks",
-    "AssociateName": "Larkin, Ernser and Gottlieb",
-    "CreatedDate": "2000-08-04T14:45:04.8346562+02:00",
-    "CreatedBy": "labore",
-    "CreatedByFullName": "Dedrick Neha Rowe V",
-    "CreatedByAssociateId": 289,
+    "Location": "eaque",
+    "AlarmLeadTime": "est",
+    "SaleId": 999,
+    "SaleName": "Crist, Weimann and Lang",
+    "AssociateName": "O'Reilly Inc and Sons",
+    "CreatedDate": "2024-07-05T10:17:55.0977583+02:00",
+    "CreatedBy": "repudiandae",
+    "CreatedByFullName": "Trenton Heller",
+    "CreatedByAssociateId": 485,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 702,
-    "Title": "velit",
-    "Agenda": "maiores",
-    "InternalNotes": "occaecati",
+    "PreferredTZLocation": 559,
+    "Title": "quis",
+    "Agenda": "architecto",
+    "InternalNotes": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 695
       }
     }
   }

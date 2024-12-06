@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 324,
-  "QuoteAlternativeName": "Bradtke-Ortiz",
-  "QuoteAlternativeDescription": "Public-key multimedia open architecture"
+  "QuoteVersionId": 278,
+  "QuoteAlternativeName": "Lynch, Beatty and Lueilwitz",
+  "QuoteAlternativeDescription": "Streamlined holistic alliance"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 355,
-  "ERPQuoteAlternativeKey": "quis",
-  "QuoteVersionId": 272,
-  "Name": "Altenwerth, Spinka and Mueller",
-  "Description": "Switchable multi-state methodology",
+  "QuoteAlternativeId": 227,
+  "ERPQuoteAlternativeKey": "vero",
+  "QuoteVersionId": 449,
+  "Name": "Kilback-Turner",
+  "Description": "Extended 6th generation internet solution",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 15588.516,
-  "ERPDiscountAmount": 5904.456,
-  "DiscountPercent": 2284.686,
-  "DiscountAmount": 3362.7819999999997,
+  "ERPDiscountPercent": 19810.014,
+  "ERPDiscountAmount": 16005.338,
+  "DiscountPercent": 17920.212,
+  "DiscountAmount": 6926.1399999999994,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "tempora",
-  "VAT": 12930.884,
-  "EarningPercent": 17446.978,
-  "EarningAmount": 3463.0699999999997,
-  "SubTotal": 27519.654,
-  "TotalPrice": 15588.516,
-  "ExtraField1": "sed",
-  "ExtraField2": "dolor",
-  "ExtraField3": "veniam",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "qui",
+  "VATInfo": "veritatis",
+  "VAT": 15112.148,
+  "EarningPercent": 14291.039999999999,
+  "EarningAmount": 19904.034,
+  "SubTotal": 24069.12,
+  "TotalPrice": 31280.453999999998,
+  "ExtraField1": "ut",
+  "ExtraField2": "sint",
+  "ExtraField3": "esse",
+  "ExtraField4": "aut",
+  "ExtraField5": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

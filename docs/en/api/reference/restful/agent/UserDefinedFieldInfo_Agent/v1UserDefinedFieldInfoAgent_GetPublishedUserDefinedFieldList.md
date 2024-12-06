@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 273,
-    "ColumnId": 225,
-    "FieldDefault": "autem",
-    "FieldHeight": 847,
-    "FieldLabel": "quia",
-    "FieldLeft": 951,
-    "FieldTop": 937,
+    "UDefFieldId": 323,
+    "ColumnId": 913,
+    "FieldDefault": "quia",
+    "FieldHeight": 231,
+    "FieldLabel": "necessitatibus",
+    "FieldLeft": 574,
+    "FieldTop": 103,
     "FieldType": "Checkbox",
-    "FieldWidth": 81,
-    "FormatMask": "nesciunt",
-    "HideLabel": false,
+    "FieldWidth": 546,
+    "FormatMask": "eos",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 870,
-    "LabelLeft": 207,
-    "LabelTop": 630,
-    "LabelWidth": 887,
-    "LastVersionId": 603,
-    "ListTableId": 882,
-    "IsMandatory": false,
+    "LabelHeight": 228,
+    "LabelLeft": 1001,
+    "LabelTop": 415,
+    "LabelWidth": 999,
+    "LastVersionId": 183,
+    "ListTableId": 496,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 211,
-    "ProgId": "animi",
+    "Page1LineNo": 559,
+    "ProgId": "nihil",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 596,
-    "TextLength": 68,
-    "Tooltip": "nam",
-    "UdefIdentity": 696,
-    "UDListDefinitionId": 514,
+    "ShortLabel": "similique",
+    "TabOrder": 469,
+    "TextLength": 745,
+    "Tooltip": "commodi",
+    "UdefIdentity": 111,
+    "UDListDefinitionId": 583,
     "Justification": "Center",
-    "Version": 38,
-    "TemplateVariableName": "Bahringer Inc and Sons",
+    "Version": 510,
+    "TemplateVariableName": "Yundt, Bradtke and Kovacek",
     "HasBeenPublished": true,
-    "MdoListName": "Hand LLC",
+    "MdoListName": "Yundt, Krajcik and Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 436
       }
     }
   }

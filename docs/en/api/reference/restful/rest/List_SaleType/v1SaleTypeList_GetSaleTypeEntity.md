@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 417,
-  "Name": "Jacobs Inc and Sons",
-  "Tooltip": "aut",
-  "Rank": 306,
+  "SaleTypeId": 914,
+  "Name": "D'Amore Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 779,
   "DurationUnit": "Century",
-  "SaleDuration": 477,
-  "SaleTypeCatId": 811,
-  "Deleted": true,
+  "SaleDuration": 481,
+  "SaleTypeCatId": 991,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 520,
-  "QuoteLinesTemplate": 738,
-  "ConfirmationLinesTemplate": 841,
+  "DefaultQuoteValidity": 454,
+  "QuoteLinesTemplate": 563,
+  "ConfirmationLinesTemplate": 709,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 504,
-  "MinEarningPercent": 719,
-  "GroupQuoteLinesBy": 577,
-  "SortGroupLinesBy": 873,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 999,
+  "MinEarningPercent": 997,
+  "GroupQuoteLinesBy": 189,
+  "SortGroupLinesBy": 546,
   "Stages": [
     {
-      "Id": 606,
-      "Name": "Hackett, Johnston and Berge",
-      "ToolTip": "In maiores.",
-      "Deleted": false,
-      "Rank": 717,
-      "Type": "quo",
-      "ColorBlock": 740,
-      "IconHint": "aut",
+      "Id": 119,
+      "Name": "Ryan, Krajcik and Bartoletti",
+      "ToolTip": "Qui iste alias quisquam mollitia officiis est nam.",
+      "Deleted": true,
+      "Rank": 772,
+      "Type": "sed",
+      "ColorBlock": 877,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "1998-01-24T14:45:13.9116989+01:00",
+      "LastChanged": "2013-03-01T10:18:01.1606262+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "porro",
-      "StyleHint": "ut",
-      "Hidden": false,
-      "FullName": "Misty Christiansen",
+      "ExtraInfo": "quae",
+      "StyleHint": "omnis",
+      "Hidden": true,
+      "FullName": "Brock Sawayn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldType": "System.Int32",
+          "FieldLength": 765
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 933
     }
   }
 }

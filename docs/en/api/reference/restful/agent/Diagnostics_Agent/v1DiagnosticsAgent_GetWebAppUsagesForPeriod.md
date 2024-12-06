@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2023-10-16T14:45:05.225194+02:00",
-  "ToDate": "2012-10-08T14:45:05.225194+02:00",
-  "SearchTerm": "corrupti"
+  "FromDate": "2004-08-19T10:17:55.3477735+02:00",
+  "ToDate": "2023-03-05T10:17:55.3477735+01:00",
+  "SearchTerm": "placeat"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 246,
-    "AssocId": 523,
-    "Timestamp": "2012-06-27T14:45:05.225194+02:00",
-    "ViewState": "non",
-    "AggregateCount": 774,
-    "AggregateBin": 760,
-    "Version": 414,
+    "WebAppUsageId": 533,
+    "AssocId": 211,
+    "Timestamp": "2005-06-03T10:17:55.3477735+02:00",
+    "ViewState": "molestias",
+    "AggregateCount": 27,
+    "AggregateBin": 457,
+    "Version": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 362
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

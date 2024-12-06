@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=905
+PUT /api/v1/Project/{id}/ImageInfo?projectId=849
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 922,
-  "BlobSize": 545,
-  "Description": "Object-based attitude-oriented flexibility",
-  "ExtraInfo": "in",
+  "BlobId": 508,
+  "BlobSize": 944,
+  "Description": "Front-line maximized customer loyalty",
+  "ExtraInfo": "perferendis",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "necessitatibus",
-  "OriginalSize": 766,
-  "CreatedDate": "1999-04-30T14:45:12.9900307+02:00",
-  "UpdatedDate": "2008-05-12T14:45:12.9900307+02:00",
+  "MimeType": "laboriosam",
+  "OriginalSize": 76,
+  "CreatedDate": "1999-04-06T10:18:00.5199623+02:00",
+  "UpdatedDate": "2007-08-25T10:18:00.5199623+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ex"
+  "ConceptualType": "et"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 695,
-  "BlobSize": 231,
-  "Description": "User-friendly tangible implementation",
-  "ExtraInfo": "aperiam",
+  "BlobId": 893,
+  "BlobSize": 209,
+  "Description": "Function-based executive adapter",
+  "ExtraInfo": "et",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptatem",
-  "OriginalSize": 308,
-  "CreatedDate": "1999-09-11T14:45:12.9900307+02:00",
-  "UpdatedDate": "2022-06-27T14:45:12.9900307+02:00",
+  "IsZipped": false,
+  "MimeType": "quasi",
+  "OriginalSize": 74,
+  "CreatedDate": "2008-04-12T10:18:00.5199623+02:00",
+  "UpdatedDate": "2014-07-20T10:18:00.5199623+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 949
     }
   }
 }

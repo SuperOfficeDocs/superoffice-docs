@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 55,
-  "Caption": "ea",
-  "Description": "Right-sized executive help-desk",
-  "ChartName": "Schiller-McClure",
-  "ChartId": "ut",
-  "IsDefault": true,
-  "AssociateId": 863,
-  "GroupId": 277,
-  "SelectionId": 546,
-  "Config": "consectetur",
+  "DashboardTileId": 449,
+  "Caption": "ut",
+  "Description": "Programmable client-driven workforce",
+  "ChartName": "Murphy Inc and Sons",
+  "ChartId": "inventore",
+  "IsDefault": false,
+  "AssociateId": 552,
+  "GroupId": 763,
+  "SelectionId": 713,
+  "Config": "voluptatibus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Raynor-Crist",
-      "Description": "Intuitive composite architecture",
+      "Name": "Veum-Christiansen",
+      "Description": "Function-based object-oriented protocol",
       "Type": "Boolean",
-      "ListName": "Leffler, Jewess and Von",
+      "ListName": "Satterfield LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "tenetur",
-      "DefaultDataOption": false,
+      "Value": "officia",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 597
+          "FieldLength": 4
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 812,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldLength": 177
         }
       }
     },
     {
-      "VisibleId": 812,
+      "VisibleId": 311,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldLength": 177
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 845
     }
   },
   "_Links": {

@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=quibusdam
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=modi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Hodkiewicz, Zboncak and Hills",
-    "ToolTip": "Voluptatibus eaque voluptates alias dolore ut labore porro.",
-    "Deleted": false,
-    "Rank": 80,
-    "Type": "omnis",
+    "Id": 392,
+    "Name": "Armstrong, Veum and O'Hara",
+    "ToolTip": "Voluptatem aut suscipit quod quia nemo et ea.",
+    "Deleted": true,
+    "Rank": 59,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Raynor, Johns and Vandervort",
-        "ToolTip": "Velit quos dolor illum ut repellendus sunt.",
+        "Id": 412,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Autem laboriosam corporis non et.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "sint",
+        "Rank": 110,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 464,
-        "ExtraInfo": "minima",
-        "StyleHint": "praesentium",
-        "FullName": "Isac O'Reilly",
+        "IconHint": "consequatur",
+        "ColorBlock": 246,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "unde",
+        "FullName": "Prof. Seamus Mattie Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 643
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 945,
-    "ExtraInfo": "in",
-    "StyleHint": "animi",
-    "FullName": "Zion Brian Wisozk II",
+    "IconHint": "non",
+    "ColorBlock": 804,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "quod",
+    "FullName": "Manuel Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 704
       }
     }
   }

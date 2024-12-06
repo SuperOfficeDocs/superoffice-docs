@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Kuvalis-Bins",
-    "ToolTip": "Vel fuga architecto vel architecto distinctio.",
-    "Deleted": false,
-    "Rank": 419,
-    "Type": "reiciendis",
-    "ColorBlock": 142,
-    "IconHint": "molestias",
+    "Id": 195,
+    "Name": "Abshire Group",
+    "ToolTip": "Praesentium temporibus neque.",
+    "Deleted": true,
+    "Rank": 244,
+    "Type": "adipisci",
+    "ColorBlock": 74,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2006-01-31T14:45:13.6148917+01:00",
+    "LastChanged": "2000-10-13T10:18:00.9574888+02:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Bergnaum Inc and Sons",
-        "ToolTip": "Dolorem alias debitis ea esse maxime doloremque.",
-        "Deleted": true,
-        "Rank": 278,
-        "Type": "aut",
-        "ColorBlock": 349,
-        "IconHint": "hic",
+        "Id": 53,
+        "Name": "Weimann-Ebert",
+        "ToolTip": "Inventore ea dolorum.",
+        "Deleted": false,
+        "Rank": 167,
+        "Type": "nobis",
+        "ColorBlock": 890,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2018-03-05T14:45:13.6148917+01:00",
+        "LastChanged": "1998-10-19T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "amet",
+        "ExtraInfo": "quis",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Maybelle Bartell",
+        "FullName": "Mrs. Jedediah Genesis Ledner DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 260
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Dr. Uriel Goodwin V",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Carmela Muhammad Eichmann IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 130
+        "FieldType": "System.Int32",
+        "FieldLength": 600
       }
     }
   }

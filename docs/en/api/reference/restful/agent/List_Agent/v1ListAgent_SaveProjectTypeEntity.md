@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 319,
-  "Name": "Kovacek, Carter and Frami",
-  "Tooltip": "voluptatem",
-  "Rank": 444,
+  "ProjTypeId": 696,
+  "Name": "Strosin, Hodkiewicz and Emard",
+  "Tooltip": "iste",
+  "Rank": 54,
   "DurationUnit": "Century",
-  "ProjectDuration": 863,
-  "Deleted": true,
+  "ProjectDuration": 364,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Yundt Group",
-      "ToolTip": "Ad dignissimos aliquid.",
+      "Id": 208,
+      "Name": "Rolfson, Rempel and Schoen",
+      "ToolTip": "Consequatur facere consequatur ut qui.",
       "Deleted": false,
-      "Rank": 410,
-      "Type": "est",
-      "ColorBlock": 302,
-      "IconHint": "quidem",
+      "Rank": 60,
+      "Type": "consectetur",
+      "ColorBlock": 338,
+      "IconHint": "debitis",
       "Selected": true,
-      "LastChanged": "2015-06-27T14:45:05.7563266+02:00",
+      "LastChanged": "1998-07-16T10:17:55.7384214+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "occaecati",
-      "StyleHint": "error",
+      "ExtraInfo": "quo",
+      "StyleHint": "eum",
       "Hidden": false,
-      "FullName": "Ezequiel Deckow"
+      "FullName": "Devonte Emard"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 1000,
-  "Name": "Sauer, Ruecker and Bayer",
-  "Tooltip": "consequatur",
-  "Rank": 374,
+  "ProjTypeId": 333,
+  "Name": "Olson, Olson and Yost",
+  "Tooltip": "quia",
+  "Rank": 641,
   "DurationUnit": "Century",
-  "ProjectDuration": 616,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "ProjectDuration": 795,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 270,
-      "Name": "Jakubowski, Carter and Bogisich",
-      "ToolTip": "Et ratione laborum.",
-      "Deleted": false,
-      "Rank": 188,
-      "Type": "facilis",
-      "ColorBlock": 197,
-      "IconHint": "distinctio",
-      "Selected": true,
-      "LastChanged": "2012-07-12T14:45:05.7563266+02:00",
+      "Id": 997,
+      "Name": "Gislason-Bahringer",
+      "ToolTip": "Cum qui tempora reiciendis dolore qui.",
+      "Deleted": true,
+      "Rank": 689,
+      "Type": "repellat",
+      "ColorBlock": 841,
+      "IconHint": "eos",
+      "Selected": false,
+      "LastChanged": "2010-10-09T10:17:55.7384214+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "error",
-      "Hidden": true,
-      "FullName": "Jennings Lockman",
+      "ExtraInfo": "hic",
+      "StyleHint": "tempore",
+      "Hidden": false,
+      "FullName": "Cyril Larkin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 836
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

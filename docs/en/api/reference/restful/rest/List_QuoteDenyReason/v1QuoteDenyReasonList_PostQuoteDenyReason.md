@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Mertz Group",
-  "Tooltip": "omnis",
+  "Id": 785,
+  "Name": "Harris-Stehr",
+  "Tooltip": "error",
   "Deleted": false,
-  "UdListDefinitionId": 272,
-  "Rank": 651
+  "UdListDefinitionId": 971,
+  "Rank": 908
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 816,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "et",
+  "Id": 79,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "ea",
   "Deleted": true,
-  "UdListDefinitionId": 61,
-  "Rank": 260,
+  "UdListDefinitionId": 980,
+  "Rank": 842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 310
     }
   }
 }

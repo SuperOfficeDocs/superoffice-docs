@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 972,
-    "Tooltip": "dolorem",
+    "Total": 87,
+    "Tooltip": "autem",
     "CanAssign": false,
-    "Free": 642,
-    "InUse": 496,
+    "Free": 667,
+    "InUse": 174,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 247,
-    "Name": "Treutel, Toy and Howe",
-    "Description": "Right-sized mobile data-warehouse",
-    "PrerequisiteModuleName": "Davis LLC",
-    "SortOrder": 196,
-    "ExtraFlags": 318,
+    "ModuleLicenseId": 708,
+    "Name": "Frami-Nikolaus",
+    "Description": "Balanced leading edge utilisation",
+    "PrerequisiteModuleName": "Daugherty-Jacobs",
+    "SortOrder": 497,
+    "ExtraFlags": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 128
       }
     }
   }

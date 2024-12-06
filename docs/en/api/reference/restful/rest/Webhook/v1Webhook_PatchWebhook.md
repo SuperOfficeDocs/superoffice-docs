@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 475,
-  "Name": "Cassin Inc and Sons",
+  "WebhookId": 972,
+  "Name": "O'Reilly, Abshire and Kunde",
   "Events": [
-    "tempore",
-    "sed"
+    "fugit",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ab",
+  "Secret": "enim",
   "State": "Active",
-  "Type": "sint",
+  "Type": "amet",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "suscipit"
+    "Headers1": "sit",
+    "Headers2": "inventore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-12-06T14:45:13.552405+01:00",
+  "Registered": "2012-10-30T10:18:00.910611+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-03-23T14:45:13.552405+01:00",
+  "Updated": "1999-11-12T10:18:00.910611+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "stone@ebert.uk",
+  "ErrorsEmail": "jeramy_west@kuhlmankilback.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Prosacco LLC",
-    "DisplayName": "Stark, Grimes and Kuphal",
-    "Description": "Visionary real-time adapter",
-    "ShortLabel": "eaque",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Brekke, Wintheiser and Wisoky",
+    "DisplayName": "Anderson Inc and Sons",
+    "Description": "Fully-configurable multi-tasking support",
+    "ShortLabel": "ut",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 850,
-    "TemplateVariableName": "Bins-Dickens"
+    "Rank": 891,
+    "TemplateVariableName": "Cronin, Hartmann and Zemlak"
   }
 ]
 ```

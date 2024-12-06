@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 18,
-    "ColumnId": 623,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 207,
-    "FieldLabel": "eos",
-    "FieldLeft": 884,
-    "FieldTop": 83,
+    "UDefFieldId": 697,
+    "ColumnId": 791,
+    "FieldDefault": "ut",
+    "FieldHeight": 351,
+    "FieldLabel": "dolorem",
+    "FieldLeft": 264,
+    "FieldTop": 680,
     "FieldType": "Checkbox",
-    "FieldWidth": 480,
-    "FormatMask": "aut",
+    "FieldWidth": 379,
+    "FormatMask": "voluptatem",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 101,
-    "LabelLeft": 520,
-    "LabelTop": 132,
-    "LabelWidth": 61,
-    "LastVersionId": 20,
-    "ListTableId": 608,
+    "LabelHeight": 933,
+    "LabelLeft": 484,
+    "LabelTop": 777,
+    "LabelWidth": 493,
+    "LastVersionId": 105,
+    "ListTableId": 584,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 647,
-    "ProgId": "molestiae",
+    "Page1LineNo": 324,
+    "ProgId": "rerum",
     "IsReadOnly": false,
-    "ShortLabel": "fugiat",
-    "TabOrder": 78,
-    "TextLength": 107,
-    "Tooltip": "beatae",
-    "UdefIdentity": 919,
-    "UDListDefinitionId": 706,
+    "ShortLabel": "est",
+    "TabOrder": 331,
+    "TextLength": 384,
+    "Tooltip": "quisquam",
+    "UdefIdentity": 195,
+    "UDListDefinitionId": 16,
     "Justification": "Center",
-    "Version": 756,
-    "TemplateVariableName": "Zboncak Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Konopelski, Romaguera and Skiles",
+    "Version": 60,
+    "TemplateVariableName": "McClure Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Labadie-Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

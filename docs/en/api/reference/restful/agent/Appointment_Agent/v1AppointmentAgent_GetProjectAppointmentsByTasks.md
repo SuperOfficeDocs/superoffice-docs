@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 226,
-  "StartTime": "2009-12-17T14:45:04.4599779+01:00",
-  "EndTime": "2010-06-02T14:45:04.4599779+02:00",
-  "Count": 992,
+  "ProjectId": 270,
+  "StartTime": "2010-05-09T10:17:54.8164912+02:00",
+  "EndTime": "2012-08-20T10:17:54.8164912+02:00",
+  "Count": 88,
   "TaskIds": [
-    91,
-    327
+    883,
+    113
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 166,
-    "StartDate": "2021-10-07T14:45:04.4599779+02:00",
-    "EndDate": "2014-11-16T14:45:04.4599779+01:00",
+    "AppointmentId": 818,
+    "StartDate": "2021-04-19T10:17:54.8164912+02:00",
+    "EndDate": "2011-09-19T10:17:54.8164912+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Mallie Murray DVM",
-    "ContactName": "Olson-Little",
-    "Description": "Synchronised directional internet solution",
-    "PersonFullName": "Cale Grant V",
-    "PersonId": 239,
-    "ContactId": 263,
-    "ProjectId": 36,
-    "ProjectName": "Okuneva-Reilly",
-    "IsPublished": false,
-    "AssociateId": 783,
-    "ColorIndex": 174,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "excepturi",
+    "AssociateFullName": "Burdette Nayeli Conn DDS",
+    "ContactName": "Corkery Group",
+    "Description": "Seamless fresh-thinking array",
+    "PersonFullName": "Cathy Hodkiewicz",
+    "PersonId": 470,
+    "ContactId": 708,
+    "ProjectId": 242,
+    "ProjectName": "Schamberger-Hettinger",
+    "IsPublished": true,
+    "AssociateId": 974,
+    "ColorIndex": 418,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 913,
-    "PriorityName": "Shanahan, McCullough and Mohr",
+    "PriorityId": 361,
+    "PriorityName": "Veum-Hagenes",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2012-11-14T14:45:04.4599779+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2010-12-07T10:17:54.8164912+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-12-26T14:45:04.4599779+01:00",
-    "RecurringEndDate": "2016-01-01T14:45:04.4599779+01:00",
-    "MotherId": 907,
-    "AssignedBy": 411,
-    "AssignedByFullName": "Mckayla Bernhard",
+    "RecurringStartDate": "2001-03-29T10:17:54.8164912+02:00",
+    "RecurringEndDate": "2019-07-22T10:17:54.8164912+02:00",
+    "MotherId": 850,
+    "AssignedBy": 222,
+    "AssignedByFullName": "Katlyn Parisian III",
     "RejectReason": "",
-    "Location": "ab",
-    "AlarmLeadTime": "autem",
-    "SaleId": 385,
-    "SaleName": "Pouros LLC",
-    "AssociateName": "Hodkiewicz-Kirlin",
-    "CreatedDate": "2014-12-27T14:45:04.4599779+01:00",
-    "CreatedBy": "ducimus",
-    "CreatedByFullName": "Vincent Bogan",
-    "CreatedByAssociateId": 142,
+    "Location": "impedit",
+    "AlarmLeadTime": "quis",
+    "SaleId": 629,
+    "SaleName": "McGlynn, Dooley and Prohaska",
+    "AssociateName": "Green Inc and Sons",
+    "CreatedDate": "2001-07-11T10:17:54.8164912+02:00",
+    "CreatedBy": "beatae",
+    "CreatedByFullName": "Heloise Jones",
+    "CreatedByAssociateId": 106,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 658,
-    "Title": "et",
-    "Agenda": "similique",
-    "InternalNotes": "magni",
+    "PreferredTZLocation": 653,
+    "Title": "unde",
+    "Agenda": "voluptatibus",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldType": "System.Int32",
+        "FieldLength": 777
       }
     }
   }

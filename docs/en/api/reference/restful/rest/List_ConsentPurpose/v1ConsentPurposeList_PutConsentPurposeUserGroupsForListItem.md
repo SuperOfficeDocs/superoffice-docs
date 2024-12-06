@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Prohaska LLC",
-    "ToolTip": "Sed qui soluta molestiae provident aut accusamus.",
+    "Id": 446,
+    "Name": "Donnelly-Fritsch",
+    "ToolTip": "Ea qui voluptatem harum quo beatae.",
     "Deleted": true,
-    "Rank": 685,
-    "Type": "dolor",
-    "ColorBlock": 733,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2003-12-16T14:45:13.6148917+01:00",
+    "Rank": 949,
+    "Type": "veritatis",
+    "ColorBlock": 735,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2006-05-09T10:18:00.9574888+02:00",
     "ChildItems": [
       {
-        "Id": 811,
-        "Name": "Gutkowski-Glover",
-        "ToolTip": "Maxime magnam veritatis.",
+        "Id": 583,
+        "Name": "Runolfsson-Williamson",
+        "ToolTip": "Quas culpa odit.",
         "Deleted": false,
-        "Rank": 269,
-        "Type": "sed",
-        "ColorBlock": 560,
-        "IconHint": "recusandae",
+        "Rank": 939,
+        "Type": "recusandae",
+        "ColorBlock": 825,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2013-03-11T14:45:13.6148917+01:00",
+        "LastChanged": "2005-06-10T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sunt",
+        "ExtraInfo": "laborum",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Prof. Melissa Turcotte"
+        "FullName": "Prof. Minnie Mable Bergstrom MD"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Hank Nolan PhD"
+    "ExtraInfo": "nisi",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Miss Kailee Marquis Mosciski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Boyle Group",
-    "ToolTip": "Natus voluptatem harum sit maiores repellat.",
+    "Id": 187,
+    "Name": "Ruecker-Erdman",
+    "ToolTip": "Quae porro.",
     "Deleted": false,
-    "Rank": 939,
-    "Type": "atque",
-    "ColorBlock": 87,
-    "IconHint": "repudiandae",
-    "Selected": false,
-    "LastChanged": "2000-06-27T14:45:13.6148917+02:00",
+    "Rank": 225,
+    "Type": "voluptatum",
+    "ColorBlock": 286,
+    "IconHint": "eligendi",
+    "Selected": true,
+    "LastChanged": "2007-01-13T10:18:00.9574888+01:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Turner LLC",
-        "ToolTip": "Accusantium sequi sunt aut et exercitationem eum.",
+        "Id": 590,
+        "Name": "Collins Inc and Sons",
+        "ToolTip": "Corrupti dolore assumenda expedita omnis ut.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "aut",
-        "ColorBlock": 976,
-        "IconHint": "est",
+        "Rank": 299,
+        "Type": "qui",
+        "ColorBlock": 630,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2017-09-28T14:45:13.6148917+02:00",
+        "LastChanged": "2002-06-21T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Mr. Arjun Patricia Bednar",
+        "ExtraInfo": "odit",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Arianna Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldType": "System.String",
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "sint",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Miss Jess Carmela Klein I",
+    "FullName": "Erich Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 887
       }
     }
   }

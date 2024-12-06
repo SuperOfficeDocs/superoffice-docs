@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Anderson-Glover",
-    "ToolTip": "Adipisci officia officiis sint.",
-    "Deleted": false,
-    "Rank": 539,
-    "Type": "adipisci",
-    "ColorBlock": 414,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2012-03-12T14:45:13.8804606+01:00",
+    "Id": 504,
+    "Name": "Trantow-Lang",
+    "ToolTip": "In enim quia ipsum enim hic velit ullam.",
+    "Deleted": true,
+    "Rank": 685,
+    "Type": "et",
+    "ColorBlock": 607,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2019-09-20T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Bradtke, Ondricka and Roberts",
-        "ToolTip": "Optio enim voluptas inventore dicta a molestiae id.",
+        "Id": 640,
+        "Name": "Frami, Zemlak and Abshire",
+        "ToolTip": "Quidem est sint similique debitis dolores eligendi.",
         "Deleted": false,
-        "Rank": 205,
-        "Type": "et",
-        "ColorBlock": 318,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2014-08-08T14:45:13.8804606+02:00",
+        "Rank": 758,
+        "Type": "adipisci",
+        "ColorBlock": 341,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2022-04-21T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "vel",
+        "ExtraInfo": "ad",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Major Ward",
+        "FullName": "Leif Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 272
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "enim",
+    "ExtraInfo": "et",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Dr. Matt Gerlach",
+    "FullName": "Terence Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldLength": 229
       }
     }
   }

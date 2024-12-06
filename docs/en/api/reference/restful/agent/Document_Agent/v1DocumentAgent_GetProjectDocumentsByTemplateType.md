@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 154,
-  "StartTime": "2008-04-22T14:45:05.2408154+02:00",
-  "EndTime": "2013-04-06T14:45:05.2408154+02:00",
-  "Count": 146,
-  "DocumentTemplateId": 283
+  "ProjectId": 365,
+  "StartTime": "1997-09-06T10:17:55.457154+02:00",
+  "EndTime": "1999-06-20T10:17:55.457154+02:00",
+  "Count": 171,
+  "DocumentTemplateId": 24
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 651,
-    "Attention": "saepe",
-    "Header": "impedit",
-    "Name": "Kohler, Quigley and Cremin",
-    "OurRef": "ullam",
-    "YourRef": "et",
-    "Description": "Innovative impactful matrices",
-    "DocumentTemplate": "porro",
+    "DocumentId": 307,
+    "Attention": "quos",
+    "Header": "est",
+    "Name": "Collins LLC",
+    "OurRef": "fugiat",
+    "YourRef": "ratione",
+    "Description": "Streamlined fresh-thinking focus group",
+    "DocumentTemplate": "adipisci",
     "IsPublished": false,
-    "PersonId": 298,
-    "PersonFullName": "Dorris Roob",
-    "AssociateFullName": "Herminio Hermiston",
-    "ContactId": 272,
-    "ContactName": "Donnelly-Zboncak",
-    "ProjectId": 687,
-    "ProjectName": "Connelly-Koss",
-    "AssociateId": 887,
-    "Snum": 386,
-    "SaleId": 964,
-    "SaleName": "Leuschke Inc and Sons",
+    "PersonId": 585,
+    "PersonFullName": "Gayle Von",
+    "AssociateFullName": "Aylin Jast",
+    "ContactId": 107,
+    "ContactName": "Turner-Kris",
+    "ProjectId": 860,
+    "ProjectName": "Hessel, Labadie and Roob",
+    "AssociateId": 134,
+    "Snum": 5,
+    "SaleId": 659,
+    "SaleName": "Sauer-Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 96
       }
     }
   }

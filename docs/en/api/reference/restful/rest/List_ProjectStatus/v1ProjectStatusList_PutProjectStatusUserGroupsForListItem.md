@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Stoltenberg, Gleason and VonRueden",
-    "ToolTip": "Necessitatibus est.",
+    "Id": 667,
+    "Name": "Windler-Dooley",
+    "ToolTip": "Unde eos aut reprehenderit.",
     "Deleted": false,
-    "Rank": 931,
-    "Type": "quae",
-    "ColorBlock": 967,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "2019-04-21T14:45:13.8179422+02:00",
+    "Rank": 840,
+    "Type": "libero",
+    "ColorBlock": 839,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "2014-02-21T10:18:01.0981224+01:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Hermiston, Green and McLaughlin",
-        "ToolTip": "Corrupti explicabo.",
+        "Id": 620,
+        "Name": "Mraz, Armstrong and Gaylord",
+        "ToolTip": "Ut facilis quia dolorem maiores.",
         "Deleted": false,
-        "Rank": 531,
-        "Type": "officiis",
-        "ColorBlock": 693,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2000-12-17T14:45:13.8179422+01:00",
+        "Rank": 152,
+        "Type": "exercitationem",
+        "ColorBlock": 772,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2016-09-04T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Leland Ortiz"
+        "ExtraInfo": "aliquam",
+        "StyleHint": "aliquid",
+        "Hidden": true,
+        "FullName": "Donald Brown DDS"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Miss Florencio Kuvalis MD"
+    "ExtraInfo": "alias",
+    "StyleHint": "nobis",
+    "Hidden": true,
+    "FullName": "Mariah Quigley"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Doyle Inc and Sons",
-    "ToolTip": "Error labore architecto et rerum ad eos.",
+    "Id": 336,
+    "Name": "Macejkovic, Kerluke and Lubowitz",
+    "ToolTip": "Voluptatum culpa aliquam consequuntur in.",
     "Deleted": false,
-    "Rank": 582,
-    "Type": "quaerat",
-    "ColorBlock": 220,
-    "IconHint": "et",
+    "Rank": 477,
+    "Type": "placeat",
+    "ColorBlock": 916,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2024-01-03T14:45:13.833594+01:00",
+    "LastChanged": "2015-08-31T10:18:01.0981224+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Kihn, Harvey and Kling",
-        "ToolTip": "Est laudantium sed earum.",
+        "Id": 490,
+        "Name": "Friesen-Nitzsche",
+        "ToolTip": "Sint porro.",
         "Deleted": false,
-        "Rank": 513,
-        "Type": "iure",
-        "ColorBlock": 594,
-        "IconHint": "molestias",
+        "Rank": 828,
+        "Type": "expedita",
+        "ColorBlock": 239,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2002-11-26T14:45:13.833594+01:00",
+        "LastChanged": "2007-06-22T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Dr. Unique D'Amore DVM",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Prof. Marco Lindsey Christiansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Tessie Haylie Wehner DVM",
+    "ExtraInfo": "est",
+    "StyleHint": "sequi",
+    "Hidden": true,
+    "FullName": "Rowena Yundt MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 452
+        "FieldLength": 784
       }
     }
   }

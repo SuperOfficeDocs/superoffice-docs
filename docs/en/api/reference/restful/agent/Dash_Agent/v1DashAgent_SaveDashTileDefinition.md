@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 703,
-  "Name": "Flatley-Yost",
-  "Description": "Diverse logistical throughput",
-  "DefaultHeight": 546,
-  "DefaultWidth": 163,
+  "DashboardTileDefinitionId": 991,
+  "Name": "Leffler LLC",
+  "Description": "Visionary discrete concept",
+  "DefaultHeight": 145,
+  "DefaultWidth": 278,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Smith Group",
-  "SelectionId": 1002,
+  "EntityName": "Turcotte LLC",
+  "SelectionId": 167,
   "CurrencyMode": "Base",
-  "CurrencyCode": "corrupti",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "aut",
-  "LayoutConfig": "quos",
-  "SecondarySelectionId": 380,
-  "MeasureByField": "minus",
+  "MeasureField": "dolorem",
+  "SortBy": "voluptatibus",
+  "LayoutConfig": "velit",
+  "SecondarySelectionId": 326,
+  "MeasureByField": "eveniet",
   "Usage": "Dashboard",
-  "ProviderName": "Shields, Schulist and Volkman"
+  "ProviderName": "Armstrong Group"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 573,
-  "Name": "Bashirian, Denesik and Effertz",
-  "Description": "Versatile 3rd generation moderator",
-  "DefaultHeight": 74,
-  "DefaultWidth": 298,
+  "DashboardTileDefinitionId": 7,
+  "Name": "Beahan-Ondricka",
+  "Description": "Ergonomic discrete algorithm",
+  "DefaultHeight": 834,
+  "DefaultWidth": 346,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hudson, Sawayn and Gibson",
-  "SelectionId": 80,
+  "EntityName": "Lemke Inc and Sons",
+  "SelectionId": 905,
   "CurrencyMode": "Base",
-  "CurrencyCode": "accusantium",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "asperiores",
-  "SortBy": "fuga",
-  "LayoutConfig": "velit",
-  "SecondarySelectionId": 276,
-  "MeasureByField": "veritatis",
+  "MeasureField": "ut",
+  "SortBy": "aut",
+  "LayoutConfig": "similique",
+  "SecondarySelectionId": 153,
+  "MeasureByField": "hic",
   "Usage": "Dashboard",
-  "ProviderName": "Shanahan-Shields",
+  "ProviderName": "Skiles, Johnson and Miller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

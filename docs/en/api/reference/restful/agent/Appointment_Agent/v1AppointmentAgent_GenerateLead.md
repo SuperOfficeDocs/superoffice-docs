@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 50,
-  "LeadDescription": "Focused uniform groupware",
-  "Relation": "temporibus",
-  "RelationId": 107,
-  "LeadContact": "et",
-  "LeadPersonFirstname": "Earl",
-  "LeadPersonLastname": "Renner",
-  "LeadPersonEmail": "darrel@hahnschmitt.us",
-  "LeadPhoneNumber": "342855",
-  "CreatorsContact": "quo",
-  "CreatorsFirstname": "Rebekah",
-  "CreatorsLastname": "Halvorson"
+  "AssociateIdForNewContact": 399,
+  "LeadDescription": "Switchable national methodology",
+  "Relation": "ratione",
+  "RelationId": 468,
+  "LeadContact": "aut",
+  "LeadPersonFirstname": "Clair",
+  "LeadPersonLastname": "Koch",
+  "LeadPersonEmail": "dallas.erdman@walter.name",
+  "LeadPhoneNumber": "1197109",
+  "CreatorsContact": "corrupti",
+  "CreatorsFirstname": "Corine",
+  "CreatorsLastname": "Nitzsche"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 23,
-      "Name": "D'Amore Inc and Sons",
-      "OrgNr": "1348529",
+      "ContactId": 447,
+      "Name": "Mueller, Bernier and Hoppe",
+      "OrgNr": "536787",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "dolor",
-      "DirectPhone": "836.528.6678",
-      "AssociateId": 589,
-      "CountryId": 69,
-      "EmailAddress": "zora@wuckert.biz",
-      "Kananame": "magni",
-      "EmailAddressName": "maynard.doyle@reynolds.info",
+      "City": "laudantium",
+      "DirectPhone": "1-842-558-8933 x61167",
+      "AssociateId": 6,
+      "CountryId": 128,
+      "EmailAddress": "aletha.crist@cronakunde.name",
+      "Kananame": "enim",
+      "EmailAddressName": "madeline@quigley.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Luisa Bruen",
+      "AssociateFullName": "Taya O'Reilly",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "perferendis",
-      "FullName": "Hermina Wilkinson",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 176,
-      "Number1": "1537440",
-      "Number2": "772609",
+      "FormattedAddress": "reprehenderit",
+      "FullName": "Eriberto Bradtke PhD",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 841,
+      "Number1": "577826",
+      "Number2": "1560964",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
+          "FieldType": "System.Int32",
+          "FieldLength": 691
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 875
     }
   }
 }

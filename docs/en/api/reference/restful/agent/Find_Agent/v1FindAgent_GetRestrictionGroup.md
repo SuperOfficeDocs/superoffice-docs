@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptates",
-  "ProviderName": "Hettinger, Emard and Gutmann",
-  "StorageKey": "est",
-  "Rank": 893,
-  "Context": "non"
+  "StorageType": "nam",
+  "ProviderName": "Gerhold-Streich",
+  "StorageKey": "atque",
+  "Rank": 407,
+  "Context": "sit"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber-Marquardt",
-  "Description": "Mandatory attitude-oriented migration",
-  "Rank": 987,
+  "Name": "Quigley LLC",
+  "Description": "Extended solution-oriented migration",
+  "Rank": 450,
   "Restrictions": [
     {
-      "Name": "Schaefer-Steuber",
-      "Operator": "quis",
+      "Name": "Hammes-Hilll",
+      "Operator": "consectetur",
       "Values": [
-        "quae",
-        "molestias"
+        "nostrum",
+        "similique"
       ],
       "DisplayValues": [
         "et",
-        "adipisci"
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 12,
+      "InterParenthesis": 977,
       "InterOperator": "And",
-      "UniqueHash": 163
+      "UniqueHash": 270
     }
   ]
 }

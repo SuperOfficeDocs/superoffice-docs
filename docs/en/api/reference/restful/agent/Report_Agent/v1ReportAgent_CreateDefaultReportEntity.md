@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 394,
+  "ReportId": 976,
   "ReportCategory": "All",
-  "Description": "Synergistic asynchronous intranet",
+  "Description": "Progressive optimal open architecture",
   "ReportLayout": "CalendarMonth",
-  "Name": "West, Smitham and Willms",
-  "AssociateId": 930,
-  "TemplateId": 471,
+  "Name": "Walter, Hilpert and Reichert",
+  "AssociateId": 9,
+  "TemplateId": 938,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   }
 }

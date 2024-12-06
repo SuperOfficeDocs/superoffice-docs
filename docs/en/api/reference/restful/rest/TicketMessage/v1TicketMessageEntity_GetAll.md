@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=non
-GET /api/v1/TicketMessage?$top=816
-GET /api/v1/TicketMessage?$skip=206
+GET /api/v1/TicketMessage?$entities=adipisci
+GET /api/v1/TicketMessage?$top=371
+GET /api/v1/TicketMessage?$skip=222
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=ipsa
+GET /api/v1/TicketMessage?$context=qui
 GET /api/v1/TicketMessage?$format=JSON
 GET /api/v1/TicketMessage?$jsonSafe=False
 GET /api/v1/TicketMessage?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "eligendi",
   "value": [
     {
-      "PrimaryKey": 1311,
-      "EntityName": "person",
-      "personId": 1311,
-      "fullName": "Fritz Gleason"
+      "PrimaryKey": 5912,
+      "EntityName": "sale",
+      "saleId": 5912,
+      "contactId": 2617,
+      "name": "Pouros, Ortiz and Larson"
     },
     {
-      "PrimaryKey": 7242,
-      "EntityName": "person",
-      "personId": 7242,
-      "fullName": "Sid Devon Bernier I"
+      "PrimaryKey": 2532,
+      "EntityName": "sale",
+      "saleId": 2532,
+      "contactId": 6110,
+      "name": "Murray Group"
     }
   ]
 }

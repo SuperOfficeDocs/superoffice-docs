@@ -60,6 +60,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
+| SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
+| LastFetch | date-time | When we last fetched email  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 788,
+  "EMailAccountId": 459,
   "EMailAddress": "quas",
-  "AssociateId": 991,
+  "AssociateId": 809,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 225,
-  "ErrorCount": 634,
+  "AccountStatus": 737,
+  "ErrorCount": 616,
   "ErrorReason": "",
-  "InboxFolder": "perspiciatis",
-  "SentFolder": "amet",
+  "InboxFolder": "ab",
+  "SentFolder": "repudiandae",
+  "SimpleMode": 412,
+  "LastFetch": "2008-02-23T10:17:55.5665368+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

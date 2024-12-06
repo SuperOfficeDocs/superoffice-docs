@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Reinger, Jones and Emmerich",
+  "HistoryName": "Hilll Inc and Sons",
   "History": [
     {
-      "Rank": 981,
-      "Id": 924,
-      "HistoryName": "Kunze Group",
-      "HistoryId": 326,
+      "Rank": 911,
+      "Id": 192,
+      "HistoryName": "Balistreri Inc and Sons",
+      "HistoryId": 730,
       "AssociateId": 352,
-      "Name": "Moore LLC",
-      "ItemInfo": "et"
+      "Name": "Vandervort Inc and Sons",
+      "ItemInfo": "ducimus"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 985,
-    "Id": 446,
-    "HistoryName": "Herman LLC",
-    "HistoryId": 749,
-    "AssociateId": 159,
-    "Name": "Legros-Quigley",
-    "ItemInfo": "aspernatur",
+    "Rank": 133,
+    "Id": 499,
+    "HistoryName": "Steuber, Orn and Schmitt",
+    "HistoryId": 765,
+    "AssociateId": 668,
+    "Name": "Tremblay Group",
+    "ItemInfo": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 90
       }
     }
   }

@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 980,
-  "Name": "Haag-Corkery",
-  "Tooltip": "in",
-  "Rank": 709,
-  "AmountFrom": 29832.546,
-  "AmountTo": 22348.554,
-  "Deleted": false,
-  "CurrencyId": 14
+  "AmountClassId": 518,
+  "Name": "Eichmann, Hammes and Kreiger",
+  "Tooltip": "ut",
+  "Rank": 741,
+  "AmountFrom": 23859.142,
+  "AmountTo": 560.986,
+  "Deleted": true,
+  "CurrencyId": 401
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 304,
-  "Name": "Schneider-Reichel",
-  "Tooltip": "voluptatem",
-  "Rank": 756,
-  "AmountFrom": 30484.417999999998,
-  "AmountTo": 27989.754,
-  "Deleted": false,
-  "CurrencyId": 744,
+  "AmountClassId": 508,
+  "Name": "Parker, Ziemann and Cremin",
+  "Tooltip": "mollitia",
+  "Rank": 880,
+  "AmountFrom": 2607.488,
+  "AmountTo": 8145.266,
+  "Deleted": true,
+  "CurrencyId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 22
     }
   }
 }

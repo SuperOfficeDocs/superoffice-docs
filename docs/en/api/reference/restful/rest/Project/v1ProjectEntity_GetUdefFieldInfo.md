@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 263,
-  "ColumnId": 736,
-  "FieldDefault": "esse",
-  "FieldHeight": 905,
-  "FieldLabel": "ea",
-  "FieldLeft": 737,
-  "FieldTop": 776,
+  "UDefFieldId": 825,
+  "ColumnId": 136,
+  "FieldDefault": "et",
+  "FieldHeight": 362,
+  "FieldLabel": "ad",
+  "FieldLeft": 11,
+  "FieldTop": 760,
   "FieldType": "Checkbox",
-  "FieldWidth": 747,
-  "FormatMask": "eum",
+  "FieldWidth": 122,
+  "FormatMask": "culpa",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 970,
-  "LabelLeft": 256,
-  "LabelTop": 83,
-  "LabelWidth": 21,
-  "LastVersionId": 105,
-  "ListTableId": 95,
+  "IsIndexed": true,
+  "LabelHeight": 854,
+  "LabelLeft": 820,
+  "LabelTop": 979,
+  "LabelWidth": 419,
+  "LastVersionId": 951,
+  "ListTableId": 31,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 9,
-  "ProgId": "nisi",
-  "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 971,
-  "TextLength": 816,
-  "Tooltip": "consectetur",
-  "UdefIdentity": 539,
-  "UDListDefinitionId": 180,
+  "Page1LineNo": 128,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "fugiat",
+  "TabOrder": 56,
+  "TextLength": 693,
+  "Tooltip": "dolore",
+  "UdefIdentity": 649,
+  "UDListDefinitionId": 549,
   "Justification": "Center",
-  "Version": 931,
-  "TemplateVariableName": "Torp-Dickens",
+  "Version": 426,
+  "TemplateVariableName": "Nolan, Spencer and Roob",
   "HasBeenPublished": false,
-  "MdoListName": "Romaguera Group",
+  "MdoListName": "Greenholt-Hand",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 474
     }
   }
 }

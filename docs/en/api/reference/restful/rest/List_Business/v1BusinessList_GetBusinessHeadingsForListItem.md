@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Jast-Littel",
-    "ToolTip": "Corrupti quo quia.",
+    "Id": 117,
+    "Name": "Bahringer, Stark and Beier",
+    "ToolTip": "Eos sint exercitationem.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "harum",
-    "ColorBlock": 775,
-    "IconHint": "assumenda",
-    "Selected": true,
-    "LastChanged": "2012-02-12T14:45:13.5836468+01:00",
+    "Rank": 398,
+    "Type": "enim",
+    "ColorBlock": 367,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1998-04-14T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Nienow-Satterfield",
-        "ToolTip": "Similique eius animi vitae qui adipisci quia.",
+        "Id": 165,
+        "Name": "Bins Inc and Sons",
+        "ToolTip": "Non nobis ab corporis illo in voluptatem aut.",
         "Deleted": false,
-        "Rank": 879,
-        "Type": "qui",
-        "ColorBlock": 370,
-        "IconHint": "ratione",
-        "Selected": true,
-        "LastChanged": "2020-03-20T14:45:13.5836468+01:00",
+        "Rank": 69,
+        "Type": "et",
+        "ColorBlock": 87,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "1999-12-22T10:18:00.9418629+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Macy Von",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Ms. Gus Jordy Keebler Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Mrs. Jovani Maggio V",
+    "ExtraInfo": "eum",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Orville Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 57
       }
     }
   }

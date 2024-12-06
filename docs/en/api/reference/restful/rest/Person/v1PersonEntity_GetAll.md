@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=voluptas
-GET /api/v1/Person?$top=568
-GET /api/v1/Person?$skip=819
+GET /api/v1/Person?$entities=ullam
+GET /api/v1/Person?$top=12
+GET /api/v1/Person?$skip=704
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=odio
+GET /api/v1/Person?$context=voluptates
 GET /api/v1/Person?$format=JSON
-GET /api/v1/Person?$jsonSafe=False
+GET /api/v1/Person?$jsonSafe=True
 GET /api/v1/Person?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Person
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "distinctio",
+  "odata.nextLink": "ratione",
   "value": [
     {
-      "PrimaryKey": 5294,
-      "EntityName": "person",
-      "personId": 5294,
-      "fullName": "Estell Lemke"
+      "PrimaryKey": 7424,
+      "EntityName": "sale",
+      "saleId": 7424,
+      "contactId": 2351,
+      "name": "Goyette-Ward"
     },
     {
-      "PrimaryKey": 1150,
-      "EntityName": "person",
-      "personId": 1150,
-      "fullName": "Alexandrea Lueilwitz"
+      "PrimaryKey": 16,
+      "EntityName": "sale",
+      "saleId": 16,
+      "contactId": 8220,
+      "name": "Altenwerth Group"
     }
   ]
 }

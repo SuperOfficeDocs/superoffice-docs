@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman Group",
+  "Name": "Lowe, Crona and Weissnat",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Nitzsche LLC",
-    "AssociateId": 134,
-    "DetailsTable": 201,
-    "DetailsRecord": 909,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 590,
+    "Name": "Collins LLC",
+    "AssociateId": 658,
+    "DetailsTable": 524,
+    "DetailsRecord": 860,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "excepturi",
-      "ParameterObject2": "id"
+      "ParameterObject1": "possimus",
+      "ParameterObject2": "in"
     },
-    "LastStarted": "2021-08-23T14:45:04.8815214+02:00",
-    "Created": "2004-09-10T14:45:04.8815214+02:00",
-    "StartCount": 581,
-    "DatabaseSerialNumber": "998139",
-    "Context": "dolore",
-    "Result": "quo",
+    "LastStarted": "2016-07-19T10:17:55.1290102+02:00",
+    "Created": "2021-01-19T10:17:55.1290102+01:00",
+    "StartCount": 734,
+    "DatabaseSerialNumber": "1586706",
+    "Context": "excepturi",
+    "Result": "eos",
     "State": "All",
-    "Description": "Progressive homogeneous process improvement",
-    "Response": "laborum",
-    "Request": "exercitationem",
-    "ProgressDescription": "Cloned contextually-based focus group",
-    "ProgressPercent": 546,
-    "FileName": "Willms LLC",
+    "Description": "Profit-focused clear-thinking ability",
+    "Response": "magni",
+    "Request": "voluptatem",
+    "ProgressDescription": "Monitored 4th generation knowledge user",
+    "ProgressPercent": 715,
+    "FileName": "Medhurst, VonRueden and Block",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

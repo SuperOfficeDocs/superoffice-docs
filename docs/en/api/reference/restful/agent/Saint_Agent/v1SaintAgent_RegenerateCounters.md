@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Hermann Group",
-  "AssociateId": 804,
-  "DetailsTable": 44,
-  "DetailsRecord": 439,
+  "Id": 446,
+  "Name": "Goyette-Wehner",
+  "AssociateId": 959,
+  "DetailsTable": 860,
+  "DetailsRecord": 250,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "repudiandae",
-    "ParameterObject2": "dolor"
+    "ParameterObject1": "sunt",
+    "ParameterObject2": "temporibus"
   },
-  "LastStarted": "2020-04-10T14:45:06.1156216+02:00",
-  "Created": "2011-12-19T14:45:06.1156216+01:00",
-  "StartCount": 104,
-  "DatabaseSerialNumber": "837451",
-  "Context": "labore",
-  "Result": "voluptate",
+  "LastStarted": "2011-01-22T10:17:55.9728114+01:00",
+  "Created": "2010-10-25T10:17:55.9728114+02:00",
+  "StartCount": 178,
+  "DatabaseSerialNumber": "1493745",
+  "Context": "delectus",
+  "Result": "in",
   "State": "All",
-  "Description": "Right-sized object-oriented hierarchy",
-  "Response": "numquam",
-  "Request": "doloremque",
-  "ProgressDescription": "Assimilated intermediate pricing structure",
-  "ProgressPercent": 581,
-  "FileName": "Bernhard-Howell",
+  "Description": "Digitized demand-driven attitude",
+  "Response": "voluptatem",
+  "Request": "magnam",
+  "ProgressDescription": "Future-proofed bifurcated challenge",
+  "ProgressPercent": 913,
+  "FileName": "Dach LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

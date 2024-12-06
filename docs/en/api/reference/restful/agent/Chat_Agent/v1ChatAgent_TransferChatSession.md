@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 630,
-  "ToAssociate": "nostrum"
+  "ChatSessionId": 285,
+  "ToAssociate": "quae"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 17,
-  "TopicId": 892,
+  "ChatSessionId": 88,
+  "TopicId": 110,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "neque",
-  "CustomerName": "Ernser-Walsh",
-  "CustomerEmail": "charlotte@johnston.biz",
-  "CustomerPhone": "251-424-5395 x94097",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Watsica, Bernhard and Bechtelar",
+  "CustomerAlias": "distinctio",
+  "CustomerHost": "quibusdam",
+  "CustomerName": "Heller, Rutherford and Bahringer",
+  "CustomerEmail": "odell_okeefe@osinski.co.uk",
+  "CustomerPhone": "519-290-9347 x1091",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Heller LLC",
   "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "placeat",
-  "WhenRequested": "2006-06-29T14:45:04.9596283+02:00",
-  "WhenStarted": "2004-03-17T14:45:04.9596283+01:00",
-  "WhenEnded": "2005-09-06T14:45:04.9596283+02:00",
-  "WhenIdle": "2022-12-17T14:45:04.9596283+01:00",
-  "WhenFetched": "1998-07-01T14:45:04.9596283+02:00",
-  "SessionKey": "quae",
-  "InitialQueuePos": 531,
-  "AlertLevel": 840,
-  "Rank": 802,
+  "FirstMessage": "amet",
+  "LastMessage": "et",
+  "WhenRequested": "2017-04-30T10:17:55.1758881+02:00",
+  "WhenStarted": "2018-03-19T10:17:55.1758881+01:00",
+  "WhenEnded": "2002-06-27T10:17:55.1758881+02:00",
+  "WhenIdle": "2016-10-28T10:17:55.1758881+02:00",
+  "WhenFetched": "2013-07-26T10:17:55.1758881+02:00",
+  "SessionKey": "itaque",
+  "InitialQueuePos": 67,
+  "AlertLevel": 671,
+  "Rank": 246,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 229,
+  "Rating": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   }
 }

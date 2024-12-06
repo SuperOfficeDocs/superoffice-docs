@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Okuneva, Corkery and Schuppe",
-    "Tooltip": "eos",
+    "HeadingId": 172,
+    "Name": "Pfannerstill-Dooley",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "Rank": 29,
-    "UdListDefinitionId": 107,
+    "Rank": 793,
+    "UdListDefinitionId": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldLength": 676
       }
     }
   }

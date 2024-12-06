@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 303
+  "ContactId": 131
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "illum",
-    "PersonId": 363,
-    "Mrmrs": "neque",
-    "Firstname": "Aubrey",
-    "Lastname": "Emmerich",
-    "MiddleName": "Krajcik-Dibbert",
-    "Title": "doloremque",
-    "Description": "Triple-buffered actuating benchmark",
-    "Email": "nat@webermclaughlin.us",
-    "FullName": "Brayan Heidenreich",
-    "DirectPhone": "800.238.9282 x2997",
-    "FormalName": "Baumbach-Hartmann",
-    "CountryId": 461,
-    "ContactId": 896,
-    "ContactName": "Streich Group",
-    "Retired": 756,
-    "Rank": 18,
-    "ActiveInterests": 384,
+    "Position": "aliquam",
+    "PersonId": 417,
+    "Mrmrs": "placeat",
+    "Firstname": "Murl",
+    "Lastname": "Stanton",
+    "MiddleName": "Shields, McCullough and Herman",
+    "Title": "quas",
+    "Description": "Integrated encompassing Graphical User Interface",
+    "Email": "fae_yost@ullrichkerluke.name",
+    "FullName": "Wava Kozey",
+    "DirectPhone": "1-736-743-6947",
+    "FormalName": "Dooley, Murazik and O'Reilly",
+    "CountryId": 295,
+    "ContactId": 308,
+    "ContactName": "Langworth-Kiehn",
+    "Retired": 115,
+    "Rank": 322,
+    "ActiveInterests": 495,
     "ContactDepartment": "",
-    "ContactCountryId": 375,
-    "ContactOrgNr": "1009885",
-    "FaxPhone": "742-873-1545 x117",
-    "MobilePhone": "936.598.7038 x5845",
-    "ContactPhone": "425.906.3851 x130",
-    "AssociateName": "Gleichner, Stracke and Schowalter",
-    "AssociateId": 131,
+    "ContactCountryId": 224,
+    "ContactOrgNr": "1255046",
+    "FaxPhone": "575-323-4091 x663",
+    "MobilePhone": "(830)881-6245",
+    "ContactPhone": "273.654.5181",
+    "AssociateName": "Purdy LLC",
+    "AssociateId": 373,
     "UsePersonAddress": false,
-    "ContactFax": "voluptas",
-    "Kanafname": "et",
-    "Kanalname": "blanditiis",
-    "Post1": "officiis",
-    "Post2": "voluptatem",
-    "Post3": "aut",
-    "EmailName": "chandler.schumm@hyattreinger.com",
-    "ContactFullName": "Dora Herman",
-    "ActiveErpLinks": 494,
-    "TicketPriorityId": 570,
-    "SupportLanguageId": 517,
-    "SupportAssociateId": 196,
+    "ContactFax": "est",
+    "Kanafname": "ipsa",
+    "Kanalname": "rem",
+    "Post1": "suscipit",
+    "Post2": "aut",
+    "Post3": "ut",
+    "EmailName": "alexander.denesik@lindgrenschultz.com",
+    "ContactFullName": "Jannie Conroy",
+    "ActiveErpLinks": 144,
+    "TicketPriorityId": 455,
+    "SupportLanguageId": 54,
+    "SupportAssociateId": 634,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

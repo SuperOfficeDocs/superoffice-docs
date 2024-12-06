@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Zemlak, Breitenberg and Ebert",
-  "ModuleName": "Bednar Inc and Sons"
+  "OwnerName": "Beer LLC",
+  "ModuleName": "Nader-Bailey"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pouros-Ondricka",
-  "ModuleName": "Hickle, Halvorson and Herzog",
-  "ModuleDescription": "Polarised 24/7 parallelism",
-  "ModuleTooltip": "beatae",
-  "ModuleVersion": "animi",
+  "OwnerName": "Purdy-Quigley",
+  "ModuleName": "Hermann Inc and Sons",
+  "ModuleDescription": "Reduced optimizing contingency",
+  "ModuleTooltip": "explicabo",
+  "ModuleVersion": "voluptatem",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 478,
-  "ExtraFlags": 822,
-  "ExtraInfo": "omnis",
-  "SortOrder": 593,
+  "NumberOfLicenses": 908,
+  "ExtraFlags": 40,
+  "ExtraInfo": "et",
+  "SortOrder": 112,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Schaefer-Reinger",
-  "Signature": "ipsum"
+  "PrerequisiteModuleName": "Ratke Inc and Sons",
+  "Signature": "placeat"
 }
 ```

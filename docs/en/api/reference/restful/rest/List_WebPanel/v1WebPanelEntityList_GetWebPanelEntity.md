@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 225,
-  "Name": "Kshlerin, Kub and Weimann",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 268,
+  "WebPanelId": 428,
+  "Name": "Beier-Ruecker",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 325,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Schiller Inc and Sons",
+  "WindowName": "Kozey, Langworth and Bradtke",
   "Url": "http://www.example.com/",
-  "ProgId": "rem",
-  "Icon": 261,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "fugiat",
+  "Icon": 316,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

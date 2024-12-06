@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 767,
-  "ColumnId": 267,
-  "FieldDefault": "ab",
-  "FieldHeight": 851,
-  "FieldLabel": "qui",
-  "FieldLeft": 196,
-  "FieldTop": 734,
+  "UDefFieldId": 520,
+  "ColumnId": 537,
+  "FieldDefault": "veniam",
+  "FieldHeight": 892,
+  "FieldLabel": "quia",
+  "FieldLeft": 92,
+  "FieldTop": 613,
   "FieldType": "Checkbox",
-  "FieldWidth": 608,
-  "FormatMask": "est",
+  "FieldWidth": 389,
+  "FormatMask": "occaecati",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 864,
-  "LabelLeft": 52,
-  "LabelTop": 837,
-  "LabelWidth": 687,
-  "LastVersionId": 997,
-  "ListTableId": 171,
+  "IsIndexed": false,
+  "LabelHeight": 398,
+  "LabelLeft": 680,
+  "LabelTop": 677,
+  "LabelWidth": 47,
+  "LastVersionId": 111,
+  "ListTableId": 443,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 78,
-  "ProgId": "quis",
+  "Page1LineNo": 745,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 630,
-  "TextLength": 42,
-  "Tooltip": "et",
-  "UdefIdentity": 750,
-  "UDListDefinitionId": 621,
+  "ShortLabel": "et",
+  "TabOrder": 976,
+  "TextLength": 49,
+  "Tooltip": "autem",
+  "UdefIdentity": 938,
+  "UDListDefinitionId": 768,
   "Justification": "Center",
-  "Version": 459,
-  "TemplateVariableName": "Wehner, Lakin and Schaefer",
+  "Version": 379,
+  "TemplateVariableName": "D'Amore, McDermott and Conn",
   "HasBeenPublished": false,
-  "MdoListName": "Cummerata, Keebler and Miller",
+  "MdoListName": "Leuschke Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 760
     }
   }
 }

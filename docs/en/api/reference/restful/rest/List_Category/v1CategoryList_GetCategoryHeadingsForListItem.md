@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 348,
-    "Name": "Frami-Champlin",
-    "ToolTip": "Earum facilis iure sunt autem ea.",
-    "Deleted": false,
-    "Rank": 627,
-    "Type": "aperiam",
-    "ColorBlock": 619,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2022-07-01T14:45:13.5992714+02:00",
+    "Id": 875,
+    "Name": "Considine, Moore and Hansen",
+    "ToolTip": "Sed modi consequatur.",
+    "Deleted": true,
+    "Rank": 538,
+    "Type": "quia",
+    "ColorBlock": 107,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2017-11-25T10:18:00.9418629+01:00",
     "ChildItems": [
       {
-        "Id": 592,
-        "Name": "Hansen Group",
-        "ToolTip": "Ipsam neque non.",
-        "Deleted": false,
-        "Rank": 122,
-        "Type": "eveniet",
-        "ColorBlock": 733,
-        "IconHint": "minima",
-        "Selected": true,
-        "LastChanged": "2018-06-11T14:45:13.5992714+02:00",
+        "Id": 694,
+        "Name": "Durgan Inc and Sons",
+        "ToolTip": "Et harum.",
+        "Deleted": true,
+        "Rank": 340,
+        "Type": "ut",
+        "ColorBlock": 725,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2022-06-19T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Julius Mertz",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Forrest Kozey IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 595
+            "FieldType": "System.Int32",
+            "FieldLength": 18
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "dicta",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Bradley Dach III",
+    "FullName": "Candido Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 768
       }
     }
   }

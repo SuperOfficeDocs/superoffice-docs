@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Harris Group",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 273,
+  "Id": 210,
+  "Name": "Ruecker-Kemmer",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 252,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "UseGroupsAndHeadings": true,
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Berge LLC",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 153,
-  "IsCustomList": true,
+  "Id": 218,
+  "Name": "Hane-Larson",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 319,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
-  "InUseByUserDefinedFields": false,
+  "ListType": "praesentium",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

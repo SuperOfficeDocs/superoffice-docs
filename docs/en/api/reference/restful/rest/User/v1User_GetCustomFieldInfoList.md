@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Borer-Hayes",
-    "DisplayName": "Simonis-Krajcik",
-    "Description": "Open-architected explicit protocol",
-    "ShortLabel": "quis",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Mayert Group",
+    "DisplayName": "Kirlin-Luettgen",
+    "Description": "Persevering 24 hour framework",
+    "ShortLabel": "nostrum",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 289,
-    "TemplateVariableName": "Howell, Jakubowski and Robel"
+    "Rank": 71,
+    "TemplateVariableName": "Hermiston Inc and Sons"
   }
 ]
 ```

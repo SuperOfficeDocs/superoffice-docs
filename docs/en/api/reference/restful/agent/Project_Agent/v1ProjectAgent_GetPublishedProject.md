@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 258
+  "ProjectId": 209
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 816,
-  "Name": "Parker LLC",
-  "Description": "Proactive contextually-based process improvement",
+  "ProjectId": 452,
+  "Name": "Kemmer-Wunsch",
+  "Description": "Enhanced web-enabled methodology",
   "URL": "http://www.example.com/",
-  "Type": "est",
-  "AssociateId": 846,
-  "AssociateFullName": "Mr. Alex Zackery Gerhold DVM",
-  "TypeId": 10,
-  "Updated": "1999-08-04T14:45:06.0218921+02:00",
-  "StatusId": 642,
-  "Status": "aliquam",
-  "TextId": 596,
-  "PublishTo": "2020-08-23T14:45:06.0218921+02:00",
-  "PublishFrom": "2001-11-29T14:45:06.0218921+01:00",
-  "IsPublished": false,
+  "Type": "aut",
+  "AssociateId": 507,
+  "AssociateFullName": "Ross Larson",
+  "TypeId": 542,
+  "Updated": "2010-02-11T10:17:55.9103076+01:00",
+  "StatusId": 118,
+  "Status": "minus",
+  "TextId": 350,
+  "PublishTo": "2003-12-05T10:17:55.9103076+01:00",
+  "PublishFrom": "1998-02-04T10:17:55.9103076+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1211412",
-  "ActiveErpLinks": 549,
+  "ProjectNumber": "1607512",
+  "ActiveErpLinks": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 6
     }
   }
 }

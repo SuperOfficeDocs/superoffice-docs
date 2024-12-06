@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Kuhic, Gerlach and Baumbach",
-    "ToolTip": "Porro mollitia voluptas itaque.",
+    "Id": 545,
+    "Name": "Wiegand-Volkman",
+    "ToolTip": "Iure aut consequatur beatae ex.",
     "Deleted": false,
-    "Rank": 930,
-    "Type": "sunt",
-    "ColorBlock": 76,
-    "IconHint": "ut",
+    "Rank": 346,
+    "Type": "quae",
+    "ColorBlock": 469,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2000-01-08T14:45:13.8804606+01:00",
+    "LastChanged": "2007-06-18T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "Mayert-Pfeffer",
-        "ToolTip": "Itaque cum illum quibusdam nihil.",
-        "Deleted": true,
-        "Rank": 836,
-        "Type": "id",
-        "ColorBlock": 466,
-        "IconHint": "et",
+        "Id": 867,
+        "Name": "Klein LLC",
+        "ToolTip": "Perferendis perferendis tempora eos in veritatis eos quas.",
+        "Deleted": false,
+        "Rank": 966,
+        "Type": "molestiae",
+        "ColorBlock": 168,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2018-04-09T14:45:13.8804606+02:00",
+        "LastChanged": "2010-07-07T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "facilis",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Ryder Hettinger",
+        "FullName": "Ms. Brennon Cary Kohler DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 983
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "modi",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Mrs. Jaydon Stewart Grady",
+    "FullName": "Miss Rolando Presley Abernathy III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldType": "System.String",
+        "FieldLength": 410
       }
     }
   }

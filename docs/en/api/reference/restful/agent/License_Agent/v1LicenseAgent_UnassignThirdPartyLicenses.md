@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 551,
-  "ModuleOwner": "possimus",
+  "AssociateId": 6,
+  "ModuleOwner": "iste",
   "ModuleLicenseNames": [
-    "Luettgen-O'Kon",
-    "Hoppe Group"
+    "Luettgen, Bosco and Bergstrom",
+    "O'Reilly Group"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 32,
-    "Tooltip": "mollitia",
+    "Total": 671,
+    "Tooltip": "cupiditate",
     "CanAssign": false,
-    "Free": 987,
-    "InUse": 309,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 242,
-    "Name": "Schulist Inc and Sons",
-    "Description": "Proactive background groupware",
-    "PrerequisiteModuleName": "Klein Inc and Sons",
-    "SortOrder": 197,
-    "ExtraFlags": 238,
+    "Free": 366,
+    "InUse": 74,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 769,
+    "Name": "Dooley Group",
+    "Description": "Triple-buffered national concept",
+    "PrerequisiteModuleName": "Thiel LLC",
+    "SortOrder": 804,
+    "ExtraFlags": 467,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 826
       }
     }
   }

@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    71,
-    191
+    679,
+    573
   ],
-  "TargetTableNumber": 728
+  "TargetTableNumber": 734
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized hybrid matrices",
-  "Postit": "libero",
+  "Description": "Multi-channelled dedicated pricing structure",
+  "Postit": "esse",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 619,
-  "IncludePerson": 783,
+  "GroupIdx": 813,
+  "IncludePerson": 740,
   "MemberCount": 99.99,
-  "Name": "Marquardt-Kunze",
-  "PostitTextId": 271,
-  "CreatedDate": "2023-11-20T14:45:06.240594+01:00",
-  "SelectionId": 409,
-  "SoundEx": "labore",
-  "Source": 552,
-  "TextId": 123,
-  "UpdatedDate": "2006-09-21T14:45:06.240594+02:00",
-  "UpdatedCount": 132,
-  "Visibility": 308,
+  "Name": "Kuhn Inc and Sons",
+  "PostitTextId": 136,
+  "CreatedDate": "2002-10-31T10:17:56.0509411+01:00",
+  "SelectionId": 255,
+  "SoundEx": "et",
+  "Source": 549,
+  "TextId": 839,
+  "UpdatedDate": "2007-08-30T10:17:56.0509411+02:00",
+  "UpdatedCount": 558,
+  "Visibility": 791,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 551,
-  "TargetTableName": "Kris LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 734,
+  "TargetTableName": "Sawayn LLC",
   "Completed": false,
-  "LeftSelectionId": 742,
-  "RightSelectionId": 795,
+  "LeftSelectionId": 556,
+  "RightSelectionId": 398,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobson-Orn",
-  "ShadowProviderName": "Lueilwitz-Breitenberg",
-  "ChartKey": "itaque",
-  "LastLoaded": "2021-01-16T14:45:06.240594+01:00",
-  "LastLoadedBy": 150,
+  "MainProviderName": "Sipes, Glover and Morar",
+  "ShadowProviderName": "Beer-Paucek",
+  "ChartKey": "aspernatur",
+  "LastLoaded": "2022-04-25T10:17:56.0509411+02:00",
+  "LastLoadedBy": 654,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-10-03T14:45:06.240594+02:00",
-  "LastMembershipChangeBy": 615,
+  "LastMembershipChange": "2010-04-16T10:17:56.0509411+02:00",
+  "LastMembershipChangeBy": 348,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequuntur",
-  "MemberTabHeading": "temporibus",
-  "MailingsProviderName": "Thompson, Mosciski and Cartwright",
-  "DashboardTileDefinitionId": 155,
+  "MainHeading": "doloribus",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Rogahn, Ledner and Fay",
+  "DashboardTileDefinitionId": 355,
   "VisibleFor": [
     {
-      "VisibleId": 754,
+      "VisibleId": 855,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldLength": 880
         }
       }
     },
     {
-      "VisibleId": 754,
+      "VisibleId": 855,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 645
+          "FieldLength": 880
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 853
     }
   }
 }

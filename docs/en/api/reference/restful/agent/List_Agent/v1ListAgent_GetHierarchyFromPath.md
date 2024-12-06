@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "officia",
-  "Children": false
+  "Path": "voluptas",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 241,
+  "HierarchyId": 156,
   "Domain": "Dashboards",
-  "Name": "Kemmer Inc and Sons",
-  "Fullname": "est",
-  "ParentId": 160,
+  "Name": "Howe, Schultz and Wintheiser",
+  "Fullname": "aut",
+  "ParentId": 263,
   "Children": [
     {
-      "HierarchyId": 878,
+      "HierarchyId": 541,
       "Domain": "Dashboards",
-      "Name": "Cummerata, Hilpert and Gerhold",
-      "Fullname": "praesentium",
-      "ParentId": 10,
+      "Name": "Legros Group",
+      "Fullname": "laudantium",
+      "ParentId": 742,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-05-02T14:45:05.7563266+02:00",
-      "RegisteredAssociateId": 490,
-      "Updated": "1997-08-15T14:45:05.7563266+02:00",
-      "UpdatedAssociateId": 514,
+      "Registered": "1997-08-18T10:17:55.7227953+02:00",
+      "RegisteredAssociateId": 681,
+      "Updated": "2012-03-19T10:17:55.7227953+01:00",
+      "UpdatedAssociateId": 856,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 105
         }
       }
     }
   ],
-  "Registered": "2014-03-20T14:45:05.7563266+01:00",
-  "RegisteredAssociateId": 932,
-  "Updated": "2016-04-21T14:45:05.7563266+02:00",
-  "UpdatedAssociateId": 65,
+  "Registered": "1998-09-27T10:17:55.7227953+02:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2011-11-28T10:17:55.7227953+01:00",
+  "UpdatedAssociateId": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 680
     }
   }
 }

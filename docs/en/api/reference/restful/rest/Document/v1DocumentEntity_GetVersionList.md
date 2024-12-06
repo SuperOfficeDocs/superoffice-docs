@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "voluptatem",
-    "DocumentId": 404,
-    "VersionId": "enim",
-    "CheckedInDate": "2008-05-20T14:45:12.8025705+02:00",
-    "CheckedInByName": "Feest, Pfannerstill and Rogahn",
-    "CheckedInByAssociateId": 892,
-    "Description": "Total dedicated artificial intelligence",
-    "DisplayText": "voluptates",
+    "ExternalReference": "ipsa",
+    "DocumentId": 395,
+    "VersionId": "aperiam",
+    "CheckedInDate": "2010-02-05T10:18:00.3949543+01:00",
+    "CheckedInByName": "Collins-Wyman",
+    "CheckedInByAssociateId": 519,
+    "Description": "Phased responsive definition",
+    "DisplayText": "qui",
     "ExtraFields": [
-      "animi",
-      "nulla"
+      "aut",
+      "nisi"
     ]
   }
 ]

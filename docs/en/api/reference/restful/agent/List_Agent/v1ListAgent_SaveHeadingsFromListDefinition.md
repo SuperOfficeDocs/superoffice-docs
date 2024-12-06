@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
+  "Id": 543,
   "Entities": [
     {
-      "HeadingId": 72,
-      "Name": "Conroy, Block and Schiller",
-      "Tooltip": "eveniet",
+      "HeadingId": 309,
+      "Name": "Ritchie, McKenzie and Barton",
+      "Tooltip": "veniam",
       "Deleted": true,
-      "Rank": 217,
-      "UdListDefinitionId": 85
+      "Rank": 173,
+      "UdListDefinitionId": 539
     },
     {
-      "HeadingId": 72,
-      "Name": "Conroy, Block and Schiller",
-      "Tooltip": "eveniet",
+      "HeadingId": 309,
+      "Name": "Ritchie, McKenzie and Barton",
+      "Tooltip": "veniam",
       "Deleted": true,
-      "Rank": 217,
-      "UdListDefinitionId": 85
+      "Rank": 173,
+      "UdListDefinitionId": 539
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 658,
-    "Name": "Greenholt, Ernser and Hirthe",
-    "Tooltip": "fugit",
+    "HeadingId": 531,
+    "Name": "O'Conner, Purdy and Kerluke",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 822,
-    "UdListDefinitionId": 775,
+    "Rank": 713,
+    "UdListDefinitionId": 177,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 643
       }
     }
   }

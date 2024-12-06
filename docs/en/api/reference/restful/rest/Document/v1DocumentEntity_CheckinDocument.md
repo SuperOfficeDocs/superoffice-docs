@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Business-focused high-level initiative
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=in,praesentium
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=User-friendly content-based contingency
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=vero,sunt
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nobis",
-  "VersionId": "porro",
+  "ExternalReference": "praesentium",
+  "VersionId": "commodi",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "tenetur",
-  "AdditionalInfo": "aliquam"
+  "Value": "repellendus",
+  "AdditionalInfo": "delectus"
 }
 ```

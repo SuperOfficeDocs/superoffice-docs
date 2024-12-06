@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Reichel Group",
-  "Tooltip": "molestiae",
+  "Id": 467,
+  "Name": "Nolan LLC",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 695,
-  "Rank": 609,
+  "UdListDefinitionId": 496,
+  "Rank": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

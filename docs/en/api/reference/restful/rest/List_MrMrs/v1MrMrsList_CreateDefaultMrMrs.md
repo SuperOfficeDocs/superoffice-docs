@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Rempel Group",
-  "Tooltip": "debitis",
+  "Id": 778,
+  "Name": "Kuphal-Bradtke",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "UdListDefinitionId": 188,
-  "Rank": 190,
+  "UdListDefinitionId": 620,
+  "Rank": 390,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   }
 }

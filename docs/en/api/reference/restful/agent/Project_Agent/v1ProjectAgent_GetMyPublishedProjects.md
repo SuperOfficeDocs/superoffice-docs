@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 752,
-    "Name": "Herman LLC",
-    "Description": "Reactive scalable adapter",
+    "ProjectId": 21,
+    "Name": "O'Connell, Parisian and Johns",
+    "Description": "Diverse bandwidth-monitored groupware",
     "URL": "http://www.example.com/",
-    "Type": "veniam",
-    "AssociateId": 872,
-    "AssociateFullName": "Adriana O'Conner",
-    "TypeId": 853,
-    "Updated": "2016-11-13T14:45:06.0218921+01:00",
-    "StatusId": 980,
-    "Status": "omnis",
-    "TextId": 628,
-    "PublishTo": "2012-04-16T14:45:06.0218921+02:00",
-    "PublishFrom": "2003-12-26T14:45:06.0218921+01:00",
-    "IsPublished": false,
+    "Type": "neque",
+    "AssociateId": 361,
+    "AssociateFullName": "Helena Katrine Zieme DVM",
+    "TypeId": 800,
+    "Updated": "2000-06-05T10:17:55.9103076+02:00",
+    "StatusId": 564,
+    "Status": "quibusdam",
+    "TextId": 857,
+    "PublishTo": "2010-03-25T10:17:55.9103076+01:00",
+    "PublishFrom": "2008-11-13T10:17:55.9103076+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "246263",
-    "ActiveErpLinks": 183,
+    "ProjectNumber": "1006890",
+    "ActiveErpLinks": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 930
+        "FieldType": "System.String",
+        "FieldLength": 540
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 324,
-    "Name": "Sporer-Gibson",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 541,
-    "UdListDefinitionId": 106
+    "HeadingId": 360,
+    "Name": "Upton-Rau",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 182,
+    "UdListDefinitionId": 454
   },
   {
-    "HeadingId": 324,
-    "Name": "Sporer-Gibson",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 541,
-    "UdListDefinitionId": 106
+    "HeadingId": 360,
+    "Name": "Upton-Rau",
+    "Tooltip": "laborum",
+    "Deleted": false,
+    "Rank": 182,
+    "UdListDefinitionId": 454
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 80,
-    "Name": "Schultz, Cummings and Nicolas",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 618,
-    "UdListDefinitionId": 389,
+    "HeadingId": 753,
+    "Name": "McDermott-Wuckert",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 591,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 162
       }
     }
   }

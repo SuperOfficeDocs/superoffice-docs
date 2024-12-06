@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "White-Donnelly",
+  "Name": "Schimmel Inc and Sons",
   "Entities": [
     {
-      "HeadingId": 820,
-      "Name": "Spencer-Franecki",
-      "Tooltip": "nesciunt",
-      "Deleted": true,
-      "Rank": 524,
-      "UdListDefinitionId": 883
+      "HeadingId": 945,
+      "Name": "Stark Group",
+      "Tooltip": "quia",
+      "Deleted": false,
+      "Rank": 412,
+      "UdListDefinitionId": 15
     },
     {
-      "HeadingId": 820,
-      "Name": "Spencer-Franecki",
-      "Tooltip": "nesciunt",
-      "Deleted": true,
-      "Rank": 524,
-      "UdListDefinitionId": 883
+      "HeadingId": 945,
+      "Name": "Stark Group",
+      "Tooltip": "quia",
+      "Deleted": false,
+      "Rank": 412,
+      "UdListDefinitionId": 15
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 864,
-    "Name": "Gibson, Sawayn and Stiedemann",
-    "Tooltip": "eos",
+    "HeadingId": 822,
+    "Name": "Rempel Inc and Sons",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 529,
-    "UdListDefinitionId": 451,
+    "Rank": 80,
+    "UdListDefinitionId": 562,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 552
       }
     }
   }

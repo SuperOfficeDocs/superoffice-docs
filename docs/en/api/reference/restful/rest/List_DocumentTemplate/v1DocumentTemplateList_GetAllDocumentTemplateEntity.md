@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 320,
-    "Name": "Heidenreich LLC",
-    "Tooltip": "vel",
-    "SaveInDb": 781,
-    "Filename": "voluptate",
-    "DefaultOref": "impedit",
+    "DocumentTemplateId": 564,
+    "Name": "Stracke Inc and Sons",
+    "Tooltip": "occaecati",
+    "SaveInDb": 507,
+    "Filename": "aut",
+    "DefaultOref": "necessitatibus",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 900,
-    "IntentId": 133,
+    "AutoeventId": 613,
+    "IntentId": 380,
     "IsDefaultPublished": false,
-    "Rank": 700,
-    "LoadTemplateFromPlugin": 324,
-    "MimeType": "aut",
+    "Rank": 507,
+    "LoadTemplateFromPlugin": 249,
+    "MimeType": "ipsum",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 392,
+    "DocumentTypeKey": 349,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "jadon@okon.uk",
+    "EmailSubject": "octavia.schuppe@swiftvonrueden.info",
     "IncludeSignature": true,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "adah.oconner@wiza.us",
+    "SenderEmailAddress": "sheldon@rippinbeier.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 36,
-  "ContactName": "Hammes, Turner and Pfannerstill",
-  "PersonId": 796,
-  "PersonName": "Hoppe Inc and Sons",
-  "AssociateId": 139,
-  "Address": "necessitatibus",
-  "EmailId": 520,
+  "ContactId": 344,
+  "ContactName": "Koss Group",
+  "PersonId": 182,
+  "PersonName": "Bins Inc and Sons",
+  "AssociateId": 122,
+  "Address": "ea",
+  "EmailId": 442,
   "DuplicatePersonIds": [
-    9,
-    749
+    532,
+    649
   ],
-  "Name": "Reichel-Langosh",
+  "Name": "Hackett-Weimann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

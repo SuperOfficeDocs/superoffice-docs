@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "O'Connell Inc and Sons",
-    "ToolTip": "Maxime aperiam minus incidunt ullam.",
-    "Deleted": false,
-    "Rank": 435,
-    "Type": "sit",
-    "ColorBlock": 729,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2021-03-31T14:45:13.7242429+02:00",
+    "Id": 933,
+    "Name": "Kuhlman-Kuvalis",
+    "ToolTip": "Dolore qui eos libero et nihil.",
+    "Deleted": true,
+    "Rank": 987,
+    "Type": "optio",
+    "ColorBlock": 61,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-03-12T10:18:01.0356179+01:00",
     "ChildItems": [
       {
-        "Id": 792,
-        "Name": "Kertzmann, Parker and Hoppe",
-        "ToolTip": "Aut provident quia saepe quibusdam omnis.",
+        "Id": 707,
+        "Name": "Ratke, Ziemann and Fahey",
+        "ToolTip": "Ut fugiat praesentium.",
         "Deleted": false,
-        "Rank": 134,
-        "Type": "voluptas",
-        "ColorBlock": 173,
-        "IconHint": "et",
+        "Rank": 229,
+        "Type": "in",
+        "ColorBlock": 658,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2024-11-15T14:45:13.7242429+01:00",
+        "LastChanged": "2001-11-23T10:18:01.0356179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Hallie Runolfsdottir",
+        "ExtraInfo": "in",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Maurine Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "minima",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Julius Kaelyn Ullrich PhD",
+    "FullName": "Tiffany Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 835
       }
     }
   }

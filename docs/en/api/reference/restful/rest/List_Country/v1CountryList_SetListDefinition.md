@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Hand Group",
-  "Tooltip": "eum",
+  "Id": 293,
+  "Name": "Wyman LLC",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "Rank": 12,
+  "Rank": 479,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
-  "InUseByUserDefinedFields": false
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Stamm-Nitzsche",
-  "Tooltip": "necessitatibus",
+  "Id": 406,
+  "Name": "Jast-Rodriguez",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 950,
+  "Rank": 951,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iure",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 171
     }
   }
 }

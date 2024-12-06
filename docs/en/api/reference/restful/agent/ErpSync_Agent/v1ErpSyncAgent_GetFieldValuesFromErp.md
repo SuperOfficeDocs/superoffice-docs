@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 953,
+  "ErpConnectionId": 149,
   "ActorTypeErp": "Customer",
-  "ErpKey": "inventore"
+  "ErpKey": "fugit"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McKenzie-Brown",
-    "CrmFieldKey": "pariatur",
-    "Value": "delectus",
-    "DisplayValue": "dolor",
+    "DisplayName": "Cruickshank Inc and Sons",
+    "CrmFieldKey": "sed",
+    "Value": "nihil",
+    "DisplayValue": "in",
     "SyncToCrm": false,
-    "SyncToErp": false,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

@@ -1296,6 +1296,20 @@ title: Services88.SaleAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SaleHasQuote">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SaleId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaleHasQuoteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetSaleList">
         <xs:complexType>
           <xs:sequence>
@@ -1971,6 +1985,23 @@ title: Services88.SaleAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SaleHasQuoteRequest">
+    <wsdl:part name="parameters" element="tns:SaleHasQuote" />
+  </wsdl:message>
+  <wsdl:message name="SaleHasQuoteRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaleHasQuoteResponse">
+    <wsdl:part name="parameters" element="tns:SaleHasQuoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaleHasQuoteResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetSaleListRequest">
     <wsdl:part name="parameters" element="tns:GetSaleList" />
   </wsdl:message>
@@ -2361,6 +2392,10 @@ title: Services88.SaleAgent WSDL
     <wsdl:operation name="ValidateSaleEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/ValidateSaleEntity" name="ValidateSaleEntityRequest" message="tns:ValidateSaleEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/ValidateSaleEntityResponse" name="ValidateSaleEntityResponse" message="tns:ValidateSaleEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaleHasQuote">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaleHasQuote" name="SaleHasQuoteRequest" message="tns:SaleHasQuoteRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaleHasQuoteResponse" name="SaleHasQuoteResponse" message="tns:SaleHasQuoteResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSaleList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/GetSaleList" name="GetSaleListRequest" message="tns:GetSaleListRequest" />
@@ -2770,6 +2805,22 @@ title: Services88.SaleAgent WSDL
         <soap:header message="tns:ValidateSaleEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateSaleEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateSaleEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaleHasQuote">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Sale/SaleHasQuote" style="document" />
+      <wsdl:input name="SaleHasQuoteRequest">
+        <soap:header message="tns:SaleHasQuoteRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaleHasQuoteRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaleHasQuoteRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaleHasQuoteResponse">
+        <soap:header message="tns:SaleHasQuoteResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaleHasQuoteResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaleHasQuoteResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaleHasQuoteResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

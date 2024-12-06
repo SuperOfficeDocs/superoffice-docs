@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "non",
+  "FieldLabel": "harum",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 993,
-  "ColumnId": 282,
-  "FieldDefault": "dolor",
-  "FieldHeight": 827,
-  "FieldLabel": "quisquam",
-  "FieldLeft": 146,
-  "FieldTop": 997,
+  "UDefFieldId": 773,
+  "ColumnId": 36,
+  "FieldDefault": "est",
+  "FieldHeight": 892,
+  "FieldLabel": "aut",
+  "FieldLeft": 653,
+  "FieldTop": 513,
   "FieldType": "Checkbox",
-  "FieldWidth": 467,
-  "FormatMask": "necessitatibus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 931,
-  "LabelLeft": 593,
-  "LabelTop": 548,
-  "LabelWidth": 721,
-  "LastVersionId": 148,
-  "ListTableId": 91,
+  "FieldWidth": 415,
+  "FormatMask": "temporibus",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 117,
+  "LabelLeft": 245,
+  "LabelTop": 327,
+  "LabelWidth": 289,
+  "LastVersionId": 543,
+  "ListTableId": 183,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 145,
-  "ProgId": "unde",
+  "Page1LineNo": 289,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "at",
-  "TabOrder": 960,
-  "TextLength": 387,
-  "Tooltip": "et",
-  "UdefIdentity": 563,
-  "UDListDefinitionId": 556,
+  "ShortLabel": "aliquid",
+  "TabOrder": 385,
+  "TextLength": 282,
+  "Tooltip": "sunt",
+  "UdefIdentity": 383,
+  "UDListDefinitionId": 282,
   "Justification": "Center",
-  "Version": 564,
-  "TemplateVariableName": "Kling, Cronin and Kuvalis",
-  "HasBeenPublished": false,
-  "MdoListName": "Lesch Inc and Sons",
+  "Version": 339,
+  "TemplateVariableName": "Keebler-Mraz",
+  "HasBeenPublished": true,
+  "MdoListName": "Daugherty, Farrell and Stark",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldLength": 714
     }
   }
 }

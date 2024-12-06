@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 642
+  "QuoteAlternativeId": 291
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 973,
-    "ERPQuoteLineKey": "qui",
-    "QuoteAlternativeId": 820,
-    "ERPProductKey": "provident",
+    "QuoteLineId": 141,
+    "ERPQuoteLineKey": "et",
+    "QuoteAlternativeId": 978,
+    "ERPProductKey": "ad",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 17628.75,
-    "DeliveredQuantity": 3074.4539999999997,
-    "Rank": 345,
-    "Name": "Hirthe, Crist and Hyatt",
-    "Description": "Operative reciprocal pricing structure",
-    "Code": "sint",
-    "QuantityUnit": "fugit",
-    "PriceUnit": "et",
-    "ItemNumber": "720884",
+    "Quantity": 24786.806,
+    "DeliveredQuantity": 15224.972,
+    "Rank": 934,
+    "Name": "Von, Greenholt and Deckow",
+    "Description": "Down-sized content-based infrastructure",
+    "Code": "inventore",
+    "QuantityUnit": "et",
+    "PriceUnit": "ex",
+    "ItemNumber": "643474",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "et",
-    "ProductTypeKey": "nesciunt",
-    "Supplier": "est",
-    "SupplierCode": "sint",
+    "ProductFamilyKey": "quia",
+    "ProductTypeKey": "pariatur",
+    "Supplier": "pariatur",
+    "SupplierCode": "voluptatum",
     "Thumbnail": "et",
-    "VATInfo": "et",
-    "VAT": 26385.146,
-    "UnitCost": 19299.172,
-    "UnitMinimumPrice": 620.53199999999993,
-    "UnitListPrice": 2008.894,
+    "VATInfo": "veritatis",
+    "VAT": 16205.913999999999,
+    "UnitCost": 14989.921999999999,
+    "UnitMinimumPrice": 27880.064,
+    "UnitListPrice": 16340.676,
     "ExtraInfo": [
       {
-        "Name": "Marquardt, Maggio and Farrell",
-        "Value": "nisi",
+        "Name": "Champlin Group",
+        "Value": "numquam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 839
           }
         }
       },
       {
-        "Name": "Marquardt, Maggio and Farrell",
-        "Value": "nisi",
+        "Name": "Champlin Group",
+        "Value": "numquam",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 839
           }
         }
       }
     ],
-    "RawExtraInfo": "ut",
-    "IsSubscription": false,
-    "SubscriptionUnit": "similique",
-    "SubscriptionQuantity": 15801.627999999999,
-    "SubscriptionStart": "2015-08-11T14:45:06.0999998+02:00",
-    "ERPDiscountPercent": 16093.09,
-    "ERPDiscountAmount": 26798.834,
-    "DiscountPercent": 15494.496,
-    "DiscountAmount": 12727.173999999999,
+    "RawExtraInfo": "corrupti",
+    "IsSubscription": true,
+    "SubscriptionUnit": "et",
+    "SubscriptionQuantity": 8853.55,
+    "SubscriptionStart": "1999-08-04T10:17:55.9571855+02:00",
+    "ERPDiscountPercent": 31092.414,
+    "ERPDiscountAmount": 2898.95,
+    "DiscountPercent": 28469.255999999998,
+    "DiscountAmount": 20966.46,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17976.624,
-    "EarningAmount": 10611.724,
-    "SubTotal": 22777.912,
-    "TotalPrice": 17663.224,
-    "Rights": "sed",
-    "Rule": "reiciendis",
-    "ExtraField1": "molestiae",
-    "ExtraField2": "deleniti",
-    "ExtraField3": "repellat",
-    "ExtraField4": "corrupti",
-    "ExtraField5": "tempora",
+    "EarningPercent": 29036.51,
+    "EarningAmount": 97.154,
+    "SubTotal": 9239.032,
+    "TotalPrice": 26494.836,
+    "Rights": "quia",
+    "Rule": "est",
+    "ExtraField1": "eum",
+    "ExtraField2": "aut",
+    "ExtraField3": "at",
+    "ExtraField4": "molestiae",
+    "ExtraField5": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 239
       }
     }
   }

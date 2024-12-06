@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "consequatur",
-  "RecordId": 126,
-  "Fields": "quo"
+  "Table": "occaecati",
+  "RecordId": 679,
+  "Fields": "qui"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "numquam",
+    "Field": "a",
     "FieldValue": null
   },
   {
-    "Field": "numquam",
+    "Field": "a",
     "FieldValue": null
   }
 ]

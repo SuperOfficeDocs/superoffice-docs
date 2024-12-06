@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Farrell Inc and Sons",
-    "ToolTip": "Vitae illo aspernatur sed necessitatibus.",
-    "Deleted": false,
-    "Rank": 71,
-    "Type": "molestiae",
-    "ColorBlock": 966,
-    "IconHint": "itaque",
+    "Id": 266,
+    "Name": "Gulgowski LLC",
+    "ToolTip": "Debitis voluptatem mollitia provident atque fugiat et.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "sed",
+    "ColorBlock": 926,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2002-07-10T14:45:13.8023488+02:00",
+    "LastChanged": "2013-08-24T10:18:01.0824964+02:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "VonRueden, Collier and West",
-        "ToolTip": "Sed nobis.",
-        "Deleted": true,
-        "Rank": 506,
-        "Type": "quis",
-        "ColorBlock": 171,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2012-05-05T14:45:13.8023488+02:00",
+        "Id": 393,
+        "Name": "Pfeffer LLC",
+        "ToolTip": "Ducimus distinctio culpa iusto.",
+        "Deleted": false,
+        "Rank": 682,
+        "Type": "nisi",
+        "ColorBlock": 494,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2016-11-08T10:18:01.0824964+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Ms. Nickolas Gustave Jenkins"
+        "ExtraInfo": "et",
+        "StyleHint": "quidem",
+        "Hidden": false,
+        "FullName": "Darrion Kautzer"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Dr. Darrin Reagan Murray"
+    "ExtraInfo": "placeat",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Mrs. Adolph Sean Abbott"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Heaney, Rutherford and Zemlak",
-    "ToolTip": "Enim numquam.",
-    "Deleted": true,
-    "Rank": 521,
-    "Type": "laborum",
-    "ColorBlock": 986,
-    "IconHint": "quas",
+    "Id": 922,
+    "Name": "Effertz Inc and Sons",
+    "ToolTip": "Tempore earum natus ullam earum sint non inventore.",
+    "Deleted": false,
+    "Rank": 329,
+    "Type": "pariatur",
+    "ColorBlock": 446,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2003-02-27T14:45:13.8023488+01:00",
+    "LastChanged": "2020-12-04T10:18:01.0824964+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Schulist Group",
-        "ToolTip": "Ut commodi.",
-        "Deleted": false,
-        "Rank": 474,
-        "Type": "eius",
-        "ColorBlock": 800,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2008-11-18T14:45:13.8023488+01:00",
+        "Id": 781,
+        "Name": "Douglas Inc and Sons",
+        "ToolTip": "Nesciunt omnis quibusdam molestiae numquam.",
+        "Deleted": true,
+        "Rank": 659,
+        "Type": "fugiat",
+        "ColorBlock": 114,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2019-06-15T10:18:01.0824964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "quia",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Donald Kertzmann",
+        "FullName": "Hipolito Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 517
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Greg Witting",
+    "ExtraInfo": "sed",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Kimberly Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 468
+        "FieldLength": 761
       }
     }
   }

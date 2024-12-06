@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Witting-Grant",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 317,
-    "Rank": 278
+    "Id": 844,
+    "Name": "Trantow, Nader and McLaughlin",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 839,
+    "Rank": 636
   },
   {
-    "Id": 63,
-    "Name": "Witting-Grant",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 317,
-    "Rank": 278
+    "Id": 844,
+    "Name": "Trantow, Nader and McLaughlin",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 839,
+    "Rank": 636
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Keebler Group",
-    "Tooltip": "quasi",
+    "Id": 440,
+    "Name": "Effertz-Leuschke",
+    "Tooltip": "atque",
     "Deleted": true,
-    "UdListDefinitionId": 123,
-    "Rank": 40,
+    "UdListDefinitionId": 116,
+    "Rank": 927,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

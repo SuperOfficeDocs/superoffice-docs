@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 99,
-  "Name": "Collier, Weber and Roberts",
-  "Rank": 176,
-  "Tooltip": "ex",
+  "AssociateId": 242,
+  "Name": "Mann Inc and Sons",
+  "Rank": 544,
+  "Tooltip": "possimus",
   "LicenseOwners": [
     {
-      "Name": "Johnson-Abernathy",
-      "Description": "Sharable eco-centric throughput",
+      "Name": "Sawayn, Watsica and Boyer",
+      "Description": "Cross-platform methodical interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldType": "System.Int32",
+          "FieldLength": 408
         }
       }
     },
     {
-      "Name": "Johnson-Abernathy",
-      "Description": "Sharable eco-centric throughput",
+      "Name": "Sawayn, Watsica and Boyer",
+      "Description": "Cross-platform methodical interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldType": "System.Int32",
+          "FieldLength": 408
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "vitae",
-      "Tooltip": "id",
-      "Id": 435,
-      "Rank": 142,
-      "Deleted": true,
+      "Value": "accusamus",
+      "Tooltip": "hic",
+      "Id": 550,
+      "Rank": 487,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldType": "System.Int32",
+          "FieldLength": 451
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-01-25T14:45:06.6311318+01:00",
-  "Lastlogout": "2003-11-12T14:45:06.6311318+01:00",
-  "EjUserId": 348,
-  "RequestSignature": "qui",
+  "Deleted": true,
+  "Lastlogin": "2024-01-03T10:17:56.3165751+01:00",
+  "Lastlogout": "2008-11-24T10:17:56.3165751+01:00",
+  "EjUserId": 352,
+  "RequestSignature": "dolorum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "voluptas",
+      "Value": "nisi",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     },
     {
       "Type": null,
-      "Value": "optio",
-      "DisplayValue": "voluptas",
+      "Value": "nisi",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
   ],
-  "UserName": "Kuhn, Carroll and Abbott",
+  "UserName": "Torphy LLC",
   "TicketCategories": [
     {
-      "Id": 555,
-      "Name": "Kreiger Group",
-      "ToolTip": "Id delectus culpa sint.",
+      "Id": 856,
+      "Name": "Kunde LLC",
+      "ToolTip": "Ipsam nemo sit quod molestiae quidem vitae.",
       "Deleted": false,
-      "Rank": 902,
-      "Type": "nam",
+      "Rank": 367,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magnam",
-      "ColorBlock": 237,
-      "ExtraInfo": "ducimus",
-      "StyleHint": "quasi",
-      "FullName": "Aubrey Watsica",
+      "IconHint": "fugiat",
+      "ColorBlock": 378,
+      "ExtraInfo": "est",
+      "StyleHint": "optio",
+      "FullName": "Aaron Aufderhar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 329
         }
       }
     }
   ],
-  "NickName": "Mueller Group",
+  "NickName": "Nitzsche, Cormier and Bergstrom",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "eum"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "assumenda"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bergnaum, Weimann and Rohan",
-      "DisplayName": "Mertz, Spinka and Reichert",
-      "Description": "Expanded local array",
-      "ToolTip": "Odit porro quibusdam voluptas ad ut.",
+      "Name": "Maggio-Mertz",
+      "DisplayName": "Kirlin-Emmerich",
+      "Description": "Proactive clear-thinking local area network",
+      "ToolTip": "Assumenda eum est totam.",
       "Actions": "Implicit",
-      "ActionData": "beatae",
+      "ActionData": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldLength": 145
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

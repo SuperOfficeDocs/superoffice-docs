@@ -27,7 +27,7 @@ Deletes the EMailAccount
 | EMailAccountId | int32 | **Required** The id of the EMailAccount to be deleted. |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=786
+POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=371
 ```
 
 
@@ -58,7 +58,7 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

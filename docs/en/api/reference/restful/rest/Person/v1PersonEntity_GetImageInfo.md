@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Dec 2001 14:45:12 G12T
+Last-Modified: Mon, 25 Feb 2002 10:18:00 G2T
 
 {
-  "BlobId": 583,
-  "BlobSize": 593,
-  "Description": "Sharable foreground open system",
-  "ExtraInfo": "ab",
+  "BlobId": 87,
+  "BlobSize": 605,
+  "Description": "Focused upward-trending instruction set",
+  "ExtraInfo": "eaque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 916,
-  "CreatedDate": "2021-07-10T14:45:12.9431644+02:00",
-  "UpdatedDate": "2001-12-19T14:45:12.9431644+01:00",
+  "IsZipped": true,
+  "MimeType": "est",
+  "OriginalSize": 597,
+  "CreatedDate": "2009-12-06T10:18:00.4887104+01:00",
+  "UpdatedDate": "2002-02-25T10:18:00.4887104+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "error",
+  "ConceptualType": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

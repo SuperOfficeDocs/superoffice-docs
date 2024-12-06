@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 581,
-  "Type": "consequatur",
-  "PublicValue": "necessitatibus"
+  "AssociateId": 763,
+  "Type": "dolorum",
+  "PublicValue": "voluptatem"
 }
 ```
 

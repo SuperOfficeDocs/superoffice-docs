@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 846,
-  "Name": "Kulas, Stoltenberg and Gerhold",
-  "Tooltip": "neque",
-  "Rank": 278,
+  "SaleTypeId": 839,
+  "Name": "Hand Group",
+  "Tooltip": "dignissimos",
+  "Rank": 925,
   "DurationUnit": "Century",
-  "SaleDuration": 551,
-  "SaleTypeCatId": 12,
+  "SaleDuration": 63,
+  "SaleTypeCatId": 498,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 407,
-  "QuoteLinesTemplate": 610,
-  "ConfirmationLinesTemplate": 672,
+  "DefaultQuoteValidity": 469,
+  "QuoteLinesTemplate": 666,
+  "ConfirmationLinesTemplate": 613,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 258,
-  "MinEarningPercent": 902,
-  "GroupQuoteLinesBy": 383,
-  "SortGroupLinesBy": 41,
+  "MaxDiscountPercent": 428,
+  "MinEarningPercent": 749,
+  "GroupQuoteLinesBy": 126,
+  "SortGroupLinesBy": 352,
   "Stages": [
     {
-      "Id": 106,
-      "Name": "Schuppe, Abshire and Lemke",
-      "ToolTip": "Aut asperiores enim voluptatem eos quisquam corporis.",
+      "Id": 764,
+      "Name": "Ankunding Inc and Sons",
+      "ToolTip": "Ea ut laboriosam.",
       "Deleted": false,
-      "Rank": 755,
-      "Type": "sit",
-      "ColorBlock": 620,
-      "IconHint": "in",
+      "Rank": 689,
+      "Type": "inventore",
+      "ColorBlock": 265,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "1997-09-04T14:45:13.9116989+02:00",
+      "LastChanged": "2011-04-15T10:18:01.1606262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "vel",
-      "Hidden": false,
-      "FullName": "Lorenz Lind"
+      "ExtraInfo": "animi",
+      "StyleHint": "praesentium",
+      "Hidden": true,
+      "FullName": "Ms. Cora Luciano Dare I"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 728,
-  "Name": "Walter, Zulauf and Terry",
-  "Tooltip": "omnis",
-  "Rank": 74,
+  "SaleTypeId": 721,
+  "Name": "Glover, Friesen and Schiller",
+  "Tooltip": "dolor",
+  "Rank": 858,
   "DurationUnit": "Century",
-  "SaleDuration": 633,
-  "SaleTypeCatId": 57,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "SaleDuration": 358,
+  "SaleTypeCatId": 1001,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 207,
-  "QuoteLinesTemplate": 226,
-  "ConfirmationLinesTemplate": 315,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 42,
-  "MinEarningPercent": 148,
-  "GroupQuoteLinesBy": 231,
-  "SortGroupLinesBy": 667,
+  "DefaultQuoteValidity": 819,
+  "QuoteLinesTemplate": 379,
+  "ConfirmationLinesTemplate": 292,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 849,
+  "MinEarningPercent": 988,
+  "GroupQuoteLinesBy": 688,
+  "SortGroupLinesBy": 333,
   "Stages": [
     {
-      "Id": 46,
-      "Name": "Torphy, Nienow and Farrell",
-      "ToolTip": "Voluptate ut.",
+      "Id": 21,
+      "Name": "Ledner-Blick",
+      "ToolTip": "Explicabo ut optio occaecati quisquam.",
       "Deleted": false,
-      "Rank": 252,
-      "Type": "perferendis",
-      "ColorBlock": 260,
-      "IconHint": "similique",
+      "Rank": 975,
+      "Type": "at",
+      "ColorBlock": 429,
+      "IconHint": "minima",
       "Selected": false,
-      "LastChanged": "2010-12-30T14:45:13.9116989+01:00",
+      "LastChanged": "2000-01-23T10:18:01.1606262+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "provident",
-      "StyleHint": "aliquam",
+      "ExtraInfo": "autem",
+      "StyleHint": "dolor",
       "Hidden": true,
-      "FullName": "Mortimer Benton Hammes Sr.",
+      "FullName": "Baby Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 565
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 961
     }
   }
 }

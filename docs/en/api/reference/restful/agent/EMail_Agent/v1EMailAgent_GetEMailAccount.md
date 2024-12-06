@@ -28,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=466
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=328
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -69,6 +69,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
+| SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
+| LastFetch | date-time | When we last fetched email  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,22 +90,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 319,
-  "EMailAddress": "sit",
-  "AssociateId": 67,
+  "EMailAccountId": 699,
+  "EMailAddress": "consectetur",
+  "AssociateId": 56,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 347,
-  "ErrorCount": 397,
-  "ErrorReason": "streamline 24/7 infrastructures",
-  "InboxFolder": "enim",
-  "SentFolder": "qui",
+  "AccountStatus": 289,
+  "ErrorCount": 691,
+  "ErrorReason": "",
+  "InboxFolder": "cupiditate",
+  "SentFolder": "pariatur",
+  "SimpleMode": 164,
+  "LastFetch": "2010-10-05T10:17:55.5821627+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

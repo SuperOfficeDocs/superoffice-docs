@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "iure",
+    "path": "hic",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iure",
+    "path": "hic",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive 5th generation analyzer",
-  "Postit": "soluta",
+  "Description": "Synchronised bottom-line product",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 95,
-  "IncludePerson": 462,
+  "GroupIdx": 724,
+  "IncludePerson": 598,
   "MemberCount": 99.99,
-  "Name": "Harris-Buckridge",
-  "PostitTextId": 280,
-  "CreatedDate": "2021-11-04T14:45:13.2399738+01:00",
-  "SelectionId": 546,
-  "SoundEx": "sit",
-  "Source": 978,
-  "TextId": 275,
-  "UpdatedDate": "2011-05-14T14:45:13.2399738+02:00",
-  "UpdatedCount": 382,
-  "Visibility": 92,
+  "Name": "Romaguera-Heaney",
+  "PostitTextId": 901,
+  "CreatedDate": "2017-04-17T10:18:00.723098+02:00",
+  "SelectionId": 307,
+  "SoundEx": "enim",
+  "Source": 425,
+  "TextId": 27,
+  "UpdatedDate": "2021-02-15T10:18:00.723098+01:00",
+  "UpdatedCount": 802,
+  "Visibility": 488,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 290,
-  "TargetTableName": "Gleichner, Ankunding and Kovacek",
+  "CompanyUnique": true,
+  "TargetTableNumber": 88,
+  "TargetTableName": "Lind, Reynolds and Streich",
   "Completed": false,
-  "LeftSelectionId": 278,
-  "RightSelectionId": 809,
+  "LeftSelectionId": 907,
+  "RightSelectionId": 493,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wiegand-Kuhn",
-  "ShadowProviderName": "Harvey Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "1998-03-24T14:45:13.2399738+01:00",
-  "LastLoadedBy": 510,
+  "MainProviderName": "Rutherford Group",
+  "ShadowProviderName": "Mosciski, Tremblay and Bradtke",
+  "ChartKey": "labore",
+  "LastLoaded": "2020-08-02T10:18:00.723098+02:00",
+  "LastLoadedBy": 913,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-03-30T14:45:13.2399738+02:00",
-  "LastMembershipChangeBy": 819,
+  "LastMembershipChange": "2001-06-28T10:18:00.723098+02:00",
+  "LastMembershipChangeBy": 585,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vitae",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Ullrich, Okuneva and Rutherford",
-  "DashboardTileDefinitionId": 861,
+  "MainHeading": "blanditiis",
+  "MemberTabHeading": "pariatur",
+  "MailingsProviderName": "Haag LLC",
+  "DashboardTileDefinitionId": 359,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 107
         }
       }
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 169,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 107
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

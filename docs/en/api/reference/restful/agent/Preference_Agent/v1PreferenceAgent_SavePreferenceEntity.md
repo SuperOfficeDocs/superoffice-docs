@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "excepturi",
+  "RawValue": "sit",
   "Specification": null,
-  "DisplayValue": "accusamus",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "sint",
+  "DisplayTooltip": "nulla",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 228,
-  "PrefDescId": 603,
-  "TableName": "Spencer, Torphy and Wolff",
-  "UserPreferenceId": 980,
+  "TargetId": 568,
+  "PrefDescId": 953,
+  "TableName": "Ullrich-Crona",
+  "UserPreferenceId": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 180
     }
   }
 }

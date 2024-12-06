@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Grimes, Wuckert and Cole",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 379,
-  "Rank": 850
+  "Id": 376,
+  "Name": "Stiedemann-Bartoletti",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "UdListDefinitionId": 870,
+  "Rank": 351
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Lang, Boehm and Pacocha",
-  "Tooltip": "quo",
+  "Id": 207,
+  "Name": "O'Reilly Inc and Sons",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 437,
-  "Rank": 501,
+  "UdListDefinitionId": 692,
+  "Rank": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 359
     }
   }
 }

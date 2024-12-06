@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 194,
-  "ERPProductKey": "animi",
-  "ERPPriceListKey": "eum",
-  "Name": "Dach-Hahn",
-  "Description": "Operative dedicated workforce",
-  "Code": "dolorem",
-  "PriceUnit": "impedit",
-  "QuantityUnit": "officiis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ad",
-  "DefaultSubscriptionQuantity": 27350.417999999998,
-  "ItemNumber": "1484579",
+  "ProductId": 544,
+  "ERPProductKey": "doloribus",
+  "ERPPriceListKey": "eos",
+  "Name": "Rath-Rippin",
+  "Description": "Face to face executive emulation",
+  "Code": "assumenda",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "harum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 1090.632,
+  "ItemNumber": "1062254",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptates",
-  "ProductTypeKey": "id",
-  "VAT": 14334.916,
-  "VATInfo": "veritatis",
-  "UnitCost": 27776.642,
-  "UnitMinimumPrice": 17960.953999999998,
-  "UnitListPrice": 6014.146,
-  "InAssortment": false,
-  "Supplier": "itaque",
-  "SupplierCode": "id",
-  "Rights": "ut",
-  "Rule": "eos",
+  "ProductFamilyKey": "tempora",
+  "ProductTypeKey": "vero",
+  "VAT": 10749.619999999999,
+  "VATInfo": "impedit",
+  "UnitCost": 16832.714,
+  "UnitMinimumPrice": 20668.73,
+  "UnitListPrice": 10326.529999999999,
+  "InAssortment": true,
+  "Supplier": "facilis",
+  "SupplierCode": "voluptatibus",
+  "Rights": "incidunt",
+  "Rule": "numquam",
   "ExtraInfo": [
     {
-      "Name": "Daniel LLC",
-      "Value": "id",
+      "Name": "Conn-Glover",
+      "Value": "maiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 907
         }
       }
     },
     {
-      "Name": "Daniel LLC",
-      "Value": "id",
+      "Name": "Conn-Glover",
+      "Value": "maiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 823
+          "FieldType": "System.String",
+          "FieldLength": 907
         }
       }
     }
   ],
-  "RawExtraInfo": "ad",
-  "ExtraField1": "id",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "eligendi",
-  "ExtraField4": "numquam",
-  "ExtraField5": "delectus",
-  "InStock": 26056.076,
+  "RawExtraInfo": "neque",
+  "ExtraField1": "asperiores",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "ut",
+  "ExtraField4": "animi",
+  "ExtraField5": "quos",
+  "InStock": 26488.568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 399
     }
   }
 }

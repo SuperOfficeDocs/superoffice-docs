@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 242,
-  "Section": "est",
-  "Key": "commodi",
-  "Name": "Stokes-Williamson",
+  "PrefDescId": 850,
+  "Section": "ad",
+  "Key": "tempora",
+  "Name": "Hessel-Streich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased stable matrix",
+  "Description": "Switchable zero administration algorithm",
   "IsBuiltin": false,
-  "TableName": "Price-Stracke",
-  "UserDefinedListId": 324,
-  "Rank": 45,
-  "SubGroup": "commodi",
-  "MinLevel": 946,
-  "MaxValue": 168,
-  "MinValue": 371,
-  "RequiredLicense": "reprehenderit"
+  "TableName": "Baumbach Group",
+  "UserDefinedListId": 543,
+  "Rank": 445,
+  "SubGroup": "ut",
+  "MinLevel": 453,
+  "MaxValue": 512,
+  "MinValue": 27,
+  "RequiredLicense": "eaque"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 395,
-  "Section": "quis",
-  "Key": "non",
-  "Name": "Kub Inc and Sons",
+  "PrefDescId": 962,
+  "Section": "quia",
+  "Key": "in",
+  "Name": "Schmidt Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative value-added parallelism",
-  "IsBuiltin": true,
-  "TableName": "Moen-Dooley",
-  "UserDefinedListId": 711,
-  "Rank": 82,
-  "SubGroup": "assumenda",
-  "MinLevel": 223,
-  "MaxValue": 724,
-  "MinValue": 973,
-  "RequiredLicense": "neque",
+  "Description": "Synchronised tangible concept",
+  "IsBuiltin": false,
+  "TableName": "Larkin-Rolfson",
+  "UserDefinedListId": 244,
+  "Rank": 506,
+  "SubGroup": "eius",
+  "MinLevel": 455,
+  "MaxValue": 378,
+  "MinValue": 970,
+  "RequiredLicense": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

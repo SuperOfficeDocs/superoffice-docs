@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 692,
-  "Name": "Rice, Roberts and Gutmann",
-  "Tooltip": "voluptates",
+  "RoleId": 372,
+  "Name": "Feest Inc and Sons",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 822,
-  "Rank": 384,
-  "Created": "2013-05-09T14:45:13.1306367+02:00",
-  "UseCategories": 761,
+  "Deleted": 793,
+  "Rank": 172,
+  "Created": "2012-10-26T10:18:00.5355883+02:00",
+  "UseCategories": 150,
   "CreatedBy": null,
-  "Updated": "2002-09-03T14:45:13.1306367+02:00",
+  "Updated": "2002-08-06T10:18:00.5355883+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 278
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

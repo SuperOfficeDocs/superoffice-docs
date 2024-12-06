@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 520,
-  "Name": "Lueilwitz Inc and Sons",
-  "Tooltip": "non",
-  "Rank": 86,
-  "Key": "ipsum",
+  "LegalBaseId": 326,
+  "Name": "Harvey, Lueilwitz and Legros",
+  "Tooltip": "debitis",
+  "Rank": 95,
+  "Key": "beatae",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 629
     }
   }
 }

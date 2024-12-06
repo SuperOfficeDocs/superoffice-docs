@@ -71,9 +71,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Runolfsdottir, Runte and Ernser",
-  "ResourceValues": "et",
-  "Culture": "hic",
+  "ResourceName": "Ziemann-Schinner",
+  "ResourceValues": "qui",
+  "Culture": "ipsa",
   "IsActive": false
 }
 ```

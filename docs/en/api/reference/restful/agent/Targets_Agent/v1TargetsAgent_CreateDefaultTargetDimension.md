@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 793,
+  "TargetDimensionId": 445,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Ferry, Ward and Roberts",
-  "DimensionListId": 494,
-  "DimensionListLabel": "nisi",
+  "DimensionListField": "corporis",
+  "DimensionListName": "Walter, Hessel and Cartwright",
+  "DimensionListId": 433,
+  "DimensionListLabel": "odio",
   "SelectedDimensions": [
-    679,
-    255
+    919,
+    388
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

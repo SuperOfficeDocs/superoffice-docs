@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=731
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=512
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Thompson-Kirlin",
-  "Comment": "laboriosam",
-  "StakeholderRoleId": 552,
-  "CountryId": 223,
-  "PersonId": 79,
-  "EmailDescription": "reilly@kuhicconn.co.uk",
-  "EmailId": 986,
-  "EmailAddress": "mark@king.info",
-  "PhoneId": 1002,
-  "ContactName": "Ruecker LLC",
-  "ContactId": 644,
-  "SaleId": 602,
-  "Mrmrs": "aut",
-  "Firstname": "Jed",
-  "MiddleName": "Schaden Inc and Sons",
-  "Lastname": "Hudson",
-  "SaleStakeholderId": 849,
-  "Rank": 210,
-  "Phone": "(035)633-0066",
+  "StakeholderRoleName": "Sipes-Grimes",
+  "Comment": "aliquam",
+  "StakeholderRoleId": 542,
+  "CountryId": 864,
+  "PersonId": 821,
+  "EmailDescription": "laury.mcclure@wunschchristiansen.biz",
+  "EmailId": 978,
+  "EmailAddress": "kaelyn.tromp@mayert.us",
+  "PhoneId": 296,
+  "ContactName": "Cummings LLC",
+  "ContactId": 31,
+  "SaleId": 496,
+  "Mrmrs": "id",
+  "Firstname": "Tre",
+  "MiddleName": "Maggio Group",
+  "Lastname": "Ortiz",
+  "SaleStakeholderId": 454,
+  "Rank": 654,
+  "Phone": "1-780-943-0606",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

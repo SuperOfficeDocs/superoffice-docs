@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 401,
+  "SystemEventId": 90,
   "Scope": "Database",
-  "Eta": "2007-03-16T14:45:05.0221142+01:00",
-  "Eventkey": "sunt",
-  "Eventmess": "et",
-  "ExtraInfo": 137,
-  "Owner": 414,
-  "UpdatedCount": 556,
-  "Registered": "2022-03-22T14:45:05.0221142+01:00",
+  "Eta": "2021-12-08T10:17:55.2227659+01:00",
+  "Eventkey": "deleniti",
+  "Eventmess": "aperiam",
+  "ExtraInfo": 410,
+  "Owner": 75,
+  "UpdatedCount": 833,
+  "Registered": "2000-09-30T10:17:55.2227659+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 520,
+  "SystemEventId": 133,
   "Scope": "Database",
-  "Eta": "2001-11-12T14:45:05.0221142+01:00",
-  "Eventkey": "recusandae",
-  "Eventmess": "facere",
-  "ExtraInfo": 670,
-  "Owner": 141,
-  "UpdatedCount": 20,
-  "Registered": "2019-03-24T14:45:05.0221142+01:00",
+  "Eta": "2022-04-24T10:17:55.2227659+02:00",
+  "Eventkey": "fugit",
+  "Eventmess": "excepturi",
+  "ExtraInfo": 948,
+  "Owner": 218,
+  "UpdatedCount": 13,
+  "Registered": "2011-11-25T10:17:55.2227659+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 750
     }
   }
 }

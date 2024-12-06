@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 1000
+  "DocumentId": 997
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus, Pouros and Champlin",
-  "Type": "consequuntur",
-  "Size": 367,
+  "Name": "Hessel, Greenfelder and Fadel",
+  "Type": "qui",
+  "Size": 244,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 469
     }
   }
 }

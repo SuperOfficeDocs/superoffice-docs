@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 194,
-  "SaleId": 74,
-  "QuoteConnectionId": 458,
-  "ERPQuoteKey": "sit",
-  "ERPOrderKey": "eligendi",
-  "ActiveQuoteVersionId": 220,
-  "AcceptedQuoteAlternativeId": 658,
-  "UseValuesFromQuote": 107,
-  "DocumentId": 584,
-  "PoNumber": "453374",
-  "OrderComment": "quia",
-  "PreferredEmailCulture": "mya@mckenzie.co.uk",
+  "QuoteId": 365,
+  "SaleId": 493,
+  "QuoteConnectionId": 923,
+  "ERPQuoteKey": "ipsum",
+  "ERPOrderKey": "necessitatibus",
+  "ActiveQuoteVersionId": 869,
+  "AcceptedQuoteAlternativeId": 475,
+  "UseValuesFromQuote": 241,
+  "DocumentId": 293,
+  "PoNumber": "1395841",
+  "OrderComment": "autem",
+  "PreferredEmailCulture": "addie@mayertkreiger.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 79,
-      "ERPQuoteVersionKey": "id",
-      "QuoteId": 875,
-      "Description": "Visionary 3rd generation extranet",
-      "Number": "1241699",
+      "QuoteVersionId": 460,
+      "ERPQuoteVersionKey": "temporibus",
+      "QuoteId": 24,
+      "Description": "Synergistic scalable internet solution",
+      "Number": "557402",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "",
-      "LikelyQuoteAlternativeId": 312,
-      "SentDate": "2012-04-16T14:45:06.0843796+02:00",
-      "FollowupId": 899,
-      "ExpirationDate": "2015-05-27T14:45:06.0843796+02:00",
-      "DeliveryCountryId": 843,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 490,
+      "Reason": "exploit frictionless synergies",
+      "LikelyQuoteAlternativeId": 117,
+      "SentDate": "2022-03-27T10:17:55.9415595+02:00",
+      "FollowupId": 939,
+      "ExpirationDate": "1998-09-09T10:17:55.9415595+02:00",
+      "DeliveryCountryId": 797,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 252,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "aut",
-      "ERPPaymentTypeKey": "occaecati",
-      "ERPDeliveryTermsKey": "nemo",
-      "ERPDeliveryTypeKey": "minima",
-      "Rank": 873,
-      "ApprovedBy": 161,
-      "ApprovedText": "inventore",
-      "ApprovedRegisteredBy": 477,
-      "ApprovedRegisteredDate": "2011-04-11T14:45:06.0843796+02:00",
-      "ExtraField1": "alias",
-      "ExtraField2": "debitis",
-      "ExtraField3": "neque",
-      "ExtraField4": "quia",
-      "ExtraField5": "exercitationem",
-      "LastRecalculated": "1998-04-14T14:45:06.0843796+02:00",
-      "Updated": "2006-10-08T14:45:06.0843796+02:00",
-      "UpdatedAssociateId": 891,
-      "Registered": "2008-03-21T14:45:06.0843796+01:00",
-      "RegisteredAssociateId": 772,
-      "RequestAssociateId": 389,
-      "RequestComment": "praesentium",
+      "ERPPaymentTermsKey": "iste",
+      "ERPPaymentTypeKey": "odio",
+      "ERPDeliveryTermsKey": "repudiandae",
+      "ERPDeliveryTypeKey": "corrupti",
+      "Rank": 355,
+      "ApprovedBy": 594,
+      "ApprovedText": "vero",
+      "ApprovedRegisteredBy": 797,
+      "ApprovedRegisteredDate": "2013-08-20T10:17:55.9415595+02:00",
+      "ExtraField1": "aut",
+      "ExtraField2": "occaecati",
+      "ExtraField3": "eos",
+      "ExtraField4": "numquam",
+      "ExtraField5": "et",
+      "LastRecalculated": "2003-01-24T10:17:55.9415595+01:00",
+      "Updated": "2019-03-10T10:17:55.9415595+01:00",
+      "UpdatedAssociateId": 396,
+      "Registered": "2022-03-15T10:17:55.9415595+01:00",
+      "RegisteredAssociateId": 503,
+      "RequestAssociateId": 21,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldType": "System.String",
+          "FieldLength": 73
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 581
     }
   }
 }

@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=ut
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=quia
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Dec 2007 14:45:12 G12T
+Last-Modified: Fri, 30 Aug 2013 10:18:00 G8T
 
 {
-  "Key": "qui",
-  "Value": "aperiam",
-  "RecordId": 676,
-  "CreatedDate": "2001-12-17T14:45:12.8338163+01:00",
-  "UpdatedDate": "2007-12-15T14:45:12.8338163+01:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "commodi",
-  "TableName": "Bergstrom, Deckow and Little",
+  "Key": "totam",
+  "Value": "hic",
+  "RecordId": 616,
+  "CreatedDate": "2003-07-27T10:18:00.4262067+02:00",
+  "UpdatedDate": "2013-08-30T10:18:00.4262067+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "deserunt",
+  "TableName": "Cummings Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 51
     }
   }
 }

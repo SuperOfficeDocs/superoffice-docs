@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Zboncak-Hoppe",
+      "Name": "McDermott, Franecki and Mann",
       "State": true
     },
     {
-      "Name": "Zboncak-Hoppe",
+      "Name": "McDermott, Franecki and Mann",
       "State": true
     }
   ]

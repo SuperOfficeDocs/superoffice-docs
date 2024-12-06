@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 608
+  "ProjectId": 305
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aperiam",
-    "PersonId": 805,
-    "Mrmrs": "qui",
-    "Firstname": "Dusty",
-    "Lastname": "Hoppe",
-    "MiddleName": "Abbott-Herzog",
-    "Title": "delectus",
-    "Description": "Proactive zero tolerance application",
-    "Email": "shyanne.braun@funkhalvorson.us",
-    "FullName": "Jermey Cole",
-    "DirectPhone": "411-261-1759",
-    "FormalName": "Jerde-Zemlak",
-    "CountryId": 497,
-    "ContactId": 560,
-    "ContactName": "Bernhard-Hamill",
-    "Retired": 5,
-    "Rank": 44,
-    "ActiveInterests": 509,
+    "Position": "quia",
+    "PersonId": 431,
+    "Mrmrs": "sed",
+    "Firstname": "Fabian",
+    "Lastname": "Abshire",
+    "MiddleName": "Dach, Borer and Purdy",
+    "Title": "dolores",
+    "Description": "Realigned 24/7 support",
+    "Email": "catherine_zboncak@klockoschuppe.uk",
+    "FullName": "Mrs. Elmer Zora Larson Sr.",
+    "DirectPhone": "728.280.5917 x940",
+    "FormalName": "King Inc and Sons",
+    "CountryId": 348,
+    "ContactId": 809,
+    "ContactName": "Kunze, Streich and Effertz",
+    "Retired": 868,
+    "Rank": 402,
+    "ActiveInterests": 569,
     "ContactDepartment": "",
-    "ContactCountryId": 162,
-    "ContactOrgNr": "338087",
-    "FaxPhone": "338.275.0411 x95129",
-    "MobilePhone": "651.012.5517",
-    "ContactPhone": "881-141-5511 x21190",
-    "AssociateName": "Dooley LLC",
-    "AssociateId": 870,
+    "ContactCountryId": 22,
+    "ContactOrgNr": "1570726",
+    "FaxPhone": "167.683.4549",
+    "MobilePhone": "425-956-9652 x1730",
+    "ContactPhone": "736.639.5520",
+    "AssociateName": "Considine Group",
+    "AssociateId": 960,
     "UsePersonAddress": false,
-    "ContactFax": "ullam",
-    "Kanafname": "quam",
-    "Kanalname": "qui",
-    "Post1": "neque",
-    "Post2": "ut",
-    "Post3": "est",
-    "EmailName": "pattie@lindtillman.info",
-    "ContactFullName": "Rosalinda Wallace Spencer V",
-    "ActiveErpLinks": 693,
-    "TicketPriorityId": 64,
-    "SupportLanguageId": 301,
-    "SupportAssociateId": 362,
+    "ContactFax": "numquam",
+    "Kanafname": "aut",
+    "Kanalname": "est",
+    "Post1": "mollitia",
+    "Post2": "fuga",
+    "Post3": "ipsum",
+    "EmailName": "delmer.upton@nikolauskilback.ca",
+    "ContactFullName": "Isaiah Schamberger II",
+    "ActiveErpLinks": 413,
+    "TicketPriorityId": 677,
+    "SupportLanguageId": 504,
+    "SupportAssociateId": 474,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 644
       }
     }
   }

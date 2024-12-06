@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 117,
-  "VersionId": "sint"
+  "DocumentId": 408,
+  "VersionId": "non"
 }
 ```
 

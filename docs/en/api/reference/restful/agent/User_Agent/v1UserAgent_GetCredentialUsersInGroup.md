@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "numquam",
-  "GroupName": "Doyle Group"
+  "Type": "soluta",
+  "GroupName": "Lockman Inc and Sons"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "corporis",
-    "nihil"
+    "in",
+    "quibusdam"
   ],
   "Users": [
     {
-      "Value": "quas",
-      "DisplayValue": "deserunt",
+      "Value": "illo",
+      "DisplayValue": "quam",
       "Columns": [
-        "ratione",
-        "et"
+        "similique",
+        "qui"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 180
         }
       }
     },
     {
-      "Value": "quas",
-      "DisplayValue": "deserunt",
+      "Value": "illo",
+      "DisplayValue": "quam",
       "Columns": [
-        "ratione",
-        "et"
+        "similique",
+        "qui"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldType": "System.String",
+          "FieldLength": 180
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

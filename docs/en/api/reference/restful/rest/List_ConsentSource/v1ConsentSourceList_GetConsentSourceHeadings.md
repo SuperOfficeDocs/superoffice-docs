@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Wiegand Inc and Sons",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 735,
+    "Name": "Reynolds, Crooks and Kautzer",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 509,
-    "UdListDefinitionId": 221,
+    "Rank": 577,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

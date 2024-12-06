@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 873,
-  "CopyToSaleId": 961
+  "CopyFromSaleId": 75,
+  "CopyToSaleId": 490
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 85,
-  "SaleId": 693,
-  "QuoteConnectionId": 331,
-  "ERPQuoteKey": "id",
-  "ERPOrderKey": "iure",
-  "ActiveQuoteVersionId": 179,
-  "AcceptedQuoteAlternativeId": 430,
-  "UseValuesFromQuote": 316,
-  "DocumentId": 829,
-  "PoNumber": "852294",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "valentine_reynolds@monahan.us",
+  "QuoteId": 679,
+  "SaleId": 944,
+  "QuoteConnectionId": 826,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "atque",
+  "ActiveQuoteVersionId": 387,
+  "AcceptedQuoteAlternativeId": 674,
+  "UseValuesFromQuote": 738,
+  "DocumentId": 514,
+  "PoNumber": "1298584",
+  "OrderComment": "molestias",
+  "PreferredEmailCulture": "ronny_pfeffer@homenick.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 446,
-      "ERPQuoteVersionKey": "necessitatibus",
-      "QuoteId": 23,
-      "Description": "Stand-alone homogeneous benchmark",
-      "Number": "401400",
+      "QuoteVersionId": 618,
+      "ERPQuoteVersionKey": "quia",
+      "QuoteId": 79,
+      "Description": "Virtual attitude-oriented hardware",
+      "Number": "1571329",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "",
-      "LikelyQuoteAlternativeId": 442,
-      "SentDate": "2017-11-21T14:45:06.0843796+01:00",
-      "FollowupId": 463,
-      "ExpirationDate": "2002-07-28T14:45:06.0843796+02:00",
-      "DeliveryCountryId": 602,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 140,
+      "Reason": "matrix killer communities",
+      "LikelyQuoteAlternativeId": 712,
+      "SentDate": "2022-04-07T10:17:55.9415595+02:00",
+      "FollowupId": 949,
+      "ExpirationDate": "2011-05-11T10:17:55.9415595+02:00",
+      "DeliveryCountryId": 921,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 919,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "nulla",
-      "ERPPaymentTypeKey": "aut",
-      "ERPDeliveryTermsKey": "minus",
-      "ERPDeliveryTypeKey": "labore",
-      "Rank": 15,
-      "ApprovedBy": 394,
-      "ApprovedText": "accusamus",
-      "ApprovedRegisteredBy": 637,
-      "ApprovedRegisteredDate": "2009-04-23T14:45:06.0843796+02:00",
-      "ExtraField1": "inventore",
-      "ExtraField2": "odio",
-      "ExtraField3": "et",
-      "ExtraField4": "debitis",
-      "ExtraField5": "occaecati",
-      "LastRecalculated": "2016-10-10T14:45:06.0843796+02:00",
-      "Updated": "2010-05-15T14:45:06.0843796+02:00",
-      "UpdatedAssociateId": 688,
-      "Registered": "2009-03-02T14:45:06.0843796+01:00",
-      "RegisteredAssociateId": 899,
-      "RequestAssociateId": 971,
-      "RequestComment": "molestiae",
+      "ERPPaymentTermsKey": "reiciendis",
+      "ERPPaymentTypeKey": "assumenda",
+      "ERPDeliveryTermsKey": "rem",
+      "ERPDeliveryTypeKey": "consequuntur",
+      "Rank": 548,
+      "ApprovedBy": 514,
+      "ApprovedText": "sunt",
+      "ApprovedRegisteredBy": 106,
+      "ApprovedRegisteredDate": "2008-12-29T10:17:55.9415595+01:00",
+      "ExtraField1": "sit",
+      "ExtraField2": "expedita",
+      "ExtraField3": "quam",
+      "ExtraField4": "commodi",
+      "ExtraField5": "harum",
+      "LastRecalculated": "2009-05-09T10:17:55.9415595+02:00",
+      "Updated": "2022-12-20T10:17:55.9415595+01:00",
+      "UpdatedAssociateId": 705,
+      "Registered": "2012-02-18T10:17:55.9415595+01:00",
+      "RegisteredAssociateId": 27,
+      "RequestAssociateId": 404,
+      "RequestComment": "ut",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 843
     }
   }
 }

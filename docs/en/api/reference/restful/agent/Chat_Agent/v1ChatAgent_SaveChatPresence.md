@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 83,
-      "DisplayName": "Witting Inc and Sons",
-      "OngoingChats": 953,
+      "UserId": 381,
+      "DisplayName": "Crona LLC",
+      "OngoingChats": 640,
       "Present": false,
       "ChatTopics": [
-        256,
-        797
+        913,
+        846
       ]
     },
     {
-      "UserId": 83,
-      "DisplayName": "Witting Inc and Sons",
-      "OngoingChats": 953,
+      "UserId": 381,
+      "DisplayName": "Crona LLC",
+      "OngoingChats": 640,
       "Present": false,
       "ChatTopics": [
-        256,
-        797
+        913,
+        846
       ]
     }
   ]

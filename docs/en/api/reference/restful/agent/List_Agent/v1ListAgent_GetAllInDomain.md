@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 503,
+    "HierarchyId": 281,
     "Domain": "Dashboards",
-    "Name": "Bogisich Inc and Sons",
-    "Fullname": "architecto",
-    "ParentId": 252,
+    "Name": "Rau, Grady and Mohr",
+    "Fullname": "officia",
+    "ParentId": 72,
     "Children": [
       {
-        "HierarchyId": 718,
+        "HierarchyId": 930,
         "Domain": "Dashboards",
-        "Name": "O'Connell-Hammes",
-        "Fullname": "quia",
-        "ParentId": 131,
+        "Name": "Okuneva Inc and Sons",
+        "Fullname": "aut",
+        "ParentId": 616,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1997-12-09T14:45:05.7563266+01:00",
-        "RegisteredAssociateId": 805,
-        "Updated": "2008-04-25T14:45:05.7563266+02:00",
-        "UpdatedAssociateId": 517,
+        "Registered": "2021-04-29T10:17:55.7227953+02:00",
+        "RegisteredAssociateId": 600,
+        "Updated": "2013-11-27T10:17:55.7227953+01:00",
+        "UpdatedAssociateId": 783,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 914
           }
         }
       }
     ],
-    "Registered": "2019-11-29T14:45:05.7563266+01:00",
-    "RegisteredAssociateId": 782,
-    "Updated": "2012-07-13T14:45:05.7563266+02:00",
-    "UpdatedAssociateId": 980,
+    "Registered": "2011-01-12T10:17:55.7227953+01:00",
+    "RegisteredAssociateId": 85,
+    "Updated": "2023-08-02T10:17:55.7227953+02:00",
+    "UpdatedAssociateId": 655,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

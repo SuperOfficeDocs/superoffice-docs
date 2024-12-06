@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 608,
+  "TargetYear": 146,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 697,
-  "Year": 266,
+  "TargetGroupId": 284,
+  "Year": 301,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 268,
+      "TargetAssignmentInfoId": 35,
       "Values": [
-        441,
-        422
+        32,
+        276
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 769,
-      "DimensionListItemDisplayName": "Willms-Grant",
+      "DimensionListItem": 560,
+      "DimensionListItemDisplayName": "Pollich, Sauer and Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 574
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 127
     }
   }
 }

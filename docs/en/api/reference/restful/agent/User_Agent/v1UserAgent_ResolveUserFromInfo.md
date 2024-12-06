@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 405,
-  "PersonName": "Harber-Kautzer",
+  "ContactId": 534,
+  "PersonName": "Braun-West",
   "PhoneNumbers": [
-    "424284",
-    "855841"
+    "1660734",
+    "1630918"
   ],
   "Emails": [
-    "stanton@kuphal.us",
-    "leanne.goldner@wisozk.info"
+    "nikki@ratkeveum.name",
+    "theodora@nolanlockman.info"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   }
 }

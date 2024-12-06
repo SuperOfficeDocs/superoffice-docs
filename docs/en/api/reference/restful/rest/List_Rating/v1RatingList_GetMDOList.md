@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=est
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Pfannerstill LLC",
-    "ToolTip": "Deserunt iure voluptatem.",
+    "Id": 741,
+    "Name": "Breitenberg, Hills and Flatley",
+    "ToolTip": "Rerum et fuga sunt asperiores neque nihil.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "adipisci",
+    "Rank": 696,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Hilpert Inc and Sons",
-        "ToolTip": "Qui non atque eaque delectus.",
+        "Id": 83,
+        "Name": "Donnelly, Walker and Christiansen",
+        "ToolTip": "Architecto voluptate nisi quibusdam nobis.",
         "Deleted": false,
-        "Rank": 468,
-        "Type": "et",
+        "Rank": 452,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 609,
-        "ExtraInfo": "totam",
-        "StyleHint": "vel",
-        "FullName": "Nikita Hattie Kunde I",
+        "IconHint": "doloribus",
+        "ColorBlock": 43,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "excepturi",
+        "FullName": "Ms. Tremaine Esther Nikolaus II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldType": "System.Int32",
+            "FieldLength": 21
           }
         }
       }
     ],
-    "IconHint": "beatae",
-    "ColorBlock": 779,
-    "ExtraInfo": "laborum",
-    "StyleHint": "necessitatibus",
-    "FullName": "Georgiana Champlin",
+    "IconHint": "fuga",
+    "ColorBlock": 839,
+    "ExtraInfo": "sint",
+    "StyleHint": "voluptatem",
+    "FullName": "Chelsea Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 127
       }
     }
   }

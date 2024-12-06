@@ -94,16 +94,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    179,
-    230
+    626,
+    343
   ],
-  "StartTime": "2008-03-06T14:45:04.4912235+01:00",
-  "EndTime": "2015-07-22T14:45:04.4912235+02:00"
+  "StartTime": "2010-04-10T10:17:54.9414989+02:00",
+  "EndTime": "2024-01-04T10:17:54.9414989+01:00"
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 433,
-    "AssociateId": 867,
-    "MotherId": 533,
-    "StartDate": "2010-02-08T14:45:04.4912235+01:00",
-    "EndDate": "1997-11-22T14:45:04.4912235+01:00",
+    "AppointmentId": 986,
+    "AssociateId": 553,
+    "MotherId": 781,
+    "StartDate": "2001-10-19T10:17:54.9414989+02:00",
+    "EndDate": "2011-09-24T10:17:54.9414989+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Erdman Inc and Sons",
-    "ContactName": "Klocko Group",
-    "ProjectName": "Heathcote-Sipes",
-    "Title": "quia",
-    "Agenda": "corrupti",
-    "IsAllDay": false,
+    "TaskName": "O'Conner Group",
+    "ContactName": "Rath LLC",
+    "ProjectName": "Lockman Inc and Sons",
+    "Title": "aut",
+    "Agenda": "voluptas",
+    "IsAllDay": true,
     "IsBusy": false,
-    "IsRecurring": true,
+    "IsRecurring": false,
     "IsVideoMeeting": false,
-    "HasAlarm": false,
-    "IsCompleted": false,
-    "IsTentative": true,
-    "IsBookingMain": true,
+    "HasAlarm": true,
+    "IsCompleted": true,
+    "IsTentative": false,
+    "IsBookingMain": false,
     "RecurrenceInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 162,
-  "Title": "magni",
-  "CreatedAt": "2011-12-06T14:45:06.5061601+01:00",
-  "LastChanged": "2003-12-18T14:45:06.5061601+01:00",
-  "ReadByOwner": "2015-06-21T14:45:06.5061601+02:00",
-  "ReadByCustomer": "2015-05-15T14:45:06.5061601+02:00",
-  "FirstReadByOwner": "2019-06-12T14:45:06.5061601+02:00",
-  "FirstReadByUser": "1997-11-25T14:45:06.5061601+01:00",
-  "Activate": "2017-10-12T14:45:06.5061601+02:00",
-  "ClosedAt": "2003-05-15T14:45:06.5061601+02:00",
-  "RepliedAt": "2003-03-22T14:45:06.5061601+01:00",
-  "AlertTimeout": "2023-07-29T14:45:06.5061601+02:00",
-  "Deadline": "2023-12-12T14:45:06.5061601+01:00",
+  "TicketId": 606,
+  "Title": "cupiditate",
+  "CreatedAt": "2008-10-12T10:17:56.2228266+02:00",
+  "LastChanged": "2006-03-25T10:17:56.2228266+01:00",
+  "ReadByOwner": "2019-01-11T10:17:56.2228266+01:00",
+  "ReadByCustomer": "1999-02-27T10:17:56.2228266+01:00",
+  "FirstReadByOwner": "2001-03-18T10:17:56.2228266+01:00",
+  "FirstReadByUser": "2013-06-10T10:17:56.2228266+02:00",
+  "Activate": "2005-10-24T10:17:56.2228266+02:00",
+  "ClosedAt": "2010-12-28T10:17:56.2228266+01:00",
+  "RepliedAt": "2020-03-26T10:17:56.2228266+01:00",
+  "AlertTimeout": "2005-03-06T10:17:56.2228266+01:00",
+  "Deadline": "2017-05-21T10:17:56.2228266+02:00",
   "CreatedBy": null,
-  "Author": "ab",
+  "Author": "velit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,162 +157,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aspernatur",
-      "PersonId": 682,
-      "Mrmrs": "adipisci",
-      "Firstname": "Tavares",
-      "Lastname": "Hane",
-      "MiddleName": "Blick Group",
-      "Title": "officiis",
-      "Description": "Seamless bandwidth-monitored middleware",
-      "Email": "ruth_jerde@thiel.ca",
-      "FullName": "Marcel Casper",
-      "DirectPhone": "205.188.1339 x504",
-      "FormalName": "Greenfelder-Turcotte",
-      "CountryId": 347,
-      "ContactId": 128,
-      "ContactName": "Kris Inc and Sons",
-      "Retired": 309,
-      "Rank": 637,
-      "ActiveInterests": 146,
+      "Position": "exercitationem",
+      "PersonId": 760,
+      "Mrmrs": "dolores",
+      "Firstname": "Ryder",
+      "Lastname": "Waters",
+      "MiddleName": "Herman, Prosacco and Heller",
+      "Title": "qui",
+      "Description": "Mandatory interactive projection",
+      "Email": "christine@morissette.ca",
+      "FullName": "Eve Koch",
+      "DirectPhone": "1-731-037-4996 x2692",
+      "FormalName": "Swaniawski Inc and Sons",
+      "CountryId": 286,
+      "ContactId": 667,
+      "ContactName": "Brekke, Ryan and Buckridge",
+      "Retired": 908,
+      "Rank": 513,
+      "ActiveInterests": 842,
       "ContactDepartment": "",
-      "ContactCountryId": 779,
-      "ContactOrgNr": "1318348",
-      "FaxPhone": "871.552.1946",
-      "MobilePhone": "342.295.3472",
-      "ContactPhone": "1-045-166-5614",
-      "AssociateName": "Dicki Group",
-      "AssociateId": 278,
-      "UsePersonAddress": false,
-      "ContactFax": "in",
-      "Kanafname": "aliquid",
-      "Kanalname": "nostrum",
-      "Post1": "aut",
-      "Post2": "ut",
-      "Post3": "cum",
-      "EmailName": "cindy@herman.name",
-      "ContactFullName": "Allan Aufderhar",
-      "ActiveErpLinks": 474,
-      "TicketPriorityId": 587,
-      "SupportLanguageId": 168,
-      "SupportAssociateId": 931,
+      "ContactCountryId": 786,
+      "ContactOrgNr": "979649",
+      "FaxPhone": "948.958.2295",
+      "MobilePhone": "324.372.8596",
+      "ContactPhone": "382-895-8440 x1751",
+      "AssociateName": "Okuneva-Hilll",
+      "AssociateId": 738,
+      "UsePersonAddress": true,
+      "ContactFax": "est",
+      "Kanafname": "aperiam",
+      "Kanalname": "autem",
+      "Post1": "quidem",
+      "Post2": "sed",
+      "Post3": "unde",
+      "EmailName": "micaela.senger@beahan.co.uk",
+      "ContactFullName": "Mr. Brook Brandon Christiansen I",
+      "ActiveErpLinks": 975,
+      "TicketPriorityId": 399,
+      "SupportLanguageId": 186,
+      "SupportAssociateId": 541,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 901
         }
       }
     }
   ],
-  "AlertLevel": 312,
-  "ConnectId": 122,
+  "AlertLevel": 432,
+  "ConnectId": 102,
   "ReadStatus": "Green",
-  "TimeToReply": 698,
-  "RealTimeToReply": 99,
-  "TimeToClose": 391,
-  "RealTimeToClose": 905,
-  "TimeSpentInternally": 766,
-  "TimeSpentExternally": 285,
-  "TimeSpentQueue": 195,
-  "RealTimeSpentInternally": 204,
-  "RealTimeSpentExternally": 15,
-  "RealTimeSpentQueue": 773,
-  "TimeSpent": 379,
+  "TimeToReply": 923,
+  "RealTimeToReply": 150,
+  "TimeToClose": 470,
+  "RealTimeToClose": 908,
+  "TimeSpentInternally": 710,
+  "TimeSpentExternally": 654,
+  "TimeSpentQueue": 427,
+  "RealTimeSpentInternally": 372,
+  "RealTimeSpentExternally": 720,
+  "RealTimeSpentQueue": 753,
+  "TimeSpent": 353,
   "HasAttachment": false,
-  "NumReplies": 654,
-  "NumMessages": 758,
-  "FromAddress": "voluptates",
+  "NumReplies": 33,
+  "NumMessages": 549,
+  "FromAddress": "aperiam",
   "Messages": [
     {
-      "TicketMessageId": 644,
-      "CreatedAt": "2003-07-29T14:45:06.5061601+02:00",
+      "TicketMessageId": 765,
+      "CreatedAt": "2007-07-11T10:17:56.2384453+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "quia",
-      "PersonId": 246,
-      "PersonFullName": "Mr. Hellen Feest Sr.",
-      "ContactId": 125,
-      "ContactName": "Schmidt, Nader and Reichert",
+      "Important": true,
+      "Author": "ut",
+      "PersonId": 809,
+      "PersonFullName": "Carlos Natasha Orn V",
+      "ContactId": 8,
+      "ContactName": "Kuhic Group",
       "ContactDepartment": "",
-      "NumAttachments": 233,
-      "EmailHeader": "estevan.rolfson@haley.uk",
+      "NumAttachments": 265,
+      "EmailHeader": "fidel@trantow.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sint",
-      "Sentiment": 561,
-      "SentimentConfidence": 938,
-      "CreatedBy": 87,
-      "ChangedAt": "2021-03-25T14:45:06.5061601+01:00",
+      "Language": "error",
+      "Sentiment": 90,
+      "SentimentConfidence": 1002,
+      "CreatedBy": 115,
+      "ChangedAt": "2024-01-19T10:17:56.2384453+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 539,
-      "Name": "Connelly Inc and Sons",
-      "ToolTip": "Sit quis.",
+      "Id": 864,
+      "Name": "Huels, Fritsch and Hammes",
+      "ToolTip": "Illum autem ex perferendis ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 534
         }
       }
     },
     {
-      "Id": 539,
-      "Name": "Connelly Inc and Sons",
-      "ToolTip": "Sit quis.",
+      "Id": 864,
+      "Name": "Huels, Fritsch and Hammes",
+      "ToolTip": "Illum autem ex perferendis ut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 534
         }
       }
     }
   ],
-  "Language": "error",
-  "Sentiment": 9,
-  "SentimentConfidence": 867,
-  "SuggestedCategoryId": 109,
+  "Language": "vel",
+  "Sentiment": 990,
+  "SentimentConfidence": 890,
+  "SuggestedCategoryId": 260,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 53,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 334,
+  "IconHint": "odit",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 1001,
+  "ActiveStatusMonitorId": 285,
   "ExtraFields": {
     "ExtraFields1": "consequatur",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "cumque"
+    "CustomFields1": "illum",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

@@ -74,15 +74,15 @@ OK
 POST /api/v1/Agents/Person/CreateTemporaryKeyWithPayload
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 575,
-  "PersonId": 409,
-  "Expires": "2000-01-08T14:45:05.9125422+01:00",
-  "Payload": "dicta"
+  "TargetId": 243,
+  "PersonId": 500,
+  "Expires": "2017-11-15T10:17:55.8321779+01:00",
+  "Payload": "nobis"
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"vero"
 ```

@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Gorczany LLC",
-    "ToolTip": "Quia laudantium sequi.",
+    "Id": 900,
+    "Name": "Dicki-Jakubowski",
+    "ToolTip": "Maxime illo magnam praesentium cum ipsum autem.",
     "Deleted": true,
-    "Rank": 426,
-    "Type": "est",
-    "ColorBlock": 746,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2011-05-16T14:45:13.7242429+02:00",
+    "Rank": 182,
+    "Type": "voluptas",
+    "ColorBlock": 66,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "2022-10-14T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Daugherty Inc and Sons",
-        "ToolTip": "Consequatur non ab.",
+        "Id": 23,
+        "Name": "Schmeler, Lockman and Kuhlman",
+        "ToolTip": "Ullam maiores voluptas quisquam alias.",
         "Deleted": false,
-        "Rank": 298,
-        "Type": "quo",
-        "ColorBlock": 934,
-        "IconHint": "et",
+        "Rank": 254,
+        "Type": "corporis",
+        "ColorBlock": 68,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2016-08-25T14:45:13.7242429+02:00",
+        "LastChanged": "1997-10-12T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "neque",
+        "ExtraInfo": "ratione",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Blanca Shields",
+        "FullName": "Hattie Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 786
+            "FieldType": "System.Int32",
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Mr. Rocky Hackett",
+    "ExtraInfo": "eius",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Jess Chelsea Schultz Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

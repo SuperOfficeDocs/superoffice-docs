@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "inventore",
+  "ProgId": "necessitatibus",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 159,
-  "ColumnId": 931,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 52,
-  "FieldLabel": "rerum",
-  "FieldLeft": 915,
-  "FieldTop": 449,
+  "UDefFieldId": 955,
+  "ColumnId": 772,
+  "FieldDefault": "dolorem",
+  "FieldHeight": 452,
+  "FieldLabel": "dolores",
+  "FieldLeft": 385,
+  "FieldTop": 535,
   "FieldType": "Checkbox",
-  "FieldWidth": 465,
-  "FormatMask": "et",
+  "FieldWidth": 31,
+  "FormatMask": "modi",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 224,
-  "LabelLeft": 958,
-  "LabelTop": 579,
-  "LabelWidth": 62,
-  "LastVersionId": 406,
-  "ListTableId": 73,
-  "IsMandatory": false,
+  "LabelHeight": 864,
+  "LabelLeft": 464,
+  "LabelTop": 272,
+  "LabelWidth": 128,
+  "LastVersionId": 868,
+  "ListTableId": 139,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 715,
-  "ProgId": "nemo",
+  "Page1LineNo": 504,
+  "ProgId": "quo",
   "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 32,
-  "TextLength": 106,
-  "Tooltip": "quis",
-  "UdefIdentity": 671,
-  "UDListDefinitionId": 253,
+  "ShortLabel": "quis",
+  "TabOrder": 561,
+  "TextLength": 947,
+  "Tooltip": "eum",
+  "UdefIdentity": 360,
+  "UDListDefinitionId": 268,
   "Justification": "Center",
-  "Version": 915,
-  "TemplateVariableName": "Dicki Inc and Sons",
+  "Version": 680,
+  "TemplateVariableName": "Nader, Lakin and Johnson",
   "HasBeenPublished": false,
-  "MdoListName": "Wolff, Vandervort and Mills",
+  "MdoListName": "Pfannerstill-Beer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 104,
-  "Name": "Ullrich-Herzog",
-  "ContentType": "dolorem",
-  "AttSize": 935,
-  "InlineImage": false,
-  "ContentId": "dolorum",
-  "AuthKey": "velit",
+  "AttachmentId": 929,
+  "Name": "Reynolds-Bernhard",
+  "ContentType": "aut",
+  "AttSize": 224,
+  "InlineImage": true,
+  "ContentId": "sint",
+  "AuthKey": "ea",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 233
     }
   },
   "_Links": {

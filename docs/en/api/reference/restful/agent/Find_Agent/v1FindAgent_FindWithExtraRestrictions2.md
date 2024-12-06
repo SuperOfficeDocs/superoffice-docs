@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corporis",
-  "ProviderName": "Schroeder Inc and Sons",
-  "StorageKey": "molestias",
-  "ExtraRestrictions": "beatae",
-  "OrderBy": "eveniet",
-  "DesiredColumns": "enim",
-  "PageSize": 101,
-  "PageNumber": 197
+  "StorageType": "doloremque",
+  "ProviderName": "Hahn, Jewess and Predovic",
+  "StorageKey": "architecto",
+  "ExtraRestrictions": "et",
+  "OrderBy": "veritatis",
+  "DesiredColumns": "non",
+  "PageSize": 786,
+  "PageNumber": 166
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Stroman Inc and Sons",
-      "DisplayTooltip": "in",
-      "DisplayType": "dolores",
+      "DisplayName": "Klocko Inc and Sons",
+      "DisplayTooltip": "sequi",
+      "DisplayType": "sit",
       "CanOrderBy": false,
-      "Name": "Johnson-Fisher",
+      "Name": "Hyatt, Abernathy and Hamill",
       "CanRestrictBy": true,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Schumm-D'Amore",
-      "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "ipsa",
-      "IconHint": "facere",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "esse",
+      "RestrictionListName": "Hartmann, Skiles and Prohaska",
+      "IsVisible": true,
+      "ExtraInfo": "voluptatum",
+      "Width": "sint",
+      "IconHint": "in",
+      "HeadingIconHint": "nobis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Koepp-Muller",
-      "PrimaryKey": 717,
+      "EntityName": "Lind-Goyette",
+      "PrimaryKey": 838,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "explicabo",
-          "LinkHint": "ut"
+          "DisplayValue": "cupiditate",
+          "TooltipHint": "impedit",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "molestiae",
-      "StyleHint": "minus",
+      "LinkHint": "velit",
+      "StyleHint": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 880
         }
       }
     }
   ],
-  "RowCount": 794,
+  "RowCount": 267,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 672
     }
   }
 }

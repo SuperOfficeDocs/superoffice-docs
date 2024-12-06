@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 326,
-    "Name": "Franecki-Boehm",
-    "Tooltip": "voluptate",
+    "HeadingId": 260,
+    "Name": "Prosacco-Smith",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 622
+    "Rank": 336,
+    "UdListDefinitionId": 137
   },
   {
-    "HeadingId": 326,
-    "Name": "Franecki-Boehm",
-    "Tooltip": "voluptate",
+    "HeadingId": 260,
+    "Name": "Prosacco-Smith",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 60,
-    "UdListDefinitionId": 622
+    "Rank": 336,
+    "UdListDefinitionId": 137
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 804,
-    "Name": "Lang-Bayer",
-    "Tooltip": "tenetur",
-    "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 814,
+    "HeadingId": 610,
+    "Name": "Waters, Bashirian and Rutherford",
+    "Tooltip": "voluptates",
+    "Deleted": true,
+    "Rank": 855,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldLength": 118
       }
     }
   }

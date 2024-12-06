@@ -81,23 +81,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 132,
+  "ChatTopicId": 351,
   "Useragents": [
     {
-      "TopicId": 906,
+      "TopicId": 329,
       "User": null,
       "CanListen": false,
       "CanRespond": false,
       "CanManage": true,
-      "CanNotify": false
+      "CanNotify": true
     },
     {
-      "TopicId": 906,
+      "TopicId": 329,
       "User": null,
       "CanListen": false,
       "CanRespond": false,
       "CanManage": true,
-      "CanNotify": false
+      "CanNotify": true
     }
   ]
 }
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 661,
+    "TopicId": 724,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": true,
+    "CanNotify": false
   },
   {
-    "TopicId": 661,
+    "TopicId": 724,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": true
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": true,
+    "CanNotify": false
   }
 ]
 ```

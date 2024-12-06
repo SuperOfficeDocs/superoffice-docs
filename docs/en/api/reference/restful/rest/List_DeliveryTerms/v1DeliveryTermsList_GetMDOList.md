@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=voluptas
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Weimann, Franecki and Watsica",
-    "ToolTip": "Officiis consequuntur aut delectus.",
+    "Id": 700,
+    "Name": "Mosciski-Turcotte",
+    "ToolTip": "Doloribus commodi tempora necessitatibus ipsum reprehenderit sunt maxime.",
     "Deleted": false,
-    "Rank": 10,
-    "Type": "nostrum",
+    "Rank": 445,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Hoppe, Hintz and Pollich",
-        "ToolTip": "Omnis voluptas et qui.",
-        "Deleted": false,
-        "Rank": 293,
-        "Type": "quo",
+        "Id": 762,
+        "Name": "Zboncak LLC",
+        "ToolTip": "Impedit magnam ad.",
+        "Deleted": true,
+        "Rank": 397,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 892,
-        "ExtraInfo": "culpa",
-        "StyleHint": "nemo",
-        "FullName": "Prof. Krista Jamil Armstrong Sr.",
+        "IconHint": "quis",
+        "ColorBlock": 810,
+        "ExtraInfo": "eaque",
+        "StyleHint": "doloribus",
+        "FullName": "Miss Eladio Walsh PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 208
+            "FieldType": "System.Int32",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 466,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "et",
-    "FullName": "Mrs. Lizeth Adela Casper DVM",
+    "IconHint": "sequi",
+    "ColorBlock": 633,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "expedita",
+    "FullName": "Prof. Israel Marcelle Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 348
       }
     }
   }

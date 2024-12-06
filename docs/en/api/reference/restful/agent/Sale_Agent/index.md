@@ -52,6 +52,8 @@ generated: true
 
 * [POST Agents/Sale/ValidateSaleEntity](v1SaleAgent_ValidateSaleEntity.md)
 
+* [POST Agents/Sale/SaleHasQuote](v1SaleAgent_SaleHasQuote.md)
+
 * [POST Agents/Sale/GetSaleList](v1SaleAgent_GetSaleList.md)
 
 * [POST Agents/Sale/GetMyOpportunities](v1SaleAgent_GetMyOpportunities.md)

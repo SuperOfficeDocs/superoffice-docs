@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuhic, Dooley and Dietrich",
+  "GuiName": "Lowe-Funk",
   "ColumnWidths": [
-    "in",
-    "ut"
+    "ut",
+    "nisi"
   ]
 }
 ```

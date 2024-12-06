@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Pfeffer Inc and Sons",
-  "ProviderName": "Botsford, Beier and Goldner",
-  "Context": "labore"
+  "GuiName": "Williamson-Deckow",
+  "ProviderName": "Hartmann, Smith and Kunde",
+  "Context": "rem"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bode, Friesen and Mueller",
-      "DisplayTooltip": "adipisci",
-      "DisplayType": "numquam",
-      "CanOrderBy": true,
-      "Name": "Dibbert, Dibbert and Turcotte",
-      "CanRestrictBy": false,
-      "RestrictionType": "ipsam",
-      "RestrictionListName": "Yundt LLC",
-      "IsVisible": false,
-      "ExtraInfo": "facilis",
-      "Width": "voluptatem",
-      "IconHint": "ut",
-      "HeadingIconHint": "omnis"
+      "DisplayName": "Goodwin, Krajcik and Cremin",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "modi",
+      "CanOrderBy": false,
+      "Name": "Murphy Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Hand-Ward",
+      "IsVisible": true,
+      "ExtraInfo": "sunt",
+      "Width": "molestiae",
+      "IconHint": "sed",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 422,
-      "Name": "D'Amore-Smitham",
-      "ToolTip": "Ipsam temporibus dolor et tempore explicabo velit aperiam.",
+      "Id": 602,
+      "Name": "Abshire-Gerlach",
+      "ToolTip": "Molestiae aut eveniet facilis velit.",
       "Deleted": false,
-      "Rank": 665,
-      "Type": "sed",
-      "ColorBlock": 803,
-      "IconHint": "sint",
+      "Rank": 796,
+      "Type": "voluptatibus",
+      "ColorBlock": 451,
+      "IconHint": "alias",
       "Selected": false,
-      "LastChanged": "2020-02-06T14:45:04.8502792+01:00",
+      "LastChanged": "2024-03-09T10:17:55.0977583+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "numquam",
-      "StyleHint": "soluta",
-      "Hidden": true,
-      "FullName": "Ms. Brandon Terry",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Mrs. Claude Denesik MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 408
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Brekke LLC",
+      "Name": "Heaney-Gutmann",
       "Direction": "ASC"
     },
     {
-      "Name": "Brekke LLC",
+      "Name": "Heaney-Gutmann",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "itaque",
+  "OwnerKeys": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 437
     }
   }
 }

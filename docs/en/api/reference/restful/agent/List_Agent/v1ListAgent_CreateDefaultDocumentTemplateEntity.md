@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 800,
-  "Name": "Legros-McGlynn",
-  "Tooltip": "nulla",
-  "SaveInDb": 298,
+  "DocumentTemplateId": 244,
+  "Name": "Torphy, Fay and Ledner",
+  "Tooltip": "numquam",
+  "SaveInDb": 656,
   "Filename": "pariatur",
-  "DefaultOref": "aliquid",
+  "DefaultOref": "quidem",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 170,
-  "IntentId": 382,
+  "AutoeventId": 261,
+  "IntentId": 633,
   "IsDefaultPublished": false,
-  "Rank": 366,
-  "LoadTemplateFromPlugin": 636,
-  "MimeType": "voluptas",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 147,
+  "Rank": 46,
+  "LoadTemplateFromPlugin": 876,
+  "MimeType": "placeat",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 425,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jaida.padberg@stantongrant.uk",
+  "EmailSubject": "beth@gleason.us",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lennie@considine.com",
+  "SenderEmailAddress": "larry_corkery@stokesmayert.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldLength": 405
     }
   }
 }

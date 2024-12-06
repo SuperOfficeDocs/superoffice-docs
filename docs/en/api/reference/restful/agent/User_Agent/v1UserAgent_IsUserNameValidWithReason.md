@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 480,
+  "AssociateId": 712,
   "Type": "AnonymousAssociate",
-  "PersonId": 944,
-  "UserName": "Gutkowski, Kuvalis and Kuhn"
+  "PersonId": 367,
+  "UserName": "Gerhold-Hickle"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=iste
-GET /api/v1/Contact?$top=609
-GET /api/v1/Contact?$skip=655
+GET /api/v1/Contact?$entities=sint
+GET /api/v1/Contact?$top=52
+GET /api/v1/Contact?$skip=234
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=aliquam
+GET /api/v1/Contact?$context=vitae
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 9878,
-      "EntityName": "person",
-      "personId": 9878,
-      "fullName": "Kailee Gottlieb"
+      "PrimaryKey": 3652,
+      "EntityName": "sale",
+      "saleId": 3652,
+      "contactId": 8453,
+      "name": "O'Conner-Bergstrom"
     },
     {
-      "PrimaryKey": 7664,
-      "EntityName": "person",
-      "personId": 7664,
-      "fullName": "Carley Bradtke"
+      "PrimaryKey": 698,
+      "EntityName": "sale",
+      "saleId": 698,
+      "contactId": 7482,
+      "name": "Moore Group"
     }
   ]
 }

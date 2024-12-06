@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 478,
-    "Name": "Durgan, Feeney and Barton",
-    "Tooltip": "commodi",
+    "HeadingId": 834,
+    "Name": "VonRueden-Grady",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 193,
-    "UdListDefinitionId": 560,
+    "Rank": 523,
+    "UdListDefinitionId": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 45
       }
     }
   }

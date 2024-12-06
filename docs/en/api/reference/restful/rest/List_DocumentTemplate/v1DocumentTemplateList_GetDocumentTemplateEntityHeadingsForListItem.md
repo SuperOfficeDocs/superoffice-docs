@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Crist Inc and Sons",
-    "ToolTip": "Doloribus natus delectus laboriosam laudantium.",
+    "Id": 673,
+    "Name": "Orn-Ruecker",
+    "ToolTip": "Cupiditate temporibus est tempore ipsa nostrum et.",
     "Deleted": false,
-    "Rank": 980,
-    "Type": "sunt",
-    "ColorBlock": 117,
-    "IconHint": "non",
+    "Rank": 664,
+    "Type": "quia",
+    "ColorBlock": 375,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2022-06-24T14:45:13.70862+02:00",
+    "LastChanged": "2009-03-08T10:18:01.0199926+01:00",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Rolfson LLC",
-        "ToolTip": "Et possimus.",
+        "Id": 427,
+        "Name": "Kshlerin-Hagenes",
+        "ToolTip": "Distinctio soluta ex.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "earum",
-        "ColorBlock": 50,
-        "IconHint": "porro",
+        "Rank": 502,
+        "Type": "velit",
+        "ColorBlock": 356,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2022-11-30T14:45:13.70862+01:00",
+        "LastChanged": "2007-01-11T10:18:01.0199926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "a",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Abagail Rosenbaum",
+        "FullName": "Dr. Jerel Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 383
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Catherine Savion VonRueden DVM",
+    "ExtraInfo": "corporis",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Marlon Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 144,
-  "ERPPriceListKey": "tempore",
-  "QuoteConnectionId": 807,
-  "Name": "Jacobi, Boyer and Herzog",
-  "Description": "Total zero defect framework",
-  "Currency": "officia",
-  "CurrencyName": "Crooks, Dooley and Kuhn",
-  "ValidFrom": "2007-11-16T14:45:06.0531349+01:00",
-  "ValidTo": "2001-05-16T14:45:06.0531349+02:00",
+  "PriceListId": 212,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 741,
+  "Name": "Wolff, Wintheiser and Huel",
+  "Description": "Polarised object-oriented architecture",
+  "Currency": "eius",
+  "CurrencyName": "Gleichner, Harris and Armstrong",
+  "ValidFrom": "2012-12-02T10:17:55.9259336+01:00",
+  "ValidTo": "2002-05-31T10:17:55.9259336+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   }
 }

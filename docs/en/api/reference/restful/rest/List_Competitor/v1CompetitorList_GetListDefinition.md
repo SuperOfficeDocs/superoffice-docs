@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Paucek Group",
+  "Id": 43,
+  "Name": "Herman, Marvin and McDermott",
   "Tooltip": "et",
   "Deleted": false,
-  "Rank": 697,
-  "IsCustomList": false,
+  "Rank": 689,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 807
     }
   },
   "_Links": {

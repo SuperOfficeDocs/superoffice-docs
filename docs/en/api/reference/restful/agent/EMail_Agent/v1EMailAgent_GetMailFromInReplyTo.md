@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "suscipit"
+  "MessageId": "dolores"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 489,
-      "ContactName": "Koelpin Group",
-      "PersonId": 87,
-      "PersonName": "Ruecker-Mitchell",
-      "AssociateId": 30,
-      "Address": "veniam",
-      "EmailId": 574,
+      "ContactId": 379,
+      "ContactName": "Hilll-Gerlach",
+      "PersonId": 680,
+      "PersonName": "Konopelski, Hintz and Wuckert",
+      "AssociateId": 970,
+      "Address": "ut",
+      "EmailId": 894,
       "DuplicatePersonIds": [
-        366,
-        348
+        150,
+        824
       ],
-      "Name": "Herzog-Yost",
+      "Name": "Mueller LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 703
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 669,
-      "ContactName": "Rutherford-Watsica",
-      "PersonId": 597,
-      "PersonName": "Denesik Inc and Sons",
-      "AssociateId": 847,
-      "Address": "sed",
-      "EmailId": 532,
+      "ContactId": 184,
+      "ContactName": "Tillman, McGlynn and Macejkovic",
+      "PersonId": 355,
+      "PersonName": "Bernhard, Nitzsche and Abbott",
+      "AssociateId": 632,
+      "Address": "vitae",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        932,
-        710
+        470,
+        143
       ],
-      "Name": "Wisoky-Gibson",
+      "Name": "Simonis, Schinner and Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldType": "System.Int32",
+          "FieldLength": 227
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 30,
-      "ContactName": "Quigley, Tremblay and Torp",
-      "PersonId": 757,
-      "PersonName": "Oberbrunner, Bernhard and Pollich",
-      "AssociateId": 432,
-      "Address": "placeat",
-      "EmailId": 181,
+      "ContactId": 650,
+      "ContactName": "Grimes, King and Bauch",
+      "PersonId": 786,
+      "PersonName": "Hayes Inc and Sons",
+      "AssociateId": 564,
+      "Address": "nulla",
+      "EmailId": 833,
       "DuplicatePersonIds": [
-        906,
-        34
+        841,
+        498
       ],
-      "Name": "Stehr, Beer and Kuphal",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 74
-        }
-      }
-    }
-  ],
-  "Subject": "ut",
-  "HTMLBody": "dolore",
-  "From": null,
-  "Sent": "2013-04-14T14:45:05.4751404+02:00",
-  "Size": 960,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "iste",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 490,
-  "Attachments": [
-    {
-      "Description": "Networked grid-enabled project",
-      "Filename": "amet",
-      "Size": 180,
-      "Type": "dolores",
-      "Encoding": "labore",
-      "Id": "culpa",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Fay Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldLength": 61
+        }
+      }
+    }
+  ],
+  "Subject": "non",
+  "HTMLBody": "excepturi",
+  "From": null,
+  "Sent": "2006-11-27T10:17:55.5509103+01:00",
+  "Size": 276,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "error",
+  "PlainBody": "eaque",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 683,
+  "Attachments": [
+    {
+      "Description": "Ergonomic multi-tasking encoding",
+      "Filename": "sequi",
+      "Size": 570,
+      "Type": "deserunt",
+      "Encoding": "recusandae",
+      "Id": "sapiente",
+      "Disposition": "culpa",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Denesik, Schiller and Schimmel",
+      "Name": "Bednar Group",
       "Values": [
-        "tempora",
-        "tenetur"
+        "facere",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldType": "System.Int32",
+          "FieldLength": 772
         }
       }
     },
     {
-      "Name": "Denesik, Schiller and Schimmel",
+      "Name": "Bednar Group",
       "Values": [
-        "tempora",
-        "tenetur"
+        "facere",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldType": "System.Int32",
+          "FieldLength": 772
         }
       }
     }
   ],
-  "FolderName": "Jast, Wyman and O'Connell",
-  "EmailItemId": 931,
-  "AccountId": 669,
-  "ReceivedAt": "1999-02-14T14:45:05.4751404+01:00",
+  "FolderName": "Sporer, Eichmann and Quigley",
+  "EmailItemId": 336,
+  "AccountId": 914,
+  "ReceivedAt": "2017-01-05T10:17:55.5509103+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-02-14T14:45:05.4751404+01:00",
+  "RepliedAt": "2005-10-13T10:17:55.5509103+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   }
 }

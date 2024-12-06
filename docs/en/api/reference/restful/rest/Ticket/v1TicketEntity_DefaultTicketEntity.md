@@ -114,7 +114,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 120,
-  "Title": "beatae",
-  "CreatedAt": "2000-07-11T14:45:13.2712164+02:00",
-  "LastChanged": "2001-09-27T14:45:13.2712164+02:00",
-  "ReadByOwner": "2006-05-12T14:45:13.2712164+02:00",
-  "ReadByCustomer": "2023-07-05T14:45:13.2712164+02:00",
-  "FirstReadByOwner": "2010-12-06T14:45:13.2712164+01:00",
-  "FirstReadByUser": "2018-09-10T14:45:13.2712164+02:00",
-  "Activate": "2004-07-26T14:45:13.2712164+02:00",
-  "ClosedAt": "2016-06-02T14:45:13.2712164+02:00",
-  "RepliedAt": "2014-05-16T14:45:13.2712164+02:00",
-  "AlertTimeout": "2004-08-09T14:45:13.2712164+02:00",
-  "Deadline": "2021-11-08T14:45:13.2712164+01:00",
+  "TicketId": 154,
+  "Title": "architecto",
+  "CreatedAt": "1999-04-06T10:18:00.7387241+02:00",
+  "LastChanged": "2002-12-21T10:18:00.7387241+01:00",
+  "ReadByOwner": "2003-06-09T10:18:00.7387241+02:00",
+  "ReadByCustomer": "2002-06-19T10:18:00.7387241+02:00",
+  "FirstReadByOwner": "2021-01-31T10:18:00.7387241+01:00",
+  "FirstReadByUser": "2011-11-17T10:18:00.7387241+01:00",
+  "Activate": "2008-12-16T10:18:00.7387241+01:00",
+  "ClosedAt": "1999-07-19T10:18:00.7387241+02:00",
+  "RepliedAt": "2013-10-10T10:18:00.7387241+02:00",
+  "AlertTimeout": "2011-04-16T10:18:00.7387241+02:00",
+  "Deadline": "2002-01-31T10:18:00.7387241+01:00",
   "CreatedBy": null,
-  "Author": "consequuntur",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,162 +149,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "autem",
-      "PersonId": 81,
-      "Mrmrs": "autem",
-      "Firstname": "Velva",
-      "Lastname": "Bosco",
-      "MiddleName": "Hilll, Koss and Koss",
-      "Title": "aut",
-      "Description": "Reverse-engineered bottom-line Graphic Interface",
-      "Email": "diego_mertz@cassin.uk",
-      "FullName": "Joey Hyatt DVM",
-      "DirectPhone": "1-037-766-5039",
-      "FormalName": "Emard-Haag",
-      "CountryId": 484,
-      "ContactId": 465,
-      "ContactName": "Ernser LLC",
-      "Retired": 446,
-      "Rank": 455,
-      "ActiveInterests": 987,
+      "Position": "nihil",
+      "PersonId": 208,
+      "Mrmrs": "minima",
+      "Firstname": "Ismael",
+      "Lastname": "Batz",
+      "MiddleName": "Marquardt-Ebert",
+      "Title": "debitis",
+      "Description": "Adaptive upward-trending standardization",
+      "Email": "amari.haley@cassin.uk",
+      "FullName": "Elmore Huels",
+      "DirectPhone": "637-833-1208 x6917",
+      "FormalName": "McCullough, Douglas and Erdman",
+      "CountryId": 230,
+      "ContactId": 734,
+      "ContactName": "Gleason Group",
+      "Retired": 362,
+      "Rank": 806,
+      "ActiveInterests": 184,
       "ContactDepartment": "",
-      "ContactCountryId": 465,
-      "ContactOrgNr": "275829",
-      "FaxPhone": "081.147.2293 x416",
-      "MobilePhone": "1-073-567-5951 x17028",
-      "ContactPhone": "(682)561-6928 x8140",
-      "AssociateName": "Feeney-Little",
-      "AssociateId": 193,
-      "UsePersonAddress": false,
-      "ContactFax": "adipisci",
-      "Kanafname": "harum",
-      "Kanalname": "nulla",
-      "Post1": "sit",
-      "Post2": "at",
-      "Post3": "aut",
-      "EmailName": "franz.terry@boylepaucek.ca",
-      "ContactFullName": "Ms. Damion Blaze Prohaska",
-      "ActiveErpLinks": 27,
-      "TicketPriorityId": 984,
-      "SupportLanguageId": 95,
-      "SupportAssociateId": 811,
+      "ContactCountryId": 238,
+      "ContactOrgNr": "1056883",
+      "FaxPhone": "(196)175-7322 x064",
+      "MobilePhone": "(505)170-6333 x9694",
+      "ContactPhone": "1-615-093-7498 x75509",
+      "AssociateName": "Walter-Gibson",
+      "AssociateId": 573,
+      "UsePersonAddress": true,
+      "ContactFax": "consequatur",
+      "Kanafname": "voluptas",
+      "Kanalname": "ut",
+      "Post1": "hic",
+      "Post2": "ut",
+      "Post3": "nulla",
+      "EmailName": "celestine@wisozk.ca",
+      "ContactFullName": "Kobe Vance Lueilwitz III",
+      "ActiveErpLinks": 11,
+      "TicketPriorityId": 119,
+      "SupportLanguageId": 662,
+      "SupportAssociateId": 217,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 47
+          "FieldLength": 24
         }
       }
     }
   ],
-  "AlertLevel": 19,
-  "ConnectId": 965,
+  "AlertLevel": 661,
+  "ConnectId": 957,
   "ReadStatus": "Green",
-  "TimeToReply": 43,
-  "RealTimeToReply": 307,
-  "TimeToClose": 721,
-  "RealTimeToClose": 434,
-  "TimeSpentInternally": 660,
-  "TimeSpentExternally": 788,
-  "TimeSpentQueue": 684,
-  "RealTimeSpentInternally": 427,
-  "RealTimeSpentExternally": 312,
-  "RealTimeSpentQueue": 308,
-  "TimeSpent": 874,
+  "TimeToReply": 955,
+  "RealTimeToReply": 222,
+  "TimeToClose": 161,
+  "RealTimeToClose": 187,
+  "TimeSpentInternally": 420,
+  "TimeSpentExternally": 232,
+  "TimeSpentQueue": 427,
+  "RealTimeSpentInternally": 535,
+  "RealTimeSpentExternally": 704,
+  "RealTimeSpentQueue": 469,
+  "TimeSpent": 861,
   "HasAttachment": false,
-  "NumReplies": 361,
-  "NumMessages": 6,
-  "FromAddress": "iste",
+  "NumReplies": 308,
+  "NumMessages": 932,
+  "FromAddress": "nesciunt",
   "Messages": [
     {
-      "TicketMessageId": 271,
-      "CreatedAt": "2022-09-21T14:45:13.2712164+02:00",
+      "TicketMessageId": 240,
+      "CreatedAt": "2021-01-08T10:18:00.7387241+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "est",
-      "PersonId": 510,
-      "PersonFullName": "Dulce Hyatt",
-      "ContactId": 775,
-      "ContactName": "Wyman Group",
-      "ContactDepartment": "",
-      "NumAttachments": 804,
-      "EmailHeader": "kelsie@johnssteuber.info",
+      "Author": "qui",
+      "PersonId": 930,
+      "PersonFullName": "Mr. Clay Watsica",
+      "ContactId": 685,
+      "ContactName": "Jenkins-Klocko",
+      "ContactDepartment": "mesh real-time technologies",
+      "NumAttachments": 231,
+      "EmailHeader": "mustafa@runte.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quod",
-      "Sentiment": 571,
-      "SentimentConfidence": 876,
-      "CreatedBy": 11,
-      "ChangedAt": "2008-08-21T14:45:13.2712164+02:00",
+      "Language": "minus",
+      "Sentiment": 671,
+      "SentimentConfidence": 476,
+      "CreatedBy": 569,
+      "ChangedAt": "2004-07-05T10:18:00.7387241+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 803
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 465,
-      "Name": "Zboncak-Legros",
-      "ToolTip": "Ut tempore veritatis qui aut.",
+      "Id": 911,
+      "Name": "Fay-Hickle",
+      "ToolTip": "In animi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 315
         }
       }
     },
     {
-      "Id": 465,
-      "Name": "Zboncak-Legros",
-      "ToolTip": "Ut tempore veritatis qui aut.",
+      "Id": 911,
+      "Name": "Fay-Hickle",
+      "ToolTip": "In animi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 315
         }
       }
     }
   ],
-  "Language": "sequi",
-  "Sentiment": 346,
-  "SentimentConfidence": 447,
-  "SuggestedCategoryId": 722,
+  "Language": "dolorem",
+  "Sentiment": 981,
+  "SentimentConfidence": 332,
+  "SuggestedCategoryId": 345,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 540,
-  "IconHint": "odio",
+  "OrigHumanCategoryId": 688,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 794,
+  "ActiveStatusMonitorId": 250,
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "aut"
+    "CustomFields1": "saepe",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 322
     }
   }
 }

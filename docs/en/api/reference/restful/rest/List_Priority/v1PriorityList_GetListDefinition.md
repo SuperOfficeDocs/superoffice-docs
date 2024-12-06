@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "Name": "Grimes, Moore and Beahan",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 771,
+  "Id": 487,
+  "Name": "Kiehn-Bergnaum",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 620,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldLength": 298
     }
   },
   "_Links": {

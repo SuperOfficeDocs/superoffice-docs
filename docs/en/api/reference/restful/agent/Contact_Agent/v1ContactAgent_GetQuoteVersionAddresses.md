@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 702
+  "QuoteVersionId": 750
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 14673.387999999999,
-    "Wgs84Longitude": 3544.554,
+    "Wgs84Latitude": 8609.098,
+    "Wgs84Longitude": 6550.0599999999995,
     "LocalizedAddress": [
       [
         {
-          "Name": "Gaylord-Hackett",
-          "Value": "nihil",
-          "Tooltip": "rerum",
-          "Label": "magnam",
-          "ValueLength": 812,
-          "AddressType": "esse",
+          "Name": "Howell-Tillman",
+          "Value": "nulla",
+          "Tooltip": "odio",
+          "Label": "itaque",
+          "ValueLength": 39,
+          "AddressType": "quasi",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 354
+              "FieldType": "System.String",
+              "FieldLength": 557
             }
           }
         }
       ],
       [
         {
-          "Name": "Conroy, Cummings and Davis",
-          "Value": "id",
-          "Tooltip": "perferendis",
-          "Label": "quia",
-          "ValueLength": 97,
-          "AddressType": "sapiente",
+          "Name": "Vandervort Group",
+          "Value": "inventore",
+          "Tooltip": "delectus",
+          "Label": "eligendi",
+          "ValueLength": 316,
+          "AddressType": "expedita",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 812
+              "FieldType": "System.Int32",
+              "FieldLength": 459
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "id",
+    "Formatted": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 414
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Oct 2013 14:45:12 G10T
+Last-Modified: Wed, 15 Jul 2015 10:18:00 G7T
 
 {
-  "ForeignDeviceId": 911,
-  "Name": "Trantow, Oberbrunner and Considine",
-  "CreatedDate": "2005-05-31T14:45:12.8338163+02:00",
-  "UpdatedDate": "2013-10-15T14:45:12.8338163+02:00",
-  "AssociateFullName": "Wyman Mosciski V",
-  "CreatedBy": "quia",
-  "UpdatedBy": "commodi",
-  "DeviceIdentifier": "molestiae",
-  "ForeignAppId": 560,
+  "ForeignDeviceId": 662,
+  "Name": "Schultz Inc and Sons",
+  "CreatedDate": "2021-12-08T10:18:00.4262067+01:00",
+  "UpdatedDate": "2015-07-15T10:18:00.4262067+02:00",
+  "AssociateFullName": "Prof. Zola Elfrieda Bednar Jr.",
+  "CreatedBy": "amet",
+  "UpdatedBy": "ipsa",
+  "DeviceIdentifier": "recusandae",
+  "ForeignAppId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 487
     }
   }
 }

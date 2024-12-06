@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 909
+  "DocumentId": 350
 }
 ```
 
@@ -117,18 +117,131 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 282,
-      "ContactName": "Lakin, Parisian and Cummings",
-      "PersonId": 191,
-      "PersonName": "Hayes, Morissette and Macejkovic",
-      "AssociateId": 996,
-      "Address": "soluta",
-      "EmailId": 197,
+      "ContactId": 144,
+      "ContactName": "Schultz-Pfannerstill",
+      "PersonId": 950,
+      "PersonName": "Hahn, Kertzmann and Cole",
+      "AssociateId": 374,
+      "Address": "saepe",
+      "EmailId": 682,
       "DuplicatePersonIds": [
-        738,
-        143
+        448,
+        212
       ],
-      "Name": "Sanford, Upton and Ferry",
+      "Name": "Walter-Schuster",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 400
+        }
+      }
+    }
+  ],
+  "Cc": [
+    {
+      "ContactId": 990,
+      "ContactName": "Larkin-Toy",
+      "PersonId": 333,
+      "PersonName": "Towne, McGlynn and Lakin",
+      "AssociateId": 632,
+      "Address": "molestiae",
+      "EmailId": 595,
+      "DuplicatePersonIds": [
+        758,
+        204
+      ],
+      "Name": "Graham-Gerlach",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 761
+        }
+      }
+    }
+  ],
+  "Bcc": [
+    {
+      "ContactId": 164,
+      "ContactName": "Armstrong LLC",
+      "PersonId": 919,
+      "PersonName": "Schoen-Reichert",
+      "AssociateId": 739,
+      "Address": "laborum",
+      "EmailId": 587,
+      "DuplicatePersonIds": [
+        987,
+        4
+      ],
+      "Name": "Kuhic-Johnston",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 423
+        }
+      }
+    }
+  ],
+  "Subject": "quo",
+  "HTMLBody": "ut",
+  "From": null,
+  "Sent": "2018-01-11T10:17:55.5977887+01:00",
+  "Size": 72,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "veritatis",
+  "PlainBody": "similique",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 18,
+  "Attachments": [
+    {
+      "Description": "Digitized responsive initiative",
+      "Filename": "et",
+      "Size": 794,
+      "Type": "neque",
+      "Encoding": "quod",
+      "Id": "soluta",
+      "Disposition": "quia",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 809
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Erdman Group",
+      "Values": [
+        "et",
+        "animi"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 280
+        }
+      }
+    },
+    {
+      "Name": "Erdman Group",
+      "Values": [
+        "et",
+        "animi"
+      ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -139,134 +252,21 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Cc": [
-    {
-      "ContactId": 806,
-      "ContactName": "Will-Raynor",
-      "PersonId": 427,
-      "PersonName": "Walker-Toy",
-      "AssociateId": 765,
-      "Address": "fugiat",
-      "EmailId": 237,
-      "DuplicatePersonIds": [
-        970,
-        4
-      ],
-      "Name": "Rodriguez, Predovic and Schumm",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
-        }
-      }
-    }
-  ],
-  "Bcc": [
-    {
-      "ContactId": 272,
-      "ContactName": "Yundt-Beahan",
-      "PersonId": 100,
-      "PersonName": "Spencer, Gerhold and Howell",
-      "AssociateId": 492,
-      "Address": "iste",
-      "EmailId": 946,
-      "DuplicatePersonIds": [
-        859,
-        72
-      ],
-      "Name": "Johnston-Braun",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
-        }
-      }
-    }
-  ],
-  "Subject": "in",
-  "HTMLBody": "modi",
-  "From": null,
-  "Sent": "2018-12-06T14:45:05.5532468+01:00",
-  "Size": 734,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "veritatis",
-  "PlainBody": "dolores",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 514,
-  "Attachments": [
-    {
-      "Description": "Enhanced 4th generation info-mediaries",
-      "Filename": "sapiente",
-      "Size": 519,
-      "Type": "sint",
-      "Encoding": "non",
-      "Id": "sapiente",
-      "Disposition": "veniam",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 983
-        }
-      }
-    }
-  ],
-  "CustomHeaderList": [
-    {
-      "Name": "Torp LLC",
-      "Values": [
-        "commodi",
-        "est"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 468
-        }
-      }
-    },
-    {
-      "Name": "Torp LLC",
-      "Values": [
-        "commodi",
-        "est"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 468
-        }
-      }
-    }
-  ],
-  "FolderName": "Jones-Swift",
-  "EmailItemId": 891,
-  "AccountId": 525,
-  "ReceivedAt": "2000-09-30T14:45:05.5532468+02:00",
+  "FolderName": "Goyette, O'Keefe and Macejkovic",
+  "EmailItemId": 613,
+  "AccountId": 149,
+  "ReceivedAt": "1997-11-22T10:17:55.5977887+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-10-06T14:45:05.5532468+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2017-02-18T10:17:55.5977887+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldType": "System.String",
+      "FieldLength": 209
     }
   }
 }

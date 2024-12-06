@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 958,
-  "Restrictions": "tempora"
+  "DashboardTileId": 761,
+  "Restrictions": "est"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Daniel, Mann and Wiegand",
-        "DisplayTooltip": "fugit",
-        "DisplayType": "consequuntur",
+        "DisplayName": "Wolf Inc and Sons",
+        "DisplayTooltip": "libero",
+        "DisplayType": "magnam",
         "CanOrderBy": false,
-        "Name": "Pfannerstill-Bartell",
+        "Name": "Grant-Larson",
         "CanRestrictBy": true,
-        "RestrictionType": "totam",
-        "RestrictionListName": "Towne, Little and Dickinson",
+        "RestrictionType": "repellat",
+        "RestrictionListName": "Howell, Lebsack and Renner",
         "IsVisible": false,
-        "ExtraInfo": "quod",
-        "Width": "impedit",
-        "IconHint": "necessitatibus",
-        "HeadingIconHint": "deserunt"
+        "ExtraInfo": "eum",
+        "Width": "praesentium",
+        "IconHint": "voluptas",
+        "HeadingIconHint": "quo"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Daniel, Mann and Wiegand",
-        "DisplayTooltip": "fugit",
-        "DisplayType": "consequuntur",
+        "DisplayName": "Wolf Inc and Sons",
+        "DisplayTooltip": "libero",
+        "DisplayType": "magnam",
         "CanOrderBy": false,
-        "Name": "Pfannerstill-Bartell",
+        "Name": "Grant-Larson",
         "CanRestrictBy": true,
-        "RestrictionType": "totam",
-        "RestrictionListName": "Towne, Little and Dickinson",
+        "RestrictionType": "repellat",
+        "RestrictionListName": "Howell, Lebsack and Renner",
         "IsVisible": false,
-        "ExtraInfo": "quod",
-        "Width": "impedit",
-        "IconHint": "necessitatibus",
-        "HeadingIconHint": "deserunt"
+        "ExtraInfo": "eum",
+        "Width": "praesentium",
+        "IconHint": "voluptas",
+        "HeadingIconHint": "quo"
       }
     ],
     "Result": null

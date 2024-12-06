@@ -1,9 +1,9 @@
 ---
-uid: version_10.3.13.113_changes
-date: 11/30/2024
+uid: version_10.3.13.233_changes
+date: 12/6/2024
 ---
 
-Changes from v10.3.12.929 and v10.3.13.113
+Changes from v10.3.12.929 and v10.3.13.233
 
 ## Web Services
 

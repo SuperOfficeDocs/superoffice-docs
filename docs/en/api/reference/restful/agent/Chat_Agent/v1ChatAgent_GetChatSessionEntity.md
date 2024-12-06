@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=904
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=817
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 34,
-  "TopicId": 197,
+  "ChatSessionId": 424,
+  "TopicId": 975,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "laborum",
-  "CustomerName": "Hansen-Douglas",
-  "CustomerEmail": "lorenz_durgan@oberbrunner.ca",
-  "CustomerPhone": "(455)053-4415 x25968",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Abernathy-Ledner",
+  "CustomerAlias": "non",
+  "CustomerHost": "doloribus",
+  "CustomerName": "Hilpert, Nienow and Olson",
+  "CustomerEmail": "eugenia@schultz.name",
+  "CustomerPhone": "592.506.0415",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Schmeler-Thompson",
   "Status": "Closed",
-  "FirstMessage": "maxime",
-  "LastMessage": "fugit",
-  "WhenRequested": "2002-08-05T14:45:04.9440095+02:00",
-  "WhenStarted": "2004-06-30T14:45:04.9440095+02:00",
-  "WhenEnded": "2009-07-07T14:45:04.9440095+02:00",
-  "WhenIdle": "2015-11-17T14:45:04.9440095+01:00",
-  "WhenFetched": "2008-07-06T14:45:04.9440095+02:00",
-  "SessionKey": "aspernatur",
-  "InitialQueuePos": 517,
-  "AlertLevel": 37,
-  "Rank": 196,
+  "FirstMessage": "aspernatur",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2004-02-17T10:17:55.1602621+01:00",
+  "WhenStarted": "2006-08-20T10:17:55.1602621+02:00",
+  "WhenEnded": "2023-03-16T10:17:55.1602621+01:00",
+  "WhenIdle": "2011-12-18T10:17:55.1602621+01:00",
+  "WhenFetched": "2012-12-06T10:17:55.1602621+01:00",
+  "SessionKey": "dignissimos",
+  "InitialQueuePos": 919,
+  "AlertLevel": 606,
+  "Rank": 245,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 341,
+  "ChatbotIsActive": true,
+  "Rating": 748,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

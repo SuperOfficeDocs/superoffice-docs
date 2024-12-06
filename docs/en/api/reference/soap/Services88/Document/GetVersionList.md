@@ -67,7 +67,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:ExternalReference xsi:type="xsd:string"></Document:ExternalReference>
      <Document:DocumentId xsi:type="xsd:int">0</Document:DocumentId>
      <Document:VersionId xsi:type="xsd:string"></Document:VersionId>
-     <Document:CheckedInDate xsi:type="xsd:dateTime">2024-11-18T13:43:24Z</Document:CheckedInDate>
+     <Document:CheckedInDate xsi:type="xsd:dateTime">2024-12-04T09:16:16Z</Document:CheckedInDate>
      <Document:CheckedInByName xsi:type="xsd:string"></Document:CheckedInByName>
      <Document:CheckedInByAssociateId xsi:type="xsd:int">0</Document:CheckedInByAssociateId>
      <Document:Description xsi:type="xsd:string"></Document:Description>

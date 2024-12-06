@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 978
+  "PrefDescId": 596
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 96,
-    "PrefDescId": 298,
-    "PrefValue": "et",
-    "PrefShowValue": "ut",
-    "Description": "Synergized mission-critical help-desk",
-    "IsBuiltin": true,
+    "PrefDescLineId": 198,
+    "PrefDescId": 930,
+    "PrefValue": "rerum",
+    "PrefShowValue": "beatae",
+    "Description": "Visionary impactful data-warehouse",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

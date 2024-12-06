@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "delectus",
-  "ProviderName": "Kuphal-Hyatt",
-  "StorageKey": "quasi",
+  "StorageType": "repudiandae",
+  "ProviderName": "Auer LLC",
+  "StorageKey": "et",
   "RestrictionGroups": [
     {
-      "Name": "Schinner-Lynch",
-      "Description": "Balanced object-oriented pricing structure",
-      "Rank": 337,
+      "Name": "Bahringer, Grant and Wunsch",
+      "Description": "Right-sized impactful infrastructure",
+      "Rank": 444,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schinner-Lynch",
-      "Description": "Balanced object-oriented pricing structure",
-      "Rank": 337,
+      "Name": "Bahringer, Grant and Wunsch",
+      "Description": "Right-sized impactful infrastructure",
+      "Rank": 444,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "dolorum"
+  "Context": "est"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koelpin-Kassulke",
-    "Description": "Exclusive context-sensitive analyzer",
-    "Rank": 1000,
+    "Name": "Bergnaum, Balistreri and Jacobs",
+    "Description": "Grass-roots systemic matrix",
+    "Rank": 587,
     "Restrictions": [
       {
-        "Name": "Towne Inc and Sons",
-        "Operator": "voluptatem",
+        "Name": "Schimmel Inc and Sons",
+        "Operator": "consequatur",
         "Values": [
-          "id",
-          "mollitia"
+          "quisquam",
+          "impedit"
         ],
         "DisplayValues": [
-          "consequatur",
-          "et"
+          "animi",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 209,
+        "InterParenthesis": 718,
         "InterOperator": "And",
-        "UniqueHash": 399
+        "UniqueHash": 904
       }
     ]
   },
   {
-    "Name": "Koelpin-Kassulke",
-    "Description": "Exclusive context-sensitive analyzer",
-    "Rank": 1000,
+    "Name": "Bergnaum, Balistreri and Jacobs",
+    "Description": "Grass-roots systemic matrix",
+    "Rank": 587,
     "Restrictions": [
       {
-        "Name": "Towne Inc and Sons",
-        "Operator": "voluptatem",
+        "Name": "Schimmel Inc and Sons",
+        "Operator": "consequatur",
         "Values": [
-          "id",
-          "mollitia"
+          "quisquam",
+          "impedit"
         ],
         "DisplayValues": [
-          "consequatur",
-          "et"
+          "animi",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 209,
+        "InterParenthesis": 718,
         "InterOperator": "And",
-        "UniqueHash": 399
+        "UniqueHash": 904
       }
     ]
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2001-04-15T14:45:04.7396581+02:00"
+  "StartDate": "2024-11-29T10:17:55.0352545+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 379,
-  "StartDate": "2016-07-05T14:45:04.7396581+02:00",
-  "EndDate": "2016-05-22T14:45:04.7396581+02:00",
-  "RecurrenceCounter": 437,
+  "RecurrenceId": 233,
+  "StartDate": "2007-03-13T10:17:55.0352545+01:00",
+  "EndDate": "2007-08-11T10:17:55.0352545+02:00",
+  "RecurrenceCounter": 354,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2007-02-23T14:45:04.7396581+01:00",
-      "IsConflict": true,
-      "Description": "Streamlined value-added toolset",
-      "DescriptionStyleHint": "Integrated scalable installation",
-      "Tooltip": "quis"
+      "Date": "2004-10-07T10:17:55.0352545+02:00",
+      "IsConflict": false,
+      "Description": "Grass-roots client-driven definition",
+      "DescriptionStyleHint": "Robust mission-critical alliance",
+      "Tooltip": "vel"
     },
     {
-      "Date": "2007-02-23T14:45:04.7396581+01:00",
-      "IsConflict": true,
-      "Description": "Streamlined value-added toolset",
-      "DescriptionStyleHint": "Integrated scalable installation",
-      "Tooltip": "quis"
+      "Date": "2004-10-07T10:17:55.0352545+02:00",
+      "IsConflict": false,
+      "Description": "Grass-roots client-driven definition",
+      "DescriptionStyleHint": "Robust mission-critical alliance",
+      "Tooltip": "vel"
     }
   ],
   "IsRecurrence": false

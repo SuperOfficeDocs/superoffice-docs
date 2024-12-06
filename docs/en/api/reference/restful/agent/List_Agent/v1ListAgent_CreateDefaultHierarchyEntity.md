@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 257,
+  "HierarchyId": 27,
   "Domain": "Dashboards",
-  "Name": "Pfeffer-Hilll",
-  "Fullname": "quidem",
-  "ParentId": 771,
+  "Name": "Goyette-Padberg",
+  "Fullname": "officia",
+  "ParentId": 263,
   "Children": [
     {
-      "HierarchyId": 268,
+      "HierarchyId": 568,
       "Domain": "Dashboards",
-      "Name": "Volkman Inc and Sons",
-      "Fullname": "voluptas",
-      "ParentId": 532,
+      "Name": "Kshlerin, Zulauf and Trantow",
+      "Fullname": "qui",
+      "ParentId": 79,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-06-26T14:45:05.7563266+02:00",
-      "RegisteredAssociateId": 531,
-      "Updated": "2012-07-22T14:45:05.7563266+02:00",
-      "UpdatedAssociateId": 711,
+      "Registered": "2024-06-08T10:17:55.7384214+02:00",
+      "RegisteredAssociateId": 827,
+      "Updated": "2016-01-29T10:17:55.7384214+01:00",
+      "UpdatedAssociateId": 816,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldType": "System.String",
+          "FieldLength": 777
         }
       }
     }
   ],
-  "Registered": "2008-11-26T14:45:05.7563266+01:00",
-  "RegisteredAssociateId": 472,
-  "Updated": "2009-01-15T14:45:05.7563266+01:00",
-  "UpdatedAssociateId": 472,
+  "Registered": "2021-09-16T10:17:55.7384214+02:00",
+  "RegisteredAssociateId": 770,
+  "Updated": "2005-12-26T10:17:55.7384214+01:00",
+  "UpdatedAssociateId": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Jun 2003 14:45:12 G6T
+Last-Modified: Mon, 14 Mar 2005 10:18:00 G3T
 
 {
-  "DocumentId": 281,
+  "DocumentId": 882,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "quia",
-  "Name": "Shields-Larson",
-  "OurRef": "autem",
-  "YourRef": "quaerat",
-  "CreatedDate": "2020-11-07T14:45:12.7400857+01:00",
-  "UpdatedDate": "2003-06-26T14:45:12.7400857+02:00",
-  "Description": "Vision-oriented actuating success",
+  "Attention": "possimus",
+  "Header": "modi",
+  "Name": "Rempel Inc and Sons",
+  "OurRef": "velit",
+  "YourRef": "numquam",
+  "CreatedDate": "2002-08-19T10:18:00.3480699+02:00",
+  "UpdatedDate": "2005-03-14T10:18:00.3480699+01:00",
+  "Description": "Devolved contextually-based algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-21T14:45:12.7400857+01:00",
-  "ExternalRef": "dignissimos",
+  "Date": "2005-03-30T10:18:00.3637024+02:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 345,
+  "ActiveLinks": 770,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wolf-Bernier",
-      "Id": 358,
-      "Description": "Fundamental mission-critical encryption",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 311,
+      "EntityName": "Okuneva-Hettinger",
+      "Id": 758,
+      "Description": "Visionary object-oriented service-desk",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 516,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 446
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 502,
-  "Snum": 569,
+  "SuggestedDocumentId": 839,
+  "Snum": 732,
   "UserDefinedFields": {
-    "SuperOffice:1": "1087998925",
-    "SuperOffice:2": "Tatum Conroy"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Beau Beatty"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "hic"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2008-04-05T14:45:12.7400857+02:00",
-  "PublishTo": "2007-10-29T14:45:12.7400857+01:00",
-  "PublishFrom": "1997-12-07T14:45:12.7400857+01:00",
+  "PublishEventDate": "2014-07-29T10:18:00.3637024+02:00",
+  "PublishTo": "2008-10-01T10:18:00.3637024+02:00",
+  "PublishFrom": "2011-09-01T10:18:00.3637024+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 238,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     },
     {
-      "VisibleId": 238,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Thu, 26 Jun 2003 14:45:12 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

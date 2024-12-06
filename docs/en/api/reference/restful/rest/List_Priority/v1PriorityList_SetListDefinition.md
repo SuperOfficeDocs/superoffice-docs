@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Tremblay LLC",
-  "Tooltip": "odit",
+  "Id": 321,
+  "Name": "Weissnat Group",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 821,
+  "Rank": 404,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": true
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 640,
-  "Name": "Lebsack Inc and Sons",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 597,
+  "Id": 435,
+  "Name": "Boyle-Wilderman",
+  "Tooltip": "magnam",
+  "Deleted": true,
+  "Rank": 494,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "provident",
+  "ListType": "ipsum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

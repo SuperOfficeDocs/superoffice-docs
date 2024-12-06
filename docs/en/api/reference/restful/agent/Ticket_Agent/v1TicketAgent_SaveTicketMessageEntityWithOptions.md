@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    3,
-    998
+    646,
+    880
   ],
   "UpdateRepliedAt": false
 }
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 705,
+  "EjMessageId": 676,
   "Ticket": null,
-  "CreatedAt": "2003-11-20T14:45:06.5998882+01:00",
+  "CreatedAt": "2023-11-26T10:17:56.2853287+01:00",
   "CreatedBy": null,
-  "Author": "occaecati",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eos",
-  "TimeSpent": 681,
-  "Body": "alias",
-  "HtmlBody": "dignissimos",
-  "EmailHeader": "monty@quigleywiza.uk",
-  "DebugInfo": "deleniti",
-  "MailSorter": "possimus",
+  "MessageId": "et",
+  "TimeSpent": 816,
+  "Body": "quia",
+  "HtmlBody": "neque",
+  "EmailHeader": "esta@morissette.ca",
+  "DebugInfo": "illum",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eveniet",
+  "SearchTitle": "eius",
   "MessageHeaders": [
     {
-      "Id": 122,
-      "Name": "Bogisich, Hauck and White",
-      "Value": "alias",
+      "Id": 851,
+      "Name": "Nolan, Botsford and King",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
   "Important": false,
-  "Language": "veniam",
-  "Sentiment": 733,
-  "SentimentConfidence": 86,
+  "Language": "similique",
+  "Sentiment": 713,
+  "SentimentConfidence": 171,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 341,
-      "Name": "Streich LLC",
-      "ContentType": "illo",
-      "AttSize": 789,
-      "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "ex",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 274,
+      "Name": "Anderson, Gutmann and King",
+      "ContentType": "nesciunt",
+      "AttSize": 679,
+      "InlineImage": true,
+      "ContentId": "rerum",
+      "AuthKey": "cumque",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 869
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "hic",
+    "CustomFields2": "sint"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 91
     }
   }
 }

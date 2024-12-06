@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Upton-Sanford",
-    "ToolTip": "Quidem animi repellendus quisquam similique.",
-    "Deleted": true,
-    "Rank": 392,
-    "Type": "ea",
-    "ColorBlock": 440,
-    "IconHint": "earum",
+    "Id": 955,
+    "Name": "Littel, Ledner and Moen",
+    "ToolTip": "Sequi dolores totam.",
+    "Deleted": false,
+    "Rank": 661,
+    "Type": "corporis",
+    "ColorBlock": 652,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2009-10-01T14:45:13.552405+02:00",
+    "LastChanged": "2012-06-27T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Braun-Kuphal",
-        "ToolTip": "Ullam saepe illo repudiandae in sunt.",
-        "Deleted": false,
-        "Rank": 15,
-        "Type": "praesentium",
-        "ColorBlock": 431,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2016-03-16T14:45:13.552405+01:00",
+        "Id": 445,
+        "Name": "Armstrong Inc and Sons",
+        "ToolTip": "Similique neque libero et vitae.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "quo",
+        "ColorBlock": 771,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2012-07-12T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Rupert Toy",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Dr. Vladimir Karlie Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "earum",
+    "ExtraInfo": "maiores",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Heidi Wilfrid Zboncak MD",
+    "FullName": "Prof. Ruben Rosendo Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 501
       }
     }
   }

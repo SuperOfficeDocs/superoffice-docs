@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "assumenda",
-  "ProviderName": "Stracke-Monahan",
-  "StorageKey": "voluptatem",
+  "StorageType": "non",
+  "ProviderName": "Wuckert, Baumbach and Green",
+  "StorageKey": "dolorem",
   "Restrictions": [
     {
-      "Name": "Mante, Waters and Boehm",
-      "Operator": "suscipit",
+      "Name": "Windler, Nolan and Berge",
+      "Operator": "aut",
       "Values": [
-        "aliquam",
-        "sapiente"
+        "recusandae",
+        "enim"
       ],
       "DisplayValues": [
-        "laborum",
-        "ut"
+        "aut",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 107,
+      "InterParenthesis": 267,
       "InterOperator": "And",
-      "UniqueHash": 854
+      "UniqueHash": 556
     }
   ]
 }

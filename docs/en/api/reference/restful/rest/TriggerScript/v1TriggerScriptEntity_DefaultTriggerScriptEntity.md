@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 405,
-  "Name": "Greenfelder-Howell",
+  "ScreenChooserId": 53,
+  "Name": "Pagac-Hilpert",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "consequatur",
-  "Source": "earum",
-  "Registered": "2019-12-27T14:45:13.3805746+01:00",
-  "RegisteredAssociateId": 780,
-  "Updated": "2009-07-06T14:45:13.3805746+02:00",
-  "UpdatedAssociateId": 961,
+  "Enabled": true,
+  "UniqueIdentifier": "dicta",
+  "Source": "a",
+  "Registered": "2007-06-24T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 101,
+  "Updated": "2024-09-07T10:18:00.8168545+02:00",
+  "UpdatedAssociateId": 790,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

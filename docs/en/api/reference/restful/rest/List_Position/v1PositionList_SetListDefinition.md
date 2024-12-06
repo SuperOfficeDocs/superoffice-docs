@@ -84,18 +84,18 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 31,
-  "Name": "Ortiz LLC",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "Rank": 178,
-  "IsCustomList": true,
+  "Id": 32,
+  "Name": "Durgan-Kulas",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 901,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
+  "UseGroupsAndHeadings": false,
   "ListType": "est",
   "InUseByUserDefinedFields": false
 }
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 807,
-  "Name": "Runolfsdottir-Oberbrunner",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 119,
-  "IsCustomList": false,
+  "Id": 659,
+  "Name": "Gottlieb Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 937,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

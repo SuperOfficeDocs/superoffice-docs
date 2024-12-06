@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "non",
-  "SearchString": "quia"
+  "Type": "eveniet",
+  "SearchString": "ut"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "maiores",
-    "provident"
+    "quibusdam",
+    "excepturi"
   ],
   "Users": [
     {
-      "Value": "sed",
-      "DisplayValue": "dolores",
+      "Value": "voluptates",
+      "DisplayValue": "rem",
       "Columns": [
-        "ipsum",
-        "et"
+        "voluptatum",
+        "labore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldLength": 883
         }
       }
     },
     {
-      "Value": "sed",
-      "DisplayValue": "dolores",
+      "Value": "voluptates",
+      "DisplayValue": "rem",
       "Columns": [
-        "ipsum",
-        "et"
+        "voluptatum",
+        "labore"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldLength": 883
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 295
     }
   }
 }

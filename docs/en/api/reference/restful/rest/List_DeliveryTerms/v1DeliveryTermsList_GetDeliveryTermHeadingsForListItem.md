@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Emard, Brakus and Klein",
-    "ToolTip": "Nesciunt doloremque minima delectus delectus est.",
+    "Id": 389,
+    "Name": "Marvin-Jacobs",
+    "ToolTip": "Saepe expedita.",
     "Deleted": false,
-    "Rank": 204,
-    "Type": "dignissimos",
-    "ColorBlock": 114,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2017-05-09T14:45:13.6773768+02:00",
+    "Rank": 720,
+    "Type": "numquam",
+    "ColorBlock": 390,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2009-07-06T10:18:01.0043667+02:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Hartmann-Toy",
-        "ToolTip": "Et et saepe aut non qui optio distinctio.",
+        "Id": 248,
+        "Name": "Walker, Roberts and Schultz",
+        "ToolTip": "Sapiente ducimus officiis fugiat.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "quia",
-        "ColorBlock": 59,
-        "IconHint": "molestias",
+        "Rank": 62,
+        "Type": "aut",
+        "ColorBlock": 24,
+        "IconHint": "veritatis",
         "Selected": true,
-        "LastChanged": "2021-11-01T14:45:13.6773768+01:00",
+        "LastChanged": "2023-06-23T10:18:01.0043667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Claire Keeling",
+        "FullName": "Marina Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldType": "System.String",
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Santino Lesch",
+    "FullName": "Major Cristobal Gleichner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 775
       }
     }
   }

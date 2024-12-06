@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Huels-Mante",
+  "ProviderName": "Hintz-Hermann",
   "Restrictions": [
     {
-      "Name": "Cronin, Boyle and Roberts",
-      "Operator": "reiciendis",
+      "Name": "Heller Group",
+      "Operator": "consequatur",
       "Values": [
-        "iusto",
-        "blanditiis"
+        "cupiditate",
+        "nesciunt"
       ],
       "DisplayValues": [
-        "ea",
-        "sed"
+        "minima",
+        "explicabo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 729,
+      "InterParenthesis": 797,
       "InterOperator": "And",
-      "UniqueHash": 473
+      "UniqueHash": 613
     }
   ],
-  "AssociateId": 895
+  "AssociateId": 221
 }
 ```
 

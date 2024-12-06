@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "architecto",
-  "ProviderName": "Hansen, Welch and Waelchi"
+  "StorageType": "ad",
+  "ProviderName": "Botsford-Langosh"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "occaecati",
-  "repellat"
+  "culpa",
+  "sed"
 ]
 ```

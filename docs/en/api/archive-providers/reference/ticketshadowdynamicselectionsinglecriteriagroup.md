@@ -760,7 +760,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=createdBy/associateDbId,createdBy/isActive,person/personUrl/URLAddress,person/correspondingAssociate/middleName,contact/contactAssociate/contactFullName
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=createdBy/isActive,ownedBy/assocType,person/personMobilePhone/formattedNumber,person/personAssociate/title,person/isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

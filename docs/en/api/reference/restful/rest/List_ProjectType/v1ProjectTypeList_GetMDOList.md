@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=rem
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Lubowitz, Hoppe and Gulgowski",
-    "ToolTip": "Iure quae.",
+    "Id": 176,
+    "Name": "Lehner, Quigley and Halvorson",
+    "ToolTip": "Praesentium rerum quia molestiae.",
     "Deleted": true,
-    "Rank": 210,
-    "Type": "quaerat",
+    "Rank": 498,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Harvey-McDermott",
-        "ToolTip": "Corporis aut dolores.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "ullam",
+        "Id": 906,
+        "Name": "Cormier-Predovic",
+        "ToolTip": "Accusantium est rem neque quo vero quis dolorem.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 622,
-        "ExtraInfo": "quo",
-        "StyleHint": "et",
-        "FullName": "Kamille Russel",
+        "IconHint": "sed",
+        "ColorBlock": 491,
+        "ExtraInfo": "quidem",
+        "StyleHint": "quod",
+        "FullName": "Alta Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 75,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "quia",
-    "FullName": "Dahlia White",
+    "IconHint": "natus",
+    "ColorBlock": 657,
+    "ExtraInfo": "quis",
+    "StyleHint": "suscipit",
+    "FullName": "Oren Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldLength": 35
       }
     }
   }

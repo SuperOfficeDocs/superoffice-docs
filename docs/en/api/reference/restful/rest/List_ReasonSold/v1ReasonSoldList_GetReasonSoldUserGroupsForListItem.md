@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Little-Gottlieb",
-    "ToolTip": "Neque voluptatum est illum corporis.",
+    "Id": 823,
+    "Name": "Thiel-Turcotte",
+    "ToolTip": "Eligendi praesentium dolorem necessitatibus magnam sed eos quo.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "error",
-    "ColorBlock": 106,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2020-07-28T14:45:13.8960777+02:00",
+    "Rank": 162,
+    "Type": "quae",
+    "ColorBlock": 307,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2015-06-08T10:18:01.1450002+02:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Beier-Ernser",
-        "ToolTip": "Aspernatur totam sit soluta vel omnis ex dolore.",
-        "Deleted": false,
-        "Rank": 207,
-        "Type": "deserunt",
-        "ColorBlock": 855,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "2003-10-18T14:45:13.8960777+02:00",
+        "Id": 818,
+        "Name": "Prosacco-Satterfield",
+        "ToolTip": "Dicta officiis aut.",
+        "Deleted": true,
+        "Rank": 156,
+        "Type": "dolores",
+        "ColorBlock": 10,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2023-02-05T10:18:01.1450002+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "delectus",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Krystal Schiller",
+        "FullName": "Weldon O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 646
+            "FieldType": "System.Int32",
+            "FieldLength": 70
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Gerda Veum",
+    "FullName": "Coty Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 930
       }
     }
   }

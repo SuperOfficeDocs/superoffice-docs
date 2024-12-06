@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Kovacek-Rempel",
-    "ToolTip": "Et eos eaque voluptate et et.",
-    "Deleted": false,
-    "Rank": 825,
-    "Type": "qui",
-    "ColorBlock": 553,
-    "IconHint": "aliquid",
+    "Id": 630,
+    "Name": "Ernser-Muller",
+    "ToolTip": "Odit deserunt esse voluptatum alias et rerum.",
+    "Deleted": true,
+    "Rank": 14,
+    "Type": "omnis",
+    "ColorBlock": 551,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2015-04-08T14:45:13.552405+02:00",
+    "LastChanged": "2010-09-01T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Wiegand-Mitchell",
-        "ToolTip": "Illo dolor quia excepturi placeat.",
+        "Id": 190,
+        "Name": "Nader-Nikolaus",
+        "ToolTip": "Est consequatur et officiis inventore voluptas.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "consequatur",
-        "ColorBlock": 866,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2013-06-09T14:45:13.552405+02:00",
+        "Rank": 108,
+        "Type": "unde",
+        "ColorBlock": 429,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "2005-12-18T10:18:00.926237+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Lilly Davis"
+        "ExtraInfo": "nobis",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Dr. Libby Amara Ebert PhD"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "provident",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Dr. Jackeline Katlynn Sanford Sr."
+    "FullName": "Adalberto Cormier"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Hoppe-Schroeder",
-    "ToolTip": "Et quod sunt suscipit et veritatis sapiente maxime.",
+    "Id": 870,
+    "Name": "Cummings LLC",
+    "ToolTip": "Quia architecto quia nostrum id.",
     "Deleted": false,
-    "Rank": 431,
-    "Type": "enim",
-    "ColorBlock": 529,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2019-08-29T14:45:13.552405+02:00",
+    "Rank": 430,
+    "Type": "illum",
+    "ColorBlock": 576,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2019-05-28T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Schmeler, Flatley and Cormier",
-        "ToolTip": "Placeat ut non dolorem consequuntur.",
-        "Deleted": false,
-        "Rank": 259,
-        "Type": "et",
-        "ColorBlock": 394,
-        "IconHint": "sit",
+        "Id": 472,
+        "Name": "Mann, Kemmer and Brown",
+        "ToolTip": "Et ipsa ipsam rerum ut voluptates.",
+        "Deleted": true,
+        "Rank": 539,
+        "Type": "qui",
+        "ColorBlock": 856,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2003-02-11T14:45:13.552405+01:00",
+        "LastChanged": "2009-07-12T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eius",
+        "ExtraInfo": "soluta",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Prof. Icie Fay",
+        "FullName": "Ellie Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Perry Wolff",
+    "FullName": "Mrs. Jalon Jarvis Kerluke Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 770
       }
     }
   }

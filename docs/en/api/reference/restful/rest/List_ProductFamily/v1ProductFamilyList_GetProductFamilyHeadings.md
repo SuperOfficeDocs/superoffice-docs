@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 4,
-    "Name": "Dooley, Veum and Smitham",
-    "Tooltip": "molestias",
-    "Deleted": true,
-    "Rank": 976,
-    "UdListDefinitionId": 824,
+    "HeadingId": 632,
+    "Name": "Weber, Lowe and Renner",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 757,
+    "UdListDefinitionId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldLength": 562
       }
     }
   }

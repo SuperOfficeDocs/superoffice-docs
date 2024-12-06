@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gerhold LLC"
+  "ApplicationName": "Collier-Muller"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ducimus",
-    "Value": "et",
-    "RecordId": 8,
-    "CreatedDate": "2004-07-02T14:45:05.6469762+02:00",
-    "UpdatedDate": "2023-02-18T14:45:05.6469762+01:00",
-    "UpdatedBy": "temporibus",
-    "CreatedBy": "quos",
-    "TableName": "Hettinger LLC",
+    "Key": "dolor",
+    "Value": "ad",
+    "RecordId": 962,
+    "CreatedDate": "2008-06-07T10:17:55.660285+02:00",
+    "UpdatedDate": "2010-02-24T10:17:55.660285+01:00",
+    "UpdatedBy": "et",
+    "CreatedBy": "dicta",
+    "TableName": "Hauck, Moen and Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 180
       }
     }
   }

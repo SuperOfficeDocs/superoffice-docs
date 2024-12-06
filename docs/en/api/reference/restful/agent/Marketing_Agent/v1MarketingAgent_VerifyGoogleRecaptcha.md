@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "et",
-  "OptionalSecretKey": "voluptates"
+  "Token": "aut",
+  "OptionalSecretKey": "aut"
 }
 ```
 

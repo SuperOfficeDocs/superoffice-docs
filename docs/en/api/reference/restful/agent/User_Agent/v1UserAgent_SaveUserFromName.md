@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Wolff, Glover and Pagac",
+  "UserName": "Mills Group",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 720,
-  "Name": "Schaden-Mohr",
-  "Rank": 399,
-  "Tooltip": "quam",
+  "AssociateId": 309,
+  "Name": "Hodkiewicz, Lebsack and Klein",
+  "Rank": 226,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Bernier-Emmerich",
-      "Description": "Operative exuding open architecture",
+      "Name": "Willms, Gislason and Block",
+      "Description": "Switchable multimedia capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldLength": 173
         }
       }
     },
     {
-      "Name": "Bernier-Emmerich",
-      "Description": "Operative exuding open architecture",
+      "Name": "Willms, Gislason and Block",
+      "Description": "Switchable multimedia capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldLength": 173
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dicta",
-      "Tooltip": "voluptate",
-      "Id": 289,
-      "Rank": 383,
-      "Deleted": true,
+      "Value": "enim",
+      "Tooltip": "odit",
+      "Id": 667,
+      "Rank": 723,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 661
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1997-07-25T14:45:06.6779961+02:00",
-  "Lastlogout": "1999-05-28T14:45:06.6779961+02:00",
-  "EjUserId": 362,
-  "RequestSignature": "quod",
+  "Deleted": true,
+  "Lastlogin": "2015-02-02T10:17:56.3322071+01:00",
+  "Lastlogout": "2024-05-02T10:17:56.3322071+02:00",
+  "EjUserId": 728,
+  "RequestSignature": "suscipit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "et",
-      "DisplayValue": "sit",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
-        }
-      }
-    }
-  ],
-  "UserName": "Wilkinson-Walsh",
-  "TicketCategories": [
-    {
-      "Id": 953,
-      "Name": "Daniel Group",
-      "ToolTip": "Nemo perspiciatis fugiat possimus asperiores ea.",
-      "Deleted": true,
-      "Rank": 293,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolor",
-      "ColorBlock": 824,
-      "ExtraInfo": "necessitatibus",
-      "StyleHint": "non",
-      "FullName": "Prof. Ally Verdie D'Amore PhD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 775
-        }
-      }
-    }
-  ],
-  "NickName": "Kuvalis, Christiansen and Pacocha",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "cumque"
-  },
-  "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "repellendus"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Hoppe-Welch",
-      "DisplayName": "Considine LLC",
-      "Description": "Organic assymetric definition",
-      "ToolTip": "Aut et qui voluptas voluptatem ut deserunt.",
-      "Actions": "Implicit",
-      "ActionData": "veritatis",
+      "Value": "aliquid",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldLength": 287
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "aliquid",
+      "DisplayValue": "culpa",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 287
+        }
+      }
+    }
+  ],
+  "UserName": "Volkman LLC",
+  "TicketCategories": [
+    {
+      "Id": 597,
+      "Name": "Howe-Collier",
+      "ToolTip": "Quam omnis ipsam velit similique.",
+      "Deleted": false,
+      "Rank": 671,
+      "Type": "molestiae",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "aut",
+      "ColorBlock": 6,
+      "ExtraInfo": "rerum",
+      "StyleHint": "fugit",
+      "FullName": "Chet Bayer",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 608
+        }
+      }
+    }
+  ],
+  "NickName": "Runolfsdottir Group",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "vel"
+  },
+  "CustomFields": {
+    "CustomFields1": "nisi",
+    "CustomFields2": "sit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Veum-Schowalter",
+      "DisplayName": "Will, Zemlak and Parisian",
+      "Description": "Re-contextualized fresh-thinking knowledge base",
+      "ToolTip": "Iure odit qui officia.",
+      "Actions": "Implicit",
+      "ActionData": "asperiores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 644
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 68
     }
   }
 }

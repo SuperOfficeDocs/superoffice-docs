@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hartmann Group",
+  "ProviderName": "O'Hara Inc and Sons",
   "Columns": [
-    "maxime",
-    "laboriosam"
+    "et",
+    "officiis"
   ],
   "SortOrder": [
     {
-      "Name": "Bins-Purdy",
+      "Name": "Simonis Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Bins-Purdy",
+      "Name": "Simonis Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "DuBuque, Kohler and Pfeffer",
-      "Operator": "facilis",
+      "Name": "Krajcik, Botsford and Friesen",
+      "Operator": "quo",
       "Values": [
-        "labore",
-        "sint"
+        "et",
+        "id"
       ],
       "DisplayValues": [
-        "atque",
-        "ab"
+        "debitis",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 386,
+      "InterParenthesis": 701,
       "InterOperator": "And",
-      "UniqueHash": 151
+      "UniqueHash": 383
     }
   ],
   "Entities": [
-    "sed",
-    "eveniet"
+    "non",
+    "voluptas"
   ],
-  "Page": 102,
-  "PageSize": 637
+  "Page": 54,
+  "PageSize": 442
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Simonis, Bernhard and Baumbach",
-    "PrimaryKey": 607,
+    "EntityName": "Grant Inc and Sons",
+    "PrimaryKey": 17,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "est",
-        "TooltipHint": "porro",
-        "LinkHint": "ipsum"
+        "DisplayValue": "autem",
+        "TooltipHint": "sapiente",
+        "LinkHint": "laudantium"
       }
     },
-    "LinkHint": "autem",
-    "StyleHint": "consequatur",
+    "LinkHint": "modi",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 148
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Herman, Hessel and Powlowski",
-    "ToolTip": "Sed unde quidem qui eius.",
+    "Id": 348,
+    "Name": "Zboncak-Hoppe",
+    "ToolTip": "Ex est possimus a maxime nesciunt.",
     "Deleted": true,
-    "Rank": 31,
-    "Type": "minima",
-    "ColorBlock": 474,
-    "IconHint": "vel",
+    "Rank": 569,
+    "Type": "esse",
+    "ColorBlock": 683,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2014-08-18T14:45:13.70862+02:00",
+    "LastChanged": "2023-06-02T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Konopelski-Hills",
-        "ToolTip": "Sit minus.",
-        "Deleted": true,
-        "Rank": 344,
-        "Type": "rerum",
-        "ColorBlock": 873,
-        "IconHint": "necessitatibus",
+        "Id": 755,
+        "Name": "Kunde Group",
+        "ToolTip": "Possimus et veniam aliquid qui expedita quibusdam minus.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "qui",
+        "ColorBlock": 646,
+        "IconHint": "maiores",
         "Selected": true,
-        "LastChanged": "1998-04-23T14:45:13.70862+02:00",
+        "LastChanged": "2011-10-06T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "soluta",
-        "Hidden": false,
-        "FullName": "Mr. Addison Jaquelin Hamill"
+        "ExtraInfo": "illo",
+        "StyleHint": "facilis",
+        "Hidden": true,
+        "FullName": "Joy Nelle Braun Jr."
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Mona O'Reilly"
+    "ExtraInfo": "consectetur",
+    "StyleHint": "rem",
+    "Hidden": true,
+    "FullName": "Maudie Crist"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Kemmer, Funk and Osinski",
-    "ToolTip": "Quasi aut.",
+    "Id": 363,
+    "Name": "Ferry-Pfeffer",
+    "ToolTip": "Cupiditate dolore omnis pariatur enim et.",
     "Deleted": false,
-    "Rank": 867,
-    "Type": "porro",
-    "ColorBlock": 416,
-    "IconHint": "aut",
+    "Rank": 26,
+    "Type": "omnis",
+    "ColorBlock": 613,
+    "IconHint": "inventore",
     "Selected": true,
-    "LastChanged": "2011-05-21T14:45:13.70862+02:00",
+    "LastChanged": "2014-08-17T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Bayer, Klein and Wolf",
-        "ToolTip": "Libero qui porro ea dolorem possimus.",
+        "Id": 119,
+        "Name": "Willms, Schiller and Eichmann",
+        "ToolTip": "Maiores placeat molestiae soluta.",
         "Deleted": false,
-        "Rank": 451,
-        "Type": "occaecati",
-        "ColorBlock": 232,
-        "IconHint": "dolor",
+        "Rank": 637,
+        "Type": "magnam",
+        "ColorBlock": 139,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2001-03-07T14:45:13.70862+01:00",
+        "LastChanged": "2018-05-23T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "earum",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Sam Olson",
+        "FullName": "Chaya Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 657
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Mr. Obie Thora Rosenbaum DVM",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Antonette Annamae O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 561
       }
     }
   }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 789,
-  "ColumnId": 127,
-  "FieldDefault": "fuga",
-  "FieldHeight": 799,
-  "FieldLabel": "delectus",
-  "FieldLeft": 255,
-  "FieldTop": 654,
+  "UDefFieldId": 850,
+  "ColumnId": 662,
+  "FieldDefault": "deleniti",
+  "FieldHeight": 12,
+  "FieldLabel": "est",
+  "FieldLeft": 480,
+  "FieldTop": 456,
   "FieldType": "Checkbox",
-  "FieldWidth": 989,
-  "FormatMask": "adipisci",
-  "HideLabel": true,
+  "FieldWidth": 752,
+  "FormatMask": "modi",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 765,
-  "LabelLeft": 517,
-  "LabelTop": 176,
-  "LabelWidth": 348,
-  "LastVersionId": 835,
-  "ListTableId": 504,
+  "LabelHeight": 455,
+  "LabelLeft": 37,
+  "LabelTop": 997,
+  "LabelWidth": 709,
+  "LastVersionId": 361,
+  "ListTableId": 978,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 253,
-  "ProgId": "quae",
-  "IsReadOnly": true,
-  "ShortLabel": "doloremque",
-  "TabOrder": 367,
-  "TextLength": 734,
-  "Tooltip": "a",
-  "UdefIdentity": 216,
-  "UDListDefinitionId": 868,
+  "Page1LineNo": 276,
+  "ProgId": "velit",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptas",
+  "TabOrder": 540,
+  "TextLength": 61,
+  "Tooltip": "sed",
+  "UdefIdentity": 584,
+  "UDListDefinitionId": 442,
   "Justification": "Center",
-  "Version": 133,
-  "TemplateVariableName": "Altenwerth Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Bartell-Goodwin",
+  "Version": 30,
+  "TemplateVariableName": "Miller, Luettgen and Schoen",
+  "HasBeenPublished": false,
+  "MdoListName": "Turner, Lebsack and O'Hara",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 276
     }
   }
 }

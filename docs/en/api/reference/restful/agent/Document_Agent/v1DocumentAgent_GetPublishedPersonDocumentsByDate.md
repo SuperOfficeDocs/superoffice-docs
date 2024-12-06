@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 915,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2012-03-24T14:45:05.225194+01:00",
-  "EndTime": "2002-12-12T14:45:05.225194+01:00",
-  "Count": 957
+  "PersonId": 1000,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2005-02-27T10:17:55.3477735+01:00",
+  "EndTime": "2014-12-09T10:17:55.3477735+01:00",
+  "Count": 97
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 786,
-    "Attention": "nemo",
-    "Header": "suscipit",
-    "Name": "Wisoky Inc and Sons",
-    "OurRef": "consectetur",
-    "YourRef": "quos",
-    "Description": "Ameliorated bottom-line process improvement",
-    "DocumentTemplate": "autem",
+    "DocumentId": 964,
+    "Attention": "laboriosam",
+    "Header": "et",
+    "Name": "Hudson-Goyette",
+    "OurRef": "dolorum",
+    "YourRef": "unde",
+    "Description": "Decentralized background local area network",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 436,
-    "PersonFullName": "Prof. Susie Lula Mueller IV",
-    "AssociateFullName": "Dr. Randal Kihn PhD",
-    "ContactId": 215,
-    "ContactName": "Towne-Mann",
-    "ProjectId": 352,
-    "ProjectName": "West, Kuphal and Wehner",
-    "AssociateId": 590,
-    "Snum": 382,
-    "SaleId": 772,
-    "SaleName": "Goyette, Monahan and Koch",
+    "PersonId": 440,
+    "PersonFullName": "Dr. Corrine Boehm Jr.",
+    "AssociateFullName": "Mrs. Emelia Pablo Keebler I",
+    "ContactId": 10,
+    "ContactName": "Hermann, Pfeffer and Wiza",
+    "ProjectId": 667,
+    "ProjectName": "Jacobi-Kemmer",
+    "AssociateId": 48,
+    "Snum": 650,
+    "SaleId": 930,
+    "SaleName": "Sawayn, Wehner and McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldLength": 396
       }
     }
   }

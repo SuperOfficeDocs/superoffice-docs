@@ -127,63 +127,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 76,
+  "EjMessageId": 144,
   "Ticket": null,
-  "CreatedAt": "2007-07-25T14:45:13.3493238+02:00",
+  "CreatedAt": "2003-02-17T10:18:00.7856022+01:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "a",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eum",
-  "TimeSpent": 171,
-  "Body": "perspiciatis",
-  "HtmlBody": "doloremque",
-  "EmailHeader": "lacey@mckenzie.com",
-  "DebugInfo": "voluptates",
-  "MailSorter": "ut",
+  "MessageId": "minima",
+  "TimeSpent": 847,
+  "Body": "omnis",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "dandre@reillyparker.ca",
+  "DebugInfo": "accusantium",
+  "MailSorter": "corporis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nulla",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 743,
-      "Name": "Stokes Inc and Sons",
-      "Value": "odio",
+      "Id": 625,
+      "Name": "Becker LLC",
+      "Value": "reprehenderit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 743,
-      "Name": "Stokes Inc and Sons",
-      "Value": "odio",
+      "Id": 625,
+      "Name": "Becker LLC",
+      "Value": "reprehenderit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "quibusdam",
-  "Sentiment": 989,
-  "SentimentConfidence": 858,
+  "Important": false,
+  "Language": "id",
+  "Sentiment": 44,
+  "SentimentConfidence": 649,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 704,
-      "Name": "Kunde Inc and Sons",
-      "ContentType": "est",
-      "AttSize": 52,
+      "AttachmentId": 243,
+      "Name": "Romaguera, Shanahan and Howe",
+      "ContentType": "corrupti",
+      "AttSize": 981,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "autem",
-      "IsSafeFileExtension": false
+      "ContentId": "et",
+      "AuthKey": "tempore",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "veniam"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 163,
+  "EjMessageId": 410,
   "Ticket": null,
-  "CreatedAt": "2020-10-27T14:45:13.3493238+01:00",
+  "CreatedAt": "2014-12-02T10:18:00.7856022+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "molestiae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officiis",
-  "TimeSpent": 582,
-  "Body": "voluptatem",
-  "HtmlBody": "ut",
-  "EmailHeader": "callie@schiller.co.uk",
-  "DebugInfo": "in",
-  "MailSorter": "et",
+  "MessageId": "nisi",
+  "TimeSpent": 501,
+  "Body": "et",
+  "HtmlBody": "doloribus",
+  "EmailHeader": "abagail@bins.us",
+  "DebugInfo": "dolor",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eos",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 788,
-      "Name": "Torphy Inc and Sons",
-      "Value": "voluptatibus",
+      "Id": 391,
+      "Name": "Runolfsdottir Inc and Sons",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 87
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nihil",
-  "Sentiment": 248,
-  "SentimentConfidence": 837,
+  "Language": "beatae",
+  "Sentiment": 749,
+  "SentimentConfidence": 860,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 297,
-      "Name": "Waelchi-Crona",
-      "ContentType": "dolore",
-      "AttSize": 778,
+      "AttachmentId": 138,
+      "Name": "Bahringer Group",
+      "ContentType": "ab",
+      "AttSize": 919,
       "InlineImage": false,
-      "ContentId": "dolorem",
-      "AuthKey": "provident",
-      "IsSafeFileExtension": true,
+      "ContentId": "et",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 942
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "quia"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "corrupti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   }
 }

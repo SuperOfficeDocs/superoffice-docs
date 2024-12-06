@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 70,
-  "Name": "Roob-Halvorson",
-  "Tooltip": "qui",
+  "Id": 310,
+  "Name": "Schuppe, Schuster and Tremblay",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 247,
-  "Rank": 715,
+  "UdListDefinitionId": 940,
+  "Rank": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   }
 }

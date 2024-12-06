@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=et
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Rodriguez, Moen and Macejkovic",
-    "ToolTip": "Culpa provident aliquam enim.",
-    "Deleted": false,
-    "Rank": 8,
-    "Type": "molestias",
+    "Id": 622,
+    "Name": "Gleichner, Simonis and D'Amore",
+    "ToolTip": "Quo possimus totam.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Collier-Bogisich",
-        "ToolTip": "Et aperiam.",
-        "Deleted": false,
-        "Rank": 377,
-        "Type": "repudiandae",
+        "Id": 279,
+        "Name": "Jerde Inc and Sons",
+        "ToolTip": "Ut omnis dolor nesciunt autem asperiores ullam nostrum.",
+        "Deleted": true,
+        "Rank": 132,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "autem",
-        "ColorBlock": 488,
-        "ExtraInfo": "qui",
-        "StyleHint": "quod",
-        "FullName": "Mrs. Delphine Becker Jr.",
+        "ColorBlock": 7,
+        "ExtraInfo": "et",
+        "StyleHint": "perferendis",
+        "FullName": "Godfrey Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 620
+            "FieldType": "System.Int32",
+            "FieldLength": 568
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 84,
-    "ExtraInfo": "suscipit",
-    "StyleHint": "est",
-    "FullName": "Edmond Mohr",
+    "IconHint": "animi",
+    "ColorBlock": 1002,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "rem",
+    "FullName": "Chaim Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 182,
-  "Caption": "unde",
-  "Description": "Mandatory secondary paradigm",
-  "ChartName": "Towne, Hessel and Rowe",
-  "ChartId": "aut",
+  "DashboardTileId": 667,
+  "Caption": "explicabo",
+  "Description": "Sharable clear-thinking process improvement",
+  "ChartName": "Reichert, Cummerata and Ortiz",
+  "ChartId": "qui",
   "IsDefault": false,
-  "AssociateId": 105,
-  "GroupId": 421,
-  "SelectionId": 62,
-  "Config": "ut",
+  "AssociateId": 289,
+  "GroupId": 445,
+  "SelectionId": 543,
+  "Config": "veniam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Koch-Schmitt",
-      "Description": "Front-line analyzing synergy",
+      "Name": "Nolan, Armstrong and Waters",
+      "Description": "Integrated didactic methodology",
       "Type": "Boolean",
-      "ListName": "Skiles, Spencer and Bahringer",
+      "ListName": "Herzog, Kunde and Bahringer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quis",
+      "Value": "dolor",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 165,
+      "VisibleId": 563,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "laboriosam"
     },
     {
-      "VisibleId": 165,
+      "VisibleId": 563,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "laboriosam"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 615,
-  "Caption": "et",
-  "Description": "Automated homogeneous internet solution",
-  "ChartName": "Harvey, Champlin and Goyette",
-  "ChartId": "ea",
+  "DashboardTileId": 414,
+  "Caption": "voluptatum",
+  "Description": "Inverse value-added portal",
+  "ChartName": "Ziemann, Nitzsche and Morissette",
+  "ChartId": "voluptas",
   "IsDefault": false,
-  "AssociateId": 180,
-  "GroupId": 204,
-  "SelectionId": 533,
-  "Config": "ut",
+  "AssociateId": 676,
+  "GroupId": 814,
+  "SelectionId": 984,
+  "Config": "delectus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Ziemann-Adams",
-      "Description": "Advanced next generation emulation",
+      "Name": "Wuckert, Marquardt and Leuschke",
+      "Description": "Configurable motivating approach",
       "Type": "Boolean",
-      "ListName": "Hoppe, Flatley and Hane",
+      "ListName": "Nienow-Crist",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ullam",
+      "Value": "culpa",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 682
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 682
         }
       }
     }
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

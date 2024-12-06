@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 176
+  "QuickReplyId": 691
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jakubowski, Stanton and Nienow",
-  "UpdatedByFullName": "Miss Miller Arnold Beatty Jr.",
-  "Updated": "2002-06-05T14:45:05.1783023+02:00",
-  "HtmlBody": "distinctio",
+  "Name": "Ratke-Wolff",
+  "UpdatedByFullName": "Marcelina Pfeffer",
+  "Updated": "2001-11-20T10:17:55.3321476+01:00",
+  "HtmlBody": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 716
     }
   }
 }

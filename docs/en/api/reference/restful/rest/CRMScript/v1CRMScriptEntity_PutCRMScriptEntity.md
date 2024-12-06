@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 826,
-  "UniqueIdentifier": "cupiditate",
-  "Name": "O'Hara-Ondricka",
-  "Description": "Mandatory incremental hub",
-  "IncludeId": "incidunt",
-  "AccessKey": "voluptates",
-  "HierarchyId": 337,
-  "Source": "possimus",
-  "SourceCode": "qui",
+  "EjscriptId": 120,
+  "UniqueIdentifier": "eaque",
+  "Name": "Schmidt Inc and Sons",
+  "Description": "Organized local infrastructure",
+  "IncludeId": "cupiditate",
+  "AccessKey": "sint",
+  "HierarchyId": 182,
+  "Source": "modi",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 275,
+  "HtmlOutput": 84,
   "Includes": [
-    179,
-    910
+    737,
+    307
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 4,
-      "LineNumberTo": 967,
-      "Delta": 962,
-      "IncludeId": "corporis",
+      "LineNumberFrom": 516,
+      "LineNumberTo": 92,
+      "Delta": 240,
+      "IncludeId": "accusamus",
       "IncludedFrom": [
-        "rerum",
-        "tempore"
+        "numquam",
+        "delectus"
       ]
     },
     {
-      "LineNumberFrom": 4,
-      "LineNumberTo": 967,
-      "Delta": 962,
-      "IncludeId": "corporis",
+      "LineNumberFrom": 516,
+      "LineNumberTo": 92,
+      "Delta": 240,
+      "IncludeId": "accusamus",
       "IncludedFrom": [
-        "rerum",
-        "tempore"
+        "numquam",
+        "delectus"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-05-18T14:45:12.7244655+02:00",
-  "RegisteredAssociateId": 683,
-  "Updated": "2017-12-12T14:45:12.7244655+01:00",
-  "UpdatedAssociateId": 306
+  "Registered": "2022-11-21T10:18:00.3480699+01:00",
+  "RegisteredAssociateId": 958,
+  "Updated": "2019-04-11T10:18:00.3480699+02:00",
+  "UpdatedAssociateId": 5
 }
 ```
 
@@ -171,57 +171,57 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 37,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Stroman, Sawayn and Wisoky",
-  "Description": "Mandatory zero tolerance time-frame",
-  "IncludeId": "et",
-  "AccessKey": "illo",
-  "HierarchyId": 43,
-  "Source": "distinctio",
-  "SourceCode": "sunt",
+  "EjscriptId": 583,
+  "UniqueIdentifier": "laudantium",
+  "Name": "Flatley, Walker and Farrell",
+  "Description": "Vision-oriented didactic archive",
+  "IncludeId": "repellendus",
+  "AccessKey": "dolorem",
+  "HierarchyId": 399,
+  "Source": "error",
+  "SourceCode": "quis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 704,
+  "HtmlOutput": 297,
   "Includes": [
-    384,
-    157
+    770,
+    966
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 471,
-      "LineNumberTo": 246,
-      "Delta": 535,
-      "IncludeId": "vel",
+      "LineNumberFrom": 896,
+      "LineNumberTo": 177,
+      "Delta": 905,
+      "IncludeId": "asperiores",
       "IncludedFrom": [
-        "ipsum",
-        "qui"
+        "impedit",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldType": "System.Int32",
+          "FieldLength": 344
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2002-01-11T14:45:12.7244655+01:00",
-  "RegisteredAssociateId": 598,
-  "Updated": "2018-03-16T14:45:12.7244655+01:00",
-  "UpdatedAssociateId": 735,
+  "Registered": "2006-10-28T10:18:00.3480699+02:00",
+  "RegisteredAssociateId": 451,
+  "Updated": "2015-04-12T10:18:00.3480699+02:00",
+  "UpdatedAssociateId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

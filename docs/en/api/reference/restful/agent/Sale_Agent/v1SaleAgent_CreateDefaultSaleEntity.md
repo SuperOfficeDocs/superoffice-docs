@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "corporis",
+  "SaleText": "nobis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-01-25T14:45:06.1312424+01:00",
-  "Amount": 19935.374,
-  "SaleId": 4,
-  "Earning": 7556.074,
-  "EarningPercent": 5741.4879999999994,
-  "Heading": "rerum",
-  "Number": "682835",
-  "Probability": 725,
-  "CreatedDate": "2012-10-12T14:45:06.1312424+02:00",
-  "UpdatedDate": "2005-12-31T14:45:06.1312424+01:00",
+  "Saledate": "1997-10-28T10:17:55.9728114+01:00",
+  "Amount": 3105.794,
+  "SaleId": 836,
+  "Earning": 22749.706,
+  "EarningPercent": 3920.634,
+  "Heading": "accusantium",
+  "Number": "1229321",
+  "Probability": 602,
+  "CreatedDate": "2008-11-01T10:17:55.9728114+01:00",
+  "UpdatedDate": "2006-09-27T10:17:55.9728114+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 877,
+  "ActiveLinks": 187,
   "Links": [
     {
-      "EntityName": "Yost, Greenholt and Adams",
-      "Id": 229,
-      "Description": "Persistent methodical moderator",
-      "ExtraInfo": "natus",
-      "LinkId": 929,
+      "EntityName": "Kreiger, Johnston and Hoeger",
+      "Id": 867,
+      "Description": "Multi-layered local migration",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 13,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 154
         }
       }
     }
   ],
-  "NextDueDate": "1998-02-10T14:45:06.1312424+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2020-10-27T10:17:55.9728114+01:00",
+  "Postit": "ut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-01-05T14:45:06.1312424+01:00",
+  "ReopenDate": "2024-04-29T10:17:55.9728114+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Christiansen, Beer and Erdman",
-      "Comment": "hic",
-      "StakeholderRoleId": 614,
-      "CountryId": 412,
-      "PersonId": 189,
-      "EmailDescription": "kaia.lang@fisher.info",
-      "EmailId": 891,
-      "EmailAddress": "neha@purdymcdermott.com",
-      "PhoneId": 624,
-      "ContactName": "Hettinger-White",
-      "ContactId": 654,
-      "SaleId": 244,
-      "Mrmrs": "error",
-      "Firstname": "Cullen",
-      "MiddleName": "Hane-Fritsch",
-      "Lastname": "Balistreri",
-      "SaleStakeholderId": 272,
-      "Rank": 230,
-      "Phone": "786.674.3909 x88971",
+      "StakeholderRoleName": "Will LLC",
+      "Comment": "unde",
+      "StakeholderRoleId": 505,
+      "CountryId": 276,
+      "PersonId": 361,
+      "EmailDescription": "gladys@grahamberge.us",
+      "EmailId": 527,
+      "EmailAddress": "gideon@zulauf.com",
+      "PhoneId": 380,
+      "ContactName": "Hansen, Haag and Simonis",
+      "ContactId": 187,
+      "SaleId": 818,
+      "Mrmrs": "dolore",
+      "Firstname": "Jan",
+      "MiddleName": "Johnson Group",
+      "Lastname": "Lubowitz",
+      "SaleStakeholderId": 120,
+      "Rank": 711,
+      "Phone": "942-144-3291",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 735
         }
       }
     }
   ],
-  "ActiveErpLinks": 77,
+  "ActiveErpLinks": 798,
   "UserDefinedFields": {
-    "SuperOffice:1": "1800959792",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Burley Little",
+    "SuperOffice:2": "Louie Wuckert"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "nam"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "illum"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2020-04-27T14:45:06.1312424+02:00",
-  "PublishTo": "2015-08-12T14:45:06.1312424+02:00",
-  "PublishFrom": "2008-02-20T14:45:06.1312424+01:00",
+  "PublishEventDate": "2015-09-08T10:17:55.9728114+02:00",
+  "PublishTo": "2019-10-08T10:17:55.9728114+02:00",
+  "PublishFrom": "2017-05-13T10:17:55.9728114+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 739,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     },
     {
-      "VisibleId": 739,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 638
     }
   }
 }

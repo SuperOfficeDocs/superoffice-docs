@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 470,
-  "ERPProductKey": "dicta"
+  "QuoteConnectionId": 743,
+  "ERPProductKey": "maxime"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 565,
-  "ERPProductKey": "minus",
-  "ERPPriceListKey": "qui",
-  "Name": "Blick LLC",
-  "Description": "Reduced analyzing conglomeration",
-  "Code": "a",
-  "PriceUnit": "itaque",
-  "QuantityUnit": "quo",
+  "ProductId": 457,
+  "ERPProductKey": "placeat",
+  "ERPPriceListKey": "nobis",
+  "Name": "Parker, Breitenberg and Sawayn",
+  "Description": "Versatile mobile extranet",
+  "Code": "rerum",
+  "PriceUnit": "dignissimos",
+  "QuantityUnit": "voluptatem",
   "IsSubscription": true,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 18340.167999999998,
-  "ItemNumber": "1395317",
+  "SubscriptionUnit": "maxime",
+  "DefaultSubscriptionQuantity": 4271.642,
+  "ItemNumber": "799883",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "deleniti",
-  "ProductTypeKey": "ea",
-  "VAT": 10602.322,
-  "VATInfo": "vel",
-  "UnitCost": 10304.592,
-  "UnitMinimumPrice": 532.78,
-  "UnitListPrice": 27660.683999999997,
-  "InAssortment": true,
-  "Supplier": "id",
-  "SupplierCode": "aliquid",
-  "Rights": "dolorem",
-  "Rule": "architecto",
+  "ProductFamilyKey": "praesentium",
+  "ProductTypeKey": "voluptate",
+  "VAT": 30913.775999999998,
+  "VATInfo": "veniam",
+  "UnitCost": 17735.306,
+  "UnitMinimumPrice": 12501.526,
+  "UnitListPrice": 7458.92,
+  "InAssortment": false,
+  "Supplier": "velit",
+  "SupplierCode": "sit",
+  "Rights": "consequatur",
+  "Rule": "facilis",
   "ExtraInfo": [
     {
-      "Name": "Christiansen, Labadie and Batz",
-      "Value": "praesentium",
+      "Name": "Little-McDermott",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     },
     {
-      "Name": "Christiansen, Labadie and Batz",
-      "Value": "praesentium",
+      "Name": "Little-McDermott",
+      "Value": "officia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldType": "System.Int32",
+          "FieldLength": 305
         }
       }
     }
   ],
-  "RawExtraInfo": "placeat",
-  "ExtraField1": "est",
-  "ExtraField2": "incidunt",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "reprehenderit",
-  "ExtraField5": "facilis",
-  "InStock": 4011.52,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "non",
+  "ExtraField2": "quasi",
+  "ExtraField3": "quam",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "et",
+  "InStock": 17873.202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 866
     }
   }
 }

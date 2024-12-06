@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Ticket/NotifyNewTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 893
+  "TicketEntityId": 181
 }
 ```
 

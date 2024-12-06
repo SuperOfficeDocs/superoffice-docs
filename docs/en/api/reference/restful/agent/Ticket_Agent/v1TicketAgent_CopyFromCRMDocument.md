@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 262
+  "DocumentId": 665
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 195,
-  "Name": "Pagac-Franecki",
-  "ContentType": "sit",
-  "AttSize": 385,
-  "InlineImage": true,
-  "ContentId": "vel",
-  "AuthKey": "voluptas",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 647,
+  "Name": "Mraz Group",
+  "ContentType": "quam",
+  "AttSize": 132,
+  "InlineImage": false,
+  "ContentId": "aut",
+  "AuthKey": "tempore",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "fugit",
-      "Key": "voluptatum"
+      "Section": "non",
+      "Key": "ipsum"
     },
     {
-      "Section": "fugit",
-      "Key": "voluptatum"
+      "Section": "non",
+      "Key": "ipsum"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "iure",
+    "RawValue": "sunt",
     "Specification": null,
-    "DisplayValue": "vel",
-    "DisplayTooltip": "unde",
+    "DisplayValue": "et",
+    "DisplayTooltip": "ducimus",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 337,
-    "PrefDescId": 960,
-    "TableName": "Tromp, Wilkinson and Rath",
-    "UserPreferenceId": 547,
+    "TargetId": 48,
+    "PrefDescId": 4,
+    "TableName": "Kuhic LLC",
+    "UserPreferenceId": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 837
       }
     }
   }

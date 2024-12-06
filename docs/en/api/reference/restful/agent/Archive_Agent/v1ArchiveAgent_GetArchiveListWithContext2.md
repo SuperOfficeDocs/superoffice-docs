@@ -173,14 +173,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Rolfson LLC",
-  "ProviderName": "Fay Group",
+  "GuiName": "Osinski, Langosh and Wisoky",
+  "ProviderName": "Hodkiewicz Inc and Sons",
   "SortOrder": "et",
-  "Restriction": "est",
-  "Entities": "itaque",
-  "Page": 859,
-  "PageSize": 292,
-  "Context": "unde"
+  "Restriction": "quos",
+  "Entities": "voluptas",
+  "Page": 713,
+  "PageSize": 438,
+  "Context": "omnis"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Adams Group",
-    "PrimaryKey": 191,
+    "EntityName": "McCullough-Homenick",
+    "PrimaryKey": 30,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cupiditate",
-        "TooltipHint": "amet",
-        "LinkHint": "est"
+        "DisplayValue": "alias",
+        "TooltipHint": "dicta",
+        "LinkHint": "ea"
       }
     },
-    "LinkHint": "delectus",
-    "StyleHint": "hic",
+    "LinkHint": "nesciunt",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldType": "System.String",
+        "FieldLength": 304
       }
     }
   }

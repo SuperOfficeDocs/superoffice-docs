@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 450,
-  "Name": "Kutch, Buckridge and Pfannerstill",
-  "Rank": 317,
-  "Tooltip": "non",
+  "AssociateId": 696,
+  "Name": "Heidenreich Inc and Sons",
+  "Rank": 695,
+  "Tooltip": "repellat",
   "LicenseOwners": [
     {
-      "Name": "McLaughlin, Nienow and Ryan",
-      "Description": "Reactive upward-trending adapter",
+      "Name": "Jaskolski, Kertzmann and Murphy",
+      "Description": "Up-sized logistical intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     },
     {
-      "Name": "McLaughlin, Nienow and Ryan",
-      "Description": "Reactive upward-trending adapter",
+      "Name": "Jaskolski, Kertzmann and Murphy",
+      "Description": "Up-sized logistical intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "similique",
-      "Tooltip": "sunt",
-      "Id": 877,
-      "Rank": 517,
-      "Deleted": false,
+      "Value": "asperiores",
+      "Tooltip": "quam",
+      "Id": 675,
+      "Rank": 601,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 652
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-11-11T14:45:06.6155103+01:00",
-  "Lastlogout": "2018-10-31T14:45:06.6155103+01:00",
-  "EjUserId": 208,
-  "RequestSignature": "libero",
+  "Lastlogin": "2001-09-24T10:17:56.3009492+02:00",
+  "Lastlogout": "2012-04-01T10:17:56.3009492+02:00",
+  "EjUserId": 35,
+  "RequestSignature": "reprehenderit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "tenetur",
-      "DisplayValue": "placeat",
+      "Value": "a",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 62
         }
       }
     },
     {
       "Type": null,
-      "Value": "tenetur",
-      "DisplayValue": "placeat",
+      "Value": "a",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 459
+          "FieldLength": 62
         }
       }
     }
   ],
-  "UserName": "Rippin Inc and Sons",
+  "UserName": "Ebert-Kovacek",
   "TicketCategories": [
     {
-      "Id": 958,
-      "Name": "Kutch, O'Conner and Reichert",
-      "ToolTip": "Ex optio sed quia quidem.",
+      "Id": 30,
+      "Name": "Anderson, Doyle and Waelchi",
+      "ToolTip": "Eius omnis deleniti quis et.",
       "Deleted": false,
-      "Rank": 757,
-      "Type": "quia",
+      "Rank": 361,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iste",
-      "ColorBlock": 602,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "quia",
-      "FullName": "Percy Johnson",
+      "IconHint": "dolorem",
+      "ColorBlock": 363,
+      "ExtraInfo": "sint",
+      "StyleHint": "ratione",
+      "FullName": "Ellsworth Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 359
         }
       }
     }
   ],
-  "NickName": "Schaefer, Schmidt and Abernathy",
-  "WaitingForApproval": true,
+  "NickName": "Hyatt, Schaefer and Bogan",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "in",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "quo",
+    "CustomFields2": "rerum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Williamson-Barton",
-      "DisplayName": "Larson Group",
-      "Description": "Centralized 24/7 benchmark",
-      "ToolTip": "Aspernatur dicta error iusto eligendi dolores.",
+      "Name": "Lynch-Jacobson",
+      "DisplayName": "Smith Inc and Sons",
+      "Description": "Reverse-engineered discrete knowledge base",
+      "ToolTip": "Excepturi pariatur non et dolorem corporis perferendis.",
       "Actions": "Implicit",
-      "ActionData": "magni",
+      "ActionData": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 90
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

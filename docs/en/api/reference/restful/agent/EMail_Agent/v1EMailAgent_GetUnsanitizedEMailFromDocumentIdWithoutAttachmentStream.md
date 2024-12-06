@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 414
+  "DocumentId": 187
 }
 ```
 
@@ -120,156 +120,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 164,
-      "ContactName": "McCullough Group",
-      "PersonId": 361,
-      "PersonName": "Collier-Denesik",
-      "AssociateId": 477,
-      "Address": "ducimus",
-      "EmailId": 404,
+      "ContactId": 798,
+      "ContactName": "Ledner-O'Reilly",
+      "PersonId": 901,
+      "PersonName": "Rogahn-Ernser",
+      "AssociateId": 862,
+      "Address": "doloribus",
+      "EmailId": 821,
       "DuplicatePersonIds": [
-        807,
-        550
+        70,
+        718
       ],
-      "Name": "Larson, Rogahn and Strosin",
+      "Name": "Nader Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 387
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 634,
-      "ContactName": "Purdy, O'Kon and McClure",
-      "PersonId": 225,
-      "PersonName": "Hoppe LLC",
-      "AssociateId": 177,
-      "Address": "debitis",
-      "EmailId": 614,
+      "ContactId": 271,
+      "ContactName": "Upton-Mann",
+      "PersonId": 666,
+      "PersonName": "Williamson, Stanton and Senger",
+      "AssociateId": 596,
+      "Address": "vel",
+      "EmailId": 376,
       "DuplicatePersonIds": [
-        40,
-        151
+        523,
+        915
       ],
-      "Name": "Labadie, Price and Hoppe",
+      "Name": "Bruen-Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 95,
-      "ContactName": "Little-Waters",
-      "PersonId": 381,
-      "PersonName": "Quitzon Inc and Sons",
-      "AssociateId": 584,
-      "Address": "aut",
-      "EmailId": 920,
+      "ContactId": 883,
+      "ContactName": "Goldner LLC",
+      "PersonId": 498,
+      "PersonName": "Auer-Stoltenberg",
+      "AssociateId": 599,
+      "Address": "in",
+      "EmailId": 555,
       "DuplicatePersonIds": [
-        780,
-        409
+        8,
+        65
       ],
-      "Name": "Daniel, Rogahn and Kerluke",
+      "Name": "Monahan, Davis and Lebsack",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldLength": 944
         }
       }
     }
   ],
-  "Subject": "dolore",
-  "HTMLBody": "temporibus",
+  "Subject": "repellendus",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2007-06-17T14:45:05.5063824+02:00",
-  "Size": 384,
+  "Sent": "2013-10-02T10:17:55.5665368+02:00",
+  "Size": 884,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dicta",
-  "PlainBody": "totam",
-  "IsSent": true,
+  "MessageID": "occaecati",
+  "PlainBody": "ducimus",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 240,
+  "ServerId": 1001,
   "Attachments": [
     {
-      "Description": "Re-engineered demand-driven middleware",
-      "Filename": "consequatur",
-      "Size": 188,
-      "Type": "labore",
-      "Encoding": "molestias",
-      "Id": "inventore",
-      "Disposition": "officiis",
-      "IsSafeFileExtension": false,
+      "Description": "Optimized disintermediate standardization",
+      "Filename": "molestiae",
+      "Size": 203,
+      "Type": "sed",
+      "Encoding": "aut",
+      "Id": "dolores",
+      "Disposition": "dolorem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 173
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Walter-Kuhn",
+      "Name": "Tillman-Koss",
       "Values": [
-        "officia",
-        "aperiam"
+        "ullam",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     },
     {
-      "Name": "Walter-Kuhn",
+      "Name": "Tillman-Koss",
       "Values": [
-        "officia",
-        "aperiam"
+        "ullam",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldType": "System.Int32",
+          "FieldLength": 162
         }
       }
     }
   ],
-  "FolderName": "Streich, Ortiz and Turcotte",
-  "EmailItemId": 725,
-  "AccountId": 220,
-  "ReceivedAt": "1997-08-11T14:45:05.5063824+02:00",
+  "FolderName": "Ledner, Heathcote and Jones",
+  "EmailItemId": 660,
+  "AccountId": 346,
+  "ReceivedAt": "2018-12-18T10:17:55.5665368+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-04-24T14:45:05.5063824+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2012-04-28T10:17:55.5665368+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

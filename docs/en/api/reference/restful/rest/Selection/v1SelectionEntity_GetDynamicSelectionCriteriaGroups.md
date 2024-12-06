@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Predovic-Durgan",
-    "Description": "Innovative non-volatile hierarchy",
-    "Rank": 594,
+    "Name": "Olson Inc and Sons",
+    "Description": "Stand-alone exuding utilisation",
+    "Rank": 744,
     "Restrictions": [
       {
-        "Name": "Bode, Hyatt and Turcotte",
-        "Operator": "officiis",
+        "Name": "Howe LLC",
+        "Operator": "ut",
         "Values": [
-          "asperiores",
-          "laboriosam"
+          "sint",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "ea",
-          "eveniet"
+          "sunt",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 8,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 768
+        "UniqueHash": 557
       }
     ]
   },
   {
-    "Name": "Predovic-Durgan",
-    "Description": "Innovative non-volatile hierarchy",
-    "Rank": 594,
+    "Name": "Olson Inc and Sons",
+    "Description": "Stand-alone exuding utilisation",
+    "Rank": 744,
     "Restrictions": [
       {
-        "Name": "Bode, Hyatt and Turcotte",
-        "Operator": "officiis",
+        "Name": "Howe LLC",
+        "Operator": "ut",
         "Values": [
-          "asperiores",
-          "laboriosam"
+          "sint",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "ea",
-          "eveniet"
+          "sunt",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 8,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 768
+        "UniqueHash": 557
       }
     ]
   }

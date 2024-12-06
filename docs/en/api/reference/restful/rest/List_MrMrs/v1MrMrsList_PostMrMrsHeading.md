@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 275,
-  "Name": "Stokes-Parisian",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 784,
-  "UdListDefinitionId": 358
+  "HeadingId": 357,
+  "Name": "Mills, Kassulke and Beahan",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 408,
+  "UdListDefinitionId": 588
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 799,
-  "Name": "Ortiz Group",
-  "Tooltip": "laborum",
+  "HeadingId": 263,
+  "Name": "Shanahan, Farrell and Bartoletti",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 57,
-  "UdListDefinitionId": 291,
+  "Rank": 844,
+  "UdListDefinitionId": 653,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 388
     }
   }
 }

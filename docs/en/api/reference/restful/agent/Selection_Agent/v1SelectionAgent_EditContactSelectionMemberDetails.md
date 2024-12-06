@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 201,
+  "SelectionId": 650,
   "SelectionMemberEditValues": null
 }
 ```

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Goyette, Howell and Hirthe",
-    "ToolTip": "Id totam laudantium omnis animi ab.",
-    "Deleted": true,
-    "Rank": 968,
-    "Type": "consequatur",
-    "ColorBlock": 356,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2020-07-01T14:45:13.1306367+02:00",
+    "Id": 842,
+    "Name": "Larson, Schamberger and Lind",
+    "ToolTip": "Repudiandae odio ea dolor repellendus aut libero tempore.",
+    "Deleted": false,
+    "Rank": 836,
+    "Type": "porro",
+    "ColorBlock": 745,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2015-04-12T10:18:00.5355883+02:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Moore, Walker and Torp",
-        "ToolTip": "Eveniet sit hic molestiae.",
-        "Deleted": true,
-        "Rank": 252,
-        "Type": "asperiores",
-        "ColorBlock": 758,
-        "IconHint": "unde",
+        "Id": 439,
+        "Name": "Shanahan, Hegmann and Carroll",
+        "ToolTip": "Perferendis illum et excepturi omnis.",
+        "Deleted": false,
+        "Rank": 349,
+        "Type": "dolores",
+        "ColorBlock": 671,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2004-07-29T14:45:13.1306367+02:00",
+        "LastChanged": "2018-12-14T10:18:00.5355883+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "quidem",
+        "ExtraInfo": "similique",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Elza Ella Leuschke I",
+        "FullName": "Ms. Hassan Kenny Schultz Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Hiram Hagenes Sr.",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Glen Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 467
       }
     }
   }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Sauer, Mayert and Bins",
-  "StorageKey": "dolores",
-  "Context": "alias"
+  "StorageType": "at",
+  "ProviderName": "Ferry Inc and Sons",
+  "StorageKey": "et",
+  "Context": "inventore"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larson Group",
-  "Description": "Team-oriented needs-based capability",
-  "Rank": 735,
+  "Name": "Weimann Inc and Sons",
+  "Description": "Managed 3rd generation methodology",
+  "Rank": 781,
   "Restrictions": [
     {
-      "Name": "Swaniawski, Runolfsdottir and Weimann",
-      "Operator": "voluptatum",
+      "Name": "Yost, O'Hara and Pollich",
+      "Operator": "ut",
       "Values": [
-        "eligendi",
-        "et"
+        "quia",
+        "ullam"
       ],
       "DisplayValues": [
-        "odit",
-        "suscipit"
+        "quos",
+        "nemo"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 1001,
+      "InterParenthesis": 741,
       "InterOperator": "And",
-      "UniqueHash": 858
+      "UniqueHash": 73
     }
   ]
 }

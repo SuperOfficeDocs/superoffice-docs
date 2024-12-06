@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "iusto"
+  "QuoteLineExtraData": "mollitia"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rowe Inc and Sons",
-    "Value": "ut",
+    "Name": "Nicolas LLC",
+    "Value": "et",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldLength": 954
       }
     }
   },
   {
-    "Name": "Rowe Inc and Sons",
-    "Value": "ut",
+    "Name": "Nicolas LLC",
+    "Value": "et",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldLength": 954
       }
     }
   }

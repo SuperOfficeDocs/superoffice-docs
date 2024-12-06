@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Rippin-Ferry",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 346,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 736,
+  "Name": "Treutel-Satterfield",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 186,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "tempora",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   },
   "_Links": {

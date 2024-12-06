@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Walker LLC",
-    "ToolTip": "Sapiente ducimus blanditiis.",
+    "Id": 932,
+    "Name": "Will-Heidenreich",
+    "ToolTip": "Quia inventore nam repellendus assumenda expedita vero.",
     "Deleted": false,
-    "Rank": 538,
-    "Type": "eos",
-    "ColorBlock": 264,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2021-10-15T14:45:13.6305116+02:00",
+    "Rank": 6,
+    "Type": "qui",
+    "ColorBlock": 696,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2021-12-30T10:18:00.9574888+01:00",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Wintheiser LLC",
-        "ToolTip": "Quis officiis vero inventore consequatur vel pariatur ut.",
+        "Id": 869,
+        "Name": "Schimmel LLC",
+        "ToolTip": "Vero et.",
         "Deleted": false,
-        "Rank": 142,
-        "Type": "et",
-        "ColorBlock": 858,
-        "IconHint": "ad",
-        "Selected": true,
-        "LastChanged": "2003-11-05T14:45:13.6305116+01:00",
+        "Rank": 828,
+        "Type": "ratione",
+        "ColorBlock": 145,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2012-08-25T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Dr. Karson Monica Keebler"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Priscilla Hickle"
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "et",
+    "ExtraInfo": "eaque",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Leo Crooks"
+    "FullName": "Miss Mireya Armani Wolff"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Pfannerstill, Klein and Fadel",
-    "ToolTip": "Non perspiciatis consectetur.",
+    "Id": 819,
+    "Name": "Quitzon, Lubowitz and Maggio",
+    "ToolTip": "Ipsa quaerat beatae ut.",
     "Deleted": false,
-    "Rank": 726,
-    "Type": "repellat",
-    "ColorBlock": 167,
-    "IconHint": "eius",
+    "Rank": 953,
+    "Type": "vitae",
+    "ColorBlock": 12,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2002-05-03T14:45:13.6305116+02:00",
+    "LastChanged": "2017-04-23T10:18:00.9731148+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Renner-Mraz",
-        "ToolTip": "Libero possimus eius.",
-        "Deleted": false,
-        "Rank": 453,
-        "Type": "accusantium",
-        "ColorBlock": 713,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2005-04-06T14:45:13.6305116+02:00",
+        "Id": 231,
+        "Name": "Bogan, Fritsch and Hamill",
+        "ToolTip": "Rerum in est numquam et.",
+        "Deleted": true,
+        "Rank": 760,
+        "Type": "neque",
+        "ColorBlock": 461,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2023-04-06T10:18:00.9731148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "libero",
+        "ExtraInfo": "beatae",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Demetrius Torphy",
+        "FullName": "Domenick Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldLength": 636
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Frederick Boyle",
+    "ExtraInfo": "illo",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Ms. Shyanne Reta Boyle Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldLength": 404
       }
     }
   }

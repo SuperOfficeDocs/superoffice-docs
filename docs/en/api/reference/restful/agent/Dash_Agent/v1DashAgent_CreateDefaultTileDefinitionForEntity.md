@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Berge-Zboncak"
+  "EntityName": "Hoeger LLC"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 415,
-  "Name": "Adams LLC",
-  "Description": "Down-sized mission-critical customer loyalty",
-  "DefaultHeight": 169,
-  "DefaultWidth": 150,
+  "DashboardTileDefinitionId": 799,
+  "Name": "Stamm-Schumm",
+  "Description": "Reverse-engineered explicit migration",
+  "DefaultHeight": 87,
+  "DefaultWidth": 1001,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hyatt, Kuhn and Cronin",
-  "SelectionId": 705,
+  "EntityName": "Heathcote LLC",
+  "SelectionId": 926,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "numquam",
   "Measure": "Average",
-  "MeasureField": "dolor",
-  "SortBy": "praesentium",
-  "LayoutConfig": "aspernatur",
-  "SecondarySelectionId": 830,
-  "MeasureByField": "magni",
+  "MeasureField": "atque",
+  "SortBy": "quam",
+  "LayoutConfig": "non",
+  "SecondarySelectionId": 476,
+  "MeasureByField": "deserunt",
   "Usage": "Dashboard",
-  "ProviderName": "Weissnat-Corkery",
+  "ProviderName": "Rolfson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 473
     }
   }
 }

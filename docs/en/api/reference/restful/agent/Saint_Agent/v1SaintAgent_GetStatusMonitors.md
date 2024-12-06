@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 45,
-  "Type": "ut"
+  "Id": 561,
+  "Type": "et"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 316,
-    "Rank": 912,
-    "DefaultTask": 578,
-    "DefaultTaskText": "tenetur",
+    "OwnerTable": 683,
+    "Rank": 27,
+    "DefaultTask": 461,
+    "DefaultTaskText": "nulla",
     "IsVisual": false,
-    "LastGenerated": "2022-10-07T14:45:06.1156216+02:00",
-    "Description": "De-engineered analyzing concept",
-    "Name": "Hammes Group",
-    "StatusMonitorId": 967,
-    "PictureId": 513,
-    "NeedsUpdate": true,
+    "LastGenerated": "2018-03-20T10:17:55.9728114+01:00",
+    "Description": "Devolved didactic protocol",
+    "Name": "Haley Inc and Sons",
+    "StatusMonitorId": 913,
+    "PictureId": 165,
+    "NeedsUpdate": false,
     "Deleted": false,
-    "NumMatches": 869,
-    "NumNeedUpdate": 694,
-    "GenerationStart": "2003-06-13T14:45:06.1156216+02:00",
+    "NumMatches": 156,
+    "NumNeedUpdate": 29,
+    "GenerationStart": "2017-07-08T10:17:55.9728114+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

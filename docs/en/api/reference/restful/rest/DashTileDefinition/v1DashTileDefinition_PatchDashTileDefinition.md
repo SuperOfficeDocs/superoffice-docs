@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 778,
-  "Name": "Schaefer Group",
-  "Description": "Versatile system-worthy encryption",
-  "DefaultHeight": 730,
-  "DefaultWidth": 202,
+  "DashboardTileDefinitionId": 412,
+  "Name": "Will Inc and Sons",
+  "Description": "Right-sized multimedia artificial intelligence",
+  "DefaultHeight": 379,
+  "DefaultWidth": 963,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Brekke-Hamill",
-  "SelectionId": 514,
+  "EntityName": "Glover Group",
+  "SelectionId": 863,
   "CurrencyMode": "Base",
-  "CurrencyCode": "magni",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "voluptas",
-  "SortBy": "ut",
-  "LayoutConfig": "molestiae",
-  "SecondarySelectionId": 514,
-  "MeasureByField": "vitae",
+  "MeasureField": "et",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "cumque",
+  "SecondarySelectionId": 801,
+  "MeasureByField": "in",
   "Usage": "Dashboard",
-  "ProviderName": "Lindgren Inc and Sons",
+  "ProviderName": "Nikolaus, Turner and White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 707
     }
   },
   "_Links": {

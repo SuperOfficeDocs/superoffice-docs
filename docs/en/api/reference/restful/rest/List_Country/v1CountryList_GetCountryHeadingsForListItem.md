@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Champlin Group",
-    "ToolTip": "Qui mollitia nam molestiae accusantium.",
+    "Id": 79,
+    "Name": "Armstrong, Bednar and Bashirian",
+    "ToolTip": "Atque praesentium quidem alias vero officiis repellendus quis.",
     "Deleted": true,
-    "Rank": 901,
-    "Type": "sapiente",
-    "ColorBlock": 580,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2009-03-19T14:45:13.6461348+01:00",
+    "Rank": 848,
+    "Type": "rerum",
+    "ColorBlock": 713,
+    "IconHint": "itaque",
+    "Selected": false,
+    "LastChanged": "2020-01-27T10:18:00.9887407+01:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "Hyatt-Predovic",
-        "ToolTip": "Modi voluptatem aut molestias aut laboriosam commodi.",
+        "Id": 369,
+        "Name": "Daniel, Lynch and Kirlin",
+        "ToolTip": "Corporis sit.",
         "Deleted": false,
-        "Rank": 584,
-        "Type": "omnis",
-        "ColorBlock": 652,
-        "IconHint": "eum",
+        "Rank": 781,
+        "Type": "optio",
+        "ColorBlock": 822,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2000-12-22T14:45:13.6461348+01:00",
+        "LastChanged": "2009-09-20T10:18:00.9887407+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Tyra Lehner",
+        "ExtraInfo": "magnam",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Izabella Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 962
+            "FieldLength": 436
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "similique",
+    "ExtraInfo": "ut",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Laury Lebsack",
+    "FullName": "Callie Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldType": "System.Int32",
+        "FieldLength": 964
       }
     }
   }

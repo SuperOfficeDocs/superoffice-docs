@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 898,
-    "Name": "Price-Terry",
-    "TZLocationCode": "exercitationem",
-    "TZLocationCities": "vitae",
-    "IsoNumber": 541,
+    "TZLocationID": 119,
+    "Name": "Langosh Group",
+    "TZLocationCode": "labore",
+    "TZLocationCities": "ea",
+    "IsoNumber": 248,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 623,
-        "StartMonth": 574,
-        "EndDay": 363,
-        "EndMonth": 965,
-        "TZOffset": 818,
-        "StartRulePattern": "nostrum",
-        "EndRulePattern": "quidem"
+        "StartDay": 482,
+        "StartMonth": 741,
+        "EndDay": 679,
+        "EndMonth": 440,
+        "TZOffset": 394,
+        "StartRulePattern": "ducimus",
+        "EndRulePattern": "similique"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 345,
-        "StartMonth": 695,
-        "EndDay": 755,
-        "EndMonth": 949,
-        "TZOffset": 76,
-        "StartRulePattern": "soluta",
-        "EndRulePattern": "atque"
+        "StartDay": 255,
+        "StartMonth": 4,
+        "EndDay": 784,
+        "EndMonth": 50,
+        "TZOffset": 990,
+        "StartRulePattern": "dolor",
+        "EndRulePattern": "et"
       }
     }
   }

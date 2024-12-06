@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 476,
-    "Name": "Mills-Altenwerth",
-    "Tooltip": "sed",
+    "HeadingId": 704,
+    "Name": "Gulgowski, Gerlach and Kuhlman",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 514
+    "Rank": 416,
+    "UdListDefinitionId": 503
   },
   {
-    "HeadingId": 476,
-    "Name": "Mills-Altenwerth",
-    "Tooltip": "sed",
+    "HeadingId": 704,
+    "Name": "Gulgowski, Gerlach and Kuhlman",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 514
+    "Rank": 416,
+    "UdListDefinitionId": 503
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 206,
-    "Name": "Littel-Turner",
-    "Tooltip": "eos",
+    "HeadingId": 145,
+    "Name": "Cronin-Pfeffer",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 526,
-    "UdListDefinitionId": 206,
+    "Rank": 391,
+    "UdListDefinitionId": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldType": "System.Int32",
+        "FieldLength": 477
       }
     }
   }

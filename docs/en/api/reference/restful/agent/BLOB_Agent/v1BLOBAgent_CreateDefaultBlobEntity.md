@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 607,
-  "BlobSize": 386,
-  "Description": "Open-source disintermediate functionalities",
-  "ExtraInfo": "velit",
-  "IsEncrypted": true,
+  "BlobId": 292,
+  "BlobSize": 708,
+  "Description": "Stand-alone next generation concept",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "vero",
-  "OriginalSize": 847,
-  "CreatedDate": "2003-03-30T14:45:04.8815214+02:00",
-  "UpdatedDate": "2008-01-01T14:45:04.8815214+01:00",
+  "MimeType": "quasi",
+  "OriginalSize": 388,
+  "CreatedDate": "2015-05-10T10:17:55.1290102+02:00",
+  "UpdatedDate": "2003-11-29T10:17:55.1290102+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "maiores",
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 465
     }
   }
 }

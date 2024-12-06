@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=hic
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=optio
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Oct 1999 14:45:12 G10T
+Last-Modified: Tue, 08 Aug 2017 10:18:00 G8T
 
 {
-  "Key": "reprehenderit",
-  "Value": "sint",
-  "RecordId": 426,
-  "CreatedDate": "2006-10-29T14:45:12.8338163+01:00",
-  "UpdatedDate": "1999-10-29T14:45:12.8338163+02:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "enim",
-  "TableName": "Lubowitz Group",
+  "Key": "cumque",
+  "Value": "repudiandae",
+  "RecordId": 566,
+  "CreatedDate": "2010-01-09T10:18:00.4262067+01:00",
+  "UpdatedDate": "2017-08-08T10:18:00.4262067+02:00",
+  "UpdatedBy": "autem",
+  "CreatedBy": "ea",
+  "TableName": "O'Connell-Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   }
 }

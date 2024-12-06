@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Orn Inc and Sons",
-  "ProviderName": "Kuphal, Hammes and Miller",
-  "SortOrder": "odit",
-  "Restriction": "ab",
-  "Entities": "autem",
-  "Page": 79,
-  "PageSize": 329
+  "GuiName": "Heller Group",
+  "ProviderName": "Hansen-Collins",
+  "SortOrder": "sunt",
+  "Restriction": "quia",
+  "Entities": "modi",
+  "Page": 819,
+  "PageSize": 524
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Durgan, Witting and McGlynn",
-    "PrimaryKey": 133,
+    "EntityName": "Kutch, Konopelski and Nolan",
+    "PrimaryKey": 821,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolores",
-        "TooltipHint": "aut",
-        "LinkHint": "veniam"
+        "DisplayValue": "fugit",
+        "TooltipHint": "voluptate",
+        "LinkHint": "corporis"
       }
     },
-    "LinkHint": "esse",
-    "StyleHint": "quia",
+    "LinkHint": "rerum",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 517
       }
     }
   }

@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "unde",
-    "accusamus"
+    "molestias",
+    "sint"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 398,
-    "ColumnId": 838,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 928,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 92,
-    "FieldTop": 660,
+    "UDefFieldId": 332,
+    "ColumnId": 153,
+    "FieldDefault": "officiis",
+    "FieldHeight": 380,
+    "FieldLabel": "eum",
+    "FieldLeft": 833,
+    "FieldTop": 124,
     "FieldType": "Checkbox",
-    "FieldWidth": 268,
-    "FormatMask": "delectus",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 141,
-    "LabelLeft": 846,
-    "LabelTop": 79,
-    "LabelWidth": 104,
-    "LastVersionId": 965,
-    "ListTableId": 691,
-    "IsMandatory": true,
+    "FieldWidth": 328,
+    "FormatMask": "sunt",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 276,
+    "LabelLeft": 494,
+    "LabelTop": 998,
+    "LabelWidth": 692,
+    "LastVersionId": 829,
+    "ListTableId": 980,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 37,
-    "ProgId": "quia",
-    "IsReadOnly": false,
-    "ShortLabel": "occaecati",
-    "TabOrder": 890,
-    "TextLength": 116,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 661,
-    "UDListDefinitionId": 219,
+    "Page1LineNo": 762,
+    "ProgId": "sit",
+    "IsReadOnly": true,
+    "ShortLabel": "enim",
+    "TabOrder": 131,
+    "TextLength": 555,
+    "Tooltip": "delectus",
+    "UdefIdentity": 379,
+    "UDListDefinitionId": 778,
     "Justification": "Center",
-    "Version": 202,
-    "TemplateVariableName": "Herzog Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Stracke Inc and Sons",
+    "Version": 354,
+    "TemplateVariableName": "Lebsack, Reinger and Medhurst",
+    "HasBeenPublished": false,
+    "MdoListName": "King-Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 198
       }
     }
   }

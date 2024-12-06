@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 647,
-  "Section": "fugit",
-  "Key": "commodi",
-  "Name": "Schamberger-Mitchell",
+  "PrefDescId": 847,
+  "Section": "voluptatum",
+  "Key": "nemo",
+  "Name": "Barton, Kiehn and Hettinger",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fully-configurable needs-based internet solution",
+  "Description": "Robust disintermediate implementation",
   "IsBuiltin": false,
-  "TableName": "Bogisich Group",
-  "UserDefinedListId": 593,
-  "Rank": 10,
-  "SubGroup": "nesciunt",
-  "MinLevel": 782,
-  "MaxValue": 159,
-  "MinValue": 232,
-  "RequiredLicense": "magnam"
+  "TableName": "Wilkinson, Prohaska and Bins",
+  "UserDefinedListId": 61,
+  "Rank": 619,
+  "SubGroup": "et",
+  "MinLevel": 321,
+  "MaxValue": 176,
+  "MinValue": 200,
+  "RequiredLicense": "accusantium"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 555,
-  "Section": "est",
-  "Key": "dolorem",
-  "Name": "Rowe, Renner and Homenick",
+  "PrefDescId": 68,
+  "Section": "doloremque",
+  "Key": "sit",
+  "Name": "Kuhn, Corkery and Grady",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual multimedia support",
-  "IsBuiltin": true,
-  "TableName": "Sipes, O'Keefe and Heller",
-  "UserDefinedListId": 211,
-  "Rank": 755,
-  "SubGroup": "qui",
-  "MinLevel": 78,
-  "MaxValue": 893,
-  "MinValue": 594,
-  "RequiredLicense": "quia",
+  "Description": "Ameliorated system-worthy matrices",
+  "IsBuiltin": false,
+  "TableName": "D'Amore LLC",
+  "UserDefinedListId": 799,
+  "Rank": 822,
+  "SubGroup": "fuga",
+  "MinLevel": 479,
+  "MaxValue": 612,
+  "MinValue": 954,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldLength": 593
     }
   },
   "_Links": {

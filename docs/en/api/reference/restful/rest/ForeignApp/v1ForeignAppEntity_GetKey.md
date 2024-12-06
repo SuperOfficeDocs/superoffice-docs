@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Mar 2011 14:45:12 G3T
+Last-Modified: Tue, 20 Dec 2022 10:18:00 G12T
 
 {
-  "Key": "et",
-  "Value": "tenetur",
-  "RecordId": 473,
-  "CreatedDate": "2019-06-18T14:45:12.8338163+02:00",
-  "UpdatedDate": "2011-03-11T14:45:12.8338163+01:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "reiciendis",
-  "TableName": "Okuneva Inc and Sons",
+  "Key": "placeat",
+  "Value": "delectus",
+  "RecordId": 132,
+  "CreatedDate": "2005-09-12T10:18:00.4262067+02:00",
+  "UpdatedDate": "2022-12-20T10:18:00.4262067+01:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "quae",
+  "TableName": "Johnston Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldLength": 443
     }
   }
 }

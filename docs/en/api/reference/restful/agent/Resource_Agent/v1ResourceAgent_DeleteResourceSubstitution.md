@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Spinka, Keeling and Berge",
-  "Culture": "est"
+  "ResourceName": "Braun Group",
+  "Culture": "maiores"
 }
 ```
 

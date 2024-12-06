@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 17 Feb 2008 14:45:12 G2T
+Last-Modified: Fri, 02 Jul 1999 10:18:00 G7T
 
 {
-  "ForeignAppId": 161,
-  "Name": "Hirthe-Buckridge",
-  "CreatedDate": "2019-06-01T14:45:12.8181931+02:00",
-  "UpdatedDate": "2008-02-17T14:45:12.8181931+01:00",
+  "ForeignAppId": 708,
+  "Name": "Ankunding-Rath",
+  "CreatedDate": "2016-08-03T10:18:00.4105739+02:00",
+  "UpdatedDate": "1999-07-02T10:18:00.4105739+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 565,
-      "Name": "Klein, Heller and Purdy",
-      "CreatedDate": "2001-02-05T14:45:12.8181931+01:00",
-      "UpdatedDate": "2004-10-02T14:45:12.8181931+02:00",
-      "AssociateFullName": "Fanny Ona Corwin Sr.",
-      "CreatedBy": "est",
-      "UpdatedBy": "rem",
-      "DeviceIdentifier": "dicta",
-      "ForeignAppId": 511,
+      "ForeignDeviceId": 272,
+      "Name": "Turcotte LLC",
+      "CreatedDate": "2022-11-09T10:18:00.4105739+01:00",
+      "UpdatedDate": "2013-11-21T10:18:00.4105739+01:00",
+      "AssociateFullName": "Dean Hessel",
+      "CreatedBy": "quas",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 961,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 391
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Sun, 17 Feb 2008 14:45:12 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   },
   "_Links": {

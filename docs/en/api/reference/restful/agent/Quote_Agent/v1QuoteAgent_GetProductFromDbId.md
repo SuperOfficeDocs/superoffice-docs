@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 982
+  "ProductId": 521
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 685,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "aliquid",
-  "Name": "Wolf Inc and Sons",
-  "Description": "Integrated 6th generation service-desk",
-  "Code": "unde",
-  "PriceUnit": "officia",
-  "QuantityUnit": "quis",
+  "ProductId": 590,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "illo",
+  "Name": "Kohler LLC",
+  "Description": "Mandatory clear-thinking encoding",
+  "Code": "placeat",
+  "PriceUnit": "quo",
+  "QuantityUnit": "earum",
   "IsSubscription": false,
-  "SubscriptionUnit": "modi",
-  "DefaultSubscriptionQuantity": 29572.424,
-  "ItemNumber": "818864",
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 12959.09,
+  "ItemNumber": "1076797",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatem",
-  "ProductTypeKey": "doloribus",
-  "VAT": 14052.856,
-  "VATInfo": "incidunt",
-  "UnitCost": 26109.354,
-  "UnitMinimumPrice": 29349.91,
-  "UnitListPrice": 24952.908,
-  "InAssortment": true,
-  "Supplier": "neque",
-  "SupplierCode": "officia",
-  "Rights": "quasi",
-  "Rule": "occaecati",
+  "ProductFamilyKey": "facilis",
+  "ProductTypeKey": "aliquid",
+  "VAT": 413.688,
+  "VATInfo": "fugiat",
+  "UnitCost": 8132.73,
+  "UnitMinimumPrice": 23448.588,
+  "UnitListPrice": 30365.325999999997,
+  "InAssortment": false,
+  "Supplier": "dolorem",
+  "SupplierCode": "ut",
+  "Rights": "non",
+  "Rule": "vel",
   "ExtraInfo": [
     {
-      "Name": "Mosciski, Mitchell and Skiles",
-      "Value": "aliquid",
+      "Name": "Terry, Weber and Langosh",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     },
     {
-      "Name": "Mosciski, Mitchell and Skiles",
-      "Value": "aliquid",
+      "Name": "Terry, Weber and Langosh",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "adipisci",
-  "ExtraField2": "velit",
-  "ExtraField3": "et",
-  "ExtraField4": "porro",
-  "ExtraField5": "autem",
-  "InStock": 16262.326,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "tempora",
+  "ExtraField2": "qui",
+  "ExtraField3": "rerum",
+  "ExtraField4": "cumque",
+  "ExtraField5": "ut",
+  "InStock": 11902.931999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldLength": 145
     }
   }
 }

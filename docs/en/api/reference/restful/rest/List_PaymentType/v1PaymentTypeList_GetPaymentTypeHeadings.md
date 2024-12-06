@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 239,
-    "Name": "Labadie-Stamm",
-    "Tooltip": "omnis",
+    "HeadingId": 206,
+    "Name": "Purdy, Bergstrom and Fahey",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 35,
-    "UdListDefinitionId": 201,
+    "Rank": 161,
+    "UdListDefinitionId": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 668
       }
     }
   }

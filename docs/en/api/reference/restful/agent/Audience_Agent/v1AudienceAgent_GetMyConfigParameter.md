@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schuppe Group"
+  "ParameterName": "Beier Group"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 773,
-  "Name": "Turcotte Inc and Sons",
-  "Value": "eaque",
-  "CreatedDate": "2017-01-22T14:45:04.8659001+01:00",
-  "UpdatedDate": "2017-07-11T14:45:04.8659001+02:00",
-  "CreatedBy": "doloremque",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 271,
+  "Name": "King Inc and Sons",
+  "Value": "dolorum",
+  "CreatedDate": "2008-05-29T10:17:55.1290102+02:00",
+  "UpdatedDate": "2014-09-06T10:17:55.1290102+02:00",
+  "CreatedBy": "non",
+  "UpdatedBy": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 871
     }
   }
 }

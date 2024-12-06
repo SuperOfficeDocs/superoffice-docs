@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 905,
-  "AppointmentId": 226,
-  "ProjectId": 566,
-  "SaleId": 887,
+  "DocumentId": 736,
+  "AppointmentId": 228,
+  "ProjectId": 232,
+  "SaleId": 433,
   "Archived": false,
-  "ArchivedAt": "2019-01-20T14:45:05.5220031+01:00",
-  "ArchivedBy": 797,
-  "ArchivedDisplayName": "Marquardt-Stiedemann",
+  "ArchivedAt": "2021-11-12T10:17:55.5821627+01:00",
+  "ArchivedBy": 352,
+  "ArchivedDisplayName": "Runolfsdottir, Wilderman and Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

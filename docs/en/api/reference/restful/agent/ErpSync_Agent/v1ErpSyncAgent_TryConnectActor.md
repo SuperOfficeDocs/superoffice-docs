@@ -75,30 +75,30 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 732,
-  "CrmRecordId": 167,
+  "ErpConnectionId": 131,
+  "CrmRecordId": 784,
   "CrmActorType": "Contact",
-  "ErpKey": "sequi",
+  "ErpKey": "vitae",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Thiel Group",
-      "CrmFieldKey": "facilis",
-      "Value": "possimus",
-      "DisplayValue": "nihil",
-      "SyncToCrm": false,
+      "DisplayName": "Jacobi, Hermiston and Reichel",
+      "CrmFieldKey": "animi",
+      "Value": "dolorem",
+      "DisplayValue": "vel",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Thiel Group",
-      "CrmFieldKey": "facilis",
-      "Value": "possimus",
-      "DisplayValue": "nihil",
-      "SyncToCrm": false,
+      "DisplayName": "Jacobi, Hermiston and Reichel",
+      "CrmFieldKey": "animi",
+      "Value": "dolorem",
+      "DisplayValue": "vel",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lindgren-Schulist"
+  "LayoutName": "Bauch-Gislason"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 54,
-  "InstanceLayout": "ut",
-  "InstanceName": "Willms, Hermiston and Boehm",
-  "CreatedDate": "2009-11-24T14:45:04.8815214+01:00",
-  "UpdatedDate": "2016-07-25T14:45:04.8815214+02:00",
+  "AudienceLayoutId": 499,
+  "InstanceLayout": "nostrum",
+  "InstanceName": "Gottlieb-Rippin",
+  "CreatedDate": "2020-03-07T10:17:55.1290102+01:00",
+  "UpdatedDate": "2023-05-16T10:17:55.1290102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldLength": 48
     }
   }
 }

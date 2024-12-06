@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 819,
-  "RecurrenceRuleId": 832
+  "MotherId": 186,
+  "RecurrenceRuleId": 189
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 906,
-    "StartDate": "2000-09-12T14:45:04.4912235+02:00",
-    "EndDate": "2015-02-28T14:45:04.4912235+01:00",
+    "AppointmentId": 642,
+    "StartDate": "1998-02-17T10:17:54.9414989+01:00",
+    "EndDate": "2007-01-09T10:17:54.9414989+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Pamela McLaughlin",
-    "ContactName": "Altenwerth Inc and Sons",
-    "Description": "Programmable background artificial intelligence",
-    "PersonFullName": "Herminio Moen",
-    "PersonId": 833,
-    "ContactId": 109,
-    "ProjectId": 672,
-    "ProjectName": "Pfeffer-Mertz",
-    "IsPublished": false,
-    "AssociateId": 698,
-    "ColorIndex": 419,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "aut",
+    "AssociateFullName": "Flo Kovacek",
+    "ContactName": "Gulgowski Inc and Sons",
+    "Description": "Operative encompassing function",
+    "PersonFullName": "Violet Effertz",
+    "PersonId": 792,
+    "ContactId": 534,
+    "ProjectId": 299,
+    "ProjectName": "Marquardt-Hettinger",
+    "IsPublished": true,
+    "AssociateId": 37,
+    "ColorIndex": 622,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 160,
-    "PriorityName": "Cummings, Nicolas and Tillman",
+    "PriorityId": 236,
+    "PriorityName": "Parker LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1997-08-16T14:45:04.4912235+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2000-03-20T10:17:54.9414989+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-02-21T14:45:04.4912235+01:00",
-    "RecurringEndDate": "2010-10-13T14:45:04.4912235+02:00",
-    "MotherId": 383,
-    "AssignedBy": 832,
-    "AssignedByFullName": "Aubrey Hane",
-    "RejectReason": "optimize enterprise partnerships",
-    "Location": "tempora",
-    "AlarmLeadTime": "cum",
-    "SaleId": 905,
-    "SaleName": "Eichmann Inc and Sons",
-    "AssociateName": "Denesik Inc and Sons",
-    "CreatedDate": "2024-05-24T14:45:04.4912235+02:00",
-    "CreatedBy": "similique",
-    "CreatedByFullName": "Matilda Will",
-    "CreatedByAssociateId": 383,
+    "RecurringStartDate": "2023-04-25T10:17:54.9414989+02:00",
+    "RecurringEndDate": "2023-07-19T10:17:54.9414989+02:00",
+    "MotherId": 925,
+    "AssignedBy": 452,
+    "AssignedByFullName": "Mr. Josianne Casper",
+    "RejectReason": "",
+    "Location": "laboriosam",
+    "AlarmLeadTime": "ratione",
+    "SaleId": 500,
+    "SaleName": "Effertz, Trantow and Sauer",
+    "AssociateName": "Christiansen LLC",
+    "CreatedDate": "2023-07-22T10:17:54.9414989+02:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Noe Wiza II",
+    "CreatedByAssociateId": 235,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 259,
-    "Title": "est",
-    "Agenda": "voluptatibus",
-    "InternalNotes": "quaerat",
+    "PreferredTZLocation": 135,
+    "Title": "veritatis",
+    "Agenda": "ut",
+    "InternalNotes": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 352
       }
     }
   }

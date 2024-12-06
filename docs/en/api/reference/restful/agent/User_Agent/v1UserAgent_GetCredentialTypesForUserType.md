@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,9 +96,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "omnis",
-    "Type": "aut",
-    "Description": "Phased executive system engine",
+    "DisplayType": "quod",
+    "Type": "debitis",
+    "Description": "Configurable stable model",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldLength": 360
       }
     }
   }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 498,
-  "ConnectorName": "Bayer-Reinger"
+  "ConnectionId": 263,
+  "ConnectorName": "Langosh-Emard"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "hic",
-    "Rank": 377,
-    "DisplayName": "Lehner Group",
-    "DisplayDescription": "Persistent bandwidth-monitored pricing structure",
+    "FieldKey": "maxime",
+    "Rank": 849,
+    "DisplayName": "Willms, Lebsack and Dickinson",
+    "DisplayDescription": "Cross-group uniform attitude",
     "FieldType": "Checkbox",
-    "ListName": "Wyman, Weimann and Lesch",
-    "DefaultValue": "ea",
-    "MaxLength": 766,
+    "ListName": "Kuhic, D'Amore and Simonis",
+    "DefaultValue": "quia",
+    "MaxLength": 638,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldLength": 601
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 819,
-  "Name": "Ledner-Renner",
-  "Tooltip": "et",
+  "RoleId": 797,
+  "Name": "Osinski LLC",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 493,
-  "Rank": 136,
-  "Created": "2009-04-30T14:45:12.9900307+02:00",
-  "UseCategories": 861,
+  "Deleted": 222,
+  "Rank": 569,
+  "Created": "2010-08-24T10:18:00.5199623+02:00",
+  "UseCategories": 262,
   "CreatedBy": null,
-  "Updated": "2006-09-29T14:45:12.9900307+02:00",
+  "Updated": "2020-07-06T10:18:00.5199623+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 608
     }
   }
 }

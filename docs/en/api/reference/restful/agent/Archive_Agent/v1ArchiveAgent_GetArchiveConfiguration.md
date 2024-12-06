@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Anderson-Metz",
-  "ProviderName": "Brakus Group"
+  "GuiName": "Swift-Larson",
+  "ProviderName": "Bednar, Rolfson and Howe"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Farrell LLC",
-      "DisplayTooltip": "soluta",
-      "DisplayType": "excepturi",
-      "CanOrderBy": false,
-      "Name": "Hand, Donnelly and Keeling",
-      "CanRestrictBy": true,
+      "DisplayName": "Will, Sawayn and Donnelly",
+      "DisplayTooltip": "optio",
+      "DisplayType": "officiis",
+      "CanOrderBy": true,
+      "Name": "Homenick Inc and Sons",
+      "CanRestrictBy": false,
       "RestrictionType": "non",
-      "RestrictionListName": "Conn, Fadel and Langworth",
+      "RestrictionListName": "McGlynn-Lakin",
       "IsVisible": false,
-      "ExtraInfo": "quisquam",
-      "Width": "excepturi",
-      "IconHint": "aspernatur",
-      "HeadingIconHint": "dolore"
+      "ExtraInfo": "error",
+      "Width": "voluptatibus",
+      "IconHint": "consequuntur",
+      "HeadingIconHint": "ea"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 110,
-      "Name": "Brown Inc and Sons",
-      "ToolTip": "Facilis consequuntur voluptatem amet accusantium quos et.",
+      "Id": 700,
+      "Name": "Keebler LLC",
+      "ToolTip": "Enim eum.",
       "Deleted": true,
-      "Rank": 359,
-      "Type": "minima",
-      "ColorBlock": 653,
-      "IconHint": "molestiae",
+      "Rank": 40,
+      "Type": "facilis",
+      "ColorBlock": 891,
+      "IconHint": "repellendus",
       "Selected": false,
-      "LastChanged": "2001-02-12T14:45:04.8346562+01:00",
+      "LastChanged": "1998-05-27T10:17:55.0977583+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "similique",
-      "Hidden": false,
-      "FullName": "Dr. Jarrod Goodwin I",
+      "ExtraInfo": "ut",
+      "StyleHint": "excepturi",
+      "Hidden": true,
+      "FullName": "Ms. Chyna Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldLength": 538
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Willms-Quitzon",
+      "Name": "Reilly-Schumm",
       "Direction": "ASC"
     },
     {
-      "Name": "Willms-Quitzon",
+      "Name": "Reilly-Schumm",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "fugiat",
+  "OwnerKeys": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 503
     }
   }
 }

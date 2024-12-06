@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 629
+  "ChatSessionId": 605
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 950,
-  "TopicId": 226,
+  "ChatSessionId": 207,
+  "TopicId": 292,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nihil",
-  "CustomerHost": "voluptatum",
-  "CustomerName": "Toy Inc and Sons",
-  "CustomerEmail": "willow_fisher@jacobs.biz",
-  "CustomerPhone": "953.331.2051",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Daugherty, Lehner and Little",
+  "CustomerAlias": "distinctio",
+  "CustomerHost": "qui",
+  "CustomerName": "Tillman Group",
+  "CustomerEmail": "eddie.lakin@towne.name",
+  "CustomerPhone": "1-642-368-9102 x259",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Purdy, Hansen and Kertzmann",
   "Status": "Closed",
-  "FirstMessage": "consequuntur",
-  "LastMessage": "natus",
-  "WhenRequested": "2015-10-05T14:45:04.9752515+02:00",
-  "WhenStarted": "2003-01-20T14:45:04.9752515+01:00",
-  "WhenEnded": "2004-03-26T14:45:04.9752515+01:00",
-  "WhenIdle": "1999-05-14T14:45:04.9752515+02:00",
-  "WhenFetched": "2001-03-12T14:45:04.9752515+01:00",
-  "SessionKey": "delectus",
-  "InitialQueuePos": 457,
-  "AlertLevel": 565,
-  "Rank": 798,
+  "FirstMessage": "magnam",
+  "LastMessage": "quis",
+  "WhenRequested": "2015-05-03T10:17:55.1915141+02:00",
+  "WhenStarted": "2016-02-03T10:17:55.1915141+01:00",
+  "WhenEnded": "2005-06-12T10:17:55.1915141+02:00",
+  "WhenIdle": "1998-11-27T10:17:55.1915141+01:00",
+  "WhenFetched": "2001-10-06T10:17:55.1915141+02:00",
+  "SessionKey": "laudantium",
+  "InitialQueuePos": 686,
+  "AlertLevel": 560,
+  "Rank": 754,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 226,
+  "ChatbotIsActive": true,
+  "Rating": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 701
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lesch-Lockman"
+  "ApplicationName": "Strosin-Osinski"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 33,
-  "Name": "Fritsch LLC",
-  "CreatedDate": "2018-04-23T14:45:05.6469762+02:00",
-  "UpdatedDate": "2011-10-29T14:45:05.6469762+02:00",
+  "ForeignAppId": 535,
+  "Name": "Stoltenberg LLC",
+  "CreatedDate": "2010-01-04T10:17:55.660285+01:00",
+  "UpdatedDate": "2012-01-29T10:17:55.660285+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 806,
-      "Name": "Hegmann-Ondricka",
-      "CreatedDate": "2002-07-03T14:45:05.6469762+02:00",
-      "UpdatedDate": "2019-09-12T14:45:05.6469762+02:00",
-      "AssociateFullName": "Ms. Ebony Kiara Lesch IV",
-      "CreatedBy": "numquam",
-      "UpdatedBy": "accusantium",
-      "DeviceIdentifier": "deserunt",
-      "ForeignAppId": 75,
+      "ForeignDeviceId": 666,
+      "Name": "Huel, Howe and Feeney",
+      "CreatedDate": "2021-09-23T10:17:55.660285+02:00",
+      "UpdatedDate": "2008-07-12T10:17:55.660285+02:00",
+      "AssociateFullName": "Dortha Jakubowski",
+      "CreatedBy": "beatae",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "nesciunt",
+      "ForeignAppId": 161,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldType": "System.Int32",
+          "FieldLength": 753
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

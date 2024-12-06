@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 820,
-  "LanguageId": 371
+  "ReplyTemplateId": 980,
+  "LanguageId": 189
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 367,
-  "PlainParsed": "cum",
-  "HtmlParsed": "non",
+  "ReplyTemplateId": 765,
+  "PlainParsed": "nemo",
+  "HtmlParsed": "unde",
   "Attachments": [
     {
-      "AttachmentId": 595,
-      "Name": "Brakus Inc and Sons",
-      "ContentType": "eos",
-      "AttSize": 639,
+      "AttachmentId": 605,
+      "Name": "Nolan LLC",
+      "ContentType": "corrupti",
+      "AttSize": 531,
       "InlineImage": true,
-      "ContentId": "consequatur",
-      "AuthKey": "iste",
+      "ContentId": "in",
+      "AuthKey": "necessitatibus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 505
+          "FieldLength": 542
         }
       }
     }
   ],
-  "Subject": "similique",
+  "Subject": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

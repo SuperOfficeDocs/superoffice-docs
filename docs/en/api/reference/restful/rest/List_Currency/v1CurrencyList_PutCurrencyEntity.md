@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 815,
-  "Name": "Zieme-Luettgen",
-  "Tooltip": "iste",
-  "Rank": 96,
-  "Rate": 13908.692,
-  "Units": 7693.9699999999993,
+  "CurrencyId": 527,
+  "Name": "Rice Inc and Sons",
+  "Tooltip": "fugiat",
+  "Rank": 712,
+  "Rate": 6164.5779999999995,
+  "Units": 15337.796,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 907,
-  "Name": "Sanford-Mitchell",
-  "Tooltip": "rerum",
-  "Rank": 830,
-  "Rate": 1927.4099999999999,
-  "Units": 3325.174,
+  "CurrencyId": 431,
+  "Name": "Ullrich LLC",
+  "Tooltip": "minus",
+  "Rank": 940,
+  "Rate": 26711.082,
+  "Units": 17826.192,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   }
 }

@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 624,
-  "Name": "Durgan LLC",
-  "Description": "Versatile full-range benchmark",
-  "WelcomeMessage": "quas",
+  "ChatTopicId": 684,
+  "Name": "Farrell Inc and Sons",
+  "Description": "Organic didactic productivity",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "1998-08-06T14:45:12.5994936+02:00",
-  "SecondsPrAccept": 734,
-  "AlertRecipient": "repudiandae",
+  "LastAccept": "1999-09-29T10:18:00.2543195+02:00",
+  "SecondsPrAccept": 111,
+  "AlertRecipient": "tempora",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "aut",
+  "CollectConsent": false,
+  "BadgeHeader": "quia",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 306,
-  "WarnManagerNewChatMinutes": 27,
+  "CustomQueueText": "odit",
+  "WarnNewChatMinutes": 380,
+  "WarnManagerNewChatMinutes": 516,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -167,13 +167,13 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 229,
-  "WarnManagerChatMessageMinutes": 59,
+  "WarnChatMessageMinutes": 137,
+  "WarnManagerChatMessageMinutes": 224,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 941,
-  "OfflineFormQueueLength": 612,
+  "OfflineFormTimeLimit": 689,
+  "OfflineFormQueueLength": 421,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "vel"
+  "WidgetRatingText": "ducimus"
 }
 ```
 
@@ -184,43 +184,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 125,
-  "Name": "Kirlin LLC",
-  "Description": "Cross-platform empowering secured line",
-  "WelcomeMessage": "quam",
+  "ChatTopicId": 646,
+  "Name": "Keebler LLC",
+  "Description": "Enhanced fault-tolerant structure",
+  "WelcomeMessage": "dicta",
   "Language": null,
-  "LastAccept": "2011-05-27T14:45:12.5994936+02:00",
-  "SecondsPrAccept": 762,
-  "AlertRecipient": "sint",
+  "LastAccept": "2003-01-27T10:18:00.2543195+01:00",
+  "SecondsPrAccept": 471,
+  "AlertRecipient": "neque",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "id",
+  "BadgeHeader": "reprehenderit",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quisquam",
-  "WarnNewChatMinutes": 895,
-  "WarnManagerNewChatMinutes": 121,
-  "TicketEnabled": false,
+  "CustomQueueText": "reiciendis",
+  "WarnNewChatMinutes": 950,
+  "WarnManagerNewChatMinutes": 459,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 157,
-  "WarnManagerChatMessageMinutes": 162,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 892,
-  "OfflineFormQueueLength": 26,
+  "WarnChatMessageMinutes": 519,
+  "WarnManagerChatMessageMinutes": 727,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 711,
+  "OfflineFormQueueLength": 312,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "consequuntur",
+  "WidgetRatingText": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldLength": 140
     }
   },
   "_Links": {

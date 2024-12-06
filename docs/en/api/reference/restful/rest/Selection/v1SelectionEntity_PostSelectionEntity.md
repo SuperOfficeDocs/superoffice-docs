@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Visionary composite neural-net",
-  "Postit": "molestias",
+  "Description": "Synergistic solution-oriented Graphical User Interface",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 116,
-  "IncludePerson": 892,
+  "GroupIdx": 199,
+  "IncludePerson": 134,
   "MemberCount": 99.99,
-  "Name": "Jacobson-Lang",
-  "PostitTextId": 118,
-  "CreatedDate": "2014-12-21T14:45:13.2243548+01:00",
-  "SelectionId": 748,
-  "SoundEx": "enim",
-  "Source": 171,
-  "TextId": 816,
-  "UpdatedDate": "2005-03-13T14:45:13.2243548+01:00",
-  "UpdatedCount": 774,
-  "Visibility": 479,
+  "Name": "McDermott-Weber",
+  "PostitTextId": 440,
+  "CreatedDate": "2010-11-21T10:18:00.7074664+01:00",
+  "SelectionId": 731,
+  "SoundEx": "quam",
+  "Source": 135,
+  "TextId": 383,
+  "UpdatedDate": "2023-12-29T10:18:00.7074664+01:00",
+  "UpdatedCount": 213,
+  "Visibility": 96,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 325,
-  "TargetTableName": "Kulas-Lakin",
-  "Completed": true,
-  "LeftSelectionId": 935,
-  "RightSelectionId": 363,
+  "CompanyUnique": false,
+  "TargetTableNumber": 979,
+  "TargetTableName": "Upton, Braun and Kautzer",
+  "Completed": false,
+  "LeftSelectionId": 676,
+  "RightSelectionId": 835,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Spencer LLC",
-  "ShadowProviderName": "Spencer Group",
-  "ChartKey": "laudantium",
-  "LastLoaded": "2012-10-20T14:45:13.2243548+02:00",
-  "LastLoadedBy": 962,
+  "MainProviderName": "DuBuque LLC",
+  "ShadowProviderName": "Senger Inc and Sons",
+  "ChartKey": "minima",
+  "LastLoaded": "2017-08-16T10:18:00.7074664+02:00",
+  "LastLoadedBy": 14,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-19T14:45:13.2243548+01:00",
-  "LastMembershipChangeBy": 94,
+  "LastMembershipChange": "2003-06-14T10:18:00.7074664+02:00",
+  "LastMembershipChangeBy": 211,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolore",
-  "MemberTabHeading": "tempore",
-  "MailingsProviderName": "Bailey Group",
-  "DashboardTileDefinitionId": 922,
+  "MainHeading": "provident",
+  "MemberTabHeading": "mollitia",
+  "MailingsProviderName": "Hyatt-Mante",
+  "DashboardTileDefinitionId": 127,
   "VisibleFor": [
     {
-      "VisibleId": 795,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "quos"
     },
     {
-      "VisibleId": 795,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "quos"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated cohesive neural-net",
-  "Postit": "ut",
+  "Description": "Multi-channelled next generation workforce",
+  "Postit": "voluptates",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 545,
-  "IncludePerson": 330,
+  "GroupIdx": 4,
+  "IncludePerson": 891,
   "MemberCount": 99.99,
-  "Name": "Reichert-Zemlak",
-  "PostitTextId": 519,
-  "CreatedDate": "2001-06-17T14:45:13.2243548+02:00",
-  "SelectionId": 541,
-  "SoundEx": "voluptas",
-  "Source": 181,
-  "TextId": 555,
-  "UpdatedDate": "2020-01-27T14:45:13.2243548+01:00",
-  "UpdatedCount": 380,
-  "Visibility": 313,
+  "Name": "Bins, Weber and Smith",
+  "PostitTextId": 664,
+  "CreatedDate": "2018-06-29T10:18:00.7074664+02:00",
+  "SelectionId": 358,
+  "SoundEx": "consequuntur",
+  "Source": 349,
+  "TextId": 111,
+  "UpdatedDate": "2021-03-24T10:18:00.7074664+01:00",
+  "UpdatedCount": 337,
+  "Visibility": 809,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 131,
-  "TargetTableName": "Tillman Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 805,
+  "TargetTableName": "Crona, Bradtke and Powlowski",
   "Completed": false,
-  "LeftSelectionId": 118,
-  "RightSelectionId": 821,
+  "LeftSelectionId": 16,
+  "RightSelectionId": 454,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kemmer-Bode",
-  "ShadowProviderName": "Reinger, Stark and Spinka",
-  "ChartKey": "et",
-  "LastLoaded": "2015-10-29T14:45:13.2243548+01:00",
-  "LastLoadedBy": 702,
+  "MainProviderName": "Skiles, Yundt and Renner",
+  "ShadowProviderName": "Mann-Kuvalis",
+  "ChartKey": "ut",
+  "LastLoaded": "2022-07-26T10:18:00.7074664+02:00",
+  "LastLoadedBy": 277,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-09-02T14:45:13.2243548+02:00",
-  "LastMembershipChangeBy": 846,
+  "LastMembershipChange": "2012-07-20T10:18:00.7074664+02:00",
+  "LastMembershipChangeBy": 202,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Wolff Inc and Sons",
-  "DashboardTileDefinitionId": 784,
+  "MainHeading": "quia",
+  "MemberTabHeading": "odio",
+  "MailingsProviderName": "Bailey Group",
+  "DashboardTileDefinitionId": 726,
   "VisibleFor": [
     {
-      "VisibleId": 45,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 228
         }
       }
     },
     {
-      "VisibleId": 45,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 228
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 783
     }
   },
   "_Links": {

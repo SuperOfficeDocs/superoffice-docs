@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880,
-  "Name": "Welch LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 890,
-  "Rank": 753,
+  "Id": 228,
+  "Name": "Gaylord Inc and Sons",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "UdListDefinitionId": 166,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

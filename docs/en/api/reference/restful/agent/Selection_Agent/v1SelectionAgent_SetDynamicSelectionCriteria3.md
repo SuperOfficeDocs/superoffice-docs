@@ -88,31 +88,31 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 97,
+  "SelectionId": 193,
   "Criteria": [
     {
-      "Name": "Beier, Ernser and Dicki",
-      "Operator": "non",
+      "Name": "Greenholt-Daugherty",
+      "Operator": "distinctio",
       "Values": [
-        "aut",
-        "quod"
+        "occaecati",
+        "animi"
       ],
       "DisplayValues": [
-        "vero",
-        "optio"
+        "dicta",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 956,
+      "InterParenthesis": 534,
       "InterOperator": "And",
-      "UniqueHash": 866
+      "UniqueHash": 326
     }
   ],
-  "Filter": "at"
+  "Filter": "nihil"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum Inc and Sons",
-    "Operator": "fuga",
+    "Name": "Rath LLC",
+    "Operator": "itaque",
     "Values": [
-      "in",
-      "corporis"
+      "aperiam",
+      "non"
     ],
     "DisplayValues": [
-      "expedita",
-      "porro"
+      "nesciunt",
+      "voluptatem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Mraz-Vandervort",
-        "Operator": "et",
+        "Name": "Fahey, Quigley and McDermott",
+        "Operator": "numquam",
         "Values": [
-          "vel",
-          "expedita"
+          "aut",
+          "fugit"
         ],
         "DisplayValues": [
-          "atque",
-          "autem"
+          "maxime",
+          "recusandae"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 246,
+        "InterParenthesis": 427,
         "InterOperator": "And",
-        "UniqueHash": 439
+        "UniqueHash": 479
       }
     ],
-    "InterParenthesis": 218,
+    "InterParenthesis": 442,
     "InterOperator": "And",
-    "UniqueHash": 464
+    "UniqueHash": 741
   }
 ]
 ```

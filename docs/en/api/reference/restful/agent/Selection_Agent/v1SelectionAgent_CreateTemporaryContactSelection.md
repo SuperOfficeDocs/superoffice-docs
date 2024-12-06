@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive regional concept",
-  "Postit": "debitis",
+  "Description": "Devolved tertiary installation",
+  "Postit": "earum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 443,
-  "IncludePerson": 376,
+  "GroupIdx": 207,
+  "IncludePerson": 209,
   "MemberCount": 99.99,
-  "Name": "Metz-Klein",
-  "PostitTextId": 31,
-  "CreatedDate": "2009-11-14T14:45:06.2249724+01:00",
-  "SelectionId": 141,
-  "SoundEx": "sed",
-  "Source": 299,
-  "TextId": 184,
-  "UpdatedDate": "2011-05-17T14:45:06.2249724+02:00",
-  "UpdatedCount": 436,
-  "Visibility": 506,
+  "Name": "Thompson Inc and Sons",
+  "PostitTextId": 648,
+  "CreatedDate": "2003-11-26T10:17:56.0353154+01:00",
+  "SelectionId": 425,
+  "SoundEx": "ullam",
+  "Source": 946,
+  "TextId": 483,
+  "UpdatedDate": "2001-05-22T10:17:56.0353154+02:00",
+  "UpdatedCount": 822,
+  "Visibility": 285,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 856,
-  "TargetTableName": "Batz, Beer and Schaefer",
+  "TargetTableNumber": 390,
+  "TargetTableName": "Powlowski-Johnson",
   "Completed": false,
-  "LeftSelectionId": 209,
-  "RightSelectionId": 715,
+  "LeftSelectionId": 623,
+  "RightSelectionId": 374,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hilll-Rolfson",
-  "ShadowProviderName": "Tromp, Gibson and Fritsch",
-  "ChartKey": "illum",
-  "LastLoaded": "2007-09-08T14:45:06.2249724+02:00",
-  "LastLoadedBy": 107,
+  "MainProviderName": "Ledner-Moore",
+  "ShadowProviderName": "Breitenberg-Cassin",
+  "ChartKey": "dicta",
+  "LastLoaded": "1998-10-17T10:17:56.0353154+02:00",
+  "LastLoadedBy": 910,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-09-22T14:45:06.2249724+02:00",
-  "LastMembershipChangeBy": 97,
+  "LastMembershipChange": "2004-07-12T10:17:56.0353154+02:00",
+  "LastMembershipChangeBy": 434,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nisi",
-  "MemberTabHeading": "alias",
-  "MailingsProviderName": "Williamson Group",
-  "DashboardTileDefinitionId": 153,
+  "MainHeading": "deleniti",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Streich-Dibbert",
+  "DashboardTileDefinitionId": 502,
   "VisibleFor": [
     {
-      "VisibleId": 195,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldLength": 800
         }
       }
     },
     {
-      "VisibleId": 195,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 477
+          "FieldLength": 800
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 953
     }
   }
 }

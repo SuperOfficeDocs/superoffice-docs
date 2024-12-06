@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Block-Rosenbaum",
-    "ToolTip": "Delectus pariatur ut mollitia.",
+    "Id": 95,
+    "Name": "Dooley-Wilkinson",
+    "ToolTip": "Voluptatem accusantium qui.",
     "Deleted": false,
-    "Rank": 409,
-    "Type": "in",
-    "ColorBlock": 456,
-    "IconHint": "eligendi",
-    "Selected": false,
-    "LastChanged": "2005-03-05T14:45:13.833594+01:00",
+    "Rank": 624,
+    "Type": "voluptates",
+    "ColorBlock": 777,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2003-09-22T10:18:01.1137483+02:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Hoppe, Lueilwitz and Robel",
-        "ToolTip": "Officia facere sed.",
-        "Deleted": false,
-        "Rank": 162,
-        "Type": "fuga",
-        "ColorBlock": 901,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2014-10-10T14:45:13.833594+02:00",
+        "Id": 319,
+        "Name": "Schmitt Group",
+        "ToolTip": "Est hic harum.",
+        "Deleted": true,
+        "Rank": 87,
+        "Type": "adipisci",
+        "ColorBlock": 471,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2015-04-16T10:18:01.1137483+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
+        "ExtraInfo": "et",
         "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Sterling Zieme"
+        "FullName": "Astrid Heidenreich"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Shanie Parisian"
+    "ExtraInfo": "magnam",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Kayden Dusty Runolfsson Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Lakin LLC",
-    "ToolTip": "Est autem laborum earum eum fuga voluptatem sed.",
+    "Id": 91,
+    "Name": "Kshlerin-Kub",
+    "ToolTip": "Quia ut voluptatibus expedita cumque.",
     "Deleted": false,
-    "Rank": 211,
-    "Type": "eum",
-    "ColorBlock": 421,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2009-12-15T14:45:13.833594+01:00",
+    "Rank": 104,
+    "Type": "laborum",
+    "ColorBlock": 382,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2012-04-01T10:18:01.1137483+02:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Reynolds LLC",
-        "ToolTip": "Quis vel reiciendis sit unde non assumenda et.",
+        "Id": 313,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Aspernatur dolor molestias.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "molestiae",
-        "ColorBlock": 617,
-        "IconHint": "aliquam",
+        "Rank": 759,
+        "Type": "veniam",
+        "ColorBlock": 217,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2022-01-13T14:45:13.833594+01:00",
+        "LastChanged": "2000-01-06T10:18:01.1137483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "enim",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Krystal Goyette",
+        "FullName": "Walter Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldType": "System.Int32",
+            "FieldLength": 382
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "repellat",
+    "ExtraInfo": "vel",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Prof. Hadley Walton Zulauf",
+    "FullName": "Ambrose Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

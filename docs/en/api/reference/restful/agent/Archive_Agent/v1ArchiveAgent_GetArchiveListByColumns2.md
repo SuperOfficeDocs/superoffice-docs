@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hudson Group",
-  "Columns": "laudantium",
-  "SortOrder": "quod",
-  "Restrictions": "a",
-  "Entities": "necessitatibus",
-  "Page": 19,
-  "PageSize": 329
+  "ProviderName": "Franecki Group",
+  "Columns": "delectus",
+  "SortOrder": "ut",
+  "Restrictions": "voluptatem",
+  "Entities": "provident",
+  "Page": 702,
+  "PageSize": 58
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bode-Gorczany",
-    "PrimaryKey": 675,
+    "EntityName": "Tromp, Huel and Paucek",
+    "PrimaryKey": 370,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "a",
-        "TooltipHint": "nisi",
-        "LinkHint": "quis"
+        "DisplayValue": "repellendus",
+        "TooltipHint": "voluptate",
+        "LinkHint": "maxime"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "beatae",
+    "LinkHint": "consequatur",
+    "StyleHint": "tempora",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 909
       }
     }
   }

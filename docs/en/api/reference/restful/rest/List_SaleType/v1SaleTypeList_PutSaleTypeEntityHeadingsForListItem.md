@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Jerde, Howell and Franecki",
-    "ToolTip": "Non nihil tempore.",
+    "Id": 115,
+    "Name": "Lang-Little",
+    "ToolTip": "Dolorem quae labore iure molestiae enim aut numquam.",
     "Deleted": true,
-    "Rank": 731,
-    "Type": "harum",
-    "ColorBlock": 665,
-    "IconHint": "nulla",
+    "Rank": 131,
+    "Type": "deserunt",
+    "ColorBlock": 680,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2010-01-24T14:45:13.9273199+01:00",
+    "LastChanged": "2007-02-08T10:18:01.1606262+01:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Turner, Hayes and Boyer",
-        "ToolTip": "Itaque velit quod ut quos vero autem.",
+        "Id": 155,
+        "Name": "Deckow Group",
+        "ToolTip": "Ab consequuntur.",
         "Deleted": false,
-        "Rank": 987,
-        "Type": "repellat",
-        "ColorBlock": 90,
-        "IconHint": "expedita",
+        "Rank": 830,
+        "Type": "natus",
+        "ColorBlock": 516,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2019-02-23T14:45:13.9273199+01:00",
+        "LastChanged": "2017-11-13T10:18:01.1606262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "officia",
         "Hidden": true,
-        "FullName": "Josh Kassulke"
+        "FullName": "Prof. Mireya Kohler PhD"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Ms. Michaela Walter"
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Taurean Champlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Zulauf-Rolfson",
-    "ToolTip": "Ut nihil.",
+    "Id": 103,
+    "Name": "Goodwin-Emard",
+    "ToolTip": "Mollitia fugiat rerum ratione suscipit magnam maxime voluptate.",
     "Deleted": false,
-    "Rank": 354,
-    "Type": "provident",
-    "ColorBlock": 14,
-    "IconHint": "blanditiis",
+    "Rank": 593,
+    "Type": "cum",
+    "ColorBlock": 719,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2007-10-25T14:45:13.9273199+02:00",
+    "LastChanged": "2024-02-18T10:18:01.1606262+01:00",
     "ChildItems": [
       {
-        "Id": 726,
-        "Name": "Cassin-Maggio",
-        "ToolTip": "Necessitatibus nemo facilis rem ratione dolor unde.",
-        "Deleted": true,
-        "Rank": 835,
-        "Type": "sunt",
-        "ColorBlock": 890,
-        "IconHint": "dicta",
+        "Id": 35,
+        "Name": "Larson Inc and Sons",
+        "ToolTip": "Porro est aut praesentium voluptatibus impedit deserunt placeat.",
+        "Deleted": false,
+        "Rank": 709,
+        "Type": "provident",
+        "ColorBlock": 970,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2013-01-05T14:45:13.9273199+01:00",
+        "LastChanged": "2007-05-11T10:18:01.1606262+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sed",
+        "ExtraInfo": "in",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Mina Keeling",
+        "FullName": "Elton VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Bobbie Santos Boyer V",
+    "ExtraInfo": "qui",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Evert Kovacek IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

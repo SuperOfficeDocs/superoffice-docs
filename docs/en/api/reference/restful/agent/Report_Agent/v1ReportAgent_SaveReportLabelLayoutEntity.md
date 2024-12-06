@@ -89,18 +89,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 683,
-  "Name": "Schaefer-Reynolds",
-  "Description": "Focused next generation solution",
+  "ReportLabelLayoutId": 83,
+  "Name": "Altenwerth LLC",
+  "Description": "Vision-oriented local hardware",
   "Orientation": "Landscape",
-  "PaperWidth": 940,
-  "PaperHeight": 136,
-  "LeftMargin": 422,
-  "RightMargin": 455,
-  "TopMargin": 812,
+  "PaperWidth": 792,
+  "PaperHeight": 698,
+  "LeftMargin": 199,
+  "RightMargin": 933,
+  "TopMargin": 696,
   "BottomMargin": 580,
-  "CountColumns": 290,
-  "CountRows": 318
+  "CountColumns": 261,
+  "CountRows": 733
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 663,
-  "Name": "McClure, Skiles and Bradtke",
-  "Description": "Synchronised upward-trending protocol",
+  "ReportLabelLayoutId": 752,
+  "Name": "Sipes-Rice",
+  "Description": "Profit-focused logistical data-warehouse",
   "Orientation": "Landscape",
-  "PaperWidth": 293,
-  "PaperHeight": 839,
-  "LeftMargin": 372,
-  "RightMargin": 838,
-  "TopMargin": 866,
-  "BottomMargin": 564,
-  "CountColumns": 537,
-  "CountRows": 391,
+  "PaperWidth": 970,
+  "PaperHeight": 109,
+  "LeftMargin": 852,
+  "RightMargin": 335,
+  "TopMargin": 310,
+  "BottomMargin": 505,
+  "CountColumns": 339,
+  "CountRows": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 448
     }
   }
 }

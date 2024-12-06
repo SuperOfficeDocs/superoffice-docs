@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 476,
-  "PersonId": 581,
-  "AppointmentId": 652,
-  "DocumentId": 268,
-  "SaleId": 544,
-  "SelectionId": 166,
-  "ProjectId": 690,
-  "UiCulture": "in"
+  "ContactId": 626,
+  "PersonId": 757,
+  "AppointmentId": 867,
+  "DocumentId": 802,
+  "SaleId": 888,
+  "SelectionId": 283,
+  "ProjectId": 27,
+  "UiCulture": "et"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 579,
+  "DocumentId": 523,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "placeat",
-  "Header": "voluptatibus",
-  "Name": "Kassulke-Hessel",
-  "OurRef": "repellendus",
-  "YourRef": "est",
-  "CreatedDate": "2013-01-12T14:45:05.4282744+01:00",
-  "UpdatedDate": "2001-05-16T14:45:05.4282744+02:00",
-  "Description": "Total motivating paradigm",
+  "Attention": "ea",
+  "Header": "qui",
+  "Name": "Runolfsdottir Inc and Sons",
+  "OurRef": "amet",
+  "YourRef": "et",
+  "CreatedDate": "2004-04-11T10:17:55.5196518+02:00",
+  "UpdatedDate": "2009-03-15T10:17:55.5196518+01:00",
+  "Description": "Centralized incremental structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-05-23T14:45:05.4282744+02:00",
-  "ExternalRef": "eveniet",
+  "Date": "2002-02-19T10:17:55.5196518+01:00",
+  "ExternalRef": "perspiciatis",
   "Completed": "Completed",
-  "ActiveLinks": 804,
+  "ActiveLinks": 856,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marks-Gerhold",
-      "Id": 582,
-      "Description": "Fundamental encompassing time-frame",
-      "ExtraInfo": "eveniet",
-      "LinkId": 98,
+      "EntityName": "Green, Graham and Crooks",
+      "Id": 625,
+      "Description": "Function-based empowering intranet",
+      "ExtraInfo": "accusamus",
+      "LinkId": 425,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldType": "System.String",
+          "FieldLength": 752
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 34,
-  "Snum": 211,
+  "SuggestedDocumentId": 944,
+  "Snum": 675,
   "UserDefinedFields": {
-    "SuperOffice:1": "Katarina Carter",
-    "SuperOffice:2": "Mrs. Ursula Glover Sr."
+    "SuperOffice:1": "Dr. Lenora Morissette",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "sit"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2014-02-07T14:45:05.4282744+01:00",
-  "PublishTo": "2004-12-31T14:45:05.4282744+01:00",
-  "PublishFrom": "2005-12-30T14:45:05.4282744+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-01-08T10:17:55.5196518+01:00",
+  "PublishTo": "2011-03-11T10:17:55.5196518+01:00",
+  "PublishFrom": "2024-01-14T10:17:55.5196518+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 222,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     },
     {
-      "VisibleId": 222,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 600
         }
       }
     }
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

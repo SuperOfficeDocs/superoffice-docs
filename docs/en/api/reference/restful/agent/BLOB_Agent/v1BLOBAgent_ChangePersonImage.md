@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangePersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 13,
-  "BlobId": 985
+  "PersonId": 428,
+  "BlobId": 564
 }
 ```
 

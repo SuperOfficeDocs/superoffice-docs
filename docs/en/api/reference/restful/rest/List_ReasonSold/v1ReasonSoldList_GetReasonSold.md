@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Hermiston, Bergstrom and Jacobs",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "UdListDefinitionId": 809,
-  "Rank": 818,
+  "Id": 905,
+  "Name": "Blanda Group",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "UdListDefinitionId": 776,
+  "Rank": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 1002
     }
   }
 }

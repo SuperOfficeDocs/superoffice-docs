@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nikolaus Group",
-    "DisplayName": "Cummings Group",
-    "Description": "Self-enabling bi-directional interface",
-    "ShortLabel": "voluptates",
+    "FieldName": "Larkin Group",
+    "DisplayName": "Rice LLC",
+    "Description": "Vision-oriented real-time workforce",
+    "ShortLabel": "aut",
     "HideLabel": true,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 282,
-    "TemplateVariableName": "Parisian, Reinger and Moore"
+    "IsDisplayField": true,
+    "Rank": 264,
+    "TemplateVariableName": "Jenkins-Romaguera"
   }
 ]
 ```

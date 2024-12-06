@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Donnelly, Effertz and Feest",
-    "ToolTip": "Ratione quidem sequi sequi.",
+    "Id": 26,
+    "Name": "Bernhard Inc and Sons",
+    "ToolTip": "Quaerat sunt ab est et repudiandae commodi et.",
     "Deleted": false,
-    "Rank": 855,
-    "Type": "deserunt",
-    "ColorBlock": 702,
-    "IconHint": "pariatur",
+    "Rank": 238,
+    "Type": "natus",
+    "ColorBlock": 46,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2002-02-03T14:45:13.9585664+01:00",
+    "LastChanged": "2015-07-23T10:18:01.1762521+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Dooley-Leffler",
-        "ToolTip": "Quas quidem velit id.",
+        "Id": 76,
+        "Name": "Renner, Casper and Carter",
+        "ToolTip": "Et sunt explicabo.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "ea",
-        "ColorBlock": 171,
-        "IconHint": "consequatur",
+        "Rank": 115,
+        "Type": "id",
+        "ColorBlock": 103,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "1998-11-07T14:45:13.9585664+01:00",
+        "LastChanged": "2013-04-27T10:18:01.1762521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Ms. Phoebe Marcellus Paucek",
+        "ExtraInfo": "sit",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Fiona O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 417
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sint",
+    "ExtraInfo": "porro",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Miss Rosario Reed Flatley",
+    "FullName": "May Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 152
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 44,
-  "Name": "Kunde LLC",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 666,
-  "UdListDefinitionId": 140
+  "HeadingId": 607,
+  "Name": "Ward-Fritsch",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 528,
+  "UdListDefinitionId": 713
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 881,
-  "Name": "Thiel Inc and Sons",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 646,
-  "UdListDefinitionId": 855,
+  "HeadingId": 991,
+  "Name": "Stroman, Mertz and Shields",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 840,
+  "UdListDefinitionId": 763,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 184
     }
   }
 }

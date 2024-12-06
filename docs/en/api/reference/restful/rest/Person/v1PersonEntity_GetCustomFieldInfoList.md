@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lang-Morar",
-    "DisplayName": "Sporer, Mayer and Cassin",
-    "Description": "Organic content-based interface",
-    "ShortLabel": "consequuntur",
+    "FieldName": "Witting, Parisian and Langosh",
+    "DisplayName": "Miller, Kuhlman and Schulist",
+    "Description": "Business-focused global groupware",
+    "ShortLabel": "voluptas",
     "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 755,
-    "TemplateVariableName": "Abernathy LLC"
+    "Rank": 823,
+    "TemplateVariableName": "Gorczany LLC"
   }
 ]
 ```

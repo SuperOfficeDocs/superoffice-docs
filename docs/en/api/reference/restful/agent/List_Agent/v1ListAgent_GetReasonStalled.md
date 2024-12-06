@@ -26,7 +26,7 @@ Gets a ReasonStalled object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=725
+POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=900
 POST /api/v1/Agents/List/GetReasonStalled?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 198,
-  "Value": "vitae",
-  "Tooltip": "doloribus",
+  "Id": 209,
+  "Value": "dolore",
+  "Tooltip": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 794
     }
   }
 }

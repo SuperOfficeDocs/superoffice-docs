@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Weissnat Inc and Sons",
-    "ToolTip": "Alias amet nam ad et quasi.",
+    "Id": 645,
+    "Name": "Wyman-Larson",
+    "ToolTip": "Quod voluptas rem.",
     "Deleted": false,
-    "Rank": 770,
-    "Type": "illum",
-    "ColorBlock": 790,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2009-08-17T14:45:13.833594+02:00",
+    "Rank": 270,
+    "Type": "qui",
+    "ColorBlock": 684,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "2019-01-05T10:18:01.1137483+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Murray, Torp and O'Kon",
-        "ToolTip": "Atque et dicta.",
+        "Id": 530,
+        "Name": "Beahan-Graham",
+        "ToolTip": "Ut necessitatibus voluptatibus molestiae.",
         "Deleted": true,
-        "Rank": 520,
-        "Type": "ut",
-        "ColorBlock": 167,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2000-06-14T14:45:13.833594+02:00",
+        "Rank": 470,
+        "Type": "velit",
+        "ColorBlock": 55,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2012-02-16T10:18:01.1137483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Michele Volkman"
+        "ExtraInfo": "totam",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Margarett Zboncak"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "commodi",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Adrianna Runte"
+    "FullName": "Destiny Schuster"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Schmeler, Altenwerth and Durgan",
-    "ToolTip": "Harum provident odio illum autem qui sunt ex.",
+    "Id": 777,
+    "Name": "Stanton-Kuhn",
+    "ToolTip": "Earum quibusdam eum autem.",
     "Deleted": false,
-    "Rank": 35,
-    "Type": "ex",
-    "ColorBlock": 643,
-    "IconHint": "sapiente",
+    "Rank": 391,
+    "Type": "in",
+    "ColorBlock": 777,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2023-03-09T14:45:13.833594+01:00",
+    "LastChanged": "2019-05-31T10:18:01.1137483+02:00",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Osinski, Osinski and Stracke",
-        "ToolTip": "Corporis sint illo nostrum.",
-        "Deleted": false,
-        "Rank": 884,
-        "Type": "mollitia",
-        "ColorBlock": 609,
-        "IconHint": "a",
+        "Id": 847,
+        "Name": "Jakubowski, Cartwright and Daniel",
+        "ToolTip": "Expedita qui quia sapiente quia cumque.",
+        "Deleted": true,
+        "Rank": 580,
+        "Type": "qui",
+        "ColorBlock": 518,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2020-01-11T14:45:13.833594+01:00",
+        "LastChanged": "2019-01-09T10:18:01.1137483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "a",
+        "ExtraInfo": "autem",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Ms. Erick Mable Kreiger Jr.",
+        "FullName": "Anabel Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 920
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "velit",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Eula Howell",
+    "FullName": "Dr. Marilie Camren Dooley III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

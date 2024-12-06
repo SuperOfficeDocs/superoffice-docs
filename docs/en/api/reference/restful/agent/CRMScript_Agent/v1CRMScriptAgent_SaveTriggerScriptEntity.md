@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 541,
-  "Name": "Kunze LLC",
+  "ScreenChooserId": 198,
+  "Name": "Champlin-Rice",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolorem",
-  "Source": "ad",
-  "Registered": "2006-02-13T14:45:05.1627086+01:00",
-  "RegisteredAssociateId": 471,
-  "Updated": "2002-11-29T14:45:05.1627086+01:00",
-  "UpdatedAssociateId": 901
+  "UniqueIdentifier": "et",
+  "Source": "et",
+  "Registered": "2002-08-20T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2016-08-28T10:17:55.3165216+02:00",
+  "UpdatedAssociateId": 927
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 182,
-  "Name": "Becker, Buckridge and Nicolas",
+  "ScreenChooserId": 619,
+  "Name": "Treutel, Aufderhar and Lakin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "odit",
-  "Source": "natus",
-  "Registered": "1997-08-01T14:45:05.1627086+02:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2019-01-24T14:45:05.1627086+01:00",
-  "UpdatedAssociateId": 978,
+  "Enabled": true,
+  "UniqueIdentifier": "qui",
+  "Source": "quas",
+  "Registered": "1998-06-14T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 641,
+  "Updated": "2014-11-19T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 852
     }
   }
 }

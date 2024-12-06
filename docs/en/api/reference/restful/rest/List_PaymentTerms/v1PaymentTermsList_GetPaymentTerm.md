@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Rohan-Lindgren",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "UdListDefinitionId": 309,
-  "Rank": 866,
+  "Id": 199,
+  "Name": "Pouros-Kris",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "UdListDefinitionId": 269,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   }
 }

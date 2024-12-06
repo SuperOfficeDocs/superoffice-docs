@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Jenkins-Dare",
-    "ToolTip": "Labore aut omnis quos aut quas molestias minima.",
-    "Deleted": true,
-    "Rank": 981,
-    "Type": "id",
-    "ColorBlock": 450,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2020-11-17T14:45:13.8960777+01:00",
+    "Id": 139,
+    "Name": "Beer Group",
+    "ToolTip": "Reiciendis labore nulla necessitatibus facilis debitis et.",
+    "Deleted": false,
+    "Rank": 71,
+    "Type": "ullam",
+    "ColorBlock": 68,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2003-09-27T10:18:01.1450002+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Hettinger, Cummings and Beier",
-        "ToolTip": "Qui et.",
-        "Deleted": false,
-        "Rank": 297,
-        "Type": "quo",
-        "ColorBlock": 586,
-        "IconHint": "ut",
+        "Id": 203,
+        "Name": "Christiansen Group",
+        "ToolTip": "Magni nostrum voluptates.",
+        "Deleted": true,
+        "Rank": 878,
+        "Type": "quos",
+        "ColorBlock": 340,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "2008-01-06T14:45:13.8960777+01:00",
+        "LastChanged": "2007-10-25T10:18:01.1450002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "molestiae",
-        "Hidden": false,
-        "FullName": "Americo Moore V"
+        "ExtraInfo": "minus",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Winifred Cloyd Fay III"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Ms. Vivienne Beatty I"
+    "ExtraInfo": "ut",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Herman Cruickshank"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Ruecker-Spencer",
-    "ToolTip": "Corrupti blanditiis.",
-    "Deleted": false,
-    "Rank": 141,
-    "Type": "perferendis",
-    "ColorBlock": 640,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2017-01-28T14:45:13.8960777+01:00",
+    "Id": 834,
+    "Name": "Satterfield, Pfannerstill and Stanton",
+    "ToolTip": "Minima similique.",
+    "Deleted": true,
+    "Rank": 488,
+    "Type": "tempore",
+    "ColorBlock": 340,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2014-01-05T10:18:01.1450002+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Lockman Group",
-        "ToolTip": "Beatae architecto natus.",
+        "Id": 612,
+        "Name": "Greenfelder-Hilll",
+        "ToolTip": "Cumque velit.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "rerum",
-        "ColorBlock": 35,
-        "IconHint": "numquam",
-        "Selected": false,
-        "LastChanged": "2015-01-11T14:45:13.8960777+01:00",
+        "Rank": 796,
+        "Type": "magnam",
+        "ColorBlock": 654,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2004-02-06T10:18:01.1450002+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "ea",
+        "ExtraInfo": "impedit",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Noemie Carroll",
+        "FullName": "Dr. Angus Aufderhar I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldType": "System.String",
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Nolan Fritsch",
+    "ExtraInfo": "qui",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Dasia Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 405
       }
     }
   }

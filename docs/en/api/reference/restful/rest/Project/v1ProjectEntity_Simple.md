@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 74,
-  "Name": "Pfeffer-Sawayn",
-  "Description": "Organic web-enabled function",
+  "ProjectId": 470,
+  "Name": "McCullough-Morar",
+  "Description": "Optional zero defect policy",
   "URL": "http://www.example.com/",
-  "Type": "aliquam",
-  "AssociateId": 580,
-  "AssociateFullName": "Prof. Edwardo Filiberto Anderson IV",
-  "TypeId": 780,
-  "Updated": "2024-08-26T14:45:12.9744085+02:00",
-  "StatusId": 658,
-  "Status": "dolorum",
-  "TextId": 272,
-  "PublishTo": "1999-12-06T14:45:12.9744085+01:00",
-  "PublishFrom": "1999-01-10T14:45:12.9744085+01:00",
-  "IsPublished": false,
+  "Type": "voluptas",
+  "AssociateId": 376,
+  "AssociateFullName": "Mckayla Herminia Mosciski II",
+  "TypeId": 256,
+  "Updated": "2014-04-06T10:18:00.5199623+02:00",
+  "StatusId": 586,
+  "Status": "voluptate",
+  "TextId": 640,
+  "PublishTo": "2022-11-15T10:18:00.5199623+01:00",
+  "PublishFrom": "2023-03-04T10:18:00.5199623+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1379559",
-  "ActiveErpLinks": 861,
+  "ProjectNumber": "989079",
+  "ActiveErpLinks": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 265
     }
   }
 }

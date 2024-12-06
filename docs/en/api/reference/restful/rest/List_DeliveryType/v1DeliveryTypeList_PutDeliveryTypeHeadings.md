@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 933,
-    "Name": "Bailey-Beatty",
-    "Tooltip": "rem",
+    "HeadingId": 622,
+    "Name": "Waters-Lueilwitz",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 21,
-    "UdListDefinitionId": 479
+    "Rank": 622,
+    "UdListDefinitionId": 811
   },
   {
-    "HeadingId": 933,
-    "Name": "Bailey-Beatty",
-    "Tooltip": "rem",
+    "HeadingId": 622,
+    "Name": "Waters-Lueilwitz",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 21,
-    "UdListDefinitionId": 479
+    "Rank": 622,
+    "UdListDefinitionId": 811
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "O'Conner Group",
-    "Tooltip": "possimus",
-    "Deleted": true,
-    "Rank": 741,
-    "UdListDefinitionId": 223,
+    "HeadingId": 791,
+    "Name": "Satterfield Group",
+    "Tooltip": "hic",
+    "Deleted": false,
+    "Rank": 96,
+    "UdListDefinitionId": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldType": "System.String",
+        "FieldLength": 947
       }
     }
   }

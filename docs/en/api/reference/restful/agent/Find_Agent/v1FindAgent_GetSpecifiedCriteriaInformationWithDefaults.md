@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Macejkovic LLC",
-  "StorageKey": "est",
+  "StorageType": "et",
+  "ProviderName": "Paucek Inc and Sons",
+  "StorageKey": "excepturi",
   "DesiredColumnNames": [
-    "Marks-Rowe",
-    "Ferry-Reynolds"
+    "Gottlieb-Will",
+    "Ruecker Group"
   ],
   "StaticColumns": [
-    "quidem",
-    "sint"
+    "sint",
+    "ea"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Considine-Cole",
-      "Operator": "commodi",
+      "Name": "Cassin, Keebler and Parisian",
+      "Operator": "dolorem",
       "Values": [
-        "aut",
-        "distinctio"
+        "architecto",
+        "sit"
       ],
       "DisplayValues": [
-        "tempore",
-        "omnis"
+        "doloremque",
+        "deleniti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 684,
+      "InterParenthesis": 721,
       "InterOperator": "And",
-      "UniqueHash": 144
+      "UniqueHash": 508
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schuppe-Gottlieb",
-      "DisplayTooltip": "vero",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Torphy, Renner and Kautzer",
+      "DisplayTooltip": "commodi",
+      "DisplayType": "saepe",
       "CanOrderBy": false,
-      "Name": "Schuster, Ondricka and Hauck",
+      "Name": "Langworth LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "praesentium",
-      "RestrictionListName": "Treutel-Kunze",
+      "RestrictionType": "vero",
+      "RestrictionListName": "Swift Group",
       "IsVisible": true,
       "ExtraInfo": "et",
-      "Width": "asperiores",
-      "IconHint": "eligendi",
-      "HeadingIconHint": "pariatur"
+      "Width": "natus",
+      "IconHint": "ad",
+      "HeadingIconHint": "velit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Swift LLC",
-      "PrimaryKey": 188,
+      "EntityName": "Kertzmann-Pacocha",
+      "PrimaryKey": 148,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "impedit",
-          "TooltipHint": "veritatis",
-          "LinkHint": "voluptas"
+          "DisplayValue": "ut",
+          "TooltipHint": "sint",
+          "LinkHint": "ad"
         }
       },
-      "LinkHint": "iste",
-      "StyleHint": "quasi",
+      "LinkHint": "et",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 300
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koch Group",
-      "Description": "Centralized exuding interface",
-      "Rank": 715,
+      "Name": "Langworth Group",
+      "Description": "Mandatory hybrid monitoring",
+      "Rank": 162,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koch Group",
-      "Description": "Centralized exuding interface",
-      "Rank": 715,
+      "Name": "Langworth Group",
+      "Description": "Mandatory hybrid monitoring",
+      "Rank": 162,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 359,
-    "Name": "Ziemann-Bayer",
-    "Tooltip": "ea",
+    "HeadingId": 326,
+    "Name": "Schimmel-Breitenberg",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 259,
-    "UdListDefinitionId": 250,
+    "Rank": 51,
+    "UdListDefinitionId": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 883
       }
     }
   }

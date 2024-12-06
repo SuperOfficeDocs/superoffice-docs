@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 835,
-    "Name": "Lehner-Kautzer",
-    "Description": "Multi-channelled full-range synergy",
+    "ProjectId": 936,
+    "Name": "Morar Inc and Sons",
+    "Description": "Open-source upward-trending synergy",
     "URL": "http://www.example.com/",
-    "Type": "dolorum",
-    "AssociateId": 806,
-    "AssociateFullName": "Dr. Nya Ruecker",
-    "TypeId": 293,
-    "Updated": "2023-07-08T14:45:06.0218921+02:00",
-    "StatusId": 899,
-    "Status": "ut",
-    "TextId": 456,
-    "PublishTo": "1998-02-12T14:45:06.0218921+01:00",
-    "PublishFrom": "2009-06-01T14:45:06.0218921+02:00",
+    "Type": "cum",
+    "AssociateId": 78,
+    "AssociateFullName": "Rosalee Doyle",
+    "TypeId": 527,
+    "Updated": "2006-07-22T10:17:55.9103076+02:00",
+    "StatusId": 730,
+    "Status": "odio",
+    "TextId": 128,
+    "PublishTo": "2011-03-02T10:17:55.9103076+01:00",
+    "PublishFrom": "2005-08-14T10:17:55.9103076+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1349172",
-    "ActiveErpLinks": 746,
+    "ProjectNumber": "887949",
+    "ActiveErpLinks": 467,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 275
       }
     }
   }

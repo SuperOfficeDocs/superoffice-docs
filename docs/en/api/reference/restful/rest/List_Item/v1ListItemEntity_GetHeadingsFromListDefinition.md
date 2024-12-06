@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 23,
-    "Name": "O'Hara Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 196,
+    "Name": "Cassin, Vandervort and Braun",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 621,
-    "UdListDefinitionId": 333,
+    "Rank": 522,
+    "UdListDefinitionId": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 319
       }
     }
   }

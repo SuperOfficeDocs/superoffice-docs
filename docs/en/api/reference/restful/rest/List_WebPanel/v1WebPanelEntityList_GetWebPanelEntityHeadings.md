@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 814,
-    "Name": "Gorczany, Gleichner and Olson",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 365,
-    "UdListDefinitionId": 358,
+    "HeadingId": 763,
+    "Name": "Bailey-Abbott",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "Rank": 76,
+    "UdListDefinitionId": 781,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 448
       }
     }
   }

@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 539,
-  "ERPQuoteVersionKey": "est",
-  "QuoteId": 36,
-  "Description": "Down-sized zero administration Graphical User Interface",
-  "Number": "618924",
+  "QuoteVersionId": 514,
+  "ERPQuoteVersionKey": "soluta",
+  "QuoteId": 203,
+  "Description": "User-friendly bifurcated array",
+  "Number": "1595308",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "leverage end-to-end web-readiness",
-  "LikelyQuoteAlternativeId": 926,
-  "SentDate": "2008-07-21T14:45:06.0375135+02:00",
-  "FollowupId": 49,
-  "ExpirationDate": "2005-05-23T14:45:06.0375135+02:00",
-  "DeliveryCountryId": 469,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 182,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 743,
+  "SentDate": "2024-07-01T10:17:55.9259336+02:00",
+  "FollowupId": 246,
+  "ExpirationDate": "2020-10-17T10:17:55.9259336+02:00",
+  "DeliveryCountryId": 169,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 950,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "necessitatibus",
-  "ERPPaymentTypeKey": "fuga",
-  "ERPDeliveryTermsKey": "sint",
-  "ERPDeliveryTypeKey": "aut",
-  "Rank": 921,
-  "ApprovedBy": 22,
-  "ApprovedText": "soluta",
-  "ApprovedRegisteredBy": 527,
-  "ApprovedRegisteredDate": "2019-07-24T14:45:06.0375135+02:00",
-  "ExtraField1": "quia",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "incidunt",
-  "ExtraField4": "tempore",
-  "ExtraField5": "ipsa",
-  "LastRecalculated": "2007-07-08T14:45:06.0375135+02:00",
-  "Updated": "2006-02-24T14:45:06.0375135+01:00",
-  "UpdatedAssociateId": 669,
-  "Registered": "2007-03-02T14:45:06.0375135+01:00",
-  "RegisteredAssociateId": 161,
-  "RequestAssociateId": 972,
-  "RequestComment": "ut",
+  "ERPPaymentTermsKey": "aperiam",
+  "ERPPaymentTypeKey": "omnis",
+  "ERPDeliveryTermsKey": "totam",
+  "ERPDeliveryTypeKey": "labore",
+  "Rank": 154,
+  "ApprovedBy": 605,
+  "ApprovedText": "quis",
+  "ApprovedRegisteredBy": 306,
+  "ApprovedRegisteredDate": "2019-04-19T10:17:55.9259336+02:00",
+  "ExtraField1": "sed",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "et",
+  "ExtraField4": "sequi",
+  "ExtraField5": "ad",
+  "LastRecalculated": "2014-06-11T10:17:55.9259336+02:00",
+  "Updated": "2008-10-18T10:17:55.9259336+02:00",
+  "UpdatedAssociateId": 827,
+  "Registered": "2009-02-15T10:17:55.9259336+01:00",
+  "RegisteredAssociateId": 208,
+  "RequestAssociateId": 683,
+  "RequestComment": "sit",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 911,
-      "ERPQuoteAlternativeKey": "iste",
-      "QuoteVersionId": 547,
-      "Name": "McDermott, Murazik and Kuhn",
-      "Description": "Distributed background functionalities",
+      "QuoteAlternativeId": 504,
+      "ERPQuoteAlternativeKey": "qui",
+      "QuoteVersionId": 660,
+      "Name": "Schultz, Nikolaus and Kuhic",
+      "Description": "Robust grid-enabled migration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 25705.068,
-      "ERPDiscountAmount": 25980.86,
-      "DiscountPercent": 23028.631999999998,
-      "DiscountAmount": 16585.128,
+      "ERPDiscountPercent": 30951.384,
+      "ERPDiscountAmount": 2667.034,
+      "DiscountPercent": 10213.706,
+      "DiscountAmount": 30992.126,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "similique",
-      "VAT": 3779.604,
-      "EarningPercent": 13350.84,
-      "EarningAmount": 9568.101999999999,
-      "SubTotal": 23530.072,
-      "TotalPrice": 10787.228,
-      "ExtraField1": "et",
-      "ExtraField2": "molestiae",
-      "ExtraField3": "provident",
-      "ExtraField4": "ducimus",
-      "ExtraField5": "ab",
+      "VATInfo": "nisi",
+      "VAT": 6333.8139999999994,
+      "EarningPercent": 23263.682,
+      "EarningAmount": 18819.67,
+      "SubTotal": 13777.064,
+      "TotalPrice": 16638.406,
+      "ExtraField1": "voluptatum",
+      "ExtraField2": "inventore",
+      "ExtraField3": "voluptatem",
+      "ExtraField4": "qui",
+      "ExtraField5": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 449
+          "FieldType": "System.String",
+          "FieldLength": 218
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

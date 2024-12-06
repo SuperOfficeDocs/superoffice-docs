@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Quitzon, Gutkowski and Hansen"
+  "TabName": "Stark-Robel"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 15,
-  "TabName": "Rolfson-Medhurst",
-  "Order": "aperiam",
-  "AssociateId": 601,
+  "TabOrderId": 321,
+  "TabName": "Russel-Hoppe",
+  "Order": "vel",
+  "AssociateId": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

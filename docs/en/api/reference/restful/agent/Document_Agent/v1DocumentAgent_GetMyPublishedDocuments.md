@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 311,
-    "Attention": "reiciendis",
-    "Header": "dolorum",
-    "Name": "Thiel-Metz",
-    "OurRef": "cupiditate",
-    "YourRef": "odit",
-    "Description": "Persevering bandwidth-monitored emulation",
-    "DocumentTemplate": "quia",
+    "DocumentId": 415,
+    "Attention": "delectus",
+    "Header": "aliquid",
+    "Name": "Crona-Yundt",
+    "OurRef": "amet",
+    "YourRef": "quos",
+    "Description": "Centralized stable groupware",
+    "DocumentTemplate": "laudantium",
     "IsPublished": false,
-    "PersonId": 71,
-    "PersonFullName": "Shaun Oberbrunner",
-    "AssociateFullName": "Naomie Bogisich",
-    "ContactId": 950,
-    "ContactName": "Franecki, Predovic and Rowe",
-    "ProjectId": 311,
-    "ProjectName": "Grady, West and Auer",
-    "AssociateId": 782,
-    "Snum": 248,
-    "SaleId": 662,
-    "SaleName": "Koch-Gutmann",
+    "PersonId": 421,
+    "PersonFullName": "Devyn Hilll II",
+    "AssociateFullName": "Kelsie Krajcik",
+    "ContactId": 441,
+    "ContactName": "Conn-Braun",
+    "ProjectId": 291,
+    "ProjectName": "Morar-West",
+    "AssociateId": 254,
+    "Snum": 729,
+    "SaleId": 429,
+    "SaleName": "Macejkovic Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   }

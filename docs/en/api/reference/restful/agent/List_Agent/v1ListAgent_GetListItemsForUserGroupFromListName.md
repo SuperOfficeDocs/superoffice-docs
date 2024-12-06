@@ -92,8 +92,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wolff LLC",
-  "GroupId": 695
+  "UdListDefinitionName": "Baumbach, Feeney and Wiza",
+  "GroupId": 236
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Watsica LLC",
-    "ToolTip": "Blanditiis voluptatem occaecati.",
+    "Id": 427,
+    "Name": "Mitchell Group",
+    "ToolTip": "Quo voluptates et quam explicabo velit dolore.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "nobis",
-    "ColorBlock": 530,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "2001-12-06T14:45:05.7094637+01:00",
+    "Rank": 947,
+    "Type": "at",
+    "ColorBlock": 307,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2024-05-13T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Jacobi LLC",
-        "ToolTip": "Placeat similique culpa.",
-        "Deleted": false,
-        "Rank": 462,
-        "Type": "et",
-        "ColorBlock": 883,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2011-03-17T14:45:05.7094637+01:00",
+        "Id": 56,
+        "Name": "Will, Konopelski and Williamson",
+        "ToolTip": "Quam molestiae quia minima non sed facilis animi.",
+        "Deleted": true,
+        "Rank": 726,
+        "Type": "nam",
+        "ColorBlock": 446,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2016-11-28T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Prof. Jany Howell",
+        "ExtraInfo": "rerum",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Lavina Feest PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 47
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "sequi",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Rebekah Ashly Hermann III",
+    "FullName": "Mr. Zola Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

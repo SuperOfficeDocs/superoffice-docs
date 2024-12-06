@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 235,
-  "Name": "Torphy, Kemmer and Johnston"
+  "DashboardId": 468,
+  "Name": "Abernathy-Murray"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 705,
-  "UniqueId": "facilis",
-  "Name": "Lind LLC",
-  "Description": "De-engineered solution-oriented model",
-  "AssociateId": 892,
-  "Columns": 581,
+  "DashboardId": 799,
+  "UniqueId": "rerum",
+  "Name": "Kuhic, Goldner and Graham",
+  "Description": "Versatile analyzing capability",
+  "AssociateId": 329,
+  "Columns": 110,
   "Theme": null,
-  "VisibleForAll": 484,
+  "VisibleForAll": 694,
   "VisibleForAssociates": [
-    891,
-    736
+    799,
+    176
   ],
   "VisibleForGroups": [
-    523,
-    764
+    454,
+    830
   ],
-  "PinForAll": 759,
+  "PinForAll": 127,
   "PinForAssociates": [
-    301,
-    290
+    552,
+    612
   ],
   "PinForGroups": [
-    886,
-    430
+    238,
+    968
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

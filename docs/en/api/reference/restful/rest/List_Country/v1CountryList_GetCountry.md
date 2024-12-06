@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 738,
-  "Name": "Buckridge, Gottlieb and Abbott",
-  "CurrencyId": 821,
-  "EnglishName": "Hodkiewicz Inc and Sons",
+  "CountryId": 357,
+  "Name": "Kessler Inc and Sons",
+  "CurrencyId": 715,
+  "EnglishName": "Pacocha-Barrows",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Function-based disintermediate capacity",
-  "OrgNrText": "838367",
-  "InterAreaPrefix": "ullam",
-  "DialInPrefix": "doloribus",
-  "ZipPrefix": "similique",
-  "DomainName": "Schinner LLC",
-  "AddressLayoutId": 594,
-  "DomesticAddressLayoutId": 238,
-  "ForeignAddressLayoutId": 573,
-  "Rank": 60,
-  "Tooltip": "deleniti",
-  "Deleted": true,
+  "ImageDescription": "Networked intermediate process improvement",
+  "OrgNrText": "705024",
+  "InterAreaPrefix": "distinctio",
+  "DialInPrefix": "eos",
+  "ZipPrefix": "ullam",
+  "DomainName": "Bogisich-Torp",
+  "AddressLayoutId": 518,
+  "DomesticAddressLayoutId": 273,
+  "ForeignAddressLayoutId": 90,
+  "Rank": 793,
+  "Tooltip": "debitis",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

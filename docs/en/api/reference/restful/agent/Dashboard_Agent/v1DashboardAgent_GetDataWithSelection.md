@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 240,
-  "SelectionId": 489,
-  "Restrictions": "accusantium"
+  "DashboardTileId": 997,
+  "SelectionId": 960,
+  "Restrictions": "ut"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "D'Amore, Barrows and Hammes",
-        "DisplayTooltip": "tenetur",
-        "DisplayType": "repellendus",
-        "CanOrderBy": false,
-        "Name": "O'Connell-Treutel",
+        "DisplayName": "Cartwright Group",
+        "DisplayTooltip": "qui",
+        "DisplayType": "quo",
+        "CanOrderBy": true,
+        "Name": "Kuphal, Keebler and Kling",
         "CanRestrictBy": false,
-        "RestrictionType": "ducimus",
-        "RestrictionListName": "Macejkovic, Quigley and Waelchi",
-        "IsVisible": false,
-        "ExtraInfo": "quis",
-        "Width": "ut",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "est"
+        "RestrictionType": "voluptas",
+        "RestrictionListName": "Swaniawski, Conn and Klein",
+        "IsVisible": true,
+        "ExtraInfo": "ipsa",
+        "Width": "optio",
+        "IconHint": "aut",
+        "HeadingIconHint": "repudiandae"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "D'Amore, Barrows and Hammes",
-        "DisplayTooltip": "tenetur",
-        "DisplayType": "repellendus",
-        "CanOrderBy": false,
-        "Name": "O'Connell-Treutel",
+        "DisplayName": "Cartwright Group",
+        "DisplayTooltip": "qui",
+        "DisplayType": "quo",
+        "CanOrderBy": true,
+        "Name": "Kuphal, Keebler and Kling",
         "CanRestrictBy": false,
-        "RestrictionType": "ducimus",
-        "RestrictionListName": "Macejkovic, Quigley and Waelchi",
-        "IsVisible": false,
-        "ExtraInfo": "quis",
-        "Width": "ut",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "est"
+        "RestrictionType": "voluptas",
+        "RestrictionListName": "Swaniawski, Conn and Klein",
+        "IsVisible": true,
+        "ExtraInfo": "ipsa",
+        "Width": "optio",
+        "IconHint": "aut",
+        "HeadingIconHint": "repudiandae"
       }
     ],
     "Result": null

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 173,
-  "HeadingId": 538
+  "UdListDefinitionId": 242,
+  "HeadingId": 304
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Romaguera LLC",
-    "ToolTip": "Explicabo odio facere esse assumenda alias.",
-    "Deleted": true,
-    "Rank": 18,
-    "Type": "repellendus",
-    "ColorBlock": 425,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2019-12-11T14:45:05.7250829+01:00",
+    "Id": 708,
+    "Name": "Lockman Group",
+    "ToolTip": "Beatae rerum.",
+    "Deleted": false,
+    "Rank": 20,
+    "Type": "architecto",
+    "ColorBlock": 86,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2007-01-13T10:17:55.7071691+01:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Nitzsche, Roob and Nienow",
-        "ToolTip": "Earum qui soluta sit architecto id.",
+        "Id": 999,
+        "Name": "Lowe Inc and Sons",
+        "ToolTip": "Sequi qui illum in.",
         "Deleted": false,
-        "Rank": 134,
-        "Type": "doloribus",
-        "ColorBlock": 566,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2003-10-05T14:45:05.7250829+02:00",
+        "Rank": 762,
+        "Type": "provident",
+        "ColorBlock": 323,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2005-11-27T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Prof. August Parisian Sr.",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Ms. Robyn Issac Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Jabari Lockman",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "nesciunt",
+    "Hidden": false,
+    "FullName": "Mr. Elias Schuster III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 671
       }
     }
   }

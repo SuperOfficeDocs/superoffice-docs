@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 468,
-    "Name": "Hegmann Group",
-    "Tooltip": "optio",
+    "HeadingId": 591,
+    "Name": "Effertz Group",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 833,
-    "UdListDefinitionId": 214,
+    "Rank": 516,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 784
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Name": "O'Reilly, Littel and White",
-  "Tooltip": "nemo",
-  "Deleted": false,
-  "Rank": 169,
-  "IsCustomList": false,
+  "Id": 103,
+  "Name": "Wuckert Group",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 885,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 727,
-  "Name": "Schiller-Nitzsche",
+  "Id": 467,
+  "Name": "Carroll Group",
   "Tooltip": "et",
   "Deleted": true,
-  "Rank": 917,
+  "Rank": 586,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 157
     }
   }
 }

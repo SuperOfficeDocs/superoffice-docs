@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 199
+  "SaleId": 330
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-12-05T14:45:04.7721727+01:00",
-  "AppointmentId": 806,
-  "Description": "Reduced interactive challenge",
-  "Title": "quia",
-  "Agenda": "adipisci",
-  "InternalNotes": "voluptatibus",
-  "StartDate": "2023-06-04T14:45:04.7721727+02:00",
-  "EndDate": "2005-11-28T14:45:04.7721727+01:00",
+  "CreatedDate": "2024-11-26T10:17:55.0508805+01:00",
+  "AppointmentId": 433,
+  "Description": "De-engineered radical data-warehouse",
+  "Title": "aliquam",
+  "Agenda": "nisi",
+  "InternalNotes": "cupiditate",
+  "StartDate": "1998-05-19T10:17:55.0508805+02:00",
+  "EndDate": "2022-06-03T10:17:55.0508805+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 83,
+  "MotherId": 927,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-12-14T14:45:04.7721727+01:00",
+  "UpdatedDate": "2013-04-27T10:17:55.0508805+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 147,
+  "ActiveLinks": 824,
   "Links": [
     {
-      "EntityName": "Dickinson, Skiles and Turcotte",
-      "Id": 379,
-      "Description": "Object-based clear-thinking portal",
-      "ExtraInfo": "quas",
-      "LinkId": 678,
+      "EntityName": "Lindgren, Koepp and Gottlieb",
+      "Id": 614,
+      "Description": "Fully-configurable motivating protocol",
+      "ExtraInfo": "cum",
+      "LinkId": 70,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 298
         }
       }
     }
   ],
-  "AlarmLeadTime": "culpa",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 874,
-  "IsFree": true,
+  "ColorIndex": 972,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "amet",
-  "LeadTime": "est",
-  "Location": "voluptatem",
-  "RejectCounter": 64,
-  "RejectReason": "redefine cross-platform relationships",
+  "LagTime": "enim",
+  "LeadTime": "magnam",
+  "Location": "ea",
+  "RejectCounter": 745,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 232,
-      "PersonId": 724,
-      "ContactId": 384,
-      "EmailId": 47,
-      "SendEmail": false,
+      "AssociateId": 266,
+      "PersonId": 982,
+      "ContactId": 596,
+      "EmailId": 278,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lucie_balistreri@hirthe.info",
-      "Description": "Object-based bi-directional paradigm"
+      "EmailAddress": "roderick.parisian@mann.co.uk",
+      "Description": "Configurable explicit Graphical User Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-04-10T14:45:04.7721727+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2024-03-13T10:17:55.0508805+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 150,
+  "PreferredTZLocation": 711,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 422,
+  "SuggestedAppointmentId": 611,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "saepe",
+  "CentralserviceVideomeetId": "minima",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jedediah Von",
-    "SuperOffice:2": "Herminio Wilderman"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Nasir Prohaska IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "et"
+    "CustomFields1": "qui",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2010-10-06T14:45:04.7721727+02:00",
-  "PublishTo": "2011-08-29T14:45:04.7721727+02:00",
-  "PublishFrom": "1999-11-03T14:45:04.7721727+01:00",
+  "PublishEventDate": "2023-07-02T10:17:55.0508805+02:00",
+  "PublishTo": "2006-08-11T10:17:55.0508805+02:00",
+  "PublishFrom": "1999-06-20T10:17:55.0508805+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 928,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 514
         }
       }
     },
     {
-      "VisibleId": 928,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 514
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 254
     }
   }
 }

@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "non",
-    "sint"
+    "nesciunt",
+    "qui"
   ],
-  "CurrentClientTime": "2008-09-09T14:45:05.9594057+02:00"
+  "CurrentClientTime": "2007-08-04T10:17:55.8634298+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "ut",
-    "odit"
+    "et",
+    "voluptatibus"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 620,
-  "NotificationsCount": 510,
+  "OverdueSalesCount": 200,
+  "NotificationsCount": 465,
   "SystemWebPanels": [
     {
-      "WebPanelId": 540,
-      "Name": "Auer, Stark and Bashirian",
-      "Tooltip": "rerum",
-      "Deleted": true,
-      "Rank": 272,
+      "WebPanelId": 306,
+      "Name": "Mitchell Group",
+      "Tooltip": "beatae",
+      "Deleted": false,
+      "Rank": 133,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": false,
-      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": true,
+      "ShowInToolBar": false,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Schmidt LLC",
+      "WindowName": "Glover-Weber",
       "Url": "http://www.example.com/",
-      "ProgId": "praesentium",
-      "Icon": 33,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "dolorem",
+      "Icon": 612,
+      "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 228
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "beatae",
+      "RawValue": "perspiciatis",
       "Specification": null,
-      "DisplayValue": "aut",
-      "DisplayTooltip": "dignissimos",
+      "DisplayValue": "est",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 145,
-      "PrefDescId": 503,
-      "TableName": "Kuhlman-Hammes",
-      "UserPreferenceId": 532,
+      "TargetId": 878,
+      "PrefDescId": 829,
+      "TableName": "VonRueden-Connelly",
+      "UserPreferenceId": 517,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 424
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "omnis",
+  "CustomData": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 115
     }
   }
 }

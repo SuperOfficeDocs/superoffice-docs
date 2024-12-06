@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 134,
-  "Name": "Kihn-Langosh",
-  "Tooltip": "voluptates",
-  "Rank": 680,
+  "SaleTypeId": 346,
+  "Name": "Prosacco Group",
+  "Tooltip": "sunt",
+  "Rank": 620,
   "DurationUnit": "Century",
-  "SaleDuration": 839,
-  "SaleTypeCatId": 275,
-  "Deleted": true,
+  "SaleDuration": 805,
+  "SaleTypeCatId": 969,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 99,
-  "QuoteLinesTemplate": 744,
-  "ConfirmationLinesTemplate": 447,
+  "DefaultQuoteValidity": 512,
+  "QuoteLinesTemplate": 206,
+  "ConfirmationLinesTemplate": 722,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 714,
-  "MinEarningPercent": 324,
-  "GroupQuoteLinesBy": 5,
-  "SortGroupLinesBy": 504,
+  "MaxDiscountPercent": 41,
+  "MinEarningPercent": 27,
+  "GroupQuoteLinesBy": 512,
+  "SortGroupLinesBy": 116,
   "Stages": [
     {
-      "Id": 695,
-      "Name": "Mohr, Rutherford and Prohaska",
-      "ToolTip": "Temporibus nostrum ea consequuntur.",
+      "Id": 196,
+      "Name": "Kub, Braun and Swift",
+      "ToolTip": "Facilis sunt excepturi doloremque quo sunt provident quis.",
       "Deleted": false,
-      "Rank": 132,
-      "Type": "consequatur",
-      "ColorBlock": 464,
-      "IconHint": "mollitia",
+      "Rank": 790,
+      "Type": "voluptatem",
+      "ColorBlock": 659,
+      "IconHint": "porro",
       "Selected": false,
-      "LastChanged": "2014-08-22T14:45:05.7719479+02:00",
+      "LastChanged": "2008-04-10T10:17:55.7384214+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "corporis",
+      "ExtraInfo": "nihil",
+      "StyleHint": "quisquam",
       "Hidden": true,
-      "FullName": "Mr. Treva Schmitt"
+      "FullName": "Mrs. Demario Adonis Jacobi V"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 492,
-  "Name": "Brakus Group",
-  "Tooltip": "nihil",
-  "Rank": 18,
+  "SaleTypeId": 39,
+  "Name": "Johnston, Fritsch and Brakus",
+  "Tooltip": "nemo",
+  "Rank": 234,
   "DurationUnit": "Century",
-  "SaleDuration": 690,
-  "SaleTypeCatId": 201,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 581,
+  "SaleTypeCatId": 271,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 185,
-  "QuoteLinesTemplate": 499,
-  "ConfirmationLinesTemplate": 734,
+  "DefaultQuoteValidity": 829,
+  "QuoteLinesTemplate": 44,
+  "ConfirmationLinesTemplate": 736,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 558,
-  "MinEarningPercent": 883,
-  "GroupQuoteLinesBy": 460,
-  "SortGroupLinesBy": 421,
+  "MaxDiscountPercent": 211,
+  "MinEarningPercent": 8,
+  "GroupQuoteLinesBy": 533,
+  "SortGroupLinesBy": 352,
   "Stages": [
     {
-      "Id": 386,
-      "Name": "Stamm-Spencer",
-      "ToolTip": "Eaque provident molestias quae.",
+      "Id": 732,
+      "Name": "Hilll Group",
+      "ToolTip": "Fugiat sit dicta enim est suscipit.",
       "Deleted": false,
-      "Rank": 697,
-      "Type": "dolor",
-      "ColorBlock": 292,
-      "IconHint": "alias",
-      "Selected": false,
-      "LastChanged": "2010-12-31T14:45:05.7719479+01:00",
+      "Rank": 91,
+      "Type": "quis",
+      "ColorBlock": 444,
+      "IconHint": "adipisci",
+      "Selected": true,
+      "LastChanged": "2022-12-29T10:17:55.7384214+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "qui",
+      "ExtraInfo": "debitis",
+      "StyleHint": "maiores",
       "Hidden": false,
-      "FullName": "Mr. Cedrick Jerald McDermott",
+      "FullName": "Dr. Kaylie Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 839
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldLength": 458
     }
   }
 }

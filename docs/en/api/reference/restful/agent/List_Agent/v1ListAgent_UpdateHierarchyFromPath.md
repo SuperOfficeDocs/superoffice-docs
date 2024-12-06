@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "sed",
+  "Path": "autem",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 836,
+  "HierarchyId": 615,
   "Domain": "Dashboards",
-  "Name": "Konopelski Inc and Sons",
-  "Fullname": "ab",
-  "ParentId": 702,
+  "Name": "Hagenes-Ondricka",
+  "Fullname": "praesentium",
+  "ParentId": 732,
   "Children": [
     {
-      "HierarchyId": 649,
+      "HierarchyId": 262,
       "Domain": "Dashboards",
-      "Name": "Ferry, Lang and Nikolaus",
-      "Fullname": "non",
-      "ParentId": 909,
+      "Name": "Lemke-Shanahan",
+      "Fullname": "consectetur",
+      "ParentId": 500,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-08-01T14:45:05.7563266+02:00",
-      "RegisteredAssociateId": 50,
-      "Updated": "2022-12-08T14:45:05.7563266+01:00",
-      "UpdatedAssociateId": 493,
+      "Registered": "2015-08-05T10:17:55.7227953+02:00",
+      "RegisteredAssociateId": 851,
+      "Updated": "2007-04-18T10:17:55.7227953+02:00",
+      "UpdatedAssociateId": 589,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldLength": 688
         }
       }
     }
   ],
-  "Registered": "2002-07-03T14:45:05.7563266+02:00",
-  "RegisteredAssociateId": 715,
-  "Updated": "2021-01-13T14:45:05.7563266+01:00",
-  "UpdatedAssociateId": 881,
+  "Registered": "2001-06-07T10:17:55.7227953+02:00",
+  "RegisteredAssociateId": 481,
+  "Updated": "2000-11-02T10:17:55.7227953+01:00",
+  "UpdatedAssociateId": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

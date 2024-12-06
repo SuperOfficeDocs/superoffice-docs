@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Ledner, Erdman and Streich",
-    "ToolTip": "Velit eligendi eos magni est illum consequatur.",
+    "Id": 527,
+    "Name": "Feil-Dietrich",
+    "ToolTip": "Rerum est harum eum.",
     "Deleted": false,
-    "Rank": 583,
-    "Type": "voluptatem",
-    "ColorBlock": 195,
-    "IconHint": "rerum",
+    "Rank": 700,
+    "Type": "reiciendis",
+    "ColorBlock": 259,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "1999-03-05T14:45:13.6773768+01:00",
+    "LastChanged": "2021-02-13T10:18:01.0043667+01:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Weimann Group",
-        "ToolTip": "Quas id esse.",
-        "Deleted": false,
-        "Rank": 302,
-        "Type": "iure",
-        "ColorBlock": 728,
-        "IconHint": "voluptate",
+        "Id": 24,
+        "Name": "Schoen-Nader",
+        "ToolTip": "Qui deleniti.",
+        "Deleted": true,
+        "Rank": 77,
+        "Type": "temporibus",
+        "ColorBlock": 744,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2022-01-27T14:45:13.6773768+01:00",
+        "LastChanged": "2005-09-19T10:18:01.0043667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "est",
+        "ExtraInfo": "quo",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Evan Candida Parker II"
+        "FullName": "Roy Stamm"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Prof. Anibal Monahan I"
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Brian Moore"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Cole Group",
-    "ToolTip": "Eos voluptas enim.",
+    "Id": 332,
+    "Name": "Gibson Group",
+    "ToolTip": "Fugiat vero similique nihil enim doloremque.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "nemo",
-    "ColorBlock": 77,
-    "IconHint": "id",
+    "Rank": 997,
+    "Type": "vero",
+    "ColorBlock": 320,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2012-10-13T14:45:13.6773768+02:00",
+    "LastChanged": "2015-08-25T10:18:01.0043667+02:00",
     "ChildItems": [
       {
-        "Id": 798,
-        "Name": "McCullough, Glover and Harris",
-        "ToolTip": "Et consequatur dignissimos velit veniam.",
+        "Id": 149,
+        "Name": "Watsica, Cassin and Rutherford",
+        "ToolTip": "Aut rem sit reiciendis assumenda officiis.",
         "Deleted": false,
-        "Rank": 21,
-        "Type": "non",
-        "ColorBlock": 768,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2006-12-17T14:45:13.6773768+01:00",
+        "Rank": 19,
+        "Type": "nam",
+        "ColorBlock": 390,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2001-12-27T10:18:01.0043667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "atque",
+        "ExtraInfo": "id",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Mr. Giovanni Gulgowski",
+        "FullName": "Ms. Vickie Philip Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 350
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "consequuntur",
-    "Hidden": true,
-    "FullName": "Barton Reichert",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "at",
+    "Hidden": false,
+    "FullName": "Cloyd Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldType": "System.Int32",
+        "FieldLength": 79
       }
     }
   }

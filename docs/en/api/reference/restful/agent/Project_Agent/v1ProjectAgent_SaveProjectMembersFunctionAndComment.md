@@ -71,11 +71,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    13,
-    571
+    983,
+    617
   ],
-  "RoleId": 968,
-  "Comment": "iusto"
+  "RoleId": 918,
+  "Comment": "deserunt"
 }
 ```
 

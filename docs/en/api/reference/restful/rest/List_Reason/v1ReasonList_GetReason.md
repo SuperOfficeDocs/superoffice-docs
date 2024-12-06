@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Dare, Ankunding and Schulist",
-  "Tooltip": "ut",
+  "Id": 800,
+  "Name": "Ullrich, Borer and Greenfelder",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "UdListDefinitionId": 493,
-  "Rank": 188,
+  "UdListDefinitionId": 269,
+  "Rank": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 278
     }
   }
 }

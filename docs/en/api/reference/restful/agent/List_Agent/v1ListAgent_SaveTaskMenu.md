@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 217,
-  "Name": "Bauch-Pfannerstill",
-  "Tooltip": "omnis",
-  "TableName": "Boyle-Yundt",
-  "Area": "dolor",
+  "TaskMenuId": 922,
+  "Name": "Wunsch Inc and Sons",
+  "Tooltip": "sint",
+  "TableName": "Metz-Brown",
+  "Area": "quas",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 72,
+  "CrmScriptId": 177,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 181,
+  "Rank": 883,
   "Encoding": "ANSI",
-  "ProgId": "et",
-  "Deleted": false
+  "ProgId": "dolorum",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 245,
-  "Name": "Fadel, Upton and Lesch",
-  "Tooltip": "similique",
-  "TableName": "Kuhic-Hartmann",
-  "Area": "maiores",
+  "TaskMenuId": 51,
+  "Name": "Fay-Daugherty",
+  "Tooltip": "veniam",
+  "TableName": "Bode, Wilkinson and Roob",
+  "Area": "recusandae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 458,
+  "CrmScriptId": 222,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 626,
+  "Rank": 381,
   "Encoding": "ANSI",
-  "ProgId": "provident",
+  "ProgId": "minima",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 891
     }
   }
 }

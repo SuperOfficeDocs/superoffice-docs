@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "quae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "quae",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 889,
-  "TopicId": 527,
+  "ChatSessionId": 161,
+  "TopicId": 881,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "aliquid",
-  "CustomerName": "Barrows Group",
-  "CustomerEmail": "katarina.ferry@johnston.name",
-  "CustomerPhone": "302-495-5590",
+  "CustomerAlias": "iste",
+  "CustomerHost": "voluptatibus",
+  "CustomerName": "Kuvalis-Grimes",
+  "CustomerEmail": "sebastian.quigley@reillykris.ca",
+  "CustomerPhone": "267.626.9521 x781",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Gottlieb, Stroman and Kshlerin",
+  "CustomerCompanyName": "DuBuque-Hahn",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "porro",
-  "WhenRequested": "2012-09-11T14:45:12.5213852+02:00",
-  "WhenStarted": "2007-11-17T14:45:12.5213852+01:00",
-  "WhenEnded": "2003-10-02T14:45:12.5213852+02:00",
-  "WhenIdle": "2007-04-28T14:45:12.5213852+02:00",
-  "WhenFetched": "2010-05-16T14:45:12.5213852+02:00",
-  "SessionKey": "esse",
-  "InitialQueuePos": 986,
-  "AlertLevel": 540,
-  "Rank": 538,
+  "FirstMessage": "sed",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2003-03-09T10:18:00.2074417+01:00",
+  "WhenStarted": "2014-04-02T10:18:00.2074417+02:00",
+  "WhenEnded": "2004-07-18T10:18:00.2074417+02:00",
+  "WhenIdle": "2008-01-28T10:18:00.2074417+01:00",
+  "WhenFetched": "2015-08-14T10:18:00.2074417+02:00",
+  "SessionKey": "nulla",
+  "InitialQueuePos": 510,
+  "AlertLevel": 804,
+  "Rank": 150,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 777,
+  "ChatbotIsActive": true,
+  "Rating": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   },
   "_Links": {

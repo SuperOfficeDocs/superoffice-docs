@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Will Group",
-  "Delimiter": "voluptatem",
-  "Flags": "omnis",
-  "TotalItems": 983,
-  "UnreadItems": 755,
-  "Subscribed": false,
-  "EmailFolderId": 663,
+  "Name": "Herman, Kshlerin and Denesik",
+  "Delimiter": "magnam",
+  "Flags": "doloribus",
+  "TotalItems": 766,
+  "UnreadItems": 469,
+  "Subscribed": true,
+  "EmailFolderId": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 269
     }
   }
 }

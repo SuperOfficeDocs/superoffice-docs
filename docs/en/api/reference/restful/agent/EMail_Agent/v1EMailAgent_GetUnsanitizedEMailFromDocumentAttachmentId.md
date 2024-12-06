@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 247,
+  "DocId": 383,
   "AttachmentIds": [
-    "iusto",
-    "necessitatibus"
+    "ducimus",
+    "pariatur"
   ],
   "IncludeAttachments": false
 }
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 140,
-      "ContactName": "Conroy, Dooley and Metz",
-      "PersonId": 785,
-      "PersonName": "Lubowitz Group",
-      "AssociateId": 750,
-      "Address": "exercitationem",
-      "EmailId": 604,
+      "ContactId": 233,
+      "ContactName": "Kohler, Durgan and Auer",
+      "PersonId": 915,
+      "PersonName": "Predovic, Emmerich and Okuneva",
+      "AssociateId": 568,
+      "Address": "dolorem",
+      "EmailId": 475,
       "DuplicatePersonIds": [
-        438,
-        637
+        723,
+        901
       ],
-      "Name": "O'Keefe Group",
+      "Name": "Kilback, Wisozk and Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 185
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 419,
-      "ContactName": "Stroman, Schumm and Hand",
-      "PersonId": 229,
-      "PersonName": "Padberg Group",
-      "AssociateId": 879,
-      "Address": "consequatur",
-      "EmailId": 278,
+      "ContactId": 313,
+      "ContactName": "Schamberger, Flatley and Pfeffer",
+      "PersonId": 772,
+      "PersonName": "Stanton-Corkery",
+      "AssociateId": 5,
+      "Address": "vitae",
+      "EmailId": 536,
       "DuplicatePersonIds": [
-        877,
-        829
+        69,
+        500
       ],
-      "Name": "Koss Inc and Sons",
+      "Name": "Feeney Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 807,
-      "ContactName": "Flatley-Brakus",
-      "PersonId": 19,
-      "PersonName": "Koss, Dooley and Botsford",
-      "AssociateId": 36,
-      "Address": "quam",
-      "EmailId": 507,
+      "ContactId": 352,
+      "ContactName": "Hermann-Kovacek",
+      "PersonId": 789,
+      "PersonName": "Heidenreich, Bauch and Hodkiewicz",
+      "AssociateId": 992,
+      "Address": "perferendis",
+      "EmailId": 674,
       "DuplicatePersonIds": [
-        755,
-        246
+        352,
+        650
       ],
-      "Name": "Dach-Heller",
+      "Name": "Gulgowski Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 929
+          "FieldType": "System.String",
+          "FieldLength": 166
         }
       }
     }
   ],
-  "Subject": "voluptas",
-  "HTMLBody": "dolorem",
+  "Subject": "ut",
+  "HTMLBody": "earum",
   "From": null,
-  "Sent": "2000-06-04T14:45:05.568868+02:00",
-  "Size": 214,
+  "Sent": "1997-11-17T10:17:55.5977887+01:00",
+  "Size": 914,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsam",
-  "PlainBody": "recusandae",
+  "MessageID": "culpa",
+  "PlainBody": "laboriosam",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 75,
+  "ServerId": 979,
   "Attachments": [
     {
-      "Description": "Reverse-engineered systemic architecture",
-      "Filename": "non",
-      "Size": 148,
-      "Type": "ducimus",
-      "Encoding": "corrupti",
-      "Id": "officiis",
-      "Disposition": "voluptas",
+      "Description": "Compatible national adapter",
+      "Filename": "voluptatem",
+      "Size": 8,
+      "Type": "voluptatibus",
+      "Encoding": "omnis",
+      "Id": "nulla",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Corwin-Adams",
+      "Name": "Lubowitz, Moen and Hammes",
       "Values": [
-        "autem",
-        "cumque"
+        "exercitationem",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Corwin-Adams",
+      "Name": "Lubowitz, Moen and Hammes",
       "Values": [
-        "autem",
-        "cumque"
+        "exercitationem",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "FolderName": "Casper Inc and Sons",
-  "EmailItemId": 56,
-  "AccountId": 737,
-  "ReceivedAt": "2021-06-26T14:45:05.568868+02:00",
+  "FolderName": "Collins Inc and Sons",
+  "EmailItemId": 130,
+  "AccountId": 498,
+  "ReceivedAt": "2024-10-29T10:17:55.5977887+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-02-12T14:45:05.568868+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2008-10-01T10:17:55.5977887+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 956
     }
   }
 }

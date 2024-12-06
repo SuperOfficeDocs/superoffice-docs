@@ -125,7 +125,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 946
+  "QuoteLineId": 828
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 953,
-  "ERPQuoteLineKey": "natus",
-  "QuoteAlternativeId": 162,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 503,
+  "ERPQuoteLineKey": "rerum",
+  "QuoteAlternativeId": 79,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 30697.53,
-  "DeliveredQuantity": 17221.329999999998,
-  "Rank": 354,
-  "Name": "Quigley Inc and Sons",
-  "Description": "Multi-lateral disintermediate complexity",
-  "Code": "qui",
-  "QuantityUnit": "maxime",
-  "PriceUnit": "perferendis",
-  "ItemNumber": "1258373",
+  "Quantity": 20414.876,
+  "DeliveredQuantity": 2366.17,
+  "Rank": 268,
+  "Name": "Kilback-McLaughlin",
+  "Description": "Multi-tiered 6th generation flexibility",
+  "Code": "error",
+  "QuantityUnit": "qui",
+  "PriceUnit": "nemo",
+  "ItemNumber": "732990",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "enim",
-  "Supplier": "minus",
-  "SupplierCode": "voluptas",
-  "Thumbnail": "mollitia",
-  "VATInfo": "est",
-  "VAT": 11116.297999999999,
-  "UnitCost": 12394.97,
-  "UnitMinimumPrice": 12896.41,
-  "UnitListPrice": 14936.644,
+  "ProductFamilyKey": "voluptatum",
+  "ProductTypeKey": "vitae",
+  "Supplier": "et",
+  "SupplierCode": "et",
+  "Thumbnail": "eos",
+  "VATInfo": "quod",
+  "VAT": 27171.78,
+  "UnitCost": 8442.996,
+  "UnitMinimumPrice": 10489.498,
+  "UnitListPrice": 13755.126,
   "ExtraInfo": [
     {
-      "Name": "Grant-Hettinger",
-      "Value": "ut",
+      "Name": "Baumbach, Runolfsdottir and O'Keefe",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 122
         }
       }
     },
     {
-      "Name": "Grant-Hettinger",
-      "Value": "ut",
+      "Name": "Baumbach, Runolfsdottir and O'Keefe",
+      "Value": "excepturi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 122
         }
       }
     }
   ],
-  "RawExtraInfo": "amet",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eligendi",
-  "SubscriptionQuantity": 15087.076,
-  "SubscriptionStart": "2023-10-01T14:45:06.0999998+02:00",
-  "ERPDiscountPercent": 125.36,
-  "ERPDiscountAmount": 21684.146,
-  "DiscountPercent": 23179.064,
-  "DiscountAmount": 30760.21,
+  "RawExtraInfo": "tempore",
+  "IsSubscription": false,
+  "SubscriptionUnit": "facilis",
+  "SubscriptionQuantity": 21395.818,
+  "SubscriptionStart": "2009-11-19T10:17:55.9571855+01:00",
+  "ERPDiscountPercent": 25269.442,
+  "ERPDiscountAmount": 3231.154,
+  "DiscountPercent": 29563.022,
+  "DiscountAmount": 14024.65,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10129.088,
-  "EarningAmount": 23815.266,
-  "SubTotal": 24395.056,
-  "TotalPrice": 6631.544,
-  "Rights": "odio",
-  "Rule": "accusamus",
-  "ExtraField1": "qui",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "ea",
-  "ExtraField4": "in",
-  "ExtraField5": "molestias",
+  "EarningPercent": 14018.382,
+  "EarningAmount": 4522.362,
+  "SubTotal": 25300.782,
+  "TotalPrice": 8853.55,
+  "Rights": "tempora",
+  "Rule": "nobis",
+  "ExtraField1": "adipisci",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "autem",
+  "ExtraField4": "tempore",
+  "ExtraField5": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 534
     }
   }
 }

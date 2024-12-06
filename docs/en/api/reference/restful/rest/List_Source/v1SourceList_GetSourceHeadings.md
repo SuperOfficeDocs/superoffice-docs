@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 215,
-    "Name": "Volkman, Corkery and Jacobson",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "Rank": 166,
-    "UdListDefinitionId": 382,
+    "HeadingId": 493,
+    "Name": "Zboncak LLC",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 43,
+    "UdListDefinitionId": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 576
+        "FieldType": "System.Int32",
+        "FieldLength": 349
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 107,
-    "ParentId": 487,
-    "Name": "Fahey-Murphy",
-    "Fullname": "est",
-    "CategoryMaster": 466,
+    "TicketCategoryId": 368,
+    "ParentId": 560,
+    "Name": "Gottlieb-Rippin",
+    "Fullname": "delectus",
+    "CategoryMaster": 802,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Harvey-Wilderman",
+    "ExternalName": "Abernathy-Moore",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 312,
-    "ReplyTemplate": 561,
-    "NotificationEmail": "valentina.green@hettinger.name",
+    "AssignmentLag": 122,
+    "ReplyTemplate": 112,
+    "NotificationEmail": "mariane@raynor.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 928,
+    "EffectiveReplyTemplateId": 549,
     "ExtraFields": {
-      "ExtraFields1": "praesentium",
-      "ExtraFields2": "rerum"
+      "ExtraFields1": "rem",
+      "ExtraFields2": "commodi"
     },
     "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "perferendis"
+      "CustomFields1": "soluta",
+      "CustomFields2": "et"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 526
       }
     }
   }

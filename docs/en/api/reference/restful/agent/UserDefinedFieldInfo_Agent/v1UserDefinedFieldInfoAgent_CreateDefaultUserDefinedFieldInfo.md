@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 146,
-  "ColumnId": 319,
-  "FieldDefault": "culpa",
-  "FieldHeight": 40,
-  "FieldLabel": "ducimus",
-  "FieldLeft": 99,
-  "FieldTop": 393,
+  "UDefFieldId": 442,
+  "ColumnId": 125,
+  "FieldDefault": "earum",
+  "FieldHeight": 105,
+  "FieldLabel": "et",
+  "FieldLeft": 515,
+  "FieldTop": 104,
   "FieldType": "Checkbox",
-  "FieldWidth": 352,
-  "FormatMask": "non",
+  "FieldWidth": 90,
+  "FormatMask": "mollitia",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 256,
-  "LabelLeft": 445,
-  "LabelTop": 203,
-  "LabelWidth": 562,
-  "LastVersionId": 89,
-  "ListTableId": 922,
-  "IsMandatory": true,
+  "LabelHeight": 57,
+  "LabelLeft": 215,
+  "LabelTop": 473,
+  "LabelWidth": 688,
+  "LastVersionId": 831,
+  "ListTableId": 11,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 768,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "omnis",
-  "TabOrder": 894,
-  "TextLength": 455,
-  "Tooltip": "provident",
-  "UdefIdentity": 736,
-  "UDListDefinitionId": 844,
+  "Page1LineNo": 558,
+  "ProgId": "vitae",
+  "IsReadOnly": false,
+  "ShortLabel": "quis",
+  "TabOrder": 896,
+  "TextLength": 891,
+  "Tooltip": "alias",
+  "UdefIdentity": 932,
+  "UDListDefinitionId": 981,
   "Justification": "Center",
-  "Version": 245,
-  "TemplateVariableName": "Mraz LLC",
+  "Version": 487,
+  "TemplateVariableName": "Koch LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Herzog Group",
+  "MdoListName": "Miller, Schuppe and Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldType": "System.String",
+      "FieldLength": 596
     }
   }
 }

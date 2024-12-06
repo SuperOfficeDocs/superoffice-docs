@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Spencer-Schuster",
-    "ToolTip": "Nihil omnis sed sit aspernatur minus quasi odio.",
-    "Deleted": true,
-    "Rank": 173,
-    "Type": "soluta",
-    "ColorBlock": 14,
-    "IconHint": "error",
+    "Id": 435,
+    "Name": "Ledner Inc and Sons",
+    "ToolTip": "Non aliquid.",
+    "Deleted": false,
+    "Rank": 949,
+    "Type": "perspiciatis",
+    "ColorBlock": 231,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2004-03-26T14:45:13.8492128+01:00",
+    "LastChanged": "2018-04-07T10:18:01.1137483+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Bartoletti-Orn",
-        "ToolTip": "Laudantium veniam possimus in autem.",
-        "Deleted": true,
-        "Rank": 281,
-        "Type": "officiis",
-        "ColorBlock": 458,
-        "IconHint": "cum",
-        "Selected": true,
-        "LastChanged": "1997-10-02T14:45:13.8492128+02:00",
+        "Id": 714,
+        "Name": "Mohr-Boyer",
+        "ToolTip": "Itaque voluptas.",
+        "Deleted": false,
+        "Rank": 52,
+        "Type": "cumque",
+        "ColorBlock": 133,
+        "IconHint": "maiores",
+        "Selected": false,
+        "LastChanged": "2012-10-02T10:18:01.1137483+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "reprehenderit",
-        "StyleHint": "ducimus",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Romaine Armstrong"
+        "FullName": "Sim Jast V"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "tempora",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Micah Violet Volkman I"
+    "FullName": "Mr. Reagan Hand"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Bins-Bauch",
-    "ToolTip": "Error fuga nemo consequatur dolorem.",
+    "Id": 117,
+    "Name": "Kohler, Stehr and Williamson",
+    "ToolTip": "Quo laudantium vero quia et omnis a.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "a",
-    "ColorBlock": 523,
-    "IconHint": "praesentium",
+    "Rank": 100,
+    "Type": "et",
+    "ColorBlock": 54,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2015-09-28T14:45:13.8492128+02:00",
+    "LastChanged": "2020-04-21T10:18:01.1137483+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Kovacek-Leannon",
-        "ToolTip": "Quaerat inventore.",
-        "Deleted": false,
-        "Rank": 667,
-        "Type": "consequuntur",
-        "ColorBlock": 771,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2014-05-22T14:45:13.8492128+02:00",
+        "Id": 747,
+        "Name": "Murazik LLC",
+        "ToolTip": "Ipsum aliquid debitis unde quisquam.",
+        "Deleted": true,
+        "Rank": 768,
+        "Type": "aut",
+        "ColorBlock": 109,
+        "IconHint": "architecto",
+        "Selected": true,
+        "LastChanged": "2009-11-11T10:18:01.1137483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nemo",
+        "ExtraInfo": "ratione",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Pasquale Steuber",
+        "FullName": "Mollie Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 702
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Dr. Brian Piper Wolf I",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Prof. Cristian Courtney Pfeffer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldLength": 349
       }
     }
   }

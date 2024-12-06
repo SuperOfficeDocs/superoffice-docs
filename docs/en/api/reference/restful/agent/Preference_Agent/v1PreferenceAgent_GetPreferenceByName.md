@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "sed",
-  "PrefKey": "et",
+  "PrefSection": "excepturi",
+  "PrefKey": "ratione",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nesciunt",
+  "RawValue": "id",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "aperiam",
+  "DisplayValue": "quisquam",
+  "DisplayTooltip": "quisquam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 934,
-  "PrefDescId": 884,
-  "TableName": "Metz-Heidenreich",
-  "UserPreferenceId": 825,
+  "TargetId": 5,
+  "PrefDescId": 415,
+  "TableName": "Spencer Inc and Sons",
+  "UserPreferenceId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 560
     }
   }
 }

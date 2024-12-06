@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 535,
-  "TypeId": 209,
-  "StartDate": "2005-06-15T14:45:06.1937295+02:00",
-  "Duration": 900,
-  "Description": "Synergistic 24 hour neural-net",
-  "PriorityId": 3,
+  "ProjectId": 892,
+  "TypeId": 401,
+  "StartDate": "2019-01-28T10:17:56.0196892+01:00",
+  "Duration": 959,
+  "Description": "Self-enabling object-oriented installation",
+  "PriorityId": 583,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 826,
-  "SingleEntryOnEachCompany": true,
-  "SaleId": 203,
+  "OwnerAssociateId": 1002,
+  "SingleEntryOnEachCompany": false,
+  "SaleId": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldLength": 454
     }
   }
 }

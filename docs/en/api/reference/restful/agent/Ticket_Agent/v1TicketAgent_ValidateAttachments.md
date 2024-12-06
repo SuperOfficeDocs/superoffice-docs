@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    223,
-    851
+    545,
+    726
   ]
 }
 ```
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 975,
-    "IsValid": true,
-    "ErrorMessage": "sint"
+    "AttachmentId": 433,
+    "IsValid": false,
+    "ErrorMessage": "iure"
   },
   {
-    "AttachmentId": 975,
-    "IsValid": true,
-    "ErrorMessage": "sint"
+    "AttachmentId": 433,
+    "IsValid": false,
+    "ErrorMessage": "iure"
   }
 ]
 ```

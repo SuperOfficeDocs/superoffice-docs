@@ -1309,7 +1309,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=person/restrictionAddress/wgs84latitude,person/correspondingAssociate/ejStatus,contact/category,contact/postAddress/wgs84longitude,contact/contactAssociate/lastName
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=probPercent,description,person/personPrivate/description,person/personAddress/wgs84longitude,person/personAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

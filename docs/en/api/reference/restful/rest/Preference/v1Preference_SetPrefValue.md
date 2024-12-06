@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "vitae",
   "Specification": null,
-  "DisplayValue": "eius",
-  "DisplayTooltip": "eos",
+  "DisplayValue": "corporis",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 982,
-  "PrefDescId": 818,
-  "TableName": "Murray-Crooks",
-  "UserPreferenceId": 286
+  "TargetId": 110,
+  "PrefDescId": 125,
+  "TableName": "Lockman Group",
+  "UserPreferenceId": 934
 }
 ```
 

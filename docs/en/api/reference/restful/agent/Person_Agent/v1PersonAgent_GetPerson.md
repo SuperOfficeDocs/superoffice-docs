@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=969
+POST /api/v1/Agents/Person/GetPerson?personId=919
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "recusandae",
-  "PersonId": 390,
-  "Mrmrs": "voluptatem",
-  "Firstname": "Clemens",
-  "Lastname": "Lesch",
-  "MiddleName": "Leffler-Spinka",
-  "Title": "sit",
-  "Description": "Configurable methodical policy",
-  "Email": "howell.schinner@hartmann.biz",
-  "FullName": "Ms. Orin Agustina Kuhn Sr.",
-  "DirectPhone": "490-664-7240 x89609",
-  "FormalName": "Huels, Corkery and Walker",
-  "CountryId": 279,
-  "ContactId": 883,
-  "ContactName": "Greenholt Group",
-  "Retired": 570,
-  "Rank": 437,
-  "ActiveInterests": 274,
-  "ContactDepartment": "",
-  "ContactCountryId": 803,
-  "ContactOrgNr": "962195",
-  "FaxPhone": "188.818.4124 x03733",
-  "MobilePhone": "061-681-7889 x625",
-  "ContactPhone": "(800)822-7475 x24072",
-  "AssociateName": "Roberts, Emard and Kreiger",
-  "AssociateId": 297,
-  "UsePersonAddress": true,
-  "ContactFax": "voluptas",
-  "Kanafname": "modi",
-  "Kanalname": "quidem",
-  "Post1": "eum",
-  "Post2": "aspernatur",
-  "Post3": "occaecati",
-  "EmailName": "josiah_damore@wildermankreiger.ca",
-  "ContactFullName": "Melany Price",
-  "ActiveErpLinks": 320,
-  "TicketPriorityId": 136,
-  "SupportLanguageId": 525,
-  "SupportAssociateId": 223,
+  "Position": "unde",
+  "PersonId": 532,
+  "Mrmrs": "asperiores",
+  "Firstname": "Irma",
+  "Lastname": "Quigley",
+  "MiddleName": "Windler Inc and Sons",
+  "Title": "at",
+  "Description": "Function-based 4th generation info-mediaries",
+  "Email": "carolina_gislason@mannmoen.info",
+  "FullName": "Zella Durgan",
+  "DirectPhone": "(237)213-6734",
+  "FormalName": "Goodwin LLC",
+  "CountryId": 649,
+  "ContactId": 896,
+  "ContactName": "Fisher-Stiedemann",
+  "Retired": 829,
+  "Rank": 359,
+  "ActiveInterests": 165,
+  "ContactDepartment": "envisioneer vertical bandwidth",
+  "ContactCountryId": 12,
+  "ContactOrgNr": "722046",
+  "FaxPhone": "020.042.7159 x39110",
+  "MobilePhone": "1-592-749-0711",
+  "ContactPhone": "1-676-749-6890 x589",
+  "AssociateName": "Boyer, Ankunding and Dibbert",
+  "AssociateId": 609,
+  "UsePersonAddress": false,
+  "ContactFax": "rerum",
+  "Kanafname": "atque",
+  "Kanalname": "quo",
+  "Post1": "eius",
+  "Post2": "velit",
+  "Post3": "voluptatem",
+  "EmailName": "susanna@borer.uk",
+  "ContactFullName": "Efrain Roberts",
+  "ActiveErpLinks": 534,
+  "TicketPriorityId": 248,
+  "SupportLanguageId": 1001,
+  "SupportAssociateId": 527,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 648
     }
   }
 }

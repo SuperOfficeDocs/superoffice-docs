@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 22,
-  "EmailAddress": "ryleigh.sanford@zboncakdaugherty.co.uk",
-  "EmailTemplateId": 244,
-  "CultureLcidId": 658,
-  "Subject": "est"
+  "PersonId": 75,
+  "EmailAddress": "chester_runolfsdottir@carter.co.uk",
+  "EmailTemplateId": 149,
+  "CultureLcidId": 949,
+  "Subject": "delectus"
 }
 ```
 

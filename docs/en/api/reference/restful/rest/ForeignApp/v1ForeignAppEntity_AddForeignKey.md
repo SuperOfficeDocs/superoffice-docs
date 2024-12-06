@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sint",
-  "Value": "voluptatem",
-  "RecordId": 295,
-  "CreatedDate": "1998-04-17T14:45:12.8338163+02:00",
-  "UpdatedDate": "2012-10-27T14:45:12.8338163+02:00",
-  "UpdatedBy": "quam",
-  "CreatedBy": "voluptatem",
-  "TableName": "Bogisich-Marvin"
+  "Key": "dolore",
+  "Value": "vel",
+  "RecordId": 339,
+  "CreatedDate": "2000-10-07T10:18:00.4262067+02:00",
+  "UpdatedDate": "2002-01-03T10:18:00.4262067+01:00",
+  "UpdatedBy": "eveniet",
+  "CreatedBy": "odit",
+  "TableName": "Fay, Homenick and Harvey"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "amet",
-  "Value": "ut",
-  "RecordId": 304,
-  "CreatedDate": "1998-10-06T14:45:12.8338163+02:00",
-  "UpdatedDate": "2000-08-14T14:45:12.8338163+02:00",
-  "UpdatedBy": "voluptatum",
-  "CreatedBy": "sed",
-  "TableName": "Lynch, Watsica and Leuschke",
+  "Key": "libero",
+  "Value": "sed",
+  "RecordId": 480,
+  "CreatedDate": "2013-01-10T10:18:00.4262067+01:00",
+  "UpdatedDate": "2010-05-02T10:18:00.4262067+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "ratione",
+  "TableName": "Gaylord, Collier and Ryan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

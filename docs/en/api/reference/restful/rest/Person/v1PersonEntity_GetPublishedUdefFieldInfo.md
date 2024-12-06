@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 664,
-  "ColumnId": 940,
-  "FieldDefault": "aspernatur",
-  "FieldHeight": 944,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 774,
-  "FieldTop": 104,
+  "UDefFieldId": 40,
+  "ColumnId": 550,
+  "FieldDefault": "perspiciatis",
+  "FieldHeight": 837,
+  "FieldLabel": "aut",
+  "FieldLeft": 383,
+  "FieldTop": 733,
   "FieldType": "Checkbox",
-  "FieldWidth": 233,
-  "FormatMask": "odio",
-  "HideLabel": false,
+  "FieldWidth": 522,
+  "FormatMask": "officia",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 791,
-  "LabelLeft": 224,
-  "LabelTop": 466,
-  "LabelWidth": 905,
-  "LastVersionId": 179,
-  "ListTableId": 194,
-  "IsMandatory": false,
+  "LabelHeight": 327,
+  "LabelLeft": 998,
+  "LabelTop": 773,
+  "LabelWidth": 726,
+  "LastVersionId": 296,
+  "ListTableId": 780,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 281,
-  "ProgId": "quis",
+  "Page1LineNo": 137,
+  "ProgId": "fugiat",
   "IsReadOnly": false,
-  "ShortLabel": "iste",
-  "TabOrder": 85,
-  "TextLength": 860,
-  "Tooltip": "veniam",
-  "UdefIdentity": 870,
-  "UDListDefinitionId": 207,
+  "ShortLabel": "nesciunt",
+  "TabOrder": 866,
+  "TextLength": 339,
+  "Tooltip": "dolores",
+  "UdefIdentity": 697,
+  "UDListDefinitionId": 763,
   "Justification": "Center",
-  "Version": 396,
-  "TemplateVariableName": "Kassulke-Jacobi",
-  "HasBeenPublished": true,
-  "MdoListName": "Altenwerth Group",
+  "Version": 638,
+  "TemplateVariableName": "Beahan Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Kuvalis-Marks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 924
     }
   }
 }

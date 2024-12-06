@@ -554,7 +554,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=contactAssociate/otherGroups,sale/associate/middleName,appointment/associate/lastName
+GET /api/v1/archive/DummySelectionContact?$select=contactUdef/SuperOffice:8,contactExtra/x_contact_boolean,targetRelation/registeredByFullName,sale/associate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

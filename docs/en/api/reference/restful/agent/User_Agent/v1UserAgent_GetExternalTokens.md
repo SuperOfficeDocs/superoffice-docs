@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "modi"
+  "Key": "libero"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "amet",
-  "AccessToken": "est",
-  "RefreshToken": "quae",
+  "Provider": "veritatis",
+  "AccessToken": "qui",
+  "RefreshToken": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

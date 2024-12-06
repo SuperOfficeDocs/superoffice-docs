@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 883,
-    "Name": "Hoeger, Brown and Waelchi",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 271,
-    "UdListDefinitionId": 928,
+    "HeadingId": 174,
+    "Name": "Pfannerstill, Gerlach and Roob",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 773,
+    "UdListDefinitionId": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 59
       }
     }
   }

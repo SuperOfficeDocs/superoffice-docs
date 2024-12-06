@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 844
+  "ContactId": 687
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quia",
-    "PersonId": 592,
-    "Mrmrs": "ut",
-    "Firstname": "Maximillian",
-    "Lastname": "Hartmann",
-    "MiddleName": "Lynch-McKenzie",
-    "Title": "commodi",
-    "Description": "Balanced actuating local area network",
-    "Email": "marques@bernhard.ca",
-    "FullName": "Aliyah Prosacco",
-    "DirectPhone": "441.726.2319 x791",
-    "FormalName": "Carroll Group",
-    "CountryId": 672,
-    "ContactId": 125,
-    "ContactName": "Veum-Balistreri",
-    "Retired": 699,
-    "Rank": 991,
-    "ActiveInterests": 46,
+    "Position": "nisi",
+    "PersonId": 852,
+    "Mrmrs": "laudantium",
+    "Firstname": "Ashtyn",
+    "Lastname": "Hauck",
+    "MiddleName": "Ratke, Barrows and Bailey",
+    "Title": "ut",
+    "Description": "Organic bandwidth-monitored migration",
+    "Email": "dena_treutel@altenwerthwillms.name",
+    "FullName": "Reina Gulgowski",
+    "DirectPhone": "(134)136-1479",
+    "FormalName": "Kris, Kerluke and Schmeler",
+    "CountryId": 288,
+    "ContactId": 199,
+    "ContactName": "Dibbert LLC",
+    "Retired": 228,
+    "Rank": 611,
+    "ActiveInterests": 420,
     "ContactDepartment": "",
-    "ContactCountryId": 167,
-    "ContactOrgNr": "1639697",
-    "FaxPhone": "798-699-5785 x198",
-    "MobilePhone": "1-609-444-7023 x87312",
-    "ContactPhone": "(749)700-8037",
-    "AssociateName": "Halvorson-Stokes",
-    "AssociateId": 907,
+    "ContactCountryId": 11,
+    "ContactOrgNr": "932032",
+    "FaxPhone": "(730)043-8544 x9056",
+    "MobilePhone": "1-451-831-7619 x024",
+    "ContactPhone": "1-034-794-6663",
+    "AssociateName": "Dibbert-Connelly",
+    "AssociateId": 152,
     "UsePersonAddress": false,
-    "ContactFax": "nisi",
-    "Kanafname": "tenetur",
-    "Kanalname": "nisi",
-    "Post1": "omnis",
-    "Post2": "cum",
-    "Post3": "aspernatur",
-    "EmailName": "adan_turcotte@willshields.co.uk",
-    "ContactFullName": "Shyanne O'Kon",
-    "ActiveErpLinks": 150,
-    "TicketPriorityId": 128,
-    "SupportLanguageId": 445,
-    "SupportAssociateId": 786,
+    "ContactFax": "ratione",
+    "Kanafname": "quos",
+    "Kanalname": "qui",
+    "Post1": "ea",
+    "Post2": "ut",
+    "Post3": "mollitia",
+    "EmailName": "freida@mann.com",
+    "ContactFullName": "Ali Satterfield",
+    "ActiveErpLinks": 273,
+    "TicketPriorityId": 535,
+    "SupportLanguageId": 257,
+    "SupportAssociateId": 358,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

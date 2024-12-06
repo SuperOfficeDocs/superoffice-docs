@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ratione",
+    "path": "magni",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ratione",
+    "path": "magni",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 254,
+  "DocumentId": 511,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "accusantium",
-  "Header": "facere",
-  "Name": "Greenfelder Inc and Sons",
-  "OurRef": "aut",
-  "YourRef": "aut",
-  "CreatedDate": "2018-06-25T14:45:12.7713279+02:00",
-  "UpdatedDate": "1998-06-24T14:45:12.7713279+02:00",
-  "Description": "Diverse cohesive attitude",
+  "Attention": "reprehenderit",
+  "Header": "fugit",
+  "Name": "Koch Group",
+  "OurRef": "laboriosam",
+  "YourRef": "ullam",
+  "CreatedDate": "2017-09-24T10:18:00.3793283+02:00",
+  "UpdatedDate": "2022-04-07T10:18:00.3793283+02:00",
+  "Description": "Secured regional functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-08-06T14:45:12.7713279+02:00",
-  "ExternalRef": "libero",
+  "Date": "2010-11-24T10:18:00.3793283+01:00",
+  "ExternalRef": "illo",
   "Completed": "Completed",
-  "ActiveLinks": 437,
+  "ActiveLinks": 276,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Daugherty-Schinner",
-      "Id": 657,
-      "Description": "Robust eco-centric intranet",
-      "ExtraInfo": "et",
-      "LinkId": 638,
+      "EntityName": "Douglas, Emard and Schmeler",
+      "Id": 869,
+      "Description": "Networked systemic orchestration",
+      "ExtraInfo": "maiores",
+      "LinkId": 435,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldLength": 209
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 586,
-  "Snum": 237,
+  "SuggestedDocumentId": 731,
+  "Snum": 788,
   "UserDefinedFields": {
-    "SuperOffice:1": "150897811",
-    "SuperOffice:2": "Dessie Macejkovic"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Prof. Beryl Powlowski V"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "beatae"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "alias",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2023-11-28T14:45:12.7869499+01:00",
-  "PublishTo": "1997-10-08T14:45:12.7869499+02:00",
-  "PublishFrom": "2015-07-21T14:45:12.7869499+02:00",
+  "PublishEventDate": "2023-03-22T10:18:00.3793283+01:00",
+  "PublishTo": "2024-04-30T10:18:00.3793283+02:00",
+  "PublishFrom": "1998-09-27T10:18:00.3793283+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 989,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 949
         }
       }
     },
     {
-      "VisibleId": 989,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 949
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 809
     }
   },
   "_Links": {

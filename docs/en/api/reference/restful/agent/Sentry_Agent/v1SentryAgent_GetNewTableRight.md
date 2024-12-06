@@ -76,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boyer, Flatley and Schuster"
+  "TableName": "Moen-Champlin"
 }
 ```
 
@@ -88,6 +88,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "benchmark value-added e-business"
+  "Reason": ""
 }
 ```

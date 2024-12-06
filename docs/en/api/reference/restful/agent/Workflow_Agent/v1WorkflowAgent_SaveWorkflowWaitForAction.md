@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 605,
-  "WorkflowStepId": 61,
-  "WorkflowId": 748,
-  "Rank": 984,
+  "WorkflowWaitForActionId": 246,
+  "WorkflowStepId": 131,
+  "WorkflowId": 33,
+  "Rank": 102,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Oberbrunner Group",
-      "Description": "Synergistic systemic superstructure",
-      "Rank": 674,
+      "Name": "Auer-Mante",
+      "Description": "Customer-focused high-level architecture",
+      "Rank": 52,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Oberbrunner Group",
-      "Description": "Synergistic systemic superstructure",
-      "Rank": 674,
+      "Name": "Auer-Mante",
+      "Description": "Customer-focused high-level architecture",
+      "Rank": 52,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 919,
-  "WorkflowStepId": 296,
-  "WorkflowId": 165,
-  "Rank": 279,
+  "WorkflowWaitForActionId": 981,
+  "WorkflowStepId": 262,
+  "WorkflowId": 290,
+  "Rank": 166,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Rau, Heaney and Bogisich",
-      "Description": "Enhanced transitional help-desk",
-      "Rank": 222,
+      "Name": "Fritsch-Lowe",
+      "Description": "Function-based 6th generation emulation",
+      "Rank": 198,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rau, Heaney and Bogisich",
-      "Description": "Enhanced transitional help-desk",
-      "Rank": 222,
+      "Name": "Fritsch-Lowe",
+      "Description": "Function-based 6th generation emulation",
+      "Rank": 198,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldType": "System.String",
+      "FieldLength": 710
     }
   }
 }

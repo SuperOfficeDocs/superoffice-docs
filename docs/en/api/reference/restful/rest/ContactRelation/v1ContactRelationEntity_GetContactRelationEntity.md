@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 17 Jul 2016 14:45:12 G7T
+Last-Modified: Fri, 27 Jul 2012 10:18:00 G7T
 
 {
-  "SourceContactId": 459,
-  "SourcePersonId": 437,
-  "DestinationContactId": 757,
-  "DestinationPersonId": 964,
-  "RelationId": 756,
-  "Comment": "qui",
-  "RelationDefinitionId": 54,
-  "Reversed": 952,
-  "UpdatedDate": "2016-07-17T14:45:12.7088435+02:00",
-  "CreatedDate": "2007-05-31T14:45:12.7088435+02:00",
+  "SourceContactId": 554,
+  "SourcePersonId": 50,
+  "DestinationContactId": 746,
+  "DestinationPersonId": 339,
+  "RelationId": 79,
+  "Comment": "tempora",
+  "RelationDefinitionId": 26,
+  "Reversed": 759,
+  "UpdatedDate": "2012-07-27T10:18:00.3480699+02:00",
+  "CreatedDate": "2003-10-05T10:18:00.3480699+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Christiansen-Mills",
-  "SourcePersonName": "Satterfield, Littel and Klocko",
-  "DestinationContactName": "Cummings Inc and Sons",
-  "DestinationPersonName": "Schmitt, Parker and Bayer",
-  "ActiveText": "nisi",
-  "PassiveText": "vel",
+  "SourceContactName": "Murray-Wyman",
+  "SourcePersonName": "Kris, Baumbach and Sawayn",
+  "DestinationContactName": "Sanford-Langworth",
+  "DestinationPersonName": "Ryan, Senger and Bernier",
+  "ActiveText": "accusantium",
+  "PassiveText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 47
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

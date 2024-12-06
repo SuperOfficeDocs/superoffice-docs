@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Oct 2005 14:45:13 G10T
+Last-Modified: Fri, 27 Jun 2008 10:18:00 G6T
 
 {
-  "Description": "Team-oriented motivating focus group",
-  "Postit": "commodi",
+  "Description": "Persevering non-volatile complexity",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 939,
-  "IncludePerson": 594,
+  "GroupIdx": 437,
+  "IncludePerson": 385,
   "MemberCount": 99.99,
-  "Name": "Prohaska Inc and Sons",
-  "PostitTextId": 349,
-  "CreatedDate": "1998-03-04T14:45:13.2399738+01:00",
-  "SelectionId": 900,
-  "SoundEx": "rerum",
-  "Source": 671,
-  "TextId": 173,
-  "UpdatedDate": "2005-10-21T14:45:13.2399738+02:00",
-  "UpdatedCount": 680,
-  "Visibility": 100,
+  "Name": "Hilpert, Block and Daugherty",
+  "PostitTextId": 909,
+  "CreatedDate": "2013-08-25T10:18:00.7074664+02:00",
+  "SelectionId": 784,
+  "SoundEx": "autem",
+  "Source": 614,
+  "TextId": 837,
+  "UpdatedDate": "2008-06-27T10:18:00.7074664+02:00",
+  "UpdatedCount": 88,
+  "Visibility": 672,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 928,
-  "TargetTableName": "Zboncak, Mills and Yost",
-  "Completed": false,
-  "LeftSelectionId": 599,
-  "RightSelectionId": 169,
+  "TargetTableNumber": 763,
+  "TargetTableName": "Balistreri-Hilpert",
+  "Completed": true,
+  "LeftSelectionId": 298,
+  "RightSelectionId": 659,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McLaughlin Group",
-  "ShadowProviderName": "Considine-Prosacco",
-  "ChartKey": "in",
-  "LastLoaded": "2007-03-20T14:45:13.2399738+01:00",
-  "LastLoadedBy": 237,
+  "MainProviderName": "Gleichner-Feeney",
+  "ShadowProviderName": "Buckridge Group",
+  "ChartKey": "ea",
+  "LastLoaded": "2016-01-30T10:18:00.7074664+01:00",
+  "LastLoadedBy": 917,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-01-06T14:45:13.2399738+01:00",
-  "LastMembershipChangeBy": 667,
+  "LastMembershipChange": "2018-07-01T10:18:00.7074664+02:00",
+  "LastMembershipChangeBy": 292,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "saepe",
-  "MemberTabHeading": "nulla",
-  "MailingsProviderName": "Homenick LLC",
-  "DashboardTileDefinitionId": 881,
+  "MainHeading": "voluptatum",
+  "MemberTabHeading": "recusandae",
+  "MailingsProviderName": "Connelly, Monahan and Maggio",
+  "DashboardTileDefinitionId": 286,
   "VisibleFor": [
     {
-      "VisibleId": 56,
+      "VisibleId": 152,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 753
+          "FieldType": "System.Int32",
+          "FieldLength": 287
         }
       }
     },
     {
-      "VisibleId": 56,
+      "VisibleId": 152,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 753
+          "FieldType": "System.Int32",
+          "FieldLength": 287
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Fri, 21 Oct 2005 14:45:13 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 221
     }
   },
   "_Links": {

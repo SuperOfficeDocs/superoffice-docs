@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 344,
-    "Name": "Barrows, Upton and Paucek",
-    "ToolTip": "Consequuntur possimus sed.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "quia",
-    "ColorBlock": 524,
-    "IconHint": "quasi",
+    "Id": 301,
+    "Name": "Armstrong-Botsford",
+    "ToolTip": "Mollitia deleniti id officia labore.",
+    "Deleted": false,
+    "Rank": 187,
+    "Type": "aut",
+    "ColorBlock": 488,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "2006-11-08T14:45:13.552405+01:00",
+    "LastChanged": "2011-11-29T10:18:00.926237+01:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Johnson-Wisozk",
-        "ToolTip": "Odit ut hic aliquid animi tenetur.",
+        "Id": 887,
+        "Name": "Robel-Gerlach",
+        "ToolTip": "At quam dignissimos soluta.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "tempora",
-        "ColorBlock": 339,
-        "IconHint": "neque",
+        "Rank": 795,
+        "Type": "quae",
+        "ColorBlock": 252,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2020-02-08T14:45:13.552405+01:00",
+        "LastChanged": "2004-05-16T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Vern Schowalter",
+        "ExtraInfo": "ea",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Edyth Pollich II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 79
+            "FieldType": "System.Int32",
+            "FieldLength": 479
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "qui",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Aletha Alexandra Ondricka I",
+    "FullName": "Alex Angus Klocko DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   }

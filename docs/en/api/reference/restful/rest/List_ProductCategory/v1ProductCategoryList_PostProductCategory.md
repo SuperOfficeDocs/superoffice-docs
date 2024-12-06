@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Stamm, Stracke and Bayer",
-  "Tooltip": "autem",
+  "Id": 598,
+  "Name": "Gerlach Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 817,
-  "Rank": 851
+  "UdListDefinitionId": 611,
+  "Rank": 630
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Watsica-Lakin",
-  "Tooltip": "aliquam",
-  "Deleted": true,
-  "UdListDefinitionId": 339,
-  "Rank": 182,
+  "Id": 334,
+  "Name": "Dickinson, Aufderhar and Rau",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 719,
+  "Rank": 601,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 382
     }
   }
 }

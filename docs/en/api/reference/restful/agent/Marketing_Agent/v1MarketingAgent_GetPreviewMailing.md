@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 410
+  "ShipmentAddrId": 656
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2005-05-30T14:45:05.7875689+02:00",
+  "SendingTime": "2023-03-30T10:17:55.7540473+02:00",
   "Status": "Blocked",
-  "ShipmentId": 908,
-  "ShipmentDescription": "Reverse-engineered web-enabled interface",
-  "FromAddress": "et",
-  "Configuration": 206,
-  "ContactId": 829,
-  "ContactName": "Armstrong-Gleichner",
-  "PersonId": 136,
-  "PersonFullName": "Lonie Raynor",
-  "ShipmentType": "perferendis",
-  "MessageId": 711,
-  "MessageSubject": "eos",
-  "DocumentMessageId": 874,
-  "Opened": "2018-11-24T14:45:05.7875689+01:00",
-  "LinkClicks": 765,
+  "ShipmentId": 879,
+  "ShipmentDescription": "Automated non-volatile challenge",
+  "FromAddress": "facere",
+  "Configuration": 506,
+  "ContactId": 526,
+  "ContactName": "Corwin-Windler",
+  "PersonId": 178,
+  "PersonFullName": "Jermain Botsford DVM",
+  "ShipmentType": "explicabo",
+  "MessageId": 784,
+  "MessageSubject": "sint",
+  "DocumentMessageId": 851,
+  "Opened": "2008-09-03T10:17:55.7540473+02:00",
+  "LinkClicks": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldLength": 474
     }
   }
 }

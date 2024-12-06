@@ -25,7 +25,7 @@ Deletes the ProjectMember
 | ProjectMemberId | int32 | **Required** The id of the ProjectMember to be deleted. |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectMember?ProjectMemberId=335
+POST /api/v1/Agents/Project/DeleteProjectMember?ProjectMemberId=909
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

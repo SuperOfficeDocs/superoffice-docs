@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 882,
-    "Name": "Adams-Batz",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 52,
-    "UdListDefinitionId": 170
+    "HeadingId": 30,
+    "Name": "Grant, Lueilwitz and Casper",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 127,
+    "UdListDefinitionId": 801
   },
   {
-    "HeadingId": 882,
-    "Name": "Adams-Batz",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 52,
-    "UdListDefinitionId": 170
+    "HeadingId": 30,
+    "Name": "Grant, Lueilwitz and Casper",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 127,
+    "UdListDefinitionId": 801
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Schmitt-Stroman",
-    "Tooltip": "inventore",
+    "HeadingId": 515,
+    "Name": "Okuneva Inc and Sons",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 64,
-    "UdListDefinitionId": 470,
+    "Rank": 981,
+    "UdListDefinitionId": 434,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldLength": 555
       }
     }
   }

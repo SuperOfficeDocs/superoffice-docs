@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 57,
-  "Name": "Yost Inc and Sons",
+  "ScreenChooserId": 484,
+  "Name": "Bergnaum LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "error",
-  "Registered": "2011-04-09T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 259,
-  "Updated": "2020-03-23T14:45:13.3805746+01:00",
-  "UpdatedAssociateId": 806,
+  "UniqueIdentifier": "id",
+  "Source": "numquam",
+  "Registered": "2014-10-20T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 190,
+  "Updated": "2016-11-03T10:18:00.8168545+01:00",
+  "UpdatedAssociateId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

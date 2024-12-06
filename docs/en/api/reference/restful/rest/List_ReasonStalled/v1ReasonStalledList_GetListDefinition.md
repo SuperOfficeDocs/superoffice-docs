@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Name": "Gulgowski-Herman",
-  "Tooltip": "dolor",
+  "Id": 181,
+  "Name": "Rippin LLC",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 708,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 703,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 637
     }
   },
   "_Links": {

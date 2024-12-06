@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 172
+  "TargetDimensionId": 947
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 676,
+    "TargetAssignmentInfoId": 288,
     "Values": [
-      141,
-      764
+      396,
+      606
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 417,
-    "DimensionListItemDisplayName": "Bogan-Stiedemann",
+    "DimensionListItem": 558,
+    "DimensionListItemDisplayName": "Gottlieb LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

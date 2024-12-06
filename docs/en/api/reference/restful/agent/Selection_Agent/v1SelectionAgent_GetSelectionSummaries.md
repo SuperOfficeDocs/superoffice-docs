@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    588,
-    877
+    26,
+    875
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 32,
-    "Name": "Eichmann-Brekke",
-    "TargetTable": "nihil",
-    "Registered": "2004-05-04T14:45:06.2562154+02:00",
-    "ProviderName": "Schultz-Rodriguez"
+    "SelectionId": 33,
+    "Name": "Bogisich, Hauck and Wunsch",
+    "TargetTable": "dolorum",
+    "Registered": "2020-09-20T10:17:56.1446968+02:00",
+    "ProviderName": "Lesch Inc and Sons"
   },
   {
-    "SelectionId": 32,
-    "Name": "Eichmann-Brekke",
-    "TargetTable": "nihil",
-    "Registered": "2004-05-04T14:45:06.2562154+02:00",
-    "ProviderName": "Schultz-Rodriguez"
+    "SelectionId": 33,
+    "Name": "Bogisich, Hauck and Wunsch",
+    "TargetTable": "dolorum",
+    "Registered": "2020-09-20T10:17:56.1446968+02:00",
+    "ProviderName": "Lesch Inc and Sons"
   }
 ]
 ```

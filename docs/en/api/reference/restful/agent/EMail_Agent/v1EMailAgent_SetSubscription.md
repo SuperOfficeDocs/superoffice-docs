@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Miller LLC",
-      "Delimiter": "inventore",
-      "Flags": "hic",
-      "TotalItems": 727,
-      "UnreadItems": 642,
-      "Subscribed": false,
-      "EmailFolderId": 199
+      "Name": "Gleichner, Morar and Lebsack",
+      "Delimiter": "quaerat",
+      "Flags": "molestiae",
+      "TotalItems": 672,
+      "UnreadItems": 761,
+      "Subscribed": true,
+      "EmailFolderId": 623
     }
   ]
 }

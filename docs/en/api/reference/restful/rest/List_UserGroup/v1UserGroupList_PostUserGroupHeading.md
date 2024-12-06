@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 211,
-  "Name": "Ledner, Yundt and Mueller",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 861,
-  "UdListDefinitionId": 524
+  "HeadingId": 159,
+  "Name": "O'Hara, Rosenbaum and Cronin",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "Rank": 544,
+  "UdListDefinitionId": 537
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Steuber, Rutherford and Toy",
-  "Tooltip": "similique",
+  "HeadingId": 915,
+  "Name": "Becker Inc and Sons",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 154,
-  "UdListDefinitionId": 254,
+  "Rank": 520,
+  "UdListDefinitionId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldLength": 737
     }
   }
 }

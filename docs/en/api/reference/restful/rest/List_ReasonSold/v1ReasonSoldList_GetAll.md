@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Bartoletti-Mosciski",
-    "Tooltip": "recusandae",
+    "Id": 910,
+    "Name": "Pouros-Wisoky",
+    "Tooltip": "minus",
     "Deleted": false,
-    "UdListDefinitionId": 403,
-    "Rank": 611,
+    "UdListDefinitionId": 745,
+    "Rank": 120,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

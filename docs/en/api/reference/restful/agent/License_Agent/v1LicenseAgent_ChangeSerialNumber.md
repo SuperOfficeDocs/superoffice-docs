@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Brakus, Daugherty and Blick",
-  "NewSerialNumber": "217369"
+  "NewCompanyName": "Daugherty, Macejkovic and Rempel",
+  "NewSerialNumber": "783023"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 127
     }
   }
 }

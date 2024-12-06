@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 994,
-  "NewName": "Denesik-Little",
-  "ValidFrom": "2002-07-23T14:45:06.0531349+02:00",
-  "ValidTo": "2001-06-22T14:45:06.0531349+02:00",
-  "NewCurrencyId": 776,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 504,
+  "NewName": "Huels-Kozey",
+  "ValidFrom": "2015-10-09T10:17:55.9259336+02:00",
+  "ValidTo": "2000-10-22T10:17:55.9259336+02:00",
+  "NewCurrencyId": 794,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 700,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 768,
-  "Name": "Conroy, Bergstrom and Goldner",
-  "Description": "Profit-focused coherent forecast",
-  "Currency": "esse",
-  "CurrencyName": "Marks LLC",
-  "ValidFrom": "1998-11-06T14:45:06.0531349+01:00",
-  "ValidTo": "2015-06-16T14:45:06.0531349+02:00",
-  "IsActive": false,
+  "PriceListId": 42,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 903,
+  "Name": "Bartell-Hagenes",
+  "Description": "Synergistic content-based productivity",
+  "Currency": "aspernatur",
+  "CurrencyName": "Gerlach-Kreiger",
+  "ValidFrom": "2021-10-27T10:17:55.9259336+02:00",
+  "ValidTo": "2009-01-25T10:17:55.9259336+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

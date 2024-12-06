@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Donnelly Inc and Sons",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 998
+    "Id": 51,
+    "Name": "Johnston, Gulgowski and Lakin",
+    "Tooltip": "vitae",
+    "Deleted": true,
+    "UdListDefinitionId": 854,
+    "Rank": 506
   },
   {
-    "Id": 224,
-    "Name": "Donnelly Inc and Sons",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "UdListDefinitionId": 923,
-    "Rank": 998
+    "Id": 51,
+    "Name": "Johnston, Gulgowski and Lakin",
+    "Tooltip": "vitae",
+    "Deleted": true,
+    "UdListDefinitionId": 854,
+    "Rank": 506
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Daugherty, Homenick and Parker",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "UdListDefinitionId": 33,
-    "Rank": 948,
+    "Id": 594,
+    "Name": "Haag Group",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "UdListDefinitionId": 714,
+    "Rank": 371,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 222
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Heller Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 305,
+  "Id": 871,
+  "Name": "Crooks, Pagac and Klein",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "Rank": 173,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "non",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   },
   "_Links": {

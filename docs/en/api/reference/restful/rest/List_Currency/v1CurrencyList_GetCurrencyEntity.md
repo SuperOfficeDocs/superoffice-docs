@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 505,
-  "Name": "Shanahan-Lueilwitz",
-  "Tooltip": "fuga",
-  "Rank": 435,
-  "Rate": 8746.994,
-  "Units": 19330.512,
+  "CurrencyId": 631,
+  "Name": "Gislason LLC",
+  "Tooltip": "ipsum",
+  "Rank": 630,
+  "Rate": 19249.028,
+  "Units": 4033.458,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 235
     }
   }
 }

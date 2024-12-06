@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Hintz Inc and Sons",
-    "ToolTip": "Inventore sed rerum velit.",
-    "Deleted": false,
-    "Rank": 690,
-    "Type": "esse",
-    "ColorBlock": 61,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2016-02-25T14:45:13.8648346+01:00",
+    "Id": 695,
+    "Name": "Lowe-Lebsack",
+    "ToolTip": "Eum cum earum.",
+    "Deleted": true,
+    "Rank": 68,
+    "Type": "voluptatem",
+    "ColorBlock": 146,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2001-02-20T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Crona, Spinka and Herzog",
-        "ToolTip": "Doloribus eius quia commodi ea dolor sit omnis.",
+        "Id": 269,
+        "Name": "Jast LLC",
+        "ToolTip": "Recusandae vitae dicta est.",
         "Deleted": false,
-        "Rank": 395,
-        "Type": "nesciunt",
-        "ColorBlock": 484,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2010-03-26T14:45:13.8648346+01:00",
+        "Rank": 803,
+        "Type": "sit",
+        "ColorBlock": 186,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2018-11-24T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "sed",
+        "ExtraInfo": "totam",
+        "StyleHint": "cumque",
         "Hidden": true,
-        "FullName": "Alisha Sipes"
+        "FullName": "Lonnie McLaughlin"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Dr. Hallie Aiden Swift"
+    "ExtraInfo": "ut",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Meta Dare"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Tremblay, Konopelski and Erdman",
-    "ToolTip": "Aut delectus.",
-    "Deleted": true,
-    "Rank": 316,
-    "Type": "iste",
-    "ColorBlock": 591,
+    "Id": 915,
+    "Name": "Cole Group",
+    "ToolTip": "Vel ut qui ut voluptates eius adipisci.",
+    "Deleted": false,
+    "Rank": 339,
+    "Type": "necessitatibus",
+    "ColorBlock": 930,
     "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2013-01-25T14:45:13.8648346+01:00",
+    "LastChanged": "2011-07-17T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Kuhic LLC",
-        "ToolTip": "Aliquid harum nisi velit autem.",
-        "Deleted": true,
-        "Rank": 553,
-        "Type": "ab",
-        "ColorBlock": 679,
-        "IconHint": "eveniet",
+        "Id": 103,
+        "Name": "Hammes-Yundt",
+        "ToolTip": "Ad voluptas.",
+        "Deleted": false,
+        "Rank": 78,
+        "Type": "quam",
+        "ColorBlock": 854,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2004-05-04T14:45:13.8648346+02:00",
+        "LastChanged": "2020-08-20T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "quis",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Kirk Ward Sr.",
+        "FullName": "Julien Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldType": "System.String",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Ferne Leuschke",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Ms. Rachael Thad Watsica Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 557
       }
     }
   }

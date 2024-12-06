@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    213,
-    189
+    841,
+    310
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 774,
-    "UniqueId": "totam",
-    "Name": "Dare-Blanda",
-    "Description": "Public-key dedicated workforce",
-    "AssociateId": 663,
-    "Columns": 829,
+    "DashboardId": 746,
+    "UniqueId": "odit",
+    "Name": "Hyatt Group",
+    "Description": "Multi-layered solution-oriented firmware",
+    "AssociateId": 771,
+    "Columns": 120,
     "Theme": null,
-    "VisibleForAll": 331,
+    "VisibleForAll": 603,
     "VisibleForAssociates": [
-      241,
-      629
+      876,
+      538
     ],
     "VisibleForGroups": [
-      578,
-      988
+      655,
+      939
     ],
-    "PinForAll": 871,
+    "PinForAll": 62,
     "PinForAssociates": [
-      739,
-      510
+      797,
+      221
     ],
     "PinForGroups": [
-      858,
-      685
+      154,
+      114
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 971
       }
     }
   }

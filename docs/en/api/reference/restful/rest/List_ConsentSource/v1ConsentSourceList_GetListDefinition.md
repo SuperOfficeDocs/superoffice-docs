@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Gutkowski Inc and Sons",
-  "Tooltip": "vel",
+  "Id": 240,
+  "Name": "Upton LLC",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 946,
-  "IsCustomList": true,
+  "Rank": 100,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
-  "InUseByUserDefinedFields": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 102
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

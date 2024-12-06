@@ -70,12 +70,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hahn, Parker and Hirthe",
+  "TableName": "Schmitt-Stracke",
   "RecordIds": [
-    570,
-    306
+    134,
+    585
   ],
-  "AssociateId": 4
+  "AssociateId": 37
 }
 ```
 

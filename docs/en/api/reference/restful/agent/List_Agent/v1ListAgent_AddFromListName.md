@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schuster Group",
+  "UdListDefinitionName": "Yundt Group",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Maggio, O'Keefe and Wisoky",
-  "Tooltip": "doloribus",
-  "Deleted": true,
-  "UdListDefinitionId": 624,
-  "Rank": 441,
+  "Id": 768,
+  "Name": "Doyle, Heller and Cole",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 961,
+  "Rank": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

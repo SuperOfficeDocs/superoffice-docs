@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Keebler Inc and Sons",
-    "ToolTip": "Sint vel dolorem.",
+    "Id": 919,
+    "Name": "O'Kon Group",
+    "ToolTip": "Non dolor soluta harum blanditiis dolores officiis alias.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "quia",
-    "ColorBlock": 49,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2002-01-22T14:45:13.7554843+01:00",
+    "Rank": 328,
+    "Type": "consectetur",
+    "ColorBlock": 714,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2013-12-19T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 268,
-        "Name": "Nader, Streich and Kihn",
-        "ToolTip": "Dicta sequi dolores.",
+        "Id": 27,
+        "Name": "Johnson Inc and Sons",
+        "ToolTip": "Aperiam temporibus veniam omnis consequatur.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "sint",
-        "ColorBlock": 697,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "1998-05-09T14:45:13.7554843+02:00",
+        "Rank": 211,
+        "Type": "dignissimos",
+        "ColorBlock": 644,
+        "IconHint": "magni",
+        "Selected": false,
+        "LastChanged": "2023-05-09T10:18:01.051244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Miss Charity Bartholome Keebler",
+        "ExtraInfo": "rem",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Ms. Magdalen Bashirian II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 178
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Sunny Wyman",
+    "ExtraInfo": "officia",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Miss Zion Harrison Veum II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

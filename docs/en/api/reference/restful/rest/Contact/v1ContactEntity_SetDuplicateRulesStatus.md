@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ritchie Inc and Sons",
-    "DisplayName": "Macejkovic Inc and Sons",
-    "DisplayTooltip": "vero",
+    "Name": "McKenzie LLC",
+    "DisplayName": "Stroman LLC",
+    "DisplayTooltip": "voluptates",
     "IsActive": true
   },
   {
-    "Name": "Ritchie Inc and Sons",
-    "DisplayName": "Macejkovic Inc and Sons",
-    "DisplayTooltip": "vero",
+    "Name": "McKenzie LLC",
+    "DisplayName": "Stroman LLC",
+    "DisplayTooltip": "voluptates",
     "IsActive": true
   }
 ]

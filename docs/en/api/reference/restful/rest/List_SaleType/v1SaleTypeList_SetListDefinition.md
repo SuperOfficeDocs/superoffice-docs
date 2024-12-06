@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 315,
-  "Name": "Schneider, Kutch and McCullough",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 611,
+  "Id": 649,
+  "Name": "Schaefer, Tromp and Kilback",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 706,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "quae",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Kuhic, Kessler and Conroy",
-  "Tooltip": "quas",
+  "Id": 650,
+  "Name": "Crist Inc and Sons",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 336,
-  "IsCustomList": false,
+  "Rank": 159,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "at",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 462
     }
   }
 }

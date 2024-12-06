@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bednar-Friesen"
+  "OwnerName": "Romaguera, Schmitt and Lowe"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 336,
-      "NumberOfLicensesFree": 759,
-      "NumberOfLicensesAdded": 456,
-      "NumberOfLicensesNewTotal": 269,
-      "NumberOfLicensesNewFree": 456,
-      "NumberOfLicensesTotal": 179
+      "NumberOfLicensesInUse": 254,
+      "NumberOfLicensesFree": 2,
+      "NumberOfLicensesAdded": 549,
+      "NumberOfLicensesNewTotal": 109,
+      "NumberOfLicensesNewFree": 437,
+      "NumberOfLicensesTotal": 733
     }
   ],
-  "AccumulatedNextCheckDate": "2010-06-22T14:45:05.6625978+02:00"
+  "AccumulatedNextCheckDate": "2001-09-14T10:17:55.660285+02:00"
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Huels, Pouros and Weber",
-    "ToolTip": "Maiores corporis sit enim libero quisquam.",
+    "Id": 882,
+    "Name": "Kirlin, Lueilwitz and Simonis",
+    "ToolTip": "Eos itaque repellat.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "ad",
-    "ColorBlock": 297,
-    "IconHint": "corrupti",
+    "Rank": 322,
+    "Type": "saepe",
+    "ColorBlock": 445,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2000-08-02T14:45:13.7242429+02:00",
+    "LastChanged": "2003-08-03T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Rippin LLC",
-        "ToolTip": "Perspiciatis maxime ad aut sed dolores et sit.",
-        "Deleted": false,
-        "Rank": 583,
-        "Type": "occaecati",
-        "ColorBlock": 783,
-        "IconHint": "mollitia",
+        "Id": 810,
+        "Name": "Walsh, Kuvalis and Reichert",
+        "ToolTip": "Dicta optio.",
+        "Deleted": true,
+        "Rank": 697,
+        "Type": "in",
+        "ColorBlock": 409,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2021-06-21T14:45:13.7242429+02:00",
+        "LastChanged": "2015-06-14T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "porro",
+        "ExtraInfo": "aut",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Shanon Corwin"
+        "FullName": "Prof. Rebeca Schiller III"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "a",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Jordane Olson"
+    "FullName": "Asia Hermann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Champlin, Boyle and Kshlerin",
-    "ToolTip": "Quasi quo.",
-    "Deleted": true,
-    "Rank": 951,
-    "Type": "nihil",
-    "ColorBlock": 665,
-    "IconHint": "veritatis",
+    "Id": 805,
+    "Name": "Rodriguez LLC",
+    "ToolTip": "Aspernatur itaque ab inventore molestiae.",
+    "Deleted": false,
+    "Rank": 929,
+    "Type": "perspiciatis",
+    "ColorBlock": 359,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2001-07-17T14:45:13.7398643+02:00",
+    "LastChanged": "2003-05-23T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Russel, Mayert and Satterfield",
-        "ToolTip": "Et aperiam aliquam.",
+        "Id": 103,
+        "Name": "Wuckert LLC",
+        "ToolTip": "Incidunt quaerat.",
         "Deleted": true,
-        "Rank": 709,
-        "Type": "laboriosam",
-        "ColorBlock": 917,
-        "IconHint": "assumenda",
+        "Rank": 830,
+        "Type": "voluptas",
+        "ColorBlock": 377,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "1998-11-07T14:45:13.7398643+01:00",
+        "LastChanged": "2011-06-16T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Allie Kutch III",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Marc Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "autem",
+    "StyleHint": "fuga",
     "Hidden": false,
-    "FullName": "Alvena Sabina Mosciski III",
+    "FullName": "Olen Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldType": "System.Int32",
+        "FieldLength": 947
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=voluptas
+GET /api/v1/List/Position/MDOItems?query=itaque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Lueilwitz-Beer",
-    "ToolTip": "Eius dolore reiciendis odio ipsum vero cumque iste.",
+    "Id": 147,
+    "Name": "Fadel-Christiansen",
+    "ToolTip": "Ipsam reprehenderit illo.",
     "Deleted": false,
-    "Rank": 179,
-    "Type": "qui",
+    "Rank": 941,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Fay-Reilly",
-        "ToolTip": "Doloremque sit incidunt dolorem architecto suscipit voluptatem.",
+        "Id": 390,
+        "Name": "Von-Kemmer",
+        "ToolTip": "Repudiandae sunt accusantium.",
         "Deleted": false,
-        "Rank": 12,
-        "Type": "nesciunt",
+        "Rank": 569,
+        "Type": "corporis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 997,
-        "ExtraInfo": "optio",
-        "StyleHint": "enim",
-        "FullName": "Agustin Koelpin",
+        "IconHint": "pariatur",
+        "ColorBlock": 758,
+        "ExtraInfo": "molestias",
+        "StyleHint": "exercitationem",
+        "FullName": "Ruben Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 94
+            "FieldLength": 820
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 805,
-    "ExtraInfo": "ex",
-    "StyleHint": "placeat",
-    "FullName": "Keshaun Bins",
+    "IconHint": "et",
+    "ColorBlock": 55,
+    "ExtraInfo": "sint",
+    "StyleHint": "aut",
+    "FullName": "Miss Georgianna Natasha Monahan IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 705
       }
     }
   }

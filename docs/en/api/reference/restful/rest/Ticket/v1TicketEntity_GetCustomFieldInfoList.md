@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Kon Group",
-    "DisplayName": "Welch-Jast",
-    "Description": "Integrated dedicated installation",
-    "ShortLabel": "exercitationem",
+    "FieldName": "Upton, Huels and Koch",
+    "DisplayName": "Christiansen, Runolfsson and Stehr",
+    "Description": "Innovative methodical parallelism",
+    "ShortLabel": "similique",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 963,
-    "TemplateVariableName": "Hauck, Mohr and Kovacek"
+    "IsDisplayField": false,
+    "Rank": 448,
+    "TemplateVariableName": "King, Johnson and Satterfield"
   }
 ]
 ```

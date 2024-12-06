@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 811,
+  "TicketId": 883,
   "MessageActionType": "Forward",
-  "TicketMessageId": 744,
-  "TicketTypeId": 629
+  "TicketMessageId": 398,
+  "TicketTypeId": 123
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "aut",
+  "Body": "autem",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 111,
-      "Name": "Hettinger-Sanford",
-      "ContentType": "veniam",
-      "AttSize": 334,
+      "AttachmentId": 117,
+      "Name": "Botsford LLC",
+      "ContentType": "molestiae",
+      "AttSize": 792,
       "InlineImage": true,
-      "ContentId": "illum",
-      "AuthKey": "ratione",
+      "ContentId": "culpa",
+      "AuthKey": "quidem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 238
         }
       }
     }

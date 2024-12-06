@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Hayes, Davis and McDermott",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 226,
+  "Id": 887,
+  "Name": "Cormier, Deckow and Lebsack",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 591,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "suscipit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 638,
-  "Name": "Hand-Gaylord",
-  "Tooltip": "ut",
+  "Id": 470,
+  "Name": "Huels-Schumm",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 11,
+  "Rank": 927,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

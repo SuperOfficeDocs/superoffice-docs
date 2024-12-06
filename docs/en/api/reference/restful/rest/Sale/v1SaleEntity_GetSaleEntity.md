@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 30 Dec 2019 14:45:13 G12T
+Last-Modified: Wed, 20 Nov 2013 10:18:00 G11T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Mon, 30 Dec 2019 14:45:13 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repellat",
+  "SaleText": "non",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Mon, 30 Dec 2019 14:45:13 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-08-30T14:45:13.1774886+02:00",
-  "Amount": 9718.534,
-  "SaleId": 843,
-  "Earning": 23548.876,
-  "EarningPercent": 19427.666,
-  "Heading": "accusamus",
-  "Number": "785350",
-  "Probability": 14,
-  "CreatedDate": "2021-09-18T14:45:13.1774886+02:00",
-  "UpdatedDate": "2019-12-30T14:45:13.1774886+01:00",
+  "Saledate": "2003-10-04T10:18:00.6762151+02:00",
+  "Amount": 9486.618,
+  "SaleId": 139,
+  "Earning": 7916.4839999999995,
+  "EarningPercent": 22862.53,
+  "Heading": "veniam",
+  "Number": "1022142",
+  "Probability": 120,
+  "CreatedDate": "2019-08-08T10:18:00.6762151+02:00",
+  "UpdatedDate": "2013-11-20T10:18:00.6762151+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 746,
+  "ActiveLinks": 33,
   "Links": [
     {
-      "EntityName": "Prohaska, Ortiz and Howell",
-      "Id": 352,
-      "Description": "Persevering uniform artificial intelligence",
-      "ExtraInfo": "quibusdam",
-      "LinkId": 269,
+      "EntityName": "Zemlak-Schoen",
+      "Id": 766,
+      "Description": "Upgradable next generation forecast",
+      "ExtraInfo": "aut",
+      "LinkId": 526,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 354
         }
       }
     }
   ],
-  "NextDueDate": "1997-12-16T14:45:13.1774886+01:00",
-  "Postit": "dolorem",
+  "NextDueDate": "2012-01-11T10:18:00.6762151+01:00",
+  "Postit": "placeat",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-02-23T14:45:13.1774886+01:00",
+  "ReopenDate": "2020-07-12T10:18:00.6762151+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Strosin, Gulgowski and Hodkiewicz",
-      "Comment": "omnis",
-      "StakeholderRoleId": 150,
-      "CountryId": 833,
-      "PersonId": 936,
-      "EmailDescription": "pietro_dach@bergnaum.co.uk",
-      "EmailId": 519,
-      "EmailAddress": "horace_ohara@dare.us",
-      "PhoneId": 82,
-      "ContactName": "Schmitt, Huels and Dach",
-      "ContactId": 518,
-      "SaleId": 618,
-      "Mrmrs": "consequatur",
-      "Firstname": "Beau",
-      "MiddleName": "Trantow-Kirlin",
-      "Lastname": "Gutkowski",
-      "SaleStakeholderId": 833,
-      "Rank": 455,
-      "Phone": "365-416-9035 x921",
+      "StakeholderRoleName": "Jacobs-Streich",
+      "Comment": "eligendi",
+      "StakeholderRoleId": 267,
+      "CountryId": 933,
+      "PersonId": 902,
+      "EmailDescription": "mitchell@hartmannklein.us",
+      "EmailId": 665,
+      "EmailAddress": "josefa_connelly@schultz.biz",
+      "PhoneId": 183,
+      "ContactName": "Rosenbaum Group",
+      "ContactId": 920,
+      "SaleId": 6,
+      "Mrmrs": "adipisci",
+      "Firstname": "Shawn",
+      "MiddleName": "Yundt, Eichmann and Zemlak",
+      "Lastname": "Parisian",
+      "SaleStakeholderId": 425,
+      "Rank": 701,
+      "Phone": "101.925.4515 x981",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 842
         }
       }
     }
   ],
-  "ActiveErpLinks": 971,
+  "ActiveErpLinks": 270,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shanny Kessler",
-    "SuperOffice:2": "1425916883"
+    "SuperOffice:1": "Dr. Gordon Marianne McClure IV",
+    "SuperOffice:2": "Mrs. Armando Rosendo Gaylord"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "rerum"
+    "CustomFields1": "in",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2006-10-11T14:45:13.1774886+02:00",
-  "PublishTo": "2016-02-17T14:45:13.1774886+01:00",
-  "PublishFrom": "2017-01-01T14:45:13.1774886+01:00",
+  "PublishEventDate": "2008-06-18T10:18:00.6762151+02:00",
+  "PublishTo": "2015-09-20T10:18:00.6762151+02:00",
+  "PublishFrom": "2024-08-22T10:18:00.6762151+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 772,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 13
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 772,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 13
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Mon, 30 Dec 2019 14:45:13 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 980
     }
   },
   "_Links": {

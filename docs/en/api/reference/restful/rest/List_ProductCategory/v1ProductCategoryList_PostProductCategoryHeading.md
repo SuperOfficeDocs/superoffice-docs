@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 782,
-  "Name": "Bartoletti-Ferry",
-  "Tooltip": "quibusdam",
+  "HeadingId": 891,
+  "Name": "Kunze Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 526,
-  "UdListDefinitionId": 339
+  "Rank": 233,
+  "UdListDefinitionId": 314
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 590,
-  "Name": "Schuster, Crona and Sanford",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 586,
-  "UdListDefinitionId": 290,
+  "HeadingId": 428,
+  "Name": "Wehner-Nienow",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 517,
+  "UdListDefinitionId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 361
     }
   }
 }

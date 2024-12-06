@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Boyle Inc and Sons",
-    "DisplayName": "Paucek Inc and Sons",
-    "Description": "Universal client-server instruction set",
-    "ShortLabel": "eum",
+    "FieldName": "Witting-Zboncak",
+    "DisplayName": "Hamill LLC",
+    "Description": "Reduced multimedia hierarchy",
+    "ShortLabel": "placeat",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 939,
-    "TemplateVariableName": "Lubowitz Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 345,
+    "TemplateVariableName": "VonRueden, Champlin and Lowe"
   }
 ]
 ```

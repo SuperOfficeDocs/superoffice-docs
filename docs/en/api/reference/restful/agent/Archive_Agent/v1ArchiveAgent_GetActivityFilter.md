@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2004-03-30T14:45:04.8346562+02:00",
-  "ToDate": "2012-10-16T14:45:04.8346562+02:00",
+  "FromDate": "2007-01-28T10:17:55.0977583+01:00",
+  "ToDate": "2005-02-14T10:17:55.0977583+01:00",
   "AssociateList": [
     {
-      "Id": 291,
-      "Name": "Schuster-Little",
-      "ToolTip": "Dolorem sapiente et voluptas rerum.",
+      "Id": 710,
+      "Name": "Smitham-Volkman",
+      "ToolTip": "Laboriosam ullam asperiores labore unde quasi.",
       "Deleted": false,
-      "Rank": 184,
-      "Type": "aut",
-      "ColorBlock": 843,
-      "IconHint": "quia",
-      "Selected": true,
-      "LastChanged": "2013-10-05T14:45:04.8346562+02:00",
+      "Rank": 639,
+      "Type": "et",
+      "ColorBlock": 997,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2021-05-07T10:17:55.0977583+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "expedita",
-      "StyleHint": "ad",
-      "Hidden": false,
-      "FullName": "Antone Feil",
+      "ExtraInfo": "modi",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Laverne Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 245
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 302,
-      "Name": "Nikolaus, Langworth and Konopelski",
-      "ToolTip": "Exercitationem et.",
+      "Id": 236,
+      "Name": "D'Amore-Kautzer",
+      "ToolTip": "Non eos quo nesciunt dolores harum.",
       "Deleted": false,
-      "Rank": 681,
-      "Type": "optio",
-      "ColorBlock": 664,
-      "IconHint": "facilis",
-      "Selected": false,
-      "LastChanged": "2019-11-03T14:45:04.8346562+01:00",
+      "Rank": 38,
+      "Type": "doloribus",
+      "ColorBlock": 413,
+      "IconHint": "necessitatibus",
+      "Selected": true,
+      "LastChanged": "2014-08-26T10:17:55.0977583+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "architecto",
-      "Hidden": false,
-      "FullName": "Winona Homenick",
+      "ExtraInfo": "quo",
+      "StyleHint": "vel",
+      "Hidden": true,
+      "FullName": "Sincere Rosalyn Pollich Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldLength": 343
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 101,
-      "Name": "Kovacek-Koepp",
-      "ToolTip": "Asperiores quia.",
+      "Id": 231,
+      "Name": "Hessel LLC",
+      "ToolTip": "Ea voluptatem.",
       "Deleted": false,
-      "Rank": 987,
-      "Type": "quos",
+      "Rank": 547,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 253,
-      "ExtraInfo": "minima",
-      "StyleHint": "iusto",
-      "FullName": "Walton Cartwright",
+      "IconHint": "non",
+      "ColorBlock": 174,
+      "ExtraInfo": "eos",
+      "StyleHint": "ea",
+      "FullName": "Karlie Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 50
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 802
     }
   }
 }

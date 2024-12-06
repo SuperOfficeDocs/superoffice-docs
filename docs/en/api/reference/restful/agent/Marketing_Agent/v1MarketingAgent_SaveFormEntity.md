@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 377,
-  "FormKey": "unde",
-  "Name": "Quitzon, Bernhard and Leannon",
-  "Description": "Innovative fault-tolerant solution",
-  "Config": "dolorum",
-  "FolderId": 819,
-  "ScriptId": 915,
-  "ResponseShipmentId": 1002,
-  "Active": true,
-  "Expires": "2023-11-29T14:45:05.7875689+01:00",
-  "MaxSubmits": 181,
+  "FormId": 950,
+  "FormKey": "est",
+  "Name": "Kertzmann LLC",
+  "Description": "Persevering incremental concept",
+  "Config": "molestias",
+  "FolderId": 94,
+  "ScriptId": 406,
+  "ResponseShipmentId": 309,
+  "Active": false,
+  "Expires": "2009-03-14T10:17:55.7540473+01:00",
+  "MaxSubmits": 456,
   "Type": "Normal",
-  "Recipe": "dolores",
-  "GroupId": 883,
+  "Recipe": "ad",
+  "GroupId": 979,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-07-08T14:45:05.7875689+02:00",
-  "RegisteredAssociateId": 294,
-  "Updated": "2006-01-02T14:45:05.7875689+01:00",
-  "UpdatedAssociateId": 387,
-  "UpdatedCount": 302,
+  "Registered": "2014-08-03T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 627,
+  "Updated": "2016-06-29T10:17:55.7540473+02:00",
+  "UpdatedAssociateId": 670,
+  "UpdatedCount": 813,
   "EmailFlows": [
-    120,
-    321
+    543,
+    656
   ],
-  "FolderName": "Goldner, Walsh and Schuster"
+  "FolderName": "Ward Inc and Sons"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 160,
-  "FormKey": "id",
-  "Name": "Dickinson, Stiedemann and Lesch",
-  "Description": "Extended grid-enabled frame",
-  "Config": "veniam",
-  "FolderId": 744,
-  "ScriptId": 221,
-  "ResponseShipmentId": 922,
-  "Active": true,
-  "Expires": "2002-06-19T14:45:05.7875689+02:00",
-  "MaxSubmits": 701,
+  "FormId": 19,
+  "FormKey": "et",
+  "Name": "Lebsack Group",
+  "Description": "Digitized attitude-oriented throughput",
+  "Config": "tenetur",
+  "FolderId": 800,
+  "ScriptId": 955,
+  "ResponseShipmentId": 552,
+  "Active": false,
+  "Expires": "1998-09-06T10:17:55.7540473+02:00",
+  "MaxSubmits": 723,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 722,
+  "Recipe": "possimus",
+  "GroupId": 176,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-11-19T14:45:05.7875689+01:00",
-  "RegisteredAssociateId": 110,
-  "Updated": "2024-01-22T14:45:05.7875689+01:00",
-  "UpdatedAssociateId": 154,
-  "UpdatedCount": 519,
+  "Registered": "2001-06-22T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 188,
+  "Updated": "2006-12-25T10:17:55.7540473+01:00",
+  "UpdatedAssociateId": 904,
+  "UpdatedCount": 836,
   "EmailFlows": [
-    474,
-    745
+    444,
+    93
   ],
-  "FolderName": "Wyman, Cruickshank and Koss",
+  "FolderName": "Bernhard LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 983
     }
   }
 }

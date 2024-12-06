@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=295
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=753
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 956,
-  "Name": "Renner Group",
-  "Tooltip": "asperiores",
-  "SaveInDb": 968,
-  "Filename": "illo",
-  "DefaultOref": "molestiae",
+  "DocumentTemplateId": 895,
+  "Name": "Baumbach LLC",
+  "Tooltip": "dolores",
+  "SaveInDb": 655,
+  "Filename": "fugiat",
+  "DefaultOref": "accusantium",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 146,
-  "IntentId": 434,
-  "IsDefaultPublished": true,
-  "Rank": 613,
-  "LoadTemplateFromPlugin": 625,
-  "MimeType": "doloremque",
+  "AutoeventId": 415,
+  "IntentId": 281,
+  "IsDefaultPublished": false,
+  "Rank": 72,
+  "LoadTemplateFromPlugin": 381,
+  "MimeType": "aut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 811,
+  "DocumentTypeKey": 507,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "roy.corwin@nikolaus.com",
-  "IncludeSignature": true,
+  "EmailSubject": "ethyl@wisozk.co.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "armani_morar@welchbraun.com",
+  "SenderEmailAddress": "ryleigh_marvin@thompson.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldLength": 405
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "UdListDefinitionId": 482,
-  "Rank": 590,
+  "Id": 325,
+  "Name": "Legros Inc and Sons",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "UdListDefinitionId": 831,
+  "Rank": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldType": "System.Int32",
+      "FieldLength": 221
     }
   }
 }

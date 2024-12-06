@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Upton Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 727,
-  "Rank": 358,
+  "Id": 252,
+  "Name": "Dietrich-Rempel",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 781,
+  "Rank": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 166
     }
   }
 }

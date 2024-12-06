@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 987,
-    "Name": "Will, Gerhold and Bailey",
-    "Tooltip": "expedita",
+    "HeadingId": 863,
+    "Name": "Crona Inc and Sons",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 443,
-    "UdListDefinitionId": 999,
+    "Rank": 744,
+    "UdListDefinitionId": 709,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=691
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=315
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 724,
-  "AssociateId": 624,
-  "Caption": "tempore",
+  "DashboardId": 735,
+  "AssociateId": 650,
+  "Caption": "minima",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 804,
-      "Caption": "beatae",
-      "Description": "Future-proofed uniform contingency",
-      "ChartName": "Franecki Group",
-      "ChartId": "possimus",
+      "DashboardTileId": 313,
+      "Caption": "sunt",
+      "Description": "Virtual zero administration intranet",
+      "ChartName": "Raynor-Murray",
+      "ChartId": "reprehenderit",
       "IsDefault": false,
-      "AssociateId": 952,
-      "GroupId": 580,
-      "SelectionId": 166,
-      "Config": "sed",
+      "AssociateId": 762,
+      "GroupId": 574,
+      "SelectionId": 21,
+      "Config": "doloribus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 721
+          "FieldLength": 450
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

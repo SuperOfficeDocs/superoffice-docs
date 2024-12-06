@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 182,
-  "GroupType": 667,
-  "StartTime": "2024-10-28T14:45:04.4755994+01:00",
-  "EndTime": "2022-05-30T14:45:04.4755994+02:00",
-  "Count": 187
+  "GroupId": 642,
+  "GroupType": 286,
+  "StartTime": "2023-01-17T10:17:54.8477431+01:00",
+  "EndTime": "2009-12-09T10:17:54.8477431+01:00",
+  "Count": 784
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 825,
-    "StartDate": "2015-01-23T14:45:04.4755994+01:00",
-    "EndDate": "2012-11-05T14:45:04.4755994+01:00",
+    "AppointmentId": 45,
+    "StartDate": "2006-04-11T10:17:54.8477431+02:00",
+    "EndDate": "2005-08-07T10:17:54.8477431+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Julio Armani Roob DDS",
-    "ContactName": "Brown-Rath",
-    "Description": "Configurable neutral local area network",
-    "PersonFullName": "Mr. Marquis Alvena Maggio I",
-    "PersonId": 804,
-    "ContactId": 50,
-    "ProjectId": 418,
-    "ProjectName": "Ankunding Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 604,
-    "ColorIndex": 470,
-    "IsFree": true,
+    "Task": "inventore",
+    "AssociateFullName": "Miss Keagan Warren Yost",
+    "ContactName": "Kertzmann-Osinski",
+    "Description": "Streamlined systemic utilisation",
+    "PersonFullName": "Adella Weimann",
+    "PersonId": 975,
+    "ContactId": 626,
+    "ProjectId": 154,
+    "ProjectName": "Vandervort, Russel and Frami",
+    "IsPublished": false,
+    "AssociateId": 397,
+    "ColorIndex": 89,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 833,
-    "PriorityName": "Goldner, McGlynn and Rempel",
+    "PriorityId": 436,
+    "PriorityName": "Schaefer-Runte",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-05-27T14:45:04.4755994+02:00",
+    "ActiveDate": "2021-06-14T10:17:54.8477431+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-06-30T14:45:04.4755994+02:00",
-    "RecurringEndDate": "2003-11-24T14:45:04.4755994+01:00",
-    "MotherId": 340,
-    "AssignedBy": 928,
-    "AssignedByFullName": "Mr. Brianne Bartoletti I",
-    "RejectReason": "",
-    "Location": "doloremque",
-    "AlarmLeadTime": "optio",
-    "SaleId": 353,
-    "SaleName": "Pagac, Bradtke and Dach",
-    "AssociateName": "Bogan Inc and Sons",
-    "CreatedDate": "1999-06-30T14:45:04.4755994+02:00",
-    "CreatedBy": "tenetur",
-    "CreatedByFullName": "Abigail Spencer",
-    "CreatedByAssociateId": 806,
+    "RecurringStartDate": "2015-04-28T10:17:54.8477431+02:00",
+    "RecurringEndDate": "2016-02-16T10:17:54.8477431+01:00",
+    "MotherId": 11,
+    "AssignedBy": 327,
+    "AssignedByFullName": "Eulah Kiehn",
+    "RejectReason": "strategize intuitive niches",
+    "Location": "est",
+    "AlarmLeadTime": "quo",
+    "SaleId": 164,
+    "SaleName": "Haag, Welch and Douglas",
+    "AssociateName": "Haag-Vandervort",
+    "CreatedDate": "2022-06-02T10:17:54.8477431+02:00",
+    "CreatedBy": "autem",
+    "CreatedByFullName": "Mrs. Johann Harvey",
+    "CreatedByAssociateId": 784,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 219,
-    "Title": "aut",
-    "Agenda": "eaque",
-    "InternalNotes": "aspernatur",
+    "PreferredTZLocation": 423,
+    "Title": "et",
+    "Agenda": "vitae",
+    "InternalNotes": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldLength": 976
       }
     }
   }

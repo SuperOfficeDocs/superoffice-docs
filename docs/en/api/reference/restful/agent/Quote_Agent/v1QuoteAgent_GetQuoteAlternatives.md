@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 315
+  "QuoteVersionId": 404
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 787,
-    "ERPQuoteAlternativeKey": "quod",
-    "QuoteVersionId": 821,
-    "Name": "McLaughlin Inc and Sons",
-    "Description": "Team-oriented web-enabled projection",
+    "QuoteAlternativeId": 122,
+    "ERPQuoteAlternativeKey": "commodi",
+    "QuoteVersionId": 590,
+    "Name": "Eichmann-Rodriguez",
+    "Description": "Vision-oriented maximized middleware",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 29102.324,
-    "ERPDiscountAmount": 2306.624,
-    "DiscountPercent": 18271.22,
-    "DiscountAmount": 11852.788,
+    "ERPDiscountPercent": 18691.176,
+    "ERPDiscountAmount": 28826.532,
+    "DiscountPercent": 9743.606,
+    "DiscountAmount": 250.72,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "eum",
-    "VAT": 4108.674,
-    "EarningPercent": 26444.692,
-    "EarningAmount": 29321.703999999998,
-    "SubTotal": 22185.586,
-    "TotalPrice": 15695.072,
-    "ExtraField1": "quis",
-    "ExtraField2": "a",
-    "ExtraField3": "nemo",
-    "ExtraField4": "totam",
-    "ExtraField5": "libero",
+    "VATInfo": "labore",
+    "VAT": 12482.722,
+    "EarningPercent": 22038.288,
+    "EarningAmount": 16412.757999999998,
+    "SubTotal": 4293.58,
+    "TotalPrice": 15105.88,
+    "ExtraField1": "placeat",
+    "ExtraField2": "magni",
+    "ExtraField3": "eos",
+    "ExtraField4": "eaque",
+    "ExtraField5": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 785
       }
     }
   }

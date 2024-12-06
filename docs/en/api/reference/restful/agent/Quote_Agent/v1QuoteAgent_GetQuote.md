@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 349
+  "QuoteId": 715
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 533,
-  "SaleId": 860,
-  "QuoteConnectionId": 348,
-  "ERPQuoteKey": "sunt",
-  "ERPOrderKey": "consequatur",
-  "ActiveQuoteVersionId": 739,
-  "AcceptedQuoteAlternativeId": 640,
-  "UseValuesFromQuote": 852,
-  "DocumentId": 28,
-  "PoNumber": "1803103",
-  "OrderComment": "aliquid",
-  "PreferredEmailCulture": "brenden@smithamrunolfsson.us",
+  "QuoteId": 761,
+  "SaleId": 116,
+  "QuoteConnectionId": 675,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 356,
+  "AcceptedQuoteAlternativeId": 522,
+  "UseValuesFromQuote": 438,
+  "DocumentId": 699,
+  "PoNumber": "1388836",
+  "OrderComment": "eligendi",
+  "PreferredEmailCulture": "earl_purdy@torp.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 165
     }
   }
 }

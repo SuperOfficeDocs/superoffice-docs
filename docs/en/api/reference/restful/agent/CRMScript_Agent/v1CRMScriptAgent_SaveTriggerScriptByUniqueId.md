@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quia",
+  "TriggerScriptUniqueId": "reprehenderit",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 876,
-  "Name": "Thompson, Hammes and Zieme",
+  "ScreenChooserId": 31,
+  "Name": "Marks Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "tenetur",
-  "Source": "velit",
-  "Registered": "1999-04-23T14:45:05.1783023+02:00",
-  "RegisteredAssociateId": 376,
-  "Updated": "2009-03-06T14:45:05.1783023+01:00",
-  "UpdatedAssociateId": 546,
+  "UniqueIdentifier": "doloremque",
+  "Source": "iusto",
+  "Registered": "2016-04-08T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 273,
+  "Updated": "2009-11-16T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

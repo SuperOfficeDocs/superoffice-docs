@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/RemoveLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "aut"
+  "ModuleOwner": "necessitatibus"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
-  "Reason": "engineer cross-media niches",
+  "Succeeded": true,
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

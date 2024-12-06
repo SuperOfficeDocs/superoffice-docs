@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 289,
-  "Name": "Borer-Hoppe",
-  "Description": "Realigned zero defect hierarchy",
-  "DeltaJson": "omnis",
+  "ConfigurableScreenDeltaId": 48,
+  "Name": "Weimann, Bergstrom and Metz",
+  "Description": "Expanded empowering encoding",
+  "DeltaJson": "minus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "odio",
-  "UpdatedDate": "2019-07-09T14:45:05.0221142+02:00",
-  "CreatedDate": "2009-09-13T14:45:05.0221142+02:00",
+  "RecipeId": "cum",
+  "UpdatedDate": "2007-07-02T10:17:55.2227659+02:00",
+  "CreatedDate": "2020-07-09T10:17:55.2227659+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    106,
-    138
+    608,
+    4
   ],
-  "AppliesToKey": "aut",
+  "AppliesToKey": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

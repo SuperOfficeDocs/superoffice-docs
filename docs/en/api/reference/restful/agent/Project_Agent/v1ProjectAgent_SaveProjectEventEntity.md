@@ -121,76 +121,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "et",
-  "SignOffText": "quis",
-  "SignOnConfirmationText": "amet",
-  "SignOnText": "vel",
-  "EventDate": "2020-05-19T14:45:05.9906489+02:00",
+  "SignOffConfirmationText": "eos",
+  "SignOffText": "vel",
+  "SignOnConfirmationText": "aspernatur",
+  "SignOnText": "voluptatem",
+  "EventDate": "2003-07-03T10:17:55.8790557+02:00",
   "Enabled": false,
-  "CreatedDate": "2013-06-16T14:45:05.9906489+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 866,
+  "CreatedDate": "1999-09-18T10:17:55.8790557+02:00",
+  "SignOff": true,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 878,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 482,
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 530,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2018-08-28T14:45:05.9906489+02:00",
+  "UpdatedDate": "2007-08-22T10:17:55.8790557+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 914,
-  "Id": 343,
-  "PublishFrom": "2010-08-21T14:45:05.9906489+02:00",
+  "ProjectId": 460,
+  "Id": 761,
+  "PublishFrom": "2024-04-13T10:17:55.8790557+02:00",
   "PublishType": "External",
-  "PublishTo": "2023-01-30T14:45:05.9906489+01:00",
+  "PublishTo": "2000-12-10T10:17:55.8790557+01:00",
   "VisibleForCategories": [
     {
-      "Id": 500,
-      "Name": "Brown, Collier and Olson",
-      "ToolTip": "Odio numquam.",
-      "Deleted": true,
-      "Rank": 103,
-      "Type": "sunt",
+      "Id": 394,
+      "Name": "Dach-Satterfield",
+      "ToolTip": "Rerum perferendis nobis sunt quis quis.",
+      "Deleted": false,
+      "Rank": 397,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 699,
-      "ExtraInfo": "eos",
-      "StyleHint": "amet",
-      "FullName": "Mustafa Lakin"
+      "IconHint": "a",
+      "ColorBlock": 436,
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "soluta",
+      "FullName": "Mrs. Harry Kendall Daugherty"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 978,
-      "Name": "Batz Inc and Sons",
-      "ToolTip": "In nisi qui.",
-      "Deleted": false,
-      "Rank": 594,
-      "Type": "maiores",
+      "Id": 982,
+      "Name": "Abbott Inc and Sons",
+      "ToolTip": "Magni excepturi fugit eaque soluta.",
+      "Deleted": true,
+      "Rank": 734,
+      "Type": "praesentium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "similique",
-      "ColorBlock": 577,
-      "ExtraInfo": "ut",
-      "StyleHint": "sed",
-      "FullName": "Ms. Leopold Darrick Fadel"
+      "IconHint": "non",
+      "ColorBlock": 763,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "cum",
+      "FullName": "Odell Schaefer"
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 378
+  "ProjectEventId": 249
 }
 ```
 
@@ -201,79 +201,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "consectetur",
-  "SignOffText": "dolorem",
-  "SignOnConfirmationText": "aut",
-  "SignOnText": "dolor",
-  "EventDate": "2005-01-23T14:45:05.9906489+01:00",
+  "SignOffConfirmationText": "temporibus",
+  "SignOffText": "soluta",
+  "SignOnConfirmationText": "et",
+  "SignOnText": "consequatur",
+  "EventDate": "1998-05-01T10:17:55.8790557+02:00",
   "Enabled": true,
-  "CreatedDate": "2013-11-05T14:45:05.9906489+01:00",
-  "SignOff": false,
+  "CreatedDate": "2013-06-14T10:17:55.8790557+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 120,
+  "SignOffTaskId": 531,
   "SignOffTriggersAssign": true,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 237,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "1997-07-16T14:45:05.9906489+02:00",
+  "SignOnTaskId": 995,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2008-11-30T10:17:55.8790557+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 884,
-  "Id": 310,
-  "PublishFrom": "2018-02-05T14:45:05.9906489+01:00",
+  "ProjectId": 599,
+  "Id": 901,
+  "PublishFrom": "2000-06-12T10:17:55.8790557+02:00",
   "PublishType": "External",
-  "PublishTo": "2023-10-08T14:45:05.9906489+02:00",
+  "PublishTo": "2005-06-17T10:17:55.8790557+02:00",
   "VisibleForCategories": [
     {
-      "Id": 255,
-      "Name": "Rice, Bradtke and Bahringer",
-      "ToolTip": "Autem aut.",
+      "Id": 724,
+      "Name": "Hamill, Anderson and Steuber",
+      "ToolTip": "Quis itaque.",
       "Deleted": false,
-      "Rank": 655,
-      "Type": "labore",
+      "Rank": 987,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "hic",
-      "ColorBlock": 27,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "sunt",
-      "FullName": "Eleazar Fisher",
+      "IconHint": "aut",
+      "ColorBlock": 591,
+      "ExtraInfo": "voluptate",
+      "StyleHint": "sapiente",
+      "FullName": "Cornell Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 678
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 43,
-      "Name": "Emmerich-Kirlin",
-      "ToolTip": "Voluptatem similique aliquid error rerum illum est nesciunt.",
+      "Id": 463,
+      "Name": "Beahan-Kshlerin",
+      "ToolTip": "Reprehenderit ad fuga ut laborum facere.",
       "Deleted": false,
-      "Rank": 13,
-      "Type": "aliquid",
+      "Rank": 848,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 697,
-      "ExtraInfo": "ut",
-      "StyleHint": "aut",
-      "FullName": "Miss Estell Judge Wyman II",
+      "IconHint": "qui",
+      "ColorBlock": 421,
+      "ExtraInfo": "possimus",
+      "StyleHint": "id",
+      "FullName": "Grady Mann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 496
         }
       }
     }
@@ -282,13 +282,13 @@ Content-Type: application/json; charset=utf-8
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 777,
+  "ProjectEventId": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 341
     }
   }
 }

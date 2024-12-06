@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 313,
+  "TargetYear": 855,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 729
+  "Id": 768
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 466,
+  "TargetAssignmentInfoId": 306,
   "Values": [
-    341,
-    650
+    734,
+    294
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 653,
-  "DimensionListItemDisplayName": "Bechtelar Inc and Sons",
+  "DimensionListItem": 198,
+  "DimensionListItemDisplayName": "Hoppe Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldLength": 30
     }
   }
 }

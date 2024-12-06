@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 43,
-    "FieldName": "Ullrich-Schneider",
-    "Label": "nemo",
-    "Tooltip": "adipisci",
+    "QuoteLineConfigurationId": 435,
+    "FieldName": "Heidenreich, Shields and Jacobi",
+    "Label": "rerum",
+    "Tooltip": "et",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 839,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 302,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

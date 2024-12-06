@@ -97,12 +97,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 475,
-  "Name": "Crona-Kreiger",
-  "Tooltip": "eaque",
-  "PassiveText": "amet",
-  "Deleted": false,
-  "Rank": 964,
+  "ReldefId": 394,
+  "Name": "Barrows-Grady",
+  "Tooltip": "sed",
+  "PassiveText": "aut",
+  "Deleted": true,
+  "Rank": 860,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 829,
-  "Name": "Bradtke-Rosenbaum",
-  "Tooltip": "repellat",
-  "PassiveText": "rerum",
-  "Deleted": false,
-  "Rank": 520,
+  "ReldefId": 867,
+  "Name": "Rolfson Inc and Sons",
+  "Tooltip": "rerum",
+  "PassiveText": "eius",
+  "Deleted": true,
+  "Rank": 899,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 501
     }
   },
   "_Links": {

@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 941,
-      "ContactName": "Hilll Inc and Sons",
-      "PersonId": 455,
-      "PersonName": "Rogahn, Roob and Hermann",
-      "AssociateId": 725,
-      "Address": "quia",
-      "EmailId": 822,
+      "ContactId": 551,
+      "ContactName": "Jacobs-Barton",
+      "PersonId": 913,
+      "PersonName": "Bode-Jenkins",
+      "AssociateId": 700,
+      "Address": "ea",
+      "EmailId": 544,
       "DuplicatePersonIds": [
-        226,
-        771
+        766,
+        365
       ],
-      "Name": "Kozey-Jones",
+      "Name": "Murray-Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 861
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 6,
-      "ContactName": "Blick-Schumm",
-      "PersonId": 493,
-      "PersonName": "Bruen, Volkman and Mraz",
-      "AssociateId": 660,
-      "Address": "qui",
-      "EmailId": 286,
+      "ContactId": 531,
+      "ContactName": "Herman, Kuhlman and Hirthe",
+      "PersonId": 221,
+      "PersonName": "Balistreri, Koss and Ledner",
+      "AssociateId": 708,
+      "Address": "occaecati",
+      "EmailId": 193,
       "DuplicatePersonIds": [
-        308,
-        426
+        196,
+        310
       ],
-      "Name": "Christiansen, Schulist and Adams",
+      "Name": "Goldner LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldType": "System.String",
+          "FieldLength": 543
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 18,
-      "ContactName": "McLaughlin Inc and Sons",
-      "PersonId": 879,
-      "PersonName": "Hayes-Rodriguez",
-      "AssociateId": 36,
-      "Address": "dolorem",
-      "EmailId": 963,
+      "ContactId": 398,
+      "ContactName": "Barton-Nicolas",
+      "PersonId": 299,
+      "PersonName": "Stark-Rowe",
+      "AssociateId": 209,
+      "Address": "ratione",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        418,
-        32
+        76,
+        471
       ],
-      "Name": "Sanford, Schiller and Nolan",
+      "Name": "Jerde LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldType": "System.Int32",
+          "FieldLength": 762
         }
       }
     }
   ],
-  "Subject": "sunt",
-  "HTMLBody": "consectetur",
+  "Subject": "dolor",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "2012-08-16T14:45:05.5063824+02:00",
-  "Size": 548,
+  "Sent": "2012-12-17T10:17:55.5665368+01:00",
+  "Size": 473,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "provident",
-  "PlainBody": "deserunt",
+  "MessageID": "explicabo",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 898,
+  "ServerId": 218,
   "Attachments": [
     {
-      "Description": "Versatile neutral extranet",
-      "Filename": "voluptates",
-      "Size": 401,
-      "Type": "nulla",
-      "Encoding": "est",
-      "Id": "id",
-      "Disposition": "dolor",
+      "Description": "Monitored content-based knowledge user",
+      "Filename": "nobis",
+      "Size": 676,
+      "Type": "numquam",
+      "Encoding": "dolor",
+      "Id": "velit",
+      "Disposition": "ratione",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 65
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rogahn, Runolfsdottir and Bergstrom",
+      "Name": "Turner-Bernhard",
       "Values": [
-        "inventore",
-        "et"
+        "qui",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 986
         }
       }
     },
     {
-      "Name": "Rogahn, Runolfsdottir and Bergstrom",
+      "Name": "Turner-Bernhard",
       "Values": [
-        "inventore",
-        "et"
+        "qui",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 986
         }
       }
     }
   ],
-  "FolderName": "Spencer LLC",
-  "EmailItemId": 364,
-  "AccountId": 993,
-  "ReceivedAt": "2007-08-29T14:45:05.5063824+02:00",
+  "FolderName": "Nienow-Becker",
+  "EmailItemId": 809,
+  "AccountId": 788,
+  "ReceivedAt": "2019-03-04T10:17:55.5665368+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-12-14T14:45:05.5063824+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-09-18T10:17:55.5665368+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

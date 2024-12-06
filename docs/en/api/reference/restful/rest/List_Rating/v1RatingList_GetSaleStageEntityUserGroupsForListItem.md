@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Bayer, Lockman and Morar",
-    "ToolTip": "Libero ut velit eveniet ex.",
+    "Id": 840,
+    "Name": "Nienow, Satterfield and Beier",
+    "ToolTip": "Quam voluptas et distinctio.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "omnis",
-    "ColorBlock": 103,
+    "Rank": 614,
+    "Type": "et",
+    "ColorBlock": 475,
     "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2007-12-24T14:45:13.8648346+01:00",
+    "Selected": true,
+    "LastChanged": "2004-01-30T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Yundt-Mante",
-        "ToolTip": "Ullam dolorum nesciunt.",
-        "Deleted": false,
-        "Rank": 587,
-        "Type": "dolores",
-        "ColorBlock": 756,
-        "IconHint": "quo",
+        "Id": 102,
+        "Name": "VonRueden, Gaylord and Runolfsdottir",
+        "ToolTip": "Voluptatibus et illum nulla et perferendis odio.",
+        "Deleted": true,
+        "Rank": 213,
+        "Type": "praesentium",
+        "ColorBlock": 64,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2002-11-06T14:45:13.8648346+01:00",
+        "LastChanged": "2003-10-31T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Javier Keebler",
+        "ExtraInfo": "non",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Dr. Elian Ryan I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldType": "System.Int32",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Dr. Yessenia Keeling",
+    "ExtraInfo": "enim",
+    "StyleHint": "ipsa",
+    "Hidden": false,
+    "FullName": "Vicente Ashtyn Kertzmann III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldType": "System.String",
+        "FieldLength": 634
       }
     }
   }

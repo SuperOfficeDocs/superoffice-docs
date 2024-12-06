@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 88
+  "Count": 6
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aperiam",
-    "PersonId": 874,
-    "Mrmrs": "aut",
-    "Firstname": "Tianna",
-    "Lastname": "Veum",
-    "MiddleName": "Waters-Hansen",
-    "Title": "dolor",
-    "Description": "De-engineered next generation infrastructure",
-    "Email": "norberto@kingpfeffer.ca",
-    "FullName": "Alaina Fay",
-    "DirectPhone": "794.282.6558 x90081",
-    "FormalName": "Gaylord-Durgan",
-    "CountryId": 48,
-    "ContactId": 684,
-    "ContactName": "Tromp, Rowe and Lowe",
-    "Retired": 196,
-    "Rank": 489,
-    "ActiveInterests": 941,
+    "Position": "veniam",
+    "PersonId": 977,
+    "Mrmrs": "quam",
+    "Firstname": "Shyann",
+    "Lastname": "Weber",
+    "MiddleName": "Luettgen Inc and Sons",
+    "Title": "aperiam",
+    "Description": "Configurable holistic strategy",
+    "Email": "deja@vonjones.name",
+    "FullName": "Lonnie Legros Sr.",
+    "DirectPhone": "1-463-186-6350 x76624",
+    "FormalName": "Sanford, Goodwin and Russel",
+    "CountryId": 35,
+    "ContactId": 877,
+    "ContactName": "White-Hintz",
+    "Retired": 157,
+    "Rank": 969,
+    "ActiveInterests": 142,
     "ContactDepartment": "",
-    "ContactCountryId": 550,
-    "ContactOrgNr": "845560",
-    "FaxPhone": "286.953.0739",
-    "MobilePhone": "333.367.2541 x9436",
-    "ContactPhone": "(425)577-8422 x483",
-    "AssociateName": "Kreiger, White and Watsica",
-    "AssociateId": 530,
+    "ContactCountryId": 478,
+    "ContactOrgNr": "1065786",
+    "FaxPhone": "1-626-289-6801 x238",
+    "MobilePhone": "578-954-7695 x98875",
+    "ContactPhone": "829.246.5045",
+    "AssociateName": "Smith LLC",
+    "AssociateId": 481,
     "UsePersonAddress": false,
-    "ContactFax": "dolores",
-    "Kanafname": "distinctio",
-    "Kanalname": "inventore",
-    "Post1": "facere",
-    "Post2": "excepturi",
-    "Post3": "maxime",
-    "EmailName": "mina_dooley@huels.us",
-    "ContactFullName": "Modesto Heathcote",
-    "ActiveErpLinks": 799,
-    "TicketPriorityId": 697,
-    "SupportLanguageId": 254,
-    "SupportAssociateId": 349,
+    "ContactFax": "quo",
+    "Kanafname": "ratione",
+    "Kanalname": "tenetur",
+    "Post1": "omnis",
+    "Post2": "odio",
+    "Post3": "similique",
+    "EmailName": "alejandrin@bogan.info",
+    "ContactFullName": "Evert Hilpert",
+    "ActiveErpLinks": 655,
+    "TicketPriorityId": 607,
+    "SupportLanguageId": 288,
+    "SupportAssociateId": 700,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 467
       }
     }
   }

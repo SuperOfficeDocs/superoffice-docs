@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 407,
-    "Name": "Murphy Group",
-    "Tooltip": "qui",
-    "Rank": 347,
-    "Rate": 6546.9259999999995,
-    "Units": 19079.791999999998,
-    "Deleted": true,
+    "CurrencyId": 594,
+    "Name": "Nikolaus-Stamm",
+    "Tooltip": "reiciendis",
+    "Rank": 498,
+    "Rate": 30967.054,
+    "Units": 18070.644,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 208
       }
     }
   }

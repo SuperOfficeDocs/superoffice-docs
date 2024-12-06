@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 853,
-  "ListItemId": 471,
+  "UdListDefinitionId": 398,
+  "ListItemId": 420,
   "Headings": [
     {
-      "Id": 969,
-      "Name": "Pagac, Jerde and Romaguera",
-      "ToolTip": "Non cumque.",
+      "Id": 601,
+      "Name": "Hamill-Cassin",
+      "ToolTip": "Esse quae labore fugit.",
       "Deleted": false,
-      "Rank": 420,
-      "Type": "non",
-      "ColorBlock": 171,
-      "IconHint": "assumenda",
+      "Rank": 426,
+      "Type": "tempora",
+      "ColorBlock": 320,
+      "IconHint": "aliquam",
       "Selected": false,
-      "LastChanged": "2017-09-13T14:45:05.7094637+02:00",
+      "LastChanged": "2011-07-27T10:17:55.7071691+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "est",
+      "ExtraInfo": "magni",
+      "StyleHint": "a",
       "Hidden": true,
-      "FullName": "Dr. Donato Keshawn Hayes DDS"
+      "FullName": "Althea Nolan"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Rolfson-Rau",
-    "ToolTip": "Eveniet tenetur aliquid deserunt quaerat impedit vitae ea.",
+    "Id": 605,
+    "Name": "Lowe Inc and Sons",
+    "ToolTip": "Voluptates recusandae.",
     "Deleted": false,
-    "Rank": 670,
-    "Type": "et",
-    "ColorBlock": 681,
-    "IconHint": "veritatis",
+    "Rank": 278,
+    "Type": "quia",
+    "ColorBlock": 914,
+    "IconHint": "dicta",
     "Selected": true,
-    "LastChanged": "1999-01-11T14:45:05.7250829+01:00",
+    "LastChanged": "2000-01-14T10:17:55.7071691+01:00",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Daniel Group",
-        "ToolTip": "Ad consectetur voluptas distinctio nesciunt est dolore.",
-        "Deleted": true,
-        "Rank": 203,
-        "Type": "esse",
-        "ColorBlock": 262,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2000-07-05T14:45:05.7250829+02:00",
+        "Id": 922,
+        "Name": "Pfeffer LLC",
+        "ToolTip": "Sed ducimus dignissimos quia sint cumque id.",
+        "Deleted": false,
+        "Rank": 7,
+        "Type": "aperiam",
+        "ColorBlock": 309,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2013-08-29T10:17:55.7071691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "quas",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Minnie Maggio",
+        "FullName": "Mrs. Herminio Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 166
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "nemo",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Mrs. Jenifer Krajcik Jr.",
+    "FullName": "Prof. Reyna Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

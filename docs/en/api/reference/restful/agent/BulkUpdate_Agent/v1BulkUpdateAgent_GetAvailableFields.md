@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "quas",
-    "ValueType": "provident",
-    "Mandatory": false,
-    "EncodedDisplayName": "Krajcik Group",
-    "EncodedDisplayDescription": "Compatible impactful methodology",
-    "IconHint": "doloremque",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "qui",
+    "ValueType": "et",
+    "Mandatory": true,
+    "EncodedDisplayName": "Stamm, Cremin and McCullough",
+    "EncodedDisplayDescription": "Seamless dynamic product",
+    "IconHint": "sunt",
     "ControlInfos": [
       {
-        "Type": "praesentium",
-        "Label": "vero",
-        "Dimension": 639,
-        "ListProviderName": "Schmitt, Douglas and Champlin",
-        "ListProviderExtraInfo": "voluptatem",
-        "ListProviderPrimaryKeyName": "Runolfsdottir Inc and Sons",
-        "ListLeadText": "et",
+        "Type": "qui",
+        "Label": "numquam",
+        "Dimension": 761,
+        "ListProviderName": "Schuster-Wisozk",
+        "ListProviderExtraInfo": "qui",
+        "ListProviderPrimaryKeyName": "Russel-Hahn",
+        "ListLeadText": "reprehenderit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 636
+            "FieldType": "System.String",
+            "FieldLength": 573
           }
         }
       }
     ],
-    "EncodedDataCaption": "placeat",
-    "EncodedDataCaptionDescription": "Function-based explicit product",
-    "CurrentOperationType": "voluptates",
+    "EncodedDataCaption": "architecto",
+    "EncodedDataCaptionDescription": "Cross-platform attitude-oriented budgetary management",
+    "CurrentOperationType": "aliquid",
     "Values": [
-      "dolor",
-      "eaque"
+      "dignissimos",
+      "praesentium"
     ],
     "DisplayValues": [
-      "dolor",
-      "molestiae"
+      "nesciunt",
+      "sint"
     ],
     "OperationInfos": [
       {
-        "Key": "explicabo",
-        "EncodedDisplayName": "Schaefer Group",
+        "Key": "beatae",
+        "EncodedDisplayName": "Hoeger Group",
         "EncodedLeadTexts": [
-          "aut",
-          "suscipit"
+          "ut",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldLength": 300
           }
         }
       },
       {
-        "Key": "explicabo",
-        "EncodedDisplayName": "Schaefer Group",
+        "Key": "beatae",
+        "EncodedDisplayName": "Hoeger Group",
         "EncodedLeadTexts": [
-          "aut",
-          "suscipit"
+          "ut",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldLength": 300
           }
         }
       }

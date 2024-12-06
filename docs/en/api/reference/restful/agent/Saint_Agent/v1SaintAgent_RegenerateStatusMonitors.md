@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Durgan Inc and Sons",
-  "AssociateId": 829,
-  "DetailsTable": 894,
-  "DetailsRecord": 966,
-  "IsSystemTask": false,
+  "Id": 216,
+  "Name": "Mueller-Luettgen",
+  "AssociateId": 226,
+  "DetailsTable": 502,
+  "DetailsRecord": 623,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "corrupti",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "qui",
+    "ParameterObject2": "nesciunt"
   },
-  "LastStarted": "2020-06-25T14:45:06.1156216+02:00",
-  "Created": "2007-09-10T14:45:06.1156216+02:00",
-  "StartCount": 590,
-  "DatabaseSerialNumber": "1076158",
-  "Context": "tempore",
-  "Result": "aut",
+  "LastStarted": "2016-12-19T10:17:55.9728114+01:00",
+  "Created": "2013-04-18T10:17:55.9728114+02:00",
+  "StartCount": 798,
+  "DatabaseSerialNumber": "685081",
+  "Context": "harum",
+  "Result": "perferendis",
   "State": "All",
-  "Description": "Triple-buffered grid-enabled instruction set",
-  "Response": "consequatur",
-  "Request": "dolorem",
-  "ProgressDescription": "Progressive cohesive throughput",
-  "ProgressPercent": 882,
-  "FileName": "Stroman Inc and Sons",
+  "Description": "Profound fault-tolerant parallelism",
+  "Response": "ducimus",
+  "Request": "quis",
+  "ProgressDescription": "Ergonomic 5th generation collaboration",
+  "ProgressPercent": 791,
+  "FileName": "Schowalter, Cummings and Lesch",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldLength": 108
     }
   }
 }

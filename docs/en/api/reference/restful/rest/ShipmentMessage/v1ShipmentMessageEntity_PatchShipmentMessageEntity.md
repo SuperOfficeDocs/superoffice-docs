@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eligendi",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 672,
-  "PlainMessage": "necessitatibus",
-  "HtmlMessage": "numquam",
-  "SmsMessage": "nihil",
-  "Description": "Secured global help-desk",
-  "Subject": "praesentium",
-  "FolderId": 911,
-  "HeaderField": "commodi",
-  "Design": "mollitia",
+  "ShipmentMessageId": 738,
+  "PlainMessage": "illo",
+  "HtmlMessage": "laboriosam",
+  "SmsMessage": "quia",
+  "Description": "Multi-tiered radical standardization",
+  "Subject": "quia",
+  "FolderId": 281,
+  "HeaderField": "eaque",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Universal impactful complexity",
-  "AccessKey": "similique",
-  "DocumentMessage": 668,
-  "Registered": "2002-07-24T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2017-12-26T14:45:13.2555955+01:00",
-  "UpdatedAssociateId": 530,
-  "UpdatedCount": 144,
+  "InlineImages": false,
+  "LongDescription": "Organic secondary Graphical User Interface",
+  "AccessKey": "est",
+  "DocumentMessage": 463,
+  "Registered": "2014-11-22T10:18:00.723098+01:00",
+  "RegisteredAssociateId": 229,
+  "Updated": "2020-07-19T10:18:00.723098+02:00",
+  "UpdatedAssociateId": 118,
+  "UpdatedCount": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   },
   "_Links": {

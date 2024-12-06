@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 923,
-  "Name": "Stark-Considine",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 621,
+  "Id": 805,
+  "Name": "Cole Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 229,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "vero",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Brakus, Lehner and Kerluke",
-  "Tooltip": "amet",
+  "Id": 938,
+  "Name": "Collier LLC",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 318,
-  "IsCustomList": false,
+  "Rank": 641,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 89
     }
   }
 }

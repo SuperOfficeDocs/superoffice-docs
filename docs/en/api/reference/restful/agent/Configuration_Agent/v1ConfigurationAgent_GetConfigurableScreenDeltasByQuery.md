@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 886,
-    "Name": "Schultz-Christiansen",
-    "Description": "Cross-group tangible core",
-    "DeltaJson": "exercitationem",
+    "ConfigurableScreenDeltaId": 141,
+    "Name": "Carter-Howe",
+    "Description": "Profound explicit orchestration",
+    "DeltaJson": "ea",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "rerum",
-    "UpdatedDate": "2008-01-20T14:45:05.0221142+01:00",
-    "CreatedDate": "2010-11-16T14:45:05.0221142+01:00",
+    "RecipeId": "nesciunt",
+    "UpdatedDate": "2021-03-13T10:17:55.2227659+01:00",
+    "CreatedDate": "2014-10-07T10:17:55.2227659+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      884,
-      753
+      731,
+      212
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

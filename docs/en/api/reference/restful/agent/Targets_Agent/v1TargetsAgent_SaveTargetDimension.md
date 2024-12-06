@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 117,
+  "TargetDimensionId": 251,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "deserunt",
-  "DimensionListName": "Bayer-Greenfelder",
-  "DimensionListId": 779,
-  "DimensionListLabel": "est",
+  "DimensionListField": "neque",
+  "DimensionListName": "Bashirian, Steuber and Mills",
+  "DimensionListId": 627,
+  "DimensionListLabel": "cum",
   "SelectedDimensions": [
-    90,
-    985
+    408,
+    328
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 666,
+  "TargetDimensionId": 415,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "tempora",
-  "DimensionListName": "Prohaska, Weimann and Koch",
-  "DimensionListId": 585,
-  "DimensionListLabel": "et",
+  "DimensionListField": "corporis",
+  "DimensionListName": "Rath Inc and Sons",
+  "DimensionListId": 8,
+  "DimensionListLabel": "accusamus",
   "SelectedDimensions": [
-    197,
-    226
+    517,
+    445
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   }
 }

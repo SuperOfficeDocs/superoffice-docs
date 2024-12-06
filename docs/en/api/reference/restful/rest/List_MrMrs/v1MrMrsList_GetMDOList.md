@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=vitae
+GET /api/v1/List/MrMrs/MDOItems?query=enim
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Bayer, Miller and Lubowitz",
-    "ToolTip": "Quis veritatis voluptate eius.",
+    "Id": 949,
+    "Name": "O'Hara Group",
+    "ToolTip": "Sint voluptates iusto culpa fuga optio.",
     "Deleted": false,
-    "Rank": 68,
-    "Type": "animi",
+    "Rank": 8,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Heller Group",
-        "ToolTip": "Temporibus quia maxime ea.",
+        "Id": 357,
+        "Name": "Schulist LLC",
+        "ToolTip": "Porro autem et ut ipsam nam quas dolorem.",
         "Deleted": false,
-        "Rank": 37,
-        "Type": "eius",
+        "Rank": 119,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 94,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "itaque",
-        "FullName": "Jonatan Helmer Von DVM",
+        "IconHint": "tempora",
+        "ColorBlock": 474,
+        "ExtraInfo": "fugit",
+        "StyleHint": "aut",
+        "FullName": "Anastacio Mills PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldType": "System.String",
+            "FieldLength": 936
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 350,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "nostrum",
-    "FullName": "Miss Rahsaan Huel DDS",
+    "IconHint": "accusamus",
+    "ColorBlock": 355,
+    "ExtraInfo": "ea",
+    "StyleHint": "fugiat",
+    "FullName": "Adell Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 524
       }
     }
   }

@@ -95,49 +95,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Effertz Inc and Sons",
-    "Operator": "sint",
+    "Name": "Lueilwitz-Lockman",
+    "Operator": "placeat",
     "Values": [
-      "omnis",
-      "ipsam"
+      "optio",
+      "accusamus"
     ],
     "DisplayValues": [
-      "qui",
-      "qui"
+      "voluptas",
+      "sit"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schowalter-Grady",
-        "Operator": "doloribus",
+        "Name": "Strosin, Haley and Schiller",
+        "Operator": "totam",
         "Values": [
-          "maxime",
-          "autem"
+          "voluptatibus",
+          "eveniet"
         ],
         "DisplayValues": [
-          "magnam",
-          "saepe"
+          "eum",
+          "eveniet"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 43,
+        "InterParenthesis": 343,
         "InterOperator": "And",
-        "UniqueHash": 93
+        "UniqueHash": 230
       }
     ],
-    "InterParenthesis": 631,
+    "InterParenthesis": 419,
     "InterOperator": "And",
-    "UniqueHash": 363
+    "UniqueHash": 741
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rowe, Hamill and Kuhlman",
-    "Operator": "sint",
+    "Name": "Buckridge, Wyman and Farrell",
+    "Operator": "esse",
     "Values": [
-      "deleniti",
-      "tenetur"
+      "quia",
+      "asperiores"
     ],
     "DisplayValues": [
-      "reprehenderit",
-      "sequi"
+      "et",
+      "sit"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Koss-Roob",
-        "Operator": "omnis",
+        "Name": "Franecki-Wolf",
+        "Operator": "natus",
         "Values": [
-          "aut",
-          "eum"
+          "nobis",
+          "harum"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "et",
+          "odit"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 788,
+        "InterParenthesis": 499,
         "InterOperator": "And",
-        "UniqueHash": 669
+        "UniqueHash": 693
       }
     ],
-    "InterParenthesis": 876,
+    "InterParenthesis": 312,
     "InterOperator": "And",
-    "UniqueHash": 349
+    "UniqueHash": 628
   }
 ]
 ```

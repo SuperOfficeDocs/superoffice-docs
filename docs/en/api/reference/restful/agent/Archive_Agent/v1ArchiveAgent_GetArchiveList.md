@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wiegand-Kovacek",
-  "ProviderName": "Schinner Group",
+  "GuiName": "Blick, Marvin and Bechtelar",
+  "ProviderName": "Monahan, Lind and Baumbach",
   "SortOrder": [
     {
-      "Name": "Powlowski-Beatty",
+      "Name": "Wiza, Skiles and Kessler",
       "Direction": "ASC"
     },
     {
-      "Name": "Powlowski-Beatty",
+      "Name": "Wiza, Skiles and Kessler",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Smith LLC",
-      "Operator": "autem",
+      "Name": "Parisian, Littel and Nitzsche",
+      "Operator": "sint",
       "Values": [
-        "deserunt",
-        "labore"
+        "est",
+        "ea"
       ],
       "DisplayValues": [
-        "est",
-        "sequi"
+        "sed",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 202,
+      "InterParenthesis": 338,
       "InterOperator": "And",
-      "UniqueHash": 617
+      "UniqueHash": 314
     }
   ],
   "Entities": [
-    "totam",
-    "sed"
+    "in",
+    "consequatur"
   ],
-  "Page": 601,
-  "PageSize": 648
+  "Page": 423,
+  "PageSize": 925
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bergstrom Inc and Sons",
-    "PrimaryKey": 82,
+    "EntityName": "Stroman-Smith",
+    "PrimaryKey": 679,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatum",
-        "TooltipHint": "quia",
-        "LinkHint": "enim"
+        "DisplayValue": "libero",
+        "TooltipHint": "consequatur",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "facere",
-    "StyleHint": "magnam",
+    "LinkHint": "iste",
+    "StyleHint": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

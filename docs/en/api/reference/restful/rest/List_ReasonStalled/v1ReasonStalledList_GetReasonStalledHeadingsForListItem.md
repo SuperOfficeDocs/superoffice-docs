@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Cormier-Sanford",
-    "ToolTip": "Repudiandae ex beatae hic earum quod.",
-    "Deleted": true,
-    "Rank": 239,
-    "Type": "qui",
-    "ColorBlock": 312,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2008-05-24T14:45:13.9116989+02:00",
+    "Id": 365,
+    "Name": "Paucek Group",
+    "ToolTip": "Cupiditate quae.",
+    "Deleted": false,
+    "Rank": 893,
+    "Type": "at",
+    "ColorBlock": 905,
+    "IconHint": "perferendis",
+    "Selected": true,
+    "LastChanged": "2010-12-17T10:18:01.1450002+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Lebsack, Auer and Wisozk",
-        "ToolTip": "Reprehenderit molestias ipsa.",
-        "Deleted": true,
-        "Rank": 394,
-        "Type": "quos",
-        "ColorBlock": 792,
-        "IconHint": "aliquam",
+        "Id": 399,
+        "Name": "Stanton Group",
+        "ToolTip": "Placeat quaerat molestiae minima quo.",
+        "Deleted": false,
+        "Rank": 364,
+        "Type": "et",
+        "ColorBlock": 32,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-06-27T14:45:13.9116989+02:00",
+        "LastChanged": "2017-06-14T10:18:01.1606262+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "cum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Stephon Reichert III",
+        "FullName": "Violet Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldType": "System.Int32",
+            "FieldLength": 229
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nam",
+    "ExtraInfo": "officiis",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Walton Orn",
+    "FullName": "Miss Arjun Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 415
       }
     }
   }

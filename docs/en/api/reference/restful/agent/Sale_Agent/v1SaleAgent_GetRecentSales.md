@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 845,
-  "Count": 562
+  "AmountLimit": 278,
+  "Count": 279
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Collier, Abshire and Bogisich",
-    "SaleDate": "2010-01-08T14:45:06.1781213+01:00",
-    "SaleId": 651,
-    "Probability": 585,
-    "Title": "repellendus",
-    "Amount": 17823.058,
-    "Currency": "est",
-    "ProjectName": "Stokes Inc and Sons",
-    "AssociateFullName": "Mr. Coby Bruen",
-    "Description": "Realigned context-sensitive emulation",
+    "ContactName": "Simonis-Cruickshank",
+    "SaleDate": "2010-12-21T10:17:56.0040633+01:00",
+    "SaleId": 666,
+    "Probability": 895,
+    "Title": "pariatur",
+    "Amount": 22060.226,
+    "Currency": "dolores",
+    "ProjectName": "Emmerich-Rempel",
+    "AssociateFullName": "Katlynn Kohler",
+    "Description": "Robust systemic migration",
     "Status": "Lost",
-    "WeightedAmount": 13639.168,
-    "ProjectId": 340,
-    "EarningPercent": 2272.15,
-    "Earning": 20668.73,
-    "ContactId": 841,
-    "AssociateId": 191,
-    "PersonId": 286,
-    "SaleTypeId": 434,
-    "SaleTypeName": "Murray-Boyle",
-    "PersonFullName": "Miss Thalia Louisa Wunsch",
+    "WeightedAmount": 15152.89,
+    "ProjectId": 118,
+    "EarningPercent": 12376.166,
+    "Earning": 9188.887999999999,
+    "ContactId": 865,
+    "AssociateId": 792,
+    "PersonId": 752,
+    "SaleTypeId": 615,
+    "SaleTypeName": "Bogisich-Stracke",
+    "PersonFullName": "Glenda Veum",
     "Completed": "Completed",
-    "ActiveErpLinks": 935,
-    "NextDueDate": "2013-07-18T14:45:06.1781213+02:00",
-    "Number": "1478083",
+    "ActiveErpLinks": 69,
+    "NextDueDate": "2021-12-07T10:17:56.0040633+01:00",
+    "Number": "1505477",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 747
       }
     }
   }

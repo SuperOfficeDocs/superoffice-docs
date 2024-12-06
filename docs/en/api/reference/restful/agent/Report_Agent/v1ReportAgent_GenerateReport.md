@@ -77,22 +77,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 90,
-  "LabelLayoutId": 104,
-  "Filename": "occaecati",
-  "Language": "praesentium",
-  "FileType": "eveniet",
+  "ReportId": 309,
+  "LabelLayoutId": 728,
+  "Filename": "odit",
+  "Language": "similique",
+  "FileType": "optio",
   "Restrictions": [
     {
-      "Name": "Russel-Harber",
-      "Operator": "animi",
+      "Name": "Wehner, Daugherty and Hackett",
+      "Operator": "facilis",
       "Values": [
-        "ullam",
-        "ducimus"
+        "et",
+        "qui"
       ],
       "DisplayValues": [
-        "nam",
-        "perspiciatis"
+        "sunt",
+        "repudiandae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 217,
+      "InterParenthesis": 708,
       "InterOperator": "And",
-      "UniqueHash": 924
+      "UniqueHash": 900
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quibusdam"
+"soluta"
 ```

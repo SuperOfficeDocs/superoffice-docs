@@ -31,6 +31,8 @@ Email account information
 |encryptedCheck|Encrypted hash checksum|String(254)| |
 |error\_count|How many failures since reset|Int|&#x25CF;|
 |error\_reason|Reason for last failure if available|String(254)| |
+|simple\_mode|Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.|Bool|&#x25CF;|
+|last\_fetch|When we last fetched email.|UtcDateTime|&#x25CF;|
 
 
 ![email_account table relationship diagram](./media/email_account.png)

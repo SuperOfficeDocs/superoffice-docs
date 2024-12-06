@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 898,
+  "HierarchyId": 715,
   "Domain": "Dashboards",
-  "Name": "Keebler, Cremin and Thiel",
-  "Fullname": "id",
-  "ParentId": 734,
+  "Name": "Kub-Stiedemann",
+  "Fullname": "nulla",
+  "ParentId": 649,
   "Children": [
     {
-      "HierarchyId": 136,
+      "HierarchyId": 291,
       "Domain": "Dashboards",
-      "Name": "Bradtke LLC",
-      "Fullname": "id",
-      "ParentId": 172,
+      "Name": "Hyatt-Little",
+      "Fullname": "perferendis",
+      "ParentId": 365,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-02-22T14:45:12.8338163+01:00",
-      "RegisteredAssociateId": 355,
-      "Updated": "2017-05-15T14:45:12.8338163+02:00",
-      "UpdatedAssociateId": 608,
+      "Registered": "2017-05-07T10:18:00.4262067+02:00",
+      "RegisteredAssociateId": 410,
+      "Updated": "2023-05-03T10:18:00.4262067+02:00",
+      "UpdatedAssociateId": 64,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 913
         }
       }
     }
   ],
-  "Registered": "2008-10-10T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2004-02-05T14:45:12.8338163+01:00",
-  "UpdatedAssociateId": 150,
+  "Registered": "2015-06-08T10:18:00.4262067+02:00",
+  "RegisteredAssociateId": 163,
+  "Updated": "2021-07-12T10:18:00.4262067+02:00",
+  "UpdatedAssociateId": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 502
     }
   }
 }

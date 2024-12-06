@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 93,
+  "EjMessageId": 519,
   "Ticket": null,
-  "CreatedAt": "2024-06-17T14:45:13.3649466+02:00",
+  "CreatedAt": "2024-03-02T10:18:00.8012286+01:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "excepturi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iure",
-  "TimeSpent": 603,
-  "Body": "quidem",
-  "HtmlBody": "sint",
-  "EmailHeader": "mohammed.runolfsson@kundevon.com",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "et",
+  "MessageId": "corporis",
+  "TimeSpent": 266,
+  "Body": "aut",
+  "HtmlBody": "sunt",
+  "EmailHeader": "jarod@casper.biz",
+  "DebugInfo": "debitis",
+  "MailSorter": "aliquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "id",
+  "SearchTitle": "officiis",
   "MessageHeaders": [
     {
-      "Id": 648,
-      "Name": "Wuckert-Mosciski",
-      "Value": "aperiam",
+      "Id": 56,
+      "Name": "Purdy, Bins and Blanda",
+      "Value": "quo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 647
         }
       }
     }
   ],
   "Important": true,
-  "Language": "eum",
-  "Sentiment": 921,
-  "SentimentConfidence": 889,
+  "Language": "id",
+  "Sentiment": 671,
+  "SentimentConfidence": 34,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 694,
-      "Name": "Durgan LLC",
-      "ContentType": "occaecati",
-      "AttSize": 26,
+      "AttachmentId": 276,
+      "Name": "Cronin-Smitham",
+      "ContentType": "quis",
+      "AttSize": 281,
       "InlineImage": false,
-      "ContentId": "repellat",
-      "AuthKey": "voluptatum",
-      "IsSafeFileExtension": true,
+      "ContentId": "corporis",
+      "AuthKey": "libero",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "est"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "omnis",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 891
     }
   }
 }

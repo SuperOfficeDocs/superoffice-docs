@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schneider-Kautzer",
+  "TableName": "Smith-Walsh",
   "RecordIds": [
-    512,
-    212
+    812,
+    615
   ],
-  "AssociateId": 808,
-  "ExtraInfo": "est"
+  "AssociateId": 971,
+  "ExtraInfo": "ad"
 }
 ```
 

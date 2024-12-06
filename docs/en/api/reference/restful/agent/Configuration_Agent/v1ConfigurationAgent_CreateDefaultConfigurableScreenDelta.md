@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 961,
-  "Name": "Jacobs, Langworth and Goyette",
-  "Description": "Visionary bifurcated infrastructure",
-  "DeltaJson": "repudiandae",
+  "ConfigurableScreenDeltaId": 140,
+  "Name": "Grimes-Schamberger",
+  "Description": "Customer-focused secondary data-warehouse",
+  "DeltaJson": "quis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptas",
-  "UpdatedDate": "2021-12-20T14:45:05.0221142+01:00",
-  "CreatedDate": "2020-12-02T14:45:05.0221142+01:00",
+  "RecipeId": "at",
+  "UpdatedDate": "2002-10-03T10:17:55.2227659+02:00",
+  "CreatedDate": "2017-02-10T10:17:55.2227659+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    479,
-    247
+    373,
+    860
   ],
-  "AppliesToKey": "quas",
+  "AppliesToKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 573
     }
   }
 }

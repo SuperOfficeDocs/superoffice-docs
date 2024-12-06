@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Pagac, Osinski and McLaughlin",
-    "ToolTip": "Consequuntur error architecto dolores tempore mollitia nisi dolorum.",
-    "Deleted": false,
-    "Rank": 464,
-    "Type": "maiores",
-    "ColorBlock": 684,
-    "IconHint": "quo",
+    "Id": 907,
+    "Name": "Schmitt Group",
+    "ToolTip": "Sapiente sit reiciendis dolor.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "alias",
+    "ColorBlock": 20,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2022-08-20T14:45:13.6148917+02:00",
+    "LastChanged": "2010-10-17T10:18:00.9574888+02:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "White Group",
-        "ToolTip": "Voluptates aut sint aut sunt.",
-        "Deleted": false,
-        "Rank": 695,
-        "Type": "corrupti",
-        "ColorBlock": 596,
-        "IconHint": "dignissimos",
-        "Selected": true,
-        "LastChanged": "2000-11-05T14:45:13.6148917+01:00",
+        "Id": 92,
+        "Name": "Hettinger LLC",
+        "ToolTip": "Et in et.",
+        "Deleted": true,
+        "Rank": 278,
+        "Type": "autem",
+        "ColorBlock": 966,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2024-05-07T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "saepe",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Leopold Predovic"
+        "FullName": "Else Kunde"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "ut",
+    "ExtraInfo": "molestias",
+    "StyleHint": "facilis",
     "Hidden": true,
-    "FullName": "Hermann Paucek"
+    "FullName": "Prof. Glenda Moore"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Weimann LLC",
-    "ToolTip": "Iure dolorem tempore sit enim qui pariatur saepe.",
+    "Id": 337,
+    "Name": "Blanda-Streich",
+    "ToolTip": "Voluptate dolorem laborum praesentium et.",
     "Deleted": false,
-    "Rank": 258,
-    "Type": "autem",
-    "ColorBlock": 617,
-    "IconHint": "nam",
+    "Rank": 616,
+    "Type": "eligendi",
+    "ColorBlock": 772,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2002-04-12T14:45:13.6148917+02:00",
+    "LastChanged": "1999-08-05T10:18:00.9574888+02:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Jaskolski, Hagenes and Collins",
-        "ToolTip": "Quod ullam et sint.",
+        "Id": 236,
+        "Name": "Schoen-Will",
+        "ToolTip": "Asperiores ab non odit ut error odio.",
         "Deleted": false,
-        "Rank": 836,
-        "Type": "quae",
-        "ColorBlock": 786,
-        "IconHint": "soluta",
+        "Rank": 466,
+        "Type": "fugiat",
+        "ColorBlock": 203,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2024-01-21T14:45:13.6148917+01:00",
+        "LastChanged": "2002-04-25T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "vel",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Dr. Prince Auer",
+        "FullName": "Gino Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Cody Connelly I",
+    "ExtraInfo": "aut",
+    "StyleHint": "doloremque",
+    "Hidden": true,
+    "FullName": "Sigmund Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldType": "System.Int32",
+        "FieldLength": 148
       }
     }
   }

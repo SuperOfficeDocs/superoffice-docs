@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 65,
+  "PersonId": 541,
   "IncludeProjectDocuments": false,
-  "StartTime": "2001-08-28T14:45:05.225194+02:00",
-  "EndTime": "2015-01-10T14:45:05.225194+01:00",
-  "Count": 671
+  "StartTime": "2021-09-10T10:17:55.3477735+02:00",
+  "EndTime": "2007-05-19T10:17:55.3477735+02:00",
+  "Count": 131
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 929,
-    "Attention": "sed",
-    "Header": "odit",
-    "Name": "Koepp Group",
-    "OurRef": "id",
-    "YourRef": "blanditiis",
-    "Description": "Profit-focused zero tolerance success",
+    "DocumentId": 98,
+    "Attention": "ab",
+    "Header": "est",
+    "Name": "Trantow LLC",
+    "OurRef": "molestiae",
+    "YourRef": "ad",
+    "Description": "Sharable actuating model",
     "DocumentTemplate": "quia",
     "IsPublished": false,
-    "PersonId": 370,
-    "PersonFullName": "Reymundo Block",
-    "AssociateFullName": "Miss Viva Turner Leannon",
-    "ContactId": 200,
-    "ContactName": "Ortiz, Muller and Larson",
-    "ProjectId": 802,
-    "ProjectName": "Gottlieb-Lemke",
-    "AssociateId": 195,
-    "Snum": 892,
-    "SaleId": 220,
-    "SaleName": "O'Keefe Inc and Sons",
+    "PersonId": 39,
+    "PersonFullName": "Mr. Ewell Gerhold",
+    "AssociateFullName": "Isadore Wiegand",
+    "ContactId": 214,
+    "ContactName": "Wolff-Walsh",
+    "ProjectId": 901,
+    "ProjectName": "Lebsack-Gleason",
+    "AssociateId": 849,
+    "Snum": 438,
+    "SaleId": 752,
+    "SaleName": "Collins-Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldType": "System.String",
+        "FieldLength": 677
       }
     }
   }

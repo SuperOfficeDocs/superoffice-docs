@@ -88,9 +88,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 255,
-  "Name": "Koepp Inc and Sons",
-  "Description": "Switchable needs-based artificial intelligence"
+  "SourceId": 745,
+  "Name": "Bahringer Group",
+  "Description": "Universal intangible monitoring"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 911,
+  "ReportId": 26,
   "ReportCategory": "All",
-  "Description": "Sharable 6th generation methodology",
+  "Description": "Public-key context-sensitive orchestration",
   "ReportLayout": "CalendarMonth",
-  "Name": "Grimes, DuBuque and Schmitt",
-  "AssociateId": 394,
-  "TemplateId": 788,
-  "Published": false,
+  "Name": "Bergstrom Inc and Sons",
+  "AssociateId": 320,
+  "TemplateId": 75,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

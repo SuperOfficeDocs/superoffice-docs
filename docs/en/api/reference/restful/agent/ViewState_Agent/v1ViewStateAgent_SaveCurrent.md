@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 72,
-  "Id": 670,
-  "HistoryName": "Koch Group",
-  "HistoryId": 929,
-  "AssociateId": 487,
-  "Name": "Witting, Corkery and Flatley",
-  "ItemInfo": "non",
+  "Rank": 925,
+  "Id": 416,
+  "HistoryName": "Haag Group",
+  "HistoryId": 132,
+  "AssociateId": 828,
+  "Name": "Will-Klein",
+  "ItemInfo": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 946
     }
   }
 }

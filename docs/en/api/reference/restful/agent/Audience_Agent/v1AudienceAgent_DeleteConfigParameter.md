@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Armstrong-Bartoletti",
-  "ParameterName": "Frami, Jacobi and Osinski"
+  "LayoutName": "Bins Group",
+  "ParameterName": "Koss Inc and Sons"
 }
 ```
 

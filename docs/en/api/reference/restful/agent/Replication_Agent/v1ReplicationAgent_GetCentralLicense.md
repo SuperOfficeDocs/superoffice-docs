@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque-Bernier",
-    "Description": "Networked tertiary project",
+    "Name": "Blanda, Emmerich and McClure",
+    "Description": "Down-sized radical neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 587,
-        "Tooltip": "corrupti",
+        "Total": 1000,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 960,
-        "InUse": 245,
-        "IsHidden": true,
+        "Free": 189,
+        "InUse": 872,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 96,
-        "Name": "Kshlerin, Ferry and Volkman",
-        "Description": "Distributed interactive alliance",
-        "PrerequisiteModuleName": "Doyle-Feil",
-        "SortOrder": 371,
-        "ExtraFlags": 324,
+        "ModuleLicenseId": 156,
+        "Name": "Berge Group",
+        "Description": "Virtual even-keeled focus group",
+        "PrerequisiteModuleName": "Little-Treutel",
+        "SortOrder": 521,
+        "ExtraFlags": 182,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 819
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 481,
-        "Tooltip": "laudantium",
-        "CanAssign": true,
-        "Free": 713,
-        "InUse": 377,
+        "Unrestricted": true,
+        "Total": 844,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 866,
+        "InUse": 96,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 985,
-        "Name": "Larkin-Howe",
-        "Description": "Down-sized needs-based capability",
-        "PrerequisiteModuleName": "Gutmann-Zemlak",
-        "SortOrder": 616,
-        "ExtraFlags": 512,
+        "ModuleLicenseId": 529,
+        "Name": "Carroll-Koelpin",
+        "Description": "Fully-configurable client-driven open architecture",
+        "PrerequisiteModuleName": "Wisoky-Altenwerth",
+        "SortOrder": 255,
+        "ExtraFlags": 613,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 101
+            "FieldType": "System.Int32",
+            "FieldLength": 892
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 372
       }
     }
   },
   {
-    "Name": "DuBuque-Bernier",
-    "Description": "Networked tertiary project",
+    "Name": "Blanda, Emmerich and McClure",
+    "Description": "Down-sized radical neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 587,
-        "Tooltip": "corrupti",
+        "Total": 1000,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 960,
-        "InUse": 245,
-        "IsHidden": true,
+        "Free": 189,
+        "InUse": 872,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 96,
-        "Name": "Kshlerin, Ferry and Volkman",
-        "Description": "Distributed interactive alliance",
-        "PrerequisiteModuleName": "Doyle-Feil",
-        "SortOrder": 371,
-        "ExtraFlags": 324,
+        "ModuleLicenseId": 156,
+        "Name": "Berge Group",
+        "Description": "Virtual even-keeled focus group",
+        "PrerequisiteModuleName": "Little-Treutel",
+        "SortOrder": 521,
+        "ExtraFlags": 182,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 819
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 481,
-        "Tooltip": "laudantium",
-        "CanAssign": true,
-        "Free": 713,
-        "InUse": 377,
+        "Unrestricted": true,
+        "Total": 844,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 866,
+        "InUse": 96,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 985,
-        "Name": "Larkin-Howe",
-        "Description": "Down-sized needs-based capability",
-        "PrerequisiteModuleName": "Gutmann-Zemlak",
-        "SortOrder": 616,
-        "ExtraFlags": 512,
+        "ModuleLicenseId": 529,
+        "Name": "Carroll-Koelpin",
+        "Description": "Fully-configurable client-driven open architecture",
+        "PrerequisiteModuleName": "Wisoky-Altenwerth",
+        "SortOrder": 255,
+        "ExtraFlags": 613,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 101
+            "FieldType": "System.Int32",
+            "FieldLength": 892
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 372
       }
     }
   }

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 107,
+  "QuoteVersionId": 366,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 257
+  "CountryId": 94
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 12366.764,
-  "Wgs84Longitude": 786.634,
+  "Wgs84Latitude": 25585.976,
+  "Wgs84Longitude": 8878.622,
   "LocalizedAddress": [
     [
       {
-        "Name": "Rolfson, Terry and Hyatt",
-        "Value": "pariatur",
-        "Tooltip": "mollitia",
-        "Label": "non",
-        "ValueLength": 489,
-        "AddressType": "laboriosam",
+        "Name": "Beer-Lebsack",
+        "Value": "facilis",
+        "Tooltip": "molestiae",
+        "Label": "et",
+        "ValueLength": 257,
+        "AddressType": "corporis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldLength": 7
           }
         }
       }
     ],
     [
       {
-        "Name": "Walker Group",
-        "Value": "quae",
-        "Tooltip": "deserunt",
-        "Label": "pariatur",
-        "ValueLength": 79,
-        "AddressType": "porro",
+        "Name": "Lindgren Group",
+        "Value": "et",
+        "Tooltip": "eligendi",
+        "Label": "numquam",
+        "ValueLength": 998,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldLength": 469
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "explicabo",
+  "Formatted": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

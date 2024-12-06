@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    637,
-    174
+    880,
+    951
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 547,
-    "Attention": "nam",
-    "Header": "sint",
-    "Name": "Herman-Botsford",
-    "OurRef": "impedit",
-    "YourRef": "ad",
-    "Description": "Right-sized actuating archive",
-    "DocumentTemplate": "doloribus",
+    "DocumentId": 403,
+    "Attention": "enim",
+    "Header": "earum",
+    "Name": "Flatley Group",
+    "OurRef": "earum",
+    "YourRef": "tenetur",
+    "Description": "Operative bottom-line data-warehouse",
+    "DocumentTemplate": "dignissimos",
     "IsPublished": false,
-    "PersonId": 382,
-    "PersonFullName": "Joanie Bins",
-    "AssociateFullName": "Mr. Cleta Stroman",
-    "ContactId": 263,
-    "ContactName": "Volkman, Kuvalis and Baumbach",
-    "ProjectId": 937,
-    "ProjectName": "Brekke Inc and Sons",
-    "AssociateId": 344,
-    "Snum": 100,
-    "SaleId": 664,
-    "SaleName": "Gibson, Buckridge and Tromp",
+    "PersonId": 514,
+    "PersonFullName": "Bart Grady",
+    "AssociateFullName": "Miss Brennon Runolfsdottir",
+    "ContactId": 677,
+    "ContactName": "Tremblay Group",
+    "ProjectId": 100,
+    "ProjectName": "Ryan, Crist and Bruen",
+    "AssociateId": 707,
+    "Snum": 124,
+    "SaleId": 7,
+    "SaleName": "Green-Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldLength": 94
       }
     }
   }

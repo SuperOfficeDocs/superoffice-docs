@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682
+  "DocumentId": 941
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 373,
-  "Name": "Hoeger, Becker and Kuhlman"
+  "AssociateId": 27,
+  "Name": "D'Amore-Morissette"
 }
 ```

@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 28,
-  "TopicId": 866,
+  "ChatSessionId": 887,
+  "TopicId": 786,
   "User": null,
   "Person": null,
-  "CustomerAlias": "placeat",
-  "CustomerHost": "sunt",
-  "CustomerName": "Hirthe LLC",
-  "CustomerEmail": "dee_jast@hartmannschinner.com",
-  "CustomerPhone": "(583)454-9777 x98243",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kemmer, Luettgen and Johnson",
+  "CustomerAlias": "iste",
+  "CustomerHost": "nostrum",
+  "CustomerName": "Mayer, Huels and Monahan",
+  "CustomerEmail": "vanessa.kohler@oberbrunner.info",
+  "CustomerPhone": "1-254-819-4875 x640",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Lueilwitz, Bernier and Schaefer",
   "Status": "Closed",
-  "FirstMessage": "quis",
-  "LastMessage": "vel",
-  "WhenRequested": "2020-06-23T14:45:12.5057625+02:00",
-  "WhenStarted": "2016-08-14T14:45:12.5057625+02:00",
-  "WhenEnded": "2008-04-30T14:45:12.5057625+02:00",
-  "WhenIdle": "2004-04-30T14:45:12.5057625+02:00",
-  "WhenFetched": "2004-02-05T14:45:12.5057625+01:00",
-  "SessionKey": "nulla",
-  "InitialQueuePos": 2,
-  "AlertLevel": 996,
-  "Rank": 679,
+  "FirstMessage": "et",
+  "LastMessage": "qui",
+  "WhenRequested": "2008-04-08T10:18:00.1918158+02:00",
+  "WhenStarted": "2008-01-14T10:18:00.1918158+01:00",
+  "WhenEnded": "2024-05-23T10:18:00.1918158+02:00",
+  "WhenIdle": "2023-03-22T10:18:00.1918158+01:00",
+  "WhenFetched": "2022-08-06T10:18:00.1918158+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 757,
+  "AlertLevel": 266,
+  "Rank": 397,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 717,
+  "Rating": 443,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 845
     }
   },
   "_Links": {

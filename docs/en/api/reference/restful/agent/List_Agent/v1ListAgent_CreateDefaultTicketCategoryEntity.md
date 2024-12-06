@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 41,
-  "ParentId": 678,
-  "Name": "Mayer Inc and Sons",
-  "Fullname": "possimus",
-  "CategoryMaster": 403,
+  "TicketCategoryId": 528,
+  "ParentId": 856,
+  "Name": "Prohaska Group",
+  "Fullname": "delectus",
+  "CategoryMaster": 17,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kreiger Inc and Sons",
+  "ExternalName": "Shields, Hand and Spencer",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 340,
-  "ReplyTemplate": 44,
-  "NotificationEmail": "aurelio_schroeder@schneider.info",
+  "AssignmentLag": 667,
+  "ReplyTemplate": 180,
+  "NotificationEmail": "maymie@vonrueden.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 755,
+  "EffectiveReplyTemplateId": 773,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "est"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "eaque",
+    "CustomFields2": "nisi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 106
     }
   }
 }

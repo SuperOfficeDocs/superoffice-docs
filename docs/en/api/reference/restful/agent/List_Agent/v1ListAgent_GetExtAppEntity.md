@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=579
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=53
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 399,
-  "Name": "Fisher, Torp and Considine",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 963,
-  "Filename": "eos",
-  "Parameters": "accusantium",
-  "Workdir": "est",
+  "ExtAppId": 657,
+  "Name": "Wisoky, Wolf and Leuschke",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 680,
+  "Filename": "eaque",
+  "Parameters": "aliquid",
+  "Workdir": "suscipit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 65,
+  "Icon": 72,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "pariatur",
+  "Path": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 549
     }
   }
 }

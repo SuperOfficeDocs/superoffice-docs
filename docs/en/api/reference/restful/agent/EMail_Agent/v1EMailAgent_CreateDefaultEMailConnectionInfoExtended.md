@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 648,
-  "ServerName": "Heathcote LLC",
-  "Protocol": "qui",
-  "UserName": "Harris LLC",
-  "Password": "voluptatem",
+  "Port": 838,
+  "ServerName": "Mosciski, Auer and Kulas",
+  "Protocol": "pariatur",
+  "UserName": "Kemmer Inc and Sons",
+  "Password": "et",
   "UseSSL": true,
-  "Folder": "cupiditate",
+  "Folder": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 242
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 508,
-  "CurrencyId": 67
+  "QuoteConnectionId": 335,
+  "CurrencyId": 505
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 550,
-    "ERPPriceListKey": "facere",
-    "QuoteConnectionId": 558,
-    "Name": "Littel, Kuhic and Paucek",
-    "Description": "Organized optimizing functionalities",
-    "Currency": "deserunt",
-    "CurrencyName": "Zulauf, Ruecker and McLaughlin",
-    "ValidFrom": "2008-04-23T14:45:06.0687573+02:00",
-    "ValidTo": "2011-07-28T14:45:06.0687573+02:00",
-    "IsActive": false,
+    "PriceListId": 62,
+    "ERPPriceListKey": "dolor",
+    "QuoteConnectionId": 670,
+    "Name": "O'Reilly-Block",
+    "Description": "Organized dynamic pricing structure",
+    "Currency": "tenetur",
+    "CurrencyName": "Dickinson Group",
+    "ValidFrom": "1999-04-07T10:17:55.9415595+02:00",
+    "ValidTo": "2004-09-17T10:17:55.9415595+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 709
       }
     }
   }

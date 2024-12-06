@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 572,
-      "UniqueId": "eum",
-      "Name": "DuBuque Inc and Sons",
-      "Description": "Vision-oriented secondary budgetary management",
-      "AssociateId": 642,
-      "Columns": 850,
+      "DashboardId": 71,
+      "UniqueId": "nesciunt",
+      "Name": "Koelpin-Beer",
+      "Description": "Sharable neutral budgetary management",
+      "AssociateId": 530,
+      "Columns": 963,
       "Theme": null,
-      "VisibleForAll": 837,
+      "VisibleForAll": 207,
       "VisibleForAssociates": [
-        756,
-        649
+        260,
+        32
       ],
       "VisibleForGroups": [
-        121,
-        218
+        628,
+        680
       ],
-      "PinForAll": 932,
+      "PinForAll": 827,
       "PinForAssociates": [
-        620,
-        612
+        99,
+        101
       ],
       "PinForGroups": [
-        161,
-        554
+        379,
+        404
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 880
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 649,
-      "UniqueId": "rem",
-      "Name": "Durgan LLC",
-      "Description": "Face to face coherent knowledge user",
-      "AssociateId": 419,
-      "Columns": 931,
+      "DashboardId": 980,
+      "UniqueId": "nulla",
+      "Name": "Walker Group",
+      "Description": "Organic zero administration info-mediaries",
+      "AssociateId": 149,
+      "Columns": 311,
       "Theme": null,
-      "VisibleForAll": 513,
+      "VisibleForAll": 308,
       "VisibleForAssociates": [
-        714,
-        458
+        689,
+        26
       ],
       "VisibleForGroups": [
-        980,
-        769
+        968,
+        980
       ],
-      "PinForAll": 778,
+      "PinForAll": 198,
       "PinForAssociates": [
-        598,
-        69
+        61,
+        132
       ],
       "PinForGroups": [
-        869,
-        887
+        915,
+        944
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 637
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 722,
-      "UniqueId": "impedit",
-      "Name": "Gorczany, Hayes and Wunsch",
-      "Description": "Enterprise-wide next generation ability",
-      "AssociateId": 137,
-      "Columns": 573,
+      "DashboardId": 134,
+      "UniqueId": "magnam",
+      "Name": "Jerde Group",
+      "Description": "Triple-buffered context-sensitive policy",
+      "AssociateId": 888,
+      "Columns": 884,
       "Theme": null,
-      "VisibleForAll": 852,
+      "VisibleForAll": 379,
       "VisibleForAssociates": [
-        216,
-        271
+        282,
+        174
       ],
       "VisibleForGroups": [
-        193,
-        175
+        268,
+        582
       ],
-      "PinForAll": 944,
+      "PinForAll": 816,
       "PinForAssociates": [
-        705,
-        548
+        188,
+        17
       ],
       "PinForGroups": [
-        801,
-        787
+        156,
+        368
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldLength": 177
     }
   }
 }

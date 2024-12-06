@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Padberg, Durgan and Mann",
-    "ToolTip": "Cum facere architecto quia ut recusandae aliquid.",
+    "Id": 887,
+    "Name": "Kohler, Bosco and Lesch",
+    "ToolTip": "Nihil dolor molestiae aut esse saepe magni ad.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "aut",
-    "ColorBlock": 717,
-    "IconHint": "similique",
+    "Rank": 884,
+    "Type": "voluptas",
+    "ColorBlock": 893,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "2019-03-04T14:45:13.6617546+01:00",
+    "LastChanged": "2001-05-13T10:18:00.9887407+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Bruen LLC",
-        "ToolTip": "Eum dolores laudantium error rerum.",
+        "Id": 720,
+        "Name": "Lebsack, McKenzie and Welch",
+        "ToolTip": "Blanditiis suscipit.",
         "Deleted": false,
-        "Rank": 578,
-        "Type": "molestiae",
-        "ColorBlock": 108,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2007-02-01T14:45:13.6617546+01:00",
+        "Rank": 972,
+        "Type": "recusandae",
+        "ColorBlock": 554,
+        "IconHint": "illo",
+        "Selected": true,
+        "LastChanged": "2016-03-02T10:18:00.9887407+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Miss Mallie Wuckert Jr.",
+        "ExtraInfo": "earum",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Adam Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Alfonso Collins DVM",
+    "ExtraInfo": "omnis",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Patricia Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldType": "System.Int32",
+        "FieldLength": 53
       }
     }
   }

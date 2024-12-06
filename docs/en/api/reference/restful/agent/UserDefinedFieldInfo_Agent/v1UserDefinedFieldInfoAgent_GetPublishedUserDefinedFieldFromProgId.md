@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quia",
+  "ProgId": "nam",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 114,
-  "ColumnId": 972,
-  "FieldDefault": "soluta",
-  "FieldHeight": 463,
-  "FieldLabel": "aut",
-  "FieldLeft": 640,
-  "FieldTop": 856,
+  "UDefFieldId": 853,
+  "ColumnId": 583,
+  "FieldDefault": "aut",
+  "FieldHeight": 646,
+  "FieldLabel": "et",
+  "FieldLeft": 638,
+  "FieldTop": 193,
   "FieldType": "Checkbox",
-  "FieldWidth": 494,
-  "FormatMask": "et",
+  "FieldWidth": 748,
+  "FormatMask": "nulla",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 2,
-  "LabelLeft": 151,
-  "LabelTop": 271,
-  "LabelWidth": 879,
-  "LastVersionId": 573,
-  "ListTableId": 491,
+  "LabelHeight": 795,
+  "LabelLeft": 379,
+  "LabelTop": 532,
+  "LabelWidth": 61,
+  "LastVersionId": 374,
+  "ListTableId": 609,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 121,
-  "ProgId": "qui",
-  "IsReadOnly": false,
-  "ShortLabel": "veritatis",
-  "TabOrder": 820,
-  "TextLength": 830,
-  "Tooltip": "in",
-  "UdefIdentity": 687,
-  "UDListDefinitionId": 433,
+  "Page1LineNo": 884,
+  "ProgId": "illo",
+  "IsReadOnly": true,
+  "ShortLabel": "ea",
+  "TabOrder": 568,
+  "TextLength": 456,
+  "Tooltip": "eum",
+  "UdefIdentity": 747,
+  "UDListDefinitionId": 602,
   "Justification": "Center",
-  "Version": 99,
-  "TemplateVariableName": "Schmitt-Borer",
+  "Version": 667,
+  "TemplateVariableName": "Bogan, Gulgowski and Friesen",
   "HasBeenPublished": false,
-  "MdoListName": "Cassin LLC",
+  "MdoListName": "Breitenberg Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 910
     }
   }
 }

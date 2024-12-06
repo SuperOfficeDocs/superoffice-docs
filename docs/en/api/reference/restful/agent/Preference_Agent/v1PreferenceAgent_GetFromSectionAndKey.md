@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "dolores",
-  "Key": "maxime"
+  "Section": "quibusdam",
+  "Key": "eligendi"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 533,
-  "Section": "nam",
-  "Key": "aut",
-  "Name": "Kertzmann, Aufderhar and Emmerich",
+  "PrefDescId": 106,
+  "Section": "voluptas",
+  "Key": "earum",
+  "Name": "Wiza Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Configurable scalable installation",
-  "IsBuiltin": false,
-  "TableName": "Mraz-Kovacek",
-  "UserDefinedListId": 880,
-  "Rank": 945,
-  "SubGroup": "sed",
-  "MinLevel": 833,
-  "MaxValue": 462,
-  "MinValue": 155,
-  "RequiredLicense": "veritatis",
+  "Description": "Inverse attitude-oriented moratorium",
+  "IsBuiltin": true,
+  "TableName": "Buckridge Group",
+  "UserDefinedListId": 429,
+  "Rank": 450,
+  "SubGroup": "dolorum",
+  "MinLevel": 596,
+  "MaxValue": 103,
+  "MinValue": 51,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

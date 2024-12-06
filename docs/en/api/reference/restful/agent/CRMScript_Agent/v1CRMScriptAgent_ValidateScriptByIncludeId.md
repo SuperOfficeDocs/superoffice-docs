@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByIncludeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "dicta"
+  "CRMScriptIncludeId": "consectetur"
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "atque",
-  "LineNumber": 185,
+  "Valid": true,
+  "ErrorMessage": "qui",
+  "LineNumber": 527,
   "ErrorInformation": null,
-  "Transpiled": "adipisci",
+  "Transpiled": "cupiditate",
   "Includes": [
-    778,
-    400
+    913,
+    405
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 61,
-      "LineNumberTo": 20,
-      "Delta": 49,
-      "IncludeId": "delectus",
+      "LineNumberFrom": 572,
+      "LineNumberTo": 911,
+      "Delta": 244,
+      "IncludeId": "quis",
       "IncludedFrom": [
-        "nam",
-        "est"
+        "delectus",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 374
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 627
     }
   }
 }

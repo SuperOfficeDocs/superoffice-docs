@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hane Group",
+  "Name": "Gerhold, Von and Reilly",
   "ForceFlatList": false,
-  "AdditionalInfo": "aliquam",
+  "AdditionalInfo": "eos",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Leffler Group",
-    "ToolTip": "Fugiat ipsum hic facere ipsam quis.",
+    "Id": 24,
+    "Name": "Schoen-O'Kon",
+    "ToolTip": "Aut dolor repellendus.",
     "Deleted": false,
-    "Rank": 530,
-    "Type": "ex",
-    "ColorBlock": 450,
-    "IconHint": "autem",
+    "Rank": 403,
+    "Type": "et",
+    "ColorBlock": 125,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2019-12-14T14:45:05.8031904+01:00",
+    "LastChanged": "2000-01-26T10:17:55.7696734+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Price, Langworth and Kreiger",
-        "ToolTip": "Necessitatibus deleniti sunt nulla unde magnam.",
-        "Deleted": true,
-        "Rank": 791,
-        "Type": "sit",
-        "ColorBlock": 796,
-        "IconHint": "voluptatem",
+        "Id": 316,
+        "Name": "Rippin LLC",
+        "ToolTip": "Inventore enim.",
+        "Deleted": false,
+        "Rank": 348,
+        "Type": "velit",
+        "ColorBlock": 592,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2006-11-16T14:45:05.8031904+01:00",
+        "LastChanged": "2020-02-23T10:17:55.7696734+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Friedrich Jerel D'Amore Sr.",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Freida Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldType": "System.String",
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sint",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Marlee Kunze",
+    "FullName": "Roma Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 593
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Jast-Russel",
-    "ToolTip": "Reprehenderit eum quibusdam voluptatem ipsum blanditiis voluptatem.",
+    "Id": 908,
+    "Name": "Sawayn-Langworth",
+    "ToolTip": "Dolor a nihil tempore enim neque aspernatur libero.",
     "Deleted": true,
-    "Rank": 411,
-    "Type": "non",
-    "ColorBlock": 473,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2024-02-14T14:45:13.70862+01:00",
+    "Rank": 319,
+    "Type": "quia",
+    "ColorBlock": 889,
+    "IconHint": "iure",
+    "Selected": false,
+    "LastChanged": "2005-05-12T10:18:01.0199926+02:00",
     "ChildItems": [
       {
-        "Id": 208,
-        "Name": "Buckridge, Pollich and Morissette",
-        "ToolTip": "Quaerat recusandae non magnam iusto fugit in.",
+        "Id": 587,
+        "Name": "Mosciski Inc and Sons",
+        "ToolTip": "Dolores aliquid quos qui vero et exercitationem.",
         "Deleted": false,
-        "Rank": 567,
-        "Type": "est",
-        "ColorBlock": 335,
-        "IconHint": "ratione",
+        "Rank": 689,
+        "Type": "veritatis",
+        "ColorBlock": 437,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2003-07-23T14:45:13.70862+02:00",
+        "LastChanged": "2015-10-22T10:18:01.0199926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ut",
+        "ExtraInfo": "nihil",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Gustave Kling",
+        "FullName": "Mrs. Maximilian Larissa Zboncak DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "neque",
+    "ExtraInfo": "officia",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Mr. Kadin Mills DDS",
+    "FullName": "Kim Bins MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 968
       }
     }
   }

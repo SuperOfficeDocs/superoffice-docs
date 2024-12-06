@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 181,
-  "Name": "Schaden, Bergnaum and Greenfelder",
-  "Tooltip": "rerum",
-  "Rank": 782,
-  "Rate": 30506.356,
-  "Units": 10762.155999999999,
+  "CurrencyId": 845,
+  "Name": "Howe, O'Reilly and Upton",
+  "Tooltip": "ducimus",
+  "Rank": 705,
+  "Rate": 1585.8039999999999,
+  "Units": 17597.41,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 395
     }
   }
 }

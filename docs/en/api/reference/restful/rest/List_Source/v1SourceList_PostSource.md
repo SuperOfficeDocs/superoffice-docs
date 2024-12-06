@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Olson-Kuhlman",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 88,
-  "Rank": 669
+  "Id": 36,
+  "Name": "Collins-Cassin",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "UdListDefinitionId": 116,
+  "Rank": 407
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 579,
-  "Name": "Lemke Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": false,
-  "UdListDefinitionId": 21,
-  "Rank": 11,
+  "Id": 223,
+  "Name": "Stiedemann Group",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "UdListDefinitionId": 815,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 115
     }
   }
 }

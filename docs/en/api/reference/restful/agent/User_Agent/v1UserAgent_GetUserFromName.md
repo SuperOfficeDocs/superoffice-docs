@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Goodwin-Lynch"
+  "UserName": "Wisoky-Heidenreich"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 420,
-  "Name": "Satterfield LLC",
-  "Rank": 315,
-  "Tooltip": "consectetur",
+  "AssociateId": 854,
+  "Name": "Yundt-Walker",
+  "Rank": 427,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Crona, Kertzmann and Sipes",
-      "Description": "Virtual fresh-thinking migration",
+      "Name": "Upton, Yost and Sanford",
+      "Description": "Enterprise-wide fresh-thinking Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 212
         }
       }
     },
     {
-      "Name": "Crona, Kertzmann and Sipes",
-      "Description": "Virtual fresh-thinking migration",
+      "Name": "Upton, Yost and Sanford",
+      "Description": "Enterprise-wide fresh-thinking Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 212
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sapiente",
-      "Tooltip": "accusantium",
-      "Id": 282,
-      "Rank": 975,
+      "Value": "et",
+      "Tooltip": "nesciunt",
+      "Id": 701,
+      "Rank": 363,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 83
+          "FieldLength": 207
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-03-25T14:45:06.6623469+02:00",
-  "Lastlogout": "2010-04-23T14:45:06.6623469+02:00",
-  "EjUserId": 785,
-  "RequestSignature": "vero",
+  "Lastlogin": "2014-10-21T10:17:56.3322071+02:00",
+  "Lastlogout": "2011-02-10T10:17:56.3322071+01:00",
+  "EjUserId": 625,
+  "RequestSignature": "quis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "modi",
-      "DisplayValue": "cumque",
+      "Value": "sit",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 813
         }
       }
     },
     {
       "Type": null,
-      "Value": "modi",
-      "DisplayValue": "cumque",
+      "Value": "sit",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 813
         }
       }
     }
   ],
-  "UserName": "Carroll, Buckridge and Quigley",
+  "UserName": "Adams-Russel",
   "TicketCategories": [
     {
-      "Id": 297,
-      "Name": "Casper Inc and Sons",
-      "ToolTip": "Voluptates qui fugit aperiam quaerat.",
-      "Deleted": true,
-      "Rank": 131,
-      "Type": "nam",
+      "Id": 379,
+      "Name": "Kuhlman-Bailey",
+      "ToolTip": "Dignissimos ea quo molestiae.",
+      "Deleted": false,
+      "Rank": 251,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 723,
-      "ExtraInfo": "non",
-      "StyleHint": "est",
-      "FullName": "Kelley Wyman",
+      "IconHint": "asperiores",
+      "ColorBlock": 386,
+      "ExtraInfo": "veniam",
+      "StyleHint": "quod",
+      "FullName": "Elmo Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 963
+          "FieldLength": 702
         }
       }
     }
   ],
-  "NickName": "Lehner, Abshire and Cormier",
+  "NickName": "Schamberger, Hoeger and Bahringer",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "et"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "illum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Beer, Rolfson and Hettinger",
-      "DisplayName": "Veum Group",
-      "Description": "Organic fault-tolerant emulation",
-      "ToolTip": "Distinctio animi quia repellendus et id occaecati accusamus.",
+      "Name": "D'Amore Group",
+      "DisplayName": "Hettinger Group",
+      "Description": "Managed dynamic protocol",
+      "ToolTip": "Amet qui harum aliquid dolorem et.",
       "Actions": "Implicit",
-      "ActionData": "odio",
+      "ActionData": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 293
+          "FieldType": "System.String",
+          "FieldLength": 403
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 447
     }
   }
 }

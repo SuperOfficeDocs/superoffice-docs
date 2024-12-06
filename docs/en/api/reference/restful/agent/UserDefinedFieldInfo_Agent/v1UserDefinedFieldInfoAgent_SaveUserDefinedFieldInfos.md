@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 426,
-      "ColumnId": 703,
-      "FieldDefault": "accusantium",
-      "FieldHeight": 824,
-      "FieldLabel": "eius",
-      "FieldLeft": 894,
-      "FieldTop": 649,
+      "UDefFieldId": 738,
+      "ColumnId": 463,
+      "FieldDefault": "sit",
+      "FieldHeight": 243,
+      "FieldLabel": "veniam",
+      "FieldLeft": 60,
+      "FieldTop": 428,
       "FieldType": "Checkbox",
-      "FieldWidth": 469,
-      "FormatMask": "molestias",
-      "HideLabel": true,
+      "FieldWidth": 628,
+      "FormatMask": "repellat",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 533,
-      "LabelLeft": 499,
-      "LabelTop": 674,
-      "LabelWidth": 518,
-      "LastVersionId": 747,
-      "ListTableId": 808,
+      "LabelHeight": 878,
+      "LabelLeft": 774,
+      "LabelTop": 723,
+      "LabelWidth": 192,
+      "LastVersionId": 763,
+      "ListTableId": 548,
       "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 581,
-      "ProgId": "qui",
-      "IsReadOnly": false,
-      "ShortLabel": "totam",
-      "TabOrder": 783,
-      "TextLength": 485,
-      "Tooltip": "consequatur",
-      "UdefIdentity": 77,
-      "UDListDefinitionId": 314,
+      "Page1LineNo": 74,
+      "ProgId": "officia",
+      "IsReadOnly": true,
+      "ShortLabel": "nulla",
+      "TabOrder": 401,
+      "TextLength": 454,
+      "Tooltip": "corrupti",
+      "UdefIdentity": 614,
+      "UDListDefinitionId": 927,
       "Justification": "Center",
-      "Version": 285,
-      "TemplateVariableName": "Huel LLC",
-      "HasBeenPublished": true,
-      "MdoListName": "Kemmer Inc and Sons"
+      "Version": 469,
+      "TemplateVariableName": "Keebler, Rice and Stanton",
+      "HasBeenPublished": false,
+      "MdoListName": "Beier-Abshire"
     }
   ]
 }

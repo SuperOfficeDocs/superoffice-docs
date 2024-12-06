@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hayes LLC",
+  "Name": "Thiel-Wuckert",
   "AssociateIds": [
-    347,
-    612
+    643,
+    827
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Torphy, Sanford and Reynolds",
-    "AssociateId": 662,
-    "DetailsTable": 516,
-    "DetailsRecord": 361,
+    "Id": 926,
+    "Name": "Brekke LLC",
+    "AssociateId": 226,
+    "DetailsTable": 299,
+    "DetailsRecord": 320,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "nobis"
+      "ParameterObject1": "impedit",
+      "ParameterObject2": "maiores"
     },
-    "LastStarted": "2007-02-03T14:45:04.8815214+01:00",
-    "Created": "2013-07-12T14:45:04.8815214+02:00",
-    "StartCount": 788,
-    "DatabaseSerialNumber": "594938",
-    "Context": "sapiente",
-    "Result": "modi",
+    "LastStarted": "2022-02-24T10:17:55.1290102+01:00",
+    "Created": "2024-04-04T10:17:55.1290102+02:00",
+    "StartCount": 980,
+    "DatabaseSerialNumber": "892006",
+    "Context": "consequatur",
+    "Result": "fuga",
     "State": "All",
-    "Description": "Persistent intangible challenge",
-    "Response": "cumque",
-    "Request": "tenetur",
-    "ProgressDescription": "Phased well-modulated hierarchy",
-    "ProgressPercent": 935,
-    "FileName": "Hackett, Crona and Bayer",
+    "Description": "Persistent context-sensitive definition",
+    "Response": "occaecati",
+    "Request": "natus",
+    "ProgressDescription": "Visionary bifurcated projection",
+    "ProgressPercent": 920,
+    "FileName": "Graham-Runolfsdottir",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harber, Steuber and Medhurst",
-    "Description": "Open-architected fresh-thinking orchestration",
-    "Rank": 978,
+    "Name": "Kuhlman, Tremblay and Kessler",
+    "Description": "Visionary secondary knowledge user",
+    "Rank": 158,
     "Restrictions": [
       {
-        "Name": "Shields-Jenkins",
-        "Operator": "sed",
+        "Name": "Breitenberg-Jacobi",
+        "Operator": "quia",
         "Values": [
-          "mollitia",
-          "dolor"
+          "non",
+          "praesentium"
         ],
         "DisplayValues": [
-          "quas",
-          "id"
+          "fugiat",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 265,
+        "InterParenthesis": 40,
         "InterOperator": "And",
-        "UniqueHash": 139
+        "UniqueHash": 633
       }
     ]
   },
   {
-    "Name": "Harber, Steuber and Medhurst",
-    "Description": "Open-architected fresh-thinking orchestration",
-    "Rank": 978,
+    "Name": "Kuhlman, Tremblay and Kessler",
+    "Description": "Visionary secondary knowledge user",
+    "Rank": 158,
     "Restrictions": [
       {
-        "Name": "Shields-Jenkins",
-        "Operator": "sed",
+        "Name": "Breitenberg-Jacobi",
+        "Operator": "quia",
         "Values": [
-          "mollitia",
-          "dolor"
+          "non",
+          "praesentium"
         ],
         "DisplayValues": [
-          "quas",
-          "id"
+          "fugiat",
+          "quia"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 265,
+        "InterParenthesis": 40,
         "InterOperator": "And",
-        "UniqueHash": 139
+        "UniqueHash": 633
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zulauf-Sipes",
-    "Description": "Stand-alone holistic knowledge user",
-    "Rank": 214,
+    "Name": "Heathcote Group",
+    "Description": "Horizontal client-server emulation",
+    "Rank": 372,
     "Restrictions": [
       {
-        "Name": "Kutch, Bechtelar and Green",
-        "Operator": "voluptatibus",
+        "Name": "Cruickshank LLC",
+        "Operator": "ab",
         "Values": [
-          "vero",
-          "quibusdam"
+          "qui",
+          "itaque"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "veniam"
+          "aut",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 337,
+        "InterParenthesis": 843,
         "InterOperator": "And",
-        "UniqueHash": 509
+        "UniqueHash": 462
       }
     ]
   },
   {
-    "Name": "Zulauf-Sipes",
-    "Description": "Stand-alone holistic knowledge user",
-    "Rank": 214,
+    "Name": "Heathcote Group",
+    "Description": "Horizontal client-server emulation",
+    "Rank": 372,
     "Restrictions": [
       {
-        "Name": "Kutch, Bechtelar and Green",
-        "Operator": "voluptatibus",
+        "Name": "Cruickshank LLC",
+        "Operator": "ab",
         "Values": [
-          "vero",
-          "quibusdam"
+          "qui",
+          "itaque"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "veniam"
+          "aut",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 337,
+        "InterParenthesis": 843,
         "InterOperator": "And",
-        "UniqueHash": 509
+        "UniqueHash": 462
       }
     ]
   }

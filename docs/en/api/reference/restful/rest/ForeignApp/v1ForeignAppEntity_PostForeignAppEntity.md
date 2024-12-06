@@ -92,23 +92,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 462,
-  "Name": "Funk LLC",
-  "CreatedDate": "2007-04-19T14:45:12.8181931+02:00",
-  "UpdatedDate": "2013-12-09T14:45:12.8181931+01:00",
+  "ForeignAppId": 135,
+  "Name": "Hansen, Harvey and Larson",
+  "CreatedDate": "2005-11-04T10:18:00.4105739+01:00",
+  "UpdatedDate": "2010-06-30T10:18:00.4105739+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 847,
-      "Name": "Weimann, Schaden and Ankunding",
-      "CreatedDate": "2012-03-13T14:45:12.8181931+01:00",
-      "UpdatedDate": "1998-11-15T14:45:12.8181931+01:00",
-      "AssociateFullName": "Mr. Liza Green",
-      "CreatedBy": "ipsa",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "accusantium",
-      "ForeignAppId": 155
+      "ForeignDeviceId": 608,
+      "Name": "Stroman Group",
+      "CreatedDate": "2012-06-27T10:18:00.4105739+02:00",
+      "UpdatedDate": "2012-10-29T10:18:00.4105739+01:00",
+      "AssociateFullName": "Adelbert Zieme",
+      "CreatedBy": "sed",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 486
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 382,
-  "Name": "Hayes-Schaden",
-  "CreatedDate": "1999-11-20T14:45:12.8181931+01:00",
-  "UpdatedDate": "2014-08-17T14:45:12.8181931+02:00",
+  "ForeignAppId": 809,
+  "Name": "Upton, Flatley and Marks",
+  "CreatedDate": "2013-05-14T10:18:00.4105739+02:00",
+  "UpdatedDate": "2007-01-16T10:18:00.4105739+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 652,
-      "Name": "Hilll LLC",
-      "CreatedDate": "1999-10-10T14:45:12.8181931+02:00",
-      "UpdatedDate": "2013-03-11T14:45:12.8181931+01:00",
-      "AssociateFullName": "Loren Rippin",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "veritatis",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 95,
+      "ForeignDeviceId": 619,
+      "Name": "Stokes-Erdman",
+      "CreatedDate": "2000-07-11T10:18:00.4105739+02:00",
+      "UpdatedDate": "2024-05-28T10:18:00.4105739+02:00",
+      "AssociateFullName": "Dr. Giovanny Reilly II",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "atque",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 316,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 982
+          "FieldType": "System.Int32",
+          "FieldLength": 820
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 382
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

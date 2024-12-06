@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Gerhold, Anderson and Langworth",
-  "AssociateId": 696,
-  "DetailsTable": 835,
-  "DetailsRecord": 685,
+  "Id": 527,
+  "Name": "Wintheiser, Spinka and Walter",
+  "AssociateId": 193,
+  "DetailsTable": 227,
+  "DetailsRecord": 763,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "rerum",
-    "ParameterObject2": "atque"
+    "ParameterObject1": "autem",
+    "ParameterObject2": "fugiat"
   },
-  "LastStarted": "2009-09-16T14:45:05.6625978+02:00",
-  "Created": "2000-04-18T14:45:05.6625978+02:00",
-  "StartCount": 785,
-  "DatabaseSerialNumber": "1100286",
-  "Context": "eum",
-  "Result": "dolores",
+  "LastStarted": "2024-07-15T10:17:55.660285+02:00",
+  "Created": "2024-08-05T10:17:55.660285+02:00",
+  "StartCount": 435,
+  "DatabaseSerialNumber": "1323075",
+  "Context": "ipsum",
+  "Result": "labore",
   "State": "All",
-  "Description": "Virtual uniform service-desk",
-  "Response": "sapiente",
-  "Request": "aperiam",
-  "ProgressDescription": "Organized user-facing leverage",
-  "ProgressPercent": 512,
-  "FileName": "Eichmann, Bernier and Stamm",
+  "Description": "Innovative full-range architecture",
+  "Response": "omnis",
+  "Request": "ut",
+  "ProgressDescription": "Reactive explicit algorithm",
+  "ProgressPercent": 656,
+  "FileName": "Hahn, Simonis and Metz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldLength": 58
     }
   }
 }

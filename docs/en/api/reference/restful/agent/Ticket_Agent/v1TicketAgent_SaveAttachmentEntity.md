@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 920,
-  "Name": "Powlowski, Schmidt and Marks",
-  "ContentType": "non",
-  "AttSize": 599,
-  "InlineImage": false,
-  "ContentId": "odio",
-  "AuthKey": "magnam",
-  "IsSafeFileExtension": false
+  "AttachmentId": 932,
+  "Name": "Nader, Rolfson and Beahan",
+  "ContentType": "veniam",
+  "AttSize": 148,
+  "InlineImage": true,
+  "ContentId": "a",
+  "AuthKey": "minima",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 214,
-  "Name": "Crist, Littel and Swaniawski",
-  "ContentType": "accusamus",
-  "AttSize": 56,
+  "AttachmentId": 43,
+  "Name": "Runte Group",
+  "ContentType": "dolore",
+  "AttSize": 724,
   "InlineImage": false,
-  "ContentId": "expedita",
-  "AuthKey": "est",
+  "ContentId": "sit",
+  "AuthKey": "perspiciatis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 187
     }
   }
 }

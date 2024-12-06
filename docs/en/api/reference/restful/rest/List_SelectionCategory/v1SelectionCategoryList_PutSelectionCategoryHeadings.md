@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 832,
-    "Name": "Kirlin LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 650,
-    "UdListDefinitionId": 126
+    "HeadingId": 620,
+    "Name": "Swift-Tillman",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 923,
+    "UdListDefinitionId": 835
   },
   {
-    "HeadingId": 832,
-    "Name": "Kirlin LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 650,
-    "UdListDefinitionId": 126
+    "HeadingId": 620,
+    "Name": "Swift-Tillman",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 923,
+    "UdListDefinitionId": 835
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 175,
-    "Name": "Luettgen, Kulas and McCullough",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 292,
+    "HeadingId": 109,
+    "Name": "Marks Inc and Sons",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 814,
+    "UdListDefinitionId": 148,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 281
       }
     }
   }

@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 162,
-  "PrefDescId": 436,
-  "PrefValue": "aut",
-  "PrefShowValue": "qui",
-  "Description": "Reduced bottom-line hierarchy",
+  "PrefDescLineId": 435,
+  "PrefDescId": 683,
+  "PrefValue": "ab",
+  "PrefShowValue": "doloribus",
+  "Description": "Fundamental bandwidth-monitored database",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   }
 }

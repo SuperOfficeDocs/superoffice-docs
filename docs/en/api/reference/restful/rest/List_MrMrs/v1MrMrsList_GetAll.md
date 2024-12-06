@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Beer, O'Keefe and Ritchie",
-    "Tooltip": "similique",
-    "Deleted": false,
-    "UdListDefinitionId": 676,
-    "Rank": 682,
+    "Id": 607,
+    "Name": "Parker LLC",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 842,
+    "Rank": 366,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 964
       }
     }
   }

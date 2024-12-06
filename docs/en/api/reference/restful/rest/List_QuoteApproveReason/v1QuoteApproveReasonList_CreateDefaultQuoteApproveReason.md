@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Cremin Group",
-  "Tooltip": "nihil",
+  "Id": 4,
+  "Name": "Kuvalis, Harvey and Lowe",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 256,
-  "Rank": 371,
+  "UdListDefinitionId": 535,
+  "Rank": 802,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 221
     }
   }
 }

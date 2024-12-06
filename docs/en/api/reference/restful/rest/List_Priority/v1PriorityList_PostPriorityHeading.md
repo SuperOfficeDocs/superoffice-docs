@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 848,
-  "Name": "Shanahan Inc and Sons",
-  "Tooltip": "fuga",
+  "HeadingId": 914,
+  "Name": "Feil LLC",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 45,
-  "UdListDefinitionId": 538
+  "Rank": 451,
+  "UdListDefinitionId": 309
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 674,
-  "Name": "O'Connell Inc and Sons",
-  "Tooltip": "occaecati",
+  "HeadingId": 160,
+  "Name": "Volkman, Crist and Ryan",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 584,
-  "UdListDefinitionId": 138,
+  "Rank": 405,
+  "UdListDefinitionId": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 820
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

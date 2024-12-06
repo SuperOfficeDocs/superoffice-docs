@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Cartwright-Lindgren",
-    "ToolTip": "Recusandae facere qui eius.",
+    "Id": 357,
+    "Name": "Kling Group",
+    "ToolTip": "Earum enim enim commodi earum aut et.",
     "Deleted": false,
-    "Rank": 248,
-    "Type": "similique",
-    "ColorBlock": 306,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2019-08-13T14:45:13.786728+02:00",
+    "Rank": 162,
+    "Type": "autem",
+    "ColorBlock": 334,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2002-09-15T10:18:01.0824964+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Keebler-Mosciski",
-        "ToolTip": "At explicabo.",
+        "Id": 940,
+        "Name": "Farrell-Fadel",
+        "ToolTip": "Quis autem minus natus totam quo quam.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "ipsa",
-        "ColorBlock": 489,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2012-05-02T14:45:13.786728+02:00",
+        "Rank": 473,
+        "Type": "delectus",
+        "ColorBlock": 418,
+        "IconHint": "fuga",
+        "Selected": false,
+        "LastChanged": "2014-06-08T10:18:01.0824964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "animi",
+        "ExtraInfo": "in",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Kamryn Price",
+        "FullName": "Anna Raynor I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldType": "System.String",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Prof. Alexzander Satterfield",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Rozella Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 440
       }
     }
   }

@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 999
+  "ChatTopicId": 985
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 228,
-  "TopicId": 678,
+  "ChatSessionId": 637,
+  "TopicId": 210,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "et",
-  "CustomerName": "Jacobi, Huel and Kessler",
-  "CustomerEmail": "beatrice_pollich@bins.co.uk",
-  "CustomerPhone": "1-464-474-8675",
+  "CustomerAlias": "atque",
+  "CustomerHost": "fugit",
+  "CustomerName": "Kirlin-Fisher",
+  "CustomerEmail": "isobel@green.co.uk",
+  "CustomerPhone": "505.503.1898",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rath, Gibson and Nienow",
+  "CustomerCompanyName": "Weissnat-Rippin",
   "Status": "Closed",
-  "FirstMessage": "officiis",
-  "LastMessage": "consequatur",
-  "WhenRequested": "2014-10-04T14:45:05.0064931+02:00",
-  "WhenStarted": "2020-05-19T14:45:05.0064931+02:00",
-  "WhenEnded": "2021-09-09T14:45:05.0064931+02:00",
-  "WhenIdle": "2019-02-17T14:45:05.0064931+01:00",
-  "WhenFetched": "2015-09-01T14:45:05.0064931+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 121,
-  "AlertLevel": 718,
-  "Rank": 149,
+  "FirstMessage": "qui",
+  "LastMessage": "qui",
+  "WhenRequested": "2002-03-22T10:17:55.2227659+01:00",
+  "WhenStarted": "2020-09-23T10:17:55.2227659+02:00",
+  "WhenEnded": "1998-10-28T10:17:55.2227659+01:00",
+  "WhenIdle": "2019-04-01T10:17:55.2227659+02:00",
+  "WhenFetched": "2014-01-08T10:17:55.2227659+01:00",
+  "SessionKey": "earum",
+  "InitialQueuePos": 91,
+  "AlertLevel": 999,
+  "Rank": 420,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 302,
+  "Rating": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

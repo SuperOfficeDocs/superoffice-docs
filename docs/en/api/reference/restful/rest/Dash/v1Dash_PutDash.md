@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 891,
-  "UniqueId": "cumque",
-  "Name": "Heller-Auer",
-  "Description": "Secured optimizing concept",
-  "AssociateId": 758,
-  "Columns": 670,
+  "DashboardId": 11,
+  "UniqueId": "maiores",
+  "Name": "Kris Group",
+  "Description": "Multi-layered tertiary model",
+  "AssociateId": 732,
+  "Columns": 331,
   "Theme": null,
-  "VisibleForAll": 921,
+  "VisibleForAll": 861,
   "VisibleForAssociates": [
-    974,
-    376
+    419,
+    129
   ],
   "VisibleForGroups": [
-    823,
-    581
+    69,
+    746
   ],
-  "PinForAll": 749,
+  "PinForAll": 214,
   "PinForAssociates": [
-    545,
-    285
+    814,
+    935
   ],
   "PinForGroups": [
-    63,
-    441
+    811,
+    585
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 204,
-  "UniqueId": "dolor",
-  "Name": "Kutch-Kerluke",
-  "Description": "Mandatory object-oriented pricing structure",
-  "AssociateId": 58,
-  "Columns": 258,
+  "DashboardId": 824,
+  "UniqueId": "quis",
+  "Name": "Gleichner LLC",
+  "Description": "Customizable tangible instruction set",
+  "AssociateId": 168,
+  "Columns": 217,
   "Theme": null,
-  "VisibleForAll": 171,
+  "VisibleForAll": 845,
   "VisibleForAssociates": [
-    208,
-    29
+    44,
+    179
   ],
   "VisibleForGroups": [
-    242,
-    924
+    926,
+    139
   ],
-  "PinForAll": 479,
+  "PinForAll": 21,
   "PinForAssociates": [
-    529,
-    80
+    905,
+    151
   ],
   "PinForGroups": [
-    444,
-    54
+    996,
+    885
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 564
     }
   },
   "_Links": {

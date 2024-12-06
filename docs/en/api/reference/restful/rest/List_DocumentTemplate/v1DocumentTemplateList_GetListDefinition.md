@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 81,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "unde",
+  "Id": 434,
+  "Name": "Wolf, Herman and Emard",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 198,
+  "Rank": 287,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "odio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   },
   "_Links": {

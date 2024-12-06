@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "iusto"
+  "ChartId": "quas"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 769,
-  "Caption": "odit",
-  "Description": "Optimized directional workforce",
-  "ChartName": "Stanton, Blanda and O'Reilly",
-  "ChartId": "omnis",
-  "IsDefault": false,
-  "AssociateId": 827,
-  "GroupId": 765,
-  "SelectionId": 29,
-  "Config": "quos",
+  "DashboardTileId": 478,
+  "Caption": "voluptatem",
+  "Description": "Devolved background infrastructure",
+  "ChartName": "Bergstrom, Johnston and Littel",
+  "ChartId": "id",
+  "IsDefault": true,
+  "AssociateId": 309,
+  "GroupId": 985,
+  "SelectionId": 485,
+  "Config": "praesentium",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Romaguera-Beahan",
-      "Description": "Optional web-enabled frame",
+      "Name": "Kshlerin-Lind",
+      "Description": "Up-sized empowering time-frame",
       "Type": "Boolean",
-      "ListName": "Parisian-Thiel",
+      "ListName": "Zboncak-Hamill",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptate",
+      "Value": "quis",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 622
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 326,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 866
         }
       }
     },
     {
-      "VisibleId": 326,
+      "VisibleId": 402,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 866
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   }
 }

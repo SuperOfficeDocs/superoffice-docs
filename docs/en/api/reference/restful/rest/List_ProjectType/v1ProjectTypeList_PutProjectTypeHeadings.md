@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 234,
-    "Name": "Koepp LLC",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 170,
-    "UdListDefinitionId": 664
+    "HeadingId": 519,
+    "Name": "Witting LLC",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 545,
+    "UdListDefinitionId": 658
   },
   {
-    "HeadingId": 234,
-    "Name": "Koepp LLC",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 170,
-    "UdListDefinitionId": 664
+    "HeadingId": 519,
+    "Name": "Witting LLC",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 545,
+    "UdListDefinitionId": 658
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 223,
-    "Name": "D'Amore Group",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 562,
-    "UdListDefinitionId": 753,
+    "HeadingId": 96,
+    "Name": "Streich, Breitenberg and Stroman",
+    "Tooltip": "nobis",
+    "Deleted": true,
+    "Rank": 161,
+    "UdListDefinitionId": 263,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 739
       }
     }
   }

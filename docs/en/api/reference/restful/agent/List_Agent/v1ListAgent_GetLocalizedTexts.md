@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 195,
-    "ResourceId": 340,
-    "Text": "aut",
+    "LanguageId": 436,
+    "ResourceId": 772,
+    "Text": "iste",
     "Type": "Column",
-    "LocalizedTextId": 600,
+    "LocalizedTextId": 71,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

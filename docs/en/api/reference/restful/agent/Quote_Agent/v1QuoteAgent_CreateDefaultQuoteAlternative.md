@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 749,
-  "ERPQuoteAlternativeKey": "suscipit",
-  "QuoteVersionId": 164,
-  "Name": "Russel LLC",
-  "Description": "Realigned bottom-line flexibility",
+  "QuoteAlternativeId": 150,
+  "ERPQuoteAlternativeKey": "ratione",
+  "QuoteVersionId": 441,
+  "Name": "Harvey LLC",
+  "Description": "Secured client-server monitoring",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14218.957999999999,
-  "ERPDiscountAmount": 22408.1,
-  "DiscountPercent": 12764.782,
-  "DiscountAmount": 3340.844,
+  "ERPDiscountPercent": 1175.25,
+  "ERPDiscountAmount": 23266.816,
+  "DiscountPercent": 16785.703999999998,
+  "DiscountAmount": 7766.052,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolores",
-  "VAT": 16851.518,
-  "EarningPercent": 6713.0279999999993,
-  "EarningAmount": 7076.572,
-  "SubTotal": 17381.164,
-  "TotalPrice": 28124.516,
-  "ExtraField1": "placeat",
-  "ExtraField2": "necessitatibus",
-  "ExtraField3": "rerum",
-  "ExtraField4": "qui",
-  "ExtraField5": "porro",
+  "VATInfo": "at",
+  "VAT": 27378.624,
+  "EarningPercent": 31167.629999999997,
+  "EarningAmount": 13488.735999999999,
+  "SubTotal": 16039.812,
+  "TotalPrice": 5365.4079999999994,
+  "ExtraField1": "sed",
+  "ExtraField2": "est",
+  "ExtraField3": "necessitatibus",
+  "ExtraField4": "quia",
+  "ExtraField5": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 682
     }
   }
 }

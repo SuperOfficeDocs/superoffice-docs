@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 410,
-  "BlobSize": 235,
-  "Description": "Assimilated dedicated approach",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
+  "BlobId": 781,
+  "BlobSize": 851,
+  "Description": "Managed national database",
+  "ExtraInfo": "sit",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "autem",
-  "OriginalSize": 727,
-  "CreatedDate": "2018-11-26T14:45:12.6151129+01:00",
-  "UpdatedDate": "2010-11-08T14:45:12.6151129+01:00",
+  "MimeType": "officia",
+  "OriginalSize": 534,
+  "CreatedDate": "2007-05-14T10:18:00.2699456+02:00",
+  "UpdatedDate": "2002-09-07T10:18:00.2699456+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "adipisci"
+  "ConceptualType": "ipsam"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 608,
-  "BlobSize": 621,
-  "Description": "Centralized context-sensitive access",
-  "ExtraInfo": "natus",
+  "BlobId": 282,
+  "BlobSize": 799,
+  "Description": "Up-sized eco-centric hierarchy",
+  "ExtraInfo": "inventore",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "iure",
-  "OriginalSize": 224,
-  "CreatedDate": "2002-11-18T14:45:12.6151129+01:00",
-  "UpdatedDate": "2003-06-02T14:45:12.6151129+02:00",
+  "IsZipped": true,
+  "MimeType": "molestiae",
+  "OriginalSize": 591,
+  "CreatedDate": "2006-03-26T10:18:00.2699456+02:00",
+  "UpdatedDate": "2012-04-19T10:18:00.2699456+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quibusdam",
+  "ConceptualType": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   }
 }

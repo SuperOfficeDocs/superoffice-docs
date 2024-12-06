@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetOrderState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 85
+  "QuoteVersionId": 257
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "in",
-  "TechExplanation": "vitae",
-  "ErrorCode": "dicta",
+  "IsOk": true,
+  "UserExplanation": "molestiae",
+  "TechExplanation": "dolores",
+  "ErrorCode": "voluptas",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 980
     }
   }
 }

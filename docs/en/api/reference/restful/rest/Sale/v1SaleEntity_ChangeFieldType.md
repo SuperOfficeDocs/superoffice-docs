@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 653,
-  "ColumnId": 981,
-  "FieldDefault": "architecto",
-  "FieldHeight": 762,
-  "FieldLabel": "est",
-  "FieldLeft": 662,
-  "FieldTop": 234,
+  "UDefFieldId": 994,
+  "ColumnId": 234,
+  "FieldDefault": "dolores",
+  "FieldHeight": 567,
+  "FieldLabel": "provident",
+  "FieldLeft": 165,
+  "FieldTop": 719,
   "FieldType": "Checkbox",
-  "FieldWidth": 897,
-  "FormatMask": "illum",
+  "FieldWidth": 661,
+  "FormatMask": "enim",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 643,
-  "LabelLeft": 607,
-  "LabelTop": 323,
-  "LabelWidth": 884,
-  "LastVersionId": 592,
-  "ListTableId": 576,
-  "IsMandatory": false,
+  "LabelHeight": 574,
+  "LabelLeft": 213,
+  "LabelTop": 181,
+  "LabelWidth": 806,
+  "LastVersionId": 51,
+  "ListTableId": 402,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 645,
-  "ProgId": "rerum",
+  "Page1LineNo": 621,
+  "ProgId": "sit",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 85,
-  "TextLength": 923,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 91,
-  "UDListDefinitionId": 424,
+  "ShortLabel": "odio",
+  "TabOrder": 127,
+  "TextLength": 768,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 430,
+  "UDListDefinitionId": 341,
   "Justification": "Center",
-  "Version": 353,
-  "TemplateVariableName": "Schneider, Dicki and Pagac",
-  "HasBeenPublished": true,
-  "MdoListName": "Ortiz-Franecki",
+  "Version": 294,
+  "TemplateVariableName": "O'Hara Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Hills-Hills",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 642
     }
   }
 }

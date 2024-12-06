@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Schaefer, Block and Franecki",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 934,
+  "Id": 999,
+  "Name": "Runolfsson, Williamson and Flatley",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "Rank": 567,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "unde",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 768
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

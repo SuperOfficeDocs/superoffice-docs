@@ -51,11 +51,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|SR_DASHBOARD_THEME_DEFAULT||client=sales&style=light|
-|2|SR_DASHBOARD_THEME_CALM||client=sales&style=light|
-|3|SR_DASHBOARD_THEME_DARK||client=sales&style=light|
-|4|SR_DASHBOARD_THEME_DARKMODE||client=sales&style=dark|
-|5|SR_DASHBOARD_THEME_DARKMODE||client=mobile&style=dark|
+|1|Default||client=sales&style=light|
+|2|Calm||client=sales&style=light|
+|3|Dark||client=sales&style=light|
+|4|Dark mode||client=sales&style=dark|
+|5|Dark mode||client=mobile&style=dark|
 
 
 ## Related MDO Lists

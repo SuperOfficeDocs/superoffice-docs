@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=vitae
-GET /api/v1/Archive/{archiveProviderName}?$top=150
-GET /api/v1/Archive/{archiveProviderName}?$skip=906
+GET /api/v1/Archive/{archiveProviderName}?$entities=quia
+GET /api/v1/Archive/{archiveProviderName}?$top=483
+GET /api/v1/Archive/{archiveProviderName}?$skip=62
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=animi
+GET /api/v1/Archive/{archiveProviderName}?$context=quis
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=voluptatibus
+GET /api/v1/Archive/{archiveProviderName}?$metadata=deserunt
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -201,19 +201,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laborum",
+  "odata.nextLink": "ipsum",
   "value": [
     {
-      "PrimaryKey": 820,
-      "EntityName": "person",
-      "personId": 820,
-      "fullName": "Mario Torp DDS"
+      "PrimaryKey": 2690,
+      "EntityName": "sale",
+      "saleId": 2690,
+      "contactId": 4093,
+      "name": "Greenholt-Mertz"
     },
     {
-      "PrimaryKey": 6180,
-      "EntityName": "person",
-      "personId": 6180,
-      "fullName": "Mrs. Margaretta Wiza III"
+      "PrimaryKey": 4763,
+      "EntityName": "sale",
+      "saleId": 4763,
+      "contactId": 5398,
+      "name": "Nicolas LLC"
     }
   ]
 }

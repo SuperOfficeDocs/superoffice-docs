@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "delectus",
-  "2": "tempora"
+  "1": "exercitationem",
+  "2": "mollitia"
 }
 ```

@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 67,
-  "Name": "Howell LLC",
+  "WebhookId": 536,
+  "Name": "Mayer-Huel",
   "Events": [
-    "qui",
-    "voluptate"
+    "possimus",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "similique",
+  "Secret": "facere",
   "State": "Active",
-  "Type": "non",
+  "Type": "ad",
   "Headers": {
-    "Headers1": "sapiente",
-    "Headers2": "et"
+    "Headers1": "voluptate",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-04-02T14:45:13.5367829+02:00",
+  "Registered": "1997-11-09T10:18:00.910611+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-06-21T14:45:13.5367829+02:00",
+  "Updated": "2013-10-05T10:18:00.910611+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "newton_jenkins@schmeler.info"
+  "ErrorsEmail": "ava_konopelski@hoegerkuvalis.com"
 }
 ```
 
@@ -139,28 +139,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 529,
-  "Name": "Rodriguez Group",
+  "WebhookId": 151,
+  "Name": "Walsh, Larkin and Von",
   "Events": [
-    "numquam",
-    "deleniti"
+    "et",
+    "similique"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "assumenda",
+  "Secret": "natus",
   "State": "Active",
-  "Type": "sapiente",
+  "Type": "error",
   "Headers": {
-    "Headers1": "voluptas",
-    "Headers2": "voluptatem"
+    "Headers1": "eligendi",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-07-02T14:45:13.5367829+02:00",
+  "Registered": "2017-02-18T10:18:00.910611+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-08-02T14:45:13.5367829+02:00",
+  "Updated": "2007-12-15T10:18:00.910611+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "emely.hessel@connelly.us",
+  "ErrorsEmail": "sabryna@hermistonreynolds.name",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

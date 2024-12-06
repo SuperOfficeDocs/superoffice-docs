@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    103,
-    561
+    194,
+    252
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 792,
-    "Name": "Ankunding-Kunze",
-    "Description": "Reduced bi-directional open architecture",
+    "ProjectId": 420,
+    "Name": "Boyer Inc and Sons",
+    "Description": "Cross-platform web-enabled utilisation",
     "URL": "http://www.example.com/",
-    "Type": "soluta",
-    "AssociateId": 854,
-    "AssociateFullName": "Maya Lebsack",
-    "TypeId": 57,
-    "Updated": "2020-10-12T14:45:06.0218921+02:00",
-    "StatusId": 483,
-    "Status": "eligendi",
-    "TextId": 614,
-    "PublishTo": "2019-12-05T14:45:06.0218921+01:00",
-    "PublishFrom": "2014-12-22T14:45:06.0218921+01:00",
-    "IsPublished": true,
+    "Type": "veritatis",
+    "AssociateId": 312,
+    "AssociateFullName": "Chasity Joesph Weissnat III",
+    "TypeId": 1002,
+    "Updated": "2002-04-12T10:17:55.9103076+02:00",
+    "StatusId": 698,
+    "Status": "dolorem",
+    "TextId": 804,
+    "PublishTo": "2015-03-14T10:17:55.9103076+01:00",
+    "PublishFrom": "2011-05-26T10:17:55.9103076+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "875435",
-    "ActiveErpLinks": 393,
+    "ProjectNumber": "574078",
+    "ActiveErpLinks": 426,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldType": "System.String",
+        "FieldLength": 808
       }
     }
   }

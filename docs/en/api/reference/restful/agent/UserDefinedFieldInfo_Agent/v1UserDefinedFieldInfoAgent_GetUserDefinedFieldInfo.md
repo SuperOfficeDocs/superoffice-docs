@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=973
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=302
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 265,
-  "ColumnId": 61,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 372,
-  "FieldLabel": "nisi",
-  "FieldLeft": 343,
-  "FieldTop": 368,
+  "UDefFieldId": 670,
+  "ColumnId": 196,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 158,
+  "FieldLabel": "deleniti",
+  "FieldLeft": 882,
+  "FieldTop": 931,
   "FieldType": "Checkbox",
-  "FieldWidth": 336,
-  "FormatMask": "voluptas",
+  "FieldWidth": 966,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 848,
-  "LabelLeft": 113,
-  "LabelTop": 484,
-  "LabelWidth": 732,
-  "LastVersionId": 905,
-  "ListTableId": 916,
+  "LabelHeight": 634,
+  "LabelLeft": 990,
+  "LabelTop": 9,
+  "LabelWidth": 687,
+  "LastVersionId": 196,
+  "ListTableId": 590,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 425,
-  "ProgId": "pariatur",
-  "IsReadOnly": false,
-  "ShortLabel": "quidem",
-  "TabOrder": 670,
-  "TextLength": 66,
-  "Tooltip": "et",
-  "UdefIdentity": 875,
-  "UDListDefinitionId": 278,
+  "Page1LineNo": 781,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "mollitia",
+  "TabOrder": 909,
+  "TextLength": 939,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 943,
+  "UDListDefinitionId": 584,
   "Justification": "Center",
-  "Version": 595,
-  "TemplateVariableName": "Jenkins, Witting and Price",
+  "Version": 645,
+  "TemplateVariableName": "Rodriguez, Reynolds and Trantow",
   "HasBeenPublished": false,
-  "MdoListName": "Johns-Volkman",
+  "MdoListName": "Blanda, Langosh and Kemmer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 825
     }
   }
 }

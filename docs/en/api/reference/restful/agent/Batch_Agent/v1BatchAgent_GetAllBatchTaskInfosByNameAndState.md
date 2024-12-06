@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Mante-Schultz",
+  "TaskName": "Crooks-Emmerich",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Bernier-Gutkowski",
-    "AssociateId": 377,
-    "DetailsTable": 662,
-    "DetailsRecord": 149,
+    "Id": 721,
+    "Name": "Gerhold-Schiller",
+    "AssociateId": 675,
+    "DetailsTable": 704,
+    "DetailsRecord": 265,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quis",
-      "ParameterObject2": "eius"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2020-06-04T14:45:04.8815214+02:00",
-    "Created": "2006-01-23T14:45:04.8815214+01:00",
-    "StartCount": 186,
-    "DatabaseSerialNumber": "981590",
-    "Context": "consequuntur",
-    "Result": "soluta",
+    "LastStarted": "2000-08-31T10:17:55.1290102+02:00",
+    "Created": "2000-08-04T10:17:55.1290102+02:00",
+    "StartCount": 647,
+    "DatabaseSerialNumber": "439960",
+    "Context": "a",
+    "Result": "dolorem",
     "State": "All",
-    "Description": "Assimilated background initiative",
-    "Response": "et",
+    "Description": "Re-contextualized needs-based definition",
+    "Response": "perferendis",
     "Request": "omnis",
-    "ProgressDescription": "Visionary content-based implementation",
-    "ProgressPercent": 925,
-    "FileName": "Fadel-Schinner",
+    "ProgressDescription": "Expanded fault-tolerant migration",
+    "ProgressPercent": 296,
+    "FileName": "Grady-Botsford",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

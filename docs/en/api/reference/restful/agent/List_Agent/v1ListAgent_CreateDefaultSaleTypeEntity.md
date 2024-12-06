@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 397,
-  "Name": "Donnelly, Nolan and Padberg",
-  "Tooltip": "est",
-  "Rank": 369,
+  "SaleTypeId": 933,
+  "Name": "Kulas Group",
+  "Tooltip": "sunt",
+  "Rank": 10,
   "DurationUnit": "Century",
-  "SaleDuration": 939,
-  "SaleTypeCatId": 949,
-  "Deleted": false,
+  "SaleDuration": 945,
+  "SaleTypeCatId": 468,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 572,
-  "QuoteLinesTemplate": 873,
-  "ConfirmationLinesTemplate": 363,
+  "DefaultQuoteValidity": 713,
+  "QuoteLinesTemplate": 498,
+  "ConfirmationLinesTemplate": 505,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 275,
-  "MinEarningPercent": 798,
-  "GroupQuoteLinesBy": 793,
-  "SortGroupLinesBy": 261,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 284,
+  "MinEarningPercent": 591,
+  "GroupQuoteLinesBy": 75,
+  "SortGroupLinesBy": 100,
   "Stages": [
     {
-      "Id": 589,
-      "Name": "Stoltenberg-Ankunding",
-      "ToolTip": "Deserunt sed magni.",
-      "Deleted": true,
-      "Rank": 381,
-      "Type": "quia",
-      "ColorBlock": 241,
-      "IconHint": "libero",
+      "Id": 676,
+      "Name": "Dare-Adams",
+      "ToolTip": "Possimus non optio.",
+      "Deleted": false,
+      "Rank": 900,
+      "Type": "cupiditate",
+      "ColorBlock": 776,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2000-01-06T14:45:05.7719479+01:00",
+      "LastChanged": "2001-10-21T10:17:55.7384214+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "perspiciatis",
-      "Hidden": false,
-      "FullName": "Sophie Rodriguez Sr.",
+      "ExtraInfo": "quis",
+      "StyleHint": "accusantium",
+      "Hidden": true,
+      "FullName": "Otho Larson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 115
     }
   }
 }

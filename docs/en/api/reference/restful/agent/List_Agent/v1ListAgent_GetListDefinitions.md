@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Name": "Parker-Lang",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "Rank": 219,
+    "Id": 193,
+    "Name": "Jones LLC",
+    "Tooltip": "quidem",
+    "Deleted": false,
+    "Rank": 505,
     "IsCustomList": true,
     "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "et",
-    "InUseByUserDefinedFields": true,
+    "UseGroupsAndHeadings": false,
+    "ListType": "accusantium",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldLength": 773
       }
     }
   }

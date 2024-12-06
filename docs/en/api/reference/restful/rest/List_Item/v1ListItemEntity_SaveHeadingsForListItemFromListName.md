@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Mayer-Harber",
-    "ToolTip": "Numquam ad.",
+    "Id": 923,
+    "Name": "Harvey LLC",
+    "ToolTip": "Nostrum natus in molestiae.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "cumque",
-    "ColorBlock": 24,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2007-02-05T14:45:13.5680288+01:00",
+    "Rank": 416,
+    "Type": "esse",
+    "ColorBlock": 808,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2015-05-12T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Cassin, Franecki and Nitzsche",
-        "ToolTip": "Nemo aut sed est aliquid.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "dolor",
-        "ColorBlock": 925,
-        "IconHint": "cupiditate",
-        "Selected": false,
-        "LastChanged": "2000-10-06T14:45:13.5680288+02:00",
+        "Id": 968,
+        "Name": "Dickens, Koss and Lueilwitz",
+        "ToolTip": "Dolor ut similique rem aut non eligendi necessitatibus.",
+        "Deleted": true,
+        "Rank": 955,
+        "Type": "ut",
+        "ColorBlock": 17,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2010-07-11T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "iure",
         "Hidden": true,
-        "FullName": "Mrs. Melyna Kulas"
+        "FullName": "Miss Marianne Reva Abbott"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "repellat",
+    "ExtraInfo": "ea",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Franco Flatley"
+    "FullName": "Hailey Ferry"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 877,
-    "Name": "Moen, Considine and Becker",
-    "ToolTip": "Officiis inventore modi modi.",
+    "Id": 255,
+    "Name": "Senger-Renner",
+    "ToolTip": "A non ullam.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "harum",
-    "ColorBlock": 598,
-    "IconHint": "rerum",
+    "Rank": 708,
+    "Type": "nostrum",
+    "ColorBlock": 373,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-06-06T14:45:13.5680288+02:00",
+    "LastChanged": "2019-10-26T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Jewess-Huels",
-        "ToolTip": "A esse rerum accusantium sint.",
+        "Id": 241,
+        "Name": "Corkery, Upton and Farrell",
+        "ToolTip": "Atque aut totam possimus delectus blanditiis nisi velit.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "doloremque",
-        "ColorBlock": 510,
-        "IconHint": "nulla",
+        "Rank": 409,
+        "Type": "vitae",
+        "ColorBlock": 380,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2019-02-01T14:45:13.5680288+01:00",
+        "LastChanged": "2011-10-05T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "nulla",
+        "ExtraInfo": "et",
+        "StyleHint": "distinctio",
         "Hidden": true,
-        "FullName": "Dr. Micheal Tremblay",
+        "FullName": "Mustafa Flo Bartell PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 439
+            "FieldType": "System.Int32",
+            "FieldLength": 721
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Marlon Schaefer",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Katherine Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

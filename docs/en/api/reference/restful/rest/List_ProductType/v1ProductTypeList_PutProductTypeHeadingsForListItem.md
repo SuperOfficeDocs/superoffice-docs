@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Torphy, Kemmer and Gorczany",
-    "ToolTip": "Sint id quam.",
+    "Id": 879,
+    "Name": "Gleason, Osinski and Daugherty",
+    "ToolTip": "Molestiae et dolorum consequatur illum.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "accusantium",
-    "ColorBlock": 200,
-    "IconHint": "accusantium",
+    "Rank": 837,
+    "Type": "vel",
+    "ColorBlock": 199,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2021-09-30T14:45:13.8179422+02:00",
+    "LastChanged": "2017-08-25T10:18:01.0981224+02:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Steuber, Rau and DuBuque",
-        "ToolTip": "Cumque occaecati illum occaecati illo architecto et sed.",
-        "Deleted": true,
-        "Rank": 264,
-        "Type": "veniam",
-        "ColorBlock": 258,
-        "IconHint": "qui",
+        "Id": 770,
+        "Name": "Shields-Heaney",
+        "ToolTip": "Amet et quidem reiciendis rerum odio a.",
+        "Deleted": false,
+        "Rank": 586,
+        "Type": "dignissimos",
+        "ColorBlock": 194,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2019-04-14T14:45:13.8179422+02:00",
+        "LastChanged": "2013-08-19T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Emmanuel Koch"
+        "ExtraInfo": "et",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Ms. Reginald Okuneva V"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Dr. Justine Conroy V"
+    "ExtraInfo": "perferendis",
+    "StyleHint": "explicabo",
+    "Hidden": false,
+    "FullName": "Delta Heathcote MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Kerluke-Windler",
-    "ToolTip": "Voluptas quae est omnis animi voluptate at inventore.",
-    "Deleted": false,
-    "Rank": 275,
-    "Type": "illum",
-    "ColorBlock": 958,
-    "IconHint": "cupiditate",
+    "Id": 740,
+    "Name": "Bartell Inc and Sons",
+    "ToolTip": "Possimus accusamus et consequatur et.",
+    "Deleted": true,
+    "Rank": 683,
+    "Type": "molestiae",
+    "ColorBlock": 254,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2016-07-01T14:45:13.8179422+02:00",
+    "LastChanged": "2014-12-17T10:18:01.0981224+01:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Anderson-Bode",
-        "ToolTip": "Ea nemo ipsum sit consequatur et.",
+        "Id": 952,
+        "Name": "Lang, Spinka and Huels",
+        "ToolTip": "Expedita est inventore saepe adipisci qui explicabo et.",
         "Deleted": false,
-        "Rank": 920,
-        "Type": "maxime",
-        "ColorBlock": 457,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2020-01-14T14:45:13.8179422+01:00",
+        "Rank": 923,
+        "Type": "nisi",
+        "ColorBlock": 585,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2022-08-14T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Jazmyn Schinner",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Nettie Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 640
+            "FieldType": "System.Int32",
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Breanne Harris",
+    "ExtraInfo": "facilis",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Mr. Nyasia Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldType": "System.String",
+        "FieldLength": 929
       }
     }
   }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Person/HasConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 969,
-  "Purpose": "labore"
+  "PersonId": 691,
+  "Purpose": "laudantium"
 }
 ```
 

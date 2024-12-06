@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 22,
-  "Name": "Mayert-Barton",
-  "Tooltip": "et",
-  "Rank": 910,
-  "Key": "enim",
-  "MailTemplateId": 639,
+  "ConsentSourceId": 913,
+  "Name": "Yundt, Daniel and Baumbach",
+  "Tooltip": "odit",
+  "Rank": 323,
+  "Key": "quae",
+  "MailTemplateId": 66,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 885
+      "FieldLength": 498
     }
   }
 }

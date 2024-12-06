@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kling-Nader",
-  "TypicalSearchId": 794
+  "EntityName": "Russel-Skiles",
+  "TypicalSearchId": 722
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schultz-Jenkins",
-  "SelectionId": 461,
+  "ProviderName": "Jerde Inc and Sons",
+  "SelectionId": 979,
   "CanSaveAsSelection": false,
-  "MainHeading": "odit",
-  "FilterScreenHeading": "dolor",
-  "SelectionEntityHeading": "odit",
+  "MainHeading": "suscipit",
+  "FilterScreenHeading": "mollitia",
+  "SelectionEntityHeading": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 872
     }
   }
 }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kling, Farrell and Torphy",
-  "DeviceName": "Monahan Group",
-  "DeviceIdentifier": "voluptatem",
+  "ApplicationName": "Tillman-Reichel",
+  "DeviceName": "Kertzmann, Hills and King",
+  "DeviceIdentifier": "odit",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 187,
-  "Name": "Rath, Robel and Bartell",
-  "CreatedDate": "2006-05-23T14:45:05.6469762+02:00",
-  "UpdatedDate": "2002-11-30T14:45:05.6469762+01:00",
-  "AssociateFullName": "Ernestina Dedric Gislason DDS",
-  "CreatedBy": "accusamus",
-  "UpdatedBy": "blanditiis",
-  "DeviceIdentifier": "laborum",
-  "ForeignAppId": 530,
+  "ForeignDeviceId": 998,
+  "Name": "Breitenberg LLC",
+  "CreatedDate": "2022-11-29T10:17:55.660285+01:00",
+  "UpdatedDate": "2011-06-28T10:17:55.660285+02:00",
+  "AssociateFullName": "Treva Satterfield",
+  "CreatedBy": "dolores",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 625,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 163
     }
   }
 }

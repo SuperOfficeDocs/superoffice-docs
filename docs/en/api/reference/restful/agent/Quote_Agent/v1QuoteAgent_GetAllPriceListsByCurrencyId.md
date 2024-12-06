@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 151,
-  "CurrencyId": 579
+  "QuoteConnectionId": 302,
+  "CurrencyId": 562
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 737,
-    "ERPPriceListKey": "quas",
-    "QuoteConnectionId": 178,
-    "Name": "Schinner, Waelchi and Walter",
-    "Description": "Proactive systematic access",
-    "Currency": "quo",
-    "CurrencyName": "Huel, Lebsack and Moen",
-    "ValidFrom": "2010-04-24T14:45:06.0843796+02:00",
-    "ValidTo": "2019-09-10T14:45:06.0843796+02:00",
-    "IsActive": true,
+    "PriceListId": 189,
+    "ERPPriceListKey": "corrupti",
+    "QuoteConnectionId": 624,
+    "Name": "Davis Inc and Sons",
+    "Description": "Programmable content-based website",
+    "Currency": "consequuntur",
+    "CurrencyName": "DuBuque Inc and Sons",
+    "ValidFrom": "1998-12-10T10:17:55.9415595+01:00",
+    "ValidTo": "2011-12-08T10:17:55.9415595+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 752
       }
     }
   }

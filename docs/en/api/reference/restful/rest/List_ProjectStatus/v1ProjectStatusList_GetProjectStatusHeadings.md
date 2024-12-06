@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 136,
-    "Name": "Wehner, Boyer and Von",
-    "Tooltip": "culpa",
-    "Deleted": false,
-    "Rank": 424,
-    "UdListDefinitionId": 109,
+    "HeadingId": 624,
+    "Name": "Steuber-Terry",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 364,
+    "UdListDefinitionId": 128,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 704
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=ipsa
+GET /api/v1/List/PaymentTerm/MDOItems?query=commodi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Turner-Feil",
-    "ToolTip": "Et repudiandae cupiditate incidunt.",
+    "Id": 674,
+    "Name": "Jones Group",
+    "ToolTip": "Cumque consectetur assumenda cum aut repellendus ducimus.",
     "Deleted": true,
-    "Rank": 245,
-    "Type": "reprehenderit",
+    "Rank": 772,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Hudson-Koelpin",
-        "ToolTip": "Pariatur autem sint velit aut.",
+        "Id": 284,
+        "Name": "Grant, Volkman and Jenkins",
+        "ToolTip": "Voluptatibus quae et et et quisquam dolore excepturi.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "alias",
+        "Rank": 233,
+        "Type": "at",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 453,
-        "ExtraInfo": "quis",
-        "StyleHint": "sed",
-        "FullName": "Mrs. Kay Larissa Kessler",
+        "IconHint": "qui",
+        "ColorBlock": 124,
+        "ExtraInfo": "tempora",
+        "StyleHint": "sit",
+        "FullName": "Adolfo Javier Thiel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 879
+            "FieldLength": 496
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 132,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "dolor",
-    "FullName": "Kareem Wolf",
+    "IconHint": "voluptatem",
+    "ColorBlock": 113,
+    "ExtraInfo": "ipsa",
+    "StyleHint": "voluptas",
+    "FullName": "Eveline Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 84
       }
     }
   }

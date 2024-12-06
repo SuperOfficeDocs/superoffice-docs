@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 565,
+  "EmailId": 387,
   "AttachmentIds": [
-    "sunt",
-    "est"
+    "consequatur",
+    "deleniti"
   ],
   "IncludeAttachments": false
 }
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 930,
-      "ContactName": "Stokes Group",
-      "PersonId": 945,
-      "PersonName": "Shields-Marvin",
-      "AssociateId": 879,
-      "Address": "beatae",
-      "EmailId": 475,
+      "ContactId": 848,
+      "ContactName": "Rohan-Stiedemann",
+      "PersonId": 26,
+      "PersonName": "Schowalter, Ratke and McGlynn",
+      "AssociateId": 532,
+      "Address": "enim",
+      "EmailId": 911,
       "DuplicatePersonIds": [
-        298,
-        55
+        791,
+        963
       ],
-      "Name": "Balistreri, Block and Fadel",
+      "Name": "Cole-Larkin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 215,
-      "ContactName": "Beer, Bartoletti and Aufderhar",
-      "PersonId": 334,
-      "PersonName": "McKenzie LLC",
-      "AssociateId": 706,
-      "Address": "ut",
-      "EmailId": 120,
+      "ContactId": 693,
+      "ContactName": "Schimmel-Skiles",
+      "PersonId": 687,
+      "PersonName": "Watsica, Willms and Huels",
+      "AssociateId": 989,
+      "Address": "aut",
+      "EmailId": 816,
       "DuplicatePersonIds": [
-        767,
-        564
+        721,
+        249
       ],
-      "Name": "Mohr Group",
+      "Name": "Medhurst, Johnson and Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 633,
-      "ContactName": "Tremblay, Kassulke and Bosco",
-      "PersonId": 402,
-      "PersonName": "Lynch-Sanford",
-      "AssociateId": 185,
-      "Address": "consequatur",
-      "EmailId": 12,
+      "ContactId": 901,
+      "ContactName": "Bernhard-Bernier",
+      "PersonId": 959,
+      "PersonName": "Steuber-Lesch",
+      "AssociateId": 507,
+      "Address": "eum",
+      "EmailId": 338,
       "DuplicatePersonIds": [
-        899,
-        343
+        733,
+        931
       ],
-      "Name": "Berge-Swift",
+      "Name": "Strosin, Hand and Pfeffer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     }
   ],
-  "Subject": "adipisci",
-  "HTMLBody": "iste",
+  "Subject": "omnis",
+  "HTMLBody": "beatae",
   "From": null,
-  "Sent": "2016-10-09T14:45:05.568868+02:00",
-  "Size": 842,
+  "Sent": "2014-01-26T10:17:55.5977887+01:00",
+  "Size": 762,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "consectetur",
+  "MessageID": "est",
+  "PlainBody": "repellat",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 471,
+  "ServerId": 693,
   "Attachments": [
     {
-      "Description": "Proactive systemic superstructure",
-      "Filename": "eum",
-      "Size": 904,
-      "Type": "non",
-      "Encoding": "ad",
-      "Id": "debitis",
-      "Disposition": "tempore",
+      "Description": "Advanced value-added migration",
+      "Filename": "tempora",
+      "Size": 869,
+      "Type": "quia",
+      "Encoding": "in",
+      "Id": "et",
+      "Disposition": "sed",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Heathcote, Schiller and Strosin",
+      "Name": "Feil, Grimes and Effertz",
       "Values": [
-        "quisquam",
-        "et"
+        "perferendis",
+        "quae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldLength": 613
         }
       }
     },
     {
-      "Name": "Heathcote, Schiller and Strosin",
+      "Name": "Feil, Grimes and Effertz",
       "Values": [
-        "quisquam",
-        "et"
+        "perferendis",
+        "quae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldLength": 613
         }
       }
     }
   ],
-  "FolderName": "Senger, Boyle and Cassin",
-  "EmailItemId": 82,
-  "AccountId": 221,
-  "ReceivedAt": "2011-03-28T14:45:05.568868+02:00",
+  "FolderName": "Schmeler Inc and Sons",
+  "EmailItemId": 632,
+  "AccountId": 936,
+  "ReceivedAt": "2012-05-11T10:17:55.5977887+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-03-05T14:45:05.568868+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-06-09T10:17:55.5977887+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 89
     }
   }
 }

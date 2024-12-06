@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    141,
-    893
+    583,
+    196
   ],
-  "Read": false
+  "Read": true
 }
 ```
 

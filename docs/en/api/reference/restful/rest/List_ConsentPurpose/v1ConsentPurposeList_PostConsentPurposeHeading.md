@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 534,
-  "Name": "Shields-Collins",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 860,
-  "UdListDefinitionId": 224
+  "HeadingId": 257,
+  "Name": "Douglas, Auer and Schulist",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 30,
+  "UdListDefinitionId": 23
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 1002,
-  "Name": "Brown, Gaylord and Franecki",
-  "Tooltip": "corporis",
+  "HeadingId": 831,
+  "Name": "Marquardt Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 672,
-  "UdListDefinitionId": 5,
+  "Rank": 172,
+  "UdListDefinitionId": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 754
     }
   }
 }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SaleStakeholder?$select=name,department,category/id
 GET /api/v1/SaleStakeholder?$filter=name begins 'S'
 GET /api/v1/SaleStakeholder?$orderBy=name asc
-GET /api/v1/SaleStakeholder?$entities=id
-GET /api/v1/SaleStakeholder?$top=250
-GET /api/v1/SaleStakeholder?$skip=460
+GET /api/v1/SaleStakeholder?$entities=modi
+GET /api/v1/SaleStakeholder?$top=267
+GET /api/v1/SaleStakeholder?$skip=513
 GET /api/v1/SaleStakeholder?$mode=Full
 GET /api/v1/SaleStakeholder?$options=GrandTotal=true
-GET /api/v1/SaleStakeholder?$context=non
+GET /api/v1/SaleStakeholder?$context=sed
 GET /api/v1/SaleStakeholder?$format=JSON
 GET /api/v1/SaleStakeholder?$jsonSafe=False
 GET /api/v1/SaleStakeholder?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "velit",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 4305,
-      "EntityName": "person",
-      "personId": 4305,
-      "fullName": "Nelson Will"
+      "PrimaryKey": 8325,
+      "EntityName": "sale",
+      "saleId": 8325,
+      "contactId": 7943,
+      "name": "Purdy, Braun and Lesch"
     },
     {
-      "PrimaryKey": 485,
-      "EntityName": "person",
-      "personId": 485,
-      "fullName": "Prof. Buck Kutch"
+      "PrimaryKey": 6704,
+      "EntityName": "sale",
+      "saleId": 6704,
+      "contactId": 6396,
+      "name": "Koss-Kozey"
     }
   ]
 }

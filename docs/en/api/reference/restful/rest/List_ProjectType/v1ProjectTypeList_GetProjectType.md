@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Gusikowski-Rutherford",
-  "Tooltip": "accusamus",
+  "Id": 247,
+  "Name": "Towne LLC",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 40,
+  "UdListDefinitionId": 335,
+  "Rank": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   }
 }

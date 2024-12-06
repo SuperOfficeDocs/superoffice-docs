@@ -259,7 +259,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=emailFlow/workflowDescription,emailFlow/workflowSuccessRate,shipment/mailingDeleted
+GET /api/v1/archive/EmailFlowContent?$select=updatedBy,shipment/emailFlow/workflowAssociate/contactId,shipment/emailFlow/startOnlyOnce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

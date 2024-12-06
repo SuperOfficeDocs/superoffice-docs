@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 581,
-  "Name": "Romaguera, Koss and Skiles",
+  "ScreenChooserId": 63,
+  "Name": "Feeney Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "fugiat",
-  "Source": "saepe",
-  "Registered": "2023-11-19T14:45:13.3961895+01:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2014-07-30T14:45:13.3961895+02:00",
-  "UpdatedAssociateId": 609
+  "UniqueIdentifier": "perspiciatis",
+  "Source": "itaque",
+  "Registered": "2010-08-29T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 506,
+  "Updated": "2011-11-22T10:18:00.8168545+01:00",
+  "UpdatedAssociateId": 898
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 504,
-  "Name": "Pagac Group",
+  "ScreenChooserId": 120,
+  "Name": "Simonis-Hilpert",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
   "UniqueIdentifier": "laudantium",
-  "Source": "eveniet",
-  "Registered": "2016-03-18T14:45:13.3961895+01:00",
-  "RegisteredAssociateId": 681,
-  "Updated": "2000-03-20T14:45:13.3961895+01:00",
-  "UpdatedAssociateId": 407,
+  "Source": "consequatur",
+  "Registered": "2016-08-22T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 997,
+  "Updated": "1997-08-04T10:18:00.8168545+02:00",
+  "UpdatedAssociateId": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 407
     }
   }
 }

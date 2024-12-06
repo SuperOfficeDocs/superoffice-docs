@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "enim",
+    "path": "iste",
     "value": {}
   },
   {
     "op": "add",
-    "path": "enim",
+    "path": "iste",
     "value": {}
   }
 ]
@@ -150,45 +150,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 56,
-  "Name": "Kassulke-Ryan",
-  "Rank": 319,
-  "Tooltip": "assumenda",
-  "Icon": "in",
-  "DefaultTicketStatus": 341,
+  "TicketTypeId": 222,
+  "Name": "Kreiger Group",
+  "Rank": 167,
+  "Tooltip": "odio",
+  "Icon": "illo",
+  "DefaultTicketStatus": 791,
   "TicketStatuses": [
-    666,
-    536
+    803,
+    787
   ],
-  "DefaultTicketPriority": 53,
+  "DefaultTicketPriority": 769,
   "TicketPriorities": [
-    809,
-    157
+    736,
+    863
   ],
-  "ReplyTemplate": 757,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 676,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    631,
-    448
+    548,
+    475
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

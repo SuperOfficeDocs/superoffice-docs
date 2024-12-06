@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 523,
-    "Name": "Beatty, Fritsch and Beatty",
-    "OrgNr": "1838840",
+    "ContactId": 109,
+    "Name": "Legros, Haag and McLaughlin",
+    "OrgNr": "1299596",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "tempora",
-    "DirectPhone": "456.788.1793",
-    "AssociateId": 110,
-    "CountryId": 989,
-    "EmailAddress": "domenick.kautzer@berge.co.uk",
-    "Kananame": "sit",
-    "EmailAddressName": "mabel_watsica@harvey.name",
+    "City": "ut",
+    "DirectPhone": "064-703-5398",
+    "AssociateId": 968,
+    "CountryId": 812,
+    "EmailAddress": "chadrick@shanahan.ca",
+    "Kananame": "exercitationem",
+    "EmailAddressName": "annetta@stehr.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Noel Gibson III",
+    "AssociateFullName": "Teresa Spinka",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Mr. Geovanny Cruickshank",
+    "FormattedAddress": "iusto",
+    "FullName": "Mr. Dayton Zechariah Bernhard MD",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 702,
-    "Number1": "811836",
-    "Number2": "303723",
+    "ActiveErpLinks": 95,
+    "Number1": "1244419",
+    "Number2": "1161377",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 227
       }
     }
   }

@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 425,
-  "Name": "Hayes Inc and Sons",
-  "ContentType": "quibusdam",
-  "AttSize": 90,
+  "AttachmentId": 119,
+  "Name": "Rowe Group",
+  "ContentType": "fuga",
+  "AttSize": 507,
   "InlineImage": false,
-  "ContentId": "dolorem",
-  "AuthKey": "id",
+  "ContentId": "ducimus",
+  "AuthKey": "nemo",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

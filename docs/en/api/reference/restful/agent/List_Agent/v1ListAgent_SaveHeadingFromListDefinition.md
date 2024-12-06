@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
+  "Id": 3,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 784,
-  "Name": "Lesch, Fay and Ritchie",
-  "Tooltip": "ab",
+  "HeadingId": 402,
+  "Name": "Wisoky LLC",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 841,
-  "UdListDefinitionId": 192,
+  "Rank": 670,
+  "UdListDefinitionId": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

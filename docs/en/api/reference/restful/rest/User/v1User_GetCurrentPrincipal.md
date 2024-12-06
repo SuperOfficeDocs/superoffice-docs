@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "eveniet",
-  "AssociateId": 509,
-  "IsPerson": false,
-  "PersonId": 260,
-  "CountryId": 446,
-  "HomeCountryId": 301,
-  "ContactId": 550,
-  "GroupId": 772,
-  "BusinessId": 77,
-  "CategoryId": 977,
-  "ContactOwner": 169,
-  "RoleId": 678,
-  "RoleName": "Corwin, Farrell and Littel",
-  "RoleDescription": "Organic multimedia info-mediaries",
+  "Associate": "quibusdam",
+  "AssociateId": 610,
+  "IsPerson": true,
+  "PersonId": 93,
+  "CountryId": 14,
+  "HomeCountryId": 180,
+  "ContactId": 104,
+  "GroupId": 209,
+  "BusinessId": 342,
+  "CategoryId": 489,
+  "ContactOwner": 227,
+  "RoleId": 412,
+  "RoleName": "Ledner-Waters",
+  "RoleDescription": "Focused contextually-based superstructure",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 46,
-      "OwnerName": "Huels LLC",
-      "OwnerDescription": "Persistent 5th generation throughput",
-      "ModuleId": 657,
-      "Name": "Mitchell-Bernier",
-      "Description": "Centralized attitude-oriented hierarchy",
-      "Version": "et",
+      "OwnerId": 399,
+      "OwnerName": "Prohaska Inc and Sons",
+      "OwnerDescription": "Centralized multi-state success",
+      "ModuleId": 946,
+      "Name": "Homenick-Upton",
+      "Description": "Object-based local firmware",
+      "Version": "quas",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 486,
-      "ExtraInfo": "laboriosam",
-      "SortOrder": 994,
-      "LicenseNumber": 85,
+      "ExtraFlags": 922,
+      "ExtraInfo": "adipisci",
+      "SortOrder": 20,
+      "LicenseNumber": 908,
       "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2002-11-01T14:45:13.5367829+01:00",
+      "ExpiryDate": "2012-12-12T10:18:00.910611+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldType": "System.String",
+          "FieldLength": 650
         }
       }
     }
   ],
-  "FullName": "Gregoria Tillman",
-  "EMailAddress": "id",
+  "FullName": "Larissa Tromp",
+  "EMailAddress": "ad",
   "FunctionRights": [
-    "iure",
-    "magnam"
+    "distinctio",
+    "id"
   ],
-  "EjUserId": 583,
-  "EjAccessLevel": 977,
+  "EjUserId": 34,
+  "EjAccessLevel": 241,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "aut",
-      "SearchName": "Kirlin-Ward",
-      "DisplayName": "Streich-Heller",
-      "CredentialId": 48
+      "Type": "neque",
+      "SearchName": "Kreiger Inc and Sons",
+      "DisplayName": "Gibson-Metz",
+      "CredentialId": 969
     },
     {
-      "Type": "aut",
-      "SearchName": "Kirlin-Ward",
-      "DisplayName": "Streich-Heller",
-      "CredentialId": 48
+      "Type": "neque",
+      "SearchName": "Kreiger Inc and Sons",
+      "DisplayName": "Gibson-Metz",
+      "CredentialId": 969
     }
   ],
   "SecondaryGroups": [
-    689,
-    210
+    63,
+    240
   ],
-  "DatabaseContextIdentifier": "consequatur",
-  "UserName": "Crist, Little and Hintz"
+  "DatabaseContextIdentifier": "adipisci",
+  "UserName": "Weber, Luettgen and Beatty"
 }
 ```

@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 998,
-  "ParentId": 445,
-  "Name": "Hudson-Nikolaus",
-  "Fullname": "aperiam",
-  "CategoryMaster": 608,
+  "TicketCategoryId": 387,
+  "ParentId": 524,
+  "Name": "Macejkovic, Treutel and Nicolas",
+  "Fullname": "cupiditate",
+  "CategoryMaster": 681,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kertzmann, Sauer and Kulas",
+  "ExternalName": "Heller Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 420,
-  "ReplyTemplate": 857,
-  "NotificationEmail": "jermey@morissettekoss.info",
+  "AssignmentLag": 495,
+  "ReplyTemplate": 756,
+  "NotificationEmail": "hilario_romaguera@farrell.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 631,
+  "EffectiveReplyTemplateId": 958,
   "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "eum"
+    "CustomFields1": "minus",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 865
     }
   }
 }

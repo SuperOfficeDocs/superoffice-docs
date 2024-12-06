@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "voluptas",
+  "FieldLabel": "voluptatem",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 524,
-  "ColumnId": 253,
-  "FieldDefault": "est",
-  "FieldHeight": 782,
-  "FieldLabel": "aut",
-  "FieldLeft": 123,
-  "FieldTop": 553,
+  "UDefFieldId": 404,
+  "ColumnId": 543,
+  "FieldDefault": "quod",
+  "FieldHeight": 680,
+  "FieldLabel": "recusandae",
+  "FieldLeft": 964,
+  "FieldTop": 9,
   "FieldType": "Checkbox",
-  "FieldWidth": 987,
-  "FormatMask": "ratione",
+  "FieldWidth": 25,
+  "FormatMask": "nihil",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 351,
-  "LabelLeft": 443,
-  "LabelTop": 927,
-  "LabelWidth": 882,
-  "LastVersionId": 641,
-  "ListTableId": 377,
+  "LabelHeight": 482,
+  "LabelLeft": 238,
+  "LabelTop": 885,
+  "LabelWidth": 961,
+  "LastVersionId": 34,
+  "ListTableId": 285,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 813,
-  "ProgId": "dolorum",
-  "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 118,
-  "TextLength": 907,
-  "Tooltip": "cumque",
-  "UdefIdentity": 899,
-  "UDListDefinitionId": 387,
+  "Page1LineNo": 947,
+  "ProgId": "vel",
+  "IsReadOnly": true,
+  "ShortLabel": "repellendus",
+  "TabOrder": 872,
+  "TextLength": 942,
+  "Tooltip": "sit",
+  "UdefIdentity": 699,
+  "UDListDefinitionId": 775,
   "Justification": "Center",
-  "Version": 891,
-  "TemplateVariableName": "Mayert, Simonis and Kozey",
+  "Version": 699,
+  "TemplateVariableName": "Ward LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Terry, Bernhard and Spencer",
+  "MdoListName": "Senger-Murray",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 350
     }
   }
 }

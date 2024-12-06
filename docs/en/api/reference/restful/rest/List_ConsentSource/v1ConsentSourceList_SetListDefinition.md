@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "et",
+  "Id": 802,
+  "Name": "McCullough, Rogahn and Prohaska",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 602,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 28,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Hills LLC",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "Rank": 780,
+  "Id": 957,
+  "Name": "Bednar, Vandervort and Hilpert",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 2,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldLength": 324
     }
   }
 }

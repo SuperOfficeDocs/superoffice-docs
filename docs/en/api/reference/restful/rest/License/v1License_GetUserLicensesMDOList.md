@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "O'Kon, Maggio and Hodkiewicz",
-    "ToolTip": "Est minima et error.",
+    "Id": 438,
+    "Name": "Stiedemann, Purdy and Ziemann",
+    "ToolTip": "Atque est sed sed voluptas omnis.",
     "Deleted": true,
-    "Rank": 93,
-    "Type": "sed",
-    "ColorBlock": 263,
-    "IconHint": "veritatis",
+    "Rank": 560,
+    "Type": "illum",
+    "ColorBlock": 573,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "1997-12-22T14:45:13.4274325+01:00",
+    "LastChanged": "2021-06-09T10:18:00.8324805+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Kutch, Gorczany and Swaniawski",
-        "ToolTip": "Harum odio veritatis et sed.",
-        "Deleted": false,
-        "Rank": 251,
-        "Type": "et",
-        "ColorBlock": 729,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2015-03-02T14:45:13.4274325+01:00",
+        "Id": 16,
+        "Name": "Jacobs-Ondricka",
+        "ToolTip": "Quibusdam neque esse.",
+        "Deleted": true,
+        "Rank": 971,
+        "Type": "occaecati",
+        "ColorBlock": 541,
+        "IconHint": "nisi",
+        "Selected": false,
+        "LastChanged": "2017-01-10T10:18:00.8324805+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "optio",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Robyn Schuster",
+        "FullName": "Prof. Vivian Wolf DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldType": "System.String",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "illum",
-    "Hidden": false,
-    "FullName": "Freeda Jerde",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Watson Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 101
       }
     }
   }

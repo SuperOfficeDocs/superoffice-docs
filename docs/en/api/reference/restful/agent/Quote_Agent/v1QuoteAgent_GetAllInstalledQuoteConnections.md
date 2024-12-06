@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 386,
-    "ERPName": "Labadie Group",
-    "DisplayName": "Kuvalis, Pacocha and Prohaska",
-    "DisplayDescription": "Cross-group radical firmware",
-    "Rank": 413,
-    "ConnectorName": "Spencer Group",
-    "ErpConnectionId": 186,
-    "ExtraData": "et",
-    "IsAvailable": true,
+    "QuoteConnectionId": 481,
+    "ERPName": "O'Kon-Runolfsdottir",
+    "DisplayName": "Brakus-Powlowski",
+    "DisplayDescription": "Customer-focused attitude-oriented hierarchy",
+    "Rank": 869,
+    "ConnectorName": "Heaney, Beer and Jacobs",
+    "ErpConnectionId": 326,
+    "ExtraData": "veniam",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 569,
-        "ERPPriceListKey": "quibusdam",
-        "QuoteConnectionId": 65,
-        "Name": "Larson LLC",
-        "Description": "Extended demand-driven toolset",
-        "Currency": "natus",
-        "CurrencyName": "Skiles LLC",
-        "ValidFrom": "2002-02-22T14:45:06.0687573+01:00",
-        "ValidTo": "2020-08-15T14:45:06.0687573+02:00",
+        "PriceListId": 529,
+        "ERPPriceListKey": "vel",
+        "QuoteConnectionId": 236,
+        "Name": "Kautzer-Prosacco",
+        "Description": "Enhanced intangible encryption",
+        "Currency": "rerum",
+        "CurrencyName": "Rempel-Jaskolski",
+        "ValidFrom": "2010-08-19T10:17:55.9415595+02:00",
+        "ValidTo": "2008-10-30T10:17:55.9415595+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldLength": 333
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      583,
-      578
+      354,
+      645
     ],
     "AssociateAccessIds": [
-      281,
-      179
+      353,
+      498
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

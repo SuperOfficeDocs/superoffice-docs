@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Grimes, Orn and Dach",
-    "ToolTip": "Et alias.",
-    "Deleted": false,
-    "Rank": 396,
-    "Type": "sit",
-    "ColorBlock": 743,
-    "IconHint": "qui",
+    "Id": 91,
+    "Name": "Haag, Rath and Koelpin",
+    "ToolTip": "Velit dolorem et architecto tempore tenetur in ipsum.",
+    "Deleted": true,
+    "Rank": 839,
+    "Type": "similique",
+    "ColorBlock": 585,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2022-05-04T14:45:13.8179422+02:00",
+    "LastChanged": "2018-12-04T10:18:01.0981224+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Murazik Group",
-        "ToolTip": "Quis assumenda.",
-        "Deleted": false,
-        "Rank": 852,
-        "Type": "nisi",
-        "ColorBlock": 750,
-        "IconHint": "iste",
+        "Id": 330,
+        "Name": "Tremblay, Bauch and McLaughlin",
+        "ToolTip": "Voluptates aspernatur totam velit cupiditate quis nobis.",
+        "Deleted": true,
+        "Rank": 773,
+        "Type": "enim",
+        "ColorBlock": 707,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2010-11-13T14:45:13.8179422+01:00",
+        "LastChanged": "2024-03-28T10:18:01.0981224+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Arne Dallas Dach V",
+        "FullName": "Toni Dickinson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Nash Gerhold",
+    "ExtraInfo": "architecto",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Dr. Catharine Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

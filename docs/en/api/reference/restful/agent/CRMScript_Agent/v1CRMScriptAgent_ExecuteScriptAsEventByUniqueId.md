@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "quia",
+  "CRMScriptUniqueId": "harum",
   "EventData": null
 }
 ```
@@ -110,34 +110,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "laboriosam",
-    "InputValues2": "repellendus"
+    "InputValues1": "ex",
+    "InputValues2": "dolorem"
   },
   "BlockExecution": false,
-  "NavigateTo": "eveniet",
-  "Message": "laborum",
-  "ShowDialog": "quisquam",
+  "NavigateTo": "id",
+  "Message": "itaque",
+  "ShowDialog": "numquam",
   "OutputValues": {
-    "OutputValues1": "impedit",
-    "OutputValues2": "neque"
+    "OutputValues1": "non",
+    "OutputValues2": "aut"
   },
   "StateValues": {
-    "StateValues1": "optio",
-    "StateValues2": "eos"
+    "StateValues1": "quas",
+    "StateValues2": "est"
   },
-  "Exception": "enim",
+  "Exception": "assumenda",
   "ParserValues": {
-    "ParserValues1": "nihil",
-    "ParserValues2": "magnam"
+    "ParserValues1": "sit",
+    "ParserValues2": "ipsa"
   },
   "CgiVariables": {
-    "CgiVariables1": "iusto",
-    "CgiVariables2": "voluptate"
+    "CgiVariables1": "ullam",
+    "CgiVariables2": "laborum"
   },
-  "CgiContent": "similique",
+  "CgiContent": "qui",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "facere"
+    "Headers1": "voluptas",
+    "Headers2": "consectetur"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 346
     }
   }
 }

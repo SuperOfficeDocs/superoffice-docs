@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "McKenzie-Bergstrom",
-      "Description": "Reverse-engineered 3rd generation artificial intelligence",
-      "Rank": 539,
+      "Name": "Reinger Group",
+      "Description": "Persistent interactive focus group",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McKenzie-Bergstrom",
-      "Description": "Reverse-engineered 3rd generation artificial intelligence",
-      "Rank": 539,
+      "Name": "Reinger Group",
+      "Description": "Persistent interactive focus group",
+      "Rank": 970,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 159
     }
   }
 }

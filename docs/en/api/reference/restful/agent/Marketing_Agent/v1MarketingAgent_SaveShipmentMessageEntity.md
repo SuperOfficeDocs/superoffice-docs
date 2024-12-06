@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 324,
-  "PlainMessage": "quo",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "impedit",
-  "Description": "Ameliorated attitude-oriented challenge",
-  "Subject": "qui",
-  "FolderId": 611,
-  "HeaderField": "facilis",
-  "Design": "quaerat",
+  "ShipmentMessageId": 664,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "aut",
+  "SmsMessage": "natus",
+  "Description": "Fundamental reciprocal customer loyalty",
+  "Subject": "perspiciatis",
+  "FolderId": 193,
+  "HeaderField": "qui",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Reverse-engineered static orchestration",
-  "AccessKey": "non",
-  "DocumentMessage": 347,
-  "Registered": "1998-05-24T14:45:05.7875689+02:00",
-  "RegisteredAssociateId": 566,
-  "Updated": "2016-10-20T14:45:05.7875689+02:00",
-  "UpdatedAssociateId": 83,
-  "UpdatedCount": 418
+  "LongDescription": "Customer-focused foreground instruction set",
+  "AccessKey": "sed",
+  "DocumentMessage": 774,
+  "Registered": "1998-03-24T10:17:55.7540473+01:00",
+  "RegisteredAssociateId": 115,
+  "Updated": "2020-09-17T10:17:55.7540473+02:00",
+  "UpdatedAssociateId": 971,
+  "UpdatedCount": 270
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 348,
-  "PlainMessage": "facere",
-  "HtmlMessage": "porro",
-  "SmsMessage": "omnis",
-  "Description": "Function-based optimizing functionalities",
-  "Subject": "quos",
-  "FolderId": 404,
-  "HeaderField": "debitis",
-  "Design": "qui",
+  "ShipmentMessageId": 471,
+  "PlainMessage": "molestiae",
+  "HtmlMessage": "qui",
+  "SmsMessage": "delectus",
+  "Description": "User-friendly interactive collaboration",
+  "Subject": "enim",
+  "FolderId": 879,
+  "HeaderField": "excepturi",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enhanced mobile orchestration",
-  "AccessKey": "modi",
-  "DocumentMessage": 983,
-  "Registered": "2021-05-19T14:45:05.7875689+02:00",
-  "RegisteredAssociateId": 469,
-  "Updated": "2023-05-18T14:45:05.7875689+02:00",
-  "UpdatedAssociateId": 857,
-  "UpdatedCount": 698,
+  "LongDescription": "Cloned zero tolerance info-mediaries",
+  "AccessKey": "ducimus",
+  "DocumentMessage": 741,
+  "Registered": "2017-07-14T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2013-12-26T10:17:55.7540473+01:00",
+  "UpdatedAssociateId": 262,
+  "UpdatedCount": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

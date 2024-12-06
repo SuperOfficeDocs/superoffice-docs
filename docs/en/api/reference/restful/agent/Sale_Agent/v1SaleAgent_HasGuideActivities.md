@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 91
+  "SaleId": 510
 }
 ```
 

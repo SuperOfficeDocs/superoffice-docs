@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ebert-Kohler",
-  "IncludeDeleted": true
+  "UdListDefinitionName": "Cummerata Group",
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Stracke, Steuber and McClure",
-    "Tooltip": "suscipit",
+    "Id": 929,
+    "Name": "Douglas-Kemmer",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "UdListDefinitionId": 803,
-    "Rank": 1001,
+    "UdListDefinitionId": 766,
+    "Rank": 878,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

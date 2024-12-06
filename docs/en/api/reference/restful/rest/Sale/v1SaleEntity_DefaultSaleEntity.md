@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 11 Jul 2024 14:45:13 G7T
+Last-Modified: Wed, 13 Sep 2006 10:18:00 G9T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Thu, 11 Jul 2024 14:45:13 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "amet",
+  "SaleText": "quisquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Thu, 11 Jul 2024 14:45:13 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-05-18T14:45:13.1462444+02:00",
-  "Amount": 22173.05,
-  "SaleId": 269,
-  "Earning": 16929.868,
-  "EarningPercent": 23793.327999999998,
-  "Heading": "saepe",
-  "Number": "1047241",
-  "Probability": 766,
-  "CreatedDate": "1999-08-07T14:45:13.1462444+02:00",
-  "UpdatedDate": "2024-07-11T14:45:13.1462444+02:00",
+  "Saledate": "2009-01-19T10:18:00.5512142+01:00",
+  "Amount": 5290.192,
+  "SaleId": 367,
+  "Earning": 1535.6599999999999,
+  "EarningPercent": 9793.75,
+  "Heading": "veniam",
+  "Number": "404936",
+  "Probability": 929,
+  "CreatedDate": "2006-11-07T10:18:00.5512142+01:00",
+  "UpdatedDate": "2006-09-13T10:18:00.5512142+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 853,
+  "ActiveLinks": 825,
   "Links": [
     {
-      "EntityName": "Tromp, Fritsch and Murphy",
-      "Id": 81,
-      "Description": "Face to face reciprocal ability",
-      "ExtraInfo": "nobis",
-      "LinkId": 168,
+      "EntityName": "Ritchie LLC",
+      "Id": 813,
+      "Description": "Horizontal systematic alliance",
+      "ExtraInfo": "est",
+      "LinkId": 35,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 583
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2001-01-09T10:18:00.5512142+01:00",
+  "Postit": "accusantium",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2006-03-07T10:18:00.5512142+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "McKenzie, Mosciski and Reynolds",
+      "Comment": "qui",
+      "StakeholderRoleId": 322,
+      "CountryId": 815,
+      "PersonId": 535,
+      "EmailDescription": "holden.maggio@barrows.info",
+      "EmailId": 582,
+      "EmailAddress": "ursula.heller@carrollshields.info",
+      "PhoneId": 435,
+      "ContactName": "Bailey, Hand and Gibson",
+      "ContactId": 772,
+      "SaleId": 738,
+      "Mrmrs": "nostrum",
+      "Firstname": "Bonnie",
+      "MiddleName": "Kozey Group",
+      "Lastname": "Wolf",
+      "SaleStakeholderId": 338,
+      "Rank": 229,
+      "Phone": "1-364-789-1416",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 416
         }
       }
     }
   ],
-  "NextDueDate": "2001-09-20T14:45:13.1462444+02:00",
-  "Postit": "facere",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2003-06-21T14:45:13.1462444+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Donnelly Inc and Sons",
-      "Comment": "autem",
-      "StakeholderRoleId": 851,
-      "CountryId": 413,
-      "PersonId": 148,
-      "EmailDescription": "armand@bartolettitrantow.name",
-      "EmailId": 395,
-      "EmailAddress": "buddy@upton.info",
-      "PhoneId": 664,
-      "ContactName": "Collins, Lueilwitz and Graham",
-      "ContactId": 583,
-      "SaleId": 916,
-      "Mrmrs": "facere",
-      "Firstname": "Diana",
-      "MiddleName": "Anderson-Ortiz",
-      "Lastname": "Schinner",
-      "SaleStakeholderId": 588,
-      "Rank": 733,
-      "Phone": "745.704.6573 x26723",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 900,
+  "ActiveErpLinks": 602,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dale Beier",
-    "SuperOffice:2": "Hanna Andy Pouros Sr."
+    "SuperOffice:1": "Emory Romaguera",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "est",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "et"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2013-05-30T14:45:13.1462444+02:00",
-  "PublishTo": "2016-12-11T14:45:13.1462444+01:00",
-  "PublishFrom": "2016-10-12T14:45:13.1462444+02:00",
+  "PublishEventDate": "2023-05-09T10:18:00.5512142+02:00",
+  "PublishTo": "2001-12-15T10:18:00.5512142+01:00",
+  "PublishFrom": "2005-03-30T10:18:00.5512142+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 927,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 741
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     },
     {
-      "VisibleId": 927,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 741
+          "FieldType": "System.Int32",
+          "FieldLength": 674
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Thu, 11 Jul 2024 14:45:13 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 674
     }
   }
 }

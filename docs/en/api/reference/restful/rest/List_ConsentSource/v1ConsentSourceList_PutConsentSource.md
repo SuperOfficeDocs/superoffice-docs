@@ -86,12 +86,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 86,
-  "Name": "Murray-Rippin",
-  "Tooltip": "magni",
-  "Rank": 526,
-  "Key": "occaecati",
-  "MailTemplateId": 745,
+  "ConsentSourceId": 906,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "est",
+  "Rank": 741,
+  "Key": "consequatur",
+  "MailTemplateId": 675,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 339,
-  "Name": "Cronin Inc and Sons",
-  "Tooltip": "in",
-  "Rank": 815,
-  "Key": "itaque",
-  "MailTemplateId": 672,
+  "ConsentSourceId": 440,
+  "Name": "Simonis, Nolan and Kovacek",
+  "Tooltip": "adipisci",
+  "Rank": 771,
+  "Key": "non",
+  "MailTemplateId": 245,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

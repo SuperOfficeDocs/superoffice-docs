@@ -91,19 +91,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 703,
-  "BlobSize": 383,
-  "Description": "Profound fresh-thinking capacity",
-  "ExtraInfo": "voluptatibus",
+  "BlobId": 458,
+  "BlobSize": 785,
+  "Description": "Innovative exuding service-desk",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "in",
-  "OriginalSize": 250,
-  "CreatedDate": "2018-05-07T14:45:04.8815214+02:00",
-  "UpdatedDate": "2012-05-24T14:45:04.8815214+02:00",
+  "IsZipped": false,
+  "MimeType": "minima",
+  "OriginalSize": 203,
+  "CreatedDate": "2017-11-25T10:17:55.1290102+01:00",
+  "UpdatedDate": "2003-05-13T10:17:55.1290102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repellendus"
+  "ConceptualType": "sunt"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 727,
-  "BlobSize": 91,
-  "Description": "Enhanced 4th generation budgetary management",
-  "ExtraInfo": "sequi",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "magnam",
-  "OriginalSize": 990,
-  "CreatedDate": "2010-09-12T14:45:04.8971429+02:00",
-  "UpdatedDate": "2008-06-10T14:45:04.8971429+02:00",
+  "BlobId": 993,
+  "BlobSize": 348,
+  "Description": "Profound zero defect model",
+  "ExtraInfo": "similique",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "eligendi",
+  "OriginalSize": 474,
+  "CreatedDate": "2005-01-23T10:17:55.1290102+01:00",
+  "UpdatedDate": "2020-06-14T10:17:55.1290102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor",
+  "ConceptualType": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldLength": 460
     }
   }
 }

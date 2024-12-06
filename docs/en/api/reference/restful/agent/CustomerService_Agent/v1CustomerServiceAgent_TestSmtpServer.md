@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "ea",
-  "From": "non",
+  "SmtpUri": "accusantium",
+  "From": "quae",
   "UseStoredPassword": false
 }
 ```
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "ErrorMessage": "exercitationem",
+  "Success": true,
+  "ErrorMessage": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldLength": 120
     }
   }
 }

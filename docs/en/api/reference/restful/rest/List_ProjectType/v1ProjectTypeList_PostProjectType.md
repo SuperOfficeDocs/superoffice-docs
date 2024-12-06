@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Rowe Group",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "UdListDefinitionId": 720,
-  "Rank": 156
+  "Id": 242,
+  "Name": "Stracke, Schneider and King",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 171,
+  "Rank": 13
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Olson, Breitenberg and King",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "UdListDefinitionId": 198,
-  "Rank": 923,
+  "Id": 982,
+  "Name": "Stoltenberg, Feest and Rippin",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "UdListDefinitionId": 230,
+  "Rank": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 354
     }
   }
 }

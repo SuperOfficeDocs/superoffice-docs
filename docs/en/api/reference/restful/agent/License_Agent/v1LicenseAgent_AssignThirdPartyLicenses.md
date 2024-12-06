@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 26,
-  "ModuleOwner": "tempora",
+  "AssociateId": 404,
+  "ModuleOwner": "non",
   "ModuleLicenseNames": [
-    "Shields, Lockman and Lynch",
-    "Franecki, Anderson and Hagenes"
+    "Erdman LLC",
+    "Carroll LLC"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 511,
-    "Tooltip": "eius",
+    "Unrestricted": false,
+    "Total": 179,
+    "Tooltip": "dignissimos",
     "CanAssign": false,
-    "Free": 940,
-    "InUse": 110,
+    "Free": 378,
+    "InUse": 673,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 487,
-    "Name": "Powlowski Inc and Sons",
-    "Description": "Persistent neutral forecast",
-    "PrerequisiteModuleName": "Mayert, Schumm and Bechtelar",
-    "SortOrder": 23,
-    "ExtraFlags": 238,
+    "ModuleLicenseId": 879,
+    "Name": "Stoltenberg LLC",
+    "Description": "Object-based client-server support",
+    "PrerequisiteModuleName": "Turcotte Inc and Sons",
+    "SortOrder": 52,
+    "ExtraFlags": 444,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

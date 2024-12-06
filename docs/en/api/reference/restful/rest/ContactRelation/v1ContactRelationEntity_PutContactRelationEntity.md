@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 898,
-  "SourcePersonId": 154,
-  "DestinationContactId": 436,
-  "DestinationPersonId": 428,
-  "RelationId": 524,
-  "Comment": "distinctio",
-  "RelationDefinitionId": 489,
-  "Reversed": 906,
-  "UpdatedDate": "2023-02-06T14:45:12.7088435+01:00",
-  "CreatedDate": "2005-07-21T14:45:12.7088435+02:00",
+  "SourceContactId": 58,
+  "SourcePersonId": 392,
+  "DestinationContactId": 127,
+  "DestinationPersonId": 374,
+  "RelationId": 590,
+  "Comment": "et",
+  "RelationDefinitionId": 339,
+  "Reversed": 820,
+  "UpdatedDate": "2006-02-16T10:18:00.3480699+01:00",
+  "CreatedDate": "2007-02-18T10:18:00.3480699+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kessler-Green",
-  "SourcePersonName": "Raynor Inc and Sons",
-  "DestinationContactName": "Bergstrom, Bins and Beer",
-  "DestinationPersonName": "Wehner Inc and Sons",
-  "ActiveText": "reprehenderit",
-  "PassiveText": "libero"
+  "SourceContactName": "Kshlerin, Little and Monahan",
+  "SourcePersonName": "Stoltenberg LLC",
+  "DestinationContactName": "Corkery, Williamson and Smith",
+  "DestinationPersonName": "Walter-Greenfelder",
+  "ActiveText": "omnis",
+  "PassiveText": "voluptas"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 890,
-  "SourcePersonId": 354,
-  "DestinationContactId": 659,
-  "DestinationPersonId": 966,
-  "RelationId": 975,
-  "Comment": "aperiam",
-  "RelationDefinitionId": 91,
-  "Reversed": 597,
-  "UpdatedDate": "2011-02-25T14:45:12.7244655+01:00",
-  "CreatedDate": "2008-12-17T14:45:12.7244655+01:00",
+  "SourceContactId": 572,
+  "SourcePersonId": 707,
+  "DestinationContactId": 575,
+  "DestinationPersonId": 337,
+  "RelationId": 287,
+  "Comment": "ut",
+  "RelationDefinitionId": 41,
+  "Reversed": 911,
+  "UpdatedDate": "1999-12-07T10:18:00.3480699+01:00",
+  "CreatedDate": "2003-01-04T10:18:00.3480699+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Denesik-Stamm",
-  "SourcePersonName": "VonRueden Group",
-  "DestinationContactName": "Schuppe, Greenholt and Ritchie",
-  "DestinationPersonName": "Ledner-Turner",
-  "ActiveText": "quia",
-  "PassiveText": "neque",
+  "SourceContactName": "Legros-Leannon",
+  "SourcePersonName": "Howell Inc and Sons",
+  "DestinationContactName": "Breitenberg Inc and Sons",
+  "DestinationPersonName": "Carroll, Howe and Schroeder",
+  "ActiveText": "voluptates",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 249
     }
   },
   "_Links": {

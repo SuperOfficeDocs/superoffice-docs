@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": true,
-      "Key": "id",
-      "ValueType": "molestias",
-      "Mandatory": true,
-      "EncodedDisplayName": "Macejkovic Inc and Sons",
-      "EncodedDisplayDescription": "Self-enabling tertiary groupware",
-      "IconHint": "itaque",
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": false,
+      "IsActive": false,
+      "Key": "dolorum",
+      "ValueType": "consequuntur",
+      "Mandatory": false,
+      "EncodedDisplayName": "Morar, Franecki and Bruen",
+      "EncodedDisplayDescription": "Quality-focused mobile initiative",
+      "IconHint": "enim",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "excepturi",
-      "EncodedDataCaptionDescription": "Phased high-level hardware",
-      "CurrentOperationType": "voluptatum",
+      "EncodedDataCaption": "fuga",
+      "EncodedDataCaptionDescription": "Enterprise-wide fault-tolerant focus group",
+      "CurrentOperationType": "iusto",
       "Values": [
-        "enim",
-        "aut"
+        "similique",
+        "delectus"
       ],
       "DisplayValues": [
-        "itaque",
-        "omnis"
+        "blanditiis",
+        "libero"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Turcotte Inc and Sons",
-  "Context": "quisquam",
-  "SelectionId": 70,
-  "IsShadow": false
+  "TableName": "Breitenberg, Ankunding and Rowe",
+  "Context": "blanditiis",
+  "SelectionId": 195,
+  "IsShadow": true
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-141
+486
 ```

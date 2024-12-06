@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 854
+  "ErpSyncConnectionId": 583
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Gulgowski LLC",
-  "DisplayDescription": "Total executive process improvement",
+  "DisplayName": "Barton-Cremin",
+  "DisplayDescription": "Digitized maximized customer loyalty",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2009-03-12T14:45:05.6001106+01:00",
+  "LastSync": "2020-05-19T10:17:55.6290333+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "est",
-      "Mappings": "tempora",
+      "Defaults": "fugit",
+      "Mappings": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 276
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "est",
-      "Mappings": "tempora",
+      "Defaults": "fugit",
+      "Mappings": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 276
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

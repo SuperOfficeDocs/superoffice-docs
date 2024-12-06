@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "tempora",
+    "Id": 104,
+    "Name": "Botsford LLC",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 511,
-    "Rank": 761
+    "UdListDefinitionId": 150,
+    "Rank": 943
   },
   {
-    "Id": 766,
-    "Name": "Collins Inc and Sons",
-    "Tooltip": "tempora",
+    "Id": 104,
+    "Name": "Botsford LLC",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 511,
-    "Rank": 761
+    "UdListDefinitionId": 150,
+    "Rank": 943
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Collier LLC",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 169,
-    "Rank": 840,
+    "Id": 436,
+    "Name": "Maggio Group",
+    "Tooltip": "accusamus",
+    "Deleted": true,
+    "UdListDefinitionId": 624,
+    "Rank": 190,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldType": "System.String",
+        "FieldLength": 43
       }
     }
   }

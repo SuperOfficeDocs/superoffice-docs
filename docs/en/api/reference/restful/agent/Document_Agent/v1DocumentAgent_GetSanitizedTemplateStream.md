@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kub-Bartoletti",
-  "AllowPersonal": true,
-  "UiCulture": "sint"
+  "TemplateName": "Jewess, Gottlieb and Turcotte",
+  "AllowPersonal": false,
+  "UiCulture": "laboriosam"
 }
 ```
 

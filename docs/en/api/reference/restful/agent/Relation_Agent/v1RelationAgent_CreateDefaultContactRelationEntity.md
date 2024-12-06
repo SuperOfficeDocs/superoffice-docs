@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 708,
-  "SourcePersonId": 225,
-  "DestinationContactId": 845,
-  "DestinationPersonId": 376,
-  "RelationId": 582,
-  "Comment": "cum",
-  "RelationDefinitionId": 889,
-  "Reversed": 773,
-  "UpdatedDate": "2023-09-18T14:45:06.0999998+02:00",
-  "CreatedDate": "2013-10-02T14:45:06.0999998+02:00",
+  "SourceContactId": 493,
+  "SourcePersonId": 687,
+  "DestinationContactId": 101,
+  "DestinationPersonId": 397,
+  "RelationId": 787,
+  "Comment": "numquam",
+  "RelationDefinitionId": 204,
+  "Reversed": 635,
+  "UpdatedDate": "2021-10-01T10:17:55.9571855+02:00",
+  "CreatedDate": "1998-07-14T10:17:55.9571855+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Koepp, Schowalter and Bruen",
-  "SourcePersonName": "Frami-Haley",
-  "DestinationContactName": "Bogisich, Kozey and Hoeger",
-  "DestinationPersonName": "Crist Group",
-  "ActiveText": "non",
-  "PassiveText": "quis",
+  "SourceContactName": "Botsford, Carter and Franecki",
+  "SourcePersonName": "Herman LLC",
+  "DestinationContactName": "Baumbach, Jacobs and Heathcote",
+  "DestinationPersonName": "Ferry-O'Connell",
+  "ActiveText": "sapiente",
+  "PassiveText": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

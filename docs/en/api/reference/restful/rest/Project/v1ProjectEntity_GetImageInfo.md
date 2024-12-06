@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 20 Nov 1997 14:45:12 G11T
+Last-Modified: Fri, 11 Oct 2013 10:18:00 G10T
 
 {
-  "BlobId": 485,
-  "BlobSize": 124,
-  "Description": "Ameliorated client-driven budgetary management",
-  "ExtraInfo": "in",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "odio",
-  "OriginalSize": 520,
-  "CreatedDate": "2017-01-13T14:45:12.9900307+01:00",
-  "UpdatedDate": "1997-11-20T14:45:12.9900307+01:00",
+  "BlobId": 974,
+  "BlobSize": 722,
+  "Description": "Cross-platform responsive model",
+  "ExtraInfo": "nostrum",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "qui",
+  "OriginalSize": 353,
+  "CreatedDate": "2017-06-08T10:18:00.5199623+02:00",
+  "UpdatedDate": "2013-10-11T10:18:00.5199623+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempora",
+  "ConceptualType": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 275
     }
   }
 }

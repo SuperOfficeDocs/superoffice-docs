@@ -119,31 +119,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 991,
-  "Name": "Weimann-Rath",
-  "Rank": 271,
-  "Tooltip": "eum",
-  "Icon": "corrupti",
-  "DefaultTicketStatus": 175,
+  "TicketTypeId": 215,
+  "Name": "West Group",
+  "Rank": 87,
+  "Tooltip": "dicta",
+  "Icon": "ducimus",
+  "DefaultTicketStatus": 711,
   "TicketStatuses": [
-    937,
-    142
+    38,
+    763
   ],
-  "DefaultTicketPriority": 957,
+  "DefaultTicketPriority": 174,
   "TicketPriorities": [
-    728,
-    237
+    723,
+    125
   ],
-  "ReplyTemplate": 369,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 926,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    78,
-    920
+    302,
+    66
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -157,31 +157,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 549,
-  "Name": "Grady-Kling",
-  "Rank": 709,
-  "Tooltip": "velit",
-  "Icon": "et",
-  "DefaultTicketStatus": 159,
+  "TicketTypeId": 413,
+  "Name": "Green-Wunsch",
+  "Rank": 821,
+  "Tooltip": "voluptates",
+  "Icon": "aperiam",
+  "DefaultTicketStatus": 379,
   "TicketStatuses": [
-    690,
-    165
+    525,
+    659
   ],
-  "DefaultTicketPriority": 709,
+  "DefaultTicketPriority": 646,
   "TicketPriorities": [
-    789,
-    575
+    823,
+    727
   ],
-  "ReplyTemplate": 154,
+  "ReplyTemplate": 413,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    374,
-    964
+    744,
+    845
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -189,13 +189,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 101
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -94,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2020-01-12T14:45:05.0689788+01:00",
+  "ActivityStartTime": "2001-05-21T10:17:55.2540178+02:00",
   "ContactCategories": [
-    990,
-    905
+    811,
+    351
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 37,
+    "ContactId": 947,
     "Department": "",
-    "OrgNr": "789562",
-    "Name": "Simonis-Nader",
+    "OrgNr": "693351",
+    "Name": "Kris Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Orpha Reichel",
+    "AssociateFullName": "Miss Arjun Collins DVM",
     "Action": "ActivityCompleted",
-    "ActionTime": "2017-11-06T14:45:05.0689788+01:00",
+    "ActionTime": "2001-06-19T10:17:55.2540178+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Lindgren LLC",
-    "ActionId": 645,
-    "PersonId": 24,
-    "ActivityPersonId": 195,
-    "AssociateId": 156,
+    "ActivityPersonName": "Johnston Inc and Sons",
+    "ActionId": 140,
+    "PersonId": 102,
+    "ActivityPersonId": 658,
+    "AssociateId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 366
       }
     }
   }

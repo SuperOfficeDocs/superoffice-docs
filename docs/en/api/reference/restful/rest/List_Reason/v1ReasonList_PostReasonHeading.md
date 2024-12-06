@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 795,
-  "Name": "McGlynn, Kutch and Schmitt",
-  "Tooltip": "architecto",
-  "Deleted": true,
-  "Rank": 138,
-  "UdListDefinitionId": 753
+  "HeadingId": 478,
+  "Name": "Gusikowski-Stamm",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 983,
+  "UdListDefinitionId": 396
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 550,
-  "Name": "Trantow-Wilderman",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 101,
+  "Name": "Reichel, Zulauf and Haley",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 854,
-  "UdListDefinitionId": 431,
+  "Rank": 255,
+  "UdListDefinitionId": 240,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

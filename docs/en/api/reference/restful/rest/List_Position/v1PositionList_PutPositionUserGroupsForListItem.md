@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Lemke Inc and Sons",
-    "ToolTip": "Voluptatem id facilis dolores incidunt suscipit aperiam alias.",
+    "Id": 915,
+    "Name": "Schuster LLC",
+    "ToolTip": "Ut qui qui sequi.",
     "Deleted": false,
-    "Rank": 848,
-    "Type": "dolor",
-    "ColorBlock": 280,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "1999-11-16T14:45:13.7554843+01:00",
+    "Rank": 847,
+    "Type": "eligendi",
+    "ColorBlock": 379,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2019-01-19T10:18:01.0668705+01:00",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Douglas-Sawayn",
-        "ToolTip": "Aperiam perspiciatis dolorum exercitationem sequi ullam harum doloremque.",
+        "Id": 781,
+        "Name": "Schulist Inc and Sons",
+        "ToolTip": "Libero quia.",
         "Deleted": true,
-        "Rank": 86,
-        "Type": "ipsa",
-        "ColorBlock": 270,
-        "IconHint": "enim",
+        "Rank": 718,
+        "Type": "minus",
+        "ColorBlock": 706,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "1999-10-11T14:45:13.7554843+02:00",
+        "LastChanged": "2012-08-16T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "quisquam",
-        "Hidden": false,
-        "FullName": "Dr. Rae Aufderhar"
+        "ExtraInfo": "quam",
+        "StyleHint": "fuga",
+        "Hidden": true,
+        "FullName": "Mrs. Esperanza Runte II"
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "provident",
-    "Hidden": true,
-    "FullName": "Destiny Gaylord"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Mrs. Russel Treutel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Herzog, Pacocha and Dicki",
-    "ToolTip": "Rerum et nihil eos voluptatem consequuntur nostrum.",
-    "Deleted": false,
-    "Rank": 597,
-    "Type": "praesentium",
-    "ColorBlock": 907,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2006-01-27T14:45:13.7711051+01:00",
+    "Id": 283,
+    "Name": "Kunde, Bradtke and Boehm",
+    "ToolTip": "Sed dolor voluptate sunt qui libero voluptate molestias.",
+    "Deleted": true,
+    "Rank": 617,
+    "Type": "quae",
+    "ColorBlock": 487,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2002-09-02T10:18:01.0668705+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Emmerich-Kulas",
-        "ToolTip": "Doloremque enim consectetur saepe enim est iusto in.",
+        "Id": 492,
+        "Name": "Pacocha-Feeney",
+        "ToolTip": "Officiis adipisci aperiam quasi doloremque rerum fugiat.",
         "Deleted": false,
-        "Rank": 217,
-        "Type": "voluptates",
-        "ColorBlock": 691,
-        "IconHint": "doloribus",
+        "Rank": 624,
+        "Type": "fugiat",
+        "ColorBlock": 485,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2017-05-20T14:45:13.7711051+02:00",
+        "LastChanged": "2002-11-08T10:18:01.0668705+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "aut",
+        "ExtraInfo": "sed",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Olen Jerde",
+        "FullName": "Amie Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 611
+            "FieldType": "System.Int32",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "iure",
+    "ExtraInfo": "tempora",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Ms. Vallie Greenfelder Sr.",
+    "FullName": "Ryleigh Horace Buckridge PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   }

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 778,
-  "Currency": "est"
+  "QuoteConnectionId": 941,
+  "Currency": "iste"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 845,
-    "ERPPriceListKey": "ad",
-    "QuoteConnectionId": 742,
-    "Name": "Erdman, Will and Carter",
-    "Description": "Pre-emptive transitional secured line",
-    "Currency": "vitae",
-    "CurrencyName": "Watsica Inc and Sons",
-    "ValidFrom": "2018-06-17T14:45:06.0687573+02:00",
-    "ValidTo": "2000-08-27T14:45:06.0687573+02:00",
-    "IsActive": true,
+    "PriceListId": 317,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 792,
+    "Name": "Volkman-Haag",
+    "Description": "Polarised eco-centric superstructure",
+    "Currency": "eum",
+    "CurrencyName": "Gusikowski Group",
+    "ValidFrom": "2007-10-05T10:17:55.9415595+02:00",
+    "ValidTo": "2024-11-09T10:17:55.9415595+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 843
       }
     }
   }

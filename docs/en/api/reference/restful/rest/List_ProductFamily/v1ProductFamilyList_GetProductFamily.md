@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Davis-Greenfelder",
-  "Tooltip": "cum",
+  "Id": 628,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "UdListDefinitionId": 882,
-  "Rank": 97,
+  "UdListDefinitionId": 152,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 357,
-  "Name": "Parker-Medhurst",
-  "Tooltip": "dignissimos",
+  "RoleId": 958,
+  "Name": "Bahringer LLC",
+  "Tooltip": "facilis",
   "RoleType": "Anonymous",
-  "Deleted": 108,
-  "Rank": 96,
-  "Created": "1998-10-21T14:45:06.6155103+02:00",
-  "UseCategories": 619,
+  "Deleted": 334,
+  "Rank": 160,
+  "Created": "2021-04-24T10:17:56.3165751+02:00",
+  "UseCategories": 285,
   "CreatedBy": null,
-  "Updated": "2023-09-04T14:45:06.6155103+02:00",
+  "Updated": "2020-03-29T10:17:56.3165751+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 62
     }
   }
 }

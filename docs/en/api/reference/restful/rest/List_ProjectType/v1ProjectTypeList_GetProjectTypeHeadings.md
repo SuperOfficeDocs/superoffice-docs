@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Rowe Group",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 614,
-    "UdListDefinitionId": 695,
+    "HeadingId": 893,
+    "Name": "Nolan-Ortiz",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 690,
+    "UdListDefinitionId": 448,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 407
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 923,
-    "Name": "Weimann-Runolfsson",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 101,
-    "UdListDefinitionId": 877,
+    "HeadingId": 91,
+    "Name": "Bogan, Bradtke and Bartoletti",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 244,
+    "UdListDefinitionId": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 135
       }
     }
   }

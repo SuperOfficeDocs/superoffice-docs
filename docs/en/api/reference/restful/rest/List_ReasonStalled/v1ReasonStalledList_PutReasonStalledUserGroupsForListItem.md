@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Wolff LLC",
-    "ToolTip": "Est assumenda nam corrupti ea dolor aut.",
+    "Id": 373,
+    "Name": "Klocko Group",
+    "ToolTip": "Voluptatem est nam alias vel rem.",
     "Deleted": false,
-    "Rank": 297,
-    "Type": "aut",
-    "ColorBlock": 910,
-    "IconHint": "iure",
+    "Rank": 140,
+    "Type": "neque",
+    "ColorBlock": 430,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2006-03-31T14:45:13.9116989+02:00",
+    "LastChanged": "2008-04-14T10:18:01.1450002+02:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Wisozk, Frami and Stanton",
-        "ToolTip": "Temporibus quas blanditiis eius.",
-        "Deleted": false,
-        "Rank": 801,
-        "Type": "odio",
-        "ColorBlock": 717,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "2022-07-07T14:45:13.9116989+02:00",
+        "Id": 83,
+        "Name": "Smitham, Connelly and Kemmer",
+        "ToolTip": "Aut asperiores at dolor.",
+        "Deleted": true,
+        "Rank": 347,
+        "Type": "vero",
+        "ColorBlock": 215,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2007-08-12T10:18:01.1450002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "quia",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Miss Karlee Tillman MD"
+        "FullName": "Prof. Elbert Kunze"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Dr. Moriah Carleton Fadel I"
+    "ExtraInfo": "rem",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Alivia Parisian"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Rodriguez-Christiansen",
-    "ToolTip": "Omnis et aperiam ut nam dolores quia.",
-    "Deleted": false,
-    "Rank": 858,
-    "Type": "ullam",
-    "ColorBlock": 876,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2018-06-26T14:45:13.9116989+02:00",
+    "Id": 719,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Facere velit.",
+    "Deleted": true,
+    "Rank": 974,
+    "Type": "qui",
+    "ColorBlock": 880,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2021-08-30T10:18:01.1450002+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Feest-Pfeffer",
-        "ToolTip": "Qui omnis.",
-        "Deleted": true,
-        "Rank": 772,
-        "Type": "aut",
-        "ColorBlock": 838,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "2024-11-18T14:45:13.9116989+01:00",
+        "Id": 883,
+        "Name": "O'Connell-Kris",
+        "ToolTip": "Et aut et iste ipsa velit minus debitis.",
+        "Deleted": false,
+        "Rank": 736,
+        "Type": "dolor",
+        "ColorBlock": 134,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2024-06-14T10:18:01.1450002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Terrill Goldner",
+        "ExtraInfo": "et",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Steve Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldType": "System.String",
+            "FieldLength": 491
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mr. Alf Terrence Mohr Jr.",
+    "FullName": "Arnaldo Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 695
       }
     }
   }

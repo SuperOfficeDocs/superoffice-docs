@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 892,
-    "ParentId": 689,
-    "Name": "Rath, Jacobson and Strosin",
-    "Fullname": "quo",
-    "CategoryMaster": 85,
+    "TicketCategoryId": 766,
+    "ParentId": 420,
+    "Name": "Wiegand, Jacobs and Wyman",
+    "Fullname": "asperiores",
+    "CategoryMaster": 993,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Jacobs-Stoltenberg",
+    "ExternalName": "Stark LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 381,
-    "ReplyTemplate": 32,
-    "NotificationEmail": "roscoe_green@stokes.biz",
+    "AssignmentLag": 171,
+    "ReplyTemplate": 172,
+    "NotificationEmail": "kristofer@dare.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 354,
+    "EffectiveReplyTemplateId": 319,
     "ExtraFields": {
-      "ExtraFields1": "est",
-      "ExtraFields2": "doloribus"
+      "ExtraFields1": "similique",
+      "ExtraFields2": "doloremque"
     },
     "CustomFields": {
-      "CustomFields1": "incidunt",
-      "CustomFields2": "beatae"
+      "CustomFields1": "non",
+      "CustomFields2": "iure"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 739
       }
     }
   }

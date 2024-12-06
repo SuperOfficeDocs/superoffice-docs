@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 116,
-    "Name": "Lind, West and Dach",
-    "Tooltip": "corporis",
-    "SaveInDb": 312,
-    "Filename": "ab",
-    "DefaultOref": "laudantium",
+    "DocumentTemplateId": 347,
+    "Name": "Runolfsdottir-Schaefer",
+    "Tooltip": "necessitatibus",
+    "SaveInDb": 261,
+    "Filename": "doloribus",
+    "DefaultOref": "temporibus",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 928,
-    "IntentId": 213,
+    "AutoeventId": 688,
+    "IntentId": 774,
     "IsDefaultPublished": false,
-    "Rank": 376,
-    "LoadTemplateFromPlugin": 621,
-    "MimeType": "qui",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 470,
+    "Rank": 556,
+    "LoadTemplateFromPlugin": 546,
+    "MimeType": "magni",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 953,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "peggie.collier@gaylord.name",
-    "IncludeSignature": false,
+    "EmailSubject": "sincere.goodwin@blockbotsford.co.uk",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "colin.labadie@huelhyatt.uk",
+    "SenderEmailAddress": "leonel.borer@cartwrightklocko.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

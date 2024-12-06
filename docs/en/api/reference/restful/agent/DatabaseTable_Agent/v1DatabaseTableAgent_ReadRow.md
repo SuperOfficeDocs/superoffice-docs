@@ -78,8 +78,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Macejkovic-Wolff",
-  "Id": 45
+  "TableName": "Dickens LLC",
+  "Id": 463
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "et",
-    "Values2": "explicabo"
+    "Values1": "qui",
+    "Values2": "quas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 767
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Hartmann-Rowe",
-    "ToolTip": "Cum aliquid officia eos molestiae similique eum id.",
+    "Id": 708,
+    "Name": "McKenzie, Feil and Goldner",
+    "ToolTip": "Vel eum odit modi et voluptas.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "explicabo",
-    "ColorBlock": 217,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2014-11-03T14:45:13.833594+01:00",
+    "Rank": 89,
+    "Type": "exercitationem",
+    "ColorBlock": 542,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2004-02-02T10:18:01.1137483+01:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Emmerich, Ward and Shields",
-        "ToolTip": "Blanditiis est repellat voluptate optio perferendis cum.",
-        "Deleted": true,
-        "Rank": 319,
-        "Type": "et",
-        "ColorBlock": 759,
-        "IconHint": "nobis",
+        "Id": 504,
+        "Name": "Ward Group",
+        "ToolTip": "Vitae sunt sit ea dignissimos numquam fugit praesentium.",
+        "Deleted": false,
+        "Rank": 568,
+        "Type": "at",
+        "ColorBlock": 450,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2022-05-22T14:45:13.833594+02:00",
+        "LastChanged": "2001-04-20T10:18:01.1137483+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "omnis",
+        "ExtraInfo": "tempore",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Laverne Haag",
+        "FullName": "Lorine Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 625
+            "FieldType": "System.String",
+            "FieldLength": 39
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Mrs. Bobbie Dawn Quigley",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Reece Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldLength": 848
       }
     }
   }

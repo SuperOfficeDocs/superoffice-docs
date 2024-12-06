@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 497,
-  "QuoteAlternativeId": 101,
-  "QuoteAlternativeName": "Hilll, Smith and Volkman"
+  "QuoteVersionId": 60,
+  "QuoteAlternativeId": 845,
+  "QuoteAlternativeName": "Streich-Becker"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 309,
-  "ERPQuoteAlternativeKey": "doloribus",
-  "QuoteVersionId": 849,
-  "Name": "Lynch-Becker",
-  "Description": "Pre-emptive high-level local area network",
+  "QuoteAlternativeId": 370,
+  "ERPQuoteAlternativeKey": "voluptate",
+  "QuoteVersionId": 383,
+  "Name": "Rodriguez, Doyle and Deckow",
+  "Description": "Persistent homogeneous Graphic Interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21978.742,
-  "ERPDiscountAmount": 5666.272,
-  "DiscountPercent": 2779.8579999999997,
-  "DiscountAmount": 17349.824,
+  "ERPDiscountPercent": 29105.458,
+  "ERPDiscountAmount": 12940.286,
+  "DiscountPercent": 29964.174,
+  "DiscountAmount": 21483.57,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "earum",
-  "VAT": 19411.996,
-  "EarningPercent": 19888.363999999998,
-  "EarningAmount": 1021.684,
-  "SubTotal": 2616.89,
-  "TotalPrice": 15657.464,
-  "ExtraField1": "eaque",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "veniam",
-  "ExtraField4": "inventore",
-  "ExtraField5": "voluptatibus",
+  "VATInfo": "doloremque",
+  "VAT": 10727.681999999999,
+  "EarningPercent": 10564.714,
+  "EarningAmount": 17898.273999999998,
+  "SubTotal": 7816.196,
+  "TotalPrice": 9903.44,
+  "ExtraField1": "eligendi",
+  "ExtraField2": "tempore",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "aut",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 558
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Schmitt, Witting and Grant",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 675,
-  "IsCustomList": false,
+  "Id": 709,
+  "Name": "Anderson, Farrell and Johnson",
+  "Tooltip": "officia",
+  "Deleted": false,
+  "Rank": 577,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 715
     }
   },
   "_Links": {

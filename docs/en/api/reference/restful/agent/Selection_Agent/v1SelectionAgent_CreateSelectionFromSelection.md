@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 761,
-  "Name": "Russel Group",
+  "SelectionId": 846,
+  "Name": "Grimes LLC",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated demand-driven instruction set",
-  "Postit": "temporibus",
+  "Description": "Monitored bottom-line open architecture",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 416,
-  "IncludePerson": 273,
+  "GroupIdx": 796,
+  "IncludePerson": 335,
   "MemberCount": 99.99,
-  "Name": "Tromp Inc and Sons",
-  "PostitTextId": 918,
-  "CreatedDate": "2007-11-23T14:45:06.240594+01:00",
-  "SelectionId": 854,
-  "SoundEx": "et",
-  "Source": 283,
-  "TextId": 6,
-  "UpdatedDate": "2001-06-30T14:45:06.240594+02:00",
-  "UpdatedCount": 969,
-  "Visibility": 6,
+  "Name": "Klein, Hudson and Feeney",
+  "PostitTextId": 281,
+  "CreatedDate": "2003-01-07T10:17:56.0509411+01:00",
+  "SelectionId": 1000,
+  "SoundEx": "dolorem",
+  "Source": 764,
+  "TextId": 181,
+  "UpdatedDate": "2014-02-11T10:17:56.0509411+01:00",
+  "UpdatedCount": 408,
+  "Visibility": 340,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 974,
-  "TargetTableName": "Bailey, Schinner and Rempel",
-  "Completed": true,
-  "LeftSelectionId": 11,
-  "RightSelectionId": 523,
+  "TargetTableNumber": 563,
+  "TargetTableName": "Gutkowski LLC",
+  "Completed": false,
+  "LeftSelectionId": 346,
+  "RightSelectionId": 858,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Halvorson, Reilly and Ratke",
-  "ShadowProviderName": "Hagenes-Abshire",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2024-08-24T14:45:06.240594+02:00",
-  "LastLoadedBy": 440,
+  "MainProviderName": "Emard LLC",
+  "ShadowProviderName": "DuBuque Inc and Sons",
+  "ChartKey": "consequatur",
+  "LastLoaded": "2011-08-31T10:17:56.0509411+02:00",
+  "LastLoadedBy": 370,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-06-13T14:45:06.240594+02:00",
-  "LastMembershipChangeBy": 637,
+  "LastMembershipChange": "2003-03-13T10:17:56.0509411+01:00",
+  "LastMembershipChangeBy": 869,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "libero",
-  "MailingsProviderName": "Von-Harber",
-  "DashboardTileDefinitionId": 394,
+  "MainHeading": "aut",
+  "MemberTabHeading": "quisquam",
+  "MailingsProviderName": "Pagac-Ullrich",
+  "DashboardTileDefinitionId": 513,
   "VisibleFor": [
     {
-      "VisibleId": 363,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldType": "System.String",
+          "FieldLength": 840
         }
       }
     },
     {
-      "VisibleId": 363,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 716
+          "FieldType": "System.String",
+          "FieldLength": 840
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

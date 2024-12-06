@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 417,
-    "Tooltip": "sint",
+    "Total": 485,
+    "Tooltip": "quia",
     "CanAssign": false,
-    "Free": 30,
-    "InUse": 849,
+    "Free": 462,
+    "InUse": 102,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 748,
-    "Name": "Hessel-Marks",
-    "Description": "Inverse upward-trending product",
-    "PrerequisiteModuleName": "Towne Inc and Sons",
-    "SortOrder": 117,
-    "ExtraFlags": 240,
+    "ModuleLicenseId": 202,
+    "Name": "Satterfield, Dooley and Mraz",
+    "Description": "Cross-group directional paradigm",
+    "PrerequisiteModuleName": "Feest, Mueller and Hessel",
+    "SortOrder": 382,
+    "ExtraFlags": 524,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

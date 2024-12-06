@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Sporer, Schinner and Sanford",
-  "DeviceName": "Predovic-Toy",
-  "DeviceIdentifier": "dolores"
+  "ApplicationName": "Bayer, Treutel and Littel",
+  "DeviceName": "Balistreri Group",
+  "DeviceIdentifier": "cum"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "temporibus",
-  "RecordId": 426,
-  "CreatedDate": "2016-10-22T14:45:05.6469762+02:00",
-  "UpdatedDate": "2020-09-15T14:45:05.6469762+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "ea",
-  "TableName": "Osinski-Jakubowski",
+  "Key": "unde",
+  "Value": "adipisci",
+  "RecordId": 385,
+  "CreatedDate": "2010-05-26T10:17:55.660285+02:00",
+  "UpdatedDate": "2015-10-11T10:17:55.660285+02:00",
+  "UpdatedBy": "vitae",
+  "CreatedBy": "magni",
+  "TableName": "Ortiz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Terry Inc and Sons",
-    "ToolTip": "Quos saepe dolor ratione et.",
-    "Deleted": false,
-    "Rank": 745,
-    "Type": "qui",
-    "ColorBlock": 535,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2011-12-19T14:45:13.8648346+01:00",
+    "Id": 833,
+    "Name": "Harris, Jewess and Bernhard",
+    "ToolTip": "Aut neque maxime perspiciatis culpa.",
+    "Deleted": true,
+    "Rank": 679,
+    "Type": "consequatur",
+    "ColorBlock": 397,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2016-03-22T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "O'Connell-Beatty",
-        "ToolTip": "Nam dolorum rerum perspiciatis.",
-        "Deleted": false,
-        "Rank": 704,
-        "Type": "atque",
-        "ColorBlock": 188,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2012-08-05T14:45:13.8648346+02:00",
+        "Id": 13,
+        "Name": "Nicolas Group",
+        "ToolTip": "Praesentium vel eum minima.",
+        "Deleted": true,
+        "Rank": 816,
+        "Type": "quia",
+        "ColorBlock": 836,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2012-10-03T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Ms. Kaela Cassidy Blanda"
+        "FullName": "Albert Reichert"
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "saepe",
+    "ExtraInfo": "eum",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Lea Tromp Jr."
+    "FullName": "Mario Koepp"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Champlin-Christiansen",
-    "ToolTip": "Veniam suscipit eum optio voluptas distinctio at consequatur.",
+    "Id": 923,
+    "Name": "Bergstrom, O'Hara and Russel",
+    "ToolTip": "Dolor nihil nam possimus.",
     "Deleted": false,
-    "Rank": 928,
-    "Type": "harum",
-    "ColorBlock": 30,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2012-07-02T14:45:13.8804606+02:00",
+    "Rank": 989,
+    "Type": "ipsa",
+    "ColorBlock": 761,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2001-02-03T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Cremin Inc and Sons",
-        "ToolTip": "Possimus et ea sapiente.",
-        "Deleted": false,
-        "Rank": 222,
-        "Type": "autem",
-        "ColorBlock": 550,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2000-03-08T14:45:13.8804606+01:00",
+        "Id": 871,
+        "Name": "Padberg Group",
+        "ToolTip": "Necessitatibus et asperiores.",
+        "Deleted": true,
+        "Rank": 854,
+        "Type": "odio",
+        "ColorBlock": 404,
+        "IconHint": "optio",
+        "Selected": false,
+        "LastChanged": "2024-09-24T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Braulio Lakin",
+        "ExtraInfo": "autem",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Ms. Xzavier Lowe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldType": "System.String",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "rerum",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Dr. Gussie Rebekah Wilkinson",
+    "FullName": "Ansel Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 416
       }
     }
   }

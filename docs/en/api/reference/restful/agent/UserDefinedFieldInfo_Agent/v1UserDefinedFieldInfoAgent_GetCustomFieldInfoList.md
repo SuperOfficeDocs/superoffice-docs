@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ratke Inc and Sons",
+  "TableName": "Dooley-Kris",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Goyette-Pfannerstill",
-    "DisplayName": "Ward, Wisozk and Rosenbaum",
-    "Description": "Configurable asynchronous archive",
-    "ShortLabel": "iste",
+    "FieldName": "Ryan LLC",
+    "DisplayName": "Flatley-Nader",
+    "Description": "Enhanced web-enabled collaboration",
+    "ShortLabel": "iusto",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 183,
-    "TemplateVariableName": "Smitham LLC"
+    "IsDisplayField": true,
+    "Rank": 525,
+    "TemplateVariableName": "Wilderman, Conroy and Emard"
   }
 ]
 ```

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "vel"
+  "MimeMessage": "ab"
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 200,
-      "ContactName": "Gulgowski, Steuber and Bode",
-      "PersonId": 76,
-      "PersonName": "Russel, Bartell and Bogisich",
-      "AssociateId": 643,
-      "Address": "vitae",
-      "EmailId": 472,
+      "ContactId": 643,
+      "ContactName": "Satterfield, Carter and Friesen",
+      "PersonId": 290,
+      "PersonName": "Bailey Group",
+      "AssociateId": 117,
+      "Address": "enim",
+      "EmailId": 911,
       "DuplicatePersonIds": [
-        726,
-        602
+        553,
+        951
       ],
-      "Name": "Jones LLC",
+      "Name": "Sanford, Homenick and Ernser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 145
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 302,
-      "ContactName": "Collier-Altenwerth",
-      "PersonId": 129,
-      "PersonName": "McDermott Group",
-      "AssociateId": 594,
-      "Address": "labore",
-      "EmailId": 435,
+      "ContactId": 206,
+      "ContactName": "Torphy-Jerde",
+      "PersonId": 680,
+      "PersonName": "Herman, Von and Mosciski",
+      "AssociateId": 893,
+      "Address": "corrupti",
+      "EmailId": 818,
       "DuplicatePersonIds": [
-        955,
-        36
+        7,
+        588
       ],
-      "Name": "Ratke-Prohaska",
+      "Name": "Ebert LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 644
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 904,
-      "ContactName": "Jacobs-D'Amore",
-      "PersonId": 825,
-      "PersonName": "Donnelly Inc and Sons",
-      "AssociateId": 31,
-      "Address": "at",
-      "EmailId": 541,
+      "ContactId": 237,
+      "ContactName": "Fritsch-Yundt",
+      "PersonId": 517,
+      "PersonName": "Strosin-Hodkiewicz",
+      "AssociateId": 745,
+      "Address": "maiores",
+      "EmailId": 634,
       "DuplicatePersonIds": [
-        912,
-        606
+        203,
+        987
       ],
-      "Name": "Stamm-Hane",
+      "Name": "DuBuque Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 401
+          "FieldType": "System.String",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "Subject": "doloremque",
-  "HTMLBody": "quis",
+  "Subject": "similique",
+  "HTMLBody": "amet",
   "From": null,
-  "Sent": "2004-07-21T14:45:05.568868+02:00",
-  "Size": 98,
+  "Sent": "2021-06-05T10:17:55.6134076+02:00",
+  "Size": 773,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "a",
-  "PlainBody": "laborum",
+  "MessageID": "quas",
+  "PlainBody": "modi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 942,
+  "ServerId": 313,
   "Attachments": [
     {
-      "Description": "Business-focused executive neural-net",
-      "Filename": "et",
-      "Size": 837,
-      "Type": "nesciunt",
-      "Encoding": "quos",
-      "Id": "tenetur",
-      "Disposition": "quia",
+      "Description": "Networked attitude-oriented throughput",
+      "Filename": "voluptatum",
+      "Size": 197,
+      "Type": "reprehenderit",
+      "Encoding": "rem",
+      "Id": "qui",
+      "Disposition": "laborum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mraz-Reichert",
+      "Name": "Bogisich, Boyle and Deckow",
       "Values": [
-        "occaecati",
-        "est"
+        "vitae",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 165
         }
       }
     },
     {
-      "Name": "Mraz-Reichert",
+      "Name": "Bogisich, Boyle and Deckow",
       "Values": [
-        "occaecati",
-        "est"
+        "vitae",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 165
         }
       }
     }
   ],
-  "FolderName": "Lehner, Heaney and Klocko",
-  "EmailItemId": 448,
-  "AccountId": 522,
-  "ReceivedAt": "2020-05-09T14:45:05.568868+02:00",
+  "FolderName": "Kling LLC",
+  "EmailItemId": 692,
+  "AccountId": 693,
+  "ReceivedAt": "2016-04-21T10:17:55.6134076+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-07-23T14:45:05.568868+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2008-04-11T10:17:55.6134076+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

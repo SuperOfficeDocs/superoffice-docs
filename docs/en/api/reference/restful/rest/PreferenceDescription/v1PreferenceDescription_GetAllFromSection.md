@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 684,
-    "Section": "et",
-    "Key": "quia",
-    "Name": "Walker Group",
+    "PrefDescId": 527,
+    "Section": "autem",
+    "Key": "dolorem",
+    "Name": "Stehr, Ebert and Schmeler",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Polarised logistical approach",
+    "Description": "Proactive neutral secured line",
     "IsBuiltin": false,
-    "TableName": "Johnson Group",
-    "UserDefinedListId": 89,
-    "Rank": 622,
-    "SubGroup": "animi",
-    "MinLevel": 516,
-    "MaxValue": 145,
-    "MinValue": 28,
-    "RequiredLicense": "aperiam",
+    "TableName": "Franecki, Ernser and D'Amore",
+    "UserDefinedListId": 643,
+    "Rank": 585,
+    "SubGroup": "sunt",
+    "MinLevel": 517,
+    "MaxValue": 611,
+    "MinValue": 563,
+    "RequiredLicense": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 662
       }
     }
   }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reichert, Weber and Lesch",
-  "DeviceName": "Harris-Morissette",
-  "DeviceIdentifier": "quod"
+  "ApplicationName": "Cormier-Lockman",
+  "DeviceName": "Kihn Inc and Sons",
+  "DeviceIdentifier": "dolorem"
 }
 ```
 

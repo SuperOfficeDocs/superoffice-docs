@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "a",
-  "ProviderName": "O'Hara, Jacobson and Beatty",
-  "StorageKey": "qui",
+  "StorageType": "commodi",
+  "ProviderName": "McClure, Hilpert and Deckow",
+  "StorageKey": "neque",
   "Restrictions": [
     {
-      "Name": "O'Kon-Bahringer",
-      "Operator": "voluptatem",
+      "Name": "Dicki, Marvin and Jast",
+      "Operator": "molestias",
       "Values": [
-        "quidem",
+        "facilis",
         "occaecati"
       ],
       "DisplayValues": [
-        "molestias",
-        "aut"
+        "tenetur",
+        "dolore"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 132,
+      "InterParenthesis": 158,
       "InterOperator": "And",
-      "UniqueHash": 518
+      "UniqueHash": 221
     }
   ],
   "StaticColumns": [
-    "eaque",
-    "non"
+    "officia",
+    "tenetur"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Volkman-Parker",
-      "Operator": "qui",
+      "Name": "Mayer-Schiller",
+      "Operator": "hic",
       "Values": [
-        "dolorem",
-        "corporis"
+        "ullam",
+        "aut"
       ],
       "DisplayValues": [
-        "enim",
-        "in"
+        "voluptatem",
+        "nemo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 666,
+      "InterParenthesis": 273,
       "InterOperator": "And",
-      "UniqueHash": 912
+      "UniqueHash": 733
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lakin Group",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "similique",
+      "DisplayName": "Lockman, Yundt and Grant",
+      "DisplayTooltip": "possimus",
+      "DisplayType": "ducimus",
       "CanOrderBy": false,
-      "Name": "Armstrong Inc and Sons",
+      "Name": "Schultz LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "iure",
-      "RestrictionListName": "Marvin Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "sequi",
-      "Width": "accusamus",
-      "IconHint": "repellendus",
-      "HeadingIconHint": "rerum"
+      "RestrictionType": "temporibus",
+      "RestrictionListName": "Grady LLC",
+      "IsVisible": false,
+      "ExtraInfo": "expedita",
+      "Width": "nostrum",
+      "IconHint": "eligendi",
+      "HeadingIconHint": "veniam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Fritsch LLC",
-      "PrimaryKey": 697,
+      "EntityName": "Herman-Ruecker",
+      "PrimaryKey": 383,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perspiciatis",
-          "TooltipHint": "maxime",
-          "LinkHint": "reiciendis"
+          "DisplayValue": "iste",
+          "TooltipHint": "perferendis",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "molestias",
+      "LinkHint": "modi",
       "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Langosh-Hand",
-      "Description": "Ameliorated non-volatile solution",
-      "Rank": 319,
+      "Name": "Bednar LLC",
+      "Description": "Implemented cohesive superstructure",
+      "Rank": 558,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langosh-Hand",
-      "Description": "Ameliorated non-volatile solution",
-      "Rank": 319,
+      "Name": "Bednar LLC",
+      "Description": "Implemented cohesive superstructure",
+      "Rank": 558,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

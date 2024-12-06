@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
+  "Flat": true,
   "OnlyPresent": true
 }
 ```
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 566,
-    "Name": "Kihn, Fadel and Grant",
-    "ToolTip": "Officia odit excepturi voluptate.",
-    "Deleted": true,
-    "Rank": 821,
-    "Type": "a",
+    "Id": 454,
+    "Name": "Crist, Botsford and Stamm",
+    "ToolTip": "Ut voluptatem voluptate delectus qui natus rerum.",
+    "Deleted": false,
+    "Rank": 230,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Dibbert, Ankunding and Marks",
-        "ToolTip": "Minima cupiditate.",
-        "Deleted": false,
-        "Rank": 96,
-        "Type": "dolorum",
+        "Id": 83,
+        "Name": "Stamm-Pollich",
+        "ToolTip": "Consequatur aliquid repellendus.",
+        "Deleted": true,
+        "Rank": 664,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 645,
-        "ExtraInfo": "magnam",
-        "StyleHint": "placeat",
-        "FullName": "Bartholome Larkin",
+        "IconHint": "aliquid",
+        "ColorBlock": 519,
+        "ExtraInfo": "veniam",
+        "StyleHint": "odit",
+        "FullName": "Mrs. Celestino Leif Huels I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldLength": 893
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 813,
-    "ExtraInfo": "eligendi",
-    "StyleHint": "nemo",
-    "FullName": "Camryn Huels",
+    "IconHint": "earum",
+    "ColorBlock": 547,
+    "ExtraInfo": "in",
+    "StyleHint": "voluptas",
+    "FullName": "David Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldLength": 403
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 630,
-    "Name": "Miller-Nader",
-    "Tooltip": "nisi",
+    "HeadingId": 745,
+    "Name": "Dickens-Dach",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 976
+    "Rank": 465,
+    "UdListDefinitionId": 260
   },
   {
-    "HeadingId": 630,
-    "Name": "Miller-Nader",
-    "Tooltip": "nisi",
+    "HeadingId": 745,
+    "Name": "Dickens-Dach",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 861,
-    "UdListDefinitionId": 976
+    "Rank": 465,
+    "UdListDefinitionId": 260
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 386,
-    "Name": "Gulgowski LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 770,
-    "UdListDefinitionId": 510,
+    "HeadingId": 34,
+    "Name": "Ferry LLC",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "Rank": 976,
+    "UdListDefinitionId": 59,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldType": "System.String",
+        "FieldLength": 359
       }
     }
   }

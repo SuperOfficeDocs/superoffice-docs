@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 367,
-  "OnlyOpenSales": true
+  "ContactId": 425,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Rath Inc and Sons",
-    "SaleDate": "2021-06-17T14:45:06.1937295+02:00",
-    "SaleId": 284,
-    "Probability": 763,
-    "Title": "aut",
-    "Amount": 28340.762,
-    "Currency": "molestias",
-    "ProjectName": "Parker, Ernser and Pacocha",
-    "AssociateFullName": "Ms. Dudley Sibyl Rogahn II",
-    "Description": "Sharable global projection",
+    "ContactName": "Sipes-Kerluke",
+    "SaleDate": "2010-11-11T10:17:56.0040633+01:00",
+    "SaleId": 183,
+    "Probability": 491,
+    "Title": "et",
+    "Amount": 2087.244,
+    "Currency": "eum",
+    "ProjectName": "Roberts, Nitzsche and Hane",
+    "AssociateFullName": "Dr. Terrance Orn II",
+    "Description": "Versatile stable hub",
     "Status": "Lost",
-    "WeightedAmount": 12103.508,
-    "ProjectId": 134,
-    "EarningPercent": 5299.594,
-    "Earning": 8555.82,
-    "ContactId": 731,
-    "AssociateId": 310,
-    "PersonId": 174,
-    "SaleTypeId": 937,
-    "SaleTypeName": "Koch Inc and Sons",
-    "PersonFullName": "Irma Heaney DVM",
+    "WeightedAmount": 21837.712,
+    "ProjectId": 346,
+    "EarningPercent": 17979.757999999998,
+    "Earning": 26648.402,
+    "ContactId": 823,
+    "AssociateId": 56,
+    "PersonId": 938,
+    "SaleTypeId": 205,
+    "SaleTypeName": "Dicki, Koepp and Simonis",
+    "PersonFullName": "Turner Kunze",
     "Completed": "Completed",
-    "ActiveErpLinks": 685,
-    "NextDueDate": "2024-10-03T14:45:06.1937295+02:00",
-    "Number": "389596",
+    "ActiveErpLinks": 869,
+    "NextDueDate": "2005-10-16T10:17:56.0040633+02:00",
+    "Number": "846424",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 492
       }
     }
   }

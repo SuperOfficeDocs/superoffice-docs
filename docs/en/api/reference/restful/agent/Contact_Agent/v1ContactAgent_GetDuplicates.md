@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Goldner Inc and Sons"
+  "Name": "Willms, Stoltenberg and Sporer"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Gorczany-Langworth",
-    "SoPrimaryKey": 871,
-    "EntryName": "Abernathy LLC",
-    "EntryIdentifier": "est",
-    "RuleDisplayName": "Haley, Grant and McClure",
+    "RuleName": "Kutch Inc and Sons",
+    "SoPrimaryKey": 426,
+    "EntryName": "Fritsch Inc and Sons",
+    "EntryIdentifier": "deleniti",
+    "RuleDisplayName": "Schamberger, Haag and Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 939
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Effertz Group",
-    "ToolTip": "Architecto suscipit quia et alias.",
+    "Id": 884,
+    "Name": "Hessel Inc and Sons",
+    "ToolTip": "Ipsum quae unde sequi reprehenderit quia nobis ea.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "doloremque",
-    "ColorBlock": 91,
-    "IconHint": "culpa",
+    "Rank": 721,
+    "Type": "beatae",
+    "ColorBlock": 366,
+    "IconHint": "libero",
     "Selected": true,
-    "LastChanged": "2023-03-22T14:45:13.8960777+01:00",
+    "LastChanged": "2003-02-20T10:18:01.1450002+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Schoen Inc and Sons",
-        "ToolTip": "Aut alias est qui rerum tenetur corporis deleniti.",
+        "Id": 280,
+        "Name": "Wintheiser, Blanda and Zulauf",
+        "ToolTip": "Sed ipsam qui quis dolor.",
         "Deleted": false,
-        "Rank": 307,
-        "Type": "beatae",
-        "ColorBlock": 459,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2008-11-30T14:45:13.8960777+01:00",
+        "Rank": 204,
+        "Type": "aut",
+        "ColorBlock": 162,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2014-08-05T10:18:01.1450002+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ex",
+        "ExtraInfo": "ut",
+        "StyleHint": "reiciendis",
         "Hidden": true,
-        "FullName": "Miss Carolyn Sporer I",
+        "FullName": "Dena Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 355
+            "FieldType": "System.Int32",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "omnis",
+    "ExtraInfo": "tempore",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Mr. Minerva Lacey Spinka",
+    "FullName": "Jason Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 778
+  "TicketMessageEntityId": 546
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 490,
-    "Name": "Langosh, Graham and Schneider",
-    "ContentType": "facilis",
-    "AttSize": 591,
+    "AttachmentId": 485,
+    "Name": "Bode, Satterfield and Glover",
+    "ContentType": "distinctio",
+    "AttSize": 680,
     "InlineImage": false,
-    "ContentId": "non",
-    "AuthKey": "sit",
+    "ContentId": "quod",
+    "AuthKey": "omnis",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 125
       }
     }
   }

@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nesciunt"
+  "ProgId": "delectus"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 657,
-  "Name": "Leffler, Homenick and McClure",
-  "Tooltip": "non",
+  "WebPanelId": 555,
+  "Name": "Stark, Koss and Baumbach",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 156,
+  "Rank": 771,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Kuvalis Group",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Blick, Becker and Watsica",
   "Url": "http://www.example.com/",
-  "ProgId": "modi",
-  "Icon": 728,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "et",
+  "Icon": 712,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 349
     }
   }
 }

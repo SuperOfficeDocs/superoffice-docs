@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Name": "Stanton LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 26,
-  "Rank": 334,
+  "Id": 866,
+  "Name": "Wolff Group",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "UdListDefinitionId": 326,
+  "Rank": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

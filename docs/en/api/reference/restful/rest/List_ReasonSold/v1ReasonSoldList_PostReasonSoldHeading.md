@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 938,
-  "Name": "Parisian-Jaskolski",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 490,
-  "UdListDefinitionId": 170
+  "HeadingId": 510,
+  "Name": "Walsh Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 459,
+  "UdListDefinitionId": 150
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 719,
-  "Name": "Stanton, Thiel and Crona",
-  "Tooltip": "cum",
+  "HeadingId": 892,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "odio",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 281,
+  "Rank": 460,
+  "UdListDefinitionId": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldLength": 606
     }
   }
 }

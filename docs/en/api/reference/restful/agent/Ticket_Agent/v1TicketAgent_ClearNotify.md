@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Ticket/ClearNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    395,
-    932
+    486,
+    514
   ]
 }
 ```

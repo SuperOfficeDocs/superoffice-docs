@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 152,
-  "Name": "Jacobi-Herzog",
-  "Tooltip": "aperiam",
+  "Id": 37,
+  "Name": "Rau Group",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 722,
-  "IsCustomList": false,
+  "Rank": 174,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Rowe-Price",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "Rank": 56,
+  "Id": 362,
+  "Name": "Funk Inc and Sons",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 671,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 580
     }
   }
 }

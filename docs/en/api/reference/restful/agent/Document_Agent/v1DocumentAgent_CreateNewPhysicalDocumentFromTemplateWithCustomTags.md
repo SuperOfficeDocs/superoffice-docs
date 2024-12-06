@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 500,
-  "PersonId": 557,
-  "AppointmentId": 378,
-  "DocumentId": 921,
-  "SaleId": 22,
-  "SelectionId": 801,
-  "ProjectId": 815,
+  "ContactId": 159,
+  "PersonId": 930,
+  "AppointmentId": 51,
+  "DocumentId": 127,
+  "SaleId": 513,
+  "SelectionId": 237,
+  "ProjectId": 419,
   "CustomTags": [
-    "suscipit",
-    "consequatur"
+    "quam",
+    "earum"
   ],
   "CustomValues": [
-    "sunt",
-    "in"
+    "provident",
+    "accusamus"
   ],
-  "UiCulture": "culpa"
+  "UiCulture": "quia"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 378,
+  "DocumentId": 267,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "maiores",
-  "Header": "repellat",
-  "Name": "Romaguera-Cummerata",
-  "OurRef": "molestias",
-  "YourRef": "similique",
-  "CreatedDate": "2020-04-15T14:45:05.4126533+02:00",
-  "UpdatedDate": "2006-04-23T14:45:05.4126533+02:00",
-  "Description": "Optional actuating matrix",
+  "Attention": "placeat",
+  "Header": "officiis",
+  "Name": "Kunde, Hackett and Adams",
+  "OurRef": "accusamus",
+  "YourRef": "aut",
+  "CreatedDate": "2000-07-23T10:17:55.5040321+02:00",
+  "UpdatedDate": "2001-10-22T10:17:55.5040321+02:00",
+  "Description": "Mandatory empowering implementation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-08-10T14:45:05.4126533+02:00",
-  "ExternalRef": "earum",
+  "Date": "2022-10-24T10:17:55.5040321+02:00",
+  "ExternalRef": "dolorem",
   "Completed": "Completed",
-  "ActiveLinks": 534,
+  "ActiveLinks": 494,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nitzsche, McKenzie and Frami",
-      "Id": 616,
-      "Description": "Synchronised maximized customer loyalty",
-      "ExtraInfo": "esse",
-      "LinkId": 332,
+      "EntityName": "Grant Group",
+      "Id": 453,
+      "Description": "Triple-buffered bifurcated core",
+      "ExtraInfo": "ex",
+      "LinkId": 356,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldType": "System.String",
+          "FieldLength": 643
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 452,
-  "Snum": 42,
+  "SuggestedDocumentId": 575,
+  "Snum": 757,
   "UserDefinedFields": {
-    "SuperOffice:1": "164958893",
-    "SuperOffice:2": "Maudie Crist"
+    "SuperOffice:1": "Boyd Reynolds",
+    "SuperOffice:2": "Ms. Perry Watsica"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "saepe"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "aperiam"
   },
-  "PublishEventDate": "2017-03-30T14:45:05.4126533+02:00",
-  "PublishTo": "2014-09-26T14:45:05.4126533+02:00",
-  "PublishFrom": "1999-03-24T14:45:05.4126533+01:00",
+  "PublishEventDate": "2004-01-01T10:17:55.5040321+01:00",
+  "PublishTo": "2002-02-23T10:17:55.5040321+01:00",
+  "PublishFrom": "2024-03-09T10:17:55.5040321+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 963,
+      "VisibleId": 522,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     },
     {
-      "VisibleId": 963,
+      "VisibleId": 522,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 782
     }
   }
 }

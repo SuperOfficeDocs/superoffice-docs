@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Roob, Will and Schoen",
-      "Operator": "similique",
+      "Name": "Reichert-Aufderhar",
+      "Operator": "dolores",
       "Values": [
-        "hic",
-        "quaerat"
+        "inventore",
+        "rem"
       ],
       "DisplayValues": [
-        "error",
-        "quia"
+        "impedit",
+        "illum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 470,
+      "InterParenthesis": 744,
       "InterOperator": "And",
-      "UniqueHash": 584
+      "UniqueHash": 774
     }
   ],
-  "ProviderName": "Sporer Inc and Sons",
-  "PageSize": 545,
-  "PageNumber": 439
+  "ProviderName": "Wiegand, Parisian and Kemmer",
+  "PageSize": 554,
+  "PageNumber": 409
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jerde LLC",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "at",
+      "DisplayName": "Langosh, Toy and Ritchie",
+      "DisplayTooltip": "eos",
+      "DisplayType": "laboriosam",
       "CanOrderBy": false,
-      "Name": "Doyle Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Jones-Lebsack",
+      "Name": "Wiegand, Deckow and Simonis",
+      "CanRestrictBy": false,
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Johns Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "magnam",
-      "Width": "in",
-      "IconHint": "omnis",
-      "HeadingIconHint": "mollitia"
+      "ExtraInfo": "ratione",
+      "Width": "repudiandae",
+      "IconHint": "tempora",
+      "HeadingIconHint": "ipsam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Haag, Koepp and Becker",
-      "PrimaryKey": 970,
+      "EntityName": "Maggio LLC",
+      "PrimaryKey": 840,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "esse",
-          "LinkHint": "ut"
+          "DisplayValue": "minus",
+          "TooltipHint": "molestias",
+          "LinkHint": "rem"
         }
       },
-      "LinkHint": "culpa",
-      "StyleHint": "dolores",
+      "LinkHint": "provident",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 82
         }
       }
     }
   ],
-  "RowCount": 226,
+  "RowCount": 937,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 53
     }
   }
 }

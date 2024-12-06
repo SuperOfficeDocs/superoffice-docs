@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 383,
-    "Name": "Leannon Group",
-    "Tooltip": "porro",
-    "Rank": 73,
-    "Key": "accusamus",
-    "Deleted": false,
+    "LegalBaseId": 635,
+    "Name": "Collins, Steuber and Dickens",
+    "Tooltip": "magni",
+    "Rank": 459,
+    "Key": "qui",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 591
       }
     }
   }

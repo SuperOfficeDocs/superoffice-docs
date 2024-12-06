@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 298,
-  "UniqueId": "aut",
-  "Name": "Little, Littel and Smitham",
-  "Description": "Enhanced demand-driven Graphical User Interface",
-  "AssociateId": 475,
-  "Columns": 573,
+  "DashboardId": 198,
+  "UniqueId": "enim",
+  "Name": "Pacocha-Luettgen",
+  "Description": "De-engineered secondary benchmark",
+  "AssociateId": 14,
+  "Columns": 646,
   "Theme": null,
-  "VisibleForAll": 884,
+  "VisibleForAll": 315,
   "VisibleForAssociates": [
-    826,
-    483
+    835,
+    277
   ],
   "VisibleForGroups": [
-    311,
-    388
+    83,
+    773
   ],
-  "PinForAll": 738,
+  "PinForAll": 604,
   "PinForAssociates": [
-    193,
-    962
+    507,
+    782
   ],
   "PinForGroups": [
-    411,
-    511
+    768,
+    77
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 829
     }
   }
 }

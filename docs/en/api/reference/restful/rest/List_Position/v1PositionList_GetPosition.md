@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "Dare, Turcotte and Skiles",
-  "Tooltip": "provident",
+  "Id": 766,
+  "Name": "Morissette, Herzog and Kiehn",
+  "Tooltip": "veritatis",
   "Deleted": true,
-  "UdListDefinitionId": 598,
-  "Rank": 566,
+  "UdListDefinitionId": 301,
+  "Rank": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 541
     }
   }
 }

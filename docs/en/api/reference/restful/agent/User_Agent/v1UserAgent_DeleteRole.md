@@ -71,8 +71,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 734,
-  "ReplacingRoleId": 226
+  "RoleIdToDelete": 587,
+  "ReplacingRoleId": 630
 }
 ```
 

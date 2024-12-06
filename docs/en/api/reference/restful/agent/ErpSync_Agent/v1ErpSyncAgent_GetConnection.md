@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 664
+  "ErpConnectionId": 422
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 318,
-  "ErpConnectorId": 578,
-  "DisplayName": "Bednar, Kuphal and Bednar",
-  "DisplayDescription": "Right-sized human-resource open system",
+  "ErpConnectionId": 771,
+  "ErpConnectorId": 431,
+  "DisplayName": "Mayer Group",
+  "DisplayDescription": "Right-sized intermediate analyzer",
   "Active": false,
-  "ConnectionId": "dolor",
-  "MostRecentTimestamp": "maxime",
+  "ConnectionId": "illo",
+  "MostRecentTimestamp": "nobis",
   "ConfigFields": {
-    "ConfigFields1": "recusandae",
-    "ConfigFields2": "provident"
+    "ConfigFields1": "eum",
+    "ConfigFields2": "voluptatem"
   },
-  "Deleted": false,
-  "AllAccess": true,
+  "Deleted": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    838,
-    796
+    174,
+    281
   ],
   "AssociateAccessIds": [
-    954,
-    782
+    736,
+    525
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 190
     }
   }
 }

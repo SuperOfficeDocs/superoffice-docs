@@ -101,16 +101,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 536,
-  "Name": "Green Group",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "Rank": 371,
-  "IsCustomList": false,
+  "Id": 124,
+  "Name": "Farrell-Brakus",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 81,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aperiam",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Nitzsche, Stiedemann and Bogan",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "Rank": 873,
+  "Id": 620,
+  "Name": "Hahn-Bergstrom",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 234,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   },
   "_Links": {

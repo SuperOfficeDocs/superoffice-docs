@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 594,
-  "ModuleOwner": "sequi"
+  "AssociateId": 336,
+  "ModuleOwner": "voluptatibus"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 376,
-    "Tooltip": "beatae",
+    "Total": 668,
+    "Tooltip": "et",
     "CanAssign": false,
-    "Free": 442,
-    "InUse": 339,
+    "Free": 243,
+    "InUse": 808,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 862,
-    "Name": "Zieme-Spencer",
-    "Description": "Right-sized leading edge moderator",
-    "PrerequisiteModuleName": "Abbott Group",
-    "SortOrder": 355,
-    "ExtraFlags": 579,
+    "ModuleLicenseId": 960,
+    "Name": "Pfannerstill Inc and Sons",
+    "Description": "Public-key global success",
+    "PrerequisiteModuleName": "Mayert, Rippin and McClure",
+    "SortOrder": 87,
+    "ExtraFlags": 362,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 289
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 839,
-    "Name": "Haag Inc and Sons",
-    "Description": "Multi-layered methodical toolset",
+    "ProjectId": 988,
+    "Name": "Brakus, Rosenbaum and Kihn",
+    "Description": "Enterprise-wide 4th generation pricing structure",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 946,
-    "AssociateFullName": "Prof. Daryl Beatty",
-    "TypeId": 408,
-    "Updated": "2006-05-18T14:45:06.0218921+02:00",
-    "StatusId": 482,
-    "Status": "quis",
-    "TextId": 968,
-    "PublishTo": "2007-05-15T14:45:06.0218921+02:00",
-    "PublishFrom": "2009-12-17T14:45:06.0218921+01:00",
+    "Type": "saepe",
+    "AssociateId": 619,
+    "AssociateFullName": "Prof. Jacey Steuber",
+    "TypeId": 661,
+    "Updated": "2008-12-27T10:17:55.9103076+01:00",
+    "StatusId": 446,
+    "Status": "rerum",
+    "TextId": 814,
+    "PublishTo": "2016-12-27T10:17:55.9103076+01:00",
+    "PublishFrom": "1999-01-18T10:17:55.9103076+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "209148",
-    "ActiveErpLinks": 156,
+    "ProjectNumber": "343246",
+    "ActiveErpLinks": 6,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

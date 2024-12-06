@@ -73,10 +73,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Funk, DuBuque and Leffler",
+  "TableName": "Schmitt-Walker",
   "Values": {
-    "Values1": "autem",
-    "Values2": "ipsam"
+    "Values1": "omnis",
+    "Values2": "aliquid"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-753
+477
 ```

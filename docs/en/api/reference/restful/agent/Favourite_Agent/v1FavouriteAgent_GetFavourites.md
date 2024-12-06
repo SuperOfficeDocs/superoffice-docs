@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Larson Inc and Sons",
-  "AssociateId": 97
+  "TableName": "Schamberger, D'Amore and Ziemann",
+  "AssociateId": 794
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Kreiger-Monahan",
-    "RecordId": 93,
-    "AssociateId": 800,
-    "ExtraInfo": "dolorem",
-    "Rank": 658,
+    "TableName": "Hudson, Schiller and King",
+    "RecordId": 955,
+    "AssociateId": 837,
+    "ExtraInfo": "repellendus",
+    "Rank": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 354
       }
     }
   }

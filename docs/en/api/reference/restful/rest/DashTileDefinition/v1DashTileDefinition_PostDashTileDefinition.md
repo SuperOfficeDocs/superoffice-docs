@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 201,
-  "Name": "Bins LLC",
-  "Description": "Synergistic national hierarchy",
-  "DefaultHeight": 140,
-  "DefaultWidth": 599,
+  "DashboardTileDefinitionId": 429,
+  "Name": "Dare-Kautzer",
+  "Description": "Integrated neutral infrastructure",
+  "DefaultHeight": 644,
+  "DefaultWidth": 54,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Schamberger-Zieme",
-  "SelectionId": 634,
+  "EntityName": "Lindgren, Stark and Lindgren",
+  "SelectionId": 982,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "tempora",
   "Measure": "Average",
-  "MeasureField": "temporibus",
-  "SortBy": "quas",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 778,
-  "MeasureByField": "fuga",
+  "MeasureField": "non",
+  "SortBy": "ullam",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 432,
+  "MeasureByField": "odio",
   "Usage": "Dashboard",
-  "ProviderName": "Parisian-Braun"
+  "ProviderName": "Brekke, Herzog and Howell"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 697,
-  "Name": "Wuckert-Rau",
-  "Description": "Function-based coherent matrices",
-  "DefaultHeight": 451,
-  "DefaultWidth": 437,
+  "DashboardTileDefinitionId": 800,
+  "Name": "Marvin, Ankunding and Bradtke",
+  "Description": "Vision-oriented logistical time-frame",
+  "DefaultHeight": 834,
+  "DefaultWidth": 518,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ward, Bosco and Olson",
-  "SelectionId": 295,
+  "EntityName": "Schuppe, Dicki and Brekke",
+  "SelectionId": 812,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quisquam",
+  "CurrencyCode": "necessitatibus",
   "Measure": "Average",
-  "MeasureField": "quis",
-  "SortBy": "alias",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 721,
-  "MeasureByField": "reiciendis",
+  "MeasureField": "iusto",
+  "SortBy": "dolorem",
+  "LayoutConfig": "modi",
+  "SecondarySelectionId": 952,
+  "MeasureByField": "excepturi",
   "Usage": "Dashboard",
-  "ProviderName": "Heidenreich, Legros and Robel",
+  "ProviderName": "Gutmann Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   },
   "_Links": {

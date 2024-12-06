@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bahringer, Cormier and Miller",
+  "TableName": "Dach LLC",
   "Columns": [
-    "amet",
-    "culpa"
+    "sint",
+    "voluptatem"
   ],
   "Keys": [
-    "eligendi",
-    "harum"
+    "ipsam",
+    "quos"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "impedit",
-  "Inserts": 983,
-  "Updates": 376,
-  "Deletes": 939,
+  "Message": "ut",
+  "Inserts": 519,
+  "Updates": 939,
+  "Deletes": 754,
   "RowStatus": [
     {
-      "PrimaryKey": 263,
+      "PrimaryKey": 219,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ratione",
-        "beatae"
+        "quos",
+        "ipsa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     },
     {
-      "PrimaryKey": 263,
+      "PrimaryKey": 219,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ratione",
-        "beatae"
+        "quos",
+        "ipsa"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 788
     }
   }
 }

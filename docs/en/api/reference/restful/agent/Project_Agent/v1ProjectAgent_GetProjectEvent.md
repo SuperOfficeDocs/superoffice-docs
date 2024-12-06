@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=555
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=410
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Odessa Farrell",
-  "Description": "Synergistic zero defect infrastructure",
-  "ProjectId": 804,
-  "EventName": "Ebert-Sauer",
-  "AssociateId": 760,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "excepturi",
-  "SignOffText": "ut",
-  "SignOnConfirmationText": "non",
-  "SignOnText": "aut",
-  "EventDate": "2004-11-10T14:45:06.0062702+01:00",
-  "Enabled": true,
-  "SignOff": true,
+  "AssociateFullName": "Lolita Goyette",
+  "Description": "Multi-tiered high-level leverage",
+  "ProjectId": 60,
+  "EventName": "Dooley, Cartwright and Swift",
+  "AssociateId": 849,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "esse",
+  "SignOffText": "nemo",
+  "SignOnConfirmationText": "rerum",
+  "SignOnText": "voluptatum",
+  "EventDate": "2023-09-24T10:17:55.8946817+02:00",
+  "Enabled": false,
+  "SignOff": false,
   "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 21,
-  "SignOnTaskId": 631,
-  "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 559,
-  "SignOffPersonId": 412,
+  "SignOffTaskId": 192,
+  "SignOnTaskId": 635,
+  "SignOffTriggersAssign": true,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 933,
+  "SignOffPersonId": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

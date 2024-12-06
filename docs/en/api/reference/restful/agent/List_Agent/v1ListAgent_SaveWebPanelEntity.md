@@ -105,30 +105,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 118,
-  "Name": "Dibbert, Hoppe and Bechtelar",
-  "Tooltip": "ut",
+  "WebPanelId": 278,
+  "Name": "Herzog, Runolfsson and Zulauf",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 689,
+  "Rank": 456,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Fay, Hodkiewicz and Welch",
+  "ShowInStatusBar": true,
+  "WindowName": "Orn LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "illum",
-  "Icon": 586,
+  "ProgId": "aut",
+  "Icon": 178,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
@@ -141,26 +141,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 677,
-  "Name": "Lang Group",
+  "WebPanelId": 9,
+  "Name": "Morissette-Schuster",
   "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 417,
+  "Rank": 602,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Wuckert, Lind and Wolf",
+  "WindowName": "Marks-Yost",
   "Url": "http://www.example.com/",
-  "ProgId": "quod",
-  "Icon": 32,
+  "ProgId": "sed",
+  "Icon": 572,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 228
+      "FieldLength": 496
     }
   }
 }

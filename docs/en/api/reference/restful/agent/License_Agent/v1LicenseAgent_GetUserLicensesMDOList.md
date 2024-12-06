@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Kub, Beier and Reinger",
-    "ToolTip": "Voluptate labore.",
-    "Deleted": false,
-    "Rank": 627,
-    "Type": "vitae",
-    "ColorBlock": 789,
-    "IconHint": "quia",
+    "Id": 353,
+    "Name": "Hackett-Smitham",
+    "ToolTip": "Velit et quo dolores nihil.",
+    "Deleted": true,
+    "Rank": 584,
+    "Type": "maiores",
+    "ColorBlock": 645,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2018-09-14T14:45:05.6625978+02:00",
+    "LastChanged": "2002-11-09T10:17:55.675911+01:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Brown, Anderson and Romaguera",
-        "ToolTip": "Aliquid sit.",
+        "Id": 822,
+        "Name": "Rippin-Robel",
+        "ToolTip": "Harum inventore et neque repudiandae est.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "maiores",
-        "ColorBlock": 448,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2015-10-26T14:45:05.6625978+01:00",
+        "Rank": 807,
+        "Type": "recusandae",
+        "ColorBlock": 908,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2008-09-15T10:17:55.675911+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "et",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Karli Leffler",
+        "FullName": "Mr. Arely Anna Frami Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 475
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "alias",
+    "ExtraInfo": "ad",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Savanah Kessler",
+    "FullName": "Scarlett Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 130
       }
     }
   }

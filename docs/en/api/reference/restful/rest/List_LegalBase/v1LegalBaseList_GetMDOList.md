@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=aliquam
+GET /api/v1/List/LegalBase/MDOItems?query=deserunt
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Kirlin-Hettinger",
-    "ToolTip": "Non nihil non.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "quis",
+    "Id": 733,
+    "Name": "Borer, O'Keefe and Fadel",
+    "ToolTip": "Id quaerat consequatur deleniti voluptatum.",
+    "Deleted": true,
+    "Rank": 957,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Kuhlman Group",
-        "ToolTip": "Hic quasi aut molestias rerum dolores.",
+        "Id": 428,
+        "Name": "Shanahan-Mitchell",
+        "ToolTip": "Id quo sit quis.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "dolor",
+        "Rank": 180,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 567,
-        "ExtraInfo": "eos",
-        "StyleHint": "ad",
-        "FullName": "Philip Dayana Borer DVM",
+        "IconHint": "sed",
+        "ColorBlock": 23,
+        "ExtraInfo": "quia",
+        "StyleHint": "distinctio",
+        "FullName": "Jaylan Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldLength": 136
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 591,
-    "ExtraInfo": "ut",
-    "StyleHint": "vero",
-    "FullName": "Madyson Johns",
+    "IconHint": "aspernatur",
+    "ColorBlock": 876,
+    "ExtraInfo": "qui",
+    "StyleHint": "quo",
+    "FullName": "Prof. Karli Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 164
       }
     }
   }

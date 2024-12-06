@@ -39,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetRedLetterInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2024-11-18T13:42:23Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2024-11-18T13:42:23Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2024-12-04T09:15:16Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2024-12-04T09:15:16Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetRedLetterInformationListByDatesAndAssociate>
 
@@ -66,7 +66,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetRedLetterInformationListByDatesAndAssociateResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfRedLetterInformationListItem">
     <Appointment:RedLetterInformationListItem xsi:type="Appointment:RedLetterInformationListItem">
-     <Appointment:Date xsi:type="xsd:dateTime">2024-11-18T13:42:23Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2024-12-04T09:15:16Z</Appointment:Date>
      <Appointment:RedLetterInformation xsi:type="Appointment:RedLetterSummary">
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>

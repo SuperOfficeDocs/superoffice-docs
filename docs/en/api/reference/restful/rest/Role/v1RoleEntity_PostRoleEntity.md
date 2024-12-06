@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 874,
-  "Name": "Ernser Group",
-  "Tooltip": "cum",
+  "RoleId": 193,
+  "Name": "Boehm, Cole and Buckridge",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 789,
-  "Rank": 569,
-  "Created": "2021-07-14T14:45:12.9900307+02:00",
-  "UseCategories": 336,
+  "Deleted": 687,
+  "Rank": 264,
+  "Created": "2024-11-06T10:18:00.5199623+01:00",
+  "UseCategories": 799,
   "CreatedBy": null,
-  "Updated": "2020-08-01T14:45:12.9900307+02:00",
+  "Updated": "2018-03-09T10:18:00.5199623+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,29 +127,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 271,
-  "Name": "Morar, Kassulke and Turcotte",
-  "Tooltip": "praesentium",
+  "RoleId": 933,
+  "Name": "Heidenreich, Mann and Zboncak",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 366,
-  "Rank": 653,
-  "Created": "2010-03-31T14:45:13.0368942+02:00",
-  "UseCategories": 11,
+  "Deleted": 980,
+  "Rank": 794,
+  "Created": "2017-08-12T10:18:00.5199623+02:00",
+  "UseCategories": 226,
   "CreatedBy": null,
-  "Updated": "2003-03-28T14:45:13.0525152+01:00",
+  "Updated": "2004-12-18T10:18:00.5355883+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 889
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hansen-Hirthe",
-  "AdditionalInfo": "tempore",
-  "SearchValue": "cumque"
+  "Name": "Skiles-Rodriguez",
+  "AdditionalInfo": "repellendus",
+  "SearchValue": "eligendi"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Leffler-Powlowski",
-    "ToolTip": "Similique dolores officiis facere.",
-    "Deleted": false,
-    "Rank": 641,
-    "Type": "aut",
-    "ColorBlock": 369,
-    "IconHint": "odit",
+    "Id": 284,
+    "Name": "Bergnaum-Schumm",
+    "ToolTip": "Mollitia quo.",
+    "Deleted": true,
+    "Rank": 509,
+    "Type": "assumenda",
+    "ColorBlock": 778,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2022-09-14T14:45:05.8031904+02:00",
+    "LastChanged": "2020-02-07T10:17:55.7540473+01:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Kessler-Abernathy",
-        "ToolTip": "Quibusdam aut distinctio quia modi voluptatem distinctio.",
-        "Deleted": true,
-        "Rank": 558,
-        "Type": "repellendus",
-        "ColorBlock": 508,
-        "IconHint": "mollitia",
+        "Id": 771,
+        "Name": "Tromp, Funk and Raynor",
+        "ToolTip": "Odit maiores repellat ex enim dolores illo.",
+        "Deleted": false,
+        "Rank": 721,
+        "Type": "adipisci",
+        "ColorBlock": 537,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2003-02-25T14:45:05.8031904+01:00",
+        "LastChanged": "2006-07-28T10:17:55.7540473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Nikki Bosco",
+        "ExtraInfo": "quia",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Baylee Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 161
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Amya Harber I",
+    "ExtraInfo": "eum",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Mrs. Annabelle Beulah Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 609
+        "FieldLength": 140
       }
     }
   }

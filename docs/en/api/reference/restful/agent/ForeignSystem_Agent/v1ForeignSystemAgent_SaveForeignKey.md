@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Corkery LLC",
-  "DeviceName": "Connelly Group",
-  "DeviceIdentifier": "consequuntur"
+  "ApplicationName": "Goldner, Stanton and McLaughlin",
+  "DeviceName": "O'Conner Group",
+  "DeviceIdentifier": "laborum"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quis",
-  "Value": "ad",
-  "RecordId": 932,
-  "CreatedDate": "2006-05-25T14:45:05.6469762+02:00",
-  "UpdatedDate": "2013-12-19T14:45:05.6469762+01:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "aut",
-  "TableName": "Marks, Rohan and Abshire",
+  "Key": "neque",
+  "Value": "iusto",
+  "RecordId": 338,
+  "CreatedDate": "1999-07-07T10:17:55.660285+02:00",
+  "UpdatedDate": "1999-03-01T10:17:55.660285+01:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "autem",
+  "TableName": "Haag Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 529
     }
   }
 }

@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Abernathy, Kub and Macejkovic",
-      "DisplayName": "King Group",
-      "DisplayTooltip": "delectus",
+      "Name": "Hansen-Rau",
+      "DisplayName": "Kilback-Waelchi",
+      "DisplayTooltip": "quasi",
       "IsActive": false
     },
     {
-      "Name": "Abernathy, Kub and Macejkovic",
-      "DisplayName": "King Group",
-      "DisplayTooltip": "delectus",
+      "Name": "Hansen-Rau",
+      "DisplayName": "Kilback-Waelchi",
+      "DisplayTooltip": "quasi",
       "IsActive": false
     }
   ]

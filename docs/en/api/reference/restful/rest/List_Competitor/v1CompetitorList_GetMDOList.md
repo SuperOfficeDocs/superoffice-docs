@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=adipisci
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=earum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Fahey Inc and Sons",
-    "ToolTip": "Dolores veritatis velit tempore veritatis.",
-    "Deleted": true,
-    "Rank": 607,
-    "Type": "corporis",
+    "Id": 835,
+    "Name": "Harvey Inc and Sons",
+    "ToolTip": "Tempore quia aut animi atque eveniet sapiente.",
+    "Deleted": false,
+    "Rank": 53,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Boyer-Leannon",
-        "ToolTip": "Ullam similique aut.",
-        "Deleted": false,
-        "Rank": 388,
-        "Type": "non",
+        "Id": 670,
+        "Name": "Russel-Senger",
+        "ToolTip": "Dolorem blanditiis beatae voluptate voluptate nisi sint nemo.",
+        "Deleted": true,
+        "Rank": 650,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 28,
-        "ExtraInfo": "alias",
-        "StyleHint": "consequatur",
-        "FullName": "Gennaro DuBuque V",
+        "IconHint": "voluptatibus",
+        "ColorBlock": 24,
+        "ExtraInfo": "sed",
+        "StyleHint": "rerum",
+        "FullName": "Miss Sammy Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 654
+            "FieldLength": 441
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 572,
-    "ExtraInfo": "sint",
-    "StyleHint": "earum",
-    "FullName": "Ms. Malvina Maggio",
+    "IconHint": "adipisci",
+    "ColorBlock": 964,
+    "ExtraInfo": "earum",
+    "StyleHint": "ab",
+    "FullName": "Ozella Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 531
       }
     }
   }

@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 856
+  "AssociateId": 978
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-04-10T14:45:04.7439866+02:00",
-  "AppointmentId": 69,
-  "Description": "Re-engineered intangible success",
-  "Title": "quam",
-  "Agenda": "fugiat",
-  "InternalNotes": "repellat",
-  "StartDate": "2013-06-16T14:45:04.7439866+02:00",
-  "EndDate": "2005-05-04T14:45:04.7439866+02:00",
+  "CreatedDate": "2003-02-21T10:17:55.0352545+01:00",
+  "AppointmentId": 629,
+  "Description": "Networked assymetric frame",
+  "Title": "saepe",
+  "Agenda": "repellat",
+  "InternalNotes": "corporis",
+  "StartDate": "1999-10-03T10:17:55.0352545+02:00",
+  "EndDate": "2006-08-15T10:17:55.0352545+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 941,
+  "MotherId": 994,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-01-15T14:45:04.7439866+01:00",
+  "UpdatedDate": "2007-10-08T10:17:55.0352545+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 605,
+  "ActiveLinks": 745,
   "Links": [
     {
-      "EntityName": "Luettgen, Pacocha and Larson",
-      "Id": 401,
-      "Description": "Adaptive clear-thinking matrices",
-      "ExtraInfo": "officia",
-      "LinkId": 686,
+      "EntityName": "Volkman LLC",
+      "Id": 21,
+      "Description": "Synergized foreground function",
+      "ExtraInfo": "doloribus",
+      "LinkId": 407,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     }
   ],
-  "AlarmLeadTime": "tenetur",
-  "HasAlarm": true,
-  "ColorIndex": 722,
+  "AlarmLeadTime": "perferendis",
+  "HasAlarm": false,
+  "ColorIndex": 901,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "exercitationem",
-  "LeadTime": "porro",
-  "Location": "est",
-  "RejectCounter": 529,
+  "LagTime": "fugiat",
+  "LeadTime": "ut",
+  "Location": "et",
+  "RejectCounter": 232,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 320,
-      "PersonId": 122,
-      "ContactId": 945,
-      "EmailId": 421,
+      "AssociateId": 472,
+      "PersonId": 763,
+      "ContactId": 599,
+      "EmailId": 362,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "floyd@hartmannzemlak.name",
-      "Description": "Intuitive motivating protocol"
+      "EmailAddress": "arielle@reynolds.uk",
+      "Description": "Balanced dynamic monitoring"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-06-11T14:45:04.7439866+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-02-17T10:17:55.0352545+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 524,
+  "PreferredTZLocation": 83,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 917,
+  "SuggestedAppointmentId": 760,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "natus",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Emma Kris",
-    "SuperOffice:2": "Hazel Gorczany"
+    "SuperOffice:1": "2067279214",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "qui"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "sequi"
   },
-  "PublishEventDate": "2018-04-10T14:45:04.7439866+02:00",
-  "PublishTo": "2006-03-03T14:45:04.7439866+01:00",
-  "PublishFrom": "2014-12-05T14:45:04.7439866+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-12-08T10:17:55.0352545+01:00",
+  "PublishTo": "2002-11-05T10:17:55.0352545+01:00",
+  "PublishFrom": "2009-02-20T10:17:55.0352545+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 426,
+      "VisibleId": 152,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldLength": 889
         }
       }
     },
     {
-      "VisibleId": 426,
+      "VisibleId": 152,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldLength": 889
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 837
     }
   }
 }

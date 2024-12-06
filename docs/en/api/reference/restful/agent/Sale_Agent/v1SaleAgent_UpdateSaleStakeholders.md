@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Stanton-Fay",
-      "Comment": "officiis",
-      "StakeholderRoleId": 491,
-      "CountryId": 32,
-      "PersonId": 406,
-      "EmailDescription": "trevor_pacocha@hodkiewiczhaley.co.uk",
-      "EmailId": 939,
-      "EmailAddress": "rene_miller@sanford.us",
-      "PhoneId": 796,
-      "ContactName": "Wisozk, Sawayn and Schmeler",
-      "ContactId": 49,
-      "SaleId": 680,
-      "Mrmrs": "eos",
-      "Firstname": "Kassandra",
-      "MiddleName": "Fadel, Kihn and Rippin",
-      "Lastname": "Wiegand",
-      "SaleStakeholderId": 517,
-      "Rank": 84,
-      "Phone": "1-855-142-5112"
+      "StakeholderRoleName": "Sanford Inc and Sons",
+      "Comment": "facere",
+      "StakeholderRoleId": 598,
+      "CountryId": 112,
+      "PersonId": 143,
+      "EmailDescription": "wiley.crooks@rogahn.us",
+      "EmailId": 293,
+      "EmailAddress": "jermey_kuhlman@brekketorp.co.uk",
+      "PhoneId": 136,
+      "ContactName": "Herman-Bode",
+      "ContactId": 176,
+      "SaleId": 593,
+      "Mrmrs": "incidunt",
+      "Firstname": "Albina",
+      "MiddleName": "Jacobi, Hackett and Sauer",
+      "Lastname": "Shields",
+      "SaleStakeholderId": 565,
+      "Rank": 236,
+      "Phone": "105.601.0181 x8861"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Pfeffer Group",
-    "Comment": "impedit",
-    "StakeholderRoleId": 2,
-    "CountryId": 322,
-    "PersonId": 360,
-    "EmailDescription": "mauricio@west.info",
-    "EmailId": 104,
-    "EmailAddress": "maud_daniel@gerlach.biz",
-    "PhoneId": 829,
-    "ContactName": "Zemlak-Goodwin",
-    "ContactId": 107,
-    "SaleId": 464,
-    "Mrmrs": "exercitationem",
-    "Firstname": "Scotty",
-    "MiddleName": "Stracke-Langworth",
-    "Lastname": "Sawayn",
-    "SaleStakeholderId": 857,
-    "Rank": 519,
-    "Phone": "400-081-2850",
+    "StakeholderRoleName": "Medhurst Inc and Sons",
+    "Comment": "voluptas",
+    "StakeholderRoleId": 117,
+    "CountryId": 585,
+    "PersonId": 970,
+    "EmailDescription": "luz.hartmann@raynor.com",
+    "EmailId": 289,
+    "EmailAddress": "adelle@haleyreinger.name",
+    "PhoneId": 464,
+    "ContactName": "Wisoky-Thompson",
+    "ContactId": 404,
+    "SaleId": 912,
+    "Mrmrs": "ipsam",
+    "Firstname": "Vincenzo",
+    "MiddleName": "Bosco-Botsford",
+    "Lastname": "Howell",
+    "SaleStakeholderId": 46,
+    "Rank": 668,
+    "Phone": "703.852.5133",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 485
       }
     }
   }

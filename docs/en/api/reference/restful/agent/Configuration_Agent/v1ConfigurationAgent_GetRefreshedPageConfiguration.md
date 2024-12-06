@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "animi",
-  "Instance": "enim",
-  "Page": "vero"
+  "Application": "cumque",
+  "Instance": "magnam",
+  "Page": "et"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"enim"
 ```

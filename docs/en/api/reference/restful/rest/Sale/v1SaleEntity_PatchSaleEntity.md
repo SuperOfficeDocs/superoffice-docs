@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "earum",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "earum",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "reprehenderit",
+  "SaleText": "esse",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-10-07T14:45:13.2087314+02:00",
-  "Amount": 8530.748,
-  "SaleId": 208,
-  "Earning": 21671.61,
-  "EarningPercent": 13093.851999999999,
-  "Heading": "necessitatibus",
-  "Number": "464133",
-  "Probability": 759,
-  "CreatedDate": "2005-03-02T14:45:13.2087314+01:00",
-  "UpdatedDate": "2019-06-05T14:45:13.2087314+02:00",
+  "Saledate": "2024-09-30T10:18:00.6918462+02:00",
+  "Amount": 12664.493999999999,
+  "SaleId": 490,
+  "Earning": 24843.218,
+  "EarningPercent": 27190.584,
+  "Heading": "tempore",
+  "Number": "1446006",
+  "Probability": 869,
+  "CreatedDate": "2011-05-13T10:18:00.6918462+02:00",
+  "UpdatedDate": "2003-12-20T10:18:00.6918462+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 510,
+  "ActiveLinks": 705,
   "Links": [
     {
-      "EntityName": "Halvorson Inc and Sons",
-      "Id": 187,
-      "Description": "Stand-alone scalable matrices",
-      "ExtraInfo": "eum",
-      "LinkId": 127,
+      "EntityName": "Schultz, Bogisich and Kerluke",
+      "Id": 638,
+      "Description": "Business-focused fresh-thinking customer loyalty",
+      "ExtraInfo": "ea",
+      "LinkId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 970
         }
       }
     }
   ],
-  "NextDueDate": "2011-04-10T14:45:13.2087314+02:00",
-  "Postit": "error",
+  "NextDueDate": "2013-07-08T10:18:00.6918462+02:00",
+  "Postit": "rerum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2023-06-08T14:45:13.2087314+02:00",
+  "ReopenDate": "2016-01-22T10:18:00.6918462+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kuhn-Weber",
-      "Comment": "odio",
-      "StakeholderRoleId": 999,
-      "CountryId": 558,
-      "PersonId": 932,
-      "EmailDescription": "reggie_hermiston@beahan.ca",
-      "EmailId": 395,
-      "EmailAddress": "cora_gleason@dooley.biz",
-      "PhoneId": 135,
-      "ContactName": "Purdy, Kreiger and Wiza",
-      "ContactId": 963,
-      "SaleId": 89,
-      "Mrmrs": "praesentium",
-      "Firstname": "Alessandra",
-      "MiddleName": "Farrell-Rohan",
-      "Lastname": "Morissette",
-      "SaleStakeholderId": 562,
-      "Rank": 469,
-      "Phone": "1-708-092-3205 x887",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 354
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 476,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Emmie Rosenbaum I",
-    "SuperOffice:2": "2110154166"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "nulla",
-    "ExtraFields2": "alias"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "tempora"
-  },
-  "PublishEventDate": "2012-01-15T14:45:13.2087314+01:00",
-  "PublishTo": "2004-11-04T14:45:13.2087314+01:00",
-  "PublishFrom": "2002-01-10T14:45:13.2087314+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 888,
-      "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "StakeholderRoleName": "Dooley, Bergstrom and Crist",
+      "Comment": "magnam",
+      "StakeholderRoleId": 777,
+      "CountryId": 294,
+      "PersonId": 624,
+      "EmailDescription": "grover_waelchi@orndouglas.info",
+      "EmailId": 813,
+      "EmailAddress": "ora_hettinger@botsford.biz",
+      "PhoneId": 413,
+      "ContactName": "Mayer Inc and Sons",
+      "ContactId": 246,
+      "SaleId": 613,
+      "Mrmrs": "et",
+      "Firstname": "Declan",
+      "MiddleName": "Grady, Marvin and Schimmel",
+      "Lastname": "Fahey",
+      "SaleStakeholderId": 841,
+      "Rank": 753,
+      "Phone": "609-133-2827",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 7
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 329,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Miss Israel Erin Dare V",
+    "SuperOffice:2": "Arjun Tillman"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "alias",
+    "ExtraFields2": "totam"
+  },
+  "CustomFields": {
+    "CustomFields1": "autem",
+    "CustomFields2": "sunt"
+  },
+  "PublishEventDate": "2016-01-12T10:18:00.6918462+01:00",
+  "PublishTo": "2014-04-29T10:18:00.6918462+02:00",
+  "PublishFrom": "2003-02-26T10:18:00.6918462+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 179,
+      "Visibility": "All",
+      "DisplayValue": "enim",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 240
         }
       }
     },
     {
-      "VisibleId": 888,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 240
         }
       }
     }
@@ -305,8 +305,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   },
   "_Links": {

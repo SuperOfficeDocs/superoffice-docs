@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Zulauf-Pagac",
-    "ToolTip": "Ut quod fugiat consequatur tempore repudiandae qui.",
+    "Id": 760,
+    "Name": "Christiansen, Gutkowski and Kreiger",
+    "ToolTip": "Consequatur cumque.",
     "Deleted": false,
-    "Rank": 123,
-    "Type": "dolores",
-    "ColorBlock": 121,
-    "IconHint": "repellat",
+    "Rank": 416,
+    "Type": "numquam",
+    "ColorBlock": 449,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2007-08-31T14:45:13.7554843+02:00",
+    "LastChanged": "2024-02-02T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Orn, Labadie and Aufderhar",
-        "ToolTip": "Commodi rerum rerum quidem vitae cupiditate voluptas.",
-        "Deleted": false,
-        "Rank": 614,
-        "Type": "perferendis",
-        "ColorBlock": 928,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2000-01-27T14:45:13.7554843+01:00",
+        "Id": 158,
+        "Name": "Reichert, Erdman and Deckow",
+        "ToolTip": "Eligendi temporibus.",
+        "Deleted": true,
+        "Rank": 905,
+        "Type": "ut",
+        "ColorBlock": 107,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2001-03-25T10:18:01.051244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Ms. Emile Tristin Okuneva V",
+        "FullName": "Elliot Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "vel",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Brent Volkman",
+    "FullName": "Alphonso Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 332
       }
     }
   }

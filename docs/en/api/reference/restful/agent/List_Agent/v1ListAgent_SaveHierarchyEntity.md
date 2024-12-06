@@ -85,32 +85,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 285,
+  "HierarchyId": 590,
   "Domain": "Dashboards",
-  "Name": "Runte Inc and Sons",
-  "Fullname": "vel",
-  "ParentId": 637,
+  "Name": "Koelpin LLC",
+  "Fullname": "minus",
+  "ParentId": 544,
   "Children": [
     {
-      "HierarchyId": 463,
+      "HierarchyId": 803,
       "Domain": "Dashboards",
-      "Name": "Waters Group",
-      "Fullname": "consequatur",
-      "ParentId": 669,
+      "Name": "Leuschke-Kutch",
+      "Fullname": "nulla",
+      "ParentId": 131,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-02-12T14:45:05.7563266+01:00",
-      "RegisteredAssociateId": 304,
-      "Updated": "2012-12-12T14:45:05.7563266+01:00",
-      "UpdatedAssociateId": 84
+      "Registered": "2020-04-06T10:17:55.7384214+02:00",
+      "RegisteredAssociateId": 278,
+      "Updated": "2007-10-26T10:17:55.7384214+02:00",
+      "UpdatedAssociateId": 60
     }
   ],
-  "Registered": "2007-12-04T14:45:05.7563266+01:00",
-  "RegisteredAssociateId": 631,
-  "Updated": "2010-04-23T14:45:05.7563266+02:00",
-  "UpdatedAssociateId": 7
+  "Registered": "2018-08-29T10:17:55.7384214+02:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2014-07-31T10:17:55.7384214+02:00",
+  "UpdatedAssociateId": 202
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 887,
+  "HierarchyId": 995,
   "Domain": "Dashboards",
-  "Name": "Jerde, Hilpert and Ankunding",
-  "Fullname": "sequi",
-  "ParentId": 675,
+  "Name": "Bode Inc and Sons",
+  "Fullname": "sed",
+  "ParentId": 954,
   "Children": [
     {
-      "HierarchyId": 703,
+      "HierarchyId": 77,
       "Domain": "Dashboards",
-      "Name": "Emmerich LLC",
-      "Fullname": "ducimus",
-      "ParentId": 403,
+      "Name": "Robel, Feest and Purdy",
+      "Fullname": "id",
+      "ParentId": 319,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-01-24T14:45:05.7563266+01:00",
-      "RegisteredAssociateId": 934,
-      "Updated": "1999-09-24T14:45:05.7563266+02:00",
-      "UpdatedAssociateId": 311,
+      "Registered": "2003-04-07T10:17:55.7384214+02:00",
+      "RegisteredAssociateId": 91,
+      "Updated": "2002-03-30T10:17:55.7384214+01:00",
+      "UpdatedAssociateId": 376,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 821
         }
       }
     }
   ],
-  "Registered": "2011-04-06T14:45:05.7563266+02:00",
-  "RegisteredAssociateId": 596,
-  "Updated": "2023-06-25T14:45:05.7563266+02:00",
-  "UpdatedAssociateId": 986,
+  "Registered": "2007-06-11T10:17:55.7384214+02:00",
+  "RegisteredAssociateId": 156,
+  "Updated": "2009-06-03T10:17:55.7384214+02:00",
+  "UpdatedAssociateId": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldLength": 681
     }
   }
 }

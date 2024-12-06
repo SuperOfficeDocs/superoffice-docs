@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 614,
-  "Name": "Boyer-Keeling",
-  "CreatedDate": "2015-02-05T14:45:12.8181931+01:00",
-  "UpdatedDate": "2023-08-21T14:45:12.8181931+02:00",
+  "ForeignAppId": 854,
+  "Name": "Treutel-O'Keefe",
+  "CreatedDate": "2000-03-16T10:18:00.4262067+01:00",
+  "UpdatedDate": "2004-12-08T10:18:00.4262067+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 695,
-      "Name": "Ward Group",
-      "CreatedDate": "2006-01-27T14:45:12.8181931+01:00",
-      "UpdatedDate": "2001-10-12T14:45:12.8181931+02:00",
-      "AssociateFullName": "Jillian Princess Parker III",
-      "CreatedBy": "et",
-      "UpdatedBy": "ducimus",
-      "DeviceIdentifier": "itaque",
-      "ForeignAppId": 291
+      "ForeignDeviceId": 27,
+      "Name": "Hyatt, Brekke and Pfeffer",
+      "CreatedDate": "2005-02-08T10:18:00.4262067+01:00",
+      "UpdatedDate": "2013-02-21T10:18:00.4262067+01:00",
+      "AssociateFullName": "Miss Addie Duncan Kuhlman III",
+      "CreatedBy": "consectetur",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 477
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 240,
-  "Name": "Cormier-Glover",
-  "CreatedDate": "2001-10-23T14:45:12.8181931+02:00",
-  "UpdatedDate": "2013-11-10T14:45:12.8181931+01:00",
+  "ForeignAppId": 518,
+  "Name": "Nolan, Lynch and O'Kon",
+  "CreatedDate": "2022-11-22T10:18:00.4262067+01:00",
+  "UpdatedDate": "2015-10-24T10:18:00.4262067+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 852,
-      "Name": "Hackett, Spinka and Kertzmann",
-      "CreatedDate": "2007-07-20T14:45:12.8181931+02:00",
-      "UpdatedDate": "2017-05-03T14:45:12.8181931+02:00",
-      "AssociateFullName": "Bryon Fahey",
-      "CreatedBy": "est",
-      "UpdatedBy": "tempora",
-      "DeviceIdentifier": "quidem",
-      "ForeignAppId": 112,
+      "ForeignDeviceId": 279,
+      "Name": "O'Kon, Bashirian and Bergnaum",
+      "CreatedDate": "2014-04-10T10:18:00.4262067+02:00",
+      "UpdatedDate": "2005-01-24T10:18:00.4262067+01:00",
+      "AssociateFullName": "Linda Rice",
+      "CreatedBy": "ratione",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "cupiditate",
+      "ForeignAppId": 610,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldType": "System.String",
+          "FieldLength": 978
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 991
     }
   },
   "_Links": {

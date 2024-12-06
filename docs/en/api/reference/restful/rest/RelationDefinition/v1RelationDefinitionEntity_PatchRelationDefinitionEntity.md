@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "quam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "quam",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 914,
-  "Name": "Steuber-Gutkowski",
-  "Tooltip": "nobis",
-  "PassiveText": "delectus",
-  "Deleted": false,
-  "Rank": 418,
+  "ReldefId": 706,
+  "Name": "Casper, Pouros and Rowe",
+  "Tooltip": "quam",
+  "PassiveText": "vel",
+  "Deleted": true,
+  "Rank": 199,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 589
     }
   },
   "_Links": {

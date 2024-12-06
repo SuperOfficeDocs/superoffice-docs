@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 225
+  "DocumentTemplateId": 934
 }
 ```
 
@@ -84,6 +84,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "ab",
-  "maiores"
+  "et"
 ]
 ```

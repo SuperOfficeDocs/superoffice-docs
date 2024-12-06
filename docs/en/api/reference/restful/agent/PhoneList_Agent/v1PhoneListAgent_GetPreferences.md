@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,7 +84,7 @@ Content-Type: application/json; charset=utf-8
 {
   "SearchCompany": false,
   "SearchFirstname": false,
-  "SearchLastname": false,
+  "SearchLastname": true,
   "SearchDepartment": false,
   "SearchModeCompany": "BeginsWith",
   "SearchModeDepartment": "BeginsWith",
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldLength": 566
     }
   }
 }

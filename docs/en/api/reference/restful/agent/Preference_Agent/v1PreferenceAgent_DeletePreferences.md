@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    901,
-    693
+    756,
+    420
   ]
 }
 ```

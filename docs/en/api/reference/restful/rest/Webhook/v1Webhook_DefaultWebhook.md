@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 462,
-  "Name": "Lindgren, Russel and Ritchie",
+  "WebhookId": 77,
+  "Name": "Brakus Group",
   "Events": [
-    "sed",
-    "est"
+    "ut",
+    "sed"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "saepe",
+  "Secret": "excepturi",
   "State": "Active",
-  "Type": "illo",
+  "Type": "est",
   "Headers": {
-    "Headers1": "culpa",
-    "Headers2": "omnis"
+    "Headers1": "similique",
+    "Headers2": "esse"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2014-01-10T14:45:13.5367829+01:00",
+  "Registered": "2022-06-19T10:18:00.910611+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-07-28T14:45:13.5367829+02:00",
+  "Updated": "2022-10-19T10:18:00.910611+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "haylee_dietrich@lebsack.com"
+  "ErrorsEmail": "layla_rutherford@nicolasmonahan.ca"
 }
 ```

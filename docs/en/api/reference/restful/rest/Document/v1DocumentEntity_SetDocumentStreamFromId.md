@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 48,
+  "DocumentId": 583,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "architecto",
-  "Header": "labore",
-  "Name": "Dicki Inc and Sons",
-  "OurRef": "similique",
-  "YourRef": "aut",
-  "CreatedDate": "2003-06-09T14:45:12.7869499+02:00",
-  "UpdatedDate": "2021-05-10T14:45:12.7869499+02:00",
-  "Description": "Profit-focused local emulation",
+  "Attention": "aspernatur",
+  "Header": "rerum",
+  "Name": "Zulauf Inc and Sons",
+  "OurRef": "ratione",
+  "YourRef": "itaque",
+  "CreatedDate": "2020-09-28T10:18:00.3949543+02:00",
+  "UpdatedDate": "2008-08-16T10:18:00.3949543+02:00",
+  "Description": "Multi-lateral fresh-thinking website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-08-15T14:45:12.7869499+02:00",
-  "ExternalRef": "qui",
+  "Date": "2006-04-18T10:18:00.3949543+02:00",
+  "ExternalRef": "harum",
   "Completed": "Completed",
-  "ActiveLinks": 550,
+  "ActiveLinks": 268,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stark LLC",
-      "Id": 654,
-      "Description": "Sharable object-oriented definition",
-      "ExtraInfo": "consequatur",
-      "LinkId": 924,
+      "EntityName": "Lueilwitz Group",
+      "Id": 517,
+      "Description": "Innovative content-based task-force",
+      "ExtraInfo": "vel",
+      "LinkId": 499,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 944,
-  "Snum": 840,
+  "SuggestedDocumentId": 77,
+  "Snum": 266,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alice Rolfson",
-    "SuperOffice:2": "Sigrid Schultz"
+    "SuperOffice:1": "Mr. Reese Harley Sawayn",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "id",
+    "ExtraFields1": "iste",
     "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "quod",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "optio"
   },
-  "PublishEventDate": "2013-11-14T14:45:12.7869499+01:00",
-  "PublishTo": "2021-07-24T14:45:12.7869499+02:00",
-  "PublishFrom": "2011-05-05T14:45:12.7869499+02:00",
+  "PublishEventDate": "1999-03-08T10:18:00.3949543+01:00",
+  "PublishTo": "2024-08-22T10:18:00.3949543+02:00",
+  "PublishFrom": "2003-01-09T10:18:00.3949543+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 621,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     },
     {
-      "VisibleId": 621,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldType": "System.String",
+      "FieldLength": 350
     }
   }
 }

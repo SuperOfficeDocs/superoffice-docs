@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 59,
-  "SelectionId": 520,
-  "IncludeEmails": true
+  "DocumentPluginId": 251,
+  "SelectionId": 989,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 412,
-  "NumDocumentsAlreadyMigrated": 774,
+  "NumDocumentsOmitted": 625,
+  "NumDocumentsAlreadyMigrated": 854,
   "Documents": [
     {
-      "DocumentId": 1001,
-      "ContactId": 10,
-      "PersonId": 520,
-      "SaleId": 904,
-      "ProjectId": 332,
-      "DocTmplId": 493,
-      "AssociateId": 263,
-      "UserGroupId": 451,
-      "VisibleForId": 549
+      "DocumentId": 570,
+      "ContactId": 18,
+      "PersonId": 917,
+      "SaleId": 436,
+      "ProjectId": 480,
+      "DocTmplId": 954,
+      "AssociateId": 118,
+      "UserGroupId": 625,
+      "VisibleForId": 551
     }
   ],
   "Associates": [
     {
-      "AssociateId": 679,
-      "EmailAddress": "bernadine@herzog.co.uk"
+      "AssociateId": 80,
+      "EmailAddress": "lew.stiedemann@becker.us"
     },
     {
-      "AssociateId": 679,
-      "EmailAddress": "bernadine@herzog.co.uk"
+      "AssociateId": 80,
+      "EmailAddress": "lew.stiedemann@becker.us"
     }
   ]
 }

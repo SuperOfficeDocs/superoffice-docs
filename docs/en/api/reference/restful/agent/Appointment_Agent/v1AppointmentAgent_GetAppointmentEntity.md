@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=206
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=678
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-08-24T14:45:04.6474384+02:00",
-  "AppointmentId": 606,
-  "Description": "Sharable upward-trending adapter",
-  "Title": "soluta",
-  "Agenda": "id",
-  "InternalNotes": "at",
-  "StartDate": "2000-02-12T14:45:04.6474384+01:00",
-  "EndDate": "2013-03-12T14:45:04.6474384+01:00",
+  "CreatedDate": "2011-05-26T10:17:54.9727508+02:00",
+  "AppointmentId": 743,
+  "Description": "Right-sized homogeneous database",
+  "Title": "magnam",
+  "Agenda": "autem",
+  "InternalNotes": "et",
+  "StartDate": "2021-02-06T10:17:54.9727508+01:00",
+  "EndDate": "2013-12-22T10:17:54.9727508+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 990,
+  "MotherId": 946,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-03-08T14:45:04.6630589+01:00",
+  "UpdatedDate": "1998-03-23T10:17:54.9883767+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 426,
+  "ActiveLinks": 242,
   "Links": [
     {
-      "EntityName": "Klein-Klocko",
-      "Id": 980,
-      "Description": "Streamlined grid-enabled firmware",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 448,
+      "EntityName": "Ratke, Corwin and Hagenes",
+      "Id": 938,
+      "Description": "Operative 4th generation hub",
+      "ExtraInfo": "aut",
+      "LinkId": 809,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldLength": 354
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptas",
+  "AlarmLeadTime": "sapiente",
   "HasAlarm": true,
-  "ColorIndex": 836,
+  "ColorIndex": 689,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "ullam",
+  "LagTime": "amet",
   "LeadTime": "et",
-  "Location": "porro",
-  "RejectCounter": 930,
+  "Location": "sequi",
+  "RejectCounter": 922,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 856,
-      "PersonId": 171,
-      "ContactId": 832,
-      "EmailId": 125,
+      "AssociateId": 149,
+      "PersonId": 861,
+      "ContactId": 38,
+      "EmailId": 860,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "matteo@white.info",
-      "Description": "Face to face cohesive groupware"
+      "EmailAddress": "charley.treutel@orn.biz",
+      "Description": "Front-line fresh-thinking infrastructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-02-07T14:45:04.6630589+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2006-03-05T10:17:54.9883767+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 951,
+  "PreferredTZLocation": 945,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 661,
+  "SuggestedAppointmentId": 895,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quaerat",
+  "CentralserviceVideomeetId": "eius",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mrs. Felton Thad Ward I"
+    "SuperOffice:1": "Nicole Leffler",
+    "SuperOffice:2": "Shayna Schumm"
   },
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "magnam"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "1998-01-28T14:45:04.6630589+01:00",
-  "PublishTo": "2014-03-17T14:45:04.6630589+01:00",
-  "PublishFrom": "2015-09-28T14:45:04.6630589+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-01-27T10:17:54.9883767+01:00",
+  "PublishTo": "2002-05-28T10:17:54.9883767+02:00",
+  "PublishFrom": "2012-02-22T10:17:54.9883767+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 423,
+      "VisibleId": 886,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 79
         }
       }
     },
     {
-      "VisibleId": 423,
+      "VisibleId": 886,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 79
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

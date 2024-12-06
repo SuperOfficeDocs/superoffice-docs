@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 409,
-  "CustomerCustomerReplyTemplateId": 487,
-  "CustomerPasswordTemplateId": 608,
-  "CustomerConfirmEmailTemplateId": 279,
-  "CustomerChatLogTemplateId": 480,
-  "NewLinkTemplateId": 386,
-  "HotlistNewMessageTemplateId": 377,
-  "HotlistTicketActivatedTemplateId": 984,
-  "UserTicketAlarmTemplateId": 417,
-  "HotlistTicketTakenOverTemplateId": 59,
-  "UserActiveTicketsTemplateId": 817,
-  "UserNewMessageTemplateId": 434,
-  "UserTicketActivatedTemplateId": 15,
-  "UserNewTicketTemplateId": 315,
-  "PublishKbQuestionTemplateId": 50,
-  "PublishKbAnswerTemplateId": 111,
-  "UserTicketTakenOverTemplateId": 279,
-  "PrintTicketTemplateId": 373,
-  "WeekStatTemplateId": 814,
-  "TicketAlarmHotlistTemplateId": 740,
-  "EmailAddresses": "libby@mcglynn.ca",
+  "CustomerNewCustomerTemplateId": 107,
+  "CustomerCustomerReplyTemplateId": 921,
+  "CustomerPasswordTemplateId": 570,
+  "CustomerConfirmEmailTemplateId": 933,
+  "CustomerChatLogTemplateId": 455,
+  "NewLinkTemplateId": 369,
+  "HotlistNewMessageTemplateId": 406,
+  "HotlistTicketActivatedTemplateId": 120,
+  "UserTicketAlarmTemplateId": 272,
+  "HotlistTicketTakenOverTemplateId": 461,
+  "UserActiveTicketsTemplateId": 693,
+  "UserNewMessageTemplateId": 283,
+  "UserTicketActivatedTemplateId": 985,
+  "UserNewTicketTemplateId": 540,
+  "PublishKbQuestionTemplateId": 206,
+  "PublishKbAnswerTemplateId": 391,
+  "UserTicketTakenOverTemplateId": 600,
+  "PrintTicketTemplateId": 115,
+  "WeekStatTemplateId": 258,
+  "TicketAlarmHotlistTemplateId": 75,
+  "EmailAddresses": "danika@spinka.name",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldLength": 520
     }
   }
 }

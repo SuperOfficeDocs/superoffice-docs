@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Kutch Inc and Sons",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "UdListDefinitionId": 666,
-  "Rank": 591,
+  "Id": 70,
+  "Name": "Powlowski-Hermiston",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "UdListDefinitionId": 196,
+  "Rank": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 675
     }
   }
 }

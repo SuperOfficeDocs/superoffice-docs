@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Kshlerin, Weber and Zboncak",
-  "Tooltip": "incidunt",
-  "Deleted": false,
-  "UdListDefinitionId": 848,
-  "Rank": 94,
+  "Id": 51,
+  "Name": "Tromp-Weissnat",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "UdListDefinitionId": 876,
+  "Rank": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 536
     }
   }
 }

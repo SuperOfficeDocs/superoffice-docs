@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=perferendis
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Rempel LLC",
-    "ToolTip": "Dolores autem asperiores ut dignissimos ullam.",
-    "Deleted": true,
-    "Rank": 887,
-    "Type": "dolore",
+    "Id": 445,
+    "Name": "Green Group",
+    "ToolTip": "Dolore eaque.",
+    "Deleted": false,
+    "Rank": 486,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Weissnat Group",
-        "ToolTip": "Rerum ut culpa fugit nam eum qui maiores.",
+        "Id": 535,
+        "Name": "Hudson-Hilpert",
+        "ToolTip": "Doloremque ut eius eos ut.",
         "Deleted": false,
-        "Rank": 441,
-        "Type": "nemo",
+        "Rank": 741,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 217,
-        "ExtraInfo": "est",
-        "StyleHint": "rem",
-        "FullName": "Mr. Annabell O'Connell",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 975,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "molestias",
+        "FullName": "Orval Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 746
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 289,
-    "ExtraInfo": "dolore",
-    "StyleHint": "molestiae",
-    "FullName": "Fred Beier",
+    "IconHint": "vel",
+    "ColorBlock": 994,
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptate",
+    "FullName": "Ms. Cletus Moshe Herzog Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldLength": 454
       }
     }
   }

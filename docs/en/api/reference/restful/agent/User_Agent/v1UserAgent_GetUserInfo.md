@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=154
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=498
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -94,29 +94,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 272,
-  "UserName": "Zulauf, Eichmann and Kling",
-  "PersonId": 664,
-  "Rank": 550,
-  "Tooltip": "laborum",
-  "UserGroupId": 769,
-  "EjUserId": 110,
+  "UserInfoId": 698,
+  "UserName": "Kuhn Group",
+  "PersonId": 368,
+  "Rank": 933,
+  "Tooltip": "quo",
+  "UserGroupId": 238,
+  "EjUserId": 169,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "voluptas",
-    "dolores"
+    "autem",
+    "perspiciatis"
   ],
   "CanLogon": true,
-  "RoleName": "Beer Group",
-  "RoleTooltip": "in",
-  "UserGroupName": "Brekke, Hessel and Davis",
-  "UserGroupTooltip": "illo",
+  "RoleName": "Hegmann-Padberg",
+  "RoleTooltip": "pariatur",
+  "UserGroupName": "Durgan, Mosciski and Goodwin",
+  "UserGroupTooltip": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 20
     }
   }
 }

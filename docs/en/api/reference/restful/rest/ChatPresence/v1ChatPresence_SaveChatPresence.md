@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 999,
-    "DisplayName": "Wilkinson, Raynor and Schamberger",
-    "OngoingChats": 872,
-    "Present": false,
+    "UserId": 895,
+    "DisplayName": "VonRueden Group",
+    "OngoingChats": 377,
+    "Present": true,
     "ChatTopics": [
-      127,
-      363
+      38,
+      177
     ]
   },
   {
-    "UserId": 999,
-    "DisplayName": "Wilkinson, Raynor and Schamberger",
-    "OngoingChats": 872,
-    "Present": false,
+    "UserId": 895,
+    "DisplayName": "VonRueden Group",
+    "OngoingChats": 377,
+    "Present": true,
     "ChatTopics": [
-      127,
-      363
+      38,
+      177
     ]
   }
 ]

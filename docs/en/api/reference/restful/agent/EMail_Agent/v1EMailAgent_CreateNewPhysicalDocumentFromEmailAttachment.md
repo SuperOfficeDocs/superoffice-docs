@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 343,
-  "EmailItemId": 110,
-  "AttachmentId": "consectetur"
+  "DocumentId": 698,
+  "EmailItemId": 351,
+  "AttachmentId": "tempora"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 622,
+  "DocumentId": 504,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iusto",
-  "Header": "necessitatibus",
-  "Name": "Hermann-O'Hara",
-  "OurRef": "ut",
-  "YourRef": "quasi",
-  "CreatedDate": "2015-04-22T14:45:05.490762+02:00",
-  "UpdatedDate": "1997-08-01T14:45:05.490762+02:00",
-  "Description": "Open-source assymetric monitoring",
+  "Attention": "enim",
+  "Header": "voluptas",
+  "Name": "Goodwin-Borer",
+  "OurRef": "reprehenderit",
+  "YourRef": "facere",
+  "CreatedDate": "1998-05-27T10:17:55.5509103+02:00",
+  "UpdatedDate": "2023-03-26T10:17:55.5509103+02:00",
+  "Description": "Diverse radical approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-03-18T14:45:05.490762+01:00",
-  "ExternalRef": "optio",
+  "Date": "2004-06-02T10:17:55.5509103+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 765,
+  "ActiveLinks": 982,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koepp LLC",
-      "Id": 390,
-      "Description": "Visionary next generation toolset",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 198,
+      "EntityName": "Kreiger, Lindgren and Hoppe",
+      "Id": 749,
+      "Description": "Centralized national encryption",
+      "ExtraInfo": "at",
+      "LinkId": 975,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldLength": 587
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 732,
-  "Snum": 50,
+  "SuggestedDocumentId": 787,
+  "Snum": 573,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
+    "SuperOffice:1": "Carmel Annamae Dach Jr.",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "non"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "cum"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2003-02-26T14:45:05.490762+01:00",
-  "PublishTo": "2009-10-29T14:45:05.490762+01:00",
-  "PublishFrom": "1997-11-15T14:45:05.490762+01:00",
+  "PublishEventDate": "1997-12-03T10:17:55.5509103+01:00",
+  "PublishTo": "2001-01-06T10:17:55.5509103+01:00",
+  "PublishFrom": "2004-02-09T10:17:55.5509103+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 92,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 827
         }
       }
     },
     {
-      "VisibleId": 92,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 827
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 386
     }
   }
 }

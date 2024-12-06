@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 221,
-  "Name": "Hansen Inc and Sons",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 516,
+  "WebPanelId": 56,
+  "Name": "Gerlach Group",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "Rank": 367,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Boyer, O'Connell and Schaefer",
+  "ShowInStatusBar": true,
+  "WindowName": "Kulas-Mertz",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 277,
+  "ProgId": "debitis",
+  "Icon": 53,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

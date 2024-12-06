@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 162
+  "SaleId": 944
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Zemlak-Bernier",
-    "Comment": "ducimus",
-    "StakeholderRoleId": 973,
-    "CountryId": 486,
-    "PersonId": 735,
-    "EmailDescription": "lillie.cassin@gloverryan.name",
-    "EmailId": 65,
-    "EmailAddress": "adrian@jacobi.name",
-    "PhoneId": 324,
-    "ContactName": "Herzog LLC",
-    "ContactId": 488,
-    "SaleId": 927,
-    "Mrmrs": "harum",
-    "Firstname": "Michelle",
-    "MiddleName": "Graham Group",
-    "Lastname": "Mayer",
-    "SaleStakeholderId": 467,
-    "Rank": 961,
-    "Phone": "056.783.9513 x15883",
+    "StakeholderRoleName": "Swaniawski LLC",
+    "Comment": "consequuntur",
+    "StakeholderRoleId": 535,
+    "CountryId": 574,
+    "PersonId": 378,
+    "EmailDescription": "mafalda_parisian@roobschowalter.uk",
+    "EmailId": 978,
+    "EmailAddress": "isac@abernathy.com",
+    "PhoneId": 893,
+    "ContactName": "Effertz, Botsford and Heaney",
+    "ContactId": 781,
+    "SaleId": 29,
+    "Mrmrs": "expedita",
+    "Firstname": "Stephon",
+    "MiddleName": "Reynolds, Schiller and Hegmann",
+    "Lastname": "Bernhard",
+    "SaleStakeholderId": 430,
+    "Rank": 329,
+    "Phone": "(818)369-3324",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

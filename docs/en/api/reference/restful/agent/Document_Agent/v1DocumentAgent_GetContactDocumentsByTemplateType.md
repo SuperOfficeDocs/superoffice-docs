@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 749,
-  "StartTime": "2002-07-22T14:45:05.225194+02:00",
-  "EndTime": "2006-01-04T14:45:05.225194+01:00",
-  "Count": 670,
-  "DocumentTemplateId": 663
+  "ContactId": 811,
+  "StartTime": "2000-08-14T10:17:55.3477735+02:00",
+  "EndTime": "2023-10-09T10:17:55.3477735+02:00",
+  "Count": 630,
+  "DocumentTemplateId": 858
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 116,
-    "Attention": "aliquid",
-    "Header": "ut",
-    "Name": "Jacobson, Daugherty and Zieme",
-    "OurRef": "repudiandae",
-    "YourRef": "iure",
-    "Description": "User-centric demand-driven challenge",
-    "DocumentTemplate": "optio",
-    "IsPublished": false,
-    "PersonId": 997,
-    "PersonFullName": "Yadira White",
-    "AssociateFullName": "Rosamond Sanford",
-    "ContactId": 129,
-    "ContactName": "Schneider-Hickle",
-    "ProjectId": 613,
-    "ProjectName": "Harvey Group",
-    "AssociateId": 588,
-    "Snum": 309,
-    "SaleId": 371,
-    "SaleName": "Weimann, D'Amore and Murray",
+    "DocumentId": 711,
+    "Attention": "et",
+    "Header": "eligendi",
+    "Name": "Schneider, Howe and Schultz",
+    "OurRef": "porro",
+    "YourRef": "harum",
+    "Description": "Optional 24/7 flexibility",
+    "DocumentTemplate": "incidunt",
+    "IsPublished": true,
+    "PersonId": 320,
+    "PersonFullName": "Darrin Lebsack",
+    "AssociateFullName": "Mrs. Penelope Octavia Okuneva",
+    "ContactId": 498,
+    "ContactName": "Gorczany, Feest and Larson",
+    "ProjectId": 75,
+    "ProjectName": "Cronin, Feeney and Cartwright",
+    "AssociateId": 905,
+    "Snum": 413,
+    "SaleId": 535,
+    "SaleName": "Simonis, Considine and Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 363
       }
     }
   }

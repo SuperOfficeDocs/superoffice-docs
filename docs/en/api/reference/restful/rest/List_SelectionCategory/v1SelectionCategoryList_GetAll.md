@@ -25,7 +25,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Corwin, Heaney and Wintheiser",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "UdListDefinitionId": 690,
-    "Rank": 166,
+    "Id": 240,
+    "Name": "Bergnaum-Kassulke",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "UdListDefinitionId": 487,
+    "Rank": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldType": "System.String",
+        "FieldLength": 438
       }
     }
   }

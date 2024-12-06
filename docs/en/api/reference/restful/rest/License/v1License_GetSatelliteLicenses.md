@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bernier, Gleichner and Considine",
-    "Description": "Progressive exuding capacity",
+    "Name": "Streich, Stracke and Crona",
+    "Description": "Assimilated composite access",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 638,
-        "Tooltip": "sit",
+        "Total": 57,
+        "Tooltip": "quasi",
         "CanAssign": true,
-        "Free": 30,
-        "InUse": 533,
-        "IsHidden": false,
+        "Free": 773,
+        "InUse": 832,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 540,
-        "Name": "Greenholt-Hills",
-        "Description": "Future-proofed user-facing access",
-        "PrerequisiteModuleName": "Stokes, Collier and Berge",
-        "SortOrder": 452,
-        "ExtraFlags": 580,
+        "ModuleLicenseId": 87,
+        "Name": "Nolan Group",
+        "Description": "Multi-layered real-time architecture",
+        "PrerequisiteModuleName": "Towne-Will",
+        "SortOrder": 663,
+        "ExtraFlags": 64,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 908
+            "FieldLength": 876
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 866,
-        "Tooltip": "consequatur",
+        "Unrestricted": false,
+        "Total": 925,
+        "Tooltip": "consectetur",
         "CanAssign": false,
-        "Free": 942,
-        "InUse": 706,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 244,
-        "Name": "Nikolaus, Abernathy and Cruickshank",
-        "Description": "Reactive zero administration infrastructure",
-        "PrerequisiteModuleName": "Cartwright, Schimmel and O'Conner",
-        "SortOrder": 686,
-        "ExtraFlags": 149,
+        "Free": 892,
+        "InUse": 241,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 510,
+        "Name": "Russel-Herzog",
+        "Description": "Organic real-time archive",
+        "PrerequisiteModuleName": "Smitham LLC",
+        "SortOrder": 894,
+        "ExtraFlags": 258,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 445
+            "FieldLength": 304
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 687
       }
     }
   },
   {
-    "Name": "Bernier, Gleichner and Considine",
-    "Description": "Progressive exuding capacity",
+    "Name": "Streich, Stracke and Crona",
+    "Description": "Assimilated composite access",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 638,
-        "Tooltip": "sit",
+        "Total": 57,
+        "Tooltip": "quasi",
         "CanAssign": true,
-        "Free": 30,
-        "InUse": 533,
-        "IsHidden": false,
+        "Free": 773,
+        "InUse": 832,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 540,
-        "Name": "Greenholt-Hills",
-        "Description": "Future-proofed user-facing access",
-        "PrerequisiteModuleName": "Stokes, Collier and Berge",
-        "SortOrder": 452,
-        "ExtraFlags": 580,
+        "ModuleLicenseId": 87,
+        "Name": "Nolan Group",
+        "Description": "Multi-layered real-time architecture",
+        "PrerequisiteModuleName": "Towne-Will",
+        "SortOrder": 663,
+        "ExtraFlags": 64,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 908
+            "FieldLength": 876
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 866,
-        "Tooltip": "consequatur",
+        "Unrestricted": false,
+        "Total": 925,
+        "Tooltip": "consectetur",
         "CanAssign": false,
-        "Free": 942,
-        "InUse": 706,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 244,
-        "Name": "Nikolaus, Abernathy and Cruickshank",
-        "Description": "Reactive zero administration infrastructure",
-        "PrerequisiteModuleName": "Cartwright, Schimmel and O'Conner",
-        "SortOrder": 686,
-        "ExtraFlags": 149,
+        "Free": 892,
+        "InUse": 241,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 510,
+        "Name": "Russel-Herzog",
+        "Description": "Organic real-time archive",
+        "PrerequisiteModuleName": "Smitham LLC",
+        "SortOrder": 894,
+        "ExtraFlags": 258,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 445
+            "FieldLength": 304
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 687
       }
     }
   }

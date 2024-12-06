@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 34,
-    "Tooltip": "amet",
+    "Unrestricted": false,
+    "Total": 219,
+    "Tooltip": "culpa",
     "CanAssign": false,
-    "Free": 174,
-    "InUse": 806,
+    "Free": 498,
+    "InUse": 922,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 444,
-    "Name": "Leuschke, Carter and Batz",
-    "Description": "Synergized encompassing synergy",
-    "PrerequisiteModuleName": "Boyer-Mann",
-    "SortOrder": 777,
-    "ExtraFlags": 680,
+    "ModuleLicenseId": 357,
+    "Name": "Stroman Group",
+    "Description": "Total static project",
+    "PrerequisiteModuleName": "Barrows-Koepp",
+    "SortOrder": 15,
+    "ExtraFlags": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 648
       }
     }
   }

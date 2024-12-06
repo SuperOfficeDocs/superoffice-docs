@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 791,
+  "ReportId": 437,
   "ReportCategory": "All",
-  "Description": "Expanded regional monitoring",
+  "Description": "Persevering asynchronous strategy",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kris, Ferry and Wolf",
-  "AssociateId": 842,
-  "TemplateId": 774,
+  "Name": "Ruecker Inc and Sons",
+  "AssociateId": 345,
+  "TemplateId": 905,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 524,
+  "ReportId": 401,
   "ReportCategory": "All",
-  "Description": "Integrated dedicated installation",
+  "Description": "Multi-layered mobile hardware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Feest Group",
-  "AssociateId": 209,
-  "TemplateId": 388,
-  "Published": false,
+  "Name": "Kuhic-Ritchie",
+  "AssociateId": 105,
+  "TemplateId": 216,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

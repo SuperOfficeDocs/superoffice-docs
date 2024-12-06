@@ -26,7 +26,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=237
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=411
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 369,
-  "Name": "Breitenberg, Shields and Emmerich",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 788,
-  "UdListDefinitionId": 758,
+  "HeadingId": 643,
+  "Name": "Armstrong Group",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "Rank": 720,
+  "UdListDefinitionId": 462,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldType": "System.String",
+      "FieldLength": 435
     }
   }
 }

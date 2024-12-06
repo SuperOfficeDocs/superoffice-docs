@@ -1134,6 +1134,8 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="ErrorReason" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="InboxFolder" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SentFolder" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SimpleMode" type="xs:short" />
+              <xs:element minOccurs="0" name="LastFetch" type="xs:dateTime" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

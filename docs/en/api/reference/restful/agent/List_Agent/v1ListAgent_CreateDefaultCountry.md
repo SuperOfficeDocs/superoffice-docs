@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 773,
-  "Name": "McDermott-Muller",
-  "CurrencyId": 58,
-  "EnglishName": "Prosacco-Schulist",
+  "CountryId": 33,
+  "Name": "Greenfelder-Dickens",
+  "CurrencyId": 697,
+  "EnglishName": "Dach, Durgan and O'Hara",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Extended mission-critical array",
-  "OrgNrText": "225088",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "nam",
-  "ZipPrefix": "dolore",
-  "DomainName": "Cummerata, Bauch and Schuster",
-  "AddressLayoutId": 99,
-  "DomesticAddressLayoutId": 464,
-  "ForeignAddressLayoutId": 21,
-  "Rank": 873,
-  "Tooltip": "voluptatem",
+  "ImageDescription": "Reactive exuding pricing structure",
+  "OrgNrText": "1282717",
+  "InterAreaPrefix": "mollitia",
+  "DialInPrefix": "dolore",
+  "ZipPrefix": "magni",
+  "DomainName": "Morissette, Ernser and Huel",
+  "AddressLayoutId": 654,
+  "DomesticAddressLayoutId": 780,
+  "ForeignAddressLayoutId": 411,
+  "Rank": 257,
+  "Tooltip": "quibusdam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 303
     }
   }
 }

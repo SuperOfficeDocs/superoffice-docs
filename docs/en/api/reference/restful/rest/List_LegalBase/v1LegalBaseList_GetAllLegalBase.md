@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 677,
-    "Name": "Carter-Aufderhar",
-    "Tooltip": "optio",
-    "Rank": 553,
-    "Key": "dolorem",
+    "LegalBaseId": 364,
+    "Name": "Waters-Wyman",
+    "Tooltip": "nihil",
+    "Rank": 304,
+    "Key": "nemo",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 77
       }
     }
   }

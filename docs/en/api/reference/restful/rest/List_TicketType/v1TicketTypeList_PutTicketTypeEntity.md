@@ -110,33 +110,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 487,
-  "Name": "Larkin LLC",
-  "Rank": 809,
-  "Tooltip": "maiores",
-  "Icon": "repellat",
-  "DefaultTicketStatus": 482,
+  "TicketTypeId": 274,
+  "Name": "Kuhic-Williamson",
+  "Rank": 409,
+  "Tooltip": "harum",
+  "Icon": "magnam",
+  "DefaultTicketStatus": 742,
   "TicketStatuses": [
-    450,
-    90
+    429,
+    191
   ],
-  "DefaultTicketPriority": 272,
+  "DefaultTicketPriority": 438,
   "TicketPriorities": [
-    32,
-    928
+    296,
+    759
   ],
-  "ReplyTemplate": 923,
+  "ReplyTemplate": 557,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    187,
-    739
+    910,
+    646
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -148,31 +148,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 240,
-  "Name": "O'Connell, Grant and Boehm",
-  "Rank": 34,
-  "Tooltip": "quia",
-  "Icon": "aut",
-  "DefaultTicketStatus": 51,
+  "TicketTypeId": 166,
+  "Name": "Moore LLC",
+  "Rank": 308,
+  "Tooltip": "rem",
+  "Icon": "aliquid",
+  "DefaultTicketStatus": 531,
   "TicketStatuses": [
-    882,
-    263
+    643,
+    793
   ],
-  "DefaultTicketPriority": 727,
+  "DefaultTicketPriority": 588,
   "TicketPriorities": [
-    158,
-    717
+    786,
+    901
   ],
-  "ReplyTemplate": 837,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 779,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    847,
-    941
+    616,
+    16
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 779
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 187,
-  "StartTime": "2024-04-14T14:45:05.2408154+02:00",
-  "EndTime": "2014-01-17T14:45:05.2408154+01:00",
-  "Count": 266,
-  "DocumentTemplateId": 473
+  "PersonId": 166,
+  "StartTime": "1998-02-20T10:17:55.3633998+01:00",
+  "EndTime": "2022-07-16T10:17:55.3633998+02:00",
+  "Count": 970,
+  "DocumentTemplateId": 294
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 528,
-    "Attention": "aliquid",
-    "Header": "ea",
-    "Name": "Berge Group",
-    "OurRef": "quae",
-    "YourRef": "minima",
-    "Description": "Customizable upward-trending emulation",
-    "DocumentTemplate": "animi",
+    "DocumentId": 501,
+    "Attention": "reprehenderit",
+    "Header": "perferendis",
+    "Name": "Homenick, Ziemann and Franecki",
+    "OurRef": "et",
+    "YourRef": "qui",
+    "Description": "Seamless disintermediate website",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 641,
-    "PersonFullName": "Corbin Dibbert",
-    "AssociateFullName": "Clark Larkin",
-    "ContactId": 943,
-    "ContactName": "Labadie-Schuppe",
-    "ProjectId": 801,
-    "ProjectName": "Kuphal-Goldner",
-    "AssociateId": 949,
-    "Snum": 268,
-    "SaleId": 424,
-    "SaleName": "Tromp-Langosh",
+    "PersonId": 106,
+    "PersonFullName": "Ariel Hilpert",
+    "AssociateFullName": "Malvina Metz",
+    "ContactId": 321,
+    "ContactName": "Senger LLC",
+    "ProjectId": 200,
+    "ProjectName": "Nicolas LLC",
+    "AssociateId": 223,
+    "Snum": 303,
+    "SaleId": 911,
+    "SaleName": "Wyman Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 157
       }
     }
   }

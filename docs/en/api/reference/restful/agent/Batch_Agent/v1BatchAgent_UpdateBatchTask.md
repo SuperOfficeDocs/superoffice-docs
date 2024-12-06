@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Sanford-Kemmer",
-  "AssociateId": 453,
-  "DetailsTable": 927,
-  "DetailsRecord": 252,
+  "Id": 341,
+  "Name": "Wolff Inc and Sons",
+  "AssociateId": 673,
+  "DetailsTable": 308,
+  "DetailsRecord": 486,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vitae",
-    "ParameterObject2": "magnam"
+    "ParameterObject1": "id",
+    "ParameterObject2": "omnis"
   },
-  "LastStarted": "2012-10-08T14:45:04.8815214+02:00",
-  "Created": "2021-03-18T14:45:04.8815214+01:00",
-  "StartCount": 353,
-  "DatabaseSerialNumber": "1278859",
-  "Context": "quasi",
-  "Result": "odio",
+  "LastStarted": "2012-03-11T10:17:55.1290102+01:00",
+  "Created": "2014-04-05T10:17:55.1290102+02:00",
+  "StartCount": 516,
+  "DatabaseSerialNumber": "1277742",
+  "Context": "veritatis",
+  "Result": "dolores",
   "State": "All",
-  "Description": "Multi-lateral non-volatile toolset",
-  "Response": "autem",
-  "Request": "nesciunt",
-  "ProgressDescription": "Virtual web-enabled migration",
-  "ProgressPercent": 290,
-  "FileName": "Crona, Sanford and White",
+  "Description": "Persevering leading edge intranet",
+  "Response": "ex",
+  "Request": "quo",
+  "ProgressDescription": "Inverse methodical Graphic Interface",
+  "ProgressPercent": 821,
+  "FileName": "Ward-Howe",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

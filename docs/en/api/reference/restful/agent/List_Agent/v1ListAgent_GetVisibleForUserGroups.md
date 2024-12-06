@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 819,
-  "ListItemId": 602
+  "UdListDefinitionId": 353,
+  "ListItemId": 98
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Bashirian Inc and Sons",
-    "ToolTip": "Non quia est.",
+    "Id": 459,
+    "Name": "Nader-Gottlieb",
+    "ToolTip": "Odio facilis nam incidunt dolorum.",
     "Deleted": false,
-    "Rank": 550,
-    "Type": "eaque",
-    "ColorBlock": 178,
-    "IconHint": "accusantium",
-    "Selected": true,
-    "LastChanged": "2024-10-28T14:45:05.7094637+01:00",
+    "Rank": 468,
+    "Type": "quis",
+    "ColorBlock": 73,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2006-02-12T10:17:55.691537+01:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Wolf Group",
-        "ToolTip": "Laudantium maxime aut aliquid quibusdam.",
+        "Id": 590,
+        "Name": "Rau, Sawayn and Gulgowski",
+        "ToolTip": "Excepturi veniam atque et provident beatae impedit.",
         "Deleted": false,
-        "Rank": 824,
-        "Type": "et",
-        "ColorBlock": 190,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2012-01-25T14:45:05.7094637+01:00",
+        "Rank": 901,
+        "Type": "aut",
+        "ColorBlock": 559,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2004-08-13T10:17:55.691537+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Dr. Margot Murray",
+        "ExtraInfo": "facere",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Cyrus Romaguera I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "quos",
+    "ExtraInfo": "est",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Keyon Dooley",
+    "FullName": "Arnoldo Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldType": "System.String",
+        "FieldLength": 754
       }
     }
   }

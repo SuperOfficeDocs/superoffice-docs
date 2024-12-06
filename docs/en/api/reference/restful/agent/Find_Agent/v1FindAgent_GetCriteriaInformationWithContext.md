@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Cruickshank, Kreiger and Rosenbaum",
-  "StorageKey": "dolorum",
+  "StorageType": "aut",
+  "ProviderName": "Treutel, Rath and Kautzer",
+  "StorageKey": "doloremque",
   "StaticColumns": [
-    "voluptatem",
-    "nihil"
+    "voluptas",
+    "quisquam"
   ],
-  "Context": "adipisci"
+  "Context": "odit"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Moen Inc and Sons",
-      "Operator": "ad",
+      "Name": "Stoltenberg-Senger",
+      "Operator": "dolores",
       "Values": [
-        "porro",
-        "accusamus"
+        "id",
+        "excepturi"
       ],
       "DisplayValues": [
-        "est",
-        "ea"
+        "sed",
+        "autem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 97,
+      "InterParenthesis": 493,
       "InterOperator": "And",
-      "UniqueHash": 410
+      "UniqueHash": 1001
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Dibbert Inc and Sons",
-      "DisplayTooltip": "tempora",
-      "DisplayType": "ab",
+      "DisplayName": "Stoltenberg, Farrell and Keeling",
+      "DisplayTooltip": "reprehenderit",
+      "DisplayType": "laborum",
       "CanOrderBy": true,
-      "Name": "Toy-Pfannerstill",
-      "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "O'Keefe Inc and Sons",
+      "Name": "Schmidt, Paucek and Boyer",
+      "CanRestrictBy": true,
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Daniel-Corwin",
       "IsVisible": true,
-      "ExtraInfo": "eaque",
-      "Width": "provident",
-      "IconHint": "voluptates",
-      "HeadingIconHint": "iusto"
+      "ExtraInfo": "aperiam",
+      "Width": "perferendis",
+      "IconHint": "aut",
+      "HeadingIconHint": "iste"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schroeder Inc and Sons",
-      "PrimaryKey": 851,
+      "EntityName": "McDermott-Wolff",
+      "PrimaryKey": 304,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "consequuntur",
-          "LinkHint": "ullam"
+          "DisplayValue": "dolores",
+          "TooltipHint": "et",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "saepe",
-      "StyleHint": "eum",
+      "LinkHint": "est",
+      "StyleHint": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 925
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Okuneva, Jacobi and Ondricka",
-      "Description": "Devolved discrete workforce",
-      "Rank": 406,
+      "Name": "Kreiger, Gusikowski and Koepp",
+      "Description": "Configurable even-keeled Graphical User Interface",
+      "Rank": 713,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Okuneva, Jacobi and Ondricka",
-      "Description": "Devolved discrete workforce",
-      "Rank": 406,
+      "Name": "Kreiger, Gusikowski and Koepp",
+      "Description": "Configurable even-keeled Graphical User Interface",
+      "Rank": 713,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 598
     }
   }
 }

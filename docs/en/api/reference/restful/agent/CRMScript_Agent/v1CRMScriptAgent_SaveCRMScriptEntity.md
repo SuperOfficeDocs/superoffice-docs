@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 967,
-  "UniqueIdentifier": "porro",
-  "Name": "Stanton-Block",
-  "Description": "Synergized clear-thinking benchmark",
-  "IncludeId": "et",
-  "AccessKey": "et",
-  "HierarchyId": 430,
-  "Source": "dolores",
-  "SourceCode": "eveniet",
+  "EjscriptId": 93,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Kreiger LLC",
+  "Description": "Re-engineered encompassing collaboration",
+  "IncludeId": "ex",
+  "AccessKey": "in",
+  "HierarchyId": 992,
+  "Source": "magnam",
+  "SourceCode": "adipisci",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 865,
+  "HtmlOutput": 556,
   "Includes": [
-    212,
-    441
+    317,
+    212
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 720,
-      "LineNumberTo": 510,
-      "Delta": 981,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 454,
+      "LineNumberTo": 794,
+      "Delta": 497,
+      "IncludeId": "iusto",
       "IncludedFrom": [
-        "quia",
-        "ad"
+        "modi",
+        "enim"
       ]
     },
     {
-      "LineNumberFrom": 720,
-      "LineNumberTo": 510,
-      "Delta": 981,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 454,
+      "LineNumberTo": 794,
+      "Delta": 497,
+      "IncludeId": "iusto",
       "IncludedFrom": [
-        "quia",
-        "ad"
+        "modi",
+        "enim"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-06-26T14:45:05.1627086+02:00",
-  "RegisteredAssociateId": 468,
-  "Updated": "2005-12-15T14:45:05.1627086+01:00",
-  "UpdatedAssociateId": 557
+  "Registered": "2019-05-19T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 173,
+  "Updated": "2022-09-14T10:17:55.3165216+02:00",
+  "UpdatedAssociateId": 3
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 720,
-  "UniqueIdentifier": "aspernatur",
-  "Name": "Hills, Schaden and Koss",
-  "Description": "Intuitive asynchronous productivity",
-  "IncludeId": "rerum",
-  "AccessKey": "nam",
-  "HierarchyId": 782,
-  "Source": "iusto",
-  "SourceCode": "quasi",
+  "EjscriptId": 582,
+  "UniqueIdentifier": "et",
+  "Name": "Carroll Inc and Sons",
+  "Description": "Networked mission-critical neural-net",
+  "IncludeId": "neque",
+  "AccessKey": "amet",
+  "HierarchyId": 933,
+  "Source": "molestiae",
+  "SourceCode": "nulla",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 53,
+  "HtmlOutput": 228,
   "Includes": [
-    703,
-    442
+    154,
+    398
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 171,
-      "LineNumberTo": 711,
-      "Delta": 36,
-      "IncludeId": "officiis",
+      "LineNumberFrom": 814,
+      "LineNumberTo": 418,
+      "Delta": 830,
+      "IncludeId": "et",
       "IncludedFrom": [
-        "quod",
-        "voluptas"
+        "non",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 839
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-12-08T14:45:05.1627086+01:00",
-  "RegisteredAssociateId": 174,
-  "Updated": "2005-06-11T14:45:05.1627086+02:00",
-  "UpdatedAssociateId": 321,
+  "Registered": "2010-06-24T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 350,
+  "Updated": "2024-10-28T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 548
     }
   }
 }

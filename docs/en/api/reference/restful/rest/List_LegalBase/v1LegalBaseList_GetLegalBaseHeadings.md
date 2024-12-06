@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 551,
-    "Name": "Lebsack LLC",
-    "Tooltip": "illum",
+    "HeadingId": 301,
+    "Name": "Nolan LLC",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "Rank": 778,
-    "UdListDefinitionId": 419,
+    "Rank": 263,
+    "UdListDefinitionId": 932,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 792
       }
     }
   }

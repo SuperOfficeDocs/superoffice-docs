@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 799
+  "UserGroupId": 893
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 685,
-    "ColumnId": 898,
-    "FieldDefault": "nihil",
-    "FieldHeight": 876,
-    "FieldLabel": "iure",
-    "FieldLeft": 57,
-    "FieldTop": 311,
+    "UDefFieldId": 544,
+    "ColumnId": 53,
+    "FieldDefault": "aut",
+    "FieldHeight": 337,
+    "FieldLabel": "voluptatibus",
+    "FieldLeft": 296,
+    "FieldTop": 513,
     "FieldType": "Checkbox",
-    "FieldWidth": 251,
-    "FormatMask": "inventore",
+    "FieldWidth": 826,
+    "FormatMask": "eius",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 675,
-    "LabelLeft": 665,
-    "LabelTop": 347,
-    "LabelWidth": 766,
-    "LastVersionId": 524,
-    "ListTableId": 123,
-    "IsMandatory": true,
+    "LabelHeight": 189,
+    "LabelLeft": 784,
+    "LabelTop": 899,
+    "LabelWidth": 506,
+    "LastVersionId": 418,
+    "ListTableId": 383,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 751,
-    "ProgId": "illo",
-    "IsReadOnly": false,
-    "ShortLabel": "odit",
-    "TabOrder": 186,
-    "TextLength": 474,
-    "Tooltip": "recusandae",
-    "UdefIdentity": 137,
-    "UDListDefinitionId": 560,
+    "Page1LineNo": 453,
+    "ProgId": "aut",
+    "IsReadOnly": true,
+    "ShortLabel": "magni",
+    "TabOrder": 229,
+    "TextLength": 766,
+    "Tooltip": "iusto",
+    "UdefIdentity": 638,
+    "UDListDefinitionId": 159,
     "Justification": "Center",
-    "Version": 94,
-    "TemplateVariableName": "Howell, Adams and Legros",
+    "Version": 422,
+    "TemplateVariableName": "Farrell LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Skiles Inc and Sons",
+    "MdoListName": "Gorczany Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 279
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

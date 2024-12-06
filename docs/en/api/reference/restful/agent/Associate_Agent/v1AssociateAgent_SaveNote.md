@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Associate/SaveNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 155,
+  "AssociateId": 646,
   "Note": [
-    "et",
-    "deleniti"
+    "quae",
+    "id"
   ]
 }
 ```

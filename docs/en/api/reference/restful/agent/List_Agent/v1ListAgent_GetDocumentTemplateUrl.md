@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 92,
+  "DocumentTemplateId": 59,
   "WritableUrl": false,
-  "LanguageCode": "rem"
+  "LanguageCode": "labore"
 }
 ```
 

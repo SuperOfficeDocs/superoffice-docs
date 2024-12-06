@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=04/03/2002 14:45:16
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=02/09/2001 14:45:16
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=54
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/03/2014 10:18:02
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/09/2002 10:18:02
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=841
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 883,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 871,
-  "Name": "Bosco LLC",
-  "Description": "Integrated homogeneous system engine",
-  "Currency": "molestias",
-  "CurrencyName": "Sawayn LLC",
-  "ValidFrom": "2022-03-15T14:45:13.7711051+01:00",
-  "ValidTo": "2017-06-24T14:45:13.7711051+02:00",
+  "PriceListId": 211,
+  "ERPPriceListKey": "ipsam",
+  "QuoteConnectionId": 466,
+  "Name": "Reinger-Rodriguez",
+  "Description": "Right-sized explicit software",
+  "Currency": "non",
+  "CurrencyName": "Dare Inc and Sons",
+  "ValidFrom": "2021-01-12T10:18:01.0668705+01:00",
+  "ValidTo": "2007-03-03T10:18:01.0668705+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldType": "System.String",
+      "FieldLength": 280
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 393,
-    "Name": "Moen, Kuhn and Hand",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 487,
-    "UdListDefinitionId": 479
+    "HeadingId": 450,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 248,
+    "UdListDefinitionId": 353
   },
   {
-    "HeadingId": 393,
-    "Name": "Moen, Kuhn and Hand",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 487,
-    "UdListDefinitionId": 479
+    "HeadingId": 450,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "Rank": 248,
+    "UdListDefinitionId": 353
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 997,
-    "Name": "Balistreri Group",
-    "Tooltip": "inventore",
+    "HeadingId": 349,
+    "Name": "Glover-Collins",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 975,
-    "UdListDefinitionId": 466,
+    "Rank": 505,
+    "UdListDefinitionId": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 463
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 182,
-  "Year": 891,
+  "TargetGroupId": 71,
+  "Year": 781,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 973,
+      "TargetAssignmentInfoId": 878,
       "Values": [
-        203,
-        953
+        109,
+        75
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 529,
-      "DimensionListItemDisplayName": "Kris-Koelpin",
+      "DimensionListItem": 966,
+      "DimensionListItemDisplayName": "Rau Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldType": "System.String",
+          "FieldLength": 857
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "sunt",
+  "SearchString": "minima",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "093.140.8653 x8039",
-    "PersonCellPhone": "293.061.4504",
-    "PersonPrivatePhone": "043.083.9379 x46537",
-    "PersonFaxNumber": "1029333",
-    "PersonPagerNumber": "1826503",
-    "PersonEmail": "kelly_mitchell@daniel.name",
-    "Id": 954,
-    "Name": "Corkery, Glover and Ortiz",
-    "Tooltip": "odit",
-    "UniqueId": "in",
+    "PersonDirectPhone": "(097)037-0808 x080",
+    "PersonCellPhone": "1-686-300-7924 x975",
+    "PersonPrivatePhone": "163-772-1401 x187",
+    "PersonFaxNumber": "789173",
+    "PersonPagerNumber": "1663943",
+    "PersonEmail": "rickie@wolfweissnat.ca",
+    "Id": 434,
+    "Name": "Beier Inc and Sons",
+    "Tooltip": "non",
+    "UniqueId": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldLength": 66
       }
     }
   }

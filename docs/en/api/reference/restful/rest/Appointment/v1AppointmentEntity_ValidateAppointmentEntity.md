@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-07-23T14:45:12.4589006+02:00",
-  "AppointmentId": 551,
-  "Description": "Assimilated grid-enabled parallelism",
-  "Title": "laudantium",
-  "Agenda": "similique",
-  "InternalNotes": "tempore",
-  "StartDate": "2022-07-03T14:45:12.4589006+02:00",
-  "EndDate": "2015-01-26T14:45:12.4589006+01:00",
+  "CreatedDate": "2010-11-13T10:18:00.1605656+01:00",
+  "AppointmentId": 890,
+  "Description": "Progressive full-range Graphic Interface",
+  "Title": "beatae",
+  "Agenda": "eius",
+  "InternalNotes": "necessitatibus",
+  "StartDate": "1998-03-17T10:18:00.1605656+01:00",
+  "EndDate": "2014-03-21T10:18:00.1605656+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 872,
+  "MotherId": 861,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-06-28T14:45:12.4589006+02:00",
+  "UpdatedDate": "2022-07-13T10:18:00.1605656+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 124,
+  "ActiveLinks": 625,
   "Links": [
     {
-      "EntityName": "Grant, Hodkiewicz and Mraz",
-      "Id": 396,
-      "Description": "Secured needs-based monitoring",
-      "ExtraInfo": "in",
-      "LinkId": 422
+      "EntityName": "Lynch-Spencer",
+      "Id": 874,
+      "Description": "Front-line asynchronous help-desk",
+      "ExtraInfo": "incidunt",
+      "LinkId": 679
     },
     {
-      "EntityName": "Grant, Hodkiewicz and Mraz",
-      "Id": 396,
-      "Description": "Secured needs-based monitoring",
-      "ExtraInfo": "in",
-      "LinkId": 422
+      "EntityName": "Lynch-Spencer",
+      "Id": 874,
+      "Description": "Front-line asynchronous help-desk",
+      "ExtraInfo": "incidunt",
+      "LinkId": 679
     }
   ],
-  "AlarmLeadTime": "ullam",
+  "AlarmLeadTime": "sapiente",
   "HasAlarm": false,
-  "ColorIndex": 13,
-  "IsFree": false,
+  "ColorIndex": 947,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "deserunt",
-  "LeadTime": "accusantium",
-  "Location": "praesentium",
-  "RejectCounter": 978,
+  "LagTime": "aut",
+  "LeadTime": "sequi",
+  "Location": "doloribus",
+  "RejectCounter": 76,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 754,
-      "PersonId": 998,
-      "ContactId": 940,
-      "EmailId": 10,
-      "SendEmail": true,
+      "AssociateId": 891,
+      "PersonId": 467,
+      "ContactId": 907,
+      "EmailId": 364,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rollin@satterfieldhegmann.biz",
-      "Description": "Polarised multimedia benchmark"
+      "EmailAddress": "dylan.little@schinner.com",
+      "Description": "Function-based full-range neural-net"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-10-28T14:45:12.4589006+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2002-05-17T10:18:00.1605656+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 386,
+  "PreferredTZLocation": 753,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 704,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 641,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "velit",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Garnet Heloise Huels",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "843180225",
+    "SuperOffice:2": "Prof. Jamir Wolff DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "qui"
+    "CustomFields1": "ut",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2003-07-01T14:45:12.4589006+02:00",
-  "PublishTo": "2013-01-13T14:45:12.4589006+01:00",
-  "PublishFrom": "2010-09-16T14:45:12.4589006+02:00",
+  "PublishEventDate": "1998-03-04T10:18:00.1605656+01:00",
+  "PublishTo": "2015-11-25T10:18:00.1605656+01:00",
+  "PublishFrom": "2009-04-19T10:18:00.1605656+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 543,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "porro"
+      "DisplayValue": "nesciunt"
     },
     {
-      "VisibleId": 543,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "porro"
+      "DisplayValue": "nesciunt"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aspernatur",
-  "2": "consequatur"
+  "1": "perferendis",
+  "2": "fuga"
 }
 ```

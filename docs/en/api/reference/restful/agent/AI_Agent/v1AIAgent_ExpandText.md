@@ -74,9 +74,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "aspernatur",
-  "PercentBigger": 617,
-  "IsoLangCode": "sapiente"
+  "Text": "rem",
+  "PercentBigger": 491,
+  "IsoLangCode": "odit"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"neque"
+"error"
 ```

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 168,
-    "Name": "Stokes-Hoppe",
-    "Tooltip": "qui",
-    "Rank": 953,
-    "Key": "maiores",
-    "MailTemplateId": 671,
-    "Deleted": false,
+    "ConsentSourceId": 780,
+    "Name": "Auer, Feest and Mohr",
+    "Tooltip": "quidem",
+    "Rank": 948,
+    "Key": "veritatis",
+    "MailTemplateId": 935,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldLength": 315
       }
     }
   }

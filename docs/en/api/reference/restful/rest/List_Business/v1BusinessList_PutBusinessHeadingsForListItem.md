@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Yost Group",
-    "ToolTip": "Enim blanditiis necessitatibus.",
+    "Id": 483,
+    "Name": "Zulauf-Lakin",
+    "ToolTip": "Voluptas magni.",
     "Deleted": false,
-    "Rank": 869,
-    "Type": "earum",
-    "ColorBlock": 832,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2004-07-09T14:45:13.5836468+02:00",
+    "Rank": 3,
+    "Type": "accusamus",
+    "ColorBlock": 381,
+    "IconHint": "beatae",
+    "Selected": true,
+    "LastChanged": "2012-05-29T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Bergstrom Inc and Sons",
-        "ToolTip": "Est accusamus nostrum maiores quam magni ipsum.",
+        "Id": 196,
+        "Name": "Wehner-Walsh",
+        "ToolTip": "Tempora eum beatae sequi praesentium reprehenderit aut quis.",
         "Deleted": true,
-        "Rank": 349,
-        "Type": "velit",
-        "ColorBlock": 593,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2021-07-13T14:45:13.5836468+02:00",
+        "Rank": 777,
+        "Type": "sint",
+        "ColorBlock": 852,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2020-05-04T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "vero",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Prof. Gilda Lilla Torphy I"
+        "FullName": "Miss Don Aimee Marquardt"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Timothy Kirlin"
+    "ExtraInfo": "autem",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Deborah Jerde"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Green, Bartoletti and Eichmann",
-    "ToolTip": "Modi expedita et dolorem qui adipisci alias id.",
+    "Id": 291,
+    "Name": "Jaskolski Group",
+    "ToolTip": "Quas qui consequatur ratione in.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "a",
-    "ColorBlock": 920,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2017-05-10T14:45:13.5836468+02:00",
+    "Rank": 367,
+    "Type": "at",
+    "ColorBlock": 396,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-08-09T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Barton, Walsh and Bauch",
-        "ToolTip": "Debitis libero voluptatum dolor molestiae quisquam voluptatum.",
-        "Deleted": true,
-        "Rank": 21,
-        "Type": "dicta",
-        "ColorBlock": 683,
-        "IconHint": "occaecati",
+        "Id": 579,
+        "Name": "Runolfsson-Okuneva",
+        "ToolTip": "Explicabo ut ut velit.",
+        "Deleted": false,
+        "Rank": 523,
+        "Type": "necessitatibus",
+        "ColorBlock": 594,
+        "IconHint": "quos",
         "Selected": true,
-        "LastChanged": "2013-02-04T14:45:13.5836468+01:00",
+        "LastChanged": "2022-10-04T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "nihil",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Ramon Johns",
+        "FullName": "Kassandra Nannie Sauer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 288
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "explicabo",
-    "Hidden": false,
-    "FullName": "Noemie Kuvalis",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Jaylon Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldLength": 957
       }
     }
   }

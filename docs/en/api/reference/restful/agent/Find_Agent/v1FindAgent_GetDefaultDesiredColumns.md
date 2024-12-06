@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "totam",
-  "ProviderName": "Mohr Group",
-  "StorageKey": "pariatur"
+  "StorageType": "atque",
+  "ProviderName": "Glover, Kovacek and Marks",
+  "StorageKey": "tempore"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Batz-Moore",
-    "DisplayTooltip": "eius",
-    "DisplayType": "et",
+    "DisplayName": "Schuppe-Kiehn",
+    "DisplayTooltip": "quia",
+    "DisplayType": "quibusdam",
     "CanOrderBy": false,
-    "Name": "Lang, Gusikowski and Grimes",
-    "CanRestrictBy": false,
-    "RestrictionType": "rerum",
-    "RestrictionListName": "O'Kon-Lindgren",
+    "Name": "Reinger-Dare",
+    "CanRestrictBy": true,
+    "RestrictionType": "id",
+    "RestrictionListName": "Bruen Group",
     "IsVisible": false,
-    "ExtraInfo": "fuga",
-    "Width": "atque",
-    "IconHint": "blanditiis",
-    "HeadingIconHint": "laboriosam"
+    "ExtraInfo": "officia",
+    "Width": "qui",
+    "IconHint": "quasi",
+    "HeadingIconHint": "quia"
   }
 ]
 ```

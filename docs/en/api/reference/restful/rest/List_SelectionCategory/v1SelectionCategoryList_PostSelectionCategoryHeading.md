@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 357,
-  "Name": "Streich Inc and Sons",
-  "Tooltip": "ut",
+  "HeadingId": 422,
+  "Name": "Rau-Cummerata",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 678,
-  "UdListDefinitionId": 409
+  "Rank": 814,
+  "UdListDefinitionId": 300
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 529,
-  "Name": "Klocko-Raynor",
-  "Tooltip": "rem",
+  "HeadingId": 864,
+  "Name": "Miller Group",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 357,
-  "UdListDefinitionId": 356,
+  "Rank": 697,
+  "UdListDefinitionId": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 712
     }
   }
 }

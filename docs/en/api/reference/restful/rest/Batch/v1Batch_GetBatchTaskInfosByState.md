@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Medhurst-Walker",
-    "AssociateId": 566,
-    "DetailsTable": 529,
-    "DetailsRecord": 431,
+    "Id": 365,
+    "Name": "Legros Group",
+    "AssociateId": 154,
+    "DetailsTable": 186,
+    "DetailsRecord": 795,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sint",
-      "ParameterObject2": "id"
+      "ParameterObject1": "reprehenderit",
+      "ParameterObject2": "nisi"
     },
-    "LastStarted": "2017-06-27T14:45:13.3961895+02:00",
-    "Created": "2000-01-13T14:45:13.3961895+01:00",
-    "StartCount": 678,
-    "DatabaseSerialNumber": "664490",
-    "Context": "velit",
-    "Result": "explicabo",
+    "LastStarted": "2006-03-24T10:18:00.8168545+01:00",
+    "Created": "2002-11-07T10:18:00.8168545+01:00",
+    "StartCount": 332,
+    "DatabaseSerialNumber": "159485",
+    "Context": "sit",
+    "Result": "praesentium",
     "State": "All",
-    "Description": "Face to face foreground budgetary management",
-    "Response": "quisquam",
-    "Request": "voluptatibus",
-    "ProgressDescription": "Fully-configurable optimizing architecture",
-    "ProgressPercent": 832,
-    "FileName": "Cremin Inc and Sons",
+    "Description": "Cloned systematic help-desk",
+    "Response": "vel",
+    "Request": "omnis",
+    "ProgressDescription": "Optimized explicit open system",
+    "ProgressPercent": 550,
+    "FileName": "Harris, Gislason and Cummerata",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 906
       }
     }
   }

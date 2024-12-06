@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Medhurst, Ritchie and Dickens",
-  "Comment": "quod",
-  "StakeholderRoleId": 334,
-  "CountryId": 400,
-  "PersonId": 345,
-  "EmailDescription": "kris_becker@raynor.uk",
-  "EmailId": 718,
-  "EmailAddress": "ara.price@stokes.com",
-  "PhoneId": 32,
-  "ContactName": "Goldner Inc and Sons",
-  "ContactId": 207,
-  "SaleId": 520,
-  "Mrmrs": "non",
-  "Firstname": "Wyman",
-  "MiddleName": "Greenholt Group",
-  "Lastname": "Konopelski",
-  "SaleStakeholderId": 641,
-  "Rank": 53,
-  "Phone": "887-470-9909 x5624",
+  "StakeholderRoleName": "Kiehn-Grimes",
+  "Comment": "et",
+  "StakeholderRoleId": 61,
+  "CountryId": 533,
+  "PersonId": 833,
+  "EmailDescription": "okey_macejkovic@lakin.info",
+  "EmailId": 22,
+  "EmailAddress": "era@durganlowe.us",
+  "PhoneId": 52,
+  "ContactName": "Beer-Hand",
+  "ContactId": 324,
+  "SaleId": 608,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Jaqueline",
+  "MiddleName": "Kuhlman, Gutkowski and Barrows",
+  "Lastname": "Schiller",
+  "SaleStakeholderId": 138,
+  "Rank": 898,
+  "Phone": "330.312.7348 x03733",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 496
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Moen LLC",
-    "ToolTip": "Eos beatae autem tempora.",
-    "Deleted": false,
-    "Rank": 867,
-    "Type": "dolorem",
-    "ColorBlock": 165,
-    "IconHint": "asperiores",
+    "Id": 866,
+    "Name": "Reilly-Fadel",
+    "ToolTip": "Corporis dolor molestiae.",
+    "Deleted": true,
+    "Rank": 785,
+    "Type": "nostrum",
+    "ColorBlock": 280,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1997-08-01T14:45:13.9585664+02:00",
+    "LastChanged": "2009-01-29T10:18:01.1918781+01:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Lueilwitz-D'Amore",
-        "ToolTip": "Aperiam ut accusamus quaerat accusamus ut.",
-        "Deleted": false,
-        "Rank": 753,
-        "Type": "est",
-        "ColorBlock": 682,
-        "IconHint": "ducimus",
+        "Id": 801,
+        "Name": "Weimann, Kerluke and Cruickshank",
+        "ToolTip": "Ut aperiam ab veniam provident praesentium et praesentium.",
+        "Deleted": true,
+        "Rank": 293,
+        "Type": "non",
+        "ColorBlock": 972,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-11-01T14:45:13.9585664+01:00",
+        "LastChanged": "2021-04-06T10:18:01.1918781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Miss Brennon Theodora Erdman II",
+        "FullName": "Prof. Rickey Wanda Bechtelar Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldLength": 756
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "eos",
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Destiney Shanny Considine II",
+    "FullName": "Melany Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

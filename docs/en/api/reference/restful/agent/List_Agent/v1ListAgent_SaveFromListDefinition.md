@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "UdListDefinitionId": 758,
+  "Id": 125,
+  "UdListDefinitionId": 353,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 916,
-  "Name": "Cummerata LLC",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 105,
-  "Rank": 277,
+  "Id": 131,
+  "Name": "Runolfsson Inc and Sons",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "UdListDefinitionId": 341,
+  "Rank": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldLength": 906
     }
   }
 }

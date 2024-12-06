@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 378,
+  "DocumentTemplateId": 727,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "recusandae",
-  "PluginId": 961
+  "LanguageCode": "eum",
+  "PluginId": 504
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brakus, Hamill and Brakus",
-  "Description": "Multi-channelled fault-tolerant methodology",
-  "ExternalReference": "nihil",
-  "MimeType": "voluptatem",
-  "PluginId": 471
+  "Name": "Morar LLC",
+  "Description": "Stand-alone 6th generation infrastructure",
+  "ExternalReference": "consectetur",
+  "MimeType": "qui",
+  "PluginId": 498
 }
 ```

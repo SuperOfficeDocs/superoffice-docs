@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Harvey Group",
-  "DeviceName": "Jewess, Romaguera and Pouros",
-  "KeyName": "Skiles-Lehner",
-  "TableName": "Grady, Thompson and Huels",
+  "ApplicationName": "Wehner, Swift and Smith",
+  "DeviceName": "Wolf, O'Keefe and Powlowski",
+  "KeyName": "Schroeder-Dooley",
+  "TableName": "Waelchi, Reynolds and Bechtelar",
   "RecordId": 71
 }
 ```
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "voluptatibus",
-  "RecordId": 851,
-  "CreatedDate": "2019-09-17T14:45:05.6469762+02:00",
-  "UpdatedDate": "2011-09-04T14:45:05.6469762+02:00",
-  "UpdatedBy": "odit",
-  "CreatedBy": "error",
-  "TableName": "Mann Group",
+  "Key": "id",
+  "Value": "et",
+  "RecordId": 258,
+  "CreatedDate": "2001-04-20T10:17:55.660285+02:00",
+  "UpdatedDate": "2013-02-26T10:17:55.660285+01:00",
+  "UpdatedBy": "minima",
+  "CreatedBy": "aut",
+  "TableName": "Gleason Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 723
     }
   }
 }

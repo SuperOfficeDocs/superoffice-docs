@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 875,
-  "Name": "Lind-Zieme",
-  "Tooltip": "ducimus",
+  "Id": 519,
+  "Name": "Beer-Kuphal",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 389,
+  "Rank": 987,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "UseGroupsAndHeadings": true,
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Mayert Group",
-  "Tooltip": "et",
+  "Id": 177,
+  "Name": "King-Glover",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 52,
+  "Rank": 774,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
-  "InUseByUserDefinedFields": false,
+  "ListType": "laboriosam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 242
     }
   }
 }

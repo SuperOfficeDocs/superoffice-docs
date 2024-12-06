@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Yundt-Lemke",
-    "Tooltip": "similique",
+    "HeadingId": 390,
+    "Name": "Schiller-Jenkins",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 419,
-    "UdListDefinitionId": 885,
+    "Rank": 193,
+    "UdListDefinitionId": 924,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldType": "System.String",
+        "FieldLength": 595
       }
     }
   }

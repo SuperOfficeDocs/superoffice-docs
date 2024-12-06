@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 658,
+  "SystemEventId": 756,
   "Scope": "Database",
-  "Eta": "2020-08-13T14:45:13.2555955+02:00",
-  "Eventkey": "inventore",
-  "Eventmess": "eaque",
-  "ExtraInfo": 16,
-  "Owner": 521,
-  "UpdatedCount": 716,
-  "Registered": "2022-02-21T14:45:13.2555955+01:00",
+  "Eta": "2021-05-06T10:18:00.723098+02:00",
+  "Eventkey": "dolore",
+  "Eventmess": "est",
+  "ExtraInfo": 824,
+  "Owner": 463,
+  "UpdatedCount": 978,
+  "Registered": "2000-08-01T10:18:00.723098+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 731,
+  "SystemEventId": 968,
   "Scope": "Database",
-  "Eta": "2016-07-01T14:45:13.2555955+02:00",
-  "Eventkey": "voluptates",
-  "Eventmess": "dignissimos",
-  "ExtraInfo": 370,
-  "Owner": 104,
-  "UpdatedCount": 182,
-  "Registered": "2009-11-20T14:45:13.2555955+01:00",
+  "Eta": "2023-03-20T10:18:00.723098+01:00",
+  "Eventkey": "nesciunt",
+  "Eventmess": "assumenda",
+  "ExtraInfo": 939,
+  "Owner": 652,
+  "UpdatedCount": 282,
+  "Registered": "2006-10-10T10:18:00.723098+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldLength": 241
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

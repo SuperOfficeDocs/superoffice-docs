@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Ward-Nolan",
-  "Tooltip": "libero",
+  "Id": 365,
+  "Name": "Herman-Botsford",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 727,
-  "Rank": 780,
+  "UdListDefinitionId": 886,
+  "Rank": 293,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 134
     }
   }
 }

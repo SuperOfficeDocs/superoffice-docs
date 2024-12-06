@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 234,
-  "Name": "McDermott LLC",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 466,
-  "UdListDefinitionId": 861
+  "HeadingId": 534,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "Rank": 598,
+  "UdListDefinitionId": 920
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 586,
-  "Name": "Brekke, Treutel and Leffler",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 965,
-  "UdListDefinitionId": 15,
+  "HeadingId": 494,
+  "Name": "Witting LLC",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 92,
+  "UdListDefinitionId": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 579
     }
   }
 }

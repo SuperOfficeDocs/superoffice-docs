@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 402,
-    "Name": "Erdman, Collins and Franecki",
-    "Value": "aut",
-    "CreatedDate": "2008-03-06T14:45:04.8659001+01:00",
-    "UpdatedDate": "2008-09-20T14:45:04.8659001+02:00",
-    "CreatedBy": "debitis",
-    "UpdatedBy": "incidunt",
+    "AudienceLayoutId": 679,
+    "Name": "Nikolaus, Funk and Berge",
+    "Value": "qui",
+    "CreatedDate": "2009-01-31T10:17:55.1290102+01:00",
+    "UpdatedDate": "1997-10-12T10:17:55.1290102+02:00",
+    "CreatedBy": "et",
+    "UpdatedBy": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 785
       }
     }
   }

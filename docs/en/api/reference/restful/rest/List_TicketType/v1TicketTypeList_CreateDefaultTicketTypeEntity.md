@@ -83,40 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 523,
-  "Name": "Mante-Fay",
-  "Rank": 544,
-  "Tooltip": "deserunt",
-  "Icon": "sed",
-  "DefaultTicketStatus": 84,
+  "TicketTypeId": 603,
+  "Name": "Weimann, Rohan and Hayes",
+  "Rank": 876,
+  "Tooltip": "et",
+  "Icon": "et",
+  "DefaultTicketStatus": 885,
   "TicketStatuses": [
-    347,
-    728
+    879,
+    7
   ],
-  "DefaultTicketPriority": 878,
+  "DefaultTicketPriority": 23,
   "TicketPriorities": [
-    604,
-    473
+    436,
+    122
   ],
-  "ReplyTemplate": 661,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 844,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    618,
-    977
+    186,
+    692
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 857
     }
   }
 }

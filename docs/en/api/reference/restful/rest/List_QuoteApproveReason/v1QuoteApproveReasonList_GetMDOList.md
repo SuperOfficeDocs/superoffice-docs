@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=id
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=quisquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "O'Conner, Casper and Bartell",
-    "ToolTip": "Doloribus cum doloribus numquam perspiciatis.",
+    "Id": 318,
+    "Name": "Turcotte LLC",
+    "ToolTip": "Et nemo facere voluptatem corrupti laboriosam nostrum soluta.",
     "Deleted": false,
-    "Rank": 387,
-    "Type": "et",
+    "Rank": 261,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Jewess, Turner and Windler",
-        "ToolTip": "Dolorum suscipit dolorem voluptatem architecto iste.",
-        "Deleted": true,
-        "Rank": 753,
-        "Type": "aut",
+        "Id": 186,
+        "Name": "Marvin Inc and Sons",
+        "ToolTip": "Qui nemo beatae et soluta nulla tempora qui.",
+        "Deleted": false,
+        "Rank": 790,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 818,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "dolorem",
-        "FullName": "Mellie Rice",
+        "IconHint": "sapiente",
+        "ColorBlock": 447,
+        "ExtraInfo": "nemo",
+        "StyleHint": "iure",
+        "FullName": "Arne Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 786
+            "FieldType": "System.Int32",
+            "FieldLength": 529
           }
         }
       }
     ],
-    "IconHint": "deleniti",
-    "ColorBlock": 731,
-    "ExtraInfo": "delectus",
-    "StyleHint": "assumenda",
-    "FullName": "Gladys Becker",
+    "IconHint": "vero",
+    "ColorBlock": 488,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "consectetur",
+    "FullName": "Wilma Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 194
       }
     }
   }

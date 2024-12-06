@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "vero",
-  "ProviderName": "Zieme-Hartmann",
-  "PageSize": 271,
-  "PageNumber": 20
+  "Restrictions": "repudiandae",
+  "ProviderName": "Davis, Jerde and Dach",
+  "PageSize": 277,
+  "PageNumber": 307
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "McKenzie Inc and Sons",
-      "DisplayTooltip": "id",
-      "DisplayType": "sint",
-      "CanOrderBy": false,
-      "Name": "Bogan-McGlynn",
-      "CanRestrictBy": false,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Shields Inc and Sons",
+      "DisplayName": "Bergnaum-Emard",
+      "DisplayTooltip": "repellendus",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Hayes-Carroll",
+      "CanRestrictBy": true,
+      "RestrictionType": "quasi",
+      "RestrictionListName": "O'Connell LLC",
       "IsVisible": true,
-      "ExtraInfo": "velit",
-      "Width": "distinctio",
-      "IconHint": "non",
-      "HeadingIconHint": "animi"
+      "ExtraInfo": "earum",
+      "Width": "mollitia",
+      "IconHint": "autem",
+      "HeadingIconHint": "iure"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ernser-Crooks",
-      "PrimaryKey": 973,
+      "EntityName": "Jacobs-Robel",
+      "PrimaryKey": 675,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quod",
-          "TooltipHint": "voluptates",
-          "LinkHint": "deserunt"
+          "DisplayValue": "facilis",
+          "TooltipHint": "maiores",
+          "LinkHint": "voluptates"
         }
       },
-      "LinkHint": "dolore",
-      "StyleHint": "doloremque",
+      "LinkHint": "inventore",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
   ],
-  "RowCount": 570,
+  "RowCount": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

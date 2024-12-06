@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Larkin Inc and Sons",
-  "DeviceName": "Walsh-Flatley"
+  "ApplicationName": "Gorczany Group",
+  "DeviceName": "Jast, Dickens and Howell"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "beatae",
-    "Value": "deleniti",
-    "RecordId": 412,
-    "CreatedDate": "2005-11-24T14:45:05.6469762+01:00",
-    "UpdatedDate": "2007-04-30T14:45:05.6469762+02:00",
-    "UpdatedBy": "est",
-    "CreatedBy": "ducimus",
-    "TableName": "Bauch Group",
+    "Key": "rerum",
+    "Value": "quam",
+    "RecordId": 256,
+    "CreatedDate": "2000-07-06T10:17:55.660285+02:00",
+    "UpdatedDate": "2013-12-29T10:17:55.660285+01:00",
+    "UpdatedBy": "minima",
+    "CreatedBy": "voluptatem",
+    "TableName": "Lesch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldType": "System.Int32",
+        "FieldLength": 953
       }
     }
   }

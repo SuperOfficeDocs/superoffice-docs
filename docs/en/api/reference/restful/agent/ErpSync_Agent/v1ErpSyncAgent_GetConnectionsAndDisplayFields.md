@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 28
+  "EntityId": 292
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 922,
-    "ConnectionName": "Goyette-Crist",
+    "ErpConnectionId": 324,
+    "ConnectionName": "Ward LLC",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "qui",
-        "Rank": 167,
-        "DisplayName": "Dooley-Kohler",
-        "DisplayDescription": "Persevering bottom-line concept",
+        "FieldKey": "quo",
+        "Rank": 953,
+        "DisplayName": "Terry Inc and Sons",
+        "DisplayDescription": "Seamless eco-centric paradigm",
         "FieldType": "Checkbox",
-        "ListName": "Ernser Inc and Sons",
-        "DefaultValue": "qui",
-        "MaxLength": 651,
+        "ListName": "Wilderman-Nolan",
+        "DefaultValue": "occaecati",
+        "MaxLength": 381,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 910
+            "FieldLength": 577
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "laborum",
-      "eius"
+      "corrupti",
+      "enim"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

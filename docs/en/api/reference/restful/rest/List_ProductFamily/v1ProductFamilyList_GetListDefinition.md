@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Howell-O'Hara",
-  "Tooltip": "rerum",
+  "Id": 826,
+  "Name": "Spinka-Turner",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 954,
+  "Rank": 324,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   },
   "_Links": {

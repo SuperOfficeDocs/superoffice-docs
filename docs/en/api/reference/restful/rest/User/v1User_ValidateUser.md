@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 7,
-  "Name": "Schuster, Hermiston and McCullough",
-  "Rank": 211,
-  "Tooltip": "officia",
+  "AssociateId": 248,
+  "Name": "Cartwright, Morissette and Effertz",
+  "Rank": 137,
+  "Tooltip": "nobis",
   "LicenseOwners": [
     {
-      "Name": "Ullrich-Cassin",
-      "Description": "Proactive radical pricing structure",
+      "Name": "Schaden-Murazik",
+      "Description": "Phased static function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ullrich-Cassin",
-      "Description": "Proactive radical pricing structure",
+      "Name": "Schaden-Murazik",
+      "Description": "Phased static function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "quam",
-      "Id": 394,
-      "Rank": 162,
-      "Deleted": true
+      "Value": "excepturi",
+      "Tooltip": "autem",
+      "Id": 240,
+      "Rank": 122,
+      "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "quam",
-      "Id": 394,
-      "Rank": 162,
-      "Deleted": true
+      "Value": "excepturi",
+      "Tooltip": "autem",
+      "Id": 240,
+      "Rank": 122,
+      "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2008-10-12T14:45:13.5211613+02:00",
-  "Lastlogout": "2012-02-20T14:45:13.5211613+01:00",
-  "EjUserId": 24,
-  "RequestSignature": "autem",
+  "Deleted": true,
+  "Lastlogin": "2001-08-30T10:18:00.910611+02:00",
+  "Lastlogout": "2014-03-28T10:18:00.910611+01:00",
+  "EjUserId": 845,
+  "RequestSignature": "repudiandae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "vel"
+      "Value": "dolores",
+      "DisplayValue": "quibusdam"
     },
     {
       "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "vel"
+      "Value": "dolores",
+      "DisplayValue": "quibusdam"
     }
   ],
-  "UserName": "Mertz Inc and Sons",
+  "UserName": "Ferry-Green",
   "TicketCategories": [
     {
-      "Id": 140,
-      "Name": "Robel-Thiel",
-      "ToolTip": "Perspiciatis enim distinctio fugiat dignissimos.",
-      "Deleted": true,
-      "Rank": 666,
-      "Type": "ipsum",
+      "Id": 59,
+      "Name": "Stehr LLC",
+      "ToolTip": "Similique tenetur.",
+      "Deleted": false,
+      "Rank": 40,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laudantium",
-      "ColorBlock": 250,
-      "ExtraInfo": "adipisci",
-      "StyleHint": "ea",
-      "FullName": "Bradford Sanford"
+      "IconHint": "esse",
+      "ColorBlock": 180,
+      "ExtraInfo": "tempore",
+      "StyleHint": "doloremque",
+      "FullName": "Christine Kshlerin"
     }
   ],
-  "NickName": "Barton, Ritchie and Marquardt",
+  "NickName": "McCullough Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "tempore"
   },
   "PostSaveCommands": [
     {
-      "Name": "Huels-Powlowski",
-      "DisplayName": "Larson, Armstrong and Weimann",
-      "Description": "Stand-alone homogeneous hub",
-      "ToolTip": "Saepe possimus.",
+      "Name": "Flatley-Carter",
+      "DisplayName": "Schaden-King",
+      "Description": "Robust 6th generation attitude",
+      "ToolTip": "Eveniet corrupti fugit eius aut ratione consequatur.",
       "Actions": "Implicit",
-      "ActionData": "dolorum"
+      "ActionData": "qui"
     },
     {
-      "Name": "Huels-Powlowski",
-      "DisplayName": "Larson, Armstrong and Weimann",
-      "Description": "Stand-alone homogeneous hub",
-      "ToolTip": "Saepe possimus.",
+      "Name": "Flatley-Carter",
+      "DisplayName": "Schaden-King",
+      "Description": "Robust 6th generation attitude",
+      "ToolTip": "Eveniet corrupti fugit eius aut ratione consequatur.",
       "Actions": "Implicit",
-      "ActionData": "dolorum"
+      "ActionData": "qui"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sed",
-  "2": "possimus"
+  "1": "inventore",
+  "2": "impedit"
 }
 ```

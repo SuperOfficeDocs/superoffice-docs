@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 951,
-  "NumDocumentsAlreadyMigrated": 323,
+  "NumDocumentsOmitted": 327,
+  "NumDocumentsAlreadyMigrated": 70,
   "Documents": [
     {
-      "DocumentId": 509,
-      "ContactId": 344,
-      "PersonId": 757,
-      "SaleId": 328,
-      "ProjectId": 83,
-      "DocTmplId": 628,
-      "AssociateId": 41,
-      "UserGroupId": 825,
-      "VisibleForId": 558
+      "DocumentId": 724,
+      "ContactId": 561,
+      "PersonId": 164,
+      "SaleId": 496,
+      "ProjectId": 509,
+      "DocTmplId": 433,
+      "AssociateId": 630,
+      "UserGroupId": 740,
+      "VisibleForId": 776
     }
   ],
   "Associates": [
     {
-      "AssociateId": 990,
-      "EmailAddress": "eric@schuppe.us"
+      "AssociateId": 983,
+      "EmailAddress": "lulu.johns@wolf.co.uk"
     },
     {
-      "AssociateId": 990,
-      "EmailAddress": "eric@schuppe.us"
+      "AssociateId": 983,
+      "EmailAddress": "lulu.johns@wolf.co.uk"
     }
   ]
 }

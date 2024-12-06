@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummerata, Bode and Steuber",
+  "Name": "White LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "quas",
+  "AdditionalInfo": "dolores",
   "HistoryItems": [
-    742,
-    649
+    61,
+    774
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Bayer, Russel and Keebler",
-    "ToolTip": "Perferendis harum non error est.",
-    "Deleted": true,
-    "Rank": 641,
-    "Type": "eaque",
+    "Id": 523,
+    "Name": "Kunde-Leffler",
+    "ToolTip": "Rerum veritatis ipsum ducimus eum ab et rerum.",
+    "Deleted": false,
+    "Rank": 957,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Dicki, Lockman and Champlin",
-        "ToolTip": "Nihil doloribus neque velit ea totam quaerat.",
-        "Deleted": false,
-        "Rank": 695,
-        "Type": "necessitatibus",
+        "Id": 87,
+        "Name": "Greenholt-Breitenberg",
+        "ToolTip": "Non et consequuntur alias laudantium natus.",
+        "Deleted": true,
+        "Rank": 371,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 960,
-        "ExtraInfo": "culpa",
-        "StyleHint": "doloribus",
-        "FullName": "Kaitlyn Bauch",
+        "IconHint": "animi",
+        "ColorBlock": 262,
+        "ExtraInfo": "sunt",
+        "StyleHint": "in",
+        "FullName": "Mr. Amie Marvin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldType": "System.String",
+            "FieldLength": 326
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 859,
-    "ExtraInfo": "quia",
-    "StyleHint": "reprehenderit",
-    "FullName": "Gloria Koelpin",
+    "IconHint": "porro",
+    "ColorBlock": 234,
+    "ExtraInfo": "minima",
+    "StyleHint": "maxime",
+    "FullName": "Junius Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

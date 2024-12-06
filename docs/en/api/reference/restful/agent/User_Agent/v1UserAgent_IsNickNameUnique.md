@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 625,
-  "NickName": "Roberts LLC"
+  "AssociateId": 288,
+  "NickName": "Kertzmann-Corkery"
 }
 ```
 

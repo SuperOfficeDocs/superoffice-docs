@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 1002,
-  "ERPPriceListKey": "cumque",
-  "QuoteConnectionId": 195,
-  "Name": "Torp-Skiles",
-  "Description": "Profit-focused fresh-thinking encoding",
-  "Currency": "provident",
-  "CurrencyName": "Jewess-Denesik",
-  "ValidFrom": "2015-03-19T14:45:13.7711051+01:00",
-  "ValidTo": "1998-12-31T14:45:13.7711051+01:00",
+  "PriceListId": 68,
+  "ERPPriceListKey": "enim",
+  "QuoteConnectionId": 7,
+  "Name": "Renner, Lind and Larkin",
+  "Description": "Cross-platform local framework",
+  "Currency": "aspernatur",
+  "CurrencyName": "Donnelly Group",
+  "ValidFrom": "2012-11-30T10:18:01.0668705+01:00",
+  "ValidTo": "2020-12-05T10:18:01.0668705+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 524
     }
   }
 }

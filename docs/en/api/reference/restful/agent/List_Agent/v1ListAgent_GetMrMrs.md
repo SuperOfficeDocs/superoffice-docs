@@ -26,7 +26,7 @@ Gets a MrMrs object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetMrMrs?mrMrsId=850
+POST /api/v1/Agents/List/GetMrMrs?mrMrsId=542
 POST /api/v1/Agents/List/GetMrMrs?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 947,
-  "Value": "ut",
-  "Tooltip": "enim",
+  "Id": 443,
+  "Value": "ad",
+  "Tooltip": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

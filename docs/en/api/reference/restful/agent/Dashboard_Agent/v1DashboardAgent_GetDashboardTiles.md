@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    622,
-    376
+    801,
+    919
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 905,
-    "Caption": "reiciendis",
-    "Description": "Versatile homogeneous Graphical User Interface",
-    "ChartName": "Bruen, Langworth and Schneider",
-    "ChartId": "id",
+    "DashboardTileId": 939,
+    "Caption": "expedita",
+    "Description": "Operative impactful database",
+    "ChartName": "Friesen LLC",
+    "ChartId": "dicta",
     "IsDefault": false,
-    "AssociateId": 617,
-    "GroupId": 440,
-    "SelectionId": 711,
-    "Config": "odit",
+    "AssociateId": 622,
+    "GroupId": 787,
+    "SelectionId": 927,
+    "Config": "enim",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Gleichner-Breitenberg",
-        "Description": "Optimized human-resource middleware",
+        "Name": "Rice, Hettinger and Harber",
+        "Description": "Grass-roots analyzing algorithm",
         "Type": "Boolean",
-        "ListName": "Brown-Nienow",
+        "ListName": "Haag Group",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "et",
+        "Value": "temporibus",
         "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 125
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 223,
+        "VisibleId": 312,
         "Visibility": "All",
-        "DisplayValue": "cumque",
+        "DisplayValue": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldType": "System.String",
+            "FieldLength": 67
           }
         }
       },
       {
-        "VisibleId": 223,
+        "VisibleId": 312,
         "Visibility": "All",
-        "DisplayValue": "cumque",
+        "DisplayValue": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldType": "System.String",
+            "FieldLength": 67
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 660
       }
     }
   }

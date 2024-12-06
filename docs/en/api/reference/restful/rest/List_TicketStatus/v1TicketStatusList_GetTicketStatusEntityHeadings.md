@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 283,
-    "Name": "Kuphal Group",
-    "Tooltip": "provident",
-    "Deleted": true,
-    "Rank": 869,
-    "UdListDefinitionId": 888,
+    "HeadingId": 778,
+    "Name": "Vandervort Group",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "Rank": 15,
+    "UdListDefinitionId": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

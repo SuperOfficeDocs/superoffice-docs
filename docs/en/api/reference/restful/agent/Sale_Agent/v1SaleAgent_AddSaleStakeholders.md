@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 557,
+  "SaleId": 41,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mante, Yundt and Bruen",
-      "Comment": "tempore",
-      "StakeholderRoleId": 336,
-      "CountryId": 315,
-      "PersonId": 52,
-      "EmailDescription": "mckenna_nicolas@davis.ca",
-      "EmailId": 436,
-      "EmailAddress": "keven_rohan@aufderharwhite.com",
-      "PhoneId": 759,
-      "ContactName": "Leannon Group",
-      "ContactId": 94,
-      "SaleId": 568,
-      "Mrmrs": "ducimus",
-      "Firstname": "Euna",
-      "MiddleName": "Gleason Group",
-      "Lastname": "Reichert",
-      "SaleStakeholderId": 134,
-      "Rank": 728,
-      "Phone": "186.692.9661 x867"
+      "StakeholderRoleName": "Strosin-Gutkowski",
+      "Comment": "aspernatur",
+      "StakeholderRoleId": 28,
+      "CountryId": 692,
+      "PersonId": 303,
+      "EmailDescription": "roxanne@ziemann.us",
+      "EmailId": 192,
+      "EmailAddress": "sigmund@dach.com",
+      "PhoneId": 452,
+      "ContactName": "Kshlerin-Blanda",
+      "ContactId": 160,
+      "SaleId": 562,
+      "Mrmrs": "animi",
+      "Firstname": "Leonard",
+      "MiddleName": "Kuvalis LLC",
+      "Lastname": "Cummings",
+      "SaleStakeholderId": 823,
+      "Rank": 867,
+      "Phone": "(067)271-6047 x823"
     }
   ]
 }

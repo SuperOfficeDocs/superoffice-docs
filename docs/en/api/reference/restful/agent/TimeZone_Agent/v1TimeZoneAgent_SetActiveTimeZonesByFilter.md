@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "voluptas",
-  "Active": true
+  "Filter": "expedita",
+  "Active": false
 }
 ```
 

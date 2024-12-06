@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Emard-Bailey",
-  "PersonId": 329
+  "ParameterName": "Langosh, Bogan and Renner",
+  "PersonId": 689
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 711,
-  "Name": "Orn-O'Connell",
-  "Value": "quasi",
-  "CreatedDate": "1999-07-21T14:45:04.8659001+02:00",
-  "UpdatedDate": "1998-09-08T14:45:04.8659001+02:00",
-  "CreatedBy": "id",
-  "UpdatedBy": "sed",
+  "AudienceLayoutId": 979,
+  "Name": "Abshire Inc and Sons",
+  "Value": "amet",
+  "CreatedDate": "2005-06-14T10:17:55.1290102+02:00",
+  "UpdatedDate": "2011-05-17T10:17:55.1290102+02:00",
+  "CreatedBy": "quam",
+  "UpdatedBy": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
 }

@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 512,
-  "Name": "Hilpert Inc and Sons",
-  "Description": "Enterprise-wide motivating solution",
-  "WelcomeMessage": "consectetur",
+  "ChatTopicId": 183,
+  "Name": "Homenick, Thiel and Mohr",
+  "Description": "Cloned content-based extranet",
+  "WelcomeMessage": "sit",
   "Language": null,
-  "LastAccept": "2011-02-22T14:45:04.9283852+01:00",
-  "SecondsPrAccept": 904,
-  "AlertRecipient": "qui",
+  "LastAccept": "2013-04-08T10:17:55.1602621+02:00",
+  "SecondsPrAccept": 162,
+  "AlertRecipient": "possimus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "vitae",
+  "BadgeHeader": "assumenda",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dignissimos",
-  "WarnNewChatMinutes": 939,
-  "WarnManagerNewChatMinutes": 696,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 703,
+  "WarnManagerNewChatMinutes": 37,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 885,
-  "WarnManagerChatMessageMinutes": 213,
+  "WarnChatMessageMinutes": 627,
+  "WarnManagerChatMessageMinutes": 320,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 87,
-  "OfflineFormQueueLength": 172,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "eligendi",
+  "OfflineFormTimeLimit": 560,
+  "OfflineFormQueueLength": 483,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

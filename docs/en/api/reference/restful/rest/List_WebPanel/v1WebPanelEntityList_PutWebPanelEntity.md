@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 33,
-  "Name": "Ryan-Abshire",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 139,
+  "WebPanelId": 850,
+  "Name": "Bergnaum-Muller",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 622,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Morissette, Pollich and Lebsack",
+  "WindowName": "Mann, Wiegand and Cremin",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsa",
-  "Icon": 231,
+  "ProgId": "minus",
+  "Icon": 954,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 377,
-  "Name": "Ward, Cruickshank and Gleason",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 109,
+  "WebPanelId": 181,
+  "Name": "Lemke-Ortiz",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 146,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Hansen-Beer",
+  "WindowName": "Mertz-O'Reilly",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 50,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "suscipit",
+  "Icon": 760,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 848
     }
   }
 }

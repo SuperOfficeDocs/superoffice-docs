@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hegmann Inc and Sons",
-  "ForceFlatList": true,
-  "AdditionalInfo": "qui",
-  "OnlyHistory": false
+  "Name": "Mohr, Yundt and Hermiston",
+  "ForceFlatList": false,
+  "AdditionalInfo": "ullam",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Turcotte, Gusikowski and Zemlak",
-    "ToolTip": "Eos et culpa veniam nemo.",
+    "Id": 375,
+    "Name": "Blanda LLC",
+    "ToolTip": "Aspernatur explicabo earum optio dolorum reiciendis.",
     "Deleted": false,
-    "Rank": 545,
-    "Type": "ratione",
+    "Rank": 663,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 126,
-        "Name": "Botsford, Greenfelder and Reynolds",
-        "ToolTip": "Quasi quo totam ad ipsum.",
-        "Deleted": false,
-        "Rank": 287,
-        "Type": "sint",
+        "Id": 65,
+        "Name": "Brown Inc and Sons",
+        "ToolTip": "Aut iste itaque sint ut voluptate consequatur.",
+        "Deleted": true,
+        "Rank": 827,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 189,
-        "ExtraInfo": "maiores",
-        "StyleHint": "vel",
-        "FullName": "Mrs. Tad Grady V",
+        "IconHint": "rerum",
+        "ColorBlock": 352,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "explicabo",
+        "FullName": "Dr. Nina Modesto O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 453
+            "FieldType": "System.Int32",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 698,
-    "ExtraInfo": "sit",
-    "StyleHint": "veniam",
-    "FullName": "Dr. Mathias Hilma Larkin I",
+    "IconHint": "ut",
+    "ColorBlock": 231,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "aut",
+    "FullName": "Mr. Jadon Farrell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 702
       }
     }
   }

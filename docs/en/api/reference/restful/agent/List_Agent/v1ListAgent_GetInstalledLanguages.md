@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 827,
-    "LCID": 410,
-    "EnglishName": "McGlynn, Weimann and Wunsch",
-    "NativeName": "Cartwright LLC",
-    "ThreeLetterISOLanguageName": "Greenholt Group",
-    "TwoLetterISOLanguageName": "Jewess Inc and Sons",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 191,
+    "LCID": 584,
+    "EnglishName": "Ryan Inc and Sons",
+    "NativeName": "Hagenes LLC",
+    "ThreeLetterISOLanguageName": "Kuhn LLC",
+    "TwoLetterISOLanguageName": "Mills Inc and Sons",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 325
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 464,
-  "WorkflowId": 174,
+  "WorkflowTriggerId": 761,
+  "WorkflowId": 107,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Wehner-Reichert",
-      "Description": "Optimized bifurcated concept",
-      "Rank": 122,
+      "Name": "Schmeler-Schmidt",
+      "Description": "Operative maximized infrastructure",
+      "Rank": 467,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wehner-Reichert",
-      "Description": "Optimized bifurcated concept",
-      "Rank": 122,
+      "Name": "Schmeler-Schmidt",
+      "Description": "Operative maximized infrastructure",
+      "Rank": 467,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   }
 }

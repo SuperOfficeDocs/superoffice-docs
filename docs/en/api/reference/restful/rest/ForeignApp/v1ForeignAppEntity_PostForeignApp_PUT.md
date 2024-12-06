@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 585,
-  "Name": "Gutkowski, D'Amore and Marvin",
-  "CreatedDate": "2007-10-18T14:45:12.8181931+02:00",
-  "UpdatedDate": "2021-02-16T14:45:12.8181931+01:00",
+  "ForeignAppId": 810,
+  "Name": "Kiehn-Prohaska",
+  "CreatedDate": "2024-02-15T10:18:00.4105739+01:00",
+  "UpdatedDate": "2019-09-17T10:18:00.4105739+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 693,
-      "Name": "Terry, Barrows and Mills",
-      "CreatedDate": "2005-01-21T14:45:12.8181931+01:00",
-      "UpdatedDate": "2021-10-28T14:45:12.8181931+02:00",
-      "AssociateFullName": "Dr. Austyn Haley",
-      "CreatedBy": "aut",
-      "UpdatedBy": "sed",
-      "DeviceIdentifier": "doloribus",
-      "ForeignAppId": 632,
+      "ForeignDeviceId": 412,
+      "Name": "Luettgen, Cartwright and Tillman",
+      "CreatedDate": "2010-10-13T10:18:00.4105739+02:00",
+      "UpdatedDate": "2023-06-23T10:18:00.4105739+02:00",
+      "AssociateFullName": "Leslie Veum",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "earum",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 718,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 789
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   }
 }

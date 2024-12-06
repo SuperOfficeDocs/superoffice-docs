@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 768,
-  "TZLocationId": 816,
-  "LocationCode": "omnis",
-  "Description": "Centralized context-sensitive support",
+  "PreferenceId": 374,
+  "TZLocationId": 124,
+  "LocationCode": "a",
+  "Description": "Enterprise-wide tangible knowledge user",
   "Country": "Sokovia",
-  "Bias": 348
+  "Bias": 310
 }
 ```

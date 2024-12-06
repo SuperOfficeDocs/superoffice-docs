@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rowe-Macejkovic",
-  "DeviceName": "McDermott Group",
-  "DeviceIdentifier": "doloribus"
+  "ApplicationName": "Stamm LLC",
+  "DeviceName": "Robel LLC",
+  "DeviceIdentifier": "omnis"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 123,
-  "Name": "Hackett-Reynolds",
-  "CreatedDate": "2019-11-19T14:45:05.6469762+01:00",
-  "UpdatedDate": "2016-10-02T14:45:05.6469762+02:00",
-  "AssociateFullName": "Aurore Thiel",
-  "CreatedBy": "quo",
-  "UpdatedBy": "aliquam",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 495,
+  "ForeignDeviceId": 55,
+  "Name": "Cole Inc and Sons",
+  "CreatedDate": "1999-11-03T10:17:55.660285+01:00",
+  "UpdatedDate": "2024-07-27T10:17:55.660285+02:00",
+  "AssociateFullName": "Kari Gibson",
+  "CreatedBy": "vero",
+  "UpdatedBy": "dolore",
+  "DeviceIdentifier": "illo",
+  "ForeignAppId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

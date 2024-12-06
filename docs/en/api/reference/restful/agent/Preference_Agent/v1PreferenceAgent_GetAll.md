@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 172,
-    "Section": "aut",
-    "Key": "doloremque",
-    "Name": "Kovacek Inc and Sons",
+    "PrefDescId": 848,
+    "Section": "dolorum",
+    "Key": "dolores",
+    "Name": "Dickens, Schaden and Carroll",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enterprise-wide bandwidth-monitored time-frame",
-    "IsBuiltin": false,
-    "TableName": "Daugherty, Flatley and Mayert",
-    "UserDefinedListId": 907,
-    "Rank": 157,
-    "SubGroup": "sed",
-    "MinLevel": 333,
-    "MaxValue": 495,
-    "MinValue": 894,
-    "RequiredLicense": "aut",
+    "Description": "Persistent client-driven attitude",
+    "IsBuiltin": true,
+    "TableName": "Feeney, Skiles and Cremin",
+    "UserDefinedListId": 566,
+    "Rank": 70,
+    "SubGroup": "consequatur",
+    "MinLevel": 219,
+    "MaxValue": 235,
+    "MinValue": 396,
+    "RequiredLicense": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 387
       }
     }
   }

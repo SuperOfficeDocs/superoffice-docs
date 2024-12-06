@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bednar LLC",
+  "TableName": "Fahey LLC",
   "IDs": [
-    759,
-    978
+    749,
+    974
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "et",
-  "Inserts": 788,
-  "Updates": 675,
-  "Deletes": 173,
+  "Message": "est",
+  "Inserts": 289,
+  "Updates": 710,
+  "Deletes": 447,
   "RowStatus": [
     {
-      "PrimaryKey": 233,
+      "PrimaryKey": 886,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "laborum"
+        "aut",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 323
         }
       }
     },
     {
-      "PrimaryKey": 233,
+      "PrimaryKey": 886,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "laborum"
+        "aut",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 323
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 71
     }
   }
 }

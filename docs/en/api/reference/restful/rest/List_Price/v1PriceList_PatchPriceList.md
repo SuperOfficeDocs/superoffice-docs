@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "voluptates",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "voluptates",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 817,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 210,
-  "Name": "Toy-Reilly",
-  "Description": "Visionary real-time system engine",
-  "Currency": "possimus",
-  "CurrencyName": "Lind-West",
-  "ValidFrom": "1997-10-09T14:45:13.7711051+02:00",
-  "ValidTo": "2012-03-22T14:45:13.7711051+01:00",
-  "IsActive": true,
+  "PriceListId": 259,
+  "ERPPriceListKey": "error",
+  "QuoteConnectionId": 129,
+  "Name": "Hagenes Group",
+  "Description": "Proactive bandwidth-monitored structure",
+  "Currency": "laborum",
+  "CurrencyName": "Predovic-Dietrich",
+  "ValidFrom": "2019-08-14T10:18:01.0668705+02:00",
+  "ValidTo": "1997-09-21T10:18:01.0668705+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 917
     }
   },
   "_Links": {

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 29989.246,
-  "FromCurrency": "adipisci",
-  "ToCurrency": "temporibus"
+  "Amount": 4165.086,
+  "FromCurrency": "dolorem",
+  "ToCurrency": "labore"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-9937.9139999999989
+12902.678
 ```

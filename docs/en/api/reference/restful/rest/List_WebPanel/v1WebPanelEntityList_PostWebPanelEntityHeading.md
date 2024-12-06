@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 61,
-  "Name": "Greenholt, Blick and Senger",
-  "Tooltip": "atque",
+  "HeadingId": 924,
+  "Name": "Jacobi, Pfeffer and Maggio",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 767,
-  "UdListDefinitionId": 546
+  "Rank": 3,
+  "UdListDefinitionId": 71
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 26,
-  "Name": "Weissnat LLC",
-  "Tooltip": "ut",
+  "HeadingId": 273,
+  "Name": "Kshlerin, Wilkinson and Pfeffer",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 440,
-  "UdListDefinitionId": 717,
+  "Rank": 502,
+  "UdListDefinitionId": 987,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 81
     }
   }
 }

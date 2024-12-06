@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 141,
-    "Name": "McCullough Group",
-    "Tooltip": "assumenda",
-    "SaveInDb": 462,
-    "Filename": "pariatur",
-    "DefaultOref": "itaque",
+    "DocumentTemplateId": 452,
+    "Name": "Jerde, Leffler and Mayer",
+    "Tooltip": "itaque",
+    "SaveInDb": 502,
+    "Filename": "repudiandae",
+    "DefaultOref": "a",
     "RecordType": "Appointment",
-    "Deleted": 401,
+    "Deleted": 214,
     "Direction": "Incoming",
-    "AutoeventId": 127,
+    "AutoeventId": 934,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 505,
+  "HierarchyId": 93,
   "Domain": "Dashboards",
-  "Name": "Lubowitz Group",
-  "Fullname": "et",
-  "ParentId": 5,
+  "Name": "Hansen Group",
+  "Fullname": "eum",
+  "ParentId": 265,
   "Children": [
     {
-      "HierarchyId": 613,
+      "HierarchyId": 180,
       "Domain": "Dashboards",
-      "Name": "Nikolaus, Padberg and White",
-      "Fullname": "dolores",
-      "ParentId": 8,
+      "Name": "Will-Heathcote",
+      "Fullname": "aut",
+      "ParentId": 841,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2024-10-19T14:45:12.8338163+02:00",
-      "RegisteredAssociateId": 454,
-      "Updated": "2014-12-23T14:45:12.8338163+01:00",
-      "UpdatedAssociateId": 809,
+      "Registered": "2011-05-30T10:18:00.4262067+02:00",
+      "RegisteredAssociateId": 329,
+      "Updated": "2010-01-11T10:18:00.4262067+01:00",
+      "UpdatedAssociateId": 4,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 376
+          "FieldLength": 189
         }
       }
     }
   ],
-  "Registered": "2011-07-04T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 439,
-  "Updated": "2023-10-07T14:45:12.8338163+02:00",
+  "Registered": "2005-03-11T10:18:00.4262067+01:00",
+  "RegisteredAssociateId": 71,
+  "Updated": "2017-05-28T10:18:00.4262067+02:00",
   "UpdatedAssociateId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 487
     }
   }
 }

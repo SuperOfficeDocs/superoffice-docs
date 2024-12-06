@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=707
-POST /api/v1/Document/{documentId}/Content?personId=386
-POST /api/v1/Document/{documentId}/Content?appointmentId=509
-POST /api/v1/Document/{documentId}/Content?saleId=626
-POST /api/v1/Document/{documentId}/Content?selectionId=167
-POST /api/v1/Document/{documentId}/Content?projectId=256
-POST /api/v1/Document/{documentId}/Content?uiCulture=fuga
+POST /api/v1/Document/{documentId}/Content?contactId=180
+POST /api/v1/Document/{documentId}/Content?personId=945
+POST /api/v1/Document/{documentId}/Content?appointmentId=248
+POST /api/v1/Document/{documentId}/Content?saleId=192
+POST /api/v1/Document/{documentId}/Content?selectionId=896
+POST /api/v1/Document/{documentId}/Content?projectId=976
+POST /api/v1/Document/{documentId}/Content?uiCulture=atque
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 116,
+  "DocumentId": 311,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "omnis",
-  "Name": "Hammes-Nienow",
-  "OurRef": "pariatur",
-  "YourRef": "vel",
-  "CreatedDate": "2003-10-24T14:45:12.7869499+02:00",
-  "UpdatedDate": "2010-10-24T14:45:12.7869499+02:00",
-  "Description": "Multi-lateral encompassing implementation",
+  "Attention": "et",
+  "Header": "magni",
+  "Name": "Zulauf LLC",
+  "OurRef": "aut",
+  "YourRef": "recusandae",
+  "CreatedDate": "2018-09-28T10:18:00.3949543+02:00",
+  "UpdatedDate": "2004-07-01T10:18:00.3949543+02:00",
+  "Description": "Ergonomic next generation paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-04-05T14:45:12.8025705+02:00",
-  "ExternalRef": "quos",
+  "Date": "1999-06-10T10:18:00.3949543+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 353,
+  "ActiveLinks": 411,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Homenick, Pagac and Cassin",
-      "Id": 383,
-      "Description": "Synergistic explicit access",
-      "ExtraInfo": "veniam",
-      "LinkId": 844,
+      "EntityName": "Schroeder Inc and Sons",
+      "Id": 455,
+      "Description": "Operative directional flexibility",
+      "ExtraInfo": "enim",
+      "LinkId": 860,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldType": "System.String",
+          "FieldLength": 468
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 424,
-  "Snum": 353,
+  "SuggestedDocumentId": 986,
+  "Snum": 155,
   "UserDefinedFields": {
-    "SuperOffice:1": "1123889381",
-    "SuperOffice:2": "1621420620"
+    "SuperOffice:1": "1171143231",
+    "SuperOffice:2": "Ava Cole III"
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "sit"
+    "CustomFields1": "aut",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "1999-07-21T14:45:12.8025705+02:00",
-  "PublishTo": "1998-09-25T14:45:12.8025705+02:00",
-  "PublishFrom": "2015-04-05T14:45:12.8025705+02:00",
+  "PublishEventDate": "2001-06-17T10:18:00.3949543+02:00",
+  "PublishTo": "2019-03-14T10:18:00.3949543+01:00",
+  "PublishFrom": "2011-09-24T10:18:00.3949543+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 197,
+      "VisibleId": 509,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 960
         }
       }
     },
     {
-      "VisibleId": 197,
+      "VisibleId": 509,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 960
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

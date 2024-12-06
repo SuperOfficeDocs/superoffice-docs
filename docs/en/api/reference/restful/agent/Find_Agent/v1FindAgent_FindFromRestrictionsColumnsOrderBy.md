@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Abernathy Group",
-      "Operator": "saepe",
+      "Name": "Zulauf LLC",
+      "Operator": "repellendus",
       "Values": [
-        "accusamus",
-        "dolores"
+        "laboriosam",
+        "voluptates"
       ],
       "DisplayValues": [
-        "eos",
-        "perferendis"
+        "aut",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 141,
+      "InterParenthesis": 706,
       "InterOperator": "And",
-      "UniqueHash": 854
+      "UniqueHash": 818
     }
   ],
-  "ProviderName": "Little Inc and Sons",
+  "ProviderName": "Wisoky Inc and Sons",
   "DesiredColumns": [
-    "cum",
-    "qui"
+    "quia",
+    "id"
   ],
   "OrderBy": [
     {
-      "Name": "Schmeler-Reichert",
+      "Name": "Powlowski, Kiehn and Fritsch",
       "Direction": "ASC"
     },
     {
-      "Name": "Schmeler-Reichert",
+      "Name": "Powlowski, Kiehn and Fritsch",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 375,
-  "PageNumber": 367
+  "PageSize": 325,
+  "PageNumber": 759
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Roob, Williamson and Marks",
-      "DisplayTooltip": "atque",
-      "DisplayType": "maiores",
+      "DisplayName": "Crona Inc and Sons",
+      "DisplayTooltip": "numquam",
+      "DisplayType": "dolor",
       "CanOrderBy": false,
-      "Name": "Kunze-Kovacek",
-      "CanRestrictBy": true,
-      "RestrictionType": "odio",
-      "RestrictionListName": "Koelpin Inc and Sons",
+      "Name": "Beatty, Brown and Wintheiser",
+      "CanRestrictBy": false,
+      "RestrictionType": "nobis",
+      "RestrictionListName": "Osinski, Reinger and Herman",
       "IsVisible": false,
-      "ExtraInfo": "sequi",
-      "Width": "unde",
-      "IconHint": "culpa",
-      "HeadingIconHint": "voluptatibus"
+      "ExtraInfo": "quis",
+      "Width": "odio",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "eius"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Heller Inc and Sons",
-      "PrimaryKey": 413,
+      "EntityName": "Mosciski, Krajcik and Spinka",
+      "PrimaryKey": 91,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempora",
-          "TooltipHint": "iure",
-          "LinkHint": "dolorum"
+          "DisplayValue": "quos",
+          "TooltipHint": "dolor",
+          "LinkHint": "explicabo"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "et",
+      "LinkHint": "dolor",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldLength": 521
         }
       }
     }
   ],
-  "RowCount": 35,
+  "RowCount": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

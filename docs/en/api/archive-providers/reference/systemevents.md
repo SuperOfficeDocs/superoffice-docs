@@ -72,7 +72,7 @@ Provider base for system events.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SystemEvents?$select=registered_associate_id/assocType,registered_associate_id/ejUserId,registered_associate_id/lastName
+GET /api/v1/archive/SystemEvents?$select=eventkey,registered_associate_id/lastName,registered_associate_id/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

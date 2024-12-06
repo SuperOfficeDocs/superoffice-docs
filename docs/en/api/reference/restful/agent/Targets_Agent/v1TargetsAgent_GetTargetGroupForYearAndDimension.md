@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 682,
-  "DimensionId": 449
+  "TargetYear": 76,
+  "DimensionId": 79
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 836,
-  "Year": 302,
+  "TargetGroupId": 674,
+  "Year": 618,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 1000,
+      "TargetAssignmentInfoId": 529,
       "Values": [
-        186,
-        323
+        441,
+        777
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 801,
-      "DimensionListItemDisplayName": "Blick-Gaylord",
+      "DimensionListItem": 624,
+      "DimensionListItemDisplayName": "Dickens Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldType": "System.String",
+          "FieldLength": 398
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

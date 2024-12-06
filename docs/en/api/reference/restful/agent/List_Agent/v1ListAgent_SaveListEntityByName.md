@@ -87,7 +87,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm LLC",
+  "Name": "McKenzie-Pouros",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "D'Amore LLC",
-  "Tooltip": "doloribus",
+  "Id": 849,
+  "Name": "Nader, Stiedemann and Brekke",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 896,
+  "Rank": 465,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 470
     }
   }
 }

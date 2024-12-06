@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 64
+  "ReplyTemplateId": 712
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kub-Vandervort",
-  "Description": "Organic user-facing frame",
-  "OwnedByFullName": "Dudley Hammes",
-  "Updated": "2019-05-31T14:45:05.1783023+02:00",
-  "Body": "officiis",
+  "Name": "Hickle-Schuster",
+  "Description": "Ameliorated client-server encoding",
+  "OwnedByFullName": "Ms. Iva Luettgen IV",
+  "Updated": "2012-03-05T10:17:55.3321476+01:00",
+  "Body": "illo",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 636
     }
   }
 }

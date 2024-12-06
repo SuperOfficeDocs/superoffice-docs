@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 672
+  "ContactId": 450
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 16723.024,
-  "Wgs84Longitude": 24579.962,
+  "Wgs84Latitude": 22969.086,
+  "Wgs84Longitude": 13676.776,
   "LocalizedAddress": [
     [
       {
-        "Name": "Altenwerth Inc and Sons",
-        "Value": "aut",
-        "Tooltip": "libero",
-        "Label": "aperiam",
-        "ValueLength": 768,
-        "AddressType": "placeat",
+        "Name": "Goodwin Inc and Sons",
+        "Value": "explicabo",
+        "Tooltip": "fugiat",
+        "Label": "sequi",
+        "ValueLength": 397,
+        "AddressType": "dicta",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 527
           }
         }
       }
     ],
     [
       {
-        "Name": "Bosco-Tillman",
-        "Value": "ullam",
-        "Tooltip": "asperiores",
-        "Label": "cupiditate",
-        "ValueLength": 699,
-        "AddressType": "ad",
+        "Name": "Rath, Parisian and Hodkiewicz",
+        "Value": "laborum",
+        "Tooltip": "nulla",
+        "Label": "deleniti",
+        "ValueLength": 279,
+        "AddressType": "sequi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 499
+            "FieldLength": 975
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "tempore",
+  "Formatted": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 863
     }
   }
 }

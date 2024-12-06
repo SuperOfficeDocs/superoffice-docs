@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=308
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=800
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 4,
-  "Name": "Dicki, Crooks and Kling",
-  "Description": "Re-contextualized motivating open system",
-  "DefaultHeight": 245,
-  "DefaultWidth": 896,
+  "DashboardTileDefinitionId": 131,
+  "Name": "Mraz, Mertz and Fisher",
+  "Description": "Re-contextualized methodical projection",
+  "DefaultHeight": 604,
+  "DefaultWidth": 197,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Boehm, Von and Botsford",
-  "SelectionId": 28,
+  "EntityName": "Ryan, Spinka and Kihn",
+  "SelectionId": 602,
   "CurrencyMode": "Base",
-  "CurrencyCode": "id",
+  "CurrencyCode": "molestias",
   "Measure": "Average",
-  "MeasureField": "veritatis",
-  "SortBy": "ea",
+  "MeasureField": "autem",
+  "SortBy": "ratione",
   "LayoutConfig": "veniam",
-  "SecondarySelectionId": 987,
-  "MeasureByField": "ullam",
+  "SecondarySelectionId": 944,
+  "MeasureByField": "officiis",
   "Usage": "Dashboard",
-  "ProviderName": "Schultz-Torp",
+  "ProviderName": "Boyer-Kassulke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 853
     }
   }
 }

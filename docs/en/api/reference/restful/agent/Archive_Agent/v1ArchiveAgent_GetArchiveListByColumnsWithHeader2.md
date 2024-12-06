@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schmitt-Von",
-  "Columns": "explicabo",
-  "SortOrder": "rem",
-  "Restriction": "quo",
-  "Entities": "quia",
-  "Page": 376,
-  "PageSize": 320,
-  "Options": "quibusdam"
+  "ProviderName": "Gleason-O'Conner",
+  "Columns": "molestiae",
+  "SortOrder": "magnam",
+  "Restriction": "minima",
+  "Entities": "voluptas",
+  "Page": 676,
+  "PageSize": 878,
+  "Options": "maxime"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 272,
+  "RowCount": 324,
   "Rows": [
     {
-      "EntityName": "Tromp, Schmeler and Orn",
-      "PrimaryKey": 273,
+      "EntityName": "Parisian, Nikolaus and Bode",
+      "PrimaryKey": 98,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "ut",
-          "LinkHint": "dolor"
+          "DisplayValue": "voluptatibus",
+          "TooltipHint": "suscipit",
+          "LinkHint": "suscipit"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "officiis",
+      "LinkHint": "quos",
+      "StyleHint": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldLength": 194
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 41
     }
   }
 }

@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kris-Dietrich",
-      "Operator": "necessitatibus",
+      "Name": "Bernier-O'Connell",
+      "Operator": "molestias",
       "Values": [
-        "maxime",
-        "eum"
+        "fugit",
+        "veritatis"
       ],
       "DisplayValues": [
-        "deleniti",
-        "qui"
+        "et",
+        "occaecati"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 222,
+      "InterParenthesis": 999,
       "InterOperator": "And",
-      "UniqueHash": 388
+      "UniqueHash": 567
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harvey Inc and Sons",
-    "Operator": "mollitia",
+    "Name": "Luettgen-Mills",
+    "Operator": "minima",
     "Values": [
-      "deserunt",
-      "consequatur"
+      "amet",
+      "quidem"
     ],
     "DisplayValues": [
-      "in",
-      "omnis"
+      "aut",
+      "beatae"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Boyle LLC",
-        "Operator": "et",
+        "Name": "Boehm, Morissette and Barton",
+        "Operator": "quibusdam",
         "Values": [
-          "et",
-          "ut"
+          "enim",
+          "excepturi"
         ],
         "DisplayValues": [
-          "soluta",
-          "aut"
+          "quae",
+          "illum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 170,
+        "InterParenthesis": 88,
         "InterOperator": "And",
-        "UniqueHash": 727
+        "UniqueHash": 961
       }
     ],
-    "InterParenthesis": 938,
+    "InterParenthesis": 773,
     "InterOperator": "And",
-    "UniqueHash": 798
+    "UniqueHash": 459
   }
 ]
 ```

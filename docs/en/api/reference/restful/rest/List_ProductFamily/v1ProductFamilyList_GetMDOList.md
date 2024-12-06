@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=suscipit
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Padberg-Jaskolski",
-    "ToolTip": "Eius voluptas eos recusandae inventore tenetur.",
-    "Deleted": false,
-    "Rank": 752,
-    "Type": "quia",
+    "Id": 369,
+    "Name": "Fahey-Fahey",
+    "ToolTip": "Id aut ipsa deleniti.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "eaque",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Hettinger-Borer",
-        "ToolTip": "Voluptatem error cupiditate ut ratione sunt assumenda ut.",
+        "Id": 934,
+        "Name": "Prosacco LLC",
+        "ToolTip": "Eligendi qui.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "ad",
+        "Rank": 923,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 655,
-        "ExtraInfo": "nemo",
-        "StyleHint": "est",
-        "FullName": "Miss Koby Bulah Botsford DVM",
+        "IconHint": "consequatur",
+        "ColorBlock": 106,
+        "ExtraInfo": "earum",
+        "StyleHint": "ipsa",
+        "FullName": "Prof. Dessie Devonte Kuvalis DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 977
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 118,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "qui",
-    "FullName": "Devan Runolfsson",
+    "IconHint": "repellat",
+    "ColorBlock": 387,
+    "ExtraInfo": "sunt",
+    "StyleHint": "error",
+    "FullName": "Jimmy Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 40
       }
     }
   }

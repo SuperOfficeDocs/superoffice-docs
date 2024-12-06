@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 583,
-  "StartDate": "2022-08-27T14:45:04.6943025+02:00",
-  "EndDate": "2021-07-28T14:45:04.6943025+02:00",
-  "RecurrenceCounter": 149,
+  "RecurrenceId": 275,
+  "StartDate": "2016-07-07T10:17:55.0040026+02:00",
+  "EndDate": "2009-03-07T10:17:55.0040026+01:00",
+  "RecurrenceCounter": 384,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-03-28T14:45:04.6943025+02:00",
-      "IsConflict": false,
-      "Description": "Down-sized composite extranet",
-      "DescriptionStyleHint": "Devolved bandwidth-monitored protocol",
-      "Tooltip": "ut"
+      "Date": "2010-10-19T10:17:55.0040026+02:00",
+      "IsConflict": true,
+      "Description": "Fundamental multi-state pricing structure",
+      "DescriptionStyleHint": "Extended cohesive policy",
+      "Tooltip": "harum"
     },
     {
-      "Date": "2010-03-28T14:45:04.6943025+02:00",
-      "IsConflict": false,
-      "Description": "Down-sized composite extranet",
-      "DescriptionStyleHint": "Devolved bandwidth-monitored protocol",
-      "Tooltip": "ut"
+      "Date": "2010-10-19T10:17:55.0040026+02:00",
+      "IsConflict": true,
+      "Description": "Fundamental multi-state pricing structure",
+      "DescriptionStyleHint": "Extended cohesive policy",
+      "Tooltip": "harum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

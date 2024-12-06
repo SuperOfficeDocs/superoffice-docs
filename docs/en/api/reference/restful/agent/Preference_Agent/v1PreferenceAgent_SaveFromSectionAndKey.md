@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quia",
-  "Key": "quisquam",
+  "Section": "eum",
+  "Key": "excepturi",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 484,
-  "Section": "a",
-  "Key": "est",
-  "Name": "Romaguera-Welch",
+  "PrefDescId": 384,
+  "Section": "incidunt",
+  "Key": "et",
+  "Name": "Konopelski Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive encompassing middleware",
+  "Description": "Public-key zero tolerance analyzer",
   "IsBuiltin": false,
-  "TableName": "Hettinger, Botsford and Wuckert",
-  "UserDefinedListId": 41,
-  "Rank": 499,
-  "SubGroup": "expedita",
-  "MinLevel": 301,
-  "MaxValue": 893,
-  "MinValue": 93,
-  "RequiredLicense": "adipisci",
+  "TableName": "D'Amore Group",
+  "UserDefinedListId": 930,
+  "Rank": 629,
+  "SubGroup": "quia",
+  "MinLevel": 161,
+  "MaxValue": 412,
+  "MinValue": 800,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

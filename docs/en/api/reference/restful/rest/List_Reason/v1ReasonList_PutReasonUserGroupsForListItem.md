@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Hayes-Powlowski",
-    "ToolTip": "Molestias possimus fugiat voluptatem et ad facere.",
+    "Id": 2,
+    "Name": "Kshlerin, Harvey and Bartell",
+    "ToolTip": "Consequatur nesciunt quidem ducimus minus sed velit.",
     "Deleted": true,
-    "Rank": 159,
-    "Type": "suscipit",
-    "ColorBlock": 43,
-    "IconHint": "consequatur",
+    "Rank": 505,
+    "Type": "voluptatibus",
+    "ColorBlock": 416,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2023-12-10T14:45:13.8804606+01:00",
+    "LastChanged": "2017-05-24T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 818,
-        "Name": "Gottlieb, Bernier and Gusikowski",
-        "ToolTip": "Officiis animi praesentium rerum.",
-        "Deleted": false,
-        "Rank": 579,
-        "Type": "dolor",
-        "ColorBlock": 40,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2020-11-11T14:45:13.8804606+01:00",
+        "Id": 886,
+        "Name": "Sanford Group",
+        "ToolTip": "Aut ut ex quidem odio impedit dolore aut.",
+        "Deleted": true,
+        "Rank": 503,
+        "Type": "libero",
+        "ColorBlock": 233,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2012-01-12T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "veniam",
+        "ExtraInfo": "impedit",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Odessa Miller"
+        "FullName": "Tressa Larkin"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "illo",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Caleigh Gislason"
+    "FullName": "Martina Kerluke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "McLaughlin-Hegmann",
-    "ToolTip": "Ut impedit quasi.",
-    "Deleted": false,
-    "Rank": 966,
-    "Type": "unde",
-    "ColorBlock": 164,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2010-09-01T14:45:13.8804606+02:00",
+    "Id": 797,
+    "Name": "Howell Inc and Sons",
+    "ToolTip": "Dolores labore sunt tempore.",
+    "Deleted": true,
+    "Rank": 408,
+    "Type": "et",
+    "ColorBlock": 667,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "2018-03-08T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Dicki-Runolfsson",
-        "ToolTip": "Rerum nam illum distinctio eum.",
-        "Deleted": false,
-        "Rank": 594,
-        "Type": "enim",
-        "ColorBlock": 817,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2001-12-21T14:45:13.8804606+01:00",
+        "Id": 714,
+        "Name": "Price, Goyette and Swaniawski",
+        "ToolTip": "Quisquam voluptatem qui facilis distinctio sed laudantium.",
+        "Deleted": true,
+        "Rank": 566,
+        "Type": "blanditiis",
+        "ColorBlock": 101,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "2006-01-07T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Frankie Schulist",
+        "ExtraInfo": "laborum",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Trudie Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "omnis",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Lonie Bechtelar",
+    "FullName": "Tod Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 61
       }
     }
   }

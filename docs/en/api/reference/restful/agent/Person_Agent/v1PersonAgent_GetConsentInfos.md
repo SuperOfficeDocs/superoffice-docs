@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 548
+  "PersonId": 22
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 863,
-    "Comment": "sed",
-    "Registered": "2002-12-18T14:45:05.9125422+01:00",
-    "RegisteredAssociateId": 24,
-    "Updated": "2019-05-25T14:45:05.9125422+02:00",
-    "UpdatedAssociateId": 550,
-    "LegalBaseId": 426,
-    "LegalBaseKey": "tempore",
-    "LegalBaseName": "Hauck Group",
-    "ConsentPurposeId": 798,
-    "ConsentPurposeKey": "repudiandae",
-    "ConsentPurposeName": "Marquardt, Reynolds and Walsh",
-    "ConsentSourceId": 552,
-    "ConsentSourceKey": "quia",
-    "ConsentSourceName": "Huel, Flatley and Boehm",
+    "ConsentPersonId": 77,
+    "Comment": "placeat",
+    "Registered": "2020-08-12T10:17:55.8321779+02:00",
+    "RegisteredAssociateId": 137,
+    "Updated": "2012-04-28T10:17:55.8321779+02:00",
+    "UpdatedAssociateId": 760,
+    "LegalBaseId": 581,
+    "LegalBaseKey": "aut",
+    "LegalBaseName": "Swaniawski-Baumbach",
+    "ConsentPurposeId": 709,
+    "ConsentPurposeKey": "sint",
+    "ConsentPurposeName": "Schowalter, Connelly and Blanda",
+    "ConsentSourceId": 587,
+    "ConsentSourceKey": "quaerat",
+    "ConsentSourceName": "McKenzie-Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 632
       }
     }
   }

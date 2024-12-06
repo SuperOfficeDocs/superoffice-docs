@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 728,
+  "PersonId": 996,
   "IncludeProjectDocuments": false,
-  "StartTime": "2003-12-26T14:45:05.2408154+01:00",
-  "EndTime": "2005-08-16T14:45:05.2408154+02:00",
-  "Count": 284,
-  "DocumentTemplateId": 672
+  "StartTime": "2018-05-04T10:17:55.457154+02:00",
+  "EndTime": "2001-04-01T10:17:55.457154+02:00",
+  "Count": 624,
+  "DocumentTemplateId": 923
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 495,
-    "Attention": "voluptates",
-    "Header": "ratione",
-    "Name": "Kerluke, Gerlach and Abbott",
-    "OurRef": "voluptatem",
-    "YourRef": "nihil",
-    "Description": "Secured analyzing process improvement",
-    "DocumentTemplate": "necessitatibus",
+    "DocumentId": 671,
+    "Attention": "aut",
+    "Header": "et",
+    "Name": "Schmidt-Ward",
+    "OurRef": "eveniet",
+    "YourRef": "placeat",
+    "Description": "Optimized attitude-oriented algorithm",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 595,
-    "PersonFullName": "Davon Ward",
-    "AssociateFullName": "Diana Pouros",
-    "ContactId": 145,
-    "ContactName": "Beier-Cruickshank",
-    "ProjectId": 893,
-    "ProjectName": "Gorczany-Howell",
-    "AssociateId": 771,
-    "Snum": 826,
-    "SaleId": 326,
-    "SaleName": "Rutherford-Wolff",
+    "PersonId": 943,
+    "PersonFullName": "Pasquale DuBuque",
+    "AssociateFullName": "Zechariah Dooley",
+    "ContactId": 239,
+    "ContactName": "Bruen, Gleason and Baumbach",
+    "ProjectId": 198,
+    "ProjectName": "D'Amore-Hintz",
+    "AssociateId": 882,
+    "Snum": 359,
+    "SaleId": 52,
+    "SaleName": "Moore-Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

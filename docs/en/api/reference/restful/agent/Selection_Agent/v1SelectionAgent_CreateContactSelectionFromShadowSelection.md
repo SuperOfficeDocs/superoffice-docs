@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 671,
-  "Name": "Runte-Rodriguez"
+  "SelectionId": 831,
+  "Name": "Bernhard Inc and Sons"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed assymetric focus group",
-  "Postit": "excepturi",
+  "Description": "Decentralized zero tolerance contingency",
+  "Postit": "distinctio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 979,
-  "IncludePerson": 607,
+  "GroupIdx": 850,
+  "IncludePerson": 847,
   "MemberCount": 99.99,
-  "Name": "Kris LLC",
-  "PostitTextId": 5,
-  "CreatedDate": "2014-09-22T14:45:06.240594+02:00",
-  "SelectionId": 60,
-  "SoundEx": "doloribus",
-  "Source": 604,
-  "TextId": 955,
-  "UpdatedDate": "2008-10-30T14:45:06.240594+01:00",
-  "UpdatedCount": 424,
-  "Visibility": 681,
+  "Name": "Konopelski, Herzog and Mosciski",
+  "PostitTextId": 826,
+  "CreatedDate": "2019-03-08T10:17:56.0509411+01:00",
+  "SelectionId": 605,
+  "SoundEx": "ratione",
+  "Source": 382,
+  "TextId": 72,
+  "UpdatedDate": "2023-08-29T10:17:56.0509411+02:00",
+  "UpdatedCount": 703,
+  "Visibility": 853,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 961,
-  "TargetTableName": "Denesik Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 319,
-  "RightSelectionId": 632,
+  "TargetTableNumber": 824,
+  "TargetTableName": "Skiles LLC",
+  "Completed": true,
+  "LeftSelectionId": 618,
+  "RightSelectionId": 557,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rutherford LLC",
-  "ShadowProviderName": "Hammes-Greenholt",
-  "ChartKey": "unde",
-  "LastLoaded": "2008-05-22T14:45:06.240594+02:00",
-  "LastLoadedBy": 86,
+  "MainProviderName": "Watsica-Veum",
+  "ShadowProviderName": "Kilback, Kassulke and Batz",
+  "ChartKey": "cumque",
+  "LastLoaded": "2020-05-07T10:17:56.0509411+02:00",
+  "LastLoadedBy": 949,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-10-28T14:45:06.2562154+02:00",
-  "LastMembershipChangeBy": 431,
+  "LastMembershipChange": "2004-07-05T10:17:56.0509411+02:00",
+  "LastMembershipChangeBy": 819,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Dickens, Bauch and Becker",
-  "DashboardTileDefinitionId": 999,
+  "MainHeading": "qui",
+  "MemberTabHeading": "iste",
+  "MailingsProviderName": "Klein, O'Conner and Hansen",
+  "DashboardTileDefinitionId": 887,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 233,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 257
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 233,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 257
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 967
     }
   }
 }

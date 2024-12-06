@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 292,
-  "ColumnId": 283,
-  "FieldDefault": "ad",
-  "FieldHeight": 660,
-  "FieldLabel": "accusantium",
-  "FieldLeft": 857,
-  "FieldTop": 449,
+  "UDefFieldId": 710,
+  "ColumnId": 927,
+  "FieldDefault": "ut",
+  "FieldHeight": 25,
+  "FieldLabel": "sed",
+  "FieldLeft": 695,
+  "FieldTop": 783,
   "FieldType": "Checkbox",
-  "FieldWidth": 283,
-  "FormatMask": "omnis",
+  "FieldWidth": 701,
+  "FormatMask": "minima",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 73,
-  "LabelLeft": 758,
-  "LabelTop": 200,
-  "LabelWidth": 446,
-  "LastVersionId": 451,
-  "ListTableId": 700,
+  "IsIndexed": true,
+  "LabelHeight": 595,
+  "LabelLeft": 856,
+  "LabelTop": 48,
+  "LabelWidth": 254,
+  "LastVersionId": 334,
+  "ListTableId": 581,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 246,
-  "ProgId": "esse",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsa",
-  "TabOrder": 670,
-  "TextLength": 767,
-  "Tooltip": "tempora",
-  "UdefIdentity": 793,
-  "UDListDefinitionId": 483,
+  "Page1LineNo": 800,
+  "ProgId": "beatae",
+  "IsReadOnly": false,
+  "ShortLabel": "dolor",
+  "TabOrder": 935,
+  "TextLength": 447,
+  "Tooltip": "sint",
+  "UdefIdentity": 73,
+  "UDListDefinitionId": 208,
   "Justification": "Center",
-  "Version": 759,
-  "TemplateVariableName": "Jenkins, Stark and Schulist",
+  "Version": 312,
+  "TemplateVariableName": "Emard-Murphy",
   "HasBeenPublished": true,
-  "MdoListName": "Farrell Group",
+  "MdoListName": "Feest, Kozey and Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 751
     }
   }
 }

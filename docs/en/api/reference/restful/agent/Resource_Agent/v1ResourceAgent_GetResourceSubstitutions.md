@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "McCullough Inc and Sons",
-    "Leuschke Group"
+    "Murazik-Prohaska",
+    "Fahey-Lind"
   ],
-  "Culture": "iusto",
-  "ActiveOnly": true
+  "Culture": "qui",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Lebsack-McKenzie",
-    "ResourceValue": "harum",
-    "Culture": "mollitia",
+    "ResourceName": "McLaughlin-Nolan",
+    "ResourceValue": "qui",
+    "Culture": "animi",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 1001
       }
     }
   },
   {
-    "ResourceName": "Lebsack-McKenzie",
-    "ResourceValue": "harum",
-    "Culture": "mollitia",
+    "ResourceName": "McLaughlin-Nolan",
+    "ResourceValue": "qui",
+    "Culture": "animi",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 1001
       }
     }
   }

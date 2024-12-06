@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Klocko, Ratke and Brakus"
+  "ApplicationName": "Sanford Group"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 397,
-    "Name": "Shields, Mraz and Lang",
-    "CreatedDate": "2012-02-13T14:45:05.6469762+01:00",
-    "UpdatedDate": "2017-06-16T14:45:05.6469762+02:00",
-    "AssociateFullName": "Daphnee Schneider",
-    "CreatedBy": "eos",
-    "UpdatedBy": "asperiores",
-    "DeviceIdentifier": "tempora",
-    "ForeignAppId": 45,
+    "ForeignDeviceId": 833,
+    "Name": "Schumm-Ernser",
+    "CreatedDate": "2018-06-16T10:17:55.660285+02:00",
+    "UpdatedDate": "2020-01-10T10:17:55.660285+01:00",
+    "AssociateFullName": "Moriah Bonita Bayer V",
+    "CreatedBy": "aspernatur",
+    "UpdatedBy": "iure",
+    "DeviceIdentifier": "assumenda",
+    "ForeignAppId": 747,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 619
       }
     }
   }

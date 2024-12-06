@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 77,
-  "AssociateId": 864,
-  "Caption": "aperiam",
+  "DashboardId": 388,
+  "AssociateId": 454,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 584,
-      "Caption": "beatae",
-      "Description": "Innovative reciprocal core",
-      "ChartName": "Kemmer, Will and Considine",
-      "ChartId": "accusamus",
+      "DashboardTileId": 359,
+      "Caption": "dolorum",
+      "Description": "Customer-focused global approach",
+      "ChartName": "Harvey-Howell",
+      "ChartId": "aut",
       "IsDefault": false,
-      "AssociateId": 94,
-      "GroupId": 178,
-      "SelectionId": 533,
-      "Config": "est",
+      "AssociateId": 51,
+      "GroupId": 702,
+      "SelectionId": 593,
+      "Config": "harum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 830
+          "FieldType": "System.Int32",
+          "FieldLength": 332
         }
       }
     }
@@ -176,13 +176,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

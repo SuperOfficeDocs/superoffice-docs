@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=architecto
-GET /api/v1/Document?$top=286
-GET /api/v1/Document?$skip=806
+GET /api/v1/Document?$entities=voluptas
+GET /api/v1/Document?$top=170
+GET /api/v1/Document?$skip=936
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=veritatis
+GET /api/v1/Document?$context=et
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=True
+GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 3438,
-      "EntityName": "person",
-      "personId": 3438,
-      "fullName": "Pearlie O'Hara"
+      "PrimaryKey": 3693,
+      "EntityName": "sale",
+      "saleId": 3693,
+      "contactId": 7765,
+      "name": "Torp-Stroman"
     },
     {
-      "PrimaryKey": 4662,
-      "EntityName": "person",
-      "personId": 4662,
-      "fullName": "Bettye Zemlak"
+      "PrimaryKey": 6965,
+      "EntityName": "sale",
+      "saleId": 6965,
+      "contactId": 4016,
+      "name": "Roob LLC"
     }
   ]
 }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 396,
-  "SourcePersonId": 165,
-  "DestinationContactId": 604,
-  "DestinationPersonId": 590,
-  "RelationId": 645,
-  "Comment": "expedita",
-  "RelationDefinitionId": 619,
-  "Reversed": 857,
-  "UpdatedDate": "2017-10-19T14:45:06.0999998+02:00",
-  "CreatedDate": "2021-03-13T14:45:06.0999998+01:00",
+  "SourceContactId": 274,
+  "SourcePersonId": 135,
+  "DestinationContactId": 100,
+  "DestinationPersonId": 853,
+  "RelationId": 129,
+  "Comment": "modi",
+  "RelationDefinitionId": 754,
+  "Reversed": 447,
+  "UpdatedDate": "2024-02-04T10:17:55.9571855+01:00",
+  "CreatedDate": "2005-07-13T10:17:55.9571855+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ondricka-Jacobson",
-  "SourcePersonName": "Harber, Welch and Zemlak",
-  "DestinationContactName": "Kirlin Group",
-  "DestinationPersonName": "Funk, Rau and Kuphal",
-  "ActiveText": "autem",
-  "PassiveText": "debitis",
+  "SourceContactName": "Abernathy Group",
+  "SourcePersonName": "Brakus Group",
+  "DestinationContactName": "Mraz, Goyette and Cummings",
+  "DestinationPersonName": "Wisozk LLC",
+  "ActiveText": "nemo",
+  "PassiveText": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   }
 }

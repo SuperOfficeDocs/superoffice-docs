@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 648,
-  "Type": "vel"
+  "AssociateId": 141,
+  "Type": "doloribus"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2007-07-03T14:45:06.6779961+02:00",
-    "ValidTo": "2017-07-11T14:45:06.6779961+02:00",
-    "Comment": "voluptatem",
-    "SecretValue": "autem",
-    "PublicValue": "sed",
-    "IsActive": false,
+    "ValidFrom": "1999-02-04T10:17:56.347833+01:00",
+    "ValidTo": "2010-01-02T10:17:56.347833+01:00",
+    "Comment": "tempore",
+    "SecretValue": "nihil",
+    "PublicValue": "perferendis",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 885
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

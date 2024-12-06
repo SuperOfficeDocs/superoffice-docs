@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Langworth LLC",
-    "ToolTip": "Veniam inventore dolorem.",
-    "Deleted": false,
-    "Rank": 836,
-    "Type": "sit",
-    "ColorBlock": 639,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2011-06-03T14:45:13.6930001+02:00",
+    "Id": 36,
+    "Name": "Glover Inc and Sons",
+    "ToolTip": "Ea reprehenderit.",
+    "Deleted": true,
+    "Rank": 671,
+    "Type": "quisquam",
+    "ColorBlock": 858,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2015-11-29T10:18:01.0043667+01:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Smitham-Watsica",
-        "ToolTip": "Rerum laudantium maiores quia.",
+        "Id": 628,
+        "Name": "Harber Inc and Sons",
+        "ToolTip": "Officia quos inventore temporibus deleniti aliquid animi.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "maiores",
-        "ColorBlock": 482,
-        "IconHint": "molestiae",
+        "Rank": 667,
+        "Type": "id",
+        "ColorBlock": 982,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2009-05-04T14:45:13.6930001+02:00",
+        "LastChanged": "2016-01-02T10:18:01.0043667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Ms. Keenan Meghan Hoppe PhD",
+        "ExtraInfo": "quo",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Alaina Osbaldo Harber Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 694
+            "FieldType": "System.Int32",
+            "FieldLength": 363
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "maxime",
+    "ExtraInfo": "ut",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Jamal Sarai Renner IV",
+    "FullName": "Margarett Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 823
       }
     }
   }

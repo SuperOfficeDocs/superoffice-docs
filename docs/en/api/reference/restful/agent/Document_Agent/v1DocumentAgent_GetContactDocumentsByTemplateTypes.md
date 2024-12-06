@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 447,
-  "StartTime": "2001-04-30T14:45:05.225194+02:00",
-  "EndTime": "2024-01-07T14:45:05.225194+01:00",
-  "Count": 456,
+  "ContactId": 858,
+  "StartTime": "2015-05-28T10:17:55.3477735+02:00",
+  "EndTime": "2009-12-05T10:17:55.3477735+01:00",
+  "Count": 560,
   "DocumentTemplateIds": [
-    292,
-    768
+    271,
+    656
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 353,
-    "Attention": "vitae",
-    "Header": "consequatur",
-    "Name": "Jacobs-West",
-    "OurRef": "similique",
-    "YourRef": "dolore",
-    "Description": "Seamless responsive utilisation",
-    "DocumentTemplate": "neque",
-    "IsPublished": false,
-    "PersonId": 226,
-    "PersonFullName": "Mrs. Gaston Deron Treutel I",
-    "AssociateFullName": "Prof. Chase Josephine Herman III",
-    "ContactId": 851,
-    "ContactName": "Pouros-Thompson",
-    "ProjectId": 576,
-    "ProjectName": "Wilkinson, Thiel and Conn",
-    "AssociateId": 920,
-    "Snum": 307,
-    "SaleId": 134,
-    "SaleName": "Wilderman LLC",
+    "DocumentId": 882,
+    "Attention": "exercitationem",
+    "Header": "animi",
+    "Name": "O'Reilly Group",
+    "OurRef": "dolor",
+    "YourRef": "consequatur",
+    "Description": "Multi-lateral web-enabled utilisation",
+    "DocumentTemplate": "sunt",
+    "IsPublished": true,
+    "PersonId": 277,
+    "PersonFullName": "Cyrus Batz",
+    "AssociateFullName": "Ms. Eusebio Herman",
+    "ContactId": 405,
+    "ContactName": "Olson LLC",
+    "ProjectId": 823,
+    "ProjectName": "Lindgren LLC",
+    "AssociateId": 705,
+    "Snum": 776,
+    "SaleId": 875,
+    "SaleName": "Gusikowski-Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 146
       }
     }
   }

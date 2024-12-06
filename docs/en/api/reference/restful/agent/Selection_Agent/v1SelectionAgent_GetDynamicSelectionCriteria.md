@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 144
+  "SelectionId": 106
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan Group",
-    "Operator": "ipsam",
+    "Name": "Weissnat, Hand and Huel",
+    "Operator": "cumque",
     "Values": [
-      "ratione",
-      "sint"
+      "natus",
+      "omnis"
     ],
     "DisplayValues": [
-      "aut",
-      "a"
+      "repellendus",
+      "debitis"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Stamm-Robel",
-        "Operator": "inventore",
+        "Name": "Cremin-Bechtelar",
+        "Operator": "molestias",
         "Values": [
-          "porro",
-          "aperiam"
+          "et",
+          "in"
         ],
         "DisplayValues": [
-          "in",
-          "voluptas"
+          "blanditiis",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 210,
+        "InterParenthesis": 402,
         "InterOperator": "And",
-        "UniqueHash": 728
+        "UniqueHash": 436
       }
     ],
-    "InterParenthesis": 261,
+    "InterParenthesis": 233,
     "InterOperator": "And",
-    "UniqueHash": 980
+    "UniqueHash": 190
   }
 ]
 ```

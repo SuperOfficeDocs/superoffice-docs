@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 593,
-  "Name": "Christiansen-Schmitt",
-  "Tooltip": "in",
+  "Id": 171,
+  "Name": "Purdy-Prohaska",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 22,
-  "IsCustomList": false,
+  "Rank": 992,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
+  "UseGroupsAndHeadings": true,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 937
     }
   },
   "_Links": {

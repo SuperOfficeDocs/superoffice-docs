@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    589,
-    660
+    104,
+    497
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 71,
-    "ColumnId": 147,
-    "FieldDefault": "ut",
-    "FieldHeight": 280,
-    "FieldLabel": "omnis",
-    "FieldLeft": 298,
-    "FieldTop": 232,
+    "UDefFieldId": 905,
+    "ColumnId": 50,
+    "FieldDefault": "consequuntur",
+    "FieldHeight": 415,
+    "FieldLabel": "quis",
+    "FieldLeft": 554,
+    "FieldTop": 55,
     "FieldType": "Checkbox",
-    "FieldWidth": 190,
-    "FormatMask": "architecto",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 193,
-    "LabelLeft": 849,
-    "LabelTop": 313,
-    "LabelWidth": 702,
-    "LastVersionId": 850,
-    "ListTableId": 835,
-    "IsMandatory": false,
+    "FieldWidth": 387,
+    "FormatMask": "molestiae",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 136,
+    "LabelLeft": 116,
+    "LabelTop": 741,
+    "LabelWidth": 693,
+    "LastVersionId": 686,
+    "ListTableId": 407,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 858,
-    "ProgId": "beatae",
+    "Page1LineNo": 270,
+    "ProgId": "natus",
     "IsReadOnly": false,
-    "ShortLabel": "magni",
-    "TabOrder": 163,
-    "TextLength": 881,
-    "Tooltip": "sit",
-    "UdefIdentity": 535,
-    "UDListDefinitionId": 709,
+    "ShortLabel": "corporis",
+    "TabOrder": 84,
+    "TextLength": 220,
+    "Tooltip": "eius",
+    "UdefIdentity": 271,
+    "UDListDefinitionId": 68,
     "Justification": "Center",
-    "Version": 861,
-    "TemplateVariableName": "Beatty Inc and Sons",
+    "Version": 90,
+    "TemplateVariableName": "Walter, Roberts and Brakus",
     "HasBeenPublished": false,
-    "MdoListName": "Ritchie-Reilly",
+    "MdoListName": "Rosenbaum, Gusikowski and Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 81
       }
     }
   }

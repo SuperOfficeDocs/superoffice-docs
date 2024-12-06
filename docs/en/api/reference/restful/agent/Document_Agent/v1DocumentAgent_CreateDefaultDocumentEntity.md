@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 659,
+  "DocumentId": 963,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolor",
-  "Header": "est",
-  "Name": "Kassulke-Franecki",
-  "OurRef": "harum",
-  "YourRef": "id",
-  "CreatedDate": "2002-09-14T14:45:05.36579+02:00",
-  "UpdatedDate": "1997-08-31T14:45:05.36579+02:00",
-  "Description": "Up-sized web-enabled success",
+  "Attention": "quae",
+  "Header": "id",
+  "Name": "Stehr, Crist and Kris",
+  "OurRef": "veritatis",
+  "YourRef": "tempora",
+  "CreatedDate": "2006-10-10T10:17:55.457154+02:00",
+  "UpdatedDate": "1998-01-01T10:17:55.457154+01:00",
+  "Description": "Persistent encompassing functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-06-28T14:45:05.36579+02:00",
-  "ExternalRef": "natus",
+  "Date": "2009-01-27T10:17:55.4727799+01:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 165,
+  "ActiveLinks": 941,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cruickshank-Ledner",
-      "Id": 227,
-      "Description": "Distributed fault-tolerant toolset",
-      "ExtraInfo": "autem",
-      "LinkId": 712,
+      "EntityName": "Skiles Group",
+      "Id": 244,
+      "Description": "Future-proofed 3rd generation Graphic Interface",
+      "ExtraInfo": "nulla",
+      "LinkId": 350,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 994
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 917,
-  "Snum": 135,
+  "SuggestedDocumentId": 932,
+  "Snum": 143,
   "UserDefinedFields": {
-    "SuperOffice:1": "Charlene Burdette Koepp I",
-    "SuperOffice:2": "Edmond Smith"
+    "SuperOffice:1": "Prof. Monica Kyra Daugherty",
+    "SuperOffice:2": "Bonnie Vandervort"
   },
   "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "odit",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2005-11-04T14:45:05.36579+01:00",
-  "PublishTo": "2014-12-25T14:45:05.36579+01:00",
-  "PublishFrom": "2001-09-17T14:45:05.36579+02:00",
+  "PublishEventDate": "2015-07-27T10:17:55.4727799+02:00",
+  "PublishTo": "2011-07-31T10:17:55.4727799+02:00",
+  "PublishFrom": "2011-02-03T10:17:55.4727799+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 36,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldLength": 118
         }
       }
     },
     {
-      "VisibleId": 36,
+      "VisibleId": 845,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldLength": 118
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 492
     }
   }
 }

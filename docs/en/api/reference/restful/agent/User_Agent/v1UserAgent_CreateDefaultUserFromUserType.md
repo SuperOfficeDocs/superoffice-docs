@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 222,
-  "Name": "Smith-Swift",
-  "Rank": 978,
-  "Tooltip": "atque",
+  "AssociateId": 897,
+  "Name": "Murazik Group",
+  "Rank": 14,
+  "Tooltip": "dolor",
   "LicenseOwners": [
     {
-      "Name": "Donnelly-Schimmel",
-      "Description": "Grass-roots optimizing customer loyalty",
+      "Name": "Smith Inc and Sons",
+      "Description": "De-engineered multimedia interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 287
         }
       }
     },
     {
-      "Name": "Donnelly-Schimmel",
-      "Description": "Grass-roots optimizing customer loyalty",
+      "Name": "Smith Inc and Sons",
+      "Description": "De-engineered multimedia interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldLength": 287
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "aspernatur",
-      "Id": 712,
-      "Rank": 389,
+      "Value": "omnis",
+      "Tooltip": "ab",
+      "Id": 718,
+      "Rank": 837,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldLength": 939
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1998-04-09T14:45:06.6936203+02:00",
-  "Lastlogout": "2018-11-12T14:45:06.6936203+01:00",
-  "EjUserId": 396,
-  "RequestSignature": "necessitatibus",
+  "Lastlogin": "2005-03-04T10:17:56.347833+01:00",
+  "Lastlogout": "1998-01-07T10:17:56.347833+01:00",
+  "EjUserId": 170,
+  "RequestSignature": "autem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "natus",
+      "Value": "veritatis",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 287
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "natus",
+      "Value": "veritatis",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 287
         }
       }
     }
   ],
-  "UserName": "Swift Inc and Sons",
+  "UserName": "Maggio Group",
   "TicketCategories": [
     {
-      "Id": 835,
-      "Name": "Nicolas-Terry",
-      "ToolTip": "Cupiditate mollitia est dolorum quo explicabo commodi.",
+      "Id": 365,
+      "Name": "Roberts-Weber",
+      "ToolTip": "Officia magnam.",
       "Deleted": false,
-      "Rank": 615,
-      "Type": "exercitationem",
+      "Rank": 71,
+      "Type": "doloribus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 438,
-      "ExtraInfo": "sapiente",
-      "StyleHint": "in",
-      "FullName": "Mr. Verda Nitzsche",
+      "IconHint": "et",
+      "ColorBlock": 107,
+      "ExtraInfo": "veniam",
+      "StyleHint": "sapiente",
+      "FullName": "Bruce Reilly",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 236
+        }
+      }
+    }
+  ],
+  "NickName": "Miller-Wolff",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "vero",
+    "ExtraFields2": "incidunt"
+  },
+  "CustomFields": {
+    "CustomFields1": "eaque",
+    "CustomFields2": "omnis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Schinner-Gerlach",
+      "DisplayName": "Walker LLC",
+      "Description": "User-friendly bi-directional parallelism",
+      "ToolTip": "Est ut doloremque qui voluptatibus beatae.",
+      "Actions": "Implicit",
+      "ActionData": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 240
-        }
-      }
-    }
-  ],
-  "NickName": "Barrows, Gulgowski and Huels",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "animi"
-  },
-  "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "aut"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Emard Inc and Sons",
-      "DisplayName": "Wilkinson Inc and Sons",
-      "Description": "Devolved scalable groupware",
-      "ToolTip": "Rerum ipsum deserunt expedita ratione et.",
-      "Actions": "Implicit",
-      "ActionData": "quisquam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 260
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

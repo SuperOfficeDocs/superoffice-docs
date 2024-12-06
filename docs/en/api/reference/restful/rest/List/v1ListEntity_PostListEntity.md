@@ -98,15 +98,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Windler, Nienow and Parker",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 117,
+  "Id": 393,
+  "Name": "Zemlak-Ernser",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "Rank": 955,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nesciunt",
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 339,
-  "Name": "Lindgren Group",
-  "Tooltip": "sit",
+  "Id": 230,
+  "Name": "Schaefer-Swaniawski",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 312,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 29,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 446
     }
   },
   "_Links": {

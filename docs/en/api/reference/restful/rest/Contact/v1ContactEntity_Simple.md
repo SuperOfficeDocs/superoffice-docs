@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 878,
-  "Name": "Predovic, Tillman and Cummerata",
-  "OrgNr": "903266",
+  "ContactId": 660,
+  "Name": "Runolfsdottir Group",
+  "OrgNr": "1513999",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "mollitia",
-  "DirectPhone": "1-940-159-8583 x2233",
-  "AssociateId": 995,
-  "CountryId": 153,
-  "EmailAddress": "cullen@prosacco.uk",
-  "Kananame": "est",
-  "EmailAddressName": "wyatt@oberbrunner.com",
+  "City": "occaecati",
+  "DirectPhone": "209.815.8954 x6119",
+  "AssociateId": 462,
+  "CountryId": 538,
+  "EmailAddress": "george@powlowskismith.com",
+  "Kananame": "deleniti",
+  "EmailAddressName": "rogers_rogahn@kerlukerunolfsson.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Rhoda Goldner",
+  "AssociateFullName": "Heber Ondricka",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "est",
-  "FullName": "Riley Heidenreich",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 48,
-  "Number1": "1456393",
-  "Number2": "1081674",
+  "FormattedAddress": "aut",
+  "FullName": "Mrs. Margarita Winfield Trantow DVM",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 747,
+  "Number1": "1393007",
+  "Number2": "1365611",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 573
     }
   }
 }

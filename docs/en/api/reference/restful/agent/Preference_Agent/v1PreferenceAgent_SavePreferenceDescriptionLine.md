@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 255,
-  "PrefDescId": 114,
-  "PrefValue": "quia",
-  "PrefShowValue": "autem",
-  "Description": "Adaptive next generation data-warehouse",
+  "PrefDescLineId": 480,
+  "PrefDescId": 243,
+  "PrefValue": "pariatur",
+  "PrefShowValue": "quia",
+  "Description": "Monitored incremental architecture",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 462,
-  "PrefDescId": 118,
-  "PrefValue": "et",
-  "PrefShowValue": "aliquid",
-  "Description": "Front-line global budgetary management",
+  "PrefDescLineId": 199,
+  "PrefDescId": 85,
+  "PrefValue": "facere",
+  "PrefShowValue": "corrupti",
+  "Description": "Compatible methodical methodology",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 951
     }
   }
 }

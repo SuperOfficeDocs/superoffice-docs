@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Nitzsche LLC"
+  "TargetTableName": "Rempel, Casper and Considine"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive 5th generation process improvement",
-  "Postit": "et",
+  "Description": "Stand-alone contextually-based software",
+  "Postit": "recusandae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 854,
-  "IncludePerson": 158,
+  "GroupIdx": 965,
+  "IncludePerson": 364,
   "MemberCount": 99.99,
-  "Name": "Mante LLC",
-  "PostitTextId": 861,
-  "CreatedDate": "2005-03-23T14:45:06.2093526+01:00",
-  "SelectionId": 457,
-  "SoundEx": "distinctio",
-  "Source": 424,
-  "TextId": 14,
-  "UpdatedDate": "2012-11-03T14:45:06.2093526+01:00",
-  "UpdatedCount": 833,
-  "Visibility": 994,
+  "Name": "Bins Group",
+  "PostitTextId": 468,
+  "CreatedDate": "2020-03-25T10:17:56.0196892+01:00",
+  "SelectionId": 760,
+  "SoundEx": "perspiciatis",
+  "Source": 58,
+  "TextId": 621,
+  "UpdatedDate": "2009-10-03T10:17:56.0196892+02:00",
+  "UpdatedCount": 212,
+  "Visibility": 188,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 815,
-  "TargetTableName": "Farrell, Bartell and Greenfelder",
-  "Completed": false,
-  "LeftSelectionId": 10,
-  "RightSelectionId": 443,
+  "TargetTableNumber": 395,
+  "TargetTableName": "Medhurst-Glover",
+  "Completed": true,
+  "LeftSelectionId": 168,
+  "RightSelectionId": 865,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stoltenberg, Nader and McLaughlin",
-  "ShadowProviderName": "Hand, Schroeder and Jacobs",
-  "ChartKey": "in",
-  "LastLoaded": "2009-06-10T14:45:06.2093526+02:00",
-  "LastLoadedBy": 51,
+  "MainProviderName": "Ryan-Hirthe",
+  "ShadowProviderName": "Turner, Kassulke and Padberg",
+  "ChartKey": "dicta",
+  "LastLoaded": "2008-12-26T10:17:56.0196892+01:00",
+  "LastLoadedBy": 211,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-06-15T14:45:06.2093526+02:00",
-  "LastMembershipChangeBy": 981,
+  "LastMembershipChange": "1998-11-30T10:17:56.0196892+01:00",
+  "LastMembershipChangeBy": 780,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "molestiae",
+  "MainHeading": "fugit",
   "MemberTabHeading": "qui",
-  "MailingsProviderName": "Dach-Haley",
-  "DashboardTileDefinitionId": 622,
+  "MailingsProviderName": "Swift-Kshlerin",
+  "DashboardTileDefinitionId": 890,
   "VisibleFor": [
     {
-      "VisibleId": 339,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 237
         }
       }
     },
     {
-      "VisibleId": 339,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 237
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 977
     }
   }
 }

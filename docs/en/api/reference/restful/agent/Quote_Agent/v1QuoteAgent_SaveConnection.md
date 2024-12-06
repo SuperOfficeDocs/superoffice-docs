@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 559,
-  "ERPName": "Hoppe LLC",
-  "DisplayName": "Kautzer LLC",
-  "DisplayDescription": "Realigned demand-driven conglomeration",
-  "Rank": 632,
-  "ConnectorName": "Rodriguez-Cremin",
-  "ErpConnectionId": 394,
-  "ExtraData": "sunt",
+  "QuoteConnectionId": 828,
+  "ERPName": "Torp, Schmitt and Denesik",
+  "DisplayName": "Willms Group",
+  "DisplayDescription": "Synchronised non-volatile structure",
+  "Rank": 580,
+  "ConnectorName": "Osinski-Sawayn",
+  "ErpConnectionId": 345,
+  "ExtraData": "ipsam",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 662,
-      "ERPPriceListKey": "deserunt",
-      "QuoteConnectionId": 856,
-      "Name": "Kiehn Inc and Sons",
-      "Description": "Visionary eco-centric matrix",
-      "Currency": "omnis",
-      "CurrencyName": "Carter-Grant",
-      "ValidFrom": "1998-09-29T14:45:06.0687573+02:00",
-      "ValidTo": "2024-10-03T14:45:06.0687573+02:00",
-      "IsActive": true,
+      "PriceListId": 833,
+      "ERPPriceListKey": "ratione",
+      "QuoteConnectionId": 171,
+      "Name": "Spinka, Connelly and Stehr",
+      "Description": "Secured leading edge utilisation",
+      "Currency": "eaque",
+      "CurrencyName": "Wunsch Inc and Sons",
+      "ValidFrom": "2008-07-29T10:17:55.9415595+02:00",
+      "ValidTo": "1999-11-13T10:17:55.9415595+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    929,
-    879
+    894,
+    536
   ],
   "AssociateAccessIds": [
-    249,
-    979
+    425,
+    508
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 318
     }
   }
 }

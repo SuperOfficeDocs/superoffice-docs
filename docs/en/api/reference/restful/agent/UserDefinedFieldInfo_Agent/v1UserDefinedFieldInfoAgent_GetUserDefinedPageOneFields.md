@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 640
+  "UserGroupId": 187
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 271,
-    "ColumnId": 771,
-    "FieldDefault": "est",
-    "FieldHeight": 581,
-    "FieldLabel": "aspernatur",
-    "FieldLeft": 605,
-    "FieldTop": 177,
+    "UDefFieldId": 975,
+    "ColumnId": 919,
+    "FieldDefault": "mollitia",
+    "FieldHeight": 292,
+    "FieldLabel": "neque",
+    "FieldLeft": 865,
+    "FieldTop": 690,
     "FieldType": "Checkbox",
-    "FieldWidth": 548,
-    "FormatMask": "laudantium",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 222,
-    "LabelLeft": 295,
-    "LabelTop": 727,
-    "LabelWidth": 876,
-    "LastVersionId": 680,
-    "ListTableId": 370,
+    "FieldWidth": 4,
+    "FormatMask": "fugiat",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 650,
+    "LabelLeft": 815,
+    "LabelTop": 591,
+    "LabelWidth": 875,
+    "LastVersionId": 575,
+    "ListTableId": 248,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 599,
-    "ProgId": "ut",
+    "Page1LineNo": 969,
+    "ProgId": "aut",
     "IsReadOnly": true,
-    "ShortLabel": "quidem",
-    "TabOrder": 432,
-    "TextLength": 104,
-    "Tooltip": "odit",
-    "UdefIdentity": 811,
-    "UDListDefinitionId": 605,
+    "ShortLabel": "asperiores",
+    "TabOrder": 145,
+    "TextLength": 985,
+    "Tooltip": "nulla",
+    "UdefIdentity": 362,
+    "UDListDefinitionId": 520,
     "Justification": "Center",
-    "Version": 295,
-    "TemplateVariableName": "Volkman-Heller",
-    "HasBeenPublished": false,
-    "MdoListName": "Johnson Inc and Sons",
+    "Version": 217,
+    "TemplateVariableName": "Schuster-Collins",
+    "HasBeenPublished": true,
+    "MdoListName": "Jones-Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

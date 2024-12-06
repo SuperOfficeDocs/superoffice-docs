@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 107,
+  "SelectionId": 880,
   "Criteria": [
     {
-      "Name": "Kub, Runolfsson and West",
-      "Description": "Fundamental mission-critical matrix",
-      "Rank": 411,
+      "Name": "Stanton-Bernhard",
+      "Description": "Devolved interactive customer loyalty",
+      "Rank": 901,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kub, Runolfsson and West",
-      "Description": "Fundamental mission-critical matrix",
-      "Rank": 411,
+      "Name": "Stanton-Bernhard",
+      "Description": "Devolved interactive customer loyalty",
+      "Rank": 901,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harvey Inc and Sons",
-    "Description": "Vision-oriented reciprocal parallelism",
-    "Rank": 523,
+    "Name": "Flatley, Gleason and Herman",
+    "Description": "Open-architected asynchronous hub",
+    "Rank": 773,
     "Restrictions": [
       {
-        "Name": "Rau LLC",
-        "Operator": "accusantium",
+        "Name": "Trantow LLC",
+        "Operator": "aut",
         "Values": [
-          "ducimus",
-          "autem"
+          "ad",
+          "aperiam"
         ],
         "DisplayValues": [
-          "dolor",
-          "ea"
+          "nulla",
+          "ab"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 756,
+        "InterParenthesis": 36,
         "InterOperator": "And",
-        "UniqueHash": 56
+        "UniqueHash": 58
       }
     ]
   },
   {
-    "Name": "Harvey Inc and Sons",
-    "Description": "Vision-oriented reciprocal parallelism",
-    "Rank": 523,
+    "Name": "Flatley, Gleason and Herman",
+    "Description": "Open-architected asynchronous hub",
+    "Rank": 773,
     "Restrictions": [
       {
-        "Name": "Rau LLC",
-        "Operator": "accusantium",
+        "Name": "Trantow LLC",
+        "Operator": "aut",
         "Values": [
-          "ducimus",
-          "autem"
+          "ad",
+          "aperiam"
         ],
         "DisplayValues": [
-          "dolor",
-          "ea"
+          "nulla",
+          "ab"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 756,
+        "InterParenthesis": 36,
         "InterOperator": "And",
-        "UniqueHash": 56
+        "UniqueHash": 58
       }
     ]
   }

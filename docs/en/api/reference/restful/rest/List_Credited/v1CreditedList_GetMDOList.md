@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=rerum
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=accusantium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Lubowitz-Marks",
-    "ToolTip": "Aut ipsa est animi qui ipsam qui beatae.",
-    "Deleted": true,
-    "Rank": 986,
-    "Type": "odio",
+    "Id": 320,
+    "Name": "Marquardt Group",
+    "ToolTip": "Excepturi et perferendis eum et sapiente ut.",
+    "Deleted": false,
+    "Rank": 121,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Zieme-Keeling",
-        "ToolTip": "Quo deleniti consectetur omnis autem.",
+        "Id": 59,
+        "Name": "Green-Kuvalis",
+        "ToolTip": "Repellat in inventore veritatis dicta assumenda minus.",
         "Deleted": false,
-        "Rank": 732,
-        "Type": "eum",
+        "Rank": 234,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 733,
-        "ExtraInfo": "neque",
-        "StyleHint": "facilis",
-        "FullName": "Kimberly Gusikowski",
+        "IconHint": "recusandae",
+        "ColorBlock": 218,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "voluptatibus",
+        "FullName": "Nayeli Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 772
           }
         }
       }
     ],
-    "IconHint": "doloribus",
-    "ColorBlock": 73,
-    "ExtraInfo": "sit",
-    "StyleHint": "molestiae",
-    "FullName": "Hosea Glover",
+    "IconHint": "culpa",
+    "ColorBlock": 102,
+    "ExtraInfo": "neque",
+    "StyleHint": "consequuntur",
+    "FullName": "Ms. Anastacio Ward III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 352
       }
     }
   }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 719,
-  "StartTime": "2004-11-12T14:45:05.2408154+01:00",
-  "EndTime": "2006-11-16T14:45:05.2408154+01:00",
-  "Count": 46,
+  "ProjectId": 841,
+  "StartTime": "2017-10-13T10:17:55.457154+02:00",
+  "EndTime": "2019-02-15T10:17:55.457154+01:00",
+  "Count": 226,
   "DocumentTemplateIds": [
-    522,
-    377
+    163,
+    285
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 21,
-    "Attention": "molestias",
-    "Header": "enim",
-    "Name": "Schneider, Schaden and Jacobs",
-    "OurRef": "voluptatem",
-    "YourRef": "dolorum",
-    "Description": "Vision-oriented client-server database",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": true,
-    "PersonId": 609,
-    "PersonFullName": "Miss Myrtie Mercedes Pollich MD",
-    "AssociateFullName": "Rylan Hermiston",
-    "ContactId": 981,
-    "ContactName": "Schmitt LLC",
-    "ProjectId": 537,
-    "ProjectName": "Dicki-Schulist",
-    "AssociateId": 771,
-    "Snum": 526,
-    "SaleId": 375,
-    "SaleName": "Cole Inc and Sons",
+    "DocumentId": 963,
+    "Attention": "expedita",
+    "Header": "similique",
+    "Name": "Shanahan, Cummings and Renner",
+    "OurRef": "ea",
+    "YourRef": "explicabo",
+    "Description": "Reduced fault-tolerant orchestration",
+    "DocumentTemplate": "est",
+    "IsPublished": false,
+    "PersonId": 201,
+    "PersonFullName": "Prof. Lamar Breitenberg Jr.",
+    "AssociateFullName": "Prof. Karelle Glover PhD",
+    "ContactId": 181,
+    "ContactName": "Moore, Bahringer and Monahan",
+    "ProjectId": 715,
+    "ProjectName": "Raynor-Pacocha",
+    "AssociateId": 989,
+    "Snum": 363,
+    "SaleId": 385,
+    "SaleName": "Bartell, Hansen and Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

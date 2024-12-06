@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ProjectMember?$select=name,department,category/id
 GET /api/v1/ProjectMember?$filter=name begins 'S'
 GET /api/v1/ProjectMember?$orderBy=name asc
-GET /api/v1/ProjectMember?$entities=harum
-GET /api/v1/ProjectMember?$top=359
-GET /api/v1/ProjectMember?$skip=80
+GET /api/v1/ProjectMember?$entities=ab
+GET /api/v1/ProjectMember?$top=906
+GET /api/v1/ProjectMember?$skip=652
 GET /api/v1/ProjectMember?$mode=Full
 GET /api/v1/ProjectMember?$options=GrandTotal=true
-GET /api/v1/ProjectMember?$context=nihil
+GET /api/v1/ProjectMember?$context=aut
 GET /api/v1/ProjectMember?$format=JSON
-GET /api/v1/ProjectMember?$jsonSafe=False
+GET /api/v1/ProjectMember?$jsonSafe=True
 GET /api/v1/ProjectMember?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "natus",
+  "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 9752,
-      "EntityName": "person",
-      "personId": 9752,
-      "fullName": "Orie Connelly"
+      "PrimaryKey": 4029,
+      "EntityName": "sale",
+      "saleId": 4029,
+      "contactId": 6003,
+      "name": "Treutel-Barton"
     },
     {
-      "PrimaryKey": 1222,
-      "EntityName": "person",
-      "personId": 1222,
-      "fullName": "Lina Heaney"
+      "PrimaryKey": 5063,
+      "EntityName": "sale",
+      "saleId": 5063,
+      "contactId": 5734,
+      "name": "Adams LLC"
     }
   ]
 }

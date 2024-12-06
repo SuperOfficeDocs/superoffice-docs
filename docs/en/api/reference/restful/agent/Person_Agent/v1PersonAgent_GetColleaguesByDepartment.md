@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 920
+  "DepartmentId": 83
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "corporis",
-    "PersonId": 928,
-    "Mrmrs": "consequatur",
-    "Firstname": "Annie",
-    "Lastname": "Boyer",
-    "MiddleName": "Ward-Bode",
-    "Title": "earum",
-    "Description": "Optional multimedia firmware",
-    "Email": "ally.gaylord@lebsack.info",
-    "FullName": "Ms. Cindy Rhiannon VonRueden",
-    "DirectPhone": "473-730-8414 x924",
-    "FormalName": "Dooley Group",
-    "CountryId": 27,
-    "ContactId": 121,
-    "ContactName": "Kris-Smith",
-    "Retired": 187,
-    "Rank": 753,
-    "ActiveInterests": 520,
+    "Position": "consectetur",
+    "PersonId": 34,
+    "Mrmrs": "nostrum",
+    "Firstname": "German",
+    "Lastname": "Greenfelder",
+    "MiddleName": "Turcotte, Hartmann and Larkin",
+    "Title": "ipsam",
+    "Description": "Re-contextualized discrete access",
+    "Email": "sammie.littel@zboncakbahringer.name",
+    "FullName": "Geovanni Dovie Mayert IV",
+    "DirectPhone": "1-071-729-3749 x055",
+    "FormalName": "Morar Inc and Sons",
+    "CountryId": 37,
+    "ContactId": 483,
+    "ContactName": "Rogahn, Little and Kirlin",
+    "Retired": 839,
+    "Rank": 620,
+    "ActiveInterests": 766,
     "ContactDepartment": "",
-    "ContactCountryId": 808,
-    "ContactOrgNr": "1157252",
-    "FaxPhone": "527.993.7946",
-    "MobilePhone": "136.204.2267 x633",
-    "ContactPhone": "670.652.3807 x898",
-    "AssociateName": "Nikolaus Inc and Sons",
-    "AssociateId": 147,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "animi",
-    "Kanalname": "consequatur",
-    "Post1": "cumque",
-    "Post2": "iure",
-    "Post3": "cupiditate",
-    "EmailName": "nona_stoltenberg@osinski.biz",
-    "ContactFullName": "Monica Dickinson",
-    "ActiveErpLinks": 698,
-    "TicketPriorityId": 340,
-    "SupportLanguageId": 876,
-    "SupportAssociateId": 791,
+    "ContactCountryId": 850,
+    "ContactOrgNr": "339977",
+    "FaxPhone": "006.195.8594",
+    "MobilePhone": "(281)913-3575 x44116",
+    "ContactPhone": "1-079-641-7533 x592",
+    "AssociateName": "Rutherford LLC",
+    "AssociateId": 133,
+    "UsePersonAddress": false,
+    "ContactFax": "incidunt",
+    "Kanafname": "consequuntur",
+    "Kanalname": "debitis",
+    "Post1": "consequatur",
+    "Post2": "id",
+    "Post3": "perferendis",
+    "EmailName": "kellen.bashirian@jakubowskitillman.us",
+    "ContactFullName": "Jonas Hoeger",
+    "ActiveErpLinks": 131,
+    "TicketPriorityId": 268,
+    "SupportLanguageId": 14,
+    "SupportAssociateId": 699,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 549
       }
     }
   }

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Halvorson-Towne",
+  "ConnectorName": "Kovacek Group",
   "ConnectionData": {
-    "ConnectionData1": "molestias",
-    "ConnectionData2": "eos"
+    "ConnectionData1": "voluptatem",
+    "ConnectionData2": "soluta"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "nam",
-  "TechExplanation": "ullam",
-  "ErrorCode": "vel",
+  "UserExplanation": "illum",
+  "TechExplanation": "a",
+  "ErrorCode": "aut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

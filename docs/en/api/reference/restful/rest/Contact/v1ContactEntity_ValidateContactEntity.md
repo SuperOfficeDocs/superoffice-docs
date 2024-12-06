@@ -105,85 +105,85 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 400,
-  "Name": "Simonis, Marvin and Veum",
+  "ContactId": 148,
+  "Name": "Ondricka, McDermott and Veum",
   "Department": "",
-  "OrgNr": "812992",
-  "Number1": "219762",
-  "Number2": "736722",
-  "UpdatedDate": "2024-06-29T14:45:12.6932234+02:00",
-  "CreatedDate": "2022-11-28T14:45:12.6932234+01:00",
+  "OrgNr": "950524",
+  "Number1": "694229",
+  "Number2": "561892",
+  "UpdatedDate": "2021-04-16T10:18:00.3324502+02:00",
+  "CreatedDate": "2013-12-12T10:18:00.3324502+01:00",
   "Emails": [
     {
-      "Value": "excepturi",
-      "StrippedValue": "aspernatur",
-      "Description": "Multi-tiered dynamic hardware"
+      "Value": "explicabo",
+      "StrippedValue": "non",
+      "Description": "Optimized systemic collaboration"
     },
     {
-      "Value": "excepturi",
-      "StrippedValue": "aspernatur",
-      "Description": "Multi-tiered dynamic hardware"
+      "Value": "explicabo",
+      "StrippedValue": "non",
+      "Description": "Optimized systemic collaboration"
     }
   ],
   "Interests": [
     {
-      "Id": 424,
-      "Name": "Rippin Group",
-      "ToolTip": "Sapiente maxime alias consequatur dignissimos ut harum.",
-      "Deleted": true,
-      "Rank": 648,
-      "Type": "enim",
-      "ColorBlock": 286,
-      "IconHint": "mollitia",
-      "Selected": false,
-      "LastChanged": "2006-12-29T14:45:12.6932234+01:00",
+      "Id": 930,
+      "Name": "Blanda-Hettinger",
+      "ToolTip": "Ipsa harum dignissimos sapiente non.",
+      "Deleted": false,
+      "Rank": 846,
+      "Type": "ut",
+      "ColorBlock": 510,
+      "IconHint": "pariatur",
+      "Selected": true,
+      "LastChanged": "2023-11-17T10:18:00.3324502+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eligendi",
-      "StyleHint": "possimus",
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Maya Mohr"
+      "FullName": "Leonard Nader"
     }
   ],
   "Urls": [
     {
-      "Value": "quo",
-      "StrippedValue": "culpa",
-      "Description": "Multi-lateral needs-based database"
+      "Value": "et",
+      "StrippedValue": "similique",
+      "Description": "Implemented leading edge matrix"
     },
     {
-      "Value": "quo",
-      "StrippedValue": "culpa",
-      "Description": "Multi-lateral needs-based database"
+      "Value": "et",
+      "StrippedValue": "similique",
+      "Description": "Implemented leading edge matrix"
     }
   ],
   "Phones": [
     {
-      "Value": "quis",
-      "StrippedValue": "saepe",
-      "Description": "Distributed methodical artificial intelligence"
+      "Value": "excepturi",
+      "StrippedValue": "praesentium",
+      "Description": "Organized next generation utilisation"
     },
     {
-      "Value": "quis",
-      "StrippedValue": "saepe",
-      "Description": "Distributed methodical artificial intelligence"
+      "Value": "excepturi",
+      "StrippedValue": "praesentium",
+      "Description": "Organized next generation utilisation"
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "nihil",
-      "Description": "Fully-configurable uniform attitude"
+      "Value": "vel",
+      "StrippedValue": "eligendi",
+      "Description": "Fundamental attitude-oriented process improvement"
     },
     {
-      "Value": "et",
-      "StrippedValue": "nihil",
-      "Description": "Fully-configurable uniform attitude"
+      "Value": "vel",
+      "StrippedValue": "eligendi",
+      "Description": "Fundamental attitude-oriented process improvement"
     }
   ],
-  "Description": "Extended responsive task-force",
+  "Description": "Synergized static circuit",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "consequatur",
-      "PersonId": 663,
-      "Mrmrs": "ducimus",
-      "Firstname": "Trystan",
-      "Lastname": "Cassin",
-      "MiddleName": "Ondricka Inc and Sons",
-      "Title": "odit",
-      "Description": "Proactive 4th generation service-desk",
-      "Email": "teresa.stroman@lowe.us",
-      "FullName": "Doyle Considine",
-      "DirectPhone": "070-393-6667",
-      "FormalName": "White-Friesen",
-      "CountryId": 665,
-      "ContactId": 613,
-      "ContactName": "Quitzon-Yost",
-      "Retired": 51,
-      "Rank": 514,
-      "ActiveInterests": 386,
+      "Position": "ad",
+      "PersonId": 927,
+      "Mrmrs": "nobis",
+      "Firstname": "Annabell",
+      "Lastname": "Hegmann",
+      "MiddleName": "Kuvalis Group",
+      "Title": "deleniti",
+      "Description": "Re-contextualized disintermediate hub",
+      "Email": "sid@koepp.co.uk",
+      "FullName": "Ernestina Deckow",
+      "DirectPhone": "1-126-568-0645 x523",
+      "FormalName": "Nicolas-Mann",
+      "CountryId": 275,
+      "ContactId": 736,
+      "ContactName": "Wolf Inc and Sons",
+      "Retired": 583,
+      "Rank": 168,
+      "ActiveInterests": 631,
       "ContactDepartment": "",
-      "ContactCountryId": 338,
-      "ContactOrgNr": "1636909",
-      "FaxPhone": "(771)598-6353",
-      "MobilePhone": "(628)734-3185 x2571",
-      "ContactPhone": "(341)321-1081",
-      "AssociateName": "Moore, Walker and Hermann",
-      "AssociateId": 458,
-      "UsePersonAddress": false,
-      "ContactFax": "accusantium",
-      "Kanafname": "explicabo",
-      "Kanalname": "eum",
-      "Post1": "unde",
-      "Post2": "aut",
-      "Post3": "aliquid",
-      "EmailName": "cullen.will@abshirespinka.biz",
-      "ContactFullName": "Izaiah Parker",
-      "ActiveErpLinks": 215,
-      "TicketPriorityId": 276,
-      "SupportLanguageId": 230,
-      "SupportAssociateId": 909,
+      "ContactCountryId": 585,
+      "ContactOrgNr": "680493",
+      "FaxPhone": "1-096-054-1524",
+      "MobilePhone": "(794)442-7642 x69214",
+      "ContactPhone": "958.787.0582 x139",
+      "AssociateName": "Durgan-Brekke",
+      "AssociateId": 395,
+      "UsePersonAddress": true,
+      "ContactFax": "eum",
+      "Kanafname": "velit",
+      "Kanalname": "ut",
+      "Post1": "temporibus",
+      "Post2": "placeat",
+      "Post3": "ex",
+      "EmailName": "daija_heaney@bartell.biz",
+      "ContactFullName": "Celine O'Connell",
+      "ActiveErpLinks": 887,
+      "TicketPriorityId": 647,
+      "SupportLanguageId": 344,
+      "SupportAssociateId": 116,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "qui",
+  "Kananame": "voluptatem",
   "Xstop": false,
-  "ActiveInterests": 936,
-  "GroupId": 272,
-  "ActiveStatusMonitorId": 89,
+  "ActiveInterests": 726,
+  "GroupId": 477,
+  "ActiveStatusMonitorId": 130,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 13,
-  "DbiAgentId": 91,
-  "DbiLastSyncronized": "1999-10-18T14:45:12.6932234+02:00",
-  "DbiKey": "rem",
-  "DbiLastModified": "2005-04-22T14:45:12.6932234+02:00",
+  "Deleted": 246,
+  "DbiAgentId": 268,
+  "DbiLastSyncronized": "2014-04-09T10:18:00.3324502+02:00",
+  "DbiKey": "dolorem",
+  "DbiLastModified": "2018-11-04T10:18:00.3324502+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 507,
-  "ActiveErpLinks": 111,
+  "Source": 412,
+  "ActiveErpLinks": 555,
   "BounceEmails": [
-    "jasper.koepp@hartmann.ca",
-    "jake_shanahan@considinenolan.us"
+    "wilfred@gulgowski.us",
+    "jamal.kovacek@bergeernser.ca"
   ],
   "Domains": [
-    "quod",
-    "impedit"
+    "dolor",
+    "omnis"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mike Lockman",
+    "SuperOffice:2": "Dagmar Rutherford"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "alias"
+  "1": "ea",
+  "2": "et"
 }
 ```

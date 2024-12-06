@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 696,
+  "MessageServerId": 46,
   "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 990,
-      "ContactName": "Metz, Konopelski and Gleichner",
-      "PersonId": 93,
-      "PersonName": "Beahan Group",
-      "AssociateId": 331,
-      "Address": "odio",
-      "EmailId": 616,
+      "ContactId": 416,
+      "ContactName": "Aufderhar, Glover and Ankunding",
+      "PersonId": 247,
+      "PersonName": "Morissette LLC",
+      "AssociateId": 884,
+      "Address": "vitae",
+      "EmailId": 193,
       "DuplicatePersonIds": [
-        735,
-        87
+        278,
+        224
       ],
-      "Name": "King-Sauer",
+      "Name": "Klein-Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 373
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 146,
-      "ContactName": "Schumm Inc and Sons",
-      "PersonId": 797,
-      "PersonName": "Bins, Rosenbaum and Ritchie",
-      "AssociateId": 929,
-      "Address": "earum",
-      "EmailId": 917,
+      "ContactId": 72,
+      "ContactName": "Brekke Inc and Sons",
+      "PersonId": 670,
+      "PersonName": "Murray Group",
+      "AssociateId": 881,
+      "Address": "incidunt",
+      "EmailId": 197,
       "DuplicatePersonIds": [
-        64,
-        779
+        850,
+        54
       ],
-      "Name": "Leuschke Inc and Sons",
+      "Name": "Smitham Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldType": "System.Int32",
+          "FieldLength": 278
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 37,
-      "ContactName": "Rogahn-Simonis",
-      "PersonId": 957,
-      "PersonName": "Schinner Group",
-      "AssociateId": 482,
-      "Address": "at",
-      "EmailId": 296,
+      "ContactId": 291,
+      "ContactName": "Gislason, Toy and Bode",
+      "PersonId": 686,
+      "PersonName": "Goodwin Group",
+      "AssociateId": 860,
+      "Address": "qui",
+      "EmailId": 875,
       "DuplicatePersonIds": [
-        35,
-        773
+        276,
+        669
       ],
-      "Name": "Walter, Altenwerth and Haley",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 266
-        }
-      }
-    }
-  ],
-  "Subject": "id",
-  "HTMLBody": "placeat",
-  "From": null,
-  "Sent": "2017-02-02T14:45:05.5532468+01:00",
-  "Size": 101,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "autem",
-  "PlainBody": "quam",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 245,
-  "Attachments": [
-    {
-      "Description": "Switchable composite initiative",
-      "Filename": "cupiditate",
-      "Size": 451,
-      "Type": "nihil",
-      "Encoding": "aut",
-      "Id": "praesentium",
-      "Disposition": "error",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Jacobi LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 99
+        }
+      }
+    }
+  ],
+  "Subject": "nesciunt",
+  "HTMLBody": "placeat",
+  "From": null,
+  "Sent": "1998-09-23T10:17:55.5977887+02:00",
+  "Size": 252,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ab",
+  "PlainBody": "qui",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 713,
+  "Attachments": [
+    {
+      "Description": "Configurable client-server Graphical User Interface",
+      "Filename": "rem",
+      "Size": 574,
+      "Type": "odit",
+      "Encoding": "aliquid",
+      "Id": "aut",
+      "Disposition": "earum",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stroman, Rogahn and Lebsack",
+      "Name": "Beahan, Howell and Dickens",
       "Values": [
-        "error",
-        "sed"
+        "corrupti",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 9
         }
       }
     },
     {
-      "Name": "Stroman, Rogahn and Lebsack",
+      "Name": "Beahan, Howell and Dickens",
       "Values": [
-        "error",
-        "sed"
+        "corrupti",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldType": "System.Int32",
+          "FieldLength": 9
         }
       }
     }
   ],
-  "FolderName": "Krajcik, Lemke and Okuneva",
-  "EmailItemId": 711,
-  "AccountId": 583,
-  "ReceivedAt": "2013-03-28T14:45:05.5532468+01:00",
+  "FolderName": "Wisozk-Cummings",
+  "EmailItemId": 193,
+  "AccountId": 241,
+  "ReceivedAt": "1998-10-23T10:17:55.5977887+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-08-27T14:45:05.5532468+02:00",
+  "RepliedAt": "2008-07-27T10:17:55.5977887+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 672
     }
   }
 }

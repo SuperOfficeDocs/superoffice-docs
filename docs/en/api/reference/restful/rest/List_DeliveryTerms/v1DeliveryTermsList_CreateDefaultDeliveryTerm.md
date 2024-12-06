@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Labadie, Abbott and Rogahn",
-  "Tooltip": "occaecati",
-  "Deleted": false,
-  "UdListDefinitionId": 37,
-  "Rank": 572,
+  "Id": 95,
+  "Name": "Wuckert-Mayert",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 628,
+  "Rank": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

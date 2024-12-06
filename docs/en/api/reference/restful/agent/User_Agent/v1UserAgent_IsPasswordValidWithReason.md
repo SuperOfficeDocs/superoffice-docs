@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 650,
+  "AssociateId": 350,
   "Type": "AnonymousAssociate",
-  "PersonId": 342,
-  "Password": "aliquid"
+  "PersonId": 229,
+  "Password": "et"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
+  "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 918
     }
   }
 }

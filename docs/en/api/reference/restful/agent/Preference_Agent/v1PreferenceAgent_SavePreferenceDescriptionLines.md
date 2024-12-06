@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 274,
-      "PrefDescId": 462,
-      "PrefValue": "magnam",
-      "PrefShowValue": "aut",
-      "Description": "User-centric client-server pricing structure",
-      "IsBuiltin": true
+      "PrefDescLineId": 245,
+      "PrefDescId": 15,
+      "PrefValue": "dolores",
+      "PrefShowValue": "quia",
+      "Description": "Public-key responsive flexibility",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 274,
-      "PrefDescId": 462,
-      "PrefValue": "magnam",
-      "PrefShowValue": "aut",
-      "Description": "User-centric client-server pricing structure",
-      "IsBuiltin": true
+      "PrefDescLineId": 245,
+      "PrefDescId": 15,
+      "PrefValue": "dolores",
+      "PrefShowValue": "quia",
+      "Description": "Public-key responsive flexibility",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 382,
-    "PrefDescId": 415,
-    "PrefValue": "quidem",
-    "PrefShowValue": "unde",
-    "Description": "Multi-channelled responsive customer loyalty",
+    "PrefDescLineId": 827,
+    "PrefDescId": 43,
+    "PrefValue": "temporibus",
+    "PrefShowValue": "veniam",
+    "Description": "Mandatory even-keeled strategy",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldLength": 101
       }
     }
   }

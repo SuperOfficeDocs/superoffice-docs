@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 487,
-    "Name": "Dach-Mills",
-    "Description": "Stand-alone asynchronous neural-net",
-    "WelcomeMessage": "voluptatibus",
+    "ChatTopicId": 688,
+    "Name": "Goodwin-Wiegand",
+    "Description": "De-engineered well-modulated workforce",
+    "WelcomeMessage": "velit",
     "Language": null,
-    "LastAccept": "2008-12-05T14:45:12.5994936+01:00",
-    "SecondsPrAccept": 11,
-    "AlertRecipient": "harum",
+    "LastAccept": "2014-01-30T10:18:00.2699456+01:00",
+    "SecondsPrAccept": 20,
+    "AlertRecipient": "ut",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "saepe",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "ipsum",
-    "WarnNewChatMinutes": 886,
-    "WarnManagerNewChatMinutes": 382,
+    "BadgeHeader": "quia",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "consectetur",
+    "WarnNewChatMinutes": 17,
+    "WarnManagerNewChatMinutes": 242,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 201,
-    "WarnManagerChatMessageMinutes": 934,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 322,
-    "OfflineFormQueueLength": 282,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 90,
+    "WarnManagerChatMessageMinutes": 88,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 70,
+    "OfflineFormQueueLength": 86,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "voluptas",
+    "WidgetRatingText": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 210
       }
     }
   }

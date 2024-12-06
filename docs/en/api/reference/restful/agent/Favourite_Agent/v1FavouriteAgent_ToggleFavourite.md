@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Davis-Wiegand",
-  "RecordId": 494,
-  "AssociateId": 804,
-  "ExtraInfo": "voluptatibus"
+  "TableName": "McLaughlin, Ward and Cormier",
+  "RecordId": 439,
+  "AssociateId": 800,
+  "ExtraInfo": "nulla"
 }
 ```
 

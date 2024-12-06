@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 678,
-  "Name": "Conroy LLC",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 521,
+  "WebPanelId": 87,
+  "Name": "Purdy Inc and Sons",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 795,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Kilback-Crooks",
+  "ShowInStatusBar": false,
+  "WindowName": "Hilll, Collins and Shanahan",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 509,
+  "ProgId": "amet",
+  "Icon": 873,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 636,
-  "Name": "Abbott LLC",
-  "Tooltip": "quis",
+  "WebPanelId": 99,
+  "Name": "Pagac, Pfannerstill and Kassulke",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 719,
+  "Rank": 738,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Stanton-Sauer",
+  "WindowName": "Wintheiser-Lubowitz",
   "Url": "http://www.example.com/",
-  "ProgId": "eveniet",
-  "Icon": 111,
+  "ProgId": "magnam",
+  "Icon": 181,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   }
 }

@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Stanton-Wilkinson",
-  "AssociateId": 160,
-  "DetailsTable": 847,
-  "DetailsRecord": 782,
+  "Id": 529,
+  "Name": "Kirlin, Bechtelar and Runte",
+  "AssociateId": 84,
+  "DetailsTable": 542,
+  "DetailsRecord": 976,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "eveniet"
+    "ParameterObject1": "labore",
+    "ParameterObject2": "voluptatibus"
   },
-  "LastStarted": "2016-05-25T14:45:13.3961895+02:00",
-  "Created": "2004-05-14T14:45:13.3961895+02:00",
-  "StartCount": 778,
-  "DatabaseSerialNumber": "1039981",
-  "Context": "corrupti",
-  "Result": "natus",
+  "LastStarted": "2007-08-28T10:18:00.8168545+02:00",
+  "Created": "2016-11-03T10:18:00.8168545+01:00",
+  "StartCount": 416,
+  "DatabaseSerialNumber": "810553",
+  "Context": "accusamus",
+  "Result": "explicabo",
   "State": "All",
-  "Description": "Implemented 4th generation algorithm",
-  "Response": "amet",
-  "Request": "maxime",
-  "ProgressDescription": "Advanced transitional standardization",
-  "ProgressPercent": 474,
-  "FileName": "McLaughlin Group",
+  "Description": "Total high-level contingency",
+  "Response": "non",
+  "Request": "nostrum",
+  "ProgressDescription": "Intuitive encompassing Graphic Interface",
+  "ProgressPercent": 633,
+  "FileName": "Watsica LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-128
+545
 ```

@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 288,
-  "Name": "Zulauf Group",
-  "Tooltip": "adipisci",
-  "SaveInDb": 874,
-  "Filename": "aliquid",
-  "DefaultOref": "laudantium",
+  "DocumentTemplateId": 806,
+  "Name": "Schmitt LLC",
+  "Tooltip": "consequatur",
+  "SaveInDb": 584,
+  "Filename": "aut",
+  "DefaultOref": "ipsum",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 229,
-  "IntentId": 135,
-  "IsDefaultPublished": false,
-  "Rank": 811,
-  "LoadTemplateFromPlugin": 871,
-  "MimeType": "atque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 872,
+  "AutoeventId": 652,
+  "IntentId": 25,
+  "IsDefaultPublished": true,
+  "Rank": 283,
+  "LoadTemplateFromPlugin": 94,
+  "MimeType": "incidunt",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 831,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rex_rolfson@hudson.co.uk",
+  "EmailSubject": "johnnie_heller@hirthekuhic.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lou.maggio@heathcotebayer.biz",
+  "SenderEmailAddress": "javonte@tremblayhodkiewicz.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 780,
-  "Name": "Maggio LLC",
-  "Tooltip": "voluptate",
-  "SaveInDb": 216,
-  "Filename": "sunt",
-  "DefaultOref": "eveniet",
+  "DocumentTemplateId": 464,
+  "Name": "Yundt, Dach and Feil",
+  "Tooltip": "excepturi",
+  "SaveInDb": 159,
+  "Filename": "voluptatem",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 689,
-  "IntentId": 583,
+  "AutoeventId": 791,
+  "IntentId": 657,
   "IsDefaultPublished": false,
-  "Rank": 667,
-  "LoadTemplateFromPlugin": 6,
-  "MimeType": "aut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 129,
+  "Rank": 502,
+  "LoadTemplateFromPlugin": 843,
+  "MimeType": "consequatur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 198,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kari@jewess.com",
+  "EmailSubject": "benedict@buckridge.name",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dario_stiedemann@langoshrunte.co.uk",
+  "SenderEmailAddress": "velma_kuhic@zulauf.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 214
     }
   }
 }

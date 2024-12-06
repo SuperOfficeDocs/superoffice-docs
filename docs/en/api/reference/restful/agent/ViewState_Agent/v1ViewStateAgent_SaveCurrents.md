@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 221,
-      "Id": 695,
-      "HistoryName": "Hermann-Hintz",
-      "HistoryId": 430,
-      "AssociateId": 541,
-      "Name": "Boyer Inc and Sons",
-      "ItemInfo": "quibusdam"
+      "Rank": 137,
+      "Id": 688,
+      "HistoryName": "Mitchell Group",
+      "HistoryId": 241,
+      "AssociateId": 145,
+      "Name": "Harber-Okuneva",
+      "ItemInfo": "reprehenderit"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 124,
-    "Id": 106,
-    "HistoryName": "Considine, Nolan and Feest",
-    "HistoryId": 797,
-    "AssociateId": 320,
-    "Name": "Johnston, Witting and Kunze",
-    "ItemInfo": "ex",
+    "Rank": 743,
+    "Id": 608,
+    "HistoryName": "Goodwin, Senger and Casper",
+    "HistoryId": 340,
+    "AssociateId": 68,
+    "Name": "Stroman Inc and Sons",
+    "ItemInfo": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

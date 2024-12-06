@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "voluptates"
+  "QuoteListType": "nulla"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "iure",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Cross-platform client-driven function",
+    "ERPQuoteListItemKey": "pariatur",
+    "DisplayValue": "voluptatem",
+    "DisplayDescription": "Synchronised needs-based firmware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 105
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "iure",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Cross-platform client-driven function",
+    "ERPQuoteListItemKey": "pariatur",
+    "DisplayValue": "voluptatem",
+    "DisplayDescription": "Synchronised needs-based firmware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 664
+        "FieldLength": 105
       }
     }
   }

@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 932,
-  "Name": "Haag-Emard",
-  "Description": "Re-contextualized intermediate database",
-  "DeltaJson": "suscipit",
+  "ConfigurableScreenDeltaId": 689,
+  "Name": "Hermann Inc and Sons",
+  "Description": "Seamless multi-tasking projection",
+  "DeltaJson": "laudantium",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2022-01-03T14:45:05.0221142+01:00",
-  "CreatedDate": "2013-01-21T14:45:05.0221142+01:00",
+  "RecipeId": "aliquid",
+  "UpdatedDate": "2013-08-11T10:17:55.2227659+02:00",
+  "CreatedDate": "2020-02-05T10:17:55.2227659+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    233,
-    397
+    834,
+    447
   ],
-  "AppliesToKey": "odio"
+  "AppliesToKey": "quibusdam"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 752,
-  "Name": "Ruecker, Veum and Reichert",
-  "Description": "Integrated mobile leverage",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 209,
+  "Name": "Jacobson-Schneider",
+  "Description": "Secured didactic instruction set",
+  "DeltaJson": "autem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "neque",
-  "UpdatedDate": "2014-01-30T14:45:05.0221142+01:00",
-  "CreatedDate": "1998-06-26T14:45:05.0221142+02:00",
+  "RecipeId": "sapiente",
+  "UpdatedDate": "2014-02-22T10:17:55.2227659+01:00",
+  "CreatedDate": "2016-04-09T10:17:55.2227659+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    960,
-    91
+    790,
+    748
   ],
-  "AppliesToKey": "aspernatur",
+  "AppliesToKey": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 950
+      "FieldLength": 629
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Ernser, Lueilwitz and Kozey",
-  "StorageKey": "ut",
-  "Restrictions": "vero",
-  "Context": "placeat"
+  "StorageType": "et",
+  "ProviderName": "Fisher-Berge",
+  "StorageKey": "laboriosam",
+  "Restrictions": "nostrum",
+  "Context": "sunt"
 }
 ```
 

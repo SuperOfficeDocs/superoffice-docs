@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 462,
-    "Name": "Rohan, Turcotte and Larkin",
-    "Description": "Cross-group didactic methodology",
-    "DeltaJson": "minima",
+    "ConfigurableScreenDeltaId": 466,
+    "Name": "Hartmann-Oberbrunner",
+    "Description": "Streamlined contextually-based artificial intelligence",
+    "DeltaJson": "quis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "aut",
-    "UpdatedDate": "2008-01-28T14:45:05.0221142+01:00",
-    "CreatedDate": "1998-03-14T14:45:05.0221142+01:00",
+    "RecipeId": "itaque",
+    "UpdatedDate": "2021-07-15T10:17:55.2227659+02:00",
+    "CreatedDate": "2018-12-14T10:17:55.2227659+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      736,
-      289
+      502,
+      996
     ],
-    "AppliesToKey": "dolor",
+    "AppliesToKey": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

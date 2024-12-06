@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 304,
-    "Name": "Haley Inc and Sons",
-    "Tooltip": "delectus",
+    "HeadingId": 598,
+    "Name": "Metz-Padberg",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 237,
-    "UdListDefinitionId": 775
+    "Rank": 576,
+    "UdListDefinitionId": 42
   },
   {
-    "HeadingId": 304,
-    "Name": "Haley Inc and Sons",
-    "Tooltip": "delectus",
+    "HeadingId": 598,
+    "Name": "Metz-Padberg",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 237,
-    "UdListDefinitionId": 775
+    "Rank": 576,
+    "UdListDefinitionId": 42
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 776,
-    "Name": "Prosacco Inc and Sons",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 2,
-    "UdListDefinitionId": 773,
+    "HeadingId": 434,
+    "Name": "Ziemann, Gutmann and Gerhold",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "Rank": 688,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 285
+        "FieldType": "System.Int32",
+        "FieldLength": 345
       }
     }
   }

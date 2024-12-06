@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 824
+  "ProjectId": 626
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 305,
-  "StartDate": "2018-06-20T14:45:06.0062702+02:00",
-  "EndDate": "2001-09-26T14:45:06.0062702+02:00",
+  "AppointmentId": 358,
+  "StartDate": "2012-01-12T10:17:55.8946817+01:00",
+  "EndDate": "1997-12-30T10:17:55.8946817+01:00",
   "Type": "BookingForChecklist",
-  "Task": "ipsum",
-  "AssociateFullName": "Mrs. Autumn Jamey Murphy DVM",
-  "ContactName": "Heidenreich-Graham",
-  "Description": "Customer-focused multimedia system engine",
-  "PersonFullName": "Yesenia Wiza",
-  "PersonId": 272,
-  "ContactId": 422,
-  "ProjectId": 55,
-  "ProjectName": "Volkman, Graham and Dicki",
-  "IsPublished": false,
-  "AssociateId": 771,
-  "ColorIndex": 46,
+  "Task": "assumenda",
+  "AssociateFullName": "Karlie Manuela Douglas III",
+  "ContactName": "Reilly LLC",
+  "Description": "Enterprise-wide human-resource projection",
+  "PersonFullName": "Prof. Walton Ferry IV",
+  "PersonId": 866,
+  "ContactId": 845,
+  "ProjectId": 801,
+  "ProjectName": "Emard-Schamberger",
+  "IsPublished": true,
+  "AssociateId": 585,
+  "ColorIndex": 694,
   "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 379,
-  "PriorityName": "Goodwin, Hettinger and Flatley",
+  "PriorityId": 955,
+  "PriorityName": "King, D'Amore and Zulauf",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2020-09-26T14:45:06.0062702+02:00",
+  "IsRecurrence": true,
+  "IsBooking": false,
+  "ActiveDate": "2021-03-07T10:17:55.8946817+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2006-02-04T14:45:06.0062702+01:00",
-  "RecurringEndDate": "2008-01-05T14:45:06.0062702+01:00",
-  "MotherId": 95,
-  "AssignedBy": 364,
-  "AssignedByFullName": "Prof. Malcolm Upton II",
+  "RecurringStartDate": "2018-11-18T10:17:55.8946817+01:00",
+  "RecurringEndDate": "1999-07-22T10:17:55.8946817+02:00",
+  "MotherId": 760,
+  "AssignedBy": 496,
+  "AssignedByFullName": "Brionna Rasheed Casper IV",
   "RejectReason": "",
-  "Location": "libero",
-  "AlarmLeadTime": "eos",
-  "SaleId": 61,
-  "SaleName": "Walsh-Cole",
-  "AssociateName": "Haag Inc and Sons",
-  "CreatedDate": "2014-09-19T14:45:06.0062702+02:00",
-  "CreatedBy": "voluptatem",
-  "CreatedByFullName": "Cameron Halvorson",
-  "CreatedByAssociateId": 337,
+  "Location": "iusto",
+  "AlarmLeadTime": "reiciendis",
+  "SaleId": 9,
+  "SaleName": "Wyman-Bergstrom",
+  "AssociateName": "Moore-Rolfson",
+  "CreatedDate": "2013-03-07T10:17:55.8946817+01:00",
+  "CreatedBy": "sit",
+  "CreatedByFullName": "Mr. Dario Sylvia Little Sr.",
+  "CreatedByAssociateId": 352,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 266,
-  "Title": "architecto",
-  "Agenda": "quas",
-  "InternalNotes": "a",
+  "PreferredTZLocation": 294,
+  "Title": "voluptatem",
+  "Agenda": "nisi",
+  "InternalNotes": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

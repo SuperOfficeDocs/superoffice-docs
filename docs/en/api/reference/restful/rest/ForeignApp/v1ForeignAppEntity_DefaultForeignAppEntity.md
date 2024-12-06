@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 31 Dec 2017 14:45:12 G12T
+Last-Modified: Thu, 18 Sep 2008 10:18:00 G9T
 
 {
-  "ForeignAppId": 327,
-  "Name": "Herman, Eichmann and Cruickshank",
-  "CreatedDate": "2014-10-08T14:45:12.8181931+02:00",
-  "UpdatedDate": "2017-12-31T14:45:12.8181931+01:00",
+  "ForeignAppId": 712,
+  "Name": "Schulist, Marvin and Kessler",
+  "CreatedDate": "2008-04-23T10:18:00.4105739+02:00",
+  "UpdatedDate": "2008-09-18T10:18:00.4105739+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 320,
-      "Name": "Goyette LLC",
-      "CreatedDate": "2018-02-28T14:45:12.8181931+01:00",
-      "UpdatedDate": "2013-01-13T14:45:12.8181931+01:00",
-      "AssociateFullName": "Aliya Hickle",
-      "CreatedBy": "nemo",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "voluptatibus",
-      "ForeignAppId": 589,
+      "ForeignDeviceId": 257,
+      "Name": "Brakus Group",
+      "CreatedDate": "1998-04-09T10:18:00.4105739+02:00",
+      "UpdatedDate": "2017-11-06T10:18:00.4105739+01:00",
+      "AssociateFullName": "Felicita Ratke DVM",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "ad",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 697,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Sun, 31 Dec 2017 14:45:12 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 789
     }
   }
 }

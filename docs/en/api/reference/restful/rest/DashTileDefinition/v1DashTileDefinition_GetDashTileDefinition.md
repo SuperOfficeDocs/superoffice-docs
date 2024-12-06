@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 904,
-  "Name": "Keeling-Breitenberg",
-  "Description": "Versatile exuding knowledge user",
-  "DefaultHeight": 780,
-  "DefaultWidth": 450,
+  "DashboardTileDefinitionId": 626,
+  "Name": "Dibbert LLC",
+  "Description": "Fundamental object-oriented definition",
+  "DefaultHeight": 915,
+  "DefaultWidth": 663,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rath Inc and Sons",
-  "SelectionId": 844,
+  "EntityName": "Ledner, Rau and Effertz",
+  "SelectionId": 719,
   "CurrencyMode": "Base",
-  "CurrencyCode": "maxime",
+  "CurrencyCode": "autem",
   "Measure": "Average",
-  "MeasureField": "eveniet",
-  "SortBy": "quae",
-  "LayoutConfig": "deserunt",
-  "SecondarySelectionId": 269,
-  "MeasureByField": "omnis",
+  "MeasureField": "praesentium",
+  "SortBy": "voluptas",
+  "LayoutConfig": "nam",
+  "SecondarySelectionId": 388,
+  "MeasureByField": "facere",
   "Usage": "Dashboard",
-  "ProviderName": "Heller-Mraz",
+  "ProviderName": "Thompson, Tromp and Kemmer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

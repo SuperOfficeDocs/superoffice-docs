@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Pollich, Simonis and Stroman",
-    "ToolTip": "Ea beatae facilis voluptas.",
-    "Deleted": false,
-    "Rank": 861,
-    "Type": "sed",
-    "ColorBlock": 654,
-    "IconHint": "veniam",
+    "Id": 234,
+    "Name": "Herman-Weissnat",
+    "ToolTip": "Eveniet tempore.",
+    "Deleted": true,
+    "Rank": 668,
+    "Type": "assumenda",
+    "ColorBlock": 882,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2003-01-19T14:45:13.6773768+01:00",
+    "LastChanged": "2007-05-16T10:18:01.0043667+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "West, Grady and Boyle",
-        "ToolTip": "Vel odit explicabo qui ut expedita labore a.",
-        "Deleted": true,
-        "Rank": 179,
-        "Type": "suscipit",
-        "ColorBlock": 509,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2015-10-07T14:45:13.6773768+02:00",
+        "Id": 294,
+        "Name": "Ullrich Inc and Sons",
+        "ToolTip": "Officia quos.",
+        "Deleted": false,
+        "Rank": 421,
+        "Type": "explicabo",
+        "ColorBlock": 214,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2018-05-30T10:18:01.0043667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Sydnie Sauer"
+        "ExtraInfo": "ullam",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Felicita Ankunding Sr."
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "et",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Dr. Gilbert Anderson"
+    "FullName": "Miss Mabel Kilback II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Parisian-Marks",
-    "ToolTip": "Quidem deleniti et accusantium suscipit asperiores.",
-    "Deleted": false,
-    "Rank": 900,
-    "Type": "enim",
-    "ColorBlock": 795,
-    "IconHint": "qui",
+    "Id": 310,
+    "Name": "Hilll LLC",
+    "ToolTip": "Eum qui non.",
+    "Deleted": true,
+    "Rank": 392,
+    "Type": "atque",
+    "ColorBlock": 703,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2024-09-26T14:45:13.6773768+02:00",
+    "LastChanged": "2012-08-05T10:18:01.0043667+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Maggio Group",
-        "ToolTip": "Consequuntur autem rerum fugiat error adipisci nemo id.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "est",
-        "ColorBlock": 936,
+        "Id": 964,
+        "Name": "Lueilwitz, Franecki and Kris",
+        "ToolTip": "Sed sed porro consequatur ea.",
+        "Deleted": false,
+        "Rank": 547,
+        "Type": "doloribus",
+        "ColorBlock": 383,
         "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2007-08-26T14:45:13.6773768+02:00",
+        "LastChanged": "2019-01-26T10:18:01.0043667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "hic",
+        "ExtraInfo": "natus",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Mr. Sterling Russel III",
+        "FullName": "Prof. Henri Jacobs II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "rem",
+    "ExtraInfo": "possimus",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Prof. Santina Everett Terry II",
+    "FullName": "Mr. Jakob Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 761
       }
     }
   }

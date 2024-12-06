@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Kerluke LLC",
-    "Tooltip": "qui",
+    "HeadingId": 748,
+    "Name": "Streich, Lind and Boyer",
+    "Tooltip": "nostrum",
     "Deleted": true,
-    "Rank": 632,
-    "UdListDefinitionId": 199,
+    "Rank": 863,
+    "UdListDefinitionId": 854,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 333
       }
     }
   }

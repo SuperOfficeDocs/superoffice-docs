@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 710,
-      "ContactId": 484
+      "PersonId": 386,
+      "ContactId": 406
     },
     {
-      "PersonId": 710,
-      "ContactId": 484
+      "PersonId": 386,
+      "ContactId": 406
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line systematic complexity",
-  "Postit": "nesciunt",
+  "Description": "Fundamental multimedia product",
+  "Postit": "quasi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 553,
-  "IncludePerson": 670,
+  "GroupIdx": 381,
+  "IncludePerson": 976,
   "MemberCount": 99.99,
-  "Name": "Langosh Group",
-  "PostitTextId": 762,
-  "CreatedDate": "2019-06-25T14:45:06.2249724+02:00",
-  "SelectionId": 900,
-  "SoundEx": "numquam",
-  "Source": 412,
-  "TextId": 515,
-  "UpdatedDate": "2024-05-21T14:45:06.2249724+02:00",
-  "UpdatedCount": 12,
-  "Visibility": 734,
+  "Name": "Reichel-Corwin",
+  "PostitTextId": 870,
+  "CreatedDate": "2024-04-22T10:17:56.0353154+02:00",
+  "SelectionId": 55,
+  "SoundEx": "sint",
+  "Source": 475,
+  "TextId": 1000,
+  "UpdatedDate": "2004-01-03T10:17:56.0353154+01:00",
+  "UpdatedCount": 918,
+  "Visibility": 560,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 819,
-  "TargetTableName": "Tillman Group",
-  "Completed": true,
-  "LeftSelectionId": 704,
-  "RightSelectionId": 975,
+  "TargetTableNumber": 189,
+  "TargetTableName": "Heathcote LLC",
+  "Completed": false,
+  "LeftSelectionId": 792,
+  "RightSelectionId": 240,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zboncak-Wisozk",
-  "ShadowProviderName": "Buckridge, Littel and Waelchi",
+  "MainProviderName": "Lakin-Kovacek",
+  "ShadowProviderName": "Cole-Eichmann",
   "ChartKey": "beatae",
-  "LastLoaded": "2006-07-01T14:45:06.2249724+02:00",
-  "LastLoadedBy": 204,
+  "LastLoaded": "2001-12-02T10:17:56.0353154+01:00",
+  "LastLoadedBy": 632,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-05-29T14:45:06.2249724+02:00",
-  "LastMembershipChangeBy": 916,
+  "LastMembershipChange": "2005-06-08T10:17:56.0353154+02:00",
+  "LastMembershipChangeBy": 290,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magnam",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Haag Inc and Sons",
-  "DashboardTileDefinitionId": 641,
+  "MainHeading": "aliquid",
+  "MemberTabHeading": "non",
+  "MailingsProviderName": "Effertz LLC",
+  "DashboardTileDefinitionId": 945,
   "VisibleFor": [
     {
-      "VisibleId": 137,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 868
         }
       }
     },
     {
-      "VisibleId": 137,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 868
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldLength": 886
     }
   }
 }

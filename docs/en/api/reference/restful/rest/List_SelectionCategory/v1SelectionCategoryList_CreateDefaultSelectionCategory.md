@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Miller-Turcotte",
-  "Tooltip": "asperiores",
+  "Id": 480,
+  "Name": "Upton, Harris and Kuhic",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 335,
-  "Rank": 60,
+  "UdListDefinitionId": 718,
+  "Rank": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 392
     }
   }
 }

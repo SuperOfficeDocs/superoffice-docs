@@ -115,7 +115,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 569
+  "QuoteVersionId": 83
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 633,
-  "ERPQuoteVersionKey": "earum",
-  "QuoteId": 861,
-  "Description": "Horizontal object-oriented database",
-  "Number": "1709002",
+  "QuoteVersionId": 675,
+  "ERPQuoteVersionKey": "quod",
+  "QuoteId": 972,
+  "Description": "Advanced uniform methodology",
+  "Number": "1418839",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 129,
-  "SentDate": "2013-08-20T14:45:06.0375135+02:00",
-  "FollowupId": 844,
-  "ExpirationDate": "2019-06-19T14:45:06.0375135+02:00",
-  "DeliveryCountryId": 530,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 551,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "quisquam",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "facilis",
-  "ERPDeliveryTypeKey": "quia",
-  "Rank": 575,
-  "ApprovedBy": 906,
-  "ApprovedText": "ut",
-  "ApprovedRegisteredBy": 503,
-  "ApprovedRegisteredDate": "2015-12-30T14:45:06.0375135+01:00",
-  "ExtraField1": "autem",
-  "ExtraField2": "dolorem",
-  "ExtraField3": "quos",
-  "ExtraField4": "explicabo",
-  "ExtraField5": "dignissimos",
-  "LastRecalculated": "2003-06-18T14:45:06.0375135+02:00",
-  "Updated": "2013-09-07T14:45:06.0375135+02:00",
-  "UpdatedAssociateId": 873,
-  "Registered": "2012-06-24T14:45:06.0375135+02:00",
-  "RegisteredAssociateId": 845,
-  "RequestAssociateId": 540,
-  "RequestComment": "delectus",
+  "LikelyQuoteAlternativeId": 136,
+  "SentDate": "2009-10-01T10:17:55.9259336+02:00",
+  "FollowupId": 122,
+  "ExpirationDate": "2003-08-10T10:17:55.9259336+02:00",
+  "DeliveryCountryId": 307,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 974,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "architecto",
+  "ERPPaymentTypeKey": "perspiciatis",
+  "ERPDeliveryTermsKey": "recusandae",
+  "ERPDeliveryTypeKey": "nihil",
+  "Rank": 566,
+  "ApprovedBy": 251,
+  "ApprovedText": "consequatur",
+  "ApprovedRegisteredBy": 609,
+  "ApprovedRegisteredDate": "2023-02-05T10:17:55.9259336+01:00",
+  "ExtraField1": "et",
+  "ExtraField2": "et",
+  "ExtraField3": "ea",
+  "ExtraField4": "ea",
+  "ExtraField5": "sit",
+  "LastRecalculated": "2009-11-22T10:17:55.9259336+01:00",
+  "Updated": "2008-01-28T10:17:55.9259336+01:00",
+  "UpdatedAssociateId": 55,
+  "Registered": "2019-08-15T10:17:55.9259336+02:00",
+  "RegisteredAssociateId": 760,
+  "RequestAssociateId": 468,
+  "RequestComment": "voluptatem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 838,
-      "ERPQuoteAlternativeKey": "excepturi",
-      "QuoteVersionId": 756,
-      "Name": "Champlin, Rath and Bosco",
-      "Description": "Front-line didactic interface",
+      "QuoteAlternativeId": 806,
+      "ERPQuoteAlternativeKey": "totam",
+      "QuoteVersionId": 608,
+      "Name": "Deckow, Nicolas and Emard",
+      "Description": "Sharable heuristic implementation",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 3691.852,
-      "ERPDiscountAmount": 25795.953999999998,
-      "DiscountPercent": 8878.622,
-      "DiscountAmount": 6756.9039999999995,
+      "ERPDiscountPercent": 1313.146,
+      "ERPDiscountAmount": 26294.26,
+      "DiscountPercent": 19459.005999999998,
+      "DiscountAmount": 507.70799999999997,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "accusantium",
-      "VAT": 817.97399999999993,
-      "EarningPercent": 30810.354,
-      "EarningAmount": 20762.75,
-      "SubTotal": 30738.271999999997,
-      "TotalPrice": 26024.736,
-      "ExtraField1": "quas",
-      "ExtraField2": "vero",
-      "ExtraField3": "dolore",
-      "ExtraField4": "consequatur",
-      "ExtraField5": "autem",
+      "VATInfo": "quam",
+      "VAT": 19600.036,
+      "EarningPercent": 26275.456,
+      "EarningAmount": 19317.976,
+      "SubTotal": 11827.716,
+      "TotalPrice": 13432.323999999999,
+      "ExtraField1": "qui",
+      "ExtraField2": "ut",
+      "ExtraField3": "corporis",
+      "ExtraField4": "sit",
+      "ExtraField5": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 507
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 56
     }
   }
 }

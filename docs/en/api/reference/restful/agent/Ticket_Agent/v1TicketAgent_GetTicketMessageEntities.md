@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 936,
+  "TicketId": 492,
   "MessageIds": [
-    853,
-    825
+    28,
+    606
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 434,
+    "EjMessageId": 239,
     "Ticket": null,
-    "CreatedAt": "2018-12-04T14:45:06.5530238+01:00",
+    "CreatedAt": "2006-10-04T10:17:56.2697028+02:00",
     "CreatedBy": null,
-    "Author": "a",
+    "Author": "saepe",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "rerum",
-    "TimeSpent": 964,
-    "Body": "corrupti",
-    "HtmlBody": "ipsum",
-    "EmailHeader": "stevie_larkin@hermann.biz",
-    "DebugInfo": "quod",
-    "MailSorter": "et",
+    "MessageId": "autem",
+    "TimeSpent": 105,
+    "Body": "ducimus",
+    "HtmlBody": "rerum",
+    "EmailHeader": "lempi@adams.biz",
+    "DebugInfo": "blanditiis",
+    "MailSorter": "tempore",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "voluptas",
+    "SearchTitle": "autem",
     "MessageHeaders": [
       {
-        "Id": 111,
-        "Name": "Feeney, Schmeler and Lemke",
-        "Value": "rem",
+        "Id": 563,
+        "Name": "Swift, Willms and Rice",
+        "Value": "ullam",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 179
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "ut",
-    "Sentiment": 765,
-    "SentimentConfidence": 947,
+    "Important": false,
+    "Language": "dolore",
+    "Sentiment": 562,
+    "SentimentConfidence": 815,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 279,
-        "Name": "Rice-Kovacek",
-        "ContentType": "sunt",
-        "AttSize": 547,
+        "AttachmentId": 863,
+        "Name": "Kirlin, Hahn and Torphy",
+        "ContentType": "autem",
+        "AttSize": 506,
         "InlineImage": false,
-        "ContentId": "nisi",
-        "AuthKey": "hic",
-        "IsSafeFileExtension": false,
+        "ContentId": "et",
+        "AuthKey": "ea",
+        "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 43
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "officia",
-      "ExtraFields2": "ducimus"
+      "ExtraFields1": "iste",
+      "ExtraFields2": "molestias"
     },
     "CustomFields": {
-      "CustomFields1": "beatae",
-      "CustomFields2": "nemo"
+      "CustomFields1": "corrupti",
+      "CustomFields2": "asperiores"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 56
       }
     }
   }

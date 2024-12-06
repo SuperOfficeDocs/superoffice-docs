@@ -726,7 +726,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=contact/deletedDate,contact/contactUdef/SuperOffice:2,person/personUpdatedDate,project/type,sale/completed
+GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=person/hasInterests,person/personUrl/URLAddress,person/correspondingAssociate/isActiveText,person/legalBaseEmarketing,project/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

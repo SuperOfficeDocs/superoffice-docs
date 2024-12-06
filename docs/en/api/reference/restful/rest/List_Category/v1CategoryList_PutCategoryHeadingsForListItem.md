@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Jewess-Mueller",
-    "ToolTip": "Quo voluptatum qui ratione aut ratione voluptate sit.",
-    "Deleted": true,
-    "Rank": 676,
-    "Type": "error",
-    "ColorBlock": 624,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2002-05-25T14:45:13.5992714+02:00",
+    "Id": 880,
+    "Name": "Herman-Kuhn",
+    "ToolTip": "Fugit tempora animi iusto quaerat.",
+    "Deleted": false,
+    "Rank": 363,
+    "Type": "ea",
+    "ColorBlock": 354,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2005-03-20T10:18:00.9418629+01:00",
     "ChildItems": [
       {
-        "Id": 85,
-        "Name": "Ankunding, Hackett and Hessel",
-        "ToolTip": "Illo vel quia porro vel aut illo.",
+        "Id": 338,
+        "Name": "Anderson Group",
+        "ToolTip": "Officia deserunt eaque laborum.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "incidunt",
-        "ColorBlock": 832,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2007-10-24T14:45:13.5992714+02:00",
+        "Rank": 311,
+        "Type": "in",
+        "ColorBlock": 788,
+        "IconHint": "commodi",
+        "Selected": true,
+        "LastChanged": "2022-12-01T10:18:00.9418629+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "eos",
+        "ExtraInfo": "ad",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Sedrick Johnston"
+        "FullName": "Jerrell Grady"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Hudson Little"
+    "FullName": "Heath Moen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Dooley Group",
-    "ToolTip": "Illo sunt quia dolorum unde qui iste est.",
-    "Deleted": false,
-    "Rank": 1000,
-    "Type": "doloremque",
-    "ColorBlock": 159,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2002-04-26T14:45:13.5992714+02:00",
+    "Id": 619,
+    "Name": "Vandervort-Harvey",
+    "ToolTip": "Assumenda sit inventore sed et aut id.",
+    "Deleted": true,
+    "Rank": 880,
+    "Type": "sunt",
+    "ColorBlock": 403,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2001-08-11T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Beatty-Rohan",
-        "ToolTip": "Et fugit sit vitae quia.",
+        "Id": 938,
+        "Name": "Rodriguez, Hoeger and Legros",
+        "ToolTip": "Aut dignissimos ipsum vel libero impedit.",
         "Deleted": false,
-        "Rank": 39,
-        "Type": "eaque",
-        "ColorBlock": 667,
-        "IconHint": "eum",
+        "Rank": 812,
+        "Type": "sed",
+        "ColorBlock": 531,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2009-09-20T14:45:13.5992714+02:00",
+        "LastChanged": "2022-06-26T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "quos",
+        "ExtraInfo": "quos",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Alison Wisoky",
+        "FullName": "Clemens Pollich II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Dr. Fredy Junius Kunze MD",
+    "ExtraInfo": "architecto",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Sebastian Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

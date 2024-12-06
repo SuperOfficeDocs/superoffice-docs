@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "repellat",
-  "AssociateId": 53,
-  "MarkdownMessage": "voluptas",
-  "Expire": "2001-07-03T14:45:05.225194+02:00",
+  "SystemMessageId": "eligendi",
+  "AssociateId": 127,
+  "MarkdownMessage": "et",
+  "Expire": "2018-07-30T10:17:55.3477735+02:00",
   "Type": "Error"
 }
 ```

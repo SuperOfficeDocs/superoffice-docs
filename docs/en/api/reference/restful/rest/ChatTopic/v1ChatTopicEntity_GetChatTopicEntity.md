@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 970,
-  "Name": "Windler LLC",
-  "Description": "Universal dynamic parallelism",
-  "WelcomeMessage": "delectus",
+  "ChatTopicId": 151,
+  "Name": "Torphy LLC",
+  "Description": "Stand-alone eco-centric frame",
+  "WelcomeMessage": "suscipit",
   "Language": null,
-  "LastAccept": "2005-08-28T14:45:12.5838708+02:00",
-  "SecondsPrAccept": 675,
-  "AlertRecipient": "velit",
+  "LastAccept": "2015-05-31T10:18:00.2543195+02:00",
+  "SecondsPrAccept": 904,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "nihil",
+  "CollectConsent": false,
+  "BadgeHeader": "sit",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 389,
-  "WarnManagerNewChatMinutes": 996,
-  "TicketEnabled": true,
+  "CustomQueueText": "vero",
+  "WarnNewChatMinutes": 941,
+  "WarnManagerNewChatMinutes": 865,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 869,
-  "WarnManagerChatMessageMinutes": 134,
+  "WarnChatMessageMinutes": 14,
+  "WarnManagerChatMessageMinutes": 744,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 943,
-  "OfflineFormQueueLength": 69,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "similique",
+  "OfflineFormTimeLimit": 499,
+  "OfflineFormQueueLength": 631,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 577
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

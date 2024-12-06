@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 547,
-  "Name": "Hilll Group",
-  "ConsentText": "hic",
-  "FormText": "quos",
-  "Key": "laborum",
-  "Tooltip": "corporis",
-  "Active": 287,
-  "UpdatedDate": "2016-09-03T14:45:13.6148917+02:00",
+  "ConsentPurposeId": 413,
+  "Name": "Murphy LLC",
+  "ConsentText": "et",
+  "FormText": "aut",
+  "Key": "reprehenderit",
+  "Tooltip": "animi",
+  "Active": 271,
+  "UpdatedDate": "1998-11-21T10:18:00.9574888+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 860,
-  "PrivacyStatementDesc": "expedita",
+  "Deleted": true,
+  "Rank": 493,
+  "PrivacyStatementDesc": "occaecati",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldLength": 383
     }
   }
 }

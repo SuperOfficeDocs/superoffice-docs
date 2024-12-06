@@ -474,7 +474,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=contact/stop,contact/contactAssociate/usergroup,contact/contactExtra/x_contact_integer
+GET /api/v1/archive/FormSubmission?$select=person/personAddress/line3,contact/category,contact/contactAssociate/ejUserId,contact/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

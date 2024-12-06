@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=336
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=154
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 997,
-  "Name": "Block-Breitenberg",
-  "Description": "Vision-oriented dynamic parallelism",
-  "DeltaJson": "minima",
+  "ConfigurableScreenDeltaId": 133,
+  "Name": "Waelchi-Lind",
+  "Description": "Advanced systematic process improvement",
+  "DeltaJson": "voluptas",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2008-02-22T14:45:05.0221142+01:00",
-  "CreatedDate": "2003-05-06T14:45:05.0221142+02:00",
+  "RecipeId": "ad",
+  "UpdatedDate": "2003-09-29T10:17:55.2227659+02:00",
+  "CreatedDate": "1999-08-04T10:17:55.2227659+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    323,
-    795
+    925,
+    399
   ],
-  "AppliesToKey": "ea",
+  "AppliesToKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldLength": 183
     }
   }
 }

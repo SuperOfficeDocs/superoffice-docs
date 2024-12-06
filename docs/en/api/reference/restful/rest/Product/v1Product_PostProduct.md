@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 786,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "vel",
-  "Name": "Smitham Inc and Sons",
-  "Description": "Self-enabling systematic array",
-  "Code": "quibusdam",
-  "PriceUnit": "quo",
-  "QuantityUnit": "aut",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 6985.686,
-  "ItemNumber": "1257575",
+  "ProductId": 281,
+  "ERPProductKey": "doloribus",
+  "ERPPriceListKey": "soluta",
+  "Name": "Morissette LLC",
+  "Description": "Reactive attitude-oriented parallelism",
+  "Code": "sed",
+  "PriceUnit": "fugit",
+  "QuantityUnit": "dolor",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sequi",
+  "DefaultSubscriptionQuantity": 7590.548,
+  "ItemNumber": "529152",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "cupiditate",
-  "VAT": 15547.774,
-  "VATInfo": "nam",
-  "UnitCost": 10896.918,
-  "UnitMinimumPrice": 30960.786,
-  "UnitListPrice": 26316.198,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "provident",
+  "VAT": 3770.2019999999998,
+  "VATInfo": "recusandae",
+  "UnitCost": 18139.592,
+  "UnitMinimumPrice": 19274.1,
+  "UnitListPrice": 29926.566,
   "InAssortment": false,
-  "Supplier": "architecto",
+  "Supplier": "dolorem",
   "SupplierCode": "ut",
-  "Rights": "mollitia",
-  "Rule": "qui",
+  "Rights": "modi",
+  "Rule": "necessitatibus",
   "ExtraInfo": [
     {
-      "Name": "Brown, Klocko and Kuvalis",
-      "Value": "corporis",
+      "Name": "Berge-Streich",
+      "Value": "cupiditate",
       "Type": "Image"
     },
     {
-      "Name": "Brown, Klocko and Kuvalis",
-      "Value": "corporis",
+      "Name": "Berge-Streich",
+      "Value": "cupiditate",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "suscipit",
-  "ExtraField1": "impedit",
-  "ExtraField2": "sit",
-  "ExtraField3": "quis",
-  "ExtraField4": "ut",
-  "ExtraField5": "labore",
-  "InStock": 2927.156
+  "RawExtraInfo": "est",
+  "ExtraField1": "omnis",
+  "ExtraField2": "recusandae",
+  "ExtraField3": "facilis",
+  "ExtraField4": "quia",
+  "ExtraField5": "voluptate",
+  "InStock": 24178.809999999998
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 828,
-  "ERPProductKey": "accusantium",
-  "ERPPriceListKey": "qui",
-  "Name": "Terry Group",
-  "Description": "Expanded next generation local area network",
+  "ProductId": 621,
+  "ERPProductKey": "reiciendis",
+  "ERPPriceListKey": "ea",
+  "Name": "Schmidt Group",
+  "Description": "Re-contextualized composite matrices",
   "Code": "porro",
-  "PriceUnit": "perferendis",
-  "QuantityUnit": "voluptatem",
+  "PriceUnit": "ducimus",
+  "QuantityUnit": "consequatur",
   "IsSubscription": true,
-  "SubscriptionUnit": "magnam",
-  "DefaultSubscriptionQuantity": 11846.52,
-  "ItemNumber": "1296741",
+  "SubscriptionUnit": "eligendi",
+  "DefaultSubscriptionQuantity": 25883.706,
+  "ItemNumber": "1206451",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "minus",
-  "ProductTypeKey": "delectus",
-  "VAT": 7997.968,
-  "VATInfo": "odit",
-  "UnitCost": 26801.968,
-  "UnitMinimumPrice": 4541.166,
-  "UnitListPrice": 15168.56,
-  "InAssortment": true,
-  "Supplier": "dolores",
-  "SupplierCode": "excepturi",
-  "Rights": "ipsam",
-  "Rule": "animi",
+  "ProductFamilyKey": "ducimus",
+  "ProductTypeKey": "voluptatum",
+  "VAT": 3134.0,
+  "VATInfo": "temporibus",
+  "UnitCost": 24416.994,
+  "UnitMinimumPrice": 29368.714,
+  "UnitListPrice": 24999.917999999998,
+  "InAssortment": false,
+  "Supplier": "delectus",
+  "SupplierCode": "quaerat",
+  "Rights": "et",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Mann-Dare",
-      "Value": "provident",
+      "Name": "Nikolaus Group",
+      "Value": "repellat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 489
         }
       }
     },
     {
-      "Name": "Mann-Dare",
-      "Value": "provident",
+      "Name": "Nikolaus Group",
+      "Value": "repellat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldLength": 489
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "et",
-  "ExtraField2": "eos",
-  "ExtraField3": "est",
-  "ExtraField4": "reprehenderit",
-  "ExtraField5": "et",
-  "InStock": 20258.176,
+  "RawExtraInfo": "velit",
+  "ExtraField1": "facilis",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "harum",
+  "ExtraField4": "eveniet",
+  "ExtraField5": "sed",
+  "InStock": 14607.573999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

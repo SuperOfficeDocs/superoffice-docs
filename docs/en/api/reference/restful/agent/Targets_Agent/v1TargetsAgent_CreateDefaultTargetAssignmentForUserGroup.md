@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 931
+  "UserGroupId": 159
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 862,
+    "TargetAssignmentInfoId": 881,
     "Values": [
-      939,
-      81
+      659,
+      461
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 938,
-    "DimensionListItemDisplayName": "Schaden, Muller and Stanton",
+    "DimensionListItem": 945,
+    "DimensionListItemDisplayName": "Ernser Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldLength": 143
       }
     }
   }

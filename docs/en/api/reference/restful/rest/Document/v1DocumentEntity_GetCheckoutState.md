@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 973,
-  "Name": "Windler-Lakin"
+  "AssociateId": 486,
+  "Name": "Berge, Littel and Roberts"
 }
 ```

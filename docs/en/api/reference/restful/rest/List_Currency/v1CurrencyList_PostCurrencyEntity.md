@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 595,
-  "Name": "Auer-Johnston",
-  "Tooltip": "aperiam",
-  "Rank": 620,
-  "Rate": 5446.892,
-  "Units": 18459.26,
+  "CurrencyId": 953,
+  "Name": "Runolfsson, Zulauf and Vandervort",
+  "Tooltip": "alias",
+  "Rank": 669,
+  "Rate": 5719.55,
+  "Units": 8104.5239999999994,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 269,
-  "Name": "Jacobi LLC",
-  "Tooltip": "itaque",
-  "Rank": 577,
-  "Rate": 796.036,
-  "Units": 15811.029999999999,
+  "CurrencyId": 264,
+  "Name": "Cartwright LLC",
+  "Tooltip": "tempora",
+  "Rank": 581,
+  "Rate": 24598.766,
+  "Units": 27127.904,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 496
     }
   }
 }

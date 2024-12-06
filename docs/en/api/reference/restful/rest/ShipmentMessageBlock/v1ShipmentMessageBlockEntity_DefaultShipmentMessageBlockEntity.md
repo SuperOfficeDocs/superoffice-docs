@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 54,
-  "AssociateId": 718,
-  "Block": "omnis",
-  "Registered": "2002-04-21T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 889,
-  "Updated": "2013-12-01T14:45:13.2555955+01:00",
-  "UpdatedAssociateId": 571,
-  "UpdatedCount": 74,
+  "ShipmentMessageBlockId": 344,
+  "AssociateId": 574,
+  "Block": "eveniet",
+  "Registered": "2018-05-12T10:18:00.723098+02:00",
+  "RegisteredAssociateId": 127,
+  "Updated": "2023-01-28T10:18:00.723098+01:00",
+  "UpdatedAssociateId": 329,
+  "UpdatedCount": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 201
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 549,
-  "Name": "Lockman LLC",
-  "Tooltip": "optio",
+  "Id": 933,
+  "Name": "Carter, Cruickshank and Runolfsson",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 532,
+  "Rank": 286,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "rem",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 519,
-  "Name": "Koepp Group",
-  "Tooltip": "consequuntur",
+  "Id": 158,
+  "Name": "Strosin Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 69,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 630,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "numquam",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larkin-Vandervort",
-  "ProviderName": "Ryan-Lind",
-  "Context": "et",
-  "OwnerKeys": "sed"
+  "GuiName": "Oberbrunner-Walter",
+  "ProviderName": "Reinger, Walsh and Mosciski",
+  "Context": "veniam",
+  "OwnerKeys": "et"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Bartell, Kunze and Gusikowski",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "tenetur",
+      "DisplayName": "Nienow-Jerde",
+      "DisplayTooltip": "nihil",
+      "DisplayType": "et",
       "CanOrderBy": true,
-      "Name": "McLaughlin, Aufderhar and Witting",
+      "Name": "Keeling, Ryan and Friesen",
       "CanRestrictBy": false,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Ryan-Hahn",
+      "RestrictionType": "est",
+      "RestrictionListName": "Wintheiser LLC",
       "IsVisible": true,
-      "ExtraInfo": "tenetur",
-      "Width": "non",
-      "IconHint": "quam",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "iste",
+      "Width": "ad",
+      "IconHint": "deleniti",
+      "HeadingIconHint": "saepe"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 378,
-      "Name": "Kutch Group",
-      "ToolTip": "Unde reprehenderit non expedita.",
+      "Id": 483,
+      "Name": "Denesik-Marvin",
+      "ToolTip": "Ut eum magnam culpa voluptatem totam ad at.",
       "Deleted": false,
-      "Rank": 568,
-      "Type": "dolores",
-      "ColorBlock": 28,
-      "IconHint": "accusamus",
-      "Selected": false,
-      "LastChanged": "2003-02-02T14:45:04.8502792+01:00",
+      "Rank": 535,
+      "Type": "cum",
+      "ColorBlock": 87,
+      "IconHint": "rerum",
+      "Selected": true,
+      "LastChanged": "2002-04-18T10:17:55.1133842+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "illo",
+      "ExtraInfo": "dolor",
+      "StyleHint": "architecto",
       "Hidden": false,
-      "FullName": "Delpha Kovacek",
+      "FullName": "Mr. Keaton Marjolaine Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 696
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Wintheiser-Ritchie",
+      "Name": "Jacobs, Waters and Wunsch",
       "Direction": "ASC"
     },
     {
-      "Name": "Wintheiser-Ritchie",
+      "Name": "Jacobs, Waters and Wunsch",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sit",
+  "OwnerKeys": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

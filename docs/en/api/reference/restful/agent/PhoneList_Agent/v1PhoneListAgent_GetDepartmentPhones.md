@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 428
+  "DepartmentId": 869
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "749.312.0513",
-    "PersonCellPhone": "1-985-202-8252",
-    "PersonPrivatePhone": "(394)053-1155",
-    "PersonFaxNumber": "1539119",
-    "PersonPagerNumber": "1219992",
-    "PersonEmail": "kelvin_borer@brown.name",
-    "Id": 577,
-    "Name": "O'Kon-McGlynn",
-    "Tooltip": "incidunt",
-    "UniqueId": "unde",
+    "PersonDirectPhone": "(620)393-0746 x4753",
+    "PersonCellPhone": "120-386-2935",
+    "PersonPrivatePhone": "1-080-312-0596",
+    "PersonFaxNumber": "1343167",
+    "PersonPagerNumber": "1057882",
+    "PersonEmail": "meagan.lind@dooley.biz",
+    "Id": 148,
+    "Name": "Klocko-Spinka",
+    "Tooltip": "veritatis",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 597
       }
     }
   }

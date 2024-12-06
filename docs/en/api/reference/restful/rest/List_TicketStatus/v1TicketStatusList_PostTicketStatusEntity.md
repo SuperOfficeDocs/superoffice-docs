@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 310,
-  "Name": "Stroman LLC",
+  "TicketStatusId": 375,
+  "Name": "Jaskolski Group",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -98,11 +98,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 91,
-  "Name": "Simonis, Treutel and Gerlach",
+  "TicketStatusId": 156,
+  "Name": "Murphy LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldLength": 311
     }
   }
 }

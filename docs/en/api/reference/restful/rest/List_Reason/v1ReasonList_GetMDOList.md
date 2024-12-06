@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=commodi
+GET /api/v1/List/Reason/MDOItems?query=eaque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Homenick, Little and Schneider",
-    "ToolTip": "Qui eos ad numquam.",
+    "Id": 800,
+    "Name": "Greenfelder, Powlowski and Ferry",
+    "ToolTip": "Est in laboriosam ex.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "laudantium",
+    "Rank": 415,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "DuBuque-Block",
-        "ToolTip": "Omnis voluptatem.",
-        "Deleted": true,
-        "Rank": 75,
-        "Type": "autem",
+        "Id": 660,
+        "Name": "Gibson, Halvorson and VonRueden",
+        "ToolTip": "Qui dolore distinctio fugiat.",
+        "Deleted": false,
+        "Rank": 815,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 349,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "eos",
-        "FullName": "Shawn Schultz Sr.",
+        "IconHint": "voluptatem",
+        "ColorBlock": 206,
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "ut",
+        "FullName": "Mrs. Celestine Samson Spinka Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldType": "System.String",
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 299,
-    "ExtraInfo": "repellat",
-    "StyleHint": "deleniti",
-    "FullName": "Nelle Berge I",
+    "IconHint": "officiis",
+    "ColorBlock": 851,
+    "ExtraInfo": "illum",
+    "StyleHint": "consectetur",
+    "FullName": "Dr. Ona Hassan Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 920
       }
     }
   }

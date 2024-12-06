@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 425,
-  "AssociateId": 932,
-  "Caption": "a",
+  "DashboardId": 128,
+  "AssociateId": 8,
+  "Caption": "deleniti",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 561,
-      "Caption": "eveniet",
-      "Description": "Realigned optimal conglomeration",
-      "ChartName": "Wyman Group",
-      "ChartId": "placeat",
+      "DashboardTileId": 781,
+      "Caption": "occaecati",
+      "Description": "Realigned composite artificial intelligence",
+      "ChartName": "Flatley-Barrows",
+      "ChartId": "culpa",
       "IsDefault": false,
-      "AssociateId": 160,
-      "GroupId": 760,
-      "SelectionId": 648,
-      "Config": "provident",
+      "AssociateId": 539,
+      "GroupId": 984,
+      "SelectionId": 528,
+      "Config": "laboriosam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 883
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Von-Klein",
-  "Tooltip": "nesciunt",
+  "Id": 820,
+  "Name": "Hoeger, McDermott and Flatley",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 15,
-  "Rank": 968
+  "UdListDefinitionId": 699,
+  "Rank": 464
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Schowalter LLC",
-  "Tooltip": "iste",
+  "Id": 447,
+  "Name": "Schoen Inc and Sons",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "UdListDefinitionId": 326,
-  "Rank": 91,
+  "UdListDefinitionId": 498,
+  "Rank": 349,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

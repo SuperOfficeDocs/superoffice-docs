@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 45,
-  "Name": "Deckow, Funk and O'Reilly",
-  "Tooltip": "expedita",
+  "HeadingId": 642,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "nesciunt",
   "Deleted": true,
-  "Rank": 251,
-  "UdListDefinitionId": 979
+  "Rank": 602,
+  "UdListDefinitionId": 455
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 109,
-  "Name": "Orn Inc and Sons",
-  "Tooltip": "accusantium",
+  "HeadingId": 90,
+  "Name": "Kozey, Cummings and Gislason",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 40,
+  "Rank": 236,
+  "UdListDefinitionId": 762,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

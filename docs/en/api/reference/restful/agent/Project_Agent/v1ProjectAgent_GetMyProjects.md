@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 906,
-    "Name": "Price, Wyman and D'Amore",
-    "Description": "Multi-layered responsive portal",
+    "ProjectId": 683,
+    "Name": "Hand-Mosciski",
+    "Description": "Multi-tiered zero defect process improvement",
     "URL": "http://www.example.com/",
-    "Type": "iste",
-    "AssociateId": 619,
-    "AssociateFullName": "Dr. Aniya Pouros",
-    "TypeId": 349,
-    "Updated": "1998-01-20T14:45:06.0218921+01:00",
-    "StatusId": 280,
-    "Status": "sed",
-    "TextId": 169,
-    "PublishTo": "2001-12-06T14:45:06.0218921+01:00",
-    "PublishFrom": "2019-08-13T14:45:06.0218921+02:00",
-    "IsPublished": false,
+    "Type": "quos",
+    "AssociateId": 517,
+    "AssociateFullName": "Neha Moen",
+    "TypeId": 37,
+    "Updated": "2009-03-11T10:17:55.9103076+01:00",
+    "StatusId": 465,
+    "Status": "tenetur",
+    "TextId": 271,
+    "PublishTo": "2024-08-15T10:17:55.9103076+02:00",
+    "PublishFrom": "2005-04-27T10:17:55.9103076+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "682759",
-    "ActiveErpLinks": 528,
+    "ProjectNumber": "1192947",
+    "ActiveErpLinks": 656,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 281
       }
     }
   }

@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "odio"
+  "Domain": "nam"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Legros LLC",
-    "SoPrimaryKey": 271,
-    "EntryName": "Williamson Group",
-    "EntryIdentifier": "rerum",
-    "RuleDisplayName": "Wolff LLC",
+    "RuleName": "Bashirian-Friesen",
+    "SoPrimaryKey": 679,
+    "EntryName": "Beier-Littel",
+    "EntryIdentifier": "dolore",
+    "RuleDisplayName": "Feeney LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 853
+        "FieldLength": 752
       }
     }
   }

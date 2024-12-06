@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 420,
-  "Name": "Reichel-Wehner",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 293,
+  "Id": 186,
+  "Name": "Collier Group",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 463,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

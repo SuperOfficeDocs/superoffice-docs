@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2011-04-24T14:45:06.1781213+02:00",
-  "ToDate": "2013-06-16T14:45:06.1781213+02:00",
-  "AmountLimit": 679,
+  "FromDate": "2014-03-16T10:17:56.0040633+01:00",
+  "ToDate": "2021-09-27T10:17:56.0040633+02:00",
+  "AmountLimit": 931,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bradtke-Stanton",
-    "SaleDate": "2022-01-20T14:45:06.1781213+01:00",
-    "SaleId": 476,
-    "Probability": 224,
-    "Title": "dolorem",
-    "Amount": 10470.694,
-    "Currency": "magnam",
-    "ProjectName": "Powlowski, Parker and Ullrich",
-    "AssociateFullName": "Prof. Anna Funk Sr.",
-    "Description": "Synergistic 24 hour middleware",
+    "ContactName": "Morar-Nicolas",
+    "SaleDate": "2004-11-29T10:17:56.0040633+01:00",
+    "SaleId": 162,
+    "Probability": 858,
+    "Title": "praesentium",
+    "Amount": 11144.503999999999,
+    "Currency": "vero",
+    "ProjectName": "Sipes, Hackett and Franecki",
+    "AssociateFullName": "Dayton Ullrich",
+    "Description": "Re-contextualized well-modulated infrastructure",
     "Status": "Lost",
-    "WeightedAmount": 12319.753999999999,
-    "ProjectId": 688,
-    "EarningPercent": 16907.93,
-    "Earning": 10533.374,
-    "ContactId": 82,
-    "AssociateId": 540,
-    "PersonId": 442,
-    "SaleTypeId": 94,
-    "SaleTypeName": "Schmeler-Predovic",
-    "PersonFullName": "Hortense Price",
+    "WeightedAmount": 2770.456,
+    "ProjectId": 813,
+    "EarningPercent": 21634.002,
+    "Earning": 2604.354,
+    "ContactId": 995,
+    "AssociateId": 734,
+    "PersonId": 942,
+    "SaleTypeId": 800,
+    "SaleTypeName": "Dach Group",
+    "PersonFullName": "Dr. Annamae Stacey Beahan",
     "Completed": "Completed",
-    "ActiveErpLinks": 527,
-    "NextDueDate": "2023-12-12T14:45:06.1781213+01:00",
-    "Number": "368388",
+    "ActiveErpLinks": 829,
+    "NextDueDate": "2016-07-20T10:17:56.0040633+02:00",
+    "Number": "1391255",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 185
       }
     }
   }

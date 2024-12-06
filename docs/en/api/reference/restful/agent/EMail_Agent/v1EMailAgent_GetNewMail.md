@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    323,
-    163
+    911,
+    851
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 763,
-    "MessageId": "labore",
-    "Subject": "quia",
+    "ServerId": 195,
+    "MessageId": "eius",
+    "Subject": "eum",
     "From": null,
     "To": [
       {
-        "ContactId": 671,
-        "ContactName": "Muller, Jacobson and Mann",
-        "PersonId": 980,
-        "PersonName": "Sporer, Schulist and Johnston",
-        "AssociateId": 7,
-        "Address": "eaque",
-        "EmailId": 774,
+        "ContactId": 915,
+        "ContactName": "Tromp-Kuhn",
+        "PersonId": 785,
+        "PersonName": "O'Reilly, Hessel and Schultz",
+        "AssociateId": 603,
+        "Address": "consequatur",
+        "EmailId": 350,
         "DuplicatePersonIds": [
-          204,
-          614
+          983,
+          902
         ],
-        "Name": "Heathcote-Witting",
+        "Name": "Heidenreich-Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "Sent": "2002-02-07T14:45:05.4751404+01:00",
+    "Sent": "2019-09-16T10:17:55.5509103+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 982,
+    "Size": 825,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 983
       }
     }
   }

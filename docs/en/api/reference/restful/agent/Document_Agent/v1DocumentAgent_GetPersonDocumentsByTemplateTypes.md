@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 929,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2012-04-22T14:45:05.2408154+02:00",
-  "EndTime": "2014-04-21T14:45:05.2408154+02:00",
-  "Count": 692,
+  "PersonId": 958,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2002-05-23T10:17:55.457154+02:00",
+  "EndTime": "2006-05-04T10:17:55.457154+02:00",
+  "Count": 491,
   "DocumentTemplateIds": [
-    770,
-    40
+    42,
+    620
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 214,
-    "Attention": "vitae",
-    "Header": "voluptatem",
-    "Name": "Howell LLC",
-    "OurRef": "voluptatem",
-    "YourRef": "nobis",
-    "Description": "Organized empowering function",
-    "DocumentTemplate": "sit",
-    "IsPublished": true,
-    "PersonId": 547,
-    "PersonFullName": "Dr. Leilani Roel Greenfelder",
-    "AssociateFullName": "Gerald Mosciski",
-    "ContactId": 77,
-    "ContactName": "Lemke-O'Keefe",
-    "ProjectId": 316,
-    "ProjectName": "Mante Group",
-    "AssociateId": 541,
-    "Snum": 222,
-    "SaleId": 587,
-    "SaleName": "Homenick, Beatty and Spencer",
+    "DocumentId": 415,
+    "Attention": "labore",
+    "Header": "excepturi",
+    "Name": "Swift LLC",
+    "OurRef": "et",
+    "YourRef": "dolor",
+    "Description": "Profound value-added flexibility",
+    "DocumentTemplate": "nihil",
+    "IsPublished": false,
+    "PersonId": 19,
+    "PersonFullName": "Darby Quitzon DVM",
+    "AssociateFullName": "Ignatius Corkery",
+    "ContactId": 489,
+    "ContactName": "Corwin-Grant",
+    "ProjectId": 100,
+    "ProjectName": "Bartoletti Inc and Sons",
+    "AssociateId": 498,
+    "Snum": 732,
+    "SaleId": 191,
+    "SaleName": "Bayer, Baumbach and Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

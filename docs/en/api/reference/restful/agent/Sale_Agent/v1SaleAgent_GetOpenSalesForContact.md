@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 541
+  "ContactId": 63
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Upton Group",
-    "SaleDate": "2024-10-20T14:45:06.1781213+02:00",
-    "SaleId": 138,
-    "Probability": 434,
-    "Title": "in",
-    "Amount": 30371.593999999997,
-    "Currency": "dignissimos",
-    "ProjectName": "Lueilwitz, Collins and McKenzie",
-    "AssociateFullName": "Prof. Evan Dejon Tremblay",
-    "Description": "Customizable client-driven instruction set",
+    "ContactName": "Lubowitz Inc and Sons",
+    "SaleDate": "2020-02-23T10:17:56.0040633+01:00",
+    "SaleId": 397,
+    "Probability": 513,
+    "Title": "sint",
+    "Amount": 28093.176,
+    "Currency": "harum",
+    "ProjectName": "Mills-Nitzsche",
+    "AssociateFullName": "Mr. Albin Aaliyah Gibson Jr.",
+    "Description": "Persevering demand-driven focus group",
     "Status": "Lost",
-    "WeightedAmount": 26905.39,
-    "ProjectId": 226,
-    "EarningPercent": 23671.102,
-    "Earning": 2159.326,
-    "ContactId": 18,
-    "AssociateId": 815,
-    "PersonId": 774,
-    "SaleTypeId": 742,
-    "SaleTypeName": "Will, Pagac and Welch",
-    "PersonFullName": "Prof. Garrett Moore",
+    "WeightedAmount": 19045.318,
+    "ProjectId": 651,
+    "EarningPercent": 10310.859999999999,
+    "Earning": 7957.226,
+    "ContactId": 181,
+    "AssociateId": 383,
+    "PersonId": 340,
+    "SaleTypeId": 942,
+    "SaleTypeName": "Swaniawski, Becker and Hand",
+    "PersonFullName": "Bobby West",
     "Completed": "Completed",
-    "ActiveErpLinks": 499,
-    "NextDueDate": "2013-11-14T14:45:06.1781213+01:00",
-    "Number": "752978",
+    "ActiveErpLinks": 590,
+    "NextDueDate": "2007-03-15T10:17:56.0040633+01:00",
+    "Number": "1284815",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 283
       }
     }
   }

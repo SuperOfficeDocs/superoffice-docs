@@ -75,6 +75,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
+| SimpleMode | int32 | Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience |
+| LastFetch | date-time | When we last fetched email  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "repellendus"
+  "FromAddress": "nihil"
 }
 ```
 
@@ -99,22 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 465,
-  "EMailAddress": "molestiae",
-  "AssociateId": 732,
+  "EMailAccountId": 648,
+  "EMailAddress": "odio",
+  "AssociateId": 794,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 437,
-  "ErrorCount": 907,
-  "ErrorReason": "empower magnetic e-business",
-  "InboxFolder": "velit",
-  "SentFolder": "eos",
+  "AccountStatus": 506,
+  "ErrorCount": 715,
+  "ErrorReason": "",
+  "InboxFolder": "occaecati",
+  "SentFolder": "est",
+  "SimpleMode": 726,
+  "LastFetch": "2000-08-09T10:17:55.5821627+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

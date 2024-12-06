@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=quaerat
-GET /api/v1/Webhook?eventFilter=sed
+GET /api/v1/Webhook?nameFilter=quos
+GET /api/v1/Webhook?eventFilter=vel
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -82,7 +82,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 957,
-    "Name": "Konopelski, Dickinson and Dickens",
+    "WebhookId": 496,
+    "Name": "Simonis-Jaskolski",
     "Events": [
-      "cum",
-      "est"
+      "itaque",
+      "saepe"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "dolores",
+    "Secret": "sed",
     "State": "Active",
-    "Type": "accusantium",
+    "Type": "ad",
     "Headers": {
-      "Headers1": "aut",
-      "Headers2": "et"
+      "Headers1": "consequatur",
+      "Headers2": "qui"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2006-04-04T14:45:13.5367829+02:00",
+    "Registered": "2002-08-18T10:18:00.910611+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1999-07-03T14:45:13.5367829+02:00",
+    "Updated": "1999-12-07T10:18:00.910611+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "desmond@halvorson.uk"
+    "ErrorsEmail": "kenny@fahey.uk"
   }
 ]
 ```

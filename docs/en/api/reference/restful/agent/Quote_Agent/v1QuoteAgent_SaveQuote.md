@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 251,
-  "SaleId": 701,
-  "QuoteConnectionId": 861,
-  "ERPQuoteKey": "esse",
-  "ERPOrderKey": "ea",
-  "ActiveQuoteVersionId": 835,
-  "AcceptedQuoteAlternativeId": 167,
-  "UseValuesFromQuote": 342,
-  "DocumentId": 826,
-  "PoNumber": "950439",
-  "OrderComment": "quam",
-  "PreferredEmailCulture": "mekhi@pacochamclaughlin.info",
+  "QuoteId": 515,
+  "SaleId": 42,
+  "QuoteConnectionId": 700,
+  "ERPQuoteKey": "molestiae",
+  "ERPOrderKey": "officiis",
+  "ActiveQuoteVersionId": 842,
+  "AcceptedQuoteAlternativeId": 599,
+  "UseValuesFromQuote": 450,
+  "DocumentId": 937,
+  "PoNumber": "822948",
+  "OrderComment": "ipsum",
+  "PreferredEmailCulture": "chasity@bradtke.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 58
     }
   }
 }

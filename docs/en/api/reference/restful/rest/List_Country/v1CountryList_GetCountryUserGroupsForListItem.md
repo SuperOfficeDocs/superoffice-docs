@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 103,
-    "Name": "Rippin-Weissnat",
-    "ToolTip": "Praesentium sed id molestias consequatur consequatur aperiam.",
+    "Id": 650,
+    "Name": "Welch, Howell and Runolfsdottir",
+    "ToolTip": "Aliquam eum illum distinctio molestiae non.",
     "Deleted": false,
-    "Rank": 954,
-    "Type": "possimus",
-    "ColorBlock": 324,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2006-12-06T14:45:13.6461348+01:00",
+    "Rank": 14,
+    "Type": "non",
+    "ColorBlock": 165,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "1997-11-28T10:18:00.9731148+01:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Koss, McGlynn and Willms",
-        "ToolTip": "Omnis voluptates nulla.",
-        "Deleted": false,
-        "Rank": 334,
-        "Type": "nulla",
-        "ColorBlock": 936,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2024-09-18T14:45:13.6461348+02:00",
+        "Id": 648,
+        "Name": "Mills LLC",
+        "ToolTip": "Quam est et eos et.",
+        "Deleted": true,
+        "Rank": 807,
+        "Type": "qui",
+        "ColorBlock": 783,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "1997-09-04T10:18:00.9731148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Miss Jewell Jast",
+        "ExtraInfo": "ex",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Savanah Destiny Farrell PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 181
+            "FieldType": "System.Int32",
+            "FieldLength": 987
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "itaque",
+    "ExtraInfo": "ab",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Prof. Rigoberto Cremin",
+    "FullName": "Jonas Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

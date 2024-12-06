@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 608,
+  "HierarchyId": 209,
   "Domain": "Dashboards",
-  "Name": "Schumm LLC",
-  "Fullname": "quia",
-  "ParentId": 440,
+  "Name": "Halvorson-Waelchi",
+  "Fullname": "dolorem",
+  "ParentId": 538,
   "Children": [
     {
-      "HierarchyId": 708,
+      "HierarchyId": 983,
       "Domain": "Dashboards",
-      "Name": "Miller Inc and Sons",
-      "Fullname": "exercitationem",
-      "ParentId": 723,
+      "Name": "Terry Inc and Sons",
+      "Fullname": "quis",
+      "ParentId": 682,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-10-04T14:45:12.8338163+02:00",
-      "RegisteredAssociateId": 543,
-      "Updated": "2004-07-16T14:45:12.8338163+02:00",
-      "UpdatedAssociateId": 704,
+      "Registered": "2024-08-19T10:18:00.4262067+02:00",
+      "RegisteredAssociateId": 498,
+      "Updated": "2023-10-28T10:18:00.4262067+02:00",
+      "UpdatedAssociateId": 810,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 895
         }
       }
     }
   ],
-  "Registered": "2012-07-08T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 620,
-  "Updated": "2005-02-04T14:45:12.8338163+01:00",
-  "UpdatedAssociateId": 451,
+  "Registered": "2024-06-10T10:18:00.4262067+02:00",
+  "RegisteredAssociateId": 488,
+  "Updated": "1999-06-09T10:18:00.4262067+02:00",
+  "UpdatedAssociateId": 705,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldLength": 713
     }
   },
   "_Links": {

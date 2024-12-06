@@ -55,7 +55,7 @@ OK
 GET /api/v1/Ticket/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eveniet",
-  "2": "assumenda"
+  "1": "nesciunt",
+  "2": "eaque"
 }
 ```

@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 77,
-  "Year": 640,
+  "TargetGroupId": 28,
+  "Year": 243,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 906,
+      "TargetAssignmentInfoId": 927,
       "Values": [
-        832,
-        912
+        608,
+        375
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 589,
-      "DimensionListItemDisplayName": "Rice, Denesik and Howell"
+      "DimensionListItem": 383,
+      "DimensionListItemDisplayName": "Johnson, Lockman and Sanford"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 442,
-  "Year": 374,
+  "TargetGroupId": 242,
+  "Year": 965,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 640,
+      "TargetAssignmentInfoId": 372,
       "Values": [
-        198,
-        182
+        396,
+        392
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 474,
-      "DimensionListItemDisplayName": "Hoeger-Yundt",
+      "DimensionListItem": 876,
+      "DimensionListItemDisplayName": "Shanahan, Bednar and Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 631
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 901
     }
   }
 }

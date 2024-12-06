@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Huel LLC",
-    "Records": 545,
+    "EntityName": "Gibson, Greenholt and Zulauf",
+    "Records": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   },
   {
-    "EntityName": "Huel LLC",
-    "Records": 545,
+    "EntityName": "Gibson, Greenholt and Zulauf",
+    "Records": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

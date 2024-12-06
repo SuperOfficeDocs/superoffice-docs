@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=est
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Kuhn, Towne and Yost",
-    "ToolTip": "Error qui ab.",
+    "Id": 704,
+    "Name": "Rippin-Zieme",
+    "ToolTip": "Praesentium reiciendis libero vel repellat nulla dolores.",
     "Deleted": false,
-    "Rank": 284,
-    "Type": "perspiciatis",
+    "Rank": 361,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Luettgen-Thiel",
-        "ToolTip": "Quia quibusdam eum magni itaque voluptas distinctio autem.",
+        "Id": 343,
+        "Name": "Towne-Blanda",
+        "ToolTip": "Qui quasi sit aperiam dicta.",
         "Deleted": false,
-        "Rank": 557,
-        "Type": "ratione",
+        "Rank": 922,
+        "Type": "illo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 540,
-        "ExtraInfo": "dolores",
-        "StyleHint": "esse",
-        "FullName": "Magdalen Sawayn",
+        "IconHint": "accusantium",
+        "ColorBlock": 353,
+        "ExtraInfo": "aut",
+        "StyleHint": "sed",
+        "FullName": "Mrs. Bo Margarette Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 259
+            "FieldLength": 724
           }
         }
       }
     ],
-    "IconHint": "dolore",
-    "ColorBlock": 568,
-    "ExtraInfo": "est",
-    "StyleHint": "nobis",
-    "FullName": "Rodger Hirthe IV",
+    "IconHint": "et",
+    "ColorBlock": 468,
+    "ExtraInfo": "ut",
+    "StyleHint": "explicabo",
+    "FullName": "Katarina Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldLength": 446
       }
     }
   }

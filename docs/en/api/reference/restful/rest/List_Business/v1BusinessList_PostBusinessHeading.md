@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 150,
-  "Name": "Leannon LLC",
-  "Tooltip": "tenetur",
+  "HeadingId": 773,
+  "Name": "Deckow, Hauck and Von",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 651,
-  "UdListDefinitionId": 999
+  "Rank": 268,
+  "UdListDefinitionId": 739
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 569,
-  "Name": "Rodriguez Inc and Sons",
-  "Tooltip": "beatae",
+  "HeadingId": 63,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 231,
-  "UdListDefinitionId": 848,
+  "Rank": 251,
+  "UdListDefinitionId": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 935
     }
   }
 }

@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 821
+  "SaleId": 710
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2018-06-17T14:45:06.1781213+02:00"
+"2019-11-21T10:17:56.0040633+01:00"
 ```

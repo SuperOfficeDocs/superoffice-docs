@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 219,
-  "PrefDescId": 104,
-  "PrefValue": "dolorum",
-  "PrefShowValue": "neque",
-  "Description": "Re-engineered contextually-based initiative",
-  "IsBuiltin": false,
+  "PrefDescLineId": 400,
+  "PrefDescId": 811,
+  "PrefValue": "accusamus",
+  "PrefShowValue": "dicta",
+  "Description": "Programmable static initiative",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 144
     }
   },
   "_Links": {

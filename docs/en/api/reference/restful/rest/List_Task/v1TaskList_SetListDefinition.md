@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Pacocha LLC",
-  "Tooltip": "qui",
+  "Id": 359,
+  "Name": "Lowe Group",
+  "Tooltip": "voluptates",
   "Deleted": true,
-  "Rank": 833,
+  "Rank": 275,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "soluta",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Schuster LLC",
-  "Tooltip": "itaque",
+  "Id": 881,
+  "Name": "Hartmann Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 599,
-  "IsCustomList": true,
+  "Rank": 567,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
+  "ListType": "vero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 507
     }
   }
 }

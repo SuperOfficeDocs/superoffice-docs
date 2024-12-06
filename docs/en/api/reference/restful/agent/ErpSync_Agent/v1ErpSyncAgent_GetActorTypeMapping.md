@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 758,
+  "ErpConnectionId": 438,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 644,
-  "IsActive": false,
+  "ErpConnectionId": 242,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 316,
-      "CrmFieldKey": "animi",
-      "CrmDisplayName": "Nitzsche-Bernhard",
-      "CrmDisplayTooltip": "unde",
-      "ErpFieldKey": "aut",
+      "ErpFieldId": 112,
+      "CrmFieldKey": "consectetur",
+      "CrmDisplayName": "Johnston-O'Connell",
+      "CrmDisplayTooltip": "eum",
+      "ErpFieldKey": "voluptatem",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Bauch, Hackett and Rosenbaum",
-      "ErpDisplayTooltip": "et",
+      "ErpDisplayName": "Okuneva-Mayer",
+      "ErpDisplayTooltip": "eligendi",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "amet",
+      "ListReference": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 589
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldLength": 308
     }
   }
 }

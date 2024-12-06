@@ -45,6 +45,7 @@ Service methods defined on <see cref='T:ISaleAgent'>SaleAgent</see> that can tri
 * [HasStakeholderSetting](hasstakeholdersetting.md)
 * [IsNumberValid](isnumbervalid.md)
 * [OfferAutoNextStageOnApppointmentCompleted](offerautonextstageonapppointmentcompleted.md)
+* [SaleHasQuote](salehasquote.md)
 * [SaveSaleEntity](savesaleentity.md)
 * [SaveSaleStakeholder](savesalestakeholder.md)
 * [SetAsLost](setaslost.md)

@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 837,
-  "Name": "Rosenbaum Inc and Sons",
+  "ScreenChooserId": 984,
+  "Name": "Harber-Fritsch",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolores",
-  "Source": "expedita",
-  "Registered": "2017-01-07T14:45:05.1627086+01:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2021-08-22T14:45:05.1627086+02:00",
-  "UpdatedAssociateId": 563,
+  "UniqueIdentifier": "quasi",
+  "Source": "magnam",
+  "Registered": "2000-07-30T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 887,
+  "Updated": "2020-03-05T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldType": "System.String",
+      "FieldLength": 220
     }
   }
 }

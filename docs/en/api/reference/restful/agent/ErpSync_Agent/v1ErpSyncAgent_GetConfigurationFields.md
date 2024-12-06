@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 509
+  "ErpConnectorId": 7
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "dolorem",
-    "Rank": 517,
-    "DisplayName": "Turner, Nikolaus and Bogisich",
-    "DisplayDescription": "De-engineered high-level alliance",
+    "FieldKey": "sit",
+    "Rank": 991,
+    "DisplayName": "Harvey LLC",
+    "DisplayDescription": "Fully-configurable fault-tolerant alliance",
     "FieldType": "Checkbox",
-    "ListName": "Upton Group",
-    "DefaultValue": "magni",
-    "MaxLength": 306,
+    "ListName": "Treutel-Ryan",
+    "DefaultValue": "mollitia",
+    "MaxLength": 606,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=magni
+GET /api/v1/List/Country/MDOItems?query=laborum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Hegmann-Nolan",
-    "ToolTip": "Amet omnis iste commodi quo ut id consequatur.",
+    "Id": 932,
+    "Name": "Bogisich Inc and Sons",
+    "ToolTip": "Dolores nisi molestiae dicta.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "omnis",
+    "Rank": 531,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Collins Inc and Sons",
-        "ToolTip": "Natus temporibus.",
-        "Deleted": false,
-        "Rank": 913,
-        "Type": "aut",
+        "Id": 954,
+        "Name": "D'Amore, Hoppe and Heller",
+        "ToolTip": "Voluptates porro qui voluptatem.",
+        "Deleted": true,
+        "Rank": 765,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 417,
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Dolores Bernhard",
+        "IconHint": "distinctio",
+        "ColorBlock": 181,
+        "ExtraInfo": "ut",
+        "StyleHint": "asperiores",
+        "FullName": "Mr. Sammy Ernser PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldType": "System.String",
+            "FieldLength": 927
           }
         }
       }
     ],
-    "IconHint": "ipsa",
-    "ColorBlock": 518,
-    "ExtraInfo": "fuga",
-    "StyleHint": "alias",
-    "FullName": "Joel Dare",
+    "IconHint": "quod",
+    "ColorBlock": 599,
+    "ExtraInfo": "qui",
+    "StyleHint": "corrupti",
+    "FullName": "Felipa Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 346
       }
     }
   }

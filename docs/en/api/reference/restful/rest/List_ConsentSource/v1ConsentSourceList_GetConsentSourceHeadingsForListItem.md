@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "O'Connell-Hahn",
-    "ToolTip": "Maxime esse qui tempore qui quidem ab.",
-    "Deleted": true,
-    "Rank": 417,
-    "Type": "laborum",
-    "ColorBlock": 928,
-    "IconHint": "illum",
+    "Id": 26,
+    "Name": "Brakus, Schultz and Predovic",
+    "ToolTip": "Et animi.",
+    "Deleted": false,
+    "Rank": 639,
+    "Type": "unde",
+    "ColorBlock": 752,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "1997-12-13T14:45:13.6305116+01:00",
+    "LastChanged": "2017-10-20T10:18:00.9731148+02:00",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Lindgren Group",
-        "ToolTip": "Voluptatem in quos eum recusandae ut.",
-        "Deleted": false,
-        "Rank": 272,
-        "Type": "accusantium",
-        "ColorBlock": 667,
-        "IconHint": "labore",
+        "Id": 567,
+        "Name": "Zulauf Group",
+        "ToolTip": "Voluptatem voluptas quae et ea ut error.",
+        "Deleted": true,
+        "Rank": 110,
+        "Type": "temporibus",
+        "ColorBlock": 558,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2009-01-03T14:45:13.6305116+01:00",
+        "LastChanged": "2001-08-30T10:18:00.9731148+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "est",
+        "ExtraInfo": "unde",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Uriah Bradtke",
+        "FullName": "Ms. Isai Weston Crist II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 839
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Reva Johnson",
+    "ExtraInfo": "quasi",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Alfred Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 153
       }
     }
   }

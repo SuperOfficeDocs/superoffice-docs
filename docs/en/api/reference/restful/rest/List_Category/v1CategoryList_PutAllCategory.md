@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Schimmel Group",
-    "Tooltip": "optio",
+    "Id": 674,
+    "Name": "Kessler-Bednar",
+    "Tooltip": "illo",
     "Deleted": false,
-    "UdListDefinitionId": 108,
-    "Rank": 991
+    "UdListDefinitionId": 564,
+    "Rank": 469
   },
   {
-    "Id": 62,
-    "Name": "Schimmel Group",
-    "Tooltip": "optio",
+    "Id": 674,
+    "Name": "Kessler-Bednar",
+    "Tooltip": "illo",
     "Deleted": false,
-    "UdListDefinitionId": 108,
-    "Rank": 991
+    "UdListDefinitionId": 564,
+    "Rank": 469
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Beier-Ebert",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 617,
-    "Rank": 975,
+    "Id": 543,
+    "Name": "Walker-King",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "UdListDefinitionId": 100,
+    "Rank": 994,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

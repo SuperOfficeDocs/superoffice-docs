@@ -58,7 +58,7 @@ OK
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray Group",
-    "DisplayName": "Schumm, Cartwright and Kihn",
-    "DisplayTooltip": "quibusdam",
+    "Name": "Paucek Inc and Sons",
+    "DisplayName": "Murray, Batz and Glover",
+    "DisplayTooltip": "enim",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 878
       }
     }
   },
   {
-    "Name": "Murray Group",
-    "DisplayName": "Schumm, Cartwright and Kihn",
-    "DisplayTooltip": "quibusdam",
+    "Name": "Paucek Inc and Sons",
+    "DisplayName": "Murray, Batz and Glover",
+    "DisplayTooltip": "enim",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 878
       }
     }
   }

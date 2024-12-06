@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 67,
-  "Name": "Crooks, Doyle and Gorczany",
-  "Description": "Down-sized assymetric application",
-  "DefaultHeight": 821,
-  "DefaultWidth": 270,
+  "DashboardTileDefinitionId": 959,
+  "Name": "Harber LLC",
+  "Description": "Self-enabling fresh-thinking framework",
+  "DefaultHeight": 782,
+  "DefaultWidth": 244,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Keeling, Veum and Franecki",
-  "SelectionId": 214,
+  "EntityName": "Jacobi Group",
+  "SelectionId": 755,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quod",
+  "CurrencyCode": "nemo",
   "Measure": "Average",
-  "MeasureField": "at",
-  "SortBy": "perferendis",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 902,
-  "MeasureByField": "sint",
+  "MeasureField": "pariatur",
+  "SortBy": "blanditiis",
+  "LayoutConfig": "magni",
+  "SecondarySelectionId": 517,
+  "MeasureByField": "provident",
   "Usage": "Dashboard",
-  "ProviderName": "Hills-Purdy",
+  "ProviderName": "Boyle, Champlin and Walter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 563
     }
   }
 }

@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 906,
-  "PrefDescId": 659,
-  "PrefValue": "tempora",
-  "PrefShowValue": "minima",
-  "Description": "Future-proofed zero tolerance open architecture",
-  "IsBuiltin": true
+  "PrefDescLineId": 81,
+  "PrefDescId": 26,
+  "PrefValue": "ut",
+  "PrefShowValue": "nisi",
+  "Description": "Organized responsive frame",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 923,
-  "PrefDescId": 450,
-  "PrefValue": "sapiente",
-  "PrefShowValue": "et",
-  "Description": "Secured uniform utilisation",
-  "IsBuiltin": true,
+  "PrefDescLineId": 399,
+  "PrefDescId": 527,
+  "PrefValue": "illum",
+  "PrefShowValue": "labore",
+  "Description": "Proactive foreground benchmark",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   },
   "_Links": {

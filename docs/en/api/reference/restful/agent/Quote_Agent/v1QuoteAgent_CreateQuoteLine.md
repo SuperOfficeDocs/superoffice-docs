@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 914,
-  "ERPProductKey": "veniam"
+  "QuoteAlternativeId": 306,
+  "ERPProductKey": "natus"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 815,
-  "ERPQuoteLineKey": "est",
-  "QuoteAlternativeId": 422,
-  "ERPProductKey": "rem",
+  "QuoteLineId": 163,
+  "ERPQuoteLineKey": "consequatur",
+  "QuoteAlternativeId": 49,
+  "ERPProductKey": "aut",
   "Status": "Error",
-  "Reason": "extend vertical eyeballs",
-  "Quantity": 16610.2,
-  "DeliveredQuantity": 21192.108,
-  "Rank": 91,
-  "Name": "Sawayn-Wolff",
-  "Description": "Reactive tertiary migration",
-  "Code": "sapiente",
-  "QuantityUnit": "quia",
-  "PriceUnit": "amet",
-  "ItemNumber": "1108608",
+  "Reason": "",
+  "Quantity": 7308.4879999999994,
+  "DeliveredQuantity": 23244.878,
+  "Rank": 902,
+  "Name": "Bahringer Inc and Sons",
+  "Description": "Digitized disintermediate architecture",
+  "Code": "id",
+  "QuantityUnit": "optio",
+  "PriceUnit": "et",
+  "ItemNumber": "787128",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "nihil",
-  "Supplier": "qui",
-  "SupplierCode": "omnis",
-  "Thumbnail": "inventore",
-  "VATInfo": "enim",
-  "VAT": 10940.794,
-  "UnitCost": 24044.048,
-  "UnitMinimumPrice": 17951.552,
-  "UnitListPrice": 23633.494,
+  "ProductFamilyKey": "eligendi",
+  "ProductTypeKey": "aut",
+  "Supplier": "repellat",
+  "SupplierCode": "enim",
+  "Thumbnail": "dolorem",
+  "VATInfo": "quia",
+  "VAT": 1416.568,
+  "UnitCost": 6105.032,
+  "UnitMinimumPrice": 24567.426,
+  "UnitListPrice": 26372.61,
   "ExtraInfo": [
     {
-      "Name": "Bogisich Group",
-      "Value": "quia",
+      "Name": "Shields LLC",
+      "Value": "odio",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Bogisich Group",
-      "Value": "quia",
+      "Name": "Shields LLC",
+      "Value": "odio",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 83
         }
       }
     }
   ],
-  "RawExtraInfo": "doloribus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "beatae",
-  "SubscriptionQuantity": 30421.737999999998,
-  "SubscriptionStart": "2019-03-04T14:45:06.0843796+01:00",
-  "ERPDiscountPercent": 24087.924,
-  "ERPDiscountAmount": 14197.02,
-  "DiscountPercent": 1106.302,
-  "DiscountAmount": 20530.834,
+  "RawExtraInfo": "temporibus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "sed",
+  "SubscriptionQuantity": 17070.898,
+  "SubscriptionStart": "2004-04-01T10:17:55.9571855+02:00",
+  "ERPDiscountPercent": 22527.192,
+  "ERPDiscountAmount": 6819.584,
+  "DiscountPercent": 24225.82,
+  "DiscountAmount": 22718.365999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27115.368,
-  "EarningAmount": 23896.75,
-  "SubTotal": 22734.036,
-  "TotalPrice": 15930.122,
-  "Rights": "nihil",
-  "Rule": "omnis",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "vel",
-  "ExtraField3": "rem",
-  "ExtraField4": "aliquid",
-  "ExtraField5": "cupiditate",
+  "EarningPercent": 23041.167999999998,
+  "EarningAmount": 13899.289999999999,
+  "SubTotal": 23241.744,
+  "TotalPrice": 6299.34,
+  "Rights": "et",
+  "Rule": "sapiente",
+  "ExtraField1": "nisi",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "fugit",
+  "ExtraField4": "saepe",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

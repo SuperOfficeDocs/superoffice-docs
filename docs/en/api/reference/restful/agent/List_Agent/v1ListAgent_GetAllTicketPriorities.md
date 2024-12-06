@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 124,
-    "Name": "Dibbert-Turner",
+    "TicketPriorityId": 270,
+    "Name": "Bogan-Conroy",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 794,
+    "SortOrder": 554,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 800,
-    "MonStart": "2009-08-28T14:45:05.6782183+02:00",
-    "MonStop": "2005-05-10T14:45:05.6782183+02:00",
-    "TueStart": "2006-03-02T14:45:05.6782183+01:00",
-    "TueStop": "2004-05-06T14:45:05.6782183+02:00",
-    "WedStart": "2018-09-10T14:45:05.6782183+02:00",
-    "WedStop": "2002-11-04T14:45:05.6782183+01:00",
-    "ThuStart": "2011-12-09T14:45:05.6782183+01:00",
-    "ThuStop": "2008-03-24T14:45:05.6782183+01:00",
-    "FriStart": "2017-11-25T14:45:05.6782183+01:00",
-    "FriStop": "2022-05-11T14:45:05.6782183+02:00",
-    "SatStart": "2020-08-27T14:45:05.6782183+02:00",
-    "SatStop": "2003-05-14T14:45:05.6782183+02:00",
-    "SunStart": "2005-02-20T14:45:05.6782183+01:00",
-    "SunStop": "2006-12-24T14:45:05.6782183+01:00",
+    "Deadline": 203,
+    "MonStart": "2006-01-29T10:17:55.675911+01:00",
+    "MonStop": "2010-09-21T10:17:55.675911+02:00",
+    "TueStart": "2004-05-11T10:17:55.675911+02:00",
+    "TueStop": "2001-11-05T10:17:55.675911+01:00",
+    "WedStart": "1997-09-16T10:17:55.675911+02:00",
+    "WedStop": "2006-04-25T10:17:55.675911+02:00",
+    "ThuStart": "2002-05-13T10:17:55.675911+02:00",
+    "ThuStop": "2023-01-27T10:17:55.675911+01:00",
+    "FriStart": "2010-02-10T10:17:55.675911+01:00",
+    "FriStop": "1998-12-20T10:17:55.675911+01:00",
+    "SatStart": "2013-02-09T10:17:55.675911+01:00",
+    "SatStop": "2022-01-08T10:17:55.675911+01:00",
+    "SunStart": "2023-01-05T10:17:55.675911+01:00",
+    "SunStop": "2000-12-31T10:17:55.675911+01:00",
     "NonDates": [
-      "dignissimos",
-      "magni"
+      "porro",
+      "aliquam"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 257,
-        "AlertLevel": 639,
-        "AlertTimeout": 408,
-        "Action": 354,
-        "DelegateTo": 571,
-        "ScriptId": 225,
-        "EmailTo": "adeline@marquardt.com",
-        "SmsTo": "aut",
-        "ReplyTemplateIdCustomer": 632,
-        "ReplyTemplateIdUser": 228,
-        "ReplyTemplateIdCatmast": 153,
-        "ReplyTemplateIdEmail": 191,
-        "RtiCustomerSms": 22,
-        "ReplyTemplateIdUserSms": 214,
-        "ReplyTemplateIdCatmastSms": 383,
-        "ReplyTemplateIdSms": 992,
+        "TicketAlertId": 880,
+        "AlertLevel": 333,
+        "AlertTimeout": 700,
+        "Action": 224,
+        "DelegateTo": 461,
+        "ScriptId": 732,
+        "EmailTo": "william_will@gottlieb.ca",
+        "SmsTo": "molestiae",
+        "ReplyTemplateIdCustomer": 324,
+        "ReplyTemplateIdUser": 192,
+        "ReplyTemplateIdCatmast": 289,
+        "ReplyTemplateIdEmail": 456,
+        "RtiCustomerSms": 140,
+        "ReplyTemplateIdUserSms": 200,
+        "ReplyTemplateIdCatmastSms": 725,
+        "ReplyTemplateIdSms": 457,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 307
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 665
       }
     }
   }

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 324,
-  "BlobSize": 382,
-  "Description": "Persevering multi-tasking encryption",
-  "ExtraInfo": "vero",
+  "BlobId": 813,
+  "BlobSize": 414,
+  "Description": "Proactive full-range strategy",
+  "ExtraInfo": "commodi",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptates",
-  "OriginalSize": 219,
-  "CreatedDate": "2020-02-10T14:45:13.4430534+01:00",
-  "UpdatedDate": "2000-10-19T14:45:13.4430534+02:00",
+  "IsZipped": false,
+  "MimeType": "sit",
+  "OriginalSize": 12,
+  "CreatedDate": "2022-05-19T10:18:00.8481067+02:00",
+  "UpdatedDate": "2010-08-23T10:18:00.8481067+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempore"
+  "ConceptualType": "unde"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 293,
-  "BlobSize": 164,
-  "Description": "Expanded discrete definition",
-  "ExtraInfo": "consectetur",
+  "BlobId": 359,
+  "BlobSize": 717,
+  "Description": "Business-focused secondary website",
+  "ExtraInfo": "a",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 68,
-  "CreatedDate": "2020-05-18T14:45:13.4430534+02:00",
-  "UpdatedDate": "2009-03-28T14:45:13.4430534+01:00",
+  "IsZipped": true,
+  "MimeType": "tempore",
+  "OriginalSize": 485,
+  "CreatedDate": "2009-03-30T10:18:00.8481067+02:00",
+  "UpdatedDate": "2019-02-20T10:18:00.8481067+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "assumenda",
+  "ConceptualType": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

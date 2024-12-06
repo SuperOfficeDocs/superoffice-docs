@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 542,
-  "Name": "Durgan-Zieme",
-  "ConsentText": "non",
-  "FormText": "corrupti",
-  "Key": "aut",
-  "Tooltip": "fugiat",
-  "Active": 499,
-  "UpdatedDate": "2015-06-30T14:45:13.6148917+02:00",
+  "ConsentPurposeId": 764,
+  "Name": "Halvorson Group",
+  "ConsentText": "esse",
+  "FormText": "delectus",
+  "Key": "consequatur",
+  "Tooltip": "quidem",
+  "Active": 391,
+  "UpdatedDate": "2005-02-23T10:18:00.9574888+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 848,
-  "PrivacyStatementDesc": "et",
+  "Rank": 288,
+  "PrivacyStatementDesc": "soluta",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 734,
-  "Name": "Grady-Kuphal",
-  "ConsentText": "error",
-  "FormText": "et",
-  "Key": "temporibus",
-  "Tooltip": "rerum",
-  "Active": 352,
-  "UpdatedDate": "2013-09-03T14:45:13.6148917+02:00",
+  "ConsentPurposeId": 590,
+  "Name": "Strosin-Collins",
+  "ConsentText": "recusandae",
+  "FormText": "quae",
+  "Key": "illum",
+  "Tooltip": "occaecati",
+  "Active": 927,
+  "UpdatedDate": "2002-06-21T10:18:00.9574888+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 710,
-  "PrivacyStatementDesc": "quo",
+  "Deleted": false,
+  "Rank": 108,
+  "PrivacyStatementDesc": "cupiditate",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldLength": 24
     }
   }
 }

@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 419,
-  "InstanceLayout": "nesciunt",
-  "InstanceName": "Wunsch-Zemlak",
-  "CreatedDate": "2024-04-23T14:45:04.8659001+02:00",
-  "UpdatedDate": "2002-11-08T14:45:04.8659001+01:00",
+  "AudienceLayoutId": 880,
+  "InstanceLayout": "aliquam",
+  "InstanceName": "Streich-Tromp",
+  "CreatedDate": "2022-02-18T10:17:55.1290102+01:00",
+  "UpdatedDate": "2016-10-02T10:17:55.1290102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 898,
-  "InstanceLayout": "non",
-  "InstanceName": "Howell, Schmeler and Dibbert",
-  "CreatedDate": "2007-06-23T14:45:04.8659001+02:00",
-  "UpdatedDate": "2019-09-06T14:45:04.8659001+02:00",
+  "AudienceLayoutId": 103,
+  "InstanceLayout": "repudiandae",
+  "InstanceName": "Zboncak-Bashirian",
+  "CreatedDate": "2000-06-24T10:17:55.1290102+02:00",
+  "UpdatedDate": "2009-08-26T10:17:55.1290102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 654
     }
   }
 }

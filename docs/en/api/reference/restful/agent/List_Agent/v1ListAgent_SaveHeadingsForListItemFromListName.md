@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Auer-Kertzmann",
-  "ListItemId": 911,
+  "UdListDefinitionName": "Hand LLC",
+  "ListItemId": 792,
   "Headings": [
     {
-      "Id": 857,
-      "Name": "Boyle, Pacocha and Sporer",
-      "ToolTip": "Voluptatem autem aliquam et distinctio.",
-      "Deleted": false,
-      "Rank": 282,
-      "Type": "aut",
-      "ColorBlock": 302,
-      "IconHint": "exercitationem",
-      "Selected": true,
-      "LastChanged": "2020-08-23T14:45:05.7250829+02:00",
+      "Id": 866,
+      "Name": "Sporer, Bins and Koepp",
+      "ToolTip": "Dolorem sint rem fugiat voluptas.",
+      "Deleted": true,
+      "Rank": 107,
+      "Type": "a",
+      "ColorBlock": 684,
+      "IconHint": "ab",
+      "Selected": false,
+      "LastChanged": "1998-06-06T10:17:55.7071691+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "distinctio",
+      "ExtraInfo": "sed",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Cale Ali Smitham Sr."
+      "FullName": "Miss Darrion Nienow"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 417,
-    "Name": "Wolff-Hirthe",
-    "ToolTip": "Aperiam sapiente veniam dolores dignissimos eligendi magni voluptas.",
-    "Deleted": false,
-    "Rank": 832,
-    "Type": "minima",
-    "ColorBlock": 348,
-    "IconHint": "beatae",
+    "Id": 106,
+    "Name": "Schaefer Group",
+    "ToolTip": "Enim sunt distinctio labore.",
+    "Deleted": true,
+    "Rank": 627,
+    "Type": "molestiae",
+    "ColorBlock": 704,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2000-07-30T14:45:05.7250829+02:00",
+    "LastChanged": "2011-10-14T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Green-Lemke",
-        "ToolTip": "Quis ipsam quas voluptatum ea.",
-        "Deleted": false,
-        "Rank": 133,
-        "Type": "ut",
-        "ColorBlock": 256,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2017-04-16T14:45:05.7250829+02:00",
+        "Id": 896,
+        "Name": "Bernier, Shields and Rutherford",
+        "ToolTip": "Facere necessitatibus quisquam est impedit qui eligendi voluptatem.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "sed",
+        "ColorBlock": 241,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2005-03-23T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "et",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Brisa Feest",
+        "FullName": "Ashtyn Lesch II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldType": "System.String",
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "harum",
+    "ExtraInfo": "quia",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Prof. Allison Towne",
+    "FullName": "Dr. Ford Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 954
       }
     }
   }

@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 188,
-      "ContactName": "Gaylord, Kilback and Beahan",
-      "PersonId": 534,
-      "PersonName": "Cummerata LLC",
-      "AssociateId": 546,
-      "Address": "doloremque",
-      "EmailId": 308,
+      "ContactId": 315,
+      "ContactName": "Greenholt Inc and Sons",
+      "PersonId": 802,
+      "PersonName": "Cormier LLC",
+      "AssociateId": 501,
+      "Address": "possimus",
+      "EmailId": 554,
       "DuplicatePersonIds": [
-        127,
-        410
+        989,
+        915
       ],
-      "Name": "Balistreri-Hamill",
+      "Name": "Jast-Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 995,
-      "ContactName": "Bauch LLC",
-      "PersonId": 504,
-      "PersonName": "Pfannerstill-Larson",
-      "AssociateId": 815,
-      "Address": "voluptatem",
-      "EmailId": 476,
+      "ContactId": 208,
+      "ContactName": "Kassulke Inc and Sons",
+      "PersonId": 570,
+      "PersonName": "O'Conner-Lang",
+      "AssociateId": 707,
+      "Address": "praesentium",
+      "EmailId": 44,
       "DuplicatePersonIds": [
-        235,
-        368
+        67,
+        412
       ],
-      "Name": "Hoppe-McClure",
+      "Name": "Muller, Ward and Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 862
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 623,
-      "ContactName": "Prosacco, Brakus and Rau",
-      "PersonId": 764,
-      "PersonName": "Lemke, Swaniawski and Reilly",
-      "AssociateId": 212,
-      "Address": "consequatur",
-      "EmailId": 64,
+      "ContactId": 28,
+      "ContactName": "Bashirian Inc and Sons",
+      "PersonId": 155,
+      "PersonName": "Cole, Block and Wunsch",
+      "AssociateId": 841,
+      "Address": "odio",
+      "EmailId": 619,
       "DuplicatePersonIds": [
-        803,
-        561
+        35,
+        823
       ],
-      "Name": "Greenholt-Howe",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 8
-        }
-      }
-    }
-  ],
-  "Subject": "et",
-  "HTMLBody": "temporibus",
-  "From": null,
-  "Sent": "2022-10-01T14:45:05.4751404+02:00",
-  "Size": 82,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "quos",
-  "PlainBody": "aut",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 972,
-  "Attachments": [
-    {
-      "Description": "Robust client-driven service-desk",
-      "Filename": "suscipit",
-      "Size": 666,
-      "Type": "sint",
-      "Encoding": "in",
-      "Id": "facere",
-      "Disposition": "consectetur",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Nitzsche, Gutkowski and Nitzsche",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldLength": 339
+        }
+      }
+    }
+  ],
+  "Subject": "cum",
+  "HTMLBody": "ipsum",
+  "From": null,
+  "Sent": "2009-08-06T10:17:55.5352844+02:00",
+  "Size": 493,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "harum",
+  "PlainBody": "illum",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 721,
+  "Attachments": [
+    {
+      "Description": "Ergonomic fault-tolerant customer loyalty",
+      "Filename": "perferendis",
+      "Size": 436,
+      "Type": "qui",
+      "Encoding": "aut",
+      "Id": "aliquid",
+      "Disposition": "dicta",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Collins-Swift",
+      "Name": "Thompson, Weimann and Bashirian",
       "Values": [
-        "consequuntur",
-        "vel"
+        "alias",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 371
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     },
     {
-      "Name": "Collins-Swift",
+      "Name": "Thompson, Weimann and Bashirian",
       "Values": [
-        "consequuntur",
-        "vel"
+        "alias",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 371
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     }
   ],
-  "FolderName": "Considine Inc and Sons",
-  "EmailItemId": 94,
-  "AccountId": 181,
-  "ReceivedAt": "2003-04-12T14:45:05.4751404+02:00",
+  "FolderName": "Wunsch-Hauck",
+  "EmailItemId": 822,
+  "AccountId": 411,
+  "ReceivedAt": "2015-08-12T10:17:55.5352844+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-12-18T14:45:05.4751404+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-03-06T10:17:55.5352844+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Jan 2010 14:45:13 G1T
+Last-Modified: Wed, 04 Sep 2002 10:18:00 G9T
 
 {
-  "BlobId": 719,
-  "BlobSize": 860,
-  "Description": "Profit-focused 3rd generation hierarchy",
-  "ExtraInfo": "eveniet",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "atque",
-  "OriginalSize": 730,
-  "CreatedDate": "2020-05-13T14:45:13.4430534+02:00",
-  "UpdatedDate": "2010-01-13T14:45:13.4430534+01:00",
+  "BlobId": 991,
+  "BlobSize": 55,
+  "Description": "Multi-channelled object-oriented open system",
+  "ExtraInfo": "illo",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "praesentium",
+  "OriginalSize": 749,
+  "CreatedDate": "2000-01-27T10:18:00.8481067+01:00",
+  "UpdatedDate": "2002-09-04T10:18:00.8481067+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 724
     }
   }
 }

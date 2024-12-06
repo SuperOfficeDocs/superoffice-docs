@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 276,
-  "Year": 896,
-  "TargetDimensionId": 685
+  "UserGroupId": 556,
+  "Year": 323,
+  "TargetDimensionId": 921
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 880,
+    "TargetAssignmentInfoId": 366,
     "Values": [
-      391,
-      349
+      560,
+      972
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 30,
-    "DimensionListItemDisplayName": "Lindgren-Lowe",
+    "DimensionListItem": 229,
+    "DimensionListItemDisplayName": "Osinski, Veum and Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 309
       }
     }
   }

@@ -93,7 +93,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Kutch Inc and Sons"
+  "FunctionalRightName": "Beatty Inc and Sons"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Wolff-Goyette",
-    "ToolTip": "Eius reprehenderit.",
+    "Id": 944,
+    "Name": "Adams Group",
+    "ToolTip": "Ipsa quod.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "animi",
+    "Rank": 866,
+    "Type": "quibusdam",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Kessler, Heller and Abernathy",
-        "ToolTip": "Necessitatibus delectus.",
-        "Deleted": false,
-        "Rank": 427,
-        "Type": "qui",
+        "Id": 494,
+        "Name": "Haley Group",
+        "ToolTip": "Facere qui quia aut.",
+        "Deleted": true,
+        "Rank": 675,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "earum",
-        "ColorBlock": 292,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "dolores",
-        "FullName": "Isabella Brant Ryan DDS",
+        "IconHint": "voluptatem",
+        "ColorBlock": 941,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "eum",
+        "FullName": "Darien Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 441
+            "FieldLength": 321
           }
         }
       }
     ],
-    "IconHint": "consequuntur",
-    "ColorBlock": 595,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "sequi",
-    "FullName": "Polly McLaughlin",
+    "IconHint": "et",
+    "ColorBlock": 449,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "voluptatum",
+    "FullName": "Ms. Ramiro Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

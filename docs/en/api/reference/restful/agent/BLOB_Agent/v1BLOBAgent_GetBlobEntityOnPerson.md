@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 308
+  "PersonId": 443
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 4,
-  "BlobSize": 169,
-  "Description": "Sharable upward-trending benchmark",
-  "ExtraInfo": "commodi",
-  "IsEncrypted": false,
+  "BlobId": 725,
+  "BlobSize": 760,
+  "Description": "Monitored object-oriented neural-net",
+  "ExtraInfo": "porro",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "harum",
-  "OriginalSize": 832,
-  "CreatedDate": "2017-06-25T14:45:04.8971429+02:00",
-  "UpdatedDate": "2022-01-02T14:45:04.8971429+01:00",
+  "MimeType": "fuga",
+  "OriginalSize": 332,
+  "CreatedDate": "2017-03-23T10:17:55.1446361+01:00",
+  "UpdatedDate": "2013-04-14T10:17:55.1446361+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt",
+  "ConceptualType": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 189
     }
   }
 }

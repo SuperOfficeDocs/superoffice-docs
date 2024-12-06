@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Jaskolski-Prosacco",
-    "ToolTip": "Ut nemo maxime aut error et quasi.",
-    "Deleted": false,
-    "Rank": 375,
-    "Type": "et",
+    "Id": 415,
+    "Name": "Cummerata-Bogan",
+    "ToolTip": "Inventore in.",
+    "Deleted": true,
+    "Rank": 934,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "West-Harvey",
-        "ToolTip": "Suscipit et in sint.",
+        "Id": 763,
+        "Name": "Roob Inc and Sons",
+        "ToolTip": "Alias quidem.",
         "Deleted": false,
-        "Rank": 454,
-        "Type": "qui",
+        "Rank": 533,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 475,
-        "ExtraInfo": "qui",
-        "StyleHint": "temporibus",
-        "FullName": "Chase Hauck",
+        "IconHint": "molestiae",
+        "ColorBlock": 717,
+        "ExtraInfo": "error",
+        "StyleHint": "rerum",
+        "FullName": "Kelton Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 700
+            "FieldLength": 63
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 186,
-    "ExtraInfo": "error",
-    "StyleHint": "iste",
-    "FullName": "Bailee Heller",
+    "IconHint": "ab",
+    "ColorBlock": 900,
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolores",
+    "FullName": "Miss Marlin Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 609
       }
     }
   }

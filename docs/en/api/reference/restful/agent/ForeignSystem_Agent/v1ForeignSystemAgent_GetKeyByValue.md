@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pollich, Lindgren and Langworth",
-  "DeviceName": "Nienow Group",
-  "KeyName": "Gleason Group",
-  "KeyValue": "distinctio",
-  "TableName": "Baumbach, Dickens and Schuster"
+  "ApplicationName": "Tromp, Jewess and Hintz",
+  "DeviceName": "Altenwerth, Lesch and Glover",
+  "KeyName": "Pouros, O'Connell and Nikolaus",
+  "KeyValue": "sapiente",
+  "TableName": "Willms, Pouros and McLaughlin"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ducimus",
-  "Value": "doloremque",
-  "RecordId": 364,
-  "CreatedDate": "2002-02-21T14:45:05.6469762+01:00",
-  "UpdatedDate": "2024-06-23T14:45:05.6469762+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "quia",
-  "TableName": "Herman-Cormier",
+  "Key": "amet",
+  "Value": "minus",
+  "RecordId": 999,
+  "CreatedDate": "2022-02-24T10:17:55.660285+01:00",
+  "UpdatedDate": "2000-03-01T10:17:55.660285+01:00",
+  "UpdatedBy": "sint",
+  "CreatedBy": "ut",
+  "TableName": "Weber, Torphy and Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

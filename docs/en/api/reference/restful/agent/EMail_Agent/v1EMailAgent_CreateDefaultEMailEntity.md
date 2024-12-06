@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,147 +97,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 394,
-      "ContactName": "Macejkovic LLC",
-      "PersonId": 125,
-      "PersonName": "Mosciski LLC",
-      "AssociateId": 312,
-      "Address": "nam",
-      "EmailId": 604,
+      "ContactId": 181,
+      "ContactName": "Kerluke, Fritsch and Weissnat",
+      "PersonId": 667,
+      "PersonName": "Hackett Inc and Sons",
+      "AssociateId": 798,
+      "Address": "quo",
+      "EmailId": 922,
       "DuplicatePersonIds": [
-        489,
-        174
+        422,
+        448
       ],
-      "Name": "Nader, Gulgowski and Ratke",
+      "Name": "Hermann-Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 282
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 827,
-      "ContactName": "Hickle-Lesch",
-      "PersonId": 79,
-      "PersonName": "Monahan-Wisozk",
-      "AssociateId": 552,
-      "Address": "ut",
-      "EmailId": 830,
+      "ContactId": 444,
+      "ContactName": "Schamberger, Kunze and Stanton",
+      "PersonId": 492,
+      "PersonName": "Tremblay-Zboncak",
+      "AssociateId": 508,
+      "Address": "aliquid",
+      "EmailId": 806,
       "DuplicatePersonIds": [
-        742,
-        231
+        697,
+        447
       ],
-      "Name": "Ledner Group",
+      "Name": "Donnelly-Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 74
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 132,
-      "ContactName": "Rosenbaum-Robel",
-      "PersonId": 311,
-      "PersonName": "Champlin Group",
-      "AssociateId": 674,
-      "Address": "omnis",
-      "EmailId": 676,
+      "ContactId": 228,
+      "ContactName": "Cummings Inc and Sons",
+      "PersonId": 693,
+      "PersonName": "Zulauf LLC",
+      "AssociateId": 457,
+      "Address": "nisi",
+      "EmailId": 94,
       "DuplicatePersonIds": [
-        884,
-        467
+        278,
+        376
       ],
-      "Name": "Jast LLC",
+      "Name": "Lemke-O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldLength": 555
         }
       }
     }
   ],
-  "Subject": "voluptatum",
-  "HTMLBody": "deleniti",
+  "Subject": "nesciunt",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2003-03-06T14:45:05.5220031+01:00",
-  "Size": 191,
+  "Sent": "2013-07-21T10:17:55.5821627+02:00",
+  "Size": 474,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "omnis",
-  "PlainBody": "quod",
-  "IsSent": true,
+  "MessageID": "dolores",
+  "PlainBody": "consequatur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 663,
+  "ServerId": 687,
   "Attachments": [
     {
-      "Description": "Self-enabling eco-centric solution",
-      "Filename": "aspernatur",
-      "Size": 300,
-      "Type": "laborum",
-      "Encoding": "modi",
-      "Id": "minus",
-      "Disposition": "odit",
+      "Description": "De-engineered actuating protocol",
+      "Filename": "ut",
+      "Size": 240,
+      "Type": "molestiae",
+      "Encoding": "dicta",
+      "Id": "explicabo",
+      "Disposition": "fugiat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldType": "System.String",
+          "FieldLength": 585
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weimann, Deckow and Dooley",
+      "Name": "Jenkins-Quitzon",
       "Values": [
-        "facere",
-        "rerum"
+        "doloremque",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 155
         }
       }
     },
     {
-      "Name": "Weimann, Deckow and Dooley",
+      "Name": "Jenkins-Quitzon",
       "Values": [
-        "facere",
-        "rerum"
+        "doloremque",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 155
         }
       }
     }
   ],
-  "FolderName": "Wuckert-Wuckert",
-  "EmailItemId": 360,
-  "AccountId": 153,
-  "ReceivedAt": "2021-06-28T14:45:05.5220031+02:00",
+  "FolderName": "Considine-Kling",
+  "EmailItemId": 312,
+  "AccountId": 671,
+  "ReceivedAt": "2008-01-03T10:17:55.5821627+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-04-17T14:45:05.5220031+02:00",
+  "RepliedAt": "2020-05-01T10:17:55.5821627+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 457
     }
   }
 }

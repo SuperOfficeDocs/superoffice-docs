@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Effertz, Bartell and Windler",
-  "Tooltip": "in",
+  "Id": 253,
+  "Name": "Murazik, Gutmann and Windler",
+  "Tooltip": "culpa",
   "Deleted": true,
-  "Rank": 456,
+  "Rank": 933,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "ListType": "facere",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 508,
-  "Name": "Schuppe, Lubowitz and Carter",
-  "Tooltip": "assumenda",
+  "Id": 356,
+  "Name": "Friesen LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 127,
+  "Rank": 520,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "in",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 613
     }
   }
 }

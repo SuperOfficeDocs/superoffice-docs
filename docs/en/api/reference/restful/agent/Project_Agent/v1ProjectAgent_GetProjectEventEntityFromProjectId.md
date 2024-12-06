@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 861
+  "ProjectId": 757
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "labore",
-  "SignOffText": "doloremque",
-  "SignOnConfirmationText": "aperiam",
-  "SignOnText": "iusto",
-  "EventDate": "1998-07-28T14:45:06.0062702+02:00",
+  "SignOffConfirmationText": "tempora",
+  "SignOffText": "enim",
+  "SignOnConfirmationText": "aliquid",
+  "SignOnText": "rem",
+  "EventDate": "2022-09-24T10:17:55.8946817+02:00",
   "Enabled": false,
-  "CreatedDate": "2016-07-14T14:45:06.0062702+02:00",
+  "CreatedDate": "2019-08-28T10:17:55.8946817+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 715,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 513,
+  "SignOffTriggersAssign": true,
   "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 693,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2015-07-17T14:45:06.0062702+02:00",
+  "SignOnTaskId": 825,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "2020-01-06T10:17:55.8946817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 748,
-  "Id": 606,
-  "PublishFrom": "2020-03-25T14:45:06.0062702+01:00",
+  "ProjectId": 276,
+  "Id": 706,
+  "PublishFrom": "2004-02-13T10:17:55.8946817+01:00",
   "PublishType": "External",
-  "PublishTo": "1999-02-28T14:45:06.0062702+01:00",
+  "PublishTo": "2014-06-27T10:17:55.8946817+02:00",
   "VisibleForCategories": [
     {
-      "Id": 819,
-      "Name": "Rice-Greenholt",
-      "ToolTip": "Animi ut a.",
+      "Id": 250,
+      "Name": "Moen, Brown and Jast",
+      "ToolTip": "Voluptatem qui id libero sint.",
       "Deleted": false,
-      "Rank": 316,
-      "Type": "dolores",
+      "Rank": 317,
+      "Type": "aliquam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laboriosam",
-      "ColorBlock": 123,
-      "ExtraInfo": "est",
-      "StyleHint": "tempora",
-      "FullName": "Rosalinda Cormier",
+      "IconHint": "placeat",
+      "ColorBlock": 291,
+      "ExtraInfo": "dolore",
+      "StyleHint": "aut",
+      "FullName": "Wade Dorian Bradtke IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 273
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 23,
-      "Name": "Bogan Inc and Sons",
-      "ToolTip": "Perferendis inventore ut aut velit culpa voluptas quaerat.",
-      "Deleted": false,
-      "Rank": 817,
-      "Type": "dicta",
+      "Id": 730,
+      "Name": "Romaguera-Streich",
+      "ToolTip": "Tempore porro iusto voluptatum sit.",
+      "Deleted": true,
+      "Rank": 49,
+      "Type": "tempora",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aperiam",
-      "ColorBlock": 757,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "impedit",
-      "FullName": "Selmer Purdy",
+      "IconHint": "repellat",
+      "ColorBlock": 982,
+      "ExtraInfo": "quidem",
+      "StyleHint": "dolores",
+      "FullName": "Maximillian Mraz II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 123
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 894,
+  "ProjectEventId": 882,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 109
     }
   }
 }

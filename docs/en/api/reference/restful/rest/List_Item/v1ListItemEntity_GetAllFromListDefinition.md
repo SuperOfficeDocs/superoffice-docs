@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Hand, O'Conner and Donnelly",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 686,
-    "Rank": 575,
+    "Id": 127,
+    "Name": "Zboncak LLC",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "UdListDefinitionId": 373,
+    "Rank": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

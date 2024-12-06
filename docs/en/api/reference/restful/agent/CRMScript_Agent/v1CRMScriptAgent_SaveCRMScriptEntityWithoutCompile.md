@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 509,
-  "UniqueIdentifier": "iste",
-  "Name": "Rempel-Sipes",
-  "Description": "Persistent 4th generation service-desk",
-  "IncludeId": "atque",
-  "AccessKey": "velit",
-  "HierarchyId": 830,
-  "Source": "ea",
-  "SourceCode": "voluptatum",
+  "EjscriptId": 787,
+  "UniqueIdentifier": "corrupti",
+  "Name": "Price, Shanahan and Purdy",
+  "Description": "Devolved 3rd generation methodology",
+  "IncludeId": "laborum",
+  "AccessKey": "eligendi",
+  "HierarchyId": 849,
+  "Source": "aliquam",
+  "SourceCode": "doloremque",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 354,
+  "HtmlOutput": 45,
   "Includes": [
-    867,
-    62
+    764,
+    224
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 771,
-      "LineNumberTo": 694,
-      "Delta": 87,
-      "IncludeId": "odit",
+      "LineNumberFrom": 825,
+      "LineNumberTo": 675,
+      "Delta": 904,
+      "IncludeId": "ut",
       "IncludedFrom": [
-        "magnam",
-        "sit"
+        "sunt",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 353
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-12-17T14:45:05.1627086+01:00",
-  "RegisteredAssociateId": 484,
-  "Updated": "2000-10-30T14:45:05.1627086+01:00",
-  "UpdatedAssociateId": 920,
+  "Registered": "2014-10-20T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 813,
+  "Updated": "2015-01-16T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

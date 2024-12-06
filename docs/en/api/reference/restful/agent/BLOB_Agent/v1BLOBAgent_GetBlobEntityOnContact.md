@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 981
+  "ContactId": 936
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 816,
-  "BlobSize": 729,
-  "Description": "Business-focused grid-enabled hardware",
-  "ExtraInfo": "qui",
+  "BlobId": 472,
+  "BlobSize": 836,
+  "Description": "Open-architected interactive migration",
+  "ExtraInfo": "minus",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 903,
-  "CreatedDate": "2004-12-07T14:45:04.9127653+01:00",
-  "UpdatedDate": "2014-05-20T14:45:04.9127653+02:00",
+  "MimeType": "ratione",
+  "OriginalSize": 377,
+  "CreatedDate": "2017-10-26T10:17:55.1446361+02:00",
+  "UpdatedDate": "2001-03-09T10:17:55.1446361+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "porro",
+  "ConceptualType": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 729
     }
   }
 }

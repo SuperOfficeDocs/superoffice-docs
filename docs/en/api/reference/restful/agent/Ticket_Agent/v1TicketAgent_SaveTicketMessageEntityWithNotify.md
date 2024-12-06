@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 54,
+  "EjMessageId": 211,
   "Ticket": null,
-  "CreatedAt": "2002-03-11T14:45:06.584269+01:00",
+  "CreatedAt": "2001-10-31T10:17:56.2853287+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 203,
-  "Body": "consequatur",
-  "HtmlBody": "possimus",
-  "EmailHeader": "trace@nolan.info",
-  "DebugInfo": "officia",
-  "MailSorter": "voluptas",
+  "MessageId": "sapiente",
+  "TimeSpent": 621,
+  "Body": "veritatis",
+  "HtmlBody": "quam",
+  "EmailHeader": "jabari@johnston.co.uk",
+  "DebugInfo": "laudantium",
+  "MailSorter": "exercitationem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "rem",
   "MessageHeaders": [
     {
-      "Id": 273,
-      "Name": "Smitham Group",
-      "Value": "non",
+      "Id": 274,
+      "Name": "Skiles-Brown",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quia",
-  "Sentiment": 891,
-  "SentimentConfidence": 685,
+  "Language": "iste",
+  "Sentiment": 743,
+  "SentimentConfidence": 366,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 145,
-      "Name": "Lind, Gutmann and Harber",
-      "ContentType": "quisquam",
-      "AttSize": 93,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "aliquid",
+      "AttachmentId": 842,
+      "Name": "Cummerata, Orn and Kutch",
+      "ContentType": "ab",
+      "AttSize": 234,
+      "InlineImage": true,
+      "ContentId": "quidem",
+      "AuthKey": "rem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 260
+          "FieldLength": 378
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "autem"
+    "CustomFields1": "sunt",
+    "CustomFields2": "sequi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

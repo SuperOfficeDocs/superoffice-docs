@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 453,
-    "Name": "Stracke, Schaden and Kulas",
+    "TicketStatusId": 331,
+    "Name": "Champlin LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

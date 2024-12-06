@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 964,
-  "Name": "Reichert-Walter",
-  "Tooltip": "facere",
-  "Rank": 197,
-  "DoctmplId": 552,
-  "Header": "eveniet",
-  "OurRef": "iusto",
-  "Deleted": false,
+  "SuggestedDocumentId": 150,
+  "Name": "Sipes, Pagac and Green",
+  "Tooltip": "voluptas",
+  "Rank": 696,
+  "DoctmplId": 820,
+  "Header": "placeat",
+  "OurRef": "dicta",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 861,
-  "Name": "Armstrong Inc and Sons",
-  "Tooltip": "non",
-  "Rank": 450,
-  "DoctmplId": 398,
-  "Header": "quos",
+  "SuggestedDocumentId": 158,
+  "Name": "Halvorson, Goldner and Mann",
+  "Tooltip": "eum",
+  "Rank": 522,
+  "DoctmplId": 995,
+  "Header": "et",
   "OurRef": "aut",
-  "Deleted": true,
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 218
     }
   }
 }

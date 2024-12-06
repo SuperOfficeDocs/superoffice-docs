@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 433,
-  "ListItemId": 352,
-  "ShowDeleted": true
+  "UdListDefinitionId": 528,
+  "ListItemId": 215,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Mante-Waelchi",
-    "ToolTip": "Impedit consequatur aut veritatis incidunt distinctio culpa voluptas.",
-    "Deleted": true,
-    "Rank": 905,
-    "Type": "soluta",
-    "ColorBlock": 309,
-    "IconHint": "rem",
-    "Selected": false,
-    "LastChanged": "2020-09-06T14:45:05.7094637+02:00",
+    "Id": 748,
+    "Name": "Wyman LLC",
+    "ToolTip": "Aut eos et animi.",
+    "Deleted": false,
+    "Rank": 788,
+    "Type": "qui",
+    "ColorBlock": 594,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2004-07-13T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Gulgowski LLC",
-        "ToolTip": "Enim atque dolor quia quia rerum vitae.",
-        "Deleted": true,
-        "Rank": 232,
-        "Type": "et",
-        "ColorBlock": 278,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2015-12-11T14:45:05.7094637+01:00",
+        "Id": 883,
+        "Name": "Oberbrunner-Dicki",
+        "ToolTip": "In et accusamus non quis ut eum.",
+        "Deleted": false,
+        "Rank": 393,
+        "Type": "perspiciatis",
+        "ColorBlock": 626,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2006-03-25T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "asperiores",
-        "Hidden": false,
-        "FullName": "Kristin Langosh",
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Lurline Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 384
+            "FieldLength": 790
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "nihil",
+    "ExtraInfo": "in",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Abagail Blanda",
+    "FullName": "Evert Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldLength": 402
       }
     }
   }

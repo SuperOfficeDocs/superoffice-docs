@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Predovic, Dare and Johnson",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 319,
-  "Rank": 963,
+  "Id": 805,
+  "Name": "Treutel, Gusikowski and Brakus",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 830,
+  "Rank": 893,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldLength": 127
     }
   }
 }

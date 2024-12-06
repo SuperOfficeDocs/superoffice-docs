@@ -26,7 +26,7 @@ Gets a Position object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPosition?positionId=853
+POST /api/v1/Agents/List/GetPosition?positionId=741
 POST /api/v1/Agents/List/GetPosition?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetPosition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Value": "culpa",
-  "Tooltip": "et",
+  "Id": 27,
+  "Value": "nostrum",
+  "Tooltip": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 675
     }
   }
 }

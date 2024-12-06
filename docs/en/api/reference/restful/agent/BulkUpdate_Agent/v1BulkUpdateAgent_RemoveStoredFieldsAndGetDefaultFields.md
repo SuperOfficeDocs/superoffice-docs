@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gerlach Group",
-  "Context": "aut"
+  "TableName": "Roob-Langosh",
+  "Context": "at"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "voluptatem",
-    "ValueType": "explicabo",
-    "Mandatory": true,
-    "EncodedDisplayName": "Tillman-Hermiston",
-    "EncodedDisplayDescription": "Business-focused zero defect secured line",
-    "IconHint": "eum",
+    "Key": "quis",
+    "ValueType": "labore",
+    "Mandatory": false,
+    "EncodedDisplayName": "DuBuque-Jast",
+    "EncodedDisplayDescription": "Digitized bandwidth-monitored migration",
+    "IconHint": "aliquid",
     "ControlInfos": [
       {
-        "Type": "deserunt",
-        "Label": "delectus",
-        "Dimension": 991,
-        "ListProviderName": "Ebert, Muller and Dooley",
-        "ListProviderExtraInfo": "voluptatum",
-        "ListProviderPrimaryKeyName": "Pagac Group",
-        "ListLeadText": "excepturi",
+        "Type": "molestias",
+        "Label": "numquam",
+        "Dimension": 829,
+        "ListProviderName": "Schimmel-Towne",
+        "ListProviderExtraInfo": "nihil",
+        "ListProviderPrimaryKeyName": "Bins Group",
+        "ListLeadText": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldType": "System.String",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "EncodedDataCaption": "reiciendis",
-    "EncodedDataCaptionDescription": "Configurable methodical system engine",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "est",
+    "EncodedDataCaptionDescription": "Mandatory regional moderator",
+    "CurrentOperationType": "assumenda",
     "Values": [
-      "dolores",
-      "et"
+      "reprehenderit",
+      "temporibus"
     ],
     "DisplayValues": [
-      "sunt",
-      "nostrum"
+      "quidem",
+      "minima"
     ],
     "OperationInfos": [
       {
-        "Key": "repellat",
-        "EncodedDisplayName": "Leuschke Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Fahey Inc and Sons",
         "EncodedLeadTexts": [
-          "at",
-          "ea"
+          "doloremque",
+          "et"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 753
           }
         }
       },
       {
-        "Key": "repellat",
-        "EncodedDisplayName": "Leuschke Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Fahey Inc and Sons",
         "EncodedLeadTexts": [
-          "at",
-          "ea"
+          "doloremque",
+          "et"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldLength": 753
           }
         }
       }

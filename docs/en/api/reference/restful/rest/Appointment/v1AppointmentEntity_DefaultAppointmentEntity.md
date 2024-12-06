@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Jul 1999 14:45:12 G7T
+Last-Modified: Fri, 07 Jun 2002 10:18:00 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-05-21T14:45:12.3649359+02:00",
-  "AppointmentId": 953,
-  "Description": "Optimized zero defect analyzer",
-  "Title": "iusto",
-  "Agenda": "delectus",
-  "InternalNotes": "pariatur",
-  "StartDate": "2014-11-22T14:45:12.3649359+01:00",
-  "EndDate": "2013-10-17T14:45:12.3649359+02:00",
+  "CreatedDate": "2003-11-22T10:18:00.1136876+01:00",
+  "AppointmentId": 368,
+  "Description": "Managed cohesive application",
+  "Title": "aliquam",
+  "Agenda": "consequatur",
+  "InternalNotes": "possimus",
+  "StartDate": "2009-01-14T10:18:00.1136876+01:00",
+  "EndDate": "2018-10-07T10:18:00.1136876+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 810,
+  "MotherId": 318,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-07-27T14:45:12.3649359+02:00",
+  "UpdatedDate": "2002-06-07T10:18:00.1136876+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 814,
+  "ActiveLinks": 611,
   "Links": [
     {
-      "EntityName": "Haley Group",
-      "Id": 183,
-      "Description": "Pre-emptive fresh-thinking protocol",
-      "ExtraInfo": "sit",
-      "LinkId": 800,
+      "EntityName": "Reichert-Shields",
+      "Id": 523,
+      "Description": "Configurable transitional utilisation",
+      "ExtraInfo": "est",
+      "LinkId": 202,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     }
   ],
-  "AlarmLeadTime": "deserunt",
-  "HasAlarm": false,
-  "ColorIndex": 522,
-  "IsFree": false,
+  "AlarmLeadTime": "quia",
+  "HasAlarm": true,
+  "ColorIndex": 95,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "magnam",
-  "LeadTime": "qui",
-  "Location": "libero",
-  "RejectCounter": 603,
+  "LagTime": "sit",
+  "LeadTime": "dolores",
+  "Location": "porro",
+  "RejectCounter": 492,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 649,
-      "PersonId": 393,
-      "ContactId": 453,
-      "EmailId": 197,
+      "AssociateId": 414,
+      "PersonId": 283,
+      "ContactId": 115,
+      "EmailId": 196,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "meghan_schmitt@cartwright.us",
-      "Description": "Switchable logistical projection"
+      "EmailAddress": "fletcher_gerlach@goldner.biz",
+      "Description": "Innovative didactic hardware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-12-29T14:45:12.3649359+01:00",
+  "ActiveDate": "2000-05-04T10:18:00.1136876+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 758,
+  "PreferredTZLocation": 29,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 841,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 563,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eius",
+  "CentralserviceVideomeetId": "unde",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Roscoe Gutkowski"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "729791205"
   },
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eos"
+    "CustomFields1": "similique",
+    "CustomFields2": "animi"
   },
-  "PublishEventDate": "2018-04-07T14:45:12.3649359+02:00",
-  "PublishTo": "2000-09-20T14:45:12.3649359+02:00",
-  "PublishFrom": "2002-05-12T14:45:12.3649359+02:00",
+  "PublishEventDate": "2024-02-07T10:18:00.1136876+01:00",
+  "PublishTo": "2010-03-24T10:18:00.1136876+01:00",
+  "PublishFrom": "2011-03-14T10:18:00.1136876+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 574,
+      "VisibleId": 642,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 179
         }
       }
     },
     {
-      "VisibleId": 574,
+      "VisibleId": 642,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 179
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Tue, 27 Jul 1999 14:45:12 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

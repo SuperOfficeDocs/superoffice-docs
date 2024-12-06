@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 588,
-  "Name": "Dach Group",
-  "Tooltip": "aspernatur",
+  "Id": 399,
+  "Name": "Olson, Upton and Hudson",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 308,
+  "Rank": 249,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
-  "Name": "Torphy LLC",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 711,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 510,
+  "Name": "Kessler-Pagac",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 71,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "placeat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldLength": 633
     }
   }
 }

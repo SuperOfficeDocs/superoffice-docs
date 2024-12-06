@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Halvorson, Weissnat and Bosco",
-    "ToolTip": "Qui et iste.",
-    "Deleted": true,
-    "Rank": 828,
-    "Type": "dolor",
-    "ColorBlock": 205,
-    "IconHint": "nihil",
+    "Id": 882,
+    "Name": "Fisher-Gislason",
+    "ToolTip": "Fugit est et fugit asperiores quo.",
+    "Deleted": false,
+    "Rank": 403,
+    "Type": "eius",
+    "ColorBlock": 567,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2016-12-07T14:45:13.786728+01:00",
+    "LastChanged": "2004-03-15T10:18:01.0668705+01:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Sanford, Abshire and Hahn",
-        "ToolTip": "Cumque qui autem dolore.",
+        "Id": 521,
+        "Name": "O'Reilly, Johnson and Reinger",
+        "ToolTip": "Amet similique consectetur et.",
         "Deleted": true,
-        "Rank": 737,
-        "Type": "vel",
-        "ColorBlock": 484,
-        "IconHint": "vel",
+        "Rank": 839,
+        "Type": "nam",
+        "ColorBlock": 180,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "1999-10-21T14:45:13.786728+02:00",
+        "LastChanged": "1999-07-23T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "id",
+        "ExtraInfo": "a",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Aletha Maggio",
+        "FullName": "Fritz Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Mrs. Lambert Russel",
+    "ExtraInfo": "cum",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Prof. Clyde Anika Harvey PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

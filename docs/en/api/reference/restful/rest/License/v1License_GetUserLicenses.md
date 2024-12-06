@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cole, Brown and Abshire",
-    "Description": "Right-sized discrete initiative",
+    "Name": "King, Berge and Jerde",
+    "Description": "Intuitive context-sensitive info-mediaries",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 742,
-        "Tooltip": "velit",
+        "Unrestricted": false,
+        "Total": 785,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 851,
-        "InUse": 918,
+        "Free": 875,
+        "InUse": 366,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 908,
-        "Name": "Hodkiewicz Inc and Sons",
-        "Description": "Pre-emptive multi-tasking projection",
-        "PrerequisiteModuleName": "Grady-Hilll",
-        "SortOrder": 179,
-        "ExtraFlags": 526,
+        "Assigned": true,
+        "ModuleLicenseId": 767,
+        "Name": "Kiehn-Hoeger",
+        "Description": "Front-line maximized array",
+        "PrerequisiteModuleName": "Torphy, Friesen and Lind",
+        "SortOrder": 368,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldType": "System.Int32",
+            "FieldLength": 171
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 120,
-        "Tooltip": "quas",
-        "CanAssign": false,
-        "Free": 765,
-        "InUse": 159,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 132,
-        "Name": "Block-Jacobs",
-        "Description": "Organic next generation software",
-        "PrerequisiteModuleName": "Smith LLC",
-        "SortOrder": 740,
-        "ExtraFlags": 305,
+        "Total": 850,
+        "Tooltip": "sunt",
+        "CanAssign": true,
+        "Free": 545,
+        "InUse": 91,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 16,
+        "Name": "Mayert-Durgan",
+        "Description": "Reduced scalable collaboration",
+        "PrerequisiteModuleName": "Lemke Group",
+        "SortOrder": 868,
+        "ExtraFlags": 292,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   },
   {
-    "Name": "Cole, Brown and Abshire",
-    "Description": "Right-sized discrete initiative",
+    "Name": "King, Berge and Jerde",
+    "Description": "Intuitive context-sensitive info-mediaries",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 742,
-        "Tooltip": "velit",
+        "Unrestricted": false,
+        "Total": 785,
+        "Tooltip": "impedit",
         "CanAssign": false,
-        "Free": 851,
-        "InUse": 918,
+        "Free": 875,
+        "InUse": 366,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 908,
-        "Name": "Hodkiewicz Inc and Sons",
-        "Description": "Pre-emptive multi-tasking projection",
-        "PrerequisiteModuleName": "Grady-Hilll",
-        "SortOrder": 179,
-        "ExtraFlags": 526,
+        "Assigned": true,
+        "ModuleLicenseId": 767,
+        "Name": "Kiehn-Hoeger",
+        "Description": "Front-line maximized array",
+        "PrerequisiteModuleName": "Torphy, Friesen and Lind",
+        "SortOrder": 368,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldType": "System.Int32",
+            "FieldLength": 171
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 120,
-        "Tooltip": "quas",
-        "CanAssign": false,
-        "Free": 765,
-        "InUse": 159,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 132,
-        "Name": "Block-Jacobs",
-        "Description": "Organic next generation software",
-        "PrerequisiteModuleName": "Smith LLC",
-        "SortOrder": 740,
-        "ExtraFlags": 305,
+        "Total": 850,
+        "Tooltip": "sunt",
+        "CanAssign": true,
+        "Free": 545,
+        "InUse": 91,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 16,
+        "Name": "Mayert-Durgan",
+        "Description": "Reduced scalable collaboration",
+        "PrerequisiteModuleName": "Lemke Group",
+        "SortOrder": 868,
+        "ExtraFlags": 292,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

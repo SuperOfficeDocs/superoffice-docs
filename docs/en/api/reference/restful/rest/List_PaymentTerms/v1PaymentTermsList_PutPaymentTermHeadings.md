@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Spencer-Walter",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 333,
-    "UdListDefinitionId": 58
+    "HeadingId": 424,
+    "Name": "Stiedemann, Braun and Sporer",
+    "Tooltip": "modi",
+    "Deleted": false,
+    "Rank": 531,
+    "UdListDefinitionId": 166
   },
   {
-    "HeadingId": 97,
-    "Name": "Spencer-Walter",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 333,
-    "UdListDefinitionId": 58
+    "HeadingId": 424,
+    "Name": "Stiedemann, Braun and Sporer",
+    "Tooltip": "modi",
+    "Deleted": false,
+    "Rank": 531,
+    "UdListDefinitionId": 166
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 503,
-    "Name": "Hoeger LLC",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "Rank": 81,
-    "UdListDefinitionId": 459,
+    "HeadingId": 182,
+    "Name": "Cruickshank, Murray and Haley",
+    "Tooltip": "ipsam",
+    "Deleted": false,
+    "Rank": 710,
+    "UdListDefinitionId": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

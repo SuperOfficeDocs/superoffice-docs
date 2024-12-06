@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 200,
-    "Name": "Boehm LLC",
-    "Tooltip": "vel",
+    "HeadingId": 903,
+    "Name": "Gerhold-Macejkovic",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 480,
-    "UdListDefinitionId": 367,
+    "Rank": 421,
+    "UdListDefinitionId": 78,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   }

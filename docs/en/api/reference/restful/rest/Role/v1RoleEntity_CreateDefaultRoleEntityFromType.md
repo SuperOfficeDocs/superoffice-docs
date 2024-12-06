@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 715,
-  "Name": "Eichmann-Buckridge",
-  "Tooltip": "vero",
+  "RoleId": 239,
+  "Name": "Abshire-King",
+  "Tooltip": "vel",
   "RoleType": "Anonymous",
-  "Deleted": 674,
-  "Rank": 603,
-  "Created": "2005-09-12T14:45:13.1306367+02:00",
-  "UseCategories": 371,
+  "Deleted": 778,
+  "Rank": 287,
+  "Created": "2017-11-17T10:18:00.5355883+01:00",
+  "UseCategories": 574,
   "CreatedBy": null,
-  "Updated": "2024-02-28T14:45:13.1306367+01:00",
+  "Updated": "2003-10-18T10:18:00.5355883+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 745
     }
   }
 }

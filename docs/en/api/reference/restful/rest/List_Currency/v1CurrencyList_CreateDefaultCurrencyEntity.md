@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 58,
-  "Name": "Beer Group",
-  "Tooltip": "vero",
-  "Rank": 928,
-  "Rate": 27065.224,
-  "Units": 30327.718,
-  "Deleted": false,
+  "CurrencyId": 436,
+  "Name": "Batz LLC",
+  "Tooltip": "tempore",
+  "Rank": 977,
+  "Rate": 28024.228,
+  "Units": 28525.667999999998,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldLength": 534
     }
   }
 }

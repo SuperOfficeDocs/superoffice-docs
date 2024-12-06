@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,40 +78,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "RefCountsId": 475,
-  "Field": "et",
-  "RecordId": 284,
+  "Field": "modi",
+  "RecordId": 584,
   "SuggestedRecords": [
     {
-      "Id": 300,
-      "Name": "Mertz, Hilll and Koepp",
-      "ToolTip": "Minima rerum et.",
+      "Id": 433,
+      "Name": "Rice Group",
+      "ToolTip": "Illum blanditiis aut et et.",
       "Deleted": false,
-      "Rank": 631,
-      "Type": "dolorem",
+      "Rank": 790,
+      "Type": "veniam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 461,
-      "ExtraInfo": "et",
-      "StyleHint": "sed",
-      "FullName": "Devante Hellen Luettgen I",
+      "IconHint": "minus",
+      "ColorBlock": 106,
+      "ExtraInfo": "vel",
+      "StyleHint": "consequatur",
+      "FullName": "Hilton Corwin I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 61
         }
       }
     }
   ],
-  "CurrentValue": 987,
-  "TravelPrefix": 611,
-  "SatPrefix": 737,
-  "Allocate": false,
-  "Unique": false,
+  "CurrentValue": 413,
+  "TravelPrefix": 198,
+  "SatPrefix": 788,
+  "Allocate": true,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 642
     }
   }
 }

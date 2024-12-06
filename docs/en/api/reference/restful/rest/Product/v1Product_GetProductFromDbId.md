@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 363,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "nulla",
-  "Name": "Langosh Group",
-  "Description": "Persevering intangible Graphic Interface",
-  "Code": "est",
-  "PriceUnit": "doloremque",
-  "QuantityUnit": "rerum",
+  "ProductId": 633,
+  "ERPProductKey": "commodi",
+  "ERPPriceListKey": "labore",
+  "Name": "Bayer-Cassin",
+  "Description": "Devolved tangible model",
+  "Code": "unde",
+  "PriceUnit": "fugiat",
+  "QuantityUnit": "suscipit",
   "IsSubscription": false,
-  "SubscriptionUnit": "enim",
-  "DefaultSubscriptionQuantity": 15359.734,
-  "ItemNumber": "1778439",
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 21994.412,
+  "ItemNumber": "499930",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "consequatur",
-  "VAT": 8906.828,
-  "VATInfo": "sed",
-  "UnitCost": 3848.5519999999997,
-  "UnitMinimumPrice": 8417.9239999999991,
-  "UnitListPrice": 23313.826,
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "ipsam",
+  "VAT": 26162.631999999998,
+  "VATInfo": "quis",
+  "UnitCost": 4594.4439999999995,
+  "UnitMinimumPrice": 94.02,
+  "UnitListPrice": 3701.254,
   "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "ut",
-  "Rights": "eaque",
-  "Rule": "repellat",
+  "Supplier": "numquam",
+  "SupplierCode": "odio",
+  "Rights": "iste",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Gorczany, Terry and Roberts",
-      "Value": "eius",
+      "Name": "Durgan, Keeling and Treutel",
+      "Value": "hic",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 928
         }
       }
     },
     {
-      "Name": "Gorczany, Terry and Roberts",
-      "Value": "eius",
+      "Name": "Durgan, Keeling and Treutel",
+      "Value": "hic",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 928
         }
       }
     }
   ],
-  "RawExtraInfo": "veniam",
-  "ExtraField1": "dolor",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "illum",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "nesciunt",
-  "InStock": 29497.208,
+  "RawExtraInfo": "esse",
+  "ExtraField1": "nam",
+  "ExtraField2": "tenetur",
+  "ExtraField3": "sed",
+  "ExtraField4": "voluptatum",
+  "ExtraField5": "labore",
+  "InStock": 24959.176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldLength": 978
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 333,
-  "Name": "Schaden, Zemlak and Gleason",
-  "ContentType": "voluptas",
-  "AttSize": 387,
-  "InlineImage": false,
-  "ContentId": "dicta",
-  "AuthKey": "earum",
+  "AttachmentId": 334,
+  "Name": "Yost, Brakus and Haley",
+  "ContentType": "sint",
+  "AttSize": 758,
+  "InlineImage": true,
+  "ContentId": "rerum",
+  "AuthKey": "molestiae",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

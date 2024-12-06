@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 344
+  "QuoteLineConfigurationId": 67
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 1001,
-  "FieldName": "Cruickshank, Conn and Langosh",
-  "Label": "dolores",
-  "Tooltip": "enim",
-  "Editable": false,
+  "QuoteLineConfigurationId": 812,
+  "FieldName": "Maggio Group",
+  "Label": "modi",
+  "Tooltip": "dolore",
+  "Editable": true,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 601,
+  "Mandatory": false,
+  "Rank": 420,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 575
     }
   }
 }

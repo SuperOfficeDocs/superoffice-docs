@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 141,
-  "UniqueId": "eum",
-  "Name": "Koch-Schinner",
-  "Description": "Robust 4th generation customer loyalty",
-  "AssociateId": 40,
-  "Columns": 413,
+  "DashboardId": 791,
+  "UniqueId": "laborum",
+  "Name": "Champlin, Batz and Dibbert",
+  "Description": "Public-key needs-based local area network",
+  "AssociateId": 450,
+  "Columns": 670,
   "Theme": null,
-  "VisibleForAll": 575,
+  "VisibleForAll": 61,
   "VisibleForAssociates": [
-    711,
-    601
+    274,
+    962
   ],
   "VisibleForGroups": [
-    448,
-    74
+    10,
+    154
   ],
-  "PinForAll": 3,
+  "PinForAll": 585,
   "PinForAssociates": [
-    5,
-    672
+    207,
+    459
   ],
   "PinForGroups": [
-    938,
-    859
+    24,
+    811
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldLength": 447
     }
   }
 }

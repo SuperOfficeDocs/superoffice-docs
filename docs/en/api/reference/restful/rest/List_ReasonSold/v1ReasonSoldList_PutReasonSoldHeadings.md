@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 465,
-    "Name": "Jast-Turner",
-    "Tooltip": "id",
+    "HeadingId": 522,
+    "Name": "Bergstrom, Pouros and Johns",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 700
+    "Rank": 872,
+    "UdListDefinitionId": 640
   },
   {
-    "HeadingId": 465,
-    "Name": "Jast-Turner",
-    "Tooltip": "id",
+    "HeadingId": 522,
+    "Name": "Bergstrom, Pouros and Johns",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 676,
-    "UdListDefinitionId": 700
+    "Rank": 872,
+    "UdListDefinitionId": 640
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 343,
-    "Name": "Kohler Inc and Sons",
-    "Tooltip": "praesentium",
+    "HeadingId": 524,
+    "Name": "Cruickshank Group",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 562,
-    "UdListDefinitionId": 387,
+    "Rank": 619,
+    "UdListDefinitionId": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 793
       }
     }
   }

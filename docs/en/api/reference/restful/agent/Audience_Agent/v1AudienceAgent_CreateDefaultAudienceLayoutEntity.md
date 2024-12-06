@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 638,
-  "InstanceLayout": "dignissimos",
-  "InstanceName": "Weissnat-Tromp",
-  "CreatedDate": "2019-07-24T14:45:04.8659001+02:00",
-  "UpdatedDate": "2024-09-29T14:45:04.8659001+02:00",
+  "AudienceLayoutId": 702,
+  "InstanceLayout": "nihil",
+  "InstanceName": "Gaylord-Schinner",
+  "CreatedDate": "2017-12-20T10:17:55.1133842+01:00",
+  "UpdatedDate": "2001-03-02T10:17:55.1133842+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

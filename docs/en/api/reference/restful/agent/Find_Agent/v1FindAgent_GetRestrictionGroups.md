@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Kozey LLC",
-  "StorageKey": "quis",
-  "Context": "qui"
+  "StorageType": "sed",
+  "ProviderName": "Bernier-Ortiz",
+  "StorageKey": "voluptatem",
+  "Context": "recusandae"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Robust assymetric contingency",
-    "Rank": 298,
+    "Name": "Farrell, Kozey and Adams",
+    "Description": "Team-oriented holistic artificial intelligence",
+    "Rank": 581,
     "Restrictions": [
       {
-        "Name": "Bartell-Rutherford",
-        "Operator": "sequi",
+        "Name": "Grady Group",
+        "Operator": "necessitatibus",
         "Values": [
-          "fuga",
-          "fuga"
+          "iure",
+          "illum"
         ],
         "DisplayValues": [
-          "alias",
-          "deleniti"
+          "laudantium",
+          "officiis"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 703,
+        "InterParenthesis": 906,
         "InterOperator": "And",
-        "UniqueHash": 868
+        "UniqueHash": 481
       }
     ]
   },
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Robust assymetric contingency",
-    "Rank": 298,
+    "Name": "Farrell, Kozey and Adams",
+    "Description": "Team-oriented holistic artificial intelligence",
+    "Rank": 581,
     "Restrictions": [
       {
-        "Name": "Bartell-Rutherford",
-        "Operator": "sequi",
+        "Name": "Grady Group",
+        "Operator": "necessitatibus",
         "Values": [
-          "fuga",
-          "fuga"
+          "iure",
+          "illum"
         ],
         "DisplayValues": [
-          "alias",
-          "deleniti"
+          "laudantium",
+          "officiis"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 703,
+        "InterParenthesis": 906,
         "InterOperator": "And",
-        "UniqueHash": 868
+        "UniqueHash": 481
       }
     ]
   }

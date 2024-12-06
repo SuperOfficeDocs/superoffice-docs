@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 35,
-  "Created": "2008-12-22T14:45:06.0999998+01:00",
+  "SatelliteId": 901,
+  "Created": "2019-10-11T10:17:55.9571855+02:00",
   "CreatedBy": null,
-  "Updated": "2005-06-08T14:45:06.0999998+02:00",
+  "Updated": "2003-10-18T10:17:55.9571855+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Waelchi, Kuvalis and Lueilwitz",
-      "Description": "Multi-lateral fault-tolerant initiative",
+      "Name": "Orn-Tremblay",
+      "Description": "Expanded leading edge customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldType": "System.String",
+          "FieldLength": 25
         }
       }
     },
     {
-      "Name": "Waelchi, Kuvalis and Lueilwitz",
-      "Description": "Multi-lateral fault-tolerant initiative",
+      "Name": "Orn-Tremblay",
+      "Description": "Expanded leading edge customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 38
+          "FieldType": "System.String",
+          "FieldLength": 25
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 837
     }
   }
 }

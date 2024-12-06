@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "est",
-    "debitis"
+    "autem",
+    "illo"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fisher, Kunze and Ernser",
-    "Delimiter": "nihil",
-    "Flags": "corporis",
-    "TotalItems": 537,
-    "UnreadItems": 348,
+    "Name": "Kautzer LLC",
+    "Delimiter": "reprehenderit",
+    "Flags": "aliquam",
+    "TotalItems": 16,
+    "UnreadItems": 75,
     "Subscribed": false,
-    "EmailFolderId": 647,
+    "EmailFolderId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 346
       }
     }
   }

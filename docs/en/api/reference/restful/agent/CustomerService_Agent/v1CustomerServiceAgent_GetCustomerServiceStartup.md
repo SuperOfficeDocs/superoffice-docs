@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,15 +77,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 537,
-  "RecaptchaSiteKey": "voluptas",
+  "TimezoneEnabled": true,
+  "TZOffset": 876,
+  "RecaptchaSiteKey": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

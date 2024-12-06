@@ -114,24 +114,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 441,
-  "SourcePersonId": 818,
-  "DestinationContactId": 457,
-  "DestinationPersonId": 191,
-  "RelationId": 53,
-  "Comment": "qui",
-  "RelationDefinitionId": 157,
-  "Reversed": 917,
-  "UpdatedDate": "2009-09-02T14:45:12.7088435+02:00",
-  "CreatedDate": "2024-11-17T14:45:12.7088435+01:00",
+  "SourceContactId": 747,
+  "SourcePersonId": 679,
+  "DestinationContactId": 415,
+  "DestinationPersonId": 776,
+  "RelationId": 871,
+  "Comment": "sed",
+  "RelationDefinitionId": 962,
+  "Reversed": 268,
+  "UpdatedDate": "2020-04-10T10:18:00.3324502+02:00",
+  "CreatedDate": "2007-08-08T10:18:00.3324502+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Fritsch-Becker",
-  "SourcePersonName": "Murphy LLC",
-  "DestinationContactName": "Harber, Tillman and Marks",
-  "DestinationPersonName": "Stark-Cassin",
-  "ActiveText": "qui",
-  "PassiveText": "corrupti"
+  "SourceContactName": "Pouros, Hauck and Jenkins",
+  "SourcePersonName": "Hills, Larson and Steuber",
+  "DestinationContactName": "Jones, Jakubowski and Koch",
+  "DestinationPersonName": "Zulauf, Conn and Wolff",
+  "ActiveText": "aut",
+  "PassiveText": "culpa"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 153,
-  "SourcePersonId": 498,
-  "DestinationContactId": 25,
-  "DestinationPersonId": 259,
-  "RelationId": 378,
-  "Comment": "aliquam",
-  "RelationDefinitionId": 723,
-  "Reversed": 458,
-  "UpdatedDate": "2007-05-24T14:45:12.7088435+02:00",
-  "CreatedDate": "2001-10-20T14:45:12.7088435+02:00",
+  "SourceContactId": 432,
+  "SourcePersonId": 798,
+  "DestinationContactId": 228,
+  "DestinationPersonId": 365,
+  "RelationId": 354,
+  "Comment": "iure",
+  "RelationDefinitionId": 848,
+  "Reversed": 580,
+  "UpdatedDate": "2007-01-09T10:18:00.3480699+01:00",
+  "CreatedDate": "2021-10-07T10:18:00.3480699+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rath-Hammes",
-  "SourcePersonName": "Thiel Inc and Sons",
-  "DestinationContactName": "Schulist, Berge and Ullrich",
-  "DestinationPersonName": "Veum, Zemlak and Conn",
-  "ActiveText": "dolorem",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Bartoletti-Beer",
+  "SourcePersonName": "Russel-Hauck",
+  "DestinationContactName": "Herzog Group",
+  "DestinationPersonName": "Beer, Borer and Huel",
+  "ActiveText": "quis",
+  "PassiveText": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   },
   "_Links": {

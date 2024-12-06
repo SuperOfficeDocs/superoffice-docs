@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Towne, Ferry and Balistreri"
+  "Name": "Herzog Group"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Value": "rerum",
-    "Tooltip": "cum",
+    "Id": 417,
+    "Value": "sint",
+    "Tooltip": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 619
       }
     }
   },
   {
-    "Id": 64,
-    "Value": "rerum",
-    "Tooltip": "cum",
+    "Id": 417,
+    "Value": "sint",
+    "Tooltip": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 619
       }
     }
   }

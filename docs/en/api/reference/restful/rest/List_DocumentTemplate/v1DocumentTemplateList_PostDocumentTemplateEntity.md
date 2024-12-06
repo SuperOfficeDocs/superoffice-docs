@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 249,
-  "Name": "Stoltenberg-Collins",
-  "Tooltip": "ut",
-  "SaveInDb": 800,
-  "Filename": "odit",
-  "DefaultOref": "repudiandae",
+  "DocumentTemplateId": 460,
+  "Name": "Nicolas-Kiehn",
+  "Tooltip": "quis",
+  "SaveInDb": 525,
+  "Filename": "qui",
+  "DefaultOref": "ea",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 785,
-  "IntentId": 385,
-  "IsDefaultPublished": false,
-  "Rank": 821,
-  "LoadTemplateFromPlugin": 514,
-  "MimeType": "aperiam",
+  "AutoeventId": 541,
+  "IntentId": 505,
+  "IsDefaultPublished": true,
+  "Rank": 20,
+  "LoadTemplateFromPlugin": 567,
+  "MimeType": "similique",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 353,
+  "DocumentTypeKey": 363,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "josh.hahn@schimmel.info",
-  "IncludeSignature": false,
+  "EmailSubject": "joanne_mann@daughertycorkery.us",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "webster.johns@stracke.biz",
+  "SenderEmailAddress": "veda.pollich@okeefejewess.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 428,
-  "Name": "Bailey Group",
-  "Tooltip": "et",
-  "SaveInDb": 288,
-  "Filename": "hic",
-  "DefaultOref": "ut",
+  "DocumentTemplateId": 540,
+  "Name": "Wyman Group",
+  "Tooltip": "fugit",
+  "SaveInDb": 936,
+  "Filename": "officiis",
+  "DefaultOref": "voluptates",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 857,
-  "IntentId": 906,
-  "IsDefaultPublished": false,
-  "Rank": 747,
-  "LoadTemplateFromPlugin": 88,
-  "MimeType": "cum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 929,
+  "AutoeventId": 828,
+  "IntentId": 917,
+  "IsDefaultPublished": true,
+  "Rank": 142,
+  "LoadTemplateFromPlugin": 86,
+  "MimeType": "ipsum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 529,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "emilio_mckenzie@hermanhermiston.us",
+  "EmailSubject": "alda@huels.co.uk",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brian_carroll@krisferry.ca",
+  "SenderEmailAddress": "anjali_stroman@ziemann.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 5
     }
   }
 }

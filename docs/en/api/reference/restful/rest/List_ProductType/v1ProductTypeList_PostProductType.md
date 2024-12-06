@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "Name": "Bosco Group",
-  "Tooltip": "accusantium",
+  "Id": 403,
+  "Name": "Kihn, Skiles and Marvin",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 413,
-  "Rank": 474
+  "UdListDefinitionId": 874,
+  "Rank": 713
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Kiehn Group",
-  "Tooltip": "consequatur",
+  "Id": 860,
+  "Name": "Bergnaum LLC",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 275,
-  "Rank": 345,
+  "UdListDefinitionId": 41,
+  "Rank": 542,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 486
     }
   }
 }

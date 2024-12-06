@@ -3173,6 +3173,8 @@ items:
     href: saleagent/isnumbervalid.md
   - name: OfferAutoNextStageOnApppointmentCompleted
     href: saleagent/offerautonextstageonapppointmentcompleted.md
+  - name: SaleHasQuote
+    href: saleagent/salehasquote.md
   - name: SaveSaleEntity
     href: saleagent/savesaleentity.md
   - name: SaveSaleStakeholder

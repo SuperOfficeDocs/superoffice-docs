@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 401,
-  "WorkflowId": 323,
+  "WorkflowGoalId": 911,
+  "WorkflowId": 139,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Tremblay Inc and Sons",
-      "Description": "Reactive discrete standardization",
-      "Rank": 1002,
+      "Name": "Schuppe-Keeling",
+      "Description": "Operative system-worthy flexibility",
+      "Rank": 301,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tremblay Inc and Sons",
-      "Description": "Reactive discrete standardization",
-      "Rank": 1002,
+      "Name": "Schuppe-Keeling",
+      "Description": "Operative system-worthy flexibility",
+      "Rank": 301,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 196
     }
   }
 }

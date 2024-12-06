@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Cormier Group",
-    "Id": 441,
-    "Description": "Ergonomic demand-driven pricing structure",
-    "ExtraInfo": "sapiente",
-    "LinkId": 273,
+    "EntityName": "Stoltenberg, Pagac and Barton",
+    "Id": 107,
+    "Description": "Reverse-engineered uniform policy",
+    "ExtraInfo": "aut",
+    "LinkId": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 66
       }
     }
   }

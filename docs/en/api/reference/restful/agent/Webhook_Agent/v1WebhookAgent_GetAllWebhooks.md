@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Roberts-Goldner",
-  "EventFilter": "nam",
+  "NameFilter": "Olson, Lind and Feeney",
+  "EventFilter": "vero",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 71,
-    "Name": "Collier Inc and Sons",
+    "WebhookId": 169,
+    "Name": "Gleason, Luettgen and Stehr",
     "Events": [
-      "reprehenderit",
-      "quia"
+      "iste",
+      "alias"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "fugit",
+    "Secret": "maxime",
     "State": "Active",
-    "Type": "debitis",
+    "Type": "maiores",
     "Headers": {
-      "Headers1": "qui",
-      "Headers2": "pariatur"
+      "Headers1": "voluptatem",
+      "Headers2": "iste"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-03-04T14:45:06.7248613+01:00",
+    "Registered": "1997-08-29T10:17:56.3790788+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2014-03-02T14:45:06.7248613+01:00",
+    "Updated": "1998-03-23T10:17:56.3790788+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "georgianna_howell@jacobi.ca"
+    "ErrorsEmail": "tommie@adams.us"
   }
 ]
 ```

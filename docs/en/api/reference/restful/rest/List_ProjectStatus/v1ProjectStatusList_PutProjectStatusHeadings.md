@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 421,
-    "Name": "Harris LLC",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 451
+    "HeadingId": 14,
+    "Name": "Cummerata Group",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 558,
+    "UdListDefinitionId": 935
   },
   {
-    "HeadingId": 421,
-    "Name": "Harris LLC",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "Rank": 450,
-    "UdListDefinitionId": 451
+    "HeadingId": 14,
+    "Name": "Cummerata Group",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 558,
+    "UdListDefinitionId": 935
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Wolff-Robel",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 213,
+    "HeadingId": 890,
+    "Name": "Adams LLC",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 673,
+    "UdListDefinitionId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 124
       }
     }
   }

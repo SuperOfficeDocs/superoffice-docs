@@ -79,32 +79,32 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "sit",
-        "qui"
+        "assumenda",
+        "impedit"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "soluta"
+      "ExternalKey": "accusamus"
     },
     {
       "Values": [
-        "sit",
-        "qui"
+        "assumenda",
+        "impedit"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "soluta"
+      "ExternalKey": "accusamus"
     }
   ],
   "ColumnDefinition": [
-    "quo",
-    "et"
+    "ex",
+    "sed"
   ],
   "CreateSelection": true,
-  "Culture": "voluptas",
-  "Context": "repellat"
+  "Culture": "necessitatibus",
+  "Context": "temporibus"
 }
 ```
 
@@ -115,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  472,
-  440
+  820,
+  917
 ]
 ```

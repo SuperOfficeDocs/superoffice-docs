@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Stiedemann, Hoeger and Emard",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 21,
-  "IsCustomList": false,
+  "Id": 833,
+  "Name": "Medhurst-Heller",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "Rank": 176,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "odio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   },
   "_Links": {

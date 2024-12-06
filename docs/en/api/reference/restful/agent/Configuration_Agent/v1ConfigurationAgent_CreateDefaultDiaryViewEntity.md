@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 925,
-  "Name": "Corkery Inc and Sons",
-  "Tooltip": "accusantium",
-  "VisibleColumns": 501,
-  "Rank": 439,
-  "AssocId": 390,
+  "DiaryViewId": 672,
+  "Name": "Schinner-Veum",
+  "Tooltip": "eos",
+  "VisibleColumns": 256,
+  "Rank": 571,
+  "AssocId": 119,
   "AssociateList": [
     {
-      "Id": 707,
-      "Name": "Marks-Berge",
-      "ToolTip": "Dolores alias necessitatibus ut adipisci.",
-      "Deleted": true,
-      "Rank": 901,
-      "Type": "natus",
-      "ColorBlock": 141,
-      "IconHint": "pariatur",
+      "Id": 290,
+      "Name": "Legros-Hammes",
+      "ToolTip": "Occaecati voluptatem vitae ipsum non vero adipisci tempore.",
+      "Deleted": false,
+      "Rank": 687,
+      "Type": "possimus",
+      "ColorBlock": 470,
+      "IconHint": "necessitatibus",
       "Selected": false,
-      "LastChanged": "2010-04-11T14:45:05.0221142+02:00",
+      "LastChanged": "2020-05-04T10:17:55.2227659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "quaerat",
-      "Hidden": false,
-      "FullName": "Hulda Toy",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "neque",
+      "Hidden": true,
+      "FullName": "Bennie Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldType": "System.String",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "TzLocationId": 79,
+  "TzLocationId": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

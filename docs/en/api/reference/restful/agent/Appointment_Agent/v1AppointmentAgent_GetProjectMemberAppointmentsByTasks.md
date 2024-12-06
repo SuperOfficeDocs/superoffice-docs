@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 378,
-  "StartTime": "2007-04-28T14:45:04.4599779+02:00",
-  "EndTime": "2003-02-08T14:45:04.4599779+01:00",
-  "Count": 728,
+  "PersonId": 436,
+  "StartTime": "2024-08-14T10:17:54.8321167+02:00",
+  "EndTime": "2022-07-16T10:17:54.8321167+02:00",
+  "Count": 675,
   "TaskIds": [
-    894,
-    945
+    824,
+    562
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 232,
-    "StartDate": "2020-06-22T14:45:04.4599779+02:00",
-    "EndDate": "1998-10-08T14:45:04.4599779+02:00",
+    "AppointmentId": 893,
+    "StartDate": "2013-10-29T10:17:54.8321167+01:00",
+    "EndDate": "2017-06-20T10:17:54.8321167+02:00",
     "Type": "BookingForChecklist",
-    "Task": "minima",
-    "AssociateFullName": "Karina Gaylord V",
-    "ContactName": "Hoeger Group",
-    "Description": "Compatible logistical analyzer",
-    "PersonFullName": "Aliyah Gorczany DDS",
-    "PersonId": 47,
-    "ContactId": 419,
-    "ProjectId": 940,
-    "ProjectName": "Jacobi Group",
+    "Task": "ut",
+    "AssociateFullName": "Prof. Bertram Haley II",
+    "ContactName": "Homenick-Fritsch",
+    "Description": "Optimized uniform time-frame",
+    "PersonFullName": "Raymundo Steuber",
+    "PersonId": 956,
+    "ContactId": 123,
+    "ProjectId": 233,
+    "ProjectName": "Ziemann, Hyatt and Kshlerin",
     "IsPublished": false,
-    "AssociateId": 39,
-    "ColorIndex": 302,
+    "AssociateId": 859,
+    "ColorIndex": 849,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 283,
-    "PriorityName": "Medhurst, Cormier and Macejkovic",
+    "PriorityId": 140,
+    "PriorityName": "Osinski, Hettinger and Stehr",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2002-06-15T14:45:04.4599779+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1998-04-09T10:17:54.8321167+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-10-23T14:45:04.4599779+02:00",
-    "RecurringEndDate": "2024-07-18T14:45:04.4599779+02:00",
-    "MotherId": 360,
-    "AssignedBy": 679,
-    "AssignedByFullName": "Florian DuBuque",
+    "RecurringStartDate": "2005-09-24T10:17:54.8321167+02:00",
+    "RecurringEndDate": "1999-07-06T10:17:54.8321167+02:00",
+    "MotherId": 459,
+    "AssignedBy": 765,
+    "AssignedByFullName": "Alvina Bins",
     "RejectReason": "",
-    "Location": "commodi",
-    "AlarmLeadTime": "qui",
-    "SaleId": 826,
-    "SaleName": "Nicolas LLC",
-    "AssociateName": "D'Amore-Kuvalis",
-    "CreatedDate": "2024-02-23T14:45:04.4599779+01:00",
-    "CreatedBy": "ullam",
-    "CreatedByFullName": "Mr. Kameron Javier Batz",
-    "CreatedByAssociateId": 194,
+    "Location": "at",
+    "AlarmLeadTime": "ratione",
+    "SaleId": 122,
+    "SaleName": "Gibson, Johnson and Conroy",
+    "AssociateName": "Flatley, Huels and Powlowski",
+    "CreatedDate": "2014-03-25T10:17:54.8321167+01:00",
+    "CreatedBy": "tempore",
+    "CreatedByFullName": "Elfrieda Bergstrom PhD",
+    "CreatedByAssociateId": 425,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 708,
+    "PreferredTZLocation": 646,
     "Title": "et",
-    "Agenda": "hic",
-    "InternalNotes": "aut",
+    "Agenda": "et",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 368
       }
     }
   }

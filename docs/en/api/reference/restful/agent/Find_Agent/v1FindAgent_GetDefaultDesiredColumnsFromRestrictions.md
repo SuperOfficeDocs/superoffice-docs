@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rowe LLC",
+  "ProviderName": "Waelchi-Purdy",
   "Restrictions": [
     {
-      "Name": "Keebler, Pagac and Connelly",
-      "Operator": "laudantium",
+      "Name": "Franecki LLC",
+      "Operator": "rerum",
       "Values": [
-        "officiis",
-        "reprehenderit"
+        "quia",
+        "accusantium"
       ],
       "DisplayValues": [
-        "dolores",
-        "culpa"
+        "quasi",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 108,
+      "InterParenthesis": 539,
       "InterOperator": "And",
-      "UniqueHash": 555
+      "UniqueHash": 840
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Carter-Feil",
-    "DisplayTooltip": "a",
-    "DisplayType": "error",
+    "DisplayName": "Luettgen, Dietrich and Nader",
+    "DisplayTooltip": "perspiciatis",
+    "DisplayType": "temporibus",
     "CanOrderBy": false,
-    "Name": "Hoeger-Schuster",
+    "Name": "Price-Metz",
     "CanRestrictBy": true,
-    "RestrictionType": "pariatur",
-    "RestrictionListName": "Considine, Berge and Oberbrunner",
+    "RestrictionType": "consequatur",
+    "RestrictionListName": "Schimmel, Ortiz and Dooley",
     "IsVisible": true,
-    "ExtraInfo": "occaecati",
-    "Width": "pariatur",
-    "IconHint": "sint",
-    "HeadingIconHint": "architecto"
+    "ExtraInfo": "corrupti",
+    "Width": "voluptates",
+    "IconHint": "dolor",
+    "HeadingIconHint": "omnis"
   }
 ]
 ```

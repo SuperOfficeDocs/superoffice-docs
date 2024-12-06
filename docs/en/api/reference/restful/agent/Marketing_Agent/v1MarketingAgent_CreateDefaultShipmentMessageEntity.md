@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 53,
-  "PlainMessage": "minima",
-  "HtmlMessage": "est",
-  "SmsMessage": "consequatur",
-  "Description": "Enterprise-wide user-facing open system",
-  "Subject": "qui",
-  "FolderId": 857,
-  "HeaderField": "facere",
-  "Design": "itaque",
+  "ShipmentMessageId": 59,
+  "PlainMessage": "nobis",
+  "HtmlMessage": "consequuntur",
+  "SmsMessage": "quo",
+  "Description": "Object-based contextually-based contingency",
+  "Subject": "occaecati",
+  "FolderId": 197,
+  "HeaderField": "aut",
+  "Design": "dolorem",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Assimilated web-enabled approach",
-  "AccessKey": "et",
-  "DocumentMessage": 682,
-  "Registered": "2019-04-13T14:45:05.7875689+02:00",
-  "RegisteredAssociateId": 892,
-  "Updated": "2006-05-28T14:45:05.7875689+02:00",
-  "UpdatedAssociateId": 9,
-  "UpdatedCount": 15,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Upgradable empowering policy",
+  "AccessKey": "delectus",
+  "DocumentMessage": 10,
+  "Registered": "2008-12-10T10:17:55.7540473+01:00",
+  "RegisteredAssociateId": 891,
+  "Updated": "1999-04-08T10:17:55.7540473+02:00",
+  "UpdatedAssociateId": 846,
+  "UpdatedCount": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 157
     }
   }
 }

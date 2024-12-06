@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 576,
-  "Name": "Leannon, Kreiger and Hoppe",
-  "Tooltip": "vel",
-  "Rank": 85,
+  "ProjTypeId": 160,
+  "Name": "Schamberger-Bechtelar",
+  "Tooltip": "expedita",
+  "Rank": 124,
   "DurationUnit": "Century",
-  "ProjectDuration": 94,
+  "ProjectDuration": 345,
   "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 913,
-      "Name": "Tromp-Durgan",
-      "ToolTip": "Beatae vero quaerat aut non voluptas ex quaerat.",
-      "Deleted": false,
-      "Rank": 912,
-      "Type": "in",
-      "ColorBlock": 377,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "2000-10-10T14:45:05.7563266+02:00",
+      "Id": 810,
+      "Name": "Schuster-Marks",
+      "ToolTip": "Molestiae ut nihil vel perferendis.",
+      "Deleted": true,
+      "Rank": 714,
+      "Type": "nostrum",
+      "ColorBlock": 905,
+      "IconHint": "ratione",
+      "Selected": false,
+      "LastChanged": "2008-12-13T10:17:55.7384214+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quam",
-      "StyleHint": "natus",
-      "Hidden": true,
-      "FullName": "Consuelo Kovacek",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "sed",
+      "Hidden": false,
+      "FullName": "Hector Metz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldLength": 210
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

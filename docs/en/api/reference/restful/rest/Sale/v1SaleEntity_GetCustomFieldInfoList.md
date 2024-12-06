@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schuppe-Breitenberg",
-    "DisplayName": "Prohaska Inc and Sons",
-    "Description": "Operative object-oriented firmware",
-    "ShortLabel": "rerum",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "FieldName": "Heaney, Schuppe and Stokes",
+    "DisplayName": "Bartoletti, Jacobs and Toy",
+    "Description": "Reduced leading edge support",
+    "ShortLabel": "aut",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 71,
-    "TemplateVariableName": "Pacocha, Crona and Daugherty"
+    "Rank": 417,
+    "TemplateVariableName": "Lind Group"
   }
 ]
 ```

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Daugherty, Marquardt and Auer",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 125,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 517,
+  "Name": "Considine-Morissette",
+  "Tooltip": "alias",
+  "Deleted": false,
+  "Rank": 792,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   },
   "_Links": {

@@ -83,21 +83,21 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 4,
-  "ContactId": 560,
-  "PersonId": 937,
-  "ProjectId": 680,
-  "SelectionId": 358,
-  "AppointmentId": 846,
-  "DocumentId": 991,
-  "SaleId": 863,
+  "MergeDocumentId": 271,
+  "ContactId": 678,
+  "PersonId": 499,
+  "ProjectId": 495,
+  "SelectionId": 688,
+  "AppointmentId": 505,
+  "DocumentId": 218,
+  "SaleId": 37,
   "CustomTags": [
-    "quia",
-    "aspernatur"
+    "non",
+    "id"
   ],
   "CustomValues": [
-    "ducimus",
-    "commodi"
+    "minima",
+    "maxime"
   ]
 }
 ```

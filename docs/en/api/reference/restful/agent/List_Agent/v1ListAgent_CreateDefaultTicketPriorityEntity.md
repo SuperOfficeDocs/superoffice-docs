@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 129,
-  "Name": "Johnson Inc and Sons",
+  "TicketPriorityId": 526,
+  "Name": "Russel Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 830,
+  "SortOrder": 593,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 962,
-  "MonStart": "2008-04-27T14:45:05.7719479+02:00",
-  "MonStop": "2003-12-08T14:45:05.7719479+01:00",
-  "TueStart": "2018-03-08T14:45:05.7719479+01:00",
-  "TueStop": "1999-12-17T14:45:05.7719479+01:00",
-  "WedStart": "2007-04-17T14:45:05.7719479+02:00",
-  "WedStop": "2012-07-04T14:45:05.7719479+02:00",
-  "ThuStart": "2003-10-09T14:45:05.7719479+02:00",
-  "ThuStop": "2007-02-06T14:45:05.7719479+01:00",
-  "FriStart": "1998-03-13T14:45:05.7719479+01:00",
-  "FriStop": "2023-11-19T14:45:05.7719479+01:00",
-  "SatStart": "2006-03-02T14:45:05.7719479+01:00",
-  "SatStop": "2017-03-19T14:45:05.7719479+01:00",
-  "SunStart": "2014-04-17T14:45:05.7719479+02:00",
-  "SunStop": "1999-12-15T14:45:05.7719479+01:00",
+  "Deadline": 708,
+  "MonStart": "2020-03-08T10:17:55.7384214+01:00",
+  "MonStop": "2022-06-25T10:17:55.7384214+02:00",
+  "TueStart": "2004-08-07T10:17:55.7384214+02:00",
+  "TueStop": "2022-04-19T10:17:55.7384214+02:00",
+  "WedStart": "2022-12-27T10:17:55.7384214+01:00",
+  "WedStop": "2001-09-09T10:17:55.7384214+02:00",
+  "ThuStart": "1998-06-19T10:17:55.7384214+02:00",
+  "ThuStop": "1997-09-30T10:17:55.7384214+02:00",
+  "FriStart": "2016-10-19T10:17:55.7384214+02:00",
+  "FriStop": "2014-11-28T10:17:55.7384214+01:00",
+  "SatStart": "2017-05-14T10:17:55.7384214+02:00",
+  "SatStop": "2023-02-16T10:17:55.7384214+01:00",
+  "SunStart": "2020-09-10T10:17:55.7384214+02:00",
+  "SunStop": "2008-10-05T10:17:55.7384214+02:00",
   "NonDates": [
-    "corporis",
-    "odit"
+    "dignissimos",
+    "eos"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 164,
-      "AlertLevel": 415,
-      "AlertTimeout": 416,
-      "Action": 632,
-      "DelegateTo": 34,
-      "ScriptId": 258,
-      "EmailTo": "felton.quitzon@brownullrich.name",
-      "SmsTo": "ut",
-      "ReplyTemplateIdCustomer": 787,
-      "ReplyTemplateIdUser": 275,
-      "ReplyTemplateIdCatmast": 753,
-      "ReplyTemplateIdEmail": 841,
-      "RtiCustomerSms": 568,
-      "ReplyTemplateIdUserSms": 267,
-      "ReplyTemplateIdCatmastSms": 333,
-      "ReplyTemplateIdSms": 459,
+      "TicketAlertId": 443,
+      "AlertLevel": 349,
+      "AlertTimeout": 50,
+      "Action": 306,
+      "DelegateTo": 808,
+      "ScriptId": 16,
+      "EmailTo": "amara@bernhard.uk",
+      "SmsTo": "qui",
+      "ReplyTemplateIdCustomer": 412,
+      "ReplyTemplateIdUser": 202,
+      "ReplyTemplateIdCatmast": 154,
+      "ReplyTemplateIdEmail": 494,
+      "RtiCustomerSms": 186,
+      "ReplyTemplateIdUserSms": 724,
+      "ReplyTemplateIdCatmastSms": 806,
+      "ReplyTemplateIdSms": 487,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldLength": 839
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 1000
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Runolfsson Inc and Sons",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 49,
+  "Id": 133,
+  "Name": "Miller-Olson",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 186,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   },
   "_Links": {

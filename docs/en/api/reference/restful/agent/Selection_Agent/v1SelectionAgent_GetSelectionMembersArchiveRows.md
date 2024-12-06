@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 599,
-  "Select": "porro"
+  "SelectionId": 238,
+  "Select": "eum"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Waters LLC",
-    "PrimaryKey": 438,
+    "EntityName": "Beier-Herman",
+    "PrimaryKey": 566,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repudiandae",
-        "TooltipHint": "aut",
-        "LinkHint": "quas"
+        "DisplayValue": "animi",
+        "TooltipHint": "dignissimos",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "sed",
-    "StyleHint": "numquam",
+    "LinkHint": "quia",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 430
       }
     }
   }

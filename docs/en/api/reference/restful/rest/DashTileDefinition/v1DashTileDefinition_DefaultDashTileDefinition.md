@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 791,
-  "Name": "Terry, Klein and Wilkinson",
-  "Description": "Synergistic value-added artificial intelligence",
-  "DefaultHeight": 605,
-  "DefaultWidth": 538,
+  "DashboardTileDefinitionId": 891,
+  "Name": "Goldner LLC",
+  "Description": "Balanced homogeneous info-mediaries",
+  "DefaultHeight": 866,
+  "DefaultWidth": 738,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rodriguez, Herzog and Jones",
-  "SelectionId": 833,
+  "EntityName": "Mraz-Hyatt",
+  "SelectionId": 56,
   "CurrencyMode": "Base",
-  "CurrencyCode": "illo",
+  "CurrencyCode": "quos",
   "Measure": "Average",
-  "MeasureField": "at",
-  "SortBy": "aut",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 386,
-  "MeasureByField": "autem",
+  "MeasureField": "ea",
+  "SortBy": "officia",
+  "LayoutConfig": "suscipit",
+  "SecondarySelectionId": 251,
+  "MeasureByField": "soluta",
   "Usage": "Dashboard",
-  "ProviderName": "Bode-Quigley",
+  "ProviderName": "Wiegand-Langosh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 991
     }
   }
 }

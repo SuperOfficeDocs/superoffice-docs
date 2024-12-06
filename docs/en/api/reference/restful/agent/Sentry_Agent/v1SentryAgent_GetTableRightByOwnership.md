@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber Inc and Sons",
-  "ContactGroupId": 768,
-  "ContactAssociateId": 664
+  "TableName": "Gorczany, Pollich and Mraz",
+  "ContactGroupId": 612,
+  "ContactAssociateId": 697
 }
 ```
 

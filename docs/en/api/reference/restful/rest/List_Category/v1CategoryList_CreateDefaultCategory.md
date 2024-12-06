@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Kreiger Inc and Sons",
-  "Tooltip": "unde",
-  "Deleted": true,
-  "UdListDefinitionId": 226,
-  "Rank": 707,
+  "Id": 658,
+  "Name": "Marquardt-Watsica",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "UdListDefinitionId": 278,
+  "Rank": 125,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldLength": 346
     }
   }
 }

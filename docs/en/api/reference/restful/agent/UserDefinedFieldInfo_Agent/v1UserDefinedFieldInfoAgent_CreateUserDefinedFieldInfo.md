@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 636,
-  "ColumnId": 36,
-  "FieldDefault": "laboriosam",
-  "FieldHeight": 156,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 611,
-  "FieldTop": 589,
+  "UDefFieldId": 341,
+  "ColumnId": 507,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 829,
+  "FieldLabel": "natus",
+  "FieldLeft": 944,
+  "FieldTop": 289,
   "FieldType": "Checkbox",
-  "FieldWidth": 864,
-  "FormatMask": "soluta",
+  "FieldWidth": 646,
+  "FormatMask": "ex",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 1002,
-  "LabelLeft": 455,
-  "LabelTop": 298,
-  "LabelWidth": 493,
-  "LastVersionId": 701,
-  "ListTableId": 270,
+  "LabelHeight": 988,
+  "LabelLeft": 253,
+  "LabelTop": 392,
+  "LabelWidth": 144,
+  "LastVersionId": 102,
+  "ListTableId": 156,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 579,
-  "ProgId": "odit",
+  "Page1LineNo": 26,
+  "ProgId": "explicabo",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 484,
-  "TextLength": 322,
-  "Tooltip": "dolor",
-  "UdefIdentity": 941,
-  "UDListDefinitionId": 464,
+  "ShortLabel": "debitis",
+  "TabOrder": 320,
+  "TextLength": 782,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 103,
+  "UDListDefinitionId": 610,
   "Justification": "Center",
-  "Version": 255,
-  "TemplateVariableName": "Parisian-Glover",
-  "HasBeenPublished": true,
-  "MdoListName": "Legros-O'Hara",
+  "Version": 208,
+  "TemplateVariableName": "Kertzmann Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Dach Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

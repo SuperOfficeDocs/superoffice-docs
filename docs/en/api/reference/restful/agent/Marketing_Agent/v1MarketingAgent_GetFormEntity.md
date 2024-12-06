@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=666
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=192
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 490,
-  "FormKey": "dolor",
-  "Name": "Harris Inc and Sons",
-  "Description": "Distributed object-oriented hub",
-  "Config": "temporibus",
-  "FolderId": 269,
-  "ScriptId": 65,
-  "ResponseShipmentId": 31,
-  "Active": true,
-  "Expires": "2022-09-04T14:45:05.7875689+02:00",
-  "MaxSubmits": 502,
+  "FormId": 386,
+  "FormKey": "sed",
+  "Name": "Pfannerstill Inc and Sons",
+  "Description": "Distributed multi-state instruction set",
+  "Config": "nihil",
+  "FolderId": 868,
+  "ScriptId": 287,
+  "ResponseShipmentId": 523,
+  "Active": false,
+  "Expires": "2016-10-11T10:17:55.7540473+02:00",
+  "MaxSubmits": 75,
   "Type": "Normal",
-  "Recipe": "sint",
-  "GroupId": 375,
+  "Recipe": "officiis",
+  "GroupId": 600,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2008-03-02T14:45:05.7875689+01:00",
-  "RegisteredAssociateId": 765,
-  "Updated": "1998-01-23T14:45:05.7875689+01:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 814,
+  "Registered": "1999-09-05T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 17,
+  "Updated": "2006-07-14T10:17:55.7540473+02:00",
+  "UpdatedAssociateId": 22,
+  "UpdatedCount": 159,
   "EmailFlows": [
-    499,
-    303
+    814,
+    898
   ],
-  "FolderName": "Parker-Swift",
+  "FolderName": "Gutmann, Carter and Bartoletti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

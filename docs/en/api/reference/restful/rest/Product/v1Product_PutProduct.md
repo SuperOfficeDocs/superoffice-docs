@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 730,
-  "ERPProductKey": "eos",
-  "ERPPriceListKey": "aspernatur",
-  "Name": "Volkman LLC",
-  "Description": "Front-line bottom-line framework",
+  "ProductId": 984,
+  "ERPProductKey": "iusto",
+  "ERPPriceListKey": "non",
+  "Name": "Schumm Group",
+  "Description": "Total analyzing ability",
   "Code": "ut",
-  "PriceUnit": "distinctio",
-  "QuantityUnit": "quo",
+  "PriceUnit": "nobis",
+  "QuantityUnit": "ducimus",
   "IsSubscription": false,
-  "SubscriptionUnit": "aspernatur",
-  "DefaultSubscriptionQuantity": 15729.546,
-  "ItemNumber": "1044357",
+  "SubscriptionUnit": "magni",
+  "DefaultSubscriptionQuantity": 4675.928,
+  "ItemNumber": "746907",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rerum",
-  "ProductTypeKey": "excepturi",
-  "VAT": 20700.07,
-  "VATInfo": "est",
-  "UnitCost": 29898.36,
-  "UnitMinimumPrice": 9035.322,
-  "UnitListPrice": 13109.521999999999,
+  "ProductFamilyKey": "ipsa",
+  "ProductTypeKey": "recusandae",
+  "VAT": 23824.667999999998,
+  "VATInfo": "et",
+  "UnitCost": 3231.154,
+  "UnitMinimumPrice": 28306.288,
+  "UnitListPrice": 786.634,
   "InAssortment": true,
-  "Supplier": "inventore",
-  "SupplierCode": "repudiandae",
-  "Rights": "doloribus",
-  "Rule": "cupiditate",
+  "Supplier": "soluta",
+  "SupplierCode": "veritatis",
+  "Rights": "reiciendis",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Leffler Inc and Sons",
-      "Value": "tempore",
+      "Name": "Schinner-Durgan",
+      "Value": "id",
       "Type": "Image"
     },
     {
-      "Name": "Leffler Inc and Sons",
-      "Value": "tempore",
+      "Name": "Schinner-Durgan",
+      "Value": "id",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "ab",
-  "ExtraField1": "aut",
-  "ExtraField2": "reprehenderit",
-  "ExtraField3": "et",
-  "ExtraField4": "ab",
-  "ExtraField5": "mollitia",
-  "InStock": 28575.811999999998
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "beatae",
+  "ExtraField2": "aut",
+  "ExtraField3": "iure",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "placeat",
+  "InStock": 13927.496
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 293,
-  "ERPProductKey": "necessitatibus",
-  "ERPPriceListKey": "optio",
-  "Name": "Hermann Inc and Sons",
-  "Description": "Intuitive optimizing customer loyalty",
-  "Code": "sequi",
-  "PriceUnit": "minus",
-  "QuantityUnit": "ut",
+  "ProductId": 419,
+  "ERPProductKey": "suscipit",
+  "ERPPriceListKey": "aut",
+  "Name": "Doyle, Stamm and Schulist",
+  "Description": "Monitored global support",
+  "Code": "repudiandae",
+  "PriceUnit": "vitae",
+  "QuantityUnit": "blanditiis",
   "IsSubscription": true,
-  "SubscriptionUnit": "corrupti",
-  "DefaultSubscriptionQuantity": 12460.784,
-  "ItemNumber": "548842",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 476.368,
+  "ItemNumber": "787921",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "et",
-  "VAT": 22627.48,
-  "VATInfo": "esse",
-  "UnitCost": 14469.678,
-  "UnitMinimumPrice": 19035.916,
-  "UnitListPrice": 13184.738,
-  "InAssortment": false,
-  "Supplier": "itaque",
-  "SupplierCode": "ea",
-  "Rights": "ea",
-  "Rule": "quia",
+  "ProductFamilyKey": "dolor",
+  "ProductTypeKey": "consequatur",
+  "VAT": 25391.667999999998,
+  "VATInfo": "delectus",
+  "UnitCost": 1319.414,
+  "UnitMinimumPrice": 27388.025999999998,
+  "UnitListPrice": 12379.3,
+  "InAssortment": true,
+  "Supplier": "asperiores",
+  "SupplierCode": "ut",
+  "Rights": "aut",
+  "Rule": "natus",
   "ExtraInfo": [
     {
-      "Name": "Gleason, Jaskolski and Quigley",
-      "Value": "qui",
+      "Name": "Kshlerin-Lind",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 148
         }
       }
     },
     {
-      "Name": "Gleason, Jaskolski and Quigley",
-      "Value": "qui",
+      "Name": "Kshlerin-Lind",
+      "Value": "asperiores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 148
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "omnis",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "et",
-  "ExtraField4": "id",
-  "ExtraField5": "voluptatem",
-  "InStock": 20881.842,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "doloremque",
+  "ExtraField2": "est",
+  "ExtraField3": "modi",
+  "ExtraField4": "quasi",
+  "ExtraField5": "eos",
+  "InStock": 5597.324,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

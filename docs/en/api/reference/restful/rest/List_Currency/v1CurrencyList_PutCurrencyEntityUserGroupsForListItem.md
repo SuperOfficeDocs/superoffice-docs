@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Schaefer Inc and Sons",
-    "ToolTip": "Blanditiis a.",
+    "Id": 207,
+    "Name": "Hand Inc and Sons",
+    "ToolTip": "Facilis impedit laudantium dolores ullam iste.",
     "Deleted": false,
-    "Rank": 178,
-    "Type": "minima",
-    "ColorBlock": 254,
-    "IconHint": "asperiores",
-    "Selected": true,
-    "LastChanged": "2022-10-03T14:45:13.6617546+02:00",
+    "Rank": 796,
+    "Type": "alias",
+    "ColorBlock": 539,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2024-07-15T10:18:00.9887407+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Voluptatum ipsa deleniti aut delectus eum odio nisi.",
+        "Id": 753,
+        "Name": "Franecki-Breitenberg",
+        "ToolTip": "Temporibus esse.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "nam",
-        "ColorBlock": 768,
-        "IconHint": "quo",
+        "Rank": 692,
+        "Type": "iusto",
+        "ColorBlock": 610,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2019-09-06T14:45:13.6617546+02:00",
+        "LastChanged": "2022-11-26T10:18:00.9887407+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Vicente Stephon Hettinger I"
+        "ExtraInfo": "inventore",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Filiberto Hamill"
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "labore",
-    "Hidden": true,
-    "FullName": "Mr. Alayna Brandt Bayer"
+    "ExtraInfo": "minus",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Winston Halvorson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Hudson, Feest and Cremin",
-    "ToolTip": "Repudiandae in.",
-    "Deleted": false,
-    "Rank": 345,
-    "Type": "sint",
-    "ColorBlock": 352,
-    "IconHint": "culpa",
+    "Id": 414,
+    "Name": "Brakus, Johnston and Rippin",
+    "ToolTip": "Laborum amet similique eveniet consequatur.",
+    "Deleted": true,
+    "Rank": 560,
+    "Type": "temporibus",
+    "ColorBlock": 305,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2000-02-11T14:45:13.6617546+01:00",
+    "LastChanged": "2020-04-06T10:18:00.9887407+02:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Ankunding-Bogisich",
-        "ToolTip": "Dolorum voluptatibus.",
+        "Id": 851,
+        "Name": "Waelchi-Dietrich",
+        "ToolTip": "Corrupti et molestias nam.",
         "Deleted": false,
-        "Rank": 115,
-        "Type": "sint",
-        "ColorBlock": 250,
-        "IconHint": "incidunt",
+        "Rank": 191,
+        "Type": "omnis",
+        "ColorBlock": 219,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "1997-08-06T14:45:13.6617546+02:00",
+        "LastChanged": "2000-12-21T10:18:00.9887407+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Benjamin Turner",
+        "ExtraInfo": "quod",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Darien Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Miss Marge Fahey",
+    "ExtraInfo": "a",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Mrs. Alexandre Champlin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 560
       }
     }
   }

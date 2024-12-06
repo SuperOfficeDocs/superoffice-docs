@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "McGlynn-Von",
+  "UdListDefinitionName": "Feest Inc and Sons",
   "Items": [
     {
-      "Id": 1002,
-      "Name": "Rath Inc and Sons",
-      "Tooltip": "qui",
+      "Id": 48,
+      "Name": "Stroman, Tillman and Eichmann",
+      "Tooltip": "distinctio",
       "Deleted": false,
-      "UdListDefinitionId": 235,
-      "Rank": 769
+      "UdListDefinitionId": 538,
+      "Rank": 941
     },
     {
-      "Id": 1002,
-      "Name": "Rath Inc and Sons",
-      "Tooltip": "qui",
+      "Id": 48,
+      "Name": "Stroman, Tillman and Eichmann",
+      "Tooltip": "distinctio",
       "Deleted": false,
-      "UdListDefinitionId": 235,
-      "Rank": 769
+      "UdListDefinitionId": 538,
+      "Rank": 941
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Schaden-Graham",
-    "Tooltip": "omnis",
+    "Id": 794,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 571,
-    "Rank": 799,
+    "UdListDefinitionId": 606,
+    "Rank": 105,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 47
       }
     }
   }

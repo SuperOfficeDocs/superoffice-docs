@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 452,
-  "ParentId": 12,
-  "Name": "Baumbach, Barton and Ward",
-  "Fullname": "quasi",
-  "CategoryMaster": 722,
+  "TicketCategoryId": 45,
+  "ParentId": 281,
+  "Name": "Konopelski-Lindgren",
+  "Fullname": "enim",
+  "CategoryMaster": 910,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McCullough, Boyer and McLaughlin",
+  "ExternalName": "Harvey LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 452,
-  "ReplyTemplate": 716,
-  "NotificationEmail": "polly@jaskolski.name",
+  "AssignmentLag": 999,
+  "ReplyTemplate": 147,
+  "NotificationEmail": "juanita@barrows.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 405,
+  "EffectiveReplyTemplateId": 173,
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "aut"
+    "CustomFields1": "facilis",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   }
 }

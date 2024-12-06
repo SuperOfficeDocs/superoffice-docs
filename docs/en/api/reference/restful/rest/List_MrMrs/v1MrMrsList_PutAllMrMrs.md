@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Schiller LLC",
-    "Tooltip": "sapiente",
+    "Id": 49,
+    "Name": "Kertzmann Group",
+    "Tooltip": "modi",
     "Deleted": false,
-    "UdListDefinitionId": 926,
-    "Rank": 285
+    "UdListDefinitionId": 906,
+    "Rank": 55
   },
   {
-    "Id": 267,
-    "Name": "Schiller LLC",
-    "Tooltip": "sapiente",
+    "Id": 49,
+    "Name": "Kertzmann Group",
+    "Tooltip": "modi",
     "Deleted": false,
-    "UdListDefinitionId": 926,
-    "Rank": 285
+    "UdListDefinitionId": 906,
+    "Rank": 55
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Von-Wunsch",
-    "Tooltip": "velit",
+    "Id": 455,
+    "Name": "Weber, Keebler and Terry",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "UdListDefinitionId": 805,
-    "Rank": 985,
+    "UdListDefinitionId": 994,
+    "Rank": 295,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 185
       }
     }
   }

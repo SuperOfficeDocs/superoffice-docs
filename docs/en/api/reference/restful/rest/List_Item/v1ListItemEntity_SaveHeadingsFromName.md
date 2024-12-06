@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 164,
-    "Name": "Boyle, Bins and Kris",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 462,
-    "UdListDefinitionId": 179
+    "HeadingId": 882,
+    "Name": "King-Beer",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 860,
+    "UdListDefinitionId": 48
   },
   {
-    "HeadingId": 164,
-    "Name": "Boyle, Bins and Kris",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "Rank": 462,
-    "UdListDefinitionId": 179
+    "HeadingId": 882,
+    "Name": "King-Beer",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 860,
+    "UdListDefinitionId": 48
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Daniel Inc and Sons",
-    "Tooltip": "aspernatur",
+    "HeadingId": 27,
+    "Name": "Stoltenberg-Streich",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 996,
-    "UdListDefinitionId": 823,
+    "Rank": 794,
+    "UdListDefinitionId": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldType": "System.String",
+        "FieldLength": 2
       }
     }
   }

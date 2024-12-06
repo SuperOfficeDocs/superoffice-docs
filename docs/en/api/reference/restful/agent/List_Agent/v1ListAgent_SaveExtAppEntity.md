@@ -105,18 +105,18 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 814,
-  "Name": "O'Hara Group",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "Rank": 686,
-  "Filename": "dolorem",
-  "Parameters": "ea",
-  "Workdir": "autem",
+  "ExtAppId": 625,
+  "Name": "Russel, Wintheiser and Pacocha",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 535,
+  "Filename": "ab",
+  "Parameters": "maxime",
+  "Workdir": "accusamus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 47,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 476,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "rem"
+  "Path": "iste"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 863,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 15,
-  "Filename": "doloribus",
-  "Parameters": "molestiae",
-  "Workdir": "magni",
+  "ExtAppId": 759,
+  "Name": "Price Group",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 576,
+  "Filename": "laboriosam",
+  "Parameters": "soluta",
+  "Workdir": "minus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 348,
+  "Icon": 930,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nostrum",
+  "Path": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 119
     }
   }
 }

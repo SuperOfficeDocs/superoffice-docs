@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 896,
-    "Name": "Franecki, Collier and Rau",
-    "Tooltip": "autem",
+    "HeadingId": 196,
+    "Name": "Reilly, Will and Maggio",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 487
+    "Rank": 859,
+    "UdListDefinitionId": 730
   },
   {
-    "HeadingId": 896,
-    "Name": "Franecki, Collier and Rau",
-    "Tooltip": "autem",
+    "HeadingId": 196,
+    "Name": "Reilly, Will and Maggio",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 487
+    "Rank": 859,
+    "UdListDefinitionId": 730
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Tremblay, Gerlach and Hamill",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 179,
-    "UdListDefinitionId": 755,
+    "HeadingId": 446,
+    "Name": "Rice Group",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 832,
+    "UdListDefinitionId": 819,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

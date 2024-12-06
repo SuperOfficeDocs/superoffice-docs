@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "Magni labore hic voluptas reprehenderit aut pariatur sunt.",
+    "Id": 280,
+    "Name": "Mitchell, Crist and Hoeger",
+    "ToolTip": "Quam minima quis quod ducimus possimus blanditiis.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "nulla",
-    "ColorBlock": 116,
-    "IconHint": "optio",
+    "Rank": 657,
+    "Type": "consequatur",
+    "ColorBlock": 512,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2015-04-01T14:45:13.6461348+02:00",
+    "LastChanged": "2024-06-12T10:18:00.9887407+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Durgan LLC",
-        "ToolTip": "Saepe est repudiandae et hic.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "assumenda",
-        "ColorBlock": 634,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2004-08-27T14:45:13.6461348+02:00",
+        "Id": 26,
+        "Name": "Rath, Wolf and Klein",
+        "ToolTip": "Amet ullam eum dolor.",
+        "Deleted": true,
+        "Rank": 390,
+        "Type": "tenetur",
+        "ColorBlock": 946,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2024-04-09T10:18:00.9887407+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "non",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "adipisci",
         "Hidden": true,
-        "FullName": "Erin Enrico Bergnaum III",
+        "FullName": "Mrs. Malinda Lauriane Bahringer I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldType": "System.String",
+            "FieldLength": 486
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Alexane Gleichner",
+    "ExtraInfo": "possimus",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Selena Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

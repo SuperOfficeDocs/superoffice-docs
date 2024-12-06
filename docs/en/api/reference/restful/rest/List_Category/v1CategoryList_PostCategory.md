@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Stroman, Gutkowski and Thiel",
-  "Tooltip": "ipsum",
+  "Id": 131,
+  "Name": "Cruickshank, Kassulke and Conn",
+  "Tooltip": "earum",
   "Deleted": false,
-  "UdListDefinitionId": 604,
-  "Rank": 101
+  "UdListDefinitionId": 418,
+  "Rank": 588
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Schamberger Group",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "UdListDefinitionId": 272,
-  "Rank": 43,
+  "Id": 103,
+  "Name": "Gottlieb-Bogan",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "UdListDefinitionId": 852,
+  "Rank": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

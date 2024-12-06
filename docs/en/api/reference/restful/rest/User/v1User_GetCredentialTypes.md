@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "eius",
-    "Type": "magnam",
-    "Description": "Advanced 24 hour alliance",
+    "DisplayType": "voluptatem",
+    "Type": "voluptate",
+    "Description": "Synergistic systematic neural-net",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 19
       }
     }
   }

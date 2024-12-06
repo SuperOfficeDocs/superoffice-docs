@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=477
+POST /api/v1/Agents/List/GetCountry?countryId=968
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 930,
-  "Name": "Dickinson, Jakubowski and Koepp",
-  "CurrencyId": 379,
-  "EnglishName": "Daugherty-Weimann",
+  "CountryId": 84,
+  "Name": "Wiza LLC",
+  "CurrencyId": 398,
+  "EnglishName": "Crona-Luettgen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Open-architected logistical moderator",
-  "OrgNrText": "893830",
-  "InterAreaPrefix": "ea",
-  "DialInPrefix": "et",
-  "ZipPrefix": "nihil",
-  "DomainName": "Cruickshank-Cremin",
-  "AddressLayoutId": 415,
-  "DomesticAddressLayoutId": 116,
-  "ForeignAddressLayoutId": 263,
-  "Rank": 26,
-  "Tooltip": "qui",
+  "ImageDescription": "Sharable local model",
+  "OrgNrText": "991865",
+  "InterAreaPrefix": "deserunt",
+  "DialInPrefix": "veritatis",
+  "ZipPrefix": "quia",
+  "DomainName": "Cummings, Buckridge and Stanton",
+  "AddressLayoutId": 17,
+  "DomesticAddressLayoutId": 476,
+  "ForeignAddressLayoutId": 209,
+  "Rank": 404,
+  "Tooltip": "temporibus",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

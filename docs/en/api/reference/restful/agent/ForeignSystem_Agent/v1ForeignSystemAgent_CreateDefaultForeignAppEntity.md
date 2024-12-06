@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 337,
-  "Name": "Zieme-Bergstrom",
-  "CreatedDate": "2010-05-13T14:45:05.6313552+02:00",
-  "UpdatedDate": "2010-03-25T14:45:05.6313552+01:00",
+  "ForeignAppId": 717,
+  "Name": "Powlowski-Walter",
+  "CreatedDate": "2005-03-18T10:17:55.644659+01:00",
+  "UpdatedDate": "2004-02-16T10:17:55.644659+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 773,
-      "Name": "Lueilwitz-Shields",
-      "CreatedDate": "2007-10-03T14:45:05.6313552+02:00",
-      "UpdatedDate": "2006-06-01T14:45:05.6313552+02:00",
-      "AssociateFullName": "Breanna Klein",
-      "CreatedBy": "accusamus",
-      "UpdatedBy": "consequuntur",
-      "DeviceIdentifier": "accusantium",
-      "ForeignAppId": 956,
+      "ForeignDeviceId": 173,
+      "Name": "Mante-Lebsack",
+      "CreatedDate": "2013-05-02T10:17:55.644659+02:00",
+      "UpdatedDate": "2021-06-18T10:17:55.644659+02:00",
+      "AssociateFullName": "Pearlie Haag",
+      "CreatedBy": "natus",
+      "UpdatedBy": "voluptates",
+      "DeviceIdentifier": "ratione",
+      "ForeignAppId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 130
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

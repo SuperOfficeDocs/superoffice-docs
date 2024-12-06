@@ -117,63 +117,63 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 70,
+  "EjMessageId": 653,
   "Ticket": null,
-  "CreatedAt": "2024-03-01T14:45:06.459295+01:00",
+  "CreatedAt": "2022-07-02T10:17:56.1915748+02:00",
   "CreatedBy": null,
-  "Author": "fuga",
+  "Author": "beatae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "iure",
-  "TimeSpent": 111,
-  "Body": "aspernatur",
-  "HtmlBody": "occaecati",
-  "EmailHeader": "presley@botsford.name",
-  "DebugInfo": "et",
-  "MailSorter": "eaque",
+  "MessageId": "inventore",
+  "TimeSpent": 216,
+  "Body": "quo",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "antone@berge.name",
+  "DebugInfo": "aut",
+  "MailSorter": "possimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "itaque",
   "MessageHeaders": [
     {
-      "Id": 143,
-      "Name": "Kuhn-Leuschke",
-      "Value": "similique",
+      "Id": 522,
+      "Name": "Stiedemann Inc and Sons",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 143,
-      "Name": "Kuhn-Leuschke",
-      "Value": "similique",
+      "Id": 522,
+      "Name": "Stiedemann Inc and Sons",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "facilis",
-  "Sentiment": 149,
-  "SentimentConfidence": 225,
+  "Language": "et",
+  "Sentiment": 89,
+  "SentimentConfidence": 367,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 684,
-      "Name": "Rogahn Inc and Sons",
-      "ContentType": "inventore",
-      "AttSize": 131,
+      "AttachmentId": 383,
+      "Name": "Johnson, Lockman and Larson",
+      "ContentType": "pariatur",
+      "AttSize": 604,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "placeat",
-      "IsSafeFileExtension": false
+      "ContentId": "officia",
+      "AuthKey": "quod",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "nihil"
+    "CustomFields1": "veniam",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 307,
+  "EjMessageId": 754,
   "Ticket": null,
-  "CreatedAt": "2017-02-24T14:45:06.459295+01:00",
+  "CreatedAt": "2000-03-08T10:17:56.1915748+01:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "amet",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eos",
-  "TimeSpent": 41,
-  "Body": "sint",
-  "HtmlBody": "repellat",
-  "EmailHeader": "amparo@romaguerabeer.info",
-  "DebugInfo": "et",
-  "MailSorter": "in",
+  "MessageId": "deserunt",
+  "TimeSpent": 238,
+  "Body": "reiciendis",
+  "HtmlBody": "sequi",
+  "EmailHeader": "amir_schiller@harber.info",
+  "DebugInfo": "quo",
+  "MailSorter": "similique",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "exercitationem",
+  "SearchTitle": "pariatur",
   "MessageHeaders": [
     {
-      "Id": 182,
-      "Name": "Waelchi, Parker and Bosco",
-      "Value": "distinctio",
+      "Id": 789,
+      "Name": "Mitchell Inc and Sons",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 383
         }
       }
     }
   ],
   "Important": true,
-  "Language": "commodi",
-  "Sentiment": 754,
-  "SentimentConfidence": 573,
+  "Language": "voluptatem",
+  "Sentiment": 451,
+  "SentimentConfidence": 122,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 972,
-      "Name": "Oberbrunner, Sanford and Lubowitz",
-      "ContentType": "dolor",
-      "AttSize": 883,
-      "InlineImage": true,
-      "ContentId": "voluptatum",
-      "AuthKey": "qui",
+      "AttachmentId": 261,
+      "Name": "Koss-Hudson",
+      "ContentType": "doloribus",
+      "AttSize": 351,
+      "InlineImage": false,
+      "ContentId": "autem",
+      "AuthKey": "quidem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 791
+          "FieldType": "System.Int32",
+          "FieldLength": 322
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
+    "CustomFields1": "et",
     "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=accusamus
-GET /api/v1/MDOList/{listname}?query=repudiandae
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=nostrum
+GET /api/v1/MDOList/{listname}?query=corporis
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Kuphal-Wolf",
-    "ToolTip": "Iste officia est assumenda ipsam dolores non.",
+    "Id": 811,
+    "Name": "Lind LLC",
+    "ToolTip": "Est est est impedit suscipit quo non.",
     "Deleted": false,
-    "Rank": 47,
-    "Type": "molestiae",
+    "Rank": 804,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 175,
-        "Name": "Stracke, Ryan and Kling",
-        "ToolTip": "Aut minus saepe facere sed dolorem quae.",
+        "Id": 769,
+        "Name": "Bogan LLC",
+        "ToolTip": "Consectetur velit nisi ipsum ad.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "magnam",
+        "Rank": 439,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maxime",
-        "ColorBlock": 451,
-        "ExtraInfo": "sed",
-        "StyleHint": "aut",
-        "FullName": "Bennett Lindgren",
+        "IconHint": "nemo",
+        "ColorBlock": 929,
+        "ExtraInfo": "illum",
+        "StyleHint": "reiciendis",
+        "FullName": "Miss Francesca Clyde Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 579
           }
         }
       }
     ],
-    "IconHint": "impedit",
-    "ColorBlock": 356,
-    "ExtraInfo": "rerum",
-    "StyleHint": "est",
-    "FullName": "Alexandro Mayer",
+    "IconHint": "quidem",
+    "ColorBlock": 21,
+    "ExtraInfo": "eum",
+    "StyleHint": "eaque",
+    "FullName": "Mr. Randall Nannie Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

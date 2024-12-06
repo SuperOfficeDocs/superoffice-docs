@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 447,
-  "Name": "Hauck Group",
-  "Tooltip": "tempore",
-  "Rank": 682,
-  "Key": "optio",
-  "Deleted": false
+  "LegalBaseId": 796,
+  "Name": "Jenkins Group",
+  "Tooltip": "aut",
+  "Rank": 623,
+  "Key": "ab",
+  "Deleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 688,
-  "Name": "Marvin Inc and Sons",
-  "Tooltip": "odit",
-  "Rank": 654,
-  "Key": "quaerat",
+  "LegalBaseId": 887,
+  "Name": "Buckridge Group",
+  "Tooltip": "voluptatem",
+  "Rank": 720,
+  "Key": "deserunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 289
     }
   }
 }

@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "chester_larson@feil.com",
-  "Subject": "sint",
-  "TemplateLanguage": "soluta"
+  "EmailBody": "jairo_harris@konopelskijacobson.info",
+  "Subject": "maxime",
+  "TemplateLanguage": "excepturi"
 }
 ```
 
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "EmailCreated": false,
+  "EmailCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

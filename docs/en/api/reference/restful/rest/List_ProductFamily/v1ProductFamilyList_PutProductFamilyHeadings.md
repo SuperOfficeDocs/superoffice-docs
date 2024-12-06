@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 807,
-    "Name": "Rau, Schuppe and Upton",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 770,
-    "UdListDefinitionId": 396
+    "HeadingId": 842,
+    "Name": "Bruen LLC",
+    "Tooltip": "modi",
+    "Deleted": false,
+    "Rank": 339,
+    "UdListDefinitionId": 420
   },
   {
-    "HeadingId": 807,
-    "Name": "Rau, Schuppe and Upton",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 770,
-    "UdListDefinitionId": 396
+    "HeadingId": 842,
+    "Name": "Bruen LLC",
+    "Tooltip": "modi",
+    "Deleted": false,
+    "Rank": 339,
+    "UdListDefinitionId": 420
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Zulauf-Hayes",
-    "Tooltip": "ab",
+    "HeadingId": 495,
+    "Name": "Gottlieb-Shields",
+    "Tooltip": "reiciendis",
     "Deleted": true,
-    "Rank": 824,
-    "UdListDefinitionId": 773,
+    "Rank": 623,
+    "UdListDefinitionId": 990,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 819
+        "FieldLength": 586
       }
     }
   }

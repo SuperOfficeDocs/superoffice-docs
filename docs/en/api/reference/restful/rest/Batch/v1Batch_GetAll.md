@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=hic
-GET /api/v1/BatchTask?$top=5
-GET /api/v1/BatchTask?$skip=834
+GET /api/v1/BatchTask?$entities=in
+GET /api/v1/BatchTask?$top=903
+GET /api/v1/BatchTask?$skip=895
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=vel
+GET /api/v1/BatchTask?$context=aut
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=True
+GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "beatae",
   "value": [
     {
-      "PrimaryKey": 9063,
-      "EntityName": "person",
-      "personId": 9063,
-      "fullName": "Jarrett Pfeffer"
+      "PrimaryKey": 4049,
+      "EntityName": "sale",
+      "saleId": 4049,
+      "contactId": 8560,
+      "name": "Wehner, Waters and Heller"
     },
     {
-      "PrimaryKey": 1845,
-      "EntityName": "person",
-      "personId": 1845,
-      "fullName": "Zetta Collins III"
+      "PrimaryKey": 1669,
+      "EntityName": "sale",
+      "saleId": 1669,
+      "contactId": 3202,
+      "name": "Dickinson LLC"
     }
   ]
 }

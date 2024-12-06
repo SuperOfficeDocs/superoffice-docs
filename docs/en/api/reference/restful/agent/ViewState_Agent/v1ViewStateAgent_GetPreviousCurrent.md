@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Satterfield, Carroll and Rice",
-  "Id": 535
+  "HistoryName": "Brown-Shanahan",
+  "Id": 244
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 25,
-  "Id": 330,
-  "HistoryName": "Reynolds, Upton and Gorczany",
-  "HistoryId": 960,
-  "AssociateId": 327,
-  "Name": "Kuphal Group",
-  "ItemInfo": "minima",
+  "Rank": 242,
+  "Id": 153,
+  "HistoryName": "Turcotte, Adams and Frami",
+  "HistoryId": 325,
+  "AssociateId": 131,
+  "Name": "Durgan-Mraz",
+  "ItemInfo": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

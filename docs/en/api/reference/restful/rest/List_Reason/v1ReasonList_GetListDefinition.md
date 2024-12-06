@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "Rank": 372,
-  "IsCustomList": true,
+  "Id": 346,
+  "Name": "Brekke-Bartell",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 231,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

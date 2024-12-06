@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Sanford LLC",
-  "RecordId": 904,
-  "AssociateId": 973
+  "TableName": "Durgan, Crist and Mills",
+  "RecordId": 87,
+  "AssociateId": 809
 }
 ```
 

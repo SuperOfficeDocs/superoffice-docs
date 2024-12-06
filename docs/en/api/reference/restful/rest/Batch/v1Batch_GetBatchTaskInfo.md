@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Morissette Group",
-  "AssociateId": 496,
-  "DetailsTable": 454,
-  "DetailsRecord": 726,
-  "IsSystemTask": true,
+  "Id": 410,
+  "Name": "Gislason, Barrows and Bashirian",
+  "AssociateId": 881,
+  "DetailsTable": 991,
+  "DetailsRecord": 33,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "molestiae",
-    "ParameterObject2": "laboriosam"
+    "ParameterObject1": "voluptate",
+    "ParameterObject2": "esse"
   },
-  "LastStarted": "2005-10-08T14:45:13.3961895+02:00",
-  "Created": "2001-09-04T14:45:13.3961895+02:00",
-  "StartCount": 261,
-  "DatabaseSerialNumber": "1622687",
-  "Context": "vel",
-  "Result": "dignissimos",
+  "LastStarted": "2021-06-15T10:18:00.8168545+02:00",
+  "Created": "2011-12-19T10:18:00.8168545+01:00",
+  "StartCount": 642,
+  "DatabaseSerialNumber": "1443379",
+  "Context": "ut",
+  "Result": "pariatur",
   "State": "All",
-  "Description": "Monitored value-added customer loyalty",
-  "Response": "quas",
-  "Request": "porro",
-  "ProgressDescription": "Configurable discrete algorithm",
-  "ProgressPercent": 198,
-  "FileName": "Cassin Group",
+  "Description": "Multi-tiered encompassing projection",
+  "Response": "optio",
+  "Request": "nam",
+  "ProgressDescription": "Ameliorated 24/7 internet solution",
+  "ProgressPercent": 885,
+  "FileName": "Murphy Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

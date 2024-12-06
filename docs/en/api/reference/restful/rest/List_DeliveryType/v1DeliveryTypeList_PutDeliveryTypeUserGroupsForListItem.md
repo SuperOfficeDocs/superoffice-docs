@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Lockman LLC",
-    "ToolTip": "Cum et placeat provident.",
+    "Id": 583,
+    "Name": "Hudson, Little and Zboncak",
+    "ToolTip": "Magnam error ea distinctio laudantium vel beatae.",
     "Deleted": false,
-    "Rank": 383,
-    "Type": "adipisci",
-    "ColorBlock": 456,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2000-04-18T14:45:13.6930001+02:00",
+    "Rank": 478,
+    "Type": "alias",
+    "ColorBlock": 201,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2023-02-11T10:18:01.0043667+01:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Goodwin LLC",
-        "ToolTip": "Sit voluptatum.",
+        "Id": 123,
+        "Name": "Jerde-Denesik",
+        "ToolTip": "Repellendus quasi nostrum.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "quia",
-        "ColorBlock": 96,
-        "IconHint": "similique",
+        "Rank": 37,
+        "Type": "facere",
+        "ColorBlock": 431,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2015-02-15T14:45:13.6930001+01:00",
+        "LastChanged": "2014-12-25T10:18:01.0043667+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "id",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Tiana Robel"
+        "FullName": "Kolby Kovacek"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Ms. Selena Runolfsson"
+    "FullName": "Miss Georgette Maximilian Schuppe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Lang LLC",
-    "ToolTip": "Occaecati enim.",
+    "Id": 821,
+    "Name": "Ankunding-Zulauf",
+    "ToolTip": "Qui eum repudiandae et quo adipisci repudiandae.",
     "Deleted": true,
-    "Rank": 456,
-    "Type": "ad",
-    "ColorBlock": 818,
-    "IconHint": "ab",
+    "Rank": 418,
+    "Type": "earum",
+    "ColorBlock": 464,
+    "IconHint": "nisi",
     "Selected": true,
-    "LastChanged": "2010-04-09T14:45:13.6930001+02:00",
+    "LastChanged": "2003-02-14T10:18:01.0043667+01:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Hansen LLC",
-        "ToolTip": "Sed ut a laborum aperiam harum.",
+        "Id": 339,
+        "Name": "McDermott-Wyman",
+        "ToolTip": "Commodi qui incidunt ea at.",
         "Deleted": false,
-        "Rank": 427,
-        "Type": "vel",
-        "ColorBlock": 685,
-        "IconHint": "id",
+        "Rank": 360,
+        "Type": "quae",
+        "ColorBlock": 698,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "1998-12-14T14:45:13.6930001+01:00",
+        "LastChanged": "2007-05-12T10:18:01.0043667+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Miss Chauncey Angelina Collier DDS",
+        "FullName": "Estel Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 761
+            "FieldType": "System.String",
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "sequi",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Riley Schmitt",
+    "FullName": "Dr. Miracle Yasmeen Bahringer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 285
       }
     }
   }

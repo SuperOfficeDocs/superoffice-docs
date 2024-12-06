@@ -74,28 +74,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "animi",
+  "Provider": "dolore",
   "Restrictions": [
     {
-      "Name": "Kuvalis LLC",
+      "Name": "Beatty LLC",
       "Operator": "consectetur",
       "Values": [
-        "sequi",
-        "amet"
+        "dolores",
+        "temporibus"
       ],
       "DisplayValues": [
-        "vitae",
-        "perferendis"
+        "sapiente",
+        "iusto"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 590,
+      "InterParenthesis": 593,
       "InterOperator": "And",
-      "UniqueHash": 538
+      "UniqueHash": 625
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  353,
-  868
+  30,
+  322
 ]
 ```

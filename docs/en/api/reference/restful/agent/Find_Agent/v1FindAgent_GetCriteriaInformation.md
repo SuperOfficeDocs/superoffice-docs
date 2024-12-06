@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fuga",
-  "ProviderName": "Hermann-Metz",
-  "StorageKey": "ex",
+  "StorageType": "sit",
+  "ProviderName": "Kuvalis-Bahringer",
+  "StorageKey": "aperiam",
   "StaticColumns": [
-    "minus",
-    "unde"
+    "qui",
+    "tempora"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lindgren, Jewess and Aufderhar",
-      "Operator": "magni",
+      "Name": "Boehm-Carroll",
+      "Operator": "et",
       "Values": [
-        "id",
-        "facere"
+        "numquam",
+        "vero"
       ],
       "DisplayValues": [
-        "dolores",
-        "aliquam"
+        "soluta",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 388,
+      "InterParenthesis": 489,
       "InterOperator": "And",
-      "UniqueHash": 425
+      "UniqueHash": 600
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bogisich Group",
-      "DisplayTooltip": "ab",
-      "DisplayType": "veniam",
-      "CanOrderBy": false,
-      "Name": "Mann, O'Kon and Lind",
-      "CanRestrictBy": true,
-      "RestrictionType": "fugiat",
-      "RestrictionListName": "Schmitt, Bartell and Medhurst",
-      "IsVisible": true,
-      "ExtraInfo": "aut",
-      "Width": "commodi",
-      "IconHint": "accusantium",
-      "HeadingIconHint": "nostrum"
+      "DisplayName": "Oberbrunner, Schoen and Graham",
+      "DisplayTooltip": "qui",
+      "DisplayType": "libero",
+      "CanOrderBy": true,
+      "Name": "Lowe, Willms and Aufderhar",
+      "CanRestrictBy": false,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Volkman-Muller",
+      "IsVisible": false,
+      "ExtraInfo": "quasi",
+      "Width": "dolores",
+      "IconHint": "sapiente",
+      "HeadingIconHint": "suscipit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Berge Group",
-      "PrimaryKey": 444,
+      "EntityName": "McClure, Koelpin and Hilpert",
+      "PrimaryKey": 982,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "inventore",
-          "TooltipHint": "culpa",
-          "LinkHint": "praesentium"
+          "DisplayValue": "autem",
+          "TooltipHint": "nulla",
+          "LinkHint": "quia"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "neque",
+      "LinkHint": "est",
+      "StyleHint": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 821
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Effertz LLC",
-      "Description": "Phased incremental function",
-      "Rank": 937,
+      "Name": "Lemke, Huels and Dietrich",
+      "Description": "Organized 6th generation middleware",
+      "Rank": 845,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Effertz LLC",
-      "Description": "Phased incremental function",
-      "Rank": 937,
+      "Name": "Lemke, Huels and Dietrich",
+      "Description": "Organized 6th generation middleware",
+      "Rank": 845,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   }
 }

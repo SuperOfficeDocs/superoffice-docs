@@ -762,7 +762,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=favouriteAssociateId,createdBy/personId,person/position,person/personAssociate/contactFullName,person/correspondingAssociate/fullName
+GET /api/v1/archive/ticketfavourites?$select=person/personExtra/x_person_contact_relation,person/personExtra/y_rental/x_amount,person/personAssociate/locationAddress,contact/contactAssociate/ejDisplayName,contact/contactExtra/x_contact_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

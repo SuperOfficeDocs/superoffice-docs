@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 218,
+  "QuoteAlternativeId": 752,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 476,
-  "ERPQuoteLineKey": "ipsa",
-  "QuoteAlternativeId": 506,
-  "ERPProductKey": "velit",
+  "QuoteLineId": 981,
+  "ERPQuoteLineKey": "corrupti",
+  "QuoteAlternativeId": 625,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1382.094,
-  "DeliveredQuantity": 13372.778,
-  "Rank": 349,
-  "Name": "Deckow, Glover and Hamill",
-  "Description": "Operative reciprocal hierarchy",
-  "Code": "vel",
-  "QuantityUnit": "eos",
-  "PriceUnit": "qui",
-  "ItemNumber": "1949165",
+  "Quantity": 10003.728,
+  "DeliveredQuantity": 10379.807999999999,
+  "Rank": 318,
+  "Name": "Hilll Inc and Sons",
+  "Description": "Front-line grid-enabled time-frame",
+  "Code": "cupiditate",
+  "QuantityUnit": "praesentium",
+  "PriceUnit": "quas",
+  "ItemNumber": "1433094",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "blanditiis",
-  "ProductTypeKey": "voluptas",
-  "Supplier": "voluptatibus",
-  "SupplierCode": "repudiandae",
-  "Thumbnail": "et",
-  "VATInfo": "dolorem",
-  "VAT": 5938.9299999999994,
-  "UnitCost": 21815.773999999998,
-  "UnitMinimumPrice": 12394.97,
-  "UnitListPrice": 30471.881999999998,
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "quidem",
+  "Supplier": "nihil",
+  "SupplierCode": "aliquam",
+  "Thumbnail": "sed",
+  "VATInfo": "ad",
+  "VAT": 11106.895999999999,
+  "UnitCost": 17838.728,
+  "UnitMinimumPrice": 2106.048,
+  "UnitListPrice": 4575.6399999999994,
   "ExtraInfo": [
     {
-      "Name": "Gleason Inc and Sons",
-      "Value": "quod",
+      "Name": "Mohr Group",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 895
         }
       }
     },
     {
-      "Name": "Gleason Inc and Sons",
-      "Value": "quod",
+      "Name": "Mohr Group",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 895
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
+  "RawExtraInfo": "officiis",
   "IsSubscription": true,
-  "SubscriptionUnit": "mollitia",
-  "SubscriptionQuantity": 22561.666,
-  "SubscriptionStart": "2017-12-21T14:45:06.0843796+01:00",
-  "ERPDiscountPercent": 18637.898,
-  "ERPDiscountAmount": 1595.206,
-  "DiscountPercent": 28914.284,
-  "DiscountAmount": 25792.82,
+  "SubscriptionUnit": "laudantium",
+  "SubscriptionQuantity": 13244.284,
+  "SubscriptionStart": "2017-05-10T10:17:55.9571855+02:00",
+  "ERPDiscountPercent": 5045.74,
+  "ERPDiscountAmount": 29713.453999999998,
+  "DiscountPercent": 14497.884,
+  "DiscountAmount": 2695.24,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8004.236,
-  "EarningAmount": 7552.94,
-  "SubTotal": 25156.618,
-  "TotalPrice": 19578.097999999998,
-  "Rights": "nesciunt",
-  "Rule": "in",
-  "ExtraField1": "eaque",
-  "ExtraField2": "eius",
-  "ExtraField3": "beatae",
-  "ExtraField4": "repellendus",
-  "ExtraField5": "dolorem",
+  "EarningPercent": 13347.706,
+  "EarningAmount": 10310.859999999999,
+  "SubTotal": 21094.953999999998,
+  "TotalPrice": 28406.575999999997,
+  "Rights": "adipisci",
+  "Rule": "enim",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "sapiente",
+  "ExtraField3": "molestiae",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 46,
-    "Name": "Zulauf-Ritchie",
-    "Tooltip": "quis",
-    "SaveInDb": 958,
-    "Filename": "est",
-    "DefaultOref": "consequatur",
+    "DocumentTemplateId": 590,
+    "Name": "Parker, Jacobs and Tromp",
+    "Tooltip": "aliquid",
+    "SaveInDb": 777,
+    "Filename": "non",
+    "DefaultOref": "veritatis",
     "RecordType": "Appointment",
-    "Deleted": 187,
+    "Deleted": 759,
     "Direction": "Incoming",
-    "AutoeventId": 44,
+    "AutoeventId": 937,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 30
       }
     }
   }

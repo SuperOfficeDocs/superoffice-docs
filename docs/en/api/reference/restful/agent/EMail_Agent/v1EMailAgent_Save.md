@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 193,
-      "ContactName": "Bauch LLC",
-      "PersonId": 436,
-      "PersonName": "Hettinger-Willms",
-      "AssociateId": 555,
-      "Address": "voluptatum",
-      "EmailId": 257,
+      "ContactId": 291,
+      "ContactName": "Olson Inc and Sons",
+      "PersonId": 192,
+      "PersonName": "Krajcik Inc and Sons",
+      "AssociateId": 128,
+      "Address": "eveniet",
+      "EmailId": 420,
       "DuplicatePersonIds": [
-        350,
-        33
+        888,
+        645
       ],
-      "Name": "McGlynn Inc and Sons",
+      "Name": "Halvorson-Hodkiewicz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 555
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 932,
-      "ContactName": "D'Amore, Bailey and Huel",
-      "PersonId": 802,
-      "PersonName": "Bechtelar Inc and Sons",
-      "AssociateId": 427,
-      "Address": "porro",
-      "EmailId": 316,
+      "ContactId": 885,
+      "ContactName": "Bradtke Group",
+      "PersonId": 243,
+      "PersonName": "Howell-Weissnat",
+      "AssociateId": 467,
+      "Address": "qui",
+      "EmailId": 208,
       "DuplicatePersonIds": [
-        862,
-        178
+        617,
+        488
       ],
-      "Name": "Hilpert Group",
+      "Name": "Littel, Witting and Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 176
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 546,
-      "ContactName": "Altenwerth-Jacobi",
-      "PersonId": 874,
-      "PersonName": "Conn, Lebsack and Crist",
-      "AssociateId": 486,
-      "Address": "harum",
-      "EmailId": 289,
+      "ContactId": 149,
+      "ContactName": "Schaefer-Reichert",
+      "PersonId": 165,
+      "PersonName": "Littel, Jaskolski and Mante",
+      "AssociateId": 123,
+      "Address": "voluptas",
+      "EmailId": 137,
       "DuplicatePersonIds": [
-        326,
-        533
+        87,
+        305
       ],
-      "Name": "Bosco Inc and Sons",
+      "Name": "Schulist-Cartwright",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
   ],
-  "Subject": "sit",
-  "HTMLBody": "voluptatibus",
+  "Subject": "necessitatibus",
+  "HTMLBody": "earum",
   "From": null,
-  "Sent": "2022-04-26T14:45:05.4595178+02:00",
-  "Size": 697,
+  "Sent": "1998-08-20T10:17:55.5352844+02:00",
+  "Size": 755,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "saepe",
-  "PlainBody": "nihil",
-  "IsSent": false,
+  "MessageID": "ad",
+  "PlainBody": "voluptatem",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 797,
+  "ServerId": 949,
   "Attachments": [
     {
-      "Description": "User-friendly solution-oriented policy",
-      "Filename": "ut",
-      "Size": 802,
-      "Type": "sed",
-      "Encoding": "sit",
-      "Id": "doloribus",
-      "Disposition": "quis",
+      "Description": "Devolved scalable circuit",
+      "Filename": "quisquam",
+      "Size": 177,
+      "Type": "dicta",
+      "Encoding": "praesentium",
+      "Id": "aut",
+      "Disposition": "sunt",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 593
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Towne, Marvin and Boyer",
+      "Name": "Konopelski Group",
       "Values": [
-        "repudiandae",
-        "voluptates"
+        "non",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 177
         }
       }
     },
     {
-      "Name": "Towne, Marvin and Boyer",
+      "Name": "Konopelski Group",
       "Values": [
-        "repudiandae",
-        "voluptates"
+        "non",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 725
+          "FieldType": "System.Int32",
+          "FieldLength": 177
         }
       }
     }
   ],
-  "FolderName": "Pouros Group",
-  "EmailItemId": 102,
-  "AccountId": 757,
-  "ReceivedAt": "2015-04-30T14:45:05.4595178+02:00",
+  "FolderName": "Considine Group",
+  "EmailItemId": 87,
+  "AccountId": 970,
+  "ReceivedAt": "2005-12-01T10:17:55.5352844+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-06-08T14:45:05.4595178+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-01-14T10:17:55.5352844+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 667
     }
   }
 }

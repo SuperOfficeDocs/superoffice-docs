@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "Morar, Howell and Kshlerin",
-    "ToolTip": "Possimus exercitationem culpa dolores ea.",
-    "Deleted": false,
-    "Rank": 816,
-    "Type": "atque",
-    "ColorBlock": 9,
-    "IconHint": "officiis",
+    "Id": 729,
+    "Name": "Hessel Group",
+    "ToolTip": "Laborum architecto laboriosam voluptatem distinctio reiciendis quo harum.",
+    "Deleted": true,
+    "Rank": 788,
+    "Type": "eveniet",
+    "ColorBlock": 337,
+    "IconHint": "esse",
     "Selected": true,
-    "LastChanged": "2005-01-14T14:45:13.7398643+01:00",
+    "LastChanged": "2020-02-19T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Wisozk-Harvey",
-        "ToolTip": "Sit adipisci nulla quam quisquam magni fugiat earum.",
-        "Deleted": false,
-        "Rank": 423,
-        "Type": "dolorum",
-        "ColorBlock": 988,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2000-10-29T14:45:13.7398643+01:00",
+        "Id": 409,
+        "Name": "Huels, Barton and Kutch",
+        "ToolTip": "Non aspernatur.",
+        "Deleted": true,
+        "Rank": 692,
+        "Type": "voluptatum",
+        "ColorBlock": 337,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2004-09-16T10:18:01.051244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eum",
+        "ExtraInfo": "vel",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Ms. London Rashawn Kirlin II",
+        "FullName": "Mrs. Aron Crooks Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldLength": 614
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "laborum",
+    "ExtraInfo": "molestias",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Ova Emmalee Lind DDS",
+    "FullName": "Stefan Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldType": "System.Int32",
+        "FieldLength": 741
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 536,
-  "Name": "Kessler-Ankunding",
-  "Tooltip": "quam",
+  "HeadingId": 267,
+  "Name": "Strosin, Waters and Rodriguez",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 977,
-  "UdListDefinitionId": 452
+  "Rank": 417,
+  "UdListDefinitionId": 640
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Weimann Group",
-  "Tooltip": "eius",
+  "HeadingId": 960,
+  "Name": "Adams LLC",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 795,
-  "UdListDefinitionId": 849,
+  "Rank": 119,
+  "UdListDefinitionId": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 625
     }
   }
 }

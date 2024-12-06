@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repellat",
-  "ProviderName": "Nikolaus, Bode and Cremin",
-  "StorageKey": "labore",
-  "PageSize": 372,
-  "PageNumber": 503,
-  "OrderBy": "et"
+  "StorageType": "et",
+  "ProviderName": "Christiansen-Heidenreich",
+  "StorageKey": "possimus",
+  "PageSize": 255,
+  "PageNumber": 205,
+  "OrderBy": "repudiandae"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sporer, Rice and Haley",
-      "DisplayTooltip": "sed",
-      "DisplayType": "facilis",
+      "DisplayName": "Glover-Jaskolski",
+      "DisplayTooltip": "itaque",
+      "DisplayType": "dolores",
       "CanOrderBy": false,
-      "Name": "Konopelski-Muller",
+      "Name": "Ortiz Group",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Smith-Kub",
+      "RestrictionType": "dolorum",
+      "RestrictionListName": "Olson LLC",
       "IsVisible": false,
-      "ExtraInfo": "veritatis",
-      "Width": "aut",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "et",
+      "Width": "id",
+      "IconHint": "est",
+      "HeadingIconHint": "minima"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Altenwerth Inc and Sons",
-      "PrimaryKey": 387,
+      "EntityName": "Gutkowski, Willms and Collier",
+      "PrimaryKey": 294,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "pariatur",
-          "TooltipHint": "id",
-          "LinkHint": "et"
+          "DisplayValue": "qui",
+          "TooltipHint": "voluptatum",
+          "LinkHint": "architecto"
         }
       },
-      "LinkHint": "temporibus",
-      "StyleHint": "exercitationem",
+      "LinkHint": "natus",
+      "StyleHint": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldLength": 891
         }
       }
     }
   ],
-  "RowCount": 356,
+  "RowCount": 906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 157
     }
   }
 }

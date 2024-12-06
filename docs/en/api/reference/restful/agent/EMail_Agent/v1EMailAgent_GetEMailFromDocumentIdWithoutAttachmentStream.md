@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 593
+  "DocumentId": 484
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 479,
-      "ContactName": "Marks Group",
-      "PersonId": 73,
-      "PersonName": "Roob, Friesen and Gottlieb",
-      "AssociateId": 579,
-      "Address": "quisquam",
-      "EmailId": 216,
+      "ContactId": 918,
+      "ContactName": "Wiza Group",
+      "PersonId": 261,
+      "PersonName": "Reichert-Tillman",
+      "AssociateId": 634,
+      "Address": "qui",
+      "EmailId": 248,
       "DuplicatePersonIds": [
-        824,
-        681
+        849,
+        127
       ],
-      "Name": "Walker LLC",
+      "Name": "Schroeder Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 666
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 845,
-      "ContactName": "Torphy-Graham",
-      "PersonId": 202,
-      "PersonName": "Hayes Inc and Sons",
-      "AssociateId": 622,
-      "Address": "eius",
-      "EmailId": 492,
+      "ContactId": 304,
+      "ContactName": "Graham Inc and Sons",
+      "PersonId": 379,
+      "PersonName": "DuBuque, Mayer and Halvorson",
+      "AssociateId": 17,
+      "Address": "est",
+      "EmailId": 26,
       "DuplicatePersonIds": [
-        713,
-        157
+        651,
+        585
       ],
-      "Name": "Gaylord-Thompson",
+      "Name": "O'Conner LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 545
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 552,
-      "ContactName": "Collins LLC",
-      "PersonId": 119,
-      "PersonName": "Cummerata-Ankunding",
-      "AssociateId": 133,
-      "Address": "natus",
-      "EmailId": 21,
+      "ContactId": 758,
+      "ContactName": "Hand-Thompson",
+      "PersonId": 450,
+      "PersonName": "Anderson Inc and Sons",
+      "AssociateId": 200,
+      "Address": "asperiores",
+      "EmailId": 343,
       "DuplicatePersonIds": [
-        325,
-        155
+        254,
+        241
       ],
-      "Name": "Miller, Marquardt and Dach",
+      "Name": "Weber Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldType": "System.Int32",
+          "FieldLength": 292
         }
       }
     }
   ],
-  "Subject": "cum",
-  "HTMLBody": "aspernatur",
+  "Subject": "ea",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2021-07-24T14:45:05.5063824+02:00",
-  "Size": 442,
+  "Sent": "2009-02-03T10:17:55.5665368+01:00",
+  "Size": 156,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "sed",
-  "IsSent": true,
+  "MessageID": "neque",
+  "PlainBody": "qui",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 291,
+  "ServerId": 440,
   "Attachments": [
     {
-      "Description": "Compatible high-level parallelism",
-      "Filename": "repellat",
-      "Size": 843,
-      "Type": "aut",
-      "Encoding": "et",
-      "Id": "id",
-      "Disposition": "eaque",
+      "Description": "Synergized impactful projection",
+      "Filename": "quas",
+      "Size": 793,
+      "Type": "sed",
+      "Encoding": "voluptate",
+      "Id": "quibusdam",
+      "Disposition": "voluptatum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldType": "System.Int32",
+          "FieldLength": 991
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jaskolski-Kirlin",
+      "Name": "Reichel Inc and Sons",
       "Values": [
-        "non",
-        "consequatur"
+        "ullam",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 349
         }
       }
     },
     {
-      "Name": "Jaskolski-Kirlin",
+      "Name": "Reichel Inc and Sons",
       "Values": [
-        "non",
-        "consequatur"
+        "ullam",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 349
         }
       }
     }
   ],
-  "FolderName": "Reichert-Schowalter",
-  "EmailItemId": 157,
-  "AccountId": 243,
-  "ReceivedAt": "2022-01-08T14:45:05.5063824+01:00",
+  "FolderName": "Blick Inc and Sons",
+  "EmailItemId": 392,
+  "AccountId": 196,
+  "ReceivedAt": "2004-03-22T10:17:55.5665368+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-01-20T14:45:05.5063824+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2024-05-24T10:17:55.5665368+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 707
     }
   }
 }

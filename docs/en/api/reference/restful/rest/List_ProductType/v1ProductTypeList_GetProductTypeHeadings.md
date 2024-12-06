@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 51,
-    "Name": "Wisoky LLC",
-    "Tooltip": "labore",
+    "HeadingId": 264,
+    "Name": "Brekke Group",
+    "Tooltip": "iure",
     "Deleted": true,
-    "Rank": 761,
-    "UdListDefinitionId": 961,
+    "Rank": 950,
+    "UdListDefinitionId": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 778
       }
     }
   }

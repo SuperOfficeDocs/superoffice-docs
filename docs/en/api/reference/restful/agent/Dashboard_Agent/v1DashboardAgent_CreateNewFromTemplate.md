@@ -94,20 +94,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 250,
-  "Caption": "nobis",
-  "Description": "User-centric foreground attitude",
-  "SelectionId": 330,
+  "DashboardTileId": 799,
+  "Caption": "inventore",
+  "Description": "Networked systemic complexity",
+  "SelectionId": 575,
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 346,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 346,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "vel"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 133,
-  "Caption": "ducimus",
-  "Description": "Integrated intermediate initiative",
-  "ChartName": "Predovic Inc and Sons",
-  "ChartId": "adipisci",
-  "IsDefault": false,
-  "AssociateId": 44,
-  "GroupId": 4,
-  "SelectionId": 641,
-  "Config": "at",
+  "DashboardTileId": 587,
+  "Caption": "et",
+  "Description": "Quality-focused systemic implementation",
+  "ChartName": "Walsh-Wolff",
+  "ChartId": "quia",
+  "IsDefault": true,
+  "AssociateId": 951,
+  "GroupId": 822,
+  "SelectionId": 749,
+  "Config": "tenetur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Heidenreich Inc and Sons",
-      "Description": "Re-engineered encompassing methodology",
+      "Name": "Flatley-Barton",
+      "Description": "Robust hybrid productivity",
       "Type": "Boolean",
-      "ListName": "Schinner, Klein and Daniel",
+      "ListName": "Schmeler, Graham and Murazik",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "earum",
-      "DefaultDataOption": false,
+      "Value": "impedit",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 179
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 475,
+      "VisibleId": 668,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldType": "System.Int32",
+          "FieldLength": 16
         }
       }
     },
     {
-      "VisibleId": 475,
+      "VisibleId": 668,
       "Visibility": "All",
-      "DisplayValue": "vero",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldType": "System.Int32",
+          "FieldLength": 16
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

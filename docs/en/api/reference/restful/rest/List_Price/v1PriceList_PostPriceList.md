@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 763,
-  "ERPPriceListKey": "eum",
-  "QuoteConnectionId": 173,
-  "Name": "Pfannerstill, Gibson and Lueilwitz",
-  "Description": "Re-contextualized multi-state groupware",
-  "Currency": "alias",
-  "CurrencyName": "Murazik Group",
-  "ValidFrom": "2011-05-17T14:45:13.7711051+02:00",
-  "ValidTo": "2005-05-18T14:45:13.7711051+02:00",
+  "PriceListId": 1000,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 593,
+  "Name": "Gulgowski Group",
+  "Description": "De-engineered reciprocal utilisation",
+  "Currency": "dignissimos",
+  "CurrencyName": "Jewess LLC",
+  "ValidFrom": "2000-09-25T10:18:01.0668705+02:00",
+  "ValidTo": "2009-10-24T10:18:01.0668705+02:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 313,
-  "ERPPriceListKey": "quisquam",
-  "QuoteConnectionId": 622,
-  "Name": "Greenfelder Inc and Sons",
-  "Description": "Extended client-driven system engine",
-  "Currency": "dolore",
-  "CurrencyName": "Roberts, Reichert and Romaguera",
-  "ValidFrom": "2007-04-03T14:45:13.7711051+02:00",
-  "ValidTo": "2020-10-12T14:45:13.7711051+02:00",
+  "PriceListId": 792,
+  "ERPPriceListKey": "dolores",
+  "QuoteConnectionId": 32,
+  "Name": "White, Sauer and Fisher",
+  "Description": "Organized attitude-oriented encryption",
+  "Currency": "omnis",
+  "CurrencyName": "Zemlak Group",
+  "ValidFrom": "1999-07-14T10:18:01.0668705+02:00",
+  "ValidTo": "2014-12-13T10:18:01.0668705+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   },
   "_Links": {

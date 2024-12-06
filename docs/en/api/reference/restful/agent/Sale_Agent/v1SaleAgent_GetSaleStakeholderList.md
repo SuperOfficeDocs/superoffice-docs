@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Durgan Inc and Sons",
-    "Comment": "magnam",
-    "StakeholderRoleId": 681,
-    "CountryId": 337,
-    "PersonId": 159,
-    "EmailDescription": "bennie.wehner@morar.ca",
-    "EmailId": 518,
-    "EmailAddress": "aylin@heidenreichdaugherty.com",
-    "PhoneId": 341,
-    "ContactName": "Moen, O'Reilly and Ankunding",
-    "ContactId": 758,
-    "SaleId": 212,
-    "Mrmrs": "laudantium",
-    "Firstname": "Maybell",
-    "MiddleName": "Rogahn Inc and Sons",
-    "Lastname": "Auer",
-    "SaleStakeholderId": 702,
-    "Rank": 531,
-    "Phone": "210-919-2880 x85582",
+    "StakeholderRoleName": "Buckridge-Johnston",
+    "Comment": "totam",
+    "StakeholderRoleId": 192,
+    "CountryId": 977,
+    "PersonId": 398,
+    "EmailDescription": "samanta@tromp.co.uk",
+    "EmailId": 979,
+    "EmailAddress": "erika@dooley.co.uk",
+    "PhoneId": 123,
+    "ContactName": "Veum-Barrows",
+    "ContactId": 339,
+    "SaleId": 755,
+    "Mrmrs": "pariatur",
+    "Firstname": "Duane",
+    "MiddleName": "Haley, Powlowski and Kulas",
+    "Lastname": "Yundt",
+    "SaleStakeholderId": 235,
+    "Rank": 766,
+    "Phone": "193.307.9812",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 272
       }
     }
   }

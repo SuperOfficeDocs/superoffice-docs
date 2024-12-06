@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    585,
-    601
+    306,
+    873
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Watsica Group",
-    "AssociateId": 521,
-    "DetailsTable": 219,
-    "DetailsRecord": 466,
+    "Id": 821,
+    "Name": "Jones Inc and Sons",
+    "AssociateId": 289,
+    "DetailsTable": 228,
+    "DetailsRecord": 63,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "minus"
+      "ParameterObject1": "et",
+      "ParameterObject2": "nostrum"
     },
-    "LastStarted": "2007-05-07T14:45:04.8815214+02:00",
-    "Created": "2007-05-01T14:45:04.8815214+02:00",
-    "StartCount": 498,
-    "DatabaseSerialNumber": "1421205",
-    "Context": "reiciendis",
-    "Result": "consequuntur",
+    "LastStarted": "2004-01-15T10:17:55.1290102+01:00",
+    "Created": "2021-12-15T10:17:55.1290102+01:00",
+    "StartCount": 539,
+    "DatabaseSerialNumber": "694282",
+    "Context": "doloremque",
+    "Result": "facere",
     "State": "All",
-    "Description": "Realigned background structure",
-    "Response": "fugit",
-    "Request": "in",
-    "ProgressDescription": "Seamless modular frame",
+    "Description": "Enhanced fresh-thinking framework",
+    "Response": "eos",
+    "Request": "modi",
+    "ProgressDescription": "Future-proofed asynchronous budgetary management",
     "ProgressPercent": 220,
-    "FileName": "Parisian, Anderson and Rau",
+    "FileName": "Buckridge Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 446
       }
     }
   }

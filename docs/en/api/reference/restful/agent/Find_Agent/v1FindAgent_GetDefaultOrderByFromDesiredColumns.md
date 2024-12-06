@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ziemann-Bosco",
+  "ProviderName": "Howell-Durgan",
   "DesiredColumns": [
-    "nisi",
-    "voluptatem"
+    "laborum",
+    "consequatur"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reichert Inc and Sons",
+    "Name": "Jones Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Reichert Inc and Sons",
+    "Name": "Jones Inc and Sons",
     "Direction": "ASC"
   }
 ]

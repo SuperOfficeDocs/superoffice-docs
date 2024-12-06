@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "Carroll LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 252,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 823,
+  "Name": "Bruen-Ruecker",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 536,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Gorczany-Larkin",
-  "Tooltip": "nisi",
+  "Id": 647,
+  "Name": "Howe Group",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 900,
+  "Rank": 427,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 925
     }
   }
 }

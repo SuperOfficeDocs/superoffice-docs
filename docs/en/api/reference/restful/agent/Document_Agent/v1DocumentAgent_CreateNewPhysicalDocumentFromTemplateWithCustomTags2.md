@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 787,
-  "PersonId": 705,
-  "AppointmentId": 416,
-  "DocumentId": 295,
-  "SaleId": 540,
-  "SelectionId": 943,
-  "ProjectId": 544,
+  "ContactId": 9,
+  "PersonId": 590,
+  "AppointmentId": 475,
+  "DocumentId": 49,
+  "SaleId": 858,
+  "SelectionId": 178,
+  "ProjectId": 894,
   "CustomTags": {
-    "CustomTags1": "voluptates",
-    "CustomTags2": "odio"
+    "CustomTags1": "assumenda",
+    "CustomTags2": "consectetur"
   },
-  "UiCulture": "et"
+  "UiCulture": "optio"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 236,
+  "DocumentId": 868,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aut",
-  "Header": "ut",
-  "Name": "DuBuque Group",
-  "OurRef": "at",
-  "YourRef": "maxime",
-  "CreatedDate": "2014-11-15T14:45:05.4126533+01:00",
-  "UpdatedDate": "2006-09-16T14:45:05.4126533+02:00",
-  "Description": "Team-oriented zero defect middleware",
+  "Attention": "nihil",
+  "Header": "cumque",
+  "Name": "Bayer, VonRueden and Mertz",
+  "OurRef": "voluptates",
+  "YourRef": "necessitatibus",
+  "CreatedDate": "2023-07-26T10:17:55.5040321+02:00",
+  "UpdatedDate": "2012-03-16T10:17:55.5040321+01:00",
+  "Description": "Re-contextualized client-driven toolset",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-05-05T14:45:05.4282744+02:00",
-  "ExternalRef": "qui",
+  "Date": "2004-06-06T10:17:55.5040321+02:00",
+  "ExternalRef": "unde",
   "Completed": "Completed",
-  "ActiveLinks": 3,
+  "ActiveLinks": 417,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kerluke-Dach",
-      "Id": 103,
-      "Description": "Mandatory optimizing data-warehouse",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 529,
+      "EntityName": "Schneider, Wisozk and Wisoky",
+      "Id": 632,
+      "Description": "Digitized leading edge info-mediaries",
+      "ExtraInfo": "id",
+      "LinkId": 834,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 4
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 860,
-  "Snum": 420,
+  "SuggestedDocumentId": 487,
+  "Snum": 541,
   "UserDefinedFields": {
-    "SuperOffice:1": "1247187797",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Carley Jennifer Marvin V",
+    "SuperOffice:2": "Melany Botsford"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "aut"
+    "CustomFields1": "tempora",
+    "CustomFields2": "vero"
   },
-  "PublishEventDate": "2024-08-05T14:45:05.4282744+02:00",
-  "PublishTo": "2002-12-31T14:45:05.4282744+01:00",
-  "PublishFrom": "2000-02-07T14:45:05.4282744+01:00",
+  "PublishEventDate": "2018-02-26T10:17:55.5040321+01:00",
+  "PublishTo": "2001-02-20T10:17:55.5040321+01:00",
+  "PublishFrom": "2000-05-09T10:17:55.5040321+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 636,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldType": "System.Int32",
+          "FieldLength": 541
         }
       }
     },
     {
-      "VisibleId": 636,
+      "VisibleId": 626,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 390
+          "FieldType": "System.Int32",
+          "FieldLength": 541
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

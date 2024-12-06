@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended hybrid artificial intelligence",
-  "Postit": "velit",
+  "Description": "Switchable directional architecture",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 394,
-  "IncludePerson": 871,
+  "GroupIdx": 467,
+  "IncludePerson": 955,
   "MemberCount": 99.99,
-  "Name": "Stroman Group",
-  "PostitTextId": 141,
-  "CreatedDate": "2023-01-08T14:45:06.2093526+01:00",
-  "SelectionId": 776,
-  "SoundEx": "vel",
-  "Source": 666,
-  "TextId": 541,
-  "UpdatedDate": "2021-10-30T14:45:06.2093526+02:00",
-  "UpdatedCount": 159,
-  "Visibility": 831,
+  "Name": "Bernier-Franecki",
+  "PostitTextId": 984,
+  "CreatedDate": "2024-04-24T10:17:56.0196892+02:00",
+  "SelectionId": 957,
+  "SoundEx": "corporis",
+  "Source": 37,
+  "TextId": 123,
+  "UpdatedDate": "2004-11-17T10:17:56.0196892+01:00",
+  "UpdatedCount": 106,
+  "Visibility": 777,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 870,
-  "TargetTableName": "Hagenes-Donnelly",
+  "CompanyUnique": false,
+  "TargetTableNumber": 856,
+  "TargetTableName": "Schiller Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 472,
-  "RightSelectionId": 119,
+  "LeftSelectionId": 448,
+  "RightSelectionId": 978,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crooks Group",
-  "ShadowProviderName": "Medhurst-Emmerich",
-  "ChartKey": "et",
-  "LastLoaded": "1997-12-15T14:45:06.2093526+01:00",
-  "LastLoadedBy": 651,
+  "MainProviderName": "Watsica, Pollich and Hartmann",
+  "ShadowProviderName": "McClure-Skiles",
+  "ChartKey": "qui",
+  "LastLoaded": "2005-08-07T10:17:56.0196892+02:00",
+  "LastLoadedBy": 483,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-05-04T14:45:06.2093526+02:00",
-  "LastMembershipChangeBy": 64,
+  "LastMembershipChange": "1999-02-23T10:17:56.0196892+01:00",
+  "LastMembershipChangeBy": 202,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "porro",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Wiegand LLC",
-  "DashboardTileDefinitionId": 778,
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Homenick LLC",
+  "DashboardTileDefinitionId": 9,
   "VisibleFor": [
     {
-      "VisibleId": 116,
+      "VisibleId": 98,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "at"
     },
     {
-      "VisibleId": 116,
+      "VisibleId": 98,
       "Visibility": "All",
-      "DisplayValue": "debitis"
+      "DisplayValue": "at"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Business-focused real-time throughput",
-  "Postit": "aut",
+  "Description": "Managed asynchronous secured line",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 43,
-  "IncludePerson": 999,
+  "GroupIdx": 936,
+  "IncludePerson": 882,
   "MemberCount": 99.99,
-  "Name": "Zemlak-Tromp",
-  "PostitTextId": 571,
-  "CreatedDate": "2004-12-17T14:45:06.2093526+01:00",
-  "SelectionId": 99,
-  "SoundEx": "dignissimos",
-  "Source": 372,
-  "TextId": 169,
-  "UpdatedDate": "1998-09-07T14:45:06.2093526+02:00",
-  "UpdatedCount": 700,
-  "Visibility": 271,
+  "Name": "Schumm, Cronin and Runte",
+  "PostitTextId": 593,
+  "CreatedDate": "2011-04-15T10:17:56.0196892+02:00",
+  "SelectionId": 944,
+  "SoundEx": "adipisci",
+  "Source": 129,
+  "TextId": 173,
+  "UpdatedDate": "1998-02-09T10:17:56.0196892+01:00",
+  "UpdatedCount": 545,
+  "Visibility": 63,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 372,
-  "TargetTableName": "Bruen Group",
-  "Completed": true,
-  "LeftSelectionId": 11,
-  "RightSelectionId": 419,
+  "TargetTableNumber": 997,
+  "TargetTableName": "Cummings, Bednar and O'Conner",
+  "Completed": false,
+  "LeftSelectionId": 508,
+  "RightSelectionId": 360,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Senger, Kulas and Cole",
-  "ShadowProviderName": "Hammes LLC",
-  "ChartKey": "nobis",
-  "LastLoaded": "2015-11-02T14:45:06.2093526+01:00",
-  "LastLoadedBy": 1001,
+  "MainProviderName": "Leannon-Roberts",
+  "ShadowProviderName": "Corkery, Spinka and Swaniawski",
+  "ChartKey": "labore",
+  "LastLoaded": "2020-11-04T10:17:56.0196892+01:00",
+  "LastLoadedBy": 501,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-06-15T14:45:06.2093526+02:00",
-  "LastMembershipChangeBy": 74,
+  "LastMembershipChange": "2022-09-19T10:17:56.0196892+02:00",
+  "LastMembershipChangeBy": 700,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "in",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Predovic, Spencer and Oberbrunner",
-  "DashboardTileDefinitionId": 771,
+  "MainHeading": "dolorem",
+  "MemberTabHeading": "atque",
+  "MailingsProviderName": "Lynch, Mayer and Cassin",
+  "DashboardTileDefinitionId": 994,
   "VisibleFor": [
     {
-      "VisibleId": 630,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     },
     {
-      "VisibleId": 630,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

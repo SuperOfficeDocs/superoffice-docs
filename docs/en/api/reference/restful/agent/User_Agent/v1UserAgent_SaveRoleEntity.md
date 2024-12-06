@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 422,
-  "Name": "Boehm-Lubowitz",
-  "Tooltip": "repellat",
+  "RoleId": 733,
+  "Name": "Collier, Reichert and Bailey",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 802,
-  "Rank": 747,
-  "Created": "2023-11-13T14:45:06.6311318+01:00",
-  "UseCategories": 501,
+  "Deleted": 498,
+  "Rank": 278,
+  "Created": "2015-08-29T10:17:56.3165751+02:00",
+  "UseCategories": 523,
   "CreatedBy": null,
-  "Updated": "2014-07-13T14:45:06.6311318+02:00",
+  "Updated": "2000-07-05T10:17:56.3165751+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 79,
-  "Name": "Boyle Inc and Sons",
-  "Tooltip": "eaque",
+  "RoleId": 383,
+  "Name": "Feeney-Batz",
+  "Tooltip": "recusandae",
   "RoleType": "Anonymous",
-  "Deleted": 523,
-  "Rank": 289,
-  "Created": "2018-12-12T14:45:06.6311318+01:00",
-  "UseCategories": 187,
+  "Deleted": 1001,
+  "Rank": 96,
+  "Created": "2011-09-16T10:17:56.3165751+02:00",
+  "UseCategories": 806,
   "CreatedBy": null,
-  "Updated": "2021-07-19T14:45:06.6311318+02:00",
+  "Updated": "2014-02-18T10:17:56.3165751+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 813
     }
   }
 }

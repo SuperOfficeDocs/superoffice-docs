@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quo"
+  "FileContent": "natus"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "harness impactful markets",
-  "CanBeActivated": false,
+  "Reason": "",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 954,
-      "NumberOfLicensesFree": 260,
-      "NumberOfLicensesAdded": 70,
-      "NumberOfLicensesNewTotal": 526,
-      "NumberOfLicensesNewFree": 444,
-      "NumberOfLicensesTotal": 727
+      "NumberOfLicensesInUse": 616,
+      "NumberOfLicensesFree": 572,
+      "NumberOfLicensesAdded": 761,
+      "NumberOfLicensesNewTotal": 920,
+      "NumberOfLicensesNewFree": 900,
+      "NumberOfLicensesTotal": 795
     }
   ],
-  "AccumulatedNextCheckDate": "2010-08-25T14:45:05.6625978+02:00"
+  "AccumulatedNextCheckDate": "2011-09-05T10:17:55.675911+02:00"
 }
 ```

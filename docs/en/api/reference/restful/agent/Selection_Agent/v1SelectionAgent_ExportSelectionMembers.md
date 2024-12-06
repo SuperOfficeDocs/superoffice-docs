@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 952,
-  "TemplateName": "Murphy, Bayer and Wuckert",
+  "SelectionId": 347,
+  "TemplateName": "Boehm Group",
   "UseContacts": false
 }
 ```

@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "dolores",
+      "RawValue": "a",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "ut",
+      "DisplayTooltip": "laudantium",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 386,
-      "PrefDescId": 576,
-      "TableName": "Kihn, Torphy and Dietrich",
-      "UserPreferenceId": 854
+      "TargetId": 692,
+      "PrefDescId": 456,
+      "TableName": "Ferry LLC",
+      "UserPreferenceId": 891
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

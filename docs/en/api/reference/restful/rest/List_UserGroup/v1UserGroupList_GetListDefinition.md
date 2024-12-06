@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Schaefer-Hermann",
-  "Tooltip": "perspiciatis",
+  "Id": 39,
+  "Name": "Hartmann LLC",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 449,
-  "IsCustomList": true,
+  "Rank": 946,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "optio",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 662
     }
   },
   "_Links": {

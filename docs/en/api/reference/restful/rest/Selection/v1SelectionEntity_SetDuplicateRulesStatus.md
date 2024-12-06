@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque LLC",
-    "DisplayName": "Lubowitz-McGlynn",
-    "DisplayTooltip": "quibusdam",
+    "Name": "Haley-Jones",
+    "DisplayName": "Yundt LLC",
+    "DisplayTooltip": "veniam",
     "IsActive": false
   },
   {
-    "Name": "DuBuque LLC",
-    "DisplayName": "Lubowitz-McGlynn",
-    "DisplayTooltip": "quibusdam",
+    "Name": "Haley-Jones",
+    "DisplayName": "Yundt LLC",
+    "DisplayTooltip": "veniam",
     "IsActive": false
   }
 ]

@@ -77,25 +77,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 51,
-  "Value": "ut",
+  "TaskListItemId": 473,
+  "Value": "repudiandae",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "IntentId": 11,
-  "Rank": 198,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "IntentId": 483,
+  "Rank": 486,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

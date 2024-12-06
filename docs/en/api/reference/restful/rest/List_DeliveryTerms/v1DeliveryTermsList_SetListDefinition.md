@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
-  "Name": "Bechtelar-Larkin",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 572,
+  "Id": 95,
+  "Name": "Krajcik-Shields",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 691,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Hansen Inc and Sons",
-  "Tooltip": "illo",
+  "Id": 818,
+  "Name": "Hamill Group",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 39,
-  "IsCustomList": false,
+  "Rank": 508,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 806
     }
   }
 }

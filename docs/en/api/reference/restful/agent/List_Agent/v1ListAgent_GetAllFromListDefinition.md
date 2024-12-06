@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 891,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 952,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Wiegand Inc and Sons",
-    "Tooltip": "quasi",
+    "Id": 144,
+    "Name": "Huels-Rice",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 769,
-    "Rank": 7,
+    "UdListDefinitionId": 459,
+    "Rank": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 362
       }
     }
   }

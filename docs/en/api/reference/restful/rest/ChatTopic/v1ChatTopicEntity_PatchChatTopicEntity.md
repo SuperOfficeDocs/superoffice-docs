@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "sequi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "sequi",
     "value": {}
   }
 ]
@@ -162,22 +162,22 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 314,
-  "Name": "Bartell-Glover",
-  "Description": "Optional zero defect challenge",
-  "WelcomeMessage": "eum",
+  "ChatTopicId": 526,
+  "Name": "Hane-Kerluke",
+  "Description": "Multi-lateral intermediate open system",
+  "WelcomeMessage": "corporis",
   "Language": null,
-  "LastAccept": "2000-12-12T14:45:12.5994936+01:00",
-  "SecondsPrAccept": 855,
-  "AlertRecipient": "illo",
+  "LastAccept": "2002-08-10T10:18:00.2699456+02:00",
+  "SecondsPrAccept": 693,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "illum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "pariatur",
-  "WarnNewChatMinutes": 236,
-  "WarnManagerNewChatMinutes": 332,
-  "TicketEnabled": false,
+  "BadgeHeader": "deserunt",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "quos",
+  "WarnNewChatMinutes": 261,
+  "WarnManagerNewChatMinutes": 934,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 507,
-  "WarnManagerChatMessageMinutes": 225,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 94,
-  "OfflineFormQueueLength": 98,
+  "WarnChatMessageMinutes": 36,
+  "WarnManagerChatMessageMinutes": 601,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 728,
+  "OfflineFormQueueLength": 263,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "aut",
+  "WidgetRatingText": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 201
     }
   },
   "_Links": {

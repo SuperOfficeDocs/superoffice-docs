@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 729,
+  "AppointmentId": 970,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-11-01T14:45:04.7255434+01:00",
-  "AppointmentId": 213,
-  "Description": "Stand-alone static alliance",
-  "Title": "ut",
-  "Agenda": "impedit",
-  "InternalNotes": "quas",
-  "StartDate": "2018-04-21T14:45:04.7255434+02:00",
-  "EndDate": "1998-12-08T14:45:04.7255434+01:00",
+  "CreatedDate": "2005-08-25T10:17:55.0352545+02:00",
+  "AppointmentId": 352,
+  "Description": "Managed interactive workforce",
+  "Title": "ducimus",
+  "Agenda": "aut",
+  "InternalNotes": "porro",
+  "StartDate": "2008-12-25T10:17:55.0352545+01:00",
+  "EndDate": "2017-01-09T10:17:55.0352545+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 785,
+  "MotherId": 259,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-09-26T14:45:04.7374756+02:00",
+  "UpdatedDate": "1998-10-18T10:17:55.0352545+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 532,
+  "ActiveLinks": 275,
   "Links": [
     {
-      "EntityName": "Price-Hamill",
-      "Id": 251,
-      "Description": "Robust needs-based core",
-      "ExtraInfo": "sed",
-      "LinkId": 31,
+      "EntityName": "Kshlerin, Kiehn and Mraz",
+      "Id": 457,
+      "Description": "Stand-alone zero administration utilisation",
+      "ExtraInfo": "saepe",
+      "LinkId": 549,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 398
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolore",
+  "AlarmLeadTime": "ad",
   "HasAlarm": false,
-  "ColorIndex": 556,
+  "ColorIndex": 209,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptas",
-  "LeadTime": "qui",
-  "Location": "est",
-  "RejectCounter": 388,
+  "IsAlldayEvent": false,
+  "LagTime": "aliquam",
+  "LeadTime": "ut",
+  "Location": "veritatis",
+  "RejectCounter": 462,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 870,
-      "PersonId": 61,
-      "ContactId": 639,
-      "EmailId": 627,
+      "AssociateId": 215,
+      "PersonId": 266,
+      "ContactId": 864,
+      "EmailId": 588,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "destiny.stoltenberg@grant.name",
-      "Description": "Expanded 24 hour initiative"
+      "EmailAddress": "mireille_murazik@muellerglover.info",
+      "Description": "Cross-platform context-sensitive moratorium"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-09-21T14:45:04.7385667+02:00",
+  "ActiveDate": "2019-02-13T10:17:55.0352545+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 371,
+  "PreferredTZLocation": 68,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 247,
+  "SuggestedAppointmentId": 896,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perspiciatis",
+  "CentralserviceVideomeetId": "iure",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Gunner Boehm",
+    "SuperOffice:2": "Andre Little"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "ea"
+    "CustomFields1": "porro",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2019-09-26T14:45:04.7396581+02:00",
-  "PublishTo": "2006-03-21T14:45:04.7396581+01:00",
-  "PublishFrom": "2005-04-28T14:45:04.7396581+02:00",
+  "PublishEventDate": "2017-10-19T10:17:55.0352545+02:00",
+  "PublishTo": "2005-11-27T10:17:55.0352545+01:00",
+  "PublishFrom": "2003-06-12T10:17:55.0352545+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 894,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 827
         }
       }
     },
     {
-      "VisibleId": 894,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "cumque",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 827
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

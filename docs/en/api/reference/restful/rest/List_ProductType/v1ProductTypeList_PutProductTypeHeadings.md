@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Spencer, Barrows and Hahn",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 112
+    "HeadingId": 170,
+    "Name": "Windler, Goldner and Volkman",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "Rank": 238,
+    "UdListDefinitionId": 288
   },
   {
-    "HeadingId": 941,
-    "Name": "Spencer, Barrows and Hahn",
-    "Tooltip": "in",
-    "Deleted": false,
-    "Rank": 913,
-    "UdListDefinitionId": 112
+    "HeadingId": 170,
+    "Name": "Windler, Goldner and Volkman",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "Rank": 238,
+    "UdListDefinitionId": 288
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 631,
-    "Name": "McCullough-Kessler",
-    "Tooltip": "dignissimos",
+    "HeadingId": 184,
+    "Name": "Bergstrom-Bahringer",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 677,
-    "UdListDefinitionId": 58,
+    "Rank": 160,
+    "UdListDefinitionId": 234,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

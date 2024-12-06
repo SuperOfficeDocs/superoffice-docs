@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 829
+  "AssociateId": 54
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 894,
-    "AssociateId": 318,
-    "Caption": "voluptatem",
+    "DashboardId": 43,
+    "AssociateId": 202,
+    "Caption": "nulla",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 630,
-        "Caption": "doloribus",
-        "Description": "Sharable 5th generation infrastructure",
-        "ChartName": "Lindgren, Weber and Veum",
-        "ChartId": "ea",
+        "DashboardTileId": 288,
+        "Caption": "dolor",
+        "Description": "Ergonomic encompassing process improvement",
+        "ChartName": "Funk-Armstrong",
+        "ChartId": "autem",
         "IsDefault": false,
-        "AssociateId": 266,
-        "GroupId": 616,
-        "SelectionId": 3,
-        "Config": "tempore",
+        "AssociateId": 630,
+        "GroupId": 94,
+        "SelectionId": 437,
+        "Config": "reprehenderit",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 146
+            "FieldLength": 684
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldLength": 798
       }
     }
   }

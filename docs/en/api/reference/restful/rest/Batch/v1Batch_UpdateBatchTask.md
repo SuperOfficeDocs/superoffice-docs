@@ -115,30 +115,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Mueller-Fadel",
-  "AssociateId": 2,
-  "DetailsTable": 219,
-  "DetailsRecord": 738,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 286,
+  "Name": "Cruickshank-Ratke",
+  "AssociateId": 105,
+  "DetailsTable": 263,
+  "DetailsRecord": 41,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fugiat",
-    "ParameterObject2": "illo"
+    "ParameterObject1": "est",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2015-03-19T14:45:13.3961895+01:00",
-  "Created": "2020-11-17T14:45:13.3961895+01:00",
-  "StartCount": 70,
-  "DatabaseSerialNumber": "651689",
-  "Context": "cumque",
-  "Result": "expedita",
+  "LastStarted": "2008-09-01T10:18:00.8168545+02:00",
+  "Created": "2018-02-17T10:18:00.8168545+01:00",
+  "StartCount": 874,
+  "DatabaseSerialNumber": "564368",
+  "Context": "mollitia",
+  "Result": "eius",
   "State": "All",
-  "Description": "Business-focused optimizing frame",
-  "Response": "ea",
-  "Request": "qui",
-  "ProgressDescription": "Digitized local workforce",
-  "ProgressPercent": 231,
-  "FileName": "Russel, Krajcik and Marks",
+  "Description": "Inverse dedicated website",
+  "Response": "numquam",
+  "Request": "et",
+  "ProgressDescription": "Extended coherent throughput",
+  "ProgressPercent": 899,
+  "FileName": "Schultz Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Nolan, King and Crooks",
-  "AssociateId": 409,
-  "DetailsTable": 541,
-  "DetailsRecord": 73,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 947,
+  "Name": "Gusikowski-Wisozk",
+  "AssociateId": 822,
+  "DetailsTable": 968,
+  "DetailsRecord": 669,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "cumque",
-    "ParameterObject2": "ex"
+    "ParameterObject1": "pariatur",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "2013-03-22T14:45:13.3961895+01:00",
-  "Created": "2023-02-05T14:45:13.3961895+01:00",
-  "StartCount": 213,
-  "DatabaseSerialNumber": "898929",
-  "Context": "ea",
-  "Result": "corrupti",
+  "LastStarted": "2016-01-18T10:18:00.8168545+01:00",
+  "Created": "2013-10-30T10:18:00.8168545+01:00",
+  "StartCount": 956,
+  "DatabaseSerialNumber": "1242947",
+  "Context": "numquam",
+  "Result": "odio",
   "State": "All",
-  "Description": "Object-based discrete matrices",
-  "Response": "iusto",
-  "Request": "in",
-  "ProgressDescription": "Virtual clear-thinking internet solution",
-  "ProgressPercent": 225,
-  "FileName": "Graham-Parker",
+  "Description": "Fully-configurable 5th generation neural-net",
+  "Response": "rem",
+  "Request": "nam",
+  "ProgressDescription": "Multi-tiered tangible success",
+  "ProgressPercent": 500,
+  "FileName": "Rogahn Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

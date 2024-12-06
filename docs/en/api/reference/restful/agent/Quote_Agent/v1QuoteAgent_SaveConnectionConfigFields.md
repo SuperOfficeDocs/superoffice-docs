@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 267,
+  "QuoteConnectionId": 416,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "fugit",
-    "ConnectionConfigFields2": "recusandae"
+    "ConnectionConfigFields1": "sequi",
+    "ConnectionConfigFields2": "et"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eveniet",
-  "2": "in"
+  "1": "ea",
+  "2": "voluptatum"
 }
 ```

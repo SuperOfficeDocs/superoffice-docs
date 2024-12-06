@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 541,
-  "SaleId": 766,
+  "SuggestedAppointmentId": 417,
+  "SaleId": 415,
   "CreateNow": false,
-  "OwnerId": 937
+  "OwnerId": 772
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-03-04T14:45:04.7565183+01:00",
-  "AppointmentId": 688,
-  "Description": "Secured neutral time-frame",
-  "Title": "est",
-  "Agenda": "deserunt",
-  "InternalNotes": "iste",
-  "StartDate": "2009-03-20T14:45:04.7565183+01:00",
-  "EndDate": "2024-06-18T14:45:04.7565183+02:00",
+  "CreatedDate": "2005-09-10T10:17:55.0508805+02:00",
+  "AppointmentId": 413,
+  "Description": "Persevering 5th generation function",
+  "Title": "necessitatibus",
+  "Agenda": "qui",
+  "InternalNotes": "placeat",
+  "StartDate": "2017-08-30T10:17:55.0508805+02:00",
+  "EndDate": "2012-11-07T10:17:55.0508805+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 369,
+  "MotherId": 687,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-09-09T14:45:04.7565183+02:00",
+  "UpdatedDate": "2007-11-24T10:17:55.0508805+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 654,
+  "ActiveLinks": 483,
   "Links": [
     {
-      "EntityName": "Bradtke-Kunze",
-      "Id": 767,
-      "Description": "Customizable optimizing flexibility",
-      "ExtraInfo": "totam",
-      "LinkId": 381,
+      "EntityName": "Harris, Russel and Spencer",
+      "Id": 244,
+      "Description": "Virtual homogeneous groupware",
+      "ExtraInfo": "ut",
+      "LinkId": 49,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 344
         }
       }
     }
   ],
-  "AlarmLeadTime": "mollitia",
+  "AlarmLeadTime": "omnis",
   "HasAlarm": true,
-  "ColorIndex": 463,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatem",
-  "LeadTime": "iste",
-  "Location": "minus",
-  "RejectCounter": 753,
+  "ColorIndex": 847,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "et",
+  "LeadTime": "minima",
+  "Location": "necessitatibus",
+  "RejectCounter": 438,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 452,
-      "PersonId": 880,
-      "ContactId": 253,
-      "EmailId": 771,
-      "SendEmail": true,
+      "AssociateId": 674,
+      "PersonId": 448,
+      "ContactId": 442,
+      "EmailId": 911,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "antonina_luettgen@strosin.co.uk",
-      "Description": "Configurable high-level leverage"
+      "EmailAddress": "connie@bruen.name",
+      "Description": "Triple-buffered foreground adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-10-26T14:45:04.7565183+01:00",
+  "ActiveDate": "2005-09-01T10:17:55.0508805+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 580,
+  "PreferredTZLocation": 828,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 285,
+  "SuggestedAppointmentId": 975,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Emily Dejuan Connelly",
-    "SuperOffice:2": "Letha Dickens"
+    "SuperOffice:1": "Mr. Sage August Oberbrunner Jr.",
+    "SuperOffice:2": "Ms. Katelynn Strosin DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "ut",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2001-08-30T14:45:04.7565183+02:00",
-  "PublishTo": "2005-10-17T14:45:04.7565183+02:00",
-  "PublishFrom": "2001-11-27T14:45:04.7565183+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-12-19T10:17:55.0508805+01:00",
+  "PublishTo": "1997-08-09T10:17:55.0508805+02:00",
+  "PublishFrom": "2000-06-05T10:17:55.0508805+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 744,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 744,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

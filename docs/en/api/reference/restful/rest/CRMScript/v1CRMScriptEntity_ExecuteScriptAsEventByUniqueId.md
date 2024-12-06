@@ -98,42 +98,42 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "in",
-    "InputValues2": "corrupti"
+    "InputValues1": "aut",
+    "InputValues2": "earum"
   },
-  "BlockExecution": true,
-  "NavigateTo": "atque",
-  "Message": "qui",
-  "ShowDialog": "ducimus",
+  "BlockExecution": false,
+  "NavigateTo": "distinctio",
+  "Message": "nam",
+  "ShowDialog": "autem",
   "OutputValues": {
-    "OutputValues1": "est",
-    "OutputValues2": "libero"
+    "OutputValues1": "ex",
+    "OutputValues2": "excepturi"
   },
   "StateValues": {
-    "StateValues1": "laboriosam",
-    "StateValues2": "rerum"
+    "StateValues1": "eos",
+    "StateValues2": "voluptatum"
   },
-  "Exception": "velit",
+  "Exception": "accusamus",
   "ParserValues": {
-    "ParserValues1": "cum",
-    "ParserValues2": "perferendis"
+    "ParserValues1": "ut",
+    "ParserValues2": "reiciendis"
   },
   "CgiVariables": {
-    "CgiVariables1": "facere",
-    "CgiVariables2": "voluptatem"
+    "CgiVariables1": "error",
+    "CgiVariables2": "nesciunt"
   },
-  "CgiContent": "aspernatur",
+  "CgiContent": "voluptates",
   "Headers": {
-    "Headers1": "vel",
-    "Headers2": "praesentium"
+    "Headers1": "et",
+    "Headers2": "vel"
   },
-  "TraceExecution": false
+  "TraceExecution": true
 }
 ```
 
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "odit",
-    "InputValues2": "dolor"
+    "InputValues1": "atque",
+    "InputValues2": "consequatur"
   },
   "BlockExecution": false,
-  "NavigateTo": "vel",
-  "Message": "repellendus",
-  "ShowDialog": "ex",
+  "NavigateTo": "ea",
+  "Message": "qui",
+  "ShowDialog": "unde",
   "OutputValues": {
-    "OutputValues1": "eum",
-    "OutputValues2": "pariatur"
+    "OutputValues1": "enim",
+    "OutputValues2": "architecto"
   },
   "StateValues": {
-    "StateValues1": "voluptas",
-    "StateValues2": "debitis"
+    "StateValues1": "velit",
+    "StateValues2": "fugit"
   },
-  "Exception": "et",
+  "Exception": "repellat",
   "ParserValues": {
-    "ParserValues1": "consequatur",
-    "ParserValues2": "aut"
+    "ParserValues1": "quo",
+    "ParserValues2": "perspiciatis"
   },
   "CgiVariables": {
-    "CgiVariables1": "sed",
-    "CgiVariables2": "dignissimos"
+    "CgiVariables1": "earum",
+    "CgiVariables2": "consequatur"
   },
-  "CgiContent": "assumenda",
+  "CgiContent": "consequatur",
   "Headers": {
-    "Headers1": "quibusdam",
-    "Headers2": "eligendi"
+    "Headers1": "a",
+    "Headers2": "harum"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldLength": 555
     }
   }
 }

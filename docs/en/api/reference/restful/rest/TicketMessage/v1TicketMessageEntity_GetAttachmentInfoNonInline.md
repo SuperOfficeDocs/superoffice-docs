@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 436,
-    "Name": "Connelly, Wehner and Williamson",
-    "ContentType": "quam",
-    "AttSize": 624,
-    "InlineImage": false,
-    "ContentId": "recusandae",
-    "AuthKey": "commodi",
+    "AttachmentId": 328,
+    "Name": "Miller Group",
+    "ContentType": "a",
+    "AttSize": 3,
+    "InlineImage": true,
+    "ContentId": "non",
+    "AuthKey": "aut",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldLength": 721
       }
     }
   }

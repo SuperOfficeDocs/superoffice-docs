@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bradtke-Ondricka",
-  "HeadingId": 994,
+  "UdListDefinitionName": "Schuster-Dare",
+  "HeadingId": 151,
   "ListItemIds": [
-    788,
-    3
+    287,
+    873
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

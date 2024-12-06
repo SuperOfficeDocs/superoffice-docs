@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 26
+  "Id": 763
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Gibson-Parker",
-  "AssociateId": 695,
-  "DetailsTable": 423,
-  "DetailsRecord": 787,
-  "IsSystemTask": false,
+  "Id": 104,
+  "Name": "Mohr LLC",
+  "AssociateId": 560,
+  "DetailsTable": 386,
+  "DetailsRecord": 453,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "autem",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "accusantium",
+    "ParameterObject2": "libero"
   },
-  "LastStarted": "2019-04-22T14:45:04.8815214+02:00",
-  "Created": "2006-07-19T14:45:04.8815214+02:00",
-  "StartCount": 371,
-  "DatabaseSerialNumber": "796086",
-  "Context": "quis",
-  "Result": "et",
+  "LastStarted": "2023-04-06T10:17:55.1290102+02:00",
+  "Created": "2003-12-08T10:17:55.1290102+01:00",
+  "StartCount": 73,
+  "DatabaseSerialNumber": "1238894",
+  "Context": "saepe",
+  "Result": "aut",
   "State": "All",
-  "Description": "Realigned zero tolerance matrices",
-  "Response": "esse",
-  "Request": "at",
-  "ProgressDescription": "Grass-roots eco-centric capability",
-  "ProgressPercent": 433,
-  "FileName": "Rowe-Rowe",
+  "Description": "Focused systematic hierarchy",
+  "Response": "vero",
+  "Request": "quaerat",
+  "ProgressDescription": "Optimized exuding protocol",
+  "ProgressPercent": 626,
+  "FileName": "Yundt-Larkin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldLength": 310
     }
   }
 }

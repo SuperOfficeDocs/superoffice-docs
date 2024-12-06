@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "reiciendis",
-  "ProviderName": "Anderson Inc and Sons",
-  "StorageKey": "iusto",
+  "StorageType": "modi",
+  "ProviderName": "Wisoky-O'Reilly",
+  "StorageKey": "delectus",
   "ExtraRestrictions": [
     {
-      "Name": "Ondricka Inc and Sons",
-      "Operator": "quos",
+      "Name": "Ankunding-Tillman",
+      "Operator": "qui",
       "Values": [
-        "qui",
-        "veniam"
+        "est",
+        "praesentium"
       ],
       "DisplayValues": [
-        "est",
-        "delectus"
+        "quos",
+        "corrupti"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 798,
+      "InterParenthesis": 83,
       "InterOperator": "And",
-      "UniqueHash": 595
+      "UniqueHash": 578
     }
   ],
   "OrderBy": [
     {
-      "Name": "Reinger-Muller",
+      "Name": "Russel LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Reinger-Muller",
+      "Name": "Russel LLC",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "et",
-    "repudiandae"
+    "quod",
+    "temporibus"
   ],
-  "PageSize": 152,
-  "PageNumber": 854
+  "PageSize": 663,
+  "PageNumber": 10
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koelpin-Reinger",
-      "DisplayTooltip": "architecto",
-      "DisplayType": "asperiores",
+      "DisplayName": "Walsh-Beer",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "omnis",
       "CanOrderBy": false,
-      "Name": "O'Keefe-Cartwright",
-      "CanRestrictBy": false,
-      "RestrictionType": "adipisci",
-      "RestrictionListName": "Ullrich-Jones",
+      "Name": "Conn Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "eius",
+      "RestrictionListName": "Hodkiewicz, O'Hara and Zieme",
       "IsVisible": false,
-      "ExtraInfo": "harum",
-      "Width": "rerum",
-      "IconHint": "dolore",
-      "HeadingIconHint": "voluptates"
+      "ExtraInfo": "provident",
+      "Width": "aut",
+      "IconHint": "et",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Doyle-Kulas",
-      "PrimaryKey": 817,
+      "EntityName": "Turner, Stanton and Marquardt",
+      "PrimaryKey": 625,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fugiat",
-          "TooltipHint": "aliquid",
-          "LinkHint": "non"
+          "DisplayValue": "error",
+          "TooltipHint": "aut",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "consectetur",
-      "StyleHint": "sint",
+      "LinkHint": "deserunt",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 44
         }
       }
     }
   ],
-  "RowCount": 928,
+  "RowCount": 480,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 696
     }
   }
 }

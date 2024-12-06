@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 707,
-  "Name": "King LLC",
+  "ScreenChooserId": 126,
+  "Name": "Raynor-Koss",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "consectetur",
-  "Source": "repellendus",
-  "Registered": "1998-06-06T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 633,
-  "Updated": "2010-01-22T14:45:13.3805746+01:00",
-  "UpdatedAssociateId": 681
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "quis",
+  "Registered": "2002-09-16T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 534,
+  "Updated": "2017-12-23T10:18:00.8168545+01:00",
+  "UpdatedAssociateId": 612
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 648,
-  "Name": "Simonis-Waelchi",
+  "ScreenChooserId": 660,
+  "Name": "Harris Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "pariatur",
-  "Source": "nihil",
-  "Registered": "2013-06-13T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 935,
-  "Updated": "2019-10-27T14:45:13.3805746+01:00",
-  "UpdatedAssociateId": 590,
+  "UniqueIdentifier": "ut",
+  "Source": "ex",
+  "Registered": "2014-03-05T10:18:00.8168545+01:00",
+  "RegisteredAssociateId": 310,
+  "Updated": "2019-10-05T10:18:00.8168545+02:00",
+  "UpdatedAssociateId": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldLength": 141
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

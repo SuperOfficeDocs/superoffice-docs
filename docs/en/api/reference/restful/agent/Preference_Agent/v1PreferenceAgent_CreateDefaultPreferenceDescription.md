@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 922,
-  "Section": "facere",
-  "Key": "architecto",
-  "Name": "Vandervort, Smith and Deckow",
+  "PrefDescId": 398,
+  "Section": "optio",
+  "Key": "illo",
+  "Name": "Goldner-Stanton",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source leading edge product",
+  "Description": "Re-contextualized full-range support",
   "IsBuiltin": false,
-  "TableName": "Kshlerin-Nolan",
-  "UserDefinedListId": 85,
-  "Rank": 511,
-  "SubGroup": "qui",
-  "MinLevel": 493,
-  "MaxValue": 745,
-  "MinValue": 967,
-  "RequiredLicense": "velit",
+  "TableName": "Haley-Monahan",
+  "UserDefinedListId": 930,
+  "Rank": 735,
+  "SubGroup": "nostrum",
+  "MinLevel": 918,
+  "MaxValue": 69,
+  "MinValue": 966,
+  "RequiredLicense": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldLength": 561
     }
   }
 }

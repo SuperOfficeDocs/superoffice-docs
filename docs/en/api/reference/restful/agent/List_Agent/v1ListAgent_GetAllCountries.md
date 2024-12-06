@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 196,
-    "Name": "Cormier Inc and Sons",
-    "CurrencyId": 629,
-    "EnglishName": "Mueller LLC",
+    "CountryId": 748,
+    "Name": "Purdy-Gerhold",
+    "CurrencyId": 712,
+    "EnglishName": "Huels-Kulas",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Implemented 6th generation structure",
-    "OrgNrText": "924848",
-    "InterAreaPrefix": "vitae",
-    "DialInPrefix": "ut",
-    "ZipPrefix": "voluptas",
-    "DomainName": "Dach-Gerlach",
-    "AddressLayoutId": 253,
-    "DomesticAddressLayoutId": 574,
-    "ForeignAddressLayoutId": 465,
-    "Rank": 834,
-    "Tooltip": "nam",
-    "Deleted": true,
+    "ImageDescription": "Networked exuding benchmark",
+    "OrgNrText": "767621",
+    "InterAreaPrefix": "sed",
+    "DialInPrefix": "id",
+    "ZipPrefix": "deserunt",
+    "DomainName": "Carroll, Schoen and Treutel",
+    "AddressLayoutId": 970,
+    "DomesticAddressLayoutId": 884,
+    "ForeignAddressLayoutId": 800,
+    "Rank": 625,
+    "Tooltip": "debitis",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 126
       }
     }
   }

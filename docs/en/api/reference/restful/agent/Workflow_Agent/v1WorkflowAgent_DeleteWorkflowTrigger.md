@@ -25,7 +25,7 @@ Deletes the WorkflowTrigger
 | WorkflowTriggerId | int32 | **Required** The id of the WorkflowTrigger to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?WorkflowTriggerId=478
+POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?WorkflowTriggerId=479
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

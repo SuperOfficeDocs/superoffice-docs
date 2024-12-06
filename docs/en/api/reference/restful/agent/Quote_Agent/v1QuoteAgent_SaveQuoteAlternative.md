@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 991,
-  "ERPQuoteAlternativeKey": "corrupti",
-  "QuoteVersionId": 111,
-  "Name": "Jerde, McDermott and Mueller",
-  "Description": "Switchable upward-trending superstructure",
+  "QuoteAlternativeId": 948,
+  "ERPQuoteAlternativeKey": "dignissimos",
+  "QuoteVersionId": 319,
+  "Name": "Weimann, Barrows and Dickens",
+  "Description": "Face to face background Graphical User Interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14792.48,
-  "ERPDiscountAmount": 4462.816,
-  "DiscountPercent": 29948.504,
-  "DiscountAmount": 23479.928,
+  "ERPDiscountPercent": 29418.858,
+  "ERPDiscountAmount": 10925.124,
+  "DiscountPercent": 22693.293999999998,
+  "DiscountAmount": 22461.378,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "pariatur",
-  "VAT": 20139.084,
-  "EarningPercent": 2099.7799999999997,
-  "EarningAmount": 26181.435999999998,
-  "SubTotal": 14748.604,
-  "TotalPrice": 8452.398,
-  "ExtraField1": "placeat",
-  "ExtraField2": "distinctio",
-  "ExtraField3": "dolor",
-  "ExtraField4": "qui",
-  "ExtraField5": "eos"
+  "VATInfo": "consequatur",
+  "VAT": 23094.446,
+  "EarningPercent": 6430.968,
+  "EarningAmount": 1661.02,
+  "SubTotal": 11996.952,
+  "TotalPrice": 12996.698,
+  "ExtraField1": "magni",
+  "ExtraField2": "minima",
+  "ExtraField3": "aut",
+  "ExtraField4": "velit",
+  "ExtraField5": "asperiores"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 252,
-  "ERPQuoteAlternativeKey": "eaque",
-  "QuoteVersionId": 621,
-  "Name": "Mann-Marks",
-  "Description": "Business-focused composite Graphic Interface",
+  "QuoteAlternativeId": 276,
+  "ERPQuoteAlternativeKey": "officiis",
+  "QuoteVersionId": 374,
+  "Name": "Thiel Inc and Sons",
+  "Description": "Reverse-engineered bifurcated system engine",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 27482.046,
-  "ERPDiscountAmount": 8775.1999999999989,
-  "DiscountPercent": 22110.37,
-  "DiscountAmount": 27651.282,
+  "Reason": "maximize real-time models",
+  "ERPDiscountPercent": 8261.224,
+  "ERPDiscountAmount": 26880.318,
+  "DiscountPercent": 18954.432,
+  "DiscountAmount": 16093.09,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "iste",
-  "VAT": 25097.072,
-  "EarningPercent": 23805.863999999998,
-  "EarningAmount": 6336.9479999999994,
-  "SubTotal": 4572.5059999999994,
-  "TotalPrice": 14670.253999999999,
-  "ExtraField1": "repellendus",
-  "ExtraField2": "non",
-  "ExtraField3": "perspiciatis",
-  "ExtraField4": "iste",
-  "ExtraField5": "similique",
+  "VATInfo": "ipsum",
+  "VAT": 5625.53,
+  "EarningPercent": 7355.498,
+  "EarningAmount": 30719.468,
+  "SubTotal": 25379.131999999998,
+  "TotalPrice": 25238.102,
+  "ExtraField1": "recusandae",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "ad",
+  "ExtraField4": "nihil",
+  "ExtraField5": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

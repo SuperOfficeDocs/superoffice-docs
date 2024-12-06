@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Tremblay Group",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "UdListDefinitionId": 937,
-    "Rank": 669
+    "Id": 174,
+    "Name": "Hermiston, Greenholt and Metz",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "UdListDefinitionId": 321,
+    "Rank": 663
   },
   {
-    "Id": 720,
-    "Name": "Tremblay Group",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "UdListDefinitionId": 937,
-    "Rank": 669
+    "Id": 174,
+    "Name": "Hermiston, Greenholt and Metz",
+    "Tooltip": "laboriosam",
+    "Deleted": false,
+    "UdListDefinitionId": 321,
+    "Rank": 663
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Wilkinson-Breitenberg",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "UdListDefinitionId": 360,
-    "Rank": 728,
+    "Id": 657,
+    "Name": "Stiedemann, Kessler and Hartmann",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "UdListDefinitionId": 956,
+    "Rank": 112,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 328
       }
     }
   }

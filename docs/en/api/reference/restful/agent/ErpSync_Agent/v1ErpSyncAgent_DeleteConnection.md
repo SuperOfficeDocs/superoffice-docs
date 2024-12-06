@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/ErpSync/DeleteConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 953
+  "ErpConnectionId": 620
 }
 ```
 

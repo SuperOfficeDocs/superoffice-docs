@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 936,
-  "UiCulture": "dolores"
+  "DocumentId": 509,
+  "UiCulture": "maxime"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 334,
+  "DocumentId": 698,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "incidunt",
-  "Name": "Hintz Group",
-  "OurRef": "modi",
-  "YourRef": "maxime",
-  "CreatedDate": "2023-05-09T14:45:05.3970311+02:00",
-  "UpdatedDate": "2006-06-21T14:45:05.3970311+02:00",
-  "Description": "Reduced mission-critical approach",
+  "Attention": "amet",
+  "Header": "ullam",
+  "Name": "Gaylord-Williamson",
+  "OurRef": "sunt",
+  "YourRef": "soluta",
+  "CreatedDate": "2003-08-01T10:17:55.4884062+02:00",
+  "UpdatedDate": "2015-07-15T10:17:55.4884062+02:00",
+  "Description": "Sharable mission-critical middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-10-11T14:45:05.3970311+02:00",
-  "ExternalRef": "beatae",
+  "Date": "2012-02-11T10:17:55.4884062+01:00",
+  "ExternalRef": "at",
   "Completed": "Completed",
-  "ActiveLinks": 238,
+  "ActiveLinks": 453,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Casper, Rosenbaum and Sipes",
-      "Id": 231,
-      "Description": "Cloned even-keeled Graphical User Interface",
-      "ExtraInfo": "sed",
-      "LinkId": 237,
+      "EntityName": "White-Fritsch",
+      "Id": 238,
+      "Description": "Pre-emptive object-oriented support",
+      "ExtraInfo": "nulla",
+      "LinkId": 608,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldLength": 393
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 697,
-  "Snum": 236,
+  "SuggestedDocumentId": 17,
+  "Snum": 856,
   "UserDefinedFields": {
-    "SuperOffice:1": "Winston Alverta Fritsch Sr.",
-    "SuperOffice:2": "Dora Vicky Stoltenberg III"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1489237782"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "omnis",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2006-05-13T14:45:05.4126533+02:00",
-  "PublishTo": "2021-09-12T14:45:05.4126533+02:00",
-  "PublishFrom": "1998-11-18T14:45:05.4126533+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-08-20T10:17:55.5040321+02:00",
+  "PublishTo": "2017-02-01T10:17:55.5040321+01:00",
+  "PublishFrom": "2000-08-30T10:17:55.5040321+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 839,
+      "VisibleId": 449,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     },
     {
-      "VisibleId": 839,
+      "VisibleId": 449,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

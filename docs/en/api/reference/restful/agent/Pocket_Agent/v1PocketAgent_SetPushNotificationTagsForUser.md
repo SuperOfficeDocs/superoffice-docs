@@ -71,8 +71,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 444,
-  "Tags": "accusamus"
+  "AssociateId": 609,
+  "Tags": "eveniet"
 }
 ```
 

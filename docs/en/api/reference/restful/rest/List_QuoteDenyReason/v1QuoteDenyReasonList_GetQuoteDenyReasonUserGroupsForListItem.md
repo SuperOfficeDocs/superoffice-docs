@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Orn, Zboncak and Bartoletti",
-    "ToolTip": "Dolorem ea inventore a sed quis ea quo.",
-    "Deleted": false,
-    "Rank": 396,
-    "Type": "velit",
-    "ColorBlock": 614,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2002-08-05T14:45:13.8648346+02:00",
+    "Id": 978,
+    "Name": "Huel-Hermiston",
+    "ToolTip": "Velit autem.",
+    "Deleted": true,
+    "Rank": 255,
+    "Type": "culpa",
+    "ColorBlock": 310,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2018-01-09T10:18:01.1137483+01:00",
     "ChildItems": [
       {
-        "Id": 305,
-        "Name": "Trantow-Ziemann",
-        "ToolTip": "Autem aut porro nemo soluta.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "rerum",
-        "ColorBlock": 228,
-        "IconHint": "et",
+        "Id": 942,
+        "Name": "Beatty, Luettgen and Bode",
+        "ToolTip": "Laboriosam fugit.",
+        "Deleted": true,
+        "Rank": 892,
+        "Type": "molestiae",
+        "ColorBlock": 224,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2002-10-14T14:45:13.8648346+02:00",
+        "LastChanged": "2004-05-25T10:18:01.1137483+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Mr. Reva Hegmann Sr.",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Miss Easter Dietrich Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 358
+            "FieldType": "System.Int32",
+            "FieldLength": 126
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Evie McGlynn",
+    "ExtraInfo": "nulla",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Erich Norene Satterfield Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 257
       }
     }
   }

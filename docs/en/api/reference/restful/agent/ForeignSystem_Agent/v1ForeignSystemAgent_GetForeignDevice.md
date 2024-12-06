@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=508
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=35
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 323,
-  "Name": "Padberg Group",
-  "CreatedDate": "2017-03-14T14:45:05.6469762+01:00",
-  "UpdatedDate": "2013-11-06T14:45:05.6469762+01:00",
-  "AssociateFullName": "Lilliana Monahan",
-  "CreatedBy": "eum",
-  "UpdatedBy": "nam",
-  "DeviceIdentifier": "ad",
-  "ForeignAppId": 410,
+  "ForeignDeviceId": 798,
+  "Name": "Smitham-Reinger",
+  "CreatedDate": "2010-11-21T10:17:55.660285+01:00",
+  "UpdatedDate": "2016-09-14T10:17:55.660285+02:00",
+  "AssociateFullName": "Mrs. Ada Adelbert Treutel",
+  "CreatedBy": "est",
+  "UpdatedBy": "ab",
+  "DeviceIdentifier": "quis",
+  "ForeignAppId": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

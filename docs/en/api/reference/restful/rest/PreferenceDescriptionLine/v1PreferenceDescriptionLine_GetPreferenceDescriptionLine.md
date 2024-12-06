@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 145,
-  "PrefDescId": 962,
-  "PrefValue": "dolorem",
-  "PrefShowValue": "aut",
-  "Description": "Customizable client-driven model",
-  "IsBuiltin": false,
+  "PrefDescLineId": 614,
+  "PrefDescId": 828,
+  "PrefValue": "in",
+  "PrefShowValue": "quibusdam",
+  "Description": "Monitored clear-thinking groupware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   },
   "_Links": {

@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=mollitia
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=esse
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Ziemann, Stokes and Cartwright",
-    "ToolTip": "Deserunt nostrum blanditiis est fuga quis qui facere.",
-    "Deleted": true,
-    "Rank": 26,
-    "Type": "voluptatum",
+    "Id": 305,
+    "Name": "Koch-Kozey",
+    "ToolTip": "Reiciendis est ut.",
+    "Deleted": false,
+    "Rank": 428,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Breitenberg Inc and Sons",
-        "ToolTip": "Debitis ipsam odit ea.",
+        "Id": 498,
+        "Name": "Bergnaum, Welch and Schiller",
+        "ToolTip": "Dolorem rerum recusandae sed laboriosam in.",
         "Deleted": true,
-        "Rank": 791,
-        "Type": "fugiat",
+        "Rank": 448,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 658,
-        "ExtraInfo": "dolor",
-        "StyleHint": "perspiciatis",
-        "FullName": "Zora Becker",
+        "IconHint": "quas",
+        "ColorBlock": 709,
+        "ExtraInfo": "animi",
+        "StyleHint": "fuga",
+        "FullName": "Kelvin Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldType": "System.Int32",
+            "FieldLength": 879
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 318,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "eum",
-    "FullName": "Hailey Ricardo Watsica IV",
+    "IconHint": "laboriosam",
+    "ColorBlock": 552,
+    "ExtraInfo": "magnam",
+    "StyleHint": "dolorem",
+    "FullName": "Dariana Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 742
       }
     }
   }

@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Raynor Inc and Sons",
-  "Language": "quos"
+  "TemplateName": "Brekke LLC",
+  "Language": "repudiandae"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 422,
-      "ContactName": "Sporer Inc and Sons",
-      "PersonId": 511,
-      "PersonName": "Grady Group",
-      "AssociateId": 436,
-      "Address": "id",
-      "EmailId": 80,
+      "ContactId": 722,
+      "ContactName": "Waelchi-Shields",
+      "PersonId": 520,
+      "PersonName": "Walker-Ernser",
+      "AssociateId": 325,
+      "Address": "perspiciatis",
+      "EmailId": 708,
       "DuplicatePersonIds": [
-        179,
+        937,
         923
       ],
-      "Name": "Strosin, Harvey and Kerluke",
+      "Name": "Shields-Heathcote",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 14
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 841,
-      "ContactName": "Spencer, McDermott and Kris",
-      "PersonId": 178,
-      "PersonName": "Kessler Group",
-      "AssociateId": 738,
-      "Address": "sunt",
-      "EmailId": 171,
+      "ContactId": 320,
+      "ContactName": "McDermott LLC",
+      "PersonId": 192,
+      "PersonName": "Schmeler, Stanton and Hansen",
+      "AssociateId": 682,
+      "Address": "laudantium",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        917,
-        46
+        813,
+        793
       ],
-      "Name": "Witting Group",
+      "Name": "Sporer-Bogan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 89
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 920,
-      "ContactName": "Rowe LLC",
-      "PersonId": 261,
-      "PersonName": "Corwin, Ritchie and O'Hara",
-      "AssociateId": 748,
-      "Address": "eum",
-      "EmailId": 974,
+      "ContactId": 852,
+      "ContactName": "Weimann Inc and Sons",
+      "PersonId": 379,
+      "PersonName": "Howe-Auer",
+      "AssociateId": 369,
+      "Address": "qui",
+      "EmailId": 233,
       "DuplicatePersonIds": [
-        343,
-        655
+        246,
+        752
       ],
-      "Name": "Langosh LLC",
+      "Name": "Smitham-Barrows",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 135
         }
       }
     }
   ],
-  "Subject": "eaque",
-  "HTMLBody": "neque",
+  "Subject": "sed",
+  "HTMLBody": "adipisci",
   "From": null,
-  "Sent": "2007-02-04T14:45:04.8190371+01:00",
-  "Size": 988,
+  "Sent": "2020-07-01T10:17:55.0821324+02:00",
+  "Size": 79,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "perspiciatis",
-  "PlainBody": "quae",
+  "MessageID": "recusandae",
+  "PlainBody": "quos",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 736,
+  "ServerId": 456,
   "Attachments": [
     {
-      "Description": "Monitored even-keeled budgetary management",
-      "Filename": "ut",
-      "Size": 716,
-      "Type": "sequi",
-      "Encoding": "sit",
-      "Id": "quae",
-      "Disposition": "et",
+      "Description": "Re-contextualized reciprocal intranet",
+      "Filename": "nulla",
+      "Size": 108,
+      "Type": "minus",
+      "Encoding": "accusantium",
+      "Id": "iusto",
+      "Disposition": "iure",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 353
+          "FieldType": "System.Int32",
+          "FieldLength": 832
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Yundt-Stiedemann",
+      "Name": "Huels Group",
       "Values": [
-        "velit",
-        "est"
+        "dolorum",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 202
         }
       }
     },
     {
-      "Name": "Yundt-Stiedemann",
+      "Name": "Huels Group",
       "Values": [
-        "velit",
-        "est"
+        "dolorum",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 202
         }
       }
     }
   ],
-  "FolderName": "Pollich, Becker and Skiles",
-  "EmailItemId": 855,
-  "AccountId": 245,
-  "ReceivedAt": "2022-12-16T14:45:04.8190371+01:00",
+  "FolderName": "Prohaska, Shanahan and Paucek",
+  "EmailItemId": 748,
+  "AccountId": 301,
+  "ReceivedAt": "2006-02-25T10:17:55.0821324+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-01-12T14:45:04.8190371+01:00",
+  "RepliedAt": "2015-10-22T10:17:55.0821324+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldLength": 413
     }
   }
 }

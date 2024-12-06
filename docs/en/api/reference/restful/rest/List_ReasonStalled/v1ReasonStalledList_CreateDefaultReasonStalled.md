@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Bins Inc and Sons",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 749,
-  "Rank": 902,
+  "Id": 415,
+  "Name": "Macejkovic, Hudson and Johnston",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "UdListDefinitionId": 568,
+  "Rank": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 785
     }
   }
 }

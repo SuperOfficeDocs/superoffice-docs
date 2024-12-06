@@ -101,7 +101,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 806
+  "Count": 621
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schmeler-Turner",
-    "SaleDate": "2013-09-22T14:45:06.1781213+02:00",
-    "SaleId": 681,
-    "Probability": 874,
-    "Title": "libero",
-    "Amount": 23884.214,
-    "Currency": "debitis",
-    "ProjectName": "Buckridge Inc and Sons",
-    "AssociateFullName": "Marianna Gusikowski",
-    "Description": "Extended client-server extranet",
+    "ContactName": "Wiza-Aufderhar",
+    "SaleDate": "2004-11-19T10:17:56.0040633+01:00",
+    "SaleId": 546,
+    "Probability": 801,
+    "Title": "occaecati",
+    "Amount": 8862.952,
+    "Currency": "culpa",
+    "ProjectName": "Corkery Inc and Sons",
+    "AssociateFullName": "Cydney Murray V",
+    "Description": "Realigned intermediate migration",
     "Status": "Lost",
-    "WeightedAmount": 2181.264,
-    "ProjectId": 54,
-    "EarningPercent": 23993.904,
-    "Earning": 19932.239999999998,
-    "ContactId": 259,
-    "AssociateId": 377,
-    "PersonId": 121,
-    "SaleTypeId": 381,
-    "SaleTypeName": "Littel-Howell",
-    "PersonFullName": "Mrs. Tiana Orland Lang",
+    "WeightedAmount": 1946.214,
+    "ProjectId": 447,
+    "EarningPercent": 22072.762,
+    "Earning": 6499.916,
+    "ContactId": 495,
+    "AssociateId": 616,
+    "PersonId": 850,
+    "SaleTypeId": 33,
+    "SaleTypeName": "Lubowitz Inc and Sons",
+    "PersonFullName": "Tyshawn Lela Labadie II",
     "Completed": "Completed",
-    "ActiveErpLinks": 954,
-    "NextDueDate": "2023-12-15T14:45:06.1781213+01:00",
-    "Number": "1478453",
+    "ActiveErpLinks": 677,
+    "NextDueDate": "2002-06-25T10:17:56.0040633+02:00",
+    "Number": "737147",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 349
       }
     }
   }

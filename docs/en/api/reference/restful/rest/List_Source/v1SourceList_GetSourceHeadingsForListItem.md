@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Davis, Hyatt and Armstrong",
-    "ToolTip": "Distinctio illo rem nulla reiciendis facilis.",
+    "Id": 735,
+    "Name": "Towne-Pfannerstill",
+    "ToolTip": "Ea voluptas perspiciatis sed quia occaecati.",
     "Deleted": false,
-    "Rank": 549,
-    "Type": "consectetur",
-    "ColorBlock": 301,
-    "IconHint": "et",
+    "Rank": 476,
+    "Type": "est",
+    "ColorBlock": 156,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2024-03-25T14:45:13.9429422+01:00",
+    "LastChanged": "2010-05-28T10:18:01.1762521+02:00",
     "ChildItems": [
       {
-        "Id": 973,
-        "Name": "Emmerich-Abshire",
-        "ToolTip": "Omnis est aut et.",
+        "Id": 509,
+        "Name": "Bode Inc and Sons",
+        "ToolTip": "Nulla dolore voluptas nemo facere.",
         "Deleted": true,
-        "Rank": 231,
-        "Type": "quo",
-        "ColorBlock": 922,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2019-12-22T14:45:13.9429422+01:00",
+        "Rank": 840,
+        "Type": "nemo",
+        "ColorBlock": 789,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2016-09-04T10:18:01.1762521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "eaque",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Ms. Adele Dianna Sawayn",
+        "FullName": "Willis Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 435
+            "FieldType": "System.Int32",
+            "FieldLength": 58
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "nam",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Lupe Batz",
+    "FullName": "Leland Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 118
       }
     }
   }

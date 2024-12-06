@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eligendi",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 6741,
-      "EntityName": "person",
-      "personId": 6741,
-      "fullName": "Mrs. Roscoe Thora Bode Sr."
+      "PrimaryKey": 7357,
+      "EntityName": "sale",
+      "saleId": 7357,
+      "contactId": 9682,
+      "name": "Hahn-Fisher"
     },
     {
-      "PrimaryKey": 2692,
-      "EntityName": "person",
-      "personId": 2692,
-      "fullName": "Hilario Connelly"
+      "PrimaryKey": 3059,
+      "EntityName": "sale",
+      "saleId": 3059,
+      "contactId": 9278,
+      "name": "Wolff-Marvin"
     }
   ]
 }

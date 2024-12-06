@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Dach, Waters and Gulgowski",
-  "Tooltip": "est",
+  "Id": 548,
+  "Name": "King LLC",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "Rank": 185,
+  "Rank": 382,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": true
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Jacobs Group",
-  "Tooltip": "quia",
+  "Id": 932,
+  "Name": "Luettgen-Kerluke",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 939,
-  "IsCustomList": false,
+  "Rank": 334,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "hic",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

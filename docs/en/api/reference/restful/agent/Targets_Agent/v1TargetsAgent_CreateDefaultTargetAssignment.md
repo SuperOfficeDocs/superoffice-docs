@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 139,
+  "TargetAssignmentInfoId": 511,
   "Values": [
-    788,
-    602
+    618,
+    959
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 259,
-  "DimensionListItemDisplayName": "Murphy-Reinger",
+  "DimensionListItem": 689,
+  "DimensionListItemDisplayName": "Kirlin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   }
 }

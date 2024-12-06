@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 429,
-  "Currency": "voluptas"
+  "QuoteConnectionId": 625,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 674,
-    "ERPPriceListKey": "repellendus",
-    "QuoteConnectionId": 912,
-    "Name": "Dach LLC",
-    "Description": "Ergonomic exuding policy",
-    "Currency": "et",
-    "CurrencyName": "Hagenes Inc and Sons",
-    "ValidFrom": "2018-09-20T14:45:06.0687573+02:00",
-    "ValidTo": "2015-09-11T14:45:06.0687573+02:00",
+    "PriceListId": 946,
+    "ERPPriceListKey": "distinctio",
+    "QuoteConnectionId": 235,
+    "Name": "Davis-Ryan",
+    "Description": "Horizontal local secured line",
+    "Currency": "atque",
+    "CurrencyName": "Bergstrom, Stehr and Rosenbaum",
+    "ValidFrom": "2003-09-09T10:17:55.9415595+02:00",
+    "ValidTo": "2005-08-20T10:17:55.9415595+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldLength": 288
       }
     }
   }

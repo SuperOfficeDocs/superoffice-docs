@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 808,
-  "PlainMessage": "at",
-  "HtmlMessage": "quia",
-  "SmsMessage": "qui",
-  "Description": "Open-source fresh-thinking function",
-  "Subject": "nihil",
-  "FolderId": 414,
-  "HeaderField": "molestias",
-  "Design": "ipsa",
+  "ShipmentMessageId": 18,
+  "PlainMessage": "doloremque",
+  "HtmlMessage": "voluptatem",
+  "SmsMessage": "libero",
+  "Description": "Future-proofed executive success",
+  "Subject": "velit",
+  "FolderId": 491,
+  "HeaderField": "consequuntur",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Fully-configurable didactic process improvement",
-  "AccessKey": "enim",
-  "DocumentMessage": 12,
-  "Registered": "2000-06-21T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 547,
-  "Updated": "2013-04-04T14:45:13.2555955+02:00",
-  "UpdatedAssociateId": 985,
-  "UpdatedCount": 421
+  "InlineImages": true,
+  "LongDescription": "Stand-alone system-worthy matrices",
+  "AccessKey": "non",
+  "DocumentMessage": 602,
+  "Registered": "2009-03-22T10:18:00.723098+01:00",
+  "RegisteredAssociateId": 198,
+  "Updated": "2010-04-22T10:18:00.723098+02:00",
+  "UpdatedAssociateId": 541,
+  "UpdatedCount": 61
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 891,
-  "PlainMessage": "ut",
-  "HtmlMessage": "architecto",
-  "SmsMessage": "est",
-  "Description": "Automated 3rd generation core",
-  "Subject": "sequi",
-  "FolderId": 647,
-  "HeaderField": "veniam",
-  "Design": "in",
+  "ShipmentMessageId": 437,
+  "PlainMessage": "qui",
+  "HtmlMessage": "nam",
+  "SmsMessage": "nostrum",
+  "Description": "Extended 24/7 frame",
+  "Subject": "necessitatibus",
+  "FolderId": 844,
+  "HeaderField": "quasi",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Multi-tiered didactic architecture",
-  "AccessKey": "asperiores",
-  "DocumentMessage": 230,
-  "Registered": "2002-04-12T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 146,
-  "Updated": "2009-07-15T14:45:13.2555955+02:00",
-  "UpdatedAssociateId": 98,
-  "UpdatedCount": 12,
+  "InlineImages": true,
+  "LongDescription": "Progressive uniform structure",
+  "AccessKey": "perspiciatis",
+  "DocumentMessage": 978,
+  "Registered": "2000-06-26T10:18:00.723098+02:00",
+  "RegisteredAssociateId": 209,
+  "Updated": "2003-10-10T10:18:00.723098+02:00",
+  "UpdatedAssociateId": 497,
+  "UpdatedCount": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 334
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

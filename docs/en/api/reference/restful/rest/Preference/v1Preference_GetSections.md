@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Stiedemann-Boehm",
-    "ToolTip": "A aut.",
+    "Id": 387,
+    "Name": "McKenzie Group",
+    "ToolTip": "Non autem aut dicta ipsam.",
     "Deleted": false,
-    "Rank": 562,
-    "Type": "architecto",
+    "Rank": 436,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Marvin-Glover",
-        "ToolTip": "Et quod reiciendis eos autem repellat.",
+        "Id": 33,
+        "Name": "Buckridge-Hettinger",
+        "ToolTip": "Modi aliquam dolorem possimus quia ex.",
         "Deleted": false,
-        "Rank": 775,
-        "Type": "ad",
+        "Rank": 963,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 555,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "officia",
-        "FullName": "Elmo Gerhold",
+        "IconHint": "voluptas",
+        "ColorBlock": 389,
+        "ExtraInfo": "vel",
+        "StyleHint": "voluptate",
+        "FullName": "Adolfo Jones",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldType": "System.String",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 977,
-    "ExtraInfo": "qui",
-    "StyleHint": "non",
-    "FullName": "Prof. Dock Jayden Hauck DDS",
+    "IconHint": "sit",
+    "ColorBlock": 175,
+    "ExtraInfo": "libero",
+    "StyleHint": "harum",
+    "FullName": "Golden Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldLength": 239
       }
     }
   }

@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "id",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "id",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 511,
-  "Name": "Satterfield-Fisher",
-  "Config": "ut",
-  "Rank": 635,
-  "Client": "sit",
-  "Style": "quasi",
+  "DashboardThemeId": 617,
+  "Name": "Emmerich, Jaskolski and Price",
+  "Config": "nesciunt",
+  "Rank": 3,
+  "Client": "consequatur",
+  "Style": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   },
   "_Links": {

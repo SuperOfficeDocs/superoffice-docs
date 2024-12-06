@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=9
+POST /api/v1/Agents/User/GetUser?userId=231
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 459,
-  "Name": "Oberbrunner-Kunde",
-  "Rank": 506,
-  "Tooltip": "nihil",
+  "AssociateId": 630,
+  "Name": "Kuvalis, Johnson and Cremin",
+  "Rank": 466,
+  "Tooltip": "expedita",
   "LicenseOwners": [
     {
-      "Name": "Baumbach, Ledner and Carter",
-      "Description": "Decentralized intermediate circuit",
+      "Name": "Jacobi Group",
+      "Description": "Multi-channelled disintermediate open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 52
         }
       }
     },
     {
-      "Name": "Baumbach, Ledner and Carter",
-      "Description": "Decentralized intermediate circuit",
+      "Name": "Jacobi Group",
+      "Description": "Multi-channelled disintermediate open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 52
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "deserunt",
-      "Tooltip": "quibusdam",
-      "Id": 466,
-      "Rank": 817,
+      "Value": "doloremque",
+      "Tooltip": "hic",
+      "Id": 220,
+      "Rank": 55,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 102
+          "FieldLength": 184
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2001-10-08T14:45:06.6623469+02:00",
-  "Lastlogout": "2008-10-05T14:45:06.6623469+02:00",
-  "EjUserId": 602,
-  "RequestSignature": "architecto",
+  "Deleted": false,
+  "Lastlogin": "2000-02-03T10:17:56.3322071+01:00",
+  "Lastlogout": "2006-11-13T10:17:56.3322071+01:00",
+  "EjUserId": 378,
+  "RequestSignature": "consequuntur",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quia",
-      "DisplayValue": "est",
+      "Value": "commodi",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 169
         }
       }
     },
     {
       "Type": null,
-      "Value": "quia",
-      "DisplayValue": "est",
+      "Value": "commodi",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 169
         }
       }
     }
   ],
-  "UserName": "Nikolaus-Mayer",
+  "UserName": "Simonis LLC",
   "TicketCategories": [
     {
-      "Id": 25,
-      "Name": "Bins-Mosciski",
-      "ToolTip": "Explicabo omnis.",
-      "Deleted": false,
-      "Rank": 586,
-      "Type": "aperiam",
+      "Id": 845,
+      "Name": "Robel-Miller",
+      "ToolTip": "Provident quo ea iure.",
+      "Deleted": true,
+      "Rank": 223,
+      "Type": "minima",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quis",
-      "ColorBlock": 187,
-      "ExtraInfo": "facere",
-      "StyleHint": "voluptatibus",
-      "FullName": "Sophia Mckenna Wiegand Sr.",
+      "IconHint": "tenetur",
+      "ColorBlock": 996,
+      "ExtraInfo": "eum",
+      "StyleHint": "eius",
+      "FullName": "Ashly Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 920
         }
       }
     }
   ],
-  "NickName": "Cartwright-Sauer",
-  "WaitingForApproval": true,
+  "NickName": "Daniel-Skiles",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "est",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "placeat",
+    "CustomFields2": "officiis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schneider, O'Conner and Dooley",
-      "DisplayName": "Gorczany Inc and Sons",
-      "Description": "Programmable systematic knowledge base",
-      "ToolTip": "Rerum magnam veritatis.",
+      "Name": "Bernhard-Daniel",
+      "DisplayName": "Ernser, Labadie and Stiedemann",
+      "Description": "Organized foreground instruction set",
+      "ToolTip": "Et quaerat tenetur est est in.",
       "Actions": "Implicit",
-      "ActionData": "necessitatibus",
+      "ActionData": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 192
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 274
     }
   }
 }

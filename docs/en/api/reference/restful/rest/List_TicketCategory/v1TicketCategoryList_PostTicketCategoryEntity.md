@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 618,
-  "ParentId": 627,
-  "Name": "Ferry, Mitchell and Denesik",
-  "Fullname": "et",
-  "CategoryMaster": 752,
+  "TicketCategoryId": 291,
+  "ParentId": 355,
+  "Name": "Lindgren, Moore and McGlynn",
+  "Fullname": "ut",
+  "CategoryMaster": 197,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Swift-Satterfield",
+  "ExternalName": "Hoppe Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 168,
-  "ReplyTemplate": 698,
-  "NotificationEmail": "diego_volkman@spinkagislason.name",
+  "AssignmentLag": 219,
+  "ReplyTemplate": 847,
+  "NotificationEmail": "kaleigh@creminboyer.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 717,
+  "EffectiveReplyTemplateId": 95,
   "ExtraFields": {
     "ExtraFields1": "qui",
-    "ExtraFields2": "vel"
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "dicta"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "iste"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 677,
-  "ParentId": 870,
-  "Name": "Johnson, Ebert and Dach",
-  "Fullname": "et",
-  "CategoryMaster": 285,
+  "TicketCategoryId": 745,
+  "ParentId": 657,
+  "Name": "Corkery-Mills",
+  "Fullname": "aspernatur",
+  "CategoryMaster": 33,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Davis-Kilback",
+  "ExternalName": "Dickens Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 810,
-  "ReplyTemplate": 271,
-  "NotificationEmail": "nelda_grant@baileymurray.com",
+  "AssignmentLag": 926,
+  "ReplyTemplate": 208,
+  "NotificationEmail": "leta.crona@pfeffer.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 759,
+  "EffectiveReplyTemplateId": 761,
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "earum"
+    "CustomFields1": "nulla",
+    "CustomFields2": "nam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 901
     }
   }
 }

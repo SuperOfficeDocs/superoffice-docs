@@ -72,7 +72,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bednar Group",
-  "DisplayName": "Langworth, Romaguera and Miller",
-  "Description": "Optimized homogeneous instruction set",
-  "ShortLabel": "est",
+  "FieldName": "Greenholt, Durgan and McCullough",
+  "DisplayName": "Breitenberg Group",
+  "Description": "Persevering fresh-thinking superstructure",
+  "ShortLabel": "totam",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 846,
-  "TemplateVariableName": "Wyman-Eichmann"
+  "IsExternal": true,
+  "IsDisplayField": true,
+  "Rank": 257,
+  "TemplateVariableName": "Kilback Inc and Sons"
 }
 ```

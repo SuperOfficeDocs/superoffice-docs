@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=197
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=919
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 747,
-  "Field": "maiores",
-  "RecordId": 763,
+  "RefCountsId": 654,
+  "Field": "quo",
+  "RecordId": 553,
   "SuggestedRecords": [
     {
-      "Id": 36,
-      "Name": "McLaughlin Group",
-      "ToolTip": "Voluptates et aspernatur voluptatem nam tenetur.",
-      "Deleted": true,
-      "Rank": 641,
-      "Type": "voluptatem",
+      "Id": 104,
+      "Name": "Roberts Group",
+      "ToolTip": "Officia ut tenetur.",
+      "Deleted": false,
+      "Rank": 330,
+      "Type": "dolore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magnam",
-      "ColorBlock": 90,
-      "ExtraInfo": "aliquid",
-      "StyleHint": "quam",
-      "FullName": "Amir Powlowski",
+      "IconHint": "in",
+      "ColorBlock": 436,
+      "ExtraInfo": "adipisci",
+      "StyleHint": "adipisci",
+      "FullName": "Kenton Lemke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 273
         }
       }
     }
   ],
-  "CurrentValue": 726,
-  "TravelPrefix": 760,
-  "SatPrefix": 954,
+  "CurrentValue": 996,
+  "TravelPrefix": 968,
+  "SatPrefix": 353,
   "Allocate": true,
-  "Unique": true,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "Unique": false,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 996
     }
   }
 }

@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quis",
-    "Tooltip": "delectus",
-    "Id": 791,
-    "Rank": 566,
+    "Value": "corrupti",
+    "Tooltip": "deserunt",
+    "Id": 900,
+    "Rank": 51,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 310
       }
     }
   }

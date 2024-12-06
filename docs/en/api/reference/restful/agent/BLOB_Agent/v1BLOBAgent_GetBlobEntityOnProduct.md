@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 734
+  "ProductId": 908
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 383,
-  "BlobSize": 466,
-  "Description": "Reduced actuating benchmark",
-  "ExtraInfo": "laudantium",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "quasi",
-  "OriginalSize": 168,
-  "CreatedDate": "2023-07-31T14:45:04.8971429+02:00",
-  "UpdatedDate": "2017-09-08T14:45:04.8971429+02:00",
+  "BlobId": 320,
+  "BlobSize": 713,
+  "Description": "Quality-focused reciprocal Graphical User Interface",
+  "ExtraInfo": "in",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "voluptatem",
+  "OriginalSize": 679,
+  "CreatedDate": "2007-11-21T10:17:55.1446361+01:00",
+  "UpdatedDate": "2009-01-26T10:17:55.1446361+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 499,
-  "AssociateId": 661,
-  "Caption": "reprehenderit",
+  "DashboardId": 654,
+  "AssociateId": 769,
+  "Caption": "aliquid",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 493,
-      "Caption": "dolor",
-      "Description": "Virtual radical local area network",
-      "ChartName": "Marks LLC",
-      "ChartId": "esse",
-      "IsDefault": true,
-      "AssociateId": 696,
-      "GroupId": 52,
-      "SelectionId": 113,
-      "Config": "est",
+      "DashboardTileId": 916,
+      "Caption": "eveniet",
+      "Description": "Organized systematic framework",
+      "ChartName": "Glover-O'Kon",
+      "ChartId": "non",
+      "IsDefault": false,
+      "AssociateId": 408,
+      "GroupId": 692,
+      "SelectionId": 315,
+      "Config": "ut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 193
+          "FieldLength": 925
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   },
   "_Links": {

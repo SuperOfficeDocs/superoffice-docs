@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 645,
+  "RowCount": 284,
   "Rows": [
     {
-      "EntityName": "Hand-Kunde",
-      "PrimaryKey": 264,
+      "EntityName": "Reichel Group",
+      "PrimaryKey": 665,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ex",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "delectus"
+          "DisplayValue": "hic",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "aperiam",
-      "StyleHint": "fugit",
+      "LinkHint": "qui",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldLength": 311
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 491
     }
   }
 }

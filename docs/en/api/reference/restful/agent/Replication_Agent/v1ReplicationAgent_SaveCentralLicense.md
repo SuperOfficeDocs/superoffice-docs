@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Morar LLC",
-      "Description": "Synergistic system-worthy concept",
+      "Name": "Spencer-Mante",
+      "Description": "Visionary reciprocal access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Morar LLC",
-      "Description": "Synergistic system-worthy concept",
+      "Name": "Spencer-Mante",
+      "Description": "Visionary reciprocal access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenfelder-Rau",
-    "Description": "Implemented didactic toolset",
+    "Name": "Cartwright-Grimes",
+    "Description": "Ergonomic directional installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 691,
-        "Tooltip": "culpa",
+        "Total": 245,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 587,
-        "InUse": 391,
-        "IsHidden": false,
+        "Free": 863,
+        "InUse": 57,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 79,
-        "Name": "Ortiz, Aufderhar and Smitham",
-        "Description": "User-friendly solution-oriented hardware",
-        "PrerequisiteModuleName": "Fadel Group",
-        "SortOrder": 401,
-        "ExtraFlags": 345,
+        "ModuleLicenseId": 875,
+        "Name": "Nicolas Inc and Sons",
+        "Description": "Centralized non-volatile attitude",
+        "PrerequisiteModuleName": "Lemke Inc and Sons",
+        "SortOrder": 170,
+        "ExtraFlags": 190,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 855
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 401,
-        "Tooltip": "neque",
-        "CanAssign": false,
-        "Free": 978,
-        "InUse": 888,
+        "Total": 837,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 381,
+        "InUse": 499,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 270,
-        "Name": "Feil-Johns",
-        "Description": "Seamless coherent architecture",
-        "PrerequisiteModuleName": "Franecki, Tillman and Halvorson",
-        "SortOrder": 576,
-        "ExtraFlags": 716,
+        "ModuleLicenseId": 132,
+        "Name": "Vandervort-Gerhold",
+        "Description": "Right-sized 4th generation service-desk",
+        "PrerequisiteModuleName": "Johnston-Hand",
+        "SortOrder": 511,
+        "ExtraFlags": 814,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 686
           }
         }
       }
@@ -177,36 +177,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   },
   {
-    "Name": "Greenfelder-Rau",
-    "Description": "Implemented didactic toolset",
+    "Name": "Cartwright-Grimes",
+    "Description": "Ergonomic directional installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 691,
-        "Tooltip": "culpa",
+        "Total": 245,
+        "Tooltip": "voluptatem",
         "CanAssign": false,
-        "Free": 587,
-        "InUse": 391,
-        "IsHidden": false,
+        "Free": 863,
+        "InUse": 57,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 79,
-        "Name": "Ortiz, Aufderhar and Smitham",
-        "Description": "User-friendly solution-oriented hardware",
-        "PrerequisiteModuleName": "Fadel Group",
-        "SortOrder": 401,
-        "ExtraFlags": 345,
+        "ModuleLicenseId": 875,
+        "Name": "Nicolas Inc and Sons",
+        "Description": "Centralized non-volatile attitude",
+        "PrerequisiteModuleName": "Lemke Inc and Sons",
+        "SortOrder": 170,
+        "ExtraFlags": 190,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldLength": 855
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 401,
-        "Tooltip": "neque",
-        "CanAssign": false,
-        "Free": 978,
-        "InUse": 888,
+        "Total": 837,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 381,
+        "InUse": 499,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 270,
-        "Name": "Feil-Johns",
-        "Description": "Seamless coherent architecture",
-        "PrerequisiteModuleName": "Franecki, Tillman and Halvorson",
-        "SortOrder": 576,
-        "ExtraFlags": 716,
+        "ModuleLicenseId": 132,
+        "Name": "Vandervort-Gerhold",
+        "Description": "Right-sized 4th generation service-desk",
+        "PrerequisiteModuleName": "Johnston-Hand",
+        "SortOrder": 511,
+        "ExtraFlags": 814,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 686
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldType": "System.String",
+        "FieldLength": 763
       }
     }
   }

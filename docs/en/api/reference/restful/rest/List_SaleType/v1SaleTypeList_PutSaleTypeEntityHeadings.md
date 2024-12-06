@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Ritchie Group",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 128,
-    "UdListDefinitionId": 658
+    "HeadingId": 64,
+    "Name": "Padberg-Yost",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 283,
+    "UdListDefinitionId": 166
   },
   {
-    "HeadingId": 788,
-    "Name": "Ritchie Group",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 128,
-    "UdListDefinitionId": 658
+    "HeadingId": 64,
+    "Name": "Padberg-Yost",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 283,
+    "UdListDefinitionId": 166
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Kozey-Rohan",
-    "Tooltip": "et",
+    "HeadingId": 310,
+    "Name": "Hirthe, Kovacek and Bernier",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "Rank": 530,
-    "UdListDefinitionId": 729,
+    "Rank": 228,
+    "UdListDefinitionId": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

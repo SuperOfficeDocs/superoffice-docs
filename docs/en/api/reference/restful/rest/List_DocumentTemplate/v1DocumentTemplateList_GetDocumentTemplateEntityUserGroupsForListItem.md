@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Rolfson LLC",
-    "ToolTip": "Ab nostrum aut repellat aliquid corporis atque.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "qui",
-    "ColorBlock": 242,
-    "IconHint": "illum",
+    "Id": 763,
+    "Name": "Fritsch Inc and Sons",
+    "ToolTip": "Sunt commodi autem laudantium sint et.",
+    "Deleted": false,
+    "Rank": 718,
+    "Type": "adipisci",
+    "ColorBlock": 684,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2003-03-25T14:45:13.70862+01:00",
+    "LastChanged": "2013-08-06T10:18:01.0199926+02:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "Murazik-Schumm",
-        "ToolTip": "Minus sunt optio omnis saepe.",
-        "Deleted": false,
-        "Rank": 428,
-        "Type": "velit",
-        "ColorBlock": 422,
-        "IconHint": "quod",
+        "Id": 302,
+        "Name": "Ernser, Pollich and Marquardt",
+        "ToolTip": "Debitis et sunt asperiores eaque qui at quisquam.",
+        "Deleted": true,
+        "Rank": 740,
+        "Type": "atque",
+        "ColorBlock": 959,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2021-04-03T14:45:13.70862+02:00",
+        "LastChanged": "2019-09-22T10:18:01.0199926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "provident",
+        "ExtraInfo": "facilis",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Houston Harvey",
+        "FullName": "Patrick Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 771
+            "FieldLength": 609
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "aut",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Albina Hermiston",
+    "FullName": "Genoveva VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 885
       }
     }
   }

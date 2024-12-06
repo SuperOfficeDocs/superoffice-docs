@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Murphy, Miller and Lang",
+  "ProviderName": "Lebsack, Champlin and Dietrich",
   "Columns": [
-    "praesentium",
-    "id"
+    "omnis",
+    "ut"
   ],
   "SortOrder": [
     {
-      "Name": "Corwin-Larson",
+      "Name": "Stracke, Stark and Runte",
       "Direction": "ASC"
     },
     {
-      "Name": "Corwin-Larson",
+      "Name": "Stracke, Stark and Runte",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Brakus-Hintz",
-      "Operator": "minima",
+      "Name": "Trantow-Grant",
+      "Operator": "omnis",
       "Values": [
-        "alias",
-        "unde"
+        "culpa",
+        "velit"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "sint"
+        "voluptas",
+        "ipsum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 427,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 994
+      "UniqueHash": 217
     }
   ],
   "Entities": [
-    "labore",
-    "suscipit"
+    "commodi",
+    "eos"
   ],
-  "Page": 805,
-  "PageSize": 171,
-  "Context": "eos"
+  "Page": 728,
+  "PageSize": 975,
+  "Context": "ut"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Muller, Kutch and Conroy",
-    "PrimaryKey": 752,
+    "EntityName": "Beer-Johnston",
+    "PrimaryKey": 487,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "mollitia",
-        "TooltipHint": "rerum",
-        "LinkHint": "iusto"
+        "DisplayValue": "nisi",
+        "TooltipHint": "autem",
+        "LinkHint": "illo"
       }
     },
-    "LinkHint": "consequatur",
-    "StyleHint": "voluptate",
+    "LinkHint": "ratione",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

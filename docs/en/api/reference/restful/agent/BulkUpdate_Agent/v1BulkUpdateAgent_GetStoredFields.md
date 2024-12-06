@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "ut"
+  "Tablename": "contact",
+  "Context": "harum"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "est",
-    "ValueType": "nisi",
-    "Mandatory": false,
-    "EncodedDisplayName": "Durgan, Auer and Ankunding",
-    "EncodedDisplayDescription": "Synergistic logistical neural-net",
-    "IconHint": "in",
+    "Key": "officiis",
+    "ValueType": "quasi",
+    "Mandatory": true,
+    "EncodedDisplayName": "Beer Group",
+    "EncodedDisplayDescription": "Balanced actuating focus group",
+    "IconHint": "nesciunt",
     "ControlInfos": [
       {
-        "Type": "necessitatibus",
-        "Label": "consectetur",
-        "Dimension": 874,
-        "ListProviderName": "Hegmann, Connelly and Treutel",
-        "ListProviderExtraInfo": "reiciendis",
-        "ListProviderPrimaryKeyName": "Ward-Herzog",
-        "ListLeadText": "vero",
+        "Type": "nobis",
+        "Label": "numquam",
+        "Dimension": 157,
+        "ListProviderName": "Robel-Corwin",
+        "ListProviderExtraInfo": "veniam",
+        "ListProviderPrimaryKeyName": "Steuber-Hoppe",
+        "ListLeadText": "rerum",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 141
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "voluptatem",
+    "EncodedDataCaptionDescription": "Grass-roots homogeneous paradigm",
+    "CurrentOperationType": "commodi",
+    "Values": [
+      "voluptates",
+      "est"
+    ],
+    "DisplayValues": [
+      "corporis",
+      "sit"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "eligendi",
+        "EncodedDisplayName": "Spencer Inc and Sons",
+        "EncodedLeadTexts": [
+          "architecto",
+          "nesciunt"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 243
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "ut",
-    "EncodedDataCaptionDescription": "Implemented contextually-based definition",
-    "CurrentOperationType": "reiciendis",
-    "Values": [
-      "consectetur",
-      "pariatur"
-    ],
-    "DisplayValues": [
-      "quis",
-      "architecto"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "unde",
-        "EncodedDisplayName": "Gleason Group",
-        "EncodedLeadTexts": [
-          "necessitatibus",
-          "est"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldLength": 306
           }
         }
       },
       {
-        "Key": "unde",
-        "EncodedDisplayName": "Gleason Group",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Spencer Inc and Sons",
         "EncodedLeadTexts": [
-          "necessitatibus",
-          "est"
+          "architecto",
+          "nesciunt"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldType": "System.String",
+            "FieldLength": 306
           }
         }
       }

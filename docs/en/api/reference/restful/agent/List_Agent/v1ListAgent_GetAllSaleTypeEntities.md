@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 577,
-    "Name": "Altenwerth LLC",
-    "Tooltip": "deserunt",
-    "Rank": 520,
+    "SaleTypeId": 759,
+    "Name": "Koch Inc and Sons",
+    "Tooltip": "voluptas",
+    "Rank": 378,
     "DurationUnit": "Century",
-    "SaleDuration": 291,
-    "SaleTypeCatId": 688,
-    "Deleted": false,
+    "SaleDuration": 935,
+    "SaleTypeCatId": 563,
+    "Deleted": true,
     "HasGuide": true,
-    "HasStakeholders": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 452,
-    "QuoteLinesTemplate": 643,
-    "ConfirmationLinesTemplate": 629,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 795,
+    "QuoteLinesTemplate": 69,
+    "ConfirmationLinesTemplate": 60,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 124,
-    "MinEarningPercent": 613,
-    "GroupQuoteLinesBy": 162,
-    "SortGroupLinesBy": 690,
+    "MaxDiscountPercent": 161,
+    "MinEarningPercent": 202,
+    "GroupQuoteLinesBy": 210,
+    "SortGroupLinesBy": 427,
     "Stages": [
       {
-        "Id": 863,
-        "Name": "O'Keefe-Hahn",
-        "ToolTip": "Non quia molestias sunt consectetur.",
+        "Id": 442,
+        "Name": "Towne, Purdy and Hammes",
+        "ToolTip": "Libero rerum excepturi vel doloremque.",
         "Deleted": false,
-        "Rank": 94,
-        "Type": "quis",
-        "ColorBlock": 106,
-        "IconHint": "laudantium",
-        "Selected": true,
-        "LastChanged": "2014-01-06T14:45:05.6938402+01:00",
+        "Rank": 446,
+        "Type": "ab",
+        "ColorBlock": 321,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2015-04-12T10:17:55.691537+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "nobis",
+        "StyleHint": "autem",
         "Hidden": true,
-        "FullName": "Ramon Mertz",
+        "FullName": "Mrs. Chadrick Lubowitz I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 125
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

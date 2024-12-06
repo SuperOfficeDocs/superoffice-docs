@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 787,
-  "ERPQuoteLineKey": "iusto",
-  "QuoteAlternativeId": 598,
-  "ERPProductKey": "debitis",
+  "QuoteLineId": 608,
+  "ERPQuoteLineKey": "asperiores",
+  "QuoteAlternativeId": 677,
+  "ERPProductKey": "nihil",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 31114.352,
-  "DeliveredQuantity": 24018.976,
-  "Rank": 346,
-  "Name": "Greenfelder-Ruecker",
-  "Description": "Exclusive analyzing methodology",
+  "Quantity": 1378.96,
+  "DeliveredQuantity": 26899.122,
+  "Rank": 116,
+  "Name": "Huels-Hermiston",
+  "Description": "Self-enabling regional neural-net",
   "Code": "dolorem",
-  "QuantityUnit": "soluta",
-  "PriceUnit": "magni",
-  "ItemNumber": "587027",
+  "QuantityUnit": "modi",
+  "PriceUnit": "ducimus",
+  "ItemNumber": "935929",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "incidunt",
-  "ProductTypeKey": "animi",
-  "Supplier": "perferendis",
-  "SupplierCode": "error",
-  "Thumbnail": "esse",
-  "VATInfo": "omnis",
-  "VAT": 24658.311999999998,
-  "UnitCost": 8433.594,
-  "UnitMinimumPrice": 4387.5999999999995,
-  "UnitListPrice": 22088.432,
+  "ProductFamilyKey": "in",
+  "ProductTypeKey": "modi",
+  "Supplier": "vel",
+  "SupplierCode": "atque",
+  "Thumbnail": "fuga",
+  "VATInfo": "illum",
+  "VAT": 28447.318,
+  "UnitCost": 20537.102,
+  "UnitMinimumPrice": 25347.791999999998,
+  "UnitListPrice": 17468.916,
   "ExtraInfo": [
     {
-      "Name": "Hoeger-Hilll",
-      "Value": "ut",
+      "Name": "Christiansen-Metz",
+      "Value": "expedita",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 942
         }
       }
     },
     {
-      "Name": "Hoeger-Hilll",
-      "Value": "ut",
+      "Name": "Christiansen-Metz",
+      "Value": "expedita",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 942
         }
       }
     }
   ],
-  "RawExtraInfo": "laudantium",
+  "RawExtraInfo": "alias",
   "IsSubscription": true,
-  "SubscriptionUnit": "sed",
-  "SubscriptionQuantity": 10793.496,
-  "SubscriptionStart": "2021-06-21T14:45:06.0999998+02:00",
-  "ERPDiscountPercent": 21120.025999999998,
-  "ERPDiscountAmount": 4368.796,
-  "DiscountPercent": 4823.226,
-  "DiscountAmount": 20637.39,
+  "SubscriptionUnit": "fugiat",
+  "SubscriptionQuantity": 4860.834,
+  "SubscriptionStart": "2008-01-29T10:17:55.9571855+01:00",
+  "ERPDiscountPercent": 18926.226,
+  "ERPDiscountAmount": 30706.932,
+  "DiscountPercent": 24683.384,
+  "DiscountAmount": 7929.0199999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1472.98,
-  "EarningAmount": 20349.061999999998,
-  "SubTotal": 11627.14,
-  "TotalPrice": 30703.798,
-  "Rights": "et",
-  "Rule": "est",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "velit",
-  "ExtraField3": "autem",
-  "ExtraField4": "repellendus",
-  "ExtraField5": "dolore",
+  "EarningPercent": 20712.606,
+  "EarningAmount": 17177.453999999998,
+  "SubTotal": 14707.862,
+  "TotalPrice": 4412.672,
+  "Rights": "rerum",
+  "Rule": "totam",
+  "ExtraField1": "numquam",
+  "ExtraField2": "quia",
+  "ExtraField3": "aut",
+  "ExtraField4": "cumque",
+  "ExtraField5": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 221
     }
   }
 }

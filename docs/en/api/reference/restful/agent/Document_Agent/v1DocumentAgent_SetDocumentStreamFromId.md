@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 787,
+  "DocumentId": 930,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 137,
+  "DocumentId": 327,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsum",
-  "Header": "fugiat",
-  "Name": "Zulauf Inc and Sons",
-  "OurRef": "aspernatur",
-  "YourRef": "occaecati",
-  "CreatedDate": "2003-08-04T14:45:05.4438985+02:00",
-  "UpdatedDate": "2023-10-14T14:45:05.4438985+02:00",
-  "Description": "Front-line discrete local area network",
+  "Attention": "ducimus",
+  "Header": "aut",
+  "Name": "Hermann Group",
+  "OurRef": "optio",
+  "YourRef": "ipsum",
+  "CreatedDate": "2004-05-05T10:17:55.5196518+02:00",
+  "UpdatedDate": "1999-12-13T10:17:55.5196518+01:00",
+  "Description": "Down-sized optimal process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-11-13T14:45:05.4438985+01:00",
-  "ExternalRef": "incidunt",
+  "Date": "2008-04-20T10:17:55.5352844+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 440,
+  "ActiveLinks": 796,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Brekke-Reynolds",
-      "Id": 227,
-      "Description": "Operative cohesive process improvement",
-      "ExtraInfo": "consequatur",
-      "LinkId": 331,
+      "EntityName": "Toy LLC",
+      "Id": 785,
+      "Description": "Open-architected leading edge functionalities",
+      "ExtraInfo": "qui",
+      "LinkId": 543,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 895
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 304,
-  "Snum": 731,
+  "SuggestedDocumentId": 47,
+  "Snum": 961,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Malvina Mills"
+    "SuperOffice:1": "1840976481",
+    "SuperOffice:2": "Dawson Ullrich"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "odio"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2019-02-20T14:45:05.4595178+01:00",
-  "PublishTo": "2013-03-16T14:45:05.4595178+01:00",
-  "PublishFrom": "2023-08-21T14:45:05.4595178+02:00",
+  "PublishEventDate": "2000-07-03T10:17:55.5352844+02:00",
+  "PublishTo": "1999-09-27T10:17:55.5352844+02:00",
+  "PublishFrom": "2020-07-12T10:17:55.5352844+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 764,
+      "VisibleId": 431,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 19
         }
       }
     },
     {
-      "VisibleId": 764,
+      "VisibleId": 431,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 19
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

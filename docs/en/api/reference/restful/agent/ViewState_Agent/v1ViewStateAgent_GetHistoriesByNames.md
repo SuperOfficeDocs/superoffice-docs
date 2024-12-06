@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Bernier Inc and Sons",
-    "Friesen Group"
+    "Baumbach, Durgan and Mayert",
+    "Hilpert LLC"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 190,
-    "Id": 746,
-    "HistoryName": "Lehner, Harber and DuBuque",
-    "HistoryId": 988,
-    "AssociateId": 928,
-    "Name": "Altenwerth Inc and Sons",
-    "ItemInfo": "perferendis",
+    "Rank": 540,
+    "Id": 734,
+    "HistoryName": "Predovic, Bailey and Grimes",
+    "HistoryId": 726,
+    "AssociateId": 807,
+    "Name": "Jacobson-Schoen",
+    "ItemInfo": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 928,
-  "Name": "Heidenreich Group",
+  "ContactId": 368,
+  "Name": "Shanahan Inc and Sons",
   "Department": "",
-  "OrgNr": "1153548",
-  "Number1": "1557526",
-  "Number2": "1522036",
-  "UpdatedDate": "2023-07-23T14:45:05.1002222+02:00",
-  "CreatedDate": "1999-12-26T14:45:05.1002222+01:00",
+  "OrgNr": "822139",
+  "Number1": "723677",
+  "Number2": "1102299",
+  "UpdatedDate": "2000-10-17T10:17:55.2696438+02:00",
+  "CreatedDate": "2002-02-14T10:17:55.2696438+01:00",
   "Emails": [
     {
-      "Value": "porro",
-      "StrippedValue": "possimus",
-      "Description": "Cloned systemic leverage",
+      "Value": "ea",
+      "StrippedValue": "rerum",
+      "Description": "Mandatory encompassing methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 52
         }
       }
     },
     {
-      "Value": "porro",
-      "StrippedValue": "possimus",
-      "Description": "Cloned systemic leverage",
+      "Value": "ea",
+      "StrippedValue": "rerum",
+      "Description": "Mandatory encompassing methodology",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 52
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 981,
-      "Name": "Borer Inc and Sons",
-      "ToolTip": "Dolorem aut sapiente magni.",
+      "Id": 708,
+      "Name": "Oberbrunner-Braun",
+      "ToolTip": "Aperiam in ea necessitatibus ea quod.",
       "Deleted": true,
-      "Rank": 632,
-      "Type": "mollitia",
-      "ColorBlock": 102,
-      "IconHint": "cumque",
+      "Rank": 324,
+      "Type": "eaque",
+      "ColorBlock": 656,
+      "IconHint": "laudantium",
       "Selected": false,
-      "LastChanged": "2002-02-07T14:45:05.1002222+01:00",
+      "LastChanged": "2000-12-27T10:17:55.2696438+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
-      "StyleHint": "esse",
-      "Hidden": false,
-      "FullName": "Mr. Margie Janie Howell",
+      "ExtraInfo": "unde",
+      "StyleHint": "eos",
+      "Hidden": true,
+      "FullName": "Peggie Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "rem",
-      "StrippedValue": "optio",
-      "Description": "Intuitive encompassing matrix",
+      "Value": "ducimus",
+      "StrippedValue": "est",
+      "Description": "User-centric system-worthy hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldType": "System.String",
+          "FieldLength": 157
         }
       }
     },
     {
-      "Value": "rem",
-      "StrippedValue": "optio",
-      "Description": "Intuitive encompassing matrix",
+      "Value": "ducimus",
+      "StrippedValue": "est",
+      "Description": "User-centric system-worthy hierarchy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldType": "System.String",
+          "FieldLength": 157
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "sint",
-      "StrippedValue": "exercitationem",
-      "Description": "Focused grid-enabled moratorium",
+      "Value": "quisquam",
+      "StrippedValue": "in",
+      "Description": "Progressive intangible secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "exercitationem",
-      "Description": "Focused grid-enabled moratorium",
+      "Value": "quisquam",
+      "StrippedValue": "in",
+      "Description": "Progressive intangible secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 543
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "ab",
-      "Description": "Decentralized client-driven complexity",
+      "Value": "omnis",
+      "StrippedValue": "nobis",
+      "Description": "Automated discrete knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 237
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "ab",
-      "Description": "Decentralized client-driven complexity",
+      "Value": "omnis",
+      "StrippedValue": "nobis",
+      "Description": "Automated discrete knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 614
+          "FieldLength": 237
         }
       }
     }
   ],
-  "Description": "Configurable full-range product",
+  "Description": "Devolved object-oriented contingency",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -277,100 +277,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "dolor",
-      "PersonId": 770,
-      "Mrmrs": "accusantium",
-      "Firstname": "Tracy",
-      "Lastname": "Price",
-      "MiddleName": "Pollich-Kuhlman",
-      "Title": "consequuntur",
-      "Description": "Multi-tiered reciprocal orchestration",
-      "Email": "verlie@weber.uk",
-      "FullName": "Daisha Kozey",
-      "DirectPhone": "(117)277-1836",
-      "FormalName": "Monahan, Bins and Rowe",
-      "CountryId": 740,
-      "ContactId": 82,
-      "ContactName": "Farrell, Mohr and Schaden",
-      "Retired": 729,
-      "Rank": 942,
-      "ActiveInterests": 600,
+      "Position": "ipsa",
+      "PersonId": 566,
+      "Mrmrs": "alias",
+      "Firstname": "Kieran",
+      "Lastname": "Sporer",
+      "MiddleName": "Volkman, Shields and Volkman",
+      "Title": "iure",
+      "Description": "Down-sized 24/7 paradigm",
+      "Email": "adrienne_veum@kuhlmankoelpin.ca",
+      "FullName": "Leanna Benny Walker MD",
+      "DirectPhone": "1-710-964-2547 x73761",
+      "FormalName": "Mayert Group",
+      "CountryId": 238,
+      "ContactId": 435,
+      "ContactName": "Shanahan-Tromp",
+      "Retired": 110,
+      "Rank": 895,
+      "ActiveInterests": 425,
       "ContactDepartment": "",
-      "ContactCountryId": 264,
-      "ContactOrgNr": "1058812",
-      "FaxPhone": "367-747-7730",
-      "MobilePhone": "1-063-408-2737",
-      "ContactPhone": "1-114-447-2695",
-      "AssociateName": "Miller Group",
-      "AssociateId": 588,
+      "ContactCountryId": 555,
+      "ContactOrgNr": "1124747",
+      "FaxPhone": "220-548-1481 x327",
+      "MobilePhone": "1-710-343-1763 x73846",
+      "ContactPhone": "(351)135-9083",
+      "AssociateName": "Bins Inc and Sons",
+      "AssociateId": 236,
       "UsePersonAddress": false,
-      "ContactFax": "provident",
-      "Kanafname": "praesentium",
-      "Kanalname": "aut",
-      "Post1": "voluptas",
-      "Post2": "aliquam",
-      "Post3": "sunt",
-      "EmailName": "alba@walsh.info",
-      "ContactFullName": "Yolanda Rosenbaum",
-      "ActiveErpLinks": 422,
-      "TicketPriorityId": 252,
-      "SupportLanguageId": 527,
-      "SupportAssociateId": 3,
+      "ContactFax": "consequatur",
+      "Kanafname": "animi",
+      "Kanalname": "repudiandae",
+      "Post1": "qui",
+      "Post2": "veniam",
+      "Post3": "fugiat",
+      "EmailName": "colton_rohan@fisher.info",
+      "ContactFullName": "Kraig Feil Jr.",
+      "ActiveErpLinks": 874,
+      "TicketPriorityId": 547,
+      "SupportLanguageId": 778,
+      "SupportAssociateId": 914,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldLength": 784
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "repellendus",
+  "Kananame": "porro",
   "Xstop": false,
-  "ActiveInterests": 100,
-  "GroupId": 184,
-  "ActiveStatusMonitorId": 425,
+  "ActiveInterests": 367,
+  "GroupId": 941,
+  "ActiveStatusMonitorId": 653,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 311,
-  "DbiAgentId": 258,
-  "DbiLastSyncronized": "2021-10-17T14:45:05.1002222+02:00",
-  "DbiKey": "qui",
-  "DbiLastModified": "2020-02-06T14:45:05.1002222+01:00",
+  "Deleted": 373,
+  "DbiAgentId": 945,
+  "DbiLastSyncronized": "2021-07-07T10:17:55.2696438+02:00",
+  "DbiKey": "praesentium",
+  "DbiLastModified": "2006-12-01T10:17:55.2696438+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 870,
-  "ActiveErpLinks": 5,
+  "Source": 1000,
+  "ActiveErpLinks": 932,
   "BounceEmails": [
-    "arvilla.wyman@connellyboyle.name",
-    "wyman_vonrueden@kutch.us"
+    "lavonne.fahey@muellerromaguera.co.uk",
+    "josephine.ernser@toymayer.info"
   ],
   "Domains": [
-    "dolores",
-    "voluptas"
+    "assumenda",
+    "sapiente"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Darrin Marks",
-    "SuperOffice:2": "Ephraim Mayert"
+    "SuperOffice:1": "Arnulfo Newton McGlynn PhD",
+    "SuperOffice:2": "Marcella Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "maxime",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "rerum",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldLength": 772
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Roob Inc and Sons",
-  "Tooltip": "ducimus",
+  "Id": 726,
+  "Name": "Medhurst-Zulauf",
+  "Tooltip": "beatae",
   "Deleted": true,
-  "UdListDefinitionId": 409,
-  "Rank": 428,
+  "UdListDefinitionId": 332,
+  "Rank": 374,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 116
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 239,
-    "Name": "Satterfield Inc and Sons",
-    "ConsentText": "corrupti",
-    "FormText": "eum",
-    "Key": "quis",
-    "Tooltip": "impedit",
-    "Active": 477,
-    "UpdatedDate": "2008-10-07T14:45:13.6148917+02:00",
+    "ConsentPurposeId": 912,
+    "Name": "Koelpin-Corwin",
+    "ConsentText": "beatae",
+    "FormText": "quos",
+    "Key": "non",
+    "Tooltip": "suscipit",
+    "Active": 823,
+    "UpdatedDate": "2021-03-08T10:18:00.9574888+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 802,
-    "PrivacyStatementDesc": "dolorem",
+    "Deleted": true,
+    "Rank": 186,
+    "PrivacyStatementDesc": "et",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldLength": 389
       }
     }
   }

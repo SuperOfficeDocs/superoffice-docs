@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 970,
-  "TableName": "Barrows-Green"
+  "RoleId": 155,
+  "TableName": "Beahan Inc and Sons"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "id"
+  "1": "rerum",
+  "2": "repellendus"
 }
 ```

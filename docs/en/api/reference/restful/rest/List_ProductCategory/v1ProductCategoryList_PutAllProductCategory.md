@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Vandervort, Mertz and Mayer",
-    "Tooltip": "et",
+    "Id": 191,
+    "Name": "Bradtke, Harber and Smith",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "UdListDefinitionId": 704,
-    "Rank": 33
+    "UdListDefinitionId": 153,
+    "Rank": 351
   },
   {
-    "Id": 232,
-    "Name": "Vandervort, Mertz and Mayer",
-    "Tooltip": "et",
+    "Id": 191,
+    "Name": "Bradtke, Harber and Smith",
+    "Tooltip": "veniam",
     "Deleted": false,
-    "UdListDefinitionId": 704,
-    "Rank": 33
+    "UdListDefinitionId": 153,
+    "Rank": 351
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Flatley, Russel and Monahan",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 175,
-    "Rank": 157,
+    "Id": 653,
+    "Name": "Schaefer Group",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "UdListDefinitionId": 997,
+    "Rank": 899,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 630
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 501,
+  "DocumentPluginId": 655,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 947,
-  "NumDocumentsAlreadyMigrated": 965,
+  "NumDocumentsOmitted": 490,
+  "NumDocumentsAlreadyMigrated": 757,
   "Documents": [
     {
-      "DocumentId": 512,
-      "ContactId": 567,
-      "PersonId": 167,
-      "SaleId": 952,
-      "ProjectId": 607,
-      "DocTmplId": 790,
-      "AssociateId": 466,
-      "UserGroupId": 927,
-      "VisibleForId": 387
+      "DocumentId": 444,
+      "ContactId": 472,
+      "PersonId": 667,
+      "SaleId": 861,
+      "ProjectId": 349,
+      "DocTmplId": 729,
+      "AssociateId": 963,
+      "UserGroupId": 367,
+      "VisibleForId": 635
     }
   ],
   "Associates": [
     {
-      "AssociateId": 757,
-      "EmailAddress": "clay@andersonschowalter.us"
+      "AssociateId": 576,
+      "EmailAddress": "sandrine.hayes@vonruedenbogisich.name"
     },
     {
-      "AssociateId": 757,
-      "EmailAddress": "clay@andersonschowalter.us"
+      "AssociateId": 576,
+      "EmailAddress": "sandrine.hayes@vonruedenbogisich.name"
     }
   ]
 }

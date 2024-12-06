@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 819,
-  "Name": "VonRueden, Johnson and Jakubowski",
-  "Tooltip": "itaque",
+  "RoleId": 669,
+  "Name": "Krajcik, Quigley and Murazik",
+  "Tooltip": "sunt",
   "RoleType": "Anonymous",
-  "Deleted": 157,
-  "Rank": 704,
-  "Created": "2000-04-23T14:45:13.0993819+02:00",
-  "UseCategories": 959,
+  "Deleted": 846,
+  "Rank": 421,
+  "Created": "2010-05-17T10:18:00.5355883+02:00",
+  "UseCategories": 891,
   "CreatedBy": null,
-  "Updated": "2000-05-27T14:45:13.1150014+02:00",
+  "Updated": "2018-01-26T10:18:00.5355883+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 323,
-  "Name": "O'Conner-Krajcik",
-  "Tooltip": "autem",
+  "RoleId": 99,
+  "Name": "Corwin-Armstrong",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 58,
-  "Rank": 917,
-  "Created": "2010-05-02T14:45:13.1306367+02:00",
-  "UseCategories": 841,
+  "Deleted": 159,
+  "Rank": 489,
+  "Created": "2005-08-24T10:18:00.5355883+02:00",
+  "UseCategories": 174,
   "CreatedBy": null,
-  "Updated": "2023-01-05T14:45:13.1306367+01:00",
+  "Updated": "2015-06-10T10:18:00.5355883+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 908
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

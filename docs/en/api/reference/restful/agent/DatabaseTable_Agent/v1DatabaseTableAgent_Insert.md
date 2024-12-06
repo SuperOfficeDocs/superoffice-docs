@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kulas-Weimann",
+  "TableName": "Wilkinson, Johns and Raynor",
   "Columns": [
-    "aut",
-    "architecto"
+    "iusto",
+    "adipisci"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "voluptas",
-  "Inserts": 36,
-  "Updates": 550,
-  "Deletes": 395,
+  "Message": "similique",
+  "Inserts": 414,
+  "Updates": 571,
+  "Deletes": 90,
   "RowStatus": [
     {
-      "PrimaryKey": 627,
+      "PrimaryKey": 821,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "debitis"
+        "voluptas",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 557
         }
       }
     },
     {
-      "PrimaryKey": 627,
+      "PrimaryKey": 821,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "debitis"
+        "voluptas",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldType": "System.Int32",
+          "FieldLength": 557
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 527
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Kling, Powlowski and Hackett",
-  "Tooltip": "qui",
+  "Id": 780,
+  "Name": "Koss, Huels and Haag",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 294,
-  "IsCustomList": false,
+  "Rank": 722,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "natus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldLength": 373
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

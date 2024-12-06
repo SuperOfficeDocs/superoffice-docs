@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 548,
-  "ListItemId": 737,
+  "UdListDefinitionId": 766,
+  "ListItemId": 750,
   "UserGroups": [
     {
-      "Id": 605,
-      "Name": "Powlowski, Boyer and Cronin",
-      "ToolTip": "Vitae et omnis aliquid sed inventore sunt ex.",
-      "Deleted": true,
-      "Rank": 266,
-      "Type": "adipisci",
-      "ColorBlock": 744,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "2016-09-18T14:45:05.7094637+02:00",
+      "Id": 339,
+      "Name": "Padberg-Thompson",
+      "ToolTip": "Similique et.",
+      "Deleted": false,
+      "Rank": 531,
+      "Type": "iste",
+      "ColorBlock": 620,
+      "IconHint": "mollitia",
+      "Selected": false,
+      "LastChanged": "2005-05-16T10:17:55.7071691+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "eum",
+      "ExtraInfo": "consectetur",
+      "StyleHint": "nulla",
       "Hidden": true,
-      "FullName": "Colleen Thiel"
+      "FullName": "Mr. Gage Diamond Champlin"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Flatley, Kautzer and Stiedemann",
-    "ToolTip": "Accusantium earum ipsa.",
+    "Id": 313,
+    "Name": "Bruen, DuBuque and Schaefer",
+    "ToolTip": "Laborum illum maiores doloribus id id hic sed.",
     "Deleted": false,
-    "Rank": 990,
-    "Type": "rerum",
-    "ColorBlock": 554,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2005-02-17T14:45:05.7094637+01:00",
+    "Rank": 339,
+    "Type": "sed",
+    "ColorBlock": 404,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2004-04-05T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Schowalter-Kreiger",
-        "ToolTip": "Cumque nesciunt saepe est natus error.",
+        "Id": 842,
+        "Name": "Kuvalis Group",
+        "ToolTip": "Qui sunt voluptatem.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "rerum",
-        "ColorBlock": 911,
-        "IconHint": "dolorum",
-        "Selected": false,
-        "LastChanged": "2019-02-10T14:45:05.7094637+01:00",
+        "Rank": 462,
+        "Type": "voluptas",
+        "ColorBlock": 341,
+        "IconHint": "cum",
+        "Selected": true,
+        "LastChanged": "2020-09-06T10:17:55.7071691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "earum",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Alverta Brakus",
+        "FullName": "Miss Nicholas Emiliano Kreiger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 395
+            "FieldLength": 909
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "est",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Jaida Mueller",
+    "FullName": "Gwendolyn White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 218
       }
     }
   }

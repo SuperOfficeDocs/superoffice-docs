@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Konopelski-Yundt",
-  "ProviderName": "Eichmann, Dickinson and Dare",
-  "Context": "eum",
-  "OwnerKeys": "asperiores",
+  "GuiName": "King-Sporer",
+  "ProviderName": "Bednar-Bogisich",
+  "Context": "fugit",
+  "OwnerKeys": "ipsam",
   "Entities": [
-    "suscipit",
-    "sed"
+    "earum",
+    "itaque"
   ]
 }
 ```

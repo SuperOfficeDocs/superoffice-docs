@@ -87,26 +87,26 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 950,
+  "LatestKnownEventId": 997,
   "PublishEvents": [
     {
-      "EventId": 321,
-      "EventName": "Crooks Group",
-      "EntityType": "vel",
-      "EntityKey": 294,
-      "AssociateId": 944,
-      "AssociateName": "Reinger Group",
-      "EventDateTime": "2007-08-14T14:45:06.7248613+02:00"
+      "EventId": 981,
+      "EventName": "Turcotte-Kozey",
+      "EntityType": "voluptatibus",
+      "EntityKey": 784,
+      "AssociateId": 848,
+      "AssociateName": "Weissnat-Ziemann",
+      "EventDateTime": "2020-02-07T10:17:56.3634594+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Botsford LLC",
-      "Value": 817
+      "Name": "Doyle Inc and Sons",
+      "Value": 291
     },
     {
-      "Name": "Botsford LLC",
-      "Value": 817
+      "Name": "Doyle Inc and Sons",
+      "Value": 291
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 899,
-    "EventName": "Olson, Mann and Padberg",
-    "EntityType": "sequi",
-    "EntityKey": 434,
-    "AssociateId": 284,
-    "AssociateName": "Dickens-Lindgren",
-    "EventDateTime": "2002-07-31T14:45:06.7248613+02:00",
+    "EventId": 788,
+    "EventName": "Anderson Inc and Sons",
+    "EntityType": "in",
+    "EntityKey": 732,
+    "AssociateId": 228,
+    "AssociateName": "Hills, Kessler and Effertz",
+    "EventDateTime": "2016-11-16T10:17:56.3634594+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

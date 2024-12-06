@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 116,
-  "ConnectionId": 127,
-  "FirstAlternativeName": "Wiegand Inc and Sons"
+  "SaleId": 785,
+  "ConnectionId": 853,
+  "FirstAlternativeName": "Klein, Cruickshank and McDermott"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 834,
-  "SaleId": 737,
-  "QuoteConnectionId": 383,
-  "ERPQuoteKey": "pariatur",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 916,
-  "AcceptedQuoteAlternativeId": 84,
-  "UseValuesFromQuote": 85,
-  "DocumentId": 13,
-  "PoNumber": "1493150",
-  "OrderComment": "distinctio",
-  "PreferredEmailCulture": "lexi@harber.uk",
+  "QuoteId": 920,
+  "SaleId": 582,
+  "QuoteConnectionId": 532,
+  "ERPQuoteKey": "assumenda",
+  "ERPOrderKey": "beatae",
+  "ActiveQuoteVersionId": 138,
+  "AcceptedQuoteAlternativeId": 647,
+  "UseValuesFromQuote": 631,
+  "DocumentId": 532,
+  "PoNumber": "1201336",
+  "OrderComment": "nobis",
+  "PreferredEmailCulture": "otis.mayert@kuvalis.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 845,
-      "ERPQuoteVersionKey": "voluptas",
-      "QuoteId": 37,
-      "Description": "Distributed analyzing parallelism",
-      "Number": "296941",
+      "QuoteVersionId": 31,
+      "ERPQuoteVersionKey": "iste",
+      "QuoteId": 719,
+      "Description": "Enhanced homogeneous software",
+      "Number": "848202",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 96,
-      "SentDate": "1999-01-01T14:45:06.0843796+01:00",
-      "FollowupId": 607,
-      "ExpirationDate": "2017-07-18T14:45:06.0843796+02:00",
-      "DeliveryCountryId": 319,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 688,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "assumenda",
-      "ERPPaymentTypeKey": "nobis",
-      "ERPDeliveryTermsKey": "et",
-      "ERPDeliveryTypeKey": "distinctio",
-      "Rank": 429,
-      "ApprovedBy": 720,
-      "ApprovedText": "omnis",
-      "ApprovedRegisteredBy": 170,
-      "ApprovedRegisteredDate": "1997-09-08T14:45:06.0843796+02:00",
-      "ExtraField1": "et",
-      "ExtraField2": "aliquid",
-      "ExtraField3": "et",
-      "ExtraField4": "est",
-      "ExtraField5": "qui",
-      "LastRecalculated": "1999-02-24T14:45:06.0843796+01:00",
-      "Updated": "2024-03-07T14:45:06.0843796+01:00",
-      "UpdatedAssociateId": 973,
-      "Registered": "2015-01-01T14:45:06.0843796+01:00",
-      "RegisteredAssociateId": 765,
-      "RequestAssociateId": 949,
-      "RequestComment": "expedita",
+      "LikelyQuoteAlternativeId": 758,
+      "SentDate": "2021-05-28T10:17:55.9415595+02:00",
+      "FollowupId": 19,
+      "ExpirationDate": "2000-04-11T10:17:55.9415595+02:00",
+      "DeliveryCountryId": 443,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 227,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "aut",
+      "ERPPaymentTypeKey": "dignissimos",
+      "ERPDeliveryTermsKey": "autem",
+      "ERPDeliveryTypeKey": "repudiandae",
+      "Rank": 501,
+      "ApprovedBy": 371,
+      "ApprovedText": "totam",
+      "ApprovedRegisteredBy": 917,
+      "ApprovedRegisteredDate": "2015-12-16T10:17:55.9415595+01:00",
+      "ExtraField1": "ratione",
+      "ExtraField2": "repudiandae",
+      "ExtraField3": "neque",
+      "ExtraField4": "odit",
+      "ExtraField5": "ut",
+      "LastRecalculated": "1998-07-22T10:17:55.9415595+02:00",
+      "Updated": "2007-09-21T10:17:55.9415595+02:00",
+      "UpdatedAssociateId": 270,
+      "Registered": "2012-05-29T10:17:55.9415595+02:00",
+      "RegisteredAssociateId": 366,
+      "RequestAssociateId": 441,
+      "RequestComment": "officia",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 677
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 397
     }
   }
 }

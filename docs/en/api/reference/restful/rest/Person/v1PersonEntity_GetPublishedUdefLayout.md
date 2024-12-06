@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 620,
-    "ColumnId": 347,
-    "FieldDefault": "quod",
-    "FieldHeight": 858,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 599,
-    "FieldTop": 876,
+    "UDefFieldId": 326,
+    "ColumnId": 30,
+    "FieldDefault": "ea",
+    "FieldHeight": 772,
+    "FieldLabel": "nisi",
+    "FieldLeft": 193,
+    "FieldTop": 220,
     "FieldType": "Checkbox",
-    "FieldWidth": 476,
-    "FormatMask": "corrupti",
+    "FieldWidth": 510,
+    "FormatMask": "dolor",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 628,
-    "LabelLeft": 776,
-    "LabelTop": 357,
-    "LabelWidth": 856,
-    "LastVersionId": 421,
-    "ListTableId": 165,
+    "IsIndexed": true,
+    "LabelHeight": 136,
+    "LabelLeft": 50,
+    "LabelTop": 418,
+    "LabelWidth": 108,
+    "LastVersionId": 94,
+    "ListTableId": 937,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 809,
-    "ProgId": "debitis",
+    "Page1LineNo": 900,
+    "ProgId": "magnam",
     "IsReadOnly": true,
-    "ShortLabel": "sunt",
-    "TabOrder": 229,
-    "TextLength": 177,
-    "Tooltip": "et",
-    "UdefIdentity": 336,
-    "UDListDefinitionId": 935,
+    "ShortLabel": "deleniti",
+    "TabOrder": 299,
+    "TextLength": 230,
+    "Tooltip": "culpa",
+    "UdefIdentity": 264,
+    "UDListDefinitionId": 945,
     "Justification": "Center",
-    "Version": 156,
-    "TemplateVariableName": "Thompson Group",
+    "Version": 6,
+    "TemplateVariableName": "O'Hara Inc and Sons",
     "HasBeenPublished": true,
-    "MdoListName": "Jakubowski, O'Kon and Kiehn",
+    "MdoListName": "Kohler-O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 268
       }
     }
   }

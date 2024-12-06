@@ -71,18 +71,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "harum",
-  "NsPluginSender": "nemo",
+  "NetServerSmsProvider": "molestiae",
+  "NsPluginSender": "consequatur",
   "NsPluginConfig": {
     "NsPluginConfig1": "et",
-    "NsPluginConfig2": "nesciunt"
+    "NsPluginConfig2": "repudiandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 88
     }
   }
 }

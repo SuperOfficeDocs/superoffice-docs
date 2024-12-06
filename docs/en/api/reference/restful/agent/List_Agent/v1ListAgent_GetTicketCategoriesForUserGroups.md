@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    117,
-    913
+    40,
+    897
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Koelpin, Strosin and Schmitt",
-    "ToolTip": "Ea voluptate sit possimus soluta ea voluptas.",
-    "Deleted": true,
-    "Rank": 451,
-    "Type": "beatae",
+    "Id": 797,
+    "Name": "Nicolas, Corkery and Weber",
+    "ToolTip": "Ducimus in facilis.",
+    "Deleted": false,
+    "Rank": 462,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Nader-Goldner",
-        "ToolTip": "Laborum delectus perspiciatis.",
+        "Id": 862,
+        "Name": "Quitzon Inc and Sons",
+        "ToolTip": "Vitae inventore et nam non maiores eaque voluptas.",
         "Deleted": true,
-        "Rank": 308,
-        "Type": "assumenda",
+        "Rank": 577,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 77,
-        "ExtraInfo": "nihil",
-        "StyleHint": "maiores",
-        "FullName": "Greyson Hayes",
+        "IconHint": "sunt",
+        "ColorBlock": 432,
+        "ExtraInfo": "velit",
+        "StyleHint": "similique",
+        "FullName": "Mr. Jade Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 541
+            "FieldLength": 422
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 414,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "suscipit",
-    "FullName": "Alex Cartwright",
+    "IconHint": "eos",
+    "ColorBlock": 758,
+    "ExtraInfo": "dolor",
+    "StyleHint": "aperiam",
+    "FullName": "Treva Kulas DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldType": "System.String",
+        "FieldLength": 700
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=888
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=208
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 835,
-  "Name": "Nikolaus LLC",
-  "Tooltip": "repudiandae",
-  "Rank": 709,
+  "SaleTypeId": 223,
+  "Name": "Mills-Mohr",
+  "Tooltip": "illo",
+  "Rank": 644,
   "DurationUnit": "Century",
-  "SaleDuration": 677,
-  "SaleTypeCatId": 224,
+  "SaleDuration": 737,
+  "SaleTypeCatId": 134,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 59,
-  "QuoteLinesTemplate": 716,
-  "ConfirmationLinesTemplate": 24,
+  "DefaultQuoteValidity": 691,
+  "QuoteLinesTemplate": 909,
+  "ConfirmationLinesTemplate": 670,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
+  "MinEarningPercentSet": false,
   "MaxDiscountPercent": 241,
-  "MinEarningPercent": 224,
-  "GroupQuoteLinesBy": 121,
-  "SortGroupLinesBy": 426,
+  "MinEarningPercent": 327,
+  "GroupQuoteLinesBy": 630,
+  "SortGroupLinesBy": 333,
   "Stages": [
     {
-      "Id": 548,
-      "Name": "Gleason LLC",
-      "ToolTip": "Aut quisquam.",
-      "Deleted": true,
-      "Rank": 550,
-      "Type": "repellendus",
-      "ColorBlock": 450,
-      "IconHint": "esse",
-      "Selected": true,
-      "LastChanged": "2003-02-19T14:45:05.6938402+01:00",
+      "Id": 419,
+      "Name": "Spencer, Bechtelar and Gottlieb",
+      "ToolTip": "Rerum consequatur consequatur recusandae error libero eius.",
+      "Deleted": false,
+      "Rank": 957,
+      "Type": "hic",
+      "ColorBlock": 145,
+      "IconHint": "neque",
+      "Selected": false,
+      "LastChanged": "2010-03-20T10:17:55.691537+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "in",
+      "ExtraInfo": "natus",
+      "StyleHint": "eius",
       "Hidden": false,
-      "FullName": "Macy Barton",
+      "FullName": "Prof. Felix Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 261
+          "FieldType": "System.Int32",
+          "FieldLength": 906
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 452
     }
   }
 }

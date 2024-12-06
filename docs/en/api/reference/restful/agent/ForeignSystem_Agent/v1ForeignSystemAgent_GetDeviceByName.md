@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Donnelly-Hauck",
-  "DeviceName": "Bednar LLC"
+  "ApplicationName": "Jenkins, Rolfson and Stiedemann",
+  "DeviceName": "O'Keefe Inc and Sons"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 983,
-  "Name": "Goldner LLC",
-  "CreatedDate": "2021-04-18T14:45:05.6469762+02:00",
-  "UpdatedDate": "1998-05-30T14:45:05.6469762+02:00",
-  "AssociateFullName": "Elliot Schuster",
-  "CreatedBy": "accusantium",
-  "UpdatedBy": "consectetur",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 98,
+  "ForeignDeviceId": 682,
+  "Name": "Goyette-Smitham",
+  "CreatedDate": "2012-04-30T10:17:55.660285+02:00",
+  "UpdatedDate": "2014-01-08T10:17:55.660285+01:00",
+  "AssociateFullName": "Miss Maxwell Lang PhD",
+  "CreatedBy": "dicta",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "assumenda",
+  "ForeignAppId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   }
 }

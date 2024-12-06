@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 760,
-    "Name": "Kling Inc and Sons",
-    "CurrencyId": 381,
-    "EnglishName": "Wisozk, Green and Pacocha",
+    "CountryId": 618,
+    "Name": "Goldner, Waters and Kshlerin",
+    "CurrencyId": 683,
+    "EnglishName": "Mann, Mayert and Graham",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Horizontal high-level frame",
-    "OrgNrText": "1413622",
-    "InterAreaPrefix": "eum",
-    "DialInPrefix": "et",
-    "ZipPrefix": "ut",
-    "DomainName": "Purdy-Turcotte",
-    "AddressLayoutId": 397,
-    "DomesticAddressLayoutId": 124,
-    "ForeignAddressLayoutId": 404,
-    "Rank": 767,
-    "Tooltip": "inventore",
-    "Deleted": true,
+    "ImageDescription": "Exclusive cohesive capacity",
+    "OrgNrText": "1472904",
+    "InterAreaPrefix": "nobis",
+    "DialInPrefix": "totam",
+    "ZipPrefix": "aut",
+    "DomainName": "Skiles, VonRueden and Altenwerth",
+    "AddressLayoutId": 455,
+    "DomesticAddressLayoutId": 552,
+    "ForeignAddressLayoutId": 459,
+    "Rank": 742,
+    "Tooltip": "quia",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

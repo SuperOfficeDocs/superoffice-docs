@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 670
+  "PersonId": 414
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 417,
-    "Name": "Mann Inc and Sons",
-    "Value": "tempore",
-    "CreatedDate": "2019-05-13T14:45:04.8659001+02:00",
-    "UpdatedDate": "2009-03-13T14:45:04.8659001+01:00",
-    "CreatedBy": "et",
-    "UpdatedBy": "voluptatem",
+    "AudienceLayoutId": 879,
+    "Name": "Daniel LLC",
+    "Value": "illum",
+    "CreatedDate": "1998-09-27T10:17:55.1290102+02:00",
+    "UpdatedDate": "2008-09-25T10:17:55.1290102+02:00",
+    "CreatedBy": "aspernatur",
+    "UpdatedBy": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldType": "System.String",
+        "FieldLength": 964
       }
     }
   }

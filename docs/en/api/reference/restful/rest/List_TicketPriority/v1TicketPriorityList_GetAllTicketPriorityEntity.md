@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 966,
-    "Name": "Batz, Bahringer and Frami",
+    "TicketPriorityId": 207,
+    "Name": "Conroy-Stoltenberg",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 836,
+    "SortOrder": 891,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 69,
-    "MonStart": "2009-06-19T14:45:14.0836771+02:00",
-    "MonStop": "2007-09-21T14:45:14.0836771+02:00",
-    "TueStart": "2000-10-09T14:45:14.0836771+02:00",
-    "TueStop": "2019-11-21T14:45:14.0836771+01:00",
-    "WedStart": "1998-04-27T14:45:14.0836771+02:00",
-    "WedStop": "2017-11-03T14:45:14.0836771+01:00",
-    "ThuStart": "2009-10-12T14:45:14.0836771+02:00",
-    "ThuStop": "2013-04-26T14:45:14.0836771+02:00",
-    "FriStart": "2002-11-23T14:45:14.0836771+01:00",
-    "FriStop": "2012-03-19T14:45:14.0836771+01:00",
-    "SatStart": "1999-08-13T14:45:14.0836771+02:00",
-    "SatStop": "2018-09-11T14:45:14.0836771+02:00",
-    "SunStart": "2012-10-15T14:45:14.0836771+02:00",
-    "SunStop": "2001-11-24T14:45:14.0836771+01:00",
+    "Deadline": 36,
+    "MonStart": "2021-02-03T10:18:01.1918781+01:00",
+    "MonStop": "2018-08-02T10:18:01.1918781+02:00",
+    "TueStart": "2012-11-14T10:18:01.1918781+01:00",
+    "TueStop": "2011-01-03T10:18:01.1918781+01:00",
+    "WedStart": "2020-03-10T10:18:01.1918781+01:00",
+    "WedStop": "2019-07-27T10:18:01.1918781+02:00",
+    "ThuStart": "2012-10-22T10:18:01.1918781+02:00",
+    "ThuStop": "1998-03-17T10:18:01.1918781+01:00",
+    "FriStart": "2002-10-03T10:18:01.1918781+02:00",
+    "FriStop": "2002-03-13T10:18:01.1918781+01:00",
+    "SatStart": "2020-03-02T10:18:01.1918781+01:00",
+    "SatStop": "2005-02-07T10:18:01.1918781+01:00",
+    "SunStart": "2001-10-08T10:18:01.1918781+02:00",
+    "SunStop": "2015-06-15T10:18:01.1918781+02:00",
     "NonDates": [
-      "aspernatur",
-      "iure"
+      "nostrum",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 186,
-        "AlertLevel": 398,
-        "AlertTimeout": 138,
-        "Action": 438,
-        "DelegateTo": 63,
-        "ScriptId": 466,
-        "EmailTo": "alysson@effertz.uk",
-        "SmsTo": "voluptates",
-        "ReplyTemplateIdCustomer": 709,
-        "ReplyTemplateIdUser": 244,
-        "ReplyTemplateIdCatmast": 96,
-        "ReplyTemplateIdEmail": 142,
-        "RtiCustomerSms": 109,
-        "ReplyTemplateIdUserSms": 442,
-        "ReplyTemplateIdCatmastSms": 966,
-        "ReplyTemplateIdSms": 545,
+        "TicketAlertId": 210,
+        "AlertLevel": 929,
+        "AlertTimeout": 578,
+        "Action": 751,
+        "DelegateTo": 482,
+        "ScriptId": 160,
+        "EmailTo": "albertha_murphy@wisozkyost.uk",
+        "SmsTo": "sit",
+        "ReplyTemplateIdCustomer": 694,
+        "ReplyTemplateIdUser": 868,
+        "ReplyTemplateIdCatmast": 702,
+        "ReplyTemplateIdEmail": 42,
+        "RtiCustomerSms": 590,
+        "ReplyTemplateIdUserSms": 821,
+        "ReplyTemplateIdCatmastSms": 183,
+        "ReplyTemplateIdSms": 11,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldLength": 63
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldType": "System.String",
+        "FieldLength": 322
       }
     }
   }

@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 286,
-  "StartDate": "2014-01-04T14:45:04.6943025+01:00",
-  "EndDate": "2021-09-14T14:45:04.6943025+02:00",
-  "RecurrenceCounter": 63,
+  "RecurrenceId": 972,
+  "StartDate": "2001-04-29T10:17:55.0040026+02:00",
+  "EndDate": "2013-12-14T10:17:55.0040026+01:00",
+  "RecurrenceCounter": 410,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-07-14T14:45:04.6943025+02:00",
-      "IsConflict": true,
-      "Description": "Synergistic demand-driven matrices",
-      "DescriptionStyleHint": "Face to face disintermediate collaboration",
-      "Tooltip": "et"
+      "Date": "2020-03-25T10:17:55.0040026+01:00",
+      "IsConflict": false,
+      "Description": "Innovative 4th generation help-desk",
+      "DescriptionStyleHint": "Expanded uniform productivity",
+      "Tooltip": "harum"
     },
     {
-      "Date": "2002-07-14T14:45:04.6943025+02:00",
-      "IsConflict": true,
-      "Description": "Synergistic demand-driven matrices",
-      "DescriptionStyleHint": "Face to face disintermediate collaboration",
-      "Tooltip": "et"
+      "Date": "2020-03-25T10:17:55.0040026+01:00",
+      "IsConflict": false,
+      "Description": "Innovative 4th generation help-desk",
+      "DescriptionStyleHint": "Expanded uniform productivity",
+      "Tooltip": "harum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

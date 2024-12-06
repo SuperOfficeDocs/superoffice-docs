@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "McDermott LLC",
-    "ToolTip": "Maiores maiores autem fugit doloremque earum adipisci.",
+    "Id": 489,
+    "Name": "Welch-VonRueden",
+    "ToolTip": "Provident consectetur aut sapiente consequatur aut.",
     "Deleted": false,
-    "Rank": 983,
-    "Type": "temporibus",
-    "ColorBlock": 873,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2015-07-04T14:45:13.8960777+02:00",
+    "Rank": 893,
+    "Type": "officiis",
+    "ColorBlock": 685,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2008-12-29T10:18:01.1450002+01:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Swaniawski-Kautzer",
-        "ToolTip": "Et repudiandae sunt fuga voluptas voluptate.",
-        "Deleted": false,
-        "Rank": 618,
-        "Type": "recusandae",
-        "ColorBlock": 435,
-        "IconHint": "labore",
-        "Selected": false,
-        "LastChanged": "2010-07-05T14:45:13.8960777+02:00",
+        "Id": 163,
+        "Name": "Lowe-Frami",
+        "ToolTip": "Aut necessitatibus iste ab in.",
+        "Deleted": true,
+        "Rank": 930,
+        "Type": "eum",
+        "ColorBlock": 615,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2001-11-14T10:18:01.1450002+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "impedit",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Prof. Juanita Gayle Becker IV"
+        "FullName": "Gennaro Rutherford"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Hassie Hayes"
+    "ExtraInfo": "nobis",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Nat Mohr"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Franecki, Bergstrom and Fisher",
-    "ToolTip": "Deleniti ea eligendi assumenda alias saepe facere nobis.",
+    "Id": 263,
+    "Name": "Blanda, Ankunding and Marquardt",
+    "ToolTip": "Ea vel nesciunt rerum mollitia quia doloribus et.",
     "Deleted": false,
-    "Rank": 486,
-    "Type": "repellat",
-    "ColorBlock": 217,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "1998-11-13T14:45:13.8960777+01:00",
+    "Rank": 962,
+    "Type": "voluptatem",
+    "ColorBlock": 949,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2001-09-26T10:18:01.1450002+02:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Watsica-Johnston",
-        "ToolTip": "Ut accusamus aut sequi eveniet.",
+        "Id": 121,
+        "Name": "Hickle, Rempel and Ortiz",
+        "ToolTip": "Minima quaerat est.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "animi",
-        "ColorBlock": 106,
-        "IconHint": "corrupti",
+        "Rank": 164,
+        "Type": "voluptatibus",
+        "ColorBlock": 392,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2011-10-21T14:45:13.8960777+02:00",
+        "LastChanged": "2002-01-17T10:18:01.1450002+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "earum",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Loma Morissette IV",
+        "FullName": "Dominic Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 545
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "April Beahan",
+    "ExtraInfo": "repellat",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Litzy Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldType": "System.String",
+        "FieldLength": 923
       }
     }
   }

@@ -82,12 +82,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 998,
-  "Name": "Stark Inc and Sons",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 798,
-  "Rank": 743
+  "Id": 973,
+  "Name": "Kunde, Littel and Legros",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "UdListDefinitionId": 793,
+  "Rank": 612
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Davis-Kemmer",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "UdListDefinitionId": 781,
-  "Rank": 34,
+  "Id": 587,
+  "Name": "Haag-Williamson",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "UdListDefinitionId": 824,
+  "Rank": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

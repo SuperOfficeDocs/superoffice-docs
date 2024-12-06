@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Lesch-Kunde",
-  "StorageKey": "consequuntur"
+  "StorageType": "dolor",
+  "ProviderName": "Parisian LLC",
+  "StorageKey": "asperiores"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abbott Group",
+    "Name": "Rosenbaum, Block and Hilll",
     "Direction": "ASC"
   },
   {
-    "Name": "Abbott Group",
+    "Name": "Rosenbaum, Block and Hilll",
     "Direction": "ASC"
   }
 ]

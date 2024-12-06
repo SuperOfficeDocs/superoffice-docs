@@ -95,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hegmann Inc and Sons",
+  "Name": "Welch, Cartwright and Lindgren",
   "ForceFlatList": false,
-  "AdditionalInfo": "maiores",
+  "AdditionalInfo": "ex",
   "HistoryItems": [
-    244,
-    523
+    766,
+    563
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Rau LLC",
-    "ToolTip": "Impedit fuga.",
+    "Id": 81,
+    "Name": "Considine Group",
+    "ToolTip": "Reiciendis eveniet adipisci voluptatem.",
     "Deleted": false,
-    "Rank": 534,
-    "Type": "accusamus",
-    "ColorBlock": 295,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "2021-01-19T14:45:05.8031904+01:00",
+    "Rank": 106,
+    "Type": "praesentium",
+    "ColorBlock": 239,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2006-10-28T10:17:55.7540473+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "West-Cole",
-        "ToolTip": "Perspiciatis dicta.",
+        "Id": 286,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Ut dolorum est aut nemo culpa ut debitis.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "ducimus",
-        "ColorBlock": 458,
-        "IconHint": "asperiores",
+        "Rank": 190,
+        "Type": "labore",
+        "ColorBlock": 430,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2013-01-22T14:45:05.8031904+01:00",
+        "LastChanged": "2009-06-09T10:17:55.7540473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "ipsa",
-        "Hidden": false,
-        "FullName": "Victoria Crist",
+        "ExtraInfo": "ex",
+        "StyleHint": "officiis",
+        "Hidden": true,
+        "FullName": "Mrs. General Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 911
+            "FieldType": "System.String",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "qui",
+    "ExtraInfo": "inventore",
+    "StyleHint": "exercitationem",
     "Hidden": true,
-    "FullName": "Dell Ansel Christiansen Sr.",
+    "FullName": "Meaghan Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

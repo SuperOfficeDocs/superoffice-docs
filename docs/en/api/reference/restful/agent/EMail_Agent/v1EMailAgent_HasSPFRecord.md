@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceSpf": "facilis",
-  "TargetDomain": "quia"
+  "SourceSpf": "hic",
+  "TargetDomain": "saepe"
 }
 ```
 

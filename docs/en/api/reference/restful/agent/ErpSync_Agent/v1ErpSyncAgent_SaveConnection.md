@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 925,
-  "ErpConnectorId": 229,
-  "DisplayName": "Konopelski-Tromp",
-  "DisplayDescription": "Multi-channelled eco-centric portal",
+  "ErpConnectionId": 520,
+  "ErpConnectorId": 368,
+  "DisplayName": "Lowe-Gerhold",
+  "DisplayDescription": "Vision-oriented coherent benchmark",
   "Active": true,
-  "ConnectionId": "laudantium",
-  "MostRecentTimestamp": "illo",
+  "ConnectionId": "expedita",
+  "MostRecentTimestamp": "provident",
   "ConfigFields": {
-    "ConfigFields1": "nihil",
-    "ConfigFields2": "id"
+    "ConfigFields1": "enim",
+    "ConfigFields2": "aliquam"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    157,
-    696
+    891,
+    628
   ],
   "AssociateAccessIds": [
-    813,
-    822
+    908,
+    557
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 817
     }
   }
 }

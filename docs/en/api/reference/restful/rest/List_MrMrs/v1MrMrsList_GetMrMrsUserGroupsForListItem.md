@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Pfeffer Inc and Sons",
-    "ToolTip": "Cum ratione aut quidem vel est.",
+    "Id": 643,
+    "Name": "Pfeffer, Robel and Wisoky",
+    "ToolTip": "Aspernatur fuga aut fuga facilis.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "sunt",
-    "ColorBlock": 632,
-    "IconHint": "error",
+    "Rank": 622,
+    "Type": "mollitia",
+    "ColorBlock": 946,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2001-09-05T14:45:13.7242429+02:00",
+    "LastChanged": "2009-01-12T10:18:01.0356179+01:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Ullrich, Greenfelder and Kulas",
-        "ToolTip": "Minima et.",
+        "Id": 390,
+        "Name": "Bogan, Gleichner and Pouros",
+        "ToolTip": "Quidem rerum magni id fugit est amet optio.",
         "Deleted": false,
-        "Rank": 319,
-        "Type": "ab",
-        "ColorBlock": 481,
-        "IconHint": "dolorem",
+        "Rank": 259,
+        "Type": "non",
+        "ColorBlock": 160,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2016-11-04T14:45:13.7242429+01:00",
+        "LastChanged": "2023-09-28T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "at",
-        "Hidden": false,
-        "FullName": "Barrett Miller",
+        "ExtraInfo": "labore",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Mr. Jimmie Brent Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 553
+            "FieldType": "System.Int32",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Jena Hartmann",
+    "ExtraInfo": "ratione",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Bell Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   }

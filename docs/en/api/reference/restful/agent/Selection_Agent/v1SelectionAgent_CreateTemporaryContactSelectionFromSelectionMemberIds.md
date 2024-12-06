@@ -118,10 +118,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 715,
+  "SelectionId": 885,
   "SelectionMemberIds": [
-    379,
-    941
+    887,
+    272
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reverse-engineered intangible framework",
-  "Postit": "sed",
+  "Description": "Assimilated zero tolerance task-force",
+  "Postit": "nihil",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 947,
-  "IncludePerson": 379,
+  "GroupIdx": 319,
+  "IncludePerson": 668,
   "MemberCount": 99.99,
-  "Name": "Olson-Weissnat",
-  "PostitTextId": 830,
-  "CreatedDate": "2004-12-25T14:45:06.240594+01:00",
-  "SelectionId": 404,
-  "SoundEx": "eos",
-  "Source": 520,
-  "TextId": 927,
-  "UpdatedDate": "2002-03-04T14:45:06.240594+01:00",
-  "UpdatedCount": 799,
-  "Visibility": 459,
+  "Name": "Upton, Ward and Hackett",
+  "PostitTextId": 597,
+  "CreatedDate": "2004-08-05T10:17:56.0353154+02:00",
+  "SelectionId": 748,
+  "SoundEx": "voluptatem",
+  "Source": 793,
+  "TextId": 386,
+  "UpdatedDate": "1997-12-12T10:17:56.0353154+01:00",
+  "UpdatedCount": 974,
+  "Visibility": 627,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 582,
-  "TargetTableName": "Mohr-Bauch",
-  "Completed": false,
-  "LeftSelectionId": 705,
-  "RightSelectionId": 517,
+  "TargetTableNumber": 360,
+  "TargetTableName": "Kutch-Frami",
+  "Completed": true,
+  "LeftSelectionId": 742,
+  "RightSelectionId": 847,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bogan-Bednar",
-  "ShadowProviderName": "Armstrong-Senger",
-  "ChartKey": "est",
-  "LastLoaded": "2011-06-14T14:45:06.240594+02:00",
-  "LastLoadedBy": 416,
+  "MainProviderName": "Heller Inc and Sons",
+  "ShadowProviderName": "Quitzon-Gleichner",
+  "ChartKey": "similique",
+  "LastLoaded": "2001-04-25T10:17:56.0353154+02:00",
+  "LastLoadedBy": 480,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-10-08T14:45:06.240594+02:00",
-  "LastMembershipChangeBy": 997,
+  "LastMembershipChange": "2002-04-13T10:17:56.0353154+02:00",
+  "LastMembershipChangeBy": 63,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eum",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "McGlynn, Torphy and Jenkins",
-  "DashboardTileDefinitionId": 968,
+  "MainHeading": "ducimus",
+  "MemberTabHeading": "nisi",
+  "MailingsProviderName": "Cartwright, Rice and Cassin",
+  "DashboardTileDefinitionId": 304,
   "VisibleFor": [
     {
-      "VisibleId": 378,
+      "VisibleId": 779,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     },
     {
-      "VisibleId": 378,
+      "VisibleId": 779,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 741
     }
   }
 }

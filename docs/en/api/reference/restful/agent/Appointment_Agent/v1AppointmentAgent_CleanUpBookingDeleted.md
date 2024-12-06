@@ -68,13 +68,13 @@ OK
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    954,
-    886
+    52,
+    380
   ]
 }
 ```
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-373
+365
 ```

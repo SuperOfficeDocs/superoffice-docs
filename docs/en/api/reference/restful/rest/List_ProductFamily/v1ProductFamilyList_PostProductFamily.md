@@ -77,12 +77,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Schulist-Jewess",
-  "Tooltip": "possimus",
-  "Deleted": true,
-  "UdListDefinitionId": 699,
-  "Rank": 485
+  "Id": 622,
+  "Name": "Aufderhar, Ruecker and O'Conner",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "UdListDefinitionId": 838,
+  "Rank": 780
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Powlowski-Kulas",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "UdListDefinitionId": 836,
-  "Rank": 477,
+  "Id": 534,
+  "Name": "Murazik Group",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "UdListDefinitionId": 676,
+  "Rank": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

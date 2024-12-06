@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 684,
-  "AssociateId": 934,
-  "Block": "facilis",
-  "Registered": "1998-11-14T14:45:05.7875689+01:00",
-  "RegisteredAssociateId": 757,
-  "Updated": "2003-08-17T14:45:05.7875689+02:00",
-  "UpdatedAssociateId": 981,
-  "UpdatedCount": 573
+  "ShipmentMessageBlockId": 776,
+  "AssociateId": 925,
+  "Block": "nisi",
+  "Registered": "2003-09-07T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 157,
+  "Updated": "2024-11-06T10:17:55.7540473+01:00",
+  "UpdatedAssociateId": 144,
+  "UpdatedCount": 902
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 876,
-  "AssociateId": 421,
-  "Block": "in",
-  "Registered": "2008-06-27T14:45:05.7875689+02:00",
-  "RegisteredAssociateId": 766,
-  "Updated": "2012-01-28T14:45:05.7875689+01:00",
-  "UpdatedAssociateId": 341,
-  "UpdatedCount": 445,
+  "ShipmentMessageBlockId": 850,
+  "AssociateId": 382,
+  "Block": "nostrum",
+  "Registered": "2013-08-21T10:17:55.7540473+02:00",
+  "RegisteredAssociateId": 931,
+  "Updated": "2020-12-28T10:17:55.7540473+01:00",
+  "UpdatedAssociateId": 400,
+  "UpdatedCount": 202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 704
     }
   }
 }

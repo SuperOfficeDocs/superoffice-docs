@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 540,
-  "Name": "Grimes-Nikolaus",
-  "CreatedDate": "2017-04-19T14:45:12.8181931+02:00",
-  "UpdatedDate": "2011-09-25T14:45:12.8181931+02:00",
+  "ForeignAppId": 26,
+  "Name": "Herzog, Schneider and Rogahn",
+  "CreatedDate": "2014-05-06T10:18:00.4262067+02:00",
+  "UpdatedDate": "2004-06-25T10:18:00.4262067+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 819,
-      "Name": "Nader-Monahan",
-      "CreatedDate": "2004-10-08T14:45:12.8338163+02:00",
-      "UpdatedDate": "2001-05-14T14:45:12.8338163+02:00",
-      "AssociateFullName": "Jarrett Marks",
-      "CreatedBy": "veniam",
-      "UpdatedBy": "ullam",
-      "DeviceIdentifier": "ea",
-      "ForeignAppId": 51,
+      "ForeignDeviceId": 25,
+      "Name": "Johnson, Bartell and Kirlin",
+      "CreatedDate": "2001-12-15T10:18:00.4262067+01:00",
+      "UpdatedDate": "2020-04-16T10:18:00.4262067+02:00",
+      "AssociateFullName": "Jennifer Satterfield",
+      "CreatedBy": "non",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "laboriosam",
+      "ForeignAppId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 875
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 5
     }
   },
   "_Links": {

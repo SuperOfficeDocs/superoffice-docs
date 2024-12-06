@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 811,
+    "HierarchyId": 36,
     "Domain": "Dashboards",
-    "Name": "Mohr-Sanford",
-    "Fullname": "veniam",
-    "ParentId": 161,
+    "Name": "Thompson-Wehner",
+    "Fullname": "autem",
+    "ParentId": 30,
     "Children": [
       {
-        "HierarchyId": 24,
+        "HierarchyId": 579,
         "Domain": "Dashboards",
-        "Name": "Wyman Group",
-        "Fullname": "ad",
-        "ParentId": 965,
+        "Name": "Wiegand-Kulas",
+        "Fullname": "sit",
+        "ParentId": 198,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2022-02-08T14:45:12.8338163+01:00",
-        "RegisteredAssociateId": 880,
-        "Updated": "2007-06-01T14:45:12.8338163+02:00",
-        "UpdatedAssociateId": 452,
+        "Registered": "2008-09-18T10:18:00.4262067+02:00",
+        "RegisteredAssociateId": 815,
+        "Updated": "2011-04-16T10:18:00.4262067+02:00",
+        "UpdatedAssociateId": 205,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldLength": 804
           }
         }
       }
     ],
-    "Registered": "2008-08-26T14:45:12.8338163+02:00",
-    "RegisteredAssociateId": 379,
-    "Updated": "2010-03-19T14:45:12.8338163+01:00",
-    "UpdatedAssociateId": 572,
+    "Registered": "2018-02-19T10:18:00.4262067+01:00",
+    "RegisteredAssociateId": 434,
+    "Updated": "2017-11-28T10:18:00.4262067+01:00",
+    "UpdatedAssociateId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 957
       }
     }
   }

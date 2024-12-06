@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Nienow LLC",
-    "Grimes-O'Reilly"
+    "Spinka, Hermann and Haag",
+    "Wisozk Inc and Sons"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  823,
-  514
+  686,
+  775
 ]
 ```

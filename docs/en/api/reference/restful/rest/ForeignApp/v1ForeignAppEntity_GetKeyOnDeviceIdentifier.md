@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 May 2005 14:45:12 G5T
+Last-Modified: Thu, 29 Apr 2010 10:18:00 G4T
 
 {
-  "Key": "fugit",
-  "Value": "repellendus",
-  "RecordId": 109,
-  "CreatedDate": "2012-03-17T14:45:12.8338163+01:00",
-  "UpdatedDate": "2005-05-25T14:45:12.8338163+02:00",
-  "UpdatedBy": "minima",
-  "CreatedBy": "voluptas",
-  "TableName": "Johns LLC",
+  "Key": "veritatis",
+  "Value": "tempora",
+  "RecordId": 908,
+  "CreatedDate": "2020-06-30T10:18:00.4262067+02:00",
+  "UpdatedDate": "2010-04-29T10:18:00.4262067+02:00",
+  "UpdatedBy": "voluptates",
+  "CreatedBy": "sit",
+  "TableName": "Heidenreich-Kshlerin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 611
     }
   }
 }

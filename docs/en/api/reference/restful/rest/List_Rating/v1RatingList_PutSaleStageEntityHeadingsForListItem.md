@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Crooks LLC",
-    "ToolTip": "Vel earum et distinctio ratione.",
+    "Id": 406,
+    "Name": "Franecki-Wolf",
+    "ToolTip": "Dolore doloribus occaecati.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "soluta",
-    "ColorBlock": 231,
-    "IconHint": "molestias",
+    "Rank": 358,
+    "Type": "non",
+    "ColorBlock": 615,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2001-03-01T14:45:13.8804606+01:00",
+    "LastChanged": "2005-12-13T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 286,
-        "Name": "Kuphal Group",
-        "ToolTip": "Omnis nisi possimus qui aut quidem quidem facilis.",
+        "Id": 697,
+        "Name": "Renner-Jacobs",
+        "ToolTip": "Officiis ut.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "quasi",
-        "ColorBlock": 428,
-        "IconHint": "enim",
+        "Rank": 904,
+        "Type": "vel",
+        "ColorBlock": 533,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2015-12-24T14:45:13.8804606+01:00",
+        "LastChanged": "2003-11-26T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Fermin Barrows"
+        "FullName": "Lilliana Rodriguez"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Ebony Schaden"
+    "ExtraInfo": "corporis",
+    "StyleHint": "minima",
+    "Hidden": true,
+    "FullName": "Jadon Deckow I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Steuber Group",
-    "ToolTip": "Ut quae sed suscipit.",
-    "Deleted": true,
-    "Rank": 328,
-    "Type": "harum",
-    "ColorBlock": 871,
-    "IconHint": "nisi",
+    "Id": 833,
+    "Name": "Welch-Rempel",
+    "ToolTip": "Accusantium non ullam omnis asperiores atque enim.",
+    "Deleted": false,
+    "Rank": 491,
+    "Type": "quibusdam",
+    "ColorBlock": 363,
+    "IconHint": "doloremque",
     "Selected": true,
-    "LastChanged": "2005-03-31T14:45:13.8804606+02:00",
+    "LastChanged": "2024-05-27T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Hackett, Grant and Keeling",
-        "ToolTip": "Maxime dolore et doloribus amet quibusdam sed.",
-        "Deleted": true,
-        "Rank": 253,
-        "Type": "excepturi",
-        "ColorBlock": 381,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2005-12-24T14:45:13.8804606+01:00",
+        "Id": 505,
+        "Name": "Heller LLC",
+        "ToolTip": "Praesentium dolores.",
+        "Deleted": false,
+        "Rank": 540,
+        "Type": "et",
+        "ColorBlock": 661,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2007-11-03T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "debitis",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Gus Hansen",
+        "FullName": "Pablo Ivy Abernathy II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 511
+            "FieldType": "System.Int32",
+            "FieldLength": 914
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "possimus",
+    "ExtraInfo": "beatae",
+    "StyleHint": "fuga",
     "Hidden": false,
-    "FullName": "Eloy Crooks",
+    "FullName": "Savanna Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

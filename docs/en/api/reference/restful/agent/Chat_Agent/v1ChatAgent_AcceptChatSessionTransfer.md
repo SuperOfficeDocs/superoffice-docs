@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 689
+  "ChatSessionId": 281
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 768,
-  "TopicId": 480,
+  "ChatSessionId": 530,
+  "TopicId": 617,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "adipisci",
-  "CustomerName": "Hartmann, O'Hara and Windler",
-  "CustomerEmail": "johnpaul@emmerichzboncak.info",
-  "CustomerPhone": "(542)983-3168 x8977",
+  "CustomerAlias": "dolorum",
+  "CustomerHost": "doloremque",
+  "CustomerName": "Ryan-Bruen",
+  "CustomerEmail": "maggie_nader@zboncak.biz",
+  "CustomerPhone": "1-536-513-4348 x070",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Runte Inc and Sons",
+  "CustomerCompanyName": "Zboncak-Padberg",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "at",
-  "WhenRequested": "2019-09-18T14:45:04.9596283+02:00",
-  "WhenStarted": "2002-04-08T14:45:04.9596283+02:00",
-  "WhenEnded": "2022-03-10T14:45:04.9596283+01:00",
-  "WhenIdle": "2022-02-06T14:45:04.9596283+01:00",
-  "WhenFetched": "1998-12-13T14:45:04.9596283+01:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 427,
-  "AlertLevel": 44,
-  "Rank": 2,
+  "FirstMessage": "maxime",
+  "LastMessage": "quibusdam",
+  "WhenRequested": "2003-05-04T10:17:55.1758881+02:00",
+  "WhenStarted": "2021-02-22T10:17:55.1758881+01:00",
+  "WhenEnded": "2016-05-15T10:17:55.1758881+02:00",
+  "WhenIdle": "2002-05-24T10:17:55.1758881+02:00",
+  "WhenFetched": "2015-09-22T10:17:55.1758881+02:00",
+  "SessionKey": "architecto",
+  "InitialQueuePos": 167,
+  "AlertLevel": 676,
+  "Rank": 415,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 117,
+  "ChatbotIsActive": false,
+  "Rating": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 678
     }
   }
 }

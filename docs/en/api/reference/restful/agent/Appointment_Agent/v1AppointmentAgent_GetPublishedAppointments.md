@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    926,
-    870
+    471,
+    260
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 614,
-    "StartDate": "2011-12-07T14:45:04.4755994+01:00",
-    "EndDate": "2010-10-27T14:45:04.4755994+02:00",
+    "AppointmentId": 679,
+    "StartDate": "2013-12-14T10:17:54.8321167+01:00",
+    "EndDate": "1998-02-21T10:17:54.8321167+01:00",
     "Type": "BookingForChecklist",
-    "Task": "autem",
-    "AssociateFullName": "Prof. Geo Eileen VonRueden Sr.",
-    "ContactName": "Langworth, Rice and Rosenbaum",
-    "Description": "Reverse-engineered mobile success",
-    "PersonFullName": "Dr. Jacques Ona Reichert II",
-    "PersonId": 614,
-    "ContactId": 120,
-    "ProjectId": 91,
-    "ProjectName": "Kihn, Prohaska and Will",
-    "IsPublished": false,
-    "AssociateId": 900,
-    "ColorIndex": 328,
-    "IsFree": false,
+    "Task": "sed",
+    "AssociateFullName": "Adan Rowe",
+    "ContactName": "Brown-Stokes",
+    "Description": "Cloned didactic hub",
+    "PersonFullName": "Maritza Kirlin",
+    "PersonId": 628,
+    "ContactId": 106,
+    "ProjectId": 158,
+    "ProjectName": "Kulas, Weissnat and Ratke",
+    "IsPublished": true,
+    "AssociateId": 782,
+    "ColorIndex": 178,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 969,
-    "PriorityName": "Beahan Group",
+    "PriorityId": 667,
+    "PriorityName": "Stoltenberg Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1999-04-26T14:45:04.4755994+02:00",
+    "ActiveDate": "2008-09-18T10:17:54.8321167+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-07-31T14:45:04.4755994+02:00",
-    "RecurringEndDate": "2016-01-27T14:45:04.4755994+01:00",
-    "MotherId": 248,
-    "AssignedBy": 550,
-    "AssignedByFullName": "Devin Kovacek",
+    "RecurringStartDate": "2019-10-22T10:17:54.8321167+02:00",
+    "RecurringEndDate": "2022-02-15T10:17:54.8321167+01:00",
+    "MotherId": 164,
+    "AssignedBy": 260,
+    "AssignedByFullName": "Maximo Ritchie DVM",
     "RejectReason": "",
-    "Location": "quo",
-    "AlarmLeadTime": "ducimus",
-    "SaleId": 778,
-    "SaleName": "Simonis-Pfeffer",
-    "AssociateName": "Bradtke-Berge",
-    "CreatedDate": "2021-10-17T14:45:04.4755994+02:00",
-    "CreatedBy": "suscipit",
-    "CreatedByFullName": "Friedrich Runolfsdottir",
-    "CreatedByAssociateId": 498,
+    "Location": "qui",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 624,
+    "SaleName": "Mante, Fay and Gutkowski",
+    "AssociateName": "Prohaska, Ebert and Wilkinson",
+    "CreatedDate": "1998-02-23T10:17:54.8321167+01:00",
+    "CreatedBy": "tenetur",
+    "CreatedByFullName": "Dale Jones",
+    "CreatedByAssociateId": 530,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 640,
-    "Title": "voluptatem",
-    "Agenda": "sunt",
-    "InternalNotes": "perspiciatis",
+    "PreferredTZLocation": 905,
+    "Title": "accusamus",
+    "Agenda": "ratione",
+    "InternalNotes": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 340
       }
     }
   }

@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 639,
-  "TopicId": 85,
+  "ChatSessionId": 928,
+  "TopicId": 970,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ad",
-  "CustomerHost": "commodi",
-  "CustomerName": "Barton Group",
-  "CustomerEmail": "arch.renner@kessler.us",
-  "CustomerPhone": "177.476.3579 x923",
+  "CustomerAlias": "aperiam",
+  "CustomerHost": "veniam",
+  "CustomerName": "Rau, Swaniawski and Hand",
+  "CustomerEmail": "seamus@becker.us",
+  "CustomerPhone": "995.200.5826 x691",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bednar, Hackett and Bechtelar",
+  "CustomerCompanyName": "Howell Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "autem",
-  "LastMessage": "vitae",
-  "WhenRequested": "2012-10-04T14:45:04.9127653+02:00",
-  "WhenStarted": "2022-06-04T14:45:04.9127653+02:00",
-  "WhenEnded": "2024-07-16T14:45:04.9127653+02:00",
-  "WhenIdle": "2012-09-28T14:45:04.9127653+02:00",
-  "WhenFetched": "2022-03-18T14:45:04.9127653+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 126,
-  "AlertLevel": 604,
-  "Rank": 7,
+  "FirstMessage": "et",
+  "LastMessage": "consequatur",
+  "WhenRequested": "2002-10-08T10:17:55.1602621+02:00",
+  "WhenStarted": "2006-11-16T10:17:55.1602621+01:00",
+  "WhenEnded": "2004-10-23T10:17:55.1602621+02:00",
+  "WhenIdle": "1999-06-08T10:17:55.1602621+02:00",
+  "WhenFetched": "2002-03-17T10:17:55.1602621+01:00",
+  "SessionKey": "tempore",
+  "InitialQueuePos": 564,
+  "AlertLevel": 130,
+  "Rank": 732,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 976
+  "Rating": 435
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 130,
-  "TopicId": 765,
+  "ChatSessionId": 132,
+  "TopicId": 114,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "soluta",
-  "CustomerName": "Satterfield-Ferry",
-  "CustomerEmail": "raven@carter.com",
-  "CustomerPhone": "(631)219-4335 x3354",
+  "CustomerAlias": "officia",
+  "CustomerHost": "quasi",
+  "CustomerName": "O'Hara, Lebsack and Gottlieb",
+  "CustomerEmail": "rodger_kessler@connwalsh.co.uk",
+  "CustomerPhone": "(088)725-5598",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Deckow-Kling",
+  "CustomerCompanyName": "Beer-Upton",
   "Status": "Closed",
-  "FirstMessage": "atque",
-  "LastMessage": "possimus",
-  "WhenRequested": "2011-08-08T14:45:04.9283852+02:00",
-  "WhenStarted": "2014-01-17T14:45:04.9283852+01:00",
-  "WhenEnded": "1998-06-07T14:45:04.9283852+02:00",
-  "WhenIdle": "2004-02-02T14:45:04.9283852+01:00",
-  "WhenFetched": "2007-07-31T14:45:04.9283852+02:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 213,
-  "AlertLevel": 888,
-  "Rank": 180,
+  "FirstMessage": "est",
+  "LastMessage": "ea",
+  "WhenRequested": "2008-02-21T10:17:55.1602621+01:00",
+  "WhenStarted": "2019-08-30T10:17:55.1602621+02:00",
+  "WhenEnded": "2010-02-25T10:17:55.1602621+01:00",
+  "WhenIdle": "2023-04-19T10:17:55.1602621+02:00",
+  "WhenFetched": "2004-12-21T10:17:55.1602621+01:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 599,
+  "AlertLevel": 123,
+  "Rank": 276,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 126,
+  "Rating": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 304,
-  "UserInput": "quia",
-  "PriceListKey": "maxime"
+  "QuoteAlternativeId": 269,
+  "UserInput": "ad",
+  "PriceListKey": "mollitia"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 536,
-    "ERPProductKey": "facilis",
-    "ERPPriceListKey": "ut",
-    "Name": "Hauck, Hoppe and Parker",
-    "Description": "Multi-layered multimedia methodology",
-    "Code": "temporibus",
-    "PriceUnit": "nulla",
-    "QuantityUnit": "ut",
+    "ProductId": 563,
+    "ERPProductKey": "aut",
+    "ERPPriceListKey": "cum",
+    "Name": "Nitzsche, Leannon and Bechtelar",
+    "Description": "Balanced maximized toolset",
+    "Code": "nemo",
+    "PriceUnit": "delectus",
+    "QuantityUnit": "blanditiis",
     "IsSubscription": true,
-    "SubscriptionUnit": "amet",
-    "DefaultSubscriptionQuantity": 10345.333999999999,
-    "ItemNumber": "1214195",
+    "SubscriptionUnit": "a",
+    "DefaultSubscriptionQuantity": 8618.5,
+    "ItemNumber": "480608",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "quos",
-    "ProductTypeKey": "ut",
-    "VAT": 11354.482,
-    "VATInfo": "qui",
-    "UnitCost": 5703.88,
-    "UnitMinimumPrice": 11968.746,
-    "UnitListPrice": 12551.67,
-    "InAssortment": false,
-    "Supplier": "praesentium",
-    "SupplierCode": "alias",
-    "Rights": "et",
-    "Rule": "rem",
+    "ProductFamilyKey": "ut",
+    "ProductTypeKey": "fugit",
+    "VAT": 21044.809999999998,
+    "VATInfo": "molestiae",
+    "UnitCost": 9753.008,
+    "UnitMinimumPrice": 26729.886,
+    "UnitListPrice": 30255.636,
+    "InAssortment": true,
+    "Supplier": "totam",
+    "SupplierCode": "maxime",
+    "Rights": "sit",
+    "Rule": "totam",
     "ExtraInfo": [
       {
-        "Name": "Kovacek-Blanda",
-        "Value": "eos",
+        "Name": "Bahringer, Hartmann and Reinger",
+        "Value": "dolorem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldType": "System.String",
+            "FieldLength": 253
           }
         }
       },
       {
-        "Name": "Kovacek-Blanda",
-        "Value": "eos",
+        "Name": "Bahringer, Hartmann and Reinger",
+        "Value": "dolorem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldType": "System.String",
+            "FieldLength": 253
           }
         }
       }
     ],
-    "RawExtraInfo": "itaque",
-    "ExtraField1": "vero",
-    "ExtraField2": "atque",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "voluptatem",
-    "ExtraField5": "sunt",
-    "InStock": 22903.272,
+    "RawExtraInfo": "cupiditate",
+    "ExtraField1": "explicabo",
+    "ExtraField2": "sint",
+    "ExtraField3": "sunt",
+    "ExtraField4": "quisquam",
+    "ExtraField5": "velit",
+    "InStock": 23370.237999999998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 387
       }
     }
   }

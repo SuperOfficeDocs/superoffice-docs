@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Kuvalis Inc and Sons",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 186,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false
+  "Id": 351,
+  "Name": "Flatley, Legros and Kunde",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 135,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Feil LLC",
-  "Tooltip": "deserunt",
+  "Id": 368,
+  "Name": "Wolff, Torphy and Kshlerin",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 11,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 360,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempore",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

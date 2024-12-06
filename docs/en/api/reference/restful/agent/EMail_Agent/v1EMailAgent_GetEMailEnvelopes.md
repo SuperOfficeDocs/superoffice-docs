@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    154,
-    532
+    10,
+    953
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 550,
-    "MessageId": "odit",
-    "Subject": "temporibus",
+    "ServerId": 226,
+    "MessageId": "qui",
+    "Subject": "et",
     "From": null,
     "To": [
       {
-        "ContactId": 354,
-        "ContactName": "Larson, Prosacco and Lockman",
-        "PersonId": 180,
-        "PersonName": "Swaniawski, Baumbach and Murray",
-        "AssociateId": 321,
-        "Address": "consectetur",
-        "EmailId": 714,
+        "ContactId": 598,
+        "ContactName": "Barton-Wehner",
+        "PersonId": 948,
+        "PersonName": "Kuhn LLC",
+        "AssociateId": 190,
+        "Address": "eum",
+        "EmailId": 198,
         "DuplicatePersonIds": [
-          179,
-          879
+          742,
+          847
         ],
-        "Name": "Predovic-Kuhn",
+        "Name": "Casper-Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldLength": 159
           }
         }
       }
     ],
-    "Sent": "2002-04-20T14:45:05.568868+02:00",
+    "Sent": "2010-02-23T10:17:55.5977887+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 945,
+    "Size": 377,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

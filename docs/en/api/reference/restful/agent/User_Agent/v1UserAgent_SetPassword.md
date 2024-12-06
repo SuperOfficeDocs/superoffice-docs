@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 508,
-  "Password": "adipisci"
+  "AssociateId": 135,
+  "Password": "harum"
 }
 ```
 

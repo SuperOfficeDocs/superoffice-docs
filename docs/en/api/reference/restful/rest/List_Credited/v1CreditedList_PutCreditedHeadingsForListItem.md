@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Schumm-Hammes",
-    "ToolTip": "Laudantium molestiae qui est exercitationem eos molestias.",
-    "Deleted": false,
-    "Rank": 843,
-    "Type": "voluptas",
-    "ColorBlock": 546,
-    "IconHint": "odio",
+    "Id": 15,
+    "Name": "Kemmer Group",
+    "ToolTip": "Dignissimos enim et nisi.",
+    "Deleted": true,
+    "Rank": 220,
+    "Type": "ut",
+    "ColorBlock": 973,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-11-23T14:45:13.6617546+01:00",
+    "LastChanged": "2011-10-31T10:18:00.9887407+01:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Sporer, Hills and Mraz",
-        "ToolTip": "Doloribus eum vero voluptatem.",
+        "Id": 270,
+        "Name": "Hand Group",
+        "ToolTip": "Adipisci blanditiis.",
         "Deleted": true,
-        "Rank": 398,
-        "Type": "repellat",
-        "ColorBlock": 899,
+        "Rank": 774,
+        "Type": "et",
+        "ColorBlock": 74,
         "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2015-10-19T14:45:13.6617546+02:00",
+        "Selected": false,
+        "LastChanged": "2020-01-06T10:18:00.9887407+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Jazlyn Herman"
+        "FullName": "Clara Roselyn Runte III"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "placeat",
+    "ExtraInfo": "alias",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Bernard Isabell Streich DVM"
+    "FullName": "Prof. Nora Nienow Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Harris-Borer",
-    "ToolTip": "Sit et quo quo veritatis.",
+    "Id": 99,
+    "Name": "Lemke, Dickinson and Rowe",
+    "ToolTip": "Id id.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "ipsum",
-    "ColorBlock": 947,
-    "IconHint": "nesciunt",
+    "Rank": 891,
+    "Type": "corrupti",
+    "ColorBlock": 208,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2015-08-26T14:45:13.6617546+02:00",
+    "LastChanged": "2017-02-06T10:18:00.9887407+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Koelpin, Kozey and Lockman",
-        "ToolTip": "Iusto optio repellat.",
-        "Deleted": true,
-        "Rank": 617,
-        "Type": "autem",
-        "ColorBlock": 564,
-        "IconHint": "illo",
+        "Id": 11,
+        "Name": "Lowe LLC",
+        "ToolTip": "Sed deserunt earum itaque.",
+        "Deleted": false,
+        "Rank": 689,
+        "Type": "accusantium",
+        "ColorBlock": 440,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2017-06-21T14:45:13.6617546+02:00",
+        "LastChanged": "2013-10-24T10:18:00.9887407+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "aut",
+        "ExtraInfo": "velit",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Brielle Littel",
+        "FullName": "Collin Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 978
+            "FieldType": "System.Int32",
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "sequi",
+    "ExtraInfo": "magni",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Dr. Wiley Okey Stanton IV",
+    "FullName": "Daija Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 235
       }
     }
   }

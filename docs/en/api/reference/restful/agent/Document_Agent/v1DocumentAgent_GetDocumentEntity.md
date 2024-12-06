@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=103
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=154
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 232,
+  "DocumentId": 696,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequuntur",
-  "Header": "et",
-  "Name": "Cartwright, Emard and Kohler",
-  "OurRef": "eos",
-  "YourRef": "sed",
-  "CreatedDate": "2003-09-06T14:45:05.3814106+02:00",
-  "UpdatedDate": "1999-09-25T14:45:05.3814106+02:00",
-  "Description": "Multi-lateral 6th generation moderator",
+  "Attention": "sunt",
+  "Header": "earum",
+  "Name": "Trantow Group",
+  "OurRef": "unde",
+  "YourRef": "voluptas",
+  "CreatedDate": "2001-07-15T10:17:55.4884062+02:00",
+  "UpdatedDate": "2014-10-31T10:17:55.4884062+01:00",
+  "Description": "Up-sized composite focus group",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-04-04T14:45:05.3814106+02:00",
-  "ExternalRef": "quaerat",
+  "Date": "2024-03-26T10:17:55.4884062+01:00",
+  "ExternalRef": "expedita",
   "Completed": "Completed",
-  "ActiveLinks": 274,
+  "ActiveLinks": 784,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler, McCullough and Braun",
-      "Id": 21,
-      "Description": "Versatile background application",
-      "ExtraInfo": "ut",
-      "LinkId": 487,
+      "EntityName": "Moore, Grimes and Considine",
+      "Id": 441,
+      "Description": "Diverse context-sensitive initiative",
+      "ExtraInfo": "est",
+      "LinkId": 196,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldType": "System.String",
+          "FieldLength": 994
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 947,
-  "Snum": 890,
+  "SuggestedDocumentId": 564,
+  "Snum": 906,
   "UserDefinedFields": {
-    "SuperOffice:1": "158179609",
-    "SuperOffice:2": "2029911248"
+    "SuperOffice:1": "Madalyn Brown",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "modi",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "et",
+    "CustomFields2": "at"
   },
-  "PublishEventDate": "2002-11-19T14:45:05.3814106+01:00",
-  "PublishTo": "2022-06-21T14:45:05.3814106+02:00",
-  "PublishFrom": "2019-06-11T14:45:05.3814106+02:00",
+  "PublishEventDate": "2012-07-18T10:17:55.4884062+02:00",
+  "PublishTo": "2019-09-05T10:17:55.4884062+02:00",
+  "PublishFrom": "1998-10-12T10:17:55.4884062+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 792,
+      "VisibleId": 976,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 462
         }
       }
     },
     {
-      "VisibleId": 792,
+      "VisibleId": 976,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 561
+          "FieldType": "System.Int32",
+          "FieldLength": 462
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   }
 }

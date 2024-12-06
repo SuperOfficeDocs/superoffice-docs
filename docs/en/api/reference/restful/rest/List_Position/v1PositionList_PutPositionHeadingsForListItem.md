@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Donnelly-Altenwerth",
-    "ToolTip": "Quas vero veritatis quae quas quod.",
+    "Id": 820,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Et et eum.",
     "Deleted": false,
-    "Rank": 554,
-    "Type": "commodi",
-    "ColorBlock": 341,
-    "IconHint": "saepe",
+    "Rank": 58,
+    "Type": "laudantium",
+    "ColorBlock": 651,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2007-04-11T14:45:13.7711051+02:00",
+    "LastChanged": "2008-06-03T10:18:01.0668705+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Kuhlman-Mills",
-        "ToolTip": "A impedit qui dolor ipsa fuga ut.",
-        "Deleted": true,
-        "Rank": 946,
-        "Type": "repudiandae",
-        "ColorBlock": 450,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2004-12-10T14:45:13.7711051+01:00",
+        "Id": 666,
+        "Name": "Dooley-Wolf",
+        "ToolTip": "Commodi est inventore quo iusto fugit laudantium.",
+        "Deleted": false,
+        "Rank": 767,
+        "Type": "in",
+        "ColorBlock": 575,
+        "IconHint": "ab",
+        "Selected": false,
+        "LastChanged": "2011-09-12T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Lawrence Anastacio Gulgowski MD"
+        "ExtraInfo": "ut",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Miss Glenda Myrtie Jacobi MD"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Yazmin Fisher"
+    "ExtraInfo": "maiores",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Marie Robbie Dickinson MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 881,
-    "Name": "Lubowitz-Tromp",
-    "ToolTip": "Ex ut repellat.",
-    "Deleted": true,
-    "Rank": 255,
-    "Type": "quas",
-    "ColorBlock": 577,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "1999-11-08T14:45:13.7711051+01:00",
+    "Id": 428,
+    "Name": "Lockman, Wyman and Kuvalis",
+    "ToolTip": "Sit sit sit dolor eum amet unde est.",
+    "Deleted": false,
+    "Rank": 221,
+    "Type": "vel",
+    "ColorBlock": 515,
+    "IconHint": "perspiciatis",
+    "Selected": true,
+    "LastChanged": "2002-02-13T10:18:01.0668705+01:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Donnelly, Kulas and Murphy",
-        "ToolTip": "Amet tenetur in.",
-        "Deleted": true,
-        "Rank": 542,
-        "Type": "voluptas",
-        "ColorBlock": 268,
-        "IconHint": "et",
+        "Id": 578,
+        "Name": "Brakus-Erdman",
+        "ToolTip": "Rerum doloremque et quia velit voluptates nihil voluptatem.",
+        "Deleted": false,
+        "Rank": 577,
+        "Type": "velit",
+        "ColorBlock": 821,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2021-12-22T14:45:13.7711051+01:00",
+        "LastChanged": "2022-05-15T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Prof. Julianne Shemar Jacobi III",
+        "ExtraInfo": "et",
+        "StyleHint": "eius",
+        "Hidden": true,
+        "FullName": "Marcella Botsford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldType": "System.Int32",
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Prof. Rosemarie Ines Glover",
+    "FullName": "Rahsaan Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 307
       }
     }
   }

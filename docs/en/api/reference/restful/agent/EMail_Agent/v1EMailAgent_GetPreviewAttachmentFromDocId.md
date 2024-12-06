@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 993,
-  "AttachmentId": "ullam"
+  "DocId": 103,
+  "AttachmentId": "ut"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable content-based system engine",
-  "Filename": "nam",
-  "Size": 429,
-  "Type": "debitis",
-  "Encoding": "voluptatem",
-  "Id": "consequatur",
-  "Disposition": "quia",
+  "Description": "Optional regional knowledge user",
+  "Filename": "non",
+  "Size": 13,
+  "Type": "quo",
+  "Encoding": "dolorum",
+  "Id": "reprehenderit",
+  "Disposition": "qui",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 39
     }
   }
 }

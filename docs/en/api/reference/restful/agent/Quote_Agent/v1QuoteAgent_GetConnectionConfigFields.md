@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 638
+  "QuoteConnectionId": 615
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "soluta",
-  "2": "saepe"
+  "1": "laborum",
+  "2": "iste"
 }
 ```

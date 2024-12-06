@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Bergstrom LLC",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "UdListDefinitionId": 419,
-  "Rank": 588
+  "Id": 886,
+  "Name": "Lebsack Group",
+  "Tooltip": "facilis",
+  "Deleted": true,
+  "UdListDefinitionId": 163,
+  "Rank": 750
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Osinski-Greenholt",
-  "Tooltip": "explicabo",
+  "Id": 410,
+  "Name": "Wilkinson, Schultz and Glover",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 546,
-  "Rank": 676,
+  "UdListDefinitionId": 686,
+  "Rank": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 783
     }
   }
 }

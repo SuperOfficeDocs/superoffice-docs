@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Veum Inc and Sons",
-  "Columns": "nulla",
-  "SortOrder": "repellendus",
-  "Restriction": "earum",
-  "Entities": "quis",
-  "Page": 506,
-  "PageSize": 619,
-  "Options": "similique",
-  "Context": "consequatur"
+  "ProviderName": "Pouros Group",
+  "Columns": "molestias",
+  "SortOrder": "officia",
+  "Restriction": "id",
+  "Entities": "nobis",
+  "Page": 388,
+  "PageSize": 253,
+  "Options": "laudantium",
+  "Context": "voluptas"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 560,
+  "RowCount": 487,
   "Rows": [
     {
-      "EntityName": "Hodkiewicz, Bernhard and Herzog",
-      "PrimaryKey": 335,
+      "EntityName": "Hudson-Harris",
+      "PrimaryKey": 580,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "ullam",
-          "LinkHint": "ad"
+          "DisplayValue": "at",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "consectetur"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "voluptas",
+      "LinkHint": "odio",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 812
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 820
     }
   }
 }

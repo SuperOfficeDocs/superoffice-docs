@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Will, O'Keefe and Howell",
-  "DeviceName": "Kertzmann-Mills",
-  "DeviceIdentifier": "fugiat",
-  "TableName": "Glover-Hagenes",
-  "RecordId": 240
+  "ApplicationName": "Harris-White",
+  "DeviceName": "Rau, Stanton and Hansen",
+  "DeviceIdentifier": "amet",
+  "TableName": "Heaney LLC",
+  "RecordId": 562
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sunt",
-    "Value": "cupiditate",
-    "RecordId": 314,
-    "CreatedDate": "2021-08-26T14:45:05.6469762+02:00",
-    "UpdatedDate": "2018-11-09T14:45:05.6469762+01:00",
-    "UpdatedBy": "deserunt",
-    "CreatedBy": "sint",
-    "TableName": "Hansen Group",
+    "Key": "doloremque",
+    "Value": "veritatis",
+    "RecordId": 838,
+    "CreatedDate": "2001-02-21T10:17:55.660285+01:00",
+    "UpdatedDate": "2004-05-24T10:17:55.660285+02:00",
+    "UpdatedBy": "debitis",
+    "CreatedBy": "qui",
+    "TableName": "Funk, Jakubowski and Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 709
       }
     }
   }

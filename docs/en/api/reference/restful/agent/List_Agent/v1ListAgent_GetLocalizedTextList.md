@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 937,
-    "ResourceId": 721,
-    "Text": "maxime",
+    "LanguageId": 274,
+    "ResourceId": 841,
+    "Text": "nobis",
     "Type": "Column",
-    "LocalizedTextId": 161,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 91,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 925
       }
     }
   }

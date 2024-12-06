@@ -91,12 +91,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wunsch, Thiel and Wilderman",
-  "DeviceName": "Pfeffer Inc and Sons",
-  "DeviceIdentifier": "et",
-  "KeyName": "Hauck, Waters and Littel",
-  "TableName": "Pollich Inc and Sons",
-  "RecordId": 234
+  "ApplicationName": "Greenholt-Schaefer",
+  "DeviceName": "Dach-Mraz",
+  "DeviceIdentifier": "asperiores",
+  "KeyName": "Muller LLC",
+  "TableName": "Conn-West",
+  "RecordId": 787
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "impedit",
-  "Value": "in",
-  "RecordId": 558,
-  "CreatedDate": "2019-03-23T14:45:05.6469762+01:00",
-  "UpdatedDate": "2020-06-16T14:45:05.6469762+02:00",
-  "UpdatedBy": "sit",
-  "CreatedBy": "dolor",
-  "TableName": "Armstrong LLC",
+  "Key": "hic",
+  "Value": "ut",
+  "RecordId": 642,
+  "CreatedDate": "2001-04-19T10:17:55.660285+02:00",
+  "UpdatedDate": "1997-11-23T10:17:55.660285+01:00",
+  "UpdatedBy": "error",
+  "CreatedBy": "sed",
+  "TableName": "Denesik, Powlowski and Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

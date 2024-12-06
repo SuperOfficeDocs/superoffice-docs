@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 249,
-  "WorkflowId": 207,
+  "WorkflowTriggerId": 209,
+  "WorkflowId": 67,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Hahn Group",
-      "Description": "Innovative local initiative",
-      "Rank": 842,
+      "Name": "Emmerich-Legros",
+      "Description": "Quality-focused bottom-line analyzer",
+      "Rank": 431,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hahn Group",
-      "Description": "Innovative local initiative",
-      "Rank": 842,
+      "Name": "Emmerich-Legros",
+      "Description": "Quality-focused bottom-line analyzer",
+      "Rank": 431,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 174,
-  "WorkflowId": 327,
+  "WorkflowTriggerId": 727,
+  "WorkflowId": 945,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Kshlerin, Feest and Willms",
-      "Description": "Multi-lateral real-time application",
-      "Rank": 319,
+      "Name": "Walsh Inc and Sons",
+      "Description": "Quality-focused explicit application",
+      "Rank": 322,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kshlerin, Feest and Willms",
-      "Description": "Multi-lateral real-time application",
-      "Rank": 319,
+      "Name": "Walsh Inc and Sons",
+      "Description": "Quality-focused explicit application",
+      "Rank": 322,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 788
     }
   }
 }

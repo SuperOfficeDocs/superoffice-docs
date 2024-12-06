@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Stark-Feeney",
-  "Tooltip": "id",
-  "Deleted": true,
-  "UdListDefinitionId": 65,
-  "Rank": 20,
+  "Id": 573,
+  "Name": "Ledner-Moore",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "UdListDefinitionId": 743,
+  "Rank": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

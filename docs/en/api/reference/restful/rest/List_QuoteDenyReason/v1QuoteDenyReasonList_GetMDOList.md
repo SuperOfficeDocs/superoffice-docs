@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=aut
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Rodriguez-Bailey",
-    "ToolTip": "Esse fugit aperiam.",
+    "Id": 838,
+    "Name": "Farrell, Medhurst and Vandervort",
+    "ToolTip": "Voluptatum est.",
     "Deleted": false,
-    "Rank": 690,
-    "Type": "tempora",
+    "Rank": 95,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Schmidt-Kunze",
-        "ToolTip": "Quia modi illum itaque qui eos quas.",
+        "Id": 97,
+        "Name": "Rau, Kihn and Schmitt",
+        "ToolTip": "Harum quasi dolore velit deserunt unde non tenetur.",
         "Deleted": false,
-        "Rank": 304,
-        "Type": "nihil",
+        "Rank": 229,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "architecto",
-        "ColorBlock": 58,
-        "ExtraInfo": "sequi",
-        "StyleHint": "aut",
-        "FullName": "Icie Zemlak",
+        "IconHint": "mollitia",
+        "ColorBlock": 333,
+        "ExtraInfo": "omnis",
+        "StyleHint": "rerum",
+        "FullName": "Petra Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldType": "System.String",
+            "FieldLength": 29
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 107,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "dignissimos",
-    "FullName": "Jonatan Upton",
+    "IconHint": "incidunt",
+    "ColorBlock": 466,
+    "ExtraInfo": "molestias",
+    "StyleHint": "nulla",
+    "FullName": "Ursula Mayra Huel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 38
       }
     }
   }

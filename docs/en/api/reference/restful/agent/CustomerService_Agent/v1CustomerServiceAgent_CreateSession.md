@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "autem"
+  "RemoteIp": "nesciunt"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "cumque",
-  "LoginId": 730,
-  "UserId": 123,
+  "Key": "hic",
+  "LoginId": 523,
+  "UserId": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

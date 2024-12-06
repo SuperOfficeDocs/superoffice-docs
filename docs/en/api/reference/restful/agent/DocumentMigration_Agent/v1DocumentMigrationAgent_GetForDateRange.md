@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 665,
-  "MinDate": "2010-11-27T14:45:05.4595178+01:00",
-  "MaxDate": "2020-06-01T14:45:05.4595178+02:00",
+  "DocumentPluginId": 325,
+  "MinDate": "2024-06-27T10:17:55.5352844+02:00",
+  "MaxDate": "2024-01-23T10:17:55.5352844+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 683,
-  "NumDocumentsAlreadyMigrated": 714,
+  "NumDocumentsOmitted": 508,
+  "NumDocumentsAlreadyMigrated": 446,
   "Documents": [
     {
-      "DocumentId": 588,
-      "ContactId": 227,
-      "PersonId": 788,
-      "SaleId": 388,
-      "ProjectId": 517,
-      "DocTmplId": 995,
-      "AssociateId": 172,
-      "UserGroupId": 897,
-      "VisibleForId": 227
+      "DocumentId": 455,
+      "ContactId": 938,
+      "PersonId": 986,
+      "SaleId": 758,
+      "ProjectId": 224,
+      "DocTmplId": 624,
+      "AssociateId": 884,
+      "UserGroupId": 116,
+      "VisibleForId": 757
     }
   ],
   "Associates": [
     {
-      "AssociateId": 606,
-      "EmailAddress": "nola@veum.ca"
+      "AssociateId": 906,
+      "EmailAddress": "brenna@kuhnherman.co.uk"
     },
     {
-      "AssociateId": 606,
-      "EmailAddress": "nola@veum.ca"
+      "AssociateId": 906,
+      "EmailAddress": "brenna@kuhnherman.co.uk"
     }
   ]
 }

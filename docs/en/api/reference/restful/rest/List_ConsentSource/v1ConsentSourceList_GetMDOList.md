@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=omnis
+GET /api/v1/List/ConsentSource/MDOItems?query=incidunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Aufderhar-Abernathy",
-    "ToolTip": "Iste non quia.",
+    "Id": 945,
+    "Name": "Altenwerth, Renner and Mraz",
+    "ToolTip": "Maxime dolorum eos amet autem.",
     "Deleted": false,
-    "Rank": 526,
-    "Type": "error",
+    "Rank": 301,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Terry Group",
-        "ToolTip": "Quam non officia qui libero ipsam.",
+        "Id": 479,
+        "Name": "Hagenes LLC",
+        "ToolTip": "Ut voluptas possimus nostrum et dolorem et.",
         "Deleted": false,
-        "Rank": 834,
-        "Type": "itaque",
+        "Rank": 611,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 840,
-        "ExtraInfo": "maiores",
-        "StyleHint": "qui",
-        "FullName": "Monserrate Collins",
+        "IconHint": "et",
+        "ColorBlock": 770,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "tenetur",
+        "FullName": "Jacklyn Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldLength": 718
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 51,
-    "ExtraInfo": "aut",
-    "StyleHint": "minus",
-    "FullName": "Muhammad Smitham",
+    "IconHint": "itaque",
+    "ColorBlock": 30,
+    "ExtraInfo": "laborum",
+    "StyleHint": "cupiditate",
+    "FullName": "Dr. Luis Iva Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 326
       }
     }
   }

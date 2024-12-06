@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 915,
-  "Name": "Wunsch-Dickens",
-  "CurrencyId": 864,
-  "EnglishName": "Strosin, Borer and Barton",
+  "CountryId": 229,
+  "Name": "Bailey-Lowe",
+  "CurrencyId": 38,
+  "EnglishName": "Spencer-Moen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Compatible empowering encryption",
-  "OrgNrText": "1015644",
-  "InterAreaPrefix": "dolorem",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "voluptas",
-  "DomainName": "McDermott LLC",
-  "AddressLayoutId": 21,
-  "DomesticAddressLayoutId": 796,
-  "ForeignAddressLayoutId": 980,
-  "Rank": 424,
-  "Tooltip": "qui",
-  "Deleted": true
+  "ImageDescription": "Enhanced bandwidth-monitored product",
+  "OrgNrText": "1103831",
+  "InterAreaPrefix": "excepturi",
+  "DialInPrefix": "quam",
+  "ZipPrefix": "aut",
+  "DomainName": "Wisozk, Anderson and Dibbert",
+  "AddressLayoutId": 923,
+  "DomesticAddressLayoutId": 935,
+  "ForeignAddressLayoutId": 322,
+  "Rank": 817,
+  "Tooltip": "quia",
+  "Deleted": false
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 935,
-  "Name": "Kutch-Kozey",
-  "CurrencyId": 318,
-  "EnglishName": "Stiedemann Inc and Sons",
+  "CountryId": 645,
+  "Name": "Hettinger, Hammes and Kuvalis",
+  "CurrencyId": 164,
+  "EnglishName": "Auer LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized motivating intranet",
-  "OrgNrText": "998253",
-  "InterAreaPrefix": "eius",
-  "DialInPrefix": "dolores",
-  "ZipPrefix": "sed",
-  "DomainName": "Morissette-Oberbrunner",
-  "AddressLayoutId": 49,
-  "DomesticAddressLayoutId": 647,
-  "ForeignAddressLayoutId": 505,
-  "Rank": 806,
-  "Tooltip": "est",
+  "ImageDescription": "User-friendly coherent portal",
+  "OrgNrText": "1372040",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "et",
+  "ZipPrefix": "enim",
+  "DomainName": "Jewess-O'Hara",
+  "AddressLayoutId": 61,
+  "DomesticAddressLayoutId": 64,
+  "ForeignAddressLayoutId": 452,
+  "Rank": 971,
+  "Tooltip": "reiciendis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 784
     }
   }
 }

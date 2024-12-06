@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Okuneva Inc and Sons",
-      "EntityOrParentId": 793,
-      "RequestForNewRecord": true
+      "EntityName": "Muller, Franecki and Beer",
+      "EntityOrParentId": 985,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Okuneva Inc and Sons",
-      "EntityOrParentId": 793,
-      "RequestForNewRecord": true
+      "EntityName": "Muller, Franecki and Beer",
+      "EntityOrParentId": 985,
+      "RequestForNewRecord": false
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 688,
-    "Id": 511,
-    "HistoryName": "Larson-Cummerata",
-    "HistoryId": 77,
-    "AssociateId": 397,
-    "Name": "Willms, Klocko and Bogan",
-    "ItemInfo": "exercitationem",
+    "Rank": 346,
+    "Id": 965,
+    "HistoryName": "Schinner LLC",
+    "HistoryId": 310,
+    "AssociateId": 307,
+    "Name": "Harris, Dickens and Rippin",
+    "ItemInfo": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 421
       }
     }
   }

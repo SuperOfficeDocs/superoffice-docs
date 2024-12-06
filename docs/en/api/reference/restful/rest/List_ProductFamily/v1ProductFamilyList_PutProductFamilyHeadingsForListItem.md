@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Pouros Group",
-    "ToolTip": "Soluta animi repellat hic ullam quisquam.",
+    "Id": 593,
+    "Name": "Gorczany-Toy",
+    "ToolTip": "Sint est ab consequuntur.",
     "Deleted": false,
-    "Rank": 805,
-    "Type": "distinctio",
-    "ColorBlock": 254,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2017-05-13T14:45:13.8023488+02:00",
+    "Rank": 788,
+    "Type": "consequatur",
+    "ColorBlock": 294,
+    "IconHint": "animi",
+    "Selected": true,
+    "LastChanged": "2010-07-07T10:18:01.0824964+02:00",
     "ChildItems": [
       {
-        "Id": 44,
-        "Name": "McKenzie LLC",
-        "ToolTip": "Molestiae ratione.",
+        "Id": 50,
+        "Name": "Kuhn, Mills and Eichmann",
+        "ToolTip": "Error quidem quia itaque eveniet est est sunt.",
         "Deleted": false,
-        "Rank": 182,
-        "Type": "dolorum",
-        "ColorBlock": 654,
-        "IconHint": "enim",
+        "Rank": 381,
+        "Type": "aut",
+        "ColorBlock": 430,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2017-05-07T14:45:13.8023488+02:00",
+        "LastChanged": "2005-05-07T10:18:01.0824964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Prof. Dwight Hintz Sr."
+        "ExtraInfo": "ut",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Golda Bruen"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "eum",
+    "ExtraInfo": "cumque",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Amalia Padberg"
+    "FullName": "Otho Johns"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Koepp, Crona and Metz",
-    "ToolTip": "Sint quo totam inventore voluptatem cupiditate.",
+    "Id": 475,
+    "Name": "Corkery-Fadel",
+    "ToolTip": "Magnam aut doloremque harum ut asperiores a error.",
     "Deleted": false,
-    "Rank": 363,
-    "Type": "a",
-    "ColorBlock": 307,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2002-10-11T14:45:13.8023488+02:00",
+    "Rank": 460,
+    "Type": "et",
+    "ColorBlock": 337,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "1998-11-18T10:18:01.0824964+01:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Torphy-Sawayn",
-        "ToolTip": "Dolorum illum dolorum cum exercitationem ab nesciunt.",
+        "Id": 923,
+        "Name": "Littel-Daugherty",
+        "ToolTip": "Voluptas soluta.",
         "Deleted": false,
-        "Rank": 526,
-        "Type": "eum",
-        "ColorBlock": 709,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "1999-06-22T14:45:13.8023488+02:00",
+        "Rank": 58,
+        "Type": "iste",
+        "ColorBlock": 105,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2015-10-19T10:18:01.0824964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "magni",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Miss Irving Henderson Watsica II",
+        "FullName": "Cassandra Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 597
+            "FieldType": "System.Int32",
+            "FieldLength": 162
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Ms. Natasha Bryon Dietrich",
+    "ExtraInfo": "hic",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Prof. Leon Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 651
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 305,
-  "DocumentId": 97,
+  "SelectionId": 218,
+  "DocumentId": 791,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "id",
-  "AlwaysUseCustomAttention": true,
-  "SaveDocument": false,
-  "CustomMailBody": "et",
+  "CustomAttention": "nemo",
+  "AlwaysUseCustomAttention": false,
+  "SaveDocument": true,
+  "CustomMailBody": "est",
   "TaskEntity": null,
-  "AddCompanyInterest": 114,
-  "AddPersonInterest": 776,
-  "RemoveCompanyInterest": 162,
-  "RemovePersonInterest": 625,
+  "AddCompanyInterest": 911,
+  "AddPersonInterest": 21,
+  "RemoveCompanyInterest": 254,
+  "RemovePersonInterest": 279,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": false,
-  "ProjectId": 829,
+  "TestOnly": true,
+  "ProjectId": 367,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "ut",
-  "ExtraInfo": "qui",
+  "CustomMailSubject": "facilis",
+  "ExtraInfo": "provident",
   "Synchronous": false,
-  "IsTemporarySelection": false,
+  "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 274
     }
   }
 }

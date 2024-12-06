@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "Name": "Lehner-Barton",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 220,
-  "Rank": 813,
+  "Id": 330,
+  "Name": "Kunze-Gislason",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "UdListDefinitionId": 226,
+  "Rank": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 742
     }
   }
 }

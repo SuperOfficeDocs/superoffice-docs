@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Jul 2012 14:45:12 G7T
+Last-Modified: Sun, 21 Nov 1999 10:18:00 G11T
 
 {
-  "DocumentId": 934,
+  "DocumentId": 847,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "alias",
-  "Header": "cumque",
-  "Name": "Rau LLC",
-  "OurRef": "quisquam",
-  "YourRef": "saepe",
-  "CreatedDate": "2016-09-04T14:45:12.7557065+02:00",
-  "UpdatedDate": "2012-07-23T14:45:12.7557065+02:00",
-  "Description": "Implemented intangible firmware",
+  "Attention": "consequatur",
+  "Header": "doloremque",
+  "Name": "Fisher, Donnelly and Koepp",
+  "OurRef": "repellendus",
+  "YourRef": "voluptate",
+  "CreatedDate": "2019-09-19T10:18:00.3637024+02:00",
+  "UpdatedDate": "1999-11-21T10:18:00.3637024+01:00",
+  "Description": "Customer-focused modular collaboration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-12-27T14:45:12.7557065+01:00",
+  "Date": "2020-11-23T10:18:00.3793283+01:00",
   "ExternalRef": "deleniti",
   "Completed": "Completed",
-  "ActiveLinks": 928,
+  "ActiveLinks": 414,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wisozk-Ruecker",
-      "Id": 453,
-      "Description": "Streamlined assymetric neural-net",
-      "ExtraInfo": "explicabo",
-      "LinkId": 111,
+      "EntityName": "Thiel, Jones and Thiel",
+      "Id": 688,
+      "Description": "Open-architected scalable hierarchy",
+      "ExtraInfo": "sunt",
+      "LinkId": 825,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 952
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 180,
-  "Snum": 473,
+  "SuggestedDocumentId": 247,
+  "Snum": 547,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1055216375",
+    "SuperOffice:2": "Vito Connelly"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "vitae"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "similique"
   },
-  "PublishEventDate": "2023-01-05T14:45:12.7557065+01:00",
-  "PublishTo": "2008-02-01T14:45:12.7557065+01:00",
-  "PublishFrom": "2003-02-05T14:45:12.7557065+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-01-24T10:18:00.3793283+01:00",
+  "PublishTo": "1998-03-09T10:18:00.3793283+01:00",
+  "PublishFrom": "2010-01-25T10:18:00.3793283+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 946,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 946,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 6
         }
       }
     }
@@ -211,7 +211,7 @@ Last-Modified: Mon, 23 Jul 2012 14:45:12 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 772
     }
   },
   "_Links": {

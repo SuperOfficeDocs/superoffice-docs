@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 255,
-  "TopicId": 251,
+  "ChatSessionId": 941,
+  "TopicId": 766,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "ut",
-  "CustomerName": "Crooks LLC",
-  "CustomerEmail": "sophia@wolfwalter.co.uk",
-  "CustomerPhone": "249-942-3835 x13391",
+  "CustomerAlias": "et",
+  "CustomerHost": "ad",
+  "CustomerName": "Bechtelar-Lakin",
+  "CustomerEmail": "cornelius_brown@johns.co.uk",
+  "CustomerPhone": "1-221-454-4851 x51898",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Glover Inc and Sons",
+  "CustomerCompanyName": "Rosenbaum, Kutch and Ratke",
   "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "ut",
-  "WhenRequested": "2019-06-08T14:45:12.5682519+02:00",
-  "WhenStarted": "2015-10-18T14:45:12.5682519+02:00",
-  "WhenEnded": "2012-09-01T14:45:12.5682519+02:00",
-  "WhenIdle": "2010-07-18T14:45:12.5682519+02:00",
-  "WhenFetched": "2012-09-24T14:45:12.5682519+02:00",
-  "SessionKey": "cum",
-  "InitialQueuePos": 437,
-  "AlertLevel": 544,
-  "Rank": 631,
+  "FirstMessage": "eos",
+  "LastMessage": "asperiores",
+  "WhenRequested": "2020-06-23T10:18:00.2386877+02:00",
+  "WhenStarted": "2005-10-25T10:18:00.2386877+02:00",
+  "WhenEnded": "1998-01-23T10:18:00.2386877+01:00",
+  "WhenIdle": "2007-11-05T10:18:00.2386877+01:00",
+  "WhenFetched": "2012-07-11T10:18:00.2386877+02:00",
+  "SessionKey": "maiores",
+  "InitialQueuePos": 115,
+  "AlertLevel": 123,
+  "Rank": 377,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 523,
+  "Rating": 949,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 667
     }
   }
 }

@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 16,
+  "ErpConnectionId": 496,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 434,
-    "DisplayName": "Schamberger Inc and Sons",
-    "DisplayDescription": "Fully-configurable local pricing structure",
+    "FieldKey": "inventore",
+    "Rank": 908,
+    "DisplayName": "O'Hara-Gusikowski",
+    "DisplayDescription": "Virtual 24 hour paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Sipes, Nienow and Mertz",
-    "DefaultValue": "unde",
-    "MaxLength": 316,
+    "ListName": "Pagac-Quitzon",
+    "DefaultValue": "itaque",
+    "MaxLength": 664,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldLength": 80
       }
     }
   }

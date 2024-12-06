@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Wyman LLC",
-      "Operator": "placeat",
+      "Name": "Wiegand LLC",
+      "Operator": "corrupti",
       "Values": [
-        "debitis",
-        "sunt"
+        "impedit",
+        "nesciunt"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "sapiente"
+        "molestias",
+        "vel"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 291,
+      "InterParenthesis": 1000,
       "InterOperator": "And",
-      "UniqueHash": 685
+      "UniqueHash": 931
     }
   ],
   "Columns": [
-    "optio",
-    "sapiente"
+    "rerum",
+    "recusandae"
   ],
-  "ConnectionId": 332,
+  "ConnectionId": 587,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "officiis",
-        "repellendus"
+        "itaque",
+        "vero"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "repudiandae",
+      "ExternalKey": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 484
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Heathcote-Nienow",
-      "DisplayName": "Sawayn-Gislason",
-      "Locked": false,
+      "Name": "Macejkovic LLC",
+      "DisplayName": "Hammes Inc and Sons",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldType": "System.String",
+          "FieldLength": 845
         }
       }
     },
     {
-      "Name": "Heathcote-Nienow",
-      "DisplayName": "Sawayn-Gislason",
-      "Locked": false,
+      "Name": "Macejkovic LLC",
+      "DisplayName": "Hammes Inc and Sons",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldType": "System.String",
+          "FieldLength": 845
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 280
     }
   }
 }

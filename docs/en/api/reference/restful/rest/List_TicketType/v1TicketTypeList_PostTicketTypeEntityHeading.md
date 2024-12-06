@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 85,
-  "Name": "Reinger Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "HeadingId": 217,
+  "Name": "Ward, Rau and Bogan",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 679,
-  "UdListDefinitionId": 515
+  "Rank": 792,
+  "UdListDefinitionId": 266
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 182,
-  "Name": "Reichert-Purdy",
-  "Tooltip": "assumenda",
+  "HeadingId": 687,
+  "Name": "Anderson Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 801,
-  "UdListDefinitionId": 886,
+  "Rank": 918,
+  "UdListDefinitionId": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 104
     }
   }
 }

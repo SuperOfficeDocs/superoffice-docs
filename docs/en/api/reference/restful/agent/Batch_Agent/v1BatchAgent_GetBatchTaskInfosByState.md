@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Buckridge, Stark and Cruickshank",
-    "AssociateId": 989,
-    "DetailsTable": 731,
-    "DetailsRecord": 588,
+    "Id": 157,
+    "Name": "Anderson Inc and Sons",
+    "AssociateId": 588,
+    "DetailsTable": 64,
+    "DetailsRecord": 740,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nam",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "ullam",
+      "ParameterObject2": "consequuntur"
     },
-    "LastStarted": "1999-02-01T14:45:04.8815214+01:00",
-    "Created": "2009-03-24T14:45:04.8815214+01:00",
-    "StartCount": 610,
-    "DatabaseSerialNumber": "1189227",
-    "Context": "ipsum",
-    "Result": "aspernatur",
+    "LastStarted": "2014-05-31T10:17:55.1290102+02:00",
+    "Created": "2010-01-19T10:17:55.1290102+01:00",
+    "StartCount": 398,
+    "DatabaseSerialNumber": "1009761",
+    "Context": "esse",
+    "Result": "dolor",
     "State": "All",
-    "Description": "Synergized fault-tolerant extranet",
-    "Response": "autem",
-    "Request": "est",
-    "ProgressDescription": "Decentralized neutral task-force",
-    "ProgressPercent": 622,
-    "FileName": "Murazik, Ratke and Kilback",
+    "Description": "Configurable contextually-based framework",
+    "Response": "expedita",
+    "Request": "aut",
+    "ProgressDescription": "Expanded motivating flexibility",
+    "ProgressPercent": 651,
+    "FileName": "Ernser-Cole",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

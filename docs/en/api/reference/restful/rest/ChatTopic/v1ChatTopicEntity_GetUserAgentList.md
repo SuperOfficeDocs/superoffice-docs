@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Waelchi-Metz",
-    "ToolTip": "Repudiandae veritatis veniam hic quis.",
+    "Id": 343,
+    "Name": "Moen LLC",
+    "ToolTip": "Beatae ea.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "et",
+    "Rank": 46,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Gleichner-Graham",
-        "ToolTip": "Sit omnis a veritatis consequatur recusandae.",
+        "Id": 281,
+        "Name": "Heller Inc and Sons",
+        "ToolTip": "Sunt facilis tempore similique.",
         "Deleted": false,
-        "Rank": 929,
-        "Type": "quam",
+        "Rank": 154,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 319,
-        "ExtraInfo": "eius",
-        "StyleHint": "nisi",
-        "FullName": "Mrs. Kaitlin Nyah Lebsack V",
+        "IconHint": "nemo",
+        "ColorBlock": 390,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "et",
+        "FullName": "Bell Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 130
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 249,
-    "ExtraInfo": "ut",
-    "StyleHint": "consequuntur",
-    "FullName": "Trent Farrell",
+    "IconHint": "voluptas",
+    "ColorBlock": 201,
+    "ExtraInfo": "et",
+    "StyleHint": "quas",
+    "FullName": "Noelia Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

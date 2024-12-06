@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Davis, Nolan and Turcotte",
-    "ToolTip": "Et facilis maxime temporibus.",
+    "Id": 591,
+    "Name": "Franecki-Leannon",
+    "ToolTip": "Id nostrum iste temporibus.",
     "Deleted": false,
-    "Rank": 759,
-    "Type": "et",
-    "ColorBlock": 526,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2012-10-23T14:45:13.9273199+02:00",
+    "Rank": 16,
+    "Type": "aut",
+    "ColorBlock": 682,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2009-09-11T10:18:01.1606262+02:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Harber Inc and Sons",
-        "ToolTip": "Non aut et.",
+        "Id": 588,
+        "Name": "Harris, Kautzer and Lowe",
+        "ToolTip": "Voluptas officiis sed et ullam sint molestias sint.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "accusantium",
-        "ColorBlock": 220,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "1999-10-01T14:45:13.9273199+02:00",
+        "Rank": 319,
+        "Type": "illum",
+        "ColorBlock": 265,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2013-09-06T10:18:01.1606262+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Maximo Weldon Zulauf MD",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Nikki Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 164
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "eum",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Yadira Adams",
+    "FullName": "Krista Little Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldLength": 39
       }
     }
   }

@@ -73,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Bruen, Keeling and Roob",
+  "CommandName": "Kuvalis, Lehner and Bogan",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,15 +86,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "repellendus",
+  "Success": false,
+  "Message": "qui",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 639
     }
   }
 }

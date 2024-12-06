@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Kuphal, Kirlin and Watsica",
-    "Tooltip": "magni",
+    "HeadingId": 243,
+    "Name": "Jacobson Group",
+    "Tooltip": "corporis",
     "Deleted": true,
-    "Rank": 112,
-    "UdListDefinitionId": 297
+    "Rank": 99,
+    "UdListDefinitionId": 286
   },
   {
-    "HeadingId": 156,
-    "Name": "Kuphal, Kirlin and Watsica",
-    "Tooltip": "magni",
+    "HeadingId": 243,
+    "Name": "Jacobson Group",
+    "Tooltip": "corporis",
     "Deleted": true,
-    "Rank": 112,
-    "UdListDefinitionId": 297
+    "Rank": 99,
+    "UdListDefinitionId": 286
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Cole, Predovic and Grady",
-    "Tooltip": "quidem",
-    "Deleted": true,
-    "Rank": 704,
-    "UdListDefinitionId": 151,
+    "HeadingId": 3,
+    "Name": "Hirthe-Batz",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 112,
+    "UdListDefinitionId": 596,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldLength": 494
       }
     }
   }

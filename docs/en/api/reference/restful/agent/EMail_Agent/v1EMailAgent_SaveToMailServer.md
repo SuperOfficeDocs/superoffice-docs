@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 340,
-      "ContactName": "Dooley-Terry",
-      "PersonId": 762,
-      "PersonName": "Wehner-Haley",
-      "AssociateId": 933,
-      "Address": "deleniti",
-      "EmailId": 904,
+      "ContactId": 598,
+      "ContactName": "Cremin-Klein",
+      "PersonId": 871,
+      "PersonName": "Auer, Welch and Robel",
+      "AssociateId": 663,
+      "Address": "aut",
+      "EmailId": 381,
       "DuplicatePersonIds": [
-        402,
-        730
+        172,
+        573
       ],
-      "Name": "Johns Inc and Sons",
+      "Name": "Paucek-Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 539
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 719,
-      "ContactName": "Heller-Gaylord",
-      "PersonId": 609,
-      "PersonName": "Schamberger-Berge",
-      "AssociateId": 127,
-      "Address": "minima",
-      "EmailId": 220,
+      "ContactId": 549,
+      "ContactName": "Hagenes Inc and Sons",
+      "PersonId": 780,
+      "PersonName": "Zieme LLC",
+      "AssociateId": 307,
+      "Address": "non",
+      "EmailId": 911,
       "DuplicatePersonIds": [
-        234,
-        946
+        855,
+        583
       ],
-      "Name": "Rutherford-Pfannerstill",
+      "Name": "Erdman-Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldType": "System.String",
+          "FieldLength": 134
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 599,
-      "ContactName": "Littel-Reichel",
-      "PersonId": 64,
-      "PersonName": "Kling LLC",
-      "AssociateId": 430,
-      "Address": "possimus",
-      "EmailId": 795,
+      "ContactId": 410,
+      "ContactName": "Ledner-Rau",
+      "PersonId": 424,
+      "PersonName": "Collier LLC",
+      "AssociateId": 610,
+      "Address": "debitis",
+      "EmailId": 373,
       "DuplicatePersonIds": [
-        672,
-        247
+        857,
+        406
       ],
-      "Name": "Kihn Inc and Sons",
+      "Name": "Daugherty Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Subject": "architecto",
-  "HTMLBody": "ut",
+  "Subject": "facilis",
+  "HTMLBody": "accusantium",
   "From": null,
-  "Sent": "1998-02-20T14:45:05.4595178+01:00",
-  "Size": 586,
+  "Sent": "2018-11-26T10:17:55.5352844+01:00",
+  "Size": 836,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "neque",
-  "PlainBody": "quaerat",
+  "MessageID": "quidem",
+  "PlainBody": "dicta",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 391,
+  "ServerId": 217,
   "Attachments": [
     {
-      "Description": "Open-architected logistical function",
-      "Filename": "aut",
-      "Size": 108,
-      "Type": "autem",
-      "Encoding": "ea",
-      "Id": "quia",
-      "Disposition": "quas",
+      "Description": "Progressive well-modulated support",
+      "Filename": "odit",
+      "Size": 919,
+      "Type": "quidem",
+      "Encoding": "nemo",
+      "Id": "eveniet",
+      "Disposition": "nam",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 722
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rempel LLC",
+      "Name": "Prosacco-West",
       "Values": [
-        "culpa",
-        "optio"
+        "et",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldLength": 13
         }
       }
     },
     {
-      "Name": "Rempel LLC",
+      "Name": "Prosacco-West",
       "Values": [
-        "culpa",
-        "optio"
+        "et",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldLength": 13
         }
       }
     }
   ],
-  "FolderName": "Raynor-Murray",
-  "EmailItemId": 641,
-  "AccountId": 384,
-  "ReceivedAt": "2012-02-02T14:45:05.4751404+01:00",
+  "FolderName": "Stamm, Stark and Schowalter",
+  "EmailItemId": 245,
+  "AccountId": 826,
+  "ReceivedAt": "2013-06-29T10:17:55.5352844+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-01-24T14:45:05.4751404+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-12-29T10:17:55.5352844+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 872
     }
   }
 }

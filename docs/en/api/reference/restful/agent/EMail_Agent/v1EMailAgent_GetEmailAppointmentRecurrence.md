@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 691
+  "MailItemId": 1001
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 896,
-  "StartDate": "2002-01-07T14:45:05.5063824+01:00",
-  "EndDate": "2001-02-26T14:45:05.5063824+01:00",
-  "RecurrenceCounter": 801,
+  "RecurrenceId": 106,
+  "StartDate": "2004-10-29T10:17:55.5665368+02:00",
+  "EndDate": "2006-07-22T10:17:55.5665368+02:00",
+  "RecurrenceCounter": 727,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-04-25T14:45:05.5063824+02:00",
-      "IsConflict": true,
-      "Description": "Optional exuding architecture",
-      "DescriptionStyleHint": "Synchronised responsive frame",
-      "Tooltip": "et"
+      "Date": "2003-12-10T10:17:55.5665368+01:00",
+      "IsConflict": false,
+      "Description": "Virtual neutral open architecture",
+      "DescriptionStyleHint": "Virtual empowering firmware",
+      "Tooltip": "eius"
     },
     {
-      "Date": "2001-04-25T14:45:05.5063824+02:00",
-      "IsConflict": true,
-      "Description": "Optional exuding architecture",
-      "DescriptionStyleHint": "Synchronised responsive frame",
-      "Tooltip": "et"
+      "Date": "2003-12-10T10:17:55.5665368+01:00",
+      "IsConflict": false,
+      "Description": "Virtual neutral open architecture",
+      "DescriptionStyleHint": "Virtual empowering firmware",
+      "Tooltip": "eius"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

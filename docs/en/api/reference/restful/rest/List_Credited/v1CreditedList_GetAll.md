@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Marquardt Inc and Sons",
-    "Tooltip": "et",
+    "Id": 103,
+    "Name": "Braun-Klein",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 226,
-    "Rank": 570,
+    "UdListDefinitionId": 100,
+    "Rank": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 548
       }
     }
   }

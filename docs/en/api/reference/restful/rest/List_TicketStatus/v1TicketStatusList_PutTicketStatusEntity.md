@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 535,
-  "Name": "Hermiston Inc and Sons",
+  "TicketStatusId": 555,
+  "Name": "Cremin-Beahan",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 162,
-  "Name": "Hodkiewicz Group",
+  "TicketStatusId": 968,
+  "Name": "Oberbrunner-Kilback",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
-  "IsDefault": true,
-  "UsedInQueue": true,
+  "NoEmailReopen": false,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 123
     }
   }
 }

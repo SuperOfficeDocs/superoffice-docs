@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 956
+  "AssociateId": 408
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque-Metz",
-    "Description": "Digitized radical analyzer",
+    "Name": "Shanahan Inc and Sons",
+    "Description": "Reactive 4th generation product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 421,
-        "Tooltip": "ipsam",
-        "CanAssign": false,
-        "Free": 407,
-        "InUse": 398,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 842,
-        "Name": "Fritsch, Crooks and Gutmann",
-        "Description": "Total contextually-based moratorium",
-        "PrerequisiteModuleName": "Leannon, Corwin and Pfannerstill",
-        "SortOrder": 659,
-        "ExtraFlags": 436,
+        "Unrestricted": true,
+        "Total": 777,
+        "Tooltip": "rerum",
+        "CanAssign": true,
+        "Free": 471,
+        "InUse": 761,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 466,
+        "Name": "Becker-Dicki",
+        "Description": "Cloned local benchmark",
+        "PrerequisiteModuleName": "Lueilwitz-Lynch",
+        "SortOrder": 541,
+        "ExtraFlags": 9,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldLength": 432
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 638,
-        "Tooltip": "nihil",
-        "CanAssign": true,
-        "Free": 287,
-        "InUse": 963,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 465,
-        "Name": "Steuber Group",
-        "Description": "Re-contextualized systemic middleware",
-        "PrerequisiteModuleName": "Cartwright, Balistreri and Kirlin",
-        "SortOrder": 877,
-        "ExtraFlags": 489,
+        "Total": 68,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 794,
+        "InUse": 271,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 915,
+        "Name": "Abshire-Hudson",
+        "Description": "Up-sized bandwidth-monitored pricing structure",
+        "PrerequisiteModuleName": "Rodriguez Group",
+        "SortOrder": 460,
+        "ExtraFlags": 10,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldType": "System.String",
+            "FieldLength": 226
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 449
       }
     }
   },
   {
-    "Name": "DuBuque-Metz",
-    "Description": "Digitized radical analyzer",
+    "Name": "Shanahan Inc and Sons",
+    "Description": "Reactive 4th generation product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 421,
-        "Tooltip": "ipsam",
-        "CanAssign": false,
-        "Free": 407,
-        "InUse": 398,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 842,
-        "Name": "Fritsch, Crooks and Gutmann",
-        "Description": "Total contextually-based moratorium",
-        "PrerequisiteModuleName": "Leannon, Corwin and Pfannerstill",
-        "SortOrder": 659,
-        "ExtraFlags": 436,
+        "Unrestricted": true,
+        "Total": 777,
+        "Tooltip": "rerum",
+        "CanAssign": true,
+        "Free": 471,
+        "InUse": 761,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 466,
+        "Name": "Becker-Dicki",
+        "Description": "Cloned local benchmark",
+        "PrerequisiteModuleName": "Lueilwitz-Lynch",
+        "SortOrder": 541,
+        "ExtraFlags": 9,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldLength": 432
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 638,
-        "Tooltip": "nihil",
-        "CanAssign": true,
-        "Free": 287,
-        "InUse": 963,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 465,
-        "Name": "Steuber Group",
-        "Description": "Re-contextualized systemic middleware",
-        "PrerequisiteModuleName": "Cartwright, Balistreri and Kirlin",
-        "SortOrder": 877,
-        "ExtraFlags": 489,
+        "Total": 68,
+        "Tooltip": "est",
+        "CanAssign": false,
+        "Free": 794,
+        "InUse": 271,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 915,
+        "Name": "Abshire-Hudson",
+        "Description": "Up-sized bandwidth-monitored pricing structure",
+        "PrerequisiteModuleName": "Rodriguez Group",
+        "SortOrder": 460,
+        "ExtraFlags": 10,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldType": "System.String",
+            "FieldLength": 226
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 449
       }
     }
   }

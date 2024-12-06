@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Runolfsdottir Inc and Sons",
-  "Tooltip": "earum",
+  "Id": 684,
+  "Name": "Franecki Group",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 98,
+  "Rank": 322,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ea",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Heller Inc and Sons",
-  "Tooltip": "esse",
+  "Id": 595,
+  "Name": "Tromp, Denesik and Von",
+  "Tooltip": "natus",
   "Deleted": true,
-  "Rank": 835,
+  "Rank": 925,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldType": "System.String",
+      "FieldLength": 478
     }
   }
 }

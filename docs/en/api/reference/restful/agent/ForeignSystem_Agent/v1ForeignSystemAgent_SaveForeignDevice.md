@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Mayert, Cruickshank and Ziemann"
+  "ApplicationName": "Wilkinson Inc and Sons"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 241,
-  "Name": "Daugherty-Simonis",
-  "CreatedDate": "2019-03-10T14:45:05.6469762+01:00",
-  "UpdatedDate": "2009-02-05T14:45:05.6469762+01:00",
-  "AssociateFullName": "Demarco Bins",
-  "CreatedBy": "sed",
-  "UpdatedBy": "accusamus",
-  "DeviceIdentifier": "voluptas",
-  "ForeignAppId": 723,
+  "ForeignDeviceId": 434,
+  "Name": "Leuschke-Schneider",
+  "CreatedDate": "2021-01-10T10:17:55.660285+01:00",
+  "UpdatedDate": "2006-05-22T10:17:55.660285+02:00",
+  "AssociateFullName": "Jan Fleta Upton Jr.",
+  "CreatedBy": "autem",
+  "UpdatedBy": "fugiat",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

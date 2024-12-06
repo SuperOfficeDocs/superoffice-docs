@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "fuga",
-    "omnis"
+    "consequuntur",
+    "harum"
   ],
-  "Comment": "culpa",
-  "Sequence": 971,
-  "DtStart": "2019-09-19T14:45:05.5220031+02:00",
-  "DtEnd": "2020-08-06T14:45:05.5220031+02:00",
+  "Comment": "illum",
+  "Sequence": 846,
+  "DtStart": "1998-01-03T10:17:55.5821627+01:00",
+  "DtEnd": "1999-09-19T10:17:55.5821627+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

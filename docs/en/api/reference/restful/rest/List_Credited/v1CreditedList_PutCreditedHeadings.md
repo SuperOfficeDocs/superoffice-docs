@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 391,
-    "Name": "Heaney Inc and Sons",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 352,
-    "UdListDefinitionId": 455
+    "HeadingId": 539,
+    "Name": "Stoltenberg Inc and Sons",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 491,
+    "UdListDefinitionId": 508
   },
   {
-    "HeadingId": 391,
-    "Name": "Heaney Inc and Sons",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 352,
-    "UdListDefinitionId": 455
+    "HeadingId": 539,
+    "Name": "Stoltenberg Inc and Sons",
+    "Tooltip": "iste",
+    "Deleted": false,
+    "Rank": 491,
+    "UdListDefinitionId": 508
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Labadie, Schumm and Lehner",
-    "Tooltip": "quas",
+    "HeadingId": 983,
+    "Name": "Donnelly, Emard and Daniel",
+    "Tooltip": "ad",
     "Deleted": true,
-    "Rank": 264,
-    "UdListDefinitionId": 928,
+    "Rank": 259,
+    "UdListDefinitionId": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

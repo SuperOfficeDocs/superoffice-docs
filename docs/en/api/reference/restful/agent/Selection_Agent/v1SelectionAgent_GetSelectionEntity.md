@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=91
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=11
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless tangible capability",
-  "Postit": "vel",
+  "Description": "Face to face neutral contingency",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 231,
-  "IncludePerson": 390,
+  "GroupIdx": 688,
+  "IncludePerson": 538,
   "MemberCount": 99.99,
-  "Name": "Nicolas, Maggio and Kunde",
+  "Name": "Jacobi, Miller and Lynch",
   "PostitTextId": 507,
-  "CreatedDate": "2022-05-07T14:45:06.2093526+02:00",
-  "SelectionId": 664,
-  "SoundEx": "eos",
-  "Source": 218,
-  "TextId": 168,
-  "UpdatedDate": "2002-12-25T14:45:06.2093526+01:00",
-  "UpdatedCount": 218,
-  "Visibility": 393,
+  "CreatedDate": "2022-11-12T10:17:56.0196892+01:00",
+  "SelectionId": 86,
+  "SoundEx": "molestiae",
+  "Source": 166,
+  "TextId": 571,
+  "UpdatedDate": "2006-10-24T10:17:56.0196892+02:00",
+  "UpdatedCount": 904,
+  "Visibility": 953,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 568,
-  "TargetTableName": "Jones, Nikolaus and Treutel",
-  "Completed": true,
-  "LeftSelectionId": 383,
-  "RightSelectionId": 486,
+  "CompanyUnique": false,
+  "TargetTableNumber": 22,
+  "TargetTableName": "Bauch, Yundt and Nicolas",
+  "Completed": false,
+  "LeftSelectionId": 303,
+  "RightSelectionId": 187,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bernier Group",
-  "ShadowProviderName": "Weimann-Cruickshank",
-  "ChartKey": "sequi",
-  "LastLoaded": "2007-07-28T14:45:06.2093526+02:00",
-  "LastLoadedBy": 225,
+  "MainProviderName": "Ruecker Group",
+  "ShadowProviderName": "Boyer-Kohler",
+  "ChartKey": "in",
+  "LastLoaded": "2001-03-02T10:17:56.0196892+01:00",
+  "LastLoadedBy": 287,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-06T14:45:06.2093526+02:00",
-  "LastMembershipChangeBy": 183,
+  "LastMembershipChange": "2012-01-16T10:17:56.0196892+01:00",
+  "LastMembershipChangeBy": 498,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eveniet",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Kuvalis-Kertzmann",
-  "DashboardTileDefinitionId": 794,
+  "MainHeading": "expedita",
+  "MemberTabHeading": "necessitatibus",
+  "MailingsProviderName": "Pouros, Fadel and Parker",
+  "DashboardTileDefinitionId": 730,
   "VisibleFor": [
     {
-      "VisibleId": 887,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 750
         }
       }
     },
     {
-      "VisibleId": 887,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 750
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

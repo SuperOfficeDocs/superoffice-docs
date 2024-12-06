@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sunt",
-  "PluginId": 434
+  "LanguageCode": "quia",
+  "PluginId": 300
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 84,
-  "Name": "Kulas-Adams",
+  "DocumentTemplateId": 918,
+  "Name": "Sauer LLC",
   "Tooltip": "omnis",
-  "SaveInDb": 318,
-  "Filename": "error",
-  "DefaultOref": "facere",
+  "SaveInDb": 569,
+  "Filename": "eius",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 711,
-  "IntentId": 763,
+  "AutoeventId": 601,
+  "IntentId": 718,
   "IsDefaultPublished": false,
-  "Rank": 613,
-  "LoadTemplateFromPlugin": 887,
-  "MimeType": "sequi",
+  "Rank": 804,
+  "LoadTemplateFromPlugin": 997,
+  "MimeType": "porro",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 339,
+  "DocumentTypeKey": 204,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "trevion@roob.name",
+  "EmailSubject": "kristofer.heidenreich@cristlindgren.ca",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jesse@morissette.biz",
+  "SenderEmailAddress": "monserrate@jenkins.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 809,
-  "Name": "Jerde Inc and Sons",
-  "CreatedDate": "2024-10-12T14:45:12.8338163+02:00",
-  "UpdatedDate": "1999-03-22T14:45:12.8338163+01:00",
-  "AssociateFullName": "Leila Kreiger",
-  "CreatedBy": "et",
-  "UpdatedBy": "id",
-  "DeviceIdentifier": "reprehenderit",
-  "ForeignAppId": 171
+  "ForeignDeviceId": 238,
+  "Name": "Buckridge, Parker and Kohler",
+  "CreatedDate": "2014-12-15T10:18:00.4262067+01:00",
+  "UpdatedDate": "2016-11-13T10:18:00.4262067+01:00",
+  "AssociateFullName": "Mrs. Beverly Nolan",
+  "CreatedBy": "commodi",
+  "UpdatedBy": "officia",
+  "DeviceIdentifier": "aut",
+  "ForeignAppId": 730
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 33,
-  "Name": "Bailey, Crooks and Christiansen",
-  "CreatedDate": "2004-10-09T14:45:12.8338163+02:00",
-  "UpdatedDate": "2007-11-23T14:45:12.8338163+01:00",
-  "AssociateFullName": "Magali Zboncak",
-  "CreatedBy": "eius",
-  "UpdatedBy": "temporibus",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 679,
+  "ForeignDeviceId": 382,
+  "Name": "Kozey-Jacobson",
+  "CreatedDate": "2018-06-19T10:18:00.4262067+02:00",
+  "UpdatedDate": "2006-12-12T10:18:00.4262067+01:00",
+  "AssociateFullName": "Prof. David Melyssa Bergnaum",
+  "CreatedBy": "corrupti",
+  "UpdatedBy": "dolores",
+  "DeviceIdentifier": "perferendis",
+  "ForeignAppId": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 917
     }
   }
 }

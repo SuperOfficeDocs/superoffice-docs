@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "est",
+      "RawValue": "non",
       "Specification": null,
-      "DisplayValue": "exercitationem",
-      "DisplayTooltip": "officia",
+      "DisplayValue": "perferendis",
+      "DisplayTooltip": "beatae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 394,
-      "PrefDescId": 274,
-      "TableName": "Hoeger, Hammes and Wilderman",
-      "UserPreferenceId": 972
+      "TargetId": 495,
+      "PrefDescId": 730,
+      "TableName": "Stark-Johnston",
+      "UserPreferenceId": 191
     }
   ]
 }

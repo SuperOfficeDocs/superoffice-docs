@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(597)060-9325 x725",
-    "PersonCellPhone": "069-605-3295 x7131",
-    "PersonPrivatePhone": "1-666-216-9486",
-    "PersonFaxNumber": "777853",
-    "PersonPagerNumber": "888973",
-    "PersonEmail": "joanne@rathschamberger.ca",
-    "Id": 177,
-    "Name": "Rempel, Ritchie and Torp",
-    "Tooltip": "aut",
-    "UniqueId": "dolor",
+    "PersonDirectPhone": "813.864.8149 x15399",
+    "PersonCellPhone": "012-585-1067 x210",
+    "PersonPrivatePhone": "188-978-3896",
+    "PersonFaxNumber": "1908924",
+    "PersonPagerNumber": "824234",
+    "PersonEmail": "alize@terryjacobs.co.uk",
+    "Id": 652,
+    "Name": "Hartmann, Hartmann and Davis",
+    "Tooltip": "dolore",
+    "UniqueId": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldLength": 241
       }
     }
   }

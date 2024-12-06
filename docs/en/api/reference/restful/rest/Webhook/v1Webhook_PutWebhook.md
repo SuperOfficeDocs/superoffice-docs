@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 781,
-  "Name": "Dibbert Group",
+  "WebhookId": 475,
+  "Name": "Lemke Inc and Sons",
   "Events": [
-    "sed",
-    "rerum"
+    "fugiat",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "non",
+  "Secret": "soluta",
   "State": "Active",
-  "Type": "veniam",
+  "Type": "est",
   "Headers": {
-    "Headers1": "officia",
-    "Headers2": "ut"
+    "Headers1": "maxime",
+    "Headers2": "tenetur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2011-03-07T14:45:13.5367829+01:00",
+  "Registered": "1999-04-10T10:18:00.910611+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-01-09T14:45:13.5367829+01:00",
+  "Updated": "2002-06-03T10:18:00.910611+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "celine.schmidt@kassulke.biz"
+  "ErrorsEmail": "garfield.mcclure@streich.us"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 230,
-  "Name": "Lang Group",
+  "WebhookId": 417,
+  "Name": "Beahan, Swift and Gleason",
   "Events": [
-    "et",
-    "dolores"
+    "alias",
+    "eius"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "recusandae",
+  "Secret": "numquam",
   "State": "Active",
-  "Type": "libero",
+  "Type": "vitae",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "eum"
+    "Headers1": "rerum",
+    "Headers2": "earum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-05-16T14:45:13.5367829+02:00",
+  "Registered": "2000-08-18T10:18:00.910611+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-03-17T14:45:13.5367829+01:00",
+  "Updated": "2024-07-08T10:18:00.910611+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "lilly@connellywillms.co.uk",
+  "ErrorsEmail": "dashawn_kohler@russeldurgan.ca",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

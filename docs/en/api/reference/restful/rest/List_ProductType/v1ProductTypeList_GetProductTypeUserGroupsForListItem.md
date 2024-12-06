@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Price Group",
-    "ToolTip": "Ad pariatur recusandae quia aut.",
-    "Deleted": true,
-    "Rank": 144,
-    "Type": "enim",
-    "ColorBlock": 296,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2021-09-03T14:45:13.8179422+02:00",
+    "Id": 42,
+    "Name": "Fadel LLC",
+    "ToolTip": "Molestiae soluta.",
+    "Deleted": false,
+    "Rank": 43,
+    "Type": "laudantium",
+    "ColorBlock": 276,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2003-08-29T10:18:01.0981224+02:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Weissnat-Rohan",
-        "ToolTip": "Adipisci aliquid amet.",
-        "Deleted": true,
-        "Rank": 407,
-        "Type": "voluptatem",
-        "ColorBlock": 801,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2003-09-20T14:45:13.8179422+02:00",
+        "Id": 928,
+        "Name": "Torp, Krajcik and Conroy",
+        "ToolTip": "Qui ducimus aut.",
+        "Deleted": false,
+        "Rank": 304,
+        "Type": "dolorem",
+        "ColorBlock": 89,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2013-05-19T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Ms. Houston Marco Homenick III",
+        "ExtraInfo": "in",
+        "StyleHint": "quod",
+        "Hidden": false,
+        "FullName": "Anissa Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Diego Noemy Reinger DDS",
+    "ExtraInfo": "corporis",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Mrs. Christopher Monahan DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 550
       }
     }
   }

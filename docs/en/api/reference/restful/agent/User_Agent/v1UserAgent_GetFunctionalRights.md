@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 610
+  "RoleId": 381
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Braun Group",
-    "ToolTip": "Officiis architecto id deserunt perspiciatis totam quia.",
-    "Deleted": false,
-    "Rank": 86,
-    "Type": "voluptatum",
-    "ColorBlock": 644,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2021-11-24T14:45:06.6467545+01:00",
+    "Id": 381,
+    "Name": "Jakubowski-Rolfson",
+    "ToolTip": "Qui labore ex.",
+    "Deleted": true,
+    "Rank": 288,
+    "Type": "qui",
+    "ColorBlock": 470,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2014-06-15T10:17:56.3322071+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Waelchi Group",
-        "ToolTip": "Iure ut in quis pariatur dolores suscipit accusantium.",
-        "Deleted": true,
-        "Rank": 379,
-        "Type": "omnis",
-        "ColorBlock": 6,
-        "IconHint": "explicabo",
+        "Id": 945,
+        "Name": "Champlin-Sporer",
+        "ToolTip": "Dolores expedita est.",
+        "Deleted": false,
+        "Rank": 907,
+        "Type": "rem",
+        "ColorBlock": 622,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2001-03-22T14:45:06.6467545+01:00",
+        "LastChanged": "1998-07-18T10:17:56.3322071+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "modi",
-        "Hidden": true,
-        "FullName": "Garret Ernser V",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Jada Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 66
+            "FieldLength": 771
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Mustafa Swift",
+    "ExtraInfo": "ab",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mireya Virgil Kuhic II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 337
       }
     }
   }

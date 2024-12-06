@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Kozey-Wiegand"
+  "FileName": "Pouros, Feil and Howell"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 273,
-      "ContactName": "O'Hara Inc and Sons",
-      "PersonId": 807,
-      "PersonName": "Jacobson-Braun",
-      "AssociateId": 620,
-      "Address": "quae",
-      "EmailId": 994,
+      "ContactId": 516,
+      "ContactName": "Walker, Howell and Abbott",
+      "PersonId": 962,
+      "PersonName": "Durgan-Hand",
+      "AssociateId": 866,
+      "Address": "sit",
+      "EmailId": 356,
       "DuplicatePersonIds": [
-        558,
-        647
+        263,
+        557
       ],
-      "Name": "Schmidt-Rohan",
+      "Name": "Hackett, Labadie and Gulgowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldLength": 832
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 24,
-      "ContactName": "Kovacek LLC",
-      "PersonId": 98,
-      "PersonName": "Langworth Inc and Sons",
-      "AssociateId": 220,
-      "Address": "sed",
-      "EmailId": 974,
+      "ContactId": 421,
+      "ContactName": "Mann LLC",
+      "PersonId": 527,
+      "PersonName": "Shanahan-Hegmann",
+      "AssociateId": 481,
+      "Address": "omnis",
+      "EmailId": 546,
       "DuplicatePersonIds": [
-        122,
-        548
+        690,
+        878
       ],
-      "Name": "Russel, Crona and Langworth",
+      "Name": "Ledner Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 461,
-      "ContactName": "Becker-O'Kon",
-      "PersonId": 566,
-      "PersonName": "Blanda, Breitenberg and Dickinson",
-      "AssociateId": 946,
-      "Address": "odit",
-      "EmailId": 741,
+      "ContactId": 125,
+      "ContactName": "Kohler Group",
+      "PersonId": 708,
+      "PersonName": "Boehm-Fritsch",
+      "AssociateId": 514,
+      "Address": "quo",
+      "EmailId": 356,
       "DuplicatePersonIds": [
-        248,
+        185,
         117
       ],
-      "Name": "Rippin, Torphy and Morissette",
+      "Name": "Osinski-Hickle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 221
         }
       }
     }
   ],
-  "Subject": "optio",
-  "HTMLBody": "nesciunt",
+  "Subject": "inventore",
+  "HTMLBody": "harum",
   "From": null,
-  "Sent": "2018-01-14T14:45:05.568868+01:00",
-  "Size": 575,
+  "Sent": "2008-10-03T10:17:55.6134076+02:00",
+  "Size": 65,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quas",
-  "PlainBody": "est",
+  "MessageID": "perspiciatis",
+  "PlainBody": "laborum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 383,
+  "ServerId": 109,
   "Attachments": [
     {
-      "Description": "Front-line web-enabled protocol",
-      "Filename": "aut",
-      "Size": 907,
-      "Type": "ut",
+      "Description": "Reactive demand-driven concept",
+      "Filename": "assumenda",
+      "Size": 778,
+      "Type": "tenetur",
       "Encoding": "ut",
-      "Id": "nisi",
-      "Disposition": "ab",
-      "IsSafeFileExtension": true,
+      "Id": "et",
+      "Disposition": "eos",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 271
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hahn Inc and Sons",
+      "Name": "Hagenes-Gottlieb",
       "Values": [
-        "exercitationem",
-        "eveniet"
+        "maxime",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 911
         }
       }
     },
     {
-      "Name": "Hahn Inc and Sons",
+      "Name": "Hagenes-Gottlieb",
       "Values": [
-        "exercitationem",
-        "eveniet"
+        "maxime",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 911
         }
       }
     }
   ],
-  "FolderName": "Legros-Monahan",
-  "EmailItemId": 477,
-  "AccountId": 451,
-  "ReceivedAt": "2022-05-05T14:45:05.5844912+02:00",
+  "FolderName": "Pagac, Rosenbaum and Hoeger",
+  "EmailItemId": 410,
+  "AccountId": 312,
+  "ReceivedAt": "1999-09-18T10:17:55.6134076+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-06-24T14:45:05.5844912+02:00",
+  "RepliedAt": "2014-11-09T10:17:55.6134076+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 630
     }
   }
 }

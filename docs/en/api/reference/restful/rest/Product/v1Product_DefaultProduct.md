@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 727,
-  "ERPProductKey": "facere",
-  "ERPPriceListKey": "odit",
-  "Name": "Cremin, Carroll and Grady",
-  "Description": "Configurable needs-based alliance",
-  "Code": "impedit",
-  "PriceUnit": "rem",
-  "QuantityUnit": "eius",
-  "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 2494.6639999999998,
-  "ItemNumber": "755871",
+  "ProductId": 79,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "magnam",
+  "Name": "Kuphal Group",
+  "Description": "Intuitive leading edge data-warehouse",
+  "Code": "et",
+  "PriceUnit": "molestiae",
+  "QuantityUnit": "dolor",
+  "IsSubscription": true,
+  "SubscriptionUnit": "voluptatibus",
+  "DefaultSubscriptionQuantity": 8828.478,
+  "ItemNumber": "1105649",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "voluptas",
-  "VAT": 20405.474,
-  "VATInfo": "numquam",
-  "UnitCost": 4707.268,
-  "UnitMinimumPrice": 25457.482,
-  "UnitListPrice": 13015.502,
+  "ProductFamilyKey": "ducimus",
+  "ProductTypeKey": "reiciendis",
+  "VAT": 26018.468,
+  "VATInfo": "et",
+  "UnitCost": 9207.692,
+  "UnitMinimumPrice": 4205.8279999999995,
+  "UnitListPrice": 11066.154,
   "InAssortment": true,
-  "Supplier": "quae",
-  "SupplierCode": "est",
-  "Rights": "officiis",
-  "Rule": "et",
+  "Supplier": "eos",
+  "SupplierCode": "dolores",
+  "Rights": "est",
+  "Rule": "pariatur",
   "ExtraInfo": [
     {
-      "Name": "Skiles-Simonis",
-      "Value": "quia",
+      "Name": "Bogan, Hilll and Buckridge",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 351
         }
       }
     },
     {
-      "Name": "Skiles-Simonis",
-      "Value": "quia",
+      "Name": "Bogan, Hilll and Buckridge",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 351
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "eveniet",
-  "ExtraField2": "esse",
-  "ExtraField3": "iusto",
-  "ExtraField4": "quo",
-  "ExtraField5": "amet",
-  "InStock": 24934.104,
+  "RawExtraInfo": "ipsam",
+  "ExtraField1": "natus",
+  "ExtraField2": "molestias",
+  "ExtraField3": "quisquam",
+  "ExtraField4": "aliquid",
+  "ExtraField5": "exercitationem",
+  "InStock": 21035.408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldLength": 276
     }
   }
 }

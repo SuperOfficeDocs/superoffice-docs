@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Auer, Turner and Mayert"
+  "Name": "Gleason Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Jaskolski LLC",
-    "SoPrimaryKey": 317,
-    "EntryName": "Emard-Reichert",
-    "EntryIdentifier": "velit",
-    "RuleDisplayName": "Murphy, Rodriguez and Harber",
+    "RuleName": "Wintheiser, Hahn and Adams",
+    "SoPrimaryKey": 399,
+    "EntryName": "Boyer LLC",
+    "EntryIdentifier": "aut",
+    "RuleDisplayName": "Bartoletti Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 168
       }
     }
   }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Value": "et",
-    "Tooltip": "sequi",
+    "Id": 712,
+    "Value": "molestiae",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   },
   {
-    "Id": 619,
-    "Value": "et",
-    "Tooltip": "sequi",
+    "Id": 712,
+    "Value": "molestiae",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

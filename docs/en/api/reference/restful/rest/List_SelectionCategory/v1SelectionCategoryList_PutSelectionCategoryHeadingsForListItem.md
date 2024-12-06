@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Donnelly LLC",
-    "ToolTip": "Fugiat voluptatem provident iste explicabo quibusdam officiis.",
+    "Id": 590,
+    "Name": "Hilpert-Mills",
+    "ToolTip": "Rerum veritatis.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "consectetur",
-    "ColorBlock": 565,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2014-10-27T14:45:13.9429422+01:00",
+    "Rank": 756,
+    "Type": "omnis",
+    "ColorBlock": 658,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2019-03-10T10:18:01.1762521+01:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Ernser, Altenwerth and Beier",
-        "ToolTip": "Sit rerum deleniti sit non dicta nostrum aut.",
+        "Id": 364,
+        "Name": "Littel, Haag and Wilkinson",
+        "ToolTip": "Hic minus voluptatem.",
         "Deleted": true,
-        "Rank": 608,
-        "Type": "dolore",
-        "ColorBlock": 822,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2005-05-21T14:45:13.9429422+02:00",
+        "Rank": 529,
+        "Type": "optio",
+        "ColorBlock": 986,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2018-01-27T10:18:01.1762521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Mallory Powlowski"
+        "FullName": "Karolann Bailey"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "labore",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Katelynn Grimes"
+    "FullName": "Arjun Jewess"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Flatley LLC",
-    "ToolTip": "Fugiat consequatur placeat ut consequuntur.",
+    "Id": 793,
+    "Name": "Wuckert-Mitchell",
+    "ToolTip": "Repellendus recusandae aut ut iure tempora.",
     "Deleted": true,
-    "Rank": 994,
-    "Type": "qui",
-    "ColorBlock": 975,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2013-02-23T14:45:13.9429422+01:00",
+    "Rank": 223,
+    "Type": "ullam",
+    "ColorBlock": 175,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2003-05-05T10:18:01.1762521+02:00",
     "ChildItems": [
       {
-        "Id": 3,
-        "Name": "Kuvalis-Kovacek",
-        "ToolTip": "Quibusdam voluptas ratione saepe qui.",
-        "Deleted": false,
-        "Rank": 693,
-        "Type": "suscipit",
-        "ColorBlock": 172,
-        "IconHint": "labore",
-        "Selected": false,
-        "LastChanged": "1998-04-28T14:45:13.9429422+02:00",
+        "Id": 224,
+        "Name": "Okuneva Inc and Sons",
+        "ToolTip": "Quia dolor architecto eum dignissimos nemo.",
+        "Deleted": true,
+        "Rank": 446,
+        "Type": "iusto",
+        "ColorBlock": 523,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2014-11-22T10:18:01.1762521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "sit",
+        "StyleHint": "suscipit",
         "Hidden": true,
-        "FullName": "Darrell Schneider",
+        "FullName": "Alek Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 917
+            "FieldLength": 981
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "velit",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Prof. Lottie Korbin Bartoletti",
+    "FullName": "Alexander Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 889
       }
     }
   }

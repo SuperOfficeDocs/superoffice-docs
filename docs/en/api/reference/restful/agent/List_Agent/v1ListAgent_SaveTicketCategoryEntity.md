@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 30,
-  "ParentId": 49,
-  "Name": "Sporer LLC",
-  "Fullname": "dolor",
-  "CategoryMaster": 596,
+  "TicketCategoryId": 533,
+  "ParentId": 436,
+  "Name": "Beatty LLC",
+  "Fullname": "et",
+  "CategoryMaster": 111,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Herman-Ledner",
+  "ExternalName": "Turcotte Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 8,
-  "ReplyTemplate": 852,
-  "NotificationEmail": "ole_klocko@bailey.biz",
+  "AssignmentLag": 240,
+  "ReplyTemplate": 866,
+  "NotificationEmail": "colin@reynoldsgleichner.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 543,
+  "EffectiveReplyTemplateId": 255,
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "at"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 549,
-  "ParentId": 545,
-  "Name": "Kling-Herzog",
-  "Fullname": "nesciunt",
-  "CategoryMaster": 500,
+  "TicketCategoryId": 738,
+  "ParentId": 39,
+  "Name": "Blanda LLC",
+  "Fullname": "et",
+  "CategoryMaster": 548,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fay-Beier",
+  "ExternalName": "Stanton Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 314,
-  "ReplyTemplate": 596,
-  "NotificationEmail": "jamir.willms@upton.ca",
+  "AssignmentLag": 367,
+  "ReplyTemplate": 458,
+  "NotificationEmail": "golden.upton@rath.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 750,
+  "EffectiveReplyTemplateId": 951,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "in"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
+    "CustomFields1": "occaecati",
     "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

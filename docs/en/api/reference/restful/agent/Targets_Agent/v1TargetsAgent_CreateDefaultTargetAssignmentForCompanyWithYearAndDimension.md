@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 636,
-  "TargetDimensionId": 988
+  "Year": 354,
+  "TargetDimensionId": 533
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 754,
+    "TargetAssignmentInfoId": 421,
     "Values": [
-      687,
-      915
+      8,
+      782
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 70,
-    "DimensionListItemDisplayName": "Keeling Inc and Sons",
+    "DimensionListItem": 785,
+    "DimensionListItemDisplayName": "Mann-Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

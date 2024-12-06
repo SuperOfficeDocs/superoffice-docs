@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmitt, Orn and Cartwright"
+  "Name": "Nader Group"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Friesen, Haley and Crooks",
-    "ToolTip": "Quibusdam et molestiae odit quis odio.",
-    "Deleted": false,
-    "Rank": 35,
-    "Type": "ab",
-    "ColorBlock": 626,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2001-07-15T14:45:05.8031904+02:00",
+    "Id": 101,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "Alias id.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "modi",
+    "ColorBlock": 615,
+    "IconHint": "iste",
+    "Selected": true,
+    "LastChanged": "2016-03-13T10:17:55.7540473+01:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Schneider-Nader",
-        "ToolTip": "Sequi et dolor quod dicta maxime et hic.",
-        "Deleted": true,
-        "Rank": 15,
-        "Type": "eos",
-        "ColorBlock": 67,
-        "IconHint": "porro",
-        "Selected": false,
-        "LastChanged": "2009-09-25T14:45:05.8031904+02:00",
+        "Id": 7,
+        "Name": "McClure, Lueilwitz and Simonis",
+        "ToolTip": "Ut aut error quis molestiae sit eveniet quod.",
+        "Deleted": false,
+        "Rank": 446,
+        "Type": "dignissimos",
+        "ColorBlock": 47,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2015-06-07T10:17:55.7540473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Macie Paucek",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Dexter Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 509
+            "FieldType": "System.Int32",
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "modi",
+    "ExtraInfo": "qui",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Prof. Nils King",
+    "FullName": "Mrs. Pansy Belle Lakin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldType": "System.String",
+        "FieldLength": 380
       }
     }
   }

@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 194,
-  "Name": "Reilly, Feil and Heller",
-  "ConsentText": "totam",
-  "FormText": "ullam",
-  "Key": "aliquid",
-  "Tooltip": "voluptatem",
-  "Active": 691,
-  "UpdatedDate": "2016-08-03T14:45:13.6148917+02:00",
+  "ConsentPurposeId": 11,
+  "Name": "Eichmann-Waters",
+  "ConsentText": "qui",
+  "FormText": "ut",
+  "Key": "omnis",
+  "Tooltip": "dolorem",
+  "Active": 127,
+  "UpdatedDate": "2014-03-24T10:18:00.9574888+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 944,
-  "PrivacyStatementDesc": "et",
+  "Deleted": false,
+  "Rank": 439,
+  "PrivacyStatementDesc": "facilis",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 762,
-  "Name": "Ryan, Hartmann and Hoeger",
-  "ConsentText": "fuga",
-  "FormText": "rerum",
-  "Key": "ea",
-  "Tooltip": "repudiandae",
-  "Active": 463,
-  "UpdatedDate": "2009-02-19T14:45:13.6148917+01:00",
+  "ConsentPurposeId": 181,
+  "Name": "Botsford-Tremblay",
+  "ConsentText": "animi",
+  "FormText": "voluptas",
+  "Key": "quia",
+  "Tooltip": "molestias",
+  "Active": 437,
+  "UpdatedDate": "2015-08-31T10:18:00.9574888+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 97,
-  "PrivacyStatementDesc": "autem",
+  "Rank": 497,
+  "PrivacyStatementDesc": "eaque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

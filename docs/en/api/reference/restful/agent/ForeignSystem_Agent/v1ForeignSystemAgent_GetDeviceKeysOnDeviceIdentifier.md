@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mayert-Bernhard",
-  "DeviceName": "Gleason-Gibson",
-  "DeviceIdentifier": "possimus"
+  "ApplicationName": "Abbott-Fritsch",
+  "DeviceName": "Terry-Rogahn",
+  "DeviceIdentifier": "dolor"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "occaecati",
-    "Value": "odit",
-    "RecordId": 733,
-    "CreatedDate": "2021-05-05T14:45:05.6469762+02:00",
-    "UpdatedDate": "2002-07-21T14:45:05.6469762+02:00",
-    "UpdatedBy": "rerum",
-    "CreatedBy": "doloribus",
-    "TableName": "Rau, Watsica and Yost",
+    "Key": "reiciendis",
+    "Value": "modi",
+    "RecordId": 203,
+    "CreatedDate": "2019-10-20T10:17:55.660285+02:00",
+    "UpdatedDate": "2016-08-29T10:17:55.660285+02:00",
+    "UpdatedBy": "non",
+    "CreatedBy": "nostrum",
+    "TableName": "VonRueden LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 102
       }
     }
   }

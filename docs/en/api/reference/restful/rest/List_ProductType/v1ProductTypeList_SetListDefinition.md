@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "Hudson-Ondricka",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "Rank": 219,
+  "Id": 123,
+  "Name": "Morissette Inc and Sons",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 321,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cupiditate",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Wehner, Koch and Romaguera",
-  "Tooltip": "enim",
+  "Id": 459,
+  "Name": "Stoltenberg-Veum",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 704,
-  "IsCustomList": false,
+  "Rank": 55,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 581
     }
   }
 }

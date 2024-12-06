@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Eichmann, Gutkowski and Schimmel",
-    "Tooltip": "vero",
+    "Id": 917,
+    "Name": "Gottlieb-Mayer",
+    "Tooltip": "quod",
     "Deleted": true,
-    "UdListDefinitionId": 705,
-    "Rank": 306,
+    "UdListDefinitionId": 217,
+    "Rank": 608,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 504
       }
     }
   }

@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 461,
-  "PlainMessage": "adipisci",
-  "HtmlMessage": "qui",
-  "SmsMessage": "repellendus",
-  "Description": "Profound upward-trending framework",
-  "Subject": "dignissimos",
-  "FolderId": 371,
-  "HeaderField": "necessitatibus",
-  "Design": "earum",
+  "ShipmentMessageId": 407,
+  "PlainMessage": "ipsum",
+  "HtmlMessage": "perferendis",
+  "SmsMessage": "rem",
+  "Description": "Horizontal coherent neural-net",
+  "Subject": "a",
+  "FolderId": 234,
+  "HeaderField": "velit",
+  "Design": "atque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Object-based bi-directional info-mediaries",
-  "AccessKey": "qui",
-  "DocumentMessage": 800,
-  "Registered": "2020-10-22T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 457,
-  "Updated": "2020-11-24T14:45:13.2555955+01:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 810,
+  "LongDescription": "Multi-channelled static neural-net",
+  "AccessKey": "rerum",
+  "DocumentMessage": 217,
+  "Registered": "2001-05-09T10:18:00.723098+02:00",
+  "RegisteredAssociateId": 902,
+  "Updated": "2001-11-12T10:18:00.723098+01:00",
+  "UpdatedAssociateId": 400,
+  "UpdatedCount": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 855
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

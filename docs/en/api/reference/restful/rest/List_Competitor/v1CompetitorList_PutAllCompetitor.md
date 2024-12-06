@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Mueller, Mills and Carroll",
+    "Id": 302,
+    "Name": "Prosacco, Swaniawski and Kozey",
     "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 454,
-    "Rank": 221
+    "Deleted": true,
+    "UdListDefinitionId": 371,
+    "Rank": 628
   },
   {
-    "Id": 681,
-    "Name": "Mueller, Mills and Carroll",
+    "Id": 302,
+    "Name": "Prosacco, Swaniawski and Kozey",
     "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 454,
-    "Rank": 221
+    "Deleted": true,
+    "UdListDefinitionId": 371,
+    "Rank": 628
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 222,
-    "Rank": 684,
+    "Id": 835,
+    "Name": "Bosco Inc and Sons",
+    "Tooltip": "eveniet",
+    "Deleted": true,
+    "UdListDefinitionId": 285,
+    "Rank": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 166
       }
     }
   }

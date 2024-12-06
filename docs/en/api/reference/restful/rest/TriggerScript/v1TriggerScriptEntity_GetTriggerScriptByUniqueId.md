@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 531,
-  "Name": "Mertz, Ankunding and Lakin",
+  "ScreenChooserId": 341,
+  "Name": "Williamson-Bergstrom",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "tenetur",
-  "Source": "eos",
-  "Registered": "2008-06-26T14:45:13.3961895+02:00",
-  "RegisteredAssociateId": 305,
-  "Updated": "2012-07-29T14:45:13.3961895+02:00",
-  "UpdatedAssociateId": 239,
+  "UniqueIdentifier": "pariatur",
+  "Source": "odio",
+  "Registered": "2022-06-01T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 920,
+  "Updated": "2008-06-03T10:18:00.8168545+02:00",
+  "UpdatedAssociateId": 287,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

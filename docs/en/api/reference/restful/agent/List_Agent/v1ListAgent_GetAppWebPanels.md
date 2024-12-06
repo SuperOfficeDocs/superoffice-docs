@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 980,
-    "Name": "Schaefer-Purdy",
-    "Tooltip": "veniam",
+    "WebPanelId": 162,
+    "Name": "Bauch Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 449,
+    "Rank": 855,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Conroy-Miller",
+    "WindowName": "Tromp Group",
     "Url": "http://www.example.com/",
-    "ProgId": "earum",
-    "Icon": 733,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "occaecati",
+    "Icon": 360,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 729
       }
     }
   }

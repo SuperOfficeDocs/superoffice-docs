@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 896,
+  "PersonId": 277,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Moore LLC",
-    "SaleDate": "2024-04-03T14:45:06.1937295+02:00",
-    "SaleId": 302,
-    "Probability": 571,
-    "Title": "sed",
-    "Amount": 13466.797999999999,
-    "Currency": "quisquam",
-    "ProjectName": "Weimann LLC",
-    "AssociateFullName": "Brandy Dickinson",
-    "Description": "Re-engineered holistic process improvement",
+    "ContactName": "Connelly, Gerlach and Kilback",
+    "SaleDate": "2013-09-06T10:17:56.0040633+02:00",
+    "SaleId": 870,
+    "Probability": 425,
+    "Title": "ratione",
+    "Amount": 25717.604,
+    "Currency": "enim",
+    "ProjectName": "Bartell LLC",
+    "AssociateFullName": "Laurine Nikolaus",
+    "Description": "Networked 3rd generation algorithm",
     "Status": "Lost",
-    "WeightedAmount": 17252.67,
-    "ProjectId": 517,
-    "EarningPercent": 9937.9139999999989,
-    "Earning": 23617.824,
-    "ContactId": 767,
-    "AssociateId": 431,
-    "PersonId": 891,
-    "SaleTypeId": 849,
-    "SaleTypeName": "Hayes Group",
-    "PersonFullName": "Mertie Schuster",
+    "WeightedAmount": 23135.188,
+    "ProjectId": 278,
+    "EarningPercent": 676.944,
+    "Earning": 28011.692,
+    "ContactId": 140,
+    "AssociateId": 758,
+    "PersonId": 377,
+    "SaleTypeId": 234,
+    "SaleTypeName": "Lowe LLC",
+    "PersonFullName": "Berry Aufderhar",
     "Completed": "Completed",
-    "ActiveErpLinks": 748,
-    "NextDueDate": "2006-06-10T14:45:06.1937295+02:00",
-    "Number": "1619812",
+    "ActiveErpLinks": 649,
+    "NextDueDate": "2019-06-22T10:17:56.0040633+02:00",
+    "Number": "1262015",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldLength": 40
       }
     }
   }

@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Flatley-Runte",
-  "UserName": "Ferry, Ruecker and Kertzmann",
-  "Password": "maiores",
-  "Folder": "voluptatem",
+  "ServerName": "Schimmel Group",
+  "UserName": "Rempel-Wilderman",
+  "Password": "delectus",
+  "Folder": "est",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 963
     }
   }
 }

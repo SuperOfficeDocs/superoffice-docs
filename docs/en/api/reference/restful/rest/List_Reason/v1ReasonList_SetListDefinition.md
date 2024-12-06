@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Kunze, Romaguera and Kuhn",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 543,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "Id": 200,
+  "Name": "Towne Inc and Sons",
+  "Tooltip": "explicabo",
+  "Deleted": true,
+  "Rank": 160,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "odit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "Bauch LLC",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "Rank": 37,
+  "Id": 462,
+  "Name": "Kunze, Smith and Gibson",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 174,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 7
     }
   }
 }

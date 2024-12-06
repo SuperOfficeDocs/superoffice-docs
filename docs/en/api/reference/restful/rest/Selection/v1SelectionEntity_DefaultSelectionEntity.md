@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Jul 2021 14:45:13 G7T
+Last-Modified: Sat, 27 Aug 2011 10:18:00 G8T
 
 {
-  "Description": "Self-enabling homogeneous firmware",
-  "Postit": "animi",
+  "Description": "Digitized mission-critical matrices",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 756,
-  "IncludePerson": 378,
+  "GroupIdx": 634,
+  "IncludePerson": 830,
   "MemberCount": 99.99,
-  "Name": "Connelly, Runte and Stoltenberg",
-  "PostitTextId": 519,
-  "CreatedDate": "2024-08-17T14:45:13.2243548+02:00",
-  "SelectionId": 834,
-  "SoundEx": "aut",
-  "Source": 712,
-  "TextId": 592,
-  "UpdatedDate": "2021-07-28T14:45:13.2243548+02:00",
-  "UpdatedCount": 179,
-  "Visibility": 143,
+  "Name": "Flatley-Tillman",
+  "PostitTextId": 15,
+  "CreatedDate": "2011-01-11T10:18:00.7074664+01:00",
+  "SelectionId": 620,
+  "SoundEx": "nostrum",
+  "Source": 470,
+  "TextId": 158,
+  "UpdatedDate": "2011-08-27T10:18:00.7074664+02:00",
+  "UpdatedCount": 130,
+  "Visibility": 987,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 139,
-  "TargetTableName": "Hayes Group",
+  "TargetTableNumber": 174,
+  "TargetTableName": "Robel, O'Conner and Mayert",
   "Completed": false,
-  "LeftSelectionId": 420,
-  "RightSelectionId": 39,
+  "LeftSelectionId": 589,
+  "RightSelectionId": 707,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gleason Inc and Sons",
-  "ShadowProviderName": "Grant-Schmitt",
-  "ChartKey": "facere",
-  "LastLoaded": "1999-06-29T14:45:13.2243548+02:00",
-  "LastLoadedBy": 128,
+  "MainProviderName": "Klein Group",
+  "ShadowProviderName": "Thompson, Turcotte and Fisher",
+  "ChartKey": "veniam",
+  "LastLoaded": "2002-04-22T10:18:00.7074664+02:00",
+  "LastLoadedBy": 404,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-06-25T14:45:13.2243548+02:00",
-  "LastMembershipChangeBy": 284,
+  "LastMembershipChange": "2008-10-03T10:18:00.7074664+02:00",
+  "LastMembershipChangeBy": 30,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsum",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Jacobs Inc and Sons",
-  "DashboardTileDefinitionId": 943,
+  "MainHeading": "aperiam",
+  "MemberTabHeading": "minus",
+  "MailingsProviderName": "Schuster-Dach",
+  "DashboardTileDefinitionId": 332,
   "VisibleFor": [
     {
-      "VisibleId": 277,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     },
     {
-      "VisibleId": 277,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Wed, 28 Jul 2021 14:45:13 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

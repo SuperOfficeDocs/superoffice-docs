@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 236,
-    "Name": "Mann-Bogisich",
-    "Tooltip": "commodi",
+    "HeadingId": 142,
+    "Name": "Lubowitz-Jast",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 221,
-    "UdListDefinitionId": 173,
+    "Rank": 103,
+    "UdListDefinitionId": 810,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

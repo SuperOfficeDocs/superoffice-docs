@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 223,
-  "Name": "Stroman, Conn and Marvin",
-  "CreatedDate": "2017-09-25T14:45:12.8181931+02:00",
-  "UpdatedDate": "2020-06-05T14:45:12.8181931+02:00",
+  "ForeignAppId": 936,
+  "Name": "Keeling, O'Reilly and Moore",
+  "CreatedDate": "2021-12-02T10:18:00.4105739+01:00",
+  "UpdatedDate": "2012-01-11T10:18:00.4105739+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 221,
-      "Name": "Reinger-Ruecker",
-      "CreatedDate": "2007-07-22T14:45:12.8181931+02:00",
-      "UpdatedDate": "2013-01-04T14:45:12.8181931+01:00",
-      "AssociateFullName": "Keara Swaniawski",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "dolor",
-      "ForeignAppId": 208,
+      "ForeignDeviceId": 739,
+      "Name": "West Group",
+      "CreatedDate": "2006-10-02T10:18:00.4105739+02:00",
+      "UpdatedDate": "2024-10-07T10:18:00.4105739+02:00",
+      "AssociateFullName": "Brianne Klocko",
+      "CreatedBy": "odio",
+      "UpdatedBy": "rem",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 65,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 357
+          "FieldLength": 86
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldLength": 886
     }
   }
 }

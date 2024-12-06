@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 593,
-  "ERPPriceListKey": "adipisci",
-  "QuoteConnectionId": 156,
-  "Name": "Stroman, Gleichner and Hansen",
-  "Description": "Reduced neutral success",
-  "Currency": "sunt",
-  "CurrencyName": "Mraz-Bartoletti",
-  "ValidFrom": "2017-11-24T14:45:13.7711051+01:00",
-  "ValidTo": "2012-12-07T14:45:13.7711051+01:00",
+  "PriceListId": 452,
+  "ERPPriceListKey": "iusto",
+  "QuoteConnectionId": 456,
+  "Name": "Skiles Inc and Sons",
+  "Description": "Versatile zero defect infrastructure",
+  "Currency": "laboriosam",
+  "CurrencyName": "Grimes-Altenwerth",
+  "ValidFrom": "2016-07-14T10:18:01.0668705+02:00",
+  "ValidTo": "2021-07-18T10:18:01.0668705+02:00",
   "IsActive": false
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 215,
-  "ERPPriceListKey": "sed",
-  "QuoteConnectionId": 399,
-  "Name": "Keebler LLC",
-  "Description": "Self-enabling disintermediate capacity",
-  "Currency": "praesentium",
-  "CurrencyName": "Halvorson, Ward and Jewess",
-  "ValidFrom": "2019-03-28T14:45:13.7711051+01:00",
-  "ValidTo": "2023-04-28T14:45:13.7711051+02:00",
-  "IsActive": true,
+  "PriceListId": 949,
+  "ERPPriceListKey": "cum",
+  "QuoteConnectionId": 566,
+  "Name": "Pfannerstill, Senger and Nicolas",
+  "Description": "Synergized tertiary methodology",
+  "Currency": "iusto",
+  "CurrencyName": "Kub Group",
+  "ValidFrom": "2018-01-05T10:18:01.0668705+01:00",
+  "ValidTo": "2010-08-11T10:18:01.0668705+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 994
     }
   },
   "_Links": {

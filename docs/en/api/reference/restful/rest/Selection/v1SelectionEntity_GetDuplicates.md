@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hettinger-Shields",
-    "SoPrimaryKey": 742,
-    "EntryName": "Swift-McCullough",
-    "EntryIdentifier": "alias",
-    "RuleDisplayName": "Kutch-Baumbach",
+    "RuleName": "Jacobson, Lowe and Rau",
+    "SoPrimaryKey": 227,
+    "EntryName": "Funk-Berge",
+    "EntryIdentifier": "neque",
+    "RuleDisplayName": "Bruen-Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

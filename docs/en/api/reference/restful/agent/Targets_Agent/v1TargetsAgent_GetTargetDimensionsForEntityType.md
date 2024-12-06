@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 908,
+    "TargetDimensionId": 642,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "quibusdam",
-    "DimensionListName": "Kuhlman Group",
-    "DimensionListId": 262,
-    "DimensionListLabel": "vel",
+    "DimensionListField": "illum",
+    "DimensionListName": "Zemlak, Harvey and Nicolas",
+    "DimensionListId": 612,
+    "DimensionListLabel": "totam",
     "SelectedDimensions": [
-      325,
-      420
+      541,
+      201
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldType": "System.Int32",
+        "FieldLength": 694
       }
     }
   }

@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 131,
-  "ColumnId": 551,
-  "FieldDefault": "et",
-  "FieldHeight": 697,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 86,
-  "FieldTop": 519,
+  "UDefFieldId": 110,
+  "ColumnId": 467,
+  "FieldDefault": "odio",
+  "FieldHeight": 91,
+  "FieldLabel": "sequi",
+  "FieldLeft": 776,
+  "FieldTop": 678,
   "FieldType": "Checkbox",
-  "FieldWidth": 724,
-  "FormatMask": "sint",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 166,
-  "LabelLeft": 632,
-  "LabelTop": 190,
-  "LabelWidth": 859,
-  "LastVersionId": 104,
-  "ListTableId": 676,
+  "FieldWidth": 122,
+  "FormatMask": "officiis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 59,
+  "LabelLeft": 437,
+  "LabelTop": 860,
+  "LabelWidth": 444,
+  "LastVersionId": 934,
+  "ListTableId": 201,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 64,
-  "ProgId": "eaque",
+  "Page1LineNo": 644,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "harum",
-  "TabOrder": 920,
-  "TextLength": 541,
-  "Tooltip": "possimus",
-  "UdefIdentity": 186,
-  "UDListDefinitionId": 536,
+  "ShortLabel": "ea",
+  "TabOrder": 6,
+  "TextLength": 890,
+  "Tooltip": "est",
+  "UdefIdentity": 737,
+  "UDListDefinitionId": 120,
   "Justification": "Center",
-  "Version": 446,
-  "TemplateVariableName": "Wolf, Bernhard and Smith",
+  "Version": 224,
+  "TemplateVariableName": "Kuhlman-Kreiger",
   "HasBeenPublished": false,
-  "MdoListName": "Corkery, Parker and Dare",
+  "MdoListName": "Hagenes-Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

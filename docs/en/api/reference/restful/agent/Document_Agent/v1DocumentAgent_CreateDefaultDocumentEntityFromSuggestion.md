@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 186
+  "SuggestedDocumentId": 957
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 550,
+  "DocumentId": 88,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "necessitatibus",
-  "Header": "dolorem",
-  "Name": "Kiehn-Harris",
-  "OurRef": "qui",
-  "YourRef": "aut",
-  "CreatedDate": "2013-09-30T14:45:05.4438985+02:00",
-  "UpdatedDate": "2005-02-12T14:45:05.4438985+01:00",
-  "Description": "Cross-platform value-added forecast",
+  "Attention": "sunt",
+  "Header": "modi",
+  "Name": "Hickle, Little and Pouros",
+  "OurRef": "quibusdam",
+  "YourRef": "quia",
+  "CreatedDate": "2022-11-05T10:17:55.5196518+01:00",
+  "UpdatedDate": "1999-12-02T10:17:55.5196518+01:00",
+  "Description": "Cloned motivating protocol",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-02-09T14:45:05.4438985+01:00",
-  "ExternalRef": "et",
+  "Date": "2001-11-03T10:17:55.5196518+01:00",
+  "ExternalRef": "earum",
   "Completed": "Completed",
-  "ActiveLinks": 105,
+  "ActiveLinks": 48,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cruickshank Group",
-      "Id": 459,
-      "Description": "Public-key bifurcated encryption",
-      "ExtraInfo": "suscipit",
-      "LinkId": 565,
+      "EntityName": "Blanda, Grant and Paucek",
+      "Id": 126,
+      "Description": "Versatile actuating task-force",
+      "ExtraInfo": "autem",
+      "LinkId": 426,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 59
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 676,
-  "Snum": 376,
+  "SuggestedDocumentId": 409,
+  "Snum": 653,
   "UserDefinedFields": {
-    "SuperOffice:1": "1759267822",
-    "SuperOffice:2": "Garett Ellen Mayer Sr."
+    "SuperOffice:1": "1965734659",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "qui",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2003-05-22T14:45:05.4438985+02:00",
-  "PublishTo": "2018-05-02T14:45:05.4438985+02:00",
-  "PublishFrom": "2018-01-05T14:45:05.4438985+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2016-11-06T10:17:55.5196518+01:00",
+  "PublishTo": "2020-08-26T10:17:55.5196518+02:00",
+  "PublishFrom": "2005-04-07T10:17:55.5196518+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 902,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 296
         }
       }
     },
     {
-      "VisibleId": 902,
+      "VisibleId": 472,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 296
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

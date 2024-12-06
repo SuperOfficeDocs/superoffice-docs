@@ -139,41 +139,41 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 879,
-  "TopicId": 20,
+  "ChatSessionId": 727,
+  "TopicId": 144,
   "User": null,
   "Person": null,
-  "CustomerAlias": "beatae",
-  "CustomerHost": "dolore",
-  "CustomerName": "Deckow-Spinka",
-  "CustomerEmail": "darrin.armstrong@fadelhodkiewicz.com",
-  "CustomerPhone": "1-099-610-3754",
+  "CustomerAlias": "enim",
+  "CustomerHost": "accusantium",
+  "CustomerName": "Johnston Group",
+  "CustomerEmail": "skylar@schuster.ca",
+  "CustomerPhone": "1-410-201-1817 x15355",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bode-Beatty",
+  "CustomerCompanyName": "Heidenreich Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "quis",
-  "LastMessage": "possimus",
-  "WhenRequested": "1999-07-27T14:45:12.5057625+02:00",
-  "WhenStarted": "2011-03-09T14:45:12.5057625+01:00",
-  "WhenEnded": "2020-04-18T14:45:12.5057625+02:00",
-  "WhenIdle": "2006-09-23T14:45:12.5057625+02:00",
-  "WhenFetched": "2022-12-10T14:45:12.5057625+01:00",
-  "SessionKey": "earum",
-  "InitialQueuePos": 446,
-  "AlertLevel": 11,
-  "Rank": 718,
+  "FirstMessage": "sint",
+  "LastMessage": "unde",
+  "WhenRequested": "2022-04-29T10:18:00.1918158+02:00",
+  "WhenStarted": "2011-05-22T10:18:00.1918158+02:00",
+  "WhenEnded": "2013-09-10T10:18:00.1918158+02:00",
+  "WhenIdle": "2020-02-12T10:18:00.1918158+01:00",
+  "WhenFetched": "2023-09-16T10:18:00.1918158+02:00",
+  "SessionKey": "eligendi",
+  "InitialQueuePos": 198,
+  "AlertLevel": 993,
+  "Rank": 335,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 868
+  "ChatbotIsActive": false,
+  "Rating": 807
 }
 ```
 
@@ -184,48 +184,48 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 133,
-  "TopicId": 537,
+  "ChatSessionId": 107,
+  "TopicId": 73,
   "User": null,
   "Person": null,
-  "CustomerAlias": "delectus",
-  "CustomerHost": "quisquam",
-  "CustomerName": "Cartwright-Trantow",
-  "CustomerEmail": "brendan@kundegleichner.name",
-  "CustomerPhone": "1-858-515-3200 x125",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Howell-Greenfelder",
+  "CustomerAlias": "aut",
+  "CustomerHost": "ipsa",
+  "CustomerName": "Botsford-Torphy",
+  "CustomerEmail": "roberto@rowe.us",
+  "CustomerPhone": "1-997-550-7803",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Prosacco, Lang and Marvin",
   "Status": "Closed",
-  "FirstMessage": "aspernatur",
-  "LastMessage": "ullam",
-  "WhenRequested": "2006-06-01T14:45:12.5057625+02:00",
-  "WhenStarted": "2017-05-02T14:45:12.5057625+02:00",
-  "WhenEnded": "2020-06-15T14:45:12.5057625+02:00",
-  "WhenIdle": "1998-10-26T14:45:12.5057625+01:00",
-  "WhenFetched": "2012-06-12T14:45:12.5057625+02:00",
-  "SessionKey": "temporibus",
-  "InitialQueuePos": 495,
-  "AlertLevel": 759,
-  "Rank": 787,
+  "FirstMessage": "perspiciatis",
+  "LastMessage": "consequatur",
+  "WhenRequested": "2013-12-13T10:18:00.2074417+01:00",
+  "WhenStarted": "2019-01-27T10:18:00.2074417+01:00",
+  "WhenEnded": "2005-11-16T10:18:00.2074417+01:00",
+  "WhenIdle": "2012-11-06T10:18:00.2074417+01:00",
+  "WhenFetched": "1998-06-12T10:18:00.2074417+02:00",
+  "SessionKey": "exercitationem",
+  "InitialQueuePos": 744,
+  "AlertLevel": 363,
+  "Rank": 702,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 953,
+  "ChatbotIsActive": false,
+  "Rating": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 33
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "omnis",
+  "Type": "est",
   "ItemsIds": [
-    934,
-    346
+    779,
+    275
   ]
 }
 ```

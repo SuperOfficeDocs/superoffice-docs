@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gleason-Konopelski",
-  "HeadingId": 882
+  "UdListDefinitionName": "Jast LLC",
+  "HeadingId": 177
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Bechtelar, Koepp and Powlowski",
-    "ToolTip": "Ullam et.",
+    "Id": 786,
+    "Name": "Kassulke LLC",
+    "ToolTip": "Consequuntur quam sint distinctio recusandae voluptate nostrum voluptatem.",
     "Deleted": true,
-    "Rank": 421,
-    "Type": "tenetur",
-    "ColorBlock": 263,
-    "IconHint": "eum",
+    "Rank": 243,
+    "Type": "praesentium",
+    "ColorBlock": 240,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2003-10-08T14:45:05.7250829+02:00",
+    "LastChanged": "2001-07-05T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Dickens Group",
-        "ToolTip": "Molestiae aut rem vero id cupiditate fugit.",
+        "Id": 16,
+        "Name": "Kohler, Smith and Frami",
+        "ToolTip": "Quia quis.",
         "Deleted": false,
-        "Rank": 1001,
-        "Type": "dolorum",
-        "ColorBlock": 25,
-        "IconHint": "deserunt",
+        "Rank": 165,
+        "Type": "explicabo",
+        "ColorBlock": 34,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2013-03-24T14:45:05.7250829+01:00",
+        "LastChanged": "2004-03-03T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Dr. Ansel Hillary Jewess",
+        "ExtraInfo": "officia",
+        "StyleHint": "occaecati",
+        "Hidden": true,
+        "FullName": "Buster Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldType": "System.String",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Lilliana Thiel",
+    "ExtraInfo": "quam",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Domenico Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 590
       }
     }
   }

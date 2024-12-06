@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 149,
+  "DashboardTileDefinitionId": 508,
   "Languages": [
     {
-      "LanguageCode": "enim",
-      "Html": "ea"
+      "LanguageCode": "qui",
+      "Html": "laboriosam"
     },
     {
-      "LanguageCode": "enim",
-      "Html": "ea"
+      "LanguageCode": "qui",
+      "Html": "laboriosam"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "inventore",
-    "Html": "minima",
+    "LanguageCode": "ea",
+    "Html": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 862
       }
     }
   },
   {
-    "LanguageCode": "inventore",
-    "Html": "minima",
+    "LanguageCode": "ea",
+    "Html": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 862
       }
     }
   }

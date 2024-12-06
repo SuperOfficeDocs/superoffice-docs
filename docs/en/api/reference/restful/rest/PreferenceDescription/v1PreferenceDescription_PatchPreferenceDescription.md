@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "enim",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 27,
-  "Section": "qui",
-  "Key": "qui",
-  "Name": "Deckow Inc and Sons",
+  "PrefDescId": 261,
+  "Section": "repudiandae",
+  "Key": "odit",
+  "Name": "Crist-Wilkinson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented non-volatile local area network",
-  "IsBuiltin": true,
-  "TableName": "Tillman-Bruen",
-  "UserDefinedListId": 891,
-  "Rank": 384,
-  "SubGroup": "illum",
-  "MinLevel": 812,
-  "MaxValue": 631,
-  "MinValue": 676,
-  "RequiredLicense": "quidem",
+  "Description": "Virtual clear-thinking open architecture",
+  "IsBuiltin": false,
+  "TableName": "Lindgren-Vandervort",
+  "UserDefinedListId": 402,
+  "Rank": 565,
+  "SubGroup": "sapiente",
+  "MinLevel": 605,
+  "MaxValue": 287,
+  "MinValue": 221,
+  "RequiredLicense": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

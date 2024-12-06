@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Value": "rerum",
-    "Tooltip": "magnam",
+    "Id": 717,
+    "Value": "consectetur",
+    "Tooltip": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 551
       }
     }
   },
   {
-    "Id": 735,
-    "Value": "rerum",
-    "Tooltip": "magnam",
+    "Id": 717,
+    "Value": "consectetur",
+    "Tooltip": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 551
       }
     }
   }

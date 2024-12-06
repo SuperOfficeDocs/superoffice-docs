@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Kulas, Watsica and Wolff",
-    "ToolTip": "Harum blanditiis nihil et.",
-    "Deleted": true,
-    "Rank": 314,
-    "Type": "consequatur",
-    "ColorBlock": 349,
-    "IconHint": "eum",
+    "Id": 713,
+    "Name": "Stamm, Schumm and Collins",
+    "ToolTip": "Eveniet ut sed quisquam sit repudiandae.",
+    "Deleted": false,
+    "Rank": 115,
+    "Type": "at",
+    "ColorBlock": 478,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2016-05-03T14:45:13.5992714+02:00",
+    "LastChanged": "2024-05-19T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Schulist LLC",
-        "ToolTip": "Totam quos laudantium illum ratione qui labore quia.",
-        "Deleted": false,
-        "Rank": 498,
-        "Type": "facere",
-        "ColorBlock": 708,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1999-04-27T14:45:13.5992714+02:00",
+        "Id": 757,
+        "Name": "Towne Inc and Sons",
+        "ToolTip": "Et quia consequatur sed non quo qui maiores.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "mollitia",
+        "ColorBlock": 344,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2003-03-11T10:18:00.9418629+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Camila Waters"
+        "FullName": "Ms. Austyn Rebekah Doyle"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "alias",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Gerry Lubowitz"
+    "FullName": "Isac Harris"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Moen, Pfannerstill and Stiedemann",
-    "ToolTip": "Qui pariatur sunt ut non.",
+    "Id": 797,
+    "Name": "Ledner Group",
+    "ToolTip": "Placeat incidunt quibusdam in nihil quo possimus.",
     "Deleted": false,
-    "Rank": 104,
-    "Type": "aut",
-    "ColorBlock": 567,
-    "IconHint": "et",
+    "Rank": 75,
+    "Type": "perferendis",
+    "ColorBlock": 765,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2010-06-30T14:45:13.5992714+02:00",
+    "LastChanged": "1999-04-04T10:18:00.9418629+02:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "VonRueden-Kreiger",
-        "ToolTip": "Consequatur harum sunt quia.",
+        "Id": 362,
+        "Name": "Harber, DuBuque and Pacocha",
+        "ToolTip": "Qui dolores quam aliquid inventore doloribus expedita nam.",
         "Deleted": false,
-        "Rank": 972,
-        "Type": "consequuntur",
-        "ColorBlock": 5,
-        "IconHint": "aliquid",
+        "Rank": 110,
+        "Type": "nobis",
+        "ColorBlock": 771,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2022-06-27T14:45:13.5992714+02:00",
+        "LastChanged": "2019-04-19T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Lon Brakus",
+        "ExtraInfo": "minus",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Alta Corbin Greenholt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Mrs. Tomas Magnus Anderson",
+    "ExtraInfo": "et",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Chanelle Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 6
       }
     }
   }

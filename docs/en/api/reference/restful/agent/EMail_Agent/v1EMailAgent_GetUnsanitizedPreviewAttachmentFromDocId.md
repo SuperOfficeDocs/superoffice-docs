@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 363,
-  "AttachmentId": "dolorem"
+  "DocId": 345,
+  "AttachmentId": "illo"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized high-level projection",
-  "Filename": "sit",
-  "Size": 673,
-  "Type": "est",
-  "Encoding": "et",
-  "Id": "ut",
-  "Disposition": "facere",
-  "IsSafeFileExtension": false,
+  "Description": "Balanced attitude-oriented system engine",
+  "Filename": "voluptatibus",
+  "Size": 818,
+  "Type": "ut",
+  "Encoding": "vel",
+  "Id": "eaque",
+  "Disposition": "aspernatur",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   }
 }

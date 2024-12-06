@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 339,
+  "ErpConnectionId": 263,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 332,
-      "CrmFieldKey": "numquam",
-      "CrmDisplayName": "Greenfelder, O'Hara and Casper",
-      "CrmDisplayTooltip": "recusandae",
-      "ErpFieldKey": "assumenda",
+      "ErpFieldId": 410,
+      "CrmFieldKey": "et",
+      "CrmDisplayName": "Hahn, Kozey and Greenfelder",
+      "CrmDisplayTooltip": "omnis",
+      "ErpFieldKey": "velit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schoen LLC",
-      "ErpDisplayTooltip": "nobis",
+      "ErpDisplayName": "Beier-Ferry",
+      "ErpDisplayTooltip": "voluptatibus",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInGui": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "suscipit",
+      "ListReference": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 863
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 301
     }
   }
 }

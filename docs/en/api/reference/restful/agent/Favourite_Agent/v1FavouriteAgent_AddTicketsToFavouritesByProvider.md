@@ -71,18 +71,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Medhurst-Morar",
+  "ProviderName": "Kirlin Group",
   "Restrictions": [
     {
-      "Name": "Gorczany LLC",
-      "Operator": "praesentium",
+      "Name": "Harber Inc and Sons",
+      "Operator": "odit",
       "Values": [
-        "deleniti",
-        "molestiae"
+        "dicta",
+        "qui"
       ],
       "DisplayValues": [
-        "ea",
-        "ipsa"
+        "quam",
+        "expedita"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 350,
+      "InterParenthesis": 93,
       "InterOperator": "And",
-      "UniqueHash": 82
+      "UniqueHash": 753
     }
   ],
-  "AssociateId": 532,
-  "ExtraInfo": "a"
+  "AssociateId": 308,
+  "ExtraInfo": "placeat"
 }
 ```
 

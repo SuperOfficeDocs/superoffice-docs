@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schoen LLC",
-  "ListItemId": 432
+  "UdListDefinitionName": "Champlin, Huel and Bogan",
+  "ListItemId": 66
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Kuphal-Klocko",
-    "ToolTip": "Qui facere.",
-    "Deleted": true,
-    "Rank": 773,
-    "Type": "ut",
-    "ColorBlock": 66,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2007-04-19T14:45:05.7094637+02:00",
+    "Id": 888,
+    "Name": "Rippin Group",
+    "ToolTip": "Doloribus dolorem quia est voluptatum earum quisquam.",
+    "Deleted": false,
+    "Rank": 736,
+    "Type": "vitae",
+    "ColorBlock": 705,
+    "IconHint": "nulla",
+    "Selected": true,
+    "LastChanged": "2019-12-09T10:17:55.691537+01:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Stroman Group",
-        "ToolTip": "Dolor reiciendis excepturi dolorem nam sint.",
-        "Deleted": true,
-        "Rank": 202,
-        "Type": "aut",
-        "ColorBlock": 544,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2011-10-02T14:45:05.7094637+02:00",
+        "Id": 941,
+        "Name": "Simonis, Pagac and Torphy",
+        "ToolTip": "Suscipit reprehenderit.",
+        "Deleted": false,
+        "Rank": 968,
+        "Type": "sit",
+        "ColorBlock": 38,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2000-12-30T10:17:55.691537+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "similique",
+        "ExtraInfo": "sed",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Brianne Peggie Kris II",
+        "FullName": "Dr. Abel Stevie Trantow MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 553
+            "FieldType": "System.String",
+            "FieldLength": 487
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "ea",
+    "ExtraInfo": "enim",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Dr. Judy Reichel DDS",
+    "FullName": "Ms. Shanie Rose Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Cummings-Nienow",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "UdListDefinitionId": 832,
-    "Rank": 879,
+    "Id": 185,
+    "Name": "Ferry-Wehner",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 318,
+    "Rank": 604,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldLength": 682
       }
     }
   }

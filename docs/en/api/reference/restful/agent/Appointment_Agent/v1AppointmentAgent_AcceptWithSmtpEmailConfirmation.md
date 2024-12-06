@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Appointment/AcceptWithSmtpEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 546,
+  "AppointmentId": 345,
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null
 }

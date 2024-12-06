@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=dolorem
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=ipsam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Quitzon, Mann and Schumm",
-    "ToolTip": "Sit ratione id amet omnis velit.",
+    "Id": 628,
+    "Name": "Feeney, Emmerich and Ryan",
+    "ToolTip": "Nihil voluptas animi ut quaerat assumenda.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "consequatur",
+    "Rank": 579,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 580,
-        "Name": "Champlin-Effertz",
-        "ToolTip": "Ratione molestiae atque mollitia rerum animi.",
+        "Id": 201,
+        "Name": "West-Prohaska",
+        "ToolTip": "Laborum illo.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "beatae",
+        "Rank": 557,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veritatis",
-        "ColorBlock": 709,
-        "ExtraInfo": "eaque",
-        "StyleHint": "earum",
-        "FullName": "Mr. Jannie Hirthe",
+        "IconHint": "id",
+        "ColorBlock": 460,
+        "ExtraInfo": "dicta",
+        "StyleHint": "quia",
+        "FullName": "Dr. Amelie Randi Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 942
+            "FieldLength": 930
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 419,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "fuga",
-    "FullName": "Arne Huels",
+    "IconHint": "optio",
+    "ColorBlock": 164,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "molestiae",
+    "FullName": "Ms. Destany Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   }

@@ -29,7 +29,7 @@ Provides list of subscribed and unsubscribed mail folders available for an accou
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailFolder?$select=
+GET /api/v1/archive/MailFolder?$select=id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

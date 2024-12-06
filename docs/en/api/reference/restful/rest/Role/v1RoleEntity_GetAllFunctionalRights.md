@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Fahey-Satterfield",
-    "ToolTip": "Dicta odit velit libero.",
+    "Id": 256,
+    "Name": "Davis, Streich and Skiles",
+    "ToolTip": "Quis voluptatem qui deserunt nulla.",
     "Deleted": true,
-    "Rank": 117,
-    "Type": "voluptatem",
-    "ColorBlock": 526,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "2012-06-21T14:45:13.1306367+02:00",
+    "Rank": 295,
+    "Type": "consequatur",
+    "ColorBlock": 374,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2002-09-01T10:18:00.5355883+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Ortiz-Powlowski",
-        "ToolTip": "Deleniti ab minus aut distinctio aut ab.",
-        "Deleted": false,
-        "Rank": 254,
-        "Type": "vel",
-        "ColorBlock": 201,
-        "IconHint": "voluptatibus",
-        "Selected": false,
-        "LastChanged": "2014-03-12T14:45:13.1306367+01:00",
+        "Id": 669,
+        "Name": "Runolfsdottir-Harvey",
+        "ToolTip": "Est tenetur rem aperiam assumenda.",
+        "Deleted": true,
+        "Rank": 958,
+        "Type": "quae",
+        "ColorBlock": 360,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "1997-08-27T10:18:00.5355883+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "maxime",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Hettie Douglas",
+        "FullName": "Margot Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 76
+            "FieldType": "System.String",
+            "FieldLength": 278
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "laudantium",
-    "Hidden": true,
-    "FullName": "Blaise Simonis",
+    "ExtraInfo": "harum",
+    "StyleHint": "eligendi",
+    "Hidden": false,
+    "FullName": "Mr. Grace Baby Terry I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldLength": 108
       }
     }
   }

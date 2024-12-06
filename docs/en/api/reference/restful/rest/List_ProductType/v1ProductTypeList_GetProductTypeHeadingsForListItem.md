@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Kuhn, Feest and Cummings",
-    "ToolTip": "Sit voluptas omnis facere in sunt tempore.",
+    "Id": 511,
+    "Name": "Murphy, Kreiger and Von",
+    "ToolTip": "Tempora minima omnis odio eius rerum.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "autem",
-    "ColorBlock": 551,
+    "Rank": 795,
+    "Type": "expedita",
+    "ColorBlock": 590,
     "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2011-08-19T14:45:13.8179422+02:00",
+    "Selected": false,
+    "LastChanged": "2006-07-22T10:18:01.0981224+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Schroeder-Heathcote",
-        "ToolTip": "Sed qui dicta quia at quis mollitia dolore.",
-        "Deleted": false,
-        "Rank": 381,
-        "Type": "neque",
-        "ColorBlock": 774,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2002-06-07T14:45:13.8179422+02:00",
+        "Id": 768,
+        "Name": "Ratke, Kunze and Herman",
+        "ToolTip": "Reprehenderit omnis molestiae molestias.",
+        "Deleted": true,
+        "Rank": 503,
+        "Type": "vero",
+        "ColorBlock": 891,
+        "IconHint": "veniam",
+        "Selected": false,
+        "LastChanged": "2020-01-22T10:18:01.0981224+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Mrs. Freeman Bernhard",
+        "FullName": "Ozella Bria Goyette DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 43
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Jeremy Kristy Zulauf PhD",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Ms. Loma King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 574
       }
     }
   }

@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermiston Group",
+  "ProviderName": "Mills, Shanahan and Schneider",
   "Columns": [
-    "labore",
-    "dolorem"
+    "esse",
+    "eos"
   ],
   "SortOrder": [
     {
-      "Name": "Weimann LLC",
+      "Name": "Satterfield Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Weimann LLC",
+      "Name": "Satterfield Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mertz Group",
-      "Operator": "rerum",
+      "Name": "Okuneva, Kuhn and Rolfson",
+      "Operator": "est",
       "Values": [
-        "aut",
-        "blanditiis"
+        "atque",
+        "placeat"
       ],
       "DisplayValues": [
-        "nihil",
-        "magnam"
+        "iure",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 839,
+      "InterParenthesis": 773,
       "InterOperator": "And",
-      "UniqueHash": 842
+      "UniqueHash": 274
     }
   ],
   "Entities": [
-    "rerum",
-    "laudantium"
+    "eligendi",
+    "culpa"
   ],
-  "Page": 315,
-  "PageSize": 771,
-  "Options": "quis"
+  "Page": 69,
+  "PageSize": 84,
+  "Options": "voluptatibus"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 725,
+  "RowCount": 460,
   "Rows": [
     {
-      "EntityName": "Waelchi, Quitzon and Jacobs",
-      "PrimaryKey": 813,
+      "EntityName": "Bergstrom, Stiedemann and Kiehn",
+      "PrimaryKey": 307,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laboriosam",
-          "TooltipHint": "minima",
-          "LinkHint": "ipsa"
+          "DisplayValue": "totam",
+          "TooltipHint": "aut",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "ut",
+      "LinkHint": "vel",
+      "StyleHint": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 798
+          "FieldType": "System.String",
+          "FieldLength": 635
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 351
     }
   }
 }

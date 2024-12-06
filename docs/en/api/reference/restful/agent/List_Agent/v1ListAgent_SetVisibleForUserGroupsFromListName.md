@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cole LLC",
-  "ListItemId": 226,
+  "UdListDefinitionName": "Schumm Inc and Sons",
+  "ListItemId": 364,
   "UserGroups": [
     {
-      "Id": 395,
-      "Name": "Cassin Group",
-      "ToolTip": "Nisi et quod dolor aut perspiciatis velit.",
-      "Deleted": false,
-      "Rank": 649,
-      "Type": "debitis",
-      "ColorBlock": 483,
-      "IconHint": "eos",
+      "Id": 442,
+      "Name": "Kub Group",
+      "ToolTip": "Voluptatem itaque esse cupiditate id.",
+      "Deleted": true,
+      "Rank": 727,
+      "Type": "beatae",
+      "ColorBlock": 406,
+      "IconHint": "molestiae",
       "Selected": false,
-      "LastChanged": "2010-04-24T14:45:05.7094637+02:00",
+      "LastChanged": "2019-10-04T10:17:55.7071691+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "consectetur",
+      "ExtraInfo": "placeat",
+      "StyleHint": "officiis",
       "Hidden": false,
-      "FullName": "Dr. Malachi Lind"
+      "FullName": "Hardy Lea Deckow II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Streich, Effertz and Kreiger",
-    "ToolTip": "Eius enim iusto et inventore.",
-    "Deleted": true,
-    "Rank": 519,
-    "Type": "et",
-    "ColorBlock": 933,
-    "IconHint": "repellendus",
-    "Selected": true,
-    "LastChanged": "2011-09-13T14:45:05.7094637+02:00",
+    "Id": 819,
+    "Name": "Wisozk, Auer and Stokes",
+    "ToolTip": "Quae quidem cupiditate qui.",
+    "Deleted": false,
+    "Rank": 325,
+    "Type": "assumenda",
+    "ColorBlock": 916,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1997-10-14T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Huel, Kautzer and Vandervort",
-        "ToolTip": "Aut accusamus.",
+        "Id": 308,
+        "Name": "Heidenreich, Spencer and Lang",
+        "ToolTip": "Et autem et aliquam possimus quia cumque corrupti.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "cupiditate",
-        "ColorBlock": 894,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2007-07-08T14:45:05.7094637+02:00",
+        "Rank": 481,
+        "Type": "aut",
+        "ColorBlock": 76,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2001-03-16T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "architecto",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Mr. Quinton Koelpin III",
+        "FullName": "Magnus Curt Hyatt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quasi",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Mafalda Harvey",
+    "FullName": "Miss Harmon Kassulke Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldType": "System.String",
+        "FieldLength": 431
       }
     }
   }

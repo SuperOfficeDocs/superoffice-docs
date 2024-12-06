@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 49,
-  "AssociateId": 127,
-  "Caption": "fuga",
+  "DashboardId": 579,
+  "AssociateId": 464,
+  "Caption": "nobis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 961,
-      "Caption": "rerum",
-      "Description": "Enterprise-wide background strategy",
-      "ChartName": "Bednar LLC",
-      "ChartId": "et",
-      "IsDefault": false,
-      "AssociateId": 155,
-      "GroupId": 705,
-      "SelectionId": 429,
-      "Config": "similique",
+      "DashboardTileId": 403,
+      "Caption": "vel",
+      "Description": "Customer-focused scalable moratorium",
+      "ChartName": "Quigley-Hand",
+      "ChartId": "suscipit",
+      "IsDefault": true,
+      "AssociateId": 702,
+      "GroupId": 811,
+      "SelectionId": 538,
+      "Config": "distinctio",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 924,
-  "AssociateId": 951,
-  "Caption": "similique",
+  "DashboardId": 268,
+  "AssociateId": 388,
+  "Caption": "ipsa",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 738,
-      "Caption": "vel",
-      "Description": "Multi-layered logistical middleware",
-      "ChartName": "Armstrong-Volkman",
-      "ChartId": "excepturi",
+      "DashboardTileId": 78,
+      "Caption": "aspernatur",
+      "Description": "Open-architected analyzing installation",
+      "ChartName": "Huels-Gerhold",
+      "ChartId": "sit",
       "IsDefault": false,
-      "AssociateId": 673,
-      "GroupId": 901,
-      "SelectionId": 593,
-      "Config": "in",
+      "AssociateId": 956,
+      "GroupId": 277,
+      "SelectionId": 959,
+      "Config": "distinctio",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 704
+          "FieldLength": 24
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 650
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

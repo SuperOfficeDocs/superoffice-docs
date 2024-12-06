@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 432,
-  "Name": "Krajcik, Kunde and Kub",
-  "CreatedDate": "2017-04-16T14:45:05.6313552+02:00",
-  "UpdatedDate": "2003-01-09T14:45:05.6313552+01:00",
+  "ForeignAppId": 902,
+  "Name": "Gusikowski-Harris",
+  "CreatedDate": "2012-12-08T10:17:55.644659+01:00",
+  "UpdatedDate": "2006-06-21T10:17:55.644659+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 211,
-      "Name": "Buckridge-Cruickshank",
-      "CreatedDate": "2006-03-06T14:45:05.6313552+01:00",
-      "UpdatedDate": "2018-10-31T14:45:05.6313552+01:00",
-      "AssociateFullName": "Sebastian Schumm",
-      "CreatedBy": "ipsa",
-      "UpdatedBy": "totam",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 764
+      "ForeignDeviceId": 371,
+      "Name": "O'Kon, Quigley and Gleason",
+      "CreatedDate": "2011-02-26T10:17:55.644659+01:00",
+      "UpdatedDate": "2019-02-13T10:17:55.644659+01:00",
+      "AssociateFullName": "Rita Mariah Goldner II",
+      "CreatedBy": "nobis",
+      "UpdatedBy": "quibusdam",
+      "DeviceIdentifier": "vero",
+      "ForeignAppId": 864
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 401,
-  "Name": "Kling LLC",
-  "CreatedDate": "2002-10-14T14:45:05.6313552+02:00",
-  "UpdatedDate": "2001-11-21T14:45:05.6313552+01:00",
+  "ForeignAppId": 519,
+  "Name": "Schuster, Gorczany and Larkin",
+  "CreatedDate": "2022-12-16T10:17:55.660285+01:00",
+  "UpdatedDate": "2017-12-03T10:17:55.660285+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 8,
-      "Name": "Kunze Inc and Sons",
-      "CreatedDate": "2005-11-04T14:45:05.6313552+01:00",
-      "UpdatedDate": "2018-09-19T14:45:05.6313552+02:00",
-      "AssociateFullName": "Wyatt Mitchell",
-      "CreatedBy": "veniam",
-      "UpdatedBy": "aliquam",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 619,
+      "ForeignDeviceId": 859,
+      "Name": "Quitzon-Schamberger",
+      "CreatedDate": "2001-09-02T10:17:55.660285+02:00",
+      "UpdatedDate": "2016-04-14T10:17:55.660285+02:00",
+      "AssociateFullName": "Jada Gusikowski",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "perferendis",
+      "ForeignAppId": 584,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 7
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 598
     }
   }
 }

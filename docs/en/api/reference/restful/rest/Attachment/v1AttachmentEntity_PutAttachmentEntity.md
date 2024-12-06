@@ -97,14 +97,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 99,
-  "Name": "Ferry, Hilll and Gibson",
-  "ContentType": "facere",
-  "AttSize": 467,
-  "InlineImage": true,
-  "ContentId": "sint",
-  "AuthKey": "rerum",
-  "IsSafeFileExtension": true
+  "AttachmentId": 920,
+  "Name": "Fritsch Group",
+  "ContentType": "et",
+  "AttSize": 384,
+  "InlineImage": false,
+  "ContentId": "eum",
+  "AuthKey": "at",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 707,
-  "Name": "Ullrich-Oberbrunner",
-  "ContentType": "aut",
-  "AttSize": 700,
-  "InlineImage": false,
-  "ContentId": "architecto",
-  "AuthKey": "aperiam",
+  "AttachmentId": 407,
+  "Name": "Sanford-Ryan",
+  "ContentType": "quos",
+  "AttSize": 45,
+  "InlineImage": true,
+  "ContentId": "et",
+  "AuthKey": "nihil",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 228
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

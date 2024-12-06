@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 179,
-    "Name": "Sawayn, O'Reilly and Robel",
-    "ToolTip": "Iste deserunt ipsam animi.",
-    "Deleted": false,
-    "Rank": 157,
-    "Type": "nam",
-    "ColorBlock": 522,
-    "IconHint": "corrupti",
+    "Id": 718,
+    "Name": "Kuhn-Bahringer",
+    "ToolTip": "Asperiores facilis alias est expedita soluta ipsa.",
+    "Deleted": true,
+    "Rank": 75,
+    "Type": "eum",
+    "ColorBlock": 106,
+    "IconHint": "esse",
     "Selected": true,
-    "LastChanged": "2013-12-30T14:45:13.7711051+01:00",
+    "LastChanged": "2013-09-07T10:18:01.0668705+02:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Zboncak Inc and Sons",
-        "ToolTip": "Dolore qui minima.",
+        "Id": 578,
+        "Name": "Hettinger LLC",
+        "ToolTip": "Quae et.",
         "Deleted": true,
-        "Rank": 566,
-        "Type": "veniam",
-        "ColorBlock": 527,
-        "IconHint": "odio",
+        "Rank": 272,
+        "Type": "expedita",
+        "ColorBlock": 831,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-11-29T14:45:13.7711051+01:00",
+        "LastChanged": "2006-05-06T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Ms. Jordy Zboncak II",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Marion Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "ab",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Ronaldo Eichmann",
+    "FullName": "Dr. Breana Judson Fay MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

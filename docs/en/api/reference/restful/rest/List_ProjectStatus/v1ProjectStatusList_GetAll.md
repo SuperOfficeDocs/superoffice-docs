@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Schumm LLC",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "UdListDefinitionId": 608,
-    "Rank": 25,
+    "Id": 960,
+    "Name": "Sawayn-Herman",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 785,
+    "Rank": 327,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

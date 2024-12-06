@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Nov 2018 14:45:12 G11T
+Last-Modified: Mon, 07 Jan 2008 10:18:00 G1T
 
 {
-  "ForeignAppId": 729,
-  "Name": "Rolfson Inc and Sons",
-  "CreatedDate": "2010-02-23T14:45:12.8338163+01:00",
-  "UpdatedDate": "2018-11-05T14:45:12.8338163+01:00",
+  "ForeignAppId": 130,
+  "Name": "Howe-Kuhn",
+  "CreatedDate": "2020-01-01T10:18:00.4262067+01:00",
+  "UpdatedDate": "2008-01-07T10:18:00.4262067+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 940,
-      "Name": "Little Inc and Sons",
-      "CreatedDate": "2023-09-21T14:45:12.8338163+02:00",
-      "UpdatedDate": "2022-05-14T14:45:12.8338163+02:00",
-      "AssociateFullName": "Bradford Bosco",
-      "CreatedBy": "reprehenderit",
-      "UpdatedBy": "quasi",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 702,
+      "ForeignDeviceId": 92,
+      "Name": "Goyette, Altenwerth and Boehm",
+      "CreatedDate": "2023-02-12T10:18:00.4262067+01:00",
+      "UpdatedDate": "2016-12-01T10:18:00.4262067+01:00",
+      "AssociateFullName": "Concepcion Herzog",
+      "CreatedBy": "odit",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 806,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 673
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Mon, 05 Nov 2018 14:45:12 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

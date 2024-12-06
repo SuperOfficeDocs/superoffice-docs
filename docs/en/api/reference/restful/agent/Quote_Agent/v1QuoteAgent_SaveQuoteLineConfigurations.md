@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 983,
-      "FieldName": "Fadel-Bergstrom",
-      "Label": "harum",
-      "Tooltip": "nisi",
-      "Editable": true,
+      "QuoteLineConfigurationId": 65,
+      "FieldName": "Russel LLC",
+      "Label": "delectus",
+      "Tooltip": "nobis",
+      "Editable": false,
       "InUse": false,
-      "Mandatory": false,
-      "Rank": 847,
-      "RestrictEdit": true
+      "Mandatory": true,
+      "Rank": 414,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 611,
-    "FieldName": "Lind, Gerlach and Ziemann",
-    "Label": "saepe",
-    "Tooltip": "odio",
-    "Editable": true,
+    "QuoteLineConfigurationId": 646,
+    "FieldName": "Welch Group",
+    "Label": "iusto",
+    "Tooltip": "ea",
+    "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 175,
+    "Rank": 806,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 177
       }
     }
   }

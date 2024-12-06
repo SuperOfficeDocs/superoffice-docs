@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 800,
-  "Name": "Carter, Hoeger and Sporer",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 11,
+  "WebPanelId": 280,
+  "Name": "Lockman, Farrell and Thiel",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 163,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Ratke Inc and Sons",
+  "WindowName": "Donnelly-Lakin",
   "Url": "http://www.example.com/",
-  "ProgId": "dolor",
-  "Icon": 465,
+  "ProgId": "aperiam",
+  "Icon": 457,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldLength": 494
     }
   }
 }

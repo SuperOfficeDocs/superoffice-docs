@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Nikolaus Group",
-    "Lang Group"
+    "Quitzon-Bins",
+    "Wilderman, Goldner and Waters"
   ],
-  "Culture": "ad"
+  "Culture": "quidem"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Batz, Quigley and Dickens",
-    "ResourceValue": "porro",
-    "Culture": "odit",
-    "IsActive": false,
+    "ResourceName": "Keebler Group",
+    "ResourceValue": "nostrum",
+    "Culture": "facilis",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 871
       }
     }
   },
   {
-    "ResourceName": "Batz, Quigley and Dickens",
-    "ResourceValue": "porro",
-    "Culture": "odit",
-    "IsActive": false,
+    "ResourceName": "Keebler Group",
+    "ResourceValue": "nostrum",
+    "Culture": "facilis",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 871
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 560,
-    "Name": "Swaniawski Inc and Sons",
-    "Tooltip": "provident",
-    "Rank": 781,
-    "Rate": 11294.936,
-    "Units": 9749.874,
+    "CurrencyId": 631,
+    "Name": "McClure, Bradtke and Padberg",
+    "Tooltip": "veritatis",
+    "Rank": 670,
+    "Rate": 2052.77,
+    "Units": 22270.203999999998,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 279
       }
     }
   }

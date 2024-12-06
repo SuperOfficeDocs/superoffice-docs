@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Effertz, Moen and Douglas",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 783,
-    "UdListDefinitionId": 16,
+    "HeadingId": 94,
+    "Name": "Torp-Hudson",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 287,
+    "UdListDefinitionId": 35,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 565
       }
     }
   }

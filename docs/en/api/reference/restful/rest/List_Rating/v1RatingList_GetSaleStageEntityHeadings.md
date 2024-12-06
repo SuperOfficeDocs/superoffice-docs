@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 52,
-    "Name": "Konopelski-Monahan",
-    "Tooltip": "esse",
+    "HeadingId": 482,
+    "Name": "Wiza, Morissette and Nolan",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 84,
-    "UdListDefinitionId": 506,
+    "Rank": 461,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

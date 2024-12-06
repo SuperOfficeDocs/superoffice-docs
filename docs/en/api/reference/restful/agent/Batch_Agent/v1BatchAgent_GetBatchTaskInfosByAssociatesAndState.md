@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    76,
-    246
+    639,
+    890
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Casper, O'Connell and Jacobs",
-    "AssociateId": 190,
-    "DetailsTable": 474,
-    "DetailsRecord": 16,
-    "IsSystemTask": true,
+    "Id": 397,
+    "Name": "Smith Group",
+    "AssociateId": 188,
+    "DetailsTable": 541,
+    "DetailsRecord": 506,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "modi",
-      "ParameterObject2": "quibusdam"
+      "ParameterObject1": "architecto",
+      "ParameterObject2": "harum"
     },
-    "LastStarted": "2017-08-26T14:45:04.8815214+02:00",
-    "Created": "2021-01-17T14:45:04.8815214+01:00",
-    "StartCount": 173,
-    "DatabaseSerialNumber": "355177",
-    "Context": "aut",
-    "Result": "illo",
+    "LastStarted": "2005-11-28T10:17:55.1290102+01:00",
+    "Created": "2009-10-22T10:17:55.1290102+02:00",
+    "StartCount": 979,
+    "DatabaseSerialNumber": "745095",
+    "Context": "eos",
+    "Result": "excepturi",
     "State": "All",
-    "Description": "Fully-configurable client-server application",
-    "Response": "occaecati",
-    "Request": "est",
-    "ProgressDescription": "Streamlined holistic encryption",
-    "ProgressPercent": 79,
-    "FileName": "Gislason, Schuppe and Mante",
+    "Description": "Multi-tiered exuding website",
+    "Response": "reprehenderit",
+    "Request": "minus",
+    "ProgressDescription": "Profit-focused cohesive support",
+    "ProgressPercent": 770,
+    "FileName": "Bartoletti, Lueilwitz and Ferry",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

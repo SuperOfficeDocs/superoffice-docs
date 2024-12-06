@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=629
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=738
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consectetur",
+  "SaleText": "vero",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-12-15T14:45:06.1624857+01:00",
-  "Amount": 14294.173999999999,
-  "SaleId": 568,
-  "Earning": 30462.48,
-  "EarningPercent": 18938.762,
-  "Heading": "inventore",
-  "Number": "1528960",
-  "Probability": 616,
-  "CreatedDate": "1998-08-17T14:45:06.1624857+02:00",
-  "UpdatedDate": "2013-03-16T14:45:06.1624857+01:00",
+  "Saledate": "2007-11-15T10:17:56.0040633+01:00",
+  "Amount": 14306.71,
+  "SaleId": 252,
+  "Earning": 3629.172,
+  "EarningPercent": 22298.41,
+  "Heading": "tenetur",
+  "Number": "1000788",
+  "Probability": 737,
+  "CreatedDate": "2006-11-20T10:17:56.0040633+01:00",
+  "UpdatedDate": "2010-03-21T10:17:56.0040633+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 163,
+  "ActiveLinks": 786,
   "Links": [
     {
-      "EntityName": "Kshlerin Inc and Sons",
-      "Id": 812,
-      "Description": "Polarised directional approach",
-      "ExtraInfo": "nulla",
-      "LinkId": 60,
+      "EntityName": "Reynolds, Franecki and Lowe",
+      "Id": 377,
+      "Description": "Public-key content-based time-frame",
+      "ExtraInfo": "quas",
+      "LinkId": 387,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 922
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2021-02-06T10:17:56.0040633+01:00",
+  "Postit": "minima",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2016-04-21T10:17:56.0040633+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Gislason LLC",
+      "Comment": "iusto",
+      "StakeholderRoleId": 29,
+      "CountryId": 345,
+      "PersonId": 136,
+      "EmailDescription": "tyson.ernser@bahringer.us",
+      "EmailId": 280,
+      "EmailAddress": "devan_vonrueden@hahn.uk",
+      "PhoneId": 41,
+      "ContactName": "Morissette LLC",
+      "ContactId": 670,
+      "SaleId": 289,
+      "Mrmrs": "labore",
+      "Firstname": "Myrna",
+      "MiddleName": "Hegmann Inc and Sons",
+      "Lastname": "Stracke",
+      "SaleStakeholderId": 24,
+      "Rank": 444,
+      "Phone": "1-852-068-7270 x2132",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 39
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 859,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mr. Hope Quincy Lind DVM",
+    "SuperOffice:2": "Glennie Jessy Gulgowski PhD"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "eos"
+  },
+  "CustomFields": {
+    "CustomFields1": "enim",
+    "CustomFields2": "consequuntur"
+  },
+  "PublishEventDate": "2006-03-23T10:17:56.0040633+01:00",
+  "PublishTo": "2002-11-06T10:17:56.0040633+01:00",
+  "PublishFrom": "2001-11-13T10:17:56.0040633+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 614,
+      "Visibility": "All",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 497
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2013-11-16T14:45:06.1624857+01:00",
-  "Postit": "id",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2008-04-28T14:45:06.1624857+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bergstrom, Pollich and Rohan",
-      "Comment": "omnis",
-      "StakeholderRoleId": 94,
-      "CountryId": 843,
-      "PersonId": 451,
-      "EmailDescription": "marlin@kutch.info",
-      "EmailId": 446,
-      "EmailAddress": "hermann@vonprice.com",
-      "PhoneId": 354,
-      "ContactName": "Thompson-Osinski",
-      "ContactId": 500,
-      "SaleId": 372,
-      "Mrmrs": "sunt",
-      "Firstname": "Sid",
-      "MiddleName": "Rau Inc and Sons",
-      "Lastname": "Jaskolski",
-      "SaleStakeholderId": 548,
-      "Rank": 356,
-      "Phone": "1-164-515-4546 x79103",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 844
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 570,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Ivy Carroll DDS",
-    "SuperOffice:2": "1768281516"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "minima"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "nemo"
-  },
-  "PublishEventDate": "2022-03-04T14:45:06.1624857+01:00",
-  "PublishTo": "2013-03-29T14:45:06.1624857+01:00",
-  "PublishFrom": "2004-12-03T14:45:06.1624857+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 156,
-      "Visibility": "All",
-      "DisplayValue": "unde",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 759
         }
       }
     },
     {
-      "VisibleId": 156,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 759
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 602
     }
   }
 }

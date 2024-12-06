@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ritchie, Rempel and Brakus",
-    "DisplayName": "Glover LLC",
-    "DisplayTooltip": "quidem",
-    "IsActive": true,
+    "Name": "Goodwin-White",
+    "DisplayName": "Cruickshank-Mraz",
+    "DisplayTooltip": "sint",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 790
       }
     }
   },
   {
-    "Name": "Ritchie, Rempel and Brakus",
-    "DisplayName": "Glover LLC",
-    "DisplayTooltip": "quidem",
-    "IsActive": true,
+    "Name": "Goodwin-White",
+    "DisplayName": "Cruickshank-Mraz",
+    "DisplayTooltip": "sint",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 790
       }
     }
   }

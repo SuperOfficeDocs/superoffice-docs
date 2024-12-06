@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/EMail/RefreshFolderForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    "neque",
-    "vel"
+    "et",
+    "iure"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"distinctio"
 ```

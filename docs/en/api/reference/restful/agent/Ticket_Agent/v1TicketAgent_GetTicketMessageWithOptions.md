@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 336,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 647,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 955,
+  "EjMessageId": 847,
   "Ticket": null,
-  "CreatedAt": "2020-01-18T14:45:06.4280519+01:00",
+  "CreatedAt": "2012-12-25T10:17:56.1759487+01:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 802,
-  "Body": "magnam",
-  "HtmlBody": "molestias",
-  "EmailHeader": "braeden@volkman.com",
-  "DebugInfo": "eaque",
-  "MailSorter": "possimus",
+  "MessageId": "consequatur",
+  "TimeSpent": 851,
+  "Body": "sit",
+  "HtmlBody": "in",
+  "EmailHeader": "hudson@sanford.uk",
+  "DebugInfo": "odit",
+  "MailSorter": "maiores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "incidunt",
+  "SearchTitle": "porro",
   "MessageHeaders": [
     {
-      "Id": 460,
-      "Name": "Wolff LLC",
-      "Value": "nihil",
+      "Id": 317,
+      "Name": "White, Johnson and Mueller",
+      "Value": "dolores",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 420
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "rerum",
-  "Sentiment": 995,
-  "SentimentConfidence": 36,
+  "Important": false,
+  "Language": "animi",
+  "Sentiment": 118,
+  "SentimentConfidence": 370,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 264,
-      "Name": "Doyle LLC",
-      "ContentType": "qui",
-      "AttSize": 330,
-      "InlineImage": true,
-      "ContentId": "nobis",
-      "AuthKey": "enim",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 963,
+      "Name": "Yost, Schamberger and Kuhic",
+      "ContentType": "exercitationem",
+      "AttSize": 155,
+      "InlineImage": false,
+      "ContentId": "eum",
+      "AuthKey": "velit",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 403
+          "FieldType": "System.Int32",
+          "FieldLength": 183
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "aut"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

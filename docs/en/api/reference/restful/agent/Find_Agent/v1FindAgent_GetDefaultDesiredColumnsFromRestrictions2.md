@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bauch-Howell",
-  "Restrictions": "et"
+  "ProviderName": "Kutch-Tremblay",
+  "Restrictions": "reiciendis"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Parker, Klein and Feest",
-    "DisplayTooltip": "beatae",
-    "DisplayType": "est",
-    "CanOrderBy": true,
-    "Name": "Carter, Emmerich and Bartoletti",
-    "CanRestrictBy": true,
-    "RestrictionType": "officia",
-    "RestrictionListName": "Smith-Bode",
+    "DisplayName": "Roberts, Carroll and Feil",
+    "DisplayTooltip": "corporis",
+    "DisplayType": "modi",
+    "CanOrderBy": false,
+    "Name": "Casper-Runolfsson",
+    "CanRestrictBy": false,
+    "RestrictionType": "dolore",
+    "RestrictionListName": "Rau, Romaguera and Gislason",
     "IsVisible": false,
-    "ExtraInfo": "hic",
-    "Width": "minus",
-    "IconHint": "cum",
-    "HeadingIconHint": "dicta"
+    "ExtraInfo": "ad",
+    "Width": "tenetur",
+    "IconHint": "at",
+    "HeadingIconHint": "reiciendis"
   }
 ]
 ```

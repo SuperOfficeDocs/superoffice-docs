@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Zieme, Lang and Labadie",
-    "ToolTip": "Autem error rerum.",
+    "Id": 75,
+    "Name": "Brown-Hettinger",
+    "ToolTip": "Blanditiis consequatur.",
     "Deleted": false,
-    "Rank": 5,
-    "Type": "velit",
-    "ColorBlock": 7,
-    "IconHint": "aut",
+    "Rank": 978,
+    "Type": "aut",
+    "ColorBlock": 517,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2012-04-16T14:45:13.7398643+02:00",
+    "LastChanged": "2009-04-06T10:18:01.051244+02:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Ratke Inc and Sons",
-        "ToolTip": "Et debitis sint.",
+        "Id": 880,
+        "Name": "Rohan, Mann and Hessel",
+        "ToolTip": "Sint est possimus dolores expedita non.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "velit",
-        "ColorBlock": 867,
-        "IconHint": "occaecati",
+        "Rank": 81,
+        "Type": "voluptatem",
+        "ColorBlock": 576,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2005-09-05T14:45:13.7398643+02:00",
+        "LastChanged": "2022-01-15T10:18:01.051244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "sit",
+        "ExtraInfo": "quis",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Nathan Keebler"
+        "FullName": "Reymundo Prohaska"
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Carroll Cummerata"
+    "ExtraInfo": "ea",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Jeanne Omari Koch DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Konopelski-Barrows",
-    "ToolTip": "Qui qui ut laborum corporis.",
-    "Deleted": true,
-    "Rank": 628,
-    "Type": "adipisci",
-    "ColorBlock": 429,
-    "IconHint": "cum",
+    "Id": 284,
+    "Name": "Robel-Rodriguez",
+    "ToolTip": "Ab suscipit consequatur illum eum.",
+    "Deleted": false,
+    "Rank": 665,
+    "Type": "dolor",
+    "ColorBlock": 899,
+    "IconHint": "delectus",
     "Selected": true,
-    "LastChanged": "2020-12-26T14:45:13.7398643+01:00",
+    "LastChanged": "2024-01-07T10:18:01.051244+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Dietrich-Schimmel",
-        "ToolTip": "Itaque voluptates.",
-        "Deleted": false,
-        "Rank": 872,
-        "Type": "sint",
-        "ColorBlock": 771,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2020-07-21T14:45:13.7398643+02:00",
+        "Id": 70,
+        "Name": "Crona, Block and Steuber",
+        "ToolTip": "Ipsam autem et maxime.",
+        "Deleted": true,
+        "Rank": 698,
+        "Type": "nisi",
+        "ColorBlock": 188,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2015-07-19T10:18:01.051244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Ms. Marcella Osinski Sr.",
+        "ExtraInfo": "et",
+        "StyleHint": "maxime",
+        "Hidden": false,
+        "FullName": "Miss Marilyne Terrance Lebsack Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldType": "System.String",
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Willis Howe",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Jerad Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 795
       }
     }
   }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 297,
-    "Name": "Stanton-Schmidt",
-    "Tooltip": "voluptatem",
+    "Id": 569,
+    "Name": "Bauch-Fadel",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 618,
-    "Rank": 175
+    "UdListDefinitionId": 880,
+    "Rank": 498
   },
   {
-    "Id": 297,
-    "Name": "Stanton-Schmidt",
-    "Tooltip": "voluptatem",
+    "Id": 569,
+    "Name": "Bauch-Fadel",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 618,
-    "Rank": 175
+    "UdListDefinitionId": 880,
+    "Rank": 498
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Haley, Stracke and Klocko",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 546,
-    "Rank": 486,
+    "Id": 46,
+    "Name": "Leannon, Williamson and Hirthe",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "UdListDefinitionId": 389,
+    "Rank": 564,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 146
       }
     }
   }

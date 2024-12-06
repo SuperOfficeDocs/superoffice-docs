@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 01 Mar 2013 14:45:12 G3T
+Last-Modified: Fri, 03 May 2019 10:18:00 G5T
 
 {
-  "BlobId": 681,
-  "BlobSize": 848,
-  "Description": "Organized multi-state alliance",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "reiciendis",
-  "OriginalSize": 69,
-  "CreatedDate": "2009-10-26T14:45:12.6151129+01:00",
-  "UpdatedDate": "2013-03-01T14:45:12.6151129+01:00",
+  "BlobId": 622,
+  "BlobSize": 84,
+  "Description": "Exclusive actuating database",
+  "ExtraInfo": "quibusdam",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "sit",
+  "OriginalSize": 176,
+  "CreatedDate": "2021-05-11T10:18:00.2699456+02:00",
+  "UpdatedDate": "2019-05-03T10:18:00.2699456+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolore",
+  "ConceptualType": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldLength": 378
     }
   }
 }

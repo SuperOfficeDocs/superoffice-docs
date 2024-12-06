@@ -47,6 +47,7 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [HasStakeholderSetting](HasStakeholderSetting.md)
 * [IsNumberValid](IsNumberValid.md)
 * [OfferAutoNextStageOnApppointmentCompleted](OfferAutoNextStageOnApppointmentCompleted.md)
+* [SaleHasQuote](SaleHasQuote.md)
 * [SaveSaleEntity](SaveSaleEntity.md)
 * [SaveSaleStakeholder](SaveSaleStakeholder.md)
 * [SetAsLost](SetAsLost.md)

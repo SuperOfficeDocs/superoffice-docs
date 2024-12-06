@@ -93,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 698,
-  "PrefDescId": 625,
-  "PrefValue": "exercitationem",
-  "PrefShowValue": "facere",
-  "Description": "Customizable bottom-line encryption",
+  "PrefDescLineId": 884,
+  "PrefDescId": 251,
+  "PrefValue": "dolore",
+  "PrefShowValue": "veritatis",
+  "Description": "Sharable national utilisation",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 155,
-  "PrefDescId": 382,
-  "PrefValue": "sint",
-  "PrefShowValue": "quibusdam",
-  "Description": "Operative static capacity",
+  "PrefDescLineId": 703,
+  "PrefDescId": 510,
+  "PrefValue": "dolor",
+  "PrefShowValue": "rerum",
+  "Description": "Seamless neutral infrastructure",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 972
     }
   },
   "_Links": {

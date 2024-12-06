@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 560
+  "ErpConnectionId": 604
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Cronin Group",
+      "ErpListName": "Orn-Collier",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Eichmann Inc and Sons",
-      "ErpFieldId": 781,
+      "ErpActorTypeName": "Gleichner, Bednar and Shields",
+      "ErpFieldId": 71,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldLength": 648
         }
       }
     }
   ],
-  "ErpConnectionId": 271,
-  "ErpConnectionName": "Carroll, Monahan and Zulauf",
+  "ErpConnectionId": 237,
+  "ErpConnectionName": "Bogan, Hyatt and Casper",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 84
     }
   }
 }

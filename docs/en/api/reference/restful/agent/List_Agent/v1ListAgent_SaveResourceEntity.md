@@ -79,13 +79,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 971,
-  "Name": "Mraz-Ward",
-  "Rank": 401,
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "doloremque"
+  "ResourceId": 939,
+  "Name": "Schroeder, Hickle and Gutmann",
+  "Rank": 881,
+  "Tooltip": "sed",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "eius"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 195,
-  "Name": "Feil-Fritsch",
-  "Rank": 232,
-  "Tooltip": "ut",
-  "Deleted": false,
+  "ResourceId": 330,
+  "Name": "Renner Inc and Sons",
+  "Rank": 891,
+  "Tooltip": "laudantium",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "quasi",
+  "LocationAddress": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

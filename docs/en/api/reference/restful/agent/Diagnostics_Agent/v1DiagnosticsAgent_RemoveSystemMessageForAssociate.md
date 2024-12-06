@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 87,
-  "SystemMessageId": "quam",
-  "AssociateId": 926
+  "OnlineappId": 15,
+  "SystemMessageId": "rerum",
+  "AssociateId": 455
 }
 ```
 

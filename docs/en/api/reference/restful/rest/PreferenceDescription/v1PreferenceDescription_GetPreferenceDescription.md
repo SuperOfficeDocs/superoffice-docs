@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 115,
-  "Section": "consequatur",
-  "Key": "voluptates",
-  "Name": "Jenkins-Hyatt",
+  "PrefDescId": 819,
+  "Section": "architecto",
+  "Key": "libero",
+  "Name": "Keebler-Schoen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic holistic architecture",
-  "IsBuiltin": false,
-  "TableName": "Witting, Waelchi and Lebsack",
-  "UserDefinedListId": 580,
-  "Rank": 273,
-  "SubGroup": "porro",
-  "MinLevel": 104,
-  "MaxValue": 355,
-  "MinValue": 335,
-  "RequiredLicense": "delectus",
+  "Description": "Open-source discrete moderator",
+  "IsBuiltin": true,
+  "TableName": "Pacocha Inc and Sons",
+  "UserDefinedListId": 434,
+  "Rank": 999,
+  "SubGroup": "velit",
+  "MinLevel": 618,
+  "MaxValue": 1001,
+  "MinValue": 117,
+  "RequiredLicense": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 853
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

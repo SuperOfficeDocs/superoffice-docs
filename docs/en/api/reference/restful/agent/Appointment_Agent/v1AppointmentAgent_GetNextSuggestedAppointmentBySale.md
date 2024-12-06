@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 614,
-  "CurrentAppointmentId": 319,
+  "SaleId": 798,
+  "CurrentAppointmentId": 141,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 896,
-  "Deleted": 551,
-  "DaysFuture": 526,
-  "Tooltip": "perspiciatis",
-  "Text": "voluptatibus",
-  "TaskId": 722,
-  "SuggestedAppointmentId": 204,
-  "SaleTypeStageLinkId": 574,
-  "RegisteredAssociateId": 161,
-  "Rank": 383,
-  "ProjectTypeStatusLinkId": 121,
-  "Name": "Braun-Runolfsdottir",
-  "Duration": 369,
+  "AutoSuggest": 94,
+  "Deleted": 36,
+  "DaysFuture": 557,
+  "Tooltip": "eum",
+  "Text": "rem",
+  "TaskId": 723,
+  "SuggestedAppointmentId": 566,
+  "SaleTypeStageLinkId": 720,
+  "RegisteredAssociateId": 407,
+  "Rank": 569,
+  "ProjectTypeStatusLinkId": 311,
+  "Name": "Schinner, Goyette and Gleichner",
+  "Duration": 156,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

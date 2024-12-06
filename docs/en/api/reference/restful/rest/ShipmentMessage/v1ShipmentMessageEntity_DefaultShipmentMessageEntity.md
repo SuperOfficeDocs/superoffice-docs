@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 718,
-  "PlainMessage": "vero",
-  "HtmlMessage": "quisquam",
-  "SmsMessage": "odio",
-  "Description": "Realigned motivating help-desk",
-  "Subject": "ad",
-  "FolderId": 222,
-  "HeaderField": "corporis",
-  "Design": "excepturi",
+  "ShipmentMessageId": 855,
+  "PlainMessage": "ipsa",
+  "HtmlMessage": "quas",
+  "SmsMessage": "similique",
+  "Description": "Secured 6th generation capacity",
+  "Subject": "sint",
+  "FolderId": 320,
+  "HeaderField": "omnis",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Function-based national process improvement",
-  "AccessKey": "quo",
-  "DocumentMessage": 176,
-  "Registered": "2015-09-05T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 960,
-  "Updated": "2014-01-14T14:45:13.2555955+01:00",
-  "UpdatedAssociateId": 462,
-  "UpdatedCount": 891,
+  "LongDescription": "Multi-channelled zero administration throughput",
+  "AccessKey": "laudantium",
+  "DocumentMessage": 934,
+  "Registered": "2012-09-01T10:18:00.723098+02:00",
+  "RegisteredAssociateId": 400,
+  "Updated": "2005-09-20T10:18:00.723098+02:00",
+  "UpdatedAssociateId": 439,
+  "UpdatedCount": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 54
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Okuneva Group",
-    "ToolTip": "Minima enim sit cumque.",
+    "Id": 992,
+    "Name": "Nicolas, Block and Gusikowski",
+    "ToolTip": "Pariatur tempore itaque molestiae aspernatur et fugiat architecto.",
     "Deleted": true,
-    "Rank": 988,
-    "Type": "ex",
-    "ColorBlock": 735,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2003-01-23T14:45:13.833594+01:00",
+    "Rank": 460,
+    "Type": "repudiandae",
+    "ColorBlock": 357,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2023-01-09T10:18:01.0981224+01:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Huels-Jenkins",
-        "ToolTip": "Qui eius soluta ipsam eligendi quia incidunt.",
+        "Id": 264,
+        "Name": "Wiegand Group",
+        "ToolTip": "Sequi reprehenderit officia nihil provident.",
         "Deleted": false,
-        "Rank": 536,
-        "Type": "dolore",
-        "ColorBlock": 219,
-        "IconHint": "illum",
+        "Rank": 978,
+        "Type": "labore",
+        "ColorBlock": 809,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2003-02-20T14:45:13.833594+01:00",
+        "LastChanged": "2014-06-06T10:18:01.0981224+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Mrs. Harold Deangelo Kuhic PhD",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Emory Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 316
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "magnam",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Eudora Shanahan",
+    "FullName": "Guillermo Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldLength": 183
       }
     }
   }

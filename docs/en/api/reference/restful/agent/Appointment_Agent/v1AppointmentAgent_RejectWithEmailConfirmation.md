@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 663,
-  "RejectReason": "seize magnetic e-business",
+  "AppointmentId": 499,
+  "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }
 ```

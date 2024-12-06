@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=412
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=804
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 321,
-  "ERPQuoteAlternativeKey": "cupiditate",
-  "QuoteVersionId": 579,
-  "Name": "Koelpin-Konopelski",
-  "Description": "Cross-platform uniform product",
+  "QuoteAlternativeId": 535,
+  "ERPQuoteAlternativeKey": "in",
+  "QuoteVersionId": 289,
+  "Name": "Cummerata, Lind and Pouros",
+  "Description": "Advanced demand-driven protocol",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 16052.348,
-  "ERPDiscountAmount": 6728.6979999999994,
-  "DiscountPercent": 24401.324,
-  "DiscountAmount": 25507.626,
+  "ERPDiscountPercent": 27503.984,
+  "ERPDiscountAmount": 25576.574,
+  "DiscountPercent": 25554.636,
+  "DiscountAmount": 2080.976,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 10254.448,
-  "EarningPercent": 147.298,
-  "EarningAmount": 17584.874,
-  "SubTotal": 20120.28,
-  "TotalPrice": 7797.392,
-  "ExtraField1": "sint",
-  "ExtraField2": "quis",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "alias",
+  "VATInfo": "esse",
+  "VAT": 5587.922,
+  "EarningPercent": 9223.362,
+  "EarningAmount": 18067.51,
+  "SubTotal": 4763.68,
+  "TotalPrice": 7653.228,
+  "ExtraField1": "expedita",
+  "ExtraField2": "occaecati",
+  "ExtraField3": "quis",
+  "ExtraField4": "est",
+  "ExtraField5": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldLength": 396
     }
   }
 }

@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "asperiores"
+  "Message": "modi"
 }
 ```
 
@@ -86,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "pariatur"
+  "Message": "atque"
 }
 ```

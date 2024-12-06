@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 817,
-    "ErpConnectorId": 308,
-    "DisplayName": "Schinner, Rowe and Yundt",
-    "DisplayDescription": "Seamless reciprocal policy",
+    "ErpConnectionId": 29,
+    "ErpConnectorId": 704,
+    "DisplayName": "Hettinger Group",
+    "DisplayDescription": "Enhanced bottom-line alliance",
     "Active": false,
-    "ConnectionId": "illum",
-    "MostRecentTimestamp": "est",
+    "ConnectionId": "aliquid",
+    "MostRecentTimestamp": "accusamus",
     "ConfigFields": {
-      "ConfigFields1": "rerum",
-      "ConfigFields2": "quia"
+      "ConfigFields1": "quaerat",
+      "ConfigFields2": "repellendus"
     },
     "Deleted": true,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      833,
-      842
+      481,
+      147
     ],
     "AssociateAccessIds": [
-      519,
-      177
+      854,
+      8
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 650
+        "FieldLength": 134
       }
     }
   }

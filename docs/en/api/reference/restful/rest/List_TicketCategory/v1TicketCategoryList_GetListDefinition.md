@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 386,
-  "Name": "Considine Group",
-  "Tooltip": "est",
+  "Id": 972,
+  "Name": "McLaughlin-Franecki",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 189,
+  "Rank": 810,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "modi",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   },
   "_Links": {

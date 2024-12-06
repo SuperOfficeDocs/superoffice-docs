@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "minima",
+  "RawValue": "maiores",
   "Specification": null,
-  "DisplayValue": "inventore",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "pariatur",
+  "DisplayTooltip": "explicabo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 76,
-  "PrefDescId": 61,
-  "TableName": "Rau LLC",
-  "UserPreferenceId": 133,
+  "TargetId": 528,
+  "PrefDescId": 344,
+  "TableName": "Ruecker-Klocko",
+  "UserPreferenceId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 616,
-  "QuoteAlternativeId": 2
+  "QuoteVersionId": 472,
+  "QuoteAlternativeId": 295
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "amet",
-      "DisplayText": "suscipit",
-      "TooltipText": "voluptatem",
-      "Enabled": false,
+      "ImageHint": "repellat",
+      "DisplayText": "qui",
+      "TooltipText": "officia",
+      "Enabled": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 302
         }
       }
     }
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

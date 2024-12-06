@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=32
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=73
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 690,
+  "EjMessageId": 504,
   "Ticket": null,
-  "CreatedAt": "2004-05-02T14:45:06.584269+02:00",
+  "CreatedAt": "2020-10-01T10:17:56.2697028+02:00",
   "CreatedBy": null,
-  "Author": "quaerat",
+  "Author": "hic",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "velit",
-  "TimeSpent": 562,
-  "Body": "adipisci",
-  "HtmlBody": "esse",
-  "EmailHeader": "magali@schmidt.ca",
-  "DebugInfo": "inventore",
-  "MailSorter": "consectetur",
+  "MessageId": "quidem",
+  "TimeSpent": 94,
+  "Body": "eos",
+  "HtmlBody": "eos",
+  "EmailHeader": "verona@nicolas.co.uk",
+  "DebugInfo": "quia",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 666,
-      "Name": "Flatley Group",
-      "Value": "rerum",
+      "Id": 819,
+      "Name": "Hauck, Lakin and Simonis",
+      "Value": "temporibus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 443
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quasi",
-  "Sentiment": 76,
-  "SentimentConfidence": 55,
+  "Language": "saepe",
+  "Sentiment": 218,
+  "SentimentConfidence": 205,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 221,
-      "Name": "Schiller, Gislason and Osinski",
-      "ContentType": "ut",
-      "AttSize": 192,
-      "InlineImage": true,
-      "ContentId": "doloribus",
-      "AuthKey": "fugiat",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 573,
+      "Name": "Bauch-Schaefer",
+      "ContentType": "voluptatem",
+      "AttSize": 310,
+      "InlineImage": false,
+      "ContentId": "id",
+      "AuthKey": "quidem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 11
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "rerum",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

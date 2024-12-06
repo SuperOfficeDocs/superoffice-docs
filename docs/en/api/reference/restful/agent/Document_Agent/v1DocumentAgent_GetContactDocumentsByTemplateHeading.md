@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 397,
-  "StartTime": "2021-10-31T14:45:05.225194+01:00",
-  "EndTime": "2002-11-16T14:45:05.225194+01:00",
-  "Count": 105,
-  "TemplateHeadingId": 458
+  "ContactId": 283,
+  "StartTime": "1999-08-26T10:17:55.3477735+02:00",
+  "EndTime": "2016-04-26T10:17:55.3477735+02:00",
+  "Count": 812,
+  "TemplateHeadingId": 252
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 295,
-    "Attention": "voluptatem",
-    "Header": "dolores",
-    "Name": "Brown LLC",
-    "OurRef": "porro",
-    "YourRef": "itaque",
-    "Description": "Phased coherent standardization",
+    "DocumentId": 159,
+    "Attention": "quaerat",
+    "Header": "rerum",
+    "Name": "Harvey LLC",
+    "OurRef": "quo",
+    "YourRef": "aut",
+    "Description": "Seamless non-volatile service-desk",
     "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 406,
-    "PersonFullName": "Avis Zieme",
-    "AssociateFullName": "Leslie Gleason",
-    "ContactId": 664,
-    "ContactName": "Hickle Inc and Sons",
-    "ProjectId": 635,
-    "ProjectName": "Hane-Lemke",
-    "AssociateId": 431,
-    "Snum": 820,
-    "SaleId": 633,
-    "SaleName": "Bailey-Altenwerth",
+    "PersonId": 993,
+    "PersonFullName": "Marjolaine Rath",
+    "AssociateFullName": "Elian Crist II",
+    "ContactId": 650,
+    "ContactName": "Gislason Inc and Sons",
+    "ProjectId": 93,
+    "ProjectName": "Gorczany LLC",
+    "AssociateId": 820,
+    "Snum": 124,
+    "SaleId": 243,
+    "SaleName": "Moore, Schulist and Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 968
       }
     }
   }

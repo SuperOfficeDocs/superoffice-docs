@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Emard Group",
-    "Tooltip": "iure",
+    "Id": 919,
+    "Name": "Rath LLC",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "UdListDefinitionId": 335,
-    "Rank": 952
+    "UdListDefinitionId": 687,
+    "Rank": 537
   },
   {
-    "Id": 977,
-    "Name": "Emard Group",
-    "Tooltip": "iure",
+    "Id": 919,
+    "Name": "Rath LLC",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "UdListDefinitionId": 335,
-    "Rank": 952
+    "UdListDefinitionId": 687,
+    "Rank": 537
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Watsica-Stanton",
-    "Tooltip": "quae",
+    "Id": 198,
+    "Name": "Wiegand, Prohaska and Blick",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 493,
-    "Rank": 985,
+    "UdListDefinitionId": 36,
+    "Rank": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 162
+        "FieldLength": 859
       }
     }
   }

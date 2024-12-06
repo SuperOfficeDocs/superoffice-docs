@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=hic
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=accusamus
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Hartmann-Turner",
-    "ToolTip": "Sed magnam.",
-    "Deleted": true,
-    "Rank": 601,
-    "Type": "voluptatem",
-    "ColorBlock": 359,
-    "IconHint": "vitae",
+    "Id": 123,
+    "Name": "Greenholt Inc and Sons",
+    "ToolTip": "Voluptatem a dolorem.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "expedita",
+    "ColorBlock": 944,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2013-11-15T14:45:13.7242429+01:00",
+    "LastChanged": "2021-06-06T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 365,
-        "Name": "Farrell-Haley",
-        "ToolTip": "Minus voluptatem in autem neque minima.",
+        "Id": 626,
+        "Name": "Lubowitz, Kuvalis and Carroll",
+        "ToolTip": "Qui dolor quisquam totam.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "qui",
-        "ColorBlock": 728,
-        "IconHint": "saepe",
+        "Rank": 10,
+        "Type": "sunt",
+        "ColorBlock": 98,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2002-09-02T14:45:13.7242429+02:00",
+        "LastChanged": "2009-06-18T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Miss Patsy Hodkiewicz",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Francisca Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 751
+            "FieldType": "System.Int32",
+            "FieldLength": 585
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "ut",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Cortney Kreiger",
+    "FullName": "Prof. Rae Herzog Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldType": "System.String",
+        "FieldLength": 368
       }
     }
   }

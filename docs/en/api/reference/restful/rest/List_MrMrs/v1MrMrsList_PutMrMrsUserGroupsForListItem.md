@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Conroy Group",
-    "ToolTip": "Culpa aliquid est eum recusandae.",
+    "Id": 181,
+    "Name": "Muller-Waelchi",
+    "ToolTip": "Error nihil et cumque.",
     "Deleted": false,
-    "Rank": 59,
-    "Type": "et",
-    "ColorBlock": 827,
-    "IconHint": "optio",
-    "Selected": false,
-    "LastChanged": "2013-01-17T14:45:13.7242429+01:00",
+    "Rank": 310,
+    "Type": "illum",
+    "ColorBlock": 594,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2002-08-28T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Goyette-Ryan",
-        "ToolTip": "Vel qui quia sapiente et minima maxime.",
-        "Deleted": false,
-        "Rank": 285,
-        "Type": "quae",
-        "ColorBlock": 978,
-        "IconHint": "veniam",
+        "Id": 106,
+        "Name": "Labadie Inc and Sons",
+        "ToolTip": "At in accusantium.",
+        "Deleted": true,
+        "Rank": 731,
+        "Type": "corporis",
+        "ColorBlock": 575,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2007-09-27T14:45:13.7242429+02:00",
+        "LastChanged": "2005-12-18T10:18:01.0356179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "officiis",
+        "ExtraInfo": "qui",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Dr. Grayce Friesen"
+        "FullName": "Mrs. Ocie Kelsie Streich"
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "illum",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Mrs. Verla Carleton Mayer I"
+    "FullName": "Yadira Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Tillman, Nikolaus and Grant",
-    "ToolTip": "Enim dolor dicta.",
+    "Id": 427,
+    "Name": "Kunde-Cormier",
+    "ToolTip": "Est consectetur quia corrupti debitis totam aut.",
     "Deleted": false,
-    "Rank": 973,
-    "Type": "inventore",
-    "ColorBlock": 720,
-    "IconHint": "aspernatur",
+    "Rank": 475,
+    "Type": "molestiae",
+    "ColorBlock": 714,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2004-08-30T14:45:13.7242429+02:00",
+    "LastChanged": "2013-05-31T10:18:01.0356179+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Heller LLC",
-        "ToolTip": "Optio vitae et commodi.",
+        "Id": 873,
+        "Name": "Gislason LLC",
+        "ToolTip": "Tenetur voluptas consequatur dicta aut sint voluptate minima.",
         "Deleted": true,
-        "Rank": 102,
-        "Type": "fugiat",
-        "ColorBlock": 392,
-        "IconHint": "officiis",
+        "Rank": 952,
+        "Type": "sint",
+        "ColorBlock": 120,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2024-11-01T14:45:13.7242429+01:00",
+        "LastChanged": "2016-06-17T10:18:01.0356179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "omnis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Celine Shanahan",
+        "FullName": "Lottie Tremblay III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 503
+            "FieldLength": 816
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "ea",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jedediah Davis",
+    "FullName": "Jarvis Steve Kemmer PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldLength": 510
       }
     }
   }

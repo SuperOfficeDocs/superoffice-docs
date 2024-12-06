@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "quaerat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "quaerat",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 243,
-  "Name": "Kunze Group",
+  "ScreenChooserId": 748,
+  "Name": "Beer, Monahan and Jast",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "enim",
-  "Source": "culpa",
-  "Registered": "2017-09-23T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 859,
-  "Updated": "2023-07-29T14:45:13.3805746+02:00",
-  "UpdatedAssociateId": 965,
+  "UniqueIdentifier": "et",
+  "Source": "qui",
+  "Registered": "2000-07-02T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2009-01-05T10:18:00.8168545+01:00",
+  "UpdatedAssociateId": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 120
     }
   },
   "_Links": {

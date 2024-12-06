@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Heidenreich-Treutel",
-    "ToolTip": "Ipsum architecto ex illo voluptas ratione.",
+    "Id": 349,
+    "Name": "Nitzsche, Rau and Runolfsson",
+    "ToolTip": "Ea praesentium ut voluptas.",
     "Deleted": false,
-    "Rank": 865,
-    "Type": "neque",
-    "ColorBlock": 337,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2019-01-28T14:45:13.8648346+01:00",
+    "Rank": 62,
+    "Type": "odio",
+    "ColorBlock": 935,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2010-10-18T10:18:01.1293744+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Fahey, Lebsack and Mayert",
-        "ToolTip": "Saepe odio voluptates aperiam dolores at ut neque.",
+        "Id": 134,
+        "Name": "Denesik, O'Kon and Fay",
+        "ToolTip": "Commodi perferendis illo et dolorem.",
         "Deleted": true,
-        "Rank": 367,
-        "Type": "dolorem",
-        "ColorBlock": 475,
-        "IconHint": "dolorum",
+        "Rank": 220,
+        "Type": "deleniti",
+        "ColorBlock": 702,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2003-09-12T14:45:13.8648346+02:00",
+        "LastChanged": "2014-10-20T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Miss Enola Tad Mertz III"
+        "ExtraInfo": "possimus",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Ms. Micah Valentin Cremin II"
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "inventore",
+    "ExtraInfo": "quae",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Sim Harris"
+    "FullName": "Zaria O'Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Braun, Brakus and Doyle",
-    "ToolTip": "Distinctio id error omnis temporibus.",
-    "Deleted": true,
-    "Rank": 939,
-    "Type": "dolores",
-    "ColorBlock": 711,
-    "IconHint": "dolorum",
+    "Id": 320,
+    "Name": "Keebler Group",
+    "ToolTip": "Quo nihil ex quam.",
+    "Deleted": false,
+    "Rank": 890,
+    "Type": "nihil",
+    "ColorBlock": 982,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-09-14T14:45:13.8648346+02:00",
+    "LastChanged": "2013-11-17T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Ortiz-Kassulke",
-        "ToolTip": "Ratione iste recusandae dolores.",
-        "Deleted": true,
-        "Rank": 461,
-        "Type": "nemo",
-        "ColorBlock": 280,
-        "IconHint": "eveniet",
-        "Selected": true,
-        "LastChanged": "2007-12-19T14:45:13.8648346+01:00",
+        "Id": 506,
+        "Name": "Welch LLC",
+        "ToolTip": "Quia vero perferendis.",
+        "Deleted": false,
+        "Rank": 677,
+        "Type": "quam",
+        "ColorBlock": 90,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2003-07-14T10:18:01.1293744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Diana Hoeger",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Imelda Boyer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 390
+            "FieldType": "System.Int32",
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "et",
+    "ExtraInfo": "at",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Marcelo Shanahan",
+    "FullName": "Eliza Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

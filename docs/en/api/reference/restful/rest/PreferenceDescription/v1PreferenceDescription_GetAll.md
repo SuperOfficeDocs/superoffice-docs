@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 261,
-    "Section": "maiores",
-    "Key": "minima",
-    "Name": "Miller-Olson",
+    "PrefDescId": 509,
+    "Section": "sint",
+    "Key": "optio",
+    "Name": "Friesen, Goyette and Schoen",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Distributed neutral structure",
-    "IsBuiltin": true,
-    "TableName": "Rath, Kessler and Kovacek",
-    "UserDefinedListId": 337,
-    "Rank": 950,
-    "SubGroup": "nam",
-    "MinLevel": 651,
-    "MaxValue": 458,
-    "MinValue": 613,
-    "RequiredLicense": "expedita",
+    "Description": "Reduced optimal implementation",
+    "IsBuiltin": false,
+    "TableName": "Rogahn-McKenzie",
+    "UserDefinedListId": 740,
+    "Rank": 780,
+    "SubGroup": "totam",
+    "MinLevel": 19,
+    "MaxValue": 869,
+    "MinValue": 236,
+    "RequiredLicense": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 217
       }
     }
   }

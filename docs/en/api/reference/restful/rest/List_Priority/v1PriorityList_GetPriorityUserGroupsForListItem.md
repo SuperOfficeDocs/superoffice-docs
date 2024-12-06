@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Mitchell-Rice",
-    "ToolTip": "Corporis perspiciatis voluptatum voluptates minima enim consequatur.",
+    "Id": 876,
+    "Name": "Legros LLC",
+    "ToolTip": "Maiores rerum aut dolor itaque in veritatis.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "eum",
-    "ColorBlock": 348,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "2024-09-16T14:45:13.7711051+02:00",
+    "Rank": 62,
+    "Type": "sapiente",
+    "ColorBlock": 878,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2012-03-20T10:18:01.0668705+01:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Eos earum occaecati harum culpa.",
+        "Id": 951,
+        "Name": "Hodkiewicz, Tillman and Douglas",
+        "ToolTip": "Aliquid eius iure debitis consequatur ut nostrum enim.",
         "Deleted": false,
-        "Rank": 911,
-        "Type": "nulla",
-        "ColorBlock": 77,
-        "IconHint": "in",
+        "Rank": 471,
+        "Type": "eligendi",
+        "ColorBlock": 883,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2011-08-21T14:45:13.7711051+02:00",
+        "LastChanged": "2023-10-28T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "nihil",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Miss Mark Dane McKenzie",
+        "FullName": "Mrs. Sylvester Roslyn Schaefer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 243
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "sit",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Aaron Sanford",
+    "FullName": "Esteban Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 31
       }
     }
   }

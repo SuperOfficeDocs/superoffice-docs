@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 930,
-    "Name": "Lubowitz Group",
-    "OrgNr": "1104290",
-    "Department": "integrate magnetic deliverables",
+    "ContactId": 531,
+    "Name": "Luettgen, Murazik and Ziemann",
+    "OrgNr": "477803",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "laudantium",
-    "DirectPhone": "209-779-9235 x687",
-    "AssociateId": 453,
-    "CountryId": 121,
-    "EmailAddress": "carrie.windler@littel.com",
-    "Kananame": "esse",
-    "EmailAddressName": "juliet@osinski.biz",
+    "City": "facilis",
+    "DirectPhone": "150-283-2119 x1810",
+    "AssociateId": 381,
+    "CountryId": 438,
+    "EmailAddress": "harvey.kovacek@harris.us",
+    "Kananame": "quos",
+    "EmailAddressName": "elizabeth@cartwright.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Pansy Velma Denesik",
+    "AssociateFullName": "Prof. Alia King III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "magni",
-    "FullName": "Dr. Zachary Lesley Bosco",
+    "FormattedAddress": "porro",
+    "FullName": "Ariane Kulas",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 738,
-    "Number1": "430916",
-    "Number2": "1937800",
+    "ActiveErpLinks": 320,
+    "Number1": "1307690",
+    "Number2": "686996",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldType": "System.String",
+        "FieldLength": 78
       }
     }
   }

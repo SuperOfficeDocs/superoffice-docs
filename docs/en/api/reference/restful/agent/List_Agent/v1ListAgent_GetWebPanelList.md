@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 291,
-    "Name": "Blick-Grimes",
-    "Tooltip": "sed",
+    "WebPanelId": 196,
+    "Name": "Dicki LLC",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 978,
+    "Rank": 312,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
-    "OnTravel": true,
+    "OnCentral": true,
+    "OnSatellite": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Frami-Heaney",
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Ryan Group",
     "Url": "http://www.example.com/",
-    "ProgId": "ut",
-    "Icon": 13,
+    "ProgId": "pariatur",
+    "Icon": 432,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 962
       }
     }
   }

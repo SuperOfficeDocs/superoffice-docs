@@ -15415,6 +15415,8 @@
       href: Services88/Sale/IsNumberValid.md
     - name: OfferAutoNextStageOnApppointmentCompleted
       href: Services88/Sale/OfferAutoNextStageOnApppointmentCompleted.md
+    - name: SaleHasQuote
+      href: Services88/Sale/SaleHasQuote.md
     - name: SaveSaleEntity
       href: Services88/Sale/SaveSaleEntity.md
     - name: SaveSaleStakeholder

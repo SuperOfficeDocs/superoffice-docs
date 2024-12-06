@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 36
+  "ProjectId": 827
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 621,
-    "StartDate": "2011-08-10T14:45:04.4755994+02:00",
-    "EndDate": "2007-04-20T14:45:04.4755994+02:00",
+    "AppointmentId": 247,
+    "StartDate": "2003-11-10T10:17:54.8321167+01:00",
+    "EndDate": "2014-02-20T10:17:54.8321167+01:00",
     "Type": "BookingForChecklist",
-    "Task": "id",
-    "AssociateFullName": "Dr. Davion King II",
-    "ContactName": "Smith Inc and Sons",
-    "Description": "Operative motivating workforce",
-    "PersonFullName": "Jarret Ortiz",
-    "PersonId": 835,
-    "ContactId": 28,
-    "ProjectId": 414,
-    "ProjectName": "Reinger, Langosh and Tromp",
-    "IsPublished": false,
-    "AssociateId": 967,
-    "ColorIndex": 585,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "debitis",
+    "AssociateFullName": "Serena Hammes",
+    "ContactName": "Cummerata, Ritchie and Dietrich",
+    "Description": "Centralized context-sensitive groupware",
+    "PersonFullName": "Breana Lang",
+    "PersonId": 709,
+    "ContactId": 930,
+    "ProjectId": 230,
+    "ProjectName": "Rosenbaum, Schaefer and Lang",
+    "IsPublished": true,
+    "AssociateId": 831,
+    "ColorIndex": 770,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 883,
-    "PriorityName": "Haley-Hermann",
+    "PriorityId": 95,
+    "PriorityName": "Bayer-Bruen",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2022-07-29T14:45:04.4755994+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2002-10-30T10:17:54.8321167+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-05-23T14:45:04.4755994+02:00",
-    "RecurringEndDate": "2011-02-27T14:45:04.4755994+01:00",
-    "MotherId": 120,
-    "AssignedBy": 284,
-    "AssignedByFullName": "Miss Heloise Kub MD",
+    "RecurringStartDate": "2002-06-21T10:17:54.8321167+02:00",
+    "RecurringEndDate": "2002-02-14T10:17:54.8321167+01:00",
+    "MotherId": 339,
+    "AssignedBy": 261,
+    "AssignedByFullName": "Miss Jordan King Sr.",
     "RejectReason": "",
-    "Location": "porro",
-    "AlarmLeadTime": "et",
-    "SaleId": 513,
-    "SaleName": "Schmitt, Hodkiewicz and Lesch",
-    "AssociateName": "Douglas-McCullough",
-    "CreatedDate": "2010-06-07T14:45:04.4755994+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Soledad Anderson",
-    "CreatedByAssociateId": 883,
+    "Location": "minus",
+    "AlarmLeadTime": "qui",
+    "SaleId": 951,
+    "SaleName": "Jacobson Group",
+    "AssociateName": "Klein, Paucek and Rippin",
+    "CreatedDate": "2002-04-18T10:17:54.8321167+02:00",
+    "CreatedBy": "beatae",
+    "CreatedByFullName": "Bernie Schimmel",
+    "CreatedByAssociateId": 874,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 559,
-    "Title": "voluptas",
-    "Agenda": "dolorum",
-    "InternalNotes": "laudantium",
+    "PreferredTZLocation": 482,
+    "Title": "vitae",
+    "Agenda": "qui",
+    "InternalNotes": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 537
+        "FieldLength": 227
       }
     }
   }

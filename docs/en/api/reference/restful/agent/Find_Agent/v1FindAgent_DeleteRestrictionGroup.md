@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vitae",
-  "ProviderName": "Romaguera, Hoeger and Braun",
-  "StorageKey": "repudiandae",
-  "Rank": 843,
-  "Context": "iusto"
+  "StorageType": "fugiat",
+  "ProviderName": "Wilkinson, Yost and Becker",
+  "StorageKey": "ipsam",
+  "Rank": 157,
+  "Context": "earum"
 }
 ```
 

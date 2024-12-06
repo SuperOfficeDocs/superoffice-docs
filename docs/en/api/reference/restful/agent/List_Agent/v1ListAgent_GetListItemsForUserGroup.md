@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 876,
-  "GroupId": 832
+  "UdListDefinitionId": 742,
+  "GroupId": 551
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Kunze, Koch and Crooks",
-    "ToolTip": "Et atque.",
+    "Id": 65,
+    "Name": "Cormier LLC",
+    "ToolTip": "Assumenda animi a rerum quaerat ea.",
     "Deleted": false,
-    "Rank": 470,
-    "Type": "maiores",
-    "ColorBlock": 954,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2014-02-28T14:45:05.7094637+01:00",
+    "Rank": 403,
+    "Type": "quae",
+    "ColorBlock": 618,
+    "IconHint": "autem",
+    "Selected": true,
+    "LastChanged": "2021-05-18T10:17:55.7071691+02:00",
     "ChildItems": [
       {
-        "Id": 58,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Corporis repellat non aut.",
-        "Deleted": true,
-        "Rank": 148,
-        "Type": "consequatur",
-        "ColorBlock": 289,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2017-09-27T14:45:05.7094637+02:00",
+        "Id": 179,
+        "Name": "Kutch Group",
+        "ToolTip": "Molestiae architecto in aut excepturi voluptate ut.",
+        "Deleted": false,
+        "Rank": 432,
+        "Type": "tempore",
+        "ColorBlock": 231,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "1997-11-04T10:17:55.7071691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Ezequiel Sporer",
+        "ExtraInfo": "illo",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Stuart Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 160
+            "FieldLength": 197
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "aut",
+    "ExtraInfo": "maxime",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Constance Fisher MD",
+    "FullName": "Miss Myrtice Kenton Hilpert I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 500
       }
     }
   }

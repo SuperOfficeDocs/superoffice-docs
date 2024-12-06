@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 108,
-  "Caption": "et",
-  "Description": "Reactive dedicated software",
-  "ChartName": "Auer, Fay and Reichert",
-  "ChartId": "eligendi",
+  "DashboardTileId": 571,
+  "Caption": "veritatis",
+  "Description": "User-centric interactive standardization",
+  "ChartName": "Sawayn Group",
+  "ChartId": "nemo",
   "IsDefault": true,
-  "AssociateId": 351,
-  "GroupId": 583,
-  "SelectionId": 61,
-  "Config": "a",
+  "AssociateId": 565,
+  "GroupId": 846,
+  "SelectionId": 562,
+  "Config": "deserunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bauch-McKenzie",
-      "Description": "Adaptive global time-frame",
+      "Name": "Goldner, Dach and Rau",
+      "Description": "Monitored systematic collaboration",
       "Type": "Boolean",
-      "ListName": "Leuschke, Jakubowski and Koch",
+      "ListName": "Mitchell-Larson",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quam",
-      "DefaultDataOption": false,
+      "Value": "quaerat",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 921
+          "FieldLength": 6
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 934,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     },
     {
-      "VisibleId": 934,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 567
     }
   }
 }

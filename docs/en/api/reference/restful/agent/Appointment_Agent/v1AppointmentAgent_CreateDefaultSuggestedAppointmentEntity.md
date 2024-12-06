@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,17 +80,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 752,
-  "Name": "Mraz Inc and Sons",
-  "Tooltip": "error",
-  "Rank": 569,
+  "SuggestedAppointmentId": 91,
+  "Name": "Schneider, Monahan and Jacobi",
+  "Tooltip": "ea",
+  "Rank": 230,
   "Deleted": false,
-  "DaysFuture": 375,
-  "Duration": "magni",
+  "DaysFuture": 455,
+  "Duration": "debitis",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "earum",
+  "Text": "voluptatibus",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 395
     }
   }
 }

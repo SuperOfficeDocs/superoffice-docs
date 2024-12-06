@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pollich Inc and Sons"
+  "TableName": "Feest, Schamberger and Hand"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "consequatur",
-  "Inserts": 787,
-  "Updates": 97,
-  "Deletes": 486,
+  "Message": "autem",
+  "Inserts": 406,
+  "Updates": 867,
+  "Deletes": 5,
   "RowStatus": [
     {
-      "PrimaryKey": 861,
+      "PrimaryKey": 753,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "est"
+        "quasi",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 855
         }
       }
     },
     {
-      "PrimaryKey": 861,
+      "PrimaryKey": 753,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "est"
+        "quasi",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 855
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

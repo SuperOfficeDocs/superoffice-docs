@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 296,
-  "Name": "O'Hara, Macejkovic and Pfannerstill",
+  "TicketPriorityId": 216,
+  "Name": "Green-Turcotte",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 286,
+  "SortOrder": 120,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 313,
-  "MonStart": "2002-03-03T14:45:14.0836771+01:00",
-  "MonStop": "2018-05-07T14:45:14.0836771+02:00",
-  "TueStart": "2016-09-28T14:45:14.0836771+02:00",
-  "TueStop": "2007-07-26T14:45:14.0836771+02:00",
-  "WedStart": "1998-01-05T14:45:14.0836771+01:00",
-  "WedStop": "1998-10-10T14:45:14.0836771+02:00",
-  "ThuStart": "2007-06-11T14:45:14.0836771+02:00",
-  "ThuStop": "2002-06-01T14:45:14.0836771+02:00",
-  "FriStart": "2016-08-04T14:45:14.0836771+02:00",
-  "FriStop": "2012-03-01T14:45:14.0836771+01:00",
-  "SatStart": "2022-01-11T14:45:14.0836771+01:00",
-  "SatStop": "2005-04-07T14:45:14.0836771+02:00",
-  "SunStart": "2019-02-10T14:45:14.0836771+01:00",
-  "SunStop": "2015-01-29T14:45:14.0836771+01:00",
+  "Deadline": 404,
+  "MonStart": "2005-05-06T10:18:01.1918781+02:00",
+  "MonStop": "2006-11-28T10:18:01.1918781+01:00",
+  "TueStart": "2011-10-14T10:18:01.1918781+02:00",
+  "TueStop": "2007-07-29T10:18:01.1918781+02:00",
+  "WedStart": "2002-09-06T10:18:01.1918781+02:00",
+  "WedStop": "2015-05-23T10:18:01.1918781+02:00",
+  "ThuStart": "1998-06-13T10:18:01.1918781+02:00",
+  "ThuStop": "2002-11-14T10:18:01.1918781+01:00",
+  "FriStart": "1998-11-22T10:18:01.1918781+01:00",
+  "FriStop": "2001-02-18T10:18:01.1918781+01:00",
+  "SatStart": "2012-03-12T10:18:01.1918781+01:00",
+  "SatStop": "2014-05-23T10:18:01.1918781+02:00",
+  "SunStart": "2019-11-25T10:18:01.1918781+01:00",
+  "SunStop": "2000-07-24T10:18:01.1918781+02:00",
   "NonDates": [
-    "eaque",
-    "dolor"
+    "dolorem",
+    "molestiae"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 790,
-      "AlertLevel": 279,
-      "AlertTimeout": 927,
-      "Action": 730,
-      "DelegateTo": 897,
-      "ScriptId": 187,
-      "EmailTo": "mariana@jacobson.info",
-      "SmsTo": "vel",
-      "ReplyTemplateIdCustomer": 822,
-      "ReplyTemplateIdUser": 431,
-      "ReplyTemplateIdCatmast": 555,
-      "ReplyTemplateIdEmail": 308,
-      "RtiCustomerSms": 576,
-      "ReplyTemplateIdUserSms": 910,
-      "ReplyTemplateIdCatmastSms": 197,
-      "ReplyTemplateIdSms": 688,
+      "TicketAlertId": 605,
+      "AlertLevel": 241,
+      "AlertTimeout": 757,
+      "Action": 567,
+      "DelegateTo": 455,
+      "ScriptId": 175,
+      "EmailTo": "tianna_kessler@gutkowski.biz",
+      "SmsTo": "rerum",
+      "ReplyTemplateIdCustomer": 626,
+      "ReplyTemplateIdUser": 517,
+      "ReplyTemplateIdCatmast": 832,
+      "ReplyTemplateIdEmail": 404,
+      "RtiCustomerSms": 685,
+      "ReplyTemplateIdUserSms": 450,
+      "ReplyTemplateIdCatmastSms": 476,
+      "ReplyTemplateIdSms": 76,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 985
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 699
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   }
 }

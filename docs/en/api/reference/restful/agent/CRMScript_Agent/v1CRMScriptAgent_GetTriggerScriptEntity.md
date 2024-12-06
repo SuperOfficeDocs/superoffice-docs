@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=287
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=365
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 507,
-  "Name": "Hermiston, Murazik and Hudson",
+  "ScreenChooserId": 251,
+  "Name": "Kautzer Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "optio",
-  "Source": "eligendi",
-  "Registered": "2024-05-02T14:45:05.1783023+02:00",
-  "RegisteredAssociateId": 901,
-  "Updated": "2019-06-06T14:45:05.1783023+02:00",
-  "UpdatedAssociateId": 268,
+  "Enabled": false,
+  "UniqueIdentifier": "cupiditate",
+  "Source": "asperiores",
+  "Registered": "2005-04-09T10:17:55.3165216+02:00",
+  "RegisteredAssociateId": 609,
+  "Updated": "2019-11-24T10:17:55.3165216+01:00",
+  "UpdatedAssociateId": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldLength": 84
     }
   }
 }

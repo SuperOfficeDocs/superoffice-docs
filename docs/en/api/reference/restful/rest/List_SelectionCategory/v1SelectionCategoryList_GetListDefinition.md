@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Hermiston-Price",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 260,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "Id": 81,
+  "Name": "Hand, Barrows and Dickinson",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 15,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 678
     }
   },
   "_Links": {

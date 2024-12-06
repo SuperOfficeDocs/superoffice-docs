@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 324,
-    "Name": "Daniel Group",
-    "CurrencyId": 342,
-    "EnglishName": "Muller, White and Dickinson",
+    "CountryId": 225,
+    "Name": "Gutmann-Towne",
+    "CurrencyId": 280,
+    "EnglishName": "Pollich LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Cross-platform static leverage",
-    "OrgNrText": "441752",
-    "InterAreaPrefix": "quia",
-    "DialInPrefix": "iusto",
-    "ZipPrefix": "repellat",
-    "DomainName": "Braun, Shields and Pacocha",
-    "AddressLayoutId": 543,
-    "DomesticAddressLayoutId": 219,
-    "ForeignAddressLayoutId": 52,
-    "Rank": 808,
-    "Tooltip": "tenetur",
-    "Deleted": true,
+    "ImageDescription": "Polarised mobile Graphical User Interface",
+    "OrgNrText": "1389367",
+    "InterAreaPrefix": "repellendus",
+    "DialInPrefix": "qui",
+    "ZipPrefix": "blanditiis",
+    "DomainName": "Watsica-Wehner",
+    "AddressLayoutId": 272,
+    "DomesticAddressLayoutId": 287,
+    "ForeignAddressLayoutId": 276,
+    "Rank": 128,
+    "Tooltip": "quo",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 467
       }
     }
   }

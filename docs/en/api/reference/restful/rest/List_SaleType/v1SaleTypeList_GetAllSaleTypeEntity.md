@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 249,
-    "Name": "Witting Inc and Sons",
-    "Tooltip": "aut",
-    "Rank": 259,
+    "SaleTypeId": 618,
+    "Name": "Altenwerth-Lubowitz",
+    "Tooltip": "fuga",
+    "Rank": 409,
     "DurationUnit": "Century",
-    "SaleDuration": 234,
-    "SaleTypeCatId": 248,
+    "SaleDuration": 659,
+    "SaleTypeCatId": 266,
     "Deleted": true,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 242,
-    "QuoteLinesTemplate": 60,
-    "ConfirmationLinesTemplate": 714,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 857,
-    "MinEarningPercent": 644,
-    "GroupQuoteLinesBy": 922,
-    "SortGroupLinesBy": 39,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 3,
+    "QuoteLinesTemplate": 38,
+    "ConfirmationLinesTemplate": 143,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 71,
+    "MinEarningPercent": 446,
+    "GroupQuoteLinesBy": 120,
+    "SortGroupLinesBy": 467,
     "Stages": [
       {
-        "Id": 850,
-        "Name": "Barton-Paucek",
-        "ToolTip": "Sequi ea dolorem vitae minima provident reprehenderit.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "dolor",
-        "ColorBlock": 456,
-        "IconHint": "est",
+        "Id": 26,
+        "Name": "Oberbrunner Inc and Sons",
+        "ToolTip": "Debitis aspernatur veniam qui deserunt aut voluptas.",
+        "Deleted": false,
+        "Rank": 229,
+        "Type": "asperiores",
+        "ColorBlock": 547,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2003-09-11T14:45:13.9116989+02:00",
+        "LastChanged": "2002-11-19T10:18:01.1606262+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Lera Crawford Purdy II",
+        "ExtraInfo": "et",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Vickie Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 693
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 810
       }
     }
   }

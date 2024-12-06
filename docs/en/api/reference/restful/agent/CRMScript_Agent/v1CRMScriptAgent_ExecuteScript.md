@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 550,
+  "CRMScriptId": 441,
   "Parameters": {
-    "Parameters1": "aut",
-    "Parameters2": "veritatis"
+    "Parameters1": "deleniti",
+    "Parameters2": "molestiae"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"labore"
+"nulla"
 ```

@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 387,
+  "HierarchyId": 239,
   "Domain": "Dashboards",
-  "Name": "Steuber Inc and Sons",
-  "Fullname": "commodi",
-  "ParentId": 621,
+  "Name": "Will-Willms",
+  "Fullname": "doloremque",
+  "ParentId": 843,
   "Children": [
     {
-      "HierarchyId": 883,
+      "HierarchyId": 641,
       "Domain": "Dashboards",
-      "Name": "Hilpert, Franecki and Hammes",
-      "Fullname": "non",
-      "ParentId": 605,
+      "Name": "Boyle LLC",
+      "Fullname": "alias",
+      "ParentId": 546,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-04-02T14:45:12.8338163+02:00",
-      "RegisteredAssociateId": 428,
-      "Updated": "2018-01-20T14:45:12.8338163+01:00",
-      "UpdatedAssociateId": 838
+      "Registered": "2015-11-12T10:18:00.4262067+01:00",
+      "RegisteredAssociateId": 653,
+      "Updated": "2007-04-01T10:18:00.4262067+02:00",
+      "UpdatedAssociateId": 582
     }
   ],
-  "Registered": "2011-08-11T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 435,
-  "Updated": "1997-11-23T14:45:12.8338163+01:00",
-  "UpdatedAssociateId": 125
+  "Registered": "2014-04-08T10:18:00.4262067+02:00",
+  "RegisteredAssociateId": 624,
+  "Updated": "2018-05-31T10:18:00.4262067+02:00",
+  "UpdatedAssociateId": 698
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 655,
+  "HierarchyId": 532,
   "Domain": "Dashboards",
-  "Name": "Koelpin, Lockman and Grimes",
-  "Fullname": "aut",
-  "ParentId": 409,
+  "Name": "Stokes Inc and Sons",
+  "Fullname": "corrupti",
+  "ParentId": 283,
   "Children": [
     {
-      "HierarchyId": 189,
+      "HierarchyId": 39,
       "Domain": "Dashboards",
-      "Name": "Gottlieb, Ernser and McKenzie",
-      "Fullname": "occaecati",
-      "ParentId": 269,
+      "Name": "Buckridge-Tremblay",
+      "Fullname": "voluptate",
+      "ParentId": 590,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-05-10T14:45:12.8338163+02:00",
-      "RegisteredAssociateId": 743,
-      "Updated": "2009-07-11T14:45:12.8338163+02:00",
-      "UpdatedAssociateId": 61,
+      "Registered": "2004-04-19T10:18:00.4262067+02:00",
+      "RegisteredAssociateId": 226,
+      "Updated": "2015-05-20T10:18:00.4262067+02:00",
+      "UpdatedAssociateId": 606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 972
         }
       }
     }
   ],
-  "Registered": "2002-10-16T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 817,
-  "Updated": "2001-01-02T14:45:12.8338163+01:00",
-  "UpdatedAssociateId": 111,
+  "Registered": "2012-06-17T10:18:00.4262067+02:00",
+  "RegisteredAssociateId": 950,
+  "Updated": "2016-10-24T10:18:00.4262067+02:00",
+  "UpdatedAssociateId": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   }
 }

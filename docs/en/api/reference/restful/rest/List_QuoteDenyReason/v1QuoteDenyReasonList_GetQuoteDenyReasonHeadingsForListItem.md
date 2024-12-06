@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Hartmann-Mann",
-    "ToolTip": "Sed magni tenetur debitis aut ad.",
-    "Deleted": true,
-    "Rank": 687,
-    "Type": "vitae",
-    "ColorBlock": 146,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2014-06-20T14:45:13.8648346+02:00",
+    "Id": 382,
+    "Name": "Emmerich-Roob",
+    "ToolTip": "Quis commodi qui repellendus culpa.",
+    "Deleted": false,
+    "Rank": 325,
+    "Type": "corrupti",
+    "ColorBlock": 537,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2020-01-14T10:18:01.1293744+01:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Hansen LLC",
-        "ToolTip": "Et ea.",
+        "Id": 433,
+        "Name": "Ritchie Inc and Sons",
+        "ToolTip": "Odit consequatur ut aut sit dolor ea saepe.",
         "Deleted": false,
-        "Rank": 289,
-        "Type": "earum",
-        "ColorBlock": 697,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "1999-12-08T14:45:13.8648346+01:00",
+        "Rank": 437,
+        "Type": "accusantium",
+        "ColorBlock": 84,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2008-03-05T10:18:01.1293744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "optio",
+        "ExtraInfo": "ex",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Birdie Mitchell",
+        "FullName": "Earlene Jayce Cronin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldType": "System.Int32",
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Jaunita Sauer",
+    "FullName": "Rosalia Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

@@ -72,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "quo",
-    "vitae"
+    "omnis",
+    "magni"
   ],
   "ActivityStatus": "Completed"
 }

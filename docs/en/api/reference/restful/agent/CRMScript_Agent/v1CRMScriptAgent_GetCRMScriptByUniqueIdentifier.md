@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nisi"
+  "UniqueIdentifier": "cupiditate"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "itaque",
-  "Name": "Hartmann, Bashirian and Will",
-  "Description": "Adaptive global application",
-  "IncludeId": "tempore",
-  "Source": "consequuntur",
-  "Registered": "2007-09-05T14:45:05.1627086+02:00",
-  "RegisteredBy": "doloribus",
-  "Updated": "2009-09-13T14:45:05.1627086+02:00",
-  "UpdatedBy": "odit",
-  "Path": "cumque",
+  "UniqueIdentifier": "numquam",
+  "Name": "Mann-Franecki",
+  "Description": "Ameliorated context-sensitive project",
+  "IncludeId": "maxime",
+  "Source": "in",
+  "Registered": "2002-05-28T10:17:55.3165216+02:00",
+  "RegisteredBy": "minus",
+  "Updated": "2016-02-04T10:17:55.3165216+01:00",
+  "UpdatedBy": "fuga",
+  "Path": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 104
     }
   }
 }

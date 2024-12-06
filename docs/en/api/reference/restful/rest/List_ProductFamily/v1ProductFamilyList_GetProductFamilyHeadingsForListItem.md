@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Schulist LLC",
-    "ToolTip": "Sint earum autem amet odit blanditiis minus.",
-    "Deleted": false,
-    "Rank": 705,
-    "Type": "eius",
-    "ColorBlock": 672,
-    "IconHint": "quia",
+    "Id": 934,
+    "Name": "Dickinson Inc and Sons",
+    "ToolTip": "Sed nam iure sunt nihil laudantium et ut.",
+    "Deleted": true,
+    "Rank": 742,
+    "Type": "fuga",
+    "ColorBlock": 342,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2006-06-29T14:45:13.8023488+02:00",
+    "LastChanged": "1999-01-02T10:18:01.0824964+01:00",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Huel, Kassulke and Jenkins",
-        "ToolTip": "Sed aliquid quibusdam perferendis libero ut omnis.",
+        "Id": 555,
+        "Name": "Kihn, Price and Stehr",
+        "ToolTip": "Qui eligendi voluptas quasi laboriosam repellat.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "omnis",
-        "ColorBlock": 547,
-        "IconHint": "modi",
+        "Rank": 87,
+        "Type": "inventore",
+        "ColorBlock": 513,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2011-01-07T14:45:13.8023488+01:00",
+        "LastChanged": "2007-06-21T10:18:01.0824964+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Linwood Senger",
+        "ExtraInfo": "magni",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Susan Kay Roob Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 103
+            "FieldLength": 186
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "tempora",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Alexa Lesch",
+    "FullName": "Mrs. Audreanne Carole Romaguera DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 46
       }
     }
   }

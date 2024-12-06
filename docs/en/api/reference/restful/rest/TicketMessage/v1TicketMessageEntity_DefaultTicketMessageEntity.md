@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 58,
+  "EjMessageId": 363,
   "Ticket": null,
-  "CreatedAt": "2001-04-30T14:45:13.3493238+02:00",
+  "CreatedAt": "2024-01-07T10:18:00.7856022+01:00",
   "CreatedBy": null,
-  "Author": "sint",
+  "Author": "nulla",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "magnam",
-  "TimeSpent": 325,
-  "Body": "et",
-  "HtmlBody": "eveniet",
-  "EmailHeader": "elsa@nitzschejones.biz",
-  "DebugInfo": "iusto",
-  "MailSorter": "recusandae",
+  "MessageId": "soluta",
+  "TimeSpent": 668,
+  "Body": "dolores",
+  "HtmlBody": "sit",
+  "EmailHeader": "riley@parker.co.uk",
+  "DebugInfo": "neque",
+  "MailSorter": "quisquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "id",
+  "SearchTitle": "doloremque",
   "MessageHeaders": [
     {
-      "Id": 416,
-      "Name": "Hermann LLC",
-      "Value": "veniam",
+      "Id": 569,
+      "Name": "Trantow, Dooley and Dicki",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldLength": 692
         }
       }
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 134,
-  "SentimentConfidence": 905,
+  "Language": "consequuntur",
+  "Sentiment": 450,
+  "SentimentConfidence": 480,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 90,
-      "Name": "Bosco, Morar and Barrows",
-      "ContentType": "cum",
-      "AttSize": 610,
-      "InlineImage": false,
-      "ContentId": "ipsam",
-      "AuthKey": "non",
+      "AttachmentId": 645,
+      "Name": "Bechtelar Inc and Sons",
+      "ContentType": "animi",
+      "AttSize": 305,
+      "InlineImage": true,
+      "ContentId": "omnis",
+      "AuthKey": "sed",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 338
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "cum"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 463
     }
   }
 }

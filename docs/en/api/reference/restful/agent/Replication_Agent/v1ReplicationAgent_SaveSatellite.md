@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 529,
-  "Created": "2022-11-15T14:45:06.0999998+01:00",
+  "SatelliteId": 10,
+  "Created": "2006-12-19T10:17:55.9571855+01:00",
   "CreatedBy": null,
-  "Updated": "2022-10-23T14:45:06.0999998+02:00",
+  "Updated": "1998-12-27T10:17:55.9571855+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Bartoletti-Wiza",
-      "Description": "Proactive 24/7 time-frame",
+      "Name": "Breitenberg, Runolfsson and Zemlak",
+      "Description": "Business-focused optimal access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Bartoletti-Wiza",
-      "Description": "Proactive 24/7 time-frame",
+      "Name": "Breitenberg, Runolfsson and Zemlak",
+      "Description": "Business-focused optimal access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 665,
-  "Created": "2024-06-14T14:45:06.0999998+02:00",
+  "SatelliteId": 731,
+  "Created": "1998-08-09T10:17:55.9571855+02:00",
   "CreatedBy": null,
-  "Updated": "2005-09-14T14:45:06.0999998+02:00",
+  "Updated": "2008-01-06T10:17:55.9571855+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Skiles, Braun and Haley",
-      "Description": "Decentralized leading edge firmware",
+      "Name": "Gottlieb Group",
+      "Description": "Adaptive human-resource extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 50
         }
       }
     },
     {
-      "Name": "Skiles, Braun and Haley",
-      "Description": "Decentralized leading edge firmware",
+      "Name": "Gottlieb Group",
+      "Description": "Adaptive human-resource extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldType": "System.Int32",
+          "FieldLength": 50
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

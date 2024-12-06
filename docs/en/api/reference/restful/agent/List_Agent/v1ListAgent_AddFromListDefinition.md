@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 320,
+  "UdListDefinitionId": 798,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 291,
-  "Name": "Blanda, Ruecker and Keeling",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "UdListDefinitionId": 856,
-  "Rank": 311,
+  "Id": 47,
+  "Name": "Kovacek, Durgan and Nitzsche",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 554,
+  "Rank": 86,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 46
     }
   }
 }

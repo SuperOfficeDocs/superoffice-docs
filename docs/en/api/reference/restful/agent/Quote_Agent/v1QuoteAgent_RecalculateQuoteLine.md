@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "pariatur",
-    "veritatis"
+    "aliquam",
+    "placeat"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 44,
-  "ERPQuoteLineKey": "enim",
-  "QuoteAlternativeId": 275,
-  "ERPProductKey": "quia",
+  "QuoteLineId": 591,
+  "ERPQuoteLineKey": "molestiae",
+  "QuoteAlternativeId": 871,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 4995.596,
-  "DeliveredQuantity": 4114.942,
-  "Rank": 696,
-  "Name": "Ondricka, Conn and Towne",
-  "Description": "Diverse methodical collaboration",
-  "Code": "explicabo",
-  "QuantityUnit": "consequuntur",
-  "PriceUnit": "et",
-  "ItemNumber": "1525516",
+  "Quantity": 10827.97,
+  "DeliveredQuantity": 4973.6579999999994,
+  "Rank": 202,
+  "Name": "Kirlin Group",
+  "Description": "Multi-channelled zero tolerance array",
+  "Code": "delectus",
+  "QuantityUnit": "sit",
+  "PriceUnit": "accusantium",
+  "ItemNumber": "544944",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "vel",
-  "Supplier": "temporibus",
-  "SupplierCode": "eum",
-  "Thumbnail": "natus",
-  "VATInfo": "fugit",
-  "VAT": 20095.208,
-  "UnitCost": 15795.359999999999,
-  "UnitMinimumPrice": 9536.7619999999988,
-  "UnitListPrice": 24601.899999999998,
+  "ProductFamilyKey": "consequuntur",
+  "ProductTypeKey": "nobis",
+  "Supplier": "deserunt",
+  "SupplierCode": "iure",
+  "Thumbnail": "magni",
+  "VATInfo": "quo",
+  "VAT": 22473.914,
+  "UnitCost": 24219.552,
+  "UnitMinimumPrice": 8609.098,
+  "UnitListPrice": 15801.627999999999,
   "ExtraInfo": [
     {
-      "Name": "McKenzie-Labadie",
-      "Value": "veniam",
+      "Name": "Veum-Strosin",
+      "Value": "eos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 24
         }
       }
     },
     {
-      "Name": "McKenzie-Labadie",
-      "Value": "veniam",
+      "Name": "Veum-Strosin",
+      "Value": "eos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 24
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "officiis",
-  "SubscriptionQuantity": 15870.576,
-  "SubscriptionStart": "2017-05-20T14:45:06.0375135+02:00",
-  "ERPDiscountPercent": 21887.856,
-  "ERPDiscountAmount": 8468.068,
-  "DiscountPercent": 14378.792,
-  "DiscountAmount": 15626.124,
+  "RawExtraInfo": "reiciendis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "est",
+  "SubscriptionQuantity": 24025.244,
+  "SubscriptionStart": "1999-01-28T10:17:55.9103076+01:00",
+  "ERPDiscountPercent": 27011.946,
+  "ERPDiscountAmount": 24711.59,
+  "DiscountPercent": 10846.774,
+  "DiscountAmount": 26745.556,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17450.112,
-  "EarningAmount": 5572.2519999999995,
-  "SubTotal": 20841.1,
-  "TotalPrice": 29045.912,
-  "Rights": "asperiores",
-  "Rule": "sed",
-  "ExtraField1": "earum",
-  "ExtraField2": "est",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "nam",
-  "ExtraField5": "ex",
+  "EarningPercent": 24109.862,
+  "EarningAmount": 21442.827999999998,
+  "SubTotal": 28055.568,
+  "TotalPrice": 3707.522,
+  "Rights": "et",
+  "Rule": "temporibus",
+  "ExtraField1": "sed",
+  "ExtraField2": "alias",
+  "ExtraField3": "corrupti",
+  "ExtraField4": "in",
+  "ExtraField5": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

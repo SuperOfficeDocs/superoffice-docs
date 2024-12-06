@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hyatt, Corkery and Auer",
+  "TaskName": "Rippin, Larkin and Pollich",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "Heller-Hyatt",
-    "AssociateId": 301,
-    "DetailsTable": 495,
-    "DetailsRecord": 92,
-    "IsSystemTask": false,
+    "Id": 791,
+    "Name": "McCullough Group",
+    "AssociateId": 218,
+    "DetailsTable": 818,
+    "DetailsRecord": 893,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "officiis",
-      "ParameterObject2": "culpa"
+      "ParameterObject1": "eos",
+      "ParameterObject2": "ipsum"
     },
-    "LastStarted": "2006-01-20T14:45:04.8815214+01:00",
-    "Created": "2019-12-25T14:45:04.8815214+01:00",
-    "StartCount": 656,
-    "DatabaseSerialNumber": "906003",
-    "Context": "dolorem",
-    "Result": "aut",
+    "LastStarted": "1999-08-01T10:17:55.1290102+02:00",
+    "Created": "2004-11-15T10:17:55.1290102+01:00",
+    "StartCount": 733,
+    "DatabaseSerialNumber": "1187131",
+    "Context": "veniam",
+    "Result": "quia",
     "State": "All",
-    "Description": "Balanced radical firmware",
-    "Response": "et",
-    "Request": "a",
-    "ProgressDescription": "Upgradable static contingency",
-    "ProgressPercent": 830,
-    "FileName": "Hane Inc and Sons",
+    "Description": "Secured global focus group",
+    "Response": "itaque",
+    "Request": "repellendus",
+    "ProgressDescription": "Object-based dedicated model",
+    "ProgressPercent": 105,
+    "FileName": "Donnelly, Wolff and Jast",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

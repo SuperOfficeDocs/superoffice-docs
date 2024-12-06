@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Leffler Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 900,
+  "Id": 237,
+  "Name": "Lockman-McKenzie",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "Rank": 725,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   },
   "_Links": {

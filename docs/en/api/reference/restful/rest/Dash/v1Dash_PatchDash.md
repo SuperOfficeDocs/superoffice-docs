@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 322,
-  "UniqueId": "dolor",
-  "Name": "Zulauf, Kessler and Williamson",
-  "Description": "Exclusive content-based benchmark",
-  "AssociateId": 723,
-  "Columns": 94,
+  "DashboardId": 593,
+  "UniqueId": "aliquam",
+  "Name": "Bauch Inc and Sons",
+  "Description": "Seamless next generation toolset",
+  "AssociateId": 677,
+  "Columns": 403,
   "Theme": null,
-  "VisibleForAll": 62,
+  "VisibleForAll": 824,
   "VisibleForAssociates": [
-    48,
-    829
+    260,
+    400
   ],
   "VisibleForGroups": [
-    460,
-    950
+    145,
+    309
   ],
-  "PinForAll": 829,
+  "PinForAll": 980,
   "PinForAssociates": [
-    25,
-    378
+    933,
+    695
   ],
   "PinForGroups": [
-    537,
-    473
+    914,
+    555
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 616
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

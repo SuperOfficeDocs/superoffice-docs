@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 72,
-  "Name": "Lowe, Yundt and Crist",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 476,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false
+  "Id": 859,
+  "Name": "Miller, Ritchie and Daniel",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 132,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Luettgen Group",
-  "Tooltip": "quis",
+  "Id": 401,
+  "Name": "Mante-Bergstrom",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 355,
+  "Rank": 60,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

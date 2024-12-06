@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523
+  "Id": 845
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 718,
-    "Name": "Corwin Group",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 568,
-    "UdListDefinitionId": 837,
+    "HeadingId": 429,
+    "Name": "Kirlin-Heathcote",
+    "Tooltip": "dicta",
+    "Deleted": true,
+    "Rank": 349,
+    "UdListDefinitionId": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 806
       }
     }
   }

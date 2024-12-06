@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Jacobson, Sauer and Johnston",
-    "ToolTip": "Cupiditate mollitia architecto.",
-    "Deleted": true,
-    "Rank": 20,
-    "Type": "veniam",
-    "ColorBlock": 731,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "2016-06-28T14:45:13.9585664+02:00",
+    "Id": 787,
+    "Name": "Boyer-Koepp",
+    "ToolTip": "Et asperiores.",
+    "Deleted": false,
+    "Rank": 41,
+    "Type": "possimus",
+    "ColorBlock": 369,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2020-11-22T10:18:01.1918781+01:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Stoltenberg-Morar",
-        "ToolTip": "Sapiente aut iusto.",
+        "Id": 640,
+        "Name": "Zemlak, Smitham and Paucek",
+        "ToolTip": "Velit error.",
         "Deleted": true,
-        "Rank": 897,
-        "Type": "a",
-        "ColorBlock": 794,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1998-09-29T14:45:13.9585664+02:00",
+        "Rank": 94,
+        "Type": "ut",
+        "ColorBlock": 318,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2002-10-02T10:18:01.1918781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "harum",
+        "ExtraInfo": "commodi",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Jerry Kacey Gleason II"
+        "FullName": "Jamar Schinner"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "rerum",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Victor Langworth"
+    "FullName": "Mr. Delaney Rodriguez V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Beier Inc and Sons",
-    "ToolTip": "Sit suscipit illo dicta nihil quo ut dolores.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "fugiat",
-    "ColorBlock": 89,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "2013-04-18T14:45:13.9741861+02:00",
+    "Id": 607,
+    "Name": "Wilkinson, Senger and Batz",
+    "ToolTip": "Saepe aut expedita ratione dignissimos.",
+    "Deleted": false,
+    "Rank": 139,
+    "Type": "repudiandae",
+    "ColorBlock": 526,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "1999-07-10T10:18:01.1918781+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "O'Hara, Langosh and Pagac",
-        "ToolTip": "Inventore inventore consequatur.",
-        "Deleted": true,
-        "Rank": 284,
-        "Type": "recusandae",
-        "ColorBlock": 568,
-        "IconHint": "atque",
+        "Id": 412,
+        "Name": "Stanton-Rippin",
+        "ToolTip": "Odio aut ab aut quam quo.",
+        "Deleted": false,
+        "Rank": 133,
+        "Type": "nam",
+        "ColorBlock": 482,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2022-05-25T14:45:13.9741861+02:00",
+        "LastChanged": "2002-02-01T10:18:01.1918781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Sister Gutmann",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Laverne Heath Mayer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 717
+            "FieldLength": 131
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "est",
+    "ExtraInfo": "saepe",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Cornell Johnston",
+    "FullName": "Darron Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 993
       }
     }
   }

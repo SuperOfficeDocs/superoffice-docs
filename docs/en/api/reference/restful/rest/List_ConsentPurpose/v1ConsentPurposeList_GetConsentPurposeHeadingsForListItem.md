@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Littel-Rau",
-    "ToolTip": "Fuga aut consequatur reprehenderit perspiciatis neque.",
+    "Id": 160,
+    "Name": "Miller Group",
+    "ToolTip": "Labore accusamus provident totam laudantium impedit consectetur voluptatibus.",
     "Deleted": false,
-    "Rank": 768,
-    "Type": "quasi",
-    "ColorBlock": 335,
-    "IconHint": "inventore",
-    "Selected": true,
-    "LastChanged": "2003-11-30T14:45:13.6305116+01:00",
+    "Rank": 545,
+    "Type": "distinctio",
+    "ColorBlock": 165,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2011-03-13T10:18:00.9574888+01:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "Heaney-Schultz",
-        "ToolTip": "Debitis atque debitis enim veniam.",
-        "Deleted": false,
-        "Rank": 186,
-        "Type": "quia",
-        "ColorBlock": 12,
-        "IconHint": "ut",
+        "Id": 466,
+        "Name": "Osinski, Legros and Jacobi",
+        "ToolTip": "Cupiditate unde illum vitae.",
+        "Deleted": true,
+        "Rank": 802,
+        "Type": "ut",
+        "ColorBlock": 4,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "2024-10-01T14:45:13.6305116+02:00",
+        "LastChanged": "2010-07-21T10:18:00.9574888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "reiciendis",
-        "Hidden": true,
-        "FullName": "Elroy Auer V",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quam",
+        "Hidden": false,
+        "FullName": "Dell Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 194
+            "FieldType": "System.Int32",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Leonora Hilll",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "corporis",
+    "Hidden": false,
+    "FullName": "Genoveva Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 478
       }
     }
   }

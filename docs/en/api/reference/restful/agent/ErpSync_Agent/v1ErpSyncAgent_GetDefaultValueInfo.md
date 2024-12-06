@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 137
+  "ErpFieldId": 594
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 766,
-  "DefaultValue": "ab",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "ipsum",
+  "ErpFieldId": 122,
+  "DefaultValue": "distinctio",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "repellat",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "voluptas",
+  "ErpFieldKey": "aut",
   "FieldType": "Checkbox",
-  "ListName": "Considine-Kuphal",
+  "ListName": "Gislason Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 976
     }
   }
 }

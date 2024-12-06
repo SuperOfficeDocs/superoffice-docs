@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Bode-Thompson",
-  "Tooltip": "aut",
+  "Id": 210,
+  "Name": "Brekke Inc and Sons",
+  "Tooltip": "cum",
   "Deleted": false,
-  "UdListDefinitionId": 933,
-  "Rank": 556,
+  "UdListDefinitionId": 425,
+  "Rank": 721,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 847
     }
   }
 }

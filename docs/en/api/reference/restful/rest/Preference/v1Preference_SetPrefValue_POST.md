@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nam",
+  "RawValue": "est",
   "Specification": null,
-  "DisplayValue": "quibusdam",
-  "DisplayTooltip": "quaerat",
+  "DisplayValue": "quis",
+  "DisplayTooltip": "necessitatibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 773,
-  "PrefDescId": 539,
-  "TableName": "Schmeler LLC",
-  "UserPreferenceId": 628
+  "TargetId": 135,
+  "PrefDescId": 636,
+  "TableName": "Hyatt-Abernathy",
+  "UserPreferenceId": 679
 }
 ```
 

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nesciunt",
-  "ProviderName": "Sporer-Christiansen",
-  "StorageKey": "debitis",
-  "Restrictions": "quos",
-  "StaticColumns": "consequuntur"
+  "StorageType": "omnis",
+  "ProviderName": "Hand, Lakin and Johnson",
+  "StorageKey": "sapiente",
+  "Restrictions": "quod",
+  "StaticColumns": "commodi"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Thiel-Smith",
-      "Operator": "aperiam",
+      "Name": "Murray-Corkery",
+      "Operator": "architecto",
       "Values": [
-        "nobis",
-        "natus"
+        "animi",
+        "sequi"
       ],
       "DisplayValues": [
-        "esse",
-        "mollitia"
+        "iusto",
+        "nobis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 557,
+      "InterParenthesis": 497,
       "InterOperator": "And",
-      "UniqueHash": 614
+      "UniqueHash": 79
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Huel Group",
-      "DisplayTooltip": "saepe",
-      "DisplayType": "sunt",
+      "DisplayName": "Kirlin, Deckow and Predovic",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "quasi",
       "CanOrderBy": true,
-      "Name": "Frami, Schuppe and Osinski",
+      "Name": "Hills, Lynch and Dickens",
       "CanRestrictBy": false,
-      "RestrictionType": "asperiores",
-      "RestrictionListName": "Ratke-Dickinson",
+      "RestrictionType": "explicabo",
+      "RestrictionListName": "Osinski-Bradtke",
       "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "odit",
-      "IconHint": "repudiandae",
-      "HeadingIconHint": "omnis"
+      "ExtraInfo": "qui",
+      "Width": "perferendis",
+      "IconHint": "et",
+      "HeadingIconHint": "sit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cummerata-Hills",
-      "PrimaryKey": 38,
+      "EntityName": "Anderson-Krajcik",
+      "PrimaryKey": 322,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aperiam",
-          "TooltipHint": "eius",
-          "LinkHint": "necessitatibus"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "dolores",
+          "LinkHint": "rem"
         }
       },
-      "LinkHint": "dignissimos",
-      "StyleHint": "quam",
+      "LinkHint": "sint",
+      "StyleHint": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Marvin LLC",
-      "Description": "Universal scalable policy",
-      "Rank": 475,
+      "Name": "Carter-Parker",
+      "Description": "Networked well-modulated application",
+      "Rank": 899,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Marvin LLC",
-      "Description": "Universal scalable policy",
-      "Rank": 475,
+      "Name": "Carter-Parker",
+      "Description": "Networked well-modulated application",
+      "Rank": 899,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 945
     }
   }
 }

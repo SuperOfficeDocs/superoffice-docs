@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Kihn, Emard and Cummerata",
-    "ToolTip": "Eveniet delectus voluptatum veritatis et vero dolore.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "amet",
-    "ColorBlock": 322,
-    "IconHint": "mollitia",
-    "Selected": false,
-    "LastChanged": "2018-03-08T14:45:13.6617546+01:00",
+    "Id": 336,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Eveniet magni et iusto.",
+    "Deleted": true,
+    "Rank": 647,
+    "Type": "sapiente",
+    "ColorBlock": 369,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2001-06-02T10:18:00.9887407+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Braun Group",
-        "ToolTip": "Nostrum et.",
-        "Deleted": false,
-        "Rank": 135,
-        "Type": "eligendi",
-        "ColorBlock": 646,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2006-02-02T14:45:13.6617546+01:00",
+        "Id": 888,
+        "Name": "Braun-Stroman",
+        "ToolTip": "Quaerat optio at sit occaecati beatae ut sequi.",
+        "Deleted": true,
+        "Rank": 236,
+        "Type": "asperiores",
+        "ColorBlock": 849,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2003-08-22T10:18:00.9887407+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
+        "ExtraInfo": "sint",
         "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Van Cronin",
+        "FullName": "Ressie Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 196
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "illum",
+    "ExtraInfo": "est",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Toby Ankunding",
+    "FullName": "Edmund Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

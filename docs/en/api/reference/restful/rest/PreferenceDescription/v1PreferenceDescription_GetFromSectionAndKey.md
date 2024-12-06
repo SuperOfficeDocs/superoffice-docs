@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 248,
-  "Section": "eos",
-  "Key": "illo",
-  "Name": "Will, Armstrong and Ankunding",
+  "PrefDescId": 492,
+  "Section": "unde",
+  "Key": "recusandae",
+  "Name": "Johnston Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based bottom-line open system",
-  "IsBuiltin": false,
-  "TableName": "Bosco LLC",
-  "UserDefinedListId": 491,
-  "Rank": 753,
-  "SubGroup": "autem",
-  "MinLevel": 464,
-  "MaxValue": 872,
-  "MinValue": 855,
-  "RequiredLicense": "molestias",
+  "Description": "Multi-layered mission-critical moratorium",
+  "IsBuiltin": true,
+  "TableName": "Hills-Mayer",
+  "UserDefinedListId": 599,
+  "Rank": 624,
+  "SubGroup": "sit",
+  "MinLevel": 651,
+  "MaxValue": 711,
+  "MinValue": 161,
+  "RequiredLicense": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 251
     }
   }
 }

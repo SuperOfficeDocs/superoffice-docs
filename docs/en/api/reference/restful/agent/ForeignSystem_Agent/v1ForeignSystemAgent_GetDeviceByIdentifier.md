@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Witting-Tremblay",
-  "DeviceName": "Hodkiewicz, Sporer and Jacobi",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Hoeger Inc and Sons",
+  "DeviceName": "Hodkiewicz-Hodkiewicz",
+  "DeviceIdentifier": "eum"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 233,
-  "Name": "Kutch LLC",
-  "CreatedDate": "2001-08-05T14:45:05.6469762+02:00",
-  "UpdatedDate": "2001-03-28T14:45:05.6469762+02:00",
-  "AssociateFullName": "Novella Jenkins",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "assumenda",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 560,
+  "ForeignDeviceId": 256,
+  "Name": "Aufderhar Group",
+  "CreatedDate": "2019-09-18T10:17:55.660285+02:00",
+  "UpdatedDate": "2018-12-23T10:17:55.660285+01:00",
+  "AssociateFullName": "Ms. Cierra Consuelo Swift DVM",
+  "CreatedBy": "qui",
+  "UpdatedBy": "quibusdam",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 807,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 834
     }
   }
 }

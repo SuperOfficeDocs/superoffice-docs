@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 662
+  "PersonId": 150
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 323,
-  "Name": "Lockman, Reilly and Braun",
-  "PersonId": 547,
-  "Rank": 418,
-  "Tooltip": "rem",
+  "AssociateId": 458,
+  "Name": "Rutherford, Bergnaum and Mohr",
+  "PersonId": 370,
+  "Rank": 138,
+  "Tooltip": "nesciunt",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 95,
-  "FullName": "Gene Sipes MD",
-  "FormalName": "Dicki Group",
+  "GroupIdx": 829,
+  "FullName": "Santos Hessel",
+  "FormalName": "Runte-Corwin",
   "Deleted": true,
-  "EjUserId": 666,
-  "UserName": "VonRueden Group",
+  "EjUserId": 83,
+  "UserName": "Cummerata, Beatty and Leffler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

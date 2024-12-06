@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "possimus",
-  "RecordId": 452,
-  "CreatedDate": "2000-09-22T14:45:12.8338163+02:00",
-  "UpdatedDate": "2000-09-12T14:45:12.8338163+02:00",
-  "UpdatedBy": "corporis",
-  "CreatedBy": "voluptatibus",
-  "TableName": "Monahan-Hagenes"
+  "Key": "vel",
+  "Value": "impedit",
+  "RecordId": 426,
+  "CreatedDate": "2018-02-18T10:18:00.4262067+01:00",
+  "UpdatedDate": "2020-01-18T10:18:00.4262067+01:00",
+  "UpdatedBy": "temporibus",
+  "CreatedBy": "vel",
+  "TableName": "Pouros LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ab",
-  "Value": "eos",
-  "RecordId": 32,
-  "CreatedDate": "2022-11-08T14:45:12.8338163+01:00",
-  "UpdatedDate": "2019-03-09T14:45:12.8338163+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "unde",
-  "TableName": "Heaney, Reinger and Mayer",
+  "Key": "velit",
+  "Value": "debitis",
+  "RecordId": 712,
+  "CreatedDate": "2021-08-14T10:18:00.4262067+02:00",
+  "UpdatedDate": "2010-09-22T10:18:00.4262067+02:00",
+  "UpdatedBy": "officiis",
+  "CreatedBy": "cumque",
+  "TableName": "Kshlerin, Spinka and Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 725
     }
   }
 }

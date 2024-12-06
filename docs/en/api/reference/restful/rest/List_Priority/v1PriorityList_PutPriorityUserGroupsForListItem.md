@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Kreiger Inc and Sons",
-    "ToolTip": "Delectus blanditiis in.",
+    "Id": 508,
+    "Name": "Murray-Hintz",
+    "ToolTip": "Itaque aut.",
     "Deleted": false,
-    "Rank": 410,
-    "Type": "nesciunt",
-    "ColorBlock": 52,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2010-02-14T14:45:13.7711051+01:00",
+    "Rank": 279,
+    "Type": "est",
+    "ColorBlock": 897,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "2017-12-06T10:18:01.0668705+01:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Marks Inc and Sons",
-        "ToolTip": "Error quo rerum fugit voluptates.",
+        "Id": 294,
+        "Name": "Stokes, O'Conner and Parker",
+        "ToolTip": "Voluptatem repudiandae quisquam.",
         "Deleted": false,
-        "Rank": 715,
-        "Type": "qui",
-        "ColorBlock": 655,
-        "IconHint": "itaque",
+        "Rank": 342,
+        "Type": "et",
+        "ColorBlock": 997,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2017-09-26T14:45:13.7711051+02:00",
+        "LastChanged": "2010-02-16T10:18:01.0668705+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Prof. Baron Rozella Rice PhD"
+        "ExtraInfo": "cum",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Reuben Parisian"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "qui",
+    "ExtraInfo": "ex",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Lemuel Keeling"
+    "FullName": "Gail Carter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Simonis, Ernser and Oberbrunner",
-    "ToolTip": "Repudiandae nostrum perspiciatis.",
+    "Id": 939,
+    "Name": "Kihn Group",
+    "ToolTip": "Et nihil voluptatem ad quis nemo id.",
     "Deleted": false,
-    "Rank": 738,
-    "Type": "maxime",
-    "ColorBlock": 233,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "2003-12-29T14:45:13.786728+01:00",
+    "Rank": 509,
+    "Type": "excepturi",
+    "ColorBlock": 354,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2011-07-16T10:18:01.0668705+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Lebsack LLC",
-        "ToolTip": "Officia ut ratione officia et aliquid maxime et.",
-        "Deleted": true,
-        "Rank": 374,
-        "Type": "ea",
-        "ColorBlock": 403,
-        "IconHint": "quia",
+        "Id": 827,
+        "Name": "Volkman, Satterfield and McClure",
+        "ToolTip": "Et non aliquid dolor.",
+        "Deleted": false,
+        "Rank": 573,
+        "Type": "atque",
+        "ColorBlock": 594,
+        "IconHint": "ab",
         "Selected": true,
-        "LastChanged": "2005-09-23T14:45:13.786728+02:00",
+        "LastChanged": "2021-05-20T10:18:01.0668705+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "nihil",
+        "ExtraInfo": "vel",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Wanda Alena Brakus II",
+        "FullName": "Brycen Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 651
+            "FieldType": "System.Int32",
+            "FieldLength": 640
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "dolores",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Mrs. Sarah Erick Marvin Jr.",
+    "FullName": "Greyson Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 492
       }
     }
   }

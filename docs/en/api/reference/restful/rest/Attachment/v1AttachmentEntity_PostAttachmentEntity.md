@@ -94,14 +94,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 988,
-  "Name": "Dach, Powlowski and Swift",
-  "ContentType": "itaque",
-  "AttSize": 262,
-  "InlineImage": false,
-  "ContentId": "distinctio",
-  "AuthKey": "molestiae",
-  "IsSafeFileExtension": true
+  "AttachmentId": 586,
+  "Name": "Trantow LLC",
+  "ContentType": "similique",
+  "AttSize": 490,
+  "InlineImage": true,
+  "ContentId": "est",
+  "AuthKey": "qui",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 620,
-  "Name": "Hoeger-Bernier",
-  "ContentType": "mollitia",
-  "AttSize": 786,
+  "AttachmentId": 960,
+  "Name": "Russel-Schuppe",
+  "ContentType": "doloremque",
+  "AttSize": 410,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "atque",
+  "ContentId": "earum",
+  "AuthKey": "nihil",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 223
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

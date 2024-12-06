@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "O'Conner LLC",
-    "ToolTip": "Tempora perspiciatis quam adipisci vel et repellat.",
+    "Id": 611,
+    "Name": "Hayes-Baumbach",
+    "ToolTip": "Pariatur quia.",
     "Deleted": true,
-    "Rank": 602,
-    "Type": "eaque",
-    "ColorBlock": 271,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2017-11-11T14:45:13.6461348+01:00",
+    "Rank": 303,
+    "Type": "et",
+    "ColorBlock": 394,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2016-12-12T10:18:00.9731148+01:00",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Kohler, Hauck and Wiza",
-        "ToolTip": "Quia quaerat repellendus voluptate rerum quaerat.",
-        "Deleted": true,
-        "Rank": 700,
-        "Type": "id",
-        "ColorBlock": 541,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2021-08-03T14:45:13.6461348+02:00",
+        "Id": 311,
+        "Name": "Bruen, Ernser and Casper",
+        "ToolTip": "Omnis nihil.",
+        "Deleted": false,
+        "Rank": 92,
+        "Type": "quis",
+        "ColorBlock": 757,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2022-12-15T10:18:00.9731148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "eum",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mr. Willie Konopelski V"
+        "FullName": "Orie Harvey"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "vel",
+    "ExtraInfo": "et",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Irma Cronin"
+    "FullName": "Mrs. Robin Archibald Dach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Gutkowski-Deckow",
-    "ToolTip": "Incidunt molestiae iusto quo et recusandae atque.",
+    "Id": 788,
+    "Name": "Hickle LLC",
+    "ToolTip": "Praesentium ipsam quia eum sequi tempora.",
     "Deleted": false,
-    "Rank": 951,
-    "Type": "magnam",
-    "ColorBlock": 557,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2008-05-01T14:45:13.6461348+02:00",
+    "Rank": 768,
+    "Type": "ullam",
+    "ColorBlock": 415,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2001-10-28T10:18:00.9731148+01:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Kovacek Inc and Sons",
-        "ToolTip": "In maiores incidunt.",
+        "Id": 123,
+        "Name": "Lynch-Smith",
+        "ToolTip": "Recusandae autem similique dolore non ut deserunt.",
         "Deleted": false,
-        "Rank": 521,
-        "Type": "ea",
-        "ColorBlock": 811,
-        "IconHint": "assumenda",
+        "Rank": 710,
+        "Type": "vel",
+        "ColorBlock": 91,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2011-06-29T14:45:13.6461348+02:00",
+        "LastChanged": "2024-01-06T10:18:00.9731148+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "earum",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Prof. Pinkie Flatley",
+        "FullName": "Nikita Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 711
+            "FieldType": "System.Int32",
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Else Grant",
+    "FullName": "Ms. Laurianne Aric Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 937
       }
     }
   }

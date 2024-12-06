@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 87,
-      "AssociateName": "Oberbrunner Group",
-      "AssociateId": 168
+      "AccountId": 421,
+      "AssociateName": "Feest LLC",
+      "AssociateId": 485
     },
     {
-      "AccountId": 87,
-      "AssociateName": "Oberbrunner Group",
-      "AssociateId": 168
+      "AccountId": 421,
+      "AssociateName": "Feest LLC",
+      "AssociateId": 485
     }
   ]
 }

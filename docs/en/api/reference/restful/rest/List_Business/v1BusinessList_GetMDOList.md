@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=ad
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=ratione
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Prosacco, Kertzmann and Morar",
-    "ToolTip": "Aliquam ipsam.",
+    "Id": 169,
+    "Name": "Schamberger, Kilback and Kovacek",
+    "ToolTip": "Molestiae est voluptas cupiditate voluptatem.",
     "Deleted": false,
-    "Rank": 319,
-    "Type": "minus",
+    "Rank": 556,
+    "Type": "suscipit",
     "ChildItems": [
       {
-        "Id": 586,
-        "Name": "Krajcik-Hills",
-        "ToolTip": "Ab molestias.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "maiores",
+        "Id": 477,
+        "Name": "Lubowitz-Bechtelar",
+        "ToolTip": "Quos quod aliquam.",
+        "Deleted": true,
+        "Rank": 58,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 302,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ea",
-        "FullName": "Jamar Bechtelar",
+        "IconHint": "dolor",
+        "ColorBlock": 430,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "ducimus",
+        "FullName": "Ms. Mariane Sidney Von V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 406
           }
         }
       }
     ],
-    "IconHint": "doloremque",
-    "ColorBlock": 797,
-    "ExtraInfo": "et",
-    "StyleHint": "suscipit",
-    "FullName": "Ladarius Johnson IV",
+    "IconHint": "dolore",
+    "ColorBlock": 920,
+    "ExtraInfo": "dicta",
+    "StyleHint": "omnis",
+    "FullName": "Ms. Elisa Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

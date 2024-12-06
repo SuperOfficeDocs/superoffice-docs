@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 20 Aug 2005 14:45:12 G8T
+Last-Modified: Fri, 11 Sep 2015 10:18:00 G9T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-09-21T14:45:12.4131177+02:00",
-  "AppointmentId": 379,
-  "Description": "Organized client-driven leverage",
-  "Title": "maxime",
-  "Agenda": "expedita",
-  "InternalNotes": "qui",
-  "StartDate": "2009-04-10T14:45:12.4131177+02:00",
-  "EndDate": "2000-05-14T14:45:12.4131177+02:00",
+  "CreatedDate": "2021-01-12T10:18:00.1293137+01:00",
+  "AppointmentId": 471,
+  "Description": "Fundamental bandwidth-monitored collaboration",
+  "Title": "vel",
+  "Agenda": "deleniti",
+  "InternalNotes": "accusantium",
+  "StartDate": "2024-03-14T10:18:00.1293137+01:00",
+  "EndDate": "2015-02-08T10:18:00.1293137+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 676,
+  "MotherId": 903,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-08-20T14:45:12.4131177+02:00",
+  "UpdatedDate": "2015-09-11T10:18:00.1449396+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 184,
+  "ActiveLinks": 530,
   "Links": [
     {
-      "EntityName": "Grimes Inc and Sons",
-      "Id": 412,
-      "Description": "Integrated tangible middleware",
-      "ExtraInfo": "provident",
-      "LinkId": 460,
+      "EntityName": "Marvin-Stoltenberg",
+      "Id": 948,
+      "Description": "Visionary real-time knowledge user",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 153,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 856
         }
       }
     }
   ],
-  "AlarmLeadTime": "sunt",
-  "HasAlarm": false,
-  "ColorIndex": 905,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nemo",
-  "LeadTime": "sapiente",
-  "Location": "quos",
-  "RejectCounter": 761,
+  "AlarmLeadTime": "autem",
+  "HasAlarm": true,
+  "ColorIndex": 656,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "non",
+  "LeadTime": "voluptatem",
+  "Location": "vero",
+  "RejectCounter": 222,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 808,
-      "PersonId": 151,
-      "ContactId": 769,
-      "EmailId": 617,
+      "AssociateId": 30,
+      "PersonId": 91,
+      "ContactId": 143,
+      "EmailId": 710,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "hayley_nienow@haag.com",
-      "Description": "User-friendly maximized architecture"
+      "EmailAddress": "gregory.fay@wehnerlegros.info",
+      "Description": "Visionary human-resource support"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-02-01T14:45:12.4131177+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2003-12-11T10:18:00.1449396+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 233,
+  "PreferredTZLocation": 706,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 460,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 255,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "in",
+  "CentralserviceVideomeetId": "est",
   "UserDefinedFields": {
-    "SuperOffice:1": "Verna Pacocha",
-    "SuperOffice:2": "1977629359"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Earl Pollich"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "et"
+    "CustomFields1": "est",
+    "CustomFields2": "provident"
   },
-  "PublishEventDate": "2007-12-06T14:45:12.4276221+01:00",
-  "PublishTo": "2011-10-19T14:45:12.4276221+02:00",
-  "PublishFrom": "2017-07-23T14:45:12.4276221+02:00",
+  "PublishEventDate": "2011-08-03T10:18:00.1449396+02:00",
+  "PublishTo": "2001-06-02T10:18:00.1449396+02:00",
+  "PublishFrom": "2014-05-21T10:18:00.1449396+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 493,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 16
         }
       }
     },
     {
-      "VisibleId": 493,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 16
         }
       }
     }
@@ -271,8 +271,8 @@ Last-Modified: Sat, 20 Aug 2005 14:45:12 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   },
   "_Links": {

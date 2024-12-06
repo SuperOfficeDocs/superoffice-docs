@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 510,
-  "Select": "quos"
+  "SelectionId": 924,
+  "Select": "rerum"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Grant, Swaniawski and Schinner",
-    "PrimaryKey": 296,
+    "EntityName": "Rice, Effertz and Jakubowski",
+    "PrimaryKey": 991,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "est",
-        "LinkHint": "minus"
+        "DisplayValue": "natus",
+        "TooltipHint": "ab",
+        "LinkHint": "at"
       }
     },
-    "LinkHint": "animi",
-    "StyleHint": "consequatur",
+    "LinkHint": "molestias",
+    "StyleHint": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

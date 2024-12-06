@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 969,
-  "ColumnId": 972,
-  "FieldDefault": "sunt",
-  "FieldHeight": 9,
-  "FieldLabel": "quis",
-  "FieldLeft": 884,
-  "FieldTop": 811,
+  "UDefFieldId": 10,
+  "ColumnId": 988,
+  "FieldDefault": "impedit",
+  "FieldHeight": 220,
+  "FieldLabel": "pariatur",
+  "FieldLeft": 255,
+  "FieldTop": 556,
   "FieldType": "Checkbox",
-  "FieldWidth": 265,
-  "FormatMask": "quis",
+  "FieldWidth": 473,
+  "FormatMask": "enim",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 721,
-  "LabelLeft": 613,
-  "LabelTop": 552,
-  "LabelWidth": 62,
-  "LastVersionId": 271,
-  "ListTableId": 644,
-  "IsMandatory": false,
+  "LabelHeight": 106,
+  "LabelLeft": 293,
+  "LabelTop": 278,
+  "LabelWidth": 325,
+  "LastVersionId": 373,
+  "ListTableId": 795,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 621,
+  "Page1LineNo": 595,
   "ProgId": "quia",
   "IsReadOnly": false,
-  "ShortLabel": "hic",
-  "TabOrder": 569,
-  "TextLength": 151,
-  "Tooltip": "aut",
-  "UdefIdentity": 877,
-  "UDListDefinitionId": 795,
+  "ShortLabel": "asperiores",
+  "TabOrder": 306,
+  "TextLength": 736,
+  "Tooltip": "doloribus",
+  "UdefIdentity": 99,
+  "UDListDefinitionId": 894,
   "Justification": "Center",
-  "Version": 964,
-  "TemplateVariableName": "Rempel-Bode",
+  "Version": 374,
+  "TemplateVariableName": "Denesik LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Bernier-Ruecker",
+  "MdoListName": "Stroman Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 978
     }
   }
 }

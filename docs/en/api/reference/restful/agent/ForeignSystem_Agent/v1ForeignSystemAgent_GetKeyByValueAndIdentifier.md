@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bode LLC",
-  "DeviceName": "Davis-Howell",
-  "DeviceIdentifier": "voluptatum",
-  "KeyName": "Watsica-Considine",
-  "KeyValue": "architecto",
-  "TableName": "Zboncak-Rath"
+  "ApplicationName": "Cruickshank-Jacobs",
+  "DeviceName": "Dach-Kozey",
+  "DeviceIdentifier": "officia",
+  "KeyName": "Hartmann, Gusikowski and Walker",
+  "KeyValue": "consequuntur",
+  "TableName": "Stiedemann, Metz and Green"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "odit",
-  "Value": "beatae",
-  "RecordId": 376,
-  "CreatedDate": "2021-10-04T14:45:05.6469762+02:00",
-  "UpdatedDate": "2019-04-17T14:45:05.6469762+02:00",
-  "UpdatedBy": "numquam",
-  "CreatedBy": "voluptatum",
-  "TableName": "Boyle, Hintz and Kuhlman",
+  "Key": "provident",
+  "Value": "perferendis",
+  "RecordId": 65,
+  "CreatedDate": "1998-11-05T10:17:55.660285+01:00",
+  "UpdatedDate": "2003-12-25T10:17:55.660285+01:00",
+  "UpdatedBy": "quaerat",
+  "CreatedBy": "est",
+  "TableName": "Feeney Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

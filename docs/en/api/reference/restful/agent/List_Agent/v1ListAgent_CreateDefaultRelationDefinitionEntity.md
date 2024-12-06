@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 134,
-  "Name": "Leannon-Kris",
-  "Tooltip": "accusamus",
-  "PassiveText": "ea",
-  "Deleted": true,
-  "Rank": 739,
+  "ReldefId": 632,
+  "Name": "Kassulke Inc and Sons",
+  "Tooltip": "vel",
+  "PassiveText": "quo",
+  "Deleted": false,
+  "Rank": 343,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldLength": 12
     }
   }
 }

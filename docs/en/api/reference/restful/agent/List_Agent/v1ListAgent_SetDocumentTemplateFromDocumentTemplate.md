@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 266,
+  "SourceDocumentTemplateId": 320,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 975,
-  "Name": "Jenkins, Turcotte and Lowe",
-  "Tooltip": "dolores",
-  "SaveInDb": 699,
-  "Filename": "et",
-  "DefaultOref": "nostrum",
+  "DocumentTemplateId": 388,
+  "Name": "Herman-Schmitt",
+  "Tooltip": "debitis",
+  "SaveInDb": 340,
+  "Filename": "quibusdam",
+  "DefaultOref": "sit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 433,
-  "IntentId": 280,
-  "IsDefaultPublished": true,
-  "Rank": 214,
-  "LoadTemplateFromPlugin": 89,
-  "MimeType": "sint",
+  "AutoeventId": 793,
+  "IntentId": 549,
+  "IsDefaultPublished": false,
+  "Rank": 534,
+  "LoadTemplateFromPlugin": 673,
+  "MimeType": "quidem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 905,
+  "DocumentTypeKey": 668,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dawson@herzog.us",
+  "EmailSubject": "juliet@ruecker.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "janiya@mohr.com",
+  "SenderEmailAddress": "milford@mohrprice.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 563,
-  "AssociateId": 1001,
-  "Caption": "commodi",
+  "DashboardId": 205,
+  "AssociateId": 775,
+  "Caption": "quasi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 697,
-      "Caption": "adipisci",
-      "Description": "Persevering object-oriented hardware",
-      "ChartName": "Ondricka Group",
-      "ChartId": "aliquam",
+      "DashboardTileId": 32,
+      "Caption": "similique",
+      "Description": "Cross-group heuristic knowledge base",
+      "ChartName": "Sipes, Tremblay and White",
+      "ChartId": "qui",
       "IsDefault": false,
-      "AssociateId": 492,
-      "GroupId": 135,
-      "SelectionId": 70,
-      "Config": "vel",
+      "AssociateId": 64,
+      "GroupId": 83,
+      "SelectionId": 478,
+      "Config": "deserunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 893
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   }
 }

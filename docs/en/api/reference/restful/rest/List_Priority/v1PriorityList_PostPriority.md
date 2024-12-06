@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 683,
-  "Name": "Herman-Klocko",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "UdListDefinitionId": 113,
-  "Rank": 221
+  "Id": 874,
+  "Name": "Oberbrunner-Marquardt",
+  "Tooltip": "at",
+  "Deleted": true,
+  "UdListDefinitionId": 242,
+  "Rank": 536
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Legros, Price and Hansen",
-  "Tooltip": "non",
+  "Id": 270,
+  "Name": "Towne, Murphy and Fisher",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 761,
-  "Rank": 820,
+  "UdListDefinitionId": 553,
+  "Rank": 783,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

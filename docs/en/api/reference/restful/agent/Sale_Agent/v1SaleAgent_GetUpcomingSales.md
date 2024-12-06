@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 835,
-  "Count": 985
+  "WeightedAmountLimit": 612,
+  "Count": 984
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Reichert, Kunde and Glover",
-    "SaleDate": "2023-04-03T14:45:06.1781213+02:00",
-    "SaleId": 845,
-    "Probability": 429,
-    "Title": "eius",
-    "Amount": 24291.634,
-    "Currency": "quidem",
-    "ProjectName": "Frami-Crona",
-    "AssociateFullName": "Miss Zola Grimes",
-    "Description": "Exclusive asynchronous methodology",
+    "ContactName": "Cremin-Gorczany",
+    "SaleDate": "1999-09-15T10:17:56.0040633+02:00",
+    "SaleId": 718,
+    "Probability": 237,
+    "Title": "commodi",
+    "Amount": 29559.888,
+    "Currency": "minima",
+    "ProjectName": "Dooley, Schmeler and Murazik",
+    "AssociateFullName": "Nicklaus Macejkovic",
+    "Description": "Object-based disintermediate interface",
     "Status": "Lost",
-    "WeightedAmount": 9198.2899999999991,
-    "ProjectId": 115,
-    "EarningPercent": 6913.6039999999994,
-    "Earning": 9934.7799999999988,
-    "ContactId": 626,
-    "AssociateId": 196,
-    "PersonId": 196,
-    "SaleTypeId": 757,
-    "SaleTypeName": "Schmeler-Ruecker",
-    "PersonFullName": "Mrs. Coralie D'Amore",
+    "WeightedAmount": 29606.897999999997,
+    "ProjectId": 763,
+    "EarningPercent": 25532.698,
+    "Earning": 8442.996,
+    "ContactId": 384,
+    "AssociateId": 812,
+    "PersonId": 400,
+    "SaleTypeId": 712,
+    "SaleTypeName": "Dooley LLC",
+    "PersonFullName": "Mrs. Josue Auer",
     "Completed": "Completed",
-    "ActiveErpLinks": 959,
-    "NextDueDate": "2011-07-07T14:45:06.1781213+02:00",
-    "Number": "343965",
+    "ActiveErpLinks": 237,
+    "NextDueDate": "2001-07-14T10:17:56.0040633+02:00",
+    "Number": "925648",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 772
       }
     }
   }

@@ -91,30 +91,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 763,
-  "UniqueId": "ut",
-  "Name": "Windler LLC",
-  "Description": "Managed leading edge process improvement",
-  "AssociateId": 526,
-  "Columns": 899,
+  "DashboardId": 571,
+  "UniqueId": "dolores",
+  "Name": "Deckow Inc and Sons",
+  "Description": "User-friendly homogeneous local area network",
+  "AssociateId": 458,
+  "Columns": 700,
   "Theme": null,
-  "VisibleForAll": 868,
+  "VisibleForAll": 724,
   "VisibleForAssociates": [
-    337,
-    722
+    392,
+    464
   ],
   "VisibleForGroups": [
-    558,
-    61
+    969,
+    582
   ],
-  "PinForAll": 477,
+  "PinForAll": 214,
   "PinForAssociates": [
-    670,
-    10
+    169,
+    905
   ],
   "PinForGroups": [
-    236,
-    943
+    359,
+    632
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 115,
-  "UniqueId": "consectetur",
-  "Name": "Wisoky-Jaskolski",
-  "Description": "Proactive responsive secured line",
-  "AssociateId": 248,
-  "Columns": 680,
+  "DashboardId": 458,
+  "UniqueId": "est",
+  "Name": "Auer, Herman and Leuschke",
+  "Description": "Operative upward-trending matrix",
+  "AssociateId": 608,
+  "Columns": 812,
   "Theme": null,
-  "VisibleForAll": 934,
+  "VisibleForAll": 512,
   "VisibleForAssociates": [
-    309,
-    36
+    654,
+    999
   ],
   "VisibleForGroups": [
-    705,
-    389
+    666,
+    843
   ],
-  "PinForAll": 644,
+  "PinForAll": 95,
   "PinForAssociates": [
-    809,
-    424
+    638,
+    475
   ],
   "PinForGroups": [
-    830,
-    134
+    5,
+    791
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

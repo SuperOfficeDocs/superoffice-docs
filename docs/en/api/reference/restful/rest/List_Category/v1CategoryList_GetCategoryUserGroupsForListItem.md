@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Schaden, Hintz and McCullough",
-    "ToolTip": "Consequatur animi et quo fugit in nobis.",
+    "Id": 968,
+    "Name": "Metz Inc and Sons",
+    "ToolTip": "Culpa ab.",
     "Deleted": false,
-    "Rank": 21,
-    "Type": "praesentium",
-    "ColorBlock": 327,
-    "IconHint": "omnis",
+    "Rank": 674,
+    "Type": "omnis",
+    "ColorBlock": 333,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2005-01-04T14:45:13.5992714+01:00",
+    "LastChanged": "2021-12-11T10:18:00.9418629+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Lebsack-Willms",
-        "ToolTip": "Vel facere.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "neque",
-        "ColorBlock": 28,
-        "IconHint": "non",
+        "Id": 352,
+        "Name": "Braun-Murray",
+        "ToolTip": "Est consectetur soluta dicta.",
+        "Deleted": true,
+        "Rank": 811,
+        "Type": "corrupti",
+        "ColorBlock": 818,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2024-02-05T14:45:13.5992714+01:00",
+        "LastChanged": "2019-09-10T10:18:00.9418629+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "dicta",
+        "ExtraInfo": "quae",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Saul Jast",
+        "FullName": "Danyka Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -126,16 +126,16 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "est",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Mrs. Rory Estrella Ortiz V",
+    "FullName": "Natasha Aufderhar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 648
       }
     }
   }

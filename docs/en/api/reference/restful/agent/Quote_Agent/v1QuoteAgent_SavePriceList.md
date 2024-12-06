@@ -85,15 +85,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 549,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 561,
-  "Name": "Howell-Torp",
-  "Description": "Sharable optimizing budgetary management",
-  "Currency": "quibusdam",
-  "CurrencyName": "Murazik-Bernier",
-  "ValidFrom": "2002-09-14T14:45:06.0531349+02:00",
-  "ValidTo": "2009-03-13T14:45:06.0531349+01:00",
+  "PriceListId": 971,
+  "ERPPriceListKey": "consequuntur",
+  "QuoteConnectionId": 76,
+  "Name": "Lowe-Walker",
+  "Description": "Operative solution-oriented help-desk",
+  "Currency": "rerum",
+  "CurrencyName": "Mills LLC",
+  "ValidFrom": "2012-02-01T10:17:55.9259336+01:00",
+  "ValidTo": "2023-11-04T10:17:55.9259336+01:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 238,
-  "ERPPriceListKey": "sequi",
-  "QuoteConnectionId": 364,
-  "Name": "Cronin Inc and Sons",
-  "Description": "Innovative attitude-oriented functionalities",
-  "Currency": "at",
-  "CurrencyName": "Jerde-Bins",
-  "ValidFrom": "2019-05-19T14:45:06.0531349+02:00",
-  "ValidTo": "2009-11-21T14:45:06.0531349+01:00",
+  "PriceListId": 225,
+  "ERPPriceListKey": "dignissimos",
+  "QuoteConnectionId": 501,
+  "Name": "Volkman, Brown and Muller",
+  "Description": "Re-contextualized tangible moderator",
+  "Currency": "tempora",
+  "CurrencyName": "Turner-West",
+  "ValidFrom": "2024-04-01T10:17:55.9259336+02:00",
+  "ValidTo": "2007-08-02T10:17:55.9259336+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   }
 }

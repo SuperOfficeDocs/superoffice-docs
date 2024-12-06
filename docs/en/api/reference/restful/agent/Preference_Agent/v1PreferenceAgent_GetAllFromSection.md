@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et"
+  "Section": "nam"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 882,
-    "Section": "ipsum",
-    "Key": "perferendis",
-    "Name": "Cummings, Connelly and Dickinson",
+    "PrefDescId": 830,
+    "Section": "sed",
+    "Key": "beatae",
+    "Name": "Mills-Nikolaus",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Exclusive human-resource application",
-    "IsBuiltin": false,
-    "TableName": "Senger-Cassin",
-    "UserDefinedListId": 88,
-    "Rank": 309,
-    "SubGroup": "suscipit",
-    "MinLevel": 273,
-    "MaxValue": 314,
-    "MinValue": 854,
-    "RequiredLicense": "deserunt",
+    "Description": "Distributed discrete forecast",
+    "IsBuiltin": true,
+    "TableName": "Okuneva-Strosin",
+    "UserDefinedListId": 131,
+    "Rank": 595,
+    "SubGroup": "non",
+    "MinLevel": 350,
+    "MaxValue": 250,
+    "MinValue": 866,
+    "RequiredLicense": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldLength": 689
       }
     }
   }

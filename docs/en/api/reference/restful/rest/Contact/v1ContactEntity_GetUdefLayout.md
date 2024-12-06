@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 689,
-    "ColumnId": 481,
-    "FieldDefault": "facere",
-    "FieldHeight": 95,
-    "FieldLabel": "velit",
-    "FieldLeft": 801,
-    "FieldTop": 752,
+    "UDefFieldId": 841,
+    "ColumnId": 868,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 115,
+    "FieldLabel": "enim",
+    "FieldLeft": 869,
+    "FieldTop": 20,
     "FieldType": "Checkbox",
-    "FieldWidth": 274,
-    "FormatMask": "iusto",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 519,
-    "LabelLeft": 808,
-    "LabelTop": 10,
-    "LabelWidth": 994,
-    "LastVersionId": 27,
-    "ListTableId": 829,
-    "IsMandatory": false,
+    "FieldWidth": 167,
+    "FormatMask": "velit",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 493,
+    "LabelLeft": 445,
+    "LabelTop": 134,
+    "LabelWidth": 527,
+    "LastVersionId": 702,
+    "ListTableId": 905,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 761,
-    "ProgId": "enim",
-    "IsReadOnly": false,
-    "ShortLabel": "dolores",
-    "TabOrder": 775,
-    "TextLength": 378,
-    "Tooltip": "maiores",
-    "UdefIdentity": 882,
-    "UDListDefinitionId": 437,
+    "Page1LineNo": 125,
+    "ProgId": "quia",
+    "IsReadOnly": true,
+    "ShortLabel": "quisquam",
+    "TabOrder": 839,
+    "TextLength": 768,
+    "Tooltip": "laudantium",
+    "UdefIdentity": 114,
+    "UDListDefinitionId": 993,
     "Justification": "Center",
-    "Version": 525,
-    "TemplateVariableName": "Harvey-Walsh",
-    "HasBeenPublished": false,
-    "MdoListName": "Mayert, Mueller and Kautzer",
+    "Version": 48,
+    "TemplateVariableName": "Brakus Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Langosh-Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 527
       }
     }
   }

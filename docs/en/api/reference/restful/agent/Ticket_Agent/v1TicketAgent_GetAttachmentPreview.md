@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 913
+  "AttachmentId": 268
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wehner LLC",
-  "MimeType": "ea",
-  "Size": 239,
+  "Name": "Fisher-Buckridge",
+  "MimeType": "et",
+  "Size": 949,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "karley@spencer.ca",
-  "EmailFrom": "yessenia@gaylord.name",
-  "EmailTo": "hayley@borereichmann.biz",
-  "EmailCc": "karli.brekke@homenick.us",
-  "EmailDate": "2011-08-20T14:45:06.584269+02:00",
+  "EmailSubject": "rosanna@cole.ca",
+  "EmailFrom": "brandon@willschamberger.ca",
+  "EmailTo": "lemuel@wintheiser.info",
+  "EmailCc": "myrtice@koss.info",
+  "EmailDate": "2008-12-19T10:17:56.2853287+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 359,
-      "Name": "Quitzon-Pollich",
-      "ContentType": "deserunt",
-      "AttSize": 540,
+      "AttachmentId": 325,
+      "Name": "Bauch-Fahey",
+      "ContentType": "placeat",
+      "AttSize": 180,
       "InlineImage": false,
-      "ContentId": "similique",
-      "AuthKey": "aliquam",
-      "IsSafeFileExtension": false,
+      "ContentId": "praesentium",
+      "AuthKey": "nemo",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

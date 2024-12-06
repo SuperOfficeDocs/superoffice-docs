@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 842,
-  "Name": "Dietrich LLC",
-  "Tooltip": "et",
-  "Rank": 517,
+  "SaleTypeId": 245,
+  "Name": "Heller-Fadel",
+  "Tooltip": "consectetur",
+  "Rank": 749,
   "DurationUnit": "Century",
-  "SaleDuration": 611,
-  "SaleTypeCatId": 466,
+  "SaleDuration": 880,
+  "SaleTypeCatId": 525,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 326,
-  "QuoteLinesTemplate": 613,
-  "ConfirmationLinesTemplate": 813,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 690,
+  "QuoteLinesTemplate": 981,
+  "ConfirmationLinesTemplate": 874,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 943,
-  "MinEarningPercent": 368,
-  "GroupQuoteLinesBy": 595,
-  "SortGroupLinesBy": 26,
+  "MaxDiscountPercent": 621,
+  "MinEarningPercent": 950,
+  "GroupQuoteLinesBy": 735,
+  "SortGroupLinesBy": 453,
   "Stages": [
     {
-      "Id": 698,
-      "Name": "Towne LLC",
-      "ToolTip": "Laboriosam veniam quis deserunt.",
+      "Id": 943,
+      "Name": "Larkin, Ritchie and Windler",
+      "ToolTip": "Et quo ut.",
       "Deleted": false,
-      "Rank": 547,
-      "Type": "porro",
-      "ColorBlock": 490,
-      "IconHint": "veniam",
+      "Rank": 372,
+      "Type": "placeat",
+      "ColorBlock": 765,
+      "IconHint": "occaecati",
       "Selected": false,
-      "LastChanged": "2024-01-08T14:45:13.9116989+01:00",
+      "LastChanged": "2024-06-19T10:18:01.1606262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "rerum",
-      "Hidden": false,
-      "FullName": "Simeon Ryan",
+      "ExtraInfo": "optio",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Dr. Alexis Schuyler Kilback IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldType": "System.String",
+          "FieldLength": 965
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 20
     }
   }
 }

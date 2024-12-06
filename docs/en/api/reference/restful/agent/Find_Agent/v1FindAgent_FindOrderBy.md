@@ -86,18 +86,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "fugit",
-  "ProviderName": "Stroman Inc and Sons",
-  "StorageKey": "dolor",
-  "PageSize": 294,
-  "PageNumber": 123,
+  "StorageType": "inventore",
+  "ProviderName": "Macejkovic, Little and Balistreri",
+  "StorageKey": "error",
+  "PageSize": 689,
+  "PageNumber": 788,
   "OrderBy": [
     {
-      "Name": "Kautzer-Ortiz",
+      "Name": "Stoltenberg-Crona",
       "Direction": "ASC"
     },
     {
-      "Name": "Kautzer-Ortiz",
+      "Name": "Stoltenberg-Crona",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sanford, Koch and Bayer",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "deserunt",
+      "DisplayName": "Stamm LLC",
+      "DisplayTooltip": "quidem",
+      "DisplayType": "quae",
       "CanOrderBy": false,
-      "Name": "Olson Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "vel",
-      "RestrictionListName": "Koch Inc and Sons",
+      "Name": "Wolf-Ferry",
+      "CanRestrictBy": true,
+      "RestrictionType": "quasi",
+      "RestrictionListName": "Kris Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "quas",
-      "IconHint": "saepe",
-      "HeadingIconHint": "aliquam"
+      "ExtraInfo": "iusto",
+      "Width": "voluptas",
+      "IconHint": "qui",
+      "HeadingIconHint": "reprehenderit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wisoky, Okuneva and Jacobson",
-      "PrimaryKey": 958,
+      "EntityName": "Kassulke LLC",
+      "PrimaryKey": 111,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "eligendi",
-          "LinkHint": "totam"
+          "DisplayValue": "sit",
+          "TooltipHint": "est",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "aliquam",
-      "StyleHint": "vero",
+      "LinkHint": "aspernatur",
+      "StyleHint": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldLength": 408
         }
       }
     }
   ],
-  "RowCount": 130,
+  "RowCount": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   }
 }

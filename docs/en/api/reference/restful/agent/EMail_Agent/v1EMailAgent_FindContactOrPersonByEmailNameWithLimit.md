@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Glover-Shanahan",
-  "EmailAddress": "elta_auer@west.com",
-  "NumberOfContacts": 60,
-  "NumberOfPersons": 916
+  "Name": "Hegmann-Mosciski",
+  "EmailAddress": "jocelyn.corkery@stroman.biz",
+  "NumberOfContacts": 643,
+  "NumberOfPersons": 959
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 307,
-    "FullName": "Aimee Block",
-    "EmailAddress": "adaline.renner@buckridge.name",
-    "ContactId": 737,
-    "ContactName": "Gleason-Adams",
+    "PersonId": 331,
+    "FullName": "Miss Martin Mikayla Goodwin",
+    "EmailAddress": "fermin@labadie.uk",
+    "ContactId": 54,
+    "ContactName": "Grant-Hermiston",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "O'Keefe, Spencer and Bechtelar",
+    "SortName": "Zboncak Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

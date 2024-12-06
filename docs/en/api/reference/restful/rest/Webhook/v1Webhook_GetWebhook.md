@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 865,
-  "Name": "Dooley Group",
+  "WebhookId": 849,
+  "Name": "Rice LLC",
   "Events": [
-    "sunt",
-    "impedit"
+    "sequi",
+    "ut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quis",
+  "Secret": "eaque",
   "State": "Active",
-  "Type": "consectetur",
+  "Type": "veniam",
   "Headers": {
-    "Headers1": "culpa",
-    "Headers2": "quia"
+    "Headers1": "qui",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-05-10T14:45:13.5367829+02:00",
+  "Registered": "1999-06-16T10:18:00.910611+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-02-23T14:45:13.5367829+01:00",
+  "Updated": "2000-10-28T10:18:00.910611+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sherman@kesslerparisian.info",
+  "ErrorsEmail": "cordie@kovacekdonnelly.name",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

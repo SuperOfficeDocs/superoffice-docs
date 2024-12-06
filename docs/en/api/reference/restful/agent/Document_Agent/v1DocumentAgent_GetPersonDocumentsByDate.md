@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 232,
+  "PersonId": 658,
   "IncludeProjectDocuments": false,
-  "StartTime": "2004-08-22T14:45:05.3501682+02:00",
-  "EndTime": "2018-02-14T14:45:05.3501682+01:00",
-  "Count": 810
+  "StartTime": "2013-01-03T10:17:55.457154+01:00",
+  "EndTime": "2019-05-18T10:17:55.457154+02:00",
+  "Count": 410
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 565,
-    "Attention": "quia",
-    "Header": "eum",
-    "Name": "Lueilwitz, Kovacek and Schaden",
+    "DocumentId": 638,
+    "Attention": "ut",
+    "Header": "nihil",
+    "Name": "Beahan, Bosco and Hettinger",
     "OurRef": "deleniti",
-    "YourRef": "perferendis",
-    "Description": "Organized 4th generation collaboration",
-    "DocumentTemplate": "sed",
+    "YourRef": "laudantium",
+    "Description": "Vision-oriented tertiary local area network",
+    "DocumentTemplate": "illum",
     "IsPublished": false,
-    "PersonId": 912,
-    "PersonFullName": "Mr. Brown Alessandra Schuster V",
-    "AssociateFullName": "Joey Kautzer",
-    "ContactId": 271,
-    "ContactName": "Hudson, Streich and Price",
-    "ProjectId": 424,
-    "ProjectName": "Weber, Cartwright and Reichel",
-    "AssociateId": 720,
-    "Snum": 45,
-    "SaleId": 266,
-    "SaleName": "Tillman, Rohan and Schiller",
+    "PersonId": 495,
+    "PersonFullName": "Mr. Emerald Geovanny Witting",
+    "AssociateFullName": "Pasquale Shields",
+    "ContactId": 940,
+    "ContactName": "Hirthe-Will",
+    "ProjectId": 53,
+    "ProjectName": "Brekke, Swaniawski and Kohler",
+    "AssociateId": 754,
+    "Snum": 969,
+    "SaleId": 714,
+    "SaleName": "Treutel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

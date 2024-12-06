@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 437,
-  "Name": "Watsica, Nicolas and Konopelski",
-  "Tooltip": "aut",
-  "Rank": 663,
-  "Deleted": true,
-  "DaysFuture": 773,
-  "Duration": "molestiae",
+  "SuggestedAppointmentId": 77,
+  "Name": "Koepp-Spencer",
+  "Tooltip": "incidunt",
+  "Rank": 583,
+  "Deleted": false,
+  "DaysFuture": 947,
+  "Duration": "et",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "ducimus",
+  "Text": "quod",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 144,
-  "Name": "Lindgren LLC",
-  "Tooltip": "rem",
-  "Rank": 230,
-  "Deleted": true,
-  "DaysFuture": 724,
-  "Duration": "aut",
-  "AutoSuggest": false,
+  "SuggestedAppointmentId": 709,
+  "Name": "Nicolas, Hintz and Towne",
+  "Tooltip": "quos",
+  "Rank": 837,
+  "Deleted": false,
+  "DaysFuture": 737,
+  "Duration": "voluptatem",
+  "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "alias",
+  "AssignToMember": true,
+  "Text": "minima",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldLength": 159
     }
   }
 }

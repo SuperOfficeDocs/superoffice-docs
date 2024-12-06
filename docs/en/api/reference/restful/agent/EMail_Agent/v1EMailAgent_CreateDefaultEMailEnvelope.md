@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 272,
-  "MessageId": "iure",
-  "Subject": "nobis",
+  "ServerId": 971,
+  "MessageId": "repellat",
+  "Subject": "optio",
   "From": null,
   "To": [
     {
-      "ContactId": 513,
-      "ContactName": "Stoltenberg LLC",
-      "PersonId": 861,
-      "PersonName": "Krajcik Inc and Sons",
-      "AssociateId": 746,
-      "Address": "aperiam",
-      "EmailId": 516,
+      "ContactId": 478,
+      "ContactName": "Davis Group",
+      "PersonId": 925,
+      "PersonName": "Haag LLC",
+      "AssociateId": 935,
+      "Address": "autem",
+      "EmailId": 246,
       "DuplicatePersonIds": [
-        640,
-        873
+        451,
+        409
       ],
-      "Name": "Heaney-Hintz",
+      "Name": "White-Heaney",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 582
         }
       }
     }
   ],
-  "Sent": "1998-11-02T14:45:05.5220031+01:00",
+  "Sent": "2024-05-24T10:17:55.5821627+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 307,
+  "Size": 283,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

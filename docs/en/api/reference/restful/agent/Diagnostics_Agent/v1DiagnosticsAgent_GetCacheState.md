@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Kilback-Reichel",
-    "Goyette-Herzog"
+    "Connelly, Blick and Mertz",
+    "Dach, Schuppe and Huels"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"repellat"
 ```

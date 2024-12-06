@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Ernser Group",
-    "Tooltip": "voluptatum",
+    "Id": 162,
+    "Name": "Ebert LLC",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 638,
-    "Rank": 701
+    "UdListDefinitionId": 975,
+    "Rank": 76
   },
   {
-    "Id": 441,
-    "Name": "Ernser Group",
-    "Tooltip": "voluptatum",
+    "Id": 162,
+    "Name": "Ebert LLC",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 638,
-    "Rank": 701
+    "UdListDefinitionId": 975,
+    "Rank": 76
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Gottlieb, Roob and Smitham",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 333,
-    "Rank": 67,
+    "Id": 833,
+    "Name": "Mueller-Bailey",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 780,
+    "Rank": 52,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 207
       }
     }
   }

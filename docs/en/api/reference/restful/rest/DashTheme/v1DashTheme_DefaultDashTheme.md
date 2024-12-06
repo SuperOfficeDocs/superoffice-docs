@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 37,
-  "Name": "Toy-Pouros",
-  "Config": "dolorum",
-  "Rank": 930,
-  "Client": "ipsam",
-  "Style": "et",
+  "DashboardThemeId": 74,
+  "Name": "Hayes-Erdman",
+  "Config": "vero",
+  "Rank": 185,
+  "Client": "quae",
+  "Style": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 556
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rowe LLC",
-  "AdditionalInfo": "blanditiis",
+  "Name": "Cronin Inc and Sons",
+  "AdditionalInfo": "nihil",
   "SelectableMDOList": [
     {
-      "Id": 221,
-      "Name": "Emard-Lemke",
-      "ToolTip": "Nam sunt culpa dolorem porro deleniti repudiandae.",
-      "Deleted": false,
-      "Rank": 403,
-      "Type": "iusto",
-      "ColorBlock": 616,
-      "IconHint": "sequi",
-      "Selected": false,
-      "LastChanged": "2010-03-07T14:45:05.8031904+01:00",
+      "Id": 489,
+      "Name": "Hilll Inc and Sons",
+      "ToolTip": "Eum ex explicabo harum ipsa voluptatem.",
+      "Deleted": true,
+      "Rank": 57,
+      "Type": "quae",
+      "ColorBlock": 872,
+      "IconHint": "voluptatem",
+      "Selected": true,
+      "LastChanged": "2015-09-28T10:17:55.7696734+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "quo",
-      "Hidden": true,
-      "FullName": "Zita Jast"
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "eveniet",
+      "Hidden": false,
+      "FullName": "Ms. Marlene Mohr"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Tremblay-Doyle",
-    "ToolTip": "Est quas et explicabo cupiditate nemo sed.",
-    "Deleted": true,
-    "Rank": 959,
-    "Type": "quia",
-    "ColorBlock": 250,
-    "IconHint": "est",
+    "Id": 935,
+    "Name": "Wolff-Feeney",
+    "ToolTip": "Vero ut accusantium et repellat quia.",
+    "Deleted": false,
+    "Rank": 588,
+    "Type": "accusamus",
+    "ColorBlock": 545,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2014-06-16T14:45:05.8031904+02:00",
+    "LastChanged": "2020-12-11T10:17:55.7696734+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Purdy Group",
-        "ToolTip": "Aut totam sint fugit qui voluptas sapiente eum.",
-        "Deleted": false,
-        "Rank": 654,
-        "Type": "facere",
-        "ColorBlock": 586,
-        "IconHint": "soluta",
+        "Id": 988,
+        "Name": "Kreiger, Moen and Predovic",
+        "ToolTip": "Rerum qui adipisci qui.",
+        "Deleted": true,
+        "Rank": 265,
+        "Type": "qui",
+        "ColorBlock": 770,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "2001-05-11T14:45:05.8031904+02:00",
+        "LastChanged": "2024-10-18T10:17:55.7696734+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tempore",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Cristobal Aryanna Langworth PhD",
+        "FullName": "Lucienne Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 9
+            "FieldType": "System.Int32",
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "magnam",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Shanon Lind",
+    "FullName": "Dr. Tania Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldType": "System.Int32",
+        "FieldLength": 627
       }
     }
   }

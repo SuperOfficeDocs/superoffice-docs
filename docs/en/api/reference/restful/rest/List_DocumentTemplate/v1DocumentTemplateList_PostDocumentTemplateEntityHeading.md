@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 846,
-  "Name": "Hayes, Hilll and Rogahn",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 234,
-  "UdListDefinitionId": 887
+  "HeadingId": 394,
+  "Name": "Abernathy LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 320,
+  "UdListDefinitionId": 853
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 970,
-  "Name": "Murray-Kirlin",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 403,
-  "UdListDefinitionId": 273,
+  "HeadingId": 432,
+  "Name": "Cummings Group",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 159,
+  "UdListDefinitionId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

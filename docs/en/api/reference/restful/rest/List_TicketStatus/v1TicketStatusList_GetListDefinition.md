@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 713,
-  "Name": "Kerluke, Herzog and Cummerata",
-  "Tooltip": "odio",
+  "Id": 826,
+  "Name": "Treutel, Hane and Deckow",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 633,
+  "Rank": 116,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 299
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

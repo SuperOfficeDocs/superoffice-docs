@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 408,
-  "Name": "Beer, Weimann and Zboncak",
-  "Tooltip": "et",
+  "RoleId": 923,
+  "Name": "Kessler, Schmeler and Waters",
+  "Tooltip": "at",
   "RoleType": "Anonymous",
-  "Deleted": 923,
-  "Rank": 170,
-  "Created": "2016-08-04T14:45:06.6467545+02:00",
-  "UseCategories": 703,
+  "Deleted": 489,
+  "Rank": 226,
+  "Created": "2003-12-17T10:17:56.3322071+01:00",
+  "UseCategories": 472,
   "CreatedBy": null,
-  "Updated": "2014-12-04T14:45:06.6467545+01:00",
+  "Updated": "2015-06-02T10:17:56.3322071+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 498
     }
   }
 }

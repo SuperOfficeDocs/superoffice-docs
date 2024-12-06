@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "illo",
-      "Key": "sint"
+      "Section": "perspiciatis",
+      "Key": "sit"
     },
     {
-      "Section": "illo",
-      "Key": "sint"
+      "Section": "perspiciatis",
+      "Key": "sit"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "dolores",
+    "RawValue": "debitis",
     "Specification": null,
-    "DisplayValue": "architecto",
-    "DisplayTooltip": "eos",
+    "DisplayValue": "et",
+    "DisplayTooltip": "consequatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 916,
-    "PrefDescId": 649,
-    "TableName": "Schulist-Champlin",
-    "UserPreferenceId": 857,
+    "TargetId": 84,
+    "PrefDescId": 701,
+    "TableName": "Pfannerstill, Skiles and Kovacek",
+    "UserPreferenceId": 468,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

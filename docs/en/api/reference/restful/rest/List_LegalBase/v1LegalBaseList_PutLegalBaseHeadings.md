@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 29,
-    "Name": "Volkman, Johnston and Wisozk",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 947
+    "HeadingId": 581,
+    "Name": "Bins LLC",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 537,
+    "UdListDefinitionId": 465
   },
   {
-    "HeadingId": 29,
-    "Name": "Volkman, Johnston and Wisozk",
-    "Tooltip": "eligendi",
-    "Deleted": false,
-    "Rank": 551,
-    "UdListDefinitionId": 947
+    "HeadingId": 581,
+    "Name": "Bins LLC",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "Rank": 537,
+    "UdListDefinitionId": 465
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 772,
-    "Name": "Zieme Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 433,
+    "Name": "Kuphal LLC",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "Rank": 59,
-    "UdListDefinitionId": 864,
+    "Rank": 918,
+    "UdListDefinitionId": 714,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 668
       }
     }
   }

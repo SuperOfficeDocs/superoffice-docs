@@ -709,7 +709,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/personDirectFax/description,person/correspondingAssociate/assocTooltip,project/LastSale,sale/date
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=text,documentUdef/SuperOffice:7,sale/sale/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

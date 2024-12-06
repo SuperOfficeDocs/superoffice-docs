@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Abshire Group",
-  "Context": "recusandae",
+  "ProviderName": "Murazik, Bergnaum and Baumbach",
+  "Context": "rerum",
   "DesiredEntities": [
-    "aut",
-    "harum"
+    "architecto",
+    "voluptates"
   ],
   "Columns": [
-    "cupiditate",
-    "quo"
+    "ab",
+    "voluptatem"
   ],
   "SortOrder": [
     {
-      "Name": "Grant-Rau",
+      "Name": "Schulist, Baumbach and Swaniawski",
       "Direction": "ASC"
     },
     {
-      "Name": "Grant-Rau",
+      "Name": "Schulist, Baumbach and Swaniawski",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Koelpin, Shanahan and Mayert",
+      "Name": "Bogan-Tremblay",
       "Operator": "et",
       "Values": [
-        "quis",
-        "voluptatem"
+        "maiores",
+        "dolore"
       ],
       "DisplayValues": [
-        "itaque",
-        "accusamus"
+        "aut",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 787,
+      "InterParenthesis": 690,
       "InterOperator": "And",
-      "UniqueHash": 15
+      "UniqueHash": 951
     }
   ],
-  "ExportType": "inventore",
+  "ExportType": "dolore",
   "SelectedRowIds": [
-    "soluta",
-    "sed"
+    "voluptate",
+    "possimus"
   ],
-  "EstimatedRowCount": 708
+  "EstimatedRowCount": 852
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 42,
-  "FileName": "Corwin-Carroll",
-  "Message": "deserunt",
+  "BatchTaskId": 855,
+  "FileName": "Wisozk LLC",
+  "Message": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   }
 }

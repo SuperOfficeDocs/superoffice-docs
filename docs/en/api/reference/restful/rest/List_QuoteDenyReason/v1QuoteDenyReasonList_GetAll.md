@@ -25,7 +25,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Hackett, Pfeffer and McClure",
-    "Tooltip": "ab",
+    "Id": 638,
+    "Name": "Waters Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 374,
-    "Rank": 546,
+    "UdListDefinitionId": 652,
+    "Rank": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldType": "System.String",
+        "FieldLength": 272
       }
     }
   }

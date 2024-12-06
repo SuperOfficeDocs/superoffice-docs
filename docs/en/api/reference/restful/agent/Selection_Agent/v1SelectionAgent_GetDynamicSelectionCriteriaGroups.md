@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 579
+  "SelectionId": 925
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski, Luettgen and Nolan",
-    "Description": "Expanded exuding pricing structure",
-    "Rank": 128,
+    "Name": "Bartell Group",
+    "Description": "Triple-buffered intangible infrastructure",
+    "Rank": 516,
     "Restrictions": [
       {
-        "Name": "Kreiger Inc and Sons",
-        "Operator": "voluptate",
+        "Name": "Kreiger, Bins and Ruecker",
+        "Operator": "culpa",
         "Values": [
-          "velit",
-          "commodi"
+          "rerum",
+          "corporis"
         ],
         "DisplayValues": [
-          "corporis",
-          "deleniti"
+          "ratione",
+          "consequatur"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 755,
+        "InterParenthesis": 328,
         "InterOperator": "And",
-        "UniqueHash": 100
+        "UniqueHash": 887
       }
     ]
   },
   {
-    "Name": "Mosciski, Luettgen and Nolan",
-    "Description": "Expanded exuding pricing structure",
-    "Rank": 128,
+    "Name": "Bartell Group",
+    "Description": "Triple-buffered intangible infrastructure",
+    "Rank": 516,
     "Restrictions": [
       {
-        "Name": "Kreiger Inc and Sons",
-        "Operator": "voluptate",
+        "Name": "Kreiger, Bins and Ruecker",
+        "Operator": "culpa",
         "Values": [
-          "velit",
-          "commodi"
+          "rerum",
+          "corporis"
         ],
         "DisplayValues": [
-          "corporis",
-          "deleniti"
+          "ratione",
+          "consequatur"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 755,
+        "InterParenthesis": 328,
         "InterOperator": "And",
-        "UniqueHash": 100
+        "UniqueHash": 887
       }
     ]
   }

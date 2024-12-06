@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 998,
-  "Name": "Bayer LLC",
-  "Description": "Optional mission-critical moratorium",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 292,
+  "Name": "Franecki Group",
+  "Description": "Operative static definition",
+  "WelcomeMessage": "rerum",
   "Language": null,
-  "LastAccept": "2001-05-10T14:45:12.5838708+02:00",
-  "SecondsPrAccept": 994,
-  "AlertRecipient": "et",
+  "LastAccept": "2001-05-27T10:18:00.2543195+02:00",
+  "SecondsPrAccept": 898,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sint",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eos",
-  "WarnNewChatMinutes": 425,
-  "WarnManagerNewChatMinutes": 265,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "fugit",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "quod",
+  "WarnNewChatMinutes": 20,
+  "WarnManagerNewChatMinutes": 158,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 814,
-  "WarnManagerChatMessageMinutes": 22,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 572,
+  "WarnManagerChatMessageMinutes": 89,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 123,
-  "OfflineFormQueueLength": 325,
+  "OfflineFormTimeLimit": 109,
+  "OfflineFormQueueLength": 704,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quod",
+  "WidgetRatingText": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   }
 }

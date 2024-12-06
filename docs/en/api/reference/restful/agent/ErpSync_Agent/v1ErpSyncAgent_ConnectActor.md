@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 181,
-  "CrmRecordId": 298,
+  "ErpConnectionId": 939,
+  "CrmRecordId": 769,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "rerum",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Nicolas LLC",
-      "CrmFieldKey": "ut",
-      "Value": "et",
-      "DisplayValue": "nulla",
+      "DisplayName": "Marquardt LLC",
+      "CrmFieldKey": "et",
+      "Value": "sint",
+      "DisplayValue": "eveniet",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Nicolas LLC",
-      "CrmFieldKey": "ut",
-      "Value": "et",
-      "DisplayValue": "nulla",
+      "DisplayName": "Marquardt LLC",
+      "CrmFieldKey": "et",
+      "Value": "sint",
+      "DisplayValue": "eveniet",
       "SyncToCrm": false,
       "SyncToErp": false
     }

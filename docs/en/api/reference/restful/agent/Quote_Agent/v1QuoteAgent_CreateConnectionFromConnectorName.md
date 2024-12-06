@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Bashirian, Botsford and Halvorson"
+  "ConnectorName": "Homenick Inc and Sons"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 259,
-  "ERPName": "Conn Inc and Sons",
-  "DisplayName": "Wintheiser Group",
-  "DisplayDescription": "Multi-layered value-added system engine",
-  "Rank": 929,
-  "ConnectorName": "Emard-Turner",
-  "ErpConnectionId": 896,
-  "ExtraData": "et",
+  "QuoteConnectionId": 440,
+  "ERPName": "Reinger-Nienow",
+  "DisplayName": "Pacocha-Turcotte",
+  "DisplayDescription": "Synergized encompassing productivity",
+  "Rank": 208,
+  "ConnectorName": "Haley LLC",
+  "ErpConnectionId": 305,
+  "ExtraData": "sit",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 996,
-      "ERPPriceListKey": "tempore",
-      "QuoteConnectionId": 595,
-      "Name": "Eichmann-Schowalter",
-      "Description": "Customer-focused even-keeled system engine",
-      "Currency": "nemo",
-      "CurrencyName": "Rath, Jenkins and Hahn",
-      "ValidFrom": "2000-03-17T14:45:06.0687573+01:00",
-      "ValidTo": "2000-04-16T14:45:06.0687573+02:00",
-      "IsActive": true,
+      "PriceListId": 664,
+      "ERPPriceListKey": "sed",
+      "QuoteConnectionId": 263,
+      "Name": "Botsford Group",
+      "Description": "Monitored regional hub",
+      "Currency": "sint",
+      "CurrencyName": "Runolfsson-Jaskolski",
+      "ValidFrom": "2022-10-23T10:17:55.9415595+02:00",
+      "ValidTo": "2016-09-11T10:17:55.9415595+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldLength": 463
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    886,
-    705
+    678,
+    235
   ],
   "AssociateAccessIds": [
-    436,
-    63
+    716,
+    96
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   }
 }

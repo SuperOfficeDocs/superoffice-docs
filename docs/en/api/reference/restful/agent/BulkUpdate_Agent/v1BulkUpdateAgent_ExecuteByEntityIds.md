@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,26 +81,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "assumenda",
-      "ValueType": "esse",
+      "Key": "cumque",
+      "ValueType": "maxime",
       "Mandatory": false,
-      "EncodedDisplayName": "Abbott, Lind and Murazik",
-      "EncodedDisplayDescription": "Versatile human-resource process improvement",
+      "EncodedDisplayName": "Howell Group",
+      "EncodedDisplayDescription": "Mandatory well-modulated knowledge base",
       "IconHint": "consequatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "magnam",
-      "EncodedDataCaptionDescription": "Team-oriented discrete structure",
+      "EncodedDataCaption": "deserunt",
+      "EncodedDataCaptionDescription": "Customer-focused neutral model",
       "CurrentOperationType": "omnis",
       "Values": [
-        "voluptatibus",
-        "perferendis"
+        "tempora",
+        "animi"
       ],
       "DisplayValues": [
-        "repellendus",
-        "aliquid"
+        "cupiditate",
+        "ipsum"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Johnston-Hackett",
-  "Context": "atque",
-  "Ids": "optio"
+  "TableName": "Schoen Group",
+  "Context": "nihil",
+  "Ids": "reprehenderit"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-144
+305
 ```

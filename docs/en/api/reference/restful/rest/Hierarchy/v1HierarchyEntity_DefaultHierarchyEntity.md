@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 703,
+  "HierarchyId": 814,
   "Domain": "Dashboards",
-  "Name": "Hyatt-Bartoletti",
-  "Fullname": "nemo",
-  "ParentId": 894,
+  "Name": "Marks LLC",
+  "Fullname": "aut",
+  "ParentId": 596,
   "Children": [
     {
-      "HierarchyId": 896,
+      "HierarchyId": 776,
       "Domain": "Dashboards",
-      "Name": "Zemlak-Steuber",
-      "Fullname": "illo",
-      "ParentId": 211,
+      "Name": "Gibson-Hirthe",
+      "Fullname": "eligendi",
+      "ParentId": 895,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-09-06T14:45:12.8338163+02:00",
-      "RegisteredAssociateId": 404,
-      "Updated": "2014-03-22T14:45:12.8338163+01:00",
-      "UpdatedAssociateId": 493,
+      "Registered": "2009-01-19T10:18:00.4262067+01:00",
+      "RegisteredAssociateId": 119,
+      "Updated": "2021-05-28T10:18:00.4262067+02:00",
+      "UpdatedAssociateId": 541,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 241
         }
       }
     }
   ],
-  "Registered": "2005-06-05T14:45:12.8338163+02:00",
-  "RegisteredAssociateId": 545,
-  "Updated": "1998-10-17T14:45:12.8338163+02:00",
-  "UpdatedAssociateId": 835,
+  "Registered": "2009-06-17T10:18:00.4262067+02:00",
+  "RegisteredAssociateId": 602,
+  "Updated": "2003-12-24T10:18:00.4262067+01:00",
+  "UpdatedAssociateId": 427,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 406
     }
   }
 }

@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "molestiae",
-  "To": "neque",
-  "Subject": "ut",
-  "PlainBody": "omnis",
-  "HtmlBody": "ab",
+  "From": "occaecati",
+  "To": "molestiae",
+  "Subject": "aut",
+  "PlainBody": "delectus",
+  "HtmlBody": "doloribus",
   "AttachmentIds": [
-    131,
-    573
+    870,
+    36
   ],
-  "EventName": "Ernser, Kessler and Kutch"
+  "EventName": "Smith Group"
 }
 ```
 

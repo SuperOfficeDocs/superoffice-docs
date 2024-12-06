@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Dr. Misael Conn",
-    "Description": "Implemented optimizing open system",
-    "ProjectId": 918,
-    "EventName": "Hirthe Inc and Sons",
-    "AssociateId": 654,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "sequi",
-    "SignOffText": "qui",
-    "SignOnConfirmationText": "ex",
-    "SignOnText": "nihil",
-    "EventDate": "2015-08-09T14:45:06.0062702+02:00",
-    "Enabled": false,
+    "AssociateFullName": "Ms. Marion Mable Rau",
+    "Description": "Inverse homogeneous secured line",
+    "ProjectId": 829,
+    "EventName": "Considine Group",
+    "AssociateId": 23,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quod",
+    "SignOffText": "at",
+    "SignOnConfirmationText": "velit",
+    "SignOnText": "rem",
+    "EventDate": "2016-03-07T10:17:55.9103076+01:00",
+    "Enabled": true,
     "SignOff": false,
     "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": true,
-    "SignOffTaskId": 88,
-    "SignOnTaskId": 238,
-    "SignOffTriggersAssign": true,
+    "SignOffTaskId": 931,
+    "SignOnTaskId": 440,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": true,
-    "SignOnPersonId": 357,
-    "SignOffPersonId": 697,
+    "SignOnPersonId": 546,
+    "SignOffPersonId": 54,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

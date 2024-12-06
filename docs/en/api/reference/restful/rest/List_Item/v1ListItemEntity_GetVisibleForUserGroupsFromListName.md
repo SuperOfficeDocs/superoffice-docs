@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Illum pariatur et similique.",
+    "Id": 245,
+    "Name": "Murray Inc and Sons",
+    "ToolTip": "Et a earum tempora similique doloremque.",
     "Deleted": true,
-    "Rank": 875,
-    "Type": "est",
-    "ColorBlock": 358,
-    "IconHint": "cupiditate",
+    "Rank": 918,
+    "Type": "blanditiis",
+    "ColorBlock": 540,
+    "IconHint": "necessitatibus",
     "Selected": true,
-    "LastChanged": "2019-03-09T14:45:13.552405+01:00",
+    "LastChanged": "2016-08-05T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Gibson-Waelchi",
-        "ToolTip": "Incidunt rerum et qui numquam.",
-        "Deleted": false,
-        "Rank": 65,
-        "Type": "excepturi",
-        "ColorBlock": 915,
-        "IconHint": "quo",
+        "Id": 324,
+        "Name": "Predovic, Yundt and Bernier",
+        "ToolTip": "Perspiciatis officiis.",
+        "Deleted": true,
+        "Rank": 740,
+        "Type": "qui",
+        "ColorBlock": 205,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2004-08-09T14:45:13.552405+02:00",
+        "LastChanged": "2016-07-27T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Prof. Lenny Nicolas II",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Mr. Tavares Mills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "dolores",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Laisha Wilfrid Hayes V",
+    "FullName": "Miss Elwin Shanahan DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 858
       }
     }
   }

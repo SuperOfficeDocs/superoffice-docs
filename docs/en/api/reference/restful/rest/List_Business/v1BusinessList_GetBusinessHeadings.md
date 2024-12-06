@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 115,
-    "Name": "Durgan LLC",
-    "Tooltip": "ratione",
+    "HeadingId": 951,
+    "Name": "Kuvalis, Emard and Glover",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 728,
-    "UdListDefinitionId": 778,
+    "Rank": 571,
+    "UdListDefinitionId": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldLength": 522
       }
     }
   }

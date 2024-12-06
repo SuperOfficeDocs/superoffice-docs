@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 622,
-  "Section": "voluptatibus",
-  "Key": "ad",
-  "Name": "Crist-Marks",
+  "PrefDescId": 638,
+  "Section": "aut",
+  "Key": "odit",
+  "Name": "Gutkowski-Beahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound actuating monitoring",
-  "IsBuiltin": true,
-  "TableName": "Pfeffer LLC",
-  "UserDefinedListId": 242,
-  "Rank": 735,
-  "SubGroup": "consequatur",
-  "MinLevel": 504,
-  "MaxValue": 489,
-  "MinValue": 576,
-  "RequiredLicense": "aperiam",
+  "Description": "Stand-alone bifurcated infrastructure",
+  "IsBuiltin": false,
+  "TableName": "Crona Group",
+  "UserDefinedListId": 106,
+  "Rank": 545,
+  "SubGroup": "pariatur",
+  "MinLevel": 734,
+  "MaxValue": 283,
+  "MinValue": 726,
+  "RequiredLicense": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 383
     }
   }
 }

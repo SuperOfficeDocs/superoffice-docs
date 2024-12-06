@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 510,
+  "EjMessageId": 589,
   "Ticket": null,
-  "CreatedAt": "2003-11-28T14:45:06.4436775+01:00",
+  "CreatedAt": "2006-09-29T10:17:56.1915748+02:00",
   "CreatedBy": null,
-  "Author": "libero",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 730,
-  "Body": "quasi",
-  "HtmlBody": "porro",
-  "EmailHeader": "eriberto_beahan@mosciski.uk",
-  "DebugInfo": "deserunt",
-  "MailSorter": "dolor",
+  "MessageId": "laudantium",
+  "TimeSpent": 979,
+  "Body": "ex",
+  "HtmlBody": "dolores",
+  "EmailHeader": "paul.prohaska@baumbachanderson.uk",
+  "DebugInfo": "sapiente",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "a",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 473,
-      "Name": "Hudson-Jerde",
-      "Value": "ut",
+      "Id": 102,
+      "Name": "Heidenreich LLC",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldType": "System.String",
+          "FieldLength": 668
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "dolore",
-  "Sentiment": 825,
-  "SentimentConfidence": 940,
+  "Important": false,
+  "Language": "dignissimos",
+  "Sentiment": 872,
+  "SentimentConfidence": 670,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 68,
-      "Name": "Schneider, Bergnaum and Mann",
-      "ContentType": "ab",
-      "AttSize": 643,
-      "InlineImage": false,
-      "ContentId": "nulla",
-      "AuthKey": "dolorem",
+      "AttachmentId": 715,
+      "Name": "Bogisich, Orn and Raynor",
+      "ContentType": "neque",
+      "AttSize": 209,
+      "InlineImage": true,
+      "ContentId": "recusandae",
+      "AuthKey": "excepturi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 880
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "molestias"
+    "CustomFields1": "illo",
+    "CustomFields2": "quaerat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 583
     }
   }
 }

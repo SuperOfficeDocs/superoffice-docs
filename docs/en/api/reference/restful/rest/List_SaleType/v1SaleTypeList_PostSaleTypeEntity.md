@@ -111,47 +111,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 943,
-  "Name": "Kuphal, Wolf and Rempel",
-  "Tooltip": "magnam",
-  "Rank": 691,
+  "SaleTypeId": 838,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "nihil",
+  "Rank": 249,
   "DurationUnit": "Century",
-  "SaleDuration": 488,
-  "SaleTypeCatId": 385,
+  "SaleDuration": 941,
+  "SaleTypeCatId": 842,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 429,
-  "QuoteLinesTemplate": 882,
-  "ConfirmationLinesTemplate": 218,
+  "DefaultQuoteValidity": 615,
+  "QuoteLinesTemplate": 686,
+  "ConfirmationLinesTemplate": 818,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 909,
-  "MinEarningPercent": 566,
-  "GroupQuoteLinesBy": 929,
-  "SortGroupLinesBy": 691,
+  "MaxDiscountPercent": 800,
+  "MinEarningPercent": 613,
+  "GroupQuoteLinesBy": 303,
+  "SortGroupLinesBy": 264,
   "Stages": [
     {
-      "Id": 695,
-      "Name": "Bahringer-Marks",
-      "ToolTip": "Dolor pariatur velit nobis tempore.",
+      "Id": 16,
+      "Name": "Parker-Johnston",
+      "ToolTip": "Autem libero culpa provident.",
       "Deleted": false,
-      "Rank": 279,
-      "Type": "ea",
-      "ColorBlock": 74,
-      "IconHint": "rerum",
+      "Rank": 380,
+      "Type": "ducimus",
+      "ColorBlock": 276,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "2019-05-15T14:45:13.9116989+02:00",
+      "LastChanged": "2003-12-22T10:18:01.1606262+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "excepturi",
-      "Hidden": false,
-      "FullName": "Mr. Llewellyn Rohan V"
+      "ExtraInfo": "odit",
+      "StyleHint": "quae",
+      "Hidden": true,
+      "FullName": "Hal Pacocha"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 190,
-  "Name": "Kilback-Mante",
-  "Tooltip": "dicta",
-  "Rank": 146,
+  "SaleTypeId": 798,
+  "Name": "Lowe Group",
+  "Tooltip": "exercitationem",
+  "Rank": 218,
   "DurationUnit": "Century",
-  "SaleDuration": 314,
-  "SaleTypeCatId": 612,
+  "SaleDuration": 488,
+  "SaleTypeCatId": 669,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 54,
-  "QuoteLinesTemplate": 883,
-  "ConfirmationLinesTemplate": 707,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 565,
-  "MinEarningPercent": 118,
-  "GroupQuoteLinesBy": 937,
-  "SortGroupLinesBy": 573,
+  "DefaultQuoteValidity": 85,
+  "QuoteLinesTemplate": 350,
+  "ConfirmationLinesTemplate": 605,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 415,
+  "MinEarningPercent": 915,
+  "GroupQuoteLinesBy": 971,
+  "SortGroupLinesBy": 443,
   "Stages": [
     {
-      "Id": 31,
-      "Name": "Quigley, Reichert and Anderson",
-      "ToolTip": "Vel optio ullam.",
+      "Id": 179,
+      "Name": "Marquardt, Koch and Aufderhar",
+      "ToolTip": "Officia beatae quisquam a omnis est.",
       "Deleted": false,
-      "Rank": 994,
-      "Type": "nam",
-      "ColorBlock": 613,
-      "IconHint": "sunt",
+      "Rank": 701,
+      "Type": "vel",
+      "ColorBlock": 154,
+      "IconHint": "molestias",
       "Selected": false,
-      "LastChanged": "1999-03-24T14:45:13.9116989+01:00",
+      "LastChanged": "2010-10-30T10:18:01.1606262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Mr. Jakayla Lyda Gutmann",
+      "ExtraInfo": "tempore",
+      "StyleHint": "molestiae",
+      "Hidden": true,
+      "FullName": "Prof. Walton Thurman O'Connell I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 683
     }
   }
 }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 925,
-  "Name": "Stracke Group",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 926,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": true
+  "Id": 237,
+  "Name": "Rodriguez-Cormier",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 784,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "O'Connell LLC",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "Rank": 549,
+  "Id": 586,
+  "Name": "Gerlach-Rodriguez",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 567,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "animi",
-  "InUseByUserDefinedFields": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 328
     }
   }
 }

@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 32,
-  "PlainMessage": "voluptatibus",
-  "HtmlMessage": "exercitationem",
-  "SmsMessage": "nihil",
-  "Description": "Optimized mobile capability",
-  "Subject": "aut",
-  "FolderId": 579,
-  "HeaderField": "tempora",
-  "Design": "ut",
+  "ShipmentMessageId": 578,
+  "PlainMessage": "quos",
+  "HtmlMessage": "rem",
+  "SmsMessage": "illum",
+  "Description": "Persistent fresh-thinking infrastructure",
+  "Subject": "voluptatem",
+  "FolderId": 110,
+  "HeaderField": "neque",
+  "Design": "dolorem",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Distributed dedicated forecast",
-  "AccessKey": "sequi",
-  "DocumentMessage": 794,
-  "Registered": "2014-09-02T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 714,
-  "Updated": "2021-07-06T14:45:13.2555955+02:00",
-  "UpdatedAssociateId": 169,
-  "UpdatedCount": 586
+  "LongDescription": "Innovative responsive artificial intelligence",
+  "AccessKey": "et",
+  "DocumentMessage": 728,
+  "Registered": "2010-02-27T10:18:00.723098+01:00",
+  "RegisteredAssociateId": 385,
+  "Updated": "1998-03-07T10:18:00.723098+01:00",
+  "UpdatedAssociateId": 784,
+  "UpdatedCount": 529
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 808,
-  "PlainMessage": "temporibus",
-  "HtmlMessage": "qui",
-  "SmsMessage": "optio",
-  "Description": "Automated client-driven system engine",
-  "Subject": "est",
-  "FolderId": 423,
-  "HeaderField": "deserunt",
-  "Design": "ea",
+  "ShipmentMessageId": 44,
+  "PlainMessage": "minima",
+  "HtmlMessage": "enim",
+  "SmsMessage": "accusamus",
+  "Description": "Extended didactic product",
+  "Subject": "minima",
+  "FolderId": 818,
+  "HeaderField": "voluptatem",
+  "Design": "ducimus",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Realigned multimedia framework",
-  "AccessKey": "est",
-  "DocumentMessage": 484,
-  "Registered": "2007-05-24T14:45:13.2555955+02:00",
-  "RegisteredAssociateId": 30,
-  "Updated": "2015-07-25T14:45:13.2555955+02:00",
-  "UpdatedAssociateId": 424,
-  "UpdatedCount": 81,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Multi-tiered responsive array",
+  "AccessKey": "et",
+  "DocumentMessage": 241,
+  "Registered": "2018-12-18T10:18:00.723098+01:00",
+  "RegisteredAssociateId": 299,
+  "Updated": "2022-07-02T10:18:00.723098+02:00",
+  "UpdatedAssociateId": 290,
+  "UpdatedCount": 424,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

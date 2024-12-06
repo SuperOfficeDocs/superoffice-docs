@@ -3263,6 +3263,8 @@ items:
     href: Sale_Agent/v1SaleAgent_IsNumberValid.md
   - name: OfferAutoNextStageOnApppointmentCompleted
     href: Sale_Agent/v1SaleAgent_OfferAutoNextStageOnApppointmentCompleted.md
+  - name: SaleHasQuote
+    href: Sale_Agent/v1SaleAgent_SaleHasQuote.md
   - name: SaveSaleEntity
     href: Sale_Agent/v1SaleAgent_SaveSaleEntity.md
   - name: SaveSaleStakeholder

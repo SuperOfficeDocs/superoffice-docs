@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Adams, Cole and Gusikowski",
+  "LayoutName": "Conn-Friesen",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 708,
-  "Name": "Robel-Schneider",
-  "Value": "blanditiis",
-  "CreatedDate": "2000-08-08T14:45:04.8659001+02:00",
-  "UpdatedDate": "2015-08-23T14:45:04.8659001+02:00",
-  "CreatedBy": "ducimus",
-  "UpdatedBy": "eius",
+  "AudienceLayoutId": 876,
+  "Name": "Greenfelder, Eichmann and Glover",
+  "Value": "quod",
+  "CreatedDate": "2010-04-02T10:17:55.1290102+02:00",
+  "UpdatedDate": "2024-04-30T10:17:55.1290102+02:00",
+  "CreatedBy": "illum",
+  "UpdatedBy": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 530
     }
   }
 }

@@ -90,11 +90,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 617,
-  "DashboardId": 406,
-  "Height": 416,
-  "Width": 237,
-  "Rank": 820,
+  "DashboardTileId": 289,
+  "DashboardId": 53,
+  "Height": 672,
+  "Width": 705,
+  "Rank": 145,
   "DashTileDefinition": null
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 14,
-  "DashboardId": 117,
-  "Height": 65,
-  "Width": 792,
-  "Rank": 940,
+  "DashboardTileId": 435,
+  "DashboardId": 758,
+  "Height": 502,
+  "Width": 442,
+  "Rank": 553,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 327
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

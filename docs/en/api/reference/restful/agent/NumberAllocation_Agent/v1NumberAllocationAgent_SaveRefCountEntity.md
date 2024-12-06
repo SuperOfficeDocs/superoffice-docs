@@ -83,35 +83,35 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 985,
-  "Field": "atque",
-  "RecordId": 501,
+  "RefCountsId": 393,
+  "Field": "sed",
+  "RecordId": 102,
   "SuggestedRecords": [
     {
-      "Id": 641,
-      "Name": "Braun-Bernier",
-      "ToolTip": "Expedita soluta officia temporibus sapiente est.",
+      "Id": 296,
+      "Name": "Cartwright-Cormier",
+      "ToolTip": "Ut quod sint et.",
       "Deleted": false,
-      "Rank": 762,
-      "Type": "reprehenderit",
+      "Rank": 658,
+      "Type": "ipsum",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "ab",
-      "ColorBlock": 150,
-      "ExtraInfo": "hic",
-      "StyleHint": "animi",
-      "FullName": "Raegan Beer Jr."
+      "ColorBlock": 125,
+      "ExtraInfo": "libero",
+      "StyleHint": "aspernatur",
+      "FullName": "Ethyl Briana Rowe Jr."
     }
   ],
-  "CurrentValue": 762,
-  "TravelPrefix": 966,
-  "SatPrefix": 518,
+  "CurrentValue": 394,
+  "TravelPrefix": 943,
+  "SatPrefix": 441,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 199,
-  "Field": "distinctio",
-  "RecordId": 916,
+  "RefCountsId": 343,
+  "Field": "mollitia",
+  "RecordId": 984,
   "SuggestedRecords": [
     {
-      "Id": 284,
-      "Name": "Collier, Keebler and Feil",
-      "ToolTip": "Et pariatur eaque omnis quod.",
-      "Deleted": false,
-      "Rank": 340,
-      "Type": "autem",
+      "Id": 244,
+      "Name": "Kassulke Inc and Sons",
+      "ToolTip": "Et voluptas perferendis iure fugit enim voluptatem.",
+      "Deleted": true,
+      "Rank": 533,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "id",
-      "ColorBlock": 428,
-      "ExtraInfo": "quasi",
-      "StyleHint": "non",
-      "FullName": "Yazmin Gislason",
+      "IconHint": "eligendi",
+      "ColorBlock": 469,
+      "ExtraInfo": "similique",
+      "StyleHint": "sed",
+      "FullName": "Miss Esperanza Alejandrin Leffler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 736
         }
       }
     }
   ],
-  "CurrentValue": 499,
-  "TravelPrefix": 403,
-  "SatPrefix": 60,
-  "Allocate": true,
+  "CurrentValue": 298,
+  "TravelPrefix": 426,
+  "SatPrefix": 185,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": true,
   "AllowBlank": false,
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

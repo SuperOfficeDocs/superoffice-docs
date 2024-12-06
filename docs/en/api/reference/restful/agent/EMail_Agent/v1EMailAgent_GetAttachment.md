@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 226,
-  "AttachmentId": "fugiat"
+  "MessageServerId": 934,
+  "AttachmentId": "deserunt"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organic zero tolerance matrices",
-  "Filename": "magni",
-  "Size": 620,
-  "Type": "inventore",
-  "Encoding": "repellendus",
-  "Id": "expedita",
-  "Disposition": "exercitationem",
+  "Description": "Diverse background moderator",
+  "Filename": "eveniet",
+  "Size": 966,
+  "Type": "autem",
+  "Encoding": "voluptatum",
+  "Id": "et",
+  "Disposition": "impedit",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 196
     }
   }
 }

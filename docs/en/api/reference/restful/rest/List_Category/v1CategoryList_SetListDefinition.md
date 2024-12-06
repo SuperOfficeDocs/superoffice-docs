@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 472,
-  "Name": "Heathcote, Walter and Johns",
-  "Tooltip": "non",
+  "Id": 474,
+  "Name": "Hackett Group",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 400,
+  "Rank": 662,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": false
+  "ListType": "non",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Zemlak Group",
-  "Tooltip": "ducimus",
+  "Id": 510,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 680,
+  "Rank": 593,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 692
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "VonRueden Group",
-  "Tooltip": "ipsam",
+  "Id": 255,
+  "Name": "VonRueden-Buckridge",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 586
+  "UdListDefinitionId": 571,
+  "Rank": 443
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Weissnat Group",
-  "Tooltip": "qui",
+  "Id": 271,
+  "Name": "McLaughlin-Kessler",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 671,
-  "Rank": 396,
+  "UdListDefinitionId": 766,
+  "Rank": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 574
     }
   }
 }

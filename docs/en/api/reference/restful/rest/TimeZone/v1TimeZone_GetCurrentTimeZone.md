@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 295,
-  "Name": "Jacobi Group",
-  "TZLocationCode": "sit",
-  "TZLocationCities": "consequatur",
-  "IsoNumber": 591,
+  "TZLocationID": 770,
+  "Name": "Beer-Green",
+  "TZLocationCode": "a",
+  "TZLocationCities": "harum",
+  "IsoNumber": 74,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 81,
-      "StartMonth": 2,
-      "EndDay": 311,
-      "EndMonth": 385,
-      "TZOffset": 996,
-      "StartRulePattern": "quis",
-      "EndRulePattern": "ut"
+      "StartDay": 170,
+      "StartMonth": 55,
+      "EndDay": 507,
+      "EndMonth": 143,
+      "TZOffset": 305,
+      "StartRulePattern": "placeat",
+      "EndRulePattern": "harum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 205,
-      "StartMonth": 708,
-      "EndDay": 591,
-      "EndMonth": 464,
-      "TZOffset": 118,
-      "StartRulePattern": "voluptatem",
-      "EndRulePattern": "ea"
+      "StartDay": 950,
+      "StartMonth": 688,
+      "EndDay": 313,
+      "EndMonth": 310,
+      "TZOffset": 552,
+      "StartRulePattern": "explicabo",
+      "EndRulePattern": "voluptas"
     }
   }
 }

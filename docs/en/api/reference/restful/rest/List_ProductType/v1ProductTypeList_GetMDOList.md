@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=dolorem
+GET /api/v1/List/ProductType/MDOItems?query=quae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Corkery-Hegmann",
-    "ToolTip": "Neque dolorem fugiat sit omnis autem fuga.",
-    "Deleted": false,
-    "Rank": 33,
-    "Type": "debitis",
+    "Id": 793,
+    "Name": "Berge, Schinner and Fadel",
+    "ToolTip": "Quibusdam repellat accusamus omnis earum.",
+    "Deleted": true,
+    "Rank": 40,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Simonis LLC",
-        "ToolTip": "Quisquam in repellat neque.",
+        "Id": 93,
+        "Name": "Kemmer, Hettinger and Conroy",
+        "ToolTip": "Fugit magni voluptates maiores sint voluptas distinctio est.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "inventore",
+        "Rank": 323,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 162,
-        "ExtraInfo": "natus",
-        "StyleHint": "et",
-        "FullName": "Mrs. Gisselle Vergie Gorczany",
+        "IconHint": "soluta",
+        "ColorBlock": 996,
+        "ExtraInfo": "neque",
+        "StyleHint": "occaecati",
+        "FullName": "Deborah Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldType": "System.String",
+            "FieldLength": 887
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 198,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "optio",
-    "FullName": "Miss Billie Nader",
+    "IconHint": "maiores",
+    "ColorBlock": 749,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "nam",
+    "FullName": "Reid Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldLength": 761
       }
     }
   }

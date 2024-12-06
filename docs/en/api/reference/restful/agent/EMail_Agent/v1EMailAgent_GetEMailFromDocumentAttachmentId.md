@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 551,
+  "DocId": 408,
   "AttachmentIds": [
-    "et",
-    "aliquam"
+    "in",
+    "ipsa"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 144,
-      "ContactName": "Murazik Inc and Sons",
-      "PersonId": 808,
-      "PersonName": "Schmitt Group",
-      "AssociateId": 157,
-      "Address": "rerum",
-      "EmailId": 332,
+      "ContactId": 594,
+      "ContactName": "Willms, Raynor and Swift",
+      "PersonId": 936,
+      "PersonName": "Gislason, Harris and Gerhold",
+      "AssociateId": 74,
+      "Address": "ut",
+      "EmailId": 78,
       "DuplicatePersonIds": [
-        969,
-        657
+        298,
+        367
       ],
-      "Name": "Kiehn-Mohr",
+      "Name": "Boyle, Blick and Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 416
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 493,
-      "ContactName": "Hyatt-Reinger",
-      "PersonId": 916,
-      "PersonName": "Spinka-Gibson",
-      "AssociateId": 952,
-      "Address": "reprehenderit",
-      "EmailId": 231,
+      "ContactId": 50,
+      "ContactName": "McClure Inc and Sons",
+      "PersonId": 290,
+      "PersonName": "Larkin-King",
+      "AssociateId": 232,
+      "Address": "vitae",
+      "EmailId": 988,
       "DuplicatePersonIds": [
-        333,
-        306
+        577,
+        528
       ],
-      "Name": "Watsica, Luettgen and Leffler",
+      "Name": "Schmitt Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldType": "System.Int32",
+          "FieldLength": 947
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 374,
-      "ContactName": "Kozey Inc and Sons",
-      "PersonId": 855,
-      "PersonName": "Marquardt-Langosh",
-      "AssociateId": 996,
-      "Address": "et",
-      "EmailId": 581,
+      "ContactId": 525,
+      "ContactName": "Ward LLC",
+      "PersonId": 684,
+      "PersonName": "Emard Group",
+      "AssociateId": 168,
+      "Address": "dolor",
+      "EmailId": 710,
       "DuplicatePersonIds": [
-        730,
-        759
+        182,
+        789
       ],
-      "Name": "Heathcote Inc and Sons",
+      "Name": "Metz-Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     }
   ],
-  "Subject": "labore",
-  "HTMLBody": "cupiditate",
+  "Subject": "nam",
+  "HTMLBody": "quas",
   "From": null,
-  "Sent": "1998-02-09T14:45:05.568868+01:00",
-  "Size": 8,
+  "Sent": "2022-07-04T10:17:55.5977887+02:00",
+  "Size": 880,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "vitae",
+  "MessageID": "in",
+  "PlainBody": "laudantium",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 993,
+  "ServerId": 906,
   "Attachments": [
     {
-      "Description": "Grass-roots web-enabled matrices",
-      "Filename": "placeat",
-      "Size": 623,
-      "Type": "sapiente",
-      "Encoding": "tenetur",
-      "Id": "laboriosam",
-      "Disposition": "culpa",
-      "IsSafeFileExtension": false,
+      "Description": "Front-line national interface",
+      "Filename": "ipsa",
+      "Size": 512,
+      "Type": "corrupti",
+      "Encoding": "illo",
+      "Id": "nihil",
+      "Disposition": "nobis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 66
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Orn LLC",
+      "Name": "Bergstrom-Predovic",
       "Values": [
-        "aliquam",
-        "quia"
+        "numquam",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 36
         }
       }
     },
     {
-      "Name": "Orn LLC",
+      "Name": "Bergstrom-Predovic",
       "Values": [
-        "aliquam",
-        "quia"
+        "numquam",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 36
         }
       }
     }
   ],
-  "FolderName": "Boyle Inc and Sons",
-  "EmailItemId": 966,
-  "AccountId": 954,
-  "ReceivedAt": "1999-04-28T14:45:05.568868+02:00",
+  "FolderName": "Reinger-Little",
+  "EmailItemId": 559,
+  "AccountId": 613,
+  "ReceivedAt": "2002-01-19T10:17:55.5977887+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-07-30T14:45:05.568868+02:00",
+  "RepliedAt": "2023-11-01T10:17:55.5977887+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 202
     }
   }
 }

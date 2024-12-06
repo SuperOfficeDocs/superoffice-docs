@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 302,
-  "Name": "Grant, Cummerata and Klocko",
-  "Tooltip": "qui",
-  "SaveInDb": 642,
-  "Filename": "quae",
-  "DefaultOref": "recusandae",
+  "DocumentTemplateId": 442,
+  "Name": "Muller, Predovic and Watsica",
+  "Tooltip": "et",
+  "SaveInDb": 138,
+  "Filename": "sit",
+  "DefaultOref": "incidunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 112,
-  "IntentId": 308,
-  "IsDefaultPublished": true,
-  "Rank": 720,
-  "LoadTemplateFromPlugin": 547,
-  "MimeType": "expedita",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 927,
+  "AutoeventId": 168,
+  "IntentId": 503,
+  "IsDefaultPublished": false,
+  "Rank": 452,
+  "LoadTemplateFromPlugin": 428,
+  "MimeType": "maiores",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 557,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marjorie.emard@hayes.us",
+  "EmailSubject": "taurean@rohan.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kim_romaguera@wolfupton.com",
+  "SenderEmailAddress": "brett_bernhard@schaden.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 758
     }
   }
 }

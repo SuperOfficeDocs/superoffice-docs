@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "dolorem",
-  "PrefKey": "sed",
+  "PrefSection": "ea",
+  "PrefKey": "incidunt",
   "PrefLevel": "Database",
-  "OwnerId": 435
+  "OwnerId": 745
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "rerum",
+  "RawValue": "beatae",
   "Specification": null,
-  "DisplayValue": "assumenda",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "quae",
+  "DisplayTooltip": "quis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 16,
-  "PrefDescId": 826,
-  "TableName": "Corwin LLC",
-  "UserPreferenceId": 813,
+  "TargetId": 674,
+  "PrefDescId": 368,
+  "TableName": "Larson Group",
+  "UserPreferenceId": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 423
     }
   }
 }

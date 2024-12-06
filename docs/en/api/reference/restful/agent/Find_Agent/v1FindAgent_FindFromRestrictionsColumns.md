@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gibson Group",
-      "Operator": "atque",
+      "Name": "Mertz, Wiegand and McClure",
+      "Operator": "vel",
       "Values": [
-        "repellendus",
-        "adipisci"
+        "quo",
+        "incidunt"
       ],
       "DisplayValues": [
-        "aut",
-        "velit"
+        "sunt",
+        "reiciendis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 392,
+      "InterParenthesis": 24,
       "InterOperator": "And",
-      "UniqueHash": 378
+      "UniqueHash": 445
     }
   ],
-  "ProviderName": "Kovacek Inc and Sons",
+  "ProviderName": "Parisian, Murphy and Brakus",
   "DesiredColumns": [
-    "est",
-    "quos"
+    "nobis",
+    "non"
   ],
-  "PageSize": 915,
-  "PageNumber": 478
+  "PageSize": 184,
+  "PageNumber": 190
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lynch, Lehner and Runolfsson",
-      "DisplayTooltip": "autem",
-      "DisplayType": "inventore",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "iure",
+      "DisplayType": "laboriosam",
       "CanOrderBy": false,
-      "Name": "Kuphal, Rogahn and Hilll",
-      "CanRestrictBy": true,
-      "RestrictionType": "officia",
-      "RestrictionListName": "Donnelly Inc and Sons",
+      "Name": "Wiegand-Johnson",
+      "CanRestrictBy": false,
+      "RestrictionType": "error",
+      "RestrictionListName": "Hilll, Rutherford and Sauer",
       "IsVisible": false,
-      "ExtraInfo": "vel",
-      "Width": "eum",
-      "IconHint": "facere",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "velit",
+      "Width": "a",
+      "IconHint": "quia",
+      "HeadingIconHint": "eos"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Conner, Friesen and Stokes",
-      "PrimaryKey": 1001,
+      "EntityName": "Koepp, Lebsack and Gaylord",
+      "PrimaryKey": 343,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rerum",
-          "TooltipHint": "et",
-          "LinkHint": "necessitatibus"
+          "DisplayValue": "minima",
+          "TooltipHint": "ea",
+          "LinkHint": "nemo"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "corrupti",
+      "LinkHint": "cumque",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 90
         }
       }
     }
   ],
-  "RowCount": 302,
+  "RowCount": 22,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 658
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

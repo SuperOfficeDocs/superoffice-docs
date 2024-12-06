@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "McKenzie-Wyman",
-    "ToolTip": "Rerum animi perspiciatis cupiditate accusamus quia.",
+    "Id": 568,
+    "Name": "Schuster, Gutkowski and DuBuque",
+    "ToolTip": "Nesciunt molestias neque quam voluptatem quod.",
     "Deleted": false,
-    "Rank": 234,
-    "Type": "dolores",
-    "ColorBlock": 128,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "2006-12-06T14:45:13.5680288+01:00",
+    "Rank": 587,
+    "Type": "id",
+    "ColorBlock": 967,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2015-07-13T10:18:00.926237+02:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Blanda-Weber",
-        "ToolTip": "Perferendis aut ad voluptas eveniet sequi omnis deserunt.",
+        "Id": 769,
+        "Name": "Bernier, Parisian and Kessler",
+        "ToolTip": "Inventore et aut sit eligendi laborum.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "eum",
-        "ColorBlock": 365,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2023-09-08T14:45:13.5680288+02:00",
+        "Rank": 271,
+        "Type": "incidunt",
+        "ColorBlock": 853,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2014-06-21T10:18:00.926237+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "corporis",
+        "ExtraInfo": "officia",
+        "StyleHint": "numquam",
         "Hidden": true,
-        "FullName": "Sylvia Walsh",
+        "FullName": "Patricia Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 33
+            "FieldLength": 908
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "totam",
+    "ExtraInfo": "qui",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Miss Isabelle Xzavier Hyatt",
+    "FullName": "Briana Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 632
       }
     }
   }

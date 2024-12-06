@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Ruecker, Yundt and Keeling",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 277,
-  "IsCustomList": false,
+  "Id": 834,
+  "Name": "Hoppe-Grimes",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 576,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "placeat",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 876,
+  "Id": 961,
+  "Name": "Boehm, Weber and Roberts",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 544,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 814
     }
   }
 }

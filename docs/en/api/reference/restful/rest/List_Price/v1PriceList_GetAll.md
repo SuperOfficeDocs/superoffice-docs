@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=fugit
-GET /api/v1/Pricelist?$top=529
-GET /api/v1/Pricelist?$skip=671
+GET /api/v1/Pricelist?$entities=et
+GET /api/v1/Pricelist?$top=443
+GET /api/v1/Pricelist?$skip=898
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=magnam
+GET /api/v1/Pricelist?$context=in
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ea",
+  "odata.nextLink": "nostrum",
   "value": [
     {
-      "PrimaryKey": 1369,
-      "EntityName": "person",
-      "personId": 1369,
-      "fullName": "Madie Feeney"
+      "PrimaryKey": 4382,
+      "EntityName": "sale",
+      "saleId": 4382,
+      "contactId": 4505,
+      "name": "Swift, Goodwin and Pfeffer"
     },
     {
-      "PrimaryKey": 2082,
-      "EntityName": "person",
-      "personId": 2082,
-      "fullName": "River Little"
+      "PrimaryKey": 3214,
+      "EntityName": "sale",
+      "saleId": 3214,
+      "contactId": 3826,
+      "name": "O'Reilly Group"
     }
   ]
 }

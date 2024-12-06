@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=967
+POST /api/v1/Agents/Document/GetDocument?documentId=292
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 923,
-  "Attention": "est",
-  "Header": "et",
-  "Name": "Cole LLC",
-  "OurRef": "asperiores",
-  "YourRef": "quae",
-  "Description": "Innovative neutral neural-net",
-  "DocumentTemplate": "saepe",
+  "DocumentId": 419,
+  "Attention": "perferendis",
+  "Header": "qui",
+  "Name": "Medhurst, Dare and Champlin",
+  "OurRef": "in",
+  "YourRef": "nemo",
+  "Description": "Realigned zero defect access",
+  "DocumentTemplate": "pariatur",
   "IsPublished": false,
-  "PersonId": 992,
-  "PersonFullName": "Shany Strosin MD",
-  "AssociateFullName": "Ona Beatty",
-  "ContactId": 622,
-  "ContactName": "Franecki, Vandervort and Johnson",
-  "ProjectId": 373,
-  "ProjectName": "Ruecker, Kiehn and Bernhard",
-  "AssociateId": 279,
-  "Snum": 511,
-  "SaleId": 134,
-  "SaleName": "Heller-Turcotte",
+  "PersonId": 1002,
+  "PersonFullName": "Alyce Bechtelar I",
+  "AssociateFullName": "Rhett Schimmel",
+  "ContactId": 426,
+  "ContactName": "Smitham-Cummerata",
+  "ProjectId": 158,
+  "ProjectName": "Moen-Walter",
+  "AssociateId": 185,
+  "Snum": 72,
+  "SaleId": 666,
+  "SaleName": "Collier-Harvey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 843
     }
   }
 }

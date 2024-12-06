@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Morar-Veum",
-  "Tooltip": "sit",
+  "Id": 794,
+  "Name": "Littel-Jakubowski",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 395,
+  "Rank": 776,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   },
   "_Links": {

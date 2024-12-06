@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 103,
-  "Name": "Upton Group",
-  "Description": "Multi-layered modular artificial intelligence",
-  "OwnedByFullName": "Clinton Nikolaus",
-  "Registered": "2005-02-19T14:45:05.1939521+01:00",
+  "DashboardId": 303,
+  "Name": "Bernhard-Pacocha",
+  "Description": "Reactive intermediate installation",
+  "OwnedByFullName": "Carmela Noemie Beer Sr.",
+  "Registered": "2001-01-13T10:17:55.3321476+01:00",
   "Tiles": [
     {
-      "Name": "Muller LLC",
+      "Name": "Reichel LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 545
         }
       }
     },
     {
-      "Name": "Muller LLC",
+      "Name": "Reichel LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 545
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

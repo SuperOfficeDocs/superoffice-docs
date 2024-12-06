@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 831,
-  "Name": "Schuster, Stiedemann and Parker",
+  "ScreenChooserId": 33,
+  "Name": "Block LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "maxime",
-  "Source": "facilis",
-  "Registered": "2001-05-10T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 356,
-  "Updated": "2013-02-23T14:45:13.3805746+01:00",
-  "UpdatedAssociateId": 864
+  "UniqueIdentifier": "magnam",
+  "Source": "sunt",
+  "Registered": "2011-05-24T10:18:00.8168545+02:00",
+  "RegisteredAssociateId": 563,
+  "Updated": "2018-01-13T10:18:00.8168545+01:00",
+  "UpdatedAssociateId": 448
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 488,
-  "Name": "Gaylord LLC",
+  "ScreenChooserId": 334,
+  "Name": "Kub LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "fuga",
-  "Source": "id",
-  "Registered": "2007-07-01T14:45:13.3805746+02:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "2003-04-15T14:45:13.3805746+02:00",
-  "UpdatedAssociateId": 295,
+  "UniqueIdentifier": "nobis",
+  "Source": "ipsam",
+  "Registered": "1998-01-17T10:18:00.8168545+01:00",
+  "RegisteredAssociateId": 682,
+  "Updated": "2024-09-21T10:18:00.8168545+02:00",
+  "UpdatedAssociateId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   },
   "_Links": {

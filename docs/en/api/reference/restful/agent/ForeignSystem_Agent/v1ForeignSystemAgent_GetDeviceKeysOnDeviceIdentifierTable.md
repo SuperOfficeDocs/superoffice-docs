@@ -87,10 +87,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Spinka-Lowe",
-  "DeviceName": "Hirthe LLC",
-  "DeviceIdentifier": "qui",
-  "TableName": "Reichert, Parisian and Lemke"
+  "ApplicationName": "Brown, Eichmann and Lesch",
+  "DeviceName": "Green, Marvin and Zieme",
+  "DeviceIdentifier": "rerum",
+  "TableName": "Robel Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "temporibus",
-    "Value": "molestiae",
-    "RecordId": 658,
-    "CreatedDate": "2014-10-26T14:45:05.6469762+01:00",
-    "UpdatedDate": "2005-06-06T14:45:05.6469762+02:00",
-    "UpdatedBy": "occaecati",
-    "CreatedBy": "odio",
-    "TableName": "Skiles-Konopelski",
+    "Key": "doloremque",
+    "Value": "voluptatibus",
+    "RecordId": 713,
+    "CreatedDate": "2023-11-09T10:17:55.660285+01:00",
+    "UpdatedDate": "2019-08-02T10:17:55.660285+02:00",
+    "UpdatedBy": "nostrum",
+    "CreatedBy": "corporis",
+    "TableName": "Schinner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 380
+        "FieldType": "System.Int32",
+        "FieldLength": 770
       }
     }
   }

@@ -112,37 +112,37 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 855,
-  "Name": "Harber Inc and Sons",
-  "Rank": 320,
-  "Tooltip": "laudantium",
-  "Icon": "vero",
-  "DefaultTicketStatus": 803,
+  "TicketTypeId": 106,
+  "Name": "Rolfson-Nolan",
+  "Rank": 488,
+  "Tooltip": "consequatur",
+  "Icon": "ea",
+  "DefaultTicketStatus": 95,
   "TicketStatuses": [
-    166,
-    660
+    388,
+    182
   ],
-  "DefaultTicketPriority": 424,
+  "DefaultTicketPriority": 37,
   "TicketPriorities": [
-    780,
-    778
+    666,
+    91
   ],
-  "ReplyTemplate": 620,
+  "ReplyTemplate": 206,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    639,
-    639
+    232,
+    927
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -154,45 +154,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 592,
-  "Name": "Runte-Hammes",
-  "Rank": 98,
-  "Tooltip": "commodi",
-  "Icon": "numquam",
-  "DefaultTicketStatus": 461,
+  "TicketTypeId": 849,
+  "Name": "Hamill, Dietrich and Wiegand",
+  "Rank": 389,
+  "Tooltip": "eaque",
+  "Icon": "atque",
+  "DefaultTicketStatus": 42,
   "TicketStatuses": [
-    175,
-    612
+    385,
+    50
   ],
-  "DefaultTicketPriority": 159,
+  "DefaultTicketPriority": 257,
   "TicketPriorities": [
-    27,
-    555
+    293,
+    748
   ],
-  "ReplyTemplate": 424,
+  "ReplyTemplate": 23,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    751,
-    535
+    458,
+    927
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

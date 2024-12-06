@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "IncludeAttachments": true
+  "Id": 401,
+  "IncludeAttachments": false
 }
 ```
 
@@ -122,156 +122,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 492,
-      "ContactName": "Towne-Green",
-      "PersonId": 113,
-      "PersonName": "Ledner, Nitzsche and Gutmann",
-      "AssociateId": 550,
-      "Address": "eum",
-      "EmailId": 423,
+      "ContactId": 593,
+      "ContactName": "Brekke-Schiller",
+      "PersonId": 490,
+      "PersonName": "Daugherty Inc and Sons",
+      "AssociateId": 471,
+      "Address": "neque",
+      "EmailId": 616,
       "DuplicatePersonIds": [
-        832,
-        666
+        81,
+        347
       ],
-      "Name": "Bode, Emmerich and Schaden",
+      "Name": "Armstrong Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 705
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 825,
-      "ContactName": "Wintheiser, Klocko and Cormier",
-      "PersonId": 907,
-      "PersonName": "Turner Group",
-      "AssociateId": 669,
-      "Address": "explicabo",
-      "EmailId": 612,
+      "ContactId": 180,
+      "ContactName": "Hane Group",
+      "PersonId": 347,
+      "PersonName": "Ward-Stiedemann",
+      "AssociateId": 142,
+      "Address": "ipsa",
+      "EmailId": 175,
       "DuplicatePersonIds": [
-        907,
-        230
+        15,
+        756
       ],
-      "Name": "Jones-West",
+      "Name": "Lindgren Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 104
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 773,
-      "ContactName": "Mueller-Goyette",
-      "PersonId": 664,
-      "PersonName": "Yundt Group",
-      "AssociateId": 844,
-      "Address": "illo",
-      "EmailId": 374,
+      "ContactId": 55,
+      "ContactName": "Ebert, Littel and Mitchell",
+      "PersonId": 244,
+      "PersonName": "Fadel-Goyette",
+      "AssociateId": 467,
+      "Address": "et",
+      "EmailId": 732,
       "DuplicatePersonIds": [
-        948,
-        610
+        938,
+        52
       ],
-      "Name": "Hamill LLC",
+      "Name": "Stokes, Frami and Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 529
         }
       }
     }
   ],
-  "Subject": "temporibus",
-  "HTMLBody": "ea",
+  "Subject": "laudantium",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2004-09-17T14:45:05.5844912+02:00",
-  "Size": 287,
+  "Sent": "2005-08-24T10:17:55.6134076+02:00",
+  "Size": 239,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facere",
-  "PlainBody": "ea",
+  "MessageID": "et",
+  "PlainBody": "vero",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 162,
+  "ServerId": 977,
   "Attachments": [
     {
-      "Description": "Assimilated optimizing installation",
-      "Filename": "officiis",
-      "Size": 638,
-      "Type": "quaerat",
-      "Encoding": "qui",
-      "Id": "aut",
-      "Disposition": "voluptas",
-      "IsSafeFileExtension": true,
+      "Description": "Switchable modular projection",
+      "Filename": "enim",
+      "Size": 583,
+      "Type": "saepe",
+      "Encoding": "quia",
+      "Id": "veniam",
+      "Disposition": "molestiae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldType": "System.String",
+          "FieldLength": 792
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ankunding LLC",
+      "Name": "Shanahan, Hand and Schmidt",
       "Values": [
-        "aut",
-        "dolore"
+        "quia",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldLength": 959
         }
       }
     },
     {
-      "Name": "Ankunding LLC",
+      "Name": "Shanahan, Hand and Schmidt",
       "Values": [
-        "aut",
-        "dolore"
+        "quia",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldLength": 959
         }
       }
     }
   ],
-  "FolderName": "Lynch-Watsica",
-  "EmailItemId": 860,
-  "AccountId": 465,
-  "ReceivedAt": "2012-01-26T14:45:05.5844912+01:00",
+  "FolderName": "Heller, Shanahan and Kautzer",
+  "EmailItemId": 920,
+  "AccountId": 557,
+  "ReceivedAt": "2023-08-21T10:17:55.6134076+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-07-02T14:45:05.5844912+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-01-05T10:17:55.6134076+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 922
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

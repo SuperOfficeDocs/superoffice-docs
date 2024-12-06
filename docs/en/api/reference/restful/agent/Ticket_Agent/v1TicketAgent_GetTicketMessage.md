@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=34
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=864
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 239,
-  "CreatedAt": "2005-07-06T14:45:06.5686452+02:00",
+  "TicketMessageId": 759,
+  "CreatedAt": "2018-06-23T10:17:56.2697028+02:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "saepe",
-  "PersonId": 69,
-  "PersonFullName": "Lea Kemmer",
-  "ContactId": 487,
-  "ContactName": "Keeling, Frami and Muller",
+  "Important": false,
+  "Author": "neque",
+  "PersonId": 275,
+  "PersonFullName": "Claude Lueilwitz",
+  "ContactId": 980,
+  "ContactName": "Becker Inc and Sons",
   "ContactDepartment": "",
-  "NumAttachments": 88,
-  "EmailHeader": "alexane.crona@huelkozey.name",
+  "NumAttachments": 736,
+  "EmailHeader": "zelda@pfannerstill.info",
   "MessageHeaders": [
     {
-      "Id": 849,
-      "Name": "Crist, Heller and Jerde",
-      "Value": "numquam",
+      "Id": 503,
+      "Name": "Senger Group",
+      "Value": "occaecati",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldType": "System.String",
+          "FieldLength": 250
         }
       }
     }
   ],
-  "Language": "quod",
-  "Sentiment": 149,
-  "SentimentConfidence": 39,
-  "CreatedBy": 843,
-  "ChangedAt": "2020-07-17T14:45:06.5686452+02:00",
+  "Language": "quia",
+  "Sentiment": 752,
+  "SentimentConfidence": 820,
+  "CreatedBy": 920,
+  "ChangedAt": "2015-08-14T10:17:56.2697028+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 511
     }
   }
 }

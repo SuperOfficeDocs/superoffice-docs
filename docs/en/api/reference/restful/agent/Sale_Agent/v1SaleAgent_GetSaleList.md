@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Waters LLC",
-    "SaleDate": "2001-11-02T14:45:06.1781213+01:00",
-    "SaleId": 655,
-    "Probability": 172,
-    "Title": "consequuntur",
-    "Amount": 7067.17,
-    "Currency": "accusantium",
-    "ProjectName": "Schaden-Bergstrom",
-    "AssociateFullName": "Ms. Amelia Presley Green III",
-    "Description": "Decentralized optimizing leverage",
+    "ContactName": "Schumm LLC",
+    "SaleDate": "2016-04-15T10:17:56.0040633+02:00",
+    "SaleId": 644,
+    "Probability": 350,
+    "Title": "quia",
+    "Amount": 15334.662,
+    "Currency": "quos",
+    "ProjectName": "Nader LLC",
+    "AssociateFullName": "Vivian Gulgowski",
+    "Description": "Phased exuding encryption",
     "Status": "Lost",
-    "WeightedAmount": 9771.812,
-    "ProjectId": 784,
-    "EarningPercent": 10617.992,
-    "Earning": 27550.994,
-    "ContactId": 378,
-    "AssociateId": 713,
-    "PersonId": 710,
-    "SaleTypeId": 308,
-    "SaleTypeName": "Bergstrom-Howe",
-    "PersonFullName": "Mr. Grover Ryan DDS",
+    "WeightedAmount": 30086.399999999998,
+    "ProjectId": 691,
+    "EarningPercent": 5014.4,
+    "Earning": 10984.67,
+    "ContactId": 576,
+    "AssociateId": 701,
+    "PersonId": 163,
+    "SaleTypeId": 407,
+    "SaleTypeName": "Wehner Group",
+    "PersonFullName": "Mr. Anjali Daugherty",
     "Completed": "Completed",
-    "ActiveErpLinks": 496,
-    "NextDueDate": "1999-08-18T14:45:06.1781213+02:00",
-    "Number": "836442",
+    "ActiveErpLinks": 57,
+    "NextDueDate": "2015-03-24T10:17:56.0040633+01:00",
+    "Number": "1815716",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 711
       }
     }
   }

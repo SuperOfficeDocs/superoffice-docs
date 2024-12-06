@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=953
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=466
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 764,
-  "StartDate": "2010-12-17T14:45:04.6474384+01:00",
-  "EndDate": "2020-02-03T14:45:04.6474384+01:00",
+  "AppointmentId": 558,
+  "StartDate": "2000-12-11T10:17:54.9727508+01:00",
+  "EndDate": "2004-01-25T10:17:54.9727508+01:00",
   "Type": "BookingForChecklist",
-  "Task": "eius",
-  "AssociateFullName": "Kamryn Bechtelar",
-  "ContactName": "Hane Group",
-  "Description": "Polarised 4th generation service-desk",
-  "PersonFullName": "Jules Jewess V",
-  "PersonId": 460,
-  "ContactId": 138,
-  "ProjectId": 889,
-  "ProjectName": "Ziemann, Williamson and Grimes",
-  "IsPublished": false,
-  "AssociateId": 339,
-  "ColorIndex": 998,
-  "IsFree": true,
+  "Task": "quidem",
+  "AssociateFullName": "Bartholome Koch",
+  "ContactName": "Reinger Inc and Sons",
+  "Description": "Cloned mobile circuit",
+  "PersonFullName": "Harvey Bogan",
+  "PersonId": 263,
+  "ContactId": 1000,
+  "ProjectId": 874,
+  "ProjectName": "Conn-Torp",
+  "IsPublished": true,
+  "AssociateId": 65,
+  "ColorIndex": 261,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 150,
-  "PriorityName": "Schuppe-Ernser",
+  "PriorityId": 455,
+  "PriorityName": "Schmitt Group",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsBookingMain": true,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2015-12-01T14:45:04.6474384+01:00",
+  "ActiveDate": "2022-03-10T10:17:54.9727508+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2016-05-31T14:45:04.6474384+02:00",
-  "RecurringEndDate": "2023-04-15T14:45:04.6474384+02:00",
-  "MotherId": 839,
-  "AssignedBy": 13,
-  "AssignedByFullName": "Mrs. Dell Josefina McLaughlin DDS",
+  "RecurringStartDate": "2006-01-16T10:17:54.9727508+01:00",
+  "RecurringEndDate": "2012-12-12T10:17:54.9727508+01:00",
+  "MotherId": 49,
+  "AssignedBy": 603,
+  "AssignedByFullName": "Antwan Bettye Kertzmann Sr.",
   "RejectReason": "",
-  "Location": "labore",
-  "AlarmLeadTime": "beatae",
-  "SaleId": 963,
-  "SaleName": "Kreiger-White",
-  "AssociateName": "Hills LLC",
-  "CreatedDate": "2019-05-13T14:45:04.6474384+02:00",
-  "CreatedBy": "sit",
-  "CreatedByFullName": "Josh Jacobson",
-  "CreatedByAssociateId": 89,
+  "Location": "voluptates",
+  "AlarmLeadTime": "accusamus",
+  "SaleId": 800,
+  "SaleName": "Russel-Carroll",
+  "AssociateName": "Labadie Group",
+  "CreatedDate": "2017-12-29T10:17:54.9727508+01:00",
+  "CreatedBy": "ipsam",
+  "CreatedByFullName": "Prof. Brian Carlee Thompson",
+  "CreatedByAssociateId": 823,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 573,
-  "Title": "nihil",
-  "Agenda": "et",
-  "InternalNotes": "qui",
+  "PreferredTZLocation": 185,
+  "Title": "ducimus",
+  "Agenda": "ut",
+  "InternalNotes": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 115
     }
   }
 }

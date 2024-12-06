@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 976,
-  "Section": "odio",
-  "Key": "tenetur",
-  "Name": "Tromp, Heller and Hamill",
+  "PrefDescId": 927,
+  "Section": "voluptas",
+  "Key": "eum",
+  "Name": "Kuhlman, Bode and Rodriguez",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced executive product",
-  "IsBuiltin": true,
-  "TableName": "Swaniawski-Lemke",
-  "UserDefinedListId": 664,
-  "Rank": 982,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 422,
-  "MaxValue": 654,
-  "MinValue": 298,
-  "RequiredLicense": "et"
+  "Description": "Expanded zero administration time-frame",
+  "IsBuiltin": false,
+  "TableName": "Satterfield, Swift and Grimes",
+  "UserDefinedListId": 628,
+  "Rank": 327,
+  "SubGroup": "officia",
+  "MinLevel": 682,
+  "MaxValue": 977,
+  "MinValue": 877,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 524,
-  "Section": "quas",
-  "Key": "quia",
-  "Name": "Veum-Becker",
+  "PrefDescId": 905,
+  "Section": "dolor",
+  "Key": "perspiciatis",
+  "Name": "Abernathy, Ritchie and King",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented mission-critical database",
+  "Description": "De-engineered even-keeled archive",
   "IsBuiltin": true,
-  "TableName": "Maggio, Pouros and Pollich",
-  "UserDefinedListId": 581,
-  "Rank": 197,
+  "TableName": "Okuneva-Kreiger",
+  "UserDefinedListId": 392,
+  "Rank": 737,
   "SubGroup": "voluptatem",
-  "MinLevel": 650,
-  "MaxValue": 377,
-  "MinValue": 616,
-  "RequiredLicense": "molestiae",
+  "MinLevel": 902,
+  "MaxValue": 513,
+  "MinValue": 506,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 696
     }
   }
 }

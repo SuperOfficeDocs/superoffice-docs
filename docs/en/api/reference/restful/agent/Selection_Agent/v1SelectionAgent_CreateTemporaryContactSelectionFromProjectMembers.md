@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 441
+  "ProjectId": 283
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Universal coherent conglomeration",
-  "Postit": "ducimus",
+  "Description": "Vision-oriented real-time throughput",
+  "Postit": "nam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 508,
-  "IncludePerson": 372,
+  "GroupIdx": 927,
+  "IncludePerson": 531,
   "MemberCount": 99.99,
-  "Name": "Hermiston-Hauck",
-  "PostitTextId": 117,
-  "CreatedDate": "1999-07-15T14:45:06.2249724+02:00",
-  "SelectionId": 89,
-  "SoundEx": "autem",
-  "Source": 776,
-  "TextId": 479,
-  "UpdatedDate": "2008-09-04T14:45:06.2249724+02:00",
-  "UpdatedCount": 714,
-  "Visibility": 141,
+  "Name": "Torphy, Larkin and Little",
+  "PostitTextId": 623,
+  "CreatedDate": "2011-01-12T10:17:56.0353154+01:00",
+  "SelectionId": 285,
+  "SoundEx": "non",
+  "Source": 572,
+  "TextId": 910,
+  "UpdatedDate": "2006-05-02T10:17:56.0353154+02:00",
+  "UpdatedCount": 120,
+  "Visibility": 323,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 824,
-  "TargetTableName": "Aufderhar, Russel and Gulgowski",
-  "Completed": false,
-  "LeftSelectionId": 302,
-  "RightSelectionId": 523,
+  "CompanyUnique": true,
+  "TargetTableNumber": 674,
+  "TargetTableName": "Reichert, Rowe and Christiansen",
+  "Completed": true,
+  "LeftSelectionId": 812,
+  "RightSelectionId": 297,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmidt-Gottlieb",
-  "ShadowProviderName": "Blick, Fahey and Tremblay",
-  "ChartKey": "impedit",
-  "LastLoaded": "2015-10-27T14:45:06.2249724+01:00",
-  "LastLoadedBy": 294,
+  "MainProviderName": "Murazik, Klein and Schoen",
+  "ShadowProviderName": "Bahringer LLC",
+  "ChartKey": "aut",
+  "LastLoaded": "2005-05-27T10:17:56.0353154+02:00",
+  "LastLoadedBy": 921,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-03-12T14:45:06.2249724+01:00",
-  "LastMembershipChangeBy": 714,
+  "LastMembershipChange": "2005-05-24T10:17:56.0353154+02:00",
+  "LastMembershipChangeBy": 50,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ducimus",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Lehner-Sipes",
-  "DashboardTileDefinitionId": 854,
+  "MainHeading": "vitae",
+  "MemberTabHeading": "pariatur",
+  "MailingsProviderName": "Bernhard, Braun and Fisher",
+  "DashboardTileDefinitionId": 866,
   "VisibleFor": [
     {
-      "VisibleId": 151,
+      "VisibleId": 645,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     },
     {
-      "VisibleId": 151,
+      "VisibleId": 645,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   }
 }

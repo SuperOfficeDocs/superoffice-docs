@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 632,
-  "UniqueId": "voluptas",
-  "Name": "Beahan Group",
-  "Description": "Horizontal value-added strategy",
-  "AssociateId": 64,
-  "Columns": 620,
+  "DashboardId": 367,
+  "UniqueId": "ullam",
+  "Name": "Pfeffer, Ziemann and Schaefer",
+  "Description": "Distributed bi-directional paradigm",
+  "AssociateId": 470,
+  "Columns": 195,
   "Theme": null,
-  "VisibleForAll": 298,
+  "VisibleForAll": 748,
   "VisibleForAssociates": [
-    227,
-    584
+    774,
+    747
   ],
   "VisibleForGroups": [
-    561,
-    785
+    24,
+    228
   ],
-  "PinForAll": 44,
+  "PinForAll": 157,
   "PinForAssociates": [
-    41,
-    287
+    825,
+    813
   ],
   "PinForGroups": [
-    69,
-    462
+    17,
+    54
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 543
     }
   },
   "_Links": {

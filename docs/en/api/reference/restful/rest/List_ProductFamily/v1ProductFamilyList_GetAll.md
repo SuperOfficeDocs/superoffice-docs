@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=False
+GET /api/v1/List/ProductFamily/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Rolfson LLC",
-    "Tooltip": "quia",
+    "Id": 550,
+    "Name": "Reinger-Frami",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 700,
-    "Rank": 300,
+    "UdListDefinitionId": 185,
+    "Rank": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldType": "System.String",
+        "FieldLength": 835
       }
     }
   }

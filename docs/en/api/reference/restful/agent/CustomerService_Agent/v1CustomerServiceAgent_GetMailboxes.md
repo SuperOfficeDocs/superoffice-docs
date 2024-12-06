@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 226,
-    "Address": "occaecati",
+    "MailInFilterId": 339,
+    "Address": "voluptatem",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Lesch Inc and Sons",
+    "PriorityName": "Cummerata-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   },
   {
-    "MailInFilterId": 226,
-    "Address": "occaecati",
+    "MailInFilterId": 339,
+    "Address": "voluptatem",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Lesch Inc and Sons",
+    "PriorityName": "Cummerata-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

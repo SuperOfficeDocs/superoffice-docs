@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic cohesive function",
-  "Postit": "sunt",
+  "Description": "Polarised clear-thinking website",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 868,
-  "IncludePerson": 933,
+  "GroupIdx": 450,
+  "IncludePerson": 211,
   "MemberCount": 99.99,
-  "Name": "Thiel Inc and Sons",
-  "PostitTextId": 961,
-  "CreatedDate": "2007-08-05T14:45:06.2093526+02:00",
-  "SelectionId": 871,
-  "SoundEx": "aperiam",
-  "Source": 493,
-  "TextId": 847,
-  "UpdatedDate": "2003-02-23T14:45:06.2093526+01:00",
-  "UpdatedCount": 964,
-  "Visibility": 15,
+  "Name": "Gleichner, Skiles and Schuppe",
+  "PostitTextId": 586,
+  "CreatedDate": "2002-08-04T10:17:56.0196892+02:00",
+  "SelectionId": 884,
+  "SoundEx": "reiciendis",
+  "Source": 821,
+  "TextId": 491,
+  "UpdatedDate": "2009-04-04T10:17:56.0196892+02:00",
+  "UpdatedCount": 535,
+  "Visibility": 107,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 796,
-  "TargetTableName": "Hamill Group",
+  "TargetTableNumber": 835,
+  "TargetTableName": "Mosciski-Dickens",
   "Completed": false,
-  "LeftSelectionId": 620,
-  "RightSelectionId": 936,
+  "LeftSelectionId": 805,
+  "RightSelectionId": 668,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Effertz LLC",
-  "ShadowProviderName": "Maggio, Farrell and Weber",
-  "ChartKey": "assumenda",
-  "LastLoaded": "2013-05-21T14:45:06.2093526+02:00",
-  "LastLoadedBy": 794,
+  "MainProviderName": "Kunde, Huel and Bayer",
+  "ShadowProviderName": "Kub-Watsica",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2011-07-23T10:17:56.0196892+02:00",
+  "LastLoadedBy": 46,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-07-23T14:45:06.2093526+02:00",
-  "LastMembershipChangeBy": 107,
+  "LastMembershipChange": "1998-10-20T10:17:56.0196892+02:00",
+  "LastMembershipChangeBy": 27,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "doloremque",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Graham-Moore",
-  "DashboardTileDefinitionId": 242,
+  "MainHeading": "similique",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Hackett-Keeling",
+  "DashboardTileDefinitionId": 877,
   "VisibleFor": [
     {
-      "VisibleId": 486,
+      "VisibleId": 228,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 460
+          "FieldLength": 486
         }
       }
     },
     {
-      "VisibleId": 486,
+      "VisibleId": 228,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 460
+          "FieldLength": 486
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }
