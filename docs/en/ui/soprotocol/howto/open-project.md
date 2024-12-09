@@ -1,7 +1,7 @@
 ---
 title: Open Project
 uid: open-project-more
-description: Open Project
+description: How to create a Project using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
 keywords: soprotocol, project
@@ -10,15 +10,15 @@ topic: howto
 
 # Open Project
 
-The soprotocol should be on the format: `soprotocol:project.main?project_id={{id}}`
+The soprotocol should be on the format: ```soprotocol:project.main?project_id={{id}}```
 
 ## Open Project with project_id equals 1000
 
-`soprotocol:project.main?project_id=1000`
+```soprotocol:project.main?project_id=1000```
 
 ## Open Project and display more
 
-`soprotocol:project.udef?project_id=1`
+```soprotocol:project.udef?project_id=1```
 
 Here, *project* is the target panel, and *udef* is the target upper tab view.
 
@@ -26,11 +26,11 @@ Here, *project* is the target panel, and *udef* is the target upper tab view.
 
 ## Open Project and display links and project members
 
-`soprotocol:project.links.projectmembersarchive?project_id=1`
+```soprotocol:project.links.projectmembersarchive?project_id=1```
 
 This link opens the project page displaying the links tab above and the project members grid tab below:
 
-`http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmembersarchive`
+```http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmembersarchive```
 
 ![02][img2]
 

@@ -8,6 +8,6 @@ keywords: soprotocol, deeplinking, appointment
 topic: howto
 client: web
 envir: onsite
-redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/open-appointment.html
+redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/open-follow-up.html
 ---
 

@@ -1,46 +1,46 @@
 ---
-title: Create Appointment
-uid: create-appointment
-description: Create Appointment
+title: Create Follow-up
+uid: create-follow-up
+description: How to create a Follow-up using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
-keywords: soprotocol, appointment, create
+keywords: soprotocol, follow-up, create
 topic: howto
 ---
 
-# Create Appointment
+# Create Follow-up
 
-The soprotocol should be on the format: `soprotocol:appointment.main[new=true]?appointment_id=0&...other args...`
+The soprotocol should be on the format: ```soprotocol:appointment.main[new=true]?appointment_id=0&...other args...```
 
-Refer to the [Appointment properties](#appointment-properties) for full list of available properties/args.
+Refer to the [Follow-up properties](#follow-up-properties) for full list of available properties/args.
 
-## Create a new appointment with specified sale_id
+## Create a new Follow-up with specified sale_id
 
-To set sale when creating a new appointment the property `usesalecurrent` needs to be set, in addition to the specific sale_id.
+To set sale when creating a new follow-up the property `usesalecurrent` needs to be set, in addition to the specific sale_id.
 
-`soprotocol:appointment.main[new=true]?appointment_id=0&usesalecurrent=true&sale_id=1000`
+```soprotocol:appointment.main[new=true]?appointment_id=0&usesalecurrent=true&sale_id=1000```
 
-## Create a new appointment with specified project_id
+## Create a new Follow-up with specified project_id
 
-To set project when creating a new appointment the property `useprojectcurrent` needs to be set, in addition to the specific project_id.
+To set project when creating a new follow-up the property `useprojectcurrent` needs to be set, in addition to the specific project_id.
 
-`soprotocol:appointment.main[new=true]?appointment_id=0&useprojectcurrent=true&project_id=1000`
+```soprotocol:appointment.main[new=true]?appointment_id=0&useprojectcurrent=true&project_id=1000```
 
-## Create a new appointment based on another appointment
+## Create a new Follow-up based on another follow-up
 
-`soprotocol:appointment.main[new=true]?appointment_id=0&basedon=1000`
+```soprotocol:appointment.main[new=true]?appointment_id=0&basedon=1000```
 
-## Create a follow-up on 2020-12-15 using default time (next 15-minute slot)
+## Create a Follow-up on 2020-12-15 using default time (next 15-minute slot)
 
-`soprotocol:appointment.main[new=true]?appointment_id=0&doby=2020.12.15 10:30&usedefaulttime=true`
+```soprotocol:appointment.main[new=true]?appointment_id=0&doby=2020.12.15 10:30&usedefaulttime=true```
 
-## Create a follow-up with a specified title and agenda
+## Create a Follow-up with a specified title and agenda
 
-`appointment.main[new=true]?appointment_id=0&appointmenttask_name=6&appointmenttitle_name=Meeting Title&appointmentagenda_name=Agenda`
+```appointment.main[new=true]?appointment_id=0&appointmenttask_name=6&appointmenttitle_name=Meeting Title&appointmentagenda_name=Agenda```
 
-## Appointment properties
+## Follow-up properties
 
-The following properties are supported when creating a new Appointment
+The following properties are supported when creating a new Follow-up
 
 | Property                     | Description                                                                                     |
 |------------------------------|-------------------------------------------------------------------------------------------------|

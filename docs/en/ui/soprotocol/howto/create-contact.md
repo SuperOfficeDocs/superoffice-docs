@@ -1,16 +1,17 @@
 ---
 title: Create Contact
 uid: create-contact
-description: Create Contact
+description: How to create a Contact using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
+version: 10.3.4
 keywords: soprotocol, contact, create
 topic: howto
 ---
 
 # Create Contact
 
-The soprotocol should be on the format: `soprotocol:contact.main[new=true]?contact_id=0&...other args...`
+The soprotocol should be on the format: ```soprotocol:contact.main[new=true]?contact_id=0&...other args...```
 
 ## How to create contact
 
@@ -31,11 +32,11 @@ contact.main[mode=edit]?contact_id=0
 
 There are 2 direct ways to open a new contact by using the URLs containing SOProtocol:
 
-`http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0`
+```http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0```
 
 or
 
-`http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]`
+```http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]```
 
 Users need to fill required data fields such as company name, department, street address, postal address, country, before clicking the **OK** button to save the data to the database.
 
@@ -43,7 +44,7 @@ Users need to fill required data fields such as company name, department, street
 
 The following example shows how we can create a new Contact using the URL. `contact_id=0` on the end is used to clear the person archive.
 
-`http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0`
+```http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0```
 
 <!-- Referenced links -->
 

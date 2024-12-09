@@ -11,10 +11,10 @@ items:
     href: ./howto/open-contact.md
   - name: Create contact
     href: ./howto/create-contact.md
-  - name: Open appointment
-    href: ./howto/open-appointment.md
-  - name: Create appointment
-    href: ./howto/create-appointment.md
+  - name: Open Follow-up
+    href: ./howto/open-follow-up.md
+  - name: Create Follow-up
+    href: ./howto/create-follow-up.md
   - name: Open Document
     href: ./howto/open-document.md
   - name: Create Document
@@ -23,14 +23,12 @@ items:
     href: ./howto/open-project.md
   - name: Create Project
     href: ./howto/create-project.md
-  - name: Show persons for contact
-    href: show-persons-for-contact.md
+  - name: Requests
+    href: .howto/requests.md
+  - name: Create/show custom object
+    href: .howto/custom-object.md
   - name: Using SoProtocol
     href: using-soprotocol.md
-  - name: Requests
-    href: requests.md
-  - name: Create/show custom object
-    href: custom-object.md
 - name: In CRMScript
   href: in-crmscript.md
 - name: In web panels

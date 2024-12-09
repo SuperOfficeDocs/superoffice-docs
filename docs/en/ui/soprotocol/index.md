@@ -25,12 +25,12 @@ topic: concept
 SOProtocol URLs have multiple parts, and can be either opened:
 
 * Directly in the browser:
-`https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?{{WHERE}}?{{WHAT}}`
+```https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?{{WHERE}}?{{WHAT}}```
 
 * [invoker through a script][4]:
-`soprotocol:{{WHERE}}?{{WHAT}}`
+```soprotocol:{{WHERE}}?{{WHAT}}```
 
-* Through a javascript with `postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })`
+* Through a javascript with ```postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })```
 
 The `{{WHERE}}` tells SuperOffice which page to display, and what tabs to select. See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
@@ -38,11 +38,11 @@ The `{{WHAT}}` tells SuperOffice what data to display on the page, such as a spe
 
 Examples:
 
-* `https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id`
+* ```https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id```
 
-* `soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id`
+* ```soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id```
 
-* `postMessage({ command: "soprotocol", arguments: "target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id" })`
+* ```postMessage({ command: "soprotocol", arguments: "target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id" })```
 
 ## SoProtocol and SuperState
 
@@ -65,15 +65,15 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 
 ## Examples
 
-### Contact
+### Contact (Company)
 
 * [Open existing Contact][5]
 * [Create new Contact][6]
 
-### Appointment
+### Follow-up
 
-* [Open existing Appointment][7]
-* [Create new Appointment][8]
+* [Open existing Follow-up][7]
+* [Create new Follow-up][8]
 
 ### Document
 
@@ -93,8 +93,8 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 [5]: ./howto/open-contact.md
 [6]: ./howto/create-contact.md
 
-[7]: ./howto/open-appointment.md
-[8]: ./howto/create-appointment.md
+[7]: ./howto/open-follow.up.md
+[8]: ./howto/create-follow-up.md
 
 [9]: ./howto/open-document.md
 [10]: ./howto/create-document.md
@@ -105,4 +105,3 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 [13]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
 <!-- Referenced images -->
 [img3]: media/copy-shortcut.png
-[img4]: media/contact-contact_id.png
