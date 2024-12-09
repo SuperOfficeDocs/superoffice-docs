@@ -1,6 +1,6 @@
 ---
 title: Create Document
-uid: create-document
+uid: sop-create-document
 description: How to create a Document using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
@@ -12,7 +12,7 @@ topic: howto
 
 The soprotocol should be on the format: ```soprotocol:document.main[new=true]?appointment_id=0&...other args...```
 
-Refer to the [Document properties](#document-properties) for full list of available properties/args.
+Refer to the [document properties](#document-properties) for full list of available properties/args.
 
 ## Create new document
 

@@ -1,6 +1,6 @@
 ---
 title: Create Contact
-uid: create-contact
+uid: sop-create-contact
 description: How to create a Contact using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024

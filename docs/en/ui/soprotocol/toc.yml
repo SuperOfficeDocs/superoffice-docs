@@ -11,17 +11,17 @@ items:
     href: howto/open-contact.md
   - name: Create contact
     href: ./howto/create-contact.md
-  - name: Open Follow-up
+  - name: Open follow-up
     href: ./howto/open-follow-up.md
-  - name: Create Follow-up
+  - name: Create follow-up
     href: ./howto/create-follow-up.md
-  - name: Open Document
+  - name: Open document
     href: ./howto/open-document.md
-  - name: Create Document
+  - name: Create document
     href: ./howto/create-document.md
-  - name: Open Project
+  - name: Open project
     href: ./howto/open-project.md
-  - name: Create Project
+  - name: Create project
     href: ./howto/create-project.md
   - name: Requests
     href: .howto/requests.md

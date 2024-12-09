@@ -4,6 +4,7 @@ title: SoProtocol
 description: SoProtocol
 keywords: soprotocol, deeplinking
 author: Tony Yates, Eivind Fasting
+keywords: soprotocol, deeplinking
 date: 12.06.2024
 version: 10.3
 topic: concept
@@ -30,7 +31,7 @@ SOProtocol URLs have multiple parts, and can be either opened:
 * [invoker through a script][4]:
 ```soprotocol:{{WHERE}}?{{WHAT}}```
 
-* Through a javascript with ```postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })```
+* Through a JavaScript with ```postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })```
 
 The `{{WHERE}}` tells SuperOffice which page to display, and what tabs to select. See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
@@ -72,8 +73,8 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 
 ### Follow-up
 
-* [Open existing Follow-up][7]
-* [Create new Follow-up][8]
+* [Open existing follow-up][7]
+* [Create new follow-up][8]
 
 ### Document
 
@@ -93,8 +94,8 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 [5]: howto/open-contact.md
 [6]: howto/create-contact.md
 
-[7]: ./howto/open-follow.up.md
-[8]: ./howto/create-follow-up.md
+[7]: howto/open-follow.up.md
+[8]: howto/create-follow-up.md
 
 [9]: howto/open-document.md
 [10]: howto/create-document.md

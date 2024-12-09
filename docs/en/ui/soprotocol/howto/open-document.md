@@ -1,7 +1,8 @@
 ---
 title: Open Document
-uid: open-document-id-2
+uid: sop-open-document
 description: How to open a Document using the soprotocol
+keywords: soprotocol, document, open
 author: Eivind Fasting
 date: 11.26.2024
 topic: howto
