@@ -4,21 +4,20 @@ uid: open-company
 description: How to create a Company using the soprotocol
 author: Eivind Fasting
 date: 11.26.2024
-keywords: soprotocol, company, open
 topic: howto
 ---
 
-# Open Company
+# Open company
 
 The soprotocol should be on the format: ```soprotocol:contact.main?contact_id={{id}}```
 
-## Open Company with id equals 2
+## Open company with ID = 2
 
-On the company page, showing the main tab above and the contacts grid below, with the company details on the right, where the contact_id equals 2, use the following SoProtocol URL:
+On the Company page, showing the main tab above and the contacts grid below, with the company details on the right, where the `contact_id` equals 2, use the following SoProtocol URL:
 
 ```soprotocol:contact.main.personarchive.minicontact?contact_id=2```
 
-![08][img1]
+![08 -screenshot][img1]
 
 ## How to edit a specific contact (obsolete from 10.0)
 

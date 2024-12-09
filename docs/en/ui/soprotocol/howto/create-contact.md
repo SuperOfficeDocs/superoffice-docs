@@ -9,13 +9,13 @@ keywords: soprotocol, contact, create
 topic: howto
 ---
 
-# Create Contact
+# Create contact
 
 The soprotocol should be on the format: ```soprotocol:contact.main[new=true]?contact_id=0&...other args...```
 
 ## How to create contact
 
-Users create new contacts by clicking the **New** button in the GUI. Programs can’t click buttons for the user. Instead, they use SoProtocol to tell SuperOffice to act as if the button was clicked:
+Users create new contacts by clicking the **New** button in the GUI. Programs can't click buttons for the user. Instead, they use SoProtocol to tell SuperOffice to act as if the button was clicked:
 
 ```html
 contact.main?contact_id=0
@@ -38,11 +38,11 @@ or
 
 ```http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]```
 
-Users need to fill required data fields such as company name, department, street address, postal address, country, before clicking the **OK** button to save the data to the database.
+Users need to fill required data fields such as company name, department, street address, postal address, and country before clicking the **OK** button to save the data to the database.
 
 ![Soprotocol contact.main -screenshot][img2]
 
-The following example shows how we can create a new Contact using the URL. `contact_id=0` on the end is used to clear the person archive.
+The following example shows how we can create a new contact using the URL. `contact_id=0` on the end is used to clear the person archive.
 
 ```http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0```
 

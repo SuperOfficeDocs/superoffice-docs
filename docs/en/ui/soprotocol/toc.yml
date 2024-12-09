@@ -7,8 +7,8 @@ items:
   href: page-control-and-cache.md
 - name: How to...
   items:
-  - name: Open Contact
-    href: ./howto/open-contact.md
+  - name: Open contact
+    href: howto/open-contact.md
   - name: Create contact
     href: ./howto/create-contact.md
   - name: Open Follow-up

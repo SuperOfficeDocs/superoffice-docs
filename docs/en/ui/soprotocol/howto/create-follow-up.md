@@ -55,10 +55,10 @@ The following properties are supported when creating a new Follow-up
 | `length`                     | Duration when creating new appointment – set instead of enddate. If both are set, length wins. |
 | `usedefaulttime`             | Indicates that the `doby`/`enddate` parameters above are missing the time component, and the default time should be used. |
 | `calendarassociate_id`       | The owner when creating a new appointment.                                                     |
-| `useprojectcurrent`          | If true, sets “current” project on the new appointment. For example, when creating an appointment from the project activity archive. |
-| `usesalecurrent`             | If true, sets “current” sale on the new appointment. For example, when creating an appointment from the sale activity archive. |
+| `useprojectcurrent`          | If true, sets "current" project on the new appointment. For example, when creating an appointment from the project activity archive. |
+| `usesalecurrent`             | If true, sets "current" sale on the new appointment. For example, when creating an appointment from the sale activity archive. |
 | `reopen`                     | If true, uses the current sale and `CreateDefaultReopenAppointment()` to create the new appointment. Set when stalling a sale. |
-| `groupview`                  | If present, the appointment is created from the group view (Diary -> View). Any text value will enable this. |
+| `groupview`                  | If present, the appointment is created from the group view (Diary > View). Any text value will enable this. |
 | `addparticipants`            | If present and `groupview` is set, adds participants from the current group view automatically. If not set, checks preferences for invite behavior. |
 | `basedon`                    | Appointment ID to use as the base of the new appointment. Conflicts with `reopen`. If both are set, `reopen` wins. |
 | `suggestedappointment_id`    | Appointment ID to use as the base of the new appointment. Conflicts with similar parameters, and the other parameters will win. |
