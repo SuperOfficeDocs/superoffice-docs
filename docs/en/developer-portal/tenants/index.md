@@ -2,9 +2,9 @@
 uid: dp-tenants
 title: Tenant management
 description: Tenant management
-keywords: standard app, public app, App Store
+keywords: standard app, public app, App Store, custom app, tenant
 author: Bergfrid Dias
-date: 12.06.2024
+date: 12.09.2024
 version_devportal: 1.29
 topic: concept
 envir: cloud
@@ -43,8 +43,25 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 The Tenant Manager simplifies tenant management, making it easier to oversee authorizations, resolve issues, and make informed decisions about your development and production environments.
 
+## Who are my customers?
+
+The **partner page** provides an overview of how many tenants that have authorized one or more applications developed by a specific company per environment.
+
+![List of tenants -screenshot][img1]
+
+1. In the Developer Portal, go to your partner page.
+
+2. Select **Overview** and locate the **Tenants** section. The table shows the number of tenants per environment (SOD, Stage, Production).
+
+3. Click one of the environments (SOD, Stage, Production) to open the **Tenant insights** page. This page shows the name and ID of *all* tenants in that environment, along with other related information.
+
+4. Optional, switch environments to explore further.
+
 <!-- Referenced links -->
-[1]: customers.md
-[2]: customers.md#license
-[3]: customers.md#state
+[1]: info.md
+[2]: info.md#license
+[3]: info.md#state
 [5]: ../getting-started/app-envir.md
+
+<!-- Referenced images -->
+[img1]: media/customers.png

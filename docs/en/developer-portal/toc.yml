@@ -81,8 +81,14 @@ items:
     - name: Tenant management
       href: tenants/index.md
       items:
-      - name: View customers
-        href: tenants/customers.md
+      - name: Insights
+        href: tenants/info.md
+      - name: Authorization
+        href: tenants/authorization.md
+      #- name: Consultant access
+      #  href: tenants/consultant/access.md
+      #- name: New tenant or production sandbox
+      #  href: tenants/get.md
     - name: Analytics
       href: analytics/metered-services.md.md
       items:

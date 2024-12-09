@@ -249,11 +249,22 @@ landingContent:
   # Card
   - title: Tenant manager
     linkLists:
+      - itemType: map
+        typeDesc: overview
+        links:
+        - text: Introduction to tenant management
+          url: tenants/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Customers
-          url: tenants/customers.md
+        - text: Insights
+          url: tenants/info.md
+        - text: Authorization
+          url: tenants/authorization.md
+        #- text: Consultant access
+        #  url: tenants/consultant/access.md
+        #- text: New tenant or production sandbox
+        #  url: tenants/get.md
 
   # Card
   - title: Analytics
