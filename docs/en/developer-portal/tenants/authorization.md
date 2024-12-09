@@ -36,55 +36,55 @@ The **app page** shows how many tenants that have authorized one specific applic
 
 ## Request authorization
 
-To access customer data, all apps require the [customer's consent][3].
+Apps require [customer consent][3] to access customer data.
 
-1. In the Developer Portal, go to your partner page and select **Tenants**.
+1. Navigate to your partner page in the Developer Portal and select **Tenants**.
 
-1. On the **Tenant insights** page, select the **Production** tab and click **Request Authorization**.
+1. On the **Tenant insights** page, go to the **Production** tab and click **Request Authorization**.
 
 1. Select an application from the list.
 
-    ![Request tenant authorization dialog in SuperOffice Developer portal -screenshot][img1]
-
 1. Enter customer name and Cust ID in production.
 
-1. Enter the email address of the contact person at the customer.
+1. Provide the email address of the customer's contact person.
 
 1. Optionally, add additional info.
 
-1. Click **Send** to initiate the process. An email will then be sent to the specified customer contact for confirmation, and access will be granted once SuperOffice receives their approval.
+1. Click **Send**. An email will be sent to the customer for confirmation. Access is granted upon approval.
+
+![Request tenant authorization dialog in SuperOffice Developer portal -screenshot][img1]
 
 ## Edit tenant authorization
 
 1. Go to the **Tenant insights** page.
 
-1. Select one of the environment tabs (SOD, Stage, Production) and choose the tenant you wish to update from the list.
+1. Select an environment tab (SOD, Stage, Production) and choose the tenant you wish to update.
 
-1. On the **Tenant details** page, select the **Authorizations** tab.
+1. On the **Tenant details** page, open the **Authorizations** tab.
 
-1. Locate the application in the list and click the **Edit** button on that row.
+1. Locate the application in the list and click **Edit**.
 
 1. Enter who you submit this request on behalf of.
 
-    ![Request edit tenant authorization in SuperOffice Developer portal -screenshot][img2]
-
 1. Complete the form and click **Send**.
+
+![Request edit tenant authorization in SuperOffice Developer portal -screenshot][img2]
 
 ## Remove tenant authorization (employees only)
 
-Revoking access to an application will sever the connection between the application and a database tenant. It will not remove any data from the database.
+Revoking access severs the connection between the application and the tenant's database but does not remove data from the database.
 
-1. On the **Tenant details** page, select the **Authorizations** tab.
+1. On the **Tenant details** page, go to the **Authorizations** tab.
 
-1. Locate the application in the list and click the **Remove** button on that row.
+1. Locate the application in the list and click **Remove**.
 
-1. Enter the email address of the contact person at the customer.
+1. Enter the customer contact's email address.
 
-    ![Request remove tenant authorization in SuperOffice Developer portal -screenshot][img3]
-
-1. State *why* authorization should be removed.
+1. Provide a reason for removing the authorization.
 
 1. Click **Send**.
+
+![Request remove tenant authorization in SuperOffice Developer portal -screenshot][img3]
 
 ## Related content
 

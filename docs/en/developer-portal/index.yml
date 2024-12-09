@@ -196,17 +196,25 @@ landingContent:
             url: "standard-app/app-store/user-guide.md#links"
 
     # Card
-  - title: Tenant status
+  - title: Tenants
     linkLists:
     - itemType: map
       typeDesc: overview
       links:
         - text: What is tenant status?
           url: best-practices/tenant-status/index.md
+        - text: Introduction to tenant management
+          url: tenants/index.md
     - itemType: list
       typeDesc: how-to-guide
       links:
-        - text: Check status
+        - text: Tenant insights
+          url: tenants/info.md
+        - text: Authorization (consent)
+          url: tenants/authorization.md
+        - text: New tenant or production sandbox
+          url: tenants/get.md
+        - text: Check tenant status
           url: best-practices/tenant-status/check-status.md
         - text: Get notifications
           url: best-practices/tenant-status/get-notifications.md
@@ -245,26 +253,6 @@ landingContent:
           url:  provisioning/index.md 
         - text: Certification
           url: standard-app/certification/index.md
-
-  # Card
-  - title: Tenant manager
-    linkLists:
-      - itemType: map
-        typeDesc: overview
-        links:
-        - text: Introduction to tenant management
-          url: tenants/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Insights
-          url: tenants/info.md
-        - text: Authorization
-          url: tenants/authorization.md
-        #- text: Consultant access
-        #  url: tenants/consultant/access.md
-        #- text: New tenant or production sandbox
-        #  url: tenants/get.md
 
   # Card
   - title: Analytics

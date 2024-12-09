@@ -13,7 +13,7 @@ client: online
 
 # Tenant management
 
-The Tenant Manager is your dedicated area for managing tenants across [development, stage, and production environments][5]. Designed for organizational efficiency, this section of the Developer Portal helps streamline management tasks related to tenants, applications, and authorizations. It empowers organizations and employees to easily list tenants by partner and manage various aspects of their environments.
+The Tenant Manager is your dedicated area for managing tenants across [development, stage, and production environments][9]. Designed for organizational efficiency, this section of the Developer Portal helps streamline management tasks related to tenants, applications, and authorizations. It empowers organizations and employees to easily list tenants by partner and manage various aspects of their environments.
 
 ## Key features
 
@@ -29,9 +29,7 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 * **Request additional tenants:** Add sandbox tenants for production or create development tenants in SOD environments.
 
-* **Authorization management:** Manage and edit authorization records related to employees and tenants.
-
-* **Edit or remove tenant authorizations:** (employees only).
+* **Authorization management:** [View, edit, and revoke authorization records][4] related to employees and tenants.
 
 ## Navigating the Tenant Manager
 
@@ -61,7 +59,8 @@ The **partner page** provides an overview of how many tenants that have authoriz
 [1]: info.md
 [2]: info.md#license
 [3]: info.md#state
-[5]: ../getting-started/app-envir.md
+[4]: authorization.md
+[9]: ../getting-started/app-envir.md
 
 <!-- Referenced images -->
 [img1]: media/customers.png
