@@ -1,11 +1,12 @@
 ---
-title: SoProtocol
 uid: soprotocol
+title: SoProtocol
 description: SoProtocol
-author: Tony Yates
-date: 09.24.2024
-version: 10.3
 keywords: soprotocol, deeplinking
+author: Tony Yates, Eivind Fasting
+keywords: soprotocol, deeplinking
+date: 12.06.2024
+version: 10.3
 topic: concept
 ---
 
@@ -15,104 +16,94 @@ topic: concept
 
 ## Why use SoProtocol
 
-* No Scripting is needed, although scripts can return to invoke an soprotocol URL.
+* No scripting is needed, although scripts can [invoke an soprotocol URL][4].
 * Works with the integrated web browser (webpages can control the CRM client user interface).
 * Works with both web and Windows (legacy) clients.
 * Security, it's primarily for navigation and cannot write data into the database.
 
-SOProtocol URLs have two parts:
+## How is an SoProtocol URL defined
 
-* [where targets][2] - which page to display and what tabs to select
-* what targets - what data to display in the page, such as a specific contact or project by ID
+SOProtocol URLs have multiple parts, and can be either opened:
 
-`default.aspx?where.where...?what=id&what=id&...`
+* Directly in the browser:
+```https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?{{WHERE}}?{{WHAT}}```
 
-or
+* [invoker through a script][4]:
+```soprotocol:{{WHERE}}?{{WHAT}}```
 
-`soprotocol:where.where...?what=id&what=id&...`
+* Through a JavaScript with ```postMessage({ command: "soprotocol", arguments: "{{WHERE}}?{{WHAT}}" })```
 
-This can also be represented as:
+The `{{WHERE}}` tells SuperOffice which page to display, and what tabs to select. See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
-`default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id&[entity]_id=id`
+The `{{WHAT}}` tells SuperOffice what data to display on the page, such as a specific contact or project by ID.
 
-or
+Examples:
 
-`soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id&[entity]_id=id`
+* ```https://{{environment}}.superoffice.com/{{tenant}}/default.aspx?target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id```
 
-<!-- what here: is a History Item. -->
+* ```soprotocol:target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id```
 
-For example, on the company page, showing the main tab above and the contacts grid below, with the company details on the right, where the contact_id equals 2, use the following SoProtocol URL:
-
-`soprotocol:contact.main.personarchive.minicontact?contact_id=2`
-
-![08][img4]
-
-> [!TIP]
-> You can get a URL that reflects the current state of the application by selecting **Copy shortcut** either from the hamburger menu, the **Task** menu in dialogs for follow-ups and documents, or by right-clicking an item in a section tab, can get from address bar, and from developer tools: (SuperOffice.Environment.SoProtocol)
-
-Changing the URL loads different pages, panels and cards in SuperOffice. Take the following URL for example.
-
-`http://localhost/SuperOfficeWeb/default.aspx?project.udef`
-
-This URL opens the project page displaying the **More** (udef) tab. Here, *project* is the target panel, and *udef* is the target upper tab view.
-
-![01][img1]
-
-`http://localhost/SuperOfficeWeb/default.aspx?project.links.projectmemberarchive`
-
-This link opens the project page displaying the links tab above and the project members grid tab below:
-
-![02][img2]
-
-In the same config file, if we use duplicate soprotocol values for views, it will give us a conflict error message. We can create any number of views, but the soprotocol value of each view should be unique.
-
-See the [SoProtocol targets reference][2] for a list of soprotocol targets.
-
-## Query strings (what)
-
-The **query string** is what comes behind the question mark (?) in the URL. Separate the whats with an ampersand `&`.
-
-You can use the primary keys to specify what to open:
-
-* contact_id
-* person_id
-* appointment_id
-* sale_id
-* project_id
-* selection_id
-* document_id
-
-For example, to go to sale 42:
-
-`soprotocol:sale?sale_id=42`
-
-To go to a specific company card, set the active archive:
-
-`soprotocol:contact.main.activityarchive?contact_id=2`
+* ```postMessage({ command: "soprotocol", arguments: "target-screen.upper-tab.lower-tab.mini-card?[entity]_id=id" })```
 
 ## SoProtocol and SuperState
 
-SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the id. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
+SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the ID. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
 
 ## Find current state
 
-To get the SOProtocol link that reflects the current state of the application, use the browser address bar to view the current page information and copy the address.
+To get the SOProtocol link that reflects the current state of the application, use the browser's address bar to view the current page information and copy the address.
+Alternatively, use the **Copy Shortcut** option in the **Task** button when available to get the current SoProtocol.
 
-> [!NOTE]
-> Alternatively, use the **Copy Shortcut** option in the task button when available to get the current SoProtocol.
+![03 -screenshot][img3]
 
-![03][img3]
+## SCIL
 
-> [!TIP]
-> It is possible to test an SoProtocol by running PageUpdate in the console/browser's DevTools. For instance, opening a [CustomObject][3] can be achieved by running the command 'PageUpdate("soprotocol:customobject?customobject_name=y_car&customobject_id=1");'.
+Working with `soprotocol` in SCIL-pages are similar to the old `pagebuilder`, so existing soprotocol-requests should still work. The only exception is `[dialog=...]`, which is deprecated and will no longer have any effect.
+
+## CrossMessaging
+
+To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffice, there is a [helper-library on GitHub][13] that can be used by developers. Under the hood this uses `postMessage({ command: "", arguments: "" })`.
+
+## Examples
+
+### Contact (Company)
+
+* [Open existing contact][5]
+* [Create new contact][6]
+
+### Follow-up
+
+* [Open existing follow-up][7]
+* [Create new follow-up][8]
+
+### Document
+
+* [Open existing document][9]
+* [Create new document][10]
+
+### Project
+
+* [Open existing project][11]
+* [Create new project][12]
 
 <!-- Referenced links -->
 [1]: ../web-app/pagebuilder/superstate/index.md
 [2]: navigation-points.md
-[3]: custom-object.md
+[4]: in-crmscript.md
+
+[5]: howto/open-contact.md
+[6]: howto/create-contact.md
+
+[7]: howto/open-follow.up.md
+[8]: howto/create-follow-up.md
+
+[9]: howto/open-document.md
+[10]: howto/create-document.md
+
+[11]: howto/open-project.md
+[12]: howto/create-project.md
+
+[13]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
 
 <!-- Referenced images -->
-[img1]: media/project-udef.png
-[img2]: media/project-note-projectmembersarchive.png
 [img3]: media/copy-shortcut.png
-[img4]: media/contact-contact_id.png
