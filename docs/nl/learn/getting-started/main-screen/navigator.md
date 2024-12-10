@@ -29,7 +29,6 @@ U verplaatst zich tussen de hoofdsecties van SuperOffice met behulp van de navig
 | ![pictogram][img9] | Hiermee opent u het scherm Selectie, waar u in aparte selecties bedrijven, personen, projecten, verkopen, documenten en vervolgactiviteiten kunt invoeren waarmee u regelmatig werkt. Selecties kunnen onder meer worden gebruikt voor mailings. | [Selectie][7] |
 | ![pictogram][img10] | Hiermee opent u het **postvak IN**, waar u binnengekomen berichten kunt lezen en beantwoorden.| [Postvak IN/E-mail][8] |
 | ![pictogram][img11] | Hiermee opent u het scherm **Chat** waar u kunt antwoorden op vragen die zijn verzonden via de chatfunctie op de webpagina van uw bedrijf. | [Chatten][9] |
-| ![pictogram][img12] | Hiermee opent u het scherm **Rapporten**. Deze rapportgenerator wordt geleverd met een aantal standaardrapporten. Deze kunt u gebruiken om rapporten af te drukken op basis van gegevens uit SuperOffice CRM. | [Rapporten][10] |
 | ![pictogram][img13] | Hiermee opent u het scherm **Marketing**. Hier kunt u mailings maken en verzenden (e-mails, SMS en documenten) en formulieren maken en publiceren. | [Marketing][11] |
 | ![pictogram][img14] | Hiermee opent u **Service** (verouderd) | |
 | ![pictogram][img15] | Hiermee opent u een menu dat u toegang biedt tot externe toepassingen en websites. De beschikbare items worden gedefinieerd in Instellingen en onderhoud. | |
@@ -50,7 +49,7 @@ U verplaatst zich tussen de hoofdsecties van SuperOffice met behulp van de navig
 | ![pictogram][img51] | **Schermontwerper**: hiermee opent u het scherm Schermontwerper, waar u aangepaste schermopmaken kunt maken voor specifieke gebruikersgroepen. | [Schermontwerper][24] |
 | ![pictogram][img52] | **Voorkeuren**: hiermee opent u het scherm Voorkeuren, waarin u instellingen kunt definiëren voor verschillende aspecten van SuperOffice CRM, zoals het aantal elementen dat wordt weergegeven in de historielijst, het standaardtype van nieuwe activiteiten, enzovoort. Hier kunt u ook [Videovergaderingen][42] en de [Documentbibliotheek][43] configureren. | [Voorkeuren][25] |
 | ![pictogram][img41] | **Chat**: hiermee opent u het scherm Chat, waarin u chatkanalen kunt maken en de chatfunctie kunt instellen. | [Chatten][2] |
-| ![pictogram][img53] | **Opties**: hiermee opent u het scherm Opties waar u systeembrede instellingen kunt definiëren. Bijvoorbeeld instellingen voor zoeken in vrije tekst, tijdzones, nummertoewijzing, labels en rapporten. | [Opties][26] |
+| ![pictogram][img53] | **Opties**: hiermee opent u het scherm Opties waar u systeembrede instellingen kunt definiëren. Bijvoorbeeld instellingen voor zoeken in vrije tekst, tijdzones, nummertoewijzing en labels. | [Opties][26] |
 | ![pictogram][img54] | **Import**: hiermee opent u het scherm Import, waarin u gegevens kunt importeren in de SuperOffice-database. | [Import][27] |
 | ![pictogram][img55] | **Velden**: hiermee opent u het scherm Velden, waarin u zelf velden kunt definiëren voor SuperOffice CRM. | [Velden][28] |
 | ![pictogram][img56] | **CRMScript**: hiermee opent u een scherm met verschillende functies voor scriptverwerking en automatisering, zoals macro's, gebeurtenisregistraties en geplande taken. | [CRMScript][41] |
@@ -87,7 +86,6 @@ Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo wee
 [7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
-[10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [34]: ../../../request/learn/index.md
@@ -122,7 +120,6 @@ Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo wee
 [img9]: ../../../../../common/icons/nav-selection-h32.png
 [img10]: ../../../../../common/icons/nav-inbox-h32.png
 [img11]: ../../../../../common/icons/nav-chat-h32.png
-[img12]: ../../../../../common/icons/nav-reports-h32.png
 [img13]: ../../../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../../../common/icons/nav-cs-h32.png
 [img15]: ../../../../../common/icons/nav-tools-h32.png

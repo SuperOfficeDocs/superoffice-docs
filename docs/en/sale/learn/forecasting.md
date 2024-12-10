@@ -1,10 +1,11 @@
 ---
 uid: help-en-sale-forecasting
 title: Monitor your pipeline and forecast sales
-description: How to monitor your sales pipeline and forecast your sales with the help of dashboards, selections, and reports.
+description: How to monitor your sales pipeline and forecast your sales with the help of dashboards and selections.
+keywords: sale, forecast, pipeline
 author: Bergfrid Dias
-date: 02.16.2023
-keywords: sale
+date: 12.10.2024
+version: 10
 topic: howto
 language: en
 ---
@@ -15,7 +16,7 @@ To reach your long-term sales goals, it is essential to maintain a healthy pipel
 
 ## Use dashboards to manage your sales pipeline
 
-The [SuperOffice Dashboard][2] gives you quick access to the tiles, such as charts, reports and statistics, that are important to you.
+The [SuperOffice Dashboard][2] gives you quick access to the tiles, such as charts, reports, and statistics, that are important to you.
 
 When you [create a dashboard][1], you can choose from a wide range of predefined tiles. Click on a chart tile to drill down on the chart data.
 
@@ -40,24 +41,6 @@ The **My activity pace** tile will let you see your activities sorted by type. T
 The **Sales YTD compared to last year for my group tile** is a great way to keep an eye on if your teams' sales are growing.
 
 ![Example of the Sales YTD compared to last year for my group tile -screenshot][img5]
-
-## Use reports to forecast sales
-
-[SuperOffice Reports][3] are pre-defined statistical reports, based on your CRM data, that provide you with instant insights into the state of your current sales. [Reports use predefined criteria][4] to calculate results, and then present them in an easily formatted pdf file.
-
-There are many standard reports to choose from – like Actual Sales, Projected Sales, and Sales with Profit. Each report will give you a quick forecast based on the registered information in your SuperOffice CRM.
-
-![Three steps to access your reports in Sales -screenshot][img6]
-
-### Steps
-
-1. Open Reports and select the **Sale** tab at the top.
-
-1. You can now choose the reports you wish to use. Take your pick from the report list.
-
-1. You can easily change the criteria your report will be based on, such as the time-frame. But check if you can use the predefined criteria just as they are. Double click on the criteria you want to change and adjust the value by changing the date to next month for example. You can remove the criteria by clicking the Delete button.
-
-1. Press Preview to open your report as a downloaded pdf or press save to save your report in SuperOffice CRM. Double click the report to open it.
 
 ## Use selections to forecast sales
 
@@ -101,8 +84,6 @@ you have now created a list containing all open sales worth over €5000 made th
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../dashboard/learn/index.md
-[3]: ../../reports/learn/index.md
-[4]: ../../reports/learn/search-criteria/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
@@ -113,7 +94,6 @@ you have now created a list containing all open sales worth over €5000 made th
 [img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
 [img4]: ../../../media/loc/en/sale/my-activity-pace.png
 [img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img6]: ../../../media/loc/en/sale/sales-report.png
 [img7]: ../../../media/loc/en/sale/typical-search.png
 [img8]: ../../../media/loc/en/sale/find-screen.png
 [img9]: ../../../media/loc/en/sale/add-search-criteria.png

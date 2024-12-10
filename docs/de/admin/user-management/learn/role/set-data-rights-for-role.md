@@ -2,9 +2,10 @@
 uid: help-de-role-set-data-rights
 title: Datenrechten für Rolle festlegen
 description: Datenrechten für Rolle festlegen
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: Benutzerverwaltung, Rolle, Zugriff, Rechte
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -60,10 +61,6 @@ Sie können Rechte für [Datenobjekte][2] festlegen, die davon abhängen, wer Ei
 ## Wie zeige ich Datenobjekte für externe Benutzer an?
 
 Wenn externe Benutzer (Audience-Benutzer) Zugriff auf die Datenobjekte (Firmen, Projekte, Dokumente usw.) erhalten sollen, reicht es nicht aus, den externen Benutzern Leserechte (oder mehr) zu erteilen. Die Datenobjekte müssen außerdem in SuperOffice veröffentlicht werden.
-
-## Zugriffsrechte für Berichte
-
-Alle SuperOffice CRM-Benutzer haben Zugriff auf die Ansicht Berichte, während die einzelnen Berichte, auf die Sie Zugriff haben, von den Rechten gemäß den Folgeaufgaben, Dokumenten, Verkäufen und Aktivitätslisten haben. In der Praxis bedeutet dies, dass Sie keine Berichte für Inhalte erstellen können, für die Sie keine Berechtigung zum Anzeigen haben.
 
 ## Vervandt
 

@@ -54,7 +54,7 @@ Skriv inn navnet på salget (hvis aktuelt) som dokumentet er knyttet til. Du kan
 
 ### Skriv emne her
 
-Skriv inn teksten som skal brukes som overskrift for dokumentet (teksten som vises i detaljkort og rapporter der dokumentet er oppført).
+Skriv inn teksten som skal brukes som overskrift for dokumentet.
 
 ### Språk
 

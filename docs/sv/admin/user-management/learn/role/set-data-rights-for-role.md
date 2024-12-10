@@ -2,9 +2,10 @@
 uid: help-sv-role-set-data-rights
 title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: administrera användare, roll, åtkomst, behörigheter
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -60,10 +61,6 @@ Du kan ange behörigheter för [dataobjekt][2] baserat på vem som äger objekte
 ## Hur visar jag dataobjekt för externa användare?
 
 Om dataobjekten (företag, projekt, dokument etc.) ska vara tillgängliga för externa användare (Audience-användare) räcker det inte att bara tilldela läsbehörighet (eller högre) till externa användare. Dataobjekten måste också publiceras i SuperOffice.
-
-## Behörighet till rapporter
-
-Alla SuperOffice CRM-användare har åtkomst till fönstret Rapporter, men vilka rapporter du kommer åt beror på vilka behörigheter du har (roll) med avseende på händelser, dokument, försäljning och aktivitetslistan. I praktiken innebär det att du inte kan skapa rapporter för innehåll som du inte har behörighet att se.
 
 ## Relaterat
 

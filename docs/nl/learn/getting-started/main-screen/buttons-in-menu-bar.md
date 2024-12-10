@@ -64,7 +64,7 @@ De items boven aan het scherm variëren enigszins tussen SuperOffice CRM, Servic
 | Optie | Beschrijving |
 |---|---|
 | Andere toepassingen | Wordt gebruikt om toegang te krijgen tot [andere toepassingen of koppelingen][1] die zijn toegevoegd aan SuperOffice CRM. In de meeste gevallen zijn deze toepassingen ook beschikbaar via de knop **Module** in de Navigator. |
-| Downloaden | Hiermee opent u een weergave van beschikbare downloads van SuperOffice, zoals SuperOffice WebTools of de CrossTable-viewer voor rapporten. |
+| Downloaden | Hiermee opent u een weergave van beschikbare downloads van SuperOffice, zoals SuperOffice WebTools. |
 | SuperOffice App Store | Hiermee opent u de SuperOffice App Store, waar u standaard-apps en integraties kunt verkennen die SuperOffice CRM Online kunnen uitbreiden. |
 | Snelkoppeling kopiëren | [Snelkoppelingen naar items maken][15] |
 | Instellingen dupliceren | Wordt gebruikt om [dupliceringsinstellingen][8] voor bedrijven, projecten en selecties te bewerken. |

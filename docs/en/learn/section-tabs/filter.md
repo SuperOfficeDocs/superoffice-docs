@@ -119,12 +119,10 @@ Click ![icon][img2] and **Reset** to reset the filter.
 
 * [Grouping lists][1]
 * [Filter the list of selection members][2]
-* [Filter documents in the Reports screen][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

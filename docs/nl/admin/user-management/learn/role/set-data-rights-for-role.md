@@ -2,9 +2,10 @@
 uid: help-nl-role-set-data-rights
 title: Gegevensrechten voor rol instellen
 description: Gegevensrechten voor rol instellen
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: gebruikersbeheer, rol, toegang, rechten
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -61,11 +62,6 @@ U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar
 
 Als de gegevensobjecten (bedrijven, projecten, documenten enzovoort) toegankelijk moeten zijn voor externe gebruikers (Audience-gebruikers), is het niet voldoende leesrechten toe te wijzen aan de externe gebruikers. De gegevensobjecten moeten ook worden gepubliceerd in SuperOffice.
 
-## Toegangsrechten tot rapporten
-
-Alle SuperOffice CRM-gebruikers hebben toegang tot het scherm Rapporten, maar tot welke rapporten u toegang hebt, is afhankelijk van uw rechten (rol) met betrekking tot vervolgactiviteiten, documenten, omzet en activiteitenlijst. In de praktijk houdt dat in dat u geen rapporten en inhoud kunt genereren die u niet mag bekijken.
-
-<!-- Referenced links -->
 ## Aanvervandt
 
 * [Gegevensrechten][3]

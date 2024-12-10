@@ -2,12 +2,13 @@
 uid: help-da-label-change
 title: Ændring af etiketter
 description: Ændring af etiketter
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: etiket
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-topic: howto
 language: da
 ---
 
@@ -16,9 +17,6 @@ language: da
 SuperOffice indeholder flere felter, hvis navne kan ændres for at tilpasse programmet til din organisations egne behov.
 
 Du kan ændre etiketter på alle tilgængelige sprog i SuperOffice. Du kan f.eks. beslutte, at alle *Firma*-felter skal kaldes *Organisation* i stedet.
-
-> [!NOTE]
-> Disse ændringer gælder kun for SuperOffice CRM og ikke for f.eks. rapporter eller etiketter i Reporter Studio.
 
 [!include[Go to Options](../includes/open-options.md)]
 

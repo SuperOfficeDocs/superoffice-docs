@@ -41,9 +41,6 @@ items:
     href: labels/change.md
   - name: Labels opnieuw instellen
     href: labels/reset.md
-    
-- name: Rapporten
-  href: reports.md
 - name: Klanttalen
   topicHref: custlang/index.md
   items:

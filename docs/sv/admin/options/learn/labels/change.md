@@ -2,12 +2,13 @@
 uid: help-sv-label-change
 title: Ändra ledtexter
 description: Ändra ledtexter
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: ledtext
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-topic: howto
 language: sv
 ---
 
@@ -16,9 +17,6 @@ language: sv
 I SuperOffice finns det flera fält som du kan byta namn på för att anpassa programmet efter ditt företags behov och önskemål.
 
 Du kan ändra ledtexter på alla tillgängliga språk i SuperOffice. Till exempel kanske du vill att alla *Företag*-fält ska heta *Organisation* istället.
-
-> [!NOTE]
-> Ändringarna tillämpas bara i SuperOffice CRM och inte på exempelvis rapporter eller ledtexter i Reporter Studio.
 
 [!include[Go to Options](../includes/open-options.md)]
 

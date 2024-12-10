@@ -54,7 +54,7 @@ Typ de naam van de eventuele verkoop waaraan het document is gekoppeld. U kunt r
 
 ### Voer hier het onderwerp in
 
-Voer de tekst in die als kop voor het document moet worden gebruikt (de tekst die wordt weergegeven in sectietabbladen en rapporten waarin het document wordt weergegeven).
+Voer de tekst in die als kop voor het document moet worden gebruikt.
 
 ### Taal
 
