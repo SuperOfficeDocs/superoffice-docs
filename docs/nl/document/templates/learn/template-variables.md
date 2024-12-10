@@ -4,7 +4,7 @@ title: Sjabloonvariabelen
 description: Met sjabloonvariabelen kunt u de invoer van klantgegevens personaliseren en automatiseren
 keywords: document, sjabloon, variable
 author: Bergfrid Dias
-date: 07.11.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: nl
@@ -63,21 +63,6 @@ Aanwezig: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
 Niet aanwezig:
 Notulist: John Jones (jj@supershop.com)
 ```
-
-## Opvultekens
-
-Soms moet u opvultekens gebruiken in sjablonen om ervoor te zorgen dat een veldinhoud of -opmaak niet wordt gewijzigd of verwijderd als de inhoud in een veld korter is dan bepaald door de veldvariabele.
-
-Met de variabele padd# geeft u op welk teken u gebruikt als opvulteken. Vervang het teken # door de ANSI-code van het teken dat u als opvulteken wilt gebruiken. U vindt meestal een lijst met ANSI-codes in de handleiding van het programma waarvoor u sjablonen maakt. Microsoft Word gebruikt {padd31} als opvulteken.
-
-SuperOffice CRM heeft standaardwaarden voor opvultekens voor de meest algemeen gebruikte tekstverwerkings- of spreadsheettoepassingen. Meestal wordt een tijdelijk afbreekstreepje gebruikt, omdat dit niet op het scherm of op een afdruk wordt weergegeven. Voor toepassingen waarin de instelling onbekend is, wordt in SuperOffice CRM {padd32} gebruikt. Dit is de ANSI-code voor een spatie.
-
-Als u geen opvultekens wilt gebruiken, gebruikt u de sjabloonvariabele {padd0}.
-
-> [!NOTE]
-> dit werkt alleen voor sequentiële documentindelingen, zoals Kladblok- en AmiPro-sjablonen zonder afbeeldingen.
-
-Wanneer u {padd0} gebruikt, kunt u alle sjabloonvariabelen schrijven zonder lege tekens tussen de naam van de sjabloonvariabele en het laatste teken van de variabele (}).
 
 ## Slimme variabelen van de bedrijfskaart
 

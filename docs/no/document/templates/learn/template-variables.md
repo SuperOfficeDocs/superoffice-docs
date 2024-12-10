@@ -4,7 +4,7 @@ title: Malvariabler
 description: Med malvariabler kan du tilpasse og automatisere inntasting av kundedata
 keywords: document, mal, variabel, malvariabler
 author: Bergfrid Dias
-date: 07.11.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: no
@@ -63,21 +63,6 @@ Deltakere: Hans Olsen (Liberty Ltd.), Kari Nordmann (SuperShop)
 Forfall:
 Referent: Jonas Berg (jb@supershop.com)
 ```
-
-## Fylltegn
-
-Noen ganger bør du bruke fylltegn i maler slik at et felts innhold eller formatering ikke endres eller slettes hvis innholdet i et felt er kortere enn lengden angitt av feltvariabelen.
-
-Du bruker variabelen padd# for å angi fylltegnet som skal brukes. Erstatt #-tegnet med ANSI-koden for det tegnet du ønsker å bruke som fylltegn. Du finner vanligvis en liste over ANSI-koder i håndboken til programmet du lager maler for. Microsoft Word bruker {padd31} som fylltegn.
-
-SuperOffice CRM har standardverdier for fylltegn for de mest brukte tekstbehandlings- og regnearkprogrammene. En myk bindestrek brukes vanligvis fordi den ikke vises på skjermen eller en utskrift. For programmer der oppsettet er ukjent, bruker SuperOffice CRM {padd32}, som er ANSI-koden for et mellomrom.
-
-Hvis du ikke vil bruke fylltegn, bruker du malvariabelen {padd0}.
-
-> [!NOTE]
-> Dette fungerer bare for dokumentformater som er sekvensielle, for eksempel Notisblokk og AmiPro-maler uten grafikk.
-
-Når du bruker {padd0} kan du skrive alle malvariablene uten tomme tegn mellom navnet på malvariabelen og den avsluttende variabelens skilletegn (}).
 
 ## Smarte variabler fra firmakortet
 

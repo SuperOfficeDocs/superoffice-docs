@@ -4,7 +4,7 @@ title: Template variables
 description: With template variables you can personalize and automate the input of customer data.
 keywords: document, template, variable
 author: Bergfrid Dias
-date: 07.11.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: en
@@ -63,21 +63,6 @@ Present: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
 Not attending:
 Meeting secretary: John Jones (jj@supershop.com)
 ```
-
-## Fill characters
-
-Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
-
-Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for. Microsoft Word uses {padd31} as a fill character.
-
-SuperOffice CRM has default values for fill characters for the most commonly used word-processing and spreadsheet applications. A soft hyphen is usually used because it does not display on the screen or a printout. For applications where the set-up is unknown, SuperOffice CRM uses {padd32}, which is the ANSI code for a space.
-
-If you do not want to use fill characters, use the template variable {padd0}.
-
-> [!NOTE]
-> This only works for document formats that are sequential, for example, Notepad and AmiPro templates without graphics.
-
-When you use {padd0} you can write all the template variables without blank characters between the name of the template variable and the closing variable delimiter (}).
 
 ## Smart variables from the Company screen
 

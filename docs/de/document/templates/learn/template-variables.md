@@ -4,7 +4,7 @@ title: Vorlagenvariablen
 description: Mit Vorlagenvariablen können Sie die Eingabe von Kundendaten personalisieren und automatisieren.
 keywords: Vorlagenvariablen, Dokument, Vorlage, Variable
 author: Bergfrid Dias
-date: 07.11.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: de
@@ -63,21 +63,6 @@ Anwesend: Sara Miller (Liberty Ltd.), John Jones (SuperShop)
 Nicht teilgenommen:
 Besprechungsleiter: John Jones (jj@supershop.com)
 ```
-
-## Füllzeichen
-
-Es kann vorkommen, dass Sie Füllzeichen in Variablen verwenden müssen, damit der Inhalt oder die Formatierung eines Felds sich nicht verändert oder gelöscht wird, falls der Inhalt eines Felds kürzer ist als durch die Feldvariable festgelegt.
-
-Mit der Variable padd# legen Sie das zu verwendende Füllzeichen fest. Ersetzen Sie das Nummernzeichen (#) durch den ANSI-Code des Zeichens, das Sie als Füllzeichen verwenden möchten. Eine Liste der ANSI-Codes finden Sie in der Regel im Handbuch des Programms, für das Sie Vorlagen erstellen. Microsoft Word verwendet als Füllzeichen {padd31}.
-
-SuperOffice CRM verfügt über Füllzeichen-Standardwerte für die am häufigsten verwendeten Textverarbeitungs- und Tabellenkalkulationsanwendungen. Es wird meist ein bedingter Trennstrich verwendet, da er nicht auf dem Bildschirm oder einem Ausdruck angezeigt wird. Bei Anwendungen, deren Aufbau unbekannt ist, verwendet SuperOffice CRM {padd32}, den ANSI-Code für ein Leerzeichen.
-
-Wenn Sie keine Füllzeichen einsetzen möchten, verwenden Sie die Vorlagenvariable {padd0}.
-
-> [!NOTE]
-> Dies gilt nur für Dokumentformate, die sequentiell sind, z. B. Notepad- und AmiPro-Vorlagen ohne Grafiken.
-
-Wenn Sie {padd0} verwenden, können Sie alle Vorlagenvariablen ohne Leerzeichen zwischen den Namen der Vorlagenvariable und das schließende Variablenzeichen (}) schreiben.
 
 ## Intelligente Variablen auf der Firmenkarte
 
