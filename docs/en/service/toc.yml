@@ -34,8 +34,6 @@ items:
   - name: Configuration
     href: config/index.md
     items:
-    - name: Set up Facebook integration
-      href: config/set-up-facebook-integration.md
     - name: Update attachment location
       href: config/update-attachment-location.md
     - name: Split attachment location

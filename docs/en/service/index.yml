@@ -200,8 +200,6 @@ additionalContent:
       # Card
       - title: Integrations
         links:
-        - url: config/set-up-facebook-integration.md
-          text: Set up Facebook integration
         - url: ../marketing/forms/learn/recaptcha.md
           text: Google reCaptcha in forms
       # Card
