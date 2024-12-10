@@ -2,9 +2,9 @@
 uid: help-sv-request-priority
 title: Ärendeprioriteter
 description: Ärendeprioriteter
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: ärende, prioritet
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,10 +32,10 @@ Till exempel: Du kan specificera att ärenden från ett visst företag ska ha VI
 
 Prioriteter åsidosätter andra prioriteter i följande ordning:
 
+1. Prioritet specificerad för ett e-postfilter
 1. Prioritet specificerad för en kontakt
 1. Prioritet specificerad för ett företag
 1. Prioritet specificerad för en e-postinkorg
-1. Prioritet specificerad för ett e-postfilter
 1. Standardprioriteter
 
 På grund av denna ordning, kommer ett ärende från en kontakt med hög prioritet att få hög prioritet även om den e-postlåda som personen skickar ärendet till har låg prioritet.

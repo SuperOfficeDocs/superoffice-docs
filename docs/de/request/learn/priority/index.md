@@ -2,9 +2,9 @@
 uid: help-de-request-priority
 title: Anfrageprioritäten
 description: Anfrageprioritäten
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: Anfrage, Priorität
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,10 +32,10 @@ Zum Beispiel: Sie können festlegen, dass die Anfragen einer bestimmten Firma ei
 
 Prioritäten setzen andere Prioritäten in folgender Reihenfolge außer Kraft:
 
+1. Priorität für einen E-Mail-Filter
 1. Priorität für eine Person
 1. Priorität für eine Firma
 1. Priorität für ein E-Mail-Postfach
-1. Priorität für einen E-Mail-Filter
 1. Standardprioritäten
 
 Wegen dieser Reihenfolge wird der Anfrage einer Person mit hoher Priorität auch dann eine hohe Priorität zugeordnet, wenn das Postfach, an das die E-Mail gesendet wird, eine niedrige Priorität hat.

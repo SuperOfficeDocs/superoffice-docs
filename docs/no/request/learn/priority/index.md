@@ -2,9 +2,9 @@
 uid: help-no-request-priority
 title: Saksprioriteter
 description: Saksprioriteter
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: sak, prioritet
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -33,10 +33,10 @@ For eksempel: Du kan angi at saker som kommer fra et bestemt firma, skal ha VIP-
 
 Prioriteter overstyrer hverandre i følgende rekkefølge:
 
+1. Prioritet som er angitt for et e-postfilter
 1. Prioritet som er angitt for person
 1. Prioritet som er angitt for firma
 1. Prioritet som er angitt for e-postkasse
-1. Prioritet som er angitt for et e-postfilter
 1. Standardprioriteter
 
 På grunn av denne rekkefølgen får en henvendelse fra en person med høy prioritet høy prioritet selv om e-postkassen vedkommende sender til, har lav prioritet.
