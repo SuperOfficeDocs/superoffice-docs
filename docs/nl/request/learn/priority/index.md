@@ -2,9 +2,9 @@
 uid: help-nl-request-priority
 title: Verzoekprioriteiten
 description: Verzoekprioriteiten
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: verzoek, prioriteit
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,10 +32,10 @@ Bijvoorbeeld: u kunt instellen dat alle verzoeken van een bepaald bedrijf VIP-pr
 
 Prioriteiten overschrijven andere prioriteiten in deze volgorde:
 
+1. Prioriteit opgegeven voor een e-mailfilter
 1. Prioriteit opgegeven voor een persoon
 1. Prioriteit opgegeven voor een bedrijf
 1. Prioriteit opgegeven voor een postbus
-1. Prioriteit opgegeven voor een e-mailfilter
 1. Standaardprioriteiten
 
 Vanwege deze volgorde, krijgt een verzoek van een persoon met hoge prioriteit een hoge prioriteit, zelfs wanneer de postbus waarnaar de persoon het verzoek verzendt een lage prioriteit heeft.

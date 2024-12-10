@@ -2,9 +2,9 @@
 uid: help-en-request-priority
 title: Request priorities
 description: Request priorities
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: request, priority
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,10 +32,10 @@ For example: You can specify that requests from a specific company should have V
 
 Priorities override other priorities in this order:
 
+1. Priority specified for an email filter
 1. Priority specified for a contact
 1. Priority specified for a company
 1. Priority specified for an email box
-1. Priority specified for an email filter
 1. Standard priorities
 
 Because of this order, a request from a contact with high priority gets a high priority even though the mailbox the person sends it to has a low priority.

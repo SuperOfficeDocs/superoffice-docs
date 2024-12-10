@@ -2,9 +2,9 @@
 uid: help-da-request-priority
 title: Sagsprioriteter
 description: Sagsprioriteter
-author: Hanne Gunnarsson
-date: 03.29.2023
 keywords: sag, prioritet
+author: Hanne Gunnarsson
+date: 12.10.2024
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,10 +32,10 @@ For eksempel: Du kan angive, at sager fra et bestemt firma skal have VIP-priorit
 
 Prioriteter tilsidesætter andre prioriteter i denne rækkefølge:
 
+1. Prioritet angivet for et e-mail-filter
 1. Prioritet angivet for en person
 1. Prioritet angivet for et firma
 1. Prioritet angivet for et e-mail-felt
-1. Prioritet angivet for et e-mail-filter
 1. Standardprioriteter
 
 På grund af denne rækkefølge vil en sag fra en person med høj prioritet få høj prioritet, selvom den e-mail-konto, som vedkommende sender til, har lav prioritet.
