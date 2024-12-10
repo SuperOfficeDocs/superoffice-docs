@@ -2,10 +2,10 @@
 uid: help-en-video-meetings-tab
 title: Video meetings
 description: Video meetings
+keywords: Video meetings
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
-topic: help
+date: 12.10.2024
+topic: howto
 language: en
 ---
 
@@ -29,7 +29,7 @@ For the users to be able to use video meetings in the Follow-up dialog, there ar
 * You need a video provider account, for example, Zoom Pro;
 * To be able to send and receive email invitations to video meetings (to/from external users), you must have configured your email setup in SuperOffice CRM (user client) or use SuperOffice Mail Link.
 
-Each video provider has its own requirements to connect their services to SuperOffice CRM.
+Each video provider has its own requirements to connect their services to SuperOffice CRM. For example, video meetings with Microsoft Teams require a subscription to Microsoft 365 for business, not for home. The latter category includes Personal and Family.
 
 ## Related topics
 

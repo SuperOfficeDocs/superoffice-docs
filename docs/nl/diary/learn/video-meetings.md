@@ -2,10 +2,10 @@
 uid: help-nl-video-meetings
 title: Werken met videovergaderingen
 description: Lees hier hoe u een videovergadering in SuperOffice kunt maken en eraan kunt deelnemen.
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: agenda, vervolgactiviteit, videovergadering
+author: SuperOffice RnD
+date: 12.10.2024
+version: 10.2.11
 topic: howto
 language: nl
 ---
@@ -20,7 +20,7 @@ Met SuperOffice-videovergaderingen kunt u rechtstreeks vanuit uw agenda videover
 ## Beschikbare aanbieders van videoconferenties
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (vereist Microsoft 365 voor bedrijven)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (gratis te gebruiken, geen abonnement nodig)

@@ -2,10 +2,10 @@
 uid: help-da-video-meetings-tab
 title: Videomøder
 description: Videomøder
+keywords: Videomøder
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 12.10.2024
+topic: howto
 language: da
 ---
 
@@ -29,7 +29,7 @@ For at brugerne kan bruge videomøder i dialogboksen Opfølging, er der et par t
 * Du har brug for en videoudbyderkonto, for eksempel Zoom Pro;
 * Hvis du vil kunne sende og modtage e-mailinvitationer til videomøder (til/fra eksterne brugere), skal du have konfigureret din e-mailopsætning i SuperOffice CRM (brugerklient) eller bruge SuperOffice Mail Link.
 
-Hver videoudbyder har sine egne krav til at oprette forbindelse til deres tjenester til SuperOffice CRM.
+Hver videoudbyder har sine egne krav til at oprette forbindelse til deres tjenester til SuperOffice CRM. For eksempel, du skal bruge et Microsoft 365-abonnement til virksomheder. Videomøder med Microsoft Teams understøtter ikke Personlige og Familie-konti.
 
 ## Relaterede emner
 

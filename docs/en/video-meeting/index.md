@@ -1,9 +1,10 @@
 ---
-title: Introduction
 uid: video_meeting_intro
+title: Introduction
 description: Video Meetings for SuperOffice
-author: {github-id}
 keywords: video meeting, template variable
+author: {github-id}
+date: 12.10.2024
 topic: concept
 envir: cloud
 client: online
@@ -25,7 +26,7 @@ client: online
 |---|---|---|
 | Zoom | Zoom Pro | SuperOffice admin |
 | Webex Meetings | Webex account | SuperOffice admin |
-| Microsoft Teams | MS365 account | SuperOffice admin, MS365 admin account |
+| Microsoft Teams | MS365 business account | SuperOffice admin, MS365 admin account |
 | Google Meet | Google account (Gmail or Google Workspace) | SuperOffice admin |
 | Jitsi | | SuperOffice admin |
 

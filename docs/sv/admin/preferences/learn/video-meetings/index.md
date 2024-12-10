@@ -2,10 +2,10 @@
 uid: help-sv-video-meetings-tab
 title: Videomöten
 description: Videomöten
+keywords: Videomöten
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 12.10.2024
+topic: howto
 language: sv
 ---
 
@@ -29,7 +29,7 @@ För att användarna ska kunna använda videomöten i dialogrutan Händelse krä
 * Du behöver ett konto hos en videoleverantör, till exempel Zoom Pro.
 * För att kunna skicka och ta emot e-postinbjudningar till videomöten (till/från externa användare) måste du ha konfigurerat dina e-postinställningar i SuperOffice CRM (användarklient) eller använda SuperOffice Mail Link.
 
-Varje videoleverantör har sina egna krav för att deras tjänster ska kunna anslutas till SuperOffice CRM.
+Varje videoleverantör har sina egna krav för att deras tjänster ska kunna anslutas till SuperOffice CRM. Till exempel, du behöver en Microsoft 365-prenumeration för företag. Videomöten med Microsoft Teams stöder inte Personliga och Familjekonton.
 
 ## Relaterade ämnen
 

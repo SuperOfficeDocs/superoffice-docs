@@ -2,10 +2,10 @@
 uid: help-nl-video-meetings-tab
 title: Videovergaderingen
 description: Videovergaderingen
+keywords: Videovergaderingen
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 12.10.2024
+topic: howto
 language: nl
 ---
 
@@ -29,7 +29,7 @@ Om ervoor te zorgen dat de gebruikers videovergaderingen in het dialoogvenster V
 * U hebt een videoprovideraccount nodig, bijvoorbeeld Zoom Pro;
 * Om e-mailuitnodigingen voor videovergaderingen (naar/van externe gebruikers) te kunnen verzenden en ontvangen, moet u uw e-mailinstellingen hebben geconfigureerd in SuperOffice CRM (gebruikersclient) of SuperOffice Mail Link gebruiken.
 
-Elke videoprovider heeft zijn eigen vereisten om zijn services te verbinden met SuperOffice CRM.
+Elke videoprovider heeft zijn eigen vereisten om zijn services te verbinden met SuperOffice CRM. Bijvoorbeeld, u heeft een Microsoft 365-abonnement voor bedrijven nodig. Videomeetings met Microsoft Teams ondersteunen geen Persoonlijke of Familiale accounts.
 
 ## Verwante onderwerpen
 
