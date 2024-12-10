@@ -4,7 +4,7 @@ title: Tenant management
 description: Tenant management
 keywords: standard app, public app, App Store, custom app, tenant
 author: Bergfrid Dias
-date: 12.09.2024
+date: 12.10.2024
 version_devportal: 1.29
 topic: concept
 envir: cloud
@@ -25,9 +25,9 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 * **Tenant status:** View the [current status of each site][3] to ensure environments are running smoothly.
 
-* **Request consultant access:** For production tenants, request consultant access when necessary.
+* **Request consultant access:** For production tenants, [request consultant access][8] when necessary.
 
-* **Request additional tenants:** Add sandbox tenants for production or create development tenants in SOD environments.
+* **Request additional tenants:** [Add sandbox tenants][5] for production or [create development tenants][5] in SOD environments.
 
 * **Authorization management:** [View, edit, and revoke authorization records][4] related to employees and tenants.
 
@@ -35,7 +35,7 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 * Begin by selecting an environment (SOD, Stage, Production) to view relevant tenant statistics.
 
-* **Tenant insights:** Click on a specific tenant to open the **Tenant Insights** page, which provides a detailed view of the tenant’s information, including licenses, state, and more.
+* **Tenant listing:** Click on a specific tenant to open the **Tenant listing** page, which provides a detailed view of the tenant’s information, including licenses, state, and more.
 
 * **Tenant details:** To access more granular details, select a tenant from the Insights page. Depending on your access rights, you can request authorizations, consultant access, or order a production sandbox.
 
@@ -51,7 +51,7 @@ The **partner page** provides an overview of how many tenants that have authoriz
 
 2. Select **Overview** and locate the **Tenants** section. The table shows the number of tenants per environment (SOD, Stage, Production).
 
-3. Click one of the environments (SOD, Stage, Production) to open the **Tenant insights** page. This page shows the name and ID of *all* tenants in that environment, along with other related information.
+3. Click one of the environments (SOD, Stage, Production) to open the **Tenant listing** page. This page shows the name and ID of *all* tenants in that environment, along with other related information.
 
 4. Optional, switch environments to explore further.
 
@@ -60,6 +60,8 @@ The **partner page** provides an overview of how many tenants that have authoriz
 [2]: info.md#license
 [3]: info.md#state
 [4]: authorization.md
+[5]: get.md
+[8]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=formFrame&formId=F-z9xleEUg
 [9]: ../getting-started/app-envir.md
 
 <!-- Referenced images -->

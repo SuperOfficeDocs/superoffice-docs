@@ -4,7 +4,7 @@ title: Tenant authorization
 description: The Tenant Manager makes it easier to oversee and edit authorization records related to employees and tenants.
 keywords: tenant, authorization, authorize app
 author: Bergfrid Dias
-date: 12.09.2024
+date: 12.10.2024
 version_devportal: 1.29
 topic: concept
 envir: cloud
@@ -13,7 +13,7 @@ client: online
 
 # Tenant authorization
 
-The Tenant Manager makes it easier to oversee and edit authorization records related to employees and tenants. The information is organized per environment (SOD, Stage, Production). We do not yet show you if they are actively using the app.
+The Tenant Manager makes it easier to oversee and update authorization records related to employees and tenants. The information is organized per environment. We do not yet show you if they are actively using the app.
 
 ## Who has authorized this app?
 
@@ -25,10 +25,10 @@ The **app page** shows how many tenants that have authorized one specific applic
 
 2. Select **Overview** and locate the **Tenants** section. The table shows the number of tenants per environment.
 
-3. Click one of the environments (SOD, Stage, Production) to open the **Tenant insights** page. This page will show detailed tenant names and IDs for each environment. To know who authorized the app and when the authorization is valid, you need to select a specific tenant to open the **Tenant details** page.
+3. Click one of the environments (SOD, Stage, Production) to open the **Tenant listing** page. This page will show detailed tenant names and IDs for each environment. To know who authorized the app and when the authorization is valid, you need to select a specific tenant to open the **Tenant details** page.
 
     > [!NOTE]
-    > The tenants listed are filtered to show only those associated with the specific application if you accessed the Tenant insights from the app page.
+    > The tenants listed are filtered to show only those associated with the specific application if you accessed the tenant overview from the app page.
 
 4. Optional, switch environments to explore further.
 
@@ -40,7 +40,7 @@ Apps require [customer consent][3] to access customer data.
 
 1. Navigate to your partner page in the Developer Portal and select **Tenants**.
 
-1. On the **Tenant insights** page, go to the **Production** tab and click **Request Authorization**.
+1. On the **Tenant listing** page, go to the **Production** tab and click **Request Authorization**.
 
 1. Select an application from the list.
 
@@ -56,7 +56,7 @@ Apps require [customer consent][3] to access customer data.
 
 ## Edit tenant authorization
 
-1. Go to the **Tenant insights** page.
+1. Go to the **Tenant listing** page.
 
 1. Select an environment tab (SOD, Stage, Production) and choose the tenant you wish to update.
 
