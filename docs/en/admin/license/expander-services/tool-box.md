@@ -1,9 +1,11 @@
 ---
-title: Development Tools - contents and usage
 uid: expander_services_developer_tools
+title: Development Tools - contents and usage
 description: Development Tools is a subscription-based license part of Expander Services and available to all customers.
-author: {github-id}
 keywords: expander services, development tools
+author: {github-id}
+date: 12.10.2024
+version: 10
 topic: concept
 envir: cloud
 client: online
@@ -46,7 +48,7 @@ If you need access to the SuperOffice APIs or any of the advanced extensibility 
 | Publish standard application | no (embedded) | yes |
 | Activate custom application | yes | yes |
 
-You *don't* need to buy Development Tools to use the standard customization tools available in the **Settings and maintenance** module. You are free to customize your solution using, for example, your definition of lists, privacy settings, templates, sales and project guides, and user-defined fields.
+You are free to customize your solution in **Settings and maintenance** using, for example, your definition of lists, privacy settings, templates, sales and project guides, and user-defined fields.
 
 Furthermore, you *don't* need a Development Tools license if your company runs SuperOffice CRM in the cloud and you want to use any of the [standard applications][6] available in [the SuperOffice App Store][7].
 
