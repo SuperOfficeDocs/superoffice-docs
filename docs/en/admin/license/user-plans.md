@@ -40,13 +40,12 @@ User plans are identified by the `ExtraFlags` field being 1 on their module lice
   * SuperOffice for Outlook 365
   * SuperOffice for Google
 * Search / Selections
-  * Static Selections
+  * Static selections
   * Dynamic selections
   * Selection tasks
   * Send email to (max 500)
 * Reporting and dashboards
   * Dashboards with default charts
-  * Standard reports
   * Print
 
 ## Sales

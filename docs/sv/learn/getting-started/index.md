@@ -37,11 +37,11 @@ Det finns t.ex. en intern kunskapsbas som består av svarsmallar och FAQ-poster.
 
 ### Samma utgångspunkt för många arbetsuppgifter
 
-Med SuperOffice CRM kan du systematisera och förenkla de dagliga arbetsuppgifterna. Utifrån en och samma utgångspunkt kan du skriva brev, skapa rapporter osv.
+Med SuperOffice CRM kan du systematisera och förenkla de dagliga arbetsuppgifterna.
 
 Med kalendern har du en god översikt över arbetsdagen och arbetsveckan. Du kan till exempel boka möten med dina medarbetare och reservera gemensamma resurser, exempelvis konferensrum.
 
-SuperOffice CRM blir din nya assistent som underlättar ditt arbete. Programmet kan hantera alla grundläggande arbetsuppgifter som du behöver utföra varje dag. Viktig och aktuell information är tillgänglig för alla i företaget. Med några få musklick får du tillgång till rapporter, händelser, försäljningsrapporter och marknadskampanjer, och du kan skicka e-postmeddelanden och ta del av information på Internet. Informationsstrukturen kan anpassas efter företagets behov.
+SuperOffice CRM blir din nya assistent som underlättar ditt arbete. Programmet kan hantera alla grundläggande arbetsuppgifter som du behöver utföra varje dag. Viktig och aktuell information är tillgänglig för alla i företaget. Med några få musklick får du tillgång till händelser, försäljningsrapporter och marknadskampanjer, och du kan skicka e-postmeddelanden och ta del av information på Internet. Informationsstrukturen kan anpassas efter företagets behov.
 
 Med SuperOffices mobila lösningar kan du få tillgång till informationen i SuperOffice CRM oavsett om du är på resa, arbetar hemifrån eller arbetar på ett avdelningskontor.
 

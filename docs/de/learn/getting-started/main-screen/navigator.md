@@ -29,7 +29,6 @@ Mit Hilfe des linken Navigators können Sie sich zwischen den Hauptbereichen von
 | ![Symbol][img9] | Öffnet die Ansicht Selektion, in der Sie Firmen, Personen, Projekte, Verkäufe, Dokumente und Folgeaufgaben, mit denen Sie häufig arbeiten, in einer gesonderten Selektion speichern können. Selektionen sind unter anderem nützlich für Kampagnen. | [Selektion][7] |
 | ![Symbol][img10] | Öffnet Ihren **Posteingang**, in der Sie eingehende Nachrichten lesen und beantworten können.| [Posteingang/E-Mail][8] |
 | ![Symbol][img11] | Öffnet die Ansicht **Chat**, in der Sie Anfragen beantworten können, die über die Chat-Funktion auf der Webseite Ihrer Firma gesendet wurden. | [Chat][9] |
-| ![Symbol][img12] | Öffnet die Ansicht **Berichte**. In diesem Berichtsgenerator finden Sie eine Reihe von Standardberichten, die Sie zum Drucken von Berichten auf der Basis von SuperOffice CRM-Daten verwenden können. | [Berichte][10] |
 | ![Symbol][img13] | Öffnet die Ansicht **Marketing**. Hier können Sie Kampagnen (E-Mails, SMS und Dokumente) erstellen und versenden sowie Formulare erstellen und veröffentlichen. | [Marketing][11] |
 | ![Symbol][img14] | Öffnet **Service** (Legacy) | |
 | ![Symbol][img15] | Öffnet ein Menü, über das Sie auf externe Anwendungen und Websites zugreifen können. Die verfügbaren Objekte sind in Einstellungen und Verwaltung definiert. | |
@@ -50,7 +49,7 @@ Mit Hilfe des linken Navigators können Sie sich zwischen den Hauptbereichen von
 | ![Symbol][img51] | **Ansichtsdesigner**: öffnet die Ansicht mit dem Ansichtsdesigner, wo Sie benutzerdefinierte Ansichtslayouts für bestimmte Benutzergruppen erstellen können. | [Ansichtsdesigner][24] |
 | ![Symbol][img52] | **Einstellungen**: wechselt zur Ansicht Einstellungen, in der Sie eine Reihe von Einstellungen für verschiedene Komponenten von SuperOffice CRM festlegen können, z. B. die Anzahl der Elemente, die in der Verlaufsliste angezeigt werden sollen, den Standardtyp für neue Aktivitäten usw. Hier können Sie zudem [Videokonferenzen][42] und die [Dokumentbibliothek][43] konfigurieren. | [Voreinstellungen][25] |
 | ![Symbol][img41] | **Chat**: wechselt zur Ansicht Chat, in der Sie Chat-Kanäle erstellen und die Chat-Funktion konfigurieren können. | [Chat][2] |
-| ![Symbol][img53] | **Optionen**: Öffnet die Ansicht Optionen, in der Sie systemweite Einstellungen festlegen können. Zum Beispiel Einstellungen für Volltextsuche, Zeitzonen, Nummernvergabe, Labels und Berichte. | [Optionen][26] |
+| ![Symbol][img53] | **Optionen**: Öffnet die Ansicht Optionen, in der Sie systemweite Einstellungen festlegen können. Zum Beispiel Einstellungen für Volltextsuche, Zeitzonen, Nummernvergabe und Labels. | [Optionen][26] |
 | ![Symbol][img54] | **Import**: wechselt zur Ansicht Import, in der Sie Daten in die SuperOffice-Datenbank importieren können. | [Import][27] |
 | ![Symbol][img55] | **Felder**: wechselt zur Ansicht Felder, in der Sie benutzerdefinierte Felder für SuperOffice CRM festlegen können. | [Felder][28] |
 | ![Symbol][img56] | **CRMScript**: wechselt zur Ansicht mit verschiedenen Scripting- und Automatisierungsfunktionen wie Makros, Event Handler und geplante Aufgaben. | [CRMScript][41] |
@@ -87,7 +86,6 @@ Wenn Sie mit dem Mauszeiger auf einen Datensatz in einer der Listen zeigen, wird
 [7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
-[10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [34]: ../../../request/learn/index.md
@@ -122,7 +120,6 @@ Wenn Sie mit dem Mauszeiger auf einen Datensatz in einer der Listen zeigen, wird
 [img9]: ../../../../../common/icons/nav-selection-h32.png
 [img10]: ../../../../../common/icons/nav-inbox-h32.png
 [img11]: ../../../../../common/icons/nav-chat-h32.png
-[img12]: ../../../../../common/icons/nav-reports-h32.png
 [img13]: ../../../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../../../common/icons/nav-cs-h32.png
 [img15]: ../../../../../common/icons/nav-tools-h32.png

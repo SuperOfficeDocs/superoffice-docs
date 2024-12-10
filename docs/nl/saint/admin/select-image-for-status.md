@@ -22,7 +22,7 @@ Het toevoegen van een afbeelding is handig omdat het de aandacht trekt en u elke
 
 ## Is het gebruik van een afbeelding verplicht?
 
-Nee. Als u simpelweg rapporten wilt maken of statuscontroles wilt gebruiken om bedrijven, personen of projecten te zoeken die aan de statuscriteria voldoen of om selecties van dergelijke bedrijven, personen of projecten te maken, hoeft u geen afbeelding aan de statussen toe te wijzen.
+Nee. Als u simpelweg statuscontroles wilt gebruiken om bedrijven, personen of projecten te zoeken die aan de statuscriteria voldoen of om selecties van dergelijke bedrijven, personen of projecten te maken, hoeft u geen afbeelding aan de statussen toe te wijzen.
 
 ## Welk type afbeeldingen kan ik gebruiken?
 

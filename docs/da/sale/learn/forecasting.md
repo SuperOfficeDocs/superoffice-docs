@@ -1,10 +1,11 @@
 ---
 uid: help-da-sale-forecasting
-title: "Overvåg din pipeline, og forudsig salg"
-description: "Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards, udvalg og rapporter."
-author: Bergfrid Dias
-date: 02.16.2023
+title: Overvåg din pipeline, og forudsig salg
+description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards og udvalg.
 keywords: salg
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 language: da
 ---
@@ -40,24 +41,6 @@ Ruden **Mit aktivitetstempo** gør det muligt for dig at se dine aktiviteter sor
 Ruden **Salg indtil nu i år sammenlignet med sidste år for min gruppe** er en fantastisk måde at holde øje med, om dit teams salg vokser.
 
 ![Eksempel på Salg indtil nu i år sammenlignet med sidste år for min gruppe -screenshot][img5]
-
-## Brug rapporter til at forudsige salg
-
-[SuperOffice Rapporter][3] er foruddefinerede statistiske rapporter, som er baseret på dine CRM-data, der giver dig øjeblikkelig indsigt i status for dine gældende salg. [Rapporter bruger foruddefinerede kriterier][4] til at beregne resultater og derefter præsentere dem i en pdf-fil, der er nem at formatere.
-
-Der er mange standardrapporter at vælge imellem – som Reelle salg, Forventede salg og Salg med fortjeneste. Hver rapport giver dig en hurtig prognose baseret på den registrerede information i dit SuperOffice CRM.
-
-![Tre trin til at få adgang til dine rapporter i Salg -screenshot][img6]
-
-### Trin
-
-1. Åbn Rapporter, og vælg fanen **Salg** øverst.
-
-1. Du kan nu vælge de rapporter, du vil bruge. Vælg på listen over rapporter.
-
-1. Du kan nemt ændre de kriterier, din rapport skal baseres på, for eksempel tidsrammen. Men kontrollér, om du kan bruge de foruddefinerede kriterier, som de er. Dobbeltklik på de kriterier, du vil ændre, og juster værdien ved at ændre datoen til for eksempel næste måned. Du kan fjerne kriterierne ved at klikke på knappen Slet.
-
-1. Tryk på Forhåndsvisning for at åbne din rapport som en downloadet pdf, eller tryk på Gem for at gemme din rapport i SuperOffice CRM. Dobbeltklik på rapporten for at åbne den.
 
 ## Brug udvalg til at forudsige salg
 
@@ -101,8 +84,6 @@ Du har nu oprettet en liste med alle åbne salg til en værdi af over € 5000 f
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../dashboard/learn/index.md
-[3]: ../../reports/learn/index.md
-[4]: ../../reports/learn/search-criteria/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
@@ -113,7 +94,6 @@ Du har nu oprettet en liste med alle åbne salg til en værdi af over € 5000 f
 [img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
 [img4]: ../../../media/loc/en/sale/my-activity-pace.png
 [img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img6]: ../../../media/loc/en/sale/sales-report.png
 [img7]: ../../../media/loc/en/sale/typical-search.png
 [img8]: ../../../media/loc/en/sale/find-screen.png
 [img9]: ../../../media/loc/en/sale/add-search-criteria.png

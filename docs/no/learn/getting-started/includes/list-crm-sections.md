@@ -10,7 +10,6 @@
 * [Utvalg][14]
 * [Innboks][15]
 * [Chat][16]
-* [Rapporter][17]
 * [Markedsføring][18]
 
 <!-- Referenced links -->
@@ -24,6 +23,5 @@
 [14]: ../../../search-options/selection/learn/index.md
 [15]: ../../../email/learn/index.md
 [16]: ../../../chat/learn/index.md
-[17]: ../../../reports/learn/index.md
 [18]: ../../../marketing/learn/index.md
 [45]: ../../../request/learn/index.md

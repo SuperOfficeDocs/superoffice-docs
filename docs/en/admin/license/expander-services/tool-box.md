@@ -83,7 +83,7 @@ Some of the default tables are flexible: you can define what type of data and pr
 If you need more tables, you can add extra tables to the database when you subscribe to [Development Tools][3].
 
 * Users with a SuperOffice Service [user plan][4] have full access to these tables and can view, edit, search, and include in data reports.
-* Users with a Standard, Sales, or Marketing user plan can access extra tables via web panels (additional tabs). These users can only view and edit information. They can't search (or define selections) extra tables, and the data can't be included in reports or dashboards.
+* Users with a Standard, Sales, or Marketing user plan can access extra tables via web panels (additional tabs). These users can only view and edit information. They can't search (or define selections) extra tables, and the data can't be included in dashboards.
 
 To add extra tables requires technical knowledge. Usually, extra tables are used in combination with custom screens.
 

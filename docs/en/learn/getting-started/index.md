@@ -37,11 +37,11 @@ For example, there is an internal knowledge base consisting of reply templates a
 
 ### The same starting point for many tasks
 
-SuperOffice CRM systematizes and simplifies your daily office routines and tasks. From the same screen, it is easy to print letters and create reports.
+SuperOffice CRM systematizes and simplifies your daily office routines and tasks.
 
 Using the diary, you always have complete control over your working day and week. You can schedule activities with your colleagues and reserve common resources such as conference rooms.
 
-SuperOffice CRM is your new personal assistant, as it combines all the fundamental tasks you perform on a daily basis. Important and updated information is available to everyone in the company. With just a few clicks of the mouse you have access to reports, meetings, sales reports and marketing campaigns, and you can send email and read information on the Internet. The information structure can easily be adjusted to your company's needs.
+SuperOffice CRM is your new personal assistant, as it combines all the fundamental tasks you perform on a daily basis. Important and updated information is available to everyone in the company. With just a few clicks of the mouse you have access to meetings, sales reports, and marketing campaigns, and you can send email and read information on the Internet. The information structure can easily be adjusted to your company's needs.
 
 With the help of the SuperOffice mobile solutions, you can gain access to the information in SuperOffice CRM regardless of you are on a business trip, working from home, or at a branch office.
 

@@ -119,12 +119,10 @@ Klik op ![pictogram][img2] en **Opnieuw instellen** om het filter te herstellen.
 
 * [Lijsten groeperen][1]
 * [De lijst met selectieleden filteren][2]
-* [Documenten filteren in het scherm Rapporten][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

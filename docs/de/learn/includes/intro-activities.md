@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-Es gibt verschiedene Typen von [Aktivitäten][2]: (einschließlich Berichte und E-Mails), Folgeaufgabe, Kampagnen, Formularübermittlungen und Chat-Aufzeichnungen.
+Es gibt verschiedene Typen von [Aktivitäten][2]: Folgeaufgabe, E-Mails, Kampagnen, Formularübermittlungen und Chat-Aufzeichnungen.
 
 Diese werden mit der Schaltfläche **Neu** in der [oberen Leiste][1] oder in anderen SuperOffice-Produkten wie Marketing oder Chat erstellt.
 

@@ -4,8 +4,8 @@ title: Navigation points (where)
 description: SoProtocol navigation points
 keywords: soprotocol, deeplinking
 author: Michel Krohn-Dale
-date: 09.07.2024
-version: 10.3.8
+date: 12.10.2024
+version: 10.3.13
 topic: reference
 client: web
 ---
@@ -23,7 +23,6 @@ Entity-specific navigation points are used to navigate to a specific entity in t
 | Inbox | newinbox | main | - |
 | Marketing | emarketing | mailings, mmlisttemplates, mmlistlinks, mmlistimages, mmlistbounces, mmlistforms, mmlistformtemplates, mmlistformsubmissions | - |
 | Project | project | main, udef, info, image, links | guide, projectmembersarchive, activityarchive, salearchive, ticketarchive |
-| Reports | report | reporterfavorites, reportercontact, reporterproject, reportersale, reporteractivity | reportarchive |
 | Requests | ticket | main, findticket | - |
 | Sale | sale | main, details, udef, links, info | guide, quote, saleactivityarchive, stakeholderarchive, ticketarchive |
 | Selection | selectionsearch | main, findpane, detailspane, newchartspane, selmailingspane, webpanelpane | - |

@@ -1,10 +1,11 @@
 ---
 uid: help-de-sale-forecasting
 title: Pipeline überwachen und Umsatz prognostizieren
-description: "Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards, Selektionen und Berichten prognostiziert."
-author: Bergfrid Dias
-date: 02.16.2023
+description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards und Selektionen prognostiziert.
 keywords: Verkauf
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 language: de
 ---
@@ -40,24 +41,6 @@ Auf der Kachel **Mein Aktivitätstempo** können Sie Ihre Aktivitäten sortiert 
 Die Kachel **Verkäufe seit Jahresbeginn verglichen mit letztem Jahr für meine Gruppe** ist eine großartige Möglichkeit, um im Auge zu behalten, ob die Verkäufe Ihrer Teams steigen.
 
 ![Beispiel für die Kachel Verkäufe seit Jahresbeginn verglichen mit letztem Jahr für meine Gruppe -screenshot][img5]
-
-## Berichte zum Prognostizieren von Verkäufen verwenden
-
-[SuperOffice Berichte][3] sind vordefinierte statistische Berichte auf der Basis Ihrer CRM-Daten, die Ihnen sofortige Einblicke in den Stand Ihrer aktuellen Verkäufe geben. [Berichte verwenden vordefinierte Kriterien][4] um die Ergebnisse zu berechnen und sie dann in einer einfach formatierbaren PDF-Datei zu präsentieren.
-
-Es stehen viele Standardberichte zur Auswahl – wie Aktuelle Verkäufe, Prognostizierte Verkäufe und Verkäufe mit Gewinn. Jeder Bericht gibt Ihnen eine schnelle Prognose, die auf den in Ihrem SuperOffice CRM registrierten Informationen basiert.
-
-![Drei Schritte für den Zugriff auf Ihre Berichte in Verkäufe -screenshot][img6]
-
-### Schritte
-
-1. Öffnen Sie Berichte und wählen Sie oben die Registerkarte **Verkäufe** aus.
-
-1. Sie können jetzt die Berichte auswählen, die Sie verwenden möchten. Treffen Sie Ihre Wahl aus der Berichtsliste.
-
-1. Sie können die Kriterien, auf denen Ihr Bericht basiert, wie den Zeitrahmen, leicht ändern. Prüfen Sie jedoch, ob Sie die vordefinierten Kriterien so verwenden können, wie sie sind. Doppelklicken Sie auf die zu ändernden Kriterien und passen Sie den Wert an, indem Sie zum Beispiel das Datum auf den nächsten Monat ändern. Sie können die Kriterien entfernen, indem Sie auf die Schaltfläche Löschen klicken.
-
-1. Klicken Sie auf Vorschau, um Ihren Bericht als heruntergeladene PDF-Datei zu öffnen, oder auf Speichern, um Ihren Bericht in SuperOffice CRM zu speichern. Doppelklicken Sie auf den Bericht, um ihn zu öffnen.
 
 ## Verwenden Sie Selektionen, um Verkäufe zu prognostizieren
 
@@ -101,8 +84,6 @@ Sie haben nun eine Liste mit allen offenen Verkäufen im Wert von über 5000 €
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../dashboard/learn/index.md
-[3]: ../../reports/learn/index.md
-[4]: ../../reports/learn/search-criteria/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
@@ -113,7 +94,6 @@ Sie haben nun eine Liste mit allen offenen Verkäufen im Wert von über 5000 €
 [img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
 [img4]: ../../../media/loc/en/sale/my-activity-pace.png
 [img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img6]: ../../../media/loc/en/sale/sales-report.png
 [img7]: ../../../media/loc/en/sale/typical-search.png
 [img8]: ../../../media/loc/en/sale/find-screen.png
 [img9]: ../../../media/loc/en/sale/add-search-criteria.png

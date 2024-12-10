@@ -29,7 +29,6 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img9] | Opens the Selection screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
 | ![icon][img10] | Opens your **inbox**, where you can read and reply to incoming messages.| [Inbox/Email][8] |
 | ![icon][img11] | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
-| ![icon][img12] | Opens the **Reports** screen. In this report generator you will find a set of standard reports, which you can use to print reports based on data from SuperOffice CRM. | [Reports][10] |
 | ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
 | ![icon][img14] | Opens **Service** (legacy) | |
 | ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
@@ -50,7 +49,7 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
 | ![icon][img52] | **Preferences**: opens the Preferences screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
 | ![icon][img41] | **Chat**: opens the Chat screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the Options screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, labels and reports. | [Options][26] |
+| ![icon][img53] | **Options**: opens the Options screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, and labels. | [Options][26] |
 | ![icon][img54] | **Import**: opens the Import screen, where you can import data into the SuperOffice database. | [Import][27] |
 | ![icon][img55] | **Fields**: opens the Fields screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
 | ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
@@ -87,7 +86,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
-[10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [34]: ../../../request/learn/index.md
@@ -122,7 +120,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img9]: ../../../../../common/icons/nav-selection-h32.png
 [img10]: ../../../../../common/icons/nav-inbox-h32.png
 [img11]: ../../../../../common/icons/nav-chat-h32.png
-[img12]: ../../../../../common/icons/nav-reports-h32.png
 [img13]: ../../../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../../../common/icons/nav-cs-h32.png
 [img15]: ../../../../../common/icons/nav-tools-h32.png

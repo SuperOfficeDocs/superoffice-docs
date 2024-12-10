@@ -54,7 +54,7 @@ Indtast navnet på det salg (hvis der er et), som dokumentet er knyttet til. Du 
 
 ### Skriv overskriften her
 
-Indtast den tekst, der skal bruges som overskrift til dokumentet (den tekst, der vises under sektionsfaner og rapporter, hvor dokumentet er angivet).
+Indtast den tekst, der skal bruges som overskrift til dokumentet.
 
 ### Sprog
 

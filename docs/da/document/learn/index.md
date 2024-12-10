@@ -29,7 +29,7 @@ Du kan åbne et dokument i [redigeringstilstand eller læsetilstand][7]. Når du
 |:-:|---|---|
 | ![icon][img11] | Sprog | En liste over tilgængelige oversættelser af skabelonen. "Standard" hvis ikke oversat. |
 | ![icon][img4] | Dato | Dagens dato (standard). Klik på pilen ved siden af **Dato**-feltet for at åbne en månedlig kalender, hvor du kan vælge den ønskede dato. |
-| ![icon][img3] | Emne | Overskriften på dokumentet (teksten, der vises i sektionsfaner og rapporter, hvor dokumentet er anført). |
+| ![icon][img3] | Emne | Overskriften på dokumentet. |
 | ![icon][img2] | Skabelon | En liste over tilgængelige [dokumentskabeloner][11] såsom Brev eller Tilbud. |
 | ![icon][img7], ![icon][img8] | Firma / kontakt | Hvem dokumentet vedrører. |
 | ![icon][img5] | Salg | Et salg, der er knyttet til dokumentet. |

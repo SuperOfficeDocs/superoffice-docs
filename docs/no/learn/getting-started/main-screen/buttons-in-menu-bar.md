@@ -64,7 +64,7 @@ Elementene øverst på skjermen varierer litt mellom SuperOffice CRM, Service og
 | Alternativ | Beskrivelse |
 |---|---|
 | Andre applikasjoner | Brukes til å få tilgang til [andre programmer eller koblinger][1] som er lagt til i SuperOffice CRM. I de fleste tilfellene er disse applikasjonene også tilgjengelige fra **Verktøy**-knappen i navigatoren. |
-| Last ned | Åpner en visning av tilgjengelige nedlastinger fra SuperOffice, for eksempel SuperOffice WebTools eller CrossTable visningsprogram for rapporter. |
+| Last ned | Åpner en visning av tilgjengelige nedlastinger fra SuperOffice, for eksempel SuperOffice WebTools. |
 | SuperOffice App Store | Åpner SuperOffice App Store, der du kan utforske standardapper og integrasjoner som kan utvide SuperOffice CRM Online. |
 | Kopier snarvei | [Opprett snarveier til oppføringer][15] |
 | Duplikatinnstillinger | Brukes til å redigere [Duplikatinnstillinger][8] for firmaer, prosjekter og utvalg. |

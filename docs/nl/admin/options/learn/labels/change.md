@@ -2,12 +2,13 @@
 uid: help-nl-label-change
 title: Labels wijzigen
 description: Labels wijzigen
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: label
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-topic: howto
 language: nl
 ---
 
@@ -16,9 +17,6 @@ language: nl
 Het is mogelijk om van diverse velden in SuperOffice e naam te wijzigen en het programma aan te passen aan de behoeften binnen uw bedrijf.
 
 U kunt dit labels wijzigen in alle beschikbare talen in SuperOffice. U kunt bijvoorbeeld beslissen dat alle velden *Bedrijf* de naam *Organisatie* moeten krijgen.
-
-> [!NOTE]
-> deze wijzigingen gelden alleen voor SuperOffice CRM en dus niet voor bijvoorbeeld rapporten of labels in Reporter Studio.
 
 [!include[Go to Options](../includes/open-options.md)]
 

@@ -2,9 +2,10 @@
 uid: help-no-role-set-data-rights
 title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -60,10 +61,6 @@ Du kan angi rettigheter for [dataobjekter][2] basert på hvem som eier objektet.
 ## Hvordan viser jeg dataobjekter for eksterne brukere?
 
 Hvis dataobjekter (firmaer, prosjekter, dokumenter og så videre) skal gjøres tilgjengelige for eksterne brukere (Audience-brukere), holder det ikke bare å gi de eksterne brukerne lesetilgang eller høyere tilgang. Dataobjektene må i tillegg publiseres i SuperOffice.
-
-## Rettigheter til rapporter
-
-Alle SuperOffice CRM-brukere har tilgang til Rapporter-bildet, men hvilke individuelle rapporter du har tilgang til å lage, avhenger av hvilke rettigheter du har til oppfølginger, dokumenter, salg og sjekkliste. Dette betyr i praksis at du ikke kan generere rapporter med innhold du ikke har tilgang til å se.
 
 ## Relatert
 

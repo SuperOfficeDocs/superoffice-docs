@@ -22,7 +22,7 @@ Adding an image is a good idea as it draws attention and prompts you to take act
 
 ## Is it a requirement to have an image?
 
-No. If you just want to create reports or use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
+No. If you just want to use status monitors to search for and create selections of companies, contacts or projects that fulfil the status criteria, you do not need to assign an image to the statuses.
 
 ## What sort of images can I use?
 

@@ -54,7 +54,7 @@ Geben Sie den Namen des Verkaufs ein (sofern vorhanden), mit dem das Dokument ve
 
 ### Betreff hier eingeben
 
-Geben Sie den Text ein, der als Überschrift für das Dokument verwendet werden soll (der Text, der in Bereichsregisterkarten und Berichten angezeigt wird, in denen das Dokument aufgeführt ist).
+Geben Sie den Text ein, der als Überschrift für das Dokument verwendet werden soll.
 
 ### Sprache
 

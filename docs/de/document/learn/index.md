@@ -29,7 +29,7 @@ Sie können Dokumente im [Bearbeitungs- oder im Lesemodus][7] öffnen. Wenn Sie 
 |:-:|---|---|
 | ![icon][img11] | Sprache | Eine Liste der verfügbaren Übersetzungen der Vorlage. "Standard", wenn nicht übersetzt. |
 | ![icon][img4] | Datum | Heutiges Datum (Standard). Klicken Sie auf den Pfeil neben dem **Datum**-Feld, um einen Monatskalender zu öffnen, in dem Sie das gewünschte Datum auswählen können. |
-| ![icon][img3] | Betreff | Die Überschrift des Dokuments (der Text, der in Bereichsregisterkarten und Berichten angezeigt wird, in denen das Dokument aufgeführt ist). |
+| ![icon][img3] | Betreff | Die Überschrift des Dokuments. |
 | ![icon][img2] | Vorlage | Eine Liste der verfügbaren [Dokumentvorlagen][11] wie Brief oder Angebot. |
 | ![icon][img7], ![icon][img8] | Firma / Kontakt | Um wen es sich bei dem Dokument handelt. |
 | ![icon][img5] | Verkauf | Ein Verkauf, der mit dem Dokument verknüpft ist. |

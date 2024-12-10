@@ -119,12 +119,10 @@ Klik på ![ikon][img2] og **Nulstil** for at nulstille filteret.
 
 * [Gruppering af lister][1]
 * [Filtrer liste over udvalgsmedlemmer][2]
-* [Filtre dokumenter i skærmbilledet Rapporter][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

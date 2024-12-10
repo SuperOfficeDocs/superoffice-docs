@@ -2,12 +2,13 @@
 uid: help-no-label-change
 title: Endre ledetekster
 description: Endre ledetekster
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: ledetekst
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-topic: howto
 language: no
 ---
 
@@ -16,9 +17,6 @@ language: no
 SuperOffice inneholder flere felt som du kan endre navn på for å tilpasse programmet til organisasjonens eget behov.
 
 Du kan endre ledetekster på alle tilgjengelige språk i SuperOffice. Du kan for eksempel bestemme at alle *Firma*-feltene i stedet skal hete *Bedrift*.
-
-> [!NOTE]
-> Denne typen endringer gjelder kun SuperOffice CRM, og ikke for eksempel rapporter eller ledetekster i Reporter Studio.
 
 [!include[Go to Options](../includes/open-options.md)]
 

@@ -64,7 +64,7 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 | Option | Beschreibung |
 |---|---|
 | Andere Anwendungen | Wird verwendet, um auf [andere Anwendungen oder Links][1] zuzugreifen, die zu SuperOffice CRM hinzugefügt wurden. In den meisten Fällen sind diese Anwendungen auch von der Schaltfläche **Tools** aus im Navigator verfügbar. |
-| Download | Öffnet eine Ansicht von verfügbaren Downloads von SuperOffice, wie SuperOffice WebTools oder den CrossTable Viewer für Berichte. |
+| Download | Öffnet eine Ansicht von verfügbaren Downloads von SuperOffice, wie SuperOffice WebTools. |
 | SuperOffice App Store | Öffnet den SuperOffice App Store, wo Sie Informationen über Standard-Apps und Integrationen für die Erweiterung von SuperOffice CRM Online durchstöbern können. |
 | Shortcut kopieren | [Shortcuts zu Einträgen erstellen][15] |
 | Duplikateinstellungen | Wird verwendet, um die [Duplikateinstellungen][8] für Firmen, Projekte und Selektionen zu bearbeiten. |

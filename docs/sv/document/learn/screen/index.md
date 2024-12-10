@@ -54,7 +54,7 @@ Skriv in namnet på den försäljning som dokumentet är kopplat till (i föreko
 
 ### Skriv rubriken här
 
-Skriv in den text som ska användas som rubrik i dokumentet (den text som visas i detaljkort och rapporter där dokumentet finns med).
+Skriv in den text som ska användas som rubrik i dokumentet.
 
 ### Språk
 

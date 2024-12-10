@@ -29,7 +29,7 @@ Du kan åpne et dokument i [redigeringsmodus eller i lesemodus][7]. Når du åpn
 |:-:|---|---|
 | ![icon][img11] | Språk | En liste over tilgjengelige oversettelser av malen. "Standard" hvis ikke oversatt. |
 | ![icon][img4] | Dato | Dagens dato (standard). Klikk på pilen ved siden av **Dato**-feltet for å åpne en månedlig kalender hvor du kan velge ønsket dato. |
-| ![icon][img3] | Emne | Overskriften på dokumentet (teksten som vises i seksjonsfaner og rapporter hvor dokumentet er oppført). |
+| ![icon][img3] | Emne | Overskriften på dokumentet. |
 | ![icon][img2] | Mal | En liste over tilgjengelige [dokumentmaler][11] som Brev eller Tilbud. |
 | ![icon][img7], ![icon][img8] | Firma / kontakt | Hvem dokumentet angår. |
 | ![icon][img5] | Salg | Et salg knyttet til dokumentet. |

@@ -45,9 +45,6 @@ items:
   - name: Chat
     href: ../chat/learn/toc.yml
     topicHref: ../chat/learn/index.md
-  - name: Berichte
-    href: ../reports/learn/toc.yml
-    topicHref: ../reports/learn/index.md
   - name: Marketing
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
