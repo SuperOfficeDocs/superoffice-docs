@@ -2,10 +2,10 @@
 uid: help-de-video-meetings
 title: Mit Videokonferenzen arbeiten
 description: Lernen Sie hier, wie Sie eine Videokonferenz in SuperOffice erstellen und daran teilnehmen können.
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung
+author: SuperOffice RnD
+date: 12.10.2024
+version: 10.2.11
 topic: howto
 language: de
 ---
@@ -20,7 +20,7 @@ Mit SuperOffice-Videokonferenzen können Sie Videokonferenzen direkt von Ihrem K
 ## Verfügbare Videokonferenzanbieter
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (erfordert Microsoft 365 für Unternehmen)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (kostenlos, kein Abonnement erforderlich)

@@ -2,10 +2,10 @@
 uid: help-no-video-meetings
 title: Arbeide med videomøter
 description: Lær hvordan du oppretter og blir med i et videomøte i SuperOffice her.
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: dagbok, oppfølging, videomøte
+author: SuperOffice RnD
+date: 12.10.2024
+version: 10.2.11
 topic: howto
 language: no
 ---
@@ -20,7 +20,7 @@ SuperOffice-videomøtene lar deg planlegge og opprette videomøter direkte fra d
 ## Tilgjengelige leverandører av videokonferanser
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (krever Microsoft 365 for bedrifter)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (gratis å bruke, ingen abonnement nødvendig)

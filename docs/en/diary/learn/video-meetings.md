@@ -3,7 +3,7 @@ uid: help-en-video-meetings
 title: Work with video meetings
 description: Learn how to create and join a video meeting in SuperOffice here.
 author: SuperOffice RnD
-date: 12.12.2023
+date: 12.10.2024
 version: 10.2.11
 keywords: diary, follow-up, video meeting
 topic: howto
@@ -20,7 +20,7 @@ The SuperOffice video meetings allow you to schedule and create video meetings d
 ## Available video conferencing providers
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (requires Microsoft 365 for business)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (free to use, no subscription needed)

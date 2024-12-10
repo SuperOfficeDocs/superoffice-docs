@@ -1,9 +1,9 @@
 ---
-title: Video Meetings for SuperOffice - Microsoft Teams
 uid: video_meetings_msteams
+title: Video Meetings for SuperOffice - Microsoft Teams
 description: Getting started with Video Meetings for SuperOffice - Microsoft Teams
-date: 01.15.2024
 keywords: video meeting, Microsoft Teams
+date: 12.10.2024
 topic: howto
 envir: cloud
 client: online
@@ -18,7 +18,7 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 * You need a SuperOffice admin account during setup
 * MS Teams activated / access for your Microsoft 365 subscription
 * You need a Microsoft 365 admin account to grant access during setup
-* Microsoft 365 account
+* Microsoft 365 for business account
 
 > [!NOTE]
 > If you try to authenticate without a Microsoft 365 Admin account, a message will tell you to log in with an admin account:
@@ -50,6 +50,9 @@ This article describes how to connect, configure, use and disconnect Microsoft T
 6. Return to the SuperOffice **Video meetings** tab and verify that the configuration is active.
 
 ## How to use Video Meetings
+
+> [!NOTE]
+> You need a Microsoft 365 **for business** subscription. Video meetings with Microsoft Teams does not support Personal and Family accounts.
 
 ### Create a video meeting
 

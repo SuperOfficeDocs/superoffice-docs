@@ -2,10 +2,10 @@
 uid: help-da-video-meetings
 title: Arbejde med videomøder
 description: Lær, hvordan du opretter og deltager i et videomøde i SuperOffice her.
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: dagbog, opfølgning, videomøde
+author: SuperOffice RnD
+date: 12.10.2024
+version: 10.2.11
 topic: howto
 language: da
 ---
@@ -20,7 +20,7 @@ SuperOffice-videomøder giver dig mulighed for at planlægge og oprette videomø
 ## Tilgængelige udbydere af videokonferencer
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (kræver Microsoft 365 til virksomheder)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (gratis at bruge, intet abonnement nødvendigt)

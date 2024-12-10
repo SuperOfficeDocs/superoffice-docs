@@ -2,10 +2,10 @@
 uid: help-sv-video-meetings
 title: Arbeta med videomöten
 description: Lär dig hur du skapar och deltar i videomöten i SuperOffice här.
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: kalender, händelse, videomöte
+author: SuperOffice RnD
+date: 12.10.2024
+version: 10.2.11
 topic: howto
 language: sv
 ---
@@ -20,7 +20,7 @@ Med videomöten i SuperOffice kan du boka och skapa videomöten direkt från din
 ## Tillgängliga videokonferenssystem
 
 * Zoom
-* Microsoft Teams
+* Microsoft Teams (kräver Microsoft 365 för företag)
 * Google Meet
 * Cisco WebEx
 * Jitsi Meet (gratis att använda, ingen prenumeration behövs)
