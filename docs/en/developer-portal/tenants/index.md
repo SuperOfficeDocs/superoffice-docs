@@ -29,7 +29,7 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 * **Request additional tenants:** [Add sandbox tenants][5] for production or [create development tenants][5] in SOD environments.
 
-* **Authorization management:** [View, edit, and revoke authorization records][4] related to employees and tenants.
+* **Authorization management:** [View, edit, and revoke authorization records][4] related to tenants.
 
 ## Navigating the Tenant Manager
 

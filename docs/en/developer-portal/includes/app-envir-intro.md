@@ -6,4 +6,4 @@ SuperOffice provides three environments: development, stage, and production.
 ![SuperOffice provides three environments: development, stage, and production -screenshot][img1]
 
 <!-- Referenced images -->
-[img1]: ../media/online-environments-sidebyside-650.png
+[img1]: ../media/online-environments.png

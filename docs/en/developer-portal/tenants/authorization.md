@@ -70,7 +70,7 @@ Apps require [customer consent][3] to access customer data.
 
 ![Request edit tenant authorization in SuperOffice Developer portal -screenshot][img2]
 
-## Remove tenant authorization (employees only)
+## Remove tenant authorization
 
 Revoking access severs the connection between the application and the tenant's database but does not remove data from the database.
 
