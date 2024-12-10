@@ -67,7 +67,7 @@ The default time period when you look at API calls is **Months**, but you can ch
 During development, following the statistics in SOD day-by-day can provide valuable insight into the impact of your improvements.
 
 <!-- Referenced links -->
-[1]: customers.md
+[1]: ../tenants/authorization.md
 
 <!-- Referenced images -->
 [img1]: media/usage.png

@@ -78,11 +78,18 @@ items:
       href: provisioning/revoke.md
     - name: Update text for consent dialog
       href: provisioning/update-consent-text.md
-  - name: Analytics
-    href: analytics/customers.md
+  - name: Tenant management
+    href: tenants/index.md
     items:
-    - name: View customers
-      href: analytics/customers.md
+    - name: Insights
+      href: tenants/info.md
+    - name: Authorization
+      href: tenants/authorization.md
+    - name: New tenant or production sandbox
+      href: tenants/get.md
+  - name: Analytics
+    href: analytics/metered-services.md.md
+    items:
     - name: View API call statistics
       href: analytics/metered-services.md
     - name: View exceptions
