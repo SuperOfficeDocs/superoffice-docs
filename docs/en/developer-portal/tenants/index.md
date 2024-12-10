@@ -25,7 +25,7 @@ The Tenant Manager provides a set of tools and features that help you effectivel
 
 * **Tenant status:** View the [current status of each site][3] to ensure environments are running smoothly.
 
-* **Request consultant access:** For production tenants, [request consultant access][8] when necessary.
+* **Request consultant access:** For production tenants, request consultant access when necessary.
 
 * **Request additional tenants:** [Add sandbox tenants][5] for production or [create development tenants][5] in SOD environments.
 
@@ -61,7 +61,6 @@ The **partner page** provides an overview of how many tenants that have authoriz
 [3]: info.md#state
 [4]: authorization.md
 [5]: get.md
-[8]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=formFrame&formId=F-z9xleEUg
 [9]: ../getting-started/app-envir.md
 
 <!-- Referenced images -->
