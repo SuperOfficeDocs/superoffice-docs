@@ -4,7 +4,7 @@ title: Mallvariabler
 description: Med mallvariabler kan du anpassa och automatisera inmatningen av kunddata
 keywords: dokument, mall, variabel, mallvariabel
 author: Bergfrid Dias
-date: 07.11.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: sv
@@ -63,21 +63,6 @@ Närvarande: Sara Miller (Liberty Ltd.), Johan Jonsson (SuperShop)
 Frånvarande:
 Mötessekreterare: Johan Jonsson (jj@supershop.com)
 ```
-
-## Fyllnadstecken
-
-Ibland kan du behöva använda fyllnadstecken i mallar för att fältinnehåll eller fältformatering inte ska ändras eller tas bort om innehållet i ett fält blir kortare än vad fältvariabeln anger.
-
-Du använder variabeln padd# för att ange vilket fyllnadstecken som ska användas. Ersätt #-tecknet med ANSI-koden för det tecken du vill använda som fyllnad. En lista över ANSI-koder finns vanligtvis i handboken till det program du skapar mallar i. I Microsoft Word används {padd31} som fyllnadstecken.
-
-SuperOffice CRM har standardvärden för fyllnadstecken i de vanligaste ordbehandlings- och kalkylprogrammen. Vanligtvis används mjuka bindestreck, eftersom dessa inte visas på skärmen eller utskriften. För applikationer där inställningen är okänd används {padd32}, som är ANSI-koden för mellanslag.
-
-Om du inte vill använda fyllnadstecken använder du mallvariabeln {padd0}.
-
-> [!NOTE]
-> Detta fungerar bara för dokumentformat som är sekventiella, till exempel Anteckningar och AmiPro-mallar utan grafik.
-
-När du använder {padd0} kan du skriva alla mallvariabler utan mellanrum mellan namnet på mallvariabeln och det avslutande variabeltecknet (}).
 
 ## Smarta variabler från företagskortet
 

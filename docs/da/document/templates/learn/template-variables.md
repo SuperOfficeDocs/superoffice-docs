@@ -4,7 +4,7 @@ title: Skabelonvariabler
 description: Med skabelonvariabler kan du tilpasse og automatisere indtastningen af kundedata
 keywords: dokument, skabelon, variable
 author: Bergfrid Dias
-date: 07.16.2024
+date: 12.10.2024
 version: 10.3
 topic: concept
 language: da
@@ -63,21 +63,6 @@ Tilstede: Sara Møller (Liberty A/S.), John Hansen (SuperShop)
 Fraværende:
 Mødesekretær: John Hansen (jh@supershop.com)
 ```
-
-## Fyldtegn
-
-Nogle gange kan det være nødvendigt at bruge fyldtegn i skabeloner for at sikre, at feltindhold eller -formatering ikke kan blive ændret eller slettet, hvis indholdet i et felt bliver kortere, end feltvariablen angiver.
-
-Du kan bruge variablen padd# til at angive det fyldtegn, der skal bruges. Erstat #-tegnet med ANSI-koden for det tegn, du ønsker at bruge som fyldtegn. Du kan normalt finde en liste over ANSI-koder i håndbogen til det program, du opretter skabeloner for. Microsoft Word bruger {padd31} som fyldtegn.
-
-SuperOffice CRM har standardværdier for fyldtegn for de mest almindelige tekstbehandlings- og regnearksprogrammer. Normalt bruges blød bindestreg, fordi den ikke vises på skærmen eller på udskrifter. For programmer med ukendt konfiguration bruger SuperOffice CRM{padd32}, som er ANSI-koden for et mellemrum.
-
-Hvis du ikke ønsker at bruge fyldtegn, skal du bruge skabelonvariablen {padd0}.
-
-> [!NOTE]
-> Dette fungerer kun for dokumentformater, der er sekventielle, for eksempel Notesblok- og AmiPro-skabeloner uden grafik.
-
-Når du bruger {padd0}, kan du skrive alle skabelonvariabler uden mellemrum mellem navnet på skabelonvariablen og det afsluttende variabeltegn (}).
 
 ## Smart variables from the Company screen
 
