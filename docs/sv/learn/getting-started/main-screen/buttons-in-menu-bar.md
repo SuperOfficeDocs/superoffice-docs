@@ -64,7 +64,7 @@ Objekten högst upp på skärmen varierar något mellan SuperOffice CRM, Service
 | Alternativ | Beskrivning |
 |---|---|
 | Andra applikationer | Används för att få tillgång till [andra applikationer eller länkar][1] som har lagts till i SuperOffice CRM. I de flesta fall är dessa applikationer också tillgängliga via knappen **Verktyg** i navigatorn. |
-| Ladda ned | Öppnar en vy över tillgängliga nedladdningar från SuperOffice, till exempel SuperOffice Web Tools eller programmet för visning av korstabeller för rapporter. |
+| Ladda ned | Öppnar en vy över tillgängliga nedladdningar från SuperOffice, till exempel SuperOffice WebTools. |
 | SuperOffice App Store | Öppnar SuperOffice App Store, där du kan söka standardappar och integrationer som kan bygga ut SuperOffice CRM Online. |
 | Kopiera genväg | [Skapa genvägar till poster][15] |
 | Dubblettinställningar | Används för att redigera [dubblettinställningarna][8] för företag, projekt och urval. |

@@ -29,7 +29,7 @@ Du kan öppna ett dokument i [redigeringsläge eller läsläge][7]. När du öpp
 |:-:|---|---|
 | ![icon][img11] | Språk | En lista över tillgängliga översättningar av mallen. "Standard" om ej översatt. |
 | ![icon][img4] | Datum | Dagens datum (standard). Klicka på pilen bredvid **Datum**-fältet för att öppna en månadskalender där du kan välja det önskade datumet. |
-| ![icon][img3] | Ämne | Rubriken på dokumentet (texten som visas i avsnittsflikar och rapporter där dokumentet är listat). |
+| ![icon][img3] | Ämne | Rubriken på dokumentet. |
 | ![icon][img2] | Mall | En lista över tillgängliga [dokumentmallar][11] som Brev eller Offert. |
 | ![icon][img7], ![icon][img8] | Företag / kontakt | Vem dokumentet gäller. |
 | ![icon][img5] | Försäljning | En försäljning kopplad till dokumentet. |

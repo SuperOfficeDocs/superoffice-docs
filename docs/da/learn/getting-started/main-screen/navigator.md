@@ -29,7 +29,6 @@ Du bevæger dig mellem hovedsektionerne i SuperOffice ved hjælp af Navigator i 
 | ![ikon][img9] | Åbner skærmbilledet Udvalg, hvor du kan registrere de firmaer, personer, projekter, salg, dokumenter og opfølgninger, som du arbejder meget sammen med, i separate udvalg. Udvalg kan blandt andet bruges til udsendelser. | [Udvalg][7] |
 | ![ikon][img10] | Åbner din **indbakke**, hvor du kan læse og besvare indkommende meddelelser.| [Indbakke/e-mail][8] |
 | ![ikon][img11] | Åbner skærmbilledet **Chat**, hvor du kan besvare henvendelser, som er sendt via chatfunktionen på din virksomheds hjemmeside. | [Chat][9] |
-| ![ikon][img12] | Åbn skærmbilledet **Rapporter**. I denne rapportgenerator findes der et sæt standardrapporter, som du kan bruge til at udskrive rapporter på basis af data fra SuperOffice CRM. | [Rapporter][10] |
 | ![ikon][img13] | Åbner skærmbilledet **Markedsføring**. Herfra kan du oprette og sende udsendelser (e-mails, SMS og dokumenter) samt oprette og udgive formularer. | [Marketing][11] |
 | ![ikon][img14] | Åbner **Service** (ældre) | |
 | ![ikon][img15] | Åbner en menu, der giver dig adgang til eksterne programmer og websteder. De elementer du får adgang til, defineres i Indstillinger og vedligeholdelse. | |
@@ -50,7 +49,7 @@ Du bevæger dig mellem hovedsektionerne i SuperOffice ved hjælp af Navigator i 
 | ![ikon][img51] | **Skærmdesigner**: åbner skærmdesignerskærmen, hvor du kan oprette brugerdefinerede skærmlayouter til bestemte brugergrupper. | [Skærmdesigner][24] |
 | ![ikon][img52] | Åbner skærmbilledet **Præferencer**, hvor du kan angive indstillinger for forskellige dele i SuperOffice CRM, f.eks. antallet af elementer, der skal vises i historiklisten osv. Her kan du også konfigurere [videomøder][42] og dokumentbiblioteket [][43]. | [Præferencer][25] |
 | ![ikon][img41] | Åbner skærmbilledet **Chat**, hvor du kan oprette chatkanaler og konfigurere chatfunktionen. | [Chat][2] |
-| ![ikon][img53] | **Indstillinger**: Åbner skærmen Indstillinger, hvor du kan definere systemdækkende indstillinger. For eksempel indstillinger for fritekstsøgning, tidszoner, nummerallokering, etiketter og rapporter. | [Muligheder][26] |
+| ![ikon][img53] | **Indstillinger**: Åbner skærmen Indstillinger, hvor du kan definere systemdækkende indstillinger. For eksempel indstillinger for fritekstsøgning, tidszoner, nummerallokering og etiketter. | [Muligheder][26] |
 | ![ikon][img54] | **Import**: Åbner skærmbilledet Import, hvor du kan importere data til SuperOffice-databasen. | [Import][27] |
 | ![ikon][img55] | **Felter**: åbner skærmbilledet Felter, hvor du kan angive brugerdefinerede felter til SuperOffice CRM. | [Felter][28] |
 | ![ikon][img56] | **CRMScript**: åbner skærmbilledet med forskellige funktioner for script og automatisering, f.eks. makroer, hændelseshåndtering og planlagte opgaver. | [CRMScript][41] |
@@ -87,7 +86,6 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 [7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
-[10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [34]: ../../../request/learn/index.md
@@ -122,7 +120,6 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 [img9]: ../../../../../common/icons/nav-selection-h32.png
 [img10]: ../../../../../common/icons/nav-inbox-h32.png
 [img11]: ../../../../../common/icons/nav-chat-h32.png
-[img12]: ../../../../../common/icons/nav-reports-h32.png
 [img13]: ../../../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../../../common/icons/nav-cs-h32.png
 [img15]: ../../../../../common/icons/nav-tools-h32.png

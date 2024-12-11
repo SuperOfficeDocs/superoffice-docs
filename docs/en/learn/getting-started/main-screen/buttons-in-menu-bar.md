@@ -64,7 +64,7 @@ At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to 
 | Option | Description |
 |---|---|
 | Other applications | Used to access [other applications or links][1] added to SuperOffice CRM. In most cases these applications are also available from the **Tools** button in the Navigator. |
-| Download | Opens a view of available downloads from SuperOffice, such as SuperOffice WebTools or the CrossTable viewer for reports. |
+| Download | Opens a view of available downloads from SuperOffice, such as SuperOffice WebTools. |
 | SuperOffice App Store | Opens SuperOffice App Store, where you can explore standard apps and integrations that can expand SuperOffice CRM Online. |
 | Copy shortcut | [Create shortcuts to entries][15] |
 | Duplicate settings | Used to edit the [duplicate settings][8] for companies, projects and selections. |

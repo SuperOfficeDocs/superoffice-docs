@@ -22,7 +22,7 @@ Att lägga till en bild är en bra idé, eftersom det väcker uppmärksamhet och
 
 ## Är det ett krav att ha en bild?
 
-Nej. Om du bara vill skapa rapporter eller använda statusövervakning för att söka efter och skapa urval av företag, kontakter eller projekt som uppfyller statuskriterierna, behöver du inte tilldela en bild till statusarna.
+Nej. Om du bara vill använda statusövervakning för att söka efter och skapa urval av företag, kontakter eller projekt som uppfyller statuskriterierna, behöver du inte tilldela en bild till statusarna.
 
 ## Vilken typ av bilder kan jag använda?
 

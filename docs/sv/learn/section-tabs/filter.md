@@ -119,12 +119,10 @@ Klicka på ![ikon][img2] och **Återställ** för att återställa filtret.
 
 * [Gruppering av listor][1]
 * [Filtrera listan över urvalsmedlemmar][2]
-* [Filtrera dokument i fönstret Rapporter][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

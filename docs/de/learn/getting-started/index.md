@@ -37,11 +37,11 @@ Es ist zum Beispiel eine interne Wissensdatenbank mit Antwortvorlagen und FAQs v
 
 ### Ein Ausgangspunkt für viele Aufgaben
 
-SuperOffice CRM systematisiert und vereinfacht Ihre alltäglichen Abläufe und Aufgaben im Büro. Sie können von der gleichen Ansicht aus ganz unkompliziert Briefe drucken und Berichte erzeugen.
+SuperOffice CRM systematisiert und vereinfacht Ihre alltäglichen Abläufe und Aufgaben im Büro.
 
 Mit dem Kalender behalten Sie stets den Überblick über Ihren Arbeitstag und Ihre Arbeitswoche. Sie können Aktivitäten mit Kollegen planen und gemeinsame Ressourcen, wie Konferenzzimmer, reservieren.
 
-SuperOffice CRM ist Ihr neuer persönlicher Assistent, der all Ihre täglichen Routineaufgaben kombiniert. Wichtige und aktuelle Informationen stehen jedem Mitarbeiter in der Firma zur Verfügung. Mit nur wenigen Mausklicks haben Sie Zugriff auf Berichte, Folgeaufgabe, Verkaufsberichte und Marketingkampagnen, können E-Mails senden und Informationen im Internet nachlesen. Die Informationsstruktur lässt sich einfach an die Bedürfnisse Ihrer Firma anpassen.
+SuperOffice CRM ist Ihr neuer persönlicher Assistent, der all Ihre täglichen Routineaufgaben kombiniert. Wichtige und aktuelle Informationen stehen jedem Mitarbeiter in der Firma zur Verfügung. Mit nur wenigen Mausklicks haben Sie Zugriff auf Folgeaufgabe, Verkaufsberichte und Marketingkampagnen, können E-Mails senden und Informationen im Internet nachlesen. Die Informationsstruktur lässt sich einfach an die Bedürfnisse Ihrer Firma anpassen.
 
 Mit den mobilen Lösungen von SuperOffice können Sie ortsunabhängig auf die Informationen in SuperOffice CRM zugreifen, ob Sie nun auf einer Geschäftsreise sind oder zu Hause bzw. im Büro arbeiten.
 

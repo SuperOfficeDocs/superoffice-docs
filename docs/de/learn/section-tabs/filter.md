@@ -119,12 +119,10 @@ Klicken Sie auf ![Symbol][img2] und **Zurücksetzen**, um den Filter zurückzuse
 
 * [Listen gruppieren][1]
 * [Liste der Selektionsmitglieder filtern][2]
-* [Dokumente in der Ansicht Berichte filtern][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

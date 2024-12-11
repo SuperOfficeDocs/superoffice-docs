@@ -64,7 +64,7 @@ Elementerne øverst på skærmen varierer lidt mellem SuperOffice CRM, Service o
 | Mulighed | Beskrivelse |
 |---|---|
 | Andre programmer | Bruges til at få adgang til [andre programmer eller links,][1] der er blevet tilføjet i SuperOffice CRM. I de fleste tilfælde er disse programmer også tilgængelige fra knappen **Værktøj** i navigatoren. |
-| Download | Åbner en visning af tilgængelige downloads fra SuperOffice, for eksempel SuperOffice Web Tools eller programmet til visning krydstabeller til rapporter. |
+| Download | Åbner en visning af tilgængelige downloads fra SuperOffice, for eksempel SuperOffice Web Tools. |
 | SuperOffice App Store | Åbner SuperOffice App Store, hvor du kan udforske standard-apps, moduler og integrationer, der kan udvide SuperOffice CRM Online. |
 | Kopier genvej | [Opret genveje til poster][15] |
 | Duplikatindstillinger | Bruges til at redigere [duplikatindstillinger][8] for firmaer, projekter og udvalg. |

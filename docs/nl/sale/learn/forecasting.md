@@ -1,10 +1,11 @@
 ---
 uid: help-nl-sale-forecasting
 title: Bewaak uw pijplijn en maak een prognose van de verkopen
-description: "Hoe u uw verkooppijplijn kunt bewaken en uw verkopen kunt voorspellen met behulp van dashboards, selecties en rapporten."
-author: Bergfrid Dias
-date: 02.16.2023
+description: Hoe u uw verkooppijplijn kunt bewaken en uw verkopen kunt voorspellen met behulp van dashboards en selecties.
 keywords: verkoop
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 language: nl
 ---
@@ -40,24 +41,6 @@ Met de tegel **Mijn activiteitentempo** kunt u uw activiteiten gesorteerd op typ
 De **tegel Verkoop dit jaar tot nu toe voor mijn groep vergeleken met vorig jaar** is een geweldige manier om te in de gaten te houden of de omzet van uw teams groeit.
 
 ![Voorbeeld van de tegel Verkoop dit jaar tot nu toe voor mijn groep vergeleken met vorig jaar -screenshot][img5]
-
-## Rapporten gebruiken voor de prognose van de verkoop
-
-[SuperOffice Rapporten][3] zijn vooraf gedefinieerde cijfermatige rapporten, gebaseerd op uw CRM-gegevens, die u direct inzicht bieden in de status van uw huidige verkopen. [Rapporten gebruiken vooraf gedefinieerde criteria][4] om resultaten te berekenen en deze vervolgens te presenteren in een eenvoudig op te maken pdf-bestand.
-
-Er zijn veel standaardrapporten om uit te kiezen, zoals werkelijke verkopen, verwachte verkopen en verkopen met winst. Elk rapport geeft u een snelle prognose op basis van de geregistreerde informatie in uw SuperOffice CRM.
-
-![Drie stappen om toegang te krijgen tot uw rapporten in Verkoop -screenshot][img6]
-
-### Stappen
-
-1. Open Rapporten en selecteer het tabblad **Verkoop** bovenaan.
-
-1. U kunt nu de rapporten kiezen die u wilt gebruiken. Maak uw keuze uit de rapportlijst.
-
-1. U kunt eenvoudig de criteria wijzigen waarop uw rapport is gebaseerd, zoals de tijdsperiode. Maar controleer of u de vooraf gedefinieerde criteria kunt gebruiken zoals ze zijn. Dubbelklik op de criteria die u wilt wijzigen en pas de waarde aan door bijvoorbeeld de datum te wijzigen naar volgende maand. U kunt de criteria verwijderen door op de knop Verwijderen te klikken.
-
-1. Druk op Voorbeeld om uw rapport te openen als een gedownloade pdf of druk op opslaan om uw rapport op te slaan in SuperOffice CRM. Dubbelklik op het rapport om het te openen.
 
 ## Selecties gebruiken om de verkoop te voorspellen
 
@@ -101,8 +84,6 @@ U hebt nu een lijst gemaakt met alle openstaande verkopen in dit jaar met een wa
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../dashboard/learn/index.md
-[3]: ../../reports/learn/index.md
-[4]: ../../reports/learn/search-criteria/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
@@ -113,7 +94,6 @@ U hebt nu een lijst gemaakt met alle openstaande verkopen in dit jaar met een wa
 [img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
 [img4]: ../../../media/loc/en/sale/my-activity-pace.png
 [img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img6]: ../../../media/loc/en/sale/sales-report.png
 [img7]: ../../../media/loc/en/sale/typical-search.png
 [img8]: ../../../media/loc/en/sale/find-screen.png
 [img9]: ../../../media/loc/en/sale/add-search-criteria.png

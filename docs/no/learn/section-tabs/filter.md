@@ -119,12 +119,10 @@ Klikk på ![icon][img2] og **Tilbakestill** for å tilbakestille filteret.
 
 * [Grupperingslister][1]
 * [Filtrere listen over utvalgsmedlemmer][2]
-* [Filtrere dokumenter i skjermbildet Rapporter][4]
 
 <!-- Referenced links -->
 [1]: group.md
 [2]: ../../search-options/selection/learn/screen/index.md#filter
-[4]: ../../reports/learn/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/cog-wheel.png

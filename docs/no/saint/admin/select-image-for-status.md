@@ -22,7 +22,7 @@ Det er lurt å legge til et bilde fordi det tiltrekker seg oppmerksomhet og ber 
 
 ## Er det obligatorisk å ha et bilde?
 
-Nei. Hvis du bare vil opprette rapporter eller bruke statusovervåking til å søke etter og opprette utvalg av firmaer, personer eller prosjekter som oppfyller statuskriteriene, trenger du ikke å tilordne et bilde til statusene.
+Nei. Hvis du bare vil bruke statusovervåking til å søke etter og opprette utvalg av firmaer, personer eller prosjekter som oppfyller statuskriteriene, trenger du ikke å tilordne et bilde til statusene.
 
 ## Hvilken type bilder kan jeg bruke?
 

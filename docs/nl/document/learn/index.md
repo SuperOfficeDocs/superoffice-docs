@@ -29,7 +29,7 @@ U kunt een document openen in [bewerkingsmodus of in leesmodus][7]. Wanneer u ee
 |:-:|---|---|
 | ![icon][img11] | Taal | Een lijst met beschikbare vertalingen van de sjabloon. "Standaard" indien niet vertaald. |
 | ![icon][img4] | Datum | De datum van vandaag (standaard). Klik op de pijl naast het **Datum**-veld om een maandkalender te openen waarin u de gewenste datum kunt selecteren. |
-| ![icon][img3] | Onderwerp | De kop van het document (de tekst die wordt weergegeven in sectietabbladen en rapporten waar het document wordt vermeld). |
+| ![icon][img3] | Onderwerp | De kop van het document. |
 | ![icon][img2] | Sjabloon | Een lijst met beschikbare [documentsjablonen][11] zoals Brief of Offerte. |
 | ![icon][img7], ![icon][img8] | Bedrijf / contact | Over wie het document gaat. |
 | ![icon][img5] | Verkoop | Een verkoop gekoppeld aan het document. |

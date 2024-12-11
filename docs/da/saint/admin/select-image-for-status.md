@@ -22,7 +22,7 @@ Det er en god idé at tilføje et billede, da det tiltrækker opmærksomhed og a
 
 ## Er det et krav at have et billede?
 
-Nej. Hvis du kun vil oprette rapporter eller bruge statusovervågning til at søge efter og oprette udvalg af firmaer, personer eller projekter, der opfylder statuskriterierne, behøver du ikke at tildele statusserne et billede.
+Nej. Hvis du kun vil bruge statusovervågning til at søge efter og oprette udvalg af firmaer, personer eller projekter, der opfylder statuskriterierne, behøver du ikke at tildele statusserne et billede.
 
 ## Hvilken slags billeder kan jeg bruge?
 

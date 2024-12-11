@@ -1,10 +1,11 @@
 ---
 uid: help-sv-sale-forecasting
 title: Övervaka din pipeline och skapa prognoser för försäljningen
-description: "Hur du övervakar din försäljningspipeline och skapar prognoser för din försäljning med hjälp av dashboards, val och rapporter."
-author: Bergfrid Dias
-date: 02.16.2023
+description: Hur du övervakar din försäljningspipeline och skapar prognoser för din försäljning med hjälp av dashboards och urval.
 keywords: försäljning
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
 topic: howto
 language: sv
 ---
@@ -40,24 +41,6 @@ Med figuren **Mitt aktivitetstempo** kan du se dina aktiviteter ordnade efter ty
 Figuren **Försäljningar hittills i år jämfört med förra året för min grupp** är ett utmärkt sätt att hålla koll på om ditt teams försäljning växer.
 
 ![Exempel på figuren Försäljningar hittills i år jämfört med förra året för min grupp -screenshot][img5]
-
-## Använda rapporter för försäljningsprognos
-
-[SuperOffice-rapporter][3] är fördefinierade statistiska rapporter som bygger på dina CRM-data, vilket ger dig omedelbar insikt i hur det går med din nuvarande försäljning. [Rapporter använder fördefinierade kriterier][4] för att beräkna resultat och presenterar dem sedan i en lättformaterad PDF-fil.
-
-Det finns många standardrapporter att välja mellan – som faktisk försäljning, förväntad försäljning och försäljning med vinst. Varje rapport ger dig en snabb prognos baserad på den registrerade informationen i ditt SuperOffice CRM.
-
-![Tre steg för att komma åt dina rapporter i Försäljning -screenshot][img6]
-
-### Steg
-
-1. Öppna rapporterna och välj fliken **Försäljning** högst upp.
-
-1. Du kan nu välja vilka rapporter du vill använda. Välj och vraka i rapportlistan.
-
-1. Du kan enkelt ändra de kriterier som rapporten baseras på, till exempel tidsramen. Men kontrollera om du kan använda de fördefinierade kriterierna som de är. Dubbelklicka på de kriterier du vill ändra och justera värdet genom att till exempel ändra datumet till nästa månad. Du kan ta bort kriterierna genom att klicka på knappen Ta bort.
-
-1. Tryck på förhandsgranska för att öppna rapporten som en nedladdad PDF-fil eller tryck på spara för att spara rapporten i SuperOffice CRM. Dubbelklicka på rapporten för att öppna den.
 
 ## Använd urval för att prognostisera försäljningen
 
@@ -101,8 +84,6 @@ Du har nu skapat en lista som innehåller all öppen försäljning värd över 5
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../dashboard/learn/index.md
-[3]: ../../reports/learn/index.md
-[4]: ../../reports/learn/search-criteria/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
 [7]:  ../../dashboard/learn/show-sales-targets.md
@@ -113,7 +94,6 @@ Du har nu skapat en lista som innehåller all öppen försäljning värd över 5
 [img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
 [img4]: ../../../media/loc/en/sale/my-activity-pace.png
 [img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img6]: ../../../media/loc/en/sale/sales-report.png
 [img7]: ../../../media/loc/en/sale/typical-search.png
 [img8]: ../../../media/loc/en/sale/find-screen.png
 [img9]: ../../../media/loc/en/sale/add-search-criteria.png

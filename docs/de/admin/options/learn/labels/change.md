@@ -2,12 +2,13 @@
 uid: help-de-label-change
 title: Etiketten ändern
 description: Etiketten ändern
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: Bezeichnung
+author: Bergfrid Dias
+date: 12.10.2024
+version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-topic: howto
 language: de
 ---
 
@@ -16,9 +17,6 @@ language: de
 SuperOffice enthält mehrere Felder, deren Namen Sie ändern können, um das Programm an die eigenen Anforderungen Ihres Unternehmens anzupassen.
 
 Sie können Bezeichnungen in allen verfügbaren Sprachen in SuperOffice ändern. Sie können zum Beispiel festlegen, dass stattdessen alle Felder mit der Bezeichnung *Firma* in *Unternehmen* umbenannt werden.
-
-> [!NOTE]
-> Diese Änderungen gelten nur für SuperOffice CRM und nicht z.B. für Berichte oder Bezeichnungen in Reporter Studio.
 
 [!include[Go to Options](../includes/open-options.md)]
 

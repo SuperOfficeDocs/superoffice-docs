@@ -37,11 +37,11 @@ Det finnes f.eks. en intern kunnskapsbase bestående av svarmaler og FAQ. Denne 
 
 ### Samme utgangspunkt for flere arbeidsoppgaver
 
-SuperOffice CRM systematiserer og forenkler de daglige kontorrutinene og -oppgavene. Fra ett og samme utgangspunkt kan du blant annet skrive brev og lage rapporter.
+SuperOffice CRM systematiserer og forenkler de daglige kontorrutinene og -oppgavene.
 
 Med dagboken har du hele tiden et oversiktlig forhold til arbeidsdagen og -uken. Du kan planlegge aktiviteter med kollegene dine og reservere felles ressurser, for eksempel et konferanserom.
 
-SuperOffice CRM blir din nye personlige assistent. En assistent som kombinerer alle de grunnleggende oppgavene du utfører daglig. Viktig og oppdatert informasjon er tilgjengelig for alle i bedriften. Med bare noen få museklikk har du tilgang til rapporter, møter, salgsrapporter og markedsføringskampanjer, og du kan sende e-post og lese informasjon på Internett. Informasjonsstrukturen kan enkelt tilpasses bedriftens behov.
+SuperOffice CRM blir din nye personlige assistent. En assistent som kombinerer alle de grunnleggende oppgavene du utfører daglig. Viktig og oppdatert informasjon er tilgjengelig for alle i bedriften. Med bare noen få museklikk har du tilgang til møter, salgsrapporter og markedsføringskampanjer, og du kan sende e-post og lese informasjon på Internett. Informasjonsstrukturen kan enkelt tilpasses bedriftens behov.
 
 Ved hjelp av SuperOffices mobile løsninger kan du få tilgang til informasjonen i SuperOffice CRM uansett om du er på forretningsreise, jobber hjemmefra eller på et avdelingskontor.
 

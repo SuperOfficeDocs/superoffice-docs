@@ -29,7 +29,6 @@ Du flyttar mellan huvudavsnitten i SuperOffice med hjälp av navigatorn på vän
 | ![ikon][img9] | Öppnar skärmen Urval, där du kan ange företag, kontakter, projekt, försäljning, dokument och händelser som du arbetar med ofta för separata urval. Urval kan också, bland annat, användas till utskick. | [Urval][7] |
 | ![ikon][img10] | Öppnar inkorgen, där du kan läsa och svara på inkommande meddelanden.| [Inkorg/e-post][8] |
 | ![ikon][img11] | Öppnar skärmen Chatt där du kan svara på förfrågningar som har skickats med hjälp av chattfunktionen på företagets webbsida. | [Chatt][9] |
-| ![ikon][img12] | Öppnar skärmen **Rapporter**. I denna rapportgenerator hittar du en uppsättning standardrapporter som du kan använda för att skriva ut rapporter baserat på data från SuperOffice CRM. | [Rapporter][10] |
 | ![ikon][img13] | Öppnar skärmen **Marknadsföring**. Härifrån kan du skapa och skicka utskick (e-postmeddelanden, SMS och dokument) och skapa och publicera formulär. | [Marknadsföring][11] |
 | ![ikon][img14] | Öppnar **Service** (äldre) | |
 | ![ikon][img15] | Öppnar en meny som ger dig tillgång till externa applikationer och webbplatser. Posterna som är tillgängliga definieras i Inställningar och underhåll. | |
@@ -50,7 +49,7 @@ Du flyttar mellan huvudavsnitten i SuperOffice med hjälp av navigatorn på vän
 | ![ikon][img51] | **Skärmdesigner**: öppnar skärmen Skärmdesigner där du kan skapa anpassade skärmlayouter för specifika användargrupper. | [Skärmdesigner][24] |
 | ![ikon][img52] | **Inställningar**: öppnar fönstret Inställningar där du kan ange inställningar för olika komponenter i SuperOffice CRM, till exempel antalet element som ska visas i historiklistan, standardtypen för nya aktiviteter och så vidare. Här kan du också konfigurera [Videomöten][42] och [Dokumentbiblioteket][43]. | [Preferenser][25] |
 | ![ikon][img41] | **Chatt**: Öppnar fönstretChatt där du kan lägga upp chattkanaler installera chattfunktionen. | [Chatt][2] |
-| ![ikon][img53] | **Alternativ**: öppnar skärmen Alternativdär du kan definiera systemomfattande inställningar. Till exempel inställningar för fritextsökning, tidszoner, nummerallokering, etiketter och rapporter. | [Alternativ][26] |
+| ![ikon][img53] | **Alternativ**: öppnar skärmen Alternativdär du kan definiera systemomfattande inställningar. Till exempel inställningar för fritextsökning, tidszoner, nummerallokering och etiketter. | [Alternativ][26] |
 | ![ikon][img54] | **Import**: öppnar fönstret Import där du kan importera data till SuperOffice-databasen. | [Import][27] |
 | ![ikon][img55] | **Fält**: Öppnar Fält-fönstret, där du kan definiera användardefinierade fält för SuperOffice CRM. | [Fält][28] |
 | ![ikon][img56] | **CRMScript**: Öppnar fönstret med olika funktioner för skript och automatisering, till exempel makron, händelsehantering (utlösare) och planerade uppgifter. | [CRMScript][41] |
@@ -87,7 +86,6 @@ Om du håller muspekaren över en post i någon av listorna visas en knappbeskri
 [7]: ../../../search-options/selection/learn/index.md
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
-[10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
 [34]: ../../../request/learn/index.md
@@ -122,7 +120,6 @@ Om du håller muspekaren över en post i någon av listorna visas en knappbeskri
 [img9]: ../../../../../common/icons/nav-selection-h32.png
 [img10]: ../../../../../common/icons/nav-inbox-h32.png
 [img11]: ../../../../../common/icons/nav-chat-h32.png
-[img12]: ../../../../../common/icons/nav-reports-h32.png
 [img13]: ../../../../../common/icons/nav-marketing-h32.png
 [img14]: ../../../../../common/icons/nav-cs-h32.png
 [img15]: ../../../../../common/icons/nav-tools-h32.png
