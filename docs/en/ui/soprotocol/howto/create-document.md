@@ -12,7 +12,7 @@ topic: howto
 
 The soprotocol should be on the format: ```soprotocol:document.main[new=true]?appointment_id=0&...other args...```
 
-Refer to the [document properties](#document-properties) for full list of available properties/args.
+Refer to the [document arguments](#document-arguments) for full list of available properties/args.
 
 ## Create new document
 
@@ -22,9 +22,9 @@ Refer to the [document properties](#document-properties) for full list of availa
 
 ```soprotocol:document.main[new=true]?document_id=0&documenttemplate_id=10```
 
-## Document properties
+## Document arguments
 
-The following properties are supported when creating a new document:
+The following arguments are supported when creating a new document:
 
 | Property                     | Description                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------|

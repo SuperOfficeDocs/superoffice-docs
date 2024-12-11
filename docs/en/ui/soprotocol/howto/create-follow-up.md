@@ -12,7 +12,7 @@ topic: howto
 
 The soprotocol should be on the format: ```soprotocol:appointment.main[new=true]?appointment_id=0&...other args...```
 
-Refer to the [follow-up properties](#follow-up-properties) for full list of available properties/args.
+Refer to the [follow-up arguments](#follow-up-arguments) for full list of available properties/args.
 
 ## Create a new follow-up with specified sale_id
 
@@ -38,9 +38,9 @@ To set project when creating a new follow-up the property `useprojectcurrent` ne
 
 ```appointment.main[new=true]?appointment_id=0&appointmenttask_name=6&appointmenttitle_name=Meeting Title&appointmentagenda_name=Agenda```
 
-## Follow-up properties
+## Follow-up arguments
 
-The following properties are supported when creating a new follow-up
+The following arguments are supported when creating a new follow-up
 
 | Property                     | Description                                                                                     |
 |------------------------------|-------------------------------------------------------------------------------------------------|
