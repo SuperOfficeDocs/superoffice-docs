@@ -54,7 +54,7 @@ Sie können eine E-Mail von der Ansicht Person oder von der Ansicht Firma vorber
 1. Klicken Sie in der Anzeige Dokument auf **Erstellen**.
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
+[1]: ../../document/learn/create.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Dialoogvenster Document
-  href: screen/index.md
 - name: Documentbibliotheek
   href: ../library/learn/index.md
 - name: Werken met document

@@ -234,10 +234,6 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: ../document/learn/create.md
-      - text: Dokumentbilde
-        itemType: library_books
-        typeDesc: reference
-        url: ../document/learn/screen/index.md
       - text: Malvariabler
         itemType: library_books
         typeDesc: reference

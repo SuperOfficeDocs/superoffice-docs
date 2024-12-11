@@ -46,7 +46,7 @@ Hvis du har oprettet et tilbudsdokument til et tilbud, men vil bruge et andet do
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../document/learn/screen/index.md
+[2]: ../../document/learn/create.md#fields
 [4]: send.md
 [5]: create-order.md
 

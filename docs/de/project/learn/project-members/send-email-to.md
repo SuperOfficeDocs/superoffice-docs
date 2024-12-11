@@ -36,6 +36,6 @@ language: de
 > Sie können eine E-Mail-Nachricht auch an einen Beteiligten/ein Projektmitglied senden, indem Sie in der Bereichsregisterkarte **Beteiligte** oder **Projektmitglieder** direkt auf die E-Mail-Adresse dieser Person klicken.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
+[1]: ../../../document/learn/create.md#fields
 
 <!-- Referenced images -->

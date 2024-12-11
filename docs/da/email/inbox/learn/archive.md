@@ -39,7 +39,7 @@ Hvis du vil sende meddelelsen og arkivere den som et dokument i SuperOffice CRM,
 [!include[Add contact](includes/add-contact-opens.md)]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
+[1]: ../../../document/learn/create.md#fields
 [3]: compose.md
 
 <!-- Referenced images -->

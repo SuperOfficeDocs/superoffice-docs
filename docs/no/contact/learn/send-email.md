@@ -54,7 +54,7 @@ Du kan skrive en e-post fra både Person-bildet og Firma-bildet. Deretter er tri
 1. Klikk på **Opprett** i dialogboksen Dokument.
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
+[1]: ../../document/learn/create.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

@@ -1,8 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: Dokumentenansicht
-  href: screen/index.md
 - name: Dokumentbibliothek
   href: ../library/learn/index.md
 - name: Mit Dokument arbeiten

@@ -100,17 +100,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 > [!NOTE]
 > Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![icon][img5] for at udvide listen. Vælg derefter en værdi for det pågældende felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, f.eks. et firmanavn.
 
-<!-- markdownlint-disable MD051 -->
-### [Ny (fra version 10.3.11)](#tab/dialog-new)
-
 ![Opret dokument fra skabelon (ny) -screenshot][img4]
-
-### [Klassisk (onsite)](#tab/dialog-old)
-
-![Opret dokument fra skabelon (klassisk) -screenshot][img3]
-
-***
-<!-- markdownlint-restore -->
 
 **Trin:**
 
@@ -151,7 +141,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
     * Ny (fra version 10.3.11): Vælg afkrydsningsfeltet i footeren.
     * Klassisk dialog (onsite): Klik på flueben-ikonet øverst til højre i dialogboksen.
 
-4. [Indtast de ønskede oplysninger i felterne][2].
+4. Indtast de ønskede oplysninger i felterne.
 
 5. Klik på knappen **Opret** for at oprette det nye dokument i SuperOffice CRM. Dokumentet tilføjes til detaljekortet **Aktiviteter**.
 
@@ -165,7 +155,6 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: screen/index.md
 [3]: lock.md
 [4]: send-as-email.md
 [5]: ../templates/learn/index.md
@@ -177,6 +166,5 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
-[img3]: ../../../media/loc/en/document/create-document.png
-[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img4]: ../../../media/loc/en/document/create-document.png
 [img5]: ../../../../common/icons/dropdown-icon.png

@@ -100,17 +100,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 > [!NOTE]
 > Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
-<!-- markdownlint-disable MD051 -->
-### [Nieuw (vanaf versie 10.3.11)](#tab/dialog-new)
-
 ![Document maken vanuit sjabloon (Nieuw) -screenshot][img4]
-
-### [Klassiek (onsite)](#tab/dialog-old)
-
-![Document maken vanuit sjabloon (Klassiek) -screenshot][img3]
-
-***
-<!-- markdownlint-restore -->
 
 **Stappen:**
 
@@ -176,6 +166,5 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
-[img3]: ../../../media/loc/en/document/create-document.png
-[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img4]: ../../../media/loc/en/document/create-document.png
 [img5]: ../../../../common/icons/dropdown-icon.png
