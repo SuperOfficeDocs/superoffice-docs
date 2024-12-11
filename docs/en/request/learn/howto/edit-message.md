@@ -2,8 +2,10 @@
 uid: help-en-request-message-edit
 title: Edit message
 description: How to edit a message in a request in SuperOffice
-author: Hanne Gunnarsson
 keywords: request
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: en
 
 # Edit message
 
-It is possible to edit the properties of a message in a request, but only administrator users can do this. It is not possible to edit the text in a message.
+Only users with the *general administrator* functional right can edit the properties of a message in a request. However, it is not possible to edit the text of the message.
 
 1. [Open the request][1].
 1. Click the **Messages** tab.

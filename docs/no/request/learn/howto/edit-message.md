@@ -2,8 +2,10 @@
 uid: help-no-request-message-edit
 title: Redigere melding
 description: Slik redigerer du en melding i en sak i SuperOffice
-author: Hanne Gunnarsson
 keywords: sak
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: no
 
 # Redigere melding
 
-Det er mulig å redigere egenskapene for en melding i en sak, men bare administratorbrukere kan gjøre dette. Det er ikke mulig å redigere teksten i en melding.
+Kun brukere med funksjonsrettigheten *general administrator* kan redigere egenskapene til en melding i en sak. Det er imidlertid ikke mulig å redigere teksten i meldingen.
 
 1. [Åpne saken][1].
 1. Klikk på fanen **Meldinger**.

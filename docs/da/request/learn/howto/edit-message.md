@@ -2,8 +2,10 @@
 uid: help-da-request-message-edit
 title: Rediger meddelelse
 description: Sådan redigerer du en besked i en sag i SuperOffice
-author: Hanne Gunnarsson
 keywords: sag
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: da
 
 # Rediger meddelelse
 
-Det er muligt at redigere egenskaberne for en meddelelse i en sag, men kun administratorbrugere kan gøre dette. Det er ikke muligt at redigere teksten i en meddelelse.
+Kun brugere med den funktionelle rettighed *general administrator* kan redigere egenskaberne for en meddelelse i en sag. Det er dog ikke muligt at redigere selve teksten i meddelelsen.
 
 1. [Åbn sagen][1].
 1. Klik på fanebladet **Meddelelser**.

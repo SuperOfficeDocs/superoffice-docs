@@ -2,8 +2,10 @@
 uid: help-de-request-message-edit
 title: Nachricht bearbeiten
 description: Wie man eine Mitteilung in einer Anfrage in SuperOffice bearbeitet
-author: Hanne Gunnarsson
 keywords: Anfrage
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: de
 
 # Nachricht bearbeiten
 
-Es ist möglich, die Eigenschaften einer Anfrage zu bearbeiten. Dazu sind jedoch Administratorrechte erforderlich. Es ist nicht möglich, den Text in einer Nachricht zu bearbeiten.
+Nur Benutzer mit dem Funktionsrecht *general administrator* können die Eigenschaften einer Nachricht in einer Anfrage bearbeiten. Es ist jedoch nicht möglich, den Nachrichtentext zu bearbeiten.
 
 1. [Öffnen Sie die Anfrage][1].
 1. Klicken Sie auf die Registerkarte **Nachrichten**.
