@@ -3,7 +3,7 @@ uid: help-da-contact-create
 title: Opret person
 description: Sådan opretter du en ny person i SuperOffice
 author: SuperOffice RnD
-date: 11.29.2024
+date: 12.11.2024
 keywords: person, contact
 topic: howto
 language: da
@@ -63,7 +63,7 @@ Der er mange måder, du kan føje kontakter til SuperOffice CRM på:
 
     I dialogboksen **Privacy** skal du [Gennemgå og rediger dine samtykkeoplysningerne,][7] hvis det er nødvendigt. Klik på **Luk**, når du er færdig.
 
-10. Marker **Tidligere medarbejder** (nederst på personkortet), hvis denne person ikke længere arbejder hos firmaet. En person, hvis ansættelsesforhold er registreret som fratrådt, vises ikke på listerne over personer eller projektdeltagere.
+10. Marker **Fratrådt** (nederst på personkortet), hvis denne person ikke længere arbejder hos firmaet. En person, hvis ansættelsesforhold er registreret som fratrådt, vises ikke på listerne over personer eller projektdeltagere.
 
 11. Når du har tilføjet de ønskede oplysninger, skal du klikke på knappen **Gem**.
 

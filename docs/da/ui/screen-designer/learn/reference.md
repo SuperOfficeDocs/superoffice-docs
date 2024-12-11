@@ -75,7 +75,7 @@ For detaljer om værdien af hvert felt, se [databasereferencen][2].
 | ERP | ERP | Ingen muligheder. Konfigureret under **Indstillinger og vedligeholdelse** > **ERP**. |
 | Fax | Tekst | |
 | Fornavn | Tekst | |
-| Tidligere medarbejder | Afkrydsningsfelt | |
+| Fratrådt | Afkrydsningsfelt | |
 | [Interesser][17] | Interesser | Ingen muligheder |
 | Internet telefon | Tekst | |
 | Sidst ændret | Dato | |

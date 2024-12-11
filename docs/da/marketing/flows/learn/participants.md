@@ -4,7 +4,7 @@ title: Flowdeltagere
 description: Et komplet overblik over alle deltagere inden for flowet.
 keywords: Marketing, flow, flowdeltager, deltager
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
+date: 12.11.2024
 version: 10.3.5
 topic: howto
 language: da
@@ -47,7 +47,7 @@ For alle trin-typer:
 
 1. Er deltagerens status *I gang*?
 2. Opfylder deltageren det definerede succeskriterium?
-3. Er personen markeret som en tidligere medarbejder?
+3. Er personen markeret som fratrådt?
 4. Er personen tilføjet til udelukkelseslisten?
 
 ​Yderligere for e-mail trin:​

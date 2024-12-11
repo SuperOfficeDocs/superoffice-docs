@@ -3,7 +3,7 @@ uid: help-da-user-add
 title: Tilføjelse af bruger
 description: "I denne vejledning lærer du, hvordan du tilføjer en ny bruger til SuperOffice CRM."
 author: SuperOffice RnD
-date: 02.21.2023
+date: 12.11.2024
 keywords: user, medarbejder
 topic: howto
 audience: settings
@@ -62,7 +62,7 @@ Under fanen **Detaljer** har du følgende valgmuligheder:
 
 * **Brugerplan**: Vælg den relevante brugerplan for brugeren. Dette bestemmer, hvilke SuperOffice-funktioner brugeren kan få adgang til.
 
-* **Tidligere medarbejder**: Hvis en bruger ikke længere skal have adgang til SuperOffice, skal du vælge denne indstilling for at fjerne brugerens brugerplan og logonrettigheder.
+* **Fratrådt**: Hvis en bruger ikke længere skal have adgang til SuperOffice, skal du vælge denne indstilling for at fjerne brugerens brugerplan og logonrettigheder.
 
 * **Primærgruppe**: I rullemenuen **Primærgruppe** vælges en af de foruddefinerede indstillinger for gruppetilhørsforhold. Grupperne defineres i skærmbilledet **Lister**. Brugeren får adgang til data, som ejes af andre brugere i samme primærgruppe. Adgangsrettighederne (for eksempel skrive- eller sletteadgang) for disse data er defineret i den [rolle][3], brugeren tilhører. Se [Synlighed][2], hvis du vil vide mere om, hvordan du deler data med primærgruppen.
 

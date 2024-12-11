@@ -3,7 +3,7 @@ uid: help-da-mail-link-senders
 title: Administrer afsendere
 description: Administrer afsendere
 author: SuperOffice RnD
-date: 06.29.2022
+date: 12.11.2024
 keywords: Mail Link
 topic: howto, sender
 language: da
@@ -25,7 +25,7 @@ Du kan bruge **knappen Søg efter afsender** til at søge efter afsenderens præ
     * Hvis e-mailadressen findes på et firma/en person, åbnes firma-/personkortet i SuperOffice.
     * Hvis e-mailadressen er registreret ved mere en et firma eller en person, vises en dialogboks med en liste med alternativerne, hvor du kan vælge en af dem.
     * Hvis afsenderens e-mailadresse ikke er registreret i SuperOffice, kan du tilføje den.
-    * Kun for SuperOffice CRM: Hvis afsenderen af den valgte e-mail er markeret som tidligere medarbejder, åbnes firmaet/personen, med afsenderen vises ikke i SuperOffice CRM, medmindre du har valgt at vise tidligere medarbejdere.
+    * Kun for SuperOffice CRM: Hvis afsenderen af den valgte e-mail er markeret som fratrådt, åbnes firmaet/personen, med afsenderen vises ikke i SuperOffice CRM, medmindre du har valgt at vise tidligere medarbejdere.
 
 ## Håndtering af e-mails fra afsendere med flere lister
 
