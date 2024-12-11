@@ -54,7 +54,9 @@ You can prepare an email from both the Contact screen and the Company screen. Th
 1. Click **Create** in the **Document** dialog.
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
+[1]: ../../document/learn/create.md#fields
+
+create.md#fields
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/contact/email-send-email.png

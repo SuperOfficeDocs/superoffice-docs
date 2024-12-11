@@ -100,17 +100,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 > [!NOTE]
 > Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
 
-<!-- markdownlint-disable MD051 -->
-### [Ny (från version 10.3.11)](#tab/dialog-new)
-
 ![Skapa dokument från mall (ny) -screenshot][img4]
-
-### [Klassisk (onsite)](#tab/dialog-old)
-
-![Skapa dokument från mall (klassisk) -screenshot][img3]
-
-***
-<!-- markdownlint-restore -->
 
 **Steg:**
 
@@ -176,6 +166,5 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
-[img3]: ../../../media/loc/en/document/create-document.png
-[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img4]: ../../../media/loc/en/document/create-document.png
 [img5]: ../../../../common/icons/dropdown-icon.png

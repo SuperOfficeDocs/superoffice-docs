@@ -36,6 +36,6 @@ language: nl
 > U kunt een e-mailbericht ook naar een belanghebbende/projectlid verzenden door op het sectietabblad **Belanghebbenden** **Projectleden** direct op het e-mailadres van de betreffende persoon te klikken.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
+[1]: ../../../document/learn/create.md#fields
 
 <!-- Referenced images -->

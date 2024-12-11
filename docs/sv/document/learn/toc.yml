@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Dokumentskärm
-  href: screen/index.md
 - name: Dokumentbibliotek
   href: ../library/learn/index.md
 - name: Arbeta med dokument
