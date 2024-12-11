@@ -2,8 +2,10 @@
 uid: help-nl-request-message-edit
 title: Bericht bewerken
 description: Een bericht in een aanvraag bewerken in SuperOffice
-author: Hanne Gunnarsson
 keywords: verzoek
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: nl
 
 # Bericht bewerken
 
-Het is mogelijk om de eigenschappen van een bericht in een verzoek te bewerken, maar alleen gebruikers met beheerdersrechten kunnen dit doen. Het is niet mogelijk om de tekst in een bericht te bewerken.
+Alleen gebruikers met de functionele rechten *general administrator* kunnen de eigenschappen van een bericht in een verzoek bewerken. Het is echter niet mogelijk om de tekst van het bericht te bewerken.
 
 1. [Open het verzoek.][1]
 1. Klik op het tabblad **Berichten**.

@@ -2,8 +2,10 @@
 uid: help-sv-request-message-edit
 title: Redigera meddelande
 description: Så här redigerar du ett meddelande i ett ärende i SuperOffice
-author: Hanne Gunnarsson
 keywords: ärende
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 12.11.2024
+version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -12,7 +14,7 @@ language: sv
 
 # Redigera meddelande
 
-Det går att ändra egenskaperna för ett meddelande i ett ärende men det är bara administratörer som kan göra detta. Det går inte att ändra texten i ett meddelande.
+Endast användare med den funktionella rättigheten *general administrator* kan ändra egenskaperna för ett meddelande i ett ärende. Det går dock inte att redigera själva meddelandetexten.
 
 1. [Öppna ärendet][1].
 1. Klicka på fliken **Meddelanden**.
