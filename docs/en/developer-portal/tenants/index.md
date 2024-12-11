@@ -64,4 +64,4 @@ The **partner page** provides an overview of how many tenants that have authoriz
 [9]: ../getting-started/app-envir.md
 
 <!-- Referenced images -->
-[img1]: media/customers.png
+[img1]: media/tenants.png
