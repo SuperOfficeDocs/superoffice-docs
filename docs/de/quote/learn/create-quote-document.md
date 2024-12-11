@@ -46,7 +46,7 @@ Wenn Sie ein Angebotsdokument für ein Angebot erstellt haben, aber ein anderes 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../document/learn/screen/index.md
+[2]: ../../document/learn/create.md#fields
 [3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md

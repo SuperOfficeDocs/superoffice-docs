@@ -100,17 +100,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 > [!NOTE]
 > Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
-<!-- markdownlint-disable MD051 -->
-### [Ny (fra version 10.3.11)](#tab/dialog-new)
-
 ![Opprett dokument fra mal (ny) -screenshot][img4]
-
-### [Klassisk (onsite)](#tab/dialog-old)
-
-![Opprett dokument fra mal (klassisk) -screenshot][img3]
-
-***
-<!-- markdownlint-restore -->
 
 **Trinn:**
 
@@ -176,6 +166,5 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
-[img3]: ../../../media/loc/en/document/create-document.png
-[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img4]: ../../../media/loc/en/document/create-document.png
 [img5]: ../../../../common/icons/dropdown-icon.png

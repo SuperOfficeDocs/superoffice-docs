@@ -134,7 +134,7 @@ I Innstillinger og vedlikehold kan du også definere dine egne visninger for sid
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
 [4]: ../../../diary/learn/screen/index.md
-[5]: ../../../document/learn/screen/index.md
+[5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md

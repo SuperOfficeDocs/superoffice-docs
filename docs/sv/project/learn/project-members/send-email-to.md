@@ -36,6 +36,6 @@ language: sv
 > Du kan också skicka ett e-postmeddelande till en intressent eller projektdeltagare genom att klicka direkt på deras e-postadress på detaljkortet **Intressenter** eller **Projektdeltagare**.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
+[1]: ../../../document/learn/create.md#fields
 
 <!-- Referenced images -->

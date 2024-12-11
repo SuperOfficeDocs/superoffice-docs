@@ -101,17 +101,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 > [!NOTE]
 > Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
-<!-- markdownlint-disable MD051 -->
-### [New (from version 10.3.11)](#tab/dialog-new)
-
 ![Create document from template (new) -screenshot][img4]
-
-### [Classic (onsite)](#tab/dialog-old)
-
-![Create document from template (classic) -screenshot][img3]
-
-***
-<!-- markdownlint-restore -->
 
 **Steps:**
 
@@ -177,6 +167,5 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
-[img3]: ../../../media/loc/en/document/create-document.png
-[img4]: ../../../media/loc/en/document/create-document-pilot.png
+[img4]: ../../../media/loc/en/document/create-document.png
 [img5]: ../../../../common/icons/dropdown-icon.png

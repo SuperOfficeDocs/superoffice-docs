@@ -54,7 +54,7 @@ U kunt een e-mail voorbereiden vanuit zowel het scherm Persoon als het scherm Be
 1. Klik op **Maken** in het scherm Document.
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
+[1]: ../../document/learn/create.md#fields
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Dialogboksen Dokument
-  href: screen/index.md
 - name: Dokumentbibliotek
   href: ../library/learn/index.md
 - name: Arbeide med dokument

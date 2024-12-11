@@ -1,8 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Document dialog
-  href: screen/index.md
 - name: Document library
   href: ../library/learn/index.md
 - name: Work with documents

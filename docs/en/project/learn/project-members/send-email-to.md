@@ -36,6 +36,6 @@ language: en
 > You can also send an email to a stakeholder or project member by clicking directly on their email address in the **Stakeholders** or **Project Members** section tab.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
+[1]: ../../../document/learn/create.md#fields
 
 <!-- Referenced images -->
