@@ -4,7 +4,7 @@ title: Contacts tab
 description: Lær hvordan du administrerer og interagerer med personinformation knyttet til firmaer ved hjælp af Personfanen i SuperOffice CRM. Spor persondata og vedligehold kommunikationsoptegnelser for problemfri kundeforhold.
 keywords: detaljekortet Personer, Personer-fanen, Personfanen, fanen Personer, fanen Kontaktpersoner, detaljekort, personarkiv, aktiver mellemnavn
 author: Bergfrid Skaara Dias
-date: 11.29.2024
+date: 12.11.2024
 version: 10
 topic: howto
 audience: person
@@ -42,9 +42,9 @@ Detaljekortet **Personer** indeholder følgende kolonner for at vise nøgleinfor
 
 1. Dobbeltklik på en person i listen for at åbne Personskærmen for mere detaljeret information.
 
-### Inkluder tidligere medarbejdere
+### Inkluder fratrådte medarbejdere
 
-For at inkludere personer, der er forladt firmaet, markér **Tidligere medarbejdere**. Tidligere medarbejdere vises i en anden farve på listen, samt i detaljekortet **Projektmedlemmer** i Projekt-skærmen og i medlemslisterne på Udvalgsskærmen.
+For at inkludere personer, der er forladt firmaet, markér **Fratrådt**. Fratrådte medarbejdere vises i en anden farve på listen, samt i detaljekortet **Projektmedlemmer** i Projekt-skærmen og i medlemslisterne på Udvalgsskærmen.
 
 ## Opret en ny person
 

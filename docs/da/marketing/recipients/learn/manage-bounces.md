@@ -4,7 +4,7 @@ title: Blokerede e-mailadresser
 description: "Lær mere om, hvordan du håndterer afviste mails, i denne vejledning."
 keywords: Marketing
 sauthor: SuperOffice RnD
-date: 02.09.2024
+date: 12.11.2024
 version: 10
 topic: howto
 language: da
@@ -117,12 +117,12 @@ Brug denne indstilling til at fjerne e-mailadresser fra listen, så de kan bruge
 2. Vælg **Handlinger** > **Fjern markering af returpost**.
 3. Klik på **OK** for at bekræfte.
 
-### Angiv som tidligere medarbejder
+### Angiv som fratrådt
 
-Brug denne indstilling til at angive en person som tidligere medarbejder.
+Brug denne indstilling til at angive en person som fratrådt medarbejder.
 
 1. Vælg de e-mailadresser, du vil slette.
-2. Vælg **Handlinger** > **Angiv som tidligere medarbejder**.
+2. Vælg **Handlinger** > **Angiv som fratrådt**.
 3. Klik på **OK** for at bekræfte.
 
 <!-- Referenced links -->
