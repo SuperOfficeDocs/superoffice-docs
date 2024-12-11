@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
   - SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
   - SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  - SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
   - SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
   - SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
   - SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
@@ -686,6 +687,36 @@ items:
       description: Error messages tagged by field.
     content.vb: Function ValidateSaleEntity(saleEntity As SaleEntity) As StringDictionary
   overload: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity*
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(System.Int32)
+  id: SaleHasQuote(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaleHasQuote(int)
+  nameWithType: ISaleAgent.SaleHasQuote(int)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns true is the sale has a quote
+  example: []
+  syntax:
+    content: bool SaleHasQuote(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: The id of the sale
+    return:
+      type: System.Boolean
+      description: True if the sale has a quote
+    content.vb: Function SaleHasQuote(saleId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote*
+  nameWithType.vb: ISaleAgent.SaleHasQuote(Integer)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote(Integer)
+  name.vb: SaleHasQuote(Integer)
 - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
   id: GetSaleList(System.Int32[])
@@ -1578,6 +1609,13 @@ references:
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote*
+  commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaleAgent.html#SuperOffice_CRM_Services_ISaleAgent_SaleHasQuote_System_Int32_
+  name: SaleHasQuote
+  nameWithType: ISaleAgent.SaleHasQuote
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaleHasQuote
 - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList*
   commentId: Overload:SuperOffice.CRM.Services.ISaleAgent.GetSaleList
   isExternal: true

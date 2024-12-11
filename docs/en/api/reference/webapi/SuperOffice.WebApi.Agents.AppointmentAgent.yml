@@ -17,6 +17,7 @@ items:
   - SuperOffice.WebApi.Agents.AppointmentAgent.CleanUpBookingDeletedAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.CleanUpBookingDeletedWithUpdateModeAsync(System.Int32[],SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.CleanUpRecurringBookingDeletedAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.CreateAndAcceptAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.CreateAndAcceptWithEmailConfirmationAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.CreateAppointmentEntityFromExistingAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -109,7 +110,7 @@ items:
   - SuperOffice.WebApi.Agents.AppointmentAgent.ToggleAppointmentStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentFromIcsResponseAsync(System.String,System.Byte[],SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.ValidateAppointmentEntityAsync(SuperOffice.WebApi.Data.AppointmentEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.ValidateDaysAsync(SuperOffice.WebApi.Data.AppointmentEntity,System.DateTime[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.AppointmentAgent.WillSendEmailAsync(SuperOffice.WebApi.Data.AppointmentEntity,SuperOffice.WebApi.RequestOptions)
@@ -2320,6 +2321,41 @@ items:
   nameWithType.vb: AppointmentAgent.SaveWithCustomInvitationAsync(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.AppointmentAgent.SaveWithCustomInvitationAsync(SuperOffice.WebApi.Data.AppointmentEntity, SuperOffice.WebApi.Data.RecurrenceUpdateMode, Boolean, SuperOffice.WebApi.Data.EMailConnectionInfo, SuperOffice.WebApi.Data.EMailConnectionInfo, String, String, String, SuperOffice.WebApi.RequestOptions)
   name.vb: SaveWithCustomInvitationAsync(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: ConvertAppointmentToTaskAsync(int, RequestOptions)
+  nameWithType: AppointmentAgent.ConvertAppointmentToTaskAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Convert appointment to task if certain criteria are met (participants &lt; 2)
+  example: []
+  syntax:
+    content: public Task<AppointmentEntity> ConvertAppointmentToTaskAsync(int appointmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: Appointment ID
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AppointmentEntity}
+      description: Appointment entity
+    content.vb: Public Function ConvertAppointmentToTaskAsync(appointmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AppointmentEntity)
+  overload: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AppointmentAgent.ConvertAppointmentToTaskAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: ConvertAppointmentToTaskAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent.GetAppointmentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AppointmentAgent.GetAppointmentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetAppointmentListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -3807,16 +3843,16 @@ items:
   nameWithType.vb: AppointmentAgent.UpdateAppointmentAsync(Integer, Date, Date, Integer, Integer, Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentAsync(Integer, Date, Date, Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: UpdateAppointmentAsync(Integer, Date, Date, Integer, Integer, Integer, RequestOptions)
-- uid: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
-  id: UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  id: UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AppointmentAgent
   langs:
   - csharp
   - vb
-  name: UpdateAppointmentWithModeAsync(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode, RequestOptions)
-  nameWithType: AppointmentAgent.UpdateAppointmentWithModeAsync(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(int, System.DateTime, System.DateTime, int, int, int, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
+  name: UpdateAppointmentWithModeAsync(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode, RequestOptions)
+  nameWithType: AppointmentAgent.UpdateAppointmentWithModeAsync(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(int, System.DateTime, System.DateTime, SuperOffice.WebApi.Data.AppointmentStatus, SuperOffice.WebApi.Data.AppointmentType, int, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
   type: Method
   assemblies:
   - SuperOffice.WebApi
@@ -3824,7 +3860,7 @@ items:
   summary: Updates an appointment record, taking the given recurrence update mode into account.
   example: []
   syntax:
-    content: public Task<Appointment> UpdateAppointmentWithModeAsync(int id, DateTime startTime, DateTime endTime, int status, int type, int associateId, RecurrenceUpdateMode updateMode, RequestOptions requestOptions = null)
+    content: public Task<Appointment> UpdateAppointmentWithModeAsync(int id, DateTime startTime, DateTime endTime, AppointmentStatus status, AppointmentType type, int associateId, RecurrenceUpdateMode updateMode, RequestOptions requestOptions = null)
     parameters:
     - id: id
       type: System.Int32
@@ -3836,10 +3872,10 @@ items:
       type: System.DateTime
       description: ''
     - id: status
-      type: System.Int32
+      type: SuperOffice.WebApi.Data.AppointmentStatus
       description: ''
     - id: type
-      type: System.Int32
+      type: SuperOffice.WebApi.Data.AppointmentType
       description: ''
     - id: associateId
       type: System.Int32
@@ -3853,13 +3889,13 @@ items:
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}
       description: ''
-    content.vb: Public Function UpdateAppointmentWithModeAsync(id As Integer, startTime As Date, endTime As Date, status As Integer, type As Integer, associateId As Integer, updateMode As RecurrenceUpdateMode, requestOptions As RequestOptions = Nothing) As Task(Of Appointment)
+    content.vb: Public Function UpdateAppointmentWithModeAsync(id As Integer, startTime As Date, endTime As Date, status As AppointmentStatus, type As AppointmentType, associateId As Integer, updateMode As RecurrenceUpdateMode, requestOptions As RequestOptions = Nothing) As Task(Of Appointment)
   overload: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync*
   implements:
-  - SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: AppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
-  name.vb: UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode, RequestOptions)
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: AppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, SuperOffice.WebApi.Data.AppointmentStatus, SuperOffice.WebApi.Data.AppointmentType, Integer, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateAppointmentWithModeAsync(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent.GetAssociatesDiaryAsync(System.Int32[],System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AppointmentAgent.GetAssociatesDiaryAsync(System.Int32[],System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
   id: GetAssociatesDiaryAsync(System.Int32[],System.DateTime,System.DateTime,SuperOffice.WebApi.RequestOptions)
@@ -10093,6 +10129,58 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.AppointmentSaveData.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.AppointmentAgent.html#SuperOffice_WebApi_Agents_AppointmentAgent_ConvertAppointmentToTaskAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: ConvertAppointmentToTaskAsync
+  nameWithType: AppointmentAgent.ConvertAppointmentToTaskAsync
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent.ConvertAppointmentToTaskAsync
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAppointmentAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_ConvertAppointmentToTaskAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: ConvertAppointmentToTaskAsync(int, RequestOptions)
+  nameWithType: IAppointmentAgent.ConvertAppointmentToTaskAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAppointmentAgent.ConvertAppointmentToTaskAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: ConvertAppointmentToTaskAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ConvertAppointmentToTaskAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_ConvertAppointmentToTaskAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.ConvertAppointmentToTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: ConvertAppointmentToTaskAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_ConvertAppointmentToTaskAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent.GetAppointmentListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AppointmentAgent.GetAppointmentListAsync
   isExternal: true
@@ -13132,26 +13220,26 @@ references:
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AppointmentAgent.html#SuperOffice_WebApi_Agents_AppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
+  href: SuperOffice.WebApi.Agents.AppointmentAgent.html#SuperOffice_WebApi_Agents_AppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_SuperOffice_WebApi_Data_AppointmentStatus_SuperOffice_WebApi_Data_AppointmentType_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
   name: UpdateAppointmentWithModeAsync
   nameWithType: AppointmentAgent.UpdateAppointmentWithModeAsync
   fullName: SuperOffice.WebApi.Agents.AppointmentAgent.UpdateAppointmentWithModeAsync
-- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IAppointmentAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
-  name: UpdateAppointmentWithModeAsync(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode, RequestOptions)
-  nameWithType: IAppointmentAgent.UpdateAppointmentWithModeAsync(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(int, System.DateTime, System.DateTime, int, int, int, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IAppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
-  name.vb: UpdateAppointmentWithModeAsync(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode, RequestOptions)
+  href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_SuperOffice_WebApi_Data_AppointmentStatus_SuperOffice_WebApi_Data_AppointmentType_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
+  name: UpdateAppointmentWithModeAsync(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode, RequestOptions)
+  nameWithType: IAppointmentAgent.UpdateAppointmentWithModeAsync(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(int, System.DateTime, System.DateTime, SuperOffice.WebApi.Data.AppointmentStatus, SuperOffice.WebApi.Data.AppointmentType, int, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IAppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(Integer, Date, Date, SuperOffice.WebApi.Data.AppointmentStatus, SuperOffice.WebApi.Data.AppointmentType, Integer, SuperOffice.WebApi.Data.RecurrenceUpdateMode, SuperOffice.WebApi.RequestOptions)
+  name.vb: UpdateAppointmentWithModeAsync(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode, RequestOptions)
   spec.csharp:
-  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
     name: UpdateAppointmentWithModeAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
+    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_SuperOffice_WebApi_Data_AppointmentStatus_SuperOffice_WebApi_Data_AppointmentType_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
   - name: (
   - uid: System.Int32
     name: int
@@ -13171,16 +13259,16 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: ','
   - name: " "
-  - uid: System.Int32
-    name: int
+  - uid: SuperOffice.WebApi.Data.AppointmentStatus
+    name: AppointmentStatus
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.WebApi.Data.AppointmentStatus.html
   - name: ','
   - name: " "
-  - uid: System.Int32
-    name: int
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.WebApi.Data.AppointmentType.html
   - name: ','
   - name: " "
   - uid: System.Int32
@@ -13201,10 +13289,10 @@ references:
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
   spec.vb:
-  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.UpdateAppointmentWithModeAsync(System.Int32,System.DateTime,System.DateTime,SuperOffice.WebApi.Data.AppointmentStatus,SuperOffice.WebApi.Data.AppointmentType,System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
     name: UpdateAppointmentWithModeAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
+    href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_UpdateAppointmentWithModeAsync_System_Int32_System_DateTime_System_DateTime_SuperOffice_WebApi_Data_AppointmentStatus_SuperOffice_WebApi_Data_AppointmentType_System_Int32_SuperOffice_WebApi_Data_RecurrenceUpdateMode_SuperOffice_WebApi_RequestOptions_
   - name: (
   - uid: System.Int32
     name: Integer
@@ -13224,16 +13312,16 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: ','
   - name: " "
-  - uid: System.Int32
-    name: Integer
+  - uid: SuperOffice.WebApi.Data.AppointmentStatus
+    name: AppointmentStatus
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.WebApi.Data.AppointmentStatus.html
   - name: ','
   - name: " "
-  - uid: System.Int32
-    name: Integer
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+    href: SuperOffice.WebApi.Data.AppointmentType.html
   - name: ','
   - name: " "
   - uid: System.Int32
@@ -13253,6 +13341,14 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Data.AppointmentStatus
+  commentId: T:SuperOffice.WebApi.Data.AppointmentStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentStatus
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent.GetAssociatesDiaryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.AppointmentAgent.GetAssociatesDiaryAsync
   isExternal: true

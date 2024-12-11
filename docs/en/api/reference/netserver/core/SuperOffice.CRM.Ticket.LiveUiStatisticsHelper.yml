@@ -5,7 +5,7 @@ items:
   id: LiveUiStatisticsHelper
   parent: SuperOffice.CRM.Ticket
   children:
-  - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
+  - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32,SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
   langs:
   - csharp
   - vb
@@ -31,16 +31,16 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32)
-  id: CollectCounter(System.String,System.Int32)
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32,SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
+  commentId: M:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(System.String,System.Int32,SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
+  id: CollectCounter(System.String,System.Int32,SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
   parent: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
   langs:
   - csharp
   - vb
-  name: CollectCounter(string, int)
-  nameWithType: LiveUiStatisticsHelper.CollectCounter(string, int)
-  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(string, int)
+  name: CollectCounter(string, int, AccumulationType)
+  nameWithType: LiveUiStatisticsHelper.CollectCounter(string, int, LiveUiStatisticsHelper.AccumulationType)
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(string, int, SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
   type: Method
   assemblies:
   - SoDataBase
@@ -48,7 +48,7 @@ items:
   summary: Collect a counter, with specified increment, for LiveUI on behalf of current tenant
   example: []
   syntax:
-    content: public static void CollectCounter(string counter, int increment)
+    content: public static void CollectCounter(string counter, int increment, LiveUiStatisticsHelper.AccumulationType accumulationType = AccumulationType.Sum)
     parameters:
     - id: counter
       type: System.String
@@ -56,11 +56,13 @@ items:
     - id: increment
       type: System.Int32
       description: ''
-    content.vb: Public Shared Sub CollectCounter(counter As String, increment As Integer)
+    - id: accumulationType
+      type: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    content.vb: Public Shared Sub CollectCounter(counter As String, increment As Integer, accumulationType As LiveUiStatisticsHelper.AccumulationType = AccumulationType.Sum)
   overload: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter*
-  nameWithType.vb: LiveUiStatisticsHelper.CollectCounter(String, Integer)
-  fullName.vb: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(String, Integer)
-  name.vb: CollectCounter(String, Integer)
+  nameWithType.vb: LiveUiStatisticsHelper.CollectCounter(String, Integer, LiveUiStatisticsHelper.AccumulationType)
+  fullName.vb: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter(String, Integer, SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType)
+  name.vb: CollectCounter(String, Integer, AccumulationType)
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -339,7 +341,7 @@ references:
 - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter*
   commentId: Overload:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter
   isExternal: true
-  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html#SuperOffice_CRM_Ticket_LiveUiStatisticsHelper_CollectCounter_System_String_System_Int32_
+  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html#SuperOffice_CRM_Ticket_LiveUiStatisticsHelper_CollectCounter_System_String_System_Int32_SuperOffice_CRM_Ticket_LiveUiStatisticsHelper_AccumulationType_
   name: CollectCounter
   nameWithType: LiveUiStatisticsHelper.CollectCounter
   fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.CollectCounter
@@ -365,3 +367,31 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  name: LiveUiStatisticsHelper.AccumulationType
+  nameWithType: LiveUiStatisticsHelper.AccumulationType
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html

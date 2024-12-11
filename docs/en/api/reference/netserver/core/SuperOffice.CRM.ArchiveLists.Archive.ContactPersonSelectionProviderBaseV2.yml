@@ -60,6 +60,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetAvailableEntities
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
@@ -997,6 +998,14 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InhibitParallelStart
+  name: InhibitParallelStart
+  nameWithType: MultiQueryProviderBase.InhibitParallelStart
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase

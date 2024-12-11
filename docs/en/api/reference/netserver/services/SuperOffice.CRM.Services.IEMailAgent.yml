@@ -25,6 +25,8 @@ items:
   - SuperOffice.CRM.Services.IEMailAgent.CreateFolder(SuperOffice.CRM.Services.EMailConnectionInfo)
   - SuperOffice.CRM.Services.IEMailAgent.CreateForwardEmail(SuperOffice.CRM.Services.EMailEntity)
   - SuperOffice.CRM.Services.IEMailAgent.CreateInlineHtmlHeader(SuperOffice.CRM.Services.EMailEntity)
+  - SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.IEMailAgent.Delete(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32[],System.String)
   - SuperOffice.CRM.Services.IEMailAgent.DeleteEMailAccount(System.Int32)
   - SuperOffice.CRM.Services.IEMailAgent.DeleteEmails(System.Int32[],System.String)
@@ -2859,6 +2861,85 @@ items:
   nameWithType.vb: IEMailAgent.SaveEmailToTmpDocument(EMailEntity, Integer, Boolean)
   fullName.vb: SuperOffice.CRM.Services.IEMailAgent.SaveEmailToTmpDocument(SuperOffice.CRM.Services.EMailEntity, Integer, Boolean)
   name.vb: SaveEmailToTmpDocument(EMailEntity, Integer, Boolean)
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(System.Int32,System.Int32,System.String)
+  id: CreateNewPhysicalDocumentFromEmailAttachment(System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromEmailAttachment(int, int, string)
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(int, int, string)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(int, int, string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Save the Email from the server as a document file connected to existing document
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: DocumentEntity CreateNewPhysicalDocumentFromEmailAttachment(int documentId, int emailItemId, string attachmentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The document ID int the DB
+    - id: emailItemId
+      type: System.Int32
+      description: The emails ID int the DB
+    - id: attachmentId
+      type: System.String
+      description: Id string of the attachment
+    return:
+      type: SuperOffice.CRM.Services.DocumentEntity
+      description: The document
+    content.vb: Function CreateNewPhysicalDocumentFromEmailAttachment(documentId As Integer, emailItemId As Integer, attachmentId As String) As DocumentEntity
+  overload: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment*
+  nameWithType.vb: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(Integer, Integer, String)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment(Integer, Integer, String)
+  name.vb: CreateNewPhysicalDocumentFromEmailAttachment(Integer, Integer, String)
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail(System.Int32,System.Int32)
+  id: CreateNewPhysicalDocumentFromEmail(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromEmail(int, int)
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmail(int, int)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail(int, int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Save the Email from the server as a document file connected to existing document
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: DocumentEntity CreateNewPhysicalDocumentFromEmail(int documentId, int emailItemId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The document ID int the DB
+    - id: emailItemId
+      type: System.Int32
+      description: The emails ID in the DB
+    return:
+      type: SuperOffice.CRM.Services.DocumentEntity
+      description: The document
+    content.vb: Function CreateNewPhysicalDocumentFromEmail(documentId As Integer, emailItemId As Integer) As DocumentEntity
+  overload: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail*
+  nameWithType.vb: IEMailAgent.CreateNewPhysicalDocumentFromEmail(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail(Integer, Integer)
+  name.vb: CreateNewPhysicalDocumentFromEmail(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IEMailAgent.SaveDraft(SuperOffice.CRM.Services.EMailEntity)
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.SaveDraft(SuperOffice.CRM.Services.EMailEntity)
   id: SaveDraft(SuperOffice.CRM.Services.EMailEntity)
@@ -4597,6 +4678,20 @@ references:
   name: SaveEmailToTmpDocument
   nameWithType: IEMailAgent.SaveEmailToTmpDocument
   fullName: SuperOffice.CRM.Services.IEMailAgent.SaveEmailToTmpDocument
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment
+  isExternal: true
+  href: SuperOffice.CRM.Services.IEMailAgent.html#SuperOffice_CRM_Services_IEMailAgent_CreateNewPhysicalDocumentFromEmailAttachment_System_Int32_System_Int32_System_String_
+  name: CreateNewPhysicalDocumentFromEmailAttachment
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachment
+- uid: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail
+  isExternal: true
+  href: SuperOffice.CRM.Services.IEMailAgent.html#SuperOffice_CRM_Services_IEMailAgent_CreateNewPhysicalDocumentFromEmail_System_Int32_System_Int32_
+  name: CreateNewPhysicalDocumentFromEmail
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmail
+  fullName: SuperOffice.CRM.Services.IEMailAgent.CreateNewPhysicalDocumentFromEmail
 - uid: SuperOffice.CRM.Services.IEMailAgent.SaveDraft*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.SaveDraft
   isExternal: true

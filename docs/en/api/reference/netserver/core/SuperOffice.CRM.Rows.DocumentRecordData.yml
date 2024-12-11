@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRecordData.AppointmentId
   - SuperOffice.CRM.Rows.DocumentRecordData.ArchiveProvider
   - SuperOffice.CRM.Rows.DocumentRecordData.Attention
+  - SuperOffice.CRM.Rows.DocumentRecordData.ContentSetCount
   - SuperOffice.CRM.Rows.DocumentRecordData.DocumentId
   - SuperOffice.CRM.Rows.DocumentRecordData.ExtUrl
   - SuperOffice.CRM.Rows.DocumentRecordData.Extref
@@ -510,6 +511,27 @@ items:
     return:
       type: System.String
     content.vb: Public ExtUrl As String
+- uid: SuperOffice.CRM.Rows.DocumentRecordData.ContentSetCount
+  commentId: F:SuperOffice.CRM.Rows.DocumentRecordData.ContentSetCount
+  id: ContentSetCount
+  parent: SuperOffice.CRM.Rows.DocumentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContentSetCount
+  nameWithType: DocumentRecordData.ContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRecordData.ContentSetCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Number of times content has been set on this document.
+  example: []
+  syntax:
+    content: public int ContentSetCount
+    return:
+      type: System.Int32
+    content.vb: Public ContentSetCount As Integer
 - uid: SuperOffice.CRM.Rows.DocumentRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.DocumentRecordData.#ctor
   id: '#ctor'

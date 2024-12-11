@@ -40,7 +40,9 @@ items:
   - System.Collections.IEnumerable
   inheritedMembers:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
@@ -48,6 +50,7 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
@@ -88,7 +91,6 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
   - SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
@@ -308,6 +310,14 @@ references:
   name: _additionalInfo_GetDeleted
   nameWithType: AssociateMDOProviderBase._additionalInfo_GetDeleted
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
+  commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase__additionalInfo_AddBinaryIconHints
+  name: _additionalInfo_AddBinaryIconHints
+  nameWithType: AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_AddBinaryIconHints
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
   commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
@@ -316,6 +326,36 @@ references:
   name: _AdditionalInfo
   nameWithType: AssociateMDOProviderBase._AdditionalInfo
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
+  name: GetItemExtraInfo(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetItemExtraInfo(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemExtraInfo
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemExtraInfo
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
+  - name: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
@@ -592,6 +632,39 @@ references:
     name: ListTableRow
     isExternal: true
     href: SuperOffice.CRM.Lists.ListTableRow.html
+  - name: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetPersonImage_System_Int32_
+  name: GetPersonImage(int)
+  nameWithType: AssociateMDOProviderBase.GetPersonImage(int)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(int)
+  nameWithType.vb: AssociateMDOProviderBase.GetPersonImage(Integer)
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(Integer)
+  name.vb: GetPersonImage(Integer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
+    name: GetPersonImage
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetPersonImage_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
+    name: GetPersonImage
+    isExternal: true
+    href: SuperOffice.CRM.Lists.AssociateMDOProviderBase.html#SuperOffice_CRM_Lists_AssociateMDOProviderBase_GetPersonImage_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
@@ -1491,36 +1564,6 @@ references:
     name: GetItemStyleHint
     isExternal: true
     href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemStyleHint_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
-  name: GetItemExtraInfo(ListTableRow)
-  nameWithType: MDOProviderBase.GetItemExtraInfo(ListTableRow)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetItemExtraInfo
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListTableRow.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
-    name: GetItemExtraInfo
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MDOProviderBase.html#SuperOffice_CRM_Lists_MDOProviderBase_GetItemExtraInfo_SuperOffice_CRM_Lists_ListTableRow_
   - name: (
   - uid: SuperOffice.CRM.Lists.ListTableRow
     name: ListTableRow

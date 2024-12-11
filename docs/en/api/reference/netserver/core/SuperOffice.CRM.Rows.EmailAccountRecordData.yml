@@ -15,9 +15,11 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRecordData.ErrorCount
   - SuperOffice.CRM.Rows.EmailAccountRecordData.ErrorReason
   - SuperOffice.CRM.Rows.EmailAccountRecordData.IncomingAuth
+  - SuperOffice.CRM.Rows.EmailAccountRecordData.LastFetch
   - SuperOffice.CRM.Rows.EmailAccountRecordData.OutgoingAuth
   - SuperOffice.CRM.Rows.EmailAccountRecordData.Registered
   - SuperOffice.CRM.Rows.EmailAccountRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.EmailAccountRecordData.SimpleMode
   - SuperOffice.CRM.Rows.EmailAccountRecordData.Updated
   - SuperOffice.CRM.Rows.EmailAccountRecordData.UpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRecordData.UpdatedCount
@@ -378,6 +380,48 @@ items:
     return:
       type: System.String
     content.vb: Public ErrorReason As String
+- uid: SuperOffice.CRM.Rows.EmailAccountRecordData.SimpleMode
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRecordData.SimpleMode
+  id: SimpleMode
+  parent: SuperOffice.CRM.Rows.EmailAccountRecordData
+  langs:
+  - csharp
+  - vb
+  name: SimpleMode
+  nameWithType: EmailAccountRecordData.SimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRecordData.SimpleMode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.
+  example: []
+  syntax:
+    content: public short SimpleMode
+    return:
+      type: System.Int16
+    content.vb: Public SimpleMode As Short
+- uid: SuperOffice.CRM.Rows.EmailAccountRecordData.LastFetch
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRecordData.LastFetch
+  id: LastFetch
+  parent: SuperOffice.CRM.Rows.EmailAccountRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastFetch
+  nameWithType: EmailAccountRecordData.LastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRecordData.LastFetch
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: When we last fetched email. in UTC.
+  example: []
+  syntax:
+    content: public DateTime LastFetch
+    return:
+      type: System.DateTime
+    content.vb: Public LastFetch As Date
 - uid: SuperOffice.CRM.Rows.EmailAccountRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRecordData.#ctor
   id: '#ctor'

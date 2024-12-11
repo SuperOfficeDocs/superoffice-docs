@@ -1,0 +1,689 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  id: ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ShipmentLinkRedirectKind.RedirectToURL
+  - SuperOffice.Data.ShipmentLinkRedirectKind.ShowForm
+  - SuperOffice.Data.ShipmentLinkRedirectKind.ShowText
+  langs:
+  - csharp
+  - vb
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: >-
+    Enum defining link redirect kinds
+
+    This Enum is used by:  s_link.redirect_kind
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
+
+      public enum ShipmentLinkRedirectKind : short
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+
+      Public Enum ShipmentLinkRedirectKind As Short
+  extensionMethods:
+  - SuperOffice.Data.ShipmentLinkRedirectKind.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkRedirectKind)
+  - SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.ShowText
+  commentId: F:SuperOffice.Data.ShipmentLinkRedirectKind.ShowText
+  id: ShowText
+  parent: SuperOffice.Data.ShipmentLinkRedirectKind
+  langs:
+  - csharp
+  - vb
+  name: ShowText
+  nameWithType: ShipmentLinkRedirectKind.ShowText
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind.ShowText
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: Show text'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ShowText = 0
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: >-
+      <EnumMember>
+
+      ShowText = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.RedirectToURL
+  commentId: F:SuperOffice.Data.ShipmentLinkRedirectKind.RedirectToURL
+  id: RedirectToURL
+  parent: SuperOffice.Data.ShipmentLinkRedirectKind
+  langs:
+  - csharp
+  - vb
+  name: RedirectToURL
+  nameWithType: ShipmentLinkRedirectKind.RedirectToURL
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind.RedirectToURL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: Redirect to URL'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      RedirectToURL = 1
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: >-
+      <EnumMember>
+
+      RedirectToURL = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.ShowForm
+  commentId: F:SuperOffice.Data.ShipmentLinkRedirectKind.ShowForm
+  id: ShowForm
+  parent: SuperOffice.Data.ShipmentLinkRedirectKind
+  langs:
+  - csharp
+  - vb
+  name: ShowForm
+  nameWithType: ShipmentLinkRedirectKind.ShowForm
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind.ShowForm
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: Show form'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ShowForm = 2
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: >-
+      <EnumMember>
+
+      ShowForm = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ShipmentLinkRedirectKind, To>(ShipmentLinkRedirectKind)
+  nameWithType: EnumUtil.MapEnums<ShipmentLinkRedirectKind, To>(ShipmentLinkRedirectKind)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentLinkRedirectKind, To>(SuperOffice.Data.ShipmentLinkRedirectKind)
+  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentLinkRedirectKind, To)(ShipmentLinkRedirectKind)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentLinkRedirectKind, To)(SuperOffice.Data.ShipmentLinkRedirectKind)
+  name.vb: MapEnums(Of ShipmentLinkRedirectKind, To)(ShipmentLinkRedirectKind)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ShipmentLinkRedirectKind, To>(ShipmentLinkRedirectKind)
+  nameWithType: Converters.MapEnums<ShipmentLinkRedirectKind, To>(ShipmentLinkRedirectKind)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentLinkRedirectKind, To>(SuperOffice.Data.ShipmentLinkRedirectKind)
+  nameWithType.vb: Converters.MapEnums(Of ShipmentLinkRedirectKind, To)(ShipmentLinkRedirectKind)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentLinkRedirectKind, To)(SuperOffice.Data.ShipmentLinkRedirectKind)
+  name.vb: MapEnums(Of ShipmentLinkRedirectKind, To)(ShipmentLinkRedirectKind)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkRedirectKind)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ShipmentLinkRedirectKind>(ShipmentLinkRedirectKind, ShipmentLinkRedirectKind)
+  nameWithType: ObjectExtensions.AssignByReflection<ShipmentLinkRedirectKind>(ShipmentLinkRedirectKind, ShipmentLinkRedirectKind)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShipmentLinkRedirectKind>(SuperOffice.Data.ShipmentLinkRedirectKind, SuperOffice.Data.ShipmentLinkRedirectKind)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ShipmentLinkRedirectKind)(ShipmentLinkRedirectKind, ShipmentLinkRedirectKind)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShipmentLinkRedirectKind)(SuperOffice.Data.ShipmentLinkRedirectKind, SuperOffice.Data.ShipmentLinkRedirectKind)
+  name.vb: AssignByReflection(Of ShipmentLinkRedirectKind)(ShipmentLinkRedirectKind, ShipmentLinkRedirectKind)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkRedirectKind,SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkRedirectKind,SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ShipmentLinkRedirectKind>(ShipmentLinkRedirectKind)
+  nameWithType: ObjectExtensions.GraphCopy<ShipmentLinkRedirectKind>(ShipmentLinkRedirectKind)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShipmentLinkRedirectKind>(SuperOffice.Data.ShipmentLinkRedirectKind)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ShipmentLinkRedirectKind)(ShipmentLinkRedirectKind)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShipmentLinkRedirectKind)(SuperOffice.Data.ShipmentLinkRedirectKind)
+  name.vb: GraphCopy(Of ShipmentLinkRedirectKind)(ShipmentLinkRedirectKind)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentLinkRedirectKind)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
+    isExternal: true
+    href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind

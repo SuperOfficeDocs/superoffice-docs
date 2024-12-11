@@ -14,8 +14,10 @@ items:
   - SuperOffice.WebApi.Data.EMailAccount.ErrorReason
   - SuperOffice.WebApi.Data.EMailAccount.InboxFolder
   - SuperOffice.WebApi.Data.EMailAccount.IncomingCredentials
+  - SuperOffice.WebApi.Data.EMailAccount.LastFetch
   - SuperOffice.WebApi.Data.EMailAccount.OutgoingCredentials
   - SuperOffice.WebApi.Data.EMailAccount.SentFolder
+  - SuperOffice.WebApi.Data.EMailAccount.SimpleMode
   langs:
   - csharp
   - vb
@@ -311,6 +313,52 @@ items:
       type: System.String
     content.vb: Public Overridable Property SentFolder As String
   overload: SuperOffice.WebApi.Data.EMailAccount.SentFolder*
+- uid: SuperOffice.WebApi.Data.EMailAccount.SimpleMode
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.SimpleMode
+  id: SimpleMode
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: SimpleMode
+  nameWithType: EMailAccount.SimpleMode
+  fullName: SuperOffice.WebApi.Data.EMailAccount.SimpleMode
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience
+  example: []
+  syntax:
+    content: public virtual short SimpleMode { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property SimpleMode As Short
+  overload: SuperOffice.WebApi.Data.EMailAccount.SimpleMode*
+- uid: SuperOffice.WebApi.Data.EMailAccount.LastFetch
+  commentId: P:SuperOffice.WebApi.Data.EMailAccount.LastFetch
+  id: LastFetch
+  parent: SuperOffice.WebApi.Data.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: LastFetch
+  nameWithType: EMailAccount.LastFetch
+  fullName: SuperOffice.WebApi.Data.EMailAccount.LastFetch
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: When we last fetched email
+  example: []
+  syntax:
+    content: public virtual DateTime LastFetch { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastFetch As Date
+  overload: SuperOffice.WebApi.Data.EMailAccount.LastFetch*
 references:
 - uid: SuperOffice.WebApi.Agents.EMailAgent
   commentId: T:SuperOffice.WebApi.Agents.EMailAgent
@@ -738,3 +786,28 @@ references:
   name: SentFolder
   nameWithType: EMailAccount.SentFolder
   fullName: SuperOffice.WebApi.Data.EMailAccount.SentFolder
+- uid: SuperOffice.WebApi.Data.EMailAccount.SimpleMode*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.SimpleMode
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailAccount.html#SuperOffice_WebApi_Data_EMailAccount_SimpleMode
+  name: SimpleMode
+  nameWithType: EMailAccount.SimpleMode
+  fullName: SuperOffice.WebApi.Data.EMailAccount.SimpleMode
+- uid: SuperOffice.WebApi.Data.EMailAccount.LastFetch*
+  commentId: Overload:SuperOffice.WebApi.Data.EMailAccount.LastFetch
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMailAccount.html#SuperOffice_WebApi_Data_EMailAccount_LastFetch
+  name: LastFetch
+  nameWithType: EMailAccount.LastFetch
+  fullName: SuperOffice.WebApi.Data.EMailAccount.LastFetch
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date

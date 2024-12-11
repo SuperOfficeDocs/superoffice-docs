@@ -14,11 +14,14 @@ items:
   - SuperOffice.CRM.Data.DBC.SLinkFields.Description
   - SuperOffice.CRM.Data.DBC.SLinkFields.ExtraField
   - SuperOffice.CRM.Data.DBC.SLinkFields.FolderId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.FormId
+  - SuperOffice.CRM.Data.DBC.SLinkFields.FormParameters
   - SuperOffice.CRM.Data.DBC.SLinkFields.Hits
   - SuperOffice.CRM.Data.DBC.SLinkFields.LastReset
+  - SuperOffice.CRM.Data.DBC.SLinkFields.LinkParameters
   - SuperOffice.CRM.Data.DBC.SLinkFields.LinkValue
   - SuperOffice.CRM.Data.DBC.SLinkFields.LocalLink
-  - SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
+  - SuperOffice.CRM.Data.DBC.SLinkFields.RedirectKind
   - SuperOffice.CRM.Data.DBC.SLinkFields.Registered
   - SuperOffice.CRM.Data.DBC.SLinkFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SLinkFields.RemoveContactInterest
@@ -428,27 +431,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const TemplateText As String = "template_text"
-- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
-  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
-  id: RedirectIsUrl
-  parent: SuperOffice.CRM.Data.DBC.SLinkFields
-  langs:
-  - csharp
-  - vb
-  name: RedirectIsUrl
-  nameWithType: DBC.SLinkFields.RedirectIsUrl
-  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectIsUrl
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: 'SLink.RedirectIsUrl: 1 if url is used, 0 if custom text is used.'
-  example: []
-  syntax:
-    content: public const string RedirectIsUrl = "redirect_is_url"
-    return:
-      type: System.String
-    content.vb: Public Const RedirectIsUrl As String = "redirect_is_url"
 - uid: SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
   commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.ActionFlags
   id: ActionFlags
@@ -932,6 +914,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const LocalLink As String = "local_link"
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectKind
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.RedirectKind
+  id: RedirectKind
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: RedirectKind
+  nameWithType: DBC.SLinkFields.RedirectKind
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.RedirectKind
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SLink.RedirectKind: Enum defining the redirect kind (show text, url, etc) of the link'
+  example: []
+  syntax:
+    content: public const string RedirectKind = "redirect_kind"
+    return:
+      type: System.String
+    content.vb: Public Const RedirectKind As String = "redirect_kind"
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.LinkParameters
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.LinkParameters
+  id: LinkParameters
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: LinkParameters
+  nameWithType: DBC.SLinkFields.LinkParameters
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.LinkParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SLink.LinkParameters: Contains parameters that will be added to the link when it is used'
+  example: []
+  syntax:
+    content: public const string LinkParameters = "link_parameters"
+    return:
+      type: System.String
+    content.vb: Public Const LinkParameters As String = "link_parameters"
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.FormId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: DBC.SLinkFields.FormId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.FormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SLink.FormId: Relation to the form this link redirects to'
+  example: []
+  syntax:
+    content: public const string FormId = "form_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormId As String = "form_id"
+- uid: SuperOffice.CRM.Data.DBC.SLinkFields.FormParameters
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkFields.FormParameters
+  id: FormParameters
+  parent: SuperOffice.CRM.Data.DBC.SLinkFields
+  langs:
+  - csharp
+  - vb
+  name: FormParameters
+  nameWithType: DBC.SLinkFields.FormParameters
+  fullName: SuperOffice.CRM.Data.DBC.SLinkFields.FormParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'SLink.FormParameters: Contains url parameters that will be added when link is inserted in message'
+  example: []
+  syntax:
+    content: public const string FormParameters = "form_parameters"
+    return:
+      type: System.String
+    content.vb: Public Const FormParameters As String = "form_parameters"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

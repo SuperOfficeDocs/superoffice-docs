@@ -6,6 +6,7 @@ items:
   children:
   - SuperOffice.CRM.Ticket.DaySchedule
   - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+  - SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
   - SuperOffice.CRM.Ticket.TicketAlertHelper
   - SuperOffice.CRM.Ticket.TicketChangeData
   - SuperOffice.CRM.Ticket.TicketChangeNotificator
@@ -39,6 +40,34 @@ references:
   name: LiveUiStatisticsHelper
   nameWithType: LiveUiStatisticsHelper
   fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+- uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  commentId: T:SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  parent: SuperOffice.CRM.Ticket
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  name: LiveUiStatisticsHelper.AccumulationType
+  nameWithType: LiveUiStatisticsHelper.AccumulationType
+  fullName: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
+    name: LiveUiStatisticsHelper
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.html
+  - name: .
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: AccumulationType
+    isExternal: true
+    href: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType.html
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
   commentId: T:SuperOffice.CRM.Ticket.TicketAlertHelper
   isExternal: true

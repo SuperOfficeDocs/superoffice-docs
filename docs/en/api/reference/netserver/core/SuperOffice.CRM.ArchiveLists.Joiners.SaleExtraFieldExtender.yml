@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor
   - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
+  - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
   - SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.SetJoin
   langs:
   - csharp
@@ -35,6 +36,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -214,6 +216,32 @@ items:
   nameWithType.vb: SaleExtraFieldExtender.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  id: '#ctor(System.String,SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)'
+  parent: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: SaleExtraFieldExtender(string, Features)
+  nameWithType: SaleExtraFieldExtender.SaleExtraFieldExtender(string, SaleExtenderBase.Features)
+  fullName: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.SaleExtraFieldExtender(string, SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Joiners
+  syntax:
+    content: public SaleExtraFieldExtender(string iconHint, SaleExtenderBase.Features features)
+    parameters:
+    - id: iconHint
+      type: System.String
+    - id: features
+      type: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+    content.vb: Public Sub New(iconHint As String, features As SaleExtenderBase.Features)
+  overload: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor*
+  nameWithType.vb: SaleExtraFieldExtender.New(String, SaleExtenderBase.Features)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.New(String, SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features)
+  name.vb: New(String, Features)
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   id: '#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)'
@@ -433,6 +461,14 @@ references:
   name: _soTable
   nameWithType: ExtraFieldExtenderBase._soTable
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__firstProviderInChain
+  name: _firstProviderInChain
+  nameWithType: ExtraFieldExtenderBase._firstProviderInChain
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
@@ -5389,6 +5425,34 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html
+  name: SaleExtenderBase.Features
+  nameWithType: SaleExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+    name: SaleExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+    name: SaleExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.Features.html
 - uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
   commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
   parent: SuperOffice.CRM.ArchiveLists

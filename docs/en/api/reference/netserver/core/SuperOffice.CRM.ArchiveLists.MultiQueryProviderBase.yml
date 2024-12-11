@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetRows(System.String)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.HaveReadToEnd
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitDistinctPrimaryKeys
+  - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InnerPopulateRow(SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.OrderBy
@@ -765,6 +766,29 @@ items:
   nameWithType.vb: MultiQueryProviderBase.SetDesiredEntities(ParamArray String())
   fullName.vb: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.SetDesiredEntities(ParamArray String())
   name.vb: SetDesiredEntities(ParamArray String())
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  id: InhibitParallelStart
+  parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
+  langs:
+  - csharp
+  - vb
+  name: InhibitParallelStart
+  nameWithType: MultiQueryProviderBase.InhibitParallelStart
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: If true, subproviders will be started in sequence, rather than in parallel
+  example: []
+  syntax:
+    content: public bool InhibitParallelStart { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InhibitParallelStart As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart*
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   commentId: P:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   id: Options
@@ -2660,6 +2684,13 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html#SuperOffice_CRM_ArchiveLists_MultiQueryProviderBase_InhibitParallelStart
+  name: InhibitParallelStart
+  nameWithType: MultiQueryProviderBase.InhibitParallelStart
+  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.InhibitParallelStart
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.Options
   isExternal: true

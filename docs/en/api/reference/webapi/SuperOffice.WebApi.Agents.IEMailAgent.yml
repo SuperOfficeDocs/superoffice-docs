@@ -25,6 +25,8 @@ items:
   - SuperOffice.WebApi.Agents.IEMailAgent.CreateFolderAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.CreateForwardEmailAsync(SuperOffice.WebApi.Data.EMailEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.CreateInlineHtmlHeaderAsync(SuperOffice.WebApi.Data.EMailEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.DeleteAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.DeleteEMailAccountAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.DeleteEmailsAsync(System.Int32[],System.String,SuperOffice.WebApi.RequestOptions)
@@ -3079,6 +3081,91 @@ items:
   nameWithType.vb: IEMailAgent.SaveEmailToTmpDocumentAsync(EMailEntity, Integer, Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.SaveEmailToTmpDocumentAsync(SuperOffice.WebApi.Data.EMailEntity, Integer, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: SaveEmailToTmpDocumentAsync(EMailEntity, Integer, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateNewPhysicalDocumentFromEmailAttachmentAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromEmailAttachmentAsync(int, int, string, RequestOptions)
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(int, int, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Save the Email from the server as a document file connected to existing document
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: Task<DocumentEntity> CreateNewPhysicalDocumentFromEmailAttachmentAsync(int documentId, int emailItemId, string attachmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The document ID int the DB
+    - id: emailItemId
+      type: System.Int32
+      description: The emails ID int the DB
+    - id: attachmentId
+      type: System.String
+      description: Id string of the attachment
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentEntity}
+      description: The document
+    content.vb: Function CreateNewPhysicalDocumentFromEmailAttachmentAsync(documentId As Integer, emailItemId As Integer, attachmentId As String, requestOptions As RequestOptions = Nothing) As Task(Of DocumentEntity)
+  overload: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync*
+  nameWithType.vb: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(Integer, Integer, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateNewPhysicalDocumentFromEmailAttachmentAsync(Integer, Integer, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CreateNewPhysicalDocumentFromEmailAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewPhysicalDocumentFromEmailAsync(int, int, RequestOptions)
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Save the Email from the server as a document file connected to existing document
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: Task<DocumentEntity> CreateNewPhysicalDocumentFromEmailAsync(int documentId, int emailItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The document ID int the DB
+    - id: emailItemId
+      type: System.Int32
+      description: The emails ID in the DB
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentEntity}
+      description: The document
+    content.vb: Function CreateNewPhysicalDocumentFromEmailAsync(documentId As Integer, emailItemId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of DocumentEntity)
+  overload: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync*
+  nameWithType.vb: IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateNewPhysicalDocumentFromEmailAsync(Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IEMailAgent.SaveDraftAsync(SuperOffice.WebApi.Data.EMailEntity,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.SaveDraftAsync(SuperOffice.WebApi.Data.EMailEntity,SuperOffice.WebApi.RequestOptions)
   id: SaveDraftAsync(SuperOffice.WebApi.Data.EMailEntity,SuperOffice.WebApi.RequestOptions)
@@ -5713,6 +5800,55 @@ references:
   name: SaveEmailToTmpDocumentAsync
   nameWithType: IEMailAgent.SaveEmailToTmpDocumentAsync
   fullName: SuperOffice.WebApi.Agents.IEMailAgent.SaveEmailToTmpDocumentAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_CreateNewPhysicalDocumentFromEmailAttachmentAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
+  name: CreateNewPhysicalDocumentFromEmailAttachmentAsync
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAttachmentAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DocumentEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DocumentEntity>
+  nameWithType: Task<DocumentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DocumentEntity>
+  nameWithType.vb: Task(Of DocumentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DocumentEntity)
+  name.vb: Task(Of DocumentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.DocumentEntity
+    name: DocumentEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.DocumentEntity
+    name: DocumentEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.DocumentEntity.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_CreateNewPhysicalDocumentFromEmailAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: CreateNewPhysicalDocumentFromEmailAsync
+  nameWithType: IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.CreateNewPhysicalDocumentFromEmailAsync
 - uid: SuperOffice.WebApi.Agents.IEMailAgent.SaveDraftAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IEMailAgent.SaveDraftAsync
   isExternal: true

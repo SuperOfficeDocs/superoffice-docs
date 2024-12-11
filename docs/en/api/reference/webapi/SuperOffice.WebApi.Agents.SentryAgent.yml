@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Agents.SentryAgent.#ctor(System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SentryAgent.GetTableRightByContactOwnershipAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -314,6 +315,41 @@ items:
   nameWithType.vb: SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
   name.vb: CanCreateAppointmentInAssociateDiariesAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
+  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: CanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+  example: []
+  syntax:
+    content: public Task<bool[]> CanCreateAppointmentInEachAssociatesDiaryAsync(int[] associateIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate ids to check.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean[]}
+      description: Returns true if for each given associate if the current associate can create appointments in that diary, otherwise false.
+    content.vb: Public Function CanCreateAppointmentInEachAssociatesDiaryAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean())
+  overload: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   id: CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
@@ -2043,6 +2079,101 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SentryAgent.html#SuperOffice_WebApi_Agents_SentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync
+  nameWithType: SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
+  fullName: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
+- uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISentryAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
+  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInEachAssociatesDiaryAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: CanCreateAppointmentInEachAssociatesDiaryAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean[]}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool[]>
+  nameWithType: Task<bool[]>
+  fullName: System.Threading.Tasks.Task<bool[]>
+  nameWithType.vb: Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
+  name.vb: Task(Of Boolean())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
   - name: )
 - uid: SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SentryAgent.CanCreateAppointmentInAllDiariesAsync

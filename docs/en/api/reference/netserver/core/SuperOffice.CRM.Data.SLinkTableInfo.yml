@@ -22,15 +22,19 @@ items:
   - SuperOffice.CRM.Data.SLinkTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.SLinkTableInfo.ExtraField
   - SuperOffice.CRM.Data.SLinkTableInfo.FolderId
+  - SuperOffice.CRM.Data.SLinkTableInfo.FormId
+  - SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+  - SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
   - SuperOffice.CRM.Data.SLinkTableInfo.Hits
   - SuperOffice.CRM.Data.SLinkTableInfo.LastReset
   - SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_EmailFlowContentLink_SLinkId
   - SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomerStatical_LinkId
   - SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
+  - SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
   - SuperOffice.CRM.Data.SLinkTableInfo.LinkValue
   - SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
   - SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage
-  - SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
+  - SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
   - SuperOffice.CRM.Data.SLinkTableInfo.Registered
   - SuperOffice.CRM.Data.SLinkTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.SLinkTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -690,32 +694,6 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property TemplateText As StringFieldInfo
   overload: SuperOffice.CRM.Data.SLinkTableInfo.TemplateText*
-- uid: SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
-  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
-  id: RedirectIsUrl
-  parent: SuperOffice.CRM.Data.SLinkTableInfo
-  langs:
-  - csharp
-  - vb
-  name: RedirectIsUrl
-  nameWithType: SLinkTableInfo.RedirectIsUrl
-  fullName: SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'redirect_is_url' in table 's_link': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    1 if url is used, 0 if custom text is used.
-  example: []
-  syntax:
-    content: public UInt16FieldInfo RedirectIsUrl { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.UInt16FieldInfo
-    content.vb: Public ReadOnly Property RedirectIsUrl As UInt16FieldInfo
-  overload: SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl*
 - uid: SuperOffice.CRM.Data.SLinkTableInfo.ActionFlags
   commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.ActionFlags
   id: ActionFlags
@@ -1314,6 +1292,110 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property LocalLink As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
+  id: RedirectKind
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RedirectKind
+  nameWithType: SLinkTableInfo.RedirectKind
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'redirect_kind' in table 's_link': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.ShipmentLinkRedirectKind" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Enum defining the redirect kind (show text, url, etc) of the link
+  example: []
+  syntax:
+    content: public ShipmentLinkRedirectKindFieldInfo RedirectKind { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+    content.vb: Public ReadOnly Property RedirectKind As ShipmentLinkRedirectKindFieldInfo
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
+  id: LinkParameters
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LinkParameters
+  nameWithType: SLinkTableInfo.LinkParameters
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'link_parameters' in table 's_link': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Contains parameters that will be added to the link when it is used
+  example: []
+  syntax:
+    content: public StringFieldInfo LinkParameters { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LinkParameters As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormId
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: SLinkTableInfo.FormId
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'form_id' in table 's_link': Dictionary type FK, target: Form, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Relation to the form this link redirects to
+  example: []
+  syntax:
+    content: public Int32FieldInfo FormId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property FormId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.FormId*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
+  id: FormParameters
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormParameters
+  nameWithType: SLinkTableInfo.FormParameters
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'form_parameters' in table 's_link': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Contains url parameters that will be added when link is inserted in message
+  example: []
+  syntax:
+    content: public StringFieldInfo FormParameters { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FormParameters As StringFieldInfo
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.FormParameters*
 - uid: SuperOffice.CRM.Data.SLinkTableInfo.ScriptId_InnerJoin_Ejscript
   commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.ScriptId_InnerJoin_Ejscript
   id: ScriptId_InnerJoin_Ejscript
@@ -1797,6 +1879,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SMessageTableInfo}
     content.vb: Public ReadOnly Property LocalLink_InnerJoin_SMessage As TargetedInnerJoin(Of SMessageTableInfo)
   overload: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink_InnerJoin_SMessage*
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+  commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+  id: FormId_InnerJoin_Form
+  parent: SuperOffice.CRM.Data.SLinkTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormId_InnerJoin_Form
+  nameWithType: SLinkTableInfo.FormId_InnerJoin_Form
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key FormId in this table, to its target table <xref href="SuperOffice.CRM.Data.FormTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<FormTableInfo> FormId_InnerJoin_Form { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+    content.vb: Public ReadOnly Property FormId_InnerJoin_Form As TargetedInnerJoin(Of FormTableInfo)
+  overload: SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form*
 - uid: SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
   commentId: P:SuperOffice.CRM.Data.SLinkTableInfo.LeftOuterJoin_SLinkCustomer_LinkId
   id: LeftOuterJoin_SLinkCustomer_LinkId
@@ -2941,13 +3046,6 @@ references:
   name: TemplateText
   nameWithType: SLinkTableInfo.TemplateText
   fullName: SuperOffice.CRM.Data.SLinkTableInfo.TemplateText
-- uid: SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl*
-  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
-  isExternal: true
-  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_RedirectIsUrl
-  name: RedirectIsUrl
-  nameWithType: SLinkTableInfo.RedirectIsUrl
-  fullName: SuperOffice.CRM.Data.SLinkTableInfo.RedirectIsUrl
 - uid: SuperOffice.Data.ShipmentLinkAction
   commentId: T:SuperOffice.Data.ShipmentLinkAction
   parent: SuperOffice.Data
@@ -3168,6 +3266,50 @@ references:
   name: LocalLink
   nameWithType: SLinkTableInfo.LocalLink
   fullName: SuperOffice.CRM.Data.SLinkTableInfo.LocalLink
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_RedirectKind
+  name: RedirectKind
+  nameWithType: SLinkTableInfo.RedirectKind
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.RedirectKind
+- uid: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo.html
+  name: ShipmentLinkRedirectKindFieldInfo
+  nameWithType: ShipmentLinkRedirectKindFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_LinkParameters
+  name: LinkParameters
+  nameWithType: SLinkTableInfo.LinkParameters
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.LinkParameters
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormId*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.FormId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_FormId
+  name: FormId
+  nameWithType: SLinkTableInfo.FormId
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormId
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormParameters*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_FormParameters
+  name: FormParameters
+  nameWithType: SLinkTableInfo.FormParameters
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormParameters
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo
   commentId: T:SuperOffice.CRM.Data.EjscriptTableInfo
   parent: SuperOffice.CRM.Data
@@ -3858,6 +4000,56 @@ references:
     name: SMessageTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.SMessageTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.FormTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormTableInfo.html
+  name: FormTableInfo
+  nameWithType: FormTableInfo
+  fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form*
+  commentId: Overload:SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+  isExternal: true
+  href: SuperOffice.CRM.Data.SLinkTableInfo.html#SuperOffice_CRM_Data_SLinkTableInfo_FormId_InnerJoin_Form
+  name: FormId_InnerJoin_Form
+  nameWithType: SLinkTableInfo.FormId_InnerJoin_Form
+  fullName: SuperOffice.CRM.Data.SLinkTableInfo.FormId_InnerJoin_Form
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<FormTableInfo>
+  nameWithType: TargetedInnerJoin<FormTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.FormTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of FormTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.FormTableInfo)
+  name.vb: TargetedInnerJoin(Of FormTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.FormTableInfo
+    name: FormTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.FormTableInfo
+    name: FormTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.SLinkCustomerTableInfo.LinkId
   commentId: P:SuperOffice.CRM.Data.SLinkCustomerTableInfo.LinkId

@@ -934,7 +934,7 @@ items:
       description: Plugin-dependent metadata for the initial version
     return:
       type: System.String
-      description: ''
+      description: The external reference that identifies this document. This return value is written to the document record's ExtRef field. For SO_ARC this is always blank.
     content.vb: Public Function CreateDocument(incomingInfo As IDocumentInfo, fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String()) As String
   overload: SuperOffice.CRM.Documents.SoArc2.CreateDocument*
   implements:

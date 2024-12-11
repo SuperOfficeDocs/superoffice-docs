@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Data.EmailAccountTableInfo.ErrorReason
   - SuperOffice.CRM.Data.EmailAccountTableInfo.IncomingAuth
   - SuperOffice.CRM.Data.EmailAccountTableInfo.IncomingAuth_InnerJoin_ServiceAuth
+  - SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
   - SuperOffice.CRM.Data.EmailAccountTableInfo.LeftOuterJoin_EmailFolder_AccountId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.LeftOuterJoin_EmailItem_AccountId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.OutgoingAuth
@@ -27,6 +28,7 @@ items:
   - SuperOffice.CRM.Data.EmailAccountTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.EmailAccountTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
   - SuperOffice.CRM.Data.EmailAccountTableInfo.Updated
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId_InnerJoin_Associate
@@ -595,6 +597,58 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ErrorReason As StringFieldInfo
   overload: SuperOffice.CRM.Data.EmailAccountTableInfo.ErrorReason*
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
+  commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
+  id: SimpleMode
+  parent: SuperOffice.CRM.Data.EmailAccountTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SimpleMode
+  nameWithType: EmailAccountTableInfo.SimpleMode
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'simple_mode' in table 'email_account': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.
+  example: []
+  syntax:
+    content: public UInt16FieldInfo SimpleMode { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property SimpleMode As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode*
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+  commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+  id: LastFetch
+  parent: SuperOffice.CRM.Data.EmailAccountTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastFetch
+  nameWithType: EmailAccountTableInfo.LastFetch
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'last_fetch' in table 'email_account': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When we last fetched email.
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo LastFetch { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastFetch As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch*
 - uid: SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -1860,6 +1914,20 @@ references:
   name: ErrorReason
   nameWithType: EmailAccountTableInfo.ErrorReason
   fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.ErrorReason
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode*
+  commentId: Overload:SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailAccountTableInfo.html#SuperOffice_CRM_Data_EmailAccountTableInfo_SimpleMode
+  name: SimpleMode
+  nameWithType: EmailAccountTableInfo.SimpleMode
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.SimpleMode
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch*
+  commentId: Overload:SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailAccountTableInfo.html#SuperOffice_CRM_Data_EmailAccountTableInfo_LastFetch
+  name: LastFetch
+  nameWithType: EmailAccountTableInfo.LastFetch
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

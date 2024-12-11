@@ -14,9 +14,11 @@ items:
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.ErrorCount
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.ErrorReason
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.IncomingAuth
+  - SuperOffice.CRM.Data.DBC.EmailAccountFields.LastFetch
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.OutgoingAuth
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.Registered
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailAccountFields.SimpleMode
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.Updated
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.EmailAccountFields.UpdatedCount
@@ -360,6 +362,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const ErrorReason As String = "error_reason"
+- uid: SuperOffice.CRM.Data.DBC.EmailAccountFields.SimpleMode
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAccountFields.SimpleMode
+  id: SimpleMode
+  parent: SuperOffice.CRM.Data.DBC.EmailAccountFields
+  langs:
+  - csharp
+  - vb
+  name: SimpleMode
+  nameWithType: DBC.EmailAccountFields.SimpleMode
+  fullName: SuperOffice.CRM.Data.DBC.EmailAccountFields.SimpleMode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'EmailAccount.SimpleMode: Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.'
+  example: []
+  syntax:
+    content: public const string SimpleMode = "simple_mode"
+    return:
+      type: System.String
+    content.vb: Public Const SimpleMode As String = "simple_mode"
+- uid: SuperOffice.CRM.Data.DBC.EmailAccountFields.LastFetch
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailAccountFields.LastFetch
+  id: LastFetch
+  parent: SuperOffice.CRM.Data.DBC.EmailAccountFields
+  langs:
+  - csharp
+  - vb
+  name: LastFetch
+  nameWithType: DBC.EmailAccountFields.LastFetch
+  fullName: SuperOffice.CRM.Data.DBC.EmailAccountFields.LastFetch
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'EmailAccount.LastFetch: When we last fetched email.'
+  example: []
+  syntax:
+    content: public const string LastFetch = "last_fetch"
+    return:
+      type: System.String
+    content.vb: Public Const LastFetch As String = "last_fetch"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

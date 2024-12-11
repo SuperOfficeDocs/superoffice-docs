@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.#ctor(System.Int32,System.Action{SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter,System.Object},System.Object)
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.Dispose
+  - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample(System.String,System.String,System.String,System.Int32)
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportSample(System.String,System.String,System.String,System.Int32)
   langs:
   - csharp
@@ -94,6 +95,36 @@ items:
   nameWithType.vb: SimplePeriodicGrafanaReporter.ReportSample(String, String, String, Integer)
   fullName.vb: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportSample(String, String, String, Integer)
   name.vb: ReportSample(String, String, String, Integer)
+- uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample(System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample(System.String,System.String,System.String,System.Int32)
+  id: ReportMaxSample(System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+  langs:
+  - csharp
+  - vb
+  name: ReportMaxSample(string, string, string, int)
+  nameWithType: SimplePeriodicGrafanaReporter.ReportMaxSample(string, string, string, int)
+  fullName: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample(string, string, string, int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void ReportMaxSample(string category, string counter, string instance, int value)
+    parameters:
+    - id: category
+      type: System.String
+    - id: counter
+      type: System.String
+    - id: instance
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub ReportMaxSample(category As String, counter As String, instance As String, value As Integer)
+  overload: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample*
+  nameWithType.vb: SimplePeriodicGrafanaReporter.ReportMaxSample(String, String, String, Integer)
+  fullName.vb: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample(String, String, String, Integer)
+  name.vb: ReportMaxSample(String, String, String, Integer)
 - uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.Dispose
   commentId: M:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.Dispose
   id: Dispose
@@ -746,6 +777,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample*
+  commentId: Overload:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample
+  isExternal: true
+  href: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.html#SuperOffice_Diagnostics_SimplePeriodicGrafanaReporter_ReportMaxSample_System_String_System_String_System_String_System_Int32_
+  name: ReportMaxSample
+  nameWithType: SimplePeriodicGrafanaReporter.ReportMaxSample
+  fullName: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.ReportMaxSample
 - uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.Dispose*
   commentId: Overload:SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter.Dispose
   isExternal: true

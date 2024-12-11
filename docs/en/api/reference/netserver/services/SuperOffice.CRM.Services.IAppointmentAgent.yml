@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeleted(System.Int32[])
   - SuperOffice.CRM.Services.IAppointmentAgent.CleanUpBookingDeletedWithUpdateMode(System.Int32[],SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.IAppointmentAgent.CleanUpRecurringBookingDeleted
+  - SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask(System.Int32)
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateAndAccept(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateAndAcceptWithEmailConfirmation(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateAppointmentEntityFromExisting(System.Int32,System.Int32)
@@ -107,7 +108,7 @@ items:
   - SuperOffice.CRM.Services.IAppointmentAgent.ToggleAppointmentStatus(System.Int32)
   - SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointment(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentFromIcsResponse(System.String,System.IO.Stream)
-  - SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+  - SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.IAppointmentAgent.ValidateAppointmentEntity(SuperOffice.CRM.Services.AppointmentEntity)
   - SuperOffice.CRM.Services.IAppointmentAgent.ValidateDays(SuperOffice.CRM.Services.AppointmentEntity,System.DateTime[])
   - SuperOffice.CRM.Services.IAppointmentAgent.WillSendEmail(SuperOffice.CRM.Services.AppointmentEntity)
@@ -1910,6 +1911,36 @@ items:
   nameWithType.vb: IAppointmentAgent.SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.SaveWithCustomInvitation(SuperOffice.CRM.Services.AppointmentEntity, SuperOffice.Data.RecurrenceUpdateMode, Boolean, SuperOffice.CRM.Services.EMailConnectionInfo, SuperOffice.CRM.Services.EMailConnectionInfo, String, String, String)
   name.vb: SaveWithCustomInvitation(AppointmentEntity, RecurrenceUpdateMode, Boolean, EMailConnectionInfo, EMailConnectionInfo, String, String, String)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask(System.Int32)
+  id: ConvertAppointmentToTask(System.Int32)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: ConvertAppointmentToTask(int)
+  nameWithType: IAppointmentAgent.ConvertAppointmentToTask(int)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask(int)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Convert appointment to task if certain criteria are met (participants &lt; 2)
+  example: []
+  syntax:
+    content: AppointmentEntity ConvertAppointmentToTask(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+      description: Appointment ID
+    return:
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: Appointment entity
+    content.vb: Function ConvertAppointmentToTask(appointmentId As Integer) As AppointmentEntity
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask*
+  nameWithType.vb: IAppointmentAgent.ConvertAppointmentToTask(Integer)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask(Integer)
+  name.vb: ConvertAppointmentToTask(Integer)
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentList(System.Int32[])
   id: GetAppointmentList(System.Int32[])
@@ -3226,16 +3257,16 @@ items:
   nameWithType.vb: IAppointmentAgent.UpdateAppointment(Integer, Date, Date, Integer, Integer, Integer)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointment(Integer, Date, Date, Integer, Integer, Integer)
   name.vb: UpdateAppointment(Integer, Date, Date, Integer, Integer, Integer)
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
-  id: UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
+  id: UpdateAppointmentWithMode(System.Int32,System.DateTime,System.DateTime,SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentType,System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   parent: SuperOffice.CRM.Services.IAppointmentAgent
   langs:
   - csharp
   - vb
-  name: UpdateAppointmentWithMode(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode)
-  nameWithType: IAppointmentAgent.UpdateAppointmentWithMode(int, DateTime, DateTime, int, int, int, RecurrenceUpdateMode)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(int, System.DateTime, System.DateTime, int, int, int, SuperOffice.Data.RecurrenceUpdateMode)
+  name: UpdateAppointmentWithMode(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode)
+  nameWithType: IAppointmentAgent.UpdateAppointmentWithMode(int, DateTime, DateTime, AppointmentStatus, AppointmentType, int, RecurrenceUpdateMode)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(int, System.DateTime, System.DateTime, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType, int, SuperOffice.Data.RecurrenceUpdateMode)
   type: Method
   assemblies:
   - SuperOffice.Services
@@ -3243,7 +3274,7 @@ items:
   summary: Updates an appointment record, taking the given recurrence update mode into account.
   example: []
   syntax:
-    content: Appointment UpdateAppointmentWithMode(int id, DateTime startTime, DateTime endTime, int status, int type, int associateId, RecurrenceUpdateMode updateMode)
+    content: Appointment UpdateAppointmentWithMode(int id, DateTime startTime, DateTime endTime, AppointmentStatus status, AppointmentType type, int associateId, RecurrenceUpdateMode updateMode)
     parameters:
     - id: id
       type: System.Int32
@@ -3255,10 +3286,10 @@ items:
       type: System.DateTime
       description: ''
     - id: status
-      type: System.Int32
+      type: SuperOffice.Data.AppointmentStatus
       description: ''
     - id: type
-      type: System.Int32
+      type: SuperOffice.Data.AppointmentType
       description: ''
     - id: associateId
       type: System.Int32
@@ -3269,11 +3300,11 @@ items:
     return:
       type: SuperOffice.CRM.Services.Appointment
       description: ''
-    content.vb: Function UpdateAppointmentWithMode(id As Integer, startTime As Date, endTime As Date, status As Integer, type As Integer, associateId As Integer, updateMode As RecurrenceUpdateMode) As Appointment
+    content.vb: Function UpdateAppointmentWithMode(id As Integer, startTime As Date, endTime As Date, status As AppointmentStatus, type As AppointmentType, associateId As Integer, updateMode As RecurrenceUpdateMode) As Appointment
   overload: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode*
-  nameWithType.vb: IAppointmentAgent.UpdateAppointmentWithMode(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode)
-  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(Integer, Date, Date, Integer, Integer, Integer, SuperOffice.Data.RecurrenceUpdateMode)
-  name.vb: UpdateAppointmentWithMode(Integer, Date, Date, Integer, Integer, Integer, RecurrenceUpdateMode)
+  nameWithType.vb: IAppointmentAgent.UpdateAppointmentWithMode(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode(Integer, Date, Date, SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentType, Integer, SuperOffice.Data.RecurrenceUpdateMode)
+  name.vb: UpdateAppointmentWithMode(Integer, Date, Date, AppointmentStatus, AppointmentType, Integer, RecurrenceUpdateMode)
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAssociatesDiary(System.Int32[],System.DateTime,System.DateTime)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetAssociatesDiary(System.Int32[],System.DateTime,System.DateTime)
   id: GetAssociatesDiary(System.Int32[],System.DateTime,System.DateTime)
@@ -4559,6 +4590,13 @@ references:
   name: AppointmentSaveData
   nameWithType: AppointmentSaveData
   fullName: SuperOffice.CRM.Services.AppointmentSaveData
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_ConvertAppointmentToTask_System_Int32_
+  name: ConvertAppointmentToTask
+  nameWithType: IAppointmentAgent.ConvertAppointmentToTask
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.ConvertAppointmentToTask
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentList*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentList
   isExternal: true
@@ -4828,7 +4866,7 @@ references:
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_UpdateAppointmentWithMode_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_UpdateAppointmentWithMode_System_Int32_System_DateTime_System_DateTime_SuperOffice_Data_AppointmentStatus_SuperOffice_Data_AppointmentType_System_Int32_SuperOffice_Data_RecurrenceUpdateMode_
   name: UpdateAppointmentWithMode
   nameWithType: IAppointmentAgent.UpdateAppointmentWithMode
   fullName: SuperOffice.CRM.Services.IAppointmentAgent.UpdateAppointmentWithMode

@@ -15,11 +15,14 @@ items:
   - SuperOffice.CRM.Rows.SLinkRecordData.Description
   - SuperOffice.CRM.Rows.SLinkRecordData.ExtraField
   - SuperOffice.CRM.Rows.SLinkRecordData.FolderId
+  - SuperOffice.CRM.Rows.SLinkRecordData.FormId
+  - SuperOffice.CRM.Rows.SLinkRecordData.FormParameters
   - SuperOffice.CRM.Rows.SLinkRecordData.Hits
   - SuperOffice.CRM.Rows.SLinkRecordData.LastReset
+  - SuperOffice.CRM.Rows.SLinkRecordData.LinkParameters
   - SuperOffice.CRM.Rows.SLinkRecordData.LinkValue
   - SuperOffice.CRM.Rows.SLinkRecordData.LocalLink
-  - SuperOffice.CRM.Rows.SLinkRecordData.RedirectIsUrl
+  - SuperOffice.CRM.Rows.SLinkRecordData.RedirectKind
   - SuperOffice.CRM.Rows.SLinkRecordData.Registered
   - SuperOffice.CRM.Rows.SLinkRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.SLinkRecordData.RemoveContactInterest
@@ -446,27 +449,6 @@ items:
     return:
       type: System.String
     content.vb: Public TemplateText As String
-- uid: SuperOffice.CRM.Rows.SLinkRecordData.RedirectIsUrl
-  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.RedirectIsUrl
-  id: RedirectIsUrl
-  parent: SuperOffice.CRM.Rows.SLinkRecordData
-  langs:
-  - csharp
-  - vb
-  name: RedirectIsUrl
-  nameWithType: SLinkRecordData.RedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRecordData.RedirectIsUrl
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: 1 if url is used, 0 if custom text is used.
-  example: []
-  syntax:
-    content: public short RedirectIsUrl
-    return:
-      type: System.Int16
-    content.vb: Public RedirectIsUrl As Short
 - uid: SuperOffice.CRM.Rows.SLinkRecordData.ActionFlags
   commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.ActionFlags
   id: ActionFlags
@@ -950,6 +932,90 @@ items:
     return:
       type: System.Int32
     content.vb: Public LocalLink As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRecordData.RedirectKind
+  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.RedirectKind
+  id: RedirectKind
+  parent: SuperOffice.CRM.Rows.SLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: RedirectKind
+  nameWithType: SLinkRecordData.RedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRecordData.RedirectKind
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Enum defining the redirect kind (show text, url, etc) of the link
+  example: []
+  syntax:
+    content: public ShipmentLinkRedirectKind RedirectKind
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: Public RedirectKind As ShipmentLinkRedirectKind
+- uid: SuperOffice.CRM.Rows.SLinkRecordData.LinkParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.LinkParameters
+  id: LinkParameters
+  parent: SuperOffice.CRM.Rows.SLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: LinkParameters
+  nameWithType: SLinkRecordData.LinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRecordData.LinkParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Contains parameters that will be added to the link when it is used
+  example: []
+  syntax:
+    content: public string LinkParameters
+    return:
+      type: System.String
+    content.vb: Public LinkParameters As String
+- uid: SuperOffice.CRM.Rows.SLinkRecordData.FormId
+  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Rows.SLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: SLinkRecordData.FormId
+  fullName: SuperOffice.CRM.Rows.SLinkRecordData.FormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Relation to the form this link redirects to
+  example: []
+  syntax:
+    content: public int FormId
+    return:
+      type: System.Int32
+    content.vb: Public FormId As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRecordData.FormParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRecordData.FormParameters
+  id: FormParameters
+  parent: SuperOffice.CRM.Rows.SLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormParameters
+  nameWithType: SLinkRecordData.FormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRecordData.FormParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Contains url parameters that will be added when link is inserted in message
+  example: []
+  syntax:
+    content: public string FormParameters
+    return:
+      type: System.String
+    content.vb: Public FormParameters As String
 - uid: SuperOffice.CRM.Rows.SLinkRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SLinkRecordData.#ctor
   id: '#ctor'
@@ -1906,6 +1972,14 @@ references:
   name: ShipmentLinkTaskFlags
   nameWithType: ShipmentLinkTaskFlags
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
 - uid: SuperOffice.CRM.Rows.SLinkRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SLinkRecordData.#ctor
   isExternal: true

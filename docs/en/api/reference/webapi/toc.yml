@@ -410,6 +410,8 @@ items:
     name: Appointment_CleanUpBookingDeletedWithUpdateModeRequest
   - uid: SuperOffice.WebApi.Data.Appointment_CleanUpRecurringBookingDeletedRequest
     name: Appointment_CleanUpRecurringBookingDeletedRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest
+    name: Appointment_ConvertAppointmentToTaskRequest
   - uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
     name: Appointment_CreateAndAcceptRequest
   - uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
@@ -1722,6 +1724,10 @@ items:
     name: EMail_CreateForwardEmailRequest
   - uid: SuperOffice.WebApi.Data.EMail_CreateInlineHtmlHeaderRequest
     name: EMail_CreateInlineHtmlHeaderRequest
+  - uid: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+    name: EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  - uid: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest
+    name: EMail_CreateNewPhysicalDocumentFromEmailRequest
   - uid: SuperOffice.WebApi.Data.EMail_DeleteEmailsRequest
     name: EMail_DeleteEmailsRequest
   - uid: SuperOffice.WebApi.Data.EMail_DeleteExtendedRequest
@@ -3628,6 +3634,8 @@ items:
     name: Sale_IsNumberValidRequest
   - uid: SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
     name: Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  - uid: SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
+    name: Sale_SaleHasQuoteRequest
   - uid: SuperOffice.WebApi.Data.Sale_SetAsLostRequest
     name: Sale_SetAsLostRequest
   - uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
@@ -3768,6 +3776,8 @@ items:
     name: Sentry_CanCreateAppointmentInAllDiariesRequest
   - uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
     name: Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  - uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
+    name: Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
   - uid: SuperOffice.WebApi.Data.Sentry_GetFunctionRightsRequest
     name: Sentry_GetFunctionRightsRequest
   - uid: SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest

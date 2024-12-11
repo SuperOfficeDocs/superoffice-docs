@@ -11,6 +11,7 @@ items:
   - SuperOffice.CRM.Data.DocumentTableInfo.AppointmentId_InnerJoin_Appointment
   - SuperOffice.CRM.Data.DocumentTableInfo.ArchiveProvider
   - SuperOffice.CRM.Data.DocumentTableInfo.Attention
+  - SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
   - SuperOffice.CRM.Data.DocumentTableInfo.Definition
   - SuperOffice.CRM.Data.DocumentTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.DocumentTableInfo.DictionaryTableNumber
@@ -764,6 +765,32 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtUrl As StringFieldInfo
   overload: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl*
+- uid: SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
+  commentId: P:SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
+  id: ContentSetCount
+  parent: SuperOffice.CRM.Data.DocumentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContentSetCount
+  nameWithType: DocumentTableInfo.ContentSetCount
+  fullName: SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'contentSetCount' in table 'document': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of times content has been set on this document.
+  example: []
+  syntax:
+    content: public Int32FieldInfo ContentSetCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContentSetCount As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount*
 - uid: SuperOffice.CRM.Data.DocumentTableInfo.ApplicationId_InnerJoin_ExtApp
   commentId: P:SuperOffice.CRM.Data.DocumentTableInfo.ApplicationId_InnerJoin_ExtApp
   id: ApplicationId_InnerJoin_ExtApp
@@ -2189,6 +2216,13 @@ references:
   name: ExtUrl
   nameWithType: DocumentTableInfo.ExtUrl
   fullName: SuperOffice.CRM.Data.DocumentTableInfo.ExtUrl
+- uid: SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount*
+  commentId: Overload:SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
+  isExternal: true
+  href: SuperOffice.CRM.Data.DocumentTableInfo.html#SuperOffice_CRM_Data_DocumentTableInfo_ContentSetCount
+  name: ContentSetCount
+  nameWithType: DocumentTableInfo.ContentSetCount
+  fullName: SuperOffice.CRM.Data.DocumentTableInfo.ContentSetCount
 - uid: SuperOffice.CRM.Data.ExtAppTableInfo
   commentId: T:SuperOffice.CRM.Data.ExtAppTableInfo
   parent: SuperOffice.CRM.Data

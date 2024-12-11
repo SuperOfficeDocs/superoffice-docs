@@ -131,6 +131,7 @@ items:
   - SuperOffice.Data.SQL.ServiceAuthStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
+  - SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentListStatusFieldInfo

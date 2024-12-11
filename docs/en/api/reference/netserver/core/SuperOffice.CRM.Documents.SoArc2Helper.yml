@@ -10,9 +10,9 @@ items:
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePath
   - SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths
   - SuperOffice.CRM.Documents.SoArc2Helper.GetAssociateName(System.Int32)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
-  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFileName(System.String)
   - SuperOffice.CRM.Documents.SoArc2Helper.GetUniqueFilePath(System.String)
@@ -90,16 +90,16 @@ items:
       description: ("\\server\so_arc", "\\other\so_arc2")
     content.vb: Public Shared Function GetArchivePaths() As String()
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetArchivePaths*
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo)
-  id: GetFullArchivePath(SuperOffice.CRM.IDocumentInfo)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: GetFullArchivePath(SuperOffice.CRM.IDocumentInfo,System.String)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetFullArchivePath(IDocumentInfo)
-  nameWithType: SoArc2Helper.GetFullArchivePath(IDocumentInfo)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo)
+  name: GetFullArchivePath(IDocumentInfo, string)
+  nameWithType: SoArc2Helper.GetFullArchivePath(IDocumentInfo, string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo, string)
   type: Method
   assemblies:
   - SoDataBase
@@ -107,16 +107,22 @@ items:
   summary: This method will return the physical location of the given document based on the provided IDocumentInfo.
   example: []
   syntax:
-    content: public static string GetFullArchivePath(IDocumentInfo documentInfo)
+    content: public static string GetFullArchivePath(IDocumentInfo documentInfo, string filename = null)
     parameters:
     - id: documentInfo
       type: SuperOffice.CRM.IDocumentInfo
       description: DocumentInfo object containing the document information
+    - id: filename
+      type: System.String
+      description: Optional filename override for generated filename - used if the documentInfo.Name is blank.
     return:
       type: System.String
       description: Full Archive Path
-    content.vb: Public Shared Function GetFullArchivePath(documentInfo As IDocumentInfo) As String
+    content.vb: Public Shared Function GetFullArchivePath(documentInfo As IDocumentInfo, filename As String = Nothing) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
+  nameWithType.vb: SoArc2Helper.GetFullArchivePath(IDocumentInfo, String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.IDocumentInfo, String)
+  name.vb: GetFullArchivePath(IDocumentInfo, String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
   id: GetFullArchivePath(SuperOffice.CRM.Rows.DocumentRow)
@@ -417,16 +423,16 @@ items:
   nameWithType.vb: SoArc2Helper.CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
   fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.CreateReturnInfo(Boolean, String, String, SuperOffice.CRM.ReturnType, String, String)
   name.vb: CreateReturnInfo(Boolean, String, String, ReturnType, String, String)
-- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo)
-  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo)
-  id: GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo)
+- uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo,System.String)
   parent: SuperOffice.CRM.Documents.SoArc2Helper
   langs:
   - csharp
   - vb
-  name: GetCurrentVersionFolderPath(IDocumentInfo)
-  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo)
-  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo)
+  name: GetCurrentVersionFolderPath(IDocumentInfo, string)
+  nameWithType: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo, string)
+  fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo, string)
   type: Method
   assemblies:
   - SoDataBase
@@ -434,16 +440,22 @@ items:
   summary: This is the folder path where the latest document is in
   example: []
   syntax:
-    content: public static string GetCurrentVersionFolderPath(IDocumentInfo documentInfo)
+    content: public static string GetCurrentVersionFolderPath(IDocumentInfo documentInfo, string filename = null)
     parameters:
     - id: documentInfo
       type: SuperOffice.CRM.IDocumentInfo
       description: document id/name/heading
+    - id: filename
+      type: System.String
+      description: Optional filename override for generated filenames - used if the documentInfo.Name is blank.
     return:
       type: System.String
       description: '\\server\so_arc\user\1999.1'
-    content.vb: Public Shared Function GetCurrentVersionFolderPath(documentInfo As IDocumentInfo) As String
+    content.vb: Public Shared Function GetCurrentVersionFolderPath(documentInfo As IDocumentInfo, filename As String = Nothing) As String
   overload: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
+  nameWithType.vb: SoArc2Helper.GetCurrentVersionFolderPath(IDocumentInfo, String)
+  fullName.vb: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.IDocumentInfo, String)
+  name.vb: GetCurrentVersionFolderPath(IDocumentInfo, String)
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
   commentId: M:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
   id: GetCurrentVersionFolderPath(SuperOffice.CRM.Rows.DocumentRow)
@@ -797,7 +809,7 @@ references:
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath
   isExternal: true
-  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetFullArchivePath_SuperOffice_CRM_IDocumentInfo_
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetFullArchivePath_SuperOffice_CRM_IDocumentInfo_System_String_
   name: GetFullArchivePath
   nameWithType: SoArc2Helper.GetFullArchivePath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetFullArchivePath
@@ -1013,7 +1025,7 @@ references:
 - uid: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath*
   commentId: Overload:SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath
   isExternal: true
-  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetCurrentVersionFolderPath_SuperOffice_CRM_IDocumentInfo_
+  href: SuperOffice.CRM.Documents.SoArc2Helper.html#SuperOffice_CRM_Documents_SoArc2Helper_GetCurrentVersionFolderPath_SuperOffice_CRM_IDocumentInfo_System_String_
   name: GetCurrentVersionFolderPath
   nameWithType: SoArc2Helper.GetCurrentVersionFolderPath
   fullName: SuperOffice.CRM.Documents.SoArc2Helper.GetCurrentVersionFolderPath

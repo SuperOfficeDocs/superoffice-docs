@@ -56,6 +56,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment_CleanUpBookingDeletedRequest
   - SuperOffice.WebApi.Data.Appointment_CleanUpBookingDeletedWithUpdateModeRequest
   - SuperOffice.WebApi.Data.Appointment_CleanUpRecurringBookingDeletedRequest
+  - SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest
   - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptRequest
   - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
   - SuperOffice.WebApi.Data.Appointment_CreateAppointmentEntityFromExistingRequest
@@ -712,6 +713,8 @@ items:
   - SuperOffice.WebApi.Data.EMail_CreateFolderRequest
   - SuperOffice.WebApi.Data.EMail_CreateForwardEmailRequest
   - SuperOffice.WebApi.Data.EMail_CreateInlineHtmlHeaderRequest
+  - SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  - SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest
   - SuperOffice.WebApi.Data.EMail_DeleteEmailsRequest
   - SuperOffice.WebApi.Data.EMail_DeleteExtendedRequest
   - SuperOffice.WebApi.Data.EMail_DeleteFolderRequest
@@ -1665,6 +1668,7 @@ items:
   - SuperOffice.WebApi.Data.Sale_HasStakeholderSettingRequest
   - SuperOffice.WebApi.Data.Sale_IsNumberValidRequest
   - SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
+  - SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
   - SuperOffice.WebApi.Data.Sale_SetAsLostRequest
   - SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
   - SuperOffice.WebApi.Data.Sale_UpdateSaleStakeholdersRequest
@@ -1735,6 +1739,7 @@ items:
   - SuperOffice.WebApi.Data.Sentry
   - SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAllDiariesRequest
   - SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+  - SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
   - SuperOffice.WebApi.Data.Sentry_GetFunctionRightsRequest
   - SuperOffice.WebApi.Data.Sentry_GetNewTableRightRequest
   - SuperOffice.WebApi.Data.Sentry_GetTableRightByContactOwnershipRequest
@@ -4543,6 +4548,13 @@ references:
   name: Sale_ValidateSaleEntityRequest
   nameWithType: Sale_ValidateSaleEntityRequest
   fullName: SuperOffice.WebApi.Data.Sale_ValidateSaleEntityRequest
+- uid: SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest.html
+  name: Sale_SaleHasQuoteRequest
+  nameWithType: Sale_SaleHasQuoteRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
 - uid: SuperOffice.WebApi.Data.Sale_GetMyOpportunitiesRequest
   commentId: T:SuperOffice.WebApi.Data.Sale_GetMyOpportunitiesRequest
   isExternal: true
@@ -5400,6 +5412,13 @@ references:
   name: Appointment_SaveWithCustomInvitationRequest
   nameWithType: Appointment_SaveWithCustomInvitationRequest
   fullName: SuperOffice.WebApi.Data.Appointment_SaveWithCustomInvitationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest.html
+  name: Appointment_ConvertAppointmentToTaskRequest
+  nameWithType: Appointment_ConvertAppointmentToTaskRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_ConvertAppointmentToTaskRequest
 - uid: SuperOffice.WebApi.Data.AppointmentInfo
   commentId: T:SuperOffice.WebApi.Data.AppointmentInfo
   isExternal: true
@@ -10192,6 +10211,20 @@ references:
   name: EMail_SaveEmailToTmpDocumentRequest
   nameWithType: EMail_SaveEmailToTmpDocumentRequest
   fullName: SuperOffice.WebApi.Data.EMail_SaveEmailToTmpDocumentRequest
+- uid: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest.html
+  name: EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  nameWithType: EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailAttachmentRequest
+- uid: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest.html
+  name: EMail_CreateNewPhysicalDocumentFromEmailRequest
+  nameWithType: EMail_CreateNewPhysicalDocumentFromEmailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateNewPhysicalDocumentFromEmailRequest
 - uid: SuperOffice.WebApi.Data.EMail_SaveDraftRequest
   commentId: T:SuperOffice.WebApi.Data.EMail_SaveDraftRequest
   isExternal: true
@@ -10721,6 +10754,13 @@ references:
   name: Sentry_CanCreateAppointmentInAssociateDiariesRequest
   nameWithType: Sentry_CanCreateAppointmentInAssociateDiariesRequest
   fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAssociateDiariesRequest
+- uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
+  commentId: T:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest.html
+  name: Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
+  nameWithType: Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInEachAssociatesDiaryRequest
 - uid: SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAllDiariesRequest
   commentId: T:SuperOffice.WebApi.Data.Sentry_CanCreateAppointmentInAllDiariesRequest
   isExternal: true

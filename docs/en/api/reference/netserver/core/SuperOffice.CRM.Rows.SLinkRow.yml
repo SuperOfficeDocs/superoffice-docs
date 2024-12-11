@@ -16,6 +16,8 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow.Description
   - SuperOffice.CRM.Rows.SLinkRow.ExtraField
   - SuperOffice.CRM.Rows.SLinkRow.FolderId
+  - SuperOffice.CRM.Rows.SLinkRow.FormId
+  - SuperOffice.CRM.Rows.SLinkRow.FormParameters
   - SuperOffice.CRM.Rows.SLinkRow.GetFromCustomSearch(SuperOffice.CRM.Rows.SLinkRow.CustomSearch)
   - SuperOffice.CRM.Rows.SLinkRow.GetFromIdxSLinkId(System.Int32)
   - SuperOffice.CRM.Rows.SLinkRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SLinkTableInfo)
@@ -30,12 +32,13 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.SLinkRow.Item(System.String)
   - SuperOffice.CRM.Rows.SLinkRow.LastReset
+  - SuperOffice.CRM.Rows.SLinkRow.LinkParameters
   - SuperOffice.CRM.Rows.SLinkRow.LinkValue
   - SuperOffice.CRM.Rows.SLinkRow.LocalLink
   - SuperOffice.CRM.Rows.SLinkRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.SLinkRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.SLinkRow.OnSaved(System.Boolean)
-  - SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
+  - SuperOffice.CRM.Rows.SLinkRow.RedirectKind
   - SuperOffice.CRM.Rows.SLinkRow.Registered
   - SuperOffice.CRM.Rows.SLinkRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.SLinkRow.RemoveContactInterest
@@ -80,11 +83,14 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow._currentDescription
   - SuperOffice.CRM.Rows.SLinkRow._currentExtraField
   - SuperOffice.CRM.Rows.SLinkRow._currentFolderId
+  - SuperOffice.CRM.Rows.SLinkRow._currentFormId
+  - SuperOffice.CRM.Rows.SLinkRow._currentFormParameters
   - SuperOffice.CRM.Rows.SLinkRow._currentHits
   - SuperOffice.CRM.Rows.SLinkRow._currentLastReset
+  - SuperOffice.CRM.Rows.SLinkRow._currentLinkParameters
   - SuperOffice.CRM.Rows.SLinkRow._currentLinkValue
   - SuperOffice.CRM.Rows.SLinkRow._currentLocalLink
-  - SuperOffice.CRM.Rows.SLinkRow._currentRedirectIsUrl
+  - SuperOffice.CRM.Rows.SLinkRow._currentRedirectKind
   - SuperOffice.CRM.Rows.SLinkRow._currentRegistered
   - SuperOffice.CRM.Rows.SLinkRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.SLinkRow._currentRemoveContactInterest
@@ -121,11 +127,14 @@ items:
   - SuperOffice.CRM.Rows.SLinkRow._persistedDescription
   - SuperOffice.CRM.Rows.SLinkRow._persistedExtraField
   - SuperOffice.CRM.Rows.SLinkRow._persistedFolderId
+  - SuperOffice.CRM.Rows.SLinkRow._persistedFormId
+  - SuperOffice.CRM.Rows.SLinkRow._persistedFormParameters
   - SuperOffice.CRM.Rows.SLinkRow._persistedHits
   - SuperOffice.CRM.Rows.SLinkRow._persistedLastReset
+  - SuperOffice.CRM.Rows.SLinkRow._persistedLinkParameters
   - SuperOffice.CRM.Rows.SLinkRow._persistedLinkValue
   - SuperOffice.CRM.Rows.SLinkRow._persistedLocalLink
-  - SuperOffice.CRM.Rows.SLinkRow._persistedRedirectIsUrl
+  - SuperOffice.CRM.Rows.SLinkRow._persistedRedirectKind
   - SuperOffice.CRM.Rows.SLinkRow._persistedRegistered
   - SuperOffice.CRM.Rows.SLinkRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.SLinkRow._persistedRemoveContactInterest
@@ -655,27 +664,6 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedTemplateText As String
-- uid: SuperOffice.CRM.Rows.SLinkRow._persistedRedirectIsUrl
-  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedRedirectIsUrl
-  id: _persistedRedirectIsUrl
-  parent: SuperOffice.CRM.Rows.SLinkRow
-  langs:
-  - csharp
-  - vb
-  name: _persistedRedirectIsUrl
-  nameWithType: SLinkRow._persistedRedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedRedirectIsUrl
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected short _persistedRedirectIsUrl
-    return:
-      type: System.Int16
-    content.vb: Protected _persistedRedirectIsUrl As Short
 - uid: SuperOffice.CRM.Rows.SLinkRow._persistedActionFlags
   commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedActionFlags
   id: _persistedActionFlags
@@ -1159,6 +1147,90 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedLocalLink As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRow._persistedRedirectKind
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedRedirectKind
+  id: _persistedRedirectKind
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedRedirectKind
+  nameWithType: SLinkRow._persistedRedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedRedirectKind
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.RedirectKind" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected ShipmentLinkRedirectKind _persistedRedirectKind
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: Protected _persistedRedirectKind As ShipmentLinkRedirectKind
+- uid: SuperOffice.CRM.Rows.SLinkRow._persistedLinkParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedLinkParameters
+  id: _persistedLinkParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLinkParameters
+  nameWithType: SLinkRow._persistedLinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedLinkParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.LinkParameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedLinkParameters
+    return:
+      type: System.String
+    content.vb: Protected _persistedLinkParameters As String
+- uid: SuperOffice.CRM.Rows.SLinkRow._persistedFormId
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedFormId
+  id: _persistedFormId
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedFormId
+  nameWithType: SLinkRow._persistedFormId
+  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.FormId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedFormId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedFormId As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRow._persistedFormParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._persistedFormParameters
+  id: _persistedFormParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedFormParameters
+  nameWithType: SLinkRow._persistedFormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow._persistedFormParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.FormParameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _persistedFormParameters
+    return:
+      type: System.String
+    content.vb: Protected _persistedFormParameters As String
 - uid: SuperOffice.CRM.Rows.SLinkRow._currentSLinkId
   commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentSLinkId
   id: _currentSLinkId
@@ -1516,27 +1588,6 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentTemplateText As String
-- uid: SuperOffice.CRM.Rows.SLinkRow._currentRedirectIsUrl
-  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentRedirectIsUrl
-  id: _currentRedirectIsUrl
-  parent: SuperOffice.CRM.Rows.SLinkRow
-  langs:
-  - csharp
-  - vb
-  name: _currentRedirectIsUrl
-  nameWithType: SLinkRow._currentRedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRow._currentRedirectIsUrl
-  type: Field
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl" data-throw-if-not-resolved="false"></xref>.
-  example: []
-  syntax:
-    content: protected short _currentRedirectIsUrl
-    return:
-      type: System.Int16
-    content.vb: Protected _currentRedirectIsUrl As Short
 - uid: SuperOffice.CRM.Rows.SLinkRow._currentActionFlags
   commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentActionFlags
   id: _currentActionFlags
@@ -2020,6 +2071,90 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentLocalLink As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRow._currentRedirectKind
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentRedirectKind
+  id: _currentRedirectKind
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _currentRedirectKind
+  nameWithType: SLinkRow._currentRedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRow._currentRedirectKind
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.RedirectKind" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected ShipmentLinkRedirectKind _currentRedirectKind
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: Protected _currentRedirectKind As ShipmentLinkRedirectKind
+- uid: SuperOffice.CRM.Rows.SLinkRow._currentLinkParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentLinkParameters
+  id: _currentLinkParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLinkParameters
+  nameWithType: SLinkRow._currentLinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow._currentLinkParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.LinkParameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentLinkParameters
+    return:
+      type: System.String
+    content.vb: Protected _currentLinkParameters As String
+- uid: SuperOffice.CRM.Rows.SLinkRow._currentFormId
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentFormId
+  id: _currentFormId
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _currentFormId
+  nameWithType: SLinkRow._currentFormId
+  fullName: SuperOffice.CRM.Rows.SLinkRow._currentFormId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.FormId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentFormId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentFormId As Integer
+- uid: SuperOffice.CRM.Rows.SLinkRow._currentFormParameters
+  commentId: F:SuperOffice.CRM.Rows.SLinkRow._currentFormParameters
+  id: _currentFormParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: _currentFormParameters
+  nameWithType: SLinkRow._currentFormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow._currentFormParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SLinkRow.FormParameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected string _currentFormParameters
+    return:
+      type: System.String
+    content.vb: Protected _currentFormParameters As String
 - uid: SuperOffice.CRM.Rows.SLinkRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SLinkRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -3248,37 +3383,6 @@ items:
       type: System.String
     content.vb: Public Overridable Property TemplateText As String
   overload: SuperOffice.CRM.Rows.SLinkRow.TemplateText*
-- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  commentId: P:SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  id: RedirectIsUrl
-  parent: SuperOffice.CRM.Rows.SLinkRow
-  langs:
-  - csharp
-  - vb
-  name: RedirectIsUrl
-  nameWithType: SLinkRow.RedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: short. 1 if url is used, 0 if custom text is used.'
-  remarks: >-
-    Original type in dictionary:  Bool.
-
-    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
-
-    <p>This field is not protected by the Sentry system, and can always be read</p>
-
-    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
-  example: []
-  syntax:
-    content: public virtual short RedirectIsUrl { get; set; }
-    parameters: []
-    return:
-      type: System.Int16
-    content.vb: Public Overridable Property RedirectIsUrl As Short
-  overload: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl*
 - uid: SuperOffice.CRM.Rows.SLinkRow.ActionFlags
   commentId: P:SuperOffice.CRM.Rows.SLinkRow.ActionFlags
   id: ActionFlags
@@ -3992,6 +4096,130 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property LocalLink As Integer
   overload: SuperOffice.CRM.Rows.SLinkRow.LocalLink*
+- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  id: RedirectKind
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: RedirectKind
+  nameWithType: SLinkRow.RedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: ShipmentLinkRedirectKind. Enum defining the redirect kind (show text, url, etc) of the link'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual ShipmentLinkRedirectKind RedirectKind { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    content.vb: Public Overridable Property RedirectKind As ShipmentLinkRedirectKind
+  overload: SuperOffice.CRM.Rows.SLinkRow.RedirectKind*
+- uid: SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  id: LinkParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: LinkParameters
+  nameWithType: SLinkRow.LinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Contains parameters that will be added to the link when it is used'
+  remarks: >-
+    Original type in dictionary:  Clob.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string LinkParameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LinkParameters As String
+  overload: SuperOffice.CRM.Rows.SLinkRow.LinkParameters*
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormId
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: SLinkRow.FormId
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Relation to the form this link redirects to'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int FormId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FormId As Integer
+  overload: SuperOffice.CRM.Rows.SLinkRow.FormId*
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  id: FormParameters
+  parent: SuperOffice.CRM.Rows.SLinkRow
+  langs:
+  - csharp
+  - vb
+  name: FormParameters
+  nameWithType: SLinkRow.FormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: string. Contains url parameters that will be added when link is inserted in message'
+  remarks: >-
+    Original type in dictionary:  String[4001].
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual string FormParameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormParameters As String
+  overload: SuperOffice.CRM.Rows.SLinkRow.FormParameters*
 references:
 - uid: SuperOffice.CRM.Rows.SLinkRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SLinkRow.CreateNew
@@ -6727,13 +6955,6 @@ references:
   name: TemplateText
   nameWithType: SLinkRow.TemplateText
   fullName: SuperOffice.CRM.Rows.SLinkRow.TemplateText
-- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  commentId: P:SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_RedirectIsUrl
-  name: RedirectIsUrl
-  nameWithType: SLinkRow.RedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
 - uid: SuperOffice.CRM.Rows.SLinkRow.ActionFlags
   commentId: P:SuperOffice.CRM.Rows.SLinkRow.ActionFlags
   isExternal: true
@@ -6911,6 +7132,42 @@ references:
   name: LocalLink
   nameWithType: SLinkRow.LocalLink
   fullName: SuperOffice.CRM.Rows.SLinkRow.LocalLink
+- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_RedirectKind
+  name: RedirectKind
+  nameWithType: SLinkRow.RedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
+- uid: SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_LinkParameters
+  name: LinkParameters
+  nameWithType: SLinkRow.LinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormId
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.FormId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_FormId
+  name: FormId
+  nameWithType: SLinkRow.FormId
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormId
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  commentId: P:SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_FormParameters
+  name: FormParameters
+  nameWithType: SLinkRow.FormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormParameters
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7777,13 +8034,6 @@ references:
   name: TemplateText
   nameWithType: SLinkRow.TemplateText
   fullName: SuperOffice.CRM.Rows.SLinkRow.TemplateText
-- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl*
-  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_RedirectIsUrl
-  name: RedirectIsUrl
-  nameWithType: SLinkRow.RedirectIsUrl
-  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectIsUrl
 - uid: SuperOffice.CRM.Rows.SLinkRow.ActionFlags*
   commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.ActionFlags
   isExternal: true
@@ -7945,3 +8195,31 @@ references:
   name: LocalLink
   nameWithType: SLinkRow.LocalLink
   fullName: SuperOffice.CRM.Rows.SLinkRow.LocalLink
+- uid: SuperOffice.CRM.Rows.SLinkRow.RedirectKind*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_RedirectKind
+  name: RedirectKind
+  nameWithType: SLinkRow.RedirectKind
+  fullName: SuperOffice.CRM.Rows.SLinkRow.RedirectKind
+- uid: SuperOffice.CRM.Rows.SLinkRow.LinkParameters*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_LinkParameters
+  name: LinkParameters
+  nameWithType: SLinkRow.LinkParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.LinkParameters
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormId*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.FormId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_FormId
+  name: FormId
+  nameWithType: SLinkRow.FormId
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormId
+- uid: SuperOffice.CRM.Rows.SLinkRow.FormParameters*
+  commentId: Overload:SuperOffice.CRM.Rows.SLinkRow.FormParameters
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SLinkRow.html#SuperOffice_CRM_Rows_SLinkRow_FormParameters
+  name: FormParameters
+  nameWithType: SLinkRow.FormParameters
+  fullName: SuperOffice.CRM.Rows.SLinkRow.FormParameters

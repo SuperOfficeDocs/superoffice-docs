@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow.IsNew
   - SuperOffice.CRM.Rows.EmailAccountRow.IsPersistedFieldValueKnown(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.EmailAccountRow.Item(System.String)
+  - SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
   - SuperOffice.CRM.Rows.EmailAccountRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.EmailAccountRow.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.EmailAccountRow.OnSaved(System.Boolean)
@@ -40,6 +41,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
   - SuperOffice.CRM.Rows.EmailAccountRow.SetPrimaryKey(System.Int32)
   - SuperOffice.CRM.Rows.EmailAccountRow.SetRowAsNew
+  - SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
   - SuperOffice.CRM.Rows.EmailAccountRow.TableInfo
   - SuperOffice.CRM.Rows.EmailAccountRow.ToString
   - SuperOffice.CRM.Rows.EmailAccountRow.Updated
@@ -55,9 +57,11 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow._currentErrorCount
   - SuperOffice.CRM.Rows.EmailAccountRow._currentErrorReason
   - SuperOffice.CRM.Rows.EmailAccountRow._currentIncomingAuth
+  - SuperOffice.CRM.Rows.EmailAccountRow._currentLastFetch
   - SuperOffice.CRM.Rows.EmailAccountRow._currentOutgoingAuth
   - SuperOffice.CRM.Rows.EmailAccountRow._currentRegistered
   - SuperOffice.CRM.Rows.EmailAccountRow._currentRegisteredAssociateId
+  - SuperOffice.CRM.Rows.EmailAccountRow._currentSimpleMode
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdated
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdatedCount
@@ -70,9 +74,11 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedErrorCount
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedErrorReason
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedIncomingAuth
+  - SuperOffice.CRM.Rows.EmailAccountRow._persistedLastFetch
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedOutgoingAuth
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedRegistered
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedRegisteredAssociateId
+  - SuperOffice.CRM.Rows.EmailAccountRow._persistedSimpleMode
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdated
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdatedCount
@@ -536,6 +542,48 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedErrorReason As String
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._persistedSimpleMode
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._persistedSimpleMode
+  id: _persistedSimpleMode
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSimpleMode
+  nameWithType: EmailAccountRow._persistedSimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._persistedSimpleMode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedSimpleMode
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedSimpleMode As Short
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._persistedLastFetch
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._persistedLastFetch
+  id: _persistedLastFetch
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLastFetch
+  nameWithType: EmailAccountRow._persistedLastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._persistedLastFetch
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.LastFetch" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _persistedLastFetch
+    return:
+      type: System.DateTime
+    content.vb: Protected _persistedLastFetch As Date
 - uid: SuperOffice.CRM.Rows.EmailAccountRow._currentEmailAccountId
   commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._currentEmailAccountId
   id: _currentEmailAccountId
@@ -851,6 +899,48 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentErrorReason As String
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._currentSimpleMode
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._currentSimpleMode
+  id: _currentSimpleMode
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSimpleMode
+  nameWithType: EmailAccountRow._currentSimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._currentSimpleMode
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentSimpleMode
+    return:
+      type: System.Int16
+    content.vb: Protected _currentSimpleMode As Short
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._currentLastFetch
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._currentLastFetch
+  id: _currentLastFetch
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLastFetch
+  nameWithType: EmailAccountRow._currentLastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._currentLastFetch
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.LastFetch" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected DateTime _currentLastFetch
+    return:
+      type: System.DateTime
+    content.vb: Protected _currentLastFetch As Date
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2055,6 +2145,68 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErrorReason As String
   overload: SuperOffice.CRM.Rows.EmailAccountRow.ErrorReason*
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  id: SimpleMode
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: SimpleMode
+  nameWithType: EmailAccountRow.SimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Simple mode used for sending and retrieving invitations, accept/decline etc. without the full Inbox GUI experience, if for instance you prefer Outlook or other for that.'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short SimpleMode { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property SimpleMode As Short
+  overload: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode*
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  id: LastFetch
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: LastFetch
+  nameWithType: EmailAccountRow.LastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: DateTime. When we last fetched email. in UTC'
+  remarks: >-
+    Original type in dictionary:  UtcDateTime.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual DateTime LastFetch { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastFetch As Date
+  overload: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch*
 references:
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.CreateNew
@@ -4784,6 +4936,20 @@ references:
   name: ErrorReason
   nameWithType: EmailAccountRow.ErrorReason
   fullName: SuperOffice.CRM.Rows.EmailAccountRow.ErrorReason
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_SimpleMode
+  name: SimpleMode
+  nameWithType: EmailAccountRow.SimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_LastFetch
+  name: LastFetch
+  nameWithType: EmailAccountRow.LastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -5643,3 +5809,17 @@ references:
   name: ErrorReason
   nameWithType: EmailAccountRow.ErrorReason
   fullName: SuperOffice.CRM.Rows.EmailAccountRow.ErrorReason
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_SimpleMode
+  name: SimpleMode
+  nameWithType: EmailAccountRow.SimpleMode
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.SimpleMode
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_LastFetch
+  name: LastFetch
+  nameWithType: EmailAccountRow.LastFetch
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch

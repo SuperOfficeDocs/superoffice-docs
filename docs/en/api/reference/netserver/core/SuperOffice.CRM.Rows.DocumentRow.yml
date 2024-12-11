@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRow.AppointmentId
   - SuperOffice.CRM.Rows.DocumentRow.ArchiveProvider
   - SuperOffice.CRM.Rows.DocumentRow.Attention
+  - SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
   - SuperOffice.CRM.Rows.DocumentRow.CreateNew
   - SuperOffice.CRM.Rows.DocumentRow.DocumentId
   - SuperOffice.CRM.Rows.DocumentRow.DocumentTableInfo
@@ -34,6 +35,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRow.OnAppointmentIdChange
   - SuperOffice.CRM.Rows.DocumentRow.OnArchiveProviderChange
   - SuperOffice.CRM.Rows.DocumentRow.OnAttentionChange
+  - SuperOffice.CRM.Rows.DocumentRow.OnContentSetCountChange
   - SuperOffice.CRM.Rows.DocumentRow.OnExtUrlChange
   - SuperOffice.CRM.Rows.DocumentRow.OnExtrefChange
   - SuperOffice.CRM.Rows.DocumentRow.OnHeaderChange
@@ -76,6 +78,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRow._currentAppointmentId
   - SuperOffice.CRM.Rows.DocumentRow._currentArchiveProvider
   - SuperOffice.CRM.Rows.DocumentRow._currentAttention
+  - SuperOffice.CRM.Rows.DocumentRow._currentContentSetCount
   - SuperOffice.CRM.Rows.DocumentRow._currentDocumentId
   - SuperOffice.CRM.Rows.DocumentRow._currentExtUrl
   - SuperOffice.CRM.Rows.DocumentRow._currentExtref
@@ -97,6 +100,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRow._onAppointmentIdChange
   - SuperOffice.CRM.Rows.DocumentRow._onArchiveProviderChange
   - SuperOffice.CRM.Rows.DocumentRow._onAttentionChange
+  - SuperOffice.CRM.Rows.DocumentRow._onContentSetCountChange
   - SuperOffice.CRM.Rows.DocumentRow._onExtUrlChange
   - SuperOffice.CRM.Rows.DocumentRow._onExtrefChange
   - SuperOffice.CRM.Rows.DocumentRow._onHeaderChange
@@ -117,6 +121,7 @@ items:
   - SuperOffice.CRM.Rows.DocumentRow._persistedAppointmentId
   - SuperOffice.CRM.Rows.DocumentRow._persistedArchiveProvider
   - SuperOffice.CRM.Rows.DocumentRow._persistedAttention
+  - SuperOffice.CRM.Rows.DocumentRow._persistedContentSetCount
   - SuperOffice.CRM.Rows.DocumentRow._persistedDocumentId
   - SuperOffice.CRM.Rows.DocumentRow._persistedExtUrl
   - SuperOffice.CRM.Rows.DocumentRow._persistedExtref
@@ -720,6 +725,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedExtUrl As String
+- uid: SuperOffice.CRM.Rows.DocumentRow._persistedContentSetCount
+  commentId: F:SuperOffice.CRM.Rows.DocumentRow._persistedContentSetCount
+  id: _persistedContentSetCount
+  parent: SuperOffice.CRM.Rows.DocumentRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedContentSetCount
+  nameWithType: DocumentRow._persistedContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRow._persistedContentSetCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.DocumentRow.ContentSetCount" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedContentSetCount
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedContentSetCount As Integer
 - uid: SuperOffice.CRM.Rows.DocumentRow._currentDocumentId
   commentId: F:SuperOffice.CRM.Rows.DocumentRow._currentDocumentId
   id: _currentDocumentId
@@ -1161,6 +1187,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentExtUrl As String
+- uid: SuperOffice.CRM.Rows.DocumentRow._currentContentSetCount
+  commentId: F:SuperOffice.CRM.Rows.DocumentRow._currentContentSetCount
+  id: _currentContentSetCount
+  parent: SuperOffice.CRM.Rows.DocumentRow
+  langs:
+  - csharp
+  - vb
+  name: _currentContentSetCount
+  nameWithType: DocumentRow._currentContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRow._currentContentSetCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.DocumentRow.ContentSetCount" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentContentSetCount
+    return:
+      type: System.Int32
+    content.vb: Protected _currentContentSetCount As Integer
 - uid: SuperOffice.CRM.Rows.DocumentRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.DocumentRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2573,6 +2620,37 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtUrl As String
   overload: SuperOffice.CRM.Rows.DocumentRow.ExtUrl*
+- uid: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  commentId: P:SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  id: ContentSetCount
+  parent: SuperOffice.CRM.Rows.DocumentRow
+  langs:
+  - csharp
+  - vb
+  name: ContentSetCount
+  nameWithType: DocumentRow.ContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Number of times content has been set on this document.'
+  remarks: >-
+    Original type in dictionary:  Int.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int ContentSetCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContentSetCount As Integer
+  overload: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount*
 - uid: SuperOffice.CRM.Rows.DocumentRow.LockSemantics
   commentId: P:SuperOffice.CRM.Rows.DocumentRow.LockSemantics
   id: LockSemantics
@@ -3019,6 +3097,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
     content.vb: Protected Event _onExtUrlChange As OnFieldChange(Of String)
+- uid: SuperOffice.CRM.Rows.DocumentRow._onContentSetCountChange
+  commentId: E:SuperOffice.CRM.Rows.DocumentRow._onContentSetCountChange
+  id: _onContentSetCountChange
+  parent: SuperOffice.CRM.Rows.DocumentRow
+  langs:
+  - csharp
+  - vb
+  name: _onContentSetCountChange
+  nameWithType: DocumentRow._onContentSetCountChange
+  fullName: SuperOffice.CRM.Rows.DocumentRow._onContentSetCountChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.DocumentRow.ContentSetCount" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onContentSetCountChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onContentSetCountChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.DocumentRow.OnApplicationIdChange
   commentId: E:SuperOffice.CRM.Rows.DocumentRow.OnApplicationIdChange
   id: OnApplicationIdChange
@@ -3439,6 +3538,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.String}
     content.vb: Public Event OnExtUrlChange As OnFieldChange(Of String)
+- uid: SuperOffice.CRM.Rows.DocumentRow.OnContentSetCountChange
+  commentId: E:SuperOffice.CRM.Rows.DocumentRow.OnContentSetCountChange
+  id: OnContentSetCountChange
+  parent: SuperOffice.CRM.Rows.DocumentRow
+  langs:
+  - csharp
+  - vb
+  name: OnContentSetCountChange
+  nameWithType: DocumentRow.OnContentSetCountChange
+  fullName: SuperOffice.CRM.Rows.DocumentRow.OnContentSetCountChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when ContentSetCount is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnContentSetCountChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnContentSetCountChange As OnFieldChange(Of Integer)
 references:
 - uid: SuperOffice.CRM.Rows.DocumentRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.DocumentRow.CreateNew
@@ -6202,6 +6322,13 @@ references:
   name: ExtUrl
   nameWithType: DocumentRow.ExtUrl
   fullName: SuperOffice.CRM.Rows.DocumentRow.ExtUrl
+- uid: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  commentId: P:SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DocumentRow.html#SuperOffice_CRM_Rows_DocumentRow_ContentSetCount
+  name: ContentSetCount
+  nameWithType: DocumentRow.ContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -7103,6 +7230,13 @@ references:
   name: ExtUrl
   nameWithType: DocumentRow.ExtUrl
   fullName: SuperOffice.CRM.Rows.DocumentRow.ExtUrl
+- uid: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount*
+  commentId: Overload:SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
+  isExternal: true
+  href: SuperOffice.CRM.Rows.DocumentRow.html#SuperOffice_CRM_Rows_DocumentRow_ContentSetCount
+  name: ContentSetCount
+  nameWithType: DocumentRow.ContentSetCount
+  fullName: SuperOffice.CRM.Rows.DocumentRow.ContentSetCount
 - uid: SuperOffice.CRM.Rows.DocumentRow.LockSemantics*
   commentId: Overload:SuperOffice.CRM.Rows.DocumentRow.LockSemantics
   isExternal: true

@@ -158,6 +158,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentAddrStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkAction@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkRedirectKind@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkTaskFlags@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentListStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -1867,6 +1868,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(ShipmentAddrStatus, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentAddrStatus, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ShipmentAddrStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkRedirectKind@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkRedirectKind@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.ShipmentLinkRedirectKind@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref ShipmentLinkRedirectKind, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref ShipmentLinkRedirectKind, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.ShipmentLinkRedirectKind, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref ShipmentLinkRedirectKind field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.ShipmentLinkRedirectKind
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As ShipmentLinkRedirectKind, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ShipmentLinkRedirectKind, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkRedirectKind, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ShipmentLinkRedirectKind, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkAction@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ShipmentLinkAction@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ShipmentLinkAction@,SuperOffice.Data.SQL.FieldInfo)
@@ -9042,6 +9071,14 @@ references:
   name: ShipmentAddrStatus
   nameWithType: ShipmentAddrStatus
   fullName: SuperOffice.Data.ShipmentAddrStatus
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
 - uid: SuperOffice.Data.ShipmentLinkAction
   commentId: T:SuperOffice.Data.ShipmentLinkAction
   parent: SuperOffice.Data

@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.ShowField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
   langs:
@@ -200,6 +201,25 @@ items:
     return:
       type: SuperOffice.Data.Dictionary.SoTable
     content.vb: Protected _soTable As SoTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  id: _firstProviderInChain
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _firstProviderInChain
+  nameWithType: ExtraFieldExtenderBase._firstProviderInChain
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected bool _firstProviderInChain
+    return:
+      type: System.Boolean
+    content.vb: Protected _firstProviderInChain As Boolean
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   id: _recursionInfo
@@ -5098,6 +5118,17 @@ references:
     name: Dictionary
     isExternal: true
     href: SuperOffice.Data.Dictionary.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
   commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
   parent: SuperOffice.CRM.ArchiveLists
@@ -5362,17 +5393,6 @@ references:
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.Icon*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.Icon
   isExternal: true

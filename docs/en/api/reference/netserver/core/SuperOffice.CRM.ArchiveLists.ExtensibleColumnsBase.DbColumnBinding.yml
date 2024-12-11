@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByFields
@@ -363,6 +364,27 @@ items:
       type: System.Boolean
     content.vb: Public Property IsEjUser As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser*
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  id: OrderByArgument
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: OrderByArgument
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public Argument OrderByArgument { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Argument
+    content.vb: Public Property OrderByArgument As Argument
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument*
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
   commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
   id: ColumnInfo
@@ -1201,6 +1223,21 @@ references:
   name: IsEjUser
   nameWithType: ExtensibleColumnsBase.DbColumnBinding.IsEjUser
   fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase_DbColumnBinding_OrderByArgument
+  name: OrderByArgument
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByArgument
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
   isExternal: true

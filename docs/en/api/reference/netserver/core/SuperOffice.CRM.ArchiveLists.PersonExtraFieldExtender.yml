@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
   - SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   - SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.SetJoin
   langs:
@@ -35,6 +36,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -214,6 +216,32 @@ items:
   nameWithType.vb: PersonExtraFieldExtender.New()
   fullName.vb: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.New()
   name.vb: New()
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  id: '#ctor(System.String,SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)'
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender
+  langs:
+  - csharp
+  - vb
+  name: PersonExtraFieldExtender(string, Features)
+  nameWithType: PersonExtraFieldExtender.PersonExtraFieldExtender(string, PersonExtenderBase.Features)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.PersonExtraFieldExtender(string, SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public PersonExtraFieldExtender(string iconHint, PersonExtenderBase.Features features)
+    parameters:
+    - id: iconHint
+      type: System.String
+    - id: features
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    content.vb: Public Sub New(iconHint As String, features As PersonExtenderBase.Features)
+  overload: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor*
+  nameWithType.vb: PersonExtraFieldExtender.New(String, PersonExtenderBase.Features)
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.New(String, SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features)
+  name.vb: New(String, Features)
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.PersonExtraFieldExtender.#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)
   id: '#ctor(System.String,SuperOffice.CRM.ArchiveLists.RecursionInfo)'
@@ -423,6 +451,14 @@ references:
   name: _soTable
   nameWithType: ExtraFieldExtenderBase._soTable
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__firstProviderInChain
+  name: _firstProviderInChain
+  nameWithType: ExtraFieldExtenderBase._firstProviderInChain
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
@@ -5342,6 +5378,34 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html
+  name: PersonExtenderBase.Features
+  nameWithType: PersonExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+    name: PersonExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.html
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+    name: PersonExtenderBase
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html
+  - name: .
+  - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+    name: Features
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.html
 - uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
   commentId: T:SuperOffice.CRM.ArchiveLists.RecursionInfo
   parent: SuperOffice.CRM.ArchiveLists

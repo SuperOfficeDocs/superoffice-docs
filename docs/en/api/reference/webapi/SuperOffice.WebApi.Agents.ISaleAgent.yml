@@ -38,6 +38,7 @@ items:
   - SuperOffice.WebApi.Agents.ISaleAgent.HasStakeholderSettingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.OfferAutoNextStageOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SaveSaleEntityAsync(SuperOffice.WebApi.Data.SaleEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.WebApi.Data.SaleStakeholder,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -737,6 +738,39 @@ items:
       description: Error messages tagged by field.
     content.vb: Function ValidateSaleEntityAsync(saleEntity As SaleEntity, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.WebApi.Agents.ISaleAgent.ValidateSaleEntityAsync*
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SaleHasQuoteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaleHasQuoteAsync(int, RequestOptions)
+  nameWithType: ISaleAgent.SaleHasQuoteAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns true is the sale has a quote
+  example: []
+  syntax:
+    content: Task<bool> SaleHasQuoteAsync(int saleId, RequestOptions requestOptions = null)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: The id of the sale
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if the sale has a quote
+    content.vb: Function SaleHasQuoteAsync(saleId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync*
+  nameWithType.vb: ISaleAgent.SaleHasQuoteAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaleHasQuoteAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.GetSaleListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.GetSaleListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetSaleListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -2112,6 +2146,13 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.StringDictionary.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISaleAgent.html#SuperOffice_WebApi_Agents_ISaleAgent_SaleHasQuoteAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SaleHasQuoteAsync
+  nameWithType: ISaleAgent.SaleHasQuoteAsync
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SaleHasQuoteAsync
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.GetSaleListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.GetSaleListAsync
   isExternal: true

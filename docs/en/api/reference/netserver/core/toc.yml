@@ -17373,6 +17373,8 @@ items:
     name: DaySchedule
   - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper
     name: LiveUiStatisticsHelper
+  - uid: SuperOffice.CRM.Ticket.LiveUiStatisticsHelper.AccumulationType
+    name: LiveUiStatisticsHelper.AccumulationType
   - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
     name: TicketAlertHelper
   - uid: SuperOffice.CRM.Ticket.TicketChangeData
@@ -18227,6 +18229,8 @@ items:
     name: ShipmentFlags
   - uid: SuperOffice.Data.ShipmentLinkAction
     name: ShipmentLinkAction
+  - uid: SuperOffice.Data.ShipmentLinkRedirectKind
+    name: ShipmentLinkRedirectKind
   - uid: SuperOffice.Data.ShipmentLinkTaskFlags
     name: ShipmentLinkTaskFlags
   - uid: SuperOffice.Data.ShipmentLinkType
@@ -18865,6 +18869,8 @@ items:
     name: ShipmentAddrStatusFieldInfo
   - uid: SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
     name: ShipmentLinkActionFieldInfo
+  - uid: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+    name: ShipmentLinkRedirectKindFieldInfo
   - uid: SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
     name: ShipmentLinkTaskFlagsFieldInfo
   - uid: SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo

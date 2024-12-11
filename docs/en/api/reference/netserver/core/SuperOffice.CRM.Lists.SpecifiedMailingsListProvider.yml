@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.TableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._configurations
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowContentLinkTableInfo
+  - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowId
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowTableInfo
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._hierarchy
   - SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._messageTableInfo
@@ -43,6 +44,8 @@ items:
 
       [MDOAdditionalInfo("configurations", "Specified shipment configurations, default is the most relevant configurations", "")]
 
+      [MDOAdditionalInfo("emailFlowId", "If specified, content related to the specified email flow will appear in a special folder near the top, just below history items", "")]
+
       public class SpecifiedMailingsListProvider : AnyTableListProviderBase, ISoListProvider, ISoList
     content.vb: >-
       <MDOProviderPlugin("SpecifiedMailings")>
@@ -52,6 +55,8 @@ items:
       <MDOAdditionalInfo("tracked", "Only mailings with tracked links", "true")>
 
       <MDOAdditionalInfo("configurations", "Specified shipment configurations, default is the most relevant configurations", "")>
+
+      <MDOAdditionalInfo("emailFlowId", "If specified, content related to the specified email flow will appear in a special folder near the top, just below history items", "")>
 
       Public Class SpecifiedMailingsListProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
   inheritance:
@@ -120,6 +125,15 @@ items:
       value: Specified shipment configurations, default is the most relevant configurations
     - type: System.String
       value: ''
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: emailFlowId
+    - type: System.String
+      value: If specified, content related to the specified email flow will appear in a special folder near the top, just below history items
+    - type: System.String
+      value: ''
 - uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider.ProviderName
   id: ProviderName
@@ -177,6 +191,25 @@ items:
     return:
       type: System.Boolean
     content.vb: Protected _tracked As Boolean
+- uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowId
+  commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowId
+  id: _emailFlowId
+  parent: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider
+  langs:
+  - csharp
+  - vb
+  name: _emailFlowId
+  nameWithType: SpecifiedMailingsListProvider._emailFlowId
+  fullName: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._emailFlowId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected int _emailFlowId
+    return:
+      type: System.Int32
+    content.vb: Protected _emailFlowId As Integer
 - uid: SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._configurations
   commentId: F:SuperOffice.CRM.Lists.SpecifiedMailingsListProvider._configurations
   id: _configurations
@@ -1643,6 +1676,17 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Workflow.WorkflowUtil.ShipmentConfiguration}
   commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Workflow.WorkflowUtil.ShipmentConfiguration}
   parent: System.Collections.Generic

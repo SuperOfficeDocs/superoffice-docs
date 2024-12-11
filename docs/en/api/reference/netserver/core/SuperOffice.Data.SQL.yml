@@ -170,6 +170,7 @@ items:
   - SuperOffice.Data.SQL.ServiceAuthStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
+  - SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTaskFlagsFieldInfo
   - SuperOffice.Data.SQL.ShipmentLinkTypeFieldInfo
   - SuperOffice.Data.SQL.ShipmentListStatusFieldInfo
@@ -508,6 +509,14 @@ references:
   name: ShipmentAddrStatusFieldInfo
   nameWithType: ShipmentAddrStatusFieldInfo
   fullName: SuperOffice.Data.SQL.ShipmentAddrStatusFieldInfo
+- uid: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo.html
+  name: ShipmentLinkRedirectKindFieldInfo
+  nameWithType: ShipmentLinkRedirectKindFieldInfo
+  fullName: SuperOffice.Data.SQL.ShipmentLinkRedirectKindFieldInfo
 - uid: SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
   commentId: T:SuperOffice.Data.SQL.ShipmentLinkActionFieldInfo
   parent: SuperOffice.Data.SQL

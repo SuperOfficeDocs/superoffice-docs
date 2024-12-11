@@ -228,6 +228,7 @@ items:
   - SuperOffice.Data.ShipmentAddrStatus
   - SuperOffice.Data.ShipmentFlags
   - SuperOffice.Data.ShipmentLinkAction
+  - SuperOffice.Data.ShipmentLinkRedirectKind
   - SuperOffice.Data.ShipmentLinkTaskFlags
   - SuperOffice.Data.ShipmentLinkType
   - SuperOffice.Data.ShipmentListStatus
@@ -611,6 +612,14 @@ references:
   name: ShipmentAddrStatus
   nameWithType: ShipmentAddrStatus
   fullName: SuperOffice.Data.ShipmentAddrStatus
+- uid: SuperOffice.Data.ShipmentLinkRedirectKind
+  commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
+  name: ShipmentLinkRedirectKind
+  nameWithType: ShipmentLinkRedirectKind
+  fullName: SuperOffice.Data.ShipmentLinkRedirectKind
 - uid: SuperOffice.Data.ShipmentLinkAction
   commentId: T:SuperOffice.Data.ShipmentLinkAction
   parent: SuperOffice.Data

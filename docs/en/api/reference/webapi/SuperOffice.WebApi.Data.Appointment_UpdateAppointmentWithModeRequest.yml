@@ -140,11 +140,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   example: []
   syntax:
-    content: public int Status { get; set; }
+    content: public AppointmentStatus Status { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Property Status As Integer
+      type: SuperOffice.WebApi.Data.AppointmentStatus
+    content.vb: Public Property Status As AppointmentStatus
   overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Status*
 - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type
   commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type
@@ -162,11 +162,11 @@ items:
   namespace: SuperOffice.WebApi.Data
   example: []
   syntax:
-    content: public int Type { get; set; }
+    content: public AppointmentType Type { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Property Type As Integer
+      type: SuperOffice.WebApi.Data.AppointmentType
+    content.vb: Public Property Type As AppointmentType
   overload: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type*
 - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.AssociateId
   commentId: P:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.AssociateId
@@ -547,6 +547,14 @@ references:
   name: Status
   nameWithType: Appointment_UpdateAppointmentWithModeRequest.Status
   fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Status
+- uid: SuperOffice.WebApi.Data.AppointmentStatus
+  commentId: T:SuperOffice.WebApi.Data.AppointmentStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentStatus
 - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type*
   commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type
   isExternal: true
@@ -554,6 +562,14 @@ references:
   name: Type
   nameWithType: Appointment_UpdateAppointmentWithModeRequest.Type
   fullName: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.Type
+- uid: SuperOffice.WebApi.Data.AppointmentType
+  commentId: T:SuperOffice.WebApi.Data.AppointmentType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentType.html
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: SuperOffice.WebApi.Data.AppointmentType
 - uid: SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.Appointment_UpdateAppointmentWithModeRequest.AssociateId
   isExternal: true

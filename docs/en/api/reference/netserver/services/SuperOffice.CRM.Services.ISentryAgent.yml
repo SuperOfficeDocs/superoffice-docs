@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
   - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
   - SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
   - SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
   - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
@@ -207,6 +208,36 @@ items:
   nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Integer())
   fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(Integer())
   name.vb: CanCreateAppointmentInAssociateDiaries(Integer())
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  id: CanCreateAppointmentInEachAssociatesDiary(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInEachAssociatesDiary(int[])
+  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(int[])
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(int[])
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: CanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+  example: []
+  syntax:
+    content: bool[] CanCreateAppointmentInEachAssociatesDiary(int[] associateIds)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate ids to check.
+    return:
+      type: System.Boolean[]
+      description: Returns true if for each given associate if the current associate can create appointments in that diary, otherwise false.
+    content.vb: Function CanCreateAppointmentInEachAssociatesDiary(associateIds As Integer()) As Boolean()
+  overload: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary*
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer())
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary(Integer())
+  name.vb: CanCreateAppointmentInEachAssociatesDiary(Integer())
 - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
   commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
   id: CanCreateAppointmentInAllDiaries
@@ -425,6 +456,36 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISentryAgent.html#SuperOffice_CRM_Services_ISentryAgent_CanCreateAppointmentInEachAssociatesDiary_System_Int32___
+  name: CanCreateAppointmentInEachAssociatesDiary
+  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInEachAssociatesDiary
+- uid: System.Boolean[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool[]
+  nameWithType: bool[]
+  fullName: bool[]
+  nameWithType.vb: Boolean()
+  fullName.vb: Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: (
   - name: )
 - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries*

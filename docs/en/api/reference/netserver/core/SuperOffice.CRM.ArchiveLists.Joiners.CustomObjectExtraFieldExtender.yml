@@ -36,6 +36,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -409,6 +410,14 @@ references:
   name: _soTable
   nameWithType: ExtraFieldExtenderBase._soTable
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__firstProviderInChain
+  name: _firstProviderInChain
+  nameWithType: ExtraFieldExtenderBase._firstProviderInChain
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase

@@ -12,6 +12,7 @@ items:
   - SuperOffice.Util.TimeConverter.ConvertFromBaseToUTC(System.DateTime)
   - SuperOffice.Util.TimeConverter.ConvertFromTimeZone(System.DateTime,System.Int32)
   - SuperOffice.Util.TimeConverter.ConvertFromUTC(System.DateTime,System.Int32)
+  - SuperOffice.Util.TimeConverter.ConvertLocalKindToBase(System.DateTime)
   - SuperOffice.Util.TimeConverter.ConvertLocalToBase(System.DateTime)
   - SuperOffice.Util.TimeConverter.ConvertToTimeZone(System.DateTime,System.Int32)
   - SuperOffice.Util.TimeConverter.ConvertToUTC(System.DateTime,System.Int32)
@@ -311,6 +312,36 @@ items:
   nameWithType.vb: TimeConverter.ConvertLocalToBase(Date)
   fullName.vb: SuperOffice.Util.TimeConverter.ConvertLocalToBase(Date)
   name.vb: ConvertLocalToBase(Date)
+- uid: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase(System.DateTime)
+  commentId: M:SuperOffice.Util.TimeConverter.ConvertLocalKindToBase(System.DateTime)
+  id: ConvertLocalKindToBase(System.DateTime)
+  parent: SuperOffice.Util.TimeConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertLocalKindToBase(DateTime)
+  nameWithType: TimeConverter.ConvertLocalKindToBase(DateTime)
+  fullName: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase(System.DateTime)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Convert from the current-context local time zone to the database Base time zone. MinValue and MaxValue will not be affected.
+  example: []
+  syntax:
+    content: public static DateTime ConvertLocalKindToBase(DateTime localTime)
+    parameters:
+    - id: localTime
+      type: System.DateTime
+      description: Local time, zone determined by the current context
+    return:
+      type: System.DateTime
+      description: Base time
+    content.vb: Public Shared Function ConvertLocalKindToBase(localTime As Date) As Date
+  overload: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase*
+  nameWithType.vb: TimeConverter.ConvertLocalKindToBase(Date)
+  fullName.vb: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase(Date)
+  name.vb: ConvertLocalKindToBase(Date)
 - uid: SuperOffice.Util.TimeConverter.ConvertBaseToLocal(System.DateTime)
   commentId: M:SuperOffice.Util.TimeConverter.ConvertBaseToLocal(System.DateTime)
   id: ConvertBaseToLocal(System.DateTime)
@@ -1288,6 +1319,13 @@ references:
   name: ConvertLocalToBase
   nameWithType: TimeConverter.ConvertLocalToBase
   fullName: SuperOffice.Util.TimeConverter.ConvertLocalToBase
+- uid: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase*
+  commentId: Overload:SuperOffice.Util.TimeConverter.ConvertLocalKindToBase
+  isExternal: true
+  href: SuperOffice.Util.TimeConverter.html#SuperOffice_Util_TimeConverter_ConvertLocalKindToBase_System_DateTime_
+  name: ConvertLocalKindToBase
+  nameWithType: TimeConverter.ConvertLocalKindToBase
+  fullName: SuperOffice.Util.TimeConverter.ConvertLocalKindToBase
 - uid: SuperOffice.Util.TimeConverter.ConvertBaseToLocal*
   commentId: Overload:SuperOffice.Util.TimeConverter.ConvertBaseToLocal
   isExternal: true

@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Data.DBC.DocumentFields.AppointmentId
   - SuperOffice.CRM.Data.DBC.DocumentFields.ArchiveProvider
   - SuperOffice.CRM.Data.DBC.DocumentFields.Attention
+  - SuperOffice.CRM.Data.DBC.DocumentFields.ContentSetCount
   - SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
   - SuperOffice.CRM.Data.DBC.DocumentFields.ExtUrl
   - SuperOffice.CRM.Data.DBC.DocumentFields.Extref
@@ -492,6 +493,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ExtUrl As String = "ExtUrl"
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.ContentSetCount
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.ContentSetCount
+  id: ContentSetCount
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ContentSetCount
+  nameWithType: DBC.DocumentFields.ContentSetCount
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.ContentSetCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Document.ContentSetCount: Number of times content has been set on this document.'
+  example: []
+  syntax:
+    content: public const string ContentSetCount = "contentSetCount"
+    return:
+      type: System.String
+    content.vb: Public Const ContentSetCount As String = "contentSetCount"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
