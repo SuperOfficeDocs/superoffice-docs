@@ -17,7 +17,7 @@ envir: onsite
 
 2. Do one of the following:
 
-    * Click <i class="ph ph-file-arrow-up" aria-label="Import icon"></i> next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
+    * Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens. An import file and previously selected settings are inserted automatically.
 
     * [!include[Select file](includes/step-select-file.md)]
         Then specify the [field mapping][1]. The contents of the **Table** column under **Handling of duplicates** are based on the specified field mapping.
@@ -43,3 +43,6 @@ envir: onsite
 <!-- Referenced links -->
 [1]: field-mapping.md
 [2]: updating-rules-for-duplicate-handling.md
+
+<!-- Referenced images -->
+[img1]: ../../../../../../common/icons/nav-admin-import-active.png

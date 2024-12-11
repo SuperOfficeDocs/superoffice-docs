@@ -15,7 +15,7 @@ envir: onsite
 
 1. [!include[How to open import](includes/open-import.md)]
 
-1. Click <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> next to the **Import description file** field and select an import description file in the dialog that opens.
+1. Click ![icon][img1] next to the **Import description file** field and select an import description file in the dialog that opens.
 
 1. [Make the necessary changes][1] in the **Import** screen.
 
@@ -32,3 +32,4 @@ envir: onsite
 [1]: creating-import-descriptions.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../../common/icons/search-icon-black.png
