@@ -24,7 +24,7 @@ items:
   - name: Create project
     href: ./howto/create-project.md
   - name: Requests
-    href: .howto/requests.md
+    href: ./howto/requests.md
   - name: Create/show custom object
     href: .howto/custom-object.md
   - name: Using SoProtocol
