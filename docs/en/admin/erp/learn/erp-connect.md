@@ -24,7 +24,7 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
 1. Company: Click **Customer** or **Supplier**, depending on which ERP actor you want to link the company to. You can choose only one actor per company.
     *Or* Project: Click **Project**.
     *Or* Contact: Click **Contact**.
-1. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button ![icon][img1] to initiate an advanced search (see [Use the Find screen][1]).
+1. In the **Connect to ERP** dialog, enter text to search for in the search field and click **Search**. You can also click the search button (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) to initiate an advanced search (see [Use the Find screen][1]).
 
     > [!TIP]
     > If you search with a blank search field, all records in the ERP system are displayed.
@@ -48,4 +48,3 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
 [3]: erp-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png

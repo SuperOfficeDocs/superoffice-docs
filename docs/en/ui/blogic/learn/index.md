@@ -11,11 +11,11 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# System design
+# System design <i class="ph ph-selection-all" aria-hidden="true"></i>
 
 To use your SuperOffice in a more efficient way and make the system even smarter, advanced options are available via the Expander Services Development Tools.
 
-Provided you have access to the Development Tools, you will see the ![icon][img1] **System design** in the navigator. You can create extra tables and fields, make customised workflows via CRM Script, and edit the different main cards and dialogs to fit your particular business needs. These tools help you customise SuperOffice in such a way that your request system becomes even more powerful and relevant to your company.
+Provided you have access to the Development Tools, you will see **System design** in the navigator. You can create extra tables and fields, make customised workflows via CRM Script, and edit the different main cards and dialogs to fit your particular business needs. These tools help you customise SuperOffice in such a way that your request system becomes even more powerful and relevant to your company.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -61,6 +61,3 @@ By [adding extra tables and fields][1] to SuperOffice you can save a variety of 
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../admin/learn/screen/package-properties.md
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

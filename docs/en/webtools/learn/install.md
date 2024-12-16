@@ -27,7 +27,7 @@ Watch this video or follow the guide below to learn how to install WebTools on W
 
 ### Steps
 
-1. Go to ![icon][img1] Main menu in the top bar.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar.
 1. Select **Download** > **SuperOffice WebTools**.
 
     ![Download WebTools -screenshot][img2]
@@ -60,7 +60,6 @@ We are always working to improve our programs, including WebTools. When a new ve
 [1]: install-mac.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
 [img2]: ../../../media/loc/en/webtools/download-webtools.png
 [img3]: ../../../media/loc/en/webtools/webtools-pc.png
 [img4]: ../../../media/loc/en/webtools/webtools-email-client.png

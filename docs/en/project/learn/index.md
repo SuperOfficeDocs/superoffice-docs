@@ -26,7 +26,7 @@ All the information you save inside your project is tagged with a date and an ow
 
 The Project screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
 
-To move backwards and forwards between projects, click the ![icon][img2] ![icon][img3] previous/next buttons at the lower right of the cards
+To move backwards and forwards between projects, click <i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i> at the lower right of the cards
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
@@ -90,6 +90,4 @@ Your administrator can [add and customize project guides][8] for you.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/arrow-right.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

@@ -18,7 +18,7 @@ Watch this video and find out how to add and edit purposes for processing person
 
 ## Steps
 
-1. Go to Settings and maintenance and click the **Privacy** button in the Navigator (![icon][img2]).
+1. Go to Settings and maintenance and click the **Privacy** button in the Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Click **Add** below the list of purposes.
 
@@ -45,7 +45,7 @@ Watch this video and find out how to add and edit purposes for processing person
         * Confirmation the data will not be shared with other parties and is stored securely
         * Information about how they can change or withdraw consent at any time
 
-4. Click ![icon][img1] next to a field to add new or edit existing [translations][1] of the field texts.
+4. Click **A-Z** next to a field to add new or edit existing [translations][1] of the field texts.
 
 5. Click **Save** when you are done.
 
@@ -58,7 +58,3 @@ Watch this video and find out how to add and edit purposes for processing person
 [1]: ../../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../index.md#legal-basis
 [3]: ../index.md#source
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

@@ -15,7 +15,7 @@ You can update the default pages in your customer centre by editing the source f
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Select ![icon][img1] **System settings** > **Customer centre source files**.
+1. Select <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **Customer centre source files**.
 
 2. Click a webpage in the list.
 
@@ -29,8 +29,3 @@ You can update the default pages in your customer centre by editing the source f
 5. Click **Apply** to save your changes without closing the window, or click **OK** to save and exit.
 
 If you later want to revert a page to the original contents, open the page and click **Restore default**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

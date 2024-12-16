@@ -45,7 +45,7 @@ The simplest way to search for requests is to use the search field available in 
 
 ### Show only own categories
 
-1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 1. Select the **Request** group.
 1. Set **Show only own categories** to Yes.
 1. Click **Save**.
@@ -72,12 +72,12 @@ The result contains a list of requests that match the criteria specified above. 
 * Select a row to display the content of that request in the preview section.
 * Open a request by double-clicking the relevant row.
 * In the lower-left corner click the button to **Show/Hide preview**.
-* On the ![icon][img1] **Task** button in the lower-left corner you can access different tasks to run on selected requests.
+* On the **Task** button in the lower-left corner you can access different tasks to run on selected requests.
 
 > [!TIP]
 > The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information**, or **Not read by owner**.
 
-In the footer of the list, you can click the ![icon][img1] **Task** button to access the following options:
+In the footer of the list, you can click the **Task** button to access the following options:
 
 * **Export to Excel**: Click here to export the list under **Result** to an Excel file.
 
@@ -112,6 +112,4 @@ If the preview section is not visible, click **Show preview** at the bottom of t
 [13]: ../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/request/find-requests.png

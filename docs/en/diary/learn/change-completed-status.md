@@ -21,7 +21,7 @@ When you consider that an activity is finished, you can mark it as completed.
 1. Do one of the following:
 
     * Right-click the activity and choose **Completed**.
-    * Mark the checkbox in the **Completed** column ![icon][img2] in the **Activities** section tab.
+    * Mark the checkbox in the **Completed** column in the **Activities** section tab.
     * Open the follow-up and select **Completed**.
 
 1. Mark/clear the checkbox in the footer of the Follow-up dialog.
@@ -34,5 +34,4 @@ When you consider that an activity is finished, you can mark it as completed.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../media/icons/sale-sold-details.png
 [img4]: ../../../media/loc/en/diary/completed.png

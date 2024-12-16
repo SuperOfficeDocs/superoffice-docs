@@ -28,7 +28,7 @@ language: en
 1. Under **Add as**, select what the application will be added as:
 
     * **Button**: the application icon is displayed in the Navigator. Users can then open the application directly by clicking the icon in the Navigator.
-    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]).
+    * **Menu item**: the user can access the application by clicking the **Tools** button ( <i class="ph ph-wrench" aria-hidden="true"></i> ) in the Navigator and/or by selecting **Other applications** on the main menu (<i class="ph ph-list" aria-hidden="true"></i>).
     * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronization program for a PDA when SuperOffice CRM closes.
     * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the Selection screen or the **Task** buttons.
 
@@ -69,7 +69,7 @@ language: en
 
 1. In the **Show** list box, select the required option. This list box appears only if you selected **Menu item** under **Add as**.
 
-    * **Toolbox menu**: the user can access the application by clicking the **Tools** button (![icon][img2]) in the Navigator or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
+    * **Toolbox menu**: the user can access the application by clicking the **Tools** button in the Navigator or by selecting **Other applications** on the main menu in SuperOffice CRM.
     * **View menu**: the user can access the application using the **Other Applications** option on the **View** menu in SuperOffice CRM.
 
 1. In the **Run when** list box, choose when to run the application. This list box appears only if you selected **Event** under **Add as**.
@@ -93,9 +93,3 @@ language: en
 
 > [!NOTE]
 > Users must log in to SuperOffice CRM again to display the application.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

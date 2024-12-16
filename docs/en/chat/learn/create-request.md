@@ -13,7 +13,7 @@ language: en
 
 If you cannot solve the issue via the chat, you can create a request to be handled by another specialist.
 
-1. Click ![icon][img1] and select **Create request**.
+1. Click <i class="ph ph-list" aria-label="Task menu"></i> and select **Create request**.
 
     ![Click on the Action button and Create request, and all information in the chat will be saved in the request -screenshot][img2]
 
@@ -36,5 +36,4 @@ If you cannot solve the issue via the chat, you can create a request to be handl
 [4]: ../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-create-request.png

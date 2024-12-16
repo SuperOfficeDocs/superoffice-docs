@@ -37,7 +37,7 @@ Watch this video to find out how you can create your own extra fields in SuperOf
 
 1. [Optionally, adjust the position of the field][3]. This requires the Development Tools license!
 
-1. Continue adding fields. Click **Publish** when you are done to make the field available to SuperOffice users. Unpublished fields ![icon][img1] and fields with unpublished changes ![icon][img2] are displayed in bold text in the **Fields** list.
+1. Continue adding fields. Click **Publish** when you are done to make the field available to SuperOffice users. Unpublished fields and fields with unpublished changes are displayed in bold text in the **Fields** list.
 
 ## <a id="properties"></a>Field properties
 
@@ -88,6 +88,4 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

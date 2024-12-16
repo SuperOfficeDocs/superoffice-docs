@@ -24,7 +24,7 @@ We will now create a macro based on the example above.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Select ![icon][img2] **CRMScript** and the tab for **Macros and script**. Do one of the following:
+1. Select <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** and the tab for **Macros and script**. Do one of the following:
     * To create a new macro: Click **New macro**.
     * To edit an existing macro: Click the macro name.
 
@@ -51,6 +51,3 @@ We will now create a macro based on the example above.
 
 <!-- Referenced links -->
 [1]: trigger.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

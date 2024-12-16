@@ -22,13 +22,8 @@ If the recipient has problems displaying the message in their email program (may
 
 2. Type and select the text which the recipient has to click, for example "Click here to view this message in a browser".
 
-3. Click the **Insert/edit link** button ![icon][img1] in the toolbar.
+3. Click the **Insert/edit link** button (<i class="ph ph-link" aria-hidden="true"></i>) in the toolbar.
 
 4. Click **Special links** and select **Link for viewing message online**.
 
 5. Click **Save**. The link is inserted in the message.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png

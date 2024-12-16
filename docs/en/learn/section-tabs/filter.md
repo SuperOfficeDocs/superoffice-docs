@@ -33,9 +33,8 @@ Learn how to customize views by configuring columns with this short video, or re
 
 | Option | Description |
 |---|---|
-| ![icon][img2] (the filter icon) | You can filter activities and sales section tabs by date, users, and groups. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | You can filter activities and sales section tabs by date, users, and groups. Click the funnel icon on a column header to filter on that column. |
 | Activities filters (checkboxes) | You can filter activities by type (pre-defined filters). Click the arrow and select what to. |
-| ![icon][img3] (column filter) | Click the funnel icon on a column header to filter on that column. |
 
 > [!NOTE]
 > The column filter is not available in all section tabs. Not all columns can be filtered.
@@ -46,7 +45,7 @@ Learn how to customize views by configuring columns with this short video, or re
 
 2. Select the **Activities** or **Sales** section tab.
 
-3. Click the ![icon][img2] filter icon.
+3. Click <i class="ph ph-funnel" aria-label="Filter icon"></i>.
 
 4. In the **From** box, specify from how far back in time you want to show activities or sales.
 
@@ -67,13 +66,13 @@ Learn how to customize views by configuring columns with this short video, or re
 7. Click **OK**. The tabs will show all activities or sales that match the criteria you specified.
 
 > [!TIP]
-> Hold the mouse pointer over the ![icon][img2] filter icon to display the active filter settings.
+> Hold the mouse pointer over the filter icon to display the active filter settings.
 >
 > Click **Show count** at the lower right of the section tab, to see how many records are displayed. The number changes according to active filters.
 
 ## Activate the column filter
 
-1. Click ![icon][img1] to the right of the column headers and select **Enable filter**.
+1. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers and select **Enable filter**.
 
     ![Click the Settings button on the archive you have selected. -screenshot][img11]
 
@@ -113,7 +112,7 @@ Now, all the columns in your archive have a funnel icon behind them.
 
 ## Reset the column filter
 
-Click ![icon][img2] and **Reset** to reset the filter.
+Click <i class="ph ph-funnel" aria-label="Filter icon"></i> and **Reset** to reset the filter.
 
 ## Related topics
 
@@ -125,10 +124,6 @@ Click ![icon][img2] and **Reset** to reset the filter.
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
 [img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png

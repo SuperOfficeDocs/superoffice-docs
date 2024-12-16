@@ -15,7 +15,7 @@ Here you can edit the properties of a screen. You can create a script to precalc
 
 ## Properties
 
-* **Folder:** If you have organized the screens into a folder structure, click ![icon][img1] and select a folder.
+* **Folder:** If you have organized the screens into a folder structure, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select a folder.
 * **Name**: A descriptive name for the screen.
 * **ID string**: A string which uniquely identifies this screen, so that it can be referenced in URL's
 * **Authentication key**: It is possible to run a custom-defined screen without being logged in as an user. To do this, you must supply an authentication key.
@@ -31,6 +31,3 @@ Here you can edit the properties of a screen. You can create a script to precalc
 
 <!-- Referenced links -->
 [1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png

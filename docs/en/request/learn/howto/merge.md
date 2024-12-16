@@ -15,13 +15,13 @@ language: en
 You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request to process. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
-> You can also search for and select requests to merge from the search results screen or lists. Then click the ![icon][img1] **Task** button in the lower left corner and select **Merge requests**.
+> You can also search for and select requests to merge from the search results screen or lists. Then click the **Task** button in the lower left corner and select **Merge requests**.
 
 ## Steps
 
 1. [Open one of the requests][1] you want to merge.
 
-1. Click the ![icon][img1] **Task** button and select **Merge requests**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Merge**. A screen opens, showing the fields that must be merged. Now you need to find the request to merge with this one.
 
 1. In the search field, start typing a request name or enter a request ID. Enter **%** to display all requests.
 
@@ -46,6 +46,3 @@ The request IDs that were overwritten will no longer be available in favourites 
 [3]: reply.md
 [4]: transfer.md
 [5]: forward.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

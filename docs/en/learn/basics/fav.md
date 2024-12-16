@@ -18,21 +18,19 @@ The Favorites function provides easy access to your favorite records, such as co
 
 ## Add record as a favorite
 
-To add a record to favorites, click the star icon (![icon][img3]) on the relevant card, tab, or dialog. The star turns yellow, and the record is instantly added to your favorites. You do not have to click **Save**.
+To add a record to favorites, click the star icon (<i class="ph ph-star" aria-label="Star icon"></i>) on the relevant card, tab, or dialog. The star turns yellow, and the record is instantly added to your favorites. You do not have to click **Save**.
 
 In lists (such as the section tabs and Find results), you can also right-click a record and select **Add to favorites** in the menu.
 
-Now you can quickly access the record by selecting ![icon][img1] from the Navigator menu. Favorites are also available in the [side panel][4].
+Now you can quickly access the record by selecting <i class="ph ph-star" aria-label="Star icon"></i> from the Navigator menu. Favorites are also available in the [side panel][4].
 
 ## Accessing your favorites
 
 ### From the Navigator
 
 1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Requests**, or **Selection** in Navigator.
-
-1. Click ![icon][img1].
-
-1. Select the record you want to view.
+1. Click <i class="ph ph-star" aria-label="Star icon"></i>.
+1. Select the item you want to view.
 
 ### In the side panel
 
@@ -42,6 +40,8 @@ Now you can quickly access the record by selecting ![icon][img1] from the Naviga
 
 1. Optionally, click the checkbox at the bottom of the side panel to show only one type of favorites. For example, if the Sale screen is open, click **Sales only** to show only favorite sales.
 
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the side panel's name.
+
 > [!TIP]
 > Hover over a favorite to see more details.
 
@@ -49,7 +49,7 @@ Now you can quickly access the record by selecting ![icon][img1] from the Naviga
 
 1. Open the record.
 
-1. Click the favorites icon (![icon][img2]) in the header. The icon changes back to the default, indicating that the record is no longer a favorite.
+1. Click the favorites icon (<i class="ph ph-star" aria-label="Star icon"></i>) in the header. The icon changes back to the default, indicating that the record is no longer a favorite.
 
 ## Additional tips
 
@@ -67,8 +67,3 @@ Now you can quickly access the record by selecting ![icon][img1] from the Naviga
 [1]: history.md
 [2]: ../getting-started/main-screen/navigator.md
 [4]: ../getting-started/main-screen/side-panel.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-fav.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

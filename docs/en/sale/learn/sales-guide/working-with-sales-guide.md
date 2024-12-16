@@ -72,7 +72,7 @@ In the **Sales guide** dialog you have three options:
 * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
 > [!TIP]
-> To reset this option, so that the **Sales guide** dialog opens, go to ![icon][img1] **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
+> To reset this option, so that the **Sales guide** dialog opens, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Sale** and select **Yes** for the **Confirm creation of suggested follow-up** option.
 
 ## Example
 
@@ -185,6 +185,3 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 [2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

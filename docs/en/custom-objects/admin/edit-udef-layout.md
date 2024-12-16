@@ -34,7 +34,7 @@ When you [add new fields][2], they are placed beneath each other by default. Eac
 
 * Click and drag using the mouse. The fields will automatically be adjusted to fit the grid.
 * Click a field and use the arrow keys on the keyboard.
-* Click a field and use the arrow keys in the bottom-right corner ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
+* Click a field and use the arrow buttons in the bottom-right corner (<i class="ph ph-arrow-circle-left" aria-hidden="true"></i> <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> <i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 * Double-click a field and specify position values **X** and **Y** in the **Fields** dialog.
 
 ## Set position
@@ -53,7 +53,7 @@ When you [add new fields][2], they are placed beneath each other by default. Eac
 
 ## Align fields (right/left)
 
-Select the fields you want to adjust and click left-align ![icon][img5] or right-align ![icon][img6] below the grid.
+Select the fields you want to adjust and click left-align (<i class="ph ph-text-align-left" aria-hidden="true"></i>) or right-align (<i class="ph ph-text-align-right" aria-hidden="true"></i>) below the grid.
 
 ## Change the width of a field
 
@@ -71,7 +71,7 @@ The TAB order is displayed in the **Name** list on the left of the screen. This 
 
 1. Select the required field below the list.
 
-1. Click one of the arrows below the list to move the field either up ![icon][img3] or down ![icon][img4].
+1. Click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> below the list to move the field either up or down.
 
 1. Click **Publish** to make the changes available to SuperOffice CRM users.
 
@@ -97,11 +97,3 @@ If you select **(all user groups)** in the **User group** list, select a field o
 <!-- Referenced links -->
 [1]: ../../ui/screen-designer/learn/index.md
 [2]: add-udef.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/admin/align-left.png
-[img6]: ../../../media/icons/admin/align-right.png

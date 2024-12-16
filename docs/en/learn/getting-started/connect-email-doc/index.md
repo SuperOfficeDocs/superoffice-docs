@@ -23,9 +23,9 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 
 | | Application | Description | Options |
 |-|---|---|---|
-| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-file-doc" aria-hidden="true"></i> | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
 
 ## What solution does your company use?
 
@@ -73,6 +73,3 @@ The integrations you need depend on your operating system, your email client, an
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

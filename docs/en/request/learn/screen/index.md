@@ -28,7 +28,7 @@ The Request screen has the following sections:
 
 ### Request header
 
-The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click ![icon][img6] to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
+The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click <i class="ph ph-star" aria-label="Star icon"></i> to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
 
 ### Message types
 
@@ -39,22 +39,22 @@ There are three types of messages:
 * Internal comments about the request, such as questions to a colleague
 
 > [!TIP]
-> Internal messages are marked with ![icon][img5].
+> Internal messages are marked with <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Messages tab
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon][img2] **Personal settings**:
+You can change how many messages are displayed, in **Personal settings**:
 
-1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 1. Select the group for **Request**.
 1. Specify the number of messages in the **No. of expanded messages** field.
 1. Click **OK**.
 
 ### Message tasks
 
-Click the ![icon][img1] **Task** button on a message to access additional options for the message:
+Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on a message to access additional options for the message:
 
 * **Change**: Click here to [edit][8] or delete the message.
 * **Reply**: Click here to reply the contact in the To field.
@@ -96,7 +96,7 @@ The request properties sidebar contains the following options:
 
 ### Task options
 
-![icon][img1] **Task** button: Click this button to access the following options:
+**Task** button: Click this button to access the following options:
 
 * **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][1].
 * **Accept**: Click here to [take over the request][5]. You will then be the request's new owner.
@@ -139,8 +139,4 @@ The request properties sidebar contains the following options:
 [17]: ../../../dashboard/learn/show-requests.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

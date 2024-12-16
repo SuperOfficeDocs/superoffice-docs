@@ -32,11 +32,11 @@ When adding members to a project, you can assign functions individually as you a
 
       ![Add/edit project members dialog, history -screenshot][img5]
 
-    * User group: Click ![icon][img2] to browse associates by group.
+    * User group: Click <i class="ph ph-users" aria-label="Associate icon"></i> to browse associates by group.
 
       ![Add/edit project members dialog, group -screenshot][img6]
 
-    * Company: Click ![icon][img3] to browse contacts by company or add a company as a member.
+    * Company: Click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to browse contacts by company or add a company as a member.
 
       ![Add/edit project members dialog, company -screenshot][img7]
 
@@ -79,7 +79,7 @@ You can add project members and stakeholders from the contact lists in different
 
 * **Add comments**
 
-    If a comment is added, a ![icon][img1] paperclip will appear next to the **Project member information** column in the **Project Members** tab. Hover over the paperclip to see the comment tooltip.
+    If a comment is added, a paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) will appear next to the **Project member information** column in the **Project Members** tab. Hover over the paperclip to see the comment tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ You can add project members and stakeholders from the contact lists in different
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

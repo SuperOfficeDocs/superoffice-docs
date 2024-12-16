@@ -11,7 +11,7 @@ audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Preferences
+# Preferences <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **[Global preferences][1]** tab.
 
@@ -58,7 +58,7 @@ Some [preferences][1] can be set only on a global level:
 
 ### Change global preferences
 
-To edit these preferences, go to the ![icon][img1] **Preferences** screen and select the **Global preferences** tab.
+To edit these preferences, go to the **Preferences** screen and select the **Global preferences** tab.
 
 * The various preferences are divided into sections.
 * Hold the mouse-pointer over a preference to display additional info.
@@ -123,4 +123,3 @@ You can sort the rows in the columns by clicking on the required column heading.
 [9]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

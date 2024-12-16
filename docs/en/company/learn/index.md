@@ -22,7 +22,7 @@ All information related to a company – be it your customer, partner or supplie
 
 In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
 
-To move between companies, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards.
+To move between companies, click the previous/next buttons (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) at the bottom right of the cards.
 
 You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
 
@@ -77,6 +77,4 @@ The bottom of the screen contains the following [default section tabs][18]:
 [18]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/loc/en/company/company-month-mini.png

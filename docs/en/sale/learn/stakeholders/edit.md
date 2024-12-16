@@ -43,5 +43,3 @@ You can update the **sales role** and **comment** fields for stakeholders, or re
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-
-<!-- Referenced images -->

@@ -99,7 +99,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 ## <a id="fields"></a>How to enter information
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img5] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Many fields have a list of predefined values you can choose from. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
 ![Create document from template (new) -screenshot][img4]
 
@@ -168,4 +168,3 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

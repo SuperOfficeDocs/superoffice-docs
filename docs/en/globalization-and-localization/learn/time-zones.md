@@ -29,7 +29,7 @@ This function supports summer time.
 
 ## How do you select time zones?
 
-Time zones are displayed in a list box in the [Diary][1] and on [follow-ups][3]. The default time zone for your SuperOffice database is displayed at the top, using this icon: ![icon][img1].
+Time zones are displayed in a list box in the [Diary][1] and on [follow-ups][3]. The default time zone for your SuperOffice database is displayed at the top.
 
 The time zone list is sorted by country. At the top of the list is the name of the selected country and its flag.
 
@@ -57,6 +57,3 @@ Search for a number of hours to find the correct time zone. For example, if you 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
 [3]: ../../diary/learn/follow-ups.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.png

@@ -24,7 +24,7 @@ You can also create new links while editing the content.
 
 2. Optional: Select a folder or [create a new folder][2].
 
-3. Click the ![icon][img1] **Add** button.
+3. Click the **Add** button.
 
 4. Enter a descriptive **Name** for the link.
 
@@ -37,6 +37,3 @@ A small dot on the link action tabs indicates which actions are active. Multiple
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

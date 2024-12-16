@@ -36,21 +36,14 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 
 | Icon | Option | Description |
 |---|---|---|
-| ![icon][img1] | Macros and scripts | Used to return to the list of the scripts and macros. |
-| ![icon][img3] | Edit script | Used to edit the [script or macro][1]. |
-| ![icon][img5] | Run script | Used to run the script or macro in standard mode. |
-| ![icon][img6] | Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
-| ![icon][img4] | Trace script | Used to start [tracing the script or macro][3]. |
+| | Macros and scripts | Used to return to the list of the scripts and macros. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Edit script | Used to edit the [script or macro][1]. |
+| <i class="ph ph-play" aria-label="Play"></i> | Run script | Used to run the script or macro in standard mode. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Debug script | Used to open the **Debugger** screen and run the selected script or macro in debug mode. The script stops at the first line. You can open a [debug session][2] from the **Debug sessions** tab. |
+| | Trace script | Used to start [tracing the script or macro][3]. |
 
 <!-- Referenced links -->
 [1]: ../create-script.md
 [2]: ../debug.md
 [3]: ../tracing.md
 [4]: ../create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-left.png
-[img3]: ../../../../../media/icons/edit.png
-[img4]: ../../../../../media/icons/btn-script-trace.png
-[img5]: ../../../../../media/icons/run-script.png
-[img6]: ../../../../../../common/icons/bug.png

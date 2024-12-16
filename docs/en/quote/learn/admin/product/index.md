@@ -29,7 +29,7 @@ In the **Price list** list, select the required price list. The products in the 
 
 ## Export a price list
 
-You can export an open price list by clicking ![icon][img1] **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
+You can export an open price list by clicking <i class="ph ph-download-simple" aria-hidden="true"></i> **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
 
 ### Export not visible?
 
@@ -50,6 +50,3 @@ Either you do not have [access rights][4] to the export function, or this [prefe
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

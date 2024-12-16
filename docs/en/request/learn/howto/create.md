@@ -78,14 +78,14 @@ Here you type in the message you want to add to the request. This works in the s
 
 The section at the bottom contains the following options:
 
-* ![icon][img1] – Click here to show or hide the toolbar in the message editor
-* ![icon][img2] – Click here to show the attachments options. Here you can add relevant documents as attachments to the request.
+* <i class="ph ph-text-a-underline" aria-label="Show/hide toolbar"></i> – Click here to show or hide the toolbar in the message editor
+* <i class="ph ph-paperclip" aria-label="Attachments"></i> – Click here to show the attachments options. Here you can add relevant documents as attachments to the request.
   * Click **Upload files (or drag here)** to browse to and add a file from a disk or server.
   * Drag and drop a file from Windows Explorer to the attachments field.
   * Click **Choose a CRM document** to select a document in SuperOffice CRM.
 * **Insert**: Click the list button ![icon][img3], and select what to insert in the message. You can add a reply template, an FAQ entry, a previous message, or an attachment. Optional: You can also [add reply templates in other languages][7]. Select a language in the language list. If available, the text will be inserted in the selected language. Otherwise the default language will be used.
 * **Internal/External**: Here you can select **External** if the contact is to have access to the message via SuperOffice Customer Centre, or **Internal** if the contact is not to have access to the message.
-* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking the stop button ![icon][img4], and also re-start the clock by clicking the start button ![icon][img5]. Click ![icon][img6] (**Select time span**) button to register time spent.
+* **Time spent**: Here you can record how much time was spent dealing with the message. The clock starts automatically when you create the request. You can stop the clock by clicking <i class="ph ph-stop" aria-label="Stop"></i>, and also re-start the clock by clicking <i class="ph ph-play" aria-label="Play"></i>. Click <i class="ph ph-timer" aria-label="Timer icon"></i> (**Select time span**) register time spent.
 
 > [!NOTE]
 > The default request signature will be added to the message. You can edit the signature directly in the message or edit your default [email signature][1].
@@ -143,10 +143,5 @@ The autosave feature is activated by default when you view and edit requests and
 [11]: ../../reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/format-font.png
-[img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: ../../../../../common/icons/copy-paste-icon.png
-[img4]: ../../../../../common/icons/stop.png
-[img5]: ../../../../../common/icons/play.png
-[img6]: ../../../../../common/icons/timespan.png
 [img7]: ../../../../media/loc/en/request/requests-select-request-types.png

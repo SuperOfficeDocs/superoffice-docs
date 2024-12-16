@@ -15,13 +15,13 @@ language: en
 
 When you register email addresses under **Knowledge base** > **Email addresses**, they become available in most places where you send emails, such as in the **New request** and **Add message** screens. This speeds up request processing.
 
-1. Go to ![icon][img2] **Main menu** in the top bar and select **Knowledge base** > **Email addresses**.
+1. Go to <i class="ph ph-list" aria-hidden="true"></i> **Main menu** in the top bar and select **Knowledge base** > **Email addresses**.
 
 1. Go to the folder you want to put the email address in. If it does not yet exist, you can [create a new folder][1].
 
 1. Click the **New email address** button. This takes you to the **Email address properties** screen.
 
-1. The **Folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the ![icon][img1] list button and select a different folder in the list that appears.
+1. The **Folder** field automatically shows the name of the folder you chose. If you change your mind, you can click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select a different folder in the list that appears.
 
 1. In the **Name** field, enter the name of the person the email address belongs to.
 
@@ -33,7 +33,3 @@ When you register email addresses under **Knowledge base** > **Email addresses**
 
 <!-- Referenced links -->
 [1]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../../media/icons/main-menu.png

@@ -26,7 +26,7 @@ Examples: Your colleague is on vacation, but needs to call a client when they ge
 
 1. [Open or create a follow-up][1].
 
-1. Click the ![icon][img1] **Task** button and select **Assign to**. Alternatively, open the follow-up and update the name in the **Owner** field.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Assign to**. Alternatively, open the follow-up and update the name in the **Owner** field.
 
 1. In The **Assign to** dialog, click the list at the top to select which users to display (history list, all, or groups).
 
@@ -48,6 +48,3 @@ If the other person declines the invitation, you get an **Invitation declined** 
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

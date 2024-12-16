@@ -87,7 +87,7 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 
 **As a flow editor:**
 
-1. On the **Flow contents** tab, click the menu button ![icon][img11] on the email you wish to update and select **Edit**.
+1. On the **Flow contents** tab, click <i class="ph ph-list" aria-label="Task menu"></i> on the email you wish to update and select **Edit**.
 
 **As a flow administrator:**
 
@@ -113,4 +113,3 @@ Go to **Marketing** > **Forms**. For details, see [Create form][1].
 [img4]: ../../../../media/loc/en/marketing/choose-flow-email-template.png
 [img5]: ../../../../media/loc/en/marketing/flow-email-content-compose.png
 [img6]: ../../../../media/loc/en/marketing/flow-send-email-new.png
-[img11]: ../../../../media/icons/btn-menu.png

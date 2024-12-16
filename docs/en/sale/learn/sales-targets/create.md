@@ -67,7 +67,7 @@ Before you start using the sales targets feature, you must set up a few things i
 > [!TIP]
 > The default target type is **All sales - Amount**. If you have the Sales Targets Unlimited licence, you can create additional target types.
 
-1. Click ![icon][img1] **Main menu** and select **Targets**. If no sales targets have been created yet, the list is empty.
+1. Click **Main menu** (<i class="ph ph-list" aria-hidden="true"></i>) and select **Targets**. If no sales targets have been created yet, the list is empty.
 
 2. In the **Sales targets** screen, select the year that you want to create a sales target for from the **Select year** list. Your can also set up targets for previous years, to create budget statistics back in time.
 
@@ -82,16 +82,16 @@ Before you start using the sales targets feature, you must set up a few things i
 
 6. If applicable, change the currency for the company or group. The default currency is the base currency set for you company. You cannot set currency for individual users.
 
-7. Adjust the numbers manually using the **TAB** key go the next field. You can also [copy and paste numbers from Excel](#import) or click the menu button ![icon][img2] at the end of a row and select **Adjust numbers**. Options:
+7. Adjust the numbers manually using the **TAB** key go the next field. You can also [copy and paste numbers from Excel](#import) or click <i class="ph ph-list" aria-label="Menu icon"></i> at the end of a row and select **Adjust numbers**. Options:
 
     * **Set initial amount**: Enter the amount for the whole year. The amount is split equally among the months or quarters on the current row.
     * **Copy from**: Copy the values from another group or user.
     * **Copy from last year**: Copy values from last year and increase the values by a specific percentage. This option is disabled if last year has no values.
         Click **Save** when you are done. The sums for all users are added to the **All** row at the top of the list of users.
 
-8. Optional: When you have completed a row, you can lock it ![icon][img3]-![icon][img4] to disable editing. For example, after a budget is approved and should not be edited. Locked rows cannot be removed, cleared or edited.
+8. Optional: When you have completed a row, you can lock it (<i class="ph ph-lock-simple" aria-hidden="true"></i>) to disable editing. For example, after a budget is approved and should not be edited. Locked rows cannot be removed, cleared or edited.
 
-9. If a specific group or user should not have a sales target, click the menu button ![icon][img2] and select **Clear** to empty the values.
+9. If a specific group or user should not have a sales target, click <i class="ph ph-list" aria-label="Menu icon"></i> and select **Clear** to empty the values.
 
 10. Click **Save**.
 
@@ -100,7 +100,7 @@ Before you start using the sales targets feature, you must set up a few things i
 12. Go to step 2 to add sales targets for another year, or click **Save and close** to exit this screen.
 
 > [!NOTE]
-> To remove a company or group target, click the menu button ![icon][img2] and select **Remove company target** or **Remove group target**.
+> To remove a company or group target, click <i class="ph ph-list" aria-label="Menu icon"></i> and select **Remove company target** or **Remove group target**.
 
 ## Lock/unlock function
 
@@ -137,7 +137,7 @@ To do this:
 
 ## Revision history
 
-To view the revision history for a sales target (row), click the menu button ![icon][img2] and select **Revision history**. In the screen that displays, you can view all changes to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
+To view the revision history for a sales target (row), click <i class="ph ph-list" aria-label="Menu icon"></i> and select **Revision history**. In the screen that displays, you can view all changes to the current sales target. This includes changed values and locking/unlocking, when the change was made and by whom. Use the expand/collapse buttons at the top to view/hide details.
 
 ## Related topics
 
@@ -149,9 +149,5 @@ To view the revision history for a sales target (row), click the menu button ![i
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
-[img2]: ../../../../../common/icons/context-menu.png
-[img3]: ../../../../../common/icons/lock-on.png
-[img4]: ../../../../../common/icons/lock-off.png
 [img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
 [img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

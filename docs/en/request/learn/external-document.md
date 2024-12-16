@@ -20,20 +20,20 @@ For example, when [answering requests][1], you can enter text in the **Message**
 
 ## View file
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 
 1. Go to the required folder.
 
 1. Do one of the following:
     * Click the file name to go to the **Document properties** screen (view and edit contents).
-    * Click ![icon][img1] **Download** to download files that cannot be viewed in the browser, such as images, PDFs, and Microsoft Office files. An icon in the file list indicates the file type.
+    * Click <i class="ph ph-download-simple" aria-label="Download"></i> to download files that cannot be viewed in the browser, such as images, PDFs, and Microsoft Office files. An icon in the file list indicates the file type.
 
 ## Add file
 
 > [!NOTE]
 > You must create the physical file before you can add it to SuperOffice. For example, to create a price list, you could use Microsoft Word or Excel to write the contents.
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 
 1. Go to the folder you want to put the file in. If it does not yet exist, you can create a new folder as described below.
 
@@ -41,7 +41,7 @@ For example, when [answering requests][1], you can enter text in the **Message**
 
 1. In the **Document properties** screen, enter a descriptive **Name** for the file.
 
-1. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the ![icon][img2] list button and select a different folder in the list that appears.
+1. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select a different folder in the list that appears.
 
 1. In the **Access** field, select who is to have access to read and edit the file.
 
@@ -62,9 +62,9 @@ For example, when [answering requests][1], you can enter text in the **Message**
 
 Certain file types, such as html, txt and the native ejr format, can be edited directly in the **Document properties** screen. For other types, such as PDF, you need the application the file was originally created in.
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the folder where the file is located.
-1. Click ![icon][img1] **Download**.
+1. Click <i class="ph ph-download-simple" aria-hidden="true"></i> **Download**.
 1. Edit and save the file using the application the file was originally created in.
 1. Click the file name to go to the **Document properties** screen.
 1. Click the **Choose file** button next to **File**, and in the dialog that appears select the file you edited.
@@ -74,7 +74,7 @@ Certain file types, such as html, txt and the native ejr format, can be edited d
 
 By editing the file's properties, you can, for example, change who is to have access to it.
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the folder where the file is located.
 1. Click the file name to go to the **Document properties** screen.
 1. Make the required changes (see above).
@@ -85,7 +85,7 @@ By editing the file's properties, you can, for example, change who is to have ac
 
 ## Delete file
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the folder where the file is located.
 1. Click the file name to go to the **Document properties** screen.
 1. Click the **Delete** button at the bottom of the screen.
@@ -95,7 +95,7 @@ By editing the file's properties, you can, for example, change who is to have ac
 
 You can create a folder structure for files, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the files in any of these folders.
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 
 1. Go to the folder you want to create a sub-folder under. You can create it directly under the **Files** folder or under any of its sub-folders.
 
@@ -103,7 +103,7 @@ You can create a folder structure for files, to give them a logical structure an
 
 1. Enter a descriptive name for the folder in the **Name** field.
 
-1. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the ![icon][img2] list button and select a different folder in the list that appears.
+1. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select a different folder in the list that appears.
 
 1. In the **Access** list box, you select who is to have access to read and edit the folder.
 
@@ -113,7 +113,7 @@ You can create a folder structure for files, to give them a logical structure an
 
 When you delete a folder, all the files in it are also deleted from SuperOffice.
 
-1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the required folder.
 1. Click **Edit folder**. This takes you to the **Document folder properties** screen.
 1. Click **Delete**.
@@ -122,8 +122,3 @@ When you delete a folder, all the files in it are also deleted from SuperOffice.
 <!-- Referenced links -->
 [1]: howto/reply.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
-[img2]: ../../../../common/icons/dropdown-arrow.png
-[img3]: ../../../media/icons/main-menu.png

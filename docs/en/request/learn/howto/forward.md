@@ -23,7 +23,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 1. Click the **Messages** tab.
 
-1. Click on the ![icon][img4] **Forward** button or click on ![icon][img1] **Task menu** on the message you want to forward, and select **Forward**. A new message opens in edit mode.
+1. Click <i class="ph ph-arrow-bend-up-right" aria-label="Forward"></i> or click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on the message you want to forward, and select **Forward**. A new message opens in edit mode.
 
     ![Forward a request to an external contact -screenshot][img3]
 
@@ -31,7 +31,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 1. [Edit the message][2].
 
-1. Click ![icon][img2] in the toolbar and add any relevant documents as attachments to the request.
+1. Click <i class="ph ph-paperclip" aria-label="Attachments"></i> in the toolbar and add any relevant documents as attachments to the request.
 
 1. Click **Send**. The message is sent.
 
@@ -39,7 +39,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 1. From a list or selection of requests, select the requests you want to forward.
 
-1. Click the ![icon][img1] **Task** button in the lower left corner.
+1. Click the **Task** button in the lower left corner.
 
 1. Select **Manage** and **Forward requests**.
 
@@ -56,7 +56,4 @@ You can forward a complex or problematic request to an external contact in an em
 [2]: create.md#message
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: ../../../../media/loc/en/request/forward-a-request.png
-[img4]: ../../../../../common/icons/forward-icon.png

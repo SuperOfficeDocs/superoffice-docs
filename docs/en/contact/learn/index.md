@@ -19,7 +19,7 @@ A Contact card stores valuable information on all your communication and interac
 
 In the **Contact** screen, every record in the database is displayed like an index card, containing all information for that contact.
 
-To move between contacts, click the previous/next buttons - ![icon][img2] ![icon][img1] - at the bottom right of the cards.
+To move between contacts, click the previous/next buttons (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) at the bottom right of the cards.
 
 You can [search][1] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
 
@@ -69,6 +69,4 @@ Everything you want to find out about a contact is available from a single scree
 [16]: ../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/loc/en/contact/edit-person.png
