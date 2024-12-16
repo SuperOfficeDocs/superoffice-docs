@@ -70,6 +70,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 | Button | Description |
 |:-:|---|
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
 | <i class="ph ph-clock" aria-label="Clock icon"></i> | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | **Favorites**: Click this button to view the records you have [set as favorites][15]. |
 | <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic - start typing your search phrase to initiate the search. |
