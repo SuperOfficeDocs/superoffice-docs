@@ -3,7 +3,7 @@ uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
 description: "Lær mere om, hvordan du håndterer afviste mails, i denne vejledning."
 keywords: Marketing
-sauthor: SuperOffice RnD
+author: SuperOffice RnD
 date: 12.11.2024
 version: 10
 topic: howto

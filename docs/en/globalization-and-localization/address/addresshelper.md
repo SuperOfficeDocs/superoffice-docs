@@ -3,7 +3,7 @@ title: AddressHelper class
 uid: globalization_addresshelper
 description: AddressHelper class 
 author: Tony Yates
-so-date: 05.15.2017
+date: 05.15.2017
 keywords: globalization, address
 topic: reference
 # envir:

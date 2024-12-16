@@ -4,7 +4,7 @@ title: Brugerdefinerede felter
 description: Brugerdefinerede felter
 author: Bergfrid Dias
 date: 08.27.2024
-so-version: 10.3.1
+version: 10.3.1
 keywords: udef, tilpasset felt, Brugerdefinered
 topic: concept
 audience: user

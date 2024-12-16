@@ -4,7 +4,7 @@ title: Användardefinierade fält
 description: Användardefinierade fält
 author: Bergfrid Dias
 date: 08.27.2024
-so-version: 10.3.1
+version: 10.3.1
 keywords: udef, anpassa fält, användardefinierad fält
 topic: concept
 audience: user

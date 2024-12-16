@@ -4,7 +4,7 @@ title: Set LocalizedAddress
 description: Set the LocalizedAddress
 keywords: globalization, address
 author: Tony Yates
-so-date: 05.15.2017
+date: 05.15.2017
 version: 9
 topic: howto
 ---

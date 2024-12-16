@@ -8,7 +8,7 @@ date: 06.25.2015
 version: 8
 topic: howto
 language: nl
-translationtype: MT
+translation_type: MT
 audience: person
 audience_tooltip: SuperOffice Marketing
 ---

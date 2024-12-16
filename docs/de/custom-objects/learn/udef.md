@@ -5,7 +5,7 @@ description: Benutzerdefinierte Felder
 keywords: udef, benutzerdefiniertes Feld
 author: Bergfrid Dias
 date: 08.27.2024
-so-version: 10.3.1
+version: 10.3.1
 topic: concept
 audience: user
 audience_tooltip: SuperOffice CRM
