@@ -94,7 +94,7 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 [5]: howto/open-contact.md
 [6]: howto/create-contact.md
 
-[7]: howto/open-follow.up.md
+[7]: howto/open-follow-up.md
 [8]: howto/create-follow-up.md
 
 [9]: howto/open-document.md

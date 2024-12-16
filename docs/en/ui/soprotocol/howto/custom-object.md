@@ -1,5 +1,5 @@
 ---
-uid: sop-custom-object
+uid: sop-custom-objects
 title: How to work with custom objects using SoProtocol
 description: How to show or create a custom object with or without prefilled values using SoProtocol.
 keywords: soprotocol, custom object

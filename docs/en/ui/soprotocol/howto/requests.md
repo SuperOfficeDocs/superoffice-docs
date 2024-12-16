@@ -1,6 +1,6 @@
 ---
 title: How to work with Requests
-uid: sop_request_management
+uid: sop-request-management
 description: How to work with Requests with SoProtocol
 author: Tony Yates
 date: 9.4.2023
