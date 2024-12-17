@@ -26,17 +26,13 @@ All the information you save inside your project is tagged with a date and an ow
 
 The Project screen contains information about the projects entered into SuperOffice CRM. Each project is displayed like an index card, showing all information about that project.
 
-To move backwards and forwards between projects, click <i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i> at the lower right of the cards
+You can navigate between projects using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the cards.
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
 ## <a id="more-tab"></a>The More tab for projects
 
 The [More tab][12] includes additional custom fields for the project. Up to three fields from the **More** tab can also be shown in the main **Project** tab for easier visibility.
-
-## The Note tab
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
 ## <a id="section-tabs"></a>Project screen section tabs
 
@@ -61,6 +57,7 @@ Your administrator can [add and customize project guides][8] for you.
 ## Related content
 
 * [Add project as a favorite][9]
+* [The Note tab][14]
 * [Create a project][2]
 * [Edit a project][3]
 * [Merge projects][4]
@@ -81,6 +78,7 @@ Your administrator can [add and customize project guides][8] for you.
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
 [10]: ../../learn/basics/links.md
+[14]: ../../learn/basics/notes.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

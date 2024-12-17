@@ -1,11 +1,14 @@
 ---
 uid: help-en-contact-move
-title: Move contact
-description: Move contact
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: company
+title: Move a contact
+description: Move a contact to another company
+keywords: move contact, Manage contacts, contact
+author: Bergfrid Dias
+date: 12.17.2024
+version: 10
 topic: howto
+audience: user
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,26 +16,42 @@ language: en
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-You can move a contact - including their activities and memberships - from one company to another, for example, if a contact was set up under the wrong company, or if they changed department. Alternatively, disconnect the contact from the company.
-
-## Steps
-
-1. Do one of the following:
-
-    * In the Company screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
-    * In the Contact screen: Go to the required contact, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> in the contact card, and select **Manage contacts** and **Move contact**.
-
-1. In the **Move contact** dialog under **Action on contact**, select one of the following options:
-    * Select **Move to** and choose the company you want to move the contact to. To do this, either click the arrow and select a company from the displayed list, or type the whole or the beginning of the name.
-    * Select **Disconnect from &lt;company&gt;**.
-
-1. Select one of the following under **Action on all existing activities and sales**:
-
-    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
-
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
-
-1. Click **Move**. The contact is moved to (or disconnected from) the specified company.
+Use this option when a contact changes departments or companies, or if they were assigned to the wrong company. Alternatively, disconnect a contact to remove their link to a company without moving them.
 
 > [!NOTE]
 > You cannot move contacts (SuperOffice users) in your own company.
+
+## Steps
+
+1. Open the **Move contacts** dialog:
+
+    * In the **Contact screen**: Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Manage contacts** > **Move contact** from the menu.
+
+    * In the **Company screen**: Go to the **Contacts** section, right-click a contact, and select **Manage contacts** > **Move contact**.
+
+2. Under **Action on contact** choose one of the following:
+
+    * **Move to**: Choose the company to move the contact to by typing or selecting from the list.
+    * **Disconnect**: Remove the contact's link to the current company.
+
+3. Under **Action on all existing activities and sales**, choose one:
+
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
+
+4. Click **Move**. The contact is either moved to the selected company or disconnected, and activities are updated based on your choice.
+
+![Move contact dialog with options for transferring or disconnecting contacts, and handling existing activities and sales. -screenshot][img1]
+
+## Related content
+
+* [Merge contacts][1]
+* [Delete contact][2]
+* [Restore deleted companies and contacts][3]
+
+<!-- Referenced links -->
+[1]: merge-contacts.md
+[2]:  delete.md
+[3]: ../../learn/basics/deleting-elements.md#restore
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/contact/move-contact.png

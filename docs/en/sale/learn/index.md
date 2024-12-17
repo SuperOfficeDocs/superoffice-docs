@@ -25,7 +25,7 @@ Watch this video and see how easy pursuing sales opportunities can be with Super
 
 The **Sale** screen contains information about the sales entered into SuperOffice CRM. Each sale is displayed like an index card, showing all information about that sale.
 
-To move between sales, click the previous/next buttons (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) at the bottom right of the cards.
+You can navigate between sales using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the cards.
 
 You can also [create a quote][1] in the **Quote** section tab in the Sale screen.
 
@@ -64,7 +64,7 @@ This tab contains fields that focus, in particular, on the financial details of 
 
 | Field | Description | Defined in Settings and maintenance |
 |---|---|---|
-|Number | The ID number for the sale, where the next free sale number is entered automatically. | x |
+| Number | The ID number for the sale, where the next free sale number is entered automatically. | x |
 | Source | Displays the source of the sale, as specified in the **Sale** tab. You can also edit the source here. | |
 | Competitor | Contains a predefined list of competitors. Here you can enter any competitor for the sale. You can choose only one competitor. | x |
 | Total cost | Enter here the cost connected with the sale. It is displayed in the same currency as the amount. The default value is 0. When you enter an amount in this field, the profit percentage and amount are automatically calculated in the field below. | |
@@ -77,10 +77,6 @@ This tab contains fields that focus, in particular, on the financial details of 
 ### <a id="more-tab"></a>The More tab for sales
 
 The [More tab][12] includes additional custom fields for the sale. Up to three fields from the **More** tab can also be shown in the main **Sale** tab for easier visibility.
-
-### The Note tab
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
 ## <a id="section-tabs"></a>The Sale screen section tabs
 
@@ -98,6 +94,7 @@ The lower part of the Sale screen consists of section tabs.
 ## Related content
 
 * [Add sale as a favorite][10]
+* [The Note tab][19]
 * [Register a sale][4]
 * [Create stakeholders][5]
 * [Work with sales guides][6]
@@ -123,6 +120,7 @@ The lower part of the Sale screen consists of section tabs.
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [18]: ../../learn/basics/links.md
+[19]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

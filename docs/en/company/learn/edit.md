@@ -1,21 +1,30 @@
 ---
 uid: help-en-company-update
-title: Editing companies
-description: Editing companies
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: company
-topic: howto
+title: Edit company info
+description: f
+keywords: edit company, update company, company
+author: Bergfrid Dias
+date: 12.16.2024
+version: 10
+topic: concept
+audience: user
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Edit company info
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Click **Edit**.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> in the upper-right corner of the Company card.
 
-1. When you have made the necessary changes, click **Save** to close and save. Click **Cancel** to reject your changes.
+1. Make the necessary changes.
 
-> [!TIP]
-> If the **Save** button is disabled, this means there are one or more mandatory fields that have not been filled out.
+1. Click **Save** to save your changes, or click **Cancel** to discard them. Both actions will exit edit mode.
+
+    If the **Save** button appears dimmed, ensure all mandatory fields are filled in. Required fields must be completed before saving.
+
+![The Company screen in edit mode, showing company details -screenshot][img1]
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/company/edit-company.png

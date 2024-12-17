@@ -70,7 +70,7 @@ If you hold the mouse pointer over these days, a tooltip containing a list of th
 * Today's date is bold.
 * The selected date has a gray background.
 
-You can move from month to month by clicking <i class="ph ph-arrow-left" aria-label="Arrow left"></i><i class="ph ph-arrow-right" aria-label="Arrow right"></i> at the bottom of the side panel.
+You can move from month to month by using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the bottom of the side panel.
 
 ## My favorites
 
