@@ -89,6 +89,7 @@ Your administrator can [add and customize project guides][8] for you.
 * [Send a document to project members][7]
 * [Project guide][1]
 * [Print project info][11]
+* [Links tab][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -100,6 +101,7 @@ Your administrator can [add and customize project guides][8] for you.
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

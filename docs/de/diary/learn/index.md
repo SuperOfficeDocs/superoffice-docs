@@ -56,13 +56,15 @@ Der Kalender besteht aus [vier Registerkarten][24]: Registerkarte **Tag**, Regis
 * [Folgeaufgabe löschen][17]
 * [Videokonferenzen][23]
 * [Folgeaufgaben drucken][14]
+* [Link zu Dokument, Verkauf, Projekt oder Webseite hinzufügen][12]
 
 <!-- Referenced links -->
 [2]: group-view.md
 [6]: edit-follow-up.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[13]: screen/sales-tab.md
+[12]: ../../learn/basics/links.md
+[13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md

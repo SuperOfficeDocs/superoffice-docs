@@ -20,3 +20,10 @@ Du kan redigera informationen om projekt från flikarna på projektkortet.
     Flikarna på projektskärmen växlar till redigeringsläge. Du kan flytta mellan flikarna utan att lämna redigeringsläget.
 
 3. När du är klar, klickar du på **Spara** för att stänga och spara. Klicka på **Avbryt** om du vill avvisa ändringarna.
+
+## Relaterat innehåll
+
+* [Lägg till länk till dokument, händelse, försäljning eller webbplats][6]
+
+<!-- Referenced links -->
+[6]: ../../learn/basics/links.md

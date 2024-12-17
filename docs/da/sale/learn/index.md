@@ -79,20 +79,6 @@ Denne fane indeholder felter, der især fokuserer på salgets økonomiske detalj
 
 [Mere-fanen][12] inkluderer yderligere tilpassede felter for salget. Op til tre felter fra **Mere-fanen** kan også vises i hovedfanen **Salg** for lettere synlighed.
 
-### Fanen Links
-
-Her kan du tilføje links, der er relevante for det salg, du arbejder på, som for eksempel URL-adresser, projekter, andre salg, opfølgninger og dokumenter. Hvis du for eksempel skal til et møde med et firma, som du allerede har kommunikeret med, kan du føje links til dokumenter, som du allerede har gemt for dette firma.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Åbning af links
-
-Du kan åbne links ved at klikke på dem på fanen **Links**. URL'er/websider åbnes i et nyt vindue.
-
-#### Fjernelse af links
-
-For at fjerne et link skal du gå til fanen **Links**, klikke på **Rediger** og derefter klikke på knappen Slet ved siden af linket. Linket slettes nu fra fanen.
-
 ### Fanen Bemærkning
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -119,6 +105,7 @@ Den nederste del af skærmbilledet Salg består af detaljekort.
 * [Arbejde med salgsmål][7]
 * [Udsatte, solgte og mistede salg][9]
 * [Udskriv info om et salg][11]
+* [Fanen Links][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +122,7 @@ Den nederste del af skærmbilledet Salg består af detaljekort.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

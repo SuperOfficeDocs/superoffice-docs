@@ -31,8 +31,6 @@ items:
     href: follow-up-assign.md
   - name: Sett alarm for follow-up
     href: set-alarm.md
-  - name: Link documents to follow ups
-    href: linking-documents-to-follow-ups.md
   - name: Send a follow-up as an email
     href: send-as-email.md
 

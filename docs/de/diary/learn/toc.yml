@@ -31,8 +31,6 @@ items:
     href: follow-up-assign.md
   - name: Alarm für Folgeaufgabe festlegen
     href: set-alarm.md
-  - name: Dokumente mit Folgeaufgaben verknüpfen
-    href: linking-documents-to-follow-ups.md
   - name: Folgeaufgabe als E-Mail senden
     href: send-as-email.md
 

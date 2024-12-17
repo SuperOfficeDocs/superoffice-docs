@@ -89,6 +89,7 @@ Administratören kan [lägga till och anpassa projektguider][8] åt dig.
 * [Skicka ett dokument till projektdeltagare][7]
 * [Projektguide][1]
 * [Skriva ut projektinformation][11]
+* [Fliken Länkar][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -100,6 +101,7 @@ Administratören kan [lägga till och anpassa projektguider][8] åt dig.
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

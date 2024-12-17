@@ -89,6 +89,7 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][8].
 * [Ein Dokument an Projektmitglieder senden][7]
 * [Projektleitfaden][1]
 * [Projekt-Info drucken][11]
+* [Die Registerkarte Verknüpfungen][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -100,6 +101,7 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][8].
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

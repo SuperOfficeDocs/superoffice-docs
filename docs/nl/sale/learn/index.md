@@ -79,20 +79,6 @@ Dit tabblad bevat velden met financiële informatie over de verkoop.
 
 Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor het verkoop. Drie van de door de gebruikers gedefinieerde velden op het tabblad **Meer** kunnen bovendien worden weergegeven op het tabblad **Verkoop**.
 
-### Het tabblad Koppelingen
-
-Hier kunt u koppeling die relevant zijn voor de verkoop, zoals URL-adressen, projecten, andere verkopen, vervolgactiviteiten en documenten toevoegen. Als u bijvoorbeeld naar een vergadering gaat met een bedrijf waarmee u eerder contact hebt gehad, kunt u koppelingen toevoegen naar documenten die u al voor dit bedrijf hebt gemaakt.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Links openen
-
-U kunt links openen door erop te klikken op het tabblad **Links**. URL's/websites openen in een nieuw venster.
-
-#### Links verwijderen
-
-Om een link te verwijderen, gaat u naar het tabblad **Koppelingen**, klikt u op **Bewerken** en klikt u op de button voor verwijderen naast de koppeling. De link wordt van het tabblad verwijderd.
-
 ### De tab Opmerking
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -119,6 +105,7 @@ Het onderste deel van het scherm Verkoop bestaat uit sectietabbladen.
 * [Werken met verkooptargets][7]
 * [Vastgelopen, verkochte en verloren verkopen][9]
 * [Informatie over een verkoop afdrukken][11]
+* [Het tabblad Koppelingen][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +122,7 @@ Het onderste deel van het scherm Verkoop bestaat uit sectietabbladen.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

@@ -78,20 +78,6 @@ Denne fanen inneholder felt som blant annet fokuserer på økonomiske opplysning
 
 I [fanen **Mer**][12] finner du brukerdefinerte felt for salget. Tre av de brukerdefinerte feltene fra fanen **Mer** kan også vises i fanen **Salg**.
 
-### Fanen Koblinger
-
-Her kan du legge til koblinger som er relevante for salget du jobber med, for eksempel URL-adresser, prosjekter, andre salg, oppfølginger og dokumenter. Hvis du for eksempel skal i et møte med et firma du allerede har kommunisert med, kan du legge inn koblinger til dokumenter du allerede har opprettet for dette firmaet.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Åpne koblinger
-
-Du kan åpne koblinger ved å klikke på dem i fanen **Koblinger**. URL-er/websider åpnes i et nytt vindu.
-
-#### Fjerne koblinger
-
-Hvis du vil fjerne en kobling, går du til fanen **Koblinger**, klikker på **Rediger** og klikker på sletteknappen ved siden av koblingen. Koblingen slettes fra fanen.
-
 ### Fanen Notat
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -118,6 +104,7 @@ Den nedre delen av Salg-bildet består av detaljkort.
 * [Arbeide med salgsmål][7]
 * [Utsatte, solgte og tapte salg][9]
 * [Skrive ut informasjon om et salg][11]
+* [Fanen Koblinger][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -134,6 +121,7 @@ Den nedre delen av Salg-bildet består av detaljkort.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

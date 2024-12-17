@@ -20,3 +20,10 @@ Sie können über die Registerkarten der Projektkarte Informationen zu einem Pro
     Die Registerkarten in der Ansicht Projekt wechseln in den Bearbeitungsmodus. Sie können zwischen den Registerkarten wechseln, ohne den Bearbeitungsmodus zu beenden.
 
 3. Wenn Sie fertig sind, müssen Sie auf **Speichern** klicken, zu schließen und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen abzulehnen.
+
+## Verwandte Inhalte
+
+* [Link zu Dokument, Folgeaufgabe, Verkauf oder Webseite hinzufügen][6]
+
+<!-- Referenced links -->
+[6]: ../../learn/basics/links.md

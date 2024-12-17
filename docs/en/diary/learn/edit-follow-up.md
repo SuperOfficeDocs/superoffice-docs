@@ -80,11 +80,13 @@ If you change the start time for a single meeting, the rule is not affected. The
 
 * [Change Completed status of an activity][2]
 * [Stop repeating follow-ups][5]
+* [Add link to document, sale, project, or website][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

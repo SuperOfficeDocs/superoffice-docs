@@ -89,6 +89,7 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 * [Een document verzenden naar projectleden][7]
 * [Projectgids][1]
 * [Projectinformatie afdrukken][11]
+* [Het tabblad Koppelingen][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -100,6 +101,7 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

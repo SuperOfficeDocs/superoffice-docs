@@ -56,13 +56,15 @@ Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** 
 * [Ta bort händelse][17]
 * [Videomöten][23]
 * [Skriva ut händelser][14]
+* [Lägg till länk till dokument, försäljning, projekt eller webbplats][12]
 
 <!-- Referenced links -->
 [2]: group-view.md
 [6]: edit-follow-up.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[13]: screen/sales-tab.md
+[12]: ../../learn/basics/links.md
+[13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/basics/print.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md

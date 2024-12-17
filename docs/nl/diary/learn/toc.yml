@@ -31,8 +31,6 @@ items:
     href: follow-up-assign.md
   - name: Alarm instellen voor vervolgactiviteit
     href: set-alarm.md
-  - name: Documenten koppelen aan vervolgactiviteiten
-    href: linking-documents-to-follow-ups.md
   - name: Een vervolgactiviteit per e-mail verzenden
     href: send-as-email.md
 

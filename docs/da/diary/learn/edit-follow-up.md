@@ -79,11 +79,13 @@ Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mø
 
 * [Ændring af status Udført for en aktivitet][2]
 * [Stop af gentagne opfølgninger][5]
+* [Tilføj link til dokument, salg, projekt eller websted][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png
