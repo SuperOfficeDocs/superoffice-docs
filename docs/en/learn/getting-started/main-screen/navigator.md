@@ -20,20 +20,6 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 
 | Button | Description | Read more |
 |:-:|---|---|
-<<<<<<< HEAD
-| ![icon][img3] |Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
-| ![icon][img4] | Opens the Company screen, showing all companies you are in contact with. | [Companies][2] |
-| ![icon][img5] | Opens the Contact screen, containing all your contacts. | [Contact][3] |
-| ![icon][img6] | Opens the Diary screen, a kind of advanced filofax. |  [Diary][4] |
-| ![icon][img7] | Opens the Sale screen, containing information about all the sales. | [Sale][5] |
-| ![icon][img8] | Opens the Project screen, containing information about different projects. | [Project][6] |
-| ![icon][img9] | Opens the Selection screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
-| ![icon][img10] | Opens your **inbox**, where you can read and reply to incoming messages.| [Inbox/Email][8] |
-| ![icon][img11] | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
-| ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
-| ![icon][img14] | Opens **Service** (legacy) | |
-| ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
-=======
 | <i class="ph ph-gauge" aria-label="Dashboard icon"></i> | Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
 | <i class="ph ph-buildings" aria-label="Company icon"></i> | Opens the Company screen, showing all companies you are in contact with. | [Companies][2] |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Opens the Contact screen, containing all your contacts. | [Contact][3] |
@@ -46,34 +32,11 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | <i class="ph ph-target" aria-label="Marketing icon"></i> | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
 | <i class="ph ph-ticket" aria-label="Request icon"></i> | Opens **Service** (legacy) | |
 | <i class="ph ph-wrench" aria-label="Tool icon"></i> | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
->>>>>>> 5b3cd1d529 (#1341 Initial EN icon substitution)
 
 ## The Navigator in Settings and maintenance
 
 | Button | Function | Read more |
 |:-:|---|---|
-<<<<<<< HEAD
-| ![icon][img42] | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated features. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
-| ![icon][img43] | **Users**: opens the Users screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. | [Status][46] |
-| ![icon][img44] | **Roles**: opens the Roles screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
-| ![icon][img45] | **Privacy**: opens the Privacy screen, where you can define settings for privacy and consent in SuperOffice CRM. | [Privacy][48] |
-| ![icon][img46] | **SAINT**: opens the screen for status monitors (Sales Intelligence), where you can create statuses for companies and projects. | [SAINT][49] |
-| ![icon][img47] | **AI services**: opens the screen for AI services, where you can configure settings for text analysis, sentiment analysis and categorization of requests. | [AI services][20] |
-| ![icon][img48] | **Lists**: opens the Lists screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
-| ![icon][img49] | **Quote/Sync**: opens the Quote/Sync screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
-| ![icon][img50] | **Workflow**: opens the Workflow screen, where you can define sales guides and project guides for SuperOffice CRM. | |
-| ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
-| ![icon][img52] | **Preferences**: opens the Preferences screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
-| ![icon][img41] | **Chat**: opens the Chat screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the Options screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, and labels. | [Options][26] |
-| ![icon][img54] | **Import**: opens the Import screen, where you can import data into the SuperOffice database. | [Import][27] |
-| ![icon][img55] | **Fields**: opens the Fields screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
-| ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
-| ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34] |
-| ![icon][img58] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
-| ![icon][img59] | **System design**: here you can find various advanced settings for SuperOffice Service. | |
-| ![icon][img60] | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard app and integrations that can expand SuperOffice CRM Online. | |
-=======
 | <i class="ph ph-lock-simple" aria-label="Padlock icon"></i> | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated features. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
 | <i class="ph ph-user" aria-label="User icon"></i> | **Users**: opens the Users screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. | [Status][46] |
 | <i class="ph ph-traffic-signal" aria-label="Traffic signal"></i> | **Roles**: opens the Roles screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
@@ -94,7 +57,6 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | <i class="ph ph-question" aria-label="Question mark"></i> | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
 | <i class="ph ph-selection-all" aria-label="System design"></i> | **System design**: here you can find various advanced settings for SuperOffice Service. | |
 | <i class="ph ph-basket" aria-label="Basket icon"></i> | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard app and integrations that can expand SuperOffice CRM Online. | |
->>>>>>> 5b3cd1d529 (#1341 Initial EN icon substitution)
 
 ## <a id="navigator"></a>Navigator options
 
@@ -149,46 +111,3 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
-<<<<<<< HEAD
-[img3]: ../../../../../common/icons/nav-dashboard-h32.png
-[img4]: ../../../../../common/icons/nav-company-h32.png
-[img5]: ../../../../../common/icons/nav-contact-h32.png
-[img6]: ../../../../../common/icons/nav-diary-h32.png
-[img7]: ../../../../../common/icons/nav-sale-h32.png
-[img8]: ../../../../../common/icons/nav-project-h32.png
-[img9]: ../../../../../common/icons/nav-selection-h32.png
-[img10]: ../../../../../common/icons/nav-inbox-h32.png
-[img11]: ../../../../../common/icons/nav-chat-h32.png
-[img13]: ../../../../../common/icons/nav-marketing-h32.png
-[img14]: ../../../../../common/icons/nav-cs-h32.png
-[img15]: ../../../../../common/icons/nav-tools-h32.png
-
-[img21]: ../../../../../common/icons/left-collapse.png
-[img22]: ../../../../../common/icons/left-expand.png
-[img23]: ../../../../../common/icons/nav-history-h32.png
-[img24]: ../../../../../common/icons/nav-fav-h32.png
-[img25]: ../../../../../common/icons/nav-search-h32.png
-[img26]: ../../../../../common/icons/nav-list-h32.png
-
-[img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
-[img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png
-[img43]: ../../../../../common/icons/nav-admin-users-active-h32.png
-[img44]: ../../../../../common/icons/nav-admin-roles-active-h32.png
-[img45]: ../../../../../common/icons/nav-admin-privacy-active-h32.png
-[img46]: ../../../../../common/icons/nav-admin-saint-active-h32.png
-[img47]: ../../../../../common/icons/nav-ai-services-active-h32.png
-[img48]: ../../../../../common/icons/nav-admin-lists-active-h32.png
-[img49]: ../../../../../common/icons/nav-admin-products-active-h32.png
-[img50]: ../../../../../common/icons/nav-admin-workflow-active-h32.png
-[img51]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
-[img52]: ../../../../../common/icons/nav-admin-preferences-active-h32.png
-[img53]: ../../../../../common/icons/pref-system-active-h32.png
-[img54]: ../../../../../common/icons/nav-admin-import-active-h32.png
-[img55]: ../../../../../common/icons/nav-admin-fields-active-h32.png
-[img56]: ../../../../../common/icons/nav-admin-crmscript-active-h32.png
-[img57]: ../../../../../common/icons/nav-admin-requests-active-h32.png
-[img58]: ../../../../../common/icons/nav-admin-custcenter-active-h32.png
-[img59]: ../../../../../common/icons/nav-admin-systemdesign-active-h32.png
-[img60]: ../../../../../common/icons/nav-admin-appstore-active-h32.png
-=======
->>>>>>> 5b3cd1d529 (#1341 Initial EN icon substitution)
