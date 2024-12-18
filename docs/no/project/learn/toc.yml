@@ -8,8 +8,6 @@ items:
     href: create.md
   - name: Legge til prosjektbilde
     href: add-image.md
-  - name: Legge til koblinger fra prosjekt
-    href: add-links.md
   - name: Redigere prosjekt
     href: edit.md
   - name: Slå sammen prosjekter

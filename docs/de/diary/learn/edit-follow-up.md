@@ -80,11 +80,13 @@ Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel 
 
 * [Status Abgeschlossen für eine Aktivität ändern][2]
 * [Regelmäßige Folgeaufgaben stoppen][5]
+* [Link zu Dokument, Verkauf, Projekt oder Webseite hinzufügen][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

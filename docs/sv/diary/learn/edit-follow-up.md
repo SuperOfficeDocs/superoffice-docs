@@ -80,11 +80,13 @@ Om du ändrar starttiden för ett enskilt möte påverkas inte regeln. Mötesund
 
 * [Ändra Slutfört-status för en aktivitet][2]
 * [Stoppa återkommande händelser][5]
+* [Lägg till länk till dokument, försäljning, projekt eller webbplats][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

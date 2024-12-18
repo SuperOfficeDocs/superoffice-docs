@@ -89,6 +89,7 @@ Administratoren kan [legge til og tilpasse prosjektguider][8] for deg.
 * [Sende et dokument til prosjektdeltakere][7]
 * [Prosjektguide][1]
 * [Skrive ut prosjektinformasjon][11]
+* [Fanen Koblinger][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -100,6 +101,7 @@ Administratoren kan [legge til og tilpasse prosjektguider][8] for deg.
 [7]: project-members/create-mailing.md
 [8]: project-guide/create.md
 [9]: ../../learn/basics/fav.md
+[10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/print.md
 [12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md

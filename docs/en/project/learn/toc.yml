@@ -8,8 +8,6 @@ items:
     href: create.md
   - name: Add project image
     href: add-image.md
-  - name: Add links from project
-    href: add-links.md
   - name: Edit project
     href: edit.md
   - name: Merge projects

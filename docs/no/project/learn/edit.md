@@ -20,3 +20,10 @@ Du kan redigere informasjonen om prosjekter fra fanene i prosjektkortet.
     Fanene i Prosjekt-bildet går over i redigeringsmodus. Du kan skifte mellom fanene uten å gå ut av redigeringsmodus.
 
 3. Når du er ferdig, klikker du på **Lagre** for å lukke og lagre. Klikk på **Avbryt** for å forkaste endringene.
+
+## Relatert innhold
+
+* [Legg til kobling til dokument, oppfølging, salg, eller nettsted][6]
+
+<!-- Referenced links -->
+[6]: ../../learn/basics/links.md

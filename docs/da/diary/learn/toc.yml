@@ -31,8 +31,6 @@ items:
     href: follow-up-assign.md
   - name: Indstil alarm til opfølgning
     href: set-alarm.md
-  - name: Link dokumenter til opfølgning
-    href: linking-documents-to-follow-ups.md
   - name: Send en opfølgning som en e-mail
     href: send-as-email.md
 

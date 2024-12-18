@@ -8,8 +8,6 @@ items:
     href: create.md
   - name: Tilføj projektbillede
     href: add-image.md
-  - name: Tilføj links fra projektet
-    href: add-links.md
   - name: Rediger projekt
     href: edit.md
   - name: Slå projekter sammen

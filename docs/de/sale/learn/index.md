@@ -79,20 +79,6 @@ Diese Registerkarte enthält speziell Felder mit Angaben zu den finanziellen Det
 
 Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für den Verkauf. Auf der Registerkarte **Verkauf** können Sie außerdem drei benutzerdefinierte Felder der Registerkarte **Mehr** anzeigen.
 
-### Die Registerkarte Verknüpfungen
-
-Hier können Sie Verknüpfungen hinzufügen, die für den Verkauf, an dem Sie arbeiten, relevant sind, wie URL-Adressen, Projekte, andere Verkäufe, Folgeaufgaben und Dokumente. Wenn Sie beispielsweise eine Besprechung mit einer Firma haben, mit der Sie bereits zuvor in Kontakt waren, können Sie Verknüpfungen zu den Dokumenten hinzufügen, die Sie bereits für diese Firma erstellt haben.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Verknüpfungen öffnen
-
-Sie können Verknüpfungen öffnen, indem Sie auf der Registerkarte **Verknüpfungen** darauf klicken. Die URLs/Websites werden in einem neuen Fenster geöffnet.
-
-#### Verknüpfungen entfernen
-
-Wenn Sie einen Link entfernen möchten, müssen Sie zur Registerkarte **Links** gehen, auf **Bearbeiten** klicken und die Löschen-Schaltfläche neben dem Link anklicken. Die Verknüpfung wird von der Registerkarte gelöscht.
-
 ### Die Registerkarte Notiz
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -119,6 +105,7 @@ Der untere Teil der Verkaufsansicht besteht aus Bereichsregisterkarten.
 * [Mit Verkaufszielen arbeiten][7]
 * [Verkäufe mit dem Status aufgeschoben, verkauft und verloren][9]
 * [Info über einen Verkauf drucken][11]
+* [Die Registerkarte Verknüpfungen][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +122,7 @@ Der untere Teil der Verkaufsansicht besteht aus Bereichsregisterkarten.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

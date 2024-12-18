@@ -79,20 +79,6 @@ Den här fliken innehåller fält som särskilt fokuserar på de finansiella det
 
 På [fliken **Mer**][12] visas användardefinierade fält för försäljningen. Tre av de användardefinierade fälten från fliken **Mer** kan också visas på fliken **Försäljning**.
 
-### Fliken Länkar
-
-Här kan du lägga till länkar som är relevanta för den försäljning du arbetar med, till exempel URL-adresser, projekt, övrig försäljning, händelser och dokument. Om du till exempel ska ha möte med ett företag som du redan har kommunicerat med, kan du lägga till länkar till dokument som du redan har skapat för företaget.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Öppna länkar
-
-Du kan öppna länkar genom att klicka på dem på fliken **Länkar**. Webbadresser/webbplatser öppnas i ett nytt fönster.
-
-#### Ta bort länkar
-
-För att ta bort en länk, gå till fliken **Länkar**, klicka på **Redigera**, klicka på borttagningsknappen bredvid länken. Länken tas bort från fliken.
-
 ### Fliken Anteckning
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -119,6 +105,7 @@ Den nedre delen av försäljningsskärmen består av detaljkort.
 * [Arbeta med försäljningsmål][7]
 * [Uppskjutna, sålda och förlorade försäljningar][9]
 * [Skriva ut information om en försäljning][11]
+* [Fliken Länkar][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +122,7 @@ Den nedre delen av försäljningsskärmen består av detaljkort.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.mdf
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

@@ -80,11 +80,13 @@ Als u de starttijd van een enkele vergadering wijzigt, heeft dit geen invloed op
 
 * [De status Voltooid voor een activiteit wijzigen][2]
 * [Herhalende vervolgactiviteiten stoppen][5]
+* [Link toevoegen naar document, verkoop, project of website][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

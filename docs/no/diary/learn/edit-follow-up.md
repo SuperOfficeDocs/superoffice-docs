@@ -79,11 +79,13 @@ Hvis du endrer starttiden for et enkelt møte, påvirkes ikke regelen. Møtet be
 
 * [Endre Utført-status for en aktivitet][2]
 * [Stoppe repeterende oppfølginger][5]
+* [Legg til kobling til dokument, salg, prosjekt eller nettsted][6]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
+[6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

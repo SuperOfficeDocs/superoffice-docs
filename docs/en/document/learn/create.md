@@ -162,7 +162,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 [6]: ../templates/admin/link-template.md
 [7]: ../../webtools/learn/install.md
 [8]: ../../email/mail-link/learn/archive.md
-[9]: ../../diary/learn/linking-documents-to-follow-ups.md
+[9]: ../../learn/basics/links.md
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->

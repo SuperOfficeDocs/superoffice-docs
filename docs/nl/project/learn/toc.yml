@@ -8,8 +8,6 @@ items:
     href: create.md
   - name: Projectafbeelding toevoegen
     href: add-image.md
-  - name: Koppelingen toevoegen vanuit project
-    href: add-links.md
   - name: Project bewerken
     href: edit.md
   - name: Projecten samenvoegen

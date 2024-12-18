@@ -20,3 +20,10 @@ Du kan redigere oplysningerne om projekterne fra fanerne på projektkortet.
     Fanerne i skærmbilledet Projekt skifter til redigeringstilstand. Du kan skifte mellem fanerne uden at gå ud af redigeringstilstand.
 
 3. Når du er færdig, skal du klikke på **Gem** for at lukke og gemme. Hvis du ikke vil gemme ændringerne alligevel, kan du klikke på **Afbryd**.
+
+## Relateret indhold
+
+* [Tilføj link til dokument, opfølgning, salg, eller websted][6]
+
+<!-- Referenced links -->
+[6]: ../../learn/basics/links.md

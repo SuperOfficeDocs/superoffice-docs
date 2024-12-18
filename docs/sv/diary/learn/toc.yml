@@ -31,8 +31,6 @@ items:
     href: follow-up-assign.md
   - name: Ställa in larm för händelser
     href: set-alarm.md
-  - name: Länka dokument till händelser
-    href: linking-documents-to-follow-ups.md
   - name: Skicka en händelse som ett e-postmeddelande
     href: send-as-email.md
 

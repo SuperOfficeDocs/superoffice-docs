@@ -78,20 +78,6 @@ This tab contains fields that focus, in particular, on the financial details of 
 
 The [More tab][12] includes additional custom fields for the sale. Up to three fields from the **More** tab can also be shown in the main **Sale** tab for easier visibility.
 
-### The Links tab
-
-Here you can add links that are relevant for the sale you are working on, such as URL addresses, projects, other sales, follow-ups and documents. For example, if you are going to a meeting with a company you have previously communicated with, you can add links to documents you have already created for this company.
-
-[!include[How to add links](../../learn/includes/howto-add-links.md)]
-
-#### Open links
-
-You can open links by clicking on them in the **Links** tab. URLs/websites open in a new window.
-
-#### Remove links
-
-To remove a link, go to the **Links** tab, click **Edit**, click the delete button next to the link. The link is deleted from the tab.
-
 ### The Note tab
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
@@ -119,6 +105,7 @@ The lower part of the Sale screen consists of section tabs.
 * [Work with sales targets][7]
 * [Stalled, sold, and lost sales][9]
 * [Print info about a sale][11]
+* [Links tab][18]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
@@ -135,6 +122,7 @@ The lower part of the Sale screen consists of section tabs.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

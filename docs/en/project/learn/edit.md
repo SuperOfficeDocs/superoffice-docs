@@ -20,3 +20,10 @@ You can edit information about projects from the tabs in the project card.
     The tabs in the Project screen change to edit mode. You can switch between the tabs without exiting edit mode.
 
 3. When you are done, click **Save** to close and save. Click **Cancel** to reject your changes.
+
+## Related content
+
+* [Add link to document, follow-up, sale, or website][6]
+
+<!-- Referenced links -->
+[6]: ../../learn/basics/links.md
