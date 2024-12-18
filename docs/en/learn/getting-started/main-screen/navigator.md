@@ -16,22 +16,28 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 > [!TIP]
 > You can change the width of the navigator by clicking <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> above the navigator.
 
+## The SuperOffice logo ![SuperOffice logo][img1]
+
+At the upper left of the navigator is the SuperOffice logo. Click the logo to open the [SuperOffice Community website][30]. Pressing **CTRL** while clicking the logo is a shortcut to your own company card. (The main company is a [preference][31] that you can change.)
+
 ## The navigator in Standard CRM
 
-| Button | Description | Read more |
+The navigator provides quick access to essential SuperOffice CRM features. Each icon opens a specific screen.
+
+| Icon | Screen | Description |
 |:-:|---|---|
-| <i class="ph ph-gauge" aria-label="Dashboard icon"></i> | Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
-| <i class="ph ph-buildings" aria-label="Company icon"></i> | Opens the Company screen, showing all companies you are in contact with. | [Companies][2] |
-| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Opens the Contact screen, containing all your contacts. | [Contact][3] |
-| <i class="ph ph-calendar" aria-label="Calendar icon"></i> | Opens the Diary screen, a kind of advanced filofax. |  [Diary][4] |
-| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Opens the Sale screen, containing information about all the sales. | [Sale][5] |
-| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | Opens the Project screen, containing information about different projects. | [Project][6] |
-| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | Opens the Selection screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
-| <i class="ph ph-at" aria-label="Email icon"></i> | Opens your **inbox**, where you can read and reply to incoming messages.| [Inbox/Email][8] |
-| <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
-| <i class="ph ph-target" aria-label="Marketing icon"></i> | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
-| <i class="ph ph-ticket" aria-label="Request icon"></i> | Opens **Service** (legacy) | |
-| <i class="ph ph-wrench" aria-label="Tool icon"></i> | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
+| <i class="ph ph-gauge" aria-label="Dashboard icon"></i> | [**Dashboard**][1] | View **reports and charts** summarizing your CRM data. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i> | [**Companies**][2] | Manage your **company records** and related information. |
+| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | [**Contacts**][3] | Access and manage **individual contact details**. |
+| <i class="ph ph-calendar" aria-label="Calendar icon"></i> | [**Diary**][4] | Plan and track **follow-ups**. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | [**Sales**][5] | Track and manage your **sales opportunities**. |
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | [**Projects**][6] | Organize and monitor **project activities**. |
+| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | [**Selections**][7] | Create and manage **selections** for campaigns or workflows. |
+| <i class="ph ph-at" aria-label="Email icon"></i> | [**Inbox**][8] | Read and reply to **incoming messages**. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | [**Chat**][9] | Respond to **chat inquiries** from your website. |
+| <i class="ph ph-target" aria-label="Marketing icon"></i> | [**Marketing**][11] | Create and send **mailings and forms**. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | [**Requests**][34] | Access **service requests**. |
+| <i class="ph ph-wrench" aria-label="Tool icon"></i> | **Tools** | Open external **applications and websites**. |
 
 ## The Navigator in Settings and maintenance
 
@@ -64,7 +70,6 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 | Button | Description |
 |:-:|---|
-| <i class="ph ph-list-bullets" aria-label="List icon"></i> | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
 | <i class="ph ph-clock" aria-label="Clock icon"></i> | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | **Favorites**: Click this button to view the records you have [set as favorites][15]. |
 | <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic - start typing your search phrase to initiate the search. |
@@ -109,5 +114,9 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 
+[30]: https://community.superoffice.com
+[31]: ../preferences.md
+
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
+[img1]: ../../../../../common/icons/hugo-green.png

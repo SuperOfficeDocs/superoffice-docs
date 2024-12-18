@@ -9,7 +9,7 @@ topic: howto
 language: en
 ---
 
-# The Find screen
+# The Find screen <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 To search for records and data in SuperOffice CRM, use the **Find** screen.
 
@@ -20,9 +20,7 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 ## Search for information in SuperOffice CRM
 
-1. Click the **Find** button on the [top bar][1].
-
-    ![Find button][img2]
+1. Click the **Find** button (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) on the [top bar][1].
 
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 
@@ -288,5 +286,4 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/learn/find.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png
