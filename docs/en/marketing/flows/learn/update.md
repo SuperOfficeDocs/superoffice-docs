@@ -100,7 +100,7 @@ Go to the **Flow** tab to check if there are anyone on the branch. If yes, go to
 
 * Add participants to a static selection to follow up later.
 * Add participants to the flow's exclusion list.
-* Remove participants from the flow using the **Task** menu.
+* Remove participants from the flow using the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 * Wait for the branch to "drain". You might need to update the condition of the branch to prevent new participants from entering.
 
 <!-- Referenced links -->

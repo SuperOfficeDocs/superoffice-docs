@@ -22,7 +22,7 @@ The general steps for printing a record in SuperOffice CRM are largely consisten
 
 1. Navigate to the desired record: Go to the Company, Contact, Sale, Project, or Request screen to locate the item you want to print.
 
-1. In the relevant card, tab, or dialog, click the **Task** button.
+1. In the relevant card, tab, or dialog, click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 1. Select **Print** from the menu.
 
@@ -42,7 +42,7 @@ The general steps for printing a record in SuperOffice CRM are largely consisten
 
 1. Open the required follow-up on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens.
 
-1. Click **Task** and select **Print**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Print**.
 
 ### Print follow-up from Diary
 

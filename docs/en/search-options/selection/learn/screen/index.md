@@ -44,9 +44,7 @@ To move between selections, click the previous/next buttons (<i class="ph ph-arr
 
 To activate the column filter, click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers and click **Enable filter**. The filter button (<i class="ph ph-funnel" aria-hidden="true"></i>) is now displayed on column which can be [filtered][8].
 
-### The Task button
-
-![icon][img6]
+### The Task button <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
 Use the **Task** button to perform different tasks for the members or some of the members of the selection. Examples: sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field).
 
@@ -91,4 +89,3 @@ Double-click a mailing to open it.
 [4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
-[img6]: ../../../../../media/loc/en/learn/task.png

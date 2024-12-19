@@ -19,13 +19,13 @@ You can create a copy of an existing dashboard. For example, to create your own 
 
 2. Select the dashboard you want to duplicate.
 
-3. Click the **Task** button, and select **Duplicate dashboard**.
+3. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), and select **Duplicate dashboard**.
 
     The duplicate opens with a "2" added after the name.
 
-4. To change the name of the dashboard and adjust other settings, click the **Task** button, and select **Edit dashboard**.
+4. To change the name of the dashboard and adjust other settings, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Edit dashboard**.
 
-5. To add, edit or delete tiles, and edit the dashboard layout, click the **Task** button, and select **Add tile / Edit layout**.
+5. To add, edit or delete tiles, and edit the dashboard layout, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
 ## Related content
 

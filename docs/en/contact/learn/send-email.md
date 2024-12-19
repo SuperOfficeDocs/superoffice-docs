@@ -23,7 +23,7 @@ You can send emails to contacts from both the **Contact screen** and the **Compa
 1. Do one of the following:
     * Click the email address in the **Contact** tab.
     * Click **New** on the top bar and select **Email**.
-    * Click the **Task** button <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i> and select **Send email**.
+    * Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Send email**.
 
    If the contact has multiple email addresses, select the one to use. Your default email program will open with the recipient's address filled in.
 

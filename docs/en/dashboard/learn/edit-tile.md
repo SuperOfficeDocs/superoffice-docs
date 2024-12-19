@@ -13,7 +13,7 @@ language: en
 
 1. Go to the required dashboard.
 
-2. Click the **Task** button, and select **Add tile / Edit layout**.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
 3. In the dashboard, click the **Edit tile** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>).
 

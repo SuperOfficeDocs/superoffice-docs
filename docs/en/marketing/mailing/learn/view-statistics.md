@@ -60,7 +60,7 @@ After your mailing is finished, you can see how your mailing performed in the **
 
   * In addition, SuperOffice Marketing will show you the numbers of all the recipients based on their status. This means you can see how many recipients read the mailing, how many bounced, and how many duplicates your mailing contained, among others.
 
-* **Recipients**: This tab displays a [list of recipients][2] of the mailing. The statuses (sending, waiting, failed, bounced, read, and so on) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. You can also select and add recipients to selections and projects using the **Task** menu.
+* **Recipients**: This tab displays a [list of recipients][2] of the mailing. The statuses (sending, waiting, failed, bounced, read, and so on) of the mailing for each individual recipient are shown here. The summary can be filtered by selecting the checkboxes at the bottom of the screen. You can also select and add recipients to selections and projects using the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 * **Tracked links**: This tab displays the [number of clicks on each tracked link][3] in the mailing. Click a link to go the **View link** screen. You will see a list of the recipients who have clicked the link and when they clicked them. Use this list to make a selection or a project for further follow-ups.
 

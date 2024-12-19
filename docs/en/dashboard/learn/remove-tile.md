@@ -20,9 +20,9 @@ You can remove tiles from a dashboard, as long as you have editing access to it.
 
 1. Go to the required dashboard.
 
-2. Click the **Task** button, and select **Add tile / Edit layout**.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
-3. In the dashboard, click the **Remove tile** icon <i class="ph ph-x-circle" aria-hidden="true"></i> on the tile you want to remove.
+3. In the dashboard, click the **Remove tile** icon (<i class="ph ph-x-circle" aria-hidden="true"></i>) on the tile you want to remove.
 
 4. Click **OK** to confirm.
 

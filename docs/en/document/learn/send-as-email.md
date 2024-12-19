@@ -23,7 +23,7 @@ audience_tooltip: SuperOffice CRM
         2. Right-click and select **Send as email**.
     * From the Document dialog
         1. Open the document in **Edit** mode.
-        2. Click the **Task** button.
+        2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Select **Send as email**.
 
         > [!NOTE]

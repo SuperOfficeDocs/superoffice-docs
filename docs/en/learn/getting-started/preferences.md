@@ -28,7 +28,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 4. Click **Save** to save the changes and close the **Preferences** dialog. Or click **Cancel** to discard your changes.
 
 > [!NOTE]
-> To change the language in your Mobile CRM app, click the **Task** button in the bottom-left corner, tap **Settings**, click on the **Language** and select from the options.
+> To change the language in your Mobile CRM app, click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), tap **Settings**, click on the **Language** and select from the options.
 
 ## <a id="options"></a>Preferences dialog - options
 

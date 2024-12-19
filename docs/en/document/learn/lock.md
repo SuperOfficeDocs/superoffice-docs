@@ -72,7 +72,7 @@ You need special privileges to access this option. You also need write access to
 If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
-2. In the **Document** dialog, click **Task** and select **Revert to saved version**.
+2. In the **Document** dialog, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Revert to saved version**.
 
 <!-- Referenced links -->
 [1]: edit.md

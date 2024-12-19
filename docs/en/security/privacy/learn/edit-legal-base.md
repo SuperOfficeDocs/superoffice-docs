@@ -94,7 +94,7 @@ In the following example, we create a selection of all contacts registered today
 
     ![Choose category for selection -screenshot][img4]
 
-1. Click the **Task** button at the bottom of the screen (1) and choose **Bulk update** (2).
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) at the bottom of the screen (1) and choose **Bulk update** (2).
 
     ![Bulk update option in the Task menu -screenshot][img5]
 

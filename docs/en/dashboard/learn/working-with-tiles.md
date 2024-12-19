@@ -43,7 +43,7 @@ Follow the steps in this GIF or the steps below to see how you can access the da
 
     * Double-click a record to open it (or select a record and click **Open**).
 
-    * To [copy the records to a selection][4], click the **Task** button and select **Copy into selection**. If you do not select any records, all records are copied.
+    * To [copy the records to a selection][4], click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Copy into selection**. If you do not select any records, all records are copied.
 
 5. Click **Close** when you are done.
 

@@ -44,7 +44,7 @@ You can choose users and resources whose diaries you want to see and save the vi
 1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving. You are returned to the **View** tab, where you can create appointments for associates, and so forth.
 
 > [!TIP]
-> To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.
+> To delete the active group view, click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Delete group view**.
 
 ## <a id="fields"></a>Fields
 

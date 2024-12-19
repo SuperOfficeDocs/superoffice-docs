@@ -77,7 +77,7 @@ To modify an existing archive tab, select it and update the fields and settings 
 
 1. Select the archive or section tab.
 
-1. Click **Task** > **Remove tab**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Remove tab**.
 
 1. Confirm by clicking **OK**. The tab will be hidden but not deleted.
 

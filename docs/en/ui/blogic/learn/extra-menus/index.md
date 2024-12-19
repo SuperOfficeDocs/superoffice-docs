@@ -22,7 +22,7 @@ In the **Extra menus** screen, you can add extra menus (buttons, menus, links, s
 * **Top menu**
 
 * The **Status** tile on the dashboard
-  * <i class="ph ph-list" aria-hidden="true"></i> **Task** buttons in the main screens
+  * **Task** buttons (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the main screens
   * Menu buttons in the extra table view
 
 * **Navigator**

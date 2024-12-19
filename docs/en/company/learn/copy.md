@@ -23,7 +23,7 @@ You can copy an existing company to create a new one. For example, if a company 
 
 ## Steps
 
-1. Click the **Task** button <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i> in the upper-right corner of the Company card.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Company card.
     Select **Manage companies** > **Copy company** from the menu.
     The **Copy company** dialog appears, with the source company specified under **From**.
 

@@ -16,7 +16,7 @@ You can create shortcuts to an entry in SuperOffice CRM, for example, a contact,
 The **Copy shortcut** option is available here:
 
 * Right-clicking an item in a section tab
-* **Task** menu in main screens and dialogs for follow-ups and documents
+* **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in main screens and dialogs for follow-ups and documents
 
 When you select the **Copy shortcut** option, a shortcut (URL) to the current entry is then copied to the clipboard. You can then paste the shortcut into, for example, an email message and send it to one or more internal users of SuperOffice CRM. You can also paste the shortcut to the **Run** dialog in Windows to run it.
 

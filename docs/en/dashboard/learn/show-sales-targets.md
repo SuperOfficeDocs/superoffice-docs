@@ -23,7 +23,7 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
 2. Select the dashboard you want to edit.
 
-3. Click the **Task** button, and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
 
 4. In the **Show tiles for** list, select **Sale**.
 

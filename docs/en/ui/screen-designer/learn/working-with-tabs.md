@@ -46,7 +46,7 @@ To streamline the interface, you may want to remove tabs that are no longer nece
 **Steps:**
 
 1. Select the tab.
-1. Click **Task** and choose **Remove tab**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and choose **Remove tab**.
 1. Click **OK** to confirm and close the dialog.
 
 ## Restore tab
@@ -54,7 +54,7 @@ To streamline the interface, you may want to remove tabs that are no longer nece
 If you remove a tab and later decide you need it, you can easily restore it.
 
 1. Open the layout in edit mode.
-1. Click **Task** and select **Restore tabs**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Restore tabs**.
 
 > [!NOTE]
 > This action restores **all** previously removed tabs.

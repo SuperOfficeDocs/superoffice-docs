@@ -15,7 +15,7 @@ You can create a follow-up to appear, for example, on the activities list of all
 
 1. Follow the procedure described under [Perform tasks using selections][1] and select the **Company/contact** tab.
 
-2. Click the **Task** button.
+2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 3. Choose the **Generate follow-ups** task.
 

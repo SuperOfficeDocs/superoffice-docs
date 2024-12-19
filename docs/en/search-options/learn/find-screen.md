@@ -65,7 +65,7 @@ After following the above steps, and search results are displayed in the **Resul
 
 * **Display a record in the side panel:** Use the [side panel][4] to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-* **Perform tasks on the search results:** The **Task** button contains tasks such as:
+* **Perform tasks on the search results:** The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) contains tasks such as:
 
   * Send a mailing and create activities
   * Manage the information in your selection

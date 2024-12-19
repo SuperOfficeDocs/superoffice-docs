@@ -22,7 +22,7 @@ Watch this video or follow the steps below to learn how to add new dashboard tab
 
 1. Open the **Dashboard** screen.
 
-2. Click the **Task** button and select **Create a new dashboard**.
+2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Create a new dashboard**.
 
 3. In the dialog, enter the name of the dashboard. This becomes the name of the dashboard tab.
 

@@ -122,7 +122,7 @@ The dialog is slightly different in Chrome, Edge, Firefox, and Safari.
 
 When viewing a specific document:
 
-1. Click the **Task** button in the **Document** dialog.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the **Document** dialog.
 2. Choose **Delete**.
 3. Confirm or cancel the deletion in the confirmation dialog.
 

@@ -20,7 +20,7 @@ To keep your customer database clean and efficient, merge duplicate companies or
 
 ## Steps
 
-1. Click the **Task** button <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i> in the upper-right corner of the Company card.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Company card.
    Select **Manage companies** > **Merge companies** from the menu.
    The **Merge companies** dialog appears, with the source company specified under **From**.
 

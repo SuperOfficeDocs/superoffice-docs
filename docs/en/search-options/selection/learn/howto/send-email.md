@@ -15,7 +15,7 @@ Suppose you were inviting people to a meeting and needed to send them an agenda.
 
 1. To perform the task on only some of the contacts in the selection, select them in the **Company/contact** tab. The **Perform task on selected members only** option is then checked automatically.
 
-2. Click the **Task** button.
+2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 3. Choose the **Send email** task.
 

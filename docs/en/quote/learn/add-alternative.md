@@ -46,7 +46,7 @@ When [sending the quote][3], you can select to only include the favorite alterna
 
 ## Delete alternatives
 
-You can delete an alternative by selecting **Task** > **Delete \[alternative\]** at the bottom of the tab.
+You can delete an alternative by clicking <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and selecting **Delete \[alternative\]** at the bottom of the tab.
 
 <!-- Referenced links -->
 [1]: create.md

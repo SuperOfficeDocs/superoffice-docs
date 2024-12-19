@@ -15,7 +15,7 @@ Bulk update allows you to change values across multiple records of the same type
 
 1. Open the selection, section tab (archive) or search results (**Find** screen) containing the records you want to update.
 
-2. Selections: Click the **Task** button and select **Bulk update**.
+2. Selections: Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Bulk update**.
     or
     Select the records you want to update, right-click them and select **Bulk update...**.
     The **Bulk update** dialog opens. In the bottom of this dialog you can see the type of record and how many records to be updated. Example: Number of contacts in queue for bulk update: 7.

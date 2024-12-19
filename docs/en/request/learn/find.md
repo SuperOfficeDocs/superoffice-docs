@@ -72,12 +72,12 @@ The result contains a list of requests that match the criteria specified above. 
 * Select a row to display the content of that request in the preview section.
 * Open a request by double-clicking the relevant row.
 * In the lower-left corner click the button to **Show/Hide preview**.
-* On the **Task** button in the lower-left corner you can access different tasks to run on selected requests.
+* On the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) you can access different tasks to run on selected requests.
 
 > [!TIP]
 > The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information**, or **Not read by owner**.
 
-In the footer of the list, you can click the **Task** button to access the following options:
+In the footer of the list, you can click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) to access the following options:
 
 * **Export to Excel**: Click here to export the list under **Result** to an Excel file.
 
