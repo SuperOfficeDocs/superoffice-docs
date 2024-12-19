@@ -31,11 +31,8 @@
 
 1. **Abgeschlossen:** Dieses Feld gibt an, ob das Projekt abgeschlossen ist.
 
-1. **Veröffentlichen:** Wenn Sie dieses Kontrollkästchen aktivieren, ist das Projekt über Drittanwendungen für externe Benutzer sichtbar. Sie können festlegen, dass das Projekt nur für einen begrenzten Zeitraum veröffentlicht wird (siehe [Registerkarte Ereignis][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->

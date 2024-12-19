@@ -38,27 +38,6 @@ Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor het p
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>Het tabblad Gebeurtenis
-
-Voor deze functie is een afzonderlijke licentie vereist.
-
-Op het tabblad **Gebeurtenis** kunt u instellingen voor het publiceren van gebeurtenissen opgeven.
-
-| Veld | Beschrijving |
-|---|---|
-| Event | Hier kunt u aangeven dat het huidige project een gebeurtenis is. |
-| Gebeurtenisdatum | In dit veld wordt de datum van de gebeurtenis weergegeven. Klik op de pijl om een datum voor de gebeurtenis te selecteren. |
-| Gepubliceerd (Datum vanaf en Datum t/m) | Hier kunt u een exacte tijdsperiode opgeven waarin de gebeurtenis zichtbaar is voor Audience-gebruikers (hiervoor is een afzonderlijke licentie vereist). Klik op de pijl naast elk van de datumvelden om een begin- en einddatum voor publicatie te selecteren. Als u geen datums in deze velden invoert, wordt het [project gepubliceerd][2] totdat het niet is gepubliceerd of is verwijderd uit SuperOffice CRM. |
-| Zichtbaar voor categorie | Schakel deze optie in als u de gebeurtenis alleen zichtbaar wilt maken voor bepaalde categorieën. Klik op de knop ( ![pictogram][img5] ) rechts van het veld om de categorieën te selecteren waarvoor de gebeurtenis zichtbaar is. |
-| Zichtbaar voor interesse cont.pers. | Schakel deze optie in als u de gebeurtenis alleen zichtbaar wilt maken voor contactpersonen met bepaalde interesses. Klik op de knop ( ![pictogram][img5] ) rechts van het veld om de interesses te selecteren waarvoor de gebeurtenis zichtbaar is. |
-| Zichtbaar voor projectleden | Als u deze optie inschakelt, is de gebeurtenis in Audience alleen zichtbaar voor de [projectleden][8] die zijn opgegeven op het sectietabblad **Projectleden**. |
-| Aanmelden | Schakel deze optie in als u aanmelding voor de gebeurtenis via Audience mogelijk wilt maken. |
-| Afmelden | Schakel deze optie in als u afmelding voor de gebeurtenis via Audience mogelijk wilt maken. |
-| Registreren als activiteit | Als u ook **Registreren als activiteit** naast **Aanmelden** of **Afmelden** inschakelt, wordt er een activiteit voor u geregistreerd wanneer een Audience-gebruiker zich voor de gebeurtenis aan- of afmeldt. |
-
-> [!TIP]
-> Als u op de knop ( ![pictogram][img5] ) rechts van **Bevestiging** klikt, kunt u een bevestigingstekst invoeren die in een dialoogvenster wordt weergegeven wanneer een Audience-gebruiker zich voor de gebeurtenis aan- of afmeldt. De gebruiker moet in dit dialoogvenster op **Ja** of **Nee** klikken om verder te gaan.
-
 ## <a id="section-tabs"></a>Sectietabbladen in het scherm Project
 
 Het onderste deel van het scherm Project bestaat uit sectietabbladen.
@@ -113,5 +92,4 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

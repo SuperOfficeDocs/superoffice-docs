@@ -38,27 +38,6 @@ På [fliken **Mer**][12] visas användardefinierade fält för projektet. Tre av
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>Fliken Arrangemang
-
-Denna funktion kräver en separat licens.
-
-På fliken **Arrangemang** kan du ange inställningar för publicering av arrangemang.
-
-| Fält | Beskrivning |
-|---|---|
-| Händelse | Här kontrollerar du att det aktuella projektet är ett arrangemang. |
-| Datum för arrangemang | I det här fältet visas datumet för arrangemanget. Klicka på pilen för att välja ett datum för arrangemanget. |
-| Publicerad (från-datum och till-datum) | Här kan du ange en exakt tidsperiod under vilken arrangemanget är synligt för Audience-användare (kräver en separat licens). Klicka på pilen bredvid vart och ett av datumfälten för att välja ett start- och slutdatum för publiceringen. Om du inte anger datum i dessa fält, [förblir projektet publicerat][2] tills det antingen avpubliceras eller tas bort från SuperOffice CRM. |
-| Synlig för kategori | Markera här om du vill att arrangemanget bara ska vara synligt för specifika kategorier. Klicka på knappen ( ![ikon][img5] ) till höger om fältet för att välja de kategorier som arrangemanget är synligt för. |
-| Synligt för kontaktintresse | Markera här om du vill att arrangemanget endast ska vara synligt för kontakter med specifika intressen. Klicka på knappen ( ![ikon][img5] ) till höger om fältet för att välja de intressen som arrangemanget är synligt för. |
-| Synlig för projektdeltagare | Om det här alternativet är markerat, visas arrangemanget endast i Audience för de [projektdeltagare][8] som anges på detaljkortet **Projektdeltagare**. |
-| Anmälan | Markera här om du vill att det ska vara möjligt att anmäla sig till arrangemanget via Audience. |
-| Avanmälan | Markera här om du vill att det ska vara möjligt att avanmäla sig för arrangemanget via Audience. |
-| Logga som aktivitet | Om du också markerar **Logga som aktivitet** bredvid **Anmälan** eller **Avanmälan**, skapas en aktivitet åt dig när en Audience-användare anmäler eller avanmäler sig till arrangemanget. |
-
-> [!TIP]
-> Om du klickar på knappen ( ![ikon][img5] ) till höger om **Bekräftelse**, kan du ange en bekräftelsetext som ska visas i en dialogruta när en Audience-användare anmäler eller avanmäler sig till arrangemanget. Användaren måste klicka på **Ja** eller **Nej** i denna dialogruta för att fortsätta.
-
 ## <a id="section-tabs"></a>Detaljkort på projektskärmen
 
 Den nedre delen av projektskärmen består av detaljkort.
@@ -113,5 +92,4 @@ Administratören kan [lägga till och anpassa projektguider][8] åt dig.
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png
