@@ -2,10 +2,13 @@
 uid: help-nl-customer-center-send-credentials
 title: Wachtwoorden naar personen verzenden
 description: Wachtwoorden naar personen verzenden
-author: SuperOffice RnD
-date: 03.16.2023
 keywords: Klantportaal
+author: SuperOffice RnD
+date: 12.19.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -15,13 +18,15 @@ Een persoon die toegang moet kunnen hebben tot een klantencentrum heeft een gebr
 
 1. Open het scherm Persoon.
 
-2. Klik op ![pictogram][img1] **Taak** en selecteer **Wachtwoord verzenden**.
+1. Klik op ![pictogram][img1] **Taak** en selecteer **Customer Centre-gebruiker beheren**.
 
-3. Controleer in het scherm **Wachtwoord verzenden naar persoon** of de inhoud van de velden **Aan** (adres ontvanger), **Van** (afzenderadres) en **Onderwerp** juist is. U kunt desgewenst de gegevens aanpassen die automatisch zijn ingevoegd.
+1. Klik op **Wachtwoord verzenden**.
 
-4. Klik op **Voorbeeld van HTML** of **Voorbeeld van gewone tekst** om het bericht te bekijken dat zal worden gestuurd.
+1. Controleer in het dialoogvenster of de inhoud van de velden **Aan** (adres ontvanger), **Van** (afzenderadres) en **Onderwerp** juist is. U kunt desgewenst de gegevens aanpassen die automatisch zijn ingevoegd.
 
-5. Klik op **OK**. De e-mail wordt verzonden.
+1. Klik op **Voorbeeld van HTML** of **Voorbeeld van gewone tekst** om het bericht te bekijken dat zal worden gestuurd.
+
+1. Klik op **OK**. De e-mail wordt verzonden.
 
 > [!TIP]
 > de inhoud van het bericht wordt opgehaald via een geïnstalleerde systeemsjabloon. Deze staan bij **Kennisdatabase** > **Antwoordsjablonen**.
