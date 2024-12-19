@@ -3,10 +3,10 @@ uid: help-sv-edit-privacy-confirmation-email
 title: Redigera e-postbekräftelse om personskydd
 description: I den här guiden lär du dig hur du redigerar e-postbekräftelse om personskydd.
 keywords: GDPR, samtycke, e-post, mall, Confirmation - Contact added
-topic: howto
 author: Bergfrid Dias
 date: 12.19.2024
 version: 10
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
