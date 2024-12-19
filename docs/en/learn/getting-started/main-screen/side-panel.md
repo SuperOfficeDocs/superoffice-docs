@@ -4,7 +4,7 @@ title: Use side panel to work more efficiently
 description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on.
 keywords: side panel
 author: Bergfrid Dias
-date: 09.17.2024
+date: 12.19.2024
 version: 10.3.9
 topic: concept
 audience: person
@@ -14,119 +14,113 @@ language: en
 
 # The side panel
 
-The side panel is a multifunctional panel located rightmost on every screen in SuperOffice (except for the Inbox).
+The **side panel** is a multifunctional tool located on the right side of every screen in SuperOffice CRM (except the Inbox). It provides quick access to relevant information and complements the main screen.
 
-Use the side panel to view and use information from other parts of your CRM solution. For example, to work your way through lists of contacts to call, sales to update, or sales proposals to follow up. You can choose from different views by clicking the arrow (<i class="ph ph-caret-down" aria-hidden="true"></i>) next to the side panel's name.
+Use it to manage tasks, view overviews, or follow up on activities, sales, or contacts. The panel's content adapts based on the screen you are in, and it remembers your last view for each screen.
 
 ![The side panel is located on the right side of SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
-> You can minimize the side-panel by clicking <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> on the upper right corner, to get more room for the main cards and archives.
+> Minimize the side panel for more workspace by clicking <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> in the upper-right corner.
 
-The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the Diary screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the Project screen. You can also add custom views to the side panel, from Settings and Maintenance.
+## Changing the side panel view
 
-By default, the side panel shows a preview of the selected record. After you have selected a view in a tab in a screen, SuperOffice CRM remembers this the next time the same tab is displayed.
+By default, the side panel shows a preview of the selected record. You can switch between different views in the side panel to display the information most relevant to your task.
 
-## Company
+For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the Diary screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the Project screen.
 
-Shows a summary of information about the current company in the Company screen.
+1. Click <i class="ph ph-caret-down" aria-label="Caret down icon"></i> next to the side panel's name.
 
-> [!TIP]
-> To view other companies, without having to switch companies in the Company screen, click the arrow next to the company name to open the [history list][1]
-
-## Contact
-
-Shows information about the contact selected in the **Company** or Selection screen.
-
-> [!TIP]
-> Click the contact's name to open the [contact card][2] where you can view and edit detailed information about the contact.
-
-### Why is the side panel empty?
-
-In a [dynamic selection][7], you can choose to show companies only, without specifying a contact. If **Include main contact** is not chosen for the dynamic selection, no information is displayed in the Contact view for the side panel, even if you selected a contact.
-
-## Day
-
-Shows a day's agenda. Works in the same way as the **Day** tab in the [Diary screen][4].
+1. Select the desired view from the list.
 
 > [!NOTE]
-> You can show only your own diary in the side panel. To view other people's diaries, go to the Diary screen.
+> The available views depend on the active screen.
 
-## Next day
+## Standard views
 
-Show a daily agenda for the next day. This works in the same way as the **Day** view.
+Here are the most common views available in the side panel, tailored to the active screen.
 
-## Week
+> [!TIP]
+> To quickly view other records without switching screens, click the arrow (<i class="ph ph-caret-down" aria-hidden="true"></i>) next to the record's name in the side panel. This opens the [history list][1], where you can select a different record.
 
-Shows a weekly agenda, giving you an overview of follow-ups for the current week.
+### Preview (default)
 
-## Month
+Shows a quick preview of selected records, such as contacts or activities, with links to related data. Clicking a link opens the respective dialog, such as the [Follow-up][6] or [Document][5] dialog.
 
-Shows a monthly agenda, giving you an overview of follow-ups for the next month(s). You can expand the side panel to show multiple months.
+### Calendar views
 
-If you hold the mouse pointer over these days, a tooltip containing a list of the relevant follow-ups appears.
+Stay on top of your schedule with these views:
 
-* The "bar" below the date indicates the level of activities that day, making it easier to schedule meetings.
-* Today's date is bold.
-* The selected date has a gray background.
+* **Day:** Agenda for today. Similar to the **Day** tab in the [Diary screen][4].
+* **Next day:** Agenda for tomorrow.
+* **Week:** Weekly overview of follow-ups.
+* **Month:** Monthly calendar, with tooltips for activities and a "bar" indicator for daily workload. Expand the side panel to show multiple months.
 
-You can move from month to month by using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the bottom of the side panel.
+You can navigate between dates, weeks, or months using the **Previous** and **Next** buttons (<i class="ph ph-caret-left" aria-hidden="true"></i><i class="ph ph-caret-right" aria-hidden="true"></i>) at the bottom of the side panel.
 
-## My favorites
+When you are in the **Diary** screen, navigating to a different week or month in the side panel will also update the Diary view. Similarly, selecting a date, week, or month in the Diary updates the side panel to reflect the change.
 
-Shows all your [favorites][8].
+> [!NOTE]
+> Only your own diary can be shown in the side panel. Use the **Diary** screen to view others' calendars.
 
-* To view only favorites for the current screen, click the checkbox at the bottom of the side panel. Example: If the Sale screen is open, click **Sales only** to show only sales.
-* To remove favorites, select one or more favorites in the list and click **Remove**.
-* Click **Refresh** to update the list of favorites.
+### Company
+
+Summarizes information about the current company in the **Company** screen.
+
+### Contact
+
+Displays details about the selected contact in the **Company** or **Selection** screen.
+
+Click the contact's name to open their [contact card][2].
+
+### My favorites
+
+Lists all your [favorites][8].
+
+* Select the checkbox in the footer to filter by screen (for example, **Sales only** in the Sale screen).
+* Remove items by selecting them and clicking **Remove**.
+* Click <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> to update the list.
 * Right-click a favorite to open the context menu.
 
-## Preview
+### Project
 
-Shows a preview of a selected activity, project, contact, project member or selection member in the side panel. Depending on the selected item, the window may contain links to contacts and activities. Clicking one of these links opens the [contact card][2], [Document dialog][5], or [Follow-up dialog][6], where you can view and edit the contact or activity.
+Provides a quick overview of the current project in the **Project** screen.
 
-[What to do when I get "Document Closed" in the side panel of SuperOffice CRM when Document Viewer is used?][11] - FAQ
+### Project members
 
-## Project
+Lists members of the current project in the **Project** screen.
 
-Shows a summary of information about the current project in the Project screen.
+Double-click a project member's name to open their [contact card][2].
 
-> [!TIP]
-> To view other projects, without having to switch projects in the Project screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the product name to open the [history list][1].
+### Sale
 
-## Project members
+Summarizes information about the current sale in the **Sale** screen.
 
-Shows a list of project members in the current project in the Project screen.
+### Selection
 
-> [!TIP]
-> Double-click the name of a project member to open the [contact card][2] where you can view and edit detailed information about the project member.
+Summarizes the current selection in the **Selection** screen.
 
-## Sale
+### Selection members
 
-Shows a summary of information about the current sale in the Sale screen.
-
-> [!TIP]
-> To view other sales, without having to switch sales in the Sale screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the name of the sale to open the [history list][1].
-
-[How to use the side panel efficiently for sales][10]
-
-## Selection
-
-Shows a summary of information about the current selection in the Selection screen.
-
-> [!TIP]
-> To view other selections, without having to switch selections in the Selection screen, click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the selection name to open the [history list][1].
-
-## Selection members
-
-Shows a list of members of the current selection in the Selection screen.
-
-> [!TIP]
-> If you are in the Diary screen and select a date in the different week in the diary, the week view changes to the week the selected date is in.
+Lists members of the current selection in the **Selection** screen.
 
 ## User-defined views
 
-In Settings and maintenance, you can also define your own views for the side panel.
+Administrators can define custom views for the side panel in **Settings and Maintenance**, tailoring the panel to your team's needs.
+
+## FAQs and tips
+
+* Why is the side panel empty?
+
+  If no contact is specified (for example, in a dynamic selection without **Include main contact**), the Contact side panel will not display information.
+
+* Why do I see "Document Closed" in the side panel?
+
+  This is expected behavior to optimize system resources when using the InfoBridge Document Viewer. To view the document again, return to the document tab and reselect it. Find out more in [this support article][11].
+
+* How can I use the side panel efficiently for sales?
+
+  Use it to track opportunities, monitor overdue activities, and seamlessly follow up on sales proposals without leaving the main screen. For detailed steps, see [Using the side panel for sales][10].
 
 <!-- Referenced links -->
 [1]: ../../basics/history.md
@@ -134,10 +128,9 @@ In Settings and maintenance, you can also define your own views for the side pan
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[10]: ../../../sale/learn/use-side-panel.md
+[10]: ../../../sale/learn/index.md#side-panel
 
 <!-- Referenced images -->
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

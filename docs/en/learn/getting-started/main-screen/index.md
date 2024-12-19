@@ -2,81 +2,83 @@
 uid: help-en-ui-main-screen
 title: Main screen
 description: Main screen
+keywords: user interface, main screen, navigator, top bar, card, side panel, section tab, task menu, getting started
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: CRM
+date: 12.19.2024
+version: 10
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # The layout elements on the Main screen
 
-The user interface has five main elements:
+SuperOffice CRM's main screen is divided into five key elements that help you navigate, manage, and view data efficiently.
 
-* **The Navigator**
-    The vertical row of buttons along the left edge of the screen is called [the Navigator][1]. These buttons make it easy to navigate around in SuperOffice CRM.
+## Main elements
 
-* **The Top bar**
-    At the very top of the screen is the Top bar. The [buttons on the menu bar][2] give fast and easy access to creating new records and activities, and managing personal settings and various system options.
+### Navigator
 
-* **The Main card**
-    Towards the top of the screen, just to the right of the Navigator, is the main card. Here you find all the main details of companies, contacts, projects, sales, selections, and so on. The main card is named according to the screen you are in, such as Company card, Diary card, or Project card.
+The vertical row of buttons along the left edge of the screen is called the [Navigator][1]. Use these buttons to quickly navigate between different areas, such as Contacts, Companies, and Projects.
 
-* **The Side panel**
-    At the right side of the screen is the [side panel][3]. The side panel is a flexible display window that can be configured in lots of different ways.
+### Top bar
 
-* **The Section tabs**
-    The section tabs appear below the main card. These contain, for example, lists of contacts, project members and activities that are linked to the relevant record in the main card.
+At the very top of the screen, the [top bar][2] provides quick access to create new records, manage personal settings, and open system options.
 
-  * [In the Company screen][10]
-  * [In the Contact screen][11]
-  * [In the Project screen][15]
-  * [In the Sale screen][17]
-  * [List of selection members][19]
-  * [Activities][13]
+### Main card
+
+The main card, located near the top of the screen, displays key details about the selected record, such as a company, contact, or project. The name of the card changes depending on the screen you are in, such as the "Company card" or "Project card."
+
+### Side panel
+
+On the right side of the screen, the [side panel][3] provides a flexible display for additional information, such as selection members, calendar views, or related records. You can configure its views and even resize it for better visibility.
+
+### Section tabs
+
+Below the main card, [section tabs][4] organize related lists, such as activities, contacts, or project members. These tabs vary depending on the screen.
 
 ## <a id="global-buttons"></a>Global buttons
 
-The global buttons appear throughout the user interface. Some are in the main screen, while others are in the various dialogs.
+These common buttons appear across SuperOffice and serve essential functions:
 
-| Button | Function |
-|---|---|
-| <i class="ph ph-magnifying-glass" aria-label="Search"></i> | Used to open the search window. |
-| <i class="ph ph-phone" aria-label="Phone"></i> | Used to choose a telephone number to dial. |
-| <i class="ph ph-caret-down" aria-label="Chevron"></i> | Arrows open and close lists. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Used to open a menu containing tasks relevant to the dialog or screen. |
+| Icon | Function |
+|:-:|---|
+| <i class="ph ph-magnifying-glass" aria-label="Search"></i> | Open the search window to find records. |
+| <i class="ph ph-phone" aria-label="Phone"></i> | Choose a telephone number to dial. |
+| <i class="ph ph-caret-down" aria-label="Chevron"></i> | Expand or collapse lists. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Access a menu of actions for the current dialog or screen. |
 
-## Change the size of screen elements
+## Customize screen elements
 
-You can change the size of the main card, the side panel and the section tabs. If, for example, you have many activities, you can expand the section tabs in the Company, Contact, Sale and Project screens, so that more activities can be displayed at a time. Different screens may have different settings, and SuperOffice CRM will remember the settings for a screen the next time it is displayed.
+### Resize panels or tabs
+
+You can adjust the size of the main card, side panel, and section tabs to better fit your workflow. For example, if you have many activities, you can expand the section tabs to view more details.
 
 **Steps:**
 
-1. Position the mouse pointer between the screen elements you want to resize.
-2. Click and drag to the required size (<i class="ph ph-split-horizontal" aria-hidden="true"></i> <i class="ph ph-split-vertical" aria-hidden="true"></i>).
-3. When the elements are the size you want them to be, release the mouse button.
+1. Hover your mouse between two elements.
+2. Click and drag to adjust the size (<i class="ph ph-split-horizontal" aria-hidden="true"></i> <i class="ph ph-split-vertical" aria-hidden="true"></i>).
+3. Release the mouse when the layout looks good.
 
 > [!NOTE]
-> If you make the screen elements too small, information in the screen will be hidden. Because there is no scroll-bar in these elements, you must enlarge the screen to view all the information again.
+> If you shrink an element too much, some content may become hidden. Enlarge the element to make all information visible again.
 
-## Change the position of screen elements
+### Rearrange tabs
 
-You can change the positioning of the tabs and section tabs to meet your needs. For example, if you want the **Sales** section tab to be displayed on the left in the diary in the place of **Activities**.
+You can reorder tabs or section tabs to suit your preferences. For example, move the **Sales** section tab to the left in the Diary screen.
 
-1. Click and drag the tab/section tab to where you want it.
-2. Release the tab/section tab. SuperOffice CRM remembers your choice, and displays it as you specified the next time you open the view.
+**Steps:**
 
-## Font type and size
+1. Click and drag the tab to the desired position.
+2. Release the tab. SuperOffice CRM will remember your arrangement for the next time you open that view.
 
-Zoom in/out in the browser to get larger/smaller font.
+## Adjust font size
+
+To change the font size, use your browser's zoom functionality (Ctrl + "+" or Ctrl + "-") to increase or decrease the font size.
 
 <!-- Referenced links -->
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md
-[10]: ../../../company/learn/screen/index.md
-[11]: ../../../contact/learn/screen/index.md
-[13]: ../../section-tabs/activities-tab.md
-[15]: ../../../project/learn/screen/index.md
-[17]: ../../../sale/learn/screen/index.md
-[19]: ../../../search-options/selection/learn/screen/index.md
+[4]: ../../section-tabs/index.md

@@ -31,7 +31,7 @@ You can also [create a quote][1] in the **Quote** section tab in the Sale screen
 
 ## Where can I view sales?
 
-In addition to the [Sale screen][2], sales are displayed on the [Sales section tab][13] in the Company, Contact, Diary, and Project screens
+In addition to the Sale screen, sales are displayed on the [Sales section tab][13] in the Company, Contact, Diary, and Project screens
 
 > [!TIP]
 > Double-click a sale in one of these locations to open the sale in the Sale screen.
@@ -91,6 +91,22 @@ The lower part of the Sale screen consists of section tabs.
 
 [!include[Add more section tabs](../../learn/includes/more-tab.md)]
 
+## <a id="side-panel"></a>Using the side panel for sales
+
+When you have the **Sale** screen open, you can use the **Selection members** [side panel][20] to view your sales opportunities. Select any sales opportunity to view it in detail in the **Sale** screen.
+
+![Use the side panel on the sale card to view selection members and the sale selection -screenshot][img2]
+
+### Tips for efficiency
+
+* **Check overdue sales**: Sales opportunities marked in **red** in the **Selection members** list indicate overdue activities or sale dates. Make sure to review and update these.
+
+* **Sequential review**: Use the side panel to click through your sales one by one, ensuring you know the current status of each and have appropriate follow-up activities in place.
+
+* **Similar workflows**: You can use selections for contacts as a calling list or follow up on outstanding sales proposals to ensure no opportunity is missed.
+
+For more details on setting up your sales opportunities, see the [guide to sales forecasting][3].
+
 ## Related content
 
 * [Add sale as a favorite][10]
@@ -106,7 +122,6 @@ The lower part of the Sale screen consists of section tabs.
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
-[2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
@@ -121,10 +136,12 @@ The lower part of the Sale screen consists of section tabs.
 [11]: ../../learn/basics/print.md
 [18]: ../../learn/basics/links.md
 [19]: ../../learn/basics/notes.md
+[20]: ../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/user-diary-sales.png
+[img2]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png
 [img3]: ../../../media/loc/en/sale/sale-details.png
 [img5]: ../../../media/loc/en/sale/sale-card.png

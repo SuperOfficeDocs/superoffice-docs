@@ -20,8 +20,6 @@ items:
     href: stakeholders/create.md
   - name: Edit or remove stakeholders
     href: stakeholders/edit.md
-  - name: Use the side panel
-    href: use-side-panel.md
   - name: Working with sales guide
     href: sales-guide/working-with-sales-guide.md
   - name: Forecasting

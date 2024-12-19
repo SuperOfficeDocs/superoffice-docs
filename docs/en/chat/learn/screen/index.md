@@ -32,7 +32,7 @@ The **Chats** tab has three main areas:
 
 * List of active/recent chat sessions (left side)
 * Chat conversation (middle)
-* Contact side panel (right side) → showing customer information
+* Contact side panel (right side), showing customer information
 
 ### List of active/recent chat sessions
 
