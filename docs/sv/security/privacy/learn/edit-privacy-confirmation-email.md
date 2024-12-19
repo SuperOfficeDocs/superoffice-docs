@@ -2,9 +2,10 @@
 uid: help-sv-edit-privacy-confirmation-email
 title: Redigera e-postbekräftelse om personskydd
 description: I den här guiden lär du dig hur du redigerar e-postbekräftelse om personskydd.
+keywords: GDPR, samtycke, e-post, mall, Confirmation - Contact added
 author: Bergfrid Dias
-date: 03.23.2023
-keywords: GDPR, samtycke, e-post, mall
+date: 12.19.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +24,7 @@ Mallen för e-postbekräftelse om personskydd är en **e-postmall** som skapas o
 
 1. Gå till Inställningar och underhåll.
 
-1. Klicka på **Listor**. Leta reda på listan **E-postmall** och mallen för "E-postbekräftelse om personskydd".
+1. Klicka på **Listor**. Leta reda på listan **E-postmall** och mallen "Confirmation - Contact added".
 
 1. Dubbelklicka för att öppna dialogrutan **Redigera post** där du kan ändra namn, beskrivning och så vidare.
 
