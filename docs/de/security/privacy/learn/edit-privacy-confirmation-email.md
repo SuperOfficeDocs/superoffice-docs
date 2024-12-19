@@ -1,10 +1,11 @@
 ---
 uid: help-de-edit-privacy-confirmation-email
 title: E-Mail zur Datenschutzbestätigung bearbeiten
-description: "In dieser Anleitung lernen Sie, wie Sie die E-Mail für die Datenschutzbestätigung bearbeiten können."
+description: In dieser Anleitung lernen Sie, wie Sie die E-Mail für die Datenschutzbestätigung bearbeiten können.
+keywords: DSGVO, Einwilligung, E-Mail, Vorlage, Confirmation - Contact added
 author: Bergfrid Dias
-date: 03.23.2023
-keywords: DSGVO, Einwilligung, E-Mail, Vorlage
+date: 12.19.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +24,7 @@ Die E-Mail-Vorlage zur Datenschutzbestätigung ist eine **E-Mail-Vorlage**, die 
 
 1. Gehen Sie zu Einstellungen und Verwaltung.
 
-1. Klicken Sie auf **Listen**. Suchen Sie die Liste der **E-Mail-Vorlage** und die Vorlage für die "E-Mail zur Datenschutzbestätigung".
+1. Klicken Sie auf **Listen**. Suchen Sie die Liste der **E-Mail-Vorlage** und die Vorlage "Confirmation - Contact added".
 
 1. Doppelklicken Sie, um das Dialogfeld **Listenobjekt bearbeiten** zu öffnen, in dem Sie den Namen, die Beschreibung usw. ändern können.
 

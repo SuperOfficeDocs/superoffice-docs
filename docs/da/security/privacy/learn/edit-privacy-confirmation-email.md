@@ -1,10 +1,11 @@
 ---
 uid: help-da-edit-privacy-confirmation-email
 title: Rediger e-mail med bekræftelse om personbeskyttelse
-description: "I denne vejledning lærer du, hvordan du redigerer e-mailen med bekræftelse om personbeskyttelse."
+description: I denne vejledning lærer du, hvordan du redigerer e-mailen med bekræftelse om personbeskyttelse.
+keywords: GDPR, samtykke, e-mail, skabelon, Confirmation - Contact added
 author: Bergfrid Dias
-date: 03.23.2023
-keywords: GDPR, samtykke, e-mail, skabelon
+date: 12.19.2024
+version: 10
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +24,7 @@ E-mailskabelonen med bekræftelse om personbeskyttelse er en **e-mailskabelon**,
 
 1. Gå til Indstillinger og vedligeholdelse.
 
-1. Klik på **Lister**. Find listen **E-mailskabelon** og skabelonen for "E-mail med bekræftelse om personbeskyttelse".
+1. Klik på **Lister**. Find listen **E-mailskabelon** og skabelonen "Confirmation - Contact added".
 
 1. Dobbeltklik for at åbne dialogboksen **Rediger forekomst**, hvor du kan ændre navn, beskrivelse osv.
 
