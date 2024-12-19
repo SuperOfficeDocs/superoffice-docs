@@ -38,27 +38,6 @@ I [fanen **Mer**][12] finner du brukerdefinerte felt for prosjektet. Tre av de b
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>Fanen Arrangement
-
-Denne funksjonen krever egen lisens.
-
-I fanen **Arrangement** kan du angi innstillinger for publisering av arrangementer.
-
-| Felt | Beskrivelse |
-|---|---|
-| Operasjon | Her merker du av hvis det aktuelle prosjektet er et arrangement. |
-| Arrangementsdato | Dette feltet viser datoen for arrangementet. Klikk på pilen for å velge dato for arrangementet. |
-| Publisert (Fra dato og Til dato) | Her kan du angi et nøyaktig tidsrom når arrangementet skal vises for Audience-brukere (krever egen lisens). Klikk på pilen ved siden av datofeltene for å velge start- og sluttdato for publiseringen. Hvis du ikke angir datoer i disse feltene [publiseres prosjektet][2] før det enten blir upublisert eller slettet fra SuperOffice CRM. |
-| Synlig for kategori | Merk av her hvis du vil at arrangementet kun skal være synlig for bestemte kategorier. Klikk på knappen ( ![ikon][img5] ) til høyre for feltet for å velge kategoriene som arrangementet skal være synlig for. |
-| Synlig for personinteresse | Merk av her hvis du vil at arrangementet kun skal være synlig for personer med bestemte interesser. Klikk på knappen ( ![ikon][img5] ) til høyre for feltet for å velge interessene som arrangementet skal være synlig for. |
-| Synlig for prosjektdeltakere | Hvis avmerket, er arrangementet kun synlig i Audience for [prosjektdeltakerne][8] som er angitt på detaljkortet **Prosjektdeltakere**. |
-| Melde seg på | Merk av her hvis du vil at det skal være mulig å melde seg på arrangementet gjennom Audience. |
-| Melde seg av | Merk av her hvis du vil at det skal være mulig å melde seg av arrangementet gjennom Audience. |
-| Logg som aktivitet | Hvis du også merker av for **Logg som aktivitet** bak **Melde seg på** eller **Melde seg av**, opprettes det en aktivitet for deg når en Audience-bruker melder seg på eller av arrangementet. |
-
-> [!TIP]
-> Hvis du klikker på knappen ( ![ikon][img5] ) til høyre for **Bekreftelse**, kan du skrive inn en bekreftelsestekst som skal vises i en dialogboks når en Audience-bruker melder seg på eller av arrangementet. Brukeren må klikke på **Ja** eller **Nei** i denne dialogboksen for å fortsette.
-
 ## <a id="section-tabs"></a>Detaljkortene i Prosjekt-bildet
 
 Den nedre delen av Prosjekt-bildet består av detaljkort.
@@ -113,5 +92,4 @@ Administratoren kan [legge til og tilpasse prosjektguider][8] for deg.
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

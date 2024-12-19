@@ -38,27 +38,6 @@ Hvis du vælger en projekttype, der er defineret en [projektguide][1] for, vises
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>Fanen Arrangement
-
-Denne funktion kræver en separat licens.
-
-Under fanen **Arrangement** kan du angive indstillinger for publicering af Arrangementer.
-
-| Felt | Beskrivelse |
-|---|---|
-| Hændelse | Her kontrollerer du, at det aktuelle projekt er et arrangement. |
-| Dato for arrangement | Dette felt viser datoen for arrangementet. Klik på pilen for at vælge en dato for arrangementet. |
-| Udgivet (Fra dato og Til dato) | Her kan du angive en præcis tidsperiode, som arrangementet er synligt for Audience-brugere (kræver en separat licens). Klik på pilen ud for hvert af datofelterne for at vælge en start- og slutdato for udgivelsen. Hvis du ikke indtaster datoer i disse felter, [er projektet udgivet][2], indtil det enten ikke-udgives eller slettes fra SuperOffice CRM. |
-| Synlig for kategori | Markér her, hvis arrangementet kun skal være synligt for bestemte kategorier. Klik på knappen (![ikon][img5]) til højre for feltet for at vælge de kategorier, som arrangementet er synligt for. |
-| Synligt for personinteresse | Markér her, hvis arrangementet kun skal være synligt for personer med bestemte interesser. Klik på knappen (![ikon][img5]) til højre for feltet for at vælge de interesser, som arrangementet er synligt for. |
-| Synligt for projektdeltagere | Hvis afkrydsningsfeltet er markeret, er arrangementet kun synligt i Audience for de [projektdeltagere][8], der er angivet under fanen **Projektmedlemmer**. |
-| Tilmelding | Markér her, hvis du ønsker, at det skal være muligt at tilmelde sig arrangementet via Audience. |
-| Afmelding | Markér her, hvis du ønsker, at det skal være muligt at afmelde sig arrangementet via Audience. |
-| Log som aktivitet | Hvis du også markerer **Log som aktivitet** ud for **Tilmelding** eller **Afmelding**, oprettes der en aktivitet for dig, når en Audience-bruger tilmelder eller afmelder sig arrangementet. |
-
-> [!TIP]
-> Hvis du klikker på knappen (![ikon][img5]) til højre for **Bekræftelse**, kan du indtaste en bekræftelsestekst, der skal vises i en dialogboks, når en Audience-bruger tilmelder eller afmelder sig arrangementet. Brugeren skal klikke på **Ja** eller **Nej** i denne dialogboks for at fortsætte.
-
 ## <a id="section-tabs"></a>Detaljekorterne i skærmbilledet Projekt
 
 Den nederste del af skærmbilledet Projekt består af detaljekort.
@@ -113,5 +92,4 @@ Din administrator kan [tilføje og tilpasse projektguider][8] for dig.
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

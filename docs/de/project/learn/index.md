@@ -38,27 +38,6 @@ Die [Registerkarte **Mehr**][12] enthält benutzerdefinierte Felder für das Pro
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>Registerkarte Ereignis
-
-Für diese Funktion ist eine separate Lizenz erforderlich.
-
-Auf der Registerkarte **Veranstaltung** können Sie Einstellungen zum Veröffentlichen von Veranstaltungen festlegen.
-
-| Feld | Beschreibung |
-|---|---|
-| Ereignis | Aktivieren Sie dieses Kontrollkästchen, um das aktuelle Projekt als Veranstaltung zu kennzeichnen. |
-| Veranstaltungsdatum | Dieses Feld enthält das Datum der Veranstaltung. Klicken Sie auf den Pfeil, um ein Datum für die Veranstaltung zu wählen. |
-| Veröffentlicht (Ab und Bis) | Hier können Sie einen konkreten Zeitraum festlegen, in dem das Ereignis für die Benutzer von Audience sichtbar sein soll (erfordert eine separate Lizenz). Klicken Sie auf den Pfeil neben den einzelnen Datumsfeldern, um ein Start- bzw. Enddatum für die Veröffentlichung zu wählen. Wenn Sie keine Datumsangaben in diese Felder eingeben, lautet der Status das [Projekt ist veröffentlicht][2] bis die Veröffentlichung rückgängig gemacht oder aus SuperOffice CRM gelöscht wird. |
-| Für Kategorie sichtbar | Aktivieren Sie dieses Kontrollkästchen, wenn die Veranstaltung nur für bestimmte Kategorien sichtbar sein soll. Klicken Sie rechts neben dem Feld auf das (![Symbol][img5]) der Schaltfläche, um die Kategorien zu wählen, für die das Ereignis sichtbar ist. |
-| Für Personeninteressen sichtbar | Aktivieren Sie dieses Kontrollkästchen, wenn die Veranstaltung nur für Personen mit bestimmten Interessen sichtbar sein soll. Klicken Sie rechts neben dem Feld auf das (![Symbol][img5]) der Schaltfläche, um die Interessen zu wählen, für die das Ereignis sichtbar ist. |
-| Für Projektmitglieder sichtbar | Wenn dieses Kontrollkästchen aktiviert ist, ist das Ereignis nur in Audience für die [Projektmitglieder][8] sichtbar, die auf der Bereichsregisterkarte **Projektmitglieder** festgelegt sind. |
-| Einloggen | Aktivieren Sie dieses Kontrollkästchen, damit Benutzer sich über Audience bei der Veranstaltung einloggen können. |
-| Ausloggen | Aktivieren Sie dieses Kontrollkästchen, damit Benutzer sich über Audience bei der Veranstaltung ausloggen können. |
-| Als Aktivität protokollieren | Wenn Sie neben **Einloggen** oder **Ausloggen** zusätzlich das Kontrollkästchen **Als Aktivität protokollieren** aktivieren, wird eine Aktivität für Sie erstellt, wenn sich ein Audience-Benutzer bei der Veranstaltung ein- oder ausloggt. |
-
-> [!TIP]
-> Wenn Sie auf die Schaltfläche (![Symbol][img5]) rechts neben **Bestätigung** klicken, können Sie einen Bestätigungstext eingeben, der in einem Dialogfeld angezeigt wird, wenn sich ein Audience-Benutzer beim Ereignis an- oder abmeldet. Der Benutzer muss in diesem Dialogfeld auf **Ja** oder **Nein** klicken, um fortzufahren.
-
 ## <a id="section-tabs"></a>Bereichsregisterkarten in der Ansicht Projekt
 
 Der untere Teil der Projektansicht besteht aus Bereichsregisterkarten.
@@ -113,5 +92,4 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][8].
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

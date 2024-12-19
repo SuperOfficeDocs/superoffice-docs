@@ -31,11 +31,8 @@
 
 1. **Udført:** Dette felt angiver, om projektet er udført.
 
-1. **Udgiv:** (kræver separat licens) Hvis du markerer dette felt, vil projektet være synligt for eksterne brugere i forbindelse med tredjepartsprogrammer. Du kan vælge, at projektet blot skal være udgivet i en begrænset tidsperiode (se fanen [Arrangement][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->

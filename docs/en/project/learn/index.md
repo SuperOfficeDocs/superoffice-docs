@@ -38,27 +38,6 @@ The [More tab][12] includes additional custom fields for the project. Up to thre
 
 [!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
-## <a id="event-tab"></a>The Event tab
-
-This function requires a separate licence.
-
-In the **Event** tab, you can specify settings for publishing events.
-
-| Field | Description |
-|---|---|
-| Event | Here you check to indicate that the current project is an event. |
-| Event date | This field shows the date of the event. Click the arrow to select a date for the event. |
-| Published (From date and To date) | Here you can specify a precise time period the event ia visible to Audience users (requires a separate licence). Click the arrow next to each of the date fields to select a start and end date for publishing. If you do not enter dates in these fields, the [project is published][2] until is either unpublished or deleted from SuperOffice CRM. |
-| Visible for category | Check here if you want the event to be visible only to specific categories. Click the button ( ![icon][img5] ) to the right of the field to select the categories that the event is visible for. |
-| Visible for contact interest | Check here if you want the event to be visible only to contacts with specific interests. Click the button ( ![icon][img5] ) to the right of the field to select the interests that the event is visible for. |
-| Visible for project members | If checked, the event is visible only in Audience for the [project members][8] specified on the **Project members** section tab. |
-| Sign on | Check here if you want it to be possible to sign on to the event through Audience. |
-| Sign off | Check here if you want it to be possible to sign off from the event through Audience. |
-| Log as activity | If you also check **Log as activity** next to **Sign on** or **Sign off**, an activity is created for you when an Audience user signs on to or off from the event. |
-
-> [!TIP]
-> If you click the button ( ![icon][img5] ) to the right of **Confirmation**, you can enter a confirmation text to display in a dialog when an Audience user signs on or off the event. The user must click **Yes** or **No** in this dialog to continue.
-
 ## <a id="section-tabs"></a>Project screen section tabs
 
 The lower part of the Project screen consists of section tabs.
@@ -113,5 +92,4 @@ Your administrator can [add and customize project guides][8] for you.
 [img1]: ../../../media/loc/en/project/projects.png
 [img2]: ../../../media/icons/arrow-left.png
 [img3]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/icons/select.png
 [img4]: ../../../media/loc/en/project/project-guide-create.png

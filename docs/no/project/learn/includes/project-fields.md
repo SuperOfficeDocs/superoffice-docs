@@ -31,11 +31,8 @@
 
 1. **Fullført:** Denne boksen angir om prosjektet er utført.
 
-1. **Publiser:** (krever egen lisens) Hvis du merker av i denne boksen, vil prosjektet være synlig for eksterne brukere i forbindelse med tredjepartsapplikasjoner. Du kan velge at prosjektet skal være publisert bare i en begrenset tidsperiode (se fanen [Arrangement][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->

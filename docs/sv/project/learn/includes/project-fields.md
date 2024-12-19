@@ -31,11 +31,8 @@
 
 1. **Slutförd:** Den här rutan anger om projektet är slutfört.
 
-1. **Publicera:** (kräver separat licens) Om du markerar den här rutan är projektet synligt för externa användare vid användning av tredjepartsapplikationer. Du kan välja att projektet bara ska vara publicerat under en begränsad tid (se fliken [Arrangemang][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->

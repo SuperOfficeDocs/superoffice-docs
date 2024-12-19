@@ -31,11 +31,8 @@
 
 1. **Completed:** This box indicates whether the project is completed.
 
-1. **Publish:** (requires separate licence) If you check this box, the project is visible to external users through third-party applications. You can choose to have the project published for a limited time only (see [The Event tab][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->

@@ -31,11 +31,8 @@
 
 1. **Voltooid:** Dit veld geeft aan of het project is voltooid.
 
-1. **Publiceren:** (hiervoor is een aparte licentie nodig) Als u deze optie inschakelt, is het project via toepassingen van derden zichtbaar voor externe gebruikers. U kunt ervoor kiezen het project slechts een beperkte tijd te publiceren (zie [Het tabblad Gebeurtenis][4]).
-
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../index.md#event-tab
 
 <!-- Referenced images -->
