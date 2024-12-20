@@ -7,7 +7,7 @@ author: SuperOffice RnD
 date: 12.16.2024
 version: 10
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---

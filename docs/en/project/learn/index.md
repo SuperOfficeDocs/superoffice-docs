@@ -30,9 +30,15 @@ You can navigate between projects using the **Previous** and **Next** buttons (<
 
 If you select a project type for which a [project guide][1] is defined, the **Project guide** tab is displayed on the section tab.
 
-## <a id="more-tab"></a>The More tab for projects
+## Tabs on the Project card
 
-The [More tab][12] includes additional custom fields for the project. Up to three fields from the **More** tab can also be shown in the main **Project** tab for easier visibility.
+| Tab | Description |
+|---|---|
+| Project | Contains information about the active project. |
+| [More][19] | Custom fields for entering additional project-specific information. |
+| [Note][14] | Free text area to add notes about the company. Notes are marked with a dot when filled. |
+| Image | |
+| [Links][10] | |
 
 ## <a id="section-tabs"></a>Project screen section tabs
 
@@ -57,7 +63,6 @@ Your administrator can [add and customize project guides][8] for you.
 ## Related content
 
 * [Add project as a favorite][9]
-* [The Note tab][14]
 * [Create a project][2]
 * [Edit a project][3]
 * [Merge projects][4]
@@ -65,7 +70,6 @@ Your administrator can [add and customize project guides][8] for you.
 * [Send a document to project members][7]
 * [Project guide][1]
 * [Print project info][11]
-* [Links tab][10]
 
 <!-- Referenced links -->
 [1]: project-guide/index.md
@@ -80,11 +84,11 @@ Your administrator can [add and customize project guides][8] for you.
 [10]: ../../learn/basics/links.md
 [14]: ../../learn/basics/notes.md
 [11]: ../../learn/basics/print.md
-[12]: ../../custom-objects/learn/more-tab.md
 [13]: project-guide/project-guide-tab.md
 [16]: ../../learn/section-tabs/activities-tab.md
 [17]: ../../learn/section-tabs/sales-tab.md
 [18]: ../../learn/section-tabs/requests-tab.md
+[19]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/projects.png

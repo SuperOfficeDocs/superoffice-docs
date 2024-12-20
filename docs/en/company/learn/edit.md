@@ -1,13 +1,13 @@
 ---
 uid: help-en-company-update
 title: Edit company info
-description: f
+description: To edit a company's details, follow these steps.
 keywords: edit company, update company, company
 author: Bergfrid Dias
 date: 12.16.2024
 version: 10
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---

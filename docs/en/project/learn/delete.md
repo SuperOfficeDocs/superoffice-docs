@@ -1,18 +1,34 @@
 ---
 uid: help-en-project-delete
-title: Delete a project
-description: How to delete a project in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: project
+title: Delete a project and associated data
+description: How to delete a project and associated data in SuperOffice
+keywords: delete project, project management, project
+author: Bergfrid Dias
+date: 12.20.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Delete project a whole project and associated data
+# Delete a project and associated data
 
-1. [!include[Go to project](includes/goto-project.md)]
-1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete 'project name'**.
-1. When you are asked if you really want to delete the project, click **Yes**.
+1. Open the **Project** screen for the project you want to delete.
 
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Project card.
+   Select **Delete** from the menu.
+
+    > [!NOTE]
+    > If the **Delete** option appears dimmed, it means that you do not have sufficient user rights to delete this particular item. You cannot delete projects that do not belong to you unless you have the necessary permissions.
+
+1. In the **Delete project** dialog, review the project details to ensure you are deleting the correct project.
+
+1. Click **Yes** to confirm the deletion.
+
+## Related content
+
+* [Merge projects][1]
+
+<!-- Referenced links -->
+[1]: merge-projects.md

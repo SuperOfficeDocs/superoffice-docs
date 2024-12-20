@@ -1,29 +1,44 @@
 ---
 uid: help-en-project-edit
-title: Edit a project
+title: Edit project info
 description: How to edit a project in SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: project
+keywords: edit project, update project, project management, project
+author: Bergfrid Dias
+date: 12.20.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Edit projects
+# Edit project info
 
-You can edit information about projects from the tabs in the project card.
+You can edit project information directly from the tabs in the Project screen.
+
+## Steps
 
 1. [!include[Go to project](includes/goto-project.md)]
 
-2. Click **Edit**.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> in the upper-right corner of the Project card.
 
-    The tabs in the Project screen change to edit mode. You can switch between the tabs without exiting edit mode.
+1. Make the necessary changes. You can switch between tabs while remaining in edit mode.
 
-3. When you are done, click **Save** to close and save. Click **Cancel** to reject your changes.
+1. Click **Save** to save your changes and exit edit mode, or click **Cancel** to discard them. Both actions will exit edit mode.
+
+    > [!NOTE]
+    > If the **Save** button appears dimmed, ensure all mandatory fields are filled in. Required fields must be completed before saving.
+
+![The Project screen in edit mode, showing project details -screenshot][img1]
 
 ## Related content
 
 * [Add link to document, follow-up, sale, or website][6]
+* [Add project image][1]
 
 <!-- Referenced links -->
+[1]: add-image.md
 [6]: ../../learn/basics/links.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/edit-project.png

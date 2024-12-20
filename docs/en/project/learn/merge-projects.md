@@ -2,8 +2,8 @@
 uid: help-en-project-merge
 title: Merge projects
 description: How to merge project in SuperOffice
-keywords: project
-author: SuperOffice
+keywords: merge projects, project management, project
+author: Bergfrid Dias
 date: 10.29.2024
 version: 10.3.11
 topic: howto
@@ -14,27 +14,36 @@ language: en
 
 # Merge projects
 
-If you have two nearly identical projects, it is possible to merge them, including the project members and activities. The source project will then be deleted.
+If you have two nearly identical projects, you can merge them, including project members and activities. The source project will then be deleted.
 
-1. Go to the project you want merge into another project. See [Use the Find screen][1].
+## Steps
 
-2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on the **Project** card and select **Merge projects**.
+1. Go to the project you want to merge into another project. See [Use the Find screen][1].
 
-3. In the **Merge projects** dialog under **To**, select the project you want to merge the existing project into. Start typing in the field to search for a project. To switch the **From** and **To** projects, click the arrow button.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Project card and select **Merge projects**.
 
-    ![Merge projects dialog -screenshot][img2]
+    > [!NOTE]
+    > If the **Merge** option is dimmed, it means you do not have sufficient user rights to merge projects.
 
-4. Select **Replace empty fields...** to update empty fields in the target project with details from the source.
+1. In the **Merge projects** dialog:
 
-5. Click **Merge**. The following then happens:
-    * The projects are merged.
-    * Details are merged (if specified).
+    * Under **To**, select the project you want to merge the current project into. Start typing to search for a project.
+    * To swap the **From** and **To** projects, click the arrow button (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
+
+    > [!CAUTION]
+    > Make sure you select the correct projects in the **From** and **To** fields before proceeding. **Merging cannot be undone**.
+
+1. (Optional) Select **Replace empty fields with data from [source project]** to update empty fields in the target project with data from the source project.
+
+1. Click **Merge**. The following will happen:
     * Project members are moved or merged.
-    * Any associated sales are moved.
     * All activities are moved.
-        If you merge a project that is linked to a project guide with a project that has a different or no project guide, the project guide is removed from the source project. However, all follow-ups and documents are moved over to the new project and shown on the **Activities** section tab.
-    * Any previous publishing of the source and target projects is disabled.
+    * Any associated sales are moved.
+    * Details are merged (if specified).
+    * If you merge a project that is linked to a project guide with a project that has a different or no project guide, the project guide is removed from the source project.
     * The source project is deleted.
+
+![Merge projects dialog showing fields for selecting source and target projects, options to replace empty fields, and a summary of the merge actions. - screenshot][img2]
 
 ## Related topics
 
@@ -47,4 +56,4 @@ If you have two nearly identical projects, it is possible to merge them, includi
 [3]: edit.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/project/merge-project.png
+[img2]: ../../../media/loc/en/project/merge-projects.png
