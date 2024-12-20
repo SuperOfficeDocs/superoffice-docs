@@ -42,7 +42,6 @@ The navigator provides quick access to essential SuperOffice CRM features. Each 
 | <i class="ph ph-ticket" aria-label="Request icon"></i> | **[Requests][34]** | Access **service requests**. |
 | <i class="ph ph-wrench" aria-label="Tool icon"></i> | **Tools** | Open external **applications and websites**. |
 
-
 ## The Navigator in Settings and maintenance
 
 | Icon | Screen | Description |

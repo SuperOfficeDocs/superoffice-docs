@@ -33,7 +33,7 @@ Open an existing follow-up by double-clicking it in the Diary or the **Activitie
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **+New** in the top bar and then select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
+No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **New** on the top bar and then select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
 
 > [!NOTE]
 > Follow-ups created from the Diary screen are by default meetings. However, you can change the type before you save.

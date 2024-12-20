@@ -39,7 +39,7 @@ You can open a document in [edit mode or in read mode][7]. When you open the doc
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create or upload a document by clicking **+New** in the top bar and then select **Document**.
+No matter where you are in SuperOffice CRM, you can create or upload a document by clicking **New** on the top bar and then select **Document**.
 
 ## Locate your documents
 

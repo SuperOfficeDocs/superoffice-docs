@@ -30,7 +30,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 With SuperOffice CRM, you can log in from any PC using a browser, but your documents will then be saved on the central server. Downloading and uploading of documents are handled automatically by SuperOffice WebTools.
 
-1. Click **New** > **Document** on the top bar.
+1. Click **New** on the top bar and select **Document**.
 
 2. [Enter the required information in the fields.](#fields)
 
@@ -44,7 +44,7 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 **This feature requires a license.**
 
-1. Click **New** > **Document** on the top bar.
+1. Click **New** on the top bar and select **Document**.
 
 2. [Enter the required information in the fields.](#fields)
 
@@ -63,7 +63,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 > [!NOTE]
 > This procedure describes how to create new documents if you are using a desktop text-editing application. The actual process may be slightly different if you use an online text-editing tool (like Microsoft 365) and a document library (like SharePoint).
 
-1. Click **New** > **Document** on the top bar.
+1. Click **New** on the top bar and select **Document**.
 
 2. [Enter the required information in the fields.](#fields)
 
@@ -133,7 +133,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 ## <a id="upload"></a>Upload document
 
-1. Click **New** > **Document** on the top bar.
+1. Click **New** on the top bar and select **Document**.
 
 2. Drag and drop the document from Windows Explorer to the **Document** dialog.
 
