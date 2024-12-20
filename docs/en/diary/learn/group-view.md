@@ -26,10 +26,10 @@ You can choose users and resources whose diaries you want to see and save the vi
 
 1. Click the **View** tab in the Diary screen.
 
-1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and choose **New group view**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **New group view**.
 
     > [!NOTE]
-    > To edit an existing view, click **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
+    > To change an existing view, select **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
 
 1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
 
@@ -85,9 +85,9 @@ Click **Select all** (<i class="ph ph-check-circle" aria-hidden="true"></i>) to 
 
 Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click <i class="ph ph-arrow-circle-left" aria-label="Arrow left"></i>. The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to move it up or down.
 
-## <a id="troubleshoot"></a>Why is the Edit button greyed out?
+## <a id="troubleshoot"></a>Why is the Edit option greyed out?
 
-You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
+You can change only group views created by you. In a predefined group view, the **Edit** option is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
 To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
 

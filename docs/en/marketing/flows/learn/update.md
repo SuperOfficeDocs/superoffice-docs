@@ -19,7 +19,7 @@ It is useful to start with a simple flow and extend it after monitoring the perf
 To make changes:
 
 1. [Pause the flow][1].
-1. Click **Edit**.
+1. Click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 1. Make the necessary changes.
 1. Click **Save**.
 1. Re-start the flow.

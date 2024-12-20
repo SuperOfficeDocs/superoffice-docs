@@ -65,7 +65,7 @@ To edit a request directly from the **Requests** section tab:
 
 1. Locate and double-click the request you want to work on.
 
-1. In the window that opens, click **Edit** to begin updating the request details.
+1. In the window that opens, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) to begin updating the request details.
 
 ## Additional tips
 

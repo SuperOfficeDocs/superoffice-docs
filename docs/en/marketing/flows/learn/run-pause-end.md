@@ -43,7 +43,7 @@ To temporarily halt a running flow:
 
 * This action freezes the current status for all participants, who remain at their current step.
 * **Triggers remain active**, causing the participant list to continue growing. New participants enroll but are placed in a queue.
-* The **Edit** button is accessible, allowing flow administrators to make updates to the flow (with some limitations).
+* The **Edit** button (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) is accessible, allowing flow administrators to make updates to the flow (with some limitations).
 
 ## Resume flow (paused > running)
 

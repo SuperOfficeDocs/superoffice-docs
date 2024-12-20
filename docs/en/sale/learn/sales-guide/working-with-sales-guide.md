@@ -54,7 +54,7 @@ You can move the project to the next status in two ways:
 
 **From the Sale tab:**
 
-1. Click **Edit** on the **Sale** tab.
+1. Click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) on the **Sale** tab.
 2. Click the arrow next to the **Stage** field.
 3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in Settings and maintenance.
 4. Click **Save**.
@@ -115,7 +115,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 1. All of the follow-ups and documents in the **First meeting** stage are completed and you want to go to the next stage in the sales guide.
 
-    1. Click the **Edit** button on the main **Sale** card.
+    1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> on the main **Sale** card.
     2. Click the arrow next to the **Stage** field and select **Quotation** from the list.
     3. Click **Save**.
         The follow-ups and documents for this new stage are now displayed in the **Sales guide** section tab.
@@ -139,7 +139,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 
 1. After all the follow-ups and documents you want to use in the **Quotation** stage are completed, go to the last stage in the sales guide, which is **Signing of contract**.
 
-    1. Click the **Edit** button on the main **Sale** card.
+    1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> on the main **Sale** card.
     2. Click the arrow to the right of the **Stage** field and select **Signing of contract** from the list.
     3. Click **Save**.
         The follow-ups and documents for this stage are now displayed in the **Sales guide** section tab.

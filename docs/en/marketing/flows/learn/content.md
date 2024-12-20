@@ -64,7 +64,7 @@ To view the prepared content for a specific flow:
 1. Choose a template and compose the email as described above (starting on step 2).
 
 > [!NOTE]
-> You cannot click **Edit** if the flow is running. If you do not wish to pause the flow while you prepare more content, you can create and prepare a new piece of content from the **Flow contents** tab.
+> You cannot click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) if the flow is running. If you do not wish to pause the flow while you prepare more content, you can create and prepare a new piece of content from the **Flow contents** tab.
 
 ### Create form
 

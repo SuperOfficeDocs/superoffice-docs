@@ -57,7 +57,7 @@ You can move the project to the next status in two ways:
 
     Or do one of the following on the main **Project** card:
 
-    1. Click **Edit** on the main **Project** card.
+    1. Click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) on the main **Project** card.
     1. Click the arrow next to the **Status** field.
     1. Select the required status from the list that appears. [!include[SM](../../../learn/includes/are-defined-sm.md)]
     1. Click **Save**.
@@ -74,8 +74,7 @@ You record a new project and select the **Conference** project type, which is li
 |---|---|---|
 | Planned | Planning meeting (Meeting (Internal)) | Conference programme (Memo) |
 | In progress | Create list of project members (Follow-up) | conference (Meeting (External)) |
-| Closing | Evaluation meeting (Meeting (Internal)) |
-| Evaluation report (Memo) |
+| Closing | Evaluation meeting (Meeting (Internal)) | Evaluation report (Memo) |
 
 ### The Planned status
 
@@ -145,7 +144,7 @@ You record a new project and select the **Conference** project type, which is li
 
     * Click **Yes** in the **Project guide - move the project to the next status** dialog.
         or
-    * Click **Edit** on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
+    * Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
 
 1. You want to hold an internal meeting to summarize the conference.
 

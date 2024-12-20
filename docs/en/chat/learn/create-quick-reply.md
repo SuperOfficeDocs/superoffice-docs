@@ -16,7 +16,7 @@ A quick reply is a pre-defined text that you can use in a chat with a customer. 
 **Steps:**
 
 1. In an ongoing chat, click <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> in the lower part of the chat panel.
-2. Click <i class="ph ph-pencil-simple" aria-hidden="true"></i> **Edit**.
+2. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 3. In the **Quick replies** window, click **Add**. A new reply is added to the list.
 4. Click the **New name** field and enter a title for the quick reply. This will not be visible to the customer.
 5. Click the **New content** field and enter the reply text you want to send to customers.
