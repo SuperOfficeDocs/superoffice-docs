@@ -73,6 +73,16 @@ A user data object can enter the SuperOffice sphere in the following ways:
 
 * [Provision user from Microsoft Entra ID via SCIM][3].
 
+## When user is deleted
+
+What happens when a user is being deleted by upstream source (Entra ID) or user license is set to (No Selection) by rules.
+
+* When user license is set to (No Selection) by rules we remove the user's license and set both "IsPersonRetired" and "Deleted" flags,
+
+* When a user is deleted from Microsoft Entra ID: [After you delete a user, the account remains in a suspended state for 30 days](https://learn.microsoft.com/en-us/entra/fundamentals/users-restore). When this happens Entra ID sends update on the user to our SCIM API which sets "active" property on the user to "false". For these users SCIM sets license to (No Selection) no matter what license is assigned by matching rules.
+
+* After 30 days user is deleted in Entra ID and it sends DELETE command to SCIM API. When this happens SCIM API executes NetServer's `DeleteUser` API.
+
 <!-- Referenced links -->
 [1]: ../../developer-portal/provisioning/index.md
 [2]: ../user/add-user-in-admin-client.md
