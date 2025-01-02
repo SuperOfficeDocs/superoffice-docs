@@ -53,8 +53,6 @@ landingContent:
           url: ../admin/lists/learn/project-status.md
         - text: Add project type (list)
           url: ../admin/lists/learn/project-type.md
-        - text: View follow-ups and documents
-          url: learn/project-guide/view-followups-and-documents.md
       - itemType: video_library
         typeDesc: video
         links:
@@ -100,7 +98,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Work with project guide
-          url: learn/project-guide/working-with.md
+          url: learn/tutorial.md
         - text: Create guide
           url: learn/project-guide/create.md
         - text: Update guide

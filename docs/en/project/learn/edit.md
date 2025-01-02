@@ -24,6 +24,9 @@ You can edit project information directly from the tabs in the Project screen.
 
 1. Make the necessary changes. You can switch between tabs while remaining in edit mode.
 
+    > [!CAUTION]
+    > Switching project types linked to a [project guide][4] will remove the guide. Activities and documents remain in the **Activities** tab and will relink if you revert to the original type.
+
 1. Click **Save** to save your changes and exit edit mode, or click **Cancel** to discard them. Both actions will exit edit mode.
 
     > [!NOTE]
@@ -38,6 +41,7 @@ You can edit project information directly from the tabs in the Project screen.
 
 <!-- Referenced links -->
 [1]: add-image.md
+[4]: project-guide/index.md
 [6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
