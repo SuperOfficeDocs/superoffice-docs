@@ -67,16 +67,12 @@ items:
       href: sale-amount-class.md
 
   - name: Project
-    topicHref: ../../../project/learn/screen/project-status-admin.md
+    topicHref: ../../../project/admin/index.md 
     items:
-    - name: Project status
-      href: ../../../project/learn/screen/project-status-admin.md
     - name: Add project status
-      href: project-status.md
-    - name: Project type
-      href: ../../../project/learn/screen/project-type-admin.md
+      topicHref: ../../../project/admin/project-status.md
     - name: Add project type
-      href: project-type.md
+      topicHref: ../../../project/admin/project-type.md
 
   - name: General
     topicHref: country.md

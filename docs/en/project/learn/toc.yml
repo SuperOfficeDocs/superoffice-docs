@@ -18,3 +18,6 @@ items:
   href: project-guides.md
 - name: Tutorial
   href: tutorial.md
+- name: For administrators
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

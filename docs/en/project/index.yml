@@ -50,9 +50,9 @@ landingContent:
         - text: Merge projects
           url: learn/merge-projects.md
         - text: Add project status (list)
-          url: ../admin/lists/learn/project-status.md
+          url: admin/project-status.md
         - text: Add project type (list)
-          url: ../admin/lists/learn/project-type.md
+          url: admin/project-type.md
       - itemType: video_library
         typeDesc: video
         links:
@@ -93,18 +93,16 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: learn/project-guide/index.md
+          url: learn/project-guides.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Work with project guide
           url: learn/tutorial.md
         - text: Create guide
-          url: learn/project-guide/create.md
-        - text: Update guide
-          url: learn/project-guide/edit.md
-        - text: Deactivate guide
-          url: learn/project-guide/deactivate.md
+          url: admin/create-project-guide.md
+        - text: Update or deactivate guide
+          url: admin/edit-project-guide.md
 
   - title: UI customization
     linkLists:

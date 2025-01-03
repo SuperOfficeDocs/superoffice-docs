@@ -103,16 +103,7 @@ items:
         - name: Deactivate sales guide
           href: ../sale/learn/sales-guide/deactivate.md
       - name: Project guide
-        topicHref: ../project/learn/screen/project-guide-admin.md
-        items:
-        - name: Overview
-          href: ../project/learn/screen/project-guide-admin.md
-        - name: Create new project guide
-          href: ../project/learn/project-guide/create.md
-        - name: Edit project guide
-          href: ../project/learn/project-guide/edit.md
-        - name: Deactivate project guide
-          href: ../project/learn/project-guide/deactivate.md
+        topicHref: ../project/admin/create-project-guide.md
 
     - name: Custom objects
       href: ../custom-objects/learn/toc.yml

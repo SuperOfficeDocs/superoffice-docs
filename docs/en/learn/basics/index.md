@@ -103,7 +103,7 @@ Your administrator can [add and customize project guides][1] for you.
 * [Create a project][7]
 
 <!-- Referenced links -->
-[1]: ../../project/learn/project-guide/create.md
+[1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
 [5]: ../../search-options/selection/learn/howto/bulk-update.md

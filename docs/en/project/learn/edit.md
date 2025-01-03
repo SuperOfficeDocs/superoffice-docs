@@ -18,7 +18,7 @@ You can edit project information directly from the tabs in the Project screen.
 
 ## Steps
 
-1. [!include[Go to project](includes/goto-project.md)]
+1. Open the **Project** screen for the project you want to update. See [Use the Find screen][5].
 
 1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> in the upper-right corner of the Project card.
 
@@ -41,7 +41,8 @@ You can edit project information directly from the tabs in the Project screen.
 
 <!-- Referenced links -->
 [1]: add-image.md
-[4]: project-guide/index.md
+[4]: project-guides.md
+[5]: ../../search-options/learn/find-screen.md
 [6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
