@@ -2,9 +2,9 @@
 uid: help-en-project-member-add
 title: Add project members
 description: How to add a project member in SuperOffice
-keywords: project, member
+keywords: Add project member, new project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
-date: 11.19.2024
+date: 01.06.2025
 version: 10.3.12
 topic: howto
 audience: person
@@ -20,7 +20,7 @@ When adding members to a project, you can assign functions individually as you a
 
 ## Steps
 
-1. Open the project (see [Use the Find screen][1]) and go to the **Project Members** section tab.
+1. Open the project (see [Use the Find screen][1]) and go to the **Project members** section tab.
 
 1. Click **Add** below the section tab. The **Add/edit project members** dialog opens.
 
@@ -50,7 +50,7 @@ When adding members to a project, you can assign functions individually as you a
 
 ## <a id="from-section-tab"></a>Add project members and stakeholders from section tabs
 
-You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
+You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
 
 **Steps:**
 
@@ -79,7 +79,7 @@ You can add project members and stakeholders from the contact lists in different
 
 * **Add comments**
 
-    If a comment is added, a paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) will appear next to the **Project member information** column in the **Project Members** tab. Hover over the paperclip to see the comment tooltip.
+    If a comment is added, a paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) will appear next to the **Project member information** column in the **Project members** tab. Hover over the paperclip to see the comment tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

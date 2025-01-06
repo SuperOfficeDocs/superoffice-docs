@@ -2,10 +2,13 @@
 uid: help-en-project-mail-merge
 title: Performing mail merge for projects
 description: Performing mail merge for projects
+keywords: create document mailing, send document, mailing, project member, project
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: project, member, mailing, document
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

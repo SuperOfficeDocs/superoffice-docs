@@ -24,7 +24,7 @@ Use the **Workflow** and **Lists** screens in **Settings and Maintenance** to co
 | Term | Definition | Location in Settings and maintenance |
 |---|---|---|
 | Project type | Categorizes projects (for example, "Conference" or "Campaign") and links them to statuses and guides. | **Lists** > **Project - Type, Status** |
-| Project status | Tracks the phase of a project (for example, "Planned" or "In Progress"). Defined per project type. | **Lists** > **Project - Type, Status** |
+| Project status | Tracks the phase of a project (for example, "Planned" or "In Progress"). Defined per project type. | **Lists** > **Project - Status** |
 | Project guide | A workflow tool linking statuses to specific follow-ups, documents, and milestones. | **Workflow** > **Project guide** |
 
 ## What do you want to do?

@@ -152,7 +152,7 @@ You can manually move the project to the next status if needed, without completi
 
 #### From the Project card
 
-1. Click the **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) button on the project card.
+1. Click the **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) button on the Project card.
 1. Click the arrow next to the **Status** field to open the list.
 1. Select the required status.
 1. Click **Save** to confirm your changes.

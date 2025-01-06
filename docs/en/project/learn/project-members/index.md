@@ -2,9 +2,9 @@
 uid: help-en-project-members
 title: Project members
 description: Project members
-keywords: project, member
+keywords: Project members section tab, project member, project
 author: SuperOffice RnD
-date: 12.04.24
+date: 01.06.2025
 version: 10
 topic: concept
 audience: person
@@ -18,7 +18,7 @@ Project members are the participants in a project. For each member, you can acce
 
 ## Project members section tab
 
-**Project Members** is one of the section tabs at the bottom of the Project screen. It contains information about participants in the active project. For each project member, information about company, contact name, function in the project, any comments, email address and telephone number is displayed.
+**Project members** is one of the section tabs at the bottom of the Project screen. It contains information about participants in the active project. For each project member, information about company, contact name, function in the project, any comments, email address and telephone number is displayed.
 
 ## Related content
 

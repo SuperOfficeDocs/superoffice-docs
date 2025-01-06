@@ -2,7 +2,7 @@
 uid: help-en-project-member-edit
 title: Edit or delete project members
 description: How to edit or remove a project member in SuperOffice.
-keywords: project, member
+keywords: edit project member, update project member, delete project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
@@ -18,14 +18,14 @@ You can update the **Function** and **Comments** fields for project members, or 
 
 ## Edit project member info
 
-1. Open the project (see [Use the Find screen][1]) and go to the **Project Members** section tab.
+1. Open the project (see [Use the Find screen][1]) and go to the **Project members** section tab.
 
-1. Select one or more project members from the list, right-click, and choose **Edit**. This will open the **Add/Edit Project Members** dialog.
+1. Select one or more project members from the list, right-click, and choose **Edit**. This will open the **Add/edit project members** dialog.
 
-1. In the **Add/Edit Project Members** dialog, make the required changes:
+1. In the **Add/edit project members** dialog, make the required changes:
 
-   * **Function**: Update the function for the selected project members.
-   * **Comments**: Edit the comments to provide additional details about the members' function in the project.
+   * **Function:** Update the function for the selected project members.
+   * **Comments:** Edit the comments to provide additional details about the members' function in the project.
 
    > [!TIP]
    > You can select multiple project members (hold **Ctrl** or **Shift**). Any changes made in the **Function** or **Comments** fields will apply to all selected members.
@@ -34,7 +34,7 @@ You can update the **Function** and **Comments** fields for project members, or 
 
 ## Remove project members
 
-1. Select the project members you want to remove from the list in the **Project Members** section tab.
+1. Select the project members you want to remove from the list in the **Project members** section tab.
 
 1. Click **Delete** at the bottom of the section tab.
 

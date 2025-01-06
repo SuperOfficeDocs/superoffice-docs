@@ -57,9 +57,9 @@ Examples of project types: "Conference", "Campaign", "Internal".
 
 After you create statuses and specify a project type for the project guide, you can design the project guide itself. You do this by adding follow-ups and/or documents for each status in the project guide.
 
-1. Click the **Workflow** button in the Navigator (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
+1. Select <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow** in the Navigator.
 
-2. Select the **Project guide** tab.
+2. Go to the **Project guide** tab.
 
 3. In the **Project type** list, select the project type you want to create a project guide for. The statuses selected for this project type are displayed in the list above.
 
@@ -115,13 +115,13 @@ The changes are saved automatically. The project guide will now be displayed in 
 
 ### Example of a follow-up
 
-**Project type**: Conference
-**Status**: Planned
-**Name** of follow-up: Planning meeting
-**Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
-**Follow-up type**: Meeting (Internal)
-**Duration**: 1 hour
-**Default text**:
+* **Project type**: Conference
+* **Status**: Planned
+* **Name** of follow-up: Planning meeting
+* **Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
+* **Follow-up type**: Meeting (Internal)
+* **Duration**: 1 hour
+* **Default text**:
 
 Planning meeting:
 
@@ -144,12 +144,12 @@ Planning meeting:
 
 ### Example of a document
 
-**Project type**: Conference
-**Status**: Planned
-**Name** of document: Conference programme
-**Purpose of this project status**: Set out a programme for the conference.
-**Template**: Note
-**Default subject**: Conference programme
+* **Project type**: Conference
+* **Status**: Planned
+* **Name** of document: Conference programme
+* **Purpose of this project status**: Set out a programme for the conference.
+* **Template**: Note
+* **Default subject**: Conference programme
 
 ## Related content
 
