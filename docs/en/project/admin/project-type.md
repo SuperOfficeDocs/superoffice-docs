@@ -35,7 +35,7 @@ Each project must have a type, and these types can be linked to specific [status
 
     This name will appear in the **Type** field on the Project card.
 
-1. Specify the typical project duration in the **Estimated time for this project process** field.
+1. Specify the typical project duration in the **Estimated time for this project process** field (number of weeks, days or months).
 
     This determines the default end date when creating a project.
 

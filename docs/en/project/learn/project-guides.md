@@ -30,13 +30,6 @@ A project guide consists of:
 
 When you create a project or update its type to one with a linked guide, the guide automatically activates in the **Project guide** section tab. This tab displays the statuses, associated activities, and next steps for the project.
 
-When a project guide is linked to a project type and that type is selected for a project:
-
-* The first status in the guide is automatically set in the **Status** field on the Project card.
-* The associated follow-ups and documents for that status appear in the **Project guide** section tab, ready for action.
-
-This automatic linking ensures that projects begin with the correct predefined steps, streamlining workflow and maintaining consistency.
-
 **Example:**
 
 For a Conference project type, the guide might include:

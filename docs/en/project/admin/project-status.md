@@ -19,7 +19,7 @@ language: en
 
 The **Status** field in the Project card helps categorize and track a project's progress. These statuses are predefined in the **Project - Status** list, which you can manage in **Settings and Maintenance** under **Lists**.
 
-Statuses can be linked to [project types][1], specifying which statuses are available for each type. If no project guide is defined, the **Status** field is still visible on the Project card, allowing users to view and update the project's current status.
+Statuses can be linked to [project types][1], specifying which statuses are available for each type. If no project guide is defined, the **Status** field is still visible on the project, allowing users to view and update the project's current status.
 
 ## Add a status
 

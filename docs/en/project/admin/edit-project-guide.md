@@ -21,7 +21,7 @@ language: en
 
 1. Select <i class="ph ph-arrows-left-right" aria-hidden="true"></i> **Workflow** in the Navigator.
 1. Select the **Project guide** tab.
-1. Select the required project type in the list box at the top.
+1. Select the required project type from the list at the top.
 1. [Edit information on the project type and its statuses][3].
 1. [Edit the individual statuses][3].
 1. Edit follow-ups and documents by double-clicking them in the lists at the bottom.
@@ -49,8 +49,6 @@ To remove a project guide from a [project type][4], follow these steps:
 
 > [!NOTE]
 > If you later want to reuse the project guide, recheck the option. Any follow-ups and documents previously added to the project guide's statuses will be automatically retrieved when reactivated. You can also add new follow-ups or documents, or remove any that are no longer relevant.
-
-## Related content
 
 <!-- Referenced links -->
 [1]: create.md#add-doc-status

@@ -94,7 +94,7 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 5. [!include[Select field](includes/select-field.md)] First click **Sale** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>), and then **Amount**.
 
-6. In the list box to the right of **Amount**, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **&gt;** (greater than).
+6. In the list to the right of **Amount**, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **&gt;** (greater than).
 
 7. In the last field on the line, enter the minimum amount. For example, "100 000".
 

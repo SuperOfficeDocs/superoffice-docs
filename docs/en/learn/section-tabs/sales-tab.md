@@ -105,7 +105,7 @@ To add a new sale directly from the **Sales section** tab:
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md

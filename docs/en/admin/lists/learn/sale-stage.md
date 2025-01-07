@@ -1,33 +1,5 @@
 ---
-uid: help-en-sale-stage-add
-title: Add a sale stage
-description: Add a sale stage
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: sale, stage
-topic: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: en
+uid: help-en-sale-stage-add-redirect
+date: 01.06.2025
+redirect_url: https://docs.superoffice.com/en/sale/admin/sale-stage.html
 ---
-
-# Add a sale stage
-
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
-
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]
-
-[!include[Edit list item](includes/edit-list-item.md)] when the list items are sale stages:
-
-1. Enter the required name of the item in the **Name** field. This will be displayed in the option list for the **Stage** field in the Sale screen.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
-
-2. Specify the probability for the item by typing a percentage in the **Probability** field. This figure will be displayed next to the stage in the Sale screen, and indicates the chance of a successful sale at this stage.
-
-3. Optionally, type in a description of the item in the **Description** field.
-
-4. [!include[Save or cancel](includes/save-or-cancel.md)]
-
-> [!NOTE]
-> If you delete a stage that is linked to a sales guide (via a sale type), this may have consequences for using the sales guide.

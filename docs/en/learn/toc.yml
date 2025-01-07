@@ -89,19 +89,10 @@ items:
       topicHref: ../quote/learn/admin/index.md
 
     - name: Workflow
-      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      topicHref: ../sale/admin/create-sales-guide.md
       items:
       - name: Sales guide
-        topicHref: ../sale/learn/screen/sales-guide-admin.md
-        items:
-        - name: Overview
-          href: ../sale/learn/screen/sales-guide-admin.md
-        - name: Create new sales guide
-          href: ../sale/learn/sales-guide/create.md
-        - name: Edit sales guide
-          href: ../sale/learn/sales-guide/edit.md
-        - name: Deactivate sales guide
-          href: ../sale/learn/sales-guide/deactivate.md
+        topicHref: ../sale/admin/create-sales-guide.md
       - name: Project guide
         topicHref: ../project/admin/create-project-guide.md
 

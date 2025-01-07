@@ -24,9 +24,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Introduction to sales
-          url: overview.md
-        - text: Stalled, sold and lost sales
-          url: learn/stages.md
+          url: learn/index.md
         - text: Stakeholders
           url: learn/stakeholders/index.md
         - text: Pipeline management
@@ -46,9 +44,9 @@ landingContent:
         - text: Set up sales targets
           url: learn/sales-targets/create.md
         - text: Add sale type (list)
-          url: ../admin/lists/learn/sale-type.md
+          url: admin/sale-type.md
         - text: Add sale stage (list)
-          url: ../admin/lists/learn/sale-stage.md 
+          url: admin/sale-stage.md 
         - text: Add currency (list)
           url: ../admin/lists/learn/adding-items-to-currency-list.md
       - itemType: library_books
@@ -68,9 +66,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Create
-          url: learn/sales-guide/create.md
-        - text: Work with sales guides
-          url: learn/sales-guide/working-with-sales-guide.md
+          url: admin/create/create-sales-guide.md
       - itemType: video_library
         typeDesc: video
         links:

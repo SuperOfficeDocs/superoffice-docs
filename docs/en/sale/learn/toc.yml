@@ -1,32 +1,29 @@
 items:
 - name: Overview
   href: index.md
-- name: Status of a sale (stages)
-  href: stages.md
+- name: Create sale
+  href: create.md
+- name: Edit and delete sales
+  href: update.md
+- name: Sales guides
+  href: sales-guides.md
+- name: Tutorial
+  href: tutorial.md
 - name: Stakeholders
   href: stakeholders/index.md
-- name: Sales guide
-  href: sales-guide/index.md
-- name: Sales guide section tab
-  href: sales-guide/sales-guide-tab.md
-- name: Work with sale
-  topicHref: create.md
   items:
-  - name: Create sale
-    href: create.md
-  - name: Delete sale
-    href: delete.md
   - name: Add stakeholders
     href: stakeholders/create.md
   - name: Edit or remove stakeholders
     href: stakeholders/edit.md
-  - name: Working with sales guide
-    href: sales-guide/working-with-sales-guide.md
-  - name: Forecasting
-    href: forecasting.md
-- name: Quote
-  href: ../../quote/learn/toc.yml
-  topicHref: ../../quote/learn/index.md
+- name: Forecasting
+  href: forecasting.md
 - name: Sales targets
   href: sales-targets/toc.yml
   topicHref: sales-targets/index.md
+- name: Quote
+  href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
+- name: For administrators
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

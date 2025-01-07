@@ -76,12 +76,12 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 | Option | Description |
 |---|---|
-| Request read by owner | If checked, the escalation chain is controlled as specified in the list box on the right when a request is read by the owner. In all the list boxes in this tab, you can choose from the operations: **Stop**, **Continue** and **Restart**. |
-| Changed user (manually) | If checked, the escalation chain is controlled as specified in the list box on the right when a request manually changes owner. |
-| New information | If checked, the escalation chain is controlled as specified in the list box on the right when new information arrives on a request. For example, the customer or user adding a new message to the request. |
-| Request closed | If checked, the escalation chain is controlled as specified in the list box on the right when a request is closed. |
-| Changed priority | If checked, the escalation chain is controlled as specified in the list box on the right when the priority of a request is replaced with this priority. |
-| New request | If checked, the escalation chain is controlled as specified in the list box on the right when a new request with this priority arrive in the system. |
+| Request read by owner | If checked, the escalation chain is controlled as specified in the list on the right when a request is read by the owner. In all the list boxes in this tab, you can choose from the operations: **Stop**, **Continue** and **Restart**. |
+| Changed user (manually) | If checked, the escalation chain is controlled as specified in the list on the right when a request manually changes owner. |
+| New information | If checked, the escalation chain is controlled as specified in the list on the right when new information arrives on a request. For example, the customer or user adding a new message to the request. |
+| Request closed | If checked, the escalation chain is controlled as specified in the list on the right when a request is closed. |
+| Changed priority | If checked, the escalation chain is controlled as specified in the list on the right when the priority of a request is replaced with this priority. |
+| New request | If checked, the escalation chain is controlled as specified in the list on the right when a new request with this priority arrive in the system. |
 
 <!-- Referenced links -->
 [1]: escalation-levels.md

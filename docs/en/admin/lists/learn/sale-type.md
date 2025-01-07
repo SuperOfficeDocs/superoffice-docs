@@ -1,12 +1,7 @@
 ---
-uid: help-en-sale-add-type
-title: Add sale type
-description: Add sale type
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: sale type
-topic: howto
-language: en
+uid: help-en-sale-add-type-redirect
+date: 01.06.2025
+redirect_url: https://docs.superoffice.com/en/sale/admin/sale-type.html
 ---
 
 # Add sale type
