@@ -17,7 +17,7 @@ language: en
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-The **Type** field in the Project card categorizes projects and defines their workflows. These types are predefined in the **Project - Type, Status** list, which you can manage in **Settings and Maintenance** under **Lists**.
+The **Type** field in the Project card categorizes projects and defines their workflows. These types are predefined in the **Project - Type, Status** list, which you can manage in **Settings and maintenance** under **Lists**.
 
 Each project must have a type, and these types can be linked to specific [statuses][1] and, optionally, to [project guides][4]. Project guides streamline execution by guiding users through predefined phases, follow-ups, and documents.
 

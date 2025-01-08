@@ -2,10 +2,14 @@
 uid: help-en-sale-stakeholders
 title: Stakeholders
 description: Stakeholders
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: sale, stakeholder
+author: Bergfrid Dias
+date: 01.08.2025
+version: 10.5
 topic: concept
+license: salespremium
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -18,8 +22,6 @@ A sale has a main contact, but partners and subcontractors may also be involved 
 For each stakeholder, information about company, contact name, role in the sale, email address and telephone number is displayed.
 
 ## <a id="role"></a>Sale - Stakeholder role
-
-A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the Sale screen. Stakeholders can include individuals as well as organizations.
 
 For each stakeholder, their role in the sale is shown. These sales roles are defined in the Lists screen in Settings and maintenance.
 
@@ -34,8 +36,8 @@ You must also set the **Enable Stakeholders** preference in the **Sale** prefere
 * [Add stakeholders from section tabs][2]
 * [Edit or remove stakeholders][3]
 * [Send email to stakeholders][4]
-* [Add items to the Sale - Sale type (for stages) list][5]
-* [Add, edit, and delete items in the Sale - Stakeholder Role list][6]
+* [Add or update sale types][5]
+* [Add or update stakeholder roles][6]
 * [Add preference settings][7]
 
 <!-- Referenced links -->
@@ -43,9 +45,9 @@ You must also set the **Enable Stakeholders** preference in the **Sale** prefere
 [3]: edit.md
 [2]: ../../../project/learn/project-members/add.md#from-section-tab
 [4]: ../../../project/learn/project-members/send-email-to.md
-[5]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../admin/sale-type.md
 [6]: ../../../admin/lists/learn/items.md
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.png
+[img1]: ../../../../media/loc/en/sale/stakeholders-section-tab.png

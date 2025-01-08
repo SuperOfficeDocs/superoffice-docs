@@ -106,7 +106,7 @@ Lists members of the current selection in the **Selection** screen.
 
 ## User-defined views
 
-Administrators can define custom views for the side panel in **Settings and Maintenance**, tailoring the panel to your team's needs.
+Administrators can define custom views for the side panel in **Settings and maintenance**, tailoring the panel to your team's needs.
 
 ## FAQs and tips
 

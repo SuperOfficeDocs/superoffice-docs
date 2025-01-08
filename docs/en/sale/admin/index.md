@@ -1,7 +1,7 @@
 ---
 uid: help-en-sale-configuration
 title: Managing sales types, stages, and guides
-description: Learn how to manage sales workflows in SuperOffice CRM with sale types, stages, and guides. Configure these tools in Settings and Maintenance to standardize tracking, tasks, and documentation.
+description: Learn how to manage sales workflows in SuperOffice CRM with sale types, stages, and guides. Configure these tools in Settings and maintenance to standardize tracking, tasks, and documentation.
 keywords: sales guide, sale stage, sale type, workflow, sale
 author: Bergfrid Dias
 date: 01.07.2025
@@ -16,7 +16,7 @@ language: en
 
 SuperOffice CRM provides administrators with tools to standardize sales workflows through **sales types**, **stages**, and **guides**. These features ensure consistent sales tracking, task management, and document handling across your team.
 
-Use the **Workflow** and **Lists** screens in **Settings and Maintenance** to configure and manage these components.
+Use the **Workflow** and **Lists** screens in **Settings and maintenance** to configure and manage these components.
 
 ## Key concepts and locations
 
@@ -38,5 +38,5 @@ These tools empower administrators to tailor sales workflows, ensuring efficienc
 <!-- Referenced links -->
 [1]: create-sales-guide.md
 [2]: edit-sales-guide.md
-[3]: sale/stage.md
+[3]: sale-stage.md
 [4]: sale-type.md

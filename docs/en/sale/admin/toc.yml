@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Add sale stage
   href: sale-stage.md
-- name: Add sales type
+- name: Add sale type
   href: sale-type.md
 - name: Create new sales guide
   href: create-sales-guide.md

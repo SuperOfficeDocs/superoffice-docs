@@ -14,14 +14,14 @@ language: en
 
 # Buttons on the top bar
 
-The **top bar** contains essential tools for navigating SuperOffice CRM. The buttons vary slightly depending on the module (CRM, Service, or Settings and Maintenance), but their functions remain consistent. For example, only **Personal settings**, **Main menu**, and **Help** are shown in **Settings and Maintenance**.
+The **top bar** contains essential tools for navigating SuperOffice CRM. The buttons vary slightly depending on the module (CRM, Service, or Settings and maintenance), but their functions remain consistent. For example, only **Personal settings**, **Main menu**, and **Help** are shown in **Settings and maintenance**.
 
 ## Buttons overview
 
 | Icon | Name | Description |
 |:-:|---|---|
 | **New** | **New** | Create new records, such as companies, contacts, sales, projects, selections, follow-ups, documents, and requests. |
-| <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> | [**Find**][5] | Search for records, such as companies, contacts, sales, and documents (Not available in Service and Settings and Maintenance). |
+| <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> | [**Find**][5] | Search for records, such as companies, contacts, sales, and documents (Not available in Service and Settings and maintenance). |
 | <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Notifications**][9] | View new notifications, such as invitations, assigned requests, and approved sales. Click a notification to open the associated record. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Personal settings** | Edit preferences, email signatures, and passwords. Displays your profile image if added to your contact card. |
 | <i class="ph ph-list" aria-label="Main menu"></i> | **Main menu** | Access general system settings, switch between modules, or launch other applications. |
@@ -45,7 +45,7 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 | **Log out** | End your session in SuperOffice CRM. |
 
 > [!NOTE]
-> In Settings and Maintenance, only **Local settings**, **Change password**, and **Log out** are available.
+> In Settings and maintenance, only **Local settings**, **Change password**, and **Log out** are available.
 
 ## Main menu options
 
@@ -63,7 +63,7 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 | **Custom objects** | In pilot. |
 | **Targets** | Set or update [sales targets][17]. |
 | **Edit system signature** | Edit the default email signature. |
-| **Settings and Maintenance** | Launch **Settings and Maintenance** (administrator access only). |
+| **Settings and maintenance** | Launch **Settings and maintenance** (administrator access only). |
 
 ### Settings and maintenance
 

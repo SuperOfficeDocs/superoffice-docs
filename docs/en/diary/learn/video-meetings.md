@@ -15,7 +15,7 @@ language: en
 The SuperOffice video meetings allow you to schedule and create video meetings directly from your diary. Let us take a look at how you can set up a video meeting.
 
 > [!NOTE]
-> Before you can use this feature, the [administrator must configure][1] your preferred video meeting service in SuperOffice Settings and Maintenance.
+> Before you can use this feature, the [administrator must configure][1] your preferred video meeting service in SuperOffice Settings and maintenance.
 
 ## Available video conferencing providers
 

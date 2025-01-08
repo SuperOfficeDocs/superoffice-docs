@@ -57,7 +57,7 @@ items:
     items:
     - name: Add sale stage
       topicHref: ../../../sale/admin/sale-stage.md
-    - name: Add sales type
+    - name: Add sale type
       topicHref: ../../../sale/admin/sale-type.md
     - name: Add sale amount class
       href: sale-amount-class.md

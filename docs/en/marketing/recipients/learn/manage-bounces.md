@@ -56,7 +56,7 @@ Use the filter buttons (Sent, Bounced, and Opened) to [filter you recipients lis
 Email addresses that have been returned due to permanent errors or have bounced several times are automatically blocked and will be skipped in future mailings.
 
 > [!NOTE]
-> If an email bounces more then 5 times, it is automatically blocked. You can adjust this setting in the global preference **Number of accepted bounces before email address is disabled** in Settings and Maintenance.
+> If an email bounces more then 5 times, it is automatically blocked. You can adjust this setting in the global preference **Number of accepted bounces before email address is disabled** in Settings and maintenance.
 
 All blocked email addresses from all mailings are archived in the **Blocked email addresses** tab. This tab provides an excellent overview of email addresses that must be cleaned.
 

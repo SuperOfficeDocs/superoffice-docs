@@ -17,7 +17,7 @@ language: en
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-The **Stage** field in the Sale card tracks the phase of a sale, such as "Open," "Sold," or "Lost." These stages are predefined in the **Sale - Stage** list, which you can manage in **Settings and Maintenance** under **Lists**.
+The **Stage** field in the Sale card tracks the phase of a sale, such as "Open," "Sold," or "Lost." These stages are predefined in the **Sale - Stage** list, which you can manage in **Settings and maintenance** under **Lists**.
 
 Stages can be linked to [sale types][1], specifying which stages are available for each type. If no sales guide is defined, the **Stage** field is still visible on the sale, allowing users to view and update the sale's current stage.
 

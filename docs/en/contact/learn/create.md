@@ -52,7 +52,7 @@ You can add a contact to SuperOffice CRM in multiple ways:
 
 1. Go to the **Interests tab** to set interests and subscriptions:
 
-    * Check the boxes for relevant interests (defined in Settings and Maintenance).
+    * Check the boxes for relevant interests (defined in Settings and maintenance).
     * Configure **E-marketing/subscriptions** for legal consent on email campaigns.
 
 1. **Review privacy settings:**
@@ -142,7 +142,7 @@ Enter any [custom fields][12] specific to your CRM setup.
 
 * **Interests**: Select the contact's interests by checking the relevant boxes. Interests are used to create targeted selections, such as for mailings or campaigns.
 
-  * Interests are predefined in **Settings and Maintenance**.
+  * Interests are predefined in **Settings and maintenance**.
   * A dot appears next to the **Interests** tab name when one or more interests are selected.
 
 * **E-marketing/subscriptions**: Manage consent for sending email campaigns.

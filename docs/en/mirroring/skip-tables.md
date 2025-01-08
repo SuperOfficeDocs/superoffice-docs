@@ -60,7 +60,7 @@ using (PreferenceAgent prefAgent = new PreferenceAgent())
 
 ## Managing preferences
 
-If you require a UI for managing user preferences, consider creating a section that appears in SuperOffice Settings and Maintenance (Admin client).
+If you require a UI for managing user preferences, consider creating a section that appears in SuperOffice Settings and maintenance (Admin client).
 
 ![imageq9fi.png -screenshot][img1]
 

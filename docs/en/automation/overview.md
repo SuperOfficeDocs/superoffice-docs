@@ -18,7 +18,7 @@ client: win, web, service
 
 ## Terminology
 
-A trigger, as defined in Settings and Maintenance, is either a CRMScript or a macro. However, scripts and macros don't have to be triggers. Confused? Let's look at the process in general terms first.
+A trigger, as defined in Settings and maintenance, is either a CRMScript or a macro. However, scripts and macros don't have to be triggers. Confused? Let's look at the process in general terms first.
 
 1. **Event:** the thing that happens
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-project-configuration
 title: Managing project types, statuses, and guides
-description: Learn how to manage project workflows in SuperOffice CRM with project types, statuses, and guides. Configure these tools in Settings and Maintenance to standardize tracking, tasks, and documentation.
+description: Learn how to manage project workflows in SuperOffice CRM with project types, statuses, and guides. Configure these tools in Settings and maintenance to standardize tracking, tasks, and documentation.
 keywords: project guide, project status, project type, workflow, project
 author: Bergfrid Dias
 date: 01.03.2025
@@ -17,7 +17,7 @@ language: en
 
 SuperOffice CRM provides administrators with tools to standardize project workflows through **project types**, **statuses**, and **guides**. These features enable consistent project tracking, task management, and documentation across teams.
 
-Use the **Workflow** and **Lists** screens in **Settings and Maintenance** to configure and manage these components.
+Use the **Workflow** and **Lists** screens in **Settings and maintenance** to configure and manage these components.
 
 ## Key concepts and locations
 

@@ -51,13 +51,13 @@ Only users with the functional right **Can lock and unlock targets** can lock an
 
 ## Before you start
 
-Before you start using the sales targets feature, you must set up a few things in Settings and Maintenance:
+Before you start using the sales targets feature, you must set up a few things in Settings and maintenance:
 
-* By default the sales targets are divided into months, but you can change this to quarterly targets. In Settings and Maintenance, go to **Preferences** > **Global system preferences** > **Targets** to make any changes.
+* By default the sales targets are divided into months, but you can change this to quarterly targets. In Settings and maintenance, go to **Preferences** > **Global system preferences** > **Targets** to make any changes.
 
-* Locking and unlocking sales targets are only available to users with the functional right called **Can lock and unlock targets**. This can be changed in **Roles** in Settings and Maintenance.
+* Locking and unlocking sales targets are only available to users with the functional right called **Can lock and unlock targets**. This can be changed in **Roles** in Settings and maintenance.
 
-* Creating, editing and deleting sales targets requires specific data rights. This can be changed in **Roles** in Settings and Maintenance.
+* Creating, editing and deleting sales targets requires specific data rights. This can be changed in **Roles** in Settings and maintenance.
 
 > [!TIP]
 > Use the **Free-text search** field to find sales targets for specific groups and users in a specific year.

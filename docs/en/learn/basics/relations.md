@@ -72,7 +72,7 @@ To view more details or to edit, double-click a row to open the **Relation** dia
 
 * **Dropdown search:** When selecting the active and passive parties, start typing the company or contact's name to quickly search and find it.
 
-* **Relationship types:** Relationship types are defined in Settings and Maintenance. Customizing these allows you to better reflect your organization's specific needs.
+* **Relationship types:** Relationship types are defined in Settings and maintenance. Customizing these allows you to better reflect your organization's specific needs.
 
 ## Related topics
 

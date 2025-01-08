@@ -2,11 +2,12 @@
 uid: help-en-stakeholder-create
 title: Add stakeholders
 description: How to link a sale to a stakeholder (company or contact) in SuperOffice.
-keywords: sale, stakeholder
+keywords: Add stakeholder, new stakeholder Add/edit stakeholders dialog, Stakeholders section tab, stakeholder, sale
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 01.08.2025
+version: 10.5
 topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -32,7 +33,7 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
       ![Add/edit stakeholders dialog, history -screenshot][img5]
 
-    * User group: Click ![icon][img2] to browse associates by group.
+    * User group: Click <i class="ph ph-users" aria-label="Associate icon"></i> to browse associates by group.
 
       ![Add/edit stakeholders dialog, group -screenshot][img6]
 
@@ -50,11 +51,11 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
 ## Troubleshooting
 
-* **Missing section tab:** If the Stakeholders tab is not visible, ensure that this [sales type has stakeholders][4] enabled in Settings and Maintenance.
+* **Missing section tab:** If the **Stakeholders** tab is not visible, ensure that this [sales type has stakeholders][4] enabled in Settings and maintenance.
 
-* **Missing person:** If a stakeholder is not listed, you must [create the contact][3] first.
+* **Missing person:** If a stakeholder is not listed, [create the contact][3] first.
 
-* **Missing roles:** [Roles][5] are defined in Settings and Maintenance.
+* **Missing roles:** [Stakeholder roles][5] are defined in Settings and maintenance.
 
 ## Tips
 
@@ -64,18 +65,16 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
 * **Add comments**
 
-    If a comment is added, a ![icon][img1] paperclip will appear next to the **Sales Role** column in the **Stakeholders** tab. Hover over the paperclip to see the comment tooltip.
+    If a comment is added, a paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) will appear next to the **Sales role** column in the **Stakeholders** tab. Hover over the paperclip to see the comment tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
-[4]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../admin/sale-type.md
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png

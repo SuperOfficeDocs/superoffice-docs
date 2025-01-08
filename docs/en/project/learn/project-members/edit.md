@@ -36,7 +36,7 @@ You can update the **Function** and **Comments** fields for project members, or 
 
 1. Select the project members you want to remove from the list in the **Project members** section tab.
 
-1. Click **Delete** at the bottom of the section tab.
+1. Click **Remove** at the bottom of the section tab.
 
 1. In the confirmation dialog that appears, click **Yes** to confirm the removal.
 

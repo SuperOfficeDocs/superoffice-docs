@@ -17,7 +17,7 @@ language: en
 
 [!include[Must be admin](../../learn/includes/req-admin.md)]
 
-The **Sale type** field in the Sale screen categorizes sales and defines their workflows. These types are predefined in the **Sale - Type, Stages, Quote** list, which you can manage in **Settings and Maintenance** under **Lists**.
+The **Sale type** field in the Sale screen categorizes sales and defines their workflows. These types are predefined in the **Sale - Type, Stages, Quote** list, which you can manage in **Settings and maintenance** under **Lists**.
 
 Each sale must have a type, and these types can be linked to specific [stages][1] and, optionally, to [sales guides][4]. Sales guides streamline the process by guiding sales staff through predefined stages, follow-ups, and documents.
 

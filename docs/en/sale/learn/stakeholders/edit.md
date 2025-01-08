@@ -2,11 +2,12 @@
 uid: help-en-sale-stakeholder-edit
 title: Edit or remove stakeholders
 description: How to edit or remove stakeholders in a sale in SuperOffice.
-keywords: sale, stakeholder
+keywords: update stakeholder, edit stakeholder, remove stakeholder, Add/edit stakeholders dialog, Stakeholders section tab, stakeholder, sale
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 01.08.2025
+version: 10.5
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -20,9 +21,9 @@ You can update the **sales role** and **comment** fields for stakeholders, or re
 
 1. Open the sale (see [Use the Find screen][1]) and go to the **Stakeholders** section tab.
 
-1. Select one or more stakeholders from the list and click **Edit** at the bottom of the section tab. This will open the **Add/edit stakeholder** dialog.
+1. Select one or more stakeholders from the list and click **Edit** at the bottom of the section tab. This will open the **Add/edit stakeholders** dialog.
 
-1. In the **Add/edit stakeholder** dialog, select the stakeholders you want to edit.
+1. In the **Add/edit stakeholders** dialog, select the stakeholders you want to edit.
 
 1. Make changes:
 

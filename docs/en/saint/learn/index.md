@@ -41,7 +41,7 @@ By using SAINT, Bridgecom can proactively search for all customers with no open 
 
 With this overview, Bridgecom can decide how they wish to follow up on their customers to improve the relationships and to drive up sales.
 
-![Selection of neglected customers in Settings and Maintenance -screenshot][img1]
+![Selection of neglected customers in Settings and maintenance -screenshot][img1]
 
 With SuperOffice SAINT you can analyze your database to get an overview of customers, sales, requests, and documents. This can be done in the form of charts and reports. Then, the people responsible for the situation that you analyzed with SAINT can take action to improve the existing situation.
 

@@ -2,7 +2,7 @@
 uid: help-en-project-member-add
 title: Add project members
 description: How to add a project member in SuperOffice
-keywords: Add project member, new project member, Add/edit project members dialog, project member, project
+keywords: add project member, new project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
 date: 01.06.2025
 version: 10.3.12
@@ -73,7 +73,7 @@ You can add project members and stakeholders from the contact lists in different
 
 * **Missing person:** If a person is not listed, [create the contact][3] first.
 
-* **Missing roles:** Available [functions][5] are defined in Settings and Maintenance.
+* **Missing roles:** Available [functions][5] are defined in Settings and maintenance.
 
 ## Tips
 
