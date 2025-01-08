@@ -51,7 +51,7 @@ A company/contact can be added as a stakeholder multiple times, provided differe
 
 ## Troubleshooting
 
-* **Missing section tab:** If the **Stakeholders** tab is not visible, ensure that this [sales type has stakeholders][4] enabled in Settings and maintenance.
+* **Missing section tab:** If the **Stakeholders** tab is not visible, ensure that this [sale type has stakeholders][4] enabled in Settings and maintenance.
 
 * **Missing person:** If a stakeholder is not listed, [create the contact][3] first.
 

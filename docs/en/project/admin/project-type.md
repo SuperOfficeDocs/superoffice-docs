@@ -65,7 +65,7 @@ Each project must have a type, and these types can be linked to specific [status
 1. To delete:
    * Select the project type in the list and click **Delete**.
 
-    > [!WARNING]
+    > [!CAUTION]
     > Deleting a project type also removes its link to statuses and project guides. Ensure it is not in active use before proceeding.
 
 ## <a id="restore"></a>Restore a deleted project type

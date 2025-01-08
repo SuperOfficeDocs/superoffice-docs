@@ -51,7 +51,7 @@ To remove a project guide from a [project type][4], follow these steps:
 > If you later want to reuse the project guide, recheck the option. Any follow-ups and documents previously added to the project guide's statuses will be automatically retrieved when reactivated. You can also add new follow-ups or documents, or remove any that are no longer relevant.
 
 <!-- Referenced links -->
-[1]: create.md#add-doc-status
-[2]: create.md#add-fo-status
+[1]: create-project-guide.md#add-doc-status
+[2]: create-project-guide.md#add-fo-status
 [3]: project-status.md
 [4]: project-type.md

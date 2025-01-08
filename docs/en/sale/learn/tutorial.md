@@ -1,15 +1,19 @@
 ---
 uid: help-en-working-with-sales-guide
-title: Working with sales guide
+title: Example - sales guide
 description: Working with sales guide
+keywords: sales guide, example
 author: SuperOffice RnD
-date: 02.16.2023
-keywords: sale
+date: 01.07.2025
+version: 10.5
 topic: howto
+license: salespremium
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Example
+# Example - sales guide
 
 Keep in mind that your sales guides may be configured differently in Settings and maintenance.
 
@@ -111,7 +115,7 @@ You can now change the stage to **Sold**. After all the required follow-ups and 
 > [!TIP]
 > If you want the sale to remain visible in, for example, the **Activities** section tab in the Sale screen and the **Sales** section tab in the Diary screen, you must not set the sale to completed.
 
-## Related
+## Related content
 
 * [Set up a sales guide in Settings and maintenance][4]
 

@@ -15,7 +15,7 @@ language: en
 
 # Stakeholders
 
-![icon][img1]
+![Stakeholders section tab on a sale -screenshot][img1]
 
 A sale has a main contact, but partners and subcontractors may also be involved in the sale. These are referred to as stakeholders and can be entered in the **Stakeholders** section tab at the bottom of the Sale screen. Stakeholders can include individuals as well as organizations.
 
@@ -30,7 +30,7 @@ For each stakeholder, their role in the sale is shown. These sales roles are def
 
 You must also set the **Enable Stakeholders** preference in the **Sale** preference group.
 
-## What would you like to do now?
+## Related content
 
 * [Create stakeholders][1]
 * [Add stakeholders from section tabs][2]

@@ -52,7 +52,7 @@ The lower part of the Sale screen consists of section tabs.
 * [Stakeholders][15] (requires Sales Premium)
 * [Quote][17] (requires Sales Premium)
 
-[Sales guides][3] are only shown for specific sales types (defined in Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
+[Sales guides][3] are only shown for specific sale types (defined in Settings and maintenance). If you select a sale type for which a sales guide is defined, the **Sales guide** section tab is displayed.
 
 [!include[Add more section tabs](../../learn/includes/more-tab.md)]
 
@@ -64,7 +64,7 @@ In the **Stage** field on the **Sale** tab, you can:
 * **Mark a sale as Stalled**: Puts the sales process on hold. Additional fields like **Re-open date** and **Reason (stalled)** become available.
 
 | Icon | Meaning |
-|---|---|
+|:-:|---|
 | <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Open |
 | <i class="ph ph-check" aria-label="Check icon"></i> | Sold |
 | <i class="ph ph-x" aria-label="X icon"></i> | Lost |
@@ -74,7 +74,7 @@ In the **Stage** field on the **Sale** tab, you can:
 
 Keep your sales organized so that you are always focused on the sales that matter the most to you.
 
-After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your Diary. You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are: sales amount, sales date and sales stage.
+After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your Diary. You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are sales amount, sales date and sale stage.
 
 The **Sales** tab also acts like a sales secretary by highlighting all your upcoming planned activities in the **Next Activity** field, as well as drawing your attention to those that you may have forgotten in red font.
 

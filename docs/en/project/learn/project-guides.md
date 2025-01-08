@@ -163,14 +163,12 @@ You can manually move the project to the next status if needed, without completi
 
 * [Introduction to projects][2]
 * [Create a project][4]
-* [Edit a project guide][5]
-* [Deactivate project guide][6]
+* [Edit or deactivate a project guide][5]
 
 <!-- Referenced links -->
 [2]: index.md
 [4]: create.md
 [5]: edit.md
-[6]: deactivate.md
 [7]: ../../diary/learn/create-follow-up.md
 [8]: ../../document/learn/edit.md
 

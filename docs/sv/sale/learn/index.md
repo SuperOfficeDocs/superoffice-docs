@@ -122,7 +122,7 @@ Den nedre delen av försäljningsskärmen består av detaljkort.
 [9]: stages.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
-[18]: ../../learn/basics/links.mdf
+[18]: ../../learn/basics/links.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 

@@ -84,8 +84,6 @@ In the **Quote attachments** tab, you can add documents to be sent to the custom
 
 When creating a quote with this sale type, the selected documents are attached to the quote. However, they will not appear in the **Activities** section tab for the sale.
 
-***
-
 ### [Quote defaults tab](#tab/quote-defaults)
 
 In the **Quote defaults** tab, configure the following:
@@ -94,8 +92,6 @@ In the **Quote defaults** tab, configure the following:
 * **Default days a quote is valid:** Set the number of days a quote remains valid. This value can be adjusted when the quote is sent.
 * **Quote format template:** Select the template to use for the quote.
 * **Order confirmation template:** Select the template to use for order confirmations.
-
-***
 
 ### [Quote approval tab](#tab/quote-approval)
 
@@ -119,10 +115,10 @@ In the **Quote approval** tab, specify if approval is required for quotes under 
 1. To delete:
    * Select the sale type in the list and click **Delete**.
 
-    > [!WARNING]
+    > [!CAUTION]
     > Deleting a sale type also removes its link to stages and sales guides. Ensure it is not in active use before proceeding.
 
-## Restore a deleted sale type
+## <a id="restore"></a>Restore a deleted sale type
 
 If a sale type has been deleted, you can restore it from the **Sale - Type, Stages, Quote** list. However, restoring does not automatically reestablish any links between the restored item and related sale stages or guides. You must recreate these connections manually if needed.
 

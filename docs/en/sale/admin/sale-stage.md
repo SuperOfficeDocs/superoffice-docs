@@ -52,7 +52,7 @@ Stages can be linked to [sale types][1], specifying which stages are available f
 1. To delete:
    1. Select the stage in the list and click **Delete**.
 
-    > [!WARNING]
+    > [!CAUTION]
     > Deleting a stage removes it from all linked sale types and sales guides. Ensure it is not in active use before proceeding.
 
 ## Restore a deleted sale stage
@@ -73,4 +73,4 @@ The steps are similar to [restoring a deleted sale type][2].
 [2]: sale-type.md#restore
 [3]: create-sales-guide.md
 [4]: edit-sales-guide.md
-[5]: ../learn/sales-guides.md#stages
+[5]: ../learn/sales-guides.md#change-stage

@@ -48,7 +48,7 @@ Statuses can be linked to [project types][1], specifying which statuses are avai
 1. To delete:
    1. Select the status in the list and click **Delete**.
 
-    > [!WARNING]
+    > [!CAUTION]
     > Deleting a status removes it from all linked project types and project guides. Ensure it is not in active use before proceeding.
 
 ## Restore a deleted project status

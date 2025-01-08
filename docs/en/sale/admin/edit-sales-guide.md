@@ -46,7 +46,7 @@ To remove a sales guide from a [sale type][5], follow these steps:
 > If you later want to reuse the sales guide, recheck the option. Any follow-ups and documents previously added to the sales guide's stages will be automatically retrieved when reactivated. You can also add new follow-ups or documents, or remove any that are no longer relevant.
 
 <!-- Referenced links -->
-[1]: create.md#add-fo-stage
-[2]: create.md#add-doc-stage
+[1]: create-sales-guide.md#add-fo-stage
+[2]: create-sales-guide.md#add-doc-stage
 [3]: sale-stage.md
 [5]: sale-type.md

@@ -83,7 +83,7 @@ The **Sales guide** section tab provides a visual and functional overview of the
 
     ![Sales guide stages -screenshot][img2]
 
-  * **Current stage:** Highlighted with a filled circle (<i class="ph ph-circle-fill" aria-hidden="true"></i>).
+  * **Current stage:** Highlighted with a filled circle (<i class="ph ph-fill ph-circle" aria-hidden="true"></i>).
   * **Future stages:** Marked with an open circle (<i class="ph ph-circle" aria-hidden="true"></i>).
   * **Completed stages:** Marked with a check (<i class="ph ph-check" aria-hidden="true"></i>).
 

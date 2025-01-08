@@ -77,8 +77,6 @@ The following fields are available in the Sale card. Some fields are filled auto
 
 [!include[3 udef](../../learn/includes/more-udef.md)]
 
-***
-
 ### [Details tab](#tab/details)
 
 The **Details** tab focuses on financial details of the sale.

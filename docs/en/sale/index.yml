@@ -66,7 +66,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Create
-          url: admin/create/create-sales-guide.md
+          url: admin/create-sales-guide.md
       - itemType: video_library
         typeDesc: video
         links:
