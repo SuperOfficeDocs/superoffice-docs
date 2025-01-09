@@ -220,7 +220,7 @@ conceptualContent:
       - text: The Diary screen
         itemType: library_books
         typeDesc: reference
-        url: ../diary/learn/screen/index.md
+        url: ../diary/learn/index.md
 
     # Card
     - title: Document

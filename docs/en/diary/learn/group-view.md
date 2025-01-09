@@ -91,6 +91,19 @@ You can change only group views created by you. In a predefined group view, the 
 
 To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
 
+## New stuff?
+
+The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) is available on the **View** tab.
+
+**Options:**
+
+* Select **Edit** to edit an existing view. Predefined views cannot be edited.
+* Select **New group view** to create a new group view.
+* Select **Copy** to make a copy of the group view you opened.
+* Select **Delete group view** to delete the group view you opened.
+* Select **Invite participants** to link contacts to a follow-up.
+* Select **Help** to open this user guide.
+
 ## Related content
 
 * [Create follow-up for associate][4]

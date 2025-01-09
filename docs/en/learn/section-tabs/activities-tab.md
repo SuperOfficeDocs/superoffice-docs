@@ -104,7 +104,7 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 

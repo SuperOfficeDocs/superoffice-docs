@@ -125,7 +125,7 @@ Administrators can define custom views for the side panel in **Settings and main
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[4]: ../../../diary/learn/screen/index.md
+[4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
 [8]: ../../basics/fav.md

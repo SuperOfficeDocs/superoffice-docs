@@ -3,37 +3,29 @@ items:
   href: index.md
 - name: Appointment, task, phone call
   href: follow-ups.md
-- name: Calendar views
-  topicHref: screen/index.md
-  items:
-  - name: Day, week, month
-    href: screen/index.md
-  - name: Group view
-    href: group-view.md
-  - name: View other diaries
-    href: other-diaries.md
-- name: Work with follow-ups
-  topicHref: create-follow-up.md
-  items:
-  - name: Video meetings
-    href: video-meetings.md
-  - name: Add follow-up (appointment, task, phone call)
-    href: create-follow-up.md
-  - name: Edit or delete follow-up
-    href: edit-follow-up.md
-  - name: Move follow-up
-    href: move-follow-up.md
-  - name: Complete follow-up
-    href: change-completed-status.md
-  - name: Recurrence
-    href: recurrence/toc.yml
-  - name: Assign follow-up (delegate)
-    href: follow-up-assign.md
-  - name: Sett alarm for follow-up
-    href: set-alarm.md
-  - name: Send a follow-up as an email
-    href: send-as-email.md
-
+- name: Video meetings
+  href: video-meetings.md
+- name: Add follow-up (appointment, task, phone call)
+  href: create-follow-up.md
+- name: Edit or delete follow-up
+  href: edit-follow-up.md
+- name: Move follow-up
+  href: move-follow-up.md
+- name: Complete follow-up
+  href: change-completed-status.md
+- name: View other diaries
+  href: other-diaries.md
+- name: Group view
+  href: group-view.md
+- name: Assign follow-up (delegate)
+  href: follow-up-assign.md
+- name: Sett alarm for follow-up
+  href: set-alarm.md
+- name: Send a follow-up as an email
+  href: send-as-email.md
+- name: Recurrence
+  href: recurrence/toc.yml
+  topicHref: recurrence/index.md
 - name: Invitations
   href: invitation/toc.yml
   topicHref: invitation/index.md

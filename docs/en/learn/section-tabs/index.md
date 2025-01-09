@@ -64,7 +64,7 @@ To reduce the loading time, only a specified number of records are displayed whe
 [7]: export-archives.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 [14]: ../../search-options/selection/learn/screen/index.md
