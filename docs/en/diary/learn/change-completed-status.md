@@ -2,19 +2,22 @@
 uid: help-en-activity-completed
 title: Change Completed status of an activity
 description: Change Completed status of an activity
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, completed
+keywords: mark as completed, completed status, diary, follow-up, completed, done
+author: Bergfrid Dias
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Change Completed status of an activity
 
-When you consider that an activity is finished, you can mark it as completed.
+When you consider that an [activity][1] is finished, you can mark it as completed.
 
-**Completed** is a toggle option, which you activate and deactivate using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
+**Completed** is a toggle option, which you activate and deactivate using the same menu option or shortcut key. A tick (<i class="ph ph-check" aria-label="Completed follow-up"></i>) specifies that the activity is **Completed**.
 
 ## Steps
 
@@ -32,6 +35,7 @@ When you consider that an activity is finished, you can mark it as completed.
 > To edit a completed activity, you must first uncheck the **Completed** status.
 
 <!-- Referenced links -->
+[1]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->
 [img4]: ../../../media/loc/en/diary/completed.png

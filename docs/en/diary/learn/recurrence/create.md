@@ -20,7 +20,7 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 
 1. [Open or create a follow-up][2].
 
-1. Click <i class="ph ph-arrow-clockwise" aria-label="Repeat"></i> and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
+1. Click <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
 
     ![Follow-up dialog, suggested recurrence -screenshot][img8]
 

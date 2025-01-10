@@ -7,6 +7,7 @@ author: Bergfrid Dias
 date: 01.09.2025
 version: 10.5
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -149,11 +150,25 @@ You can customize the Diary to suit your workflow:
 
 1. Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 
-1. Adjust settings such as:
+1. Select **Default values** and adjust settings such as:
+    * Duration and type for new meetings.
+    * Title for new to-dos.
+    * The maximum number of follow-ups to show in **Day** view.
+
+1. Select **Diary** and adjust settings such as:
     * Default alarm times
     * Start and end times for all-day events
     * First day of the week (Sunday or Monday)
     * Whether to display the activities list below the Diary or as a tab
+
+1. Select **Functions** and adjust settings such as:
+    * Show week numbers in calendars.
+    * The number of days ahead to show items in the **Activities** and **Sales** section tabs.
+    * Mark overdue activities.
+
+1. Select **Visual effects** and adjust settings such as:
+    * Remove completed activities.
+    * Tooltips.
 
 1. Click **Save** to apply your changes.
 

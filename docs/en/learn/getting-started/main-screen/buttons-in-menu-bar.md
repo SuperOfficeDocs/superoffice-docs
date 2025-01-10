@@ -22,12 +22,12 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 |:-:|---|---|
 | **New** | **New** | Create new records, such as companies, contacts, sales, projects, selections, follow-ups, documents, and requests. |
 | <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> | [**Find**][5] | Search for records, such as companies, contacts, sales, and documents (Not available in Service and Settings and maintenance). |
+| <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | [**Search**][10] | Use the **Free-text search** field to find data across the system. |
 | <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Notifications**][9] | View new notifications, such as invitations, assigned requests, and approved sales. Click a notification to open the associated record. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Personal settings** | Edit preferences, email signatures, and passwords. Displays your profile image if added to your contact card. |
 | <i class="ph ph-list" aria-label="Main menu"></i> | **Main menu** | Access general system settings, switch between modules, or launch other applications. |
 | <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-app Resource Centre** | Open guided tours, user guide, and inspiration resources (online only). |
 | **Help** | **Help** | Access user guides and information tailored to the current task or module. |
-| <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | [**Search**][10] | Use the **Free-text search** field to find data across the system. |
 
 ## Personal settings menu options
 

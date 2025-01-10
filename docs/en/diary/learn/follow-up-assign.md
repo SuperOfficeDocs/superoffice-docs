@@ -2,11 +2,14 @@
 uid: help-en-follow-up-assign
 title: Assign a follow-up
 description: Assign a follow-up to someone else
+keywords: assign follow-up, delegate follow-up, diary, follow-up, assign, delegate
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, assign, delegate
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

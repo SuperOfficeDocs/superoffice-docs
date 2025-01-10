@@ -30,7 +30,7 @@ These are the different activity notifications:
 
 * **New meeting**: Respond by clicking **Accept** or **Decline**. Once you have responded, the invitation will disappear from notifications panel.
 
-* **New recurring meeting**: If the invitation is for a recurring event, <i class="ph ph-arrow-clockwise" aria-label="Recurrence icon"></i> is shown below the link.
+* **New recurring meeting**: If the invitation is for a recurring event, <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> is shown below the link.
 
 * **Meeting has changed**: If the time or date of a meeting you have already accepted changes, you will receive a new notification letting you know what has changed and requiring you accept or decline it.
 

@@ -2,11 +2,14 @@
 uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - meeting, to-do, call
+keywords: follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant, diary
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, attendee, participant
+date: 01.10.2025
+version: 10.5
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -20,20 +23,23 @@ Open an existing follow-up by double-clicking it in the Diary or the **Activitie
 
 | Icon | Property | Description |
 |:-:|---|---|
-| <i class="ph ph-user-circle" aria-label="Contact"></i> | Owner | Who the follow-up belongs to. The original creator or the associate that the follow-up was assigned/delegated to. |
+| <i class="ph ph-user" aria-label="User"></i> | Owner | Who the follow-up belongs to. The original creator or the associate that the follow-up was assigned/delegated to. |
 | <i class="ph ph-text-align-left" aria-label="Align left"></i> | Title | A descriptive label. Additional details go in the agenda. |
 | (a colored dot) | Type | A pre-defined list of activities such as Meeting (external) and Phone-In. |
 | <i class="ph ph-buildings" aria-label="Company"></i>, <i class="ph ph-user-circle" aria-label="Contact"></i> | Company / contact | Who the follow-up concerns. |
 | <i class="ph ph-clock" aria-label="Clock"></i> | Time and date | When the follow-up starts or is due. |
-| <i class="ph ph-arrow-clockwise" aria-label="Recurrence"></i> | Recurrence | If and how the follow-up repeats. |
+| <i class="ph ph-arrows-clockwise" aria-label="Recurrence"></i> | Recurrence | If and how the follow-up repeats. |
 | (no icon) | Availability | Free/busy. Affects conflict handling. |
-| <i class="ph ph-alarm" aria-label="Alarm"></i> | Alarm | If and when to notify the person. |
+| <i class="ph ph-bell" aria-label="Bell"></i> | Alarm | If and when to notify the person. |
 | <i class="ph ph-currency-circle-dollar" aria-label="Sale"></i> | Sale | A sale linked to the follow-up. |
 | <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Project | A project linked to the follow-up. |
+| <i class="ph ph-users" aria-label="Users"></i> | Attendees | A project linked to the follow-up. |
+| <i class="ph ph-chair" aria-label="Clipboard"></i> | Resource | Meeting rooms, locations, or resources. |
+| <i class="ph ph-map-pin" aria-label="Clipboard"></i> | Location | The location or address where the meeting takes place. |
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **New** on the top bar and then select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
+No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **New** on the top bar and then select **Meeting**, **To-do**, or **Follow-up**.
 
 > [!NOTE]
 > Follow-ups created from the Diary screen are by default meetings. However, you can change the type before you save.
@@ -90,8 +96,8 @@ The default duration is 1 hour for a meeting and 15 minutes for a call. To chang
 1. Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** and select **Preferences**.
 1. Select **Default values**.
 1. Enter a value for one or both of these values and click **Save**.
-    * **Duration for new appointment**
-    * **Duration of a new phone call**
+    * **Duration for new meeting**
+    * **Duration of a new follow-up**
 
 ## <a id="more-tab"></a>The More tab
 

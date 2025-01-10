@@ -25,7 +25,7 @@ The default templates contain template variables that are replaced with data fro
 
 ## Steps
 
-1. Click the **Personal settings** button in the top bar.
+1. Click the **Personal settings** button  (<i class="ph ph-user-circle" aria-hidden="true"></i>) in the top bar.
 
 2. Select **Edit personal signature**.
 

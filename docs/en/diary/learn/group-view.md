@@ -2,111 +2,126 @@
 uid: help-en-diary-group-view
 title: Group view
 description: The Group view; How to creating diary views; The New group view dialog
+keywords: add group view, new group view, edit group view, View tab, diary, follow-up, group view
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, group view
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Group view
 
-You can choose users and resources whose diaries you want to see and save the views in the **View** list box with a name of your choosing.
+The **Group view** in the Diary allows you to view and manage multiple users' or resources' schedules in a single calendar view. Use group views to streamline planning, check availability, and create follow-ups directly for team members or resources.
 
 ## View multiple diaries
 
-1. Click the **View** tab in the Diary screen.
+1. Go to the **View** tab in the Diary screen.
 
-2. Click the **Show** list box at the bottom of the Diary screen. This brings up a list of all the groups and resources that are set up in your organization.
+1. Select a group from the list (<i class="ph ph-caret-down" aria-label="Dropdown icon"></i>).
 
-3. Select the required group from the list. The **View** tab now contains the diaries of all the users and resources in the selected user group.
+   * Predefined groups are based on your organization's setup and include user groups or resources, such as departments or conference rooms.
 
-## Create a group view
+1. The selected group's diaries will be displayed in the **View** tab, where you can check schedules or plan follow-ups.
 
-1. Click the **View** tab in the Diary screen.
+## Create a new group view
+
+1. Go to the **View** tab in the Diary screen.
 
 1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **New group view**.
 
-    > [!NOTE]
-    > To change an existing view, select **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
+    Alternatively, select **Copy** to base the new view on an existing one.
 
-1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
+1. In the **New group view** dialog, enter a **Name** and an optional **Description** for your group view.
 
-1. Choose to view the diary for **Associates**, **Project**, or **Resource** in the **Select from** field. The contents of the list box immediately below the **Select from** field vary depending on what you chose.
+    ![New group view dialog in the Diary screen -screenshot][img1]
 
-1. Select the users/resources you require and click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
+1. Choose who and which resources to include in the group view. You have several options:
 
-1. The pane on the right displays all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click **Delete**.
+    * **Associates:** Select a user from your organization, then click <i class="ph ph-caret-circle-right" aria-label="Arrow right"></i> to add them to the view. You can filter the list by user group to find people more easily.
 
-1. The selected users and resources will be displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to move it up or down.
+    * **Project:** Choose a project, select a project member, then click <i class="ph ph-caret-circle-right" aria-label="Arrow right"></i> to add them to the view.
 
-1. Click **Save** after selecting users and resources, or click **Cancel** to close the dialog without saving. You are returned to the **View** tab, where you can create appointments for associates, and so forth.
+    * **Resource:** Select a resource, such as a meeting room or equipment, then click <i class="ph ph-caret-circle-right" aria-label="Arrow right"></i> to add it to the view.
+
+    > [!TIP]
+    > Click **Select all** to select everyone in the list and add them to the view in one action.
+
+1. Rearrange the group order if needed: Select a person or resource, then use <i class="ph ph-caret-circle-up" aria-label="Move up"></i> and <i class="ph ph-caret-circle-down" aria-label="Move down"></i> to adjust their position. This order determines how they are displayed in the **View** tab.
+
+1. Click **Save** to finalize the group view or **Cancel** to discard changes.
 
 > [!TIP]
-> To delete the active group view, click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Delete group view**.
+> Use the **Task** menu to manage existing views. You can **Copy** pre-defined groups and **Edit** or **Delete** groups that you created.
 
-## <a id="fields"></a>Fields
+## Which diaries can I include?
 
-### Name
+When creating a group view, you can include any combination of associates, resources, or project members:
 
-The name of the view you are editing. You can change the view's name.
+* **Associates:** Add team members or colleagues to monitor their schedules.
+* **Project members:** Add members of a specific project to focus on team availability.
+* **Resources:** Include shared resources like meeting rooms or equipment. The resource list is defined in Settings and maintenance.
 
-### Description
+## Options in the Task menu <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
-Here you can enter a description of the view.
+The **Task** menu provides the following options for managing group views:
 
-### Select from
+| Option | Description |
+|---|---|
+| Edit | Modify a group view you created. Predefined group views cannot be edited. |
+| New group view | Create a new custom group view. |
+| Copy | Duplicate an existing group view. |
+| Delete group view | Remove a group view that you created. |
+| Invite participants | Add attendees to a follow-up directly from the group view.|
+| Help | Access the user guide (this page). |
 
-* Select **Associates** to add users from your organization to the view.
-* Select **Project** to add project participants from your organization to the view.
-* Select **Resource** to add resources such as conference rooms and projectors from your organization to the view.
+## Edit group view
 
-### List box
+You can edit group views that you have created. Predefined group views cannot be changed. Follow these steps to update a group view:
 
-When you select an option for **Select from**, a list box is displayed below. The contents of this list box will vary depending on what you selected above:
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Edit**.
 
-* If you selected **Associates**, a list of user groups in your organization is displayed. You can also select **All** to display all the users in the organization.
+1. In the **Edit group view** dialog:
 
-* If you selected **Project**, the history list of projects is displayed. You can also start typing to search for a project name.
+    * To add persons or resources: Select them from the list and click <i class="ph ph-caret-circle-right" aria-label="Arrow right"></i>.
 
-* If you selected **Resource**, a list of resources in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
+    * To remove users or resources: Select them from the right pane and click <i class="ph ph-caret-circle-left" aria-label="Arrow left"></i>.
 
-### Left pane
+    * To rearrange the order: Select an item and use <i class="ph ph-caret-circle-up" aria-label="Move up"></i> and <i class="ph ph-caret-circle-down" aria-label="Move down"></i>.
 
-Here you will see a list of available users and/or resources that can be added to the group view. Select the users/resources you require and click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to add them to the pane on the right.
+1. Click **Save** to apply your changes, or click **Cancel** to discard them.
 
-> [!NOTE]
-> You can also select users and resources individually by double-clicking them.
+### <a id="troubleshoot"></a>Why is the Edit option unavailable?
 
-Click **Select all** (<i class="ph ph-check-circle" aria-hidden="true"></i>) to select all the users/resources in the list above. Click **Unselect all** (<i class="ph ph-minus-circle" aria-hidden="true"></i>) to unselect all the users and resources.
+You can only edit group views that you have created. Predefined group views, such as those created by administrators or defined in **Settings and maintenance**, cannot be modified. To make changes:
 
-### Right pane
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) and select **Copy**.
 
-Displayed here are all the users and resources you added to the group view. To remove a user or a resource from this list, select it and click <i class="ph ph-arrow-circle-left" aria-label="Arrow left"></i>. The users and resources you have chosen are displayed in the group view in the same order as in the pane on the right. To change this order, select a user or resource and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to move it up or down.
+1. Save the new group view under a different name.
 
-## <a id="troubleshoot"></a>Why is the Edit option greyed out?
+1. Edit the copied group view as needed.
 
-You can change only group views created by you. In a predefined group view, the **Edit** option is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
+## Delete group view
 
-To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
+You can delete group views that you have created. Predefined group views cannot be removed.
 
-## New stuff?
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) in the **View tab**.
 
-The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) is available on the **View** tab.
+1. Select **Delete group view** from the menu.
 
-**Options:**
-
-* Select **Edit** to edit an existing view. Predefined views cannot be edited.
-* Select **New group view** to create a new group view.
-* Select **Copy** to make a copy of the group view you opened.
-* Select **Delete group view** to delete the group view you opened.
-* Select **Invite participants** to link contacts to a follow-up.
-* Select **Help** to open this user guide.
+1. Confirm the deletion in the dialog by choosing **Yes**.
 
 ## Related content
 
+* [Learn about the View tab][2]
 * [Create follow-up for associate][4]
 
 <!-- Referenced links -->
+[2]: index.md#tab/view
 [4]: create-follow-up.md#associate
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/new-group-view.png

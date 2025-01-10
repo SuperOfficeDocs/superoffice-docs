@@ -2,11 +2,14 @@
 uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
+keywords: add follow-up, new follow-up, book meeting, schedule meeting, add to-do, add call, follow-up, appointment, meeting, task, to-do, call, phone, diary
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -18,17 +21,17 @@ Creating follow-ups and scheduling all meetings and activities in your SuperOffi
 
 There are many ways to create a follow-up. This method works from anywhere in SuperOffice CRM and for all types of follow-ups.
 
-1. Click **New** on the top bar and select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
+1. Click **New** on the top bar and select **Meeting**, **To-do**, or **Follow-up**.
 
 2. [Enter the required information in the fields.](#fields)
 
-    Some information is inserted automatically based on the context, for example, Today's date.
+    Some information is inserted automatically based on the context, for example, today's date.
 
 3. Click the **Save** button.
 
 **Other options:**
 
-| Starting point | Meeting (appointment) | Follow-up (call) | To-do (task) |
+| Starting point | Meeting | Follow-up | To-do  |
 |---|---|---|---|
 | Activities section tab | x | x | x |
 | Task button on a contact | x | x | |

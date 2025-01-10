@@ -2,15 +2,18 @@
 uid: help-en-follow-up-alarms
 title: Set alarm for follow-up
 description: How to sett an alarm for a follow-up in SuperOffice.
+keywords: set alarm, no alarm, follow-up, meeting, alarm, notification, reminder, alert, diary
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, meeting, alarm, notification, reminder, alert
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Set alarm for follow-up
+# Set alarm for follow-up <i class="ph ph-bell" aria-hidden="true"></i>
 
 SuperOffice CRM can remind you before your meeting starts. At the set lead time, a system notification will appear on your device.
 

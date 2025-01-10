@@ -15,7 +15,7 @@ language: en
 
 In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **[Global preferences][1]** tab.
 
-Users can edit the settings of [individual preferences][4] to customize them for their own use by going to **Personal settings** > **Preferences** in the Top bar. The preferences available to the user depend on what is specified in Settings and maintenance.
+Users can edit the settings of [individual preferences][4] to customize them for their own use by going to **Personal settings** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferences** in the Top bar. The preferences available to the user depend on what is specified in Settings and maintenance.
 
 In addition, you can configure video meetings in the [Video meetings][8] tab and document library in the [Document library][9] tab.
 

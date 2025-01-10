@@ -1,36 +1,61 @@
 ---
 uid: help-en-diary-other
 title: View another diary
-description: View other's diary.
+description: You can switch to another user's or resource's diary to check their availability, schedule follow-ups, or manage their to-dos.
+keywords: diary owner, switch diary owner, view another diary, view a resource's diary, diary, follow-up, resource, owner
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, resource, owner
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # View another diary
 
-If you click on the name of a user or resource, this user or resource becomes the owner of the diary, and you are taken directly to the **Day** tab of this user or resource. To return to your own diary, select your name from the diary owner list.
+You can switch to another user's or resource's diary to check their availability, schedule follow-ups, or manage their to-dos.
 
-1. Click your name in any tab in the Diary screen. A list box is displayed containing other resources, user groups and users who are connected to the network. This is called the *diary owner list*.
+## Which diary am I in?
+
+When viewing a diary, the owner is indicated in the upper-right corner of the calendar. You can also identify whether you are viewing your own diary, another user's diary, or a resource's diary based on the following visual cues:
+
+* **Your own diary:** Displays your name with a light gray border and the <i class="ph ph-user" aria-label="User icon"></i> symbol in green.
+
+* **Another user's diary:** Displays the user's name with a red border and the <i class="ph ph-user" aria-label="User icon"></i> symbol in blue.
+
+* **A resource's diary:** Displays the resource's name with a blue border and the <i class="ph ph-chair" aria-label="Resource icon"></i> symbol.
+
+These indicators make it easy to confirm whose diary you are currently managing or viewing.
+
+## Change diary owner
+
+1. Click your name in the upper-right corner of the Diary screen. A list of users, user groups, and resources connected to the system is displayed. This is called the *diary owner list*.
 
     > [!TIP]
-    > Using FastSearcher, you can search for users by name or user ID.
+    > Start typing to quickly find users by name or user ID.
 
-2. Select a resource or user directly, or click a user group (<i class="ph ph-caret-right" aria-label="Chevron"></i>). You can then select from a list of all people linked to this group of SuperOffice CRM users.
+1. Select a resource or user directly from the list, or click a user group (<i class="ph ph-caret-right" aria-label="Chevron"></i>) to view all users in that group.
 
-3. The diary of the other user or resource opens and their name (not your own) is displayed at the upper right of the Diary screen. The activities list of the other user or resource is also displayed.
+    ![Change owner in the Diary header -screenshot][img1]
 
-> [!NOTE]
-> Other users are displayed with <i class="ph ph-user-circle" aria-label="Contact icon"></i> and red underlining. Resources are displayed with <i class="ph ph-chair" aria-label="Chair"></i> and blue underlining.
+1. The Diary updates to show the selected user's or resource's calendar and activities list. Their name is displayed in the upper-right corner.
 
-When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can [create follow-ups][2] in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights.
+    You can use all the standard tabs (Day, Week, Month, or View) and create follow-ups in their calendar by selecting time slots, provided you have the necessary access rights.
 
-## What would you like to do now?
+1. To return to your own diary, click your name from the diary owner list.
+
+## Related content
 
 * [Create meeting][2]
+* [Assign follow-up][1]
+* [Group view - view multiple diaries][3]
 
 <!-- Referenced links -->
+[1]: follow-up-assign.md
 [2]: create-follow-up.md#associate
+[3]: group-view.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png
