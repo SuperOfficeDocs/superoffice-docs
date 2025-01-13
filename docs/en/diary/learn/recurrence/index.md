@@ -2,15 +2,18 @@
 uid: help-en-recurrence
 title: Recurring follow-ups
 description: Recurring follow-ups
+keywords: repeating follow-up, repeat, recur, frequency, pattern, every workday, monthly, daily, diary, follow-up
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, repeat, recur, frequency, pattern
+date: 01.13.2025
+version: 10.5
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Repeating follow-ups
+# Repeating follow-ups <i class="ph ph-arrows-clockwise" aria-hidden="true"></i>
 
 It may happen that you want to create a series of follow-ups to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
 

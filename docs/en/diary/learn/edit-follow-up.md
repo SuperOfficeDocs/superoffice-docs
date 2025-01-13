@@ -79,7 +79,7 @@ If you change the start time for a single meeting, the rule is not affected. The
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Related topics
+## Related content
 
 * [Change Completed status of an activity][2]
 * [Stop repeating follow-ups][5]
