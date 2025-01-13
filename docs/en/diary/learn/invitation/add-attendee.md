@@ -1,16 +1,19 @@
 ---
 uid: help-en-invitation-add-attendee
-title: Add attendees to follow-ups
+title: Add attendees and resources to follow-up
 description: This how-to guide will show how you to add attendees to a follow-up.
+keywords: invite contact, invite associate, add attendee, add resource, meeting, invitation, participant, attendee, diary, follow-up
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, meeting, invitation, participant, attendee
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Add attendees and resources to follow-ups
+# Add attendees and resources to follow-up
 
 When you create a follow-up that concerns other people, you can add them as attendees to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as attendees are defined in Settings and maintenance.
 
@@ -31,7 +34,7 @@ When you create a follow-up that concerns other people, you can add them as atte
 
     * Start typing to search for a person throughout SuperOffice.
     * Select a person from the history list (<i class="ph ph-clock" aria-hidden="true"></i>) or your favorites (<i class="ph ph-star" aria-hidden="true"></i>).
-    * Click <i class="ph ph-user-circle" aria-label="Contact icon"></i> to search for an associate or <i class="ph ph-buildings" aria-label="Company icon"></i> to select persons linked to a company.
+    * Click <i class="ph ph-users" aria-label="Group icon"></i> to search for an associate or <i class="ph ph-buildings" aria-label="Company icon"></i> to select persons linked to a company.
     * You can also select sale stakeholders (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) and project members (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Follow-up dialog, select attendees -screenshot][img17]
@@ -51,7 +54,7 @@ When you create a follow-up that concerns other people, you can add them as atte
 
 ### <a id="availability"></a>Scheduling assistant
 
-The scheduling assistant is part of the new **Follow-up** dialog. The detailed calendar shows the availability of each internal attendant (associate). The top-most row shows the accumulated availability. The availability of external attendees and email attendees is unknown.
+The scheduling assistant is part of the **Follow-up** dialog. The detailed calendar shows the availability of each internal attendant (associate). The top-most row shows the accumulated availability. The availability of external attendees and email attendees is unknown.
 
 ![Follow-up dialog, scheduling assistant -screenshot][img18]
 

@@ -2,11 +2,14 @@
 uid: help-en-invitation-accept
 title: Follow-ups you are invited to
 description: Show follow-ups you are invited to; accept or decline an invitation
+keywords: accept invitation, decline invitation, Notifications panel, diary, follow-up, invitation
 author: Bergfrid Dias
-date: 02.16.2024
-version: 10.3.2
-keywords: diary, follow-up, invitation
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

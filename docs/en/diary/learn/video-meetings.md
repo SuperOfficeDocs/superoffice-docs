@@ -2,15 +2,18 @@
 uid: help-en-video-meetings
 title: Work with video meetings
 description: Learn how to create and join a video meeting in SuperOffice here.
+keywords: create video meeting, video meeting URL, diary, follow-up, video meeting
 author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
-keywords: diary, follow-up, video meeting
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Work with video meetings
+# Work with video meetings <i class="ph ph-video-camera" aria-hidden="true"></i>
 
 The SuperOffice video meetings allow you to schedule and create video meetings directly from your diary. Let us take a look at how you can set up a video meeting.
 

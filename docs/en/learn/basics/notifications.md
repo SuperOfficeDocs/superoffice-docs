@@ -2,9 +2,10 @@
 uid: help-en-notifications
 title: Notifications
 description: Notifications of invitations, messages, and request
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
 keywords: notification, invitation, request, message
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 01.13.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
