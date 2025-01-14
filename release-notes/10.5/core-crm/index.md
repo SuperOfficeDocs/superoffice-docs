@@ -16,7 +16,7 @@ audience_tooltip: SuperOffice CRM
 * [FEATURE (10.5.1)][1]
 * [Top bar - New-button (10.5.1)][1] in Core CRM
 * [Top bar - Freetext search (10.5.1)][1] in Core CRM
-* [Top bar - Userflow button (10.5.1)][1] in Core CRM
+* [Top bar - In-app Resource centre button (10.5.1)][1] in Core CRM
 * [Dashboard tiles and edit (10.5.1)][1] in Core CRM
 * [Main cards - Edit and task moved to top (10.5.1)][1] in Core CRM
 * [Diary - Move of Todo list and View tab with different previews (10.5.1)][1] in Core CRM

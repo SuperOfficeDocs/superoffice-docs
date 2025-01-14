@@ -25,13 +25,13 @@ Check out our **Product release** overview for more details in our [Community][1
   * [New UI for SuperOffice (10.5.1)][2] in SuperOffice CRM
   * [Top bar - New-button (10.5.1)][2] in Core CRM
   * [Top bar - Freetext search (10.5.1)][2] in Core CRM
-  * [Top bar - Userflow button (10.5.1)][2] in Core CRM
+  * [Top bar - In-app Resource centre button (10.5.1)][2] in Core CRM
   * [Dashboard tiles and edit (10.5.1)][2] in Core CRM
   * [Main cards - Edit and task moved to top (10.5.1)][2] in Core CRM
   * [Diary - Move of Todo list and View tab with different previews (10.5.1)][2] in Core CRM
   * [Side panel favourites (10.5.1)][2] in Core CRM
-  * [SuperOffice Copilot - Easy to get started (10.5.1)][1] in Settings and maintenance
   * [SuperOffice Copilot - Text fields with AI options][2] (10.5.1) in Core CRM
+  * [SuperOffice Copilot - Easy to get started (10.5.1)][1] in Settings and maintenance
   * [New UI for SuperOffice Marketing (10.5.1)][4] in SuperOffice CRM
   * [New UI for SuperOffice Service (10.5.1)][3] in SuperOffice CRM
 
@@ -40,6 +40,8 @@ Check out our **Product release** overview for more details in our [Community][1
 * [Version 11.0.3][5] (23.10.2024)
 
 ### Office integrations
+
+* [SuperOffice for Outlook update – Action required (6.0)][13]
 
 Latest released versions:
 
@@ -90,5 +92,6 @@ See all the [new or updated apps][6]
 [10]: https://community.superoffice.com/en/product-releases/release-notes/
 [11]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [12]: ../../docs/en/mobile/superoffice-mobile/index.md
+[13]: office-integrations/6.0-update.md
 
 <!-- Referenced images -->

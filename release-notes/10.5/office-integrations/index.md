@@ -11,7 +11,7 @@ topic: reference
 
 # Office integrations
 
-* [FEATURE (10.5.1)][1]
+* [SuperOffice for Outlook update – Action required (6.0)][1]
 
 <!-- Referenced links-->
-[1]: 10.5.1-update.md
+[1]: 6.0-update.md
