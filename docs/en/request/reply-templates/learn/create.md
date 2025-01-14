@@ -2,10 +2,13 @@
 uid: help-en-reply-template-create
 title: Create reply templates
 description: Learn how to create a reply template in this how-to guide.
+keywords: create reply template, new reply template, copy reply template, reply template properties, request, reply, template
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: request, reply, template
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
@@ -20,13 +23,11 @@ Reply templates can also include an attachment, which will then be added to the 
 > [!NOTE]
 > You need *Knowledge base* as functional right to create reply templates.
 
-## Steps
+## Steps - create from scratch
 
 1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
 
 1. Go to the folder you want to put the reply template in. If it does not yet exist, you can [create a new folder][2].
-
-    ![How to find reply templates in SuperOffice -screenshot][img3]
 
 1. Click the **New reply template** button.
 
@@ -40,7 +41,7 @@ Reply templates can also include an attachment, which will then be added to the 
 1. Select the **(Unspecified language)** tab.
 
 1. In the **Properties** tab, enter the following:
-    * **Language**: In this list, select which language the reply template is in. The list box contains the languages registered under <i class="ph ph-list" aria-label="Main menu"></i> > **Customer languages**.
+    * **Language**: In this list, select which [customer language][7] the reply template is in.
     * **Default**: Check here if you want this to be the default language for this reply template.
     * **Subject**: Enter the title of the reply template. This is normally inserted into the **Subject** field when the reply template is used for an email.
     * **Message headers**: Here you can add predefined content to be displayed in the message header, for example, the **To** and **Subject** fields, in an email. This function is only used in special cases.
@@ -77,6 +78,17 @@ Reply templates can also include an attachment, which will then be added to the 
 
 1. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in [responding to customer enquiries][4].
 
+## <a id="copy"></a>Copy reply template
+
+To create a new reply template based on an existing reply template, you can copy it.
+
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to the folder where the reply template is located.
+1. Click the reply template. This takes you to the **View reply templates** screen.
+1. Click the **Copy** button. A copy of the reply template is opened in edit mode.
+1. Edit the name of the reply template and make any other changes you want.
+1. Click **OK**. The changes are saved.
+
 ## Create custom layout for replies using categories
 
 To give each department in your company a custom layout for their correspondence, you can create reply templates with different layouts. Each reply template can be linked to a [category][1] representing a department. All outgoing replies from the categories (departments) are merged with the department specific design.
@@ -99,19 +111,17 @@ Based on the customer's request, the system searches for corresponding words (in
 
 You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in <i class="ph ph-list" aria-label="Main menu"></i> **System settings** > **System** > **Settings**.
 
-## What would you like to do now?
+## Related content
 
 * [Create new language version of reply template][5]
 * [Edit reply templates][6]
-* [Copy reply templates][7]
 
 <!-- Referenced links -->
 [1]: ../../learn/category/index.md
-[2]: manage-folders.md
 [4]: ../../learn/howto/reply.md
+[2]: manage-folders.md
 [5]: new-language.md
 [6]: edit.md
-[7]: copy.md
+[7]: ../../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png
