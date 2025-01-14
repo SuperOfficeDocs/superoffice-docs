@@ -58,7 +58,7 @@ If a single request contains several questions, for example, if the customer fir
 <!-- Referenced links -->
 [1]: split-message.md
 [2]: ../index.md#open
-[3]: ../priority/escalation-levels.md
+[3]: ../admin/priority/escalation-levels.md
 [4]: reply.md
 [5]: transfer.md
 [6]: forward.md

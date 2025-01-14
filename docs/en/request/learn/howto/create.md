@@ -132,7 +132,7 @@ The autosave feature is activated by default when you view and edit requests and
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
 [2]: reply.md#reply-templ
-[3]: ../priority/escalation-levels.md
+[3]: ../admin/priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md
 [6]: ../../../custom-objects/admin/create-extra-field.md

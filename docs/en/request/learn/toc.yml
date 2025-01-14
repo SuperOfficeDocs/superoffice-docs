@@ -8,4 +8,6 @@ items:
 - name: Work with requests
   href: howto/toc.yml
   topicHref: find.md
-  
+- name: For administrators
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

@@ -117,7 +117,7 @@ You can select the degree of correlation between the request from the customer a
 * [Edit reply templates][6]
 
 <!-- Referenced links -->
-[1]: ../../learn/category/index.md
+[1]: ../../admin/category/index.md
 [4]: ../../learn/howto/reply.md
 [2]: manage-folders.md
 [5]: new-language.md

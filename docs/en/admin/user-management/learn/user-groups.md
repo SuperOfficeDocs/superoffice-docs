@@ -49,7 +49,7 @@ To group colleagues together and grant them access to CRM data based on this gro
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/admin/add-user-group.png

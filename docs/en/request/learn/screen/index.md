@@ -121,8 +121,8 @@ The request properties sidebar contains the following options:
 
 <!-- Referenced links -->
 [1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[2]: ../admin/category/index.md
+[3]: ../admin/priority/escalation-levels.md
 [4]: ../tags.md
 [5]: ../howto/accept.md
 [6]: ../howto/split-request.md

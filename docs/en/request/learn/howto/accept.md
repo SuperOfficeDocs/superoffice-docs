@@ -53,7 +53,7 @@ If you need more information before accepting, or use [Get next request in queue
 [3]: transfer.md
 [4]: forward.md
 [5]: close.md
-[6]: ../next-in-queue.md
+[6]: ../admin/next-in-queue.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/request/requests-accept.png

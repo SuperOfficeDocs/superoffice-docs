@@ -33,5 +33,5 @@ After [responding to the request][3], select **Closed** in the **Status** field 
 
 <!-- Referenced links -->
 [1]: ../../../learn/basics/bulk-update.md
-[2]: ../status/index.md
+[2]: ../../admin/status/index.md
 [3]: reply.md

@@ -26,7 +26,7 @@ landingContent:
         - text: Introduction to requests
           url: overview.md
         - text: Request status
-          url: learn/status/index.md
+          url: admin/status/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
@@ -64,9 +64,9 @@ landingContent:
         typeDesc: concept
         links:
         - text: Request categories
-          url: learn/category/index.md
+          url: admin/category/index.md
         - text: Priority
-          url: learn/priority/index.md
+          url: admin/priority/index.md
       - itemType: video_library
         typeDesc: video
         links:

@@ -123,56 +123,12 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Requests
-      topicHref: ../request/learn/admin/index.md
-      items:
-      - name: Overview
-        href: ../request/learn/admin/index.md
-      - name: Request types
-        topicHref: ../request/learn/type/index.md
-        items:
-        - name: Overview
-          href: ../request/learn/type/index.md
-        - name: Create request type
-          href: ../request/learn/type/create.md
-        - name: Delete request type
-          href: ../request/learn/type/delete.md
-      - name: Categories
-        topicHref: ../request/learn/category/index.md
-        items:
-        - name: Overview
-          href: ../request/learn/category/index.md
-        - name: Create request category
-          href: ../request/learn/category/create.md
-        - name: Delete request category
-          href: ../request/learn/category/delete.md
-      - name: Priorities
-        topicHref: ../request/learn/priority/index.md
-        items:
-        - name: Overview
-          href: ../request/learn/priority/index.md
-        - name: Create priority
-          href: ../request/learn/priority/create.md
-        - name: Delete priority
-          href: ../request/learn/priority/delete.md
-        - name: Create escalation levels
-          href: ../request/learn/priority/escalation-levels.md
-      - name: Request status
-        topicHref: ../request/learn/status/index.md
-        items:
-        - name: Overview
-          href: ../request/learn/status/index.md
-        - name: Create request status
-          href: ../request/learn/status/create.md
-        - name: Delete request status
-          href: ../request/learn/status/delete.md
-        - name: Get next request in queue
-          href: ../request/learn/next-in-queue.md
-      - name: Email
-        href: ../email/service/learn/toc.yml
-        topicHref: ../email/service/learn/index.md
-      - name: System templates
-        href: ../request/learn/screen/system-templates.md
+      topicHref: ../request/admin/index.md 
 
+    - name: Email
+      href: ../email/service/learn/toc.yml
+      topicHref: ../email/service/learn/index.md
+      
     - name: Customer center
       href: ../customer-center/learn/toc.yml
       topicHref: ../customer-center/learn/index.md

@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice Service
 
 # Automatic assignment methods for requests
 
-[!include[Owner](../includes/request-owner.md)] This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
+For a request to be your responsibility, your name must appear in the request's **Owner** field. This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
 
 ## Assignment methods
 
@@ -69,7 +69,7 @@ Does not assign requests to specific members. All requests are placed in a queue
 
 ![Request assignment methods, do not assign -screenshot][img6]
 
-[!include[Get next request in queue](includes/howto-get-next-request.md)]
+**Get next request in queue**: If the queue system is set up for your company, you can click this option to get the next unassigned request in the queue for the category you belong to.
 
 ## Specify assignment method for category
 
@@ -93,13 +93,15 @@ Imagine that your company has created a category for each department in the comp
 * [Create a request][2]
 * [Accept a request][4]
 * [Ask another request handler for help (transfer)][5]
+* [How to set up Get next request in queue][6]
 
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: create.md
-[3]: ../category/create.md
+[3]: ../admin/category/create.md
 [4]: accept.md
 [5]: transfer.md
+[6]: ../admin/next-in-queue.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/assign-requests.png

@@ -89,19 +89,18 @@ This section of the screen displays the contents of the request selected under *
 
 If the preview section is not visible, click **Show preview** at the bottom of the screen.
 
-## Related topics
+## Related content
 
 * [Use tags in requests][1]
 * [The Find screen][11]
 * [Use the Navigator search][12]
 * [Create selection][13]
-* [Get next in queue][5]
 
 <!-- Referenced links -->
 [1]: tags.md
 [3]: ../../search-options/learn/freetext-search.md
 [4]: ../../search-options/learn/search-criteria.md
-[5]: next-in-queue.md
+[5]: ../admin/next-in-queue.md
 [6]: howto/accept.md
 [7]: howto/forward.md
 [8]: howto/reply.md
