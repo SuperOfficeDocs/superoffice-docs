@@ -16,16 +16,16 @@ items:
   items:
   - name: 10.5.1 update
     href: service/10.5.1-update.md
-- name: Marketing
-  href: marketing/index.md
-  items:
-  - name: 10.5.4 update
-    href: marketing/10.5.4-update.md
-- name: Office integrations
-  href: office-integrations/index.md
-  items:
-  - name: 10.0.6 update
-    href: office-integrations/10.0.6-update.md
+#- name: Marketing
+#  href: marketing/index.md
+#  items:
+#  - name: 10.5.4 update
+#    href: marketing/10.5.4-update.md
+#- name: Office integrations
+#  href: office-integrations/index.md
+#  items:
+#  - name: sofo-6.0 update
+#    href: office-integrations/10.0.6-update.md
 #- name: CEP
 #  href: cep/index.md
 #  items:
