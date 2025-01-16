@@ -47,5 +47,5 @@ Choose one of the following options:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
+[3]: https://docs.superoffice.com/en/document/cloud/sharepoint-documents/set-up.html
 [10]: https://www.youtube.com/embed/QoAanZgQs5A

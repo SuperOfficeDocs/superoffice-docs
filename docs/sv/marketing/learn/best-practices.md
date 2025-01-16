@@ -102,7 +102,7 @@ Om du vill justera de mobilspecifika inställningarna för ett meddelande, välj
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../admin/lists/learn/privacy-legal-base-add.md
 [6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
-[7]: ../../../en/email/mailgun/spf/index.md
+[7]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 

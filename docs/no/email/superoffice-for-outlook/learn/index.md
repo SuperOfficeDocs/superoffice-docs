@@ -88,7 +88,7 @@ Fordi tillegget er skybasert, er det alltid oppdatert uten at du trenger å gjø
 [9]: create-sale.md
 [11]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [12]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
-[17]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
+[17]: https://docs.superoffice.com/en/email/superoffice-for-outlook/it/deploy.html
 [18]: ../../inbox/learn/index.md
 [19]: ../../../document/library/learn/index.md
 

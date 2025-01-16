@@ -103,7 +103,7 @@ Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 * [Datensatz als Favoriten hinzufügen][4]
 
 <!-- Referenced links -->
-[1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
+[1]: https://docs.superoffice.com/en/mobile/superoffice-mobile/company-contact/scan-business-card.html
 [2]: ../../admin/import/learn/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md

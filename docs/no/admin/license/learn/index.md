@@ -76,7 +76,7 @@ Les mer om lisenser i [tidligere versjoner av SuperOffice][7].
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
 [5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
-[6]: ../../../../en/admin/license/user-plans.md
+[6]: https://docs.superoffice.com/en/admin/license/user-plans.html
 [7]: https://help.superoffice.com/Documentation/Help/NO/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

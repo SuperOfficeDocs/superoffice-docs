@@ -4,4 +4,4 @@ Wenn Ihre Firma über eine Lizenz für [Developer Tools][1] verfügt, wird die R
 Wenn eine Firma mit dem ERP-System verbunden ist, können alle dieser Firma zugeordneten Personen ebenfalls mit einer übereinstimmenden Person im ERP-System verbunden werden.
 
 <!-- Referenced links -->
-[1]: ../../../en/admin/license/expander-services/tool-box.md
+[1]: https://docs.superoffice.com/en/admin/license/expander-services/tool-box.html

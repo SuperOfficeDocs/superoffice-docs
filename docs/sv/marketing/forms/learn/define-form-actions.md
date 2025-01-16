@@ -72,7 +72,7 @@ Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (aut
 [6]: process-submissions.md
 [7]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [8]: ../../../request/learn/howto/create.md
-[9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
+[9]: https://docs.superoffice.com/en/automation/crmscript/howto/marketing/forms.html
 
 <!-- Referenced images -->
 [img11]: ../../../../media/icons/marketing-and-forms/form-notification.png

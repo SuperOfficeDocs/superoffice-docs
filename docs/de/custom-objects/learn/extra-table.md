@@ -116,7 +116,7 @@ Präfixe stellen sicher, dass das, was Sie erstellen, nicht mit zukünftigen Sup
 [2]: ../admin/create-extra-table.md
 [3]: ../admin/create-extra-field.md
 [4]: ../admin/add-udef.md
-[5]: ../../../en/automation/trigger/create-trigger-script.md
+[5]: https://docs.superoffice.com/en/automation/trigger/create-trigger-script.html
 [6]: ../../../en/automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesLoadCustomObject
 
 <!-- Referenced images -->

@@ -118,7 +118,7 @@ Genom att anpassa skärmlayouterna med skärmdesignern kan du eliminera onödig 
 [2]: add-layout.md
 [3]: working-with-archives.md
 [4]: working-with-fields.md
-[9]: ../../../../en/ui/web-app/pagebuilder/index.md
+[9]: https://docs.superoffice.com/en/ui/web-app/pagebuilder/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png

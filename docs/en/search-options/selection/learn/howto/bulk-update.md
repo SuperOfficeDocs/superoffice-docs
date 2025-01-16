@@ -41,6 +41,6 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
+[3]: https://docs.superoffice.com/en/security/privacy/learn/edit-legal-base.html#bulk
 
 <!-- Referenced images -->

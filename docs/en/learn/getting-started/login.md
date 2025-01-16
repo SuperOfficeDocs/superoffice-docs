@@ -161,9 +161,9 @@ Contact your SuperOffice administrator to receive a new password.
 [3]: ../../admin/user-management/learn/add-associate.md
 [4]: ../../admin/user-management/learn/add-associate.md#troubleshooting
 [6]: preferences.md#options
-[7]: ../../../en/identity-management/single-sign-on/index.md
-[8]: ../../../en/identity-management/overview.md
-[9]: ../../../en/identity-management/superid/overview.md
+[7]: https://docs.superoffice.com/en/identity-management/single-sign-on/index.html
+[8]: https://docs.superoffice.com/en/identity-management/overview.html
+[9]: https://docs.superoffice.com/en/identity-management/superid/overview.html
 [10]: https://docs.microsoft.com/en-us/office365/admin/add-users/reset-passwords?view=o365-worldwide#reset-my-office-365-tenant-admin-password
 [11]: https://support.google.com/a/answer/33319?hl=en
 [12]: http://www.digitaltrends.com/computing/how-to-delete-cookies-in-chrome-firefox-safari-and-ie/

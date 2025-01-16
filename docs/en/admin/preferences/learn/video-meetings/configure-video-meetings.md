@@ -45,7 +45,7 @@ language: en
 To select another provider or change the configuration, click **Configure**.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: https://docs.superoffice.com/en/video-meeting/index.html
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

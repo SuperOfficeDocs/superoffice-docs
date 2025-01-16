@@ -3,4 +3,4 @@
 > This feature requires a Service Essentials license. For details, see the [list of user plans][1].
 
 <!-- Referenced links -->
-[1]: ../../docs/en/admin/license/user-plans.md
+[1]: https://docs.superoffice.com/en/admin/license/user-plans.html

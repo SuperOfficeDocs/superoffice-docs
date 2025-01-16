@@ -63,4 +63,4 @@ Klik på en opgave på listen for at redigere dens egenskaber, f.eks. hvornår d
 * [Bedste praksis for CRMScript][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
+[1]: https://docs.superoffice.com/en/automation/crmscript/code-quality/best-practices.html

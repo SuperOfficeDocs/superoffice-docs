@@ -44,6 +44,6 @@ På **Status**-fliken på skärmbilden Licenser kan du starta följande typer av
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../../../en/admin/license/index.md
+[2]: https://docs.superoffice.com/en/admin/license/index.html
 
 <!-- Referenced images -->

@@ -31,4 +31,4 @@ Other supported file types:
 See also support for [Open Document Format][1].
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/odf.md
+[1]: https://docs.superoffice.com/en/document/odf.html

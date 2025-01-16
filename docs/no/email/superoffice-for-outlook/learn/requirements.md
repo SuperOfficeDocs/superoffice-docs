@@ -53,7 +53,7 @@ Lær mer om kravene til [sentralisert distribusjon][5] fra Microsoft.
 Hvis en oppdatering betydelig øker omfanget av dataadgang, må du godkjenne tillegget på nytt før oppdateringen distribueres.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
+[1]: https://docs.superoffice.com/en/email/superoffice-for-outlook/it/deploy.html
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
 [4]: https://community.superoffice.com/en/forums/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/

@@ -63,4 +63,4 @@ Klicka på en uppgift i listan om du vill redigera dess egenskaper, till exempel
 * [Bästa praxis för CRMScript][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
+[1]: https://docs.superoffice.com/en/automation/crmscript/code-quality/best-practices.html

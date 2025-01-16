@@ -41,6 +41,6 @@ Titta på videon eller följ stegen nedan för att lära dig hur du massuppdater
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
+[3]: https://docs.superoffice.com/en/security/privacy/learn/edit-legal-base.html#bulk
 
 <!-- Referenced images -->

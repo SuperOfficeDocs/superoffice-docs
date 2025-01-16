@@ -38,7 +38,7 @@ Jeder Videoanbieter hat seine eigenen Anforderungen, um seine Dienste mit SuperO
 * [Videokonferenzen für SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: https://docs.superoffice.com/en/video-meeting/index.html
 [2]: configure-video-meetings.md
 [3]: email-setup-in-superoffice.md
 

@@ -45,7 +45,7 @@ language: no
 Klikk på **Konfigurer** for å velge en annen leverandør eller endre konfigurasjonen.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/video-meeting/index.md
+[1]: https://docs.superoffice.com/en/video-meeting/index.html
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

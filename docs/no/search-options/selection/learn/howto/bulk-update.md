@@ -41,6 +41,6 @@ Se videoen, eller følg trinnene nedenfor for å finne ut hvordan du utfører en
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
+[3]: https://docs.superoffice.com/en/security/privacy/learn/edit-legal-base.html#bulk
 
 <!-- Referenced images -->

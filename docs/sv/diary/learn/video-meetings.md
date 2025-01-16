@@ -90,7 +90,7 @@ Klicka på bokningen i din SuperOffice-kalender för att se bokningsdetaljerna p
 Om du vill ansluta till videomötet via förhandsgranskningen klickar du på knappen **Anslut till möte**. När du har klickat på den startar videomötet automatiskt.
 
 <!-- Referenced links -->
-[1]: ../../../en/video-meeting/howto/connect-provider.md
+[1]: https://docs.superoffice.com/en/video-meeting/howto/connect-provider.html
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->

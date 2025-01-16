@@ -5,4 +5,4 @@
 > Ikke skriv inn en e-postadresse i feltet **Fra-navn**. Det skal vises som et navn (f.eks. SuperOffice Support). Å bruke en e-postadresse i **Fra-navn** kan føre til at e-posten din blir markert som spam på grunn av konflikter med SPF-, DKIM- eller DMARC-valideringsregler.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/email/mailgun/spf/index.md
+[1]: https://docs.superoffice.com/en/email/mailgun/spf/index.html

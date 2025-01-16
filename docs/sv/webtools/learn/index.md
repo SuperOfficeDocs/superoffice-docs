@@ -91,6 +91,6 @@ Dubbelklicka på SuperOffice-ugglan i din verktygsfält för att öppna WebTools
 [7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
-[10]: ../../../en/ui/soprotocol/index.md
+[10]: https://docs.superoffice.com/en/ui/soprotocol/index.html
 [11]: ../../admin/lists/learn/create-email-template.md
 [12]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112136

@@ -60,7 +60,7 @@ highlightedContent:
     - title: Mobile CRM
       itemType: /media/common/phone-h32.png
       isImage: "true"
-      url: ../../en/mobile/superoffice-mobile/index.md
+      url: https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -113,7 +113,7 @@ conceptualContent:
       - text: Versie-opmerkingen
         itemType: new_releases
         typeDesc: whats-new
-        url: ../../../release-notes/index.md
+        url: https://docs.superoffice.com/release-notes/index.html
       - text: Nieuw verzoekbeheer
         itemType: explore
         typeDesc: concept

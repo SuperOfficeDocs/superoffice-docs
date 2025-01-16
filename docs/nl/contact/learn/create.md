@@ -103,7 +103,7 @@ De tab **Interesses** bevat de volgende opties:
 * [Record toevoegen als een favoriet][4]
 
 <!-- Referenced links -->
-[1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
+[1]: https://docs.superoffice.com/en/mobile/superoffice-mobile/company-contact/scan-business-card.html
 [2]: ../../admin/import/learn/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md

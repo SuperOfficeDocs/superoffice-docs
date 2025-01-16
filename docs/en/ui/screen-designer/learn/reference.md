@@ -314,21 +314,21 @@ For details about the value of each field, see the [Document database table][23]
 
 <!-- Referenced links -->
 [1]: working-with-fields.md
-[2]: ../../../../en/database/tables/contact.md
-[3]: ../../../../en/database/tables/person.md
-[4]: ../../../../en/database/tables/sale.md
-[5]: ../../../../en/database/tables/project.md
-[6]: ../../../../en/database/tables/ticket.md
-[7]: ../../../../en/database/tables/appointment.md
-[11]: ../../../../en/sale/overview.md
-[10]: ../../../../en/project/overview.md
+[2]: https://docs.superoffice.com/en/database/tables/contact.html
+[3]: https://docs.superoffice.com/en/database/tables/person.html
+[4]: https://docs.superoffice.com/en/database/tables/sale.html
+[5]: https://docs.superoffice.com/en/database/tables/project.html
+[6]: https://docs.superoffice.com/en/database/tables/ticket.html
+[7]: https://docs.superoffice.com/en/database/tables/appointment.html
+[11]: https://docs.superoffice.com/en/sale/overview.html
+[10]: https://docs.superoffice.com/en/project/overview.html
 [13]: ../../../request/learn/type/index.md
-[14]: ../../../../en/request/overview.md
+[14]: https://docs.superoffice.com/en/request/overview.html
 [15]: ../../../diary/learn/invitation/add-attendee.md#availability
 [16]: ../../../diary/learn/follow-ups.md
-[17]: ../../../../en/company/interests.md
-[18]: ../../../../en/company/category-list.md
-[20]: ../../../../en/globalization-and-localization/address/index.md
+[17]: https://docs.superoffice.com/en/company/interests.html
+[18]: https://docs.superoffice.com/en/company/category-list.html
+[20]: https://docs.superoffice.com/en/globalization-and-localization/address/index.html
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md
-[23]: ../../../../en/database/tables/document.md
+[23]: https://docs.superoffice.com/en/database/tables/document.html

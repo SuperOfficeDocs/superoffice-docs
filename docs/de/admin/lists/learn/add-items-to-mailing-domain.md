@@ -32,6 +32,6 @@ Wenn die globale Präferenz **Nur genehmigte E-Mail-Absenderdomänen verwenden**
 > Sie können einen SPF-Eintrag für Ihre Domäne festlegen, um sicherzustellen, dass Ihre Organisation Kampagnen mit erhöhter Zustellbarkeit senden kann (NUR ONLINE). Wenn Ihre Umgebung eine VOR-ORT-Umgebung ist, wird keine SPF-Suche durchgeführt. Sie können die Liste jedoch weiterhin verwenden, um Ihren Benutzern voreingestellte Domänen für **Absender-** und **Antwortadressen** zur Verfügung zu stellen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/mailgun/spf/index.md
+[1]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 
 <!-- Referenced images -->

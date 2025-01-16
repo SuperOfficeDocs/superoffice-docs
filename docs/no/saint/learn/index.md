@@ -122,8 +122,8 @@ SAINT-verdier er enkle binære verdier (på eller av) som bestemmer utseendet ti
 <!-- Referenced links -->
 [1]: status-dialog.md
 [2]: ../../search-options/selection/learn/dynamic-selections.md#saint
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
+[3]: https://docs.superoffice.com/en/database/tables/countervalue.html
+[4]: https://docs.superoffice.com/en/database/tables/statusvalue.html
 [5]: ../admin/index.md
 
 <!-- Referenced images -->

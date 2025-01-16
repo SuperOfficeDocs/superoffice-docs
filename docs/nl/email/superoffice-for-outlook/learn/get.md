@@ -110,7 +110,7 @@ Na installatie kunt u het vastmaken voor snelle toegang tijdens het lezen van e-
 [1]: https://appsource.microsoft.com/en-us/product/office/WA200001597?src=office&tab=Overview
 [2]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
 [4]: https://support.office.com/en-us/article/get-an-office-invoegtoepassing-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8
-[5]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
+[5]: https://docs.superoffice.com/en/email/superoffice-for-outlook/it/deploy.html
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/outlook-icon-bar.png

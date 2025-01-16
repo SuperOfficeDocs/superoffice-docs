@@ -52,6 +52,6 @@ Choose one of the following options:
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../email/gmail-link/learn/index.md
-[3]: ../../../../en/document/cloud/g-suite/index.md
+[3]: https://docs.superoffice.com/en/document/cloud/g-suite/index.html
 [10]: https://www.youtube.com/embed/QoAanZgQs5A
 [11]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link

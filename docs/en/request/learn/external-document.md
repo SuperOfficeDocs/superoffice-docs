@@ -121,7 +121,7 @@ When you delete a folder, all the files in it are also deleted from SuperOffice.
 
 <!-- Referenced links -->
 [1]: howto/reply.md
-[9]: ../../../../release-notes/10.3/service/10.3.11-update.md
+[9]: https://docs.superoffice.com/release-notes/10.3/service/10.3.11-update.html
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/archive-icon.png

@@ -5,4 +5,4 @@
 > Ange inte en e-postadress i fältet **Från namn**. Det ska visas som ett namn (t.ex. SuperOffice Support). Att använda en e-postadress i **Från namn** kan leda till att ditt e-postmeddelande flaggas som skräppost på grund av konflikter med SPF-, DKIM- eller DMARC-valideringsregler.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/email/mailgun/spf/index.md
+[1]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
