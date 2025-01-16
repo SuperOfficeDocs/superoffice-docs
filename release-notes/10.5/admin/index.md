@@ -13,7 +13,7 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
-* [SuperOffice Copilot - Easy to get started (10.5.1)][1]
+* [SuperOffice AI Lab - Easy to get started (10.5.1)][1]
 
 <!-- Referenced links-->
 [1]: 10.5.1-update.md

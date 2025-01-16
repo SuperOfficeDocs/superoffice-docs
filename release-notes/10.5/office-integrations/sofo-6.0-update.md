@@ -9,7 +9,7 @@ version: 6.0
 topic: reference
 ---
 
-# Office integrations 6.0 update
+# Office integrations - SuperOffice for Outlook 6.0 update
 
 ## SuperOffice for Outlook update – Action required
 

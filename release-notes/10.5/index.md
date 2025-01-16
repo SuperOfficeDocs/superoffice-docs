@@ -31,7 +31,7 @@ Check out our **Product release** overview for more details in our [Community][1
   * [Diary - Move of Todo list and View tab with different previews (10.5.1)][2] in Core CRM
   * [Side panel favourites (10.5.1)][2] in Core CRM
   * [SuperOffice AI Lab - Text field with AI options][2] (10.5.1) in Core CRM
-  * [SuperOffice Copilot - Easy to get started (10.5.1)][1] in Settings and maintenance
+  * [SuperOffice AI Lab - Easy to get started (10.5.1)][1] in Settings and maintenance
 
 ### Mobile CRM
 
