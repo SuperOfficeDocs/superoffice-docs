@@ -2,10 +2,13 @@
 uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
-author: Bergfrid Dias
-date: 03.14.2023
-keywords: request, ticket, service
+keywords: request management, request, ticket, service
+date: 01.15.2025
+version: 10.5
 topic: concept
+license: serviceessentials
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 
@@ -19,32 +22,24 @@ Each question and query can be defined as a request. These questions range from 
 
 ![Request with Unassigned request list with preview -screenshot][img1]
 
-<!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
+Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-<!-- > [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
+> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
 
 ## <a id="open"></a>Where can I access requests?
 
-* Archives in the Company, Contact, Sale, and Project screens.
-* [Pre-defined lists][11]
+* Section tabs in the Company, Contact, Sale, and Project screens.
+* [Pre-defined lists][10]
 * [Search][12]
-* [Favourites][8]
+* [Favourites][18]
 * [Flagged messages][5]
 
-When you double-click a row in the [search results screen][13], you are taken to the Request screen.
+When you double-click a row in the search results, you are taken to the Request screen.
 
 ### <a id="customers"></a>Contacts
 
-Requests can be linked to [contacts][2], who in turn can belong to a [company][3]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
-
-### What do you want to do now?
-
-* Learn request handling step by step
-* [Receive requests][6]
-* [Create requests][4]
-* [Find requests][10]
-* [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
+Requests can be linked to [contacts][14], who in turn can belong to a [company][13]. This means that requests cannot be linked directly to companies (only indirectly via contacts). When new emails are imported and saved as requests, the request is automatically linked to the correct contact via the email address. When you view a request, it is easy to see who the contact is, and if you click the contact's name, you can see which other requests are registered for this person. This provides you with a rapid overview of previous communication with this same contact.
 
 ## <a id="request-mgt"></a>Request management
 
@@ -55,13 +50,13 @@ A contact service system is all about providing your contacts the answers they a
 ### Typical tasks
 
 * [Take responsibility for requests][1]
-* [Ask another request handler for help][16]
-* [Reply to contact][19]
+* [Ask another request handler for help][7]
+* [Reply to contact][2]
 * [Edit message][9]
-* [Split requests][21]
-* [Forward messages or multiple requests to external parties][18]
-* [Add requests to the favorites list][8]
-* [Close requests][22]
+* [Split requests][11]
+* [Forward messages or multiple requests to external parties][8]
+* [Add requests to the favorites list][18]
+* [Close requests][3]
 
 Different companies have different routines for request handling and can use SuperOffice Service in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a contact has submitted a request by email and when a contact calls in with a problem or a question.
 
@@ -77,60 +72,50 @@ Different companies have different routines for request handling and can use Sup
 1. The request ends up with a request handler in SuperOffice CRM. See [Assign requests][6] and [Find requests][10].
 1. The request handler reads through the request.
 1. The request handler is unable to fulfil the request on their own and does one of the following:
-    * [Asks a colleague][16].
-    * [Gets help from outside][18].
-1. The request handler [sends a response to the contact][19].
-1. The request handler [closes the request][21] and proceeds to deal with other requests.
+    * [Asks a colleague][7].
+    * [Gets help from outside][8].
+1. The request handler [sends a response to the contact][2].
+1. The request handler [closes the request][3] and proceeds to deal with other requests.
 
 ### Scenario 2: The contact calls the request handler
 
 1. The contact has a problem with a product and calls user-support.
-1. The request handler who answers the call [registers the request][14].
+1. The request handler who answers the call [registers the request][4].
 1. The request handler is unable to fulfil the request on their own and does one of the following:
-    * [Asks a colleague][16].
-    * [Gets help from outside][18].
-1. The request handler [sends a response to the contact][19].
-1. The request handler [closes the request][21] and proceeds to deal with other requests.
+    * [Asks a colleague][7].
+    * [Gets help from outside][8].
+1. The request handler [sends a response to the contact][2].
+1. The request handler [closes the request][3] and proceeds to deal with other requests.
 
-## Related topics
+## Related content
 
-* [Why bulk update should be your favorite feature][17] - blog
-* [Edit email signature][15]
-* [Create request][14]
-* [Find][10]
+* [Create request][4]
 * [Accept][1]
-* [Transfer][16]
-* [Forward][18]
-* [Assign][6]
-* [Reply][19]
-* [Split request][21]
-* [Edit message][9]
-* [Favorites][8]
-* [Close request][22]
+* [Reply][2]
+* [Automatic assignment][6]
+* [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
+* [Why bulk update should be your favorite feature][21] - blog
 
 <!-- Referenced links -->
-[1]: howto/accept.md
-[2]: ../../contact/learn/index.md
-[3]: ../../company/learn/index.md
-[4]: howto/create.md
-[5]: howto/flag-message.md
-[6]: howto/assign.md
-[8]: ../../learn/basics/fav.md
-[9]: howto/edit-message.md
+[1]: accept.md
+[2]: reply.md
+[3]: close.md
+[4]: create.md
+[5]: flag-message.md
+[6]: assign.md
+[7]: transfer.md
+[8]: forward.md
+[9]: edit-message.md
 [10]: find.md
-[11]: find.md#list
+[11]: split-request.md
 [12]: ../../search-options/learn/index.md
-[13]: find.md#result
-[14]: howto/create.md
+[13]: ../../company/learn/index.md
+[14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
-[16]: howto/transfer.md
-[17]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
-[18]: howto/forward.md
-[19]: howto/reply.md
-[20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: howto/split-request.md
-[22]: howto/close.md
+[18]: ../../learn/basics/fav.md
 [23]: ../reply-templates/learn/index.md
+[20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
+[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

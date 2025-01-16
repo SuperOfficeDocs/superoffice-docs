@@ -30,4 +30,4 @@ Here you can edit the properties of a screen. You can create a script to precalc
 * **Hidden variables**: The variables defined here are saved when the screen is submitted, so the next screen has access to them.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md

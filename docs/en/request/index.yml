@@ -48,13 +48,13 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: How to create a request
-          url: learn/howto/create.md
+          url: learn/create.md
         - text: How to archive emails as requests
           url: ../email/mail-link/learn/archive-as-request.md
         - text: Take responsibility for a request
-          url: learn/howto/accept.md
+          url: learn/accept.md
         - text: How to reply to customers
-          url: learn/howto/reply.md
+          url: learn/reply.md
         - text: How to set up Service mailboxes
           url: ../email/service/learn/kb-aliases/index.md
 

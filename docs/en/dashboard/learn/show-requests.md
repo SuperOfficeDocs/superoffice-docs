@@ -69,8 +69,8 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

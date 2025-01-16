@@ -58,4 +58,4 @@ In the reply templates overview, click the **Search** button to locate a specifi
 [4]: new-language.md
 [6]: edit.md
 [1]: manage-folders.md
-[11]: ../../learn/howto/reply.md
+[11]: ../../learn/reply.md

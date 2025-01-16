@@ -13,8 +13,6 @@ language: en
 
 # Request screen
 
-![Overview of the requests screen or the request tab -screenshot][img3]
-
 ## Request overview
 
 The Request screen has the following sections:
@@ -120,23 +118,20 @@ The request properties sidebar contains the following options:
 * [Close request][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../admin/category/index.md
-[3]: ../admin/priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/loc/en/request/request-screen.png

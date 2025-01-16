@@ -250,15 +250,15 @@ conceptualContent:
       - text: New request
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/create.md
+        url: ../request/learn/create.md
       - text: Accept request
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/accept.md
+        url: ../request/learn/accept.md
       - text: Reply to customer
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/reply.md
+        url: ../request/learn/reply.md
       - text: Work with reply templates
         itemType: list
         typeDesc: how-to-guide

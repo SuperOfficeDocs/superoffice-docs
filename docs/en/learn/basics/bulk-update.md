@@ -42,13 +42,10 @@ Bulk update allows you to change values across multiple records of the same type
 
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 
-    > [!NOTE]
-    > After an update is applied, it cannot be undone.
-
 8. Click **Yes** to implement the changes to the selected records.
 
-    > [!NOTE]
-    > It is possible to stop the update as soon as you have started the update. Any entities that have not been updated yet, will not be updated.
+    > [!CAUTION]
+    > Once an update is applied, it cannot be undone. However, you can stop the update while it is in progress. Any records that have not yet been updated will remain unchanged.
 
 9. Click **LOG** to show the change log. If any records were not updated, the reason is listed in the **Reasons why** column.
 

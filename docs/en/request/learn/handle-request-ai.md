@@ -2,9 +2,9 @@
 uid: help-en-request-ai
 title: Efficient handling of requests using AI
 description: The introduction of Artificial Intelligence (AI) in SuperOffice 10 gives request handlers / support agents a new set of smart tools to make their workday more efficient.
+keywords: request, AI, efficient
 author: Kirsti Aakerholt
 date: 04.19.2023
-keywords: request, AI, efficient
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -40,7 +40,7 @@ If this function is active, incoming email requests are analysed to determine th
 
 Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. The footer of a request shows the category suggested by the system. Click the category link to update the request with the suggested category.
 
-## Related topics
+## Related content
 
 * [How to use AI services][1]
 * [Text analysis of requests][2]
