@@ -1,11 +1,11 @@
 ---
-uid: news-office-10.5
-title: What's new in SuperOffice 10.5
-description: Release notes. What's new in SuperOffice 10.5
-keywords: Office integrations
+uid: news-office-sofo-6.0
+title: What's new in SuperOffice Office integrations SOFO 6.0
+description: Release notes. What's new in SuperOffice Office integrations SuperOffice for Outlook 6.0
+keywords: Office integrations, SuperOffice for Outlook
 author: SuperOffice AS – Research and Development
-date: 
-version: 10.5
+date: 01.21.2025
+version: sofo-6.0
 topic: reference
 ---
 

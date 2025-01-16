@@ -4,7 +4,7 @@ title: Office integrations 6.0 update
 description: Release notes. What's new in SuperOffice Office integrations 6.0
 keywords: 
 author: SuperOffice AS – Research and Development
-date: 
+date: 01.21.2025
 version: 6.0
 topic: reference
 ---
@@ -21,4 +21,3 @@ For detailed instructions, visit: SuperOffice for Outlook: [Authorisation guide]
 [1]: https://community.superoffice.com/en/support-faqs/faq/superoffice-for-outlook-authorisation-guide/
 
 <!-- Referenced images -->
-[img1]: media/
