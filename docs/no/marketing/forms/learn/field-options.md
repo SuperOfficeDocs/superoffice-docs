@@ -81,7 +81,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 * **Seksjon**: Legg til en seksjon mellom feltene for å [opprette et skjema med flere sider][2]. Nyttig hvis skjemaet inneholder mange felt og du vil unngå å rulle.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]:https://docs.superoffice.com/en/marketing/forms/recaptcha.html
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

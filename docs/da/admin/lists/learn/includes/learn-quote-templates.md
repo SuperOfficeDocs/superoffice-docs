@@ -3,4 +3,4 @@
 > Hvis du vil vide mere om **tilbudsskabeloner**, skal du [klikke her][1].
 
 <!-- Referenced links -->
-[1]: ../../../../../en/document/templates/quote/index.md
+[1]:https://docs.superoffice.com/en/document/templates/quote/index.html

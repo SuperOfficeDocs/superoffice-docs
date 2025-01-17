@@ -33,6 +33,6 @@ After you define a template and save it in the template folder, you must [link t
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
 [2]: add-template.md
-[3]: ../../../../en/document/templates/variables/index.md
+[3]:https://docs.superoffice.com/en/document/templates/variables/index.html
 
 <!-- Referenced images -->

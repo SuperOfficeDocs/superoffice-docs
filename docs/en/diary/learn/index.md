@@ -71,7 +71,7 @@ The diary consists of [four tabs][24]: **Day** tab, **Week** tab, **Month** tab,
 [21]: create-follow-up.md#copy
 [24]: screen/index.md
 [23]: video-meetings.md
-[50]: ../../../en/diary/howto/index.md
+[50]:https://docs.superoffice.com/en/diary/howto/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

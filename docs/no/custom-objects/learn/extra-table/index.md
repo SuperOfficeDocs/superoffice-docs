@@ -47,7 +47,7 @@ I dette bildet kan du redigere egenskapene til en ny eller eksisterende tabellma
 [1]: ../../../ui/blogic/learn/index.md
 [2]: create.md
 [3]: ../extra-field/create.md
-[4]: ../../../../en/custom-objects/udef/index.md
+[4]:https://docs.superoffice.com/en/custom-objects/udef/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

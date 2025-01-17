@@ -42,8 +42,8 @@ Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in he
 [3]: schedule-task.md
 [4]: debug.md
 [5]: tracing.md
-[6]: ../../../../en/automation/crmscript/overview/index.md
-[7]: ../../../../en/automation/crmscript/reference/index.md
+[6]:https://docs.superoffice.com/en/automation/crmscript/overview/index.html
+[7]:https://docs.superoffice.com/en/automation/crmscript/reference/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

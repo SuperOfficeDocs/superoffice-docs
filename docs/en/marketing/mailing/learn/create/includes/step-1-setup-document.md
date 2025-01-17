@@ -43,7 +43,7 @@ You can connect the document mailing to a specific sale. This can be relevant if
 > Click the **Save + close** button to save the mailing and close it. You can continue working on the mailing later.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

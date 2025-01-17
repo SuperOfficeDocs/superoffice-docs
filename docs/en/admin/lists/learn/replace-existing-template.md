@@ -25,6 +25,6 @@ language: en
 * [All template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 
 <!-- Referenced images -->

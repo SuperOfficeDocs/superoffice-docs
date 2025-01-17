@@ -81,7 +81,7 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 * **Sectie**: Voeg een sectie toe tussen de velden om [een formulier met meerdere pagina's te maken][2]. Handig als uw formulier veel velden bevat en u niet wilt scrollen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]:https://docs.superoffice.com/en/marketing/forms/recaptcha.html
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

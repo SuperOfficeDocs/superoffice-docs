@@ -41,6 +41,6 @@ You can also create your own templates in the applications you have chosen to us
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
-[7]: ../../../../en/document/templates/variables/index.md
+[7]:https://docs.superoffice.com/en/document/templates/variables/index.html
 
 <!-- Referenced images -->

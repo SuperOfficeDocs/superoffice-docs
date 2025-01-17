@@ -53,7 +53,7 @@ Sie können in den verschiedenen Komponenten von SuperOffice CRM Einstellungen f
 * [Globale Einstellungen][2] - im Einstellungen und Verwaltung
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

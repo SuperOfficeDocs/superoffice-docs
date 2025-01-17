@@ -116,6 +116,6 @@ Klicken Sie, wenn Sie fertig sind, auf **Bestätigen**.
 * [SharePoint-Dokumente][1] – technische Übersicht
 
 <!-- Referenced links -->
-[1]: ../../../../../en/document/cloud/sharepoint-documents/index.md
+[1]:https://docs.superoffice.com/en/document/cloud/sharepoint-documents/index.html
 
 <!-- Referenced images -->

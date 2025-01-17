@@ -38,7 +38,7 @@ Om de integratie te gebruiken, moet u 2 installatiestappen uitvoeren:
 <!-- Referenced links -->
 [1]: ../../../../email/gmail-link/learn/install.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/g-suite-integration
-[3]: ../../../../../en/document/cloud/g-suite/set-up.md
-[4]: ../../../../../en/document/cloud/g-suite/index.md
+[3]:https://docs.superoffice.com/en/document/cloud/g-suite/set-up.html
+[4]:https://docs.superoffice.com/en/document/cloud/g-suite/index.html
 
 <!-- Referenced images -->

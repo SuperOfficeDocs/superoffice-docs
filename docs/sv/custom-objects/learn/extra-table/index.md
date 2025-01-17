@@ -46,7 +46,7 @@ På denna skärm kan du redigera egenskaperna för en ny eller befintlig tabellm
 [1]: ../../../ui/blogic/learn/index.md
 [2]: create.md
 [3]: ../extra-field/create.md
-[4]: ../../../../en/custom-objects/udef/index.md
+[4]:https://docs.superoffice.com/en/custom-objects/udef/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

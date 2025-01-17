@@ -4,4 +4,4 @@ Hvis din organisation har licens til [Developer Tools][1], vises fanen **ERP** i
 Hvis et firma er knyttet til ERP-systemet, kan alle personer, der er tilknyttet dette firma, også knyttes til en tilsvarende enkeltperson i ERP-systemet.
 
 <!-- Referenced links -->
-[1]: ../../../en/admin/license/expander-services/tool-box.md
+[1]:https://docs.superoffice.com/en/admin/license/expander-services/tool-box.html

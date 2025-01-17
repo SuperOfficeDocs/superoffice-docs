@@ -84,7 +84,7 @@ Knappar fungerar på samma sätt som länkar. Du kan lägga till länkar för at
 8. I listan **Stil** väljer du stil för knappen. Förhandsgranskningen till höger kommer att uppdateras med den valda knappstilen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/ui/soprotocol/index.md
+[1]:https://docs.superoffice.com/en/ui/soprotocol/index.html
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

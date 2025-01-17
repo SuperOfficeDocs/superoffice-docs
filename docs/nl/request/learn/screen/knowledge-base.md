@@ -26,7 +26,7 @@ De **kennisdatabase** is toegankelijk vanuit het **Hoofdmenu** in de bovenste ba
 <!-- Referenced links -->
 [1]: ../external-document.md
 [2]: ../../../faq/learn/index.md
-[3]: ../../../../en/request/reply-templates/index.md
+[3]:https://docs.superoffice.com/en/request/reply-templates/index.html
 [4]: ../../../email/service/learn/kb-aliases/index.md
 
 <!-- Referenced images -->

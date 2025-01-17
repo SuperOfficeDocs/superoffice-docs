@@ -149,7 +149,7 @@ Bij het genereren van e-mailsjablonen voor verzoeken en mailings (en berichtsjab
 De referentie is gegroepeerd per gebied. [Ga naar referentie][1]
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
-[2]: ../../../en/document/templates/variables/from-company-card.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
+[2]:https://docs.superoffice.com/en/document/templates/variables/from-company-card.html
 
 <!-- Referenced images -->

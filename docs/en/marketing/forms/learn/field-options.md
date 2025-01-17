@@ -81,7 +81,7 @@ This is an overview of special options in some of the available fields.
 * **Section**: Add a section between the fields to [create a multi-page form][2]. Useful if your form contains many fields and you want to avoid scrolling.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]:https://docs.superoffice.com/en/marketing/forms/recaptcha.html
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

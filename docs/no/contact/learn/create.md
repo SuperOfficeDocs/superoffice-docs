@@ -109,7 +109,7 @@ I fanen **Interesser** finner du følgende alternativer:
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
+[1]:https://docs.superoffice.com/en/mobile/superoffice-mobile/company-contact/scan-business-card.html
 [2]: ../../admin/import/learn/index.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md

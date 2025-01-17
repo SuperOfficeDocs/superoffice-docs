@@ -24,6 +24,6 @@ Hier können Sie eine Verbindung zwischen Projekten in SuperOffice und Projekten
 Wenn bereits eine Verbindung besteht, können Sie auf **Jetzt Sync.** klicken, um die Daten zwischen SuperOffice CRM und dem ERP-System zu synchronisieren.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/admin/license/expander-services/tool-box.md
+[1]:https://docs.superoffice.com/en/admin/license/expander-services/tool-box.html
 
 <!-- Referenced images -->

@@ -31,6 +31,6 @@ Denne integrasjonen lar deg lagre alle dokumenter og e-poster i SharePoint Onlin
 
 <!-- Referenced links -->
 [1]: change-to-sharepoint.md
-[2]: ../../../../../en/document/cloud/overview.md
+[2]:https://docs.superoffice.com/en/document/cloud/overview.html
 
 <!-- Referenced images -->

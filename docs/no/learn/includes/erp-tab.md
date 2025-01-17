@@ -4,4 +4,4 @@ Hvis organisasjonen din har en lisens for [Developer Tools][1], vises **ERP-fane
 Hvis et firma er koblet til ERP-systemet, kan alle personer som er tilknyttet dette firmaet, også kobles til en matchende enkeltperson i ERP-systemet.
 
 <!-- Referenced links -->
-[1]: ../../../en/admin/license/expander-services/tool-box.md
+[1]:https://docs.superoffice.com/en/admin/license/expander-services/tool-box.html

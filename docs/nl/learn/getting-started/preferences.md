@@ -53,7 +53,7 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 * [Algemene voorkeuren][2] - in Instellingen en onderhoud
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

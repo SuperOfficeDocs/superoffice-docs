@@ -116,7 +116,7 @@ In the following example, we create a selection of all contacts registered today
 * [Learn more about GDPR, privacy and consent management in SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/security/privacy/index.md
+[1]:https://docs.superoffice.com/en/security/privacy/index.html
 [2]: ../../../learn/basics/bulk-update.md
 [3]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111362
 

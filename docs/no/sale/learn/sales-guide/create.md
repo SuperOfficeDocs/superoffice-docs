@@ -142,7 +142,7 @@ Agenda for første møte:
 **Standardoverskrift**: Møtebekreftelse (første møte)
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/for-sales.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/for-sales.html
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md

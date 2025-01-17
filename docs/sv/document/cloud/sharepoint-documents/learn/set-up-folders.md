@@ -37,7 +37,7 @@ Dokument i bibliotek ärver automatiskt behörigheten från själva biblioteket.
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../../../../admin/lists/learn/add-template.md
-[3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
+[3]:https://docs.superoffice.com/en/document/cloud/sharepoint-documents/set-up.html
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/document/admin-preferences-documentlibrary-sharepoint-permissions.png

@@ -9,7 +9,7 @@ I trinnet **Innhold** skriver du innholdet i SMS-en.
 > Antallet tegn (inkludert mellomrom) vises i feltet **Antall tegn**. En SMS-melding kan maksimalt bestå av 160 tegn. Hvis meldingen overskrider 160 tegn, blir den sendt som to eller flere meldinger.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/for-selected-contact.html
 [2]: ../../../../learn/editor.md#variables
 
 <!-- Referenced images -->

@@ -108,7 +108,7 @@ SuperOffice CRM är kompatibelt med alla de nyaste operativsystemen och webbläs
 [6]: login.md
 [7]: preferences.md
 [8]: connect-email-doc/index.md
-[9]: ../../../en/mobile/superoffice-mobile/index.md
+[9]:https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 [11]: ../basics/fav.md
 [12]: ../section-tabs/index.md
@@ -116,7 +116,7 @@ SuperOffice CRM är kompatibelt med alla de nyaste operativsystemen och webbläs
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
 [16]: ../../contact/learn/dial.md
-[21]: ../../../en/onsite/requirements/index.md
+[21]:https://docs.superoffice.com/en/onsite/requirements/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/learn/getstarted-personalsettings.png

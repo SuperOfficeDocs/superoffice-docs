@@ -43,7 +43,7 @@ Du kan koble udsendelsen til et specifikt salg. Det kan være relevant, hvis du 
 > Klik på knappen **Gem + luk** for at gemme udsendelsen og lukke den. Du kan arbejde videre på udsendelsen senere.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

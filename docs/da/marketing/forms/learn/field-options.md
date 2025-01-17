@@ -81,7 +81,7 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 * **Afsnit**: Tilføj en sektion mellem felterne for at [oprette en formular med flere sider][2]. Nyttigt, hvis formularen indeholder mange felter, og du vil undgå at rulle.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]:https://docs.superoffice.com/en/marketing/forms/recaptcha.html
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

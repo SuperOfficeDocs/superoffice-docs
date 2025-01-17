@@ -9,7 +9,7 @@ Im Schritt **Inhalt** können Sie den Inhalt der SMS eingeben.
 > Die Anzahl der Zeichen (inklusive Leerstellen) wird im Feld **Zeichenanzahl** angezeigt. Die Begrenzung der Zeichenanzahl für 1 SMS liegt bei 160. Wenn Sie 160 Zeichen überschreiten, werden 2 oder mehr Nachrichten versendet.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/for-selected-contact.html
 [2]: ../../../../learn/editor.md#variables
 
 <!-- Referenced images -->

@@ -149,7 +149,7 @@ Beim Erstellen von E-Mail-Vorlagen für Anfragen und Kampagnen (und Nachrichtenv
 Die Referenz ist nach Bereich gruppiert. [Gehen Sie zu Referenz][1]
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
-[2]: ../../../en/document/templates/variables/from-company-card.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
+[2]:https://docs.superoffice.com/en/document/templates/variables/from-company-card.html
 
 <!-- Referenced images -->

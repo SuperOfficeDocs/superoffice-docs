@@ -22,4 +22,4 @@ As an example, displaying an image through customer.fcgi, you can format it like
 > The "-0" from the end is removed. That actually indicates if the image should be shown in a browser or saved to a disk. Using the above syntax, you can enable saving to disk by appending "&saveToDisk=1" at the end of the URL.
 
 <!-- Referenced links -->
-[1]: ../../../docs/en/request/reply-templates/index.md
+[1]: https://docs.superoffice.com/en/request/reply-templates/index.html

@@ -43,7 +43,7 @@ Du kan knytte dokumentutsendelsen til et bestemt salg. Dette kan være aktuelt h
 > Klikk på **Lagre + lukk**-knappen for å lagre og lukke utsendelsen. Du kan fortsette å arbeide med utsendelsen senere.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

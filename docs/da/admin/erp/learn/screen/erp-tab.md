@@ -24,6 +24,6 @@ Her kan du oprette forbindelse mellem SuperOffice-projekter og projekter i ERP-s
 Hvis der allerede er oprettet en forbindelse, kan du klikke på **Synkroniser nu** for at synkronisere dataene mellem SuperOffice CRM og ERP-systemet.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/admin/license/expander-services/tool-box.md
+[1]:https://docs.superoffice.com/en/admin/license/expander-services/tool-box.html
 
 <!-- Referenced images -->

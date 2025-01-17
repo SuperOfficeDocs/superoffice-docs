@@ -44,7 +44,7 @@ För att konfigurera SharePoint som ditt dokumentbibliotek i SuperOffice behöve
 * [Upplev ett effektivt dokumentsamarbete och informationsutbyte med SharePoint och SuperOffice CRM][3] – blogg
 
 <!-- Referenced links -->
-[1]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
+[1]:https://docs.superoffice.com/en/document/cloud/sharepoint-documents/set-up.html
 [2]: set-up-folders.md
 [3]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/sharepoint-integration/
 [4]: ../../../../admin/preferences/learn/document-library/change-to-sharepoint.md

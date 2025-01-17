@@ -149,7 +149,7 @@ Når du genererer mailskabeloner til anmodninger og forsendelser (og meddelelses
 Referencen er grupperet efter område. [Gå til reference][1]
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
-[2]: ../../../en/document/templates/variables/from-company-card.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
+[2]:https://docs.superoffice.com/en/document/templates/variables/from-company-card.html
 
 <!-- Referenced images -->

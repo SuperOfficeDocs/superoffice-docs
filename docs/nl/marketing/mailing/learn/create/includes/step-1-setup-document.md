@@ -43,7 +43,7 @@ U kunt de mailing met document koppelen aan een bepaalde verkoop. Dit kan releva
 > Klik op de knop **Opslaan + sluiten** om de mailing op te slaan en te sluiten. U kunt later verder werken aan de mailing.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [19]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->

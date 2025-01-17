@@ -86,7 +86,7 @@ Knapper fungerer på samme måte som koblinger. Du kan sette inn koblinger for �
 8. Velg stilen på knappen i **Stil**-listen. Forhåndsvisningen til høyre oppdateres med den valgte knappestilen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/ui/soprotocol/index.md
+[1]:https://docs.superoffice.com/en/ui/soprotocol/index.html
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

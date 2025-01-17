@@ -116,6 +116,6 @@ Klicka på **Bekräfta** när du är klar.
 * [SharePoint-dokument][1] – teknisk översikt
 
 <!-- Referenced links -->
-[1]: ../../../../../en/document/cloud/sharepoint-documents/index.md
+[1]:https://docs.superoffice.com/en/document/cloud/sharepoint-documents/index.html
 
 <!-- Referenced images -->

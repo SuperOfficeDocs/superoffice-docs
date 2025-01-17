@@ -53,7 +53,7 @@ Du kan ange inställningar för olika delar av SuperOffice CRM, till exempel ant
 * [Globala inställningar][2] - i Inställningar och underhåll
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

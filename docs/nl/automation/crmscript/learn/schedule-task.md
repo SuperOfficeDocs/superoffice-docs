@@ -63,4 +63,4 @@ Klik op een taak in de lijst om de eigenschappen ervan te bewerken, zoals de laa
 * [Beste praktijken voor CRMScript][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
+[1]:https://docs.superoffice.com/en/automation/crmscript/code-quality/best-practices.html

@@ -80,6 +80,6 @@ Hvis en anonym bruker eller en systembruker ikke lenger skal ha mulighet til å 
 4. Klikk på **Slett**-knappen. Brukeren fjernes fra listen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/admin/license/expander-services/index.md
+[1]:https://docs.superoffice.com/en/admin/license/expander-services/index.html
 
 <!-- Referenced images -->

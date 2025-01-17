@@ -44,6 +44,6 @@ Sie können folgende Ereignisarten von der Ansicht Lizenzen in der Registerkarte
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../../../en/admin/license/index.md
+[2]:https://docs.superoffice.com/en/admin/license/index.html
 
 <!-- Referenced images -->

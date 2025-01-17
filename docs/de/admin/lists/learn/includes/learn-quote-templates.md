@@ -3,4 +3,4 @@
 > Für Infos über **Angebotsvorlagen** müssen Sie [hier klicken][1].
 
 <!-- Referenced links -->
-[1]: ../../../../../en/document/templates/quote/index.md
+[1]:https://docs.superoffice.com/en/document/templates/quote/index.html

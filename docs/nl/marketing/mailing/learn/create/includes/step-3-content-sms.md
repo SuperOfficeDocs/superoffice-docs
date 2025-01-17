@@ -9,7 +9,7 @@ Bij de stap **Inhoud** kunt u de inhoud van de SMS invoeren.
 > Het aantal tekens (inclusief spaties) wordt weergeven in het veld **Aantal tekens**. Het maximumaantal tekens voor 1 SMS-bericht bedraagt 160 tekens. Als uw bericht meer dan 160 tekens bevat, wordt het in 2 of meer berichten verzonden.
 
 <!-- Referenced links -->
-[1]: ../../../../../../en/document/templates/variables/for-selected-contact.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/for-selected-contact.html
 [2]: ../../../../learn/editor.md#variables
 
 <!-- Referenced images -->

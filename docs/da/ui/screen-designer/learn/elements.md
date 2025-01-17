@@ -84,7 +84,7 @@ Knapperne fungerer på samme måde som links. Du kan tilføje links til at slå 
 8. Vælg knappens typografi på listen**Typografi**. Forhåndsvisningen til højre opdateres med den valgte knaptypografi.
 
 <!-- Referenced links -->
-[1]: ../../../../en/ui/soprotocol/index.md
+[1]:https://docs.superoffice.com/en/ui/soprotocol/index.html
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

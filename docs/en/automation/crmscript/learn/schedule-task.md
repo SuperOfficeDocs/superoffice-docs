@@ -63,4 +63,4 @@ Click a task in the list to edit its properties, such as when it was last execut
 * [Best practices][1]
 
 <!-- Referenced links -->
-[1]: ../../../../en/automation/crmscript/code-quality/best-practices.md
+[1]:https://docs.superoffice.com/en/automation/crmscript/code-quality/best-practices.html

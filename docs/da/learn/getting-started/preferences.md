@@ -53,7 +53,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 * [Globale præferencer][2] - i Indstillinger og vedligeholdelse
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

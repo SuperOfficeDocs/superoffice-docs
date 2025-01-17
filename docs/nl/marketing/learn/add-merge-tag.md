@@ -36,7 +36,7 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 
 <!-- Referenced links -->
 [1]: ../mailing/learn/create/send-test-email.md
-[2]: ../../../en/document/templates/variables/index.md
+[2]:https://docs.superoffice.com/en/document/templates/variables/index.html
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/marketing/template-variable.png

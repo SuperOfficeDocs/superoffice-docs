@@ -84,7 +84,7 @@ Schaltflächen funktionieren ähnlich wie Links. Sie können Links zum Nachschla
 8. Wählen Sie in der Liste **Stil** den Stil für die Schaltfläche aus. Die Vorschau auf der rechten Seite wird anhand des ausgewählten Schaltflächenstils aktualisiert.
 
 <!-- Referenced links -->
-[1]: ../../../../en/ui/soprotocol/index.md
+[1]:https://docs.superoffice.com/en/ui/soprotocol/index.html
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

@@ -53,7 +53,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 * [Global preferences][2] - in Settings and maintenance
 
 <!-- Referenced links -->
-[1]: ../../../en/document/templates/variables/index.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/index.html
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

@@ -60,7 +60,7 @@ highlightedContent:
     - title: Mobile CRM
       itemType: /media/common/phone-h32.png
       isImage: "true"
-      url: ../../en/mobile/superoffice-mobile/index.md
+      url:https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -113,7 +113,7 @@ conceptualContent:
       - text: Versionsnoter
         itemType: new_releases
         typeDesc: whats-new
-        url: ../../../release-notes/index.md
+        url: https://docs.superoffice.com/release-notes/index.html
       - text: Ny sagshåndtering
         itemType: explore
         typeDesc: concept
@@ -253,7 +253,7 @@ conceptualContent:
       - text: Skabelonvariabler
         itemType: library_books
         typeDesc: reference
-        url: ../../en/document/templates/variables/index.md
+        url:https://docs.superoffice.com/en/document/templates/variables/index.html
 
     # Card
     - title: Sager

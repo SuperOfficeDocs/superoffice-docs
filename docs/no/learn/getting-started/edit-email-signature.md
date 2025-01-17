@@ -44,7 +44,7 @@ so.user.tooltip: SuperOffice CRM
 
 <!-- Referenced links -->
 [1]: ../../email/learn/change-default-mail-client.md
-[3]: ../../../en/document/templates/variables/for-selected-contact.md
+[3]:https://docs.superoffice.com/en/document/templates/variables/for-selected-contact.html
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/editor-toolbar-icon.png

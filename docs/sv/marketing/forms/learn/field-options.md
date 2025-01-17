@@ -81,7 +81,7 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 * **Avsnitt**: Lägg till ett avsnitt mellan fälten för att [skapa ett flersidigt formulär][2]. Praktiskt om ditt formulär innehåller många fält och du vill slippa rulla.
 
 <!-- Referenced links -->
-[1]: ../../../../en/marketing/forms/recaptcha.md
+[1]:https://docs.superoffice.com/en/marketing/forms/recaptcha.html
 [2]: create.md#multi-page
 
 <!-- Referenced images -->

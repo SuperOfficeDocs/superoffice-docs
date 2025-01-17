@@ -155,7 +155,7 @@ Recherche:
 * [Projektleitfaden deaktivieren][6]
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/templates/variables/from-project-card.md
+[1]:https://docs.superoffice.com/en/document/templates/variables/from-project-card.html
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../admin/lists/learn/document-template.md
