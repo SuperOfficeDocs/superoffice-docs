@@ -60,7 +60,7 @@ highlightedContent:
     - title: Mobile CRM
       itemType: /media/common/phone-h32.png
       isImage: "true"
-      url:https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
+      url: https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -253,7 +253,7 @@ conceptualContent:
       - text: Skabelonvariabler
         itemType: library_books
         typeDesc: reference
-        url:https://docs.superoffice.com/en/document/templates/variables/index.html
+        url: https://docs.superoffice.com/en/document/templates/variables/index.html
 
     # Card
     - title: Sager

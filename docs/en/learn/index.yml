@@ -60,7 +60,7 @@ highlightedContent:
     - title: Mobile
       itemType: /media/common/phone-h32.png
       isImage: "true"
-      url:https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
+      url: https://docs.superoffice.com/en/mobile/superoffice-mobile/index.html
 
 # conceptualContent section (optional)
 conceptualContent:
