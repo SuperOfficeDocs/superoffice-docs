@@ -4,8 +4,8 @@ title: Edit documents
 description: Editing documents; Deleting documents
 keywords: document, edit mode, read mode, completed, document properties, document content, SharePoint
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 01.17.2025
+version: 10.5.1
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -2,13 +2,14 @@
 uid: help-en-document-send
 title: Send a document as email
 description: Sending documents that are stored in SuperOffice CRM as attachments in emails is quick and easy.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: document, email, attachment
+author: SuperOffice RnD
+date: 01.17.2025
+version: 10.5.1
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Send a document as email

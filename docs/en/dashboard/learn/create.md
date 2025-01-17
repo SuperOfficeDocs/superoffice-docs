@@ -29,7 +29,7 @@ Watch this video or follow the steps below to learn how to add new dashboard tab
 4. Enter a description of the dashboard. The description is displayed at the top of the dashboard.
 
     > [!TIP]
-    > You can also add the name and description [in other languages][1] by clicking **A-Z**.
+    > You can also add the name and description [in other languages][1] by clicking <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Select the theme of the dashboard in the **Theme** list.
 

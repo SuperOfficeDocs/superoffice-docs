@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Document <i class="ph ph-file-doc" aria-hidden="true"></i>
+# Document <i class="ph ph-files" aria-hidden="true"></i>
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
@@ -27,14 +27,14 @@ You can open a document in [edit mode or in read mode][7]. When you open the doc
 
 | Icon | Property | Description |
 |:-:|---|---|
-| **A-Z** | Language | A list of available translations of the template. "Default" if untranslated. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Language | A list of available translations of the template. "Default" if untranslated. |
 | <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Date | Today's date (default). Click the arrow next to the **Date** field to open a monthly calendar where you can select the date you require. |
 | <i class="ph ph-text-align-left" aria-label="Align left"></i> | Subject | The heading of the document. |
 | <i class="ph ph-files" aria-label="Document"></i> | Template | A list of available [document templates][11], such as Letter or Quotation. |
 | <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Company / contact | Who the document concerns. |
 | <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sale | A sale linked to the document. |
 | <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Project | A project linked to the document. |
-| | Our ref | Allocated document number. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i>| Our ref | Allocated document number. |
 | | Your ref | The addressee's reference from their communication. |
 
 ## Create new
@@ -67,7 +67,7 @@ In SuperOffice CRM, you can easily create document templates for Word, Email, Ex
 
 The [More tab][12] displays custom fields for the document.
 
-## Related topics
+## Related content
 
 * [Connect email, documents and diary][9]
 * [Create new documents][3]

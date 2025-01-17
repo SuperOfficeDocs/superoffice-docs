@@ -28,7 +28,7 @@ Creating custom tabs allows you to group related fields in a way that makes sens
 
 2. Under Tab title, replace the text "New tab" with the new tab name.
 
-    You can also click **A-Z** to [add the tab name in other languages][3].
+    You can also click <i class="ph ph-translate" aria-label="Translate"></i> to [add the tab name in other languages][3].
 
 3. Select the number of columns you want to use in the new tab.
 
@@ -67,7 +67,7 @@ Labels and dividers help to organize fields within a tab, making the information
 2. Click to select the **Elements** section.
 3. To add a header, drag the **Label** element into the layout.
 
-    * In the **Settings** sections, replace "New label" with the new label name. Optionally, click **A-Z** to [add the tab name in other languages][9].
+    * In the **Settings** sections, replace "New label" with the new label name. Optionally, click <i class="ph ph-translate" aria-label="Translate"></i> to [add the tab name in other languages][9].
     * Adjust the font as needed.
 
 4. To add a horizontal divider, drag the **Divider** element into the layout. Change the spacer type if necessary.

@@ -21,7 +21,7 @@ language: en
 
 5. In the **Layout** tab, you can edit various settings, values and formatting of the tile. The preview on the right will update with the selected settings.
 
-6. Click **A-Z** to [add a translation][2] to the tile name, titles and labels.
+6. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][2] to the tile name, titles and labels.
 
 7. Click **Save**.
 

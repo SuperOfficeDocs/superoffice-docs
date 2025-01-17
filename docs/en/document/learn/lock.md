@@ -4,8 +4,8 @@ title: Check in/out documents
 description: Check in/out documents
 keywords: document, check in, lock document, edit mode, read mode, ask to edit or read, revert to saved version
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 01.17.2025
+version: 10.5.1
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -28,29 +28,11 @@ By default, a document is opened in edit mode. If you prefer to select read mode
 
 ## How do I know when a document is checked out?
 
-<!-- markdownlint-disable MD051 -->
-### [New (from version 10.3.11)](#tab/lock-new)
-
 In the **Document** dialog, a checked-out document displays a banner showing who is editing it.
 
 <i class="ph ph-warning-circle" aria-label="Warning icon"></i> **You** are editing this document.
 
 <i class="ph ph-warning-circle" aria-label="Warning icon"></i> You cannot edit this document because it is locked by **NN**.
-
-### [Classic (onsite)](#tab/lock-old)
-
-In the **Document** dialog, a checked-out document has one of the following icons:
-
-![icon][img3] The document is currently checked out for editing by you.
-
-![icon][img4] The document is currently checked out for editing by another user.
-
-Hold the mouse pointer over an icon to show information about the user who checked out the document.
-
-If you attempt to open a checked-out document, a dialog appears with information about who checked out the document. You can open the document in read mode only.
-
-***
-<!-- markdownlint-restore -->
 
 ## Check out a document for editing
 
@@ -78,5 +60,3 @@ If you or someone else checked out a document, and you want to edit the document
 [1]: edit.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/document-lock-editing.png
-[img4]: ../../../media/icons/document-lock-locked.png

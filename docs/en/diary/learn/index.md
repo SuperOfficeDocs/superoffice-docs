@@ -60,7 +60,7 @@ You can easily move between dates or time periods in the Diary:
 
 * Click **Today** or **This week** to return to the current day or week.
 
-## Tabs in the Diary
+## <a id="tabs"></a>Tabs in the Diary
 
 The Diary offers four main calendar views. Use these tabs to switch between different perspectives:
 

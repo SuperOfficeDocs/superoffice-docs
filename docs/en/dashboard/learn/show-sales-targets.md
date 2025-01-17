@@ -66,7 +66,7 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
     * Big number: You can edit the colors used to display targets.
     * Gauge chart: Use the option **Mark target at** to set the target on the gauge chart.
 
-12. Click **A-Z** to [add a translation][3] to the tile name, titles and labels.
+12. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][3] to the tile name, titles and labels.
 
 13. Click **Save**. Then click **Done**.
 

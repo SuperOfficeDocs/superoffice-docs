@@ -120,7 +120,7 @@ You can delete group views that you have created. Predefined group views cannot 
 * [Create follow-up for associate][4]
 
 <!-- Referenced links -->
-[2]: index.md#tab/view
+[2]: index.md#tabs
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

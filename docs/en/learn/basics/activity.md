@@ -25,7 +25,7 @@ There are two main types of activities – documents and follow-ups. In addition
   * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Follow-up (call)
   * <i class="ph ph-calendar-check" aria-hidden="true"></i> To-do (task)
 * [Documents][4]
-  * <i class="ph ph-file-doc" aria-hidden="true"></i> Document (letters and other documents)
+  * <i class="ph ph-files" aria-hidden="true"></i> Document (letters and other documents)
   * <i class="ph ph-at" aria-hidden="true"></i> Email
 * <i class="ph ph-target" aria-hidden="true"></i> [Mailings][3] (bulk mailings by merged document, email or SMS)
 * <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> [Chat sessions][12]

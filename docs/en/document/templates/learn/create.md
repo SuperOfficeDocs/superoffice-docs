@@ -48,7 +48,7 @@ To insert fields into your template, you can use one of the following methods:
 
 1. In **Field properties**, type your [field name][3](without «»):
 
-    ![Field properties -screenshot][img2]
+    ![Field properties in Microsoft Word -screenshot][img2]
 
 1. Click **OK** and the variable will be inserted in your document:
 
@@ -107,6 +107,6 @@ To show the price per unit after discounts, you can add a merge field like this:
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

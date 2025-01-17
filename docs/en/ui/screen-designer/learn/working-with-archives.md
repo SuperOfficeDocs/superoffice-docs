@@ -42,7 +42,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 
 1. Click **Add** to open the **Tab** section.
 
-1. Replace "New tab" with the archive name and enter a description for the new layout. Optionally, click **A-Z** to [add the texts in other languages][1].
+1. Replace "New tab" with the archive name and enter a description for the new layout. Optionally, click <i class="ph ph-translate" aria-label="Translate"></i> to [add the texts in other languages][1].
 
 1. Adjust the **Unique name for tab** (soprotocol) as needed.
 
