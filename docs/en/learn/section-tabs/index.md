@@ -4,10 +4,10 @@ title: The Section tabs
 description: The Section tabs
 keywords: section tab, archive
 author: Bergfrid Dias
-date: 04.09.2024
-version: 10.3.4
+date: 01.17.2025
+version: 10.5
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---

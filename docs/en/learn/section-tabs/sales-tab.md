@@ -4,8 +4,8 @@ title: Sales tab
 description: Learn how to manage and view sales information in the Sales section tab of SuperOffice CRM, including adding sales, filtering, and tracking sales activities across companies, contacts, and projects.
 keywords: sales tab, section tab, sales archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ The **Sales** section tab contains the following columns to display key informat
 
 | Column | Description |
 |---|---|
-| Completed | Checkbox indicating if the sale is completed. A ticked checkbox (![icon][img3]) means completed, while an empty box means it is ongoing. |
+| Completed | Checkbox indicating if the sale is completed. A ticked checkbox (<i class="ph ph-check" aria-hidden="true"></i>) means completed, while an empty box means it is ongoing. |
 | Status icon | Shows the current [status of the sale][4], such as sold, lost, or stalled. |
 | Sale date | The date related to the sale, which could be the estimated, sold, or lost date. |
 | Amount | The financial value of the sale. |
@@ -116,4 +116,3 @@ To add a new sale directly from the **Sales section** tab:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img3]: ../../../media/icons/check.png

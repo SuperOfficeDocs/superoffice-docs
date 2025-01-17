@@ -4,12 +4,12 @@ title: Changing the column view
 description: Changing the column view
 keywords: section tab, archive, column
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Configure columns
@@ -87,6 +87,6 @@ You can set columns widths to be adjusted automatically according to the content
 [3]: group.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

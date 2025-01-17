@@ -4,12 +4,12 @@ title: Filter the section tabs
 description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Filter the section tabs

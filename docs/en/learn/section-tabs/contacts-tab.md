@@ -4,8 +4,8 @@ title: Contacts tab
 description: Learn how to manage and interact with contact information linked to companies using the Contacts tab in SuperOffice CRM. Efficiently track personnel data and maintain communication records for seamless customer relations.
 keywords: contacts tab, section tab, contact archive, enable middle name
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.17.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

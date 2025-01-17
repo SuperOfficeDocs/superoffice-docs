@@ -4,12 +4,12 @@ title: Grouping lists
 description: You can group a list on one or more data types to get a better overview of the records in a section tab (archive).
 keywords: section tab, archive, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Grouping lists

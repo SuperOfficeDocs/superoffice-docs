@@ -2,10 +2,13 @@
 uid: help-en-section-tab-export
 title: Export archives
 description: Export archives
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: section tab, archive
+author: SuperOffice RnD
+date: 01.17.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -24,7 +27,7 @@ You can export all section tabs containing records in SuperOffice CRM to an Exce
 
 ## Export a section tab
 
-1. Select the records you want to export, and click <i class="ph ph-archive" aria-hidden="true"></i> **Export**. If you select no records, all will be exported.
+1. Select the records you want to export, and click <i class="ph ph-download-simple" aria-hidden="true"></i> **Export**. If you select no records, all will be exported.
 2. Microsoft Excel opens with the specified records entered into a new spreadsheet.
 3. Save the spreadsheet wherever you want.
 
