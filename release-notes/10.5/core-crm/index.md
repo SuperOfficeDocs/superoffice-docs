@@ -21,7 +21,7 @@ audience_tooltip: SuperOffice CRM
 * [Main cards - Edit and task moved to top (10.5.1)][1] in Core CRM
 * [Diary - Move of Todo list and View tab with different previews (10.5.1)][1] in Core CRM
 * [Side panel favourites (10.5.1)][1] in Core CRM
-* [SuperOffice AI Lab - Text field with AI options][1] (10.5.1) in Core CRM
+* [SuperOffice Copilot - Text field with AI options][1] (10.5.1) in Core CRM
 
 <!-- Referenced links-->
 [1]: 10.5.1-update.md
