@@ -11,11 +11,11 @@ items:
   items:
   - name: 10.5.1 update
     href: admin/10.5.1-update.md
-- name: Service
-  href: service/index.md
-  items:
-  - name: 10.5.1 update
-    href: service/10.5.1-update.md
+#- name: Service
+#  href: service/index.md
+#  items:
+#  - name: 10.5.1 update
+#    href: service/10.5.1-update.md
 #- name: Marketing
 #  href: marketing/index.md
 #  items:
