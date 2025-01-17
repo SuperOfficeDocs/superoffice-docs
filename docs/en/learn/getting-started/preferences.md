@@ -2,16 +2,17 @@
 uid: help-en-preferences-intro
 title: Preferences
 description: Overview of personal setting and how to change them.
+keywords: personal settings, preference, setting
 author: Bergfrid Dias
-date: 08.24.2023
-keywords: preference, setting
+date: 01.17.2025
+version: 10.5
 topic: howto
 audience: user
 audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Change a preference <i class="ph ph-user-circle" aria-label="Contact icon"></i>
+# Change a preference <i class="ph ph-user-circle" aria-hidden="true"></i>
 
 You can specify settings for different parts of SuperOffice CRM, for example, the number of items to display in the history list and the default currency for sales. All preference settings are defined in Settings and maintenance, but users can modify some individually in SuperOffice CRM.
 
@@ -34,8 +35,8 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 
 | Button | Option | Description |
 |---|---|---|
-| <i class="ph ph-check-circle" aria-label="Check"></i> | Default values | The default values in SuperOffice CRM. For example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents. |
-| <i class="ph ph-calendar" aria-label="Diary icon"></i> | Diary | The default settings for the diary and follow-ups, such as the default start time for the working day and the duration of alarms. |
+| <i class="ph ph-list-checks" aria-label="Check"></i> | Default values | The default values in SuperOffice CRM. For example, the default business for new companies, the default duration of follow-ups, the default template for outbound documents. |
+| <i class="ph ph-calendar-blank" aria-label="Diary icon"></i> | Diary | The default settings for the diary and follow-ups, such as the default start time for the working day and the duration of alarms. |
 | <i class="ph ph-toggle-right" aria-label="Functions"></i> | Functions | The general settings and functions, including if to display a Tip of the Day when you start SuperOffice (Show Tips on Startup). |
 | <i class="ph ph-question" aria-label="Question mark"></i> | In-app communication | The settings for the Resource Center and which parts of the in-app learning and communication to display. |
 | <i class="ph ph-at" aria-label="Email icon"></i> | Email | The settings for email and fax, for example, the email client you have installed. |
@@ -43,7 +44,7 @@ You can specify settings for different parts of SuperOffice CRM, for example, th
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Contact | The settings for contacts. |
 | <i class="ph ph-ticket" aria-label="Request icon"></i> | Request | The settings for requests. For notification settings, see "Notifications via..." above. |
 | <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sale | The settings for the sales function. |
-| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> <i class="ph ph-sort-descending" aria-hidden="true "></i> | Sorting | How associates, lists, and contacts should be sorted, for example, if to sort your associates by their last name. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> | Sorting | How associates, lists, and contacts should be sorted, for example, if to sort your associates by their last name. |
 | <i class="ph ph-gear" aria-label="Gear icon"></i> | System | The system settings such as your home country, currency, and default document archive. |
 | <i class="ph ph-magic-wand" aria-label="Magic wand"></i> | Visual effects | The settings for visual effects, for example, the number of items in the history list or if you want Sunday to be the first day of the week. |
 

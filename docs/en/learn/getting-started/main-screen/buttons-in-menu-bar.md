@@ -4,8 +4,8 @@ title: Buttons on the top bar
 description: Buttons on the top bar
 keywords: top bar, button, Personal settings menu, Main menu options
 author: Kirsti Aakerholt, Bergfrid Dias
-date: 12.19.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: reference
 audience: person
 audience_tooltip: SuperOffice CRM

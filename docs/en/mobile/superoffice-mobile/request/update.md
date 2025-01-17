@@ -48,7 +48,7 @@ Do one of the following:
 
 ## Assign, accept, delegate
 
-[!include[Owner](../../../request/learn/includes/request-owner.md)]
+For a request to be your responsibility, your name must appear in the request's Owner field.
 
 Whether you want to accept an unassigned request, take over for a colleague, or delegate to a request handler, the steps are the same. Do one of the following:
 

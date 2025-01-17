@@ -4,8 +4,8 @@ title: Navigator
 description: Navigator
 keywords: navigator, navigate, menu, side menu, left menu, user interface
 author: Bergfrid Dias
-date: 12.19.2024
-version: 10
+date: 01.17.2025
+version: 10.5
 topic: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -82,7 +82,7 @@ When you click a navigator button, one or more of the following options are disp
 
 If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
 
-![Example -screenshot][img2]
+![Navigator options in SuperOffice -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
@@ -122,5 +122,5 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [31]: ../preferences.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
+[img2]: ../../../../media/loc/en/learn/navigator-options.png
 [img1]: ../../../../../common/icons/hugo-green.png

@@ -4,8 +4,8 @@ title: Use side panel to work more efficiently
 description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on.
 keywords: side panel
 author: Bergfrid Dias
-date: 12.19.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -110,6 +110,10 @@ Administrators can define custom views for the side panel in **Settings and main
 
 ## FAQs and tips
 
+* Pin frequently used side panels for easy access at the top of the list by clicking the **star** icon.
+
+    ![Example of the side panel showing the favorites menu with pinned panels for easy access. -screenshot][img1]
+
 * Why is the side panel empty?
 
   If no contact is specified (for example, in a dynamic selection without **Include main contact**), the Contact side panel will not display information.
@@ -133,4 +137,5 @@ Administrators can define custom views for the side panel in **Settings and main
 [10]: ../../../sale/learn/index.md#side-panel
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/learn/pin-side-panel-favs.png
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

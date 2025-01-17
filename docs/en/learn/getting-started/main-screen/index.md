@@ -4,8 +4,8 @@ title: Main screen
 description: Main screen
 keywords: user interface, main screen, navigator, top bar, card, side panel, section tab, task menu, getting started
 author: Bergfrid Dias
-date: 12.19.2024
-version: 10
+date: 01.17.2025
+version: 10.5
 topic: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,7 +58,7 @@ You can adjust the size of the main card, side panel, and section tabs to better
 **Steps:**
 
 1. Hover your mouse between two elements.
-2. Click and drag to adjust the size (<i class="ph ph-split-horizontal" aria-hidden="true"></i> <i class="ph ph-split-vertical" aria-hidden="true"></i>).
+2. Click and drag to adjust the size (<i class="ph ph-arrows-horizontal" aria-hidden="true"></i> <i class="ph ph-arrows-vertical" aria-hidden="true"></i>).
 3. Release the mouse when the layout looks good.
 
 > [!NOTE]
