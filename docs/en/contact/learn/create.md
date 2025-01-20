@@ -67,7 +67,7 @@ You can add a contact to SuperOffice CRM in multiple ways:
 
 The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the Company screen.
 
-## Key fields explained
+## <a id="fields"></a>Key fields explained
 
 The following fields are available in the Contact card. Some fields are filled automatically, while others require input.
 

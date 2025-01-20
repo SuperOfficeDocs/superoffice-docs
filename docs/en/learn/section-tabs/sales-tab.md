@@ -4,7 +4,7 @@ title: Sales tab
 description: Learn how to manage and view sales information in the Sales section tab of SuperOffice CRM, including adding sales, filtering, and tracking sales activities across companies, contacts, and projects.
 keywords: sales tab, section tab, sales archive
 author: Bergfrid Skaara Dias
-date: 01.17.2025
+date: 01.20.2025
 version: 10.5
 topic: howto
 audience: person

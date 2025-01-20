@@ -4,7 +4,7 @@ title: Grouping lists
 description: You can group a list on one or more data types to get a better overview of the records in a section tab (archive).
 keywords: section tab, archive, filter
 author: Bergfrid Dias
-date: 01.17.2025
+date: 01.20.2025
 version: 10.5
 topic: howto
 audience: person
@@ -55,12 +55,9 @@ Now, a new row is displayed above the column headers.
 
 1. To remove a grouping column you have selected, click the X behind the column. The list of records in the archive is updated immediately.
 
-    ![Press the X to remove a grouping column -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

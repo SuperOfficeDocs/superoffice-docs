@@ -4,7 +4,7 @@ title: Filter the section tabs
 description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
-date: 01.17.2025
+date: 01.20.2025
 version: 10.5
 topic: howto
 audience: person
@@ -96,13 +96,9 @@ Now, all the columns in your archive have a funnel icon behind them.
 
     For example, if you are looking for a document created by one of your colleagues, select their name and the type of document you are looking for.
 
-    ![Click Filter to set it and show the filtered archive -screenshot][img13]
-
 1. Click **Filter**. The section tab is updated with the records that match the filter. Filtered columns are displayed in bold text.
 
 1. Repeat the previous step to filter by a second column.
-
-    ![See the archive with less entities.-screenshot][img14]
 
 ## Remove filter
 
@@ -114,7 +110,18 @@ Now, all the columns in your archive have a funnel icon behind them.
 
 Click <i class="ph ph-funnel" aria-label="Filter icon"></i> and **Reset** to reset the filter.
 
-## Related topics
+## Troubleshooting
+
+* **I do not see the funnel icon:**
+    Make sure column filters are enabled. Click the <i class="ph ph-gear" aria-label="Gear"></i> icon next to the column headers and select **Enable filter**.
+
+* **The expected records are not displayed:**
+    Review your active filters by hovering over the funnel icon or check your filter settings for each column. Reset filters if necessary by clicking **Reset**.
+
+* **I do not see the column I need:**
+    Click the <i class="ph ph-gear" aria-label="Gear"></i> icon next to the column headers, then inspect **Columns selected**. Add the missing column by selecting it from the list.
+
+## Related content
 
 * [Grouping lists][1]
 * [Filter the list of selection members][2]
@@ -126,5 +133,3 @@ Click <i class="ph ph-funnel" aria-label="Filter icon"></i> and **Reset** to res
 <!-- Referenced images -->
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png
