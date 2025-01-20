@@ -88,7 +88,7 @@ items:
     - name: New tenant or production sandbox
       href: tenants/get.md
   - name: Analytics
-    href: analytics/metered-services.md.md
+    href: analytics/metered-services.md
     items:
     - name: View API call statistics
       href: analytics/metered-services.md
