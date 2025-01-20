@@ -11,7 +11,7 @@ topic: reference
 
 # API changes
 
-* [FEATURE (10.5.1)][1]
+* [Version 10.5.1][1]
 
 <!-- Referenced links-->
 [1]: 10.5.1-update.md
