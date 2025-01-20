@@ -24,7 +24,7 @@ The Machine-learning categorization service is enabled in Settings and maintenan
 1. Open the Sales client.
 
 2. Create a selection of requests to use for analysis:
-     * Click either **Find** or **New > Selection**.
+     * Click either <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> or **New > Selection**.
 
     ![x -screenshot][img2]
 

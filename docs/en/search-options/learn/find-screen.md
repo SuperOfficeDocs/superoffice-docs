@@ -2,10 +2,13 @@
 uid: help-en-find-screen
 title: Find screen
 description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
-author: SuperOffice RnD
-date: 12.13.2023
 keywords: search, find, typical, criteria, or, selection
+author: SuperOffice RnD
+date: 01.20.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -65,7 +68,7 @@ After following the above steps, and search results are displayed in the **Resul
 
 * **Display a record in the side panel:** Use the [side panel][4] to quickly browse through the search results. If you have searched for contact, select **Contacts** in the list at the top of the side panel. You can then click on each contact in the **Results** tab to preview them.
 
-* **Perform tasks on the search results:** The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) contains tasks such as:
+* **Perform tasks on the search results:** The **Task** button contains tasks such as:
 
   * Send a mailing and create activities
   * Manage the information in your selection

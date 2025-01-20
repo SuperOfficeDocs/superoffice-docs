@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 01.17.2025
 version: 10.5
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---

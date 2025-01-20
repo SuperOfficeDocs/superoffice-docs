@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: dashboard, request
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice Service
 language: en
 ---
