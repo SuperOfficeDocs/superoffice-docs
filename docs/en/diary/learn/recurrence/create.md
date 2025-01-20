@@ -2,11 +2,14 @@
 uid: help-en-recurrence-set
 title: Schedule repeating follow-up
 description: Instead of recording these meetings one at a time, you can schedule repeating follow-ups
+keywords: set recurrence pattern, repeating follow-up, repeat, recur, frequency, schedule, pattern, diary, follow-up, 
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, repeat, recur, frequency, schedule, pattern
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -14,13 +17,11 @@ language: en
 
 To set up recurrence means to schedule the *start date* of follow-ups in a series. At the upper left of the dialog, the start date and time for the follow-up as well as the end time are displayed.
 
-[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
-
 ## Steps
 
 1. [Open or create a follow-up][2].
 
-1. Click the repeat icon ![icon][img1] and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
+1. Click <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> and select one of the suggested frequencies. If none of the patterns work for you, select **Custom**.
 
     ![Follow-up dialog, suggested recurrence -screenshot][img8]
 
@@ -40,7 +41,9 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 
 1. Click **Save** in the **Follow-up** dialog to save all changes.
 
-## What would you like to find out more about?
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
+
+## Related content
 
 * [Edit repeating follow-up][1]
 * [Stop repeating follow-up][3]
@@ -51,6 +54,5 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

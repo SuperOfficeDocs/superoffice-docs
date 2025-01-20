@@ -33,7 +33,7 @@ In the **Charts** tab you can click a chart type to display the data in the acti
 
 * ![icon][img1]: Opens a preview of a chart. Here you can also see the data source table for the chart.
 
-* ![icon][img2]: Refreshes the chart with updated data.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> : Refreshes the chart with updated data.
 
 > [!NOTE]
 > Go to **Dashboard** in the navigator to view charts of ALL SuperOffice data.
@@ -52,5 +52,4 @@ Some charts might tell you there is No data available. This means that your sele
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

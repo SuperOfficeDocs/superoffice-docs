@@ -18,11 +18,5 @@ If SuperOffice is connected to several ERP system, and there are several Sync Co
 1. Go to the **Sync** tab in the Quote/Sync screen.
 2. Click **Set Sync Priority** at the bottom of the **ERP connections** list.
 3. In the dialog, select an ERP connection that you want to set the sync priority for.
-4. Click the ![icon][img1] ![icon][img2] arrows at the bottom to set the priority.
+4. Click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> at the bottom to set the priority.
 5. Click **Done** when you have set the priority for the ERP connections.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

@@ -18,7 +18,7 @@ After your SuperOffice CRM solution is configured and customized, it is time to 
 Administrators are responsible for providing new users with a user plan, a username, a password and the user group the user belongs to. You can add users to SuperOffice CRM in Settings and maintenance.
 
 > [!NOTE]
-> If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and Maintenance.
+> If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and maintenance.
 >
 > This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
 

@@ -220,7 +220,7 @@ conceptualContent:
       - text: The Diary screen
         itemType: library_books
         typeDesc: reference
-        url: ../diary/learn/screen/index.md
+        url: ../diary/learn/index.md
 
     # Card
     - title: Document
@@ -250,15 +250,15 @@ conceptualContent:
       - text: New request
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/create.md
+        url: ../request/learn/create.md
       - text: Accept request
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/accept.md
+        url: ../request/learn/accept.md
       - text: Reply to customer
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/reply.md
+        url: ../request/learn/reply.md
       - text: Work with reply templates
         itemType: list
         typeDesc: how-to-guide

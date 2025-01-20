@@ -15,7 +15,7 @@ language: en
 
 1. Open one of the selections you want to combine.
 
-1. Click the **Task** button and select **Combine selection with**. A new selection screen opens.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Combine selection with**. A new selection screen opens.
 
 1. Type the name of the new selection in the field containing *Selection name* . This field is mandatory.
 

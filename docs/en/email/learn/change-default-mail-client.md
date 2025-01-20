@@ -12,7 +12,7 @@ topic: howto
 # Change default mail client in SuperOffice
 
 1. Open SuperOffice CRM.
-2. Choose ![icon][img1] **Personal settings** > **Preferences**.
+2. Choose <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 3. Select **Email**.
 4. In the **Email client** field, select your preferred mail client.
 5. Click **Save**.
@@ -20,8 +20,3 @@ topic: howto
 
 > [!TIP]
 > In SuperOffice CRM for Web you may also change default mail client in the login screen. When you click **Settings**, an **Email client** field will appear.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

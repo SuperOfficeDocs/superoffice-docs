@@ -29,7 +29,7 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 
 1. To update specific records, select them in the list.
 
-1. Click the **Task** button and select **Bulk update**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Bulk update**.
 
 1. Follow the steps for [Bulk update][2].
 

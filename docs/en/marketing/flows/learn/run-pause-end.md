@@ -43,7 +43,7 @@ To temporarily halt a running flow:
 
 * This action freezes the current status for all participants, who remain at their current step.
 * **Triggers remain active**, causing the participant list to continue growing. New participants enroll but are placed in a queue.
-* The **Edit** button is accessible, allowing flow administrators to make updates to the flow (with some limitations).
+* The **Edit** button (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) is accessible, allowing flow administrators to make updates to the flow (with some limitations).
 
 ## Resume flow (paused > running)
 
@@ -58,7 +58,7 @@ To restart a paused flow, toggle the switch to **ON** in the **View flow** scree
 To end the flow:
 
 1. Open the flow.
-1. Select **Task** > **End flow**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **End flow**.
 
 * The flow's status changes to **Not running**.
 * All triggers for this flow are deactivated and enrollment ceases. No new participants will be added to the flow.
@@ -72,7 +72,7 @@ If flow is started again after ending it, only new participants go through the f
 ## <a id="delete"></a>Delete flow
 
 1. Pause the flow.
-1. Select **Task** > **Delete flow**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
 1. Confirm the action.
 
 This option is available both in the **View flow** screen and in the overview of all flows.
@@ -85,7 +85,7 @@ All required settings must be valid before the flow can run. For example, a flow
 
 ### Unable to delete flow
 
-You cannot delete a running flow. First, pause the flow and then select **Task** > **Delete flow**.
+You cannot delete a running flow. First, pause the flow. Then click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
 
 ## Related content
 

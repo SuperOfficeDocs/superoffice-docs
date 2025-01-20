@@ -15,7 +15,7 @@ It may useful to copy specific selection members into another selection, for exa
 
 1. [!include[Start](../includes/steps-start-task.md)]
 
-2. Click the **Task** button and select **Copy into selection** task.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Copy into selection** task.
 
 3. In the **Copy into Selection** dialog, select one of the following:
 

@@ -42,7 +42,7 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Select the **Contact - Name** field, and click the red X to remove this field.
 
-1. Click ![icon][img1] and add the following fields:
+1. Click <i class="ph ph-plus" aria-label="Add"></i> and add the following fields:
 
     * First and last name.
 
@@ -121,7 +121,6 @@ The example does not cover every field and option, but you can find comprehensiv
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

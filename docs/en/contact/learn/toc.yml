@@ -1,23 +1,20 @@
 items:
 - name: Overview
   href: index.md
-- name: Work with contact
-  topicHref: create.md
-  items:
-  - name: Create new contact
-    href: create.md
-  - name: Edit contact
-    href: edit.md
-  - name: Move a contact
-    href: move.md
-  - name: Merge contacts
-    href: merge-contacts.md
-  - name: Delete a contact
-    href: delete.md
-  - name: Send email to a contact
-    href: send-email.md
-  - name: Dial contact
-    href: dial.md
+- name: Create new contact
+  href: create.md
+- name: Edit contact info
+  href: edit.md
+- name: Move a contact
+  href: move.md
+- name: Merge contacts
+  href: merge-contacts.md
+- name: Delete a contact
+  href: delete.md
+- name: Send email to a contact
+  href: send-email.md
+- name: Dial contact
+  href: dial.md
 - name: Privacy settings and GDPR
   href: ../../security/privacy/learn/toc.yml
   topicHref: ../../security/privacy/learn/index.md

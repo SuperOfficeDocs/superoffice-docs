@@ -1,29 +1,28 @@
 ---
 uid: help-en-erp-tab
-title: ERP tab
+title: The ERP tab
 description: ERP tab
+keywords: ERP tab, ERP
 author: SuperOffice RnD
-date: 12.13.2023
-keywords: ERP
+date: 12.17.2024
 topic: reference
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 
 # The ERP tab
 
-If your organization has a license for [Developer Tools][1], the **ERP** tab is displayed in the Contact and Project screens.
+The **ERP** tab is displayed if your organization has a license for [Development Tools][1]. It allows integration between SuperOffice CRM and your ERP system, facilitating data sharing between the two.
 
-## Contact screen
+* **Company** and **Contact** screens: Link a company and its associated contacts to matching records in the ERP system.
 
-If a company is connected to the ERP system, any contacts associated with this company can also be connected to a matching individual in the ERP system.
+* **Project** screen: Establish connections between SuperOffice projects and ERP projects. If a connection exists, click **Sync Now** to synchronize the data.
 
-## Project screen
+This integration ensures data consistency across systems, reducing manual updates and errors.
 
-Here you can create a connection between SuperOffice projects and projects in the ERP system.
-
-If a connection has already been created, you can click **Sync Now** to synchronize the data between SuperOffice CRM and the ERP system.
+[!NOTE]
+The ERP tab will only appear for users with the appropriate license and settings enabled in Settings and maintenance.
 
 <!-- Referenced links -->
 [1]: ../../../../../en/admin/license/expander-services/tool-box.md
-
-<!-- Referenced images -->

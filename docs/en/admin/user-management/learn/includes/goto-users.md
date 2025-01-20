@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Select ![icon][img1] **Users** in the Navigator.
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-users-active.png
+Select <i class="ph ph-user" aria-hidden="true"></i> **Users** in the Navigator.

@@ -12,9 +12,9 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Global preferences
+# Global preferences <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-The **Global Preferences** under ![icon][img1] **Preferences** is used to configure some of the key preferences in SuperOffice CRM.
+The **Global Preferences** under **Preferences** is used to configure some of the key preferences in SuperOffice CRM.
 
 Areas you can configure preferences for:
 
@@ -41,4 +41,3 @@ Areas you can configure preferences for:
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

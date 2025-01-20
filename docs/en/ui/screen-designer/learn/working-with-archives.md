@@ -42,7 +42,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 
 1. Click **Add** to open the **Tab** section.
 
-1. Replace "New tab" with the archive name and enter a description for the new layout. Optionally, click ![icon][img3] to [add the texts in other languages][1].
+1. Replace "New tab" with the archive name and enter a description for the new layout. Optionally, click <i class="ph ph-translate" aria-label="Translate"></i> to [add the texts in other languages][1].
 
 1. Adjust the **Unique name for tab** (soprotocol) as needed.
 
@@ -57,7 +57,7 @@ You can add a new section tab on any screen with a section tab area. Depending o
 1. (Optional) Use **Advanced options** to customize single-click and double-click actions. By default a single-click will select a row, and a double-click will open a record/entity in SuperOffice.
 
     > [!TIP]
-    > Hold the mouse-pointer over the info icon ![icon][img4] for examples.
+    > Hold the mouse-pointer over <i class="ph ph-info" aria-label="Info"></i> for examples.
 
 1. Drag the archive to the desired position in the preview.
 
@@ -77,7 +77,7 @@ To modify an existing archive tab, select it and update the fields and settings 
 
 1. Select the archive or section tab.
 
-1. Click **Task** > **Remove tab**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Remove tab**.
 
 1. Confirm by clicking **OK**. The tab will be hidden but not deleted.
 
@@ -97,8 +97,6 @@ To undo these changes, click **Restore tabs**.
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../common/icons/az.png
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

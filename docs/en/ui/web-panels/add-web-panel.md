@@ -12,7 +12,7 @@ topic: howto
 
 ## In Sales
 
-1. Sign in to SuperOffice CRM as an Administrator, then click Settings and Maintenance in the hamburger menu, between your profile image and the Help menu.
+1. Sign in to SuperOffice CRM as an Administrator, then click Settings and maintenance in the hamburger menu, between your profile image and the Help menu.
 2. Select **Lists**.
 3. Using the drop-down at the top, select **GUI - Web panel**. Then click **Add** (bottom left corner).
 4. Enter name (UI label) and window name (ID).

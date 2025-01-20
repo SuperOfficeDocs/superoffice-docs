@@ -4,8 +4,8 @@ title: Sales tab
 description: Learn how to manage and view sales information in the Sales section tab of SuperOffice CRM, including adding sales, filtering, and tracking sales activities across companies, contacts, and projects.
 keywords: sales tab, section tab, sales archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ The **Sales** section tab contains the following columns to display key informat
 
 | Column | Description |
 |---|---|
-| Completed | Checkbox indicating if the sale is completed. A ticked checkbox (![icon][img3]) means completed, while an empty box means it is ongoing. |
+| Completed | Checkbox indicating if the sale is completed. A ticked checkbox (<i class="ph ph-check" aria-hidden="true"></i>) means completed, while an empty box means it is ongoing. |
 | Status icon | Shows the current [status of the sale][4], such as sold, lost, or stalled. |
 | Sale date | The date related to the sale, which could be the estimated, sold, or lost date. |
 | Amount | The financial value of the sale. |
@@ -59,7 +59,7 @@ The **Sales** section tab contains the following columns to display key informat
 
 ### Filter sales
 
-You can filter the list of sales by date, user, or group by clicking the **Filter** button (![icon][img2]). This helps focus on specific sales activities that need attention.
+You can filter the list of sales by date, user, or group by clicking the **Filter** button (<i class="ph ph-funnel" aria-hidden="true"></i>). This helps focus on specific sales activities that need attention.
 
 ### Include stakeholders
 
@@ -105,16 +105,14 @@ To add a new sale directly from the **Sales section** tab:
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/check.png

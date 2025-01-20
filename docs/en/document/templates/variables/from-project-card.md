@@ -1,7 +1,7 @@
 ---
 uid: help-en-tempvar-project-card
 title: Variables from the Project card
-description: Variables from the project card
+description: Variables from the Project card
 keywords: template variable, project
 author: Bergfrid Dias
 date: 07.17.2024

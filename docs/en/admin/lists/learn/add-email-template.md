@@ -48,9 +48,9 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking ![icon][img1].
+1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking **A-Z**.
 
-2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking ![icon][img1].
+2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking **A-Z**.
 
 3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 
@@ -58,9 +58,9 @@ Enter the following information in the **Details** tab:
 
 5. Optionally, type in a description of the template in the **Description** field.
 
-6. In the **Direction** field, specify if the template is outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
+6. In the **Direction** field, specify if the template is outgoing or incoming by clicking <i class="ph ph-caret-down" aria-label="Chevron"></i> and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
-7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][5]).
+7. In the **Intention** field, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select one of the predefined options from the list box. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][5]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
@@ -83,15 +83,11 @@ Here you can add translated versions of the document template.
 5. Repeat the steps above to add additional languages.
 
 > [!TIP]
-> Click ![icon][img1] next to the relevant field to [add translations][1] of the template name and email subject.
+> Click **A-Z** next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

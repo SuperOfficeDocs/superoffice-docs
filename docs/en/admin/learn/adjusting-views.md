@@ -33,7 +33,7 @@ Many of the screens in Settings and maintenance consist of different tabs (such 
 
 There are different list views in Settings and maintenance, for example, lists of preferences, lists of lists and lists of user-defined fields. To adjust the column widths in these views:
 
-1. Hold the mouse pointer over the vertical dividing line to the left or right of a column heading. The mouse pointer changes into ![icon][img3], a double vertical line with arrows.
+1. Hold the mouse pointer over the vertical dividing line to the left or right of a column heading. The mouse pointer changes into a double vertical line with arrows (<i class="ph ph-split-horizontal" aria-hidden="true"></i>).
 2. Click and drag the divider in the required direction to increase or decrease the column width.
 
 The columns will retain the specified widths the next time you run the program.
@@ -46,22 +46,13 @@ You can select which columns are displayed in the lists, as well as their order.
 
 2. Make the required changes in the columns:
 
-    * Add columns: In the **Available columns** pane, select the columns you want to add and click the ![icon][img1] right arrow to move them to the **Columns selected** pane.
+    * Add columns: In the **Available columns** pane, select the columns you want to add and click the right arrow to move them to the **Columns selected** pane.
 
-    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the ![icon][img2] left arrow to move them to the **Available columns** pane.
+    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the left arrow to move them to the **Available columns** pane.
 
-    * Change the order of the columns: In the **Columns selected** pane, select the column that you want to move left or right in the view and click either the ![icon][img4] up arrow or the ![icon][img5] down arrow.
+    * Change the order of the columns: In the **Columns selected** pane, select the column that you want to move left or right in the view and click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> or <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>.
 
 3. Click **Save**.
 
 > [!TIP]
 > To reset the column layout, click **Reset** at the bottom of the **Columns selected** pane.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.png
-[img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/arrow-down.png

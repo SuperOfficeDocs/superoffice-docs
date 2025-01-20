@@ -1,11 +1,14 @@
 ---
 uid: help-en-follow-up-send
-title: Sending follow-ups
+title: Send a follow-up as an email
 description: Sending follow-ups
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: diary, follow-up
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

@@ -18,7 +18,7 @@ A contact who is going to have access to a customer centre needs a user name and
 
 1. Open the Contact screen.
 
-1. Click ![icon][img1] **Task** and select **Manage customer centre user**.
+1. Click **Task** and select **Manage customer centre user**.
 
 1. Click **Send password**.
 
@@ -30,8 +30,3 @@ A contact who is going to have access to a customer centre needs a user name and
 
 > [!TIP]
 > The content of the message is obtained from an installed system template. You can find this under **Knowledge base** > **Reply templates**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png

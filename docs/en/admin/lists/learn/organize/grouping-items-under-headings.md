@@ -28,7 +28,7 @@ If you want a list with two levels, you must select headings for each individual
 
 4. Check **Use grouping and user group filtering for this list** in the upper right.
 
-5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (![icon][img1]).
+5. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (<i class="ph ph-check" aria-hidden="true"></i>).
 
     The changes are saved automatically.
 
@@ -63,6 +63,3 @@ If you want a list with two levels, you must select headings for each individual
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

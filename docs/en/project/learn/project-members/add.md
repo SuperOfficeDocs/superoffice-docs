@@ -2,9 +2,9 @@
 uid: help-en-project-member-add
 title: Add project members
 description: How to add a project member in SuperOffice
-keywords: project, member
+keywords: add project member, new project member, Add/edit project members dialog, project member, project
 author: Bergfrid Dias
-date: 11.19.2024
+date: 01.06.2025
 version: 10.3.12
 topic: howto
 audience: person
@@ -20,7 +20,7 @@ When adding members to a project, you can assign functions individually as you a
 
 ## Steps
 
-1. Open the project (see [Use the Find screen][1]) and go to the **Project Members** section tab.
+1. Open the project (see [Use the Find screen][1]) and go to the **Project members** section tab.
 
 1. Click **Add** below the section tab. The **Add/edit project members** dialog opens.
 
@@ -32,11 +32,11 @@ When adding members to a project, you can assign functions individually as you a
 
       ![Add/edit project members dialog, history -screenshot][img5]
 
-    * User group: Click ![icon][img2] to browse associates by group.
+    * User group: Click <i class="ph ph-users" aria-label="Associate icon"></i> to browse associates by group.
 
       ![Add/edit project members dialog, group -screenshot][img6]
 
-    * Company: Click ![icon][img3] to browse contacts by company or add a company as a member.
+    * Company: Click <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> to browse contacts by company or add a company as a member.
 
       ![Add/edit project members dialog, company -screenshot][img7]
 
@@ -50,7 +50,7 @@ When adding members to a project, you can assign functions individually as you a
 
 ## <a id="from-section-tab"></a>Add project members and stakeholders from section tabs
 
-You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project Members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
+You can add project members and stakeholders from the contact lists in different section tabs, for example **Company** (**Contacts**), **Selection** (**Company/Contact**), **Sale** (**Stakeholders**) and **Project** (**Project members**). Thus procedure below can also be performed from the **Result** tab in the [Find screen][1].
 
 **Steps:**
 
@@ -73,13 +73,13 @@ You can add project members and stakeholders from the contact lists in different
 
 * **Missing person:** If a person is not listed, [create the contact][3] first.
 
-* **Missing roles:** Available [functions][5] are defined in Settings and Maintenance.
+* **Missing roles:** Available [functions][5] are defined in Settings and maintenance.
 
 ## Tips
 
 * **Add comments**
 
-    If a comment is added, a ![icon][img1] paperclip will appear next to the **Project member information** column in the **Project Members** tab. Hover over the paperclip to see the comment tooltip.
+    If a comment is added, a paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) will appear next to the **Project member information** column in the **Project members** tab. Hover over the paperclip to see the comment tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ You can add project members and stakeholders from the contact lists in different
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

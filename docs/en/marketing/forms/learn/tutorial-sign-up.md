@@ -42,7 +42,7 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Select the **Contact - Name** field, and click the red X to remove this field.
 
-1. Click ![icon][img1] and add the following fields:
+1. Click <i class="ph ph-plus" aria-label="Add"></i> and add the following fields:
 
     * First and last name.
 
@@ -107,9 +107,9 @@ The example does not cover every field and option, but you can find comprehensiv
     The SuperShop Team
     </details>
 
-1. Select **Insert confirm link** ![icon][img3] from the toolbar. The confirmation link is inserted in the body text.
+1. Select **Insert confirm link** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) from the toolbar. The confirmation link is inserted in the body text.
 
-1. Click the confirmation link, select **Edit link** ![icon][img5], and change the link text to "Click here to confirm your email address". The link is valid for 30 minutes by default.
+1. Click the confirmation link, select **Edit link** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), and change the link text to "Click here to confirm your email address". The link is valid for 30 minutes by default.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -165,9 +165,6 @@ The example does not cover every field and option, but you can find comprehensiv
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

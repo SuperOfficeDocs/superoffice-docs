@@ -38,7 +38,7 @@ Deleting project members doesn't delete the actual person. It only severs the li
 
 Using a guide will simplify and structure the process for the project manager with suggestions for which follow-ups to do and which documents to create at each stage.
 
-![Project guide -screenshot][img2]
+![A project guide will help the team have a constant overview of the project status -screenshot][img4]
 
 ## Project type
 
@@ -96,5 +96,5 @@ When working with projects, data will often intersect with the following entitie
 [17]: ../../api/reference/soap/services88/project/index.md
 
 <!-- Referenced images -->
-[img1]: media/project.png
-[img2]: media/project-guide.png
+[img1]: ../../../media/loc/en/project/project-card.png
+[img4]: ../../../media/loc/en/project/project-guide-create.png

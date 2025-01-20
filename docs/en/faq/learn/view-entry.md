@@ -13,7 +13,7 @@ language: en
 
 # View FAQ entries (in SuperOffice)
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**. This takes you to the FAQ screen, which contains FAQ entries in a [folder structure][1] that you can create and edit yourself.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**. This takes you to the FAQ screen, which contains FAQ entries in a [folder structure][1] that you can create and edit yourself.
 
 2. If the list contains several sub-folders, go to the one you require.
 
@@ -41,6 +41,3 @@ To publish the current FAQ entry, select **Move forward in workflow**. To un-pub
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

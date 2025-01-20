@@ -26,7 +26,7 @@ After the mailing is sent, SuperOffice Marketing collects data about the status 
 
 2. In the **View mailing** screen, click the **Recipients** tab.
 
-    The list shows the 100 first recipients. Click ![icon][img1] to show the next 100.
+    The list shows the 100 first recipients. Click <i class="ph ph-arrow-right" aria-label="Arrow right"></i> to show the next 100.
 
 3. [Filter the list](#filters) by using the checkboxes at the bottom of the list.
 
@@ -68,7 +68,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 Using the **Action** button you can add recipients and clickers to a selection or project.
 
 > [!NOTE]
-> Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon ![icon][img3] in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
+> Only contacts already registered in the SuperOffice database will be added to the selection or project. A contact icon (<i class="ph ph-user-circle" aria-hidden="true"></i>) in the **Type** column indicates that a contact is registered in the SuperOffice database. Recipients imported from external lists will typically not be registered.
 
 ### Add clickers to a new selection or project
 
@@ -98,6 +98,4 @@ Using the **Action** button you can add recipients and clickers to a selection o
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

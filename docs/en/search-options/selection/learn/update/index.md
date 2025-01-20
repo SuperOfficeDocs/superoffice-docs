@@ -27,7 +27,7 @@ language: en
 
 3. Open the **Details** tab.
 
-4. Click **Edit**. The **Selection** tab changes to edit mode.
+4. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i>. The **Selection** tab changes to edit mode.
 
 5. In the **Selection** is list, you can change a dynamic or combined selection into a static selection.
 

@@ -18,6 +18,6 @@ language: en
 
 1. Set up the **first five columns** you want to include. Grouping or column calculations applied to your selection will appear in the printed report.
 
-1. Click the **Task** button and select **Print selection**.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Print selection**.
 
 1. In the window that displays the contents to be printed, click **Print**.

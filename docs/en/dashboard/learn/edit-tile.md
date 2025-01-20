@@ -13,22 +13,18 @@ language: en
 
 1. Go to the required dashboard.
 
-2. Click the **Task** button, and select **Add tile / Edit layout**.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
-3. In the dashboard, click the **Edit tile** icon ![icon][img2].
+3. In the dashboard, click the **Edit tile** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>).
 
 4. In the **Dataset** tab, you can [edit the criteria][1] for the data displayed in the tile. Remember to update the tile name to reflect any changes made here.
 
 5. In the **Layout** tab, you can edit various settings, values and formatting of the tile. The preview on the right will update with the selected settings.
 
-6. Click ![icon][img1] to [add a translation][2] to the tile name, titles and labels.
+6. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][2] to the tile name, titles and labels.
 
 7. Click **Save**.
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: ../../globalization-and-localization/learn/translate-fields.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/edit-pen.png

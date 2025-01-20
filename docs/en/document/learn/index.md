@@ -12,7 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Document ![icon][img1]
+# Document <i class="ph ph-files" aria-hidden="true"></i>
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
@@ -27,19 +27,19 @@ You can open a document in [edit mode or in read mode][7]. When you open the doc
 
 | Icon | Property | Description |
 |:-:|---|---|
-| ![icon][img11] | Language | A list of available translations of the template. "Default" if untranslated. |
-| ![icon][img4] | Date | Today's date (default). Click the arrow next to the **Date** field to open a monthly calendar where you can select the date you require. |
-| ![icon][img3]| Subject | The heading of the document. |
-| ![icon][img2] | Template | A list of available [document templates][11], such as Letter or Quotation. |
-| ![icon][img7], ![icon][img8] | Company / contact | Who the document concerns. |
-| ![icon][img5] | Sale | A sale linked to the document. |
-| ![icon][img6] | Project | A project linked to the document. |
-| | Our ref | Allocated document number. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Language | A list of available translations of the template. "Default" if untranslated. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Date | Today's date (default). Click the arrow next to the **Date** field to open a monthly calendar where you can select the date you require. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Subject | The heading of the document. |
+| <i class="ph ph-files" aria-label="Document"></i> | Template | A list of available [document templates][11], such as Letter or Quotation. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Company / contact | Who the document concerns. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sale | A sale linked to the document. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Project | A project linked to the document. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i>| Our ref | Allocated document number. |
 | | Your ref | The addressee's reference from their communication. |
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create or upload a document by clicking **+New** in the top bar and then select **Document**.
+No matter where you are in SuperOffice CRM, you can create or upload a document by clicking **New** on the top bar and then select **Document**.
 
 ## Locate your documents
 
@@ -51,7 +51,7 @@ No matter where you are in SuperOffice CRM, you can create or upload a document 
 
 ## Add record as a favorite
 
-To add a record to favorites, click the star icon ![icon][img13] in the corner of the relevant card, tab or dialog. The star turns yellow ![icon][img12], and the record is instantly added to favorites. You do not have to click **Save**.
+To add a record to favorites, click <i class="ph ph-star" aria-label="Star icon"></i> in the corner of the relevant card, tab or dialog. The star turns yellow, and the record is instantly added to favorites. You do not have to click **Save**.
 
 ## Standardize your documents
 
@@ -67,7 +67,7 @@ In SuperOffice CRM, you can easily create document templates for Word, Email, Ex
 
 The [More tab][12] displays custom fields for the document.
 
-## Related topics
+## Related content
 
 * [Connect email, documents and diary][9]
 * [Create new documents][3]
@@ -85,15 +85,3 @@ The [More tab][12] displays custom fields for the document.
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/document-h32.png
-[img2]: ../../../../common/icons/singlecolour/document.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diaryblack.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-
-[img11]: ../../../../common/icons/az.png
-[img12]: ../../../../common/icons/favourite-yes.png
-[img13]: ../../../../common/icons/favourite-no.png

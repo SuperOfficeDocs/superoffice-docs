@@ -2,10 +2,13 @@
 uid: help-en-ui-navigator
 title: Navigator
 description: Navigator
+keywords: navigator, navigate, menu, side menu, left menu, user interface
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: navigator, menu, user interface
+date: 01.17.2025
+version: 10.5
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -14,67 +17,72 @@ language: en
 You move between the main sections of SuperOffice using the left-side Navigator.
 
 > [!TIP]
-> You can change the width of the navigator by clicking ![icon][img21] and ![icon][img22] above the navigator.
+> You can change the width of the navigator by clicking <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> above the navigator.
+
+## The SuperOffice logo ![SuperOffice logo][img1]
+
+At the upper left of the navigator is the SuperOffice logo. Click the logo to open the [SuperOffice Community website][30]. Pressing **CTRL** while clicking the logo is a shortcut to your own company card. (The main company is a [preference][31] that you can change.)
 
 ## The navigator in Standard CRM
 
-| Button | Description | Read more |
+The navigator provides quick access to essential SuperOffice CRM features. Each icon opens a specific screen.
+
+| Icon | Screen | Description |
 |:-:|---|---|
-| ![icon][img3] |Opens the **Dashboard** screen, containing reports and charts of your SuperOffice data.| [Dashboard][1] |
-| ![icon][img4] | Opens the Company screen, showing all companies you are in contact with. | [Companies][2] |
-| ![icon][img5] | Opens the Contact screen, containing all your contacts. | [Contact][3] |
-| ![icon][img6] | Opens the Diary screen, a kind of advanced filofax. |  [Diary][4] |
-| ![icon][img7] | Opens the Sale screen, containing information about all the sales. | [Sale][5] |
-| ![icon][img8] | Opens the Project screen, containing information about different projects. | [Project][6] |
-| ![icon][img9] | Opens the Selection screen, where you can enter companies, contacts, projects, sales, documents and follow-ups that you work with frequently into separate selections. Selections can, among other things, be used for mailings. | [Selection][7] |
-| ![icon][img10] | Opens your **inbox**, where you can read and reply to incoming messages.| [Inbox/Email][8] |
-| ![icon][img11] | Opens the **Chat** screen, where you can respond to inquiries sent via the chat feature on you company's web page. | [Chat][9] |
-| ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
-| ![icon][img14] | Opens **Service** (legacy) | |
-| ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
+| <i class="ph ph-gauge" aria-label="Dashboard icon"></i> | **[Dashboard][1]** | View **reports and charts** summarizing your CRM data. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i> | **[Companies][2]** | Manage your **company records** and related information. |
+| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **[Contacts][3]** | Access and manage **individual contact details**. |
+| <i class="ph ph-calendar" aria-label="Calendar icon"></i> | **[Diary][4]** | Plan and track **follow-ups**. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | **[Sales][5]** | Track and manage your **sales opportunities**. |
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | **[Projects][6]** | Organize and monitor **project activities**. |
+| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | **[Selections][7]** | Create and manage **selections** for campaigns or workflows. |
+| <i class="ph ph-at" aria-label="Email icon"></i> | **[Inbox][8]** | Read and reply to **incoming messages**. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | **[Chat][9]** | Respond to **chat inquiries** from your website. |
+| <i class="ph ph-target" aria-label="Marketing icon"></i> | **[Marketing][11]** | Create and send **mailings and forms**. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | **[Requests][34]** | Access **service requests**. |
+| <i class="ph ph-wrench" aria-label="Tool icon"></i> | **Tools** | Open external **applications and websites**. |
 
 ## The Navigator in Settings and maintenance
 
-| Button | Function | Read more |
+| Icon | Screen | Description |
 |:-:|---|---|
-| ![icon][img42] | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated features. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
-| ![icon][img43] | **Users**: opens the Users screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. | [Status][46] |
-| ![icon][img44] | **Roles**: opens the Roles screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
-| ![icon][img45] | **Privacy**: opens the Privacy screen, where you can define settings for privacy and consent in SuperOffice CRM. | [Privacy][48] |
-| ![icon][img46] | **SAINT**: opens the screen for status monitors (Sales Intelligence), where you can create statuses for companies and projects. | [SAINT][49] |
-| ![icon][img47] | **AI services**: opens the screen for AI services, where you can configure settings for text analysis, sentiment analysis and categorization of requests. | [AI services][20] |
-| ![icon][img48] | **Lists**: opens the Lists screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
-| ![icon][img49] | **Quote/Sync**: opens the Quote/Sync screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
-| ![icon][img50] | **Workflow**: opens the Workflow screen, where you can define sales guides and project guides for SuperOffice CRM. | |
-| ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
-| ![icon][img52] | **Preferences**: opens the Preferences screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
-| ![icon][img41] | **Chat**: opens the Chat screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the Options screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, and labels. | [Options][26] |
-| ![icon][img54] | **Import**: opens the Import screen, where you can import data into the SuperOffice database. | [Import][27] |
-| ![icon][img55] | **Fields**: opens the Fields screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
-| ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
-| ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34] |
-| ![icon][img58] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
-| ![icon][img59] | **System design**: here you can find various advanced settings for SuperOffice Service. | |
-| ![icon][img60] | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard app and integrations that can expand SuperOffice CRM Online. | |
+| <i class="ph ph-lock-simple" aria-label="Padlock icon"></i> | **[Licenses][45]** | Manage SuperOffice licenses, view system notifications, and database information. |
+| <i class="ph ph-user" aria-label="User icon"></i> | **[Users][46]** | Define user accounts, groups, roles, and access options. Add or manage your company's records. |
+| <i class="ph ph-traffic-signal" aria-label="Traffic signal"></i> | **[Roles][47]** | Set roles for controlling access to CRM data and features. |
+| <i class="ph ph-shield" aria-label="Shield icon"></i> | **[Privacy][48]** | Adjust privacy and consent settings. |
+| <i class="ph ph-chart-bar" aria-label="SAINT"></i> | **[SAINT][49]** | (Sales Intelligence) Create and manage status monitors for companies and projects. |
+| <i class="ph ph-sparkle" aria-label="Sparkle icon"></i> | **[AI services][20]** | Configure AI-powered text and sentiment analysis and categorization of requests. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | **[Lists][21]** | Customize and manage lists used across the CRM system. |
+| <i class="ph ph-barcode" aria-label="Barcode icon"></i> | **[Quote/Sync][22]** | Administer ERP integration settings, price lists, and products. |
+| <i class="ph ph-arrows-left-right" aria-label="Workflow icon"></i> | **Workflow** | Define sales and project workflows. |
+| <i class="ph ph-squares-four" aria-label="Screen designer"></i> | **[Screen designer][24]** | Customize layouts for specific user groups. |
+| <i class="ph ph-gear" aria-label="Gear icon"></i> | **[Preferences][25]** | Adjust default settings for activities, [video meetings][42], and the [document library][43]. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | **[Chat][2]** | Set up chat channels. |
+| <i class="ph ph-sliders-horizontal" aria-label="Horizontal slider icon"></i> | **[Options][26]** | Configure global settings like search, time zones, labels, and numbering. |
+| <i class="ph ph-file-arrow-up" aria-label="Import icon"></i> | **[Import][27]** | Import data into SuperOffice CRM. |
+| <i class="ph ph-rows" aria-label="Fields icon"></i> | **[Fields][28]** | Define user-specific fields for customization. |
+| <i class="ph ph-code-block" aria-label="Script icon"></i> | **[CRMScript][41]** | Automate tasks with scripts, macros, and event handlers, and scheduled tasks. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | **[Requests][34]** | Adjust request handling for SuperOffice Service. |
+| <i class="ph ph-question" aria-label="Question mark"></i> | **Customer center** | Edit and manage the Customer center layout and content. |
+| <i class="ph ph-selection-all" aria-label="System design"></i> | **System design** | Advanced SuperOffice Service settings. |
+| <i class="ph ph-basket" aria-label="Basket icon"></i> | [**App Store**][44] | Access apps and integrations for SuperOffice CRM. |
 
 ## <a id="navigator"></a>Navigator options
 
-When you click a navigator button, one or more of the buttons below are displayed.
+When you click a navigator button, one or more of the following options are displayed:
 
-| Button | Description |
-|:-:|---|
-| ![icon][img26] | **Actions/lists**: Click this button to show available actions/functions, lists and similar for the selected navigator button. |
-| ![icon][img23] | **History**: Click this button to show recently opened records, for instance request, contacts or selections. |
-| ![icon][img24] | **Favorites**: Click this button to view the records you have [set as favorites][15]. |
-| ![icon][img25] | **Search**: Click this button to show the results of the least search. The search field above the buttons is dynamic - start typing your search phrase to initiate the search. |
+| Icon | Function | Description |
+|:-:|---|---|
+| <i class="ph ph-clock" aria-label="Clock icon"></i> | **[History][16]** | Displays recently opened records, such as requests, contacts, or selections. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | **[Favorites][15]** | View the records you have set as favorites. |
+| <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | **Search** | Shows the results of the last search. The dynamic search field above the buttons initiates a search as you type. |
 
 > [!NOTE]
 > Clicking the **Dashboard** button only opens the dashboard.
 
 If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
 
-![Example -screenshot][img2]
+![Navigator options in SuperOffice -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
@@ -88,6 +96,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
+[16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
@@ -109,45 +118,9 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 
+[30]: https://community.superoffice.com
+[31]: ../preferences.md
+
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
-[img3]: ../../../../../common/icons/nav-dashboard-h32.png
-[img4]: ../../../../../common/icons/nav-company-h32.png
-[img5]: ../../../../../common/icons/nav-contact-h32.png
-[img6]: ../../../../../common/icons/nav-diary-h32.png
-[img7]: ../../../../../common/icons/nav-sale-h32.png
-[img8]: ../../../../../common/icons/nav-project-h32.png
-[img9]: ../../../../../common/icons/nav-selection-h32.png
-[img10]: ../../../../../common/icons/nav-inbox-h32.png
-[img11]: ../../../../../common/icons/nav-chat-h32.png
-[img13]: ../../../../../common/icons/nav-marketing-h32.png
-[img14]: ../../../../../common/icons/nav-cs-h32.png
-[img15]: ../../../../../common/icons/nav-tools-h32.png
-
-[img21]: ../../../../../common/icons/left-collapse.png
-[img22]: ../../../../../common/icons/left-expand.png
-[img23]: ../../../../../common/icons/nav-history-h32.png
-[img24]: ../../../../../common/icons/nav-fav-h32.png
-[img25]: ../../../../../common/icons/nav-search-h32.png
-[img26]: ../../../../../common/icons/nav-list-h32.png
-
-[img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
-[img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png
-[img43]: ../../../../../common/icons/nav-admin-users-active-h32.png
-[img44]: ../../../../../common/icons/nav-admin-roles-active-h32.png
-[img45]: ../../../../../common/icons/nav-admin-privacy-active-h32.png
-[img46]: ../../../../../common/icons/nav-admin-saint-active-h32.png
-[img47]: ../../../../../common/icons/nav-ai-services-active-h32.png
-[img48]: ../../../../../common/icons/nav-admin-lists-active-h32.png
-[img49]: ../../../../../common/icons/nav-admin-products-active-h32.png
-[img50]: ../../../../../common/icons/nav-admin-workflow-active-h32.png
-[img51]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
-[img52]: ../../../../../common/icons/nav-admin-preferences-active-h32.png
-[img53]: ../../../../../common/icons/pref-system-active-h32.png
-[img54]: ../../../../../common/icons/nav-admin-import-active-h32.png
-[img55]: ../../../../../common/icons/nav-admin-fields-active-h32.png
-[img56]: ../../../../../common/icons/nav-admin-crmscript-active-h32.png
-[img57]: ../../../../../common/icons/nav-admin-requests-active-h32.png
-[img58]: ../../../../../common/icons/nav-admin-custcenter-active-h32.png
-[img59]: ../../../../../common/icons/nav-admin-systemdesign-active-h32.png
-[img60]: ../../../../../common/icons/nav-admin-appstore-active-h32.png
+[img2]: ../../../../media/loc/en/learn/navigator-options.png
+[img1]: ../../../../../common/icons/hugo-green.png

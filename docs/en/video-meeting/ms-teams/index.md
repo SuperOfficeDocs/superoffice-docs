@@ -78,7 +78,7 @@ If you (the user) experience difficulties with creating and starting video meeti
 
 ## How to disconnect video provider
 
-First, disconnect the Microsoft Teams service provider in SuperOffice Settings and Maintenance:
+First, disconnect the Microsoft Teams service provider in SuperOffice Settings and maintenance:
 
 [!include[How to disconnect video provider step-by-step](../includes/disconnect-provider-steps.md)]
 

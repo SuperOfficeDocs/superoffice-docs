@@ -19,7 +19,7 @@ It is useful to start with a simple flow and extend it after monitoring the perf
 To make changes:
 
 1. [Pause the flow][1].
-1. Click **Edit**.
+1. Click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 1. Make the necessary changes.
 1. Click **Save**.
 1. Re-start the flow.
@@ -64,7 +64,7 @@ You might find these resources useful:
 ## Move, duplicate, or remove step
 
 * **Move:** Click a step and drag it to a new location.
-* **Duplicate:** Point to a step and click the **Duplicate** icon ![icon][img11]. This create a new step based on the current one and adds it as the next step. Use this option to reuse a step in the same flow.
+* **Duplicate:** Point to a step and click the **Duplicate** icon (<i class="ph ph-copy" aria-hidden="true"></i>). This create a new step based on the current one and adds it as the next step. Use this option to reuse a step in the same flow.
 * **Remove:** Point to a step and click the red X. This removes the step from the flow (but not its content).
 
 > [!NOTE]
@@ -100,7 +100,7 @@ Go to the **Flow** tab to check if there are anyone on the branch. If yes, go to
 
 * Add participants to a static selection to follow up later.
 * Add participants to the flow's exclusion list.
-* Remove participants from the flow using the **Task** menu.
+* Remove participants from the flow using the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 * Wait for the branch to "drain". You might need to update the condition of the branch to prevent new participants from entering.
 
 <!-- Referenced links -->
@@ -115,6 +115,3 @@ Go to the **Flow** tab to check if there are anyone on the branch. If yes, go to
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenced images -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

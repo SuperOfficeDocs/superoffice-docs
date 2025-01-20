@@ -1,119 +1,98 @@
 ---
 uid: help-en-ui-top-bar
-title: Buttons in the menu bar
-description: Buttons in the menu bar
-keywords: top bar, button
-author: Kirsti Aakerholt
-date: 09.17.2024
-version: 10.3.9
+title: Buttons on the top bar
+description: Buttons on the top bar
+keywords: top bar, button, Personal settings menu, Main menu options
+author: Kirsti Aakerholt, Bergfrid Dias
+date: 01.17.2025
+version: 10.5
 topic: reference
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Buttons on the Top bar
+# Buttons on the top bar
 
-The items at the top of the screen vary slightly between SuperOffice CRM, Service, and Settings and maintenance. Their significance is however the same. For example, in Settings and maintenance, only Personal settings, Main menu, and Help are shown.
+The **top bar** contains essential tools for navigating SuperOffice CRM. The buttons vary slightly depending on the module (CRM, Service, or Settings and maintenance), but their functions remain consistent. For example, only **Personal settings**, **Main menu**, and **Help** are shown in **Settings and maintenance**.
 
-## The SuperOffice logo
+## Buttons overview
 
-![SuperOffice logo][img9]
-
-At the upper left in SuperOffice CRM is the SuperOffice logo. Click the logo to open the [SuperOffice Community website][20]. Pressing **CTRL** while clicking the logo is a shortcut to your own company card. (The main company is a [preference][6] that you can change.)
-
-## Buttons
-
-| Button | Name | Description |
+| Icon | Name | Description |
 |:-:|---|---|
-| ![icon][img3] | New | Click this button to quickly create new companies, contacts, sales, projects, selections, follow-ups, documents, requests, and more. |
-| ![icon][img8] | Find | Click this button to [search for][5] companies, contacts, projects, selections, follow-ups, sales and documents in SuperOffice CRM. NA to Service |
-| ![icon][img4] | No invitations / Notifications | Opens a list of new notifications in SuperOffice CRM, such as [invitations][4], assigned requests, and approved sales/quotes. Click an item in the list to open the relevant record. |
-| ![icon][img5] | Unread invitations | |
-| ![icon][img6] | Unanswered invitations | |
-| ![icon][img2] | Personal settings | Used to edit your personal settings, such as preferences, email signature and password. If you added an image in your own contact card, this image will appear on the button. (Options listed below) |
-| ![icon][img1] | Main menu | Used to access general system settings (options listed below) and to switch between SuperOffice CRM and Settings and maintenance. |
-| Help | Help | Clicking this button gives you access to comprehensive and easily accessible information on how to use the system. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in. |
-| ![icon][img7] | Search | At the upper right is the [Freetext search field][10]. Use this field to quickly find data in the system. |
+| **New** | **New** | Create new records, such as companies, contacts, sales, projects, selections, follow-ups, documents, and requests. |
+| <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> | [**Find**][5] | Search for records, such as companies, contacts, sales, and documents (Not available in Service and Settings and maintenance). |
+| <i class="ph ph-magnifying-glass" aria-label="Magnifying glass"></i> | [**Search**][10] | Use the **Free-text search** field to find data across the system. |
+| <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Notifications**][9] | View new notifications, such as invitations, assigned requests, and approved sales. Click a notification to open the associated record. |
+| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Personal settings** | Edit preferences, email signatures, and passwords. Displays your profile image if added to your contact card. |
+| <i class="ph ph-list" aria-label="Main menu"></i> | **Main menu** | Access general system settings, switch between modules, or launch other applications. |
+| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-app Resource Centre** | Open guided tours, user guide, and inspiration resources (online only). |
+| **Help** | **Help** | Access user guides and information tailored to the current task or module. |
 
-## Options in the Personal settings menu
+## Personal settings menu options
+
+| Option | Description |
+|---|---|
+| **Preferences** | Adjust [personal preferences][6], such as default values, sorting, and visual effects. |
+| **Edit personal signature** | Edit the [email signature][7] used in outgoing emails or requests. |
+| **Email options** | Configure inbox settings. |
+| **Your Service status** | Update your status (for example, Not present) and add an optional message. |
+| **Show my contact info** | Open your contact card to edit details like phone numbers or title. |
+| **Local settings** | Change app language, number/date format, and email client settings. |
+| **Get the mobile app** | Configure settings for SuperOffice Mobile CRM. |
+| **Change password** | Update your SuperOffice CRM password. |
+| **Recycle bin** | [Restore deleted records][3], such as companies, contacts, or requests. |
+| **Log out** | End your session in SuperOffice CRM. |
 
 > [!NOTE]
-> If you added an image in your own contact card, this image will appear on the Personal settings button.
+> In Settings and maintenance, only **Local settings**, **Change password**, and **Log out** are available.
+
+## Main menu options
+
+### CRM
 
 | Option | Description |
 |---|---|
-| Preferences | Lets you edit your [personal preferences][6]. |
-| Edit personal signature | Lets you [edit the signature][7] added to your outgoing emails or to requests in SuperOffice Service. |
-| Email options | Used to edit the settings for email account for the Inbox. |
-| Your Service status | Lets you change your status (Not present/Normal) and add a **Not present** text. |
-| Show my Contact info | Opens your contact card where you can change your details like phone numbers, title and email address. |
-| Local settings | Used to change the app language, number/date format and email client in SuperOffice CRM. |
-| Get the mobile app | Used to access settings for SuperOffice Mobile CRM. Here you can configure your Mobile CRM app. |
-| Change password | Lets you change your password. |
-| Recycle bin | Used to [restore deleted companies, contacts, and requests][3]. |
-| Log out | Logs you out of SuperOffice CRM. |
+| **Other applications** | Access [external tools or links][1] integrated into SuperOffice CRM. Similar to **Tools** in the navigator. |
+| **Download** | View and download tools like SuperOffice WebTools. |
+| **App Store** | Explore apps and integrations in the **SuperOffice App Store**. |
+| **Copy shortcut** | [Create shortcuts to entries][15]. |
+| **Duplicate settings** | Adjust settings for [detecting duplicates][8] in companies, projects, or selections. |
+| **Filter** | Edit [filter settings][2]. |
+| **Knowledge base** | Access external documents, FAQs, and reply templates in Service. |
+| **Custom objects** | In pilot. |
+| **Targets** | Set or update [sales targets][17]. |
+| **Edit system signature** | Edit the default email signature. |
+| **Settings and maintenance** | Launch **Settings and maintenance** (administrator access only). |
 
-> [!NOTE]
-> In Settings and maintenance, you have only Local settings, Change password, and Log out.
-
-## Options in the Main menu
-
-**CRM:**
+### Settings and maintenance
 
 | Option | Description |
 |---|---|
-| Other applications | Used to access [other applications or links][1] added to SuperOffice CRM. In most cases these applications are also available from the **Tools** button in the Navigator. |
-| Download | Opens a view of available downloads from SuperOffice, such as SuperOffice WebTools. |
-| SuperOffice App Store | Opens SuperOffice App Store, where you can explore standard apps and integrations that can expand SuperOffice CRM Online. |
-| Copy shortcut | [Create shortcuts to entries][15] |
-| Duplicate settings | Used to edit the [duplicate settings][8] for companies, projects and selections. |
-| Filter | Used to edit the [filter settings][2]. |
-| Knowledge base | Used to access external documents (files), email addresses, FAQ and replay templates in Service. |
-| Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting attendees from the **Follow-up** dialog. |
-| Targets | Used to add [sales targets][17]. |
-| Edit system signature | Used to edit the default email signature. |
-| Settings and maintenance | Opens Settings and maintenance. This option is only available if you have administrator's rights. |
+| **Change serial number** | Update the serial number for your SuperOffice installation. |
+| **SuperOffice CRM** | Switch back to SuperOffice CRM. |
 
-**Settings and maintenance:**
+## Help menu options
 
 | Option | Description |
 |---|---|
-| Change serial number | Lets you change the serial number for SuperOffice. |
-| SuperOffice CRM | Opens SuperOffice CRM for Web. |
-
-## Options in the Help menu
-
-| Option | Description |
-|---|---|
-| In-app Resource Centre | Opens up the Resource centre with available guided tours, help, and inspiration - ONLINE only. |
-| Community | Direct link to SuperOffice Community. |
-| Contact support | Opens up a form to register a request where you can add your issue. |
-| What's new | Opens the splash screen with the latest details. |
-| Help files (F1) | Direct link to user guides for SuperOffice. |
-| About | Shows the details of your software such as version, company, user, customer ID. |
+| **In-app Resource Center** | Access guided tours, user guide, and online resources. |
+| **Community** | Open the SuperOffice Help center and Community site. |
+| **Contact support** | Submit support requests or issues. |
+| **Help files (F1)** | Access user guides directly. |
+| **About** | View software details, including version, user information, and customer ID. |
 
 <!-- Referenced links -->
 [1]: ../../basics/external-applications-and-url-addresses.md
 [3]: ../../basics/deleting-elements.md#restore
 [8]: ../../basics/duplicates.md
+[9]: ../../basics/notifications.md
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
-[20]: https://community.superoffice.com
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
-[img2]: ../../../../media/icons/personal-settings.png
-[img4]: ../../../../media/icons/notice.png
-[img5]: ../../../../media/icons/notice-new.png
-[img6]: ../../../../media/icons/notice-pending.png
-[img7]: ../../../../../common/icons/search-icon-black.png
-[img3]: ../../../../../common/icons/plus-black.png
-[img8]: ../../../../media/loc/en/learn/find.png
-[img9]: ../../../../media/superoffice-logo.png

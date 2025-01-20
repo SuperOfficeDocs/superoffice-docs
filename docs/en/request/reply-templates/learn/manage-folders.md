@@ -1,15 +1,20 @@
 ---
 uid: help-en-reply-template-folder
-title: Administrate folders of reply templates
-description: Administrate folders of reply templates
+title: Folder management for reply templates
+description: Organize reply templates using a customizable folder structure for easy access and logical grouping. Create sub-folders and manage templates efficiently.
 author: SuperOffice RnD
-date: 03.16.2023
+date: 01.13.2025
+version: 10.5
 keywords: request, reply, folder
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 
-# Administrate folders of reply templates
+# Folder management for reply templates
 
 You can organize reply templates in a folder structure you create yourself, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the appropriate reply templates in each of these folders. Find out more below about how to work with the folder structure.
 
@@ -30,7 +35,7 @@ Before you delete a reply template folder, you must remove all the entries in it
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: delete.md
+[2]: edit.md#delete
 [3]: edit.md
 
 <!-- Referenced images -->

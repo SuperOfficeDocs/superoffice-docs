@@ -42,7 +42,7 @@ You need to enable and set up AD authentication in NetServer:
 
 ### SuperOffice NetServer server is not in your Active Directory domain
 
-The Settings and Maintenance (Administration) module in SuperOffice 8 is entirely web-based, which means that the module totally relies on the NetServer. To find and import Active Directory users your SuperOffice NetServer server has to be in the Active Directory domain.
+The Settings and maintenance (Administration) module in SuperOffice 8 is entirely web-based, which means that the module totally relies on the NetServer. To find and import Active Directory users your SuperOffice NetServer server has to be in the Active Directory domain.
 
 ### SuperOffice user and Active Directory link has been lost or corrupted in the database
 

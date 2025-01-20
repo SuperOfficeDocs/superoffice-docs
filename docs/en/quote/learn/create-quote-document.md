@@ -32,7 +32,7 @@ If you created a quote document for a quote, but want to use another document:
 
 1. Open the quote.
 
-2. Click the ![icon][img1] **Task** button and select **Change quote document**.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Change quote document**.
 
 3. Select the quote document in the list.
 
@@ -50,6 +50,3 @@ If you created a quote document for a quote, but want to use another document:
 [3]: ../../document/templates/variables/index.md
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

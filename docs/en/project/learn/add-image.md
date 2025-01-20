@@ -1,7 +1,7 @@
 ---
 uid: help-en-project-image-add
-title: Add a project image
-description: How to add a project image
+title: Add or change a project image
+description: Add or change a project image
 keywords: project
 author: SuperOffice RnD
 date: 10.08.2024
@@ -12,34 +12,50 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Add a project image
+# Add or change a project image
 
-The **Image** tab lets you add an image for the project. This image is mainly used in SuperOffice Audience (requires a separate licence) but it can also be used for other types of project displays.
+The **Image** tab allows you to upload and manage images for a project.
 
-## Steps
+![Project card with project image -screenshot][img1]
 
-1. Open the Project screen, go to the **Image** tab, and click **Edit**.
+## Steps to add a project image
 
-1. Click **Add**.
+1. Open the Project screen, go to the **Image** tab.
 
-1. In the **Select Image** dialog, choose an image:
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> to enter edit mode.
 
-    * Select an existing image.
-    * Or, upload a new image.
+1. Click **Add photo**.
 
-    A preview of the selected image will be shown.
+1. Upload or drag-and-drop an image file:
 
-1. Click **OK** to confirm.
+    * Drag the image file into the upload area.
+    * Or, click **Upload file** to browse and select an image from your computer.
 
-1. Click **Save** to save your changes or **Cancel** to discard them.
+    Once uploaded, the image preview appears on the right.
 
-## Change or reset the image
+1. Select an image:
+
+    * Click on an uploaded image from the list to preview it on the right.
+
+1. Click **OK** to set the selected image for the project.
+
+1. Click **Save** to apply your changes or **Cancel** to discard them.
+
+## Steps to change or reset the project image
+
+1. Open the **Image** tab and click <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 
 1. To remove the current image, click **Delete**.
 
-1. You can now:
+1. After deleting, you can:
+
+    * Click **OK** and **Save** to reset to the default image.
+    * Or, upload/select a new image, then click **OK** and **Save** to apply the changes.
 
 * Click **OK** and **Save** to apply the default image.
 * Or, select or upload a new image, then click **OK** and **Save**.
 
 <!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/project-image.png

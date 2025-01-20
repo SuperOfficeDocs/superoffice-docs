@@ -32,11 +32,6 @@ When you delete a role, you must move the users with this role to another role. 
 
     Is the Delete button disabled (greyed out)? It is not possible to delete the role you yourself belong to or the system user role (**User level 0**). If there is only a single role, you cannot delete it.
 
-5. In the **Delete Role** dialog, click the ![icon][img3] arrow next to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
+5. In the **Delete Role** dialog, click <i class="ph ph-caret-down" aria-label="Chevron"></i> to the **Assign all users with this role to** field, and select another role for the users of the role you want to delete.
 
 6. Click **Delete**. The role is removed from the list. You cannot undo deletion of a role.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

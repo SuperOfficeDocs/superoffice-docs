@@ -53,30 +53,22 @@ items:
       href: adding-items-to-follow-up-type-list.md
 
   - name: Sale
-    topicHref: ../../../sale/learn/screen/sale-stage.md
+    topicHref: ../../../sale/admin/index.md
     items:
-    - name: Sale stage
-      href: ../../../sale/learn/screen/sale-stage.md
     - name: Add sale stage
-      href: sale-stage.md
-    - name: Sale type, stages, quote
-      href: ../../../sale/learn/screen/sales-type-for-stages.md
-    - name: Add sales type
-      href: sale-type.md
+      topicHref: ../../../sale/admin/sale-stage.md
+    - name: Add sale type
+      topicHref: ../../../sale/admin/sale-type.md
     - name: Add sale amount class
       href: sale-amount-class.md
 
   - name: Project
-    topicHref: ../../../project/learn/screen/project-status-admin.md
+    topicHref: ../../../project/admin/index.md 
     items:
-    - name: Project status
-      href: ../../../project/learn/screen/project-status-admin.md
     - name: Add project status
-      href: project-status.md
-    - name: Project type
-      href: ../../../project/learn/screen/project-type-admin.md
+      topicHref: ../../../project/admin/project-status.md
     - name: Add project type
-      href: project-type.md
+      topicHref: ../../../project/admin/project-type.md
 
   - name: General
     topicHref: country.md

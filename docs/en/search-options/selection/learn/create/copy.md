@@ -17,7 +17,7 @@ When you click this button, a copy of the selection is created, with the text (c
 
 1. [!include[Start](../includes/steps-start-task.md)]
 
-1. Click the **Task** button and select **Copy the selection**. This creates a copy of the selection.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Copy the selection**. This creates a copy of the selection.
 
 1. Give the new selection a new name.
 

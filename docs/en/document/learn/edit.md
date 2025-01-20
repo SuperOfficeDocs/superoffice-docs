@@ -4,8 +4,8 @@ title: Edit documents
 description: Editing documents; Deleting documents
 keywords: document, edit mode, read mode, completed, document properties, document content, SharePoint
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 01.17.2025
+version: 10.5.1
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -122,7 +122,7 @@ The dialog is slightly different in Chrome, Edge, Firefox, and Safari.
 
 When viewing a specific document:
 
-1. Click the **Task** button in the **Document** dialog.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the **Document** dialog.
 2. Choose **Delete**.
 3. Confirm or cancel the deletion in the confirmation dialog.
 

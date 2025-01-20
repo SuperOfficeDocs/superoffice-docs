@@ -4,12 +4,12 @@ title: Grouping lists
 description: You can group a list on one or more data types to get a better overview of the records in a section tab (archive).
 keywords: section tab, archive, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.20.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Grouping lists
@@ -27,7 +27,7 @@ Learn how to customize views by configuring columns with this short video, or re
 
 ## Enable grouping
 
-1. Click the ![icon][img1] settings icon to the right of the column header and select **Enable grouping**.
+1. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column header and select **Enable grouping**.
 
     ![Enable grouping -screenshot][img5]
 
@@ -55,13 +55,9 @@ Now, a new row is displayed above the column headers.
 
 1. To remove a grouping column you have selected, click the X behind the column. The list of records in the archive is updated immediately.
 
-    ![Press the X to remove a grouping column -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

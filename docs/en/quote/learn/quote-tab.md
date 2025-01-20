@@ -26,7 +26,7 @@ In the **Quote** section tab at the bottom of the Sale screen, you can display e
 
 **Click to create quote document**: See [Create a quote document][3].
 
-Alternatives: If the quote contains one or more [alternatives][4], you can choose one from the list at the top of the **Quote** section tab. The ![icon][img1]/![icon][img2] icons at the bottom of the list indicate if the selected alternative is the [favorite alternative][5].
+Alternatives: If the quote contains one or more [alternatives][4], you can choose one from the list at the top of the **Quote** section tab. The star icon <i class="ph ph-star" aria-label="Star icon"></i> at the bottom of the list indicate if the selected alternative is the [favorite alternative][5].
 
 On the right of the **Quote** section tab are the version, quote number and [status][6] (for example, **Draft** or **Sold**). Click **Open** to edit the quote.
 
@@ -53,5 +53,3 @@ The product list: If products were added to the quote, they are shown in the lis
 [8]: screen/edit-quote-dialog.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/favourite-yes.png
-[img2]: ../../../../common/icons/favourite-no.png

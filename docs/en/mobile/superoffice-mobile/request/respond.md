@@ -18,7 +18,7 @@ You need a Service or complete license to take action on a request. For details,
 
 ## Accept
 
-[!include[Owner](../../../request/learn/includes/request-owner.md)]
+For a request to be your responsibility, your name must appear in the request's Owner field.
 
 If the request is unclaimed, self-assign to avoid others answering the request at the same time.
 

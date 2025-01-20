@@ -4,8 +4,8 @@ title: Activities tab
 description: Learn how to use the Activities tab in SuperOffice CRM to view, manage, and track activities, follow-ups, and documents for companies, contacts, projects, and sales — all in one organized section.
 keywords: Activities tab, section tab, activity archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.17.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -38,7 +38,7 @@ The **Activities** section tab contains the following columns to display key inf
 
 | Column | Description |
 |---|---|
-| Completed | Checkbox indicating if the activity is completed. A ticked checkbox (![icon][img3]) means completed, while an empty box means it is ongoing. |
+| Completed | Checkbox indicating if the activity is completed. A ticked checkbox (<i class="ph ph-check" aria-hidden="true"></i>) means completed, while an empty box means it is ongoing. |
 | Type icon | Shows the [type of activity][1] (such as meeting, call, document). Reflects the text in the **Type** column. |
 | Date | Shows when a document was created or when a follow-up is scheduled |
 | Type | The type of activity, such as a meeting, to-do, or email. |
@@ -104,10 +104,9 @@ To include completed activities in the list, ensure the **Completed** checkbox i
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

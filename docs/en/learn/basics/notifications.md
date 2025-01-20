@@ -2,23 +2,24 @@
 uid: help-en-notifications
 title: Notifications
 description: Notifications of invitations, messages, and request
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
 keywords: notification, invitation, request, message
+author: Hanne Gunnarsson, Bergfrid Dias
+date: 01.20.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Notifications
+# Notifications <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-When you click on the **bell icon** ![icon][img1] in the upper-right corner of SuperOffice, the notifications panel appears as an overlay, showing the latest occurrences at the top. Here you can do the following:
+When you click on the **bell icon** in the upper-right corner of SuperOffice, the notifications panel appears as an overlay, showing the latest occurrences at the top. Here you can do the following:
 
 * Click a list item to open it.
-* Click ![icon][img2] to set your notification preferences.
+* Click <i class="ph ph-gear" aria-label="Gear"></i> to set your notification preferences.
 * Click **Clear all** in the footer of the notification pane to clear the list of notifications. You can also click **Got it** below a notification to remove it.
-* Click ![icon][img3] or anywhere outside the notifications panel to close it.
+* Click <i class="ph ph-x" aria-label="X"></i> or anywhere outside the notifications panel to close it.
 
 ![The Notification pop out that shows both notifications on Requests and Invitations -screenshot][img5]
 
@@ -30,7 +31,7 @@ These are the different activity notifications:
 
 * **New meeting**: Respond by clicking **Accept** or **Decline**. Once you have responded, the invitation will disappear from notifications panel.
 
-* **New recurring meeting**: If the invitation is for a recurring event, this will be reflected with an occurring icon ![icon][img4] below the link.
+* **New recurring meeting**: If the invitation is for a recurring event, <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> is shown below the link.
 
 * **Meeting has changed**: If the time or date of a meeting you have already accepted changes, you will receive a new notification letting you know what has changed and requiring you accept or decline it.
 
@@ -60,7 +61,7 @@ These are the different request notifications:
 
 ## Notification settings
 
-When you click the ![icon][img2] icon, the notification settings panel appears. Here you can select which notifications you would like to see in the notifications panel.
+When you click <i class="ph ph-gear" aria-label="Gear"></i>, the notification settings panel appears. Here you can select which notifications you would like to see in the notifications panel.
 
 These are the notification options:
 
@@ -109,12 +110,7 @@ These are the notification options:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
-[img2]: ../../../../common/icons/cog-wheel.png
-[img3]: ../../../../common/icons/remove-icon.png
-[img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
-
 [img11]: ../../../media/loc/en/learn/system-notification-chrome.png
 [img12]: ../../../media/loc/en/learn/system-notification-edge.png
 [img13]: ../../../media/loc/en/learn/system-notification-firefox.png

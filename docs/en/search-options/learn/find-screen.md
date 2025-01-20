@@ -2,14 +2,17 @@
 uid: help-en-find-screen
 title: Find screen
 description: How to find all items of a specific type that match conditions, run a predefined search, or save a search as a selection.
-author: SuperOffice RnD
-date: 12.13.2023
 keywords: search, find, typical, criteria, or, selection
+author: SuperOffice RnD
+date: 01.20.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# The Find screen
+# The Find screen <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 To search for records and data in SuperOffice CRM, use the **Find** screen.
 
@@ -20,15 +23,13 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 ## Search for information in SuperOffice CRM
 
-1. Click the **Find** button on the [top bar][1].
-
-    ![Find button][img2]
+1. Click the **Find** button (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) on the [top bar][1].
 
 2. Click the type of record you want to search for, or click **Typical searches** to display a list of predefined searches. The **Criteria** tab opens.
 
 3. The **Find** screen contains predefined search criteria, or the search criteria you used last time. Do one of the following:
 
-    * Click ![icon][img3] to remove any criteria you do not want to use.
+    * Click <i class="ph ph-x-circle" aria-label="X"></i> to remove any criteria you do not want to use.
     * Click the **Add** button to add new search criteria. A new line is added to the criteria list.
 
 4. In the first list box on the line, select the field you want to search for information in. You can also [enter the start of the name in the appropriate field][2]. There are [different types of fields][3].
@@ -39,7 +40,7 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 
 6. You can click **Add** below the criteria list again to specify more search criteria. A new line is added to the criteria list and you can repeat steps 4 and 5.
 
-7. To move criteria, click and drag ![icon][img4].
+7. To move criteria, click and drag <i class="ph ph-equals" aria-label="="></i>.
 
 8. Click **Or** to add a another set of criteria.
 
@@ -94,9 +95,9 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 4. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Amount**.
+5. [!include[Select field](includes/select-field.md)] First click **Sale** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>), and then **Amount**.
 
-6. In the list box to the right of **Amount**, click the arrow ![icon][img1] and select **&gt;** (greater than).
+6. In the list to the right of **Amount**, click <i class="ph ph-caret-down" aria-label="Chevron"></i> and select **&gt;** (greater than).
 
 7. In the last field on the line, enter the minimum amount. For example, "100 000".
 
@@ -104,9 +105,9 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 9. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Registered date**.
+10. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Registered date**.
 
-11. In the second list box, click the arrow ![icon][img1] and select **Between**.
+11. In the second list box, click to expand and select **Between**.
 
 12. In the third list box, specify the start date of the period you want, and in the fourth list box, the end date.
 
@@ -116,7 +117,7 @@ As a sales department manager, you want to give a presentation to the rest of ma
 
 15. In the list that appears, enter "Status" to FastSearch in the field.
 
-16. From the list that is displayed, select **Sale** - **Status** (with the sale icon ![icon][img5] in front of it).
+16. From the list that is displayed, select **Sale** - **Status** (with the sale icon in front of it).
 
 17. In the second list box, select **Is one of**.
 
@@ -143,7 +144,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 4. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Company** ![icon][img6], and then **Country**.
+5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-buildings" aria-hidden="true"></i> **Company** , and then **Country**.
 
 6. In the second list box, select **Is one of**.
 
@@ -153,7 +154,7 @@ Imagine you are going to attend a conference in Denmark. When you are there, you
 
 9. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Company** ![icon][img6], and then **Our contact**.
+10. [!include[Select field](includes/select-field.md)] First click **Company**, and then **Our contact**.
 
 11. In the second list box, select **Current user**. Your name is displayed in the last field on the line.
 
@@ -177,7 +178,7 @@ Let's assume you are the manager of a company and want to find out what types of
 
 4. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Sale** ![icon][img5], and then **Status**.
+5. [!include[Select field](includes/select-field.md)] First click **Sale**, and then **Status**.
 
 6. In the second list box, select **Is one of**.
 
@@ -200,7 +201,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 4. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Contact** ![icon][img7], and then **Last name**.
+5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-user-circle" aria-hidden="true"></i> **Contact**, and then **Last name**.
 
 6. In the second list box, select **Equals**.
 
@@ -210,7 +211,7 @@ Imagine that the time for your pay review is approaching and you think you deser
 
 9. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Project** ![icon][img8], and then **From date**.
+10. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Project**, and then **From date**.
 
 11. In the second list box, select **After**.
 
@@ -236,7 +237,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 4. Click **Add**.
 
-5. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **Intention**.
+5. [!include[Select field](includes/select-field.md)] First click <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Follow-up**, and then **Intention**.
 
 6. In the second list box, select **Is one of**.
 
@@ -246,7 +247,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 9. Click **Add**.
 
-10. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **End date**.
+10. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **End date**.
 
 11. In the second list box, select **Previous**.
 
@@ -258,7 +259,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 
 15. Click **Add**.
 
-16. [!include[Select field](includes/select-field.md)] First click **Follow-up** ![icon][img9], and then **Completed**.
+16. [!include[Select field](includes/select-field.md)] First click **Follow-up**, and then **Completed**.
 
 17. Check **Yes**. You have now specified that you want to find follow-ups set as **Completed**.
 
@@ -288,13 +289,4 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/learn/find.png
-[img3]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/singlecolour/sale.png
-[img6]: ../../../../common/icons/singlecolour/contact.png
-[img7]: ../../../../common/icons/singlecolour/person.png
-[img8]: ../../../../common/icons/singlecolour/project.png
-[img9]: ../../../../common/icons/singlecolour/appointment.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png

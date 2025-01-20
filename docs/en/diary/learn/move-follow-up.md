@@ -1,12 +1,15 @@
 ---
 uid: help-en-follow-up-move
-title: Moving follow-ups
-description: Moving follow-ups
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: diary, follow-up
+title: Move a follow-up
+description: Move a follow-up
+keywords: move follow-up, move meeting, reschedule meeting, diary, follow-up
+author: Bergfrid Dias
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

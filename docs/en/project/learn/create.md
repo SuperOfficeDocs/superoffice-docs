@@ -1,17 +1,20 @@
 ---
 uid: help-en-project-create
-title: Create a project
+title: Create a new project
 description: How to create a project and be even more organized in your work.
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: project
+keywords: create project, new project, add project, project
+author: Bergfrid Dias
+date: 01.03.2025
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Create a project
+# Create a new project
 
-Watch this video or follow the steps below to learn how to create a project (video length - 2:49):
+You can add a project in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to learn how to create a project (video length - 2:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/zLJwNll223w]
@@ -20,33 +23,75 @@ Watch this video or follow the steps below to learn how to create a project (vid
 
 1. Click **New** on the top bar and select **Project**.
 
-2. In the empty project card, fill in the required information in the fields in the **Project** tab. See details below.
+1. Enter a **project name** (mandatory, marked in red).
 
-3. Optionally, go to one of the tabs to enter further information.
+    If the project name is a duplicate, the **Duplicates** dialog will appear, helping you avoid creating redundant records.
 
-4. Click **Save**. You are now ready to [add project members][5].
+    ![The Project screen in edit mode, showing project details -screenshot][img1]
 
-### What goes in the various fields?
+1. Use the large text box to provide a detailed overview or summary of the project. This is the Description field.
 
-[!include[Steps to populate company fields](includes/project-fields.md)]
+1. Choose the **Type** of the project (mandatory). Values are predefined and set up in **Settings and maintenance**.
 
-## What would you like to do now?
+1. **Optional: Provide additional information** in the **Project** tab:
+    * Add a **Website** address and title.
+    * Select a **Responsible** user for the project.
+    * Choose the **Status** of the project. Values are predefined and set up in **Settings and maintenance**.
+    * Set an **End date** using the calendar picker.
 
+1. **Add more details:**
+    * Go to the **More** tab to [enter custom fields][12].
+    * Go to the **Image** tab to [upload and set a project image][2].
+    * Go to the **Note** tab to [add notes][11].
+    * Go to the **Links** tab to [connect activities, sales, documents, or websites][10] to the project.
+
+1. Click **Save** to store the project details. You are now ready to [add project members][5].
+
+## Key fields explained
+
+The following fields are available in the Project card. Some fields are filled automatically, while others require input.
+
+> [!NOTE]
+> Fields and layout may vary based on [Screen designer][9] configurations and other UI customizations.
+
+* **Project name:** The main identifier for the project. This is a mandatory field.
+* **Number:** Auto-generated as the next available project number if configured in **Settings and maintenance**. You can edit this manually if required.
+* **Website:** Add web addresses with brief descriptions. Click outside the table or press **TAB** to close the input table.
+* **Description:** Summarize the project's goals, scope, or purpose. Optional but useful for tracking objectives.
+* **Responsible:** Assign an associate responsible for the project.
+* **Type:** Predefined project types. Some types may be linked to a [project guide][1].
+* **Status:** Track the project's current stage (such as, Planned, In Progress, Completed). If the project guide is linked, statuses specific to the guide will appear in the list.
+* **End date:** Specify when the project should end. Can be adjusted as needed.
+* **Next milestone:** If the project is linked to a guide, this field shows the date of the next scheduled follow-up. The date is automatically calculated based on linked activities or the project guide. If no project guide is linked, the project end date is displayed. Dates prior to today are highlighted in red.
+
+[!include[3 udef](../../learn/includes/more-udef.md)]
+
+## Duplicate detection
+
+If the project name matches or is similar to an existing record, the  **Duplicates** dialog helps you [avoid duplication][6]. Review the suggestions and proceed as needed.
+
+## Related content
+
+* [Add or change a project image][2]
 * [Add project members][5]
 * [Edit projects][7]
 * [Merge projects][8]
 * [Delete projects][9]
-* [Work with project guides][1]
+* [Project guides][1]
 * [Activities][3]
-* [See what our customers in different industries use Project for][2] - blog
 
 <!-- Referenced links -->
 [5]: project-members/add.md
+[2]: add-image.md
 [7]: edit.md
 [8]: merge-projects.md
 [9]: delete.md
-[1]: project-guide/working-with.md
-[2]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
+[1]: project-guides.md
 [3]: ../../learn/basics/activity.md
+[6]: ../../learn/basics/duplicates.md
+[10]: ../../learn/basics/links.md
+[11]: ../../learn/basics/notes.md
+[12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/create-project.png

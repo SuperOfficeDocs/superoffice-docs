@@ -44,13 +44,13 @@ You want to monitor companies that you have very few activities with, to avoid u
 
 ### What does the status list contain?
 
-![icon][img3] – the **Visualize** icon indicates if to [display a status image][3] for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question.
+* The **Visualize** icon (<i class="ph ph-eye" aria-hidden="true"></i>) indicates if to [display a status image][3] for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question.
 
-![icon][img4] – a red X indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
+* A red X indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
 
-**Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
+* **Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
 
-**Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
+* **Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
 
 ## Why do I need to specify a status's priority?
 
@@ -77,6 +77,4 @@ If a company, contact or project has several active statuses, the lower priority
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

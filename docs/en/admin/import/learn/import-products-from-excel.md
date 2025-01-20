@@ -69,7 +69,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
     | Icon | Description |
     |---|---|
-    | ![icon][img2] | There is a problem with the data on this row. See the explanation text in the table header. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | There is a problem with the data on this row. See the explanation text in the table header. |
     | ![icon][img3] | The product does not already exist and will be added. |
     | ![icon][img4] | The product already exists and will be updated. |
     | empty | No updating. |
@@ -95,6 +95,5 @@ When the import is complete, a list of the imported products are displayed. Abov
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

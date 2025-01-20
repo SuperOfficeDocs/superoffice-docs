@@ -84,7 +84,7 @@ You will be asked to authenticate and everything should work after that.
 
 ## How to disconnect video provider
 
-First, **disconnect** the Google Meet service provider in SuperOffice Settings and Maintenance:
+First, **disconnect** the Google Meet service provider in SuperOffice Settings and maintenance:
 
 [!include[How to disconnect video provider step-by-step](../includes/disconnect-provider-steps.md)]
 

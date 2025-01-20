@@ -6,7 +6,7 @@ author: Bergfrid Dias
 date: 03.14.2023
 keywords: dashboard, request
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice Service
 language: en
 ---
@@ -23,7 +23,7 @@ It is common practice to start your day getting an overview of the current statu
 
 If you or your role have sufficient rights, you can choose the content you want to display in the tiles on the dashboard.
 
-1. Click the **Task** button, and select **Add tile / Edit layout**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
 2. In the **Show tiles for** list, select **Request** and select one of the pre-defined tiles or choose **Empty request tile**
 
@@ -69,8 +69,8 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

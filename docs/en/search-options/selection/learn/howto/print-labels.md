@@ -25,7 +25,7 @@ Label printing can be useful when you need to send letters to multiple recipient
 
 1. Go to the **Company/contact** tab.
 
-1. Click the **Task** button and select **Print labels**.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Print labels**.
 
 1. Choose your preferred label layout. All layouts are configurable and accessible to all users in the company, allowing you to fine-tune them as needed.
 

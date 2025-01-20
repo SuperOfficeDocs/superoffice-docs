@@ -2,10 +2,10 @@
 uid: help-en-notes
 title: Taking notes
 description: Taking notes
-keywords: note
+keywords: Note tab, taking notes, create note
 author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,20 +14,23 @@ language: en
 
 # Taking notes
 
-In SuperOffice CRM, you can attach individual notes to the current company, contact, sale, project, or selection.
+In SuperOffice CRM, you can attach notes to a company, contact, sale, project, or selection. These notes can be used to store any kind of information and are searchable via [Free-text search][1].
 
 ## Create a note
 
-1. Go to the required company, contact, sale, selection, or project.
-2. Select the **Note** tab and click **Edit**.
-3. Type in the required information on the note.
-4. Click **Save**.
+1. Go to the required company, contact, sale, project, or selection.
 
-A dot on the **Note** tab indicates that there is a note.
+1. Select the **Note** tab and click <i class="ph ph-pencil-simple" aria-label="Edit"></i> in the upper-right corner of the card.
+
+1. Enter the required information in the note.
+
+1. Click **Save**.
+
+A dot on the **Note** tab indicates that a note has been added.
 
 ## Delete a note
 
-To delete a note, simply delete all the text in the note. The dot disappears from the **Note** tab.
+To delete a note, simply delete all the text in the box. The dot will disappear from the **Note** tab.
 
 <!-- Referenced links -->
-<!-- Referenced images -->
+[1]: ../../search-options/learn/freetext-search.md

@@ -15,9 +15,9 @@ language: en
 
 2. Select the dashboard you want to edit.
 
-3. To change the name of the dashboard and adjust other settings, click the **Task** button, and select **Edit dashboard**.
+3. To change the name of the dashboard and adjust other settings, click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), and select **Edit dashboard**.
 
-4. To add tiles and edit the dashboard layout, click the **Task** button, and select **Add tile / Edit layout**.
+4. To add tiles and edit the dashboard layout, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
 
 5. Click **Save**.
 

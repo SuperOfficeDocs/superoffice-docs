@@ -118,7 +118,7 @@ Within the group (between TableStart and TableEnd), you can add fields that are 
 
 To change the order of quote lines, use the **OrderBy** tag, with a line-level suffix. For example, `OrderBy:name` sorts products alphabetically by name, and `OrderBy:vatInfo` sorts products by VAT status. Only one level of sorting is supported.
 
-### <a id ="culture" />Formatting numeric and date data
+### <a id ="culture"></a>Formatting numeric and date data
 
 Numeric and date fields can be formatted to match the selected language/culture settings (affecting the display order and separators):
 

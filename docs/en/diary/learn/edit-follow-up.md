@@ -2,11 +2,14 @@
 uid: help-en-follow-up-edit
 title: Edit follow-up
 description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
+keywords: edit follow-up, update follow-up, extend meeting, shorten meeting, change only this instance, delete follow-up, cancel meeting, diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -21,7 +24,7 @@ If you edit the time, date, or location of a follow-up - or delete an invitation
 1. Open an existing follow-up by double-clicking it:
 
     * In the **Activities** section tab in the Company, Contact, Diary, Project, or Sale screen.
-    * On the different tabs in the Diary screen.
+    * Or, on the different tabs in the Diary screen.
 
 2. [Make the required changes in the dialog.][3]
 
@@ -38,11 +41,11 @@ In the Diary screen, you can change the end time for a follow-up without having 
 
 1. Click the follow-up in the **Day** tab, **Week** tab, or **View** tab.
 
-2. Position the mouse pointer on the bottom border of the follow-up. The pointer changes into a double arrows.
+1. Hover the mouse pointer over the lower edge of the follow-up. The pointer changes to a double arrow.
 
-3. Click the border and hold down the mouse button, while dragging the blue line up or down to decrease or increase the time slot for the follow-up. You can see the end time for the follow up in the top of the blue area.
+1. Click and hold, then drag the lower edge up or down to adjust the duration of the follow-up. The updated end time is displayed as you drag.
 
-4. Release the mouse button. The time slot for the follow-up is changed.
+1. Release the mouse button to apply the change.
 
 > [!NOTE]
 > You can also change the time slot by opening the follow-up and changing the **Start**, **End**, **Due**, or **Duration** fields.
@@ -67,16 +70,16 @@ If you change the start time for a single meeting, the rule is not affected. The
 
 ## <a id="delete"></a>Delete follow-up using the Diary
 
-* If you delete a follow-up you are invited to, the follow-up is removed from your diary only.
-* If you delete an invitation that you own from your Diary, this follow-up also disappears from the invitees' diaries.
+* If you delete a follow-up you are invited to, the follow-up is removed from your Diary only.
+* If you Delete an invitation that you own from your Diary, this follow-up also disappears from the invitees' diaries.
 
 1. Select the required follow-up.
-2. Right-click and choose **Delete**.
-3. Confirm or cancel the deletion in the confirmation dialog.
+1. Right-click and choose **Delete**.
+1. Choose **Yes** to confirm the deletion or **No** to keep the follow-up in the confirmation dialog.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Related topics
+## Related content
 
 * [Change Completed status of an activity][2]
 * [Stop repeating follow-ups][5]

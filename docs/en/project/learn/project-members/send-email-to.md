@@ -2,10 +2,13 @@
 uid: help-en-project-member-email
 title: Send email to project members
 description: How to email to stakeholders or project members in SuperOffice
+keywords: Send email, email project member, email stakeholder, project member, stakeholder, project
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: project, member, stakeholder, email
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,7 +16,7 @@ language: en
 
 1. Go to the required sale in the Sale screen or to the required project in the Project screen.
 
-2. Choose the **Stakeholders** or **Project Members** section tab.
+2. Choose the **Stakeholders** or **Project members** section tab.
 
 3. Select one or more stakeholders or project members.
 
@@ -33,7 +36,7 @@ language: en
 8. Click **Create** in the **Document** dialog.
 
 > [!NOTE]
-> You can also send an email to a stakeholder or project member by clicking directly on their email address in the **Stakeholders** or **Project Members** section tab.
+> You can also send an email to a stakeholder or project member by clicking directly on their email address in the **Stakeholders** or **Project members** section tab.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields

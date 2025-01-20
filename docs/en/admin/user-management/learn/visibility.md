@@ -15,10 +15,7 @@ If you can view specific documents, sales, follow-ups and selections does not de
 
 This requires the license **Confidential activities**.
 
-To set this license, find the wanted user, click the **Licences** tab and then click the checkbox on ![icon][img1] for **Confidential activities**.
+To set this license, find the wanted user, click the **Licences** tab and then mark the **Confidential activities** checkbox.
 
 <!-- Referenced links -->
 [1]: role/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-selected.png

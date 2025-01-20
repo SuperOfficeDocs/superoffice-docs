@@ -29,7 +29,7 @@ In the top part of the **Number allocation** tab is a table showing the defined 
 
 | Column | Description |
 |---|---|
-| \[Icon\] | Shows where the counter is used, for example, ![icon][img1] for the Company screen. |
+| \[Icon\] | Shows where the counter is used, for example, <i class="ph ph-buildings" aria-label="Company icon"></i> for the Company screen. |
 | Counter | Shows the name of the counter, for example, **Company number**, which applies to the **Number** field in the Company screen. |
 | Next | Shows the next value for the counter. |
 | Allocate | Specifies if the automatic counter function is used, so that the system enters values for you. |
@@ -66,6 +66,3 @@ The table below shows the consequences of different combinations of the values *
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

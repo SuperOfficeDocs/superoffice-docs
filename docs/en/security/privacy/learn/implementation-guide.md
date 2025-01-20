@@ -68,7 +68,7 @@ What types of purposes, legal bases and sources you need to use will depend upon
 
 ## Define privacy and consent requirements
 
-To define these fields, go to Settings and Maintenance and select **Privacy**. This is where you can define the different consents your business requires to document and store data.
+To define these fields, go to Settings and maintenance and select **Privacy**. This is where you can define the different consents your business requires to document and store data.
 
 There are two default purposes already created in the system for you to use:
 
@@ -126,7 +126,7 @@ The reason why you save certain personal information is called the legal basis.
 
 There are a number of standard legal bases for storing information, available in SuperOffice CRM (as of version 8.2). This is a standard list, and it will apply to 95 percent of businesses.
 
-You can edit this list of legal basis at any time in Settings and Maintenance by adding the legal basis categories that are required specifically to your business or changing the names to fit your own terminology.
+You can edit this list of legal basis at any time in Settings and maintenance by adding the legal basis categories that are required specifically to your business or changing the names to fit your own terminology.
 
 If you have a lot of existing data you want to update with a new or a changed legal basis, you can do this by using the bulk update feature.
 

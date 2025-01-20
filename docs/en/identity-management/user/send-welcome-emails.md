@@ -49,7 +49,7 @@ The sign-in link in the welcome email can only be used once. If the user has not
 
 3. Select the user from the **Associates** list.
 
-4. Click the **Task** button and then select **Send welcome email**.
+4. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and then select **Send welcome email**.
 
     ![Send welcome email -screenshot][img3]
 

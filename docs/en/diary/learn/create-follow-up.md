@@ -2,11 +2,14 @@
 uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
+keywords: add follow-up, new follow-up, book meeting, schedule meeting, add to-do, add call, follow-up, appointment, meeting, task, to-do, call, phone, diary
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -18,17 +21,17 @@ Creating follow-ups and scheduling all meetings and activities in your SuperOffi
 
 There are many ways to create a follow-up. This method works from anywhere in SuperOffice CRM and for all types of follow-ups.
 
-1. Click **+New** in the top bar and select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
+1. Click **New** on the top bar and select **Meeting**, **To-do**, or **Follow-up**.
 
 2. [Enter the required information in the fields.](#fields)
 
-    Some information is inserted automatically based on the context, for example, Today's date.
+    Some information is inserted automatically based on the context, for example, today's date.
 
 3. Click the **Save** button.
 
 **Other options:**
 
-| Starting point | Meeting (appointment) | Follow-up (call) | To-do (task) |
+| Starting point | Meeting | Follow-up | To-do  |
 |---|---|---|---|
 | Activities section tab | x | x | x |
 | Task button on a contact | x | x | |
@@ -37,7 +40,7 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 ### <a id="fields"></a>How to enter information
 
 > [!NOTE]
-> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img4] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+> Many fields have a list of predefined values you can choose from. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
 
 If your SuperOffice has [time zones][9] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
@@ -77,7 +80,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
 ## Create follow-up from Task button
 
-1. Click the ![icon][img3] **Task** button in the Contact card.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> in the Contact card.
 
     * To create a meeting, select **Request a meeting**.
 
@@ -92,7 +95,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
 > [!NOTE]
-> If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the meeting from the **View** tab, you can choose to have attendees automatically filled out with the members of the view. To set this option, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 ### <a id="associate"></a>Create meeting for an associate
 
@@ -137,8 +140,5 @@ You can also create a new follow-up by copying an existing follow-up to another 
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

@@ -2,13 +2,14 @@
 uid: help-en-document-send
 title: Send a document as email
 description: Sending documents that are stored in SuperOffice CRM as attachments in emails is quick and easy.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: document, email, attachment
+author: SuperOffice RnD
+date: 01.17.2025
+version: 10.5.1
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Send a document as email
@@ -23,7 +24,7 @@ audience_tooltip: SuperOffice CRM
         2. Right-click and select **Send as email**.
     * From the Document dialog
         1. Open the document in **Edit** mode.
-        2. Click the **Task** button.
+        2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Select **Send as email**.
 
         > [!NOTE]
@@ -33,7 +34,7 @@ audience_tooltip: SuperOffice CRM
 
     1. Choose the company to send the document to in the company field. By default the company that is active in the Company screen is shown. To choose another company, either click the arrow and select a company from the displayed list, or type the whole or the beginning of the name. After you have chosen a company, their email address is displayed next to the company field.
 
-    2. To send it to a specific person in the company, choose from the available alternatives in the list box for contacts. After you have chosen a contact, their email address is displayed next to the list box for contacts.
+    2. To send it to a specific person in the company, choose from the available alternatives in the lis for contacts. After you have chosen a contact, their email address is displayed next to the list for contacts.
 
     3. Under **Selected email address** there is now displayed the email address or correctly-formatted fax number for the selected company (or contact if you specified one). To send to a different email address or fax number, enter that here.
 

@@ -4,8 +4,8 @@ title: Links
 description: Links
 keywords: add Link, Links tab, link
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ A dot appears next to the **Links** tab when it contains one or more links.
 
 1. Select the **Links** tab.
 
-1. Click **Edit** and then **Add**.
+1. Click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) and then **Add**.
 
 1. In the **Add link** dialog:
 
@@ -50,7 +50,7 @@ A dot appears next to the **Links** tab when it contains one or more links.
 ## Remove a link
 
 1. Go to the **Links** tab.
-1. Click **Edit**.
+1. Click <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 1. Click the **Delete button** (red X) next to the link you want to remove.
 1. Click **Save**.
 

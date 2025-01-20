@@ -71,7 +71,7 @@ After you have created a list of all the contacts that need to be either updated
 
 To mass update, say legal basis or similar, select [bulk update][5] from your selection's **Task** tab.
 
-To mass delete contacts from a selection, you can choose the **Delete all contacts** feature from the **Task** button in the bottom-right corner of the main screen.
+To mass delete contacts from a selection, you can choose the **Delete all contacts** feature from the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the bottom-right corner of the main screen.
 
 ![From the Task button on the selection screen you can mass delete companies and contacts -screenshot][img2]
 
@@ -81,7 +81,7 @@ To mass delete contacts from a selection, you can choose the **Delete all contac
 
 1. To delete just some of the selection members, select them in the list of members.
 
-1. Click the **Task** button and select **Delete all**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Delete all**.
 
     ![On the selection, click on the Task button and select one of the wanted Delete functions -screenshot][img1]
 

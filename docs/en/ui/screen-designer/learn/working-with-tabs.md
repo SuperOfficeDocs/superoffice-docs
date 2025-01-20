@@ -28,7 +28,7 @@ Creating custom tabs allows you to group related fields in a way that makes sens
 
 2. Under Tab title, replace the text "New tab" with the new tab name.
 
-    You can also click ![icon][img1] to [add the tab name in other languages][3].
+    You can also click <i class="ph ph-translate" aria-label="Translate"></i> to [add the tab name in other languages][3].
 
 3. Select the number of columns you want to use in the new tab.
 
@@ -46,7 +46,7 @@ To streamline the interface, you may want to remove tabs that are no longer nece
 **Steps:**
 
 1. Select the tab.
-1. Click **Task** and choose **Remove tab**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and choose **Remove tab**.
 1. Click **OK** to confirm and close the dialog.
 
 ## Restore tab
@@ -54,7 +54,7 @@ To streamline the interface, you may want to remove tabs that are no longer nece
 If you remove a tab and later decide you need it, you can easily restore it.
 
 1. Open the layout in edit mode.
-1. Click **Task** and select **Restore tabs**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Restore tabs**.
 
 > [!NOTE]
 > This action restores **all** previously removed tabs.
@@ -67,7 +67,7 @@ Labels and dividers help to organize fields within a tab, making the information
 2. Click to select the **Elements** section.
 3. To add a header, drag the **Label** element into the layout.
 
-    * In the **Settings** sections, replace "New label" with the new label name. Optionally, click ![icon][img1] to [add the tab name in other languages][9].
+    * In the **Settings** sections, replace "New label" with the new label name. Optionally, click <i class="ph ph-translate" aria-label="Translate"></i> to [add the tab name in other languages][9].
     * Adjust the font as needed.
 
 4. To add a horizontal divider, drag the **Divider** element into the layout. Change the spacer type if necessary.
@@ -115,5 +115,4 @@ The **More** tab automatically contains all [custom fields][3], arranged by rank
 [9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
 [img2]: ../../../../media/loc/en/ui/field-settings.png

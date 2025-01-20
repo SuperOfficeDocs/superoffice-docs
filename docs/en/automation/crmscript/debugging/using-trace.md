@@ -26,7 +26,7 @@ SuperOffice CRM Online has a built-in tracing feature. When turned on, all detai
 
 ![Trace CRMScript statistics -screenshot][img1]
 
-Now you've activated tracing on the script. Keep this tab open for now. In a new tab, do the task that will trigger the script. For example, if your script should run before saving a company, go to a company card, click **Edit** and then click **Save**. Return to the open trace tab.
+Now you've activated tracing on the script. Keep this tab open for now. In a new tab, do the task that will trigger the script. For example, if your script should run before saving a company, go to a company card, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) and then click **Save**. Return to the open trace tab.
 
 ## Inspecting a trace
 

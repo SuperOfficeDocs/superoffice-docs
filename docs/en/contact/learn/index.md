@@ -1,31 +1,44 @@
 ---
 uid: help-en-contact
 title: Contact
-description: A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation.
+description: The Contact screen provides an instant snapshot of all communication and interaction with a person. Here, you can manage contact details, track activities, and access GDPR-related documentation.
+keywords: Contact screen, person, contact
 author: Bergfrid Dias
-date: 12.14.2022
-keywords: person, contact
+date: 12.17.2024
+version: 10
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Contact
 
-A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation. Everything you want to find out about a contact is available from a single screen.
+The **Contact screen** provides an instant snapshot of all communication and interaction with a person. Here, you can manage contact details, track activities, and access GDPR-related documentation—all from a single screen.
 
-![Contact screen -screenshot][img3]
+![The Contact screen displaying key information about a contact, section tabs, and navigation buttons -screenshot][img3]
 
-[!include[Intro](includes/contacts-screen-intro.md)]
+Contacts linked to a company can also be viewed in the **Contacts** section tab of the [Company screen][8]. Any activities added to a contact are automatically associated with the company.
 
-In the **Contact** screen, every record in the database is displayed like an index card, containing all information for that contact.
+You can navigate between contacts using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower-right of the screen.
 
-To move between contacts, click the previous/next buttons - ![icon][img2] ![icon][img1] - at the bottom right of the cards.
+Use the **Search** function to find specific contacts or filter records. From the Contact screen, you can also create documents, send emails, and generate follow-ups.
 
-You can [search][1] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
+## Tabs on the Contact card
+
+| Tab | Description |
+|---|---|
+| [Contact][2] | Main tab for entering key contact information, including title, phone, email, and address fields. |
+| Details | Displays extended contact information, such as birthday and preferred language. |
+| [More][19] | Custom fields for entering additional contact-specific information. |
+| [Interests][2] | Specify contact interests for selections or campaigns. A dot appears when interests are selected. |
+| [Note][20] | Free text area to add notes about the contact. Notes are marked with a dot when filled. |
+| [www][21] | Shortcut to a URL for accessing external data or web pages related to the contact. |
+| [ERP][22] | Connects the contact to the ERP system for integration or synchronization. |
 
 ## <a id="section-tabs"></a>Section tabs on Contact
 
-The bottom of the **Contact** screen contains five default [section tabs][16] with information linked to the current contact:
+Below the Contact card, [section tabs][16] provide quick access to information connected to the contact:
 
 | Section tab | Description |
 |---|---|
@@ -35,9 +48,7 @@ The bottom of the **Contact** screen contains five default [section tabs][16] wi
 | [Projects][14] | Shows all the projects where the active contact is a project member. |
 | [Relations][15] | Displays any connections existing between the current contact and other contacts or companies. |
 
-Everything you want to find out about a contact is available from a single screen.
-
-## What would you like to do?
+## Related content
 
 * [Create a new contact][2]
 * [Edit privacy settings for a contact][3]
@@ -45,21 +56,15 @@ Everything you want to find out about a contact is available from a single scree
 * [Merge contacts][5]
 * [Delete contacts][6]
 * [Send email to a contact][7]
-* [Bulk update contact information][8]
-* [Mass delete contacts and companies from selection][9]
-* [Use the Recycle bin to restore companies and contacts][10]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/index.md
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
-[8]: ../../search-options/selection/learn/howto/bulk-update.md
-[9]: ../../search-options/selection/learn/howto/mass-delete.md
-[10]: ../../learn/basics/deleting-elements.md#restore
+[8]: ../../company/learn/index.md
 
 [11]: ../../learn/section-tabs/activities-tab.md
 [12]: ../../learn/section-tabs/sales-tab.md
@@ -67,8 +72,10 @@ Everything you want to find out about a contact is available from a single scree
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/relations-tab.md
 [16]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/contact/edit-person.png
+[img3]: ../../../media/loc/en/contact/contact-screen.png

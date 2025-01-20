@@ -1,10 +1,10 @@
 ---
 uid: help-en-company-copy
-title: Copy companies
-description: Copy companies
-keywords: company
-author: SuperOffice RnD
-date: 08.27.2024
+title: Copy a company
+description: Steps to copy a company
+keywords: copy company, manage companies
+author: Bergfrid Dias
+date: 12.16.2024
 version: 10.3.8
 topic: howto
 audience: person
@@ -12,38 +12,34 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Copy companies
+# Copy a company
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-At some stage, you may want to copy an existing company to a new company. For example: an existing company has set up a new branch. The new branch will use mostly the same company information as the existing one.
+You can copy an existing company to create a new one. For example, if a company opens a new branch, you can reuse most of its information for the new record.
 
 > [!NOTE]
-> Activities, sales, interests, project membership and selection membership are not copied.
+> Activities, sales, interests, project membership, and selection membership are not copied.
 
-## To copy the company
+## Steps
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Company card.
+    Select **Manage companies** > **Copy company** from the menu.
+    The **Copy company** dialog appears, with the source company specified under **From**.
 
-1. Select **Manage companies** from the ![icon][img1] **Task** button, and click **Copy company**.
-    The **Copy company** dialog opens. The source company is specified under **From**.
+1. In the **To** section, enter the name of the new company. If needed, add a department.
 
-1. Enter the name of the new company and, where appropriate, a department under **To**.
+1. Under **Copy contacts with all information**, choose one of the following options:
 
-1. Under **Copy contacts with all information**, select one of the following:
+    * **Do not copy:** Only company details are copied.
+    * **Copy:** Company details and associated contacts are copied.
 
-    * **Do not copy**. If you select this option, the company details are copied, but not the contacts.
-    * **Copy**. If you select this option, the company details and the contacts are copied.
+1. Click **Copy**. The new company is created with its own number and code. If needed, you can [edit the company information][2] afterward.
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
-
-1. Click **Copy**. The new company is created with the specified information, and is given its own number and code. You can then [edit the company information][2] if required.
-
-![Copy company dialog -screenshot][img3]
+![Copy company dialog showing options to name the new company, add a department, and choose whether to copy contacts. -screenshot][img3]
 
 <!-- Referenced links -->
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../media/loc/en/company/copy-company.png

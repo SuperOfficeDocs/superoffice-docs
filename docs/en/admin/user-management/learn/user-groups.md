@@ -19,7 +19,7 @@ To group colleagues together and grant them access to CRM data based on this gro
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Select ![icon][img2] **Lists** in the Navigator (1).
+1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator (1).
 
     ![Add new user group -screenshot][img3]
 
@@ -49,10 +49,9 @@ To group colleagues together and grant them access to CRM data based on this gro
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

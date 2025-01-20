@@ -1,19 +1,16 @@
 items:
 - name: Overview
   href: index.md
-- name: Work with company
-  topicHref: create.md
-  items:
-  - name: Create new company
-    href: create.md
-  - name: Edit a company
-    href: edit.md
-  - name: Copy a company
-    href: copy.md
-  - name: Merge companies
-    href: merge-companies.md
-  - name: Delete a company
-    href: delete.md
+- name: Create new company
+  href: create.md
+- name: Edit company info
+  href: edit.md
+- name: Copy a company
+  href: copy.md
+- name: Merge companies
+  href: merge-companies.md
+- name: Delete a company
+  href: delete.md
 - name: Address formats for countries
   href: address-formats.md
 - name: ERP connection

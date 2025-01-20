@@ -30,7 +30,7 @@ You can set up a target type for both users and groups, as well as set other tar
 
 ## Add new target type
 
-1. Click **Add new target type**. Or click ![icon][img5] (**Configure target**) on the tab to edit an existing target type.
+1. Click **Add new target type**. Or click <i class="ph ph-gear" aria-label="Gear"></i> (**Configure target**) on the tab to edit an existing target type.
 
 2. Click **Target type** to select the target type (dimension) you want to use.
 
@@ -101,7 +101,6 @@ To delete a target type, click on the Target settings and click the Delete butto
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png
