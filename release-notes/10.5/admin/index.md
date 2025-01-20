@@ -1,8 +1,8 @@
 ---
-
+uid: news-admin-10.5
 title: What's new in SuperOffice 10.5
 description: Release notes. What's new in SuperOffice 10.5
-keywords: Settings and maintenance
+keywords: Settings and maintenance, AI Lab
 author: SuperOffice AS – Research and Development
 date: 01.21.2025
 version: 10.5
