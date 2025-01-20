@@ -2,11 +2,11 @@
 uid: help-en-basic-tasks
 title: Basic tasks to get started with
 description: Basic tasks for beginners in SuperOffice CRM.
+keywords: basics, introduction, intro, overview, refresh, tooltip
 author: Bergfrid Dias
-date: 03.06.2023
-keywords:
+date: 01.20.2025
+version: 10.5
 topic: concept
-version: 10
 language: en
 ---
 
@@ -122,5 +122,5 @@ Your administrator can [add and customize project guides][1] for you.
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/learn/diary.png
-[img2]: ../../../media/loc/en/learn/projects.png
+[img1]: ../../../media/loc/en/diary/diary.png
+[img2]: ../../../media/loc/en/project/projects.png

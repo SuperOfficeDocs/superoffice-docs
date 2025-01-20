@@ -4,8 +4,8 @@ title: Activities
 description: Activities in SuperOffice CRM
 keywords: activity
 author: SuperOffice RnD
-date: 11.29.2024
-version: 10.2.11
+date: 01.17.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -94,7 +94,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 2. Select **Functions**.
 3. Update the **Mark overdue activities** option.
 
-## What would you like to do now?
+## Related content
 
 * [Filter activities][17]
 * [Change Completed status of an activity][10]

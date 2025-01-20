@@ -4,8 +4,8 @@ title: Using the history list
 description: Using the history list
 keywords: search, history list, history
 author: SuperOffice RnD
-date: 10.31.2024
-version: 10
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

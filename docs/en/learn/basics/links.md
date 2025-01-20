@@ -4,8 +4,8 @@ title: Links
 description: Links
 keywords: add Link, Links tab, link
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

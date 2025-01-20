@@ -4,7 +4,7 @@ title: Notifications
 description: Notifications of invitations, messages, and request
 keywords: notification, invitation, request, message
 author: Hanne Gunnarsson, Bergfrid Dias
-date: 01.13.2025
+date: 01.20.2025
 version: 10.5
 topic: concept
 audience: person

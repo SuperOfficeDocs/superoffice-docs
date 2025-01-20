@@ -4,8 +4,8 @@ title: Taking notes
 description: Taking notes
 keywords: Note tab, taking notes, create note
 author: SuperOffice RnD
-date: 12.17.2024
-version: 10.3.9
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

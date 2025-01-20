@@ -4,8 +4,8 @@ title: Deleting elements
 description: How to merge, delete and restore elements.
 keywords: delete, restore, recycle bin
 author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

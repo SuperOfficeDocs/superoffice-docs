@@ -4,8 +4,8 @@ title: Company and contact relations in SuperOffice CRM
 description: Learn how to view, add, and manage relationships between companies and contacts in SuperOffice CRM, simplifying the tracking of complex business associations and custom connections.
 keywords: add relation, delete relation, relation, person, contact, company
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.11
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -74,7 +74,7 @@ To view more details or to edit, double-click a row to open the **Relation** dia
 
 * **Relationship types:** Relationship types are defined in Settings and maintenance. Customizing these allows you to better reflect your organization's specific needs.
 
-## Related topics
+## Related content
 
 * [Delete items in SuperOffice CRM][2]
 * [Group information in section tabs][1]

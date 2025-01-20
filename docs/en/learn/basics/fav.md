@@ -4,21 +4,21 @@ title: Favorites in SuperOffice CRM
 description: This guide will help you understand how to use favorites effectively, from adding items to managing and removing them.
 keywords: favorites, favourites
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 11.29.2024
-version: 10.3
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Favorites in SuperOffice CRM
+# Favorites in SuperOffice CRM <i class="ph ph-star" aria-hidden="true"></i>
 
 The Favorites function provides easy access to your favorite records, such as companies, contacts, sales, selections, projects, documents, requests, and mailings. This guide will help you understand how to use favorites effectively, from adding records to managing and removing them.
 
 ## Add record as a favorite
 
-To add a record to favorites, click the star icon (<i class="ph ph-star" aria-label="Star icon"></i>) on the relevant card, tab, or dialog. The star turns yellow, and the record is instantly added to your favorites. You do not have to click **Save**.
+To add a record to favorites, click the star icon (<i class="ph ph-star" aria-hidden="true"></i>) on the relevant card, tab, or dialog. The star turns yellow, and the record is instantly added to your favorites. You do not have to click **Save**.
 
 In lists (such as the section tabs and Find results), you can also right-click a record and select **Add to favorites** in the menu.
 
@@ -49,7 +49,7 @@ Now you can quickly access the record by selecting <i class="ph ph-star" aria-la
 
 1. Open the record.
 
-1. Click the favorites icon (<i class="ph ph-star" aria-label="Star icon"></i>) in the header. The icon changes back to the default, indicating that the record is no longer a favorite.
+1. Click the favorites icon (<i class="ph ph-star" aria-hidden="true"></i>) in the header. The icon changes back to the default, indicating that the record is no longer a favorite.
 
 ## Additional tips
 

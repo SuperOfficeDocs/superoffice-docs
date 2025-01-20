@@ -4,8 +4,8 @@ title: Printing records in SuperOffice CRM
 description: This guide provides an overview of how to print records such as companies, contacts, sales, projects, and follow-ups, making it convenient to have hard copies for meetings, documentation, or further analysis.
 keywords: print
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
