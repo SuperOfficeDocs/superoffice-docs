@@ -1,0 +1,33 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Core CRM
+  href: core-crm/index.md
+  items:
+  - name: 10.5.1 update
+    href: core-crm/10.5.1-update.md
+- name: Settings and maintenance
+  href: admin/index.md
+  items:
+  - name: 10.5.1 update
+    href: admin/10.5.1-update.md
+#- name: Service
+#  href: service/index.md
+#  items:
+#  - name: 10.5.1 update
+#    href: service/10.5.1-update.md
+#- name: Marketing
+#  href: marketing/index.md
+#  items:
+#  - name: 10.5.1 update
+#    href: marketing/10.5.1-update.md
+- name: Office integrations
+  href: office-integrations/index.md
+  items:
+  - name: SuperOffice for Outlook 6.0 update
+    href: office-integrations/sofo-6.0-update.md
+- name: API
+  href: api/index.md
+  items:
+  - name: 10.5.1 update
+    href: api/10.5.1-update.md
