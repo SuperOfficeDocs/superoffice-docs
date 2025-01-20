@@ -2,9 +2,9 @@
 uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
-keywords: open Diary, Diary screen, calendar, Activities list, Activities section tab, activities, to-do list, task list, follow-up, diary
+keywords: open Diary, Diary screen, calendar, Activities section tab, activities, to-do list, task list, follow-up, diary
 author: Bergfrid Dias
-date: 01.09.2025
+date: 01.20.2025
 version: 10.5
 topic: concept
 license: salesessentials, serviceessentials, marketingessentials
@@ -15,14 +15,14 @@ language: en
 
 # Diary
 
-The Diary screen is the central hub of SuperOffice CRM for managing [follow-ups][1] (meetings, tasks, or calls). It consists of a calendar and an activities list that help you stay organized and productive.
+The Diary screen is the central hub of SuperOffice CRM for managing [follow-ups][1] (meetings, tasks, or calls). It consists of a calendar and a to-do list that help you stay organized and productive.
 
-![Diary screen displaying a weekly calendar and activities list -screenshot][img1]
+![Diary screen displaying a weekly calendar and to-do list -screenshot][img1]
 
 The Diary combines the following key components:
 
 * **Calendar:** Shows follow-ups scheduled for specific dates and times. It is similar to a Filofax, with separate pages for every day, week, and month.
-* **Activities list:** Shows (uncompleted) activities without specific times, such as calls and to-dos, and sales. This acts as a to-do list.
+* **To-do list:** Shows (uncompleted) activities without specific times, such as calls and to-dos, and sales. This acts as a to-do list.
 
 With its flexible views, the Diary ensures seamless collaboration, allowing you to plan your day, week, or month with ease.
 
@@ -126,17 +126,17 @@ At the lower left of the calendar is a field for selecting a [time zone][20], if
 
 ## <a id="section-tabs"></a>Section tabs in the Diary screen
 
-The lower part of the Diary screen consists of section tabs that together make up your activities list. These include:
+The lower part of the Diary screen consists of section tabs that together make up your to-do list. These include:
 
 * **Activities:** Acts as a to-do list, showing follow-ups that are not assigned specific times for the selected associate. See [Activities section tab][12].
 
 * **Sales:** Provides an overview of sales progress and scheduled activities related to sales for the selected associate. It emphasizes tracking progress and managing upcoming tasks. See [Sales section tab][13].
 
-The Diary section tabs can be displayed either below the calendar or as a fifth calendar view - the **Activities** tab - depending on your preferences.
+The Diary section tabs can be displayed either below the calendar or as a fifth calendar view - the **To-do list** tab - depending on your preferences.
 
 When displayed *below* the calendar (classic), the section tabs remain visible regardless of the selected Diary tab, allowing you to efficiently preview sales or follow-ups in the side panel while planning in the calendar. When displayed *inside* as a view (new), you conserve space for the calendar itself.
 
-![Diary screen with the section tabs inside the Activities view tab -screenshot][img6]
+![Diary screen with the section tabs inside the To-do list view tab -screenshot][img6]
 
 ## Side panel in the Diary
 
@@ -159,7 +159,7 @@ You can customize the Diary to suit your workflow:
     * Default alarm times
     * Start and end times for all-day events
     * First day of the week (Sunday or Monday)
-    * Whether to display the activities list below the Diary or as a tab
+    * Whether to display the to-do list below the Diary or as a tab
 
 1. Select **Functions** and adjust settings such as:
     * Show week numbers in calendars.
