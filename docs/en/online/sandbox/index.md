@@ -52,6 +52,8 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
   * csbl - URL to *blogic.fcgi*
 
 * All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard.
+  
+* All webhooks are deleted, this means both of type HTTP POST nofitications and CRMScript.
 
 * Any SuperOffice App Store app that was authorized on your production database will not work in the sandbox and you will have to sign up again if you want to use it here. The authorization/approval for the app to access a specific installation is a one-to-one link.
 
@@ -63,7 +65,7 @@ Because the tenant is in an isolated cluster, a production sandbox is suitable f
 
 However, as with any custom application under development, it must be [validated][6] before it gets access to the customer's production tenant. Always keep our [best practices][7] in mind before requesting validation.
 
-When the customer is ready to launch the approved application on their production tenant, reply to the ticket received when the request to publish was submitted.
+When the customer is ready to launch the approved application on their production tenant, use the [Request authorization][9] to start the process.
 
 > [!NOTE]
 > To get the app into the production sandbox, sign in to the Developer Portal and [request to publish the app's configuration to stage][8] (then we automatically also publish it to production). Also send us the customer ID of the production sandbox.
@@ -90,6 +92,7 @@ When the customer is ready to launch the approved application on their productio
 [6]: ../../developer-portal/custom-app/validate.md
 [7]: ../../developer-portal/best-practices/index.md
 [8]: ../../developer-portal/create-app/request-to-publish.md
+[9]: ../../developer-portal/tenants/authorization.md
 
 <!-- Referenced images -->
 [img12]: media/imageu533bo.png
