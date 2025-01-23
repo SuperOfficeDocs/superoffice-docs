@@ -49,17 +49,17 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 
   * **Loddrett:** Vis verdiene vannrett eller loddrett.
 
-  * **Data:** Her angir du verdiene for hver alternativknapp. Skriv inn en verdi i dette feltet, og klikk på legg til-knappen ![icon][img1]. Gjenta for å legge til flere verdier.
+  * **Data:** Her angir du verdiene for hver alternativknapp. Skriv inn en verdi i dette feltet, og klikk på **+**. Gjenta for å legge til flere verdier.
 
 * **Avmerkingsboks:** Et utvalgsfelt der du kan velge flere verdier.
 
   * **Loddrett:** Vis verdiene vannrett eller loddrett.
 
-  * **Data:** Her angir du verdiene for hver avmerkingsboks. Skriv inn en verdi i dette feltet, og klikk på legg til-knappen ![icon][img1]. Gjenta for å legge til flere verdier.
+  * **Data:** Her angir du verdiene for hver avmerkingsboks. Skriv inn en verdi i dette feltet, og klikk på **+**. Gjenta for å legge til flere verdier.
 
 * **Nedtrekksmeny:** Et utvalgsfelt der du kan velge en verdi fra en liste.
 
-  * **Data:** Her legger du inn listeverdiene. Skriv inn en verdi i dette feltet, og klikk på legg til-knappen ![icon][img1]. Gjenta for å legge til flere verdier.
+  * **Data:** Her legger du inn listeverdiene. Skriv inn en verdi i dette feltet, og klikk på **+**. Gjenta for å legge til flere verdier.
 
 * **Skjult:** Et felt som ikke er synlig i det publiserte skjemaet. I feltet **Standardverdi** kan du legge inn en kode, et prosjektnavn/-nummer eller annen informasjon som skal knyttes til dette skjemaet.
 
@@ -92,6 +92,3 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

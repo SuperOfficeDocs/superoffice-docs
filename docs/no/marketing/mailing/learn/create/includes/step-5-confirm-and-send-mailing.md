@@ -21,7 +21,7 @@ For ikke å overbelaste serverne i arbeidstiden kan det være hensiktsmessig å 
 
 1. Klikk på **Planlegg**.
 2. Under **Planlegg utsendelse** velger du et av følgende alternativer:
-    * Klikk på **Velg dato**-ikonet ![ikon][img3], og velg datoen og klokkeslettet da utsendelsen skal starte.
+    * Klikk på **Velg dato**-ikonet (<i class="ph ph-calendar-blank" aria-hidden="true"></i>), og velg datoen og klokkeslettet da utsendelsen skal starte.
     * Klikk på **Sett til nå** for å sette inn dagens dato og gjeldende klokkeslett.
 3. Klikk på **OK**. Arbeidsflyten lukkes, og du returneres til fanen **Utsendelser**.
 
@@ -35,5 +35,4 @@ Hvis du vil stoppe utsendelsen eller starte en planlagt utsendelse før planen, 
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

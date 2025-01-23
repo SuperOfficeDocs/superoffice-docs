@@ -13,15 +13,10 @@ language: no
 
 Du kan sende SuperOffice-dokumenter og andre filer til kunden.
 
-1. Klikk på ![ikon][img1] nederst i chatpanelet.
+1. Klikk på <i class="ph ph-paperclip" aria-label="Attachments"></i> nederst i chatpanelet.
 2. Gjør ett av følgende for å sende en fil:
     * Klikk på **Velg et CRM-dokument**, og søk etter og velg SuperOffice-dokumentet du vil sende.
     * Klikk på **Last opp filer (eller dra og slipp her)**, velg filen og klikk på **Åpne**.
     * Dra og slipp en fil fra Windows Explorer til **Last opp filer (eller dra og slipp her)**. Kontroller at **→ Flytt** vises ved siden av markøren når du slipper filen (ikke **+ Kopier**).
 
 Filen/dokumentet sendes til kunden med en gang.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/attachments-black.png

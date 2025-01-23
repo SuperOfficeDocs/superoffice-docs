@@ -23,16 +23,16 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
 2. Velg dashbordet du vil redigere.
 
-3. Klikk på **Oppgave** -knappen, og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
+3. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
 
 4. Velg **Salg**i listen **Vis figurer for**.
 
 5. Velg ett av følgende diagrammer i fanen **Bibliotek**:
 
-    * ![ikon][img2] – enkelt tall
-    * ![ikon][img3] – stolpediagram
-    * ![ikon][img4] – kolonnediagram
-    * ![ikon][img5] – målerdiagram
+    * <i class="ph ph-number-square-three" aria-hidden="true"></i> – enkelt tall
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – stolpediagram
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – kolonnediagram
+    * <i class="ph ph-gauge" aria-hidden="true"></i> – målerdiagram
     * Tom salgsfigur
 
     > [!TIP]
@@ -46,7 +46,7 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
     * Klikk på overskriften på en figur, og dra den til en annen plassering.
 
-8. I dashbordet klikker du på ikonet **Rediger figur** ![ikon][img6] på den nye figuren.
+8. I dashbordet klikker du på **Rediger figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nye figuren.
 
 9. I **Datasett**-fanen angir du **Salgsdato** til gjeldende år, kvartal eller måned. Rediger de andre [kriteriene][2] etter behov. Husk å oppdatere figurnavnet for å gjenspeile eventuelle endringer.
 
@@ -66,7 +66,7 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
     * Stort tall: Du kan redigere fargene som brukes til å vise mål.
     * Målediagram: Bruk alternativet **Merk mål ved** for å angi målet i målediagrammet.
 
-12. Klikk på ![ikon][img1] for å [legge til en oversettelse][3] til figurnavnet, titlene og etikettene.
+12. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til en oversettelse][3] til figurnavnet, titlene og etikettene.
 
 13. Klikk på **Lagre**. Klikk deretter på **Ferdig**.
 
@@ -95,11 +95,5 @@ Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt rikt
 [7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/big-numbers.png
-[img3]: ../../../../common/icons/column-bar.png
-[img4]: ../../../../common/icons/bar.png
-[img5]: ../../../../common/icons/gauge.png
-[img6]: ../../../../common/icons/edit-pen.png
 [img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
 [img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

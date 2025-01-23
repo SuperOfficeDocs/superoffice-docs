@@ -1,12 +1,6 @@
 ---
-uid: help-no-diary-screen
-title: Dagbok-skjermen
-description: Dagbok-skjermen
-author: SuperOffice RnD
-date: 10.02.2023
-keywords: dagbok, oppfølging
-topic: reference
-language: no
+uid: help-no-diary-screen-redirect
+redirect_url: https://docs.superoffice.com/no/diary/learn/index.html
 ---
 
 # Dagbok-skjermen

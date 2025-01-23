@@ -30,7 +30,7 @@ Du kan angi en standard oppfølgingstype og beskrivende tekst som skal vises i S
 
 1. Klikk på fanen **Opprett oppfølging**.
 
-1. Klikk på pilknapp![ikonet][img1] til høyre for feltet **Type**, og velg en oppfølging.
+1. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> til høyre for feltet **Type**, og velg en oppfølging.
 
 1. Skriv inn ønsket beskrivelse.
 
@@ -44,6 +44,3 @@ Du kan angi en standard oppfølgingstype og beskrivende tekst som skal vises i S
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png

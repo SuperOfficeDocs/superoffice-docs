@@ -15,7 +15,7 @@ Du kan oppdatere standardsidene i kundesenteret ved å redigere kildefilene.
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Velg ![ikon][img1] **Systeminnstillinger** > **Kundesenter, kildefiler**.
+1. Velg <i class="ph ph-list" aria-label="Main menu"></i> **Systeminnstillinger** > **Kundesenter, kildefiler**.
 
 2. Klikk på en webside i listen.
 
@@ -29,8 +29,3 @@ Du kan oppdatere standardsidene i kundesenteret ved å redigere kildefilene.
 5. Klikk på **Bruk** for å lagre endringene uten å lukke vinduet, eller klikk på **OK** for å lagre og avslutte.
 
 Hvis du senere ønsker å tilbakestille en side til det opprinnelige innholdet, åpner du siden og klikker på **Gjenopprett standard**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

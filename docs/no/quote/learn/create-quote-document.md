@@ -32,7 +32,7 @@ Hvis du har opprettet et tilbudsdokument for et tilbud, men vil bruke et annet d
 
 1. Åpne tilbudet.
 
-2. Klikk på ![ikon][img1] **Oppgave**-knappen, og velg **Endre tilbudsdokument**.
+2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, og velg **Endre tilbudsdokument**.
 
 3. Merk tilbudsdokumentet i oversikten.
 
@@ -50,6 +50,3 @@ Hvis du har opprettet et tilbudsdokument for et tilbud, men vil bruke et annet d
 [3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

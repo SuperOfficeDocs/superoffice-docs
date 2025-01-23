@@ -49,7 +49,7 @@ language: no
     4. Klikk på **Legg til** for å legge til verdien.
 
         > [!TIP]
-        > Du kan slette en verdi igjen ved å velge den og klikke på ![icon][img1] for sletting.
+        > Du kan slette en verdi igjen ved å velge den og klikke på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
 
 1. I fanen **Angi egenskaper** kan du angi bestemte egenskaper for saker som genereres fra e-postmeldinger som samsvarer med det gjeldende filteret:
 
@@ -68,6 +68,3 @@ language: no
 [1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../request/reply-templates/learn/index.md
 [3]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

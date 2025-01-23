@@ -15,7 +15,7 @@ language: no
 
 Hvis det er mange FAQ-oppføringer i en mappe, kan det være vanskelig å finne frem til ønsket oppføring. Da kan det være praktisk å søke etter det.
 
-1. Gå til ![icon][img1] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 2. Klikk på **Søk**-knappen. Du kommer til skjermbildet **Kriterier**.
 3. Skriv inn teksten du vil søke etter, og eventuelt andre kriterier.
 4. Klikk på **Søk**.
@@ -26,6 +26,3 @@ Hvis det er mange FAQ-oppføringer i en mappe, kan det være vanskelig å finne 
 
 <!-- Referenced links -->
 [2]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

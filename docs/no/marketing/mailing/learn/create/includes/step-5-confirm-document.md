@@ -16,12 +16,9 @@ Klikk på utsendelsen i listen for å [vise sendestatus og statistikk][1].
 ## <a id="open-and-print-the-document"></a>Åpne og skrive ut dokumentet
 
 1. Velg fanen **Utsendelser**.
-2. Finn dokumentet, klikk på ![ikon][img2] og velg **Vis**.
+2. Finn dokumentet, klikk på <i class="ph ph-list" aria-label="Task menu"></i> og velg **Vis**.
 3. Klikk på knappen under **Last ned generert dokument**. Dokumentet lastes ned til nettleseren din.
 4. Åpne og skriv ut dokumentet.
 
 <!-- Referenced links -->
 [1]: ../../view-statistics.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../../media/icons/btn-menu.png

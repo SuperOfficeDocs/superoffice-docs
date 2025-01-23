@@ -14,12 +14,12 @@ audience_tooltip: SuperOffice Marketing
 
 # Redigere innhold
 
-![icon][img1]
+![Edit content -screenshot][img1]
 
 > [!TIP]
 > Hvis du vil redigere globale egenskaper og utseende for meldingen, velger du **Brødtekst** i sidepanelet. Hvis du har angitt bestemte egenskaper for enkelte områder vil ikke disse bli overstyrt av globale egenskaper.
 >
-> Velg **Datamaskin** ![icon][img3] eller **Mobil** ![icon][img4] øverst på sidepanelet for å redigere egenskaper for en spesific layout.
+> Velg **Datamaskin** (<i class="ph ph-monitor" aria-hidden="true"></i>) eller **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) øverst på sidepanelet for å redigere egenskaper for en spesific layout.
 
 ## Redigere tekstinnhold (tekstblokker) i en melding
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Legg til sporede koblinger i meldingen][8]. Du kan for eksempel legge til en kobling på en informasjonsside for et produkt. Du kan opprette en ny kobling eller legge til en eksisterende kobling.
 
-    Slik legger du til en vanlig kobling (ikke sporet): Velg en tekst og klikk på ![icon][img6] på verktøylinjen. Skriv inn koblingen i **URL**-feltet.
+    Slik legger du til en vanlig kobling (ikke sporet): Velg en tekst og klikk på <i class="ph ph-link" aria-label="Link"></i> på verktøylinjen. Skriv inn koblingen i **URL**-feltet.
 
 6. Rediger formateringen av teksten ved hjelp av feltene i sidepanelet.
 
@@ -84,7 +84,4 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Hvis du vil vise og skrive ut en eksisterende dokumentutsendelse, avslutter du trinnet **Oppsett** (klikk på **Avbryt** eller **Lagre + lukk**). Velg fanen **Utsendelser**, finn dokumentet, klikk på ![ikon][img1] , og velg **Vis**. Klikk på knappen under **Last ned generert dokument**. Dokumentet lastes ned til nettleseren din. Åpne og skriv ut dokumentet.
+> Hvis du vil vise og skrive ut en eksisterende dokumentutsendelse, avslutter du trinnet **Oppsett** (klikk på **Avbryt** eller **Lagre + lukk**). Velg fanen **Utsendelser**, finn dokumentet, klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, og velg **Vis**. Klikk på knappen under **Last ned generert dokument**. Dokumentet lastes ned til nettleseren din. Åpne og skriv ut dokumentet.
 
 Ved hjelp av arbeidsflyten for dokumentutsendelse kan du generere et PDF-dokument som skrives ut og sendes til kundene. Det første trinnet når du skal lage en dokumentutsendelse, kalles **Oppsett**. Her kan du angi navnet på utsendelsen, overskriften og hvem utsendelsen er tiltenkt, i dokumentet, samt angi arkiveringsalternativer for utsendelsen.
 
@@ -45,6 +45,3 @@ Du kan knytte dokumentutsendelsen til et bestemt salg. Dette kan være aktuelt h
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

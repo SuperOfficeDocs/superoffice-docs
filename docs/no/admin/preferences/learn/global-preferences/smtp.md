@@ -12,11 +12,6 @@ envir: onsite
 
 # SMTP (bare ONSITE)
 
-Gå til ![ikonet][img1] **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Delen **SMTP** inneholder følgende valg:
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Delen **SMTP** inneholder følgende valg:
 
 [!include[List of fields for mailings](../../../../marketing/learn/includes/mailing-smtp-fields.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

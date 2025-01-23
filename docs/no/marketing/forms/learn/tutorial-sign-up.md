@@ -42,7 +42,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Velg feltet **Kontakt - Navn**, og klikk på den røde X-en for å fjerne dette feltet.
 
-1. Klikk på **Legg til**-knappen ![icon][img1] og legg til følgende felt:
+1. Klikk på <i class="ph ph-plus" aria-label="Add"></i> og legg til følgende felt:
 
     * For- og etternavn
 
@@ -107,9 +107,9 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
     SuperShop-teamet
     </details>
 
-1. Klikk **Sett inn, bekreftelseskobling** ![icon][img3] fra verktøylinjen. Bekreftelseskoblingen settes inn i brødteksten.
+1. Klikk **Sett inn, bekreftelseskobling** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) fra verktøylinjen. Bekreftelseskoblingen settes inn i brødteksten.
 
-1. Klikk på bekreftelseskoblingen, og velg **Rediger kobling** ![icon][img5], endre deretter koblingsteksten til "Klikk her for å bekrefte e-postadressen din". Koblingen er gyldig i 30 minutter som standard.
+1. Klikk på bekreftelseskoblingen, og velg **Rediger kobling** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), endre deretter koblingsteksten til "Klikk her for å bekrefte e-postadressen din". Koblingen er gyldig i 30 minutter som standard.
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 
@@ -165,9 +165,6 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

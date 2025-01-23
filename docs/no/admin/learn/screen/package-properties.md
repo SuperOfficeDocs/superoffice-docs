@@ -14,7 +14,7 @@ language: no
 
 # Egenskaper for pakke
 
-I ![ikon][img1] **Systemdesign** og på fanen **Pakker** kan du redigere egenskapene til og innholdet i en pakke. Hvis det er en ulåst installert pakke, kan du også angi hva som skal installeres. Hvis pakken ble opprettet i dette systemet, kan du legge til og fjerne elementer, avhengig av hva du vil ta med i pakken. Hvis pakken ble opprettet i et annet system, men lastet opp til dette systemet, kan du i dette bildet velge hvilke deler du vil skal bli installert, forutsatt at pakken ikke er låst.
+I <i class="ph ph-selection-all" aria-hidden="true"></i> **Systemdesign** og på fanen **Pakker** kan du redigere egenskapene til og innholdet i en pakke. Hvis det er en ulåst installert pakke, kan du også angi hva som skal installeres. Hvis pakken ble opprettet i dette systemet, kan du legge til og fjerne elementer, avhengig av hva du vil ta med i pakken. Hvis pakken ble opprettet i et annet system, men lastet opp til dette systemet, kan du i dette bildet velge hvilke deler du vil skal bli installert, forutsatt at pakken ikke er låst.
 
 * **Navn**: Navnet på pakken.
 * **SuperOffice Service-versjon**: Pakken kan bare installeres på systemer med en SuperOffice Service-versjon som er nyere enn dette.
@@ -22,8 +22,3 @@ I ![ikon][img1] **Systemdesign** og på fanen **Pakker** kan du redigere egenska
 * **Låst**: Hvis dette alternativet er aktivert, kan ikke elementene i denne pakken redigeres.
 * **Beskrivelse**: Beskrivelse av pakken.
 * **Installeringsskript**: Installeringsskriptet kjøres ved installering og avinstallering av pakkekomponenter og får informasjon om hvilke komponenter som er blitt valgt, og hvilke komponenter som ble valgt tidligere.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

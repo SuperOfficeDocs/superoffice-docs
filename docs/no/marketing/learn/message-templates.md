@@ -59,7 +59,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 
 3. Bruk om nødvendig søkefeltet til å finne en bestemt mal.
 
-4. Klikk på ![ikon][img1] menyknappen ved siden av malen du vil bruke.
+4. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen ved siden av malen du vil bruke.
 
 5. Velg **Opprett utsendelse**. Malen åpnes i [veiviseren for utsendelser][1].
 
@@ -93,7 +93,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 
 1. Gå til fanen **Meldingsmaler**.
 
-2. Klikk på ![ikon][img2] **Legg til SMS.** Bildet **Rediger mal** vises.
+2. Klikk på **Legg til SMS.** Bildet **Rediger mal** vises.
 
 3. Angi et beskrivende navn på malen i feltet **Navn**.
 
@@ -104,7 +104,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 ## Opprette en mal basert på en eksisterende utsendelse
 
 1. Gå til fanen **Utsendelser**.
-2. Klikk på menyknappen ![ikon][img1] ved siden av utsendelsen du vil bruke som grunnlag for malen.
+2. Klikk på menyknappen <i class="ph ph-list" aria-label="Task menu"></i> ved siden av utsendelsen du vil bruke som grunnlag for malen.
 3. Velg **Kopier til mal**.
 4. I bildet **Rediger mal** angir du et beskrivende navn på malen i feltet **Navn**.
 5. Klikk eventuelt på **Mappe** for å velge en mappe for malen.
@@ -113,7 +113,7 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 ## Opprett en mal basert på en eksisterende mal (kopi)
 
 1. Gå til fanen **Meldingsmaler**.
-2. Klikk på ![ikon][img1] menyknappen ved siden av malen du vil bruke.
+2. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen ved siden av malen du vil bruke.
 3. Velg **Lag kopi**.
 4. I bildet **Rediger mal** angir du et beskrivende navn på malen i feltet **Navn**.
 5. Foreta eventuelle nødvendige endringer, og klikk på **OK.**
@@ -134,6 +134,4 @@ I tillegg til malene som er opprettet av deg og kollegene dine, har du tilgang t
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

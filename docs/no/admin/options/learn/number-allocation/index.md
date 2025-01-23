@@ -29,7 +29,7 @@ I den øverste delen av fanen **Nummertildeling** er det en tabell som viser de 
 
 | Kolonner | Beskrivelse |
 |---|---|
-| [Icon] | Viser hvor telleren brukes, for eksempel ![ikon][img1] for Firma-skjermen. |
+| [Icon] | Viser hvor telleren brukes, for eksempel <i class="ph ph-buildings" aria-label="Company icon"></i> for Firma-skjermen. |
 | Teller | Viser navnet på telleren, for eksempel **Firmanummer**, som gjelder for **Nummer**-feltet i Firma-bildet. |
 | Neste | Viser neste verdi for telleren. |
 | Tildel | Angir om funksjonen for automatisk teller brukes, slik at systemet angir verdier for deg. |
@@ -66,6 +66,3 @@ Tabellen nedenfor viser hvilke konsekvenser ulike kombinasjoner av verdiene **Ti
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

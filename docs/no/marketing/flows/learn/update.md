@@ -64,7 +64,7 @@ Du kan finne disse ressursene nyttige:
 ## Flytt, dupliser eller fjern trinn
 
 * **Flytt:** Klikk på et trinn og dra det til en ny plassering.
-* **Dupliser:** Pek på et trinn og klikk på **dupliser**-ikonet ![icon][img11]. Dette oppretter et nytt trinn basert på det nåværende og legger det til som det neste trinnet. Bruk denne opsjonen for å gjenbruke et trinn i samme flyt.
+* **Dupliser:** Pek på et trinn og klikk på **dupliser**-ikonet (<i class="ph ph-copy" aria-hidden="true"></i>). Dette oppretter et nytt trinn basert på det nåværende og legger det til som det neste trinnet. Bruk denne opsjonen for å gjenbruke et trinn i samme flyt.
 * **Fjern:** Pek på et trinn og klikk på den røde X. Dette fjerner trinnet fra flyten (men ikke innholdet).
 
 > [!NOTE]
@@ -115,6 +115,3 @@ Gå til fanen **Flyt** for å sjekke om det er noen på grenen. Hvis ja, gå til
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenced images -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

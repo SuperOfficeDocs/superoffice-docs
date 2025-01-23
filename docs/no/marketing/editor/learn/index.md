@@ -27,7 +27,7 @@ I trinnet **Innhold** kan du redigere utseendet til og innholdet i meldingen.
 SuperOffice Markedsføring leveres med mange [ferdige meldingsmaler][9], og du kan enkelt flytte innhold rundt for å få det utseendet du ønsker. For å spare tid, kan du lagre ofte brukt innhold som blokker.
 
 > [!TIP]
-> Vi anbefaler normalt en maksimal bredde på 600 piksler for utsendelser. Du kan også velge hvordan utsendelsen vil se ut, for eksempel på smarttelefoner ved å klikke på **Mobil** ![icon][img4] i menyen i nedre venstre hjørne. Se også [Tilpasse meldingen for visning på mobile enheter][3].
+> Vi anbefaler normalt en maksimal bredde på 600 piksler for utsendelser. Du kan også velge hvordan utsendelsen vil se ut, for eksempel på smarttelefoner ved å klikke på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i menyen i nedre venstre hjørne. Se også [Tilpasse meldingen for visning på mobile enheter][3].
 
 ## Redigere kolonner og blokker/seksjoner
 
@@ -87,8 +87,8 @@ Fra den globale menyen kan du forhåndsvise, angre eller gjenta handlinger og se
 | Icon | Navn | Funksjon |
 |:-:|---|---|
 | ![icon][img11] | Angre/gjøre om | Angrer den siste handlingen eller utfører en angret handling på nytt. |
-| ![icon][img2] | Forhåndsvis | Åpner en forhåndsvisning av meldingen på en stasjonær eller mobil skjerm. |
-| ![icon][img3], ![icon][img4] | Bytt visning for stasjonære eller mobile enheter | Brukes til å se hvordan utseendet er på en datamaskin eller smarttelefon. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Forhåndsvis | Åpner en forhåndsvisning av meldingen på en stasjonær eller mobil skjerm. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Bytt visning for stasjonære eller mobile enheter | Brukes til å se hvordan utseendet er på en datamaskin eller smarttelefon. |
 
 ## Pop-up-meny
 
@@ -159,9 +159,6 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

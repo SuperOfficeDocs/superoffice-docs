@@ -26,7 +26,7 @@ SuperOffice Marketing samler inn data om statusen for hver sendte e-post. I fane
 
 2. I bildet **Vis utsendelse** klikker du på fanen **Mottakere**.
 
-    Listen viser de 100 første mottakerne. Klikk på ![ikon][img1] for å vise de neste 100.
+    Listen viser de 100 første mottakerne. Klikk på <i class="ph ph-arrow-right" aria-label="Arrow right"></i> for å vise de neste 100.
 
 3. [Filtrer listen](#filters) ved å bruke avmerkingsboksene nederst i listen.
 
@@ -68,7 +68,7 @@ Hvis statusen er **Klar til å sendes**, trenger du ikke å gjøre noe. SuperOff
 Ved å bruke menyknappen **Handlinger** kan du legge til mottakere eller klikkere i et utvalg eller prosjekt.
 
 > [!NOTE]
-> Bare personer som allerede er registrert i SuperOffice-databasen, vil bli lagt til i utvalget eller prosjektet. Et personikon ![ikon][img3] i **Type**-kolonnen indikerer at en person er registrert i SuperOffice-databasen. Mottakere som er importert fra eksterne lister, vil vanligvis ikke bli registrert.
+> Bare personer som allerede er registrert i SuperOffice-databasen, vil bli lagt til i utvalget eller prosjektet. Et personikon (<i class="ph ph-user-circle" aria-hidden="true"></i>) i **Type**-kolonnen indikerer at en person er registrert i SuperOffice-databasen. Mottakere som er importert fra eksterne lister, vil vanligvis ikke bli registrert.
 
 ### Legge til klikkere i et nytt utvalg eller prosjekt
 
@@ -100,6 +100,4 @@ Ved å bruke menyknappen **Handlinger** kan du legge til mottakere eller klikker
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

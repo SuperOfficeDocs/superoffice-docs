@@ -18,7 +18,7 @@ I dette bildet kan du redigere egenskapene til en ny eller eksisterende skript-/
 
 ## Opprett mapper
 
-1. Klikk på ![ikon][img1] **Ny mappe** øverst i bildet.
+1. Klikk på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mappe** øverst i bildet.
 2. I feltet **Mappe** velger du en overordnet mappe i listen.
 3. Angi et beskrivende navn på mappen i feltet **Navn**.
 4. Klikk på **OK**. Den nye mappen opprettes.
@@ -41,8 +41,3 @@ svarmaler, tabeller, skript og makroer) i mappen fra SuperOffice.
 2. Klikk på mappenavnet.
 3. Klikk på **Slett**.
 4. Klikk på **OK** for å bekrefte. Mappen og innholdet i den fjernes fra SuperOffice.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

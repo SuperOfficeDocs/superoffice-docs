@@ -26,7 +26,7 @@ language: no
 
 4. I feltet **Postprefiks** kan du angi bokstaven(e) som brukes foran postnummeret når du skriver til det aktuelle landet fra et annet land, for eksempel *N* for Norge.
 
-5. I de tre neste feltene kan du klikke på ![ikon][img1] pilen og velge ønsket adresseformat fra listen. Vanligvis vil samme format gjelde for alle de tre feltene, men for enkelte land kan det være nyttig med flere formater, avhengig av hva adressen brukes til:
+5. I de tre neste feltene kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge ønsket adresseformat fra listen. Vanligvis vil samme format gjelde for alle de tre feltene, men for enkelte land kan det være nyttig med flere formater, avhengig av hva adressen brukes til:
     * **Visuelt adresseformat**:
         Det vanlige formatet som det vises på skjermen på Firma-bildet. Som regel er det tilstrekkelig å velge et format her.
     * **Adresseformat for utskrift (lokalt)** og **(intl.)**:
@@ -34,7 +34,7 @@ language: no
 
 6. Firma-bildet inneholder feltet **Org.nr** for firmaets organisasjonsnummer. Denne ledeteksten kan endres i Innstillinger og vedlikehold. Skriv inn ønsket tekst i feltet **Ledetekst for org.nr**, for eksempel *Org.nr* for Norge. Når du registrerer et norsk firma i SuperOffice CRM, blir ledeteksten for firmaets organisasjonsnummer dermed *Org.nr* i stedet for *VAT No*.
 
-7. Klikk på ![ikon][img1] pilen ved feltet **Valuta**, og velg ønsket valuta fra listen.
+7. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved feltet **Valuta**, og velg ønsket valuta fra listen.
 
     > [!NOTE]
     > Disse systemvalgene er definert i listen [**Generelt - Valuta**][2].
@@ -51,4 +51,3 @@ language: no
 [2]: currency.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

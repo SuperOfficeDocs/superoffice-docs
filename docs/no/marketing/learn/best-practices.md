@@ -91,7 +91,7 @@ Forfattere vil se en melding hvis de bruker en ikke-validerbar e-postadresse i F
 
 Meldingen tilpasses automatisk for visning på mindre skjermer.
 
-Klikk på ![icon][img1] **Mobil** i den globale menyen for å se hvordan utseendet er på en smarttelefon. Du kan også klikke på en seksjon i meldingen og deretter på **Mobil** under **Innhold** i sidepanelet.
+Klikk på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i den globale menyen for å se hvordan utseendet er på en smarttelefon. Du kan også klikke på en seksjon i meldingen og deretter på **Mobil** under **Innhold** i sidepanelet.
 
 Hvis du vil justere mobilspesifikke innstillinger for en melding, velger du en seksjon i meldingen og klikker **Mobil** i sidepanelet. Du kan nå definere formateringen for visning av meldingen på mobile enheter, og velge hvilke elementer (for eksempel bilder) som skal utelates fra mobile enheter.
 
@@ -107,5 +107,4 @@ Hvis du vil justere mobilspesifikke innstillinger for en melding, velger du en s
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/mobile.png
 [img2]: ../../../media/loc/en/marketing/from-name.gif

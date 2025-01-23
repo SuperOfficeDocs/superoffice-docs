@@ -22,13 +22,8 @@ Hvis mottakeren har problemer med å vise meldingen i e-postprogrammet sitt (for
 
 2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel "Klikk her for å se denne meldingen i en nettleser".
 
-3. Klikk på knappen **Sett inn/rediger kobling** ![icon][img1] på verktøylinjen.
+3. Klikk på knappen **Sett inn/rediger kobling** (<i class="ph ph-link" aria-hidden="true"></i>) på verktøylinjen.
 
 4. Klikk på **Spesielle koblinger** og velg **Kobling for å se meldingen på nett**.
 
 5. Klikk på **Lagre**. Koblingen settes inn i meldingen.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png

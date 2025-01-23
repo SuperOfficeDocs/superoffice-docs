@@ -22,14 +22,14 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger t
 
 1. Åpne skjermbildet **Dashbord**.
 
-2. Klikk på **Oppgave** -knappen, og velg **Opprett et nytt dashbord**.
+2. Klikk på **Oppgave** -knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og velg **Opprett et nytt dashbord**.
 
 3. Skriv inn dashbordets navn i dialogboksen. Dette blir navnet på dashbordfanen.
 
 4. Skriv inn en beskrivelse av dashbordet. Beskrivelsen vises øverst på dashbordet.
 
     > [!TIP]
-    > Du kan også legge til navn og beskrivelse [på andre språk][1] ved å klikke på ![ikon][img1].
+    > Du kan også legge til navn og beskrivelse [på andre språk][1] ved å klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Velg temaet for dashbordet i **Tema** -listen.
 
@@ -66,5 +66,4 @@ Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lag
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

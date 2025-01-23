@@ -28,9 +28,9 @@ Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte 
 1. Klikk på boksen **Legg til deltakere**. Velg deretter en eller flere personer fra listen.
 
     * Begynn å skrive for å søke etter en person i hele SuperOffice.
-    * Velg en person fra historielisten ![ikon][img4] eller favorittene dine ![ikon][img5].
-    * Klikk ![ikon][img6] for å søke etter en kollega eller ![ikon][img7] for å velge personer knyttet til et selskap.
-    * Du kan også velge salgsinteressenter ![ikon][img8] og prosjektdeltakere ![ikon][img9].
+    * Velg en person fra historielisten (<i class="ph ph-clock" aria-hidden="true"></i>) eller favorittene dine (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Klikk <i class="ph ph-users" aria-label="Group icon"></i> for å søke etter en kollega eller <i class="ph ph-buildings" aria-label="Company icon"></i> for å velge personer knyttet til et selskap.
+    * Du kan også velge salgsinteressenter (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) og prosjektdeltakere (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Oppfølgingsdialog, velg deltakere -screenshot][img17]
 
@@ -49,7 +49,7 @@ Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte 
 
 ### <a id="availability"></a>Planleggingsassistent
 
-Planleggingsassistenten er en del av den nye **Oppfølgings**-dialogen. Den detaljerte kalenderen viser tilgjengeligheten til hver intern deltaker (kollega). Den øverste raden viser den akkumulerte tilgjengeligheten. Tilgjengeligheten til eksterne deltakere og e-postdeltakere er ukjent.
+Planleggingsassistenten er en del av **Oppfølgings**-dialogen. Den detaljerte kalenderen viser tilgjengeligheten til hver intern deltaker (kollega). Den øverste raden viser den akkumulerte tilgjengeligheten. Tilgjengeligheten til eksterne deltakere og e-postdeltakere er ukjent.
 
 ![Oppfølgingsdialog, planleggingsassistent -screenshot][img18]
 
@@ -113,12 +113,6 @@ Bruke innboksen i SuperOffice: Hvis du ikke har angitt nødvendig informasjon i 
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png

@@ -60,7 +60,7 @@ I listen til høyre kan du legge til produktinformasjon. Dette kan være følgen
 
 * Lister: Her velger du alternativer fra listen, for eksempel enhet, produkttype og produktgruppe. Du kan legge til flere alternativer på disse listene i bildet **Lister** [Legge til forekomster i en liste][4].
 
-* Lister med ![ikon][img1] søkemuligheter: Her kan du velge fra lister med nylige oppføringer, skrive inn tekst for å starte et søk eller klikke på søkeknappen ![ikon][img1] for å starte et avansert søk.
+* Lister med søkemuligheter: Her kan du velge fra lister med nylige oppføringer, skrive inn tekst for å starte et søk eller klikke på søkeknappen (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) for å starte et avansert søk.
 
 ### Slik endrer du navn og rekkefølge, og gjøre felt redigerbare og/eller obligatoriske
 
@@ -82,5 +82,4 @@ For å finne ut hvilke felt som vises, kan du gå til fanen**Innstillinger** og 
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
 [img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

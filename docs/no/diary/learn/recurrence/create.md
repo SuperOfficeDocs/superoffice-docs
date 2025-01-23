@@ -14,13 +14,11 @@ language: no
 
 Å sette opp gjentakelse betyr å planlegge startdatoen for oppfølgingsmøter i en serie.
 
-[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
-
 ## Trinn
 
 1. [Åpne eller opprett en oppfølging][2].
 
-1. Klikk gjentakelsesikonet ![ikon][img1] og velg en av de foreslåtte frekvensene. Hvis ingen av mønstrene passer for deg, velg **Egendefinert**.
+1. Klikk på <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> og velg en av de foreslåtte frekvensene. Hvis ingen av mønstrene passer for deg, velg **Egendefinert**.
 
     ![Oppfølgingsdialog, foreslått gjentakelse -screenshot][img8]
 
@@ -40,6 +38,8 @@ language: no
 
 1. Klikk **Lagre** i **Oppfølgings**-dialogen for å lagre alle endringer.
 
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
+
 ## Hva vil du lære mer om?
 
 * [Redigere repeterende oppfølginger][1]
@@ -51,6 +51,5 @@ language: no
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

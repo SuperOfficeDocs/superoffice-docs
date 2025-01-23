@@ -15,7 +15,7 @@ language: no
 
 1. Gå til innboksen.
 2. Merk en melding i innboksen.
-3. Klikk på **Handlinger**-knappen ![icon][img1], og velg **Flytt til mappe**.
+3. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, og velg **Flytt til mappe**.
 4. Velg ønsket mappe. Meldingen flyttes til angitt mappe.
 
 ## Flytte flere e-postmeldinger til en annen mappe
@@ -24,8 +24,3 @@ language: no
 2. Merk meldingene i innboksen.
 3. Velg **Flytt til mappe** i forhåndsvisningsvinduet til høyre.
 4. Velg ønsket mappe. Meldingene flyttes til den angitte mappen.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

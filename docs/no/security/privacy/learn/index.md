@@ -9,7 +9,7 @@ topic: concept
 language: no
 ---
 
-# Personvern
+# Personvern <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 **Personvern**-funksjonen i SuperOffice hjelper deg å beskytte personvernet til kundene dine og overholde EUs personvernforordning (GDPR).
 
@@ -17,7 +17,7 @@ language: no
 
 Dette er to ulike formål for innhenting av samtykke fra en person. I SuperOffice kalles disse formålene **Salg og kundeservice** og **E-markedsføring**. Det kan også finnes andre formål som er relevante for virksomheten din.
 
-I fanen **Samtykke** på skjermbildet **Personvern** (![ikon][img1]) kan du [opprette og redigere formål][2].
+I fanen **Samtykke** på skjermbildet **Personvern** kan du [opprette og redigere formål][2].
 
 Du må dokumentere et rettslig grunnlag og kilde til samtykke for hvert formål (under import eller i SuperOffice CRM for enkeltpersoner eller flere brukere).
 
@@ -68,4 +68,3 @@ Hvis du *ikke* velger dette alternativet, vil bare personer med **E-markedsføri
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

@@ -9,9 +9,7 @@ topic: howto
 language: no
 ---
 
-# Skriv en e-post
-
-![icon][img2]
+# Skriv en e-post <i class="ph ph-at" aria-label="Email icon"></i>
 
 Uansett hvor du er i SuperOffice CRM, kan du skrive en ny e-postmelding ved å klikke på **Ny**-knappen på toppraden.
 
@@ -27,12 +25,8 @@ Når du er ferdig med meldingen og vil sende den, har du følgende alternativer:
 > [!TIP]
 > Hvis du ikke arkiverer meldingen når du sender den, kan du likevel gå til Sendt-mappen og [arkivere meldingen][2].
 >
-> Signaturmalen nederst i meldingen kan redigeres i ![icon][img1] **Personlige innstillinger** > **Rediger personlig signatur**.
+> Signaturmalen nederst i meldingen kan redigeres i <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Rediger personlig signatur**.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
 [2]: ../inbox/learn/archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img2]: ../../../../common/icons/nav-inbox-h32.png

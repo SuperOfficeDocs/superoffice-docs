@@ -18,9 +18,9 @@ language: no
 
 For å illustrere denne funksjonaliteten legger vi til en ny navigatorgruppe i navigatoren til venstre i SuperOffice. I den nye navigatorgruppen skal vi legge til en ekstrameny. I eksemplet vårt skal vi legge til navigatorgruppen "Nettsteder" med noen nyttige nettsteder.
 
-1. Velg ![ikon][img2] **Systeminnstillinger** > **Systemdesign** > **Ekstramenyer**.
+1. Velg <i class="ph ph-list" aria-label="Main menu"></i> **Systeminnstillinger** > **Systemdesign** > **Ekstramenyer**.
 
-2. Hold musepekeren over **Navigator**-mappen og klikk på ![ikon][img1].
+2. Hold musepekeren over **Navigator**-mappen og klikk på **+**.
 
 3. Skriv inn "Nettsteder" i feltet**Ledetekst** (maksimalt 14 tegn).
 
@@ -30,11 +30,11 @@ For å illustrere denne funksjonaliteten legger vi til en ny navigatorgruppe i n
 
 6. Klikk på **OK**. Den nye navigatorgruppen vises til venstre. Navigatorgruppen er tom, så vi må legge til et nettsted. I vårt tilfelle legger vi til Google.
 
-7. Hold musepekeren over navigatorgruppen du nettopp har opprettet, og klikk på ![ikon][img1]. Skjermbildet **Egenskaper for meny** vises.
+7. Hold musepekeren over navigatorgruppen du nettopp har opprettet, og klikk på **+**. Skjermbildet **Egenskaper for meny** vises.
 
 8. Skriv inn "Google" i feltet **Ledetekst** (maksimalt 20 tegn).
 
-9. Merk av for **Bruk URL** og skriv inn "http://www.google.com" i **URL**-feltet.
+9. Merk av for **Bruk URL** og skriv inn `http://www.google.com` i **URL**-feltet.
 
 10. IKKE merk av for **Legg til ID** eller **Legg til &lt;usec&gt;**, ellers legges verdier til bak URLen du definerte.
 
@@ -48,7 +48,3 @@ For å illustrere denne funksjonaliteten legger vi til en ny navigatorgruppe i n
 
 <!-- Referenced links -->
 [1]: properties.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

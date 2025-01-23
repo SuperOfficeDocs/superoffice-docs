@@ -32,14 +32,14 @@ Når du angir forekomster for en liste i Lister-bildet, kan du også angi hvilke
 
 5. Velg brukergruppe i listen **Synlig for brukergruppe**. Her vises alle brukergruppene i organisasjonen. Klikk på boksen foran navnet på ønsket brukergruppe for å angi at forekomsten skal være synlig for gruppen.
 
-    Boksen blir da merket med en hake (![ikon][img2]).
+    Boksen blir da merket med en hake (<i class="ph ph-check" aria-hidden="true"></i>).
 
 6. Gjenta trinn 4 og 5 for hver forekomst du vil gjøre synlig for bestemte brukergrupper.
 
 > [!NOTE]
 > Når du legger til en forekomst i oversikten **Forekomster**, blir forekomsten automatisk synlig for alle brukergruppene under **Synlig for brukergruppe**. Du kan eventuelt fjerne merkingen for de brukergruppene du ikke vil at forekomsten skal være synlig for.
 
-Du kan velge flere brukergrupper for én forekomst. Klikk på **Merk alle** (![ikon][img1]) for å merke alle gruppene, eller på **Velg bort alle** (![ikon][img3]) for å fjerne all merking.
+Du kan velge flere brukergrupper for én forekomst. Klikk på **Merk alle** (<i class="ph ph-check-circle" aria-hidden="true"></i>) for å merke alle gruppene, eller på **Velg bort alle** (<i class="ph ph-minus-circle" aria-hidden="true"></i>) for å fjerne all merking.
 
 ## Angi forekomster for en brukergruppe
 
@@ -69,8 +69,3 @@ Du kan også angi tilgjengelige forekomster for en brukergruppe:
 <!-- Referenced links -->
 [1]: headings.md
 [2]: ../../../user-management/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/select-all.png
-[img2]: ../../../../../media/icons/btn-selected.png
-[img3]: ../../../../../media/icons/unselect-all.png

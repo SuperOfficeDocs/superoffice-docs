@@ -28,7 +28,7 @@ Du kan angi rettigheter for [dataobjekter][2] basert på hvem som eier objektet.
 
 3. Merk ønsket rolle i listen **Roller**. Rettighetene for den valgte rollen vises i fanen **Datarettigheter**.
 
-4. Klikk på ![ikon][img3] pilen ved siden av rettigheten du vil endre, og velg deretter ønsket rettighet.
+4. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av rettigheten du vil endre, og velg deretter ønsket rettighet.
 
     | Navn | Rettigheter | Infoboks |
     |---|---|---|
@@ -70,6 +70,3 @@ Hvis dataobjekter (firmaer, prosjekter, dokumenter og så videre) skal gjøres t
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
 [3]: functional-rights.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

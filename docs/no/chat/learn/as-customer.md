@@ -27,7 +27,7 @@ language: no
 
 5. Kunden chatter med agenten.
 
-6. Når samtalen er over, kan kunden avslutte chatsamtalen ved å lukke chatvinduet. Alternativt kan agenten avslutte chatsamtalen ved å velge ![ikon][img1] > **Avslutt chat**.
+6. Når samtalen er over, kan kunden avslutte chatsamtalen ved å lukke chatvinduet. Alternativt kan agenten avslutte chatsamtalen ved å velge <i class="ph ph-list" aria-label="Task menu"></i> > **Avslutt chat**.
 
     * Hvis sluttskjema for chat er aktivt for denne chattekanalen, har kunden muligheten til å gå tilbake til chatten.
     * Hvis funksjonen **Aktiver chatlogg** er aktiv for denne chatkanalen, kan kunden velge å motta en logg av samtalen via e-post. E-posten bruker en svarmal i SuperOffice Service.
@@ -37,8 +37,3 @@ language: no
 Hvis ingen agenter er tilgjengelige (vanligvis utenfor arbeidstiden), vises en kort melding i chatvinduet. Eksempel: "Beklager. Vi har stengt. Åpningstiden er ..."
 
 Hvis innsending av sak er aktiv for denne chattekanalen, kan kundene skrive inn navn, e-postadresse og et spørsmål. Saks-IDen vises i chatvinduet.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

@@ -18,7 +18,7 @@ Se denne videoen og finn ut hvordan du legger til og redigerer formål for behan
 
 ## Trinn
 
-1. Gå til Innstillinger og vedlikehold og klikk på **Personvern**-knappen i Navigator (![ikon][img2]).
+1. Gå til Innstillinger og vedlikehold og klikk på **Personvern**-knappen i Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Klikk på **Legg til** under listen med formål.
 
@@ -45,7 +45,7 @@ Se denne videoen og finn ut hvordan du legger til og redigerer formål for behan
         * Bekreftelse om at dataene vil ikke bli delt med andre parter og lagres på en sikker måte
         * Informasjon om hvordan de kan endre eller trekke tilbake samtykke når som helst
 
-4. Klikk på ![ikon][img1] ved siden av et felt for å legge til nye eller redigere eksisterende [oversettelser][1] av felttekstene.
+4. Klikk på **A-Z** ved siden av et felt for å legge til nye eller redigere eksisterende [oversettelser][1] av felttekstene.
 
 5. Klikk på **Lagre** når du er ferdig.
 
@@ -60,5 +60,3 @@ Se denne videoen og finn ut hvordan du legger til og redigerer formål for behan
 [3]: ../index.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

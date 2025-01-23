@@ -89,8 +89,6 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 
 8. Klikk på koblingen for å laste opp dokumentet, eller dra og slipp dokumentet fra Windows Utforsker til dialogboksen **Dokument**.
 
-    ![Opprette nytt dokument -screenshot][img2]
-
 9. Lukk dialogboksen **Dokument** ved å klikke på **Lagre**.
 
 ***
@@ -98,7 +96,7 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 ## <a id="fields"></a>Slik fyller du inn informasjon
 
 > [!NOTE]
-> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img5] for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
+> Mange felt har en liste over forhåndsdefinerte verdier du kan velge fra. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> for å utvide listen. Velg deretter en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en bestemt verdi, for eksempel et firmanavn.
 
 ![Opprett dokument fra mal (ny) -screenshot][img4]
 
@@ -165,6 +163,4 @@ Hvis du ikke har installert SuperOffice WebTools, må du laste ned dokumenter ma
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

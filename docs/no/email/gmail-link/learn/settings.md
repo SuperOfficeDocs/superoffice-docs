@@ -26,9 +26,9 @@ Noen ganger vises alltid dialogboksen **Arkiver e-post i SuperOffice** :
 
 ## Inkludere maler som ikke er e-postmaler, i listen over maler
 
-Valgt ![icon][img2]: Alle dokumentmaler vises i **Type**-listen i dialogboksen **Arkiver e-post i SuperOffice**.
+Valgt (<i class="ph ph-check" aria-hidden="true"></i>): Alle dokumentmaler vises i **Type**-listen i dialogboksen **Arkiver e-post i SuperOffice**.
 
-Ikke valgt ![icon][img3]: Bare dokumentmaler av typen **E-post** vises.
+Ikke valgt: Bare dokumentmaler av typen **E-post** vises.
 
 ## Standard mal for utgående e-post
 
@@ -65,5 +65,3 @@ Klikk på denne knappen for å koble til en annen SuperOffice-installasjon. Føl
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

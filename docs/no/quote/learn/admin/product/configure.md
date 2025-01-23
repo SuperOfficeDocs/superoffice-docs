@@ -58,7 +58,7 @@ Merk av her hvis brukerne skal redigere feltet, og/eller hvis det skal være på
 
 ### Rekkefølge
 
-Klikk på pilene ![ikon][img1] ![ikon][img2] for å velge plasseringen til feltet. Denne rekkefølgen brukes også i dialogboksen **Legg til / rediger produkt**.
+Klikk på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> for å velge plasseringen til feltet. Denne rekkefølgen brukes også i dialogboksen **Legg til / rediger produkt**.
 
 ## Aktuelt innhold
 
@@ -70,6 +70,4 @@ Klikk på pilene ![ikon][img1] ![ikon][img2] for å velge plasseringen til felte
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

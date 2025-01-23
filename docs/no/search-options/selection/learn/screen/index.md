@@ -33,20 +33,18 @@ Medlemslisten ser litt ulik ut avhengig av hva utvalget inneholder. Alle utvalgs
 | Utsendelser | Opprett en utsendelse til personer i et utvalg. [Vis masseutsendelsene](#mailing) som er arkivert på dette utvalget. |
 
 > [!TIP]
-> Klikk på ![ikonet][img3] til høyre for kolonneoverskriftene i et utvalg for å gruppere og filtrere poster, legge til/fjerne kolonner, og spesifisere beregninger. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortfanene][9] for flere funksjoner.
+> Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene i et utvalg for å gruppere og filtrere poster, legge til/fjerne kolonner, og spesifisere beregninger. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortfanene][9] for flere funksjoner.
 
-Hvis du vil flytte mellom utvalg, klikker du på forrige/neste-knappene ( ![ikon][img2] ![ikon][img1] ) øverst til høyre på skjermbildet.
+Hvis du vil flytte mellom utvalg, klikker du på forrige/neste-knappene (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) øverst til høyre på skjermbildet.
 
 ### <a id="filter"></a>Filtrere medlemslisten
 
 > [!NOTE]
 > Før du filtrerer medlemslisten (for eksempel salg eller oppfølginger), må du klikke på **Vis alle** i fanens bunntekst. Dette sørger for at fanen viser alle postene i utvalget. For å optimere ytelsen når du jobber med store utvalg, lastes vanligvis bare de første 100 postene inn i medlemslisten.
 
-Hvis du vil aktivere kolonnefilteret, klikker du på ![ikon][img3] til høyre for kolonneoverskriftene og klikker på **Aktiver filter**. Filterknappen (![ikon][img7]) vises nå på kolonnen som kan [filtreres][8].
+Hvis du vil aktivere kolonnefilteret, klikker du på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene og klikker på **Aktiver filter**. Filterknappen (<i class="ph ph-funnel" aria-hidden="true"></i>) vises nå på kolonnen som kan [filtreres][8].
 
-### Oppgave-knappen
-
-![ikon][img6]
+### Oppgave-knappen <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
 Bruk **Oppgave**-knappen til å utføre ulike oppgaver for medlemmene eller noen av medlemmene i utvalget. Eksempler: sending av e-post, masseredigering og eksport. Hvilke aktiviteter som vises, avhenger av hvilken type poster utvalget består av (hva som er valgt i feltet **Utvalg av**).
 
@@ -59,9 +57,9 @@ Bruk **Oppgave**-knappen til å utføre ulike oppgaver for medlemmene eller noen
 * **Vis alle**. Brukes til å vise alle utvalgsmedlemmer.
 
     > [!NOTE]
-    > Som standard viser listen bare de 100 første postene i utvalget. Hvis du vil endre denne verdien, kan du gå til ![ikon][img4] **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Arkivsidestørrelse**.
+    > Som standard viser listen bare de 100 første postene i utvalget. Hvis du vil endre denne verdien, kan du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Arkivsidestørrelse**.
 
-* ![ikon][img5]: Oppdaterer dataene i listen.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Oppdaterer dataene i listen.
 
 ### <a id="mailing"></a> Vise utsendelser arkivert på utvalg
 
@@ -91,10 +89,3 @@ Dobbeltklikk på en utsendelse for å åpne den.
 [4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../common/icons/cog-wheel.png
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/arrow-left.png
-[img4]: ../../../../../media/icons/personal-settings-small.png
-[img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../../media/loc/en/learn/task.png

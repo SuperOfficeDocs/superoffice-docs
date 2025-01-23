@@ -15,13 +15,13 @@ language: no
 
 Når du registrerer e-postadresser under **Kunnskapsbase** > **E-postadresser**, blir de tilgjengelige de fleste steder der du sender e-post, for eksempel i skjermbildene **Ny sak** og **Legg til melding**. Dette gjør saksbehandlingen raskere.
 
-1. Gå til ![icon][img2] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **E-postadresser**.
+1. Gå til <i class="ph ph-list" aria-hidden="true"></i> **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **E-postadresser**.
 
 1. Gå til mappen du vil legge inn e-postadressen i. Hvis den ikke finnes ennå, kan du [opprette en ny mappe][1].
 
 1. Klikk på knappen **Ny e-postadresse** . Dette tar deg til skjermbildet **Egenskaper for e-postadresse**.
 
-1. I feltet **Mappe** vises automatisk navnet på mappen du har valgt. Hvis du ombestemmer deg, kan du klikke på![icon][img1] listeknappen og velge en annen mappe i listen som vises.
+1. I feltet **Mappe** vises automatisk navnet på mappen du har valgt. Hvis du ombestemmer deg, kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velge en annen mappe i listen som vises.
 
 1. I **Navn**-feltet skriver du inn navnet på personen e-postadressen tilhører.
 
@@ -35,5 +35,3 @@ Når du registrerer e-postadresser under **Kunnskapsbase** > **E-postadresser**,
 [1]: manage-folders.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../../media/icons/main-menu.png

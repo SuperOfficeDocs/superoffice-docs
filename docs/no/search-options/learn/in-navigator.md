@@ -31,8 +31,6 @@ Navigatorens hurtigsøk utfører to parallelle søk.
 
 * Du kan søke etter et salg ved å skrive inn navnet på salget eller navnet på et firma som er knyttet til salget, i hurtigsøkfeltet for **Salg** i navigatoren.
 
-    ![Hurtigsøk -screenshot][img2]
-
 * Du kan søke etter en person i hurtigsøkfeltet for **Firma** i navigatoren.
 
 <!-- Referenced links -->
@@ -40,5 +38,4 @@ Navigatorens hurtigsøk utfører to parallelle søk.
 [2]: ../../../en/api/osql/soundx.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/quicksearch-company.png
-[img2]: ../../../media/loc/en/search-options/quicksearch-sale.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png

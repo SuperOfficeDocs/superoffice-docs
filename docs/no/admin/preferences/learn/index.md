@@ -8,15 +8,14 @@ keywords: innstillinger, preferanser
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 
-# Preferanser
+# Preferanser <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 I bildet Preferanser kan du angi preferanser for hele systemet (globalt), én database, én brukergruppe eller én bruker. Preferanser som bare kan angis på globalt nivå (system), er plassert i fanen **[Globale preferanser][1]**.
 
-Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** > **Preferanser** i topplinjen. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
+Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferanser** i topplinjen. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
 
 I tillegg kan du konfigurere videomøter i fanen [Videomøter][8] og dokumentbibliotek i fanen [Dokumentbibliotek][9].
 
@@ -59,7 +58,7 @@ Noen [preferanser][1] kan bare angis på et globalt nivå:
 
 ### Endre globale preferanser
 
-Hvis du vil redigere disse innstillingene, går du til ![ikon][img1] **Preferanser**-bildet og velger fanen **Globale preferanser**.
+Hvis du vil redigere disse innstillingene, går du til **Preferanser**-bildet og velger fanen **Globale preferanser**.
 
 * Preferansene er delt inn i seksjoner.
 * Hold musepekeren over en preferanse for å vise tilleggsinformasjon.
@@ -124,4 +123,3 @@ Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. K
 [9]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

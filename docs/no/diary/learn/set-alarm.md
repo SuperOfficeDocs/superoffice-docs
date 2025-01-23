@@ -10,7 +10,7 @@ topic: howto
 language: no
 ---
 
-# Stille inn alarmer for oppfølginger
+# Stille inn alarmer for oppfølginger <i class="ph ph-bell" aria-hidden="true"></i>
 
 SuperOffice CRM kan minne deg før møtet starter. Ved den angitte ledetiden vises en systemvarsling på enheten din.
 

@@ -16,7 +16,7 @@ language: no
 
 For å bruke SuperOffice på en mer effektiv måte og gjøre systemet enda smartere, er avanserte alternativer tilgjengelige via Expander Services Development Tools.
 
-Forutsatt at du har tilgang til utviklingsverktøyene, vil du se ![ikon][img1] **Systemdesign** i navigatoren. Du kan opprette ekstra tabeller og felt, lage tilpassede arbeidsflyter via CRM-skript og redigere de forskjellige hovedkortene og dialogboksene slik at de passer til akkurat dine forretningsbehov. Disse verktøyene hjelper deg å tilpasse SuperOffice slik at sakssystemet ditt blir enda kraftigere og mer relevant for firmaet ditt.
+Forutsatt at du har tilgang til utviklingsverktøyene, vil du se <i class="ph ph-selection-all" aria-hidden="true"></i> **Systemdesign** i navigatoren. Du kan opprette ekstra tabeller og felt, lage tilpassede arbeidsflyter via CRM-skript og redigere de forskjellige hovedkortene og dialogboksene slik at de passer til akkurat dine forretningsbehov. Disse verktøyene hjelper deg å tilpasse SuperOffice slik at sakssystemet ditt blir enda kraftigere og mer relevant for firmaet ditt.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -64,4 +64,3 @@ Ved å [legge til ekstra tabeller og felt][1] i SuperOffice kan du lagre en meng
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

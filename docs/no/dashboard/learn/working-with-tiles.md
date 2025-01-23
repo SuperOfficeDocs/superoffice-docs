@@ -23,7 +23,7 @@ Det er dataene som ligger bak figurene, som gjør dashbordet nyttig. Finn ut hvo
 
 * Klikk på dataetikettene (tekst) under figuren for å skjule/vise bestemte figurer. Dette kan være nyttig hvis du skal skrive ut eller eksportere figurene.
 
-* Klikk på ![ikon][img1] i toppteksten på en figur, og velg deretter **Fullskjermvisning** for å åpne figuren i fullskjerm. Nyttig for figurer med mye innhold.
+* Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i toppteksten på en figur, og velg deretter **Fullskjermvisning** for å åpne figuren i fullskjerm. Nyttig for figurer med mye innhold.
 
 ### Se nærmere på underliggende data
 
@@ -43,13 +43,13 @@ Følg trinnene i denne GIF-en eller trinnene nedenfor for å se hvordan du får 
 
     * Dobbeltklikk på en oppføring for å åpne den (eller velg en oppføring og klikk **Åpne**).
 
-    * Hvis du vil [kopiere oppføringer til et utvalg][4], klikker du på **Oppgave**-knappen, og deretter velger du **Kopier til utvalg**. Hvis du ikke velger noen oppføringer, kopieres alle oppføringene.
+    * Hvis du vil [kopiere oppføringer til et utvalg][4], klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, og deretter velger du **Kopier til utvalg**. Hvis du ikke velger noen oppføringer, kopieres alle oppføringene.
 
 5. Klikk på **Lukk** når du er ferdig.
 
 ## Eksportere figurer
 
-Klikk på ![ikon][img1] i overskriften til en figur for å få tilgang til følgende alternativer:
+Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i overskriften til en figur for å få tilgang til følgende alternativer:
 
 * **Last ned PDF-dokument** / **Last ned PNG-dokument**: Last ned figuren i PDF- eller PNG-format. Eksportfilene lastes ned til nettleseren (**Nedlastinger** -mappen).
 
@@ -73,5 +73,4 @@ Klikk på ![ikon][img1] i overskriften til en figur for å få tilgang til følg
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

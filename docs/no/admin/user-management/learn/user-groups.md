@@ -19,11 +19,11 @@ For å gruppere kolleger sammen og gi dem tilgang til CRM-data basert på denne 
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Velg ![ikon][img2] **Lister** i navigatoren (1).
+1. Velg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i navigatoren.
 
     ![Opprette brukergruppe -screenshot][img3]
 
-1. Velg **Generelt - Brukergruppe** i listen (2) og klikk **+Legg til** (3).
+1. Velg **Generelt - Brukergruppe** i listen og klikk **Legg til**.
 
 1. Skriv inn informasjon i dialogboksen. Valgfritt, velg en eller flere [sakskategorier][4] for denne gruppen.
 
@@ -49,10 +49,9 @@ For å gruppere kolleger sammen og gi dem tilgang til CRM-data basert på denne 
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

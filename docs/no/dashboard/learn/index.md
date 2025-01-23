@@ -84,10 +84,10 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 
 | Ikon/knapp | Beskrivelse |
 |---|---|
-| ![ikon][img1] | Dashbordet er festet av en administrator, og det er sannsynligvis distribuert til flere brukere. |
-| ![ikon][img2] | Klikk på stjernen øverst til høyre for å velge et dashbord som favoritt. |
-| ![ikon][img3] | Klikk på **Oppdater** -knappen for å oppdatere dataene i alle figurer. |
-| **Oppgave** | Klikk for å få tilgang til ulike funksjoner. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashbordet er festet av en administrator, og det er sannsynligvis distribuert til flere brukere. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Klikk på stjernen øverst til høyre for å velge et dashbord som favoritt. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klikk på **Oppdater** -knappen for å oppdatere dataene i alle figurer. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klikk for å få tilgang til ulike funksjoner. |
 
 **Funksjoner på Oppgave-knappen:**
 
@@ -106,7 +106,4 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

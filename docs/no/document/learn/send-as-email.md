@@ -21,7 +21,7 @@ language: no
         2. Høyreklikk og velg **Send som e-post**.
     * Fra dialogboksen Dokument
         1. Åpne dokumentet i **redigeringsmodus**.
-        2. Klikk på **Oppgave**-knappen.
+        2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Velg **Send som e-post**.
 
         > [!NOTE]

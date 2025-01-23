@@ -27,32 +27,25 @@ Du bør generere statuser og/eller tellere på nytt hvis indikatorene viser at d
 
 ### Slik vet du om den er oppdatert
 
-Hvis et element ikke oppdateres, vises det som ![ikon][img1] (statuser) og ![ikon][img3] / ![ikon][img4] / ![ikon][img5] (tellere) i SuperOffice CRM.
+Hvis et element ikke oppdateres, vises det som nedtonet i SuperOffice CRM.
 
-## Regenerer statuser
+## Regenerer statuser <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>
 
 Når du har [lagt til, redigert eller slettet et kriterium][2], eller hvis du for eksempel har redigert en intensjon om en oppgave i SuperOffice CRM, vises et rødt kryss i statuslisten til venstre for de(n) aktuelle statusen(e). Statuser som er merket med et rødt kryss, er ikke aktive.
 
 Deretter må du generere disse statusene på nytt ved å klikke på en av disse knappene:
 
-| Ikon | Navn | Beskrivelse | Sted |
-|---|---|---|---|
-| ![ikon][img2] | Generer valgt statusovervåking på nytt | Velg for å generere den valgte statusen på nytt | Nederst i fanen **Firma**, **Person** eller **Prosjekt** |
-| ![ikon][img2] | Generer alle statusovervåkinger på nytt | Velg dette alternativet hvis du vil generere alle statuser på nytt | Nederst på fanen **Status** |
+| Navn | Beskrivelse | Sted |
+|---|---|---|
+| Generer valgt statusovervåking på nytt | Velg for å generere den valgte statusen på nytt | Nederst i fanen **Firma**, **Person** eller **Prosjekt** |
+| Generer alle statusovervåkinger på nytt | Velg dette alternativet hvis du vil generere alle statuser på nytt | Nederst på fanen **Status** |
 
 ## Regenerer tellerverdier
 
-| Ikon | Navn | Beskrivelse |
-|---|---|---|
-| ![ikon][img2] | Generer alle tellere på nytt | Merk av for å generere alle tellere på nytt |
+| Navn | Beskrivelse |
+|---|---|
+| Generer alle tellere på nytt | Merk av for å generere alle tellere på nytt |
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/admin/status-inactive.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/admin/saint-counter-company-dis.png
-[img4]: ../../../media/icons/admin/saint-counter-project-dis.png
-[img5]: ../../../media/icons/admin/saint-counter-sale-disabled.png

@@ -18,23 +18,18 @@ I innboksen har du følgende alternativer:
 | Icon | Beskrivelse |
 |---|---|
 | Ny | Brukes til å [opprette en ny melding][1]. |
-| Slett | |
-| Søk | Skriv inn tekst i dette feltet for å begynne å søke i den åpne mappen. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Skriv inn tekst i dette feltet for å begynne å søke i den åpne mappen. |
 | INNBOKS | Brukes til å velge en mappe. Standardmappen er innboksen. |
-| ![icon][img2] ![icon][img5] | Meldingene er som standard sortert etter dato, med de nyeste meldingene øverst i listen. Du kan også sortere etter avsender og emne i stigende eller synkende rekkefølge. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> <i class="ph ph-sort-descending" aria-hidden="true"></i> | Meldingene er som standard sortert etter dato, med de nyeste meldingene øverst i listen. Du kan også sortere etter avsender og emne i stigende eller synkende rekkefølge. |
 
 ## Verktøylinje nederst
 
 | Icon | Beskrivelse |
 |---|---|
-| ![icon][img3] | Filtrerer meldingene i innboksen. |
-| ![icon][img4] | Oppdaterer innboksen. |
+| <i class="ph ph-funnel" aria-label="Filter"></i> | Filtrerer meldingene i innboksen. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Oppdaterer innboksen. |
 
 <!-- Referenced links -->
 [1]: compose.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../../common/icons/arrow-down-icon.png
-[img3]: ../../../../../common/icons/filter-icon.png
-[img4]: ../../../../../common/icons/refresh-icon.png

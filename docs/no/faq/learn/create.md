@@ -35,7 +35,7 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 
 1. [Åpne en sak][1].
 
-1. Klikk på ![icon][img1] **Oppgave**-knappen og velg **Publiser til FAQ**. Du kommer til skjermbildet **Egenskaper for FAQ-oppføring**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og velg **Publiser til FAQ**. Du kommer til skjermbildet **Egenskaper for FAQ-oppføring**.
 
    ![Skjermbildet for FAQ-egenskaper -screenshot][img5]
 
@@ -69,14 +69,14 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 
     1. Klikk på **Velg fil** ved siden av **Vedlegg**.
     2. I dialogboksen blar du til dokumentet du trenger.
-    3. Klikk på ![icon][img1] for å legge til vedlegget.
+    3. Klikk på **+** for å legge til vedlegget.
     4. Gjenta denne fremgangsmåten hvis du vil legge til flere vedlegg.
 
 1. I **Kobling**-feltet kan du legge til en eller flere adresser til relevante nettsteder:
 
     1. I feltet til venstre skriver du inn navnet som skal vises for koblingen.
     2. I feltet til høyre skriver du inn den aktuelle webadressen etter `http://`
-    3. Klikk på ![icon][img1] **Legg til** for å legge til koblingen.
+    3. Klikk på **+** for å legge til koblingen.
     4. Gjenta denne fremgangsmåten hvis du vil legge til flere koblinger.
 
 1. Gå til fanen **Spørsmål**.
@@ -84,7 +84,7 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 1. Skriv inn spørsmålet du vil at FAQ-oppføringen skal inneholde. Som standard limes den første meldingen i saken inn i fanen **Spørsmål**.
 
     > [!TIP]
-    > Klikk på ![icon][img2] **Formater skrifttype**-knappen for å endre oppsettet til teksten.
+    > Klikk på **Formater skrifttype**-knappen (<i class="ph ph-text-a-underline" aria-hidden="true"></i>) for å endre oppsettet til teksten.
 
 1. Gå til fanen **Svar**, og skriv inn svaret. Som standard limes de neste meldingene i saken inn i fanen **Svar**.
 
@@ -94,7 +94,7 @@ Hvis du svarer på en henvendelse og tenker at samme spørsmål kan komme opp ig
 
 ## Opprette ny FAQ
 
-1. Gå til ![icon][img4] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 
 1. Gå til mappen du vil plassere FAQ-oppføringen i. Hvis den ikke finnes ennå, kan du [opprette en ny mappe][2].
 
@@ -121,8 +121,5 @@ Fordi alternativet for å opprette FAQ-oppføringer på denne måten bare er til
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

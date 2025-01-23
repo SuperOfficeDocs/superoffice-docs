@@ -37,7 +37,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 1. [Valgfritt, juster feltets posisjon][3]. Dette krever lisensen Development Tools!
 
-1. Fortsett å legge til felt. Klikk på **Publiser** når du er ferdig for å gjøre feltet tilgjengelig for SuperOffice-brukere. Upubliserte felt ![ikon][img1] og felt med upubliserte endringer ![ikon][img2] vises i fet tekst i listen **Felt**.
+1. Fortsett å legge til felt. Klikk på **Publiser** når du er ferdig for å gjøre feltet tilgjengelig for SuperOffice-brukere. Upubliserte felt og felt med upubliserte endringer vises i fet tekst i listen **Felt**.
 
 ## <a id="properties"></a>Feltegenskaper
 
@@ -88,6 +88,4 @@ Fire av hver felttype (Kort tekst, Lang tekst, Nummer, Desimaltall) er søkbare.
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

@@ -28,7 +28,7 @@ Bruk litt tid på å definere riktige statuskriterier, fordi du må sørge for a
 
 1. Klikk på **Legg til** i listen nederst til høyre (under fanen **Beskrivelse** og **Opprett oppfølging**). En ny linje legges til i listen.
 
-1. Klikk på ![ikon][img1]-pilknappen ved siden av det tomme feltet, og [velg ønsket søkekriterium][1].
+1. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av det tomme feltet, og [velg ønsket søkekriterium][1].
 
 1. Gjenta trinn 4 og 5 for hvert kriterium du vil legge til.
 
@@ -37,7 +37,7 @@ Bruk litt tid på å definere riktige statuskriterier, fordi du må sørge for a
 
 1. Kontroller at du har valgt kriteriene du vil bruke for denne statusen.
 
-1. Klikk på ![ikonet][img2] **Generer valgt statusovervåking på nytt** for å oppdatere statusen med kriteriene du la til. Når statusen er generert på nytt, vises det ikke noe rødt kryss ved siden av statusnavnet.
+1. Klikk på <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Generer valgt statusovervåking på nytt** for å oppdatere statusen med kriteriene du la til. Når statusen er generert på nytt, vises det ikke noe rødt kryss ved siden av statusnavnet.
 
 ## Aktuelt innhold
 
@@ -46,7 +46,3 @@ Bruk litt tid på å definere riktige statuskriterier, fordi du må sørge for a
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
-[img2]: ../../../media/icons/arrow-right.png

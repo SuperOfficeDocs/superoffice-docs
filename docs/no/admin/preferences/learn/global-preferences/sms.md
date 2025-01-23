@@ -14,7 +14,7 @@ language: no
 
 # SMS-konfigurasjon i Globale preferanser
 
-Gå til ![ikonet][img1] **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **SMS-konfigurasjon** inneholder valg for å konfigurere SMS-løsninger i SuperOffice.
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Seksjonen for **SMS-konfigurasjon** inneholder valg for å konfigurere SMS-løsninger i SuperOffice.
 
 ## Generelle felt
 
@@ -39,8 +39,3 @@ Du kan teste innstillingene ved å skrive inn et mobiltelefonnummer og noe tekst
 * **SMS-endepunkt**: Dette feltet skal inneholde kode som gjør det mulig for SuperOffice Service å gjenkjenne en innkommende SMS.
 * **Brukernavn**: Her skriver du inn brukernavnet du har fått tildelt fra PsWinCom.
 * **Passord**: Her skriver du inn passordet du har fått tildelt fra PsWinCom.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

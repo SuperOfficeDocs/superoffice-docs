@@ -65,7 +65,7 @@ Hvis feltet du søker i er et datofelt, for eksempel feltet **Dato** i dialogbok
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på pilknappen ![ikon][img1].
+Velg ønsket alternativ. Avhengig av hva du velger, fylles feltet automatisk ut med en dato eller et datointervall, eller du kan skrive inn ønsket dato. Du kan også velge en dato i kalenderen som vises når du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
 ### <a id="number"></a>Tallfelt
 
@@ -115,11 +115,11 @@ Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier ell
 
 | Oppgave | Handling |
 |---|---|
-| Flytte søkekriterier | Klikk ![ikon][img2] og dra linjen. |
+| Flytte søkekriterier | Klikk <i class="ph ph-equals" aria-label="="></i> og dra linjen. |
 | Endre et søkekriterium | Klikk på det og velg et annet kriterium fra listen som vises. |
 | Deaktivere ett eller flere søkekriterier | La verdifeltet stå tomt. |
 | Deaktivere alle søkekriteriene | Click **Clear all**. |
-| Slette et søkekriterium | Klikk ![icon][img3]. |
+| Slette et søkekriterium | Klikk <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Tilbakestille listen | Klikk **Tilbakestill til standard**. |
 
 > [!NOTE]
@@ -135,8 +135,3 @@ Når du åpner skjermbildet **Finn**, inneholder den standard søkekriterier ell
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

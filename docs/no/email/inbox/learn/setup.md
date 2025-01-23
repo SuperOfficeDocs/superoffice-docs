@@ -82,12 +82,11 @@ Hvis du vil sende e-post fra SuperOffice CRM, skriver du inn SMTP-serveropplysni
 Noen e-postleverandører, for eksempel Gmail, blokkerer påloggingsforsøk fra ukjente apper. Sjekk innboksen din for å se om e-postleverandøren din har sendt deg informasjon om et uautorisert påloggingsforsøk. Følg instruksjonene i e-posten for å gi SuperOffice tilgang til kontoen din.
 
 > [!TIP]
-> For å få tilgang til e-postalternativene, gå til ![icon][img1] **Personlige innstillinger** > **E-postalternativer**.
+> For å få tilgang til e-postalternativene, gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **E-postalternativer**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
 [img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png

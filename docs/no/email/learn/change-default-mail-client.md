@@ -12,7 +12,7 @@ topic: howto
 # Endre standard e-postklient i SuperOffice
 
 1. Åpne SuperOffice CRM.
-2. Velg ![icon][img1] **Personlige innstillinger** > **Preferanser**.
+2. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser**.
 3. Velg **E-post**.
 4. I feltet **E-postklient** velger du din foretrukne e-postklient.
 5. Klikk på **Lagre**.
@@ -20,8 +20,3 @@ topic: howto
 
 > [!TIP]
 > I SuperOffice CRM for Web kan du også endre standard e-postklient på påloggingsskjermen. Når du klikker på **Innstillinger**, vises et **E-postklient**-felt .
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

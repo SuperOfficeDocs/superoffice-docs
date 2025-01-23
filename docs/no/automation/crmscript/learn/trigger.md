@@ -28,7 +28,7 @@ Dette er et eksempel på en svært enkel trigger. Du kan for eksempel legge til 
 Vi skal nå lage en serie med handlinger basert på eksemplet ovenfor.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Klikk på ![ikon][img2] **CRMScript**, og velg deretter fanen **Triggere**.
+1. Klikk på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript**, og velg deretter fanen **Triggere**.
 1. Klikk på knappen **Ny trigger (makro)**. Bildet **Velg trigger** viser de tilgjengelige triggerne. Dette er hendelser i systemet som kan brukes til å sette i gang handlinger/makroer. I vårt eksempel velger vi **Sak avsluttet**, slik at makroen kjøres når en sak avsluttes i SuperOffice.
 1. Skriv "sak" i søkefeltet og velg triggeren med navnet **Sak avsluttet**.
 1. Angi en beskrivelse av triggeren i feltet **Beskrivelse**.
@@ -43,7 +43,7 @@ Vi skal nå lage en serie med handlinger basert på eksemplet ovenfor.
 1. Klikk på **Bruk**.
 1. Klikk på **Ny handling** og velg deretter **Send en e-post eller SMS**. Vi skal nå tilpasse e-postmeldingen som skal sendes til kunden.
 1. Merk av for **Emne**.
-1. Klikk på ![ikon][img1] parameterikonet til høyre, og klikk deretter på feltet **Velg parameter**.
+1. Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre, og klikk deretter på feltet **Velg parameter**.
 1. Velg **Endre en sak** > **Tittel**. Sakstittelen settes da inn i emnet for e-posten.
 1. Merk av for **Fra**, og velg **Endre en sak** > **Eier**.
 1. Merk av for **Til**, og velg **Endre en sak** > **Person: E-postadresse**.
@@ -51,9 +51,3 @@ Vi skal nå lage en serie med handlinger basert på eksemplet ovenfor.
 1. Klikk på **Bruk**.
 
 Du har nå laget en makro som sender en e-post med "Sak avsluttet" til kunden når en sak blir avsluttet. Denne triggeren aktiveres umiddelbart hvis du merket av for **Aktivert** øverst.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

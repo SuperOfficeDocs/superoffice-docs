@@ -19,7 +19,7 @@ Du kan legge til mottakere fra utvalg (fra både SuperOffice CRM og SuperOffice 
 
 3. Velg et utvalg eller et prosjekt i listen.
 
-4. Klikk på ![ikon][img1]. Utvalget eller prosjektet legges til i listen **Mottakerkilder**, og listen **Mottakere** oppdateres.
+4. Klikk på **+**. Utvalget eller prosjektet legges til i listen **Mottakerkilder**, og listen **Mottakere** oppdateres.
 
 5. Gjenta trinn 1 til 4 for å legge til flere utvalg eller prosjekter.
 
@@ -36,7 +36,7 @@ Du kan legge til enkeltpersoner fra SuperOffice.
 
 3. Velg personen fra listen som vises.
 
-4. Klikk på ![ikon][img1]. Personen legges til i listen **Mottakerkilder**, og listen **Mottakere** oppdateres.
+4. Klikk på **+**. Personen legges til i listen **Mottakerkilder**, og listen **Mottakere** oppdateres.
 
 5. Gjenta trinn 2-5 for å legge til flere personer. Ytterligere personer vil bli lagt til i samme rad i listen **Mottakerkilder**, og antall personer vises i kolonnen **Navn**.
 
@@ -52,7 +52,7 @@ Når du importerer en liste med navn og e-postadresser, prøver SuperOffice Mark
 
 2. Finn den relevante filen (txt, csv eller tilsvarende tekstformat).
 
-3. Klikk på ![ikon][img1]. Listen legges til i **Mottakerkilder**-listen, og **Mottakere**-listen oppdateres.
+3. Klikk på **+**. Listen legges til i **Mottakerkilder**-listen, og **Mottakere**-listen oppdateres.
 
 4. Gjenta trinn 2-4 for å legge til flere mottakere. Ytterligere mottakere vil bli lagt til i samme rad i listen **Mottakerkilder**. Det totale antall mottakere vises i kolonnen **Navn**.
 
@@ -118,7 +118,7 @@ Når du har lagt til mottakere i listen **Mottakere**, kan du forhåndsvise utse
 
 3. Klikk på koblinger for å kontrollere at de fungerer, men husk å nullstille dem hvis de spores.
 
-4. Klikk på ![ikon][img2] for å lukke **visningsvinduet**.
+4. Klikk på X for å lukke **visningsvinduet**.
 
 ## Gå gjennom og oppdatere mottakerlisten
 
@@ -132,6 +132,4 @@ I tillegg kan du klikke på knappen **Oppdater liste** nedenfor listen **Mottake
 Klikk på **Neste** for å gå til trinn 5: Bekreft. Du kan fortsatt gå tilbake til trinnet **Mottakere** for å redigere mottakerlisten.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

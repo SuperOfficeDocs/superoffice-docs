@@ -85,7 +85,7 @@ Aktiver denne funksjonen ved å velge **Oppfølging**.
 > [!TIP]
 > Som beskrivelse, skriv hvilken utsendelse det gjelder, hvilken kobling mottakeren klikket på, og eventuelt hvordan oppgaven eller møtet skal følges opp.
 >
-> Når du setter **Opprettet av** eller **Standardmottaker**, kan du klikke på **Velg aktiv bruker**-knappen ![ikon][img1] for å velge deg selv.
+> Når du setter **Opprettet av** eller **Standardmottaker**, kan du klikke på **Velg aktiv bruker**-knappen (<i class="ph ph-user-circle" aria-hidden="true"></i>) for å velge deg selv.
 
 ## <a id="request"></a>Sak
 
@@ -103,12 +103,11 @@ Variabler tilgjengelige i skriptet inkluderer custId, linkId, shipmentId, linkUr
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

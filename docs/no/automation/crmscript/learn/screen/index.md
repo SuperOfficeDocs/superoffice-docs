@@ -23,10 +23,10 @@ Dette bildet har følgende alternativer:
 
 | Alternativ | Beskrivelse |
 |---|---|
- Nytt skript | Brukes til å [opprette et nytt skript][2]. |
- Ny makro | Brukes til å [opprette en ny makro][3]. |
- Ny mappe | Brukes til å [opprette en ny mappe][4]. |
- Søk | Brukes til å søke etter makroer og skript i den valgte mappen og undermappene. |
+| Nytt skript | Brukes til å [opprette et nytt skript][2]. |
+| Ny makro | Brukes til å [opprette en ny makro][3]. |
+| Ny mappe | Brukes til å [opprette en ny mappe][4]. |
+| Søk | Brukes til å søke etter makroer og skript i den valgte mappen og undermappene. |
 
 ## Skript-bildet
 
@@ -36,11 +36,11 @@ Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpn
 
 | Ikon | Alternativ | Beskrivelse |
 |---|---|---|
-| ![ikon][img1] | Makroer og skript | Brukes til å gå tilbake til listen over skript og makroer. |
-| ![ikon][img3] | Rediger skript | Brukes til å redigere [skriptet eller makroen][1]. |
-| ![ikon][img5] | Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
-| ![ikon][img6] | Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][2] fra fanen **Feilsøkingssesjoner**. |
-| ![ikon][img4] | Spor skript | Brukes til å begynne å [spore skriptet eller makroen][3]. |
+| | Makroer og skript | Brukes til å gå tilbake til listen over skript og makroer. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Rediger skript | Brukes til å redigere [skriptet eller makroen][1]. |
+| <i class="ph ph-play" aria-label="Play"></i> | Kjør skript | Brukes til å kjøre skriptet eller makroen i standardmodus. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Feilsøke skript | Brukes til å åpne skjermbildet **Feilsøking** og kjøre det valgte skriptet eller makroen i feilsøkingsmodus. Skriptet stopper på første linje. Du kan åpne en [feilsøkingssesjon][2] fra fanen **Feilsøkingssesjoner**. |
+| | Spor skript | Brukes til å begynne å [spore skriptet eller makroen][3]. |
 
 <!-- Referenced links -->
 [1]: ../create-script.md
@@ -49,8 +49,3 @@ Når du klikker på et skript eller en makro i fanen **Makroer og skript**, åpn
 [4]: ../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-left.png
-[img3]: ../../../../../media/icons/edit.png
-[img4]: ../../../../../media/icons/btn-script-trace.png
-[img5]: ../../../../../media/icons/run-script.png
-[img6]: ../../../../../../common/icons/bug.png

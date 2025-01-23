@@ -25,7 +25,7 @@ language: no
 
 Produktene i tilbudet vises på denne fanen.
 
-Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med ![ikon][img1] ved siden av fanenavnet. Hvis alternativet inneholder [varsler eller meldinger][9] for ett eller flere produkter, vises det et ikon ved siden av fanenavnet. Det vises også en melding som forklarer hva feilen skyldes.
+Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med <i class="ph ph-star" aria-label="Star icon"></i> ved siden av fanenavnet. Hvis alternativet inneholder [varsler eller meldinger][9] for ett eller flere produkter, vises det et ikon ved siden av fanenavnet. Det vises også en melding som forklarer hva feilen skyldes.
 
 * **Rabatt**: Her kan du legge til en totalrabatt (rabattprosent eller rabattbeløp) for hele det valgte alternativet. Totalrabatten legges på i tillegg til eventuelle rabatter som er lagt til de ulike produktene.
 
@@ -37,7 +37,7 @@ Hvis tilbudet inneholder flere alternativer, vises favorittalternativet med ![ik
 * Dobbeltklikk på et produkt for å redigere det.
 * **Slett**: Sletter produktet (produktene) som er valgt.
 * **Eksporter**: Brukes til å [eksportere listen][7] til et regneark.
-* Rekkefølge: Bruk ![ikon][img2] / ![ikon][img3] piltastene for å endre rekkefølgen på produktene.
+* Rekkefølge: Bruk <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> for å endre rekkefølgen på produktene.
 
 > [!TIP]
 > Du kan dobbeltklikke på fanene for å endre navnet på alternativene i tilbudet.
@@ -64,6 +64,3 @@ Nederste del av dialogboksen
 [7]: ../../../learn/section-tabs/export-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

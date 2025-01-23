@@ -24,7 +24,7 @@ Du kan også opprette nye koblinger mens du redigerer innholdet.
 
 2. Valgfritt: Velg en mappe eller [opprett en ny mappe][2].
 
-3. Klikk på ![ikon][img1] **Legg til**-knappen.
+3. Klikk på **Legg til**-knappen.
 
 4. Angi et beskrivende **Navn** på koblingen.
 
@@ -37,6 +37,3 @@ En liten prikk på fanene for koblingshandlinger indikerer hvilke handlinger som
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

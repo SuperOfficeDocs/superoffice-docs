@@ -38,6 +38,6 @@ Du kan opprette en [sak][1] i SuperOffice direkte fra Outlook. Hvis e-posten gje
 > Du kan også opprette en oppfølging eller et salg direkte fra e-posten.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

@@ -13,11 +13,6 @@ language: no
 
 Gjør følgende hvis du vil bruke Innstillinger og vedlikehold på et annet språk:
 
-1. Gå til ![icon][img1] **Personlige innstillinger** > **Lokale innstillinger**.
+1. Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Lokale innstillinger**.
 2. Velg ønsket språk i listen **Aktivt språk**.
 3. Klikk på **OK**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

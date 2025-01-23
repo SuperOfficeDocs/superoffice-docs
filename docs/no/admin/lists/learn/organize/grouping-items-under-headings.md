@@ -28,7 +28,7 @@ Hvis du vil ha en liste med to nivåer, må du velge overskrifter for hver enkel
 
 4. Merk av for **Bruk gruppering og brukergruppefiltrering for denne listen** oppe til høyre.
 
-5. Klikk på boksen foran navnet på ønsket overskrift i listen **Overskrifter** for å angi at den valgte forekomsten skal vises under den. Boksen blir da merket med en hake (![ikon][img1]).
+5. Klikk på boksen foran navnet på ønsket overskrift i listen **Overskrifter** for å angi at den valgte forekomsten skal vises under den. Boksen blir da merket med en hake (<i class="ph ph-check" aria-hidden="true"></i>).
 
     Endringene lagres automatisk.
 
@@ -63,6 +63,3 @@ Hvis du vil ha en liste med to nivåer, må du velge overskrifter for hver enkel
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

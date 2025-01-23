@@ -27,7 +27,7 @@ Se denne videoen eller følg veiledningen nedenfor for å lære hvordan du insta
 
 ### Trinn
 
-1. Gå til ![ikon][img1] hovedmenyen i toppraden.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden.
 1. Velg **Last ned** > **SuperOffice WebTools**. SuperOffice WebTools-veiviseren vises.
 
     ![Download WebTools -screenshot][img2]
@@ -61,7 +61,6 @@ Vi jobber kontinuerlig med å forbedre programmene våre, inkludert WebTools. N�
 [1]: install-mac.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
 [img2]: ../../../media/loc/en/webtools/download-webtools.png
 [img3]: ../../../media/loc/en/webtools/webtools-pc.png
 [img4]: ../../../media/loc/en/webtools/webtools-email-client.png

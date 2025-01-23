@@ -24,7 +24,7 @@ Nå som du har [konfigurert chatwidgeten][1], viser dette trinnet hvordan du leg
 ## Trinn
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Velg ![ikon][img2] **Chat** i navigatoren.
+1. Velg <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
 1. Velg en chatkanal i listen, og klikk deretter på **Vis**. JavaScript for den valgte chatkanalen vises.
 1. Velg og kopier skriptet.
 1. Logg inn på redigeringsprogrammet på websiden din.
@@ -51,4 +51,3 @@ Chatvinduet er nå tilgjengelig og live. Besøkende på websiden din kan begynne
 [3]: ../../../customer-center/learn/enable-chat.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png

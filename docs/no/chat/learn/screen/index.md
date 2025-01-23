@@ -32,7 +32,7 @@ Fanen **Chatsamtaler** har tre hovedområder:
 
 * Liste over aktive/nylige chatsesjoner (til venstre)
 * Chatsamtale (midten)
-* Sidepanelet Person (høyre side) → viser kundeinformasjon
+* Sidepanelet Person (høyre side), viser kundeinformasjon
 
 ### Liste over aktive/nylige chatsesjoner
 
@@ -49,7 +49,7 @@ Følgende ikoner brukes for de aktive chatsesjonene i listen:
 |---|---|
 | ![ikon][img2] | Den siste meldingen i samtalen fra kunden eller agenten. |
 | ![ikon][img3] | Antall uleste meldinger fra kunden. |
-| ![ikon][img4] | Overført chatsamtale til deg eller fra deg. Venter på å bli godtatt. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Overført chatsamtale til deg eller fra deg. Venter på å bli godtatt. |
 
 ### Chatsamtale
 
@@ -83,5 +83,4 @@ Hvis kunden finnes i SuperOffice, kan du vise kontaktinformasjon, saker, salg, o
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

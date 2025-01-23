@@ -22,14 +22,14 @@ audience_tooltip: SuperOffice Marketing
 
 1. Velg fanen **Skjemamaler**.
 2. Klikk på **Alle maler**.
-3. Klikk på ![icon][img1] menyknappen ved siden av malen du vil bruke.
+3. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> ved siden av malen du vil bruke.
 4. Velg **Kopier til nytt skjema**. Malen åpnes i dialogboksen **Rediger skjema**. Se [Opprette et nytt skjema][1].
 
 ## Opprette en ny skjemamal fra bunnen av
 
 1. Gå til fanen **Skjemamaler**.
 2. Klikk eventuelt på **Legg til mappe** for å opprette en mappe for malen.
-3. Klikk ![icon][img2] **Legg til skjema**. Bildet **Rediger skjema** vises.
+3. Klikk **Legg til skjema**. Bildet **Rediger skjema** vises.
 4. Angi et beskrivende navn på malen i feltet **Skjemanavn**.
 5. Fullfør dialogboksen **Rediger skjema**, slik det er beskrevet i [Opprette et nytt skjema][1].
 6. Klikk på **Lagre** når du er ferdig. Den nye skjemamalen vises i mallisten.
@@ -37,7 +37,7 @@ audience_tooltip: SuperOffice Marketing
 ## Opprett en mal basert på en eksisterende skjema
 
 1. Gå til fanen **Skjemaer**.
-2. Klikk på ![icon][img1] menyknappen ved siden av skjemaet du vil bruke som grunnlag for malen.
+2. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> ved siden av skjemaet du vil bruke som grunnlag for malen.
 3. Velg **Kopier til mal**.
 4. I skjermbildet **Rediger skjema** skriver du inn et beskrivende navn på malen i **Skjemanavn**-feltet.
 5. Klikk eventuelt på **Mappe** for å velge en mappe for malen.
@@ -51,6 +51,4 @@ audience_tooltip: SuperOffice Marketing
 [19]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
 [img3]: ../../../../media/loc/en/marketing/form-template-edit-overview.png

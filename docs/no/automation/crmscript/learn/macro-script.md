@@ -12,9 +12,9 @@ audience_tooltip: Settings and maintenance
 language: no
 ---
 
-# Makroer og skript
+# Makroer og skript <i class="ph ph-code-block" aria-hidden="true"></i>
 
-I fanen **Makroer og skript** for ![ikon][img2] **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å [vise, redigere eller kjøre det/den][1].
+I fanen **Makroer og skript** for **CRMScript** finner du en oversikt over skriptene og makroene i systemet, gruppert i mapper. Klikk på et skript eller en makro i listen for å [vise, redigere eller kjøre det/den][1].
 
 ## Om makroer
 
@@ -26,7 +26,7 @@ Makroer har flere funksjoner i SuperOffice. De kan knyttes til bestemte [trigger
 
 Du kan for eksempel bruke makroer til følgende:
 
-* Som en oppgave/funksjon i et menypunkt (for eksempel i ![ikon][img1] **Oppgave** i bildet Sak).
+* Som en oppgave/funksjon i et menypunkt (for eksempel i **Oppgave** i bildet Sak).
 * Når en sak eskaleres via varslingsnivåene for prioritet.
 * Som en planlagt oppgave.
 * Når de aktiveres av et e-postfilter.
@@ -52,5 +52,3 @@ Et skript er et lite program som er skrevet for å utføre bestemte oppgaver, og
 [4]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

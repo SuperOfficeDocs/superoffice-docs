@@ -30,7 +30,7 @@ language: no
 
 6. Klikk på **Lagre**. Forekomsten blir nå lagt til i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere forekomster.
 
-Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkefølgen, kan du merke ønsket forekomst og flytte den opp eller ned med pilknappene under listen (![ikon][img3] ![ikon][img4]).
+Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkefølgen, kan du merke ønsket forekomst og flytte den opp eller ned med pilknappene under listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 Når du har lagt til forekomster, kan du angi detaljer for hver forekomst. Du kan angi [brukergruppene elementet skal vises for][2], og [overskriftene][3] det skal vises under.
 
@@ -38,7 +38,3 @@ Når du har lagt til forekomster, kan du angi detaljer for hver forekomst. Du ka
 [1]: specialized-lists.md
 [2]: organize/user-group-filtering.md
 [3]: organize/headings.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png

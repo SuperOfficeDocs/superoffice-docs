@@ -18,7 +18,7 @@ Du definerer hvilke URL-adresser som skal være tilgjengelige for brukerne i **L
 > [!NOTE]
 > Filer eller applikasjoner som må kjøres lokalt (for eksempel .exe filer), er ikke tilgjengelige i SuperOffice CRM for Web.
 
-Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkefølgen, velger du et element og flytter det opp eller ned ved hjelp av pilknappene til venstre for listen ( ![ikon][img1] ![ikon][img2] ).
+Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkefølgen, velger du et element og flytter det opp eller ned ved hjelp av pilknappene til venstre for listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 Når du har lagt til forekomster, kan du angi detaljer for hver forekomst. Du kan blant annet angi følgende:
 
@@ -33,7 +33,3 @@ Når du har lagt til forekomster, kan du angi detaljer for hver forekomst. Du ka
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
 [3]: adding-external-applications-to-application-list.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-up.png
-[img2]: ../../../../media/icons/arrow-down.png

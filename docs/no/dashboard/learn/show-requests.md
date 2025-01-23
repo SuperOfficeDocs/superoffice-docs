@@ -23,7 +23,7 @@ Det er vanlig 책 starte dagen med 책 f책 oversikt over gjeldende status for de �
 
 Hvis du eller din rolle har tilstrekkelige rettigheter, kan du velge innholdet som skal vises i figurene p책 dashbordet.
 
-1. Klikk p책 **Oppgave** -knappen, og velg **Legg til figurer / rediger layout**.
+1. Klikk p책 <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**.
 
 2. I listen **Vis figurer for** velger du **Sak**, og deretter velger du en av de forh책ndsdefinerte figurene eller **Tom saksfigur**
 
@@ -69,8 +69,8 @@ Viser saker som ingen har blitt tildelt ansvaret for. Hvis du vil [ta ansvar for
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

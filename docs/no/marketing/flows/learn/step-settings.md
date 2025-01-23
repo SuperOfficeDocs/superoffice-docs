@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice Marketing
 # Trinninnstillinger
 
 > [!NOTE]
-> Mange felt har en liste av forhåndsdefinerte verdier du kan velge fra. Klikk på pilen ![icon][img4] for å utvide listen. Deretter velger du en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et utvalgsnavn.
+> Mange felt har en liste av forhåndsdefinerte verdier du kan velge fra. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> for å utvide listen. Deretter velger du en verdi for det feltet. Alternativt kan du begynne å skrive i feltet for å søke etter en spesifikk verdi, for eksempel et utvalgsnavn.
 
 ## Legg til i utvalg og/eller prosjekt
 
@@ -160,6 +160,3 @@ Dette fungerer på samme måte som [masseoppdatering][10].
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
 [14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png

@@ -12,7 +12,7 @@ Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen
 
 1. Velg en mal på en av følgende måter:
     * Velg en av de tilgjengelige fanene (**Elektronisk malbibliotek**, **Nylige maler**, **Alle maler** osv.) for å se tilgjengelige utsendelser som du kan basere den nye utsendelsen på.
-    * Angi en søketekst i **Søk maler** og trykk på **ENTER** eller klikk på søkeikonet ![ikon][img1].
+    * Angi en søketekst i **Søk maler** og trykk på **ENTER** eller klikk på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. Klikk på en mal i listen nedenfor for å velge den.
 
@@ -25,5 +25,4 @@ Etter at du har funnet ut hvilket design du ønsker å bruke, kan du velge malen
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

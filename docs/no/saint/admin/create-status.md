@@ -44,13 +44,13 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
 ### Hva inneholder statuslisten?
 
-![ikon][img3] – **Visualiser**-ikonet indikerer om det skal [vises statusbilde][3] på firma, person- eller prosjektkort som oppfyller statuskriteriene. Ikonet vises bare hvis du har merket av for **Visualiser** i fanen **Bilde** for den aktuelle statusen.
+* **Visualiser**-ikonet (<i class="ph ph-eye" aria-hidden="true"></i>) indikerer om det skal [vises statusbilde][3] på firma, person- eller prosjektkort som oppfyller statuskriteriene. Ikonet vises bare hvis du har merket av for **Visualiser** i fanen **Bilde** for den aktuelle statusen.
 
-![ikon][img4] – et rødt kryss indikerer at statusen må regenereres. [Statusen må regenereres][4] hver gang du har lagt til, endret eller slettet et kriterium, eller hvis du for eksempel har endret en hensikt for en oppgave. Statuser med rødt kryss har ikke blitt oppdatert og returnerer ikke oppdaterte data ved bruk i SuperOffice CRM.
+* Et rødt kryss indikerer at statusen må regenereres. [Statusen må regenereres][4] hver gang du har lagt til, endret eller slettet et kriterium, eller hvis du for eksempel har endret en hensikt for en oppgave. Statuser med rødt kryss har ikke blitt oppdatert og returnerer ikke oppdaterte data ved bruk i SuperOffice CRM.
 
-**Navn** – navnet på statusene. Slettede statuser vises med rød tekst **Vis slettede** er merket av.
+* **Navn** – navnet på statusene. Slettede statuser vises med rød tekst **Vis slettede** er merket av.
 
-**Prioritet** – prioriteten til statusene. Prioriteten bestemmer hvilken status som vises hvis et firma, en person eller et prosjekt oppfyller kriteriene til flere statuser.
+* **Prioritet** – prioriteten til statusene. Prioriteten bestemmer hvilken status som vises hvis et firma, en person eller et prosjekt oppfyller kriteriene til flere statuser.
 
 ## Hvorfor må jeg angi prioritet?
 
@@ -77,6 +77,4 @@ Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises stat
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

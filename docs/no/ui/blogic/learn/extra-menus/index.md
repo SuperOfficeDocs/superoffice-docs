@@ -23,7 +23,7 @@ I skjermbildet **Ekstramenyer** kan du legge til ekstra menyer (knapper, menyer,
 * **Toppmeny**
 
 * **Status**-figuren på dashbordet
-  * Knappene ![ikon][img1] **Oppgave** på hovedskjermene
+  * Knappene **Oppgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) på hovedskjermene
   * Menyknappene i ekstratabellvisningen
 
 * **Navigator**
@@ -50,6 +50,3 @@ Se også [Egenskaper for meny][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

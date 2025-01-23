@@ -24,7 +24,7 @@ Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Pers
 1. Firma: Klikk på **Kunde** eller **Leverandør**, avhengig av hvilken ERP-aktør du vil knytte firmaet til. Du kan bare velge én aktør per selskap.
     *Eller* Prosjekt: Klikk på **Prosjekt**.
     *Eller* Person: Klikk på **Person**.
-1. I dialogboksen **Koble til ERP** skriver du inn teksten du vil søke etter i søkefeltet, og deretter klikker du på **Søk**. Du kan også klikke på ![søkeknappikonet][img1] for å starte et avansert søk (se [Bruke Finn-bildet][1]).
+1. I dialogboksen **Koble til ERP** skriver du inn teksten du vil søke etter i søkefeltet, og deretter klikker du på **Søk**. Du kan også klikke på <i class="ph ph-magnifying-glass" aria-label="Søk"></i> for å starte et avansert søk (se [Bruke Finn-bildet][1]).
 
     > [!TIP]
     > Hvis du søker med et tomt søkefelt, vises alle oppføringer i ERP-systemet.
@@ -48,4 +48,3 @@ Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Pers
 [3]: erp-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png

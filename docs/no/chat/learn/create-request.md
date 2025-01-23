@@ -13,7 +13,7 @@ language: no
 
 Hvis du ikke kan løse spørsmålet via chatsamtalen, kan du opprette en sak som vil bli håndtert av en annen spesialist.
 
-1. Klikk på ![ikon][img1], og velg deretter **Opprett sak**.
+1. Klikk på <i class="ph ph-list" aria-label="Task menu"></i>, og velg deretter **Opprett sak**.
 
     ![Klikk på Handling-knappen og Opprett sak. All informasjon i chatten lagres i saken. -screenshot][img2]
 
@@ -36,5 +36,4 @@ Hvis du ikke kan løse spørsmålet via chatsamtalen, kan du opprette en sak som
 [4]: ../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-create-request.png

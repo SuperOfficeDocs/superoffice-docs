@@ -27,24 +27,19 @@ Fanen **Feilsøkingsøkter** inneholder en liste over alle aktive feilsøkingsse
 
 Du kan starte en av disse sesjonene ved å kjøre et skript i feilsøkingsmodus fra bildet **Skript**, eller ved å kalle funksjonen "Void enableDebug(String key)" i et CRMScript.
 
-Du kan også klikke på ![ikon][img1] **Start sporing av skript** for å begynne å [spore][2] skriptene i listen.
+Du kan også klikke på **Start sporing av skript** for å begynne å [spore][2] skriptene i listen.
 
 ## Feilsøking
 
 Feilsøkingsverktøyet gjør det enkelt å finne og løse feil i skript og makroer. Du kan feilsøke skript og makroer i et produksjonsmiljø uten å påvirke de andre SuperOffice-brukerne. Det gjør det mulig for deg å undersøke skriptene og makroene i sanntid, mens de kjøres. Du kan gå gjennom kjøringen av skriptet, bruke stoppunkter og vise de ulike verdiene.
 
-Du kan feilsøke et skript eller en makro ved å åpne det/den i fanen **Makroer og skript** og deretter klikke på ![ikon][img4] **Feilsøk skript**.
+Du kan feilsøke et skript eller en makro ved å åpne det/den i fanen **Makroer og skript** og deretter klikke på <i class="ph ph-bug" aria-hidden="true"></i> **Feilsøk skript**.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Klikk på **CRMScript**, og velg deretter **kategorien Makroer og skript** .
 
-Du kan også klikke på ![ikon][img3] **Spor skript** for å begynne å [spore et skript][2].
+Du kan også klikke på **Spor skript** for å begynne å [spore et skript][2].
 
 <!-- Referenced links -->
 [2]: tracing.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img3]: ../../../../media/icons/btn-script-trace-small.png
-[img4]: ../../../../../common/icons/bug.png

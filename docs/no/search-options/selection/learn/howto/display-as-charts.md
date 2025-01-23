@@ -33,7 +33,7 @@ I fanen **Diagrammer** kan du klikke på en diagramtype for å vise dataene i de
 
 * ![ikon][img1]: Åpner en forhåndsvisning av et diagram. Her kan du også se datakildetabellen for diagrammet.
 
-* ![ikon][img2]: Oppdaterer diagrammet med oppdaterte data.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Oppdaterer diagrammet med oppdaterte data.
 
 > [!NOTE]
 > Gå til **Dashboard** i navigatoren for å vise diagrammer over ALLE SuperOffice-data.
@@ -52,5 +52,4 @@ Noen diagrammer kan fortelle deg at Ingen data er tilgjengelig. Dette betyr at u
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

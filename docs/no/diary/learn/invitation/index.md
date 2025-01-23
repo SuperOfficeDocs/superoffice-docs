@@ -26,9 +26,9 @@ Brukerne du har valgt å knytte til en oppfølging, får melding om dette på sk
 
 | Ikon | Beskrivelse |
 |:-:|---|
-| ![ikon][img1] | Invitasjon er godtatt. |
-| ![ikon][img2] | Invitasjonen er avslått. |
-| ![ikon][img3] | Invitasjon er sett, men ikke besvart. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Invitasjon er godtatt. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Invitasjonen er avslått. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Invitasjon er sett, men ikke besvart. |
 | umerket | Invitasjonen er ikke sett. |
 
 ## Ressurser
@@ -55,6 +55,3 @@ Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller a
 [2]: add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png

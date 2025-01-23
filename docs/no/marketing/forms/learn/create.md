@@ -36,7 +36,7 @@ Se denne videoen for å lære hvordan du kan lage et nettskjema (videolengde - 7
 
 1. Velg fanen **Skjemamaler**.
 2. Klikk på **Alle maler**.
-3. Klikk på ![icon][img1] menyknappen ved siden av malen du vil bruke.
+3. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen ved siden av malen du vil bruke.
 4. Velg **Kopier til nytt skjema**. Malen åpnes i dialogboksen **Rediger skjema**.
 5. [Aktivere og publisere skjemaet][2].
 
@@ -46,7 +46,7 @@ For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema me
 
 1. Opprett et skjema som beskrevet ovenfor.
 2. Velg **Felt** fra venstremenyen (i dialogboksen).
-3. Klikk på **Legg til**-knappen ![icon][img2].
+3. Klikk på **Legg til**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Legg til element** velger du **Vis elementer**.
 5. Velg **Seksjon** og klikk på **Legg til** . Vinduet lukkes og en seksjon legges til i skjemaet. Du kan også se seksjonen i forhåndsvisningen av skjemaet.
 6. Klikk på ![ikonet][img3] øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
@@ -83,7 +83,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 1. Velg **Felt** fra venstremenyen. Som standard blir feltet **Person - navn** og **OK**-knappen lagt til i det nye skjemaet.
 
-2. Klikk på **Legg til**-knappen ![icon][img2].
+2. Klikk på **Legg til**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. I vinduet **Legg til element** velger du en av følgende feltkategorier:
 
@@ -107,7 +107,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
     * Merk av for **Obligatorisk** hvis dette feltet skal fylles ut. Skjemaet kan ikke sendes hvis det ikke er fylt ut obligatoriske felt.
 
-    * Klikk på **Avanserte alternativer** ![icon][img5] for å vise **Identifikator**-feltet der du kan legge til en ID for feltet. Dette er en unik ID for dette feltet, og den blir ikke endret selv om navn/ledetekst eller språk for feltet endres. På denne måten kan du sørge for at koblinger til dette feltet ikke brytes etter publisering av skjemaet.
+    * Klikk på **Avanserte alternativer** (<i class="ph ph-gear" aria-hidden="true"></i>) for å vise **Identifikator**-feltet der du kan legge til en ID for feltet. Dette er en unik ID for dette feltet, og den blir ikke endret selv om navn/ledetekst eller språk for feltet endres. På denne måten kan du sørge for at koblinger til dette feltet ikke brytes etter publisering av skjemaet.
 
     * Velg **Full bredde** hvis du vil at det valgte feltet skal ha samme bredde som skjemaet.
 
@@ -115,7 +115,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 10. Klikk på **Bruk nå** når du er ferdig.
 
-11. Gjenta trinn 2–10 for å legge til et nytt felt. Du kan også klikke på **Dupliser felt** ![icon][img6] for å opprette en kopi av et felt.
+11. Gjenta trinn 2–10 for å legge til et nytt felt. Du kan også klikke på **Dupliser felt** (<i class="ph ph-copy" aria-hidden="true"></i>) for å opprette en kopi av et felt.
 
 ### Stil
 
@@ -149,7 +149,7 @@ Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på
 
     3. **Bekreftelsestekst**: Skriv inn brødteksten i e-posten.
 
-    4. Velg **Sett inn bekreftelseslenke** ![ikon][img9] fra verktøylinjen (klikk ![ikon][img7] for å vise). Bekreftelseskoblingen settes inn i brødteksten. Hvis du vil redigere koblingen, klikker du på den og velger **Rediger kobling** ![icon][img8].
+    4. Velg **Sett inn bekreftelseslenke** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) fra verktøylinjen (klikk <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i> for å vise). Bekreftelseskoblingen settes inn i brødteksten. Hvis du vil redigere koblingen, klikker du på den og velger **Rediger kobling** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 4. Klikk på **Bruk nå** når du er ferdig.
 
@@ -201,12 +201,5 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

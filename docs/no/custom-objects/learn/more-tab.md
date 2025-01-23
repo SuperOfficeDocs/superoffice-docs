@@ -48,7 +48,7 @@ For å vise data i Mer-fanen:
 
 ## Rediger informasjon i Mer-fanen
 
-Klikk **Rediger** for å redigere informasjonen i **Mer-fanen**.
+Klikk <i class="ph ph-pencil-simple" aria-label="Edit"></i> for å redigere informasjonen i **Mer-fanen**.
 
 ## Ytterligere tips
 

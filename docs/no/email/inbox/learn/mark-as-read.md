@@ -17,15 +17,10 @@ En e-postmelding settes automatisk til lest (ikke fet) når du velger den i innb
 
 1. Gå til innboksen.
 2. Merk en melding i innboksen.
-3. Klikk på ![icon][img1] **Handlinger**-knappen og velg **Merk som lest/ulest**.
+3. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og velg **Merk som lest/ulest**.
 
 ## Merke flere e-postmeldinger som lest/ulest
 
 1. Gå til innboksen.
 2. Merk meldingene i innboksen.
 3. Velg **Merk som ulest** eller **Merk som lest** i forhåndsvisningsvinduet til høyre.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

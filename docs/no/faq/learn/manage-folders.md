@@ -17,7 +17,7 @@ Du kan opprette en mappestruktur for FAQ, for å gi det en logisk struktur og gj
 
 ## Opprett mapper
 
-1. Gå til ![icon][img1] **Hovedmeny** i toppraden og velg **Kunnskapsbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden og velg **Kunnskapsbase** > **FAQ**.
 
 1. Klikk på knappen **Ny mappe**. Du kommer til bildet **Egenskaper for FAQ-mappe**.
 
@@ -55,6 +55,3 @@ Før du sletter en FAQ-mappe, må du fjerne alle oppføringene i den. Det kan du
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

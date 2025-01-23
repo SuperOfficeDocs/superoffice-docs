@@ -118,7 +118,7 @@ Innenfor gruppen (mellom TableStart og TableEnd), kan du legge til felt som er s
 
 For å endre rekkefølgen på tilbudslinjer, bruk **OrderBy** taggen, med en linje-nivå suffiks. For eksempel, `OrderBy:name` sorterer produkter alfabetisk etter navn, og `OrderBy:vatInfo` sorterer produkter etter MVA-status. Bare ett nivå av sortering støttes.
 
-### <a id ="culture" />Formatering av numeriske og datofelt
+### <a id ="culture"></a>Formatering av numeriske og datofelt
 
 Numeriske og datofelt kan formateres for å matche de valgte språk/kultinnstillingene (påvirker visningsrekkefølge og separatorer):
 

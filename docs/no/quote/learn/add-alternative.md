@@ -36,11 +36,11 @@ Alternativer vises som faner i tilbudet (i dialogboksen **Rediger tilbud**).
 
 7. Du endrer navnet på fanen **Produkter** til noe som beskriver dette alternativet, ved å dobbeltklikke på navnet på fanen.
 
-## <a id="fav"></a>Favorittalternativ
+## <a id="fav"></a>Favorittalternativ <i class="ph ph-star" aria-label="Star icon"></i>
 
 Hvis du oppretter flere alternativer i et tilbud, blir det første alternativet (vanligvis fanen **Produkter**) merket som favoritt i (![ikon][img2]**Favorittalternativ**). Estimert salgsbeløp i salget ("forecast") hentes fra totalbeløpet for favorittalternativet.
 
-Hvis du vil at et annet alternativ skal være favorittalternativ, velger du fanen til det aktuelle alternativet, og klikker på ![ikon][img3] **Favorittalternativ** nederst i fanen.
+Hvis du vil at et annet alternativ skal være favorittalternativ, velger du fanen til det aktuelle alternativet, og klikker på <i class="ph ph-star" aria-label="Star icon"></i> **Favorittalternativ** nederst i fanen.
 
 Når du [sender tilbudet][3], kan du velge bare å inkludere favorittalternativet.
 
@@ -56,4 +56,3 @@ Du kan slette et alternativ ved å velge ![ikon][img1]**Oppgave** > **Slett[alte
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

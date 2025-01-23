@@ -86,8 +86,6 @@ I fanen **Interesser** finner du følgende alternativer:
 
 ## Fanen www (Person-bilde)
 
-[!include[About the www tab](../../learn/includes/www-tab.md)]
-
 ## Fanen ERP (Person-bilde)
 
 [!include[About the ERP tab](../../learn/includes/erp-tab.md)]

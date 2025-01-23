@@ -12,9 +12,9 @@ audience: settings
 audience_tooltip: Settings and maintenance
 ---
 
-# Globale preferanser
+# Globale preferanser <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-**Globale preferanser** under ![ikon][img1] **Preferanser** brukes til å konfigurere noen av de viktigste preferansene i SuperOffice CRM.
+**Globale preferanser** under **Preferanser** brukes til å konfigurere noen av de viktigste preferansene i SuperOffice CRM.
 
 Områder du kan konfigurere preferanser for:
 
@@ -41,4 +41,3 @@ Områder du kan konfigurere preferanser for:
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

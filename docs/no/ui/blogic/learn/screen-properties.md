@@ -15,7 +15,7 @@ Her kan du redigere egenskapene for et bilde. Du kan opprette et skript for å f
 
 ## Egenskaper
 
-* **Mappe:** Hvis du har organisert skjermbildene i en mappestruktur, klikker du på ![ikonet][img1] og velger en mappe.
+* **Mappe:** Hvis du har organisert skjermbildene i en mappestruktur, klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og velger en mappe.
 * **Navn**: Et beskrivende navn på bildet.
 * **ID-streng**: En streng som identifiserer dette bildet unikt, slik at det kan henvises i URLene.
 * **Autentiseringsnøkkel**: Det er mulig å kjøre et egendefinert bilde uten å være logget inn som bruker. For å gjøre dette må du legge til en autentiseringsnøkkel.
@@ -30,7 +30,4 @@ Her kan du redigere egenskapene for et bilde. Du kan opprette et skript for å f
 * **Skjult variabel**: Variablene som defineres her, lagres når bildet sendes inn, slik at neste bilde har tilgang til dem.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[1]: ../../../request/learn/create.md

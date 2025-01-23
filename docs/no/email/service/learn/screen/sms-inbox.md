@@ -14,7 +14,7 @@ language: no
 > [!NOTE]
 > Hvis denne fanen ikke er synlig, betyr dette at du ikke har SMS-modulen installert eller at SMS ikke er aktivert for lisensen du bruker. Ta kontakt med systemansvarlig hvis du ønsker mer informasjon.
 
-**I SMS-innboks**-fanen er en liste over SMS-meldingene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra ![icon][img1] menyknappen:
+**I SMS-innboks**-fanen er en liste over SMS-meldingene i køen som skal leses inn. Følgende alternativer er også tilgjengelige fra menyknappen:
 
 * **Eksporter**: Brukes til å eksportere listen til en fil. Du velge mellom disse formatene: Excel, HTML og ren tekst.
 
@@ -33,6 +33,3 @@ Klikk på en av meldingene i denne fanen for å vise informasjon om den valgte m
 <!-- Referenced links -->
 [1]: ../create-sms-mailbox.md
 [2]: sms-outbox.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

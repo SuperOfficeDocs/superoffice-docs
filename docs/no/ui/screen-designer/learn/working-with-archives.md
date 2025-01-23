@@ -42,7 +42,7 @@ Du kan legge til et nytt detaljkort på hvilken som helst skjerm som har et deta
 
 1. Klikk på **Legg til** for å åpne **Fane**-seksjonen.
 
-1. Erstatt "Ny fane" med arkivnavnet, og angi en beskrivelse for den nye layouten. Eventuelt klikk på ![icon][img3] for å [legge til teksten på andre språk][1].
+1. Erstatt "Ny fane" med arkivnavnet, og angi en beskrivelse for den nye layouten. Eventuelt klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til teksten på andre språk][1].
 
 1. Juster **Unikt navn for fane** (soprotocol) etter behov. Dette navnet kan ikke endres senere.
 
@@ -57,7 +57,7 @@ Du kan legge til et nytt detaljkort på hvilken som helst skjerm som har et deta
 1. (Valgfritt) Bruk **Avanserte alternativer** for å tilpasse handlinger for enkeltklikk og dobbeltklikk. Som standard vil et enkeltklikk velge en rad, og et dobbeltklikk vil åpne en oppføring/enhet i SuperOffice.
 
     > [!TIP]
-    > Hold musepekeren over infoikonet ![icon][img4] for eksempler.
+    > Hold musepekeren over <i class="ph ph-info" aria-label="Info"></i> for eksempler.
 
 1. Dra arkivet til ønsket posisjon i forhåndsvisningen.
 
@@ -97,8 +97,6 @@ For å angre disse endringene klikker du på **Gjenopprett faner**.
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../common/icons/az.png
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

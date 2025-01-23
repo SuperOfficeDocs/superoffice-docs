@@ -26,7 +26,7 @@ Eksempler: Kollegaen din er på ferie, men må ringe en klient når vedkommende 
 
 1. [Åpne eller opprett en oppfølging][1].
 
-1. Klikk på **Oppgave**-knappen ![ikon][img1], og velg deretter **Tilordne til**. Alternativt kan du åpne oppfølgingen og oppdatere navnet i feltet **Eier**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og velg deretter **Tilordne til**. Alternativt kan du åpne oppfølgingen og oppdatere navnet i feltet **Eier**.
 
 1. I dialogboksen **Tilordne til** klikker du på listen øverst for å velge hvilke brukere som skal vises (historikkliste, alle eller grupper).
 
@@ -48,6 +48,3 @@ Hvis den andre personen avslår invitasjonen, får du en Invitasjon avslått-mel
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

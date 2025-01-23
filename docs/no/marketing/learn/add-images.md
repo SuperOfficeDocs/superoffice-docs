@@ -17,7 +17,7 @@ language: no
 
     [Hvordan oppretter jeg en adressemappe][2]
 
-3. Klikk på ![icon][img1] **Legg til**-knappen. Dette fører deg til skjermbildet **Egenskaper for bilde**.
+3. Klikk på **Legg til**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>). Dette fører deg til skjermbildet **Egenskaper for bilde**.
 
 4. Angi et beskrivende navn på bildet i **Navn**-feltet.
 
@@ -39,6 +39,3 @@ language: no
 <!-- Referenced links -->
 [1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

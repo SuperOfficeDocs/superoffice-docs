@@ -32,11 +32,6 @@ Når du sletter en rolle, må du flytte brukerne som har rollen du sletter, til 
 
     Er Slett-knappen deaktivert (grå)? Det er ikke mulig å slette rollen man selv tilhører, eller systembrukerrollen (**Brukernivå 0**). Hvis det er bare én rolle, kan du ikke slette den.
 
-5. I dialogboksen **Slett rolle** klikker du på ![ikon][img3] pilen ved siden av feltet **Flytt alle brukere med denne rollen til**, og deretter velger du en annen rolle for brukeren med rollen du vil slette.
+5. I dialogboksen **Slett rolle** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av feltet **Flytt alle brukere med denne rollen til**, og deretter velger du en annen rolle for brukeren med rollen du vil slette.
 
 6. Klikk på **Slett**. Rollen fjernes fra listen. Du kan ikke angre slettingen av en rolle.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

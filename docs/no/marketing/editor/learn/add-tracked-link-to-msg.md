@@ -28,7 +28,7 @@ Ved å sette opp koblinger som leder leserne til forskjellig innhold på webside
 
     * Slik legger du til en eksisterende sporet kobling:
 
-    * Tekst: Klikk på ![ikon][img1] på verktøylinjen, velg **Spesielle koblinger** > **Sporede koblinger** og velg en kobling.
+    * Tekst: Klikk på <i class="ph ph-link" aria-label="Insert/edit link"></i> på verktøylinjen, velg **Spesielle koblinger** > **Sporede koblinger** og velg en kobling.
     * Bilde: I sidepanelet (under **Handling**) velger du **Spesielle koblinger** > **Sporede koblinger** og velger en kobling.
 
     * Hvis du vil [opprette en ny sporet kobling][5], klikker du på **Opprett ny sporet kobling** nederst på skjermen. Dialogboksen **Egenskaper kobling** åpnes.
@@ -37,7 +37,7 @@ Ved å sette opp koblinger som leder leserne til forskjellig innhold på webside
 
 ## Tips
 
-Du kan legge til vanlige (ikke-sporbare) koblinger. For tekstkoblinger, klikk på ![ikonet][img1] i verktøylinjen. For bilde-koblinger, bruk feltet **Bilde-URL** i sidepanelet.
+Du kan legge til vanlige (ikke-sporbare) koblinger. For tekstkoblinger, klikk på <i class="ph ph-link" aria-label="Insert/edit link"></i> i verktøylinjen. For bilde-koblinger, bruk feltet **Bilde-URL** i sidepanelet.
 
 Hvis du senere bestemmer deg for å spore disse lenkene også, velg alternativet **Spor alle koblinger** under **Sporing** i Trinn 1: Oppsett. Disse lenkene spores imidlertid bare for den aktuelle utsendelsen og vil ikke være tilgjengelige for andre utsendelser eller i flyter.
 
@@ -57,5 +57,4 @@ Hvis du senere bestemmer deg for å spore disse lenkene også, velg alternativet
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

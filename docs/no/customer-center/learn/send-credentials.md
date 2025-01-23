@@ -18,7 +18,7 @@ En person som skal ha tilgang til et kundesenter, trenger brukernavn og passord 
 
 1. Åpne Person-bildet.
 
-1. Klikk på ![ikon][img1] **Oppgave**, og velg deretter **Administrer kundesenterbruker**.
+1. Klikk på **Oppgave**, og velg deretter **Administrer kundesenterbruker**.
 
 1. Klikk på **Send passord**.
 
@@ -30,8 +30,3 @@ En person som skal ha tilgang til et kundesenter, trenger brukernavn og passord 
 
 > [!TIP]
 > Innholdet i meldingen hentes fra en systemmal som er installert. Du finner den under **Kunnskapsbase** > **Svarmaler**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png
