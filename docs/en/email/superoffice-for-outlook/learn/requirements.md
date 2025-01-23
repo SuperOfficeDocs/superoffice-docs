@@ -39,12 +39,6 @@ Versions earlier than 2001 of the Outlook desktop app do not work in Send and Ar
 
 ![Limitations in Outlook for SuperOffice -screenshot][img1]
 
-The currently released add-on version (via Microsoft AppSource) does not support mobile phones (the mobile device API).
-
-To get the version that has support for the mobile devices, use one of these options:
-
-* Option a: [centralized deployment][1]
-* Option b: [use the pilot version][4]
 
 ## Requirements for centralized deployment
 
