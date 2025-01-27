@@ -33,16 +33,16 @@ We will start by creating a new CRMScript which will be used together with Task 
 
 2. In the Information pane fill out;
 
-- **Name** : Mark as Spam (Friendly name of your script)
-- **Description** : (Optional) Description of what this script does
-- **Include name** : markAsSpam (Single word description of your script)
+* **Name** : Mark as Spam (Friendly name of your script)
+* **Description** : (Optional) Description of what this script does
+* **Include name** : markAsSpam (Single word description of your script)
 
 ![script-information -screenshot][img1]
 3. Change to Script pane
 
-- In the textbox is where we will add our CRMScript code.
+* In the textbox is where we will add our CRMScript code.
 
-4. Save script by confirming with OK or Apply.
+4.Save script by confirming with OK or Apply.
 
 ### Step 1: Adding CRMScript code
 
@@ -83,10 +83,10 @@ Now that we have created our script that will perform needed actions we need to 
 1. Under lists you can find Task menu. To create a new item click **Add**
 2. In dialog fill out:
 
-- **Name:** Name of item in Task menu
-- **Task menu:** Where you want to show this item
-- Select CRMScript and choose script created above
-- Check "Show in SuperOffice CRM"
+* **Name:** Name of item in Task menu
+* **Task menu:** Where you want to show this item
+* Select CRMScript and choose script created above
+* Check "Show in SuperOffice CRM"
 
 ![task-settings -screenshot][img2]
 3. Confirm by clicking **Save**
