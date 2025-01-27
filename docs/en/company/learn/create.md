@@ -36,7 +36,7 @@ In the **Company screen**, you can create and manage company records, including 
 
 1. Click **Save** to ensure all information is stored.
 
-## Key fields explained
+## <a id="fields"></a>Key fields explained
 
 The following fields are available in the Company card. Some fields are filled automatically, while others require input.
 

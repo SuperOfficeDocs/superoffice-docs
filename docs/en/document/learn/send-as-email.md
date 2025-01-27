@@ -34,7 +34,7 @@ language: en
 
     1. Choose the company to send the document to in the company field. By default the company that is active in the Company screen is shown. To choose another company, either click the arrow and select a company from the displayed list, or type the whole or the beginning of the name. After you have chosen a company, their email address is displayed next to the company field.
 
-    2. To send it to a specific person in the company, choose from the available alternatives in the lis for contacts. After you have chosen a contact, their email address is displayed next to the list for contacts.
+    2. To send it to a specific person in the company, choose from the available alternatives in the list for contacts. After you have chosen a contact, their email address is displayed next to the list for contacts.
 
     3. Under **Selected email address** there is now displayed the email address or correctly-formatted fax number for the selected company (or contact if you specified one). To send to a different email address or fax number, enter that here.
 

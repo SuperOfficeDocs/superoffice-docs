@@ -1,86 +1,101 @@
 ---
 uid: help-no-company-create
-title: Opprette nye firmaer
-description: Opprette nye firmaer
-author: SuperOffice RnD
-date: 11.29.2024
-keywords: firma
+title: Opprett et nytt firma
+description: Opprett et nytt firma
+keywords: opprett firma, legg til interesse, Interesser-fanen, firma
+author: Bergfrid Dias
+date: 01.23.2025
+version: 10.5.1
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Opprett et nytt firma
 
-I Firma-bildet kan du registrere informasjon om firmaer på flere nivåer, representert ved de tre fanene **Firma**, **Mer** og **Interesser**. Du kan sette inn en kommentar om et firma ved å bruke fanen **Notat**.
+I **Firma-bildet** kan du opprette og administrere firmaposter, inkludert brukerdefinerte felt og tilleggsdata. Se denne [videoveiledningen om hvordan du oppretter et firma][1].
 
-Se videoen som viser hvordan du [oppretter et firma][1].
-
-## Fanen Firma
+## Steg for å opprette et firma
 
 1. Klikk på **Ny** i toppraden, og velg **Firma**.
 
-1. I det tomme firmakortet skriver du inn navnet på firmaet i feltet øverst i fanen **Firma** . ***Firmanavn*** er obligatorisk og uthevet med rød tekst.
+1. I fanen **Firma**:
+    * Fyll ut **Firmanavn** (obligatorisk, markert med rød tekst).
+    * Angi **Land**. Dette oppdaterer adresseformatet automatisk for det valgte landet. Standardlandet er forhåndsvalgt basert på preferansene dine, men kan endres i **Personlige innstillinger** > **Preferanser** > **Systemet**.
+    * Fyll ut eventuelle andre felter som **Postnummer**, **Telefon**, **E-post** og **Webside**.
 
-    ![Tomt firmakort -screenshot][img1]
+    ![Tomt firmakort med obligatoriske og valgfrie felt. -screenshot][img1]
 
-1. I feltet **Land** angir du firmaets land. Det riktige adresseformatet for dette landet oppdateres automatisk i fanen **Firma**. Du kan angi ditt nåværende hjemland fra **Systemet** i preferansene.
+1. Velg kategori og bransjetype i feltene **Kategori** og **Bransje**. Begge er obligatoriske for å kunne lagre posten.
 
-1. Fyll ut ønskede opplysninger i de øvrige feltene.
+1. (Valgfritt) Legg til flere detaljer:
+    * Gå til fanen **Mer** for å [fylle ut brukerdefinerte felt][12].
+    * Gå til fanen **Interesser** for å [spesifisere interesser](#interests-tab).
+    * Gå til fanen **Notat** for å [legge til notater][5].
 
-    > [!NOTE]
-    > Standardverdier for felt og lister (slik som bransje og kategori) angis i [dialogboksen Preferanser][3].
+1. Klikk på **Lagre** for å sikre at all informasjon blir lagret.
 
-1. Klikk på **Lagre** for å lagre informasjonen du har lagt inn. Deretter kan du klikke på [Mer-fanen][12] for å legge inn eventuelle brukerdefinerte opplysninger for firmaet.
+## <a id="fields"></a>Forklaring av nøkkelfelter
 
-### Dette brukes de forskjellige feltene til
+Følgende felter er tilgjengelige på firmakortet. Noen felter fylles ut automatisk, mens andre krever input.
 
-[!include[Steps to populate company fields](includes/company-fields.md)]
+> [!NOTE]
+> Felter og oppsett kan variere avhengig av konfigurasjoner i [Skjermdesigner][9] og andre tilpasninger i brukergrensesnittet.
 
-## <a id="interests-tab"></a>Fanen Interesser (Firma-bilde)
+* **Avdeling:** Spesifiser en avdeling hvis firmaet har flere grener eller divisjoner.
+* **Adressefelt:** Tilpasses automatisk basert på valgt land.
+* **Postnummer og sted:** Hvis du skriver inn et postnummer som finnes i SuperOffice-databasen, fylles stedsnavnet ut automatisk hvis feltet er tomt. Du kan også skrive inn et stedsnavn manuelt, og et postnummer blir foreslått.
+* **Telefon/Faks/E-post/Webside:** Skriv inn flere oppføringer med beskrivelser, som *Sentralbord*. Klikk utenfor tabellen eller trykk TAB for å lukke innskrivingsfeltet.
+* **Vår kontakt:** Tildeler automatisk navnet ditt. Klikk på pilen for å velge en annen person fra organisasjonen din.
+* **Hovedkontakt:** Velg personen som skal være primærkontakt for denne klienten. Personer må først legges til firmaet for å kunne velges.
+* **Kode:** Genereres automatisk etter at firmaet er lagret, basert på firmanavnet. Koden kan endres manuelt.
+* **Nummer:** Tildeler automatisk neste tilgjengelige firmanummer. Standard startnummer er 10001, som øker med 1 for hvert nytt firma. Denne innstillingen kan endres i Innstillinger og vedlikehold.
+* **Org.nr.:** Angi firmaets organisasjonsnummer.
+* **Stopp** og **Ingen utsendelser**-avmerkingsbokser:
+  * **Stopp:** Indikerer at firmaet krever spesiell oppmerksomhet. Hvis du velger **Stopp**, vises et stoppskilt på firmakortet. Du kan også legge til et notat som forklarer hvorfor firmaet er markert. Kun tilgjengelig i redigeringsmodus.
+  * **Ingen utsendelser:** Hindrer at firmaet mottar direktepost. Denne innstillingen er kun tilgjengelig i redigeringsmodus.
+
+[!include[3 udef](../../learn/includes/more-udef.md)]
+
+## Duplikatkontroll
+
+Hvis du registrerer et firma som ligner på et som allerede finnes i SuperOffice CRM, vises dialogboksen **Duplikater**. Dette hjelper deg med å unngå [utilsiktet registrering av eksisterende firma][2].
+
+* Gjennomgå de foreslåtte duplikatene for å sikre konsistens og unngå unødvendige poster.
+* Velg om du vil fortsette med den nye oppføringen eller bytte til en av de foreslåtte firmaene.
+
+## <a id="interests-tab"></a>Legg til interesser
+
+Interesser hjelper deg med å lage målrettede utvalg. Du kan for eksempel definere *referansekunde* som en interesse og lage et utvalg for markedsføringskampanjer rettet mot denne kundegruppen.
 
 1. Gå til fanen **Interesser**.
 
-2. Du velger interesser ved å merke av i de tilhørende avmerkingsboksene når du er i redigeringsmodus. Innstillinger og vedlikehold definerer hvilke interesser som vises.
+1. I redigeringsmodus velger du interesser ved å merke de relevante boksene. Hvilke interesser som er tilgjengelige, defineres i **Innstillinger og vedlikehold**.
 
     > [!NOTE]
-    > Det er bare de avmerkede interessene som synes når fanen er i visningsmodus. Det kan derfor hende at du har flere interessealternativer å velge mellom når du er i redigeringsmodus.
+    > Når fanen er i visningsmodus, vises kun de merkede interessene. I redigeringsmodus kan det være flere tilgjengelige alternativer.
 
-3. Hvis du merker av for én eller flere interesser i fanen **Interesser**, vises det en prikk ved siden av fanenavnet.
+1. Hvis du velger én eller flere interesser, vises det en prikk ved siden av fanens navn.
 
-    ![Fanen Firmainteresser -screenshot][img2]
+    ![Fanen Interesser med avmerkingsbokser for valg av interesser. -screenshot][img2]
 
-4. Når du har lagt inn ønskede opplysninger i alle tre fanene i Firma-bildet, klikker du på **Lagre**. Du har nå opprettet et eget firmakort for det nye firmaet.
-
-> [!TIP]
-> Interesser kan være nyttige hvis du skal definere utvalg. Hvis du for eksempel definerte *referansekunde* som interesse, kan du lage et utvalg som inneholder alle referansekundene dine. Da er det enkelt å lage markedsføringskampanjer mot denne kundegruppen.
-
-## Fanen www (Firma-bilde)
-
-## Fanen ERP (Firma-bilde)
-
-[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
-
-## Fanen Notat (Firma-bilde)
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
-
-## Duplikater
-
-Hvis du prøver å angi et firma som ligner på et firma som allerede er i SuperOffice CRM, vises dialogboksen **Duplikater** for å hindre at du [utilsiktet registrerer et eksisterende firma][2]. Velg om du vil fortsette å arbeide med den aktuelle oppføringen, eller gå til en av oppføringene som vises nederst i dialogboksen.
-
-[!include[Tip](../../learn/includes/tip-open-website.md)]
+1. Klikk **Lagre** for å lagre de valgte interessene.
 
 ## Aktuelle emner
 
 * [Legge til oppføring som favoritt][4]
+* [Dialogboksen Preferanser][3] – standardverdier for felt og lister
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[5]: ../../learn/basics/notes.md
+[9]: ../../ui/screen-designer/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/company/new-company.png
-[img2]: ../../../media/loc/en/company/interests.png
+[img1]: ../../../media/loc/no/company/new-company.png
+[img2]: ../../../media/loc/no/company/interests.png
