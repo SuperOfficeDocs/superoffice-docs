@@ -68,6 +68,11 @@ In addition to the built-in input and output values, you can also set and get **
 
 After you set a custom value, it can be accessed - also by other `EventData` objects in the same script.
 
+> [!NOTE]
+> From version 10.5.2 we support listening for a command in StateValue to close Ticket tabs from CRMScript triggers in Sales client.
+
+This can be done by adding a StateValue **command:ticket.tab.close**, read more details [here][16].
+
 ## Open dialog to handle user interaction
 
 > [!NOTE]
@@ -123,3 +128,4 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 [13]: <xref:CRMScript.Native.EventData.getNavigateTo()>
 [14]: <xref:CRMScript.Native.EventData.setNavigateTo(String)>
 [15]: <xref:CRMScript.Native.EventData.showDialog(EventDataDialogDefinition)>
+[16]: ../tutorials/closing-ticket-tabs-in-triggers.md
