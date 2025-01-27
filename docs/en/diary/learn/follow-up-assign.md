@@ -2,11 +2,14 @@
 uid: help-en-follow-up-assign
 title: Assign a follow-up
 description: Assign a follow-up to someone else
+keywords: assign follow-up, delegate follow-up, diary, follow-up, assign, delegate
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, assign, delegate
+date: 01.10.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -26,7 +29,7 @@ Examples: Your colleague is on vacation, but needs to call a client when they ge
 
 1. [Open or create a follow-up][1].
 
-1. Click the ![icon][img1] **Task** button and select **Assign to**. Alternatively, open the follow-up and update the name in the **Owner** field.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Assign to**. Alternatively, open the follow-up and update the name in the **Owner** field.
 
 1. In The **Assign to** dialog, click the list at the top to select which users to display (history list, all, or groups).
 
@@ -48,6 +51,3 @@ If the other person declines the invitation, you get an **Invitation declined** 
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

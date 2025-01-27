@@ -32,7 +32,7 @@ There are 2 ways to remove video-meetings configuration for users:
 
 How to use this functionality:
 
-1. Open **Users** section from SuperOffice Settings and Maintenance, and add column **ID** if not already there.
+1. Open **Users** section from SuperOffice Settings and maintenance, and add column **ID** if not already there.
 
     ![imageh2o8t.png -screenshot][img3]
 
@@ -40,7 +40,7 @@ How to use this functionality:
 
     ![imagem4qu6.png -screenshot][img4]
 
-3. Open the Video Meetings configuration from SuperOffice Settings and Maintenance and click **Configure**.
+3. Open the Video Meetings configuration from SuperOffice Settings and maintenance and click **Configure**.
 
 4. Open **Manage Users** from the **Configuration** page.
 

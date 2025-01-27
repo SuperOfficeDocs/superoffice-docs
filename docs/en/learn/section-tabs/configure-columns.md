@@ -4,12 +4,12 @@ title: Changing the column view
 description: Changing the column view
 keywords: section tab, archive, column
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.17.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Configure columns
@@ -28,7 +28,7 @@ To change the order of the columns in a section tab, click and drag a column hea
 ## Add or remove column
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.
+2. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers. A dialog is displayed.
 3. Select or deselect the relevant columns. Use the **Filter columns** fields to filter the columns that are displayed.
 4. Click **OK**.
 
@@ -71,7 +71,7 @@ You can perform calculations such as sum, average, or min/max on date and number
 You can set columns widths to be adjusted automatically according to the content of the columns. When columns are added or removed, all column widths are adjusted to a best fit every time. If there are too many columns to fit within the available space, a horizontal scrollbar is displayed.
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] to the right of the column headers. A dialog is displayed.
+2. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers. A dialog is displayed.
 3. Select **Auto-fit column width**.
 4. Click **OK**.
 
@@ -87,7 +87,6 @@ You can set columns widths to be adjusted automatically according to the content
 [3]: group.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

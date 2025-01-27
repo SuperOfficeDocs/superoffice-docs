@@ -58,7 +58,7 @@ Check here if the users are to edit the field and/or to be obliged to fill out t
 
 ### Order
 
-Click the ![icon][img1] ![icon][img2] arrows to choose the position of the field. This order is also used in the **Add/Edit product** dialog.
+Click <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to choose the position of the field. This order is also used in the **Add/Edit product** dialog.
 
 ## Related content
 
@@ -70,6 +70,4 @@ Click the ![icon][img1] ![icon][img2] arrows to choose the position of the field
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

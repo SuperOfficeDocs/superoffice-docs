@@ -19,7 +19,7 @@ Depending on the archive you see, either Company/Contact or the other different 
 
 One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the Find screen.
 
-The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
+The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
 
 > [!NOTE]
 > Certain tasks described here are not available to all [user levels][8].
@@ -30,9 +30,9 @@ The **Task** button contains tasks such as sending emails, mass-editing and expo
 
 2. Select the tab containing the records you want to work with.
 
-3. To perform the task on just some of the selection members, select them. Then click the **Task** button and select the **Perform task on selected members only** option.
+3. To perform the task on just some of the selection members, select them. Then click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select the **Perform task on selected members only** option.
 
-4. Click the **Task** button and select the task you want to perform. The selected task starts.
+4. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select the task you want to perform. The selected task starts.
 
     The available tasks depend on what type of records is in the selected tab.
 

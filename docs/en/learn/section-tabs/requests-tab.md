@@ -4,8 +4,8 @@ title: Requests tab
 description: Learn how to view, add, and manage Service requests in SuperOffice CRM, helping you efficiently track customer interactions across companies and contacts.
 keywords: requests tab, section tab, request archive, ticket archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -65,7 +65,7 @@ To edit a request directly from the **Requests** section tab:
 
 1. Locate and double-click the request you want to work on.
 
-1. In the window that opens, click **Edit** to begin updating the request details.
+1. In the window that opens, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) to begin updating the request details.
 
 ## Additional tips
 
@@ -79,8 +79,8 @@ To edit a request directly from the **Requests** section tab:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

@@ -19,7 +19,7 @@ The different tools, macros and scripts, triggers and scheduled tasks, have diff
 
 ## Access CRMScript
 
-To access the functions in CRMScript open SuperOffice Settings and maintenance and click ![icon][img1] **CRMScript** in the navigator.
+To access the functions in CRMScript open SuperOffice Settings and maintenance and click <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** in the navigator.
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 
@@ -44,6 +44,3 @@ Triggers are scripts that are executed for specific events in the system, such a
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

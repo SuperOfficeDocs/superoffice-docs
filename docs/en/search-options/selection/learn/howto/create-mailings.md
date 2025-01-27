@@ -15,7 +15,7 @@ You can send a mailing to all contacts in a selection. The mailing can be an ema
 
 1. Open the selection you want to use for the mailing.
 
-2. Click the **Task** button.
+2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 3. Click one of the following options:
 

@@ -18,7 +18,7 @@ Customers often ask the same questions, so you can save time by using pre-define
 2. Select one of the following options and browse the folders. You can also enter search text in the top field, or click the relevant icons to access history and favorites.
     * **FAQ**: Inserts a link to an FAQ in SuperOffice Customer Centre. Only FAQs that are accessible to everyone and that are published, are available here.
     * **Reply templates**: Inserts the template text.
-    * **Quick replies**: Inserts a quick reply. To [create quick replies][1], click ![icon][img2] **Edit**.
+    * **Quick replies**: Inserts a quick reply. To [create quick replies][1], **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 3. Press **ENTER** or click **Send**.
 
@@ -27,4 +27,3 @@ Customers often ask the same questions, so you can save time by using pre-define
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png
-[img2]: ../../../../common/icons/edit-black.png

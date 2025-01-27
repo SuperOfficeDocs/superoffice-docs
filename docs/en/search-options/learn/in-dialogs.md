@@ -2,10 +2,13 @@
 uid: help-en-fastsearcher-dialog
 title: FastSearcher in dialogs
 description: How to use FastSearcher in dialogs in SuperOffice
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: search, FastSearcher, dialog
+author: Bergfrid Dias
+date: 01.20.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -32,7 +35,7 @@ If you type a percent sign (%) in front of the search text, all records which *c
 
 You can use %% to see all records of a certain type, such as all companies, all selections, all projects.
 
-If, for example, you want to see all the document templates available in SuperOffice CRM, Select **+New** > **Document**. In the top field in the dialog, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
+If, for example, you want to see all the document templates available in SuperOffice CRM, Click **New** on the top bar and select **Document**. In the top field in the dialog, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
 
 ![Type in two percentage signs in the FastSearcher to see all records -screenshot][img4]
 

@@ -79,7 +79,7 @@ The name and tooltip text can be translated into other languages.
 
 When the element is selected:
 
-1. Click the **A-Z** button next to the label.
+1. Click the <i class="ph ph-translate" aria-label="Translate"></i> button next to the label.
 1. Click **Add** and select a language from the list.
 1. Enter text for the new language.
 

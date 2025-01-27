@@ -4,8 +4,8 @@ title: Deleting elements
 description: How to merge, delete and restore elements.
 keywords: delete, restore, recycle bin
 author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+date: 01.20.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,7 +60,7 @@ Deleted companies and contacts are by default kept in the recycle bin for 14 day
 
 You also have an option to restore other users' deleted companies and contacts, just check View deleted companies for all users ON.
 
-1. Choose ![icon][img1] **Personal settings** > **Recycle bin**.
+1. Choose <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Recycle bin**.
 
 2. In the dialog, select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
 
@@ -84,7 +84,7 @@ You also have an option to restore other users' deleted companies and contacts, 
 | Cancel | Cancels deletion of all selected elements. The dialog is closed without deleting anything. |
 
 * To suppress this dialog: Check **Do not show this dialog again** at the bottom of the delete dialog.
-* To reactivate this dialog: Go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Show confirmation dialog** option to **No**.
+* To reactivate this dialog: Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Functions** and set the **Show confirmation dialog** option to **No**.
 
 > [!NOTE]
 > When you delete a company, a selection or a project, you are always asked to confirm the deletion, and the **Do not show this dialog again** option is not available.
@@ -107,6 +107,5 @@ You also have an option to restore other users' deleted companies and contacts, 
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
 [img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

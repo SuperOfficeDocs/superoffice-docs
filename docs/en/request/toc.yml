@@ -1,13 +1,16 @@
 items:
 - name: Requests
   href: index.yml
+- name: User guide
+  topicHref: learn/index.md
+- name: For administrators
+  topicHref: admin/index.md
+- name: Technical reference
+  href: overview.md
   items:
-  - name: Overview
-    href: overview.md
   - name: Reply templates
     href: reply-templates/index.md
-    items:
-    - name: Default templates
-      href: reply-templates/system-templates.md
-  - name: CRMScript options
-    topicHref: ../automation/crmscript/howto/request/index.md
+  - name: Default templates
+    href: reply-templates/system-templates.md
+- name: CRMScript options
+  topicHref: ../automation/crmscript/howto/request/index.md

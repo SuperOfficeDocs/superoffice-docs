@@ -30,7 +30,7 @@ All documents you write or archive from SuperOffice will be stored in your Share
 
 Activating SharePoint Online Documents makes SharePoint Online the preferred document repository for all your documents.
 
-A self-service UI to provision and configure SharePoint as SO repository from SuperOffice Settings and Maintenance.
+A self-service UI to provision and configure SharePoint as SO repository from SuperOffice Settings and maintenance.
 
 ## Google Workspace
 

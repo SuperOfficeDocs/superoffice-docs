@@ -1,11 +1,14 @@
 ---
 uid: help-en-contact-merge
 title: Merge contacts
-description: Merge contacts
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: company
+description: Learn how to merge duplicate contacts in SuperOffice CRM to consolidate activities, sales, and project memberships. Includes step-by-step instructions for using the Merge contacts dialog.
+keywords: Merge contacts, contact, person
+author: Bergfrid Dias
+date: 12.17.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,43 +16,49 @@ language: en
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-If a physical person is registered as two different contacts in SuperOffice CRM, you can merge these contacts together. For example, if the person was registered under two different names at the same company ("Jonathan Clark" and "Jonathon Clarke"), or if the person was registered at both their old and new employer.
+If the same person is registered under different names or companies in SuperOffice CRM (such as "Jonathan Clark" and "Jonathon Clarke") you can merge their contact records to consolidate activities, sales, and project memberships.
 
-Project membership and activities will be moved to the target contact, and the source contact can be deleted or marked as a former employee.
+> [!NOTE]
+> You cannot merge contacts (SuperOffice users) in your own company. You can merge a contact from another company with one in your own company.
 
-1. Open the **Merge contacts** dialog bu doing one of the following:
-    * In the Company screen: Go to the **Contacts** section tab, select and right-click one or two contacts you want to merge, select **Manage contacts** and **Merge contacts**.
-    * In the Contact screen: Go to the required contact, click the ![icon][img1] **Task** button in the contact card, and select **Manage contacts** and **Merge contacts**.
+## Steps
 
-2. If you selected only one contact, select another contact under **To** (to search for a contact, start typing). The two contacts you want to merge are now displayed under **From** and **To**.
+1. Open the **Merge contacts** dialog:
 
-    > [!TIP]
-    > To switch the **From** and **To** contacts, click the ![icon][img2] button.
+    * In the **Contact screen**: Go to the required contact, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, and select **Manage contacts** > **Merge contacts** from the menu.
 
-3. Select one of the following under **Action on \[contact/company\] after merge**:
-    * **Delete...**: If you select this option, the source contact is deleted after the merge.
-        For example, if you registered the same contact twice under the same company.
-    * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge.
-        For example, if a person has changed jobs, but you still want them registered under the old company.
+    * In the **Company screen**: Go to the **Contacts** section tab, select one or two contacts, right-click, and choose **Manage contacts** > **Merge contacts**.
 
-4. Select one of the following under **Action on all existing activities and sales**:
+1. If you selected only one contact, choose a second contact under **To**. Start typing to search for the contact. To swap the **From** and **To** contacts, click the arrow button <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
+
+Click the arrow button <i class="ph ph-arrows-left-right" aria-hidden="true"></i> to swap the **From** and **To** contacts.
+
+1. Under **Action on \[company\] after merge**, choose one of the following:
+
+    * **Delete \[source contact\]:** Deletes the source contact after merging (useful for duplicates).
+    * **Mark as former employee:** Marks the source contact as a former employee (useful when the contact changed jobs).
+
+1. Under **Action on all existing activities and sales**, choose one of the following:
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+1. Click **Merge**. The following happens:
 
-5. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
+    * All details are merged.
+    * Activities and sales remain linked to the target contact, or they are moved depending on the option you selected.
+    * Project and static selection memberships follow the target company.
+    * The specified action (delete or mark as former employee) is applied to the source contact.
 
-> [!NOTE]
-> You cannot merge contacts (SuperOffice users) in your own company, but you can merge a contact from another company with one in your own company.
+![Merge contacts dialog showing options to handle duplicate contacts (including their activities)and choosing post-merge actions. -screenshot][img4]
 
-## Related topics
+## Related content
 
 * [Merge companies][1]
+* [Restore deleted companies and contacts][2]
 
 <!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
+[2]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png
+[img4]: ../../../media/loc/en/contact/merge-contacts.png

@@ -60,7 +60,7 @@ In the list on the right you can add product information. This can include:
 
 * Lists: Here you select alternatives from the list such as units, product type and product group. You can add more alternatives to these lists in the **Lists** screen [Add items to a list][4].
 
-* Lists with ![icon][img1] search options : Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon][img1] to initiate an advanced search.
+* Lists with search options : Here you can choose from list of recent records, enter text to start a search, or click the search button (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) to initiate an advanced search.
 
 ### How to change name and order, and make fields editable and/or mandatory
 
@@ -82,5 +82,4 @@ To find out which fields are displayed, go to the **Settings** tab and click **C
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
 [img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

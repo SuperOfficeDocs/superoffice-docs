@@ -25,7 +25,7 @@ language: en
 
 The products in the quote are displayed on this tab.
 
-If the quote contains several alternatives, the favorite alternative is indicated with ![icon][img1] next to the tab name. If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
+If the quote contains several alternatives, the favorite alternative is indicated with <i class="ph ph-star" aria-label="Star icon"></i> next to the tab name. If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
 
 * **Discount**: Here you can enter a total discount (discount percent or discount amount) for the whole of the alternative. The total discount is applied in addition to any discounts applied to the different products.
 
@@ -37,7 +37,7 @@ If the quote contains several alternatives, the favorite alternative is indicate
 * Double-click a product to edit it.
 * **Delete**: Deletes the selected product(s).
 * **Export**: Used to [export the list][7] to a spreadsheet.
-* Sort: Use the ![icon][img2] / ![icon][img3] arrow keys to change the order of the products.
+* Sort: Use <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> to change the order of the products.
 
 > [!TIP]
 > You can double-click the tabs to change the names of the alternatives in the quote.
@@ -62,8 +62,3 @@ The bottom section of the dialog
 [8]: ../index.md#status
 [9]: ../add-product.md#warning
 [7]: ../../../learn/section-tabs/export-archives.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

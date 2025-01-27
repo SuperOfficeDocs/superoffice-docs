@@ -19,14 +19,9 @@ You can continue working with the current record or go to one of the records lis
 
 To change the settings for the duplicate check, click the **Settings** button in the **Duplicates** dialog.
 
-You can also access these settings from the Main menu ![icon][img1].
+You can also access these settings from the Main menu (<i class="ph ph-list" aria-hidden="true"></i>).
 
 ## Deactivate duplicate check
 
 1. Go to Settings and maintenance.
 1. Select **Preferences** > **Functions**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

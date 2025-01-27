@@ -32,7 +32,7 @@ The **Chats** tab has three main areas:
 
 * List of active/recent chat sessions (left side)
 * Chat conversation (middle)
-* Contact side panel (right side) → showing customer information
+* Contact side panel (right side), showing customer information
 
 ### List of active/recent chat sessions
 
@@ -49,7 +49,7 @@ The following icons are used for the active chat sessions in the list:
 |---|---|
 | ![icon][img2] | The last message in the conversation from the customer and agent. |
 | ![icon][img3] | Number of unread messages from the customer. |
-| ![icon][img4] | Transferred chat to you or from you. Waiting to be accepted. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Transferred chat to you or from you. Waiting to be accepted. |
 
 ### Chat conversation
 
@@ -83,5 +83,4 @@ If the customer is found in SuperOffice, you can show contact information, reque
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

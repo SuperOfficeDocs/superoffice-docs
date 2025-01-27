@@ -36,7 +36,7 @@ Watch this video to learn how you can create a web form (video length - 7:49) or
 
 1. Select the **Form templates** tab.
 2. Click **All templates**.
-3. Click the ![icon][img1] menu button next to the template you want to use.
+3. Click the <i class="ph ph-list" aria-label="Task menu"></i> menu button next to the template you want to use.
 4. Select **Copy to new form**. The template opens in the **Edit form** dialog.
 5. [Activate and publish the form][2].
 
@@ -46,7 +46,7 @@ To enhance user-friendliness and facilitate readability, consider dividing a for
 
 1. Create a form as described above.
 2. Select **Fields** from the left menu (in the dialog).
-3. Click the **Add** button ![icon][img2].
+3. Click the **Add** button (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
 6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
@@ -83,7 +83,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 1. Select **Fields** from the left menu. By default, the **Contact - name** field and **OK** button are added to the new form.
 
-2. Click the **Add** button ![icon][img2].
+2. Click the **Add** button (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. In the **Add element** window, select one of the following field categories:
 
@@ -107,7 +107,7 @@ In the **Fields** category you add the fields that should be included in the for
 
     * Select the **Mandatory** check box if this field must be filled in. The form cannot be submitted if mandatory fields are not filled in.
 
-    * Click **Advanced options** ![icon][img5] to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
+    * Click **Advanced options** (<i class="ph ph-gear" aria-hidden="true"></i>) to display the **Identifier** field, where you can add an ID for the field. This will be a unique ID for this field, and will not change even if the field name/label or the language changes. This way you can ensure that links to this field are not broken after publishing the form.
 
     * Click the check box **Full width** if you want the selected field to be the same width as the form.
 
@@ -115,7 +115,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 10. Click **Apply now** when you are done.
 
-11. Repeat steps 2-10 to add another field. You can also click **Duplicate field** ![icon][img6] to create a copy of a field.
+11. Repeat steps 2-10 to add another field. You can also click **Duplicate field** (<i class="ph ph-copy" aria-hidden="true"></i>) to create a copy of a field.
 
 ### Style
 
@@ -149,7 +149,7 @@ Watch this video to learn how to use the double opt-in feature on your web form 
 
     3. **Confirmation text**: Enter the body text of the email.
 
-    4. Select **Insert confirm link** ![icon][img9] from the toolbar (click ![icon][img7] to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** ![icon][img8].
+    4. Select **Insert confirm link** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) from the toolbar (click <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i> to show). The confirmation link is inserted in the body text. To edit the link, click it and select **Edit link** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 4. Click **Apply now** when you are done.
 
@@ -201,12 +201,5 @@ Here you can [define what happens when someone submits a form response][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

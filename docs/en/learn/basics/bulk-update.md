@@ -15,7 +15,7 @@ Bulk update allows you to change values across multiple records of the same type
 
 1. Open the selection, section tab (archive) or search results (**Find** screen) containing the records you want to update.
 
-2. Selections: Click the **Task** button and select **Bulk update**.
+2. Selections: Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Bulk update**.
     or
     Select the records you want to update, right-click them and select **Bulk update...**.
     The **Bulk update** dialog opens. In the bottom of this dialog you can see the type of record and how many records to be updated. Example: Number of contacts in queue for bulk update: 7.
@@ -38,17 +38,14 @@ Bulk update allows you to change values across multiple records of the same type
 
 5. To add more fields to be updated, click **Add** and repeat steps 3 and 4.
 
-6. Make sure you select (![icon][img1]) the fields you want to update and unselect (![icon][img2]) the fields you DO NOT want to update.
+6. Make sure you select (<i class="ph ph-check" aria-hidden="true"></i>) the fields you want to update and unselect the fields you DO NOT want to update.
 
 7. Click **Update**. The **Confirm** dialog opens, showing a summary of the updates.
 
-    > [!NOTE]
-    > After an update is applied, it cannot be undone.
-
 8. Click **Yes** to implement the changes to the selected records.
 
-    > [!NOTE]
-    > It is possible to stop the update as soon as you have started the update. Any entities that have not been updated yet, will not be updated.
+    > [!CAUTION]
+    > Once an update is applied, it cannot be undone. However, you can stop the update while it is in progress. Any records that have not yet been updated will remain unchanged.
 
 9. Click **LOG** to show the change log. If any records were not updated, the reason is listed in the **Reasons why** column.
 
@@ -89,9 +86,3 @@ You discover that the contact field **Position** is rarely used. To at least sta
 ## Update project
 
 You want to clean up all the "old" projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

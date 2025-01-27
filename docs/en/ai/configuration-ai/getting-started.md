@@ -17,14 +17,14 @@ For the system to form an opinion on/learn how to automatically categorize betwe
 > [!NOTE]
 > To be able to choose a selection of requests to teach the system how to categorize requests, you must first create a selection of requests in SuperOffice Sales.
 
-The Machine-learning categorization service is enabled in Settings and Maintenance:
+The Machine-learning categorization service is enabled in Settings and maintenance:
 
 ## Step 1 - Create a selection of requests to use for analysis
 
 1. Open the Sales client.
 
 2. Create a selection of requests to use for analysis:
-     * Click either **Find** or **New > Selection**.
+     * Click either <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> or **New > Selection**.
 
     ![x -screenshot][img2]
 
@@ -57,7 +57,7 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 > [!NOTE]
 > You must have created a selection of the request in the Sales client before continuing. See step 1 above.
 
-1. Open Settings and Maintenance.
+1. Open Settings and maintenance.
 
 2. Click **AI services** in the menu.
 
@@ -104,7 +104,7 @@ When the users navigate to a request, there will be a link if there is a sugges
 
 ## Re-configure
 
-1. Open Settings and Maintenance.
+1. Open Settings and maintenance.
 2. Click AI services in the menu.
 3. Under **Categorization**, click the dropdown for "select item".
 4. Search for the name of the selection to choose it.

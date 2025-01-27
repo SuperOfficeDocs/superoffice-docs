@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Add sale stage
+  href: sale-stage.md
+- name: Add sale type
+  href: sale-type.md
+- name: Create new sales guide
+  href: create-sales-guide.md
+- name: Edit or deactivate sales guide
+  href: edit-sales-guide.md

@@ -2,62 +2,64 @@
 uid: help-en-contact-send-email
 title: Send email to a contact
 description: Sending emails via SuperOffice CRM makes it easier to share and store all your customer communication in one place.
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: person, contact
+keywords: Email contact, Send email, email, e-mail
+author: Bergfrid Dias
+date: 12.17.2024
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Send email to a contact
 
-You can prepare an email from both the Contact screen and the Company screen. Then, the steps to send the email are the same.
+You can send emails to contacts from both the **Contact screen** and the **Company screen**. The process is the same after selecting the recipients.
 
-## Create email from Contact screen
+## Send email from the Contact screen
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Do one of the following:
-    * Click the email address in the **Contact** tab. If the contact has more than one email address, you must select which one to use.
+    * Click the email address in the **Contact** tab.
     * Click **New** on the top bar and select **Email**.
-    * Click the ![icon][img1] **Task** button and select **Send email**.
+    * Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Send email**.
 
-    A message to the specified recipient is then opened in your default email program.
+   If the contact has multiple email addresses, select the one to use. Your default email program will open with the recipient's address filled in.
 
-1. Write the email.
-1. Go to (#send) below.
-
-## Create email from Company screen
+## Send email from the Company screen
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Select the **Contacts** section tab.
+1. In the **Contacts** section tab, select one or more contacts.
 
-1. Select one or more contacts.
+1. Right-click and select **Send email**.
 
-1. Right-click and select **Send email**. A message to the specified recipient(s) is then opened in your default email program.
+   > [!NOTE]
+   > Only contacts with email addresses are included in the **To** field. Contacts without email addresses are omitted.
 
-    > [!NOTE]
-    > Only contacts with email addresses are displayed in the **To** field. Contacts without email addresses are omitted.
+## Finalize and send
 
-## Send
+1. Write the email.
 
-![Find the contact, right click and then select Send email from the menu -screenshot][img2]
+2. Click one of the following options:
 
-1. Send the email by clicking one of the following buttons:
+    * **Send:** Sends the email and logs it in the **Activities** section tab.
+    * **Send and archive:** Sends the email and saves it as a document.
 
-    * **Send:** The email is sent and available in the **Activities** section tab.
-    * **Send and archive:** The email is sent and saved as a document.
+   If you choose **Send and archive**, the [Document dialog][1] will open. Add any required information and click **Create** to save.
 
-1. If you selected **Send and archive**, the [Document dialog][1] opens when you send the email. Add information in this dialog as necessary.
+![Find the contact, right-click, and select Send email. -screenshot][img2]
 
-1. Click **Create** in the **Document** dialog.
+## Related content
+
+* [Archive emails in SuperOffice Inbox][2]
+* [SuperOffice for Outlook][3]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
-
-create.md#fields
+[2]: ../../email/inbox/learn/archive.md
+[3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/contact/email-send-email.png
+[img2]: ../../../media/loc/en/contact/send-email.png

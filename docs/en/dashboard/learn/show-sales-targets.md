@@ -23,16 +23,16 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
 2. Select the dashboard you want to edit.
 
-3. Click the **Task** button, and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
 
 4. In the **Show tiles for** list, select **Sale**.
 
 5. In the **Library** tab, select one of the following charts:
 
-    * ![icon][img2] - Big number
-    * ![icon][img3] - Bar chart
-    * ![icon][img4] - Column chart
-    * ![icon][img5] - Gauge chart
+    * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Big number
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Bar chart
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Column chart
+    * <i class="ph ph-gauge" aria-hidden="true"></i> - Gauge chart
     * Empty sale tile
 
     > [!TIP]
@@ -46,7 +46,7 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon ![icon][img6] on the new tile.
+8. In the dashboard, click the **Edit tile** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>) on the new tile.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 
@@ -66,7 +66,7 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
     * Big number: You can edit the colors used to display targets.
     * Gauge chart: Use the option **Mark target at** to set the target on the gauge chart.
 
-12. Click ![icon][img1] to [add a translation][3] to the tile name, titles and labels.
+12. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][3] to the tile name, titles and labels.
 
 13. Click **Save**. Then click **Done**.
 
@@ -95,11 +95,5 @@ Is the Compare to target not visible at all, make sure that you have selected th
 [7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/big-numbers.png
-[img3]: ../../../../common/icons/column-bar.png
-[img4]: ../../../../common/icons/bar.png
-[img5]: ../../../../common/icons/gauge.png
-[img6]: ../../../../common/icons/edit-pen.png
 [img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
 [img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

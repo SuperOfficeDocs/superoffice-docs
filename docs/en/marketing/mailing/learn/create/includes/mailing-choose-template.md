@@ -12,7 +12,7 @@ After you have figured out what design you want to use, you can choose the templ
 
 1. Select a template in one of the following ways:
     * Select one of the available tabs (**Online template library**, **Recent templates**, **All templates**, and so on) to view available mailings or templates on which to base your new mailing.
-    * Enter a search phrase in **Search templates** and press **ENTER** or click the search icon ![icon][img1].
+    * Enter a search phrase in **Search templates** and press **ENTER** or click <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. In the list below, click a template to select it.
 
@@ -25,5 +25,4 @@ After you have figured out what design you want to use, you can choose the templ
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

@@ -36,24 +36,19 @@ Alternatives are shown as tabs in the quote (in the **Edit quote** dialog).
 
 7. To change the name of the **Products** tab to something describing this alternative, double-click the name of the tab.
 
-## <a id="fav"></a>Favorite alternative
+## <a id="fav"></a>Favorite alternative <i class="ph ph-star" aria-label="Star icon"></i>
 
-If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked as the favorite ( ![icon][img2] **Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
+If you create several alternatives in a quote, the first one (usually the **Products** tab) is marked with a star as the favorite (**Favorite alternative**). Estimated sales amounts for the sale (forecast) are obtained from the total amount for the favorite alternative.
 
-If you want another alternative to be the favorite, select its tab, and click ![icon][img3] **Favorite alternative** at the bottom.
+If you want another alternative to be the favorite, select its tab, and click <i class="ph ph-star" aria-label="Star icon"></i> **Favorite alternative** at the bottom.
 
 When [sending the quote][3], you can select to only include the favorite alternative.
 
 ## Delete alternatives
 
-You can delete an alternative by selecting ![icon][img1] **Task** > **Delete \[alternative\]** at the bottom of the tab.
+You can delete an alternative by clicking <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and selecting **Delete \[alternative\]** at the bottom of the tab.
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: add-product.md
 [3]: send.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

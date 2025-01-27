@@ -49,7 +49,7 @@ To view data in the More tab:
 
 ## Edit information in the More tab
 
-Click **Edit** to edit the information in the **More** tab.
+Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> to update the information in the **More** tab.
 
 ## Additional tips
 

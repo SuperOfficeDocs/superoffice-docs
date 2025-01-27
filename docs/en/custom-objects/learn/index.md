@@ -8,7 +8,7 @@ date: 01.16.2024
 version: 10
 topic: concept
 language: en
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 ---
 

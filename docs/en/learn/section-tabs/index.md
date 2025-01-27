@@ -4,10 +4,10 @@ title: The Section tabs
 description: The Section tabs
 keywords: section tab, archive
 author: Bergfrid Dias
-date: 04.09.2024
-version: 10.3.4
+date: 01.20.2025
+version: 10.5
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---
@@ -34,27 +34,26 @@ In the section tabs, you can sort the lists by the various columns in ascending 
 To reduce the loading time, only a specified number of records are displayed when opening a section tab. To show all records, click **Show all** at the bottom of the section tab.
 
 1. Go to the section tab you want to edit.
-2. Click ![icon][img1] to the right of the column headers.
+2. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers.
 3. In the dialog, click the **Page size** list and select a value.
 4. Click **OK**.
 
 > [!NOTE]
 > You can also adjust settings for the section tabs in [your preferences][1].
 
-## Related topics
+## Related content
 
 * [Grouping lists][3]
 * [Use filters in the section tabs][4]
 * [Configure columns][6]
 * [Export section tabs][7]
-* [Section tabs in the Company screen][9]
-* [Section tabs in the Contact screen][10]
-* [Section tabs in the Diary screen][11]
-* [Section tabs in the Sale screen][12]
-* [Section tabs in the Project screen][13]
-* [Section tabs in the Selection screen][14]
-* [Work with dynamic and static selections][15]
-* [Section tabs based on extra-field relations][16]
+* [Activities section tab][11]
+* [Contacts section tab][12]
+* [Projects section tab][13]
+* [Relations section tab][14]
+* [Requests section tab][15]
+* [Sales section tab][16]
+* [Section tabs based on extra-field relations][20]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -62,14 +61,12 @@ To reduce the loading time, only a specified number of records are displayed whe
 [4]: filter.md
 [6]: configure-columns.md
 [7]: export-archives.md
-[9]: ../../company/learn/index.md#section-tabs
-[10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
-[12]: ../../sale/learn/index.md#section-tabs
-[13]: ../../project/learn/index.md#section-tabs
-[14]: ../../search-options/selection/learn/screen/index.md
-[15]: ../../search-options/selection/learn/index.md
-[16]: ../../custom-objects/learn/extra-field.md#relation
+[11]: activities-tab.md
+[12]: contacts-tab.md
+[13]: projects-tab.md
+[14]: relations-tab.md
+[15]: requests-tab.md
+[16]: sales-tab.md
+[20]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png

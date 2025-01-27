@@ -2,14 +2,17 @@
 uid: help-en-search-intro
 title: Search options
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: search, find
+author: Bergfrid Dias
+date: 01.20.2025
+version: 10.5
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Search options
+# Search options <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Searching for information in your CRM database is something you do every day. With SuperOffice Find you can search for a single piece of data, such as a phone number, or a list of data, such as a list of mailing recipients.
 
@@ -67,9 +70,9 @@ You can use FastSearcher in various ways:
 
 ## Free-text search
 
-Click [free-text search][2] in the upper-right corner to search for any text that users have entered into SuperOffice CRM.
+Click [free-text search][2] in the top bar to search for any text that users have entered into SuperOffice CRM.
 
-![You will find the free-text search to the right in the top bar -screenshot][img3]
+![You will find the free-text search in the top bar -screenshot][img3]
 
 > [!TIP]
 > Want to see a list of all your contacts? Click on the **Selections** icon in the left-side Navigator and search for "All Contacts" to see a pre-configured selection.
@@ -78,9 +81,9 @@ Click [free-text search][2] in the upper-right corner to search for any text tha
 
 Use the percent character (%) as a wildcard character when searching. **%** matches any string of 0 or more characters. For example: J%son matches Jackson, Johnson, Jason, and Json.
 
-## The Find button
+## The Find button <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
-Click the **Find** button on the top bar to open the [Find screen][1], where you can search for data in SuperOffice. The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
+Click the **Find** button (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) on the top bar to open the [Find screen][1], where you can search for data in SuperOffice. The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
 
 ![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
 
@@ -90,7 +93,7 @@ From the Find screen, you can save each search you perform as a selection.
 
 A typical search is a *predefined search* based on what other users typically search for. Each data set in the Find screen contains a list of ready-to-use, pre-set search criteria.
 
-To get started, click the **Find** button and then click below the group of data you are interested in. Use the typical search as-is or modify or expand it.
+To get started, click <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> and then click below the group of data you are interested in. Use the typical search as-is or modify or expand it.
 
 ### Example: My overdue follow-ups
 
@@ -149,4 +152,4 @@ Watch this video or follow the steps below to learn how you can create a search 
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
 [img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
 [img3]: ../../../media/loc/en/search-options/freetext-search-find.png
-[img5]: ../../../media/loc/en/search-options/typical-search.png
+[img5]: ../../../media/loc/en/request/typical-searches-for-request.png

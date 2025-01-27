@@ -26,9 +26,9 @@ Sometimes, the dialog **Archive email in SuperOffice** is always displayed:
 
 ## Include non email templates in template list
 
-Checked ![icon][img2]: All document templates will be displayed in the **Type** list in the dialog **Archive email in SuperOffice**.
+Checked (<i class="ph ph-check" aria-hidden="true"></i>): All document templates will be displayed in the **Type** list in the dialog **Archive email in SuperOffice**.
 
-Unchecked ![icon][img3]: Only document templates of the type **Email** will be displayed.
+Unchecked: Only document templates of the type **Email** will be displayed.
 
 ## Default outgoing email template
 
@@ -65,5 +65,3 @@ Click this button to connect to another SuperOffice installation. Follow the ons
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

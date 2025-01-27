@@ -27,7 +27,7 @@ By setting up links that direct readers to various content on your website you c
 3. Add the link.
     * To add an existing tracked link:
 
-      * Text: Click the **Insert/edit link** ![icon][img1] in the toolbar, select **Special links** > **Tracked links**, and select a link.
+      * Text: Click <i class="ph ph-link" aria-label="Insert/edit link"></i> in the toolbar, select **Special links** > **Tracked links**, and select a link.
       * Image: In the side-panel (under **Action**), select **Special links** > **Tracked links**, and select a link.
 
     * To [create a new tracked link][5], click **Create new tracked link** at the bottom of the screen. The **Link properties** dialog opens.
@@ -36,7 +36,7 @@ By setting up links that direct readers to various content on your website you c
 
 ## Tips
 
-You can add regular (untracked) links. For text links, click ![icon][img1] in the toolbar. For image links, use the **Image URL** field in the side-panel.
+You can add regular (untracked) links. For text links, click <i class="ph ph-link" aria-label="Link"></i> in the toolbar. For image links, use the **Image URL** field in the side-panel.
 
 If you later decide you want to track these links also, select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings or in flows.
 
@@ -56,5 +56,4 @@ If you later decide you want to track these links also, select the **Track all l
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

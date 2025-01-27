@@ -13,7 +13,7 @@ language: en
 <!-- markdownlint-disable-file MD029 -->
 [!include[Open Selections](../includes/goto-selections.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
-2. Click the **Task** button.
+2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
 
 3. Select **Delete this selection**.
 

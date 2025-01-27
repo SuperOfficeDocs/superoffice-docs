@@ -60,10 +60,10 @@ In the **Tracked links** tab you have the following options:
 
 | Icon | Option | Read more |
 |:-:|---|---|
-| ![icon][img2] | Add | [Create a new link][1], [Define link actions][7] |
-| ![icon][img3] | Add folder | [Create a folder][5] for your links |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Add | [Create a new link][1], [Define link actions][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Add folder | [Create a folder][5] for your links |
 | Link | Click a link to open the **View link** screen. | [Work with tracked links after the mailing][2] |
-| ![icon][img1] | Menu | Click the button next to a link to access the more options. |
+| <i class="ph ph-list" aria-label="Task menu"></i> | Menu | Click the button next to a link to access the more options. |
 
 Menu options:
 
@@ -111,7 +111,4 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

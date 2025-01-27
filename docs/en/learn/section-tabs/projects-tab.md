@@ -4,8 +4,8 @@ title: Projects tab
 description: Learn how to view, add, and manage projects using the Projects section tab in SuperOffice CRM. Simplify project tracking across companies, contacts, and more.
 keywords: projects tab, section tab, project archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.17.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ The **Projects** section tab contains the following columns to display key infor
 
 | Column | Description |
 |---|---|
-| Completed | Checkbox indicating if the project is completed. A ticked checkbox (![icon][img3]) means completed, while an empty box means it is ongoing. |
+| Completed | Checkbox indicating if the project is completed. A ticked checkbox (<i class="ph ph-check" aria-hidden="true"></i>) means completed, while an empty box means it is ongoing. |
 | Project name | The name of the project. |
 | Project type | Specifies what type of project it is, such as internal or customer-facing. |
 | Status | The current status of the project. |
@@ -86,4 +86,3 @@ To [add project members][4] directly from the **Projects** section tab:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png

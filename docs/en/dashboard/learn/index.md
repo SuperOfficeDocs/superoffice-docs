@@ -52,14 +52,14 @@ The tiles can also be customized to show only data from selections. Access right
 
 | Icon | Type | Description |
 |:-:|---|---|
-| ![icon][img6] | Pie chart | A circular-shaped graph. |
-| ![icon][img7] | Big number | A number in big letters with options to compare to value or period. |
-| ![icon][img8] | List | A list overview with max 100 items. |
-| ![icon][img9] | Column chart | A column chart plots the variable value vertically. |
-| ![icon][img10] | Bar chart | A bar chart plots the variable value horizontally. |
-| ![icon][img11] | Line chart | A series of data points with a continuous line. |
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Pie chart | A circular-shaped graph. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Big number | A number in big letters with options to compare to value or period. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | List | A list overview with max 100 items. |
+| <i class="ph ph-chart-bar" aria-label="Bar chart"></i> | Column chart | A column chart plots the variable value vertically. |
+| <i class="ph ph-chart-bar" aria-label="Bar chart"></i> | Bar chart | A bar chart plots the variable value horizontally. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Line chart | A series of data points with a continuous line. |
 | ![icon][img12] | Area chart | A graph that combines a line chart and a bar chart. |
-| ![icon][img13] | Gauge chart | Also known as dial charts or speedometer charts, use needles to show information as a reading on a dial. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Gauge chart | Also known as dial charts or speedometer charts, use needles to show information as a reading on a dial. |
 | ![icon][img14] | Column + line (2 axes) | A dual axis chart that combines a column and line chart. |
 | ![icon][img15] | Bar + line (2 axes) | A dual axis chart that combines a bar and line chart. |
 
@@ -86,10 +86,10 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 
 | Icon | Description |
 |---|---|
-| ![icon][img1] | The dashboard is pinned by an administrator and is likely distributed to multiple users. |
-| ![icon][img2] | Click the star in the top-right corner to set a dashboard as favorite. |
-| ![icon][img3] | Click the **Refresh** button to update the data in all tiles. |
-| ![icon][img5] | Click the **Task** button to access various functions. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | The dashboard is pinned by an administrator and is likely distributed to multiple users. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Click the star in the top-right corner to set a dashboard as favorite. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Click the **Refresh** button to update the data in all tiles. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Click the **Task** button to access various functions. |
 
 **Functions on the Task button:**
 
@@ -111,18 +111,7 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 [7]: ../../sale/learn/sales-targets/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../../common/icons/pie.png
-[img7]: ../../../../common/icons/big-numbers.png
-[img8]: ../../../../common/icons/list.png
-[img9]: ../../../../common/icons/bar.png
-[img10]: ../../../../common/icons/column-bar.png
-[img11]: ../../../../common/icons/line.png
 [img12]: ../../../../common/icons/area.png
-[img13]: ../../../../common/icons/gauge.png
 [img14]: ../../../../common/icons/combined.png
 [img15]: ../../../../common/icons/combined-bar.png

@@ -73,9 +73,9 @@ When the customer is ready to launch the approved application on their productio
 ## Best practices
 
 > [!NOTE]
-> If your sandbox was cloned from an existing and running CRM Online tenant with apps authorized, then data that was created by the apps in the source will still be in your sandbox. Examples would be web panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
+> If your sandbox was cloned from an existing and running CRM Online tenant with apps authorized, then data that was created by the apps in the source will still be in your sandbox. Examples would be web panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and maintenance.
 
-* If you have **ERP sync apps** in production, you should log in to Settings and Maintenance and turn off automatic syncing. Since these apps are not authorized on the sandbox it will not sync, just generate errors.
+* If you have **ERP sync apps** in production, you should log in to Settings and maintenance and turn off automatic syncing. Since these apps are not authorized on the sandbox it will not sync, just generate errors.
 
     ![Turn off auto sync -screenshot][img13]
 

@@ -4,12 +4,12 @@ title: Filter the section tabs
 description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 01.20.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Filter the section tabs
@@ -33,9 +33,8 @@ Learn how to customize views by configuring columns with this short video, or re
 
 | Option | Description |
 |---|---|
-| ![icon][img2] (the filter icon) | You can filter activities and sales section tabs by date, users, and groups. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | You can filter activities and sales section tabs by date, users, and groups. Click the funnel icon on a column header to filter on that column. |
 | Activities filters (checkboxes) | You can filter activities by type (pre-defined filters). Click the arrow and select what to. |
-| ![icon][img3] (column filter) | Click the funnel icon on a column header to filter on that column. |
 
 > [!NOTE]
 > The column filter is not available in all section tabs. Not all columns can be filtered.
@@ -46,7 +45,7 @@ Learn how to customize views by configuring columns with this short video, or re
 
 2. Select the **Activities** or **Sales** section tab.
 
-3. Click the ![icon][img2] filter icon.
+3. Click <i class="ph ph-funnel" aria-label="Filter icon"></i>.
 
 4. In the **From** box, specify from how far back in time you want to show activities or sales.
 
@@ -67,13 +66,13 @@ Learn how to customize views by configuring columns with this short video, or re
 7. Click **OK**. The tabs will show all activities or sales that match the criteria you specified.
 
 > [!TIP]
-> Hold the mouse pointer over the ![icon][img2] filter icon to display the active filter settings.
+> Hold the mouse pointer over the filter icon to display the active filter settings.
 >
 > Click **Show count** at the lower right of the section tab, to see how many records are displayed. The number changes according to active filters.
 
 ## Activate the column filter
 
-1. Click ![icon][img1] to the right of the column headers and select **Enable filter**.
+1. Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers and select **Enable filter**.
 
     ![Click the Settings button on the archive you have selected. -screenshot][img11]
 
@@ -97,13 +96,9 @@ Now, all the columns in your archive have a funnel icon behind them.
 
     For example, if you are looking for a document created by one of your colleagues, select their name and the type of document you are looking for.
 
-    ![Click Filter to set it and show the filtered archive -screenshot][img13]
-
 1. Click **Filter**. The section tab is updated with the records that match the filter. Filtered columns are displayed in bold text.
 
 1. Repeat the previous step to filter by a second column.
-
-    ![See the archive with less entities.-screenshot][img14]
 
 ## Remove filter
 
@@ -113,9 +108,20 @@ Now, all the columns in your archive have a funnel icon behind them.
 
 ## Reset the column filter
 
-Click ![icon][img2] and **Reset** to reset the filter.
+Click <i class="ph ph-funnel" aria-label="Filter icon"></i> and **Reset** to reset the filter.
 
-## Related topics
+## Troubleshooting
+
+* **I do not see the funnel icon:**
+    Make sure column filters are enabled. Click the <i class="ph ph-gear" aria-label="Gear"></i> icon next to the column headers and select **Enable filter**.
+
+* **The expected records are not displayed:**
+    Review your active filters by hovering over the funnel icon or check your filter settings for each column. Reset filters if necessary by clicking **Reset**.
+
+* **I do not see the column I need:**
+    Click the <i class="ph ph-gear" aria-label="Gear"></i> icon next to the column headers, then inspect **Columns selected**. Add the missing column by selecting it from the list.
+
+## Related content
 
 * [Grouping lists][1]
 * [Filter the list of selection members][2]
@@ -125,11 +131,5 @@ Click ![icon][img2] and **Reset** to reset the filter.
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

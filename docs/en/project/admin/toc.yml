@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Add project status
+  href: project-status.md
+- name: Add project type
+  href: project-type.md
+- name: Create new project guide
+  href: create-project-guide.md
+- name: Edit or deactivate project guide
+  href: edit-project-guide.md

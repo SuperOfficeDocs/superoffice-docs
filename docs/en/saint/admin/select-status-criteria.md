@@ -28,7 +28,7 @@ Spend some time to set up the correct status criteria, as you need to make sure 
 
 1. Click **Add** in the list in the bottom-right (under the **Description** tab and **Create follow-up** tab). A new line is added to the list.
 
-1. Click the ![icon][img1] arrow button next to the empty field, and [select the required search criterion][1].
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the empty field, and [select the required search criterion][1].
 
 1. Repeat steps 4 and 5 for each criterion you want to add.
 
@@ -37,7 +37,7 @@ Spend some time to set up the correct status criteria, as you need to make sure 
 
 1. Check that you have selected the criteria you want to use for this status.
 
-1. Click ![icon][img2] **Regenerate selected status monitor** to update the status with the criteria you added. After the status is regenerated, no red cross is shown by the status name.
+1. Click <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerate selected status monitor** to update the status with the criteria you added. After the status is regenerated, no red cross is shown by the status name.
 
 ## What would you like to do now?
 
@@ -46,7 +46,3 @@ Spend some time to set up the correct status criteria, as you need to make sure 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
-[img2]: ../../../media/icons/arrow-right.png

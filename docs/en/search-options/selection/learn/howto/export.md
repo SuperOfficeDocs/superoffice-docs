@@ -15,7 +15,7 @@ language: en
 
 [!include[Start](../includes/steps-start-task.md)]
 
-1. Click the **Task** button and select **Export to Excel**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Export to Excel**.
 
 1. Click the exported file to open it in Excel.
 

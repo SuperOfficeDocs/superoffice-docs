@@ -61,7 +61,7 @@ My preferred way of finding out which fields I’ve got access to is by using th
 
     Now you’ve activated tracing on the script that you’ve just created, and this enables you to go through the script step-by-step to see which variables you’ve got access to. For easy access, keep this tab open for now.
 
-4. In Sales (in a new tab), go to a company card, click **Edit**, and then click **Save** so that the trigger will run the script.
+4. In Sales (in a new tab), go to a company card, click **Edit** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), and then click **Save** so that the trigger will run the script.
 
 5. Go back to the tab where you have the trace, and click **Refresh**. You should be able to find a new row in the trace of the trigger you’ve just created, click the row.
 
@@ -73,7 +73,7 @@ Now you can see all the various input values available for you in the current co
 
 In this scenario, we wanted to know the input value for the organization number, which in SuperOffice is called OrgNr: `ContactEntity.OrgNr`.
 
-Click **Return** in the button row, and then click **Trigger** to go back to the script that you’ve started and click **Edit**.
+Click **Return** in the button row, and then click **Trigger** to go back to the script that you've started and click **Edit**.
 
 <!-- Referenced links -->
 [1]: create-trigger-macro.md

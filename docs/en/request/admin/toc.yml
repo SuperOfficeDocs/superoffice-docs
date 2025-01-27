@@ -1,0 +1,45 @@
+items:
+- name: Overview
+  href: index.md
+- name: Request types
+  topicHref: type/index.md
+  items:
+  - name: Overview
+    href: type/index.md
+  - name: Create request type
+    href: type/create.md
+  - name: Delete request type
+    href: type/delete.md
+- name: Categories
+  topicHref: category/index.md
+  items:
+  - name: Overview
+    href: category/index.md
+  - name: Create request category
+    href: category/create.md
+  - name: Delete request category
+    href: category/delete.md
+- name: Priorities
+  topicHref: priority/index.md
+  items:
+  - name: Overview
+    href: priority/index.md
+  - name: Create priority
+    href: priority/create.md
+  - name: Delete priority
+    href: priority/delete.md
+  - name: Create escalation levels
+    href: priority/escalation-levels.md
+- name: Request status
+  topicHref: status/index.md
+  items:
+  - name: Overview
+    href: status/index.md
+  - name: Create request status
+    href: status/create.md
+  - name: Delete request status
+    href: status/delete.md
+- name: Set up 'Get next in queue'
+  href: next-in-queue.md
+- name: System templates
+  href: system-templates.md

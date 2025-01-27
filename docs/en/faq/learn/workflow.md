@@ -17,7 +17,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 ## Create new stage
 
-1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
 1. Click the **Workflow** button. This takes you to the **View workflow** screen.
 1. Click the **New stage** button. This takes you to the **New stage** screen.
 1. Enter a descriptive name for the stage in the **Name** field.
@@ -28,7 +28,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
     * **Can move**: The user is permitted to change the workflow stage for entries (publish or cancel publishing).
     * **Can edit**: The user is permitted to edit FAQ entries.
     * **Full access**: The user has all rights in relation to the workflow.
-1. Click the ![icon][img3] **Add** button to add the user to the list under **User access**.
+1. Click **+** to add the user to the list under **User access**.
 1. Repeat steps 7-9 to add more users.
 1. Click **OK**. The stage is created and now available when you publish FAQ entries.
 
@@ -36,19 +36,19 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 You can both change the name of a stage and alter which users are to have access to it.
 
-1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
 1. Click the **Workflow** button.
 1. Click the name of the stage. This takes you to the **Edit stage** screen.
 1. Edit the name as required.
 1. Change which users are to have access to the stage:
     * To add users, follow the procedure above.
-    * To remove users, select the user(s) in question, click the ![icon][img1] **Actions** button, and select **Remove access for selected users**.
+    * To remove users, select the user(s) in question, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Remove access for selected users**.
 1. Click **OK**. The changes are saved.
 
 ## Delete stage
 
-1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
-1. Click the ![icon][img2] **Workflow** button.
+1. Go to <i class="ph ph-list" aria-label="Main menu"></i> in the top bar and select **Knowledge base** > **FAQ**.
+1. Click the **Workflow** button (<i class="ph ph-gear" aria-hidden="true"></i>).
 1. Click the name of the stage. This takes you to the **Edit stage** screen.
 1. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
 
@@ -70,9 +70,3 @@ You can both change the name of a stage and alter which users are to have access
 <!-- Referenced links -->
 [1]: view-entry.md
 [2]: publish.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/gearblack.png
-[img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../media/icons/main-menu.png

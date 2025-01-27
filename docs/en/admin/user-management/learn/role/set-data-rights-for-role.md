@@ -28,7 +28,7 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
 
-4. Click the ![icon][img3] arrow next to the right you want to change, and select the required right.
+4. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the right you want to change, and select the required right.
 
     | Name | Rights | Tooltips |
     |---|---|---|
@@ -70,6 +70,3 @@ If the data objects (companies, projects, documents and so on) to make accessibl
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
 [3]: functional-rights.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

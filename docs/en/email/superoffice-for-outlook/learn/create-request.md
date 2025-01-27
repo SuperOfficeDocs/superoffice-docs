@@ -38,6 +38,6 @@ You can create a [request][1] in SuperOffice directly from Outlook. If the email
 > You can also create a follow-up or sale directly from the email.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

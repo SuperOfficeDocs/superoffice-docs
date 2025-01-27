@@ -22,14 +22,14 @@ Watch this video or follow the steps below to learn how to add new dashboard tab
 
 1. Open the **Dashboard** screen.
 
-2. Click the **Task** button and select **Create a new dashboard**.
+2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Create a new dashboard**.
 
 3. In the dialog, enter the name of the dashboard. This becomes the name of the dashboard tab.
 
 4. Enter a description of the dashboard. The description is displayed at the top of the dashboard.
 
     > [!TIP]
-    > You can also add the name and description [in other languages][1] by clicking ![icon][img1].
+    > You can also add the name and description [in other languages][1] by clicking <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Select the theme of the dashboard in the **Theme** list.
 
@@ -66,5 +66,4 @@ There is a lot of standard tiles to choose from in the library, but you can also
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

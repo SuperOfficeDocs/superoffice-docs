@@ -24,7 +24,7 @@ Watch this video or follow the steps below to learn how to create your own dashb
 
 2. Select the dashboard you want to edit.
 
-3. Click the **Task** button, and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+3. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
 
     ![Select tile type -screenshot][img1]
 

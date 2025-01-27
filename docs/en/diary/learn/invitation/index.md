@@ -2,11 +2,14 @@
 uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
+keywords: invitation, invite, meeting, associate, attendee, participant, diary, follow-up, appointment, calendar
 author: Bergfrid Dias
-date: 11.20.2023
-version: 10.2.11
-keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, attendee, participant
+date: 01.13.2025
+version: 10.5
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -18,20 +21,20 @@ To allocate time for a meeting with one or more associates, use the **View** tab
 
 Follow-ups with associates are set up by linking them as attendees to the follow-up.
 
-When we save the meeting, an invitation is added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the meeting is shown. Instead, the follow-up is shown in the activity archive of their contact.
+When we save the meeting, an invitation is added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other companies as well, these will not have a diary where the meeting is shown. Instead, the follow-up is shown in the **Activities** section tab of their contact card.
 
 > [!NOTE]
-> Resources and non-user persons don't receive invitations – the meeting is just created as a normal meeting for them.
+> Resources and non-user persons do not receive invitations – the meeting is just created as a normal meeting for them.
 
 ## <a id="status"></a>Status
 
-The users you chose to link to a follow-up will be notified of this on their screens. In the follow-up dialog, you will see a list of attendees and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
+The users you chose to link to a follow-up will be notified of this on their screens. In the **Follow-up** dialog, you will see a list of attendees and resources linked to the follow-up. You can also see who accepted or declined the invitation and which resources have been booked, from the symbols next to the names:
 
-| Icon | Description |
+| Symbol | Description |
 |:-:|---|
-| ![icon][img1] | Invitation is accepted. |
-| ![icon][img2] | Invitation is declined. |
-| ![icon][img3] | Invitation is seen but not answered. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Invitation is accepted. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Invitation is declined. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Invitation is seen but not answered. |
 | unmarked | Invitation has not been seen. |
 
 ## Resources
@@ -48,7 +51,7 @@ When you send an invitation, the recipient can either accept or decline it.
 
 * If the person accepts the invitation, it is recorded in SuperOffice in the usual way.
 
-## What do you want to do?
+## Related content
 
 * [Add attendees to follow-ups][2]
 * [Create group views][1]
@@ -56,8 +59,3 @@ When you send an invitation, the recipient can either accept or decline it.
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-attendee.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png

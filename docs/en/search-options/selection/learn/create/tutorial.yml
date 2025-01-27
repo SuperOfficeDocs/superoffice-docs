@@ -4,7 +4,7 @@ title: Tutorial - Create a dynamic or static selection
 metadata:
   title:  Tutorial - Create a dynamic or static selection
   description: In this tutorial, you will learn how to create a dynamic or static selection.
-  audience: User
+  audience: person
   so.topic: tutorial
   so.date: 03.29.2023
   level: Intermediate
@@ -13,7 +13,7 @@ items:
   durationInMinutes: 3
   stepNumber: 1
   content: |
-    1. Click **New** on the Top bar and select **Selection**.
+    1. Click **New** on the top bar and select **Selection**.
 
     1. In the Find screen, click the **Find** option that is relevant for the data type you want to use in your selection. You can also click **Typical searches** to use predefined searches.
 

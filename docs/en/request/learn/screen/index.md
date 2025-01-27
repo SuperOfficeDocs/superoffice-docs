@@ -13,8 +13,6 @@ language: en
 
 # Request screen
 
-![Overview of the requests screen or the request tab -screenshot][img3]
-
 ## Request overview
 
 The Request screen has the following sections:
@@ -28,7 +26,7 @@ The Request screen has the following sections:
 
 ### Request header
 
-The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click ![icon][img6] to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
+The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click <i class="ph ph-star" aria-label="Star icon"></i> to set the request as a favorite. The request will then be accessible via **My favorites** on **Requests** in the Navigator, and in the **My favorites** tile on a [dashboard][17].
 
 ### Message types
 
@@ -39,22 +37,22 @@ There are three types of messages:
 * Internal comments about the request, such as questions to a colleague
 
 > [!TIP]
-> Internal messages are marked with ![icon][img5].
+> Internal messages are marked with <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Messages tab
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon][img2] **Personal settings**:
+You can change how many messages are displayed, in **Personal settings**:
 
-1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
 1. Select the group for **Request**.
 1. Specify the number of messages in the **No. of expanded messages** field.
 1. Click **OK**.
 
 ### Message tasks
 
-Click the ![icon][img1] **Task** button on a message to access additional options for the message:
+Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> on a message to access additional options for the message:
 
 * **Change**: Click here to [edit][8] or delete the message.
 * **Reply**: Click here to reply the contact in the To field.
@@ -96,7 +94,7 @@ The request properties sidebar contains the following options:
 
 ### Task options
 
-![icon][img1] **Task** button: Click this button to access the following options:
+**Task** button: Click this button to access the following options:
 
 * **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][1].
 * **Accept**: Click here to [take over the request][5]. You will then be the request's new owner.
@@ -120,27 +118,20 @@ The request properties sidebar contains the following options:
 * [Close request][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

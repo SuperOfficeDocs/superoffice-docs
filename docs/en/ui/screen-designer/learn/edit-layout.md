@@ -63,7 +63,7 @@ After editing a layout, click one of the following buttons:
 
 ## <a id="undo-changes"></a>Undo changes
 
-If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button:
+If you need to revert to an earlier version of the screen, you can access the following options from the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>):
 
 * **Reset to factory settings**: This option discards all changes and resets the layout to the default version provided by SuperOffice.
 

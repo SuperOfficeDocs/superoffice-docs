@@ -1,30 +1,41 @@
 ---
 uid: help-en-company
-title: Companies
+title: Company
 description: All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen in SuperOffice CRM.
-keywords: company
+keywords: Company card, Company screen, company, customer, partner, supplier
 author: Bergfrid Dias
-date: 11.29.2024
+date: 12.16.2024
 version: 10
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Company
 
-All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen. This card provides you with an instant snapshot of the company in one screen.
+The **Company screen** provides an instant snapshot of all information related to a company, such as customers, partners, or suppliers.
 
-![Company screen -screenshot][img3]
+![The Company screen showing company details, the Contacts section tab, and the Company side panel. -screenshot][img3]
 
-[!include[Intro](includes/company-screen-intro.md)]
+At the top, the **Company card** displays key details about the company, such as contact information, category, and main contact person. You can navigate between companies using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the card.
 
-In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
+Below the card, the **section tabs** allow you to view additional information and manage related records, like contacts or activities.
 
-To move between companies, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards.
+The screen also lets you search for companies, create new records, manage contacts, write documents, and generate follow-ups.
 
-You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
+[!include[Tip](../../learn/includes/tip-open-website.md)]
+
+## Tabs on the Company card
+
+| Tab | Description |
+|---|---|
+| [Company][2] | Main tab for entering key company information, including address and contact fields. |
+| [More][19] | Custom fields for entering additional company-specific information. |
+| [Interests][2] | Checkboxes to specify company interests for selections or campaigns. A dot appears when interests are selected. |
+| [Note][20] | Free text area to add notes about the company. Notes are marked with a dot when filled. |
+| [www][21] | Shortcut to a URL for viewing web pages or external data related to the company. |
+| [ERP][22] | Connects companies to the ERP system, enabling data synchronization and linking contacts. |
 
 ## <a id="section-tabs"></a>Section tabs on Company
 
@@ -43,13 +54,11 @@ The bottom of the screen contains the following [default section tabs][18]:
 > [!NOTE]
 > [Contacts][1] that are not associated with a company, can be found in the Contact screen.
 
-## What would you like to do?
+## Related content
 
 * [Create a new company][2]
 * [Edit a company][3]
-* [Copy a company][4]
 * [Merge companies][5]
-* [Delete a company][6]
 * [Print a company][7]
 * [Bulk update company information][9]
 * [Mass delete contacts and companies from selection][10]
@@ -59,9 +68,7 @@ The bottom of the screen contains the following [default section tabs][18]:
 [1]: ../../contact/learn/index.md
 [2]: create.md
 [3]: edit.md
-[4]: copy.md
 [5]: merge-companies.md
-[6]: delete.md
 [7]: ../../learn/basics/print.md
 [8]: ../../learn/basics/deleting-elements.md#restore
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
@@ -75,8 +82,10 @@ The bottom of the screen contains the following [default section tabs][18]:
 [16]: ../../learn/section-tabs/requests-tab.md
 [17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/company/company-month-mini.png
+[img3]: ../../../media/loc/en/company/company-screen.png

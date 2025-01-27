@@ -26,7 +26,7 @@ When you respond to a customer enquiry, you can save time by inserting a link to
 1. A **link** is inserted at your cursor position. The customer can click it to show the relevant FAQ entry in the customer centre.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

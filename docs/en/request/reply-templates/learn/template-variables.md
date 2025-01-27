@@ -2,10 +2,12 @@
 uid: help-en-template-variables-service
 title: Template variables
 description: Template variables
+keywords: request
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: request
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: en
 ---
 
