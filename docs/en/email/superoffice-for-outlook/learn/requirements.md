@@ -4,7 +4,7 @@ title: Requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
 keywords: SuperOffice for Outlook, Outlook, email
 author: Frode B, Martin Pavlas
-date: 10.29.2024
+date: 01.27.2025
 version_sofo: 2024.8.12
 topic: reference
 envir: cloud
@@ -38,7 +38,6 @@ SuperOffice for Outlook works only with main account. Shared mailboxes are not s
 Versions earlier than 2001 of the Outlook desktop app do not work in Send and Archive, because they lack APIs.
 
 ![Limitations in Outlook for SuperOffice -screenshot][img1]
-
 
 ## Requirements for centralized deployment
 

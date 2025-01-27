@@ -4,7 +4,7 @@ title: Vereisten
 description: Vereisten en beperkingen of SuperOffice voor Outlook invoegtoepassing
 keywords: SuperOffice voor Outlook, Outlook, e-mail
 author: Frode B, Martin Pavlas
-date: 10.29.2024
+date: 01.27.2025
 version_sofo: 2024.8.12
 topic: reference
 envir: cloud
@@ -39,13 +39,6 @@ Versies ouder dan 2001 van de Outlook-desktop-app werken niet met Verzenden en A
 
 ![Beperkingen in Outlook voor SuperOffice -screenshot][img1]
 
-De momenteel vrijgegeven invoegtoepassing-versie (via Microsoft AppSource) ondersteunt geen mobiele telefoons (de mobiele apparaat-API).
-
-Om de versie te krijgen die mobiele apparaten ondersteunt, gebruik een van deze opties:
-
-* Optie a: [gecentraliseerde implementatie][1]
-* Optie b: [gebruik de pilotversie][4]
-
 ## Vereisten voor gecentraliseerde implementatie
 
 Lees meer over de vereisten voor [Gecentraliseerde implementatie][5] van Microsoft.
@@ -53,10 +46,8 @@ Lees meer over de vereisten voor [Gecentraliseerde implementatie][5] van Micros
 Als een invoegtoepassing-update de reikwijdte van de toegang tot gegevens aanzienlijk vergroot, moet u deze opnieuw goedkeuren voordat de update wordt geïmplementeerd.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
-[4]: https://community.superoffice.com/en/forums/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
 [5]: https://aka.ms/centralized-deployment-guidance
 
 <!-- Referenced images -->

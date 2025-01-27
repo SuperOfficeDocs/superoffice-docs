@@ -4,7 +4,7 @@ title: Krav
 description: Krav och begränsningar ved SuperOffice for Outlook tillägget
 keywords: SuperOffice for Outlook, Outlook, e-post
 author: Frode B, Martin Pavlas
-date: 10.29.2024
+date: 01.27.2025
 version_sofo: 2024.8.12
 topic: reference
 envir: cloud
@@ -39,13 +39,6 @@ Versioner tidigare än 2001 av Outlook skrivbordsapp fungerar inte i Skicka och 
 
 ![Begränsningar i Outlook för SuperOffice -screenshot][img1]
 
-Den nuvarande versionen av tillägget (via Microsoft AppSource) stöder inte mobiltelefoner (mobilenhetens API).
-
-För att få versionen som har stöd för mobila enheter, använd ett av dessa alternativ:
-
-* Alternativ a: [centraliserad distribution][1]
-* Alternativ b: [använd pilotversionen][4]
-
 ## Krav för centraliserad distribution
 
 Läs mer om kraven för [Centraliserad distribution][5] från Microsoft.
@@ -53,10 +46,8 @@ Läs mer om kraven för [Centraliserad distribution][5] från Microsoft.
 Om en uppdatering av tillägget avsevärt ökar omfattningen av dataåtkomst, måste du godkänna det igen innan uppdateringen distribueras.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
-[4]: https://community.superoffice.com/en/forums/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
 [5]: https://aka.ms/centralized-deployment-guidance
 
 <!-- Referenced images -->

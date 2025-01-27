@@ -4,7 +4,7 @@ title: Anforderungen
 description: Anforderungen für und Einschränkungen in SuperOffice für Outlook Add-In.
 keywords: SuperOffice for Outlook, Outlook, email
 author: Frode B, Martin Pavlas
-date: 10.29.2024
+date: 01.27.2025
 version_sofo: 2024.8.12
 topic: reference
 envir: cloud
@@ -39,13 +39,6 @@ Versionen vor 2001 der Outlook-Desktop-App funktionieren nicht in Senden und Arc
 
 ![Einschränkungen in Outlook für SuperOffice -screenshot][img1]
 
-Die aktuell veröffentlichte Add-In-Version (über Microsoft AppSource) unterstützt keine Mobiltelefone (die Mobilgeräte-API).
-
-Um die Version zu erhalten, die Mobilgeräte unterstützt, verwenden Sie eine dieser Optionen:
-
-* Option a: [Zentrale Bereitstellung][1]
-* Option b: [Pilotversion verwenden][4]
-
 ## Anforderungen für zentrale Bereitstellung
 
 Erfahren Sie mehr über die Anforderungen für [Zentrale Bereitstellung][5] von Microsoft.
@@ -53,10 +46,8 @@ Erfahren Sie mehr über die Anforderungen für [Zentrale Bereitstellung][5] von
 Wenn ein Add-In-Update den Umfang des Datenzugriffs erheblich erweitert, müssen Sie es vor der Bereitstellung erneut genehmigen.
 
 <!-- Referenced links -->
-[1]: ../../../../en/email/superoffice-for-outlook/it/deploy.md
 [2]: https://apps.apple.com/us/app/microsoft-outlook/id951937596
 [3]: https://play.google.com/store/apps/details?id=com.microsoft.office.outlook
-[4]: https://community.superoffice.com/en/forums/pilot-program/superoffice-for-outlook/how-to-deploy-superoffice-for-outlook-during-pilot/
 [5]: https://aka.ms/centralized-deployment-guidance
 
 <!-- Referenced images -->
