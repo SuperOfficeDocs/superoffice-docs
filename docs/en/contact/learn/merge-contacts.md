@@ -31,8 +31,6 @@ If the same person is registered under different names or companies in SuperOffi
 
 1. If you selected only one contact, choose a second contact under **To**. Start typing to search for the contact. To swap the **From** and **To** contacts, click the arrow button <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
 
-Click the arrow button <i class="ph ph-arrows-left-right" aria-hidden="true"></i> to swap the **From** and **To** contacts.
-
 1. Under **Action on \[company\] after merge**, choose one of the following:
 
     * **Delete \[source contact\]:** Deletes the source contact after merging (useful for duplicates).

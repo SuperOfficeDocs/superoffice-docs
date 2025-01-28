@@ -1,11 +1,14 @@
 ---
 uid: help-no-contact-merge
 title: Slå sammen personer
-description: Slå sammen personer
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: firma
+description: Lær hvordan du slår sammen dubletter i SuperOffice CRM for å samle aktiviteter, salg og prosjektmedlemskap. Inkluderer en trinn-for-trinn-guide til bruk av dialogen Slå sammen personer.
+keywords: slå sammen personer, administrer personer, vedlikehold personer, dublet, tidligere ansatt, person
+author: Bergfrid Dias
+date: 01.27.2025
+version: 10.5
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -13,43 +16,47 @@ language: no
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Hvis én fysisk person er registrert som to forskjellige personer i SuperOffice CRM, kan du slå sammen disse personene sammen. Hvis for eksempel personen ble registrert under to forskjellige navn hos samme firma ("Matias Hansen" og "Mathias Hanssen"), eller hvis personen ble registrert hos både den gamle og den nye arbeidsgiveren.
+Hvis samme person er registrert under forskjellige navn eller firmaer i SuperOffice CRM (for eksempel, "Matias Hansen" og "Mathias Hanssen"), kan du slå sammen kontaktene deres for å samle aktiviteter, salg og prosjektmedlemskap.
 
-Prosjekdeltakelse og aktiviteter blir flyttet til målpersonen, og kildepersonen kan slettes eller angis som sluttet.
+> [!NOTE]
+> Du kan ikke slå sammen personer (SuperOffice-brukere) i ditt eget firma, men du kan slå sammen en person fra et annet firma med en person i ditt eget firma.
 
-1. Åpne dialogboksen **Slå sammen personer** ved å gjøre ett av følgende:
-    * I Firma-bildet: Gå til detaljkortet **Personer**, velg og høyreklikk på en eller to personer du vil slå sammen, velg **Vedlikehold personer** og **Slå sammen personer**.
-    * I Person-bildet: Gå til ønsket person, klikk på ![ikon][img1] **Oppgave**-knappen i personkortet, velg **Vedlikehold personer**, og velg deretter **Slå sammen personer**.
+## Trinn
 
-2. Hvis du bare valgte én person, velger du en annen person under **Til** (begynn å skrive for å søke etter en person). De to personene du vil slå sammen, vises nå under **Fra** og **Til**.
+1. Åpne dialogboksen **Slå sammen personer**:
 
-    > [!TIP]
-    > Hvis du vil bytte **Fra**- og **Til**-personene, klikker du på ![ikon][img2] knappen.
+    * I **Person-bildet**: Gå til den ønskede personen, klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave"></i>, og velg **Vedlikehold personer** > **Slå sammen personer** fra menyen.
 
-3. Velg ett av følgende under **Utfør på [contact/company] etter sammenslåing**:
-    * **Slett...**: Hvis du velger dette alternativet, slettes kildepersonen etter sammenslåingen.
-        For eksempel hvis du har registrert den samme personen to ganger under samme firma.
-    * **Merke som tidligere ansatt**: Hvis du velger dette alternativet, blir personen merket som tidligere ansatt etter sammenslåingen.
-        For eksempel hvis en person har byttet jobb, men du fortsatt vil at vedkommende skal være registrert under det gamle firmaet.
+    * I **Firma-bildet**: Gå til detaljkortet **Personer**, velg én eller to personer, høyreklikk, og velg **Vedlikehold personer** > **Slå sammen personer**.
 
-4. Velg ett av følgende under **Handling på alle eksisterende aktiviteter og salg**:
+2. Hvis du kun har valgt én person, velg en annen person under **Til**. Begynn å skrive for å søke etter personen. For å bytte mellom **Fra**- og **Til**-personene, klikk på <i class="ph ph-arrows-left-right" aria-label="dobbelpilen"></i>.
+
+3. Under **Utfør på \[person/firma\] etter sammenslåing**, velg ett av følgende alternativer:
+
+    * **Slett \[kildeperson\]:** Sletter kildepersonen etter sammenslåing (nyttig ved dubletter).
+    * **Merk som tidligere ansatt:** Markerer kildepersonen som tidligere ansatt (nyttig ved jobbskifte).
+
+4. Under **Handling på alle eksisterende aktiviteter og salg**, velg ett alternativ:
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+5. Klikk på **Slå sammen**. Følgende skjer:
 
-5. Klikk på **Slå sammen**. Personene slås sammen, og prosjektdeltakelse og medlemskap i statiske utvalg flyttes.
+    * Alle detaljer blir slått sammen.
+    * Aktiviteter og salg forblir knyttet til målpersonen, eller de flyttes basert på valget ditt.
+    * Prosjektdeltakelse og medlemskap i statiske utvalg følger målpersonen.
+    * Den valgte handlingen (slett eller marker som tidligere ansatt) brukes på kildepersonen.
 
-> [!NOTE]
-> Du kan ikke slå sammen personer (SuperOffice-brukere) i ditt eget firma, men du kan slå sammen en person fra et annet firma med en person fra ditt eget firma.
+![Dialogboksen Slå sammen personer med alternativer for å håndtere dubletter -screenshot][img1]
 
-## Aktuelle emner
+## Relatert innhold
 
 * [Slå sammen firmaer][1]
+* [Gjenopprett slettede firmaer og personer][2]
 
 <!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
+[2]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png
+[img1]: ../../../media/loc/no/contact/merge-contacts.png

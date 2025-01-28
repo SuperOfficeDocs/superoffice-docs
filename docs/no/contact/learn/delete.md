@@ -1,62 +1,59 @@
 ---
 uid: help-no-contact-delete
-title: slette person
-description: slette person
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: person, person
+title: Slett en person
+description: Slett en person
+keywords: slett person, duplikat, tidligere ansatt, person
+author: Bergfrid Dias
+date: 01.27.2025
+version: 10
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Slette personer
+# Slett en person
 
-Hvorfor slette personer i SuperOffice? For eksempel hvis en person ble lagt til ved en feil eller er et duplikat, eller hvis en person ble lagt til med bare fornavn.
-
-Du kan slette en person fra SuperOffice CRM på tre måter:
-
-* [Slette én person][1]
-* [Massesletting av personer][3]
-
-> [!TIP]
-> I stedet for å slette en person kan du merke av for **Tidligere ansatt** i personkortet (se [Opprette ny person][6]). Da vil ikke denne personens navn forsvinne fra aktiviteter som vedkommende er knyttet til.
-
+Noen ganger trenger du å slette personer i SuperOffice CRM — for eksempel duplikater, ufullstendige oppføringer eller personer lagt til ved en feil.
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Slik sletter du en person fra Kontakt-bildet
+> [!TIP]
+> I stedet for å slette en person kan du merke dem som **Tidligere ansatt**. Dette sikrer at navnet deres forblir knyttet til aktiviteter.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+## Slik sletter du en person fra Person-bildet
 
-1. Klikk på ![ikon][img1] **Oppgave**-knappen, og velg deretter **Slett**.
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. I dialogboksen **Slett person** klikker du på **Ja** for å bekrefte at du vil slette personen.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave"></i> øverst til høyre på personkortet.
+
+1. Velg **Slett**.
+
+1. I dialogboksen **Slett person** klikker du på **Ja** for å bekrefte.
 
 ## Slik sletter du en person fra Firma-bildet
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Velg detaljkortet **Personer**.
+1. Velg [detaljkortet Personer][4].
 
-1. Merk ønsket person.
+1. Marker én eller flere personer du vil slette.
 
-    > [!NOTE]
-    > Du kan merke og slette flere personer samtidig.
+1. Klikk på **Slett** nederst på detaljkortet **Personer**. Alternativt kan du høyreklikke og velge **Slett**.
 
-1. Klikk på knappen **Slett** nederst på detaljkortet **Personer**. Du kan også høyreklikke på personen og velge **Slett**.
+1. I dialogboksen **Slett person** klikker du på **Ja** for å bekrefte.
 
-1. I dialogboksen **Slett person** klikker du på **Ja** for å bekrefte at du vil slette personen.
+[!include[Note about restore](../../learn/includes/note-restore.md)]
 
 ## Aktuelle emner
 
 * [Slå sammen personer][2]
+* [Massesletting av personer][3]
+* [Massesletting av personer og firmaer fra et utvalg][9]
 * [Gjenopprette slettede firmaer og personer][5]
 
 <!-- Referenced links -->
-[1]: delete.md
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
-[6]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[4]: ../../learn/section-tabs/contacts-tab.md
+[9]: ../../search-options/selection/learn/howto/mass-delete.md

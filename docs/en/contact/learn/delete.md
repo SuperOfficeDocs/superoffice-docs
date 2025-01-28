@@ -23,7 +23,7 @@ Sometimes you need to delete contacts in SuperOffice CRM — for example, duplic
 
 1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the contact card.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> in the upper-right corner of the contact card.
 
 1. Select **Delete**.
 
