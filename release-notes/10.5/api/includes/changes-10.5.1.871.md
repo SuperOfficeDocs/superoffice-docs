@@ -1,9 +1,9 @@
 ---
-uid: version_10.5.1.649_changes
-date: 20.01.2025
+uid: version_10.5.1.871_changes
+date: 29.01.2025
 ---
 
-Changes from v10.3.13.233 and v10.5.1.649
+Changes from v10.3.13.233 and v10.5.1.871
 
 ## Web Services
 
@@ -103,6 +103,17 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Property `OperationNameArgumentsAppendix`
   * Method `AddInfo(String, String)`
   * Method `Initialize(String, Int64, Int32, Dictionary<String, Object>, Dictionary<String, Object>)`
+
+#### SuperOffice.CRM.Services.RecurrenceDate is Modified
+
+* Modified items
+  * Property `Date`
+
+#### SuperOffice.CRM.Services.RecurrenceInfo is Modified
+
+* Modified items
+  * Property `EndDate`
+  * Property `StartDate`
 
 #### SuperOffice.CRM.Services.RequestArgumentsInfo is Modified
 
