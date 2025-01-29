@@ -4,7 +4,7 @@ title: Relations tab
 description: Learn how to view, add, and manage relationships between companies and contacts in SuperOffice CRM, ensuring that important business connections are easily accessible and well-documented.
 keywords: relations tab, section tab, relation
 author: Bergfrid Skaara Dias
-date: 01.20.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

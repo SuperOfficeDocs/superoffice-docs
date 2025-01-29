@@ -4,8 +4,8 @@ title: Slette elementer
 description: Hvordan slå sammen, slette og gjenopprette elementer.
 keywords: slette, gjenopprette, papirkurv
 author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,7 +60,7 @@ Slettede firma og personer oppbevares som standard i papirkurven i 14 dager. Ett
 
 Du har også muligheten til å gjenopprette andre brukeres slettede firma og personer, bare sett Vis slettede firma for alle brukere PÅ.
 
-1. Velg ![icon][img1] **Personlige innstillinger** > **Papirkurv**.
+1. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Papirkurv**.
 
 2. I dialogboksen velger du fanen **Firma** eller **Person**. Firma og personer som ble slettet av deg, vises.
 
@@ -84,7 +84,7 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
 | Avbryt | Avbryter sletting av alle valgte elementer. Dialogboksen lukkes uten at noe slettes. |
 
 * Du kan velge at denne dialogboksen ikke skal vises, ved å: Merke av for **Ikke vis denne dialogboksen igjen** nederst i dialogboksen for sletting.
-* Du kan aktivere denne dialogboksen igjen, ved å: Gå til ![icon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette alternativet**Vis bekreftelsesdialogboks** til **Nei**.
+* Du kan aktivere denne dialogboksen igjen, ved å: Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette alternativet**Vis bekreftelsesdialogboks** til **Nei**.
 
 > [!NOTE]
 > Når du sletter et firma, et utvalg eller et prosjekt, blir du alltid bedt om å bekrefte slettingen, og alternativet **Ikke vis denne dialogboksen igjen** er ikke tilgjengelig.
@@ -107,6 +107,5 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
 [img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

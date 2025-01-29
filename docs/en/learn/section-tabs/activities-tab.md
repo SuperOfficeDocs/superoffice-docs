@@ -4,7 +4,7 @@ title: Activities tab
 description: Learn how to use the Activities tab in SuperOffice CRM to view, manage, and track activities, follow-ups, and documents for companies, contacts, projects, and sales — all in one organized section.
 keywords: Activities tab, section tab, activity archive
 author: Bergfrid Skaara Dias
-date: 01.17.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

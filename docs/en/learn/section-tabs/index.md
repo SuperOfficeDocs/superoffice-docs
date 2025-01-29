@@ -4,7 +4,7 @@ title: The Section tabs
 description: The Section tabs
 keywords: section tab, archive
 author: Bergfrid Dias
-date: 01.20.2025
+date: 01.29.2025
 version: 10.5
 topic: concept
 audience: person

@@ -4,8 +4,8 @@ title: Koblinger
 description: Koblinger
 keywords: Legg til kobling, fanen Koblinger, kobling, lenke, link
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 01.29.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ En prikk vises ved siden av fanen når den inneholder én eller flere koblinger.
 
 1. Velg fanen **Koblinger**.
 
-1. Klikk **Rediger** og deretter **Legg til**.
+1. Klikk **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) og deretter **Legg til**.
 
 1. I dialogboksen **Legg til kobling**:
 
@@ -50,7 +50,7 @@ En prikk vises ved siden av fanen når den inneholder én eller flere koblinger.
 ## Fjern en kobling
 
 1. Gå til fanen **Koblinger**.
-1. Klikk **Rediger**.
+1. Klikk på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 1. Klikk på **Slett-knappen** (rød X) ved siden av koblingen du vil fjerne.
 1. Klikk **Lagre**.
 

@@ -4,7 +4,7 @@ title: Export archives
 description: Export archives
 keywords: section tab, archive
 author: SuperOffice RnD
-date: 01.17.2025
+date: 01.29.2025
 version: 10.5
 topic: howto
 audience: person

@@ -50,7 +50,7 @@ The activities list columns contain the following information:
 
 * The first column in the activities list specifies the **Completed** status of an activity. A tick (<i class="ph ph-check" aria-hidden="true"></i>) means that the activity is completed, while an empty box means that it is not completed.
 
-* The Category column contains icons that indicate the type of activity, for example, a calendar for a meeting. These icons reflect the text in the **Type** column.
+* The **Category** column contains icons that indicate the type of activity, for example, a calendar for a meeting. These icons reflect the text in the **Type** column.
 
 * The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 

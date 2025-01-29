@@ -4,8 +4,8 @@ title: Prosjektfanen
 description: Lær hvordan du kan se, legge til og administrere prosjekter ved hjelp av Prosjekter-detaljkortet i SuperOffice CRM. Forenkle prosjektoppfølging på tvers av firmaer, personer og mer.
 keywords: Prosjektfanen, Prosjekter-fanen, detaljkortet Prosjekter, detaljkort, prosjektarkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 01.29.2025
+version: 10.5version: 10
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Detaljkortet **Prosjekter** inneholder følgende kolonner som viser nøkkelinfor
 
 | Kolonne | Beskrivelse |
 |---|---|
-| Utført | Avkrysningsboks som indikerer om prosjektet er fullført. En hake i boksen (![ikon][img3]) betyr utført, mens en tom boks betyr at prosjektet fortsatt pågår. |
+| Utført | Avkrysningsboks som indikerer om prosjektet er fullført. En hake i boksen (<i class="ph ph-check" aria-hidden="true"></i>) betyr utført, mens en tom boks betyr at prosjektet fortsatt pågår. |
 | Prosjektnavn | Navnet på prosjektet. |
 | Prosjekttype | Angir hva slags type prosjekt det er, for eksempel internt eller kundeorientert. |
 | Status | Den nåværende statusen til prosjektet. |
@@ -86,4 +86,3 @@ For å [legge til prosjektmedlemmer][4] direkte fra **Prosjekter**-fanen:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png

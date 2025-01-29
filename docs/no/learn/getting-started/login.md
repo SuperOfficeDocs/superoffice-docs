@@ -101,7 +101,7 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 
 ## Slik endrer du passordet ditt
 
-1. Velg ![icon][img1] **Personlige innstillinger > Endre passord**.
+1. Velg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Endre passord**.
 2. Her skriver du inn det nye passordet i feltet **Nytt passord**.
 3. Deretter skriver du det inn en gang til i feltet **Gjenta passordet** for å sikre at du skrev det riktig første gang.
 4. Klikk på **OK**.
@@ -140,7 +140,6 @@ Kontakt SuperOffice-administratoren for å få et nytt passord.
 [7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png

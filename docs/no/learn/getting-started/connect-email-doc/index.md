@@ -25,9 +25,9 @@ Ved å koble e-post, dokumenter og kalender til SuperOffice, kan du jobbe mer ef
 
 | | Applikasjon | Beskrivelse | Alternativer |
 |-|---|---|---|
-| ![icon][img4] | **E-post** | Arkiver innkommende og utgående e-poster.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Dokumenter** | Arkiver filer fra kommunikasjon med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Kalender** | Send og motta invitasjoner. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **E-post** | Arkiver innkommende og utgående e-poster.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumenter** | Arkiver filer fra kommunikasjon med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Send og motta invitasjoner. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
 
 ## Hvilken løsning bruker bedriften din?
 
@@ -75,6 +75,3 @@ Integrasjonene du trenger avhenger av operativsystemet, e-postklienten og dokume
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

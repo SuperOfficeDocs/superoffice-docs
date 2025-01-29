@@ -103,7 +103,7 @@ Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 * [Opprette et prosjekt][7]
 
 <!-- Referenced links -->
-[1]: ../../project/learn/project-guide/create.md
+[1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
 [5]: ../../search-options/selection/learn/howto/bulk-update.md
@@ -122,5 +122,5 @@ Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 [18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/learn/diary.png
-[img2]: ../../../media/loc/en/learn/projects.png
+[img1]: ../../../media/loc/en/diary/diary.png
+[img2]: ../../../media/loc/en/project/projects.png

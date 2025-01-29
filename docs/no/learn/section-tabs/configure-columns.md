@@ -4,9 +4,9 @@ title: Endre kolonnevisningen
 description: Endre kolonnevisningen
 keywords: detaljkort, arkiv, kolonne
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
-topic: howto
+date: 01.29.2025
+version: 10.5date: 01.29.2025
+version: 10.5topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -28,7 +28,7 @@ Hvis du vil endre rekkefølgen på kolonnene i et detaljkort, klikker og drar du
 ## Legg til eller fjern kolonne
 
 1. Gå til detaljkortet du vil redigere.
-2. Klikk på ![icon][img1] til høyre for kolonneoverskriftene. En dialogboks åpnes.
+2. Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene. En dialogboks åpnes.
 3. Merk av eller fjern merket for de relevante kolonnene. Bruk feltene **filterkolonner** til å filtrere kolonnene som vises.
 4. Klikk på **OK**.
 
@@ -71,7 +71,7 @@ Du kan utføre beregninger som sum, gjennomsnitt eller min/maks på dato- og tal
 Du kan angi at kolonnebredder skal justeres automatisk i henhold til innholdet i kolonnene. Når kolonner legges til eller fjernes, justeres alle kolonnebredder slik at de passer best mulig hver gang. Hvis det er for mange kolonner til å få plass på den tilgjengelige plassen, vises et vannrett rullefelt.
 
 1. Gå til detaljkortet du vil redigere.
-2. Klikk på ![icon][img1] til høyre for kolonneoverskriftene. En dialogboks åpnes.
+2. Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene. En dialogboks åpnes.
 3. Velg **Automatisk tilpasning av kolonnebredde**.
 4. Klikk på **OK**.
 
@@ -87,7 +87,6 @@ Du kan angi at kolonnebredder skal justeres automatisk i henhold til innholdet i
 [3]: group.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

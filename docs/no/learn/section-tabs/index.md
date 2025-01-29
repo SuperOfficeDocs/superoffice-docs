@@ -4,10 +4,10 @@ title: Detaljkortene
 description: Detaljkortene
 keywords: detaljkort, arkiv
 author: Bergfrid Dias
-date: 04.09.2024
-version: 10.3.4
+date: 01.29.2025
+version: 10.5
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: no
 ---
@@ -34,7 +34,7 @@ I detaljkortene kan du sortere listene etter de ulike kolonnene i stigende eller
 For å redusere innlastingstiden vises bare et angitt antall oppføringer når du åpner et detaljkort. Hvis du vil vise alle oppføringer, klikker du **Vis alle** nederst i detaljkortet.
 
 1. Gå til detaljkortet du vil redigere.
-2. Klikk på ![icon][img1] til høyre for kolonneoverskriftene.
+2. Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene.
 3. I dialogboksen klikker du på **Sidestørrelse**-listen og velger en verdi.
 4. Klikk på **OK**.
 
@@ -47,14 +47,13 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 * [Bruke filtre i detaljkortene][4]
 * [Konfigurere kolonner][6]
 * [Eksporter detaljkort][7]
-* [Detaljkortene i Firma-skjermbildet][9]
-* [Detaljkortene i Person-bildet][10]
-* [Detaljkortene i Dagbok-bildet][11]
-* [Detaljkortene i Salg-bildet][12]
-* [Detaljkortene i Prosjekt-bildet][13]
-* [Detaljkortene i Utvalg-skjermbildet][14]
-* [Arbeide med dynamiske og statiske utvalg][15]
-* [Detaljkort med ekstrafeltrelasjon][16]
+* [Detaljkortet Aktiviteter][11]
+* [Detaljkortet Personer][12]
+* [Detaljkortet Prosjekt][13]
+* [Detaljkortet Relasjoner][14]
+* [Detaljkortet Saker][15]
+* [Detaljkortet Salg][16]
+* [Detaljkort basert på ekstrafeltrelasjoner][20]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -62,14 +61,12 @@ For å redusere innlastingstiden vises bare et angitt antall oppføringer når d
 [4]: filter.md
 [6]: configure-columns.md
 [7]: export-archives.md
-[9]: ../../company/learn/index.md#section-tabs
-[10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
-[12]: ../../sale/learn/index.md#section-tabs
-[13]: ../../project/learn/index.md#section-tabs
-[14]: ../../search-options/selection/learn/screen/index.md
-[15]: ../../search-options/selection/learn/index.md
-[16]: ../../custom-objects/learn/extra-field.md#relation
+[11]: activities-tab.md
+[12]: contacts-tab.md
+[13]: projects-tab.md
+[14]: relations-tab.md
+[15]: requests-tab.md
+[16]: sales-tab.md
+[20]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png

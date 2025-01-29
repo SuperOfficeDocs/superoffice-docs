@@ -1,77 +1,74 @@
 ---
-title: Veiledninger for SuperOffice CRM
 uid: help-no-start
+title: Veiledninger for SuperOffice CRM
 description: Startside for SuperOffice CRM-veiledninger
+keywords: brukerveiledning, hjelp, SuperOffice CRM, kjernefunksjoner
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: brukerveiledning, hjelp
+date: 01.29.2025
+version: 10.5.1
 topic: concept
-version: 10
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
-envir:
-client:
 ---
 
-# Veiledninger for SuperOffice CRM
+# Brukerveiledning for SuperOffice CRM
 
-SuperOffice CRM er din eneste plattform for bransjevekst. Med alle standardapplikasjoner koblet til samme kundedatabase, kombinerer SuperOffice CRM alle dine kunderettede prosesser – salg, markedsføring og kundeservice – i én teknologistabel.
+SuperOffice CRM hjelper deg med å organisere og administrere kunderettede prosesser, inkludert salg, markedsføring og service. Denne veiledningen introduserer kjernefunksjonene og gir trinnvise instruksjoner for å hjelpe deg i gang raskt.
 
-Organiser alle markedsførings-, salgs- og kundeserviceaktivitetene dine på ett sted. Fordi all kunderelatert informasjon lagres i SuperOffice CRM-løsningen, vil alle brukere i firmaet alltid få en 360-graders visning av alle potensielle prospekt eller kunder. Dette vil hjelpe deg med å tilby mer relevant, personlig og rettidig kommunikasjon og service.
+## Hva er SuperOffice CRM?
 
-Se denne videoen for å få en rask oversikt over hva SuperOffice CRM kan gjøre for firmaet ditt (videolengde – 2:15):
+SuperOffice CRM sentraliserer kundedata, slik at alle i organisasjonen får en 360-graders oversikt over hver kunde og prospekt. Denne delte kunnskapen bidrar til å levere mer relevant, personlig og rettidig kommunikasjon.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+Se [introduksjonsvideoen](https://www.youtube.com/embed/10VQCTgxODc) for en oversikt over hvordan SuperOffice CRM kan være til nytte for bedriften din.
+
 > [!Video https://www.youtube.com/embed/10VQCTgxODc]
 
-## SuperOffice CRM – kjernesystem
+(videolengde – 2:15)
 
-Enten du er markedsfører, selger eller supportmedarbeider – SuperOffice CRM er laget for alle. Vårt sett med kjernefunksjoner hjelper alle team med å organisere kontaktinformasjonen sin, holde alle data på ett sted, administrere oppgaver, dokumenter og e-postmeldinger og følge opp kunder!
+## Kjernefunksjoner
 
-Et system for å administrere og følge opp alle personer, salg og prosjekter. Kjernen i systemet er firmakortet og personkortet. All informasjon om og kommunikasjon vedrørende et firma og person lagres i disse kortene.
+### Administrasjon av personer og firmaer
 
-## SuperOffice Salg
+Organiser og administrer all kunderelatert kommunikasjon på ett sted. Firma- og personkortene lagrer viktige detaljer og sørger for at teamet ditt har tilgang til nødvendig informasjon.
 
-Salg er et spill med utholdenhet, planlegging og tid. SuperOffice CRM er bygget på 30+ års erfaring med optimalisering av salgsprosesser og er utviklet for å hjelpe deg med å gjøre mer med din mest verdifulle ressurs – tid. SuperOffice Salg gir deg de riktige verktøyene for å fokusere på å administrere pipelinen din, forbedre prognoser, jobbe smartere, utvikle lønnsomme kundeforhold og ganske enkelt – inngå flere avtaler.
+### Salgsadministrasjon
 
-## SuperOffice Marketing
+SuperOffice CRM gir verktøy for å administrere salgsprosesser, forbedre prognoser og bygge sterkere kundeforhold. Bruk det til å inngå avtaler mer effektivt og spare tid.
 
-Vi tror at hvert engasjement med en kunde gir en mulighet – hvis du behandler det riktig. SuperOffice Markedsføring er utviklet for å hjelpe markedsføringsteamene dine med å sende riktig budskap til de riktige kundene til rett tid. Vi gir deg verktøyene for å automatisere og tilpasse kommunikasjon, nå målgruppen din bedre og starte meningsfulle samtaler som blir til inntekter.
+### Markedsføringskampanjer
 
-SuperOffice Marketing handler om utgående kommunikasjon og skjemaer. Du kan masseutsende via e-post eller SMS til hele eller deler av kundedatabasen din, for eksempel for å informere kunder om oppgraderinger eller produktnyheter. Bruk skjemaer for produkt-/nyhetsbrevregistrering, samtykkestyring og dataoppdateringer.
+Opprett personlige kampanjer for å engasjere kundene dine. SuperOffice Markedsføring lar deg sende e-poster og SMS, administrere skjemaer for registrering eller dataoppdatering, og automatisere arbeidsflyter.
 
-## SuperOffice-saker
+### Kundeservice
 
-Et system for håndtering av saker/henvendelser. All kommunikasjon om en konkret sak lagres på ett sted, uavhengig av om det er via e-post, webskjema, telefon eller annen kanal.
+Håndter kundehenvendelser effektivt. SuperOffice Service lagrer all kommunikasjon relatert til en forespørsel på ett sted, uansett kanal, og sørger for at ingen spørsmål blir ubesvart.
 
-## Innstillinger og vedlikehold
+### Administrasjon (Innstillinger og vedlikehold)
 
-Innstillinger og vedlikehold er administrasjonssenteret for SuperOffice CRM. Navigatorknappene i Innstillinger og vedlikehold aktiverer tilhørende funksjoner med et enkelt klikk, noe som gjør det enkelt å navigere raskt mellom de forskjellige delene av systemet.
+Tilpass SuperOffice CRM til bedriftens prosesser, sett opp brukerroller, og få tilgang til integrasjoner fra App Store.
 
-## Juster SuperOffice CRM til måten du arbeider på
+## Juster SuperOffice CRM til måten du jobber på
 
-Du kan bruke SuperOffice rett ut av esken. Du trenger ikke å gjøre noen endringer eller tilpasse den for å bruke den.
+SuperOffice CRM fungerer rett ut av esken. Du kan begynne å bruke det uten å gjøre endringer.
 
-Men når du har utviklet dine egne rutiner, din unike måte å jobbe på, forstår vi at det kan være lurt å implementere disse prosessene i CRM-løsningen din.
+Men ved å tilpasse SuperOffice CRM til teamets arbeidsflyt, kan brukerne bli kjent med og adoptere løsningen raskere, noe som øker produktiviteten.
 
-Hvis du tilpasser SuperOffice CRM til måten teamet ditt jobber på, blir det enklere for dem å bli kjent med og ta i bruk CRM-løsningen raskere. Når systemet støtter brukerne i det daglige arbeidet, er det mer sannsynlig at de omfavner det.
+### Eksempler på tilpasninger
 
-### Fordelene ved å tilpasse løsningen
+* Legg til egendefinerte felt og tagger for å kategorisere data basert på bedriftens behov.
+* Opprett e-postmaler, svarmaler og skjemaer for å spare tid og opprettholde konsistens.
+* Konfigurer tilgangsnivåer for å kontrollere synlighet av kundeinformasjon.
+* Opprett egendefinerte oppsett med [Skjermdesigner][1].
 
-* **Økt bruk:** Studier viser at jo mer intuitive valgene i et CRM-system er, jo lettere er det for brukerne å ta det i bruk.
-
-* **Økt effektivitet:** Når CRM-systemet gjenspeiler måten brukerne arbeider på, hjelper systemet hver enkelt bruker til å arbeide mer effektivt.
-
-* **Bedre målretting:** Ved å tilpasse CRM-programvaren kan du segmentere dataene dine på dine egne verdier og felt.
-
-* **Nøyaktige prognoser:** Hvis oppfølgingene og handlingene i CRM-systemet gjenspeiler salgsprosessen, kan du opprette mer nøyaktige salgsprognoser.
+Tilpassing av SuperOffice CRM sikrer at systemet fungerer slik du trenger det, og hjelper teamet ditt med å holde seg organisert og effektivt.
 
 ## Er du klar til å utforske mer?
 
-Er du klar til å oppdage kraften i SuperOffice CRM og lære mer? Start helt fra begynnelsen og la oss ta deg med på en spennende CRM-reise med veiledninger, eller bare hoppe rett til et bestemt emne i menyen.
+Er du klar til å oppdage kraften i SuperOffice CRM og lære mer? Start fra begynnelsen med våre veiledninger, eller hopp rett til et spesifikt emne i menyen.
 
 > [!NOTE]
-> Har du en annen CRM-versjon enn det som står i denne guiden? Velg **F1** i CRM-systemet for å få hjelpeemner basert på SuperOffice-versjonen og språket ditt.
+> Har du en annen CRM-versjon enn det som beskrives i denne guiden? Velg **F1** i CRM-systemet for hjelpeemner tilpasset din SuperOffice-versjon og språk.
 
-<!-- Referenced links -->
-
-<!-- Referenced images -->
+<!-- Refererte lenker -->
+[1]: ../ui/screen-designer/learn/index.md

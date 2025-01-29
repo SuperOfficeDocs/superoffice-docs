@@ -19,14 +19,9 @@ Du kan fortsette å jobbe med den aktuelle oppføringen eller gå til en av oppf
 
 Klikk på **Innstillinger**-knappen i dialogboksen **Duplikater** for å endre innstillingene for duplikatkontrollen.
 
-Du kan også få tilgang til disse innstillingene fra hovedmenyen ![icon][img1].
+Du kan også få tilgang til disse innstillingene fra hovedmenyen (<i class="ph ph-list" aria-hidden="true"></i>).
 
 ## Deaktiver duplikatkontroll
 
 1. Gå til Innstillinger og vedlikehold.
 1. Velg **Preferanser** > **Funksjoner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

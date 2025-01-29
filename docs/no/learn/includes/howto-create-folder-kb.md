@@ -1,9 +1,9 @@
 <!-- markdownlint-disable-file MD041 -->
 Slik oppretter du en ny mappe:
 
-1. Gå til mappen du vil opprette en undermappe under.
+1. Gå til den overordnede mappen hvor du vil opprette en undermappe.
 2. Klikk på **Ny mappe**-knappen øverst i bildet.
-3. I feltet **Mappe** vises automatisk navnet på den overordnede mappen du har valgt. Du kan velge en annen mappe her.
+3. Bekreft den overordnede mappen i feltet **Mappe**, eller velg en annen mappe.
 4. Angi et beskrivende navn på mappen i feltet **Navn**.
-5. I feltet **Beskrivelse** oppgir du en kort beskrivelse av hva mappen inneholder.
-6. Klikk på **OK**. Den nye mappen opprettes.
+5. Valgfritt: Legg til en kort forklaring i feltet **Beskrivelse**.
+6. Klikk på **OK** for å opprette mappen.
