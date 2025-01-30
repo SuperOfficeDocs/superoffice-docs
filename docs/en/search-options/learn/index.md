@@ -83,7 +83,7 @@ Use the percent character (%) as a wildcard character when searching. **%** matc
 
 ## The Find button <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
 
-Click the **Find** button (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) on the top bar to open the [Find screen][1], where you can search for data in SuperOffice. The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
+Click the **Find** button on the top bar to open the [Find screen][1], where you can search for data in SuperOffice. The **Find** button helps you find records [based on any criteria][6] from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
 
 ![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
 
