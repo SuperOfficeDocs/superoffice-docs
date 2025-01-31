@@ -12,7 +12,6 @@ items:
   - CRMScript.NetServer.NSUser.GetCredentials()
   - CRMScript.NetServer.NSUser.GetCustomFields()
   - CRMScript.NetServer.NSUser.GetDeleted()
-  - CRMScript.NetServer.NSUser.GetDisplayName()
   - CRMScript.NetServer.NSUser.GetEjUserId()
   - CRMScript.NetServer.NSUser.GetExtraFields()
   - CRMScript.NetServer.NSUser.GetIsOnTravel()
@@ -37,7 +36,6 @@ items:
   - CRMScript.NetServer.NSUser.SetCredentials(NSCredential[])
   - CRMScript.NetServer.NSUser.SetCustomFields(Map)
   - CRMScript.NetServer.NSUser.SetDeleted(Bool)
-  - CRMScript.NetServer.NSUser.SetDisplayName(String)
   - CRMScript.NetServer.NSUser.SetEjUserId(Integer)
   - CRMScript.NetServer.NSUser.SetExtraFields(Map)
   - CRMScript.NetServer.NSUser.SetIsOnTravel(Bool)
@@ -163,26 +161,6 @@ items:
       description: "If true, the user is retired and should have no rights, not appear in lists, etc."
   example: 
   - "\n<pre><code>NSUser thing;\nBool deleted = thing.GetDeleted();</code></pre>\n"
-- uid: CRMScript.NetServer.NSUser.GetDisplayName()
-  commentId: M:CRMScript.NetServer.NSUser.GetDisplayName()
-  id: 'GetDisplayName()'
-  so.intellisense: NSUser.GetDisplayName
-  so.version: 8.5R08
-  langs:
-  - crmscript
-  name: 'GetDisplayName()'
-  nameWithType: NSUser.GetDisplayName()
-  fullName: CRMScript.NetServer.NSUser.GetDisplayName()
-  type: Method
-  summary: # TODO
-  remarks: 
-  syntax: 
-    content: String GetDisplayName()
-    parameters: []
-    return:
-      type: CRMScript.Global.String
-      description: "The unique display name for this user. Used in Service as an alias, similar to Name/Initials."
-  example: 
 - uid: CRMScript.NetServer.NSUser.GetEjUserId()
   commentId: M:CRMScript.NetServer.NSUser.GetEjUserId()
   id: 'GetEjUserId()'
@@ -692,29 +670,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>NSUser thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n"
-- uid: CRMScript.NetServer.NSUser.SetDisplayName(String)
-  commentId: M:CRMScript.NetServer.NSUser.SetDisplayName(String)
-  id: 'SetDisplayName(String)'
-  so.intellisense: NSUser.SetDisplayName
-  so.version: 8.5R08
-  langs:
-  - crmscript
-  name: 'SetDisplayName(String)'
-  nameWithType: NSUser.SetDisplayName(String)
-  fullName: CRMScript.NetServer.NSUser.SetDisplayName(String)
-  type: Method
-  summary: # TODO
-  remarks: 
-  syntax: 
-    content: Void SetDisplayName(String displayName)
-    parameters:
-    - id: displayName
-      type: CRMScript.Global.String
-      description: "The unique display name for this user. Used in Service as an alias, similar to Name/Initials."
-    return:
-      type: CRMScript.Global.Void
-  example: 
+  - "\n<pre><code>NSUser thing;\nBool deleted;\nthing.SetDeleted(deleted);</code></pre>\n" 
 - uid: CRMScript.NetServer.NSUser.SetEjUserId(Integer)
   commentId: M:CRMScript.NetServer.NSUser.SetEjUserId(Integer)
   id: 'SetEjUserId(Integer)'
