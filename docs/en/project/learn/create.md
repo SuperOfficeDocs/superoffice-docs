@@ -47,7 +47,7 @@ You can add a project in SuperOffice CRM using the **New** button on the top bar
 
 1. Click **Save** to store the project details. You are now ready to [add project members][5].
 
-## Key fields explained
+## <a id="fields"></a>Key fields explained
 
 The following fields are available in the Project card. Some fields are filled automatically, while others require input.
 

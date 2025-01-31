@@ -2,10 +2,10 @@
 uid: help-no-project-members
 title: Prosjektdeltakere
 description: Prosjektdeltakere
-keywords: prosjekt, deltaker
+keywords: prosjektdeltake, detaljkortet Prosjektdeltakere, prosjekt, deltaker
 author: SuperOffice RnD
-date: 12.04.24
-version: 10
+date: 01.31.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM

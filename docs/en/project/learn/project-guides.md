@@ -5,7 +5,7 @@ description: Introduction to project guides in SuperOffice.
 keywords: project guide, guide, workflow, Project guide section tab, project
 author: Bergfrid Dias
 date: 01.03.2025
-version: 10
+version: 10.5
 topic: concept
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -76,11 +76,9 @@ The **Project guide** section tab displays a structured overview of the project'
 
     ![Project guide statuses -screenshot][img2]
 
-  * **Current status:** Highlighted with a filled circle (<i class="ph ph-circle-fill" aria-hidden="true"></i>
-).
+  * **Current status:** Highlighted with a filled circle (<i class="ph ph-circle-fill" aria-hidden="true"></i>).
   * **Future statuses:** Marked with an open circle (<i class="ph ph-circle" aria-hidden="true"></i>).
-  * **Completed statuses:** Marked with a check (<i class="ph ph-check" aria-hidden="true"></i>
-).
+  * **Completed statuses:** Marked with a check (<i class="ph ph-check" aria-hidden="true"></i>).
 
 * **Activities:** The tab is divided into two columns: **Follow-ups** and **Documents**. Each row includes a **Create** link, enabling users to generate the required follow-up or document directly from the section tab.
 
@@ -159,7 +157,7 @@ You can manually move the project to the next status if needed, without completi
 * Visibility: Keeps the entire team updated on the current status, next steps, and key milestones.
 * Customization: Tailor guides to match your organization’s unique workflows and processes.
 
-## Related topics
+## Related content
 
 * [Introduction to projects][2]
 * [Create a project][4]

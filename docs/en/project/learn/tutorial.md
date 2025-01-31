@@ -94,8 +94,7 @@ You record a new project and select the **Conference** project type, which is li
 1. After the conference and all relevant follow-ups and documents in the **In progress** status are completed, you go to the last status in the project guide, which is **Closing**.
 
     * Click **Yes** in the **Project guide - move the project to the next status** dialog.
-        or
-    * Click <i class="ph ph-pencil-simple" aria-label="Edit"></i> on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
+    * Or, click <i class="ph ph-pencil-simple" aria-label="Edit"></i> on the main **Project** card, click the arrow to the right of the **Status** field and select **Closing** from the list, and then click **OK**.
 
 1. You want to hold an internal meeting to summarize the conference.
 

@@ -1,30 +1,23 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Arbeide med prosjekt
-  topicHref: create.md
-  items:
-  - name: Opprette prosjekt
-    href: create.md
-  - name: Legge til prosjektbilde
-    href: add-image.md
-  - name: Redigere prosjekt
-    href: edit.md
-  - name: Slå sammen prosjekter
-    href: merge-projects.md
-  - name: Slette prosjekt
-    href: delete.md
+- name: Opprette prosjekt
+  href: create.md
+- name: Legge til prosjektbilde
+  href: add-image.md
+- name: Redigere prosjekt
+  href: edit.md
+- name: Slå sammen prosjekter
+  href: merge-projects.md
+- name: Slette prosjekt
+  href: delete.md
 - name: Prosjektdeltakere
   href: project-members/toc.yml
   topicHref: project-members/index.md
 - name: Prosjektguide
-  topicHref: project-guide/index.md
-  items:
-  - name: Oversikt
-    href: project-guide/index.md
-  - name: Project guide tab
-    href: project-guide/project-guide-tab.md
-  - name: Arbeide med prosjektguide
-    href: project-guide/working-with.md
-  - name: Vise oppfølginger og dokumenter
-    href: project-guide/view-followups-and-documents.md
+  href: project-guides.md
+- name: Tutorial
+  href: tutorial.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

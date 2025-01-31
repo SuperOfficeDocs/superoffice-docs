@@ -1,44 +1,52 @@
 ---
 uid: help-no-project-image-add
-title: Legge til et prosjektbilde
-description: Slik legger du til et prosjektbilde
-keywords: prosjekt
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+title: Legg til eller endre et prosjektbilde
+description: Legg til eller endre et prosjektbilde
+keywords: legg til bilde, prosjektbilde, prosjekt, fanen Bilde
+author: Bergfrid Dias
+date: 01.30.2025
+version: 10.5.1
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Legge til et prosjektbilde
+# Legg til eller endre et prosjektbilde
 
-I fanen **Bilde** kan du legge inn et bilde for prosjektet. Prosjektbildet brukes hovedsakelig ved visning av prosjektet i SuperOffice Audience (krever egen lisens), men det kan også brukes til andre typer prosjektvisualisering.
+Fanen **Bilde** lar deg laste opp og administrere bilder for et prosjekt.
 
-1. Gå til Prosjekt-bildet. Gjør ett av følgende:
+![Prosjektkort med prosjektbilde -screenshot][img1]
 
-    * Klikk på **Prosjekt**-knappen i navigatoren.
-    * Bruk [historikklisten][1] eller navigatorsøk.
-    * Dobbeltklikk på et prosjekt i et søkeresultat eller på detaljkortet **Prosjekter** i Firma-bildet.
+## Slik legger du til et prosjektbilde
 
-2. Velg fanen **Bilde**.
+1. Åpne skjermbildet **Prosjekt** og gå til fanen **Bilde**.
 
-3. Klikk på **Rediger**.
+2. Klikk <i class="ph ph-pencil-simple" aria-label="Rediger"></i> for å gå inn i redigeringsmodus.
 
-4. Klikk på **Legg til**-knappen.
+3. Klikk **Legg til bilde**.
 
-5. I dialogboksen **Velg bilde** gjør du ett av følgende:
-    * Hvis bildet du vil bruke, ligger under **Bilder**, merker du det for å vise en forhåndsvisning under **Forhåndsvisning**.
-    * Du legger til et nytt bilde ved å klikke på **Legg til**, velge bildet du vil ha og legge til en beskrivelse som gir en bedre beskrivelse av bildet enn bare filnavnet. Deretter klikker du på **OK/Lagre**. Merk bildet for å vise en forhåndsvisning under **Forhåndsvisning**.
-    * Hvis du vil slette et bilde fra databasen, merker du ønsket bilde og klikker på **Slett**.
+4. Last opp eller dra og slipp en bildefil:
+    * Dra bildefilen inn i opplastingsområdet.
+    * Eller, klikk **Last opp fil** for å velge et bilde fra datamaskinen.
 
-6. Klikk på **OK** for å legge til bildet. Bildet vises i fanen **Bilde**, og beskrivelsen vises i feltet **Bilde**.
+5. Klikk på det opplastede bildet for å forhåndsvise det.
 
-7. Klikk på **Lagre** for å lagre endringen, eller på **Avbryt** for å avslutte uten å lagre endringen.
+6. Klikk **OK** for å sette bildet.
 
-    > [!NOTE]
-    > Hvis du vil fjerne et aktivt prosjektbilde, klikker du på **Slett** til venstre for beskrivelsen.
+7. Klikk **Lagre** for å bruke endringene eller **Avbryt** for å forkaste dem.
+
+## Slik endrer eller tilbakestiller du prosjektbildet
+
+1. Åpne fanen **Bilde** og klikk <i class="ph ph-pencil-simple" aria-label="Rediger"></i>.
+
+2. Klikk **Slett** for å fjerne det nåværende bildet.
+
+3. Etter sletting kan du:
+    * Klikk **OK** og **Lagre** for å tilbakestille til standardbildet.
+    * Eller, last opp/velg et nytt bilde, klikk **OK** og **Lagre** for å lagre endringen.
 
 <!-- Referenced links -->
-[1]: ../../learn/basics/history.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/no/project/project-image.png
