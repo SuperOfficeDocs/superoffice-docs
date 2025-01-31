@@ -2,9 +2,9 @@
 title: ERP Quote Connector Interface
 uid: quote_connectors
 description: ERP Quote Connector Interface
-author: {github-id}
-date:
-keywords:
+author: {github-id}, Eivind Fasting
+date: 01.31.2025
+keywords: quote, connector, setup
 topic: concept
 ---
 
@@ -23,11 +23,39 @@ The SuperOffice Quote Management system is based on an architecture that allows 
 
 ## Architecture
 
+### Onsite
+
 The *\<SpesificERP>QuoteConnector.DLL* is loaded into the SuperOffice client when the SuperOffice client starts. The information needed to connect to the ERP system is set up and stored in the SuperOffice database first.
 
 ![01][img3]
 
 (BaaN ERP system)
+
+### Online
+
+There is no way to inject a custom .dll into the Online environment, so the architecture is a little different compared to Onsite.
+For example, when setting up a new connection SuperOffice will call [TestConnection()][4] to verify that the connection can be created. For Online the sequence would look like this:
+
+```mermaid
+sequenceDiagram
+    SuperOffice->>+Application: client_id
+    Application->>+Connector: TestConnection()
+    Connector-->>Application: response
+    Application-->>SuperOffice: response
+```
+
+In short this means it is not possible to go directly towards a service from SuperOffice. Instead the client_id/application_id is defined in SuperOffice Admin, which then uses this application to communicate with the service.
+To set up a new QuoteConnector the following steps needs to be completed:
+
+1. [Create a quote connector][0]
+2. [Register an ERP and quote sync app][1]
+3. [Configure the application with service endpoints][2]
+4. [Create a new Quote Connector in SuperOffice Admin][3]
+
+> [!NOTE]
+> Where and how the connector is hosted is up to the developer, and SuperOffice does not provide a platform for this.
+
+The implementation of the quote connector is identical for both onsite and online, and it can be expected to stay unchanged in the future. This means an existing onsite connector implementation is useable for online, and the sample-code for [JsonQuoteConnector][5] can be used as-is in both scenarios.
 
 ## Files
 
@@ -90,6 +118,14 @@ The system is implemented as one interface, but has some parts:
 ## Config values
 
 Configuration fields can be declared to be one of a number of different types, using the `FieldMetadataInfo`. However, they are always transmitted as strings; and to do the conversion between strongly typed value and string we use the SuperOffice.Globalization.CultureDataFormatter class. Use the ParseXXX methods from the same class to get back to the correct type (int, datetime, etc).
+
+<!-- Reference links -->
+[0]: ./online-quote-connectors/index.md
+[1]: ../../../developer-portal/create-app/sync-app.md
+[2]: ../../../developer-portal/create-app/config/update-endpoints.md
+[3]: ../../../quote/learn/admin/erp-connection-add.md
+[4]: ../../../api/plugins/quote-connectors/set-up.md#pluginresponseinfo-testconnection--dictionarystring-string-connectiondata-connectiondata-
+[5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.IntegrationServer/JsonQuoteConnector
 
 <!-- Referenced images -->
 [img1]: media/interfaces.png
