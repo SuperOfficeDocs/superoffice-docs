@@ -62,6 +62,7 @@ items:
   - CRMScript.Event.Trigger.SalesBeforeSaveStakeholder
   - CRMScript.Event.Trigger.SalesBeforeSaveTicket
   - CRMScript.Event.Trigger.SalesLoadCustomObject
+  - CRMScript.Event.Trigger.SalesSplitTicket
   - CRMScript.Event.Trigger.ScheduledTaskFailed
   - CRMScript.Event.Trigger.ServiceScreenAddMessageAfterSubmit
   - CRMScript.Event.Trigger.ServiceScreenAddMessageBeforeSubmit
@@ -968,6 +969,22 @@ items:
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\n//Setting value if is new\nif(getInputValue(&quot;IsNew&quot;) == &quot;true&quot;)\ned.setOutputValue(&quot;CustomObjectEntity.x_value&quot;, &quot;My value&quot;);\n</code></pre>\n"
+- uid: CRMScript.Event.Trigger.SalesSplitTicket
+  commentId: M:CRMScript.Event.Trigger.SalesSplitTicket
+  id: 'SalesSplitTicket'
+  so.intellisense: 
+  so.version: 10.5.2
+  langs:
+  - crmscript
+  name: 'SalesSplitTicket'
+  nameWithType: Trigger.SalesSplitTicket
+  fullName: CRMScript.Event.Trigger.SalesSplitTicket
+  type: Method
+  summary: "\n(1017) Called when performing Split Request. EventData contains all variables passed by datahandler in the Sales client. Possible to manipulate field values by using setOutputValue()\n"
+  remarks: "\n<Strong>Note: This trigger is only supported in New Service</Strong><p></p>\n<Strong>Input values</strong>\n<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>IsSCIL</td><td>Is SCIL</td></tr><tr><td>OriginalTicketEntityId</td><td>TicketId from source Request</td></tr><tr><td>NewTicketEntityId</td><td>TicketId of new Request</td></tr></tbody></table>\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 4;\nEventData ed = getEventData();\nString newTicketId = ed.getInputValue(&quot;NewTicketEntityId&quot;);\nString originalTicketId = ed.getInputValue(&quot;OriginalTicketEntityId&quot;);\n//Create internal comment on the new ticket\nString textNew = &quot;This is a split request. The ID of the original ticket is: &quot; + originalTicketId + &quot;\n&quot;;\nMessage newId;\nnewId.setValue(&quot;slevel&quot;,&quot;1&quot;);\nnewId.setValue(&quot;ticketId&quot;,newTicketId);\nnewId.setValue(&quot;body&quot;,textNew);\nnewId.setValue(&quot;author&quot;, getActiveUser().getValue(&quot;username&quot;));\nnewId.setValue(&quot;createdBy&quot;, getActiveUser().getValue(&quot;id&quot;));\nnewId.save();\n</code></pre>\n"
 - uid: CRMScript.Event.Trigger.ScheduledTaskFailed
   commentId: M:CRMScript.Event.Trigger.ScheduledTaskFailed
   id: 'ScheduledTaskFailed'
