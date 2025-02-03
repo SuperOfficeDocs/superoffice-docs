@@ -33,6 +33,9 @@ In total you will have the following NuGet package dependencies:
 
 There is an example quote connector example included in our [SuperOffice.DevNet.Online][6] GitHub repository, located in the [IntegrationServer][7] folder. Take a look at the *README.md*  markdown file for more information.
 
+> [!NOTE]
+> The sample-project is for .Net Framework, as WCF is not officially supported in .Net Core. This is not a restriction in SuperOffice' packages, but an architectural decision made by Microsoft.
+
 [!include[ask questions](../../../includes/get-help.md)]
 
 Have fun building quote connectors for SuperOffice CRM Online!
