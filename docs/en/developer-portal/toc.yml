@@ -90,6 +90,8 @@ items:
   - name: Analytics
     href: analytics/metered-services.md
     items:
+    - name: Inspect event log
+      href: analytics/logs.md
     - name: View API call statistics
       href: analytics/metered-services.md
     - name: View exceptions

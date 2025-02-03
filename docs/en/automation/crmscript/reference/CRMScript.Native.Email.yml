@@ -88,7 +88,7 @@ items:
   fullName: CRMScript.Native.Email.setValue(String,String)
   type: Method
   summary: "\nSets the value of the given field in the email instance.<p></p>\nFor multiple recipients, call setValue multiple times, once for each recipient.\n"
-  remarks: "\nAvailable fields:<ul><li>from: The from address.</li><li>to: The recipient.</li><li>cc: The carbon copy recipient.</li><li>bcc: The bcc recipient.</li><li>sms: A cellphone number to send sms to.</li><li>smsFrom: The from address when sending sms.</li><li>subject: The subject of the email.</li><li>body: The plain text body of the email.</li><li>bodyHtml: The HTML formated body of the email.</li><li>ticketId: The ticketId, only used with sms.</p</li></ul>><p>From version 8.1 any other header value may also be added, for example setValue(&quot;X-Foo&quot;, &quot;42&quot;);\n"
+  remarks: "\nAvailable fields:<ul><li>from: The from address.</li><li>to: The recipient.</li><li>cc: The carbon copy recipient.</li><li>bcc: The bcc recipient.</li><li>sms: A cellphone number to send sms to.</li><li>smsFrom: The from address when sending sms.</li><li>subject: The subject of the email.</li><li>body: The plain text body of the email.</li><li>bodyHtml: The HTML formated body of the email.</li><li>ticketId: The ticketId, only used with sms.</p</li><li>envelopeFrom</li><li>Sets the envelope from mail address. &quot;From&quot; will also be set if not already set</li></ul>><p>From version 8.1 any other header value may also be added, for example setValue(&quot;X-Foo&quot;, &quot;42&quot;);\n"
   syntax: 
     content: Void setValue(String name, String value)
     parameters:
