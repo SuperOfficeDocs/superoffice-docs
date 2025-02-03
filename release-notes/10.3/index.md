@@ -109,8 +109,9 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 
 ### Other highlights
 
-#### New user guides
+#### User guides - Help documentation
 
+* [The user guide for Learn for version 10.3][53] in help.superoffice.com
 * The user guide for [SuperOffice for Outlook][51] - it's available in six languages.
 * See the user guide for [SuperOffice Mobile CRM][52] in Docs.
 
@@ -199,5 +200,6 @@ See all the [new or updated apps][5]
 [50]: marketing/10.3.12-update.md
 [51]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
+[53]: https://help.superoffice.com/docs/10.3/en/learn/index.html
 
 <!-- Referenced images -->

@@ -2,11 +2,13 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: new UI, diary, Copilot, AI
+keywords: new UI, diary, Copilot, AI, CRMScript, close request tab, trigger split request
 author: SuperOffice AS – Research and Development
-date: 01.21.2025
+date: 02.11.2025
 version: 10.5
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # What's new in SuperOffice 10.5
@@ -41,11 +43,15 @@ We've also made updates to help you work more efficiently. Now, it takes fewer c
 
 Stay on top of your activities and make time for what matters most.
 
-## Details of new features
+## Product - Details of new features
 
 Check out our **Product release** overview for more details in our [Community][10].
 
 ### SuperOffice CRM
+
+* 10.5.2 (11.02.2025):
+  * [CRMScript - Trigger to Split Request (10.5.2)][3] in Settings and maintenance
+  * [CRMScript - Close request tab (10.5.2)][3] in Settings and maintenance
 
 * 10.5.1 (21.01.2025):
   * [New UI for SuperOffice (10.5.1)][2] in SuperOffice CRM
@@ -63,6 +69,8 @@ Check out our **Product release** overview for more details in our [Community][1
 
 * [Version 11.0.3][5] (23.10.2024)
 
+## Product integration - Details of new features
+
 ### Office integrations
 
 * [SuperOffice for Outlook update – Action required (6.0)][13]
@@ -77,6 +85,8 @@ Latest released versions:
 * SuperOffice for Gmail 2.10 (11.03.2024)
 * Video Meetings 2.6 (20.06.2024)
 
+## Other highlights
+
 ### Ongoing pilot programs
 
 We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
@@ -85,14 +95,14 @@ We use **pilot programs** to collect feedback, identify potential problems, and 
 * [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][9] (available on demand from 10.2.1 - 27.01.2023)
 
-### Other highlights
-
-#### User guides
+### User guides - Help documentation
 
 * The user guide for [SuperOffice for Outlook][11] in Docs - and it's available in six languages.
 * User guide for [SuperOffice Mobile CRM][12] in Docs.
+* [Learn in Docs for 10.2][14] in help.superoffice.com
+* [Learn in Docs for 10.3][15] in help.superoffice.com
 
-#### SuperOffice App Store
+### SuperOffice App Store
 
 See all the [new or updated apps][6]
 
@@ -101,6 +111,7 @@ See all the [new or updated apps][6]
 <!-- Referenced links -->
 [1]: admin/10.5.1-update.md
 [2]: core-crm/10.5.1-update.md
+[3]: admin/10.5.2-update.md
 [5]: ../mobile/index.md
 [6]: https://appstore.superoffice.com/Category/new-and-updated
 [7]: https://community.superoffice.com/en/product-releases/pilot-programs/
@@ -110,5 +121,7 @@ See all the [new or updated apps][6]
 [11]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
 [12]: ../../docs/en/mobile/superoffice-mobile/index.md
 [13]: office-integrations/6.0-update.md
+[14]: https://help.superoffice.com/docs/10.2/en/learn/index.html
+[15]: https://help.superoffice.com/docs/10.3/en/learn/index.html
 
 <!-- Referenced images -->

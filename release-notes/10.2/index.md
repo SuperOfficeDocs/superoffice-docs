@@ -102,16 +102,24 @@ version: 10.2
 
 ### Other highlights
 
-* **Developer Portal**
-  * [New widget to monitor API errors - 1.16 (22.11.2023)][31]
-  * Icons in navigator - 1.16 (22.11.2023)
-  * [Message center - 1.13 (16.08.2023)][20]
-  * [Launch of Developer portal - 1.0 (07.09.2022)][14]
+#### User guides - Help documentation
 
-* **SuperOffice App store** - [New or updated apps][18]
-  * [MailVideo (12.06.2023)][22]
-  * [Risika - Risk & Credit (10.05.2023)][23]
-  * [Lasso of for SuperOffice (03.04.2023)][21]
+* [The user guide for Learn for version 10.3][35] in help.superoffice.com
+
+#### Developer Portal
+
+* [New widget to monitor API errors - 1.16 (22.11.2023)][31]
+* Icons in navigator - 1.16 (22.11.2023)
+* [Message center - 1.13 (16.08.2023)][20]
+* [Launch of Developer portal - 1.0 (07.09.2022)][14]
+
+#### SuperOffice App store
+
+[New or updated apps][18] in SuperOffice App store
+
+* [MailVideo (12.06.2023)][22]
+* [Risika - Risk & Credit (10.05.2023)][23]
+* [Lasso of for SuperOffice (03.04.2023)][21]
 
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
@@ -147,5 +155,6 @@ version: 10.2
 [31]: ../../docs/en/developer-portal/widgets/index.md
 [32]: core-crm/10.2.11-update.md
 [34]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_10.2.15
+[35]: https://help.superoffice.com/docs/10.3/en/learn/index.html
 
 <!-- Referenced images -->

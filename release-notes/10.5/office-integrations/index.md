@@ -7,6 +7,8 @@ author: SuperOffice AS – Research and Development
 date: 01.21.2025
 version: sofo-6.0
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # Office integrations
