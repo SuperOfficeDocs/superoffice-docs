@@ -2,9 +2,10 @@
 uid: crmscript_eventdata
 title: EventData
 description: EventData gives you access to contextual information in an event handler.
-author: Bergfrid Dias
-date: 01.14.2022
 keywords: crmscript, eventdata, event handler, CGI
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 ---
 
@@ -69,7 +70,7 @@ In addition to the built-in input and output values, you can also set and get **
 After you set a custom value, it can be accessed - also by other `EventData` objects in the same script.
 
 > [!NOTE]
-> From version 10.5.2 we support listening for a command in StateValue to close Ticket tabs from CRMScript triggers in Sales client.
+> From version 10.5.2, we support listening for a command in StateValue to close Ticket tabs from CRMScript triggers in the Sales client.
 
 This can be done by adding a StateValue **command:ticket.tab.close**, read more details [here][16].
 
@@ -128,4 +129,4 @@ Navigation uses [SOProtocol][2] and [URL parameters][3].
 [13]: <xref:CRMScript.Native.EventData.getNavigateTo()>
 [14]: <xref:CRMScript.Native.EventData.setNavigateTo(String)>
 [15]: <xref:CRMScript.Native.EventData.showDialog(EventDataDialogDefinition)>
-[16]: ../tutorials/closing-ticket-tabs-in-triggers.md
+[16]: ../tutorials/closing-request-tabs-in-triggers.md
