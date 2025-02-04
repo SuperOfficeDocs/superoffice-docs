@@ -1,87 +1,100 @@
 ---
 uid: help-no-reply-template-create
 title: Opprette svarmaler
-description: "Lær hvordan du oppretter en svarmal, i denne veiledningen."
+description: Lær hvordan du oppretter en svarmal i denne veiledningen.
+keywords: opprett svarmal, ny svarmal, kopier svarmal, svarmalegenskaper, kunnskapsbase, sak, svarmal, mal
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: sak, svare, mal
+date: 02.04.2025
+version: 10.5.1
 topic: howto
-audience: user
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
 audience_tooltip: SuperOffice Service
 language: no
 ---
 
-# Opprette svarmal
+# Opprett svarmal
 
-En svarmal er en ferdig tekst som kan limes inn i en melding du skriver til en person. Bruk av svarmaler sparer tid og lar deg sende personlige meldinger til personene dine.
+En svarmal er en forhåndsdefinert tekst som kan settes inn i en melding du skriver til en person. Ved å bruke svarmaler sparer du tid og kan sende personlige meldinger til kundene dine.
 
-Svarmaler kan også inneholde vedlegg, som da blir lagt til i meldingen. Før du sender svaret til personen, kan du både redigere teksten og fjerne eller legge til vedlegg.
+Svarmaler kan også inneholde vedlegg, som automatisk legges til i meldingen. Før du sender svaret til personen, kan du redigere teksten og legge til eller fjerne vedlegg.
 
 > [!NOTE]
-> Du trenger *Kunnskapsbase* som funksjonell rettighet for å opprette svarmaler.
+> Du må ha *Kunnskapsbase* som funksjonell rettighet for å kunne opprette svarmaler.
 
-## Trinn
+## Trinn – opprett fra bunnen av
 
-1. Gå til ![ikon][img1] **Hovedmeny** i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
+1. Gå til <i class="ph ph-list" aria-label="Hovedmeny"></i> i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
 
-1. Gå til mappen du vil plassere svarmalen i. Hvis den ikke finnes ennå, kan du [opprette en ny mappe][2].
+1. Gå til mappen hvor du vil lagre svarmalen. Hvis den ikke finnes, kan du [opprette en ny mappe][2].
 
-    ![Slik finner du svarmaler i SuperOffice -screenshot][img3]
+1. Klikk på knappen **Ny svarmal**.
 
-1. Klikk på **Ny svarmal**-knappen.
-
-1. Øverst i fanen **Egenskaper** i bildet **Egenskaper for svarmal** skriver du inn følgende:
+1. Øverst på fanen **Egenskaper** i skjermbildet **Svarmalegenskaper**, fyll inn følgende:
 
     * **Navn**: Et beskrivende navn på svarmalen.
     * **Beskrivelse**: En kort beskrivelse av hva svarmalen inneholder.
-    * **Mappe**: Som standard navnet på den valgte mappen. Du kan velge en annen mappe her.
-    * **Tilgang**: Her velger du hvem som skal ha tilgang til å lese og endre den aktuelle svarmalen.
+    * **Mappe**: Standard er den valgte mappen. Du kan velge en annen mappe her.
+    * **Tilgang**: Angi hvem som skal ha leserettigheter og redigeringsrettigheter for svarmalen.
 
 1. Velg fanen **(Uspesifisert språk)**.
 
-1. I fanen **Egenskaper** angir du følgende informasjon:
-    * **Språk**: I denne listen velger du hvilket språk svarmalen er på. Listeboksen inneholder de språkene som er registrert under ![ikon][img2] > **Kundespråk**.
-    * **Standard**: Merk av her hvis du vil at dette språket skal være standardspråk for denne svarmalen.
-    * **Emne**: Her skriver du inn svarmalens tittel. Vanligvis settes denne inn i **Emne**-feltet når svarmalen brukes som e-postmelding.
-    * **Meldingshode**: Her kan du legge til forhåndsdefinert innhold som skal vises i meldingshodet i en e-postmelding, for eksempel i **Til**- og **Emne**-feltet. Denne funksjonen brukes bare i spesielle tilfeller.
+1. Under fanen **Egenskaper**, fyll inn følgende:
 
-1. I fanen **Vanlig tekst** angir du følgende informasjon:
+    * **Språk**: Velg hvilket [kundespråk][7] svarmalen er på.
+    * **Standard**: Merk av hvis dette skal være standardspråket for svarmalen.
+    * **Emne**: Skriv inn emnet for svarmalen. Dette settes automatisk inn i **Emne**-feltet når svarmalen brukes i en e-post.
+    * **Meldingshode**: Legg til forhåndsdefinert innhold som skal vises i meldingshodet, for eksempel **Til**- og **Emne**-feltene i en e-post. Dette brukes kun i spesielle tilfeller.
 
-    * **Inkluder ren tekst**: Når du oppretter en HTML-versjon, er det alltid lurt å opprette en ren tekstversjon i tillegg for e-postprogrammer som ikke støtter HTML. E-postprogrammet velger deretter automatisk riktig format. Hvis du ikke merker av for dette alternativet, ignoreres teksten nedenfor. Den lagres imidlertid, slik at du kan velge å inkludere den senere.
+1. Under fanen **Vanlig tekst**, fyll inn:
+
+    * **Inkluder vanlig tekst**: Når du oppretter en HTML-versjon, er det lurt å også ha en versjon i vanlig tekst for e-postprogrammer som ikke støtter HTML.
 
     > [!NOTE]
-    > Hvis du inkluderer både ren tekst og HTML-tekst, velger e-postprogrammet den "beste" utgaven, og det vil vanligvis være HTML. Husk at meldinger som blir sendt uten ren tekst, bare kan leses av e-postprogrammer som støtter HTML.
+    > Hvis du inkluderer både vanlig tekst og HTML, vil mottakerens e-postprogram velge den "beste" versjonen, som vanligvis er HTML. Hvis du kun sender HTML, kan ikke meldingen leses i e-postprogrammer som ikke støtter HTML.
 
-    * I det store feltet midt i bildet skriver du inn selve innholdet i svarmalen. Det er alltid denne teksten som brukes når du [legger til svarmaler i meldinger][4].
-    * **Stavekontroll**: Starter en stavekontroll av meldingen på språket som er angitt i listen **Språk**.
+    * I det store feltet midt på skjermen, skriv inn innholdet i svarmalen. Dette er teksten som brukes når du [legger til svarmaler i meldinger][4].
+    * **Stavekontroll**: Kjør en stavekontroll basert på språket som er valgt i **Språk**-feltet.
 
-1. I fanen **HTML-tekst** angir du følgende informasjon:
+1. Under fanen **HTML-tekst**, fyll inn:
 
-    * **Inkluder HTML-tekst**: Merk av for dette alternativet for å inkludere teksten nedenfor i en HTML-versjon av e-postmeldingen. Dette brukes overfor kunder med e-postprogrammer som kan lese HTML (for eksempel Outlook). Budskapet kommer ofte tydeligere frem hvis du sender meldingen som HTML, fordi du kan bruke bilder og farger i teksten.
-    * I det store feltet midt i bildet skriver du inn HTML-formatert tekst som du vil inkludere i meldingen til personen. Husk at bilder som det henvises til her, må ligge på en server som er tilgjengelig for mottakerne av e-postmeldingen. Du kan for eksempel legge til bilder som tidligere har vært lastet opp til **Eksterne dokumenter**.
+    * **Inkluder HTML-tekst**: Merk av for dette alternativet hvis du vil at svarmalen skal inkludere HTML-formatering.
+    * I det store tekstfeltet midt på skjermen, skriv inn HTML-formatert tekst som skal vises i meldingen.
 
-1. I fanen **SMS-tekst** kan du legge til svarmalstekst som er beregnet på sending via SMS. Her angir du følgende informasjon:
+1. Under fanen **SMS-tekst**, fyll inn:
 
-    * **SMS-tekst**: I dette feltet skriver du inn selve svarmalsteksten.
-    * **Antall tegn**: Her kan du følge med på hvor mange tegn du har skrevet inn.
+    * **SMS-tekst**: Skriv inn svarmalens innhold for SMS-meldinger.
+    * **Antall tegn**: Viser hvor mange tegn som er skrevet.
 
-1. I fanen **Vedlegg** kan du legge til vedlegg du vil inkludere i svarmalen:
+1. Under fanen **Vedlegg**, kan du legge til vedlegg:
 
     1. Klikk på **Velg filer**.
-    2. I dialogboksen blar du til dokumentet du trenger.
-    3. Klikk på **Legg til** for å legge til vedlegget.
-    4. Gjenta denne fremgangsmåten hvis du vil legge til flere vedlegg.
+    2. Finn filen du vil legge til.
+    3. Klikk på **Legg til**.
+    4. Gjenta for å legge til flere vedlegg.
 
     > [!TIP]
-    > Du kan slette et vedlegg ved å klikke på **Slett** til høyre for raden.
+    > Du kan fjerne et vedlegg ved å klikke på **Slett** ved siden av filnavnet.
 
-1. Klikk på **OK** for å lagre svarmalen. Fanen **(Uspesifisert språk)** endres til det valgte språket. Klikk på **Tilbake** for å gå tilbake til mappestrukturen for svarmaler. Den er nå tilgjengelig for bruk i [svar på henvendelser fra kunder][4].
+1. Klikk på **OK** for å lagre svarmalen. Fanen **(Uspesifisert språk)** endres til det valgte språket. Klikk på **Tilbake** for å gå tilbake til mappestrukturen for svarmaler. Svarmalen er nå tilgjengelig for bruk i [besvarelse av kundehenvendelser][4].
 
-## Opprette egendefinert layout for svar ved hjelp av kategorier
+## <a id="copy"></a>Kopiere svarmal
 
-Hvis du vil gi hver avdeling i firmaet en egendefinert layout til korrespondansen, kan du opprette svarmaler med forskjellige layouter. Hver svarmal kan knyttes til en [kategori][1] som representerer en avdeling. Alle utgående svar fra kategoriene (avdelingene) slås sammen med det avdelingsspesifikke designet.
+For å opprette en ny svarmal basert på en eksisterende, kan du kopiere den.
 
-Bortsett fra layouten/formateringen til svarmalen, må den inneholde følgende malvariabler for å kunne slås sammen med svaret:
+1. Gå til <i class="ph ph-list" aria-label="Hovedmeny"></i> i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
+1. Finn mappen der svarmalen ligger.
+1. Klikk på svarmalen for å åpne skjermbildet **Vise svarmaler**.
+1. Klikk på **Kopier**. En kopi åpnes i redigeringsmodus.
+1. Endre navn og eventuelt andre detaljer.
+1. Klikk på **OK** for å lagre.
+
+## Opprett egendefinert layout for svar ved hjelp av kategorier
+
+For å gi hver avdeling et unikt layout på sine svar, kan du knytte svarmaler til en [kategori][1] som representerer avdelingen. Alle utgående svar fra kategorien flettes med det avdelingsspesifikke designet.
+
+I tillegg til layout og formatering, må svarmalen inneholde følgende malvariabler for å flettes riktig med svaret:
 
 ```text
 [[IF:message.bodyHtml!=""]]
@@ -97,23 +110,17 @@ SuperOffice Service leveres med et sett med svarmaler. Blant disse svarmalene fi
 
 Med utgangspunkt i kundens henvendelse søker systemet etter tilsvarende ord (inkludert nøkkelord) i FAQ-oppføringer i SuperOffice Service. Basert på graden av samsvar mellom disse settes det inn forslag til FAQ-er som kan hjelpe kunden, i svarmalen som automatisk sendes til kunden for å bekrefte mottak av saken.
 
-Du kan selv velge graden av samsvar mellom saken fra kunden og FAQ-oppføringene i feltet **Minimumsscore for FAQ-søkeresultat (i prosent)** i ![ikon][img2] **Systeminnstillinger** > **System** > **Innstillinger**.
+Du kan selv velge graden av samsvar mellom saken fra kunden og FAQ-oppføringene i feltet **Minimumsscore for FAQ-søkeresultat (i prosent)** i <i class="ph ph-list" aria-label="Hovedmeny"></i> **Systeminnstillinger** > **System** > **Innstillinger**.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Opprette ny språkversjon av svarmal][5]
 * [Rediger svarmaler][6]
-* [Kopiere svarmaler][7]
 
 <!-- Referenced links -->
-[1]: ../../learn/category/index.md
+[1]: ../../admin/category/index.md
+[4]: ../../learn/reply.md
 [2]: manage-folders.md
-[4]: ../../learn/howto/reply.md
 [5]: new-language.md
 [6]: edit.md
-[7]: copy.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
-[img2]: ../../../../media/icons/main-menu-small.png
-[img3]: ../../../../media/loc/en/request/create-a-new-reply-template.png
+[7]: ../../../admin/options/learn/custlang/index.md

@@ -1,22 +1,13 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Arbeide med svarmaler
-  topicHref: create.md
-  items:
-  - name: Opprette svarmal
-    href: create.md
-  - name: Kopiere eksisterende mal
-    href: copy.md
-  - name: Oversette en svarmal
-    href: new-language.md
-  - name: Rediger svarmal
-    href: edit.md
-  - name: Slett svarmal
-    href: delete.md
-  - name: Søke etter svarmal
-    href: find.md
-  - name: Administrere mapper med svarmaler
-    href: manage-folders.md
+- name: Opprette svarmal
+  href: create.md
+- name: Oversette en svarmal
+  href: new-language.md
+- name: Redigere eller slette svarmal
+  href: edit.md
+- name: Administrere mapper
+  href: manage-folders.md
 - name: Variabler for svarmal
   href: template-variables.md

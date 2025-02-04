@@ -2,10 +2,13 @@
 uid: help-no-reply-template-language
 title: Opprette ny språkversjon av svarmal
 description: Opprette ny språkversjon av svarmal
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: sak
+keywords: oversett svarmal, ny språkversjon, svarmal, mal, sak
+author: Bergfrid Dias
+date: 02.05.2025
+version: 10.5.1
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
@@ -17,7 +20,7 @@ Det kan være aktuelt å ha samme svarmal tilgjengelig på flere språk, for eks
 
 ## Legge til språk i svarmalen
 
-1. Gå til ![ikon][img1] **Hovedmeny** i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> i toppraden, og velg **Kunnskapsbase** > **Svarmaler**.
 
 2. Gå til mappen som inneholder svarmalen.
 
@@ -36,9 +39,17 @@ Det kan være aktuelt å ha samme svarmal tilgjengelig på flere språk, for eks
 > [!TIP]
 > Klikk på **Slett valgte språkversjon** for å slette den aktive språkversjonen (språkfanen som er valgt).
 
+## Feilsøking
+
+### Hvorfor er knappen "Ny språkversjon" ikke synlig i bunnteksten?
+
+Hvis knappen **Ny språkversjon** ikke er synlig, betyr det at ingen kundespråk er definert i systemet. For å løse dette må en administrator [legge til kundespråk][3] i **Innstillinger og vedlikehold** under **Systemvalg** > **Kundespråk**.
+
+### Hvorfor er et bestemt språk ikke tilgjengelig i listen?
+
+Hvis et bestemt språk mangler i nedtrekksmenyen **Språk**, er det ikke lagt til i listen over kundespråk. Be administratoren din om å inkludere det manglende språket i **Innstillinger og vedlikehold**.
+
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[3]: ../../../admin/options/learn/custlang/update.md

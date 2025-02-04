@@ -1,11 +1,16 @@
 ---
 uid: help-no-reply-template-folder
 title: Administrere mapper med svarmaler
-description: Administrere mapper med svarmaler
-author: SuperOffice RnD
-date: 03.16.2023
+description: Organiser svarmaler med en tilpassbar mappestruktur for enkel tilgang og logisk gruppering. Opprett undermapper og administrer maler effektivt.
 keywords: sak, svare, mappe
+author: SuperOffice RnD
+date: 01.13.2025
+version: 10.5
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
+audience_tooltip: SuperOffice Service
 language: no
 ---
 
@@ -30,7 +35,7 @@ Før du kan slette en svarmalsmappe, må du fjerne alle oppføringene i mappen. 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: delete.md
+[2]: edit.md#delete
 [3]: edit.md
 
 <!-- Referenced images -->

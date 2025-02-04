@@ -31,8 +31,8 @@ Reply templates are organized in a folder structure that you can create and mana
 1. Browse to the required folder.
 
 1. Click the reply template you are interested in. The **View reply templates** screen appears, displaying:
-   * Information about access level, language, and owner.
-   * Tabs with the reply template text itself and any attachments (per language version).
+    * Information about access level, language, and owner.
+    * Tabs with the reply template text itself and any attachments (per language version).
 
 ### Search for reply templates
 
