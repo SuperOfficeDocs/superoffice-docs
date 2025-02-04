@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 901,
-  "TopicId": 163,
+  "ChatSessionId": 896,
+  "TopicId": 202,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "quam",
-  "CustomerName": "Lueilwitz Inc and Sons",
-  "CustomerEmail": "verona_turcotte@russelgutkowski.co.uk",
-  "CustomerPhone": "(227)195-7229",
+  "CustomerAlias": "voluptates",
+  "CustomerHost": "id",
+  "CustomerName": "Schmitt, Green and Bogan",
+  "CustomerEmail": "carrie_gulgowski@murphy.uk",
+  "CustomerPhone": "(457)868-4334 x60543",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Brakus Group",
+  "CustomerCompanyName": "Kuphal, Schuster and Lemke",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "deserunt",
-  "WhenRequested": "2000-10-08T10:18:00.2386877+02:00",
-  "WhenStarted": "1999-10-17T10:18:00.2386877+02:00",
-  "WhenEnded": "2014-11-23T10:18:00.2386877+01:00",
-  "WhenIdle": "2009-10-08T10:18:00.2386877+02:00",
-  "WhenFetched": "2007-04-20T10:18:00.2386877+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 540,
-  "AlertLevel": 815,
-  "Rank": 29,
+  "FirstMessage": "praesentium",
+  "LastMessage": "esse",
+  "WhenRequested": "2020-09-15T13:13:31.4020561+02:00",
+  "WhenStarted": "2001-03-23T13:13:31.4020561+01:00",
+  "WhenEnded": "2013-06-05T13:13:31.4020561+02:00",
+  "WhenIdle": "2005-08-19T13:13:31.4020561+02:00",
+  "WhenFetched": "1998-07-26T13:13:31.4020561+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 710,
+  "AlertLevel": 387,
+  "Rank": 682,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 397,
+  "Rating": 955,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldLength": 239
     }
   }
 }

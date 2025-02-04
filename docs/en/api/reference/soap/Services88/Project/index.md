@@ -63,5 +63,6 @@ Download [WSDL file for Services88/Project](../Services88-Project.md) if you nee
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)
+* [UpdateProjectMembers](UpdateProjectMembers.md)
 * [ValidateProjectEntity](ValidateProjectEntity.md)
 

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 29,
-    "ErpConnectorId": 704,
-    "DisplayName": "Hettinger Group",
-    "DisplayDescription": "Enhanced bottom-line alliance",
+    "ErpConnectionId": 790,
+    "ErpConnectorId": 761,
+    "DisplayName": "Willms-Collins",
+    "DisplayDescription": "Monitored systematic hierarchy",
     "Active": false,
-    "ConnectionId": "aliquid",
-    "MostRecentTimestamp": "accusamus",
+    "ConnectionId": "facere",
+    "MostRecentTimestamp": "quia",
     "ConfigFields": {
-      "ConfigFields1": "quaerat",
-      "ConfigFields2": "repellendus"
+      "ConfigFields1": "quae",
+      "ConfigFields2": "soluta"
     },
-    "Deleted": true,
-    "AllAccess": false,
+    "Deleted": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      481,
-      147
+      182,
+      687
     ],
     "AssociateAccessIds": [
-      854,
-      8
+      198,
+      619
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

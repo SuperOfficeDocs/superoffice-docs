@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "McGlynn Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 167,
+  "Name": "Raynor Inc and Sons",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 293,
-  "Rank": 964
+  "UdListDefinitionId": 212,
+  "Rank": 673
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669,
-  "Name": "Conn, Little and Dicki",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "UdListDefinitionId": 456,
-  "Rank": 939,
+  "Id": 23,
+  "Name": "Little-Kulas",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 425,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldType": "System.String",
+      "FieldLength": 663
     }
   }
 }

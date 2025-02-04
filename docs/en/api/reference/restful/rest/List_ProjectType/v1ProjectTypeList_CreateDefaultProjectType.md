@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Daniel-Mayer",
-  "Tooltip": "veritatis",
+  "Id": 912,
+  "Name": "Lebsack, Mante and Feeney",
+  "Tooltip": "eius",
   "Deleted": false,
-  "UdListDefinitionId": 654,
-  "Rank": 946,
+  "UdListDefinitionId": 590,
+  "Rank": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

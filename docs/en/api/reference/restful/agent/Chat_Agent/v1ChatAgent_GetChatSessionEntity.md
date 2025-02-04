@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=817
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=9
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 424,
-  "TopicId": 975,
+  "ChatSessionId": 676,
+  "TopicId": 500,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "doloribus",
-  "CustomerName": "Hilpert, Nienow and Olson",
-  "CustomerEmail": "eugenia@schultz.name",
-  "CustomerPhone": "592.506.0415",
+  "CustomerAlias": "eaque",
+  "CustomerHost": "ut",
+  "CustomerName": "Volkman, Langworth and Bartoletti",
+  "CustomerEmail": "valentin@gislasonmorar.info",
+  "CustomerPhone": "995-656-7134",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmeler-Thompson",
+  "CustomerCompanyName": "Marks LLC",
   "Status": "Closed",
-  "FirstMessage": "aspernatur",
-  "LastMessage": "incidunt",
-  "WhenRequested": "2004-02-17T10:17:55.1602621+01:00",
-  "WhenStarted": "2006-08-20T10:17:55.1602621+02:00",
-  "WhenEnded": "2023-03-16T10:17:55.1602621+01:00",
-  "WhenIdle": "2011-12-18T10:17:55.1602621+01:00",
-  "WhenFetched": "2012-12-06T10:17:55.1602621+01:00",
-  "SessionKey": "dignissimos",
-  "InitialQueuePos": 919,
-  "AlertLevel": 606,
-  "Rank": 245,
+  "FirstMessage": "quibusdam",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2015-02-23T13:13:22.2114396+01:00",
+  "WhenStarted": "2002-07-30T13:13:22.2114396+02:00",
+  "WhenEnded": "2016-09-23T13:13:22.2114396+02:00",
+  "WhenIdle": "2021-08-15T13:13:22.2114396+02:00",
+  "WhenFetched": "2018-08-24T13:13:22.2114396+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 821,
+  "AlertLevel": 173,
+  "Rank": 726,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 748,
+  "Rating": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 611
     }
   }
 }

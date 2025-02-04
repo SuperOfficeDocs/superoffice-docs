@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 372,
-  "NumSentences": 568,
-  "Summary": "consequatur",
-  "IsoLangCode": "vel"
+  "SaleId": 378,
+  "NumSentences": 717,
+  "Summary": "atque",
+  "IsoLangCode": "voluptatibus"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2002-11-25T10:17:54.8008654+01:00",
-  "UserPrompt": "ad",
-  "UserDisplayText": "voluptatem",
-  "BotResponse": "fugiat",
+  "Timestamp": "2005-03-22T13:13:21.4771717+01:00",
+  "UserPrompt": "optio",
+  "UserDisplayText": "quo",
+  "BotResponse": "itaque",
   "BotActions": {
-    "BotActions1": "iste",
-    "BotActions2": "quisquam"
+    "BotActions1": "ad",
+    "BotActions2": "atque"
   },
   "Attachments": [
-    "officia",
-    "ullam"
+    "similique",
+    "non"
   ]
 }
 ```

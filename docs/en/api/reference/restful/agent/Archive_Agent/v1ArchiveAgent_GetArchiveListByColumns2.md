@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Franecki Group",
-  "Columns": "delectus",
-  "SortOrder": "ut",
-  "Restrictions": "voluptatem",
-  "Entities": "provident",
-  "Page": 702,
-  "PageSize": 58
+  "ProviderName": "Borer, Monahan and Jakubowski",
+  "Columns": "asperiores",
+  "SortOrder": "dolores",
+  "Restrictions": "culpa",
+  "Entities": "recusandae",
+  "Page": 553,
+  "PageSize": 177
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Tromp, Huel and Paucek",
-    "PrimaryKey": 370,
+    "EntityName": "Goyette, Stamm and Champlin",
+    "PrimaryKey": 43,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repellendus",
-        "TooltipHint": "voluptate",
-        "LinkHint": "maxime"
+        "DisplayValue": "ad",
+        "TooltipHint": "qui",
+        "LinkHint": "nobis"
       }
     },
-    "LinkHint": "consequatur",
-    "StyleHint": "tempora",
+    "LinkHint": "architecto",
+    "StyleHint": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 909
+        "FieldType": "System.Int32",
+        "FieldLength": 230
       }
     }
   }

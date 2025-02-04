@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 738,
-      "ColumnId": 463,
-      "FieldDefault": "sit",
-      "FieldHeight": 243,
-      "FieldLabel": "veniam",
-      "FieldLeft": 60,
-      "FieldTop": 428,
+      "UDefFieldId": 445,
+      "ColumnId": 571,
+      "FieldDefault": "laborum",
+      "FieldHeight": 431,
+      "FieldLabel": "quo",
+      "FieldLeft": 495,
+      "FieldTop": 111,
       "FieldType": "Checkbox",
-      "FieldWidth": 628,
-      "FormatMask": "repellat",
+      "FieldWidth": 904,
+      "FormatMask": "tenetur",
       "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 878,
-      "LabelLeft": 774,
-      "LabelTop": 723,
-      "LabelWidth": 192,
-      "LastVersionId": 763,
-      "ListTableId": 548,
-      "IsMandatory": true,
+      "LabelHeight": 362,
+      "LabelLeft": 814,
+      "LabelTop": 548,
+      "LabelWidth": 136,
+      "LastVersionId": 733,
+      "ListTableId": 14,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 74,
-      "ProgId": "officia",
-      "IsReadOnly": true,
-      "ShortLabel": "nulla",
-      "TabOrder": 401,
-      "TextLength": 454,
-      "Tooltip": "corrupti",
-      "UdefIdentity": 614,
-      "UDListDefinitionId": 927,
+      "Page1LineNo": 868,
+      "ProgId": "quia",
+      "IsReadOnly": false,
+      "ShortLabel": "impedit",
+      "TabOrder": 387,
+      "TextLength": 796,
+      "Tooltip": "nam",
+      "UdefIdentity": 681,
+      "UDListDefinitionId": 389,
       "Justification": "Center",
-      "Version": 469,
-      "TemplateVariableName": "Keebler, Rice and Stanton",
-      "HasBeenPublished": false,
-      "MdoListName": "Beier-Abshire"
+      "Version": 168,
+      "TemplateVariableName": "Towne, McClure and Hintz",
+      "HasBeenPublished": true,
+      "MdoListName": "Hahn, Powlowski and Hessel"
     }
   ]
 }

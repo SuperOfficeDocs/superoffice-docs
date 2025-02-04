@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Muller, Franecki and Beer",
-      "EntityOrParentId": 985,
+      "EntityName": "Mueller Group",
+      "EntityOrParentId": 423,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Muller, Franecki and Beer",
-      "EntityOrParentId": 985,
+      "EntityName": "Mueller Group",
+      "EntityOrParentId": 423,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 346,
-    "Id": 965,
-    "HistoryName": "Schinner LLC",
-    "HistoryId": 310,
-    "AssociateId": 307,
-    "Name": "Harris, Dickens and Rippin",
-    "ItemInfo": "rerum",
+    "Rank": 192,
+    "Id": 174,
+    "HistoryName": "Runolfsdottir-Hessel",
+    "HistoryId": 217,
+    "AssociateId": 49,
+    "Name": "Osinski, Tremblay and Schmidt",
+    "ItemInfo": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 530
       }
     }
   }

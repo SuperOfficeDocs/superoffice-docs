@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Skiles, Morissette and Dibbert",
-  "FieldName": "Ryan-Bailey"
+  "TableName": "Champlin, Klein and Abbott",
+  "FieldName": "Bergnaum-Schoen"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kulas, Bernier and Kohler",
-  "DisplayName": "Sawayn-Wisoky",
-  "Description": "Optional user-facing implementation",
-  "ShortLabel": "ea",
+  "FieldName": "Adams-Cummerata",
+  "DisplayName": "Simonis-Weimann",
+  "Description": "Triple-buffered intangible success",
+  "ShortLabel": "et",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "HideField": true,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": true,
-  "IsExternal": false,
+  "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 745,
-  "TemplateVariableName": "Herman-Schmitt"
+  "Rank": 750,
+  "TemplateVariableName": "Champlin, Boyle and Runte"
 }
 ```

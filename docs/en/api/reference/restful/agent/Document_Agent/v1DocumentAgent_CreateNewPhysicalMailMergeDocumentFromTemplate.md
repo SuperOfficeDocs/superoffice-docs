@@ -113,8 +113,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 509,
-  "UiCulture": "maxime"
+  "DocumentId": 7,
+  "UiCulture": "voluptas"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 698,
+  "DocumentId": 471,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "amet",
-  "Header": "ullam",
-  "Name": "Gaylord-Williamson",
-  "OurRef": "sunt",
-  "YourRef": "soluta",
-  "CreatedDate": "2003-08-01T10:17:55.4884062+02:00",
-  "UpdatedDate": "2015-07-15T10:17:55.4884062+02:00",
-  "Description": "Sharable mission-critical middleware",
+  "Attention": "consequatur",
+  "Header": "quis",
+  "Name": "O'Hara LLC",
+  "OurRef": "minima",
+  "YourRef": "doloribus",
+  "CreatedDate": "2022-01-27T13:13:22.852155+01:00",
+  "UpdatedDate": "2018-04-04T13:13:22.852155+02:00",
+  "Description": "Re-engineered background structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-02-11T10:17:55.4884062+01:00",
-  "ExternalRef": "at",
+  "Date": "2016-09-08T13:13:22.852155+02:00",
+  "ExternalRef": "ex",
   "Completed": "Completed",
-  "ActiveLinks": 453,
+  "ActiveLinks": 355,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "White-Fritsch",
-      "Id": 238,
-      "Description": "Pre-emptive object-oriented support",
-      "ExtraInfo": "nulla",
-      "LinkId": 608,
+      "EntityName": "Williamson, Harvey and Christiansen",
+      "Id": 959,
+      "Description": "Multi-channelled value-added emulation",
+      "ExtraInfo": "aut",
+      "LinkId": 607,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldType": "System.String",
+          "FieldLength": 109
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 17,
-  "Snum": 856,
+  "SuggestedDocumentId": 807,
+  "Snum": 246,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1489237782"
+    "SuperOffice:1": "Elfrieda Kuhn V",
+    "SuperOffice:2": "628602852"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "neque"
+    "CustomFields1": "magnam",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2006-08-20T10:17:55.5040321+02:00",
-  "PublishTo": "2017-02-01T10:17:55.5040321+01:00",
-  "PublishFrom": "2000-08-30T10:17:55.5040321+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-07-25T13:13:22.852155+02:00",
+  "PublishTo": "1998-06-03T13:13:22.852155+02:00",
+  "PublishFrom": "2012-06-15T13:13:22.852155+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 449,
+      "VisibleId": 550,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 541
         }
       }
     },
     {
-      "VisibleId": 449,
+      "VisibleId": 550,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldType": "System.String",
+          "FieldLength": 541
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 733
     }
   }
 }

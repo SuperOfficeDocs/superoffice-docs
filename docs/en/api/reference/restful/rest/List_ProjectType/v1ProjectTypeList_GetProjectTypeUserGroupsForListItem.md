@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Pollich Inc and Sons",
-    "ToolTip": "Ipsa laudantium eum aut enim impedit et aut.",
+    "Id": 566,
+    "Name": "Rice LLC",
+    "ToolTip": "Unde eum.",
     "Deleted": false,
-    "Rank": 2,
-    "Type": "eius",
-    "ColorBlock": 295,
-    "IconHint": "suscipit",
+    "Rank": 818,
+    "Type": "dolores",
+    "ColorBlock": 855,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2016-10-26T10:18:01.1137483+02:00",
+    "LastChanged": "2000-06-19T13:13:33.4016848+02:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Schaefer-Lehner",
-        "ToolTip": "Blanditiis ut eum perspiciatis pariatur eaque.",
+        "Id": 820,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Vero et itaque enim minus est voluptatem qui.",
         "Deleted": false,
-        "Rank": 580,
-        "Type": "reprehenderit",
-        "ColorBlock": 512,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2006-06-03T10:18:01.1137483+02:00",
+        "Rank": 575,
+        "Type": "explicabo",
+        "ColorBlock": 447,
+        "IconHint": "quibusdam",
+        "Selected": false,
+        "LastChanged": "2018-12-25T13:13:33.4016848+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "est",
+        "ExtraInfo": "officia",
+        "StyleHint": "facere",
         "Hidden": true,
-        "FullName": "Felipe Grace Muller III",
+        "FullName": "Dr. Alvina Cornell Veum Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "qui",
+    "ExtraInfo": "dolore",
+    "StyleHint": "accusantium",
     "Hidden": true,
-    "FullName": "Grayson Neil Feest PhD",
+    "FullName": "Gianni Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

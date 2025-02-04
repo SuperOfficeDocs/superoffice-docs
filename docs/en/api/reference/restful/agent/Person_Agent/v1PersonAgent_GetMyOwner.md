@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "perspiciatis",
-  "PersonId": 332,
-  "Mrmrs": "in",
-  "Firstname": "Dorian",
-  "Lastname": "Smith",
-  "MiddleName": "Bayer-Conn",
-  "Title": "nam",
-  "Description": "Proactive responsive conglomeration",
-  "Email": "cheyanne.crona@oberbrunnerdickinson.name",
-  "FullName": "Ms. Joanne Lukas Hirthe IV",
-  "DirectPhone": "(111)656-0954 x77519",
-  "FormalName": "Marvin-Shanahan",
-  "CountryId": 778,
-  "ContactId": 114,
-  "ContactName": "Welch, Nienow and Balistreri",
-  "Retired": 949,
-  "Rank": 603,
-  "ActiveInterests": 852,
+  "Position": "fuga",
+  "PersonId": 992,
+  "Mrmrs": "architecto",
+  "Firstname": "Savanah",
+  "Lastname": "Champlin",
+  "MiddleName": "Gulgowski Inc and Sons",
+  "Title": "molestiae",
+  "Description": "Universal responsive interface",
+  "Email": "ansley@renner.ca",
+  "FullName": "Ernesto King Sr.",
+  "DirectPhone": "(035)638-2491 x59377",
+  "FormalName": "Abshire-Zemlak",
+  "CountryId": 871,
+  "ContactId": 222,
+  "ContactName": "Harris Inc and Sons",
+  "Retired": 44,
+  "Rank": 298,
+  "ActiveInterests": 594,
   "ContactDepartment": "",
-  "ContactCountryId": 972,
-  "ContactOrgNr": "1023761",
-  "FaxPhone": "825-957-7916",
-  "MobilePhone": "596-447-9006",
-  "ContactPhone": "1-029-963-3510",
-  "AssociateName": "Cronin, Schuster and Okuneva",
-  "AssociateId": 193,
+  "ContactCountryId": 834,
+  "ContactOrgNr": "1140700",
+  "FaxPhone": "428-236-1273 x1719",
+  "MobilePhone": "103.909.9400 x108",
+  "ContactPhone": "1-852-794-3007",
+  "AssociateName": "Kirlin, Quigley and Swift",
+  "AssociateId": 281,
   "UsePersonAddress": false,
-  "ContactFax": "maxime",
-  "Kanafname": "perspiciatis",
-  "Kanalname": "minima",
-  "Post1": "aut",
-  "Post2": "aut",
-  "Post3": "praesentium",
-  "EmailName": "moshe_hauck@abshirejacobs.com",
-  "ContactFullName": "Angela Harber",
-  "ActiveErpLinks": 965,
-  "TicketPriorityId": 393,
-  "SupportLanguageId": 483,
-  "SupportAssociateId": 790,
+  "ContactFax": "esse",
+  "Kanafname": "amet",
+  "Kanalname": "molestias",
+  "Post1": "id",
+  "Post2": "rerum",
+  "Post3": "cum",
+  "EmailName": "toni_ullrich@mohr.us",
+  "ContactFullName": "Lamar Cristal Lebsack DVM",
+  "ActiveErpLinks": 260,
+  "TicketPriorityId": 313,
+  "SupportLanguageId": 939,
+  "SupportAssociateId": 418,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

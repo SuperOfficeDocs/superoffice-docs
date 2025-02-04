@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Halvorson, Kunde and Will",
-  "ParameterName": "Heathcote, Kunze and Schoen"
+  "LayoutName": "Von, Ernser and McLaughlin",
+  "ParameterName": "Heathcote, Schowalter and Pouros"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 758,
-  "Name": "Murphy Inc and Sons",
-  "Value": "non",
-  "CreatedDate": "2019-06-14T10:17:55.1290102+02:00",
-  "UpdatedDate": "2010-01-04T10:17:55.1290102+01:00",
-  "CreatedBy": "et",
-  "UpdatedBy": "sint",
+  "AudienceLayoutId": 298,
+  "Name": "Gusikowski Group",
+  "Value": "inventore",
+  "CreatedDate": "2010-06-13T13:13:22.1177118+02:00",
+  "UpdatedDate": "2014-12-23T13:13:22.1177118+01:00",
+  "CreatedBy": "qui",
+  "UpdatedBy": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

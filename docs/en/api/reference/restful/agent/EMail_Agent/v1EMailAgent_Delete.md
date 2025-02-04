@@ -74,10 +74,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    594,
-    180
+    676,
+    148
   ],
-  "MoveToFolder": "minus"
+  "MoveToFolder": "quis"
 }
 ```
 

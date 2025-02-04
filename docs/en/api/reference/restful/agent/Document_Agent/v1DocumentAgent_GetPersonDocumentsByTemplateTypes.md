@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 958,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2002-05-23T10:17:55.457154+02:00",
-  "EndTime": "2006-05-04T10:17:55.457154+02:00",
-  "Count": 491,
+  "PersonId": 294,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2011-08-05T13:13:22.6188095+02:00",
+  "EndTime": "2013-03-29T13:13:22.6188095+01:00",
+  "Count": 478,
   "DocumentTemplateIds": [
-    42,
-    620
+    855,
+    763
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 415,
-    "Attention": "labore",
-    "Header": "excepturi",
-    "Name": "Swift LLC",
-    "OurRef": "et",
-    "YourRef": "dolor",
-    "Description": "Profound value-added flexibility",
-    "DocumentTemplate": "nihil",
+    "DocumentId": 554,
+    "Attention": "itaque",
+    "Header": "laborum",
+    "Name": "Champlin-Littel",
+    "OurRef": "officia",
+    "YourRef": "quasi",
+    "Description": "Networked impactful customer loyalty",
+    "DocumentTemplate": "inventore",
     "IsPublished": false,
-    "PersonId": 19,
-    "PersonFullName": "Darby Quitzon DVM",
-    "AssociateFullName": "Ignatius Corkery",
-    "ContactId": 489,
-    "ContactName": "Corwin-Grant",
-    "ProjectId": 100,
-    "ProjectName": "Bartoletti Inc and Sons",
-    "AssociateId": 498,
-    "Snum": 732,
-    "SaleId": 191,
-    "SaleName": "Bayer, Baumbach and Emmerich",
+    "PersonId": 693,
+    "PersonFullName": "Ms. Gino Kane Buckridge",
+    "AssociateFullName": "Irwin Herzog",
+    "ContactId": 183,
+    "ContactName": "Wolff, Cassin and Homenick",
+    "ProjectId": 726,
+    "ProjectName": "Nicolas, Gerlach and Bins",
+    "AssociateId": 111,
+    "Snum": 694,
+    "SaleId": 543,
+    "SaleName": "Harris-Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 312
       }
     }
   }

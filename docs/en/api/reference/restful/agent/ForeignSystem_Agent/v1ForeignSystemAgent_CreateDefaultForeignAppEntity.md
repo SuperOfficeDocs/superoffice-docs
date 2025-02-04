@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 717,
-  "Name": "Powlowski-Walter",
-  "CreatedDate": "2005-03-18T10:17:55.644659+01:00",
-  "UpdatedDate": "2004-02-16T10:17:55.644659+01:00",
+  "ForeignAppId": 894,
+  "Name": "Kohler, Wolff and Swift",
+  "CreatedDate": "2017-10-13T13:13:23.1488958+02:00",
+  "UpdatedDate": "2014-01-04T13:13:23.1488958+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 173,
-      "Name": "Mante-Lebsack",
-      "CreatedDate": "2013-05-02T10:17:55.644659+02:00",
-      "UpdatedDate": "2021-06-18T10:17:55.644659+02:00",
-      "AssociateFullName": "Pearlie Haag",
-      "CreatedBy": "natus",
-      "UpdatedBy": "voluptates",
-      "DeviceIdentifier": "ratione",
-      "ForeignAppId": 872,
+      "ForeignDeviceId": 821,
+      "Name": "Harvey-Huels",
+      "CreatedDate": "2000-11-01T13:13:23.1488958+01:00",
+      "UpdatedDate": "1998-03-21T13:13:23.1488958+01:00",
+      "AssociateFullName": "Miss Jacynthe Raynor",
+      "CreatedBy": "et",
+      "UpdatedBy": "exercitationem",
+      "DeviceIdentifier": "distinctio",
+      "ForeignAppId": 78,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldType": "System.String",
+          "FieldLength": 47
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

@@ -81,13 +81,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 437,
+  "ReportId": 126,
   "ReportCategory": "All",
-  "Description": "Persevering asynchronous strategy",
+  "Description": "Phased well-modulated hardware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Ruecker Inc and Sons",
-  "AssociateId": 345,
-  "TemplateId": 905,
+  "Name": "Hegmann-O'Kon",
+  "AssociateId": 785,
+  "TemplateId": 568,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 401,
+  "ReportId": 553,
   "ReportCategory": "All",
-  "Description": "Multi-layered mobile hardware",
+  "Description": "Innovative neutral adapter",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kuhic-Ritchie",
-  "AssociateId": 105,
-  "TemplateId": 216,
-  "Published": true,
+  "Name": "Kling Group",
+  "AssociateId": 504,
+  "TemplateId": 797,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

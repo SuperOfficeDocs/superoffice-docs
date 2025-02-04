@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=739
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=10
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 524,
-  "Name": "Harris LLC",
-  "Description": "Grass-roots client-driven policy",
+  "ReportLabelLayoutId": 112,
+  "Name": "Corwin Inc and Sons",
+  "Description": "Pre-emptive systematic website",
   "Orientation": "Landscape",
-  "PaperWidth": 303,
-  "PaperHeight": 305,
-  "LeftMargin": 559,
-  "RightMargin": 281,
-  "TopMargin": 936,
-  "BottomMargin": 24,
-  "CountColumns": 26,
-  "CountRows": 30,
+  "PaperWidth": 895,
+  "PaperHeight": 402,
+  "LeftMargin": 194,
+  "RightMargin": 188,
+  "TopMargin": 696,
+  "BottomMargin": 522,
+  "CountColumns": 438,
+  "CountRows": 719,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

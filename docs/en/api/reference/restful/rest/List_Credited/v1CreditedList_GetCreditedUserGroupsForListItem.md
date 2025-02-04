@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 280,
-    "Name": "Mitchell, Crist and Hoeger",
-    "ToolTip": "Quam minima quis quod ducimus possimus blanditiis.",
+    "Id": 138,
+    "Name": "Spencer, Stoltenberg and Kertzmann",
+    "ToolTip": "Dolor neque perferendis saepe fugiat ad.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "consequatur",
-    "ColorBlock": 512,
-    "IconHint": "voluptas",
+    "Rank": 295,
+    "Type": "quod",
+    "ColorBlock": 597,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2024-06-12T10:18:00.9887407+02:00",
+    "LastChanged": "2010-12-03T13:13:32.9799092+01:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Rath, Wolf and Klein",
-        "ToolTip": "Amet ullam eum dolor.",
+        "Id": 555,
+        "Name": "Mitchell, Pagac and Ondricka",
+        "ToolTip": "Et est nemo blanditiis alias magnam.",
         "Deleted": true,
-        "Rank": 390,
-        "Type": "tenetur",
-        "ColorBlock": 946,
-        "IconHint": "rerum",
+        "Rank": 929,
+        "Type": "id",
+        "ColorBlock": 480,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2024-04-09T10:18:00.9887407+02:00",
+        "LastChanged": "2018-05-09T13:13:32.9799092+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Mrs. Malinda Lauriane Bahringer I",
+        "ExtraInfo": "veniam",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Tianna Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 486
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Selena Bergstrom",
+    "ExtraInfo": "et",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Prof. Ludwig Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 317
       }
     }
   }

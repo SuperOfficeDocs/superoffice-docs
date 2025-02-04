@@ -41,7 +41,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RequestNotification?$select=notifyDateTime,associateId,notifyDateTime
+GET /api/v1/archive/RequestNotification?$select=associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

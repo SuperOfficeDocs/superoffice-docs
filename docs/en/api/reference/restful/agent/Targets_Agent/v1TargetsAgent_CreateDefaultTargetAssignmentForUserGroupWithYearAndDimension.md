@@ -87,9 +87,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 556,
-  "Year": 323,
-  "TargetDimensionId": 921
+  "UserGroupId": 421,
+  "Year": 948,
+  "TargetDimensionId": 33
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 366,
+    "TargetAssignmentInfoId": 421,
     "Values": [
-      560,
-      972
+      226,
+      450
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 229,
-    "DimensionListItemDisplayName": "Osinski, Veum and Kovacek",
+    "DimensionListItem": 615,
+    "DimensionListItemDisplayName": "Kemmer, Zieme and Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 181
       }
     }
   }

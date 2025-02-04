@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 527,
-    "Section": "autem",
-    "Key": "dolorem",
-    "Name": "Stehr, Ebert and Schmeler",
+    "PrefDescId": 256,
+    "Section": "praesentium",
+    "Key": "debitis",
+    "Name": "Herzog-Rogahn",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Proactive neutral secured line",
+    "Description": "Switchable modular open architecture",
     "IsBuiltin": false,
-    "TableName": "Franecki, Ernser and D'Amore",
-    "UserDefinedListId": 643,
-    "Rank": 585,
-    "SubGroup": "sunt",
-    "MinLevel": 517,
-    "MaxValue": 611,
-    "MinValue": 563,
-    "RequiredLicense": "ratione",
+    "TableName": "Ritchie-Schmidt",
+    "UserDefinedListId": 863,
+    "Rank": 881,
+    "SubGroup": "perferendis",
+    "MinLevel": 863,
+    "MaxValue": 282,
+    "MinValue": 355,
+    "RequiredLicense": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 73
       }
     }
   }

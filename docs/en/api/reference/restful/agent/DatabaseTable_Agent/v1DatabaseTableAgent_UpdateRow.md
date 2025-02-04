@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rolfson-O'Hara",
-  "Id": 604,
+  "TableName": "Deckow-Tremblay",
+  "Id": 34,
   "Values": {
-    "Values1": "nam",
-    "Values2": "natus"
+    "Values1": "voluptatem",
+    "Values2": "eos"
   }
 }
 ```

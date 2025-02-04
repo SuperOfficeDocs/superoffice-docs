@@ -35,12 +35,12 @@ Lists all email flow Instances
 |workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
-|workflowInstanceLastCommunicationStatus|listAny|Last email status: Status of mailing recipient| x |
+|workflowInstanceLastCommunicationStatus|listAny|Last e-mail status: Status of mailing recipient| x |
 |updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -499,7 +499,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=person/personExtra/x_person_user_relation,contact/contactId,contact/postAddress/zip,contact/contactExtra/y_organization/x_name
+GET /api/v1/archive/EmailFlowInstances?$select=contact/contactAssociate/assocName,person/personAddress/line1,person/personAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

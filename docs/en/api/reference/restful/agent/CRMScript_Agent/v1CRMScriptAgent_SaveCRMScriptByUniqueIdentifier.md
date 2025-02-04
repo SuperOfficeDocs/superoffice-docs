@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "totam",
+  "UniqueIdentifier": "est",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "unde",
-  "Name": "Barrows-Kirlin",
-  "Description": "Grass-roots 24 hour archive",
-  "IncludeId": "sint",
-  "Source": "aut",
-  "Registered": "2019-06-06T10:17:55.3165216+02:00",
-  "RegisteredBy": "porro",
-  "Updated": "2023-11-27T10:17:55.3165216+01:00",
-  "UpdatedBy": "eaque",
-  "Path": "qui",
+  "UniqueIdentifier": "aut",
+  "Name": "Brakus-Bailey",
+  "Description": "Focused global hierarchy",
+  "IncludeId": "non",
+  "Source": "nihil",
+  "Registered": "2005-06-13T13:13:22.508244+02:00",
+  "RegisteredBy": "magni",
+  "Updated": "2019-07-02T13:13:22.508244+02:00",
+  "UpdatedBy": "est",
+  "Path": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 520
     }
   }
 }

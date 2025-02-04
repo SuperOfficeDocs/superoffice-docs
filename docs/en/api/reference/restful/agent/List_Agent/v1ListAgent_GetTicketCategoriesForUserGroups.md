@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    40,
-    897
+    951,
+    926
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Nicolas, Corkery and Weber",
-    "ToolTip": "Ducimus in facilis.",
+    "Id": 531,
+    "Name": "Smitham, Bogan and Klein",
+    "ToolTip": "Est iure est eveniet ut aut qui provident.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "similique",
+    "Rank": 343,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Quitzon Inc and Sons",
-        "ToolTip": "Vitae inventore et nam non maiores eaque voluptas.",
+        "Id": 422,
+        "Name": "Stoltenberg-Dickens",
+        "ToolTip": "Dolorem provident.",
         "Deleted": true,
-        "Rank": 577,
-        "Type": "velit",
+        "Rank": 173,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 432,
-        "ExtraInfo": "velit",
-        "StyleHint": "similique",
-        "FullName": "Mr. Jade Kris",
+        "IconHint": "dolorem",
+        "ColorBlock": 116,
+        "ExtraInfo": "ratione",
+        "StyleHint": "ea",
+        "FullName": "Anabelle Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 422
+            "FieldLength": 108
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 758,
-    "ExtraInfo": "dolor",
-    "StyleHint": "aperiam",
-    "FullName": "Treva Kulas DVM",
+    "IconHint": "perferendis",
+    "ColorBlock": 860,
+    "ExtraInfo": "dolore",
+    "StyleHint": "laboriosam",
+    "FullName": "Alexanne Sunny Hamill III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldType": "System.Int32",
+        "FieldLength": 729
       }
     }
   }

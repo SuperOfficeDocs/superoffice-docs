@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "cum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "cum",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 748,
-  "Name": "Beer, Monahan and Jast",
+  "ScreenChooserId": 525,
+  "Name": "Bruen-Oberbrunner",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
+  "Enabled": true,
   "UniqueIdentifier": "et",
-  "Source": "qui",
-  "Registered": "2000-07-02T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2009-01-05T10:18:00.8168545+01:00",
-  "UpdatedAssociateId": 478,
+  "Source": "aut",
+  "Registered": "2012-12-28T13:13:32.5111102+01:00",
+  "RegisteredAssociateId": 303,
+  "Updated": "2022-10-23T13:13:32.5111102+02:00",
+  "UpdatedAssociateId": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 257
     }
   },
   "_Links": {

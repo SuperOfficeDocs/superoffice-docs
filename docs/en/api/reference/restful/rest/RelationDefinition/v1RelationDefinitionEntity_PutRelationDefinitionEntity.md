@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 394,
-  "Name": "Barrows-Grady",
-  "Tooltip": "sed",
-  "PassiveText": "aut",
+  "ReldefId": 697,
+  "Name": "Gerhold, Yundt and Nicolas",
+  "Tooltip": "omnis",
+  "PassiveText": "dolorem",
   "Deleted": true,
-  "Rank": 860,
+  "Rank": 494,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,12 +115,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 867,
-  "Name": "Rolfson Inc and Sons",
-  "Tooltip": "rerum",
-  "PassiveText": "eius",
+  "ReldefId": 855,
+  "Name": "Emard Group",
+  "Tooltip": "qui",
+  "PassiveText": "molestias",
   "Deleted": true,
-  "Rank": 899,
+  "Rank": 691,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 224
     }
   },
   "_Links": {

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Russel-Skiles",
-  "TypicalSearchId": 722
+  "EntityName": "Prohaska Inc and Sons",
+  "TypicalSearchId": 792
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jerde Inc and Sons",
-  "SelectionId": 979,
-  "CanSaveAsSelection": false,
-  "MainHeading": "suscipit",
-  "FilterScreenHeading": "mollitia",
-  "SelectionEntityHeading": "quod",
+  "ProviderName": "Cormier-Schmeler",
+  "SelectionId": 392,
+  "CanSaveAsSelection": true,
+  "MainHeading": "enim",
+  "FilterScreenHeading": "nihil",
+  "SelectionEntityHeading": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldLength": 178
     }
   }
 }

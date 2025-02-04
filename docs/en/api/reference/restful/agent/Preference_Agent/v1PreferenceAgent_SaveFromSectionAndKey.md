@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "eum",
-  "Key": "excepturi",
+  "Section": "quod",
+  "Key": "dolores",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 384,
-  "Section": "incidunt",
-  "Key": "et",
-  "Name": "Konopelski Inc and Sons",
+  "PrefDescId": 786,
+  "Section": "consectetur",
+  "Key": "repudiandae",
+  "Name": "Kshlerin-Schoen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key zero tolerance analyzer",
+  "Description": "Face to face next generation strategy",
   "IsBuiltin": false,
-  "TableName": "D'Amore Group",
-  "UserDefinedListId": 930,
-  "Rank": 629,
-  "SubGroup": "quia",
-  "MinLevel": 161,
-  "MaxValue": 412,
-  "MinValue": 800,
-  "RequiredLicense": "et",
+  "TableName": "Cronin, Collier and Schmitt",
+  "UserDefinedListId": 973,
+  "Rank": 344,
+  "SubGroup": "fuga",
+  "MinLevel": 218,
+  "MaxValue": 140,
+  "MinValue": 644,
+  "RequiredLicense": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldLength": 888
     }
   }
 }

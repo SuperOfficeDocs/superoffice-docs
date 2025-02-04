@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 932,
-  "Name": "Nader, Rolfson and Beahan",
-  "ContentType": "veniam",
-  "AttSize": 148,
-  "InlineImage": true,
-  "ContentId": "a",
-  "AuthKey": "minima",
-  "IsSafeFileExtension": true
+  "AttachmentId": 698,
+  "Name": "Schmeler LLC",
+  "ContentType": "eos",
+  "AttSize": 763,
+  "InlineImage": false,
+  "ContentId": "quaerat",
+  "AuthKey": "illum",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 43,
-  "Name": "Runte Group",
-  "ContentType": "dolore",
-  "AttSize": 724,
+  "AttachmentId": 473,
+  "Name": "Heidenreich Group",
+  "ContentType": "qui",
+  "AttSize": 797,
   "InlineImage": false,
-  "ContentId": "sit",
-  "AuthKey": "perspiciatis",
-  "IsSafeFileExtension": false,
+  "ContentId": "id",
+  "AuthKey": "rerum",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 639
     }
   }
 }

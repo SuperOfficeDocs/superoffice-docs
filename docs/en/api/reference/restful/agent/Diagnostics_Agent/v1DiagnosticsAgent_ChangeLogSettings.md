@@ -82,7 +82,7 @@ Content-Type: application/json; charset=utf-8
   "LogToEventLog": false,
   "LogToSuperOffice": false,
   "LogToFile": false,
-  "LogToTrace": false
+  "LogToTrace": true
 }
 ```
 

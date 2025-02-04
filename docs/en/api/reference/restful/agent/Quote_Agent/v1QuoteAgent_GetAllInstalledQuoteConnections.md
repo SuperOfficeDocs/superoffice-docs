@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 481,
-    "ERPName": "O'Kon-Runolfsdottir",
-    "DisplayName": "Brakus-Powlowski",
-    "DisplayDescription": "Customer-focused attitude-oriented hierarchy",
-    "Rank": 869,
-    "ConnectorName": "Heaney, Beer and Jacobs",
-    "ErpConnectionId": 326,
-    "ExtraData": "veniam",
-    "IsAvailable": false,
+    "QuoteConnectionId": 630,
+    "ERPName": "Bednar-Rippin",
+    "DisplayName": "Considine-Jewess",
+    "DisplayDescription": "Versatile zero administration emulation",
+    "Rank": 291,
+    "ConnectorName": "Zieme-Von",
+    "ErpConnectionId": 1002,
+    "ExtraData": "et",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 529,
-        "ERPPriceListKey": "vel",
-        "QuoteConnectionId": 236,
-        "Name": "Kautzer-Prosacco",
-        "Description": "Enhanced intangible encryption",
-        "Currency": "rerum",
-        "CurrencyName": "Rempel-Jaskolski",
-        "ValidFrom": "2010-08-19T10:17:55.9415595+02:00",
-        "ValidTo": "2008-10-30T10:17:55.9415595+01:00",
+        "PriceListId": 140,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 256,
+        "Name": "Bahringer Group",
+        "Description": "Visionary neutral methodology",
+        "Currency": "est",
+        "CurrencyName": "Adams Group",
+        "ValidFrom": "2002-03-13T13:13:23.7425716+01:00",
+        "ValidTo": "2006-02-12T13:13:23.7425716+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldType": "System.String",
+            "FieldLength": 887
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      354,
-      645
+      983,
+      678
     ],
     "AssociateAccessIds": [
-      353,
-      498
+      250,
+      362
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

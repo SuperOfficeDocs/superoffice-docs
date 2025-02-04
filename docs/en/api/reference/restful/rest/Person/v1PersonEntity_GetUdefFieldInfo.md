@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 990,
-  "ColumnId": 42,
-  "FieldDefault": "magnam",
-  "FieldHeight": 500,
-  "FieldLabel": "modi",
-  "FieldLeft": 279,
-  "FieldTop": 49,
+  "UDefFieldId": 703,
+  "ColumnId": 33,
+  "FieldDefault": "nobis",
+  "FieldHeight": 554,
+  "FieldLabel": "qui",
+  "FieldLeft": 945,
+  "FieldTop": 646,
   "FieldType": "Checkbox",
-  "FieldWidth": 391,
-  "FormatMask": "perspiciatis",
+  "FieldWidth": 567,
+  "FormatMask": "facere",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 209,
-  "LabelLeft": 944,
-  "LabelTop": 987,
-  "LabelWidth": 421,
-  "LastVersionId": 871,
-  "ListTableId": 268,
+  "LabelHeight": 870,
+  "LabelLeft": 456,
+  "LabelTop": 150,
+  "LabelWidth": 19,
+  "LastVersionId": 568,
+  "ListTableId": 997,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 770,
-  "ProgId": "nulla",
+  "Page1LineNo": 210,
+  "ProgId": "quidem",
   "IsReadOnly": false,
-  "ShortLabel": "aspernatur",
-  "TabOrder": 28,
-  "TextLength": 298,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 218,
-  "UDListDefinitionId": 587,
+  "ShortLabel": "autem",
+  "TabOrder": 486,
+  "TextLength": 569,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 872,
+  "UDListDefinitionId": 949,
   "Justification": "Center",
-  "Version": 246,
-  "TemplateVariableName": "Kautzer-Romaguera",
-  "HasBeenPublished": false,
-  "MdoListName": "Haag, Rogahn and Bergstrom",
+  "Version": 694,
+  "TemplateVariableName": "Johnston Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Gerlach LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Cruickshank-Ratke",
-  "AssociateId": 105,
-  "DetailsTable": 263,
-  "DetailsRecord": 41,
+  "Id": 601,
+  "Name": "Purdy, Walsh and Gottlieb",
+  "AssociateId": 585,
+  "DetailsTable": 406,
+  "DetailsRecord": 406,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "est",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "culpa",
+    "ParameterObject2": "natus"
   },
-  "LastStarted": "2008-09-01T10:18:00.8168545+02:00",
-  "Created": "2018-02-17T10:18:00.8168545+01:00",
-  "StartCount": 874,
-  "DatabaseSerialNumber": "564368",
-  "Context": "mollitia",
-  "Result": "eius",
+  "LastStarted": "2021-04-12T13:13:32.5267302+02:00",
+  "Created": "2009-04-01T13:13:32.5267302+02:00",
+  "StartCount": 77,
+  "DatabaseSerialNumber": "1414444",
+  "Context": "qui",
+  "Result": "rerum",
   "State": "All",
-  "Description": "Inverse dedicated website",
-  "Response": "numquam",
-  "Request": "et",
-  "ProgressDescription": "Extended coherent throughput",
-  "ProgressPercent": 899,
-  "FileName": "Schultz Group",
+  "Description": "Grass-roots scalable task-force",
+  "Response": "assumenda",
+  "Request": "eius",
+  "ProgressDescription": "Public-key eco-centric customer loyalty",
+  "ProgressPercent": 415,
+  "FileName": "Pfeffer, Leuschke and Spinka",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 947,
-  "Name": "Gusikowski-Wisozk",
-  "AssociateId": 822,
-  "DetailsTable": 968,
-  "DetailsRecord": 669,
+  "Id": 345,
+  "Name": "Cummings Group",
+  "AssociateId": 627,
+  "DetailsTable": 599,
+  "DetailsRecord": 768,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "pariatur",
-    "ParameterObject2": "et"
+    "ParameterObject1": "velit",
+    "ParameterObject2": "quidem"
   },
-  "LastStarted": "2016-01-18T10:18:00.8168545+01:00",
-  "Created": "2013-10-30T10:18:00.8168545+01:00",
-  "StartCount": 956,
-  "DatabaseSerialNumber": "1242947",
-  "Context": "numquam",
-  "Result": "odio",
+  "LastStarted": "2001-06-14T13:13:32.5267302+02:00",
+  "Created": "2021-05-13T13:13:32.5267302+02:00",
+  "StartCount": 391,
+  "DatabaseSerialNumber": "1462457",
+  "Context": "quidem",
+  "Result": "qui",
   "State": "All",
-  "Description": "Fully-configurable 5th generation neural-net",
-  "Response": "rem",
-  "Request": "nam",
-  "ProgressDescription": "Multi-tiered tangible success",
-  "ProgressPercent": 500,
-  "FileName": "Rogahn Inc and Sons",
+  "Description": "Switchable neutral customer loyalty",
+  "Response": "quia",
+  "Request": "culpa",
+  "ProgressDescription": "Pre-emptive 3rd generation budgetary management",
+  "ProgressPercent": 119,
+  "FileName": "Stracke-Kohler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 88
     }
   }
 }

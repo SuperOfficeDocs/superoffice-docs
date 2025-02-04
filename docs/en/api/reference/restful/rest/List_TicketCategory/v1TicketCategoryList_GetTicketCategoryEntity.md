@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 387,
-  "ParentId": 524,
-  "Name": "Macejkovic, Treutel and Nicolas",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 681,
+  "TicketCategoryId": 2,
+  "ParentId": 47,
+  "Name": "Schuppe Inc and Sons",
+  "Fullname": "ab",
+  "CategoryMaster": 527,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heller Inc and Sons",
+  "ExternalName": "Streich-Robel",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 495,
-  "ReplyTemplate": 756,
-  "NotificationEmail": "hilario_romaguera@farrell.biz",
+  "AssignmentLag": 982,
+  "ReplyTemplate": 190,
+  "NotificationEmail": "abel@turner.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 958,
+  "EffectiveReplyTemplateId": 908,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "non"
+    "CustomFields1": "ab",
+    "CustomFields2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 685
     }
   }
 }

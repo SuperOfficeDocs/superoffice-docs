@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 126,
-  "Name": "Raynor-Koss",
+  "ScreenChooserId": 239,
+  "Name": "Greenholt LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "quis",
-  "Registered": "2002-09-16T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 534,
-  "Updated": "2017-12-23T10:18:00.8168545+01:00",
-  "UpdatedAssociateId": 612
+  "UniqueIdentifier": "atque",
+  "Source": "corporis",
+  "Registered": "2021-04-12T13:13:32.5111102+02:00",
+  "RegisteredAssociateId": 579,
+  "Updated": "1999-08-01T13:13:32.5111102+02:00",
+  "UpdatedAssociateId": 312
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 660,
-  "Name": "Harris Inc and Sons",
+  "ScreenChooserId": 699,
+  "Name": "Kessler LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "ex",
-  "Registered": "2014-03-05T10:18:00.8168545+01:00",
-  "RegisteredAssociateId": 310,
-  "Updated": "2019-10-05T10:18:00.8168545+02:00",
-  "UpdatedAssociateId": 77,
+  "UniqueIdentifier": "sit",
+  "Source": "blanditiis",
+  "Registered": "2013-06-05T13:13:32.5111102+02:00",
+  "RegisteredAssociateId": 483,
+  "Updated": "2013-03-01T13:13:32.5111102+01:00",
+  "UpdatedAssociateId": 663,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 463
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

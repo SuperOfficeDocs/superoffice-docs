@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 347,
-  "TemplateName": "Boehm Group",
+  "SelectionId": 178,
+  "TemplateName": "Will-Welch",
   "UseContacts": false
 }
 ```

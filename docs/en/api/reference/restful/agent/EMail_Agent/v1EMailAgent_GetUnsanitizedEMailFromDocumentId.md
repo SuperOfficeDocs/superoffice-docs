@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 145
+  "DocumentId": 638
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 817,
-      "ContactName": "Walter Inc and Sons",
-      "PersonId": 47,
-      "PersonName": "Langworth, Moen and Schaden",
-      "AssociateId": 394,
-      "Address": "vel",
-      "EmailId": 306,
+      "ContactId": 195,
+      "ContactName": "Homenick, Bernhard and Friesen",
+      "PersonId": 744,
+      "PersonName": "Homenick-Graham",
+      "AssociateId": 281,
+      "Address": "eius",
+      "EmailId": 783,
       "DuplicatePersonIds": [
-        212,
-        229
+        44,
+        92
       ],
-      "Name": "Ruecker-Collier",
+      "Name": "McCullough-Ortiz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 598,
-      "ContactName": "Wehner Inc and Sons",
-      "PersonId": 29,
-      "PersonName": "Towne, Becker and Lockman",
-      "AssociateId": 631,
-      "Address": "non",
-      "EmailId": 492,
+      "ContactId": 688,
+      "ContactName": "Runte LLC",
+      "PersonId": 581,
+      "PersonName": "Stokes LLC",
+      "AssociateId": 306,
+      "Address": "et",
+      "EmailId": 424,
       "DuplicatePersonIds": [
-        950,
-        410
+        744,
+        672
       ],
-      "Name": "Hansen-Kerluke",
+      "Name": "VonRueden, Toy and Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 102
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 1000,
-      "ContactName": "Jerde, Gusikowski and Mills",
-      "PersonId": 19,
-      "PersonName": "Hermann-Murazik",
-      "AssociateId": 203,
-      "Address": "iste",
-      "EmailId": 439,
+      "ContactId": 784,
+      "ContactName": "Schmidt, Grant and Conn",
+      "PersonId": 997,
+      "PersonName": "Ondricka-Crooks",
+      "AssociateId": 341,
+      "Address": "delectus",
+      "EmailId": 214,
       "DuplicatePersonIds": [
-        805,
-        531
+        219,
+        879
       ],
-      "Name": "McClure Inc and Sons",
+      "Name": "Cassin, Satterfield and D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldType": "System.String",
+          "FieldLength": 745
         }
       }
     }
   ],
-  "Subject": "voluptatem",
-  "HTMLBody": "fuga",
+  "Subject": "rerum",
+  "HTMLBody": "veritatis",
   "From": null,
-  "Sent": "2006-09-29T10:17:55.5977887+02:00",
-  "Size": 75,
+  "Sent": "2019-09-03T13:13:23.055223+02:00",
+  "Size": 790,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "enim",
-  "PlainBody": "odit",
+  "MessageID": "rem",
+  "PlainBody": "ut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 390,
+  "ServerId": 457,
   "Attachments": [
     {
-      "Description": "Centralized methodical monitoring",
-      "Filename": "vero",
-      "Size": 51,
-      "Type": "nemo",
-      "Encoding": "aut",
-      "Id": "aperiam",
-      "Disposition": "eum",
+      "Description": "Re-engineered value-added process improvement",
+      "Filename": "distinctio",
+      "Size": 930,
+      "Type": "rem",
+      "Encoding": "animi",
+      "Id": "doloribus",
+      "Disposition": "voluptates",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 194
+          "FieldType": "System.Int32",
+          "FieldLength": 938
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Walter, Senger and O'Kon",
+      "Name": "Rempel, Heidenreich and Towne",
       "Values": [
-        "et",
-        "quisquam"
+        "molestias",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 454
         }
       }
     },
     {
-      "Name": "Walter, Senger and O'Kon",
+      "Name": "Rempel, Heidenreich and Towne",
       "Values": [
-        "et",
-        "quisquam"
+        "molestias",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 454
         }
       }
     }
   ],
-  "FolderName": "Koss LLC",
-  "EmailItemId": 282,
-  "AccountId": 472,
-  "ReceivedAt": "2000-03-01T10:17:55.5977887+01:00",
+  "FolderName": "Greenholt, Bashirian and Thompson",
+  "EmailItemId": 749,
+  "AccountId": 812,
+  "ReceivedAt": "2013-01-26T13:13:23.055223+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-03-02T10:17:55.5977887+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2001-04-07T13:13:23.055223+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 433
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 724,
-    "Name": "Legros LLC",
-    "Tooltip": "commodi",
-    "Rank": 267,
-    "Key": "ut",
-    "MailTemplateId": 821,
-    "Deleted": false,
+    "ConsentSourceId": 864,
+    "Name": "Mayert, Howell and O'Hara",
+    "Tooltip": "voluptas",
+    "Rank": 649,
+    "Key": "cum",
+    "MailTemplateId": 404,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

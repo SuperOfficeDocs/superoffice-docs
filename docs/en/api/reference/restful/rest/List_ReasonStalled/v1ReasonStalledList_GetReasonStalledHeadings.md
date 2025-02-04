@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 443,
-    "Name": "Kuvalis, Toy and Hessel",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 435,
-    "UdListDefinitionId": 85,
+    "HeadingId": 905,
+    "Name": "Thiel, Metz and King",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "Rank": 480,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldLength": 52
       }
     }
   }

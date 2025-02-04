@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Sawayn, Spinka and Hills",
-    "ToolTip": "In nesciunt voluptates eum.",
+    "Id": 946,
+    "Name": "Schmidt LLC",
+    "ToolTip": "Qui nisi enim sunt provident voluptatem.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "reprehenderit",
-    "ColorBlock": 126,
-    "IconHint": "dolores",
+    "Rank": 643,
+    "Type": "at",
+    "ColorBlock": 39,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2007-02-06T10:18:01.0981224+01:00",
+    "LastChanged": "2012-01-16T13:13:33.3860624+01:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Brekke-Gulgowski",
-        "ToolTip": "Qui ex culpa id rem.",
-        "Deleted": false,
-        "Rank": 240,
-        "Type": "rerum",
-        "ColorBlock": 517,
-        "IconHint": "ipsam",
+        "Id": 863,
+        "Name": "Spencer Group",
+        "ToolTip": "Sint quaerat consequatur.",
+        "Deleted": true,
+        "Rank": 879,
+        "Type": "sed",
+        "ColorBlock": 380,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2010-05-11T10:18:01.0981224+02:00",
+        "LastChanged": "2010-03-23T13:13:33.3860624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "nobis",
-        "Hidden": false,
-        "FullName": "Prof. Maximilian Rashad Muller V"
+        "ExtraInfo": "assumenda",
+        "StyleHint": "at",
+        "Hidden": true,
+        "FullName": "Beulah Doyle"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Carrie Renner"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Zola Ebert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Altenwerth Group",
-    "ToolTip": "Eos reiciendis et sed sed.",
+    "Id": 152,
+    "Name": "Daniel, Connelly and Borer",
+    "ToolTip": "Corrupti numquam.",
     "Deleted": false,
     "Rank": 506,
-    "Type": "quam",
-    "ColorBlock": 101,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2001-06-22T10:18:01.0981224+02:00",
+    "Type": "eius",
+    "ColorBlock": 210,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2009-07-01T13:13:33.3860624+02:00",
     "ChildItems": [
       {
-        "Id": 808,
-        "Name": "Parker Group",
-        "ToolTip": "Autem ipsam.",
-        "Deleted": false,
-        "Rank": 512,
-        "Type": "aut",
-        "ColorBlock": 931,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2023-11-06T10:18:01.0981224+01:00",
+        "Id": 924,
+        "Name": "Runolfsdottir, Waelchi and Gorczany",
+        "ToolTip": "Necessitatibus magni.",
+        "Deleted": true,
+        "Rank": 479,
+        "Type": "et",
+        "ColorBlock": 292,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2008-06-12T13:13:33.3860624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Prof. Lambert Shaun Reynolds V",
+        "ExtraInfo": "ut",
+        "StyleHint": "asperiores",
+        "Hidden": false,
+        "FullName": "Bernice Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 420
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Trent D'Amore",
+    "ExtraInfo": "porro",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Santiago O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/03/2014 10:18:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/09/2002 10:18:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=841
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=05/20/2010 13:13:37
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/12/2023 13:13:37
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=847
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 211,
-  "ERPPriceListKey": "ipsam",
-  "QuoteConnectionId": 466,
-  "Name": "Reinger-Rodriguez",
-  "Description": "Right-sized explicit software",
-  "Currency": "non",
-  "CurrencyName": "Dare Inc and Sons",
-  "ValidFrom": "2021-01-12T10:18:01.0668705+01:00",
-  "ValidTo": "2007-03-03T10:18:01.0668705+01:00",
-  "IsActive": true,
+  "PriceListId": 623,
+  "ERPPriceListKey": "minima",
+  "QuoteConnectionId": 243,
+  "Name": "Hahn, Purdy and Schinner",
+  "Description": "Synergistic analyzing customer loyalty",
+  "Currency": "dolorum",
+  "CurrencyName": "Ankunding, Ruecker and Mayer",
+  "ValidFrom": "2021-06-04T13:13:33.2610909+02:00",
+  "ValidTo": "2021-10-15T13:13:33.2610909+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldLength": 243
     }
   }
 }

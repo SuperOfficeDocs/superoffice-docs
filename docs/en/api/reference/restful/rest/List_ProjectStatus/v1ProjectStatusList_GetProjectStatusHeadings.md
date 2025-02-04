@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 624,
-    "Name": "Steuber-Terry",
-    "Tooltip": "non",
+    "HeadingId": 439,
+    "Name": "Gerlach, Connelly and Johnston",
+    "Tooltip": "sunt",
     "Deleted": true,
-    "Rank": 364,
-    "UdListDefinitionId": 128,
+    "Rank": 601,
+    "UdListDefinitionId": 839,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 685
       }
     }
   }

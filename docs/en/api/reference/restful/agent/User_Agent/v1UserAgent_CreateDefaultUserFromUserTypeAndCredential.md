@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 914,
-  "CredentialType": "cupiditate",
-  "CredentialValue": "aperiam",
-  "CredentialDisplayValue": "dolorem"
+  "ContactId": 927,
+  "CredentialType": "ut",
+  "CredentialValue": "minima",
+  "CredentialDisplayValue": "vero"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 336,
-  "Name": "Schamberger-Jenkins",
-  "Rank": 716,
-  "Tooltip": "porro",
+  "AssociateId": 824,
+  "Name": "Bahringer-Champlin",
+  "Rank": 279,
+  "Tooltip": "dolorum",
   "LicenseOwners": [
     {
-      "Name": "Brekke-Wolf",
-      "Description": "Digitized fault-tolerant time-frame",
+      "Name": "Leffler, Schulist and Fay",
+      "Description": "Focused stable contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldType": "System.String",
+          "FieldLength": 46
         }
       }
     },
     {
-      "Name": "Brekke-Wolf",
-      "Description": "Digitized fault-tolerant time-frame",
+      "Name": "Leffler, Schulist and Fay",
+      "Description": "Focused stable contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldType": "System.String",
+          "FieldLength": 46
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eum",
-      "Tooltip": "et",
-      "Id": 738,
-      "Rank": 680,
-      "Deleted": false,
+      "Value": "esse",
+      "Tooltip": "architecto",
+      "Id": 934,
+      "Rank": 71,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 449
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2020-06-20T10:17:56.3009492+02:00",
-  "Lastlogout": "1997-09-27T10:17:56.3009492+02:00",
-  "EjUserId": 838,
-  "RequestSignature": "qui",
+  "Deleted": true,
+  "Lastlogin": "1999-09-04T13:13:24.4465489+02:00",
+  "Lastlogout": "2010-06-29T13:13:24.4465489+02:00",
+  "EjUserId": 153,
+  "RequestSignature": "nam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quam",
-      "DisplayValue": "voluptas",
+      "Value": "id",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 987
+          "FieldType": "System.Int32",
+          "FieldLength": 543
         }
       }
     },
     {
       "Type": null,
-      "Value": "quam",
-      "DisplayValue": "voluptas",
+      "Value": "id",
+      "DisplayValue": "dolores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 543
+        }
+      }
+    }
+  ],
+  "UserName": "Kuhn LLC",
+  "TicketCategories": [
+    {
+      "Id": 154,
+      "Name": "Brakus, Kuphal and Reilly",
+      "ToolTip": "Suscipit non voluptatum sit voluptatum et odit aut.",
+      "Deleted": false,
+      "Rank": 840,
+      "Type": "tempora",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "voluptatem",
+      "ColorBlock": 274,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "consequatur",
+      "FullName": "Dr. Lera Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 987
+          "FieldLength": 151
         }
       }
     }
   ],
-  "UserName": "Harvey-Hills",
-  "TicketCategories": [
-    {
-      "Id": 829,
-      "Name": "Botsford, Mann and Schmidt",
-      "ToolTip": "Nesciunt dolores unde et distinctio assumenda.",
-      "Deleted": false,
-      "Rank": 759,
-      "Type": "nihil",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "vero",
-      "ColorBlock": 573,
-      "ExtraInfo": "ullam",
-      "StyleHint": "dicta",
-      "FullName": "Ms. Carmen Swift DVM",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 372
-        }
-      }
-    }
-  ],
-  "NickName": "Eichmann LLC",
+  "NickName": "Botsford LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "quam"
+    "ExtraFields1": "est",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "quae"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "tenetur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Brekke-Jenkins",
-      "DisplayName": "Hauck, Schiller and Leffler",
-      "Description": "Organic empowering capacity",
-      "ToolTip": "Nulla voluptatem reiciendis.",
+      "Name": "Wiegand Inc and Sons",
+      "DisplayName": "Waters, Hoeger and Schultz",
+      "Description": "Centralized client-driven help-desk",
+      "ToolTip": "Neque atque qui eius.",
       "Actions": "Implicit",
-      "ActionData": "ad",
+      "ActionData": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 352
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldLength": 402
     }
   }
 }

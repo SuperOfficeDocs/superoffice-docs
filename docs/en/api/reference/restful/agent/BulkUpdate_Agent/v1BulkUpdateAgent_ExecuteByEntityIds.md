@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "cumque",
-      "ValueType": "maxime",
-      "Mandatory": false,
-      "EncodedDisplayName": "Howell Group",
-      "EncodedDisplayDescription": "Mandatory well-modulated knowledge base",
-      "IconHint": "consequatur",
+      "Key": "ipsum",
+      "ValueType": "voluptas",
+      "Mandatory": true,
+      "EncodedDisplayName": "Lesch Group",
+      "EncodedDisplayDescription": "Self-enabling context-sensitive benchmark",
+      "IconHint": "aspernatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "deserunt",
-      "EncodedDataCaptionDescription": "Customer-focused neutral model",
-      "CurrentOperationType": "omnis",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Optimized upward-trending task-force",
+      "CurrentOperationType": "voluptatem",
       "Values": [
-        "tempora",
-        "animi"
+        "molestiae",
+        "dolores"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "ipsum"
+        "sequi",
+        "quia"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Schoen Group",
-  "Context": "nihil",
-  "Ids": "reprehenderit"
+  "TableName": "Littel Group",
+  "Context": "quia",
+  "Ids": "ab"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-305
+889
 ```

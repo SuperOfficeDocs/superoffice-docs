@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 618,
-    "Name": "Altenwerth-Lubowitz",
-    "Tooltip": "fuga",
-    "Rank": 409,
+    "SaleTypeId": 253,
+    "Name": "Daugherty, Botsford and Champlin",
+    "Tooltip": "culpa",
+    "Rank": 505,
     "DurationUnit": "Century",
-    "SaleDuration": 659,
-    "SaleTypeCatId": 266,
+    "SaleDuration": 214,
+    "SaleTypeCatId": 667,
     "Deleted": true,
-    "HasGuide": true,
-    "HasStakeholders": true,
+    "HasGuide": false,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 3,
-    "QuoteLinesTemplate": 38,
-    "ConfirmationLinesTemplate": 143,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 951,
+    "QuoteLinesTemplate": 353,
+    "ConfirmationLinesTemplate": 916,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 71,
-    "MinEarningPercent": 446,
-    "GroupQuoteLinesBy": 120,
-    "SortGroupLinesBy": 467,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 349,
+    "MinEarningPercent": 273,
+    "GroupQuoteLinesBy": 161,
+    "SortGroupLinesBy": 411,
     "Stages": [
       {
-        "Id": 26,
-        "Name": "Oberbrunner Inc and Sons",
-        "ToolTip": "Debitis aspernatur veniam qui deserunt aut voluptas.",
+        "Id": 436,
+        "Name": "Abernathy LLC",
+        "ToolTip": "Dignissimos assumenda et facere facere qui vel.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "asperiores",
-        "ColorBlock": 547,
-        "IconHint": "corrupti",
+        "Rank": 384,
+        "Type": "repudiandae",
+        "ColorBlock": 989,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2002-11-19T10:18:01.1606262+01:00",
+        "LastChanged": "2000-11-13T13:13:33.5578902+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "ad",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Vickie Rice",
+        "FullName": "Eloisa Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldType": "System.String",
+            "FieldLength": 546
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldLength": 620
       }
     }
   }

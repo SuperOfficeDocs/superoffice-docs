@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Lubowitz-Kemmer",
-    "ToolTip": "Minima ipsum atque quasi qui minus sint.",
+    "Id": 1001,
+    "Name": "Kshlerin Inc and Sons",
+    "ToolTip": "Quod quod.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "amet",
-    "ColorBlock": 751,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "1999-11-09T10:18:00.9418629+01:00",
+    "Rank": 489,
+    "Type": "beatae",
+    "ColorBlock": 236,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "1998-05-03T13:13:32.839316+02:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Et quaerat sit officiis consequatur omnis non ut.",
+        "Id": 953,
+        "Name": "Feil, Parker and Spencer",
+        "ToolTip": "Facere voluptatibus aliquam odio doloremque.",
         "Deleted": false,
-        "Rank": 160,
-        "Type": "rem",
-        "ColorBlock": 666,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2012-07-30T10:18:00.9418629+02:00",
+        "Rank": 352,
+        "Type": "sed",
+        "ColorBlock": 368,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2003-01-30T13:13:32.839316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Everette Strosin",
+        "ExtraInfo": "sit",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Amira Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 215
+            "FieldType": "System.Int32",
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "architecto",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Idell Kuhic",
+    "FullName": "Mrs. Haylie Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

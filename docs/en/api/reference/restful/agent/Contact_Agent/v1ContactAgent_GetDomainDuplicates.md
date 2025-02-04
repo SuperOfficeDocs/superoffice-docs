@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "nam"
+  "Domain": "dolores"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bashirian-Friesen",
-    "SoPrimaryKey": 679,
-    "EntryName": "Beier-Littel",
-    "EntryIdentifier": "dolore",
-    "RuleDisplayName": "Feeney LLC",
+    "RuleName": "Haley Inc and Sons",
+    "SoPrimaryKey": 878,
+    "EntryName": "Ebert LLC",
+    "EntryIdentifier": "blanditiis",
+    "RuleDisplayName": "Mayert Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

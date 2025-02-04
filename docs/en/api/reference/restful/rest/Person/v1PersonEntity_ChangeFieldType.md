@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 791,
-  "ColumnId": 380,
-  "FieldDefault": "qui",
-  "FieldHeight": 108,
-  "FieldLabel": "est",
-  "FieldLeft": 546,
-  "FieldTop": 180,
+  "UDefFieldId": 264,
+  "ColumnId": 611,
+  "FieldDefault": "eius",
+  "FieldHeight": 883,
+  "FieldLabel": "minus",
+  "FieldLeft": 245,
+  "FieldTop": 103,
   "FieldType": "Checkbox",
-  "FieldWidth": 912,
-  "FormatMask": "ut",
+  "FieldWidth": 960,
+  "FormatMask": "autem",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 99,
-  "LabelLeft": 496,
-  "LabelTop": 422,
-  "LabelWidth": 889,
-  "LastVersionId": 739,
-  "ListTableId": 138,
-  "IsMandatory": false,
+  "LabelHeight": 935,
+  "LabelLeft": 159,
+  "LabelTop": 14,
+  "LabelWidth": 865,
+  "LastVersionId": 68,
+  "ListTableId": 638,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 918,
-  "ProgId": "dolor",
+  "Page1LineNo": 981,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 927,
-  "TextLength": 227,
-  "Tooltip": "ratione",
-  "UdefIdentity": 522,
-  "UDListDefinitionId": 579,
+  "ShortLabel": "fuga",
+  "TabOrder": 641,
+  "TextLength": 281,
+  "Tooltip": "repellendus",
+  "UdefIdentity": 815,
+  "UDListDefinitionId": 177,
   "Justification": "Center",
-  "Version": 451,
-  "TemplateVariableName": "O'Conner-Miller",
+  "Version": 364,
+  "TemplateVariableName": "Roob, Metz and Gaylord",
   "HasBeenPublished": false,
-  "MdoListName": "White, Fritsch and Swift",
+  "MdoListName": "Dare, Hills and Johnson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   }
 }

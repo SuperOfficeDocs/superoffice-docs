@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Bailey-Abbott",
-    "Tooltip": "nobis",
+    "HeadingId": 682,
+    "Name": "Daugherty-Carroll",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 781,
+    "Rank": 198,
+    "UdListDefinitionId": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 602
       }
     }
   }

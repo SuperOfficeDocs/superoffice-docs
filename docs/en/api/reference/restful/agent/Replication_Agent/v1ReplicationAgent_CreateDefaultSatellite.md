@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 901,
-  "Created": "2019-10-11T10:17:55.9571855+02:00",
+  "SatelliteId": 655,
+  "Created": "2006-01-05T13:13:23.7738157+01:00",
   "CreatedBy": null,
-  "Updated": "2003-10-18T10:17:55.9571855+02:00",
+  "Updated": "2000-03-01T13:13:23.7738157+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Orn-Tremblay",
-      "Description": "Expanded leading edge customer loyalty",
+      "Name": "Boyer Group",
+      "Description": "Configurable next generation adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldType": "System.Int32",
+          "FieldLength": 378
         }
       }
     },
     {
-      "Name": "Orn-Tremblay",
-      "Description": "Expanded leading edge customer loyalty",
+      "Name": "Boyer Group",
+      "Description": "Configurable next generation adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldType": "System.Int32",
+          "FieldLength": 378
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

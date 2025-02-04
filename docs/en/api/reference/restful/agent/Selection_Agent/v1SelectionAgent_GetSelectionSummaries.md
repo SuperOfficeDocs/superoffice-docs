@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    26,
-    875
+    73,
+    537
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 33,
-    "Name": "Bogisich, Hauck and Wunsch",
-    "TargetTable": "dolorum",
-    "Registered": "2020-09-20T10:17:56.1446968+02:00",
-    "ProviderName": "Lesch Inc and Sons"
+    "SelectionId": 908,
+    "Name": "Thiel, Friesen and Dooley",
+    "TargetTable": "ullam",
+    "Registered": "2014-03-26T13:13:23.9778431+01:00",
+    "ProviderName": "Cole Group"
   },
   {
-    "SelectionId": 33,
-    "Name": "Bogisich, Hauck and Wunsch",
-    "TargetTable": "dolorum",
-    "Registered": "2020-09-20T10:17:56.1446968+02:00",
-    "ProviderName": "Lesch Inc and Sons"
+    "SelectionId": 908,
+    "Name": "Thiel, Friesen and Dooley",
+    "TargetTable": "ullam",
+    "Registered": "2014-03-26T13:13:23.9778431+01:00",
+    "ProviderName": "Cole Group"
   }
 ]
 ```

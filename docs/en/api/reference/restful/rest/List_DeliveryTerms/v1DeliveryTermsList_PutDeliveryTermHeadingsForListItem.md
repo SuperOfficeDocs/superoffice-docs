@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Feil-Dietrich",
-    "ToolTip": "Rerum est harum eum.",
+    "Id": 637,
+    "Name": "Kirlin Inc and Sons",
+    "ToolTip": "Tempora et ipsam.",
     "Deleted": false,
-    "Rank": 700,
-    "Type": "reiciendis",
-    "ColorBlock": 259,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2021-02-13T10:18:01.0043667+01:00",
+    "Rank": 307,
+    "Type": "est",
+    "ColorBlock": 745,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2016-01-26T13:13:33.042395+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Schoen-Nader",
-        "ToolTip": "Qui deleniti.",
-        "Deleted": true,
-        "Rank": 77,
-        "Type": "temporibus",
-        "ColorBlock": 744,
-        "IconHint": "voluptatum",
+        "Id": 258,
+        "Name": "Barton, Bashirian and Hessel",
+        "ToolTip": "Quia aliquam sed pariatur temporibus.",
+        "Deleted": false,
+        "Rank": 536,
+        "Type": "quo",
+        "ColorBlock": 125,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2005-09-19T10:18:01.0043667+02:00",
+        "LastChanged": "2010-07-15T13:13:33.042395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "et",
+        "ExtraInfo": "officiis",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Roy Stamm"
+        "FullName": "Aaron Smitham"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Brian Moore"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Mrs. Jaquelin Bailey"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Gibson Group",
-    "ToolTip": "Fugiat vero similique nihil enim doloremque.",
+    "Id": 564,
+    "Name": "Howell, Koss and Monahan",
+    "ToolTip": "Nihil reiciendis labore in quia voluptatum.",
     "Deleted": false,
-    "Rank": 997,
-    "Type": "vero",
-    "ColorBlock": 320,
-    "IconHint": "alias",
+    "Rank": 800,
+    "Type": "inventore",
+    "ColorBlock": 487,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2015-08-25T10:18:01.0043667+02:00",
+    "LastChanged": "2003-09-28T13:13:33.042395+02:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Watsica, Cassin and Rutherford",
-        "ToolTip": "Aut rem sit reiciendis assumenda officiis.",
-        "Deleted": false,
-        "Rank": 19,
-        "Type": "nam",
-        "ColorBlock": 390,
-        "IconHint": "et",
+        "Id": 717,
+        "Name": "Auer LLC",
+        "ToolTip": "Temporibus illum nemo.",
+        "Deleted": true,
+        "Rank": 389,
+        "Type": "quibusdam",
+        "ColorBlock": 990,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2001-12-27T10:18:01.0043667+01:00",
+        "LastChanged": "2024-01-23T13:13:33.042395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ms. Vickie Philip Casper",
+        "FullName": "Prof. Lexie Tracy Kshlerin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 821
+            "FieldType": "System.Int32",
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Cloyd Volkman",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Josephine Bartell Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 972
       }
     }
   }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "VonRueden-Buckridge",
-  "Tooltip": "aut",
+  "Id": 168,
+  "Name": "Monahan Inc and Sons",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "UdListDefinitionId": 571,
-  "Rank": 443
+  "UdListDefinitionId": 155,
+  "Rank": 784
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 271,
-  "Name": "McLaughlin-Kessler",
-  "Tooltip": "in",
+  "Id": 899,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "sed",
   "Deleted": false,
-  "UdListDefinitionId": 766,
-  "Rank": 637,
+  "UdListDefinitionId": 179,
+  "Rank": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 96
     }
   }
 }

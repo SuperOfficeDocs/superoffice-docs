@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 71,
-      "UniqueId": "nesciunt",
-      "Name": "Koelpin-Beer",
-      "Description": "Sharable neutral budgetary management",
-      "AssociateId": 530,
-      "Columns": 963,
+      "DashboardId": 17,
+      "UniqueId": "quis",
+      "Name": "Auer-Rippin",
+      "Description": "Centralized responsive customer loyalty",
+      "AssociateId": 108,
+      "Columns": 460,
       "Theme": null,
-      "VisibleForAll": 207,
+      "VisibleForAll": 448,
       "VisibleForAssociates": [
-        260,
-        32
+        35,
+        861
       ],
       "VisibleForGroups": [
-        628,
-        680
+        919,
+        13
       ],
-      "PinForAll": 827,
+      "PinForAll": 107,
       "PinForAssociates": [
-        99,
-        101
+        558,
+        875
       ],
       "PinForGroups": [
-        379,
-        404
+        358,
+        972
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 980,
-      "UniqueId": "nulla",
-      "Name": "Walker Group",
-      "Description": "Organic zero administration info-mediaries",
-      "AssociateId": 149,
-      "Columns": 311,
+      "DashboardId": 916,
+      "UniqueId": "laboriosam",
+      "Name": "Kautzer-Kris",
+      "Description": "Reverse-engineered secondary definition",
+      "AssociateId": 987,
+      "Columns": 733,
       "Theme": null,
-      "VisibleForAll": 308,
+      "VisibleForAll": 210,
       "VisibleForAssociates": [
-        689,
-        26
+        702,
+        346
       ],
       "VisibleForGroups": [
-        968,
-        980
+        768,
+        749
       ],
-      "PinForAll": 198,
+      "PinForAll": 221,
       "PinForAssociates": [
-        61,
-        132
+        957,
+        724
       ],
       "PinForGroups": [
-        915,
-        944
+        847,
+        963
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 134,
-      "UniqueId": "magnam",
-      "Name": "Jerde Group",
-      "Description": "Triple-buffered context-sensitive policy",
-      "AssociateId": 888,
-      "Columns": 884,
+      "DashboardId": 519,
+      "UniqueId": "doloremque",
+      "Name": "Morissette, Torphy and Pagac",
+      "Description": "Sharable even-keeled application",
+      "AssociateId": 650,
+      "Columns": 578,
       "Theme": null,
-      "VisibleForAll": 379,
+      "VisibleForAll": 213,
       "VisibleForAssociates": [
-        282,
-        174
+        737,
+        392
       ],
       "VisibleForGroups": [
-        268,
-        582
+        389,
+        591
       ],
-      "PinForAll": 816,
+      "PinForAll": 548,
       "PinForAssociates": [
-        188,
-        17
+        969,
+        191
       ],
       "PinForGroups": [
-        156,
-        368
+        254,
+        115
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 985
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldLength": 849
     }
   }
 }

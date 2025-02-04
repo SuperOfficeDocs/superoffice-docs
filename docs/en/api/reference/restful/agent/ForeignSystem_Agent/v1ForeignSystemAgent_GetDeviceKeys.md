@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gorczany Group",
-  "DeviceName": "Jast, Dickens and Howell"
+  "ApplicationName": "Robel, Schmidt and O'Kon",
+  "DeviceName": "Erdman Group"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "rerum",
-    "Value": "quam",
-    "RecordId": 256,
-    "CreatedDate": "2000-07-06T10:17:55.660285+02:00",
-    "UpdatedDate": "2013-12-29T10:17:55.660285+01:00",
-    "UpdatedBy": "minima",
-    "CreatedBy": "voluptatem",
-    "TableName": "Lesch LLC",
+    "Key": "quia",
+    "Value": "saepe",
+    "RecordId": 923,
+    "CreatedDate": "2002-06-29T13:13:23.1802042+02:00",
+    "UpdatedDate": "2020-02-22T13:13:23.1802042+01:00",
+    "UpdatedBy": "quo",
+    "CreatedBy": "quia",
+    "TableName": "Stanton-Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 188
       }
     }
   }

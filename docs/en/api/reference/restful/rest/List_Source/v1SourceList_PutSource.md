@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Sanford Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 688,
-  "Rank": 435
+  "Id": 3,
+  "Name": "Lakin-Kemmer",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 166,
+  "Rank": 385
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Feil Group",
-  "Tooltip": "provident",
+  "Id": 584,
+  "Name": "Cummings-Legros",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 469,
-  "Rank": 899,
+  "UdListDefinitionId": 882,
+  "Rank": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

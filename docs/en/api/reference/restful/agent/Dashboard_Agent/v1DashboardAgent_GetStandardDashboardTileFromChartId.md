@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "quas"
+  "ChartId": "magnam"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 478,
-  "Caption": "voluptatem",
-  "Description": "Devolved background infrastructure",
-  "ChartName": "Bergstrom, Johnston and Littel",
-  "ChartId": "id",
-  "IsDefault": true,
-  "AssociateId": 309,
-  "GroupId": 985,
-  "SelectionId": 485,
-  "Config": "praesentium",
+  "DashboardTileId": 247,
+  "Caption": "reiciendis",
+  "Description": "Universal holistic leverage",
+  "ChartName": "Von, Veum and Wisozk",
+  "ChartId": "consequatur",
+  "IsDefault": false,
+  "AssociateId": 677,
+  "GroupId": 227,
+  "SelectionId": 23,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kshlerin-Lind",
-      "Description": "Up-sized empowering time-frame",
+      "Name": "Batz, Eichmann and Bauch",
+      "Description": "Virtual 24/7 hierarchy",
       "Type": "Boolean",
-      "ListName": "Zboncak-Hamill",
+      "ListName": "Hayes-Abernathy",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quis",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 13
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 402,
+      "VisibleId": 872,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 777
         }
       }
     },
     {
-      "VisibleId": 402,
+      "VisibleId": 872,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 777
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

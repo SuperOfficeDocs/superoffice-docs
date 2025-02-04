@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Bruen-Mertz",
-    "Tooltip": "quos",
-    "Deleted": true,
-    "Rank": 52,
-    "UdListDefinitionId": 118,
+    "HeadingId": 186,
+    "Name": "Willms Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 202,
+    "UdListDefinitionId": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldLength": 965
       }
     }
   }

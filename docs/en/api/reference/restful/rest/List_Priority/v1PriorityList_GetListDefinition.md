@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
-  "Name": "Kiehn-Bergnaum",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 620,
+  "Id": 971,
+  "Name": "Batz LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 614,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "facere",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   },
   "_Links": {

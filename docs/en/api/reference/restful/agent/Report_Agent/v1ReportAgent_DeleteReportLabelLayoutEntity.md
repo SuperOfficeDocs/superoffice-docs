@@ -25,7 +25,7 @@ Deletes the ReportLabelLayoutEntity
 | ReportLabelLayoutEntityId | int32 | **Required** The id of the ReportLabelLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=155
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=907
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

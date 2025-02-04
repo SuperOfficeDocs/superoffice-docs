@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 989,
-    "Name": "Beier-Goodwin",
-    "Tooltip": "dolor",
+    "HeadingId": 284,
+    "Name": "Bednar LLC",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 845,
+    "Rank": 828,
+    "UdListDefinitionId": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldLength": 26
       }
     }
   }

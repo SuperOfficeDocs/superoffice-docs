@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "iste",
+    "path": "adipisci",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iste",
+    "path": "adipisci",
     "value": {}
   }
 ]
@@ -150,45 +150,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 222,
-  "Name": "Kreiger Group",
-  "Rank": 167,
-  "Tooltip": "odio",
-  "Icon": "illo",
-  "DefaultTicketStatus": 791,
+  "TicketTypeId": 488,
+  "Name": "Dickinson-Adams",
+  "Rank": 199,
+  "Tooltip": "et",
+  "Icon": "voluptatum",
+  "DefaultTicketStatus": 905,
   "TicketStatuses": [
-    803,
-    787
+    910,
+    230
   ],
-  "DefaultTicketPriority": 769,
+  "DefaultTicketPriority": 486,
   "TicketPriorities": [
-    736,
-    863
+    187,
+    651
   ],
-  "ReplyTemplate": 676,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "ReplyTemplate": 150,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    548,
-    475
+    673,
+    375
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 110
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

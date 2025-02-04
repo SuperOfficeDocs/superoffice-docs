@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Kuhn-Bahringer",
-    "ToolTip": "Asperiores facilis alias est expedita soluta ipsa.",
+    "Id": 858,
+    "Name": "Labadie-Rosenbaum",
+    "ToolTip": "Nihil voluptas voluptas quae repellendus et dolorem corrupti.",
     "Deleted": true,
-    "Rank": 75,
-    "Type": "eum",
-    "ColorBlock": 106,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2013-09-07T10:18:01.0668705+02:00",
+    "Rank": 277,
+    "Type": "fuga",
+    "ColorBlock": 124,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2008-10-01T13:13:33.2454698+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Hettinger LLC",
-        "ToolTip": "Quae et.",
-        "Deleted": true,
-        "Rank": 272,
-        "Type": "expedita",
-        "ColorBlock": 831,
-        "IconHint": "et",
+        "Id": 972,
+        "Name": "Rowe, Weissnat and Moen",
+        "ToolTip": "Ratione voluptates.",
+        "Deleted": false,
+        "Rank": 927,
+        "Type": "quam",
+        "ColorBlock": 639,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2006-05-06T10:18:01.0668705+02:00",
+        "LastChanged": "2022-06-16T13:13:33.2454698+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "similique",
+        "ExtraInfo": "error",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Marion Bechtelar",
+        "FullName": "Dr. Deontae Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "fugit",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Dr. Breana Judson Fay MD",
+    "FullName": "Fernando Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 304
       }
     }
   }

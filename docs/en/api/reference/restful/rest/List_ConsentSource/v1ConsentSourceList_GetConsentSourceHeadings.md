@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 735,
-    "Name": "Reynolds, Crooks and Kautzer",
-    "Tooltip": "a",
+    "HeadingId": 440,
+    "Name": "VonRueden, Botsford and Mohr",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 577,
-    "UdListDefinitionId": 824,
+    "Rank": 130,
+    "UdListDefinitionId": 850,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldType": "System.String",
+        "FieldLength": 936
       }
     }
   }

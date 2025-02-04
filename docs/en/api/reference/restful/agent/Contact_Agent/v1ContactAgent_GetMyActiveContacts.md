@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2001-05-21T10:17:55.2540178+02:00",
+  "ActivityStartTime": "2012-01-17T13:13:22.3832725+01:00",
   "ContactCategories": [
-    811,
-    351
+    659,
+    355
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 947,
+    "ContactId": 909,
     "Department": "",
-    "OrgNr": "693351",
-    "Name": "Kris Group",
+    "OrgNr": "259085",
+    "Name": "Thompson, Russel and Dach",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Miss Arjun Collins DVM",
+    "AssociateFullName": "Kayli Anderson",
     "Action": "ActivityCompleted",
-    "ActionTime": "2001-06-19T10:17:55.2540178+02:00",
+    "ActionTime": "2021-03-15T13:13:22.3832725+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Johnston Inc and Sons",
-    "ActionId": 140,
-    "PersonId": 102,
-    "ActivityPersonId": 658,
-    "AssociateId": 134,
+    "ActivityPersonName": "Bashirian LLC",
+    "ActionId": 761,
+    "PersonId": 450,
+    "ActivityPersonId": 263,
+    "AssociateId": 346,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 896
       }
     }
   }

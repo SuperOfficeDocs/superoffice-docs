@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 734,
-  "LanguageId": 726,
-  "PersonId": 247,
-  "TicketId": 270
+  "ReplyTemplateId": 770,
+  "LanguageId": 363,
+  "PersonId": 887,
+  "TicketId": 670
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 247,
-  "PlainParsed": "aut",
-  "HtmlParsed": "consectetur",
+  "ReplyTemplateId": 603,
+  "PlainParsed": "sequi",
+  "HtmlParsed": "sequi",
   "Attachments": [
     {
-      "AttachmentId": 225,
-      "Name": "Cole-Fahey",
-      "ContentType": "esse",
-      "AttSize": 587,
-      "InlineImage": false,
-      "ContentId": "nobis",
-      "AuthKey": "hic",
+      "AttachmentId": 753,
+      "Name": "Jerde-Beahan",
+      "ContentType": "similique",
+      "AttSize": 137,
+      "InlineImage": true,
+      "ContentId": "quaerat",
+      "AuthKey": "ducimus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 645
+          "FieldType": "System.String",
+          "FieldLength": 655
         }
       }
     }
   ],
-  "Subject": "molestiae",
+  "Subject": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 137
     }
   }
 }

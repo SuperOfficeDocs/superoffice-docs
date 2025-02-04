@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "nihil"
+  "ChatId": "voluptatum"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2012-11-06T10:17:54.8008654+01:00",
-    "UserPrompt": "explicabo",
-    "UserDisplayText": "recusandae",
-    "BotResponse": "voluptatibus",
+    "Timestamp": "2004-07-07T13:13:21.4771717+02:00",
+    "UserPrompt": "voluptatem",
+    "UserDisplayText": "est",
+    "BotResponse": "deleniti",
     "BotActions": {
-      "BotActions1": "est",
-      "BotActions2": "est"
+      "BotActions1": "facere",
+      "BotActions2": "velit"
     },
     "Attachments": [
-      "sit",
-      "mollitia"
+      "suscipit",
+      "quis"
     ]
   },
   {
-    "Timestamp": "2012-11-06T10:17:54.8008654+01:00",
-    "UserPrompt": "explicabo",
-    "UserDisplayText": "recusandae",
-    "BotResponse": "voluptatibus",
+    "Timestamp": "2004-07-07T13:13:21.4771717+02:00",
+    "UserPrompt": "voluptatem",
+    "UserDisplayText": "est",
+    "BotResponse": "deleniti",
     "BotActions": {
-      "BotActions1": "est",
-      "BotActions2": "est"
+      "BotActions1": "facere",
+      "BotActions2": "velit"
     },
     "Attachments": [
-      "sit",
-      "mollitia"
+      "suscipit",
+      "quis"
     ]
   }
 ]

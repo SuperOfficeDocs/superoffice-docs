@@ -28,6 +28,7 @@ Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need 
 * [DeleteMessageHeaders](DeleteMessageHeaders.md)
 * [DeleteTicketEntity](DeleteTicketEntity.md)
 * [DeleteTicketMessageEntity](DeleteTicketMessageEntity.md)
+* [DoEscalating](DoEscalating.md)
 * [GetAttachmentEntity](GetAttachmentEntity.md)
 * [GetAttachmentInfo](GetAttachmentInfo.md)
 * [GetAttachmentInfoNonInline](GetAttachmentInfoNonInline.md)

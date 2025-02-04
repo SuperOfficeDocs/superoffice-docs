@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 131,
-    "Name": "Walker Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 720,
+    "Name": "Grant, Dickinson and Shanahan",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 789,
-    "UdListDefinitionId": 915
+    "Rank": 257,
+    "UdListDefinitionId": 754
   },
   {
-    "HeadingId": 131,
-    "Name": "Walker Inc and Sons",
-    "Tooltip": "ut",
+    "HeadingId": 720,
+    "Name": "Grant, Dickinson and Shanahan",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 789,
-    "UdListDefinitionId": 915
+    "Rank": 257,
+    "UdListDefinitionId": 754
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Becker-McDermott",
-    "Tooltip": "aliquid",
+    "HeadingId": 205,
+    "Name": "Turcotte-Purdy",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "Rank": 83,
-    "UdListDefinitionId": 582,
+    "Rank": 389,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 349
       }
     }
   }

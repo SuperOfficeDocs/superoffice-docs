@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 02 Jul 1999 10:18:00 G7T
+Last-Modified: Thu, 16 Dec 1999 13:13:31 G12T
 
 {
-  "ForeignAppId": 708,
-  "Name": "Ankunding-Rath",
-  "CreatedDate": "2016-08-03T10:18:00.4105739+02:00",
-  "UpdatedDate": "1999-07-02T10:18:00.4105739+02:00",
+  "ForeignAppId": 759,
+  "Name": "Block LLC",
+  "CreatedDate": "2000-02-29T13:13:31.7457296+01:00",
+  "UpdatedDate": "1999-12-16T13:13:31.7457296+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 272,
-      "Name": "Turcotte LLC",
-      "CreatedDate": "2022-11-09T10:18:00.4105739+01:00",
-      "UpdatedDate": "2013-11-21T10:18:00.4105739+01:00",
-      "AssociateFullName": "Dean Hessel",
-      "CreatedBy": "quas",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 961,
+      "ForeignDeviceId": 518,
+      "Name": "Strosin, Weimann and Wehner",
+      "CreatedDate": "2008-05-17T13:13:31.7457296+02:00",
+      "UpdatedDate": "2021-04-04T13:13:31.7457296+02:00",
+      "AssociateFullName": "Ms. Edna Rath",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 762,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 878
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Fri, 02 Jul 1999 10:18:00 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   },
   "_Links": {

@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 87,
-    "Tooltip": "autem",
+    "Unrestricted": false,
+    "Total": 388,
+    "Tooltip": "repudiandae",
     "CanAssign": false,
-    "Free": 667,
-    "InUse": 174,
+    "Free": 473,
+    "InUse": 985,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 708,
-    "Name": "Frami-Nikolaus",
-    "Description": "Balanced leading edge utilisation",
-    "PrerequisiteModuleName": "Daugherty-Jacobs",
-    "SortOrder": 497,
-    "ExtraFlags": 693,
+    "ModuleLicenseId": 281,
+    "Name": "Ratke Inc and Sons",
+    "Description": "Realigned dedicated workforce",
+    "PrerequisiteModuleName": "Grady, Cormier and Reynolds",
+    "SortOrder": 544,
+    "ExtraFlags": 989,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 403
       }
     }
   }

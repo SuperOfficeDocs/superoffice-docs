@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 14 Mar 2005 10:18:00 G3T
+Last-Modified: Sun, 19 Sep 2010 13:13:31 G9T
 
 {
-  "DocumentId": 882,
+  "DocumentId": 412,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "possimus",
-  "Header": "modi",
-  "Name": "Rempel Inc and Sons",
-  "OurRef": "velit",
-  "YourRef": "numquam",
-  "CreatedDate": "2002-08-19T10:18:00.3480699+02:00",
-  "UpdatedDate": "2005-03-14T10:18:00.3480699+01:00",
-  "Description": "Devolved contextually-based algorithm",
+  "Attention": "temporibus",
+  "Header": "dolorum",
+  "Name": "Gorczany-Marvin",
+  "OurRef": "ex",
+  "YourRef": "aut",
+  "CreatedDate": "2023-08-22T13:13:31.6207599+02:00",
+  "UpdatedDate": "2010-09-19T13:13:31.6207599+02:00",
+  "Description": "Automated full-range archive",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-03-30T10:18:00.3637024+02:00",
-  "ExternalRef": "autem",
+  "Date": "2010-04-18T13:13:31.6363796+02:00",
+  "ExternalRef": "eum",
   "Completed": "Completed",
-  "ActiveLinks": 770,
+  "ActiveLinks": 577,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Okuneva-Hettinger",
-      "Id": 758,
-      "Description": "Visionary object-oriented service-desk",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 516,
+      "EntityName": "Bergstrom Group",
+      "Id": 927,
+      "Description": "Compatible system-worthy flexibility",
+      "ExtraInfo": "consectetur",
+      "LinkId": 641,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 617
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 839,
-  "Snum": 732,
+  "SuggestedDocumentId": 408,
+  "Snum": 90,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Beau Beatty"
+    "SuperOffice:1": "Ian Addie Flatley DDS",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "neque"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "2014-07-29T10:18:00.3637024+02:00",
-  "PublishTo": "2008-10-01T10:18:00.3637024+02:00",
-  "PublishFrom": "2011-09-01T10:18:00.3637024+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-05-18T13:13:31.6363796+02:00",
+  "PublishTo": "2001-10-28T13:13:31.6363796+01:00",
+  "PublishFrom": "2007-08-31T13:13:31.6363796+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 515,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 515,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 862
         }
       }
     }
@@ -191,8 +191,8 @@ Last-Modified: Mon, 14 Mar 2005 10:18:00 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   }
 }

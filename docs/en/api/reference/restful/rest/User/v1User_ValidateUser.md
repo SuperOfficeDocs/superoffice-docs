@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 248,
-  "Name": "Cartwright, Morissette and Effertz",
-  "Rank": 137,
-  "Tooltip": "nobis",
+  "AssociateId": 171,
+  "Name": "Labadie-Lind",
+  "Rank": 697,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Schaden-Murazik",
-      "Description": "Phased static function",
+      "Name": "VonRueden Group",
+      "Description": "Triple-buffered holistic alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Schaden-Murazik",
-      "Description": "Phased static function",
+      "Name": "VonRueden Group",
+      "Description": "Triple-buffered holistic alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "excepturi",
-      "Tooltip": "autem",
-      "Id": 240,
-      "Rank": 122,
+      "Value": "exercitationem",
+      "Tooltip": "mollitia",
+      "Id": 856,
+      "Rank": 350,
       "Deleted": false
     },
     {
-      "Value": "excepturi",
-      "Tooltip": "autem",
-      "Id": 240,
-      "Rank": 122,
+      "Value": "exercitationem",
+      "Tooltip": "mollitia",
+      "Id": 856,
+      "Rank": 350,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2001-08-30T10:18:00.910611+02:00",
-  "Lastlogout": "2014-03-28T10:18:00.910611+01:00",
-  "EjUserId": 845,
-  "RequestSignature": "repudiandae",
+  "Deleted": false,
+  "Lastlogin": "2021-04-10T13:13:32.7142818+02:00",
+  "Lastlogout": "2021-09-12T13:13:32.7142818+02:00",
+  "EjUserId": 984,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
       "Value": "dolores",
-      "DisplayValue": "quibusdam"
+      "DisplayValue": "vitae"
     },
     {
       "Type": null,
       "Value": "dolores",
-      "DisplayValue": "quibusdam"
+      "DisplayValue": "vitae"
     }
   ],
-  "UserName": "Ferry-Green",
+  "UserName": "Gulgowski, Sipes and Collier",
   "TicketCategories": [
     {
-      "Id": 59,
-      "Name": "Stehr LLC",
-      "ToolTip": "Similique tenetur.",
+      "Id": 612,
+      "Name": "Breitenberg-Kessler",
+      "ToolTip": "Rerum odit exercitationem id.",
       "Deleted": false,
-      "Rank": 40,
-      "Type": "ea",
+      "Rank": 782,
+      "Type": "adipisci",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "esse",
-      "ColorBlock": 180,
-      "ExtraInfo": "tempore",
-      "StyleHint": "doloremque",
-      "FullName": "Christine Kshlerin"
+      "IconHint": "atque",
+      "ColorBlock": 349,
+      "ExtraInfo": "repellat",
+      "StyleHint": "aut",
+      "FullName": "Colleen Davis"
     }
   ],
-  "NickName": "McCullough Inc and Sons",
+  "NickName": "Luettgen Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "tempore"
+    "CustomFields1": "est",
+    "CustomFields2": "aut"
   },
   "PostSaveCommands": [
     {
-      "Name": "Flatley-Carter",
-      "DisplayName": "Schaden-King",
-      "Description": "Robust 6th generation attitude",
-      "ToolTip": "Eveniet corrupti fugit eius aut ratione consequatur.",
+      "Name": "Jacobson Group",
+      "DisplayName": "Borer Inc and Sons",
+      "Description": "Pre-emptive object-oriented middleware",
+      "ToolTip": "Aut libero dolorem temporibus qui.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "dolores"
     },
     {
-      "Name": "Flatley-Carter",
-      "DisplayName": "Schaden-King",
-      "Description": "Robust 6th generation attitude",
-      "ToolTip": "Eveniet corrupti fugit eius aut ratione consequatur.",
+      "Name": "Jacobson Group",
+      "DisplayName": "Borer Inc and Sons",
+      "Description": "Pre-emptive object-oriented middleware",
+      "ToolTip": "Aut libero dolorem temporibus qui.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "dolores"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "inventore",
-  "2": "impedit"
+  "1": "ea",
+  "2": "vitae"
 }
 ```

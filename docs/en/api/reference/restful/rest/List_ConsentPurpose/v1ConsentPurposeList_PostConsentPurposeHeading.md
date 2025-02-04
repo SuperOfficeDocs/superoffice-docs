@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 257,
-  "Name": "Douglas, Auer and Schulist",
-  "Tooltip": "non",
+  "HeadingId": 968,
+  "Name": "Erdman, Bashirian and Lebsack",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 30,
-  "UdListDefinitionId": 23
+  "Rank": 296,
+  "UdListDefinitionId": 578
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 831,
-  "Name": "Marquardt Group",
-  "Tooltip": "et",
+  "HeadingId": 55,
+  "Name": "Turner Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 172,
-  "UdListDefinitionId": 560,
+  "Rank": 748,
+  "UdListDefinitionId": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 853
     }
   }
 }

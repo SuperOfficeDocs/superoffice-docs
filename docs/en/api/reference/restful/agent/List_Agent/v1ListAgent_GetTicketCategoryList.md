@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 766,
-    "ParentId": 420,
-    "Name": "Wiegand, Jacobs and Wyman",
-    "Fullname": "asperiores",
-    "CategoryMaster": 993,
+    "TicketCategoryId": 531,
+    "ParentId": 515,
+    "Name": "Wisoky-Block",
+    "Fullname": "deleniti",
+    "CategoryMaster": 714,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Stark LLC",
+    "ExternalName": "White, Von and Mann",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 171,
-    "ReplyTemplate": 172,
-    "NotificationEmail": "kristofer@dare.ca",
+    "AssignmentLag": 206,
+    "ReplyTemplate": 696,
+    "NotificationEmail": "june@abernathy.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 319,
+    "EffectiveReplyTemplateId": 417,
     "ExtraFields": {
-      "ExtraFields1": "similique",
-      "ExtraFields2": "doloremque"
+      "ExtraFields1": "ut",
+      "ExtraFields2": "odio"
     },
     "CustomFields": {
-      "CustomFields1": "non",
-      "CustomFields2": "iure"
+      "CustomFields1": "aut",
+      "CustomFields2": "placeat"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 27
       }
     }
   }

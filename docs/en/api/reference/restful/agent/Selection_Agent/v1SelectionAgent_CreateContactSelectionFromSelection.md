@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 157,
-  "Name": "Windler, Champlin and Bahringer",
+  "SelectionId": 29,
+  "Name": "Gorczany, Douglas and Roberts",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent directional data-warehouse",
-  "Postit": "quis",
+  "Description": "Multi-tiered 4th generation implementation",
+  "Postit": "perferendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 46,
-  "IncludePerson": 617,
+  "GroupIdx": 527,
+  "IncludePerson": 835,
   "MemberCount": 99.99,
-  "Name": "Hickle, O'Connell and Christiansen",
-  "PostitTextId": 651,
-  "CreatedDate": "2020-01-07T10:17:56.0353154+01:00",
+  "Name": "Zieme-Fahey",
+  "PostitTextId": 701,
+  "CreatedDate": "2019-02-25T13:13:23.9309404+01:00",
   "SelectionId": 568,
-  "SoundEx": "quia",
-  "Source": 192,
-  "TextId": 50,
-  "UpdatedDate": "1999-09-20T10:17:56.0353154+02:00",
-  "UpdatedCount": 255,
-  "Visibility": 553,
+  "SoundEx": "et",
+  "Source": 838,
+  "TextId": 265,
+  "UpdatedDate": "2004-02-11T13:13:23.9309404+01:00",
+  "UpdatedCount": 714,
+  "Visibility": 199,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 337,
-  "TargetTableName": "Simonis, Becker and Wunsch",
+  "TargetTableNumber": 502,
+  "TargetTableName": "Kshlerin, Stokes and Kihn",
   "Completed": false,
-  "LeftSelectionId": 794,
-  "RightSelectionId": 893,
+  "LeftSelectionId": 324,
+  "RightSelectionId": 999,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Durgan LLC",
-  "ShadowProviderName": "Feil, Erdman and Trantow",
-  "ChartKey": "rerum",
-  "LastLoaded": "2006-09-06T10:17:56.0353154+02:00",
-  "LastLoadedBy": 862,
+  "MainProviderName": "Hintz, Strosin and Harris",
+  "ShadowProviderName": "Upton-Zemlak",
+  "ChartKey": "enim",
+  "LastLoaded": "2022-09-13T13:13:23.9309404+02:00",
+  "LastLoadedBy": 723,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-12-25T10:17:56.0353154+01:00",
-  "LastMembershipChangeBy": 598,
+  "LastMembershipChange": "1999-03-09T13:13:23.9309404+01:00",
+  "LastMembershipChangeBy": 792,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "sed",
-  "MemberTabHeading": "iure",
-  "MailingsProviderName": "Morissette Group",
-  "DashboardTileDefinitionId": 221,
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Weimann-Kuhlman",
+  "DashboardTileDefinitionId": 828,
   "VisibleFor": [
     {
-      "VisibleId": 202,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     },
     {
-      "VisibleId": 202,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldType": "System.String",
+          "FieldLength": 561
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 302
     }
   }
 }

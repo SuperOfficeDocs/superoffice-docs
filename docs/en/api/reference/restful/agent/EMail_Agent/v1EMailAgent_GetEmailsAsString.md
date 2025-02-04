@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/EMail/GetEmailsAsString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "quia",
-    "non"
+    "dolor",
+    "totam"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "earum",
-  "nihil"
+  "iusto",
+  "et"
 ]
 ```

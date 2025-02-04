@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 929,
-  "Name": "Reynolds-Bernhard",
-  "ContentType": "aut",
-  "AttSize": 224,
-  "InlineImage": true,
-  "ContentId": "sint",
-  "AuthKey": "ea",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 993,
+  "Name": "Kuhic, Macejkovic and Hansen",
+  "ContentType": "fugit",
+  "AttSize": 535,
+  "InlineImage": false,
+  "ContentId": "sequi",
+  "AuthKey": "aperiam",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 788
     }
   },
   "_Links": {

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-01-28T10:17:55.0977583+01:00",
-  "ToDate": "2005-02-14T10:17:55.0977583+01:00",
+  "FromDate": "2021-03-29T13:13:22.0864676+02:00",
+  "ToDate": "2019-08-03T13:13:22.0864676+02:00",
   "AssociateList": [
     {
-      "Id": 710,
-      "Name": "Smitham-Volkman",
-      "ToolTip": "Laboriosam ullam asperiores labore unde quasi.",
+      "Id": 378,
+      "Name": "DuBuque Group",
+      "ToolTip": "Est fugit omnis enim quaerat.",
       "Deleted": false,
-      "Rank": 639,
-      "Type": "et",
-      "ColorBlock": 997,
-      "IconHint": "est",
+      "Rank": 963,
+      "Type": "sit",
+      "ColorBlock": 511,
+      "IconHint": "quas",
       "Selected": false,
-      "LastChanged": "2021-05-07T10:17:55.0977583+02:00",
+      "LastChanged": "2005-04-29T13:13:22.0864676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "et",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "sit",
       "Hidden": true,
-      "FullName": "Laverne Boehm",
+      "FullName": "Elmira Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 236,
-      "Name": "D'Amore-Kautzer",
-      "ToolTip": "Non eos quo nesciunt dolores harum.",
-      "Deleted": false,
-      "Rank": 38,
-      "Type": "doloribus",
-      "ColorBlock": 413,
-      "IconHint": "necessitatibus",
+      "Id": 729,
+      "Name": "Wyman-Brown",
+      "ToolTip": "Ut sit ab officia quibusdam.",
+      "Deleted": true,
+      "Rank": 505,
+      "Type": "natus",
+      "ColorBlock": 996,
+      "IconHint": "earum",
       "Selected": true,
-      "LastChanged": "2014-08-26T10:17:55.0977583+02:00",
+      "LastChanged": "2018-11-16T13:13:22.0864676+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "vel",
+      "ExtraInfo": "fugit",
+      "StyleHint": "aut",
       "Hidden": true,
-      "FullName": "Sincere Rosalyn Pollich Jr.",
+      "FullName": "Ms. Everardo Maye Kutch Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 343
+          "FieldType": "System.Int32",
+          "FieldLength": 152
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 231,
-      "Name": "Hessel LLC",
-      "ToolTip": "Ea voluptatem.",
+      "Id": 943,
+      "Name": "Beahan LLC",
+      "ToolTip": "Aut hic a eum.",
       "Deleted": false,
-      "Rank": 547,
-      "Type": "enim",
+      "Rank": 67,
+      "Type": "rem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 174,
-      "ExtraInfo": "eos",
-      "StyleHint": "ea",
-      "FullName": "Karlie Reilly",
+      "IconHint": "recusandae",
+      "ColorBlock": 31,
+      "ExtraInfo": "debitis",
+      "StyleHint": "iure",
+      "FullName": "Clare Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 682
     }
   }
 }

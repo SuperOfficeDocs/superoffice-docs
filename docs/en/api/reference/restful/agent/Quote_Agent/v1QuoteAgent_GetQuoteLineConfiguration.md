@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 67
+  "QuoteLineConfigurationId": 923
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 812,
-  "FieldName": "Maggio Group",
-  "Label": "modi",
-  "Tooltip": "dolore",
-  "Editable": true,
-  "InUse": false,
+  "QuoteLineConfigurationId": 515,
+  "FieldName": "Borer-Kub",
+  "Label": "exercitationem",
+  "Tooltip": "nemo",
+  "Editable": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 420,
+  "Rank": 138,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Pouros-Wisoky",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "UdListDefinitionId": 745,
-    "Rank": 120,
+    "Id": 860,
+    "Name": "Schimmel LLC",
+    "Tooltip": "error",
+    "Deleted": true,
+    "UdListDefinitionId": 229,
+    "Rank": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 316
+        "FieldLength": 250
       }
     }
   }

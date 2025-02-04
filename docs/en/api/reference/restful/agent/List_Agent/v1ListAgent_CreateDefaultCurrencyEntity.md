@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 455,
-  "Name": "Lynch-Considine",
-  "Tooltip": "tempora",
-  "Rank": 916,
-  "Rate": 13347.706,
-  "Units": 4328.054,
+  "CurrencyId": 859,
+  "Name": "Tillman LLC",
+  "Tooltip": "autem",
+  "Rank": 765,
+  "Rate": 22846.86,
+  "Units": 23373.372,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

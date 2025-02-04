@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=quia
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=cum
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 30 Aug 2013 10:18:00 G8T
+Last-Modified: Thu, 04 Jun 1998 13:13:31 G6T
 
 {
-  "Key": "totam",
-  "Value": "hic",
-  "RecordId": 616,
-  "CreatedDate": "2003-07-27T10:18:00.4262067+02:00",
-  "UpdatedDate": "2013-08-30T10:18:00.4262067+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "deserunt",
-  "TableName": "Cummings Group",
+  "Key": "soluta",
+  "Value": "sit",
+  "RecordId": 753,
+  "CreatedDate": "2015-03-01T13:13:31.7613495+01:00",
+  "UpdatedDate": "1998-06-04T13:13:31.7613495+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "repellat",
+  "TableName": "Johns-Kilback",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 161
     }
   }
 }

@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 45,
-  "ParentId": 281,
-  "Name": "Konopelski-Lindgren",
-  "Fullname": "enim",
-  "CategoryMaster": 910,
+  "TicketCategoryId": 9,
+  "ParentId": 47,
+  "Name": "Gibson, Parker and Conn",
+  "Fullname": "voluptas",
+  "CategoryMaster": 363,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Harvey LLC",
+  "ExternalName": "Stroman Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 999,
-  "ReplyTemplate": 147,
-  "NotificationEmail": "juanita@barrows.com",
+  "AssignmentLag": 973,
+  "ReplyTemplate": 741,
+  "NotificationEmail": "nakia@kub.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 173,
+  "EffectiveReplyTemplateId": 500,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "enim",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 349
     }
   }
 }

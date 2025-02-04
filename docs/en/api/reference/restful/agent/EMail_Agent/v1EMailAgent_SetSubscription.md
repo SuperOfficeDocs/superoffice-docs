@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Gleichner, Morar and Lebsack",
-      "Delimiter": "quaerat",
-      "Flags": "molestiae",
-      "TotalItems": 672,
-      "UnreadItems": 761,
-      "Subscribed": true,
-      "EmailFolderId": 623
+      "Name": "DuBuque LLC",
+      "Delimiter": "odit",
+      "Flags": "quia",
+      "TotalItems": 45,
+      "UnreadItems": 213,
+      "Subscribed": false,
+      "EmailFolderId": 571
     }
   ]
 }

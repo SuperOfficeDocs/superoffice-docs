@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Boyer-Koepp",
-    "ToolTip": "Et asperiores.",
+    "Id": 527,
+    "Name": "O'Reilly, Larson and Weber",
+    "ToolTip": "Adipisci totam dolores eum expedita.",
     "Deleted": false,
-    "Rank": 41,
-    "Type": "possimus",
-    "ColorBlock": 369,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2020-11-22T10:18:01.1918781+01:00",
+    "Rank": 708,
+    "Type": "vero",
+    "ColorBlock": 65,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "2007-05-13T13:13:33.651626+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Zemlak, Smitham and Paucek",
-        "ToolTip": "Velit error.",
-        "Deleted": true,
-        "Rank": 94,
-        "Type": "ut",
-        "ColorBlock": 318,
+        "Id": 885,
+        "Name": "Rohan, Dare and Kihn",
+        "ToolTip": "Tenetur consequatur vero velit.",
+        "Deleted": false,
+        "Rank": 278,
+        "Type": "dolor",
+        "ColorBlock": 105,
         "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2002-10-02T10:18:01.1918781+02:00",
+        "LastChanged": "2023-01-30T13:13:33.651626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Jamar Schinner"
+        "ExtraInfo": "aut",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Kassandra Russel"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "harum",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mr. Delaney Rodriguez V"
+    "FullName": "Dax Terry I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 607,
-    "Name": "Wilkinson, Senger and Batz",
-    "ToolTip": "Saepe aut expedita ratione dignissimos.",
+    "Id": 377,
+    "Name": "Skiles, Kohler and Rath",
+    "ToolTip": "Est dolorem officiis.",
     "Deleted": false,
-    "Rank": 139,
-    "Type": "repudiandae",
-    "ColorBlock": 526,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "1999-07-10T10:18:01.1918781+02:00",
+    "Rank": 340,
+    "Type": "est",
+    "ColorBlock": 670,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2006-10-22T13:13:33.651626+02:00",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Stanton-Rippin",
-        "ToolTip": "Odio aut ab aut quam quo.",
+        "Id": 316,
+        "Name": "Goyette, Walter and Goodwin",
+        "ToolTip": "Labore optio quae nisi ad.",
         "Deleted": false,
-        "Rank": 133,
-        "Type": "nam",
-        "ColorBlock": 482,
-        "IconHint": "et",
+        "Rank": 555,
+        "Type": "illum",
+        "ColorBlock": 426,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2002-02-01T10:18:01.1918781+01:00",
+        "LastChanged": "1998-11-26T13:13:33.651626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "non",
+        "ExtraInfo": "culpa",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Laverne Heath Mayer Jr.",
+        "FullName": "Orville Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 131
+            "FieldLength": 420
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Darron Runte",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Darby Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 971
       }
     }
   }

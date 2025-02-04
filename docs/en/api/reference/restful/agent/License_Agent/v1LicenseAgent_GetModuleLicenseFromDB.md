@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Beer LLC",
-  "ModuleName": "Nader-Bailey"
+  "OwnerName": "Osinski, Kshlerin and Baumbach",
+  "ModuleName": "Okuneva, Howell and Hyatt"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Purdy-Quigley",
-  "ModuleName": "Hermann Inc and Sons",
-  "ModuleDescription": "Reduced optimizing contingency",
-  "ModuleTooltip": "explicabo",
-  "ModuleVersion": "voluptatem",
+  "OwnerName": "Jacobs Inc and Sons",
+  "ModuleName": "Hickle, Macejkovic and Mohr",
+  "ModuleDescription": "Universal content-based synergy",
+  "ModuleTooltip": "numquam",
+  "ModuleVersion": "ratione",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 908,
-  "ExtraFlags": 40,
+  "NumberOfLicenses": 77,
+  "ExtraFlags": 475,
   "ExtraInfo": "et",
-  "SortOrder": 112,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Ratke Inc and Sons",
-  "Signature": "placeat"
+  "SortOrder": 602,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "McCullough, Zulauf and McCullough",
+  "Signature": "voluptatum"
 }
 ```

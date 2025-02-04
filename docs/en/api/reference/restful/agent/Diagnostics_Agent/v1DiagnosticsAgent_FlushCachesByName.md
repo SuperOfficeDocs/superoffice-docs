@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Herman-Romaguera",
-    "Thiel Group"
+    "Osinski, Kuvalis and Jacobi",
+    "Wiza-Reilly"
   ]
 }
 ```

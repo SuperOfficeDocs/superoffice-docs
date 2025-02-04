@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nobis",
+  "SaleText": "ab",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-10-28T10:17:55.9728114+01:00",
-  "Amount": 3105.794,
-  "SaleId": 836,
-  "Earning": 22749.706,
-  "EarningPercent": 3920.634,
-  "Heading": "accusantium",
-  "Number": "1229321",
-  "Probability": 602,
-  "CreatedDate": "2008-11-01T10:17:55.9728114+01:00",
-  "UpdatedDate": "2006-09-27T10:17:55.9728114+02:00",
+  "Saledate": "2013-11-14T13:13:23.8206787+01:00",
+  "Amount": 2770.456,
+  "SaleId": 489,
+  "Earning": 24796.208,
+  "EarningPercent": 9712.266,
+  "Heading": "ut",
+  "Number": "1086765",
+  "Probability": 104,
+  "CreatedDate": "2019-10-11T13:13:23.8206787+02:00",
+  "UpdatedDate": "2005-10-15T13:13:23.8206787+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 187,
+  "ActiveLinks": 512,
   "Links": [
     {
-      "EntityName": "Kreiger, Johnston and Hoeger",
-      "Id": 867,
-      "Description": "Multi-layered local migration",
-      "ExtraInfo": "blanditiis",
-      "LinkId": 13,
+      "EntityName": "Romaguera, Ullrich and Prohaska",
+      "Id": 560,
+      "Description": "Right-sized background standardization",
+      "ExtraInfo": "libero",
+      "LinkId": 238,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 834
         }
       }
     }
   ],
-  "NextDueDate": "2020-10-27T10:17:55.9728114+01:00",
-  "Postit": "ut",
+  "NextDueDate": "1999-05-20T13:13:23.8206787+02:00",
+  "Postit": "voluptate",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-04-29T10:17:55.9728114+02:00",
+  "ReopenDate": "1998-12-24T13:13:23.8206787+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Will LLC",
-      "Comment": "unde",
-      "StakeholderRoleId": 505,
-      "CountryId": 276,
-      "PersonId": 361,
-      "EmailDescription": "gladys@grahamberge.us",
-      "EmailId": 527,
-      "EmailAddress": "gideon@zulauf.com",
-      "PhoneId": 380,
-      "ContactName": "Hansen, Haag and Simonis",
-      "ContactId": 187,
-      "SaleId": 818,
-      "Mrmrs": "dolore",
-      "Firstname": "Jan",
-      "MiddleName": "Johnson Group",
-      "Lastname": "Lubowitz",
-      "SaleStakeholderId": 120,
-      "Rank": 711,
-      "Phone": "942-144-3291",
+      "StakeholderRoleName": "Rempel, Hammes and Flatley",
+      "Comment": "et",
+      "StakeholderRoleId": 234,
+      "CountryId": 806,
+      "PersonId": 966,
+      "EmailDescription": "libbie.crist@hyatt.info",
+      "EmailId": 424,
+      "EmailAddress": "lawson@lang.ca",
+      "PhoneId": 101,
+      "ContactName": "Medhurst Inc and Sons",
+      "ContactId": 796,
+      "SaleId": 789,
+      "Mrmrs": "quam",
+      "Firstname": "Mariane",
+      "MiddleName": "Green LLC",
+      "Lastname": "Bartell",
+      "SaleStakeholderId": 49,
+      "Rank": 831,
+      "Phone": "034-142-5412 x75557",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 930
         }
       }
     }
   ],
-  "ActiveErpLinks": 798,
+  "ActiveErpLinks": 377,
   "UserDefinedFields": {
-    "SuperOffice:1": "Burley Little",
-    "SuperOffice:2": "Louie Wuckert"
+    "SuperOffice:1": "Avis Sipes",
+    "SuperOffice:2": "Wilfred Muller"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "est"
+    "CustomFields1": "quia",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2015-09-08T10:17:55.9728114+02:00",
-  "PublishTo": "2019-10-08T10:17:55.9728114+02:00",
-  "PublishFrom": "2017-05-13T10:17:55.9728114+02:00",
+  "PublishEventDate": "2010-01-28T13:13:23.8206787+01:00",
+  "PublishTo": "2015-06-07T13:13:23.8206787+02:00",
+  "PublishFrom": "2023-04-28T13:13:23.8206787+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 331,
+      "VisibleId": 850,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 54
         }
       }
     },
     {
-      "VisibleId": 331,
+      "VisibleId": 850,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 54
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 926
     }
   }
 }

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "leora.mraz@hagenes.com",
-  "Counts": 645
+  "EmailAddress": "itzel_strosin@murazik.ca",
+  "Counts": 139
 }
 ```
 

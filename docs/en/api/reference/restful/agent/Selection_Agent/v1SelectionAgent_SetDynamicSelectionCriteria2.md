@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 616,
-  "Filter": "sed"
+  "SelectionId": 631,
+  "Filter": "autem"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolff-Gorczany",
-    "Operator": "iste",
+    "Name": "Grimes, Lueilwitz and Beer",
+    "Operator": "dicta",
     "Values": [
-      "unde",
-      "autem"
+      "doloribus",
+      "deserunt"
     ],
     "DisplayValues": [
-      "libero",
-      "omnis"
+      "quia",
+      "voluptatibus"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Yost-Schulist",
-        "Operator": "qui",
+        "Name": "Bartoletti Inc and Sons",
+        "Operator": "quas",
         "Values": [
-          "enim",
-          "ipsa"
-        ],
-        "DisplayValues": [
-          "adipisci",
+          "odio",
           "et"
         ],
+        "DisplayValues": [
+          "repellendus",
+          "laboriosam"
+        ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 216,
+        "InterParenthesis": 571,
         "InterOperator": "And",
-        "UniqueHash": 74
+        "UniqueHash": 793
       }
     ],
-    "InterParenthesis": 455,
+    "InterParenthesis": 205,
     "InterOperator": "And",
-    "UniqueHash": 494
+    "UniqueHash": 85
   }
 ]
 ```

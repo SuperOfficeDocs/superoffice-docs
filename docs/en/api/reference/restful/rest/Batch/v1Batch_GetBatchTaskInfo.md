@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Gislason, Barrows and Bashirian",
-  "AssociateId": 881,
-  "DetailsTable": 991,
-  "DetailsRecord": 33,
+  "Id": 959,
+  "Name": "Thompson, Hagenes and Gottlieb",
+  "AssociateId": 847,
+  "DetailsTable": 835,
+  "DetailsRecord": 599,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "voluptate",
-    "ParameterObject2": "esse"
+    "ParameterObject1": "ut",
+    "ParameterObject2": "nam"
   },
-  "LastStarted": "2021-06-15T10:18:00.8168545+02:00",
-  "Created": "2011-12-19T10:18:00.8168545+01:00",
-  "StartCount": 642,
-  "DatabaseSerialNumber": "1443379",
-  "Context": "ut",
-  "Result": "pariatur",
+  "LastStarted": "2009-01-02T13:13:32.5267302+01:00",
+  "Created": "2010-12-20T13:13:32.5267302+01:00",
+  "StartCount": 438,
+  "DatabaseSerialNumber": "1636598",
+  "Context": "aut",
+  "Result": "alias",
   "State": "All",
-  "Description": "Multi-tiered encompassing projection",
-  "Response": "optio",
-  "Request": "nam",
-  "ProgressDescription": "Ameliorated 24/7 internet solution",
-  "ProgressPercent": 885,
-  "FileName": "Murphy Group",
+  "Description": "Pre-emptive 24/7 workforce",
+  "Response": "atque",
+  "Request": "beatae",
+  "ProgressDescription": "Progressive scalable capacity",
+  "ProgressPercent": 910,
+  "FileName": "Predovic Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldLength": 394
     }
   }
 }

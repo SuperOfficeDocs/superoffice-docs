@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 690,
-  "Name": "Stark Inc and Sons",
-  "Tooltip": "quis",
+  "Id": 272,
+  "Name": "Jacobson, Davis and Fahey",
+  "Tooltip": "iste",
   "Deleted": true,
-  "Rank": 214,
+  "Rank": 923,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": true,
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Kub Group",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 689,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false,
+  "Id": 44,
+  "Name": "Daniel Group",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "Rank": 850,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 148
     }
   }
 }

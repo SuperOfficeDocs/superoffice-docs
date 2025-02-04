@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Trantow-Lang",
-    "ToolTip": "In enim quia ipsum enim hic velit ullam.",
-    "Deleted": true,
-    "Rank": 685,
-    "Type": "et",
-    "ColorBlock": 607,
-    "IconHint": "amet",
+    "Id": 894,
+    "Name": "Block Inc and Sons",
+    "ToolTip": "Suscipit sint.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "doloribus",
+    "ColorBlock": 245,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2019-09-20T10:18:01.1293744+02:00",
+    "LastChanged": "2003-04-02T13:13:33.4954014+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Frami, Zemlak and Abshire",
-        "ToolTip": "Quidem est sint similique debitis dolores eligendi.",
+        "Id": 875,
+        "Name": "Johnson-Schuppe",
+        "ToolTip": "Consequuntur fugiat ex qui.",
         "Deleted": false,
-        "Rank": 758,
-        "Type": "adipisci",
-        "ColorBlock": 341,
-        "IconHint": "quaerat",
+        "Rank": 535,
+        "Type": "et",
+        "ColorBlock": 553,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2022-04-21T10:18:01.1293744+02:00",
+        "LastChanged": "2011-04-19T13:13:33.4954014+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "commodi",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Leif Brekke",
+        "FullName": "Prof. Martine Kellen Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 272
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illum",
+    "ExtraInfo": "maiores",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Terence Roberts",
+    "FullName": "Prof. Ralph Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldLength": 883
       }
     }
   }

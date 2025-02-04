@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Brekke, Wintheiser and Wisoky",
-    "DisplayName": "Anderson Inc and Sons",
-    "Description": "Fully-configurable multi-tasking support",
-    "ShortLabel": "ut",
-    "HideLabel": true,
+    "FieldName": "Lowe-Bergnaum",
+    "DisplayName": "Zemlak Inc and Sons",
+    "Description": "Assimilated actuating matrix",
+    "ShortLabel": "molestias",
+    "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 891,
-    "TemplateVariableName": "Cronin, Hartmann and Zemlak"
+    "Rank": 306,
+    "TemplateVariableName": "Powlowski, Krajcik and Roberts"
   }
 ]
 ```

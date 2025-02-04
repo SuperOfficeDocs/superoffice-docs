@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 131,
-  "CrmRecordId": 784,
+  "ErpConnectionId": 64,
+  "CrmRecordId": 355,
   "CrmActorType": "Contact",
-  "ErpKey": "vitae",
+  "ErpKey": "tenetur",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Jacobi, Hermiston and Reichel",
-      "CrmFieldKey": "animi",
-      "Value": "dolorem",
-      "DisplayValue": "vel",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Grimes LLC",
+      "CrmFieldKey": "libero",
+      "Value": "quasi",
+      "DisplayValue": "dolores",
+      "SyncToCrm": false,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Jacobi, Hermiston and Reichel",
-      "CrmFieldKey": "animi",
-      "Value": "dolorem",
-      "DisplayValue": "vel",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Grimes LLC",
+      "CrmFieldKey": "libero",
+      "Value": "quasi",
+      "DisplayValue": "dolores",
+      "SyncToCrm": false,
+      "SyncToErp": true
     }
   ]
 }

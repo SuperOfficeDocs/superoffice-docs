@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 735,
-    "Name": "Towne-Pfannerstill",
-    "ToolTip": "Ea voluptas perspiciatis sed quia occaecati.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "est",
-    "ColorBlock": 156,
-    "IconHint": "eum",
+    "Id": 472,
+    "Name": "Bernier Group",
+    "ToolTip": "Expedita unde recusandae voluptatem et.",
+    "Deleted": true,
+    "Rank": 499,
+    "Type": "rerum",
+    "ColorBlock": 120,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2010-05-28T10:18:01.1762521+02:00",
+    "LastChanged": "1999-05-26T13:13:33.6203821+02:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Bode Inc and Sons",
-        "ToolTip": "Nulla dolore voluptas nemo facere.",
-        "Deleted": true,
-        "Rank": 840,
-        "Type": "nemo",
-        "ColorBlock": 789,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2016-09-04T10:18:01.1762521+02:00",
+        "Id": 480,
+        "Name": "Denesik-Wiza",
+        "ToolTip": "Numquam sit qui voluptatum laboriosam et pariatur deleniti.",
+        "Deleted": false,
+        "Rank": 945,
+        "Type": "doloremque",
+        "ColorBlock": 585,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2017-04-23T13:13:33.6203821+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "neque",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Willis Kuhic",
+        "FullName": "Prof. Clay Sophia Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
+    "ExtraInfo": "sed",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Leland Schiller",
+    "FullName": "Flo Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 213
       }
     }
   }

@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 93,
+  "HierarchyId": 948,
   "Domain": "Dashboards",
-  "Name": "Hansen Group",
-  "Fullname": "eum",
-  "ParentId": 265,
+  "Name": "Fritsch, Borer and Kling",
+  "Fullname": "et",
+  "ParentId": 323,
   "Children": [
     {
-      "HierarchyId": 180,
+      "HierarchyId": 660,
       "Domain": "Dashboards",
-      "Name": "Will-Heathcote",
-      "Fullname": "aut",
-      "ParentId": 841,
+      "Name": "Hermann, Kuhic and Bauch",
+      "Fullname": "voluptatum",
+      "ParentId": 459,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-05-30T10:18:00.4262067+02:00",
-      "RegisteredAssociateId": 329,
-      "Updated": "2010-01-11T10:18:00.4262067+01:00",
-      "UpdatedAssociateId": 4,
+      "Registered": "2017-07-11T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 33,
+      "Updated": "2021-03-14T13:13:31.7613495+01:00",
+      "UpdatedAssociateId": 799,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 189
+          "FieldType": "System.Int32",
+          "FieldLength": 366
         }
       }
     }
   ],
-  "Registered": "2005-03-11T10:18:00.4262067+01:00",
-  "RegisteredAssociateId": 71,
-  "Updated": "2017-05-28T10:18:00.4262067+02:00",
-  "UpdatedAssociateId": 34,
+  "Registered": "1997-12-17T13:13:31.7613495+01:00",
+  "RegisteredAssociateId": 354,
+  "Updated": "2003-06-14T13:13:31.7613495+02:00",
+  "UpdatedAssociateId": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

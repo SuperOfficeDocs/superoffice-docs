@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 335,
-  "CurrencyId": 505
+  "QuoteConnectionId": 217,
+  "CurrencyId": 58
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 62,
-    "ERPPriceListKey": "dolor",
-    "QuoteConnectionId": 670,
-    "Name": "O'Reilly-Block",
-    "Description": "Organized dynamic pricing structure",
-    "Currency": "tenetur",
-    "CurrencyName": "Dickinson Group",
-    "ValidFrom": "1999-04-07T10:17:55.9415595+02:00",
-    "ValidTo": "2004-09-17T10:17:55.9415595+02:00",
+    "PriceListId": 871,
+    "ERPPriceListKey": "earum",
+    "QuoteConnectionId": 867,
+    "Name": "Hammes-Ziemann",
+    "Description": "Ameliorated demand-driven definition",
+    "Currency": "dicta",
+    "CurrencyName": "Runolfsson, Hartmann and Hirthe",
+    "ValidFrom": "2002-05-14T13:13:23.7425716+02:00",
+    "ValidTo": "1999-05-01T13:13:23.7425716+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 73
       }
     }
   }

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    10,
-    953
+    555,
+    565
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 226,
-    "MessageId": "qui",
-    "Subject": "et",
+    "ServerId": 844,
+    "MessageId": "sed",
+    "Subject": "id",
     "From": null,
     "To": [
       {
-        "ContactId": 598,
-        "ContactName": "Barton-Wehner",
-        "PersonId": 948,
-        "PersonName": "Kuhn LLC",
-        "AssociateId": 190,
-        "Address": "eum",
-        "EmailId": 198,
+        "ContactId": 380,
+        "ContactName": "Rosenbaum, Ebert and Kertzmann",
+        "PersonId": 966,
+        "PersonName": "Little Group",
+        "AssociateId": 618,
+        "Address": "autem",
+        "EmailId": 525,
         "DuplicatePersonIds": [
-          742,
-          847
+          302,
+          821
         ],
-        "Name": "Casper-Feeney",
+        "Name": "VonRueden LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldType": "System.String",
+            "FieldLength": 826
           }
         }
       }
     ],
-    "Sent": "2010-02-23T10:17:55.5977887+01:00",
+    "Sent": "2017-08-22T13:13:23.0708443+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 377,
+    "Size": 427,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldLength": 624
       }
     }
   }

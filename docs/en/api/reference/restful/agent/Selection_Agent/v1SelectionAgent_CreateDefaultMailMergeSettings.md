@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 218,
-  "DocumentId": 791,
+  "SelectionId": 676,
+  "DocumentId": 380,
   "MailMergeDeliveryType": "BestFit",
   "CustomAttention": "nemo",
   "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "est",
+  "SaveDocument": false,
+  "CustomMailBody": "beatae",
   "TaskEntity": null,
-  "AddCompanyInterest": 911,
-  "AddPersonInterest": 21,
-  "RemoveCompanyInterest": 254,
-  "RemovePersonInterest": 279,
-  "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 367,
-  "IncludeRetiredRecipients": false,
+  "AddCompanyInterest": 216,
+  "AddPersonInterest": 956,
+  "RemoveCompanyInterest": 349,
+  "RemovePersonInterest": 20,
+  "IncludeNoMailingsRecipient": true,
+  "TestOnly": false,
+  "ProjectId": 168,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "facilis",
-  "ExtraInfo": "provident",
-  "Synchronous": false,
+  "CustomMailSubject": "nesciunt",
+  "ExtraInfo": "ea",
+  "Synchronous": true,
   "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 124
     }
   }
 }

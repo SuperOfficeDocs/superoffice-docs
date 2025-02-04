@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 278,
-  "QuoteAlternativeName": "Lynch, Beatty and Lueilwitz",
-  "QuoteAlternativeDescription": "Streamlined holistic alliance"
+  "QuoteVersionId": 557,
+  "QuoteAlternativeName": "Brekke, Langworth and Osinski",
+  "QuoteAlternativeDescription": "Devolved stable array"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 227,
-  "ERPQuoteAlternativeKey": "vero",
-  "QuoteVersionId": 449,
-  "Name": "Kilback-Turner",
-  "Description": "Extended 6th generation internet solution",
+  "QuoteAlternativeId": 778,
+  "ERPQuoteAlternativeKey": "esse",
+  "QuoteVersionId": 970,
+  "Name": "Schaefer-Cummings",
+  "Description": "Secured client-server paradigm",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 19810.014,
-  "ERPDiscountAmount": 16005.338,
-  "DiscountPercent": 17920.212,
-  "DiscountAmount": 6926.1399999999994,
+  "ERPDiscountPercent": 22771.644,
+  "ERPDiscountAmount": 24909.032,
+  "DiscountPercent": 23160.26,
+  "DiscountAmount": 18446.724,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "veritatis",
-  "VAT": 15112.148,
-  "EarningPercent": 14291.039999999999,
-  "EarningAmount": 19904.034,
-  "SubTotal": 24069.12,
-  "TotalPrice": 31280.453999999998,
-  "ExtraField1": "ut",
-  "ExtraField2": "sint",
-  "ExtraField3": "esse",
-  "ExtraField4": "aut",
-  "ExtraField5": "rerum",
+  "VATInfo": "et",
+  "VAT": 6007.878,
+  "EarningPercent": 25040.66,
+  "EarningAmount": 25714.469999999998,
+  "SubTotal": 14695.326,
+  "TotalPrice": 28738.78,
+  "ExtraField1": "unde",
+  "ExtraField2": "distinctio",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "et",
+  "ExtraField5": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 595
     }
   }
 }

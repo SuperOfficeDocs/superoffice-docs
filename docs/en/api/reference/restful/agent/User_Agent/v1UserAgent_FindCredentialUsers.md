@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "eveniet",
-  "SearchString": "ut"
+  "Type": "quos",
+  "SearchString": "quod"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "quibusdam",
-    "excepturi"
+    "illum",
+    "consequuntur"
   ],
   "Users": [
     {
-      "Value": "voluptates",
-      "DisplayValue": "rem",
+      "Value": "non",
+      "DisplayValue": "qui",
       "Columns": [
-        "voluptatum",
-        "labore"
+        "sit",
+        "error"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 883
+          "FieldType": "System.Int32",
+          "FieldLength": 75
         }
       }
     },
     {
-      "Value": "voluptates",
-      "DisplayValue": "rem",
+      "Value": "non",
+      "DisplayValue": "qui",
       "Columns": [
-        "voluptatum",
-        "labore"
+        "sit",
+        "error"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 883
+          "FieldType": "System.Int32",
+          "FieldLength": 75
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 247
     }
   }
 }

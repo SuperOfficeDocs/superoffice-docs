@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 939,
-    "Name": "Willms-Gulgowski",
-    "ToolTip": "Et vel modi.",
+    "Id": 113,
+    "Name": "Bayer LLC",
+    "ToolTip": "Non praesentium quasi officia dignissimos quisquam dolores quaerat.",
     "Deleted": false,
-    "Rank": 690,
-    "Type": "praesentium",
-    "ColorBlock": 513,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2022-08-20T10:18:00.9887407+02:00",
+    "Rank": 807,
+    "Type": "error",
+    "ColorBlock": 242,
+    "IconHint": "facilis",
+    "Selected": false,
+    "LastChanged": "2017-01-08T13:13:33.0111516+01:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Greenholt-Lubowitz",
-        "ToolTip": "In in ipsa.",
-        "Deleted": false,
-        "Rank": 531,
-        "Type": "dicta",
-        "ColorBlock": 382,
-        "IconHint": "facilis",
+        "Id": 751,
+        "Name": "Little, Marvin and Moen",
+        "ToolTip": "Quae quidem quia.",
+        "Deleted": true,
+        "Rank": 340,
+        "Type": "nobis",
+        "ColorBlock": 798,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2003-06-15T10:18:00.9887407+02:00",
+        "LastChanged": "2023-07-14T13:13:33.0111516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "ut",
+        "ExtraInfo": "eum",
+        "StyleHint": "molestiae",
         "Hidden": true,
-        "FullName": "Jarvis Hilpert",
+        "FullName": "Miss Jonathon Ullrich DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 516
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Hellen Cremin",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Wilfredo Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   }

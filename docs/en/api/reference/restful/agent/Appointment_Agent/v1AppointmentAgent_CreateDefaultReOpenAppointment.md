@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 330
+  "SaleId": 957
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-11-26T10:17:55.0508805+01:00",
-  "AppointmentId": 433,
-  "Description": "De-engineered radical data-warehouse",
-  "Title": "aliquam",
-  "Agenda": "nisi",
-  "InternalNotes": "cupiditate",
-  "StartDate": "1998-05-19T10:17:55.0508805+02:00",
-  "EndDate": "2022-06-03T10:17:55.0508805+02:00",
+  "CreatedDate": "2017-02-03T13:13:21.9771183+01:00",
+  "AppointmentId": 409,
+  "Description": "Right-sized tangible interface",
+  "Title": "voluptas",
+  "Agenda": "beatae",
+  "InternalNotes": "amet",
+  "StartDate": "1998-10-13T13:13:21.9771183+02:00",
+  "EndDate": "2018-12-14T13:13:21.9771183+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 927,
+  "MotherId": 150,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-04-27T10:17:55.0508805+02:00",
+  "UpdatedDate": "2020-08-02T13:13:21.9771183+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 824,
+  "ActiveLinks": 803,
   "Links": [
     {
-      "EntityName": "Lindgren, Koepp and Gottlieb",
-      "Id": 614,
-      "Description": "Fully-configurable motivating protocol",
-      "ExtraInfo": "cum",
-      "LinkId": 70,
+      "EntityName": "White-Weissnat",
+      "Id": 664,
+      "Description": "Synergized national encryption",
+      "ExtraInfo": "omnis",
+      "LinkId": 905,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldType": "System.String",
+          "FieldLength": 243
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
-  "HasAlarm": false,
-  "ColorIndex": 972,
+  "AlarmLeadTime": "ratione",
+  "HasAlarm": true,
+  "ColorIndex": 102,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "enim",
-  "LeadTime": "magnam",
-  "Location": "ea",
-  "RejectCounter": 745,
+  "IsAlldayEvent": true,
+  "LagTime": "possimus",
+  "LeadTime": "repudiandae",
+  "Location": "voluptatibus",
+  "RejectCounter": 429,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 266,
-      "PersonId": 982,
-      "ContactId": 596,
-      "EmailId": 278,
-      "SendEmail": true,
+      "AssociateId": 60,
+      "PersonId": 639,
+      "ContactId": 737,
+      "EmailId": 24,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "roderick.parisian@mann.co.uk",
-      "Description": "Configurable explicit Graphical User Interface"
+      "EmailAddress": "kade_pouros@runolfsson.uk",
+      "Description": "Streamlined intermediate emulation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-03-13T10:17:55.0508805+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-04-19T13:13:21.9771183+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 711,
+  "PreferredTZLocation": 40,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 611,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 93,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "minima",
+  "CentralserviceVideomeetId": "enim",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Nasir Prohaska IV"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Glenda Alexandria Bahringer IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "est",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "sint",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2023-07-02T10:17:55.0508805+02:00",
-  "PublishTo": "2006-08-11T10:17:55.0508805+02:00",
-  "PublishFrom": "1999-06-20T10:17:55.0508805+02:00",
+  "PublishEventDate": "2019-07-30T13:13:21.9927375+02:00",
+  "PublishTo": "2016-06-18T13:13:21.9927375+02:00",
+  "PublishFrom": "2021-07-15T13:13:21.9927375+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 133,
+      "VisibleId": 13,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 795
         }
       }
     },
     {
-      "VisibleId": 133,
+      "VisibleId": 13,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 795
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 764
     }
   }
 }

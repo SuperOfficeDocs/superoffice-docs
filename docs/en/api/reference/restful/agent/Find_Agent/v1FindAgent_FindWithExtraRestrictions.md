@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "modi",
-  "ProviderName": "Wisoky-O'Reilly",
-  "StorageKey": "delectus",
+  "StorageType": "illum",
+  "ProviderName": "Funk, Stracke and Schowalter",
+  "StorageKey": "quidem",
   "ExtraRestrictions": [
     {
-      "Name": "Ankunding-Tillman",
-      "Operator": "qui",
+      "Name": "Mosciski Inc and Sons",
+      "Operator": "maxime",
       "Values": [
-        "est",
-        "praesentium"
+        "esse",
+        "et"
       ],
       "DisplayValues": [
-        "quos",
-        "corrupti"
+        "sit",
+        "blanditiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 83,
+      "InterParenthesis": 889,
       "InterOperator": "And",
-      "UniqueHash": 578
+      "UniqueHash": 367
     }
   ],
   "OrderBy": [
     {
-      "Name": "Russel LLC",
+      "Name": "Ankunding, Bauch and Lubowitz",
       "Direction": "ASC"
     },
     {
-      "Name": "Russel LLC",
+      "Name": "Ankunding, Bauch and Lubowitz",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "quod",
-    "temporibus"
+    "perferendis",
+    "blanditiis"
   ],
-  "PageSize": 663,
-  "PageNumber": 10
+  "PageSize": 13,
+  "PageNumber": 319
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Walsh-Beer",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "omnis",
+      "DisplayName": "Rath, Mertz and DuBuque",
+      "DisplayTooltip": "cupiditate",
+      "DisplayType": "dolore",
       "CanOrderBy": false,
-      "Name": "Conn Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "eius",
-      "RestrictionListName": "Hodkiewicz, O'Hara and Zieme",
+      "Name": "Renner, Ward and Altenwerth",
+      "CanRestrictBy": false,
+      "RestrictionType": "corporis",
+      "RestrictionListName": "Runolfsdottir, Emmerich and Murphy",
       "IsVisible": false,
-      "ExtraInfo": "provident",
-      "Width": "aut",
-      "IconHint": "et",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "culpa",
+      "Width": "impedit",
+      "IconHint": "aut",
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Turner, Stanton and Marquardt",
-      "PrimaryKey": 625,
+      "EntityName": "Pagac, Hamill and Jerde",
+      "PrimaryKey": 912,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "error",
-          "TooltipHint": "aut",
-          "LinkHint": "omnis"
+          "DisplayValue": "delectus",
+          "TooltipHint": "molestias",
+          "LinkHint": "nobis"
         }
       },
-      "LinkHint": "deserunt",
-      "StyleHint": "quia",
+      "LinkHint": "dolorem",
+      "StyleHint": "laborum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 44
+          "FieldType": "System.String",
+          "FieldLength": 332
         }
       }
     }
   ],
-  "RowCount": 480,
+  "RowCount": 216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Zemlak-Ernser",
-  "Tooltip": "nam",
+  "Id": 446,
+  "Name": "O'Kon, Doyle and McKenzie",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 955,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 275,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "Schaefer-Swaniawski",
-  "Tooltip": "et",
+  "Id": 864,
+  "Name": "Schmitt-Turcotte",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 29,
+  "Rank": 826,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 813
     }
   },
   "_Links": {

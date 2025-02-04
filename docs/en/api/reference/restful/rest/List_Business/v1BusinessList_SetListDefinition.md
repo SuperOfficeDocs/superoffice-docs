@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Flatley, Legros and Kunde",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 135,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": true
+  "Id": 704,
+  "Name": "Koss-Bartell",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "Rank": 349,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "Wolff, Torphy and Kshlerin",
-  "Tooltip": "ab",
+  "Id": 895,
+  "Name": "Hudson-Lemke",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 360,
+  "Rank": 323,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 752
     }
   }
 }

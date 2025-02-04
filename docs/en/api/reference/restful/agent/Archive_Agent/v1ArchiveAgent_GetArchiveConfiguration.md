@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Swift-Larson",
-  "ProviderName": "Bednar, Rolfson and Howe"
+  "GuiName": "Hermiston-Batz",
+  "ProviderName": "Price Inc and Sons"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Will, Sawayn and Donnelly",
-      "DisplayTooltip": "optio",
-      "DisplayType": "officiis",
-      "CanOrderBy": true,
-      "Name": "Homenick Inc and Sons",
+      "DisplayName": "Becker LLC",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "accusamus",
+      "CanOrderBy": false,
+      "Name": "Yost, Carter and McLaughlin",
       "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "McGlynn-Lakin",
-      "IsVisible": false,
-      "ExtraInfo": "error",
-      "Width": "voluptatibus",
-      "IconHint": "consequuntur",
-      "HeadingIconHint": "ea"
+      "RestrictionType": "optio",
+      "RestrictionListName": "Roberts Group",
+      "IsVisible": true,
+      "ExtraInfo": "tenetur",
+      "Width": "rem",
+      "IconHint": "facere",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 700,
-      "Name": "Keebler LLC",
-      "ToolTip": "Enim eum.",
+      "Id": 468,
+      "Name": "Rowe, Flatley and Denesik",
+      "ToolTip": "Et eaque doloribus reprehenderit est.",
       "Deleted": true,
-      "Rank": 40,
-      "Type": "facilis",
-      "ColorBlock": 891,
-      "IconHint": "repellendus",
-      "Selected": false,
-      "LastChanged": "1998-05-27T10:17:55.0977583+02:00",
+      "Rank": 798,
+      "Type": "sint",
+      "ColorBlock": 108,
+      "IconHint": "cum",
+      "Selected": true,
+      "LastChanged": "2013-10-03T13:13:22.0864676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "excepturi",
+      "ExtraInfo": "est",
+      "StyleHint": "sunt",
       "Hidden": true,
-      "FullName": "Ms. Chyna Towne",
+      "FullName": "Autumn Haley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldLength": 521
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly-Schumm",
+      "Name": "Mann-Nader",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly-Schumm",
+      "Name": "Mann-Nader",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "enim",
+  "OwnerKeys": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 256
     }
   }
 }

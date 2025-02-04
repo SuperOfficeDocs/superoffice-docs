@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 259,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 129,
-  "Name": "Hagenes Group",
-  "Description": "Proactive bandwidth-monitored structure",
-  "Currency": "laborum",
-  "CurrencyName": "Predovic-Dietrich",
-  "ValidFrom": "2019-08-14T10:18:01.0668705+02:00",
-  "ValidTo": "1997-09-21T10:18:01.0668705+02:00",
+  "PriceListId": 933,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 164,
+  "Name": "Crona, Jakubowski and Hyatt",
+  "Description": "Proactive grid-enabled flexibility",
+  "Currency": "tenetur",
+  "CurrencyName": "Lynch, Gleichner and Schmitt",
+  "ValidFrom": "2000-09-28T13:13:33.2610909+02:00",
+  "ValidTo": "1999-06-12T13:13:33.2610909+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 217
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

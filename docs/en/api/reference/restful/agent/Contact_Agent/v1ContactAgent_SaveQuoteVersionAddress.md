@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 366,
+  "QuoteVersionId": 902,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 94
+  "CountryId": 706
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 25585.976,
-  "Wgs84Longitude": 8878.622,
+  "Wgs84Latitude": 31004.662,
+  "Wgs84Longitude": 5869.982,
   "LocalizedAddress": [
     [
       {
-        "Name": "Beer-Lebsack",
-        "Value": "facilis",
-        "Tooltip": "molestiae",
-        "Label": "et",
-        "ValueLength": 257,
-        "AddressType": "corporis",
+        "Name": "Ebert-Satterfield",
+        "Value": "ipsa",
+        "Tooltip": "nesciunt",
+        "Label": "harum",
+        "ValueLength": 333,
+        "AddressType": "nesciunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 7
+            "FieldType": "System.Int32",
+            "FieldLength": 911
           }
         }
       }
     ],
     [
       {
-        "Name": "Lindgren Group",
-        "Value": "et",
-        "Tooltip": "eligendi",
-        "Label": "numquam",
-        "ValueLength": 998,
-        "AddressType": "qui",
+        "Name": "Cassin Inc and Sons",
+        "Value": "nihil",
+        "Tooltip": "perspiciatis",
+        "Label": "rerum",
+        "ValueLength": 708,
+        "AddressType": "id",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldType": "System.String",
+            "FieldLength": 357
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "esse",
+  "Formatted": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

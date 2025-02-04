@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/EMail/ToggleSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 759,
+  "FolderId": 754,
   "SubscriptionStatus": false
 }
 ```

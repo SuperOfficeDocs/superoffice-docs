@@ -25,7 +25,7 @@ Lists all email flows
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -88,7 +88,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=startOnlyOnce,workflowAssociate/ejUserId,updatedBy
+GET /api/v1/archive/EmailFlows?$select=workflowCompletedCount,updatedBy,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 243,
-  "TopicId": 593,
+  "ChatSessionId": 98,
+  "TopicId": 268,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iusto",
-  "CustomerHost": "deleniti",
-  "CustomerName": "Homenick Inc and Sons",
-  "CustomerEmail": "victor@rippinbartell.uk",
-  "CustomerPhone": "617-473-9420",
+  "CustomerAlias": "excepturi",
+  "CustomerHost": "perspiciatis",
+  "CustomerName": "Legros-Halvorson",
+  "CustomerEmail": "salvatore@davis.info",
+  "CustomerPhone": "877.389.2200 x77788",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Spinka, Hills and Ebert",
+  "CustomerCompanyName": "Pfannerstill-Kohler",
   "Status": "Closed",
-  "FirstMessage": "ut",
+  "FirstMessage": "blanditiis",
   "LastMessage": "quia",
-  "WhenRequested": "2019-12-04T10:17:55.1446361+01:00",
-  "WhenStarted": "2024-08-12T10:17:55.1446361+02:00",
-  "WhenEnded": "2008-11-19T10:17:55.1446361+01:00",
-  "WhenIdle": "2019-09-24T10:17:55.1446361+02:00",
-  "WhenFetched": "2024-01-17T10:17:55.1446361+01:00",
-  "SessionKey": "dolores",
-  "InitialQueuePos": 254,
-  "AlertLevel": 511,
-  "Rank": 737,
+  "WhenRequested": "2010-01-06T13:13:22.1801973+01:00",
+  "WhenStarted": "2009-10-11T13:13:22.1801973+02:00",
+  "WhenEnded": "2002-09-24T13:13:22.1801973+02:00",
+  "WhenIdle": "2002-05-30T13:13:22.1801973+02:00",
+  "WhenFetched": "1997-10-12T13:13:22.1801973+02:00",
+  "SessionKey": "animi",
+  "InitialQueuePos": 619,
+  "AlertLevel": 77,
+  "Rank": 6,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 825,
+  "ChatbotIsActive": false,
+  "Rating": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 941
     }
   }
 }

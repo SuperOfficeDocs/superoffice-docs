@@ -1309,7 +1309,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelection?$select=salePublish/publishedTo,person/correspondingAssociate/lastName,person/correspondingAssociate/ejDisplayName,contact/postAddress/wgs84latitude,contact/SaintStatus1
+GET /api/v1/archive/SaleDynamicSelection?$select=salePublish/isPublished,salePublish/publishedBy,person/personAddress/line1,contact/contactUdef/SuperOffice:6,appointment/userGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

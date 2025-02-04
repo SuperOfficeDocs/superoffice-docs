@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 96,
-  "Name": "Hansen, Corwin and Marks",
-  "ContentType": "provident",
-  "AttSize": 900,
+  "AttachmentId": 698,
+  "Name": "Ryan, Pagac and Hagenes",
+  "ContentType": "sit",
+  "AttSize": 661,
   "InlineImage": false,
-  "ContentId": "cupiditate",
-  "AuthKey": "facilis",
-  "IsSafeFileExtension": false,
+  "ContentId": "est",
+  "AuthKey": "optio",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   },
   "_Links": {

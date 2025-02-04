@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "et",
-    "PersonId": 566,
-    "Mrmrs": "et",
-    "Firstname": "Blake",
-    "Lastname": "Conn",
-    "MiddleName": "Wisozk-Jerde",
-    "Title": "dolores",
-    "Description": "Fundamental zero administration functionalities",
-    "Email": "sigrid@harris.us",
-    "FullName": "Mr. Sarai Jacobi",
-    "DirectPhone": "556.871.8784",
-    "FormalName": "Doyle-Nikolaus",
-    "CountryId": 309,
-    "ContactId": 71,
-    "ContactName": "Hudson LLC",
-    "Retired": 969,
-    "Rank": 455,
-    "ActiveInterests": 860,
+    "Position": "consequatur",
+    "PersonId": 350,
+    "Mrmrs": "odio",
+    "Firstname": "Karley",
+    "Lastname": "Sauer",
+    "MiddleName": "Will LLC",
+    "Title": "molestias",
+    "Description": "Implemented value-added solution",
+    "Email": "jess.jewess@oconner.ca",
+    "FullName": "Nella Willms",
+    "DirectPhone": "1-196-428-0613 x65843",
+    "FormalName": "Satterfield-Hayes",
+    "CountryId": 430,
+    "ContactId": 966,
+    "ContactName": "Hansen, Casper and Osinski",
+    "Retired": 909,
+    "Rank": 640,
+    "ActiveInterests": 490,
     "ContactDepartment": "",
-    "ContactCountryId": 73,
-    "ContactOrgNr": "1208478",
-    "FaxPhone": "1-128-261-8892 x9194",
-    "MobilePhone": "695-644-5892 x76828",
-    "ContactPhone": "581-639-7187 x7873",
-    "AssociateName": "Waters-Dibbert",
-    "AssociateId": 148,
-    "UsePersonAddress": true,
-    "ContactFax": "maiores",
-    "Kanafname": "consequatur",
-    "Kanalname": "eos",
-    "Post1": "tempora",
-    "Post2": "dolorem",
-    "Post3": "dolorem",
-    "EmailName": "jacquelyn@welchjast.info",
-    "ContactFullName": "Jamarcus Schiller",
-    "ActiveErpLinks": 166,
-    "TicketPriorityId": 265,
-    "SupportLanguageId": 842,
-    "SupportAssociateId": 83,
+    "ContactCountryId": 167,
+    "ContactOrgNr": "557416",
+    "FaxPhone": "194-556-3423",
+    "MobilePhone": "315-512-2101 x9872",
+    "ContactPhone": "814.608.2129 x38008",
+    "AssociateName": "Champlin, Langosh and Balistreri",
+    "AssociateId": 256,
+    "UsePersonAddress": false,
+    "ContactFax": "explicabo",
+    "Kanafname": "odit",
+    "Kanalname": "sit",
+    "Post1": "sit",
+    "Post2": "eos",
+    "Post3": "suscipit",
+    "EmailName": "rachelle_buckridge@waelchivolkman.us",
+    "ContactFullName": "Keshawn Balistreri",
+    "ActiveErpLinks": 793,
+    "TicketPriorityId": 679,
+    "SupportLanguageId": 916,
+    "SupportAssociateId": 11,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 339
       }
     }
   }

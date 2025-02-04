@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Kemmer Group",
-    "ToolTip": "Dignissimos enim et nisi.",
-    "Deleted": true,
-    "Rank": 220,
-    "Type": "ut",
-    "ColorBlock": 973,
-    "IconHint": "et",
+    "Id": 285,
+    "Name": "Schowalter, D'Amore and Treutel",
+    "ToolTip": "Soluta cumque.",
+    "Deleted": false,
+    "Rank": 441,
+    "Type": "dolorem",
+    "ColorBlock": 115,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2011-10-31T10:18:00.9887407+01:00",
+    "LastChanged": "1999-03-14T13:13:32.9955292+01:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Hand Group",
-        "ToolTip": "Adipisci blanditiis.",
-        "Deleted": true,
-        "Rank": 774,
-        "Type": "et",
-        "ColorBlock": 74,
-        "IconHint": "et",
+        "Id": 692,
+        "Name": "Legros Group",
+        "ToolTip": "Ad temporibus facilis ex.",
+        "Deleted": false,
+        "Rank": 168,
+        "Type": "eum",
+        "ColorBlock": 152,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2020-01-06T10:18:00.9887407+01:00",
+        "LastChanged": "2017-10-16T13:13:32.9955292+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "quam",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Clara Roselyn Runte III"
+        "FullName": "Carleton Ortiz"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "est",
+    "ExtraInfo": "molestias",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Prof. Nora Nienow Jr."
+    "FullName": "Alexandro Nick Rohan Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Lemke, Dickinson and Rowe",
-    "ToolTip": "Id id.",
+    "Id": 874,
+    "Name": "Stracke-Hamill",
+    "ToolTip": "Quibusdam sit saepe.",
     "Deleted": false,
-    "Rank": 891,
-    "Type": "corrupti",
-    "ColorBlock": 208,
-    "IconHint": "inventore",
+    "Rank": 824,
+    "Type": "voluptas",
+    "ColorBlock": 688,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2017-02-06T10:18:00.9887407+01:00",
+    "LastChanged": "2015-07-28T13:13:32.9955292+02:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Lowe LLC",
-        "ToolTip": "Sed deserunt earum itaque.",
+        "Id": 345,
+        "Name": "Auer, Bogisich and Auer",
+        "ToolTip": "Aut nihil dolorum.",
         "Deleted": false,
-        "Rank": 689,
-        "Type": "accusantium",
-        "ColorBlock": 440,
-        "IconHint": "exercitationem",
+        "Rank": 269,
+        "Type": "nobis",
+        "ColorBlock": 46,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2013-10-24T10:18:00.9887407+02:00",
+        "LastChanged": "2004-04-28T13:13:32.9955292+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "nisi",
+        "ExtraInfo": "inventore",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Collin Howell",
+        "FullName": "Jayce Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldType": "System.String",
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "ducimus",
-    "Hidden": false,
-    "FullName": "Daija Paucek",
+    "ExtraInfo": "ut",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Emily Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 764
       }
     }
   }

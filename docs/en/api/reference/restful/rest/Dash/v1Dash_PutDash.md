@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 11,
-  "UniqueId": "maiores",
-  "Name": "Kris Group",
-  "Description": "Multi-layered tertiary model",
-  "AssociateId": 732,
-  "Columns": 331,
+  "DashboardId": 60,
+  "UniqueId": "non",
+  "Name": "Marks-Rosenbaum",
+  "Description": "Fundamental static firmware",
+  "AssociateId": 66,
+  "Columns": 797,
   "Theme": null,
-  "VisibleForAll": 861,
+  "VisibleForAll": 978,
   "VisibleForAssociates": [
-    419,
-    129
+    769,
+    830
   ],
   "VisibleForGroups": [
-    69,
-    746
+    247,
+    869
   ],
-  "PinForAll": 214,
+  "PinForAll": 680,
   "PinForAssociates": [
-    814,
-    935
+    262,
+    866
   ],
   "PinForGroups": [
-    811,
-    585
+    506,
+    453
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 824,
-  "UniqueId": "quis",
-  "Name": "Gleichner LLC",
-  "Description": "Customizable tangible instruction set",
-  "AssociateId": 168,
-  "Columns": 217,
+  "DashboardId": 22,
+  "UniqueId": "quidem",
+  "Name": "Rogahn-McClure",
+  "Description": "Fully-configurable multimedia data-warehouse",
+  "AssociateId": 327,
+  "Columns": 50,
   "Theme": null,
-  "VisibleForAll": 845,
+  "VisibleForAll": 839,
   "VisibleForAssociates": [
-    44,
-    179
+    592,
+    190
   ],
   "VisibleForGroups": [
-    926,
-    139
+    763,
+    532
   ],
-  "PinForAll": 21,
+  "PinForAll": 149,
   "PinForAssociates": [
-    905,
-    151
+    7,
+    793
   ],
   "PinForGroups": [
-    996,
-    885
+    115,
+    547
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 764
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

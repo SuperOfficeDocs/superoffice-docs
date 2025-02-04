@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 196,
-    "Name": "Reilly, Will and Maggio",
-    "Tooltip": "quia",
+    "HeadingId": 506,
+    "Name": "McDermott, Howe and Dach",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 859,
-    "UdListDefinitionId": 730
+    "Rank": 829,
+    "UdListDefinitionId": 302
   },
   {
-    "HeadingId": 196,
-    "Name": "Reilly, Will and Maggio",
-    "Tooltip": "quia",
+    "HeadingId": 506,
+    "Name": "McDermott, Howe and Dach",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 859,
-    "UdListDefinitionId": 730
+    "Rank": 829,
+    "UdListDefinitionId": 302
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Rice Group",
-    "Tooltip": "nihil",
+    "HeadingId": 495,
+    "Name": "Howell-Stamm",
+    "Tooltip": "quas",
     "Deleted": false,
-    "Rank": 832,
-    "UdListDefinitionId": 819,
+    "Rank": 438,
+    "UdListDefinitionId": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

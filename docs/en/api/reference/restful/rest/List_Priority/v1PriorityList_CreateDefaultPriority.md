@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Brekke Inc and Sons",
-  "Tooltip": "cum",
-  "Deleted": false,
-  "UdListDefinitionId": 425,
-  "Rank": 721,
+  "Id": 691,
+  "Name": "O'Keefe-Feest",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "UdListDefinitionId": 326,
+  "Rank": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

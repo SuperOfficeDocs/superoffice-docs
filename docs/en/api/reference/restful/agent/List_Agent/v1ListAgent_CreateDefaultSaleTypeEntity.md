@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 933,
-  "Name": "Kulas Group",
-  "Tooltip": "sunt",
-  "Rank": 10,
+  "SaleTypeId": 34,
+  "Name": "Kreiger Inc and Sons",
+  "Tooltip": "in",
+  "Rank": 274,
   "DurationUnit": "Century",
-  "SaleDuration": 945,
-  "SaleTypeCatId": 468,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "SaleDuration": 286,
+  "SaleTypeCatId": 427,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 713,
-  "QuoteLinesTemplate": 498,
-  "ConfirmationLinesTemplate": 505,
+  "DefaultQuoteValidity": 227,
+  "QuoteLinesTemplate": 269,
+  "ConfirmationLinesTemplate": 824,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 284,
-  "MinEarningPercent": 591,
-  "GroupQuoteLinesBy": 75,
-  "SortGroupLinesBy": 100,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 971,
+  "MinEarningPercent": 220,
+  "GroupQuoteLinesBy": 863,
+  "SortGroupLinesBy": 902,
   "Stages": [
     {
-      "Id": 676,
-      "Name": "Dare-Adams",
-      "ToolTip": "Possimus non optio.",
+      "Id": 413,
+      "Name": "McKenzie Group",
+      "ToolTip": "Et aut officia minus.",
       "Deleted": false,
-      "Rank": 900,
-      "Type": "cupiditate",
-      "ColorBlock": 776,
+      "Rank": 594,
+      "Type": "saepe",
+      "ColorBlock": 667,
       "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2001-10-21T10:17:55.7384214+02:00",
+      "Selected": true,
+      "LastChanged": "2012-04-16T13:13:23.3207956+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "possimus",
+      "StyleHint": "voluptas",
       "Hidden": true,
-      "FullName": "Otho Larson",
+      "FullName": "Syble Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

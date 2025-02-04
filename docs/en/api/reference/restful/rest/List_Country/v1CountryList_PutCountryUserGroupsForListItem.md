@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Hayes-Baumbach",
-    "ToolTip": "Pariatur quia.",
-    "Deleted": true,
-    "Rank": 303,
-    "Type": "et",
-    "ColorBlock": 394,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2016-12-12T10:18:00.9731148+01:00",
+    "Id": 818,
+    "Name": "Mohr-Durgan",
+    "ToolTip": "Nisi odio excepturi voluptate consequatur aut nulla.",
+    "Deleted": false,
+    "Rank": 900,
+    "Type": "necessitatibus",
+    "ColorBlock": 527,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2011-06-16T13:13:32.9642864+02:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Bruen, Ernser and Casper",
-        "ToolTip": "Omnis nihil.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "quis",
-        "ColorBlock": 757,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2022-12-15T10:18:00.9731148+01:00",
+        "Id": 750,
+        "Name": "Schaden Inc and Sons",
+        "ToolTip": "Alias dolores cupiditate et.",
+        "Deleted": true,
+        "Rank": 903,
+        "Type": "voluptatibus",
+        "ColorBlock": 856,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2020-01-12T13:13:32.9642864+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "quo",
+        "ExtraInfo": "labore",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Orie Harvey"
+        "FullName": "Dr. Aliyah Paucek"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "maiores",
+    "ExtraInfo": "qui",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Mrs. Robin Archibald Dach"
+    "FullName": "Ms. Sammie Lubowitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Hickle LLC",
-    "ToolTip": "Praesentium ipsam quia eum sequi tempora.",
+    "Id": 594,
+    "Name": "Hudson, Hintz and Rempel",
+    "ToolTip": "Et quam qui ex aut nobis vitae voluptates.",
     "Deleted": false,
-    "Rank": 768,
-    "Type": "ullam",
-    "ColorBlock": 415,
-    "IconHint": "placeat",
+    "Rank": 65,
+    "Type": "dolores",
+    "ColorBlock": 528,
+    "IconHint": "dignissimos",
     "Selected": true,
-    "LastChanged": "2001-10-28T10:18:00.9731148+01:00",
+    "LastChanged": "2006-11-12T13:13:32.9642864+01:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Lynch-Smith",
-        "ToolTip": "Recusandae autem similique dolore non ut deserunt.",
-        "Deleted": false,
-        "Rank": 710,
-        "Type": "vel",
-        "ColorBlock": 91,
-        "IconHint": "sunt",
+        "Id": 237,
+        "Name": "Gutmann LLC",
+        "ToolTip": "Autem aut.",
+        "Deleted": true,
+        "Rank": 964,
+        "Type": "in",
+        "ColorBlock": 995,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2024-01-06T10:18:00.9731148+01:00",
+        "LastChanged": "2003-05-17T13:13:32.9642864+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "quas",
+        "ExtraInfo": "ut",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Nikita Will",
+        "FullName": "Anastasia Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldLength": 861
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "earum",
+    "ExtraInfo": "et",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Ms. Laurianne Aric Klocko",
+    "FullName": "Heidi Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 16
       }
     }
   }

@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,45 +101,45 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 604,
-  "Name": "Kreiger-Gerhold",
-  "Rank": 262,
-  "Tooltip": "omnis",
-  "Icon": "quibusdam",
-  "DefaultTicketStatus": 781,
+  "TicketTypeId": 178,
+  "Name": "Hane-Huels",
+  "Rank": 475,
+  "Tooltip": "error",
+  "Icon": "aut",
+  "DefaultTicketStatus": 746,
   "TicketStatuses": [
-    835,
-    449
+    296,
+    998
   ],
-  "DefaultTicketPriority": 75,
+  "DefaultTicketPriority": 310,
   "TicketPriorities": [
-    686,
-    305
+    464,
+    554
   ],
-  "ReplyTemplate": 995,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 321,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    502,
-    515
+    900,
+    363
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 620
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Miller Group",
-    "ToolTip": "Labore accusamus provident totam laudantium impedit consectetur voluptatibus.",
-    "Deleted": false,
-    "Rank": 545,
-    "Type": "distinctio",
-    "ColorBlock": 165,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2011-03-13T10:18:00.9574888+01:00",
+    "Id": 576,
+    "Name": "Beahan, Smith and Greenfelder",
+    "ToolTip": "Officiis fugiat est libero animi dolore repudiandae sequi.",
+    "Deleted": true,
+    "Rank": 685,
+    "Type": "temporibus",
+    "ColorBlock": 703,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2004-02-09T13:13:32.9174228+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Osinski, Legros and Jacobi",
-        "ToolTip": "Cupiditate unde illum vitae.",
-        "Deleted": true,
-        "Rank": 802,
-        "Type": "ut",
-        "ColorBlock": 4,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2010-07-21T10:18:00.9574888+02:00",
+        "Id": 467,
+        "Name": "Runolfsdottir Group",
+        "ToolTip": "Facilis quas et sint voluptatem id iure est.",
+        "Deleted": false,
+        "Rank": 310,
+        "Type": "nobis",
+        "ColorBlock": 804,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2000-04-29T13:13:32.9174228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quam",
+        "ExtraInfo": "architecto",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Dell Donnelly",
+        "FullName": "Stefan Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Genoveva Monahan",
+    "ExtraInfo": "similique",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Charlotte Alvera Will II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 418
       }
     }
   }

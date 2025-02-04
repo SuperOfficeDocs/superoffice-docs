@@ -1206,6 +1206,8 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
+|selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 |linkClicked/linkId|int|Link ID: Link ID|  |
 |linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
@@ -1236,12 +1238,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
-|workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last email status: Status of mailing recipient| x |
+|workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |workflowInstance/registeredBy|associate|Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|workflowInstance/emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|workflowInstance/emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |workflowInstance/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -1264,12 +1266,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |workflowInstance/emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
 |workflowInstance/emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |chatSession/chatSessionId|int|Chat session ID: Database ID of the chat session| x |
-|chatSession/firstMessage|string|First message: The first message submitted in the chat| x |
-|chatSession/lastMessage|string|Last message: The last message submitted in the chat| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/firstMessage|string|First message: The first message submitted in the chat| x |
+|chatSession/lastMessage|string|Last message: The last message submitted in the chat| x |
 |chatSession/whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
 |chatSession/whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
 |chatSession/whenEnded|datetime|Chat ended: When did this chat end?| x |
@@ -1368,12 +1370,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/alternative/quoteline/totalCost|decimal|Total cost|  |
 |sale/quote/version/alternative/quoteline/quoteLineThumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
 |sale/quote/version/alternative/quoteline/quoteLineThumbnailLarge| *None* |Thumbnail: A miniature version of the product picture|  |
-|sale/quote/version/alternative/quoteline/discountAmount|decimal|Discount: Discount amount given by salesperson| x |
-|sale/quote/version/alternative/quoteline/discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/discountAmount|decimal|Discount: Discount amount given by salesperson| x |
+|sale/quote/version/alternative/quoteline/discountPercent|decimal|Discount (%: Discount percent given by salesperson| x |
 |sale/quote/version/alternative/quoteline/earningAmount|decimal|Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |sale/quote/version/alternative/quoteline/earningPercent|decimal|Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
 |sale/quote/version/alternative/quoteline/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -1394,7 +1396,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactUdef/SuperOffice:10,sourceRelation/department,sourceRelation/contactNoMail,sale/updatedDate,appointment/createdByWorkflow
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=sale/saleUdef/SuperOffice:6,appointment/rawStatus,appointment/appointmentPublish/publishedFrom,appointment/appointment/internalNotesHtml,document/document/textId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

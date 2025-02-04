@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 527,
-  "Name": "Rice Inc and Sons",
-  "Tooltip": "fugiat",
-  "Rank": 712,
-  "Rate": 6164.5779999999995,
-  "Units": 15337.796,
+  "CurrencyId": 628,
+  "Name": "Lynch, Spinka and McClure",
+  "Tooltip": "nemo",
+  "Rank": 696,
+  "Rate": 4052.2619999999997,
+  "Units": 24241.489999999998,
   "Deleted": true
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 431,
-  "Name": "Ullrich LLC",
-  "Tooltip": "minus",
-  "Rank": 940,
-  "Rate": 26711.082,
-  "Units": 17826.192,
+  "CurrencyId": 789,
+  "Name": "McCullough, Steuber and Feest",
+  "Tooltip": "dicta",
+  "Rank": 78,
+  "Rate": 2275.284,
+  "Units": 22075.896,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 210
     }
   }
 }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 528,
-  "ListItemId": 215,
-  "ShowDeleted": false
+  "UdListDefinitionId": 915,
+  "ListItemId": 162,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Wyman LLC",
-    "ToolTip": "Aut eos et animi.",
+    "Id": 486,
+    "Name": "Smith, VonRueden and Kiehn",
+    "ToolTip": "Laborum quo architecto in dolores.",
     "Deleted": false,
-    "Rank": 788,
-    "Type": "qui",
-    "ColorBlock": 594,
-    "IconHint": "inventore",
+    "Rank": 355,
+    "Type": "molestias",
+    "ColorBlock": 121,
+    "IconHint": "iure",
     "Selected": true,
-    "LastChanged": "2004-07-13T10:17:55.7071691+02:00",
+    "LastChanged": "2024-01-05T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Oberbrunner-Dicki",
-        "ToolTip": "In et accusamus non quis ut eum.",
+        "Id": 697,
+        "Name": "Murray Inc and Sons",
+        "ToolTip": "Minus ut.",
         "Deleted": false,
-        "Rank": 393,
-        "Type": "perspiciatis",
-        "ColorBlock": 626,
-        "IconHint": "esse",
-        "Selected": true,
-        "LastChanged": "2006-03-25T10:17:55.7071691+01:00",
+        "Rank": 690,
+        "Type": "odio",
+        "ColorBlock": 701,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2004-11-25T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Lurline Schneider",
+        "ExtraInfo": "modi",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Mandy Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 790
+            "FieldLength": 982
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "iusto",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Evert Cronin",
+    "FullName": "Miss Sadie Pfeffer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

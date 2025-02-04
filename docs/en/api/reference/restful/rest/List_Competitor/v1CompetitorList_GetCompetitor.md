@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Gaylord LLC",
-  "Tooltip": "quibusdam",
+  "Id": 344,
+  "Name": "Gaylord, Hermiston and Effertz",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "UdListDefinitionId": 637,
-  "Rank": 812,
+  "UdListDefinitionId": 80,
+  "Rank": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 741
     }
   }
 }

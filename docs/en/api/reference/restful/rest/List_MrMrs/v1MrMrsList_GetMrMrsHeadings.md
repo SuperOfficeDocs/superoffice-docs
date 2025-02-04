@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Torp-Hudson",
-    "Tooltip": "et",
+    "HeadingId": 266,
+    "Name": "Osinski-Gleichner",
+    "Tooltip": "aspernatur",
     "Deleted": true,
-    "Rank": 287,
-    "UdListDefinitionId": 35,
+    "Rank": 226,
+    "UdListDefinitionId": 199,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldType": "System.Int32",
+        "FieldLength": 813
       }
     }
   }

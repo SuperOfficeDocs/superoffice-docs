@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Brekke Group",
-    "Tooltip": "iure",
-    "Deleted": true,
-    "Rank": 950,
-    "UdListDefinitionId": 232,
+    "HeadingId": 467,
+    "Name": "Murray Inc and Sons",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 368,
+    "UdListDefinitionId": 6,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 346
       }
     }
   }

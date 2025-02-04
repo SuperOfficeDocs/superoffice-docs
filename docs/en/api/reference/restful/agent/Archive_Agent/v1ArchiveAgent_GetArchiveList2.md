@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Heller Group",
-  "ProviderName": "Hansen-Collins",
-  "SortOrder": "sunt",
-  "Restriction": "quia",
-  "Entities": "modi",
-  "Page": 819,
-  "PageSize": 524
+  "GuiName": "Robel, Satterfield and Thompson",
+  "ProviderName": "Jones Inc and Sons",
+  "SortOrder": "consequuntur",
+  "Restriction": "corporis",
+  "Entities": "qui",
+  "Page": 668,
+  "PageSize": 413
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kutch, Konopelski and Nolan",
-    "PrimaryKey": 821,
+    "EntityName": "Hammes LLC",
+    "PrimaryKey": 605,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fugit",
-        "TooltipHint": "voluptate",
-        "LinkHint": "corporis"
+        "DisplayValue": "dolorem",
+        "TooltipHint": "fugit",
+        "LinkHint": "voluptatem"
       }
     },
-    "LinkHint": "rerum",
-    "StyleHint": "voluptas",
+    "LinkHint": "optio",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 271
       }
     }
   }

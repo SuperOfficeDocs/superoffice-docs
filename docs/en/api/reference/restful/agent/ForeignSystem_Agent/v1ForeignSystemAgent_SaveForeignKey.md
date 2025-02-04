@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Goldner, Stanton and McLaughlin",
-  "DeviceName": "O'Conner Group",
-  "DeviceIdentifier": "laborum"
+  "ApplicationName": "Oberbrunner-Kautzer",
+  "DeviceName": "Gutkowski-Olson",
+  "DeviceIdentifier": "iusto"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "neque",
-  "Value": "iusto",
-  "RecordId": 338,
-  "CreatedDate": "1999-07-07T10:17:55.660285+02:00",
-  "UpdatedDate": "1999-03-01T10:17:55.660285+01:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "autem",
-  "TableName": "Haag Inc and Sons",
+  "Key": "in",
+  "Value": "dolorem",
+  "RecordId": 640,
+  "CreatedDate": "2023-02-06T13:13:23.1802042+01:00",
+  "UpdatedDate": "2009-12-08T13:13:23.1802042+01:00",
+  "UpdatedBy": "amet",
+  "CreatedBy": "molestiae",
+  "TableName": "Stark-Greenfelder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 814
     }
   }
 }

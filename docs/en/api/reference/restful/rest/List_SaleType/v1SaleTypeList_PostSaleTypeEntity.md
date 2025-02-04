@@ -111,47 +111,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 838,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "nihil",
-  "Rank": 249,
+  "SaleTypeId": 979,
+  "Name": "Trantow LLC",
+  "Tooltip": "et",
+  "Rank": 825,
   "DurationUnit": "Century",
-  "SaleDuration": 941,
-  "SaleTypeCatId": 842,
+  "SaleDuration": 550,
+  "SaleTypeCatId": 533,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 615,
-  "QuoteLinesTemplate": 686,
-  "ConfirmationLinesTemplate": 818,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 5,
+  "QuoteLinesTemplate": 7,
+  "ConfirmationLinesTemplate": 293,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 800,
-  "MinEarningPercent": 613,
-  "GroupQuoteLinesBy": 303,
-  "SortGroupLinesBy": 264,
+  "MaxDiscountPercent": 95,
+  "MinEarningPercent": 308,
+  "GroupQuoteLinesBy": 283,
+  "SortGroupLinesBy": 818,
   "Stages": [
     {
-      "Id": 16,
-      "Name": "Parker-Johnston",
-      "ToolTip": "Autem libero culpa provident.",
+      "Id": 972,
+      "Name": "Considine-Bins",
+      "ToolTip": "Provident ut.",
       "Deleted": false,
-      "Rank": 380,
-      "Type": "ducimus",
-      "ColorBlock": 276,
-      "IconHint": "non",
-      "Selected": false,
-      "LastChanged": "2003-12-22T10:18:01.1606262+01:00",
+      "Rank": 995,
+      "Type": "unde",
+      "ColorBlock": 743,
+      "IconHint": "voluptatum",
+      "Selected": true,
+      "LastChanged": "2005-03-17T13:13:33.5578902+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "odit",
-      "StyleHint": "quae",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "reiciendis",
       "Hidden": true,
-      "FullName": "Hal Pacocha"
+      "FullName": "Brooke Violette O'Kon MD"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 798,
-  "Name": "Lowe Group",
-  "Tooltip": "exercitationem",
-  "Rank": 218,
+  "SaleTypeId": 534,
+  "Name": "Beier Group",
+  "Tooltip": "voluptas",
+  "Rank": 323,
   "DurationUnit": "Century",
-  "SaleDuration": 488,
-  "SaleTypeCatId": 669,
+  "SaleDuration": 790,
+  "SaleTypeCatId": 278,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 85,
-  "QuoteLinesTemplate": 350,
-  "ConfirmationLinesTemplate": 605,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 152,
+  "QuoteLinesTemplate": 497,
+  "ConfirmationLinesTemplate": 370,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 415,
-  "MinEarningPercent": 915,
-  "GroupQuoteLinesBy": 971,
-  "SortGroupLinesBy": 443,
+  "MaxDiscountPercent": 138,
+  "MinEarningPercent": 103,
+  "GroupQuoteLinesBy": 260,
+  "SortGroupLinesBy": 959,
   "Stages": [
     {
-      "Id": 179,
-      "Name": "Marquardt, Koch and Aufderhar",
-      "ToolTip": "Officia beatae quisquam a omnis est.",
+      "Id": 514,
+      "Name": "Howe, Miller and Berge",
+      "ToolTip": "Aut alias.",
       "Deleted": false,
-      "Rank": 701,
-      "Type": "vel",
-      "ColorBlock": 154,
-      "IconHint": "molestias",
+      "Rank": 169,
+      "Type": "velit",
+      "ColorBlock": 911,
+      "IconHint": "veniam",
       "Selected": false,
-      "LastChanged": "2010-10-30T10:18:01.1606262+02:00",
+      "LastChanged": "2015-08-17T13:13:33.5578902+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "molestiae",
-      "Hidden": true,
-      "FullName": "Prof. Walton Thurman O'Connell I",
+      "ExtraInfo": "quae",
+      "StyleHint": "harum",
+      "Hidden": false,
+      "FullName": "Daniella Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldType": "System.Int32",
+          "FieldLength": 405
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

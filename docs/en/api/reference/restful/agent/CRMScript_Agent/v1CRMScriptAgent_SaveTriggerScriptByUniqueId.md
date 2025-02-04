@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "reprehenderit",
+  "TriggerScriptUniqueId": "fugiat",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 31,
-  "Name": "Marks Inc and Sons",
+  "ScreenChooserId": 981,
+  "Name": "McLaughlin Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "doloremque",
-  "Source": "iusto",
-  "Registered": "2016-04-08T10:17:55.3165216+02:00",
-  "RegisteredAssociateId": 273,
-  "Updated": "2009-11-16T10:17:55.3165216+01:00",
-  "UpdatedAssociateId": 572,
+  "Enabled": false,
+  "UniqueIdentifier": "et",
+  "Source": "ut",
+  "Registered": "2013-03-07T13:13:22.5238611+01:00",
+  "RegisteredAssociateId": 25,
+  "Updated": "2014-05-23T13:13:22.5238611+02:00",
+  "UpdatedAssociateId": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 220
     }
   }
 }

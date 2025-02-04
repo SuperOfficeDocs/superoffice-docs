@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 239,
+  "HierarchyId": 227,
   "Domain": "Dashboards",
-  "Name": "Will-Willms",
+  "Name": "Kohler LLC",
   "Fullname": "doloremque",
-  "ParentId": 843,
+  "ParentId": 727,
   "Children": [
     {
-      "HierarchyId": 641,
+      "HierarchyId": 932,
       "Domain": "Dashboards",
-      "Name": "Boyle LLC",
-      "Fullname": "alias",
-      "ParentId": 546,
+      "Name": "Abbott, Johns and West",
+      "Fullname": "aut",
+      "ParentId": 928,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-11-12T10:18:00.4262067+01:00",
-      "RegisteredAssociateId": 653,
-      "Updated": "2007-04-01T10:18:00.4262067+02:00",
-      "UpdatedAssociateId": 582
+      "Registered": "2011-05-06T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 386,
+      "Updated": "2018-05-26T13:13:31.7613495+02:00",
+      "UpdatedAssociateId": 832
     }
   ],
-  "Registered": "2014-04-08T10:18:00.4262067+02:00",
-  "RegisteredAssociateId": 624,
-  "Updated": "2018-05-31T10:18:00.4262067+02:00",
-  "UpdatedAssociateId": 698
+  "Registered": "2003-01-13T13:13:31.7613495+01:00",
+  "RegisteredAssociateId": 96,
+  "Updated": "2017-01-09T13:13:31.7613495+01:00",
+  "UpdatedAssociateId": 586
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 532,
+  "HierarchyId": 472,
   "Domain": "Dashboards",
-  "Name": "Stokes Inc and Sons",
-  "Fullname": "corrupti",
-  "ParentId": 283,
+  "Name": "Feeney, Rau and Swaniawski",
+  "Fullname": "facere",
+  "ParentId": 636,
   "Children": [
     {
-      "HierarchyId": 39,
+      "HierarchyId": 236,
       "Domain": "Dashboards",
-      "Name": "Buckridge-Tremblay",
-      "Fullname": "voluptate",
-      "ParentId": 590,
+      "Name": "Leannon-Weimann",
+      "Fullname": "deserunt",
+      "ParentId": 356,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-04-19T10:18:00.4262067+02:00",
-      "RegisteredAssociateId": 226,
-      "Updated": "2015-05-20T10:18:00.4262067+02:00",
-      "UpdatedAssociateId": 606,
+      "Registered": "2022-08-16T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 470,
+      "Updated": "2010-09-30T13:13:31.7613495+02:00",
+      "UpdatedAssociateId": 66,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     }
   ],
-  "Registered": "2012-06-17T10:18:00.4262067+02:00",
-  "RegisteredAssociateId": 950,
-  "Updated": "2016-10-24T10:18:00.4262067+02:00",
-  "UpdatedAssociateId": 389,
+  "Registered": "2021-09-06T13:13:31.7613495+02:00",
+  "RegisteredAssociateId": 202,
+  "Updated": "2024-02-22T13:13:31.7613495+01:00",
+  "UpdatedAssociateId": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   }
 }

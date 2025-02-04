@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 953,
-  "Name": "Runolfsson, Zulauf and Vandervort",
-  "Tooltip": "alias",
-  "Rank": 669,
-  "Rate": 5719.55,
-  "Units": 8104.5239999999994,
+  "CurrencyId": 774,
+  "Name": "Collins-Balistreri",
+  "Tooltip": "odio",
+  "Rank": 855,
+  "Rate": 12351.094,
+  "Units": 16660.344,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 264,
-  "Name": "Cartwright LLC",
-  "Tooltip": "tempora",
-  "Rank": 581,
-  "Rate": 24598.766,
-  "Units": 27127.904,
-  "Deleted": false,
+  "CurrencyId": 692,
+  "Name": "Heller Group",
+  "Tooltip": "qui",
+  "Rank": 41,
+  "Rate": 21699.816,
+  "Units": 13551.416,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 280
     }
   }
 }

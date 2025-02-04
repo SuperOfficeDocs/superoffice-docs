@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Wuckert-Mayert",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "UdListDefinitionId": 628,
-  "Rank": 1002,
+  "Id": 97,
+  "Name": "Tillman Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "UdListDefinitionId": 547,
+  "Rank": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 258
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

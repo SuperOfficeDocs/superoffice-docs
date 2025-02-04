@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 957
+  "SuggestedDocumentId": 107
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 88,
+  "DocumentId": 403,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "modi",
-  "Name": "Hickle, Little and Pouros",
-  "OurRef": "quibusdam",
-  "YourRef": "quia",
-  "CreatedDate": "2022-11-05T10:17:55.5196518+01:00",
-  "UpdatedDate": "1999-12-02T10:17:55.5196518+01:00",
-  "Description": "Cloned motivating protocol",
+  "Attention": "rerum",
+  "Header": "ratione",
+  "Name": "Spencer Group",
+  "OurRef": "autem",
+  "YourRef": "laudantium",
+  "CreatedDate": "2005-11-15T13:13:22.8990191+01:00",
+  "UpdatedDate": "2023-05-06T13:13:22.8990191+02:00",
+  "Description": "Synergized client-driven encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-11-03T10:17:55.5196518+01:00",
-  "ExternalRef": "earum",
+  "Date": "2001-09-26T13:13:22.8990191+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 48,
+  "ActiveLinks": 9,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Blanda, Grant and Paucek",
-      "Id": 126,
-      "Description": "Versatile actuating task-force",
-      "ExtraInfo": "autem",
-      "LinkId": 426,
+      "EntityName": "Denesik LLC",
+      "Id": 277,
+      "Description": "User-friendly leading edge function",
+      "ExtraInfo": "ex",
+      "LinkId": 801,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 59
+          "FieldType": "System.Int32",
+          "FieldLength": 731
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 409,
-  "Snum": 653,
+  "SuggestedDocumentId": 479,
+  "Snum": 880,
   "UserDefinedFields": {
-    "SuperOffice:1": "1965734659",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Isaias Marquis Sawayn IV",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "animi"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eos"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "tempore"
   },
-  "PublishEventDate": "2016-11-06T10:17:55.5196518+01:00",
-  "PublishTo": "2020-08-26T10:17:55.5196518+02:00",
-  "PublishFrom": "2005-04-07T10:17:55.5196518+02:00",
+  "PublishEventDate": "2002-02-28T13:13:22.8990191+01:00",
+  "PublishTo": "2019-07-28T13:13:22.8990191+02:00",
+  "PublishFrom": "2003-06-29T13:13:22.8990191+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 472,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 113
         }
       }
     },
     {
-      "VisibleId": 472,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 113
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 42,
-    "Name": "Turcotte, Kris and Yundt",
-    "Tooltip": "delectus",
+    "Id": 784,
+    "Name": "Hoeger-Kuhlman",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 502,
-    "Rank": 835,
+    "UdListDefinitionId": 410,
+    "Rank": 247,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldType": "System.Int32",
+        "FieldLength": 576
       }
     }
   }

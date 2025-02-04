@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ipsa",
-    "DocumentId": 395,
-    "VersionId": "aperiam",
-    "CheckedInDate": "2010-02-05T10:18:00.3949543+01:00",
-    "CheckedInByName": "Collins-Wyman",
-    "CheckedInByAssociateId": 519,
-    "Description": "Phased responsive definition",
-    "DisplayText": "qui",
+    "ExternalReference": "sapiente",
+    "DocumentId": 540,
+    "VersionId": "et",
+    "CheckedInDate": "2023-08-27T13:13:31.714487+02:00",
+    "CheckedInByName": "McKenzie-Gibson",
+    "CheckedInByAssociateId": 340,
+    "Description": "Assimilated mobile throughput",
+    "DisplayText": "quos",
     "ExtraFields": [
-      "aut",
-      "nisi"
+      "ipsa",
+      "est"
     ]
   }
 ]

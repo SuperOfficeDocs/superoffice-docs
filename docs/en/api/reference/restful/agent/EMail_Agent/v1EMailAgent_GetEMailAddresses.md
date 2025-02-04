@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    670,
-    874
+    132,
+    851
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 617,
-    "ContactName": "Kris Group",
-    "PersonId": 42,
-    "PersonName": "Boyer-Rempel",
-    "AssociateId": 299,
-    "Address": "necessitatibus",
-    "EmailId": 678,
+    "ContactId": 344,
+    "ContactName": "Koepp, Cassin and Ruecker",
+    "PersonId": 635,
+    "PersonName": "Willms-Ward",
+    "AssociateId": 489,
+    "Address": "animi",
+    "EmailId": 721,
     "DuplicatePersonIds": [
-      913,
-      501
+      455,
+      191
     ],
-    "Name": "Weimann LLC",
+    "Name": "D'Amore, Hoppe and Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldLength": 154
       }
     }
   }

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 211,
+  "EjMessageId": 719,
   "Ticket": null,
-  "CreatedAt": "2001-10-31T10:17:56.2853287+01:00",
+  "CreatedAt": "2016-11-18T13:13:24.4153047+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "non",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sapiente",
-  "TimeSpent": 621,
-  "Body": "veritatis",
-  "HtmlBody": "quam",
-  "EmailHeader": "jabari@johnston.co.uk",
-  "DebugInfo": "laudantium",
-  "MailSorter": "exercitationem",
+  "MessageId": "dolor",
+  "TimeSpent": 242,
+  "Body": "consequatur",
+  "HtmlBody": "qui",
+  "EmailHeader": "ollie_corkery@eichmanncassin.name",
+  "DebugInfo": "deserunt",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rem",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 274,
-      "Name": "Skiles-Brown",
-      "Value": "quis",
+      "Id": 739,
+      "Name": "Armstrong-Muller",
+      "Value": "ipsam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 635
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "iste",
-  "Sentiment": 743,
-  "SentimentConfidence": 366,
+  "Important": true,
+  "Language": "beatae",
+  "Sentiment": 416,
+  "SentimentConfidence": 214,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 842,
-      "Name": "Cummerata, Orn and Kutch",
-      "ContentType": "ab",
-      "AttSize": 234,
-      "InlineImage": true,
-      "ContentId": "quidem",
-      "AuthKey": "rem",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 168,
+      "Name": "Nienow-VonRueden",
+      "ContentType": "voluptatem",
+      "AttSize": 429,
+      "InlineImage": false,
+      "ContentId": "laudantium",
+      "AuthKey": "ex",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "non"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "sequi"
+    "CustomFields1": "rerum",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   }
 }

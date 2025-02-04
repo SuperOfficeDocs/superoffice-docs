@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 63
+  "ContactId": 440
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lubowitz Inc and Sons",
-    "SaleDate": "2020-02-23T10:17:56.0040633+01:00",
-    "SaleId": 397,
-    "Probability": 513,
-    "Title": "sint",
-    "Amount": 28093.176,
-    "Currency": "harum",
-    "ProjectName": "Mills-Nitzsche",
-    "AssociateFullName": "Mr. Albin Aaliyah Gibson Jr.",
-    "Description": "Persevering demand-driven focus group",
+    "ContactName": "Cronin Group",
+    "SaleDate": "2022-02-06T13:13:23.8839994+01:00",
+    "SaleId": 188,
+    "Probability": 574,
+    "Title": "aliquid",
+    "Amount": 2933.424,
+    "Currency": "recusandae",
+    "ProjectName": "Gulgowski-Ferry",
+    "AssociateFullName": "Athena Walter Casper I",
+    "Description": "Synergistic content-based projection",
     "Status": "Lost",
-    "WeightedAmount": 19045.318,
-    "ProjectId": 651,
-    "EarningPercent": 10310.859999999999,
-    "Earning": 7957.226,
-    "ContactId": 181,
-    "AssociateId": 383,
-    "PersonId": 340,
-    "SaleTypeId": 942,
-    "SaleTypeName": "Swaniawski, Becker and Hand",
-    "PersonFullName": "Bobby West",
+    "WeightedAmount": 466.966,
+    "ProjectId": 472,
+    "EarningPercent": 6857.192,
+    "Earning": 4365.662,
+    "ContactId": 332,
+    "AssociateId": 149,
+    "PersonId": 355,
+    "SaleTypeId": 589,
+    "SaleTypeName": "Will Group",
+    "PersonFullName": "Carolina Runolfsson",
     "Completed": "Completed",
-    "ActiveErpLinks": 590,
-    "NextDueDate": "2007-03-15T10:17:56.0040633+01:00",
-    "Number": "1284815",
+    "ActiveErpLinks": 3,
+    "NextDueDate": "2006-09-22T13:13:23.8839994+02:00",
+    "Number": "651139",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 937
       }
     }
   }

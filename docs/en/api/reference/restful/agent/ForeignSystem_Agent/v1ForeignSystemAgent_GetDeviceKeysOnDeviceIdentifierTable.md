@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Brown, Eichmann and Lesch",
-  "DeviceName": "Green, Marvin and Zieme",
-  "DeviceIdentifier": "rerum",
-  "TableName": "Robel Inc and Sons"
+  "ApplicationName": "Dare-Zieme",
+  "DeviceName": "Lindgren-O'Conner",
+  "DeviceIdentifier": "corrupti",
+  "TableName": "Runolfsson, Rempel and Dach"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "doloremque",
-    "Value": "voluptatibus",
-    "RecordId": 713,
-    "CreatedDate": "2023-11-09T10:17:55.660285+01:00",
-    "UpdatedDate": "2019-08-02T10:17:55.660285+02:00",
-    "UpdatedBy": "nostrum",
-    "CreatedBy": "corporis",
-    "TableName": "Schinner LLC",
+    "Key": "excepturi",
+    "Value": "est",
+    "RecordId": 920,
+    "CreatedDate": "2005-03-17T13:13:23.1802042+01:00",
+    "UpdatedDate": "2006-12-16T13:13:23.1802042+01:00",
+    "UpdatedBy": "iusto",
+    "CreatedBy": "magni",
+    "TableName": "Sipes-Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

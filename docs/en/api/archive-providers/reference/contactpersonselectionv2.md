@@ -1209,6 +1209,7 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/appointment/internalNotesHtml| *None* |!!Internal Notes Html| x |
 |includePersonRestriction| *None* |Include main contact: Specifies which contacts should be included in the result ('none', 'main', 'all')|  |
 |includePersonWithNoDMRestriction| *None* |Include contacts with No Mailings: Should contacts with the 'No Mailings' flag set be included|  |
+|selectionIdRequest| *None* |Selection ID: Database ID of selection which members are to be fetched from|  |
 |linkClicked/linkId| *None* |Link ID: Link ID|  |
 |linkClicked/shipmentId| *None* |ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId| *None* |Form submission ID: ID of the form submission record| x |
@@ -1239,12 +1240,12 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime| *None* |Sending time: When the message was sent| x |
-|workflowInstance/workflowInstanceLastCommunicationStatus| *None* |Last email status: Status of mailing recipient| x |
+|workflowInstance/workflowInstanceLastCommunicationStatus| *None* |Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy| *None* |Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |workflowInstance/registeredBy| *None* |Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
-|workflowInstance/emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow| x |
+|workflowInstance/emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow| x |
 |workflowInstance/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -1267,11 +1268,11 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/emailFlow/registeredBy| *None* |Registered by: The user who registered the data| x |
 |workflowInstance/emailFlow/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |chatSession/chatSessionId| *None* |Chat session ID: Database ID of the chat session| x |
-|chatSession/firstMessage| *None* |First message: The first message submitted in the chat| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/firstMessage| *None* |First message: The first message submitted in the chat| x |
 |chatSession/lastMessage| *None* |Last message: The last message submitted in the chat| x |
 |chatSession/whenRequested| *None* |Chat requested: When was this chat requested by the customer?| x |
 |chatSession/whenStarted| *None* |Chat started: When was this chat started between the customer and the agent?| x |
@@ -1371,11 +1372,11 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/quoteline/totalCost| *None* |Total cost|  |
 |sale/quote/version/alternative/quoteline/quoteLineThumbnail| *None* |Thumbnail: A miniature version of the product picture|  |
 |sale/quote/version/alternative/quoteline/quoteLineThumbnailLarge| *None* |Thumbnail: A miniature version of the product picture|  |
-|sale/quote/version/alternative/quoteline/discountAmount| *None* |Discount: Discount amount given by salesperson| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/discountAmount| *None* |Discount: Discount amount given by salesperson| x |
 |sale/quote/version/alternative/quoteline/discountPercent| *None* |Discount (%: Discount percent given by salesperson| x |
 |sale/quote/version/alternative/quoteline/earningAmount| *None* |Earnings: Amount of Earnings (Total - Cost) on the line, after discount| x |
 |sale/quote/version/alternative/quoteline/earningPercent| *None* |Earnings (%: Percentage Earnings on the line (Total - Cost / Total), after discount| x |
@@ -1397,7 +1398,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactAssociate/fullName,sale/earning,personDirectPhone/description,personSourceRelation/personSource,personSourceRelation/retired
+GET /api/v1/archive/ContactPersonSelectionV2?$select=restrictionAddress/state,NumberOfNotCompletedActivities,appointment/associate/lastName,appointment/associate/portraitThumbnail,appointment/associate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

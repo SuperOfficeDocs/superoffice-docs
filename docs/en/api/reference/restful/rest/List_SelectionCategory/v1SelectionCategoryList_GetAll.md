@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Bergnaum-Kassulke",
-    "Tooltip": "quibusdam",
+    "Id": 349,
+    "Name": "Cremin, McLaughlin and Jacobi",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 487,
-    "Rank": 113,
+    "UdListDefinitionId": 728,
+    "Rank": 347,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 438
+        "FieldLength": 711
       }
     }
   }

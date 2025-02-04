@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 902,
-  "Name": "Gusikowski-Harris",
-  "CreatedDate": "2012-12-08T10:17:55.644659+01:00",
-  "UpdatedDate": "2006-06-21T10:17:55.644659+02:00",
+  "ForeignAppId": 353,
+  "Name": "Hirthe Inc and Sons",
+  "CreatedDate": "2011-10-08T13:13:23.1645837+02:00",
+  "UpdatedDate": "2024-05-01T13:13:23.1645837+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 371,
-      "Name": "O'Kon, Quigley and Gleason",
-      "CreatedDate": "2011-02-26T10:17:55.644659+01:00",
-      "UpdatedDate": "2019-02-13T10:17:55.644659+01:00",
-      "AssociateFullName": "Rita Mariah Goldner II",
-      "CreatedBy": "nobis",
-      "UpdatedBy": "quibusdam",
-      "DeviceIdentifier": "vero",
-      "ForeignAppId": 864
+      "ForeignDeviceId": 369,
+      "Name": "Schroeder, Pouros and Aufderhar",
+      "CreatedDate": "1999-06-21T13:13:23.1645837+02:00",
+      "UpdatedDate": "2008-08-16T13:13:23.1645837+02:00",
+      "AssociateFullName": "Waldo Graham",
+      "CreatedBy": "soluta",
+      "UpdatedBy": "ex",
+      "DeviceIdentifier": "quisquam",
+      "ForeignAppId": 229
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 519,
-  "Name": "Schuster, Gorczany and Larkin",
-  "CreatedDate": "2022-12-16T10:17:55.660285+01:00",
-  "UpdatedDate": "2017-12-03T10:17:55.660285+01:00",
+  "ForeignAppId": 636,
+  "Name": "Boyle, Robel and Gerlach",
+  "CreatedDate": "2001-07-30T13:13:23.1645837+02:00",
+  "UpdatedDate": "2017-01-13T13:13:23.1645837+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 859,
-      "Name": "Quitzon-Schamberger",
-      "CreatedDate": "2001-09-02T10:17:55.660285+02:00",
-      "UpdatedDate": "2016-04-14T10:17:55.660285+02:00",
-      "AssociateFullName": "Jada Gusikowski",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "perferendis",
-      "ForeignAppId": 584,
+      "ForeignDeviceId": 483,
+      "Name": "Hoeger, Mertz and Wehner",
+      "CreatedDate": "2000-02-04T13:13:23.1645837+01:00",
+      "UpdatedDate": "2005-08-05T13:13:23.1645837+02:00",
+      "AssociateFullName": "Barry Hagenes",
+      "CreatedBy": "minus",
+      "UpdatedBy": "doloribus",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 413,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 509
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 850
     }
   }
 }

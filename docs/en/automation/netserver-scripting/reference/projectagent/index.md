@@ -61,5 +61,6 @@ Service methods defined on <see cref='T:IProjectAgent'>ProjectAgent</see> that c
 * [SetDuplicateRulesStatus](setduplicaterulesstatus.md)
 * [SetProjectImage](setprojectimage.md)
 * [UpdateProjectMember](updateprojectmember.md)
+* [UpdateProjectMembers](updateprojectmembers.md)
 * [ValidateProjectEntity](validateprojectentity.md)
 

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Olson, Lind and Feeney",
-  "EventFilter": "vero",
+  "NameFilter": "Wunsch, Rolfson and Yundt",
+  "EventFilter": "dolor",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 169,
-    "Name": "Gleason, Luettgen and Stehr",
+    "WebhookId": 399,
+    "Name": "Gaylord-Stanton",
     "Events": [
-      "iste",
-      "alias"
+      "laborum",
+      "incidunt"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "maxime",
+    "Secret": "id",
     "State": "Active",
-    "Type": "maiores",
+    "Type": "porro",
     "Headers": {
-      "Headers1": "voluptatem",
-      "Headers2": "iste"
+      "Headers1": "odio",
+      "Headers2": "cupiditate"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1997-08-29T10:17:56.3790788+02:00",
+    "Registered": "2014-08-06T13:13:24.5870773+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1998-03-23T10:17:56.3790788+01:00",
+    "Updated": "2012-12-20T13:13:24.5870773+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "tommie@adams.us"
+    "ErrorsEmail": "tatum.treutel@little.name"
   }
 ]
 ```

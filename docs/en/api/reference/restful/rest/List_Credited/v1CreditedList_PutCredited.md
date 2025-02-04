@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Kling Group",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "UdListDefinitionId": 964,
-  "Rank": 986
+  "Id": 215,
+  "Name": "Rath, Wolf and Kub",
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "UdListDefinitionId": 674,
+  "Rank": 476
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Sipes-Schuster",
-  "Tooltip": "porro",
+  "Id": 417,
+  "Name": "Crooks-Koepp",
+  "Tooltip": "magni",
   "Deleted": false,
-  "UdListDefinitionId": 746,
-  "Rank": 414,
+  "UdListDefinitionId": 230,
+  "Rank": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

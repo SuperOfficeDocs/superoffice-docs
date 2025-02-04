@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 292
+  "EntityId": 118
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 324,
-    "ConnectionName": "Ward LLC",
+    "ErpConnectionId": 505,
+    "ConnectionName": "Miller-Weimann",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "quo",
-        "Rank": 953,
-        "DisplayName": "Terry Inc and Sons",
-        "DisplayDescription": "Seamless eco-centric paradigm",
+        "FieldKey": "magnam",
+        "Rank": 163,
+        "DisplayName": "Fisher, McKenzie and Jakubowski",
+        "DisplayDescription": "Streamlined 24/7 groupware",
         "FieldType": "Checkbox",
-        "ListName": "Wilderman-Nolan",
-        "DefaultValue": "occaecati",
-        "MaxLength": 381,
+        "ListName": "Ferry-Marquardt",
+        "DefaultValue": "beatae",
+        "MaxLength": 879,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 424
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "corrupti",
-      "enim"
+      "delectus",
+      "aliquid"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 225
       }
     }
   }

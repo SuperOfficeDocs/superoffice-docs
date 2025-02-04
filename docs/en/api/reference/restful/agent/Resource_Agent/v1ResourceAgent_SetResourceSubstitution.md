@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Ziemann-Schinner",
-  "ResourceValues": "qui",
-  "Culture": "ipsa",
-  "IsActive": false
+  "ResourceName": "Borer, Cartwright and Kilback",
+  "ResourceValues": "dolorem",
+  "Culture": "facilis",
+  "IsActive": true
 }
 ```
 

@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 191,
-    "LCID": 584,
-    "EnglishName": "Ryan Inc and Sons",
-    "NativeName": "Hagenes LLC",
-    "ThreeLetterISOLanguageName": "Kuhn LLC",
-    "TwoLetterISOLanguageName": "Mills Inc and Sons",
+    "LanguageInfoId": 127,
+    "LCID": 817,
+    "EnglishName": "Labadie Inc and Sons",
+    "NativeName": "Schinner, Kuhic and Reilly",
+    "ThreeLetterISOLanguageName": "Casper Group",
+    "TwoLetterISOLanguageName": "Skiles LLC",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 474
       }
     }
   }

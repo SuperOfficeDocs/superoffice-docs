@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=quia
+GET /api/v1/List/Task/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Rippin-Zieme",
-    "ToolTip": "Praesentium reiciendis libero vel repellat nulla dolores.",
-    "Deleted": false,
-    "Rank": 361,
-    "Type": "est",
+    "Id": 202,
+    "Name": "Reichel, Hammes and Schiller",
+    "ToolTip": "Velit sed non.",
+    "Deleted": true,
+    "Rank": 89,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Towne-Blanda",
-        "ToolTip": "Qui quasi sit aperiam dicta.",
+        "Id": 821,
+        "Name": "D'Amore, Nolan and Veum",
+        "ToolTip": "Aut quas earum.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "illo",
+        "Rank": 596,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 353,
-        "ExtraInfo": "aut",
-        "StyleHint": "sed",
-        "FullName": "Mrs. Bo Margarette Altenwerth",
+        "IconHint": "labore",
+        "ColorBlock": 117,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptas",
+        "FullName": "Johan Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldType": "System.String",
+            "FieldLength": 36
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 468,
-    "ExtraInfo": "ut",
-    "StyleHint": "explicabo",
-    "FullName": "Katarina Rowe",
+    "IconHint": "magni",
+    "ColorBlock": 116,
+    "ExtraInfo": "sint",
+    "StyleHint": "veritatis",
+    "FullName": "Miss Otis Leffler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldLength": 234
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 482,
-    "Name": "Wiza, Morissette and Nolan",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 461,
-    "UdListDefinitionId": 421,
+    "HeadingId": 703,
+    "Name": "Halvorson Group",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 835,
+    "UdListDefinitionId": 378,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 383
       }
     }
   }

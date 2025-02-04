@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 831,
-  "Name": "Bernhard Inc and Sons"
+  "SelectionId": 680,
+  "Name": "Von Inc and Sons"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized zero tolerance contingency",
-  "Postit": "distinctio",
+  "Description": "Compatible well-modulated ability",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 850,
-  "IncludePerson": 847,
+  "GroupIdx": 825,
+  "IncludePerson": 312,
   "MemberCount": 99.99,
-  "Name": "Konopelski, Herzog and Mosciski",
-  "PostitTextId": 826,
-  "CreatedDate": "2019-03-08T10:17:56.0509411+01:00",
-  "SelectionId": 605,
-  "SoundEx": "ratione",
-  "Source": 382,
-  "TextId": 72,
-  "UpdatedDate": "2023-08-29T10:17:56.0509411+02:00",
-  "UpdatedCount": 703,
-  "Visibility": 853,
+  "Name": "Hettinger, Nicolas and Renner",
+  "PostitTextId": 877,
+  "CreatedDate": "1998-06-02T13:13:23.9622111+02:00",
+  "SelectionId": 602,
+  "SoundEx": "numquam",
+  "Source": 971,
+  "TextId": 629,
+  "UpdatedDate": "2024-03-30T13:13:23.9622111+01:00",
+  "UpdatedCount": 546,
+  "Visibility": 229,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 824,
-  "TargetTableName": "Skiles LLC",
+  "TargetTableNumber": 336,
+  "TargetTableName": "Murphy-Lubowitz",
   "Completed": true,
-  "LeftSelectionId": 618,
-  "RightSelectionId": 557,
+  "LeftSelectionId": 512,
+  "RightSelectionId": 385,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Watsica-Veum",
-  "ShadowProviderName": "Kilback, Kassulke and Batz",
-  "ChartKey": "cumque",
-  "LastLoaded": "2020-05-07T10:17:56.0509411+02:00",
-  "LastLoadedBy": 949,
+  "MainProviderName": "Ledner LLC",
+  "ShadowProviderName": "White, Padberg and O'Keefe",
+  "ChartKey": "quidem",
+  "LastLoaded": "2009-10-15T13:13:23.9622111+02:00",
+  "LastLoadedBy": 197,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-07-05T10:17:56.0509411+02:00",
-  "LastMembershipChangeBy": 819,
+  "LastMembershipChange": "1997-11-12T13:13:23.9778431+01:00",
+  "LastMembershipChangeBy": 879,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Klein, O'Conner and Hansen",
-  "DashboardTileDefinitionId": 887,
+  "MainHeading": "aut",
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Thiel Inc and Sons",
+  "DashboardTileDefinitionId": 735,
   "VisibleFor": [
     {
-      "VisibleId": 233,
+      "VisibleId": 385,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     },
     {
-      "VisibleId": 233,
+      "VisibleId": 385,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 808
     }
   }
 }

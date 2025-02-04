@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 216,
-  "Name": "Mueller-Luettgen",
+  "Id": 905,
+  "Name": "Koelpin-Lakin",
   "AssociateId": 226,
-  "DetailsTable": 502,
-  "DetailsRecord": 623,
-  "IsSystemTask": true,
+  "DetailsTable": 386,
+  "DetailsRecord": 621,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "nesciunt"
+    "ParameterObject1": "inventore",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2016-12-19T10:17:55.9728114+01:00",
-  "Created": "2013-04-18T10:17:55.9728114+02:00",
-  "StartCount": 798,
-  "DatabaseSerialNumber": "685081",
-  "Context": "harum",
-  "Result": "perferendis",
+  "LastStarted": "2005-10-10T13:13:23.8050553+02:00",
+  "Created": "2000-12-02T13:13:23.8050553+01:00",
+  "StartCount": 131,
+  "DatabaseSerialNumber": "1429311",
+  "Context": "natus",
+  "Result": "cum",
   "State": "All",
-  "Description": "Profound fault-tolerant parallelism",
-  "Response": "ducimus",
-  "Request": "quis",
-  "ProgressDescription": "Ergonomic 5th generation collaboration",
-  "ProgressPercent": 791,
-  "FileName": "Schowalter, Cummings and Lesch",
+  "Description": "Grass-roots user-facing support",
+  "Response": "dolore",
+  "Request": "eum",
+  "ProgressDescription": "Automated incremental secured line",
+  "ProgressPercent": 331,
+  "FileName": "Kling-Cummerata",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

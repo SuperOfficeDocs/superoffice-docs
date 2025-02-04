@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 378
+  "TicketMessageEntityId": 850
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 169,
-    "Name": "Barrows-Jakubowski",
-    "ContentType": "quisquam",
-    "AttSize": 604,
+    "AttachmentId": 956,
+    "Name": "Reichert-Jacobson",
+    "ContentType": "autem",
+    "AttSize": 548,
     "InlineImage": false,
-    "ContentId": "excepturi",
-    "AuthKey": "nisi",
+    "ContentId": "officiis",
+    "AuthKey": "eligendi",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

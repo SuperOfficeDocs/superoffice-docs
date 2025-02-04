@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 573,
-  "Name": "Ledner-Moore",
-  "Tooltip": "perferendis",
+  "Id": 917,
+  "Name": "Fisher-Prosacco",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 743,
-  "Rank": 550,
+  "UdListDefinitionId": 532,
+  "Rank": 737,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 636
     }
   }
 }

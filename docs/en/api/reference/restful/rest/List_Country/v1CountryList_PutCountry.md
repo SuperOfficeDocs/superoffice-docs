@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 229,
-  "Name": "Bailey-Lowe",
-  "CurrencyId": 38,
-  "EnglishName": "Spencer-Moen",
+  "CountryId": 506,
+  "Name": "Greenholt-Aufderhar",
+  "CurrencyId": 552,
+  "EnglishName": "Emard, Ward and Stoltenberg",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enhanced bandwidth-monitored product",
-  "OrgNrText": "1103831",
-  "InterAreaPrefix": "excepturi",
-  "DialInPrefix": "quam",
-  "ZipPrefix": "aut",
-  "DomainName": "Wisozk, Anderson and Dibbert",
-  "AddressLayoutId": 923,
-  "DomesticAddressLayoutId": 935,
-  "ForeignAddressLayoutId": 322,
-  "Rank": 817,
-  "Tooltip": "quia",
+  "ImageDescription": "Progressive uniform access",
+  "OrgNrText": "1416671",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "rerum",
+  "DomainName": "Casper Group",
+  "AddressLayoutId": 291,
+  "DomesticAddressLayoutId": 495,
+  "ForeignAddressLayoutId": 915,
+  "Rank": 598,
+  "Tooltip": "qui",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 645,
-  "Name": "Hettinger, Hammes and Kuvalis",
-  "CurrencyId": 164,
-  "EnglishName": "Auer LLC",
+  "CountryId": 415,
+  "Name": "Pacocha-Quitzon",
+  "CurrencyId": 916,
+  "EnglishName": "Gutmann, Gleason and Streich",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-friendly coherent portal",
-  "OrgNrText": "1372040",
-  "InterAreaPrefix": "omnis",
-  "DialInPrefix": "et",
-  "ZipPrefix": "enim",
-  "DomainName": "Jewess-O'Hara",
-  "AddressLayoutId": 61,
-  "DomesticAddressLayoutId": 64,
-  "ForeignAddressLayoutId": 452,
-  "Rank": 971,
-  "Tooltip": "reiciendis",
+  "ImageDescription": "Horizontal zero administration instruction set",
+  "OrgNrText": "970626",
+  "InterAreaPrefix": "eos",
+  "DialInPrefix": "laborum",
+  "ZipPrefix": "temporibus",
+  "DomainName": "Powlowski Inc and Sons",
+  "AddressLayoutId": 281,
+  "DomesticAddressLayoutId": 383,
+  "ForeignAddressLayoutId": 486,
+  "Rank": 244,
+  "Tooltip": "sunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldType": "System.String",
+      "FieldLength": 281
     }
   }
 }

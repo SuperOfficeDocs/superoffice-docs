@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 813,
-  "BlobSize": 414,
-  "Description": "Proactive full-range strategy",
-  "ExtraInfo": "commodi",
+  "BlobId": 213,
+  "BlobSize": 549,
+  "Description": "Innovative tertiary policy",
+  "ExtraInfo": "facere",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 12,
-  "CreatedDate": "2022-05-19T10:18:00.8481067+02:00",
-  "UpdatedDate": "2010-08-23T10:18:00.8481067+02:00",
+  "MimeType": "tempore",
+  "OriginalSize": 926,
+  "CreatedDate": "2012-08-19T13:13:32.5892154+02:00",
+  "UpdatedDate": "2009-11-03T13:13:32.5892154+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "unde"
+  "ConceptualType": "dolorem"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 359,
-  "BlobSize": 717,
-  "Description": "Business-focused secondary website",
-  "ExtraInfo": "a",
-  "IsEncrypted": true,
+  "BlobId": 907,
+  "BlobSize": 781,
+  "Description": "User-friendly 6th generation solution",
+  "ExtraInfo": "illum",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "tempore",
-  "OriginalSize": 485,
-  "CreatedDate": "2009-03-30T10:18:00.8481067+02:00",
-  "UpdatedDate": "2019-02-20T10:18:00.8481067+01:00",
+  "MimeType": "quo",
+  "OriginalSize": 291,
+  "CreatedDate": "2005-12-25T13:13:32.5892154+01:00",
+  "UpdatedDate": "2010-01-31T13:13:32.5892154+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "possimus",
+  "ConceptualType": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

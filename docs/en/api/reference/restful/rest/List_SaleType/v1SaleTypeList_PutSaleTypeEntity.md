@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 839,
-  "Name": "Hand Group",
-  "Tooltip": "dignissimos",
-  "Rank": 925,
+  "SaleTypeId": 777,
+  "Name": "Harber Group",
+  "Tooltip": "nisi",
+  "Rank": 596,
   "DurationUnit": "Century",
-  "SaleDuration": 63,
-  "SaleTypeCatId": 498,
+  "SaleDuration": 217,
+  "SaleTypeCatId": 382,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 469,
-  "QuoteLinesTemplate": 666,
-  "ConfirmationLinesTemplate": 613,
+  "DefaultQuoteValidity": 136,
+  "QuoteLinesTemplate": 471,
+  "ConfirmationLinesTemplate": 599,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 428,
-  "MinEarningPercent": 749,
-  "GroupQuoteLinesBy": 126,
-  "SortGroupLinesBy": 352,
+  "MaxDiscountPercent": 53,
+  "MinEarningPercent": 283,
+  "GroupQuoteLinesBy": 909,
+  "SortGroupLinesBy": 669,
   "Stages": [
     {
-      "Id": 764,
-      "Name": "Ankunding Inc and Sons",
-      "ToolTip": "Ea ut laboriosam.",
+      "Id": 299,
+      "Name": "Reichert-Smith",
+      "ToolTip": "Ea quis.",
       "Deleted": false,
-      "Rank": 689,
+      "Rank": 235,
       "Type": "inventore",
-      "ColorBlock": 265,
-      "IconHint": "aut",
+      "ColorBlock": 148,
+      "IconHint": "reiciendis",
       "Selected": false,
-      "LastChanged": "2011-04-15T10:18:01.1606262+02:00",
+      "LastChanged": "2006-01-05T13:13:33.5735178+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "praesentium",
-      "Hidden": true,
-      "FullName": "Ms. Cora Luciano Dare I"
+      "ExtraInfo": "vel",
+      "StyleHint": "aliquid",
+      "Hidden": false,
+      "FullName": "Colt Greenholt"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 721,
-  "Name": "Glover, Friesen and Schiller",
-  "Tooltip": "dolor",
-  "Rank": 858,
+  "SaleTypeId": 389,
+  "Name": "Veum-Cartwright",
+  "Tooltip": "totam",
+  "Rank": 431,
   "DurationUnit": "Century",
-  "SaleDuration": 358,
-  "SaleTypeCatId": 1001,
+  "SaleDuration": 47,
+  "SaleTypeCatId": 408,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 819,
-  "QuoteLinesTemplate": 379,
-  "ConfirmationLinesTemplate": 292,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 849,
-  "MinEarningPercent": 988,
-  "GroupQuoteLinesBy": 688,
-  "SortGroupLinesBy": 333,
+  "DefaultQuoteValidity": 487,
+  "QuoteLinesTemplate": 81,
+  "ConfirmationLinesTemplate": 87,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 907,
+  "MinEarningPercent": 122,
+  "GroupQuoteLinesBy": 172,
+  "SortGroupLinesBy": 392,
   "Stages": [
     {
-      "Id": 21,
-      "Name": "Ledner-Blick",
-      "ToolTip": "Explicabo ut optio occaecati quisquam.",
-      "Deleted": false,
-      "Rank": 975,
-      "Type": "at",
-      "ColorBlock": 429,
-      "IconHint": "minima",
+      "Id": 397,
+      "Name": "Dickens-Lind",
+      "ToolTip": "Sunt et impedit qui id.",
+      "Deleted": true,
+      "Rank": 537,
+      "Type": "voluptas",
+      "ColorBlock": 95,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2000-01-23T10:18:01.1606262+01:00",
+      "LastChanged": "1999-08-17T13:13:33.5735178+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "dolor",
-      "Hidden": true,
-      "FullName": "Baby Daniel",
+      "ExtraInfo": "impedit",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Jewel Shanahan Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldType": "System.String",
+          "FieldLength": 585
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 665
+  "DocumentId": 427
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 647,
-  "Name": "Mraz Group",
-  "ContentType": "quam",
-  "AttSize": 132,
-  "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "tempore",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 195,
+  "Name": "Hegmann Group",
+  "ContentType": "dolorem",
+  "AttSize": 998,
+  "InlineImage": true,
+  "ContentId": "sed",
+  "AuthKey": "reprehenderit",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

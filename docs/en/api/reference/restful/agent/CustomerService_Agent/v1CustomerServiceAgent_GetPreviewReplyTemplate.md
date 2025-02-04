@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 712
+  "ReplyTemplateId": 303
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hickle-Schuster",
-  "Description": "Ameliorated client-server encoding",
-  "OwnedByFullName": "Ms. Iva Luettgen IV",
-  "Updated": "2012-03-05T10:17:55.3321476+01:00",
-  "Body": "illo",
+  "Name": "Wilderman Group",
+  "Description": "Enterprise-wide fresh-thinking artificial intelligence",
+  "OwnedByFullName": "Mrs. Russel Heller V",
+  "Updated": "2000-10-24T13:13:22.5394847+02:00",
+  "Body": "repellat",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 757
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Schaefer, Tromp and Kilback",
-  "Tooltip": "unde",
+  "Id": 535,
+  "Name": "Rath LLC",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 706,
+  "Rank": 479,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": true
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Crist Inc and Sons",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 159,
-  "IsCustomList": true,
+  "Id": 341,
+  "Name": "Nader-Pagac",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 991,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

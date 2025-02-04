@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=512
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=631
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Sipes-Grimes",
-  "Comment": "aliquam",
-  "StakeholderRoleId": 542,
-  "CountryId": 864,
-  "PersonId": 821,
-  "EmailDescription": "laury.mcclure@wunschchristiansen.biz",
-  "EmailId": 978,
-  "EmailAddress": "kaelyn.tromp@mayert.us",
-  "PhoneId": 296,
-  "ContactName": "Cummings LLC",
-  "ContactId": 31,
-  "SaleId": 496,
-  "Mrmrs": "id",
-  "Firstname": "Tre",
-  "MiddleName": "Maggio Group",
-  "Lastname": "Ortiz",
-  "SaleStakeholderId": 454,
-  "Rank": 654,
-  "Phone": "1-780-943-0606",
+  "StakeholderRoleName": "Zboncak, Kuhn and Kessler",
+  "Comment": "perspiciatis",
+  "StakeholderRoleId": 354,
+  "CountryId": 509,
+  "PersonId": 345,
+  "EmailDescription": "johnathon@mosciski.com",
+  "EmailId": 157,
+  "EmailAddress": "kieran@barrowstowne.info",
+  "PhoneId": 61,
+  "ContactName": "Walker-Bosco",
+  "ContactId": 127,
+  "SaleId": 759,
+  "Mrmrs": "repellat",
+  "Firstname": "Brionna",
+  "MiddleName": "Lockman-Kihn",
+  "Lastname": "Romaguera",
+  "SaleStakeholderId": 287,
+  "Rank": 242,
+  "Phone": "609.386.3947",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

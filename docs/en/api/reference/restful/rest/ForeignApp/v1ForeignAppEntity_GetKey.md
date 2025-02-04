@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 20 Dec 2022 10:18:00 G12T
+Last-Modified: Fri, 11 Aug 2000 13:13:31 G8T
 
 {
-  "Key": "placeat",
-  "Value": "delectus",
-  "RecordId": 132,
-  "CreatedDate": "2005-09-12T10:18:00.4262067+02:00",
-  "UpdatedDate": "2022-12-20T10:18:00.4262067+01:00",
-  "UpdatedBy": "molestiae",
-  "CreatedBy": "quae",
-  "TableName": "Johnston Inc and Sons",
+  "Key": "sed",
+  "Value": "et",
+  "RecordId": 936,
+  "CreatedDate": "2023-08-09T13:13:31.7457296+02:00",
+  "UpdatedDate": "2000-08-11T13:13:31.7457296+02:00",
+  "UpdatedBy": "maiores",
+  "CreatedBy": "rerum",
+  "TableName": "Green Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 675
     }
   }
 }

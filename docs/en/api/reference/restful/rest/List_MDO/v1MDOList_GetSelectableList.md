@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=accusamus
+GET /api/v1/MDOList/{listname}/selectable?additional=voluptatibus
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Greenholt Inc and Sons",
-    "ToolTip": "Voluptatem a dolorem.",
+    "Id": 861,
+    "Name": "Little, Jacobson and Gislason",
+    "ToolTip": "Et magnam mollitia doloremque.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "expedita",
-    "ColorBlock": 944,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2021-06-06T10:18:01.0356179+02:00",
+    "Rank": 198,
+    "Type": "dolorum",
+    "ColorBlock": 33,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2003-06-21T13:13:33.1517427+02:00",
     "ChildItems": [
       {
-        "Id": 626,
-        "Name": "Lubowitz, Kuvalis and Carroll",
-        "ToolTip": "Qui dolor quisquam totam.",
-        "Deleted": false,
-        "Rank": 10,
-        "Type": "sunt",
-        "ColorBlock": 98,
-        "IconHint": "aut",
+        "Id": 341,
+        "Name": "Larkin LLC",
+        "ToolTip": "Rerum quasi sequi quod rerum necessitatibus.",
+        "Deleted": true,
+        "Rank": 651,
+        "Type": "et",
+        "ColorBlock": 478,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-06-18T10:18:01.0356179+02:00",
+        "LastChanged": "2016-11-14T13:13:33.1517427+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "est",
+        "ExtraInfo": "ex",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Francisca Kreiger",
+        "FullName": "Miss Torey Brakus DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 585
+            "FieldType": "System.String",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Prof. Rae Herzog Jr.",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Ewald Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 839
       }
     }
   }

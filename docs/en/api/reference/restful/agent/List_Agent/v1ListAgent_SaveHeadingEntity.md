@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 564,
-  "Name": "Kassulke-Feest",
-  "Tooltip": "occaecati",
+  "HeadingId": 786,
+  "Name": "Romaguera, Gleichner and Swaniawski",
+  "Tooltip": "minus",
   "Deleted": false,
-  "Rank": 865,
-  "UdListDefinitionId": 448
+  "Rank": 537,
+  "UdListDefinitionId": 205
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 832,
-  "Name": "Hagenes Group",
-  "Tooltip": "sunt",
+  "HeadingId": 532,
+  "Name": "Orn-Balistreri",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 472,
-  "UdListDefinitionId": 489,
+  "Rank": 44,
+  "UdListDefinitionId": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldLength": 372
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Davis, Streich and Skiles",
-    "ToolTip": "Quis voluptatem qui deserunt nulla.",
-    "Deleted": true,
-    "Rank": 295,
-    "Type": "consequatur",
-    "ColorBlock": 374,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2002-09-01T10:18:00.5355883+02:00",
+    "Id": 707,
+    "Name": "Conn-O'Kon",
+    "ToolTip": "Officiis incidunt.",
+    "Deleted": false,
+    "Rank": 791,
+    "Type": "a",
+    "ColorBlock": 206,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2017-03-22T13:13:31.9956719+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Runolfsdottir-Harvey",
-        "ToolTip": "Est tenetur rem aperiam assumenda.",
-        "Deleted": true,
-        "Rank": 958,
-        "Type": "quae",
-        "ColorBlock": 360,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "1997-08-27T10:18:00.5355883+02:00",
+        "Id": 271,
+        "Name": "Spencer Group",
+        "ToolTip": "Reiciendis voluptas est voluptatem facilis quam necessitatibus magnam.",
+        "Deleted": false,
+        "Rank": 777,
+        "Type": "nemo",
+        "ColorBlock": 606,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2024-06-19T13:13:31.9956719+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "nam",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nulla",
         "Hidden": false,
-        "FullName": "Margot Gislason",
+        "FullName": "Mrs. Helmer Sedrick Funk III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 278
+            "FieldType": "System.Int32",
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "ratione",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Mr. Grace Baby Terry I",
+    "FullName": "Genoveva Fiona Grant I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 108
+        "FieldType": "System.Int32",
+        "FieldLength": 797
       }
     }
   }

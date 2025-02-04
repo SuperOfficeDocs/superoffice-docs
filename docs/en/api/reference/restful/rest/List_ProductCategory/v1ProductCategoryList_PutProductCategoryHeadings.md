@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Grant, Lueilwitz and Casper",
-    "Tooltip": "aut",
+    "HeadingId": 834,
+    "Name": "Bruen, Klein and Ernser",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 127,
-    "UdListDefinitionId": 801
+    "Rank": 565,
+    "UdListDefinitionId": 911
   },
   {
-    "HeadingId": 30,
-    "Name": "Grant, Lueilwitz and Casper",
-    "Tooltip": "aut",
+    "HeadingId": 834,
+    "Name": "Bruen, Klein and Ernser",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 127,
-    "UdListDefinitionId": 801
+    "Rank": 565,
+    "UdListDefinitionId": 911
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 515,
-    "Name": "Okuneva Inc and Sons",
-    "Tooltip": "facere",
+    "HeadingId": 162,
+    "Name": "Kutch-Ankunding",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 981,
-    "UdListDefinitionId": 434,
+    "Rank": 343,
+    "UdListDefinitionId": 218,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   }

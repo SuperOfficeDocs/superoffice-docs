@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 863,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "illum",
+    "HeadingId": 448,
+    "Name": "Marks Group",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 744,
-    "UdListDefinitionId": 709,
+    "Rank": 803,
+    "UdListDefinitionId": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

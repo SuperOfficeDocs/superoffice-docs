@@ -96,23 +96,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 854,
-  "Name": "Treutel-O'Keefe",
-  "CreatedDate": "2000-03-16T10:18:00.4262067+01:00",
-  "UpdatedDate": "2004-12-08T10:18:00.4262067+01:00",
+  "ForeignAppId": 417,
+  "Name": "Jacobson LLC",
+  "CreatedDate": "2004-10-10T13:13:31.7457296+02:00",
+  "UpdatedDate": "2020-06-12T13:13:31.7457296+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 27,
-      "Name": "Hyatt, Brekke and Pfeffer",
-      "CreatedDate": "2005-02-08T10:18:00.4262067+01:00",
-      "UpdatedDate": "2013-02-21T10:18:00.4262067+01:00",
-      "AssociateFullName": "Miss Addie Duncan Kuhlman III",
-      "CreatedBy": "consectetur",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 477
+      "ForeignDeviceId": 270,
+      "Name": "Trantow Inc and Sons",
+      "CreatedDate": "2013-06-29T13:13:31.7457296+02:00",
+      "UpdatedDate": "2023-02-20T13:13:31.7457296+01:00",
+      "AssociateFullName": "Elliott Funk III",
+      "CreatedBy": "sit",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 255
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 518,
-  "Name": "Nolan, Lynch and O'Kon",
-  "CreatedDate": "2022-11-22T10:18:00.4262067+01:00",
-  "UpdatedDate": "2015-10-24T10:18:00.4262067+02:00",
+  "ForeignAppId": 695,
+  "Name": "Nikolaus LLC",
+  "CreatedDate": "2017-09-28T13:13:31.7457296+02:00",
+  "UpdatedDate": "2015-10-31T13:13:31.7457296+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 279,
-      "Name": "O'Kon, Bashirian and Bergnaum",
-      "CreatedDate": "2014-04-10T10:18:00.4262067+02:00",
-      "UpdatedDate": "2005-01-24T10:18:00.4262067+01:00",
-      "AssociateFullName": "Linda Rice",
-      "CreatedBy": "ratione",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "cupiditate",
-      "ForeignAppId": 610,
+      "ForeignDeviceId": 678,
+      "Name": "Kovacek Group",
+      "CreatedDate": "2023-06-25T13:13:31.7457296+02:00",
+      "UpdatedDate": "2009-06-24T13:13:31.7457296+02:00",
+      "AssociateFullName": "Breana Dibbert",
+      "CreatedBy": "vitae",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 841,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 978
+          "FieldLength": 964
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 201
     }
   },
   "_Links": {

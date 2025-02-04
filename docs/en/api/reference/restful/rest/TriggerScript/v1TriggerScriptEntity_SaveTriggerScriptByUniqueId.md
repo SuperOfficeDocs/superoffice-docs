@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 63,
-  "Name": "Feeney Inc and Sons",
+  "ScreenChooserId": 987,
+  "Name": "Prosacco-Ritchie",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "perspiciatis",
-  "Source": "itaque",
-  "Registered": "2010-08-29T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 506,
-  "Updated": "2011-11-22T10:18:00.8168545+01:00",
-  "UpdatedAssociateId": 898
+  "UniqueIdentifier": "aut",
+  "Source": "eius",
+  "Registered": "2003-07-30T13:13:32.5111102+02:00",
+  "RegisteredAssociateId": 392,
+  "Updated": "2023-11-21T13:13:32.5111102+01:00",
+  "UpdatedAssociateId": 578
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 120,
-  "Name": "Simonis-Hilpert",
+  "ScreenChooserId": 233,
+  "Name": "Schumm-Denesik",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "laudantium",
-  "Source": "consequatur",
-  "Registered": "2016-08-22T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 997,
-  "Updated": "1997-08-04T10:18:00.8168545+02:00",
-  "UpdatedAssociateId": 272,
+  "UniqueIdentifier": "ut",
+  "Source": "cumque",
+  "Registered": "2013-10-20T13:13:32.5111102+02:00",
+  "RegisteredAssociateId": 247,
+  "Updated": "2017-08-31T13:13:32.5111102+02:00",
+  "UpdatedAssociateId": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 238
     }
   }
 }

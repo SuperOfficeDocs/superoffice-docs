@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=dolores
-GET /api/v1/Contact/{id}/Sales?$top=143
-GET /api/v1/Contact/{id}/Sales?$skip=174
+GET /api/v1/Contact/{id}/Sales?$entities=facilis
+GET /api/v1/Contact/{id}/Sales?$top=682
+GET /api/v1/Contact/{id}/Sales?$skip=765
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=aspernatur
+GET /api/v1/Contact/{id}/Sales?$context=facilis
 GET /api/v1/Contact/{id}/Sales?$format=JSON
-GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
+GET /api/v1/Contact/{id}/Sales?$jsonSafe=True
 GET /api/v1/Contact/{id}/Sales?$output=Display
 ```
 
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cumque",
+  "odata.nextLink": "incidunt",
   "value": [
     {
-      "PrimaryKey": 2250,
-      "EntityName": "sale",
-      "saleId": 2250,
-      "contactId": 4735,
-      "name": "Bins Inc and Sons"
+      "PrimaryKey": 2600,
+      "EntityName": "person",
+      "personId": 2600,
+      "fullName": "Rosina McDermott"
     },
     {
-      "PrimaryKey": 8752,
-      "EntityName": "sale",
-      "saleId": 8752,
-      "contactId": 2509,
-      "name": "Smitham, Waters and Bergnaum"
+      "PrimaryKey": 7899,
+      "EntityName": "person",
+      "personId": 7899,
+      "fullName": "Gianni Nitzsche"
     }
   ]
 }

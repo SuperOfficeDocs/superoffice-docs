@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=135
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=347
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 654,
-  "BlobSize": 616,
-  "Description": "Vision-oriented attitude-oriented instruction set",
-  "ExtraInfo": "ullam",
-  "IsEncrypted": true,
+  "BlobId": 734,
+  "BlobSize": 111,
+  "Description": "Virtual value-added migration",
+  "ExtraInfo": "accusamus",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aliquam",
-  "OriginalSize": 500,
-  "CreatedDate": "2021-07-04T10:17:55.1290102+02:00",
-  "UpdatedDate": "2017-06-11T10:17:55.1290102+02:00",
+  "MimeType": "quidem",
+  "OriginalSize": 842,
+  "CreatedDate": "2024-09-27T13:13:22.1489532+02:00",
+  "UpdatedDate": "2011-11-08T13:13:22.1489532+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo",
+  "ConceptualType": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

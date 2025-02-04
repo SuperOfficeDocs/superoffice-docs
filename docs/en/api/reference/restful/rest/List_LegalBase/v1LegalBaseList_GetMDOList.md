@@ -26,8 +26,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=deserunt
+GET /api/v1/List/LegalBase/MDOItems?flat=True
+GET /api/v1/List/LegalBase/MDOItems?query=pariatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Borer, O'Keefe and Fadel",
-    "ToolTip": "Id quaerat consequatur deleniti voluptatum.",
+    "Id": 782,
+    "Name": "Schoen-Reinger",
+    "ToolTip": "Accusantium perferendis ducimus harum quaerat et.",
     "Deleted": true,
-    "Rank": 957,
-    "Type": "numquam",
+    "Rank": 45,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Shanahan-Mitchell",
-        "ToolTip": "Id quo sit quis.",
+        "Id": 306,
+        "Name": "Crist, Hills and Hilll",
+        "ToolTip": "Modi atque.",
         "Deleted": false,
-        "Rank": 180,
-        "Type": "sed",
+        "Rank": 561,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 23,
-        "ExtraInfo": "quia",
-        "StyleHint": "distinctio",
-        "FullName": "Jaylan Leffler",
+        "IconHint": "consequuntur",
+        "ColorBlock": 394,
+        "ExtraInfo": "ex",
+        "StyleHint": "illo",
+        "FullName": "Brendan Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldLength": 724
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 876,
-    "ExtraInfo": "qui",
-    "StyleHint": "quo",
-    "FullName": "Prof. Karli Walsh",
+    "IconHint": "harum",
+    "ColorBlock": 993,
+    "ExtraInfo": "vel",
+    "StyleHint": "non",
+    "FullName": "Quinton Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 632
       }
     }
   }

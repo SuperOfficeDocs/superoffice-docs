@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 936,
-    "Name": "Morar Inc and Sons",
-    "Description": "Open-source upward-trending synergy",
+    "ProjectId": 647,
+    "Name": "Emard-VonRueden",
+    "Description": "Triple-buffered directional array",
     "URL": "http://www.example.com/",
-    "Type": "cum",
-    "AssociateId": 78,
-    "AssociateFullName": "Rosalee Doyle",
-    "TypeId": 527,
-    "Updated": "2006-07-22T10:17:55.9103076+02:00",
-    "StatusId": 730,
-    "Status": "odio",
-    "TextId": 128,
-    "PublishTo": "2011-03-02T10:17:55.9103076+01:00",
-    "PublishFrom": "2005-08-14T10:17:55.9103076+02:00",
+    "Type": "porro",
+    "AssociateId": 682,
+    "AssociateFullName": "Rudy Hintz",
+    "TypeId": 445,
+    "Updated": "2018-08-04T13:13:23.664465+02:00",
+    "StatusId": 985,
+    "Status": "fugiat",
+    "TextId": 269,
+    "PublishTo": "2015-04-21T13:13:23.664465+02:00",
+    "PublishFrom": "1997-12-29T13:13:23.664465+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "887949",
-    "ActiveErpLinks": 467,
+    "ProjectNumber": "950036",
+    "ActiveErpLinks": 33,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldType": "System.Int32",
+        "FieldLength": 815
       }
     }
   }

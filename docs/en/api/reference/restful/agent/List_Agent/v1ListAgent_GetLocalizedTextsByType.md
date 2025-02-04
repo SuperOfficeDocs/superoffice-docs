@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "ut",
-    "fugiat"
+    "sit",
+    "vero"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 458,
-    "ResourceId": 266,
-    "Text": "ex",
+    "LanguageId": 466,
+    "ResourceId": 664,
+    "Text": "ut",
     "Type": "Column",
-    "LocalizedTextId": 713,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 265,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

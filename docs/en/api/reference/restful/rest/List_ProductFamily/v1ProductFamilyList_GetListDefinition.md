@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Spinka-Turner",
-  "Tooltip": "aut",
+  "Id": 694,
+  "Name": "Kassulke-Konopelski",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 324,
+  "Rank": 754,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldLength": 300
     }
   },
   "_Links": {

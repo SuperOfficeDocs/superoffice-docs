@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "excepturi",
-  "PrefKey": "ratione",
+  "PrefSection": "in",
+  "PrefKey": "aliquid",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "id",
+  "RawValue": "voluptas",
   "Specification": null,
-  "DisplayValue": "quisquam",
-  "DisplayTooltip": "quisquam",
+  "DisplayValue": "iure",
+  "DisplayTooltip": "distinctio",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 5,
-  "PrefDescId": 415,
-  "TableName": "Spencer Inc and Sons",
-  "UserPreferenceId": 699,
+  "TargetId": 995,
+  "PrefDescId": 587,
+  "TableName": "Barrows-Mann",
+  "UserPreferenceId": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 114
     }
   }
 }

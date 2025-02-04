@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 727,
+  "DocumentTemplateId": 605,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "eum",
-  "PluginId": 504
+  "LanguageCode": "quos",
+  "PluginId": 36
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Morar LLC",
-  "Description": "Stand-alone 6th generation infrastructure",
-  "ExternalReference": "consectetur",
-  "MimeType": "qui",
-  "PluginId": 498
+  "Name": "D'Amore, Keebler and O'Kon",
+  "Description": "Open-architected eco-centric product",
+  "ExternalReference": "cumque",
+  "MimeType": "ullam",
+  "PluginId": 165
 }
 ```

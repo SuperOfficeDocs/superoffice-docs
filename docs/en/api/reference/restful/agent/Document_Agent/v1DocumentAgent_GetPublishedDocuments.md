@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    880,
-    951
+    371,
+    255
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 403,
-    "Attention": "enim",
-    "Header": "earum",
-    "Name": "Flatley Group",
-    "OurRef": "earum",
-    "YourRef": "tenetur",
-    "Description": "Operative bottom-line data-warehouse",
-    "DocumentTemplate": "dignissimos",
+    "DocumentId": 7,
+    "Attention": "eius",
+    "Header": "quidem",
+    "Name": "Pagac-Beatty",
+    "OurRef": "accusamus",
+    "YourRef": "voluptate",
+    "Description": "Total systematic task-force",
+    "DocumentTemplate": "dicta",
     "IsPublished": false,
-    "PersonId": 514,
-    "PersonFullName": "Bart Grady",
-    "AssociateFullName": "Miss Brennon Runolfsdottir",
-    "ContactId": 677,
-    "ContactName": "Tremblay Group",
-    "ProjectId": 100,
-    "ProjectName": "Ryan, Crist and Bruen",
-    "AssociateId": 707,
-    "Snum": 124,
-    "SaleId": 7,
-    "SaleName": "Green-Howe",
+    "PersonId": 770,
+    "PersonFullName": "Uriah Nienow II",
+    "AssociateFullName": "Lela Murazik",
+    "ContactId": 633,
+    "ContactName": "Walsh Inc and Sons",
+    "ProjectId": 933,
+    "ProjectName": "D'Amore LLC",
+    "AssociateId": 24,
+    "Snum": 656,
+    "SaleId": 739,
+    "SaleName": "Fritsch-Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 157
       }
     }
   }

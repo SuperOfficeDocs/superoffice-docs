@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "White LLC",
+  "Name": "Weber, Greenholt and Collier",
   "ForceFlatList": false,
-  "AdditionalInfo": "dolores",
+  "AdditionalInfo": "tenetur",
   "HistoryItems": [
-    61,
-    774
+    367,
+    176
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Kunde-Leffler",
-    "ToolTip": "Rerum veritatis ipsum ducimus eum ab et rerum.",
+    "Id": 546,
+    "Name": "Rolfson Inc and Sons",
+    "ToolTip": "Qui labore ab possimus maiores.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "ut",
+    "Rank": 480,
+    "Type": "placeat",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Greenholt-Breitenberg",
-        "ToolTip": "Non et consequuntur alias laudantium natus.",
-        "Deleted": true,
-        "Rank": 371,
-        "Type": "nostrum",
+        "Id": 613,
+        "Name": "Champlin Group",
+        "ToolTip": "Labore ipsa ullam.",
+        "Deleted": false,
+        "Rank": 733,
+        "Type": "ducimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 262,
-        "ExtraInfo": "sunt",
-        "StyleHint": "in",
-        "FullName": "Mr. Amie Marvin III",
+        "IconHint": "iste",
+        "ColorBlock": 498,
+        "ExtraInfo": "asperiores",
+        "StyleHint": "perspiciatis",
+        "FullName": "Rasheed Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 326
+            "FieldLength": 597
           }
         }
       }
     ],
-    "IconHint": "porro",
-    "ColorBlock": 234,
-    "ExtraInfo": "minima",
-    "StyleHint": "maxime",
-    "FullName": "Junius Corkery",
+    "IconHint": "maiores",
+    "ColorBlock": 791,
+    "ExtraInfo": "est",
+    "StyleHint": "blanditiis",
+    "FullName": "Lessie Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldLength": 921
       }
     }
   }

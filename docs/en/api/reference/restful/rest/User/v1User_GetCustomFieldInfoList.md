@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mayert Group",
-    "DisplayName": "Kirlin-Luettgen",
-    "Description": "Persevering 24 hour framework",
-    "ShortLabel": "nostrum",
+    "FieldName": "Schinner, Rosenbaum and Abbott",
+    "DisplayName": "O'Connell, Kemmer and Schultz",
+    "Description": "Upgradable homogeneous infrastructure",
+    "ShortLabel": "est",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 71,
-    "TemplateVariableName": "Hermiston Inc and Sons"
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 903,
+    "TemplateVariableName": "Hills Group"
   }
 ]
 ```

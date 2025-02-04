@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 279
+  "QuoteConnectionId": 648
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 113,
-  "ERPName": "Daugherty, Tremblay and Prosacco",
-  "DisplayName": "Reichel Group",
-  "DisplayDescription": "Customizable demand-driven productivity",
-  "Rank": 440,
-  "ConnectorName": "Okuneva Inc and Sons",
-  "ErpConnectionId": 676,
-  "ExtraData": "voluptatem",
-  "IsAvailable": false,
+  "QuoteConnectionId": 621,
+  "ERPName": "Satterfield-Rohan",
+  "DisplayName": "Metz Inc and Sons",
+  "DisplayDescription": "Switchable methodical application",
+  "Rank": 910,
+  "ConnectorName": "Conroy LLC",
+  "ErpConnectionId": 434,
+  "ExtraData": "qui",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 216,
-      "ERPPriceListKey": "corrupti",
-      "QuoteConnectionId": 870,
-      "Name": "Greenholt, Hoeger and Runolfsson",
-      "Description": "De-engineered encompassing access",
-      "Currency": "est",
-      "CurrencyName": "Kuvalis, Sauer and Gutkowski",
-      "ValidFrom": "2007-09-23T10:17:55.9415595+02:00",
-      "ValidTo": "2008-12-09T10:17:55.9415595+01:00",
-      "IsActive": false,
+      "PriceListId": 68,
+      "ERPPriceListKey": "expedita",
+      "QuoteConnectionId": 485,
+      "Name": "Nader, Koepp and Orn",
+      "Description": "Assimilated needs-based encoding",
+      "Currency": "hic",
+      "CurrencyName": "O'Keefe Group",
+      "ValidFrom": "2002-07-12T13:13:23.7425716+02:00",
+      "ValidTo": "2020-03-14T13:13:23.7425716+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 607
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    684,
-    97
+    559,
+    921
   ],
   "AssociateAccessIds": [
-    46,
-    20
+    717,
+    781
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

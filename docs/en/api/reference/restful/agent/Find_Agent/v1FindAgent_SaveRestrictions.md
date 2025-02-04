@@ -71,30 +71,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Wuckert, Baumbach and Green",
-  "StorageKey": "dolorem",
+  "StorageType": "maiores",
+  "ProviderName": "Turcotte, Metz and Heller",
+  "StorageKey": "consequuntur",
   "Restrictions": [
     {
-      "Name": "Windler, Nolan and Berge",
-      "Operator": "aut",
+      "Name": "Yundt LLC",
+      "Operator": "voluptas",
       "Values": [
-        "recusandae",
-        "enim"
+        "enim",
+        "quas"
       ],
       "DisplayValues": [
-        "aut",
-        "omnis"
+        "fugiat",
+        "corporis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 267,
+      "InterParenthesis": 390,
       "InterOperator": "And",
-      "UniqueHash": 556
+      "UniqueHash": 988
     }
   ]
 }

@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 216,
-  "Name": "Green-Turcotte",
+  "TicketPriorityId": 987,
+  "Name": "Grady Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 120,
+  "SortOrder": 301,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 404,
-  "MonStart": "2005-05-06T10:18:01.1918781+02:00",
-  "MonStop": "2006-11-28T10:18:01.1918781+01:00",
-  "TueStart": "2011-10-14T10:18:01.1918781+02:00",
-  "TueStop": "2007-07-29T10:18:01.1918781+02:00",
-  "WedStart": "2002-09-06T10:18:01.1918781+02:00",
-  "WedStop": "2015-05-23T10:18:01.1918781+02:00",
-  "ThuStart": "1998-06-13T10:18:01.1918781+02:00",
-  "ThuStop": "2002-11-14T10:18:01.1918781+01:00",
-  "FriStart": "1998-11-22T10:18:01.1918781+01:00",
-  "FriStop": "2001-02-18T10:18:01.1918781+01:00",
-  "SatStart": "2012-03-12T10:18:01.1918781+01:00",
-  "SatStop": "2014-05-23T10:18:01.1918781+02:00",
-  "SunStart": "2019-11-25T10:18:01.1918781+01:00",
-  "SunStop": "2000-07-24T10:18:01.1918781+02:00",
+  "Deadline": 372,
+  "MonStart": "2009-07-14T13:13:33.6828687+02:00",
+  "MonStop": "2023-05-27T13:13:33.6828687+02:00",
+  "TueStart": "1999-01-21T13:13:33.6828687+01:00",
+  "TueStop": "2014-08-17T13:13:33.6828687+02:00",
+  "WedStart": "2016-10-22T13:13:33.6828687+02:00",
+  "WedStop": "2002-05-03T13:13:33.6828687+02:00",
+  "ThuStart": "2018-11-21T13:13:33.6828687+01:00",
+  "ThuStop": "1999-12-22T13:13:33.6828687+01:00",
+  "FriStart": "2003-11-02T13:13:33.6828687+01:00",
+  "FriStop": "2000-05-09T13:13:33.6828687+02:00",
+  "SatStart": "2006-10-31T13:13:33.6828687+01:00",
+  "SatStop": "2024-04-26T13:13:33.6828687+02:00",
+  "SunStart": "2010-12-12T13:13:33.6828687+01:00",
+  "SunStop": "2020-04-28T13:13:33.6828687+02:00",
   "NonDates": [
-    "dolorem",
-    "molestiae"
+    "illo",
+    "dicta"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 605,
-      "AlertLevel": 241,
-      "AlertTimeout": 757,
-      "Action": 567,
-      "DelegateTo": 455,
-      "ScriptId": 175,
-      "EmailTo": "tianna_kessler@gutkowski.biz",
-      "SmsTo": "rerum",
-      "ReplyTemplateIdCustomer": 626,
-      "ReplyTemplateIdUser": 517,
-      "ReplyTemplateIdCatmast": 832,
-      "ReplyTemplateIdEmail": 404,
-      "RtiCustomerSms": 685,
-      "ReplyTemplateIdUserSms": 450,
-      "ReplyTemplateIdCatmastSms": 476,
-      "ReplyTemplateIdSms": 76,
+      "TicketAlertId": 877,
+      "AlertLevel": 460,
+      "AlertTimeout": 342,
+      "Action": 265,
+      "DelegateTo": 905,
+      "ScriptId": 764,
+      "EmailTo": "mikel_schuppe@mertzhills.us",
+      "SmsTo": "nihil",
+      "ReplyTemplateIdCustomer": 11,
+      "ReplyTemplateIdUser": 562,
+      "ReplyTemplateIdCatmast": 515,
+      "ReplyTemplateIdEmail": 707,
+      "RtiCustomerSms": 358,
+      "ReplyTemplateIdUserSms": 580,
+      "ReplyTemplateIdCatmastSms": 549,
+      "ReplyTemplateIdSms": 385,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 795
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 883
     }
   }
 }

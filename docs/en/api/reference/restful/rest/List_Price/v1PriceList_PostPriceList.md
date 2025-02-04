@@ -98,15 +98,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 1000,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 593,
-  "Name": "Gulgowski Group",
-  "Description": "De-engineered reciprocal utilisation",
-  "Currency": "dignissimos",
-  "CurrencyName": "Jewess LLC",
-  "ValidFrom": "2000-09-25T10:18:01.0668705+02:00",
-  "ValidTo": "2009-10-24T10:18:01.0668705+02:00",
+  "PriceListId": 291,
+  "ERPPriceListKey": "ea",
+  "QuoteConnectionId": 273,
+  "Name": "Wiza, Walter and Franecki",
+  "Description": "Sharable exuding interface",
+  "Currency": "cupiditate",
+  "CurrencyName": "Bechtelar, Hills and Sporer",
+  "ValidFrom": "2000-10-21T13:13:33.2454698+02:00",
+  "ValidTo": "2011-09-16T13:13:33.2454698+02:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 792,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 32,
-  "Name": "White, Sauer and Fisher",
-  "Description": "Organized attitude-oriented encryption",
-  "Currency": "omnis",
-  "CurrencyName": "Zemlak Group",
-  "ValidFrom": "1999-07-14T10:18:01.0668705+02:00",
-  "ValidTo": "2014-12-13T10:18:01.0668705+01:00",
+  "PriceListId": 67,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 400,
+  "Name": "Jaskolski-Braun",
+  "Description": "Cross-group contextually-based toolset",
+  "Currency": "beatae",
+  "CurrencyName": "Gleichner Inc and Sons",
+  "ValidFrom": "2018-09-25T13:13:33.2454698+02:00",
+  "ValidTo": "2004-11-11T13:13:33.2454698+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldLength": 314
     }
   },
   "_Links": {

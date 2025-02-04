@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 920,
-  "Name": "Fritsch Group",
-  "ContentType": "et",
-  "AttSize": 384,
-  "InlineImage": false,
-  "ContentId": "eum",
-  "AuthKey": "at",
+  "AttachmentId": 362,
+  "Name": "Collier-Hudson",
+  "ContentType": "deleniti",
+  "AttSize": 179,
+  "InlineImage": true,
+  "ContentId": "voluptatem",
+  "AuthKey": "vitae",
   "IsSafeFileExtension": false
 }
 ```
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 407,
-  "Name": "Sanford-Ryan",
-  "ContentType": "quos",
-  "AttSize": 45,
-  "InlineImage": true,
-  "ContentId": "et",
-  "AuthKey": "nihil",
+  "AttachmentId": 434,
+  "Name": "Kessler, Konopelski and Gleason",
+  "ContentType": "iure",
+  "AttSize": 20,
+  "InlineImage": false,
+  "ContentId": "placeat",
+  "AuthKey": "quaerat",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 747
     }
   },
   "_Links": {

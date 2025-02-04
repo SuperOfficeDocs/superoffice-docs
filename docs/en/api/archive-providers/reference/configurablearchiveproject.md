@@ -788,7 +788,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=projectAssociate/lastName,document/snum,document/suggestedDocumentId,projectMember/personUpdatedDate,projectMember/mainContact
+GET /api/v1/archive/ConfigurableArchiveProject?$select=projectAssociate/firstName,saintActivityType,sale/saleUdef/SuperOffice:3,appointment/updatedBy,appointment/associate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

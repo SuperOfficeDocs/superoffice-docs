@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 838,
-    "Name": "Langworth, Mertz and Effertz",
-    "Tooltip": "aut",
+    "HeadingId": 945,
+    "Name": "Bogisich-Hettinger",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 229,
-    "UdListDefinitionId": 820
+    "Rank": 626,
+    "UdListDefinitionId": 337
   },
   {
-    "HeadingId": 838,
-    "Name": "Langworth, Mertz and Effertz",
-    "Tooltip": "aut",
+    "HeadingId": 945,
+    "Name": "Bogisich-Hettinger",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 229,
-    "UdListDefinitionId": 820
+    "Rank": 626,
+    "UdListDefinitionId": 337
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 945,
-    "Name": "Bauch Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 760,
-    "UdListDefinitionId": 988,
+    "HeadingId": 40,
+    "Name": "Zieme, Deckow and Dare",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "Rank": 651,
+    "UdListDefinitionId": 578,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

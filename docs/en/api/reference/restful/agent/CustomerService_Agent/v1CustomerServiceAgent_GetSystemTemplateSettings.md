@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 107,
-  "CustomerCustomerReplyTemplateId": 921,
-  "CustomerPasswordTemplateId": 570,
-  "CustomerConfirmEmailTemplateId": 933,
-  "CustomerChatLogTemplateId": 455,
-  "NewLinkTemplateId": 369,
-  "HotlistNewMessageTemplateId": 406,
-  "HotlistTicketActivatedTemplateId": 120,
-  "UserTicketAlarmTemplateId": 272,
-  "HotlistTicketTakenOverTemplateId": 461,
-  "UserActiveTicketsTemplateId": 693,
-  "UserNewMessageTemplateId": 283,
-  "UserTicketActivatedTemplateId": 985,
-  "UserNewTicketTemplateId": 540,
-  "PublishKbQuestionTemplateId": 206,
-  "PublishKbAnswerTemplateId": 391,
-  "UserTicketTakenOverTemplateId": 600,
-  "PrintTicketTemplateId": 115,
-  "WeekStatTemplateId": 258,
-  "TicketAlarmHotlistTemplateId": 75,
-  "EmailAddresses": "danika@spinka.name",
+  "CustomerNewCustomerTemplateId": 258,
+  "CustomerCustomerReplyTemplateId": 107,
+  "CustomerPasswordTemplateId": 795,
+  "CustomerConfirmEmailTemplateId": 906,
+  "CustomerChatLogTemplateId": 681,
+  "NewLinkTemplateId": 275,
+  "HotlistNewMessageTemplateId": 418,
+  "HotlistTicketActivatedTemplateId": 830,
+  "UserTicketAlarmTemplateId": 614,
+  "HotlistTicketTakenOverTemplateId": 672,
+  "UserActiveTicketsTemplateId": 231,
+  "UserNewMessageTemplateId": 340,
+  "UserTicketActivatedTemplateId": 588,
+  "UserNewTicketTemplateId": 125,
+  "PublishKbQuestionTemplateId": 580,
+  "PublishKbAnswerTemplateId": 613,
+  "UserTicketTakenOverTemplateId": 367,
+  "PrintTicketTemplateId": 730,
+  "WeekStatTemplateId": 967,
+  "TicketAlarmHotlistTemplateId": 532,
+  "EmailAddresses": "bridget.kuhic@gerhold.us",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldLength": 732
     }
   }
 }

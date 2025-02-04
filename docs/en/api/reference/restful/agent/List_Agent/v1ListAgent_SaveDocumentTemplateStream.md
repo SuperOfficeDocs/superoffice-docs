@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 25,
+  "DocumentTemplateId": 221,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "et",
-  "PluginId": 382
+  "LanguageCode": "molestias",
+  "PluginId": 63
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lubowitz, Haag and Parker",
-  "Description": "Reduced reciprocal encoding",
-  "ExternalReference": "at",
-  "MimeType": "laudantium",
-  "PluginId": 827
+  "Name": "Cormier-Lesch",
+  "Description": "Ameliorated stable architecture",
+  "ExternalReference": "suscipit",
+  "MimeType": "cumque",
+  "PluginId": 505
 }
 ```

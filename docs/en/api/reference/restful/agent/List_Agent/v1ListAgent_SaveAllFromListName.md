@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Feest Inc and Sons",
+  "UdListDefinitionName": "Schamberger Group",
   "Items": [
     {
-      "Id": 48,
-      "Name": "Stroman, Tillman and Eichmann",
-      "Tooltip": "distinctio",
+      "Id": 902,
+      "Name": "Larkin-Casper",
+      "Tooltip": "laborum",
       "Deleted": false,
-      "UdListDefinitionId": 538,
-      "Rank": 941
+      "UdListDefinitionId": 929,
+      "Rank": 116
     },
     {
-      "Id": 48,
-      "Name": "Stroman, Tillman and Eichmann",
-      "Tooltip": "distinctio",
+      "Id": 902,
+      "Name": "Larkin-Casper",
+      "Tooltip": "laborum",
       "Deleted": false,
-      "UdListDefinitionId": 538,
-      "Rank": 941
+      "UdListDefinitionId": 929,
+      "Rank": 116
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "non",
+    "Id": 356,
+    "Name": "Langworth Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 606,
-    "Rank": 105,
+    "UdListDefinitionId": 690,
+    "Rank": 209,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 263
       }
     }
   }

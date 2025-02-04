@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Value": "perferendis",
-    "Tooltip": "quia",
+    "Id": 687,
+    "Value": "consequatur",
+    "Tooltip": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 675
       }
     }
   },
   {
-    "Id": 558,
-    "Value": "perferendis",
-    "Tooltip": "quia",
+    "Id": 687,
+    "Value": "consequatur",
+    "Tooltip": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 675
       }
     }
   }

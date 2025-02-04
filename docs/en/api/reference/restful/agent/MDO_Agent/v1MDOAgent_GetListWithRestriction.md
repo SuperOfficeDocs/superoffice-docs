@@ -90,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kohler Group",
-  "AdditionalInfo": "delectus",
-  "SearchValue": "omnis"
+  "Name": "Rohan Group",
+  "AdditionalInfo": "aut",
+  "SearchValue": "quia"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Flatley, Swift and Wilderman",
-    "ToolTip": "Debitis quia voluptatum fugit et repudiandae rerum.",
-    "Deleted": false,
-    "Rank": 723,
-    "Type": "fugit",
+    "Id": 506,
+    "Name": "Gutmann-Cummerata",
+    "ToolTip": "Sapiente enim et.",
+    "Deleted": true,
+    "Rank": 922,
+    "Type": "quas",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Fisher-Marks",
-        "ToolTip": "Magni quia quod eveniet ipsum.",
+        "Id": 518,
+        "Name": "Trantow, Treutel and Davis",
+        "ToolTip": "Aut et unde dolores sunt reprehenderit officia et.",
         "Deleted": true,
-        "Rank": 696,
-        "Type": "quo",
+        "Rank": 913,
+        "Type": "totam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 558,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "ut",
-        "FullName": "Verda Kathlyn Corwin Jr.",
+        "IconHint": "est",
+        "ColorBlock": 785,
+        "ExtraInfo": "cum",
+        "StyleHint": "velit",
+        "FullName": "Prof. Lura Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldLength": 927
           }
         }
       }
     ],
-    "IconHint": "numquam",
-    "ColorBlock": 328,
-    "ExtraInfo": "cumque",
-    "StyleHint": "quo",
-    "FullName": "Lucie Gerlach",
+    "IconHint": "ipsa",
+    "ColorBlock": 183,
+    "ExtraInfo": "sint",
+    "StyleHint": "ipsum",
+    "FullName": "Reyes Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

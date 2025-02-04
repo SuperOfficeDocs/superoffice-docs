@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Bernier-Ortiz",
-  "StorageKey": "voluptatem",
-  "Context": "recusandae"
+  "StorageType": "dolorum",
+  "ProviderName": "Torphy Group",
+  "StorageKey": "earum",
+  "Context": "est"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Farrell, Kozey and Adams",
-    "Description": "Team-oriented holistic artificial intelligence",
-    "Rank": 581,
+    "Name": "Strosin-Bailey",
+    "Description": "Centralized optimal hardware",
+    "Rank": 837,
     "Restrictions": [
       {
-        "Name": "Grady Group",
-        "Operator": "necessitatibus",
+        "Name": "Williamson-Bruen",
+        "Operator": "assumenda",
         "Values": [
-          "iure",
-          "illum"
+          "sequi",
+          "culpa"
         ],
         "DisplayValues": [
-          "laudantium",
-          "officiis"
+          "ducimus",
+          "culpa"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 906,
+        "InterParenthesis": 506,
         "InterOperator": "And",
-        "UniqueHash": 481
+        "UniqueHash": 616
       }
     ]
   },
   {
-    "Name": "Farrell, Kozey and Adams",
-    "Description": "Team-oriented holistic artificial intelligence",
-    "Rank": 581,
+    "Name": "Strosin-Bailey",
+    "Description": "Centralized optimal hardware",
+    "Rank": 837,
     "Restrictions": [
       {
-        "Name": "Grady Group",
-        "Operator": "necessitatibus",
+        "Name": "Williamson-Bruen",
+        "Operator": "assumenda",
         "Values": [
-          "iure",
-          "illum"
+          "sequi",
+          "culpa"
         ],
         "DisplayValues": [
-          "laudantium",
-          "officiis"
+          "ducimus",
+          "culpa"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 906,
+        "InterParenthesis": 506,
         "InterOperator": "And",
-        "UniqueHash": 481
+        "UniqueHash": 616
       }
     ]
   }

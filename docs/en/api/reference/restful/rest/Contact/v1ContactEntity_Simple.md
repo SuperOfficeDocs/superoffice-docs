@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 660,
-  "Name": "Runolfsdottir Group",
-  "OrgNr": "1513999",
+  "ContactId": 408,
+  "Name": "Witting Group",
+  "OrgNr": "1073187",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "occaecati",
-  "DirectPhone": "209.815.8954 x6119",
-  "AssociateId": 462,
-  "CountryId": 538,
-  "EmailAddress": "george@powlowskismith.com",
-  "Kananame": "deleniti",
-  "EmailAddressName": "rogers_rogahn@kerlukerunolfsson.info",
+  "City": "placeat",
+  "DirectPhone": "469.031.7202 x99620",
+  "AssociateId": 336,
+  "CountryId": 41,
+  "EmailAddress": "makayla_funk@weimann.uk",
+  "Kananame": "vitae",
+  "EmailAddressName": "lois.huels@bins.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Heber Ondricka",
+  "AssociateFullName": "Ms. Mona Russel",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "aut",
-  "FullName": "Mrs. Margarita Winfield Trantow DVM",
+  "FormattedAddress": "et",
+  "FullName": "Prof. Danial Christian Breitenberg DVM",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 747,
-  "Number1": "1393007",
-  "Number2": "1365611",
+  "ActiveErpLinks": 690,
+  "Number1": "1105440",
+  "Number2": "818637",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

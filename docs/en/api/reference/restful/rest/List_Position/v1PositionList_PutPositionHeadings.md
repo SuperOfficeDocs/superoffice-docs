@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 738,
-    "Name": "Kirlin-Hilpert",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 784,
-    "UdListDefinitionId": 102
+    "HeadingId": 346,
+    "Name": "Gorczany, Aufderhar and Paucek",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 917,
+    "UdListDefinitionId": 740
   },
   {
-    "HeadingId": 738,
-    "Name": "Kirlin-Hilpert",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 784,
-    "UdListDefinitionId": 102
+    "HeadingId": 346,
+    "Name": "Gorczany, Aufderhar and Paucek",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 917,
+    "UdListDefinitionId": 740
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 258,
-    "Name": "Huels, Hoeger and Leannon",
-    "Tooltip": "ratione",
+    "HeadingId": 64,
+    "Name": "Watsica Inc and Sons",
+    "Tooltip": "iste",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 360,
+    "Rank": 420,
+    "UdListDefinitionId": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 64
+        "FieldType": "System.Int32",
+        "FieldLength": 305
       }
     }
   }

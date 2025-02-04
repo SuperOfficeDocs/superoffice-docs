@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=dolorem
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=quia
 ```
 
 
@@ -90,49 +90,49 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 622,
-    "Name": "Gleichner, Simonis and D'Amore",
-    "ToolTip": "Quo possimus totam.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "sint",
+    "Name": "Welch, Hackett and Bartell",
+    "ToolTip": "Sapiente dolores explicabo labore blanditiis animi est.",
+    "Deleted": false,
+    "Rank": 787,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 279,
-        "Name": "Jerde Inc and Sons",
-        "ToolTip": "Ut omnis dolor nesciunt autem asperiores ullam nostrum.",
+        "Id": 568,
+        "Name": "Frami Inc and Sons",
+        "ToolTip": "Aliquam eveniet.",
         "Deleted": true,
-        "Rank": 132,
-        "Type": "quos",
+        "Rank": 362,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 7,
-        "ExtraInfo": "et",
-        "StyleHint": "perferendis",
-        "FullName": "Godfrey Welch",
+        "IconHint": "et",
+        "ColorBlock": 250,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "officiis",
+        "FullName": "Michaela Ruecker DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 425
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 1002,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "rem",
-    "FullName": "Chaim Mann",
+    "IconHint": "temporibus",
+    "ColorBlock": 435,
+    "ExtraInfo": "sed",
+    "StyleHint": "ut",
+    "FullName": "Marjory Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 852
       }
     }
   }

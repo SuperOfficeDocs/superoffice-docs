@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Heidenreich Inc and Sons",
-  "ListItemId": 99,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Stroman, Schulist and Osinski",
+  "ListItemId": 494,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Donnelly-King",
-    "ToolTip": "Commodi repellendus.",
+    "Id": 351,
+    "Name": "Botsford-Cormier",
+    "ToolTip": "Dolor est.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "aliquid",
-    "ColorBlock": 146,
-    "IconHint": "dolores",
+    "Rank": 228,
+    "Type": "expedita",
+    "ColorBlock": 81,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2016-11-24T10:17:55.7071691+01:00",
+    "LastChanged": "2006-11-21T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Oberbrunner-Kuvalis",
-        "ToolTip": "Voluptates est itaque est nihil rerum.",
+        "Id": 819,
+        "Name": "Schoen, Huels and Balistreri",
+        "ToolTip": "Qui quod.",
         "Deleted": false,
-        "Rank": 504,
-        "Type": "est",
-        "ColorBlock": 511,
-        "IconHint": "voluptates",
+        "Rank": 560,
+        "Type": "adipisci",
+        "ColorBlock": 93,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2018-03-09T10:17:55.7071691+01:00",
+        "LastChanged": "2019-11-20T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "et",
+        "ExtraInfo": "sit",
+        "StyleHint": "atque",
         "Hidden": true,
-        "FullName": "Cali Schaden",
+        "FullName": "Verdie Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldType": "System.String",
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Berta Austin Greenholt DDS",
+    "ExtraInfo": "quod",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Mrs. Luis Alberta Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 116
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 422
+  "ErpConnectionId": 127
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 771,
-  "ErpConnectorId": 431,
-  "DisplayName": "Mayer Group",
-  "DisplayDescription": "Right-sized intermediate analyzer",
+  "ErpConnectionId": 805,
+  "ErpConnectorId": 751,
+  "DisplayName": "Hyatt LLC",
+  "DisplayDescription": "Implemented background core",
   "Active": false,
-  "ConnectionId": "illo",
-  "MostRecentTimestamp": "nobis",
+  "ConnectionId": "sed",
+  "MostRecentTimestamp": "voluptas",
   "ConfigFields": {
-    "ConfigFields1": "eum",
-    "ConfigFields2": "voluptatem"
+    "ConfigFields1": "quia",
+    "ConfigFields2": "vel"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    174,
-    281
+    662,
+    568
   ],
   "AssociateAccessIds": [
-    736,
-    525
+    883,
+    955
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 127
     }
   }
 }

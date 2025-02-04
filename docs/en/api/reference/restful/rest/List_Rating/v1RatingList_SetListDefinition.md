@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 306,
-  "Name": "Gutkowski-Gislason",
-  "Tooltip": "nisi",
+  "Id": 890,
+  "Name": "Moen, Schneider and Harvey",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 408,
-  "IsCustomList": false,
+  "Rank": 914,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Hoppe Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 950,
+  "Name": "Batz-Hirthe",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 44,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "libero",
+  "Rank": 76,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 632
     }
   }
 }

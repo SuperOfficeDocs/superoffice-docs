@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Baumbach, Feeney and Wiza",
-  "GroupId": 236
+  "UdListDefinitionName": "Kozey, Terry and Sanford",
+  "GroupId": 209
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Mitchell Group",
-    "ToolTip": "Quo voluptates et quam explicabo velit dolore.",
+    "Id": 55,
+    "Name": "Senger-Luettgen",
+    "ToolTip": "Magni maxime eius.",
     "Deleted": false,
-    "Rank": 947,
-    "Type": "at",
-    "ColorBlock": 307,
-    "IconHint": "qui",
+    "Rank": 331,
+    "Type": "quia",
+    "ColorBlock": 324,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "2024-05-13T10:17:55.7071691+02:00",
+    "LastChanged": "2017-12-27T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Will, Konopelski and Williamson",
-        "ToolTip": "Quam molestiae quia minima non sed facilis animi.",
-        "Deleted": true,
-        "Rank": 726,
-        "Type": "nam",
-        "ColorBlock": 446,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2016-11-28T10:17:55.7071691+01:00",
+        "Id": 132,
+        "Name": "Dare-O'Kon",
+        "ToolTip": "Voluptatum in laudantium expedita delectus.",
+        "Deleted": false,
+        "Rank": 136,
+        "Type": "ea",
+        "ColorBlock": 797,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2020-12-26T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "et",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Lavina Feest PhD",
+        "FullName": "Prof. Ivory Ellis Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ut",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mr. Zola Jaskolski",
+    "FullName": "Austin Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

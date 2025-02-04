@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 908
+  "ProductId": 45
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 320,
-  "BlobSize": 713,
-  "Description": "Quality-focused reciprocal Graphical User Interface",
-  "ExtraInfo": "in",
-  "IsEncrypted": false,
+  "BlobId": 635,
+  "BlobSize": 718,
+  "Description": "Multi-layered scalable conglomeration",
+  "ExtraInfo": "fugiat",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptatem",
-  "OriginalSize": 679,
-  "CreatedDate": "2007-11-21T10:17:55.1446361+01:00",
-  "UpdatedDate": "2009-01-26T10:17:55.1446361+01:00",
+  "MimeType": "voluptatum",
+  "OriginalSize": 841,
+  "CreatedDate": "1998-04-29T13:13:22.1489532+02:00",
+  "UpdatedDate": "2017-10-09T13:13:22.1489532+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "beatae",
+  "ConceptualType": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 135
     }
   }
 }

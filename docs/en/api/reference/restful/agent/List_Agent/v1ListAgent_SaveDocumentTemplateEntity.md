@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 806,
-  "Name": "Schmitt LLC",
-  "Tooltip": "consequatur",
-  "SaveInDb": 584,
-  "Filename": "aut",
-  "DefaultOref": "ipsum",
+  "DocumentTemplateId": 105,
+  "Name": "Rohan Group",
+  "Tooltip": "inventore",
+  "SaveInDb": 746,
+  "Filename": "nobis",
+  "DefaultOref": "culpa",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 652,
-  "IntentId": 25,
+  "AutoeventId": 646,
+  "IntentId": 249,
   "IsDefaultPublished": true,
-  "Rank": 283,
-  "LoadTemplateFromPlugin": 94,
-  "MimeType": "incidunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 831,
+  "Rank": 104,
+  "LoadTemplateFromPlugin": 723,
+  "MimeType": "voluptatibus",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 343,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "johnnie_heller@hirthekuhic.info",
+  "EmailSubject": "orland@fritsch.com",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "javonte@tremblayhodkiewicz.biz",
+  "SenderEmailAddress": "sidney@waelchiwiza.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 464,
-  "Name": "Yundt, Dach and Feil",
-  "Tooltip": "excepturi",
-  "SaveInDb": 159,
-  "Filename": "voluptatem",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 404,
+  "Name": "Dietrich, Wilkinson and West",
+  "Tooltip": "quaerat",
+  "SaveInDb": 831,
+  "Filename": "aspernatur",
+  "DefaultOref": "necessitatibus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 791,
-  "IntentId": 657,
+  "AutoeventId": 369,
+  "IntentId": 215,
   "IsDefaultPublished": false,
-  "Rank": 502,
-  "LoadTemplateFromPlugin": 843,
-  "MimeType": "consequatur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 198,
+  "Rank": 192,
+  "LoadTemplateFromPlugin": 110,
+  "MimeType": "cupiditate",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 990,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "benedict@buckridge.name",
+  "EmailSubject": "esteban_goyette@hintz.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "velma_kuhic@zulauf.co.uk",
+  "SenderEmailAddress": "retta@gloversanford.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

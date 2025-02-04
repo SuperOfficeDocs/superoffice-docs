@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 364,
-    "Name": "Waters-Wyman",
-    "Tooltip": "nihil",
-    "Rank": 304,
-    "Key": "nemo",
-    "Deleted": true,
+    "LegalBaseId": 437,
+    "Name": "Balistreri Group",
+    "Tooltip": "excepturi",
+    "Rank": 231,
+    "Key": "nihil",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 6
       }
     }
   }

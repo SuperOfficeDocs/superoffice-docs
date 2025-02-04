@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 752,
-  "StartTime": "2010-03-01T10:17:55.457154+01:00",
-  "EndTime": "2015-06-10T10:17:55.457154+02:00",
-  "Count": 541
+  "ProjectId": 29,
+  "StartTime": "2012-10-27T13:13:22.6188095+02:00",
+  "EndTime": "1998-11-15T13:13:22.6188095+01:00",
+  "Count": 373
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 535,
-    "Attention": "sunt",
-    "Header": "aut",
-    "Name": "Maggio, Botsford and Wyman",
-    "OurRef": "nostrum",
-    "YourRef": "vel",
-    "Description": "Programmable global archive",
-    "DocumentTemplate": "at",
-    "IsPublished": false,
-    "PersonId": 907,
-    "PersonFullName": "Ezra Spencer",
-    "AssociateFullName": "Randy Gutkowski",
-    "ContactId": 32,
-    "ContactName": "Treutel LLC",
-    "ProjectId": 704,
-    "ProjectName": "Lubowitz-Volkman",
-    "AssociateId": 236,
-    "Snum": 432,
-    "SaleId": 192,
-    "SaleName": "Morar Inc and Sons",
+    "DocumentId": 350,
+    "Attention": "veritatis",
+    "Header": "et",
+    "Name": "Champlin, Lind and Lakin",
+    "OurRef": "ex",
+    "YourRef": "sit",
+    "Description": "Programmable transitional definition",
+    "DocumentTemplate": "rerum",
+    "IsPublished": true,
+    "PersonId": 626,
+    "PersonFullName": "Ms. Linwood Jan Schamberger Jr.",
+    "AssociateFullName": "Caleigh Schmitt",
+    "ContactId": 508,
+    "ContactName": "Kuphal-Schroeder",
+    "ProjectId": 975,
+    "ProjectName": "Hilll-Fisher",
+    "AssociateId": 264,
+    "Snum": 890,
+    "SaleId": 76,
+    "SaleName": "Robel, Adams and Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   }

@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhlman, Tremblay and Kessler",
-    "Description": "Visionary secondary knowledge user",
-    "Rank": 158,
+    "Name": "Mills LLC",
+    "Description": "Centralized tertiary concept",
+    "Rank": 525,
     "Restrictions": [
       {
-        "Name": "Breitenberg-Jacobi",
-        "Operator": "quia",
+        "Name": "Grimes-Abernathy",
+        "Operator": "perspiciatis",
         "Values": [
-          "non",
-          "praesentium"
+          "ducimus",
+          "veritatis"
         ],
         "DisplayValues": [
-          "fugiat",
-          "quia"
+          "et",
+          "tempore"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 40,
+        "InterParenthesis": 946,
         "InterOperator": "And",
-        "UniqueHash": 633
+        "UniqueHash": 648
       }
     ]
   },
   {
-    "Name": "Kuhlman, Tremblay and Kessler",
-    "Description": "Visionary secondary knowledge user",
-    "Rank": 158,
+    "Name": "Mills LLC",
+    "Description": "Centralized tertiary concept",
+    "Rank": 525,
     "Restrictions": [
       {
-        "Name": "Breitenberg-Jacobi",
-        "Operator": "quia",
+        "Name": "Grimes-Abernathy",
+        "Operator": "perspiciatis",
         "Values": [
-          "non",
-          "praesentium"
+          "ducimus",
+          "veritatis"
         ],
         "DisplayValues": [
-          "fugiat",
-          "quia"
+          "et",
+          "tempore"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 40,
+        "InterParenthesis": 946,
         "InterOperator": "And",
-        "UniqueHash": 633
+        "UniqueHash": 648
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heathcote Group",
-    "Description": "Horizontal client-server emulation",
-    "Rank": 372,
+    "Name": "Shields Inc and Sons",
+    "Description": "Focused solution-oriented core",
+    "Rank": 518,
     "Restrictions": [
       {
-        "Name": "Cruickshank LLC",
-        "Operator": "ab",
+        "Name": "Rogahn-Romaguera",
+        "Operator": "voluptatem",
         "Values": [
-          "qui",
-          "itaque"
+          "beatae",
+          "accusamus"
         ],
         "DisplayValues": [
-          "aut",
-          "sint"
+          "illum",
+          "eos"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 843,
+        "InterParenthesis": 466,
         "InterOperator": "And",
-        "UniqueHash": 462
+        "UniqueHash": 727
       }
     ]
   },
   {
-    "Name": "Heathcote Group",
-    "Description": "Horizontal client-server emulation",
-    "Rank": 372,
+    "Name": "Shields Inc and Sons",
+    "Description": "Focused solution-oriented core",
+    "Rank": 518,
     "Restrictions": [
       {
-        "Name": "Cruickshank LLC",
-        "Operator": "ab",
+        "Name": "Rogahn-Romaguera",
+        "Operator": "voluptatem",
         "Values": [
-          "qui",
-          "itaque"
+          "beatae",
+          "accusamus"
         ],
         "DisplayValues": [
-          "aut",
-          "sint"
+          "illum",
+          "eos"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 843,
+        "InterParenthesis": 466,
         "InterOperator": "And",
-        "UniqueHash": 462
+        "UniqueHash": 727
       }
     ]
   }

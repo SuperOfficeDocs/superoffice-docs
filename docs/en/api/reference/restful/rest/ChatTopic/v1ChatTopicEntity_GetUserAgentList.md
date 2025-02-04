@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Moen LLC",
-    "ToolTip": "Beatae ea.",
+    "Id": 246,
+    "Name": "Bosco, O'Connell and Mayert",
+    "ToolTip": "Quia dolorum modi optio et explicabo sed dolorum.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "architecto",
+    "Rank": 814,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Heller Inc and Sons",
-        "ToolTip": "Sunt facilis tempore similique.",
+        "Id": 199,
+        "Name": "Klocko, Monahan and Wolff",
+        "ToolTip": "Esse autem provident.",
         "Deleted": false,
-        "Rank": 154,
-        "Type": "nobis",
+        "Rank": 921,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 390,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "et",
-        "FullName": "Bell Wiza",
+        "IconHint": "qui",
+        "ColorBlock": 276,
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolorum",
+        "FullName": "Colin Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 357
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 201,
-    "ExtraInfo": "et",
-    "StyleHint": "quas",
-    "FullName": "Noelia Ziemann",
+    "IconHint": "iusto",
+    "ColorBlock": 534,
+    "ExtraInfo": "ullam",
+    "StyleHint": "numquam",
+    "FullName": "Ms. Esther Libbie Gusikowski MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

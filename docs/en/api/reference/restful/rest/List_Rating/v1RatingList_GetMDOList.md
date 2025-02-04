@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=et
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Breitenberg, Hills and Flatley",
-    "ToolTip": "Rerum et fuga sunt asperiores neque nihil.",
+    "Id": 176,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Dolore nisi.",
     "Deleted": false,
-    "Rank": 696,
-    "Type": "assumenda",
+    "Rank": 395,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Donnelly, Walker and Christiansen",
-        "ToolTip": "Architecto voluptate nisi quibusdam nobis.",
+        "Id": 287,
+        "Name": "Heaney-Goodwin",
+        "ToolTip": "Architecto blanditiis consequatur quasi eius.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "sit",
+        "Rank": 523,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloribus",
-        "ColorBlock": 43,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "excepturi",
-        "FullName": "Ms. Tremaine Esther Nikolaus II",
+        "IconHint": "sed",
+        "ColorBlock": 462,
+        "ExtraInfo": "earum",
+        "StyleHint": "quibusdam",
+        "FullName": "Francis Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 21
+            "FieldLength": 542
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 839,
-    "ExtraInfo": "sint",
-    "StyleHint": "voluptatem",
-    "FullName": "Chelsea Crona",
+    "IconHint": "dolor",
+    "ColorBlock": 844,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "magni",
+    "FullName": "Miss Anabel Richie Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 327
       }
     }
   }

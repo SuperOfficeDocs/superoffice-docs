@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 941,
-  "Currency": "iste"
+  "QuoteConnectionId": 217,
+  "Currency": "numquam"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 317,
-    "ERPPriceListKey": "rerum",
-    "QuoteConnectionId": 792,
-    "Name": "Volkman-Haag",
-    "Description": "Polarised eco-centric superstructure",
-    "Currency": "eum",
-    "CurrencyName": "Gusikowski Group",
-    "ValidFrom": "2007-10-05T10:17:55.9415595+02:00",
-    "ValidTo": "2024-11-09T10:17:55.9415595+01:00",
+    "PriceListId": 814,
+    "ERPPriceListKey": "autem",
+    "QuoteConnectionId": 497,
+    "Name": "Jenkins Group",
+    "Description": "Diverse composite capacity",
+    "Currency": "magni",
+    "CurrencyName": "O'Hara LLC",
+    "ValidFrom": "1997-11-15T13:13:23.7425716+01:00",
+    "ValidTo": "2000-07-18T13:13:23.7425716+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 38
       }
     }
   }

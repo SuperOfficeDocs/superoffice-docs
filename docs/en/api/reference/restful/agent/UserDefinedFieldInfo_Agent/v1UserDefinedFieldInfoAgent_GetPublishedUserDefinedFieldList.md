@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 323,
-    "ColumnId": 913,
-    "FieldDefault": "quia",
-    "FieldHeight": 231,
-    "FieldLabel": "necessitatibus",
-    "FieldLeft": 574,
-    "FieldTop": 103,
+    "UDefFieldId": 937,
+    "ColumnId": 42,
+    "FieldDefault": "fuga",
+    "FieldHeight": 766,
+    "FieldLabel": "quisquam",
+    "FieldLeft": 425,
+    "FieldTop": 622,
     "FieldType": "Checkbox",
-    "FieldWidth": 546,
-    "FormatMask": "eos",
-    "HideLabel": true,
+    "FieldWidth": 160,
+    "FormatMask": "voluptatem",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 228,
-    "LabelLeft": 1001,
-    "LabelTop": 415,
-    "LabelWidth": 999,
-    "LastVersionId": 183,
-    "ListTableId": 496,
-    "IsMandatory": true,
+    "LabelHeight": 165,
+    "LabelLeft": 920,
+    "LabelTop": 585,
+    "LabelWidth": 796,
+    "LastVersionId": 749,
+    "ListTableId": 500,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 559,
-    "ProgId": "nihil",
+    "Page1LineNo": 184,
+    "ProgId": "nobis",
     "IsReadOnly": false,
-    "ShortLabel": "similique",
-    "TabOrder": 469,
-    "TextLength": 745,
-    "Tooltip": "commodi",
-    "UdefIdentity": 111,
-    "UDListDefinitionId": 583,
+    "ShortLabel": "necessitatibus",
+    "TabOrder": 868,
+    "TextLength": 526,
+    "Tooltip": "fugiat",
+    "UdefIdentity": 197,
+    "UDListDefinitionId": 636,
     "Justification": "Center",
-    "Version": 510,
-    "TemplateVariableName": "Yundt, Bradtke and Kovacek",
-    "HasBeenPublished": true,
-    "MdoListName": "Yundt, Krajcik and Anderson",
+    "Version": 648,
+    "TemplateVariableName": "Feest, Kub and Larkin",
+    "HasBeenPublished": false,
+    "MdoListName": "Quigley, Breitenberg and Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 926
       }
     }
   }

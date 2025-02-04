@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 941,
-  "TopicId": 766,
+  "ChatSessionId": 87,
+  "TopicId": 884,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "ad",
-  "CustomerName": "Bechtelar-Lakin",
-  "CustomerEmail": "cornelius_brown@johns.co.uk",
-  "CustomerPhone": "1-221-454-4851 x51898",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Rosenbaum, Kutch and Ratke",
+  "CustomerAlias": "dicta",
+  "CustomerHost": "sequi",
+  "CustomerName": "Borer, Larkin and Trantow",
+  "CustomerEmail": "antone_klein@reinger.biz",
+  "CustomerPhone": "(566)097-2163",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Lockman LLC",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "asperiores",
-  "WhenRequested": "2020-06-23T10:18:00.2386877+02:00",
-  "WhenStarted": "2005-10-25T10:18:00.2386877+02:00",
-  "WhenEnded": "1998-01-23T10:18:00.2386877+01:00",
-  "WhenIdle": "2007-11-05T10:18:00.2386877+01:00",
-  "WhenFetched": "2012-07-11T10:18:00.2386877+02:00",
-  "SessionKey": "maiores",
-  "InitialQueuePos": 115,
-  "AlertLevel": 123,
-  "Rank": 377,
+  "FirstMessage": "itaque",
+  "LastMessage": "consequatur",
+  "WhenRequested": "2023-10-21T13:13:31.4020561+02:00",
+  "WhenStarted": "2004-05-04T13:13:31.4020561+02:00",
+  "WhenEnded": "2024-02-26T13:13:31.4020561+01:00",
+  "WhenIdle": "2014-04-19T13:13:31.4020561+02:00",
+  "WhenFetched": "2018-11-07T13:13:31.4020561+01:00",
+  "SessionKey": "deleniti",
+  "InitialQueuePos": 162,
+  "AlertLevel": 724,
+  "Rank": 211,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 949,
+  "ChatbotIsActive": false,
+  "Rating": 394,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 136
     }
   }
 }

@@ -115,29 +115,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 719,
-  "Name": "Welch, Quitzon and King",
-  "Description": "Automated hybrid attitude",
-  "DefaultHeight": 965,
-  "DefaultWidth": 344,
+  "DashboardTileDefinitionId": 620,
+  "Name": "Grant-Rippin",
+  "Description": "Customer-focused leading edge project",
+  "DefaultHeight": 450,
+  "DefaultWidth": 138,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Durgan, Cole and Howe",
-  "SelectionId": 135,
+  "EntityName": "Stokes-Schaden",
+  "SelectionId": 864,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolores",
+  "CurrencyCode": "ea",
   "Measure": "Average",
-  "MeasureField": "blanditiis",
-  "SortBy": "corporis",
-  "LayoutConfig": "error",
-  "SecondarySelectionId": 48,
-  "MeasureByField": "non",
+  "MeasureField": "hic",
+  "SortBy": "deleniti",
+  "LayoutConfig": "praesentium",
+  "SecondarySelectionId": 489,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Stokes-Predovic"
+  "ProviderName": "Dietrich-Leffler"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 622,
-  "Name": "Auer LLC",
-  "Description": "Persevering national alliance",
-  "DefaultHeight": 523,
-  "DefaultWidth": 88,
+  "DashboardTileDefinitionId": 869,
+  "Name": "Labadie-Ankunding",
+  "Description": "Triple-buffered tangible knowledge user",
+  "DefaultHeight": 120,
+  "DefaultWidth": 179,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Simonis-Reichert",
-  "SelectionId": 50,
+  "EntityName": "Marks, Collins and Sanford",
+  "SelectionId": 574,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laudantium",
+  "CurrencyCode": "atque",
   "Measure": "Average",
-  "MeasureField": "modi",
-  "SortBy": "accusantium",
-  "LayoutConfig": "consequatur",
-  "SecondarySelectionId": 549,
-  "MeasureByField": "est",
+  "MeasureField": "delectus",
+  "SortBy": "vero",
+  "LayoutConfig": "eligendi",
+  "SecondarySelectionId": 717,
+  "MeasureByField": "vitae",
   "Usage": "Dashboard",
-  "ProviderName": "Daugherty, Wolf and Walsh",
+  "ProviderName": "Hamill-Funk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   },
   "_Links": {

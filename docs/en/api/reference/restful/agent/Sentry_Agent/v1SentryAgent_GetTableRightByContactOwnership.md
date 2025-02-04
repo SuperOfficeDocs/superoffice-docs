@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByContactOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gorczany, Waelchi and Marks",
-  "ContactId": 919
+  "TableName": "Ernser Group",
+  "ContactId": 215
 }
 ```
 

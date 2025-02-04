@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Sep 2006 10:18:00 G9T
+Last-Modified: Fri, 28 Aug 2009 13:13:32 G8T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Wed, 13 Sep 2006 10:18:00 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quisquam",
+  "SaleText": "beatae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Wed, 13 Sep 2006 10:18:00 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-01-19T10:18:00.5512142+01:00",
-  "Amount": 5290.192,
-  "SaleId": 367,
-  "Earning": 1535.6599999999999,
-  "EarningPercent": 9793.75,
-  "Heading": "veniam",
-  "Number": "404936",
-  "Probability": 929,
-  "CreatedDate": "2006-11-07T10:18:00.5512142+01:00",
-  "UpdatedDate": "2006-09-13T10:18:00.5512142+02:00",
+  "Saledate": "1999-10-30T13:13:32.1986842+02:00",
+  "Amount": 2171.862,
+  "SaleId": 764,
+  "Earning": 26432.156,
+  "EarningPercent": 5468.83,
+  "Heading": "praesentium",
+  "Number": "1146714",
+  "Probability": 172,
+  "CreatedDate": "2018-11-04T13:13:32.1986842+01:00",
+  "UpdatedDate": "2009-08-28T13:13:32.1986842+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 825,
+  "ActiveLinks": 103,
   "Links": [
     {
-      "EntityName": "Ritchie LLC",
-      "Id": 813,
-      "Description": "Horizontal systematic alliance",
-      "ExtraInfo": "est",
-      "LinkId": 35,
+      "EntityName": "Barrows LLC",
+      "Id": 435,
+      "Description": "Stand-alone analyzing productivity",
+      "ExtraInfo": "officia",
+      "LinkId": 376,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 58
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1999-08-05T13:13:32.1986842+02:00",
+  "Postit": "dolore",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2022-08-20T13:13:32.1986842+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Swaniawski-Wilderman",
+      "Comment": "quia",
+      "StakeholderRoleId": 657,
+      "CountryId": 430,
+      "PersonId": 29,
+      "EmailDescription": "verla.gerlach@dachbarton.ca",
+      "EmailId": 183,
+      "EmailAddress": "camille@prosacco.uk",
+      "PhoneId": 951,
+      "ContactName": "Dickens, Ebert and Ratke",
+      "ContactId": 905,
+      "SaleId": 435,
+      "Mrmrs": "unde",
+      "Firstname": "Daryl",
+      "MiddleName": "Botsford LLC",
+      "Lastname": "Bayer",
+      "SaleStakeholderId": 692,
+      "Rank": 70,
+      "Phone": "1-160-267-6222",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 529
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 980,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Yadira Dane McClure PhD",
+    "SuperOffice:2": "Willy Maggio"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "sit"
+  },
+  "CustomFields": {
+    "CustomFields1": "mollitia",
+    "CustomFields2": "non"
+  },
+  "PublishEventDate": "2002-02-11T13:13:32.1986842+01:00",
+  "PublishTo": "2000-11-20T13:13:32.1986842+01:00",
+  "PublishFrom": "2023-07-31T13:13:32.1986842+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 41,
+      "Visibility": "All",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 583
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2001-01-09T10:18:00.5512142+01:00",
-  "Postit": "accusantium",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2006-03-07T10:18:00.5512142+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "McKenzie, Mosciski and Reynolds",
-      "Comment": "qui",
-      "StakeholderRoleId": 322,
-      "CountryId": 815,
-      "PersonId": 535,
-      "EmailDescription": "holden.maggio@barrows.info",
-      "EmailId": 582,
-      "EmailAddress": "ursula.heller@carrollshields.info",
-      "PhoneId": 435,
-      "ContactName": "Bailey, Hand and Gibson",
-      "ContactId": 772,
-      "SaleId": 738,
-      "Mrmrs": "nostrum",
-      "Firstname": "Bonnie",
-      "MiddleName": "Kozey Group",
-      "Lastname": "Wolf",
-      "SaleStakeholderId": 338,
-      "Rank": 229,
-      "Phone": "1-364-789-1416",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 602,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Emory Romaguera",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "eius"
-  },
-  "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "omnis"
-  },
-  "PublishEventDate": "2023-05-09T10:18:00.5512142+02:00",
-  "PublishTo": "2001-12-15T10:18:00.5512142+01:00",
-  "PublishFrom": "2005-03-30T10:18:00.5512142+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 912,
-      "Visibility": "All",
-      "DisplayValue": "doloribus",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 846
         }
       }
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Wed, 13 Sep 2006 10:18:00 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldLength": 125
     }
   }
 }

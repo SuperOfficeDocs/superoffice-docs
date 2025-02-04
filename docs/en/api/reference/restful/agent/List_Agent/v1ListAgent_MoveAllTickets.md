@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/MoveAllTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketCategoryId": 933,
-  "ToTicketCategoryId": 98
+  "FromTicketCategoryId": 380,
+  "ToTicketCategoryId": 415
 }
 ```
 

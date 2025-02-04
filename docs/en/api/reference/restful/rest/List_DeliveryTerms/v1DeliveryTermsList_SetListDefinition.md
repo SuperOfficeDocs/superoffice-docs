@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Krajcik-Shields",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 691,
+  "Id": 150,
+  "Name": "Weimann LLC",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "Rank": 9,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Hamill Group",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 508,
+  "Id": 449,
+  "Name": "Waters Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 228,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 194
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda, Emmerich and McClure",
-    "Description": "Down-sized radical neural-net",
+    "Name": "Mosciski, Doyle and Johnston",
+    "Description": "Cross-group well-modulated concept",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 1000,
-        "Tooltip": "sed",
-        "CanAssign": false,
-        "Free": 189,
-        "InUse": 872,
+        "Unrestricted": true,
+        "Total": 439,
+        "Tooltip": "quos",
+        "CanAssign": true,
+        "Free": 136,
+        "InUse": 975,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 156,
-        "Name": "Berge Group",
-        "Description": "Virtual even-keeled focus group",
-        "PrerequisiteModuleName": "Little-Treutel",
-        "SortOrder": 521,
-        "ExtraFlags": 182,
+        "ModuleLicenseId": 703,
+        "Name": "Bosco, Satterfield and Mosciski",
+        "Description": "Digitized executive interface",
+        "PrerequisiteModuleName": "Cassin-Kling",
+        "SortOrder": 455,
+        "ExtraFlags": 131,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 328
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 844,
-        "Tooltip": "voluptas",
+        "Unrestricted": false,
+        "Total": 265,
+        "Tooltip": "doloremque",
         "CanAssign": false,
-        "Free": 866,
-        "InUse": 96,
+        "Free": 484,
+        "InUse": 839,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 529,
-        "Name": "Carroll-Koelpin",
-        "Description": "Fully-configurable client-driven open architecture",
-        "PrerequisiteModuleName": "Wisoky-Altenwerth",
-        "SortOrder": 255,
-        "ExtraFlags": 613,
+        "Assigned": false,
+        "ModuleLicenseId": 92,
+        "Name": "Klein-Carter",
+        "Description": "Universal neutral moderator",
+        "PrerequisiteModuleName": "Leuschke-Rowe",
+        "SortOrder": 814,
+        "ExtraFlags": 700,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 846
           }
         }
       }
@@ -140,61 +140,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 275
       }
     }
   },
   {
-    "Name": "Blanda, Emmerich and McClure",
-    "Description": "Down-sized radical neural-net",
+    "Name": "Mosciski, Doyle and Johnston",
+    "Description": "Cross-group well-modulated concept",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 1000,
-        "Tooltip": "sed",
-        "CanAssign": false,
-        "Free": 189,
-        "InUse": 872,
+        "Unrestricted": true,
+        "Total": 439,
+        "Tooltip": "quos",
+        "CanAssign": true,
+        "Free": 136,
+        "InUse": 975,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 156,
-        "Name": "Berge Group",
-        "Description": "Virtual even-keeled focus group",
-        "PrerequisiteModuleName": "Little-Treutel",
-        "SortOrder": 521,
-        "ExtraFlags": 182,
+        "ModuleLicenseId": 703,
+        "Name": "Bosco, Satterfield and Mosciski",
+        "Description": "Digitized executive interface",
+        "PrerequisiteModuleName": "Cassin-Kling",
+        "SortOrder": 455,
+        "ExtraFlags": 131,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 328
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 844,
-        "Tooltip": "voluptas",
+        "Unrestricted": false,
+        "Total": 265,
+        "Tooltip": "doloremque",
         "CanAssign": false,
-        "Free": 866,
-        "InUse": 96,
+        "Free": 484,
+        "InUse": 839,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 529,
-        "Name": "Carroll-Koelpin",
-        "Description": "Fully-configurable client-driven open architecture",
-        "PrerequisiteModuleName": "Wisoky-Altenwerth",
-        "SortOrder": 255,
-        "ExtraFlags": 613,
+        "Assigned": false,
+        "ModuleLicenseId": 92,
+        "Name": "Klein-Carter",
+        "Description": "Universal neutral moderator",
+        "PrerequisiteModuleName": "Leuschke-Rowe",
+        "SortOrder": 814,
+        "ExtraFlags": 700,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 846
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 275
       }
     }
   }

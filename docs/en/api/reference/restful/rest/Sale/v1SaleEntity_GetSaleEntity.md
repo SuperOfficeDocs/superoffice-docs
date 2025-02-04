@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 20 Nov 2013 10:18:00 G11T
+Last-Modified: Fri, 29 Dec 2006 13:13:32 G12T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Wed, 20 Nov 2013 10:18:00 G11T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "officiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Wed, 20 Nov 2013 10:18:00 G11T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-10-04T10:18:00.6762151+02:00",
-  "Amount": 9486.618,
-  "SaleId": 139,
-  "Earning": 7916.4839999999995,
-  "EarningPercent": 22862.53,
-  "Heading": "veniam",
-  "Number": "1022142",
-  "Probability": 120,
-  "CreatedDate": "2019-08-08T10:18:00.6762151+02:00",
-  "UpdatedDate": "2013-11-20T10:18:00.6762151+01:00",
+  "Saledate": "2016-02-05T13:13:32.2455472+01:00",
+  "Amount": 9455.278,
+  "SaleId": 474,
+  "Earning": 372.94599999999997,
+  "EarningPercent": 6550.0599999999995,
+  "Heading": "deleniti",
+  "Number": "1360271",
+  "Probability": 22,
+  "CreatedDate": "2011-05-22T13:13:32.2455472+02:00",
+  "UpdatedDate": "2006-12-29T13:13:32.2455472+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 33,
+  "ActiveLinks": 645,
   "Links": [
     {
-      "EntityName": "Zemlak-Schoen",
-      "Id": 766,
-      "Description": "Upgradable next generation forecast",
-      "ExtraInfo": "aut",
-      "LinkId": 526,
+      "EntityName": "Armstrong, Streich and Yundt",
+      "Id": 776,
+      "Description": "Polarised intangible access",
+      "ExtraInfo": "et",
+      "LinkId": 300,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 839
         }
       }
     }
   ],
-  "NextDueDate": "2012-01-11T10:18:00.6762151+01:00",
-  "Postit": "placeat",
+  "NextDueDate": "2018-03-04T13:13:32.2455472+01:00",
+  "Postit": "atque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-07-12T10:18:00.6762151+02:00",
+  "ReopenDate": "2008-07-15T13:13:32.2455472+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jacobs-Streich",
-      "Comment": "eligendi",
-      "StakeholderRoleId": 267,
-      "CountryId": 933,
-      "PersonId": 902,
-      "EmailDescription": "mitchell@hartmannklein.us",
-      "EmailId": 665,
-      "EmailAddress": "josefa_connelly@schultz.biz",
-      "PhoneId": 183,
-      "ContactName": "Rosenbaum Group",
-      "ContactId": 920,
-      "SaleId": 6,
-      "Mrmrs": "adipisci",
-      "Firstname": "Shawn",
-      "MiddleName": "Yundt, Eichmann and Zemlak",
-      "Lastname": "Parisian",
-      "SaleStakeholderId": 425,
-      "Rank": 701,
-      "Phone": "101.925.4515 x981",
+      "StakeholderRoleName": "Hegmann, Jerde and Gutkowski",
+      "Comment": "aspernatur",
+      "StakeholderRoleId": 630,
+      "CountryId": 263,
+      "PersonId": 238,
+      "EmailDescription": "cornell.kihn@gibson.uk",
+      "EmailId": 985,
+      "EmailAddress": "krystel_king@koss.co.uk",
+      "PhoneId": 35,
+      "ContactName": "Konopelski LLC",
+      "ContactId": 203,
+      "SaleId": 679,
+      "Mrmrs": "veritatis",
+      "Firstname": "Cornell",
+      "MiddleName": "Ward, Ledner and Rogahn",
+      "Lastname": "Welch",
+      "SaleStakeholderId": 567,
+      "Rank": 407,
+      "Phone": "(050)393-9001 x18069",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 562
         }
       }
     }
   ],
-  "ActiveErpLinks": 270,
+  "ActiveErpLinks": 403,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Gordon Marianne McClure IV",
-    "SuperOffice:2": "Mrs. Armando Rosendo Gaylord"
+    "SuperOffice:1": "Adeline Braun",
+    "SuperOffice:2": "1870530701"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "2008-06-18T10:18:00.6762151+02:00",
-  "PublishTo": "2015-09-20T10:18:00.6762151+02:00",
-  "PublishFrom": "2024-08-22T10:18:00.6762151+02:00",
+  "PublishEventDate": "2020-08-18T13:13:32.2455472+02:00",
+  "PublishTo": "2016-01-20T13:13:32.2455472+01:00",
+  "PublishFrom": "2024-05-17T13:13:32.2455472+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 772,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 211
         }
       }
     },
     {
-      "VisibleId": 772,
+      "VisibleId": 818,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldLength": 211
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Wed, 20 Nov 2013 10:18:00 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 43
     }
   },
   "_Links": {

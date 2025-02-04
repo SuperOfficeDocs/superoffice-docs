@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schumm Inc and Sons",
-  "ListItemId": 364,
+  "UdListDefinitionName": "Wilkinson, Daugherty and Hintz",
+  "ListItemId": 818,
   "UserGroups": [
     {
-      "Id": 442,
-      "Name": "Kub Group",
-      "ToolTip": "Voluptatem itaque esse cupiditate id.",
-      "Deleted": true,
-      "Rank": 727,
-      "Type": "beatae",
-      "ColorBlock": 406,
-      "IconHint": "molestiae",
+      "Id": 719,
+      "Name": "Larkin-Rogahn",
+      "ToolTip": "Aut odio illo iure sed tenetur quod.",
+      "Deleted": false,
+      "Rank": 831,
+      "Type": "eos",
+      "ColorBlock": 830,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2019-10-04T10:17:55.7071691+02:00",
+      "LastChanged": "2016-02-18T13:13:23.2583064+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "officiis",
-      "Hidden": false,
-      "FullName": "Hardy Lea Deckow II"
+      "ExtraInfo": "cumque",
+      "StyleHint": "odio",
+      "Hidden": true,
+      "FullName": "Tiara Lehner"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Wisozk, Auer and Stokes",
-    "ToolTip": "Quae quidem cupiditate qui.",
+    "Id": 104,
+    "Name": "Cartwright-Zemlak",
+    "ToolTip": "Voluptatem sint sint veritatis suscipit quia.",
     "Deleted": false,
-    "Rank": 325,
-    "Type": "assumenda",
-    "ColorBlock": 916,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "1997-10-14T10:17:55.7071691+02:00",
+    "Rank": 52,
+    "Type": "id",
+    "ColorBlock": 902,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2010-02-09T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Heidenreich, Spencer and Lang",
-        "ToolTip": "Et autem et aliquam possimus quia cumque corrupti.",
+        "Id": 566,
+        "Name": "Schultz LLC",
+        "ToolTip": "Nihil beatae explicabo occaecati tempore saepe deleniti quo.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "aut",
-        "ColorBlock": 76,
-        "IconHint": "sit",
+        "Rank": 747,
+        "Type": "quas",
+        "ColorBlock": 402,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2001-03-16T10:17:55.7071691+01:00",
+        "LastChanged": "1998-02-11T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Magnus Curt Hyatt II",
+        "FullName": "Leif Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 535
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "error",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Miss Harmon Kassulke Sr.",
+    "FullName": "Myrna Marjory O'Conner PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 431
+        "FieldType": "System.Int32",
+        "FieldLength": 417
       }
     }
   }

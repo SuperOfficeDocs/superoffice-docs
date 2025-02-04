@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Armstrong-Botsford",
-    "ToolTip": "Mollitia deleniti id officia labore.",
+    "Id": 241,
+    "Name": "Mayer-Nitzsche",
+    "ToolTip": "Sed quia cupiditate.",
     "Deleted": false,
-    "Rank": 187,
-    "Type": "aut",
-    "ColorBlock": 488,
-    "IconHint": "nam",
+    "Rank": 450,
+    "Type": "sint",
+    "ColorBlock": 820,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2011-11-29T10:18:00.926237+01:00",
+    "LastChanged": "2010-12-14T13:13:32.7768241+01:00",
     "ChildItems": [
       {
-        "Id": 887,
-        "Name": "Robel-Gerlach",
-        "ToolTip": "At quam dignissimos soluta.",
+        "Id": 32,
+        "Name": "Okuneva Inc and Sons",
+        "ToolTip": "Alias mollitia qui iusto error.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "quae",
-        "ColorBlock": 252,
-        "IconHint": "asperiores",
+        "Rank": 800,
+        "Type": "sit",
+        "ColorBlock": 102,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2004-05-16T10:18:00.926237+02:00",
+        "LastChanged": "2015-09-28T13:13:32.7768241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "laudantium",
-        "Hidden": true,
-        "FullName": "Edyth Pollich II",
+        "ExtraInfo": "veniam",
+        "StyleHint": "consectetur",
+        "Hidden": false,
+        "FullName": "Gerhard Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "et",
+    "ExtraInfo": "dolore",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Alex Angus Klocko DVM",
+    "FullName": "Ruthe Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 987
       }
     }
   }

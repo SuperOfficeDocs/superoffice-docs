@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Pfannerstill, Hilll and Walsh",
-  "ParameterName": "Beer-Schamberger"
+  "LayoutName": "McGlynn, Doyle and Collins",
+  "ParameterName": "O'Keefe-Ritchie"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"numquam"
+"alias"
 ```

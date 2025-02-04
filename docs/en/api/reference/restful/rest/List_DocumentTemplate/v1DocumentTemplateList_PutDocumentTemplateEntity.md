@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 451,
-  "Name": "Torphy LLC",
-  "Tooltip": "nam",
-  "SaveInDb": 571,
-  "Filename": "eligendi",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 224,
+  "Name": "Lueilwitz Group",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 730,
+  "Filename": "non",
+  "DefaultOref": "sint",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 732,
-  "IntentId": 761,
+  "AutoeventId": 685,
+  "IntentId": 148,
   "IsDefaultPublished": true,
-  "Rank": 897,
-  "LoadTemplateFromPlugin": 669,
-  "MimeType": "corrupti",
+  "Rank": 67,
+  "LoadTemplateFromPlugin": 271,
+  "MimeType": "dignissimos",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 14,
+  "DocumentTypeKey": 355,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dwight.ledner@hermann.uk",
+  "EmailSubject": "tremaine_bechtelar@vandervortgerlach.name",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "antonetta@haagveum.info",
+  "SenderEmailAddress": "mozell@willmskuhlman.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 556,
-  "Name": "Bauch-Yundt",
-  "Tooltip": "quod",
-  "SaveInDb": 910,
-  "Filename": "fuga",
-  "DefaultOref": "nulla",
+  "DocumentTemplateId": 758,
+  "Name": "Bergstrom-Stamm",
+  "Tooltip": "et",
+  "SaveInDb": 595,
+  "Filename": "et",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 268,
-  "IntentId": 911,
+  "AutoeventId": 463,
+  "IntentId": 574,
   "IsDefaultPublished": false,
-  "Rank": 924,
-  "LoadTemplateFromPlugin": 877,
-  "MimeType": "itaque",
+  "Rank": 478,
+  "LoadTemplateFromPlugin": 679,
+  "MimeType": "ratione",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 276,
+  "DocumentTypeKey": 447,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rasheed_herzog@johnson.us",
+  "EmailSubject": "abby.gerlach@krajcik.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nora_rath@stoltenbergweber.com",
+  "SenderEmailAddress": "jarvis.ferry@johns.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 15
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   }
 }

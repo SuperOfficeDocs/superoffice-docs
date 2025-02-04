@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 850,
-  "ColumnId": 662,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 12,
-  "FieldLabel": "est",
-  "FieldLeft": 480,
-  "FieldTop": 456,
+  "UDefFieldId": 338,
+  "ColumnId": 159,
+  "FieldDefault": "quia",
+  "FieldHeight": 198,
+  "FieldLabel": "culpa",
+  "FieldLeft": 939,
+  "FieldTop": 739,
   "FieldType": "Checkbox",
-  "FieldWidth": 752,
-  "FormatMask": "modi",
+  "FieldWidth": 431,
+  "FormatMask": "repellat",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 455,
-  "LabelLeft": 37,
-  "LabelTop": 997,
-  "LabelWidth": 709,
-  "LastVersionId": 361,
-  "ListTableId": 978,
+  "IsIndexed": false,
+  "LabelHeight": 793,
+  "LabelLeft": 142,
+  "LabelTop": 417,
+  "LabelWidth": 489,
+  "LastVersionId": 988,
+  "ListTableId": 98,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 276,
-  "ProgId": "velit",
+  "Page1LineNo": 819,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 540,
-  "TextLength": 61,
-  "Tooltip": "sed",
-  "UdefIdentity": 584,
-  "UDListDefinitionId": 442,
+  "ShortLabel": "et",
+  "TabOrder": 851,
+  "TextLength": 210,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 875,
+  "UDListDefinitionId": 993,
   "Justification": "Center",
-  "Version": 30,
-  "TemplateVariableName": "Miller, Luettgen and Schoen",
-  "HasBeenPublished": false,
-  "MdoListName": "Turner, Lebsack and O'Hara",
+  "Version": 415,
+  "TemplateVariableName": "Renner-O'Keefe",
+  "HasBeenPublished": true,
+  "MdoListName": "Rath, Turner and Schamberger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

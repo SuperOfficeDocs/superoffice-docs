@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Reinger Group",
-      "Description": "Persistent interactive focus group",
-      "Rank": 970,
+      "Name": "Swift-Mohr",
+      "Description": "Reactive 24 hour emulation",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Reinger Group",
-      "Description": "Persistent interactive focus group",
-      "Rank": 970,
+      "Name": "Swift-Mohr",
+      "Description": "Reactive 24 hour emulation",
+      "Rank": 736,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 389
     }
   }
 }

@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 475,
-  "Name": "Lemke Inc and Sons",
+  "WebhookId": 545,
+  "Name": "Dare-Boehm",
   "Events": [
-    "fugiat",
-    "et"
+    "voluptatum",
+    "officia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "soluta",
+  "Secret": "consequatur",
   "State": "Active",
-  "Type": "est",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "maxime",
-    "Headers2": "tenetur"
+    "Headers1": "dolorum",
+    "Headers2": "culpa"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1999-04-10T10:18:00.910611+02:00",
+  "Registered": "2024-08-21T13:13:32.7611997+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-06-03T10:18:00.910611+02:00",
+  "Updated": "1998-04-24T13:13:32.7611997+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "garfield.mcclure@streich.us"
+  "ErrorsEmail": "daniela_kris@lind.co.uk"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 417,
-  "Name": "Beahan, Swift and Gleason",
+  "WebhookId": 241,
+  "Name": "Williamson, Windler and Bins",
   "Events": [
-    "alias",
-    "eius"
+    "et",
+    "optio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "numquam",
+  "Secret": "aliquid",
   "State": "Active",
-  "Type": "vitae",
+  "Type": "soluta",
   "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "earum"
+    "Headers1": "quae",
+    "Headers2": "iusto"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-08-18T10:18:00.910611+02:00",
+  "Registered": "2013-11-06T13:13:32.7611997+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-07-08T10:18:00.910611+02:00",
+  "Updated": "2019-02-10T13:13:32.7611997+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "dashawn_kohler@russeldurgan.ca",
+  "ErrorsEmail": "leanne.mante@becker.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

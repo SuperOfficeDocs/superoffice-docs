@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 18,
-  "PlainMessage": "doloremque",
-  "HtmlMessage": "voluptatem",
-  "SmsMessage": "libero",
-  "Description": "Future-proofed executive success",
-  "Subject": "velit",
-  "FolderId": 491,
-  "HeaderField": "consequuntur",
-  "Design": "non",
+  "ShipmentMessageId": 978,
+  "PlainMessage": "assumenda",
+  "HtmlMessage": "occaecati",
+  "SmsMessage": "odit",
+  "Description": "Secured mission-critical success",
+  "Subject": "et",
+  "FolderId": 699,
+  "HeaderField": "harum",
+  "Design": "dolore",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Stand-alone system-worthy matrices",
-  "AccessKey": "non",
-  "DocumentMessage": 602,
-  "Registered": "2009-03-22T10:18:00.723098+01:00",
-  "RegisteredAssociateId": 198,
-  "Updated": "2010-04-22T10:18:00.723098+02:00",
-  "UpdatedAssociateId": 541,
-  "UpdatedCount": 61
+  "InlineImages": false,
+  "LongDescription": "Re-contextualized attitude-oriented neural-net",
+  "AccessKey": "quam",
+  "DocumentMessage": 944,
+  "Registered": "2007-11-12T13:13:32.3392746+01:00",
+  "RegisteredAssociateId": 584,
+  "Updated": "1997-10-27T13:13:32.3392746+01:00",
+  "UpdatedAssociateId": 142,
+  "UpdatedCount": 782
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 437,
-  "PlainMessage": "qui",
-  "HtmlMessage": "nam",
-  "SmsMessage": "nostrum",
-  "Description": "Extended 24/7 frame",
-  "Subject": "necessitatibus",
-  "FolderId": 844,
-  "HeaderField": "quasi",
-  "Design": "qui",
+  "ShipmentMessageId": 146,
+  "PlainMessage": "tempora",
+  "HtmlMessage": "exercitationem",
+  "SmsMessage": "pariatur",
+  "Description": "Persistent zero defect service-desk",
+  "Subject": "quae",
+  "FolderId": 500,
+  "HeaderField": "ut",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Progressive uniform structure",
-  "AccessKey": "perspiciatis",
-  "DocumentMessage": 978,
-  "Registered": "2000-06-26T10:18:00.723098+02:00",
-  "RegisteredAssociateId": 209,
-  "Updated": "2003-10-10T10:18:00.723098+02:00",
-  "UpdatedAssociateId": 497,
-  "UpdatedCount": 553,
+  "LongDescription": "User-centric exuding alliance",
+  "AccessKey": "similique",
+  "DocumentMessage": 599,
+  "Registered": "2015-11-24T13:13:32.3392746+01:00",
+  "RegisteredAssociateId": 591,
+  "Updated": "2022-02-25T13:13:32.3392746+01:00",
+  "UpdatedAssociateId": 259,
+  "UpdatedCount": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 16
     }
   },
   "_Links": {

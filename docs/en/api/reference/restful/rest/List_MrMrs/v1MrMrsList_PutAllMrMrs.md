@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Kertzmann Group",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "UdListDefinitionId": 906,
-    "Rank": 55
+    "Id": 130,
+    "Name": "Dare-Flatley",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 822,
+    "Rank": 240
   },
   {
-    "Id": 49,
-    "Name": "Kertzmann Group",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "UdListDefinitionId": 906,
-    "Rank": 55
+    "Id": 130,
+    "Name": "Dare-Flatley",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 822,
+    "Rank": 240
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "Weber, Keebler and Terry",
-    "Tooltip": "occaecati",
-    "Deleted": false,
-    "UdListDefinitionId": 994,
-    "Rank": 295,
+    "Id": 774,
+    "Name": "Paucek Inc and Sons",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "UdListDefinitionId": 168,
+    "Rank": 430,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 643
       }
     }
   }

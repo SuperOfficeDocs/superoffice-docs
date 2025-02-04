@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 466,
-    "Name": "Hartmann-Oberbrunner",
-    "Description": "Streamlined contextually-based artificial intelligence",
-    "DeltaJson": "quis",
+    "ConfigurableScreenDeltaId": 1001,
+    "Name": "Jaskolski, Runolfsdottir and Macejkovic",
+    "Description": "Proactive bifurcated extranet",
+    "DeltaJson": "laudantium",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "itaque",
-    "UpdatedDate": "2021-07-15T10:17:55.2227659+02:00",
-    "CreatedDate": "2018-12-14T10:17:55.2227659+01:00",
+    "RecipeId": "ipsa",
+    "UpdatedDate": "2017-03-08T13:13:22.3364082+01:00",
+    "CreatedDate": "2021-05-29T13:13:22.3364082+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      502,
-      996
+      67,
+      612
     ],
-    "AppliesToKey": "veritatis",
+    "AppliesToKey": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 84
       }
     }
   }

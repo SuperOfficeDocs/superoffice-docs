@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "non",
-      "Key": "ipsum"
+      "Section": "ad",
+      "Key": "quia"
     },
     {
-      "Section": "non",
-      "Key": "ipsum"
+      "Section": "ad",
+      "Key": "quia"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "sunt",
+    "RawValue": "molestiae",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "ducimus",
+    "DisplayValue": "maiores",
+    "DisplayTooltip": "maxime",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 48,
-    "PrefDescId": 4,
-    "TableName": "Kuhic LLC",
-    "UserPreferenceId": 28,
+    "TargetId": 596,
+    "PrefDescId": 324,
+    "TableName": "McCullough Group",
+    "UserPreferenceId": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

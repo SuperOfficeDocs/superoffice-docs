@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 373,
-  "ColumnId": 628,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 283,
-  "FieldLabel": "esse",
-  "FieldLeft": 250,
-  "FieldTop": 799,
+  "UDefFieldId": 665,
+  "ColumnId": 189,
+  "FieldDefault": "dignissimos",
+  "FieldHeight": 738,
+  "FieldLabel": "accusamus",
+  "FieldLeft": 790,
+  "FieldTop": 279,
   "FieldType": "Checkbox",
-  "FieldWidth": 636,
-  "FormatMask": "voluptas",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 342,
-  "LabelLeft": 331,
-  "LabelTop": 295,
-  "LabelWidth": 64,
-  "LastVersionId": 10,
-  "ListTableId": 819,
-  "IsMandatory": true,
+  "FieldWidth": 905,
+  "FormatMask": "expedita",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 696,
+  "LabelLeft": 640,
+  "LabelTop": 813,
+  "LabelWidth": 223,
+  "LastVersionId": 53,
+  "ListTableId": 791,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 740,
-  "ProgId": "ut",
+  "Page1LineNo": 92,
+  "ProgId": "explicabo",
   "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 14,
-  "TextLength": 229,
-  "Tooltip": "laborum",
-  "UdefIdentity": 380,
-  "UDListDefinitionId": 913,
+  "ShortLabel": "cumque",
+  "TabOrder": 773,
+  "TextLength": 232,
+  "Tooltip": "molestiae",
+  "UdefIdentity": 884,
+  "UDListDefinitionId": 57,
   "Justification": "Center",
-  "Version": 324,
-  "TemplateVariableName": "Stoltenberg-Schaden",
+  "Version": 143,
+  "TemplateVariableName": "Harvey-White",
   "HasBeenPublished": false,
-  "MdoListName": "Sauer-Schowalter",
+  "MdoListName": "Lang, Corkery and Wolff",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

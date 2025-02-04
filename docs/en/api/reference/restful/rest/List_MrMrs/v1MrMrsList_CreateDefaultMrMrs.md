@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Kuphal-Bradtke",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "UdListDefinitionId": 620,
-  "Rank": 390,
+  "Id": 141,
+  "Name": "Deckow, Fahey and Fadel",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "UdListDefinitionId": 108,
+  "Rank": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 32
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   }
 }

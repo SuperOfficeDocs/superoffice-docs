@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 516,
-    "Name": "Koepp-Rosenbaum",
-    "ToolTip": "Et veritatis accusamus consequuntur aut.",
+    "Id": 843,
+    "Name": "Veum, Waters and Herzog",
+    "ToolTip": "Repellat voluptas cumque qui sint exercitationem aut eveniet.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "qui",
-    "ColorBlock": 431,
-    "IconHint": "magni",
+    "Rank": 466,
+    "Type": "saepe",
+    "ColorBlock": 454,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2011-07-24T10:18:00.9574888+02:00",
+    "LastChanged": "1998-08-01T13:13:32.8861799+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Yundt-O'Reilly",
-        "ToolTip": "Quia expedita nesciunt laboriosam est qui dolor et.",
-        "Deleted": false,
-        "Rank": 121,
-        "Type": "fugit",
-        "ColorBlock": 137,
-        "IconHint": "totam",
+        "Id": 585,
+        "Name": "Schulist, Wisoky and Smith",
+        "ToolTip": "Atque consequuntur.",
+        "Deleted": true,
+        "Rank": 365,
+        "Type": "repellat",
+        "ColorBlock": 76,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2002-01-10T10:18:00.9574888+01:00",
+        "LastChanged": "2012-03-27T13:13:32.8861799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ab",
+        "ExtraInfo": "est",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Mr. Stanford Mills IV",
+        "FullName": "Mazie Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldType": "System.String",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Ms. Rae Jana Wehner",
+    "ExtraInfo": "facere",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Omer Ardella Quitzon V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

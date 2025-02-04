@@ -470,6 +470,8 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
+|selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 |linkClicked/linkId|int|Link ID: Link ID|  |
 |linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
@@ -500,12 +502,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime|datetime|Sending time: When the message was sent| x |
-|workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last email status: Status of mailing recipient| x |
+|workflowInstance/workflowInstanceLastCommunicationStatus|listAny|Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy|associate|Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |workflowInstance/registeredBy|associate|Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|workflowInstance/emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|workflowInstance/emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |workflowInstance/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -535,12 +537,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |chatSession/whenEnded|datetime|Chat ended: When did this chat end?| x |
 |chatSession/duration|timeSpan|Duration: The duration of the chat session|  |
 |chatSession/timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
-|chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
-|chatSession/rating|int|Rating: Rating of chat session| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|chatSession/queueLength|int|Queue length: Queue length when the session was requested| x |
+|chatSession/rating|int|Rating: Rating of chat session| x |
 |chatSession/agent|ejUser|Agent: The agent of the chat| x |
 |chatSession/status|listAny|Status: Status for the chat session| x |
 |chatSession/icon| *None* |Category: Displays the icon for an activity type| x |
@@ -639,12 +641,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
-|request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
+|request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
 |request/createdBy/otherGroups|userGroup|Created by - Other groups: Other groups|  |
 |request/createdBy/userName|string|Created by - User name: User name| x |
@@ -743,12 +745,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/associateDbId|associate|ID| x |
 |projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
 |projectMembers/projectAssociate/role|listAny|Role : Role| x |
 |projectMembers/projectAssociate/assocName|associate|User ID : User ID| x |
@@ -847,12 +849,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/visibleFor|listAny|Visible for|  |
 |personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |personAppointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |personAppointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
@@ -951,12 +953,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -1055,12 +1057,12 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
 |sale/quote/version/alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
 |sale/quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
-|sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
-|sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
+|sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
 |sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
@@ -1105,7 +1107,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=isStakeholder,personSourceRelation/personAssociateFullName,personTargetRelation/whenUpdatedByWorkflow,personAssociate/firstName,personAssociate/isActiveText
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/personCountryId,postAddress/formattedAddress,workflowInstance/emailFlow/thumbnail,request/createdBy/contactCategory,request/ownedBy/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

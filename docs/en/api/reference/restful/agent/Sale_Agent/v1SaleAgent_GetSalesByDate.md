@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2014-03-16T10:17:56.0040633+01:00",
-  "ToDate": "2021-09-27T10:17:56.0040633+02:00",
-  "AmountLimit": 931,
+  "FromDate": "2003-10-26T13:13:23.8729256+01:00",
+  "ToDate": "2005-01-03T13:13:23.8729256+01:00",
+  "AmountLimit": 983,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Morar-Nicolas",
-    "SaleDate": "2004-11-29T10:17:56.0040633+01:00",
-    "SaleId": 162,
-    "Probability": 858,
-    "Title": "praesentium",
-    "Amount": 11144.503999999999,
-    "Currency": "vero",
-    "ProjectName": "Sipes, Hackett and Franecki",
-    "AssociateFullName": "Dayton Ullrich",
-    "Description": "Re-contextualized well-modulated infrastructure",
+    "ContactName": "McLaughlin-Russel",
+    "SaleDate": "2022-08-12T13:13:23.8839994+02:00",
+    "SaleId": 183,
+    "Probability": 825,
+    "Title": "nulla",
+    "Amount": 19051.586,
+    "Currency": "error",
+    "ProjectName": "Johns-Wiza",
+    "AssociateFullName": "Joshuah Mann",
+    "Description": "Integrated systematic infrastructure",
     "Status": "Lost",
-    "WeightedAmount": 2770.456,
-    "ProjectId": 813,
-    "EarningPercent": 21634.002,
-    "Earning": 2604.354,
-    "ContactId": 995,
-    "AssociateId": 734,
-    "PersonId": 942,
-    "SaleTypeId": 800,
-    "SaleTypeName": "Dach Group",
-    "PersonFullName": "Dr. Annamae Stacey Beahan",
+    "WeightedAmount": 14485.348,
+    "ProjectId": 706,
+    "EarningPercent": 12203.796,
+    "Earning": 2027.6979999999999,
+    "ContactId": 920,
+    "AssociateId": 716,
+    "PersonId": 202,
+    "SaleTypeId": 582,
+    "SaleTypeName": "Hilll LLC",
+    "PersonFullName": "Millie Eldridge Ankunding PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 829,
-    "NextDueDate": "2016-07-20T10:17:56.0040633+02:00",
-    "Number": "1391255",
+    "ActiveErpLinks": 198,
+    "NextDueDate": "2010-01-10T13:13:23.8839994+01:00",
+    "Number": "1194790",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 575
       }
     }
   }

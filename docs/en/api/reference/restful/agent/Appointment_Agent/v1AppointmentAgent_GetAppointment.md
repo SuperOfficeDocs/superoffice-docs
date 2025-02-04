@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=466
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=150
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 558,
-  "StartDate": "2000-12-11T10:17:54.9727508+01:00",
-  "EndDate": "2004-01-25T10:17:54.9727508+01:00",
+  "AppointmentId": 429,
+  "StartDate": "2016-07-18T13:13:21.8052748+02:00",
+  "EndDate": "2022-11-02T13:13:21.8052748+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quidem",
-  "AssociateFullName": "Bartholome Koch",
-  "ContactName": "Reinger Inc and Sons",
-  "Description": "Cloned mobile circuit",
-  "PersonFullName": "Harvey Bogan",
-  "PersonId": 263,
-  "ContactId": 1000,
-  "ProjectId": 874,
-  "ProjectName": "Conn-Torp",
-  "IsPublished": true,
-  "AssociateId": 65,
-  "ColorIndex": 261,
-  "IsFree": false,
+  "Task": "perferendis",
+  "AssociateFullName": "Walter Bradtke",
+  "ContactName": "McDermott, Walsh and O'Conner",
+  "Description": "Team-oriented context-sensitive ability",
+  "PersonFullName": "Muriel Bernhard PhD",
+  "PersonId": 735,
+  "ContactId": 126,
+  "ProjectId": 282,
+  "ProjectName": "Ledner Inc and Sons",
+  "IsPublished": false,
+  "AssociateId": 675,
+  "ColorIndex": 730,
+  "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 455,
-  "PriorityName": "Schmitt Group",
+  "PriorityId": 594,
+  "PriorityName": "Witting, Lind and Luettgen",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": true,
+  "IsBookingMain": false,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2022-03-10T10:17:54.9727508+01:00",
+  "ActiveDate": "2012-10-12T13:13:21.8052748+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2006-01-16T10:17:54.9727508+01:00",
-  "RecurringEndDate": "2012-12-12T10:17:54.9727508+01:00",
-  "MotherId": 49,
-  "AssignedBy": 603,
-  "AssignedByFullName": "Antwan Bettye Kertzmann Sr.",
+  "RecurringStartDate": "2022-01-27T13:13:21.8052748+01:00",
+  "RecurringEndDate": "2016-02-13T13:13:21.8052748+01:00",
+  "MotherId": 470,
+  "AssignedBy": 974,
+  "AssignedByFullName": "Oma Schuster",
   "RejectReason": "",
-  "Location": "voluptates",
-  "AlarmLeadTime": "accusamus",
-  "SaleId": 800,
-  "SaleName": "Russel-Carroll",
-  "AssociateName": "Labadie Group",
-  "CreatedDate": "2017-12-29T10:17:54.9727508+01:00",
-  "CreatedBy": "ipsam",
-  "CreatedByFullName": "Prof. Brian Carlee Thompson",
-  "CreatedByAssociateId": 823,
+  "Location": "sed",
+  "AlarmLeadTime": "commodi",
+  "SaleId": 288,
+  "SaleName": "Leannon LLC",
+  "AssociateName": "King Inc and Sons",
+  "CreatedDate": "2016-03-03T13:13:21.8052748+01:00",
+  "CreatedBy": "veritatis",
+  "CreatedByFullName": "Mr. Darrell Damian Ritchie",
+  "CreatedByAssociateId": 373,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 185,
-  "Title": "ducimus",
-  "Agenda": "ut",
-  "InternalNotes": "et",
+  "PreferredTZLocation": 737,
+  "Title": "ipsam",
+  "Agenda": "numquam",
+  "InternalNotes": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

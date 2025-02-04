@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 766,
-  "ListItemId": 750,
+  "UdListDefinitionId": 948,
+  "ListItemId": 225,
   "UserGroups": [
     {
-      "Id": 339,
-      "Name": "Padberg-Thompson",
-      "ToolTip": "Similique et.",
+      "Id": 350,
+      "Name": "Ryan LLC",
+      "ToolTip": "Officia eos.",
       "Deleted": false,
-      "Rank": 531,
-      "Type": "iste",
-      "ColorBlock": 620,
-      "IconHint": "mollitia",
+      "Rank": 97,
+      "Type": "minima",
+      "ColorBlock": 814,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "2005-05-16T10:17:55.7071691+02:00",
+      "LastChanged": "2002-05-27T13:13:23.2583064+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consectetur",
-      "StyleHint": "nulla",
-      "Hidden": true,
-      "FullName": "Mr. Gage Diamond Champlin"
+      "ExtraInfo": "dolor",
+      "StyleHint": "corrupti",
+      "Hidden": false,
+      "FullName": "Brain Buckridge II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Bruen, DuBuque and Schaefer",
-    "ToolTip": "Laborum illum maiores doloribus id id hic sed.",
+    "Id": 741,
+    "Name": "Lemke Group",
+    "ToolTip": "Voluptas sed minus animi eveniet.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "sed",
-    "ColorBlock": 404,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-04-05T10:17:55.7071691+02:00",
+    "Rank": 378,
+    "Type": "tenetur",
+    "ColorBlock": 707,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2019-03-12T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Kuvalis Group",
-        "ToolTip": "Qui sunt voluptatem.",
+        "Id": 291,
+        "Name": "Gutmann, Leffler and Rice",
+        "ToolTip": "Laudantium magni maiores quaerat omnis reprehenderit a vel.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "voluptas",
-        "ColorBlock": 341,
-        "IconHint": "cum",
+        "Rank": 79,
+        "Type": "alias",
+        "ColorBlock": 729,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2020-09-06T10:17:55.7071691+02:00",
+        "LastChanged": "2012-12-07T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Miss Nicholas Emiliano Kreiger I",
+        "FullName": "Isidro Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldType": "System.String",
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "vitae",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Gwendolyn White",
+    "FullName": "Rey Ramiro Jewess DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 474
       }
     }
   }

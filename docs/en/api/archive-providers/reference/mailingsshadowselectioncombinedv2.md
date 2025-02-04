@@ -484,7 +484,7 @@ Implementation of the provider for the combined selection
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -659,7 +659,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/LastCompletedSale,mailingAddr/person/personExtra/x_person_priority_relation,project/projectAssociate/locationAddress,project/projectUdef/SuperOffice:8
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/contactUdef/SuperOffice:5,mailingAddr/person/personDirectPhone/formattedNumber,mailingAddr/person/personExtra/y_rental/x_contact,mailingAddr/person/hasEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

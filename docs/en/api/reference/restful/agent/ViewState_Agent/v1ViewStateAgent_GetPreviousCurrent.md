@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Brown-Shanahan",
-  "Id": 244
+  "HistoryName": "Jaskolski, Smitham and Klein",
+  "Id": 765
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 242,
-  "Id": 153,
-  "HistoryName": "Turcotte, Adams and Frami",
-  "HistoryId": 325,
-  "AssociateId": 131,
-  "Name": "Durgan-Mraz",
-  "ItemInfo": "corporis",
+  "Rank": 157,
+  "Id": 577,
+  "HistoryName": "Barrows-Breitenberg",
+  "HistoryId": 788,
+  "AssociateId": 150,
+  "Name": "Hyatt, Schultz and Johnston",
+  "ItemInfo": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 155
     }
   }
 }

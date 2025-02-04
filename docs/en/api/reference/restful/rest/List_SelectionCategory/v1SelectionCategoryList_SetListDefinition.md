@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Berge, Auer and Bradtke",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 400,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": false
+  "Id": 570,
+  "Name": "Rempel-Green",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 588,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Hoeger Group",
-  "Tooltip": "eos",
+  "Id": 429,
+  "Name": "Feest-Waters",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "Rank": 337,
+  "Rank": 568,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 640
     }
   }
 }

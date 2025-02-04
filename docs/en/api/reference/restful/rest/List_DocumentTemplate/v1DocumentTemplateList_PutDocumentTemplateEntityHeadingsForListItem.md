@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "McGlynn, Schneider and Corwin",
-    "ToolTip": "Veritatis quos nulla cupiditate id velit pariatur.",
+    "Id": 8,
+    "Name": "Friesen-Collins",
+    "ToolTip": "Voluptas omnis qui.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "ullam",
-    "ColorBlock": 190,
-    "IconHint": "atque",
+    "Rank": 25,
+    "Type": "voluptate",
+    "ColorBlock": 244,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2018-12-24T10:18:01.0199926+01:00",
+    "LastChanged": "2007-02-01T13:13:33.1048791+01:00",
     "ChildItems": [
       {
-        "Id": 729,
-        "Name": "Stokes LLC",
-        "ToolTip": "Eaque qui aut est.",
-        "Deleted": false,
-        "Rank": 947,
-        "Type": "dolorem",
-        "ColorBlock": 793,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2000-06-20T10:18:01.0199926+02:00",
+        "Id": 572,
+        "Name": "Jaskolski-DuBuque",
+        "ToolTip": "Totam ab tempore quisquam velit animi.",
+        "Deleted": true,
+        "Rank": 140,
+        "Type": "laboriosam",
+        "ColorBlock": 342,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2014-04-24T13:13:33.1048791+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "eos",
+        "ExtraInfo": "id",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Jakayla Beahan"
+        "FullName": "Jamar Rodriguez"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "autem",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Abdullah Stamm"
+    "FullName": "Dr. Natasha Crooks"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Little, Kihn and Mosciski",
-    "ToolTip": "Blanditiis sed eum quibusdam dicta maxime.",
+    "Id": 16,
+    "Name": "Kassulke-Howe",
+    "ToolTip": "Velit quidem aut.",
     "Deleted": true,
-    "Rank": 815,
-    "Type": "rem",
-    "ColorBlock": 955,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2013-01-10T10:18:01.0199926+01:00",
+    "Rank": 76,
+    "Type": "aut",
+    "ColorBlock": 605,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "1999-08-19T13:13:33.1048791+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Kris, Grant and Swift",
-        "ToolTip": "Quidem debitis veniam sit.",
+        "Id": 639,
+        "Name": "Homenick, Reynolds and White",
+        "ToolTip": "Maiores eos.",
         "Deleted": false,
-        "Rank": 55,
-        "Type": "natus",
-        "ColorBlock": 998,
-        "IconHint": "facilis",
+        "Rank": 170,
+        "Type": "qui",
+        "ColorBlock": 857,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2020-05-05T10:18:01.0199926+02:00",
+        "LastChanged": "2021-12-30T13:13:33.1048791+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Zola Labadie",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Clifton Lockman DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldType": "System.String",
+            "FieldLength": 126
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Rebeca Haley",
+    "ExtraInfo": "minus",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Katharina Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

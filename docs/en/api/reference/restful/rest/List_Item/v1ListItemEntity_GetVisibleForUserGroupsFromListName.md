@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Murray Inc and Sons",
-    "ToolTip": "Et a earum tempora similique doloremque.",
-    "Deleted": true,
-    "Rank": 918,
-    "Type": "blanditiis",
-    "ColorBlock": 540,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2016-08-05T10:18:00.926237+02:00",
+    "Id": 653,
+    "Name": "Sauer-Goyette",
+    "ToolTip": "Odio aut eos perferendis fuga adipisci.",
+    "Deleted": false,
+    "Rank": 993,
+    "Type": "eligendi",
+    "ColorBlock": 889,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "2017-05-01T13:13:32.7768241+02:00",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Predovic, Yundt and Bernier",
-        "ToolTip": "Perspiciatis officiis.",
-        "Deleted": true,
-        "Rank": 740,
-        "Type": "qui",
-        "ColorBlock": 205,
-        "IconHint": "tempora",
+        "Id": 534,
+        "Name": "Baumbach Inc and Sons",
+        "ToolTip": "Sint dolor et repellat error dolorem.",
+        "Deleted": false,
+        "Rank": 754,
+        "Type": "consequatur",
+        "ColorBlock": 743,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2016-07-27T10:18:00.926237+02:00",
+        "LastChanged": "2017-10-04T13:13:32.7768241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Mr. Tavares Mills",
+        "FullName": "Ezekiel Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 866
+            "FieldLength": 134
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "est",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Miss Elwin Shanahan DVM",
+    "FullName": "Cayla Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 423
       }
     }
   }

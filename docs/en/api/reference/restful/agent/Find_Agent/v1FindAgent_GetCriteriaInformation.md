@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Kuvalis-Bahringer",
-  "StorageKey": "aperiam",
+  "StorageType": "quae",
+  "ProviderName": "Homenick LLC",
+  "StorageKey": "est",
   "StaticColumns": [
-    "qui",
-    "tempora"
+    "et",
+    "mollitia"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Boehm-Carroll",
-      "Operator": "et",
+      "Name": "Pollich-Nicolas",
+      "Operator": "ut",
       "Values": [
-        "numquam",
-        "vero"
+        "consectetur",
+        "id"
       ],
       "DisplayValues": [
-        "soluta",
-        "dolor"
+        "quidem",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 489,
+      "InterParenthesis": 17,
       "InterOperator": "And",
-      "UniqueHash": 600
+      "UniqueHash": 408
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Oberbrunner, Schoen and Graham",
-      "DisplayTooltip": "qui",
-      "DisplayType": "libero",
+      "DisplayName": "Okuneva-Turcotte",
+      "DisplayTooltip": "earum",
+      "DisplayType": "explicabo",
       "CanOrderBy": true,
-      "Name": "Lowe, Willms and Aufderhar",
+      "Name": "Raynor, Pfeffer and Stehr",
       "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Volkman-Muller",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Vandervort LLC",
       "IsVisible": false,
-      "ExtraInfo": "quasi",
-      "Width": "dolores",
-      "IconHint": "sapiente",
-      "HeadingIconHint": "suscipit"
+      "ExtraInfo": "animi",
+      "Width": "voluptas",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "ipsa"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McClure, Koelpin and Hilpert",
-      "PrimaryKey": 982,
+      "EntityName": "Emmerich-Corkery",
+      "PrimaryKey": 606,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "nulla",
-          "LinkHint": "quia"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "consequatur",
+          "LinkHint": "iure"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "totam",
+      "LinkHint": "aperiam",
+      "StyleHint": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 263
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lemke, Huels and Dietrich",
-      "Description": "Organized 6th generation middleware",
-      "Rank": 845,
+      "Name": "Batz Group",
+      "Description": "Distributed bottom-line array",
+      "Rank": 821,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lemke, Huels and Dietrich",
-      "Description": "Organized 6th generation middleware",
-      "Rank": 845,
+      "Name": "Batz Group",
+      "Description": "Distributed bottom-line array",
+      "Rank": 821,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

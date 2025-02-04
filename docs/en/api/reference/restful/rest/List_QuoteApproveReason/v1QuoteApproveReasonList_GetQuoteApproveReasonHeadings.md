@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 398,
-    "Name": "Hilll Group",
-    "Tooltip": "atque",
+    "HeadingId": 340,
+    "Name": "Mueller-Lang",
+    "Tooltip": "harum",
     "Deleted": true,
-    "Rank": 171,
-    "UdListDefinitionId": 267,
+    "Rank": 712,
+    "UdListDefinitionId": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

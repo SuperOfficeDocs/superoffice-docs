@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Strosin-Osinski"
+  "ApplicationName": "Wyman LLC"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 535,
-  "Name": "Stoltenberg LLC",
-  "CreatedDate": "2010-01-04T10:17:55.660285+01:00",
-  "UpdatedDate": "2012-01-29T10:17:55.660285+01:00",
+  "ForeignAppId": 65,
+  "Name": "Bailey Group",
+  "CreatedDate": "2008-02-21T13:13:23.1645837+01:00",
+  "UpdatedDate": "2018-02-15T13:13:23.1645837+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 666,
-      "Name": "Huel, Howe and Feeney",
-      "CreatedDate": "2021-09-23T10:17:55.660285+02:00",
-      "UpdatedDate": "2008-07-12T10:17:55.660285+02:00",
-      "AssociateFullName": "Dortha Jakubowski",
-      "CreatedBy": "beatae",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "nesciunt",
-      "ForeignAppId": 161,
+      "ForeignDeviceId": 239,
+      "Name": "Kemmer-Braun",
+      "CreatedDate": "2013-09-27T13:13:23.1645837+02:00",
+      "UpdatedDate": "2014-07-03T13:13:23.1645837+02:00",
+      "AssociateFullName": "Prof. Bernadette Steuber II",
+      "CreatedBy": "autem",
+      "UpdatedBy": "officiis",
+      "DeviceIdentifier": "rem",
+      "ForeignAppId": 422,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 753
+          "FieldType": "System.String",
+          "FieldLength": 829
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 615
     }
   }
 }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 10,
-  "Created": "2006-12-19T10:17:55.9571855+01:00",
+  "SatelliteId": 120,
+  "Created": "2005-07-16T13:13:23.7738157+02:00",
   "CreatedBy": null,
-  "Updated": "1998-12-27T10:17:55.9571855+01:00",
+  "Updated": "2004-04-26T13:13:23.7738157+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Breitenberg, Runolfsson and Zemlak",
-      "Description": "Business-focused optimal access",
+      "Name": "Gulgowski, Cremin and Stamm",
+      "Description": "Networked modular Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Breitenberg, Runolfsson and Zemlak",
-      "Description": "Business-focused optimal access",
+      "Name": "Gulgowski, Cremin and Stamm",
+      "Description": "Networked modular Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 731,
-  "Created": "1998-08-09T10:17:55.9571855+02:00",
+  "SatelliteId": 378,
+  "Created": "2011-12-27T13:13:23.7893721+01:00",
   "CreatedBy": null,
-  "Updated": "2008-01-06T10:17:55.9571855+01:00",
+  "Updated": "2006-01-28T13:13:23.7893721+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Gottlieb Group",
-      "Description": "Adaptive human-resource extranet",
+      "Name": "Huels, Ebert and Runte",
+      "Description": "Multi-channelled coherent focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 964
         }
       }
     },
     {
-      "Name": "Gottlieb Group",
-      "Description": "Adaptive human-resource extranet",
+      "Name": "Huels, Ebert and Runte",
+      "Description": "Multi-channelled coherent focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 964
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldLength": 418
     }
   }
 }

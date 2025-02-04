@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Treutel, Gusikowski and Brakus",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 830,
-  "Rank": 893,
+  "Id": 456,
+  "Name": "Stamm LLC",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "UdListDefinitionId": 756,
+  "Rank": 730,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

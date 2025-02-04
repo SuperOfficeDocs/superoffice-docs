@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 463,
-  "FieldName": "Purdy-O'Reilly",
-  "Label": "quis",
-  "Tooltip": "et",
-  "Editable": false,
+  "QuoteLineConfigurationId": 825,
+  "FieldName": "Nader, Sporer and Barrows",
+  "Label": "voluptatem",
+  "Tooltip": "omnis",
+  "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 756,
+  "Rank": 801,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 773
     }
   }
 }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 381
+  "RoleId": 921
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Jakubowski-Rolfson",
-    "ToolTip": "Qui labore ex.",
-    "Deleted": true,
-    "Rank": 288,
-    "Type": "qui",
-    "ColorBlock": 470,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2014-06-15T10:17:56.3322071+02:00",
+    "Id": 845,
+    "Name": "Smith LLC",
+    "ToolTip": "Suscipit voluptatem commodi iste.",
+    "Deleted": false,
+    "Rank": 585,
+    "Type": "officiis",
+    "ColorBlock": 796,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2015-03-16T13:13:24.4934105+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Champlin-Sporer",
-        "ToolTip": "Dolores expedita est.",
+        "Id": 316,
+        "Name": "Gottlieb, Erdman and Parker",
+        "ToolTip": "Vel maiores distinctio dolore commodi eum.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "rem",
-        "ColorBlock": 622,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "1998-07-18T10:17:56.3322071+02:00",
+        "Rank": 29,
+        "Type": "ut",
+        "ColorBlock": 311,
+        "IconHint": "possimus",
+        "Selected": true,
+        "LastChanged": "2017-11-01T13:13:24.4934105+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eligendi",
-        "Hidden": false,
-        "FullName": "Jada Jacobs",
+        "ExtraInfo": "debitis",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Allen Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 771
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "et",
+    "ExtraInfo": "sit",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Mireya Virgil Kuhic II",
+    "FullName": "Bruce Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 971
       }
     }
   }

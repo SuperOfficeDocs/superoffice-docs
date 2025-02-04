@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 110,
-  "ColumnId": 467,
-  "FieldDefault": "odio",
-  "FieldHeight": 91,
-  "FieldLabel": "sequi",
-  "FieldLeft": 776,
-  "FieldTop": 678,
+  "UDefFieldId": 715,
+  "ColumnId": 792,
+  "FieldDefault": "minus",
+  "FieldHeight": 177,
+  "FieldLabel": "maiores",
+  "FieldLeft": 686,
+  "FieldTop": 914,
   "FieldType": "Checkbox",
-  "FieldWidth": 122,
-  "FormatMask": "officiis",
+  "FieldWidth": 846,
+  "FormatMask": "aliquid",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 59,
-  "LabelLeft": 437,
-  "LabelTop": 860,
-  "LabelWidth": 444,
-  "LastVersionId": 934,
-  "ListTableId": 201,
+  "IsIndexed": false,
+  "LabelHeight": 248,
+  "LabelLeft": 924,
+  "LabelTop": 378,
+  "LabelWidth": 239,
+  "LastVersionId": 751,
+  "ListTableId": 102,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 644,
-  "ProgId": "qui",
+  "Page1LineNo": 837,
+  "ProgId": "dicta",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 6,
-  "TextLength": 890,
-  "Tooltip": "est",
-  "UdefIdentity": 737,
-  "UDListDefinitionId": 120,
+  "ShortLabel": "amet",
+  "TabOrder": 446,
+  "TextLength": 937,
+  "Tooltip": "laudantium",
+  "UdefIdentity": 937,
+  "UDListDefinitionId": 517,
   "Justification": "Center",
-  "Version": 224,
-  "TemplateVariableName": "Kuhlman-Kreiger",
+  "Version": 903,
+  "TemplateVariableName": "Dickinson LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Hagenes-Crooks",
+  "MdoListName": "Lockman, Dietrich and Bashirian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 6
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 7
+  "ErpConnectorId": 522
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "sit",
-    "Rank": 991,
-    "DisplayName": "Harvey LLC",
-    "DisplayDescription": "Fully-configurable fault-tolerant alliance",
+    "FieldKey": "repellat",
+    "Rank": 268,
+    "DisplayName": "Ritchie Group",
+    "DisplayDescription": "Implemented 24 hour pricing structure",
     "FieldType": "Checkbox",
-    "ListName": "Treutel-Ryan",
-    "DefaultValue": "mollitia",
-    "MaxLength": 606,
+    "ListName": "Beer-O'Reilly",
+    "DefaultValue": "ratione",
+    "MaxLength": 861,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 48
       }
     }
   }

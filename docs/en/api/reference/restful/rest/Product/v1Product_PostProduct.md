@@ -145,51 +145,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 281,
-  "ERPProductKey": "doloribus",
-  "ERPPriceListKey": "soluta",
-  "Name": "Morissette LLC",
-  "Description": "Reactive attitude-oriented parallelism",
-  "Code": "sed",
-  "PriceUnit": "fugit",
-  "QuantityUnit": "dolor",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sequi",
-  "DefaultSubscriptionQuantity": 7590.548,
-  "ItemNumber": "529152",
+  "ProductId": 654,
+  "ERPProductKey": "tempore",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Feest LLC",
+  "Description": "Integrated foreground middleware",
+  "Code": "omnis",
+  "PriceUnit": "aperiam",
+  "QuantityUnit": "illum",
+  "IsSubscription": false,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 3726.326,
+  "ItemNumber": "928981",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "provident",
-  "VAT": 3770.2019999999998,
-  "VATInfo": "recusandae",
-  "UnitCost": 18139.592,
-  "UnitMinimumPrice": 19274.1,
-  "UnitListPrice": 29926.566,
-  "InAssortment": false,
-  "Supplier": "dolorem",
-  "SupplierCode": "ut",
-  "Rights": "modi",
-  "Rule": "necessitatibus",
+  "ProductFamilyKey": "ducimus",
+  "ProductTypeKey": "est",
+  "VAT": 12839.998,
+  "VATInfo": "et",
+  "UnitCost": 1648.484,
+  "UnitMinimumPrice": 3463.0699999999997,
+  "UnitListPrice": 6531.2559999999994,
+  "InAssortment": true,
+  "Supplier": "vel",
+  "SupplierCode": "natus",
+  "Rights": "et",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Berge-Streich",
-      "Value": "cupiditate",
+      "Name": "Hegmann, Bauch and Emmerich",
+      "Value": "voluptates",
       "Type": "Image"
     },
     {
-      "Name": "Berge-Streich",
-      "Value": "cupiditate",
+      "Name": "Hegmann, Bauch and Emmerich",
+      "Value": "voluptates",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "omnis",
-  "ExtraField2": "recusandae",
-  "ExtraField3": "facilis",
-  "ExtraField4": "quia",
-  "ExtraField5": "voluptate",
-  "InStock": 24178.809999999998
+  "RawExtraInfo": "enim",
+  "ExtraField1": "vero",
+  "ExtraField2": "aut",
+  "ExtraField3": "qui",
+  "ExtraField4": "ipsam",
+  "ExtraField5": "ex",
+  "InStock": 28177.793999999998
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 621,
-  "ERPProductKey": "reiciendis",
-  "ERPPriceListKey": "ea",
-  "Name": "Schmidt Group",
-  "Description": "Re-contextualized composite matrices",
-  "Code": "porro",
-  "PriceUnit": "ducimus",
-  "QuantityUnit": "consequatur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eligendi",
-  "DefaultSubscriptionQuantity": 25883.706,
-  "ItemNumber": "1206451",
+  "ProductId": 601,
+  "ERPProductKey": "eos",
+  "ERPPriceListKey": "expedita",
+  "Name": "Crooks LLC",
+  "Description": "Reverse-engineered content-based analyzer",
+  "Code": "voluptatibus",
+  "PriceUnit": "eius",
+  "QuantityUnit": "quae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "nulla",
+  "DefaultSubscriptionQuantity": 23345.165999999997,
+  "ItemNumber": "706029",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ducimus",
-  "ProductTypeKey": "voluptatum",
-  "VAT": 3134.0,
-  "VATInfo": "temporibus",
-  "UnitCost": 24416.994,
-  "UnitMinimumPrice": 29368.714,
-  "UnitListPrice": 24999.917999999998,
+  "ProductFamilyKey": "dolorem",
+  "ProductTypeKey": "aut",
+  "VAT": 30315.182,
+  "VATInfo": "quo",
+  "UnitCost": 26128.158,
+  "UnitMinimumPrice": 17553.534,
+  "UnitListPrice": 19784.942,
   "InAssortment": false,
-  "Supplier": "delectus",
-  "SupplierCode": "quaerat",
-  "Rights": "et",
-  "Rule": "est",
+  "Supplier": "rerum",
+  "SupplierCode": "amet",
+  "Rights": "aliquid",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Nikolaus Group",
-      "Value": "repellat",
+      "Name": "Walsh Inc and Sons",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 669
         }
       }
     },
     {
-      "Name": "Nikolaus Group",
-      "Value": "repellat",
+      "Name": "Walsh Inc and Sons",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 669
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "facilis",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "harum",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "sed",
-  "InStock": 14607.573999999999,
+  "RawExtraInfo": "fugiat",
+  "ExtraField1": "nemo",
+  "ExtraField2": "autem",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "fugiat",
+  "InStock": 16569.458,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 49
     }
   }
 }

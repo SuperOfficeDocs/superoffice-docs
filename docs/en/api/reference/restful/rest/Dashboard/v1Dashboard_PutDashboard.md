@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 579,
-  "AssociateId": 464,
-  "Caption": "nobis",
+  "DashboardId": 964,
+  "AssociateId": 437,
+  "Caption": "consequuntur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 403,
-      "Caption": "vel",
-      "Description": "Customer-focused scalable moratorium",
-      "ChartName": "Quigley-Hand",
-      "ChartId": "suscipit",
-      "IsDefault": true,
-      "AssociateId": 702,
-      "GroupId": 811,
-      "SelectionId": 538,
-      "Config": "distinctio",
+      "DashboardTileId": 627,
+      "Caption": "alias",
+      "Description": "Mandatory actuating info-mediaries",
+      "ChartName": "Maggio, Rodriguez and Jast",
+      "ChartId": "aut",
+      "IsDefault": false,
+      "AssociateId": 925,
+      "GroupId": 980,
+      "SelectionId": 953,
+      "Config": "eius",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 268,
-  "AssociateId": 388,
-  "Caption": "ipsa",
+  "DashboardId": 717,
+  "AssociateId": 50,
+  "Caption": "sunt",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 78,
-      "Caption": "aspernatur",
-      "Description": "Open-architected analyzing installation",
-      "ChartName": "Huels-Gerhold",
-      "ChartId": "sit",
+      "DashboardTileId": 746,
+      "Caption": "consequatur",
+      "Description": "Distributed real-time groupware",
+      "ChartName": "Toy, Hills and Sauer",
+      "ChartId": "ut",
       "IsDefault": false,
-      "AssociateId": 956,
-      "GroupId": 277,
-      "SelectionId": 959,
-      "Config": "distinctio",
+      "AssociateId": 291,
+      "GroupId": 991,
+      "SelectionId": 784,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 759
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 474
     }
   },
   "_Links": {

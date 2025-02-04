@@ -10,6 +10,8 @@ generated: true
 
 
 
+* [POST Agents/Document/GetPublishedDocuments](v1DocumentAgent_GetPublishedDocuments.md)
+
 * [POST Agents/Document/GetMyPublishedDocuments](v1DocumentAgent_GetMyPublishedDocuments.md)
 
 * [POST Agents/Document/GetPublishedDocumentsByDate](v1DocumentAgent_GetPublishedDocumentsByDate.md)
@@ -168,6 +170,8 @@ generated: true
 
 * [POST Agents/Document/CopyDocumentToCsAttachment](v1DocumentAgent_CopyDocumentToCsAttachment.md)
 
+* [POST Agents/Document/SavePrivacyReportPdf](v1DocumentAgent_SavePrivacyReportPdf.md)
+
 * [POST Agents/Document/GetDocumentList](v1DocumentAgent_GetDocumentList.md)
 
 * [POST Agents/Document/GetAppointmentDocuments](v1DocumentAgent_GetAppointmentDocuments.md)
@@ -177,5 +181,3 @@ generated: true
 * [POST Agents/Document/GetPersonDocuments](v1DocumentAgent_GetPersonDocuments.md)
 
 * [POST Agents/Document/GetPublishedDocument](v1DocumentAgent_GetPublishedDocument.md)
-
-* [POST Agents/Document/GetPublishedDocuments](v1DocumentAgent_GetPublishedDocuments.md)

@@ -45,27 +45,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1000007|Customer Centre password policy||ccAuthentication|
-|1000017|Statistics||DataCollection|
-|1000029|Default values||Defaults|
-|1000064|Diary||DiaryView|
-|1000090|Filter Dialog||FilterDialog|
-|1000092|Freetext search||Freetext|
-|1000100|Functions||Functions|
-|1000536|In-app communication||InApp|
-|1000155|E-mail||Mail|
-|1000217|Marketing||Mailing|
-|1000223|Grouped lists||MDOList|
-|1000533|Data mirroring||Mirroring|
-|1000294|Web Services||NetServices|
-|1000322|Notifications via popup||notification|
-|1000330|Notifications via e-mail||notificationEmail|
-|1000338|Notifications via SMS||notificationSms|
-|1000354|Contact||Person|
-|1000373|Mobile CRM||PocketTasks|
-|1000377|Request||request|
-|1000398|Sale||Sale|
-|1000313|Notifications for appointments||salesNotification|
+|1000010|Customer Centre password policy||ccAuthentication|
+|1000007|Client||Client|
+|1000020|Statistics||DataCollection|
+|1000032|Default values||Defaults|
+|1000067|Diary||DiaryView|
+|1000094|Filter Dialog||FilterDialog|
+|1000096|Freetext search||Freetext|
+|1000104|Functions||Functions|
+|1000540|In-app communication||InApp|
+|1000159|E-mail||Mail|
+|1000221|Marketing||Mailing|
+|1000227|Grouped lists||MDOList|
+|1000537|Data mirroring||Mirroring|
+|1000298|Web Services||NetServices|
+|1000326|Notifications via popup||notification|
+|1000334|Notifications via e-mail||notificationEmail|
+|1000342|Notifications via SMS||notificationSms|
+|1000358|Contact||Person|
+|1000377|Mobile CRM||PocketTasks|
+|1000381|Request||request|
+|1000402|Sale||Sale|
 
 
 ## Related MDO Lists

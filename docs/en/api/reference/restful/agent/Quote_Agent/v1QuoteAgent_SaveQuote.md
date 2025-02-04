@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 515,
-  "SaleId": 42,
-  "QuoteConnectionId": 700,
-  "ERPQuoteKey": "molestiae",
-  "ERPOrderKey": "officiis",
-  "ActiveQuoteVersionId": 842,
-  "AcceptedQuoteAlternativeId": 599,
-  "UseValuesFromQuote": 450,
-  "DocumentId": 937,
-  "PoNumber": "822948",
-  "OrderComment": "ipsum",
-  "PreferredEmailCulture": "chasity@bradtke.name",
+  "QuoteId": 210,
+  "SaleId": 258,
+  "QuoteConnectionId": 324,
+  "ERPQuoteKey": "qui",
+  "ERPOrderKey": "excepturi",
+  "ActiveQuoteVersionId": 901,
+  "AcceptedQuoteAlternativeId": 570,
+  "UseValuesFromQuote": 631,
+  "DocumentId": 566,
+  "PoNumber": "690008",
+  "OrderComment": "deleniti",
+  "PreferredEmailCulture": "jamir.reynolds@kuvalisdavis.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 886
     }
   }
 }

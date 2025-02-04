@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 137,
-      "Id": 688,
-      "HistoryName": "Mitchell Group",
-      "HistoryId": 241,
-      "AssociateId": 145,
-      "Name": "Harber-Okuneva",
-      "ItemInfo": "reprehenderit"
+      "Rank": 77,
+      "Id": 771,
+      "HistoryName": "Roberts Inc and Sons",
+      "HistoryId": 605,
+      "AssociateId": 377,
+      "Name": "Rippin LLC",
+      "ItemInfo": "sunt"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 743,
-    "Id": 608,
-    "HistoryName": "Goodwin, Senger and Casper",
-    "HistoryId": 340,
-    "AssociateId": 68,
-    "Name": "Stroman Inc and Sons",
-    "ItemInfo": "molestiae",
+    "Rank": 238,
+    "Id": 867,
+    "HistoryName": "Davis-Marks",
+    "HistoryId": 451,
+    "AssociateId": 409,
+    "Name": "Hayes Inc and Sons",
+    "ItemInfo": "sequi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 20
       }
     }
   }

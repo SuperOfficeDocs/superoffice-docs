@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "Active": true
+  "Active": false
 }
 ```
 

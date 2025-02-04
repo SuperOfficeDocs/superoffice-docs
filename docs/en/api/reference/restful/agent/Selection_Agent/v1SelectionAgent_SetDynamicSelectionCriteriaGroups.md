@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 880,
+  "SelectionId": 563,
   "Criteria": [
     {
-      "Name": "Stanton-Bernhard",
-      "Description": "Devolved interactive customer loyalty",
-      "Rank": 901,
+      "Name": "Spinka Group",
+      "Description": "Phased tertiary leverage",
+      "Rank": 345,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stanton-Bernhard",
-      "Description": "Devolved interactive customer loyalty",
-      "Rank": 901,
+      "Name": "Spinka Group",
+      "Description": "Phased tertiary leverage",
+      "Rank": 345,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Flatley, Gleason and Herman",
-    "Description": "Open-architected asynchronous hub",
-    "Rank": 773,
+    "Name": "Hermann LLC",
+    "Description": "De-engineered well-modulated process improvement",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Trantow LLC",
-        "Operator": "aut",
+        "Name": "Dibbert, Watsica and Rutherford",
+        "Operator": "culpa",
         "Values": [
-          "ad",
-          "aperiam"
+          "eaque",
+          "possimus"
         ],
         "DisplayValues": [
-          "nulla",
-          "ab"
+          "repellat",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 36,
+        "InterParenthesis": 710,
         "InterOperator": "And",
-        "UniqueHash": 58
+        "UniqueHash": 248
       }
     ]
   },
   {
-    "Name": "Flatley, Gleason and Herman",
-    "Description": "Open-architected asynchronous hub",
-    "Rank": 773,
+    "Name": "Hermann LLC",
+    "Description": "De-engineered well-modulated process improvement",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Trantow LLC",
-        "Operator": "aut",
+        "Name": "Dibbert, Watsica and Rutherford",
+        "Operator": "culpa",
         "Values": [
-          "ad",
-          "aperiam"
+          "eaque",
+          "possimus"
         ],
         "DisplayValues": [
-          "nulla",
-          "ab"
+          "repellat",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 36,
+        "InterParenthesis": 710,
         "InterOperator": "And",
-        "UniqueHash": 58
+        "UniqueHash": 248
       }
     ]
   }

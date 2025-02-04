@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 797,
-  "Name": "Osinski LLC",
-  "Tooltip": "nihil",
+  "RoleId": 470,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 222,
-  "Rank": 569,
-  "Created": "2010-08-24T10:18:00.5199623+02:00",
-  "UseCategories": 262,
+  "Deleted": 680,
+  "Rank": 59,
+  "Created": "2007-12-27T13:13:31.9800495+01:00",
+  "UseCategories": 135,
   "CreatedBy": null,
-  "Updated": "2020-07-06T10:18:00.5199623+02:00",
+  "Updated": "2012-05-20T13:13:31.9800495+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 608
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   }
 }

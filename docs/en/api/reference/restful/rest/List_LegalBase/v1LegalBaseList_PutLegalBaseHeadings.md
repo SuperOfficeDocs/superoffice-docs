@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 581,
-    "Name": "Bins LLC",
-    "Tooltip": "doloribus",
+    "HeadingId": 421,
+    "Name": "Goyette-Frami",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 537,
-    "UdListDefinitionId": 465
+    "Rank": 912,
+    "UdListDefinitionId": 253
   },
   {
-    "HeadingId": 581,
-    "Name": "Bins LLC",
-    "Tooltip": "doloribus",
+    "HeadingId": 421,
+    "Name": "Goyette-Frami",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 537,
-    "UdListDefinitionId": 465
+    "Rank": 912,
+    "UdListDefinitionId": 253
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 433,
-    "Name": "Kuphal LLC",
-    "Tooltip": "officiis",
+    "HeadingId": 885,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 918,
-    "UdListDefinitionId": 714,
+    "Rank": 371,
+    "UdListDefinitionId": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 376
       }
     }
   }

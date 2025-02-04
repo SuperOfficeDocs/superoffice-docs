@@ -30,7 +30,7 @@ Gets the value of the string with a given name in a given language
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=True
+GET /api/v1/String/{sr_id}/{isoLangCode}?ignoreOverrides=False
 ```
 
 
@@ -65,7 +65,7 @@ OK
 GET /api/v1/String/{sr_id}/{isoLangCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,5 +74,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"cumque"
 ```

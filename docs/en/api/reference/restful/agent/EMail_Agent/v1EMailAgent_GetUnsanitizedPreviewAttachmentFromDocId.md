@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 345,
-  "AttachmentId": "illo"
+  "DocId": 704,
+  "AttachmentId": "suscipit"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced attitude-oriented system engine",
-  "Filename": "voluptatibus",
-  "Size": 818,
-  "Type": "ut",
-  "Encoding": "vel",
-  "Id": "eaque",
-  "Disposition": "aspernatur",
-  "IsSafeFileExtension": true,
+  "Description": "Versatile uniform function",
+  "Filename": "corrupti",
+  "Size": 785,
+  "Type": "maiores",
+  "Encoding": "voluptate",
+  "Id": "cupiditate",
+  "Disposition": "repudiandae",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 893
     }
   }
 }

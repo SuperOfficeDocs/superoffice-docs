@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=691
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=828
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 767,
-  "InstanceLayout": "pariatur",
-  "InstanceName": "Langosh, Stokes and Price",
-  "CreatedDate": "2005-09-14T10:17:55.1290102+02:00",
-  "UpdatedDate": "2014-01-01T10:17:55.1290102+01:00",
+  "AudienceLayoutId": 121,
+  "InstanceLayout": "quis",
+  "InstanceName": "Bailey Group",
+  "CreatedDate": "2002-05-07T13:13:22.1177118+02:00",
+  "UpdatedDate": "2017-05-13T13:13:22.1177118+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 271
     }
   }
 }

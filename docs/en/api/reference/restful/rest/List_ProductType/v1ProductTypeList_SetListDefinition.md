@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Morissette Inc and Sons",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 321,
-  "IsCustomList": false,
+  "Id": 581,
+  "Name": "Mueller Inc and Sons",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 319,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Stoltenberg-Veum",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 55,
-  "IsCustomList": true,
+  "Id": 380,
+  "Name": "Buckridge-Ritchie",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 131,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   }
 }

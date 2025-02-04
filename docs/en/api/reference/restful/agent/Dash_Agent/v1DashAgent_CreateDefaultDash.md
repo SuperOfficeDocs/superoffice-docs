@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 198,
-  "UniqueId": "enim",
-  "Name": "Pacocha-Luettgen",
-  "Description": "De-engineered secondary benchmark",
-  "AssociateId": 14,
-  "Columns": 646,
+  "DashboardId": 106,
+  "UniqueId": "et",
+  "Name": "Schultz-Borer",
+  "Description": "Monitored systematic knowledge base",
+  "AssociateId": 398,
+  "Columns": 985,
   "Theme": null,
-  "VisibleForAll": 315,
+  "VisibleForAll": 98,
   "VisibleForAssociates": [
-    835,
-    277
+    982,
+    801
   ],
   "VisibleForGroups": [
-    83,
-    773
+    993,
+    475
   ],
-  "PinForAll": 604,
+  "PinForAll": 762,
   "PinForAssociates": [
-    507,
-    782
+    589,
+    300
   ],
   "PinForGroups": [
-    768,
-    77
+    300,
+    462
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 276
     }
   }
 }

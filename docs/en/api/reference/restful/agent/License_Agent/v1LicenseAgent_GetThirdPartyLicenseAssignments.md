@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 336,
-  "ModuleOwner": "voluptatibus"
+  "AssociateId": 929,
+  "ModuleOwner": "sequi"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 668,
-    "Tooltip": "et",
+    "Unrestricted": true,
+    "Total": 234,
+    "Tooltip": "fugit",
     "CanAssign": false,
-    "Free": 243,
-    "InUse": 808,
+    "Free": 358,
+    "InUse": 66,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 960,
-    "Name": "Pfannerstill Inc and Sons",
-    "Description": "Public-key global success",
-    "PrerequisiteModuleName": "Mayert, Rippin and McClure",
-    "SortOrder": 87,
-    "ExtraFlags": 362,
+    "Assigned": true,
+    "ModuleLicenseId": 337,
+    "Name": "Homenick, Zulauf and Murazik",
+    "Description": "Phased upward-trending definition",
+    "PrerequisiteModuleName": "Schinner, Leannon and Wunsch",
+    "SortOrder": 377,
+    "ExtraFlags": 940,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "repudiandae",
-  "ProviderName": "Auer LLC",
-  "StorageKey": "et",
+  "StorageType": "aut",
+  "ProviderName": "Howell, Conroy and Von",
+  "StorageKey": "quia",
   "RestrictionGroups": [
     {
-      "Name": "Bahringer, Grant and Wunsch",
-      "Description": "Right-sized impactful infrastructure",
-      "Rank": 444,
+      "Name": "Ziemann-Thiel",
+      "Description": "Adaptive mission-critical budgetary management",
+      "Rank": 710,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bahringer, Grant and Wunsch",
-      "Description": "Right-sized impactful infrastructure",
-      "Rank": 444,
+      "Name": "Ziemann-Thiel",
+      "Description": "Adaptive mission-critical budgetary management",
+      "Rank": 710,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "est"
+  "Context": "qui"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum, Balistreri and Jacobs",
-    "Description": "Grass-roots systemic matrix",
-    "Rank": 587,
+    "Name": "Macejkovic-McCullough",
+    "Description": "Customer-focused system-worthy collaboration",
+    "Rank": 557,
     "Restrictions": [
       {
-        "Name": "Schimmel Inc and Sons",
-        "Operator": "consequatur",
+        "Name": "Hegmann, Daniel and Hintz",
+        "Operator": "nobis",
         "Values": [
-          "quisquam",
-          "impedit"
+          "dolorum",
+          "eos"
         ],
         "DisplayValues": [
-          "animi",
-          "voluptatem"
+          "in",
+          "ab"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 718,
+        "InterParenthesis": 588,
         "InterOperator": "And",
-        "UniqueHash": 904
+        "UniqueHash": 976
       }
     ]
   },
   {
-    "Name": "Bergnaum, Balistreri and Jacobs",
-    "Description": "Grass-roots systemic matrix",
-    "Rank": 587,
+    "Name": "Macejkovic-McCullough",
+    "Description": "Customer-focused system-worthy collaboration",
+    "Rank": 557,
     "Restrictions": [
       {
-        "Name": "Schimmel Inc and Sons",
-        "Operator": "consequatur",
+        "Name": "Hegmann, Daniel and Hintz",
+        "Operator": "nobis",
         "Values": [
-          "quisquam",
-          "impedit"
+          "dolorum",
+          "eos"
         ],
         "DisplayValues": [
-          "animi",
-          "voluptatem"
+          "in",
+          "ab"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 718,
+        "InterParenthesis": 588,
         "InterOperator": "And",
-        "UniqueHash": 904
+        "UniqueHash": 976
       }
     ]
   }

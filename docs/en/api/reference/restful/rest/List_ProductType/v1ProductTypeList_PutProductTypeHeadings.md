@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 170,
-    "Name": "Windler, Goldner and Volkman",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "Rank": 238,
-    "UdListDefinitionId": 288
+    "HeadingId": 510,
+    "Name": "Bernier LLC",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 444,
+    "UdListDefinitionId": 515
   },
   {
-    "HeadingId": 170,
-    "Name": "Windler, Goldner and Volkman",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "Rank": 238,
-    "UdListDefinitionId": 288
+    "HeadingId": 510,
+    "Name": "Bernier LLC",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 444,
+    "UdListDefinitionId": 515
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 184,
-    "Name": "Bergstrom-Bahringer",
-    "Tooltip": "exercitationem",
-    "Deleted": false,
-    "Rank": 160,
-    "UdListDefinitionId": 234,
+    "HeadingId": 222,
+    "Name": "Ortiz Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": true,
+    "Rank": 170,
+    "UdListDefinitionId": 428,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 61
       }
     }
   }

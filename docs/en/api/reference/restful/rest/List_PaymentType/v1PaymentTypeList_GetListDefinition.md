@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Medhurst-Heller",
-  "Tooltip": "hic",
+  "Id": 161,
+  "Name": "King, Nicolas and Schuppe",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 176,
-  "IsCustomList": true,
+  "Rank": 175,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 543
     }
   },
   "_Links": {

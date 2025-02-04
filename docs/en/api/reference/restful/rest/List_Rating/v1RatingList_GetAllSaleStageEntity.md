@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 75,
-    "Value": "ad",
-    "Tooltip": "repudiandae",
-    "Probability": 437,
-    "Deleted": false,
-    "Rank": 933,
+    "SaleStageId": 450,
+    "Value": "debitis",
+    "Tooltip": "autem",
+    "Probability": 249,
+    "Deleted": true,
+    "Rank": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 238
       }
     }
   }

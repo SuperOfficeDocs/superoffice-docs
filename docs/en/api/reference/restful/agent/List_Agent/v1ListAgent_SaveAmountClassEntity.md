@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 518,
-  "Name": "Eichmann, Hammes and Kreiger",
-  "Tooltip": "ut",
-  "Rank": 741,
-  "AmountFrom": 23859.142,
-  "AmountTo": 560.986,
-  "Deleted": true,
-  "CurrencyId": 401
+  "AmountClassId": 266,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "ad",
+  "Rank": 440,
+  "AmountFrom": 13291.294,
+  "AmountTo": 12705.235999999999,
+  "Deleted": false,
+  "CurrencyId": 319
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 508,
-  "Name": "Parker, Ziemann and Cremin",
-  "Tooltip": "mollitia",
-  "Rank": 880,
-  "AmountFrom": 2607.488,
-  "AmountTo": 8145.266,
+  "AmountClassId": 700,
+  "Name": "Reynolds, Stracke and Gusikowski",
+  "Tooltip": "consequuntur",
+  "Rank": 44,
+  "AmountFrom": 5797.9,
+  "AmountTo": 13231.748,
   "Deleted": true,
-  "CurrencyId": 530,
+  "CurrencyId": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 777
     }
   }
 }

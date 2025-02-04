@@ -219,6 +219,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetUIDFromAppointmentId.md
   - name: Move
     href: Appointment_Agent/v1AppointmentAgent_Move.md
+  - name: MoveWithEmail
+    href: Appointment_Agent/v1AppointmentAgent_MoveWithEmail.md
   - name: Reject
     href: Appointment_Agent/v1AppointmentAgent_Reject.md
   - name: RejectWithEmailConfirmation
@@ -257,6 +259,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_UpdateAppointmentFromIcsResponse.md
   - name: UpdateAppointmentWithMode
     href: Appointment_Agent/v1AppointmentAgent_UpdateAppointmentWithMode.md
+  - name: UpdateAppointmentWithModeAndEmail
+    href: Appointment_Agent/v1AppointmentAgent_UpdateAppointmentWithModeAndEmail.md
   - name: ValidateAppointmentEntity
     href: Appointment_Agent/v1AppointmentAgent_ValidateAppointmentEntity.md
   - name: ValidateDays
@@ -1234,6 +1238,8 @@ items:
     href: Document_Agent/v1DocumentAgent_SaveDocumentTemplateStream.md
   - name: SavePrivacyReport
     href: Document_Agent/v1DocumentAgent_SavePrivacyReport.md
+  - name: SavePrivacyReportPdf
+    href: Document_Agent/v1DocumentAgent_SavePrivacyReportPdf.md
   - name: SaveSuggestedDocumentEntity
     href: Document_Agent/v1DocumentAgent_SaveSuggestedDocumentEntity.md
   - name: SetDocumentStream
@@ -2886,6 +2892,8 @@ items:
     href: Project_Agent/v1ProjectAgent_SetProjectImage.md
   - name: UpdateProjectMember
     href: Project_Agent/v1ProjectAgent_UpdateProjectMember.md
+  - name: UpdateProjectMembers
+    href: Project_Agent/v1ProjectAgent_UpdateProjectMembers.md
   - name: ValidateProjectEntity
     href: Project_Agent/v1ProjectAgent_ValidateProjectEntity.md
 - name: Quote
@@ -3493,6 +3501,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_DeleteTicketEntity.md
   - name: DeleteTicketMessageEntity
     href: Ticket_Agent/v1TicketAgent_DeleteTicketMessageEntity.md
+  - name: DoEscalating
+    href: Ticket_Agent/v1TicketAgent_DoEscalating.md
   - name: GetAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_GetAttachmentEntity.md
   - name: GetAttachmentInfo

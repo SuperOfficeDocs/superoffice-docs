@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "perspiciatis",
-      "Key": "sit"
+      "Section": "culpa",
+      "Key": "nam"
     },
     {
-      "Section": "perspiciatis",
-      "Key": "sit"
+      "Section": "culpa",
+      "Key": "nam"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "debitis",
+    "RawValue": "eveniet",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "consequatur",
+    "DisplayValue": "at",
+    "DisplayTooltip": "porro",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 84,
-    "PrefDescId": 701,
-    "TableName": "Pfannerstill, Skiles and Kovacek",
-    "UserPreferenceId": 468,
+    "TargetId": 553,
+    "PrefDescId": 958,
+    "TableName": "Johns LLC",
+    "UserPreferenceId": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldLength": 226
       }
     }
   }

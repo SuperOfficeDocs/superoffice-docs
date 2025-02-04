@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hand LLC",
-  "ListItemId": 792,
+  "UdListDefinitionName": "Mayer LLC",
+  "ListItemId": 288,
   "Headings": [
     {
-      "Id": 866,
-      "Name": "Sporer, Bins and Koepp",
-      "ToolTip": "Dolorem sint rem fugiat voluptas.",
+      "Id": 603,
+      "Name": "Turner-Graham",
+      "ToolTip": "Nihil aut ut.",
       "Deleted": true,
-      "Rank": 107,
-      "Type": "a",
-      "ColorBlock": 684,
-      "IconHint": "ab",
+      "Rank": 87,
+      "Type": "aspernatur",
+      "ColorBlock": 653,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "1998-06-06T10:17:55.7071691+02:00",
+      "LastChanged": "2013-10-26T13:13:23.2583064+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "sed",
+      "ExtraInfo": "minima",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Miss Darrion Nienow"
+      "FullName": "Prof. Verdie Nicklaus Harvey IV"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Name": "Schaefer Group",
-    "ToolTip": "Enim sunt distinctio labore.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "molestiae",
-    "ColorBlock": 704,
-    "IconHint": "officia",
+    "Id": 244,
+    "Name": "Sawayn LLC",
+    "ToolTip": "Delectus cupiditate in ut quae saepe doloribus unde.",
+    "Deleted": false,
+    "Rank": 377,
+    "Type": "provident",
+    "ColorBlock": 616,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2011-10-14T10:17:55.7071691+02:00",
+    "LastChanged": "2010-07-28T13:13:23.2739325+02:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Bernier, Shields and Rutherford",
-        "ToolTip": "Facere necessitatibus quisquam est impedit qui eligendi voluptatem.",
+        "Id": 592,
+        "Name": "Pagac-Klein",
+        "ToolTip": "Aut voluptatum tempora.",
         "Deleted": true,
-        "Rank": 707,
-        "Type": "sed",
-        "ColorBlock": 241,
-        "IconHint": "ut",
+        "Rank": 730,
+        "Type": "enim",
+        "ColorBlock": 399,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2005-03-23T10:17:55.7071691+01:00",
+        "LastChanged": "2005-06-30T13:13:23.2739325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Ashtyn Lesch II",
+        "ExtraInfo": "debitis",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Dr. Myles Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 462
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ratione",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Dr. Ford Mann",
+    "FullName": "Ms. Judd Shawn Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldType": "System.String",
+        "FieldLength": 113
       }
     }
   }

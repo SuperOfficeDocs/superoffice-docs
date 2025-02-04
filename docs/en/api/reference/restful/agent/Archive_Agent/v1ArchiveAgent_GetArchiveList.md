@@ -108,47 +108,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Blick, Marvin and Bechtelar",
-  "ProviderName": "Monahan, Lind and Baumbach",
+  "GuiName": "Senger, Parisian and Boyle",
+  "ProviderName": "Bode, Altenwerth and Wehner",
   "SortOrder": [
     {
-      "Name": "Wiza, Skiles and Kessler",
+      "Name": "Jacobs, Gaylord and Langosh",
       "Direction": "ASC"
     },
     {
-      "Name": "Wiza, Skiles and Kessler",
+      "Name": "Jacobs, Gaylord and Langosh",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Parisian, Littel and Nitzsche",
-      "Operator": "sint",
+      "Name": "Pfannerstill Inc and Sons",
+      "Operator": "quo",
       "Values": [
-        "est",
-        "ea"
+        "nostrum",
+        "dolorem"
       ],
       "DisplayValues": [
-        "sed",
-        "et"
+        "vitae",
+        "veniam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 338,
+      "InterParenthesis": 729,
       "InterOperator": "And",
-      "UniqueHash": 314
+      "UniqueHash": 300
     }
   ],
   "Entities": [
-    "in",
-    "consequatur"
+    "enim",
+    "dolores"
   ],
-  "Page": 423,
-  "PageSize": 925
+  "Page": 956,
+  "PageSize": 792
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stroman-Smith",
-    "PrimaryKey": 679,
+    "EntityName": "Schuster, Botsford and Fay",
+    "PrimaryKey": 134,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "libero",
-        "TooltipHint": "consequatur",
-        "LinkHint": "ut"
+        "DisplayValue": "voluptatibus",
+        "TooltipHint": "non",
+        "LinkHint": "ullam"
       }
     },
-    "LinkHint": "iste",
-    "StyleHint": "aspernatur",
+    "LinkHint": "qui",
+    "StyleHint": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 774
       }
     }
   }

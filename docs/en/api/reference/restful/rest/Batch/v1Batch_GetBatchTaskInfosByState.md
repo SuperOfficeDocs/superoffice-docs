@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Legros Group",
-    "AssociateId": 154,
-    "DetailsTable": 186,
-    "DetailsRecord": 795,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 210,
+    "Name": "McGlynn-Gorczany",
+    "AssociateId": 890,
+    "DetailsTable": 138,
+    "DetailsRecord": 391,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "reprehenderit",
-      "ParameterObject2": "nisi"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "reprehenderit"
     },
-    "LastStarted": "2006-03-24T10:18:00.8168545+01:00",
-    "Created": "2002-11-07T10:18:00.8168545+01:00",
-    "StartCount": 332,
-    "DatabaseSerialNumber": "159485",
-    "Context": "sit",
-    "Result": "praesentium",
+    "LastStarted": "2017-04-09T13:13:32.5267302+02:00",
+    "Created": "2021-12-29T13:13:32.5267302+01:00",
+    "StartCount": 305,
+    "DatabaseSerialNumber": "1109469",
+    "Context": "hic",
+    "Result": "earum",
     "State": "All",
-    "Description": "Cloned systematic help-desk",
-    "Response": "vel",
-    "Request": "omnis",
-    "ProgressDescription": "Optimized explicit open system",
-    "ProgressPercent": 550,
-    "FileName": "Harris, Gislason and Cummerata",
+    "Description": "Fundamental tangible function",
+    "Response": "et",
+    "Request": "hic",
+    "ProgressDescription": "Ameliorated hybrid knowledge user",
+    "ProgressPercent": 17,
+    "FileName": "Swaniawski, Robel and Kautzer",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldLength": 34
       }
     }
   }

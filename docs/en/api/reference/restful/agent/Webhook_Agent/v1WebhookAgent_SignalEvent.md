@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Purdy Group",
-  "PrimaryKey": 63,
+  "EventName": "Keebler, Herman and Rempel",
+  "PrimaryKey": 240,
   "Data": {
     "fieldName": {}
   }

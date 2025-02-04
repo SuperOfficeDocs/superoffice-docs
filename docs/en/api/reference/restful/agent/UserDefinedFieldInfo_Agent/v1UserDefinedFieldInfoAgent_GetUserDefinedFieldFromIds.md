@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    104,
-    497
+    127,
+    437
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 905,
-    "ColumnId": 50,
-    "FieldDefault": "consequuntur",
-    "FieldHeight": 415,
-    "FieldLabel": "quis",
-    "FieldLeft": 554,
-    "FieldTop": 55,
+    "UDefFieldId": 838,
+    "ColumnId": 92,
+    "FieldDefault": "et",
+    "FieldHeight": 104,
+    "FieldLabel": "et",
+    "FieldLeft": 106,
+    "FieldTop": 429,
     "FieldType": "Checkbox",
-    "FieldWidth": 387,
-    "FormatMask": "molestiae",
+    "FieldWidth": 6,
+    "FormatMask": "quasi",
     "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 136,
-    "LabelLeft": 116,
-    "LabelTop": 741,
-    "LabelWidth": 693,
-    "LastVersionId": 686,
-    "ListTableId": 407,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 420,
+    "LabelLeft": 470,
+    "LabelTop": 562,
+    "LabelWidth": 505,
+    "LastVersionId": 10,
+    "ListTableId": 688,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 270,
-    "ProgId": "natus",
+    "Page1LineNo": 5,
+    "ProgId": "magnam",
     "IsReadOnly": false,
-    "ShortLabel": "corporis",
-    "TabOrder": 84,
-    "TextLength": 220,
-    "Tooltip": "eius",
-    "UdefIdentity": 271,
-    "UDListDefinitionId": 68,
+    "ShortLabel": "illo",
+    "TabOrder": 6,
+    "TextLength": 967,
+    "Tooltip": "quo",
+    "UdefIdentity": 132,
+    "UDListDefinitionId": 747,
     "Justification": "Center",
-    "Version": 90,
-    "TemplateVariableName": "Walter, Roberts and Brakus",
+    "Version": 982,
+    "TemplateVariableName": "Ledner-Smitham",
     "HasBeenPublished": false,
-    "MdoListName": "Rosenbaum, Gusikowski and Will",
+    "MdoListName": "Miller-Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 240
       }
     }
   }

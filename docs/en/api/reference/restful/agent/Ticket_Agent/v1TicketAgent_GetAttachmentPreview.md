@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 268
+  "AttachmentId": 800
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fisher-Buckridge",
-  "MimeType": "et",
-  "Size": 949,
+  "Name": "Shields Inc and Sons",
+  "MimeType": "voluptas",
+  "Size": 870,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "rosanna@cole.ca",
-  "EmailFrom": "brandon@willschamberger.ca",
-  "EmailTo": "lemuel@wintheiser.info",
-  "EmailCc": "myrtice@koss.info",
-  "EmailDate": "2008-12-19T10:17:56.2853287+01:00",
+  "EmailSubject": "juvenal@brownpurdy.uk",
+  "EmailFrom": "titus.trantow@king.us",
+  "EmailTo": "iliana_schneider@kunzeondricka.com",
+  "EmailCc": "allene_gleichner@deckowpagac.com",
+  "EmailDate": "2020-11-11T13:13:24.399685+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 325,
-      "Name": "Bauch-Fahey",
-      "ContentType": "placeat",
-      "AttSize": 180,
-      "InlineImage": false,
-      "ContentId": "praesentium",
-      "AuthKey": "nemo",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 337,
+      "Name": "Fahey-Toy",
+      "ContentType": "alias",
+      "AttSize": 935,
+      "InlineImage": true,
+      "ContentId": "qui",
+      "AuthKey": "cumque",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldLength": 550
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 44
     }
   }
 }

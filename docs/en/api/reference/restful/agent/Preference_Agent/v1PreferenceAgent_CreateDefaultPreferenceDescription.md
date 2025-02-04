@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 398,
-  "Section": "optio",
-  "Key": "illo",
-  "Name": "Goldner-Stanton",
+  "PrefDescId": 162,
+  "Section": "vel",
+  "Key": "velit",
+  "Name": "Leffler, Kuphal and Johns",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Re-contextualized full-range support",
-  "IsBuiltin": false,
-  "TableName": "Haley-Monahan",
-  "UserDefinedListId": 930,
-  "Rank": 735,
-  "SubGroup": "nostrum",
-  "MinLevel": 918,
-  "MaxValue": 69,
-  "MinValue": 966,
-  "RequiredLicense": "recusandae",
+  "Description": "Integrated empowering policy",
+  "IsBuiltin": true,
+  "TableName": "Gulgowski Inc and Sons",
+  "UserDefinedListId": 852,
+  "Rank": 310,
+  "SubGroup": "nam",
+  "MinLevel": 265,
+  "MaxValue": 437,
+  "MinValue": 490,
+  "RequiredLicense": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldLength": 147
     }
   }
 }

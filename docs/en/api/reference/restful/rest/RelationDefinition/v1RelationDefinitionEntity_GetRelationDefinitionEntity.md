@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 992,
-  "Name": "Dickens LLC",
+  "ReldefId": 764,
+  "Name": "Murphy, Lowe and Kerluke",
   "Tooltip": "voluptatem",
-  "PassiveText": "sint",
-  "Deleted": false,
-  "Rank": 382,
+  "PassiveText": "voluptatem",
+  "Deleted": true,
+  "Rank": 955,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldLength": 811
     }
   },
   "_Links": {

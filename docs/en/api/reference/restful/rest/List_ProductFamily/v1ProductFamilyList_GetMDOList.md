@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=et
+GET /api/v1/List/ProductFamily/MDOItems?query=dolore
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Fahey-Fahey",
-    "ToolTip": "Id aut ipsa deleniti.",
-    "Deleted": true,
-    "Rank": 594,
-    "Type": "eaque",
+    "Id": 196,
+    "Name": "Lueilwitz-Streich",
+    "ToolTip": "Accusamus fugit.",
+    "Deleted": false,
+    "Rank": 751,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Prosacco LLC",
-        "ToolTip": "Eligendi qui.",
+        "Id": 968,
+        "Name": "Kihn, Murphy and Leannon",
+        "ToolTip": "Ratione fugit suscipit eos quis.",
         "Deleted": false,
-        "Rank": 923,
-        "Type": "consequatur",
+        "Rank": 683,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 106,
-        "ExtraInfo": "earum",
-        "StyleHint": "ipsa",
-        "FullName": "Prof. Dessie Devonte Kuvalis DDS",
+        "IconHint": "velit",
+        "ColorBlock": 913,
+        "ExtraInfo": "praesentium",
+        "StyleHint": "omnis",
+        "FullName": "Mr. Tiara Rodrigo Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 977
+            "FieldLength": 651
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 387,
-    "ExtraInfo": "sunt",
-    "StyleHint": "error",
-    "FullName": "Jimmy Mueller",
+    "IconHint": "consequuntur",
+    "ColorBlock": 709,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "dolore",
+    "FullName": "Mercedes Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldLength": 85
       }
     }
   }

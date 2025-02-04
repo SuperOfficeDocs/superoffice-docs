@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 41,
-  "Name": "Lubowitz-Robel",
-  "Rank": 673,
-  "Tooltip": "voluptatem",
-  "Icon": "et",
-  "DefaultTicketStatus": 924,
+  "TicketTypeId": 33,
+  "Name": "Boyle, Moen and Erdman",
+  "Rank": 862,
+  "Tooltip": "ad",
+  "Icon": "enim",
+  "DefaultTicketStatus": 566,
   "TicketStatuses": [
-    430,
-    192
+    470,
+    341
   ],
-  "DefaultTicketPriority": 717,
+  "DefaultTicketPriority": 922,
   "TicketPriorities": [
-    26,
-    709
+    840,
+    71
   ],
-  "ReplyTemplate": 787,
-  "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "ReplyTemplate": 267,
+  "IsExternalVisible": false,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    467,
-    775
+    981,
+    103
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 749
     }
   }
 }

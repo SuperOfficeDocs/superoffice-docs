@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Huel-Labadie",
-  "Context": "iste"
+  "TableName": "Miller Group",
+  "Context": "velit"
 }
 ```
 

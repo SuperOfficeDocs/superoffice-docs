@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "King, Beier and Abshire",
-  "Id": 278
+  "ListName": "Bahringer LLC",
+  "Id": 207
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 977,
-  "Name": "Boyer-Hauck",
-  "ToolTip": "Rerum qui ea.",
+  "Id": 240,
+  "Name": "Herzog LLC",
+  "ToolTip": "Adipisci et facere ex vel quis et dolorem.",
   "Deleted": true,
-  "Rank": 921,
-  "Type": "ut",
+  "Rank": 237,
+  "Type": "quidem",
   "ChildItems": [
     {
-      "Id": 947,
-      "Name": "Moen Inc and Sons",
-      "ToolTip": "Rerum ipsa vitae illo dolor non.",
-      "Deleted": true,
-      "Rank": 811,
-      "Type": "omnis",
+      "Id": 304,
+      "Name": "Erdman-Kihn",
+      "ToolTip": "A cumque exercitationem quasi nisi tenetur autem.",
+      "Deleted": false,
+      "Rank": 400,
+      "Type": "officia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 108,
-      "ExtraInfo": "sunt",
-      "StyleHint": "vel",
-      "FullName": "Catalina Jerad Schulist V",
+      "IconHint": "consequatur",
+      "ColorBlock": 631,
+      "ExtraInfo": "omnis",
+      "StyleHint": "dolorum",
+      "FullName": "Miss Beverly Erna Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldType": "System.String",
+          "FieldLength": 281
         }
       }
     }
   ],
-  "IconHint": "eveniet",
-  "ColorBlock": 492,
-  "ExtraInfo": "dignissimos",
-  "StyleHint": "nihil",
-  "FullName": "Jaylin Ward",
+  "IconHint": "eos",
+  "ColorBlock": 43,
+  "ExtraInfo": "placeat",
+  "StyleHint": "maiores",
+  "FullName": "Arlie Waelchi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 973
     }
   }
 }

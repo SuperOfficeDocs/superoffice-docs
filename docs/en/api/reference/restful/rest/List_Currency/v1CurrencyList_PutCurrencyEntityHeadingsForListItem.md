@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Nader, Kozey and Schmeler",
-    "ToolTip": "Eius necessitatibus sed vel quas.",
+    "Id": 313,
+    "Name": "Pouros, Pacocha and Dietrich",
+    "ToolTip": "Velit fugiat earum totam omnis.",
     "Deleted": true,
-    "Rank": 72,
-    "Type": "eaque",
-    "ColorBlock": 639,
-    "IconHint": "eaque",
+    "Rank": 999,
+    "Type": "cumque",
+    "ColorBlock": 756,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2010-02-28T10:18:00.9887407+01:00",
+    "LastChanged": "2005-08-31T13:13:33.0111516+02:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Ledner-Casper",
-        "ToolTip": "Accusantium laborum repellat non.",
-        "Deleted": true,
-        "Rank": 568,
-        "Type": "nisi",
-        "ColorBlock": 579,
-        "IconHint": "exercitationem",
+        "Id": 207,
+        "Name": "Lowe Group",
+        "ToolTip": "Ut mollitia qui non adipisci voluptatem.",
+        "Deleted": false,
+        "Rank": 997,
+        "Type": "et",
+        "ColorBlock": 76,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2014-04-25T10:18:00.9887407+02:00",
+        "LastChanged": "2023-06-01T13:13:33.0111516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Juliana Littel"
+        "FullName": "Kaleigh Green"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "in",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "asperiores",
     "Hidden": true,
-    "FullName": "Laura Molly Dare Jr."
+    "FullName": "Felipa Hirthe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Douglas-Jerde",
-    "ToolTip": "Voluptate rem officiis eos aut perferendis.",
-    "Deleted": false,
-    "Rank": 695,
-    "Type": "et",
-    "ColorBlock": 634,
-    "IconHint": "odit",
+    "Id": 343,
+    "Name": "McClure-Schaden",
+    "ToolTip": "Qui quasi voluptatum quas veniam.",
+    "Deleted": true,
+    "Rank": 182,
+    "Type": "recusandae",
+    "ColorBlock": 268,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2003-10-03T10:18:01.0043667+02:00",
+    "LastChanged": "2015-08-17T13:13:33.0267723+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Cole, Pagac and Keebler",
-        "ToolTip": "Consequatur repudiandae quaerat illo consequatur velit magnam recusandae.",
+        "Id": 43,
+        "Name": "Fisher Group",
+        "ToolTip": "Porro libero pariatur quidem saepe expedita id quia.",
         "Deleted": true,
-        "Rank": 995,
-        "Type": "aut",
-        "ColorBlock": 337,
-        "IconHint": "ut",
+        "Rank": 308,
+        "Type": "voluptates",
+        "ColorBlock": 547,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2005-07-07T10:18:01.0043667+02:00",
+        "LastChanged": "2007-10-06T13:13:33.0267723+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "enim",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Ole Rosella Gottlieb PhD",
+        "FullName": "Aurelie Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 49
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Janice Skiles",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Dr. Lee Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 240
       }
     }
   }

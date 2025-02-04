@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 625,
-  "Currency": "et"
+  "QuoteConnectionId": 691,
+  "Currency": "atque"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 946,
-    "ERPPriceListKey": "distinctio",
-    "QuoteConnectionId": 235,
-    "Name": "Davis-Ryan",
-    "Description": "Horizontal local secured line",
-    "Currency": "atque",
-    "CurrencyName": "Bergstrom, Stehr and Rosenbaum",
-    "ValidFrom": "2003-09-09T10:17:55.9415595+02:00",
-    "ValidTo": "2005-08-20T10:17:55.9415595+02:00",
-    "IsActive": false,
+    "PriceListId": 661,
+    "ERPPriceListKey": "quidem",
+    "QuoteConnectionId": 294,
+    "Name": "Oberbrunner, Heller and Konopelski",
+    "Description": "Configurable cohesive moderator",
+    "Currency": "saepe",
+    "CurrencyName": "Stoltenberg-Ankunding",
+    "ValidFrom": "2023-10-11T13:13:23.7425716+02:00",
+    "ValidTo": "2009-04-27T13:13:23.7425716+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 951
       }
     }
   }

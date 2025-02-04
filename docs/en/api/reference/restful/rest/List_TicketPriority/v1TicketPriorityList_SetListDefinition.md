@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Corkery, Collins and Conn",
-  "Tooltip": "sed",
+  "Id": 562,
+  "Name": "Bahringer Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 558,
+  "Rank": 14,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rem",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Aufderhar, Mosciski and Koelpin",
-  "Tooltip": "quia",
+  "Id": 425,
+  "Name": "Kshlerin, Olson and Mosciski",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 534,
-  "IsCustomList": false,
+  "Rank": 742,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldLength": 716
     }
   }
 }

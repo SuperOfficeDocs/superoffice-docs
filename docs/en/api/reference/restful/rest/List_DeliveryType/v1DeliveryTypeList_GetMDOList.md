@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=sunt
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=possimus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Leuschke Group",
-    "ToolTip": "Rerum enim voluptatem error assumenda ratione.",
-    "Deleted": false,
-    "Rank": 831,
-    "Type": "odio",
+    "Id": 708,
+    "Name": "Roob Group",
+    "ToolTip": "Sunt iusto id accusamus quia earum ut.",
+    "Deleted": true,
+    "Rank": 638,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Altenwerth-Abshire",
-        "ToolTip": "Non facere fuga velit quos ratione aperiam rerum.",
-        "Deleted": false,
-        "Rank": 486,
-        "Type": "culpa",
+        "Id": 590,
+        "Name": "Goyette-Runolfsdottir",
+        "ToolTip": "Officiis blanditiis et molestiae.",
+        "Deleted": true,
+        "Rank": 578,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "iure",
-        "ColorBlock": 642,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "et",
-        "FullName": "Jammie Fritsch Sr.",
+        "IconHint": "impedit",
+        "ColorBlock": 962,
+        "ExtraInfo": "provident",
+        "StyleHint": "eaque",
+        "FullName": "Mr. Angus Loraine Nader",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 940
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 22,
-    "ExtraInfo": "sit",
-    "StyleHint": "recusandae",
-    "FullName": "Mrs. Marcelino Malachi Heathcote IV",
+    "IconHint": "temporibus",
+    "ColorBlock": 50,
+    "ExtraInfo": "est",
+    "StyleHint": "illum",
+    "FullName": "Kathleen Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 68
       }
     }
   }

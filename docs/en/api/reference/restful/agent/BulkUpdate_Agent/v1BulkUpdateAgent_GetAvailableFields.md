@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "qui",
-    "ValueType": "et",
+    "Key": "dolorem",
+    "ValueType": "voluptatem",
     "Mandatory": true,
-    "EncodedDisplayName": "Stamm, Cremin and McCullough",
-    "EncodedDisplayDescription": "Seamless dynamic product",
-    "IconHint": "sunt",
+    "EncodedDisplayName": "Hoppe Inc and Sons",
+    "EncodedDisplayDescription": "Phased hybrid challenge",
+    "IconHint": "unde",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "numquam",
-        "Dimension": 761,
-        "ListProviderName": "Schuster-Wisozk",
-        "ListProviderExtraInfo": "qui",
-        "ListProviderPrimaryKeyName": "Russel-Hahn",
-        "ListLeadText": "reprehenderit",
+        "Type": "repellendus",
+        "Label": "repellat",
+        "Dimension": 88,
+        "ListProviderName": "Gottlieb, Dietrich and Hartmann",
+        "ListProviderExtraInfo": "quis",
+        "ListProviderPrimaryKeyName": "Jerde, Terry and Mante",
+        "ListLeadText": "neque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 573
+            "FieldType": "System.Int32",
+            "FieldLength": 399
           }
         }
       }
     ],
-    "EncodedDataCaption": "architecto",
-    "EncodedDataCaptionDescription": "Cross-platform attitude-oriented budgetary management",
-    "CurrentOperationType": "aliquid",
+    "EncodedDataCaption": "fuga",
+    "EncodedDataCaptionDescription": "Distributed systematic initiative",
+    "CurrentOperationType": "dolorem",
     "Values": [
-      "dignissimos",
-      "praesentium"
+      "non",
+      "enim"
     ],
     "DisplayValues": [
-      "nesciunt",
-      "sint"
+      "neque",
+      "asperiores"
     ],
     "OperationInfos": [
       {
-        "Key": "beatae",
-        "EncodedDisplayName": "Hoeger Group",
+        "Key": "eos",
+        "EncodedDisplayName": "Nader-Walsh",
         "EncodedLeadTexts": [
-          "ut",
-          "est"
+          "quam",
+          "veniam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 451
           }
         }
       },
       {
-        "Key": "beatae",
-        "EncodedDisplayName": "Hoeger Group",
+        "Key": "eos",
+        "EncodedDisplayName": "Nader-Walsh",
         "EncodedLeadTexts": [
-          "ut",
-          "est"
+          "quam",
+          "veniam"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 451
           }
         }
       }

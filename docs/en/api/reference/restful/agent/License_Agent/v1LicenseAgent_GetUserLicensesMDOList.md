@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Hackett-Smitham",
-    "ToolTip": "Velit et quo dolores nihil.",
-    "Deleted": true,
-    "Rank": 584,
-    "Type": "maiores",
-    "ColorBlock": 645,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2002-11-09T10:17:55.675911+01:00",
+    "Id": 854,
+    "Name": "Schowalter-Casper",
+    "ToolTip": "Perferendis ut.",
+    "Deleted": false,
+    "Rank": 383,
+    "Type": "a",
+    "ColorBlock": 526,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2003-06-02T13:13:23.1958249+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Rippin-Robel",
-        "ToolTip": "Harum inventore et neque repudiandae est.",
-        "Deleted": false,
-        "Rank": 807,
-        "Type": "recusandae",
-        "ColorBlock": 908,
-        "IconHint": "libero",
-        "Selected": true,
-        "LastChanged": "2008-09-15T10:17:55.675911+02:00",
+        "Id": 805,
+        "Name": "Schuster, Kris and Dietrich",
+        "ToolTip": "In necessitatibus expedita aut repellat ab omnis.",
+        "Deleted": true,
+        "Rank": 396,
+        "Type": "ad",
+        "ColorBlock": 866,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "2020-08-20T13:13:23.1958249+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "facere",
-        "Hidden": false,
-        "FullName": "Mr. Arely Anna Frami Sr.",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Bobby Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 244
+            "FieldType": "System.String",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Scarlett Johnson",
+    "FullName": "Friedrich Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 201
       }
     }
   }

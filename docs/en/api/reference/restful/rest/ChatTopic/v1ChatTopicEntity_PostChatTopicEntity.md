@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 702,
-  "Name": "Parker-O'Reilly",
-  "Description": "Proactive systematic definition",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 852,
+  "Name": "Rolfson-Mertz",
+  "Description": "Centralized analyzing circuit",
+  "WelcomeMessage": "ullam",
   "Language": null,
-  "LastAccept": "2013-04-01T10:18:00.2543195+02:00",
-  "SecondsPrAccept": 918,
-  "AlertRecipient": "harum",
+  "LastAccept": "2002-06-20T13:13:31.4333046+02:00",
+  "SecondsPrAccept": 662,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quia",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 761,
-  "WarnManagerNewChatMinutes": 215,
+  "BadgeHeader": "delectus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dolorem",
+  "WarnNewChatMinutes": 974,
+  "WarnManagerNewChatMinutes": 326,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 952,
-  "WarnManagerChatMessageMinutes": 670,
+  "WarnChatMessageMinutes": 360,
+  "WarnManagerChatMessageMinutes": 437,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 418,
-  "OfflineFormQueueLength": 124,
+  "OfflineFormTimeLimit": 724,
+  "OfflineFormQueueLength": 523,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et"
+  "WidgetRatingText": "iste"
 }
 ```
 
@@ -181,21 +181,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 791,
-  "Name": "Reynolds LLC",
-  "Description": "Organic motivating moratorium",
-  "WelcomeMessage": "dignissimos",
+  "ChatTopicId": 508,
+  "Name": "Upton-Murphy",
+  "Description": "Fundamental dynamic flexibility",
+  "WelcomeMessage": "dolorum",
   "Language": null,
-  "LastAccept": "2023-04-12T10:18:00.2543195+02:00",
-  "SecondsPrAccept": 437,
-  "AlertRecipient": "quibusdam",
+  "LastAccept": "2005-10-08T13:13:31.4333046+02:00",
+  "SecondsPrAccept": 837,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "voluptas",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "consectetur",
-  "WarnNewChatMinutes": 442,
-  "WarnManagerNewChatMinutes": 782,
+  "CollectConsent": true,
+  "BadgeHeader": "minus",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "a",
+  "WarnNewChatMinutes": 260,
+  "WarnManagerNewChatMinutes": 407,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -205,19 +205,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 611,
-  "WarnManagerChatMessageMinutes": 865,
+  "WarnChatMessageMinutes": 757,
+  "WarnManagerChatMessageMinutes": 736,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 588,
-  "OfflineFormQueueLength": 597,
+  "OfflineFormTimeLimit": 845,
+  "OfflineFormQueueLength": 151,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dicta",
+  "WidgetRatingText": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 342
     }
   },
   "_Links": {

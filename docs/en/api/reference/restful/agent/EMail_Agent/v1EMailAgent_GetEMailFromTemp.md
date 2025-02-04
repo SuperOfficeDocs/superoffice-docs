@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Pouros, Feil and Howell"
+  "FileName": "D'Amore-Jacobs"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 516,
-      "ContactName": "Walker, Howell and Abbott",
-      "PersonId": 962,
-      "PersonName": "Durgan-Hand",
-      "AssociateId": 866,
-      "Address": "sit",
-      "EmailId": 356,
+      "ContactId": 27,
+      "ContactName": "Bosco Inc and Sons",
+      "PersonId": 614,
+      "PersonName": "Gislason, Homenick and Rice",
+      "AssociateId": 720,
+      "Address": "ratione",
+      "EmailId": 447,
       "DuplicatePersonIds": [
-        263,
-        557
+        275,
+        363
       ],
-      "Name": "Hackett, Labadie and Gulgowski",
+      "Name": "Flatley Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldType": "System.String",
+          "FieldLength": 364
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 421,
-      "ContactName": "Mann LLC",
-      "PersonId": 527,
-      "PersonName": "Shanahan-Hegmann",
-      "AssociateId": 481,
-      "Address": "omnis",
-      "EmailId": 546,
+      "ContactId": 831,
+      "ContactName": "Sporer Inc and Sons",
+      "PersonId": 118,
+      "PersonName": "Koelpin LLC",
+      "AssociateId": 480,
+      "Address": "est",
+      "EmailId": 510,
       "DuplicatePersonIds": [
-        690,
-        878
+        113,
+        884
       ],
-      "Name": "Ledner Inc and Sons",
+      "Name": "Prohaska, Beatty and Beer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 364
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 125,
-      "ContactName": "Kohler Group",
-      "PersonId": 708,
-      "PersonName": "Boehm-Fritsch",
-      "AssociateId": 514,
-      "Address": "quo",
-      "EmailId": 356,
+      "ContactId": 982,
+      "ContactName": "Hills Inc and Sons",
+      "PersonId": 654,
+      "PersonName": "Shanahan-Waters",
+      "AssociateId": 181,
+      "Address": "commodi",
+      "EmailId": 581,
       "DuplicatePersonIds": [
-        185,
-        117
+        67,
+        815
       ],
-      "Name": "Osinski-Hickle",
+      "Name": "White, Pacocha and Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldType": "System.String",
+          "FieldLength": 832
         }
       }
     }
   ],
-  "Subject": "inventore",
-  "HTMLBody": "harum",
+  "Subject": "dolor",
+  "HTMLBody": "fugit",
   "From": null,
-  "Sent": "2008-10-03T10:17:55.6134076+02:00",
-  "Size": 65,
+  "Sent": "2008-05-07T13:13:23.0864655+02:00",
+  "Size": 203,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "perspiciatis",
-  "PlainBody": "laborum",
+  "MessageID": "repellendus",
+  "PlainBody": "eligendi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 109,
+  "ServerId": 116,
   "Attachments": [
     {
-      "Description": "Reactive demand-driven concept",
-      "Filename": "assumenda",
-      "Size": 778,
-      "Type": "tenetur",
-      "Encoding": "ut",
-      "Id": "et",
-      "Disposition": "eos",
-      "IsSafeFileExtension": false,
+      "Description": "Function-based zero tolerance toolset",
+      "Filename": "hic",
+      "Size": 968,
+      "Type": "omnis",
+      "Encoding": "iste",
+      "Id": "expedita",
+      "Disposition": "explicabo",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hagenes-Gottlieb",
+      "Name": "Boyle Inc and Sons",
       "Values": [
-        "maxime",
-        "rerum"
+        "nobis",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 138
         }
       }
     },
     {
-      "Name": "Hagenes-Gottlieb",
+      "Name": "Boyle Inc and Sons",
       "Values": [
-        "maxime",
-        "rerum"
+        "nobis",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 138
         }
       }
     }
   ],
-  "FolderName": "Pagac, Rosenbaum and Hoeger",
-  "EmailItemId": 410,
-  "AccountId": 312,
-  "ReceivedAt": "1999-09-18T10:17:55.6134076+02:00",
+  "FolderName": "Reinger-Windler",
+  "EmailItemId": 605,
+  "AccountId": 974,
+  "ReceivedAt": "2009-01-20T13:13:23.0864655+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-11-09T10:17:55.6134076+01:00",
+  "RepliedAt": "2012-06-19T13:13:23.0864655+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   }
 }

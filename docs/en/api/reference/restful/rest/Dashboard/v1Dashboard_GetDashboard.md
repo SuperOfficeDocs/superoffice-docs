@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 654,
-  "AssociateId": 769,
-  "Caption": "aliquid",
+  "DashboardId": 990,
+  "AssociateId": 82,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 916,
-      "Caption": "eveniet",
-      "Description": "Organized systematic framework",
-      "ChartName": "Glover-O'Kon",
-      "ChartId": "non",
+      "DashboardTileId": 790,
+      "Caption": "numquam",
+      "Description": "Multi-layered content-based capability",
+      "ChartName": "Rohan-Champlin",
+      "ChartId": "animi",
       "IsDefault": false,
-      "AssociateId": 408,
-      "GroupId": 692,
-      "SelectionId": 315,
-      "Config": "ut",
+      "AssociateId": 412,
+      "GroupId": 444,
+      "SelectionId": 428,
+      "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 818
         }
       }
     }
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

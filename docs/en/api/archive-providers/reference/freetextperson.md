@@ -684,7 +684,7 @@ as well as before any ORDER BY, are applied.
 |personContact/saintIntention|listAny|Intention|  |
 |personContact/saintTicketStatus|listAny|Status|  |
 |personContact/saintTicketCategory|listAny|Category|  |
-|personContact/selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|personContact/selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |personContact/selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -1035,7 +1035,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personActiveErpLinks,isStakeholder,email/emailId,email/emailLastSent,personInterestIds
+GET /api/v1/archive/FreetextPerson?$select=position,personExtra/x_person_user_relation,personAssociate/userName,correspondingAssociate/contactId,personContact/contactFax/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

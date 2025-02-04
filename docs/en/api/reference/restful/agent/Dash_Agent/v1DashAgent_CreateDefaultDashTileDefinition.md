@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 959,
-  "Name": "Harber LLC",
-  "Description": "Self-enabling fresh-thinking framework",
-  "DefaultHeight": 782,
-  "DefaultWidth": 244,
+  "DashboardTileDefinitionId": 711,
+  "Name": "Langosh-Pfeffer",
+  "Description": "Secured discrete hub",
+  "DefaultHeight": 902,
+  "DefaultWidth": 390,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jacobi Group",
-  "SelectionId": 755,
+  "EntityName": "Daugherty-Lesch",
+  "SelectionId": 577,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nemo",
+  "CurrencyCode": "esse",
   "Measure": "Average",
-  "MeasureField": "pariatur",
-  "SortBy": "blanditiis",
-  "LayoutConfig": "magni",
-  "SecondarySelectionId": 517,
-  "MeasureByField": "provident",
+  "MeasureField": "explicabo",
+  "SortBy": "exercitationem",
+  "LayoutConfig": "rerum",
+  "SecondarySelectionId": 473,
+  "MeasureByField": "corporis",
   "Usage": "Dashboard",
-  "ProviderName": "Boyle, Champlin and Walter",
+  "ProviderName": "Nolan Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 73
     }
   }
 }

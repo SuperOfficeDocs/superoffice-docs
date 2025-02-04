@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Goodwin-Russel",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 840,
-    "UdListDefinitionId": 319
+    "HeadingId": 366,
+    "Name": "Kuvalis-Rogahn",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 544,
+    "UdListDefinitionId": 809
   },
   {
-    "HeadingId": 30,
-    "Name": "Goodwin-Russel",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 840,
-    "UdListDefinitionId": 319
+    "HeadingId": 366,
+    "Name": "Kuvalis-Rogahn",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 544,
+    "UdListDefinitionId": 809
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 105,
-    "Name": "Hackett, Romaguera and Kuhic",
-    "Tooltip": "vel",
+    "HeadingId": 9,
+    "Name": "Hartmann LLC",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "Rank": 726,
-    "UdListDefinitionId": 270,
+    "Rank": 495,
+    "UdListDefinitionId": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

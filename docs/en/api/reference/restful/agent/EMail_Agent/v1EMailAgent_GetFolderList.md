@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/EMail/GetFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "IncludeItemCount": true
+  "IncludeItemCount": false
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatem",
-  "qui"
+  "est",
+  "sint"
 ]
 ```

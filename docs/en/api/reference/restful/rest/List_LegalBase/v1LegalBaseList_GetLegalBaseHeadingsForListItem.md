@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Kuhlman-Kuvalis",
-    "ToolTip": "Dolore qui eos libero et nihil.",
-    "Deleted": true,
-    "Rank": 987,
-    "Type": "optio",
-    "ColorBlock": 61,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2011-03-12T10:18:01.0356179+01:00",
+    "Id": 88,
+    "Name": "Williamson Group",
+    "ToolTip": "Nihil nulla veniam illo.",
+    "Deleted": false,
+    "Rank": 165,
+    "Type": "totam",
+    "ColorBlock": 139,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "2004-05-10T13:13:33.1361219+02:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Ratke, Ziemann and Fahey",
-        "ToolTip": "Ut fugiat praesentium.",
+        "Id": 254,
+        "Name": "Rolfson LLC",
+        "ToolTip": "Ut ut animi.",
         "Deleted": false,
-        "Rank": 229,
-        "Type": "in",
-        "ColorBlock": 658,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2001-11-23T10:18:01.0356179+01:00",
+        "Rank": 789,
+        "Type": "dolorem",
+        "ColorBlock": 862,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2022-11-18T13:13:33.1361219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "nihil",
+        "ExtraInfo": "sit",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Maurine Collins",
+        "FullName": "Mr. Duncan Elnora Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "est",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Tiffany Denesik",
+    "FullName": "Maximilian Balistreri II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

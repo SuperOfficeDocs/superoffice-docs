@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Borer-Bosco",
-  "Tooltip": "labore",
+  "Id": 315,
+  "Name": "Torphy-Armstrong",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 840,
-  "Rank": 640
+  "UdListDefinitionId": 184,
+  "Rank": 697
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Douglas Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 84,
+  "Name": "Schmeler LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 708,
-  "Rank": 217,
+  "UdListDefinitionId": 690,
+  "Rank": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

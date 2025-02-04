@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 480,
-  "TopicId": 637,
+  "ChatSessionId": 998,
+  "TopicId": 556,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ipsam",
-  "CustomerHost": "vel",
-  "CustomerName": "Swaniawski Inc and Sons",
-  "CustomerEmail": "al@pouros.ca",
-  "CustomerPhone": "275.744.0841 x9967",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hickle, Hackett and Cruickshank",
+  "CustomerAlias": "est",
+  "CustomerHost": "porro",
+  "CustomerName": "Koepp LLC",
+  "CustomerEmail": "brandy_beer@goodwinyost.name",
+  "CustomerPhone": "1-688-339-9334",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mayer Group",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "aspernatur",
-  "WhenRequested": "2011-09-06T10:18:00.2386877+02:00",
-  "WhenStarted": "2008-03-09T10:18:00.2386877+01:00",
-  "WhenEnded": "2008-09-23T10:18:00.2386877+02:00",
-  "WhenIdle": "2013-12-24T10:18:00.2386877+01:00",
-  "WhenFetched": "2005-06-02T10:18:00.2386877+02:00",
-  "SessionKey": "earum",
-  "InitialQueuePos": 455,
-  "AlertLevel": 332,
-  "Rank": 311,
+  "FirstMessage": "quis",
+  "LastMessage": "aut",
+  "WhenRequested": "2001-08-14T13:13:31.386436+02:00",
+  "WhenStarted": "2004-06-26T13:13:31.386436+02:00",
+  "WhenEnded": "2006-10-08T13:13:31.386436+02:00",
+  "WhenIdle": "2017-07-12T13:13:31.386436+02:00",
+  "WhenFetched": "2017-11-11T13:13:31.386436+01:00",
+  "SessionKey": "laboriosam",
+  "InitialQueuePos": 285,
+  "AlertLevel": 306,
+  "Rank": 924,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 17,
+  "Rating": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldLength": 394
     }
   }
 }

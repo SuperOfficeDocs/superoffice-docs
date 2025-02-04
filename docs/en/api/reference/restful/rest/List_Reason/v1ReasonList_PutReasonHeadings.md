@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 232,
-    "Name": "Schimmel-Kihn",
-    "Tooltip": "mollitia",
+    "HeadingId": 871,
+    "Name": "Trantow, Rice and Lemke",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 263,
-    "UdListDefinitionId": 433
+    "Rank": 271,
+    "UdListDefinitionId": 879
   },
   {
-    "HeadingId": 232,
-    "Name": "Schimmel-Kihn",
-    "Tooltip": "mollitia",
+    "HeadingId": 871,
+    "Name": "Trantow, Rice and Lemke",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 263,
-    "UdListDefinitionId": 433
+    "Rank": 271,
+    "UdListDefinitionId": 879
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 59,
-    "Name": "Borer-Rohan",
-    "Tooltip": "perspiciatis",
-    "Deleted": false,
-    "Rank": 678,
-    "UdListDefinitionId": 349,
+    "HeadingId": 754,
+    "Name": "Romaguera Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 62,
+    "UdListDefinitionId": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 440
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Bins LLC",
-    "ToolTip": "Est quas aliquam temporibus.",
-    "Deleted": true,
-    "Rank": 961,
-    "Type": "eligendi",
-    "ColorBlock": 222,
-    "IconHint": "molestias",
-    "Selected": false,
-    "LastChanged": "2003-11-25T10:18:01.0824964+01:00",
+    "Id": 453,
+    "Name": "Kuhn-Larson",
+    "ToolTip": "Id numquam.",
+    "Deleted": false,
+    "Rank": 25,
+    "Type": "sit",
+    "ColorBlock": 627,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2012-11-05T13:13:33.3235805+01:00",
     "ChildItems": [
       {
-        "Id": 509,
-        "Name": "Robel-Jacobi",
-        "ToolTip": "Officia impedit quidem assumenda fuga eaque.",
-        "Deleted": true,
-        "Rank": 496,
-        "Type": "et",
-        "ColorBlock": 821,
-        "IconHint": "odit",
+        "Id": 666,
+        "Name": "Dibbert Group",
+        "ToolTip": "Sapiente sequi doloribus ullam cum officia temporibus.",
+        "Deleted": false,
+        "Rank": 919,
+        "Type": "eius",
+        "ColorBlock": 585,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2011-06-19T10:18:01.0824964+02:00",
+        "LastChanged": "2003-11-15T13:13:33.3235805+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "beatae",
+        "StyleHint": "quae",
         "Hidden": true,
-        "FullName": "Ashleigh Hammes",
+        "FullName": "Brendon Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 89
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Kobe Yasmeen Gutmann V",
+    "ExtraInfo": "commodi",
+    "StyleHint": "aliquid",
+    "Hidden": false,
+    "FullName": "Alberta Adaline Dare Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldLength": 390
       }
     }
   }

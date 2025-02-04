@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 436,
-  "Name": "Batz LLC",
-  "Tooltip": "tempore",
-  "Rank": 977,
-  "Rate": 28024.228,
-  "Units": 28525.667999999998,
-  "Deleted": true,
+  "CurrencyId": 837,
+  "Name": "Wolf, Pagac and Walsh",
+  "Tooltip": "vero",
+  "Rank": 394,
+  "Rate": 4726.072,
+  "Units": 19390.058,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 534
+      "FieldLength": 68
     }
   }
 }

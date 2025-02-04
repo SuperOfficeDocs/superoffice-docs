@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "quisquam",
-  "AppliesToKey": "fugiat"
+  "RecipeId": "ut",
+  "AppliesToKey": "et"
 }
 ```
 

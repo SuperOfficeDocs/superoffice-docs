@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 36,
+    "HierarchyId": 666,
     "Domain": "Dashboards",
-    "Name": "Thompson-Wehner",
-    "Fullname": "autem",
-    "ParentId": 30,
+    "Name": "Johnson Group",
+    "Fullname": "voluptatum",
+    "ParentId": 286,
     "Children": [
       {
-        "HierarchyId": 579,
+        "HierarchyId": 932,
         "Domain": "Dashboards",
-        "Name": "Wiegand-Kulas",
-        "Fullname": "sit",
-        "ParentId": 198,
+        "Name": "Mueller Group",
+        "Fullname": "dolores",
+        "ParentId": 162,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-09-18T10:18:00.4262067+02:00",
-        "RegisteredAssociateId": 815,
-        "Updated": "2011-04-16T10:18:00.4262067+02:00",
-        "UpdatedAssociateId": 205,
+        "Registered": "2000-12-06T13:13:31.7613495+01:00",
+        "RegisteredAssociateId": 238,
+        "Updated": "2008-11-11T13:13:31.7613495+01:00",
+        "UpdatedAssociateId": 742,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 318
           }
         }
       }
     ],
-    "Registered": "2018-02-19T10:18:00.4262067+01:00",
-    "RegisteredAssociateId": 434,
-    "Updated": "2017-11-28T10:18:00.4262067+01:00",
-    "UpdatedAssociateId": 387,
+    "Registered": "1998-09-24T13:13:31.7613495+02:00",
+    "RegisteredAssociateId": 652,
+    "Updated": "2008-12-13T13:13:31.7613495+01:00",
+    "UpdatedAssociateId": 241,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldType": "System.String",
+        "FieldLength": 372
       }
     }
   }

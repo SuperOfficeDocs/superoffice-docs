@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 28,
-  "Year": 243,
+  "TargetGroupId": 335,
+  "Year": 461,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 927,
+      "TargetAssignmentInfoId": 40,
       "Values": [
-        608,
-        375
+        368,
+        850
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 383,
-      "DimensionListItemDisplayName": "Johnson, Lockman and Sanford"
+      "DimensionListItem": 984,
+      "DimensionListItemDisplayName": "Boehm, Gottlieb and McClure"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 242,
-  "Year": 965,
+  "TargetGroupId": 694,
+  "Year": 68,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 372,
+      "TargetAssignmentInfoId": 385,
       "Values": [
-        396,
-        392
+        18,
+        287
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 876,
-      "DimensionListItemDisplayName": "Shanahan, Bednar and Kertzmann",
+      "DimensionListItem": 799,
+      "DimensionListItemDisplayName": "Anderson, Gulgowski and Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 630
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 225
     }
   }
 }

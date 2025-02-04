@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Hermann, Harris and Shanahan",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 121,
-  "Rank": 266
+  "Id": 504,
+  "Name": "Donnelly-Okuneva",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "UdListDefinitionId": 727,
+  "Rank": 431
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Farrell Group",
-  "Tooltip": "impedit",
+  "Id": 65,
+  "Name": "Parisian Inc and Sons",
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "UdListDefinitionId": 249,
-  "Rank": 659,
+  "UdListDefinitionId": 330,
+  "Rank": 162,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 278
     }
   }
 }

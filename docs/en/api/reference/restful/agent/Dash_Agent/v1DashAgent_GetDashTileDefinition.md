@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=800
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=37
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 131,
-  "Name": "Mraz, Mertz and Fisher",
-  "Description": "Re-contextualized methodical projection",
-  "DefaultHeight": 604,
-  "DefaultWidth": 197,
+  "DashboardTileDefinitionId": 106,
+  "Name": "Hintz LLC",
+  "Description": "Cloned zero defect project",
+  "DefaultHeight": 642,
+  "DefaultWidth": 877,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ryan, Spinka and Kihn",
-  "SelectionId": 602,
+  "EntityName": "Rippin-Marks",
+  "SelectionId": 839,
   "CurrencyMode": "Base",
-  "CurrencyCode": "molestias",
+  "CurrencyCode": "asperiores",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "ratione",
-  "LayoutConfig": "veniam",
-  "SecondarySelectionId": 944,
-  "MeasureByField": "officiis",
+  "MeasureField": "eius",
+  "SortBy": "aut",
+  "LayoutConfig": "officia",
+  "SecondarySelectionId": 660,
+  "MeasureByField": "beatae",
   "Usage": "Dashboard",
-  "ProviderName": "Boyer-Kassulke",
+  "ProviderName": "Kunze-Mohr",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 451
     }
   }
 }

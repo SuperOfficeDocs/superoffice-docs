@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=208
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=217
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 223,
-  "Name": "Mills-Mohr",
-  "Tooltip": "illo",
-  "Rank": 644,
+  "SaleTypeId": 937,
+  "Name": "Kautzer, Senger and Gerlach",
+  "Tooltip": "aut",
+  "Rank": 781,
   "DurationUnit": "Century",
-  "SaleDuration": 737,
-  "SaleTypeCatId": 134,
+  "SaleDuration": 785,
+  "SaleTypeCatId": 981,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 691,
-  "QuoteLinesTemplate": 909,
-  "ConfirmationLinesTemplate": 670,
+  "DefaultQuoteValidity": 320,
+  "QuoteLinesTemplate": 627,
+  "ConfirmationLinesTemplate": 918,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 241,
-  "MinEarningPercent": 327,
-  "GroupQuoteLinesBy": 630,
-  "SortGroupLinesBy": 333,
+  "MaxDiscountPercent": 326,
+  "MinEarningPercent": 944,
+  "GroupQuoteLinesBy": 805,
+  "SortGroupLinesBy": 984,
   "Stages": [
     {
-      "Id": 419,
-      "Name": "Spencer, Bechtelar and Gottlieb",
-      "ToolTip": "Rerum consequatur consequatur recusandae error libero eius.",
+      "Id": 109,
+      "Name": "Schmeler, Larkin and Hirthe",
+      "ToolTip": "Itaque voluptatum ut nisi cumque.",
       "Deleted": false,
-      "Rank": 957,
-      "Type": "hic",
-      "ColorBlock": 145,
-      "IconHint": "neque",
-      "Selected": false,
-      "LastChanged": "2010-03-20T10:17:55.691537+01:00",
+      "Rank": 556,
+      "Type": "et",
+      "ColorBlock": 881,
+      "IconHint": "consectetur",
+      "Selected": true,
+      "LastChanged": "2015-07-05T13:13:23.2426833+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "eius",
+      "ExtraInfo": "praesentium",
+      "StyleHint": "autem",
       "Hidden": false,
-      "FullName": "Prof. Felix Breitenberg",
+      "FullName": "Telly Pollich I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 677
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

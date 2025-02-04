@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 131
+  "ContactId": 683
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aliquam",
-    "PersonId": 417,
-    "Mrmrs": "placeat",
-    "Firstname": "Murl",
-    "Lastname": "Stanton",
-    "MiddleName": "Shields, McCullough and Herman",
-    "Title": "quas",
-    "Description": "Integrated encompassing Graphical User Interface",
-    "Email": "fae_yost@ullrichkerluke.name",
-    "FullName": "Wava Kozey",
-    "DirectPhone": "1-736-743-6947",
-    "FormalName": "Dooley, Murazik and O'Reilly",
-    "CountryId": 295,
-    "ContactId": 308,
-    "ContactName": "Langworth-Kiehn",
-    "Retired": 115,
-    "Rank": 322,
-    "ActiveInterests": 495,
+    "Position": "sit",
+    "PersonId": 791,
+    "Mrmrs": "natus",
+    "Firstname": "Raegan",
+    "Lastname": "Hane",
+    "MiddleName": "Bogisich LLC",
+    "Title": "blanditiis",
+    "Description": "Ameliorated mobile policy",
+    "Email": "camryn.gleason@stehr.co.uk",
+    "FullName": "April Rempel",
+    "DirectPhone": "775-755-8405 x726",
+    "FormalName": "Hermann-Pfeffer",
+    "CountryId": 239,
+    "ContactId": 320,
+    "ContactName": "Heathcote-Conroy",
+    "Retired": 695,
+    "Rank": 38,
+    "ActiveInterests": 826,
     "ContactDepartment": "",
-    "ContactCountryId": 224,
-    "ContactOrgNr": "1255046",
-    "FaxPhone": "575-323-4091 x663",
-    "MobilePhone": "(830)881-6245",
-    "ContactPhone": "273.654.5181",
-    "AssociateName": "Purdy LLC",
-    "AssociateId": 373,
-    "UsePersonAddress": false,
-    "ContactFax": "est",
-    "Kanafname": "ipsa",
-    "Kanalname": "rem",
-    "Post1": "suscipit",
-    "Post2": "aut",
-    "Post3": "ut",
-    "EmailName": "alexander.denesik@lindgrenschultz.com",
-    "ContactFullName": "Jannie Conroy",
-    "ActiveErpLinks": 144,
-    "TicketPriorityId": 455,
-    "SupportLanguageId": 54,
-    "SupportAssociateId": 634,
+    "ContactCountryId": 251,
+    "ContactOrgNr": "1220632",
+    "FaxPhone": "800.764.9309 x1128",
+    "MobilePhone": "947.174.8340",
+    "ContactPhone": "1-986-454-3048 x5709",
+    "AssociateName": "Howe Group",
+    "AssociateId": 77,
+    "UsePersonAddress": true,
+    "ContactFax": "temporibus",
+    "Kanafname": "quod",
+    "Kanalname": "voluptate",
+    "Post1": "molestiae",
+    "Post2": "ut",
+    "Post3": "natus",
+    "EmailName": "melody@jaskolski.us",
+    "ContactFullName": "Adrianna Bashirian",
+    "ActiveErpLinks": 657,
+    "TicketPriorityId": 555,
+    "SupportLanguageId": 220,
+    "SupportAssociateId": 551,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 684
       }
     }
   }

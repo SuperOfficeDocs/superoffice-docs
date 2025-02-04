@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Littel, Ledner and Moen",
-    "ToolTip": "Sequi dolores totam.",
+    "Id": 563,
+    "Name": "O'Hara LLC",
+    "ToolTip": "Eaque et vero dolore magni sit dignissimos tempore.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "corporis",
-    "ColorBlock": 652,
-    "IconHint": "fugiat",
+    "Rank": 586,
+    "Type": "voluptatem",
+    "ColorBlock": 225,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2012-06-27T10:18:00.926237+02:00",
+    "LastChanged": "1998-08-19T13:13:32.7924497+02:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Armstrong Inc and Sons",
-        "ToolTip": "Similique neque libero et vitae.",
+        "Id": 916,
+        "Name": "Beier LLC",
+        "ToolTip": "Id et.",
         "Deleted": true,
-        "Rank": 35,
-        "Type": "quo",
-        "ColorBlock": 771,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2012-07-12T10:18:00.926237+02:00",
+        "Rank": 958,
+        "Type": "nihil",
+        "ColorBlock": 848,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2020-01-11T13:13:32.7924497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "non",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "magnam",
         "Hidden": true,
-        "FullName": "Dr. Vladimir Karlie Bode",
+        "FullName": "Clinton Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 627
+            "FieldType": "System.Int32",
+            "FieldLength": 1002
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "et",
+    "ExtraInfo": "quo",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Prof. Ruben Rosendo Daniel",
+    "FullName": "Chadd Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 48,
-  "Name": "Weimann, Bergstrom and Metz",
-  "Description": "Expanded empowering encoding",
-  "DeltaJson": "minus",
+  "ConfigurableScreenDeltaId": 697,
+  "Name": "Brakus Inc and Sons",
+  "Description": "Fundamental optimizing monitoring",
+  "DeltaJson": "illum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "cum",
-  "UpdatedDate": "2007-07-02T10:17:55.2227659+02:00",
-  "CreatedDate": "2020-07-09T10:17:55.2227659+02:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2012-11-06T13:13:22.3364082+01:00",
+  "CreatedDate": "2001-07-02T13:13:22.3364082+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    608,
-    4
+    804,
+    817
   ],
-  "AppliesToKey": "quos",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 982
     }
   }
 }

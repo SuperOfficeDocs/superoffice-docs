@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Abshire Group",
-    "ToolTip": "Praesentium temporibus neque.",
-    "Deleted": true,
-    "Rank": 244,
-    "Type": "adipisci",
-    "ColorBlock": 74,
-    "IconHint": "magnam",
+    "Id": 327,
+    "Name": "Quigley Group",
+    "ToolTip": "Ut et aut corrupti labore necessitatibus.",
+    "Deleted": false,
+    "Rank": 895,
+    "Type": "ipsum",
+    "ColorBlock": 628,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2000-10-13T10:18:00.9574888+02:00",
+    "LastChanged": "1998-10-13T13:13:32.8861799+02:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Weimann-Ebert",
-        "ToolTip": "Inventore ea dolorum.",
+        "Id": 762,
+        "Name": "Ledner-Barton",
+        "ToolTip": "Sunt quibusdam odit magnam nihil.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "nobis",
-        "ColorBlock": 890,
-        "IconHint": "praesentium",
+        "Rank": 952,
+        "Type": "consequatur",
+        "ColorBlock": 644,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "1998-10-19T10:18:00.9574888+02:00",
+        "LastChanged": "2020-11-16T13:13:32.8861799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
+        "ExtraInfo": "nemo",
         "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Mrs. Jedediah Genesis Ledner DVM",
+        "FullName": "Krista West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 726
           }
         }
       }
     ],
     "ExtraInfo": "rerum",
-    "StyleHint": "voluptatem",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Carmela Muhammad Eichmann IV",
+    "FullName": "Miss Lew O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

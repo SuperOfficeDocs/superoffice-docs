@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bartell, Torp and Shanahan"
+  "TaskName": "Williamson-Swift"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Windler Inc and Sons",
-    "AssociateId": 81,
-    "DetailsTable": 402,
-    "DetailsRecord": 630,
+    "Id": 320,
+    "Name": "Walsh Inc and Sons",
+    "AssociateId": 397,
+    "DetailsTable": 486,
+    "DetailsRecord": 112,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "est"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "placeat"
     },
-    "LastStarted": "2010-05-20T10:17:55.1290102+02:00",
-    "Created": "2024-04-22T10:17:55.1290102+02:00",
-    "StartCount": 484,
-    "DatabaseSerialNumber": "1607260",
-    "Context": "incidunt",
-    "Result": "perferendis",
+    "LastStarted": "2014-11-19T13:13:22.133333+01:00",
+    "Created": "2024-11-18T13:13:22.133333+01:00",
+    "StartCount": 959,
+    "DatabaseSerialNumber": "1103511",
+    "Context": "fuga",
+    "Result": "quia",
     "State": "All",
-    "Description": "Ameliorated leading edge focus group",
-    "Response": "quis",
-    "Request": "tempora",
-    "ProgressDescription": "Focused solution-oriented task-force",
-    "ProgressPercent": 204,
-    "FileName": "Thiel-Bins",
+    "Description": "Upgradable composite ability",
+    "Response": "et",
+    "Request": "aperiam",
+    "ProgressDescription": "Cross-platform content-based alliance",
+    "ProgressPercent": 480,
+    "FileName": "Corwin, Hodkiewicz and Ratke",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 664
       }
     }
   }

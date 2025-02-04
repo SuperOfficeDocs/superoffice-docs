@@ -25,7 +25,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Waters Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 652,
-    "Rank": 86,
+    "Id": 58,
+    "Name": "Halvorson-Rowe",
+    "Tooltip": "quis",
+    "Deleted": false,
+    "UdListDefinitionId": 643,
+    "Rank": 831,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldLength": 888
       }
     }
   }

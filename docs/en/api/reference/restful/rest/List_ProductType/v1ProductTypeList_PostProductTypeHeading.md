@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 285,
-  "UdListDefinitionId": 998
+  "HeadingId": 770,
+  "Name": "Hahn LLC",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 25,
+  "UdListDefinitionId": 584
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 640,
-  "Name": "Emmerich, Morar and Runte",
-  "Tooltip": "sed",
+  "HeadingId": 692,
+  "Name": "Adams-Crona",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 497,
-  "UdListDefinitionId": 224,
+  "Rank": 372,
+  "UdListDefinitionId": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldLength": 193
     }
   }
 }

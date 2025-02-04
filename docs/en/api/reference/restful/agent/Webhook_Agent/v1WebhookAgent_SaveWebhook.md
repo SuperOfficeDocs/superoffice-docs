@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 943,
-  "Name": "Douglas LLC",
+  "WebhookId": 942,
+  "Name": "Jones LLC",
   "Events": [
-    "molestiae",
-    "quidem"
+    "sit",
+    "nesciunt"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dicta",
+  "Secret": "perferendis",
   "State": "Active",
-  "Type": "animi",
+  "Type": "blanditiis",
   "Headers": {
-    "Headers1": "ea",
-    "Headers2": "harum"
+    "Headers1": "vel",
+    "Headers2": "veritatis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2021-07-05T10:17:56.3634594+02:00",
+  "Registered": "2011-07-17T13:13:24.5870773+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-04-10T10:17:56.3634594+02:00",
+  "Updated": "2007-06-16T13:13:24.5870773+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "eveline@kuhn.name"
+  "ErrorsEmail": "catharine@rathjacobi.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 696,
-  "Name": "Welch, Hoppe and Ortiz",
+  "WebhookId": 978,
+  "Name": "Ledner Inc and Sons",
   "Events": [
-    "et",
-    "sunt"
+    "ut",
+    "culpa"
   ],
   "TargetUrl": "http://www.example.com/",
   "Secret": "velit",
   "State": "Active",
-  "Type": "minus",
+  "Type": "earum",
   "Headers": {
-    "Headers1": "consequatur",
-    "Headers2": "dolores"
+    "Headers1": "pariatur",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2006-01-02T10:17:56.3634594+01:00",
+  "Registered": "2022-11-24T13:13:24.5870773+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-09-16T10:17:56.3634594+02:00",
+  "Updated": "2010-04-28T13:13:24.5870773+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "eleonore.moore@morar.co.uk"
+  "ErrorsEmail": "audra.nitzsche@bosco.ca"
 }
 ```

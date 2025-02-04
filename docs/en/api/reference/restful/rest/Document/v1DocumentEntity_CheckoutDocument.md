@@ -72,7 +72,7 @@ OK
 POST /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "ut",
-  "VersionId": "amet",
-  "Success": false,
+  "ExternalReference": "libero",
+  "VersionId": "est",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "occaecati",
-  "AdditionalInfo": "repellendus"
+  "Value": "et",
+  "AdditionalInfo": "commodi"
 }
 ```

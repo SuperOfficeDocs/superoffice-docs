@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "quibusdam",
-  "AssociateId": 610,
+  "Associate": "ut",
+  "AssociateId": 712,
   "IsPerson": true,
-  "PersonId": 93,
-  "CountryId": 14,
-  "HomeCountryId": 180,
-  "ContactId": 104,
-  "GroupId": 209,
-  "BusinessId": 342,
-  "CategoryId": 489,
-  "ContactOwner": 227,
-  "RoleId": 412,
-  "RoleName": "Ledner-Waters",
-  "RoleDescription": "Focused contextually-based superstructure",
+  "PersonId": 611,
+  "CountryId": 620,
+  "HomeCountryId": 276,
+  "ContactId": 40,
+  "GroupId": 522,
+  "BusinessId": 291,
+  "CategoryId": 256,
+  "ContactOwner": 962,
+  "RoleId": 236,
+  "RoleName": "Stiedemann-Becker",
+  "RoleDescription": "Versatile modular product",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 399,
-      "OwnerName": "Prohaska Inc and Sons",
-      "OwnerDescription": "Centralized multi-state success",
-      "ModuleId": 946,
-      "Name": "Homenick-Upton",
-      "Description": "Object-based local firmware",
-      "Version": "quas",
+      "OwnerId": 751,
+      "OwnerName": "Veum, Hand and Abbott",
+      "OwnerDescription": "Digitized bi-directional access",
+      "ModuleId": 496,
+      "Name": "Schmidt-Tillman",
+      "Description": "Enterprise-wide intermediate analyzer",
+      "Version": "velit",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 922,
-      "ExtraInfo": "adipisci",
-      "SortOrder": 20,
-      "LicenseNumber": 908,
+      "ExtraFlags": 101,
+      "ExtraInfo": "id",
+      "SortOrder": 450,
+      "LicenseNumber": 272,
       "IsHidden": true,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2012-12-12T10:18:00.910611+01:00",
+      "IsUnrestricted": true,
+      "ExpiryDate": "2011-03-16T13:13:32.7299587+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldLength": 867
         }
       }
     }
   ],
-  "FullName": "Larissa Tromp",
-  "EMailAddress": "ad",
+  "FullName": "Aric Effertz",
+  "EMailAddress": "voluptatem",
   "FunctionRights": [
-    "distinctio",
-    "id"
+    "eos",
+    "culpa"
   ],
-  "EjUserId": 34,
-  "EjAccessLevel": 241,
+  "EjUserId": 684,
+  "EjAccessLevel": 504,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "neque",
-      "SearchName": "Kreiger Inc and Sons",
-      "DisplayName": "Gibson-Metz",
-      "CredentialId": 969
+      "Type": "laborum",
+      "SearchName": "Rowe LLC",
+      "DisplayName": "Reichel-Weber",
+      "CredentialId": 518
     },
     {
-      "Type": "neque",
-      "SearchName": "Kreiger Inc and Sons",
-      "DisplayName": "Gibson-Metz",
-      "CredentialId": 969
+      "Type": "laborum",
+      "SearchName": "Rowe LLC",
+      "DisplayName": "Reichel-Weber",
+      "CredentialId": 518
     }
   ],
   "SecondaryGroups": [
-    63,
-    240
+    675,
+    621
   ],
-  "DatabaseContextIdentifier": "adipisci",
-  "UserName": "Weber, Luettgen and Beatty"
+  "DatabaseContextIdentifier": "atque",
+  "UserName": "Lindgren, Beatty and Reichel"
 }
 ```

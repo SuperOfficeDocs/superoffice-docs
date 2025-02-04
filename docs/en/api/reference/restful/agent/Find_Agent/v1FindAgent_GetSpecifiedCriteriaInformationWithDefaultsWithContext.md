@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cumque",
-  "ProviderName": "Pfeffer LLC",
-  "StorageKey": "distinctio",
+  "StorageType": "quaerat",
+  "ProviderName": "Thompson Group",
+  "StorageKey": "molestias",
   "DesiredColumnNames": [
-    "Harvey Inc and Sons",
-    "Emard Inc and Sons"
+    "Mitchell Inc and Sons",
+    "Schuppe, Ward and Ruecker"
   ],
   "StaticColumns": [
-    "illo",
-    "inventore"
+    "reprehenderit",
+    "rerum"
   ],
-  "Context": "fugiat"
+  "Context": "et"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Koelpin, Langosh and Mann",
-      "Operator": "nisi",
+      "Name": "Kling-Medhurst",
+      "Operator": "magnam",
       "Values": [
-        "ea",
-        "iusto"
+        "repudiandae",
+        "consequatur"
       ],
       "DisplayValues": [
-        "nulla",
-        "modi"
+        "esse",
+        "earum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 886,
+      "InterParenthesis": 596,
       "InterOperator": "And",
-      "UniqueHash": 996
+      "UniqueHash": 542
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Mitchell-Rice",
-      "DisplayTooltip": "et",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Kirlin Group",
+      "DisplayTooltip": "ut",
+      "DisplayType": "incidunt",
       "CanOrderBy": false,
-      "Name": "Langosh, Moen and Rempel",
+      "Name": "Gusikowski-Hintz",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Wisoky-Kunze",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "repellendus",
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Bauch-Hegmann",
+      "IsVisible": false,
+      "ExtraInfo": "sint",
+      "Width": "sed",
       "IconHint": "cum",
-      "HeadingIconHint": "ipsam"
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Wilderman-Ankunding",
-      "PrimaryKey": 718,
+      "EntityName": "Mertz Inc and Sons",
+      "PrimaryKey": 498,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "itaque",
-          "LinkHint": "vel"
+          "DisplayValue": "ipsam",
+          "TooltipHint": "quis",
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "debitis",
-      "StyleHint": "ut",
+      "LinkHint": "et",
+      "StyleHint": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kulas-Connelly",
-      "Description": "User-centric dedicated policy",
-      "Rank": 985,
+      "Name": "Murray Inc and Sons",
+      "Description": "Advanced multi-state local area network",
+      "Rank": 212,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kulas-Connelly",
-      "Description": "User-centric dedicated policy",
-      "Rank": 985,
+      "Name": "Murray Inc and Sons",
+      "Description": "Advanced multi-state local area network",
+      "Rank": 212,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 60
+      "FieldLength": 375
     }
   }
 }

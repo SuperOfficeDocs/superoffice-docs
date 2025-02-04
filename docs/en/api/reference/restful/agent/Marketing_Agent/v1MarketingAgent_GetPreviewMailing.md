@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 656
+  "ShipmentAddrId": 440
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2023-03-30T10:17:55.7540473+02:00",
+  "SendingTime": "2000-09-10T13:13:23.3520388+02:00",
   "Status": "Blocked",
-  "ShipmentId": 879,
-  "ShipmentDescription": "Automated non-volatile challenge",
-  "FromAddress": "facere",
-  "Configuration": 506,
-  "ContactId": 526,
-  "ContactName": "Corwin-Windler",
-  "PersonId": 178,
-  "PersonFullName": "Jermain Botsford DVM",
-  "ShipmentType": "explicabo",
-  "MessageId": 784,
-  "MessageSubject": "sint",
-  "DocumentMessageId": 851,
-  "Opened": "2008-09-03T10:17:55.7540473+02:00",
-  "LinkClicks": 531,
+  "ShipmentId": 715,
+  "ShipmentDescription": "Future-proofed client-driven productivity",
+  "FromAddress": "ratione",
+  "Configuration": 587,
+  "ContactId": 198,
+  "ContactName": "Price, Lynch and Bruen",
+  "PersonId": 655,
+  "PersonFullName": "Ansel Tromp",
+  "ShipmentType": "quisquam",
+  "MessageId": 774,
+  "MessageSubject": "hic",
+  "DocumentMessageId": 278,
+  "Opened": "2000-03-18T13:13:23.3520388+01:00",
+  "LinkClicks": 14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

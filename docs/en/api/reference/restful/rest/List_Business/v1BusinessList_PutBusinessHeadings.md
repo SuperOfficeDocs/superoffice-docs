@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 745,
-    "Name": "Dickens-Dach",
-    "Tooltip": "est",
+    "HeadingId": 509,
+    "Name": "Lakin-Greenholt",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 260
+    "Rank": 299,
+    "UdListDefinitionId": 253
   },
   {
-    "HeadingId": 745,
-    "Name": "Dickens-Dach",
-    "Tooltip": "est",
+    "HeadingId": 509,
+    "Name": "Lakin-Greenholt",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 260
+    "Rank": 299,
+    "UdListDefinitionId": 253
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 34,
-    "Name": "Ferry LLC",
-    "Tooltip": "commodi",
+    "HeadingId": 821,
+    "Name": "Reilly LLC",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 976,
-    "UdListDefinitionId": 59,
+    "Rank": 66,
+    "UdListDefinitionId": 34,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 244
       }
     }
   }

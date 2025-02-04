@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Walter Group",
-    "ToolTip": "Iste sit nihil voluptas voluptate quisquam.",
+    "Id": 324,
+    "Name": "Barrows, Walter and Considine",
+    "ToolTip": "Aliquam dolores magnam nesciunt dolore in.",
     "Deleted": true,
-    "Rank": 947,
-    "Type": "rerum",
-    "ColorBlock": 866,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "1998-06-19T10:17:56.3322071+02:00",
+    "Rank": 292,
+    "Type": "est",
+    "ColorBlock": 900,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2013-10-31T13:13:24.4934105+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Satterfield-Quigley",
-        "ToolTip": "Asperiores ducimus rerum temporibus amet ut.",
-        "Deleted": false,
-        "Rank": 821,
-        "Type": "a",
-        "ColorBlock": 37,
-        "IconHint": "quis",
+        "Id": 649,
+        "Name": "Kling Group",
+        "ToolTip": "Et sunt enim odit qui.",
+        "Deleted": true,
+        "Rank": 673,
+        "Type": "porro",
+        "ColorBlock": 18,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2001-12-20T10:17:56.3322071+01:00",
+        "LastChanged": "2022-01-22T13:13:24.4934105+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "est",
+        "ExtraInfo": "vero",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Ludie Bayer",
+        "FullName": "Andy Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 220
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "error",
-    "Hidden": false,
-    "FullName": "Barton Parker",
+    "ExtraInfo": "dolore",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Mrs. Francesca Francisca Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldLength": 179
       }
     }
   }

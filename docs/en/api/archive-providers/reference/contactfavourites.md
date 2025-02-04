@@ -351,13 +351,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=contactSupportPerson/middleName,contactAssociate/contactName,contactSupportAssociate/locationAddress
+GET /api/v1/archive/contactfavourites?$select=restrictionPostalAddress/line1,contactAssociate/fullName,contactExtra/x_contact_float,NumberOfSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

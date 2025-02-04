@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 492,
-  "Section": "unde",
-  "Key": "recusandae",
-  "Name": "Johnston Group",
+  "PrefDescId": 590,
+  "Section": "natus",
+  "Key": "quae",
+  "Name": "Kemmer LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered mission-critical moratorium",
-  "IsBuiltin": true,
-  "TableName": "Hills-Mayer",
-  "UserDefinedListId": 599,
-  "Rank": 624,
-  "SubGroup": "sit",
-  "MinLevel": 651,
-  "MaxValue": 711,
-  "MinValue": 161,
-  "RequiredLicense": "sapiente",
+  "Description": "Profit-focused intangible flexibility",
+  "IsBuiltin": false,
+  "TableName": "Mitchell, Goyette and O'Kon",
+  "UserDefinedListId": 127,
+  "Rank": 50,
+  "SubGroup": "ut",
+  "MinLevel": 235,
+  "MaxValue": 928,
+  "MinValue": 492,
+  "RequiredLicense": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

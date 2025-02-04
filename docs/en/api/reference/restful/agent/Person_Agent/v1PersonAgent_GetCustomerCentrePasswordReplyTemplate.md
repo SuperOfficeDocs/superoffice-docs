@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 616
+  "PersonId": 31
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 343,
-  "PlainParsed": "mollitia",
-  "HtmlParsed": "et",
+  "ReplyTemplateId": 731,
+  "PlainParsed": "maxime",
+  "HtmlParsed": "expedita",
   "Attachments": [
     {
-      "AttachmentId": 893,
-      "Name": "Koss, Lakin and Waelchi",
-      "ContentType": "quasi",
-      "AttSize": 429,
-      "InlineImage": true,
-      "ContentId": "voluptas",
-      "AuthKey": "dolores",
+      "AttachmentId": 207,
+      "Name": "Carter Group",
+      "ContentType": "quidem",
+      "AttSize": 103,
+      "InlineImage": false,
+      "ContentId": "commodi",
+      "AuthKey": "quasi",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 301
+          "FieldLength": 783
         }
       }
     }
   ],
-  "Subject": "adipisci",
+  "Subject": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 842
     }
   }
 }

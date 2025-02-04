@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Hoppe-Grimes",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 576,
-  "IsCustomList": true,
+  "Id": 309,
+  "Name": "Breitenberg-Runolfsdottir",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 755,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "laudantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Boehm, Weber and Roberts",
-  "Tooltip": "autem",
+  "Id": 857,
+  "Name": "Torphy Group",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "Rank": 544,
-  "IsCustomList": true,
+  "Rank": 897,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

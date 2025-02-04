@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 128,
-  "AssociateId": 8,
-  "Caption": "deleniti",
+  "DashboardId": 274,
+  "AssociateId": 490,
+  "Caption": "incidunt",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 781,
-      "Caption": "occaecati",
-      "Description": "Realigned composite artificial intelligence",
-      "ChartName": "Flatley-Barrows",
+      "DashboardTileId": 928,
+      "Caption": "et",
+      "Description": "Face to face stable strategy",
+      "ChartName": "Skiles-Mertz",
       "ChartId": "culpa",
       "IsDefault": false,
-      "AssociateId": 539,
-      "GroupId": 984,
-      "SelectionId": 528,
-      "Config": "laboriosam",
+      "AssociateId": 441,
+      "GroupId": 981,
+      "SelectionId": 534,
+      "Config": "tempora",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 321
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

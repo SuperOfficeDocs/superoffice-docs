@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 846,
-  "Name": "Grimes LLC",
+  "SelectionId": 610,
+  "Name": "Feil Group",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored bottom-line open architecture",
-  "Postit": "ut",
+  "Description": "Polarised directional initiative",
+  "Postit": "architecto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 796,
-  "IncludePerson": 335,
+  "GroupIdx": 484,
+  "IncludePerson": 780,
   "MemberCount": 99.99,
-  "Name": "Klein, Hudson and Feeney",
-  "PostitTextId": 281,
-  "CreatedDate": "2003-01-07T10:17:56.0509411+01:00",
-  "SelectionId": 1000,
+  "Name": "McCullough Group",
+  "PostitTextId": 37,
+  "CreatedDate": "2014-09-12T13:13:23.9622111+02:00",
+  "SelectionId": 868,
   "SoundEx": "dolorem",
-  "Source": 764,
-  "TextId": 181,
-  "UpdatedDate": "2014-02-11T10:17:56.0509411+01:00",
-  "UpdatedCount": 408,
-  "Visibility": 340,
+  "Source": 240,
+  "TextId": 228,
+  "UpdatedDate": "2007-03-13T13:13:23.9622111+01:00",
+  "UpdatedCount": 867,
+  "Visibility": 953,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 563,
-  "TargetTableName": "Gutkowski LLC",
+  "TargetTableNumber": 528,
+  "TargetTableName": "O'Kon Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 346,
-  "RightSelectionId": 858,
+  "LeftSelectionId": 831,
+  "RightSelectionId": 441,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Emard LLC",
-  "ShadowProviderName": "DuBuque Inc and Sons",
-  "ChartKey": "consequatur",
-  "LastLoaded": "2011-08-31T10:17:56.0509411+02:00",
-  "LastLoadedBy": 370,
+  "MainProviderName": "Leannon, Maggio and Donnelly",
+  "ShadowProviderName": "Schaefer-Raynor",
+  "ChartKey": "omnis",
+  "LastLoaded": "1999-01-05T13:13:23.9622111+01:00",
+  "LastLoadedBy": 512,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-03-13T10:17:56.0509411+01:00",
-  "LastMembershipChangeBy": 869,
+  "LastMembershipChange": "2024-11-11T13:13:23.9622111+01:00",
+  "LastMembershipChangeBy": 134,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "quisquam",
-  "MailingsProviderName": "Pagac-Ullrich",
-  "DashboardTileDefinitionId": 513,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "id",
+  "MailingsProviderName": "Macejkovic, Ankunding and Lang",
+  "DashboardTileDefinitionId": 181,
   "VisibleFor": [
     {
-      "VisibleId": 648,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 840
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     },
     {
-      "VisibleId": 648,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 840
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 54
     }
   }
 }

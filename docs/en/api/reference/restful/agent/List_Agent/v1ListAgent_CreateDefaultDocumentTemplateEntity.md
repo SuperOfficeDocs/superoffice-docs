@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 244,
-  "Name": "Torphy, Fay and Ledner",
-  "Tooltip": "numquam",
-  "SaveInDb": 656,
-  "Filename": "pariatur",
-  "DefaultOref": "quidem",
+  "DocumentTemplateId": 738,
+  "Name": "Crona, Murphy and Yost",
+  "Tooltip": "odio",
+  "SaveInDb": 403,
+  "Filename": "perferendis",
+  "DefaultOref": "sint",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 261,
-  "IntentId": 633,
+  "AutoeventId": 15,
+  "IntentId": 219,
   "IsDefaultPublished": false,
-  "Rank": 46,
-  "LoadTemplateFromPlugin": 876,
-  "MimeType": "placeat",
+  "Rank": 671,
+  "LoadTemplateFromPlugin": 987,
+  "MimeType": "labore",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 425,
+  "DocumentTypeKey": 485,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "beth@gleason.us",
+  "EmailSubject": "verdie.tillman@durganbraun.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "larry_corkery@stokesmayert.com",
+  "SenderEmailAddress": "greg@terryokon.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldLength": 518
     }
   }
 }

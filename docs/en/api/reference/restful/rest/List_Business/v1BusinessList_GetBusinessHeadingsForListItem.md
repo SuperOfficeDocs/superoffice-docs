@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Bahringer, Stark and Beier",
-    "ToolTip": "Eos sint exercitationem.",
-    "Deleted": false,
-    "Rank": 398,
-    "Type": "enim",
-    "ColorBlock": 367,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "1998-04-14T10:18:00.9418629+02:00",
+    "Id": 234,
+    "Name": "Kunze LLC",
+    "ToolTip": "Id iure aut animi impedit explicabo.",
+    "Deleted": true,
+    "Rank": 737,
+    "Type": "atque",
+    "ColorBlock": 911,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2012-06-10T13:13:32.839316+02:00",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Bins Inc and Sons",
-        "ToolTip": "Non nobis ab corporis illo in voluptatem aut.",
+        "Id": 503,
+        "Name": "Sawayn-Hoppe",
+        "ToolTip": "Quasi ipsa possimus velit.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "et",
-        "ColorBlock": 87,
-        "IconHint": "tempora",
+        "Rank": 852,
+        "Type": "voluptas",
+        "ColorBlock": 943,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "1999-12-22T10:18:00.9418629+01:00",
+        "LastChanged": "2005-01-20T13:13:32.839316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Ms. Gus Jordy Keebler Jr.",
+        "ExtraInfo": "vitae",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Ms. Sarai Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 459
+            "FieldType": "System.String",
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "quo",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "corrupti",
     "Hidden": true,
-    "FullName": "Orville Dibbert",
+    "FullName": "Rossie Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 504
       }
     }
   }

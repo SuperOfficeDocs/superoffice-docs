@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Homenick Inc and Sons"
+  "ConnectorName": "Boyer, Fadel and Becker"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 440,
-  "ERPName": "Reinger-Nienow",
-  "DisplayName": "Pacocha-Turcotte",
-  "DisplayDescription": "Synergized encompassing productivity",
-  "Rank": 208,
-  "ConnectorName": "Haley LLC",
-  "ErpConnectionId": 305,
-  "ExtraData": "sit",
-  "IsAvailable": true,
+  "QuoteConnectionId": 272,
+  "ERPName": "Fisher Group",
+  "DisplayName": "Padberg Group",
+  "DisplayDescription": "Managed encompassing methodology",
+  "Rank": 951,
+  "ConnectorName": "Kuvalis, Brekke and Green",
+  "ErpConnectionId": 751,
+  "ExtraData": "modi",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 664,
-      "ERPPriceListKey": "sed",
-      "QuoteConnectionId": 263,
-      "Name": "Botsford Group",
-      "Description": "Monitored regional hub",
-      "Currency": "sint",
-      "CurrencyName": "Runolfsson-Jaskolski",
-      "ValidFrom": "2022-10-23T10:17:55.9415595+02:00",
-      "ValidTo": "2016-09-11T10:17:55.9415595+02:00",
-      "IsActive": false,
+      "PriceListId": 220,
+      "ERPPriceListKey": "minima",
+      "QuoteConnectionId": 494,
+      "Name": "Pollich, Steuber and Lang",
+      "Description": "Object-based transitional forecast",
+      "Currency": "qui",
+      "CurrencyName": "VonRueden Inc and Sons",
+      "ValidFrom": "2001-07-21T13:13:23.7425716+02:00",
+      "ValidTo": "2003-11-07T13:13:23.7425716+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 299
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    678,
-    235
+    229,
+    358
   ],
   "AssociateAccessIds": [
-    716,
-    96
+    544,
+    495
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

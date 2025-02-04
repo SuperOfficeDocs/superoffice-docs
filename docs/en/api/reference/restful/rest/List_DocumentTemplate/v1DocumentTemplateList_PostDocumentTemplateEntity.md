@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 460,
-  "Name": "Nicolas-Kiehn",
-  "Tooltip": "quis",
-  "SaveInDb": 525,
-  "Filename": "qui",
-  "DefaultOref": "ea",
+  "DocumentTemplateId": 30,
+  "Name": "Langosh-Price",
+  "Tooltip": "molestias",
+  "SaveInDb": 247,
+  "Filename": "delectus",
+  "DefaultOref": "neque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 541,
-  "IntentId": 505,
+  "AutoeventId": 499,
+  "IntentId": 904,
   "IsDefaultPublished": true,
-  "Rank": 20,
-  "LoadTemplateFromPlugin": 567,
-  "MimeType": "similique",
+  "Rank": 231,
+  "LoadTemplateFromPlugin": 143,
+  "MimeType": "earum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 363,
+  "DocumentTypeKey": 134,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "joanne_mann@daughertycorkery.us",
-  "IncludeSignature": true,
+  "EmailSubject": "kali.mann@marvin.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "veda.pollich@okeefejewess.info",
+  "SenderEmailAddress": "stefan@treutel.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 540,
-  "Name": "Wyman Group",
-  "Tooltip": "fugit",
-  "SaveInDb": 936,
-  "Filename": "officiis",
-  "DefaultOref": "voluptates",
+  "DocumentTemplateId": 391,
+  "Name": "Mayert-Dickens",
+  "Tooltip": "corporis",
+  "SaveInDb": 726,
+  "Filename": "alias",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 828,
-  "IntentId": 917,
-  "IsDefaultPublished": true,
-  "Rank": 142,
-  "LoadTemplateFromPlugin": 86,
-  "MimeType": "ipsum",
+  "AutoeventId": 785,
+  "IntentId": 523,
+  "IsDefaultPublished": false,
+  "Rank": 995,
+  "LoadTemplateFromPlugin": 241,
+  "MimeType": "quae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 529,
+  "DocumentTypeKey": 163,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alda@huels.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "kendra@hagenes.ca",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "anjali_stroman@ziemann.uk",
+  "SenderEmailAddress": "sebastian@ziemannlindgren.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 529
     }
   }
 }

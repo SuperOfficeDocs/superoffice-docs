@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 764,
-  "Name": "Halvorson Group",
-  "ConsentText": "esse",
-  "FormText": "delectus",
+  "ConsentPurposeId": 597,
+  "Name": "Hegmann-Ondricka",
+  "ConsentText": "est",
+  "FormText": "sit",
   "Key": "consequatur",
-  "Tooltip": "quidem",
-  "Active": 391,
-  "UpdatedDate": "2005-02-23T10:18:00.9574888+01:00",
+  "Tooltip": "quia",
+  "Active": 784,
+  "UpdatedDate": "2018-09-29T13:13:32.9018014+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 288,
-  "PrivacyStatementDesc": "soluta",
+  "Rank": 449,
+  "PrivacyStatementDesc": "est",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 590,
-  "Name": "Strosin-Collins",
-  "ConsentText": "recusandae",
-  "FormText": "quae",
-  "Key": "illum",
-  "Tooltip": "occaecati",
-  "Active": 927,
-  "UpdatedDate": "2002-06-21T10:18:00.9574888+02:00",
+  "ConsentPurposeId": 868,
+  "Name": "Morissette-Hamill",
+  "ConsentText": "rerum",
+  "FormText": "maxime",
+  "Key": "minima",
+  "Tooltip": "voluptatem",
+  "Active": 666,
+  "UpdatedDate": "2005-03-06T13:13:32.9018014+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 108,
-  "PrivacyStatementDesc": "cupiditate",
+  "Deleted": true,
+  "Rank": 459,
+  "PrivacyStatementDesc": "occaecati",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 669
     }
   }
 }

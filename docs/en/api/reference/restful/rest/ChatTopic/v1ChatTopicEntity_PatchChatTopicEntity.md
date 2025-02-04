@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sequi",
+    "path": "accusantium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sequi",
+    "path": "accusantium",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 526,
-  "Name": "Hane-Kerluke",
-  "Description": "Multi-lateral intermediate open system",
-  "WelcomeMessage": "corporis",
+  "ChatTopicId": 670,
+  "Name": "Stiedemann Inc and Sons",
+  "Description": "Open-source incremental firmware",
+  "WelcomeMessage": "officiis",
   "Language": null,
-  "LastAccept": "2002-08-10T10:18:00.2699456+02:00",
-  "SecondsPrAccept": 693,
-  "AlertRecipient": "aut",
+  "LastAccept": "2000-05-21T13:13:31.4333046+02:00",
+  "SecondsPrAccept": 306,
+  "AlertRecipient": "autem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "deserunt",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quos",
-  "WarnNewChatMinutes": 261,
-  "WarnManagerNewChatMinutes": 934,
-  "TicketEnabled": true,
+  "BadgeHeader": "neque",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "non",
+  "WarnNewChatMinutes": 526,
+  "WarnManagerNewChatMinutes": 185,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 36,
-  "WarnManagerChatMessageMinutes": 601,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 728,
-  "OfflineFormQueueLength": 263,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "eligendi",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 349,
+  "WarnManagerChatMessageMinutes": 480,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 729,
+  "OfflineFormQueueLength": 469,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 664
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

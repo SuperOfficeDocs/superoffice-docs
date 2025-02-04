@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mohr, Yundt and Hermiston",
-  "ForceFlatList": false,
-  "AdditionalInfo": "ullam",
-  "OnlyHistory": true
+  "Name": "Sanford LLC",
+  "ForceFlatList": true,
+  "AdditionalInfo": "minima",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Blanda LLC",
-    "ToolTip": "Aspernatur explicabo earum optio dolorum reiciendis.",
+    "Id": 166,
+    "Name": "Schuster-Lindgren",
+    "ToolTip": "Dolor ex odio eveniet.",
     "Deleted": false,
-    "Rank": 663,
-    "Type": "ab",
+    "Rank": 402,
+    "Type": "minima",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Brown Inc and Sons",
-        "ToolTip": "Aut iste itaque sint ut voluptate consequatur.",
-        "Deleted": true,
-        "Rank": 827,
-        "Type": "quia",
+        "Id": 555,
+        "Name": "Rempel LLC",
+        "ToolTip": "Voluptatem delectus voluptatem sint quia accusantium.",
+        "Deleted": false,
+        "Rank": 965,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 352,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "explicabo",
-        "FullName": "Dr. Nina Modesto O'Keefe",
+        "IconHint": "omnis",
+        "ColorBlock": 834,
+        "ExtraInfo": "possimus",
+        "StyleHint": "voluptatem",
+        "FullName": "Katarina Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldType": "System.String",
+            "FieldLength": 63
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 231,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "aut",
-    "FullName": "Mr. Jadon Farrell Sr.",
+    "IconHint": "aut",
+    "ColorBlock": 12,
+    "ExtraInfo": "officia",
+    "StyleHint": "accusamus",
+    "FullName": "Marcelle Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 231
       }
     }
   }

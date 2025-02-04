@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Mertz, Wiegand and McClure",
-      "Operator": "vel",
+      "Name": "Bogan, Macejkovic and Renner",
+      "Operator": "praesentium",
       "Values": [
-        "quo",
-        "incidunt"
+        "exercitationem",
+        "autem"
       ],
       "DisplayValues": [
-        "sunt",
-        "reiciendis"
+        "modi",
+        "corrupti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 24,
+      "InterParenthesis": 624,
       "InterOperator": "And",
-      "UniqueHash": 445
+      "UniqueHash": 647
     }
   ],
-  "ProviderName": "Parisian, Murphy and Brakus",
+  "ProviderName": "Carroll-Terry",
   "DesiredColumns": [
-    "nobis",
-    "non"
+    "et",
+    "nostrum"
   ],
-  "PageSize": 184,
-  "PageNumber": 190
+  "PageSize": 84,
+  "PageNumber": 647
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Considine LLC",
-      "DisplayTooltip": "iure",
-      "DisplayType": "laboriosam",
+      "DisplayName": "Boehm-Bosco",
+      "DisplayTooltip": "assumenda",
+      "DisplayType": "ratione",
       "CanOrderBy": false,
-      "Name": "Wiegand-Johnson",
+      "Name": "Pacocha LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "error",
-      "RestrictionListName": "Hilll, Rutherford and Sauer",
-      "IsVisible": false,
-      "ExtraInfo": "velit",
-      "Width": "a",
-      "IconHint": "quia",
-      "HeadingIconHint": "eos"
+      "RestrictionType": "et",
+      "RestrictionListName": "Botsford LLC",
+      "IsVisible": true,
+      "ExtraInfo": "facilis",
+      "Width": "officiis",
+      "IconHint": "aut",
+      "HeadingIconHint": "laborum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Koepp, Lebsack and Gaylord",
-      "PrimaryKey": 343,
+      "EntityName": "Flatley Inc and Sons",
+      "PrimaryKey": 468,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minima",
-          "TooltipHint": "ea",
-          "LinkHint": "nemo"
+          "DisplayValue": "ex",
+          "TooltipHint": "et",
+          "LinkHint": "velit"
         }
       },
-      "LinkHint": "cumque",
-      "StyleHint": "eum",
+      "LinkHint": "excepturi",
+      "StyleHint": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 960
         }
       }
     }
   ],
-  "RowCount": 22,
+  "RowCount": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 260
     }
   }
 }

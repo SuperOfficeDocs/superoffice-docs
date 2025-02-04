@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 606,
-  "IncludeProjectAppointments": false,
-  "StartTime": "2018-09-24T10:17:54.8164912+02:00",
-  "EndTime": "2023-03-19T10:17:54.8164912+01:00",
-  "Count": 904,
+  "PersonId": 696,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2017-12-24T13:13:21.5241+01:00",
+  "EndTime": "2009-08-07T13:13:21.5241+02:00",
+  "Count": 526,
   "TaskIds": [
-    877,
-    227
+    481,
+    443
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 346,
-    "StartDate": "2022-04-16T10:17:54.8164912+02:00",
-    "EndDate": "2009-02-16T10:17:54.8164912+01:00",
+    "AppointmentId": 722,
+    "StartDate": "2012-04-19T13:13:21.5241+02:00",
+    "EndDate": "2003-04-08T13:13:21.5241+02:00",
     "Type": "BookingForChecklist",
-    "Task": "accusantium",
-    "AssociateFullName": "Kobe Wilkinson",
-    "ContactName": "Stark-Graham",
-    "Description": "Assimilated fault-tolerant definition",
-    "PersonFullName": "Dock Graham",
-    "PersonId": 198,
-    "ContactId": 19,
-    "ProjectId": 1000,
-    "ProjectName": "Aufderhar LLC",
-    "IsPublished": false,
-    "AssociateId": 197,
-    "ColorIndex": 852,
+    "Task": "occaecati",
+    "AssociateFullName": "Ms. Malachi Bartoletti IV",
+    "ContactName": "Heathcote-Turner",
+    "Description": "Optimized incremental parallelism",
+    "PersonFullName": "Madisyn Keyon Ernser MD",
+    "PersonId": 835,
+    "ContactId": 542,
+    "ProjectId": 321,
+    "ProjectName": "Kuphal, Dicki and Herzog",
+    "IsPublished": true,
+    "AssociateId": 872,
+    "ColorIndex": 42,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 306,
-    "PriorityName": "Dibbert-Walsh",
+    "PriorityId": 134,
+    "PriorityName": "Mayert-D'Amore",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2023-11-21T10:17:54.8164912+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2002-09-23T13:13:21.5241+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1997-07-30T10:17:54.8164912+02:00",
-    "RecurringEndDate": "2006-02-08T10:17:54.8164912+01:00",
-    "MotherId": 457,
-    "AssignedBy": 748,
-    "AssignedByFullName": "June Kuphal",
+    "RecurringStartDate": "2022-08-12T13:13:21.5241+02:00",
+    "RecurringEndDate": "2009-08-09T13:13:21.5241+02:00",
+    "MotherId": 57,
+    "AssignedBy": 277,
+    "AssignedByFullName": "Lavonne Volkman IV",
     "RejectReason": "",
-    "Location": "suscipit",
-    "AlarmLeadTime": "perferendis",
-    "SaleId": 458,
-    "SaleName": "Walker-Conn",
-    "AssociateName": "Fritsch LLC",
-    "CreatedDate": "2016-01-24T10:17:54.8164912+01:00",
-    "CreatedBy": "quam",
-    "CreatedByFullName": "Mr. Isabella Ebert DDS",
-    "CreatedByAssociateId": 276,
+    "Location": "ad",
+    "AlarmLeadTime": "et",
+    "SaleId": 599,
+    "SaleName": "McGlynn Inc and Sons",
+    "AssociateName": "Hegmann LLC",
+    "CreatedDate": "2017-03-21T13:13:21.5241+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Miss Malinda Skiles",
+    "CreatedByAssociateId": 620,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 375,
-    "Title": "corrupti",
-    "Agenda": "laboriosam",
-    "InternalNotes": "delectus",
+    "PreferredTZLocation": 667,
+    "Title": "blanditiis",
+    "Agenda": "minima",
+    "InternalNotes": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldLength": 154
       }
     }
   }

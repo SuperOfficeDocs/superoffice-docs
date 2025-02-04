@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 791,
-    "Name": "Wiza, Schuster and Prosacco",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 701,
-    "UdListDefinitionId": 221
+    "HeadingId": 907,
+    "Name": "Fay, Kirlin and Hintz",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 20,
+    "UdListDefinitionId": 700
   },
   {
-    "HeadingId": 791,
-    "Name": "Wiza, Schuster and Prosacco",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 701,
-    "UdListDefinitionId": 221
+    "HeadingId": 907,
+    "Name": "Fay, Kirlin and Hintz",
+    "Tooltip": "exercitationem",
+    "Deleted": false,
+    "Rank": 20,
+    "UdListDefinitionId": 700
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 226,
-    "Name": "Kautzer-Treutel",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "Rank": 787,
-    "UdListDefinitionId": 613,
+    "HeadingId": 407,
+    "Name": "Russel, Mraz and Kohler",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "Rank": 662,
+    "UdListDefinitionId": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldType": "System.Int32",
+        "FieldLength": 658
       }
     }
   }

@@ -136,16 +136,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 254,
-  "SourceTicketEntityStatusId": 739,
-  "SourceTicketEntityActivate": "2017-06-05T10:17:56.2384453+02:00",
+  "SourceTicketEntityId": 956,
+  "SourceTicketEntityStatusId": 204,
+  "SourceTicketEntityActivate": "2023-02-25T13:13:24.3215767+01:00",
   "TransferMessageIds": [
-    115,
-    148
+    901,
+    930
   ],
   "NewTicketEntity": null
 }
@@ -158,21 +158,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 248,
-  "Title": "repudiandae",
-  "CreatedAt": "2012-03-13T10:17:56.2384453+01:00",
-  "LastChanged": "2010-06-18T10:17:56.2384453+02:00",
-  "ReadByOwner": "2018-08-12T10:17:56.2384453+02:00",
-  "ReadByCustomer": "2020-05-21T10:17:56.2384453+02:00",
-  "FirstReadByOwner": "2014-11-03T10:17:56.2384453+01:00",
-  "FirstReadByUser": "2014-11-24T10:17:56.2384453+01:00",
-  "Activate": "2008-02-12T10:17:56.2384453+01:00",
-  "ClosedAt": "2009-12-22T10:17:56.2384453+01:00",
-  "RepliedAt": "2004-05-31T10:17:56.2384453+02:00",
-  "AlertTimeout": "2004-12-30T10:17:56.2384453+01:00",
-  "Deadline": "2016-12-24T10:17:56.2384453+01:00",
+  "TicketId": 26,
+  "Title": "vitae",
+  "CreatedAt": "2011-02-20T13:13:24.3215767+01:00",
+  "LastChanged": "2011-02-24T13:13:24.3215767+01:00",
+  "ReadByOwner": "2023-02-03T13:13:24.3215767+01:00",
+  "ReadByCustomer": "2009-08-31T13:13:24.3215767+02:00",
+  "FirstReadByOwner": "2015-05-18T13:13:24.3215767+02:00",
+  "FirstReadByUser": "2002-09-24T13:13:24.3215767+02:00",
+  "Activate": "2004-07-14T13:13:24.3215767+02:00",
+  "ClosedAt": "2003-08-14T13:13:24.3215767+02:00",
+  "RepliedAt": "2007-06-23T13:13:24.3215767+02:00",
+  "AlertTimeout": "2023-07-30T13:13:24.3215767+02:00",
+  "Deadline": "2018-11-17T13:13:24.3215767+01:00",
   "CreatedBy": null,
-  "Author": "exercitationem",
+  "Author": "fugiat",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -183,162 +183,162 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "dolorum",
-      "PersonId": 473,
-      "Mrmrs": "beatae",
-      "Firstname": "Ashton",
-      "Lastname": "Herman",
-      "MiddleName": "Kuphal, West and Ryan",
-      "Title": "aperiam",
-      "Description": "Front-line intermediate middleware",
-      "Email": "lowell@hills.ca",
-      "FullName": "Aleen Bartoletti",
-      "DirectPhone": "259.777.9390 x6318",
-      "FormalName": "Medhurst Inc and Sons",
-      "CountryId": 744,
-      "ContactId": 75,
-      "ContactName": "Dare LLC",
-      "Retired": 673,
-      "Rank": 438,
-      "ActiveInterests": 974,
+      "Position": "non",
+      "PersonId": 800,
+      "Mrmrs": "voluptatibus",
+      "Firstname": "Conrad",
+      "Lastname": "Ryan",
+      "MiddleName": "Schroeder Group",
+      "Title": "consequuntur",
+      "Description": "Organized reciprocal service-desk",
+      "Email": "jo_feest@hamillauer.biz",
+      "FullName": "Prof. Jessie Cathrine Cormier V",
+      "DirectPhone": "1-312-319-4014",
+      "FormalName": "Christiansen Inc and Sons",
+      "CountryId": 592,
+      "ContactId": 438,
+      "ContactName": "Hane, Muller and Gerhold",
+      "Retired": 265,
+      "Rank": 36,
+      "ActiveInterests": 475,
       "ContactDepartment": "",
-      "ContactCountryId": 450,
-      "ContactOrgNr": "703890",
-      "FaxPhone": "(231)946-8616 x57388",
-      "MobilePhone": "1-071-805-8920 x943",
-      "ContactPhone": "715.206.4828",
-      "AssociateName": "Schroeder LLC",
-      "AssociateId": 585,
-      "UsePersonAddress": false,
-      "ContactFax": "labore",
-      "Kanafname": "illo",
-      "Kanalname": "possimus",
-      "Post1": "voluptatem",
-      "Post2": "velit",
-      "Post3": "est",
-      "EmailName": "brennon.waelchi@shanahan.biz",
-      "ContactFullName": "Aida Murray",
-      "ActiveErpLinks": 871,
-      "TicketPriorityId": 618,
-      "SupportLanguageId": 28,
-      "SupportAssociateId": 240,
+      "ContactCountryId": 379,
+      "ContactOrgNr": "624482",
+      "FaxPhone": "883-550-7216 x7339",
+      "MobilePhone": "(355)788-8981",
+      "ContactPhone": "(570)613-9898",
+      "AssociateName": "Donnelly, Kuhic and Krajcik",
+      "AssociateId": 301,
+      "UsePersonAddress": true,
+      "ContactFax": "et",
+      "Kanafname": "alias",
+      "Kanalname": "laboriosam",
+      "Post1": "nemo",
+      "Post2": "cum",
+      "Post3": "et",
+      "EmailName": "concepcion.koelpin@satterfield.co.uk",
+      "ContactFullName": "Magdalen Parker IV",
+      "ActiveErpLinks": 731,
+      "TicketPriorityId": 741,
+      "SupportLanguageId": 916,
+      "SupportAssociateId": 306,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 84
         }
       }
     }
   ],
-  "AlertLevel": 875,
-  "ConnectId": 593,
+  "AlertLevel": 330,
+  "ConnectId": 195,
   "ReadStatus": "Green",
-  "TimeToReply": 950,
-  "RealTimeToReply": 547,
-  "TimeToClose": 43,
-  "RealTimeToClose": 426,
-  "TimeSpentInternally": 436,
-  "TimeSpentExternally": 45,
-  "TimeSpentQueue": 560,
-  "RealTimeSpentInternally": 112,
-  "RealTimeSpentExternally": 591,
-  "RealTimeSpentQueue": 563,
-  "TimeSpent": 53,
-  "HasAttachment": true,
-  "NumReplies": 710,
-  "NumMessages": 966,
-  "FromAddress": "iste",
+  "TimeToReply": 958,
+  "RealTimeToReply": 693,
+  "TimeToClose": 407,
+  "RealTimeToClose": 982,
+  "TimeSpentInternally": 965,
+  "TimeSpentExternally": 796,
+  "TimeSpentQueue": 173,
+  "RealTimeSpentInternally": 211,
+  "RealTimeSpentExternally": 285,
+  "RealTimeSpentQueue": 215,
+  "TimeSpent": 769,
+  "HasAttachment": false,
+  "NumReplies": 692,
+  "NumMessages": 350,
+  "FromAddress": "aut",
   "Messages": [
     {
-      "TicketMessageId": 543,
-      "CreatedAt": "2009-01-02T10:17:56.2384453+01:00",
+      "TicketMessageId": 819,
+      "CreatedAt": "2004-02-22T13:13:24.3372006+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "cupiditate",
-      "PersonId": 454,
-      "PersonFullName": "Miss Julia Halle Feeney DDS",
-      "ContactId": 490,
-      "ContactName": "Denesik LLC",
+      "Important": true,
+      "Author": "nostrum",
+      "PersonId": 226,
+      "PersonFullName": "Imelda Lexie Connelly Jr.",
+      "ContactId": 354,
+      "ContactName": "Weissnat, Ruecker and Grant",
       "ContactDepartment": "",
-      "NumAttachments": 55,
-      "EmailHeader": "eva@padberg.info",
+      "NumAttachments": 566,
+      "EmailHeader": "gene_schneider@schmeler.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "eius",
-      "Sentiment": 499,
-      "SentimentConfidence": 583,
-      "CreatedBy": 621,
-      "ChangedAt": "2006-09-17T10:17:56.2540709+02:00",
+      "Language": "laborum",
+      "Sentiment": 322,
+      "SentimentConfidence": 214,
+      "CreatedBy": 738,
+      "ChangedAt": "2012-03-27T13:13:24.3372006+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldType": "System.String",
+          "FieldLength": 921
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 792,
-      "Name": "Murphy-Waelchi",
-      "ToolTip": "Ea eum nisi voluptas nulla ipsum sint officiis.",
+      "Id": 491,
+      "Name": "Gulgowski, Heidenreich and Steuber",
+      "ToolTip": "Et nobis similique.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     },
     {
-      "Id": 792,
-      "Name": "Murphy-Waelchi",
-      "ToolTip": "Ea eum nisi voluptas nulla ipsum sint officiis.",
+      "Id": 491,
+      "Name": "Gulgowski, Heidenreich and Steuber",
+      "ToolTip": "Et nobis similique.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     }
   ],
-  "Language": "itaque",
-  "Sentiment": 760,
-  "SentimentConfidence": 240,
-  "SuggestedCategoryId": 94,
+  "Language": "est",
+  "Sentiment": 957,
+  "SentimentConfidence": 372,
+  "SuggestedCategoryId": 435,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 979,
-  "IconHint": "deleniti",
+  "OrigHumanCategoryId": 773,
+  "IconHint": "illo",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 868,
+  "ActiveStatusMonitorId": 422,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "vel"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

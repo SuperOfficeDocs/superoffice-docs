@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "repellat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "repellat",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 617,
-  "Name": "Emmerich, Jaskolski and Price",
-  "Config": "nesciunt",
-  "Rank": 3,
-  "Client": "consequatur",
-  "Style": "ut",
+  "DashboardThemeId": 296,
+  "Name": "Will LLC",
+  "Config": "maxime",
+  "Rank": 427,
+  "Client": "quia",
+  "Style": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 622
     }
   },
   "_Links": {

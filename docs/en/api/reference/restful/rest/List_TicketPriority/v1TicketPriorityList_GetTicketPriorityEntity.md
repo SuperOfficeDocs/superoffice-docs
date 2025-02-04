@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 458,
-  "Name": "Paucek, Tremblay and Corkery",
+  "TicketPriorityId": 22,
+  "Name": "Barton, Leffler and Hettinger",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 979,
+  "SortOrder": 352,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 143,
-  "MonStart": "2019-02-22T10:18:01.1918781+01:00",
-  "MonStop": "2022-09-26T10:18:01.1918781+02:00",
-  "TueStart": "2010-09-12T10:18:01.1918781+02:00",
-  "TueStop": "2002-03-16T10:18:01.1918781+01:00",
-  "WedStart": "2013-03-28T10:18:01.1918781+01:00",
-  "WedStop": "2017-07-04T10:18:01.1918781+02:00",
-  "ThuStart": "2017-02-24T10:18:01.1918781+01:00",
-  "ThuStop": "1998-05-30T10:18:01.1918781+02:00",
-  "FriStart": "2002-01-31T10:18:01.1918781+01:00",
-  "FriStop": "2003-08-08T10:18:01.1918781+02:00",
-  "SatStart": "2015-12-30T10:18:01.1918781+01:00",
-  "SatStop": "2013-02-06T10:18:01.1918781+01:00",
-  "SunStart": "2012-05-24T10:18:01.1918781+02:00",
-  "SunStop": "1997-12-29T10:18:01.1918781+01:00",
+  "Deadline": 652,
+  "MonStart": "2017-09-04T13:13:33.6828687+02:00",
+  "MonStop": "2014-04-21T13:13:33.6828687+02:00",
+  "TueStart": "2000-05-19T13:13:33.6828687+02:00",
+  "TueStop": "2000-12-07T13:13:33.6828687+01:00",
+  "WedStart": "2018-05-18T13:13:33.6828687+02:00",
+  "WedStop": "2018-08-03T13:13:33.6828687+02:00",
+  "ThuStart": "2024-10-19T13:13:33.6828687+02:00",
+  "ThuStop": "2017-05-10T13:13:33.6828687+02:00",
+  "FriStart": "2019-07-21T13:13:33.6828687+02:00",
+  "FriStop": "2003-08-24T13:13:33.6828687+02:00",
+  "SatStart": "2000-09-16T13:13:33.6828687+02:00",
+  "SatStop": "2015-09-07T13:13:33.6828687+02:00",
+  "SunStart": "2017-10-11T13:13:33.6828687+02:00",
+  "SunStop": "2024-05-19T13:13:33.6828687+02:00",
   "NonDates": [
-    "aut",
-    "distinctio"
+    "ut",
+    "perferendis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 538,
-      "AlertLevel": 823,
-      "AlertTimeout": 909,
-      "Action": 526,
-      "DelegateTo": 978,
-      "ScriptId": 226,
-      "EmailTo": "marjorie.luettgen@jakubowski.co.uk",
-      "SmsTo": "enim",
-      "ReplyTemplateIdCustomer": 922,
-      "ReplyTemplateIdUser": 595,
-      "ReplyTemplateIdCatmast": 467,
-      "ReplyTemplateIdEmail": 584,
-      "RtiCustomerSms": 317,
-      "ReplyTemplateIdUserSms": 859,
-      "ReplyTemplateIdCatmastSms": 411,
-      "ReplyTemplateIdSms": 659,
+      "TicketAlertId": 359,
+      "AlertLevel": 818,
+      "AlertTimeout": 522,
+      "Action": 535,
+      "DelegateTo": 567,
+      "ScriptId": 616,
+      "EmailTo": "kailey.lesch@heller.co.uk",
+      "SmsTo": "molestias",
+      "ReplyTemplateIdCustomer": 158,
+      "ReplyTemplateIdUser": 332,
+      "ReplyTemplateIdCatmast": 173,
+      "ReplyTemplateIdEmail": 198,
+      "RtiCustomerSms": 855,
+      "ReplyTemplateIdUserSms": 613,
+      "ReplyTemplateIdCatmastSms": 239,
+      "ReplyTemplateIdSms": 127,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 427
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldLength": 721
     }
   }
 }

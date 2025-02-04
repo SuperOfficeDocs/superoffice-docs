@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 925
+  "SelectionId": 530
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell Group",
-    "Description": "Triple-buffered intangible infrastructure",
-    "Rank": 516,
+    "Name": "Steuber Inc and Sons",
+    "Description": "Face to face systemic protocol",
+    "Rank": 385,
     "Restrictions": [
       {
-        "Name": "Kreiger, Bins and Ruecker",
-        "Operator": "culpa",
+        "Name": "Boehm, Schulist and Deckow",
+        "Operator": "fugiat",
         "Values": [
-          "rerum",
-          "corporis"
+          "aut",
+          "velit"
         ],
         "DisplayValues": [
-          "ratione",
-          "consequatur"
+          "unde",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 328,
+        "InterParenthesis": 990,
         "InterOperator": "And",
-        "UniqueHash": 887
+        "UniqueHash": 661
       }
     ]
   },
   {
-    "Name": "Bartell Group",
-    "Description": "Triple-buffered intangible infrastructure",
-    "Rank": 516,
+    "Name": "Steuber Inc and Sons",
+    "Description": "Face to face systemic protocol",
+    "Rank": 385,
     "Restrictions": [
       {
-        "Name": "Kreiger, Bins and Ruecker",
-        "Operator": "culpa",
+        "Name": "Boehm, Schulist and Deckow",
+        "Operator": "fugiat",
         "Values": [
-          "rerum",
-          "corporis"
+          "aut",
+          "velit"
         ],
         "DisplayValues": [
-          "ratione",
-          "consequatur"
+          "unde",
+          "vel"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 328,
+        "InterParenthesis": 990,
         "InterOperator": "And",
-        "UniqueHash": 887
+        "UniqueHash": 661
       }
     ]
   }

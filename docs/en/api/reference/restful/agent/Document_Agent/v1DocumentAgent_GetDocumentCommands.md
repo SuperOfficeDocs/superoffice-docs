@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 486,
+  "DocumentId": 155,
   "AllowedReturnTypes": [
-    "qui",
-    "sit"
+    "dolor",
+    "autem"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ernser LLC",
-    "DisplayName": "Orn Inc and Sons",
-    "DisplayTooltip": "modi",
-    "IconHint": "ut",
+    "Name": "Kuhic LLC",
+    "DisplayName": "Ratke, Welch and Schiller",
+    "DisplayTooltip": "illo",
+    "IconHint": "officiis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Ernser LLC",
-    "DisplayName": "Orn Inc and Sons",
-    "DisplayTooltip": "modi",
-    "IconHint": "ut",
+    "Name": "Kuhic LLC",
+    "DisplayName": "Ratke, Welch and Schiller",
+    "DisplayTooltip": "illo",
+    "IconHint": "officiis",
     "ReturnType": "CustomGui"
   }
 ]

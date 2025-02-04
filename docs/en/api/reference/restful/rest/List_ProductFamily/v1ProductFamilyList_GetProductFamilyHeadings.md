@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 632,
-    "Name": "Weber, Lowe and Renner",
-    "Tooltip": "tempore",
+    "HeadingId": 489,
+    "Name": "Gleason Inc and Sons",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 757,
-    "UdListDefinitionId": 703,
+    "Rank": 210,
+    "UdListDefinitionId": 978,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 754
       }
     }
   }

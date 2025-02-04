@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 405,
-  "Name": "Aufderhar, Hagenes and Hauck",
-  "Tooltip": "quia",
-  "Rank": 19,
-  "Rate": 11589.532,
-  "Units": 21151.365999999998,
-  "Deleted": false
+  "CurrencyId": 738,
+  "Name": "O'Reilly-Grimes",
+  "Tooltip": "vel",
+  "Rank": 127,
+  "Rate": 13407.252,
+  "Units": 6004.744,
+  "Deleted": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 44,
-  "Name": "Stokes, Moore and Kertzmann",
-  "Tooltip": "nihil",
-  "Rank": 969,
-  "Rate": 13560.818,
-  "Units": 27037.018,
+  "CurrencyId": 779,
+  "Name": "Strosin LLC",
+  "Tooltip": "assumenda",
+  "Rank": 962,
+  "Rate": 846.18,
+  "Units": 16879.724,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

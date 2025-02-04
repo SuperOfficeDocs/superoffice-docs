@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 344,
-  "ContactName": "Koss Group",
-  "PersonId": 182,
-  "PersonName": "Bins Inc and Sons",
-  "AssociateId": 122,
-  "Address": "ea",
-  "EmailId": 442,
+  "ContactId": 908,
+  "ContactName": "Morar, Botsford and Ullrich",
+  "PersonId": 728,
+  "PersonName": "Wilderman Inc and Sons",
+  "AssociateId": 74,
+  "Address": "sequi",
+  "EmailId": 816,
   "DuplicatePersonIds": [
-    532,
-    649
+    511,
+    520
   ],
-  "Name": "Hackett-Weimann",
+  "Name": "Borer-Schmidt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

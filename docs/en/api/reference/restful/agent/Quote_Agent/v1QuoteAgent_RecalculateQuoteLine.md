@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "aliquam",
-    "placeat"
+    "nisi",
+    "error"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 591,
-  "ERPQuoteLineKey": "molestiae",
-  "QuoteAlternativeId": 871,
+  "QuoteLineId": 476,
+  "ERPQuoteLineKey": "ipsum",
+  "QuoteAlternativeId": 563,
   "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10827.97,
-  "DeliveredQuantity": 4973.6579999999994,
-  "Rank": 202,
-  "Name": "Kirlin Group",
-  "Description": "Multi-channelled zero tolerance array",
-  "Code": "delectus",
-  "QuantityUnit": "sit",
-  "PriceUnit": "accusantium",
-  "ItemNumber": "544944",
+  "Quantity": 11962.478,
+  "DeliveredQuantity": 23950.028,
+  "Rank": 593,
+  "Name": "Fay, Eichmann and Johnson",
+  "Description": "Centralized exuding portal",
+  "Code": "ut",
+  "QuantityUnit": "minima",
+  "PriceUnit": "aperiam",
+  "ItemNumber": "1530839",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequuntur",
-  "ProductTypeKey": "nobis",
-  "Supplier": "deserunt",
-  "SupplierCode": "iure",
-  "Thumbnail": "magni",
-  "VATInfo": "quo",
-  "VAT": 22473.914,
-  "UnitCost": 24219.552,
-  "UnitMinimumPrice": 8609.098,
-  "UnitListPrice": 15801.627999999999,
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "eos",
+  "Supplier": "ea",
+  "SupplierCode": "qui",
+  "Thumbnail": "dolores",
+  "VATInfo": "voluptatum",
+  "VAT": 5754.0239999999994,
+  "UnitCost": 14989.921999999999,
+  "UnitMinimumPrice": 27964.682,
+  "UnitListPrice": 26733.02,
   "ExtraInfo": [
     {
-      "Name": "Veum-Strosin",
-      "Value": "eos",
+      "Name": "Swift-Haag",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 798
         }
       }
     },
     {
-      "Name": "Veum-Strosin",
-      "Value": "eos",
+      "Name": "Swift-Haag",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldLength": 798
         }
       }
     }
   ],
-  "RawExtraInfo": "reiciendis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "SubscriptionQuantity": 24025.244,
-  "SubscriptionStart": "1999-01-28T10:17:55.9103076+01:00",
-  "ERPDiscountPercent": 27011.946,
-  "ERPDiscountAmount": 24711.59,
-  "DiscountPercent": 10846.774,
-  "DiscountAmount": 26745.556,
+  "RawExtraInfo": "placeat",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 26974.338,
+  "SubscriptionStart": "1998-06-18T13:13:23.6800879+02:00",
+  "ERPDiscountPercent": 28704.306,
+  "ERPDiscountAmount": 5619.262,
+  "DiscountPercent": 20900.646,
+  "DiscountAmount": 30424.872,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24109.862,
-  "EarningAmount": 21442.827999999998,
-  "SubTotal": 28055.568,
-  "TotalPrice": 3707.522,
-  "Rights": "et",
-  "Rule": "temporibus",
-  "ExtraField1": "sed",
-  "ExtraField2": "alias",
-  "ExtraField3": "corrupti",
-  "ExtraField4": "in",
-  "ExtraField5": "dolorum",
+  "EarningPercent": 10486.364,
+  "EarningAmount": 27187.45,
+  "SubTotal": 9464.68,
+  "TotalPrice": 7988.566,
+  "Rights": "tempore",
+  "Rule": "qui",
+  "ExtraField1": "cumque",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "itaque",
+  "ExtraField5": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 864
     }
   }
 }

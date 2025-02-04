@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "mozell.gerlach@conroystamm.ca"
+  "EmailAddress": "jude_rodriguez@gusikowskiratke.us"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 457,
-    "ContactName": "Flatley Group",
-    "PersonId": 480,
-    "PersonName": "Bosco-Davis",
-    "AssociateId": 114,
-    "Address": "labore",
-    "EmailId": 409,
+    "ContactId": 254,
+    "ContactName": "Schuppe-Graham",
+    "PersonId": 454,
+    "PersonName": "Mitchell-Hirthe",
+    "AssociateId": 701,
+    "Address": "asperiores",
+    "EmailId": 996,
     "DuplicatePersonIds": [
-      366,
-      573
+      308,
+      440
     ],
-    "Name": "Beahan-Wiza",
+    "Name": "Hilpert, Jakubowski and Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 173
       }
     }
   }

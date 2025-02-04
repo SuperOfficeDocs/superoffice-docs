@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=nobis
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=fugit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Witting Group",
-    "ToolTip": "Debitis consequatur non officia est itaque et molestiae.",
-    "Deleted": false,
-    "Rank": 766,
-    "Type": "magnam",
+    "Id": 59,
+    "Name": "Skiles, Mertz and Ruecker",
+    "ToolTip": "Amet qui sit nihil delectus quisquam voluptatum aspernatur.",
+    "Deleted": true,
+    "Rank": 759,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Feeney-Klocko",
-        "ToolTip": "Ullam reprehenderit ullam quaerat et et qui et.",
-        "Deleted": true,
-        "Rank": 107,
-        "Type": "pariatur",
+        "Id": 387,
+        "Name": "Schowalter, Murazik and Hoppe",
+        "ToolTip": "Minima aspernatur.",
+        "Deleted": false,
+        "Rank": 918,
+        "Type": "harum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
+        "IconHint": "perferendis",
         "ColorBlock": 165,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "modi",
-        "FullName": "Quentin McDermott",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "possimus",
+        "FullName": "Mr. Dixie Vern Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldType": "System.String",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 412,
-    "ExtraInfo": "fugit",
-    "StyleHint": "fugit",
-    "FullName": "Laurine Rice",
+    "IconHint": "at",
+    "ColorBlock": 43,
+    "ExtraInfo": "amet",
+    "StyleHint": "consequatur",
+    "FullName": "Newton Feeney II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldType": "System.String",
+        "FieldLength": 794
       }
     }
   }

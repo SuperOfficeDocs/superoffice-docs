@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 531,
-    "Name": "Luettgen, Murazik and Ziemann",
-    "OrgNr": "477803",
+    "ContactId": 586,
+    "Name": "Gerhold, Kerluke and Ruecker",
+    "OrgNr": "1139870",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "facilis",
-    "DirectPhone": "150-283-2119 x1810",
-    "AssociateId": 381,
-    "CountryId": 438,
-    "EmailAddress": "harvey.kovacek@harris.us",
-    "Kananame": "quos",
-    "EmailAddressName": "elizabeth@cartwright.co.uk",
+    "City": "autem",
+    "DirectPhone": "794.763.9807",
+    "AssociateId": 52,
+    "CountryId": 941,
+    "EmailAddress": "tina@keebler.info",
+    "Kananame": "assumenda",
+    "EmailAddressName": "garrison@aufderharblick.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Alia King III",
+    "AssociateFullName": "Rashawn Carter",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "porro",
-    "FullName": "Ariane Kulas",
+    "FormattedAddress": "suscipit",
+    "FullName": "Brandt Lizeth Stoltenberg V",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 320,
-    "Number1": "1307690",
-    "Number2": "686996",
+    "ActiveErpLinks": 216,
+    "Number1": "382691",
+    "Number2": "1627893",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

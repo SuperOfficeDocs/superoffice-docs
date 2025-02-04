@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Lowe-Lebsack",
-    "ToolTip": "Eum cum earum.",
-    "Deleted": true,
-    "Rank": 68,
-    "Type": "voluptatem",
-    "ColorBlock": 146,
-    "IconHint": "voluptatem",
+    "Id": 399,
+    "Name": "Kuphal, Ondricka and Boehm",
+    "ToolTip": "Corrupti dolor velit possimus quia ea.",
+    "Deleted": false,
+    "Rank": 137,
+    "Type": "deserunt",
+    "ColorBlock": 852,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2001-02-20T10:18:01.1293744+01:00",
+    "LastChanged": "2010-05-27T13:13:33.4485481+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Jast LLC",
-        "ToolTip": "Recusandae vitae dicta est.",
+        "Id": 38,
+        "Name": "Brown-McGlynn",
+        "ToolTip": "Illo sequi esse ut autem natus molestiae quia.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "sit",
-        "ColorBlock": 186,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2018-11-24T10:18:01.1293744+01:00",
+        "Rank": 688,
+        "Type": "fuga",
+        "ColorBlock": 471,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "1999-06-09T13:13:33.4485481+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Lonnie McLaughlin"
+        "ExtraInfo": "dolore",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Ms. Maude Zieme"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Meta Dare"
+    "FullName": "Prof. Edmond Leon Kuhn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 915,
-    "Name": "Cole Group",
-    "ToolTip": "Vel ut qui ut voluptates eius adipisci.",
-    "Deleted": false,
-    "Rank": 339,
-    "Type": "necessitatibus",
-    "ColorBlock": 930,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2011-07-17T10:18:01.1293744+02:00",
+    "Id": 671,
+    "Name": "McGlynn Group",
+    "ToolTip": "Molestiae ut unde nam iusto maiores atque est.",
+    "Deleted": true,
+    "Rank": 693,
+    "Type": "magnam",
+    "ColorBlock": 994,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2016-06-24T13:13:33.4641689+02:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Hammes-Yundt",
-        "ToolTip": "Ad voluptas.",
-        "Deleted": false,
-        "Rank": 78,
-        "Type": "quam",
-        "ColorBlock": 854,
-        "IconHint": "sit",
+        "Id": 91,
+        "Name": "Schmeler-Steuber",
+        "ToolTip": "Officia corporis fugiat sed ut est qui officiis.",
+        "Deleted": true,
+        "Rank": 790,
+        "Type": "ducimus",
+        "ColorBlock": 552,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2020-08-20T10:18:01.1293744+02:00",
+        "LastChanged": "2009-04-17T13:13:33.4641689+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "eos",
+        "ExtraInfo": "provident",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Julien Huel",
+        "FullName": "Prof. Rosalia Alexandre Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 489
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Ms. Rachael Thad Watsica Jr.",
+    "FullName": "Easton Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldLength": 806
       }
     }
   }

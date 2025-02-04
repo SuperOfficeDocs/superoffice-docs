@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Roob-Langosh",
-  "Context": "at"
+  "TableName": "Cummings Group",
+  "Context": "delectus"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "quis",
-    "ValueType": "labore",
+    "CanSupportMultiUse": false,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
+    "IsActive": false,
+    "Key": "sequi",
+    "ValueType": "laudantium",
     "Mandatory": false,
-    "EncodedDisplayName": "DuBuque-Jast",
-    "EncodedDisplayDescription": "Digitized bandwidth-monitored migration",
-    "IconHint": "aliquid",
+    "EncodedDisplayName": "Robel-Hintz",
+    "EncodedDisplayDescription": "Visionary impactful challenge",
+    "IconHint": "maxime",
     "ControlInfos": [
       {
-        "Type": "molestias",
-        "Label": "numquam",
-        "Dimension": 829,
-        "ListProviderName": "Schimmel-Towne",
-        "ListProviderExtraInfo": "nihil",
-        "ListProviderPrimaryKeyName": "Bins Group",
-        "ListLeadText": "sed",
+        "Type": "nobis",
+        "Label": "aliquam",
+        "Dimension": 443,
+        "ListProviderName": "Gaylord Group",
+        "ListProviderExtraInfo": "dicta",
+        "ListProviderPrimaryKeyName": "Maggio Group",
+        "ListLeadText": "ducimus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldLength": 676
           }
         }
       }
     ],
-    "EncodedDataCaption": "est",
-    "EncodedDataCaptionDescription": "Mandatory regional moderator",
-    "CurrentOperationType": "assumenda",
+    "EncodedDataCaption": "tempore",
+    "EncodedDataCaptionDescription": "Polarised bi-directional function",
+    "CurrentOperationType": "labore",
     "Values": [
-      "reprehenderit",
-      "temporibus"
+      "dolorem",
+      "fugiat"
     ],
     "DisplayValues": [
-      "quidem",
-      "minima"
+      "minima",
+      "aliquid"
     ],
     "OperationInfos": [
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Fahey Inc and Sons",
+        "Key": "quod",
+        "EncodedDisplayName": "Bechtelar-Hammes",
         "EncodedLeadTexts": [
-          "doloremque",
-          "et"
+          "nam",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 448
           }
         }
       },
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Fahey Inc and Sons",
+        "Key": "quod",
+        "EncodedDisplayName": "Bechtelar-Hammes",
         "EncodedLeadTexts": [
-          "doloremque",
-          "et"
+          "nam",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 448
           }
         }
       }

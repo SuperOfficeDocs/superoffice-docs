@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Mraz, Sipes and Cassin",
-    "ToolTip": "Sed voluptates ut sed quidem.",
-    "Deleted": true,
-    "Rank": 293,
-    "Type": "officiis",
-    "ColorBlock": 520,
-    "IconHint": "mollitia",
-    "Selected": false,
-    "LastChanged": "1998-07-16T10:18:01.1762521+02:00",
+    "Id": 178,
+    "Name": "Erdman-Satterfield",
+    "ToolTip": "Et ut sed ipsa repudiandae eos commodi.",
+    "Deleted": false,
+    "Rank": 200,
+    "Type": "corporis",
+    "ColorBlock": 251,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2018-09-20T13:13:33.6047606+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Mraz, Prosacco and Howe",
-        "ToolTip": "Et ipsum.",
-        "Deleted": true,
-        "Rank": 236,
-        "Type": "esse",
-        "ColorBlock": 157,
-        "IconHint": "sit",
+        "Id": 240,
+        "Name": "Wyman Inc and Sons",
+        "ToolTip": "Nisi consequatur.",
+        "Deleted": false,
+        "Rank": 669,
+        "Type": "debitis",
+        "ColorBlock": 447,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2018-11-13T10:18:01.1762521+01:00",
+        "LastChanged": "2016-12-20T13:13:33.6047606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "sit",
+        "ExtraInfo": "id",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mrs. Larue Roberts"
+        "FullName": "Mr. Eleanora Metz II"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "ut",
+    "ExtraInfo": "aut",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Mr. Ivah Anderson Sr."
+    "FullName": "Mrs. Aliya Brayan Reichel DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Gorczany Group",
-    "ToolTip": "Voluptatum cumque unde ea.",
+    "Id": 650,
+    "Name": "Rogahn-Skiles",
+    "ToolTip": "Quo accusantium dolorem tempore.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "voluptatem",
-    "ColorBlock": 106,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "1998-04-24T10:18:01.1762521+02:00",
+    "Rank": 333,
+    "Type": "doloribus",
+    "ColorBlock": 930,
+    "IconHint": "vitae",
+    "Selected": true,
+    "LastChanged": "2015-09-27T13:13:33.6047606+02:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Bergstrom LLC",
-        "ToolTip": "Sint quo.",
-        "Deleted": true,
-        "Rank": 990,
-        "Type": "ut",
-        "ColorBlock": 171,
-        "IconHint": "rerum",
+        "Id": 3,
+        "Name": "Oberbrunner LLC",
+        "ToolTip": "Dolore maxime quos.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "et",
+        "ColorBlock": 48,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2003-10-22T10:18:01.1762521+02:00",
+        "LastChanged": "2018-07-05T13:13:33.6047606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Antonette Hettinger",
+        "ExtraInfo": "quia",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Betsy Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sed",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Makenzie Derrick Crona MD",
+    "FullName": "Joe Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldLength": 339
       }
     }
   }

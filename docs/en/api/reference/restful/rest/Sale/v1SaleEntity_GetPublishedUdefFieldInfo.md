@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 627,
-  "ColumnId": 536,
-  "FieldDefault": "ducimus",
-  "FieldHeight": 312,
-  "FieldLabel": "officia",
-  "FieldLeft": 445,
-  "FieldTop": 560,
+  "UDefFieldId": 726,
+  "ColumnId": 47,
+  "FieldDefault": "facilis",
+  "FieldHeight": 702,
+  "FieldLabel": "omnis",
+  "FieldLeft": 432,
+  "FieldTop": 374,
   "FieldType": "Checkbox",
-  "FieldWidth": 696,
-  "FormatMask": "dolore",
+  "FieldWidth": 951,
+  "FormatMask": "corrupti",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 231,
-  "LabelLeft": 534,
-  "LabelTop": 264,
-  "LabelWidth": 923,
-  "LastVersionId": 323,
-  "ListTableId": 112,
-  "IsMandatory": false,
+  "LabelHeight": 407,
+  "LabelLeft": 413,
+  "LabelTop": 318,
+  "LabelWidth": 737,
+  "LastVersionId": 304,
+  "ListTableId": 645,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 292,
-  "ProgId": "ut",
+  "Page1LineNo": 66,
+  "ProgId": "suscipit",
   "IsReadOnly": true,
-  "ShortLabel": "harum",
-  "TabOrder": 865,
-  "TextLength": 338,
-  "Tooltip": "fuga",
-  "UdefIdentity": 416,
-  "UDListDefinitionId": 596,
+  "ShortLabel": "nesciunt",
+  "TabOrder": 945,
+  "TextLength": 86,
+  "Tooltip": "veniam",
+  "UdefIdentity": 591,
+  "UDListDefinitionId": 148,
   "Justification": "Center",
-  "Version": 378,
-  "TemplateVariableName": "Ledner, Gutkowski and Bailey",
-  "HasBeenPublished": false,
-  "MdoListName": "Barrows-Treutel",
+  "Version": 679,
+  "TemplateVariableName": "Mayer, Grady and Hartmann",
+  "HasBeenPublished": true,
+  "MdoListName": "Sanford, Wuckert and Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 519
     }
   }
 }

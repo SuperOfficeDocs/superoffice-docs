@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 281
+  "ChatSessionId": 566
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 530,
-  "TopicId": 617,
+  "ChatSessionId": 222,
+  "TopicId": 80,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorum",
-  "CustomerHost": "doloremque",
-  "CustomerName": "Ryan-Bruen",
-  "CustomerEmail": "maggie_nader@zboncak.biz",
-  "CustomerPhone": "1-536-513-4348 x070",
+  "CustomerAlias": "et",
+  "CustomerHost": "adipisci",
+  "CustomerName": "Thompson LLC",
+  "CustomerEmail": "herman@bradtkemedhurst.uk",
+  "CustomerPhone": "(682)613-9453 x62716",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Zboncak-Padberg",
+  "CustomerCompanyName": "Hills Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "maxime",
-  "LastMessage": "quibusdam",
-  "WhenRequested": "2003-05-04T10:17:55.1758881+02:00",
-  "WhenStarted": "2021-02-22T10:17:55.1758881+01:00",
-  "WhenEnded": "2016-05-15T10:17:55.1758881+02:00",
-  "WhenIdle": "2002-05-24T10:17:55.1758881+02:00",
-  "WhenFetched": "2015-09-22T10:17:55.1758881+02:00",
-  "SessionKey": "architecto",
-  "InitialQueuePos": 167,
-  "AlertLevel": 676,
-  "Rank": 415,
+  "FirstMessage": "autem",
+  "LastMessage": "commodi",
+  "WhenRequested": "2016-05-27T13:13:22.2426823+02:00",
+  "WhenStarted": "2002-08-08T13:13:22.2426823+02:00",
+  "WhenEnded": "2000-07-18T13:13:22.2426823+02:00",
+  "WhenIdle": "2009-02-28T13:13:22.2426823+01:00",
+  "WhenFetched": "2008-06-28T13:13:22.2426823+02:00",
+  "SessionKey": "modi",
+  "InitialQueuePos": 454,
+  "AlertLevel": 237,
+  "Rank": 646,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 43,
+  "ChatbotIsActive": true,
+  "Rating": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

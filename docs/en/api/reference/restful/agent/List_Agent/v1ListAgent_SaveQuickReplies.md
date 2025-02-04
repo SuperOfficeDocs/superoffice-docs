@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/List/SaveQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 565,
-      "Name": "Heller-Gusikowski",
-      "HtmlBody": "molestias"
+      "QuickReplyId": 245,
+      "Name": "Strosin Group",
+      "HtmlBody": "dicta"
     },
     {
-      "QuickReplyId": 565,
-      "Name": "Heller-Gusikowski",
-      "HtmlBody": "molestias"
+      "QuickReplyId": 245,
+      "Name": "Strosin Group",
+      "HtmlBody": "dicta"
     }
   ]
 }

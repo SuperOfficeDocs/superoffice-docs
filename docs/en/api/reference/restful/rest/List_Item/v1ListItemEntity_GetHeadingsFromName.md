@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Balistreri Inc and Sons",
-    "Tooltip": "minima",
-    "Deleted": true,
-    "Rank": 908,
-    "UdListDefinitionId": 463,
+    "HeadingId": 318,
+    "Name": "Steuber-Hilpert",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "Rank": 810,
+    "UdListDefinitionId": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 980,
-  "LanguageId": 189
+  "ReplyTemplateId": 202,
+  "LanguageId": 678
 }
 ```
 
@@ -96,36 +96,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 765,
-  "PlainParsed": "nemo",
-  "HtmlParsed": "unde",
+  "ReplyTemplateId": 869,
+  "PlainParsed": "sunt",
+  "HtmlParsed": "nobis",
   "Attachments": [
     {
-      "AttachmentId": 605,
-      "Name": "Nolan LLC",
-      "ContentType": "corrupti",
-      "AttSize": 531,
+      "AttachmentId": 586,
+      "Name": "Huels LLC",
+      "ContentType": "voluptatem",
+      "AttSize": 739,
       "InlineImage": true,
-      "ContentId": "in",
-      "AuthKey": "necessitatibus",
+      "ContentId": "quo",
+      "AuthKey": "nihil",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 643
         }
       }
     }
   ],
-  "Subject": "ea",
+  "Subject": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

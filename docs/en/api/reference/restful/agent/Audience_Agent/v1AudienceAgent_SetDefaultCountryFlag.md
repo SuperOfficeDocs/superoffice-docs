@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Rippin-Kling",
+  "LayoutName": "Cummings Group",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

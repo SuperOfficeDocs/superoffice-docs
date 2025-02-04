@@ -31,7 +31,7 @@ Delete the specified role and move all users associated with the role to the rep
 | replacingRoleId | int32 |  The roleId which all associated users will be moved to. |
 
 ```http
-DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=656
+DELETE /api/v1/Role/{roleIdToDelete}?replacingRoleId=780
 ```
 
 

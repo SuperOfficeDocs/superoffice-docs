@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 853,
-  "Name": "Little Group",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 909,
-  "IsCustomList": false,
+  "Id": 699,
+  "Name": "Turner-Satterfield",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 235,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "ListType": "ipsa",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   },
   "_Links": {

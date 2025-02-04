@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 33,
-  "Name": "Block LLC",
+  "ScreenChooserId": 706,
+  "Name": "Von LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "magnam",
-  "Source": "sunt",
-  "Registered": "2011-05-24T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 563,
-  "Updated": "2018-01-13T10:18:00.8168545+01:00",
-  "UpdatedAssociateId": 448
+  "UniqueIdentifier": "et",
+  "Source": "mollitia",
+  "Registered": "2023-03-09T13:13:32.5111102+01:00",
+  "RegisteredAssociateId": 868,
+  "Updated": "2005-10-07T13:13:32.5111102+02:00",
+  "UpdatedAssociateId": 202
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 334,
-  "Name": "Kub LLC",
+  "ScreenChooserId": 932,
+  "Name": "Kessler Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nobis",
-  "Source": "ipsam",
-  "Registered": "1998-01-17T10:18:00.8168545+01:00",
-  "RegisteredAssociateId": 682,
-  "Updated": "2024-09-21T10:18:00.8168545+02:00",
-  "UpdatedAssociateId": 428,
+  "UniqueIdentifier": "provident",
+  "Source": "maxime",
+  "Registered": "2021-12-05T13:13:32.5111102+01:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2015-09-01T13:13:32.5111102+02:00",
+  "UpdatedAssociateId": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldLength": 552
     }
   },
   "_Links": {

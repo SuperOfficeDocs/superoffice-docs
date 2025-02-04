@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=878
+POST /api/v1/Agents/Project/GetProject?projectId=604
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 401,
-  "Name": "Raynor LLC",
-  "Description": "Persevering stable monitoring",
+  "ProjectId": 955,
+  "Name": "Stamm-Stark",
+  "Description": "Monitored discrete encoding",
   "URL": "http://www.example.com/",
-  "Type": "voluptas",
-  "AssociateId": 805,
-  "AssociateFullName": "Milford Von",
-  "TypeId": 465,
-  "Updated": "1997-08-31T10:17:55.8946817+02:00",
-  "StatusId": 805,
-  "Status": "rerum",
-  "TextId": 315,
-  "PublishTo": "2009-01-16T10:17:55.8946817+01:00",
-  "PublishFrom": "2024-08-22T10:17:55.8946817+02:00",
+  "Type": "quidem",
+  "AssociateId": 867,
+  "AssociateFullName": "Dr. Santa Jacobi I",
+  "TypeId": 714,
+  "Updated": "2024-04-16T13:13:23.633159+02:00",
+  "StatusId": 813,
+  "Status": "quod",
+  "TextId": 897,
+  "PublishTo": "1998-09-07T13:13:23.633159+02:00",
+  "PublishFrom": "2015-03-10T13:13:23.633159+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "540711",
-  "ActiveErpLinks": 578,
+  "ProjectNumber": "873537",
+  "ActiveErpLinks": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldLength": 980
     }
   }
 }

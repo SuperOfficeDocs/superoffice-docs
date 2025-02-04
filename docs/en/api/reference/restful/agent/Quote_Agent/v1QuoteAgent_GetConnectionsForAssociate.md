@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 219
+  "AssociateId": 97
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 811,
-    "ERPName": "Thompson-Jacobi",
-    "DisplayName": "Murphy, Cummings and Littel",
-    "DisplayDescription": "Integrated object-oriented open architecture",
-    "Rank": 705,
-    "ConnectorName": "Konopelski-Schaefer",
-    "ErpConnectionId": 486,
-    "ExtraData": "quibusdam",
+    "QuoteConnectionId": 920,
+    "ERPName": "Schmitt Group",
+    "DisplayName": "Willms, Runolfsdottir and Trantow",
+    "DisplayDescription": "Organized clear-thinking knowledge base",
+    "Rank": 574,
+    "ConnectorName": "Nolan Inc and Sons",
+    "ErpConnectionId": 510,
+    "ExtraData": "consequatur",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 617,
-        "ERPPriceListKey": "blanditiis",
-        "QuoteConnectionId": 572,
-        "Name": "Rau-Fay",
-        "Description": "Fundamental attitude-oriented focus group",
-        "Currency": "cumque",
-        "CurrencyName": "Stoltenberg, Nader and Feeney",
-        "ValidFrom": "2020-06-23T10:17:55.9415595+02:00",
-        "ValidTo": "2010-02-05T10:17:55.9415595+01:00",
+        "PriceListId": 68,
+        "ERPPriceListKey": "sequi",
+        "QuoteConnectionId": 456,
+        "Name": "Rutherford, Kutch and Zulauf",
+        "Description": "Implemented responsive frame",
+        "Currency": "molestias",
+        "CurrencyName": "Legros-Purdy",
+        "ValidFrom": "2015-07-23T13:13:23.7425716+02:00",
+        "ValidTo": "2007-04-28T13:13:23.7425716+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 724
+            "FieldLength": 197
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      696,
-      273
+      439,
+      760
     ],
     "AssociateAccessIds": [
-      721,
-      280
+      747,
+      513
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

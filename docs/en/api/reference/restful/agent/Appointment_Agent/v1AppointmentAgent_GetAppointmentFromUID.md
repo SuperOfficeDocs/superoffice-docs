@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "doloribus"
+  "UID": "est"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-06-29T10:17:55.0821324+02:00",
-  "AppointmentId": 621,
-  "Description": "Compatible user-facing matrices",
-  "Title": "repellat",
-  "Agenda": "ut",
-  "InternalNotes": "occaecati",
-  "StartDate": "2000-01-16T10:17:55.0821324+01:00",
-  "EndDate": "2004-10-30T10:17:55.0821324+02:00",
+  "CreatedDate": "2007-12-06T13:13:22.0396004+01:00",
+  "AppointmentId": 813,
+  "Description": "Exclusive intangible middleware",
+  "Title": "sequi",
+  "Agenda": "quisquam",
+  "InternalNotes": "dolorem",
+  "StartDate": "2005-07-26T13:13:22.0396004+02:00",
+  "EndDate": "2000-10-23T13:13:22.0396004+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 501,
+  "MotherId": 635,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-04-16T10:17:55.0821324+02:00",
+  "UpdatedDate": "2000-05-16T13:13:22.0396004+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 32,
+  "ActiveLinks": 148,
   "Links": [
     {
-      "EntityName": "Gorczany Group",
-      "Id": 775,
-      "Description": "Synergistic human-resource model",
-      "ExtraInfo": "officia",
-      "LinkId": 801,
+      "EntityName": "Watsica Inc and Sons",
+      "Id": 838,
+      "Description": "Self-enabling context-sensitive moderator",
+      "ExtraInfo": "vero",
+      "LinkId": 254,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 185
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     }
   ],
-  "AlarmLeadTime": "mollitia",
-  "HasAlarm": true,
-  "ColorIndex": 610,
+  "AlarmLeadTime": "eos",
+  "HasAlarm": false,
+  "ColorIndex": 812,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "dolor",
-  "LeadTime": "aut",
-  "Location": "cumque",
-  "RejectCounter": 353,
+  "IsAlldayEvent": true,
+  "LagTime": "minima",
+  "LeadTime": "enim",
+  "Location": "sed",
+  "RejectCounter": 390,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 538,
-      "PersonId": 722,
-      "ContactId": 193,
-      "EmailId": 995,
-      "SendEmail": false,
+      "AssociateId": 41,
+      "PersonId": 87,
+      "ContactId": 983,
+      "EmailId": 757,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "craig.hudson@klockoreilly.uk",
-      "Description": "Persevering mobile protocol"
+      "EmailAddress": "charley.schmidt@stantonherzog.com",
+      "Description": "Innovative zero administration support"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-10-03T10:17:55.0821324+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2002-08-01T13:13:22.0396004+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 397,
+  "PreferredTZLocation": 477,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 438,
+  "SuggestedAppointmentId": 290,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "impedit",
+  "CentralserviceVideomeetId": "est",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "True"
+    "SuperOffice:2": "1526088394"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "numquam"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2019-02-03T10:17:55.0821324+01:00",
-  "PublishTo": "2015-01-05T10:17:55.0821324+01:00",
-  "PublishFrom": "2003-12-31T10:17:55.0821324+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-06-11T13:13:22.0396004+02:00",
+  "PublishTo": "2013-06-10T13:13:22.0396004+02:00",
+  "PublishFrom": "2015-06-25T13:13:22.0396004+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 88,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 939
         }
       }
     },
     {
-      "VisibleId": 88,
+      "VisibleId": 611,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 939
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 457
     }
   }
 }

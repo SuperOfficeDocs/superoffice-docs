@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 354,
-  "TargetDimensionId": 533
+  "Year": 247,
+  "TargetDimensionId": 958
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 421,
+    "TargetAssignmentInfoId": 278,
     "Values": [
-      8,
-      782
+      107,
+      548
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 785,
-    "DimensionListItemDisplayName": "Mann-Schinner",
+    "DimensionListItem": 358,
+    "DimensionListItemDisplayName": "Klocko, Douglas and Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 695
       }
     }
   }

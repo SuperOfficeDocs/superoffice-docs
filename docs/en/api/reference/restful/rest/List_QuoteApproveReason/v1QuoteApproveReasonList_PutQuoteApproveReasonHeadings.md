@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 598,
-    "Name": "Metz-Padberg",
-    "Tooltip": "placeat",
+    "HeadingId": 994,
+    "Name": "Witting LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 42
+    "Rank": 963,
+    "UdListDefinitionId": 467
   },
   {
-    "HeadingId": 598,
-    "Name": "Metz-Padberg",
-    "Tooltip": "placeat",
+    "HeadingId": 994,
+    "Name": "Witting LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 42
+    "Rank": 963,
+    "UdListDefinitionId": 467
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 434,
-    "Name": "Ziemann, Gutmann and Gerhold",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "Rank": 688,
-    "UdListDefinitionId": 57,
+    "HeadingId": 831,
+    "Name": "Zemlak, Collins and Harris",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 654,
+    "UdListDefinitionId": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

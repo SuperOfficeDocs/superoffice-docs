@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 519,
-  "Name": "Beer-Kuphal",
-  "Tooltip": "dignissimos",
+  "Id": 747,
+  "Name": "Rutherford, McClure and Koelpin",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 987,
+  "Rank": 647,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sint",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "King-Glover",
-  "Tooltip": "rerum",
+  "Id": 293,
+  "Name": "Schaden, Bednar and Mohr",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 774,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 975,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 564
     }
   }
 }

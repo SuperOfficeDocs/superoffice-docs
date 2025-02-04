@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -127,63 +127,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 144,
+  "EjMessageId": 97,
   "Ticket": null,
-  "CreatedAt": "2003-02-17T10:18:00.7856022+01:00",
+  "CreatedAt": "2017-07-11T13:13:32.4642456+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "itaque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "minima",
-  "TimeSpent": 847,
-  "Body": "omnis",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "dandre@reillyparker.ca",
-  "DebugInfo": "accusantium",
-  "MailSorter": "corporis",
+  "MessageId": "qui",
+  "TimeSpent": 774,
+  "Body": "dolor",
+  "HtmlBody": "vel",
+  "EmailHeader": "leta@lefflercronin.co.uk",
+  "DebugInfo": "doloremque",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 625,
-      "Name": "Becker LLC",
-      "Value": "reprehenderit",
+      "Id": 785,
+      "Name": "Gleichner, Hagenes and Sawayn",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 625,
-      "Name": "Becker LLC",
-      "Value": "reprehenderit",
+      "Id": 785,
+      "Name": "Gleichner, Hagenes and Sawayn",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "id",
-  "Sentiment": 44,
-  "SentimentConfidence": 649,
+  "Important": true,
+  "Language": "ut",
+  "Sentiment": 553,
+  "SentimentConfidence": 281,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 243,
-      "Name": "Romaguera, Shanahan and Howe",
-      "ContentType": "corrupti",
-      "AttSize": 981,
+      "AttachmentId": 570,
+      "Name": "Cassin LLC",
+      "ContentType": "dolorem",
+      "AttSize": 890,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "tempore",
+      "ContentId": "porro",
+      "AuthKey": "odio",
       "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "incidunt"
+    "ExtraFields1": "et",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "veniam"
+    "CustomFields1": "est",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -195,79 +195,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 410,
+  "EjMessageId": 63,
   "Ticket": null,
-  "CreatedAt": "2014-12-02T10:18:00.7856022+01:00",
+  "CreatedAt": "2006-05-07T13:13:32.4642456+02:00",
   "CreatedBy": null,
-  "Author": "molestiae",
+  "Author": "tempora",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nisi",
-  "TimeSpent": 501,
-  "Body": "et",
-  "HtmlBody": "doloribus",
-  "EmailHeader": "abagail@bins.us",
-  "DebugInfo": "dolor",
-  "MailSorter": "rerum",
+  "MessageId": "et",
+  "TimeSpent": 178,
+  "Body": "officia",
+  "HtmlBody": "itaque",
+  "EmailHeader": "brenden.lebsack@kunze.info",
+  "DebugInfo": "vero",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 391,
-      "Name": "Runolfsdottir Inc and Sons",
-      "Value": "est",
+      "Id": 161,
+      "Name": "Schaefer, Rau and Zemlak",
+      "Value": "accusantium",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldType": "System.String",
+          "FieldLength": 794
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "beatae",
-  "Sentiment": 749,
-  "SentimentConfidence": 860,
+  "Important": true,
+  "Language": "perspiciatis",
+  "Sentiment": 737,
+  "SentimentConfidence": 640,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 138,
-      "Name": "Bahringer Group",
-      "ContentType": "ab",
-      "AttSize": 919,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 985,
+      "Name": "Rolfson-Rau",
+      "ContentType": "aut",
+      "AttSize": 280,
+      "InlineImage": true,
+      "ContentId": "sit",
+      "AuthKey": "cupiditate",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 801
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "non",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "ratione",
+    "CustomFields2": "delectus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 630
     }
   }
 }

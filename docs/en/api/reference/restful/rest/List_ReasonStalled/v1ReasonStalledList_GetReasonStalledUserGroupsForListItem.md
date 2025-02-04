@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Lindgren, Larson and Champlin",
-    "ToolTip": "Deserunt aut dolorum est cumque velit.",
+    "Id": 725,
+    "Name": "Yost Group",
+    "ToolTip": "Ipsa voluptates quaerat nisi id non quasi.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "in",
-    "ColorBlock": 617,
-    "IconHint": "corporis",
+    "Rank": 769,
+    "Type": "aut",
+    "ColorBlock": 117,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2000-11-26T10:18:01.1450002+01:00",
+    "LastChanged": "2016-04-15T13:13:33.5422642+02:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Eichmann, Murazik and Daugherty",
-        "ToolTip": "Nihil et enim harum animi fugiat est.",
+        "Id": 897,
+        "Name": "Wisoky, Howell and Rogahn",
+        "ToolTip": "Maxime alias debitis quos aliquid sint sit.",
         "Deleted": true,
-        "Rank": 771,
-        "Type": "fuga",
-        "ColorBlock": 819,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2009-02-12T10:18:01.1450002+01:00",
+        "Rank": 458,
+        "Type": "praesentium",
+        "ColorBlock": 806,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2022-05-01T13:13:33.5422642+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Tanya Fay V",
+        "ExtraInfo": "et",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Prof. Landen Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "atque",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mrs. Nayeli Schuppe",
+    "FullName": "Kaylah Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldType": "System.Int32",
+        "FieldLength": 15
       }
     }
   }

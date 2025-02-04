@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 743,
-  "ERPProductKey": "maxime"
+  "QuoteConnectionId": 92,
+  "ERPProductKey": "delectus"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 457,
-  "ERPProductKey": "placeat",
-  "ERPPriceListKey": "nobis",
-  "Name": "Parker, Breitenberg and Sawayn",
-  "Description": "Versatile mobile extranet",
-  "Code": "rerum",
-  "PriceUnit": "dignissimos",
-  "QuantityUnit": "voluptatem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "maxime",
-  "DefaultSubscriptionQuantity": 4271.642,
-  "ItemNumber": "799883",
+  "ProductId": 537,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "in",
+  "Name": "Tillman Inc and Sons",
+  "Description": "Streamlined neutral open system",
+  "Code": "id",
+  "PriceUnit": "sed",
+  "QuantityUnit": "porro",
+  "IsSubscription": false,
+  "SubscriptionUnit": "mollitia",
+  "DefaultSubscriptionQuantity": 19772.406,
+  "ItemNumber": "1727688",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "praesentium",
-  "ProductTypeKey": "voluptate",
-  "VAT": 30913.775999999998,
-  "VATInfo": "veniam",
-  "UnitCost": 17735.306,
-  "UnitMinimumPrice": 12501.526,
-  "UnitListPrice": 7458.92,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "veniam",
+  "VAT": 15807.895999999999,
+  "VATInfo": "nulla",
+  "UnitCost": 22928.344,
+  "UnitMinimumPrice": 10455.024,
+  "UnitListPrice": 8132.73,
   "InAssortment": false,
-  "Supplier": "velit",
-  "SupplierCode": "sit",
-  "Rights": "consequatur",
-  "Rule": "facilis",
+  "Supplier": "et",
+  "SupplierCode": "at",
+  "Rights": "non",
+  "Rule": "tempore",
   "ExtraInfo": [
     {
-      "Name": "Little-McDermott",
-      "Value": "officia",
+      "Name": "Lowe LLC",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 450
         }
       }
     },
     {
-      "Name": "Little-McDermott",
-      "Value": "officia",
+      "Name": "Lowe LLC",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 450
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
+  "RawExtraInfo": "rerum",
   "ExtraField1": "non",
-  "ExtraField2": "quasi",
-  "ExtraField3": "quam",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "et",
-  "InStock": 17873.202,
+  "ExtraField2": "vero",
+  "ExtraField3": "et",
+  "ExtraField4": "nam",
+  "ExtraField5": "consectetur",
+  "InStock": 8276.894,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldLength": 51
     }
   }
 }

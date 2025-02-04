@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 373,
-  "Rank": 571,
-  "DefaultTask": 433,
-  "DefaultTaskText": "accusantium",
+  "OwnerTable": 46,
+  "Rank": 395,
+  "DefaultTask": 489,
+  "DefaultTaskText": "quae",
   "IsVisual": false,
-  "LastGenerated": "2024-10-14T10:17:55.9728114+02:00",
-  "Description": "Expanded grid-enabled implementation",
-  "Name": "Cronin Group",
-  "StatusMonitorId": 79,
-  "PictureId": 605,
-  "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 406,
-  "NumNeedUpdate": 181,
-  "GenerationStart": "2019-06-20T10:17:55.9728114+02:00",
+  "LastGenerated": "2019-03-27T13:13:23.7893721+01:00",
+  "Description": "Stand-alone fresh-thinking task-force",
+  "Name": "Adams Group",
+  "StatusMonitorId": 606,
+  "PictureId": 875,
+  "NeedsUpdate": true,
+  "Deleted": false,
+  "NumMatches": 543,
+  "NumNeedUpdate": 743,
+  "GenerationStart": "2014-11-20T13:13:23.7893721+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 761
     }
   }
 }

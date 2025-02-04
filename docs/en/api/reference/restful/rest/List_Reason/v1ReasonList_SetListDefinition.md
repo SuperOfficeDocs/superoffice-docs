@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Towne Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 591,
+  "Name": "Ebert-Altenwerth",
+  "Tooltip": "molestias",
   "Deleted": true,
-  "Rank": 160,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "Rank": 858,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "in",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "Name": "Kunze, Smith and Gibson",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 174,
+  "Id": 342,
+  "Name": "O'Keefe-Harvey",
+  "Tooltip": "esse",
+  "Deleted": false,
+  "Rank": 252,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 412
     }
   }
 }

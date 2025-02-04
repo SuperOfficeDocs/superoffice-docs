@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "1998-07-24T10:17:56.1446968+02:00",
+  "When": "2011-05-18T13:13:23.9935144+02:00",
   "Changes": [
     {
-      "FieldIdentifier": "expedita",
-      "ValueChangeFrom": 28832.8,
-      "ValueChangeTo": 100.288,
+      "FieldIdentifier": "sed",
+      "ValueChangeFrom": 11304.338,
+      "ValueChangeTo": 4055.3959999999997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     },
     {
-      "FieldIdentifier": "expedita",
-      "ValueChangeFrom": 28832.8,
-      "ValueChangeTo": 100.288,
+      "FieldIdentifier": "sed",
+      "ValueChangeFrom": 11304.338,
+      "ValueChangeTo": 4055.3959999999997,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldType": "System.String",
+          "FieldLength": 251
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

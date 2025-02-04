@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 972,
-  "StartDate": "2001-04-29T10:17:55.0040026+02:00",
-  "EndDate": "2013-12-14T10:17:55.0040026+01:00",
-  "RecurrenceCounter": 410,
+  "RecurrenceId": 37,
+  "StartDate": "2009-03-02T13:13:21.8677656+01:00",
+  "EndDate": "2023-06-03T13:13:21.8677656+02:00",
+  "RecurrenceCounter": 317,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-03-25T10:17:55.0040026+01:00",
-      "IsConflict": false,
-      "Description": "Innovative 4th generation help-desk",
-      "DescriptionStyleHint": "Expanded uniform productivity",
-      "Tooltip": "harum"
+      "Date": "2022-05-29T13:13:21.8677656+02:00",
+      "IsConflict": true,
+      "Description": "Fundamental stable productivity",
+      "DescriptionStyleHint": "Down-sized background strategy",
+      "Tooltip": "quaerat"
     },
     {
-      "Date": "2020-03-25T10:17:55.0040026+01:00",
-      "IsConflict": false,
-      "Description": "Innovative 4th generation help-desk",
-      "DescriptionStyleHint": "Expanded uniform productivity",
-      "Tooltip": "harum"
+      "Date": "2022-05-29T13:13:21.8677656+02:00",
+      "IsConflict": true,
+      "Description": "Fundamental stable productivity",
+      "DescriptionStyleHint": "Down-sized background strategy",
+      "Tooltip": "quaerat"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

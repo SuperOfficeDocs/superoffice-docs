@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 927,
-  "Section": "voluptas",
-  "Key": "eum",
-  "Name": "Kuhlman, Bode and Rodriguez",
+  "PrefDescId": 554,
+  "Section": "et",
+  "Key": "veritatis",
+  "Name": "Mertz-Dach",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded zero administration time-frame",
-  "IsBuiltin": false,
-  "TableName": "Satterfield, Swift and Grimes",
-  "UserDefinedListId": 628,
-  "Rank": 327,
-  "SubGroup": "officia",
-  "MinLevel": 682,
-  "MaxValue": 977,
-  "MinValue": 877,
-  "RequiredLicense": "ut"
+  "Description": "De-engineered clear-thinking framework",
+  "IsBuiltin": true,
+  "TableName": "Howell-Schimmel",
+  "UserDefinedListId": 867,
+  "Rank": 443,
+  "SubGroup": "ducimus",
+  "MinLevel": 326,
+  "MaxValue": 632,
+  "MinValue": 684,
+  "RequiredLicense": "earum"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 905,
-  "Section": "dolor",
-  "Key": "perspiciatis",
-  "Name": "Abernathy, Ritchie and King",
+  "PrefDescId": 156,
+  "Section": "pariatur",
+  "Key": "odio",
+  "Name": "Stanton-Emmerich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered even-keeled archive",
-  "IsBuiltin": true,
-  "TableName": "Okuneva-Kreiger",
-  "UserDefinedListId": 392,
-  "Rank": 737,
-  "SubGroup": "voluptatem",
-  "MinLevel": 902,
-  "MaxValue": 513,
-  "MinValue": 506,
-  "RequiredLicense": "quia",
+  "Description": "Versatile system-worthy secured line",
+  "IsBuiltin": false,
+  "TableName": "Heathcote, Kuphal and Ankunding",
+  "UserDefinedListId": 132,
+  "Rank": 655,
+  "SubGroup": "occaecati",
+  "MinLevel": 324,
+  "MaxValue": 437,
+  "MinValue": 53,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

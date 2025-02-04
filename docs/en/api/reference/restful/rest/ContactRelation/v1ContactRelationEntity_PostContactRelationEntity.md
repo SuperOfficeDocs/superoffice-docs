@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 747,
-  "SourcePersonId": 679,
-  "DestinationContactId": 415,
-  "DestinationPersonId": 776,
-  "RelationId": 871,
-  "Comment": "sed",
-  "RelationDefinitionId": 962,
-  "Reversed": 268,
-  "UpdatedDate": "2020-04-10T10:18:00.3324502+02:00",
-  "CreatedDate": "2007-08-08T10:18:00.3324502+02:00",
+  "SourceContactId": 20,
+  "SourcePersonId": 565,
+  "DestinationContactId": 298,
+  "DestinationPersonId": 535,
+  "RelationId": 222,
+  "Comment": "dolorum",
+  "RelationDefinitionId": 123,
+  "Reversed": 357,
+  "UpdatedDate": "2005-07-22T13:13:31.605139+02:00",
+  "CreatedDate": "2004-04-23T13:13:31.605139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pouros, Hauck and Jenkins",
-  "SourcePersonName": "Hills, Larson and Steuber",
-  "DestinationContactName": "Jones, Jakubowski and Koch",
-  "DestinationPersonName": "Zulauf, Conn and Wolff",
-  "ActiveText": "aut",
-  "PassiveText": "culpa"
+  "SourceContactName": "Blick Group",
+  "SourcePersonName": "Konopelski-Littel",
+  "DestinationContactName": "Jast, Funk and Hagenes",
+  "DestinationPersonName": "Reynolds-Ziemann",
+  "ActiveText": "officia",
+  "PassiveText": "tempora"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 432,
-  "SourcePersonId": 798,
-  "DestinationContactId": 228,
-  "DestinationPersonId": 365,
-  "RelationId": 354,
-  "Comment": "iure",
-  "RelationDefinitionId": 848,
-  "Reversed": 580,
-  "UpdatedDate": "2007-01-09T10:18:00.3480699+01:00",
-  "CreatedDate": "2021-10-07T10:18:00.3480699+02:00",
+  "SourceContactId": 257,
+  "SourcePersonId": 225,
+  "DestinationContactId": 430,
+  "DestinationPersonId": 628,
+  "RelationId": 15,
+  "Comment": "quia",
+  "RelationDefinitionId": 663,
+  "Reversed": 163,
+  "UpdatedDate": "2020-04-21T13:13:31.605139+02:00",
+  "CreatedDate": "2000-10-18T13:13:31.605139+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bartoletti-Beer",
-  "SourcePersonName": "Russel-Hauck",
-  "DestinationContactName": "Herzog Group",
-  "DestinationPersonName": "Beer, Borer and Huel",
-  "ActiveText": "quis",
-  "PassiveText": "dolores",
+  "SourceContactName": "Towne Inc and Sons",
+  "SourcePersonName": "DuBuque-Gottlieb",
+  "DestinationContactName": "Doyle Inc and Sons",
+  "DestinationPersonName": "Hane, Sporer and Morissette",
+  "ActiveText": "aut",
+  "PassiveText": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   },
   "_Links": {

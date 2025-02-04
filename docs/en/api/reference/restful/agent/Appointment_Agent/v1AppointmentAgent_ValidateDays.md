@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "reprehenderit",
-    "deserunt"
+    "aut",
+    "velit"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2008-01-10T10:17:55.0040026+01:00",
+    "Date": "2005-10-27T13:13:21.8677656+02:00",
     "IsConflict": false,
-    "Description": "Reactive transitional success",
-    "DescriptionStyleHint": "Re-engineered maximized approach",
-    "Tooltip": "rerum"
+    "Description": "Synergized high-level knowledge user",
+    "DescriptionStyleHint": "Reverse-engineered systematic open architecture",
+    "Tooltip": "exercitationem"
   },
   {
-    "Date": "2008-01-10T10:17:55.0040026+01:00",
+    "Date": "2005-10-27T13:13:21.8677656+02:00",
     "IsConflict": false,
-    "Description": "Reactive transitional success",
-    "DescriptionStyleHint": "Re-engineered maximized approach",
-    "Tooltip": "rerum"
+    "Description": "Synergized high-level knowledge user",
+    "DescriptionStyleHint": "Reverse-engineered systematic open architecture",
+    "Tooltip": "exercitationem"
   }
 ]
 ```

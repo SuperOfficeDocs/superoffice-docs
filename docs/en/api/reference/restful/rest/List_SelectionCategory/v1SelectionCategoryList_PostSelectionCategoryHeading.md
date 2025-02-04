@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 422,
-  "Name": "Rau-Cummerata",
-  "Tooltip": "labore",
-  "Deleted": false,
-  "Rank": 814,
-  "UdListDefinitionId": 300
+  "HeadingId": 125,
+  "Name": "Bednar-Trantow",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "Rank": 382,
+  "UdListDefinitionId": 983
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 864,
-  "Name": "Miller Group",
-  "Tooltip": "excepturi",
+  "HeadingId": 371,
+  "Name": "Kulas, Bednar and Runte",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 697,
-  "UdListDefinitionId": 655,
+  "Rank": 884,
+  "UdListDefinitionId": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

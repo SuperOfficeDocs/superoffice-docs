@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 914,
-  "Name": "D'Amore Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 779,
+  "SaleTypeId": 110,
+  "Name": "Walter, Glover and Ernser",
+  "Tooltip": "voluptas",
+  "Rank": 510,
   "DurationUnit": "Century",
-  "SaleDuration": 481,
-  "SaleTypeCatId": 991,
-  "Deleted": false,
+  "SaleDuration": 538,
+  "SaleTypeCatId": 279,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 454,
-  "QuoteLinesTemplate": 563,
-  "ConfirmationLinesTemplate": 709,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 999,
-  "MinEarningPercent": 997,
-  "GroupQuoteLinesBy": 189,
-  "SortGroupLinesBy": 546,
+  "DefaultQuoteValidity": 604,
+  "QuoteLinesTemplate": 436,
+  "ConfirmationLinesTemplate": 628,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 106,
+  "MinEarningPercent": 213,
+  "GroupQuoteLinesBy": 840,
+  "SortGroupLinesBy": 852,
   "Stages": [
     {
-      "Id": 119,
-      "Name": "Ryan, Krajcik and Bartoletti",
-      "ToolTip": "Qui iste alias quisquam mollitia officiis est nam.",
-      "Deleted": true,
-      "Rank": 772,
-      "Type": "sed",
-      "ColorBlock": 877,
-      "IconHint": "dolores",
-      "Selected": false,
-      "LastChanged": "2013-03-01T10:18:01.1606262+01:00",
+      "Id": 804,
+      "Name": "Cremin-Jerde",
+      "ToolTip": "Ut cum non voluptas ea.",
+      "Deleted": false,
+      "Rank": 890,
+      "Type": "aut",
+      "ColorBlock": 893,
+      "IconHint": "sunt",
+      "Selected": true,
+      "LastChanged": "2020-06-29T13:13:33.5735178+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "omnis",
-      "Hidden": true,
-      "FullName": "Brock Sawayn",
+      "ExtraInfo": "quasi",
+      "StyleHint": "eius",
+      "Hidden": false,
+      "FullName": "Elva Kris",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 450
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   }
 }

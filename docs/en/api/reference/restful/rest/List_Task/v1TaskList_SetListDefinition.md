@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 359,
-  "Name": "Lowe Group",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 275,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 425,
+  "Name": "Effertz-Muller",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "Rank": 341,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 881,
-  "Name": "Hartmann Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 157,
+  "Name": "Becker, Wehner and Hermann",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 567,
+  "Rank": 28,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

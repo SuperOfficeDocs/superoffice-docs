@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Switchable directional architecture",
-  "Postit": "voluptatem",
+  "Description": "Public-key high-level instruction set",
+  "Postit": "quo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 467,
-  "IncludePerson": 955,
+  "GroupIdx": 390,
+  "IncludePerson": 584,
   "MemberCount": 99.99,
-  "Name": "Bernier-Franecki",
-  "PostitTextId": 984,
-  "CreatedDate": "2024-04-24T10:17:56.0196892+02:00",
-  "SelectionId": 957,
-  "SoundEx": "corporis",
-  "Source": 37,
-  "TextId": 123,
-  "UpdatedDate": "2004-11-17T10:17:56.0196892+01:00",
-  "UpdatedCount": 106,
-  "Visibility": 777,
+  "Name": "Waters, Cummings and Hermiston",
+  "PostitTextId": 256,
+  "CreatedDate": "2022-05-14T13:13:23.8996346+02:00",
+  "SelectionId": 328,
+  "SoundEx": "nisi",
+  "Source": 273,
+  "TextId": 457,
+  "UpdatedDate": "1998-12-15T13:13:23.8996346+01:00",
+  "UpdatedCount": 116,
+  "Visibility": 16,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 856,
-  "TargetTableName": "Schiller Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 448,
-  "RightSelectionId": 978,
+  "TargetTableNumber": 978,
+  "TargetTableName": "Koss-Rice",
+  "Completed": true,
+  "LeftSelectionId": 936,
+  "RightSelectionId": 729,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Watsica, Pollich and Hartmann",
-  "ShadowProviderName": "McClure-Skiles",
-  "ChartKey": "qui",
-  "LastLoaded": "2005-08-07T10:17:56.0196892+02:00",
-  "LastLoadedBy": 483,
+  "MainProviderName": "Reichel-Ziemann",
+  "ShadowProviderName": "Runolfsdottir, Bashirian and Torphy",
+  "ChartKey": "ab",
+  "LastLoaded": "1999-11-21T13:13:23.8996346+01:00",
+  "LastLoadedBy": 701,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-02-23T10:17:56.0196892+01:00",
-  "LastMembershipChangeBy": 202,
+  "LastMembershipChange": "2010-12-25T13:13:23.8996346+01:00",
+  "LastMembershipChangeBy": 178,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "occaecati",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Homenick LLC",
-  "DashboardTileDefinitionId": 9,
+  "MainHeading": "sed",
+  "MemberTabHeading": "doloribus",
+  "MailingsProviderName": "Gerhold, Kuhn and Shields",
+  "DashboardTileDefinitionId": 51,
   "VisibleFor": [
     {
-      "VisibleId": 98,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "rem"
     },
     {
-      "VisibleId": 98,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "at"
+      "DisplayValue": "rem"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed asynchronous secured line",
-  "Postit": "ut",
+  "Description": "Open-architected interactive hardware",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 936,
-  "IncludePerson": 882,
+  "GroupIdx": 74,
+  "IncludePerson": 506,
   "MemberCount": 99.99,
-  "Name": "Schumm, Cronin and Runte",
-  "PostitTextId": 593,
-  "CreatedDate": "2011-04-15T10:17:56.0196892+02:00",
-  "SelectionId": 944,
-  "SoundEx": "adipisci",
-  "Source": 129,
-  "TextId": 173,
-  "UpdatedDate": "1998-02-09T10:17:56.0196892+01:00",
-  "UpdatedCount": 545,
-  "Visibility": 63,
+  "Name": "O'Keefe-Hodkiewicz",
+  "PostitTextId": 821,
+  "CreatedDate": "2001-05-14T13:13:23.9153174+02:00",
+  "SelectionId": 330,
+  "SoundEx": "est",
+  "Source": 442,
+  "TextId": 13,
+  "UpdatedDate": "2017-03-04T13:13:23.9153174+01:00",
+  "UpdatedCount": 101,
+  "Visibility": 768,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 997,
-  "TargetTableName": "Cummings, Bednar and O'Conner",
+  "TargetTableNumber": 652,
+  "TargetTableName": "Dare, Schimmel and Bechtelar",
   "Completed": false,
-  "LeftSelectionId": 508,
-  "RightSelectionId": 360,
+  "LeftSelectionId": 652,
+  "RightSelectionId": 568,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leannon-Roberts",
-  "ShadowProviderName": "Corkery, Spinka and Swaniawski",
-  "ChartKey": "labore",
-  "LastLoaded": "2020-11-04T10:17:56.0196892+01:00",
-  "LastLoadedBy": 501,
+  "MainProviderName": "Kub, Ryan and Hahn",
+  "ShadowProviderName": "Padberg-Hammes",
+  "ChartKey": "asperiores",
+  "LastLoaded": "2024-09-29T13:13:23.9153174+02:00",
+  "LastLoadedBy": 963,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-09-19T10:17:56.0196892+02:00",
-  "LastMembershipChangeBy": 700,
+  "LastMembershipChange": "2007-10-05T13:13:23.9153174+02:00",
+  "LastMembershipChangeBy": 949,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolorem",
-  "MemberTabHeading": "atque",
-  "MailingsProviderName": "Lynch, Mayer and Cassin",
-  "DashboardTileDefinitionId": 994,
+  "MainHeading": "provident",
+  "MemberTabHeading": "ad",
+  "MailingsProviderName": "Schoen, Bruen and Mohr",
+  "DashboardTileDefinitionId": 188,
   "VisibleFor": [
     {
-      "VisibleId": 868,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     },
     {
-      "VisibleId": 868,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   }
 }

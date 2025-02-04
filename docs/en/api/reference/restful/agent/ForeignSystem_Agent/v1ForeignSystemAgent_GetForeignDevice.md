@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=35
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=271
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 798,
-  "Name": "Smitham-Reinger",
-  "CreatedDate": "2010-11-21T10:17:55.660285+01:00",
-  "UpdatedDate": "2016-09-14T10:17:55.660285+02:00",
-  "AssociateFullName": "Mrs. Ada Adelbert Treutel",
-  "CreatedBy": "est",
-  "UpdatedBy": "ab",
-  "DeviceIdentifier": "quis",
-  "ForeignAppId": 11,
+  "ForeignDeviceId": 176,
+  "Name": "Maggio LLC",
+  "CreatedDate": "2018-08-30T13:13:23.1802042+02:00",
+  "UpdatedDate": "2022-02-19T13:13:23.1802042+01:00",
+  "AssociateFullName": "Santos Nienow",
+  "CreatedBy": "saepe",
+  "UpdatedBy": "quo",
+  "DeviceIdentifier": "quod",
+  "ForeignAppId": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 806
     }
   }
 }

@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 393,
-  "Field": "sed",
-  "RecordId": 102,
+  "RefCountsId": 316,
+  "Field": "incidunt",
+  "RecordId": 326,
   "SuggestedRecords": [
     {
-      "Id": 296,
-      "Name": "Cartwright-Cormier",
-      "ToolTip": "Ut quod sint et.",
-      "Deleted": false,
-      "Rank": 658,
-      "Type": "ipsum",
+      "Id": 684,
+      "Name": "Bailey Group",
+      "ToolTip": "Voluptatem sed culpa molestias.",
+      "Deleted": true,
+      "Rank": 481,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ab",
-      "ColorBlock": 125,
-      "ExtraInfo": "libero",
-      "StyleHint": "aspernatur",
-      "FullName": "Ethyl Briana Rowe Jr."
+      "IconHint": "dolore",
+      "ColorBlock": 498,
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "veritatis",
+      "FullName": "Dawn Krajcik"
     }
   ],
-  "CurrentValue": 394,
-  "TravelPrefix": 943,
-  "SatPrefix": 441,
+  "CurrentValue": 122,
+  "TravelPrefix": 31,
+  "SatPrefix": 864,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 343,
-  "Field": "mollitia",
-  "RecordId": 984,
+  "RefCountsId": 633,
+  "Field": "quam",
+  "RecordId": 712,
   "SuggestedRecords": [
     {
-      "Id": 244,
-      "Name": "Kassulke Inc and Sons",
-      "ToolTip": "Et voluptas perferendis iure fugit enim voluptatem.",
-      "Deleted": true,
-      "Rank": 533,
-      "Type": "voluptatem",
+      "Id": 452,
+      "Name": "Ziemann LLC",
+      "ToolTip": "Dolor quo aliquid totam laboriosam enim.",
+      "Deleted": false,
+      "Rank": 371,
+      "Type": "impedit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eligendi",
-      "ColorBlock": 469,
-      "ExtraInfo": "similique",
-      "StyleHint": "sed",
-      "FullName": "Miss Esperanza Alejandrin Leffler",
+      "IconHint": "incidunt",
+      "ColorBlock": 81,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "explicabo",
+      "FullName": "Miss Velda Kaylie Wilkinson DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 736
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
-  "CurrentValue": 298,
-  "TravelPrefix": 426,
-  "SatPrefix": 185,
-  "Allocate": false,
+  "CurrentValue": 327,
+  "TravelPrefix": 994,
+  "SatPrefix": 851,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": true,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 224
     }
   }
 }

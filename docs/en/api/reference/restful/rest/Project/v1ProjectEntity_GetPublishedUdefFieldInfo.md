@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 415,
-  "ColumnId": 751,
-  "FieldDefault": "ex",
-  "FieldHeight": 909,
-  "FieldLabel": "tenetur",
-  "FieldLeft": 629,
-  "FieldTop": 914,
+  "UDefFieldId": 644,
+  "ColumnId": 316,
+  "FieldDefault": "dolor",
+  "FieldHeight": 2,
+  "FieldLabel": "ad",
+  "FieldLeft": 481,
+  "FieldTop": 326,
   "FieldType": "Checkbox",
-  "FieldWidth": 744,
-  "FormatMask": "vitae",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 997,
-  "LabelLeft": 275,
-  "LabelTop": 161,
-  "LabelWidth": 734,
-  "LastVersionId": 977,
-  "ListTableId": 448,
-  "IsMandatory": false,
+  "FieldWidth": 11,
+  "FormatMask": "illo",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 550,
+  "LabelLeft": 529,
+  "LabelTop": 556,
+  "LabelWidth": 759,
+  "LastVersionId": 997,
+  "ListTableId": 706,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "tenetur",
-  "IsReadOnly": false,
-  "ShortLabel": "fuga",
-  "TabOrder": 245,
-  "TextLength": 202,
-  "Tooltip": "vel",
-  "UdefIdentity": 620,
-  "UDListDefinitionId": 35,
+  "Page1LineNo": 97,
+  "ProgId": "libero",
+  "IsReadOnly": true,
+  "ShortLabel": "aperiam",
+  "TabOrder": 573,
+  "TextLength": 310,
+  "Tooltip": "ea",
+  "UdefIdentity": 336,
+  "UDListDefinitionId": 502,
   "Justification": "Center",
-  "Version": 572,
-  "TemplateVariableName": "Boyle LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Pagac Group",
+  "Version": 732,
+  "TemplateVariableName": "Homenick-Zulauf",
+  "HasBeenPublished": false,
+  "MdoListName": "Christiansen, Gottlieb and Gibson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 295
     }
   }
 }

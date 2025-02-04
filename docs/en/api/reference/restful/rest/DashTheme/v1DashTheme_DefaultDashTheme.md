@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 74,
-  "Name": "Hayes-Erdman",
-  "Config": "vero",
-  "Rank": 185,
-  "Client": "quae",
-  "Style": "at",
+  "DashboardThemeId": 506,
+  "Name": "Anderson, Leffler and VonRueden",
+  "Config": "sit",
+  "Rank": 518,
+  "Client": "voluptates",
+  "Style": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 165
     }
   }
 }

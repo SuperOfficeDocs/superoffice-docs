@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 247,
-  "Name": "Franecki, Bode and Hayes",
-  "Tooltip": "laudantium",
-  "Rank": 957,
-  "Key": "reiciendis",
+  "LegalBaseId": 847,
+  "Name": "Murray, Streich and Ratke",
+  "Tooltip": "natus",
+  "Rank": 665,
+  "Key": "aperiam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 787
     }
   }
 }

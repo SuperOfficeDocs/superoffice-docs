@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 549,
-    "Name": "Hegmann, Barrows and Hand",
-    "Tooltip": "atque",
-    "TableName": "Gottlieb, Erdman and Luettgen",
-    "Area": "ut",
+    "TaskMenuId": 346,
+    "Name": "Stiedemann, Heathcote and Dooley",
+    "Tooltip": "eos",
+    "TableName": "Stracke Group",
+    "Area": "illo",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 835,
+    "CrmScriptId": 782,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 238,
+    "Rank": 79,
     "Encoding": "ANSI",
-    "ProgId": "error",
+    "ProgId": "est",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

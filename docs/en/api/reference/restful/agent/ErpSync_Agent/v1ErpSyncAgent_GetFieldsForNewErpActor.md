@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 496,
+  "ErpConnectionId": 707,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "inventore",
-    "Rank": 908,
-    "DisplayName": "O'Hara-Gusikowski",
-    "DisplayDescription": "Virtual 24 hour paradigm",
+    "FieldKey": "qui",
+    "Rank": 213,
+    "DisplayName": "Leffler-Stracke",
+    "DisplayDescription": "Cloned global archive",
     "FieldType": "Checkbox",
-    "ListName": "Pagac-Quitzon",
-    "DefaultValue": "itaque",
-    "MaxLength": 664,
+    "ListName": "Walsh, Kuvalis and Kunde",
+    "DefaultValue": "facilis",
+    "MaxLength": 365,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 36
       }
     }
   }

@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameterValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Kirlin Group"
+  "ParameterName": "Wiegand, Bailey and Halvorson"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"ipsum"
 ```

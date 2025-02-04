@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "King, Berge and Jerde",
-    "Description": "Intuitive context-sensitive info-mediaries",
+    "Name": "Wiza Group",
+    "Description": "Automated coherent utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 785,
-        "Tooltip": "impedit",
+        "Unrestricted": true,
+        "Total": 526,
+        "Tooltip": "iusto",
         "CanAssign": false,
-        "Free": 875,
-        "InUse": 366,
+        "Free": 380,
+        "InUse": 748,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 767,
-        "Name": "Kiehn-Hoeger",
-        "Description": "Front-line maximized array",
-        "PrerequisiteModuleName": "Torphy, Friesen and Lind",
-        "SortOrder": 368,
-        "ExtraFlags": 417,
+        "ModuleLicenseId": 476,
+        "Name": "Volkman-Deckow",
+        "Description": "Compatible 24/7 Graphic Interface",
+        "PrerequisiteModuleName": "Wuckert-Kshlerin",
+        "SortOrder": 449,
+        "ExtraFlags": 959,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 850,
-        "Tooltip": "sunt",
-        "CanAssign": true,
-        "Free": 545,
-        "InUse": 91,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 16,
-        "Name": "Mayert-Durgan",
-        "Description": "Reduced scalable collaboration",
-        "PrerequisiteModuleName": "Lemke Group",
-        "SortOrder": 868,
-        "ExtraFlags": 292,
+        "Unrestricted": true,
+        "Total": 724,
+        "Tooltip": "corrupti",
+        "CanAssign": false,
+        "Free": 137,
+        "InUse": 474,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 329,
+        "Name": "King, Dickinson and Kassulke",
+        "Description": "Public-key scalable productivity",
+        "PrerequisiteModuleName": "Walker Group",
+        "SortOrder": 422,
+        "ExtraFlags": 649,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldLength": 758
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 783
       }
     }
   },
   {
-    "Name": "King, Berge and Jerde",
-    "Description": "Intuitive context-sensitive info-mediaries",
+    "Name": "Wiza Group",
+    "Description": "Automated coherent utilisation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 785,
-        "Tooltip": "impedit",
+        "Unrestricted": true,
+        "Total": 526,
+        "Tooltip": "iusto",
         "CanAssign": false,
-        "Free": 875,
-        "InUse": 366,
+        "Free": 380,
+        "InUse": 748,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 767,
-        "Name": "Kiehn-Hoeger",
-        "Description": "Front-line maximized array",
-        "PrerequisiteModuleName": "Torphy, Friesen and Lind",
-        "SortOrder": 368,
-        "ExtraFlags": 417,
+        "ModuleLicenseId": 476,
+        "Name": "Volkman-Deckow",
+        "Description": "Compatible 24/7 Graphic Interface",
+        "PrerequisiteModuleName": "Wuckert-Kshlerin",
+        "SortOrder": 449,
+        "ExtraFlags": 959,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 850,
-        "Tooltip": "sunt",
-        "CanAssign": true,
-        "Free": 545,
-        "InUse": 91,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 16,
-        "Name": "Mayert-Durgan",
-        "Description": "Reduced scalable collaboration",
-        "PrerequisiteModuleName": "Lemke Group",
-        "SortOrder": 868,
-        "ExtraFlags": 292,
+        "Unrestricted": true,
+        "Total": 724,
+        "Tooltip": "corrupti",
+        "CanAssign": false,
+        "Free": 137,
+        "InUse": 474,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 329,
+        "Name": "King, Dickinson and Kassulke",
+        "Description": "Public-key scalable productivity",
+        "PrerequisiteModuleName": "Walker Group",
+        "SortOrder": 422,
+        "ExtraFlags": 649,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldLength": 758
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldLength": 783
       }
     }
   }

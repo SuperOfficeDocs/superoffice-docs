@@ -64,17 +64,17 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "McDermott, Franecki and Mann",
+      "Name": "Berge Inc and Sons",
       "State": true
     },
     {
-      "Name": "McDermott, Franecki and Mann",
+      "Name": "Berge Inc and Sons",
       "State": true
     }
   ]

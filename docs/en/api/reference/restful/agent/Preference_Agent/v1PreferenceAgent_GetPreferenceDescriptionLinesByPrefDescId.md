@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 596
+  "PrefDescId": 387
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 198,
-    "PrefDescId": 930,
-    "PrefValue": "rerum",
-    "PrefShowValue": "beatae",
-    "Description": "Visionary impactful data-warehouse",
+    "PrefDescLineId": 401,
+    "PrefDescId": 13,
+    "PrefValue": "quia",
+    "PrefShowValue": "dolore",
+    "Description": "Customizable intermediate definition",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 618
+        "FieldLength": 946
       }
     }
   }

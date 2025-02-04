@@ -1726,6 +1726,30 @@ title: Services88.TicketAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="DoEscalating">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TicketId" type="xs:int" />
+            <xs:element minOccurs="0" name="Action" type="tns:TicketPriorityEscalateAction" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="TicketPriorityEscalateAction">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="ActionRead" />
+          <xs:enumeration value="ActionChangedOwner" />
+          <xs:enumeration value="ActionNewInfo" />
+          <xs:enumeration value="ActionClosed" />
+          <xs:enumeration value="ActionChangedPriority" />
+          <xs:enumeration value="ActionNew" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="TicketPriorityEscalateAction" nillable="true" type="tns:TicketPriorityEscalateAction" />
+      <xs:element name="DoEscalatingResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetTicketMessage">
         <xs:complexType>
           <xs:sequence>
@@ -2946,6 +2970,23 @@ title: Services88.TicketAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="DoEscalatingRequest">
+    <wsdl:part name="parameters" element="tns:DoEscalating" />
+  </wsdl:message>
+  <wsdl:message name="DoEscalatingRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DoEscalatingResponse">
+    <wsdl:part name="parameters" element="tns:DoEscalatingResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoEscalatingResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTicketMessageRequest">
     <wsdl:part name="parameters" element="tns:GetTicketMessage" />
   </wsdl:message>
@@ -3557,6 +3598,10 @@ title: Services88.TicketAgent WSDL
     <wsdl:operation name="CreateDefaultForTicketType">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultForTicketType" name="CreateDefaultForTicketTypeRequest" message="tns:CreateDefaultForTicketTypeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/CreateDefaultForTicketTypeResponse" name="CreateDefaultForTicketTypeResponse" message="tns:CreateDefaultForTicketTypeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DoEscalating">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DoEscalating" name="DoEscalatingRequest" message="tns:DoEscalatingRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DoEscalatingResponse" name="DoEscalatingResponse" message="tns:DoEscalatingResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTicketMessage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/GetTicketMessage" name="GetTicketMessageRequest" message="tns:GetTicketMessageRequest" />
@@ -4274,6 +4319,22 @@ title: Services88.TicketAgent WSDL
         <soap:header message="tns:CreateDefaultForTicketTypeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:CreateDefaultForTicketTypeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:CreateDefaultForTicketTypeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoEscalating">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Ticket/DoEscalating" style="document" />
+      <wsdl:input name="DoEscalatingRequest">
+        <soap:header message="tns:DoEscalatingRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DoEscalatingRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DoEscalatingRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DoEscalatingResponse">
+        <soap:header message="tns:DoEscalatingResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DoEscalatingResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DoEscalatingResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DoEscalatingResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

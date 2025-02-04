@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 363,
+  "EjMessageId": 102,
   "Ticket": null,
-  "CreatedAt": "2024-01-07T10:18:00.7856022+01:00",
+  "CreatedAt": "2002-04-09T13:13:32.4642456+02:00",
   "CreatedBy": null,
-  "Author": "nulla",
+  "Author": "nostrum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "soluta",
-  "TimeSpent": 668,
-  "Body": "dolores",
-  "HtmlBody": "sit",
-  "EmailHeader": "riley@parker.co.uk",
-  "DebugInfo": "neque",
-  "MailSorter": "quisquam",
+  "MessageId": "nesciunt",
+  "TimeSpent": 992,
+  "Body": "officia",
+  "HtmlBody": "nam",
+  "EmailHeader": "okey@hoppe.com",
+  "DebugInfo": "assumenda",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloremque",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 569,
-      "Name": "Trantow, Dooley and Dicki",
-      "Value": "et",
+      "Id": 57,
+      "Name": "Feest, Fisher and Pollich",
+      "Value": "provident",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 692
+          "FieldLength": 684
         }
       }
     }
   ],
   "Important": false,
-  "Language": "consequuntur",
-  "Sentiment": 450,
-  "SentimentConfidence": 480,
+  "Language": "reprehenderit",
+  "Sentiment": 606,
+  "SentimentConfidence": 461,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 645,
-      "Name": "Bechtelar Inc and Sons",
-      "ContentType": "animi",
-      "AttSize": 305,
-      "InlineImage": true,
-      "ContentId": "omnis",
-      "AuthKey": "sed",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 283,
+      "Name": "Schimmel Group",
+      "ContentType": "quo",
+      "AttSize": 233,
+      "InlineImage": false,
+      "ContentId": "unde",
+      "AuthKey": "facilis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
+    "CustomFields1": "perferendis",
     "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

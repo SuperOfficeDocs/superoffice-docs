@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 238,
-  "Name": "Buckridge, Parker and Kohler",
-  "CreatedDate": "2014-12-15T10:18:00.4262067+01:00",
-  "UpdatedDate": "2016-11-13T10:18:00.4262067+01:00",
-  "AssociateFullName": "Mrs. Beverly Nolan",
-  "CreatedBy": "commodi",
-  "UpdatedBy": "officia",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 730
+  "ForeignDeviceId": 351,
+  "Name": "Schaefer, Jacobi and Hahn",
+  "CreatedDate": "2002-11-07T13:13:31.7457296+01:00",
+  "UpdatedDate": "2021-07-09T13:13:31.7457296+02:00",
+  "AssociateFullName": "Adrien Gibson",
+  "CreatedBy": "delectus",
+  "UpdatedBy": "rerum",
+  "DeviceIdentifier": "recusandae",
+  "ForeignAppId": 807
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 382,
-  "Name": "Kozey-Jacobson",
-  "CreatedDate": "2018-06-19T10:18:00.4262067+02:00",
-  "UpdatedDate": "2006-12-12T10:18:00.4262067+01:00",
-  "AssociateFullName": "Prof. David Melyssa Bergnaum",
-  "CreatedBy": "corrupti",
-  "UpdatedBy": "dolores",
-  "DeviceIdentifier": "perferendis",
-  "ForeignAppId": 614,
+  "ForeignDeviceId": 569,
+  "Name": "Renner Group",
+  "CreatedDate": "2008-02-28T13:13:31.7457296+01:00",
+  "UpdatedDate": "2019-02-23T13:13:31.7457296+01:00",
+  "AssociateFullName": "Lonny Bechtelar",
+  "CreatedBy": "sint",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 114
     }
   }
 }

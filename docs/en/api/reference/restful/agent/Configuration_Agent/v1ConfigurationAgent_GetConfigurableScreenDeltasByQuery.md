@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 141,
-    "Name": "Carter-Howe",
-    "Description": "Profound explicit orchestration",
-    "DeltaJson": "ea",
+    "ConfigurableScreenDeltaId": 760,
+    "Name": "McKenzie-Weimann",
+    "Description": "Networked background success",
+    "DeltaJson": "atque",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nesciunt",
-    "UpdatedDate": "2021-03-13T10:17:55.2227659+01:00",
-    "CreatedDate": "2014-10-07T10:17:55.2227659+02:00",
+    "RecipeId": "sint",
+    "UpdatedDate": "2011-08-26T13:13:22.3364082+02:00",
+    "CreatedDate": "2017-03-14T13:13:22.3364082+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      731,
-      212
+      433,
+      444
     ],
-    "AppliesToKey": "illo",
+    "AppliesToKey": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 396
       }
     }
   }

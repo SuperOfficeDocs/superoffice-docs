@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 757,
-  "UdListDefinitionName": "Wilderman, Fisher and Quigley"
+  "Id": 338,
+  "UdListDefinitionName": "Stehr-Kessler"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Hahn, Hartmann and Volkman",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 726,
-  "Rank": 56,
+  "Id": 243,
+  "Name": "Upton Group",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "UdListDefinitionId": 179,
+  "Rank": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   }
 }

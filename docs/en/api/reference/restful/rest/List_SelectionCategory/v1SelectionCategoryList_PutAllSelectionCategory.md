@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Schowalter, Orn and Carroll",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 655
+    "Id": 337,
+    "Name": "Dicki Group",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "UdListDefinitionId": 479,
+    "Rank": 348
   },
   {
-    "Id": 551,
-    "Name": "Schowalter, Orn and Carroll",
-    "Tooltip": "placeat",
-    "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 655
+    "Id": 337,
+    "Name": "Dicki Group",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "UdListDefinitionId": 479,
+    "Rank": 348
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Reichel, Kessler and Flatley",
-    "Tooltip": "harum",
+    "Id": 868,
+    "Name": "Kling Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 754,
+    "UdListDefinitionId": 321,
+    "Rank": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 882
       }
     }
   }

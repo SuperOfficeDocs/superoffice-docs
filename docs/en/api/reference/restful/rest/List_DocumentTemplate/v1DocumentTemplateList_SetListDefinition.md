@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Murazik, Gutmann and Windler",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "Rank": 933,
+  "Id": 861,
+  "Name": "Hickle Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 380,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false
+  "ListType": "eius",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 356,
-  "Name": "Friesen LLC",
-  "Tooltip": "quia",
+  "Id": 916,
+  "Name": "Moen Group",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 520,
+  "Rank": 202,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "error",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

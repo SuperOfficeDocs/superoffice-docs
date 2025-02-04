@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Frami LLC",
-    "Tooltip": "velit",
+    "HeadingId": 298,
+    "Name": "Hettinger Group",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 953,
-    "UdListDefinitionId": 42,
+    "Rank": 527,
+    "UdListDefinitionId": 746,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }
