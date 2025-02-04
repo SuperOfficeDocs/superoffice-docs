@@ -88,10 +88,10 @@ Latest released versions:
 
 ### User guides - Help documentation
 
-* The user guide for [SuperOffice for Outlook][11] in Docs - and it's available in six languages.
-* User guide for [SuperOffice Mobile CRM][12] in Docs.
-* [Learn and Docs for version 10.2][14] in help.superoffice.com
 * [Learn and Docs for version 10.3][15] in help.superoffice.com
+* [Learn and Docs for version 10.2][14] in help.superoffice.com
+* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
+* User guide for [SuperOffice Mobile CRM][12] in Docs
 
 ### SuperOffice App Store
 
@@ -107,7 +107,7 @@ See all the [new or updated apps][6]
 
 ### Ongoing pilot programs
 
-We use **pilot programs** to collect feedback, identify potential problems, and assess how well the features and functions meet our users' **needs and expectations**. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
+We use **pilot programs** assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
 
 * [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
