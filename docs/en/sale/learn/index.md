@@ -94,7 +94,7 @@ When you have the **Sale** screen open, you can use the **Selection members** [s
 
 * **Similar workflows**: You can use selections for contacts as a calling list or follow up on outstanding sales proposals to ensure no opportunity is missed.
 
-For more details on setting up your sales opportunities, see the [guide to sales forecasting][3].
+For more details on setting up your sales opportunities, see the [guide to sales forecasting][21].
 
 ## Related content
 
@@ -119,6 +119,7 @@ For more details on setting up your sales opportunities, see the [guide to sales
 [6]: sales-guide/working-with-sales-guide.md
 [16]: sales-guide/index.md
 [7]: sales-targets/index.md
+[21]: forecasting.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [18]: ../../learn/basics/links.md

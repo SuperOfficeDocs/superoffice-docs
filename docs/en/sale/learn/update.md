@@ -8,7 +8,8 @@ date: 01.06.2025
 version: 10.5
 topic: howto
 license: salesessentials
-topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

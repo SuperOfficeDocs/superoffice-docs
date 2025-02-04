@@ -30,7 +30,7 @@ Du kan angi en måltype for både brukere og grupper, samt angi andre målparame
 
 ## Legg til ny måltype
 
-1. Klikk på **Legg til ny måltype**. Du kan også klikke på ![ikon][img5] (**Konfigurer mål**) på fanen for å redigere en eksisterende måltype.
+1. Klikk på **Legg til ny måltype**. Du kan også klikke på <i class="ph ph-gear" aria-label="Gear"></i> (**Konfigurer mål**) på fanen for å redigere en eksisterende måltype.
 
 2. Klikk på **Måltype** for å velge måltypen (dimensjonen) du vil bruke.
 
@@ -101,7 +101,6 @@ For å slette en måltype klikker du på Målinnstillinger og deretter på Slett
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png

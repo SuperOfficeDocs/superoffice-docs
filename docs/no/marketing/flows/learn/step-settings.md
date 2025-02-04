@@ -52,7 +52,7 @@ audience_tooltip: SuperOffice Marketing
 | Innstilling | Beskrivelse |
 |---|---|
 | Tittel | Et beskrivende navn på salget. Detaljer går i beskrivelsen. |
-| Salgstype | En navngitt mengde informasjon om salgsprosessen. Påvirker standard salgstrinn og estimert salgsdato. Noen salgstyper er knyttet til en [salgsveiledning][14]. |
+| Salgstype | En navngitt mengde informasjon om salgsprosessen. Påvirker standard salgstrinn og estimert salgsdato. Noen salgstyper er knyttet til en [salgsguide][14]. |
 | Trinn | Salgets nåværende trinn (åpent, tapt, solgt). |
 | Beløp | Forventet beløp for pipelinen. |
 | Beskrivelse | En mer detaljert beskrivelse av salget. |

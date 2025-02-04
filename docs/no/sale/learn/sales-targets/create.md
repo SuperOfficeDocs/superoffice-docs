@@ -67,7 +67,7 @@ Før du begynner å bruke salgsmål, må du konfigurere noen få ting i Innstill
 > [!TIP]
 > Standard måltype er **Alle salg – beløp**. Hvis du har lisensen Sales Targets Unlimited kan du opprette flere måltyper.
 
-1. Klikk på ![ikon][img1] **Hovedmeny**, og velg **Mål**. Hvis det ikke er opprettet noen salgsmål ennå, er listen tom.
+1. Klikk på **Hovedmeny** (<i class="ph ph-list" aria-hidden="true"></i>), og velg **Mål**. Hvis det ikke er opprettet noen salgsmål ennå, er listen tom.
 
 2. I bildet **Salgsmål** velger du året du vil opprette et salgsmål for, fra listen **Velg år**. Du kan også sette opp mål for tidligere år for å sette opp budsjettstatistikk bakover i tid.
 
@@ -82,16 +82,16 @@ Før du begynner å bruke salgsmål, må du konfigurere noen få ting i Innstill
 
 6. Du har mulighet til å endre valutaen for firmaet eller gruppen. Standardvalutaen er basisvalutaen som er angitt for firmaet ditt. Du kan ikke angi valuta for enkeltbrukere.
 
-7. Juster tallene manuelt ved å trykke på **TAB**-tasten for gå til neste felt. Du kan også [kopiere og lime inn tall fra Excel](#import) eller klikke menyknappen ![ikon][img2] på slutten av en rad og velge **Tilpass verdier**. Alternativer:
+7. Juster tallene manuelt ved å trykke på **TAB**-tasten for gå til neste felt. Du kan også [kopiere og lime inn tall fra Excel](#import) eller klikke <i class="ph ph-list" aria-label="Menu icon"></i> på slutten av en rad og velge **Tilpass verdier**. Alternativer:
 
     * **Angi årlig startbeløp**: Angi beløpet for hele året. Beløpet deles likt mellom månedene eller kvartalene på gjeldende rad.
     * **Kopier fra**: Kopier verdiene fra en annen gruppe eller bruker.
     * **Kopier fra i fjor**: Kopier verdier fra i fjor og øk verdiene med en bestemt prosentandel. Dette alternativet er deaktivert hvis fjoråret ikke har noen verdier.
         Klikk på **Lagre** når du er ferdig. Summene for alle brukere legges til i **Alle**-raden øverst i listen over brukere.
 
-8. Valgfritt: Når du har fullført en rad, kan du låse den ![ikon][img3]-![ikon][img4] for å deaktivere redigering. For eksempel når et budsjett er godkjent og ikke skal redigeres. Låste rader kan ikke fjernes, tømmes eller redigeres.
+8. Valgfritt: Når du har fullført en rad, kan du låse den (<i class="ph ph-lock-simple" aria-hidden="true"></i>) for å deaktivere redigering. For eksempel når et budsjett er godkjent og ikke skal redigeres. Låste rader kan ikke fjernes, tømmes eller redigeres.
 
-9. Hvis en bestemt gruppe eller bruker ikke skal ha et salgsmål, klikker du på menyknappen ![ikon][img2] og velger **Tøm** for å tømme verdiene.
+9. Hvis en bestemt gruppe eller bruker ikke skal ha et salgsmål, klikker du på <i class="ph ph-list" aria-label="Menu icon"></i> og velger **Tøm** for å tømme verdiene.
 
 10. Klikk på **Lagre**.
 
@@ -100,7 +100,7 @@ Før du begynner å bruke salgsmål, må du konfigurere noen få ting i Innstill
 12. Gå til trinn 2 for å legge til salgsmål for et annet år, eller klikk **Lagre og lukk** for å avslutte dette bildet.
 
 > [!NOTE]
-> Hvis du vil fjerne et firma- eller gruppemål, klikker du på menyknappen ![ikon][img2] og velger **Fjern firmamål** eller **Fjern gruppemål**.
+> Hvis du vil fjerne et firma- eller gruppemål, klikker du på <i class="ph ph-list" aria-label="Menu icon"></i> og velger **Fjern firmamål** eller **Fjern gruppemål**.
 
 ## Låse / låse opp
 
@@ -127,7 +127,7 @@ Du kan kopiere måldata fra Excel og lime dataene inn i tabellen i SuperOffice.
 
 Slik gjør du:
 
-1. Klikk på **Oppgave**-knappen for å eksportere salgsmålet for det valgte året til Excel.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) for å eksportere salgsmålet for det valgte året til Excel.
 
 2. Rediger måldataene (beløpene) i regnearket.
 
@@ -137,7 +137,7 @@ Slik gjør du:
 
 ## Endringshistorikk
 
-Hvis du vil vise endringshistorikken for et salgsmål (rad), klikker du menyknappen ![ikon][img2] og velger **Endringshistorikk**. I bildet som vises, kan du vise alle endringer som er gjort i gjeldende salgsmål. Dette inkluderer endrede verdier og låsing/opplåsing, når endringen ble gjort og av hvem. Bruk utvid/kollaps-knappene øverst for å vise/skjule detaljer.
+Hvis du vil vise endringshistorikken for et salgsmål (rad), klikker du <i class="ph ph-list" aria-label="Menu icon"></i> og velger **Endringshistorikk**. I bildet som vises, kan du vise alle endringer som er gjort i gjeldende salgsmål. Dette inkluderer endrede verdier og låsing/opplåsing, når endringen ble gjort og av hvem. Bruk utvid/kollaps-knappene øverst for å vise/skjule detaljer.
 
 ## Aktuelle emner
 
@@ -149,9 +149,5 @@ Hvis du vil vise endringshistorikken for et salgsmål (rad), klikker du menyknap
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
-[img2]: ../../../../../common/icons/context-menu.png
-[img3]: ../../../../../common/icons/lock-on.png
-[img4]: ../../../../../common/icons/lock-off.png
 [img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
 [img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

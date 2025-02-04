@@ -5,7 +5,7 @@ description: Learn how to manage sales workflows in SuperOffice CRM with sale ty
 keywords: sales guide, sale stage, sale type, workflow, sale
 author: Bergfrid Dias
 date: 01.07.2025
-version: 10
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance

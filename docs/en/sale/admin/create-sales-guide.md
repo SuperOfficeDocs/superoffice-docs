@@ -5,7 +5,7 @@ description: How to create a sales guide in SuperOffice
 keywords: create sales guide, new sales guide, sales guide, guide, workflow, sale
 author: SuperOffice RnD
 date: 01.06.2025
-version: 10
+version: 10.5
 topic: howto
 license: salespremium
 audience: settings

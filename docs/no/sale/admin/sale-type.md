@@ -1,98 +1,150 @@
 ---
-uid: help-no-sale-add-type
-date: 01.06.2025
+uid: help-no-sale-type-add
+title: Legge til salgstype
+description: Legge til salgstype
+keywords: legge til salgstype, Salg - Type Faser Tilbud, Salg - Kategori, tilbudsvedlegg, standardverdi for tilbud, Tilbudsgodkjenning, fanen Faser, Faser-fanen, salgstype, salg, tilbud
+author: Bergfrid Dias
+date: 02.03.2025
+version: 10.5.2
+topic: howto
+license: salesessentials
+audience: settings
+audience_tooltip: Innstillinger og vedlikehold
+language: no
 ---
 
-# Legge til salgstype
+# Salgstype
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Må være administrator](../../learn/includes/req-admin.md)]
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]
+Feltet **Salgstype** i Salg-bildet kategoriserer salg og definerer arbeidsflyten. Disse typene er forhåndsdefinert i listen **Salg – Type, Faser, Tilbud**, som du kan administrere under **Lister** i **Innstillinger og vedlikehold**.
 
-> [!NOTE]
-> Et tilbud tilhører et salg, og alle salg har en salgstype. I hver salgstype kan du definere mange av egenskapene for tilbud, blant annet vedlegg, innstillinger for godkjenning, bruk av alternativer, og maler.
+Alle salg må ha en salgstype, og disse typene kan knyttes til spesifikke [salgsfaser][1] og eventuelt til [salgsguider][4]. Salgsguider forenkler prosessen ved å lede selgerne gjennom forhåndsdefinerte faser, oppfølginger og dokumenter.
 
-[!include[Edit list item](includes/edit-list-item.md)] når forekomster er salgstyper:
+## Legge til en salgstype
 
-1. Skriv inn ønsket navn på forekomsten i feltet **Navn**.
+1. Velg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i navigatoren.
 
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+1. Velg **Salg – Type, Faser, Tilbud** fra rullegardinmenyen. Fanen **Elementer** viser alle eksisterende salgstyper.
 
-2. Velg eventuelt ønsket kategori for salgstypen i listeboksen **Kategori for salgstype**.
+1. Klikk på **Legg til** for å åpne dialogboksen **Rediger listeelement**.
+
+    ![Dialogboksen Rediger listeelement som viser felt for salgstypekonfigurasjon -screenshot][img1]
+
+1. Skriv inn et navn for salgstypen i feltet **Navn**. *(Obligatorisk)*
+
+    Dette navnet vil vises i feltet **Salgstype** i Salg-bildet.
+
+1. Velg ønsket kategori for salgstypen fra listen **Kategori for salgstype**.
 
     > [!TIP]
-    > Du kan opprette nye alternativer i tillegg til de forhåndsdefinerte ved å [legge til forekomster][2] på listen **Salg - Kategori (for salgstype)** i Innstillinger og vedlikehold.
+    > Du kan opprette nye alternativer i listen **Salg – Kategori (for salgstype)**.
 
-3. I feltet **Anslått tid for denne salgstypen** angir du en varighet for salgstypen (antall uker, dager eller måneder). Når du oppretter et nytt salg med denne salgstypen, settes salgsdatoen i henhold til tiden du har angitt her (dagens dato + estimert tid).
+1. Angi estimert varighet for denne salgsprosessen i feltet **Anslått tid for denne salgstypen** (antall uker, dager eller måneder).
 
-4. Skriv inn en beskrivelse av salgstypen nederst i dialogboksen.
+    Dette fastsetter standard sluttdato når du oppretter et salg.
 
-5. Angi informasjon i fanene **Faser**, **Vedlegg**, **Standardverdier** og **Godkjenning**. Dette er beskrevet nedenfor.
+1. Gå til fanen **Faser**, og velg fasene som skal brukes i salgstypen i listen **Aktive faser for denne salgstypen**.
 
     > [!NOTE]
-    > Fanene **Vedlegg**, **Standardverdier** og **Godkjenning** er bare relevante hvis du har Sales Quote Management-lisensen.
+    > For å koble salgstypen til en salgsguide må du velge minst to faser.
 
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. *(Valgfritt)* Merk av for **Denne salgstypen er tilknyttet en guide** for å koble salgstypen til en [salgsguide][4].
 
-## Fanen Faser
+1. *(Valgfritt)* Merk av for **Foreslå automatisk flytting av salget til neste fase** for å be brukere om å gå til neste fase når alle aktiviteter for gjeldende fase er utført.
 
-I fanen **Faser** gjør du følgende:
+1. *(Valgfritt)* Merk av for **Denne salgstypen har interessenter** for å tillate knytning av [interessenter][5] til salg med denne typen. *(Krever SalesPremium-lisens)*
 
-1. I listen **Aktive faser for denne salgstypen** merker du av for de fasene du vil ha med i salgstypen. Dette trinnet er ikke obligatorisk, men for å tilknytte salgstypen til en salgsguide, bør du merke av for minst to faser.
+1. Legg til en beskrivelse av salgstypen i feltet **Beskrivelse**, om ønskelig.
 
-    [Slik oppretter du en fase][3].
+1. For tilbudshåndtering konfigurerer du feltene i fanene **Vedlegg**, **Standardverdier** og **Godkjenning**, som beskrevet i [Forklaring av tilbudsfelt](#quote-fields) nedenfor. *(Krever SalesPremium-lisens)*. Disse innstillingene lar deg tilpasse tilbud slik at de samsvarer med organisasjonens behov og prosesser.
 
-2. Merk av for **Denne salgstypen er tilknyttet en guide** hvis du vil at alle salg med denne salgstypen skal følge en [salgsguide][5].
+1. Klikk på **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
-3. Velg eventuelt **Foreslå automatisk flytting av salget til neste fase**.
+## <a id="quote-fields"></a>Forklaring av tilbudsfelt
 
-    Når alle oppfølginger og dokumenter for en fase er fullført, blir du spurt om du vil gå til neste fase.
+Et tilbud tilhører et salg, og alle salg har en salgstype. I hver salgstype kan du definere flere egenskaper for tilbud, slik som vedlegg, godkjenningsregler, bruk av alternativer og maler.
 
-4. Merk av for **Denne salgstypen har interessenter** for å gjøre det mulig å knytte til [interessenter][4] til salg med denne salgstypen.
+<!-- markdownlint-disable MD051 -->
+### [Fanen  Vedlegg](#tab/quote-attachment)
 
-## Fanen Vedlegg
-
-I fanen **Vedlegg** kan du legge til dokumenter som skal sendes til kunden sammen med et tilbud. For eksempel produktspesifikasjoner, brosjyrer og så videre.
+I fanen **Vedlegg** kan du legge til dokumenter som skal sendes til kunden sammen med et tilbud, for eksempel produktspesifikasjoner eller brosjyrer.
 
 > [!NOTE]
 > Dokumentene må først legges til som dokumentmaler i SuperOffice.
 
-### Legge til tilbudsvedlegg
+#### Legge til tilbudsvedlegg
 
 1. Klikk på **Legg til**.
-2. [Søk etter dokumentene du vil legge til][1], i Finn-bildet.
-3. Velg ett eller flere dokumenter, og klikk på **OK**. Dokumentene vises i fanen **Vedlegg**.
-4. Merk av for dokumentene du vil inkludere, i kolonnen **Inkluder**.
+1. I **Finn**-dialogen, [søk etter dokumentene du vil legge til][7].
+1. Velg ett eller flere dokumenter og klikk på **OK**. Dokumentene vises i **Vedlegg**-fanen.
+1. Merk av for dokumentene du vil inkludere i kolonnen **Inkluder**.
 
-Når du oppretter et tilbud med denne salgstypen, blir de avmerkede dokumentene lagt til som vedlegg i tilbudet. De blir imidlertid ikke lagt til på detaljkortet **Aktiviteter** i salget.
+Når du oppretter et tilbud med denne salgstypen, legges de valgte dokumentene automatisk ved tilbudet. De vil imidlertid ikke vises i detaljkortet **Aktiviteter** for salget.
 
-## Standardverdier
+### [Fanen Standardverdier](#tab/quote-defaults)
 
-Innstillinger for tilbud med denne salgstypen:
+I fanen **Standardverdier** kan du konfigurere følgende:
 
-* **Tillat bruk av alternativer i tilbud**: Merk av her hvis brukerne skal kunne legge til flere alternativer i et tilbud.
-* **Antall dager et tilbud er gyldig**: Angi antall dager som tilbudet skal være gyldig. Denne verdien kan endres når tilbudet sendes.
-* **Mal for tilbudsformat**: Merk av for malen du vil bruke for tilbudet.
-* **Bekreftelsesdokument**: Merk av for malen du vil bruke for bekreftelsen.
+* **Tillat bruk av alternativer i tilbud:** Merk av for å tillate flere alternativer i et enkelt tilbud.
+* **Antall dager et tilbud er gyldig:** Angi hvor lenge et tilbud skal være gyldig. Denne verdien kan endres ved sending.
+* **Mal for tilbudsformat:** Velg hvilken mal som skal brukes for tilbudet.
+* **Mal for ordrebekreftelse:** Velg hvilken mal som skal brukes for ordrebekreftelser.
 
-## Godkjenning
+### [Fanen Godkjenning](#tab/quote-approval)
 
-Her kan du velge om tilbudet må godkjennes hvis totalrabatten er over en viss grense eller total fortjeneste er under en viss grense:
+I fanen **Godkjenning** kan du angi om tilbud må godkjennes under visse betingelser:
 
-* Ingen godkjenning kreves. Ingen begrensninger. Tilbudet behøver ikke å godkjennes.
-* **Totalrabatt er over grensen**. Angi en prosentverdi.
-* **Total fortjeneste er under grensen**. Angi en prosentverdi.
+* **Ingen godkjenning kreves:** Ingen begrensninger. Tilbudet trenger ikke godkjenning.
+* **Totalrabatt er over grensen:** Angi en prosentgrense for rabatt som krever godkjenning.
+* **Total fortjeneste er under grensen:** Angi en prosentgrense for fortjeneste som krever godkjenning.
 
-## Aktuelt innhold
+***
+<!-- markdownlint-enable MD051 -->
 
+## Redigere eller slette en salgstype
+
+1. Følg trinn 1–2 i **Legge til en salgstype** for å åpne listen **Salg – Type, Faser, Tilbud**.
+
+1. For å redigere:
+   * Dobbeltklikk på ønsket salgstype for å åpne dialogboksen **Rediger listeelement**.
+   * Oppdater feltene etter behov, og klikk **Lagre**.
+
+1. For å slette:
+   * Velg salgstypen i listen og klikk **Slett**.
+
+    > [!CAUTION]
+    > Hvis du sletter en salgstype, fjernes også koblingene til faser og salgsguider. Sørg for at den ikke er i aktiv bruk før du fortsetter.
+
+## <a id="restore"></a>Gjenopprette en slettet salgstype
+
+Hvis en salgstype har blitt slettet, kan du gjenopprette den fra listen **Salg – Type, Faser, Tilbud**. Merk at gjenoppretting ikke automatisk gjenoppretter koblinger til relaterte salgsfaser eller guider. Disse må settes opp manuelt om nødvendig.
+
+1. Gå til listen **Salg – Type, Faser, Tilbud**.
+
+1. Merk av for **Vis slettede elementer og overskrifter** nederst. Slettede elementer vises gjennomstreket i fanen **Elementer**.
+
+1. Dobbeltklikk på det slettede elementet du vil gjenopprette. Dialogboksen **Rediger listeelement** åpnes.
+
+1. Klikk på **Gjenopprett**.
+
+1. Oppdater eventuelle nødvendige felt, og klikk **Lagre**. Elementet er nå aktivt og vil vises i fanen **Elementer**.
+
+## Relatert innhold
+
+* [Legge til en salgsfase][1]
+* [Opprette en salgsguide][2]
+* [Redigere en salgsguide][3]
 * [Tilbudsmaler][6]
 
-<!-- Referenced links -->
-[2]: adding-items.md
-[3]: ../../../sale/learn/screen/sale-stage.md
-[4]: ../../../sale/learn/stakeholders/index.md
-[5]: ../../../sale/learn/screen/sales-guide-admin.md
-[1]: ../../../search-options/learn/search-criteria.md
-[6]: ../../../document/templates/learn/quote-templates.md
+<!-- Refererte lenker -->
+[1]: sale-stage.md
+[2]: create-sales-guide.md
+[3]: edit-sales-guide.md
+[4]: ../learn/sales-guides.md
+[5]: ../learn/stakeholders/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../search-options/learn/find-screen.md
 
-<!-- Referenced images -->
+<!-- Refererte bilder -->
+[img1]: ../../../media/loc/no/sale/edit-sale-type.png
