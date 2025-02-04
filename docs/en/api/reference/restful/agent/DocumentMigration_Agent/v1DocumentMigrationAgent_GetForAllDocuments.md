@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 655,
+  "DocumentPluginId": 222,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 490,
-  "NumDocumentsAlreadyMigrated": 757,
+  "NumDocumentsOmitted": 825,
+  "NumDocumentsAlreadyMigrated": 861,
   "Documents": [
     {
-      "DocumentId": 444,
-      "ContactId": 472,
-      "PersonId": 667,
-      "SaleId": 861,
-      "ProjectId": 349,
-      "DocTmplId": 729,
-      "AssociateId": 963,
-      "UserGroupId": 367,
-      "VisibleForId": 635
+      "DocumentId": 626,
+      "ContactId": 824,
+      "PersonId": 35,
+      "SaleId": 133,
+      "ProjectId": 615,
+      "DocTmplId": 408,
+      "AssociateId": 879,
+      "UserGroupId": 853,
+      "VisibleForId": 546
     }
   ],
   "Associates": [
     {
-      "AssociateId": 576,
-      "EmailAddress": "sandrine.hayes@vonruedenbogisich.name"
+      "AssociateId": 419,
+      "EmailAddress": "francisca.blanda@erdmanlegros.uk"
     },
     {
-      "AssociateId": 576,
-      "EmailAddress": "sandrine.hayes@vonruedenbogisich.name"
+      "AssociateId": 419,
+      "EmailAddress": "francisca.blanda@erdmanlegros.uk"
     }
   ]
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 250,
-    "Name": "Gutmann, Beatty and Pouros",
-    "PersonId": 734,
-    "Rank": 696,
-    "Tooltip": "quo",
+    "AssociateId": 61,
+    "Name": "Pfannerstill-Bins",
+    "PersonId": 19,
+    "Rank": 224,
+    "Tooltip": "voluptate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 478,
-    "FullName": "Casimir O'Kon Sr.",
-    "FormalName": "Rice-Toy",
-    "Deleted": false,
-    "EjUserId": 927,
-    "UserName": "Hahn LLC",
+    "GroupIdx": 942,
+    "FullName": "Claudia Bailey",
+    "FormalName": "Howe LLC",
+    "Deleted": true,
+    "EjUserId": 591,
+    "UserName": "Moen LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 721
       }
     }
   }

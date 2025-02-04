@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 354
+  "LanguageId": 549
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 412,
-    "ResourceId": 988,
-    "Text": "nobis",
+    "LanguageId": 135,
+    "ResourceId": 83,
+    "Text": "ipsum",
     "Type": "Column",
-    "LocalizedTextId": 327,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 224,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

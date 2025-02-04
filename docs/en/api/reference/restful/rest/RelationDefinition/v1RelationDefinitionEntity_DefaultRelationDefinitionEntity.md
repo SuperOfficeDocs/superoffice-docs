@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 766,
-  "Name": "Bashirian, Smith and Schultz",
-  "Tooltip": "dolorum",
-  "PassiveText": "asperiores",
-  "Deleted": true,
-  "Rank": 305,
+  "ReldefId": 548,
+  "Name": "Hills LLC",
+  "Tooltip": "inventore",
+  "PassiveText": "perferendis",
+  "Deleted": false,
+  "Rank": 51,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 332
     }
   }
 }

@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "excepturi",
+  "Id": 898,
+  "Name": "Howell Inc and Sons",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 306,
-  "Rank": 235
+  "UdListDefinitionId": 507,
+  "Rank": 318
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Kiehn Inc and Sons",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 797,
-  "Rank": 711,
+  "Id": 720,
+  "Name": "Gaylord-Weber",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 108,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

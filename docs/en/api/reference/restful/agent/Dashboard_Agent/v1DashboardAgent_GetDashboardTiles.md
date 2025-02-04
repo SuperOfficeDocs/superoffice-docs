@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    801,
-    919
+    487,
+    982
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 939,
-    "Caption": "expedita",
-    "Description": "Operative impactful database",
-    "ChartName": "Friesen LLC",
-    "ChartId": "dicta",
+    "DashboardTileId": 430,
+    "Caption": "pariatur",
+    "Description": "Synergistic solution-oriented capacity",
+    "ChartName": "Ruecker Group",
+    "ChartId": "odit",
     "IsDefault": false,
-    "AssociateId": 622,
-    "GroupId": 787,
-    "SelectionId": 927,
-    "Config": "enim",
+    "AssociateId": 974,
+    "GroupId": 691,
+    "SelectionId": 798,
+    "Config": "corporis",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Rice, Hettinger and Harber",
-        "Description": "Grass-roots analyzing algorithm",
+        "Name": "Hand, Steuber and Heller",
+        "Description": "Compatible maximized orchestration",
         "Type": "Boolean",
-        "ListName": "Haag Group",
+        "ListName": "Brown, Mayer and Beier",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "temporibus",
-        "DefaultDataOption": true,
+        "Value": "accusamus",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 125
+            "FieldLength": 881
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 312,
+        "VisibleId": 609,
         "Visibility": "All",
-        "DisplayValue": "et",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldLength": 126
           }
         }
       },
       {
-        "VisibleId": 312,
+        "VisibleId": 609,
         "Visibility": "All",
-        "DisplayValue": "et",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldLength": 126
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

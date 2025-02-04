@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    240,
-    355
+    621,
+    667
   ],
   "Read": false
 }

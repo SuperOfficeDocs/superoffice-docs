@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 4165.086,
-  "FromCurrency": "dolorem",
-  "ToCurrency": "labore"
+  "Amount": 15375.403999999999,
+  "FromCurrency": "voluptatum",
+  "ToCurrency": "excepturi"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-12902.678
+2557.344
 ```

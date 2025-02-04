@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    639,
-    890
+    120,
+    412
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Smith Group",
-    "AssociateId": 188,
-    "DetailsTable": 541,
-    "DetailsRecord": 506,
+    "Id": 907,
+    "Name": "Reichert, Schiller and Gerlach",
+    "AssociateId": 818,
+    "DetailsTable": 15,
+    "DetailsRecord": 752,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "architecto",
-      "ParameterObject2": "harum"
+      "ParameterObject1": "a",
+      "ParameterObject2": "aperiam"
     },
-    "LastStarted": "2005-11-28T10:17:55.1290102+01:00",
-    "Created": "2009-10-22T10:17:55.1290102+02:00",
-    "StartCount": 979,
-    "DatabaseSerialNumber": "745095",
-    "Context": "eos",
-    "Result": "excepturi",
+    "LastStarted": "2012-06-21T13:13:22.133333+02:00",
+    "Created": "2010-12-09T13:13:22.133333+01:00",
+    "StartCount": 800,
+    "DatabaseSerialNumber": "790134",
+    "Context": "illum",
+    "Result": "nemo",
     "State": "All",
-    "Description": "Multi-tiered exuding website",
-    "Response": "reprehenderit",
-    "Request": "minus",
-    "ProgressDescription": "Profit-focused cohesive support",
-    "ProgressPercent": 770,
-    "FileName": "Bartoletti, Lueilwitz and Ferry",
+    "Description": "Front-line non-volatile algorithm",
+    "Response": "ullam",
+    "Request": "modi",
+    "ProgressDescription": "Reduced reciprocal encryption",
+    "ProgressPercent": 134,
+    "FileName": "Kihn-Boyle",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 870
       }
     }
   }

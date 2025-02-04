@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dach LLC",
+  "TableName": "Grimes-Hermiston",
   "Columns": [
-    "sint",
-    "voluptatem"
+    "architecto",
+    "sunt"
   ],
   "Keys": [
-    "ipsam",
-    "quos"
+    "non",
+    "rerum"
   ],
   "Data": [
     [
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "NomatchAction": "NoChange",
-  "ReturnRowStatus": true
+  "NomatchAction": "DeleteRow",
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ut",
-  "Inserts": 519,
-  "Updates": 939,
-  "Deletes": 754,
+  "Message": "quo",
+  "Inserts": 526,
+  "Updates": 673,
+  "Deletes": 945,
   "RowStatus": [
     {
-      "PrimaryKey": 219,
+      "PrimaryKey": 292,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quos",
-        "ipsa"
+        "deleniti",
+        "doloremque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 968
+          "FieldLength": 239
         }
       }
     },
     {
-      "PrimaryKey": 219,
+      "PrimaryKey": 292,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quos",
-        "ipsa"
+        "deleniti",
+        "doloremque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 968
+          "FieldLength": 239
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 93
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 04 Sep 2002 10:18:00 G9T
+Last-Modified: Thu, 28 Jan 2016 13:13:32 G1T
 
 {
-  "BlobId": 991,
-  "BlobSize": 55,
-  "Description": "Multi-channelled object-oriented open system",
-  "ExtraInfo": "illo",
-  "IsEncrypted": true,
+  "BlobId": 315,
+  "BlobSize": 947,
+  "Description": "Grass-roots background secured line",
+  "ExtraInfo": "non",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "praesentium",
-  "OriginalSize": 749,
-  "CreatedDate": "2000-01-27T10:18:00.8481067+01:00",
-  "UpdatedDate": "2002-09-04T10:18:00.8481067+02:00",
+  "MimeType": "architecto",
+  "OriginalSize": 456,
+  "CreatedDate": "2006-08-08T13:13:32.5892154+02:00",
+  "UpdatedDate": "2016-01-28T13:13:32.5892154+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eius",
+  "ConceptualType": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }

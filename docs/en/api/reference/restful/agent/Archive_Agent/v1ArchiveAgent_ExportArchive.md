@@ -87,55 +87,55 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Murazik, Bergnaum and Baumbach",
-  "Context": "rerum",
+  "ProviderName": "Wilkinson Inc and Sons",
+  "Context": "mollitia",
   "DesiredEntities": [
-    "architecto",
-    "voluptates"
+    "saepe",
+    "cum"
   ],
   "Columns": [
-    "ab",
-    "voluptatem"
+    "voluptatem",
+    "saepe"
   ],
   "SortOrder": [
     {
-      "Name": "Schulist, Baumbach and Swaniawski",
+      "Name": "Wisoky-Beahan",
       "Direction": "ASC"
     },
     {
-      "Name": "Schulist, Baumbach and Swaniawski",
+      "Name": "Wisoky-Beahan",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Bogan-Tremblay",
-      "Operator": "et",
+      "Name": "Boehm Inc and Sons",
+      "Operator": "quia",
       "Values": [
-        "maiores",
-        "dolore"
-      ],
-      "DisplayValues": [
-        "aut",
+        "consequatur",
         "aut"
       ],
+      "DisplayValues": [
+        "architecto",
+        "amet"
+      ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 690,
+      "InterParenthesis": 168,
       "InterOperator": "And",
-      "UniqueHash": 951
+      "UniqueHash": 176
     }
   ],
-  "ExportType": "dolore",
+  "ExportType": "aut",
   "SelectedRowIds": [
-    "voluptate",
-    "possimus"
+    "in",
+    "libero"
   ],
-  "EstimatedRowCount": 852
+  "EstimatedRowCount": 39
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 855,
-  "FileName": "Wisozk LLC",
-  "Message": "consequuntur",
+  "BatchTaskId": 660,
+  "FileName": "Schowalter Group",
+  "Message": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

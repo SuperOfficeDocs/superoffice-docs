@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 209
+  "ProjectId": 64
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 452,
-  "Name": "Kemmer-Wunsch",
-  "Description": "Enhanced web-enabled methodology",
+  "ProjectId": 147,
+  "Name": "Carroll-Macejkovic",
+  "Description": "Operative non-volatile parallelism",
   "URL": "http://www.example.com/",
-  "Type": "aut",
-  "AssociateId": 507,
-  "AssociateFullName": "Ross Larson",
-  "TypeId": 542,
-  "Updated": "2010-02-11T10:17:55.9103076+01:00",
-  "StatusId": 118,
-  "Status": "minus",
-  "TextId": 350,
-  "PublishTo": "2003-12-05T10:17:55.9103076+01:00",
-  "PublishFrom": "1998-02-04T10:17:55.9103076+01:00",
-  "IsPublished": true,
+  "Type": "laboriosam",
+  "AssociateId": 281,
+  "AssociateFullName": "Dr. Allison Shanahan",
+  "TypeId": 384,
+  "Updated": "2018-06-27T13:13:23.664465+02:00",
+  "StatusId": 795,
+  "Status": "cupiditate",
+  "TextId": 356,
+  "PublishTo": "2021-04-17T13:13:23.664465+02:00",
+  "PublishFrom": "2013-11-15T13:13:23.664465+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1607512",
-  "ActiveErpLinks": 358,
+  "ProjectNumber": "539860",
+  "ActiveErpLinks": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 907
     }
   }
 }

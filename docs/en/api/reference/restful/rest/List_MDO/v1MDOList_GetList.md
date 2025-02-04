@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=nostrum
-GET /api/v1/MDOList/{listname}?query=corporis
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=quaerat
+GET /api/v1/MDOList/{listname}?query=omnis
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Lind LLC",
-    "ToolTip": "Est est est impedit suscipit quo non.",
+    "Id": 664,
+    "Name": "Lang-Kuhic",
+    "ToolTip": "Cupiditate excepturi fugit non aliquid quod quo veritatis.",
     "Deleted": false,
-    "Rank": 804,
-    "Type": "enim",
+    "Rank": 184,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Bogan LLC",
-        "ToolTip": "Consectetur velit nisi ipsum ad.",
+        "Id": 837,
+        "Name": "Graham-Predovic",
+        "ToolTip": "Ducimus totam eius fugit vel tempora nihil.",
         "Deleted": false,
-        "Rank": 439,
-        "Type": "molestiae",
+        "Rank": 140,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nemo",
-        "ColorBlock": 929,
-        "ExtraInfo": "illum",
-        "StyleHint": "reiciendis",
-        "FullName": "Miss Francesca Clyde Stroman",
+        "IconHint": "est",
+        "ColorBlock": 348,
+        "ExtraInfo": "facilis",
+        "StyleHint": "mollitia",
+        "FullName": "Abraham Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldLength": 932
           }
         }
       }
     ],
-    "IconHint": "quidem",
-    "ColorBlock": 21,
-    "ExtraInfo": "eum",
-    "StyleHint": "eaque",
-    "FullName": "Mr. Randall Nannie Anderson",
+    "IconHint": "distinctio",
+    "ColorBlock": 341,
+    "ExtraInfo": "maxime",
+    "StyleHint": "sint",
+    "FullName": "Ms. Ana Greenfelder Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 368
       }
     }
   }

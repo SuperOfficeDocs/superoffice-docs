@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sit",
+  "RawValue": "quo",
   "Specification": null,
-  "DisplayValue": "sint",
-  "DisplayTooltip": "nulla",
+  "DisplayValue": "odit",
+  "DisplayTooltip": "deleniti",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 568,
-  "PrefDescId": 953,
-  "TableName": "Ullrich-Crona",
-  "UserPreferenceId": 173,
+  "TargetId": 822,
+  "PrefDescId": 799,
+  "TableName": "Graham Group",
+  "UserPreferenceId": 267,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

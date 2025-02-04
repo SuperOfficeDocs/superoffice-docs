@@ -349,13 +349,13 @@ Contact provider for general use
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=registeredByFullName,streetAddress/county,restrictionAddress/wgs84longitude,contactAssociate/isActive,contactSupportPerson/birthDay
+GET /api/v1/archive/Contact?$select=associateId,postAddress/city,url/URLDescription,contactSupportAssociate/personId,contactSupportPerson/birthYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

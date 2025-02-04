@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Herman-Kuhn",
-    "ToolTip": "Fugit tempora animi iusto quaerat.",
+    "Id": 65,
+    "Name": "Connelly, Denesik and Berge",
+    "ToolTip": "Vero aperiam iure dolores et aliquid ut sed.",
     "Deleted": false,
-    "Rank": 363,
-    "Type": "ea",
-    "ColorBlock": 354,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2005-03-20T10:18:00.9418629+01:00",
+    "Rank": 832,
+    "Type": "eum",
+    "ColorBlock": 481,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2021-12-24T13:13:32.8705596+01:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Anderson Group",
-        "ToolTip": "Officia deserunt eaque laborum.",
+        "Id": 335,
+        "Name": "Hayes-Luettgen",
+        "ToolTip": "Dolor et.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "in",
-        "ColorBlock": 788,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2022-12-01T10:18:00.9418629+01:00",
+        "Rank": 510,
+        "Type": "et",
+        "ColorBlock": 65,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2019-06-11T13:13:32.8705596+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "aut",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Jerrell Grady"
+        "FullName": "Giovanna Tromp I"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Heath Moen"
+    "ExtraInfo": "aliquam",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Demond Glover"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Vandervort-Harvey",
-    "ToolTip": "Assumenda sit inventore sed et aut id.",
-    "Deleted": true,
-    "Rank": 880,
-    "Type": "sunt",
-    "ColorBlock": 403,
-    "IconHint": "natus",
+    "Id": 436,
+    "Name": "Herman LLC",
+    "ToolTip": "Quibusdam ut eum aut magni et.",
+    "Deleted": false,
+    "Rank": 302,
+    "Type": "nihil",
+    "ColorBlock": 462,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2001-08-11T10:18:00.9418629+02:00",
+    "LastChanged": "2010-07-05T13:13:32.8705596+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Rodriguez, Hoeger and Legros",
-        "ToolTip": "Aut dignissimos ipsum vel libero impedit.",
+        "Id": 757,
+        "Name": "Jerde Inc and Sons",
+        "ToolTip": "Aut et eos.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "sed",
-        "ColorBlock": 531,
-        "IconHint": "aut",
+        "Rank": 410,
+        "Type": "quod",
+        "ColorBlock": 763,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2022-06-26T10:18:00.9418629+02:00",
+        "LastChanged": "2002-09-02T13:13:32.8705596+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Clemens Pollich II",
+        "ExtraInfo": "tempore",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Mr. Paula Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
+    "ExtraInfo": "qui",
     "StyleHint": "velit",
     "Hidden": true,
-    "FullName": "Sebastian Morissette",
+    "FullName": "Prof. Josie Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   }

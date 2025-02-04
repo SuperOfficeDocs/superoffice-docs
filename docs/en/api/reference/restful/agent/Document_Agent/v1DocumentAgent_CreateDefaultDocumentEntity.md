@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963,
+  "DocumentId": 443,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "id",
-  "Name": "Stehr, Crist and Kris",
-  "OurRef": "veritatis",
-  "YourRef": "tempora",
-  "CreatedDate": "2006-10-10T10:17:55.457154+02:00",
-  "UpdatedDate": "1998-01-01T10:17:55.457154+01:00",
-  "Description": "Persistent encompassing functionalities",
+  "Attention": "quia",
+  "Header": "magni",
+  "Name": "Nader LLC",
+  "OurRef": "et",
+  "YourRef": "repellat",
+  "CreatedDate": "2007-11-13T13:13:22.6490664+01:00",
+  "UpdatedDate": "2019-11-12T13:13:22.6490664+01:00",
+  "Description": "Exclusive clear-thinking time-frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-27T10:17:55.4727799+01:00",
-  "ExternalRef": "nemo",
+  "Date": "1998-06-05T13:13:22.6803106+02:00",
+  "ExternalRef": "maxime",
   "Completed": "Completed",
-  "ActiveLinks": 941,
+  "ActiveLinks": 510,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Skiles Group",
-      "Id": 244,
-      "Description": "Future-proofed 3rd generation Graphic Interface",
-      "ExtraInfo": "nulla",
-      "LinkId": 350,
+      "EntityName": "Runte LLC",
+      "Id": 211,
+      "Description": "User-friendly intermediate emulation",
+      "ExtraInfo": "soluta",
+      "LinkId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 932,
-  "Snum": 143,
+  "SuggestedDocumentId": 201,
+  "Snum": 487,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Monica Kyra Daugherty",
-    "SuperOffice:2": "Bonnie Vandervort"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Myrtice Leffler"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "a",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "maxime"
+    "CustomFields1": "sed",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2015-07-27T10:17:55.4727799+02:00",
-  "PublishTo": "2011-07-31T10:17:55.4727799+02:00",
-  "PublishFrom": "2011-02-03T10:17:55.4727799+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-11-24T13:13:22.6959294+01:00",
+  "PublishTo": "2009-06-02T13:13:22.6959294+02:00",
+  "PublishFrom": "2018-06-07T13:13:22.6959294+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 845,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldLength": 87
         }
       }
     },
     {
-      "VisibleId": 845,
+      "VisibleId": 395,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 118
+          "FieldLength": 87
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 665
     }
   }
 }

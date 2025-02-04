@@ -13,9 +13,11 @@ title: Services88.DocumentAgent WSDL
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="CreateDefaultDocumentEntity">
+      <xs:element name="GetSuggestedDocumentEntity">
         <xs:complexType>
-          <xs:sequence />
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SuggestedDocumentEntityId" type="xs:int" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
@@ -34,56 +36,33 @@ title: Services88.DocumentAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="CreateDefaultDocumentEntityResponse">
+      <xs:element name="GetSuggestedDocumentEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:DocumentEntity" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SuggestedDocumentEntity" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="DocumentEntity">
+      <xs:complexType name="SuggestedDocumentEntity">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Attention" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="OurRef" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="YourRef" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DocumentTemplate" nillable="true" type="tns:DocumentTemplate" />
-              <xs:element minOccurs="0" name="Person" nillable="true" type="tns:Person" />
-              <xs:element minOccurs="0" name="Associate" nillable="true" type="tns:Associate" />
-              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:Contact" />
-              <xs:element minOccurs="0" name="Project" nillable="true" type="tns:Project" />
-              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="ExternalRef" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="tns:ActivityStatus" />
-              <xs:element minOccurs="0" name="ActiveLinks" type="xs:int" />
-              <xs:element minOccurs="0" name="Type" type="tns:AppointmentType" />
-              <xs:element minOccurs="0" name="Links" nillable="true" type="tns:ArrayOfLink" />
-              <xs:element minOccurs="0" name="LockSemantics" type="tns:DocumentLockSemantics" />
-              <xs:element minOccurs="0" name="Sale" nillable="true" type="tns:Sale" />
               <xs:element minOccurs="0" name="SuggestedDocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="Snum" type="xs:int" />
-              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
-              <xs:element minOccurs="0" name="PublishEventDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="PublishTo" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="PublishFrom" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="IsPublished" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="tns:ArrayOfVisibleFor" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="DoctmplId" type="xs:int" />
+              <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OurRef" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="DocTmpl" nillable="true" type="tns:DocumentTemplate" />
+              <xs:element minOccurs="0" name="ProjectTypeStatusLink" nillable="true" type="tns:ProjectTypeStatusLink" />
+              <xs:element minOccurs="0" name="SaleTypeStageLink" nillable="true" type="tns:SaleTypeStageLink" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DocumentEntity" nillable="true" type="tns:DocumentEntity" />
+      <xs:element name="SuggestedDocumentEntity" nillable="true" type="tns:SuggestedDocumentEntity" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -187,38 +166,6 @@ title: Services88.DocumentAgent WSDL
         </xs:list>
       </xs:simpleType>
       <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
-      <xs:complexType name="Associate">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Type" type="tns:UserType" />
-              <xs:element minOccurs="0" name="GroupIdx" type="xs:int" />
-              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
-              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Associate" nillable="true" type="tns:Associate" />
-      <xs:simpleType name="UserType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="Unknown" />
-          <xs:enumeration value="InternalAssociate" />
-          <xs:enumeration value="ResourceAssociate" />
-          <xs:enumeration value="ExternalAssociate" />
-          <xs:enumeration value="AnonymousAssociate" />
-          <xs:enumeration value="SystemAssociate" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="UserType" nillable="true" type="tns:UserType" />
       <xs:complexType name="DocumentTemplate">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -289,6 +236,177 @@ title: Services88.DocumentAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="DocTmplQuoteType" nillable="true" type="tns:DocTmplQuoteType" />
+      <xs:complexType name="ProjectTypeStatusLink">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjTypeName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjTypeTooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjStatusId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProjStatusName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProjStatusTooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ProjectTypeStatusLink" nillable="true" type="tns:ProjectTypeStatusLink" />
+      <xs:complexType name="SaleTypeStageLink">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
+              <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SaleTypeTooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProbId" type="xs:int" />
+              <xs:element minOccurs="0" name="ProbName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ProbTooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Probability" type="xs:short" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="SaleTypeStageLink" nillable="true" type="tns:SaleTypeStageLink" />
+      <xs:complexType name="SoExceptionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExceptionInfoParameters">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
+      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
+      <xs:complexType name="SoExtraInfo">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
+      <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="CreateDefaultDocumentEntity">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateDefaultDocumentEntityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:DocumentEntity" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="DocumentEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Attention" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="OurRef" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="YourRef" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DocumentTemplate" nillable="true" type="tns:DocumentTemplate" />
+              <xs:element minOccurs="0" name="Person" nillable="true" type="tns:Person" />
+              <xs:element minOccurs="0" name="Associate" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="tns:Contact" />
+              <xs:element minOccurs="0" name="Project" nillable="true" type="tns:Project" />
+              <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="ExternalRef" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Completed" type="tns:ActivityStatus" />
+              <xs:element minOccurs="0" name="ActiveLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="Type" type="tns:AppointmentType" />
+              <xs:element minOccurs="0" name="Links" nillable="true" type="tns:ArrayOfLink" />
+              <xs:element minOccurs="0" name="LockSemantics" type="tns:DocumentLockSemantics" />
+              <xs:element minOccurs="0" name="Sale" nillable="true" type="tns:Sale" />
+              <xs:element minOccurs="0" name="SuggestedDocumentId" type="xs:int" />
+              <xs:element minOccurs="0" name="Snum" type="xs:int" />
+              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="PublishEventDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="PublishTo" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="PublishFrom" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="IsPublished" type="xs:boolean" />
+              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="tns:ArrayOfVisibleFor" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="DocumentEntity" nillable="true" type="tns:DocumentEntity" />
+      <xs:complexType name="Associate">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Type" type="tns:UserType" />
+              <xs:element minOccurs="0" name="GroupIdx" type="xs:int" />
+              <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FormalName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+              <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
+              <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Associate" nillable="true" type="tns:Associate" />
+      <xs:simpleType name="UserType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="InternalAssociate" />
+          <xs:enumeration value="ResourceAssociate" />
+          <xs:enumeration value="ExternalAssociate" />
+          <xs:enumeration value="AnonymousAssociate" />
+          <xs:enumeration value="SystemAssociate" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="UserType" nillable="true" type="tns:UserType" />
       <xs:complexType name="Person">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -645,57 +763,6 @@ title: Services88.DocumentAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Visibility" nillable="true" type="tns:Visibility" />
-      <xs:complexType name="SoExceptionInfo">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="StackTrace" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="tns:SoExceptionInfo" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExceptionInfoParameters">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SoExceptionInfoParametersKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="tns:SoExceptionInfoParameters" />
-      <xs:element name="ExceptionInfo" nillable="true" type="tns:SoExceptionInfo" />
-      <xs:complexType name="SoExtraInfo">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraInfoNameValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
-      <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="SaveDocumentEntity">
         <xs:complexType>
           <xs:sequence>
@@ -759,59 +826,6 @@ title: Services88.DocumentAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="SuggestedDocumentEntity">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="SuggestedDocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="DoctmplId" type="xs:int" />
-              <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="OurRef" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
-              <xs:element minOccurs="0" name="DocTmpl" nillable="true" type="tns:DocumentTemplate" />
-              <xs:element minOccurs="0" name="ProjectTypeStatusLink" nillable="true" type="tns:ProjectTypeStatusLink" />
-              <xs:element minOccurs="0" name="SaleTypeStageLink" nillable="true" type="tns:SaleTypeStageLink" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="SuggestedDocumentEntity" nillable="true" type="tns:SuggestedDocumentEntity" />
-      <xs:complexType name="ProjectTypeStatusLink">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
-              <xs:element minOccurs="0" name="ProjTypeId" type="xs:int" />
-              <xs:element minOccurs="0" name="ProjTypeName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProjTypeTooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProjStatusId" type="xs:int" />
-              <xs:element minOccurs="0" name="ProjStatusName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProjStatusTooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ProjectTypeStatusLink" nillable="true" type="tns:ProjectTypeStatusLink" />
-      <xs:complexType name="SaleTypeStageLink">
-        <xs:complexContent mixed="false">
-          <xs:extension base="tns:Carrier">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
-              <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="SaleTypeTooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProbId" type="xs:int" />
-              <xs:element minOccurs="0" name="ProbName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProbTooltip" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Probability" type="xs:short" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="SaleTypeStageLink" nillable="true" type="tns:SaleTypeStageLink" />
       <xs:element name="SaveSuggestedDocumentEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1799,6 +1813,22 @@ title: Services88.DocumentAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="SavePrivacyReportPdf">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Stream" nillable="true" type="xs:base64Binary" />
+            <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SavePrivacyReportPdfResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDocumentList">
         <xs:complexType>
           <xs:sequence>
@@ -2253,20 +2283,6 @@ title: Services88.DocumentAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetSuggestedDocumentEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SuggestedDocumentEntityId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSuggestedDocumentEntityResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:SuggestedDocumentEntity" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -2330,6 +2346,23 @@ title: Services88.DocumentAgent WSDL
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetSuggestedDocumentEntityRequest">
+    <wsdl:part name="parameters" element="tns:GetSuggestedDocumentEntity" />
+  </wsdl:message>
+  <wsdl:message name="GetSuggestedDocumentEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSuggestedDocumentEntityResponse">
+    <wsdl:part name="parameters" element="tns:GetSuggestedDocumentEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSuggestedDocumentEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateDefaultDocumentEntityRequest">
     <wsdl:part name="parameters" element="tns:CreateDefaultDocumentEntity" />
   </wsdl:message>
@@ -3299,6 +3332,23 @@ title: Services88.DocumentAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SavePrivacyReportPdfRequest">
+    <wsdl:part name="parameters" element="tns:SavePrivacyReportPdf" />
+  </wsdl:message>
+  <wsdl:message name="SavePrivacyReportPdfRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SavePrivacyReportPdfResponse">
+    <wsdl:part name="parameters" element="tns:SavePrivacyReportPdfResponse" />
+  </wsdl:message>
+  <wsdl:message name="SavePrivacyReportPdfResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDocumentListRequest">
     <wsdl:part name="parameters" element="tns:GetDocumentList" />
   </wsdl:message>
@@ -3758,24 +3808,11 @@ title: Services88.DocumentAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetSuggestedDocumentEntityRequest">
-    <wsdl:part name="parameters" element="tns:GetSuggestedDocumentEntity" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedDocumentEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedDocumentEntityResponse">
-    <wsdl:part name="parameters" element="tns:GetSuggestedDocumentEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetSuggestedDocumentEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:portType name="Document">
+    <wsdl:operation name="GetSuggestedDocumentEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntity" name="GetSuggestedDocumentEntityRequest" message="tns:GetSuggestedDocumentEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntityResponse" name="GetSuggestedDocumentEntityResponse" message="tns:GetSuggestedDocumentEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CreateDefaultDocumentEntity" name="CreateDefaultDocumentEntityRequest" message="tns:CreateDefaultDocumentEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CreateDefaultDocumentEntityResponse" name="CreateDefaultDocumentEntityResponse" message="tns:CreateDefaultDocumentEntityResponse" />
@@ -4004,6 +4041,10 @@ title: Services88.DocumentAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CopyDocumentToCsAttachment" name="CopyDocumentToCsAttachmentRequest" message="tns:CopyDocumentToCsAttachmentRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CopyDocumentToCsAttachmentResponse" name="CopyDocumentToCsAttachmentResponse" message="tns:CopyDocumentToCsAttachmentResponse" />
     </wsdl:operation>
+    <wsdl:operation name="SavePrivacyReportPdf">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/SavePrivacyReportPdf" name="SavePrivacyReportPdfRequest" message="tns:SavePrivacyReportPdfRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/SavePrivacyReportPdfResponse" name="SavePrivacyReportPdfResponse" message="tns:SavePrivacyReportPdfResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetDocumentList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentList" name="GetDocumentListRequest" message="tns:GetDocumentListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentListResponse" name="GetDocumentListResponse" message="tns:GetDocumentListResponse" />
@@ -4112,13 +4153,25 @@ title: Services88.DocumentAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentsByTemplateHeading" name="GetDocumentsByTemplateHeadingRequest" message="tns:GetDocumentsByTemplateHeadingRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentsByTemplateHeadingResponse" name="GetDocumentsByTemplateHeadingResponse" message="tns:GetDocumentsByTemplateHeadingResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetSuggestedDocumentEntity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntity" name="GetSuggestedDocumentEntityRequest" message="tns:GetSuggestedDocumentEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntityResponse" name="GetSuggestedDocumentEntityResponse" message="tns:GetSuggestedDocumentEntityResponse" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_Document" type="tns:Document">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSuggestedDocumentEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntity" style="document" />
+      <wsdl:input name="GetSuggestedDocumentEntityRequest">
+        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSuggestedDocumentEntityResponse">
+        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="CreateDefaultDocumentEntity">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CreateDefaultDocumentEntity" style="document" />
       <wsdl:input name="CreateDefaultDocumentEntityRequest">
@@ -5031,6 +5084,22 @@ title: Services88.DocumentAgent WSDL
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="SavePrivacyReportPdf">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/SavePrivacyReportPdf" style="document" />
+      <wsdl:input name="SavePrivacyReportPdfRequest">
+        <soap:header message="tns:SavePrivacyReportPdfRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SavePrivacyReportPdfRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SavePrivacyReportPdfRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SavePrivacyReportPdfResponse">
+        <soap:header message="tns:SavePrivacyReportPdfResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SavePrivacyReportPdfResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SavePrivacyReportPdfResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SavePrivacyReportPdfResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetDocumentList">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentList" style="document" />
       <wsdl:input name="GetDocumentListRequest">
@@ -5460,22 +5529,6 @@ title: Services88.DocumentAgent WSDL
         <soap:header message="tns:GetDocumentsByTemplateHeadingResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDocumentsByTemplateHeadingResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDocumentsByTemplateHeadingResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetSuggestedDocumentEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetSuggestedDocumentEntity" style="document" />
-      <wsdl:input name="GetSuggestedDocumentEntityRequest">
-        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetSuggestedDocumentEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetSuggestedDocumentEntityResponse">
-        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetSuggestedDocumentEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

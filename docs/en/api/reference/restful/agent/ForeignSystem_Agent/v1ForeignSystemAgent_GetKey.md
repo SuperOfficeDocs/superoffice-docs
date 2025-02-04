@@ -90,11 +90,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wehner, Swift and Smith",
-  "DeviceName": "Wolf, O'Keefe and Powlowski",
-  "KeyName": "Schroeder-Dooley",
-  "TableName": "Waelchi, Reynolds and Bechtelar",
-  "RecordId": 71
+  "ApplicationName": "Christiansen, Corwin and Cremin",
+  "DeviceName": "Nicolas LLC",
+  "KeyName": "Wisoky, Upton and Stiedemann",
+  "TableName": "O'Kon-Kunze",
+  "RecordId": 199
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "id",
-  "Value": "et",
-  "RecordId": 258,
-  "CreatedDate": "2001-04-20T10:17:55.660285+02:00",
-  "UpdatedDate": "2013-02-26T10:17:55.660285+01:00",
-  "UpdatedBy": "minima",
-  "CreatedBy": "aut",
-  "TableName": "Gleason Group",
+  "Key": "rem",
+  "Value": "aliquid",
+  "RecordId": 130,
+  "CreatedDate": "2013-05-26T13:13:23.1645837+02:00",
+  "UpdatedDate": "2018-07-04T13:13:23.1645837+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "blanditiis",
+  "TableName": "Treutel, Bernier and Schamberger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 292
     }
   }
 }

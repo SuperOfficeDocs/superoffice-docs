@@ -36,7 +36,7 @@ Lists all email flow content
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy| *None* |Registered by: The user who registered the data|  |
 |registeredDate| *None* |Registered date: The date/time the data was registered in UTC.|  |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -86,7 +86,7 @@ Lists all email flow content
 |shipment/updatedBy| *None* |Updated by: The user who last updated the data|  |
 |shipment/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.|  |
 |shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
-|shipment/emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
+|shipment/emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow|  |
 |shipment/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |shipment/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
 |shipment/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
@@ -259,7 +259,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=updatedBy,shipment/emailFlow/workflowAssociate/contactId,shipment/emailFlow/startOnlyOnce
+GET /api/v1/archive/EmailFlowContent?$select=emailFlow/emailFlowHierarchyId,shipment/project/projectUdef/SuperOffice:1,shipment/emailFlow/startOnlyOnce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

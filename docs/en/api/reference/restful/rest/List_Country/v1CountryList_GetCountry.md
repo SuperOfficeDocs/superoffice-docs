@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 357,
-  "Name": "Kessler Inc and Sons",
-  "CurrencyId": 715,
-  "EnglishName": "Pacocha-Barrows",
+  "CountryId": 898,
+  "Name": "Fay, Kunde and Hegmann",
+  "CurrencyId": 968,
+  "EnglishName": "Von Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked intermediate process improvement",
-  "OrgNrText": "705024",
-  "InterAreaPrefix": "distinctio",
-  "DialInPrefix": "eos",
-  "ZipPrefix": "ullam",
-  "DomainName": "Bogisich-Torp",
-  "AddressLayoutId": 518,
-  "DomesticAddressLayoutId": 273,
-  "ForeignAddressLayoutId": 90,
-  "Rank": 793,
-  "Tooltip": "debitis",
+  "ImageDescription": "Diverse needs-based monitoring",
+  "OrgNrText": "1525583",
+  "InterAreaPrefix": "adipisci",
+  "DialInPrefix": "consequatur",
+  "ZipPrefix": "tempora",
+  "DomainName": "Dibbert-Cummings",
+  "AddressLayoutId": 708,
+  "DomesticAddressLayoutId": 793,
+  "ForeignAddressLayoutId": 884,
+  "Rank": 394,
+  "Tooltip": "dolorem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

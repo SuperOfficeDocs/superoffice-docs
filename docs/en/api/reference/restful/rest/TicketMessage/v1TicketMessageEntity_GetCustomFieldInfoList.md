@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Larkin Group",
-    "DisplayName": "Rice LLC",
-    "Description": "Vision-oriented real-time workforce",
-    "ShortLabel": "aut",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Rath Group",
+    "DisplayName": "Sipes LLC",
+    "Description": "Multi-layered executive benchmark",
+    "ShortLabel": "labore",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 264,
-    "TemplateVariableName": "Jenkins-Romaguera"
+    "Rank": 740,
+    "TemplateVariableName": "Casper-Pagac"
   }
 ]
 ```

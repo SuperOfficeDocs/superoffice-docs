@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": true
+  "Flat": false,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Crist, Botsford and Stamm",
-    "ToolTip": "Ut voluptatem voluptate delectus qui natus rerum.",
-    "Deleted": false,
-    "Rank": 230,
-    "Type": "reprehenderit",
+    "Id": 764,
+    "Name": "Kunze, Considine and Lakin",
+    "ToolTip": "A repellendus est ratione voluptates.",
+    "Deleted": true,
+    "Rank": 602,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Stamm-Pollich",
-        "ToolTip": "Consequatur aliquid repellendus.",
-        "Deleted": true,
-        "Rank": 664,
-        "Type": "blanditiis",
+        "Id": 124,
+        "Name": "Leannon-Gerhold",
+        "ToolTip": "Voluptates omnis maxime nemo minima molestias aut.",
+        "Deleted": false,
+        "Rank": 715,
+        "Type": "quos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 519,
-        "ExtraInfo": "veniam",
-        "StyleHint": "odit",
-        "FullName": "Mrs. Celestino Leif Huels I",
+        "IconHint": "molestiae",
+        "ColorBlock": 960,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "voluptatem",
+        "FullName": "Frankie Dewitt Gorczany IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 769
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 547,
-    "ExtraInfo": "in",
-    "StyleHint": "voluptas",
-    "FullName": "David Schamberger",
+    "IconHint": "quia",
+    "ColorBlock": 604,
+    "ExtraInfo": "eum",
+    "StyleHint": "voluptatibus",
+    "FullName": "Ms. Sabina Cheyenne Olson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 757
       }
     }
   }

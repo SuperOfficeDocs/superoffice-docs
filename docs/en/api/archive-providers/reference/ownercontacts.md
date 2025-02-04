@@ -351,13 +351,13 @@ Archive provider for the list of own contacts in SoAdmin
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=postAddress/wgs84longitude,restrictionPostalAddress/wgs84longitude,contactSupportPerson/kanaLastName,contactSupportPerson/personUdef/SuperOffice:2,contactSupportPerson/personExtra/y_rental/x_contact
+GET /api/v1/archive/OwnerContacts?$select=contactSupportPerson/hasCompany,contactSupportPerson/personExtra/y_rental/id,contactUdef/SuperOffice:12
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

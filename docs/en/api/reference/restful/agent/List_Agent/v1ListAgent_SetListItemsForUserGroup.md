@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 129,
-  "UsergroupId": 535,
+  "UdListDefinitionId": 164,
+  "UsergroupId": 35,
   "ListItemIds": [
-    827,
-    967
+    819,
+    507
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

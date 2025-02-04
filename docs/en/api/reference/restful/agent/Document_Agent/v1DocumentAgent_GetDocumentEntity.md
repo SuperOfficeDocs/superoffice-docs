@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=154
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=914
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 696,
+  "DocumentId": 860,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "earum",
-  "Name": "Trantow Group",
-  "OurRef": "unde",
-  "YourRef": "voluptas",
-  "CreatedDate": "2001-07-15T10:17:55.4884062+02:00",
-  "UpdatedDate": "2014-10-31T10:17:55.4884062+01:00",
-  "Description": "Up-sized composite focus group",
+  "Attention": "numquam",
+  "Header": "nam",
+  "Name": "Douglas-Nitzsche",
+  "OurRef": "deleniti",
+  "YourRef": "unde",
+  "CreatedDate": "1999-03-09T13:13:22.8209139+01:00",
+  "UpdatedDate": "2021-05-27T13:13:22.8209139+02:00",
+  "Description": "Focused client-driven toolset",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-03-26T10:17:55.4884062+01:00",
-  "ExternalRef": "expedita",
+  "Date": "1998-02-01T13:13:22.8209139+01:00",
+  "ExternalRef": "occaecati",
   "Completed": "Completed",
-  "ActiveLinks": 784,
+  "ActiveLinks": 128,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Moore, Grimes and Considine",
-      "Id": 441,
-      "Description": "Diverse context-sensitive initiative",
-      "ExtraInfo": "est",
-      "LinkId": 196,
+      "EntityName": "Koss, Weimann and Bogisich",
+      "Id": 691,
+      "Description": "Stand-alone analyzing process improvement",
+      "ExtraInfo": "nihil",
+      "LinkId": 14,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldType": "System.Int32",
+          "FieldLength": 493
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 564,
-  "Snum": 906,
+  "SuggestedDocumentId": 47,
+  "Snum": 993,
   "UserDefinedFields": {
-    "SuperOffice:1": "Madalyn Brown",
+    "SuperOffice:1": "Prof. Dane Selina Huels Jr.",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "at"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "2012-07-18T10:17:55.4884062+02:00",
-  "PublishTo": "2019-09-05T10:17:55.4884062+02:00",
-  "PublishFrom": "1998-10-12T10:17:55.4884062+02:00",
+  "PublishEventDate": "2005-12-01T13:13:22.8209139+01:00",
+  "PublishTo": "2010-07-07T13:13:22.8209139+02:00",
+  "PublishFrom": "2007-04-04T13:13:22.8209139+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 976,
+      "VisibleId": 888,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     },
     {
-      "VisibleId": 976,
+      "VisibleId": 888,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 485
     }
   }
 }

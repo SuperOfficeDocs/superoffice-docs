@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Kohler, Bosco and Lesch",
-    "ToolTip": "Nihil dolor molestiae aut esse saepe magni ad.",
+    "Id": 356,
+    "Name": "Bashirian LLC",
+    "ToolTip": "Alias minus consequuntur quia veritatis at.",
     "Deleted": false,
-    "Rank": 884,
-    "Type": "voluptas",
-    "ColorBlock": 893,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2001-05-13T10:18:00.9887407+02:00",
+    "Rank": 742,
+    "Type": "ut",
+    "ColorBlock": 177,
+    "IconHint": "animi",
+    "Selected": false,
+    "LastChanged": "2011-10-09T13:13:32.9955292+02:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Lebsack, McKenzie and Welch",
-        "ToolTip": "Blanditiis suscipit.",
+        "Id": 829,
+        "Name": "Reichel LLC",
+        "ToolTip": "Ipsam autem et maiores et iure.",
         "Deleted": false,
-        "Rank": 972,
-        "Type": "recusandae",
-        "ColorBlock": 554,
-        "IconHint": "illo",
-        "Selected": true,
-        "LastChanged": "2016-03-02T10:18:00.9887407+01:00",
+        "Rank": 766,
+        "Type": "accusamus",
+        "ColorBlock": 394,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2012-07-14T13:13:32.9955292+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Adam Hermiston",
+        "ExtraInfo": "ea",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Larue Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldType": "System.String",
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "facilis",
+    "ExtraInfo": "iure",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Patricia Predovic",
+    "FullName": "Adriel Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 795
       }
     }
   }

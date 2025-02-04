@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schamberger, D'Amore and Ziemann",
-  "AssociateId": 794
+  "TableName": "Bode, Runte and Erdman",
+  "AssociateId": 944
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Hudson, Schiller and King",
-    "RecordId": 955,
-    "AssociateId": 837,
-    "ExtraInfo": "repellendus",
-    "Rank": 442,
+    "TableName": "Schimmel-Howe",
+    "RecordId": 982,
+    "AssociateId": 953,
+    "ExtraInfo": "eum",
+    "Rank": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 945
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Hessel Group",
-    "ToolTip": "Laborum architecto laboriosam voluptatem distinctio reiciendis quo harum.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "eveniet",
-    "ColorBlock": 337,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2020-02-19T10:18:01.051244+01:00",
+    "Id": 871,
+    "Name": "Jast, Hoppe and Stehr",
+    "ToolTip": "Et necessitatibus officiis laudantium quae sapiente voluptas voluptatem.",
+    "Deleted": false,
+    "Rank": 803,
+    "Type": "ex",
+    "ColorBlock": 407,
+    "IconHint": "odio",
+    "Selected": false,
+    "LastChanged": "2022-02-03T13:13:33.1986076+01:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Huels, Barton and Kutch",
-        "ToolTip": "Non aspernatur.",
-        "Deleted": true,
-        "Rank": 692,
-        "Type": "voluptatum",
-        "ColorBlock": 337,
-        "IconHint": "expedita",
+        "Id": 376,
+        "Name": "Tromp-Bartoletti",
+        "ToolTip": "Sunt earum.",
+        "Deleted": false,
+        "Rank": 558,
+        "Type": "fugiat",
+        "ColorBlock": 933,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2004-09-16T10:18:01.051244+02:00",
+        "LastChanged": "2023-03-27T13:13:33.1986076+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Mrs. Aron Crooks Sr.",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Agustin Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "quia",
+    "ExtraInfo": "aut",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Stefan Ziemann",
+    "FullName": "Marguerite Grimes MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldType": "System.String",
+        "FieldLength": 282
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 485,
-    "Tooltip": "quia",
-    "CanAssign": false,
-    "Free": 462,
-    "InUse": 102,
-    "IsHidden": false,
+    "Total": 74,
+    "Tooltip": "nisi",
+    "CanAssign": true,
+    "Free": 556,
+    "InUse": 599,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 202,
-    "Name": "Satterfield, Dooley and Mraz",
-    "Description": "Cross-group directional paradigm",
-    "PrerequisiteModuleName": "Feest, Mueller and Hessel",
-    "SortOrder": 382,
-    "ExtraFlags": 524,
+    "ModuleLicenseId": 864,
+    "Name": "Bayer-Pacocha",
+    "Description": "Open-source secondary system engine",
+    "PrerequisiteModuleName": "Hudson-Runte",
+    "SortOrder": 343,
+    "ExtraFlags": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

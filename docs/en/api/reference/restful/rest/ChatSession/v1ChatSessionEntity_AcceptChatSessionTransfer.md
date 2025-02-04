@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 304,
-  "TopicId": 973,
+  "ChatSessionId": 649,
+  "TopicId": 69,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "ea",
-  "CustomerName": "Hessel-Kemmer",
-  "CustomerEmail": "demarcus.paucek@monahan.co.uk",
-  "CustomerPhone": "286.836.8168 x39839",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schultz LLC",
+  "CustomerAlias": "vitae",
+  "CustomerHost": "repellendus",
+  "CustomerName": "Bernier Group",
+  "CustomerEmail": "lou@quigleyschumm.ca",
+  "CustomerPhone": "1-817-769-8969 x7796",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Flatley-Schultz",
   "Status": "Closed",
-  "FirstMessage": "quod",
-  "LastMessage": "eius",
-  "WhenRequested": "2012-03-23T10:18:00.2230623+01:00",
-  "WhenStarted": "2017-12-30T10:18:00.2230623+01:00",
-  "WhenEnded": "2015-04-01T10:18:00.2230623+02:00",
-  "WhenIdle": "2013-03-05T10:18:00.2230623+01:00",
-  "WhenFetched": "2020-12-31T10:18:00.2230623+01:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 307,
-  "AlertLevel": 694,
-  "Rank": 771,
+  "FirstMessage": "quia",
+  "LastMessage": "et",
+  "WhenRequested": "2018-07-13T13:13:31.3708121+02:00",
+  "WhenStarted": "2021-10-29T13:13:31.3708121+02:00",
+  "WhenEnded": "2007-12-30T13:13:31.3708121+01:00",
+  "WhenIdle": "2019-02-24T13:13:31.3708121+01:00",
+  "WhenFetched": "2009-11-28T13:13:31.3708121+01:00",
+  "SessionKey": "exercitationem",
+  "InitialQueuePos": 101,
+  "AlertLevel": 637,
+  "Rank": 36,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 75,
+  "ChatbotIsActive": true,
+  "Rating": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

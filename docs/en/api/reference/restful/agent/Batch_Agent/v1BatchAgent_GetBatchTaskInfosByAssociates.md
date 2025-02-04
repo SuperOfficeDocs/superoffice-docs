@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    306,
-    873
+    885,
+    231
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Jones Inc and Sons",
-    "AssociateId": 289,
-    "DetailsTable": 228,
-    "DetailsRecord": 63,
+    "Id": 779,
+    "Name": "Bernier-Marquardt",
+    "AssociateId": 41,
+    "DetailsTable": 389,
+    "DetailsRecord": 696,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "nostrum"
+      "ParameterObject1": "ea",
+      "ParameterObject2": "blanditiis"
     },
-    "LastStarted": "2004-01-15T10:17:55.1290102+01:00",
-    "Created": "2021-12-15T10:17:55.1290102+01:00",
-    "StartCount": 539,
-    "DatabaseSerialNumber": "694282",
-    "Context": "doloremque",
-    "Result": "facere",
+    "LastStarted": "2020-11-28T13:13:22.133333+01:00",
+    "Created": "2016-09-21T13:13:22.133333+02:00",
+    "StartCount": 907,
+    "DatabaseSerialNumber": "1201010",
+    "Context": "a",
+    "Result": "voluptatibus",
     "State": "All",
-    "Description": "Enhanced fresh-thinking framework",
-    "Response": "eos",
-    "Request": "modi",
-    "ProgressDescription": "Future-proofed asynchronous budgetary management",
-    "ProgressPercent": 220,
-    "FileName": "Buckridge Group",
+    "Description": "Diverse demand-driven open architecture",
+    "Response": "iure",
+    "Request": "ipsa",
+    "ProgressDescription": "Vision-oriented systemic architecture",
+    "ProgressPercent": 402,
+    "FileName": "Bauch-Schneider",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldLength": 232
       }
     }
   }

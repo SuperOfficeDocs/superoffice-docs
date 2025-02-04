@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Langosh, Bogan and Renner",
-  "PersonId": 689
+  "ParameterName": "Ratke Inc and Sons",
+  "PersonId": 649
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 979,
-  "Name": "Abshire Inc and Sons",
+  "AudienceLayoutId": 306,
+  "Name": "Lueilwitz, Schinner and Bradtke",
   "Value": "amet",
-  "CreatedDate": "2005-06-14T10:17:55.1290102+02:00",
-  "UpdatedDate": "2011-05-17T10:17:55.1290102+02:00",
-  "CreatedBy": "quam",
-  "UpdatedBy": "repudiandae",
+  "CreatedDate": "2006-05-21T13:13:22.1177118+02:00",
+  "UpdatedDate": "2000-07-29T13:13:22.1177118+02:00",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

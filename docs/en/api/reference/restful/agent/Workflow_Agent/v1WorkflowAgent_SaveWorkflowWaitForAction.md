@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 246,
-  "WorkflowStepId": 131,
-  "WorkflowId": 33,
-  "Rank": 102,
+  "WorkflowWaitForActionId": 760,
+  "WorkflowStepId": 805,
+  "WorkflowId": 332,
+  "Rank": 312,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Auer-Mante",
-      "Description": "Customer-focused high-level architecture",
-      "Rank": 52,
+      "Name": "Hauck, Leffler and Dare",
+      "Description": "Cross-group discrete structure",
+      "Rank": 655,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Auer-Mante",
-      "Description": "Customer-focused high-level architecture",
-      "Rank": 52,
+      "Name": "Hauck, Leffler and Dare",
+      "Description": "Cross-group discrete structure",
+      "Rank": 655,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 981,
-  "WorkflowStepId": 262,
-  "WorkflowId": 290,
-  "Rank": 166,
+  "WorkflowWaitForActionId": 471,
+  "WorkflowStepId": 202,
+  "WorkflowId": 38,
+  "Rank": 712,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Fritsch-Lowe",
-      "Description": "Function-based 6th generation emulation",
-      "Rank": 198,
+      "Name": "West, Altenwerth and Lynch",
+      "Description": "Polarised 24 hour synergy",
+      "Rank": 419,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Fritsch-Lowe",
-      "Description": "Function-based 6th generation emulation",
-      "Rank": 198,
+      "Name": "West, Altenwerth and Lynch",
+      "Description": "Polarised 24 hour synergy",
+      "Rank": 419,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

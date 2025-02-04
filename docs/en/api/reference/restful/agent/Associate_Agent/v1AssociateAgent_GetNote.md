@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Associate/GetNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 189
+  "AssociateId": 514
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quasi",
-  "id"
+  "ut",
+  "ut"
 ]
 ```

@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thiel-Wuckert",
+  "Name": "Rogahn-Jewess",
   "AssociateIds": [
-    643,
-    827
+    615,
+    74
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 926,
-    "Name": "Brekke LLC",
-    "AssociateId": 226,
-    "DetailsTable": 299,
-    "DetailsRecord": 320,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 254,
+    "Name": "Schmeler, Haley and O'Hara",
+    "AssociateId": 495,
+    "DetailsTable": 147,
+    "DetailsRecord": 418,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "impedit",
-      "ParameterObject2": "maiores"
+      "ParameterObject1": "consequatur",
+      "ParameterObject2": "culpa"
     },
-    "LastStarted": "2022-02-24T10:17:55.1290102+01:00",
-    "Created": "2024-04-04T10:17:55.1290102+02:00",
-    "StartCount": 980,
-    "DatabaseSerialNumber": "892006",
-    "Context": "consequatur",
-    "Result": "fuga",
+    "LastStarted": "2008-12-18T13:13:22.133333+01:00",
+    "Created": "2014-11-13T13:13:22.133333+01:00",
+    "StartCount": 892,
+    "DatabaseSerialNumber": "1667901",
+    "Context": "fugiat",
+    "Result": "dolorum",
     "State": "All",
-    "Description": "Persistent context-sensitive definition",
-    "Response": "occaecati",
-    "Request": "natus",
-    "ProgressDescription": "Visionary bifurcated projection",
-    "ProgressPercent": 920,
-    "FileName": "Graham-Runolfsdottir",
+    "Description": "Progressive maximized adapter",
+    "Response": "non",
+    "Request": "sapiente",
+    "ProgressDescription": "Team-oriented dedicated secured line",
+    "ProgressPercent": 733,
+    "FileName": "Halvorson, Reilly and Glover",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

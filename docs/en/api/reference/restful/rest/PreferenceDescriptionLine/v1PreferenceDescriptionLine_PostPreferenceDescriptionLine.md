@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 81,
-  "PrefDescId": 26,
-  "PrefValue": "ut",
+  "PrefDescLineId": 785,
+  "PrefDescId": 233,
+  "PrefValue": "a",
   "PrefShowValue": "nisi",
-  "Description": "Organized responsive frame",
+  "Description": "Profound explicit extranet",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 399,
-  "PrefDescId": 527,
-  "PrefValue": "illum",
-  "PrefShowValue": "labore",
-  "Description": "Proactive foreground benchmark",
-  "IsBuiltin": false,
+  "PrefDescLineId": 311,
+  "PrefDescId": 858,
+  "PrefValue": "fugiat",
+  "PrefShowValue": "sed",
+  "Description": "Future-proofed background toolset",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 873
     }
   },
   "_Links": {

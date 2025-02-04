@@ -29,7 +29,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 | includeStandard | bool |  Include standard fields in result. Default false. |
 
 ```http
-GET /api/v1/Schema/{tableName}?includeStandard=False
+GET /api/v1/Schema/{tableName}?includeStandard=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Grimes-Connelly",
-    "DisplayName": "Herman Group",
-    "Description": "Intuitive executive conglomeration",
-    "ShortLabel": "numquam",
+    "FieldName": "Mitchell, Hartmann and Tremblay",
+    "DisplayName": "Harvey, Becker and O'Reilly",
+    "Description": "Multi-layered zero administration flexibility",
+    "ShortLabel": "labore",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 635,
-    "TemplateVariableName": "Green Inc and Sons"
+    "IsDisplayField": true,
+    "Rank": 60,
+    "TemplateVariableName": "Weimann, Torphy and Runolfsdottir"
   }
 ]
 ```

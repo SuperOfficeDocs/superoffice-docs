@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cummerata Group",
+  "UdListDefinitionName": "Corkery, Gutkowski and Champlin",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Douglas-Kemmer",
-    "Tooltip": "fugit",
+    "Id": 547,
+    "Name": "Ankunding Inc and Sons",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 766,
-    "Rank": 878,
+    "UdListDefinitionId": 49,
+    "Rank": 49,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 709
       }
     }
   }

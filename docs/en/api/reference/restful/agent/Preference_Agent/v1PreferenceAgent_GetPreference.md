@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 11
+  "Id": 924
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "autem",
+  "RawValue": "blanditiis",
   "Specification": null,
-  "DisplayValue": "ab",
-  "DisplayTooltip": "necessitatibus",
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "quo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 86,
-  "PrefDescId": 259,
-  "TableName": "Quitzon LLC",
-  "UserPreferenceId": 578,
+  "TargetId": 330,
+  "PrefDescId": 882,
+  "TableName": "Bashirian-Toy",
+  "UserPreferenceId": 561,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

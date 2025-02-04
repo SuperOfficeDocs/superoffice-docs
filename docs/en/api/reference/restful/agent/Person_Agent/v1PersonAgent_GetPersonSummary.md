@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 5,
-  "Limit": 653
+  "PersonId": 556,
+  "Limit": 226
 }
 ```
 
@@ -96,79 +96,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 128,
-      "TicketStatus": 520,
-      "Title": "et",
-      "Registered": "2014-07-11T10:17:55.8478039+02:00",
-      "IconHint": "magni"
+      "TicketId": 276,
+      "TicketStatus": 38,
+      "Title": "consequatur",
+      "Registered": "2013-12-19T13:13:23.539495+01:00",
+      "IconHint": "velit"
     },
     {
-      "TicketId": 128,
-      "TicketStatus": 520,
-      "Title": "et",
-      "Registered": "2014-07-11T10:17:55.8478039+02:00",
-      "IconHint": "magni"
+      "TicketId": 276,
+      "TicketStatus": 38,
+      "Title": "consequatur",
+      "Registered": "2013-12-19T13:13:23.539495+01:00",
+      "IconHint": "velit"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 189,
-      "DocumentId": 398,
-      "Date": "2013-06-09T10:17:55.8478039+02:00",
-      "Description": "Reactive interactive groupware",
+      "AppointmentId": 123,
+      "DocumentId": 423,
+      "Date": "2007-03-26T13:13:23.539495+02:00",
+      "Description": "Proactive fresh-thinking hardware",
       "Completed": "Completed",
-      "Registered": "2008-11-22T10:17:55.8478039+01:00"
+      "Registered": "2010-05-31T13:13:23.539495+02:00"
     },
     {
-      "AppointmentId": 189,
-      "DocumentId": 398,
-      "Date": "2013-06-09T10:17:55.8478039+02:00",
-      "Description": "Reactive interactive groupware",
+      "AppointmentId": 123,
+      "DocumentId": 423,
+      "Date": "2007-03-26T13:13:23.539495+02:00",
+      "Description": "Proactive fresh-thinking hardware",
       "Completed": "Completed",
-      "Registered": "2008-11-22T10:17:55.8478039+01:00"
+      "Registered": "2010-05-31T13:13:23.539495+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 493,
-      "DocumentId": 230,
-      "Date": "2015-09-30T10:17:55.8478039+02:00",
-      "Description": "Front-line scalable algorithm",
+      "AppointmentId": 274,
+      "DocumentId": 470,
+      "Date": "2008-08-22T13:13:23.539495+02:00",
+      "Description": "Operative multi-state success",
       "Completed": "Completed",
-      "Registered": "2002-11-10T10:17:55.8478039+01:00"
+      "Registered": "2006-07-12T13:13:23.539495+02:00"
     },
     {
-      "AppointmentId": 493,
-      "DocumentId": 230,
-      "Date": "2015-09-30T10:17:55.8478039+02:00",
-      "Description": "Front-line scalable algorithm",
+      "AppointmentId": 274,
+      "DocumentId": 470,
+      "Date": "2008-08-22T13:13:23.539495+02:00",
+      "Description": "Operative multi-state success",
       "Completed": "Completed",
-      "Registered": "2002-11-10T10:17:55.8478039+01:00"
+      "Registered": "2006-07-12T13:13:23.539495+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 515,
-      "SaleDate": "2018-03-20T10:17:55.8478039+01:00",
-      "Probability": 835,
-      "Heading": "et",
-      "Amount": 6293.072,
-      "Currency": "et",
-      "AmountInBaseCurrency": 3610.368,
+      "SaleId": 166,
+      "SaleDate": "2024-05-20T13:13:23.539495+02:00",
+      "Probability": 597,
+      "Heading": "sunt",
+      "Amount": 4017.788,
+      "Currency": "eum",
+      "AmountInBaseCurrency": 1294.3419999999999,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2024-07-19T10:17:55.8478039+02:00"
+      "Registered": "2008-07-08T13:13:23.539495+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 362,
-      "Name": "Eichmann-Koch",
-      "CompanyName": "Barrows-Wyman",
-      "FirstMessage": "voluptatum",
-      "LastMessage": "voluptate",
-      "WhenRequested": "2017-12-25T10:17:55.8478039+01:00",
-      "WhenEnded": "2020-06-30T10:17:55.8478039+02:00"
+      "ChatSessionId": 456,
+      "Name": "Daugherty Group",
+      "CompanyName": "Kreiger-Bergstrom",
+      "FirstMessage": "est",
+      "LastMessage": "labore",
+      "WhenRequested": "2019-03-29T13:13:23.539495+01:00",
+      "WhenEnded": "2001-08-26T13:13:23.539495+02:00"
     }
   ]
 }

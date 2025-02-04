@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Value": "praesentium",
-    "Tooltip": "consequatur",
+    "Id": 229,
+    "Value": "tenetur",
+    "Tooltip": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 459
       }
     }
   },
   {
-    "Id": 393,
-    "Value": "praesentium",
-    "Tooltip": "consequatur",
+    "Id": 229,
+    "Value": "tenetur",
+    "Tooltip": "officiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 459
       }
     }
   }

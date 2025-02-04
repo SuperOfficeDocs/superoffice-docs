@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 83
+  "DepartmentId": 314
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "consectetur",
-    "PersonId": 34,
-    "Mrmrs": "nostrum",
-    "Firstname": "German",
-    "Lastname": "Greenfelder",
-    "MiddleName": "Turcotte, Hartmann and Larkin",
-    "Title": "ipsam",
-    "Description": "Re-contextualized discrete access",
-    "Email": "sammie.littel@zboncakbahringer.name",
-    "FullName": "Geovanni Dovie Mayert IV",
-    "DirectPhone": "1-071-729-3749 x055",
-    "FormalName": "Morar Inc and Sons",
-    "CountryId": 37,
-    "ContactId": 483,
-    "ContactName": "Rogahn, Little and Kirlin",
-    "Retired": 839,
-    "Rank": 620,
-    "ActiveInterests": 766,
+    "Position": "omnis",
+    "PersonId": 371,
+    "Mrmrs": "ut",
+    "Firstname": "Sigurd",
+    "Lastname": "Kessler",
+    "MiddleName": "Turcotte, Hodkiewicz and Heaney",
+    "Title": "est",
+    "Description": "Enterprise-wide fault-tolerant migration",
+    "Email": "dominique.schowalter@beahananderson.name",
+    "FullName": "Wilhelmine Schaefer",
+    "DirectPhone": "1-841-789-5179 x4611",
+    "FormalName": "Denesik, Towne and O'Connell",
+    "CountryId": 270,
+    "ContactId": 439,
+    "ContactName": "Leuschke-Wintheiser",
+    "Retired": 93,
+    "Rank": 996,
+    "ActiveInterests": 397,
     "ContactDepartment": "",
-    "ContactCountryId": 850,
-    "ContactOrgNr": "339977",
-    "FaxPhone": "006.195.8594",
-    "MobilePhone": "(281)913-3575 x44116",
-    "ContactPhone": "1-079-641-7533 x592",
-    "AssociateName": "Rutherford LLC",
-    "AssociateId": 133,
+    "ContactCountryId": 503,
+    "ContactOrgNr": "1729495",
+    "FaxPhone": "708-581-1351 x41287",
+    "MobilePhone": "921.739.5115 x087",
+    "ContactPhone": "227-833-9048 x5777",
+    "AssociateName": "Gleichner, Runolfsson and Fahey",
+    "AssociateId": 385,
     "UsePersonAddress": false,
-    "ContactFax": "incidunt",
-    "Kanafname": "consequuntur",
-    "Kanalname": "debitis",
-    "Post1": "consequatur",
-    "Post2": "id",
-    "Post3": "perferendis",
-    "EmailName": "kellen.bashirian@jakubowskitillman.us",
-    "ContactFullName": "Jonas Hoeger",
-    "ActiveErpLinks": 131,
-    "TicketPriorityId": 268,
-    "SupportLanguageId": 14,
-    "SupportAssociateId": 699,
+    "ContactFax": "quos",
+    "Kanafname": "laboriosam",
+    "Kanalname": "eum",
+    "Post1": "pariatur",
+    "Post2": "quisquam",
+    "Post3": "qui",
+    "EmailName": "katelin@collins.us",
+    "ContactFullName": "Leo Hyatt Sr.",
+    "ActiveErpLinks": 581,
+    "TicketPriorityId": 416,
+    "SupportLanguageId": 135,
+    "SupportAssociateId": 107,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldLength": 166
       }
     }
   }

@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Lemke LLC",
-  "Tooltip": "eaque",
-  "Deleted": false,
-  "UdListDefinitionId": 755,
-  "Rank": 797
+  "Id": 925,
+  "Name": "Harber-Padberg",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "UdListDefinitionId": 705,
+  "Rank": 313
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Feeney Group",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 399,
-  "Rank": 387,
+  "Id": 62,
+  "Name": "Kling, Schuppe and Stokes",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 317,
+  "Rank": 156,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

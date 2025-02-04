@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "dignissimos",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 161,
-  "TopicId": 881,
+  "ChatSessionId": 732,
+  "TopicId": 613,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iste",
-  "CustomerHost": "voluptatibus",
-  "CustomerName": "Kuvalis-Grimes",
-  "CustomerEmail": "sebastian.quigley@reillykris.ca",
-  "CustomerPhone": "267.626.9521 x781",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "DuBuque-Hahn",
+  "CustomerAlias": "totam",
+  "CustomerHost": "aut",
+  "CustomerName": "Kutch, Bernier and Windler",
+  "CustomerEmail": "lilly@kling.ca",
+  "CustomerPhone": "448-700-4147 x3324",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Mills, Cartwright and Kuhic",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2003-03-09T10:18:00.2074417+01:00",
-  "WhenStarted": "2014-04-02T10:18:00.2074417+02:00",
-  "WhenEnded": "2004-07-18T10:18:00.2074417+02:00",
-  "WhenIdle": "2008-01-28T10:18:00.2074417+01:00",
-  "WhenFetched": "2015-08-14T10:18:00.2074417+02:00",
+  "FirstMessage": "illum",
+  "LastMessage": "ex",
+  "WhenRequested": "2022-04-17T13:13:31.3395668+02:00",
+  "WhenStarted": "2004-06-01T13:13:31.3395668+02:00",
+  "WhenEnded": "2011-12-30T13:13:31.3395668+01:00",
+  "WhenIdle": "2008-09-24T13:13:31.3395668+02:00",
+  "WhenFetched": "2022-08-30T13:13:31.3395668+02:00",
   "SessionKey": "nulla",
-  "InitialQueuePos": 510,
-  "AlertLevel": 804,
-  "Rank": 150,
+  "InitialQueuePos": 805,
+  "AlertLevel": 622,
+  "Rank": 231,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 237,
+  "ChatbotIsActive": false,
+  "Rating": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

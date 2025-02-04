@@ -219,6 +219,8 @@ items:
     href: appointmentagent/getuidfromappointmentid.md
   - name: Move
     href: appointmentagent/move.md
+  - name: MoveWithEmail
+    href: appointmentagent/movewithemail.md
   - name: Reject
     href: appointmentagent/reject.md
   - name: RejectWithEmailConfirmation
@@ -257,6 +259,8 @@ items:
     href: appointmentagent/updateappointmentfromicsresponse.md
   - name: UpdateAppointmentWithMode
     href: appointmentagent/updateappointmentwithmode.md
+  - name: UpdateAppointmentWithModeAndEmail
+    href: appointmentagent/updateappointmentwithmodeandemail.md
   - name: ValidateAppointmentEntity
     href: appointmentagent/validateappointmententity.md
   - name: ValidateDays
@@ -1133,6 +1137,8 @@ items:
     href: documentagent/savedocumenttemplatestream.md
   - name: SavePrivacyReport
     href: documentagent/saveprivacyreport.md
+  - name: SavePrivacyReportPdf
+    href: documentagent/saveprivacyreportpdf.md
   - name: SaveSuggestedDocumentEntity
     href: documentagent/savesuggesteddocumententity.md
   - name: SetDocumentStream
@@ -2796,6 +2802,8 @@ items:
     href: projectagent/setprojectimage.md
   - name: UpdateProjectMember
     href: projectagent/updateprojectmember.md
+  - name: UpdateProjectMembers
+    href: projectagent/updateprojectmembers.md
   - name: ValidateProjectEntity
     href: projectagent/validateprojectentity.md
 - name: QuoteAgent
@@ -3403,6 +3411,8 @@ items:
     href: ticketagent/deleteticketentity.md
   - name: DeleteTicketMessageEntity
     href: ticketagent/deleteticketmessageentity.md
+  - name: DoEscalating
+    href: ticketagent/doescalating.md
   - name: GetAttachmentEntity
     href: ticketagent/getattachmententity.md
   - name: GetAttachmentInfo

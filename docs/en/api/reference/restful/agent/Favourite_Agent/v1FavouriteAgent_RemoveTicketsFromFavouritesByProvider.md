@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hintz-Hermann",
+  "ProviderName": "Kihn-Bartoletti",
   "Restrictions": [
     {
-      "Name": "Heller Group",
-      "Operator": "consequatur",
+      "Name": "Orn Inc and Sons",
+      "Operator": "enim",
       "Values": [
-        "cupiditate",
-        "nesciunt"
+        "id",
+        "corrupti"
       ],
       "DisplayValues": [
-        "minima",
-        "explicabo"
+        "ullam",
+        "quam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 797,
+      "InterParenthesis": 356,
       "InterOperator": "And",
-      "UniqueHash": 613
+      "UniqueHash": 408
     }
   ],
-  "AssociateId": 221
+  "AssociateId": 282
 }
 ```
 

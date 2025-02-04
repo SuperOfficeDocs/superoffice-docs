@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 880,
-  "InstanceLayout": "aliquam",
-  "InstanceName": "Streich-Tromp",
-  "CreatedDate": "2022-02-18T10:17:55.1290102+01:00",
-  "UpdatedDate": "2016-10-02T10:17:55.1290102+02:00",
+  "AudienceLayoutId": 232,
+  "InstanceLayout": "inventore",
+  "InstanceName": "Hackett Inc and Sons",
+  "CreatedDate": "2010-01-08T13:13:22.1177118+01:00",
+  "UpdatedDate": "2005-05-24T13:13:22.1177118+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 103,
-  "InstanceLayout": "repudiandae",
-  "InstanceName": "Zboncak-Bashirian",
-  "CreatedDate": "2000-06-24T10:17:55.1290102+02:00",
-  "UpdatedDate": "2009-08-26T10:17:55.1290102+02:00",
+  "AudienceLayoutId": 312,
+  "InstanceLayout": "expedita",
+  "InstanceName": "Gottlieb, Brakus and Bednar",
+  "CreatedDate": "2021-06-29T13:13:22.1177118+02:00",
+  "UpdatedDate": "2019-04-30T13:13:22.1177118+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 414
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 111,
-    "Name": "Raynor Group",
-    "Tooltip": "quis",
-    "Rank": 778,
-    "Key": "atque",
+    "LegalBaseId": 524,
+    "Name": "Altenwerth, Carroll and Pacocha",
+    "Tooltip": "dolorem",
+    "Rank": 46,
+    "Key": "sequi",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 976
       }
     }
   }

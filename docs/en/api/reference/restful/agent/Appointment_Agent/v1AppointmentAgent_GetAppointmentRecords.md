@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 186,
-  "RecurrenceRuleId": 189
+  "MotherId": 625,
+  "RecurrenceRuleId": 600
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 642,
-    "StartDate": "1998-02-17T10:17:54.9414989+01:00",
-    "EndDate": "2007-01-09T10:17:54.9414989+01:00",
+    "AppointmentId": 436,
+    "StartDate": "1998-11-30T13:13:21.5709641+01:00",
+    "EndDate": "2004-10-24T13:13:21.5709641+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Flo Kovacek",
-    "ContactName": "Gulgowski Inc and Sons",
-    "Description": "Operative encompassing function",
-    "PersonFullName": "Violet Effertz",
-    "PersonId": 792,
-    "ContactId": 534,
-    "ProjectId": 299,
-    "ProjectName": "Marquardt-Hettinger",
+    "Task": "non",
+    "AssociateFullName": "Jacquelyn Kertzmann",
+    "ContactName": "Schiller Inc and Sons",
+    "Description": "Managed intangible artificial intelligence",
+    "PersonFullName": "Alvina Lynch",
+    "PersonId": 897,
+    "ContactId": 208,
+    "ProjectId": 442,
+    "ProjectName": "Gleason Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 37,
-    "ColorIndex": 622,
-    "IsFree": true,
+    "AssociateId": 196,
+    "ColorIndex": 918,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 236,
-    "PriorityName": "Parker LLC",
+    "PriorityId": 173,
+    "PriorityName": "Rau, Lebsack and Will",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2000-03-20T10:17:54.9414989+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2020-03-06T13:13:21.5709641+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-04-25T10:17:54.9414989+02:00",
-    "RecurringEndDate": "2023-07-19T10:17:54.9414989+02:00",
-    "MotherId": 925,
-    "AssignedBy": 452,
-    "AssignedByFullName": "Mr. Josianne Casper",
+    "RecurringStartDate": "1998-05-20T13:13:21.5709641+02:00",
+    "RecurringEndDate": "2023-08-29T13:13:21.5709641+02:00",
+    "MotherId": 929,
+    "AssignedBy": 869,
+    "AssignedByFullName": "Miss Otha Bednar Sr.",
     "RejectReason": "",
-    "Location": "laboriosam",
-    "AlarmLeadTime": "ratione",
-    "SaleId": 500,
-    "SaleName": "Effertz, Trantow and Sauer",
-    "AssociateName": "Christiansen LLC",
-    "CreatedDate": "2023-07-22T10:17:54.9414989+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Noe Wiza II",
-    "CreatedByAssociateId": 235,
+    "Location": "unde",
+    "AlarmLeadTime": "sint",
+    "SaleId": 635,
+    "SaleName": "Kovacek, Oberbrunner and Pollich",
+    "AssociateName": "Boyer, Bartoletti and Ryan",
+    "CreatedDate": "2019-09-16T13:13:21.5709641+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Ms. Rachael Hartmann",
+    "CreatedByAssociateId": 220,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 135,
-    "Title": "veritatis",
+    "PreferredTZLocation": 557,
+    "Title": "aut",
     "Agenda": "ut",
-    "InternalNotes": "illo",
+    "InternalNotes": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldLength": 390
       }
     }
   }

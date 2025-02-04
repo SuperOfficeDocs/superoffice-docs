@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 119,
-    "Name": "Langosh Group",
-    "TZLocationCode": "labore",
-    "TZLocationCities": "ea",
-    "IsoNumber": 248,
+    "TZLocationID": 73,
+    "Name": "Hayes, Blick and Olson",
+    "TZLocationCode": "eos",
+    "TZLocationCities": "enim",
+    "IsoNumber": 637,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 482,
-        "StartMonth": 741,
-        "EndDay": 679,
-        "EndMonth": 440,
-        "TZOffset": 394,
-        "StartRulePattern": "ducimus",
-        "EndRulePattern": "similique"
+        "StartDay": 168,
+        "StartMonth": 562,
+        "EndDay": 418,
+        "EndMonth": 582,
+        "TZOffset": 798,
+        "StartRulePattern": "temporibus",
+        "EndRulePattern": "assumenda"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 255,
-        "StartMonth": 4,
-        "EndDay": 784,
-        "EndMonth": 50,
-        "TZOffset": 990,
-        "StartRulePattern": "dolor",
-        "EndRulePattern": "et"
+        "StartDay": 49,
+        "StartMonth": 311,
+        "EndDay": 533,
+        "EndMonth": 451,
+        "TZOffset": 540,
+        "StartRulePattern": "nulla",
+        "EndRulePattern": "libero"
       }
     }
   }

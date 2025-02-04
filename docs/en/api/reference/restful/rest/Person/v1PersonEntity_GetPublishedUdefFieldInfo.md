@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 40,
-  "ColumnId": 550,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 837,
-  "FieldLabel": "aut",
-  "FieldLeft": 383,
-  "FieldTop": 733,
+  "UDefFieldId": 14,
+  "ColumnId": 140,
+  "FieldDefault": "et",
+  "FieldHeight": 549,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 327,
+  "FieldTop": 989,
   "FieldType": "Checkbox",
-  "FieldWidth": 522,
-  "FormatMask": "officia",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 327,
-  "LabelLeft": 998,
-  "LabelTop": 773,
-  "LabelWidth": 726,
-  "LastVersionId": 296,
-  "ListTableId": 780,
-  "IsMandatory": true,
+  "FieldWidth": 706,
+  "FormatMask": "sunt",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 590,
+  "LabelLeft": 929,
+  "LabelTop": 82,
+  "LabelWidth": 927,
+  "LastVersionId": 136,
+  "ListTableId": 519,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 137,
+  "Page1LineNo": 474,
   "ProgId": "fugiat",
   "IsReadOnly": false,
-  "ShortLabel": "nesciunt",
-  "TabOrder": 866,
-  "TextLength": 339,
-  "Tooltip": "dolores",
-  "UdefIdentity": 697,
-  "UDListDefinitionId": 763,
+  "ShortLabel": "illo",
+  "TabOrder": 726,
+  "TextLength": 552,
+  "Tooltip": "dolor",
+  "UdefIdentity": 581,
+  "UDListDefinitionId": 234,
   "Justification": "Center",
-  "Version": 638,
-  "TemplateVariableName": "Beahan Inc and Sons",
+  "Version": 806,
+  "TemplateVariableName": "Nader-Ebert",
   "HasBeenPublished": false,
-  "MdoListName": "Kuvalis-Marks",
+  "MdoListName": "Tremblay, Parisian and Purdy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 569
     }
   }
 }

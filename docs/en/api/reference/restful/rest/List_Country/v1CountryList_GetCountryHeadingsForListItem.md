@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Armstrong, Bednar and Bashirian",
-    "ToolTip": "Atque praesentium quidem alias vero officiis repellendus quis.",
-    "Deleted": true,
-    "Rank": 848,
-    "Type": "rerum",
-    "ColorBlock": 713,
-    "IconHint": "itaque",
+    "Id": 522,
+    "Name": "Kovacek-Cartwright",
+    "ToolTip": "Nulla recusandae.",
+    "Deleted": false,
+    "Rank": 513,
+    "Type": "ut",
+    "ColorBlock": 830,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2020-01-27T10:18:00.9887407+01:00",
+    "LastChanged": "2009-01-19T13:13:32.9642864+01:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Daniel, Lynch and Kirlin",
-        "ToolTip": "Corporis sit.",
-        "Deleted": false,
-        "Rank": 781,
-        "Type": "optio",
-        "ColorBlock": 822,
-        "IconHint": "qui",
+        "Id": 530,
+        "Name": "Ratke-Sawayn",
+        "ToolTip": "Rerum voluptas et.",
+        "Deleted": true,
+        "Rank": 60,
+        "Type": "qui",
+        "ColorBlock": 494,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2009-09-20T10:18:00.9887407+02:00",
+        "LastChanged": "2009-12-09T13:13:32.9642864+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Izabella Walsh",
+        "ExtraInfo": "minima",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Mrs. Jeffry Beryl Gislason III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quam",
-    "Hidden": false,
-    "FullName": "Callie Strosin",
+    "ExtraInfo": "cumque",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Candace Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldLength": 400
       }
     }
   }

@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=debitis
-GET /api/v1/Product?$top=564
-GET /api/v1/Product?$skip=679
+GET /api/v1/Product?$entities=quaerat
+GET /api/v1/Product?$top=892
+GET /api/v1/Product?$skip=279
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=voluptatibus
+GET /api/v1/Product?$context=ut
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "corporis",
+  "odata.nextLink": "libero",
   "value": [
     {
-      "PrimaryKey": 8102,
-      "EntityName": "sale",
-      "saleId": 8102,
-      "contactId": 9078,
-      "name": "Bashirian LLC"
+      "PrimaryKey": 8550,
+      "EntityName": "person",
+      "personId": 8550,
+      "fullName": "Abbie Dare"
     },
     {
-      "PrimaryKey": 8821,
-      "EntityName": "sale",
-      "saleId": 8821,
-      "contactId": 8640,
-      "name": "Bailey Group"
+      "PrimaryKey": 183,
+      "EntityName": "person",
+      "personId": 183,
+      "fullName": "Ashly Sauer"
     }
   ]
 }

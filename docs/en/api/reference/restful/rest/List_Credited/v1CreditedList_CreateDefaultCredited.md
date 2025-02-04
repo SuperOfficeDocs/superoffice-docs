@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Legros Inc and Sons",
-  "Tooltip": "eveniet",
+  "Id": 448,
+  "Name": "Koch-Hamill",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 831,
-  "Rank": 27,
+  "UdListDefinitionId": 828,
+  "Rank": 22,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

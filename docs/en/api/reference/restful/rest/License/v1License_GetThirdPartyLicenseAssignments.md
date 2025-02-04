@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 219,
-    "Tooltip": "culpa",
+    "Total": 5,
+    "Tooltip": "aspernatur",
     "CanAssign": false,
-    "Free": 498,
-    "InUse": 922,
+    "Free": 67,
+    "InUse": 978,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 357,
-    "Name": "Stroman Group",
-    "Description": "Total static project",
-    "PrerequisiteModuleName": "Barrows-Koepp",
-    "SortOrder": 15,
-    "ExtraFlags": 449,
+    "Assigned": true,
+    "ModuleLicenseId": 523,
+    "Name": "Stamm-Weissnat",
+    "Description": "Virtual bottom-line emulation",
+    "PrerequisiteModuleName": "Hand, Stiedemann and Gutmann",
+    "SortOrder": 106,
+    "ExtraFlags": 672,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 947
       }
     }
   }

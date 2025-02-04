@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 798,
+  "UdListDefinitionId": 731,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "Name": "Kovacek, Durgan and Nitzsche",
-  "Tooltip": "quo",
+  "Id": 634,
+  "Name": "Upton-Schuster",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 554,
-  "Rank": 86,
+  "UdListDefinitionId": 792,
+  "Rank": 749,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldLength": 359
     }
   }
 }

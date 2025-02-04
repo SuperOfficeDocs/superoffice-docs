@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=11
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=360
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face neutral contingency",
-  "Postit": "quibusdam",
+  "Description": "Virtual even-keeled support",
+  "Postit": "voluptate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 538,
+  "GroupIdx": 305,
+  "IncludePerson": 430,
   "MemberCount": 99.99,
-  "Name": "Jacobi, Miller and Lynch",
-  "PostitTextId": 507,
-  "CreatedDate": "2022-11-12T10:17:56.0196892+01:00",
-  "SelectionId": 86,
-  "SoundEx": "molestiae",
-  "Source": 166,
-  "TextId": 571,
-  "UpdatedDate": "2006-10-24T10:17:56.0196892+02:00",
-  "UpdatedCount": 904,
-  "Visibility": 953,
+  "Name": "Lemke Inc and Sons",
+  "PostitTextId": 269,
+  "CreatedDate": "1999-05-31T13:13:23.9153174+02:00",
+  "SelectionId": 193,
+  "SoundEx": "laborum",
+  "Source": 117,
+  "TextId": 890,
+  "UpdatedDate": "2011-08-29T13:13:23.9153174+02:00",
+  "UpdatedCount": 505,
+  "Visibility": 510,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 22,
-  "TargetTableName": "Bauch, Yundt and Nicolas",
+  "CompanyUnique": true,
+  "TargetTableNumber": 768,
+  "TargetTableName": "Quitzon LLC",
   "Completed": false,
-  "LeftSelectionId": 303,
-  "RightSelectionId": 187,
+  "LeftSelectionId": 211,
+  "RightSelectionId": 769,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ruecker Group",
-  "ShadowProviderName": "Boyer-Kohler",
-  "ChartKey": "in",
-  "LastLoaded": "2001-03-02T10:17:56.0196892+01:00",
-  "LastLoadedBy": 287,
+  "MainProviderName": "Watsica-Cruickshank",
+  "ShadowProviderName": "Metz Inc and Sons",
+  "ChartKey": "earum",
+  "LastLoaded": "1999-03-12T13:13:23.9153174+01:00",
+  "LastLoadedBy": 349,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-01-16T10:17:56.0196892+01:00",
-  "LastMembershipChangeBy": 498,
+  "LastMembershipChange": "2021-08-18T13:13:23.9153174+02:00",
+  "LastMembershipChangeBy": 16,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "expedita",
-  "MemberTabHeading": "necessitatibus",
-  "MailingsProviderName": "Pouros, Fadel and Parker",
-  "DashboardTileDefinitionId": 730,
+  "MainHeading": "placeat",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Windler-Schmeler",
+  "DashboardTileDefinitionId": 740,
   "VisibleFor": [
     {
-      "VisibleId": 33,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldLength": 885
         }
       }
     },
     {
-      "VisibleId": 33,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldLength": 885
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldLength": 212
     }
   }
 }

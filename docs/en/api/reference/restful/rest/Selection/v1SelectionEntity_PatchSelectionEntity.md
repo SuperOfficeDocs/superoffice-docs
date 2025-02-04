@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised bottom-line product",
-  "Postit": "ut",
+  "Description": "Front-line directional analyzer",
+  "Postit": "quidem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 724,
-  "IncludePerson": 598,
+  "GroupIdx": 8,
+  "IncludePerson": 309,
   "MemberCount": 99.99,
-  "Name": "Romaguera-Heaney",
-  "PostitTextId": 901,
-  "CreatedDate": "2017-04-17T10:18:00.723098+02:00",
-  "SelectionId": 307,
-  "SoundEx": "enim",
-  "Source": 425,
-  "TextId": 27,
-  "UpdatedDate": "2021-02-15T10:18:00.723098+01:00",
-  "UpdatedCount": 802,
-  "Visibility": 488,
+  "Name": "Hudson Inc and Sons",
+  "PostitTextId": 865,
+  "CreatedDate": "2005-10-19T13:13:32.3236535+02:00",
+  "SelectionId": 113,
+  "SoundEx": "repellat",
+  "Source": 590,
+  "TextId": 217,
+  "UpdatedDate": "2010-03-05T13:13:32.3236535+01:00",
+  "UpdatedCount": 777,
+  "Visibility": 752,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 88,
-  "TargetTableName": "Lind, Reynolds and Streich",
+  "TargetTableNumber": 289,
+  "TargetTableName": "Feil Group",
   "Completed": false,
-  "LeftSelectionId": 907,
-  "RightSelectionId": 493,
+  "LeftSelectionId": 341,
+  "RightSelectionId": 39,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rutherford Group",
-  "ShadowProviderName": "Mosciski, Tremblay and Bradtke",
-  "ChartKey": "labore",
-  "LastLoaded": "2020-08-02T10:18:00.723098+02:00",
-  "LastLoadedBy": 913,
+  "MainProviderName": "Kohler, Mante and Feest",
+  "ShadowProviderName": "Dach, Schaden and Becker",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2019-08-03T13:13:32.3236535+02:00",
+  "LastLoadedBy": 505,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-28T10:18:00.723098+02:00",
-  "LastMembershipChangeBy": 585,
+  "LastMembershipChange": "2023-02-06T13:13:32.3236535+01:00",
+  "LastMembershipChangeBy": 597,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "blanditiis",
-  "MemberTabHeading": "pariatur",
-  "MailingsProviderName": "Haag LLC",
-  "DashboardTileDefinitionId": 359,
+  "MainHeading": "maxime",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Daniel, Jast and Sipes",
+  "DashboardTileDefinitionId": 989,
   "VisibleFor": [
     {
-      "VisibleId": 169,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     },
     {
-      "VisibleId": 169,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   },
   "_Links": {

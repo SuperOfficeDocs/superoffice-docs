@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "soluta",
-  "GroupName": "Lockman Inc and Sons"
+  "Type": "est",
+  "GroupName": "Schulist LLC"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "in",
-    "quibusdam"
+    "quis",
+    "vero"
   ],
   "Users": [
     {
-      "Value": "illo",
-      "DisplayValue": "quam",
+      "Value": "minima",
+      "DisplayValue": "minima",
       "Columns": [
-        "similique",
-        "qui"
+        "pariatur",
+        "et"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     },
     {
-      "Value": "illo",
-      "DisplayValue": "quam",
+      "Value": "minima",
+      "DisplayValue": "minima",
       "Columns": [
-        "similique",
-        "qui"
+        "pariatur",
+        "et"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   }
 }

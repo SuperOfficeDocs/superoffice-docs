@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Cummerata Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 558,
-    "UdListDefinitionId": 935
+    "HeadingId": 460,
+    "Name": "Rosenbaum Inc and Sons",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 841,
+    "UdListDefinitionId": 782
   },
   {
-    "HeadingId": 14,
-    "Name": "Cummerata Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 558,
-    "UdListDefinitionId": 935
+    "HeadingId": 460,
+    "Name": "Rosenbaum Inc and Sons",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 841,
+    "UdListDefinitionId": 782
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 890,
-    "Name": "Adams LLC",
-    "Tooltip": "totam",
+    "HeadingId": 327,
+    "Name": "Jaskolski-Kohler",
+    "Tooltip": "commodi",
     "Deleted": true,
-    "Rank": 673,
-    "UdListDefinitionId": 695,
+    "Rank": 9,
+    "UdListDefinitionId": 945,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 17
       }
     }
   }

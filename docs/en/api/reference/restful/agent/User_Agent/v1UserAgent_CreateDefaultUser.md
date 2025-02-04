@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 242,
-  "Name": "Mann Inc and Sons",
-  "Rank": 544,
-  "Tooltip": "possimus",
+  "AssociateId": 335,
+  "Name": "Murazik, Dickinson and Rohan",
+  "Rank": 722,
+  "Tooltip": "omnis",
   "LicenseOwners": [
     {
-      "Name": "Sawayn, Watsica and Boyer",
-      "Description": "Cross-platform methodical interface",
+      "Name": "Gutmann, Maggio and Jacobi",
+      "Description": "Upgradable fault-tolerant support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 566
         }
       }
     },
     {
-      "Name": "Sawayn, Watsica and Boyer",
-      "Description": "Cross-platform methodical interface",
+      "Name": "Gutmann, Maggio and Jacobi",
+      "Description": "Upgradable fault-tolerant support",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 566
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "accusamus",
-      "Tooltip": "hic",
-      "Id": 550,
-      "Rank": 487,
+      "Value": "est",
+      "Tooltip": "officiis",
+      "Id": 383,
+      "Rank": 302,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 806
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2024-01-03T10:17:56.3165751+01:00",
-  "Lastlogout": "2008-11-24T10:17:56.3165751+01:00",
-  "EjUserId": 352,
-  "RequestSignature": "dolorum",
+  "Deleted": false,
+  "Lastlogin": "1998-02-06T13:13:24.4621693+01:00",
+  "Lastlogout": "2009-10-01T13:13:24.4621693+02:00",
+  "EjUserId": 377,
+  "RequestSignature": "ad",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "occaecati",
+      "Value": "repellendus",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldLength": 897
         }
       }
     },
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "occaecati",
+      "Value": "repellendus",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldLength": 897
         }
       }
     }
   ],
-  "UserName": "Torphy LLC",
+  "UserName": "Ullrich Group",
   "TicketCategories": [
     {
-      "Id": 856,
-      "Name": "Kunde LLC",
-      "ToolTip": "Ipsam nemo sit quod molestiae quidem vitae.",
+      "Id": 831,
+      "Name": "Mohr, Boyle and Carroll",
+      "ToolTip": "At ut ut.",
       "Deleted": false,
-      "Rank": 367,
-      "Type": "veniam",
+      "Rank": 451,
+      "Type": "perferendis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugiat",
-      "ColorBlock": 378,
-      "ExtraInfo": "est",
-      "StyleHint": "optio",
-      "FullName": "Aaron Aufderhar",
+      "IconHint": "enim",
+      "ColorBlock": 691,
+      "ExtraInfo": "eligendi",
+      "StyleHint": "reiciendis",
+      "FullName": "Mrs. Rolando Raphael Aufderhar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 957
         }
       }
     }
   ],
-  "NickName": "Nitzsche, Cormier and Bergstrom",
+  "NickName": "Fahey LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "pariatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Maggio-Mertz",
-      "DisplayName": "Kirlin-Emmerich",
-      "Description": "Proactive clear-thinking local area network",
-      "ToolTip": "Assumenda eum est totam.",
+      "Name": "Schultz, Adams and Rempel",
+      "DisplayName": "Runolfsdottir, Lindgren and Stark",
+      "Description": "Right-sized human-resource middleware",
+      "ToolTip": "Minus illo est ut sapiente fuga laboriosam voluptas.",
       "Actions": "Implicit",
-      "ActionData": "nemo",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 145
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   }
 }

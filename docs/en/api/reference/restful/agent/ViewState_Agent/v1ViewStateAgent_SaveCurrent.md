@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 925,
-  "Id": 416,
-  "HistoryName": "Haag Group",
-  "HistoryId": 132,
-  "AssociateId": 828,
-  "Name": "Will-Klein",
-  "ItemInfo": "rerum",
+  "Rank": 643,
+  "Id": 418,
+  "HistoryName": "Smith-Ruecker",
+  "HistoryId": 898,
+  "AssociateId": 732,
+  "Name": "O'Kon LLC",
+  "ItemInfo": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 346
     }
   }
 }

@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 342,
-  "ERPProductKey": "voluptatum",
-  "ERPPriceListKey": "facilis",
-  "Name": "Keeling Inc and Sons",
-  "Description": "Centralized leading edge contingency",
-  "Code": "qui",
-  "PriceUnit": "animi",
-  "QuantityUnit": "accusamus",
+  "ProductId": 84,
+  "ERPProductKey": "alias",
+  "ERPPriceListKey": "enim",
+  "Name": "Grimes-Zboncak",
+  "Description": "Optimized optimizing implementation",
+  "Code": "distinctio",
+  "PriceUnit": "quam",
+  "QuantityUnit": "possimus",
   "IsSubscription": true,
-  "SubscriptionUnit": "blanditiis",
-  "DefaultSubscriptionQuantity": 18290.023999999998,
-  "ItemNumber": "1302510",
+  "SubscriptionUnit": "dolores",
+  "DefaultSubscriptionQuantity": 13983.908,
+  "ItemNumber": "1135412",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "similique",
-  "VAT": 11649.078,
-  "VATInfo": "quas",
-  "UnitCost": 18966.968,
-  "UnitMinimumPrice": 26215.91,
-  "UnitListPrice": 4255.972,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "eius",
+  "VAT": 27453.84,
+  "VATInfo": "alias",
+  "UnitCost": 16268.594,
+  "UnitMinimumPrice": 8295.698,
+  "UnitListPrice": 21145.097999999998,
   "InAssortment": false,
-  "Supplier": "odit",
-  "SupplierCode": "iste",
-  "Rights": "autem",
-  "Rule": "aliquam",
+  "Supplier": "ea",
+  "SupplierCode": "distinctio",
+  "Rights": "vitae",
+  "Rule": "itaque",
   "ExtraInfo": [
     {
-      "Name": "Brown-Davis",
-      "Value": "provident",
+      "Name": "Bogan, Hagenes and Toy",
+      "Value": "expedita",
       "Type": "Image"
     },
     {
-      "Name": "Brown-Davis",
-      "Value": "provident",
+      "Name": "Bogan, Hagenes and Toy",
+      "Value": "expedita",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "molestias",
-  "ExtraField1": "quibusdam",
-  "ExtraField2": "earum",
-  "ExtraField3": "est",
-  "ExtraField4": "qui",
-  "ExtraField5": "eos",
-  "InStock": 20123.414
+  "RawExtraInfo": "quos",
+  "ExtraField1": "qui",
+  "ExtraField2": "est",
+  "ExtraField3": "et",
+  "ExtraField4": "non",
+  "ExtraField5": "voluptas",
+  "InStock": 3353.38
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 682,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "accusantium",
-  "Name": "Pacocha-Howell",
-  "Description": "Mandatory fault-tolerant moratorium",
-  "Code": "aut",
-  "PriceUnit": "accusamus",
-  "QuantityUnit": "quia",
-  "IsSubscription": false,
-  "SubscriptionUnit": "id",
-  "DefaultSubscriptionQuantity": 14676.521999999999,
-  "ItemNumber": "1093814",
+  "ProductId": 636,
+  "ERPProductKey": "non",
+  "ERPPriceListKey": "eos",
+  "Name": "Christiansen-Ankunding",
+  "Description": "Customizable bandwidth-monitored extranet",
+  "Code": "exercitationem",
+  "PriceUnit": "qui",
+  "QuantityUnit": "velit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "deleniti",
+  "DefaultSubscriptionQuantity": 14278.503999999999,
+  "ItemNumber": "502177",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "quo",
-  "VAT": 28829.665999999997,
-  "VATInfo": "velit",
-  "UnitCost": 14902.17,
-  "UnitMinimumPrice": 28544.471999999998,
-  "UnitListPrice": 5957.7339999999995,
-  "InAssortment": false,
-  "Supplier": "dolores",
-  "SupplierCode": "laborum",
-  "Rights": "quia",
-  "Rule": "ratione",
+  "ProductFamilyKey": "sunt",
+  "ProductTypeKey": "velit",
+  "VAT": 14338.05,
+  "VATInfo": "rerum",
+  "UnitCost": 2027.6979999999999,
+  "UnitMinimumPrice": 14695.326,
+  "UnitListPrice": 6490.514,
+  "InAssortment": true,
+  "Supplier": "omnis",
+  "SupplierCode": "incidunt",
+  "Rights": "omnis",
+  "Rule": "quam",
   "ExtraInfo": [
     {
-      "Name": "Moore LLC",
-      "Value": "repellendus",
+      "Name": "Wolf Group",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 30
         }
       }
     },
     {
-      "Name": "Moore LLC",
-      "Value": "repellendus",
+      "Name": "Wolf Group",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 30
         }
       }
     }
   ],
-  "RawExtraInfo": "magnam",
-  "ExtraField1": "soluta",
-  "ExtraField2": "ex",
-  "ExtraField3": "possimus",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "nisi",
-  "InStock": 30791.55,
+  "RawExtraInfo": "quae",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "aliquid",
+  "ExtraField5": "porro",
+  "InStock": 11934.271999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 544
     }
   }
 }

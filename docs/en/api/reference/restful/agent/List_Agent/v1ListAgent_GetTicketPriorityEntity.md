@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=44
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=489
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 957,
-  "Name": "DuBuque, Toy and Jakubowski",
+  "TicketPriorityId": 318,
+  "Name": "Shields-Emmerich",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 40,
+  "SortOrder": 395,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 265,
-  "MonStart": "2015-01-03T10:17:55.675911+01:00",
-  "MonStop": "2023-09-26T10:17:55.675911+02:00",
-  "TueStart": "2005-10-10T10:17:55.675911+02:00",
-  "TueStop": "2019-01-30T10:17:55.675911+01:00",
-  "WedStart": "2013-07-28T10:17:55.675911+02:00",
-  "WedStop": "2003-10-28T10:17:55.675911+01:00",
-  "ThuStart": "2012-04-02T10:17:55.675911+02:00",
-  "ThuStop": "2021-08-07T10:17:55.675911+02:00",
-  "FriStart": "2015-01-21T10:17:55.675911+01:00",
-  "FriStop": "2016-08-26T10:17:55.675911+02:00",
-  "SatStart": "2015-05-11T10:17:55.675911+02:00",
-  "SatStop": "2011-09-26T10:17:55.675911+02:00",
-  "SunStart": "2002-10-25T10:17:55.675911+02:00",
-  "SunStop": "2020-04-14T10:17:55.675911+02:00",
+  "Deadline": 571,
+  "MonStart": "2001-04-23T13:13:23.2113821+02:00",
+  "MonStop": "2011-09-20T13:13:23.2113821+02:00",
+  "TueStart": "2017-07-30T13:13:23.2113821+02:00",
+  "TueStop": "2016-11-08T13:13:23.2113821+01:00",
+  "WedStart": "2024-12-24T13:13:23.2113821+01:00",
+  "WedStop": "2012-03-04T13:13:23.2113821+01:00",
+  "ThuStart": "2014-12-08T13:13:23.2113821+01:00",
+  "ThuStop": "2023-10-15T13:13:23.2113821+02:00",
+  "FriStart": "2008-06-18T13:13:23.2113821+02:00",
+  "FriStop": "2021-01-12T13:13:23.2113821+01:00",
+  "SatStart": "2013-11-28T13:13:23.2113821+01:00",
+  "SatStop": "2010-08-12T13:13:23.2113821+02:00",
+  "SunStart": "2024-08-23T13:13:23.2113821+02:00",
+  "SunStop": "2016-01-29T13:13:23.2113821+01:00",
   "NonDates": [
-    "distinctio",
-    "iusto"
+    "magni",
+    "praesentium"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 327,
-      "AlertLevel": 556,
-      "AlertTimeout": 484,
-      "Action": 476,
-      "DelegateTo": 728,
-      "ScriptId": 540,
-      "EmailTo": "mafalda@padberg.co.uk",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 493,
-      "ReplyTemplateIdUser": 392,
-      "ReplyTemplateIdCatmast": 655,
-      "ReplyTemplateIdEmail": 606,
-      "RtiCustomerSms": 543,
-      "ReplyTemplateIdUserSms": 11,
-      "ReplyTemplateIdCatmastSms": 665,
-      "ReplyTemplateIdSms": 343,
+      "TicketAlertId": 393,
+      "AlertLevel": 245,
+      "AlertTimeout": 458,
+      "Action": 19,
+      "DelegateTo": 231,
+      "ScriptId": 620,
+      "EmailTo": "einar@keelingcrist.biz",
+      "SmsTo": "tempore",
+      "ReplyTemplateIdCustomer": 45,
+      "ReplyTemplateIdUser": 390,
+      "ReplyTemplateIdCatmast": 984,
+      "ReplyTemplateIdEmail": 808,
+      "RtiCustomerSms": 61,
+      "ReplyTemplateIdUserSms": 24,
+      "ReplyTemplateIdCatmastSms": 570,
+      "ReplyTemplateIdSms": 1001,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 476
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   }
 }

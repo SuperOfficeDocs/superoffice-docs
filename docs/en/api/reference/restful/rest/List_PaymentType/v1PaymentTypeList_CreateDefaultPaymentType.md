@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Ziemann-Pollich",
-  "Tooltip": "aut",
+  "Id": 808,
+  "Name": "Abbott LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 841,
-  "Rank": 217,
+  "UdListDefinitionId": 60,
+  "Rank": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 359
     }
   }
 }

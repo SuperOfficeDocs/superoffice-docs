@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Harris-White",
-  "DeviceName": "Rau, Stanton and Hansen",
-  "DeviceIdentifier": "amet",
-  "TableName": "Heaney LLC",
-  "RecordId": 562
+  "ApplicationName": "Casper-Gerhold",
+  "DeviceName": "Armstrong Group",
+  "DeviceIdentifier": "consequatur",
+  "TableName": "Franecki LLC",
+  "RecordId": 374
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "doloremque",
-    "Value": "veritatis",
-    "RecordId": 838,
-    "CreatedDate": "2001-02-21T10:17:55.660285+01:00",
-    "UpdatedDate": "2004-05-24T10:17:55.660285+02:00",
-    "UpdatedBy": "debitis",
-    "CreatedBy": "qui",
-    "TableName": "Funk, Jakubowski and Zemlak",
+    "Key": "dolor",
+    "Value": "non",
+    "RecordId": 995,
+    "CreatedDate": "2009-11-21T13:13:23.1802042+01:00",
+    "UpdatedDate": "2011-03-22T13:13:23.1802042+01:00",
+    "UpdatedBy": "molestiae",
+    "CreatedBy": "cum",
+    "TableName": "Watsica Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 260
       }
     }
   }

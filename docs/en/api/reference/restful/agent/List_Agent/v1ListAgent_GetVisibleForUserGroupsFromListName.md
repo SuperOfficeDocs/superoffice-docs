@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Champlin, Huel and Bogan",
-  "ListItemId": 66
+  "UdListDefinitionName": "Macejkovic, Christiansen and Rath",
+  "ListItemId": 518
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Rippin Group",
-    "ToolTip": "Doloribus dolorem quia est voluptatum earum quisquam.",
+    "Id": 743,
+    "Name": "Walker Group",
+    "ToolTip": "Similique reiciendis quo dolor et est.",
     "Deleted": false,
-    "Rank": 736,
-    "Type": "vitae",
-    "ColorBlock": 705,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "2019-12-09T10:17:55.691537+01:00",
+    "Rank": 755,
+    "Type": "nulla",
+    "ColorBlock": 25,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2021-11-18T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Simonis, Pagac and Torphy",
-        "ToolTip": "Suscipit reprehenderit.",
-        "Deleted": false,
-        "Rank": 968,
-        "Type": "sit",
-        "ColorBlock": 38,
-        "IconHint": "iure",
+        "Id": 500,
+        "Name": "Hegmann, Denesik and Welch",
+        "ToolTip": "Voluptatem molestiae aliquid ducimus.",
+        "Deleted": true,
+        "Rank": 892,
+        "Type": "deleniti",
+        "ColorBlock": 707,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2000-12-30T10:17:55.691537+01:00",
+        "LastChanged": "2011-03-08T13:13:23.2583064+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "sit",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Dr. Abel Stevie Trantow MD",
+        "FullName": "Ms. Donavon Kaleb Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 757
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "natus",
+    "ExtraInfo": "aut",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Ms. Shanie Rose Berge",
+    "FullName": "Rafael Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

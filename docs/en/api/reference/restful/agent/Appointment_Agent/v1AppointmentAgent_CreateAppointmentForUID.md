@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "necessitatibus"
+  "UID": "rerum"
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-06-05T10:17:55.0665064+02:00",
-  "AppointmentId": 457,
-  "Description": "Total 4th generation emulation",
-  "Title": "impedit",
-  "Agenda": "iure",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2010-06-06T10:17:55.0665064+02:00",
-  "EndDate": "2005-05-16T10:17:55.0665064+02:00",
+  "CreatedDate": "2001-10-17T13:13:22.0083625+02:00",
+  "AppointmentId": 50,
+  "Description": "Reduced dedicated encoding",
+  "Title": "dolorum",
+  "Agenda": "beatae",
+  "InternalNotes": "sit",
+  "StartDate": "2012-11-05T13:13:22.0083625+01:00",
+  "EndDate": "2000-09-04T13:13:22.0083625+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 820,
+  "MotherId": 422,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-01-31T10:17:55.0665064+01:00",
+  "UpdatedDate": "2000-10-12T13:13:22.0239867+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 152,
+  "ActiveLinks": 549,
   "Links": [
     {
-      "EntityName": "Donnelly-Sauer",
-      "Id": 837,
-      "Description": "Synergistic contextually-based local area network",
-      "ExtraInfo": "illum",
-      "LinkId": 619,
+      "EntityName": "Herman Group",
+      "Id": 265,
+      "Description": "Multi-channelled fault-tolerant synergy",
+      "ExtraInfo": "earum",
+      "LinkId": 14,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 409
+          "FieldType": "System.Int32",
+          "FieldLength": 760
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
-  "HasAlarm": false,
-  "ColorIndex": 603,
-  "IsFree": true,
+  "AlarmLeadTime": "mollitia",
+  "HasAlarm": true,
+  "ColorIndex": 958,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolorem",
-  "LeadTime": "aut",
-  "Location": "aut",
-  "RejectCounter": 498,
+  "LagTime": "repellendus",
+  "LeadTime": "voluptas",
+  "Location": "vel",
+  "RejectCounter": 949,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 782,
-      "PersonId": 762,
-      "ContactId": 720,
-      "EmailId": 980,
-      "SendEmail": false,
+      "AssociateId": 911,
+      "PersonId": 973,
+      "ContactId": 421,
+      "EmailId": 926,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "benton@zemlak.ca",
-      "Description": "Re-contextualized coherent attitude"
+      "EmailAddress": "elizabeth.kunze@sanfordvon.biz",
+      "Description": "Focused composite success"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-02-13T10:17:55.0665064+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2020-10-12T13:13:22.0239867+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 436,
+  "PreferredTZLocation": 138,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 212,
+  "SuggestedAppointmentId": 24,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "velit",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jordyn Daugherty III",
-    "SuperOffice:2": "330126411"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1289085337"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "non"
+    "CustomFields1": "quos",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2012-05-14T10:17:55.0821324+02:00",
-  "PublishTo": "2010-05-02T10:17:55.0821324+02:00",
-  "PublishFrom": "2019-12-28T10:17:55.0821324+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-04-30T13:13:22.0239867+02:00",
+  "PublishTo": "1999-10-01T13:13:22.0239867+02:00",
+  "PublishFrom": "2008-07-10T13:13:22.0239867+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 674
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 674
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

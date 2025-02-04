@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 114,
-    "Name": "Prosacco, Gusikowski and Collins",
-    "MaxDataAge": 106,
-    "NumberOfUsers": 777,
-    "NumberOfLogins": 275,
-    "FreetextEnabeled": false,
+    "AreaId": 373,
+    "Name": "Nolan Group",
+    "MaxDataAge": 885,
+    "NumberOfUsers": 123,
+    "NumberOfLogins": 770,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 715
       }
     }
   }

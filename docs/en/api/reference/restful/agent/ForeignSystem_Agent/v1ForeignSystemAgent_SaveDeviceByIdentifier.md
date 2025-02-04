@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Tillman-Reichel",
-  "DeviceName": "Kertzmann, Hills and King",
-  "DeviceIdentifier": "odit",
+  "ApplicationName": "Jones Group",
+  "DeviceName": "Rowe, Klocko and Herman",
+  "DeviceIdentifier": "qui",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 998,
-  "Name": "Breitenberg LLC",
-  "CreatedDate": "2022-11-29T10:17:55.660285+01:00",
-  "UpdatedDate": "2011-06-28T10:17:55.660285+02:00",
-  "AssociateFullName": "Treva Satterfield",
-  "CreatedBy": "dolores",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 625,
+  "ForeignDeviceId": 512,
+  "Name": "Funk-Grady",
+  "CreatedDate": "2010-05-26T13:13:23.1645837+02:00",
+  "UpdatedDate": "2014-05-04T13:13:23.1645837+02:00",
+  "AssociateFullName": "Fidel McLaughlin",
+  "CreatedBy": "in",
+  "UpdatedBy": "cupiditate",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 28
     }
   }
 }

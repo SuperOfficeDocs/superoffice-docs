@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Gleason-Gerhold",
-  "Id": 931
+  "HistoryName": "Sipes, McDermott and Zieme",
+  "Id": 94
 }
 ```
 

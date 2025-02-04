@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Emmerich-Roob",
-    "ToolTip": "Quis commodi qui repellendus culpa.",
+    "Id": 187,
+    "Name": "Collins-Baumbach",
+    "ToolTip": "Et velit impedit provident tempora laborum.",
     "Deleted": false,
-    "Rank": 325,
-    "Type": "corrupti",
-    "ColorBlock": 537,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2020-01-14T10:18:01.1293744+01:00",
+    "Rank": 855,
+    "Type": "ex",
+    "ColorBlock": 838,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2003-10-29T13:13:33.4485481+01:00",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Ritchie Inc and Sons",
-        "ToolTip": "Odit consequatur ut aut sit dolor ea saepe.",
+        "Id": 787,
+        "Name": "Bednar, Brekke and Raynor",
+        "ToolTip": "Accusantium vero iste voluptatem velit nam.",
         "Deleted": false,
-        "Rank": 437,
-        "Type": "accusantium",
-        "ColorBlock": 84,
-        "IconHint": "doloremque",
-        "Selected": true,
-        "LastChanged": "2008-03-05T10:18:01.1293744+01:00",
+        "Rank": 591,
+        "Type": "vel",
+        "ColorBlock": 664,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2014-02-14T13:13:33.4485481+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "sed",
+        "ExtraInfo": "sit",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Earlene Jayce Cronin II",
+        "FullName": "Tina Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 464
+            "FieldLength": 607
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "et",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Rosalia Glover",
+    "FullName": "Chris Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldType": "System.String",
+        "FieldLength": 824
       }
     }
   }

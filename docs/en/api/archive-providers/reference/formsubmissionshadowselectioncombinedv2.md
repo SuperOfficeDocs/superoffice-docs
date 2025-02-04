@@ -479,7 +479,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=getAllRows,person/personUdef/SuperOffice:5,person/personAssociate/personId,person/correspondingAssociate/simultaneousEjUser,contact/email/emailHasBounced
+GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=associate/ejDisplayName,person/personDeletedDate,person/personAssociate/fullName,person/personAssociate/credentialType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

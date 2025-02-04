@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 417
+  "ShipmentId": 341
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2015-10-31T10:17:55.7540473+01:00",
+  "StartDate": "2007-02-15T13:13:23.3520388+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 122,
-  "ShipmentDescription": "Vision-oriented bottom-line emulation",
-  "FromAddress": "pariatur",
-  "Configuration": 946,
-  "PersonId": 521,
-  "PersonFullName": "Roscoe Karina Abernathy MD",
-  "ShipmentType": "expedita",
-  "MessageId": 197,
-  "MessageSubject": "et",
-  "DocumentMessageId": 569,
-  "NumSent": 1001,
-  "NumOpened": 156,
-  "NumBounced": 128,
-  "NumClicks": 788,
+  "ShipmentId": 5,
+  "ShipmentDescription": "Optional incremental database",
+  "FromAddress": "ab",
+  "Configuration": 295,
+  "PersonId": 840,
+  "PersonFullName": "Patrick Herzog III",
+  "ShipmentType": "distinctio",
+  "MessageId": 199,
+  "MessageSubject": "voluptatem",
+  "DocumentMessageId": 746,
+  "NumSent": 221,
+  "NumOpened": 709,
+  "NumBounced": 478,
+  "NumClicks": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   }
 }

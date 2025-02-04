@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Kunde, Littel and Legros",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "UdListDefinitionId": 793,
-  "Rank": 612
+  "Id": 60,
+  "Name": "Schamberger-Senger",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 231,
+  "Rank": 494
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Haag-Williamson",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "UdListDefinitionId": 824,
-  "Rank": 765,
+  "Id": 632,
+  "Name": "Bednar LLC",
+  "Tooltip": "maxime",
+  "Deleted": true,
+  "UdListDefinitionId": 533,
+  "Rank": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 646
     }
   }
 }

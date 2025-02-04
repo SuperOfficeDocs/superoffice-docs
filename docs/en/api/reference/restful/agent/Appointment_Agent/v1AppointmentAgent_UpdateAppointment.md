@@ -130,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "StartTime": "2003-05-07T10:17:54.8477431+02:00",
-  "EndTime": "2004-01-19T10:17:54.8477431+01:00",
-  "Status": 494,
-  "Type": 994,
-  "AssociateId": 97
+  "Id": 733,
+  "StartTime": "2015-10-22T13:13:21.5553436+02:00",
+  "EndTime": "2007-10-18T13:13:21.5553436+02:00",
+  "Status": 460,
+  "Type": 259,
+  "AssociateId": 638
 }
 ```
 
@@ -150,65 +150,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 262,
-  "StartDate": "2004-05-18T10:17:54.8477431+02:00",
-  "EndDate": "2006-10-29T10:17:54.8477431+01:00",
+  "AppointmentId": 528,
+  "StartDate": "2000-03-04T13:13:21.5709641+01:00",
+  "EndDate": "2019-03-15T13:13:21.5709641+01:00",
   "Type": "BookingForChecklist",
-  "Task": "dolorum",
-  "AssociateFullName": "Dr. Timothy Blanca Welch",
-  "ContactName": "Dibbert-Streich",
-  "Description": "Reactive client-driven access",
-  "PersonFullName": "Cayla Von",
-  "PersonId": 526,
-  "ContactId": 395,
-  "ProjectId": 718,
-  "ProjectName": "Ruecker-Muller",
+  "Task": "optio",
+  "AssociateFullName": "Cordelia Grady",
+  "ContactName": "Mante, Brakus and Schuster",
+  "Description": "Programmable optimizing system engine",
+  "PersonFullName": "Guadalupe Barton",
+  "PersonId": 160,
+  "ContactId": 908,
+  "ProjectId": 590,
+  "ProjectName": "Shields, Lockman and Lehner",
   "IsPublished": false,
-  "AssociateId": 577,
-  "ColorIndex": 612,
+  "AssociateId": 995,
+  "ColorIndex": 371,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 345,
-  "PriorityName": "Bins LLC",
+  "PriorityId": 672,
+  "PriorityName": "Reynolds LLC",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2002-05-01T10:17:54.8477431+02:00",
+  "ActiveDate": "2022-06-09T13:13:21.5709641+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-07-30T10:17:54.8477431+02:00",
-  "RecurringEndDate": "2003-05-18T10:17:54.8477431+02:00",
-  "MotherId": 171,
-  "AssignedBy": 784,
-  "AssignedByFullName": "Mrs. Patrick Schoen II",
+  "RecurringStartDate": "2011-07-03T13:13:21.5709641+02:00",
+  "RecurringEndDate": "2022-12-17T13:13:21.5709641+01:00",
+  "MotherId": 977,
+  "AssignedBy": 721,
+  "AssignedByFullName": "Prof. Francisca Bode DDS",
   "RejectReason": "",
-  "Location": "dicta",
-  "AlarmLeadTime": "fuga",
-  "SaleId": 903,
-  "SaleName": "Lindgren, Weissnat and Sauer",
-  "AssociateName": "Harvey, Haag and King",
-  "CreatedDate": "2011-04-29T10:17:54.8477431+02:00",
-  "CreatedBy": "culpa",
-  "CreatedByFullName": "Camylle Kub",
-  "CreatedByAssociateId": 312,
+  "Location": "fuga",
+  "AlarmLeadTime": "non",
+  "SaleId": 951,
+  "SaleName": "Rippin, McLaughlin and Osinski",
+  "AssociateName": "Kreiger, Cruickshank and Herman",
+  "CreatedDate": "2013-08-20T13:13:21.5709641+02:00",
+  "CreatedBy": "quas",
+  "CreatedByFullName": "Lelia Volkman",
+  "CreatedByAssociateId": 94,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 787,
-  "Title": "qui",
-  "Agenda": "assumenda",
-  "InternalNotes": "ut",
+  "PreferredTZLocation": 268,
+  "Title": "ut",
+  "Agenda": "libero",
+  "InternalNotes": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

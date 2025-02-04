@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 6,
-  "ModuleOwner": "iste",
+  "AssociateId": 926,
+  "ModuleOwner": "veritatis",
   "ModuleLicenseNames": [
-    "Luettgen, Bosco and Bergstrom",
-    "O'Reilly Group"
+    "Langworth-Ullrich",
+    "Mante-Hamill"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 671,
-    "Tooltip": "cupiditate",
-    "CanAssign": false,
-    "Free": 366,
-    "InUse": 74,
+    "Unrestricted": false,
+    "Total": 153,
+    "Tooltip": "molestias",
+    "CanAssign": true,
+    "Free": 371,
+    "InUse": 563,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 769,
-    "Name": "Dooley Group",
-    "Description": "Triple-buffered national concept",
-    "PrerequisiteModuleName": "Thiel LLC",
-    "SortOrder": 804,
-    "ExtraFlags": 467,
+    "Assigned": false,
+    "ModuleLicenseId": 381,
+    "Name": "Schultz, Corwin and Lowe",
+    "Description": "Proactive non-volatile open architecture",
+    "PrerequisiteModuleName": "Purdy, West and Simonis",
+    "SortOrder": 512,
+    "ExtraFlags": 779,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 131
       }
     }
   }

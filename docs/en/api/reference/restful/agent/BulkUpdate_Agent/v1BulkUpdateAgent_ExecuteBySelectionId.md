@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -81,27 +81,27 @@ Content-Type: application/json; charset=utf-8
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "dolorum",
-      "ValueType": "consequuntur",
+      "IsActive": true,
+      "Key": "magni",
+      "ValueType": "exercitationem",
       "Mandatory": false,
-      "EncodedDisplayName": "Morar, Franecki and Bruen",
-      "EncodedDisplayDescription": "Quality-focused mobile initiative",
-      "IconHint": "enim",
+      "EncodedDisplayName": "Corkery Inc and Sons",
+      "EncodedDisplayDescription": "Team-oriented maximized software",
+      "IconHint": "consequatur",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "fuga",
-      "EncodedDataCaptionDescription": "Enterprise-wide fault-tolerant focus group",
-      "CurrentOperationType": "iusto",
+      "EncodedDataCaption": "eos",
+      "EncodedDataCaptionDescription": "Diverse upward-trending frame",
+      "CurrentOperationType": "est",
       "Values": [
-        "similique",
-        "delectus"
+        "deleniti",
+        "voluptas"
       ],
       "DisplayValues": [
-        "blanditiis",
-        "libero"
+        "non",
+        "expedita"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Breitenberg, Ankunding and Rowe",
-  "Context": "blanditiis",
-  "SelectionId": 195,
-  "IsShadow": true
+  "TableName": "Kling Group",
+  "Context": "iste",
+  "SelectionId": 124,
+  "IsShadow": false
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-486
+320
 ```

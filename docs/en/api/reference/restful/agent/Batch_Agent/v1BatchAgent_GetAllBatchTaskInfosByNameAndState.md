@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Crooks-Emmerich",
+  "TaskName": "Welch Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Gerhold-Schiller",
-    "AssociateId": 675,
-    "DetailsTable": 704,
-    "DetailsRecord": 265,
+    "Id": 166,
+    "Name": "Bergnaum-Keebler",
+    "AssociateId": 969,
+    "DetailsTable": 478,
+    "DetailsRecord": 519,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "consequatur",
+      "ParameterObject2": "deleniti"
     },
-    "LastStarted": "2000-08-31T10:17:55.1290102+02:00",
-    "Created": "2000-08-04T10:17:55.1290102+02:00",
-    "StartCount": 647,
-    "DatabaseSerialNumber": "439960",
-    "Context": "a",
-    "Result": "dolorem",
+    "LastStarted": "1999-02-02T13:13:22.133333+01:00",
+    "Created": "2008-08-07T13:13:22.133333+02:00",
+    "StartCount": 15,
+    "DatabaseSerialNumber": "1008126",
+    "Context": "magnam",
+    "Result": "sequi",
     "State": "All",
-    "Description": "Re-contextualized needs-based definition",
-    "Response": "perferendis",
-    "Request": "omnis",
-    "ProgressDescription": "Expanded fault-tolerant migration",
-    "ProgressPercent": 296,
-    "FileName": "Grady-Botsford",
+    "Description": "Self-enabling zero tolerance functionalities",
+    "Response": "dolor",
+    "Request": "explicabo",
+    "ProgressDescription": "Cross-platform client-server workforce",
+    "ProgressPercent": 863,
+    "FileName": "Lesch, Borer and Aufderhar",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

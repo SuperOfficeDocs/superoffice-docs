@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 297,
+  "ErpConnectionId": 447,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "enim",
-    "omnis"
+    "error",
+    "nobis"
   ]
 }
 ```
@@ -106,17 +106,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "in",
-  "TechExplanation": "quidem",
-  "ErrorCode": "ducimus",
+  "UserExplanation": "non",
+  "TechExplanation": "aut",
+  "ErrorCode": "aliquam",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

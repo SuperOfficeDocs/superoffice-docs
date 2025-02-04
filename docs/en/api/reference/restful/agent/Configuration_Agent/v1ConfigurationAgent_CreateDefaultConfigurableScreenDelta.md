@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 140,
-  "Name": "Grimes-Schamberger",
-  "Description": "Customer-focused secondary data-warehouse",
-  "DeltaJson": "quis",
+  "ConfigurableScreenDeltaId": 958,
+  "Name": "Wolf-Nolan",
+  "Description": "Automated upward-trending emulation",
+  "DeltaJson": "a",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "at",
-  "UpdatedDate": "2002-10-03T10:17:55.2227659+02:00",
-  "CreatedDate": "2017-02-10T10:17:55.2227659+01:00",
+  "RecipeId": "sed",
+  "UpdatedDate": "2021-10-10T13:13:22.3207878+02:00",
+  "CreatedDate": "2013-07-25T13:13:22.3207878+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    373,
-    860
+    891,
+    479
   ],
-  "AppliesToKey": "voluptas",
+  "AppliesToKey": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=sint
-GET /api/v1/Contact?$top=52
-GET /api/v1/Contact?$skip=234
+GET /api/v1/Contact?$entities=enim
+GET /api/v1/Contact?$top=847
+GET /api/v1/Contact?$skip=390
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=vitae
+GET /api/v1/Contact?$context=ea
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=True
+GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "debitis",
   "value": [
     {
-      "PrimaryKey": 3652,
-      "EntityName": "sale",
-      "saleId": 3652,
-      "contactId": 8453,
-      "name": "O'Conner-Bergstrom"
+      "PrimaryKey": 8280,
+      "EntityName": "person",
+      "personId": 8280,
+      "fullName": "Daija Hollie Cormier PhD"
     },
     {
-      "PrimaryKey": 698,
-      "EntityName": "sale",
-      "saleId": 698,
-      "contactId": 7482,
-      "name": "Moore Group"
+      "PrimaryKey": 1793,
+      "EntityName": "person",
+      "personId": 1793,
+      "fullName": "Augustine Hand"
     }
   ]
 }

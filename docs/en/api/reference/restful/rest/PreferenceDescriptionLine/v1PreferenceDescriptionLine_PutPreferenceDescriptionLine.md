@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 884,
-  "PrefDescId": 251,
-  "PrefValue": "dolore",
-  "PrefShowValue": "veritatis",
-  "Description": "Sharable national utilisation",
-  "IsBuiltin": false
+  "PrefDescLineId": 399,
+  "PrefDescId": 698,
+  "PrefValue": "nisi",
+  "PrefShowValue": "et",
+  "Description": "Adaptive zero tolerance capability",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 703,
-  "PrefDescId": 510,
-  "PrefValue": "dolor",
-  "PrefShowValue": "rerum",
-  "Description": "Seamless neutral infrastructure",
+  "PrefDescLineId": 975,
+  "PrefDescId": 740,
+  "PrefValue": "porro",
+  "PrefShowValue": "sit",
+  "Description": "Customer-focused logistical local area network",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 971
     }
   },
   "_Links": {

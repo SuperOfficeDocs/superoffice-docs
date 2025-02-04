@@ -77,24 +77,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 15 Jul 2015 10:18:00 G7T
+Last-Modified: Mon, 22 Jul 2013 13:13:31 G7T
 
 {
-  "ForeignDeviceId": 662,
-  "Name": "Schultz Inc and Sons",
-  "CreatedDate": "2021-12-08T10:18:00.4262067+01:00",
-  "UpdatedDate": "2015-07-15T10:18:00.4262067+02:00",
-  "AssociateFullName": "Prof. Zola Elfrieda Bednar Jr.",
-  "CreatedBy": "amet",
-  "UpdatedBy": "ipsa",
-  "DeviceIdentifier": "recusandae",
-  "ForeignAppId": 34,
+  "ForeignDeviceId": 171,
+  "Name": "Nitzsche Group",
+  "CreatedDate": "2024-06-01T13:13:31.7457296+02:00",
+  "UpdatedDate": "2013-07-22T13:13:31.7457296+02:00",
+  "AssociateFullName": "Miss Dorcas Roob DVM",
+  "CreatedBy": "quisquam",
+  "UpdatedBy": "distinctio",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 895
     }
   }
 }

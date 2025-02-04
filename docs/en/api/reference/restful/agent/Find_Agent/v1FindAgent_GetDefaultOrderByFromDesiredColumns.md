@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Howell-Durgan",
+  "ProviderName": "Raynor-Gerhold",
   "DesiredColumns": [
-    "laborum",
-    "consequatur"
+    "molestias",
+    "molestiae"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jones Inc and Sons",
+    "Name": "Zulauf, Lind and Bogisich",
     "Direction": "ASC"
   },
   {
-    "Name": "Jones Inc and Sons",
+    "Name": "Zulauf, Lind and Bogisich",
     "Direction": "ASC"
   }
 ]

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "McKenzie, Feil and Goldner",
-    "ToolTip": "Vel eum odit modi et voluptas.",
+    "Id": 641,
+    "Name": "Bashirian-Jacobi",
+    "ToolTip": "Est iure et facere et.",
     "Deleted": false,
-    "Rank": 89,
-    "Type": "exercitationem",
-    "ColorBlock": 542,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2004-02-02T10:18:01.1137483+01:00",
+    "Rank": 903,
+    "Type": "vel",
+    "ColorBlock": 908,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2009-09-03T13:13:33.4016848+02:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Ward Group",
-        "ToolTip": "Vitae sunt sit ea dignissimos numquam fugit praesentium.",
+        "Id": 710,
+        "Name": "White Inc and Sons",
+        "ToolTip": "Qui fugit qui aut.",
         "Deleted": false,
-        "Rank": 568,
-        "Type": "at",
-        "ColorBlock": 450,
-        "IconHint": "ipsum",
+        "Rank": 681,
+        "Type": "dicta",
+        "ColorBlock": 515,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2001-04-20T10:18:01.1137483+02:00",
+        "LastChanged": "2013-04-25T13:13:33.4016848+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "sit",
+        "ExtraInfo": "est",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Lorine Bruen",
+        "FullName": "Brandon Windler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 39
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "et",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Reece Haley",
+    "FullName": "Miss Theo Enrico Dickens IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 97
       }
     }
   }

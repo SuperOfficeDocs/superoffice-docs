@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 483,
-  "Name": "Kirlin Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 38,
-  "UdListDefinitionId": 496
+  "HeadingId": 794,
+  "Name": "Kovacek Inc and Sons",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 688,
+  "UdListDefinitionId": 883
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 68,
-  "Name": "Halvorson-Abbott",
-  "Tooltip": "alias",
+  "HeadingId": 52,
+  "Name": "Gusikowski Inc and Sons",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 936,
-  "UdListDefinitionId": 685,
+  "Rank": 960,
+  "UdListDefinitionId": 45,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 851
     }
   }
 }

@@ -749,7 +749,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=getAllRows,registeredDate,alternative/quoteAlternativeId,alternative/version/quote/sale/person/personAssociate/mrMrs,alternative/version/quote/sale/person/personAssociate/ejUserId
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=UnitListPriceSubscriptionQuantity,alternative/version/quote/sale/source,alternative/version/quote/sale/person/personDirectPhone/formattedNumber,alternative/version/quote/sale/person/personAddress/zip,alternative/version/quote/sale/contact/contactAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

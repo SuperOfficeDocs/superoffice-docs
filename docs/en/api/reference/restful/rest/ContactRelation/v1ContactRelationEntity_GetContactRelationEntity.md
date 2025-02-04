@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 27 Jul 2012 10:18:00 G7T
+Last-Modified: Thu, 29 Sep 2011 13:13:31 G9T
 
 {
-  "SourceContactId": 554,
-  "SourcePersonId": 50,
-  "DestinationContactId": 746,
-  "DestinationPersonId": 339,
-  "RelationId": 79,
-  "Comment": "tempora",
-  "RelationDefinitionId": 26,
-  "Reversed": 759,
-  "UpdatedDate": "2012-07-27T10:18:00.3480699+02:00",
-  "CreatedDate": "2003-10-05T10:18:00.3480699+02:00",
+  "SourceContactId": 569,
+  "SourcePersonId": 684,
+  "DestinationContactId": 823,
+  "DestinationPersonId": 46,
+  "RelationId": 481,
+  "Comment": "mollitia",
+  "RelationDefinitionId": 575,
+  "Reversed": 738,
+  "UpdatedDate": "2011-09-29T13:13:31.605139+02:00",
+  "CreatedDate": "2020-12-04T13:13:31.605139+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Murray-Wyman",
-  "SourcePersonName": "Kris, Baumbach and Sawayn",
-  "DestinationContactName": "Sanford-Langworth",
-  "DestinationPersonName": "Ryan, Senger and Bernier",
-  "ActiveText": "accusantium",
-  "PassiveText": "autem",
+  "SourceContactName": "Nitzsche-Effertz",
+  "SourcePersonName": "Welch Inc and Sons",
+  "DestinationContactName": "Gutmann-Schmitt",
+  "DestinationPersonName": "Stark, Boyer and Wunsch",
+  "ActiveText": "eveniet",
+  "PassiveText": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldLength": 402
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

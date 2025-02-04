@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 544,
-  "ERPProductKey": "doloribus",
-  "ERPPriceListKey": "eos",
-  "Name": "Rath-Rippin",
-  "Description": "Face to face executive emulation",
-  "Code": "assumenda",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "harum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 1090.632,
-  "ItemNumber": "1062254",
+  "ProductId": 528,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "ea",
+  "Name": "Grady-Volkman",
+  "Description": "Up-sized impactful matrices",
+  "Code": "itaque",
+  "PriceUnit": "rem",
+  "QuantityUnit": "consectetur",
+  "IsSubscription": true,
+  "SubscriptionUnit": "vitae",
+  "DefaultSubscriptionQuantity": 955.87,
+  "ItemNumber": "1277503",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tempora",
-  "ProductTypeKey": "vero",
-  "VAT": 10749.619999999999,
-  "VATInfo": "impedit",
-  "UnitCost": 16832.714,
-  "UnitMinimumPrice": 20668.73,
-  "UnitListPrice": 10326.529999999999,
-  "InAssortment": true,
-  "Supplier": "facilis",
-  "SupplierCode": "voluptatibus",
-  "Rights": "incidunt",
-  "Rule": "numquam",
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "nobis",
+  "VAT": 24006.44,
+  "VATInfo": "pariatur",
+  "UnitCost": 8891.158,
+  "UnitMinimumPrice": 30167.884,
+  "UnitListPrice": 4133.746,
+  "InAssortment": false,
+  "Supplier": "porro",
+  "SupplierCode": "fuga",
+  "Rights": "dolor",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Conn-Glover",
-      "Value": "maiores",
+      "Name": "Morissette-Raynor",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     },
     {
-      "Name": "Conn-Glover",
-      "Value": "maiores",
+      "Name": "Morissette-Raynor",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 187
         }
       }
     }
   ],
-  "RawExtraInfo": "neque",
-  "ExtraField1": "asperiores",
-  "ExtraField2": "ducimus",
-  "ExtraField3": "ut",
-  "ExtraField4": "animi",
-  "ExtraField5": "quos",
-  "InStock": 26488.568,
+  "RawExtraInfo": "reprehenderit",
+  "ExtraField1": "veniam",
+  "ExtraField2": "repellat",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "cumque",
+  "ExtraField5": "velit",
+  "InStock": 27798.579999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 240
     }
   }
 }

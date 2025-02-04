@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 752,
+  "QuoteAlternativeId": 546,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 981,
-  "ERPQuoteLineKey": "corrupti",
-  "QuoteAlternativeId": 625,
+  "QuoteLineId": 533,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 38,
   "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10003.728,
-  "DeliveredQuantity": 10379.807999999999,
-  "Rank": 318,
-  "Name": "Hilll Inc and Sons",
-  "Description": "Front-line grid-enabled time-frame",
-  "Code": "cupiditate",
-  "QuantityUnit": "praesentium",
-  "PriceUnit": "quas",
-  "ItemNumber": "1433094",
+  "Quantity": 23132.054,
+  "DeliveredQuantity": 10201.17,
+  "Rank": 521,
+  "Name": "Collins-Hilpert",
+  "Description": "Robust even-keeled circuit",
+  "Code": "ea",
+  "QuantityUnit": "suscipit",
+  "PriceUnit": "nesciunt",
+  "ItemNumber": "983005",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quo",
-  "ProductTypeKey": "quidem",
-  "Supplier": "nihil",
-  "SupplierCode": "aliquam",
-  "Thumbnail": "sed",
-  "VATInfo": "ad",
-  "VAT": 11106.895999999999,
-  "UnitCost": 17838.728,
-  "UnitMinimumPrice": 2106.048,
-  "UnitListPrice": 4575.6399999999994,
+  "ProductFamilyKey": "delectus",
+  "ProductTypeKey": "ut",
+  "Supplier": "molestiae",
+  "SupplierCode": "vel",
+  "Thumbnail": "sint",
+  "VATInfo": "accusantium",
+  "VAT": 6340.0819999999994,
+  "UnitCost": 3641.708,
+  "UnitMinimumPrice": 28876.676,
+  "UnitListPrice": 25714.469999999998,
   "ExtraInfo": [
     {
-      "Name": "Mohr Group",
-      "Value": "adipisci",
+      "Name": "O'Keefe, Kirlin and Abernathy",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "Name": "Mohr Group",
-      "Value": "adipisci",
+      "Name": "O'Keefe, Kirlin and Abernathy",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "laudantium",
-  "SubscriptionQuantity": 13244.284,
-  "SubscriptionStart": "2017-05-10T10:17:55.9571855+02:00",
-  "ERPDiscountPercent": 5045.74,
-  "ERPDiscountAmount": 29713.453999999998,
-  "DiscountPercent": 14497.884,
-  "DiscountAmount": 2695.24,
+  "RawExtraInfo": "ex",
+  "IsSubscription": false,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 10661.868,
+  "SubscriptionStart": "2020-02-04T13:13:23.7581921+01:00",
+  "ERPDiscountPercent": 6960.614,
+  "ERPDiscountAmount": 22843.726,
+  "DiscountPercent": 22909.54,
+  "DiscountAmount": 23320.094,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13347.706,
-  "EarningAmount": 10310.859999999999,
-  "SubTotal": 21094.953999999998,
-  "TotalPrice": 28406.575999999997,
-  "Rights": "adipisci",
-  "Rule": "enim",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "sapiente",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "harum",
+  "EarningPercent": 13385.314,
+  "EarningAmount": 27243.861999999997,
+  "SubTotal": 20891.244,
+  "TotalPrice": 21223.448,
+  "Rights": "sit",
+  "Rule": "quia",
+  "ExtraField1": "quia",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "consequuntur",
+  "ExtraField4": "odit",
+  "ExtraField5": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

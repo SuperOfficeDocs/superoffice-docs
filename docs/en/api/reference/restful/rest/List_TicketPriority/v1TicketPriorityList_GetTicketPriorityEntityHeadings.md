@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 834,
-    "Name": "VonRueden-Grady",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "Rank": 523,
-    "UdListDefinitionId": 925,
+    "HeadingId": 559,
+    "Name": "Weber, Volkman and Johnson",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "Rank": 358,
+    "UdListDefinitionId": 74,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 245
       }
     }
   }

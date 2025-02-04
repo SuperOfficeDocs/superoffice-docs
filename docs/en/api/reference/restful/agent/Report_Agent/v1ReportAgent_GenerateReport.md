@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 309,
-  "LabelLayoutId": 728,
-  "Filename": "odit",
-  "Language": "similique",
-  "FileType": "optio",
+  "ReportId": 818,
+  "LabelLayoutId": 202,
+  "Filename": "et",
+  "Language": "quisquam",
+  "FileType": "nihil",
   "Restrictions": [
     {
-      "Name": "Wehner, Daugherty and Hackett",
-      "Operator": "facilis",
+      "Name": "Hettinger Inc and Sons",
+      "Operator": "harum",
       "Values": [
         "et",
-        "qui"
+        "debitis"
       ],
       "DisplayValues": [
-        "sunt",
-        "repudiandae"
+        "doloremque",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 708,
+      "InterParenthesis": 97,
       "InterOperator": "And",
-      "UniqueHash": 900
+      "UniqueHash": 325
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"soluta"
+"optio"
 ```

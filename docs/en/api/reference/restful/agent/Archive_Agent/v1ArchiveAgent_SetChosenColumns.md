@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "DuBuque Group",
-  "ProviderName": "Bosco, VonRueden and Howe",
+  "GuiName": "Jaskolski LLC",
+  "ProviderName": "Christiansen LLC",
   "ChosenColumns": [
-    "est",
-    "facilis"
+    "odit",
+    "nihil"
   ]
 }
 ```

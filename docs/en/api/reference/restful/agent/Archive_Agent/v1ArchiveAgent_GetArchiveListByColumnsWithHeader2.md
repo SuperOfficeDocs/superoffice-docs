@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gleason-O'Conner",
-  "Columns": "molestiae",
-  "SortOrder": "magnam",
-  "Restriction": "minima",
-  "Entities": "voluptas",
-  "Page": 676,
-  "PageSize": 878,
-  "Options": "maxime"
+  "ProviderName": "Gutkowski Group",
+  "Columns": "ut",
+  "SortOrder": "odit",
+  "Restriction": "dolor",
+  "Entities": "id",
+  "Page": 311,
+  "PageSize": 872,
+  "Options": "et"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 324,
+  "RowCount": 284,
   "Rows": [
     {
-      "EntityName": "Parisian, Nikolaus and Bode",
-      "PrimaryKey": 98,
+      "EntityName": "Braun-Ward",
+      "PrimaryKey": 227,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatibus",
-          "TooltipHint": "suscipit",
-          "LinkHint": "suscipit"
+          "DisplayValue": "quae",
+          "TooltipHint": "quae",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "quos",
-      "StyleHint": "amet",
+      "LinkHint": "ut",
+      "StyleHint": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 429
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 53
     }
   }
 }

@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 479,
+  "EmailItemId": 76,
   "UpdateMode": "OnlyThis"
 }
 ```

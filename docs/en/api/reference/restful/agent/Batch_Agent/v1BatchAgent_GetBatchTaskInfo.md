@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763
+  "Id": 401
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Mohr LLC",
-  "AssociateId": 560,
-  "DetailsTable": 386,
-  "DetailsRecord": 453,
+  "Id": 731,
+  "Name": "Koss-Fisher",
+  "AssociateId": 119,
+  "DetailsTable": 616,
+  "DetailsRecord": 919,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "accusantium",
-    "ParameterObject2": "libero"
+    "ParameterObject1": "sed",
+    "ParameterObject2": "cum"
   },
-  "LastStarted": "2023-04-06T10:17:55.1290102+02:00",
-  "Created": "2003-12-08T10:17:55.1290102+01:00",
-  "StartCount": 73,
-  "DatabaseSerialNumber": "1238894",
-  "Context": "saepe",
-  "Result": "aut",
+  "LastStarted": "2001-11-26T13:13:22.133333+01:00",
+  "Created": "1998-08-23T13:13:22.133333+02:00",
+  "StartCount": 666,
+  "DatabaseSerialNumber": "1235362",
+  "Context": "unde",
+  "Result": "at",
   "State": "All",
-  "Description": "Focused systematic hierarchy",
-  "Response": "vero",
-  "Request": "quaerat",
-  "ProgressDescription": "Optimized exuding protocol",
-  "ProgressPercent": 626,
-  "FileName": "Yundt-Larkin",
+  "Description": "Grass-roots dedicated support",
+  "Response": "praesentium",
+  "Request": "consequuntur",
+  "ProgressDescription": "Intuitive interactive firmware",
+  "ProgressPercent": 458,
+  "FileName": "Friesen Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

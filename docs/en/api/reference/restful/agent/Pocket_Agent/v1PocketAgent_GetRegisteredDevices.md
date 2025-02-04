@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 154
+  "AssociateId": 101
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Kautzer, Larkin and Hoppe",
-    "DeviceIdentifier": "delectus",
-    "PocketVersion": "fugiat",
-    "Language": "excepturi",
-    "PNSHandle": "minima",
+    "DeviceName": "Haley Inc and Sons",
+    "DeviceIdentifier": "rem",
+    "PocketVersion": "id",
+    "Language": "repudiandae",
+    "PNSHandle": "repellat",
     "Platform": "Apple",
-    "OSVersion": "consequatur",
-    "TimeZoneId": 402
+    "OSVersion": "ratione",
+    "TimeZoneId": 510
   }
 ]
 ```

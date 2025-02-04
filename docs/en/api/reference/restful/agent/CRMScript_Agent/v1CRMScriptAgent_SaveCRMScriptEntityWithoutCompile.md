@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 787,
-  "UniqueIdentifier": "corrupti",
-  "Name": "Price, Shanahan and Purdy",
-  "Description": "Devolved 3rd generation methodology",
-  "IncludeId": "laborum",
-  "AccessKey": "eligendi",
-  "HierarchyId": 849,
-  "Source": "aliquam",
-  "SourceCode": "doloremque",
+  "EjscriptId": 69,
+  "UniqueIdentifier": "ad",
+  "Name": "Cormier-Jerde",
+  "Description": "Multi-layered solution-oriented circuit",
+  "IncludeId": "nulla",
+  "AccessKey": "deleniti",
+  "HierarchyId": 869,
+  "Source": "adipisci",
+  "SourceCode": "rerum",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 45,
+  "HtmlOutput": 776,
   "Includes": [
-    764,
-    224
+    669,
+    23
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 825,
-      "LineNumberTo": 675,
-      "Delta": 904,
+      "LineNumberFrom": 794,
+      "LineNumberTo": 40,
+      "Delta": 317,
       "IncludeId": "ut",
       "IncludedFrom": [
-        "sunt",
-        "rerum"
+        "soluta",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 209
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2014-10-20T10:17:55.3165216+02:00",
-  "RegisteredAssociateId": 813,
-  "Updated": "2015-01-16T10:17:55.3165216+01:00",
-  "UpdatedAssociateId": 14,
+  "Registered": "2023-06-16T13:13:22.508244+02:00",
+  "RegisteredAssociateId": 616,
+  "Updated": "2002-11-02T13:13:22.508244+01:00",
+  "UpdatedAssociateId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

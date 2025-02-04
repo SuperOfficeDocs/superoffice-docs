@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 54
+  "AssociateId": 462
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 43,
-    "AssociateId": 202,
-    "Caption": "nulla",
+    "DashboardId": 459,
+    "AssociateId": 558,
+    "Caption": "et",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 288,
-        "Caption": "dolor",
-        "Description": "Ergonomic encompassing process improvement",
-        "ChartName": "Funk-Armstrong",
-        "ChartId": "autem",
+        "DashboardTileId": 186,
+        "Caption": "nostrum",
+        "Description": "Digitized stable support",
+        "ChartName": "Herman Inc and Sons",
+        "ChartId": "consequatur",
         "IsDefault": false,
-        "AssociateId": 630,
-        "GroupId": 94,
-        "SelectionId": 437,
-        "Config": "reprehenderit",
+        "AssociateId": 199,
+        "GroupId": 774,
+        "SelectionId": 861,
+        "Config": "ut",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

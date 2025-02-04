@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Value": "ipsum",
-    "Tooltip": "distinctio",
+    "Id": 147,
+    "Value": "accusantium",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 507
       }
     }
   },
   {
-    "Id": 949,
-    "Value": "ipsum",
-    "Tooltip": "distinctio",
+    "Id": 147,
+    "Value": "accusantium",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 507
       }
     }
   }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 83,
-  "Name": "Altenwerth LLC",
-  "Description": "Vision-oriented local hardware",
+  "ReportLabelLayoutId": 445,
+  "Name": "Emard Inc and Sons",
+  "Description": "Customizable impactful emulation",
   "Orientation": "Landscape",
-  "PaperWidth": 792,
-  "PaperHeight": 698,
-  "LeftMargin": 199,
-  "RightMargin": 933,
-  "TopMargin": 696,
-  "BottomMargin": 580,
-  "CountColumns": 261,
-  "CountRows": 733
+  "PaperWidth": 886,
+  "PaperHeight": 538,
+  "LeftMargin": 675,
+  "RightMargin": 859,
+  "TopMargin": 769,
+  "BottomMargin": 829,
+  "CountColumns": 100,
+  "CountRows": 429
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 752,
-  "Name": "Sipes-Rice",
-  "Description": "Profit-focused logistical data-warehouse",
+  "ReportLabelLayoutId": 609,
+  "Name": "Blick Inc and Sons",
+  "Description": "Ameliorated leading edge conglomeration",
   "Orientation": "Landscape",
-  "PaperWidth": 970,
-  "PaperHeight": 109,
-  "LeftMargin": 852,
-  "RightMargin": 335,
-  "TopMargin": 310,
-  "BottomMargin": 505,
-  "CountColumns": 339,
-  "CountRows": 180,
+  "PaperWidth": 808,
+  "PaperHeight": 371,
+  "LeftMargin": 986,
+  "RightMargin": 532,
+  "TopMargin": 795,
+  "BottomMargin": 526,
+  "CountColumns": 849,
+  "CountRows": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 216
     }
   }
 }

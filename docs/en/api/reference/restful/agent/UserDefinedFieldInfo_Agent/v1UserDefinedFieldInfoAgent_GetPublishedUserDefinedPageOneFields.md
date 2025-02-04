@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 893
+  "UserGroupId": 299
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 544,
-    "ColumnId": 53,
-    "FieldDefault": "aut",
-    "FieldHeight": 337,
-    "FieldLabel": "voluptatibus",
-    "FieldLeft": 296,
-    "FieldTop": 513,
+    "UDefFieldId": 381,
+    "ColumnId": 711,
+    "FieldDefault": "sint",
+    "FieldHeight": 370,
+    "FieldLabel": "quo",
+    "FieldLeft": 944,
+    "FieldTop": 700,
     "FieldType": "Checkbox",
-    "FieldWidth": 826,
-    "FormatMask": "eius",
+    "FieldWidth": 307,
+    "FormatMask": "itaque",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 189,
-    "LabelLeft": 784,
-    "LabelTop": 899,
-    "LabelWidth": 506,
-    "LastVersionId": 418,
-    "ListTableId": 383,
+    "LabelHeight": 460,
+    "LabelLeft": 112,
+    "LabelTop": 262,
+    "LabelWidth": 886,
+    "LastVersionId": 75,
+    "ListTableId": 84,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 453,
-    "ProgId": "aut",
+    "Page1LineNo": 223,
+    "ProgId": "molestiae",
     "IsReadOnly": true,
-    "ShortLabel": "magni",
-    "TabOrder": 229,
-    "TextLength": 766,
-    "Tooltip": "iusto",
-    "UdefIdentity": 638,
-    "UDListDefinitionId": 159,
+    "ShortLabel": "molestias",
+    "TabOrder": 286,
+    "TextLength": 716,
+    "Tooltip": "itaque",
+    "UdefIdentity": 493,
+    "UDListDefinitionId": 483,
     "Justification": "Center",
-    "Version": 422,
-    "TemplateVariableName": "Farrell LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Gorczany Inc and Sons",
+    "Version": 168,
+    "TemplateVariableName": "Ernser-Steuber",
+    "HasBeenPublished": true,
+    "MdoListName": "Beatty-Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 234
       }
     }
   }

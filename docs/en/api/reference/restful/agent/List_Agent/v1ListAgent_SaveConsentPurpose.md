@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 414,
-  "Name": "Harris, Bogisich and Turcotte",
-  "ConsentText": "aut",
-  "FormText": "sint",
-  "Key": "quam",
-  "Tooltip": "molestiae",
-  "Active": 760,
-  "UpdatedDate": "2017-01-19T10:17:55.7540473+01:00",
+  "ConsentPurposeId": 971,
+  "Name": "Hilll Inc and Sons",
+  "ConsentText": "fuga",
+  "FormText": "dolor",
+  "Key": "consequatur",
+  "Tooltip": "accusantium",
+  "Active": 422,
+  "UpdatedDate": "2020-09-30T13:13:23.3520388+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 89,
-  "PrivacyStatementDesc": "ut",
+  "Deleted": false,
+  "Rank": 820,
+  "PrivacyStatementDesc": "numquam",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

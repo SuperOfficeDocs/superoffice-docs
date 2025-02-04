@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "non",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 972,
-  "Name": "O'Reilly, Abshire and Kunde",
+  "WebhookId": 155,
+  "Name": "Olson Inc and Sons",
   "Events": [
-    "fugit",
-    "rerum"
+    "ea",
+    "architecto"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "enim",
+  "Secret": "ex",
   "State": "Active",
-  "Type": "amet",
+  "Type": "dolores",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "inventore"
+    "Headers1": "et",
+    "Headers2": "sit"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-10-30T10:18:00.910611+01:00",
+  "Registered": "2005-12-18T13:13:32.7611997+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-11-12T10:18:00.910611+01:00",
+  "Updated": "2020-11-26T13:13:32.7611997+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jeramy_west@kuhlmankilback.info",
+  "ErrorsEmail": "zetta@bins.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

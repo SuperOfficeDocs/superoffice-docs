@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 10,
-  "ColumnId": 988,
-  "FieldDefault": "impedit",
-  "FieldHeight": 220,
-  "FieldLabel": "pariatur",
-  "FieldLeft": 255,
-  "FieldTop": 556,
+  "UDefFieldId": 209,
+  "ColumnId": 608,
+  "FieldDefault": "ut",
+  "FieldHeight": 649,
+  "FieldLabel": "quidem",
+  "FieldLeft": 576,
+  "FieldTop": 852,
   "FieldType": "Checkbox",
-  "FieldWidth": 473,
-  "FormatMask": "enim",
+  "FieldWidth": 786,
+  "FormatMask": "beatae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 106,
-  "LabelLeft": 293,
-  "LabelTop": 278,
-  "LabelWidth": 325,
-  "LastVersionId": 373,
-  "ListTableId": 795,
-  "IsMandatory": true,
+  "LabelHeight": 923,
+  "LabelLeft": 25,
+  "LabelTop": 283,
+  "LabelWidth": 962,
+  "LastVersionId": 66,
+  "ListTableId": 428,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 595,
-  "ProgId": "quia",
-  "IsReadOnly": false,
-  "ShortLabel": "asperiores",
-  "TabOrder": 306,
-  "TextLength": 736,
-  "Tooltip": "doloribus",
-  "UdefIdentity": 99,
-  "UDListDefinitionId": 894,
+  "Page1LineNo": 491,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 890,
+  "TextLength": 710,
+  "Tooltip": "ut",
+  "UdefIdentity": 959,
+  "UDListDefinitionId": 659,
   "Justification": "Center",
-  "Version": 374,
-  "TemplateVariableName": "Denesik LLC",
+  "Version": 955,
+  "TemplateVariableName": "Emmerich-Johns",
   "HasBeenPublished": false,
-  "MdoListName": "Stroman Inc and Sons",
+  "MdoListName": "Dare, Gorczany and Christiansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 978
+      "FieldLength": 611
     }
   }
 }

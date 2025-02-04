@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Greenholt-Von",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 998,
-    "Rank": 560
+    "Id": 626,
+    "Name": "Buckridge, Hermiston and Jast",
+    "Tooltip": "magnam",
+    "Deleted": false,
+    "UdListDefinitionId": 666,
+    "Rank": 461
   },
   {
-    "Id": 755,
-    "Name": "Greenholt-Von",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 998,
-    "Rank": 560
+    "Id": 626,
+    "Name": "Buckridge, Hermiston and Jast",
+    "Tooltip": "magnam",
+    "Deleted": false,
+    "UdListDefinitionId": 666,
+    "Rank": 461
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Rogahn LLC",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "UdListDefinitionId": 72,
-    "Rank": 933,
+    "Id": 882,
+    "Name": "Von-Conn",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "UdListDefinitionId": 135,
+    "Rank": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 738
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 622,
-    "Name": "Waters-Lueilwitz",
-    "Tooltip": "officiis",
+    "HeadingId": 565,
+    "Name": "Mann Inc and Sons",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 811
+    "Rank": 120,
+    "UdListDefinitionId": 319
   },
   {
-    "HeadingId": 622,
-    "Name": "Waters-Lueilwitz",
-    "Tooltip": "officiis",
+    "HeadingId": 565,
+    "Name": "Mann Inc and Sons",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 811
+    "Rank": 120,
+    "UdListDefinitionId": 319
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 791,
-    "Name": "Satterfield Group",
-    "Tooltip": "hic",
-    "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 809,
+    "HeadingId": 939,
+    "Name": "Batz, Lockman and Kerluke",
+    "Tooltip": "ex",
+    "Deleted": true,
+    "Rank": 507,
+    "UdListDefinitionId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 947
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

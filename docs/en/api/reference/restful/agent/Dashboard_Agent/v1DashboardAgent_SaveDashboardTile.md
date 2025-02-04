@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 667,
-  "Caption": "explicabo",
-  "Description": "Sharable clear-thinking process improvement",
-  "ChartName": "Reichert, Cummerata and Ortiz",
-  "ChartId": "qui",
+  "DashboardTileId": 361,
+  "Caption": "molestias",
+  "Description": "Organic empowering intranet",
+  "ChartName": "Lind-Pfannerstill",
+  "ChartId": "laudantium",
   "IsDefault": false,
-  "AssociateId": 289,
-  "GroupId": 445,
-  "SelectionId": 543,
-  "Config": "veniam",
+  "AssociateId": 716,
+  "GroupId": 337,
+  "SelectionId": 668,
+  "Config": "ratione",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Nolan, Armstrong and Waters",
-      "Description": "Integrated didactic methodology",
+      "Name": "Walker-Flatley",
+      "Description": "Polarised bottom-line hub",
       "Type": "Boolean",
-      "ListName": "Herzog, Kunde and Bahringer",
+      "ListName": "Blick-Reichert",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolor",
-      "DefaultDataOption": false
+      "Value": "architecto",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 563,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 563,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 414,
-  "Caption": "voluptatum",
-  "Description": "Inverse value-added portal",
-  "ChartName": "Ziemann, Nitzsche and Morissette",
-  "ChartId": "voluptas",
+  "DashboardTileId": 642,
+  "Caption": "sequi",
+  "Description": "Organized static challenge",
+  "ChartName": "Cummerata, Leuschke and Koch",
+  "ChartId": "quidem",
   "IsDefault": false,
-  "AssociateId": 676,
-  "GroupId": 814,
-  "SelectionId": 984,
-  "Config": "delectus",
+  "AssociateId": 862,
+  "GroupId": 581,
+  "SelectionId": 621,
+  "Config": "qui",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wuckert, Marquardt and Leuschke",
-      "Description": "Configurable motivating approach",
+      "Name": "Parker-Tillman",
+      "Description": "Persistent impactful matrix",
       "Type": "Boolean",
-      "ListName": "Nienow-Crist",
+      "ListName": "Braun Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "culpa",
+      "Value": "omnis",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 509
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 1001,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     },
     {
-      "VisibleId": 1001,
+      "VisibleId": 824,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 682
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     }
@@ -207,8 +207,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

@@ -82,6 +82,7 @@ Service methods defined on <see cref='T:IDocumentAgent'>DocumentAgent</see> that
 * [SaveDocumentEntity](savedocumententity.md)
 * [SaveDocumentTemplateStream](savedocumenttemplatestream.md)
 * [SavePrivacyReport](saveprivacyreport.md)
+* [SavePrivacyReportPdf](saveprivacyreportpdf.md)
 * [SaveSuggestedDocumentEntity](savesuggesteddocumententity.md)
 * [SetDocumentStream](setdocumentstream.md)
 * [SetDocumentStreamFromId](setdocumentstreamfromid.md)

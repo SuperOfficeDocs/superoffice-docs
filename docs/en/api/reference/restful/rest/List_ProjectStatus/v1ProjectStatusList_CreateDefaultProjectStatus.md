@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Moore LLC",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "UdListDefinitionId": 180,
-  "Rank": 990,
+  "Id": 667,
+  "Name": "Wolff-Kozey",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "UdListDefinitionId": 379,
+  "Rank": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

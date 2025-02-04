@@ -102,6 +102,8 @@ generated: true
 
 * [POST Agents/Project/GetProjectMember](v1ProjectAgent_GetProjectMember.md)
 
+* [POST Agents/Project/UpdateProjectMembers](v1ProjectAgent_UpdateProjectMembers.md)
+
 * [POST Agents/Project/GetProjectMembers](v1ProjectAgent_GetProjectMembers.md)
 
 * [POST Agents/Project/UpdateProjectMember](v1ProjectAgent_UpdateProjectMember.md)

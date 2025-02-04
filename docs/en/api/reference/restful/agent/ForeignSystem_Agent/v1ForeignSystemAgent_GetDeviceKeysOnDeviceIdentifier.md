@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abbott-Fritsch",
-  "DeviceName": "Terry-Rogahn",
-  "DeviceIdentifier": "dolor"
+  "ApplicationName": "Hettinger, Walter and Hodkiewicz",
+  "DeviceName": "Dickinson, Lang and Schuster",
+  "DeviceIdentifier": "odit"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "reiciendis",
-    "Value": "modi",
-    "RecordId": 203,
-    "CreatedDate": "2019-10-20T10:17:55.660285+02:00",
-    "UpdatedDate": "2016-08-29T10:17:55.660285+02:00",
-    "UpdatedBy": "non",
-    "CreatedBy": "nostrum",
-    "TableName": "VonRueden LLC",
+    "Key": "sed",
+    "Value": "rerum",
+    "RecordId": 28,
+    "CreatedDate": "2016-05-19T13:13:23.1802042+02:00",
+    "UpdatedDate": "2023-08-14T13:13:23.1802042+02:00",
+    "UpdatedBy": "aut",
+    "CreatedBy": "dolores",
+    "TableName": "Cartwright, Langworth and Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

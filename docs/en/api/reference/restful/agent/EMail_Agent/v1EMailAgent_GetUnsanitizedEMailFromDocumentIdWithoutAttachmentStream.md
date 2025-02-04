@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 187
+  "DocumentId": 807
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 798,
-      "ContactName": "Ledner-O'Reilly",
-      "PersonId": 901,
-      "PersonName": "Rogahn-Ernser",
-      "AssociateId": 862,
-      "Address": "doloribus",
-      "EmailId": 821,
+      "ContactId": 244,
+      "ContactName": "Larkin, Hoppe and Goodwin",
+      "PersonId": 472,
+      "PersonName": "Konopelski-Gusikowski",
+      "AssociateId": 213,
+      "Address": "saepe",
+      "EmailId": 422,
       "DuplicatePersonIds": [
-        70,
-        718
+        316,
+        901
       ],
-      "Name": "Nader Inc and Sons",
+      "Name": "Okuneva-Sporer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 834
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 271,
-      "ContactName": "Upton-Mann",
-      "PersonId": 666,
-      "PersonName": "Williamson, Stanton and Senger",
-      "AssociateId": 596,
-      "Address": "vel",
-      "EmailId": 376,
+      "ContactId": 368,
+      "ContactName": "Hoppe Inc and Sons",
+      "PersonId": 340,
+      "PersonName": "Schmitt, Feeney and Schamberger",
+      "AssociateId": 625,
+      "Address": "deserunt",
+      "EmailId": 572,
       "DuplicatePersonIds": [
-        523,
-        915
+        260,
+        428
       ],
-      "Name": "Bruen-Hayes",
+      "Name": "Upton Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldLength": 571
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 883,
-      "ContactName": "Goldner LLC",
-      "PersonId": 498,
-      "PersonName": "Auer-Stoltenberg",
-      "AssociateId": 599,
-      "Address": "in",
-      "EmailId": 555,
+      "ContactId": 826,
+      "ContactName": "Ruecker, Cummerata and Murazik",
+      "PersonId": 759,
+      "PersonName": "White, Bayer and Stroman",
+      "AssociateId": 707,
+      "Address": "molestiae",
+      "EmailId": 341,
       "DuplicatePersonIds": [
-        8,
-        65
+        301,
+        197
       ],
-      "Name": "Monahan, Davis and Lebsack",
+      "Name": "Waters, Spinka and Runolfsson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 651
         }
       }
     }
   ],
-  "Subject": "repellendus",
-  "HTMLBody": "non",
+  "Subject": "fuga",
+  "HTMLBody": "omnis",
   "From": null,
-  "Sent": "2013-10-02T10:17:55.5665368+02:00",
-  "Size": 884,
+  "Sent": "2020-05-31T13:13:22.9771254+02:00",
+  "Size": 721,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "ducimus",
-  "IsSent": false,
+  "MessageID": "est",
+  "PlainBody": "explicabo",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 1001,
+  "ServerId": 543,
   "Attachments": [
     {
-      "Description": "Optimized disintermediate standardization",
-      "Filename": "molestiae",
-      "Size": 203,
-      "Type": "sed",
-      "Encoding": "aut",
-      "Id": "dolores",
-      "Disposition": "dolorem",
-      "IsSafeFileExtension": true,
+      "Description": "Up-sized solution-oriented budgetary management",
+      "Filename": "ea",
+      "Size": 676,
+      "Type": "placeat",
+      "Encoding": "ullam",
+      "Id": "provident",
+      "Disposition": "incidunt",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 677
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Tillman-Koss",
+      "Name": "Lesch Inc and Sons",
       "Values": [
-        "ullam",
-        "et"
+        "id",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 972
         }
       }
     },
     {
-      "Name": "Tillman-Koss",
+      "Name": "Lesch Inc and Sons",
       "Values": [
-        "ullam",
-        "et"
+        "id",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 972
         }
       }
     }
   ],
-  "FolderName": "Ledner, Heathcote and Jones",
-  "EmailItemId": 660,
-  "AccountId": 346,
-  "ReceivedAt": "2018-12-18T10:17:55.5665368+01:00",
+  "FolderName": "Upton Group",
+  "EmailItemId": 217,
+  "AccountId": 45,
+  "ReceivedAt": "2021-12-07T13:13:22.9771254+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-04-28T10:17:55.5665368+02:00",
+  "RepliedAt": "2020-06-29T13:13:22.9771254+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   }
 }

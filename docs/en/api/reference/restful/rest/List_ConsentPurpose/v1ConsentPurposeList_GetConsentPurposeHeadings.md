@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 591,
-    "Name": "Effertz Group",
-    "Tooltip": "dolorem",
+    "HeadingId": 681,
+    "Name": "Schoen, Dach and Becker",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 516,
-    "UdListDefinitionId": 199,
+    "Rank": 77,
+    "UdListDefinitionId": 447,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 199
       }
     }
   }

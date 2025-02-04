@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Gibson, Hammes and Mann",
-    "ToolTip": "Aliquam culpa asperiores odit.",
+    "Id": 68,
+    "Name": "Lemke, Conroy and Bauch",
+    "ToolTip": "Maxime corrupti quia consequatur.",
     "Deleted": false,
-    "Rank": 230,
-    "Type": "quia",
-    "ColorBlock": 650,
-    "IconHint": "ex",
+    "Rank": 67,
+    "Type": "optio",
+    "ColorBlock": 370,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "2006-08-20T10:18:00.926237+02:00",
+    "LastChanged": "2019-02-11T13:13:32.7924497+01:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Hackett Inc and Sons",
-        "ToolTip": "Et iure cupiditate.",
+        "Id": 502,
+        "Name": "Hodkiewicz-Kutch",
+        "ToolTip": "Voluptas quaerat deleniti non ut ut reiciendis sed.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "cumque",
-        "ColorBlock": 119,
-        "IconHint": "aut",
+        "Rank": 552,
+        "Type": "molestiae",
+        "ColorBlock": 873,
+        "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "1998-08-26T10:18:00.926237+02:00",
+        "LastChanged": "2016-06-01T13:13:32.7924497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Paxton Hamill"
+        "ExtraInfo": "et",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Mr. Lois Darlene Tremblay V"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Kennedi Prohaska"
+    "ExtraInfo": "non",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Mrs. Milton Beer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Douglas-Stracke",
-    "ToolTip": "Sed optio non quibusdam quisquam quia deserunt.",
-    "Deleted": false,
-    "Rank": 518,
-    "Type": "quo",
-    "ColorBlock": 711,
-    "IconHint": "suscipit",
+    "Id": 340,
+    "Name": "Kassulke LLC",
+    "ToolTip": "Eum quis non est.",
+    "Deleted": true,
+    "Rank": 822,
+    "Type": "veniam",
+    "ColorBlock": 831,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2009-06-15T10:18:00.926237+02:00",
+    "LastChanged": "2021-04-18T13:13:32.7924497+02:00",
     "ChildItems": [
       {
-        "Id": 811,
-        "Name": "Mohr-Waters",
-        "ToolTip": "Architecto distinctio libero.",
+        "Id": 9,
+        "Name": "Bergnaum Group",
+        "ToolTip": "Hic quam quia ipsam ipsum ad esse.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "vitae",
-        "ColorBlock": 273,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2017-11-03T10:18:00.926237+01:00",
+        "Rank": 761,
+        "Type": "mollitia",
+        "ColorBlock": 549,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2004-08-10T13:13:32.7924497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Carmen Nolan",
+        "ExtraInfo": "quia",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Dusty Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "iste",
+    "ExtraInfo": "ut",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ms. Rocky Immanuel Heller IV",
+    "FullName": "Mrs. Bernice Kuhlman V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

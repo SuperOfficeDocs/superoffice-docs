@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 70,
-  "Name": "Powlowski-Hermiston",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "UdListDefinitionId": 196,
-  "Rank": 405,
+  "Id": 997,
+  "Name": "Klocko, Keebler and Cormier",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 376,
+  "Rank": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   }
 }

@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 883,
+  "TicketId": 2,
   "MessageActionType": "Forward",
-  "TicketMessageId": 398,
-  "TicketTypeId": 123
+  "TicketMessageId": 674,
+  "TicketTypeId": 715
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "autem",
+  "Body": "voluptas",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 117,
-      "Name": "Botsford LLC",
-      "ContentType": "molestiae",
-      "AttSize": 792,
-      "InlineImage": true,
-      "ContentId": "culpa",
-      "AuthKey": "quidem",
+      "AttachmentId": 735,
+      "Name": "Rath-Schuppe",
+      "ContentType": "et",
+      "AttSize": 960,
+      "InlineImage": false,
+      "ContentId": "fugit",
+      "AuthKey": "est",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 238
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     }

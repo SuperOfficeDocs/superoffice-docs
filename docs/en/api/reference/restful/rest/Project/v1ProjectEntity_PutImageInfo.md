@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=849
+PUT /api/v1/Project/{id}/ImageInfo?projectId=765
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 508,
-  "BlobSize": 944,
-  "Description": "Front-line maximized customer loyalty",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "laboriosam",
-  "OriginalSize": 76,
-  "CreatedDate": "1999-04-06T10:18:00.5199623+02:00",
-  "UpdatedDate": "2007-08-25T10:18:00.5199623+02:00",
+  "BlobId": 933,
+  "BlobSize": 942,
+  "Description": "Function-based tangible middleware",
+  "ExtraInfo": "laudantium",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "voluptatem",
+  "OriginalSize": 587,
+  "CreatedDate": "2011-08-25T13:13:31.9644289+02:00",
+  "UpdatedDate": "2010-08-24T13:13:31.9644289+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "fugit"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 893,
-  "BlobSize": 209,
-  "Description": "Function-based executive adapter",
-  "ExtraInfo": "et",
+  "BlobId": 811,
+  "BlobSize": 7,
+  "Description": "Open-source explicit concept",
+  "ExtraInfo": "labore",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quasi",
-  "OriginalSize": 74,
-  "CreatedDate": "2008-04-12T10:18:00.5199623+02:00",
-  "UpdatedDate": "2014-07-20T10:18:00.5199623+02:00",
+  "MimeType": "repudiandae",
+  "OriginalSize": 383,
+  "CreatedDate": "2017-06-21T13:13:31.9644289+02:00",
+  "UpdatedDate": "2013-08-05T13:13:31.9644289+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

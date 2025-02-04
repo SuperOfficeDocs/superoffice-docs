@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stamm LLC",
-  "DeviceName": "Robel LLC",
-  "DeviceIdentifier": "omnis"
+  "ApplicationName": "Breitenberg, Heller and Durgan",
+  "DeviceName": "Lueilwitz, Barrows and O'Conner",
+  "DeviceIdentifier": "aperiam"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 55,
-  "Name": "Cole Inc and Sons",
-  "CreatedDate": "1999-11-03T10:17:55.660285+01:00",
-  "UpdatedDate": "2024-07-27T10:17:55.660285+02:00",
-  "AssociateFullName": "Kari Gibson",
-  "CreatedBy": "vero",
-  "UpdatedBy": "dolore",
-  "DeviceIdentifier": "illo",
-  "ForeignAppId": 397,
+  "ForeignDeviceId": 454,
+  "Name": "Dietrich, Kozey and Barrows",
+  "CreatedDate": "2022-06-05T13:13:23.1645837+02:00",
+  "UpdatedDate": "1998-12-12T13:13:23.1645837+01:00",
+  "AssociateFullName": "Oran Rice",
+  "CreatedBy": "recusandae",
+  "UpdatedBy": "expedita",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Paucek Group",
-    "ToolTip": "Cupiditate quae.",
+    "Id": 227,
+    "Name": "Hills LLC",
+    "ToolTip": "Et illo consectetur dolor velit et quis voluptates.",
     "Deleted": false,
-    "Rank": 893,
-    "Type": "at",
-    "ColorBlock": 905,
-    "IconHint": "perferendis",
-    "Selected": true,
-    "LastChanged": "2010-12-17T10:18:01.1450002+01:00",
+    "Rank": 181,
+    "Type": "rerum",
+    "ColorBlock": 836,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2018-11-05T13:13:33.5422642+01:00",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Stanton Group",
-        "ToolTip": "Placeat quaerat molestiae minima quo.",
-        "Deleted": false,
-        "Rank": 364,
-        "Type": "et",
-        "ColorBlock": 32,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2017-06-14T10:18:01.1606262+02:00",
+        "Id": 389,
+        "Name": "Franecki Group",
+        "ToolTip": "Voluptates occaecati doloribus aperiam.",
+        "Deleted": true,
+        "Rank": 968,
+        "Type": "a",
+        "ColorBlock": 813,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "1998-07-24T13:13:33.5422642+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "cumque",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Violet Harber",
+        "FullName": "Fabian Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Miss Arjun Paucek",
+    "ExtraInfo": "ea",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Dr. Marquise Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 871
       }
     }
   }

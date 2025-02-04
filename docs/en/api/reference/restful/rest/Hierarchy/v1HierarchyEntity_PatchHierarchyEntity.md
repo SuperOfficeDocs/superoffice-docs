@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 517,
+  "HierarchyId": 429,
   "Domain": "Dashboards",
-  "Name": "Welch, Leuschke and Quigley",
-  "Fullname": "odio",
-  "ParentId": 461,
+  "Name": "Rice-Ratke",
+  "Fullname": "voluptatem",
+  "ParentId": 702,
   "Children": [
     {
-      "HierarchyId": 877,
+      "HierarchyId": 760,
       "Domain": "Dashboards",
-      "Name": "Altenwerth-Wunsch",
-      "Fullname": "dolores",
-      "ParentId": 748,
+      "Name": "Bernhard Group",
+      "Fullname": "sunt",
+      "ParentId": 415,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-07-12T10:18:00.4262067+02:00",
-      "RegisteredAssociateId": 960,
-      "Updated": "2011-12-16T10:18:00.4262067+01:00",
-      "UpdatedAssociateId": 544,
+      "Registered": "2019-10-20T13:13:31.7613495+02:00",
+      "RegisteredAssociateId": 688,
+      "Updated": "2010-07-17T13:13:31.7613495+02:00",
+      "UpdatedAssociateId": 131,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 973
         }
       }
     }
   ],
-  "Registered": "2007-10-28T10:18:00.4262067+01:00",
-  "RegisteredAssociateId": 800,
-  "Updated": "2000-01-13T10:18:00.4262067+01:00",
-  "UpdatedAssociateId": 243,
+  "Registered": "2006-07-11T13:13:31.7613495+02:00",
+  "RegisteredAssociateId": 458,
+  "Updated": "2008-09-05T13:13:31.7613495+02:00",
+  "UpdatedAssociateId": 136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldLength": 18
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

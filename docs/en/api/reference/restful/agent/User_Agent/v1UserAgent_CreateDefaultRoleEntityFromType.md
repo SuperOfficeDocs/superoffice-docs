@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 923,
-  "Name": "Kessler, Schmeler and Waters",
-  "Tooltip": "at",
+  "RoleId": 616,
+  "Name": "Flatley Inc and Sons",
+  "Tooltip": "facilis",
   "RoleType": "Anonymous",
-  "Deleted": 489,
-  "Rank": 226,
-  "Created": "2003-12-17T10:17:56.3322071+01:00",
-  "UseCategories": 472,
+  "Deleted": 635,
+  "Rank": 467,
+  "Created": "2020-09-23T13:13:24.4934105+02:00",
+  "UseCategories": 417,
   "CreatedBy": null,
-  "Updated": "2015-06-02T10:17:56.3322071+02:00",
+  "Updated": "2013-10-25T13:13:24.4934105+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 574
     }
   }
 }

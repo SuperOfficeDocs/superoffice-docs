@@ -126,8 +126,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 306,
-  "ERPProductKey": "natus"
+  "QuoteAlternativeId": 923,
+  "ERPProductKey": "nihil"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 163,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 49,
-  "ERPProductKey": "aut",
+  "QuoteLineId": 758,
+  "ERPQuoteLineKey": "dolor",
+  "QuoteAlternativeId": 152,
+  "ERPProductKey": "molestias",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7308.4879999999994,
-  "DeliveredQuantity": 23244.878,
-  "Rank": 902,
-  "Name": "Bahringer Inc and Sons",
-  "Description": "Digitized disintermediate architecture",
-  "Code": "id",
-  "QuantityUnit": "optio",
-  "PriceUnit": "et",
-  "ItemNumber": "787128",
+  "Quantity": 28713.708,
+  "DeliveredQuantity": 23530.072,
+  "Rank": 210,
+  "Name": "Lehner Inc and Sons",
+  "Description": "De-engineered bottom-line circuit",
+  "Code": "aut",
+  "QuantityUnit": "quisquam",
+  "PriceUnit": "deserunt",
+  "ItemNumber": "435151",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "eligendi",
-  "ProductTypeKey": "aut",
-  "Supplier": "repellat",
-  "SupplierCode": "enim",
-  "Thumbnail": "dolorem",
-  "VATInfo": "quia",
-  "VAT": 1416.568,
-  "UnitCost": 6105.032,
-  "UnitMinimumPrice": 24567.426,
-  "UnitListPrice": 26372.61,
+  "ProductTypeKey": "fugit",
+  "Supplier": "aperiam",
+  "SupplierCode": "hic",
+  "Thumbnail": "aut",
+  "VATInfo": "sunt",
+  "VAT": 6640.946,
+  "UnitCost": 28961.293999999998,
+  "UnitMinimumPrice": 12451.382,
+  "UnitListPrice": 19712.86,
   "ExtraInfo": [
     {
-      "Name": "Shields LLC",
-      "Value": "odio",
+      "Name": "Hegmann-Streich",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 693
         }
       }
     },
     {
-      "Name": "Shields LLC",
-      "Value": "odio",
+      "Name": "Hegmann-Streich",
+      "Value": "doloribus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 693
         }
       }
     }
   ],
-  "RawExtraInfo": "temporibus",
+  "RawExtraInfo": "sunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "sed",
-  "SubscriptionQuantity": 17070.898,
-  "SubscriptionStart": "2004-04-01T10:17:55.9571855+02:00",
-  "ERPDiscountPercent": 22527.192,
-  "ERPDiscountAmount": 6819.584,
-  "DiscountPercent": 24225.82,
-  "DiscountAmount": 22718.365999999998,
+  "SubscriptionUnit": "laudantium",
+  "SubscriptionQuantity": 5070.812,
+  "SubscriptionStart": "1998-02-21T13:13:23.7581921+01:00",
+  "ERPDiscountPercent": 24501.612,
+  "ERPDiscountAmount": 783.5,
+  "DiscountPercent": 11558.192,
+  "DiscountAmount": 14432.07,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23041.167999999998,
-  "EarningAmount": 13899.289999999999,
-  "SubTotal": 23241.744,
-  "TotalPrice": 6299.34,
-  "Rights": "et",
-  "Rule": "sapiente",
-  "ExtraField1": "nisi",
-  "ExtraField2": "accusamus",
-  "ExtraField3": "fugit",
-  "ExtraField4": "saepe",
-  "ExtraField5": "voluptatem",
+  "EarningPercent": 26924.194,
+  "EarningAmount": 16440.964,
+  "SubTotal": 2798.662,
+  "TotalPrice": 24924.701999999997,
+  "Rights": "qui",
+  "Rule": "quia",
+  "ExtraField1": "ex",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "accusamus",
+  "ExtraField4": "doloribus",
+  "ExtraField5": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 295
     }
   }
 }

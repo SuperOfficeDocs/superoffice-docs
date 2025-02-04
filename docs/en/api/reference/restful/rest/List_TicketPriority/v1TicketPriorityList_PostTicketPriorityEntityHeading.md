@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 169,
-  "Name": "Murphy, Thompson and Nolan",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 495,
-  "UdListDefinitionId": 451
+  "HeadingId": 900,
+  "Name": "Welch, Upton and Hyatt",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 817,
+  "UdListDefinitionId": 532
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 159,
-  "Name": "Conn Group",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 452,
-  "UdListDefinitionId": 469,
+  "HeadingId": 915,
+  "Name": "Runolfsson-Quigley",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "Rank": 895,
+  "UdListDefinitionId": 924,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 263,
-  "ConnectorName": "Langosh-Emard"
+  "ConnectionId": 986,
+  "ConnectorName": "Klocko Inc and Sons"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "maxime",
-    "Rank": 849,
-    "DisplayName": "Willms, Lebsack and Dickinson",
-    "DisplayDescription": "Cross-group uniform attitude",
+    "FieldKey": "non",
+    "Rank": 834,
+    "DisplayName": "Bode, Mitchell and Moore",
+    "DisplayDescription": "Function-based human-resource matrices",
     "FieldType": "Checkbox",
-    "ListName": "Kuhic, D'Amore and Simonis",
-    "DefaultValue": "quia",
-    "MaxLength": 638,
+    "ListName": "Osinski-Toy",
+    "DefaultValue": "est",
+    "MaxLength": 631,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldLength": 982
       }
     }
   }

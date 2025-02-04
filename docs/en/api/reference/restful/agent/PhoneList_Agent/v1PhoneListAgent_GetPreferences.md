@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
   "SearchCompany": false,
   "SearchFirstname": false,
   "SearchLastname": true,
-  "SearchDepartment": false,
+  "SearchDepartment": true,
   "SearchModeCompany": "BeginsWith",
   "SearchModeDepartment": "BeginsWith",
   "SearchModeFirstname": "BeginsWith",
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

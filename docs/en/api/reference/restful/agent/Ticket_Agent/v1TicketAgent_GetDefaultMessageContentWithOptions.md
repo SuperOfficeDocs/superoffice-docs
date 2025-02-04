@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 742,
+  "TicketId": 495,
   "MessageActionType": "Forward",
-  "TicketMessageId": 773,
-  "TicketTypeId": 424,
+  "TicketMessageId": 940,
+  "TicketTypeId": 148,
   "ExcludeSignature": false
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "esse",
+  "Body": "aut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 612,
-      "Name": "Barrows, Champlin and Collier",
-      "ContentType": "eius",
-      "AttSize": 180,
+      "AttachmentId": 273,
+      "Name": "Jones Group",
+      "ContentType": "quia",
+      "AttSize": 734,
       "InlineImage": false,
-      "ContentId": "architecto",
-      "AuthKey": "ipsum",
+      "ContentId": "quisquam",
+      "AuthKey": "alias",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldLength": 550
         }
       }
     }

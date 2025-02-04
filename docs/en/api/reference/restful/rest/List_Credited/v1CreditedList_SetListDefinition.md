@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 24,
-  "Name": "Stokes Group",
-  "Tooltip": "aut",
+  "Id": 651,
+  "Name": "Zulauf Group",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 212,
+  "Rank": 193,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "modi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Fahey, Effertz and Effertz",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 108,
+  "Id": 140,
+  "Name": "Kassulke LLC",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 29,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 215
     }
   }
 }

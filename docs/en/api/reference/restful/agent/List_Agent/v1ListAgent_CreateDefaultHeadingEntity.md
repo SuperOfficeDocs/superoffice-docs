@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 143,
-  "Name": "Glover-Bahringer",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 827,
-  "UdListDefinitionId": 816,
+  "HeadingId": 353,
+  "Name": "Hermann-Hagenes",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 936,
+  "UdListDefinitionId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 763
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

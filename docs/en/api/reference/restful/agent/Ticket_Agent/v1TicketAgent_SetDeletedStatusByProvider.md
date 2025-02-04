@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kutch, Fay and Schmidt",
+  "ProviderName": "Gerhold, Brakus and Will",
   "Restrictions": [
     {
-      "Name": "Bednar LLC",
-      "Operator": "deserunt",
+      "Name": "Lang-Haag",
+      "Operator": "facilis",
       "Values": [
-        "veniam",
-        "et"
+        "illo",
+        "hic"
       ],
       "DisplayValues": [
-        "placeat",
-        "quia"
+        "aut",
+        "mollitia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 427,
+      "InterParenthesis": 309,
       "InterOperator": "And",
-      "UniqueHash": 378
+      "UniqueHash": 275
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  690,
-  590
+  77,
+  459
 ]
 ```

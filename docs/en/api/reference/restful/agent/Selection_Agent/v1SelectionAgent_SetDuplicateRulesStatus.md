@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Hansen-Rau",
-      "DisplayName": "Kilback-Waelchi",
-      "DisplayTooltip": "quasi",
+      "Name": "Rempel, Spinka and Price",
+      "DisplayName": "Howe, Boehm and Bernhard",
+      "DisplayTooltip": "at",
       "IsActive": false
     },
     {
-      "Name": "Hansen-Rau",
-      "DisplayName": "Kilback-Waelchi",
-      "DisplayTooltip": "quasi",
+      "Name": "Rempel, Spinka and Price",
+      "DisplayName": "Howe, Boehm and Bernhard",
+      "DisplayTooltip": "at",
       "IsActive": false
     }
   ]

@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Audience/SetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Gislason, Howell and Hand",
+  "LayoutName": "Welch-Medhurst",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

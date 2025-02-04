@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veritatis",
+  "SaleText": "laboriosam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-06-20T10:18:00.6762151+02:00",
-  "Amount": 30782.147999999997,
-  "SaleId": 206,
-  "Earning": 19853.89,
-  "EarningPercent": 25654.924,
-  "Heading": "nostrum",
-  "Number": "1793388",
-  "Probability": 274,
-  "CreatedDate": "2011-02-18T10:18:00.6762151+01:00",
-  "UpdatedDate": "2010-05-18T10:18:00.6762151+02:00",
+  "Saledate": "2023-09-09T13:13:32.2455472+02:00",
+  "Amount": 3516.348,
+  "SaleId": 526,
+  "Earning": 21812.64,
+  "EarningPercent": 9602.576,
+  "Heading": "ut",
+  "Number": "1164290",
+  "Probability": 582,
+  "CreatedDate": "2016-01-11T13:13:32.2455472+01:00",
+  "UpdatedDate": "2014-09-30T13:13:32.2455472+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 262,
+  "ActiveLinks": 390,
   "Links": [
     {
-      "EntityName": "Feeney LLC",
-      "Id": 727,
-      "Description": "Re-engineered bandwidth-monitored monitoring",
-      "ExtraInfo": "dolorem",
-      "LinkId": 905
+      "EntityName": "Zemlak, Larkin and Denesik",
+      "Id": 294,
+      "Description": "Multi-layered human-resource array",
+      "ExtraInfo": "autem",
+      "LinkId": 16
     },
     {
-      "EntityName": "Feeney LLC",
-      "Id": 727,
-      "Description": "Re-engineered bandwidth-monitored monitoring",
-      "ExtraInfo": "dolorem",
-      "LinkId": 905
+      "EntityName": "Zemlak, Larkin and Denesik",
+      "Id": 294,
+      "Description": "Multi-layered human-resource array",
+      "ExtraInfo": "autem",
+      "LinkId": 16
     }
   ],
-  "NextDueDate": "2020-06-19T10:18:00.6762151+02:00",
-  "Postit": "eveniet",
+  "NextDueDate": "2010-08-20T13:13:32.2455472+02:00",
+  "Postit": "veritatis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-09-26T10:18:00.6762151+02:00",
+  "ReopenDate": "2018-02-26T13:13:32.2455472+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hartmann, Rippin and Bayer",
-      "Comment": "dolorem",
-      "StakeholderRoleId": 485,
-      "CountryId": 834,
-      "PersonId": 437,
-      "EmailDescription": "sheldon_streich@miller.com",
-      "EmailId": 991,
-      "EmailAddress": "meaghan@graham.us",
-      "PhoneId": 361,
-      "ContactName": "Haag-Rowe",
-      "ContactId": 264,
-      "SaleId": 157,
-      "Mrmrs": "minima",
-      "Firstname": "Jayme",
-      "MiddleName": "Gusikowski-Rohan",
-      "Lastname": "Cronin",
-      "SaleStakeholderId": 469,
-      "Rank": 830,
-      "Phone": "(422)499-7212"
+      "StakeholderRoleName": "Donnelly-VonRueden",
+      "Comment": "architecto",
+      "StakeholderRoleId": 330,
+      "CountryId": 918,
+      "PersonId": 408,
+      "EmailDescription": "blanche.fay@mooretorphy.info",
+      "EmailId": 355,
+      "EmailAddress": "marley@brekke.name",
+      "PhoneId": 668,
+      "ContactName": "Fisher, Huels and Veum",
+      "ContactId": 275,
+      "SaleId": 638,
+      "Mrmrs": "facilis",
+      "Firstname": "Jessy",
+      "MiddleName": "Stark Group",
+      "Lastname": "Eichmann",
+      "SaleStakeholderId": 384,
+      "Rank": 970,
+      "Phone": "(160)119-6586 x68682"
     }
   ],
-  "ActiveErpLinks": 644,
+  "ActiveErpLinks": 930,
   "UserDefinedFields": {
-    "SuperOffice:1": "Julie Dickinson",
-    "SuperOffice:2": "Ms. Dalton Bartell II"
+    "SuperOffice:1": "1648531779",
+    "SuperOffice:2": "Abby Becker"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "ut"
+    "CustomFields1": "eius",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2000-01-28T10:18:00.6762151+01:00",
-  "PublishTo": "2019-09-07T10:18:00.6762151+02:00",
-  "PublishFrom": "2008-11-27T10:18:00.6762151+01:00",
+  "PublishEventDate": "2001-09-03T13:13:32.2455472+02:00",
+  "PublishTo": "2008-01-30T13:13:32.2455472+01:00",
+  "PublishFrom": "2018-04-10T13:13:32.2455472+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 610,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "hic"
+      "DisplayValue": "ullam"
     },
     {
-      "VisibleId": 610,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "hic"
+      "DisplayValue": "ullam"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "architecto",
+  "SaleText": "omnis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-03-01T10:18:00.6762151+01:00",
-  "Amount": 29741.66,
-  "SaleId": 629,
-  "Earning": 2162.46,
-  "EarningPercent": 9345.588,
-  "Heading": "quas",
-  "Number": "1781228",
-  "Probability": 119,
-  "CreatedDate": "2018-08-27T10:18:00.6762151+02:00",
-  "UpdatedDate": "2013-02-26T10:18:00.6762151+01:00",
+  "Saledate": "2016-11-23T13:13:32.2611683+01:00",
+  "Amount": 15137.22,
+  "SaleId": 169,
+  "Earning": 28196.597999999998,
+  "EarningPercent": 868.11799999999994,
+  "Heading": "nostrum",
+  "Number": "1010694",
+  "Probability": 337,
+  "CreatedDate": "2018-11-27T13:13:32.2611683+01:00",
+  "UpdatedDate": "2014-11-05T13:13:32.2611683+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 221,
+  "ActiveLinks": 770,
   "Links": [
     {
-      "EntityName": "Bashirian-Ritchie",
-      "Id": 745,
-      "Description": "Balanced interactive database",
-      "ExtraInfo": "provident",
-      "LinkId": 488,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2022-01-07T10:18:00.6762151+01:00",
-  "Postit": "ut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2012-01-01T10:18:00.6762151+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bahringer Group",
-      "Comment": "corrupti",
-      "StakeholderRoleId": 781,
-      "CountryId": 867,
-      "PersonId": 816,
-      "EmailDescription": "edwin.klein@franecki.uk",
-      "EmailId": 27,
-      "EmailAddress": "gordon@mullercummerata.ca",
-      "PhoneId": 604,
-      "ContactName": "Gutmann-Brown",
-      "ContactId": 386,
-      "SaleId": 283,
-      "Mrmrs": "dolorum",
-      "Firstname": "Kieran",
-      "MiddleName": "McDermott Inc and Sons",
-      "Lastname": "Stanton",
-      "SaleStakeholderId": 360,
-      "Rank": 879,
-      "Phone": "(355)565-6707",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 605,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "57349221"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "in"
-  },
-  "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "molestias"
-  },
-  "PublishEventDate": "2009-09-20T10:18:00.6762151+02:00",
-  "PublishTo": "2013-03-05T10:18:00.6762151+01:00",
-  "PublishFrom": "2012-05-21T10:18:00.6762151+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 135,
-      "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "EntityName": "Rodriguez Inc and Sons",
+      "Id": 466,
+      "Description": "De-engineered exuding complexity",
+      "ExtraInfo": "suscipit",
+      "LinkId": 845,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldLength": 691
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2001-10-08T13:13:32.2611683+02:00",
+  "Postit": "inventore",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2011-11-07T13:13:32.2611683+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Wilderman, Hickle and Rippin",
+      "Comment": "magnam",
+      "StakeholderRoleId": 417,
+      "CountryId": 913,
+      "PersonId": 632,
+      "EmailDescription": "logan.dubuque@legroslakin.co.uk",
+      "EmailId": 519,
+      "EmailAddress": "kurt.boyle@rau.com",
+      "PhoneId": 92,
+      "ContactName": "Carroll-Veum",
+      "ContactId": 879,
+      "SaleId": 242,
+      "Mrmrs": "illo",
+      "Firstname": "Elliot",
+      "MiddleName": "Mertz, Olson and Lemke",
+      "Lastname": "Purdy",
+      "SaleStakeholderId": 315,
+      "Rank": 934,
+      "Phone": "(996)402-5382 x375",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 796
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 767,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Olga Betsy Collins II",
+    "SuperOffice:2": "Dr. Flavie Leone Kreiger"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "eaque"
+  },
+  "CustomFields": {
+    "CustomFields1": "nihil",
+    "CustomFields2": "dolores"
+  },
+  "PublishEventDate": "2001-06-01T13:13:32.2611683+02:00",
+  "PublishTo": "2013-09-08T13:13:32.2611683+02:00",
+  "PublishFrom": "1998-09-21T13:13:32.2611683+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 669,
+      "Visibility": "All",
+      "DisplayValue": "in",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 876
         }
       }
     },
     {
-      "VisibleId": 135,
+      "VisibleId": 669,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 28
+          "FieldType": "System.Int32",
+          "FieldLength": 876
         }
       }
     }
@@ -412,12 +412,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 474
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

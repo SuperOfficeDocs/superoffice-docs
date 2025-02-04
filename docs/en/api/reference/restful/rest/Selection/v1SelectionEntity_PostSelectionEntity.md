@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic solution-oriented Graphical User Interface",
-  "Postit": "et",
+  "Description": "Up-sized systematic projection",
+  "Postit": "laboriosam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 199,
-  "IncludePerson": 134,
+  "GroupIdx": 888,
+  "IncludePerson": 726,
   "MemberCount": 99.99,
-  "Name": "McDermott-Weber",
-  "PostitTextId": 440,
-  "CreatedDate": "2010-11-21T10:18:00.7074664+01:00",
-  "SelectionId": 731,
-  "SoundEx": "quam",
-  "Source": 135,
-  "TextId": 383,
-  "UpdatedDate": "2023-12-29T10:18:00.7074664+01:00",
-  "UpdatedCount": 213,
-  "Visibility": 96,
+  "Name": "Abbott-Smith",
+  "PostitTextId": 436,
+  "CreatedDate": "2023-06-19T13:13:32.3080319+02:00",
+  "SelectionId": 236,
+  "SoundEx": "et",
+  "Source": 504,
+  "TextId": 935,
+  "UpdatedDate": "2013-02-23T13:13:32.3080319+01:00",
+  "UpdatedCount": 194,
+  "Visibility": 489,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 979,
-  "TargetTableName": "Upton, Braun and Kautzer",
+  "TargetTableNumber": 361,
+  "TargetTableName": "Hudson Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 676,
-  "RightSelectionId": 835,
+  "LeftSelectionId": 24,
+  "RightSelectionId": 570,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "DuBuque LLC",
-  "ShadowProviderName": "Senger Inc and Sons",
-  "ChartKey": "minima",
-  "LastLoaded": "2017-08-16T10:18:00.7074664+02:00",
-  "LastLoadedBy": 14,
+  "MainProviderName": "Mills Inc and Sons",
+  "ShadowProviderName": "Padberg, Gusikowski and Cole",
+  "ChartKey": "iste",
+  "LastLoaded": "2013-10-12T13:13:32.3080319+02:00",
+  "LastLoadedBy": 520,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-06-14T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 211,
+  "LastMembershipChange": "2024-09-10T13:13:32.3080319+02:00",
+  "LastMembershipChangeBy": 977,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "mollitia",
-  "MailingsProviderName": "Hyatt-Mante",
-  "DashboardTileDefinitionId": 127,
+  "MainHeading": "ipsam",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Breitenberg, Stracke and Olson",
+  "DashboardTileDefinitionId": 394,
   "VisibleFor": [
     {
-      "VisibleId": 921,
+      "VisibleId": 755,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "cumque"
     },
     {
-      "VisibleId": 921,
+      "VisibleId": 755,
       "Visibility": "All",
-      "DisplayValue": "quos"
+      "DisplayValue": "cumque"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled next generation workforce",
-  "Postit": "voluptates",
+  "Description": "Focused holistic adapter",
+  "Postit": "eaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 4,
-  "IncludePerson": 891,
+  "GroupIdx": 410,
+  "IncludePerson": 284,
   "MemberCount": 99.99,
-  "Name": "Bins, Weber and Smith",
-  "PostitTextId": 664,
-  "CreatedDate": "2018-06-29T10:18:00.7074664+02:00",
-  "SelectionId": 358,
-  "SoundEx": "consequuntur",
-  "Source": 349,
-  "TextId": 111,
-  "UpdatedDate": "2021-03-24T10:18:00.7074664+01:00",
-  "UpdatedCount": 337,
-  "Visibility": 809,
+  "Name": "Bartoletti-Ward",
+  "PostitTextId": 304,
+  "CreatedDate": "2015-06-20T13:13:32.3080319+02:00",
+  "SelectionId": 504,
+  "SoundEx": "dolor",
+  "Source": 143,
+  "TextId": 831,
+  "UpdatedDate": "2007-07-19T13:13:32.3080319+02:00",
+  "UpdatedCount": 627,
+  "Visibility": 796,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 805,
-  "TargetTableName": "Crona, Bradtke and Powlowski",
+  "TargetTableNumber": 253,
+  "TargetTableName": "Lang-Reichel",
   "Completed": false,
-  "LeftSelectionId": 16,
-  "RightSelectionId": 454,
+  "LeftSelectionId": 582,
+  "RightSelectionId": 695,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Skiles, Yundt and Renner",
-  "ShadowProviderName": "Mann-Kuvalis",
-  "ChartKey": "ut",
-  "LastLoaded": "2022-07-26T10:18:00.7074664+02:00",
-  "LastLoadedBy": 277,
+  "MainProviderName": "Walker Group",
+  "ShadowProviderName": "Doyle LLC",
+  "ChartKey": "quis",
+  "LastLoaded": "2002-07-17T13:13:32.3080319+02:00",
+  "LastLoadedBy": 669,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-07-20T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 202,
+  "LastMembershipChange": "2024-09-08T13:13:32.3080319+02:00",
+  "LastMembershipChangeBy": 42,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "odio",
-  "MailingsProviderName": "Bailey Group",
-  "DashboardTileDefinitionId": 726,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "illo",
+  "MailingsProviderName": "Pagac Group",
+  "DashboardTileDefinitionId": 324,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 532
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 532
         }
       }
     }
@@ -294,8 +294,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 915
     }
   },
   "_Links": {

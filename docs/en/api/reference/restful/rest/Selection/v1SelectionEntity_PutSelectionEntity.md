@@ -164,56 +164,56 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform asynchronous portal",
-  "Postit": "voluptates",
+  "Description": "Polarised solution-oriented migration",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 481,
-  "IncludePerson": 656,
+  "GroupIdx": 797,
+  "IncludePerson": 906,
   "MemberCount": 99.99,
-  "Name": "Kohler, Harris and Dietrich",
-  "PostitTextId": 62,
-  "CreatedDate": "2011-01-15T10:18:00.7074664+01:00",
-  "SelectionId": 304,
-  "SoundEx": "sit",
-  "Source": 641,
-  "TextId": 663,
-  "UpdatedDate": "2006-04-02T10:18:00.7074664+02:00",
-  "UpdatedCount": 882,
-  "Visibility": 283,
+  "Name": "Hessel Group",
+  "PostitTextId": 270,
+  "CreatedDate": "2003-05-14T13:13:32.3236535+02:00",
+  "SelectionId": 562,
+  "SoundEx": "autem",
+  "Source": 779,
+  "TextId": 634,
+  "UpdatedDate": "2024-11-26T13:13:32.3236535+01:00",
+  "UpdatedCount": 745,
+  "Visibility": 389,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 309,
-  "TargetTableName": "Bauch-Hayes",
+  "TargetTableNumber": 3,
+  "TargetTableName": "Schaden-Gusikowski",
   "Completed": false,
-  "LeftSelectionId": 381,
-  "RightSelectionId": 759,
+  "LeftSelectionId": 981,
+  "RightSelectionId": 289,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobson LLC",
-  "ShadowProviderName": "Walsh, Fadel and Beatty",
-  "ChartKey": "vitae",
-  "LastLoaded": "2000-04-09T10:18:00.7074664+02:00",
-  "LastLoadedBy": 425,
+  "MainProviderName": "Purdy, Bednar and Nicolas",
+  "ShadowProviderName": "Skiles Inc and Sons",
+  "ChartKey": "id",
+  "LastLoaded": "2017-07-16T13:13:32.3236535+02:00",
+  "LastLoadedBy": 779,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-09-30T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 114,
+  "LastMembershipChange": "2019-12-10T13:13:32.3236535+01:00",
+  "LastMembershipChangeBy": 695,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "iste",
-  "MemberTabHeading": "magni",
-  "MailingsProviderName": "Lemke-Krajcik",
-  "DashboardTileDefinitionId": 495,
+  "MainHeading": "est",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Mante, Boyle and Friesen",
+  "DashboardTileDefinitionId": 982,
   "VisibleFor": [
     {
-      "VisibleId": 401,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "eius"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 401,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "eius"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic well-modulated open system",
-  "Postit": "aut",
+  "Description": "Operative needs-based approach",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 560,
-  "IncludePerson": 265,
+  "GroupIdx": 98,
+  "IncludePerson": 883,
   "MemberCount": 99.99,
-  "Name": "Kovacek, Emmerich and Wilkinson",
-  "PostitTextId": 398,
-  "CreatedDate": "2010-12-02T10:18:00.7074664+01:00",
-  "SelectionId": 78,
-  "SoundEx": "eos",
-  "Source": 140,
-  "TextId": 84,
-  "UpdatedDate": "2020-09-20T10:18:00.7074664+02:00",
-  "UpdatedCount": 588,
-  "Visibility": 436,
+  "Name": "Roob-Rodriguez",
+  "PostitTextId": 428,
+  "CreatedDate": "2012-02-28T13:13:32.3236535+01:00",
+  "SelectionId": 568,
+  "SoundEx": "et",
+  "Source": 685,
+  "TextId": 475,
+  "UpdatedDate": "2014-12-15T13:13:32.3236535+01:00",
+  "UpdatedCount": 596,
+  "Visibility": 718,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 219,
-  "TargetTableName": "Brown LLC",
-  "Completed": true,
-  "LeftSelectionId": 345,
-  "RightSelectionId": 430,
+  "TargetTableNumber": 96,
+  "TargetTableName": "Ernser LLC",
+  "Completed": false,
+  "LeftSelectionId": 466,
+  "RightSelectionId": 83,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lubowitz Group",
-  "ShadowProviderName": "Bernier, Lang and Hyatt",
-  "ChartKey": "et",
-  "LastLoaded": "2020-09-15T10:18:00.7074664+02:00",
-  "LastLoadedBy": 310,
+  "MainProviderName": "Bernier, Corwin and Denesik",
+  "ShadowProviderName": "Cormier-Friesen",
+  "ChartKey": "velit",
+  "LastLoaded": "2005-02-26T13:13:32.3236535+01:00",
+  "LastLoadedBy": 588,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-08-11T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 783,
+  "LastMembershipChange": "2013-04-15T13:13:32.3236535+02:00",
+  "LastMembershipChangeBy": 133,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Ryan, Wilkinson and Nader",
-  "DashboardTileDefinitionId": 985,
+  "MainHeading": "ad",
+  "MemberTabHeading": "modi",
+  "MailingsProviderName": "Hermiston LLC",
+  "DashboardTileDefinitionId": 179,
   "VisibleFor": [
     {
-      "VisibleId": 882,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 227
         }
       }
     },
     {
-      "VisibleId": 882,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 227
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   },
   "_Links": {

@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 691
+  "QuickReplyId": 465
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ratke-Wolff",
-  "UpdatedByFullName": "Marcelina Pfeffer",
-  "Updated": "2001-11-20T10:17:55.3321476+01:00",
-  "HtmlBody": "voluptas",
+  "Name": "Dickens-Leuschke",
+  "UpdatedByFullName": "Glen Howe",
+  "Updated": "2020-12-09T13:13:22.5394847+01:00",
+  "HtmlBody": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

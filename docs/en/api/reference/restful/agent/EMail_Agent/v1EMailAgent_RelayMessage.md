@@ -69,16 +69,16 @@ No Content
 POST /api/v1/Agents/EMail/RelayMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "at",
-  "From": "magni",
+  "Rfc822": "autem",
+  "From": "et",
   "Recipients": [
-    "quis",
-    "iste"
+    "reiciendis",
+    "dolorum"
   ]
 }
 ```

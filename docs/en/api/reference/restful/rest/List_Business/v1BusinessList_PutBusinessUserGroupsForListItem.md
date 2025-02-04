@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Beer Inc and Sons",
-    "ToolTip": "Aut saepe eaque eius enim rerum qui qui.",
+    "Id": 593,
+    "Name": "Hilpert LLC",
+    "ToolTip": "Nostrum mollitia nobis ea saepe nulla ipsam mollitia.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "perspiciatis",
-    "ColorBlock": 774,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "2006-11-07T10:18:00.9418629+01:00",
+    "Rank": 144,
+    "Type": "minima",
+    "ColorBlock": 462,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2010-07-15T13:13:32.839316+02:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "Gaylord-Mann",
-        "ToolTip": "Est voluptas fuga facere aliquid earum soluta.",
+        "Id": 820,
+        "Name": "Schuppe, Thompson and Kuhn",
+        "ToolTip": "Et voluptate in ut.",
         "Deleted": false,
-        "Rank": 163,
-        "Type": "fugiat",
-        "ColorBlock": 216,
-        "IconHint": "est",
+        "Rank": 778,
+        "Type": "et",
+        "ColorBlock": 139,
+        "IconHint": "soluta",
         "Selected": true,
-        "LastChanged": "2013-09-05T10:18:00.9418629+02:00",
+        "LastChanged": "2024-03-14T13:13:32.839316+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "qui",
+        "ExtraInfo": "iste",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Dr. Velva Little"
+        "FullName": "Esperanza Pfannerstill"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "veniam",
-    "Hidden": false,
-    "FullName": "Sheldon Rippin"
+    "ExtraInfo": "velit",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Kade Corwin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Lebsack Inc and Sons",
-    "ToolTip": "Voluptatem aut harum esse omnis cupiditate tenetur fugit.",
+    "Id": 246,
+    "Name": "Trantow, Graham and Price",
+    "ToolTip": "Minima aperiam tempora esse quisquam.",
     "Deleted": true,
-    "Rank": 766,
-    "Type": "enim",
-    "ColorBlock": 830,
-    "IconHint": "magni",
-    "Selected": false,
-    "LastChanged": "2014-04-15T10:18:00.9418629+02:00",
+    "Rank": 199,
+    "Type": "ut",
+    "ColorBlock": 829,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2015-07-02T13:13:32.839316+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Luettgen-Orn",
-        "ToolTip": "Tempore ratione occaecati dolorum ducimus quidem rerum delectus.",
+        "Id": 100,
+        "Name": "Heidenreich-Rice",
+        "ToolTip": "Recusandae ut nisi totam.",
         "Deleted": false,
-        "Rank": 175,
-        "Type": "suscipit",
-        "ColorBlock": 417,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2001-03-05T10:18:00.9418629+01:00",
+        "Rank": 375,
+        "Type": "est",
+        "ColorBlock": 739,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2003-05-12T13:13:32.839316+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Jerel Prohaska",
+        "ExtraInfo": "magni",
+        "StyleHint": "illo",
+        "Hidden": true,
+        "FullName": "Nathaniel Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 110
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Ulices Padberg II",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Nia Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 355
       }
     }
   }

@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kirlin Group",
+  "ProviderName": "Wisoky, McCullough and Fadel",
   "Restrictions": [
     {
-      "Name": "Harber Inc and Sons",
-      "Operator": "odit",
+      "Name": "Klocko-Quigley",
+      "Operator": "eos",
       "Values": [
-        "dicta",
-        "qui"
+        "libero",
+        "saepe"
       ],
       "DisplayValues": [
-        "quam",
-        "expedita"
+        "ad",
+        "quibusdam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 93,
+      "InterParenthesis": 795,
       "InterOperator": "And",
-      "UniqueHash": 753
+      "UniqueHash": 526
     }
   ],
-  "AssociateId": 308,
-  "ExtraInfo": "placeat"
+  "AssociateId": 400,
+  "ExtraInfo": "quas"
 }
 ```
 

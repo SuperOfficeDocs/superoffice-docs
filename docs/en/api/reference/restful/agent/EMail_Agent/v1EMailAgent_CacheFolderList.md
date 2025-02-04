@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell, Halvorson and Bradtke",
-    "Delimiter": "impedit",
-    "Flags": "aspernatur",
-    "TotalItems": 249,
-    "UnreadItems": 585,
+    "Name": "Cassin, Zieme and Shields",
+    "Delimiter": "labore",
+    "Flags": "consequatur",
+    "TotalItems": 523,
+    "UnreadItems": 625,
     "Subscribed": false,
-    "EmailFolderId": 283,
+    "EmailFolderId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 707
       }
     }
   }

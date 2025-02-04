@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "odit",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quibusdam",
-  "SignOnText": "numquam",
-  "EventDate": "2004-09-11T10:17:55.8790557+02:00",
-  "Enabled": false,
-  "CreatedDate": "2008-07-06T10:17:55.8790557+02:00",
+  "SignOffConfirmationText": "velit",
+  "SignOffText": "nemo",
+  "SignOnConfirmationText": "beatae",
+  "SignOnText": "voluptatem",
+  "EventDate": "1999-02-27T13:13:23.6175382+01:00",
+  "Enabled": true,
+  "CreatedDate": "2007-09-11T13:13:23.6175382+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 696,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOffTaskId": 301,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 641,
+  "SignOnTaskId": 414,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2013-09-17T10:17:55.8790557+02:00",
+  "UpdatedDate": "2005-04-10T13:13:23.6175382+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 755,
-  "Id": 340,
-  "PublishFrom": "2003-05-17T10:17:55.8790557+02:00",
+  "ProjectId": 437,
+  "Id": 179,
+  "PublishFrom": "1998-09-15T13:13:23.633159+02:00",
   "PublishType": "External",
-  "PublishTo": "2008-12-06T10:17:55.8790557+01:00",
+  "PublishTo": "2022-02-26T13:13:23.633159+01:00",
   "VisibleForCategories": [
     {
-      "Id": 709,
-      "Name": "Bayer-Watsica",
-      "ToolTip": "Veniam libero illo.",
+      "Id": 288,
+      "Name": "Spinka Group",
+      "ToolTip": "Deleniti id ad.",
       "Deleted": false,
-      "Rank": 933,
-      "Type": "totam",
+      "Rank": 991,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 553,
-      "ExtraInfo": "aliquid",
-      "StyleHint": "vitae",
-      "FullName": "Manuel Ondricka",
+      "IconHint": "alias",
+      "ColorBlock": 500,
+      "ExtraInfo": "sapiente",
+      "StyleHint": "magnam",
+      "FullName": "Clay Dickinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 858
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 462,
-      "Name": "Beier-Douglas",
-      "ToolTip": "Non magnam explicabo reiciendis sunt fugit.",
-      "Deleted": false,
-      "Rank": 48,
-      "Type": "est",
+      "Id": 529,
+      "Name": "Hackett Group",
+      "ToolTip": "Esse ut natus ipsam.",
+      "Deleted": true,
+      "Rank": 764,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 379,
+      "IconHint": "ut",
+      "ColorBlock": 658,
       "ExtraInfo": "est",
-      "StyleHint": "fugiat",
-      "FullName": "Dr. Nicole Lehner",
+      "StyleHint": "minima",
+      "FullName": "Kiarra Grady",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 840
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 681,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 771,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldLength": 345
     }
   }
 }

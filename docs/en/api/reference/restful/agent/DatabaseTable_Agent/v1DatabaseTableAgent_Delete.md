@@ -83,10 +83,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fahey LLC",
+  "TableName": "Maggio, Jerde and Strosin",
   "IDs": [
-    749,
-    974
+    232,
+    864
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "est",
-  "Inserts": 289,
-  "Updates": 710,
-  "Deletes": 447,
+  "Message": "voluptatem",
+  "Inserts": 213,
+  "Updates": 371,
+  "Deletes": 756,
   "RowStatus": [
     {
-      "PrimaryKey": 886,
+      "PrimaryKey": 772,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "dolor"
+        "ut",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 433
         }
       }
     },
     {
-      "PrimaryKey": 886,
+      "PrimaryKey": 772,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "dolor"
+        "ut",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 433
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

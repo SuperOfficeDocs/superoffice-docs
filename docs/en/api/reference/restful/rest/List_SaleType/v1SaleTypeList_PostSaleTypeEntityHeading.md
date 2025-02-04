@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 766,
-  "Name": "Gerlach LLC",
-  "Tooltip": "est",
+  "HeadingId": 347,
+  "Name": "Harvey, Weber and Torp",
+  "Tooltip": "pariatur",
   "Deleted": true,
-  "Rank": 505,
-  "UdListDefinitionId": 782
+  "Rank": 571,
+  "UdListDefinitionId": 97
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 835,
-  "Name": "Welch-Carter",
-  "Tooltip": "voluptatibus",
+  "HeadingId": 364,
+  "Name": "DuBuque, Beier and Fahey",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 986,
-  "UdListDefinitionId": 553,
+  "Rank": 424,
+  "UdListDefinitionId": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldLength": 757
     }
   }
 }

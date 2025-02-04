@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Medhurst, Hane and Treutel",
-  "EmailAddress": "evangeline@bergecarroll.co.uk"
+  "Name": "Greenholt Inc and Sons",
+  "EmailAddress": "bette_mcclure@schoen.com"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 508,
-    "FullName": "Ottilie Daugherty",
-    "EmailAddress": "genevieve@bechtelar.name",
-    "ContactId": 749,
-    "ContactName": "Batz Inc and Sons",
+    "PersonId": 843,
+    "FullName": "Max Jast",
+    "EmailAddress": "ayla@champlin.info",
+    "ContactId": 272,
+    "ContactName": "Dietrich LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Paucek-Weimann",
+    "SortName": "Krajcik-Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   }

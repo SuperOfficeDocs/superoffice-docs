@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Ernser, Stehr and Kub",
-    "ToolTip": "Possimus accusamus ratione provident.",
-    "Deleted": true,
-    "Rank": 765,
-    "Type": "veniam",
-    "ColorBlock": 361,
-    "IconHint": "expedita",
+    "Id": 298,
+    "Name": "Predovic-Macejkovic",
+    "ToolTip": "Sapiente reiciendis eum inventore nesciunt quos id illum.",
+    "Deleted": false,
+    "Rank": 733,
+    "Type": "sit",
+    "ColorBlock": 792,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2004-01-24T10:18:01.0043667+01:00",
+    "LastChanged": "2004-11-18T13:13:33.042395+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Goldner Group",
-        "ToolTip": "Eaque molestiae cupiditate ad vero est.",
+        "Id": 671,
+        "Name": "Nader Group",
+        "ToolTip": "Occaecati nam iure omnis fugiat aut consequatur quia.",
         "Deleted": false,
-        "Rank": 19,
-        "Type": "a",
-        "ColorBlock": 604,
-        "IconHint": "qui",
+        "Rank": 361,
+        "Type": "et",
+        "ColorBlock": 97,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2002-08-29T10:18:01.0043667+02:00",
+        "LastChanged": "2010-10-22T13:13:33.042395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Dr. Andrew Emmie McCullough",
+        "ExtraInfo": "enim",
+        "StyleHint": "exercitationem",
+        "Hidden": true,
+        "FullName": "Zoie Katrine Weimann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 87
+            "FieldType": "System.Int32",
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "architecto",
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ignacio Roob",
+    "FullName": "Dr. Angelo Lila Ritchie Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 468
       }
     }
   }

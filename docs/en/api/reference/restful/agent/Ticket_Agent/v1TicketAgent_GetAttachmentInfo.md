@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 546
+  "TicketMessageEntityId": 596
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 485,
-    "Name": "Bode, Satterfield and Glover",
-    "ContentType": "distinctio",
-    "AttSize": 680,
+    "AttachmentId": 622,
+    "Name": "Kirlin-Grady",
+    "ContentType": "sed",
+    "AttSize": 715,
     "InlineImage": false,
-    "ContentId": "quod",
-    "AuthKey": "omnis",
+    "ContentId": "atque",
+    "AuthKey": "voluptatem",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 54
       }
     }
   }

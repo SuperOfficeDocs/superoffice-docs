@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,120 +129,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-04-24T10:17:54.9571243+02:00",
-  "AppointmentId": 629,
-  "Description": "Persistent explicit collaboration",
-  "Title": "consequuntur",
-  "Agenda": "et",
-  "InternalNotes": "sapiente",
-  "StartDate": "2021-01-01T10:17:54.9571243+01:00",
-  "EndDate": "2005-02-01T10:17:54.9571243+01:00",
+  "CreatedDate": "2012-07-27T13:13:21.7584183+02:00",
+  "AppointmentId": 396,
+  "Description": "Pre-emptive dynamic customer loyalty",
+  "Title": "et",
+  "Agenda": "omnis",
+  "InternalNotes": "recusandae",
+  "StartDate": "2018-10-08T13:13:21.7584183+02:00",
+  "EndDate": "2003-07-03T13:13:21.7584183+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 900,
+  "MotherId": 260,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-11-05T10:17:54.9571243+01:00",
+  "UpdatedDate": "2024-07-22T13:13:21.7739729+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 898,
+  "ActiveLinks": 990,
   "Links": [
     {
-      "EntityName": "Turcotte Group",
-      "Id": 532,
-      "Description": "Implemented homogeneous Graphic Interface",
-      "ExtraInfo": "in",
-      "LinkId": 718,
+      "EntityName": "Schinner-Halvorson",
+      "Id": 728,
+      "Description": "User-centric intangible paradigm",
+      "ExtraInfo": "incidunt",
+      "LinkId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldType": "System.String",
+          "FieldLength": 280
         }
       }
     }
   ],
-  "AlarmLeadTime": "error",
-  "HasAlarm": true,
-  "ColorIndex": 319,
-  "IsFree": true,
+  "AlarmLeadTime": "architecto",
+  "HasAlarm": false,
+  "ColorIndex": 374,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "accusantium",
-  "LeadTime": "amet",
-  "Location": "vitae",
-  "RejectCounter": 546,
+  "LagTime": "est",
+  "LeadTime": "dolorem",
+  "Location": "enim",
+  "RejectCounter": 378,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 506,
-      "PersonId": 547,
-      "ContactId": 336,
-      "EmailId": 783,
-      "SendEmail": false,
+      "AssociateId": 348,
+      "PersonId": 863,
+      "ContactId": 23,
+      "EmailId": 723,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "junior@langoshwintheiser.co.uk",
-      "Description": "Fundamental full-range policy"
+      "EmailAddress": "beth@hagenesgoodwin.us",
+      "Description": "Right-sized bandwidth-monitored secured line"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-08-14T10:17:54.9571243+02:00",
+  "ActiveDate": "2012-02-28T13:13:21.7739729+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 785,
+  "PreferredTZLocation": 782,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 260,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 194,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laudantium",
+  "CentralserviceVideomeetId": "commodi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Ferne Freida Crooks",
-    "SuperOffice:2": "1358188086"
+    "SuperOffice:1": "Dr. Maynard Bruen",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "fugit"
+    "CustomFields1": "et",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2007-07-11T10:17:54.9571243+02:00",
-  "PublishTo": "2003-12-05T10:17:54.9571243+01:00",
-  "PublishFrom": "2020-04-02T10:17:54.9571243+02:00",
+  "PublishEventDate": "2002-05-24T13:13:21.7739729+02:00",
+  "PublishTo": "2021-07-19T13:13:21.7739729+02:00",
+  "PublishFrom": "2010-01-30T13:13:21.7739729+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 812,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 521
         }
       }
     },
     {
-      "VisibleId": 812,
+      "VisibleId": 603,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 521
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldLength": 82
     }
   }
 }

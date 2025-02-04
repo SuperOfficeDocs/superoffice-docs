@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 590,
-    "Name": "Parker, Jacobs and Tromp",
-    "Tooltip": "aliquid",
-    "SaveInDb": 777,
-    "Filename": "non",
-    "DefaultOref": "veritatis",
+    "DocumentTemplateId": 131,
+    "Name": "Marks, Doyle and Bernhard",
+    "Tooltip": "ipsum",
+    "SaveInDb": 887,
+    "Filename": "odio",
+    "DefaultOref": "eum",
     "RecordType": "Appointment",
-    "Deleted": 759,
+    "Deleted": 467,
     "Direction": "Incoming",
-    "AutoeventId": 937,
+    "AutoeventId": 510,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   }

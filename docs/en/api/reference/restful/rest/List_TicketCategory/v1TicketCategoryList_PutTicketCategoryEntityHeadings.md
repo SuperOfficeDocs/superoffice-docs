@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 625,
-    "Name": "Haag-Mante",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 794,
-    "UdListDefinitionId": 344
+    "HeadingId": 423,
+    "Name": "Macejkovic Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 691,
+    "UdListDefinitionId": 587
   },
   {
-    "HeadingId": 625,
-    "Name": "Haag-Mante",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 794,
-    "UdListDefinitionId": 344
+    "HeadingId": 423,
+    "Name": "Macejkovic Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 691,
+    "UdListDefinitionId": 587
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Krajcik-Ernser",
-    "Tooltip": "maxime",
-    "Deleted": false,
-    "Rank": 527,
-    "UdListDefinitionId": 173,
+    "HeadingId": 429,
+    "Name": "Simonis-Olson",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 293,
+    "UdListDefinitionId": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

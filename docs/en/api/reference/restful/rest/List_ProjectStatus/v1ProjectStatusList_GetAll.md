@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 960,
-    "Name": "Sawayn-Herman",
-    "Tooltip": "aut",
+    "Id": 816,
+    "Name": "Cummerata LLC",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 327,
+    "UdListDefinitionId": 72,
+    "Rank": 681,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldLength": 342
       }
     }
   }

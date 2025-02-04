@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Reichert-Aufderhar",
-      "Operator": "dolores",
+      "Name": "Willms Group",
+      "Operator": "ea",
       "Values": [
-        "inventore",
-        "rem"
+        "ut",
+        "nulla"
       ],
       "DisplayValues": [
-        "impedit",
-        "illum"
+        "et",
+        "debitis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 744,
+      "InterParenthesis": 556,
       "InterOperator": "And",
-      "UniqueHash": 774
+      "UniqueHash": 238
     }
   ],
-  "ProviderName": "Wiegand, Parisian and Kemmer",
-  "PageSize": 554,
-  "PageNumber": 409
+  "ProviderName": "Breitenberg Inc and Sons",
+  "PageSize": 907,
+  "PageNumber": 833
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Langosh, Toy and Ritchie",
-      "DisplayTooltip": "eos",
-      "DisplayType": "laboriosam",
+      "DisplayName": "Turner, Nolan and Berge",
+      "DisplayTooltip": "qui",
+      "DisplayType": "minus",
       "CanOrderBy": false,
-      "Name": "Wiegand, Deckow and Simonis",
-      "CanRestrictBy": false,
-      "RestrictionType": "officiis",
-      "RestrictionListName": "Johns Inc and Sons",
+      "Name": "Braun Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "dolorem",
+      "RestrictionListName": "Zboncak-Kreiger",
       "IsVisible": false,
-      "ExtraInfo": "ratione",
-      "Width": "repudiandae",
-      "IconHint": "tempora",
-      "HeadingIconHint": "ipsam"
+      "ExtraInfo": "sed",
+      "Width": "corporis",
+      "IconHint": "dolorum",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Maggio LLC",
-      "PrimaryKey": 840,
+      "EntityName": "Daugherty, Tremblay and Hauck",
+      "PrimaryKey": 810,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minus",
-          "TooltipHint": "molestias",
-          "LinkHint": "rem"
+          "DisplayValue": "totam",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "provident",
-      "StyleHint": "ea",
+      "LinkHint": "minus",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 999
         }
       }
     }
   ],
-  "RowCount": 937,
+  "RowCount": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

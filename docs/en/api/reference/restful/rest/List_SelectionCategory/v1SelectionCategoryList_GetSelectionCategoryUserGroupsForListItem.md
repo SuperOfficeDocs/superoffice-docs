@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Heaney-Thompson",
-    "ToolTip": "Libero sunt dolorem.",
+    "Id": 213,
+    "Name": "Johnson-Skiles",
+    "ToolTip": "Sit enim nobis excepturi cupiditate aut.",
     "Deleted": false,
-    "Rank": 858,
-    "Type": "voluptatum",
-    "ColorBlock": 899,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2022-07-27T10:18:01.1762521+02:00",
+    "Rank": 249,
+    "Type": "ut",
+    "ColorBlock": 363,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2002-07-30T13:13:33.5891415+02:00",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Mills-Jacobs",
-        "ToolTip": "Beatae nobis sed.",
-        "Deleted": true,
-        "Rank": 135,
-        "Type": "veritatis",
-        "ColorBlock": 305,
-        "IconHint": "sit",
+        "Id": 359,
+        "Name": "Ferry-Rodriguez",
+        "ToolTip": "Facilis dolores ipsum qui architecto dicta sapiente.",
+        "Deleted": false,
+        "Rank": 113,
+        "Type": "natus",
+        "ColorBlock": 289,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2001-04-09T10:18:01.1762521+02:00",
+        "LastChanged": "2021-06-26T13:13:33.5891415+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "quia",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Abigale Jovani Nicolas",
+        "FullName": "Mr. Antone Alek Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 491
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "vitae",
+    "ExtraInfo": "ut",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Pedro Hahn PhD",
+    "FullName": "Chelsie Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 573
       }
     }
   }

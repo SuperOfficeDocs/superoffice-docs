@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Brakus, Schultz and Predovic",
-    "ToolTip": "Et animi.",
-    "Deleted": false,
-    "Rank": 639,
-    "Type": "unde",
-    "ColorBlock": 752,
+    "Id": 205,
+    "Name": "Pagac Inc and Sons",
+    "ToolTip": "Et provident.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "ut",
+    "ColorBlock": 888,
     "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2017-10-20T10:18:00.9731148+02:00",
+    "Selected": true,
+    "LastChanged": "2016-02-01T13:13:32.9486673+01:00",
     "ChildItems": [
       {
-        "Id": 567,
-        "Name": "Zulauf Group",
-        "ToolTip": "Voluptatem voluptas quae et ea ut error.",
-        "Deleted": true,
-        "Rank": 110,
-        "Type": "temporibus",
-        "ColorBlock": 558,
-        "IconHint": "vitae",
+        "Id": 985,
+        "Name": "Shanahan, Cartwright and Kautzer",
+        "ToolTip": "Officiis enim consequatur sit non temporibus.",
+        "Deleted": false,
+        "Rank": 432,
+        "Type": "eligendi",
+        "ColorBlock": 851,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2001-08-30T10:18:00.9731148+02:00",
+        "LastChanged": "2017-09-25T13:13:32.9486673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "ullam",
+        "ExtraInfo": "in",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Ms. Isai Weston Crist II",
+        "FullName": "Destin Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 350
+            "FieldType": "System.String",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "alias",
+    "ExtraInfo": "qui",
+    "StyleHint": "vero",
     "Hidden": true,
-    "FullName": "Alfred Lehner",
+    "FullName": "Kavon King Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 202
       }
     }
   }

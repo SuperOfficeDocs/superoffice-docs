@@ -18,9 +18,9 @@ Activity archive provider for the Company card
 | Name | Description |
 | ---- | ----- |
 |"chat"|Chat session|
-|"formSubmission"|Form submissions|
 |"appointment"|Follow-ups|
 |"document"|Documents|
+|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
 
 ## Supported Columns
@@ -481,23 +481,17 @@ Activity archive provider for the Company card
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionFormId|int|Id: Id of the form| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
-|time| *None* |Time: Time|  |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
-|associate/associateDbId|associate|ID| x |
 |participating|bool|Participating?: Am I among the participants in a meeting?|  |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|time| *None* |Time: Time|  |
 |recordType|string|Record type : Shows the record type| x |
 |projectId|listAny|Project ID: Database ID of project record| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |userGroup|userGroup|User group : The user group that owns the record| x |
 |who| *None* |Who: Contact and/or company|  |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointmentId|int|DB ID: Displays the database ID of a row| x |
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -541,16 +535,16 @@ Activity archive provider for the Company card
 |project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
 |project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/registeredBy|associate|Registered by: The user who registered the data| x |
 |project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -645,16 +639,16 @@ Activity archive provider for the Company card
 |sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |sale/contactId|listAny|Company ID: Database ID of company| x |
 |sale/personId|listAny|Contact ID: Database ID of the contact row| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/projectId|listAny|Project ID: Database ID of project record| x |
 |sale/saleId|int|Sale ID: The database ID of the sale record| x |
 |sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |sale/who| *None* |Who: Contact and/or company|  |
 |sale/updatedBy|associate|Updated by: The user who last updated the data| x |
 |sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |sale/registeredBy|associate|Registered by: The user who registered the data| x |
 |sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
@@ -737,6 +731,7 @@ Activity archive provider for the Company card
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
+|associate/associateDbId|associate|ID| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
@@ -749,15 +744,15 @@ Activity archive provider for the Company card
 |documentId|int|Document ID: Database ID of document record| x |
 |keywords|string|Keywords | x |
 |ourref|string|Our ref.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |yourref|string|Your ref.| x |
 |attention|string|Salutation| x |
 |subject|string|Subject| x |
 |name|string|File name | x |
 |mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
 |isReport|bool|Report: Is this document a saved report run?|  |
 |suggestedDocumentId|int|Document ID (suggestion: The database ID of a document that originates in a suggestion| x |
@@ -776,6 +771,11 @@ Activity archive provider for the Company card
 |documentUdef/SuperOffice:8|decimal|documentdecimal| x |
 |document/textId|int|Text ID| x |
 |document/description|positiveString|Text: Displays the text entered in the description field| x |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionFormId|int|Id: Id of the form| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -1191,7 +1191,7 @@ Activity archive provider for the Company card
 |mailingAddr/person/legalBaseEmarketing|listAny|Contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |mailingAddr/person/consentSourceStore|listAny|Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |mailingAddr/person/consentSourceEmarketing|listAny|Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -1254,7 +1254,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=person/personPager/formattedNumber,person/personUdef/SuperOffice:2,person/personExtra/x_person_user_relation,contact/department,mailingDeleted
+GET /api/v1/archive/ContactActivity?$select=person/personExtra/x_person_category_relation,contact/contactPhone/formattedNumber,contact/NumberOfNotCompletedSales,project/description,sale/time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

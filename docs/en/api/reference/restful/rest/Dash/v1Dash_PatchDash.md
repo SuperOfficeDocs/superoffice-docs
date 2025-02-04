@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 593,
-  "UniqueId": "aliquam",
-  "Name": "Bauch Inc and Sons",
-  "Description": "Seamless next generation toolset",
-  "AssociateId": 677,
-  "Columns": 403,
+  "DashboardId": 125,
+  "UniqueId": "id",
+  "Name": "Wiegand, Batz and Deckow",
+  "Description": "Synergistic discrete circuit",
+  "AssociateId": 96,
+  "Columns": 947,
   "Theme": null,
-  "VisibleForAll": 824,
+  "VisibleForAll": 753,
   "VisibleForAssociates": [
-    260,
-    400
+    945,
+    595
   ],
   "VisibleForGroups": [
-    145,
-    309
+    523,
+    904
   ],
-  "PinForAll": 980,
+  "PinForAll": 714,
   "PinForAssociates": [
-    933,
-    695
+    495,
+    579
   ],
   "PinForGroups": [
-    914,
-    555
+    391,
+    572
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   },
   "_Links": {

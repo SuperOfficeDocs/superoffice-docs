@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=eos
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=accusantium
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Lehner, Quigley and Halvorson",
-    "ToolTip": "Praesentium rerum quia molestiae.",
-    "Deleted": true,
-    "Rank": 498,
-    "Type": "doloribus",
+    "Id": 158,
+    "Name": "Rempel-Gibson",
+    "ToolTip": "Est et provident.",
+    "Deleted": false,
+    "Rank": 671,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Cormier-Predovic",
-        "ToolTip": "Accusantium est rem neque quo vero quis dolorem.",
-        "Deleted": true,
-        "Rank": 116,
-        "Type": "nobis",
+        "Id": 908,
+        "Name": "Wyman Group",
+        "ToolTip": "Totam id.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 491,
-        "ExtraInfo": "quidem",
-        "StyleHint": "quod",
-        "FullName": "Alta Boehm",
+        "IconHint": "at",
+        "ColorBlock": 237,
+        "ExtraInfo": "est",
+        "StyleHint": "veritatis",
+        "FullName": "Claire Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 371
+            "FieldLength": 855
           }
         }
       }
     ],
-    "IconHint": "natus",
-    "ColorBlock": 657,
-    "ExtraInfo": "quis",
-    "StyleHint": "suscipit",
-    "FullName": "Oren Hagenes",
+    "IconHint": "repellat",
+    "ColorBlock": 204,
+    "ExtraInfo": "vitae",
+    "StyleHint": "consequatur",
+    "FullName": "Katrine Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 35
+        "FieldType": "System.Int32",
+        "FieldLength": 12
       }
     }
   }

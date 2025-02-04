@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 621,
-  "Name": "Kuhlman, Monahan and Windler",
-  "PersonId": 10,
-  "Rank": 595,
-  "Tooltip": "totam",
+  "AssociateId": 490,
+  "Name": "Prohaska-Jacobi",
+  "PersonId": 492,
+  "Rank": 488,
+  "Tooltip": "et",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 242,
-  "FullName": "Rasheed Grimes",
-  "FormalName": "Sipes, Dietrich and Ziemann",
-  "Deleted": true,
-  "EjUserId": 542,
-  "UserName": "Murray-Kerluke",
+  "GroupIdx": 110,
+  "FullName": "Frederik Prosacco",
+  "FormalName": "Kuhlman-Corwin",
+  "Deleted": false,
+  "EjUserId": 289,
+  "UserName": "Harris LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 441
     }
   }
 }

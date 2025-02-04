@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Oct 2013 10:18:00 G10T
+Last-Modified: Mon, 03 Mar 2008 13:13:31 G3T
 
 {
-  "BlobId": 974,
-  "BlobSize": 722,
-  "Description": "Cross-platform responsive model",
-  "ExtraInfo": "nostrum",
+  "BlobId": 886,
+  "BlobSize": 843,
+  "Description": "Proactive global middleware",
+  "ExtraInfo": "voluptate",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 353,
-  "CreatedDate": "2017-06-08T10:18:00.5199623+02:00",
-  "UpdatedDate": "2013-10-11T10:18:00.5199623+02:00",
+  "MimeType": "quidem",
+  "OriginalSize": 752,
+  "CreatedDate": "2006-08-12T13:13:31.9644289+02:00",
+  "UpdatedDate": "2008-03-03T13:13:31.9644289+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "provident",
+  "ConceptualType": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 860
     }
   }
 }

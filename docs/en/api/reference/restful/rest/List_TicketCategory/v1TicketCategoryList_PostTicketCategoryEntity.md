@@ -103,28 +103,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 291,
-  "ParentId": 355,
-  "Name": "Lindgren, Moore and McGlynn",
-  "Fullname": "ut",
-  "CategoryMaster": 197,
+  "TicketCategoryId": 850,
+  "ParentId": 42,
+  "Name": "Kreiger, Quitzon and McKenzie",
+  "Fullname": "quo",
+  "CategoryMaster": 435,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hoppe Group",
+  "ExternalName": "Price-Rippin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 219,
-  "ReplyTemplate": 847,
-  "NotificationEmail": "kaleigh@creminboyer.us",
+  "AssignmentLag": 166,
+  "ReplyTemplate": 509,
+  "NotificationEmail": "eriberto@abbott.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 95,
+  "EffectiveReplyTemplateId": 643,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
+    "CustomFields1": "cupiditate",
     "CustomFields2": "iste"
   }
 }
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 745,
-  "ParentId": 657,
-  "Name": "Corkery-Mills",
-  "Fullname": "aspernatur",
-  "CategoryMaster": 33,
+  "TicketCategoryId": 497,
+  "ParentId": 220,
+  "Name": "Stehr Group",
+  "Fullname": "placeat",
+  "CategoryMaster": 313,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dickens Inc and Sons",
+  "ExternalName": "Walter Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 926,
-  "ReplyTemplate": 208,
-  "NotificationEmail": "leta.crona@pfeffer.biz",
+  "AssignmentLag": 220,
+  "ReplyTemplate": 826,
+  "NotificationEmail": "caden@gislason.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 761,
+  "EffectiveReplyTemplateId": 74,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "in",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "nam"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "veniam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 682
     }
   }
 }

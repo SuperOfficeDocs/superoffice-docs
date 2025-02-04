@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 81,
-  "Name": "Bailey-Waters",
-  "Tooltip": "quibusdam",
+  "Id": 483,
+  "Name": "Mohr, McCullough and Hilll",
+  "Tooltip": "excepturi",
   "Deleted": true,
-  "UdListDefinitionId": 567,
-  "Rank": 483,
+  "UdListDefinitionId": 685,
+  "Rank": 752,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 983
     }
   }
 }

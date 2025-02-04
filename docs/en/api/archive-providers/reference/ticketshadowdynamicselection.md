@@ -762,7 +762,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=status,createdBy/assocName,person/kanaLastName,person/personAssociate/contactName,contact/business
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=timeSpentExternally,person/personAssociate/personId,person/personAssociate/locationAddress,person/correspondingAssociate/userName,contact/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

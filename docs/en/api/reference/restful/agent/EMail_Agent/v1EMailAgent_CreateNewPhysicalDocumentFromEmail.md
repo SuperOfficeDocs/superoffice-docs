@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 235,
-  "EmailItemId": 522
+  "DocumentId": 755,
+  "EmailItemId": 710
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 421,
+  "DocumentId": 986,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "ex",
-  "Name": "Kling, Powlowski and Ebert",
-  "OurRef": "deserunt",
-  "YourRef": "voluptate",
-  "CreatedDate": "2011-11-27T10:17:55.5665368+01:00",
-  "UpdatedDate": "2004-07-16T10:17:55.5665368+02:00",
-  "Description": "Upgradable optimizing success",
+  "Attention": "dolorem",
+  "Header": "dolore",
+  "Name": "Blick Group",
+  "OurRef": "quibusdam",
+  "YourRef": "ipsa",
+  "CreatedDate": "2020-11-03T13:13:22.9771254+01:00",
+  "UpdatedDate": "2015-10-01T13:13:22.9771254+02:00",
+  "Description": "Self-enabling transitional approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-11-04T10:17:55.5665368+01:00",
-  "ExternalRef": "velit",
+  "Date": "2013-01-09T13:13:22.9771254+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 831,
+  "ActiveLinks": 566,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ward Group",
-      "Id": 825,
-      "Description": "Extended foreground matrices",
-      "ExtraInfo": "molestias",
-      "LinkId": 432,
+      "EntityName": "Walter Group",
+      "Id": 848,
+      "Description": "Ergonomic impactful protocol",
+      "ExtraInfo": "adipisci",
+      "LinkId": 803,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 84
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 501,
-  "Snum": 541,
+  "SuggestedDocumentId": 891,
+  "Snum": 305,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jewel Marquardt",
-    "SuperOffice:2": "Effie Kirlin"
+    "SuperOffice:1": "2016935932",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "odit",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "soluta",
+    "CustomFields2": "minima"
   },
-  "PublishEventDate": "2022-03-03T10:17:55.5665368+01:00",
-  "PublishTo": "2011-12-14T10:17:55.5665368+01:00",
-  "PublishFrom": "2004-10-26T10:17:55.5665368+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-11-03T13:13:22.9771254+01:00",
+  "PublishTo": "2018-03-20T13:13:22.9771254+01:00",
+  "PublishFrom": "2008-01-08T13:13:22.9771254+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 512,
+      "VisibleId": 219,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 366
         }
       }
     },
     {
-      "VisibleId": 512,
+      "VisibleId": 219,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 366
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

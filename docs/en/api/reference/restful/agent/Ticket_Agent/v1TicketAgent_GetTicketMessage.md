@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=864
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=781
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 759,
-  "CreatedAt": "2018-06-23T10:17:56.2697028+02:00",
+  "TicketMessageId": 899,
+  "CreatedAt": "2023-01-28T13:13:24.3840577+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "neque",
-  "PersonId": 275,
-  "PersonFullName": "Claude Lueilwitz",
-  "ContactId": 980,
-  "ContactName": "Becker Inc and Sons",
+  "Author": "id",
+  "PersonId": 95,
+  "PersonFullName": "Laurie Thompson",
+  "ContactId": 540,
+  "ContactName": "Sawayn Group",
   "ContactDepartment": "",
-  "NumAttachments": 736,
-  "EmailHeader": "zelda@pfannerstill.info",
+  "NumAttachments": 272,
+  "EmailHeader": "hope_veum@williamson.name",
   "MessageHeaders": [
     {
-      "Id": 503,
-      "Name": "Senger Group",
-      "Value": "occaecati",
+      "Id": 592,
+      "Name": "Hilpert-Herman",
+      "Value": "dolor",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 250
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
   ],
-  "Language": "quia",
-  "Sentiment": 752,
-  "SentimentConfidence": 820,
-  "CreatedBy": 920,
-  "ChangedAt": "2015-08-14T10:17:56.2697028+02:00",
+  "Language": "nobis",
+  "Sentiment": 438,
+  "SentimentConfidence": 845,
+  "CreatedBy": 821,
+  "ChangedAt": "2018-02-06T13:13:24.3840577+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

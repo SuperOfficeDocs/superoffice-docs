@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 300,
-  "Rank": 820
+  "Id": 972,
+  "Name": "Stroman, Bruen and Anderson",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "UdListDefinitionId": 947,
+  "Rank": 851
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Marks Group",
-  "Tooltip": "saepe",
+  "Id": 11,
+  "Name": "Heller Inc and Sons",
+  "Tooltip": "exercitationem",
   "Deleted": true,
-  "UdListDefinitionId": 313,
-  "Rank": 805,
+  "UdListDefinitionId": 458,
+  "Rank": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldLength": 460
     }
   }
 }

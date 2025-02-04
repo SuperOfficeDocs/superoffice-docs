@@ -91,18 +91,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 948,
-  "EMailAddress": "quia",
-  "AssociateId": 90,
+  "EMailAccountId": 613,
+  "EMailAddress": "quisquam",
+  "AssociateId": 68,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 429,
-  "ErrorCount": 145,
+  "AccountStatus": 373,
+  "ErrorCount": 97,
   "ErrorReason": "",
-  "InboxFolder": "omnis",
-  "SentFolder": "non",
-  "SimpleMode": 941,
-  "LastFetch": "2004-05-31T10:17:55.5665368+02:00"
+  "InboxFolder": "et",
+  "SentFolder": "minus",
+  "SimpleMode": 570,
+  "LastFetch": "2017-08-22T13:13:22.9927476+02:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 681,
-  "EMailAddress": "porro",
-  "AssociateId": 764,
+  "EMailAccountId": 225,
+  "EMailAddress": "debitis",
+  "AssociateId": 424,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 717,
-  "ErrorCount": 918,
+  "AccountStatus": 263,
+  "ErrorCount": 286,
   "ErrorReason": "",
-  "InboxFolder": "sint",
-  "SentFolder": "magnam",
-  "SimpleMode": 558,
-  "LastFetch": "2012-04-26T10:17:55.5665368+02:00",
+  "InboxFolder": "accusamus",
+  "SentFolder": "rem",
+  "SimpleMode": 394,
+  "LastFetch": "2017-09-12T13:13:22.9927476+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

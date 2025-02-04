@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Metz Inc and Sons",
-    "ToolTip": "Culpa ab.",
-    "Deleted": false,
-    "Rank": 674,
-    "Type": "omnis",
-    "ColorBlock": 333,
-    "IconHint": "quaerat",
+    "Id": 987,
+    "Name": "Lebsack LLC",
+    "ToolTip": "Est sunt minima neque dolor ipsa dolore odio.",
+    "Deleted": true,
+    "Rank": 783,
+    "Type": "vel",
+    "ColorBlock": 413,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2021-12-11T10:18:00.9418629+01:00",
+    "LastChanged": "2015-11-15T13:13:32.8549388+01:00",
     "ChildItems": [
       {
-        "Id": 352,
-        "Name": "Braun-Murray",
-        "ToolTip": "Est consectetur soluta dicta.",
+        "Id": 677,
+        "Name": "Gleason, Kessler and Lueilwitz",
+        "ToolTip": "Voluptates ut dolores adipisci aperiam ipsum.",
         "Deleted": true,
-        "Rank": 811,
-        "Type": "corrupti",
-        "ColorBlock": 818,
-        "IconHint": "est",
+        "Rank": 875,
+        "Type": "minus",
+        "ColorBlock": 37,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2019-09-10T10:18:00.9418629+02:00",
+        "LastChanged": "2010-09-27T13:13:32.8549388+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "iure",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Danyka Runolfsdottir",
+        "FullName": "Avis Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 57
+            "FieldType": "System.Int32",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Natasha Aufderhar",
+    "ExtraInfo": "sint",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Amaya Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 648
+        "FieldLength": 456
       }
     }
   }

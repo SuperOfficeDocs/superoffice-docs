@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 445,
+  "TargetDimensionId": 76,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "corporis",
-  "DimensionListName": "Walter, Hessel and Cartwright",
-  "DimensionListId": 433,
-  "DimensionListLabel": "odio",
+  "DimensionListField": "ipsa",
+  "DimensionListName": "Ledner-Olson",
+  "DimensionListId": 545,
+  "DimensionListLabel": "ducimus",
   "SelectedDimensions": [
-    919,
-    388
+    170,
+    778
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 882
     }
   }
 }

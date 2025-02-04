@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 770,
-  "Name": "Beer-Green",
-  "TZLocationCode": "a",
-  "TZLocationCities": "harum",
-  "IsoNumber": 74,
+  "TZLocationID": 977,
+  "Name": "Hamill, Bradtke and Senger",
+  "TZLocationCode": "odit",
+  "TZLocationCities": "sit",
+  "IsoNumber": 378,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 170,
-      "StartMonth": 55,
-      "EndDay": 507,
-      "EndMonth": 143,
-      "TZOffset": 305,
-      "StartRulePattern": "placeat",
-      "EndRulePattern": "harum"
+      "StartDay": 613,
+      "StartMonth": 483,
+      "EndDay": 677,
+      "EndMonth": 427,
+      "TZOffset": 550,
+      "StartRulePattern": "commodi",
+      "EndRulePattern": "autem"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 950,
-      "StartMonth": 688,
-      "EndDay": 313,
-      "EndMonth": 310,
-      "TZOffset": 552,
-      "StartRulePattern": "explicabo",
-      "EndRulePattern": "voluptas"
+      "StartDay": 915,
+      "StartMonth": 849,
+      "EndDay": 665,
+      "EndMonth": 304,
+      "TZOffset": 190,
+      "StartRulePattern": "id",
+      "EndRulePattern": "veritatis"
     }
   }
 }

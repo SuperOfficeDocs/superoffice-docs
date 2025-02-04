@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "delectus",
+    "path": "nesciunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "delectus",
+    "path": "nesciunt",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 372,
-  "Name": "Feest Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "RoleId": 501,
+  "Name": "Bednar LLC",
+  "Tooltip": "consequuntur",
   "RoleType": "Anonymous",
-  "Deleted": 793,
-  "Rank": 172,
-  "Created": "2012-10-26T10:18:00.5355883+02:00",
-  "UseCategories": 150,
+  "Deleted": 344,
+  "Rank": 764,
+  "Created": "2020-06-25T13:13:31.9956719+02:00",
+  "UseCategories": 495,
   "CreatedBy": null,
-  "Updated": "2002-08-06T10:18:00.5355883+02:00",
+  "Updated": "2013-04-24T13:13:31.9956719+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 482
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

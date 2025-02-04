@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 387,
+  "EmailId": 730,
   "AttachmentIds": [
-    "consequatur",
-    "deleniti"
+    "sed",
+    "voluptatibus"
   ],
   "IncludeAttachments": false
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 848,
-      "ContactName": "Rohan-Stiedemann",
-      "PersonId": 26,
-      "PersonName": "Schowalter, Ratke and McGlynn",
-      "AssociateId": 532,
-      "Address": "enim",
-      "EmailId": 911,
+      "ContactId": 918,
+      "ContactName": "Nienow, Hartmann and West",
+      "PersonId": 846,
+      "PersonName": "Wunsch, Schimmel and Brakus",
+      "AssociateId": 159,
+      "Address": "architecto",
+      "EmailId": 813,
       "DuplicatePersonIds": [
-        791,
-        963
+        411,
+        964
       ],
-      "Name": "Cole-Larkin",
+      "Name": "Harvey, Hamill and Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 407
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 693,
-      "ContactName": "Schimmel-Skiles",
-      "PersonId": 687,
-      "PersonName": "Watsica, Willms and Huels",
-      "AssociateId": 989,
-      "Address": "aut",
-      "EmailId": 816,
+      "ContactId": 157,
+      "ContactName": "Ratke-Hoeger",
+      "PersonId": 730,
+      "PersonName": "Prosacco, Fisher and Bradtke",
+      "AssociateId": 681,
+      "Address": "corrupti",
+      "EmailId": 808,
       "DuplicatePersonIds": [
-        721,
-        249
+        420,
+        392
       ],
-      "Name": "Medhurst, Johnson and Bogan",
+      "Name": "Will Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 901,
-      "ContactName": "Bernhard-Bernier",
-      "PersonId": 959,
-      "PersonName": "Steuber-Lesch",
-      "AssociateId": 507,
-      "Address": "eum",
-      "EmailId": 338,
+      "ContactId": 377,
+      "ContactName": "Block-Schuppe",
+      "PersonId": 740,
+      "PersonName": "Schuster-Smith",
+      "AssociateId": 155,
+      "Address": "aut",
+      "EmailId": 834,
       "DuplicatePersonIds": [
-        733,
-        931
+        937,
+        49
       ],
-      "Name": "Strosin, Hand and Pfeffer",
+      "Name": "Willms Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldType": "System.Int32",
+          "FieldLength": 453
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "beatae",
+  "Subject": "modi",
+  "HTMLBody": "officiis",
   "From": null,
-  "Sent": "2014-01-26T10:17:55.5977887+01:00",
-  "Size": 762,
+  "Sent": "2017-11-10T13:13:23.055223+01:00",
+  "Size": 275,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "repellat",
+  "MessageID": "voluptatum",
+  "PlainBody": "id",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 693,
+  "ServerId": 325,
   "Attachments": [
     {
-      "Description": "Advanced value-added migration",
-      "Filename": "tempora",
-      "Size": 869,
-      "Type": "quia",
-      "Encoding": "in",
-      "Id": "et",
-      "Disposition": "sed",
+      "Description": "Team-oriented interactive contingency",
+      "Filename": "voluptas",
+      "Size": 737,
+      "Type": "ut",
+      "Encoding": "magnam",
+      "Id": "fuga",
+      "Disposition": "vel",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,58 +225,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 704
+          "FieldLength": 785
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feil, Grimes and Effertz",
+      "Name": "Graham-O'Keefe",
       "Values": [
-        "perferendis",
-        "quae"
+        "rerum",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     },
     {
-      "Name": "Feil, Grimes and Effertz",
+      "Name": "Graham-O'Keefe",
       "Values": [
-        "perferendis",
-        "quae"
+        "rerum",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
+          "FieldType": "System.Int32",
+          "FieldLength": 687
         }
       }
     }
   ],
-  "FolderName": "Schmeler Inc and Sons",
-  "EmailItemId": 632,
-  "AccountId": 936,
-  "ReceivedAt": "2012-05-11T10:17:55.5977887+02:00",
+  "FolderName": "Parker-Kertzmann",
+  "EmailItemId": 4,
+  "AccountId": 136,
+  "ReceivedAt": "2024-07-31T13:13:23.0708443+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-06-09T10:17:55.5977887+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2017-04-10T13:13:23.0708443+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

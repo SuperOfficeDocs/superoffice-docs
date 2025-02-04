@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Wolff Inc and Sons",
-  "AssociateId": 673,
-  "DetailsTable": 308,
-  "DetailsRecord": 486,
+  "Id": 927,
+  "Name": "Reilly Group",
+  "AssociateId": 483,
+  "DetailsTable": 844,
+  "DetailsRecord": 65,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "id",
-    "ParameterObject2": "omnis"
+    "ParameterObject1": "nulla",
+    "ParameterObject2": "eos"
   },
-  "LastStarted": "2012-03-11T10:17:55.1290102+01:00",
-  "Created": "2014-04-05T10:17:55.1290102+02:00",
-  "StartCount": 516,
-  "DatabaseSerialNumber": "1277742",
-  "Context": "veritatis",
-  "Result": "dolores",
+  "LastStarted": "2008-01-06T13:13:22.133333+01:00",
+  "Created": "2015-09-27T13:13:22.133333+02:00",
+  "StartCount": 39,
+  "DatabaseSerialNumber": "1550755",
+  "Context": "occaecati",
+  "Result": "aut",
   "State": "All",
-  "Description": "Persevering leading edge intranet",
-  "Response": "ex",
-  "Request": "quo",
-  "ProgressDescription": "Inverse methodical Graphic Interface",
-  "ProgressPercent": 821,
-  "FileName": "Ward-Howe",
+  "Description": "Focused responsive knowledge user",
+  "Response": "est",
+  "Request": "harum",
+  "ProgressDescription": "Distributed systemic secured line",
+  "ProgressPercent": 237,
+  "FileName": "Christiansen-O'Hara",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 846
     }
   }
 }

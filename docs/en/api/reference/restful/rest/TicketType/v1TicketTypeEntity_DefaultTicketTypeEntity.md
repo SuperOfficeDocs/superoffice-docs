@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 796,
-  "Name": "Upton-Goodwin",
-  "Rank": 281,
-  "Tooltip": "aspernatur",
-  "Icon": "voluptatem",
-  "DefaultTicketStatus": 285,
+  "TicketTypeId": 41,
+  "Name": "Jerde Group",
+  "Rank": 607,
+  "Tooltip": "sit",
+  "Icon": "sequi",
+  "DefaultTicketStatus": 745,
   "TicketStatuses": [
-    874,
-    280
+    745,
+    621
   ],
-  "DefaultTicketPriority": 952,
+  "DefaultTicketPriority": 217,
   "TicketPriorities": [
-    228,
-    676
+    380,
+    145
   ],
-  "ReplyTemplate": 524,
+  "ReplyTemplate": 481,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    187,
-    721
+    903,
+    416
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

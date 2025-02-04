@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 760,
-    "Name": "Christiansen, Gutkowski and Kreiger",
-    "ToolTip": "Consequatur cumque.",
+    "Id": 443,
+    "Name": "Mann-Legros",
+    "ToolTip": "Quisquam saepe quisquam explicabo occaecati repellendus animi.",
     "Deleted": false,
-    "Rank": 416,
-    "Type": "numquam",
-    "ColorBlock": 449,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2024-02-02T10:18:01.051244+01:00",
+    "Rank": 275,
+    "Type": "ducimus",
+    "ColorBlock": 754,
+    "IconHint": "perspiciatis",
+    "Selected": true,
+    "LastChanged": "2017-10-27T13:13:33.2142268+02:00",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Reichert, Erdman and Deckow",
-        "ToolTip": "Eligendi temporibus.",
-        "Deleted": true,
-        "Rank": 905,
-        "Type": "ut",
-        "ColorBlock": 107,
-        "IconHint": "in",
+        "Id": 961,
+        "Name": "Pfannerstill, Hammes and Schmitt",
+        "ToolTip": "Exercitationem accusamus ad et placeat in ad vel.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "numquam",
+        "ColorBlock": 6,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2001-03-25T10:18:01.051244+02:00",
+        "LastChanged": "2014-05-29T13:13:33.2142268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "totam",
+        "ExtraInfo": "illo",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Elliot Becker",
+        "FullName": "Narciso Buckridge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 469
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "commodi",
+    "ExtraInfo": "maiores",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Alphonso Beahan",
+    "FullName": "Jamaal Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldType": "System.String",
+        "FieldLength": 767
       }
     }
   }

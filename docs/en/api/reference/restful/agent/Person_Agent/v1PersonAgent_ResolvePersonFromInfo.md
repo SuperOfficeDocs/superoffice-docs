@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 84,
-  "PersonName": "Torphy-Schmidt",
+  "ContactId": 714,
+  "PersonName": "O'Connell-Quigley",
   "PhoneNumbers": [
-    "1573921",
-    "720436"
+    "283392",
+    "1002965"
   ],
   "Emails": [
-    "may_sawayn@sporer.info",
-    "mckenna@pagac.name"
+    "brooklyn@okeeferitchie.co.uk",
+    "alexandrine.frami@hagenes.us"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

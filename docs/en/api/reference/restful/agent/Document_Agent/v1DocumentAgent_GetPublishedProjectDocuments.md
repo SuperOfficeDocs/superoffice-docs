@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 274
+  "ProjectId": 732
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 889,
-    "Attention": "et",
-    "Header": "sequi",
-    "Name": "Collins, Murray and Aufderhar",
-    "OurRef": "dolorem",
-    "YourRef": "et",
-    "Description": "Robust optimizing parallelism",
-    "DocumentTemplate": "saepe",
+    "DocumentId": 787,
+    "Attention": "ipsam",
+    "Header": "omnis",
+    "Name": "Mante-Schaefer",
+    "OurRef": "minus",
+    "YourRef": "earum",
+    "Description": "Team-oriented heuristic parallelism",
+    "DocumentTemplate": "ratione",
     "IsPublished": false,
-    "PersonId": 390,
-    "PersonFullName": "Dr. Shana Niko McDermott",
-    "AssociateFullName": "Ms. Weston Wiegand IV",
-    "ContactId": 370,
-    "ContactName": "Runolfsson Group",
-    "ProjectId": 446,
-    "ProjectName": "Metz-Johnston",
-    "AssociateId": 824,
-    "Snum": 887,
-    "SaleId": 456,
-    "SaleName": "Bashirian Inc and Sons",
+    "PersonId": 111,
+    "PersonFullName": "Mr. Alison Kuhic IV",
+    "AssociateFullName": "Serenity Goyette",
+    "ContactId": 440,
+    "ContactName": "Bayer-Romaguera",
+    "ProjectId": 213,
+    "ProjectName": "Schulist Group",
+    "AssociateId": 179,
+    "Snum": 223,
+    "SaleId": 526,
+    "SaleName": "Klein Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 630
       }
     }
   }

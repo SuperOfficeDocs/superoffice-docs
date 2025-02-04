@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 791,
-  "UniqueId": "laborum",
-  "Name": "Champlin, Batz and Dibbert",
-  "Description": "Public-key needs-based local area network",
-  "AssociateId": 450,
-  "Columns": 670,
+  "DashboardId": 499,
+  "UniqueId": "aliquam",
+  "Name": "Trantow, Botsford and Hilll",
+  "Description": "Mandatory stable model",
+  "AssociateId": 903,
+  "Columns": 254,
   "Theme": null,
-  "VisibleForAll": 61,
+  "VisibleForAll": 318,
   "VisibleForAssociates": [
-    274,
-    962
+    195,
+    11
   ],
   "VisibleForGroups": [
-    10,
-    154
+    613,
+    994
   ],
-  "PinForAll": 585,
+  "PinForAll": 401,
   "PinForAssociates": [
-    207,
-    459
+    755,
+    203
   ],
   "PinForGroups": [
-    24,
-    811
+    545,
+    333
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 232
     }
   }
 }

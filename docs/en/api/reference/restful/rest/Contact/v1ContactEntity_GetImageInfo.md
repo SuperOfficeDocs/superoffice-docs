@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 03 May 2019 10:18:00 G5T
+Last-Modified: Mon, 04 Jan 1999 13:13:31 G1T
 
 {
-  "BlobId": 622,
-  "BlobSize": 84,
-  "Description": "Exclusive actuating database",
-  "ExtraInfo": "quibusdam",
+  "BlobId": 387,
+  "BlobSize": 615,
+  "Description": "Synergistic clear-thinking hub",
+  "ExtraInfo": "animi",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sit",
-  "OriginalSize": 176,
-  "CreatedDate": "2021-05-11T10:18:00.2699456+02:00",
-  "UpdatedDate": "2019-05-03T10:18:00.2699456+02:00",
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 603,
+  "CreatedDate": "2000-04-13T13:13:31.4645446+02:00",
+  "UpdatedDate": "1999-01-04T13:13:31.4645446+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "incidunt",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 262
     }
   }
 }

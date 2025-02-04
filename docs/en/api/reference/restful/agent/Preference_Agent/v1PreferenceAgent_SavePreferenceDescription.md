@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 417,
-  "Section": "vitae",
-  "Key": "sed",
-  "Name": "Ullrich, Kassulke and Mohr",
+  "PrefDescId": 434,
+  "Section": "iste",
+  "Key": "corrupti",
+  "Name": "Considine LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Expanded intermediate hierarchy",
-  "IsBuiltin": false,
-  "TableName": "Doyle Inc and Sons",
-  "UserDefinedListId": 999,
-  "Rank": 486,
-  "SubGroup": "eos",
-  "MinLevel": 21,
-  "MaxValue": 13,
-  "MinValue": 31,
-  "RequiredLicense": "magnam"
+  "Description": "Proactive discrete analyzer",
+  "IsBuiltin": true,
+  "TableName": "Hessel-Trantow",
+  "UserDefinedListId": 371,
+  "Rank": 619,
+  "SubGroup": "provident",
+  "MinLevel": 128,
+  "MaxValue": 417,
+  "MinValue": 73,
+  "RequiredLicense": "ratione"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 878,
-  "Section": "possimus",
-  "Key": "quam",
-  "Name": "Lind-Senger",
+  "PrefDescId": 248,
+  "Section": "eos",
+  "Key": "voluptatem",
+  "Name": "Pacocha, Mills and Leffler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Intuitive encompassing initiative",
-  "IsBuiltin": false,
-  "TableName": "Wilkinson Group",
-  "UserDefinedListId": 969,
-  "Rank": 720,
-  "SubGroup": "quo",
-  "MinLevel": 570,
-  "MaxValue": 931,
-  "MinValue": 299,
-  "RequiredLicense": "vel",
+  "Description": "Proactive methodical focus group",
+  "IsBuiltin": true,
+  "TableName": "Lemke, Lebsack and Graham",
+  "UserDefinedListId": 620,
+  "Rank": 742,
+  "SubGroup": "hic",
+  "MinLevel": 961,
+  "MaxValue": 545,
+  "MinValue": 342,
+  "RequiredLicense": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   }
 }

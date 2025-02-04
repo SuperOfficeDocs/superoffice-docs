@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officiis",
-  "ProviderName": "Kuvalis, West and Grimes",
-  "StorageKey": "velit",
+  "StorageType": "facere",
+  "ProviderName": "Stehr-Anderson",
+  "StorageKey": "non",
   "DesiredColumns": [
-    "quis",
-    "autem"
+    "quia",
+    "consectetur"
   ],
-  "PageSize": 943,
-  "PageNumber": 35,
+  "PageSize": 918,
+  "PageNumber": 882,
   "OrderBy": [
     {
-      "Name": "Stehr-Schuster",
+      "Name": "Jerde-Reichel",
       "Direction": "ASC"
     },
     {
-      "Name": "Stehr-Schuster",
+      "Name": "Jerde-Reichel",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Torp Inc and Sons",
-      "DisplayTooltip": "necessitatibus",
-      "DisplayType": "suscipit",
-      "CanOrderBy": true,
-      "Name": "Erdman-Conn",
+      "DisplayName": "Koepp-Price",
+      "DisplayTooltip": "debitis",
+      "DisplayType": "expedita",
+      "CanOrderBy": false,
+      "Name": "Hermiston-Crona",
       "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Stoltenberg, Kuphal and Kovacek",
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Schinner, Hoppe and McKenzie",
       "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "veritatis",
-      "IconHint": "itaque",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "quam",
+      "Width": "ut",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "quae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jerde-Turcotte",
-      "PrimaryKey": 594,
+      "EntityName": "Runte Inc and Sons",
+      "PrimaryKey": 544,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "esse",
-          "LinkHint": "consequatur"
+          "DisplayValue": "ut",
+          "TooltipHint": "qui",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "in",
-      "StyleHint": "quia",
+      "LinkHint": "sapiente",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldType": "System.String",
+          "FieldLength": 191
         }
       }
     }
   ],
-  "RowCount": 67,
+  "RowCount": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   }
 }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 947
+  "TargetDimensionId": 143
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 288,
+    "TargetAssignmentInfoId": 863,
     "Values": [
-      396,
-      606
+      699,
+      350
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 558,
-    "DimensionListItemDisplayName": "Gottlieb LLC",
+    "DimensionListItem": 745,
+    "DimensionListItemDisplayName": "Lang, Huel and Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Wilkinson Inc and Sons"
+  "ApplicationName": "Howell LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 434,
-  "Name": "Leuschke-Schneider",
-  "CreatedDate": "2021-01-10T10:17:55.660285+01:00",
-  "UpdatedDate": "2006-05-22T10:17:55.660285+02:00",
-  "AssociateFullName": "Jan Fleta Upton Jr.",
-  "CreatedBy": "autem",
-  "UpdatedBy": "fugiat",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 821,
+  "ForeignDeviceId": 468,
+  "Name": "Carter Inc and Sons",
+  "CreatedDate": "2006-01-17T13:13:23.1802042+01:00",
+  "UpdatedDate": "2012-02-10T13:13:23.1802042+01:00",
+  "AssociateFullName": "Dr. Jewel Miller",
+  "CreatedBy": "quis",
+  "UpdatedBy": "impedit",
+  "DeviceIdentifier": "a",
+  "ForeignAppId": 961,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 693
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

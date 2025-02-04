@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 103,
-    "Name": "Streich-Schuppe",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 913,
-    "UdListDefinitionId": 959,
+    "HeadingId": 94,
+    "Name": "Tromp-Vandervort",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 306,
+    "UdListDefinitionId": 20,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

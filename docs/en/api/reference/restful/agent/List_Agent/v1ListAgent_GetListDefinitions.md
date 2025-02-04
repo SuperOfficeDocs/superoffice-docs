@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Jones LLC",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "Rank": 505,
-    "IsCustomList": true,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "accusantium",
-    "InUseByUserDefinedFields": false,
+    "Id": 262,
+    "Name": "Bruen Group",
+    "Tooltip": "unde",
+    "Deleted": true,
+    "Rank": 491,
+    "IsCustomList": false,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "omnis",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 637
       }
     }
   }

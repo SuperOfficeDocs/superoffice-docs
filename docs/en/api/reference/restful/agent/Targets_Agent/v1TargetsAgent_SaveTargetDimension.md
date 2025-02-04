@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 251,
+  "TargetDimensionId": 145,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "neque",
-  "DimensionListName": "Bashirian, Steuber and Mills",
-  "DimensionListId": 627,
-  "DimensionListLabel": "cum",
+  "DimensionListField": "omnis",
+  "DimensionListName": "Reilly-Miller",
+  "DimensionListId": 181,
+  "DimensionListLabel": "eius",
   "SelectedDimensions": [
-    408,
-    328
+    464,
+    65
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 415,
+  "TargetDimensionId": 486,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "corporis",
-  "DimensionListName": "Rath Inc and Sons",
-  "DimensionListId": 8,
-  "DimensionListLabel": "accusamus",
+  "DimensionListField": "aut",
+  "DimensionListName": "Hayes-Welch",
+  "DimensionListId": 960,
+  "DimensionListLabel": "et",
   "SelectedDimensions": [
-    517,
-    445
+    323,
+    124
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=192
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=155
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 386,
-  "FormKey": "sed",
-  "Name": "Pfannerstill Inc and Sons",
-  "Description": "Distributed multi-state instruction set",
-  "Config": "nihil",
-  "FolderId": 868,
-  "ScriptId": 287,
-  "ResponseShipmentId": 523,
+  "FormId": 79,
+  "FormKey": "molestias",
+  "Name": "Renner-Zboncak",
+  "Description": "Down-sized zero administration attitude",
+  "Config": "commodi",
+  "FolderId": 829,
+  "ScriptId": 596,
+  "ResponseShipmentId": 880,
   "Active": false,
-  "Expires": "2016-10-11T10:17:55.7540473+02:00",
-  "MaxSubmits": 75,
+  "Expires": "2004-07-09T13:13:23.3520388+02:00",
+  "MaxSubmits": 261,
   "Type": "Normal",
-  "Recipe": "officiis",
-  "GroupId": 600,
+  "Recipe": "officia",
+  "GroupId": 588,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1999-09-05T10:17:55.7540473+02:00",
-  "RegisteredAssociateId": 17,
-  "Updated": "2006-07-14T10:17:55.7540473+02:00",
-  "UpdatedAssociateId": 22,
-  "UpdatedCount": 159,
+  "Registered": "2015-03-27T13:13:23.3520388+01:00",
+  "RegisteredAssociateId": 542,
+  "Updated": "2016-06-14T13:13:23.3520388+02:00",
+  "UpdatedAssociateId": 112,
+  "UpdatedCount": 930,
   "EmailFlows": [
-    814,
-    898
+    756,
+    443
   ],
-  "FolderName": "Gutmann, Carter and Bartoletti",
+  "FolderName": "Fay, Bruen and Abshire",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldLength": 134
     }
   }
 }

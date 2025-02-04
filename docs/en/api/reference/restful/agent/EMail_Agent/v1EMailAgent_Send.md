@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "atque",
-      "HTMLBody": "deleniti",
+      "Subject": "laboriosam",
+      "HTMLBody": "dolorem",
       "From": null,
-      "Sent": "2014-09-15T10:17:55.5352844+02:00",
-      "Size": 772,
+      "Sent": "2002-01-15T13:13:22.9302583+01:00",
+      "Size": 223,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "repellat",
-      "PlainBody": "sit",
-      "IsSent": false,
+      "MessageID": "minima",
+      "PlainBody": "molestiae",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 428,
+      "ServerId": 258,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Nolan-Mills",
-      "EmailItemId": 923,
-      "AccountId": 207,
-      "ReceivedAt": "2018-10-04T10:17:55.5352844+02:00",
+      "FolderName": "Dibbert-Lemke",
+      "EmailItemId": 490,
+      "AccountId": 718,
+      "ReceivedAt": "2008-08-11T13:13:22.9302583+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2002-05-07T10:17:55.5352844+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2017-03-07T13:13:22.9302583+01:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 892,
-        "ContactName": "Hane, Torphy and O'Keefe",
-        "PersonId": 311,
-        "PersonName": "Kutch-Eichmann",
-        "AssociateId": 391,
-        "Address": "aut",
-        "EmailId": 701,
+        "ContactId": 568,
+        "ContactName": "Turcotte Inc and Sons",
+        "PersonId": 257,
+        "PersonName": "Huels Group",
+        "AssociateId": 891,
+        "Address": "autem",
+        "EmailId": 571,
         "DuplicatePersonIds": [
-          123,
-          483
+          958,
+          131
         ],
-        "Name": "Crona-Buckridge",
+        "Name": "Leuschke Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldType": "System.Int32",
+            "FieldLength": 668
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 11,
-        "ContactName": "Gutkowski-Turcotte",
-        "PersonId": 712,
-        "PersonName": "Haag, Zemlak and Zboncak",
-        "AssociateId": 725,
-        "Address": "ut",
-        "EmailId": 458,
+        "ContactId": 571,
+        "ContactName": "Powlowski, Dare and Mertz",
+        "PersonId": 40,
+        "PersonName": "Trantow Inc and Sons",
+        "AssociateId": 4,
+        "Address": "voluptas",
+        "EmailId": 439,
         "DuplicatePersonIds": [
-          145,
-          575
+          393,
+          916
         ],
-        "Name": "Farrell LLC",
+        "Name": "Reichel Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 94
+            "FieldType": "System.String",
+            "FieldLength": 631
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 537,
-        "ContactName": "Gorczany, Hodkiewicz and Gleichner",
-        "PersonId": 606,
-        "PersonName": "Jewess, Vandervort and Bergstrom",
-        "AssociateId": 61,
-        "Address": "eum",
-        "EmailId": 264,
+        "ContactId": 408,
+        "ContactName": "Willms-Franecki",
+        "PersonId": 402,
+        "PersonName": "Rohan, Lakin and Anderson",
+        "AssociateId": 624,
+        "Address": "ipsa",
+        "EmailId": 183,
         "DuplicatePersonIds": [
-          847,
-          998
+          950,
+          751
         ],
-        "Name": "Effertz LLC",
+        "Name": "O'Reilly-Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 868
+            "FieldType": "System.String",
+            "FieldLength": 328
           }
         }
       }
     ],
-    "Subject": "sit",
-    "HTMLBody": "nisi",
+    "Subject": "iure",
+    "HTMLBody": "officiis",
     "From": null,
-    "Sent": "2017-03-22T10:17:55.5352844+01:00",
-    "Size": 218,
+    "Sent": "2009-10-06T13:13:22.9302583+02:00",
+    "Size": 854,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "modi",
-    "PlainBody": "beatae",
+    "MessageID": "rerum",
+    "PlainBody": "quia",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 531,
+    "ServerId": 612,
     "Attachments": [
       {
-        "Description": "Public-key system-worthy installation",
-        "Filename": "sunt",
-        "Size": 507,
-        "Type": "facere",
-        "Encoding": "aut",
-        "Id": "architecto",
-        "Disposition": "ipsum",
+        "Description": "Phased real-time parallelism",
+        "Filename": "a",
+        "Size": 19,
+        "Type": "optio",
+        "Encoding": "fugit",
+        "Id": "quia",
+        "Disposition": "pariatur",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,50 +260,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 276
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Gislason-Heller",
+        "Name": "Trantow-Breitenberg",
         "Values": [
-          "rerum",
-          "fugiat"
+          "debitis",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       },
       {
-        "Name": "Gislason-Heller",
+        "Name": "Trantow-Breitenberg",
         "Values": [
-          "rerum",
-          "fugiat"
+          "debitis",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "FolderName": "Jacobson, Rippin and Lemke",
-    "EmailItemId": 93,
-    "AccountId": 100,
-    "ReceivedAt": "2001-04-12T10:17:55.5352844+02:00",
+    "FolderName": "Champlin Inc and Sons",
+    "EmailItemId": 972,
+    "AccountId": 871,
+    "ReceivedAt": "2006-05-18T13:13:22.9302583+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2002-06-06T10:17:55.5352844+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2004-08-17T13:13:22.9302583+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 346
       }
     }
   }

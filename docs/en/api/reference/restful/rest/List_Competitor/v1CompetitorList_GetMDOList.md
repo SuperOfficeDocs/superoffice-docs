@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=earum
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=beatae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Harvey Inc and Sons",
-    "ToolTip": "Tempore quia aut animi atque eveniet sapiente.",
+    "Id": 787,
+    "Name": "Blanda-Brown",
+    "ToolTip": "Dolorum qui voluptate nam inventore ut.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "veritatis",
+    "Rank": 105,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Russel-Senger",
-        "ToolTip": "Dolorem blanditiis beatae voluptate voluptate nisi sint nemo.",
-        "Deleted": true,
-        "Rank": 650,
-        "Type": "libero",
+        "Id": 774,
+        "Name": "Gerhold-Olson",
+        "ToolTip": "Dolor unde dolorum adipisci quod dolor.",
+        "Deleted": false,
+        "Rank": 868,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "voluptatibus",
-        "ColorBlock": 24,
-        "ExtraInfo": "sed",
-        "StyleHint": "rerum",
-        "FullName": "Miss Sammy Stehr",
+        "ColorBlock": 956,
+        "ExtraInfo": "est",
+        "StyleHint": "magni",
+        "FullName": "Mr. Sheila Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 441
+            "FieldType": "System.Int32",
+            "FieldLength": 438
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 964,
-    "ExtraInfo": "earum",
-    "StyleHint": "ab",
-    "FullName": "Ozella Mueller",
+    "IconHint": "pariatur",
+    "ColorBlock": 409,
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
+    "FullName": "Velva Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

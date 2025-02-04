@@ -142,77 +142,77 @@ OK
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 265,
+  "DocumentId": 96,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "laboriosam",
-  "Header": "voluptas",
-  "Name": "Oberbrunner-Adams",
-  "OurRef": "vel",
-  "YourRef": "quasi",
-  "CreatedDate": "2014-06-16T10:18:00.3637024+02:00",
-  "UpdatedDate": "2017-04-11T10:18:00.3637024+02:00",
-  "Description": "Face to face contextually-based function",
+  "Attention": "quia",
+  "Header": "hic",
+  "Name": "Kirlin-Brown",
+  "OurRef": "maxime",
+  "YourRef": "enim",
+  "CreatedDate": "1999-07-31T13:13:31.6363796+02:00",
+  "UpdatedDate": "2017-10-22T13:13:31.6363796+02:00",
+  "Description": "Self-enabling bifurcated policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-12-18T10:18:00.3637024+01:00",
-  "ExternalRef": "earum",
+  "Date": "2024-09-11T13:13:31.6363796+02:00",
+  "ExternalRef": "quas",
   "Completed": "Completed",
-  "ActiveLinks": 865,
+  "ActiveLinks": 131,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cartwright, Harvey and Lemke",
-      "Id": 605,
-      "Description": "Synchronised system-worthy focus group",
-      "ExtraInfo": "consequatur",
-      "LinkId": 372
+      "EntityName": "Casper, Schmidt and Bergstrom",
+      "Id": 281,
+      "Description": "Switchable secondary alliance",
+      "ExtraInfo": "sequi",
+      "LinkId": 759
     },
     {
-      "EntityName": "Cartwright, Harvey and Lemke",
-      "Id": 605,
-      "Description": "Synchronised system-worthy focus group",
-      "ExtraInfo": "consequatur",
-      "LinkId": 372
+      "EntityName": "Casper, Schmidt and Bergstrom",
+      "Id": 281,
+      "Description": "Switchable secondary alliance",
+      "ExtraInfo": "sequi",
+      "LinkId": 759
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 906,
-  "Snum": 734,
+  "SuggestedDocumentId": 255,
+  "Snum": 482,
   "UserDefinedFields": {
-    "SuperOffice:1": "1895689121",
-    "SuperOffice:2": "Prof. Aliyah Hauck I"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "repellat"
+    "CustomFields1": "quae",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "2013-05-13T10:18:00.3637024+02:00",
-  "PublishTo": "2014-08-28T10:18:00.3637024+02:00",
-  "PublishFrom": "2000-08-21T10:18:00.3637024+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2024-12-01T13:13:31.6363796+01:00",
+  "PublishTo": "2004-07-24T13:13:31.6363796+02:00",
+  "PublishFrom": "2012-12-29T13:13:31.6363796+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 725,
+      "VisibleId": 877,
       "Visibility": "All",
-      "DisplayValue": "ab"
+      "DisplayValue": "nihil"
     },
     {
-      "VisibleId": 725,
+      "VisibleId": 877,
       "Visibility": "All",
-      "DisplayValue": "ab"
+      "DisplayValue": "nihil"
     }
   ]
 }
@@ -225,88 +225,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 376,
+  "DocumentId": 16,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nulla",
-  "Header": "voluptas",
-  "Name": "Wehner-Rutherford",
-  "OurRef": "sit",
-  "YourRef": "nihil",
-  "CreatedDate": "2018-05-16T10:18:00.3637024+02:00",
-  "UpdatedDate": "2003-10-24T10:18:00.3637024+02:00",
-  "Description": "Monitored zero defect parallelism",
+  "Attention": "voluptas",
+  "Header": "laborum",
+  "Name": "Cremin Inc and Sons",
+  "OurRef": "nihil",
+  "YourRef": "qui",
+  "CreatedDate": "2016-05-02T13:13:31.6363796+02:00",
+  "UpdatedDate": "2023-12-31T13:13:31.6363796+01:00",
+  "Description": "Expanded 24 hour projection",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-07-12T10:18:00.3637024+02:00",
-  "ExternalRef": "rerum",
+  "Date": "2001-11-11T13:13:31.6520003+01:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 969,
+  "ActiveLinks": 744,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Veum Group",
-      "Id": 443,
-      "Description": "Networked dynamic product",
-      "ExtraInfo": "eius",
-      "LinkId": 265,
+      "EntityName": "Gusikowski-Boehm",
+      "Id": 174,
+      "Description": "Proactive logistical hierarchy",
+      "ExtraInfo": "repudiandae",
+      "LinkId": 27,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 145
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 867,
-  "Snum": 307,
+  "SuggestedDocumentId": 725,
+  "Snum": 409,
   "UserDefinedFields": {
-    "SuperOffice:1": "1825230109",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Alek Willms",
+    "SuperOffice:2": "Miss Arely Lesley Sporer MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "nemo",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2014-09-05T10:18:00.3637024+02:00",
-  "PublishTo": "2006-04-16T10:18:00.3637024+02:00",
-  "PublishFrom": "2003-01-29T10:18:00.3637024+01:00",
+  "PublishEventDate": "2002-09-19T13:13:31.6520003+02:00",
+  "PublishTo": "2013-07-18T13:13:31.6520003+02:00",
+  "PublishFrom": "2017-08-20T13:13:31.6520003+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 506,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldLength": 230
         }
       }
     },
     {
-      "VisibleId": 506,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldLength": 230
         }
       }
     }
@@ -316,7 +316,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldLength": 278
     }
   },
   "_Links": {

@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 196,
-    "Name": "Dicki LLC",
-    "Tooltip": "aspernatur",
+    "WebPanelId": 265,
+    "Name": "Abshire, Halvorson and Gulgowski",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 312,
+    "Rank": 632,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Ryan Group",
+    "ShowInStatusBar": false,
+    "WindowName": "Collins, Mills and Kling",
     "Url": "http://www.example.com/",
-    "ProgId": "pariatur",
-    "Icon": 432,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "in",
+    "Icon": 977,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

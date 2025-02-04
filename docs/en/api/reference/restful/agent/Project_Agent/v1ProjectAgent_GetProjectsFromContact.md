@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 760
+  "ContactId": 56
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 530,
-    "Name": "Quigley, Wiegand and Bode",
-    "Description": "Adaptive composite function",
+    "ProjectId": 305,
+    "Name": "DuBuque-Schneider",
+    "Description": "Expanded composite array",
     "URL": "http://www.example.com/",
-    "Type": "nostrum",
-    "AssociateId": 610,
-    "AssociateFullName": "Carroll Keebler",
-    "TypeId": 770,
-    "Updated": "2015-11-18T10:17:55.9103076+01:00",
-    "StatusId": 452,
-    "Status": "soluta",
-    "TextId": 721,
-    "PublishTo": "2015-07-30T10:17:55.9103076+02:00",
-    "PublishFrom": "2021-03-01T10:17:55.9103076+01:00",
+    "Type": "autem",
+    "AssociateId": 462,
+    "AssociateFullName": "Samson Bartoletti MD",
+    "TypeId": 83,
+    "Updated": "2020-12-08T13:13:23.664465+01:00",
+    "StatusId": 396,
+    "Status": "consequatur",
+    "TextId": 617,
+    "PublishTo": "2012-04-26T13:13:23.664465+02:00",
+    "PublishFrom": "2024-06-18T13:13:23.664465+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1133981",
-    "ActiveErpLinks": 113,
+    "ProjectNumber": "598533",
+    "ActiveErpLinks": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 20
       }
     }
   }

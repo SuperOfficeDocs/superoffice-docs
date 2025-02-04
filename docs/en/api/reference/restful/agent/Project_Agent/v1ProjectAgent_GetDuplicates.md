@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gleason Group"
+  "Name": "Ratke-Russel"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Wintheiser, Hahn and Adams",
-    "SoPrimaryKey": 399,
-    "EntryName": "Boyer LLC",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Bartoletti Inc and Sons",
+    "RuleName": "O'Connell, Cole and Flatley",
+    "SoPrimaryKey": 257,
+    "EntryName": "Boehm-Stroman",
+    "EntryIdentifier": "eos",
+    "RuleDisplayName": "Batz Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 168
+        "FieldLength": 983
       }
     }
   }

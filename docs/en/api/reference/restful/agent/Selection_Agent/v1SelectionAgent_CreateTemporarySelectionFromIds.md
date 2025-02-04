@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    679,
-    573
+    954,
+    102
   ],
-  "TargetTableNumber": 734
+  "TargetTableNumber": 166
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled dedicated pricing structure",
-  "Postit": "esse",
+  "Description": "Polarised discrete Graphic Interface",
+  "Postit": "ea",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 813,
-  "IncludePerson": 740,
+  "GroupIdx": 859,
+  "IncludePerson": 998,
   "MemberCount": 99.99,
-  "Name": "Kuhn Inc and Sons",
-  "PostitTextId": 136,
-  "CreatedDate": "2002-10-31T10:17:56.0509411+01:00",
-  "SelectionId": 255,
-  "SoundEx": "et",
-  "Source": 549,
-  "TextId": 839,
-  "UpdatedDate": "2007-08-30T10:17:56.0509411+02:00",
-  "UpdatedCount": 558,
-  "Visibility": 791,
+  "Name": "Brakus-Johnson",
+  "PostitTextId": 323,
+  "CreatedDate": "2022-03-31T13:13:23.9521988+02:00",
+  "SelectionId": 194,
+  "SoundEx": "est",
+  "Source": 507,
+  "TextId": 979,
+  "UpdatedDate": "2016-05-14T13:13:23.9521988+02:00",
+  "UpdatedCount": 218,
+  "Visibility": 541,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 734,
-  "TargetTableName": "Sawayn LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 447,
+  "TargetTableName": "Parisian Group",
   "Completed": false,
-  "LeftSelectionId": 556,
-  "RightSelectionId": 398,
+  "LeftSelectionId": 245,
+  "RightSelectionId": 732,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sipes, Glover and Morar",
-  "ShadowProviderName": "Beer-Paucek",
-  "ChartKey": "aspernatur",
-  "LastLoaded": "2022-04-25T10:17:56.0509411+02:00",
-  "LastLoadedBy": 654,
+  "MainProviderName": "Bauch Inc and Sons",
+  "ShadowProviderName": "Jacobi Group",
+  "ChartKey": "repellat",
+  "LastLoaded": "2022-04-04T13:13:23.9521988+02:00",
+  "LastLoadedBy": 495,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-04-16T10:17:56.0509411+02:00",
-  "LastMembershipChangeBy": 348,
+  "LastMembershipChange": "2019-01-30T13:13:23.9521988+01:00",
+  "LastMembershipChangeBy": 935,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "doloribus",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Rogahn, Ledner and Fay",
-  "DashboardTileDefinitionId": 355,
+  "MainHeading": "occaecati",
+  "MemberTabHeading": "ratione",
+  "MailingsProviderName": "Williamson Group",
+  "DashboardTileDefinitionId": 745,
   "VisibleFor": [
     {
-      "VisibleId": 855,
+      "VisibleId": 794,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 958
         }
       }
     },
     {
-      "VisibleId": 855,
+      "VisibleId": 794,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 958
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

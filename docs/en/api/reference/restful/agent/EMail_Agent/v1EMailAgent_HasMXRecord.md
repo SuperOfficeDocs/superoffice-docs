@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "impedit"
+  "MailDomain": "voluptas"
 }
 ```
 

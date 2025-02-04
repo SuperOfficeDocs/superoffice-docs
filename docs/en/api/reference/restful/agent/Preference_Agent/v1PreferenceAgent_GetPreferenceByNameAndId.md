@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ea",
-  "PrefKey": "incidunt",
+  "PrefSection": "ut",
+  "PrefKey": "reiciendis",
   "PrefLevel": "Database",
-  "OwnerId": 745
+  "OwnerId": 953
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "beatae",
+  "RawValue": "illum",
   "Specification": null,
-  "DisplayValue": "quae",
-  "DisplayTooltip": "quis",
+  "DisplayValue": "dignissimos",
+  "DisplayTooltip": "reiciendis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 674,
-  "PrefDescId": 368,
-  "TableName": "Larson Group",
-  "UserPreferenceId": 799,
+  "TargetId": 492,
+  "PrefDescId": 244,
+  "TableName": "Bergstrom, Weimann and Abbott",
+  "UserPreferenceId": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 849
     }
   }
 }

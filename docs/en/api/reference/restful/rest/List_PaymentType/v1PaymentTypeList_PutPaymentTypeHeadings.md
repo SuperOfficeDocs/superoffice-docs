@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "Schmidt-Schneider",
-    "Tooltip": "sed",
+    "HeadingId": 162,
+    "Name": "Conroy, Hammes and Raynor",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 366,
-    "UdListDefinitionId": 81
+    "Rank": 151,
+    "UdListDefinitionId": 832
   },
   {
-    "HeadingId": 373,
-    "Name": "Schmidt-Schneider",
-    "Tooltip": "sed",
+    "HeadingId": 162,
+    "Name": "Conroy, Hammes and Raynor",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 366,
-    "UdListDefinitionId": 81
+    "Rank": 151,
+    "UdListDefinitionId": 832
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 336,
-    "Name": "Haley Inc and Sons",
-    "Tooltip": "excepturi",
+    "HeadingId": 679,
+    "Name": "Toy-Dietrich",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 332,
-    "UdListDefinitionId": 644,
+    "Rank": 212,
+    "UdListDefinitionId": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Swift-Tillman",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 923,
-    "UdListDefinitionId": 835
+    "HeadingId": 543,
+    "Name": "Schmeler Group",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 275,
+    "UdListDefinitionId": 797
   },
   {
-    "HeadingId": 620,
-    "Name": "Swift-Tillman",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 923,
-    "UdListDefinitionId": 835
+    "HeadingId": 543,
+    "Name": "Schmeler Group",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "Rank": 275,
+    "UdListDefinitionId": 797
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 109,
-    "Name": "Marks Inc and Sons",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 814,
-    "UdListDefinitionId": 148,
+    "HeadingId": 822,
+    "Name": "Yundt-Wintheiser",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 932,
+    "UdListDefinitionId": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 281
+        "FieldLength": 448
       }
     }
   }

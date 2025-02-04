@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=qui
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Mosciski-Turcotte",
-    "ToolTip": "Doloribus commodi tempora necessitatibus ipsum reprehenderit sunt maxime.",
+    "Id": 166,
+    "Name": "Wyman-Runte",
+    "ToolTip": "Occaecati quae sit sint voluptas magnam deserunt.",
     "Deleted": false,
-    "Rank": 445,
-    "Type": "sed",
+    "Rank": 908,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Zboncak LLC",
-        "ToolTip": "Impedit magnam ad.",
-        "Deleted": true,
-        "Rank": 397,
-        "Type": "fugit",
+        "Id": 367,
+        "Name": "Hayes Inc and Sons",
+        "ToolTip": "Sint quia nemo dolorem nam minima.",
+        "Deleted": false,
+        "Rank": 679,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quis",
-        "ColorBlock": 810,
-        "ExtraInfo": "eaque",
-        "StyleHint": "doloribus",
-        "FullName": "Miss Eladio Walsh PhD",
+        "IconHint": "sequi",
+        "ColorBlock": 9,
+        "ExtraInfo": "optio",
+        "StyleHint": "esse",
+        "FullName": "Maybelle Israel Beier DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldType": "System.String",
+            "FieldLength": 209
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 633,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "expedita",
-    "FullName": "Prof. Israel Marcelle Lockman",
+    "IconHint": "cupiditate",
+    "ColorBlock": 733,
+    "ExtraInfo": "vitae",
+    "StyleHint": "illo",
+    "FullName": "Leif Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 40
       }
     }
   }

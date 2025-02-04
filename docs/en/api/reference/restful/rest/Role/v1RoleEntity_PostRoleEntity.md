@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 193,
-  "Name": "Boehm, Cole and Buckridge",
-  "Tooltip": "quia",
+  "RoleId": 192,
+  "Name": "Grady LLC",
+  "Tooltip": "necessitatibus",
   "RoleType": "Anonymous",
-  "Deleted": 687,
-  "Rank": 264,
-  "Created": "2024-11-06T10:18:00.5199623+01:00",
-  "UseCategories": 799,
+  "Deleted": 273,
+  "Rank": 999,
+  "Created": "2006-07-31T13:13:31.9800495+02:00",
+  "UseCategories": 863,
   "CreatedBy": null,
-  "Updated": "2018-03-09T10:18:00.5199623+01:00",
+  "Updated": "2017-04-29T13:13:31.9800495+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 933,
-  "Name": "Heidenreich, Mann and Zboncak",
-  "Tooltip": "et",
+  "RoleId": 912,
+  "Name": "Denesik, Blanda and Donnelly",
+  "Tooltip": "natus",
   "RoleType": "Anonymous",
-  "Deleted": 980,
-  "Rank": 794,
-  "Created": "2017-08-12T10:18:00.5199623+02:00",
-  "UseCategories": 226,
+  "Deleted": 560,
+  "Rank": 409,
+  "Created": "2014-12-29T13:13:31.9800495+01:00",
+  "UseCategories": 124,
   "CreatedBy": null,
-  "Updated": "2004-12-18T10:18:00.5355883+01:00",
+  "Updated": "2000-06-14T13:13:31.9800495+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   },
   "_Links": {

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sanford Group"
+  "ApplicationName": "Wilderman Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 833,
-    "Name": "Schumm-Ernser",
-    "CreatedDate": "2018-06-16T10:17:55.660285+02:00",
-    "UpdatedDate": "2020-01-10T10:17:55.660285+01:00",
-    "AssociateFullName": "Moriah Bonita Bayer V",
-    "CreatedBy": "aspernatur",
-    "UpdatedBy": "iure",
-    "DeviceIdentifier": "assumenda",
-    "ForeignAppId": 747,
+    "ForeignDeviceId": 735,
+    "Name": "Bogisich-Lockman",
+    "CreatedDate": "2014-08-10T13:13:23.1645837+02:00",
+    "UpdatedDate": "2005-12-13T13:13:23.1645837+01:00",
+    "AssociateFullName": "Irving Boyle",
+    "CreatedBy": "iste",
+    "UpdatedBy": "repellendus",
+    "DeviceIdentifier": "et",
+    "ForeignAppId": 997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 409
       }
     }
   }

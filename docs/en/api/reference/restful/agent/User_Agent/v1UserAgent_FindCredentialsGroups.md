@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptate",
-  "SearchString": "perspiciatis"
+  "Type": "sit",
+  "SearchString": "quos"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayert Group",
-    "DisplayName": "Armstrong-Dietrich",
+    "Name": "Hahn Inc and Sons",
+    "DisplayName": "Fisher, DuBuque and Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   },
   {
-    "Name": "Mayert Group",
-    "DisplayName": "Armstrong-Dietrich",
+    "Name": "Hahn Inc and Sons",
+    "DisplayName": "Fisher, DuBuque and Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

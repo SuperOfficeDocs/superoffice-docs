@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 696,
-  "Name": "Strosin, Hodkiewicz and Emard",
-  "Tooltip": "iste",
-  "Rank": 54,
+  "ProjTypeId": 289,
+  "Name": "Boehm LLC",
+  "Tooltip": "perferendis",
+  "Rank": 700,
   "DurationUnit": "Century",
-  "ProjectDuration": 364,
+  "ProjectDuration": 933,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 208,
-      "Name": "Rolfson, Rempel and Schoen",
-      "ToolTip": "Consequatur facere consequatur ut qui.",
+      "Id": 147,
+      "Name": "Harber LLC",
+      "ToolTip": "Sapiente qui omnis.",
       "Deleted": false,
-      "Rank": 60,
-      "Type": "consectetur",
-      "ColorBlock": 338,
-      "IconHint": "debitis",
+      "Rank": 5,
+      "Type": "est",
+      "ColorBlock": 80,
+      "IconHint": "quas",
       "Selected": true,
-      "LastChanged": "1998-07-16T10:17:55.7384214+02:00",
+      "LastChanged": "2000-09-25T13:13:23.3207956+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "eum",
-      "Hidden": false,
-      "FullName": "Devonte Emard"
+      "ExtraInfo": "aut",
+      "StyleHint": "asperiores",
+      "Hidden": true,
+      "FullName": "Gaston Grimes"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 333,
-  "Name": "Olson, Olson and Yost",
-  "Tooltip": "quia",
-  "Rank": 641,
+  "ProjTypeId": 848,
+  "Name": "Wunsch Inc and Sons",
+  "Tooltip": "debitis",
+  "Rank": 304,
   "DurationUnit": "Century",
-  "ProjectDuration": 795,
-  "Deleted": true,
+  "ProjectDuration": 407,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 997,
-      "Name": "Gislason-Bahringer",
-      "ToolTip": "Cum qui tempora reiciendis dolore qui.",
+      "Id": 355,
+      "Name": "Bayer, Carroll and Huels",
+      "ToolTip": "Eos ut placeat aperiam molestiae illo dignissimos voluptatem.",
       "Deleted": true,
-      "Rank": 689,
-      "Type": "repellat",
-      "ColorBlock": 841,
-      "IconHint": "eos",
+      "Rank": 242,
+      "Type": "tempore",
+      "ColorBlock": 153,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2010-10-09T10:17:55.7384214+02:00",
+      "LastChanged": "2023-05-12T13:13:23.3207956+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "tempore",
-      "Hidden": false,
-      "FullName": "Cyril Larkin",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Elfrieda Konopelski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 682
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 908
     }
   }
 }

@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schroeder LLC",
-  "Comment": "iste",
-  "StakeholderRoleId": 716,
-  "CountryId": 527,
-  "PersonId": 328,
-  "EmailDescription": "percy@parisian.biz",
-  "EmailId": 156,
-  "EmailAddress": "kane@gulgowski.biz",
-  "PhoneId": 444,
-  "ContactName": "Pouros, Fadel and Gulgowski",
-  "ContactId": 185,
-  "SaleId": 830,
-  "Mrmrs": "laborum",
-  "Firstname": "Dustin",
-  "MiddleName": "Runte-Schuster",
-  "Lastname": "Pollich",
-  "SaleStakeholderId": 590,
-  "Rank": 363,
-  "Phone": "557.191.0241 x894"
+  "StakeholderRoleName": "Gerlach, McClure and Schiller",
+  "Comment": "quod",
+  "StakeholderRoleId": 275,
+  "CountryId": 454,
+  "PersonId": 865,
+  "EmailDescription": "noble_medhurst@gaylordbrekke.info",
+  "EmailId": 338,
+  "EmailAddress": "roxanne_bradtke@graham.ca",
+  "PhoneId": 540,
+  "ContactName": "Turner-Kohler",
+  "ContactId": 89,
+  "SaleId": 549,
+  "Mrmrs": "vel",
+  "Firstname": "Michaela",
+  "MiddleName": "Kuvalis-Gaylord",
+  "Lastname": "O'Connell",
+  "SaleStakeholderId": 528,
+  "Rank": 813,
+  "Phone": "683-045-4532 x720"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Braun LLC",
-  "Comment": "praesentium",
-  "StakeholderRoleId": 69,
-  "CountryId": 973,
-  "PersonId": 288,
-  "EmailDescription": "fernando.ziemann@botsford.info",
-  "EmailId": 364,
-  "EmailAddress": "viviane.koch@gottlieb.uk",
-  "PhoneId": 994,
-  "ContactName": "Howe, Pollich and Wisozk",
-  "ContactId": 907,
-  "SaleId": 23,
-  "Mrmrs": "sunt",
-  "Firstname": "Aubrey",
-  "MiddleName": "Zemlak-Renner",
-  "Lastname": "Beer",
-  "SaleStakeholderId": 534,
-  "Rank": 73,
-  "Phone": "478.412.4184 x743",
+  "StakeholderRoleName": "Collier LLC",
+  "Comment": "odio",
+  "StakeholderRoleId": 991,
+  "CountryId": 381,
+  "PersonId": 387,
+  "EmailDescription": "dallin@dicki.biz",
+  "EmailId": 736,
+  "EmailAddress": "jeramy@hackettkeeling.com",
+  "PhoneId": 184,
+  "ContactName": "Kreiger, Turner and Goyette",
+  "ContactId": 311,
+  "SaleId": 235,
+  "Mrmrs": "sint",
+  "Firstname": "Candido",
+  "MiddleName": "Becker Group",
+  "Lastname": "Yundt",
+  "SaleStakeholderId": 201,
+  "Rank": 920,
+  "Phone": "771.815.9908 x7116",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

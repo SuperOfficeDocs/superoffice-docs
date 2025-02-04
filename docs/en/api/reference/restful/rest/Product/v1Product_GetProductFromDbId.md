@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 633,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "labore",
-  "Name": "Bayer-Cassin",
-  "Description": "Devolved tangible model",
-  "Code": "unde",
-  "PriceUnit": "fugiat",
-  "QuantityUnit": "suscipit",
+  "ProductId": 253,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "natus",
+  "Name": "Heller, Reinger and Carroll",
+  "Description": "Diverse transitional function",
+  "Code": "nam",
+  "PriceUnit": "sed",
+  "QuantityUnit": "facere",
   "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 21994.412,
-  "ItemNumber": "499930",
+  "SubscriptionUnit": "porro",
+  "DefaultSubscriptionQuantity": 23912.42,
+  "ItemNumber": "1005861",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "ipsam",
-  "VAT": 26162.631999999998,
-  "VATInfo": "quis",
-  "UnitCost": 4594.4439999999995,
-  "UnitMinimumPrice": 94.02,
-  "UnitListPrice": 3701.254,
+  "ProductFamilyKey": "similique",
+  "ProductTypeKey": "iure",
+  "VAT": 17164.917999999998,
+  "VATInfo": "laborum",
+  "UnitCost": 28127.649999999998,
+  "UnitMinimumPrice": 26889.719999999998,
+  "UnitListPrice": 1717.432,
   "InAssortment": false,
-  "Supplier": "numquam",
-  "SupplierCode": "odio",
-  "Rights": "iste",
-  "Rule": "rerum",
+  "Supplier": "dolorem",
+  "SupplierCode": "aut",
+  "Rights": "laboriosam",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Durgan, Keeling and Treutel",
-      "Value": "hic",
+      "Name": "Wyman-Hansen",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldType": "System.String",
+          "FieldLength": 184
         }
       }
     },
     {
-      "Name": "Durgan, Keeling and Treutel",
-      "Value": "hic",
+      "Name": "Wyman-Hansen",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldType": "System.String",
+          "FieldLength": 184
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "nam",
-  "ExtraField2": "tenetur",
-  "ExtraField3": "sed",
-  "ExtraField4": "voluptatum",
-  "ExtraField5": "labore",
-  "InStock": 24959.176,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "corporis",
+  "ExtraField2": "pariatur",
+  "ExtraField3": "eos",
+  "ExtraField4": "quod",
+  "ExtraField5": "sit",
+  "InStock": 14585.636,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 978
+      "FieldType": "System.Int32",
+      "FieldLength": 814
     }
   }
 }

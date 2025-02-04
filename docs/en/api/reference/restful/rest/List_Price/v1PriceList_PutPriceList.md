@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 452,
-  "ERPPriceListKey": "iusto",
-  "QuoteConnectionId": 456,
-  "Name": "Skiles Inc and Sons",
-  "Description": "Versatile zero defect infrastructure",
-  "Currency": "laboriosam",
-  "CurrencyName": "Grimes-Altenwerth",
-  "ValidFrom": "2016-07-14T10:18:01.0668705+02:00",
-  "ValidTo": "2021-07-18T10:18:01.0668705+02:00",
+  "PriceListId": 580,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 436,
+  "Name": "Schmidt Group",
+  "Description": "Multi-lateral user-facing infrastructure",
+  "Currency": "voluptatem",
+  "CurrencyName": "Parisian, Cormier and Friesen",
+  "ValidFrom": "2009-12-04T13:13:33.2610909+01:00",
+  "ValidTo": "2018-02-15T13:13:33.2610909+01:00",
   "IsActive": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 949,
-  "ERPPriceListKey": "cum",
-  "QuoteConnectionId": 566,
-  "Name": "Pfannerstill, Senger and Nicolas",
-  "Description": "Synergized tertiary methodology",
-  "Currency": "iusto",
-  "CurrencyName": "Kub Group",
-  "ValidFrom": "2018-01-05T10:18:01.0668705+01:00",
-  "ValidTo": "2010-08-11T10:18:01.0668705+02:00",
+  "PriceListId": 746,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 473,
+  "Name": "McDermott Inc and Sons",
+  "Description": "Mandatory executive emulation",
+  "Currency": "assumenda",
+  "CurrencyName": "Walker, Hills and Kulas",
+  "ValidFrom": "2003-11-08T13:13:33.2610909+01:00",
+  "ValidTo": "1999-02-15T13:13:33.2610909+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 85
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

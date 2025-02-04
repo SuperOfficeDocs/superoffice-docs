@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "rem",
-  "ProviderName": "Farrell-Okuneva",
-  "DesiredColumns": "consequuntur",
-  "OrderBy": "vero",
-  "PageSize": 893,
-  "PageNumber": 709
+  "Restrictions": "explicabo",
+  "ProviderName": "Beer, Wisoky and Satterfield",
+  "DesiredColumns": "quis",
+  "OrderBy": "et",
+  "PageSize": 808,
+  "PageNumber": 876
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hyatt, Graham and Schaefer",
-      "DisplayTooltip": "accusantium",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Vandervort Inc and Sons",
+      "DisplayName": "Weissnat-Langosh",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "facere",
+      "CanOrderBy": false,
+      "Name": "Hahn, Lemke and Bartell",
       "CanRestrictBy": false,
-      "RestrictionType": "officia",
-      "RestrictionListName": "Cruickshank-Labadie",
-      "IsVisible": true,
-      "ExtraInfo": "doloribus",
-      "Width": "odit",
-      "IconHint": "corporis",
-      "HeadingIconHint": "nobis"
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Fritsch-Carter",
+      "IsVisible": false,
+      "ExtraInfo": "dicta",
+      "Width": "veritatis",
+      "IconHint": "iste",
+      "HeadingIconHint": "molestias"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Monahan, Haag and Mills",
-      "PrimaryKey": 731,
+      "EntityName": "Metz-Kunde",
+      "PrimaryKey": 79,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perspiciatis",
-          "TooltipHint": "et",
-          "LinkHint": "aut"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "repellat",
+          "LinkHint": "velit"
         }
       },
-      "LinkHint": "optio",
-      "StyleHint": "et",
+      "LinkHint": "nulla",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 123
         }
       }
     }
   ],
-  "RowCount": 447,
+  "RowCount": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 184
     }
   }
 }

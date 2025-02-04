@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 245,
-  "Name": "Heller-Fadel",
-  "Tooltip": "consectetur",
-  "Rank": 749,
+  "SaleTypeId": 30,
+  "Name": "Beahan-Mitchell",
+  "Tooltip": "cumque",
+  "Rank": 313,
   "DurationUnit": "Century",
-  "SaleDuration": 880,
-  "SaleTypeCatId": 525,
+  "SaleDuration": 323,
+  "SaleTypeCatId": 936,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 690,
-  "QuoteLinesTemplate": 981,
-  "ConfirmationLinesTemplate": 874,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 306,
+  "QuoteLinesTemplate": 463,
+  "ConfirmationLinesTemplate": 233,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 621,
-  "MinEarningPercent": 950,
-  "GroupQuoteLinesBy": 735,
-  "SortGroupLinesBy": 453,
+  "MaxDiscountPercent": 53,
+  "MinEarningPercent": 809,
+  "GroupQuoteLinesBy": 210,
+  "SortGroupLinesBy": 863,
   "Stages": [
     {
-      "Id": 943,
-      "Name": "Larkin, Ritchie and Windler",
-      "ToolTip": "Et quo ut.",
-      "Deleted": false,
-      "Rank": 372,
-      "Type": "placeat",
-      "ColorBlock": 765,
-      "IconHint": "occaecati",
+      "Id": 174,
+      "Name": "Mitchell-Christiansen",
+      "ToolTip": "Totam recusandae deserunt illo.",
+      "Deleted": true,
+      "Rank": 358,
+      "Type": "magnam",
+      "ColorBlock": 198,
+      "IconHint": "aliquam",
       "Selected": false,
-      "LastChanged": "2024-06-19T10:18:01.1606262+02:00",
+      "LastChanged": "2007-10-23T13:13:33.5578902+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Dr. Alexis Schuyler Kilback IV",
+      "ExtraInfo": "ab",
+      "StyleHint": "vero",
+      "Hidden": false,
+      "FullName": "Chadrick Padberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 335
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   }
 }

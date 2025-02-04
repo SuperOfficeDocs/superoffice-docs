@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "rerum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-05-11T10:17:55.9884373+02:00",
-  "Amount": 20875.574,
-  "SaleId": 788,
-  "Earning": 19493.48,
-  "EarningPercent": 31202.104,
-  "Heading": "voluptas",
-  "Number": "729806",
-  "Probability": 155,
-  "CreatedDate": "2001-03-20T10:17:55.9884373+01:00",
-  "UpdatedDate": "2013-04-18T10:17:55.9884373+02:00",
+  "Saledate": "2009-12-19T13:13:23.8206787+01:00",
+  "Amount": 4155.684,
+  "SaleId": 287,
+  "Earning": 25065.732,
+  "EarningPercent": 30528.293999999998,
+  "Heading": "aut",
+  "Number": "900713",
+  "Probability": 430,
+  "CreatedDate": "2012-10-28T13:13:23.8206787+01:00",
+  "UpdatedDate": "2020-03-15T13:13:23.8206787+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 213,
+  "ActiveLinks": 283,
   "Links": [
     {
-      "EntityName": "Borer, Graham and Auer",
-      "Id": 712,
-      "Description": "Visionary mobile firmware",
-      "ExtraInfo": "cumque",
-      "LinkId": 327
+      "EntityName": "Hoppe, O'Keefe and Krajcik",
+      "Id": 343,
+      "Description": "Cloned maximized algorithm",
+      "ExtraInfo": "et",
+      "LinkId": 824
     },
     {
-      "EntityName": "Borer, Graham and Auer",
-      "Id": 712,
-      "Description": "Visionary mobile firmware",
-      "ExtraInfo": "cumque",
-      "LinkId": 327
+      "EntityName": "Hoppe, O'Keefe and Krajcik",
+      "Id": 343,
+      "Description": "Cloned maximized algorithm",
+      "ExtraInfo": "et",
+      "LinkId": 824
     }
   ],
-  "NextDueDate": "2022-12-02T10:17:55.9884373+01:00",
-  "Postit": "sequi",
+  "NextDueDate": "2008-12-10T13:13:23.8206787+01:00",
+  "Postit": "cum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-01-05T10:17:55.9884373+01:00",
+  "ReopenDate": "2018-07-16T13:13:23.8206787+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Heller-Zieme",
-      "Comment": "in",
-      "StakeholderRoleId": 643,
-      "CountryId": 868,
-      "PersonId": 952,
-      "EmailDescription": "grayce.denesik@rennergutmann.uk",
-      "EmailId": 315,
-      "EmailAddress": "buford.mante@macejkovic.uk",
-      "PhoneId": 18,
-      "ContactName": "Jast, Braun and Osinski",
-      "ContactId": 383,
-      "SaleId": 626,
-      "Mrmrs": "exercitationem",
-      "Firstname": "Laverne",
-      "MiddleName": "Graham, Nicolas and Bashirian",
-      "Lastname": "Turner",
-      "SaleStakeholderId": 297,
-      "Rank": 411,
-      "Phone": "(807)571-8018 x710"
+      "StakeholderRoleName": "O'Kon, Rippin and Schimmel",
+      "Comment": "sint",
+      "StakeholderRoleId": 261,
+      "CountryId": 317,
+      "PersonId": 435,
+      "EmailDescription": "darrell@rutherford.co.uk",
+      "EmailId": 507,
+      "EmailAddress": "jan_langosh@effertz.name",
+      "PhoneId": 698,
+      "ContactName": "Flatley, Nolan and Morissette",
+      "ContactId": 530,
+      "SaleId": 331,
+      "Mrmrs": "veritatis",
+      "Firstname": "Christy",
+      "MiddleName": "Skiles-Cremin",
+      "Lastname": "Ebert",
+      "SaleStakeholderId": 994,
+      "Rank": 687,
+      "Phone": "221.199.4886 x589"
     }
   ],
-  "ActiveErpLinks": 317,
+  "ActiveErpLinks": 639,
   "UserDefinedFields": {
-    "SuperOffice:1": "1708825895",
-    "SuperOffice:2": "Frieda Berge"
+    "SuperOffice:1": "1788475391",
+    "SuperOffice:2": "Vesta Schamberger"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "culpa"
+    "ExtraFields1": "est",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "aut"
+    "CustomFields1": "autem",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2019-06-10T10:17:55.9884373+02:00",
-  "PublishTo": "2019-07-24T10:17:55.9884373+02:00",
-  "PublishFrom": "2005-08-01T10:17:55.9884373+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-01-24T13:13:23.8206787+01:00",
+  "PublishTo": "2005-06-25T13:13:23.8206787+02:00",
+  "PublishFrom": "2020-10-08T13:13:23.8206787+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 89,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "maiores"
     },
     {
-      "VisibleId": 89,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "maiores"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consequuntur",
+  "SaleText": "labore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-06-24T10:17:55.9884373+02:00",
-  "Amount": 5888.786,
-  "SaleId": 121,
-  "Earning": 18725.649999999998,
-  "EarningPercent": 4265.374,
-  "Heading": "officia",
-  "Number": "1812647",
-  "Probability": 115,
-  "CreatedDate": "2000-11-14T10:17:55.9884373+01:00",
-  "UpdatedDate": "2024-08-31T10:17:55.9884373+02:00",
+  "Saledate": "2017-03-08T13:13:23.8363004+01:00",
+  "Amount": 28942.489999999998,
+  "SaleId": 963,
+  "Earning": 28209.134,
+  "EarningPercent": 7217.602,
+  "Heading": "ab",
+  "Number": "717621",
+  "Probability": 231,
+  "CreatedDate": "2002-06-24T13:13:23.8363004+02:00",
+  "UpdatedDate": "2011-01-03T13:13:23.8363004+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 330,
+  "ActiveLinks": 387,
   "Links": [
     {
-      "EntityName": "Runte, Wilkinson and Tremblay",
-      "Id": 481,
-      "Description": "Distributed zero defect moderator",
-      "ExtraInfo": "quasi",
-      "LinkId": 212,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 501
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2007-04-20T10:17:55.9884373+02:00",
-  "Postit": "voluptas",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2010-08-12T10:17:55.9884373+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Heaney, Price and Dare",
-      "Comment": "natus",
-      "StakeholderRoleId": 51,
-      "CountryId": 287,
-      "PersonId": 20,
-      "EmailDescription": "jermain@sauer.co.uk",
-      "EmailId": 523,
-      "EmailAddress": "toney@medhursthilll.us",
-      "PhoneId": 225,
-      "ContactName": "Kub-Casper",
-      "ContactId": 533,
-      "SaleId": 63,
-      "Mrmrs": "aut",
-      "Firstname": "Chandler",
-      "MiddleName": "McCullough, Reichert and Thiel",
-      "Lastname": "Sawayn",
-      "SaleStakeholderId": 170,
-      "Rank": 189,
-      "Phone": "206.985.1852 x076",
+      "EntityName": "Ondricka LLC",
+      "Id": 719,
+      "Description": "Customer-focused methodical approach",
+      "ExtraInfo": "nesciunt",
+      "LinkId": 325,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldLength": 562
         }
       }
     }
   ],
-  "ActiveErpLinks": 788,
+  "NextDueDate": "2001-04-23T13:13:23.8363004+02:00",
+  "Postit": "non",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2019-11-30T13:13:23.8363004+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Braun-Koelpin",
+      "Comment": "qui",
+      "StakeholderRoleId": 837,
+      "CountryId": 612,
+      "PersonId": 710,
+      "EmailDescription": "durward.little@robertsparker.ca",
+      "EmailId": 874,
+      "EmailAddress": "kelsi_reilly@streich.co.uk",
+      "PhoneId": 35,
+      "ContactName": "Wolff-Lind",
+      "ContactId": 493,
+      "SaleId": 640,
+      "Mrmrs": "eum",
+      "Firstname": "Vivianne",
+      "MiddleName": "Schaefer-Cormier",
+      "Lastname": "Kerluke",
+      "SaleStakeholderId": 665,
+      "Rank": 878,
+      "Phone": "895-679-9596 x6365",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 478
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 3,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Wellington Madelynn Hilpert DDS",
-    "SuperOffice:2": "Sandy Greenfelder"
+    "SuperOffice:1": "Eugene Kulas",
+    "SuperOffice:2": "Cydney Schinner"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "repudiandae"
+    "CustomFields1": "veniam",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "1997-08-27T10:17:55.9884373+02:00",
-  "PublishTo": "2011-09-06T10:17:55.9884373+02:00",
-  "PublishFrom": "2004-10-24T10:17:55.9884373+02:00",
+  "PublishEventDate": "2012-03-02T13:13:23.8363004+01:00",
+  "PublishTo": "2010-03-28T13:13:23.8363004+02:00",
+  "PublishFrom": "2008-04-07T13:13:23.8363004+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 663
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 663
         }
       }
     }
@@ -395,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 457
     }
   }
 }

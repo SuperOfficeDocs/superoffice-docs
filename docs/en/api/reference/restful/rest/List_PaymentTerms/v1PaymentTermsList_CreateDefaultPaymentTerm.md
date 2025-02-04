@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 934,
-  "Name": "Carter Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 337,
-  "Rank": 215,
+  "Id": 472,
+  "Name": "Pagac, Lakin and Herzog",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 53,
+  "Rank": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 897
     }
   }
 }

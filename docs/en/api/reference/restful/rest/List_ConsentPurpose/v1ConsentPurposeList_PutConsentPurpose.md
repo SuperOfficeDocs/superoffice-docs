@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 11,
-  "Name": "Eichmann-Waters",
-  "ConsentText": "qui",
+  "ConsentPurposeId": 587,
+  "Name": "Sanford-Kulas",
+  "ConsentText": "odio",
   "FormText": "ut",
-  "Key": "omnis",
-  "Tooltip": "dolorem",
-  "Active": 127,
-  "UpdatedDate": "2014-03-24T10:18:00.9574888+01:00",
+  "Key": "dolorum",
+  "Tooltip": "ipsam",
+  "Active": 110,
+  "UpdatedDate": "2008-08-08T13:13:32.9018014+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 439,
-  "PrivacyStatementDesc": "facilis",
+  "Rank": 654,
+  "PrivacyStatementDesc": "voluptatem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 181,
-  "Name": "Botsford-Tremblay",
-  "ConsentText": "animi",
-  "FormText": "voluptas",
-  "Key": "quia",
-  "Tooltip": "molestias",
-  "Active": 437,
-  "UpdatedDate": "2015-08-31T10:18:00.9574888+02:00",
+  "ConsentPurposeId": 421,
+  "Name": "Klocko Group",
+  "ConsentText": "non",
+  "FormText": "necessitatibus",
+  "Key": "veritatis",
+  "Tooltip": "voluptas",
+  "Active": 93,
+  "UpdatedDate": "2020-06-10T13:13:32.9018014+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 497,
-  "PrivacyStatementDesc": "eaque",
+  "Rank": 658,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 106
     }
   }
 }

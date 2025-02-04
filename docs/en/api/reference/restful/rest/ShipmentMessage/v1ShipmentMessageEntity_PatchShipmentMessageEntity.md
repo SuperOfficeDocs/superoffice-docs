@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "neque",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 738,
-  "PlainMessage": "illo",
-  "HtmlMessage": "laboriosam",
-  "SmsMessage": "quia",
-  "Description": "Multi-tiered radical standardization",
-  "Subject": "quia",
-  "FolderId": 281,
-  "HeaderField": "eaque",
-  "Design": "quia",
+  "ShipmentMessageId": 98,
+  "PlainMessage": "et",
+  "HtmlMessage": "repellendus",
+  "SmsMessage": "iusto",
+  "Description": "Open-architected full-range neural-net",
+  "Subject": "quo",
+  "FolderId": 27,
+  "HeaderField": "quasi",
+  "Design": "architecto",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Organic secondary Graphical User Interface",
-  "AccessKey": "est",
-  "DocumentMessage": 463,
-  "Registered": "2014-11-22T10:18:00.723098+01:00",
-  "RegisteredAssociateId": 229,
-  "Updated": "2020-07-19T10:18:00.723098+02:00",
-  "UpdatedAssociateId": 118,
-  "UpdatedCount": 18,
+  "LongDescription": "Distributed systemic data-warehouse",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 600,
+  "Registered": "2011-08-05T13:13:32.3392746+02:00",
+  "RegisteredAssociateId": 648,
+  "Updated": "2016-06-16T13:13:32.3392746+02:00",
+  "UpdatedAssociateId": 341,
+  "UpdatedCount": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 624
     }
   },
   "_Links": {

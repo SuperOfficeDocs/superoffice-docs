@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 112
+  "QuoteId": 222
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 370,
-    "ERPQuoteVersionKey": "autem",
-    "QuoteId": 198,
-    "Description": "User-friendly assymetric pricing structure",
-    "Number": "887935",
+    "QuoteVersionId": 776,
+    "ERPQuoteVersionKey": "nam",
+    "QuoteId": 179,
+    "Description": "Balanced national conglomeration",
+    "Number": "1447803",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 997,
-    "SentDate": "2017-09-06T10:17:55.9259336+02:00",
-    "FollowupId": 57,
-    "ExpirationDate": "2001-02-07T10:17:55.9259336+01:00",
-    "DeliveryCountryId": 492,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 396,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "reiciendis",
-    "ERPPaymentTypeKey": "repudiandae",
-    "ERPDeliveryTermsKey": "distinctio",
-    "ERPDeliveryTypeKey": "et",
-    "Rank": 848,
-    "ApprovedBy": 609,
-    "ApprovedText": "nesciunt",
-    "ApprovedRegisteredBy": 773,
-    "ApprovedRegisteredDate": "2020-09-19T10:17:55.9259336+02:00",
-    "ExtraField1": "nam",
-    "ExtraField2": "est",
-    "ExtraField3": "sint",
-    "ExtraField4": "sed",
-    "ExtraField5": "reiciendis",
-    "LastRecalculated": "2009-01-13T10:17:55.9259336+01:00",
-    "Updated": "2015-10-03T10:17:55.9259336+02:00",
-    "UpdatedAssociateId": 624,
-    "Registered": "2007-10-31T10:17:55.9259336+01:00",
-    "RegisteredAssociateId": 152,
-    "RequestAssociateId": 279,
-    "RequestComment": "deleniti",
+    "Reason": "syndicate distributed web services",
+    "LikelyQuoteAlternativeId": 11,
+    "SentDate": "2002-02-06T13:13:23.6957086+01:00",
+    "FollowupId": 344,
+    "ExpirationDate": "2015-10-14T13:13:23.6957086+02:00",
+    "DeliveryCountryId": 436,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 463,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "hic",
+    "ERPPaymentTypeKey": "asperiores",
+    "ERPDeliveryTermsKey": "maxime",
+    "ERPDeliveryTypeKey": "saepe",
+    "Rank": 118,
+    "ApprovedBy": 463,
+    "ApprovedText": "repudiandae",
+    "ApprovedRegisteredBy": 812,
+    "ApprovedRegisteredDate": "2012-12-12T13:13:23.6957086+01:00",
+    "ExtraField1": "eum",
+    "ExtraField2": "sit",
+    "ExtraField3": "ea",
+    "ExtraField4": "qui",
+    "ExtraField5": "aliquid",
+    "LastRecalculated": "2018-03-26T13:13:23.6957086+02:00",
+    "Updated": "2016-08-14T13:13:23.6957086+02:00",
+    "UpdatedAssociateId": 821,
+    "Registered": "2014-11-24T13:13:23.6957086+01:00",
+    "RegisteredAssociateId": 740,
+    "RequestAssociateId": 816,
+    "RequestComment": "accusantium",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 712,
-        "ERPQuoteAlternativeKey": "culpa",
-        "QuoteVersionId": 660,
-        "Name": "Cronin-Kris",
-        "Description": "Switchable bi-directional core",
+        "QuoteAlternativeId": 991,
+        "ERPQuoteAlternativeKey": "voluptates",
+        "QuoteVersionId": 318,
+        "Name": "Bins-Kuhn",
+        "Description": "Synergized 24 hour alliance",
         "Status": "Error",
-        "Reason": "facilitate virtual supply-chains",
-        "ERPDiscountPercent": 2381.84,
-        "ERPDiscountAmount": 11128.833999999999,
-        "DiscountPercent": 9088.6,
-        "DiscountAmount": 23846.606,
+        "Reason": "",
+        "ERPDiscountPercent": 21884.721999999998,
+        "ERPDiscountAmount": 7531.0019999999995,
+        "DiscountPercent": 30963.92,
+        "DiscountAmount": 17058.362,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "id",
-        "VAT": 21461.631999999998,
-        "EarningPercent": 30616.046,
-        "EarningAmount": 25457.482,
-        "SubTotal": 23818.399999999998,
-        "TotalPrice": 19045.318,
-        "ExtraField1": "aperiam",
-        "ExtraField2": "ad",
-        "ExtraField3": "consequatur",
-        "ExtraField4": "perferendis",
-        "ExtraField5": "vel",
+        "VATInfo": "voluptatibus",
+        "VAT": 896.324,
+        "EarningPercent": 30725.736,
+        "EarningAmount": 10028.8,
+        "SubTotal": 26980.606,
+        "TotalPrice": 10339.065999999999,
+        "ExtraField1": "illum",
+        "ExtraField2": "qui",
+        "ExtraField3": "sit",
+        "ExtraField4": "minima",
+        "ExtraField5": "facere",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 795
+            "FieldType": "System.Int32",
+            "FieldLength": 602
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 923
       }
     }
   }

@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 733,
-  "Name": "Collier, Reichert and Bailey",
-  "Tooltip": "qui",
+  "RoleId": 199,
+  "Name": "Rice Group",
+  "Tooltip": "debitis",
   "RoleType": "Anonymous",
-  "Deleted": 498,
-  "Rank": 278,
-  "Created": "2015-08-29T10:17:56.3165751+02:00",
-  "UseCategories": 523,
+  "Deleted": 716,
+  "Rank": 291,
+  "Created": "2003-09-12T13:13:24.4621693+02:00",
+  "UseCategories": 9,
   "CreatedBy": null,
-  "Updated": "2000-07-05T10:17:56.3165751+02:00",
+  "Updated": "2017-10-29T13:13:24.4621693+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 383,
-  "Name": "Feeney-Batz",
-  "Tooltip": "recusandae",
+  "RoleId": 212,
+  "Name": "Daugherty, Tillman and Wiza",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 1001,
-  "Rank": 96,
-  "Created": "2011-09-16T10:17:56.3165751+02:00",
-  "UseCategories": 806,
+  "Deleted": 358,
+  "Rank": 391,
+  "Created": "2001-11-26T13:13:24.4621693+01:00",
+  "UseCategories": 598,
   "CreatedBy": null,
-  "Updated": "2014-02-18T10:17:56.3165751+01:00",
+  "Updated": "2015-06-05T13:13:24.4621693+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 839
     }
   }
 }

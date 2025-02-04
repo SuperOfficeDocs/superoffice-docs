@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 9,
-  "PersonId": 590,
-  "AppointmentId": 475,
-  "DocumentId": 49,
-  "SaleId": 858,
-  "SelectionId": 178,
-  "ProjectId": 894,
+  "ContactId": 590,
+  "PersonId": 642,
+  "AppointmentId": 147,
+  "DocumentId": 165,
+  "SaleId": 208,
+  "SelectionId": 995,
+  "ProjectId": 902,
   "CustomTags": {
-    "CustomTags1": "assumenda",
-    "CustomTags2": "consectetur"
+    "CustomTags1": "pariatur",
+    "CustomTags2": "vel"
   },
-  "UiCulture": "optio"
+  "UiCulture": "dolores"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 868,
+  "DocumentId": 512,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nihil",
-  "Header": "cumque",
-  "Name": "Bayer, VonRueden and Mertz",
-  "OurRef": "voluptates",
-  "YourRef": "necessitatibus",
-  "CreatedDate": "2023-07-26T10:17:55.5040321+02:00",
-  "UpdatedDate": "2012-03-16T10:17:55.5040321+01:00",
-  "Description": "Re-contextualized client-driven toolset",
+  "Attention": "veritatis",
+  "Header": "dolores",
+  "Name": "Hauck Inc and Sons",
+  "OurRef": "debitis",
+  "YourRef": "suscipit",
+  "CreatedDate": "2010-12-31T13:13:22.867778+01:00",
+  "UpdatedDate": "2012-09-22T13:13:22.867778+02:00",
+  "Description": "Open-source bandwidth-monitored data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-06-06T10:17:55.5040321+02:00",
-  "ExternalRef": "unde",
+  "Date": "2024-11-20T13:13:22.867778+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 417,
+  "ActiveLinks": 606,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schneider, Wisozk and Wisoky",
-      "Id": 632,
-      "Description": "Digitized leading edge info-mediaries",
-      "ExtraInfo": "id",
-      "LinkId": 834,
+      "EntityName": "Thiel Inc and Sons",
+      "Id": 814,
+      "Description": "Organized demand-driven collaboration",
+      "ExtraInfo": "similique",
+      "LinkId": 846,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 487,
-  "Snum": 541,
+  "SuggestedDocumentId": 14,
+  "Snum": 933,
   "UserDefinedFields": {
-    "SuperOffice:1": "Carley Jennifer Marvin V",
-    "SuperOffice:2": "Melany Botsford"
+    "SuperOffice:1": "Mrs. Berenice Jakubowski I",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
+    "CustomFields1": "sed",
     "CustomFields2": "vero"
   },
-  "PublishEventDate": "2018-02-26T10:17:55.5040321+01:00",
-  "PublishTo": "2001-02-20T10:17:55.5040321+01:00",
-  "PublishFrom": "2000-05-09T10:17:55.5040321+02:00",
+  "PublishEventDate": "2024-06-05T13:13:22.867778+02:00",
+  "PublishTo": "2010-02-26T13:13:22.867778+01:00",
+  "PublishFrom": "2015-03-20T13:13:22.867778+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 626,
+      "VisibleId": 324,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 434
         }
       }
     },
     {
-      "VisibleId": 626,
+      "VisibleId": 324,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 434
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

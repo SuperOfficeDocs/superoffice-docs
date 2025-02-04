@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 684,
-  "Name": "Franecki Group",
-  "Tooltip": "necessitatibus",
+  "Id": 882,
+  "Name": "Gleason, Wuckert and Mertz",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 322,
+  "Rank": 257,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Tromp, Denesik and Von",
-  "Tooltip": "natus",
+  "Id": 268,
+  "Name": "Gleason-Swaniawski",
+  "Tooltip": "veritatis",
   "Deleted": true,
-  "Rank": 925,
+  "Rank": 314,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldLength": 648
     }
   }
 }

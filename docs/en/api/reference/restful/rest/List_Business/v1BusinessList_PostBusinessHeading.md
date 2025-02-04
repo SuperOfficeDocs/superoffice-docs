@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 773,
-  "Name": "Deckow, Hauck and Von",
-  "Tooltip": "rerum",
+  "HeadingId": 432,
+  "Name": "Deckow-Crooks",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 268,
-  "UdListDefinitionId": 739
+  "Rank": 657,
+  "UdListDefinitionId": 625
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 63,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "accusamus",
+  "HeadingId": 566,
+  "Name": "Eichmann Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 251,
-  "UdListDefinitionId": 31,
+  "Rank": 156,
+  "UdListDefinitionId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 935
+      "FieldLength": 81
     }
   }
 }

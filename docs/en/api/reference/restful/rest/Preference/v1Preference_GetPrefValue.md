@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "maiores",
+  "RawValue": "ea",
   "Specification": null,
-  "DisplayValue": "pariatur",
-  "DisplayTooltip": "explicabo",
+  "DisplayValue": "in",
+  "DisplayTooltip": "consequuntur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 528,
-  "PrefDescId": 344,
-  "TableName": "Ruecker-Klocko",
-  "UserPreferenceId": 613,
+  "TargetId": 75,
+  "PrefDescId": 305,
+  "TableName": "Reilly Group",
+  "UserPreferenceId": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 416
     }
   }
 }

@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "a",
+      "RawValue": "dicta",
       "Specification": null,
-      "DisplayValue": "ut",
-      "DisplayTooltip": "laudantium",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "animi",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 692,
-      "PrefDescId": 456,
-      "TableName": "Ferry LLC",
-      "UserPreferenceId": 891
+      "TargetId": 371,
+      "PrefDescId": 706,
+      "TableName": "West, Baumbach and Wilderman",
+      "UserPreferenceId": 806
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

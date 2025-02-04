@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 192,
-  "CountryId": 734
+  "ContactId": 839,
+  "CountryId": 223
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 15829.833999999999,
-  "Wgs84Longitude": 16046.08,
+  "Wgs84Latitude": 25448.079999999998,
+  "Wgs84Longitude": 27259.532,
   "LocalizedAddress": [
     [
       {
-        "Name": "Wolff Inc and Sons",
-        "Value": "accusantium",
-        "Tooltip": "voluptas",
-        "Label": "iusto",
-        "ValueLength": 622,
-        "AddressType": "et",
+        "Name": "Rippin-Haley",
+        "Value": "voluptas",
+        "Tooltip": "a",
+        "Label": "eos",
+        "ValueLength": 874,
+        "AddressType": "quisquam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 189
           }
         }
       }
     ],
     [
       {
-        "Name": "Waelchi-Schulist",
-        "Value": "sunt",
-        "Tooltip": "atque",
-        "Label": "quis",
-        "ValueLength": 829,
-        "AddressType": "quidem",
+        "Name": "Hamill, Murray and Effertz",
+        "Value": "ut",
+        "Tooltip": "laboriosam",
+        "Label": "ad",
+        "ValueLength": 745,
+        "AddressType": "quo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldType": "System.String",
+            "FieldLength": 258
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "distinctio",
+  "Formatted": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 809
     }
   }
 }

@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 278,
-  "Name": "Herzog, Runolfsson and Zulauf",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 456,
+  "WebPanelId": 425,
+  "Name": "King Group",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 953,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Orn LLC",
+  "ShowInStatusBar": false,
+  "WindowName": "Hauck, Harber and Barton",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 178,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "ab",
+  "Icon": 100,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 9,
-  "Name": "Morissette-Schuster",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 602,
+  "WebPanelId": 928,
+  "Name": "Bahringer-Pfannerstill",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 678,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Marks-Yost",
+  "WindowName": "Konopelski-Lesch",
   "Url": "http://www.example.com/",
-  "ProgId": "sed",
-  "Icon": 572,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "in",
+  "Icon": 471,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

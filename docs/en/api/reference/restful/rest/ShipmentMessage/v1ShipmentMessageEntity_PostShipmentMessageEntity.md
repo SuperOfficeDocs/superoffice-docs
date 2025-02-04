@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 578,
-  "PlainMessage": "quos",
-  "HtmlMessage": "rem",
-  "SmsMessage": "illum",
-  "Description": "Persistent fresh-thinking infrastructure",
-  "Subject": "voluptatem",
-  "FolderId": 110,
-  "HeaderField": "neque",
-  "Design": "dolorem",
+  "ShipmentMessageId": 201,
+  "PlainMessage": "sed",
+  "HtmlMessage": "quasi",
+  "SmsMessage": "esse",
+  "Description": "Stand-alone methodical adapter",
+  "Subject": "qui",
+  "FolderId": 170,
+  "HeaderField": "eum",
+  "Design": "minus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Innovative responsive artificial intelligence",
+  "LongDescription": "Stand-alone optimizing toolset",
   "AccessKey": "et",
-  "DocumentMessage": 728,
-  "Registered": "2010-02-27T10:18:00.723098+01:00",
-  "RegisteredAssociateId": 385,
-  "Updated": "1998-03-07T10:18:00.723098+01:00",
-  "UpdatedAssociateId": 784,
-  "UpdatedCount": 529
+  "DocumentMessage": 540,
+  "Registered": "2017-01-12T13:13:32.3392746+01:00",
+  "RegisteredAssociateId": 851,
+  "Updated": "2009-12-10T13:13:32.3392746+01:00",
+  "UpdatedAssociateId": 883,
+  "UpdatedCount": 362
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 44,
-  "PlainMessage": "minima",
-  "HtmlMessage": "enim",
-  "SmsMessage": "accusamus",
-  "Description": "Extended didactic product",
-  "Subject": "minima",
-  "FolderId": 818,
-  "HeaderField": "voluptatem",
-  "Design": "ducimus",
+  "ShipmentMessageId": 462,
+  "PlainMessage": "aliquid",
+  "HtmlMessage": "placeat",
+  "SmsMessage": "corporis",
+  "Description": "Digitized well-modulated synergy",
+  "Subject": "aspernatur",
+  "FolderId": 178,
+  "HeaderField": "quam",
+  "Design": "doloremque",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Multi-tiered responsive array",
-  "AccessKey": "et",
-  "DocumentMessage": 241,
-  "Registered": "2018-12-18T10:18:00.723098+01:00",
-  "RegisteredAssociateId": 299,
-  "Updated": "2022-07-02T10:18:00.723098+02:00",
-  "UpdatedAssociateId": 290,
-  "UpdatedCount": 424,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Self-enabling discrete workforce",
+  "AccessKey": "similique",
+  "DocumentMessage": 263,
+  "Registered": "2016-03-27T13:13:32.3392746+02:00",
+  "RegisteredAssociateId": 174,
+  "Updated": "2013-01-03T13:13:32.3392746+01:00",
+  "UpdatedAssociateId": 906,
+  "UpdatedCount": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 299
     }
   },
   "_Links": {

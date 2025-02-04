@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetBusinessList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Value": "similique",
-    "Tooltip": "ducimus",
+    "Id": 994,
+    "Value": "corporis",
+    "Tooltip": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 591
       }
     }
   },
   {
-    "Id": 609,
-    "Value": "similique",
-    "Tooltip": "ducimus",
+    "Id": 994,
+    "Value": "corporis",
+    "Tooltip": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 591
       }
     }
   }

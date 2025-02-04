@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Prosacco, Swaniawski and Kozey",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 371,
-    "Rank": 628
+    "Id": 377,
+    "Name": "Doyle, Pagac and Abernathy",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 379,
+    "Rank": 902
   },
   {
-    "Id": 302,
-    "Name": "Prosacco, Swaniawski and Kozey",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 371,
-    "Rank": 628
+    "Id": 377,
+    "Name": "Doyle, Pagac and Abernathy",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "UdListDefinitionId": 379,
+    "Rank": 902
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Bosco Inc and Sons",
-    "Tooltip": "eveniet",
+    "Id": 941,
+    "Name": "Lynch-Ledner",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "UdListDefinitionId": 285,
-    "Rank": 233,
+    "UdListDefinitionId": 464,
+    "Rank": 940,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 54
       }
     }
   }

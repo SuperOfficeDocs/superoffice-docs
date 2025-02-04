@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 285,
-  "ToAssociate": "quae"
+  "ChatSessionId": 785,
+  "ToAssociate": "nemo"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 88,
-  "TopicId": 110,
+  "ChatSessionId": 709,
+  "TopicId": 212,
   "User": null,
   "Person": null,
-  "CustomerAlias": "distinctio",
-  "CustomerHost": "quibusdam",
-  "CustomerName": "Heller, Rutherford and Bahringer",
-  "CustomerEmail": "odell_okeefe@osinski.co.uk",
-  "CustomerPhone": "519-290-9347 x1091",
+  "CustomerAlias": "ut",
+  "CustomerHost": "animi",
+  "CustomerName": "Schamberger, Buckridge and Breitenberg",
+  "CustomerEmail": "joshuah.mertz@dach.uk",
+  "CustomerPhone": "377-724-7058 x7834",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Heller LLC",
+  "CustomerCompanyName": "Kunde-Goldner",
   "Status": "Closed",
-  "FirstMessage": "amet",
+  "FirstMessage": "aut",
   "LastMessage": "et",
-  "WhenRequested": "2017-04-30T10:17:55.1758881+02:00",
-  "WhenStarted": "2018-03-19T10:17:55.1758881+01:00",
-  "WhenEnded": "2002-06-27T10:17:55.1758881+02:00",
-  "WhenIdle": "2016-10-28T10:17:55.1758881+02:00",
-  "WhenFetched": "2013-07-26T10:17:55.1758881+02:00",
-  "SessionKey": "itaque",
-  "InitialQueuePos": 67,
-  "AlertLevel": 671,
-  "Rank": 246,
+  "WhenRequested": "2005-08-19T13:13:22.2270601+02:00",
+  "WhenStarted": "2018-08-11T13:13:22.2270601+02:00",
+  "WhenEnded": "2004-07-02T13:13:22.2270601+02:00",
+  "WhenIdle": "2010-04-03T13:13:22.2270601+02:00",
+  "WhenFetched": "2008-05-21T13:13:22.2270601+02:00",
+  "SessionKey": "officiis",
+  "InitialQueuePos": 710,
+  "AlertLevel": 279,
+  "Rank": 497,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 121,
+  "Rating": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

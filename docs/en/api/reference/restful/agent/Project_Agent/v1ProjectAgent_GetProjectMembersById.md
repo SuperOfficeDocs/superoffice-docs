@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    680,
-    473
+    895,
+    701
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 835,
-    "ContactId": 870,
-    "ProjectId": 1001,
-    "ContactName": "Bahringer, Schneider and Rogahn",
+    "ProjectmemberId": 931,
+    "ContactId": 537,
+    "ProjectId": 835,
+    "ContactName": "Pfannerstill-Medhurst",
     "ContactDepartment": "",
-    "ProjectName": "Bradtke-Abernathy",
-    "EmailId": 543,
-    "EmailAddress": "fernando_homenick@strackeschuppe.info",
-    "CountryId": 300,
-    "Firstname": "Guillermo",
-    "MiddleName": "Torp, Donnelly and Kutch",
-    "Lastname": "Stark",
-    "PersonId": 367,
-    "Mrmrs": "fugiat",
-    "ProjectMemberTypeName": "Thompson-Thompson",
-    "Phone": "1-721-127-9806",
-    "PhoneId": 447,
-    "ProjectMemberTypeId": 775,
-    "EmailAddressName": "billie@maggiodibbert.info",
-    "Comment": "voluptatem",
-    "FullName": "Prof. Jaylon Rickey Morissette III",
+    "ProjectName": "Schiller, Cronin and Ruecker",
+    "EmailId": 457,
+    "EmailAddress": "arvilla@toy.info",
+    "CountryId": 423,
+    "Firstname": "Anya",
+    "MiddleName": "Boyer-Sanford",
+    "Lastname": "Gottlieb",
+    "PersonId": 667,
+    "Mrmrs": "tempore",
+    "ProjectMemberTypeName": "Dibbert, Bode and D'Amore",
+    "Phone": "405.690.0586 x17705",
+    "PhoneId": 56,
+    "ProjectMemberTypeId": 969,
+    "EmailAddressName": "reece.weissnat@nienow.biz",
+    "Comment": "officiis",
+    "FullName": "Trevor Dina Emmerich IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

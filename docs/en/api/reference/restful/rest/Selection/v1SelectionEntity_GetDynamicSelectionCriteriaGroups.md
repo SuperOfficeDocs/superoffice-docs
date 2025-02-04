@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Olson Inc and Sons",
-    "Description": "Stand-alone exuding utilisation",
-    "Rank": 744,
+    "Name": "Schiller Inc and Sons",
+    "Description": "Object-based fault-tolerant application",
+    "Rank": 485,
     "Restrictions": [
       {
-        "Name": "Howe LLC",
-        "Operator": "ut",
+        "Name": "Block-Prosacco",
+        "Operator": "sit",
         "Values": [
-          "sint",
-          "dignissimos"
+          "quam",
+          "ut"
         ],
         "DisplayValues": [
-          "sunt",
-          "qui"
+          "dolore",
+          "omnis"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 24,
         "InterOperator": "And",
-        "UniqueHash": 557
+        "UniqueHash": 770
       }
     ]
   },
   {
-    "Name": "Olson Inc and Sons",
-    "Description": "Stand-alone exuding utilisation",
-    "Rank": 744,
+    "Name": "Schiller Inc and Sons",
+    "Description": "Object-based fault-tolerant application",
+    "Rank": 485,
     "Restrictions": [
       {
-        "Name": "Howe LLC",
-        "Operator": "ut",
+        "Name": "Block-Prosacco",
+        "Operator": "sit",
         "Values": [
-          "sint",
-          "dignissimos"
+          "quam",
+          "ut"
         ],
         "DisplayValues": [
-          "sunt",
-          "qui"
+          "dolore",
+          "omnis"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 480,
+        "InterParenthesis": 24,
         "InterOperator": "And",
-        "UniqueHash": 557
+        "UniqueHash": 770
       }
     ]
   }

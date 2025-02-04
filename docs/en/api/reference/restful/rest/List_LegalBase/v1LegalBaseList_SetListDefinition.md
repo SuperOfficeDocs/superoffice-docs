@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343,
-  "Name": "Stoltenberg, Dach and Little",
-  "Tooltip": "repellat",
+  "Id": 570,
+  "Name": "Frami, O'Connell and Goldner",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 532,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true
+  "Rank": 459,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 913,
-  "Name": "Hills, DuBuque and Crona",
-  "Tooltip": "consequuntur",
+  "Id": 294,
+  "Name": "Quitzon, Beier and Kuvalis",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 238,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 551,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iste",
-  "InUseByUserDefinedFields": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 974
     }
   }
 }

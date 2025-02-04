@@ -77,7 +77,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ernser-Block"
+  "OwnerName": "Harris-Rice"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "earum",
+  "Message": "corporis",
   "Url": "http://www.example.com/"
 }
 ```

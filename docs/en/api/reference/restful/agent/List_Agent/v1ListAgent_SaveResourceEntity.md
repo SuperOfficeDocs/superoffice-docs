@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 939,
-  "Name": "Schroeder, Hickle and Gutmann",
-  "Rank": 881,
-  "Tooltip": "sed",
+  "ResourceId": 215,
+  "Name": "Hyatt, Brown and Wintheiser",
+  "Rank": 769,
+  "Tooltip": "magnam",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "eius"
+  "LocationAddress": "aperiam"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 330,
-  "Name": "Renner Inc and Sons",
-  "Rank": 891,
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "corrupti",
+  "ResourceId": 818,
+  "Name": "Lynch Inc and Sons",
+  "Rank": 738,
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 543
     }
   }
 }

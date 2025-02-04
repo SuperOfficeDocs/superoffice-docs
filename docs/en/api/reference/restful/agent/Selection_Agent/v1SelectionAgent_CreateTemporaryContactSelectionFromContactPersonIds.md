@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 386,
-      "ContactId": 406
+      "PersonId": 789,
+      "ContactId": 738
     },
     {
-      "PersonId": 386,
-      "ContactId": 406
+      "PersonId": 789,
+      "ContactId": 738
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental multimedia product",
-  "Postit": "quasi",
+  "Description": "Fundamental composite budgetary management",
+  "Postit": "officia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 381,
-  "IncludePerson": 976,
+  "GroupIdx": 895,
+  "IncludePerson": 264,
   "MemberCount": 99.99,
-  "Name": "Reichel-Corwin",
-  "PostitTextId": 870,
-  "CreatedDate": "2024-04-22T10:17:56.0353154+02:00",
-  "SelectionId": 55,
-  "SoundEx": "sint",
-  "Source": 475,
-  "TextId": 1000,
-  "UpdatedDate": "2004-01-03T10:17:56.0353154+01:00",
-  "UpdatedCount": 918,
-  "Visibility": 560,
+  "Name": "Hayes, Simonis and Kub",
+  "PostitTextId": 968,
+  "CreatedDate": "2021-07-09T13:13:23.9309404+02:00",
+  "SelectionId": 541,
+  "SoundEx": "iste",
+  "Source": 622,
+  "TextId": 496,
+  "UpdatedDate": "2019-06-07T13:13:23.9309404+02:00",
+  "UpdatedCount": 510,
+  "Visibility": 534,
   "SelectionType": "Combined",
   "CompanyUnique": false,
   "TargetTableNumber": 189,
-  "TargetTableName": "Heathcote LLC",
-  "Completed": false,
-  "LeftSelectionId": 792,
-  "RightSelectionId": 240,
+  "TargetTableName": "Mertz, Conroy and Hirthe",
+  "Completed": true,
+  "LeftSelectionId": 616,
+  "RightSelectionId": 14,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lakin-Kovacek",
-  "ShadowProviderName": "Cole-Eichmann",
-  "ChartKey": "beatae",
-  "LastLoaded": "2001-12-02T10:17:56.0353154+01:00",
-  "LastLoadedBy": 632,
+  "MainProviderName": "Rolfson-Runolfsdottir",
+  "ShadowProviderName": "Reichert, Waters and Treutel",
+  "ChartKey": "minus",
+  "LastLoaded": "2005-10-31T13:13:23.9309404+01:00",
+  "LastLoadedBy": 752,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-06-08T10:17:56.0353154+02:00",
-  "LastMembershipChangeBy": 290,
+  "LastMembershipChange": "2017-07-06T13:13:23.9309404+02:00",
+  "LastMembershipChangeBy": 668,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aliquid",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Effertz LLC",
-  "DashboardTileDefinitionId": 945,
+  "MainHeading": "deleniti",
+  "MemberTabHeading": "perferendis",
+  "MailingsProviderName": "Boyle, Franecki and Buckridge",
+  "DashboardTileDefinitionId": 528,
   "VisibleFor": [
     {
-      "VisibleId": 350,
+      "VisibleId": 324,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 894
         }
       }
     },
     {
-      "VisibleId": 350,
+      "VisibleId": 324,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 894
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 635
     }
   }
 }

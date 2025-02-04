@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "mollitia"
+  "QuoteLineExtraData": "accusantium"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nicolas LLC",
-    "Value": "et",
+    "Name": "Kreiger-Hansen",
+    "Value": "tempora",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   },
   {
-    "Name": "Nicolas LLC",
-    "Value": "et",
+    "Name": "Kreiger-Hansen",
+    "Value": "tempora",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

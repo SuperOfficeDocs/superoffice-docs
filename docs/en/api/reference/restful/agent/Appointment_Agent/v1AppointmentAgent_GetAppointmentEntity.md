@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=678
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=310
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-05-26T10:17:54.9727508+02:00",
-  "AppointmentId": 743,
-  "Description": "Right-sized homogeneous database",
-  "Title": "magnam",
-  "Agenda": "autem",
-  "InternalNotes": "et",
-  "StartDate": "2021-02-06T10:17:54.9727508+01:00",
-  "EndDate": "2013-12-22T10:17:54.9727508+01:00",
+  "CreatedDate": "2013-05-29T13:13:21.8208955+02:00",
+  "AppointmentId": 270,
+  "Description": "Implemented encompassing local area network",
+  "Title": "nesciunt",
+  "Agenda": "possimus",
+  "InternalNotes": "consequatur",
+  "StartDate": "2002-10-15T13:13:21.8208955+02:00",
+  "EndDate": "2013-02-18T13:13:21.8208955+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 946,
+  "MotherId": 259,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-03-23T10:17:54.9883767+01:00",
+  "UpdatedDate": "2014-06-19T13:13:21.8208955+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 242,
+  "ActiveLinks": 935,
   "Links": [
     {
-      "EntityName": "Ratke, Corwin and Hagenes",
-      "Id": 938,
-      "Description": "Operative 4th generation hub",
-      "ExtraInfo": "aut",
-      "LinkId": 809,
+      "EntityName": "Gleason, Strosin and Heller",
+      "Id": 620,
+      "Description": "Right-sized disintermediate methodology",
+      "ExtraInfo": "ut",
+      "LinkId": 644,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 354
+          "FieldType": "System.Int32",
+          "FieldLength": 679
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
-  "HasAlarm": true,
-  "ColorIndex": 689,
-  "IsFree": true,
+  "AlarmLeadTime": "dolor",
+  "HasAlarm": false,
+  "ColorIndex": 820,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "amet",
+  "LagTime": "in",
   "LeadTime": "et",
-  "Location": "sequi",
-  "RejectCounter": 922,
+  "Location": "sapiente",
+  "RejectCounter": 889,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 149,
-      "PersonId": 861,
-      "ContactId": 38,
-      "EmailId": 860,
+      "AssociateId": 510,
+      "PersonId": 229,
+      "ContactId": 207,
+      "EmailId": 88,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "charley.treutel@orn.biz",
-      "Description": "Front-line fresh-thinking infrastructure"
+      "EmailAddress": "dahlia.mills@bogan.name",
+      "Description": "Switchable executive budgetary management"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-03-05T10:17:54.9883767+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2021-09-05T13:13:21.8208955+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 945,
+  "PreferredTZLocation": 254,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 895,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 16,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eius",
+  "CentralserviceVideomeetId": "labore",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nicole Leffler",
-    "SuperOffice:2": "Shayna Schumm"
+    "SuperOffice:1": "565586471",
+    "SuperOffice:2": "Godfrey Ortiz"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "iure"
+    "CustomFields1": "omnis",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2003-01-27T10:17:54.9883767+01:00",
-  "PublishTo": "2002-05-28T10:17:54.9883767+02:00",
-  "PublishFrom": "2012-02-22T10:17:54.9883767+01:00",
+  "PublishEventDate": "2020-05-26T13:13:21.8208955+02:00",
+  "PublishTo": "2023-06-22T13:13:21.8208955+02:00",
+  "PublishFrom": "2014-09-19T13:13:21.8208955+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 886,
+      "VisibleId": 850,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 355
         }
       }
     },
     {
-      "VisibleId": 886,
+      "VisibleId": 850,
       "Visibility": "All",
-      "DisplayValue": "corporis",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 355
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised clear-thinking website",
-  "Postit": "non",
+  "Description": "Re-contextualized exuding data-warehouse",
+  "Postit": "nisi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 450,
-  "IncludePerson": 211,
+  "GroupIdx": 318,
+  "IncludePerson": 374,
   "MemberCount": 99.99,
-  "Name": "Gleichner, Skiles and Schuppe",
-  "PostitTextId": 586,
-  "CreatedDate": "2002-08-04T10:17:56.0196892+02:00",
-  "SelectionId": 884,
-  "SoundEx": "reiciendis",
-  "Source": 821,
-  "TextId": 491,
-  "UpdatedDate": "2009-04-04T10:17:56.0196892+02:00",
-  "UpdatedCount": 535,
-  "Visibility": 107,
+  "Name": "Upton, Collier and Davis",
+  "PostitTextId": 204,
+  "CreatedDate": "2006-07-22T13:13:23.8996346+02:00",
+  "SelectionId": 196,
+  "SoundEx": "maxime",
+  "Source": 380,
+  "TextId": 154,
+  "UpdatedDate": "2010-10-16T13:13:23.8996346+02:00",
+  "UpdatedCount": 344,
+  "Visibility": 649,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 835,
-  "TargetTableName": "Mosciski-Dickens",
+  "CompanyUnique": true,
+  "TargetTableNumber": 756,
+  "TargetTableName": "Toy LLC",
   "Completed": false,
-  "LeftSelectionId": 805,
-  "RightSelectionId": 668,
+  "LeftSelectionId": 733,
+  "RightSelectionId": 83,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kunde, Huel and Bayer",
-  "ShadowProviderName": "Kub-Watsica",
-  "ChartKey": "dolorum",
-  "LastLoaded": "2011-07-23T10:17:56.0196892+02:00",
-  "LastLoadedBy": 46,
+  "MainProviderName": "Davis, Glover and Grant",
+  "ShadowProviderName": "Goyette Inc and Sons",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2019-06-22T13:13:23.8996346+02:00",
+  "LastLoadedBy": 306,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-10-20T10:17:56.0196892+02:00",
-  "LastMembershipChangeBy": 27,
+  "LastMembershipChange": "2014-06-09T13:13:23.8996346+02:00",
+  "LastMembershipChangeBy": 354,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "similique",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Hackett-Keeling",
-  "DashboardTileDefinitionId": 877,
+  "MainHeading": "delectus",
+  "MemberTabHeading": "soluta",
+  "MailingsProviderName": "Nicolas, Brekke and Bechtelar",
+  "DashboardTileDefinitionId": 691,
   "VisibleFor": [
     {
-      "VisibleId": 228,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 177
         }
       }
     },
     {
-      "VisibleId": 228,
+      "VisibleId": 533,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 177
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldType": "System.Int32",
+      "FieldLength": 242
     }
   }
 }

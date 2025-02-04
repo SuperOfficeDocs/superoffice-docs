@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cummings, Berge and Gleason",
-    "DisplayName": "Trantow-Conn",
-    "Description": "Open-source asynchronous instruction set",
-    "ToolTip": "Nulla nisi ut est nisi.",
+    "Name": "Treutel, Kessler and Gulgowski",
+    "DisplayName": "Jerde LLC",
+    "Description": "User-centric 5th generation pricing structure",
+    "ToolTip": "Cum repudiandae.",
     "Actions": "Implicit",
-    "ActionData": "excepturi",
+    "ActionData": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 19
       }
     }
   }

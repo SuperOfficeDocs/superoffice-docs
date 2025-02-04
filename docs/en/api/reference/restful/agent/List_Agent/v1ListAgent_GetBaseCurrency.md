@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 845,
-  "Name": "Howe, O'Reilly and Upton",
-  "Tooltip": "ducimus",
-  "Rank": 705,
-  "Rate": 1585.8039999999999,
-  "Units": 17597.41,
+  "CurrencyId": 998,
+  "Name": "Schmitt LLC",
+  "Tooltip": "totam",
+  "Rank": 856,
+  "Rate": 27347.284,
+  "Units": 5838.642,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 867
     }
   }
 }

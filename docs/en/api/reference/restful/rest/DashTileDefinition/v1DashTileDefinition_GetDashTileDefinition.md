@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 626,
-  "Name": "Dibbert LLC",
-  "Description": "Fundamental object-oriented definition",
-  "DefaultHeight": 915,
-  "DefaultWidth": 663,
+  "DashboardTileDefinitionId": 674,
+  "Name": "Zulauf, VonRueden and Walsh",
+  "Description": "Intuitive 6th generation implementation",
+  "DefaultHeight": 509,
+  "DefaultWidth": 987,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ledner, Rau and Effertz",
-  "SelectionId": 719,
+  "EntityName": "Hahn-Cummings",
+  "SelectionId": 394,
   "CurrencyMode": "Base",
-  "CurrencyCode": "autem",
+  "CurrencyCode": "occaecati",
   "Measure": "Average",
-  "MeasureField": "praesentium",
-  "SortBy": "voluptas",
-  "LayoutConfig": "nam",
-  "SecondarySelectionId": 388,
-  "MeasureByField": "facere",
+  "MeasureField": "aut",
+  "SortBy": "ad",
+  "LayoutConfig": "perferendis",
+  "SecondarySelectionId": 107,
+  "MeasureByField": "ad",
   "Usage": "Dashboard",
-  "ProviderName": "Thompson, Tromp and Kemmer",
+  "ProviderName": "Mann-Murazik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 336
     }
   },
   "_Links": {

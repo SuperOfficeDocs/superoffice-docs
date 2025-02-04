@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lueilwitz-Lockman",
-    "Operator": "placeat",
+    "Name": "Kiehn Group",
+    "Operator": "blanditiis",
     "Values": [
-      "optio",
-      "accusamus"
+      "voluptatem",
+      "sapiente"
     ],
     "DisplayValues": [
-      "voluptas",
-      "sit"
+      "dolor",
+      "voluptas"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Strosin, Haley and Schiller",
-        "Operator": "totam",
+        "Name": "Willms Inc and Sons",
+        "Operator": "repellendus",
         "Values": [
-          "voluptatibus",
-          "eveniet"
+          "sed",
+          "provident"
         ],
         "DisplayValues": [
-          "eum",
-          "eveniet"
+          "dolorum",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 343,
+        "InterParenthesis": 665,
         "InterOperator": "And",
-        "UniqueHash": 230
+        "UniqueHash": 126
       }
     ],
-    "InterParenthesis": 419,
+    "InterParenthesis": 536,
     "InterOperator": "And",
-    "UniqueHash": 741
+    "UniqueHash": 231
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Buckridge, Wyman and Farrell",
-    "Operator": "esse",
+    "Name": "Monahan, Schumm and Mosciski",
+    "Operator": "architecto",
     "Values": [
-      "quia",
-      "asperiores"
+      "illo",
+      "mollitia"
     ],
     "DisplayValues": [
-      "et",
-      "sit"
+      "ipsum",
+      "dolorem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Franecki-Wolf",
-        "Operator": "natus",
+        "Name": "Ward Inc and Sons",
+        "Operator": "non",
         "Values": [
-          "nobis",
-          "harum"
+          "ut",
+          "inventore"
         ],
         "DisplayValues": [
           "et",
-          "odit"
+          "incidunt"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 499,
+        "InterParenthesis": 623,
         "InterOperator": "And",
-        "UniqueHash": 693
+        "UniqueHash": 423
       }
     ],
-    "InterParenthesis": 312,
+    "InterParenthesis": 543,
     "InterOperator": "And",
-    "UniqueHash": 628
+    "UniqueHash": 483
   }
 ]
 ```

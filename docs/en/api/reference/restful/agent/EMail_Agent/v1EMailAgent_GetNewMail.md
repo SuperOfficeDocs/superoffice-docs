@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    911,
-    851
+    843,
+    914
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 195,
-    "MessageId": "eius",
-    "Subject": "eum",
+    "ServerId": 727,
+    "MessageId": "eos",
+    "Subject": "eius",
     "From": null,
     "To": [
       {
-        "ContactId": 915,
-        "ContactName": "Tromp-Kuhn",
-        "PersonId": 785,
-        "PersonName": "O'Reilly, Hessel and Schultz",
-        "AssociateId": 603,
-        "Address": "consequatur",
-        "EmailId": 350,
+        "ContactId": 976,
+        "ContactName": "Johnston LLC",
+        "PersonId": 645,
+        "PersonName": "Schneider-Corkery",
+        "AssociateId": 436,
+        "Address": "dignissimos",
+        "EmailId": 26,
         "DuplicatePersonIds": [
-          983,
-          902
+          559,
+          545
         ],
-        "Name": "Heidenreich-Jewess",
+        "Name": "Kertzmann, Jacobs and Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 785
+            "FieldType": "System.Int32",
+            "FieldLength": 445
           }
         }
       }
     ],
-    "Sent": "2019-09-16T10:17:55.5509103+02:00",
+    "Sent": "2007-04-26T13:13:22.9458836+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 825,
+    "Size": 628,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 584
       }
     }
   }

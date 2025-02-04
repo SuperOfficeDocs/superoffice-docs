@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "occaecati",
-  "To": "molestiae",
-  "Subject": "aut",
-  "PlainBody": "delectus",
-  "HtmlBody": "doloribus",
+  "From": "omnis",
+  "To": "iste",
+  "Subject": "alias",
+  "PlainBody": "eveniet",
+  "HtmlBody": "illum",
   "AttachmentIds": [
-    870,
-    36
+    168,
+    533
   ],
-  "EventName": "Smith Group"
+  "EventName": "Mertz Inc and Sons"
 }
 ```
 

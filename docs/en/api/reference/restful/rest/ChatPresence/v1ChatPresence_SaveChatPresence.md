@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 895,
-    "DisplayName": "VonRueden Group",
-    "OngoingChats": 377,
+    "UserId": 731,
+    "DisplayName": "Jacobi, Sawayn and Beier",
+    "OngoingChats": 326,
     "Present": true,
     "ChatTopics": [
-      38,
-      177
+      162,
+      15
     ]
   },
   {
-    "UserId": 895,
-    "DisplayName": "VonRueden Group",
-    "OngoingChats": 377,
+    "UserId": 731,
+    "DisplayName": "Jacobi, Sawayn and Beier",
+    "OngoingChats": 326,
     "Present": true,
     "ChatTopics": [
-      38,
-      177
+      162,
+      15
     ]
   }
 ]

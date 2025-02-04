@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "McKenzie, Boyle and Legros",
-    "Tooltip": "voluptas",
+    "Id": 87,
+    "Name": "Flatley LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 903,
-    "Rank": 156
+    "UdListDefinitionId": 664,
+    "Rank": 999
   },
   {
-    "Id": 740,
-    "Name": "McKenzie, Boyle and Legros",
-    "Tooltip": "voluptas",
+    "Id": 87,
+    "Name": "Flatley LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 903,
-    "Rank": 156
+    "UdListDefinitionId": 664,
+    "Rank": 999
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Glover, Ernser and Kling",
-    "Tooltip": "omnis",
+    "Id": 123,
+    "Name": "Ward Inc and Sons",
+    "Tooltip": "tempore",
     "Deleted": true,
-    "UdListDefinitionId": 233,
-    "Rank": 463,
+    "UdListDefinitionId": 15,
+    "Rank": 173,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 296
+        "FieldLength": 220
       }
     }
   }

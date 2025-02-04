@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 142,
-    "Name": "Lubowitz-Jast",
-    "Tooltip": "eaque",
+    "HeadingId": 308,
+    "Name": "Schultz LLC",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 103,
-    "UdListDefinitionId": 810,
+    "Rank": 610,
+    "UdListDefinitionId": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

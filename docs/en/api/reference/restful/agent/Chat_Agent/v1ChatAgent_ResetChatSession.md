@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 933
+  "ChatSessionId": 929
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 629,
-  "TopicId": 398,
+  "ChatSessionId": 36,
+  "TopicId": 403,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "voluptatum",
-  "CustomerName": "Schneider, Abshire and Predovic",
-  "CustomerEmail": "eloise@wilkinsonkunde.us",
-  "CustomerPhone": "1-216-115-9723 x108",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Bartell, Gerhold and Hoppe",
+  "CustomerAlias": "praesentium",
+  "CustomerHost": "in",
+  "CustomerName": "Monahan-Jewess",
+  "CustomerEmail": "golda@gerholdkrajcik.name",
+  "CustomerPhone": "1-537-190-5948",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Turcotte LLC",
   "Status": "Closed",
-  "FirstMessage": "quisquam",
-  "LastMessage": "laborum",
-  "WhenRequested": "2009-07-16T10:17:55.20714+02:00",
-  "WhenStarted": "2008-06-26T10:17:55.20714+02:00",
-  "WhenEnded": "2019-09-25T10:17:55.20714+02:00",
-  "WhenIdle": "2009-05-03T10:17:55.20714+02:00",
-  "WhenFetched": "1998-11-30T10:17:55.20714+01:00",
-  "SessionKey": "occaecati",
-  "InitialQueuePos": 851,
-  "AlertLevel": 832,
-  "Rank": 19,
+  "FirstMessage": "fuga",
+  "LastMessage": "soluta",
+  "WhenRequested": "2017-10-24T13:13:22.2895453+02:00",
+  "WhenStarted": "2022-08-06T13:13:22.2895453+02:00",
+  "WhenEnded": "2021-04-26T13:13:22.2895453+02:00",
+  "WhenIdle": "1997-09-25T13:13:22.2895453+02:00",
+  "WhenFetched": "2006-01-08T13:13:22.2895453+01:00",
+  "SessionKey": "voluptatum",
+  "InitialQueuePos": 653,
+  "AlertLevel": 161,
+  "Rank": 601,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 435,
+  "Rating": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 593
     }
   }
 }

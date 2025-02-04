@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Kovacek Group",
+  "ConnectorName": "Baumbach, Roberts and Effertz",
   "ConnectionData": {
-    "ConnectionData1": "voluptatem",
-    "ConnectionData2": "soluta"
+    "ConnectionData1": "sunt",
+    "ConnectionData2": "dolorum"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "illum",
-  "TechExplanation": "a",
-  "ErrorCode": "aut",
+  "UserExplanation": "doloribus",
+  "TechExplanation": "unde",
+  "ErrorCode": "architecto",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldLength": 927
     }
   }
 }

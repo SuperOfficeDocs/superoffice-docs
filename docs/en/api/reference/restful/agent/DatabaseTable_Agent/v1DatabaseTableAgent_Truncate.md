@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feest, Schamberger and Hand"
+  "TableName": "Hansen-Eichmann"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "autem",
-  "Inserts": 406,
-  "Updates": 867,
-  "Deletes": 5,
+  "Message": "voluptatem",
+  "Inserts": 177,
+  "Updates": 282,
+  "Deletes": 73,
   "RowStatus": [
     {
-      "PrimaryKey": 753,
+      "PrimaryKey": 876,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quasi",
-        "eos"
+        "molestias",
+        "esse"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 806
         }
       }
     },
     {
-      "PrimaryKey": 753,
+      "PrimaryKey": 876,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quasi",
-        "eos"
+        "molestias",
+        "esse"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 806
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldLength": 34
     }
   }
 }

@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Will-Gibson",
-  "OldPassword": "magni",
-  "NewPassword": "dolorem"
+  "AssociateName": "Yost-Pouros",
+  "OldPassword": "laborum",
+  "NewPassword": "repudiandae"
 }
 ```
 

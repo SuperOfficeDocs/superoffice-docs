@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Koss, Kassulke and Kunze",
-  "Id": 366
+  "HistoryName": "Murphy-Steuber",
+  "Id": 557
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 677,
-  "Id": 527,
-  "HistoryName": "Bogisich, Simonis and Rowe",
-  "HistoryId": 676,
-  "AssociateId": 366,
-  "Name": "Gerlach Inc and Sons",
-  "ItemInfo": "aut",
+  "Rank": 955,
+  "Id": 380,
+  "HistoryName": "Steuber Group",
+  "HistoryId": 544,
+  "AssociateId": 223,
+  "Name": "Reilly, McClure and Swaniawski",
+  "ItemInfo": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

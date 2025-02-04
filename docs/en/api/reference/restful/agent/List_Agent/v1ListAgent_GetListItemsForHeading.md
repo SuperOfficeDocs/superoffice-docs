@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 242,
-  "HeadingId": 304
+  "UdListDefinitionId": 389,
+  "HeadingId": 537
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Lockman Group",
-    "ToolTip": "Beatae rerum.",
+    "Id": 411,
+    "Name": "Goodwin-Marks",
+    "ToolTip": "Ut minima voluptas voluptatem fugit debitis sit.",
     "Deleted": false,
-    "Rank": 20,
-    "Type": "architecto",
-    "ColorBlock": 86,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2007-01-13T10:17:55.7071691+01:00",
+    "Rank": 683,
+    "Type": "nihil",
+    "ColorBlock": 97,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2018-06-14T13:13:23.2739325+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Lowe Inc and Sons",
-        "ToolTip": "Sequi qui illum in.",
-        "Deleted": false,
-        "Rank": 762,
-        "Type": "provident",
-        "ColorBlock": 323,
-        "IconHint": "quis",
-        "Selected": false,
-        "LastChanged": "2005-11-27T10:17:55.7071691+01:00",
+        "Id": 796,
+        "Name": "Zieme, McClure and Ryan",
+        "ToolTip": "Doloremque quia.",
+        "Deleted": true,
+        "Rank": 502,
+        "Type": "itaque",
+        "ColorBlock": 748,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2006-09-11T13:13:23.2739325+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sed",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Ms. Robyn Issac Mohr",
+        "FullName": "Mrs. Flavie Emanuel Harvey IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Mr. Elias Schuster III",
+    "ExtraInfo": "libero",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Aglae Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 671
+        "FieldLength": 359
       }
     }
   }

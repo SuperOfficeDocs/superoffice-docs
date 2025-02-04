@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 792,
-  "Name": "McDermott-Breitenberg",
-  "Tooltip": "eligendi",
-  "PassiveText": "dolor",
-  "Deleted": true,
-  "Rank": 614,
+  "ReldefId": 738,
+  "Name": "Lueilwitz, Buckridge and O'Conner",
+  "Tooltip": "maxime",
+  "PassiveText": "in",
+  "Deleted": false,
+  "Rank": 176,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 367,
-  "Name": "Howe LLC",
-  "Tooltip": "minus",
-  "PassiveText": "consequatur",
+  "ReldefId": 173,
+  "Name": "West-Jacobson",
+  "Tooltip": "ducimus",
+  "PassiveText": "nihil",
   "Deleted": false,
-  "Rank": 441,
+  "Rank": 147,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   },
   "_Links": {

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "voluptatem",
+  "FieldLabel": "fugiat",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 404,
-  "ColumnId": 543,
-  "FieldDefault": "quod",
-  "FieldHeight": 680,
-  "FieldLabel": "recusandae",
-  "FieldLeft": 964,
-  "FieldTop": 9,
+  "UDefFieldId": 303,
+  "ColumnId": 248,
+  "FieldDefault": "omnis",
+  "FieldHeight": 235,
+  "FieldLabel": "porro",
+  "FieldLeft": 374,
+  "FieldTop": 929,
   "FieldType": "Checkbox",
-  "FieldWidth": 25,
-  "FormatMask": "nihil",
+  "FieldWidth": 216,
+  "FormatMask": "neque",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 482,
-  "LabelLeft": 238,
-  "LabelTop": 885,
-  "LabelWidth": 961,
-  "LastVersionId": 34,
-  "ListTableId": 285,
+  "IsIndexed": true,
+  "LabelHeight": 451,
+  "LabelLeft": 693,
+  "LabelTop": 508,
+  "LabelWidth": 624,
+  "LastVersionId": 27,
+  "ListTableId": 764,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 947,
-  "ProgId": "vel",
-  "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 872,
-  "TextLength": 942,
-  "Tooltip": "sit",
-  "UdefIdentity": 699,
-  "UDListDefinitionId": 775,
+  "Page1LineNo": 850,
+  "ProgId": "omnis",
+  "IsReadOnly": false,
+  "ShortLabel": "tempore",
+  "TabOrder": 189,
+  "TextLength": 927,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 727,
+  "UDListDefinitionId": 631,
   "Justification": "Center",
-  "Version": 699,
-  "TemplateVariableName": "Ward LLC",
+  "Version": 177,
+  "TemplateVariableName": "Upton, Hahn and Senger",
   "HasBeenPublished": false,
-  "MdoListName": "Senger-Murray",
+  "MdoListName": "Jones-Cormier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 38
     }
   }
 }

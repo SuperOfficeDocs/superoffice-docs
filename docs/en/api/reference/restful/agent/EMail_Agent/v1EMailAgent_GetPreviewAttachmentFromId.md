@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 1000,
-  "AttachmentId": "voluptate",
-  "AttachmentType": "rerum",
-  "AttachmentFilename": "ex"
+  "MailItemId": 554,
+  "AttachmentId": "repellat",
+  "AttachmentType": "est",
+  "AttachmentFilename": "eos"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergized non-volatile ability",
-  "Filename": "ipsum",
-  "Size": 522,
-  "Type": "aspernatur",
-  "Encoding": "pariatur",
-  "Id": "id",
-  "Disposition": "possimus",
+  "Description": "Profound heuristic system engine",
+  "Filename": "molestiae",
+  "Size": 168,
+  "Type": "harum",
+  "Encoding": "quae",
+  "Id": "officia",
+  "Disposition": "incidunt",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

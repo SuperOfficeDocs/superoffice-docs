@@ -366,13 +366,13 @@ the email_id.
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=restrictionAddress/formattedAddress,contactSupportPerson/hasInterests,contactSupportPerson/retired,contactSupportPerson/personAssociateFullName,contactSupportPerson/personExtra/x_person_timespan
+GET /api/v1/archive/emailcontactaddress?$select=stop,email/emailHasBounced,contactAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

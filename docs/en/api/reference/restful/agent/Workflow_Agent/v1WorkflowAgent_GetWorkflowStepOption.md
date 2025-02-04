@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 921
+  "WorkflowStepOptionId": 62
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 825,
-  "WorkflowStepId": 731,
-  "WorkflowId": 724,
-  "Name": "Turner-Quitzon",
-  "Rank": 75,
+  "WorkflowStepOptionId": 529,
+  "WorkflowStepId": 803,
+  "WorkflowId": 322,
+  "Name": "Nolan-Pouros",
+  "Rank": 638,
   "Steps": [
     {
-      "WorkflowStepId": 932,
-      "WorkflowId": 136,
+      "WorkflowStepId": 109,
+      "WorkflowId": 561,
       "StepType": "AddToList",
-      "Rank": 669
+      "Rank": 902
     },
     {
-      "WorkflowStepId": 932,
-      "WorkflowId": 136,
+      "WorkflowStepId": 109,
+      "WorkflowId": 561,
       "StepType": "AddToList",
-      "Rank": 669
+      "Rank": 902
     }
   ]
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Nicolas, Block and Gusikowski",
-    "ToolTip": "Pariatur tempore itaque molestiae aspernatur et fugiat architecto.",
-    "Deleted": true,
-    "Rank": 460,
-    "Type": "repudiandae",
-    "ColorBlock": 357,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2023-01-09T10:18:01.0981224+01:00",
+    "Id": 458,
+    "Name": "Monahan, Hodkiewicz and Gislason",
+    "ToolTip": "Alias impedit tempore.",
+    "Deleted": false,
+    "Rank": 248,
+    "Type": "necessitatibus",
+    "ColorBlock": 579,
+    "IconHint": "eaque",
+    "Selected": false,
+    "LastChanged": "1999-04-22T13:13:33.3860624+02:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Wiegand Group",
-        "ToolTip": "Sequi reprehenderit officia nihil provident.",
+        "Id": 248,
+        "Name": "Bechtelar-Murazik",
+        "ToolTip": "Hic delectus molestiae id vero maxime soluta rerum.",
         "Deleted": false,
-        "Rank": 978,
-        "Type": "labore",
-        "ColorBlock": 809,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2014-06-06T10:18:01.0981224+02:00",
+        "Rank": 339,
+        "Type": "rem",
+        "ColorBlock": 466,
+        "IconHint": "sapiente",
+        "Selected": true,
+        "LastChanged": "2008-07-23T13:13:33.3860624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Emory Crooks",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Vida Lewis Ernser V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 726
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "placeat",
+    "ExtraInfo": "nam",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Guillermo Wolf",
+    "FullName": "Mrs. Alfonzo Darius Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 778
       }
     }
   }

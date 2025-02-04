@@ -484,7 +484,7 @@ Shadow contact provider for the dynamic Mailings provider.
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -654,7 +654,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/person/personExtra/x_person_request_relation,mailingAddr/person/personAssociate/assocTooltip,mailingAddr/person/personAssociate/isLocation,emailFlow/hierarchyFullname
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/url/URLDescription,mailingAddr/person/personMobilePhone/formattedNumber,mailingAddr/person/personUdef/SuperOffice:11,mailingAddr/person/personAssociate/simultaneousEjUser,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 487,
+  "ContactId": 490,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 538
+  "ContactId": 491
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "356.504.1503 x936",
-    "PersonCellPhone": "1-256-305-3991 x545",
-    "PersonPrivatePhone": "1-346-839-1771",
-    "PersonFaxNumber": "1142261",
-    "PersonPagerNumber": "286537",
-    "PersonEmail": "alta_smith@hackett.biz",
-    "Id": 568,
-    "Name": "Strosin, Reinger and Grady",
-    "Tooltip": "qui",
-    "UniqueId": "voluptatem",
+    "PersonDirectPhone": "732-520-0880",
+    "PersonCellPhone": "028.849.4649",
+    "PersonPrivatePhone": "1-261-097-0546",
+    "PersonFaxNumber": "505709",
+    "PersonPagerNumber": "1495207",
+    "PersonEmail": "joanne_ziemann@kingpfeffer.us",
+    "Id": 316,
+    "Name": "Rice-Homenick",
+    "Tooltip": "iure",
+    "UniqueId": "aliquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 281
       }
     }
   }

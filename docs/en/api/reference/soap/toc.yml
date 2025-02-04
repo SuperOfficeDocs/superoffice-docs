@@ -12306,6 +12306,8 @@
       href: Services88/Appointment/GetUIDFromAppointmentId.md
     - name: Move
       href: Services88/Appointment/Move.md
+    - name: MoveWithEmail
+      href: Services88/Appointment/MoveWithEmail.md
     - name: Reject
       href: Services88/Appointment/Reject.md
     - name: RejectWithEmailConfirmation
@@ -12344,6 +12346,8 @@
       href: Services88/Appointment/UpdateAppointmentFromIcsResponse.md
     - name: UpdateAppointmentWithMode
       href: Services88/Appointment/UpdateAppointmentWithMode.md
+    - name: UpdateAppointmentWithModeAndEmail
+      href: Services88/Appointment/UpdateAppointmentWithModeAndEmail.md
     - name: ValidateAppointmentEntity
       href: Services88/Appointment/ValidateAppointmentEntity.md
     - name: ValidateDays
@@ -13338,6 +13342,8 @@
       href: Services88/Document/SaveDocumentTemplateStream.md
     - name: SavePrivacyReport
       href: Services88/Document/SavePrivacyReport.md
+    - name: SavePrivacyReportPdf
+      href: Services88/Document/SavePrivacyReportPdf.md
     - name: SaveSuggestedDocumentEntity
       href: Services88/Document/SaveSuggestedDocumentEntity.md
     - name: SetDocumentStream
@@ -15038,6 +15044,8 @@
       href: Services88/Project/SetProjectImage.md
     - name: UpdateProjectMember
       href: Services88/Project/UpdateProjectMember.md
+    - name: UpdateProjectMembers
+      href: Services88/Project/UpdateProjectMembers.md
     - name: ValidateProjectEntity
       href: Services88/Project/ValidateProjectEntity.md
   - name: Quote
@@ -15658,6 +15666,8 @@
       href: Services88/Ticket/DeleteTicketEntity.md
     - name: DeleteTicketMessageEntity
       href: Services88/Ticket/DeleteTicketMessageEntity.md
+    - name: DoEscalating
+      href: Services88/Ticket/DoEscalating.md
     - name: GetAttachmentEntity
       href: Services88/Ticket/GetAttachmentEntity.md
     - name: GetAttachmentInfo

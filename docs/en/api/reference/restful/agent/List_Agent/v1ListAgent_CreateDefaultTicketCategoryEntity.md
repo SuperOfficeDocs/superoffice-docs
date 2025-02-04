@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 528,
-  "ParentId": 856,
-  "Name": "Prohaska Group",
-  "Fullname": "delectus",
-  "CategoryMaster": 17,
+  "TicketCategoryId": 965,
+  "ParentId": 698,
+  "Name": "Heidenreich LLC",
+  "Fullname": "excepturi",
+  "CategoryMaster": 368,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Shields, Hand and Spencer",
+  "ExternalName": "Ullrich, Kilback and Becker",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 667,
-  "ReplyTemplate": 180,
-  "NotificationEmail": "maymie@vonrueden.info",
+  "AssignmentLag": 321,
+  "ReplyTemplate": 490,
+  "NotificationEmail": "keshawn@oreillywunsch.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 773,
+  "EffectiveReplyTemplateId": 259,
   "ExtraFields": {
-    "ExtraFields1": "repellendus",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "nisi"
+    "CustomFields1": "quis",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 73
     }
   }
 }

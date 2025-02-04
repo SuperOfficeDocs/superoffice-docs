@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Okuneva LLC",
-    "ToolTip": "Eveniet magni et iusto.",
+    "Id": 637,
+    "Name": "Hauck-Blanda",
+    "ToolTip": "Molestias enim ab sed nobis.",
     "Deleted": true,
-    "Rank": 647,
-    "Type": "sapiente",
-    "ColorBlock": 369,
-    "IconHint": "corrupti",
+    "Rank": 735,
+    "Type": "sed",
+    "ColorBlock": 632,
+    "IconHint": "dolore",
     "Selected": true,
-    "LastChanged": "2001-06-02T10:18:00.9887407+02:00",
+    "LastChanged": "2009-08-05T13:13:33.0111516+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Braun-Stroman",
-        "ToolTip": "Quaerat optio at sit occaecati beatae ut sequi.",
+        "Id": 487,
+        "Name": "Spinka-Sawayn",
+        "ToolTip": "Molestiae autem rerum qui.",
         "Deleted": true,
-        "Rank": 236,
-        "Type": "asperiores",
-        "ColorBlock": 849,
-        "IconHint": "amet",
+        "Rank": 43,
+        "Type": "consequuntur",
+        "ColorBlock": 401,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2003-08-22T10:18:00.9887407+02:00",
+        "LastChanged": "1998-06-07T13:13:33.0111516+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "nulla",
-        "Hidden": false,
-        "FullName": "Ressie Rosenbaum",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Jaydon McCullough",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 196
+            "FieldType": "System.String",
+            "FieldLength": 876
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "a",
+    "ExtraInfo": "quasi",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Edmund Buckridge",
+    "FullName": "Liam Ericka Abbott DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

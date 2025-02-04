@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Anderson Inc and Sons",
-    "AssociateId": 588,
-    "DetailsTable": 64,
-    "DetailsRecord": 740,
-    "IsSystemTask": false,
+    "Id": 162,
+    "Name": "Robel Group",
+    "AssociateId": 590,
+    "DetailsTable": 964,
+    "DetailsRecord": 983,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ullam",
-      "ParameterObject2": "consequuntur"
+      "ParameterObject1": "molestiae",
+      "ParameterObject2": "rerum"
     },
-    "LastStarted": "2014-05-31T10:17:55.1290102+02:00",
-    "Created": "2010-01-19T10:17:55.1290102+01:00",
-    "StartCount": 398,
-    "DatabaseSerialNumber": "1009761",
-    "Context": "esse",
-    "Result": "dolor",
+    "LastStarted": "2002-09-23T13:13:22.133333+02:00",
+    "Created": "2022-02-21T13:13:22.133333+01:00",
+    "StartCount": 873,
+    "DatabaseSerialNumber": "919944",
+    "Context": "repellat",
+    "Result": "in",
     "State": "All",
-    "Description": "Configurable contextually-based framework",
-    "Response": "expedita",
-    "Request": "aut",
-    "ProgressDescription": "Expanded motivating flexibility",
-    "ProgressPercent": 651,
-    "FileName": "Ernser-Cole",
+    "Description": "Mandatory clear-thinking moratorium",
+    "Response": "facere",
+    "Request": "ut",
+    "ProgressDescription": "Enterprise-wide full-range local area network",
+    "ProgressPercent": 337,
+    "FileName": "Borer, Borer and Kshlerin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldLength": 142
       }
     }
   }

@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 858,
-  "Name": "Denesik-Tremblay",
+  "ContactId": 853,
+  "Name": "Hoppe LLC",
   "Department": "",
-  "OrgNr": "433935",
-  "Number1": "1802693",
-  "Number2": "56784",
-  "UpdatedDate": "2003-12-10T10:17:55.2852697+01:00",
-  "CreatedDate": "2003-11-18T10:17:55.2852697+01:00",
+  "OrgNr": "465715",
+  "Number1": "907262",
+  "Number2": "890357",
+  "UpdatedDate": "2012-04-13T13:13:22.4457582+02:00",
+  "CreatedDate": "2018-05-16T13:13:22.4457582+02:00",
   "Emails": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "necessitatibus",
-      "Description": "Automated executive flexibility",
+      "Value": "quae",
+      "StrippedValue": "dolor",
+      "Description": "Reverse-engineered zero defect frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldType": "System.String",
+          "FieldLength": 721
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "necessitatibus",
-      "Description": "Automated executive flexibility",
+      "Value": "quae",
+      "StrippedValue": "dolor",
+      "Description": "Reverse-engineered zero defect frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldType": "System.String",
+          "FieldLength": 721
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 154,
-      "Name": "Carroll Inc and Sons",
-      "ToolTip": "Sunt nam autem sunt soluta illum sit ipsa.",
-      "Deleted": false,
-      "Rank": 468,
-      "Type": "perferendis",
-      "ColorBlock": 768,
-      "IconHint": "expedita",
+      "Id": 88,
+      "Name": "Reilly, Weimann and Kuvalis",
+      "ToolTip": "Minus molestiae.",
+      "Deleted": true,
+      "Rank": 140,
+      "Type": "dolores",
+      "ColorBlock": 287,
+      "IconHint": "voluptatum",
       "Selected": true,
-      "LastChanged": "2023-04-14T10:17:55.2852697+02:00",
+      "LastChanged": "2017-11-07T13:13:22.4457582+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "repellendus",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "sequi",
       "Hidden": false,
-      "FullName": "Miss Odie Stiedemann DVM",
+      "FullName": "Lavinia Becker Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldLength": 502
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "eaque",
-      "StrippedValue": "saepe",
-      "Description": "Multi-tiered logistical leverage",
+      "Value": "inventore",
+      "StrippedValue": "perspiciatis",
+      "Description": "Persevering multimedia moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldLength": 41
         }
       }
     },
     {
-      "Value": "eaque",
-      "StrippedValue": "saepe",
-      "Description": "Multi-tiered logistical leverage",
+      "Value": "inventore",
+      "StrippedValue": "perspiciatis",
+      "Description": "Persevering multimedia moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldLength": 41
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "cupiditate",
-      "StrippedValue": "quae",
-      "Description": "Proactive cohesive leverage",
+      "Value": "totam",
+      "StrippedValue": "alias",
+      "Description": "Up-sized dedicated collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldLength": 407
         }
       }
     },
     {
-      "Value": "cupiditate",
-      "StrippedValue": "quae",
-      "Description": "Proactive cohesive leverage",
+      "Value": "totam",
+      "StrippedValue": "alias",
+      "Description": "Up-sized dedicated collaboration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldLength": 407
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "fugit",
-      "StrippedValue": "magnam",
-      "Description": "Operative interactive circuit",
+      "Value": "numquam",
+      "StrippedValue": "consequatur",
+      "Description": "Down-sized grid-enabled support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 179
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "magnam",
-      "Description": "Operative interactive circuit",
+      "Value": "numquam",
+      "StrippedValue": "consequatur",
+      "Description": "Down-sized grid-enabled support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 179
         }
       }
     }
   ],
-  "Description": "Realigned uniform customer loyalty",
+  "Description": "De-engineered leading edge framework",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "autem",
-      "PersonId": 805,
-      "Mrmrs": "fugit",
-      "Firstname": "Tamara",
-      "Lastname": "Wintheiser",
-      "MiddleName": "Hahn LLC",
-      "Title": "quis",
-      "Description": "Robust secondary instruction set",
-      "Email": "tracy@paucek.us",
-      "FullName": "Mrs. Emilia Emmerich DVM",
-      "DirectPhone": "607-032-0895 x57125",
-      "FormalName": "Connelly Inc and Sons",
-      "CountryId": 303,
-      "ContactId": 89,
-      "ContactName": "Tremblay-Sipes",
-      "Retired": 180,
-      "Rank": 987,
-      "ActiveInterests": 361,
+      "Position": "et",
+      "PersonId": 279,
+      "Mrmrs": "autem",
+      "Firstname": "Misael",
+      "Lastname": "Hand",
+      "MiddleName": "Little-Kautzer",
+      "Title": "est",
+      "Description": "Up-sized transitional contingency",
+      "Email": "king_rogahn@kulashowe.uk",
+      "FullName": "King Raymundo Crist DVM",
+      "DirectPhone": "1-208-921-4808 x17515",
+      "FormalName": "O'Hara, Hahn and Heller",
+      "CountryId": 78,
+      "ContactId": 566,
+      "ContactName": "Ratke LLC",
+      "Retired": 525,
+      "Rank": 854,
+      "ActiveInterests": 724,
       "ContactDepartment": "",
-      "ContactCountryId": 279,
-      "ContactOrgNr": "988239",
-      "FaxPhone": "(677)924-9370",
-      "MobilePhone": "1-548-947-8705 x536",
-      "ContactPhone": "017.836.8027",
-      "AssociateName": "Powlowski-Jaskolski",
-      "AssociateId": 109,
-      "UsePersonAddress": true,
-      "ContactFax": "temporibus",
-      "Kanafname": "eius",
-      "Kanalname": "distinctio",
-      "Post1": "eius",
-      "Post2": "fugiat",
-      "Post3": "et",
-      "EmailName": "rene_lesch@eichmann.co.uk",
-      "ContactFullName": "Onie Reilly",
-      "ActiveErpLinks": 590,
-      "TicketPriorityId": 837,
-      "SupportLanguageId": 213,
-      "SupportAssociateId": 564,
+      "ContactCountryId": 740,
+      "ContactOrgNr": "1065314",
+      "FaxPhone": "073-174-2416",
+      "MobilePhone": "487.526.1921",
+      "ContactPhone": "1-344-194-2024 x812",
+      "AssociateName": "Purdy-Gutkowski",
+      "AssociateId": 533,
+      "UsePersonAddress": false,
+      "ContactFax": "quae",
+      "Kanafname": "alias",
+      "Kanalname": "ut",
+      "Post1": "veritatis",
+      "Post2": "optio",
+      "Post3": "quia",
+      "EmailName": "rashawn@torphybrakus.biz",
+      "ContactFullName": "Prof. Trisha DuBuque",
+      "ActiveErpLinks": 252,
+      "TicketPriorityId": 706,
+      "SupportLanguageId": 579,
+      "SupportAssociateId": 636,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 296
+          "FieldLength": 267
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "ea",
-  "Xstop": true,
-  "ActiveInterests": 342,
-  "GroupId": 87,
-  "ActiveStatusMonitorId": 902,
+  "NoMailing": true,
+  "Kananame": "ut",
+  "Xstop": false,
+  "ActiveInterests": 49,
+  "GroupId": 704,
+  "ActiveStatusMonitorId": 160,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 581,
-  "DbiAgentId": 201,
-  "DbiLastSyncronized": "2000-02-09T10:17:55.2852697+01:00",
-  "DbiKey": "enim",
-  "DbiLastModified": "2014-03-02T10:17:55.2852697+01:00",
+  "Deleted": 943,
+  "DbiAgentId": 450,
+  "DbiLastSyncronized": "2001-09-19T13:13:22.4457582+02:00",
+  "DbiKey": "ratione",
+  "DbiLastModified": "2006-07-22T13:13:22.4457582+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 787,
-  "ActiveErpLinks": 617,
+  "Source": 875,
+  "ActiveErpLinks": 84,
   "BounceEmails": [
-    "lilyan@faheylubowitz.us",
-    "rashawn@schuppeledner.com"
+    "asha@schuppekulas.com",
+    "dewayne.emmerich@rolfson.com"
   ],
   "Domains": [
-    "eum",
-    "libero"
+    "voluptatum",
+    "quia"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Vern Elvera Farrell MD",
-    "SuperOffice:2": "Scotty Tillman"
+    "SuperOffice:1": "Beau Schumm",
+    "SuperOffice:2": "Torrey Heaney"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "placeat"
+    "CustomFields1": "harum",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 767
+      "FieldType": "System.String",
+      "FieldLength": 901
     }
   }
 }

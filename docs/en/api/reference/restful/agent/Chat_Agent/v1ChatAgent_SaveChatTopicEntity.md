@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 224,
-  "Name": "Waters-DuBuque",
-  "Description": "Devolved bifurcated capability",
-  "WelcomeMessage": "sed",
+  "ChatTopicId": 492,
+  "Name": "Buckridge Group",
+  "Description": "Face to face object-oriented middleware",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "1998-05-17T10:17:55.1602621+02:00",
-  "SecondsPrAccept": 998,
-  "AlertRecipient": "quae",
+  "LastAccept": "1998-04-28T13:13:22.1958165+02:00",
+  "SecondsPrAccept": 767,
+  "AlertRecipient": "aperiam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quibusdam",
+  "BadgeHeader": "non",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "fuga",
-  "WarnNewChatMinutes": 280,
-  "WarnManagerNewChatMinutes": 990,
-  "TicketEnabled": true,
+  "CustomQueueText": "mollitia",
+  "WarnNewChatMinutes": 934,
+  "WarnManagerNewChatMinutes": 359,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 484,
-  "WarnManagerChatMessageMinutes": 424,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 940,
+  "WarnManagerChatMessageMinutes": 13,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 507,
-  "OfflineFormQueueLength": 163,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "placeat"
+  "OfflineFormTimeLimit": 532,
+  "OfflineFormQueueLength": 58,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "est"
 }
 ```
 
@@ -168,21 +168,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 426,
-  "Name": "Nienow, Mohr and Thompson",
-  "Description": "Self-enabling zero administration leverage",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 260,
+  "Name": "Johnson, Corkery and Cassin",
+  "Description": "Fully-configurable cohesive data-warehouse",
+  "WelcomeMessage": "porro",
   "Language": null,
-  "LastAccept": "2007-04-05T10:17:55.1602621+02:00",
-  "SecondsPrAccept": 965,
-  "AlertRecipient": "exercitationem",
+  "LastAccept": "2006-12-29T13:13:22.1958165+01:00",
+  "SecondsPrAccept": 262,
+  "AlertRecipient": "temporibus",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "qui",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eum",
-  "WarnNewChatMinutes": 863,
-  "WarnManagerNewChatMinutes": 649,
+  "CollectConsent": true,
+  "BadgeHeader": "at",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 386,
+  "WarnManagerNewChatMinutes": 802,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -191,20 +191,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 443,
-  "WarnManagerChatMessageMinutes": 191,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 308,
-  "OfflineFormQueueLength": 979,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "laboriosam",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 598,
+  "WarnManagerChatMessageMinutes": 697,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 716,
+  "OfflineFormQueueLength": 387,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 10
     }
   }
 }

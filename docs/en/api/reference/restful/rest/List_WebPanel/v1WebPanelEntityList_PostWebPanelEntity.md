@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 87,
-  "Name": "Purdy Inc and Sons",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "Rank": 795,
+  "WebPanelId": 264,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 264,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Hilll, Collins and Shanahan",
+  "WindowName": "Thompson-Jewess",
   "Url": "http://www.example.com/",
-  "ProgId": "amet",
-  "Icon": 873,
+  "ProgId": "id",
+  "Icon": 718,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 99,
-  "Name": "Pagac, Pfannerstill and Kassulke",
-  "Tooltip": "dolorem",
+  "WebPanelId": 824,
+  "Name": "Frami, Denesik and Hudson",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 738,
+  "Rank": 777,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Wintheiser-Lubowitz",
+  "WindowName": "Walker Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "magnam",
-  "Icon": 181,
+  "ProgId": "natus",
+  "Icon": 169,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldType": "System.String",
+      "FieldLength": 621
     }
   }
 }

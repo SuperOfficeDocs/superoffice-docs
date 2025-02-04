@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 626,
-  "PersonId": 757,
-  "AppointmentId": 867,
-  "DocumentId": 802,
-  "SaleId": 888,
-  "SelectionId": 283,
-  "ProjectId": 27,
-  "UiCulture": "et"
+  "ContactId": 589,
+  "PersonId": 632,
+  "AppointmentId": 829,
+  "DocumentId": 531,
+  "SaleId": 290,
+  "SelectionId": 506,
+  "ProjectId": 416,
+  "UiCulture": "quaerat"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 523,
+  "DocumentId": 978,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ea",
-  "Header": "qui",
-  "Name": "Runolfsdottir Inc and Sons",
-  "OurRef": "amet",
-  "YourRef": "et",
-  "CreatedDate": "2004-04-11T10:17:55.5196518+02:00",
-  "UpdatedDate": "2009-03-15T10:17:55.5196518+01:00",
-  "Description": "Centralized incremental structure",
+  "Attention": "et",
+  "Header": "eaque",
+  "Name": "Daugherty Inc and Sons",
+  "OurRef": "beatae",
+  "YourRef": "omnis",
+  "CreatedDate": "2009-03-12T13:13:22.8833939+01:00",
+  "UpdatedDate": "2002-07-28T13:13:22.8833939+02:00",
+  "Description": "Up-sized composite Graphical User Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-02-19T10:17:55.5196518+01:00",
-  "ExternalRef": "perspiciatis",
+  "Date": "2024-03-19T13:13:22.8833939+01:00",
+  "ExternalRef": "quos",
   "Completed": "Completed",
-  "ActiveLinks": 856,
+  "ActiveLinks": 345,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Green, Graham and Crooks",
-      "Id": 625,
-      "Description": "Function-based empowering intranet",
-      "ExtraInfo": "accusamus",
-      "LinkId": 425,
+      "EntityName": "Satterfield Inc and Sons",
+      "Id": 129,
+      "Description": "Reverse-engineered solution-oriented superstructure",
+      "ExtraInfo": "et",
+      "LinkId": 300,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 944,
-  "Snum": 675,
+  "SuggestedDocumentId": 655,
+  "Snum": 106,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Lenora Morissette",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Marietta Schoen",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "veritatis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "facilis",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2016-01-08T10:17:55.5196518+01:00",
-  "PublishTo": "2011-03-11T10:17:55.5196518+01:00",
-  "PublishFrom": "2024-01-14T10:17:55.5196518+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2011-05-24T13:13:22.8833939+02:00",
+  "PublishTo": "2010-03-15T13:13:22.8833939+01:00",
+  "PublishFrom": "2018-09-03T13:13:22.8833939+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 594,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     },
     {
-      "VisibleId": 594,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 600
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldLength": 137
     }
   }
 }

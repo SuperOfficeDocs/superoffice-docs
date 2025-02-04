@@ -765,7 +765,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=saleId,timeSpent,person/personInterestIds,person/personAssociate/credentialDisplayValue,contact/streetAddress/formattedMultiLineAddress
+GET /api/v1/archive/TicketSelectionV2?$select=createdBy/title,ownedBy/firstName,person/associateType,person/personDirectFax/description,person/personUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

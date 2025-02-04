@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "Kshlerin-Senger",
-  "Tooltip": "maiores",
+  "Id": 796,
+  "Name": "Schneider-Rowe",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 434,
+  "UdListDefinitionId": 72,
+  "Rank": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 152
     }
   }
 }

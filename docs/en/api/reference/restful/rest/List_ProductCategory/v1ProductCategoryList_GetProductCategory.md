@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Greenholt, Swaniawski and Ernser",
-  "Tooltip": "accusamus",
+  "Id": 920,
+  "Name": "Ernser-Hauck",
+  "Tooltip": "optio",
   "Deleted": false,
-  "UdListDefinitionId": 371,
-  "Rank": 1002,
+  "UdListDefinitionId": 784,
+  "Rank": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 688
     }
   }
 }

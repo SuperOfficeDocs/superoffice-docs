@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 174,
-    "Name": "Pfannerstill, Gerlach and Roob",
-    "Tooltip": "ratione",
+    "HeadingId": 357,
+    "Name": "Gutmann LLC",
+    "Tooltip": "quis",
     "Deleted": false,
-    "Rank": 773,
-    "UdListDefinitionId": 848,
+    "Rank": 493,
+    "UdListDefinitionId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 135
       }
     }
   }

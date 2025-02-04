@@ -86,11 +86,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Hand, Lakin and Johnson",
-  "StorageKey": "sapiente",
-  "Restrictions": "quod",
-  "StaticColumns": "commodi"
+  "StorageType": "blanditiis",
+  "ProviderName": "Stoltenberg LLC",
+  "StorageKey": "hic",
+  "Restrictions": "aut",
+  "StaticColumns": "officiis"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Murray-Corkery",
-      "Operator": "architecto",
+      "Name": "Pfeffer-Heaney",
+      "Operator": "qui",
       "Values": [
-        "animi",
-        "sequi"
+        "praesentium",
+        "architecto"
       ],
       "DisplayValues": [
-        "iusto",
-        "nobis"
+        "quis",
+        "eos"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 497,
+      "InterParenthesis": 604,
       "InterOperator": "And",
-      "UniqueHash": 79
+      "UniqueHash": 865
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kirlin, Deckow and Predovic",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "quasi",
+      "DisplayName": "Streich, Murray and Marks",
+      "DisplayTooltip": "ut",
+      "DisplayType": "beatae",
       "CanOrderBy": true,
-      "Name": "Hills, Lynch and Dickens",
+      "Name": "Walter-Kiehn",
       "CanRestrictBy": false,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Osinski-Bradtke",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "perferendis",
-      "IconHint": "et",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "labore",
+      "RestrictionListName": "Maggio Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "eum",
+      "Width": "quo",
+      "IconHint": "consectetur",
+      "HeadingIconHint": "nesciunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Anderson-Krajcik",
-      "PrimaryKey": 322,
+      "EntityName": "Lehner, Kreiger and Rolfson",
+      "PrimaryKey": 441,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "dolores",
-          "LinkHint": "rem"
+          "DisplayValue": "quidem",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "quae"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "repellendus",
+      "LinkHint": "nulla",
+      "StyleHint": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldLength": 79
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carter-Parker",
-      "Description": "Networked well-modulated application",
-      "Rank": 899,
+      "Name": "Terry, Reichel and Flatley",
+      "Description": "Secured encompassing time-frame",
+      "Rank": 325,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carter-Parker",
-      "Description": "Networked well-modulated application",
-      "Rank": 899,
+      "Name": "Terry, Reichel and Flatley",
+      "Description": "Secured encompassing time-frame",
+      "Rank": 325,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 727
     }
   }
 }

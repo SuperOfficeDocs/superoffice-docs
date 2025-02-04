@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McGlynn, Gaylord and Nitzsche",
+  "Name": "Kutch, Schmeler and Mosciski",
   "Values": [
-    "inventore",
-    "praesentium"
+    "dolore",
+    "repellendus"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 576
     }
   }
 }

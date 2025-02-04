@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 855,
+  "TargetYear": 269,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 768
+  "Id": 856
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 306,
+  "TargetAssignmentInfoId": 442,
   "Values": [
-    734,
-    294
+    525,
+    18
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 198,
-  "DimensionListItemDisplayName": "Hoppe Inc and Sons",
+  "DimensionListItem": 824,
+  "DimensionListItemDisplayName": "Williamson, Boyle and Bashirian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   }
 }

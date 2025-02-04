@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Lebsack Group",
-  "Tooltip": "facilis",
-  "Deleted": true,
-  "UdListDefinitionId": 163,
-  "Rank": 750
+  "Id": 493,
+  "Name": "Bechtelar LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 951,
+  "Rank": 700
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Wilkinson, Schultz and Glover",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "UdListDefinitionId": 686,
-  "Rank": 548,
+  "Id": 204,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 259,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 731
     }
   }
 }

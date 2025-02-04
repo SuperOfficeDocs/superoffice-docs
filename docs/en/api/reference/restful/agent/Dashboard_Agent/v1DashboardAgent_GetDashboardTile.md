@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=385
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=999
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 72,
-  "Caption": "provident",
-  "Description": "Innovative foreground conglomeration",
-  "ChartName": "Murphy, Bernier and Cole",
-  "ChartId": "iusto",
-  "IsDefault": false,
-  "AssociateId": 560,
-  "GroupId": 828,
-  "SelectionId": 970,
-  "Config": "labore",
+  "DashboardTileId": 570,
+  "Caption": "nemo",
+  "Description": "Intuitive homogeneous model",
+  "ChartName": "McCullough, Koepp and Denesik",
+  "ChartId": "et",
+  "IsDefault": true,
+  "AssociateId": 692,
+  "GroupId": 274,
+  "SelectionId": 541,
+  "Config": "omnis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Spencer, Doyle and Stoltenberg",
-      "Description": "Vision-oriented zero tolerance moratorium",
+      "Name": "Lowe-Conn",
+      "Description": "Customer-focused non-volatile architecture",
       "Type": "Boolean",
-      "ListName": "Ortiz-Weissnat",
+      "ListName": "Corwin-Marquardt",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "odio",
+      "Value": "ipsa",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldLength": 505
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 570,
+      "VisibleId": 111,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 517
         }
       }
     },
     {
-      "VisibleId": 570,
+      "VisibleId": 111,
       "Visibility": "All",
-      "DisplayValue": "quos",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 517
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

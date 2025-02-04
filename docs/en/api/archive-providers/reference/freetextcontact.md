@@ -363,13 +363,13 @@ as well as before any ORDER BY, are applied.
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
-|selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=restrictionPostalAddress/formattedAddress,contactSupportPerson/personUdef/SuperOffice:4,contactAssociate/usergroup
+GET /api/v1/archive/FreetextContact?$select=streetAddress/line1,contactSupportPerson/personUdef/SuperOffice:3,contactExtra/x_contact_request_relation,NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

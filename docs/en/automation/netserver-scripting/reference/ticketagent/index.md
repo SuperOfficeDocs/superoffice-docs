@@ -26,6 +26,7 @@ Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can
 * [DeleteMessageHeaders](deletemessageheaders.md)
 * [DeleteTicketEntity](deleteticketentity.md)
 * [DeleteTicketMessageEntity](deleteticketmessageentity.md)
+* [DoEscalating](doescalating.md)
 * [GetAttachmentEntity](getattachmententity.md)
 * [GetAttachmentInfo](getattachmentinfo.md)
 * [GetAttachmentInfoNonInline](getattachmentinfononinline.md)

@@ -35,7 +35,7 @@ Lists all email flow message content
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -88,7 +88,7 @@ Lists all email flow message content
 |shipment/registeredBy|associate|Registered by: The user who registered the data| x |
 |shipment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |shipment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
-|shipment/emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|shipment/emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |shipment/emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipment/emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |shipment/emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -258,7 +258,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowSuccessRate,shipment/emailFlow/workflowDefinitionStatus,shipment/emailFlow/workflowAssociate/isActive
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/projectAssociate/fullName,shipment/emailFlow/workflowDefinitionStatus,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

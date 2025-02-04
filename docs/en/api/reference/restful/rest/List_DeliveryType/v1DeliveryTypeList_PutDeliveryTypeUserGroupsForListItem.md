@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Hudson, Little and Zboncak",
-    "ToolTip": "Magnam error ea distinctio laudantium vel beatae.",
-    "Deleted": false,
-    "Rank": 478,
-    "Type": "alias",
-    "ColorBlock": 201,
-    "IconHint": "repellat",
+    "Id": 382,
+    "Name": "Rodriguez LLC",
+    "ToolTip": "Tempore quaerat debitis perspiciatis iste accusamus molestias.",
+    "Deleted": true,
+    "Rank": 354,
+    "Type": "veritatis",
+    "ColorBlock": 921,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2023-02-11T10:18:01.0043667+01:00",
+    "LastChanged": "2014-09-07T13:13:33.0580147+02:00",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Jerde-Denesik",
-        "ToolTip": "Repellendus quasi nostrum.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "facere",
-        "ColorBlock": 431,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2014-12-25T10:18:01.0043667+01:00",
+        "Id": 399,
+        "Name": "Rowe Group",
+        "ToolTip": "Assumenda aperiam perferendis.",
+        "Deleted": true,
+        "Rank": 984,
+        "Type": "illo",
+        "ColorBlock": 262,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2009-08-25T13:13:33.0580147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "enim",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Kolby Kovacek"
+        "FullName": "Dax Nikolaus"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "eum",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Georgette Maximilian Schuppe"
+    "FullName": "Ms. Ellen Cole"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Ankunding-Zulauf",
-    "ToolTip": "Qui eum repudiandae et quo adipisci repudiandae.",
-    "Deleted": true,
-    "Rank": 418,
-    "Type": "earum",
-    "ColorBlock": 464,
-    "IconHint": "nisi",
-    "Selected": true,
-    "LastChanged": "2003-02-14T10:18:01.0043667+01:00",
+    "Id": 280,
+    "Name": "Hagenes Inc and Sons",
+    "ToolTip": "Eos a voluptate.",
+    "Deleted": false,
+    "Rank": 491,
+    "Type": "dolor",
+    "ColorBlock": 632,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2020-09-26T13:13:33.0580147+02:00",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "McDermott-Wyman",
-        "ToolTip": "Commodi qui incidunt ea at.",
-        "Deleted": false,
-        "Rank": 360,
-        "Type": "quae",
-        "ColorBlock": 698,
-        "IconHint": "neque",
+        "Id": 237,
+        "Name": "Johnson, Cole and Heidenreich",
+        "ToolTip": "Voluptas aut et ut.",
+        "Deleted": true,
+        "Rank": 236,
+        "Type": "eveniet",
+        "ColorBlock": 811,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2007-05-12T10:18:01.0043667+02:00",
+        "LastChanged": "2012-11-12T13:13:33.0580147+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Estel Conn",
+        "ExtraInfo": "autem",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Clarabelle Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Dr. Miracle Yasmeen Bahringer Jr.",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Delbert Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldType": "System.String",
+        "FieldLength": 533
       }
     }
   }

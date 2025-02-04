@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=eaque
+GET /api/v1/List/Reason/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Greenfelder, Powlowski and Ferry",
-    "ToolTip": "Est in laboriosam ex.",
+    "Id": 187,
+    "Name": "Rodriguez-Greenholt",
+    "ToolTip": "Eius eos consequuntur qui excepturi ea.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "amet",
+    "Rank": 730,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Gibson, Halvorson and VonRueden",
-        "ToolTip": "Qui dolore distinctio fugiat.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "voluptatum",
+        "Id": 980,
+        "Name": "Padberg Group",
+        "ToolTip": "Dicta itaque voluptatibus doloremque non accusantium fuga ad.",
+        "Deleted": true,
+        "Rank": 285,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 206,
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ut",
-        "FullName": "Mrs. Celestine Samson Spinka Sr.",
+        "IconHint": "sed",
+        "ColorBlock": 384,
+        "ExtraInfo": "est",
+        "StyleHint": "repudiandae",
+        "FullName": "Prof. Jamarcus Rolfson III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 614
+            "FieldType": "System.Int32",
+            "FieldLength": 207
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 851,
-    "ExtraInfo": "illum",
-    "StyleHint": "consectetur",
-    "FullName": "Dr. Ona Hassan Gusikowski",
+    "IconHint": "sed",
+    "ColorBlock": 500,
+    "ExtraInfo": "aut",
+    "StyleHint": "ipsum",
+    "FullName": "Lazaro Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 889
       }
     }
   }

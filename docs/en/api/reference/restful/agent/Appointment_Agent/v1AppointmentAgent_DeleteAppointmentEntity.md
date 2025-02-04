@@ -25,7 +25,7 @@ Deletes the AppointmentEntity
 | AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=741
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=213
 ```
 
 

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 248,
-    "UdListDefinitionId": 353
+    "HeadingId": 143,
+    "Name": "Braun Group",
+    "Tooltip": "quaerat",
+    "Deleted": false,
+    "Rank": 167,
+    "UdListDefinitionId": 332
   },
   {
-    "HeadingId": 450,
-    "Name": "Carroll Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 248,
-    "UdListDefinitionId": 353
+    "HeadingId": 143,
+    "Name": "Braun Group",
+    "Tooltip": "quaerat",
+    "Deleted": false,
+    "Rank": 167,
+    "UdListDefinitionId": 332
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Glover-Collins",
-    "Tooltip": "debitis",
+    "HeadingId": 503,
+    "Name": "Schoen, Zemlak and Rolfson",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 479,
+    "Rank": 702,
+    "UdListDefinitionId": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 973
       }
     }
   }

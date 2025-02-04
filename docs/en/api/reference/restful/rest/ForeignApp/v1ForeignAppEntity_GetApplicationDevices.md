@@ -75,25 +75,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Dec 2017 10:18:00 G12T
+Last-Modified: Tue, 02 Aug 2016 13:13:31 G8T
 
 [
   {
-    "ForeignDeviceId": 357,
-    "Name": "Wisozk LLC",
-    "CreatedDate": "2005-05-10T10:18:00.4262067+02:00",
-    "UpdatedDate": "2017-12-29T10:18:00.4262067+01:00",
-    "AssociateFullName": "Miss Easter Huel",
-    "CreatedBy": "esse",
-    "UpdatedBy": "officia",
-    "DeviceIdentifier": "illum",
-    "ForeignAppId": 355,
+    "ForeignDeviceId": 968,
+    "Name": "Oberbrunner, Beahan and Larkin",
+    "CreatedDate": "2007-05-06T13:13:31.7457296+02:00",
+    "UpdatedDate": "2016-08-02T13:13:31.7457296+02:00",
+    "AssociateFullName": "Jerrod Brekke",
+    "CreatedBy": "ut",
+    "UpdatedBy": "eius",
+    "DeviceIdentifier": "quos",
+    "ForeignAppId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 357
       }
     }
   }

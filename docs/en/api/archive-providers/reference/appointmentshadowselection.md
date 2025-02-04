@@ -731,7 +731,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelection?$select=contact/postAddress/wgs84latitude,person/personActiveErpLinks,person/personDirectFax/description,person/personExtra/x_person_integer,person/personAssociate/credentialDisplayValue
+GET /api/v1/archive/AppointmentShadowSelection?$select=contact/LastCompletedActivity,person/birthMonth,person/personPager/description,person/personUdef/SuperOffice:6,person/personExtra/x_person_user_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

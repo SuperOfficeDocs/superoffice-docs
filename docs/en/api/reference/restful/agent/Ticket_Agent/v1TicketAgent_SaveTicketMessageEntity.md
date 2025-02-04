@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 653,
+  "EjMessageId": 941,
   "Ticket": null,
-  "CreatedAt": "2022-07-02T10:17:56.1915748+02:00",
+  "CreatedAt": "2007-04-19T13:13:24.2278483+02:00",
   "CreatedBy": null,
-  "Author": "beatae",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "inventore",
-  "TimeSpent": 216,
-  "Body": "quo",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "antone@berge.name",
-  "DebugInfo": "aut",
-  "MailSorter": "possimus",
+  "MessageId": "est",
+  "TimeSpent": 120,
+  "Body": "itaque",
+  "HtmlBody": "placeat",
+  "EmailHeader": "alexys@torphy.name",
+  "DebugInfo": "quia",
+  "MailSorter": "corrupti",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "itaque",
+  "SearchTitle": "quaerat",
   "MessageHeaders": [
     {
-      "Id": 522,
-      "Name": "Stiedemann Inc and Sons",
-      "Value": "quis",
+      "Id": 79,
+      "Name": "Rau-Senger",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 522,
-      "Name": "Stiedemann Inc and Sons",
-      "Value": "quis",
+      "Id": 79,
+      "Name": "Rau-Senger",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 89,
-  "SentimentConfidence": 367,
+  "Language": "cupiditate",
+  "Sentiment": 904,
+  "SentimentConfidence": 451,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 383,
-      "Name": "Johnson, Lockman and Larson",
-      "ContentType": "pariatur",
-      "AttSize": 604,
+      "AttachmentId": 583,
+      "Name": "Tromp-Harvey",
+      "ContentType": "tempore",
+      "AttSize": 708,
       "InlineImage": false,
-      "ContentId": "officia",
-      "AuthKey": "quod",
-      "IsSafeFileExtension": true
+      "ContentId": "esse",
+      "AuthKey": "ex",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "ut"
+    "CustomFields1": "harum",
+    "CustomFields2": "non"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 754,
+  "EjMessageId": 57,
   "Ticket": null,
-  "CreatedAt": "2000-03-08T10:17:56.1915748+01:00",
+  "CreatedAt": "1999-06-07T13:13:24.2278483+02:00",
   "CreatedBy": null,
-  "Author": "amet",
+  "Author": "tempore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "deserunt",
-  "TimeSpent": 238,
-  "Body": "reiciendis",
-  "HtmlBody": "sequi",
-  "EmailHeader": "amir_schiller@harber.info",
+  "MessageId": "quia",
+  "TimeSpent": 280,
+  "Body": "omnis",
+  "HtmlBody": "non",
+  "EmailHeader": "cecile.witting@okon.info",
   "DebugInfo": "quo",
-  "MailSorter": "similique",
+  "MailSorter": "ipsa",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "pariatur",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Id": 789,
-      "Name": "Mitchell Inc and Sons",
-      "Value": "voluptas",
+      "Id": 66,
+      "Name": "Erdman-Wyman",
+      "Value": "nam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 383
+          "FieldLength": 706
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "voluptatem",
-  "Sentiment": 451,
-  "SentimentConfidence": 122,
+  "Important": false,
+  "Language": "tempore",
+  "Sentiment": 103,
+  "SentimentConfidence": 473,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 261,
-      "Name": "Koss-Hudson",
-      "ContentType": "doloribus",
-      "AttSize": 351,
-      "InlineImage": false,
-      "ContentId": "autem",
-      "AuthKey": "quidem",
+      "AttachmentId": 726,
+      "Name": "Beer Group",
+      "ContentType": "perspiciatis",
+      "AttSize": 692,
+      "InlineImage": true,
+      "ContentId": "consectetur",
+      "AuthKey": "cum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "qui"
+    "CustomFields1": "non",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

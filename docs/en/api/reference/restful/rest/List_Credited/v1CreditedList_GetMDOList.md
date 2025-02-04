@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=accusantium
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=sed
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Marquardt Group",
-    "ToolTip": "Excepturi et perferendis eum et sapiente ut.",
+    "Id": 240,
+    "Name": "Bruen-Schmidt",
+    "ToolTip": "Ipsa ut est sit architecto aut incidunt ut.",
     "Deleted": false,
-    "Rank": 121,
-    "Type": "ex",
+    "Rank": 953,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Green-Kuvalis",
-        "ToolTip": "Repellat in inventore veritatis dicta assumenda minus.",
+        "Id": 991,
+        "Name": "Wunsch Inc and Sons",
+        "ToolTip": "Quaerat eos dignissimos.",
         "Deleted": false,
-        "Rank": 234,
-        "Type": "quaerat",
+        "Rank": 222,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 218,
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "voluptatibus",
-        "FullName": "Nayeli Thiel",
+        "IconHint": "molestias",
+        "ColorBlock": 704,
+        "ExtraInfo": "et",
+        "StyleHint": "excepturi",
+        "FullName": "Antonietta Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldLength": 167
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 102,
-    "ExtraInfo": "neque",
-    "StyleHint": "consequuntur",
-    "FullName": "Ms. Anastacio Ward III",
+    "IconHint": "atque",
+    "ColorBlock": 82,
+    "ExtraInfo": "harum",
+    "StyleHint": "dolorem",
+    "FullName": "Dr. Kelsie Stuart Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 500
       }
     }
   }

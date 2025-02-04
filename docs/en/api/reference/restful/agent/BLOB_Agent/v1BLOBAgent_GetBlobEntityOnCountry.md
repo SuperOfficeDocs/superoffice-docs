@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 309
+  "CountryId": 121
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 358,
-  "BlobSize": 456,
-  "Description": "Focused high-level emulation",
-  "ExtraInfo": "facere",
-  "IsEncrypted": true,
+  "BlobId": 969,
+  "BlobSize": 602,
+  "Description": "Optimized bifurcated model",
+  "ExtraInfo": "omnis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aperiam",
-  "OriginalSize": 526,
-  "CreatedDate": "2014-02-16T10:17:55.1446361+01:00",
-  "UpdatedDate": "2006-02-11T10:17:55.1446361+01:00",
+  "MimeType": "dolores",
+  "OriginalSize": 906,
+  "CreatedDate": "2018-12-14T13:13:22.1489532+01:00",
+  "UpdatedDate": "2024-11-11T13:13:22.1489532+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 442
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

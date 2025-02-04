@@ -139,7 +139,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksProject?$select=projectUdef/SuperOffice:2,projectPublish/publishedBy,projectAssociate/usergroup
+GET /api/v1/archive/LinksProject?$select=updatedBy,nextMilestone,projectAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

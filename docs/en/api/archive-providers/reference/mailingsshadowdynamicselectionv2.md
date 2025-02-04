@@ -486,7 +486,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|emailFlow/emailFlowId|int|Email flow Id: The database Id of the email flow| x |
+|emailFlow/emailFlowId|int|E-mail flow ID: The database ID of the e-mail flow| x |
 |emailFlow/emailFlowHierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |emailFlow/shipmentType|listAny|Mailing type: Mailing type this e-mail flow represents| x |
 |emailFlow/overrideConsentSubscription|bool|Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -656,7 +656,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/contactPhone/description,mailingAddr/contact/restrictionAddress/formattedMultiLineAddress,mailingAddr/contact/LastDoBySale,mailingAddr/person/personDirectPhone/formattedNumber,mailingAddr/person/personAddress/state
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingSubscriptionType,mailingOpenRate,mailingClickRate,mailingAddr/contact/postAddress/formattedAddress,mailingAddr/contact/streetAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=enim
+GET /api/v1/List/MrMrs/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "O'Hara Group",
-    "ToolTip": "Sint voluptates iusto culpa fuga optio.",
+    "Id": 682,
+    "Name": "Rice Inc and Sons",
+    "ToolTip": "Sit ut vitae omnis velit quia.",
     "Deleted": false,
-    "Rank": 8,
-    "Type": "pariatur",
+    "Rank": 725,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Schulist LLC",
-        "ToolTip": "Porro autem et ut ipsam nam quas dolorem.",
+        "Id": 757,
+        "Name": "Hauck-Wolff",
+        "ToolTip": "Minima error.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "est",
+        "Rank": 538,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 474,
-        "ExtraInfo": "fugit",
-        "StyleHint": "aut",
-        "FullName": "Anastacio Mills PhD",
+        "IconHint": "voluptatum",
+        "ColorBlock": 781,
+        "ExtraInfo": "eius",
+        "StyleHint": "veritatis",
+        "FullName": "Prof. Isai Heidenreich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 936
+            "FieldType": "System.Int32",
+            "FieldLength": 411
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 355,
-    "ExtraInfo": "ea",
-    "StyleHint": "fugiat",
-    "FullName": "Adell Frami",
+    "IconHint": "nihil",
+    "ColorBlock": 590,
+    "ExtraInfo": "delectus",
+    "StyleHint": "voluptatem",
+    "FullName": "Kyra Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 111
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "sapiente",
-    "InputValues2": "id"
+    "InputValues1": "iusto",
+    "InputValues2": "ipsa"
   },
   "BlockExecution": true,
-  "NavigateTo": "voluptas",
-  "Message": "voluptates",
-  "ShowDialog": "quis",
+  "NavigateTo": "et",
+  "Message": "ut",
+  "ShowDialog": "consequatur",
   "OutputValues": {
-    "OutputValues1": "ut",
-    "OutputValues2": "autem"
+    "OutputValues1": "ratione",
+    "OutputValues2": "eos"
   },
   "StateValues": {
-    "StateValues1": "porro",
-    "StateValues2": "autem"
+    "StateValues1": "iure",
+    "StateValues2": "totam"
   },
-  "Exception": "sit",
+  "Exception": "asperiores",
   "ParserValues": {
-    "ParserValues1": "voluptas",
-    "ParserValues2": "voluptatem"
+    "ParserValues1": "sed",
+    "ParserValues2": "animi"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "fuga"
+    "CgiVariables1": "iste",
+    "CgiVariables2": "qui"
   },
-  "CgiContent": "hic",
+  "CgiContent": "iure",
   "Headers": {
-    "Headers1": "dolore",
-    "Headers2": "incidunt"
+    "Headers1": "iste",
+    "Headers2": "ipsum"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 592
     }
   }
 }

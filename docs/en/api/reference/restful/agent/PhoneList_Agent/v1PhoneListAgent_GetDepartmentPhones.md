@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 869
+  "DepartmentId": 816
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(620)393-0746 x4753",
-    "PersonCellPhone": "120-386-2935",
-    "PersonPrivatePhone": "1-080-312-0596",
-    "PersonFaxNumber": "1343167",
-    "PersonPagerNumber": "1057882",
-    "PersonEmail": "meagan.lind@dooley.biz",
-    "Id": 148,
-    "Name": "Klocko-Spinka",
-    "Tooltip": "veritatis",
-    "UniqueId": "et",
+    "PersonDirectPhone": "1-369-283-2211",
+    "PersonCellPhone": "(611)416-3470 x25195",
+    "PersonPrivatePhone": "156.361.3313 x084",
+    "PersonFaxNumber": "1667917",
+    "PersonPagerNumber": "600249",
+    "PersonEmail": "ara@boyerfeil.com",
+    "Id": 406,
+    "Name": "Bogisich-Rutherford",
+    "Tooltip": "voluptatem",
+    "UniqueId": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 303
       }
     }
   }

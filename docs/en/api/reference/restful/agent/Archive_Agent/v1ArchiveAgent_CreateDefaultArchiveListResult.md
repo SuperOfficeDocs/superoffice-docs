@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 284,
+  "RowCount": 93,
   "Rows": [
     {
-      "EntityName": "Reichel Group",
-      "PrimaryKey": 665,
+      "EntityName": "Stiedemann-Medhurst",
+      "PrimaryKey": 10,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "et"
+          "DisplayValue": "architecto",
+          "TooltipHint": "ad",
+          "LinkHint": "facilis"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "non",
+      "LinkHint": "sint",
+      "StyleHint": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldLength": 5
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 285
     }
   }
 }

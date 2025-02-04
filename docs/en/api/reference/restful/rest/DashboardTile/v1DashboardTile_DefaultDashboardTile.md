@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 886,
-  "Caption": "ut",
-  "Description": "Enhanced full-range service-desk",
-  "ChartName": "Rogahn-Fahey",
-  "ChartId": "maxime",
+  "DashboardTileId": 227,
+  "Caption": "esse",
+  "Description": "Expanded optimizing open system",
+  "ChartName": "Powlowski Group",
+  "ChartId": "voluptate",
   "IsDefault": false,
-  "AssociateId": 592,
-  "GroupId": 989,
-  "SelectionId": 585,
-  "Config": "qui",
+  "AssociateId": 802,
+  "GroupId": 444,
+  "SelectionId": 922,
+  "Config": "molestiae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Weimann-Frami",
-      "Description": "Extended executive initiative",
+      "Name": "Stehr, Champlin and Greenholt",
+      "Description": "Up-sized exuding ability",
       "Type": "Boolean",
-      "ListName": "Keeling, Robel and Terry",
+      "ListName": "Braun, Hahn and Schoen",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "consequuntur",
+      "Value": "rerum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 237
+          "FieldLength": 842
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 760,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 454
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 760,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 454
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldLength": 371
     }
   }
 }

@@ -1309,7 +1309,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=contact/contactAssociate/usergroup,contact/contactUdef/SuperOffice:11,associate/assocType,appointment/endDate,appointment/associate/personId
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/isStakeholder,person/personExtra/x_person_appointment_relation,person/personAssociate/middleName,person/correspondingAssociate/title,contact/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

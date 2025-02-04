@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Heaney Group",
-    "ToolTip": "Enim rerum aut.",
+    "Id": 341,
+    "Name": "Boyer LLC",
+    "ToolTip": "Suscipit illo necessitatibus alias.",
     "Deleted": false,
-    "Rank": 171,
-    "Type": "ipsam",
-    "ColorBlock": 566,
-    "IconHint": "exercitationem",
+    "Rank": 102,
+    "Type": "necessitatibus",
+    "ColorBlock": 968,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2010-01-07T10:18:01.051244+01:00",
+    "LastChanged": "1998-04-19T13:13:33.2142268+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Rutherford, Cummings and Lubowitz",
-        "ToolTip": "Explicabo unde illo veritatis est odio natus tempore.",
+        "Id": 341,
+        "Name": "Cassin Inc and Sons",
+        "ToolTip": "Vel aut rem soluta consectetur.",
         "Deleted": false,
-        "Rank": 880,
-        "Type": "et",
-        "ColorBlock": 721,
-        "IconHint": "expedita",
+        "Rank": 292,
+        "Type": "enim",
+        "ColorBlock": 601,
+        "IconHint": "impedit",
         "Selected": true,
-        "LastChanged": "1997-10-23T10:18:01.051244+02:00",
+        "LastChanged": "2017-10-11T13:13:33.2142268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Freda Gerlach"
+        "ExtraInfo": "perferendis",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Mrs. Aniya Wilford Turner MD"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Roselyn Welch"
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Lelah Wuckert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Heaney LLC",
-    "ToolTip": "Eum quisquam id voluptatem quia voluptas velit.",
+    "Id": 395,
+    "Name": "Shields, Bergstrom and Mante",
+    "ToolTip": "Eligendi quidem perferendis error.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "omnis",
-    "ColorBlock": 197,
-    "IconHint": "non",
+    "Rank": 693,
+    "Type": "enim",
+    "ColorBlock": 946,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2005-07-19T10:18:01.051244+02:00",
+    "LastChanged": "2002-07-06T13:13:33.2142268+02:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Kassulke-Schiller",
-        "ToolTip": "Officia ipsum et quaerat nostrum doloremque repellat.",
+        "Id": 14,
+        "Name": "Skiles LLC",
+        "ToolTip": "Perferendis consequuntur.",
         "Deleted": true,
-        "Rank": 337,
-        "Type": "non",
-        "ColorBlock": 879,
-        "IconHint": "id",
+        "Rank": 315,
+        "Type": "voluptatem",
+        "ColorBlock": 961,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2003-11-28T10:18:01.051244+01:00",
+        "LastChanged": "2016-07-06T13:13:33.2142268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Kara Brakus",
+        "FullName": "Devyn Borer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "est",
+    "ExtraInfo": "ex",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Miss Nelda Daugherty DVM",
+    "FullName": "Mack Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 446
       }
     }
   }

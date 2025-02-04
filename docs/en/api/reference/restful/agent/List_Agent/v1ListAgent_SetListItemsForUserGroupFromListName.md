@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wilderman Group",
-  "UsergroupId": 962,
+  "UdListDefinitionName": "Smith, Wiegand and O'Conner",
+  "UsergroupId": 813,
   "ListItemsID": [
-    415,
-    645
+    295,
+    662
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

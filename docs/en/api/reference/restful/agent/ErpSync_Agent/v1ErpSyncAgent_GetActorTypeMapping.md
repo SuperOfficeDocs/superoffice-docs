@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 438,
+  "ErpConnectionId": 211,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 242,
-  "IsActive": true,
+  "ErpConnectionId": 949,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 112,
-      "CrmFieldKey": "consectetur",
-      "CrmDisplayName": "Johnston-O'Connell",
-      "CrmDisplayTooltip": "eum",
-      "ErpFieldKey": "voluptatem",
+      "ErpFieldId": 156,
+      "CrmFieldKey": "tenetur",
+      "CrmDisplayName": "Kunde Group",
+      "CrmDisplayTooltip": "autem",
+      "ErpFieldKey": "qui",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Okuneva-Mayer",
-      "ErpDisplayTooltip": "eligendi",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Robel, Hessel and Robel",
+      "ErpDisplayTooltip": "error",
+      "SyncToCrm": true,
       "SyncToErp": false,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "accusamus",
+      "ListReference": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 429
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

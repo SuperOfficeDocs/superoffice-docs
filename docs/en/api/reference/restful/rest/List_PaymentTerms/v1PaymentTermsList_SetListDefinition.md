@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Mayert, Connelly and Ward",
-  "Tooltip": "modi",
+  "Id": 119,
+  "Name": "Dach Inc and Sons",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 697,
+  "Rank": 799,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Goyette, O'Hara and Schowalter",
-  "Tooltip": "vel",
+  "Id": 759,
+  "Name": "Schaefer, Hartmann and Douglas",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 367,
-  "IsCustomList": true,
+  "Rank": 461,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 303
     }
   }
 }

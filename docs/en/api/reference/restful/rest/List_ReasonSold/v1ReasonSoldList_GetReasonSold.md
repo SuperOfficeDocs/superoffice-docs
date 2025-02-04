@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Blanda Group",
-  "Tooltip": "voluptas",
+  "Id": 118,
+  "Name": "Borer-Trantow",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "UdListDefinitionId": 776,
-  "Rank": 247,
+  "UdListDefinitionId": 935,
+  "Rank": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 259
     }
   }
 }

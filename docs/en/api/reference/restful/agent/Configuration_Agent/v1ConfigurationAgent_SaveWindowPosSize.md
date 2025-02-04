@@ -98,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "rerum",
-  "PersonId": 937,
-  "AssociateId": 110,
-  "ExtraId": 658,
-  "ExtraInfo": "et",
-  "Height": 636,
-  "LeftX": 104,
+  "OwnerWindow": "et",
+  "PersonId": 173,
+  "AssociateId": 406,
+  "ExtraId": 804,
+  "ExtraInfo": "labore",
+  "Height": 571,
+  "LeftX": 553,
   "State": "Maximized",
-  "UpperY": 484,
-  "Width": 515,
-  "WindowPosSizeId": 532,
+  "UpperY": 175,
+  "Width": 25,
+  "WindowPosSizeId": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 438
     }
   }
 }

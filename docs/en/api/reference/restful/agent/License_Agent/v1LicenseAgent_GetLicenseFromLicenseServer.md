@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Romaguera, Schmitt and Lowe"
+  "OwnerName": "Weber, McCullough and Hahn"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 254,
-      "NumberOfLicensesFree": 2,
-      "NumberOfLicensesAdded": 549,
-      "NumberOfLicensesNewTotal": 109,
-      "NumberOfLicensesNewFree": 437,
-      "NumberOfLicensesTotal": 733
+      "NumberOfLicensesInUse": 446,
+      "NumberOfLicensesFree": 264,
+      "NumberOfLicensesAdded": 291,
+      "NumberOfLicensesNewTotal": 475,
+      "NumberOfLicensesNewFree": 154,
+      "NumberOfLicensesTotal": 663
     }
   ],
-  "AccumulatedNextCheckDate": "2001-09-14T10:17:55.660285+02:00"
+  "AccumulatedNextCheckDate": "1998-07-31T13:13:23.1802042+02:00"
 }
 ```

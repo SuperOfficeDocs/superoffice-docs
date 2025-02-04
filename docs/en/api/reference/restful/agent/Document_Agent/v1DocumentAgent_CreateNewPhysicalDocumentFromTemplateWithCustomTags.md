@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 159,
-  "PersonId": 930,
-  "AppointmentId": 51,
-  "DocumentId": 127,
-  "SaleId": 513,
-  "SelectionId": 237,
-  "ProjectId": 419,
+  "ContactId": 894,
+  "PersonId": 964,
+  "AppointmentId": 653,
+  "DocumentId": 410,
+  "SaleId": 712,
+  "SelectionId": 116,
+  "ProjectId": 632,
   "CustomTags": [
-    "quam",
-    "earum"
+    "unde",
+    "mollitia"
   ],
   "CustomValues": [
-    "provident",
-    "accusamus"
+    "perspiciatis",
+    "in"
   ],
-  "UiCulture": "quia"
+  "UiCulture": "voluptatibus"
 }
 ```
 
@@ -147,67 +147,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 267,
+  "DocumentId": 757,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "placeat",
-  "Header": "officiis",
-  "Name": "Kunde, Hackett and Adams",
-  "OurRef": "accusamus",
-  "YourRef": "aut",
-  "CreatedDate": "2000-07-23T10:17:55.5040321+02:00",
-  "UpdatedDate": "2001-10-22T10:17:55.5040321+02:00",
-  "Description": "Mandatory empowering implementation",
+  "Attention": "nostrum",
+  "Header": "illum",
+  "Name": "Oberbrunner, Kautzer and Cole",
+  "OurRef": "dolor",
+  "YourRef": "quo",
+  "CreatedDate": "2001-05-02T13:13:22.852155+02:00",
+  "UpdatedDate": "2002-10-18T13:13:22.852155+02:00",
+  "Description": "Public-key assymetric help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-10-24T10:17:55.5040321+02:00",
-  "ExternalRef": "dolorem",
+  "Date": "2017-10-16T13:13:22.867778+02:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
-  "ActiveLinks": 494,
+  "ActiveLinks": 579,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Grant Group",
-      "Id": 453,
-      "Description": "Triple-buffered bifurcated core",
-      "ExtraInfo": "ex",
-      "LinkId": 356,
+      "EntityName": "Gutkowski-Schmitt",
+      "Id": 970,
+      "Description": "Ameliorated local superstructure",
+      "ExtraInfo": "harum",
+      "LinkId": 385,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 575,
-  "Snum": 757,
+  "SuggestedDocumentId": 73,
+  "Snum": 293,
   "UserDefinedFields": {
-    "SuperOffice:1": "Boyd Reynolds",
-    "SuperOffice:2": "Ms. Perry Watsica"
+    "SuperOffice:1": "1285994085",
+    "SuperOffice:2": "1210210903"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "in",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "tempore",
+    "CustomFields2": "atque"
   },
-  "PublishEventDate": "2004-01-01T10:17:55.5040321+01:00",
-  "PublishTo": "2002-02-23T10:17:55.5040321+01:00",
-  "PublishFrom": "2024-03-09T10:17:55.5040321+01:00",
+  "PublishEventDate": "1998-09-06T13:13:22.867778+02:00",
+  "PublishTo": "2000-11-26T13:13:22.867778+01:00",
+  "PublishFrom": "2005-01-19T13:13:22.867778+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 522,
+      "VisibleId": 738,
       "Visibility": "All",
       "DisplayValue": "rerum",
       "TableRight": null,
@@ -215,12 +215,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 30
         }
       }
     },
     {
-      "VisibleId": 522,
+      "VisibleId": 738,
       "Visibility": "All",
       "DisplayValue": "rerum",
       "TableRight": null,
@@ -228,7 +228,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 30
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 909
     }
   }
 }

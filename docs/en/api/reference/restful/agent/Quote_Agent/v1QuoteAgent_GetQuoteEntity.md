@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 827
+  "QuoteId": 158
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 886,
-  "SaleId": 250,
-  "QuoteConnectionId": 697,
-  "ERPQuoteKey": "ea",
-  "ERPOrderKey": "cumque",
-  "ActiveQuoteVersionId": 850,
-  "AcceptedQuoteAlternativeId": 876,
-  "UseValuesFromQuote": 301,
-  "DocumentId": 774,
-  "PoNumber": "1563268",
-  "OrderComment": "eum",
-  "PreferredEmailCulture": "otis@goodwin.uk",
+  "QuoteId": 676,
+  "SaleId": 704,
+  "QuoteConnectionId": 241,
+  "ERPQuoteKey": "vel",
+  "ERPOrderKey": "distinctio",
+  "ActiveQuoteVersionId": 330,
+  "AcceptedQuoteAlternativeId": 704,
+  "UseValuesFromQuote": 284,
+  "DocumentId": 96,
+  "PoNumber": "550701",
+  "OrderComment": "veniam",
+  "PreferredEmailCulture": "ashley@muller.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 442,
-      "ERPQuoteVersionKey": "debitis",
-      "QuoteId": 128,
-      "Description": "Progressive cohesive website",
-      "Number": "1420399",
+      "QuoteVersionId": 161,
+      "ERPQuoteVersionKey": "voluptatem",
+      "QuoteId": 785,
+      "Description": "Fully-configurable uniform solution",
+      "Number": "1713590",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 373,
-      "SentDate": "2008-04-11T10:17:55.9415595+02:00",
-      "FollowupId": 535,
-      "ExpirationDate": "2011-06-06T10:17:55.9415595+02:00",
-      "DeliveryCountryId": 524,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 704,
+      "LikelyQuoteAlternativeId": 854,
+      "SentDate": "2020-11-13T13:13:23.7581921+01:00",
+      "FollowupId": 373,
+      "ExpirationDate": "2001-05-04T13:13:23.7581921+02:00",
+      "DeliveryCountryId": 436,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 171,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "officia",
-      "ERPPaymentTypeKey": "quaerat",
-      "ERPDeliveryTermsKey": "veniam",
-      "ERPDeliveryTypeKey": "consequuntur",
-      "Rank": 810,
-      "ApprovedBy": 771,
-      "ApprovedText": "reiciendis",
-      "ApprovedRegisteredBy": 198,
-      "ApprovedRegisteredDate": "2014-02-13T10:17:55.9415595+01:00",
-      "ExtraField1": "animi",
-      "ExtraField2": "iure",
-      "ExtraField3": "consectetur",
-      "ExtraField4": "ex",
-      "ExtraField5": "et",
-      "LastRecalculated": "2003-01-16T10:17:55.9415595+01:00",
-      "Updated": "2005-02-27T10:17:55.9415595+01:00",
-      "UpdatedAssociateId": 457,
-      "Registered": "2021-05-11T10:17:55.9415595+02:00",
+      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTypeKey": "ut",
+      "ERPDeliveryTermsKey": "alias",
+      "ERPDeliveryTypeKey": "quia",
+      "Rank": 797,
+      "ApprovedBy": 958,
+      "ApprovedText": "dolorem",
+      "ApprovedRegisteredBy": 492,
+      "ApprovedRegisteredDate": "2017-05-10T13:13:23.7581921+02:00",
+      "ExtraField1": "fuga",
+      "ExtraField2": "commodi",
+      "ExtraField3": "placeat",
+      "ExtraField4": "consequatur",
+      "ExtraField5": "consequuntur",
+      "LastRecalculated": "2009-12-14T13:13:23.7581921+01:00",
+      "Updated": "2016-07-11T13:13:23.7581921+02:00",
+      "UpdatedAssociateId": 633,
+      "Registered": "2007-10-23T13:13:23.7581921+02:00",
       "RegisteredAssociateId": 989,
-      "RequestAssociateId": 109,
-      "RequestComment": "expedita",
+      "RequestAssociateId": 433,
+      "RequestComment": "atque",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldLength": 468
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 34
     }
   }
 }

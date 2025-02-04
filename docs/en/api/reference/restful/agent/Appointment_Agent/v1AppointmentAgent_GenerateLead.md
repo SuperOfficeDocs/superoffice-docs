@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 399,
-  "LeadDescription": "Switchable national methodology",
-  "Relation": "ratione",
-  "RelationId": 468,
-  "LeadContact": "aut",
-  "LeadPersonFirstname": "Clair",
-  "LeadPersonLastname": "Koch",
-  "LeadPersonEmail": "dallas.erdman@walter.name",
-  "LeadPhoneNumber": "1197109",
-  "CreatorsContact": "corrupti",
-  "CreatorsFirstname": "Corine",
-  "CreatorsLastname": "Nitzsche"
+  "AssociateIdForNewContact": 980,
+  "LeadDescription": "Virtual static alliance",
+  "Relation": "sint",
+  "RelationId": 282,
+  "LeadContact": "voluptas",
+  "LeadPersonFirstname": "Claude",
+  "LeadPersonLastname": "Parker",
+  "LeadPersonEmail": "howard_champlin@weimann.us",
+  "LeadPhoneNumber": "1454162",
+  "CreatorsContact": "ab",
+  "CreatorsFirstname": "Amanda",
+  "CreatorsLastname": "Watsica"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 447,
-      "Name": "Mueller, Bernier and Hoppe",
-      "OrgNr": "536787",
+      "ContactId": 957,
+      "Name": "Altenwerth-Bogan",
+      "OrgNr": "709232",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "laudantium",
-      "DirectPhone": "1-842-558-8933 x61167",
-      "AssociateId": 6,
-      "CountryId": 128,
-      "EmailAddress": "aletha.crist@cronakunde.name",
-      "Kananame": "enim",
-      "EmailAddressName": "madeline@quigley.name",
+      "City": "laboriosam",
+      "DirectPhone": "862-070-4689",
+      "AssociateId": 281,
+      "CountryId": 415,
+      "EmailAddress": "nikita.stracke@farrell.us",
+      "Kananame": "nihil",
+      "EmailAddressName": "margarette@macejkovicgutkowski.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Taya O'Reilly",
+      "AssociateFullName": "Marshall McClure",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "reprehenderit",
-      "FullName": "Eriberto Bradtke PhD",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 841,
-      "Number1": "577826",
-      "Number2": "1560964",
+      "FormattedAddress": "reiciendis",
+      "FullName": "Leonard Omer Hoppe I",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 914,
+      "Number1": "875437",
+      "Number2": "1653515",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 85
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 310
     }
   }
 }

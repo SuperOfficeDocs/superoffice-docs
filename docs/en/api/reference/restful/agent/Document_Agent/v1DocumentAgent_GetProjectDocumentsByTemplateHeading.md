@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 680,
-  "StartTime": "2015-04-08T10:17:55.457154+02:00",
-  "EndTime": "1997-09-06T10:17:55.457154+02:00",
-  "Count": 343,
-  "TemplateHeadingId": 309
+  "ProjectId": 803,
+  "StartTime": "1998-07-04T13:13:22.6178005+02:00",
+  "EndTime": "2016-05-07T13:13:22.6178005+02:00",
+  "Count": 446,
+  "TemplateHeadingId": 637
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 280,
-    "Attention": "quia",
-    "Header": "esse",
-    "Name": "Terry Group",
-    "OurRef": "quibusdam",
-    "YourRef": "quibusdam",
-    "Description": "Operative eco-centric monitoring",
-    "DocumentTemplate": "autem",
+    "DocumentId": 128,
+    "Attention": "consequatur",
+    "Header": "itaque",
+    "Name": "Mayer Inc and Sons",
+    "OurRef": "beatae",
+    "YourRef": "eius",
+    "Description": "Public-key bottom-line flexibility",
+    "DocumentTemplate": "praesentium",
     "IsPublished": true,
-    "PersonId": 606,
-    "PersonFullName": "Francesca Koelpin",
-    "AssociateFullName": "Clemmie Ally Murphy V",
-    "ContactId": 378,
-    "ContactName": "Franecki-Zulauf",
-    "ProjectId": 606,
-    "ProjectName": "Schiller, Ebert and Mante",
-    "AssociateId": 31,
-    "Snum": 970,
-    "SaleId": 501,
-    "SaleName": "Cartwright-Gerlach",
+    "PersonId": 430,
+    "PersonFullName": "Prof. Javon Adams",
+    "AssociateFullName": "Kadin Batz",
+    "ContactId": 55,
+    "ContactName": "Breitenberg-Tremblay",
+    "ProjectId": 326,
+    "ProjectName": "Grimes, Brekke and Wintheiser",
+    "AssociateId": 48,
+    "Snum": 266,
+    "SaleId": 866,
+    "SaleName": "Weissnat Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 830
       }
     }
   }

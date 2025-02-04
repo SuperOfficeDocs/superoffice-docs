@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Gleason, Osinski and Daugherty",
-    "ToolTip": "Molestiae et dolorum consequatur illum.",
-    "Deleted": false,
-    "Rank": 837,
-    "Type": "vel",
-    "ColorBlock": 199,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2017-08-25T10:18:01.0981224+02:00",
+    "Id": 778,
+    "Name": "Koch, Hand and Lockman",
+    "ToolTip": "Fugiat dolor fugit maxime aliquam nemo.",
+    "Deleted": true,
+    "Rank": 96,
+    "Type": "quae",
+    "ColorBlock": 318,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2022-05-03T13:13:33.3548212+02:00",
     "ChildItems": [
       {
-        "Id": 770,
-        "Name": "Shields-Heaney",
-        "ToolTip": "Amet et quidem reiciendis rerum odio a.",
-        "Deleted": false,
-        "Rank": 586,
-        "Type": "dignissimos",
-        "ColorBlock": 194,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2013-08-19T10:18:01.0981224+02:00",
+        "Id": 373,
+        "Name": "Welch, Wiza and Kling",
+        "ToolTip": "At deleniti voluptatem modi quo quaerat nobis facilis.",
+        "Deleted": true,
+        "Rank": 200,
+        "Type": "voluptas",
+        "ColorBlock": 495,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2009-03-12T13:13:33.3548212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "magnam",
+        "ExtraInfo": "vero",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Ms. Reginald Okuneva V"
+        "FullName": "Prof. Letha Reta Tromp"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "quod",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Delta Heathcote MD"
+    "FullName": "Annamae Jakubowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Bartell Inc and Sons",
-    "ToolTip": "Possimus accusamus et consequatur et.",
+    "Id": 346,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Tenetur a.",
     "Deleted": true,
-    "Rank": 683,
-    "Type": "molestiae",
-    "ColorBlock": 254,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2014-12-17T10:18:01.0981224+01:00",
+    "Rank": 220,
+    "Type": "placeat",
+    "ColorBlock": 198,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2010-01-03T13:13:33.3548212+01:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Lang, Spinka and Huels",
-        "ToolTip": "Expedita est inventore saepe adipisci qui explicabo et.",
-        "Deleted": false,
-        "Rank": 923,
-        "Type": "nisi",
-        "ColorBlock": 585,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2022-08-14T10:18:01.0981224+02:00",
+        "Id": 588,
+        "Name": "Thompson-Rosenbaum",
+        "ToolTip": "Tempore perferendis tenetur aut.",
+        "Deleted": true,
+        "Rank": 346,
+        "Type": "sit",
+        "ColorBlock": 514,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2000-11-25T13:13:33.3548212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "natus",
+        "ExtraInfo": "vitae",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Nettie Mann",
+        "FullName": "Laverne Clementina Dickens MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Mr. Nyasia Halvorson",
+    "ExtraInfo": "officiis",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Keven Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldLength": 633
       }
     }
   }

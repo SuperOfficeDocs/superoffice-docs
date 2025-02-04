@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lowe, Crona and Weissnat",
+  "Name": "Turcotte-Bernhard",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Collins LLC",
-    "AssociateId": 658,
-    "DetailsTable": 524,
-    "DetailsRecord": 860,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 919,
+    "Name": "Gorczany, Kihn and Volkman",
+    "AssociateId": 879,
+    "DetailsTable": 553,
+    "DetailsRecord": 873,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "possimus",
-      "ParameterObject2": "in"
+      "ParameterObject1": "rerum",
+      "ParameterObject2": "fugiat"
     },
-    "LastStarted": "2016-07-19T10:17:55.1290102+02:00",
-    "Created": "2021-01-19T10:17:55.1290102+01:00",
-    "StartCount": 734,
-    "DatabaseSerialNumber": "1586706",
-    "Context": "excepturi",
-    "Result": "eos",
+    "LastStarted": "1999-12-24T13:13:22.133333+01:00",
+    "Created": "2006-03-19T13:13:22.133333+01:00",
+    "StartCount": 218,
+    "DatabaseSerialNumber": "1282446",
+    "Context": "similique",
+    "Result": "aliquam",
     "State": "All",
-    "Description": "Profit-focused clear-thinking ability",
-    "Response": "magni",
-    "Request": "voluptatem",
-    "ProgressDescription": "Monitored 4th generation knowledge user",
-    "ProgressPercent": 715,
-    "FileName": "Medhurst, VonRueden and Block",
+    "Description": "Up-sized fresh-thinking conglomeration",
+    "Response": "repellat",
+    "Request": "non",
+    "ProgressDescription": "Horizontal optimal collaboration",
+    "ProgressPercent": 122,
+    "FileName": "Cronin Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 200
       }
     }
   }

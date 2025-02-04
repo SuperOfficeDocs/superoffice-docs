@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 285,
-  "TopicId": 694,
+  "ChatSessionId": 370,
+  "TopicId": 957,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "molestias",
-  "CustomerName": "Rippin-Beahan",
-  "CustomerEmail": "kip@bechtelar.name",
-  "CustomerPhone": "1-956-783-6377 x5101",
+  "CustomerAlias": "vel",
+  "CustomerHost": "harum",
+  "CustomerName": "Ryan, Lakin and Eichmann",
+  "CustomerEmail": "miguel@pricetoy.name",
+  "CustomerPhone": "(872)017-4302",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kautzer-Jewess",
+  "CustomerCompanyName": "Metz LLC",
   "Status": "Closed",
-  "FirstMessage": "id",
-  "LastMessage": "quo",
-  "WhenRequested": "2015-11-27T10:18:00.2543195+01:00",
-  "WhenStarted": "2020-02-17T10:18:00.2543195+01:00",
-  "WhenEnded": "1999-06-09T10:18:00.2543195+02:00",
-  "WhenIdle": "1997-11-03T10:18:00.2543195+01:00",
-  "WhenFetched": "2009-12-01T10:18:00.2543195+01:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 959,
-  "AlertLevel": 898,
-  "Rank": 362,
+  "FirstMessage": "a",
+  "LastMessage": "repellendus",
+  "WhenRequested": "2021-03-22T13:13:31.417683+01:00",
+  "WhenStarted": "2020-05-05T13:13:31.417683+02:00",
+  "WhenEnded": "2022-02-21T13:13:31.417683+01:00",
+  "WhenIdle": "2006-12-10T13:13:31.417683+01:00",
+  "WhenFetched": "2022-02-03T13:13:31.417683+01:00",
+  "SessionKey": "odio",
+  "InitialQueuePos": 308,
+  "AlertLevel": 324,
+  "Rank": 753,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 122,
+  "Rating": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 261
     }
   }
 }

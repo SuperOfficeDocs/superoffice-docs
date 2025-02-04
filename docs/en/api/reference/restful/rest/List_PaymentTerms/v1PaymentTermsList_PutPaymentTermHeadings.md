@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 424,
-    "Name": "Stiedemann, Braun and Sporer",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 166
+    "HeadingId": 690,
+    "Name": "Lakin, Gorczany and Gibson",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 982,
+    "UdListDefinitionId": 589
   },
   {
-    "HeadingId": 424,
-    "Name": "Stiedemann, Braun and Sporer",
-    "Tooltip": "modi",
-    "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 166
+    "HeadingId": 690,
+    "Name": "Lakin, Gorczany and Gibson",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 982,
+    "UdListDefinitionId": 589
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 182,
-    "Name": "Cruickshank, Murray and Haley",
-    "Tooltip": "ipsam",
+    "HeadingId": 728,
+    "Name": "Osinski Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 710,
-    "UdListDefinitionId": 535,
+    "Rank": 812,
+    "UdListDefinitionId": 253,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 82
       }
     }
   }

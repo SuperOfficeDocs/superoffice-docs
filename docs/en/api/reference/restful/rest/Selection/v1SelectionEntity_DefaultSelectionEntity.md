@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 27 Aug 2011 10:18:00 G8T
+Last-Modified: Fri, 02 Dec 2011 13:13:32 G12T
 
 {
-  "Description": "Digitized mission-critical matrices",
-  "Postit": "enim",
+  "Description": "User-centric user-facing secured line",
+  "Postit": "debitis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 634,
-  "IncludePerson": 830,
+  "GroupIdx": 731,
+  "IncludePerson": 826,
   "MemberCount": 99.99,
-  "Name": "Flatley-Tillman",
-  "PostitTextId": 15,
-  "CreatedDate": "2011-01-11T10:18:00.7074664+01:00",
-  "SelectionId": 620,
-  "SoundEx": "nostrum",
-  "Source": 470,
-  "TextId": 158,
-  "UpdatedDate": "2011-08-27T10:18:00.7074664+02:00",
-  "UpdatedCount": 130,
-  "Visibility": 987,
+  "Name": "Torp-Skiles",
+  "PostitTextId": 281,
+  "CreatedDate": "2006-07-24T13:13:32.3080319+02:00",
+  "SelectionId": 545,
+  "SoundEx": "vitae",
+  "Source": 89,
+  "TextId": 557,
+  "UpdatedDate": "2011-12-02T13:13:32.3080319+01:00",
+  "UpdatedCount": 317,
+  "Visibility": 581,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 174,
-  "TargetTableName": "Robel, O'Conner and Mayert",
+  "CompanyUnique": false,
+  "TargetTableNumber": 834,
+  "TargetTableName": "Larkin, Shields and Langworth",
   "Completed": false,
-  "LeftSelectionId": 589,
-  "RightSelectionId": 707,
+  "LeftSelectionId": 99,
+  "RightSelectionId": 191,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Klein Group",
-  "ShadowProviderName": "Thompson, Turcotte and Fisher",
-  "ChartKey": "veniam",
-  "LastLoaded": "2002-04-22T10:18:00.7074664+02:00",
-  "LastLoadedBy": 404,
+  "MainProviderName": "Stroman, Gleichner and Keebler",
+  "ShadowProviderName": "Keebler LLC",
+  "ChartKey": "voluptate",
+  "LastLoaded": "2007-05-01T13:13:32.3080319+02:00",
+  "LastLoadedBy": 678,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-10-03T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 30,
+  "LastMembershipChange": "2010-01-20T13:13:32.3080319+01:00",
+  "LastMembershipChangeBy": 749,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aperiam",
-  "MemberTabHeading": "minus",
-  "MailingsProviderName": "Schuster-Dach",
-  "DashboardTileDefinitionId": 332,
+  "MainHeading": "a",
+  "MemberTabHeading": "vitae",
+  "MailingsProviderName": "Bartoletti Inc and Sons",
+  "DashboardTileDefinitionId": 61,
   "VisibleFor": [
     {
-      "VisibleId": 931,
+      "VisibleId": 50,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     },
     {
-      "VisibleId": 931,
+      "VisibleId": 50,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Sat, 27 Aug 2011 10:18:00 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldLength": 714
     }
   }
 }

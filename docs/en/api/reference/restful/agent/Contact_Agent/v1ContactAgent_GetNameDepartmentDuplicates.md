@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wiza Inc and Sons",
+  "Name": "Erdman-Johnson",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Ritchie, Heathcote and Jacobson",
-    "SoPrimaryKey": 724,
-    "EntryName": "Considine, Torp and Buckridge",
-    "EntryIdentifier": "voluptate",
-    "RuleDisplayName": "Wyman-Powlowski",
+    "RuleName": "Bernhard, Collier and Pouros",
+    "SoPrimaryKey": 511,
+    "EntryName": "Hettinger Inc and Sons",
+    "EntryIdentifier": "quaerat",
+    "RuleDisplayName": "Stroman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldType": "System.String",
+        "FieldLength": 287
       }
     }
   }

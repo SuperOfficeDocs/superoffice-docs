@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quibusdam",
-  "Key": "eligendi"
+  "Section": "repellat",
+  "Key": "accusamus"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 106,
-  "Section": "voluptas",
-  "Key": "earum",
-  "Name": "Wiza Group",
+  "PrefDescId": 526,
+  "Section": "autem",
+  "Key": "sit",
+  "Name": "Mraz-Harris",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse attitude-oriented moratorium",
-  "IsBuiltin": true,
-  "TableName": "Buckridge Group",
-  "UserDefinedListId": 429,
-  "Rank": 450,
-  "SubGroup": "dolorum",
-  "MinLevel": 596,
-  "MaxValue": 103,
-  "MinValue": 51,
-  "RequiredLicense": "qui",
+  "Description": "Distributed dedicated interface",
+  "IsBuiltin": false,
+  "TableName": "Klocko LLC",
+  "UserDefinedListId": 960,
+  "Rank": 649,
+  "SubGroup": "praesentium",
+  "MinLevel": 458,
+  "MaxValue": 830,
+  "MinValue": 190,
+  "RequiredLicense": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

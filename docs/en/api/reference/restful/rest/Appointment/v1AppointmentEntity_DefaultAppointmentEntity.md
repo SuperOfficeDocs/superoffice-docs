@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 07 Jun 2002 10:18:00 G6T
+Last-Modified: Sat, 17 Aug 2013 13:13:31 G8T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-11-22T10:18:00.1136876+01:00",
-  "AppointmentId": 368,
-  "Description": "Managed cohesive application",
-  "Title": "aliquam",
-  "Agenda": "consequatur",
-  "InternalNotes": "possimus",
-  "StartDate": "2009-01-14T10:18:00.1136876+01:00",
-  "EndDate": "2018-10-07T10:18:00.1136876+02:00",
+  "CreatedDate": "2018-04-02T13:13:31.1518725+02:00",
+  "AppointmentId": 964,
+  "Description": "Visionary intangible infrastructure",
+  "Title": "architecto",
+  "Agenda": "qui",
+  "InternalNotes": "non",
+  "StartDate": "1998-09-02T13:13:31.1518725+02:00",
+  "EndDate": "2013-12-15T13:13:31.1518725+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 318,
+  "MotherId": 970,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-07T10:18:00.1136876+02:00",
+  "UpdatedDate": "2013-08-17T13:13:31.1518725+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 611,
+  "ActiveLinks": 891,
   "Links": [
     {
-      "EntityName": "Reichert-Shields",
-      "Id": 523,
-      "Description": "Configurable transitional utilisation",
-      "ExtraInfo": "est",
-      "LinkId": 202,
+      "EntityName": "Rau-Barton",
+      "Id": 901,
+      "Description": "Balanced web-enabled complexity",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 989,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldType": "System.String",
+          "FieldLength": 237
         }
       }
     }
   ],
-  "AlarmLeadTime": "quia",
-  "HasAlarm": true,
-  "ColorIndex": 95,
+  "AlarmLeadTime": "qui",
+  "HasAlarm": false,
+  "ColorIndex": 539,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "sit",
-  "LeadTime": "dolores",
-  "Location": "porro",
-  "RejectCounter": 492,
+  "LagTime": "expedita",
+  "LeadTime": "harum",
+  "Location": "ut",
+  "RejectCounter": 868,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 414,
-      "PersonId": 283,
-      "ContactId": 115,
+      "AssociateId": 247,
+      "PersonId": 376,
+      "ContactId": 46,
       "EmailId": 196,
-      "SendEmail": false,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "fletcher_gerlach@goldner.biz",
-      "Description": "Innovative didactic hardware"
+      "EmailAddress": "nat.rohan@bruenfunk.co.uk",
+      "Description": "Enterprise-wide modular matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-05-04T10:18:00.1136876+02:00",
+  "ActiveDate": "2024-11-15T13:13:31.1518725+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 29,
+  "PreferredTZLocation": 674,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 563,
+  "SuggestedAppointmentId": 45,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "unde",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "729791205"
+    "SuperOffice:1": "Dr. Kamille Rahsaan Lakin",
+    "SuperOffice:2": "1892356303"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "animi"
+    "CustomFields1": "et",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2024-02-07T10:18:00.1136876+01:00",
-  "PublishTo": "2010-03-24T10:18:00.1136876+01:00",
-  "PublishFrom": "2011-03-14T10:18:00.1136876+01:00",
+  "PublishEventDate": "2006-01-04T13:13:31.1674969+01:00",
+  "PublishTo": "2012-01-03T13:13:31.1674969+01:00",
+  "PublishFrom": "2016-08-08T13:13:31.1674969+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 642,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     },
     {
-      "VisibleId": 642,
+      "VisibleId": 825,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldType": "System.String",
+          "FieldLength": 634
         }
       }
     }
@@ -252,8 +252,8 @@ Last-Modified: Fri, 07 Jun 2002 10:18:00 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 955
     }
   }
 }

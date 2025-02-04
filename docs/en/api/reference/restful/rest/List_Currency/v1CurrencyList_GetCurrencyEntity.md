@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 631,
-  "Name": "Gislason LLC",
-  "Tooltip": "ipsum",
-  "Rank": 630,
-  "Rate": 19249.028,
-  "Units": 4033.458,
-  "Deleted": false,
+  "CurrencyId": 425,
+  "Name": "Upton-Leffler",
+  "Tooltip": "dignissimos",
+  "Rank": 72,
+  "Rate": 1573.268,
+  "Units": 9445.876,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 883
     }
   }
 }

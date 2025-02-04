@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 135,
-  "Name": "Hansen, Harvey and Larson",
-  "CreatedDate": "2005-11-04T10:18:00.4105739+01:00",
-  "UpdatedDate": "2010-06-30T10:18:00.4105739+02:00",
+  "ForeignAppId": 340,
+  "Name": "Labadie Group",
+  "CreatedDate": "2008-06-16T13:13:31.7301065+02:00",
+  "UpdatedDate": "2014-10-17T13:13:31.7301065+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 608,
-      "Name": "Stroman Group",
-      "CreatedDate": "2012-06-27T10:18:00.4105739+02:00",
-      "UpdatedDate": "2012-10-29T10:18:00.4105739+01:00",
-      "AssociateFullName": "Adelbert Zieme",
-      "CreatedBy": "sed",
-      "UpdatedBy": "vitae",
-      "DeviceIdentifier": "laborum",
-      "ForeignAppId": 486
+      "ForeignDeviceId": 385,
+      "Name": "Sawayn, Powlowski and Stark",
+      "CreatedDate": "2002-11-28T13:13:31.7301065+01:00",
+      "UpdatedDate": "2002-03-28T13:13:31.7301065+01:00",
+      "AssociateFullName": "Hazle Kassulke",
+      "CreatedBy": "praesentium",
+      "UpdatedBy": "sed",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 919
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 809,
-  "Name": "Upton, Flatley and Marks",
-  "CreatedDate": "2013-05-14T10:18:00.4105739+02:00",
-  "UpdatedDate": "2007-01-16T10:18:00.4105739+01:00",
+  "ForeignAppId": 445,
+  "Name": "Mertz-McKenzie",
+  "CreatedDate": "1998-09-25T13:13:31.7301065+02:00",
+  "UpdatedDate": "2013-05-12T13:13:31.7301065+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 619,
-      "Name": "Stokes-Erdman",
-      "CreatedDate": "2000-07-11T10:18:00.4105739+02:00",
-      "UpdatedDate": "2024-05-28T10:18:00.4105739+02:00",
-      "AssociateFullName": "Dr. Giovanny Reilly II",
-      "CreatedBy": "commodi",
-      "UpdatedBy": "atque",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 316,
+      "ForeignDeviceId": 300,
+      "Name": "Murray, Kohler and Osinski",
+      "CreatedDate": "2011-02-07T13:13:31.7301065+01:00",
+      "UpdatedDate": "2012-01-05T13:13:31.7301065+01:00",
+      "AssociateFullName": "Dr. Kelley Mertz Sr.",
+      "CreatedBy": "illum",
+      "UpdatedBy": "facilis",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 941,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldLength": 394
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 877
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

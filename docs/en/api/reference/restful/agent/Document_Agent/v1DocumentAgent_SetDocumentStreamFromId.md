@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 930,
+  "DocumentId": 257,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 327,
+  "DocumentId": 930,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ducimus",
-  "Header": "aut",
-  "Name": "Hermann Group",
-  "OurRef": "optio",
-  "YourRef": "ipsum",
-  "CreatedDate": "2004-05-05T10:17:55.5196518+02:00",
-  "UpdatedDate": "1999-12-13T10:17:55.5196518+01:00",
-  "Description": "Down-sized optimal process improvement",
+  "Attention": "ullam",
+  "Header": "est",
+  "Name": "Bayer, Hoppe and Kertzmann",
+  "OurRef": "repellendus",
+  "YourRef": "suscipit",
+  "CreatedDate": "2012-06-07T13:13:22.914643+02:00",
+  "UpdatedDate": "2002-08-01T13:13:22.914643+02:00",
+  "Description": "Devolved exuding approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-04-20T10:17:55.5352844+02:00",
-  "ExternalRef": "quia",
+  "Date": "2001-07-14T13:13:22.914643+02:00",
+  "ExternalRef": "sunt",
   "Completed": "Completed",
-  "ActiveLinks": 796,
+  "ActiveLinks": 78,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Toy LLC",
-      "Id": 785,
-      "Description": "Open-architected leading edge functionalities",
-      "ExtraInfo": "qui",
-      "LinkId": 543,
+      "EntityName": "Kohler-Bayer",
+      "Id": 968,
+      "Description": "Sharable dynamic protocol",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 449,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldLength": 991
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 47,
-  "Snum": 961,
+  "SuggestedDocumentId": 386,
+  "Snum": 444,
   "UserDefinedFields": {
-    "SuperOffice:1": "1840976481",
-    "SuperOffice:2": "Dawson Ullrich"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "in"
+    "CustomFields1": "porro",
+    "CustomFields2": "voluptates"
   },
-  "PublishEventDate": "2000-07-03T10:17:55.5352844+02:00",
-  "PublishTo": "1999-09-27T10:17:55.5352844+02:00",
-  "PublishFrom": "2020-07-12T10:17:55.5352844+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-02-03T13:13:22.914643+01:00",
+  "PublishTo": "2022-06-25T13:13:22.914643+02:00",
+  "PublishFrom": "2006-11-07T13:13:22.914643+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 431,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 94
         }
       }
     },
     {
-      "VisibleId": 431,
+      "VisibleId": 803,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 94
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 782
+      "FieldType": "System.Int32",
+      "FieldLength": 310
     }
   }
 }

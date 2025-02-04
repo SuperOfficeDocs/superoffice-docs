@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=968
+POST /api/v1/Agents/List/GetCountry?countryId=500
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 84,
-  "Name": "Wiza LLC",
-  "CurrencyId": 398,
-  "EnglishName": "Crona-Luettgen",
+  "CountryId": 45,
+  "Name": "O'Hara LLC",
+  "CurrencyId": 354,
+  "EnglishName": "Jakubowski, Bauch and Abshire",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Sharable local model",
-  "OrgNrText": "991865",
-  "InterAreaPrefix": "deserunt",
-  "DialInPrefix": "veritatis",
-  "ZipPrefix": "quia",
-  "DomainName": "Cummings, Buckridge and Stanton",
-  "AddressLayoutId": 17,
-  "DomesticAddressLayoutId": 476,
-  "ForeignAddressLayoutId": 209,
-  "Rank": 404,
-  "Tooltip": "temporibus",
-  "Deleted": false,
+  "ImageDescription": "Centralized modular toolset",
+  "OrgNrText": "587992",
+  "InterAreaPrefix": "illo",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "enim",
+  "DomainName": "Hagenes Inc and Sons",
+  "AddressLayoutId": 421,
+  "DomesticAddressLayoutId": 598,
+  "ForeignAddressLayoutId": 911,
+  "Rank": 965,
+  "Tooltip": "fuga",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 337
     }
   }
 }

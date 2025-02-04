@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Streich, Stracke and Crona",
-    "Description": "Assimilated composite access",
+    "Name": "Paucek, Labadie and O'Keefe",
+    "Description": "Visionary disintermediate system engine",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 57,
-        "Tooltip": "quasi",
-        "CanAssign": true,
-        "Free": 773,
-        "InUse": 832,
-        "IsHidden": true,
+        "Total": 281,
+        "Tooltip": "deleniti",
+        "CanAssign": false,
+        "Free": 304,
+        "InUse": 961,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 87,
-        "Name": "Nolan Group",
-        "Description": "Multi-layered real-time architecture",
-        "PrerequisiteModuleName": "Towne-Will",
-        "SortOrder": 663,
-        "ExtraFlags": 64,
+        "ModuleLicenseId": 406,
+        "Name": "Hahn-Jewess",
+        "Description": "Total eco-centric function",
+        "PrerequisiteModuleName": "Buckridge LLC",
+        "SortOrder": 107,
+        "ExtraFlags": 474,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 876
+            "FieldLength": 26
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 925,
-        "Tooltip": "consectetur",
+        "Unrestricted": true,
+        "Total": 325,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 892,
-        "InUse": 241,
-        "IsHidden": true,
+        "Free": 737,
+        "InUse": 678,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 510,
-        "Name": "Russel-Herzog",
-        "Description": "Organic real-time archive",
-        "PrerequisiteModuleName": "Smitham LLC",
-        "SortOrder": 894,
-        "ExtraFlags": 258,
+        "ModuleLicenseId": 652,
+        "Name": "Hane LLC",
+        "Description": "Optimized 6th generation solution",
+        "PrerequisiteModuleName": "Willms Group",
+        "SortOrder": 575,
+        "ExtraFlags": 773,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 304
+            "FieldType": "System.String",
+            "FieldLength": 496
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 624
       }
     }
   },
   {
-    "Name": "Streich, Stracke and Crona",
-    "Description": "Assimilated composite access",
+    "Name": "Paucek, Labadie and O'Keefe",
+    "Description": "Visionary disintermediate system engine",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 57,
-        "Tooltip": "quasi",
-        "CanAssign": true,
-        "Free": 773,
-        "InUse": 832,
-        "IsHidden": true,
+        "Total": 281,
+        "Tooltip": "deleniti",
+        "CanAssign": false,
+        "Free": 304,
+        "InUse": 961,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 87,
-        "Name": "Nolan Group",
-        "Description": "Multi-layered real-time architecture",
-        "PrerequisiteModuleName": "Towne-Will",
-        "SortOrder": 663,
-        "ExtraFlags": 64,
+        "ModuleLicenseId": 406,
+        "Name": "Hahn-Jewess",
+        "Description": "Total eco-centric function",
+        "PrerequisiteModuleName": "Buckridge LLC",
+        "SortOrder": 107,
+        "ExtraFlags": 474,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 876
+            "FieldLength": 26
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 925,
-        "Tooltip": "consectetur",
+        "Unrestricted": true,
+        "Total": 325,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 892,
-        "InUse": 241,
-        "IsHidden": true,
+        "Free": 737,
+        "InUse": 678,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 510,
-        "Name": "Russel-Herzog",
-        "Description": "Organic real-time archive",
-        "PrerequisiteModuleName": "Smitham LLC",
-        "SortOrder": 894,
-        "ExtraFlags": 258,
+        "ModuleLicenseId": 652,
+        "Name": "Hane LLC",
+        "Description": "Optimized 6th generation solution",
+        "PrerequisiteModuleName": "Willms Group",
+        "SortOrder": 575,
+        "ExtraFlags": 773,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 304
+            "FieldType": "System.String",
+            "FieldLength": 496
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 624
       }
     }
   }

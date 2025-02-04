@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Wyman LLC",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 479,
+  "Id": 587,
+  "Name": "Mante-Heathcote",
+  "Tooltip": "ducimus",
+  "Deleted": false,
+  "Rank": 465,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Jast-Rodriguez",
-  "Tooltip": "enim",
+  "Id": 368,
+  "Name": "Hirthe Group",
+  "Tooltip": "animi",
   "Deleted": false,
-  "Rank": 951,
-  "IsCustomList": false,
+  "Rank": 556,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 706
     }
   }
 }

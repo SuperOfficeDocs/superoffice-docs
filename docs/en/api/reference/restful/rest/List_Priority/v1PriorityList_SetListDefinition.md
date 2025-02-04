@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Weissnat Group",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 404,
+  "Id": 428,
+  "Name": "Powlowski Group",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "Rank": 375,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "tempore",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Boyle-Wilderman",
-  "Tooltip": "magnam",
+  "Id": 832,
+  "Name": "Gutmann LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 494,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
-  "InUseByUserDefinedFields": false,
+  "Rank": 529,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 637
     }
   }
 }

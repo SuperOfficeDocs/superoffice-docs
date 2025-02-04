@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 238,
-  "Select": "eum"
+  "SelectionId": 292,
+  "Select": "reprehenderit"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beier-Herman",
-    "PrimaryKey": 566,
+    "EntityName": "Kerluke-Dickens",
+    "PrimaryKey": 133,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "animi",
-        "TooltipHint": "dignissimos",
-        "LinkHint": "amet"
+        "DisplayValue": "enim",
+        "TooltipHint": "accusantium",
+        "LinkHint": "possimus"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "aut",
+    "LinkHint": "molestias",
+    "StyleHint": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 542
       }
     }
   }

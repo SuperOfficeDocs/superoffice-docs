@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jenkins, Rolfson and Stiedemann",
-  "DeviceName": "O'Keefe Inc and Sons"
+  "ApplicationName": "Towne Group",
+  "DeviceName": "Mann, Wilkinson and Macejkovic"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 682,
-  "Name": "Goyette-Smitham",
-  "CreatedDate": "2012-04-30T10:17:55.660285+02:00",
-  "UpdatedDate": "2014-01-08T10:17:55.660285+01:00",
-  "AssociateFullName": "Miss Maxwell Lang PhD",
-  "CreatedBy": "dicta",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "assumenda",
-  "ForeignAppId": 378,
+  "ForeignDeviceId": 496,
+  "Name": "Heller-Nolan",
+  "CreatedDate": "2005-10-31T13:13:23.1645837+01:00",
+  "UpdatedDate": "2024-10-21T13:13:23.1645837+02:00",
+  "AssociateFullName": "Enoch Herzog",
+  "CreatedBy": "praesentium",
+  "UpdatedBy": "ab",
+  "DeviceIdentifier": "quo",
+  "ForeignAppId": 307,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   }
 }

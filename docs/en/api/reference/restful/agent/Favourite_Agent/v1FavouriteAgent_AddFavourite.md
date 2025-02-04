@@ -71,10 +71,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bosco-White",
-  "RecordId": 932,
-  "AssociateId": 863,
-  "ExtraInfo": "adipisci"
+  "TableName": "Gleichner Group",
+  "RecordId": 520,
+  "AssociateId": 205,
+  "ExtraInfo": "eum"
 }
 ```
 

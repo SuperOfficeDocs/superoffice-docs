@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 761,
-  "WorkflowId": 107,
+  "WorkflowTriggerId": 70,
+  "WorkflowId": 161,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schmeler-Schmidt",
-      "Description": "Operative maximized infrastructure",
-      "Rank": 467,
+      "Name": "Haag LLC",
+      "Description": "Virtual incremental Graphical User Interface",
+      "Rank": 147,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmeler-Schmidt",
-      "Description": "Operative maximized infrastructure",
-      "Rank": 467,
+      "Name": "Haag LLC",
+      "Description": "Virtual incremental Graphical User Interface",
+      "Rank": 147,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldLength": 796
     }
   }
 }

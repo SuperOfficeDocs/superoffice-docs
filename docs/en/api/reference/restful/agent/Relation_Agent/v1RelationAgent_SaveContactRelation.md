@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 274,
-  "SourcePersonId": 135,
-  "DestinationContactId": 100,
-  "DestinationPersonId": 853,
-  "RelationId": 129,
-  "Comment": "modi",
-  "RelationDefinitionId": 754,
-  "Reversed": 447,
-  "UpdatedDate": "2024-02-04T10:17:55.9571855+01:00",
-  "CreatedDate": "2005-07-13T10:17:55.9571855+02:00",
+  "SourceContactId": 586,
+  "SourcePersonId": 721,
+  "DestinationContactId": 89,
+  "DestinationPersonId": 578,
+  "RelationId": 729,
+  "Comment": "repellendus",
+  "RelationDefinitionId": 251,
+  "Reversed": 277,
+  "UpdatedDate": "2003-05-18T13:13:23.7738157+02:00",
+  "CreatedDate": "2000-12-21T13:13:23.7738157+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Abernathy Group",
-  "SourcePersonName": "Brakus Group",
-  "DestinationContactName": "Mraz, Goyette and Cummings",
-  "DestinationPersonName": "Wisozk LLC",
-  "ActiveText": "nemo",
-  "PassiveText": "occaecati",
+  "SourceContactName": "Fritsch, Balistreri and Wilkinson",
+  "SourcePersonName": "Schaden-Considine",
+  "DestinationContactName": "Beier Inc and Sons",
+  "DestinationPersonName": "Kassulke-Greenfelder",
+  "ActiveText": "doloribus",
+  "PassiveText": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

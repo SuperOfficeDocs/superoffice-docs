@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 589,
-      "UniqueId": "dolorum",
-      "Name": "Wilderman Inc and Sons",
-      "Description": "Exclusive tangible portal",
-      "AssociateId": 509,
-      "Columns": 716,
+      "DashboardId": 637,
+      "UniqueId": "iure",
+      "Name": "Schaden, Larkin and Maggio",
+      "Description": "Progressive secondary forecast",
+      "AssociateId": 249,
+      "Columns": 229,
       "Theme": null,
-      "VisibleForAll": 248,
+      "VisibleForAll": 509,
       "VisibleForAssociates": [
-        794,
-        322
+        367,
+        305
       ],
       "VisibleForGroups": [
-        416,
-        372
+        181,
+        248
       ],
-      "PinForAll": 209,
+      "PinForAll": 975,
       "PinForAssociates": [
-        28,
-        914
+        6,
+        370
       ],
       "PinForGroups": [
-        998,
-        243
+        479,
+        21
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldLength": 841
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 222,
-      "UniqueId": "velit",
-      "Name": "Langworth-Cummerata",
-      "Description": "Proactive static policy",
-      "AssociateId": 681,
-      "Columns": 283,
+      "DashboardId": 452,
+      "UniqueId": "laborum",
+      "Name": "Deckow, Krajcik and Yundt",
+      "Description": "Fundamental attitude-oriented pricing structure",
+      "AssociateId": 680,
+      "Columns": 403,
       "Theme": null,
-      "VisibleForAll": 40,
+      "VisibleForAll": 137,
       "VisibleForAssociates": [
-        477,
-        644
+        267,
+        160
       ],
       "VisibleForGroups": [
-        519,
-        498
+        500,
+        80
       ],
-      "PinForAll": 670,
+      "PinForAll": 177,
       "PinForAssociates": [
-        563,
-        856
+        972,
+        184
       ],
       "PinForGroups": [
-        639,
-        208
+        499,
+        170
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 163
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 354,
-      "UniqueId": "assumenda",
-      "Name": "Schroeder-Rau",
-      "Description": "Centralized full-range task-force",
-      "AssociateId": 99,
-      "Columns": 330,
+      "DashboardId": 313,
+      "UniqueId": "ducimus",
+      "Name": "Balistreri, Donnelly and Windler",
+      "Description": "Customizable multi-tasking middleware",
+      "AssociateId": 840,
+      "Columns": 598,
       "Theme": null,
-      "VisibleForAll": 814,
+      "VisibleForAll": 785,
       "VisibleForAssociates": [
-        462,
-        183
+        851,
+        860
       ],
       "VisibleForGroups": [
-        835,
-        856
+        746,
+        396
       ],
-      "PinForAll": 424,
+      "PinForAll": 565,
       "PinForAssociates": [
-        465,
-        198
+        333,
+        552
       ],
       "PinForGroups": [
-        662,
-        100
+        943,
+        50
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 357
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

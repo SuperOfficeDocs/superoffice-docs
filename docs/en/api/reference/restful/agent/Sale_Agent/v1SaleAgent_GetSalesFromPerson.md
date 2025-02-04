@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 277,
+  "PersonId": 187,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Connelly, Gerlach and Kilback",
-    "SaleDate": "2013-09-06T10:17:56.0040633+02:00",
-    "SaleId": 870,
-    "Probability": 425,
-    "Title": "ratione",
-    "Amount": 25717.604,
-    "Currency": "enim",
-    "ProjectName": "Bartell LLC",
-    "AssociateFullName": "Laurine Nikolaus",
-    "Description": "Networked 3rd generation algorithm",
+    "ContactName": "Nienow Group",
+    "SaleDate": "2017-03-02T13:13:23.8839994+01:00",
+    "SaleId": 332,
+    "Probability": 851,
+    "Title": "occaecati",
+    "Amount": 12774.184,
+    "Currency": "aut",
+    "ProjectName": "Lynch Inc and Sons",
+    "AssociateFullName": "Aisha Hudson",
+    "Description": "Fully-configurable scalable internet solution",
     "Status": "Lost",
-    "WeightedAmount": 23135.188,
-    "ProjectId": 278,
-    "EarningPercent": 676.944,
-    "Earning": 28011.692,
-    "ContactId": 140,
-    "AssociateId": 758,
-    "PersonId": 377,
-    "SaleTypeId": 234,
-    "SaleTypeName": "Lowe LLC",
-    "PersonFullName": "Berry Aufderhar",
+    "WeightedAmount": 23106.982,
+    "ProjectId": 380,
+    "EarningPercent": 26046.674,
+    "Earning": 6521.8539999999994,
+    "ContactId": 141,
+    "AssociateId": 79,
+    "PersonId": 539,
+    "SaleTypeId": 773,
+    "SaleTypeName": "Hamill-Feeney",
+    "PersonFullName": "Ayden Kreiger",
     "Completed": "Completed",
-    "ActiveErpLinks": 649,
-    "NextDueDate": "2019-06-22T10:17:56.0040633+02:00",
-    "Number": "1262015",
+    "ActiveErpLinks": 67,
+    "NextDueDate": "2009-12-22T13:13:23.8839994+01:00",
+    "Number": "977312",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 40
+        "FieldType": "System.Int32",
+        "FieldLength": 747
       }
     }
   }

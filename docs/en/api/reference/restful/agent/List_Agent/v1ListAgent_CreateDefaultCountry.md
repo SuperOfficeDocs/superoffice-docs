@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 33,
-  "Name": "Greenfelder-Dickens",
-  "CurrencyId": 697,
-  "EnglishName": "Dach, Durgan and O'Hara",
+  "CountryId": 407,
+  "Name": "Ebert-Bogan",
+  "CurrencyId": 791,
+  "EnglishName": "Johnston-White",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Reactive exuding pricing structure",
-  "OrgNrText": "1282717",
-  "InterAreaPrefix": "mollitia",
-  "DialInPrefix": "dolore",
-  "ZipPrefix": "magni",
-  "DomainName": "Morissette, Ernser and Huel",
-  "AddressLayoutId": 654,
-  "DomesticAddressLayoutId": 780,
-  "ForeignAddressLayoutId": 411,
-  "Rank": 257,
-  "Tooltip": "quibusdam",
-  "Deleted": false,
+  "ImageDescription": "Streamlined asynchronous hub",
+  "OrgNrText": "721893",
+  "InterAreaPrefix": "consequatur",
+  "DialInPrefix": "et",
+  "ZipPrefix": "pariatur",
+  "DomainName": "Langworth LLC",
+  "AddressLayoutId": 888,
+  "DomesticAddressLayoutId": 17,
+  "ForeignAddressLayoutId": 777,
+  "Rank": 283,
+  "Tooltip": "cumque",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 309
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 750
+  "QuoteVersionId": 845
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 8609.098,
-    "Wgs84Longitude": 6550.0599999999995,
+    "Wgs84Latitude": 9991.192,
+    "Wgs84Longitude": 2068.44,
     "LocalizedAddress": [
       [
         {
-          "Name": "Howell-Tillman",
-          "Value": "nulla",
-          "Tooltip": "odio",
-          "Label": "itaque",
-          "ValueLength": 39,
-          "AddressType": "quasi",
+          "Name": "Morissette-Hagenes",
+          "Value": "beatae",
+          "Tooltip": "aliquam",
+          "Label": "ut",
+          "ValueLength": 102,
+          "AddressType": "quisquam",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 557
+              "FieldLength": 752
             }
           }
         }
       ],
       [
         {
-          "Name": "Vandervort Group",
-          "Value": "inventore",
-          "Tooltip": "delectus",
-          "Label": "eligendi",
-          "ValueLength": 316,
-          "AddressType": "expedita",
+          "Name": "Nolan Inc and Sons",
+          "Value": "officia",
+          "Tooltip": "beatae",
+          "Label": "laborum",
+          "ValueLength": 281,
+          "AddressType": "velit",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 459
+              "FieldLength": 475
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "sunt",
+    "Formatted": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 99
       }
     }
   }

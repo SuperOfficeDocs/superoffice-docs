@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Harvey LLC",
-    "ToolTip": "Nostrum natus in molestiae.",
+    "Id": 823,
+    "Name": "Leuschke Inc and Sons",
+    "ToolTip": "Unde vel.",
     "Deleted": false,
-    "Rank": 416,
-    "Type": "esse",
-    "ColorBlock": 808,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2015-05-12T10:18:00.926237+02:00",
+    "Rank": 848,
+    "Type": "rerum",
+    "ColorBlock": 749,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2024-01-03T13:13:32.7924497+01:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Dickens, Koss and Lueilwitz",
-        "ToolTip": "Dolor ut similique rem aut non eligendi necessitatibus.",
-        "Deleted": true,
-        "Rank": 955,
-        "Type": "ut",
-        "ColorBlock": 17,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2010-07-11T10:18:00.926237+02:00",
+        "Id": 205,
+        "Name": "Schmeler, Simonis and Hettinger",
+        "ToolTip": "Quia id incidunt ea amet et et.",
+        "Deleted": false,
+        "Rank": 56,
+        "Type": "voluptatem",
+        "ColorBlock": 20,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2013-01-06T13:13:32.7924497+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Miss Marianne Reva Abbott"
+        "ExtraInfo": "consectetur",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Naomi Bogisich"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Hailey Ferry"
+    "ExtraInfo": "non",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Olin Gladyce Bins II"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Senger-Renner",
-    "ToolTip": "A non ullam.",
+    "Id": 456,
+    "Name": "Sawayn Inc and Sons",
+    "ToolTip": "Ut maiores temporibus et.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "nostrum",
-    "ColorBlock": 373,
-    "IconHint": "est",
+    "Rank": 682,
+    "Type": "numquam",
+    "ColorBlock": 925,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2019-10-26T10:18:00.926237+02:00",
+    "LastChanged": "1997-12-09T13:13:32.808074+01:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Corkery, Upton and Farrell",
-        "ToolTip": "Atque aut totam possimus delectus blanditiis nisi velit.",
+        "Id": 955,
+        "Name": "Wunsch Inc and Sons",
+        "ToolTip": "Voluptatem temporibus non ut et occaecati a vel.",
         "Deleted": false,
-        "Rank": 409,
-        "Type": "vitae",
-        "ColorBlock": 380,
-        "IconHint": "fuga",
-        "Selected": false,
-        "LastChanged": "2011-10-05T10:18:00.926237+02:00",
+        "Rank": 733,
+        "Type": "placeat",
+        "ColorBlock": 66,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2008-06-08T13:13:32.808074+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "distinctio",
-        "Hidden": true,
-        "FullName": "Mustafa Flo Bartell PhD",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Prof. Arno Buckridge DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 370
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Katherine Halvorson",
+    "ExtraInfo": "quis",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Jeremy Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 986
       }
     }
   }

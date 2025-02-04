@@ -87,7 +87,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 474,
-  "Name": "Johnson-King",
-  "Tooltip": "officiis",
+  "RoleId": 779,
+  "Name": "Rogahn Group",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 821,
-  "Rank": 953,
-  "Created": "2017-02-08T10:18:00.5355883+01:00",
-  "UseCategories": 306,
+  "Deleted": 3,
+  "Rank": 790,
+  "Created": "2021-05-18T13:13:31.9800495+02:00",
+  "UseCategories": 641,
   "CreatedBy": null,
-  "Updated": "2002-01-13T10:18:00.5355883+01:00",
+  "Updated": "2017-09-29T13:13:31.9800495+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldLength": 873
     }
   },
   "_Links": {

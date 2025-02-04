@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Stoltenberg Inc and Sons",
-    "Tooltip": "iste",
+    "HeadingId": 914,
+    "Name": "Graham-Marks",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 491,
-    "UdListDefinitionId": 508
+    "Rank": 17,
+    "UdListDefinitionId": 161
   },
   {
-    "HeadingId": 539,
-    "Name": "Stoltenberg Inc and Sons",
-    "Tooltip": "iste",
+    "HeadingId": 914,
+    "Name": "Graham-Marks",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 491,
-    "UdListDefinitionId": 508
+    "Rank": 17,
+    "UdListDefinitionId": 161
   }
 ]
 ```
@@ -107,17 +107,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "HeadingId": 983,
-    "Name": "Donnelly, Emard and Daniel",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 259,
-    "UdListDefinitionId": 419,
+    "Name": "Hermiston Group",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "Rank": 789,
+    "UdListDefinitionId": 801,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 42
       }
     }
   }

@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 635,
-    "Name": "Collins, Steuber and Dickens",
-    "Tooltip": "magni",
-    "Rank": 459,
+    "LegalBaseId": 449,
+    "Name": "Murazik, Emard and Douglas",
+    "Tooltip": "iure",
+    "Rank": 148,
     "Key": "qui",
-    "Deleted": true,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 591
+        "FieldType": "System.Int32",
+        "FieldLength": 564
       }
     }
   }

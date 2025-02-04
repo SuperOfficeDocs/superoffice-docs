@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Dibbert, Bartell and Durgan",
-    "ToolTip": "Incidunt totam pariatur ad.",
+    "Id": 107,
+    "Name": "Schumm, Fadel and Kozey",
+    "ToolTip": "Nihil ullam velit aliquid ab soluta repellat ducimus.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "facere",
-    "ColorBlock": 740,
-    "IconHint": "sed",
+    "Rank": 647,
+    "Type": "repudiandae",
+    "ColorBlock": 394,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2010-08-21T10:18:01.0981224+02:00",
+    "LastChanged": "2015-12-22T13:13:33.3391989+01:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Labadie, Ratke and Denesik",
-        "ToolTip": "Nostrum aperiam molestias.",
-        "Deleted": true,
-        "Rank": 979,
-        "Type": "reiciendis",
-        "ColorBlock": 507,
-        "IconHint": "dignissimos",
+        "Id": 93,
+        "Name": "Dickinson, Ankunding and Hansen",
+        "ToolTip": "Impedit sit qui.",
+        "Deleted": false,
+        "Rank": 492,
+        "Type": "ratione",
+        "ColorBlock": 551,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2008-10-16T10:18:01.0981224+02:00",
+        "LastChanged": "2007-05-04T13:13:33.3391989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Mr. Sebastian Mills"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Karli Green"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "eos",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Jonathon McDermott"
+    "FullName": "Ms. Kory Brigitte Murphy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Ernser Inc and Sons",
-    "ToolTip": "Sapiente iure consequatur consequatur vero.",
+    "Id": 697,
+    "Name": "Dach, Kris and Torp",
+    "ToolTip": "Ab eum est itaque dicta aliquid.",
     "Deleted": false,
-    "Rank": 933,
-    "Type": "inventore",
-    "ColorBlock": 846,
-    "IconHint": "possimus",
-    "Selected": true,
-    "LastChanged": "2002-08-12T10:18:01.0981224+02:00",
+    "Rank": 532,
+    "Type": "labore",
+    "ColorBlock": 790,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2009-11-01T13:13:33.3548212+01:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Marks Group",
-        "ToolTip": "Quis nam omnis perferendis nostrum nobis magnam.",
+        "Id": 313,
+        "Name": "Kulas Group",
+        "ToolTip": "Quo voluptates nisi omnis ad earum dolores libero.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "repellat",
-        "ColorBlock": 901,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2004-01-28T10:18:01.0981224+01:00",
+        "Rank": 719,
+        "Type": "molestiae",
+        "ColorBlock": 126,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2019-08-27T13:13:33.3548212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "quae",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Mr. Erich Friesen",
+        "FullName": "Emmitt Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 290
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "magnam",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mr. Chaya Ernest Gorczany",
+    "FullName": "Barbara Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 270
+  "TicketEntityId": 627
 }
 ```
 

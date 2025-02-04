@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=incidunt
+GET /api/v1/List/ConsentSource/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Altenwerth, Renner and Mraz",
-    "ToolTip": "Maxime dolorum eos amet autem.",
+    "Id": 679,
+    "Name": "Hane Inc and Sons",
+    "ToolTip": "Dolor aut reiciendis sunt amet.",
     "Deleted": false,
-    "Rank": 301,
-    "Type": "rem",
+    "Rank": 184,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Hagenes LLC",
-        "ToolTip": "Ut voluptas possimus nostrum et dolorem et.",
-        "Deleted": false,
-        "Rank": 611,
-        "Type": "accusantium",
+        "Id": 700,
+        "Name": "Haag Inc and Sons",
+        "ToolTip": "Aliquam corrupti eius autem ratione non ut enim.",
+        "Deleted": true,
+        "Rank": 390,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 770,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "tenetur",
-        "FullName": "Jacklyn Bauch",
+        "IconHint": "eaque",
+        "ColorBlock": 651,
+        "ExtraInfo": "ut",
+        "StyleHint": "repellat",
+        "FullName": "Isac Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 718
+            "FieldType": "System.String",
+            "FieldLength": 631
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 30,
-    "ExtraInfo": "laborum",
-    "StyleHint": "cupiditate",
-    "FullName": "Dr. Luis Iva Breitenberg",
+    "IconHint": "soluta",
+    "ColorBlock": 734,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "iusto",
+    "FullName": "Obie Hillard Reinger III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 935
       }
     }
   }

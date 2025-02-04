@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    471,
-    260
+    913,
+    536
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 679,
-    "StartDate": "2013-12-14T10:17:54.8321167+01:00",
-    "EndDate": "1998-02-21T10:17:54.8321167+01:00",
+    "AppointmentId": 600,
+    "StartDate": "2019-01-10T13:13:21.5553436+01:00",
+    "EndDate": "1999-05-26T13:13:21.5553436+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sed",
-    "AssociateFullName": "Adan Rowe",
-    "ContactName": "Brown-Stokes",
-    "Description": "Cloned didactic hub",
-    "PersonFullName": "Maritza Kirlin",
-    "PersonId": 628,
-    "ContactId": 106,
-    "ProjectId": 158,
-    "ProjectName": "Kulas, Weissnat and Ratke",
+    "Task": "quibusdam",
+    "AssociateFullName": "Mrs. Savion Kuhic I",
+    "ContactName": "Harvey Group",
+    "Description": "Persevering zero tolerance knowledge base",
+    "PersonFullName": "Ryann Grimes",
+    "PersonId": 252,
+    "ContactId": 410,
+    "ProjectId": 946,
+    "ProjectName": "Roberts, Mertz and Ritchie",
     "IsPublished": true,
-    "AssociateId": 782,
-    "ColorIndex": 178,
-    "IsFree": true,
+    "AssociateId": 426,
+    "ColorIndex": 955,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 667,
-    "PriorityName": "Stoltenberg Group",
+    "PriorityId": 998,
+    "PriorityName": "Renner-Trantow",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-09-18T10:17:54.8321167+02:00",
+    "ActiveDate": "1999-05-25T13:13:21.5553436+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-10-22T10:17:54.8321167+02:00",
-    "RecurringEndDate": "2022-02-15T10:17:54.8321167+01:00",
-    "MotherId": 164,
-    "AssignedBy": 260,
-    "AssignedByFullName": "Maximo Ritchie DVM",
+    "RecurringStartDate": "2007-06-17T13:13:21.5553436+02:00",
+    "RecurringEndDate": "2002-07-09T13:13:21.5553436+02:00",
+    "MotherId": 600,
+    "AssignedBy": 956,
+    "AssignedByFullName": "Grant Bergstrom",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 624,
-    "SaleName": "Mante, Fay and Gutkowski",
-    "AssociateName": "Prohaska, Ebert and Wilkinson",
-    "CreatedDate": "1998-02-23T10:17:54.8321167+01:00",
-    "CreatedBy": "tenetur",
-    "CreatedByFullName": "Dale Jones",
-    "CreatedByAssociateId": 530,
+    "Location": "amet",
+    "AlarmLeadTime": "natus",
+    "SaleId": 637,
+    "SaleName": "Morissette, Koch and Hand",
+    "AssociateName": "Reichel-Schoen",
+    "CreatedDate": "2012-03-02T13:13:21.5553436+01:00",
+    "CreatedBy": "nulla",
+    "CreatedByFullName": "Lorna Gaylord",
+    "CreatedByAssociateId": 284,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 905,
-    "Title": "accusamus",
-    "Agenda": "ratione",
-    "InternalNotes": "laborum",
+    "PreferredTZLocation": 42,
+    "Title": "dolore",
+    "Agenda": "necessitatibus",
+    "InternalNotes": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldLength": 397
       }
     }
   }

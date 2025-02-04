@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Prof. Akeem Will",
-    "Description": "Balanced optimal alliance",
-    "ProjectId": 640,
-    "EventName": "Kihn, Brekke and Smitham",
-    "AssociateId": 22,
+    "AssociateFullName": "Corene Metz",
+    "Description": "Proactive object-oriented paradigm",
+    "ProjectId": 324,
+    "EventName": "Swaniawski Inc and Sons",
+    "AssociateId": 56,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "quaerat",
-    "SignOffText": "ut",
-    "SignOnConfirmationText": "consequatur",
-    "SignOnText": "voluptatem",
-    "EventDate": "2011-12-19T10:17:55.9103076+01:00",
-    "Enabled": true,
-    "SignOff": false,
-    "SignOffTaskEnable": false,
+    "SignOffConfirmationText": "voluptatum",
+    "SignOffText": "blanditiis",
+    "SignOnConfirmationText": "impedit",
+    "SignOnText": "ab",
+    "EventDate": "2012-10-10T13:13:23.664465+02:00",
+    "Enabled": false,
+    "SignOff": true,
+    "SignOffTaskEnable": true,
     "SignOnTaskEnable": false,
     "SignOn": false,
-    "SignOffTaskId": 641,
-    "SignOnTaskId": 91,
-    "SignOffTriggersAssign": true,
+    "SignOffTaskId": 855,
+    "SignOnTaskId": 68,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 198,
-    "SignOffPersonId": 996,
+    "SignOnPersonId": 252,
+    "SignOffPersonId": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 719
       }
     }
   }

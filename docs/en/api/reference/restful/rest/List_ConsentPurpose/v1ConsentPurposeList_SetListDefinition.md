@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Wuckert Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 885,
+  "Id": 533,
+  "Name": "Cole, Carter and Stroman",
+  "Tooltip": "a",
+  "Deleted": false,
+  "Rank": 437,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false
+  "ListType": "cum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "Name": "Carroll Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 586,
+  "Id": 209,
+  "Name": "Rosenbaum, Mann and Mann",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "Rank": 774,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

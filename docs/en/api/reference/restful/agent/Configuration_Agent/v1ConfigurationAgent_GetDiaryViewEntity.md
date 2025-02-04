@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=722
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=57
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 44,
-  "Name": "Hirthe, Koch and Champlin",
-  "Tooltip": "molestias",
-  "VisibleColumns": 11,
-  "Rank": 959,
-  "AssocId": 211,
+  "DiaryViewId": 710,
+  "Name": "Wilkinson Inc and Sons",
+  "Tooltip": "suscipit",
+  "VisibleColumns": 802,
+  "Rank": 122,
+  "AssocId": 826,
   "AssociateList": [
     {
-      "Id": 354,
-      "Name": "Lesch-Nienow",
-      "ToolTip": "Exercitationem impedit occaecati enim itaque occaecati tenetur illo.",
+      "Id": 399,
+      "Name": "Anderson Group",
+      "ToolTip": "Illo omnis eaque magni ut ipsam.",
       "Deleted": false,
-      "Rank": 357,
-      "Type": "qui",
-      "ColorBlock": 933,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2002-12-21T10:17:55.2227659+01:00",
+      "Rank": 926,
+      "Type": "optio",
+      "ColorBlock": 601,
+      "IconHint": "id",
+      "Selected": true,
+      "LastChanged": "2014-10-10T13:13:22.3364082+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "sunt",
-      "Hidden": false,
-      "FullName": "Sasha Schuster",
+      "ExtraInfo": "amet",
+      "StyleHint": "ullam",
+      "Hidden": true,
+      "FullName": "Chaya McGlynn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldType": "System.Int32",
+          "FieldLength": 26
         }
       }
     }
   ],
-  "TzLocationId": 383,
+  "TzLocationId": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

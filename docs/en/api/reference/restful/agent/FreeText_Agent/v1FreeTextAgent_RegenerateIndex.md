@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Wintheiser, Spinka and Walter",
-  "AssociateId": 193,
-  "DetailsTable": 227,
-  "DetailsRecord": 763,
+  "Id": 239,
+  "Name": "Kirlin Group",
+  "AssociateId": 924,
+  "DetailsTable": 351,
+  "DetailsRecord": 471,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "autem",
-    "ParameterObject2": "fugiat"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "deleniti"
   },
-  "LastStarted": "2024-07-15T10:17:55.660285+02:00",
-  "Created": "2024-08-05T10:17:55.660285+02:00",
-  "StartCount": 435,
-  "DatabaseSerialNumber": "1323075",
-  "Context": "ipsum",
-  "Result": "labore",
+  "LastStarted": "2009-10-16T13:13:23.1802042+02:00",
+  "Created": "2018-04-21T13:13:23.1802042+02:00",
+  "StartCount": 511,
+  "DatabaseSerialNumber": "1417642",
+  "Context": "dolorem",
+  "Result": "ducimus",
   "State": "All",
-  "Description": "Innovative full-range architecture",
-  "Response": "omnis",
-  "Request": "ut",
-  "ProgressDescription": "Reactive explicit algorithm",
-  "ProgressPercent": 656,
-  "FileName": "Hahn, Simonis and Metz",
+  "Description": "Open-architected maximized moderator",
+  "Response": "debitis",
+  "Request": "dolorem",
+  "ProgressDescription": "Innovative assymetric collaboration",
+  "ProgressPercent": 84,
+  "FileName": "Hessel, Graham and Wisoky",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

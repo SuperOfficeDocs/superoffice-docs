@@ -85,15 +85,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 971,
-  "ERPPriceListKey": "consequuntur",
-  "QuoteConnectionId": 76,
-  "Name": "Lowe-Walker",
-  "Description": "Operative solution-oriented help-desk",
-  "Currency": "rerum",
-  "CurrencyName": "Mills LLC",
-  "ValidFrom": "2012-02-01T10:17:55.9259336+01:00",
-  "ValidTo": "2023-11-04T10:17:55.9259336+01:00",
+  "PriceListId": 443,
+  "ERPPriceListKey": "libero",
+  "QuoteConnectionId": 427,
+  "Name": "Leannon Group",
+  "Description": "Business-focused 24 hour attitude",
+  "Currency": "in",
+  "CurrencyName": "Streich-Bergstrom",
+  "ValidFrom": "2010-10-05T13:13:23.7113275+02:00",
+  "ValidTo": "1998-07-03T13:13:23.7113275+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 225,
-  "ERPPriceListKey": "dignissimos",
-  "QuoteConnectionId": 501,
-  "Name": "Volkman, Brown and Muller",
-  "Description": "Re-contextualized tangible moderator",
-  "Currency": "tempora",
-  "CurrencyName": "Turner-West",
-  "ValidFrom": "2024-04-01T10:17:55.9259336+02:00",
-  "ValidTo": "2007-08-02T10:17:55.9259336+02:00",
-  "IsActive": false,
+  "PriceListId": 803,
+  "ERPPriceListKey": "magnam",
+  "QuoteConnectionId": 473,
+  "Name": "Deckow Inc and Sons",
+  "Description": "Assimilated systematic strategy",
+  "Currency": "ut",
+  "CurrencyName": "Terry-Trantow",
+  "ValidFrom": "2008-04-16T13:13:23.7113275+02:00",
+  "ValidTo": "2001-09-04T13:13:23.7113275+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 542
     }
   }
 }

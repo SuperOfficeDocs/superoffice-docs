@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 480,
-  "PrefDescId": 243,
-  "PrefValue": "pariatur",
-  "PrefShowValue": "quia",
-  "Description": "Monitored incremental architecture",
+  "PrefDescLineId": 79,
+  "PrefDescId": 909,
+  "PrefValue": "dolores",
+  "PrefShowValue": "nulla",
+  "Description": "Total tangible pricing structure",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 199,
-  "PrefDescId": 85,
-  "PrefValue": "facere",
-  "PrefShowValue": "corrupti",
-  "Description": "Compatible methodical methodology",
-  "IsBuiltin": true,
+  "PrefDescLineId": 384,
+  "PrefDescId": 866,
+  "PrefValue": "itaque",
+  "PrefShowValue": "laborum",
+  "Description": "Integrated encompassing approach",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 348
     }
   }
 }

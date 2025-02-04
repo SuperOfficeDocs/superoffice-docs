@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Waters, Tromp and Spinka",
-    "ToolTip": "Est possimus.",
-    "Deleted": true,
-    "Rank": 252,
-    "Type": "minima",
-    "ColorBlock": 390,
-    "IconHint": "iure",
+    "Id": 868,
+    "Name": "Rogahn-Nolan",
+    "ToolTip": "Dolore et delectus occaecati accusamus et.",
+    "Deleted": false,
+    "Rank": 861,
+    "Type": "consequatur",
+    "ColorBlock": 174,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2023-11-30T10:18:01.1606262+01:00",
+    "LastChanged": "2005-04-13T13:13:33.5735178+02:00",
     "ChildItems": [
       {
-        "Id": 202,
-        "Name": "Berge LLC",
-        "ToolTip": "Atque nulla ut exercitationem.",
+        "Id": 632,
+        "Name": "Durgan-Langworth",
+        "ToolTip": "Ut corporis earum doloremque placeat.",
         "Deleted": false,
-        "Rank": 697,
-        "Type": "qui",
-        "ColorBlock": 44,
-        "IconHint": "odio",
-        "Selected": true,
-        "LastChanged": "2000-10-23T10:18:01.1606262+02:00",
+        "Rank": 310,
+        "Type": "distinctio",
+        "ColorBlock": 520,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "2008-04-21T13:13:33.5735178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Prof. Glennie Benjamin Ratke DVM",
+        "ExtraInfo": "atque",
+        "StyleHint": "doloribus",
+        "Hidden": true,
+        "FullName": "Ms. Alfonzo Marilie Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 206
+            "FieldLength": 139
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Shanny Labadie",
+    "ExtraInfo": "ut",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Nathanial Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldType": "System.Int32",
+        "FieldLength": 715
       }
     }
   }

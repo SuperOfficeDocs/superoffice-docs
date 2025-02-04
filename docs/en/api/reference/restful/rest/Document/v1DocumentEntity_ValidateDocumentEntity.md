@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 865,
+  "DocumentId": 574,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "error",
-  "Header": "consequatur",
-  "Name": "Walsh-Gibson",
-  "OurRef": "ut",
-  "YourRef": "cumque",
-  "CreatedDate": "2014-01-15T10:18:00.3949543+01:00",
-  "UpdatedDate": "1998-10-23T10:18:00.3949543+02:00",
-  "Description": "Upgradable zero defect workforce",
+  "Attention": "blanditiis",
+  "Header": "et",
+  "Name": "Steuber, Effertz and Beier",
+  "OurRef": "dolores",
+  "YourRef": "ea",
+  "CreatedDate": "2017-09-03T13:13:31.714487+02:00",
+  "UpdatedDate": "2022-01-27T13:13:31.714487+01:00",
+  "Description": "Upgradable user-facing benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-08-05T10:18:00.4105739+02:00",
-  "ExternalRef": "libero",
+  "Date": "2020-08-29T13:13:31.714487+02:00",
+  "ExternalRef": "dolor",
   "Completed": "Completed",
-  "ActiveLinks": 260,
+  "ActiveLinks": 698,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Maggio-Spencer",
-      "Id": 615,
-      "Description": "Progressive reciprocal matrix",
-      "ExtraInfo": "qui",
-      "LinkId": 11
+      "EntityName": "Schneider-Dickinson",
+      "Id": 643,
+      "Description": "Monitored intermediate project",
+      "ExtraInfo": "recusandae",
+      "LinkId": 741
     },
     {
-      "EntityName": "Maggio-Spencer",
-      "Id": 615,
-      "Description": "Progressive reciprocal matrix",
-      "ExtraInfo": "qui",
-      "LinkId": 11
+      "EntityName": "Schneider-Dickinson",
+      "Id": 643,
+      "Description": "Monitored intermediate project",
+      "ExtraInfo": "recusandae",
+      "LinkId": 741
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 576,
-  "Snum": 137,
+  "SuggestedDocumentId": 191,
+  "Snum": 272,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Mr. Daisy Kautzer"
+    "SuperOffice:2": "1508698871"
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "architecto"
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "itaque"
+    "CustomFields1": "non",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2016-02-03T10:18:00.4105739+01:00",
-  "PublishTo": "1997-07-22T10:18:00.4105739+02:00",
-  "PublishFrom": "2023-01-02T10:18:00.4105739+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-04-02T13:13:31.714487+02:00",
+  "PublishTo": "2004-09-29T13:13:31.714487+02:00",
+  "PublishFrom": "2016-10-26T13:13:31.714487+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 438,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "laudantium"
+      "DisplayValue": "suscipit"
     },
     {
-      "VisibleId": 438,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "laudantium"
+      "DisplayValue": "suscipit"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloremque",
-  "2": "sit"
+  "1": "ab",
+  "2": "et"
 }
 ```

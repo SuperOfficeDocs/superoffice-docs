@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=280
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=470
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 655,
-  "SourcePersonId": 684,
-  "DestinationContactId": 278,
-  "DestinationPersonId": 427,
-  "RelationId": 198,
-  "Comment": "animi",
-  "RelationDefinitionId": 257,
-  "Reversed": 790,
-  "UpdatedDate": "2017-02-24T10:17:55.9571855+01:00",
-  "CreatedDate": "2017-05-17T10:17:55.9571855+02:00",
+  "SourceContactId": 825,
+  "SourcePersonId": 618,
+  "DestinationContactId": 917,
+  "DestinationPersonId": 614,
+  "RelationId": 836,
+  "Comment": "tempora",
+  "RelationDefinitionId": 811,
+  "Reversed": 961,
+  "UpdatedDate": "2019-11-03T13:13:23.7738157+01:00",
+  "CreatedDate": "2024-10-17T13:13:23.7738157+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Fadel Inc and Sons",
-  "SourcePersonName": "Klocko, Schmidt and Treutel",
-  "DestinationContactName": "Jacobi Inc and Sons",
-  "DestinationPersonName": "Kunde Inc and Sons",
-  "ActiveText": "error",
-  "PassiveText": "in",
+  "SourceContactName": "Kessler, Schowalter and Schimmel",
+  "SourcePersonName": "Larkin Group",
+  "DestinationContactName": "Walker LLC",
+  "DestinationPersonName": "Morar, King and Balistreri",
+  "ActiveText": "sit",
+  "PassiveText": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

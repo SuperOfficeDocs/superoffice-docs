@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 27 Jun 2008 10:18:00 G6T
+Last-Modified: Tue, 23 Mar 2021 13:13:32 G3T
 
 {
-  "Description": "Persevering non-volatile complexity",
-  "Postit": "est",
+  "Description": "Upgradable tangible challenge",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 437,
-  "IncludePerson": 385,
+  "GroupIdx": 340,
+  "IncludePerson": 109,
   "MemberCount": 99.99,
-  "Name": "Hilpert, Block and Daugherty",
-  "PostitTextId": 909,
-  "CreatedDate": "2013-08-25T10:18:00.7074664+02:00",
-  "SelectionId": 784,
-  "SoundEx": "autem",
-  "Source": 614,
-  "TextId": 837,
-  "UpdatedDate": "2008-06-27T10:18:00.7074664+02:00",
-  "UpdatedCount": 88,
-  "Visibility": 672,
+  "Name": "Friesen-D'Amore",
+  "PostitTextId": 222,
+  "CreatedDate": "2018-07-22T13:13:32.3236535+02:00",
+  "SelectionId": 653,
+  "SoundEx": "et",
+  "Source": 120,
+  "TextId": 286,
+  "UpdatedDate": "2021-03-23T13:13:32.3236535+01:00",
+  "UpdatedCount": 439,
+  "Visibility": 914,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 763,
-  "TargetTableName": "Balistreri-Hilpert",
-  "Completed": true,
-  "LeftSelectionId": 298,
-  "RightSelectionId": 659,
+  "CompanyUnique": false,
+  "TargetTableNumber": 504,
+  "TargetTableName": "O'Hara LLC",
+  "Completed": false,
+  "LeftSelectionId": 730,
+  "RightSelectionId": 32,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gleichner-Feeney",
-  "ShadowProviderName": "Buckridge Group",
-  "ChartKey": "ea",
-  "LastLoaded": "2016-01-30T10:18:00.7074664+01:00",
-  "LastLoadedBy": 917,
+  "MainProviderName": "Frami-Schaden",
+  "ShadowProviderName": "Howe, Kihn and Hansen",
+  "ChartKey": "voluptate",
+  "LastLoaded": "2012-11-26T13:13:32.3236535+01:00",
+  "LastLoadedBy": 958,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-07-01T10:18:00.7074664+02:00",
-  "LastMembershipChangeBy": 292,
+  "LastMembershipChange": "2010-05-19T13:13:32.3236535+02:00",
+  "LastMembershipChangeBy": 387,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatum",
-  "MemberTabHeading": "recusandae",
-  "MailingsProviderName": "Connelly, Monahan and Maggio",
-  "DashboardTileDefinitionId": 286,
+  "MainHeading": "inventore",
+  "MemberTabHeading": "cumque",
+  "MailingsProviderName": "Von, Carter and Howe",
+  "DashboardTileDefinitionId": 597,
   "VisibleFor": [
     {
-      "VisibleId": 152,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     },
     {
-      "VisibleId": 152,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
@@ -198,12 +198,12 @@ Last-Modified: Fri, 27 Jun 2008 10:18:00 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 1000
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

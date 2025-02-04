@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 848,
-    "Section": "dolorum",
-    "Key": "dolores",
-    "Name": "Dickens, Schaden and Carroll",
+    "PrefDescId": 588,
+    "Section": "ut",
+    "Key": "et",
+    "Name": "Willms LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persistent client-driven attitude",
-    "IsBuiltin": true,
-    "TableName": "Feeney, Skiles and Cremin",
-    "UserDefinedListId": 566,
-    "Rank": 70,
-    "SubGroup": "consequatur",
-    "MinLevel": 219,
-    "MaxValue": 235,
-    "MinValue": 396,
-    "RequiredLicense": "at",
+    "Description": "Inverse heuristic flexibility",
+    "IsBuiltin": false,
+    "TableName": "Ortiz-Schmidt",
+    "UserDefinedListId": 763,
+    "Rank": 810,
+    "SubGroup": "eaque",
+    "MinLevel": 563,
+    "MaxValue": 916,
+    "MinValue": 612,
+    "RequiredLicense": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 552
       }
     }
   }

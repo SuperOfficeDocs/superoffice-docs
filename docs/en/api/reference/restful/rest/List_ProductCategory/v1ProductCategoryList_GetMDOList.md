@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=rerum
+GET /api/v1/List/ProductCategory/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Kuphal, Streich and Moore",
-    "ToolTip": "Sint voluptatibus atque.",
+    "Id": 956,
+    "Name": "Kiehn-Schumm",
+    "ToolTip": "Dolores hic aperiam ducimus id libero reprehenderit alias.",
     "Deleted": true,
-    "Rank": 917,
-    "Type": "sed",
+    "Rank": 433,
+    "Type": "soluta",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Von-Shields",
-        "ToolTip": "Et ut et.",
+        "Id": 646,
+        "Name": "Kshlerin-Kovacek",
+        "ToolTip": "Dolores natus et.",
         "Deleted": true,
-        "Rank": 910,
-        "Type": "et",
+        "Rank": 281,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perspiciatis",
-        "ColorBlock": 880,
-        "ExtraInfo": "sunt",
-        "StyleHint": "quis",
-        "FullName": "Aliza Hickle",
+        "IconHint": "sapiente",
+        "ColorBlock": 400,
+        "ExtraInfo": "provident",
+        "StyleHint": "recusandae",
+        "FullName": "Charles Schiller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 983
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 488,
-    "ExtraInfo": "magni",
-    "StyleHint": "voluptas",
-    "FullName": "Devyn Swift",
+    "IconHint": "iure",
+    "ColorBlock": 876,
+    "ExtraInfo": "fugit",
+    "StyleHint": "ipsam",
+    "FullName": "Orland Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 293
       }
     }
   }

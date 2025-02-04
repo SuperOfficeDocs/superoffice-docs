@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cronin Inc and Sons",
-  "AdditionalInfo": "nihil",
+  "Name": "Schmitt LLC",
+  "AdditionalInfo": "fugit",
   "SelectableMDOList": [
     {
-      "Id": 489,
-      "Name": "Hilll Inc and Sons",
-      "ToolTip": "Eum ex explicabo harum ipsa voluptatem.",
-      "Deleted": true,
-      "Rank": 57,
-      "Type": "quae",
-      "ColorBlock": 872,
-      "IconHint": "voluptatem",
+      "Id": 386,
+      "Name": "Marvin, Sawayn and Kovacek",
+      "ToolTip": "Voluptas voluptatem iste autem et assumenda optio.",
+      "Deleted": false,
+      "Rank": 468,
+      "Type": "odit",
+      "ColorBlock": 566,
+      "IconHint": "quasi",
       "Selected": true,
-      "LastChanged": "2015-09-28T10:17:55.7696734+02:00",
+      "LastChanged": "2016-04-13T13:13:23.3832815+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "eveniet",
-      "Hidden": false,
-      "FullName": "Ms. Marlene Mohr"
+      "ExtraInfo": "earum",
+      "StyleHint": "quod",
+      "Hidden": true,
+      "FullName": "Mr. Jodie Metz"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Wolff-Feeney",
-    "ToolTip": "Vero ut accusantium et repellat quia.",
+    "Id": 771,
+    "Name": "Dietrich-Okuneva",
+    "ToolTip": "Dolore aliquam et totam perferendis.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "accusamus",
-    "ColorBlock": 545,
-    "IconHint": "sint",
+    "Rank": 306,
+    "Type": "velit",
+    "ColorBlock": 328,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2020-12-11T10:17:55.7696734+01:00",
+    "LastChanged": "2012-06-21T13:13:23.3832815+02:00",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Kreiger, Moen and Predovic",
-        "ToolTip": "Rerum qui adipisci qui.",
+        "Id": 940,
+        "Name": "Kub Group",
+        "ToolTip": "Est aperiam reprehenderit cumque odio.",
         "Deleted": true,
-        "Rank": 265,
-        "Type": "qui",
-        "ColorBlock": 770,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2024-10-18T10:17:55.7696734+02:00",
+        "Rank": 659,
+        "Type": "eaque",
+        "ColorBlock": 372,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2003-11-06T13:13:23.3832815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "quae",
+        "ExtraInfo": "fuga",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Lucienne Kuvalis",
+        "FullName": "Lolita Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "itaque",
+    "ExtraInfo": "animi",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Dr. Tania Reichert",
+    "FullName": "Prof. Lilly Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

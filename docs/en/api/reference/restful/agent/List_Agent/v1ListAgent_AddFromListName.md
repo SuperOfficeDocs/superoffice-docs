@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Yundt Group",
+  "UdListDefinitionName": "Medhurst, Schmitt and Powlowski",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 768,
-  "Name": "Doyle, Heller and Cole",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 961,
-  "Rank": 913,
+  "Id": 776,
+  "Name": "Walter-Blanda",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 921,
+  "Rank": 386,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 604
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

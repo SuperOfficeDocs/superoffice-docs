@@ -85,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quidem",
-  "ProviderName": "Veum, Swaniawski and Tromp",
-  "StorageKey": "aut",
-  "PageSize": 503,
-  "PageNumber": 767
+  "StorageType": "culpa",
+  "ProviderName": "Hand Group",
+  "StorageKey": "in",
+  "PageSize": 329,
+  "PageNumber": 245
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Parisian, D'Amore and Bechtelar",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "dolor",
+      "DisplayName": "Bailey-Hintz",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "impedit",
       "CanOrderBy": false,
-      "Name": "Bartoletti, Hilpert and Casper",
+      "Name": "Raynor, Bahringer and Gerlach",
       "CanRestrictBy": false,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Schaefer-Daniel",
-      "IsVisible": true,
-      "ExtraInfo": "aut",
-      "Width": "et",
-      "IconHint": "magnam",
-      "HeadingIconHint": "dolor"
+      "RestrictionType": "nostrum",
+      "RestrictionListName": "Rippin, Koch and Stoltenberg",
+      "IsVisible": false,
+      "ExtraInfo": "fugit",
+      "Width": "a",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "sapiente"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Littel LLC",
-      "PrimaryKey": 427,
+      "EntityName": "Brekke, Witting and Cruickshank",
+      "PrimaryKey": 462,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "temporibus",
-          "TooltipHint": "fuga",
-          "LinkHint": "eius"
+          "DisplayValue": "officia",
+          "TooltipHint": "sit",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "debitis",
+      "LinkHint": "accusantium",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     }
   ],
-  "RowCount": 435,
+  "RowCount": 14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 598
     }
   }
 }

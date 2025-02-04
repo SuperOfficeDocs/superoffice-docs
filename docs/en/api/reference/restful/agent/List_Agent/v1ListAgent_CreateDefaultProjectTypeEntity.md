@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 160,
-  "Name": "Schamberger-Bechtelar",
-  "Tooltip": "expedita",
-  "Rank": 124,
+  "ProjTypeId": 568,
+  "Name": "Volkman Group",
+  "Tooltip": "rerum",
+  "Rank": 29,
   "DurationUnit": "Century",
-  "ProjectDuration": 345,
-  "Deleted": true,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 702,
+  "Deleted": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 810,
-      "Name": "Schuster-Marks",
-      "ToolTip": "Molestiae ut nihil vel perferendis.",
-      "Deleted": true,
-      "Rank": 714,
-      "Type": "nostrum",
-      "ColorBlock": 905,
-      "IconHint": "ratione",
+      "Id": 759,
+      "Name": "Bartoletti Inc and Sons",
+      "ToolTip": "Saepe qui dolor cum.",
+      "Deleted": false,
+      "Rank": 65,
+      "Type": "unde",
+      "ColorBlock": 197,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2008-12-13T10:17:55.7384214+01:00",
+      "LastChanged": "2012-03-19T13:13:23.3207956+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nostrum",
-      "StyleHint": "sed",
-      "Hidden": false,
-      "FullName": "Hector Metz",
+      "ExtraInfo": "explicabo",
+      "StyleHint": "dolore",
+      "Hidden": true,
+      "FullName": "Carroll Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 210
+          "FieldLength": 438
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldLength": 795
     }
   }
 }

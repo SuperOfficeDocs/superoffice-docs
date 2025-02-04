@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Steuber LLC",
-    "ToolTip": "Quibusdam est labore ab.",
+    "Id": 674,
+    "Name": "Quigley, McGlynn and Schumm",
+    "ToolTip": "Cupiditate consequatur.",
     "Deleted": false,
-    "Rank": 338,
-    "Type": "et",
-    "ColorBlock": 332,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-03-03T10:17:56.3165751+01:00",
+    "Rank": 352,
+    "Type": "inventore",
+    "ColorBlock": 898,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2010-05-22T13:13:24.4934105+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Kessler, Price and Bogan",
-        "ToolTip": "Eveniet iure et repellendus asperiores expedita et repudiandae.",
+        "Id": 165,
+        "Name": "Heaney Group",
+        "ToolTip": "Voluptatum enim.",
         "Deleted": true,
-        "Rank": 482,
-        "Type": "debitis",
-        "ColorBlock": 331,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2022-07-13T10:17:56.3165751+02:00",
+        "Rank": 867,
+        "Type": "similique",
+        "ColorBlock": 368,
+        "IconHint": "magnam",
+        "Selected": false,
+        "LastChanged": "2013-02-10T13:13:24.4934105+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Mr. Delbert Isom Bauch Jr.",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Abner Effertz DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 692
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Ms. Leilani Maritza Smith",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Elsa Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 210
       }
     }
   }

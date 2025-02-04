@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive hybrid matrices",
+  "Description": "Multi-lateral leading edge artificial intelligence",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

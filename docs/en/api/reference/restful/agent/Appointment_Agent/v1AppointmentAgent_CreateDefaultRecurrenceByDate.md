@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2024-11-29T10:17:55.0352545+01:00"
+  "StartDate": "2021-03-10T13:13:21.9302549+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 233,
-  "StartDate": "2007-03-13T10:17:55.0352545+01:00",
-  "EndDate": "2007-08-11T10:17:55.0352545+02:00",
-  "RecurrenceCounter": 354,
+  "RecurrenceId": 56,
+  "StartDate": "2023-04-12T13:13:21.9302549+02:00",
+  "EndDate": "2018-06-20T13:13:21.9302549+02:00",
+  "RecurrenceCounter": 977,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-10-07T10:17:55.0352545+02:00",
-      "IsConflict": false,
-      "Description": "Grass-roots client-driven definition",
-      "DescriptionStyleHint": "Robust mission-critical alliance",
-      "Tooltip": "vel"
+      "Date": "2009-06-03T13:13:21.9302549+02:00",
+      "IsConflict": true,
+      "Description": "Decentralized upward-trending concept",
+      "DescriptionStyleHint": "Managed client-driven success",
+      "Tooltip": "laborum"
     },
     {
-      "Date": "2004-10-07T10:17:55.0352545+02:00",
-      "IsConflict": false,
-      "Description": "Grass-roots client-driven definition",
-      "DescriptionStyleHint": "Robust mission-critical alliance",
-      "Tooltip": "vel"
+      "Date": "2009-06-03T13:13:21.9302549+02:00",
+      "IsConflict": true,
+      "Description": "Decentralized upward-trending concept",
+      "DescriptionStyleHint": "Managed client-driven success",
+      "Tooltip": "laborum"
     }
   ],
   "IsRecurrence": false

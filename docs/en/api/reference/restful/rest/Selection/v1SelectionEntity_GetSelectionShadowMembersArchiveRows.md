@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "quasi",
   "value": [
     {
-      "PrimaryKey": 7357,
-      "EntityName": "sale",
-      "saleId": 7357,
-      "contactId": 9682,
-      "name": "Hahn-Fisher"
+      "PrimaryKey": 7348,
+      "EntityName": "person",
+      "personId": 7348,
+      "fullName": "Elmira Waters"
     },
     {
-      "PrimaryKey": 3059,
-      "EntityName": "sale",
-      "saleId": 3059,
-      "contactId": 9278,
-      "name": "Wolff-Marvin"
+      "PrimaryKey": 1395,
+      "EntityName": "person",
+      "personId": 1395,
+      "fullName": "Miss Jarret Enoch Medhurst DDS"
     }
   ]
 }

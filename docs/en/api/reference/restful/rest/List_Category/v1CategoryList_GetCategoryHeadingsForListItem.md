@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Considine, Moore and Hansen",
-    "ToolTip": "Sed modi consequatur.",
-    "Deleted": true,
-    "Rank": 538,
-    "Type": "quia",
-    "ColorBlock": 107,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "2017-11-25T10:18:00.9418629+01:00",
+    "Id": 703,
+    "Name": "Schultz-Kreiger",
+    "ToolTip": "Quas quia autem aliquam harum atque quis quidem.",
+    "Deleted": false,
+    "Rank": 535,
+    "Type": "consequatur",
+    "ColorBlock": 573,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2006-06-23T13:13:32.8705596+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Durgan Inc and Sons",
-        "ToolTip": "Et harum.",
+        "Id": 806,
+        "Name": "Kiehn-Nikolaus",
+        "ToolTip": "Provident voluptatem.",
         "Deleted": true,
-        "Rank": 340,
-        "Type": "ut",
-        "ColorBlock": 725,
-        "IconHint": "voluptas",
+        "Rank": 807,
+        "Type": "quia",
+        "ColorBlock": 10,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2022-06-19T10:18:00.9418629+02:00",
+        "LastChanged": "2011-11-20T13:13:32.8705596+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "numquam",
+        "ExtraInfo": "impedit",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Forrest Kozey IV",
+        "FullName": "Mrs. Elliott Antonio Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldLength": 239
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Candido Willms",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Mrs. Cleo Myrl Reynolds MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 768
+        "FieldLength": 65
       }
     }
   }

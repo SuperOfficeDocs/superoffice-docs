@@ -121,76 +121,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "eos",
-  "SignOffText": "vel",
-  "SignOnConfirmationText": "aspernatur",
-  "SignOnText": "voluptatem",
-  "EventDate": "2003-07-03T10:17:55.8790557+02:00",
-  "Enabled": false,
-  "CreatedDate": "1999-09-18T10:17:55.8790557+02:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "tempore",
+  "SignOffText": "sunt",
+  "SignOnConfirmationText": "quia",
+  "SignOnText": "exercitationem",
+  "EventDate": "1998-09-08T13:13:23.633159+02:00",
+  "Enabled": true,
+  "CreatedDate": "2016-05-24T13:13:23.633159+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 878,
+  "SignOffTaskId": 854,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 530,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 150,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2007-08-22T10:17:55.8790557+02:00",
+  "UpdatedDate": "2023-02-10T13:13:23.633159+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 460,
-  "Id": 761,
-  "PublishFrom": "2024-04-13T10:17:55.8790557+02:00",
+  "ProjectId": 55,
+  "Id": 827,
+  "PublishFrom": "2004-04-16T13:13:23.633159+02:00",
   "PublishType": "External",
-  "PublishTo": "2000-12-10T10:17:55.8790557+01:00",
+  "PublishTo": "2001-06-18T13:13:23.633159+02:00",
   "VisibleForCategories": [
     {
-      "Id": 394,
-      "Name": "Dach-Satterfield",
-      "ToolTip": "Rerum perferendis nobis sunt quis quis.",
-      "Deleted": false,
-      "Rank": 397,
-      "Type": "quo",
+      "Id": 823,
+      "Name": "Nienow, Sporer and Wyman",
+      "ToolTip": "Similique voluptates et voluptas at.",
+      "Deleted": true,
+      "Rank": 339,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "a",
-      "ColorBlock": 436,
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "soluta",
-      "FullName": "Mrs. Harry Kendall Daugherty"
+      "IconHint": "qui",
+      "ColorBlock": 305,
+      "ExtraInfo": "vitae",
+      "StyleHint": "similique",
+      "FullName": "Dustin Swaniawski"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 982,
-      "Name": "Abbott Inc and Sons",
-      "ToolTip": "Magni excepturi fugit eaque soluta.",
-      "Deleted": true,
-      "Rank": 734,
-      "Type": "praesentium",
+      "Id": 111,
+      "Name": "Dickinson, Weber and Konopelski",
+      "ToolTip": "Ratione quia totam ea qui atque.",
+      "Deleted": false,
+      "Rank": 948,
+      "Type": "consequuntur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "non",
-      "ColorBlock": 763,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "cum",
-      "FullName": "Odell Schaefer"
+      "IconHint": "ex",
+      "ColorBlock": 189,
+      "ExtraInfo": "ut",
+      "StyleHint": "molestias",
+      "FullName": "Kayla Bailey"
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 249
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 301
 }
 ```
 
@@ -201,94 +201,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "temporibus",
-  "SignOffText": "soluta",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "consequatur",
-  "EventDate": "1998-05-01T10:17:55.8790557+02:00",
-  "Enabled": true,
-  "CreatedDate": "2013-06-14T10:17:55.8790557+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 531,
+  "SignOffConfirmationText": "quis",
+  "SignOffText": "expedita",
+  "SignOnConfirmationText": "fugit",
+  "SignOnText": "voluptatem",
+  "EventDate": "2024-12-18T13:13:23.633159+01:00",
+  "Enabled": false,
+  "CreatedDate": "2006-09-24T13:13:23.633159+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 751,
   "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 995,
+  "SignOnTaskId": 421,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2008-11-30T10:17:55.8790557+01:00",
+  "UpdatedDate": "2015-02-24T13:13:23.633159+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 599,
-  "Id": 901,
-  "PublishFrom": "2000-06-12T10:17:55.8790557+02:00",
+  "ProjectId": 809,
+  "Id": 757,
+  "PublishFrom": "1998-05-22T13:13:23.633159+02:00",
   "PublishType": "External",
-  "PublishTo": "2005-06-17T10:17:55.8790557+02:00",
+  "PublishTo": "2021-11-01T13:13:23.633159+01:00",
   "VisibleForCategories": [
     {
-      "Id": 724,
-      "Name": "Hamill, Anderson and Steuber",
-      "ToolTip": "Quis itaque.",
-      "Deleted": false,
-      "Rank": 987,
-      "Type": "consequatur",
+      "Id": 535,
+      "Name": "Howe, Champlin and Harber",
+      "ToolTip": "Voluptatem tempora velit autem.",
+      "Deleted": true,
+      "Rank": 972,
+      "Type": "aperiam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 591,
-      "ExtraInfo": "voluptate",
-      "StyleHint": "sapiente",
-      "FullName": "Cornell Von",
+      "IconHint": "rerum",
+      "ColorBlock": 49,
+      "ExtraInfo": "atque",
+      "StyleHint": "adipisci",
+      "FullName": "Dr. Valentine Veum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldType": "System.String",
+          "FieldLength": 983
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 463,
-      "Name": "Beahan-Kshlerin",
-      "ToolTip": "Reprehenderit ad fuga ut laborum facere.",
+      "Id": 758,
+      "Name": "Schroeder-Nader",
+      "ToolTip": "Explicabo ratione laboriosam dolorum dolorem ut tempora quos.",
       "Deleted": false,
-      "Rank": 848,
-      "Type": "repellat",
+      "Rank": 745,
+      "Type": "animi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 421,
-      "ExtraInfo": "possimus",
-      "StyleHint": "id",
-      "FullName": "Grady Mann",
+      "IconHint": "repudiandae",
+      "ColorBlock": 352,
+      "ExtraInfo": "deleniti",
+      "StyleHint": "voluptatem",
+      "FullName": "Ali Alexandro Nicolas III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 496
+          "FieldLength": 311
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 73,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 108
     }
   }
 }

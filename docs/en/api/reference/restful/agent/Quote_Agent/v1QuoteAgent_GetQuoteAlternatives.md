@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 404
+  "QuoteVersionId": 236
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 122,
-    "ERPQuoteAlternativeKey": "commodi",
-    "QuoteVersionId": 590,
-    "Name": "Eichmann-Rodriguez",
-    "Description": "Vision-oriented maximized middleware",
+    "QuoteAlternativeId": 776,
+    "ERPQuoteAlternativeKey": "consequuntur",
+    "QuoteVersionId": 398,
+    "Name": "Graham Group",
+    "Description": "Multi-lateral reciprocal model",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 18691.176,
-    "ERPDiscountAmount": 28826.532,
-    "DiscountPercent": 9743.606,
-    "DiscountAmount": 250.72,
+    "ERPDiscountPercent": 6045.486,
+    "ERPDiscountAmount": 22201.255999999998,
+    "DiscountPercent": 2422.582,
+    "DiscountAmount": 28879.809999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "labore",
-    "VAT": 12482.722,
-    "EarningPercent": 22038.288,
-    "EarningAmount": 16412.757999999998,
-    "SubTotal": 4293.58,
-    "TotalPrice": 15105.88,
-    "ExtraField1": "placeat",
-    "ExtraField2": "magni",
-    "ExtraField3": "eos",
-    "ExtraField4": "eaque",
-    "ExtraField5": "commodi",
+    "VATInfo": "et",
+    "VAT": 12028.292,
+    "EarningPercent": 16171.439999999999,
+    "EarningAmount": 26215.91,
+    "SubTotal": 6029.816,
+    "TotalPrice": 16522.448,
+    "ExtraField1": "repellendus",
+    "ExtraField2": "totam",
+    "ExtraField3": "facere",
+    "ExtraField4": "laborum",
+    "ExtraField5": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 895
       }
     }
   }

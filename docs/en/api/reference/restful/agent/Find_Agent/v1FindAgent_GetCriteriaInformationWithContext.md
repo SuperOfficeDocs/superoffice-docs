@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Treutel, Rath and Kautzer",
-  "StorageKey": "doloremque",
+  "StorageType": "cumque",
+  "ProviderName": "Langworth-Volkman",
+  "StorageKey": "reprehenderit",
   "StaticColumns": [
-    "voluptas",
-    "quisquam"
+    "ex",
+    "nostrum"
   ],
-  "Context": "odit"
+  "Context": "non"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Stoltenberg-Senger",
-      "Operator": "dolores",
+      "Name": "D'Amore, Kutch and Bogisich",
+      "Operator": "nemo",
       "Values": [
-        "id",
-        "excepturi"
+        "voluptate",
+        "beatae"
       ],
       "DisplayValues": [
-        "sed",
-        "autem"
+        "quisquam",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 493,
+      "InterParenthesis": 664,
       "InterOperator": "And",
-      "UniqueHash": 1001
+      "UniqueHash": 973
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Stoltenberg, Farrell and Keeling",
-      "DisplayTooltip": "reprehenderit",
+      "DisplayName": "Greenholt LLC",
+      "DisplayTooltip": "molestiae",
       "DisplayType": "laborum",
       "CanOrderBy": true,
-      "Name": "Schmidt, Paucek and Boyer",
+      "Name": "Stoltenberg, Koch and Murazik",
       "CanRestrictBy": true,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Daniel-Corwin",
-      "IsVisible": true,
-      "ExtraInfo": "aperiam",
-      "Width": "perferendis",
-      "IconHint": "aut",
-      "HeadingIconHint": "iste"
+      "RestrictionType": "non",
+      "RestrictionListName": "Doyle Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "laborum",
+      "Width": "expedita",
+      "IconHint": "et",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "McDermott-Wolff",
-      "PrimaryKey": 304,
+      "EntityName": "Schulist, Harvey and Adams",
+      "PrimaryKey": 109,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolores",
-          "TooltipHint": "et",
-          "LinkHint": "est"
+          "DisplayValue": "minima",
+          "TooltipHint": "eaque",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "architecto",
+      "LinkHint": "ex",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 238
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kreiger, Gusikowski and Koepp",
-      "Description": "Configurable even-keeled Graphical User Interface",
-      "Rank": 713,
+      "Name": "McClure Group",
+      "Description": "Business-focused 6th generation model",
+      "Rank": 399,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kreiger, Gusikowski and Koepp",
-      "Description": "Configurable even-keeled Graphical User Interface",
-      "Rank": 713,
+      "Name": "McClure Group",
+      "Description": "Business-focused 6th generation model",
+      "Rank": 399,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 770
     }
   }
 }

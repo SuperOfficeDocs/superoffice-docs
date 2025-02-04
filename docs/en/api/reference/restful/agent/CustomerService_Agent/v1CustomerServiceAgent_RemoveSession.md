@@ -68,7 +68,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LoginId": 252
+  "LoginId": 504
 }
 ```
 

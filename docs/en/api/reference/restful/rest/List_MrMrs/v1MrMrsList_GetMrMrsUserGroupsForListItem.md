@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Pfeffer, Robel and Wisoky",
-    "ToolTip": "Aspernatur fuga aut fuga facilis.",
-    "Deleted": false,
-    "Rank": 622,
-    "Type": "mollitia",
-    "ColorBlock": 946,
-    "IconHint": "et",
+    "Id": 352,
+    "Name": "Ratke, Powlowski and Heathcote",
+    "ToolTip": "Perspiciatis ab ipsum.",
+    "Deleted": true,
+    "Rank": 175,
+    "Type": "quae",
+    "ColorBlock": 85,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2009-01-12T10:18:01.0356179+01:00",
+    "LastChanged": "2015-04-03T13:13:33.1673625+02:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Bogan, Gleichner and Pouros",
-        "ToolTip": "Quidem rerum magni id fugit est amet optio.",
+        "Id": 699,
+        "Name": "Bahringer, Dibbert and Adams",
+        "ToolTip": "Sunt qui aspernatur ad.",
         "Deleted": false,
-        "Rank": 259,
-        "Type": "non",
-        "ColorBlock": 160,
-        "IconHint": "atque",
+        "Rank": 671,
+        "Type": "cumque",
+        "ColorBlock": 512,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2023-09-28T10:18:01.0356179+02:00",
+        "LastChanged": "2017-06-23T13:13:33.1673625+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Mr. Jimmie Brent Swaniawski",
+        "ExtraInfo": "quos",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Mr. Clarabelle Fabiola Robel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "est",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Bell Rogahn",
+    "FullName": "Melyna Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 825
       }
     }
   }

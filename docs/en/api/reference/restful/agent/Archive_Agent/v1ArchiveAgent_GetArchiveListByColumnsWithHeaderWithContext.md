@@ -103,56 +103,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gorczany, Bartoletti and Koepp",
+  "ProviderName": "Cruickshank, Monahan and Jaskolski",
   "Columns": [
-    "impedit",
-    "omnis"
+    "dignissimos",
+    "atque"
   ],
   "SortOrder": [
     {
-      "Name": "Weimann Inc and Sons",
+      "Name": "Osinski LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Weimann Inc and Sons",
+      "Name": "Osinski LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Zieme-Tillman",
-      "Operator": "voluptas",
+      "Name": "Pagac-Marvin",
+      "Operator": "animi",
       "Values": [
-        "aut",
-        "necessitatibus"
+        "blanditiis",
+        "aut"
       ],
       "DisplayValues": [
-        "pariatur",
-        "minus"
+        "dolorem",
+        "dolorum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 179,
+      "InterParenthesis": 162,
       "InterOperator": "And",
-      "UniqueHash": 600
+      "UniqueHash": 320
     }
   ],
   "Entities": [
-    "sed",
-    "nulla"
+    "laborum",
+    "aliquid"
   ],
-  "Page": 272,
-  "PageSize": 238,
-  "Options": "dolore",
-  "Context": "molestias"
+  "Page": 360,
+  "PageSize": 811,
+  "Options": "nemo",
+  "Context": "consequuntur"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 943,
+  "RowCount": 694,
   "Rows": [
     {
-      "EntityName": "Wisoky, White and Shields",
-      "PrimaryKey": 892,
+      "EntityName": "Purdy LLC",
+      "PrimaryKey": 345,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "distinctio",
-          "TooltipHint": "ipsam",
-          "LinkHint": "neque"
+          "DisplayValue": "et",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "repudiandae"
         }
       },
-      "LinkHint": "soluta",
-      "StyleHint": "ut",
+      "LinkHint": "qui",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 217
+      "FieldType": "System.Int32",
+      "FieldLength": 857
     }
   }
 }

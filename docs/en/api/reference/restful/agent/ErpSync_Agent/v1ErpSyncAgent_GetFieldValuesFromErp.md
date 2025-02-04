@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 149,
+  "ErpConnectionId": 403,
   "ActorTypeErp": "Customer",
-  "ErpKey": "fugit"
+  "ErpKey": "voluptatem"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Cruickshank Inc and Sons",
-    "CrmFieldKey": "sed",
-    "Value": "nihil",
-    "DisplayValue": "in",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "DisplayName": "Sipes, Windler and Treutel",
+    "CrmFieldKey": "qui",
+    "Value": "deleniti",
+    "DisplayValue": "magnam",
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 671
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 33,
-  "Name": "Kozey, Huels and O'Reilly",
-  "TZLocationCode": "itaque",
-  "TZLocationCities": "ullam",
-  "IsoNumber": 173,
+  "TZLocationID": 831,
+  "Name": "Gorczany, Gutmann and Runolfsson",
+  "TZLocationCode": "omnis",
+  "TZLocationCities": "id",
+  "IsoNumber": 363,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 408,
-      "StartMonth": 993,
-      "EndDay": 987,
-      "EndMonth": 779,
-      "TZOffset": 730,
-      "StartRulePattern": "vel",
-      "EndRulePattern": "cupiditate"
+      "StartDay": 464,
+      "StartMonth": 888,
+      "EndDay": 930,
+      "EndMonth": 45,
+      "TZOffset": 356,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "labore"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 182,
-      "StartMonth": 24,
-      "EndDay": 169,
-      "EndMonth": 363,
-      "TZOffset": 511,
-      "StartRulePattern": "consectetur",
-      "EndRulePattern": "facilis"
+      "StartDay": 138,
+      "StartMonth": 169,
+      "EndDay": 549,
+      "EndMonth": 848,
+      "TZOffset": 941,
+      "StartRulePattern": "itaque",
+      "EndRulePattern": "dolore"
     }
   }
 }

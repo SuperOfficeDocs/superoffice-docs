@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 77,
-  "Name": "Koepp-Spencer",
-  "Tooltip": "incidunt",
-  "Rank": 583,
-  "Deleted": false,
-  "DaysFuture": 947,
-  "Duration": "et",
-  "AutoSuggest": false,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 800,
+  "Name": "Daugherty, Deckow and Lesch",
+  "Tooltip": "quidem",
+  "Rank": 55,
+  "Deleted": true,
+  "DaysFuture": 228,
+  "Duration": "inventore",
+  "AutoSuggest": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "quod",
+  "Text": "tenetur",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 709,
-  "Name": "Nicolas, Hintz and Towne",
-  "Tooltip": "quos",
-  "Rank": 837,
-  "Deleted": false,
-  "DaysFuture": 737,
-  "Duration": "voluptatem",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 810,
+  "Name": "Barrows-Romaguera",
+  "Tooltip": "tenetur",
+  "Rank": 823,
+  "Deleted": true,
+  "DaysFuture": 911,
+  "Duration": "quod",
+  "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "minima",
+  "AssignToMember": false,
+  "Text": "culpa",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 608
     }
   }
 }

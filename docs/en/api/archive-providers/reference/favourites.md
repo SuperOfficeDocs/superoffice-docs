@@ -2943,7 +2943,7 @@ Archive provider for the list of favourites
 | ---- | ----- | ------- | ------ |
 |mailingAddr/person/consentSourceStore| *None* |Contact - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |mailingAddr/person/consentSourceEmarketing| *None* |Contact - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|emailFlow/emailFlowId| *None* |Email flow Id: The database Id of the email flow|  |
+|emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow|  |
 |emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents|  |
 |emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?|  |
@@ -3300,7 +3300,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=salePublish/isPublished,person/correspondingAssociate/credentialType,contact/contactPhone/description,contact/restrictionAddress/line2,contact/contactExtra/x_contact_datetime
+GET /api/v1/archive/Favourites?$select=person/personRegisteredByFullName,person/email/emailBounceCount,person/personAddress/line3,person/personExtra/x_person_request_relation,person/personAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

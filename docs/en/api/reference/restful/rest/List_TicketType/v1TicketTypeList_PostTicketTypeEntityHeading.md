@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 217,
-  "Name": "Ward, Rau and Bogan",
-  "Tooltip": "ut",
+  "HeadingId": 63,
+  "Name": "Kulas, Schuster and Goyette",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 792,
-  "UdListDefinitionId": 266
+  "Rank": 700,
+  "UdListDefinitionId": 325
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 687,
-  "Name": "Anderson Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 918,
-  "UdListDefinitionId": 129,
+  "HeadingId": 873,
+  "Name": "Kuhlman, Jacobson and Jast",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 919,
+  "UdListDefinitionId": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldLength": 536
     }
   }
 }

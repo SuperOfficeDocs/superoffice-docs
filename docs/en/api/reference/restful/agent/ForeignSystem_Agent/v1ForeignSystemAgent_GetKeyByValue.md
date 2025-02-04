@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Tromp, Jewess and Hintz",
-  "DeviceName": "Altenwerth, Lesch and Glover",
-  "KeyName": "Pouros, O'Connell and Nikolaus",
-  "KeyValue": "sapiente",
-  "TableName": "Willms, Pouros and McLaughlin"
+  "ApplicationName": "Turner, Yost and Bernhard",
+  "DeviceName": "Barton-Kuhlman",
+  "KeyName": "Walsh, Ebert and Goyette",
+  "KeyValue": "et",
+  "TableName": "Homenick LLC"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "amet",
-  "Value": "minus",
-  "RecordId": 999,
-  "CreatedDate": "2022-02-24T10:17:55.660285+01:00",
-  "UpdatedDate": "2000-03-01T10:17:55.660285+01:00",
-  "UpdatedBy": "sint",
-  "CreatedBy": "ut",
-  "TableName": "Weber, Torphy and Lynch",
+  "Key": "nostrum",
+  "Value": "ut",
+  "RecordId": 585,
+  "CreatedDate": "2013-05-21T13:13:23.1802042+02:00",
+  "UpdatedDate": "2007-12-16T13:13:23.1802042+01:00",
+  "UpdatedBy": "officiis",
+  "CreatedBy": "enim",
+  "TableName": "Wehner, Lynch and Watsica",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

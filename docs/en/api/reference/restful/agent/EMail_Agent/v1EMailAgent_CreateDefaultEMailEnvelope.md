@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 971,
-  "MessageId": "repellat",
-  "Subject": "optio",
+  "ServerId": 302,
+  "MessageId": "dolor",
+  "Subject": "ipsa",
   "From": null,
   "To": [
     {
-      "ContactId": 478,
-      "ContactName": "Davis Group",
-      "PersonId": 925,
-      "PersonName": "Haag LLC",
-      "AssociateId": 935,
-      "Address": "autem",
-      "EmailId": 246,
+      "ContactId": 68,
+      "ContactName": "Macejkovic Inc and Sons",
+      "PersonId": 548,
+      "PersonName": "Kohler-Shanahan",
+      "AssociateId": 368,
+      "Address": "dolores",
+      "EmailId": 633,
       "DuplicatePersonIds": [
-        451,
-        409
+        941,
+        743
       ],
-      "Name": "White-Heaney",
+      "Name": "Beier, Mohr and Johnston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 279
         }
       }
     }
   ],
-  "Sent": "2024-05-24T10:17:55.5821627+02:00",
+  "Sent": "2002-12-30T13:13:23.0083594+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 283,
+  "Size": 753,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 623
     }
   }
 }

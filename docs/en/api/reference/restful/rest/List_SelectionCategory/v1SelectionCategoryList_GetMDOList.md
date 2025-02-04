@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=modi
+GET /api/v1/List/SelectionCategory/MDOItems?query=nemo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Armstrong, Veum and O'Hara",
-    "ToolTip": "Voluptatem aut suscipit quod quia nemo et ea.",
+    "Id": 171,
+    "Name": "Volkman Group",
+    "ToolTip": "Rerum quia nobis.",
     "Deleted": true,
-    "Rank": 59,
-    "Type": "laborum",
+    "Rank": 793,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 412,
-        "Name": "Fay Inc and Sons",
-        "ToolTip": "Autem laboriosam corporis non et.",
+        "Id": 59,
+        "Name": "Kutch, Hermiston and Rath",
+        "ToolTip": "Rerum aut autem nam sed.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "eum",
+        "Rank": 377,
+        "Type": "optio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 246,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "unde",
-        "FullName": "Prof. Seamus Mattie Rodriguez",
+        "IconHint": "quia",
+        "ColorBlock": 750,
+        "ExtraInfo": "quod",
+        "StyleHint": "qui",
+        "FullName": "Kellie Christ Marvin DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 643
+            "FieldLength": 171
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 804,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "quod",
-    "FullName": "Manuel Legros",
+    "IconHint": "qui",
+    "ColorBlock": 51,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "et",
+    "FullName": "Carson Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldType": "System.Int32",
+        "FieldLength": 451
       }
     }
   }

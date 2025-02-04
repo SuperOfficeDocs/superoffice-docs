@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 841,
-  "StartTime": "2017-10-13T10:17:55.457154+02:00",
-  "EndTime": "2019-02-15T10:17:55.457154+01:00",
-  "Count": 226,
+  "ProjectId": 226,
+  "StartTime": "2005-09-03T13:13:22.6019709+02:00",
+  "EndTime": "1999-03-22T13:13:22.6019709+01:00",
+  "Count": 208,
   "DocumentTemplateIds": [
-    163,
-    285
+    146,
+    439
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 963,
-    "Attention": "expedita",
-    "Header": "similique",
-    "Name": "Shanahan, Cummings and Renner",
-    "OurRef": "ea",
-    "YourRef": "explicabo",
-    "Description": "Reduced fault-tolerant orchestration",
-    "DocumentTemplate": "est",
-    "IsPublished": false,
-    "PersonId": 201,
-    "PersonFullName": "Prof. Lamar Breitenberg Jr.",
-    "AssociateFullName": "Prof. Karelle Glover PhD",
-    "ContactId": 181,
-    "ContactName": "Moore, Bahringer and Monahan",
-    "ProjectId": 715,
-    "ProjectName": "Raynor-Pacocha",
-    "AssociateId": 989,
-    "Snum": 363,
-    "SaleId": 385,
-    "SaleName": "Bartell, Hansen and Grant",
+    "DocumentId": 924,
+    "Attention": "fugiat",
+    "Header": "vel",
+    "Name": "Weissnat-Smith",
+    "OurRef": "voluptatem",
+    "YourRef": "saepe",
+    "Description": "Self-enabling explicit success",
+    "DocumentTemplate": "consectetur",
+    "IsPublished": true,
+    "PersonId": 234,
+    "PersonFullName": "Mr. Devon Schowalter",
+    "AssociateFullName": "Miss Janice Murphy",
+    "ContactId": 83,
+    "ContactName": "Haag Inc and Sons",
+    "ProjectId": 548,
+    "ProjectName": "Boyer-Hilll",
+    "AssociateId": 767,
+    "Snum": 437,
+    "SaleId": 184,
+    "SaleName": "O'Hara-Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldLength": 622
       }
     }
   }

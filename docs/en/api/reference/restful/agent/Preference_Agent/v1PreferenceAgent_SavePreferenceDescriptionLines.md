@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 245,
-      "PrefDescId": 15,
-      "PrefValue": "dolores",
-      "PrefShowValue": "quia",
-      "Description": "Public-key responsive flexibility",
+      "PrefDescLineId": 426,
+      "PrefDescId": 255,
+      "PrefValue": "rem",
+      "PrefShowValue": "debitis",
+      "Description": "Centralized uniform model",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 245,
-      "PrefDescId": 15,
-      "PrefValue": "dolores",
-      "PrefShowValue": "quia",
-      "Description": "Public-key responsive flexibility",
+      "PrefDescLineId": 426,
+      "PrefDescId": 255,
+      "PrefValue": "rem",
+      "PrefShowValue": "debitis",
+      "Description": "Centralized uniform model",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 827,
-    "PrefDescId": 43,
-    "PrefValue": "temporibus",
-    "PrefShowValue": "veniam",
-    "Description": "Mandatory even-keeled strategy",
+    "PrefDescLineId": 193,
+    "PrefDescId": 506,
+    "PrefValue": "dolorum",
+    "PrefShowValue": "sit",
+    "Description": "Secured discrete groupware",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

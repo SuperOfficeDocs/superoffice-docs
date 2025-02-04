@@ -77,41 +77,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 475,
-  "Field": "modi",
-  "RecordId": 584,
+  "RefCountsId": 94,
+  "Field": "autem",
+  "RecordId": 434,
   "SuggestedRecords": [
     {
-      "Id": 433,
-      "Name": "Rice Group",
-      "ToolTip": "Illum blanditiis aut et et.",
+      "Id": 525,
+      "Name": "Ebert Inc and Sons",
+      "ToolTip": "Eum quia natus omnis fuga blanditiis alias magni.",
       "Deleted": false,
-      "Rank": 790,
-      "Type": "veniam",
+      "Rank": 691,
+      "Type": "porro",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minus",
-      "ColorBlock": 106,
-      "ExtraInfo": "vel",
-      "StyleHint": "consequatur",
-      "FullName": "Hilton Corwin I",
+      "IconHint": "ex",
+      "ColorBlock": 871,
+      "ExtraInfo": "qui",
+      "StyleHint": "maiores",
+      "FullName": "Lula Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldType": "System.String",
+          "FieldLength": 935
         }
       }
     }
   ],
-  "CurrentValue": 413,
-  "TravelPrefix": 198,
-  "SatPrefix": 788,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 508,
+  "TravelPrefix": 622,
+  "SatPrefix": 568,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 139
     }
   }
 }

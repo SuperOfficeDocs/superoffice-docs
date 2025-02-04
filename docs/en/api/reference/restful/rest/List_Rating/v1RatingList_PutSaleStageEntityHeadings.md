@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Schaefer Group",
-    "Tooltip": "sed",
+    "HeadingId": 1000,
+    "Name": "Reichert Inc and Sons",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 62
+    "Rank": 964,
+    "UdListDefinitionId": 595
   },
   {
-    "HeadingId": 493,
-    "Name": "Schaefer Group",
-    "Tooltip": "sed",
+    "HeadingId": 1000,
+    "Name": "Reichert Inc and Sons",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 62
+    "Rank": 964,
+    "UdListDefinitionId": 595
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Bogisich-Champlin",
-    "Tooltip": "dignissimos",
+    "HeadingId": 121,
+    "Name": "Hintz, Roberts and Armstrong",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 137,
-    "UdListDefinitionId": 387,
+    "Rank": 722,
+    "UdListDefinitionId": 76,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 677
       }
     }
   }

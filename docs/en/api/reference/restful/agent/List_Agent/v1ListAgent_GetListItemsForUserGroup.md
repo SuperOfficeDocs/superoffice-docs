@@ -92,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 742,
-  "GroupId": 551
+  "UdListDefinitionId": 923,
+  "GroupId": 14
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Cormier LLC",
-    "ToolTip": "Assumenda animi a rerum quaerat ea.",
+    "Id": 452,
+    "Name": "Johnson Inc and Sons",
+    "ToolTip": "Distinctio excepturi et et voluptas dolorem est.",
     "Deleted": false,
-    "Rank": 403,
-    "Type": "quae",
-    "ColorBlock": 618,
-    "IconHint": "autem",
+    "Rank": 503,
+    "Type": "dolore",
+    "ColorBlock": 455,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2021-05-18T10:17:55.7071691+02:00",
+    "LastChanged": "2003-01-13T13:13:23.2583064+01:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Kutch Group",
-        "ToolTip": "Molestiae architecto in aut excepturi voluptate ut.",
+        "Id": 844,
+        "Name": "Schaden-Crooks",
+        "ToolTip": "In id aut commodi.",
         "Deleted": false,
-        "Rank": 432,
-        "Type": "tempore",
-        "ColorBlock": 231,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "1997-11-04T10:17:55.7071691+01:00",
+        "Rank": 304,
+        "Type": "sed",
+        "ColorBlock": 828,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2010-08-24T13:13:23.2583064+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Stuart Flatley",
+        "ExtraInfo": "fuga",
+        "StyleHint": "atque",
+        "Hidden": false,
+        "FullName": "Felipe Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 197
+            "FieldLength": 408
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
+    "ExtraInfo": "sit",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Miss Myrtice Kenton Hilpert I",
+    "FullName": "Emilie Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 282
       }
     }
   }

@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 429,
+  "AppointmentId": 757,
   "UseMotherId": true
 }
 ```
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aperiam"
+"dolores"
 ```

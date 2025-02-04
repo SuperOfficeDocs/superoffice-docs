@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 572,
+  "DocumentId": 304,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aperiam",
-  "Header": "error",
-  "Name": "Paucek-Nitzsche",
-  "OurRef": "sunt",
-  "YourRef": "quod",
-  "CreatedDate": "2021-04-08T10:17:55.4884062+02:00",
-  "UpdatedDate": "1998-08-20T10:17:55.4884062+02:00",
-  "Description": "Persevering 24 hour emulation",
+  "Attention": "consequatur",
+  "Header": "iste",
+  "Name": "Swift Inc and Sons",
+  "OurRef": "explicabo",
+  "YourRef": "perferendis",
+  "CreatedDate": "2017-08-24T13:13:22.8364721+02:00",
+  "UpdatedDate": "2017-10-15T13:13:22.8364721+02:00",
+  "Description": "User-friendly transitional task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-11T10:17:55.4884062+02:00",
-  "ExternalRef": "dolor",
+  "Date": "2014-11-21T13:13:22.8364721+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 989,
+  "ActiveLinks": 304,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gaylord, Turner and Kub",
-      "Id": 394,
-      "Description": "Cloned client-driven Graphical User Interface",
-      "ExtraInfo": "non",
-      "LinkId": 734,
+      "EntityName": "Kirlin, Hettinger and Schmidt",
+      "Id": 831,
+      "Description": "Object-based demand-driven attitude",
+      "ExtraInfo": "quia",
+      "LinkId": 669,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldLength": 979
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 301,
-  "Snum": 827,
+  "SuggestedDocumentId": 626,
+  "Snum": 613,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mittie Bogan",
-    "SuperOffice:2": "Nadia Bashirian"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "788283562"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2005-02-24T10:17:55.4884062+01:00",
-  "PublishTo": "2006-07-27T10:17:55.4884062+02:00",
-  "PublishFrom": "2021-05-02T10:17:55.4884062+02:00",
+  "PublishEventDate": "2012-05-20T13:13:22.8364721+02:00",
+  "PublishTo": "2022-06-01T13:13:22.8364721+02:00",
+  "PublishFrom": "2019-10-18T13:13:22.8364721+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 26,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldLength": 566
         }
       }
     },
     {
-      "VisibleId": 26,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldLength": 566
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

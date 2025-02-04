@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 605
+  "ChatSessionId": 970
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 207,
-  "TopicId": 292,
+  "ChatSessionId": 205,
+  "TopicId": 103,
   "User": null,
   "Person": null,
-  "CustomerAlias": "distinctio",
-  "CustomerHost": "qui",
-  "CustomerName": "Tillman Group",
-  "CustomerEmail": "eddie.lakin@towne.name",
-  "CustomerPhone": "1-642-368-9102 x259",
+  "CustomerAlias": "vel",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Ruecker-Lehner",
+  "CustomerEmail": "jessie_vandervort@weber.uk",
+  "CustomerPhone": "1-623-576-6359",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Purdy, Hansen and Kertzmann",
+  "CustomerCompanyName": "Russel-Rodriguez",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "quis",
-  "WhenRequested": "2015-05-03T10:17:55.1915141+02:00",
-  "WhenStarted": "2016-02-03T10:17:55.1915141+01:00",
-  "WhenEnded": "2005-06-12T10:17:55.1915141+02:00",
-  "WhenIdle": "1998-11-27T10:17:55.1915141+01:00",
-  "WhenFetched": "2001-10-06T10:17:55.1915141+02:00",
-  "SessionKey": "laudantium",
-  "InitialQueuePos": 686,
-  "AlertLevel": 560,
-  "Rank": 754,
+  "FirstMessage": "veniam",
+  "LastMessage": "voluptatibus",
+  "WhenRequested": "2022-04-27T13:13:22.2739246+02:00",
+  "WhenStarted": "2020-05-28T13:13:22.2739246+02:00",
+  "WhenEnded": "2013-09-12T13:13:22.2739246+02:00",
+  "WhenIdle": "2002-02-15T13:13:22.2739246+01:00",
+  "WhenFetched": "2009-05-05T13:13:22.2739246+02:00",
+  "SessionKey": "dolor",
+  "InitialQueuePos": 94,
+  "AlertLevel": 497,
+  "Rank": 707,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 621,
+  "Rating": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldType": "System.String",
+      "FieldLength": 661
     }
   }
 }

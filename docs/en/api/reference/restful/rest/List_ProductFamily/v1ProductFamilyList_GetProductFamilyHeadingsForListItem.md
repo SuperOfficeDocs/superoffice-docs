@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Dickinson Inc and Sons",
-    "ToolTip": "Sed nam iure sunt nihil laudantium et ut.",
+    "Id": 16,
+    "Name": "Muller Inc and Sons",
+    "ToolTip": "Nostrum alias.",
     "Deleted": true,
-    "Rank": 742,
-    "Type": "fuga",
-    "ColorBlock": 342,
-    "IconHint": "eum",
+    "Rank": 539,
+    "Type": "expedita",
+    "ColorBlock": 487,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "1999-01-02T10:18:01.0824964+01:00",
+    "LastChanged": "2006-02-07T13:13:33.3235805+01:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Kihn, Price and Stehr",
-        "ToolTip": "Qui eligendi voluptas quasi laboriosam repellat.",
-        "Deleted": false,
-        "Rank": 87,
-        "Type": "inventore",
-        "ColorBlock": 513,
-        "IconHint": "asperiores",
+        "Id": 725,
+        "Name": "Stark Group",
+        "ToolTip": "Exercitationem dolorem odio repudiandae quia.",
+        "Deleted": true,
+        "Rank": 29,
+        "Type": "veritatis",
+        "ColorBlock": 906,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2007-06-21T10:18:01.0824964+02:00",
+        "LastChanged": "2000-12-11T13:13:33.3235805+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Susan Kay Roob Sr.",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Miss Constantin Mann MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 186
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "rem",
+    "ExtraInfo": "cumque",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Mrs. Audreanne Carole Romaguera DDS",
+    "FullName": "Cynthia Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldLength": 881
       }
     }
   }

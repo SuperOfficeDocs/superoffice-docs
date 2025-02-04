@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "enim",
-  "Tooltip": "laborum",
-  "Id": 454,
-  "Rank": 777,
+  "Value": "tempore",
+  "Tooltip": "laboriosam",
+  "Id": 762,
+  "Rank": 471,
   "Deleted": false
 }
 ```
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "possimus",
-  "Tooltip": "aspernatur",
-  "Id": 773,
-  "Rank": 507,
+  "Value": "atque",
+  "Tooltip": "porro",
+  "Id": 684,
+  "Rank": 227,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

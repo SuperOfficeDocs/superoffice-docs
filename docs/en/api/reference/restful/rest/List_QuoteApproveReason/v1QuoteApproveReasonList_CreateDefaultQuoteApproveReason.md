@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Kuvalis, Harvey and Lowe",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 535,
-  "Rank": 802,
+  "Id": 808,
+  "Name": "Christiansen, Bradtke and Botsford",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 546,
+  "Rank": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 203
     }
   }
 }

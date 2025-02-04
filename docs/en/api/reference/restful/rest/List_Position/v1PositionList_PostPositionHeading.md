@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 83,
-  "Name": "Turcotte LLC",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 250,
-  "UdListDefinitionId": 663
+  "HeadingId": 742,
+  "Name": "Mitchell-Kris",
+  "Tooltip": "debitis",
+  "Deleted": true,
+  "Rank": 16,
+  "UdListDefinitionId": 167
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 129,
-  "Name": "Runte-Jerde",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 903,
-  "UdListDefinitionId": 494,
+  "HeadingId": 906,
+  "Name": "Olson, Brekke and Mills",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 185,
+  "UdListDefinitionId": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   }
 }

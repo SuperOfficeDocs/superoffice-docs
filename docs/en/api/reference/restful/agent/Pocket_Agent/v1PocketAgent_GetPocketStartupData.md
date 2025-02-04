@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "nesciunt",
-    "qui"
+    "est",
+    "nihil"
   ],
-  "CurrentClientTime": "2007-08-04T10:17:55.8634298+02:00"
+  "CurrentClientTime": "2015-11-21T13:13:23.5863599+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "et",
-    "voluptatibus"
+    "saepe",
+    "ut"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 200,
-  "NotificationsCount": 465,
+  "OverdueSalesCount": 137,
+  "NotificationsCount": 257,
   "SystemWebPanels": [
     {
-      "WebPanelId": 306,
-      "Name": "Mitchell Group",
-      "Tooltip": "beatae",
+      "WebPanelId": 914,
+      "Name": "Brakus, Beahan and Williamson",
+      "Tooltip": "nihil",
       "Deleted": false,
-      "Rank": 133,
+      "Rank": 301,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Glover-Weber",
+      "WindowName": "Moore Group",
       "Url": "http://www.example.com/",
-      "ProgId": "dolorem",
-      "Icon": 612,
-      "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": false,
+      "ProgId": "praesentium",
+      "Icon": 929,
+      "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 363
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "perspiciatis",
+      "RawValue": "reprehenderit",
       "Specification": null,
-      "DisplayValue": "est",
-      "DisplayTooltip": "aut",
+      "DisplayValue": "nisi",
+      "DisplayTooltip": "quia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 878,
-      "PrefDescId": 829,
-      "TableName": "VonRueden-Connelly",
-      "UserPreferenceId": 517,
+      "TargetId": 582,
+      "PrefDescId": 278,
+      "TableName": "Romaguera Inc and Sons",
+      "UserPreferenceId": 844,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 527
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "dolorem",
+  "CustomData": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 658
     }
   }
 }

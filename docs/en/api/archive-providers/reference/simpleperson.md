@@ -668,7 +668,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/saintIntention|listAny|Intention|  |
 |personContact/saintTicketStatus|listAny|Status|  |
 |personContact/saintTicketCategory|listAny|Category|  |
-|personContact/selectionMemberId| *None* |Selection member ID: The database ID of the selection member record|  |
+|personContact/selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |personContact/selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
@@ -1019,7 +1019,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=getAllRows,email/emailHasBounced,correspondingAssociate/contactDepartment,personContact/contactSupportPerson/personExtra/x_person_priority_relation,request/ownedBy/mrMrs
+GET /api/v1/archive/SimplePerson?$select=isProjectMember,personTargetRelation/personAssociateId,personContact/contactSupportPerson/personHasInterests,personContact/contactSupportPerson/birthMonth,personContact/contactSupportPerson/whenUpdatedByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

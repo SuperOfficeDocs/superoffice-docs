@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lowe-Funk",
+  "GuiName": "Gislason, Goyette and Kuhlman",
   "ColumnWidths": [
-    "ut",
-    "nisi"
+    "molestiae",
+    "ducimus"
   ]
 }
 ```

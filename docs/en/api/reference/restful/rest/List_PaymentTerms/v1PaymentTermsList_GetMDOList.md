@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=commodi
+GET /api/v1/List/PaymentTerm/MDOItems?query=asperiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Jones Group",
-    "ToolTip": "Cumque consectetur assumenda cum aut repellendus ducimus.",
-    "Deleted": true,
-    "Rank": 772,
-    "Type": "non",
+    "Id": 138,
+    "Name": "Emmerich Inc and Sons",
+    "ToolTip": "Reiciendis nulla odio ipsam sed eaque voluptas nihil.",
+    "Deleted": false,
+    "Rank": 774,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Grant, Volkman and Jenkins",
-        "ToolTip": "Voluptatibus quae et et et quisquam dolore excepturi.",
-        "Deleted": false,
-        "Rank": 233,
-        "Type": "at",
+        "Id": 967,
+        "Name": "Mohr, Douglas and Kozey",
+        "ToolTip": "Possimus perferendis vitae distinctio beatae necessitatibus.",
+        "Deleted": true,
+        "Rank": 130,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 124,
-        "ExtraInfo": "tempora",
-        "StyleHint": "sit",
-        "FullName": "Adolfo Javier Thiel MD",
+        "IconHint": "minima",
+        "ColorBlock": 515,
+        "ExtraInfo": "ratione",
+        "StyleHint": "quia",
+        "FullName": "Mr. Carissa Sipes DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 496
+            "FieldLength": 541
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 113,
-    "ExtraInfo": "ipsa",
-    "StyleHint": "voluptas",
-    "FullName": "Eveline Fahey",
+    "IconHint": "nihil",
+    "ColorBlock": 197,
+    "ExtraInfo": "maiores",
+    "StyleHint": "dolor",
+    "FullName": "Waino Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 414
       }
     }
   }

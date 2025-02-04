@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 912,
-    "Name": "Koelpin-Corwin",
-    "ConsentText": "beatae",
-    "FormText": "quos",
-    "Key": "non",
-    "Tooltip": "suscipit",
-    "Active": 823,
-    "UpdatedDate": "2021-03-08T10:18:00.9574888+01:00",
+    "ConsentPurposeId": 297,
+    "Name": "Botsford-Veum",
+    "ConsentText": "velit",
+    "FormText": "omnis",
+    "Key": "et",
+    "Tooltip": "aut",
+    "Active": 316,
+    "UpdatedDate": "2019-10-25T13:13:32.9018014+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 186,
-    "PrivacyStatementDesc": "et",
+    "Deleted": false,
+    "Rank": 122,
+    "PrivacyStatementDesc": "asperiores",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

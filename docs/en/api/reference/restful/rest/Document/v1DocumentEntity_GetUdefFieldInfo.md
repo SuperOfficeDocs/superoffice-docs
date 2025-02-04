@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 788,
-  "ColumnId": 61,
-  "FieldDefault": "tenetur",
-  "FieldHeight": 719,
-  "FieldLabel": "et",
-  "FieldLeft": 152,
-  "FieldTop": 978,
+  "UDefFieldId": 612,
+  "ColumnId": 857,
+  "FieldDefault": "doloremque",
+  "FieldHeight": 552,
+  "FieldLabel": "quis",
+  "FieldLeft": 833,
+  "FieldTop": 232,
   "FieldType": "Checkbox",
-  "FieldWidth": 799,
-  "FormatMask": "voluptate",
+  "FieldWidth": 29,
+  "FormatMask": "odio",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 489,
-  "LabelLeft": 613,
-  "LabelTop": 213,
-  "LabelWidth": 330,
-  "LastVersionId": 446,
-  "ListTableId": 584,
+  "LabelHeight": 405,
+  "LabelLeft": 988,
+  "LabelTop": 253,
+  "LabelWidth": 146,
+  "LastVersionId": 490,
+  "ListTableId": 471,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 376,
-  "ProgId": "ducimus",
+  "Page1LineNo": 944,
+  "ProgId": "dolor",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 173,
-  "TextLength": 280,
-  "Tooltip": "porro",
-  "UdefIdentity": 24,
-  "UDListDefinitionId": 262,
+  "ShortLabel": "est",
+  "TabOrder": 787,
+  "TextLength": 494,
+  "Tooltip": "quas",
+  "UdefIdentity": 13,
+  "UDListDefinitionId": 539,
   "Justification": "Center",
-  "Version": 660,
-  "TemplateVariableName": "Braun Inc and Sons",
+  "Version": 833,
+  "TemplateVariableName": "Hegmann-Purdy",
   "HasBeenPublished": true,
-  "MdoListName": "Morissette-Zulauf",
+  "MdoListName": "Kuphal-Altenwerth",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   }
 }

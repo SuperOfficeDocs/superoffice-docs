@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Boyle Group",
-  "External": true
+  "ProgramName": "Lakin-Gerlach",
+  "External": false
 }
 ```
 

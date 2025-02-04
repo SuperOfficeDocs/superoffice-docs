@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 514,
-  "ERPQuoteVersionKey": "soluta",
-  "QuoteId": 203,
-  "Description": "User-friendly bifurcated array",
-  "Number": "1595308",
+  "QuoteVersionId": 637,
+  "ERPQuoteVersionKey": "iure",
+  "QuoteId": 667,
+  "Description": "Cross-group national implementation",
+  "Number": "1216879",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 743,
-  "SentDate": "2024-07-01T10:17:55.9259336+02:00",
-  "FollowupId": 246,
-  "ExpirationDate": "2020-10-17T10:17:55.9259336+02:00",
-  "DeliveryCountryId": 169,
+  "LikelyQuoteAlternativeId": 190,
+  "SentDate": "2015-02-04T13:13:23.6957086+01:00",
+  "FollowupId": 676,
+  "ExpirationDate": "2004-05-23T13:13:23.6957086+02:00",
+  "DeliveryCountryId": 763,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 950,
+  "InvoiceCountryId": 37,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "aperiam",
-  "ERPPaymentTypeKey": "omnis",
-  "ERPDeliveryTermsKey": "totam",
-  "ERPDeliveryTypeKey": "labore",
-  "Rank": 154,
-  "ApprovedBy": 605,
-  "ApprovedText": "quis",
-  "ApprovedRegisteredBy": 306,
-  "ApprovedRegisteredDate": "2019-04-19T10:17:55.9259336+02:00",
-  "ExtraField1": "sed",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "et",
-  "ExtraField4": "sequi",
-  "ExtraField5": "ad",
-  "LastRecalculated": "2014-06-11T10:17:55.9259336+02:00",
-  "Updated": "2008-10-18T10:17:55.9259336+02:00",
-  "UpdatedAssociateId": 827,
-  "Registered": "2009-02-15T10:17:55.9259336+01:00",
-  "RegisteredAssociateId": 208,
-  "RequestAssociateId": 683,
-  "RequestComment": "sit",
+  "ERPPaymentTermsKey": "qui",
+  "ERPPaymentTypeKey": "consequatur",
+  "ERPDeliveryTermsKey": "consequatur",
+  "ERPDeliveryTypeKey": "nihil",
+  "Rank": 639,
+  "ApprovedBy": 65,
+  "ApprovedText": "aut",
+  "ApprovedRegisteredBy": 549,
+  "ApprovedRegisteredDate": "2006-09-18T13:13:23.6957086+02:00",
+  "ExtraField1": "ea",
+  "ExtraField2": "maiores",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "debitis",
+  "LastRecalculated": "2003-12-25T13:13:23.6957086+01:00",
+  "Updated": "2002-07-06T13:13:23.6957086+02:00",
+  "UpdatedAssociateId": 869,
+  "Registered": "2007-07-28T13:13:23.6957086+02:00",
+  "RegisteredAssociateId": 682,
+  "RequestAssociateId": 472,
+  "RequestComment": "eum",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 504,
-      "ERPQuoteAlternativeKey": "qui",
-      "QuoteVersionId": 660,
-      "Name": "Schultz, Nikolaus and Kuhic",
-      "Description": "Robust grid-enabled migration",
+      "QuoteAlternativeId": 313,
+      "ERPQuoteAlternativeKey": "soluta",
+      "QuoteVersionId": 505,
+      "Name": "Grant, Ward and Dietrich",
+      "Description": "Polarised bi-directional definition",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30951.384,
-      "ERPDiscountAmount": 2667.034,
-      "DiscountPercent": 10213.706,
-      "DiscountAmount": 30992.126,
+      "ERPDiscountPercent": 30945.115999999998,
+      "ERPDiscountAmount": 27569.798,
+      "DiscountPercent": 12739.71,
+      "DiscountAmount": 27309.676,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nisi",
-      "VAT": 6333.8139999999994,
-      "EarningPercent": 23263.682,
-      "EarningAmount": 18819.67,
-      "SubTotal": 13777.064,
-      "TotalPrice": 16638.406,
-      "ExtraField1": "voluptatum",
-      "ExtraField2": "inventore",
-      "ExtraField3": "voluptatem",
-      "ExtraField4": "qui",
-      "ExtraField5": "unde",
+      "VATInfo": "deserunt",
+      "VAT": 17450.112,
+      "EarningPercent": 22129.174,
+      "EarningAmount": 2626.292,
+      "SubTotal": 17666.358,
+      "TotalPrice": 31233.444,
+      "ExtraField1": "nemo",
+      "ExtraField2": "saepe",
+      "ExtraField3": "ullam",
+      "ExtraField4": "dolorum",
+      "ExtraField5": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 218
+          "FieldLength": 138
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldLength": 445
     }
   }
 }

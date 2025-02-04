@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 18 Sep 2008 10:18:00 G9T
+Last-Modified: Thu, 12 Sep 2024 13:13:31 G9T
 
 {
-  "ForeignAppId": 712,
-  "Name": "Schulist, Marvin and Kessler",
-  "CreatedDate": "2008-04-23T10:18:00.4105739+02:00",
-  "UpdatedDate": "2008-09-18T10:18:00.4105739+02:00",
+  "ForeignAppId": 674,
+  "Name": "Koss-Gutmann",
+  "CreatedDate": "2014-08-09T13:13:31.7301065+02:00",
+  "UpdatedDate": "2024-09-12T13:13:31.7301065+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 257,
-      "Name": "Brakus Group",
-      "CreatedDate": "1998-04-09T10:18:00.4105739+02:00",
-      "UpdatedDate": "2017-11-06T10:18:00.4105739+01:00",
-      "AssociateFullName": "Felicita Ratke DVM",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "ad",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 697,
+      "ForeignDeviceId": 983,
+      "Name": "Bernhard Inc and Sons",
+      "CreatedDate": "2015-04-02T13:13:31.7301065+02:00",
+      "UpdatedDate": "2008-06-20T13:13:31.7301065+02:00",
+      "AssociateFullName": "Christiana Maximus Bernhard V",
+      "CreatedBy": "molestias",
+      "UpdatedBy": "minima",
+      "DeviceIdentifier": "veritatis",
+      "ForeignAppId": 881,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 112
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Thu, 18 Sep 2008 10:18:00 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

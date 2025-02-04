@@ -93,7 +93,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 202,
-  "ContactId": 40,
-  "ProjectId": 379,
-  "ContactName": "Boehm, Lemke and Feil",
+  "ProjectmemberId": 427,
+  "ContactId": 129,
+  "ProjectId": 500,
+  "ContactName": "Conn Group",
   "ContactDepartment": "",
-  "ProjectName": "Kuhn Inc and Sons",
-  "EmailId": 475,
-  "EmailAddress": "torrey.miller@ritchiekerluke.info",
-  "CountryId": 495,
-  "Firstname": "Rory",
-  "MiddleName": "Langworth-Koepp",
-  "Lastname": "Carroll",
-  "PersonId": 528,
-  "Mrmrs": "velit",
-  "ProjectMemberTypeName": "Jenkins Group",
-  "Phone": "129-106-5254 x46978",
-  "PhoneId": 59,
-  "ProjectMemberTypeId": 945,
-  "EmailAddressName": "tatyana@wisokylakin.biz",
-  "Comment": "ducimus",
-  "FullName": "Consuelo Huels",
+  "ProjectName": "Abbott, Ernser and Nitzsche",
+  "EmailId": 26,
+  "EmailAddress": "sierra.upton@thompson.co.uk",
+  "CountryId": 410,
+  "Firstname": "Christopher",
+  "MiddleName": "Cruickshank, Dietrich and Gleichner",
+  "Lastname": "Roob",
+  "PersonId": 539,
+  "Mrmrs": "delectus",
+  "ProjectMemberTypeName": "Funk, Bins and Kshlerin",
+  "Phone": "(385)545-2848 x839",
+  "PhoneId": 791,
+  "ProjectMemberTypeId": 61,
+  "EmailAddressName": "jana_hauck@mcclure.us",
+  "Comment": "quaerat",
+  "FullName": "Sylvester Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 316
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

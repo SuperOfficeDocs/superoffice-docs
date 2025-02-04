@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 239,
-  "Name": "Abshire-King",
-  "Tooltip": "vel",
+  "RoleId": 551,
+  "Name": "Balistreri LLC",
+  "Tooltip": "rem",
   "RoleType": "Anonymous",
-  "Deleted": 778,
-  "Rank": 287,
-  "Created": "2017-11-17T10:18:00.5355883+01:00",
-  "UseCategories": 574,
+  "Deleted": 145,
+  "Rank": 927,
+  "Created": "2012-04-28T13:13:31.9956719+02:00",
+  "UseCategories": 289,
   "CreatedBy": null,
-  "Updated": "2003-10-18T10:18:00.5355883+02:00",
+  "Updated": "2012-11-02T13:13:31.9956719+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldLength": 583
     }
   }
 }

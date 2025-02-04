@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 877,
-  "AssociateId": 700,
-  "Caption": "provident",
+  "DashboardId": 565,
+  "AssociateId": 799,
+  "Caption": "aut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 916,
-      "Caption": "facere",
-      "Description": "Automated asynchronous projection",
-      "ChartName": "Pollich Inc and Sons",
-      "ChartId": "sint",
+      "DashboardTileId": 422,
+      "Caption": "adipisci",
+      "Description": "Distributed zero tolerance complexity",
+      "ChartName": "Terry, Olson and Hoeger",
+      "ChartId": "modi",
       "IsDefault": true,
-      "AssociateId": 816,
-      "GroupId": 326,
-      "SelectionId": 70,
-      "Config": "incidunt",
+      "AssociateId": 770,
+      "GroupId": 946,
+      "SelectionId": 647,
+      "Config": "itaque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 575,
-  "AssociateId": 95,
-  "Caption": "asperiores",
+  "DashboardId": 363,
+  "AssociateId": 475,
+  "Caption": "vel",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 274,
-      "Caption": "nesciunt",
-      "Description": "Vision-oriented bottom-line budgetary management",
-      "ChartName": "Langworth Inc and Sons",
-      "ChartId": "amet",
-      "IsDefault": true,
-      "AssociateId": 209,
-      "GroupId": 87,
-      "SelectionId": 320,
-      "Config": "voluptas",
+      "DashboardTileId": 128,
+      "Caption": "incidunt",
+      "Description": "Re-engineered local strategy",
+      "ChartName": "Gislason-Heaney",
+      "ChartId": "in",
+      "IsDefault": false,
+      "AssociateId": 942,
+      "GroupId": 653,
+      "SelectionId": 648,
+      "Config": "pariatur",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 2
+          "FieldType": "System.Int32",
+          "FieldLength": 462
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldLength": 576
     }
   }
 }

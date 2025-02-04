@@ -1426,6 +1426,19 @@ title: Services88.ProjectAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="UpdateProjectMembers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+            <xs:element minOccurs="0" name="ProjectMembers" nillable="true" type="q122:ArrayOfProjectMember" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateProjectMembersResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetProjectMembers">
         <xs:complexType>
           <xs:sequence>
@@ -1436,42 +1449,42 @@ title: Services88.ProjectAgent WSDL
       <xs:element name="GetProjectMembersResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ArrayOfProjectMember" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ArrayOfProjectMember" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateProjectMember">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMember" nillable="true" type="q123:ProjectMember" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ProjectMember" nillable="true" type="q124:ProjectMember" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateProjectMemberResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q124:ProjectMember" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ProjectMember" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectMembersById">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q125:ArrayOfint" xmlns:q125="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q126:ArrayOfint" xmlns:q126="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectMembersByIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q126:ArrayOfProjectMember" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q127:ArrayOfProjectMember" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveProjectMembersFunctionAndComment">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q127:ArrayOfint" xmlns:q127="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ProjectMemberIds" nillable="true" type="q128:ArrayOfint" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="RoleId" type="xs:int" />
             <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
           </xs:sequence>
@@ -2315,6 +2328,23 @@ title: Services88.ProjectAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="UpdateProjectMembersRequest">
+    <wsdl:part name="parameters" element="tns:UpdateProjectMembers" />
+  </wsdl:message>
+  <wsdl:message name="UpdateProjectMembersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateProjectMembersResponse">
+    <wsdl:part name="parameters" element="tns:UpdateProjectMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateProjectMembersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetProjectMembersRequest">
     <wsdl:part name="parameters" element="tns:GetProjectMembers" />
   </wsdl:message>
@@ -2567,6 +2597,10 @@ title: Services88.ProjectAgent WSDL
     <wsdl:operation name="GetProjectMember">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectMember" name="GetProjectMemberRequest" message="tns:GetProjectMemberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectMemberResponse" name="GetProjectMemberResponse" message="tns:GetProjectMemberResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProjectMembers">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/UpdateProjectMembers" name="UpdateProjectMembersRequest" message="tns:UpdateProjectMembersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/UpdateProjectMembersResponse" name="UpdateProjectMembersResponse" message="tns:UpdateProjectMembersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectMembers">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectMembers" name="GetProjectMembersRequest" message="tns:GetProjectMembersRequest" />
@@ -3320,6 +3354,22 @@ title: Services88.ProjectAgent WSDL
         <soap:header message="tns:GetProjectMemberResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetProjectMemberResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetProjectMemberResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProjectMembers">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/UpdateProjectMembers" style="document" />
+      <wsdl:input name="UpdateProjectMembersRequest">
+        <soap:header message="tns:UpdateProjectMembersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateProjectMembersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateProjectMembersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateProjectMembersResponse">
+        <soap:header message="tns:UpdateProjectMembersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateProjectMembersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateProjectMembersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateProjectMembersResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

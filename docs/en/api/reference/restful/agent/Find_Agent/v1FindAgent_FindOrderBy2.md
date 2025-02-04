@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Christiansen-Heidenreich",
-  "StorageKey": "possimus",
-  "PageSize": 255,
-  "PageNumber": 205,
-  "OrderBy": "repudiandae"
+  "StorageType": "aliquid",
+  "ProviderName": "Rutherford Inc and Sons",
+  "StorageKey": "aperiam",
+  "PageSize": 56,
+  "PageNumber": 675,
+  "OrderBy": "dolor"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Glover-Jaskolski",
-      "DisplayTooltip": "itaque",
-      "DisplayType": "dolores",
+      "DisplayName": "Hegmann-Gibson",
+      "DisplayTooltip": "et",
+      "DisplayType": "nam",
       "CanOrderBy": false,
-      "Name": "Ortiz Group",
+      "Name": "Jones, Volkman and Dickinson",
       "CanRestrictBy": false,
-      "RestrictionType": "dolorum",
-      "RestrictionListName": "Olson LLC",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "id",
-      "IconHint": "est",
-      "HeadingIconHint": "minima"
+      "RestrictionType": "numquam",
+      "RestrictionListName": "Braun, Ebert and Legros",
+      "IsVisible": true,
+      "ExtraInfo": "facere",
+      "Width": "consequuntur",
+      "IconHint": "nisi",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gutkowski, Willms and Collier",
-      "PrimaryKey": 294,
+      "EntityName": "Lynch Inc and Sons",
+      "PrimaryKey": 325,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "voluptatum",
-          "LinkHint": "architecto"
+          "DisplayValue": "autem",
+          "TooltipHint": "similique",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "natus",
-      "StyleHint": "id",
+      "LinkHint": "mollitia",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldLength": 514
         }
       }
     }
   ],
-  "RowCount": 906,
+  "RowCount": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 234
     }
   }
 }

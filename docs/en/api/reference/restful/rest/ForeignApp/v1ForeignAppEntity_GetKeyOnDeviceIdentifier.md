@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 29 Apr 2010 10:18:00 G4T
+Last-Modified: Sun, 25 Sep 2011 13:13:31 G9T
 
 {
-  "Key": "veritatis",
-  "Value": "tempora",
-  "RecordId": 908,
-  "CreatedDate": "2020-06-30T10:18:00.4262067+02:00",
-  "UpdatedDate": "2010-04-29T10:18:00.4262067+02:00",
-  "UpdatedBy": "voluptates",
-  "CreatedBy": "sit",
-  "TableName": "Heidenreich-Kshlerin",
+  "Key": "quos",
+  "Value": "dolore",
+  "RecordId": 452,
+  "CreatedDate": "2007-12-09T13:13:31.7457296+01:00",
+  "UpdatedDate": "2011-09-25T13:13:31.7457296+02:00",
+  "UpdatedBy": "repellat",
+  "CreatedBy": "occaecati",
+  "TableName": "Schneider Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 370
     }
   }
 }

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 341,
-  "Name": "Williamson-Bergstrom",
+  "ScreenChooserId": 212,
+  "Name": "McGlynn, Marks and Luettgen",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "pariatur",
-  "Source": "odio",
-  "Registered": "2022-06-01T10:18:00.8168545+02:00",
-  "RegisteredAssociateId": 920,
-  "Updated": "2008-06-03T10:18:00.8168545+02:00",
-  "UpdatedAssociateId": 287,
+  "Enabled": false,
+  "UniqueIdentifier": "deserunt",
+  "Source": "necessitatibus",
+  "Registered": "2017-10-20T13:13:32.5111102+02:00",
+  "RegisteredAssociateId": 588,
+  "Updated": "2008-03-17T13:13:32.5111102+01:00",
+  "UpdatedAssociateId": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 405
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   }
 }

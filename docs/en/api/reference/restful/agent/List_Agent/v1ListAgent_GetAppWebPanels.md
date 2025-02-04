@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 162,
-    "Name": "Bauch Group",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 855,
+    "WebPanelId": 916,
+    "Name": "Jacobson, Fay and Kassulke",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 16,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Tromp Group",
+    "WindowName": "Abbott, Hirthe and Mayert",
     "Url": "http://www.example.com/",
-    "ProgId": "occaecati",
-    "Icon": 360,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "nulla",
+    "Icon": 689,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldLength": 146
       }
     }
   }

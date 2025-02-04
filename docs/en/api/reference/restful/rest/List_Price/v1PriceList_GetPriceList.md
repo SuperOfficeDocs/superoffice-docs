@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 307,
-  "ERPPriceListKey": "nemo",
-  "QuoteConnectionId": 903,
-  "Name": "Wilderman, Strosin and Treutel",
-  "Description": "Secured web-enabled knowledge user",
-  "Currency": "officiis",
-  "CurrencyName": "Fritsch Inc and Sons",
-  "ValidFrom": "2023-02-15T10:18:01.0668705+01:00",
-  "ValidTo": "2013-01-05T10:18:01.0668705+01:00",
-  "IsActive": true,
+  "PriceListId": 981,
+  "ERPPriceListKey": "in",
+  "QuoteConnectionId": 140,
+  "Name": "Marquardt LLC",
+  "Description": "Expanded eco-centric support",
+  "Currency": "quo",
+  "CurrencyName": "Hackett LLC",
+  "ValidFrom": "2017-10-13T13:13:33.2454698+02:00",
+  "ValidTo": "2007-08-05T13:13:33.2454698+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   },
   "_Links": {

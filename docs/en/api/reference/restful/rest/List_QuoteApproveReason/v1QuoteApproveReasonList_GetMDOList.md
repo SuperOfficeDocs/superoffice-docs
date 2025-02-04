@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=quisquam
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=deserunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Turcotte LLC",
-    "ToolTip": "Et nemo facere voluptatem corrupti laboriosam nostrum soluta.",
+    "Id": 75,
+    "Name": "Halvorson Inc and Sons",
+    "ToolTip": "Nihil et illum deleniti voluptatem qui facilis minus.",
     "Deleted": false,
-    "Rank": 261,
-    "Type": "voluptatem",
+    "Rank": 285,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Marvin Inc and Sons",
-        "ToolTip": "Qui nemo beatae et soluta nulla tempora qui.",
+        "Id": 407,
+        "Name": "Lowe Group",
+        "ToolTip": "Quod soluta quas expedita nihil dolorem quisquam impedit.",
         "Deleted": false,
-        "Rank": 790,
-        "Type": "eligendi",
+        "Rank": 557,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 447,
-        "ExtraInfo": "nemo",
-        "StyleHint": "iure",
-        "FullName": "Arne Walsh",
+        "IconHint": "dolor",
+        "ColorBlock": 263,
+        "ExtraInfo": "quia",
+        "StyleHint": "error",
+        "FullName": "Prof. Gregorio Lucious Huels MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 488,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "consectetur",
-    "FullName": "Wilma Kuhic",
+    "IconHint": "qui",
+    "ColorBlock": 769,
+    "ExtraInfo": "rem",
+    "StyleHint": "fugit",
+    "FullName": "Jovani Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 563
       }
     }
   }

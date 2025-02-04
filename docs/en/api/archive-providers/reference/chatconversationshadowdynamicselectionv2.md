@@ -483,7 +483,7 @@ ChatConversation shadow selection archive with OR-able selection groups. Each gr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/personNoMail,person/personExtra/x_person_time,person/personAssociate/title,contact/restrictionAddress/formattedMultiLineAddress,contact/contactAssociate/otherGroups
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionV2?$select=person/kanaLastName,person/personPrivate/formattedNumber,person/personUdef/SuperOffice:6,person/correspondingAssociate/contactCategory,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

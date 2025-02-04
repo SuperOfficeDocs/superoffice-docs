@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "UdListDefinitionId": 353,
+  "Id": 227,
+  "UdListDefinitionId": 97,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Runolfsson Inc and Sons",
-  "Tooltip": "itaque",
-  "Deleted": true,
-  "UdListDefinitionId": 341,
-  "Rank": 897,
+  "Id": 881,
+  "Name": "Greenholt, Rohan and Metz",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "UdListDefinitionId": 307,
+  "Rank": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

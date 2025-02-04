@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    841,
-    310
+    181,
+    724
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 746,
-    "UniqueId": "odit",
-    "Name": "Hyatt Group",
-    "Description": "Multi-layered solution-oriented firmware",
-    "AssociateId": 771,
-    "Columns": 120,
+    "DashboardId": 729,
+    "UniqueId": "aut",
+    "Name": "Strosin-Kuphal",
+    "Description": "Digitized client-driven internet solution",
+    "AssociateId": 594,
+    "Columns": 418,
     "Theme": null,
-    "VisibleForAll": 603,
+    "VisibleForAll": 113,
     "VisibleForAssociates": [
-      876,
-      538
+      803,
+      842
     ],
     "VisibleForGroups": [
-      655,
-      939
+      540,
+      489
     ],
-    "PinForAll": 62,
+    "PinForAll": 812,
     "PinForAssociates": [
-      797,
-      221
+      469,
+      553
     ],
     "PinForGroups": [
-      154,
-      114
+      913,
+      919
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 923
       }
     }
   }

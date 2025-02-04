@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 715
+  "QuoteId": 769
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 761,
-  "SaleId": 116,
-  "QuoteConnectionId": 675,
-  "ERPQuoteKey": "quia",
+  "QuoteId": 380,
+  "SaleId": 911,
+  "QuoteConnectionId": 778,
+  "ERPQuoteKey": "omnis",
   "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 356,
-  "AcceptedQuoteAlternativeId": 522,
-  "UseValuesFromQuote": 438,
-  "DocumentId": 699,
-  "PoNumber": "1388836",
-  "OrderComment": "eligendi",
-  "PreferredEmailCulture": "earl_purdy@torp.com",
+  "ActiveQuoteVersionId": 403,
+  "AcceptedQuoteAlternativeId": 703,
+  "UseValuesFromQuote": 566,
+  "DocumentId": 1001,
+  "PoNumber": "126440",
+  "OrderComment": "sed",
+  "PreferredEmailCulture": "anya@kiehn.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 764
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 759,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "voluptas",
-    "Rank": 378,
+    "SaleTypeId": 321,
+    "Name": "Tremblay, Gleason and Turcotte",
+    "Tooltip": "incidunt",
+    "Rank": 736,
     "DurationUnit": "Century",
-    "SaleDuration": 935,
-    "SaleTypeCatId": 563,
-    "Deleted": true,
-    "HasGuide": true,
+    "SaleDuration": 441,
+    "SaleTypeCatId": 865,
+    "Deleted": false,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 795,
-    "QuoteLinesTemplate": 69,
-    "ConfirmationLinesTemplate": 60,
-    "MaxDiscountPercentSet": true,
+    "DefaultQuoteValidity": 330,
+    "QuoteLinesTemplate": 595,
+    "ConfirmationLinesTemplate": 623,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 161,
-    "MinEarningPercent": 202,
-    "GroupQuoteLinesBy": 210,
-    "SortGroupLinesBy": 427,
+    "MaxDiscountPercent": 257,
+    "MinEarningPercent": 966,
+    "GroupQuoteLinesBy": 387,
+    "SortGroupLinesBy": 895,
     "Stages": [
       {
-        "Id": 442,
-        "Name": "Towne, Purdy and Hammes",
-        "ToolTip": "Libero rerum excepturi vel doloremque.",
+        "Id": 174,
+        "Name": "Koepp-Nienow",
+        "ToolTip": "Earum voluptas assumenda illo fuga excepturi et iure.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "ab",
-        "ColorBlock": 321,
-        "IconHint": "quia",
+        "Rank": 238,
+        "Type": "et",
+        "ColorBlock": 150,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2015-04-12T10:17:55.691537+02:00",
+        "LastChanged": "2011-09-25T13:13:23.2426833+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Mrs. Chadrick Lubowitz I",
+        "ExtraInfo": "nemo",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Mylene Karolann Glover V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 125
+            "FieldLength": 109
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldType": "System.Int32",
+        "FieldLength": 609
       }
     }
   }

@@ -90,17 +90,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 586,
-  "Name": "Trantow LLC",
-  "ContentType": "similique",
-  "AttSize": 490,
+  "AttachmentId": 162,
+  "Name": "Haley-Hettinger",
+  "ContentType": "beatae",
+  "AttSize": 9,
   "InlineImage": true,
-  "ContentId": "est",
-  "AuthKey": "qui",
+  "ContentId": "vitae",
+  "AuthKey": "voluptatem",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 960,
-  "Name": "Russel-Schuppe",
-  "ContentType": "doloremque",
-  "AttSize": 410,
+  "AttachmentId": 199,
+  "Name": "Reichel-Jewess",
+  "ContentType": "iusto",
+  "AttSize": 252,
   "InlineImage": false,
-  "ContentId": "earum",
-  "AuthKey": "nihil",
-  "IsSafeFileExtension": false,
+  "ContentId": "molestiae",
+  "AuthKey": "optio",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 337
     }
   },
   "_Links": {

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Towne LLC",
-  "Tooltip": "magnam",
+  "Id": 846,
+  "Name": "Sipes, Douglas and Ratke",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 335,
-  "Rank": 511,
+  "UdListDefinitionId": 38,
+  "Rank": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

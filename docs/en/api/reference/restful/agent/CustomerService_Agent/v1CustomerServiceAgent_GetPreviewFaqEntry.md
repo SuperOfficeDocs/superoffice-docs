@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 774
+  "KbEntryId": 744
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "magnam",
-  "RegisteredByFullName": "Sunny Sipes",
-  "Updated": "2016-10-21T10:17:55.3321476+02:00",
-  "Question": "fuga",
-  "Answer": "quisquam",
+  "Title": "reprehenderit",
+  "RegisteredByFullName": "Zechariah Kling",
+  "Updated": "2015-07-05T13:13:22.5394847+02:00",
+  "Question": "expedita",
+  "Answer": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 466
     }
   }
 }

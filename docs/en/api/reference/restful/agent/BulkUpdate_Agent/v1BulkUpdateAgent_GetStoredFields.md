@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "harum"
+  "Tablename": "project",
+  "Context": "quod"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "officiis",
-    "ValueType": "quasi",
+    "Key": "sed",
+    "ValueType": "dolore",
     "Mandatory": true,
-    "EncodedDisplayName": "Beer Group",
-    "EncodedDisplayDescription": "Balanced actuating focus group",
-    "IconHint": "nesciunt",
+    "EncodedDisplayName": "Kunde-Gutkowski",
+    "EncodedDisplayDescription": "Cloned directional website",
+    "IconHint": "accusantium",
     "ControlInfos": [
       {
-        "Type": "nobis",
-        "Label": "numquam",
-        "Dimension": 157,
-        "ListProviderName": "Robel-Corwin",
-        "ListProviderExtraInfo": "veniam",
-        "ListProviderPrimaryKeyName": "Steuber-Hoppe",
-        "ListLeadText": "rerum",
+        "Type": "ea",
+        "Label": "laudantium",
+        "Dimension": 818,
+        "ListProviderName": "Hilll-Kunde",
+        "ListProviderExtraInfo": "ipsum",
+        "ListProviderPrimaryKeyName": "Collins Group",
+        "ListLeadText": "doloremque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldLength": 528
           }
         }
       }
     ],
-    "EncodedDataCaption": "voluptatem",
-    "EncodedDataCaptionDescription": "Grass-roots homogeneous paradigm",
-    "CurrentOperationType": "commodi",
+    "EncodedDataCaption": "suscipit",
+    "EncodedDataCaptionDescription": "Up-sized full-range service-desk",
+    "CurrentOperationType": "quas",
     "Values": [
-      "voluptates",
-      "est"
+      "doloribus",
+      "velit"
     ],
     "DisplayValues": [
-      "corporis",
-      "sit"
+      "maiores",
+      "quia"
     ],
     "OperationInfos": [
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Spencer Inc and Sons",
+        "Key": "quibusdam",
+        "EncodedDisplayName": "Metz LLC",
         "EncodedLeadTexts": [
-          "architecto",
-          "nesciunt"
+          "impedit",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 306
+            "FieldLength": 965
           }
         }
       },
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Spencer Inc and Sons",
+        "Key": "quibusdam",
+        "EncodedDisplayName": "Metz LLC",
         "EncodedLeadTexts": [
-          "architecto",
-          "nesciunt"
+          "impedit",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 306
+            "FieldLength": 965
           }
         }
       }

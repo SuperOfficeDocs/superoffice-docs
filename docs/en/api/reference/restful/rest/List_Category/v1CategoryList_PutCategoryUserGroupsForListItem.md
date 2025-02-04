@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Stamm, Schumm and Collins",
-    "ToolTip": "Eveniet ut sed quisquam sit repudiandae.",
+    "Id": 106,
+    "Name": "Davis-Torphy",
+    "ToolTip": "Sequi neque iusto at.",
     "Deleted": false,
-    "Rank": 115,
-    "Type": "at",
-    "ColorBlock": 478,
-    "IconHint": "sequi",
+    "Rank": 118,
+    "Type": "quae",
+    "ColorBlock": 823,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2024-05-19T10:18:00.9418629+02:00",
+    "LastChanged": "2013-02-23T13:13:32.8549388+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Et quia consequatur sed non quo qui maiores.",
-        "Deleted": true,
-        "Rank": 975,
-        "Type": "mollitia",
-        "ColorBlock": 344,
-        "IconHint": "exercitationem",
+        "Id": 74,
+        "Name": "Hirthe-Pouros",
+        "ToolTip": "Enim aut id aut accusamus rerum.",
+        "Deleted": false,
+        "Rank": 7,
+        "Type": "quaerat",
+        "ColorBlock": 854,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2003-03-11T10:18:00.9418629+01:00",
+        "LastChanged": "2009-02-08T13:13:32.8549388+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Ms. Austyn Rebekah Doyle"
+        "ExtraInfo": "rerum",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Jasen Stiedemann"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "qui",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Isac Harris"
+    "FullName": "Mitchell Spencer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Ledner Group",
-    "ToolTip": "Placeat incidunt quibusdam in nihil quo possimus.",
+    "Id": 905,
+    "Name": "Wuckert, Donnelly and Weissnat",
+    "ToolTip": "Est perspiciatis omnis optio perspiciatis ea.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "perferendis",
-    "ColorBlock": 765,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "1999-04-04T10:18:00.9418629+02:00",
+    "Rank": 744,
+    "Type": "laboriosam",
+    "ColorBlock": 687,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2024-01-29T13:13:32.8549388+01:00",
     "ChildItems": [
       {
-        "Id": 362,
-        "Name": "Harber, DuBuque and Pacocha",
-        "ToolTip": "Qui dolores quam aliquid inventore doloribus expedita nam.",
-        "Deleted": false,
-        "Rank": 110,
-        "Type": "nobis",
-        "ColorBlock": 771,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2019-04-19T10:18:00.9418629+02:00",
+        "Id": 581,
+        "Name": "Schowalter, Johns and Koch",
+        "ToolTip": "Nisi neque voluptas reiciendis ullam enim.",
+        "Deleted": true,
+        "Rank": 541,
+        "Type": "dolor",
+        "ColorBlock": 623,
+        "IconHint": "odio",
+        "Selected": false,
+        "LastChanged": "2016-09-21T13:13:32.8549388+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Alta Corbin Greenholt II",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Lennie Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 9
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "deserunt",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Chanelle Marquardt",
+    "FullName": "Mr. Valentin Hodkiewicz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 178
       }
     }
   }

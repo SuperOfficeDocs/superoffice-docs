@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Mosciski-Stark",
-  "SaleDate": "2010-12-10T10:18:00.6918462+01:00",
-  "SaleId": 839,
-  "Probability": 325,
-  "Title": "voluptates",
-  "Amount": 8160.936,
-  "Currency": "cupiditate",
-  "ProjectName": "Bashirian Inc and Sons",
-  "AssociateFullName": "Jarrell Hegmann",
-  "Description": "Realigned attitude-oriented secured line",
+  "ContactName": "Mills, Kunde and Rath",
+  "SaleDate": "2011-11-24T13:13:32.2924104+01:00",
+  "SaleId": 470,
+  "Probability": 888,
+  "Title": "occaecati",
+  "Amount": 1833.3899999999999,
+  "Currency": "vel",
+  "ProjectName": "Effertz-Ledner",
+  "AssociateFullName": "Ms. Lola Patricia Dietrich",
+  "Description": "Secured uniform standardization",
   "Status": "Lost",
-  "WeightedAmount": 28171.525999999998,
-  "ProjectId": 671,
-  "EarningPercent": 15698.206,
-  "Earning": 27927.074,
-  "ContactId": 469,
-  "AssociateId": 755,
-  "PersonId": 676,
-  "SaleTypeId": 123,
-  "SaleTypeName": "King, O'Keefe and Dickens",
-  "PersonFullName": "Jordane Predovic",
+  "WeightedAmount": 3986.448,
+  "ProjectId": 183,
+  "EarningPercent": 6070.558,
+  "Earning": 13977.64,
+  "ContactId": 577,
+  "AssociateId": 791,
+  "PersonId": 543,
+  "SaleTypeId": 31,
+  "SaleTypeName": "Deckow-Rippin",
+  "PersonFullName": "Sandrine Howell",
   "Completed": "Completed",
-  "ActiveErpLinks": 611,
-  "NextDueDate": "2017-12-05T10:18:00.6918462+01:00",
-  "Number": "667781",
+  "ActiveErpLinks": 712,
+  "NextDueDate": "2008-07-29T13:13:32.2924104+02:00",
+  "Number": "1226818",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 446,
-    "Name": "Donnelly-Fritsch",
-    "ToolTip": "Ea qui voluptatem harum quo beatae.",
-    "Deleted": true,
-    "Rank": 949,
-    "Type": "veritatis",
-    "ColorBlock": 735,
-    "IconHint": "molestiae",
+    "Id": 405,
+    "Name": "Dare-Collins",
+    "ToolTip": "Debitis quo unde inventore.",
+    "Deleted": false,
+    "Rank": 632,
+    "Type": "enim",
+    "ColorBlock": 577,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2006-05-09T10:18:00.9574888+02:00",
+    "LastChanged": "2009-06-27T13:13:32.9174228+02:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Runolfsson-Williamson",
-        "ToolTip": "Quas culpa odit.",
+        "Id": 179,
+        "Name": "Little-Rolfson",
+        "ToolTip": "Et aut sit modi tenetur voluptas voluptatem.",
         "Deleted": false,
-        "Rank": 939,
-        "Type": "recusandae",
-        "ColorBlock": 825,
-        "IconHint": "hic",
+        "Rank": 930,
+        "Type": "velit",
+        "ColorBlock": 816,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2005-06-10T10:18:00.9574888+02:00",
+        "LastChanged": "2018-11-25T13:13:32.9174228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "quis",
+        "ExtraInfo": "et",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Prof. Minnie Mable Bergstrom MD"
+        "FullName": "Graciela Ward"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Miss Kailee Marquis Mosciski"
+    "ExtraInfo": "soluta",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Mollie Skiles"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Ruecker-Erdman",
-    "ToolTip": "Quae porro.",
+    "Id": 643,
+    "Name": "Bosco LLC",
+    "ToolTip": "Quia qui cumque eos quod expedita blanditiis.",
     "Deleted": false,
-    "Rank": 225,
-    "Type": "voluptatum",
-    "ColorBlock": 286,
-    "IconHint": "eligendi",
+    "Rank": 25,
+    "Type": "aut",
+    "ColorBlock": 797,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2007-01-13T10:18:00.9574888+01:00",
+    "LastChanged": "2012-06-01T13:13:32.9174228+02:00",
     "ChildItems": [
       {
-        "Id": 590,
-        "Name": "Collins Inc and Sons",
-        "ToolTip": "Corrupti dolore assumenda expedita omnis ut.",
+        "Id": 435,
+        "Name": "Lesch, Jenkins and Corkery",
+        "ToolTip": "Consequatur corporis assumenda suscipit quasi.",
         "Deleted": false,
-        "Rank": 299,
-        "Type": "qui",
-        "ColorBlock": 630,
-        "IconHint": "consequatur",
+        "Rank": 411,
+        "Type": "facere",
+        "ColorBlock": 714,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2002-06-21T10:18:00.9574888+02:00",
+        "LastChanged": "2000-08-16T13:13:32.9174228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Arianna Parker",
+        "ExtraInfo": "nobis",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Isaac Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 801
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Erich Renner",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Mrs. Garret Regan Sawayn IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 961
       }
     }
   }

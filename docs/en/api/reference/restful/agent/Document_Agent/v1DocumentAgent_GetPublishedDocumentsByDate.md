@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 541,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2021-09-10T10:17:55.3477735+02:00",
-  "EndTime": "2007-05-19T10:17:55.3477735+02:00",
-  "Count": 131
+  "PersonId": 393,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2009-07-06T13:13:22.5863494+02:00",
+  "EndTime": "2015-04-15T13:13:22.5863494+02:00",
+  "Count": 576
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 98,
-    "Attention": "ab",
-    "Header": "est",
-    "Name": "Trantow LLC",
-    "OurRef": "molestiae",
-    "YourRef": "ad",
-    "Description": "Sharable actuating model",
-    "DocumentTemplate": "quia",
+    "DocumentId": 787,
+    "Attention": "quo",
+    "Header": "optio",
+    "Name": "Stroman-Boehm",
+    "OurRef": "error",
+    "YourRef": "dolorum",
+    "Description": "Grass-roots multi-tasking info-mediaries",
+    "DocumentTemplate": "sit",
     "IsPublished": false,
-    "PersonId": 39,
-    "PersonFullName": "Mr. Ewell Gerhold",
-    "AssociateFullName": "Isadore Wiegand",
-    "ContactId": 214,
-    "ContactName": "Wolff-Walsh",
-    "ProjectId": 901,
-    "ProjectName": "Lebsack-Gleason",
-    "AssociateId": 849,
-    "Snum": 438,
-    "SaleId": 752,
-    "SaleName": "Collins-Moore",
+    "PersonId": 69,
+    "PersonFullName": "Ofelia Legros",
+    "AssociateFullName": "Prof. Madisyn Hilll DDS",
+    "ContactId": 308,
+    "ContactName": "Ritchie-Bogisich",
+    "ProjectId": 769,
+    "ProjectName": "O'Connell Inc and Sons",
+    "AssociateId": 499,
+    "Snum": 931,
+    "SaleId": 734,
+    "SaleName": "Rice, Roberts and Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

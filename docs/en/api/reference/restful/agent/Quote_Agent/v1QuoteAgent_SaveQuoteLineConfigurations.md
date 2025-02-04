@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 65,
-      "FieldName": "Russel LLC",
-      "Label": "delectus",
-      "Tooltip": "nobis",
-      "Editable": false,
-      "InUse": false,
+      "QuoteLineConfigurationId": 371,
+      "FieldName": "Trantow Inc and Sons",
+      "Label": "et",
+      "Tooltip": "enim",
+      "Editable": true,
+      "InUse": true,
       "Mandatory": true,
-      "Rank": 414,
-      "RestrictEdit": false
+      "Rank": 179,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 646,
-    "FieldName": "Welch Group",
-    "Label": "iusto",
-    "Tooltip": "ea",
+    "QuoteLineConfigurationId": 744,
+    "FieldName": "Kuvalis, Hills and Dickens",
+    "Label": "quo",
+    "Tooltip": "at",
     "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 806,
-    "RestrictEdit": false,
+    "Mandatory": true,
+    "Rank": 577,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

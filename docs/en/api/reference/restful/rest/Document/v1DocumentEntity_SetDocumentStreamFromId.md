@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 583,
+  "DocumentId": 970,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aspernatur",
-  "Header": "rerum",
-  "Name": "Zulauf Inc and Sons",
-  "OurRef": "ratione",
-  "YourRef": "itaque",
-  "CreatedDate": "2020-09-28T10:18:00.3949543+02:00",
-  "UpdatedDate": "2008-08-16T10:18:00.3949543+02:00",
-  "Description": "Multi-lateral fresh-thinking website",
+  "Attention": "modi",
+  "Header": "rem",
+  "Name": "Bradtke-Yost",
+  "OurRef": "nobis",
+  "YourRef": "et",
+  "CreatedDate": "2022-03-07T13:13:31.6988645+01:00",
+  "UpdatedDate": "2004-01-19T13:13:31.6988645+01:00",
+  "Description": "Integrated grid-enabled access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-04-18T10:18:00.3949543+02:00",
-  "ExternalRef": "harum",
+  "Date": "2002-12-02T13:13:31.6988645+01:00",
+  "ExternalRef": "facilis",
   "Completed": "Completed",
-  "ActiveLinks": 268,
+  "ActiveLinks": 853,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz Group",
-      "Id": 517,
-      "Description": "Innovative content-based task-force",
-      "ExtraInfo": "vel",
-      "LinkId": 499,
+      "EntityName": "Jaskolski-Swaniawski",
+      "Id": 530,
+      "Description": "Down-sized client-server synergy",
+      "ExtraInfo": "tenetur",
+      "LinkId": 105,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldLength": 582
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 77,
-  "Snum": 266,
+  "SuggestedDocumentId": 368,
+  "Snum": 502,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Reese Harley Sawayn",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "718880442",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "optio"
+    "CustomFields1": "corporis",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "1999-03-08T10:18:00.3949543+01:00",
-  "PublishTo": "2024-08-22T10:18:00.3949543+02:00",
-  "PublishFrom": "2003-01-09T10:18:00.3949543+01:00",
+  "PublishEventDate": "2013-04-01T13:13:31.6988645+02:00",
+  "PublishTo": "2000-09-07T13:13:31.6988645+02:00",
+  "PublishFrom": "2024-05-05T13:13:31.6988645+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 165,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     },
     {
-      "VisibleId": 165,
+      "VisibleId": 52,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 277
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

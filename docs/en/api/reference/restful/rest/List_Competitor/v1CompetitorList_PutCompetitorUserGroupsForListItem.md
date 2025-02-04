@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Doyle-Schultz",
-    "ToolTip": "At repudiandae iure et libero sunt.",
-    "Deleted": false,
-    "Rank": 4,
-    "Type": "aut",
-    "ColorBlock": 320,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2014-05-29T10:18:00.9574888+02:00",
+    "Id": 210,
+    "Name": "Leannon, Kunde and Morissette",
+    "ToolTip": "Delectus officiis expedita.",
+    "Deleted": true,
+    "Rank": 274,
+    "Type": "est",
+    "ColorBlock": 608,
+    "IconHint": "vero",
+    "Selected": false,
+    "LastChanged": "2014-11-25T13:13:32.8861799+01:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Toy-Dickens",
-        "ToolTip": "Facere voluptatum rerum.",
+        "Id": 554,
+        "Name": "Cassin, Kessler and Kunde",
+        "ToolTip": "Autem quas dolorem aperiam excepturi dolorum.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "consequatur",
-        "ColorBlock": 168,
-        "IconHint": "excepturi",
+        "Rank": 600,
+        "Type": "aut",
+        "ColorBlock": 677,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2015-03-04T10:18:00.9574888+01:00",
+        "LastChanged": "2005-01-25T13:13:32.8861799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "itaque",
+        "ExtraInfo": "aut",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Lenny White"
+        "FullName": "Mr. Greta Deron Johnston"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "doloremque",
-    "Hidden": false,
-    "FullName": "Timothy Homenick"
+    "ExtraInfo": "rem",
+    "StyleHint": "itaque",
+    "Hidden": true,
+    "FullName": "Cesar Anderson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Conroy Inc and Sons",
-    "ToolTip": "Asperiores illo eveniet voluptatibus sint ut optio.",
+    "Id": 749,
+    "Name": "Rempel-Wolf",
+    "ToolTip": "Voluptatem accusantium quas.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "quas",
-    "ColorBlock": 434,
-    "IconHint": "cumque",
-    "Selected": false,
-    "LastChanged": "2006-06-08T10:18:00.9574888+02:00",
+    "Rank": 89,
+    "Type": "et",
+    "ColorBlock": 858,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2012-06-26T13:13:32.8861799+02:00",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Kreiger-Wolf",
-        "ToolTip": "Accusamus vel laudantium consequatur qui quia quos.",
+        "Id": 861,
+        "Name": "McGlynn LLC",
+        "ToolTip": "Nostrum quas eveniet et voluptatum ab quia.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "est",
-        "ColorBlock": 747,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2012-05-26T10:18:00.9574888+02:00",
+        "Rank": 996,
+        "Type": "voluptas",
+        "ColorBlock": 11,
+        "IconHint": "eius",
+        "Selected": false,
+        "LastChanged": "2010-04-03T13:13:32.8861799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "eos",
+        "ExtraInfo": "quis",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Norris Zulauf",
+        "FullName": "Erik Schaden DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldType": "System.String",
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Prof. River Armani Bailey",
+    "ExtraInfo": "harum",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Sarah Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 758
       }
     }
   }

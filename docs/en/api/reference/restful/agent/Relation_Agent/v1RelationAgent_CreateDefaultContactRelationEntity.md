@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 493,
-  "SourcePersonId": 687,
-  "DestinationContactId": 101,
-  "DestinationPersonId": 397,
-  "RelationId": 787,
-  "Comment": "numquam",
-  "RelationDefinitionId": 204,
-  "Reversed": 635,
-  "UpdatedDate": "2021-10-01T10:17:55.9571855+02:00",
-  "CreatedDate": "1998-07-14T10:17:55.9571855+02:00",
+  "SourceContactId": 768,
+  "SourcePersonId": 319,
+  "DestinationContactId": 761,
+  "DestinationPersonId": 831,
+  "RelationId": 471,
+  "Comment": "consectetur",
+  "RelationDefinitionId": 47,
+  "Reversed": 597,
+  "UpdatedDate": "2012-12-13T13:13:23.7738157+01:00",
+  "CreatedDate": "2010-05-23T13:13:23.7738157+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Botsford, Carter and Franecki",
-  "SourcePersonName": "Herman LLC",
-  "DestinationContactName": "Baumbach, Jacobs and Heathcote",
-  "DestinationPersonName": "Ferry-O'Connell",
-  "ActiveText": "sapiente",
-  "PassiveText": "ea",
+  "SourceContactName": "Miller-Schinner",
+  "SourcePersonName": "McDermott, Jast and Schowalter",
+  "DestinationContactName": "Hand-Parker",
+  "DestinationPersonName": "Ritchie, Fahey and Schuster",
+  "ActiveText": "aliquid",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

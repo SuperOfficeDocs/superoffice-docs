@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 929,
-  "Name": "Stanton-Moen",
-  "Rank": 771,
-  "Tooltip": "rem",
-  "Deleted": false,
+  "ResourceId": 964,
+  "Name": "Kuhic-Braun",
+  "Rank": 388,
+  "Tooltip": "fugit",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "et",
+  "LocationAddress": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 607
     }
   }
 }

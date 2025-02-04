@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Mante, Torp and Crist",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 31,
-    "Rank": 74
+    "Id": 467,
+    "Name": "Donnelly Group",
+    "Tooltip": "aspernatur",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 575
   },
   {
-    "Id": 244,
-    "Name": "Mante, Torp and Crist",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 31,
-    "Rank": 74
+    "Id": 467,
+    "Name": "Donnelly Group",
+    "Tooltip": "aspernatur",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 575
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Nienow LLC",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "UdListDefinitionId": 354,
-    "Rank": 528,
+    "Id": 272,
+    "Name": "Klocko Inc and Sons",
+    "Tooltip": "blanditiis",
+    "Deleted": true,
+    "UdListDefinitionId": 438,
+    "Rank": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 255
       }
     }
   }

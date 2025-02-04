@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hoeger Inc and Sons",
-  "DeviceName": "Hodkiewicz-Hodkiewicz",
-  "DeviceIdentifier": "eum"
+  "ApplicationName": "Carter-Altenwerth",
+  "DeviceName": "Hilpert, Russel and Baumbach",
+  "DeviceIdentifier": "est"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 256,
-  "Name": "Aufderhar Group",
-  "CreatedDate": "2019-09-18T10:17:55.660285+02:00",
-  "UpdatedDate": "2018-12-23T10:17:55.660285+01:00",
-  "AssociateFullName": "Ms. Cierra Consuelo Swift DVM",
-  "CreatedBy": "qui",
-  "UpdatedBy": "quibusdam",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 807,
+  "ForeignDeviceId": 646,
+  "Name": "Schmeler, Wolff and Hettinger",
+  "CreatedDate": "2000-08-09T13:13:23.1645837+02:00",
+  "UpdatedDate": "2013-05-05T13:13:23.1645837+02:00",
+  "AssociateFullName": "Ernestine Cruickshank",
+  "CreatedBy": "magni",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "consequatur",
+  "ForeignAppId": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

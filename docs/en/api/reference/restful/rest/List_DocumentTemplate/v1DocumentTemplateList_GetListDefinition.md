@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Wolf, Herman and Emard",
+  "Id": 6,
+  "Name": "Kulas Inc and Sons",
   "Tooltip": "est",
   "Deleted": false,
-  "Rank": 287,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 716,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 998
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   },
   "_Links": {

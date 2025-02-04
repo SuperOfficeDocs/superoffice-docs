@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 449,
-  "Caption": "ut",
-  "Description": "Programmable client-driven workforce",
-  "ChartName": "Murphy Inc and Sons",
-  "ChartId": "inventore",
-  "IsDefault": false,
-  "AssociateId": 552,
-  "GroupId": 763,
-  "SelectionId": 713,
-  "Config": "voluptatibus",
+  "DashboardTileId": 585,
+  "Caption": "aliquam",
+  "Description": "Expanded 24/7 conglomeration",
+  "ChartName": "Hoppe-Schultz",
+  "ChartId": "porro",
+  "IsDefault": true,
+  "AssociateId": 246,
+  "GroupId": 907,
+  "SelectionId": 689,
+  "Config": "praesentium",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Veum-Christiansen",
-      "Description": "Function-based object-oriented protocol",
+      "Name": "Koss-Upton",
+      "Description": "Assimilated needs-based knowledge user",
       "Type": "Boolean",
-      "ListName": "Satterfield LLC",
+      "ListName": "Kshlerin-Nitzsche",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "officia",
+      "Value": "non",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldLength": 562
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 311,
+      "VisibleId": 117,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     },
     {
-      "VisibleId": 311,
+      "VisibleId": 117,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   },
   "_Links": {

@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 783,
-    "Name": "Kihn, Jenkins and Lynch",
-    "OrgNr": "1854271",
+    "ContactId": 358,
+    "Name": "Simonis-Goyette",
+    "OrgNr": "1445243",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "porro",
-    "DirectPhone": "358.043.1189",
-    "AssociateId": 326,
-    "CountryId": 562,
-    "EmailAddress": "effie_schamberger@tromp.uk",
+    "City": "nulla",
+    "DirectPhone": "(457)353-8803 x6345",
+    "AssociateId": 215,
+    "CountryId": 105,
+    "EmailAddress": "leanna@boyletreutel.com",
     "Kananame": "nemo",
-    "EmailAddressName": "nelle_harris@zemlak.biz",
+    "EmailAddressName": "arnoldo_effertz@rolfson.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Carmelo Macejkovic",
+    "AssociateFullName": "Harmon Johns",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "molestiae",
-    "FullName": "Ezekiel Fritsch",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 694,
-    "Number1": "645092",
-    "Number2": "481840",
+    "FormattedAddress": "saepe",
+    "FullName": "Maynard Lueilwitz",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 466,
+    "Number1": "1052617",
+    "Number2": "1551772",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 267
       }
     }
   }
