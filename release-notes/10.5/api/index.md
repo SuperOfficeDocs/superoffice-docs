@@ -3,7 +3,7 @@ uid: news-api-10.5
 title: What's new in SuperOffice 10.5
 description: Release notes. What's new in SuperOffice 10.5
 keywords: API
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 
 version: 10.5
 topic: reference

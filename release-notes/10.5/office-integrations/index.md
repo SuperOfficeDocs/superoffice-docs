@@ -3,7 +3,7 @@ uid: news-office-integrations-2025
 title: What's new in SuperOffice integrations
 description: Release notes. What's new in SuperOffice Office integrations
 keywords: Office integrations, SuperOffice for Outlook, integration, Outlook
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 01.21.2025
 version: sofo-6.0
 topic: reference

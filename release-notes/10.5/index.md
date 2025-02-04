@@ -3,7 +3,7 @@ uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
 keywords: new UI, diary, Copilot, AI, CRMScript, close request tab, trigger split request
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 02.11.2025
 version: 10.5
 topic: reference
@@ -50,6 +50,7 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 10.5.2 (11.02.2025):
+  * [Diary - Follow-up context menu includes Create new based on this (10.5.2)][4] in Core CRM
   * [CRMScript - Trigger to Split Request (10.5.2)][3] in Settings and maintenance
   * [CRMScript - Close request tab (10.5.2)][3] in Settings and maintenance
 
@@ -112,6 +113,7 @@ See all the [new or updated apps][6]
 [1]: admin/10.5.1-update.md
 [2]: core-crm/10.5.1-update.md
 [3]: admin/10.5.2-update.md
+[4]: core-crm/10.5.2-update.md
 [5]: ../mobile/index.md
 [6]: https://appstore.superoffice.com/Category/new-and-updated
 [7]: https://community.superoffice.com/en/product-releases/pilot-programs/

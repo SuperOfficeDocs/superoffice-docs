@@ -3,7 +3,7 @@ uid: news-sofo-6.0
 title: Office integrations 6.0 update
 description: Release notes. What's new in SuperOffice Office integrations 6.0
 keywords: SuperOffice for Outlook
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 01.21.2025
 version: 6.0
 topic: reference
